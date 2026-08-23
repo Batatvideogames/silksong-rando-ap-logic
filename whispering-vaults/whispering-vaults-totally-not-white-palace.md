@@ -2,8 +2,6 @@
 
 **Game ID:** Library_07
 
-**Contributors:** rebelslayer
-
 ## Subrooms
 
 - White Palace Lite
@@ -39,9 +37,9 @@
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Clawline Ring | Collectibles(TM) | Clawline. |  |  | Included |  |
+| Whispering Vaults: Clawline Ring | Collectibles(TM) | Clawline. |  |  | Included |  |
 | AP Minor Cache - Whispering Vaults - Rosary Cache #5 | Collectibles 2(TM) | Nothing. |  |  | Included |  |
 | AP Minor Cache - Whispering Vaults - Shell Shard Cache #1 | Collectibles(TM) | Nothing. |  |  | Included |  |
-| Breakable Wall #1 | Collectibles(TM) | Nothing. |  |  | Included |  |
-| Breakable Wall #2 | Collectibles(TM) | Nothing. |  |  | Included |  |
-| Fan Lever | White Palace Lite | Nothing. |  |  | Included |  |
+| Whispering Vaults: Break Wall #2 (Left) | Collectibles(TM) | Nothing. |  |  | Included |  |
+| Whispering Vaults: Break Wall #3 (Left) | Collectibles(TM) | Nothing. |  |  | Included |  |
+| Whispering Vaults: Flip Switch #2 (Left OR Right) | White Palace Lite | Nothing. |  |  | Included |  |

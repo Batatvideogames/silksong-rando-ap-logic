@@ -2,8 +2,6 @@
 
 **Game ID:** Library_13
 
-**Contributors:** rebelslayer
-
 ## Subrooms
 
 - Top
@@ -16,7 +14,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | TR | right1 | Top | [Trobbio Entrance (Library_13b)](trobbio-entrance.md) | L | Nothing. |  |  |  |
 | L | left1 | Bottom | [Grand Bellway Shaft (Song_20)](../choral-chambers/grand-bellway-shaft.md) | RS | Nothing. |  |  |  |
-| BR | right2 | Fight | [Vaults Cauldron Entrance (Library_11)](../underworks/vaults-cauldron-entrance.md) | TL | Nothing. |  |  |  |
+| BR | right2 | Fight | [Vaults & Bellway Cauldron Entrance (Library_11)](../underworks/vaults-bellway-cauldron-entrance.md) | TL | Nothing. |  |  |  |
 
 ## Subroom Connections
 
@@ -32,9 +30,10 @@
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | Dual Mirrors | Fight | Beat Trobbio 2 |  |  | Included |  |
-| Lore Tablet #1 | Bottom | Nothing. |  |  | Included |  |
+| Whispering Vaults: Lore #4 | Bottom | Nothing. |  |  | Included |  |
 | Trobbio | Fight | Nothing. |  |  | Included |  |
 | Claw Mirror | Fight | Beat Trobbio 1 |  |  | Included |  |
-| Lever: Whispering Vaults #1 | Bottom | Nothing. |  |  | Included |  |
-| Lever: Whispering Vaults #2 | Bottom | Nothing. |  |  | Included |  |
+| Whispering Vaults: Flip Switch #1 (Up) | Bottom | Nothing. |  |  | Included |  |
+| Whispering Vaults: Flip Switch #2 (Left) | Bottom | Nothing. |  |  | Included |  |
 | AP Minor Cache - Whispering Vaults - Shell Shard Cache #2 | Top | Nothing. |  |  | Included |  |
+| Shell Shard 03 Persistent |  |  |  |  | Included |  |

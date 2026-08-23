@@ -8,27 +8,27 @@
 
 - before door
 - after door
-- right exit area
+- checks alcove
 
 ## Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 | before door | [The Marrow Jail Pathway (Bone_08)](../the-marrow/the-marrow-jail-pathway.md) | MR | none |  |  |  |
-| R | right1 | right exit area | [Hunter's March Pogo Intro (Ant_03)](hunter-s-march-pogo-intro.md) | L | none |  |  |  |
+| L | left1 | before door | [The Marrow Jail Pathway (Bone_08)](../the-marrow/the-marrow-jail-pathway.md) | MR | none |  | Verified |  |
+| R | right1 | after door | [Hunter's March Pogo Intro (Ant_03)](hunter-s-march-pogo-intro.md) | L | none |  | Verified |  |
 
 ## Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| FG | fight grunt | before door | after door | none (defeat grunt) |  |  |  |
-| FG | fight grunt | after door | before door | grunt defeated (other side) |  |  |  |
-| EP | easy pogo | after door | right exit area | can pogo |  |  |  |
-| EP | easy pogo | right exit area | after door | can pogo |  |  |  |
+| FG | fight grunt | before door | after door | none (defeat grunt) |  | Verified |  |
+| FG | fight grunt | after door | before door | grunt defeated (other side) |  | Verified |  |
+| LG | ledge grab | after door | checks alcove | ledge grab OR faydown cloak OR silk soar |  | Verified |  |
+| LG | ledge grab | checks alcove | after door | none (falling) |  | Verified |  |
 
 ## Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| shell shard cache hunter's march 1 | after door | none |  |  | Included | MARKED AS ??? ON TRACKER |
-| shell shard cache hunter's march 2 | after door | none |  |  | Included | MARKED AS ??? ON TRACKER |
+| shell shard cache hunter's march 1 | checks alcove | none |  | Verified | Included | MARKED AS ??? ON TRACKER |
+| shell shard cache hunter's march 2 | checks alcove | none |  | Verified | Included | MARKED AS ??? ON TRACKER |

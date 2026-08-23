@@ -22,7 +22,7 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| progressive curveclaw |  | act 3 AND curveclaw AND red slot |  |  | Not included | NOT CURRENTLY ON TRACKER - MAY NOT BE RANDOMIZED |
+| progressive curveclaw |  | act 3 AND curveclaw AND red slot |  | Verified | Not included | NOT CURRENTLY ON TRACKER - MAY NOT BE RANDOMIZED |
 
 ## Notes
 

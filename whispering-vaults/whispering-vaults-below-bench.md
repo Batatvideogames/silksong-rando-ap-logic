@@ -2,8 +2,6 @@
 
 **Game ID:** Library_06
 
-**Contributors:** rebelslayer
-
 ## Subrooms
 
 - Bottom
@@ -32,5 +30,5 @@
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | AP Minor Cache - Whispering Vaults - Rosary Cache #4 | Rosary | Nothing. |  |  | Included |  |
-| Rosary Cache (Small) | Rosary | Nothing. |  |  | Included |  |
-| Rosary Dish #2 | Rosary | Nothing. |  |  | Included |  |
+| Whispering Vaults: Rosary Cache #3 | Rosary | Nothing. |  |  | Included |  |
+| Whispering Vaults: Rosary Dish #2 | Rosary | Nothing. |  |  | Included |  |

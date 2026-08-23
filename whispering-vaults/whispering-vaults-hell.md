@@ -2,8 +2,6 @@
 
 **Game ID:** Library_04
 
-**Contributors:** rebelslayer
-
 ## Subrooms
 
 - Ground
@@ -62,9 +60,9 @@
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Lever: Whispering Vaults #6 | Distant Platform | Nothing. |  |  | Included |  |
-| Lever: Whispering Vaults #7 | Lever | Nothing. |  |  | Included |  |
-| Ladder #3 | Top Hallway | Nothing. |  |  | Included |  |
-| Map Station | Map Room | Nothing. |  |  | Included |  |
-| Breakable Floor | Map Room | Nothing. |  |  | Included |  |
-| Rosary Dish #5 | Rosary Dish | Nothing. |  |  | Included |  |
+| Whispering Vaults: Flip Switch #7 (Left OR Right) | Distant Platform | Nothing. |  |  | Included |  |
+| Whispering Vaults: Flip Switch #8 (Left OR Right) | Lever | Nothing. |  |  | Included |  |
+| Whispering Vaults: Flip Switch #9 (Up) | Top Hallway | Nothing. |  |  | Included |  |
+| Map: Whispering Vaults | Map Room | Nothing. |  |  | Included |  |
+| Whispering Vaults: Break Wall #5 (Up) | Map Room | Nothing. |  |  | Included |  |
+| Whispering Vaults: Rosary Dish #3 | Rosary Dish | Nothing. |  |  | Included |  |

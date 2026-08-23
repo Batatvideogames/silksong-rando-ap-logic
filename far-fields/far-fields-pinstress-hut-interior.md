@@ -1,6 +1,6 @@
-# Far Fields Lava Challenge (Bone_East_LavaChallenge)
+# Far Fields Pinstress Hut Interior (Bone_East_Umbrella)
 
-**Game ID:** Bone_East_LavaChallenge
+**Game ID:** Bone_East_Umbrella
 
 **Contributors:** herounit
 
@@ -12,7 +12,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Far Fields East Skull Room (Bone_East_14b)](far-fields-east-skull-room.md) | D |  |  |  |  |
+| L | left1 |  | [Far Fields Pinstress Room (Bone_East_09)](far-fields-pinstress-room.md) | D | none |  | Verified |  |
 
 ## Subroom Connections
 
@@ -22,5 +22,5 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| shell shard cache far fields 8 |  |  | TODO |  | Included |  |
-| mask shard far fields skull cave |  |  | TODO |  | Included |  |
+| bench |  | none |  | Verified | Not included |  |
+| flexible spines wish start |  | none |  | Verified | Included |  |

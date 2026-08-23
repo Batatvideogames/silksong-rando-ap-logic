@@ -2,8 +2,6 @@
 
 **Game ID:** Under_05
 
-**Contributors:** samupo
-
 ## Subrooms
 
 - Wisp Thicket
@@ -16,11 +14,11 @@
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | TL | left1 | Top | [Underworks Below Confession (Under_06)](underworks-below-confession.md) | R | none |  |  |  |
-| R | right2 | Mid | TODO |  | none |  |  |  |
+| R | right2 | Mid | [Underworks Rosary Room (Under_12)](underworks-rosary-room.md) | L | none |  |  |  |
 | BL | left2 | Bottom | [Underworks Crushing Path (Under_04)](underworks-crushing-path.md) | R | none |  |  |  |
-| BR | right3 | Bottom | TODO |  | none |  |  |  |
+| BR | right3 | Bottom | [Underworks Eastern Gauntlet (Under_10)](underworks-eastern-gauntlet.md) | L | none |  |  |  |
 | WT | left3 | Wisp Thicket | [Underworks Wisp Thicket Passage (Under_23)](underworks-wisp-thicket-passage.md) | R | none |  |  |  |
-| TR | right1 | Top | TODO |  | none |  |  |  |
+| TR | right1 | Top | [Underworks Lever Spike Corridor (Under_11)](underworks-lever-spike-corridor.md) | L | none |  |  |  |
 
 ## Subroom Connections
 

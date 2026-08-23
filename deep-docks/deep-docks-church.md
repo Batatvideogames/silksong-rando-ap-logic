@@ -13,7 +13,7 @@ No subrooms defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | R | right1 |  | [Deep Docks Lower West Shaft (Dock_04)](deep-docks-lower-west-shaft.md) | L | none |  |  |  |
-| F | bot1 |  | TODO |  |  | TODO |  | FROM THE ABYSS ESCAPE |
+| F | bot1 |  | [Abyss Escape (Abyss_09)](../the-abyss/abyss-escape.md) | C |  | TODO |  | FROM THE ABYSS ESCAPE |
 
 ## Subroom Connections
 

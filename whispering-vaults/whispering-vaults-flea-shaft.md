@@ -2,8 +2,6 @@
 
 **Game ID:** Library_01
 
-**Contributors:** rebelslayer
-
 ## Subrooms
 
 - Top
@@ -36,5 +34,5 @@
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Flea: Whispering Vaults | Flea Check | Silk Soar OR Scuttlebrace/Cling Grip AND Clawline/Sharp Dart/Drifter's Cloak/Beast Charge/Beast Pogo/Architect Charge OR Cling Grip/Scuttlebrace AND Faydown Cloak AND Swift Step |  |  | Included |  |
-| Breakable Wall: Whispering Vaults | Bottom | Nothing, leads to BL |  |  | Included |  |
+| Whispering Vaults: Flea #1 | Flea Check | Silk Soar OR Scuttlebrace/Cling Grip AND Clawline/Sharp Dart/Drifter's Cloak/Beast Charge/Beast Pogo/Architect Charge OR Cling Grip/Scuttlebrace AND Faydown Cloak AND Swift Step |  |  | Included |  |
+| Whispering Vaults: Break Wall #4 (Left) | Bottom | Nothing, leads to BL |  |  | Included |  |

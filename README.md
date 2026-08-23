@@ -78,8 +78,8 @@ Generated from the non-archived records in `input/silksong-rando-logic.db`.
 
 ## Deep Docks
 
+- [Deep Docks Diving Bell Interior (Room_Diving_Bell)](./deep-docks/deep-docks-diving-bell-interior.md)
 - [Deep Docks Entrance (Dock_08)](./deep-docks/deep-docks-entrance.md)
-- [Diving Bell Deep Docks (Room_Diving_Bell)](./deep-docks/diving-bell-deep-docks.md)
 - [Deep Docks Bench Shaft (Dock_01)](./deep-docks/deep-docks-bench-shaft.md)
 - [Deep Docks Map Shop (Bone_East_01)](./deep-docks/deep-docks-map-shop.md)
 - [Deep Docks Map Shop Side Room (Dock_05)](./deep-docks/deep-docks-map-shop-side-room.md)
@@ -107,33 +107,44 @@ Generated from the non-archived records in `input/silksong-rando-logic.db`.
 - [Deep Docks Memory Hole (Dock_13)](./deep-docks/deep-docks-memory-hole.md)
 - [Deep Docks Silkeater Room (Dock_14)](./deep-docks/deep-docks-silkeater-room.md)
 - [Deep Docks Magma Slug Tunnels (Dock_11)](./deep-docks/deep-docks-magma-slug-tunnels.md)
-- [Deep Docks Diving Bell (Dock_12)](./deep-docks/deep-docks-diving-bell.md)
+- [Deep Docks Diving Bell Room (Dock_12)](./deep-docks/deep-docks-diving-bell-room.md)
 
 ## Far Fields
 
-- [Bone_East_11 (Bone_East_11)](./far-fields/bone-east-11.md)
-- [Bone_East_14 (Bone_East_14)](./far-fields/bone-east-14.md)
-- [Far Fields East Skull Room (Bone_East_14b)](./far-fields/far-fields-east-skull-room.md)
 - [Far Fields Entrance East (Bone_East_02)](./far-fields/far-fields-entrance-east.md)
 - [Far Fields Entrance West (Bone_East_02b)](./far-fields/far-fields-entrance-west.md)
 - [Far Fields Fort Lower Passage (Bone_East_16)](./far-fields/far-fields-fort-lower-passage.md)
 - [Far Fields Fort Flea Rescue (Bone_East_17b)](./far-fields/far-fields-fort-flea-rescue.md)
 - [Far Fields Fort Upper Passage (Bone_East_17)](./far-fields/far-fields-fort-upper-passage.md)
 - [Far Fields Wind Shaft (Bone_East_07)](./far-fields/far-fields-wind-shaft.md)
+- [Far Fields Upper Shaft (Bone_East_11)](./far-fields/far-fields-upper-shaft.md)
 - [Far Fields Pilgrim's Rest (Bone_East_10)](./far-fields/far-fields-pilgrim-s-rest.md)
 - [Far Fields Pilgrim's Rest Church (Bone_East_10_Church)](./far-fields/far-fields-pilgrim-s-rest-church.md)
 - [Far Fields Pilgrim's Rest Shop (Bone_East_10_Room)](./far-fields/far-fields-pilgrim-s-rest-shop.md)
 - [Far Fields Chorus (Bone_East_08)](./far-fields/far-fields-chorus.md)
 - [Far Fields Pinstress Attic (Bone_East_09b)](./far-fields/far-fields-pinstress-attic.md)
 - [Far Fields Pinstress Room (Bone_East_09)](./far-fields/far-fields-pinstress-room.md)
+- [Far Fields Pinstress Hut Interior (Bone_East_Umbrella)](./far-fields/far-fields-pinstress-hut-interior.md)
 - [Far Fields Pinstress Mask Shard (Bone_East_20)](./far-fields/far-fields-pinstress-mask-shard.md)
-- [Far Fields Lava Challenge (Bone_East_LavaChallenge)](./far-fields/far-fields-lava-challenge.md)
 - [Far Fields Target Practice (Bone_East_22)](./far-fields/far-fields-target-practice.md)
 - [Far Fields Map Shop (Bone_East_21)](./far-fields/far-fields-map-shop.md)
 - [Far Fields Bellway (Bellway_03)](./far-fields/far-fields-bellway.md)
 - [Far Fields Deep Docks Loopback (Bone_East_15)](./far-fields/far-fields-deep-docks-loopback.md)
 - [Far Fields Deep Docks Backdoor (Dock_03b)](./far-fields/far-fields-deep-docks-backdoor.md)
+- [Far Fields Skull Room West (Bone_East_14)](./far-fields/far-fields-skull-room-west.md)
+- [Far Fields Skull Room East (Bone_East_14b)](./far-fields/far-fields-skull-room-east.md)
+- [Far Fields Skull Arena (Bone_East_LavaChallenge)](./far-fields/far-fields-skull-arena.md)
 - [Weavenest Cindril Entrance (Bone_East_Weavehome)](./far-fields/weavenest-cindril-entrance.md)
+- [Far Fields Deep Entrance (Bone_East_24)](./far-fields/far-fields-deep-entrance.md)
+- [Far Fields Deep Lower East (Bone_East_18b)](./far-fields/far-fields-deep-lower-east.md)
+- [Far Fields Pilgrim's Rest Deep Passage (Bone_East_18c)](./far-fields/far-fields-pilgrim-s-rest-deep-passage.md)
+- [Far Fields Deep Lower West (Bone_East_18)](./far-fields/far-fields-deep-lower-west.md)
+- [Far Fields Deep Fort Passage (Bone_East_26)](./far-fields/far-fields-deep-fort-passage.md)
+- [Far Fields Deep Fort Bench (Bone_East_27)](./far-fields/far-fields-deep-fort-bench.md)
+- [Far Fields Deep Fort (Bone_East_25)](./far-fields/far-fields-deep-fort.md)
+- [Current Karmelita (Ant_Queen)](./far-fields/current-karmelita.md)
+- [Memory Karmelita (Memory_Ant_Queen)](./far-fields/memory-karmelita.md)
+- [Sprintmaster Cave (Sprintmaster_Cave)](./far-fields/sprintmaster-cave.md)
 
 ## Hunter's March
 
@@ -265,7 +276,22 @@ No rooms defined.
 
 ## Underworks
 
-- [Vaults Cauldron Entrance (Library_11)](./underworks/vaults-cauldron-entrance.md)
+- [Vaults & Bellway Cauldron Entrance (Library_11)](./underworks/vaults-bellway-cauldron-entrance.md)
+- [Chapel of the Architect (Under_20)](./underworks/chapel-of-the-architect.md)
+- [Underworks Below Vaultkeeper (Library_12b)](./underworks/underworks-below-vaultkeeper.md)
+- [Underworks Clawline Entrance (Under_19c)](./underworks/underworks-clawline-entrance.md)
+- [Underworks Clawline Room (Under_18)](./underworks/underworks-clawline-room.md)
+- [Underworks Craftmetal Corridor (Under_19b)](./underworks/underworks-craftmetal-corridor.md)
+- [Underworks East Shaft (Under_13)](./underworks/underworks-east-shaft.md)
+- [Underworks Eastern Gauntlet (Under_10)](./underworks/underworks-eastern-gauntlet.md)
+- [Underworks Exhaust Organ Transit (Library_12)](./underworks/underworks-exhaust-organ-transit.md)
+- [Underworks Flea Room (Under_21)](./underworks/underworks-flea-room.md)
+- [Underworks Lava Flow Corridor (Under_19)](./underworks/underworks-lava-flow-corridor.md)
+- [Underworks Lever Spike Corridor (Under_11)](./underworks/underworks-lever-spike-corridor.md)
+- [Underworks Rosary Room (Under_12)](./underworks/underworks-rosary-room.md)
+- [Underworks Silk Spool (Library_11b)](./underworks/underworks-silk-spool.md)
+- [Underworks Twelfth Architect (Under_17)](./underworks/underworks-twelfth-architect.md)
+- [Underworks Ventrica (Under_22)](./underworks/underworks-ventrica.md)
 - [Broken Elevator (Under_01b)](./underworks/broken-elevator.md)
 - [Confession Toll (Under_08)](./underworks/confession-toll.md)
 - [Underworks Below Confession (Under_06)](./underworks/underworks-below-confession.md)
@@ -325,18 +351,18 @@ No rooms defined.
 
 ## Whispering Vaults
 
-- [Whispering Vaults Hell (Library_04)](./whispering-vaults/whispering-vaults-hell.md)
-- [Grand Bellway Library (Library_03)](./whispering-vaults/grand-bellway-library.md)
 - [Vaultkeeper Cauldron Entrance (Library_10)](./whispering-vaults/vaultkeeper-cauldron-entrance.md)
-- [Songclave Steam Tunnel (Library_02)](./whispering-vaults/songclave-steam-tunnel.md)
 - [Whispering Vaults Below Bench (Library_06)](./whispering-vaults/whispering-vaults-below-bench.md)
 - [Whispering Vaults Bench (Library_08)](./whispering-vaults/whispering-vaults-bench.md)
 - [Whispering Vaults East To West (Library_05)](./whispering-vaults/whispering-vaults-east-to-west.md)
 - [Whispering Vaults Flea Shaft (Library_01)](./whispering-vaults/whispering-vaults-flea-shaft.md)
+- [Whispering Vaults Hell (Library_04)](./whispering-vaults/whispering-vaults-hell.md)
 - [Whispering Vaults Jumps (Library_09)](./whispering-vaults/whispering-vaults-jumps.md)
 - [Whispering Vaults Silkeater (Library_14)](./whispering-vaults/whispering-vaults-silkeater.md)
 - [Whispering Vaults Totally Not White Palace (Library_07)](./whispering-vaults/whispering-vaults-totally-not-white-palace.md)
 - [Whispering Vaults Vaultborn Lever (Library_15)](./whispering-vaults/whispering-vaults-vaultborn-lever.md)
+- [Grand Bellway Library (Library_03)](./whispering-vaults/grand-bellway-library.md)
+- [Songclave Steam Tunnel (Library_02)](./whispering-vaults/songclave-steam-tunnel.md)
 - [Trobbio (Library_13)](./whispering-vaults/trobbio.md)
 - [Trobbio Entrance (Library_13b)](./whispering-vaults/trobbio-entrance.md)
 - [Whispering Vaults Music Box (Library_16)](./whispering-vaults/whispering-vaults-music-box.md)
@@ -374,6 +400,8 @@ No rooms defined.
 - [Bilewater Entrance (Shadow_05)](./bilewater/bilewater-entrance.md)
 - [New room](./bilewater/new-room.md)
 - [Shadow_22 (Shadow_22)](./bilewater/shadow-22.md)
+- [Exhaust Organ Exterior (Dust_09)](./bilewater/exhaust-organ-exterior.md)
+- [Exhaust Organ Interior (Organ_01)](./bilewater/exhaust-organ-interior.md)
 - [New room](./bilewater/new-room-7a1d0ba9.md)
 
 ## Memorium
@@ -396,6 +424,7 @@ No rooms defined.
 - [Sands of Karak Upper Right Long Room (Coral_44)](./sands-of-karak/sands-of-karak-upper-right-long-room.md)
 - [Sands of Shakra (Coral_40)](./sands-of-karak/sands-of-shakra.md)
 - [Watcher at the Edge (Coral_39)](./sands-of-karak/watcher-at-the-edge.md)
+- [Voltnest (Coral_29)](./sands-of-karak/voltnest.md)
 
 ## The Slab
 

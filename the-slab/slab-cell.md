@@ -61,7 +61,7 @@
 | L3 | L3 - L3 | L3L | L3R | cling grip or silk soar or dash |  |  | Naked. When you are still naked the bridge should be closed enabling you to just walk over it but added prior transitions to still have a valid path. |
 | BR1 | Bridge1 | L3L | Key of Heretic Bridge | Key of Heretic Owned |  |  |  |
 | BR2 | Bridge2 | L3R | Key of Heretic Bridge | Key of Heretic Owned |  |  |  |
-| BL4 | Bridge to L4 | L4 | Key of Heretic Bridge | none |  |  | falling, one way lever |
+| BL4 | Bridge to L4 | Key of Heretic Bridge | L4 | none |  |  | falling, one way lever |
 | 5R4 | L5R to L4 | L5R | L4 | cling grip |  |  | one way lever |
 | 5L4 | L5L to L4 | L5L | L4 | cling grip and faydown |  |  | one way lever |
 | L5 | L5 | L5L | L5R | (dash and ledge grab) or faydown or clawline or cling grip |  |  |  |

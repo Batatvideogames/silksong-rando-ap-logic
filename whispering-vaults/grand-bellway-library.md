@@ -2,8 +2,6 @@
 
 **Game ID:** Library_03
 
-**Contributors:** rebelslayer
-
 ## Subrooms
 
 - Oil Room
@@ -27,6 +25,6 @@
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Pale Oil: Whispering Vaults | Oil Room | Flick the first lever. |  |  | Included |  |
-| Lever: Whispering Vaults #3 | Oil Room | Nothing. |  |  | Included |  |
-| Lever: Whispering Vaults #4 | Oil Room | Flick the first lever. |  |  | Included |  |
+| Whispering Vaults: Pale Oil | Oil Room | Flick the first lever. |  |  | Included |  |
+| Whispering Vaults: Flip Switch #6 (Left) | Oil Room | Nothing. |  |  | Included |  |
+| Whispering Vaults: Flip Switch #7 (Left) | Oil Room | Flick the first lever. |  |  | Included |  |

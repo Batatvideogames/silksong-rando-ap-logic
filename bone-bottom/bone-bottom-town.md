@@ -15,19 +15,18 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| UL | upper left | upper left platforms | [Bonegrave (Bonegrave)](bonegrave.md) | UR | none |  |  |  |
-| LL | lower left | ground level | [Bonegrave (Bonegrave)](bonegrave.md) | LR | door opened from other side |  |  |  |
-| DR | descend rope | ground level | [Ruined Chapel (Tut_03)](../moss-grotto/ruined-chapel.md) | AR | none |  |  |  |
-| RF | right floor | ground level | [Moss Grotto Center (Tut_01)](../moss-grotto/moss-grotto-center.md) | C | none |  |  |  |
-| BD | bellway door | ground level | [Bone Bottom Bellway (Bellway_01)](bone-bottom-bellway.md) | BD | none |  |  |  |
-| LR | lower right | ground level | [The Marrow Entrance (Bone_01)](../the-marrow/the-marrow-entrance.md) | LL | none |  |  |  |
-| UR | upper right | upper right platforms | [Mosshome Basement (Bone_01b)](mosshome-basement.md) | LL | none |  |  |  |
-| RC | right ceiling | upper right platforms | [The Big Fall (Aspid_01)](the-big-fall.md) | RF | none |  |  |  |
-| T1 | top1 | sky | [The Big Fall (Aspid_01)](the-big-fall.md) | B1 |  | TODO | Needs verification |  |
-| T2 | top2 | sky | [The Big Fall (Aspid_01)](the-big-fall.md) | B2 |  | TODO | Needs verification |  |
-| T3 | left ceiling | sky | [The Big Fall (Aspid_01)](the-big-fall.md) | B3 | silk soar |  |  |  |
-| T4 | top4 | sky | [The Big Fall (Aspid_01)](the-big-fall.md) | B4 |  | TODO | Needs verification |  |
-| T5 | top5 | sky | [The Big Fall (Aspid_01)](the-big-fall.md) | B5 |  | TODO | Needs verification | all part of the |
+| UL | upper left | upper left platforms | [Bonegrave (Bonegrave)](bonegrave.md) | UR | none |  | Verified |  |
+| LL | lower left | ground level | [Bonegrave (Bonegrave)](bonegrave.md) | LR | door opened from other side |  | Verified |  |
+| DR | descend rope | ground level | [Ruined Chapel (Tut_03)](../moss-grotto/ruined-chapel.md) | AR | none |  | Verified |  |
+| RF | right floor | ground level | [Moss Grotto Center (Tut_01)](../moss-grotto/moss-grotto-center.md) | C | none |  | Verified |  |
+| BD | bellway door | ground level | [Bone Bottom Bellway (Bellway_01)](bone-bottom-bellway.md) | BD | none |  | Verified |  |
+| LR | lower right | ground level | [The Marrow Entrance (Bone_01)](../the-marrow/the-marrow-entrance.md) | LL | none |  | Verified |  |
+| UR | upper right | upper right platforms | [Mosshome Basement (Bone_01b)](mosshome-basement.md) | LL | none |  | Verified |  |
+| T1 | top1 | sky | [The Big Fall (Aspid_01)](the-big-fall.md) | B1 | silk soar |  | Verified |  |
+| T2 | right ceiling | upper right platforms | [The Big Fall (Aspid_01)](the-big-fall.md) | B2 | none |  | Verified |  |
+| T3 | top3 | sky | [The Big Fall (Aspid_01)](the-big-fall.md) | B3 | silk soar |  | Verified |  |
+| T4 | top4 | sky | [The Big Fall (Aspid_01)](the-big-fall.md) | B4 | silk soar |  | Verified |  |
+| T5 | top5 | sky | [The Big Fall (Aspid_01)](the-big-fall.md) | B5 | silk soar |  | Verified |  |
 
 ## Subroom Connections
 

@@ -2,8 +2,6 @@
 
 **Game ID:** Library_02
 
-**Contributors:** rebelslayer
-
 ## Subrooms
 
 - Top
@@ -32,4 +30,6 @@
 
 ## Check Locations
 
-No check locations defined.
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Whispering Vaults: Arena #1 | Arena | Nothing. |  |  | Included | doubt this will be used, just futureproofing. |

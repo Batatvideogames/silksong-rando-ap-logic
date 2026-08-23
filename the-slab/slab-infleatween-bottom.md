@@ -20,8 +20,8 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| V | Vertical | Bottom | Mid | cling grip or silk soar |  |  |  |
-| V | Vertical | Mid | Bottom | none |  |  | falling |
+| V | Vertical | Mid | Top | cling grip or silk soar |  |  |  |
+| V | Vertical | Top | Mid | none |  |  | falling |
 | V2 | Vertical 2 | Mid | Bottom | none |  |  | falling |
 | V2 | Vertical 2 | Bottom | Mid | ledge grab or faydown or silk soar |  |  |  |
 

@@ -2,8 +2,6 @@
 
 **Game ID:** Library_08
 
-**Contributors:** rebelslayer
-
 ## Subrooms
 
 - Bench
@@ -31,7 +29,7 @@
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Rosary Cache | Loot | Nothing. |  |  | Included |  |
-| Memory Locket: Whispering Vaults | Loot | Nothing. |  |  | Included |  |
-| Rosary Cache #2 | Loot | Nothing. |  |  | Included |  |
-| Psalm Cylinder #1 | Cylinder | Nothing. |  |  | Included |  |
+| Whispering Vaults: Rosary Cache #1 | Loot | Nothing. |  |  | Included |  |
+| Whispering Vaults: Memory Locket #1 | Loot | Nothing. |  |  | Included |  |
+| Whispering Vaults: Rosary Cache #2 | Loot | Nothing. |  |  | Included |  |
+| Whispering Vaults: Psalm Cylinder #1 | Cylinder | Nothing. |  |  | Included |  |

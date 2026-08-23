@@ -13,7 +13,7 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 | right side | [Far Fields Pinstress Room (Bone_East_09)](far-fields-pinstress-room.md) | UL | none |  |  |  |
+| R | right1 | right side | [Far Fields Pinstress Room (Bone_East_09)](far-fields-pinstress-room.md) | UL | none |  | Verified |  |
 
 ## Subroom Connections
 
@@ -26,5 +26,5 @@
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| mask shard far fields above the seamstress | left side | drifter's cloak OR silk soar OR faydown cloak | TODO | Needs verification | Included | must break blast rock on ceiling - this likely has a large number of tool options - haven't really considered this here |
+| mask shard far fields above the seamstress | left side | drifter's cloak OR silk soar OR faydown cloak |  | Verified | Included | must break blast rock on ceiling - this likely has a large number of tool options - haven't really considered this here |
 | random silk | left side | none |  | Verified | Not included | NOT YET RANDOMIZED |

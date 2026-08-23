@@ -2,8 +2,6 @@
 
 **Game ID:** Library_15
 
-**Contributors:** rebelslayer
-
 ## Subrooms
 
 No subrooms defined.
@@ -22,4 +20,4 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Lever: Whispering Vaults #8 |  | Nothing. |  |  | Included |  |
+| Whispering Vaults: Flip Switch #5 (Left) |  | Nothing. |  |  | Included |  |

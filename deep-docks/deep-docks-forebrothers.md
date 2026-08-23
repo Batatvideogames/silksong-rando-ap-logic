@@ -31,5 +31,5 @@
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | forebrothers boss fight | boss area | none |  |  | Included |  |
-| rosary cache 1 |  |  | TODO |  | Included |  |
-| rosary cache 2 |  |  | TODO |  | Included |  |
+| rosary cache 1 | right area | none |  |  | Included |  |
+| rosary cache 2 | right area | none |  |  | Included |  |

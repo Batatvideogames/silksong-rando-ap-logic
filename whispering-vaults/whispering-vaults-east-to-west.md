@@ -2,8 +2,6 @@
 
 **Game ID:** Library_05
 
-**Contributors:** rebelslayer
-
 ## Subrooms
 
 - Top
@@ -35,5 +33,5 @@
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Mask Shard #? | Shard | Nothing. |  |  | Included |  |
-| Ladder | Bottom | Nothing. |  |  | Included |  |
+| Whispering Vaults: Mask Shard #1 | Shard | Nothing. |  |  | Included |  |
+| Whispering Vaults: Flip Switch #3 | Bottom | Nothing. |  |  | Included |  |

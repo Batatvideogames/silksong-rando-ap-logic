@@ -22,9 +22,9 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| D1 | drift passage 1 | bottom left area | upper right area | drifter's cloak OR ( silk soar AND can pogo AND faydown cloak AND clawline ) |  | Verified |  |
+| D1 | drift passage 1 | bottom left area | upper right area | drifter's cloak OR ( silk soar AND AND faydown cloak AND clawline ) |  | Verified |  |
 | D1 | drift passage 1 | upper right area | bottom left area | drifter's cloak OR clawline |  | Verified |  |
-| D2 | drift passage 2 | upper right area | ceiling exit | drifter's cloak AND ( dash OR clawline OR sharpdart ) AND cling grip |  | Needs verification | one way - might need some further validation |
+| D2 | drift passage 2 | upper right area | ceiling exit | drifter's cloak AND ( dash OR clawline OR sharpdart ) AND cling grip |  | Verified | one way - might need some further validation |
 
 ## Check Locations
 

@@ -14,7 +14,7 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 | left exit area | [Deep Docks Diving Bell (Dock_12)](deep-docks-diving-bell.md) | L | right door switch must be flipped (from this side) |  |  |  |
+| R | right1 | left exit area | [Deep Docks Diving Bell Room (Dock_12)](deep-docks-diving-bell-room.md) | L | right door switch must be flipped (from this side) |  |  |  |
 | L | left1 | right exit area | [Deep Docks Lower East Shaft (Dock_15)](deep-docks-lower-east-shaft.md) | LR | none |  |  |  |
 
 ## Subroom Connections

@@ -1,6 +1,6 @@
-# Vaults Cauldron Entrance (Library_11)
+# Exhaust Organ Exterior (Dust_09)
 
-**Game ID:** Library_11
+**Game ID:** Dust_09
 
 ## Subrooms
 
@@ -10,11 +10,10 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| TL | left1 |  | [Trobbio (Library_13)](../whispering-vaults/trobbio.md) | BR |  | TODO |  |  |
-|  | left2 |  | [Grand Bellway (Bellway_City)](../choral-chambers/grand-bellway.md) | R |  | TODO |  |  |
-|  | right2 |  | TODO |  |  | TODO |  |  |
-|  | left3 |  | TODO |  |  | TODO |  |  |
+|  | door2 |  | [Exhaust Organ Interior (Organ_01)](exhaust-organ-interior.md) |  |  | TODO |  |  |
+|  | left2 |  | TODO |  |  | TODO |  |  |
 |  | right1 |  | TODO |  |  | TODO |  |  |
+|  | door1 |  | [Exhaust Organ Interior (Organ_01)](exhaust-organ-interior.md) |  |  | TODO |  |  |
 |  |  |  | TODO |  |  | TODO |  |  |
 
 ## Subroom Connections
@@ -25,4 +24,5 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
+| right_wall_one_way |  |  | TODO |  | Included |  |
 |  |  |  | TODO |  | Included |  |

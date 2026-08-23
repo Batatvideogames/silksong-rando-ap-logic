@@ -12,7 +12,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 |  | [Hunter's March Shaft (Ant_14)](hunter-s-march-shaft.md) | L2 | none |  |  |  |
+| R | right1 |  | [Hunter's March Shaft (Ant_14)](hunter-s-march-shaft.md) | L2 | none |  | Verified |  |
 
 ## Subroom Connections
 
@@ -22,5 +22,5 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| trapped bench |  | bench trap switch flipped |  |  | Not included |  |
-| bench trap switch |  | none |  |  | Not included |  |
+| trapped bench |  | bench trap switch flipped |  | Verified | Not included |  |
+| bench trap switch |  | none |  | Verified | Not included |  |

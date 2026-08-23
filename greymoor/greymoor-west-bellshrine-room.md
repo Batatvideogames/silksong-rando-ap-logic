@@ -21,7 +21,7 @@
 | LR | lower right | main path | greymoor east bellshrine room | LSL | IF (lever switch was activated) => ledge grab OR Shaman crest OR faydown cloak OR silk soar |  | Verified |  |
 | LL | lower left | main path | [Greymoor Lower Halfway Home Path (Greymoor_13)](greymoor-lower-halfway-home-path.md) | R | none |  | Verified |  |
 | MR | middle right | middle section right | [Greymoor Bellshrine (Bellshrine_02)](greymoor-bellshrine.md) | L | Bellshrine: Greymoor check |  | Verified |  |
-| D | down | main path | TODO |  | Enter from far fields using drifter cloak |  | Verified |  |
+| D | down | main path | [Far Fields Upper Shaft (Bone_East_11)](../far-fields/far-fields-upper-shaft.md) | C | Enter from far fields using drifter cloak |  | Verified |  |
 
 ## Subroom Connections
 

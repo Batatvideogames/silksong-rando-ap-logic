@@ -1,0 +1,24 @@
+# Underworks Ventrica (Under_22)
+
+**Game ID:** Under_22
+
+## Subrooms
+
+No subrooms defined.
+
+## Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| R | right1 |  | [Underworks East Shaft (Under_13)](underworks-east-shaft.md) | HL | Nothing. |  | Verified |  |
+| V | door_tubeEnter |  | [Ventrica Menu](../fast-travel/ventrica-menu.md) | UW | Nothing. |  | Verified |  |
+
+## Subroom Connections
+
+No subroom connections defined.
+
+## Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Underworks: Ventrica Toll |  | Nothing. |  | Verified | Included |  |

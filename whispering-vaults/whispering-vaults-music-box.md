@@ -2,8 +2,6 @@
 
 **Game ID:** Library_16
 
-**Contributors:** rebelslayer
-
 ## Subrooms
 
 No subrooms defined.
@@ -22,4 +20,4 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Cogheart Piece |  | The ability to swing your needle. |  |  | Included |  |
+| Whispering Vaults: Cogheart Piece |  | The ability to swing your needle. |  |  | Included |  |

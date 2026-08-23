@@ -14,7 +14,7 @@ No subrooms defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | F | floor |  | [The Marrow Shaft (Bone_03)](the-marrow-shaft.md) | C | none |  |  |  |
 | R | right |  | [The Marrow Skull Wall Side Room (Bone_18)](the-marrow-skull-wall-side-room.md) | L | none |  |  |  |
-| L | left |  | TODO |  | opens from the other side | TODO |  | shellwood |
+| L | left |  | [Greyroots Basement Tall room (Mosstown_03)](../shellwood/greyroots-basement-tall-room.md) | LR | opens from the other side |  |  | shellwood |
 
 ## Subroom Connections
 

@@ -2,8 +2,6 @@
 
 **Game ID:** Library_09
 
-**Contributors:** rebelslayer
-
 ## Subrooms
 
 - Flea Chase
@@ -38,6 +36,6 @@
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Lever: Whispering Vaults #5 | Room With Stuff | Nothing. |  |  | Included |  |
-| Heavy Rosary Necklace | Rosary Necklace | Nothing. |  |  | Included |  |
-| Psalm Cylinder | Room With Stuff | Nothing. |  |  | Included |  |
+| Whispering Vaults: Flip Switch #6 (Up) | Room With Stuff | Nothing. |  |  | Included |  |
+| Whispering Vaults: Heavy Rosary Necklace #1 | Rosary Necklace | Nothing. |  |  | Included |  |
+| Whispering Vaults: Psalm Cylinder #2 | Room With Stuff | Nothing. |  |  | Included |  |

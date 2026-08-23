@@ -2,8 +2,6 @@
 
 **Game ID:** Library_13b
 
-**Contributors:** rebelslayer
-
 ## Subrooms
 
 - The Only Jump In This Entire Room
@@ -29,5 +27,5 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | Collectable Item Pickup - Quill Red | Not The Jump. | Nothing. |  |  | Included |  |
 | Collectable Item Pickup - Quill Purple | Not The Jump. | Nothing. |  |  | Included |  |
-| Lore Tablet #2 | Not The Jump. | Nothing. |  |  | Not included |  |
-| Lore Tablet #3 | Not The Jump. | Nothing. |  |  | Included |  |
+| Whispering Vaults: Lore #2 | Not The Jump. | Nothing. |  |  | Not included |  |
+| Whispering Vaults: Lore #3 | Not The Jump. | Nothing. |  |  | Included |  |

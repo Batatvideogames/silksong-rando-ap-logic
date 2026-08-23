@@ -2,8 +2,6 @@
 
 **Game ID:** Library_14
 
-**Contributors:** rebelslayer
-
 ## Subrooms
 
 No subrooms defined.
@@ -22,8 +20,8 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Breakable Wall #3 |  | Nothing. |  |  | Included |  |
-| Silkeater |  | Nothing. |  |  | Included |  |
+| Whispering Vaults: Break Wall #5 (Right) |  | Nothing. |  |  | Included |  |
+| Whispering Vaults: Silkeater #1 |  | Nothing. |  |  | Included |  |
 
 ## Notes
 

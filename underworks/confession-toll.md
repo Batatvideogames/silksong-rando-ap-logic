@@ -18,7 +18,7 @@
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | T | top1 | Secret | [Whiteward Unravelled Arena Room (Ward_02)](../whiteward/whiteward-unravelled-arena-room.md) | B | none | TODO |  | has to be checked from white ward |
-| B | bot1 | Base | TODO |  | none |  |  |  |
+| B | bot1 | Base | [Underworks Below Confession (Under_06)](underworks-below-confession.md) | T | none |  |  |  |
 
 ## Subroom Connections
 

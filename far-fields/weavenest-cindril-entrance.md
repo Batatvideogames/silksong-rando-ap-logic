@@ -13,18 +13,18 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 | entrance | [Far Fields East Skull Room (Bone_East_14b)](far-fields-east-skull-room.md) | R | needolin |  |  |  |
+| L | left1 | entrance | [Far Fields Skull Room East (Bone_East_14b)](far-fields-skull-room-east.md) | R | needolin |  |  |  |
 
 ## Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | RN | run | entrance | secret room | run AND silkspeed anklets AND yellow slot AND flea brew AND red slot AND can refill flea brew | TODO |  | need to check if there are platforming requirements |
-| RN | run | secret room | entrance | none |  |  |  |
+| RN | run | secret room | entrance | none |  | Verified |  |
 
 ## Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| silkspeed anklets |  |  |  |  | Included |  |
-| relic rune harp weavenest cindril |  |  |  |  | Included |  |
+| silkspeed anklets | entrance | run |  | Verified | Included |  |
+| relic rune harp weavenest cindril | secret room | none |  | Verified | Included |  |

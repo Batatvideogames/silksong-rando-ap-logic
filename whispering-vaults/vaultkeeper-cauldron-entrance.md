@@ -2,8 +2,6 @@
 
 **Game ID:** Library_10
 
-**Contributors:** rebelslayer
-
 ## Subrooms
 
 - Left Side
@@ -14,7 +12,7 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| B | Bottom | Left Side | [Library_12b (Library_12b-0)](../underworks/library-12b.md) | T | Nothing. |  |  | the bottom portion of 04 doesn't link for some reason, so this transition can't connect until that's fixed |
+| B | Bottom | Left Side | [Underworks Below Vaultkeeper (Library_12b)](../underworks/underworks-below-vaultkeeper.md) | T | Nothing. |  |  | the bottom portion of 04 doesn't link for some reason, so this transition can't connect until that's fixed |
 | L | Left | Right Side | [Whispering Vaults Hell (Library_04)](whispering-vaults-hell.md) | BR | Nothing. |  |  |  |
 
 ## Subroom Connections
@@ -30,7 +28,7 @@
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Breakable Wall | Right Side | Nothing. |  |  | Included |  |
+| Whispering Vaults: Break Wall #1 (Up) | Right Side | Nothing. |  |  | Included |  |
 | Sacred Cylinder | Left Side | Nothing. |  |  | Included |  |
-| Pressure Plate | Right Side | Nothing. |  |  | Included |  |
-| Lore | Left Side | Nothing. |  |  | Included |  |
+| Whispering Vaults: Flip Switch #1 (Down) | Right Side | Nothing. |  |  | Included |  |
+| Whispering Vaults: Needolin Lore #1 | Left Side | Needolin. |  |  | Included |  |

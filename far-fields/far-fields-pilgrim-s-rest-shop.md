@@ -12,7 +12,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 |  | [Far Fields Pilgrim's Rest (Bone_East_10)](far-fields-pilgrim-s-rest.md) | D | none |  |  |  |
+| R | right1 |  | [Far Fields Pilgrim's Rest (Bone_East_10)](far-fields-pilgrim-s-rest.md) | D | none |  | Verified |  |
 
 ## Subroom Connections
 
@@ -22,5 +22,7 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| memory locket pilgrims rest shop |  | none |  |  | Included | shop |
-| wish pilgrims rest supplies |  | unknown | TODO | Needs verification | Included | ??? |
+| weighted belt |  | none (shop) |  | Verified | Included | POSITION OF WEIGHTED BELT DEPENDS ON ACT - CAN BUY IT HERE IN ACT 1 AND 2 BUT HAVE TO GRAB IT FROM ACT 3 IN THE WIND SHAFT |
+| memory locket pilgrims rest shop |  | none (shop) |  | Verified | Included | shop |
+| tool pouch pilgrim's rest shop |  | none (shop) |  | Verified | Included | NOT RANDOMIZED AS OF v0.4.2 |
+| pilgrims rest supplies wish completed |  | start pilgrims rest supplies wish |  | Verified | Included |  |

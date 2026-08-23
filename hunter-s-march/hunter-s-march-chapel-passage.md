@@ -8,7 +8,6 @@
 
 - left entrance
 - crossing platform
-- memory locket platform
 - chapel entrance
 
 ## Room Transitions
@@ -22,15 +21,13 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| LC | lower crossing | left entrance | crossing platform | can pogo OR run OR dash OR clawline OR drifter's cloak OR faydown cloak OR ( sharpdart AND silk heart ) |  |  |  |
-| LC | lower crossing | crossing platform | left entrance | can pogo OR run OR dash OR clawline OR drifter's cloak OR faydown cloak OR ( sharpdart AND silk heart ) |  |  |  |
-| MP | memory locket platform | crossing platform | memory locket platform | can pogo OR drifter's cloak OR clawline OR sharpdart OR ( run AND dash ) OR ( run AND faydown cloak ) OR ( faydown cloak AND dash ) |  |  |  |
-| MP | memory locket platform | memory locket platform | crossing platform | can pogo OR drifter's cloak OR clawline OR sharpdart OR ( run AND dash ) OR ( run AND faydown cloak ) OR ( faydown cloak AND dash ) |  |  |  |
-| WT | wind tunnel | crossing platform | chapel entrance | drifter's cloak OR silk soar |  |  |  |
-| WT | wind tunnel | chapel entrance | crossing platform | none (falling) |  |  |  |
+| EP | evil pogo | left entrance | crossing platform | run OR dash OR drifter's cloak OR faydown cloak OR clawline OR sharpdart OR scuttlebrace OR shaman crest OR wanderer crest OR OR beast crest OR reaper crest OR ( ledge grab AND ( witch crest OR hunter crest OR architect crest ) ) |  | Verified |  |
+| EP | evil pogo | crossing platform | left entrance | none |  | Verified | can pogo the gap for free from this direction |
+| WT | wind tunnel | crossing platform | chapel entrance | drifter's cloak OR  silk soar |  | Verified |  |
+| WT | wind tunnel | chapel entrance | crossing platform | none (falling) |  | Verified |  |
 
 ## Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| memory locket | memory locket platform | none |  |  | Included | need to break a cage |
+| memory locket | crossing platform | none |  | Verified | Included | need to break a cage |
