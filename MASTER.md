@@ -7009,7 +7009,7 @@ No subrooms defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | L | Left |  | [Pre Last Judge Room (Coral_32)](#pre-last-judge-room-coral32) | R | Nothing |  |  |  |
-| R | Right |  | Coral_10 | L | Beat Last Judge and 5 Bells |  |  |  |
+| R | Right |  | [Grand Bridge (Coral_10)](#grand-bridge-coral10) | L | Beat Last Judge and 5 Bells |  |  |  |
 
 #### Subroom Connections
 
@@ -7156,6 +7156,33 @@ No check locations defined.
 
 ## Grand Gate
 
+### Grand Bridge (Coral_10)
+
+**Game ID:** Coral_10
+
+**Contributors:** skai
+
+#### Subrooms
+
+No subrooms defined.
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | Left |  | [Last Judge Arena (Coral_Judge_Arena)](#last-judge-arena-coraljudgearena) | R | Last Judge Defeated |  | Verified |  |
+| R | Right |  | [Grand Gate Courtroom (Song_19_entrance)](#grand-gate-courtroom-song19entrance) | L | Grand Bridge Plate Stood On |  | Verified |  |
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Grand Bridge Plate |  | Nothing |  | Verified | Included |  |
+
 ### Grand Gate Maintenance Room (Song_01c)
 
 **Game ID:** Song_01c
@@ -7195,7 +7222,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | TODO |  | beating last judge |  |  | blocked |
+| L | left1 |  | [Grand Bridge (Coral_10)](#grand-bridge-coral10) | R | beating last judge |  |  | blocked |
 | TR | right1 |  | [Grand Gate Maintenance Room (Song_01c)](#grand-gate-maintenance-room-song01c) | L | faydown cloak or silk soar |  |  |  |
 | R | right2 |  | [Grand Elevator (Under_01)](#grand-elevator-under01) | TL | none |  |  |  |
 
@@ -8392,9 +8419,9 @@ No check locations defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | TODO |  | none |  |  |  |
+| L | left1 |  | [Underworks Western Gauntlet (Under_07)](#underworks-western-gauntlet-under07) | R | none |  |  |  |
 | T | top1 |  | [Confession Toll (Under_08)](#confession-toll-under08) | B | cling grip or silk soar |  |  |  |
-| R | right1 |  | TODO |  | none |  |  |  |
+| R | right1 |  | [Underworks Central Shaft (Under_05)](#underworks-central-shaft-under05) | TL | none |  |  |  |
 
 #### Subroom Connections
 
@@ -9784,7 +9811,7 @@ No subroom connections defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 | Secret Tunnel | TODO |  |  | TODO |  |  |
+| R | right1 | Secret Tunnel | [Vaults & Bellway Cauldron Entrance (Library_11)](#vaults-bellway-cauldron-entrance-library11) | HL |  | TODO |  |  |
 | L | left1 | Base | [Grand Bellway Shaft (Song_20)](#grand-bellway-shaft-song20) | BR | none |  | Verified |  |
 | BW | door_fastTravelExit | Base | [Bellway Menu](#bellway-menu) | GB | rosaries | TODO |  |  |
 | VT | door_tubeEnter | Base | [Ventrica Menu](#ventrica-menu) | GB | rosaries | TODO |  |  |
@@ -10570,7 +10597,7 @@ No check locations defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | T | Top | Descent Upper | [Whiteward Descent Connection (Ward_03)](#whiteward-descent-connection-ward03) | B | Nothing |  | Verified |  |
-| B | Bottom | Descent Lower | Under_17 | T | Nothing (Fall) |  | Verified | The Cauldron is undone as of now so the game name for the room destination is listed. |
+| B | Bottom | Descent Lower | [Underworks Twelfth Architect (Under_17)](#underworks-twelfth-architect-under17) | UP | Nothing (Fall) |  | Verified | The Cauldron is undone as of now so the game name for the room destination is listed. |
 
 #### Subroom Connections
 
@@ -11824,7 +11851,7 @@ No subroom connections defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 | Left | TODO |  | none |  |  |  |
+| L | left1 | Left | [Slab Entrance (Slab_02)](#slab-entrance-slab02) | R | none |  |  |  |
 | R | right1 | Right | [Choral Chambers Outside Spa (Song_04)](#choral-chambers-outside-spa-song04) | L | none |  |  |  |
 
 #### Subroom Connections

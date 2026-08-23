@@ -12,7 +12,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | TODO |  | beating last judge |  |  | blocked |
+| L | left1 |  | [Grand Bridge (Coral_10)](grand-bridge.md) | R | beating last judge |  |  | blocked |
 | TR | right1 |  | [Grand Gate Maintenance Room (Song_01c)](grand-gate-maintenance-room.md) | L | faydown cloak or silk soar |  |  |  |
 | R | right2 |  | [Grand Elevator (Under_01)](grand-elevator.md) | TL | none |  |  |  |
 

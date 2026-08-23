@@ -13,7 +13,7 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 | Secret Tunnel | TODO |  |  | TODO |  |  |
+| R | right1 | Secret Tunnel | [Vaults & Bellway Cauldron Entrance (Library_11)](../underworks/vaults-bellway-cauldron-entrance.md) | HL |  | TODO |  |  |
 | L | left1 | Base | [Grand Bellway Shaft (Song_20)](grand-bellway-shaft.md) | BR | none |  | Verified |  |
 | BW | door_fastTravelExit | Base | [Bellway Menu](../fast-travel/bellway-menu.md) | GB | rosaries | TODO |  |  |
 | VT | door_tubeEnter | Base | [Ventrica Menu](../fast-travel/ventrica-menu.md) | GB | rosaries | TODO |  |  |

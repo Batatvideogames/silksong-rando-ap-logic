@@ -13,7 +13,7 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 | Left | TODO |  | none |  |  |  |
+| L | left1 | Left | [Slab Entrance (Slab_02)](slab-entrance.md) | R | none |  |  |  |
 | R | right1 | Right | [Choral Chambers Outside Spa (Song_04)](../choral-chambers/choral-chambers-outside-spa.md) | L | none |  |  |  |
 
 ## Subroom Connections

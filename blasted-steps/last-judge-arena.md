@@ -13,7 +13,7 @@ No subrooms defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | L | Left |  | [Pre Last Judge Room (Coral_32)](pre-last-judge-room.md) | R | Nothing |  |  |  |
-| R | Right |  | Coral_10 | L | Beat Last Judge and 5 Bells |  |  |  |
+| R | Right |  | [Grand Bridge (Coral_10)](../grand-gate/grand-bridge.md) | L | Beat Last Judge and 5 Bells |  |  |  |
 
 ## Subroom Connections
 

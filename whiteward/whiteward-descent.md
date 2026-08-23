@@ -15,7 +15,7 @@
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | T | Top | Descent Upper | [Whiteward Descent Connection (Ward_03)](whiteward-descent-connection.md) | B | Nothing |  | Verified |  |
-| B | Bottom | Descent Lower | Under_17 | T | Nothing (Fall) |  | Verified | The Cauldron is undone as of now so the game name for the room destination is listed. |
+| B | Bottom | Descent Lower | [Underworks Twelfth Architect (Under_17)](../underworks/underworks-twelfth-architect.md) | UP | Nothing (Fall) |  | Verified | The Cauldron is undone as of now so the game name for the room destination is listed. |
 
 ## Subroom Connections
 

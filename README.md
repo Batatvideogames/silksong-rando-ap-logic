@@ -250,6 +250,7 @@ No rooms defined.
 
 ## Grand Gate
 
+- [Grand Bridge (Coral_10)](./grand-gate/grand-bridge.md)
 - [Grand Gate Maintenance Room (Song_01c)](./grand-gate/grand-gate-maintenance-room.md)
 - [Grand Gate Courtroom (Song_19_entrance)](./grand-gate/grand-gate-courtroom.md)
 - [Grand Elevator (Under_01)](./grand-gate/grand-elevator.md)
