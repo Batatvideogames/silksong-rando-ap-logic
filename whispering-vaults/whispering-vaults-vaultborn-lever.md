@@ -2,6 +2,8 @@
 
 **Game ID:** Library_15
 
+**Contributors:** Rebel
+
 ## Subrooms
 
 No subrooms defined.
@@ -10,7 +12,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 |  | [Whispering Vaults Flea Shaft (Library_01)](whispering-vaults-flea-shaft.md) | BL | Nothing. |  |  |  |
+| R | right1 |  | [Whispering Vaults Flea Shaft (Library_01)](whispering-vaults-flea-shaft.md) | BL | Nothing. |  | Verified |  |
 
 ## Subroom Connections
 
@@ -20,4 +22,4 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Whispering Vaults: Flip Switch #5 (Left) |  | Nothing. |  |  | Included |  |
+| Whispering Vaults: Flip Switch #5 (Left) |  | Nothing. |  | Verified | Included |  |

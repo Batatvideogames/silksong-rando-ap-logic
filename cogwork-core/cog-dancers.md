@@ -17,11 +17,11 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | R | right1 | BaseRight | [Memorium Entrance Tunnel (Song_25)](../choral-chambers/memorium-entrance-tunnel.md) | L | none |  | Verified |  |
 | L | left1 | BaseLeft | [High Halls Corridor (Hang_07)](../choral-chambers/high-halls-corridor.md) | R | none |  | Verified |  |
-| B1 | bot1 | BossArena | TODO |  | Boss: Cogwork Dancers |  | Verified |  |
-| B2 | bot2 | BossArena | TODO |  | Boss: Cogwork Dancers |  | Verified |  |
+| B1 | bot1 | BossArena | [Cogwork Core South Main (Cog_04)](cogwork-core-south-main.md) | TL | Boss: Cogwork Dancers |  | Verified |  |
+| B2 | bot2 | BossArena | [Cogwork Core South Main (Cog_04)](cogwork-core-south-main.md) | TR | Boss: Cogwork Dancers |  | Verified |  |
 | E | elevator | BossArena | TODO |  | Boss: Cogwork Dancers and more | TODO |  | TODO: Check all that's needed for the elevator to work |
-| D | door1 | Top | TODO |  |  | TODO |  | TODO |
-| T | top1 | Top | TODO |  | clawline | TODO |  | probably one way |
+| D | door1 | Top | [Cogwork Core Main Connection (Cog_Pass)](cogwork-core-main-connection.md) | TL | Nothing. |  |  | TODO |
+| T | top1 | Top | [Cogwork Core North Main (Cog_08)](cogwork-core-north-main.md) | B | clawline |  |  | probably one way |
 
 ## Subroom Connections
 

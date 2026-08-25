@@ -2,6 +2,8 @@
 
 **Game ID:** Library_16
 
+**Contributors:** Rebel
+
 ## Subrooms
 
 No subrooms defined.
@@ -10,7 +12,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | Right |  | [Whispering Vaults Hell (Library_04)](whispering-vaults-hell.md) | BL | Nothing. |  |  |  |
+| R | Right |  | [Whispering Vaults Hell (Library_04)](whispering-vaults-hell.md) | BL | Nothing. |  | Verified |  |
 
 ## Subroom Connections
 
@@ -20,4 +22,4 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Whispering Vaults: Cogheart Piece |  | The ability to swing your needle. |  |  | Included |  |
+| Whispering Vaults: Cogheart Piece |  | The ability to swing your needle. |  | Verified | Included | (Aka Nothing.) |

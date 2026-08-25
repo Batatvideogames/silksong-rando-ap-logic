@@ -14,7 +14,7 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 | Right Secret | TODO |  | none |  |  |  |
+| R | right1 | Right Secret | [Cogwork Core West Gauntlet (Cog_05)](../cogwork-core/cogwork-core-west-gauntlet.md) | L | none |  |  |  |
 | T | top1 | Top | [High Halls Corridor (Hang_07)](high-halls-corridor.md) | B | none |  |  |  |
 | B | bot1 | Base | [Choral Chambers Dining Room (Song_09b)](choral-chambers-dining-room.md) | T | none |  |  |  |
 

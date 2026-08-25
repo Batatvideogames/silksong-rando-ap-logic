@@ -8021,8 +8021,9 @@ No check locations defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Underworks: Lever (Up) #1 | Arena | Nothing. |  | Verified | Included |  |
+| Underworks: Lever (Up) #1 | Arena | Beat Arena |  | Verified | Included |  |
 | Underworks: Silk Spool #2 | Arena | Nothing. |  | Verified | Included |  |
+| Underworks: Arena Fight #1 | Arena |  |  | Verified | Included |  |
 
 ### Underworks Exhaust Organ Transit (Library_12)
 
@@ -9294,7 +9295,7 @@ No check locations defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 | Right Secret | TODO |  | none |  |  |  |
+| R | right1 | Right Secret | [Cogwork Core West Gauntlet (Cog_05)](#cogwork-core-west-gauntlet-cog05) | L | none |  |  |  |
 | T | top1 | Top | [High Halls Corridor (Hang_07)](#high-halls-corridor-hang07) | B | none |  |  |  |
 | B | bot1 | Base | [Choral Chambers Dining Room (Song_09b)](#choral-chambers-dining-room-song09b) | T | none |  |  |  |
 
@@ -9886,11 +9887,11 @@ Door on the east can be only opened from the west
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | R | right1 | BaseRight | [Memorium Entrance Tunnel (Song_25)](#memorium-entrance-tunnel-song25) | L | none |  | Verified |  |
 | L | left1 | BaseLeft | [High Halls Corridor (Hang_07)](#high-halls-corridor-hang07) | R | none |  | Verified |  |
-| B1 | bot1 | BossArena | TODO |  | Boss: Cogwork Dancers |  | Verified |  |
-| B2 | bot2 | BossArena | TODO |  | Boss: Cogwork Dancers |  | Verified |  |
+| B1 | bot1 | BossArena | [Cogwork Core South Main (Cog_04)](#cogwork-core-south-main-cog04) | TL | Boss: Cogwork Dancers |  | Verified |  |
+| B2 | bot2 | BossArena | [Cogwork Core South Main (Cog_04)](#cogwork-core-south-main-cog04) | TR | Boss: Cogwork Dancers |  | Verified |  |
 | E | elevator | BossArena | TODO |  | Boss: Cogwork Dancers and more | TODO |  | TODO: Check all that's needed for the elevator to work |
-| D | door1 | Top | TODO |  |  | TODO |  | TODO |
-| T | top1 | Top | TODO |  | clawline | TODO |  | probably one way |
+| D | door1 | Top | [Cogwork Core Main Connection (Cog_Pass)](#cogwork-core-main-connection-cogpass) | TL | Nothing. |  |  | TODO |
+| T | top1 | Top | [Cogwork Core North Main (Cog_08)](#cogwork-core-north-main-cog08) | B | clawline |  |  | probably one way |
 
 #### Subroom Connections
 
@@ -9913,11 +9914,437 @@ Door on the east can be only opened from the west
 
 Boss needs only any crest to be beatable. The big line attack can be parried with appropriate timing.
 
+### Cogwork Core Architect's Melody (Cog_09)
+
+**Game ID:** Cog_09
+
+**Contributors:** Rebel
+
+#### Subrooms
+
+- Bottom
+- Melody Puzzle
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| B | bot1 | Bottom | [Cogwork Core North Main (Cog_08)](#cogwork-core-north-main-cog08) | T | Nothing. |  |  |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| TP | To Puzzle | Bottom | Melody Puzzle | Silk Soar OR Cling Grip OR Faydown Cloak AND Scuttlebrace |  | Verified |  |
+| TP | To Puzzle | Melody Puzzle | Bottom | Nothing. (Fall) |  | Verified |  |
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Cogwork Core: Architect's Melody |  |  |  | Verified | Included |  |
+
+### Cogwork Core Architect's Melody (Act 3) (Cog_09_Destroyed)
+
+**Game ID:** Cog_09_Destroyed
+
+**Contributors:** Rebel
+
+#### Subrooms
+
+- Bottom
+- Center
+- Silk Soar Ceiling
+- Top Entrance
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| R | right1 | Bottom | TODO |  | Nothing. |  | Verified |  |
+| T | top1 | Top Entrance | TODO |  | Nothing. |  | Verified |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| BC | Bottom-Center | Bottom | Center | Silk Soar OR Faydown Cloak AND Cling Grip |  | Verified |  |
+| BC | Bottom-Center | Center | Bottom | Nothing. (Fall) |  | Verified |  |
+| CSE | Center-Silk Soar Entrance | Center | Silk Soar Ceiling | Silk Soar |  | Verified |  |
+| CSE | Center-Silk Soar Entrance | Silk Soar Ceiling | Center | Nothing. (Fall) |  | Verified |  |
+| STE | Soar Ceiling-Top Entrance | Silk Soar Ceiling | Top Entrance | Silk Soar OR Cling Grip OR Scuttlebrace |  | Verified |  |
+| STE | Soar Ceiling-Top Entrance | Top Entrance | Silk Soar Ceiling | Nothing. (Fall) |  | Verified |  |
+
+#### Check Locations
+
+No check locations defined.
+
+### Cogwork Core Bench & Map (Cog_Bench)
+
+**Game ID:** Cog_Bench
+
+**Contributors:** Rebel
+
+#### Subrooms
+
+- Bench
+- Map
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left1 | Map | [Cogwork Core South Main (Cog_04)](#cogwork-core-south-main-cog04) | DL | Nothing. |  | Verified |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| BM | Bench-Map | Bench | Map | Silk Soar OR Cling Grip OR Scuttlebrace |  | Verified |  |
+| BM | Bench-Map | Map | Bench | Nothing. (Fall) |  | Verified |  |
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Cogwork Core: Flip Switch (Up) #4 | Bench | Nothing. |  | Verified | Included |  |
+| Cogwork Core: Flip Switch (Down) #5 | Map | Nothing. |  | Verified | Included |  |
+| Cogwork Core: Map | Map | Flipped Switch #5 |  | Verified | Included |  |
+
+### Cogwork Core Breakable Walls (Cog_10_Destroyed)
+
+**Game ID:** Cog_10_Destroyed
+
+**Contributors:** Rebel
+
+#### Subrooms
+
+- Top Entrance
+- Steam Shaft
+- Center Shaft
+- Northern Gauntlet
+- Southern Shaft
+- Breakable Wall Shaft
+- Spike Platform
+- Bottom Entrance
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| B | bot1 | Bottom Entrance | [Memorium Entrance Tunnel (Song_25)](#memorium-entrance-tunnel-song25) | TL | Nothing. |  |  |  |
+| L | left1 | Top Entrance | [Cogwork Core Architect's Melody (Act 3) (Cog_09_Destroyed)](#cogwork-core-architects-melody-act-3-cog09destroyed) | R | Nothing. |  |  |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| ESH | Top Entrance-Steam Shaft | Top Entrance | Steam Shaft | Break Wall #3 AND Dash OR Drifter's Cloak OR Faydown Cloak OR Sharp Dart OR Clawline OR Scuttlebrace OR Cling Grip |  | Verified |  |
+| ESH | Top Entrance-Steam Shaft | Steam Shaft | Top Entrance | Break Wall #3 AND Silk Soar OR Faydown Cloak AND (Scuttlebrace OR (Ledge Grab AND Clawline) AND Cling Grip)) |  | Verified |  |
+| SCS | Steam Shaft-Center Shaft | Steam Shaft | Center Shaft | Break Wall #4 |  | Verified |  |
+| SCS | Steam Shaft-Center Shaft | Center Shaft | Steam Shaft | Break Wall #4 AND Silk Soar OR (Cling Grip OR Scuttlebrace) AND Faydown Cloak |  | Verified |  |
+| SNG | Center Shaft-Northern Gauntlet | Center Shaft | Northern Gauntlet | Break Wall #5 |  | Verified |  |
+| SNG | Center Shaft-Northern Gauntlet | Northern Gauntlet | Center Shaft | Break Wall #5 from other side AND Silk Soar AND Faydown Cloak |  | Verified |  |
+| GSS | Northern Gauntlet-Southern Shaft | Northern Gauntlet | Southern Shaft | Complete Gauntlet |  | Verified |  |
+| GSS | Northern Gauntlet-Southern Shaft | Southern Shaft | Northern Gauntlet | Complete Gauntlet AND Silk Soar OR Cling Grip AND Faydown Cloak |  | Verified |  |
+| SWS | Southern Shaft-Wall Shaft | Southern Shaft | Breakable Wall Shaft | Break Wall #6 |  | Verified |  |
+| SWS | Southern Shaft-Wall Shaft | Breakable Wall Shaft | Southern Shaft | Break Wall #6 AND (Cling Grip OR Faydown Cloak) |  | Verified |  |
+| WSP | Breakable Wall Shaft-Spike Platform | Breakable Wall Shaft | Spike Platform | Break Wall #7 |  | Verified |  |
+| WSP | Breakable Wall Shaft-Spike Platform | Spike Platform | Breakable Wall Shaft | Break Wall #7 AND Dash OR Faydown Cloak OR Drifter's Cloak OR Cling Grip OR Sharp Dart OR Clawline OR Scuttlebrace OR Ledge Grab |  | Verified |  |
+| SPE | Spike Platform-Bottom Entrance | Spike Platform | Bottom Entrance | Nothing. (Fall) |  | Verified |  |
+| SPE | Spike Platform-Bottom Entrance | Bottom Entrance | Spike Platform | Scuttlebrace AND (Spike Pogo OR Dash) OR Cling Grip OR Faydown Cloak AND (Spike Pogo OR Clawline) |  | Verified |  |
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Cogwork Core: Break Wall (Left OR Right) #3 | Steam Shaft | Nothing. |  | Verified | Included |  |
+| Cogwork Core: Break Wall (Left OR Right) #4 | Steam Shaft | Nothing. |  | Verified | Included |  |
+| Cogwork Core: Break Wall (Down) #5 | Center Shaft | Nothing. |  | Verified | Included | Can't be broken from the bottom. |
+| Cogwork Core: Break Wall: (Left OR Right) #6 | Breakable Wall Shaft | Nothing. |  | Verified | Included |  |
+| Cogwork Core: Break Wall: (Left OR Right) #7 | Breakable Wall Shaft | Nothing. |  | Verified | Included |  |
+
+### Cogwork Core East Choral Entrance (Cog_06)
+
+**Game ID:** Cog_06
+
+**Contributors:** Rebel
+
+#### Subrooms
+
+- Left Side
+- Right Side
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| R | right1 | Right Side | [Rotating Tunnel (Song_20b)](#rotating-tunnel-song20b) | LH | Flipped Switch |  | Verified |  |
+| L | left2 | Left Side | [Cogwork Core South Main (Cog_04)](#cogwork-core-south-main-cog04) | MR | Nothing. |  | Verified |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| J | Jump | Left Side | Right Side | Clawline AND (Drifter's Cloak OR Faydown Cloak) OR Faydown Cloak AND Swift Step AND Drifter's Cloak OR Spike Pogo |  | Verified |  |
+| J | Jump | Right Side | Left Side | Clawline AND (Drifter's Cloak OR Faydown Cloak) OR Faydown Cloak AND Swift Step AND Drifter's Cloak OR Spike Pogo |  | Verified |  |
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Cogwork Core: Flip Switch (Up) #3 | Right Side | Nothing. |  | Verified | Included |  |
+
+### Cogwork Core East Silk Spool & Gauntlet (Cog_07)
+
+**Game ID:** Cog_07
+
+**Contributors:** Rebel
+
+#### Subrooms
+
+- Entrance
+- Left Room
+- Right Room
+- Silk Spool Jump Left
+- Silk Spool Jump Right
+- Bottom Room
+- Arena 
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left1 | Entrance | [Cogwork Core South Main (Cog_04)](#cogwork-core-south-main-cog04) | BR | Nothing. |  | Verified |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| EL | Entrance-Left | Entrance | Left Room | Silk Soar OR Cling Grip OR Scuttlebrace |  | Verified |  |
+| LR | Left-Right | Left Room | Right Room | Flipped Switch |  | Verified |  |
+| RB | Right-Bottom | Right Room | Bottom Room | Nothing. (Fall) |  | Verified |  |
+| BLS | Bottom-Spool Left | Bottom Room | Silk Spool Jump Left | Nothing. (Fall) |  | Verified |  |
+| SSJ | Silk Spool Jump | Silk Spool Jump Left | Silk Spool Jump Right | Dash OR Sprint OR Clawline OR Sharp Dart OR Scuttlebrace |  | Verified | hehe, funny dragonball reference. |
+| SSJ | Silk Spool Jump | Silk Spool Jump Right | Silk Spool Jump Left | Dash OR Sprint OR Clawline OR Sharp Dart OR Scuttlebrace |  | Verified |  |
+| BLS | Bottom-Spool Left | Silk Spool Jump Left | Bottom Room | Scuttlebrace OR Cling Grip |  | Verified |  |
+| BE | Bottom-Entrance | Bottom Room | Entrance | Nothing. |  | Verified |  |
+| BE | Bottom-Entrance | Entrance | Bottom Room | Can't. |  | Verified |  |
+| EL | Entrance-Left | Left Room | Entrance | Nothing. (Fall) |  | Verified |  |
+| LR | Left-Right | Right Room | Left Room | Flipped Switch |  | Verified |  |
+| RB | Right-Bottom | Bottom Room | Right Room | Silk Soar OR Cling Grip OR Scuttlebrace |  | Verified |  |
+| LG | Left-Gauntlet | Left Room | Arena | Silk Soar |  | Verified |  |
+| LG | Left-Gauntlet | Arena | Left Room | Beat Arena. |  | Verified |  |
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Cogwork Core: Silk Spool #1 | Silk Spool Jump Left | Nothing. |  | Verified | Included |  |
+| Cogwork Core: Flip Switch (Up) #2 | Left Room | Nothing. |  | Verified | Included | interacting with this switch causes a mini-boss type enemy to spawn |
+| Cogwork Core: Pristine Core | Arena | Beat Arena. |  | Verified | Included |  |
+| Cogwork Core: Gauntlet #2 | Arena | Beat Arena. |  | Verified | Included |  |
+
+### Cogwork Core Main Connection (Cog_Pass)
+
+**Game ID:** Cog_Pass
+
+#### Subrooms
+
+- Lower Entrance
+- Upper Entrance
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| BL | left2 | Lower Entrance | [Cogwork Core South Main (Cog_04)](#cogwork-core-south-main-cog04) | DR | Nothing. |  | Verified |  |
+| TL | left1 | Upper Entrance | [Cog Dancers (Cog_Dancers)](#cog-dancers-cogdancers) | D | Nothing. |  | Verified |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| LU | Lower-Upper | Lower Entrance | Upper Entrance | Silk Soar OR Cling Grip OR Scuttlebrace |  | Verified |  |
+| LU | Lower-Upper | Upper Entrance | Lower Entrance | Nothing. (Fall) |  | Verified |  |
+
+#### Check Locations
+
+No check locations defined.
+
+### Cogwork Core North Main (Cog_08)
+
+**Game ID:** Cog_08
+
+**Contributors:** Rebel
+
+#### Subrooms
+
+- Lower Entrance
+- Upper Entrance
+- Lever Door
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| B | bot1 | Lever Door | [Cog Dancers (Cog_Dancers)](#cog-dancers-cogdancers) | T |  |  |  |  |
+| T | top1 | Upper Entrance | cogwork core |  |  |  |  |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| BEL | Bottom Entrance-Lever | Lower Entrance | Lever Door | Spike Pogo (Hunter OR Reaper OR Architect OR Shaman) (Moderate Skip) AND (Cling Grip OR Faydown Cloak OR Ledge Grab) AND Enemy Pogo (Easy Skip) OR Clawline |  | Verified |  |
+| BEL | Bottom Entrance-Lever | Lever Door | Lower Entrance | nothing but damn if drifter's makes this fall easier. |  | Verified |  |
+| LTE | Lever-Top Entrance | Lever Door | Upper Entrance | Clawline AND Faydown Cloak AND Cling Grip |  | Verified |  |
+| LTE | Lever-Top Entrance | Upper Entrance | Lever Door | Clawline OR Sharp Dart OR Dash OR Faydown Cloak OR Drifter's Cloak |  | Verified |  |
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Cogwork Core: Flip Switch #7 | Lever Door | Nothing. |  | Verified | Included |  |
+
+### Cogwork Core Second Sentinel (Cog_10)
+
+**Game ID:** Cog_10
+
+**Contributors:** Rebel
+
+#### Subrooms
+
+- Shard Bundle Check
+- Second Sentinel
+- Entrance
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| B | bot1 | Entrance | [Cogwork Core West Gauntlet (Cog_05)](#cogwork-core-west-gauntlet-cog05) | T | Nothing. |  | Verified |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| EB | Entrance-Bundle | Entrance | Shard Bundle Check | Silk Soar OR Faydown Cloak |  | Verified |  |
+| BS | Bundle-Sentinel | Shard Bundle Check | Second Sentinel | Break Wall #1 AND #2 |  | Verified |  |
+| BS | Bundle-Sentinel | Second Sentinel | Shard Bundle Check | Break Wall #1 AND #2 |  | Verified |  |
+| EB | Entrance-Bundle | Shard Bundle Check | Entrance | Nothing. (Fall) |  | Verified |  |
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Cogwork Core: Shard Bundle #1 | Shard Bundle Check | Nothing. |  | Verified | Included |  |
+| Cogwork Core: Break Wall (Right) #1 | Shard Bundle Check | Nothing. |  | Verified | Included |  |
+| Cogwork Core: Break Wall (Right) #2 | Shard Bundle Check | Nothing. |  | Verified | Included |  |
+| Sentinel Awake | Second Sentinel | Break Tube, Provide Cogheart |  | Verified | Included |  |
+
+### Cogwork Core South Main (Cog_04)
+
+**Game ID:** Cog_04
+
+**Contributors:** Rebel
+
+#### Subrooms
+
+- Top Entrance
+- Left Shaft Top Side
+- Bottom
+- Right Shaft Top Side
+- Top Right Door
+- Bottom Right Entrance
+- Left Shaft Bottom Side
+- Right Shaft Bottom Side
+- Shaft Shortcut
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| BR | right3 | Bottom | [Cogwork Core East Silk Spool & Gauntlet (Cog_07)](#cogwork-core-east-silk-spool-gauntlet-cog07) | L | Nothing. |  | Verified |  |
+| ML | left2 | Left Shaft Bottom Side | [Cogwork Core West Gauntlet (Cog_05)](#cogwork-core-west-gauntlet-cog05) | R | Nothing. |  | Verified |  |
+| DL | door1 | Top Entrance | [Cogwork Core Bench & Map (Cog_Bench)](#cogwork-core-bench-map-cogbench) | L | Nothing. |  | Verified |  |
+| DR | door2 | Top Right Door | [Cogwork Core Main Connection (Cog_Pass)](#cogwork-core-main-connection-cogpass) | BL | Nothing. |  | Verified |  |
+| MR | right2 | Right Shaft Top Side | [Cogwork Core East Choral Entrance (Cog_06)](#cogwork-core-east-choral-entrance-cog06) | L | Nothing. |  | Verified |  |
+| TL | top1 | Top Entrance | [Cog Dancers (Cog_Dancers)](#cog-dancers-cogdancers) | B1 | Cling Grip OR Scuttlebrace OR Silk Soar OR Faydown Cloak |  | Verified |  |
+| TR | top2 | Top Entrance | [Cog Dancers (Cog_Dancers)](#cog-dancers-cogdancers) | B2 | Cling Grip OR Scuttlebrace OR Silk Soar OR Faydown Cloak |  | Verified |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| TLT | Top-Left Top | Top Entrance | Left Shaft Top Side | Nothing. (Fall) |  | Verified |  |
+| TLT | Top-Left Top | Left Shaft Top Side | Top Entrance | Ledge Grab OR Clawline OR Faydown Cloak OR Scuttlebrace |  | Verified |  |
+| LTB | Left Top-Left Bottom | Left Shaft Top Side | Left Shaft Bottom Side | Nothing. (Fall) |  | Verified |  |
+| LTB | Left Top-Left Bottom | Left Shaft Bottom Side | Left Shaft Top Side | Spike Pogo AND (Ledge Grab OR Clawline OR Faydown Cloak) (Easy Skip) OR Cling Grip AND (Ledge Grab OR Clawline) |  | Verified |  |
+| LBB | Left Bottom-Bottom | Left Shaft Bottom Side | Bottom | Nothing. (Fall) |  | Verified |  |
+| LBB | Left Bottom-Bottom | Bottom | Left Shaft Bottom Side | Cling Grip AND (Ledge Grab OR Clawline) OR Faydown Cloak AND (Spike Pogo OR Enemy Pogo (Easy Skip)) |  | Verified |  |
+| BRR | Bottom-Right Bottom Shaft | Bottom | Right Shaft Bottom Side | Cling Grip AND (faydown Cloak OR Clawline OR (Dash AND Drifter's Cloak) OR Spike Pogo) OR Spike Pogo AND Faydown Cloak OR Clawline AND Faydown Cloak (Hard Skip) |  | Verified |  |
+| BRR | Bottom-Right Bottom Shaft | Right Shaft Bottom Side | Bottom | Nothing. (Fall) |  | Verified |  |
+| RBT | Right Bottom-Right Top | Right Shaft Bottom Side | Right Shaft Top Side | Cling Grip AND Faydown Cloak AND (Drifter's Cloak OR Dash) OR Faydown Cloak AND Spike Pogo OR Clawline AND Faydown Cloak (Hard Skip) |  | Verified |  |
+| RBT | Right Bottom-Right Top | Right Shaft Top Side | Right Shaft Bottom Side | Nothing. (fall) |  | Verified |  |
+| RST | Right Top-Top Door | Right Shaft Top Side | Top Right Door | (Ledge Grab OR Clawline OR Scuttlebrace) AND (Spike Pogo AND (Cling Grip OR Faydown Cloak) OR (Clawline AND Faydown Cloak (Easy Skip)) |  | Verified | AQ - my cat |
+| RST | Right Top-Top Door | Top Right Door | Right Shaft Top Side | Nothing. (Fall) |  | Verified |  |
+| TDT | Right Top Door-Top | Top Right Door | Top Entrance | Flipped Switch #5 |  | Verified |  |
+| TDT | Right Top Door-Top | Top Entrance | Top Right Door | Flipped Switch on other side |  | Verified |  |
+| SC | Shortcut | Left Shaft Bottom Side | Right Shaft Bottom Side | Flipped Switch on other side |  | Verified |  |
+| SC | Shortcut | Right Shaft Bottom Side | Left Shaft Bottom Side | Flipped Switch #4 |  | Verified |  |
+| BBE | Bottom-Bottom Exit | Bottom | Bottom Right Entrance | Spike Pogo OR Clawline OR Sharp Dart OR Sprint OR Dash OR Drifter's Cloak OR Faydown Cloak |  | Verified |  |
+| BBE | Bottom-Bottom Exit | Bottom Right Entrance | Bottom | Spike Pogo OR Clawline OR Sharp Dart OR Sprint OR Dash OR Drifter's Cloak OR Faydown Cloak |  | Verified |  |
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Cogwork Core: Flipped Switch (Up) #5 | Top Right Door | Nothing. |  | Verified | Included |  |
+| Cogwork Core: Flipped Switch (Left) #4 | Shaft Shortcut | Nothing. |  | Verified | Included |  |
+
+### Cogwork Core West Gauntlet (Cog_05)
+
+**Game ID:** Cog_05
+
+**Contributors:** Rebel
+
+#### Subrooms
+
+- Top Entrance
+- Main
+- Arena
+- Left Entrance
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| R | right2 | Main | [Cogwork Core South Main (Cog_04)](#cogwork-core-south-main-cog04) | ML | Nothing. |  | Verified |  |
+| L | left1 | Left Entrance | [Choral Chambers Over Dininig (Song_09)](#choral-chambers-over-dininig-song09) | R | Nothing. |  | Verified |  |
+| T | top1 | Top Entrance | [Cogwork Core Second Sentinel (Cog_10)](#cogwork-core-second-sentinel-cog10) | B | Nothing. |  | Verified |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| MT | Main-Top | Main | Top Entrance | Silk Soar OR Faydown Cloak AND (Cling Grip OR Scuttlebrace OR Ledge Grab OR Clawline) |  | Verified |  |
+| MT | Main-Top | Top Entrance | Main | Nothing. (fall) |  | Verified |  |
+| ML | Main-Left | Main | Left Entrance | Beat Arena AND (Silk Soar OR Cling Grip OR Scuttlebrace) |  | Verified |  |
+| ML | Main-Left | Left Entrance | Main | Beat Arena |  | Verified |  |
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Cogwork Core: Arena Fight #1 | Arena | Beat the Arena. |  | Verified | Included |  |
+
 ## Whispering Vaults
 
 ### Vaultkeeper Cauldron Entrance (Library_10)
 
 **Game ID:** Library_10
+
+**Contributors:** Rebel
 
 #### Subrooms
 
@@ -9929,30 +10356,32 @@ Boss needs only any crest to be beatable. The big line attack can be parried wit
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| B | Bottom | Left Side | [Underworks Below Vaultkeeper (Library_12b)](#underworks-below-vaultkeeper-library12b) | T | Nothing. |  |  | the bottom portion of 04 doesn't link for some reason, so this transition can't connect until that's fixed |
-| L | Left | Right Side | [Whispering Vaults Hell (Library_04)](#whispering-vaults-hell-library04) | BR | Nothing. |  |  |  |
+| B | Bottom | Left Side | [Underworks Below Vaultkeeper (Library_12b)](#underworks-below-vaultkeeper-library12b) | T | Nothing. |  | Verified | the bottom portion of 04 doesn't link for some reason, so this transition can't connect until that's fixed |
+| L | Left | Right Side | [Whispering Vaults Hell (Library_04)](#whispering-vaults-hell-library04) | BR | Nothing. |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| W | Walk | Right Side | Left Side | Open the door. |  |  |  |
-| W | Walk | Left Side | Right Side | Open the door. |  |  |  |
-| J | Jump | Right Side | Top Room | Silk Soar OR Cling Grip OR Scuttlebrace OR Faydown Cloak AND Ledge Grab |  |  |  |
-| J | Jump | Top Room | Right Side | Nothing. (Fall) |  |  |  |
+| W | Walk | Right Side | Left Side | Flipped Switch #1 |  | Verified |  |
+| W | Walk | Left Side | Right Side | Flipped Switch #1 |  | Verified |  |
+| J | Jump | Right Side | Top Room | Silk Soar OR Cling Grip OR Scuttlebrace OR Faydown Cloak AND Ledge Grab |  | Verified |  |
+| J | Jump | Top Room | Right Side | Nothing. (Fall) |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Whispering Vaults: Break Wall #1 (Up) | Right Side | Nothing. |  |  | Included |  |
-| Sacred Cylinder | Left Side | Nothing. |  |  | Included |  |
-| Whispering Vaults: Flip Switch #1 (Down) | Right Side | Nothing. |  |  | Included |  |
-| Whispering Vaults: Needolin Lore #1 | Left Side | Needolin. |  |  | Included |  |
+| Whispering Vaults: Break Wall #1 (Up) | Right Side | Nothing. |  | Verified | Included |  |
+| Sacred Cylinder | Left Side | Nothing. |  | Verified | Included |  |
+| Whispering Vaults: Flip Switch #1 (Down) | Right Side | Nothing. |  | Verified | Included |  |
+| Whispering Vaults: Needolin Lore #1 | Left Side | Needolin. |  | Verified | Included |  |
 
 ### Whispering Vaults Below Bench (Library_06)
 
 **Game ID:** Library_06
+
+**Contributors:** Rebel
 
 #### Subrooms
 
@@ -9965,29 +10394,31 @@ Boss needs only any crest to be beatable. The big line attack can be parried wit
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| BL | left2 | Bottom | [Whispering Vaults East To West (Library_05)](#whispering-vaults-east-to-west-library05) | BR | Nothing. |  |  |  |
-| R | right1 | Top | [Whispering Vaults Totally Not White Palace (Library_07)](#whispering-vaults-totally-not-white-palace-library07) | BL | Nothing. |  |  |  |
-| TL | left1 | Top | [Whispering Vaults East To West (Library_05)](#whispering-vaults-east-to-west-library05) | TR | Nothing. |  |  |  |
+| BL | left2 | Bottom | [Whispering Vaults East To West (Library_05)](#whispering-vaults-east-to-west-library05) | BR | Nothing. |  | Verified |  |
+| R | right1 | Top | [Whispering Vaults Totally Not White Palace (Library_07)](#whispering-vaults-totally-not-white-palace-library07) | BL | Nothing. |  | Verified |  |
+| TL | left1 | Top | [Whispering Vaults East To West (Library_05)](#whispering-vaults-east-to-west-library05) | TR | Nothing. |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| LA | Lower Ascent | Bottom | Top | Silk Soar OR Cling Grip AND Dash/Clawline/Sharp Dart/(Hunter Pogo AND Ledge Grab)/Beast Pogo/Beast Charge/Architect Pogo/Architect Charge OR Faydown Cloak AND (Ledge Grab OR Clawline OR Scuttlebrace AND Clawline |  |  |  |
-| HA | Higher Ascent | Top | Rosary | Silk Soar OR Cling Grip AND (Enemy Pogo OR Box Pogo with any crest except Hunter OR Faydown Cloak OR Clawline OR Sharp Dart OR Architect Charge) |  |  |  |
-| E | Exit | Top | Right Exit | Silk Soar OR Cling Grip OR Scuttlebrace OR Faydown Cloak AND (Ledge Grab OR Clawline) |  |  | clawline skip here is REALLY precise |
+| LA | Lower Ascent | Bottom | Top | (Silk Soar OR Cling Grip OR Scuttlebrace) AND (Dash OR Clawline OR Sharp Dart OR Faydown Cloak) |  | Verified |  |
+| HA | Higher Ascent | Top | Rosary | Silk Soar OR Box Pogo (All Crests except Hunter) OR Cling Grip AND (Faydown Cloak OR Clawline OR Sharp Dart OR Architect Charge) OR (Cling Grip AND (Enemy Pogo (Easy Skip)) |  | Verified |  |
+| E | Exit | Top | Right Exit | Silk Soar OR Cling Grip OR Scuttlebrace OR Faydown Cloak AND (Ledge Grab OR Clawline) |  | Verified | clawline skip here is REALLY precise |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| AP Minor Cache - Whispering Vaults - Rosary Cache #4 | Rosary | Nothing. |  |  | Included |  |
-| Whispering Vaults: Rosary Cache #3 | Rosary | Nothing. |  |  | Included |  |
-| Whispering Vaults: Rosary Dish #2 | Rosary | Nothing. |  |  | Included |  |
+| AP Minor Cache - Whispering Vaults - Rosary Cache #4 | Rosary | Nothing. |  | Verified | Included |  |
+| Whispering Vaults: Rosary Cache #3 | Rosary | Nothing. |  | Verified | Included |  |
+| Whispering Vaults: Rosary Dish #2 | Rosary | Nothing. |  | Verified | Included |  |
 
 ### Whispering Vaults Bench (Library_08)
 
 **Game ID:** Library_08
+
+**Contributors:** Rebel
 
 #### Subrooms
 
@@ -10001,29 +10432,31 @@ Boss needs only any crest to be beatable. The big line attack can be parried wit
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | Right | Side Room | [Whispering Vaults Totally Not White Palace (Library_07)](#whispering-vaults-totally-not-white-palace-library07) | TL | Nothing. |  |  |  |
-| L | Left | Cardinius | [Whispering Vaults Hell (Library_04)](#whispering-vaults-hell-library04) | MHR | Nothing. |  |  |  |
+| R | Right | Side Room | [Whispering Vaults Totally Not White Palace (Library_07)](#whispering-vaults-totally-not-white-palace-library07) | TL | Nothing. |  | Verified |  |
+| L | Left | Cardinius | [Whispering Vaults Hell (Library_04)](#whispering-vaults-hell-library04) | MHR | Nothing. |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | Loot! | Side Room | Loot | Silk Soar OR Cling Grip OR Scuttlebrace |  |  |  |
-| BT | Bench Time! | Cardinius | Bench | Silk Soar OR Cling Grip AND Faydown Cloak/Clawline/Sharp Dart/Sprint/Dash/Beast Charge/Architect Charge |  |  |  |
-| PC | Psalm Cylinder | Cardinius | Cylinder | Silk Soar OR Cling Grip OR Scuttlebrace |  |  |  |
+| L | Loot! | Side Room | Loot | Silk Soar OR Cling Grip OR Scuttlebrace |  | Verified |  |
+| BT | Bench Time! | Cardinius | Bench | Silk Soar OR Cling Grip AND Faydown Cloak/Clawline/Sharp Dart/Sprint/Dash/Beast Charge/Architect Charge |  | Verified |  |
+| PC | Psalm Cylinder | Cardinius | Cylinder | Silk Soar OR Cling Grip OR Scuttlebrace |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Whispering Vaults: Rosary Cache #1 | Loot | Nothing. |  |  | Included |  |
-| Whispering Vaults: Memory Locket #1 | Loot | Nothing. |  |  | Included |  |
-| Whispering Vaults: Rosary Cache #2 | Loot | Nothing. |  |  | Included |  |
-| Whispering Vaults: Psalm Cylinder #1 | Cylinder | Nothing. |  |  | Included |  |
+| Whispering Vaults: Rosary Cache #1 | Loot | Nothing. |  | Verified | Included |  |
+| Whispering Vaults: Memory Locket #1 | Loot | Nothing. |  | Verified | Included |  |
+| Whispering Vaults: Rosary Cache #2 | Loot | Nothing. |  | Verified | Included |  |
+| Whispering Vaults: Psalm Cylinder #1 | Cylinder | Nothing. |  | Verified | Included |  |
 
 ### Whispering Vaults East To West (Library_05)
 
 **Game ID:** Library_05
+
+**Contributors:** Rebel
 
 #### Subrooms
 
@@ -10036,32 +10469,34 @@ Boss needs only any crest to be beatable. The big line attack can be parried wit
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| BL | Bottom Left | Bottom | [Whispering Vaults Hell (Library_04)](#whispering-vaults-hell-library04) | LR | Nothing. |  |  |  |
-| BR | Bottom Right | Bottom | [Whispering Vaults Below Bench (Library_06)](#whispering-vaults-below-bench-library06) | TL | Nothing. |  |  |  |
-| TR | Top Right | Top | [Whispering Vaults Below Bench (Library_06)](#whispering-vaults-below-bench-library06) | BL | Nothing. |  |  |  |
-| TL | Top Left | Top | [Whispering Vaults Hell (Library_04)](#whispering-vaults-hell-library04) | CR | Nothing. |  |  |  |
+| BL | Bottom Left | Bottom | [Whispering Vaults Hell (Library_04)](#whispering-vaults-hell-library04) | LR | Nothing. |  | Verified |  |
+| BR | Bottom Right | Bottom | [Whispering Vaults Below Bench (Library_06)](#whispering-vaults-below-bench-library06) | BL | Nothing. |  | Verified |  |
+| TR | Top Right | Top | [Whispering Vaults Below Bench (Library_06)](#whispering-vaults-below-bench-library06) | TL | Nothing. |  | Verified |  |
+| TL | Top Left | Top | [Whispering Vaults Hell (Library_04)](#whispering-vaults-hell-library04) | CR | Nothing. |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| VL | Vertical Low | Bottom | Center | Silk Soar OR Cling Grip OR Faydown Cloak AND Ledge Grab/Clawline |  |  |  |
-| VH | Vertical High | Center | Top | Cling Grip OR Silk Soar |  |  |  |
-| MS | Mask Shard | Top | Shard | Silk Soar OR Box Pogo |  |  |  |
-| MS | Mask Shard | Shard | Top | Nothing. (Fall) |  |  |  |
-| VH | Vertical High | Top | Center | Nothing. (Fall) |  |  |  |
-| VL | Vertical Low | Center | Bottom | Nothing. (fall) |  |  |  |
+| VL | Vertical Low | Bottom | Center | Silk Soar OR Cling Grip OR Faydown Cloak AND (Ledge Grab OR Clawline) |  | Verified |  |
+| VH | Vertical High | Center | Top | Cling Grip OR Silk Soar |  | Verified |  |
+| MS | Mask Shard | Top | Shard | Silk Soar OR Box Pogo |  | Verified |  |
+| MS | Mask Shard | Shard | Top | Nothing. (Fall) |  | Verified |  |
+| VH | Vertical High | Top | Center | Nothing. (Fall) |  | Verified |  |
+| VL | Vertical Low | Center | Bottom | Nothing. (fall) |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Whispering Vaults: Mask Shard #1 | Shard | Nothing. |  |  | Included |  |
-| Whispering Vaults: Flip Switch #3 | Bottom | Nothing. |  |  | Included |  |
+| Whispering Vaults: Mask Shard #1 | Shard | Nothing. |  | Verified | Included |  |
+| Whispering Vaults: Flip Switch #3 | Bottom | Nothing. |  | Verified | Included |  |
 
 ### Whispering Vaults Flea Shaft (Library_01)
 
 **Game ID:** Library_01
+
+**Contributors:** Rebel
 
 #### Subrooms
 
@@ -10077,30 +10512,32 @@ Boss needs only any crest to be beatable. The big line attack can be parried wit
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| BR | right2 | Bottom | [Whispering Vaults Hell (Library_04)](#whispering-vaults-hell-library04) | LL | Nothing. |  |  |  |
-| CL | left2 | Lower Platforms | [Grand Bellway Library (Library_03)](#grand-bellway-library-library03) | R | Silk Soar OR Enemy Pogo x2 OR Faydown Cloak AND (Ledge Grab/Clawline OR (Sprint AND Shaman Pogo/Beast Charge/Beast Pogo)) OR Cling Grip AND Enemy Pogo/Sprint/Dash/Clawline/Drifter's Cloak/Sharp Dart/Architect Charge/Beast Pogo/Beast Charge |  |  | first enemy pogo only available with flipped lever. crest specific options and enemy pogos probably easy skip? |
-| TR | right1 | Top | [Whispering Vaults Hell (Library_04)](#whispering-vaults-hell-library04) | TL | Nothing. |  |  |  |
-| TL | left1 | Top | [Songclave Steam Tunnel (Library_02)](#songclave-steam-tunnel-library02) | BR | Nothing. |  |  |  |
-| BL | left3 | Bottom | [Whispering Vaults Vaultborn Lever (Library_15)](#whispering-vaults-vaultborn-lever-library15) | R | Nothing. |  |  |  |
+| BR | right2 | Bottom | [Whispering Vaults Hell (Library_04)](#whispering-vaults-hell-library04) | LL | Nothing. |  | Verified |  |
+| CL | left2 | Lower Platforms | [Grand Bellway Library (Library_03)](#grand-bellway-library-library03) | R | Silk Soar OR Enemy Pogo x2 OR Faydown Cloak AND (Ledge Grab/Clawline OR (Sprint AND Shaman Pogo/Beast Charge/Beast Pogo)) OR Cling Grip AND Enemy Pogo/Sprint/Dash/Clawline/Drifter's Cloak/Sharp Dart/Architect Charge/Beast Pogo/Beast Charge |  | Verified | first enemy pogo only available with flipped lever. crest specific options and enemy pogos probably easy skip? |
+| TR | right1 | Top | [Whispering Vaults Hell (Library_04)](#whispering-vaults-hell-library04) | TL | Nothing. |  | Verified |  |
+| TL | left1 | Top | [Songclave Steam Tunnel (Library_02)](#songclave-steam-tunnel-library02) | BR | Nothing. |  | Verified |  |
+| BL | left3 | Bottom | [Whispering Vaults Vaultborn Lever (Library_15)](#whispering-vaults-vaultborn-lever-library15) | R | Nothing. |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| GF | Ground to Floor 1 | Bottom | Lower Platforms | Silk Soar OR Enemy Pogo x2 OR Faydown Cloak AND Ledge (Grab/Clawline OR (Sprint AND Shaman Pogo/Beast Charge)) OR Cling Grip AND Enemy Pogo/Sprint/Dash/Clawline/Drifter's Cloak/Sharp Dart/Architect Charge/Beast Pogo/Beast Charge |  |  |  |
-| UT | Upwards Traversal | Lower Platforms | Upper Platforms | Silk Soar OR Enemy Pogos AND Faydown Cloak OR Faydown Cloak AND Ledge Grab/Clawline/Beast Pogo/Beast Charge/Shaman Pogo/Cling Grip OR Cling Grip AND Sprint/Dash/Beast Pogo/Beast Charge/Architect Charge/Sharp Dart/Drifter's Cloak/Clawline |  |  |  |
-| FG | Flea Grab | Upper Platforms | Flea Check | Silk Soar OR Cling Grip AND Clawline/Sharp Dart/Drifter's Cloak/Beast Charge/Beast Pogo/Architect Charge OR Cling Grip/Scuttlebrace AND Faydown Cloak AND Swift Step |  |  | collect yo flea. |
+| GF | Ground to Floor 1 | Bottom | Lower Platforms | Silk Soar OR Faydown Cloak AND (Ledge Grab OR Clawline) OR Enemy Pogo (Easy Skip) |  | Verified |  |
+| UT | Upwards Traversal | Lower Platforms | Upper Platforms | Silk Soar OR Enemy Pogos AND Faydown Cloak OR Faydown Cloak AND Ledge Grab/Clawline/Beast Pogo/Beast Charge/Shaman Pogo/Cling Grip OR Cling Grip AND Sprint/Dash/Beast Pogo/Beast Charge/Architect Charge/Sharp Dart/Drifter's Cloak/Clawline |  | Verified |  |
+| FG | Flea Grab | Upper Platforms | Flea Check | Silk Soar OR Cling Grip AND Clawline/Sharp Dart/Drifter's Cloak/Beast Charge/Beast Pogo/Architect Charge OR Cling Grip/Scuttlebrace AND Faydown Cloak AND Swift Step |  | Verified | collect yo flea. |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Whispering Vaults: Flea #1 | Flea Check | Silk Soar OR Scuttlebrace/Cling Grip AND Clawline/Sharp Dart/Drifter's Cloak/Beast Charge/Beast Pogo/Architect Charge OR Cling Grip/Scuttlebrace AND Faydown Cloak AND Swift Step |  |  | Included |  |
-| Whispering Vaults: Break Wall #4 (Left) | Bottom | Nothing, leads to BL |  |  | Included |  |
+| Whispering Vaults: Flea #1 | Flea Check | Silk Soar OR Scuttlebrace/Cling Grip AND Clawline/Sharp Dart/Drifter's Cloak/Beast Charge/Beast Pogo/Architect Charge OR Cling Grip/Scuttlebrace AND Faydown Cloak AND Swift Step |  | Verified | Included |  |
+| Whispering Vaults: Break Wall #4 (Left) | Bottom | Nothing, leads to BL |  | Verified | Included |  |
 
 ### Whispering Vaults Hell (Library_04)
 
 **Game ID:** Library_04
+
+**Contributors:** Rebel
 
 #### Subrooms
 
@@ -10116,60 +10553,61 @@ Boss needs only any crest to be beatable. The big line attack can be parried wit
 - Lever
 - Distant Platform
 - Shortcut Box
-- Shortcut Box (Moved)
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| T | Top | Map Room | [Songclave (Song_Enclave)](#songclave-songenclave) | B | Nothing. |  |  |  |
-| HR | High Right | Distant Platform | [Whispering Vaults Silkeater (Library_14)](#whispering-vaults-silkeater-library14) | L | Nothing. |  |  |  |
-| CR | Center Right | Middle Hallway | [Whispering Vaults East To West (Library_05)](#whispering-vaults-east-to-west-library05) | TL | Nothing. |  |  |  |
-| BL | Bottom Left | Lowest Hallway | [Whispering Vaults Music Box (Library_16)](#whispering-vaults-music-box-library16) | R | Nothing. |  |  |  |
-| CL | Center Left | Middle Hallway | [Trobbio Entrance (Library_13b)](#trobbio-entrance-library13b) | R | Nothing. |  |  |  |
-| LL | Low Left | Left Side Shaft | [Whispering Vaults Flea Shaft (Library_01)](#whispering-vaults-flea-shaft-library01) | BR | Nothing. |  |  |  |
-| LR | Low Right | Upper Platform | [Whispering Vaults East To West (Library_05)](#whispering-vaults-east-to-west-library05) | BL | Nothing. |  |  |  |
-| TR | Top Right | Top Hallway | [Whispering Vaults Jumps (Library_09)](#whispering-vaults-jumps-library09) | L | Nothing. |  |  |  |
-| TL | Top Left | Top Hallway | [Whispering Vaults Flea Shaft (Library_01)](#whispering-vaults-flea-shaft-library01) | TR | Nothing. |  |  |  |
-| BR | Bottom Right | Ground | [Vaultkeeper Cauldron Entrance (Library_10)](#vaultkeeper-cauldron-entrance-library10) | L | Nothing. |  |  |  |
-| MHR | Mid High Right | Upper Platform | [Whispering Vaults Bench (Library_08)](#whispering-vaults-bench-library08) | L | Nothing. |  |  |  |
+| T | Top | Map Room | [Songclave (Song_Enclave)](#songclave-songenclave) | B | Nothing. |  | Verified |  |
+| HR | High Right | Distant Platform | [Whispering Vaults Silkeater (Library_14)](#whispering-vaults-silkeater-library14) | L | Nothing. |  | Verified |  |
+| CR | Center Right | Middle Hallway | [Whispering Vaults East To West (Library_05)](#whispering-vaults-east-to-west-library05) | TL | Nothing. |  | Verified |  |
+| BL | Bottom Left | Lowest Hallway | [Whispering Vaults Music Box (Library_16)](#whispering-vaults-music-box-library16) | R | Nothing. |  | Verified |  |
+| CL | Center Left | Middle Hallway | [Trobbio Entrance (Library_13b)](#trobbio-entrance-library13b) | R | Nothing. |  | Verified |  |
+| LL | Low Left | Left Side Shaft | [Whispering Vaults Flea Shaft (Library_01)](#whispering-vaults-flea-shaft-library01) | BR | Nothing. |  | Verified |  |
+| LR | Low Right | Upper Platform | [Whispering Vaults East To West (Library_05)](#whispering-vaults-east-to-west-library05) | BL | Nothing. |  | Verified |  |
+| TR | Top Right | Top Hallway | [Whispering Vaults Jumps (Library_09)](#whispering-vaults-jumps-library09) | L | Nothing. |  | Verified |  |
+| TL | Top Left | Top Hallway | [Whispering Vaults Flea Shaft (Library_01)](#whispering-vaults-flea-shaft-library01) | TR | Nothing. |  | Verified |  |
+| BR | Bottom Right | Ground | [Vaultkeeper Cauldron Entrance (Library_10)](#vaultkeeper-cauldron-entrance-library10) | L | Nothing. |  | Verified |  |
+| MHR | Mid High Right | Upper Platform | [Whispering Vaults Bench (Library_08)](#whispering-vaults-bench-library08) | L | Nothing. |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| A1 | Ascent 1 | Ground | Lowest Hallway | Silk Soar OR Ledge Grab OR Clawline OR Faydown Cloak OR Cling Grip |  |  |  |
-| BR | BL to LR | Lowest Hallway | Upper Low Hallway | Silk Soar OR Enemy Pogo/Ledge Grab/Clawline/Faydown Cloak/Sprint/Cling Grip/Scuttlebrace |  |  |  |
-| CR | Collect Rosaries | Lever | Rosary Dish | Sprint/Dash/Clawline/Drifter's Cloak/Faydown Cloak/Cling Grip/Scuttlebrace/Sharp Dart/Beast Pogo/Beast Charge/Architect Pogo/Architect Charge |  |  |  |
-| PR! | Progresion! | Left Side Shaft | Lever | Silk Soar OR Cling Grip OR Scuttlebrace |  |  |  |
-| MP! | More Progression! | Lever | Upper Platform | Silk Soar OR Cling Grip OR Scuttlebrace OR Faydown Cloak AND Ledge Grab/Clawline/Shaman Pogo |  |  |  |
-| EMP | Even More Progression! | Upper Platform | Distant Platform | Silk Soar OR Cling Grip/Scuttlebrace AND Clawline/(Sprint/Dash/Drifter's Cloak AND Ledge Grab)/Faydown Cloak |  |  |  |
-| LP! | Last Push! | Distant Platform | Top Hallway | Silk Soar OR Cling Grip OR Scuttlebrace AND |  |  |  |
-| MT! | Map Time! | Top Hallway | Map Room | Silk Soar OR Cling Grip OR Scuttlebrace AND Enemy Pogo/Faydown Cloak |  |  |  |
-| MT! | Map Time! | Map Room | Top Hallway | Nothing. (fall) |  |  |  |
-| LP! | Last Push! | Top Hallway | Distant Platform | Nothing. Fall) |  |  |  |
-| EMP | Even More Progression! | Distant Platform | Upper Platform | Nothing. (Fall) |  |  |  |
-| MP! | More Progression! | Upper Platform | Lever | Silk Soar OR Cling Grip OR Scuttlebrace |  |  | accounting for the fact the player may not have activated the shortcut |
-| PR! | Progresion! | Lever | Left Side Shaft | Nothing. (Fall) |  |  |  |
-| BR | BL to LR | Upper Low Hallway | Lowest Hallway | Nothing. (Fall) |  |  |  |
-| A1 | Ascent 1 | Lowest Hallway | Ground | Nothing. (Fall) |  |  |  |
-| US | Unlock Shortc8ut9 | Shortcut Box | Shortcut Box (Moved) | (Nothing? not sure, forgot to test if you can hit it from the ledge.) Ledge Grab OR Cling Grip OR Faydown Cloak OR Clawline OR Sharp Dart OR Beast Pogo OR Beast Charge OR Architect Charge |  |  |  |
-| US2 | Use Shortcut | Shortcut Box (Moved) | Middle Hallway | Nothing. (Fall) |  |  |  |
+| A1 | Ascent 1 | Ground | Lowest Hallway | Silk Soar OR Ledge Grab OR Clawline OR Faydown Cloak OR Cling Grip |  | Verified |  |
+| BR | BL to LR | Lowest Hallway | Upper Low Hallway | Silk Soar OR Enemy Pogo/Ledge Grab/Clawline/Faydown Cloak/Sprint/Cling Grip/Scuttlebrace |  | Verified |  |
+| CR | Collect Rosaries | Lever | Rosary Dish | Sprint/Dash/Clawline/Drifter's Cloak/Faydown Cloak/Cling Grip/Scuttlebrace/Sharp Dart/Beast Pogo/Beast Charge/Architect Pogo/Architect Charge |  | Verified |  |
+| PR! | Progresion! | Left Side Shaft | Lever | Silk Soar OR Cling Grip OR Scuttlebrace |  | Verified |  |
+| MP! | More Progression! | Lever | Upper Platform | Silk Soar OR Cling Grip OR Scuttlebrace OR Faydown Cloak AND Ledge Grab/Clawline/Shaman Pogo |  | Verified |  |
+| EMP | Even More Progression! | Upper Platform | Distant Platform | Silk Soar OR Cling Grip/Scuttlebrace AND Clawline/(Sprint/Dash/Drifter's Cloak AND Ledge Grab)/Faydown Cloak |  | Verified |  |
+| LP! | Last Push! | Distant Platform | Top Hallway | Silk Soar OR Cling Grip OR Scuttlebrace AND |  | Verified |  |
+| MT! | Map Time! | Top Hallway | Map Room | Silk Soar OR Cling Grip OR Scuttlebrace AND Enemy Pogo/Faydown Cloak |  | Verified |  |
+| MT! | Map Time! | Map Room | Top Hallway | Nothing. (fall) |  | Verified |  |
+| LP! | Last Push! | Top Hallway | Distant Platform | Nothing. Fall) |  | Verified |  |
+| EMP | Even More Progression! | Distant Platform | Upper Platform | Nothing. (Fall) |  | Verified |  |
+| MP! | More Progression! | Upper Platform | Lever | Silk Soar OR Cling Grip OR Scuttlebrace |  | Verified | accounting for the fact the player may not have activated the shortcut |
+| PR! | Progresion! | Lever | Left Side Shaft | Nothing. (Fall) |  | Verified |  |
+| BR | BL to LR | Upper Low Hallway | Lowest Hallway | Nothing. (Fall) |  | Verified |  |
+| A1 | Ascent 1 | Lowest Hallway | Ground | Nothing. (Fall) |  | Verified |  |
+| US | Unlock Shortcut | Middle Hallway | Shortcut Box | Ledge Grab OR Cling Grip OR Scuttlebrace OR Faydown Cloak OR Clawline |  | Verified | Opens Shortcut |
+| US2 | Use Shortcut | Shortcut Box | Middle Hallway | Opened Shortcut |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Whispering Vaults: Flip Switch #7 (Left OR Right) | Distant Platform | Nothing. |  |  | Included |  |
-| Whispering Vaults: Flip Switch #8 (Left OR Right) | Lever | Nothing. |  |  | Included |  |
-| Whispering Vaults: Flip Switch #9 (Up) | Top Hallway | Nothing. |  |  | Included |  |
-| Map: Whispering Vaults | Map Room | Nothing. |  |  | Included |  |
-| Whispering Vaults: Break Wall #5 (Up) | Map Room | Nothing. |  |  | Included |  |
-| Whispering Vaults: Rosary Dish #3 | Rosary Dish | Nothing. |  |  | Included |  |
+| Whispering Vaults: Flip Switch #7 (Left OR Right) | Distant Platform | Nothing. |  | Verified | Included |  |
+| Whispering Vaults: Flip Switch #8 (Left OR Right) | Lever | Nothing. |  | Verified | Included |  |
+| Whispering Vaults: Flip Switch #9 (Up) | Top Hallway | Nothing. |  | Verified | Included |  |
+| Map: Whispering Vaults | Map Room | Nothing. |  | Verified | Included |  |
+| Whispering Vaults: Break Wall #5 (Up) | Map Room | Nothing. |  | Verified | Included |  |
+| Whispering Vaults: Rosary Dish #3 | Rosary Dish | Nothing. |  | Verified | Included |  |
 
 ### Whispering Vaults Jumps (Library_09)
 
 **Game ID:** Library_09
+
+**Contributors:** Rebel
 
 #### Subrooms
 
@@ -10181,37 +10619,49 @@ Boss needs only any crest to be beatable. The big line attack can be parried wit
 - Jump 2 (Left)
 - Rosary Necklace
 - Room With Stuff
+- Bottom Right Entrance
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| B | bot1 | Flea Chase | [Whispering Vaults Totally Not White Palace (Library_07)](#whispering-vaults-totally-not-white-palace-library07) | T | Nothing. |  |  |  |
-| L | left1 | Room With Stuff | [Whispering Vaults Hell (Library_04)](#whispering-vaults-hell-library04) | TR | Nothing. |  |  |  |
+| B | bot1 | Flea Chase | [Whispering Vaults Totally Not White Palace (Library_07)](#whispering-vaults-totally-not-white-palace-library07) | T | Nothing. |  | Verified |  |
+| L | left1 | Room With Stuff | [Whispering Vaults Hell (Library_04)](#whispering-vaults-hell-library04) | TR | Nothing. |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| FG | Flea Get | Flea Chase | Flea | Silk Soar OR Clawline AND Cling Grip) OR Clawline AND Scuttlebrace AND (Spike Pogo/Faydown Cloak ) |  |  |  |
-| FG | Flea Get | Flea | Flea Chase | Nothing. (BIG fall) |  |  |  |
-| AJ | Annoying Jump | Annoying Ass Jump (Right) | Annoying Ass Jump (Left) | Sprint/Dash/Drifter's Cloak/Faydown Cloak/Clawline/Scuttlebrace/Spike Pogo/Enemy Pogo/Sharp Dart/Hunter Pogo/Reaper Pogo/Beast Pogo/Architect Nail Swing/Architect Pogo/Witch Pogo AND Ledge Grab/Shaman Pogo/Hunter Charge AND Ledge Grab/Wanderer Charge/Reaper Charge/Beast Charge/Architect Charge/Witch Charge/Shaman Charge/Heal stall/flintslate stall/flea brew boost/flea brew stall/voltvessel stall |  |  | dont put this in logic im just being an ass. you can damage boost it. |
-| AJ | Annoying Jump | Annoying Ass Jump (Left) | Annoying Ass Jump (Right) | Dash/Sprint/Faydown Cloak/Drifter's Cloak AND Ledge Grab/Scuttlebrace/Clawline/Sharp Dart/Beast Charge/Architect Charge/Beast Pogo/Spike Pogo/Enemy Pogo |  |  | this side you CANT damage boost. |
-| JT | Jump Two | Jump 2 (Left) | Jump 2 (Right) | Dash/Sprint/Faydown Cloak/Drifter's Cloak AND Ledge Grab/Scuttlebrace/Clawline/Sharp Dart/Beast Charge/Architect Charge/Beast Pogo/Spike Pogo/Enemy Pogo |  |  | its literally the SAME jump again. |
-| JT | Jump Two | Jump 2 (Right) | Jump 2 (Left) | Dash/Sprint/Faydown Cloak/Drifter's Cloak AND Ledge Grab/Scuttlebrace/Clawline/Sharp Dart/Beast Charge/Architect Charge/Beast Pogo/Spike Pogo/Enemy Pogo |  |  |  |
-| RP | Rosary Pickup | Jump 2 (Right) | Rosary Necklace | Sprint AND Clawline OR Sprint AND Faydown Cloak AND (Drifter's Cloak OR Dash) AND Spike Pogo |  |  |  |
+| FG | Flea Get | Flea Chase | Flea | Silk Soar OR Clawline AND Cling Grip) OR Clawline AND Scuttlebrace AND (Spike Pogo/Faydown Cloak ) |  | Verified |  |
+| FG | Flea Get | Flea | Flea Chase | Nothing. (BIG fall) |  | Verified |  |
+| AJ | Annoying Jump | Annoying Ass Jump (Right) | Annoying Ass Jump (Left) | Sprint OR Dash OR Drifter's Cloak OR Faydown Cloak OR Clawline OR Scuttlebrace OR Sharp Dart OR (Enemy Pogo OR Spike Pogo OR Hazard Clip?) (Easy Skip) |  | Verified |  |
+| AJ | Annoying Jump | Annoying Ass Jump (Left) | Annoying Ass Jump (Right) | Dash OR Sprint OR Faydown Cloak OR Scuttlebrace OR Clawline OR Sharp Dart OR (Spike Pogo OR Enemy Pogo (Easy Skip))  OR (Drifter's Cloak AND Ledge Grab) |  | Verified | this side you CANT damage boost. |
+| JT | Jump Two | Jump 2 (Left) | Jump 2 (Right) | Dash OR Sprint OR Faydown Cloak OR Scuttlebrace OR Clawline OR Sharp Dart OR (Spike Pogo OR Enemy Pogo (Easy Skip))  OR (Drifter's Cloak AND Ledge Grab) |  | Verified | its literally the SAME jump again. |
+| JT | Jump Two | Jump 2 (Right) | Jump 2 (Left) | Dash OR Sprint OR Faydown Cloak OR Scuttlebrace OR Clawline OR Sharp Dart OR (Spike Pogo OR Enemy Pogo (Easy Skip))  OR (Drifter's Cloak AND Ledge Grab) |  | Verified |  |
+| RP | Rosary Pickup | Jump 2 (Right) | Rosary Necklace | Sprint AND Clawline OR Sprint AND Faydown Cloak AND (Drifter's Cloak OR Dash) AND Spike Pogo |  | Verified |  |
+| EC | Enter to Chase | Bottom Right Entrance | Flea Chase | Silk Soar OR Scuttlebrace OR Cling Grip |  | Verified |  |
+| EC | Enter to Chase | Flea Chase | Bottom Right Entrance | Nothing. (Fall) |  | Verified |  |
+| CJ1 | Chase to Jump 1 | Flea Chase | Annoying Ass Jump (Right) | Nothing. |  | Verified |  |
+| CJ1 | Chase to Jump 1 | Annoying Ass Jump (Right) | Flea Chase | Nothing. |  | Verified |  |
+| J12 | Jump 1 to Jump 2 | Annoying Ass Jump (Left) | Jump 2 (Right) | Nothing. |  | Verified |  |
+| J12 | Jump 1 to Jump 2 | Jump 2 (Right) | Annoying Ass Jump (Left) | Nothing. |  | Verified |  |
+| RP | Rosary Pickup | Rosary Necklace | Jump 2 (Right) | Sprint AND Clawline OR Sprint AND Faydown Cloak AND Drifter's Cloak |  | Verified |  |
+| J2S | Jump 2 to Stuff | Jump 2 (Left) | Room With Stuff | Nothing. |  | Verified |  |
+| J2S | Jump 2 to Stuff | Room With Stuff | Jump 2 (Left) | Nothing. |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Whispering Vaults: Flip Switch #6 (Up) | Room With Stuff | Nothing. |  |  | Included |  |
-| Whispering Vaults: Heavy Rosary Necklace #1 | Rosary Necklace | Nothing. |  |  | Included |  |
-| Whispering Vaults: Psalm Cylinder #2 | Room With Stuff | Nothing. |  |  | Included |  |
+| Whispering Vaults: Flip Switch #6 (Up) | Room With Stuff | Nothing. |  | Verified | Included |  |
+| Whispering Vaults: Heavy Rosary Necklace #1 | Rosary Necklace | Nothing. |  | Verified | Included |  |
+| Whispering Vaults: Psalm Cylinder #2 | Room With Stuff | Nothing. |  | Verified | Included |  |
 
 ### Whispering Vaults Silkeater (Library_14)
 
 **Game ID:** Library_14
+
+**Contributors:** Rebel
 
 #### Subrooms
 
@@ -10221,7 +10671,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | Left |  | [Whispering Vaults Hell (Library_04)](#whispering-vaults-hell-library04) | HR | Nothing. |  |  |  |
+| L | Left |  | [Whispering Vaults Hell (Library_04)](#whispering-vaults-hell-library04) | HR | Nothing. |  | Verified |  |
 
 #### Subroom Connections
 
@@ -10231,8 +10681,8 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Whispering Vaults: Break Wall #5 (Right) |  | Nothing. |  |  | Included |  |
-| Whispering Vaults: Silkeater #1 |  | Nothing. |  |  | Included |  |
+| Whispering Vaults: Break Wall #5 (Right) |  | Nothing. |  | Verified | Included |  |
+| Whispering Vaults: Silkeater #1 |  | Nothing. |  | Verified | Included |  |
 
 #### Notes
 
@@ -10288,6 +10738,8 @@ lol
 
 **Game ID:** Library_15
 
+**Contributors:** Rebel
+
 #### Subrooms
 
 No subrooms defined.
@@ -10296,7 +10748,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 |  | [Whispering Vaults Flea Shaft (Library_01)](#whispering-vaults-flea-shaft-library01) | BL | Nothing. |  |  |  |
+| R | right1 |  | [Whispering Vaults Flea Shaft (Library_01)](#whispering-vaults-flea-shaft-library01) | BL | Nothing. |  | Verified |  |
 
 #### Subroom Connections
 
@@ -10306,11 +10758,13 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Whispering Vaults: Flip Switch #5 (Left) |  | Nothing. |  |  | Included |  |
+| Whispering Vaults: Flip Switch #5 (Left) |  | Nothing. |  | Verified | Included |  |
 
 ### Grand Bellway Library (Library_03)
 
 **Game ID:** Library_03
+
+**Contributors:** Rebel
 
 #### Subrooms
 
@@ -10321,27 +10775,29 @@ No subroom connections defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 | Oil Room | [Grand Bellway Shaft (Song_20)](#grand-bellway-shaft-song20) | UR | Nothing. (Fall) |  |  |  |
-| R | right1 | Oil Room | [Whispering Vaults Flea Shaft (Library_01)](#whispering-vaults-flea-shaft-library01) | CL | Nothing. (Fall) |  |  |  |
+| L | left1 | Oil Room | [Grand Bellway Shaft (Song_20)](#grand-bellway-shaft-song20) | UR | Nothing. (Fall) |  | Verified |  |
+| R | right1 | Oil Room | [Whispering Vaults Flea Shaft (Library_01)](#whispering-vaults-flea-shaft-library01) | CL | Nothing. (Fall) |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| V | Vertical | Entrance | Oil Room | Silk Soar OR Cling Grip/Scuttlebrace AND Faydown Cloak/Drifter's Cloak/Clawline/Sharp Dart/Spint/(Dash AND Crest Pogo) |  |  | lever, one sided door |
-| V | Vertical | Oil Room | Entrance | Nothing. (Fall) |  |  | both sides. |
+| V | Vertical | Entrance | Oil Room | Silk Soar OR Cling Grip/Scuttlebrace AND Faydown Cloak/Drifter's Cloak/Clawline/Sharp Dart/Spint/(Dash AND Crest Pogo) |  | Verified | lever, one sided door |
+| V | Vertical | Oil Room | Entrance | Nothing. (Fall) |  | Verified | both sides. |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Whispering Vaults: Pale Oil | Oil Room | Flick the first lever. |  |  | Included |  |
-| Whispering Vaults: Flip Switch #6 (Left) | Oil Room | Nothing. |  |  | Included |  |
-| Whispering Vaults: Flip Switch #7 (Left) | Oil Room | Flick the first lever. |  |  | Included |  |
+| Whispering Vaults: Pale Oil | Oil Room | Flipped Switch #6 |  | Verified | Included |  |
+| Whispering Vaults: Flip Switch #6 (Left) | Oil Room | Nothing. |  | Verified | Included |  |
+| Whispering Vaults: Flip Switch #7 (Left) | Oil Room | Flipped Switch #6 |  | Verified | Included |  |
 
 ### Songclave Steam Tunnel (Library_02)
 
 **Game ID:** Library_02
+
+**Contributors:** Rebel
 
 #### Subrooms
 
@@ -10355,69 +10811,80 @@ No subroom connections defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| BL | left1 | Top | [Rotating Tunnel (Song_20b)](#rotating-tunnel-song20b) | R1 | Nothing. |  |  |  |
-| TL | left2 | Bottom | [Rotating Tunnel (Song_20b)](#rotating-tunnel-song20b) | RH | SB1 |  |  |  |
-| BR | right1 | Bottom | [Whispering Vaults Flea Shaft (Library_01)](#whispering-vaults-flea-shaft-library01) | TL | Nothing. |  |  |  |
-| TR | right2 | Top | [Songclave (Song_Enclave)](#songclave-songenclave) | BL | Nothing. |  |  |  |
+| BL | left1 | Top | [Rotating Tunnel (Song_20b)](#rotating-tunnel-song20b) | RH | Nothing. |  | Verified |  |
+| TL | left2 | Bottom | [Rotating Tunnel (Song_20b)](#rotating-tunnel-song20b) | R1 | Nothing. |  | Verified |  |
+| BR | right1 | Bottom | [Whispering Vaults Flea Shaft (Library_01)](#whispering-vaults-flea-shaft-library01) | TL | Nothing. |  | Verified |  |
+| TR | right2 | Top | [Songclave (Song_Enclave)](#songclave-songenclave) | BL | Nothing. |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| LV | Left Vertical | Blocks | Arena | Silk Soar/Faydown Cloak AND Spike Pogo (except Witch) AND Ledge Grab/Clawline OR Cling Grip AND Crest Pogo/Dash/Sprint/Clawline/Drifter's Cloak/Sharp Dart OR Spike Pogo Scuttlebrace AND Faydown Cloak/(Dash AND Ledge Grab)/Clawline/Sharp Dart/Beast Pogo |  |  |  |
-| RV | Right Vertical | Bottom Right | Arena | Silk Soar OR Cling Grip OR Scuttlebrace AND Faydown Cloak |  |  |  |
-| LV | Left Vertical | Arena | Blocks | Crest Pogo |  |  |  |
-| RV | Right Vertical | Arena | Bottom Right | Nothing. (Fall) |  |  |  |
+| LV | Left Vertical | Blocks | Arena | Silk Soar/Faydown Cloak AND Spike Pogo (except Witch) AND Ledge Grab/Clawline OR Cling Grip AND Crest Pogo/Dash/Sprint/Clawline/Drifter's Cloak/Sharp Dart OR Spike Pogo Scuttlebrace AND Faydown Cloak/(Dash AND Ledge Grab)/Clawline/Sharp Dart/Beast Pogo |  | Verified |  |
+| RV | Right Vertical | Bottom Right | Arena | Silk Soar OR Cling Grip OR Scuttlebrace AND Faydown Cloak |  | Verified |  |
+| LV | Left Vertical | Arena | Blocks | Crest Pogo |  | Verified |  |
+| RV | Right Vertical | Arena | Bottom Right | Nothing. (Fall) |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Whispering Vaults: Arena #1 | Arena | Nothing. |  |  | Included | doubt this will be used, just futureproofing. |
+| Whispering Vaults: Arena #1 | Arena | Nothing. |  | Verified | Included | doubt this will be used, just futureproofing. |
 
 ### Trobbio (Library_13)
 
 **Game ID:** Library_13
 
+**Contributors:** Rebel
+
 #### Subrooms
 
 - Top
-- Bottom
+- Bottom Left Entrance
 - Fight
+- Bottom Right
+- Bottom Center
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| TR | right1 | Top | [Trobbio Entrance (Library_13b)](#trobbio-entrance-library13b) | L | Nothing. |  |  |  |
-| L | left1 | Bottom | [Grand Bellway Shaft (Song_20)](#grand-bellway-shaft-song20) | RS | Nothing. |  |  |  |
-| BR | right2 | Fight | [Vaults & Bellway Cauldron Entrance (Library_11)](#vaults-bellway-cauldron-entrance-library11) | TL | Nothing. |  |  |  |
+| TR | right1 | Top | [Trobbio Entrance (Library_13b)](#trobbio-entrance-library13b) | L | Nothing. |  | Verified |  |
+| L | left1 | Bottom Left Entrance | [Grand Bellway Shaft (Song_20)](#grand-bellway-shaft-song20) | RS | Nothing. |  | Verified |  |
+| BR | right2 | Bottom Right | [Vaults & Bellway Cauldron Entrance (Library_11)](#vaults-bellway-cauldron-entrance-library11) | TL | Nothing. |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| VR | Vertical Right | Top | Bottom | Nothing. (Fall) |  |  | Needs to be opened with Lever. |
-| VR | Vertical Right | Bottom | Top | Cling Grip OR Scuttlebrace OR Faydown Cloak OR Clawline OR Dash OR Silk Soar OR Ledge Grab |  |  | needs to be opened with Lever |
-| VL | Vertical Left | Top | Bottom | Nothing. (Fall) |  |  |  |
-| VL | Vertical Left | Bottom | Top | Silk Soar OR Faydown Cloak AND Cling Grip/Scuttlebrace |  |  |  |
+| VR | Vertical Right | Top | Bottom Right | Nothing. (Fall) |  | Verified |  |
+| VR | Vertical Right | Bottom Right | Top | Flipped Switch #2 AND (Cling Grip OR Scuttlebrace OR Faydown Cloak OR Clawline OR Dash OR Silk Soar OR Ledge Grab) |  | Verified |  |
+| VL | Vertical Left | Top | Bottom Right | Flipped Switch #2 |  | Verified |  |
+| VL | Vertical Left | Bottom Right | Top | Silk Soar OR Faydown Cloak AND Cling Grip/Scuttlebrace |  | Verified |  |
+| LL | Leave Left | Bottom Center | Bottom Left Entrance | Flipped Switch #1 |  | Verified |  |
+| LL | Leave Left | Bottom Left Entrance | Bottom Center | Flipped Switch #1 |  | Verified |  |
+| ESL | Enter Stage Left | Bottom Center | Fight | Nothing. |  | Verified |  |
+| ESL | Enter Stage Left | Fight | Bottom Center | Beat Trobbio |  | Verified |  |
+| ESR | Enter Stage Right | Bottom Right | Fight | Nothing. |  | Verified |  |
+| ESR | Enter Stage Right | Fight | Bottom Right | Beat Trobbio |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Dual Mirrors | Fight | Beat Trobbio 2 |  |  | Included |  |
-| Whispering Vaults: Lore #4 | Bottom | Nothing. |  |  | Included |  |
-| Trobbio | Fight | Nothing. |  |  | Included |  |
-| Claw Mirror | Fight | Beat Trobbio 1 |  |  | Included |  |
-| Whispering Vaults: Flip Switch #1 (Up) | Bottom | Nothing. |  |  | Included |  |
-| Whispering Vaults: Flip Switch #2 (Left) | Bottom | Nothing. |  |  | Included |  |
-| AP Minor Cache - Whispering Vaults - Shell Shard Cache #2 | Top | Nothing. |  |  | Included |  |
-| Shell Shard 03 Persistent |  |  |  |  | Included |  |
+| Progressive Claw Mirror 2 | Fight | Beat Trobbio 2 |  | Verified | Included |  |
+| Whispering Vaults: Lore #4 | Bottom Left Entrance | Nothing. |  | Verified | Included |  |
+| Trobbio | Fight | Nothing. |  | Verified | Included |  |
+| Progressive Claw Mirror 1 | Fight | Beat Trobbio 1 |  | Verified | Included |  |
+| Whispering Vaults: Flip Switch #1 (Up) | Bottom Center | Nothing. |  | Verified | Included |  |
+| Whispering Vaults: Flip Switch #2 (Left) | Bottom Right | Nothing. |  | Verified | Included |  |
+| AP Minor Cache - Whispering Vaults - Shell Shard Cache #2 | Top | Nothing. |  | Verified | Included |  |
 
 ### Trobbio Entrance (Library_13b)
 
 **Game ID:** Library_13b
+
+**Contributors:** Rebel
 
 #### Subrooms
 
@@ -10428,28 +10895,30 @@ No subroom connections defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | Left | The Only Jump In This Entire Room | [Trobbio (Library_13)](#trobbio-library13) | TR | Nothing. |  |  |  |
-| R | Right | The Only Jump In This Entire Room | [Whispering Vaults Hell (Library_04)](#whispering-vaults-hell-library04) | CL | Nothing. |  |  |  |
+| L | Left | The Only Jump In This Entire Room | [Trobbio (Library_13)](#trobbio-library13) | TR | Nothing. |  | Verified |  |
+| R | Right | The Only Jump In This Entire Room | [Whispering Vaults Hell (Library_04)](#whispering-vaults-hell-library04) | CL | Nothing. |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| J | Jump | The Only Jump In This Entire Room | Not The Jump. | Ledge Grab OR Cling Grip OR Faydown Cloak OR Clawline OR Beast Charge OR Scuttlebrace OR Sprint |  |  |  |
-| J | Jump | Not The Jump. | The Only Jump In This Entire Room | Spike Pogo OR Clawline OR Dash OR Sprint OR Faydown Cloak OR Drifter's Cloak OR Scuttlebrace OR Cling Grip OR Sharp Dart |  |  |  |
+| J | Jump | The Only Jump In This Entire Room | Not The Jump. | Ledge Grab OR Cling Grip OR Faydown Cloak OR Clawline OR Beast Charge OR Scuttlebrace OR Sprint |  | Verified |  |
+| J | Jump | Not The Jump. | The Only Jump In This Entire Room | Spike Pogo OR Clawline OR Dash OR Sprint OR Faydown Cloak OR Drifter's Cloak OR Scuttlebrace OR Cling Grip OR Sharp Dart |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Collectable Item Pickup - Quill Red | Not The Jump. | Nothing. |  |  | Included |  |
-| Collectable Item Pickup - Quill Purple | Not The Jump. | Nothing. |  |  | Included |  |
-| Whispering Vaults: Lore #2 | Not The Jump. | Nothing. |  |  | Not included |  |
-| Whispering Vaults: Lore #3 | Not The Jump. | Nothing. |  |  | Included |  |
+| Collectable Item Pickup - Quill Red | Not The Jump. | Nothing. |  | Verified | Included |  |
+| Collectable Item Pickup - Quill Purple | Not The Jump. | Nothing. |  | Verified | Included |  |
+| Whispering Vaults: Lore #2 | Not The Jump. | Nothing. |  | Verified | Not included |  |
+| Whispering Vaults: Lore #3 | Not The Jump. | Nothing. |  | Verified | Included |  |
 
 ### Whispering Vaults Music Box (Library_16)
 
 **Game ID:** Library_16
+
+**Contributors:** Rebel
 
 #### Subrooms
 
@@ -10459,7 +10928,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | Right |  | [Whispering Vaults Hell (Library_04)](#whispering-vaults-hell-library04) | BL | Nothing. |  |  |  |
+| R | Right |  | [Whispering Vaults Hell (Library_04)](#whispering-vaults-hell-library04) | BL | Nothing. |  | Verified |  |
 
 #### Subroom Connections
 
@@ -10469,7 +10938,7 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Whispering Vaults: Cogheart Piece |  | The ability to swing your needle. |  |  | Included |  |
+| Whispering Vaults: Cogheart Piece |  | The ability to swing your needle. |  | Verified | Included | (Aka Nothing.) |
 
 ## Whiteward
 

@@ -349,6 +349,17 @@ No rooms defined.
 ## Cogwork Core
 
 - [Cog Dancers (Cog_Dancers)](./cogwork-core/cog-dancers.md)
+- [Cogwork Core Architect's Melody (Cog_09)](./cogwork-core/cogwork-core-architect-s-melody.md)
+- [Cogwork Core Architect's Melody (Act 3) (Cog_09_Destroyed)](./cogwork-core/cogwork-core-architect-s-melody-act-3.md)
+- [Cogwork Core Bench & Map (Cog_Bench)](./cogwork-core/cogwork-core-bench-map.md)
+- [Cogwork Core Breakable Walls (Cog_10_Destroyed)](./cogwork-core/cogwork-core-breakable-walls.md)
+- [Cogwork Core East Choral Entrance (Cog_06)](./cogwork-core/cogwork-core-east-choral-entrance.md)
+- [Cogwork Core East Silk Spool & Gauntlet (Cog_07)](./cogwork-core/cogwork-core-east-silk-spool-gauntlet.md)
+- [Cogwork Core Main Connection (Cog_Pass)](./cogwork-core/cogwork-core-main-connection.md)
+- [Cogwork Core North Main (Cog_08)](./cogwork-core/cogwork-core-north-main.md)
+- [Cogwork Core Second Sentinel (Cog_10)](./cogwork-core/cogwork-core-second-sentinel.md)
+- [Cogwork Core South Main (Cog_04)](./cogwork-core/cogwork-core-south-main.md)
+- [Cogwork Core West Gauntlet (Cog_05)](./cogwork-core/cogwork-core-west-gauntlet.md)
 
 ## Whispering Vaults
 

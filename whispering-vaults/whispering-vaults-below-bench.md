@@ -2,6 +2,8 @@
 
 **Game ID:** Library_06
 
+**Contributors:** Rebel
+
 ## Subrooms
 
 - Bottom
@@ -13,22 +15,22 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| BL | left2 | Bottom | [Whispering Vaults East To West (Library_05)](whispering-vaults-east-to-west.md) | BR | Nothing. |  |  |  |
-| R | right1 | Top | [Whispering Vaults Totally Not White Palace (Library_07)](whispering-vaults-totally-not-white-palace.md) | BL | Nothing. |  |  |  |
-| TL | left1 | Top | [Whispering Vaults East To West (Library_05)](whispering-vaults-east-to-west.md) | TR | Nothing. |  |  |  |
+| BL | left2 | Bottom | [Whispering Vaults East To West (Library_05)](whispering-vaults-east-to-west.md) | BR | Nothing. |  | Verified |  |
+| R | right1 | Top | [Whispering Vaults Totally Not White Palace (Library_07)](whispering-vaults-totally-not-white-palace.md) | BL | Nothing. |  | Verified |  |
+| TL | left1 | Top | [Whispering Vaults East To West (Library_05)](whispering-vaults-east-to-west.md) | TR | Nothing. |  | Verified |  |
 
 ## Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| LA | Lower Ascent | Bottom | Top | Silk Soar OR Cling Grip AND Dash/Clawline/Sharp Dart/(Hunter Pogo AND Ledge Grab)/Beast Pogo/Beast Charge/Architect Pogo/Architect Charge OR Faydown Cloak AND (Ledge Grab OR Clawline OR Scuttlebrace AND Clawline |  |  |  |
-| HA | Higher Ascent | Top | Rosary | Silk Soar OR Cling Grip AND (Enemy Pogo OR Box Pogo with any crest except Hunter OR Faydown Cloak OR Clawline OR Sharp Dart OR Architect Charge) |  |  |  |
-| E | Exit | Top | Right Exit | Silk Soar OR Cling Grip OR Scuttlebrace OR Faydown Cloak AND (Ledge Grab OR Clawline) |  |  | clawline skip here is REALLY precise |
+| LA | Lower Ascent | Bottom | Top | (Silk Soar OR Cling Grip OR Scuttlebrace) AND (Dash OR Clawline OR Sharp Dart OR Faydown Cloak) |  | Verified |  |
+| HA | Higher Ascent | Top | Rosary | Silk Soar OR Box Pogo (All Crests except Hunter) OR Cling Grip AND (Faydown Cloak OR Clawline OR Sharp Dart OR Architect Charge) OR (Cling Grip AND (Enemy Pogo (Easy Skip)) |  | Verified |  |
+| E | Exit | Top | Right Exit | Silk Soar OR Cling Grip OR Scuttlebrace OR Faydown Cloak AND (Ledge Grab OR Clawline) |  | Verified | clawline skip here is REALLY precise |
 
 ## Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| AP Minor Cache - Whispering Vaults - Rosary Cache #4 | Rosary | Nothing. |  |  | Included |  |
-| Whispering Vaults: Rosary Cache #3 | Rosary | Nothing. |  |  | Included |  |
-| Whispering Vaults: Rosary Dish #2 | Rosary | Nothing. |  |  | Included |  |
+| AP Minor Cache - Whispering Vaults - Rosary Cache #4 | Rosary | Nothing. |  | Verified | Included |  |
+| Whispering Vaults: Rosary Cache #3 | Rosary | Nothing. |  | Verified | Included |  |
+| Whispering Vaults: Rosary Dish #2 | Rosary | Nothing. |  | Verified | Included |  |
