@@ -13111,16 +13111,16 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| BB | bone bottom |  | [Bone Bottom Bellway (Bellway_01)](#bone-bottom-bellway-bellway01) | BB | bone bottom bellway unlocked |  |  |  |
-| TM | the marrow |  | [The Marrow Bellway (Bone_05)](#the-marrow-bellway-bone05) | BB | the marrow bellway unlocked | TODO |  |  |
-| DD | deep docks |  | [Deep Docks Bellway (Bellway_02)](#deep-docks-bellway-bellway02) | BB | deep docks bellway unlocked |  |  |  |
-| FF | far fields |  | [Far Fields Bellway (Bellway_03)](#far-fields-bellway-bellway03) | BB | far fields bellway unlocked |  |  |  |
+| BB | bone bottom |  | [Bone Bottom Bellway (Bellway_01)](#bone-bottom-bellway-bellway01) | BB | bone bottom bellway unlocked |  | Verified |  |
+| TM | the marrow |  | [The Marrow Bellway (Bone_05)](#the-marrow-bellway-bone05) | BB | the marrow bellway unlocked |  | Verified |  |
+| DD | deep docks |  | [Deep Docks Bellway (Bellway_02)](#deep-docks-bellway-bellway02) | BB | deep docks bellway unlocked |  | Verified |  |
+| FF | far fields |  | [Far Fields Bellway (Bellway_03)](#far-fields-bellway-bellway03) | BB | far fields bellway unlocked |  | Verified |  |
 | GM | greymoor |  | TODO |  | greymoor bellway unlocked | TODO |  |  |
-| BH | bellhart |  | [Bellhart Bellway (Belltown_basement)](#bellhart-bellway-belltownbasement) | BH | bellhart bellway unlocked |  |  |  |
-| SW | shellwood |  | [Shellwood Bellway  (Shellwood_19)](#shellwood-bellway) | BB | shellwood bellway unlocked |  |  |  |
-| BS | blasted steps |  | [Blasted Steps Bellway (Bellway_08)](#blasted-steps-bellway-bellway08) | BB | blasted steps bellway unlocked |  |  |  |
-| TS | the slab |  | TODO |  | the slab bellway unlocked | TODO |  |  |
-| GB | grand bellway |  | [Grand Bellway (Bellway_City)](#grand-bellway-bellwaycity) | BW | grand bellway bellway unlocked | TODO |  |  |
+| BH | bellhart |  | [Bellhart Bellway (Belltown_basement)](#bellhart-bellway-belltownbasement) | BH | bellhart bellway unlocked |  | Verified |  |
+| SW | shellwood |  | [Shellwood Bellway  (Shellwood_19)](#shellwood-bellway) | BB | shellwood bellway unlocked |  | Verified |  |
+| BS | blasted steps |  | [Blasted Steps Bellway (Bellway_08)](#blasted-steps-bellway-bellway08) | BB | blasted steps bellway unlocked |  | Verified |  |
+| TS | the slab |  | [Slab Bellway (Slab_06)](#slab-bellway-slab06) | BW | the slab bellway unlocked |  | Verified |  |
+| GB | grand bellway |  | [Grand Bellway (Bellway_City)](#grand-bellway-bellwaycity) | BW | grand bellway bellway unlocked |  | Verified |  |
 | BW | bilewater |  | TODO |  | bilewater bellway unlocked | TODO |  |  |
 | PD | putrified ducts |  | TODO |  | putrified ducts bellway unlocked | TODO |  |  |
 
@@ -13146,13 +13146,13 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| T | terminus |  | TODO |  |  | TODO |  |  |
-| M | memorium |  | TODO |  |  | TODO |  |  |
-| HH | high halls |  | [High Halls Ventrica (Hang_06b)](#high-halls-ventrica-hang06b) | V |  | TODO |  |  |
-| FS | first shrine |  | [Songclave Tube (Song_Enclave_Tube)](#songclave-tube-songenclavetube) | V |  | TODO |  |  |
-| CC | choral chambers |  | [Choral Chambers Ventrica Room (Song_01b)](#choral-chambers-ventrica-room-song01b) | V |  | TODO |  |  |
-| GB | grand bellway |  | [Grand Bellway (Bellway_City)](#grand-bellway-bellwaycity) | VT |  | TODO |  |  |
-| UW | underworks |  | TODO |  |  | TODO |  |  |
+| T | terminus |  | TODO |  | terminus ventrica unlocked | TODO |  |  |
+| M | memorium |  | TODO |  | memorium ventrica unlocked | TODO |  |  |
+| HH | high halls |  | [High Halls Ventrica (Hang_06b)](#high-halls-ventrica-hang06b) | V | high halls ventrica unlocked |  | Verified |  |
+| FS | first shrine |  | [Songclave Tube (Song_Enclave_Tube)](#songclave-tube-songenclavetube) | V | first shrine ventrica unlocked |  | Verified |  |
+| CC | choral chambers |  | [Choral Chambers Ventrica Room (Song_01b)](#choral-chambers-ventrica-room-song01b) | V | choral chambers ventrica unlock |  | Verified |  |
+| GB | grand bellway |  | [Grand Bellway (Bellway_City)](#grand-bellway-bellwaycity) | VT | grand bellway ventrica unlocked |  | Verified |  |
+| UW | underworks |  | [Underworks Ventrica (Under_22)](#underworks-ventrica-under22) | V | underworks ventrica unlocked |  | Verified |  |
 
 #### Subroom Connections
 
