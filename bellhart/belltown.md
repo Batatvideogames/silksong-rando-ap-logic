@@ -13,12 +13,12 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| RD | door4 |  | [Bellhart Relic Shop (Belltown_Room_Relic)](bellhart-relic-shop.md) | L |  |  |  |  |
-| L | left3 |  | [Bellhart Hallway to Shellwood (Belltown_07)](bellhart-hallway-to-shellwood.md) | R |  |  |  |  |
-| BD | door1 |  | [Bellhart Bellway (Belltown_basement)](bellhart-bellway.md) | L |  |  |  |  |
-| HD | door5 |  | [Bellhome (Belltown_room_spare)](bellhome.md) | L |  |  |  |  |
-| ND | door3 |  | [Bellhart Pinsmith (Belltown_Room_pinsmith)](bellhart-pinsmith.md) | L |  |  |  |  |
-| R | right2 |  | [Bellhart Right Entrance (Belltown_06)](bellhart-right-entrance.md) | LL |  |  |  |  |
+| RD | door4 | Upper Area | [Bellhart Relic Shop (Belltown_Room_Relic)](bellhart-relic-shop.md) | L |  |  |  |  |
+| L | left3 | Lower Area | [Bellhart Hallway to Shellwood (Belltown_07)](bellhart-hallway-to-shellwood.md) | R |  |  |  |  |
+| BD | door1 | Lower Area | [Bellhart Bellway (Belltown_basement)](bellhart-bellway.md) | L |  |  |  |  |
+| HD | door5 | Upper Area | [Bellhome (Belltown_room_spare)](bellhome.md) | L |  |  |  |  |
+| ND | door3 | Upper Area | [Bellhart Pinsmith (Belltown_Room_pinsmith)](bellhart-pinsmith.md) | L |  |  |  |  |
+| R | right2 | Lower Area | [Bellhart Right Entrance (Belltown_06)](bellhart-right-entrance.md) | LL |  |  |  |  |
 
 ## Subroom Connections
 

@@ -15,7 +15,6 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | R | right1 | Arena | [Bellhart Right Entrance (Belltown_06)](bellhart-right-entrance.md) | UL | None |  |  |  |
 | C | top1 | Upper | [Upper Bellhart (Belltown_04)](upper-bellhart.md) | F | Silk Soar OR Cling Grip OR ( Dash AND Scuttlebrace ) OR ( Easy skips AND ( Faydown Cloak OR Drifters Cloak ) ) |  |  |  |
-| D | door_wakeOnGround | Arena | TODO |  |  | TODO |  |  |
 
 ## Subroom Connections
 

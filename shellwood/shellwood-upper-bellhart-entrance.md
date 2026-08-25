@@ -35,4 +35,3 @@
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | Shard Bundle: Shellwood | Upper Area | (Cling Grip AND Faydown Cloak ) OR Silk Soar OR ( Faydown Cloak AND Dash AND Scuttlebrace ) |  |  | Included |  |
-|  |  |  |  |  | Not included |  |

@@ -13,10 +13,10 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 |  | [Shellwood Lower Left Tall Room (Shellwood_03)](shellwood-lower-left-tall-room.md) | LL | None |  |  |  |
-| RC | top2 |  | [Shellgrave (Shellgrave)](shellgrave.md) | F | Ledge grab OR Faydown Cloak OR Silk Soar OR Enemy Pogo |  |  |  |
-| L | left1 |  | [Shellwood Lower Toll bench (Shellwood_08c)](shellwood-lower-toll-bench.md) | R | Break Vines |  |  |  |
-| LC | top1 |  | [shellwood Far Left Tall Room (Shellwood_04c)](shellwood-far-left-tall-room.md) | F | Enemy Pogo OR Cling grip OR Silk soar OR Faydown Cloak OR ( Dash AND Scuttlebrace ) |  |  |  |
+| R | right1 | Right Lake | [Shellwood Lower Left Tall Room (Shellwood_03)](shellwood-lower-left-tall-room.md) | LL | None |  |  |  |
+| RC | top2 | Right Lake | [Shellgrave (Shellgrave)](shellgrave.md) | F | Ledge grab OR Faydown Cloak OR Silk Soar OR Enemy Pogo |  |  |  |
+| L | left1 | Left Lake | [Shellwood Lower Toll bench (Shellwood_08c)](shellwood-lower-toll-bench.md) | R | Break Vines |  |  |  |
+| LC | top1 | Left Lake | [shellwood Far Left Tall Room (Shellwood_04c)](shellwood-far-left-tall-room.md) | F | Enemy Pogo OR Cling grip OR Silk soar OR Faydown Cloak OR ( Dash AND Scuttlebrace ) |  |  |  |
 
 ## Subroom Connections
 

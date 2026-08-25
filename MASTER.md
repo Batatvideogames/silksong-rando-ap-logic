@@ -5353,10 +5353,10 @@ No subroom connections defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 |  | [Shellwood Lower Left Tall Room (Shellwood_03)](#shellwood-lower-left-tall-room-shellwood03) | LL | None |  |  |  |
-| RC | top2 |  | [Shellgrave (Shellgrave)](#shellgrave-shellgrave) | F | Ledge grab OR Faydown Cloak OR Silk Soar OR Enemy Pogo |  |  |  |
-| L | left1 |  | [Shellwood Lower Toll bench (Shellwood_08c)](#shellwood-lower-toll-bench-shellwood08c) | R | Break Vines |  |  |  |
-| LC | top1 |  | [shellwood Far Left Tall Room (Shellwood_04c)](#shellwood-far-left-tall-room-shellwood04c) | F | Enemy Pogo OR Cling grip OR Silk soar OR Faydown Cloak OR ( Dash AND Scuttlebrace ) |  |  |  |
+| R | right1 | Right Lake | [Shellwood Lower Left Tall Room (Shellwood_03)](#shellwood-lower-left-tall-room-shellwood03) | LL | None |  |  |  |
+| RC | top2 | Right Lake | [Shellgrave (Shellgrave)](#shellgrave-shellgrave) | F | Ledge grab OR Faydown Cloak OR Silk Soar OR Enemy Pogo |  |  |  |
+| L | left1 | Left Lake | [Shellwood Lower Toll bench (Shellwood_08c)](#shellwood-lower-toll-bench-shellwood08c) | R | Break Vines |  |  |  |
+| LC | top1 | Left Lake | [shellwood Far Left Tall Room (Shellwood_04c)](#shellwood-far-left-tall-room-shellwood04c) | F | Enemy Pogo OR Cling grip OR Silk soar OR Faydown Cloak OR ( Dash AND Scuttlebrace ) |  |  |  |
 
 #### Subroom Connections
 
@@ -5634,7 +5634,6 @@ No subroom connections defined.
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | Shard Bundle: Shellwood | Upper Area | (Cling Grip AND Faydown Cloak ) OR Silk Soar OR ( Faydown Cloak AND Dash AND Scuttlebrace ) |  |  | Included |  |
-|  |  |  |  |  | Not included |  |
 
 ### Sister Splinter (Shellwood_18)
 
@@ -5826,8 +5825,8 @@ No subroom connections defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| C | top1 |  | [Bellhart Bellway (Belltown_basement)](#bellhart-bellway-belltownbasement) | F | None |  |  |  |
-| L | left1 |  | [The Marrow Jail Pathway (Bone_08)](#the-marrow-jail-pathway-bone08) | UR | None |  |  |  |
+| C | top1 | Top Exit | [Bellhart Bellway (Belltown_basement)](#bellhart-bellway-belltownbasement) | F | None |  |  |  |
+| L | left1 | Bottom Exit | [The Marrow Jail Pathway (Bone_08)](#the-marrow-jail-pathway-bone08) | UR | None |  |  |  |
 
 #### Subroom Connections
 
@@ -5991,12 +5990,12 @@ No subroom connections defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| RD | door4 |  | [Bellhart Relic Shop (Belltown_Room_Relic)](#bellhart-relic-shop-belltownroomrelic) | L |  |  |  |  |
-| L | left3 |  | [Bellhart Hallway to Shellwood (Belltown_07)](#bellhart-hallway-to-shellwood-belltown07) | R |  |  |  |  |
-| BD | door1 |  | [Bellhart Bellway (Belltown_basement)](#bellhart-bellway-belltownbasement) | L |  |  |  |  |
-| HD | door5 |  | [Bellhome (Belltown_room_spare)](#bellhome-belltownroomspare) | L |  |  |  |  |
-| ND | door3 |  | [Bellhart Pinsmith (Belltown_Room_pinsmith)](#bellhart-pinsmith-belltownroompinsmith) | L |  |  |  |  |
-| R | right2 |  | [Bellhart Right Entrance (Belltown_06)](#bellhart-right-entrance-belltown06) | LL |  |  |  |  |
+| RD | door4 | Upper Area | [Bellhart Relic Shop (Belltown_Room_Relic)](#bellhart-relic-shop-belltownroomrelic) | L |  |  |  |  |
+| L | left3 | Lower Area | [Bellhart Hallway to Shellwood (Belltown_07)](#bellhart-hallway-to-shellwood-belltown07) | R |  |  |  |  |
+| BD | door1 | Lower Area | [Bellhart Bellway (Belltown_basement)](#bellhart-bellway-belltownbasement) | L |  |  |  |  |
+| HD | door5 | Upper Area | [Bellhome (Belltown_room_spare)](#bellhome-belltownroomspare) | L |  |  |  |  |
+| ND | door3 | Upper Area | [Bellhart Pinsmith (Belltown_Room_pinsmith)](#bellhart-pinsmith-belltownroompinsmith) | L |  |  |  |  |
+| R | right2 | Lower Area | [Bellhart Right Entrance (Belltown_06)](#bellhart-right-entrance-belltown06) | LL |  |  |  |  |
 
 #### Subroom Connections
 
@@ -6110,7 +6109,6 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | R | right1 | Arena | [Bellhart Right Entrance (Belltown_06)](#bellhart-right-entrance-belltown06) | UL | None |  |  |  |
 | C | top1 | Upper | [Upper Bellhart (Belltown_04)](#upper-bellhart-belltown04) | F | Silk Soar OR Cling Grip OR ( Dash AND Scuttlebrace ) OR ( Easy skips AND ( Faydown Cloak OR Drifters Cloak ) ) |  |  |  |
-| D | door_wakeOnGround | Arena | TODO |  |  | TODO |  |  |
 
 #### Subroom Connections
 
@@ -8420,9 +8418,9 @@ No check locations defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Underworks Western Gauntlet (Under_07)](#underworks-western-gauntlet-under07) | R | none |  |  |  |
-| T | top1 |  | [Confession Toll (Under_08)](#confession-toll-under08) | B | cling grip or silk soar |  |  |  |
-| R | right1 |  | [Underworks Central Shaft (Under_05)](#underworks-central-shaft-under05) | TL | none |  |  |  |
+| L | left1 | Left | [Underworks Western Gauntlet (Under_07)](#underworks-western-gauntlet-under07) | R | none |  |  |  |
+| T | top1 | Center | [Confession Toll (Under_08)](#confession-toll-under08) | B | cling grip or silk soar |  |  |  |
+| R | right1 | Right | [Underworks Central Shaft (Under_05)](#underworks-central-shaft-under05) | TL | none |  |  |  |
 
 #### Subroom Connections
 
