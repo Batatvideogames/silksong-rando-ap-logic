@@ -15,7 +15,7 @@
 | L | left1 | Left | [Slab Cell (Slab_03)](slab-cell.md) | L3R | none |  |  |  |
 | R | right1 | Right | [Slab Shaft (Slab_21)](slab-shaft.md) | BL | none |  |  |  |
 | D1 | door1 | Left | [Slab Penitent Cell (Slab_Cell_Creature)](slab-penitent-cell.md) | L | none |  |  |  |
-| D2 | door2 | Cavern | [Slab Quiet Cell (Slab_Cell_Quiet)](slab-quiet-cell.md) | T |  | TODO |  | Cavern door, for alternate entry, TBD |
+| D2 | door2 | Cavern | [Slab Quiet Cell (Slab_Cell_Quiet)](slab-quiet-cell.md) | T | none |  |  | Cavern door, for alternate entry, TBD |
 
 ## Subroom Connections
 
