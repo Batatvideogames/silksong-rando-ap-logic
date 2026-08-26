@@ -12,7 +12,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | Left |  | [Blasted Steps Shakra Room (Coral_12)](blasted-steps-shakra-room.md) | R | Nothing |  |  |  |
+| L | Left |  | [Blasted Steps Shakra Room (Coral_12)](blasted-steps-shakra-room.md) | R | Nothing |  | Verified |  |
 
 ## Subroom Connections
 
@@ -22,5 +22,5 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Silkeater: Blasted Steps |  | Nothing |  |  | Included |  |
-| Wish: A Vassal Lost |  | Break Wall |  |  | Included | Steel Soul required |
+| Silkeater: Blasted Steps |  | Nothing |  | Verified | Included |  |
+| Wish: A Vassal Lost |  | Steel Soul Active |  | Verified | Included |  |

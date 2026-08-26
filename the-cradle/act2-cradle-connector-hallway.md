@@ -1,8 +1,8 @@
-# Weavenest Atla Hallway (Weave_13)
+# Act2 Cradle Connector Hallway (Cradle_01)
 
-**Game ID:** Weave_13
+**Game ID:** Cradle_01
 
-**Contributors:** herounit
+**Contributors:** Pyxl
 
 ## Subrooms
 
@@ -12,8 +12,8 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left |  | [Weavenest Atla Teleporter (Weave_02)](weavenest-atla-teleporter.md) | MR | none |  | Verified |  |
-| R | right |  | [Weavenest Atla Lore (Weave_08)](weavenest-atla-lore.md) | L | none |  | Verified |  |
+| L | left1 |  | [Act2 Cradle Left Shaft (Cradle_02)](act2-cradle-left-shaft.md) | LR | None |  | Verified |  |
+| R | right1 |  | [Terminus Ventrica (Tube_Hub)](terminus-ventrica.md) | ML | None |  | Verified |  |
 
 ## Subroom Connections
 

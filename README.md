@@ -13,7 +13,7 @@ Generated from the non-archived records in `input/silksong-rando-logic.db`.
 ## Bone Bottom
 
 - [Bone Bottom Bellway (Bellway_01)](./bone-bottom/bone-bottom-bellway.md)
-- [Bonegrave Passage](./bone-bottom/bonegrave-passage.md)
+- [Bonegrave Passage (Bone_Steel_Servant)](./bone-bottom/bonegrave-passage.md)
 - [Chapel of the Wanderer (Chapel_Wanderer)](./bone-bottom/chapel-of-the-wanderer.md)
 - [Bone Bottom Town (Bonetown)](./bone-bottom/bone-bottom-town.md)
 - [Mosshome Middle (Mosstown_01)](./bone-bottom/mosshome-middle.md)
@@ -382,13 +382,14 @@ No rooms defined.
 ## Whiteward
 
 - [Whiteward Entrance (Ward_01)](./whiteward/whiteward-entrance.md)
+- [Whiteward Sherma Gauntlet (Ward_09)](./whiteward/whiteward-sherma-gauntlet.md)
 - [Whiteward Descent Connection (Ward_03)](./whiteward/whiteward-descent-connection.md)
 - [Whiteward Descent (Ward_06)](./whiteward/whiteward-descent.md)
 - [Whiteward Junk Dump (Ward_07)](./whiteward/whiteward-junk-dump.md)
 - [Whiteward Long Horizontal (Ward_05)](./whiteward/whiteward-long-horizontal.md)
 - [Whiteward Silkeater (Ward_04)](./whiteward/whiteward-silkeater.md)
 - [Whiteward Unravelled Arena Room (Ward_02)](./whiteward/whiteward-unravelled-arena-room.md)
-- [Whiteward Map Room (Ward_02b)](./whiteward/whiteward-map-room.md)
+- [Whiteward Tunnel Room (Ward_02b)](./whiteward/whiteward-tunnel-room.md)
 
 ## High Halls
 
@@ -475,7 +476,19 @@ No rooms defined.
 
 ## The Cradle
 
-No rooms defined.
+- [ACT3 Connection To GMS (Cradle_01_Destroyed)](./the-cradle/act3-connection-to-gms.md)
+- [ACT3 GMS Arena (Cradle_03_Destroyed)](./the-cradle/act3-gms-arena.md)
+- [ACT3 Lace2 Arena (Song_Tower_Destroyed)](./the-cradle/act3-lace2-arena.md)
+- [ACT2 GMS Arena (Cradle_03)](./the-cradle/act2-gms-arena.md)
+- [Act2 Cradle Connector Hallway (Cradle_01)](./the-cradle/act2-cradle-connector-hallway.md)
+- [Act2 Cradle Left Shaft (Cradle_02)](./the-cradle/act2-cradle-left-shaft.md)
+- [Lace 2 Fight (Song_Tower_01)](./the-cradle/lace-2-fight.md)
+- [Terminus Ventrica (Tube_Hub)](./the-cradle/terminus-ventrica.md)
+- [Weaver Jail Lore Room (Cradle_02b)](./the-cradle/weaver-jail-lore-room.md)
+- [Cradle Path Of Pain First Room (Cradle_Destroyed_Challenge_02)](./the-cradle/cradle-path-of-pain-first-room.md)
+- [Path of Pain Bench (Cradle_Destroyed_Challenge_Bench)](./the-cradle/path-of-pain-bench.md)
+- [Path Of Pain Silksong (Cradle_Destroyed_Challenge_01)](./the-cradle/path-of-pain-silksong.md)
+- [The Surface (Abandoned_town)](./the-cradle/the-surface.md)
 
 ## The Abyss
 

@@ -12,7 +12,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | Left |  | [Windy Pinstress Entrance (Coral_34)](windy-pinstress-entrance.md) | C | Nothing |  |  |  |
+| L | Left |  | [Windy Pinstress Entrance (Coral_34)](windy-pinstress-entrance.md) | C | Nothing |  | Verified |  |
 
 ## Subroom Connections
 
@@ -20,4 +20,6 @@ No subroom connections defined.
 
 ## Check Locations
 
-No check locations defined.
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Needle Strike |  | Nothing |  | Verified | Included |  |

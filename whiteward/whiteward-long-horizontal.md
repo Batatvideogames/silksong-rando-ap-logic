@@ -22,4 +22,4 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Choral Commandment #3 |  | Nothing |  | Verified | Included |  |
+| Relic: Choral Commandment (Eastern Whiteward) |  | Nothing |  | Verified | Included |  |

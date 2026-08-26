@@ -16,10 +16,10 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| UR | right1 | Ceiling area | [Shellwood Sister Splinter Bench (Shellwood_01b)](shellwood-sister-splinter-bench.md) | LL |  |  |  |  |
-| LL | left2 | Ground Left | [shellwood Shakra (Shellwood_16)](shellwood-shakra.md) | R |  |  |  |  |
-| UL | left3 | Platforms | [Shellwood Greyroot entrance (Shellwood_Witch)](shellwood-greyroot-entrance.md) | R |  |  |  |  |
-| LR | right2 | Ground Right | [Shellwood Right Side Big room (Shellwood_01)](shellwood-right-side-big-room.md) | LL |  |  |  |  |
+| UR | right1 | Ceiling area | [Shellwood Sister Splinter Bench (Shellwood_01b)](shellwood-sister-splinter-bench.md) | LL | None |  |  |  |
+| LL | left2 | Ground Left | [shellwood Shakra (Shellwood_16)](shellwood-shakra.md) | R | None |  |  |  |
+| UL | left3 | Platforms | [Shellwood Greyroot entrance (Shellwood_Witch)](shellwood-greyroot-entrance.md) | R | None |  |  |  |
+| LR | right2 | Ground Right | [Shellwood Right Side Big room (Shellwood_01)](shellwood-right-side-big-room.md) | LL | NOne |  |  |  |
 
 ## Subroom Connections
 
@@ -32,7 +32,7 @@
 | LL | Left Lake | Ground Centre | Ground Left | ( Enemy Pogo AND Ledge Grab ) OR Dash OR Sprint OR clawline OR Beast Crest OR Faydown Cloak OR Drifters Cloak |  |  |  |
 | LL | Left Lake | Ground Left | Ground Centre | None |  |  |  |
 | LP | Left Platforms | Platforms | Ground Left | None |  |  |  |
-| LP | Left Platforms | Ground Left | Platforms | ( Faydown Cloak AND ( Cling Grip OR ( Scuttle Brace AND Dash ) ) ) Silk Soar OR Enemy Pogo |  |  |  |
+| LP | Left Platforms | Ground Left | Platforms | ( Faydown Cloak AND ( Cling Grip OR ( Scuttle Brace AND Dash ) ) ) OR Silk Soar OR ( Enemy Pogo AND Hard Skips ) |  |  |  |
 | CP | Central Platforms | Platforms | Ground Centre | None |  |  |  |
 | CP | Central Platforms | Ground Centre | Platforms | ( Faydown Cloak AND Ledge Grab ) OR Silk Soar |  |  |  |
 | RP | Right Platforms | Platforms | Ground Right | None |  |  |  |

@@ -1,4 +1,4 @@
-# Whiteward Map Room (Ward_02b)
+# Whiteward Tunnel Room (Ward_02b)
 
 **Game ID:** Ward_02b
 
@@ -17,7 +17,7 @@
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | B | Bottom | Lower Tunnels | [Whiteward Unravelled Arena Room (Ward_02)](whiteward-unravelled-arena-room.md) | T | Nothing |  | Verified |  |
-| R | Right | Pickup Section | [Whiteward Entrance (Ward_01)](whiteward-entrance.md) | ML | Break 4x Wall |  | Verified |  |
+| R | Right | Pickup Section | [Whiteward Entrance (Ward_01)](whiteward-entrance.md) | ML | Break 4x Wall from Left |  | Verified |  |
 
 ## Subroom Connections
 
@@ -35,4 +35,4 @@
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Map: Whiteward | Pickup Section | Nothing |  | Verified | Included |  |
+| Relic: Choral Commandment (Western Whiteward) | Pickup Section | Nothing |  | Verified | Included |  |

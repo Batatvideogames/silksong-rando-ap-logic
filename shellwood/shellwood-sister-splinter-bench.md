@@ -31,7 +31,7 @@
 | AD | Arena Drop | Arena | Above Arena | Silk Soar |  |  |  |
 | AE | Arena Exit | Arena | Bench Toll | Ledge Grab OR ( Dash AND Scuttlebrace ) OR Clawline OR Cling Grip OR Faydown Cloak OR Silk Soar |  |  |  |
 | AE | Arena Exit | Bench Toll | Arena | None |  |  |  |
-| CL1 | Climb 1 | Bench Toll | Upper Hidden | ( Cling Grip AND ( Clawline OR Dash OR Sharpdart OR Drifters Cloak OR Faydown Cloak OR Beast Crest ) OR Silk Soar |  |  |  |
+| CL1 | Climb 1 | Bench Toll | Upper Hidden | ( Cling Grip AND ( Clawline OR Dash OR Sharpdart OR Drifters Cloak OR Faydown Cloak OR Beast Crest ) ) OR Silk Soar |  |  |  |
 | CL1 | Climb 1 | Upper Hidden | Bench Toll | None |  |  |  |
 | EL | Elevator | Bench Toll | Elevator Platform | Elevator activated |  |  |  |
 | EL | Elevator | Elevator Platform | Bench Toll | Elevator activated |  |  |  |

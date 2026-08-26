@@ -222,7 +222,9 @@ No subroom connections defined.
 
 No check locations defined.
 
-### Bonegrave Passage
+### Bonegrave Passage (Bone_Steel_Servant)
+
+**Game ID:** Bone_Steel_Servant
 
 **Contributors:** herounit
 
@@ -410,7 +412,7 @@ need see if there are other checks in here
 | LR | lower right | graveyard | [Bone Bottom Town (Bonetown)](#bone-bottom-town-bonetown) | LL | none |  |  |  |
 | C | ceiling | upper left exit | [Wormways Lower East (Crawl_07)](#wormways-lower-east-crawl07) | F | silk soar OR cling grip OR faydown cloak OR (dash AND scuttlebrace) |  |  |  |
 | CD | chapel door | graveyard | [Chapel of the Wanderer (Chapel_Wanderer)](#chapel-of-the-wanderer-chapelwanderer) | CD | no wanderer's crest OR wanderer's door override |  |  | "wanderer's door override" is meant to cover any situation that would require the door to stay open, such as rosary cache rando |
-| LL | lower left | graveyard | [Bonegrave Passage](#bonegrave-passage) | R | steel soul |  |  |  |
+| LL | lower left | graveyard | [Bonegrave Passage (Bone_Steel_Servant)](#bonegrave-passage-bonesteelservant) | R | steel soul |  |  |  |
 
 #### Subroom Connections
 
@@ -1371,8 +1373,8 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| WD | weavenest door |  | [Moss Grotto East (Tut_01b)](#moss-grotto-east-tut01b) | WD | needolin |  |  |  |
-| R | right |  | [Weavenest Atla Teleporter (Weave_02)](#weavenest-atla-teleporter-weave02) | UL | none |  |  |  |
+| WD | weavenest door |  | [Moss Grotto East (Tut_01b)](#moss-grotto-east-tut01b) | WD | needolin |  | Verified |  |
+| R | right |  | [Weavenest Atla Teleporter (Weave_02)](#weavenest-atla-teleporter-weave02) | UL | none |  | Verified |  |
 
 #### Subroom Connections
 
@@ -1399,23 +1401,23 @@ No check locations defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| UL | upper left | upper telepad | [Weavenest Atla Entrance (Weave_04)](#weavenest-atla-entrance-weave04) | R | none |  |  |  |
-| UR | upper right | upper telepad | [Weavenest Atla Power (Weave_12)](#weavenest-atla-power-weave12) | L | none |  |  |  |
-| MR | middle right | upper shaft | [Weavenest Atla Hallway (Weave_13)](#weavenest-atla-hallway-weave13) | L | none |  |  |  |
-| ML | middle left | lower shaft | [Weavenest Atla Spool (Weave_11)](#weavenest-atla-spool-weave11) | R | none |  |  |  |
-| LL | lower left | lower telepad | [Weavenest Atla Bench (Weave_07)](#weavenest-atla-bench-weave07) | R | none |  |  |  |
-| LR | lower right | lower telepad | [Weavenest Atla Eva (Weave_10)](#weavenest-atla-eva-weave10) | L | break walls |  |  |  |
+| UL | upper left | upper telepad | [Weavenest Atla Entrance (Weave_04)](#weavenest-atla-entrance-weave04) | R | none |  | Verified |  |
+| UR | upper right | upper telepad | [Weavenest Atla Power (Weave_12)](#weavenest-atla-power-weave12) | L | none |  | Verified |  |
+| MR | middle right | upper shaft | [Weavenest Atla Hallway (Weave_13)](#weavenest-atla-hallway-weave13) | L | none |  | Verified |  |
+| ML | middle left | lower shaft | [Weavenest Atla Spool (Weave_11)](#weavenest-atla-spool-weave11) | R | none |  | Verified |  |
+| LL | lower left | lower telepad | [Weavenest Atla Bench (Weave_07)](#weavenest-atla-bench-weave07) | R | none |  | Verified |  |
+| LR | lower right | lower telepad | [Weavenest Atla Eva (Weave_10)](#weavenest-atla-eva-weave10) | L | break wall right |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| TP | teleporter | upper telepad | lower telepad | weavenest atla power activation |  |  |  |
-| TP | teleporter | lower telepad | upper telepad | weavenest atla power activation |  |  |  |
-| SM | shaft middle | lower telepad | upper shaft | cling grip OR silk soar |  |  |  |
-| SM | shaft middle | upper shaft | lower telepad | none (falling) |  |  |  |
-| SB | shaft base | lower telepad | lower shaft | cling grip OR silk soar |  |  |  |
-| SB | shaft base | lower shaft | lower telepad | none (falling) |  |  |  |
+| TP | teleporter | upper telepad | lower telepad | weavenest atla power activation |  | Verified |  |
+| TP | teleporter | lower telepad | upper telepad | weavenest atla power activation |  | Verified |  |
+| SM | shaft middle | lower telepad | upper shaft | cling grip OR silk soar OR ( faydown cloak AND scuttlebrace ) |  | Verified |  |
+| SM | shaft middle | upper shaft | lower telepad | none (falling) |  | Verified |  |
+| SB | shaft base | lower telepad | lower shaft | cling grip OR silk soar OR ( faydown cloak AND scuttlebrace ) |  | Verified |  |
+| SB | shaft base | lower shaft | lower telepad | none (falling) |  | Verified |  |
 
 #### Check Locations
 
@@ -1435,7 +1437,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left |  | [Weavenest Atla Teleporter (Weave_02)](#weavenest-atla-teleporter-weave02) | UR | none |  |  |  |
+| L | left |  | [Weavenest Atla Teleporter (Weave_02)](#weavenest-atla-teleporter-weave02) | UR | none |  | Verified |  |
 
 #### Subroom Connections
 
@@ -1445,8 +1447,8 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| power activation |  | none |  |  | Not included | NOT CURRENTLY RANDOMIZED |
-| weavenest atla map |  | none |  |  | Included | weavenest atla power activation |
+| weavenest atla power activation |  | activate switch up |  | Verified | Not included | NOT CURRENTLY RANDOMIZED |
+| weavenest atla map |  | weavenest atla power activation |  | Verified | Included |  |
 
 ### Weavenest Atla Eva (Weave_10)
 
@@ -1456,27 +1458,31 @@ No subroom connections defined.
 
 #### Subrooms
 
-No subrooms defined.
+- left exit area
+- eva pod
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left |  | [Weavenest Atla Teleporter (Weave_02)](#weavenest-atla-teleporter-weave02) | LR | break walls AND ( cling grip OR silk soar ) |  |  |  |
+| L | left | left exit area | [Weavenest Atla Teleporter (Weave_02)](#weavenest-atla-teleporter-weave02) | LR | none |  | Verified |  |
 
 #### Subroom Connections
 
-No subroom connections defined.
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| V1 | vertical 1 | left exit area | eva pod | break wall right AND break wall down |  | Verified |  |
+| V1 | vertical 1 | eva pod | left exit area | break wall left AND break wall up AND ( cling grip OR silk soar OR scuttlebrace ) |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| crest of the hunter |  | TODO | TODO |  | Included |  |
-| yellow vesticrest |  | TODO | TODO |  | Included |  |
-| blue vesticrest |  | TODO | TODO |  | Included |  |
-| crest of the hunter 2 |  | TODO | TODO |  | Included |  |
-| sylphsong |  | TODO | TODO |  | Included |  |
+| crest of the hunter | eva pod | none |  | Verified | Not included | per a random reddit thread |
+| yellow vesticrest | eva pod | 12 tool slots unlocked |  | Verified | Not included | per a random reddit thread |
+| blue vesticrest | eva pod | 20 tool slots unlocked |  | Verified | Not included | per a random reddit thread |
+| crest of the hunter 2 | eva pod | 27 tool slots unlocked |  | Verified | Not included | per a random reddit thread |
+| sylphsong | eva pod | 32 tool slots unlocked |  | Verified | Not included | per a random reddit thread |
 
 ### Weavenest Atla Bench (Weave_07)
 
@@ -1486,26 +1492,28 @@ No subroom connections defined.
 
 #### Subrooms
 
-No subrooms defined.
+- bench area
+- left exit area
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right |  | [Weavenest Atla Teleporter (Weave_02)](#weavenest-atla-teleporter-weave02) | LL | none |  |  |  |
-| L | left |  | [Weavenest Atla Grotto (Weave_03)](#weavenest-atla-grotto-weave03) | R | none |  |  |  |
+| R | right | bench area | [Weavenest Atla Teleporter (Weave_02)](#weavenest-atla-teleporter-weave02) | LL | none |  | Verified |  |
+| L | left | left exit area | [Weavenest Atla Grotto (Weave_03)](#weavenest-atla-grotto-weave03) | R | none |  | Verified |  |
 
 #### Subroom Connections
 
-No subroom connections defined.
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| SW | swim | bench area | left exit area | swim |  | Verified | there is a slim possibility clawline and cling grip could work here, but can't test until swim is randomized |
+| SW | swim | left exit area | bench area | swim |  | Verified |  |
 
 #### Check Locations
 
-No check locations defined.
-
-#### Notes
-
-no checks but there is a bench
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| bench | bench area | none |  | Verified | Not included |  |
 
 ### Weavenest Atla Grotto (Weave_03)
 
@@ -1515,32 +1523,49 @@ no checks but there is a bench
 
 #### Subrooms
 
-- pathway
+- right exit area
+- far east platforms
+- upper east platforms
 - mossberry platform
+- causeway 
+- upper west platforms
+- lower west platforms
 - boss room
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right | pathway | [Weavenest Atla Bench (Weave_07)](#weavenest-atla-bench-weave07) | L | break vines |  |  |  |
+| R | right | right exit area | [Weavenest Atla Bench (Weave_07)](#weavenest-atla-bench-weave07) | L | break vines |  |  |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| MP | mossberry platform jump | pathway | mossberry platform | run OR dash OR drifter's cloak OR faydown cloak OR sharpdart OR clawline OR silk soar OR air stall pogo crest |  |  | air stall crest = shaman, beast, reaper, architect; couldn't make it work with the other three |
-| MP | mossberry platform jump | mossberry platform | pathway | none (falling) |  |  |  |
-| BR | boss room jump | pathway | boss room | break vines AND ( run OR dash OR drifter's cloak OR faydown cloak OR sharpdart OR clawline OR beast crest ) |  |  | beast pogo clears this easily |
-| BR | boss room jump | boss room | pathway | none (falling) |  |  |  |
+| BV1 | break vines 1 | right exit area | far east platforms | break vines left |  | Verified |  |
+| BV1 | break vines 1 | far east platforms | right exit area | break vines right |  | Verified |  |
+| P1 | platforming 1 | far east platforms | upper east platforms | none (falling) |  | Verified |  |
+| P1 | platforming 1 | upper east platforms | far east platforms | ledge grab OR run OR dash OR drifter's cloak OR faydown cloak OR clawline OR scuttlebrace OR sharpdart OR shaman crest |  | Verified |  |
+| MU | mossberry upper | upper east platforms | mossberry platform | run OR dash OR drifter's cloak OR faydown cloak OR sharpdart OR clawline OR beast crest OR ( easy skips enabled AND ledge grab AND ( shaman crest OR architect crest ) ) |  | Verified | other stall techniques may also make it - untested; was unable to replicate previous reaper crest stall |
+| ML | mossberry lower | causeway | mossberry platform | silk soar |  | Verified |  |
+| ML | mossberry lower | mossberry platform | causeway | none (falling) |  | Verified |  |
+| EV1 | east vertical 1 | causeway | upper east platforms | ledge grab OR faydown cloak OR   silk soar |  | Verified |  |
+| EV1 | east vertical 1 | upper east platforms | causeway | none (falling) |  | Verified |  |
+| WG1 | west gap 1 | causeway | upper west platforms | none (falling) |  | Verified |  |
+| WG1 | west gap 1 | upper west platforms | causeway | ledge grab OR run OR dash OR drifter's cloak OR faydown cloak OR silk soar OR clawline OR sharpdart OR scuttlebrace |  |  |  |
+| WG2 | west gap 2 | lower west platforms | causeway | ledge grab OR faydown cloak OR spike pogo OR silk soar |  | Verified |  |
+| WG2 | west gap 2 | causeway | lower west platforms | none (falling) |  | Verified |  |
+| BR | boss room jump | upper west platforms | boss room | break vines left AND ( run OR dash OR drifter's cloak OR faydown cloak OR sharpdart OR clawline OR beast crest ) |  | Verified | beast pogo clears this easily |
+| BR | boss room jump | boss room | upper west platforms | break vines right AND ( run OR dash OR drifter's cloak OR faydown cloak OR sharpdart OR clawline OR beast crest OR scuttlebrace ) |  | Verified |  |
+| F1 | fall 1 | boss room | lower west platforms | none (falling) |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| weavenest atla mossberry | mossberry platform |  |  |  | Included |  |
-| double moss mother boss fight | boss room |  |  |  | Included | NOT CURRENTLY TRACKED |
-| weavelight | boss room | defeat double moss mother |  |  | Included |  |
+| weavenest atla mossberry | mossberry platform | none |  | Verified | Included |  |
+| double moss mother boss fight | boss room | none |  | Verified | Not included | BOSS IS NOT CURRENTLY TIED TO A CHECK - but does unlock weavelight check |
+| weavelight | boss room | defeat double moss mother |  | Verified | Included |  |
 
 ### Weavenest Atla Hallway (Weave_13)
 
@@ -1556,8 +1581,8 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left |  | [Weavenest Atla Teleporter (Weave_02)](#weavenest-atla-teleporter-weave02) | MR | none |  |  |  |
-| R | right |  | [Weavenest Atla Lore (Weave_08)](#weavenest-atla-lore-weave08) | L | none |  |  |  |
+| L | left |  | [Weavenest Atla Teleporter (Weave_02)](#weavenest-atla-teleporter-weave02) | MR | none |  | Verified |  |
+| R | right |  | [Weavenest Atla Lore (Weave_08)](#weavenest-atla-lore-weave08) | L | none |  | Verified |  |
 
 #### Subroom Connections
 
@@ -1575,29 +1600,35 @@ No check locations defined.
 
 #### Subrooms
 
-- main area
-- right exit
+- right exit area
+- left exit area
+- ground floor
+- upper platform
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left | main area | [Weavenest Atla Hallway (Weave_13)](#weavenest-atla-hallway-weave13) | R | none |  |  |  |
-| R | right | right exit | [Weavenest Atla Mask Shard (Weave_05b)](#weavenest-atla-mask-shard-weave05b) | L | none |  |  |  |
+| L | left | left exit area | [Weavenest Atla Hallway (Weave_13)](#weavenest-atla-hallway-weave13) | R | none |  | Verified |  |
+| R | right | right exit area | [Weavenest Atla Mask Shard (Weave_05b)](#weavenest-atla-mask-shard-weave05b) | L | none |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| CL | climb pit | main area | right exit | none (falling) |  |  | need to pogo spikes to get down without movement tech |
-| CL | climb pit | right exit | main area | cling grip AND ( dash OR horizontal movement tech OR faydown cloak ) |  |  |  |
+| CL | climb pit | ground floor | right exit area | break wall right AND ( spike pogo easy OR dash OR drifter's cloak OR faydown cloak OR cling grip OR clawline OR sharpdart OR scuttlebrace ) |  | Verified |  |
+| CL | climb pit | right exit area | ground floor | break wall left AND ( scuttlebrace OR ( cling grip AND ( spike pogo easy OR run OR dash OR drifter's cloak OR faydown cloak OR clawline OR sharpdart ) ) ) |  | Verified |  |
+| V1 | vertical 1 | ground floor | left exit area | ledge grab OR faydown cloak OR cling grip OR scuttlebrace |  | Verified |  |
+| V1 | vertical 1 | left exit area | ground floor | none (falling) |  | Verified |  |
+| V2 | vertical 2 | ground floor | upper platform | ledge grab OR faydown cloak OR cling grip OR scuttlebrace |  | Verified |  |
+| V2 | vertical 2 | upper platform | ground floor | none (falling) |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| rune harp weavenest atla | main area | none |  |  | Included |  |
-| readable lore tablet | main area | none |  |  | Included | NOT ACTUALLY A CHECK |
+| rune harp weavenest atla | upper platform | none |  | Verified | Included |  |
+| weavenest atla archive inscription | ground floor | none |  | Verified | Included |  |
 
 ### Weavenest Atla Mask Shard (Weave_05b)
 
@@ -1607,23 +1638,30 @@ No check locations defined.
 
 #### Subrooms
 
-No subrooms defined.
+- left exit area
+- starting line
+- mask shard spot
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left |  | [Weavenest Atla Lore (Weave_08)](#weavenest-atla-lore-weave08) | R | none |  |  |  |
+| L | left | left exit area | [Weavenest Atla Lore (Weave_08)](#weavenest-atla-lore-weave08) | R | none |  | Verified |  |
 
 #### Subroom Connections
 
-No subroom connections defined.
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| G1 | gap 1 | left exit area | starting line | spike pogo easy OR run OR dash OR drifter's cloak OR faydown cloak OR cling grip OR clawline OR sharpdart |  | Verified |  |
+| G1 | gap 1 | starting line | left exit area | spike pogo easy OR run OR dash OR drifter's cloak OR faydown cloak OR cling grip OR clawline OR sharpdart |  | Verified |  |
+| LC | lava challenge | starting line | mask shard spot | silk soar  OR ( medium skips enabled AND scuttlebrace )  OR ( ( cling grip OR scuttlebrace ) AND ( run OR dash OR drifter's cloak OR faydown cloak OR clawline OR sharpdart ) ) |  | Verified | the scuttlebrace-only tech allows this to be done without anything else, but I would personally consider it medium because of the timing and control requirements w/ lava damage for mistakes |
+| LC | lava challenge | mask shard spot | starting line | none (falling) |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| weavenest alta mask shard |  | silk soar OR ( cling grip AND ( drifter's cloak OR faydown cloak OR clawline OR sharpdart OR  ) ) |  |  | Included | NEEDS VERIFICATION BY SOMEONE BETTER THAN ME |
+| weavenest alta mask shard | mask shard spot | none |  | Verified | Included |  |
 
 ### Weavenest Atla Snare (Weave_14)
 
@@ -1639,7 +1677,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| F | floor |  | [Weavenest Atla Spool (Weave_11)](#weavenest-atla-spool-weave11) | C | none (falling) |  |  |  |
+| F | floor |  | [Weavenest Atla Spool (Weave_11)](#weavenest-atla-spool-weave11) | C | none (falling) |  | Verified |  |
 
 #### Subroom Connections
 
@@ -1649,7 +1687,7 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| snare setter |  | none |  |  | Included |  |
+| snare setter |  | none |  | Verified | Included |  |
 
 ### Weavenest Atla Spool (Weave_11)
 
@@ -1659,24 +1697,35 @@ No subroom connections defined.
 
 #### Subrooms
 
-No subrooms defined.
+- right exit area
+- mid passage
+- upper left passage
+- spool spot
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right |  | [Weavenest Atla Teleporter (Weave_02)](#weavenest-atla-teleporter-weave02) | ML | none |  |  |  |
-| C | ceiling |  | [Weavenest Atla Snare (Weave_14)](#weavenest-atla-snare-weave14) | F | silk soar OR ( faydown cloak + cling grip ) |  |  |  |
+| R | right | right exit area | [Weavenest Atla Teleporter (Weave_02)](#weavenest-atla-teleporter-weave02) | ML | none |  | Verified |  |
+| C | ceiling | right exit area | [Weavenest Atla Snare (Weave_14)](#weavenest-atla-snare-weave14) | F | silk soar OR ( faydown cloak AND ( cling grip OR scuttlebrace) ) |  | Verified |  |
 
 #### Subroom Connections
 
-No subroom connections defined.
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| SW1 | swim 1 | right exit area | mid passage | swim  OR clawline  OR sharpdart  OR faydown cloak  OR ( ( ledge grab OR cling grip ) AND ( dash OR drifter's cloak ) )  OR ( beast crest AND ( dash OR run OR drifter's cloak ) ) OR ( dash AND ( run OR drifter's cloak ) ) |  | Verified |  |
+| SW1 | swim 1 | mid passage | right exit area | swim OR clawline OR sharpdart OR ( ( ledge grab OR cling grip ) AND ( drifter's cloak OR faydown cloak OR ( dash AND run ) ) ) OR ( beast crest AND dash ) |  | Verified |  |
+| V1 | vertical 1 | mid passage | upper left passage | ledge grab OR faydown cloak OR cling grip OR scuttlebrace |  | Verified |  |
+| V1 | vertical 1 | upper left passage | mid passage | none (falling) |  | Verified |  |
+| F1 | fall 1 | upper left passage | spool spot | none (falling) |  | Verified |  |
+| V2 | vertical 2 | mid passage | spool spot | faydown cloak |  | Verified |  |
+| V2 | vertical 2 | spool spot | mid passage | none (falling) |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| weavenest atla spool fragment |  | none |  |  | Included |  |
+| weavenest atla spool fragment | spool spot | none |  | Verified | Included |  |
 
 ## Wormways
 
@@ -3055,7 +3104,7 @@ No subroom connections defined.
 
 **Game ID:** Dock_12
 
-**Contributors:** herounit
+**Contributors:** herounit & Pyxl
 
 #### Subrooms
 
@@ -3065,7 +3114,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| D | door1 |  | [Deep Docks Diving Bell Interior (Room_Diving_Bell)](#deep-docks-diving-bell-interior-roomdivingbell) | L |  | TODO | Needs verification | DIVING BELL INTO THE ABYSS |
+| D | door1 |  | [Deep Docks Diving Bell Interior (Room_Diving_Bell)](#deep-docks-diving-bell-interior-roomdivingbell) | L | Diving Bell Key |  | Needs verification | DIVING BELL INTO THE ABYSS |
 | L | left1 |  | [Deep Docks Magma Slug Tunnels (Dock_11)](#deep-docks-magma-slug-tunnels-dock11) | R | none |  |  |  |
 
 #### Subroom Connections
@@ -5036,8 +5085,10 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Shell Shard Cache: Shellwood #12 | Top | None |  |  | Included |  |
+| Shell Shard Cache: Shellwood #1 | Top | None |  |  | Included |  |
 | Bench | Bottom | Cling Grip OR ( Dash AND Scuttlebrace ) |  |  | Included |  |
+| Shell Shard Cache: Shellwood #2 | Top | None |  |  | Included |  |
+| Shell Shard Cache: Shellwood #3 | Top | None |  |  | Included |  |
 
 ### Long Pin (Belltown_Room_shellwood)
 
@@ -5133,8 +5184,8 @@ No subroom connections defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | R | right1 | Right Puddle | [Shellwood Lower Left Tall Room (Shellwood_03)](#shellwood-lower-left-tall-room-shellwood03) | UL | None |  |  |  |
-| L | left1 | Left Puddle | [Shellwood Bellshrine (Bellshrine_03)](#shellwood-bellshrine-bellshrine03) | R | Bell: shellwood owned | TODO | Needs verification | Might also need switch from other side, needs testing |
-| BB | door_fastTravelExit | Right Puddle | [Bellway Menu](#bellway-menu) | SW | Bell beast Access |  |  |  |
+| L | left1 | Left Puddle | [Shellwood Bellshrine (Bellshrine_03)](#shellwood-bellshrine-bellshrine03) | R | Bell: shellwood owned |  | Needs verification | Might also need switch from other side, needs testing |
+| BB | door_fastTravelExit | Right Puddle | [Bellway Menu](#bellway-menu) | SW | Bellway: Shellwood owned AND ( Bell Beast Defeated OR Yaml setting to not need that turned on ) |  |  |  |
 
 #### Subroom Connections
 
@@ -5167,10 +5218,10 @@ No subroom connections defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| UR | right1 | Ceiling area | [Shellwood Sister Splinter Bench (Shellwood_01b)](#shellwood-sister-splinter-bench-shellwood01b) | LL |  |  |  |  |
-| LL | left2 | Ground Left | [shellwood Shakra (Shellwood_16)](#shellwood-shakra-shellwood16) | R |  |  |  |  |
-| UL | left3 | Platforms | [Shellwood Greyroot entrance (Shellwood_Witch)](#shellwood-greyroot-entrance-shellwoodwitch) | R |  |  |  |  |
-| LR | right2 | Ground Right | [Shellwood Right Side Big room (Shellwood_01)](#shellwood-right-side-big-room-shellwood01) | LL |  |  |  |  |
+| UR | right1 | Ceiling area | [Shellwood Sister Splinter Bench (Shellwood_01b)](#shellwood-sister-splinter-bench-shellwood01b) | LL | None |  |  |  |
+| LL | left2 | Ground Left | [shellwood Shakra (Shellwood_16)](#shellwood-shakra-shellwood16) | R | None |  |  |  |
+| UL | left3 | Platforms | [Shellwood Greyroot entrance (Shellwood_Witch)](#shellwood-greyroot-entrance-shellwoodwitch) | R | None |  |  |  |
+| LR | right2 | Ground Right | [Shellwood Right Side Big room (Shellwood_01)](#shellwood-right-side-big-room-shellwood01) | LL | NOne |  |  |  |
 
 #### Subroom Connections
 
@@ -5183,7 +5234,7 @@ No subroom connections defined.
 | LL | Left Lake | Ground Centre | Ground Left | ( Enemy Pogo AND Ledge Grab ) OR Dash OR Sprint OR clawline OR Beast Crest OR Faydown Cloak OR Drifters Cloak |  |  |  |
 | LL | Left Lake | Ground Left | Ground Centre | None |  |  |  |
 | LP | Left Platforms | Platforms | Ground Left | None |  |  |  |
-| LP | Left Platforms | Ground Left | Platforms | ( Faydown Cloak AND ( Cling Grip OR ( Scuttle Brace AND Dash ) ) ) Silk Soar OR Enemy Pogo |  |  |  |
+| LP | Left Platforms | Ground Left | Platforms | ( Faydown Cloak AND ( Cling Grip OR ( Scuttle Brace AND Dash ) ) ) OR Silk Soar OR ( Enemy Pogo AND Hard Skips ) |  |  |  |
 | CP | Central Platforms | Platforms | Ground Centre | None |  |  |  |
 | CP | Central Platforms | Ground Centre | Platforms | ( Faydown Cloak AND Ledge Grab ) OR Silk Soar |  |  |  |
 | RP | Right Platforms | Platforms | Ground Right | None |  |  |  |
@@ -5484,13 +5535,13 @@ No subroom connections defined.
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | LA | Lake | Ground Level Left | Ground Level Right | ( Dash AND ( Sprint OR Drifters Cloak ) ) OR Clawline OR Sharpdart OR Swim OR ( Faydown Cloak AND Drifters Cloak ) |  |  |  |
-| LA | Lake | Ground Level Right | Ground Level Left |  |  |  |  |
+| LA | Lake | Ground Level Right | Ground Level Left | ( Dash AND ( Sprint OR Drifters Cloak ) ) OR Clawline OR Sharpdart OR Swim OR ( Faydown Cloak AND Drifters Cloak ) |  |  |  |
 | C1 | Chasm 1 | Ground Level Left | Central Platforms | ( Ledge Grab AND ( Dash OR Drifters Cloak OR Beast Crest ) ) OR Clawline OR Cling Grip OR Silk Soar OR Sharpdart OR Faydown Cloak |  |  |  |
 | C1 | Chasm 1 | Central Platforms | Ground Level Left | None |  |  |  |
 | C2 | Chasm 2 | Central Platforms | Right Platforms | Ledge Grab OR Faydown Cloak OR Silk Soar OR Cling grip OR Dash OR Scuttlebrace OR Clawline  OR Sprint |  |  |  |
 | C2 | Chasm 2 | Right Platforms | Central Platforms | None |  |  |  |
 | C3 | Chasm 3 | Right Platforms | Ground Level Right | None |  |  |  |
-| C3 | Chasm 3 | Ground Level Right | Right Platforms | Any movement abilty OR enemy pogo Silk Soar OR ( Cling Grip AND Faydown Cloak ) |  |  |  |
+| C3 | Chasm 3 | Ground Level Right | Right Platforms | Silk Soar OR ( Cling Grip AND Faydown Cloak  AND ( Swim OR ( Easy Skips AND ( Sprint OR Dash ) ) OR Drifters Cloak OR Clawline OR Sharpdart ) ) |  |  |  |
 
 #### Check Locations
 
@@ -5498,9 +5549,9 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- |
 | Collectable IFrayed Rosary String: Shellwoodtem Pickup | Central Platforms | None |  |  | Included |  |
 | Pollip Heart #1 | Right Platforms | Cling Grip OR Silk Soar OR Scuttlebrace |  |  | Included |  |
-| Shell shard Cache: Shellwood #? forgot the id 1 | Right Platforms | None | TODO |  | Included |  |
-| Shell shard Cache: Shellwood #? forgot the id 2 | Right Platforms | None | TODO |  | Included |  |
-| Shell shard Cache: Shellwood #? forgot the id 3 | Right Platforms | None | TODO |  | Included |  |
+| Shell shard Cache: Shellwood #4 | Right Platforms | None |  |  | Included |  |
+| Shell shard Cache: Shellwood #5 | Right Platforms | None |  |  | Included |  |
+| Shell shard Cache: Shellwood #6 | Right Platforms | None |  |  | Included |  |
 
 ### Shellwood Sister Splinter Bench (Shellwood_01b)
 
@@ -5535,7 +5586,7 @@ No subroom connections defined.
 | AD | Arena Drop | Arena | Above Arena | Silk Soar |  |  |  |
 | AE | Arena Exit | Arena | Bench Toll | Ledge Grab OR ( Dash AND Scuttlebrace ) OR Clawline OR Cling Grip OR Faydown Cloak OR Silk Soar |  |  |  |
 | AE | Arena Exit | Bench Toll | Arena | None |  |  |  |
-| CL1 | Climb 1 | Bench Toll | Upper Hidden | ( Cling Grip AND ( Clawline OR Dash OR Sharpdart OR Drifters Cloak OR Faydown Cloak OR Beast Crest ) OR Silk Soar |  |  |  |
+| CL1 | Climb 1 | Bench Toll | Upper Hidden | ( Cling Grip AND ( Clawline OR Dash OR Sharpdart OR Drifters Cloak OR Faydown Cloak OR Beast Crest ) ) OR Silk Soar |  |  |  |
 | CL1 | Climb 1 | Upper Hidden | Bench Toll | None |  |  |  |
 | EL | Elevator | Bench Toll | Elevator Platform | Elevator activated |  |  |  |
 | EL | Elevator | Elevator Platform | Bench Toll | Elevator activated |  |  |  |
@@ -5581,7 +5632,7 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | LW | Left Wall | Left Side | Central | Cling Grip OR Faydown Cloak OR Silk Soar OR ( Dash AND Scuttlebrace ) |  |  |  |
 | LW | Left Wall | Central | Left Side | Cling Grip OR Faydown Cloak OR Silk Soar OR ( Dash AND Scuttlebrace ) |  |  |  |
-| RW | Right Wall | Central | Right Side | ( Swim OR Drifters Cloak AND Easy Skip ) AND ( Cling Grip OR ( Dash AND Scuttlebrace ) |  |  |  |
+| RW | Right Wall | Central | Right Side | ( Swim OR ( Drifters Cloak  AND Easy Skips ) ) AND ( Cling Grip OR Scuttlebrace ) |  |  |  |
 | RW | Right Wall | Right Side | Central | Cling Grip OR Faydown Cloak OR Silk Soar OR ( Dash AND Scuttlebrace ) |  |  |  |
 | HS | Hidden Shaft | Left Side | Upper Area | Break wall from upper Area AND Silk Soar |  |  |  |
 | HS | Hidden Shaft | Upper Area | Left Side | Break wall from upper Area |  |  |  |
@@ -5614,7 +5665,7 @@ No subroom connections defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| UL | left1 | Upper Area | [Sister Splinter (Shellwood_18)](#sister-splinter-shellwood18) | R | (ANY Crest - Wanderer AND Ledge Grab } OR Clawline OR Dash OR Drifters Cloak OR Faydown Cloak OR Sharpdart |  |  |  |
+| UL | left1 | Upper Area | [Sister Splinter (Shellwood_18)](#sister-splinter-shellwood18) | R | ((Any non-Wanderer crest) AND Ledge Grab) OR Clawline OR Dash OR Drifter's Cloak OR Faydown Cloak OR Sharpdart |  |  |  |
 | R | right1 | Bell Ledge | [Upper Bellhart (Belltown_04)](#upper-bellhart-belltown04) | UL | None |  |  |  |
 | LL | left2 | Left Pond | [Shellwood Sister Splinter Bench (Shellwood_01b)](#shellwood-sister-splinter-bench-shellwood01b) | UR | None |  |  |  |
 
@@ -5624,8 +5675,8 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | BL | Bell Ledge | Bell Ledge | Upper Area | Cling Grip OR Faydown Cloak OR Silk soar OR ( Dash AND Scuttlebrace ) |  |  |  |
 | BL | Bell Ledge | Upper Area | Bell Ledge | None |  |  |  |
-| PO | Pond | Left Pond | Right Pond | Swim OR Clawline OR ( Drifters Cloak AND ( Faydown Cloak OR ( Sprint AND Dash ) OR ( Sharpdart AND Ledge grab ) ) OR ( Faydown Cloak AND Sharpdart AND ( Dash OR Beast Crest ) |  |  |  |
-| PO | Pond | Right Pond | Left Pond | Swim OR ( Clawline AND ( Ledge Grab OR Dash OR Sharpdart OR beast Crest OR Faydown Cloak ) ) OR ( Sprint AND ( Sharpdart AND Dash ) OR ( Sharpdart AND Beast Crest ) OR ( Faydown Cloak AND Drifters Cloak ) OR ( Sharpdart AND Drifters Cloak) OR ( Faydown Cloak AND Sharpdart ) ) |  |  |  |
+| PO | Pond | Left Pond | Right Pond | Swim OR Clawline OR (Drifter's Cloak AND (Faydown Cloak OR (Sprint AND Dash) OR (Sharpdart AND Ledge Grab))) OR (Faydown Cloak AND Sharpdart AND (Dash OR Beast Crest)) |  |  |  |
+| PO | Pond | Right Pond | Left Pond | Swim OR ( Clawline AND ( Ledge Grab OR Dash OR Sharpdart OR beast Crest OR Faydown Cloak ) ) OR ( Sprint AND ( ( Sharpdart AND Dash ) OR ( Sharpdart AND Beast Crest ) OR ( Faydown Cloak AND Drifters Cloak ) OR ( Sharpdart AND Drifters Cloak) OR ( Faydown Cloak AND Sharpdart ) ) ) |  |  |  |
 | PL | Platforms | Upper Area | Right Pond | None |  |  |  |
 | PL | Platforms | Right Pond | Upper Area | Ledge Grab OR Dash OR Clawline OR Faydown Cloak OR Cling Grip OR Silk soar |  |  |  |
 
@@ -6517,9 +6568,9 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | Right |  | [Blasted Steps Wide Long Vertical (Coral_03)](#blasted-steps-wide-long-vertical-coral03) | TL | Nothing |  |  |  |
-| BB | Bell Beast |  | [Bellway Menu](#bellway-menu) | BS | Bell Beast Available AND Blasted Steps Bellway Unlocked |  |  |  |
-| L | Left |  | [Blasted Steps Thin Long Vertical (Coral_35)](#blasted-steps-thin-long-vertical-coral35) | R | Nothing |  |  |  |
+| R | Right |  | [Blasted Steps Wide Long Vertical (Coral_03)](#blasted-steps-wide-long-vertical-coral03) | TL | Nothing |  | Verified |  |
+| BB | Bell Beast |  | [Bellway Menu](#bellway-menu) | BS | Bell Beast Available AND Blasted Steps Bellway Unlocked |  | Verified |  |
+| L | Left |  | [Blasted Steps Thin Long Vertical (Coral_35)](#blasted-steps-thin-long-vertical-coral35) | R | Nothing |  | Verified |  |
 
 #### Subroom Connections
 
@@ -6527,7 +6578,9 @@ No subroom connections defined.
 
 #### Check Locations
 
-No check locations defined.
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Bellway: Blasted Steps |  | Nothing |  | Verified | Included |  |
 
 ### Blasted Steps Grindle (Coral_42)
 
@@ -6544,25 +6597,32 @@ No check locations defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | Right | Lower Half | [Blasted Steps Thin Long Vertical (Coral_35)](#blasted-steps-thin-long-vertical-coral35) | ML | Nothing |  |  |  |
+| R | Right | Lower Half | [Blasted Steps Thin Long Vertical (Coral_35)](#blasted-steps-thin-long-vertical-coral35) | ML | Nothing |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| MO | Middle Opening | Lower Half | Upper Half | Faydown AND (Cling Grip OR (Swift Step and Scuttlebrace)) OR Silk Soar |  |  |  |
-| MO | Middle Opening | Upper Half | Lower Half | Nothing (Falling) |  |  |  |
+| MO | Middle Opening | Lower Half | Upper Half | Faydown AND (Cling Grip OR (Swift Step and Scuttlebrace)) OR Silk Soar |  | Verified |  |
+| MO | Middle Opening | Upper Half | Lower Half | Nothing (Falling) |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Thief's Mark | Upper Half | Nothing |  |  | Included |  |
-| Snitch Pick | Upper Half | Nothing |  |  | Included |  |
-| Reserve Bind | Upper Half | Nothing |  |  | Included |  |
-| Relic: Psalm Cylinder (Grindle) | Upper Half | Nothing |  |  | Included |  |
-| Crafting Kit: Grindle | Upper Half | Nothing |  |  | Included |  |
-| Spool Fragment: Grindle (Blasted Steps) | Upper Half | Nothing |  |  | Included |  |
+| Thief's Mark | Upper Half | Nothing |  | Verified | Included |  |
+| Snitch Pick | Upper Half | Clawline Acquired |  | Verified | Included | Item not Location |
+| Reserve Bind | Upper Half | Nothing |  | Verified | Included |  |
+| Relic: Psalm Cylinder (Grindle) | Upper Half | Nothing |  | Verified | Included |  |
+| Crafting Kit: Grindle | Upper Half | Nothing |  | Verified | Included |  |
+| Spool Fragment: Grindle (Blasted Steps) | Upper Half | Nothing |  | Verified | Included |  |
+| Pebb (Bone Bottom) / Grindle (Act 3) - Magnetite Brooch | Upper Half | Act 3 AND IF NOT Acquired from Pebb |  | Verified | Included |  |
+| Pebb (Bone Bottom) / Grindle (Act 3) - Mask Shard | Upper Half | Act 3 AND IF NOT Acquired from Pebb |  | Verified | Included |  |
+| Pebb (Bone Bottom) / Grindle (Act 3) - Craftmetal | Upper Half | Act 3 AND IF NOT Acquired from Pebb |  | Verified | Included |  |
+| Pebb (Bone Bottom) / Grindle (Act 3) - Simple Key | Upper Half | Act 3 AND IF NOT Acquired from Pebb |  | Verified | Included |  |
+| Mort (Pilgrim's Rest) / Grindle (Act 3) - Tool Pouch | Upper Half | Act 3 AND IF NOT Acquired from Mort |  | Verified | Included |  |
+| Mort (Pilgrim's Rest) / Grindle (Act 3) - Memory Locket | Upper Half | Act 3 AND IF NOT Acquired from Mort |  | Verified | Included |  |
+| Lumble (Blasted Steps) / Grindle (Act 3) - Magnetite Dice | Upper Half | Act 3 AND IF NOT Acquired from Lumble |  | Verified | Included |  |
 
 ### Blasted Steps Horizontal Room with Two Sand Pits (Coral_43)
 
@@ -6580,17 +6640,17 @@ No check locations defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | Right | Right of Sand Pits | [Blasted Steps Thin Long Vertical (Coral_35)](#blasted-steps-thin-long-vertical-coral35) | BL | Nothing |  |  |  |
-| L | Left | Left of Sand Pits | [Lumble the Lucky (Coral_33)](#lumble-the-lucky-coral33) | R | Nothing |  |  |  |
+| R | Right | Right of Sand Pits | [Blasted Steps Thin Long Vertical (Coral_35)](#blasted-steps-thin-long-vertical-coral35) | BL | Nothing |  | Verified |  |
+| L | Left | Left of Sand Pits | [Lumble the Lucky (Coral_33)](#lumble-the-lucky-coral33) | R | Nothing |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| SPR | Sand Pit to Right | Sand Pits | Right of Sand Pits | Swift Step OR Faydown OR Clawline OR Drifter's Cloak OR Beast Crest OR Sharpdart OR (Flea Brew AND (Flea Brew Stall OR Crest Pogo)) |  |  |  |
-| SPR | Sand Pit to Right | Right of Sand Pits | Sand Pits | Nothing |  |  |  |
-| SPL | Sand Pit to Left | Left of Sand Pits | Sand Pits | Swift Step OR Faydown OR Clawline OR Drifter's Cloak OR Beast Crest OR Sharpdart OR (Flea Brew AND (Flea Brew Stall OR Crest Pogo)) |  |  |  |
-| SPL | Sand Pit to Left | Sand Pits | Left of Sand Pits | Nothing |  |  |  |
+| SPR | Sand Pit to Right | Sand Pits | Right of Sand Pits | Swift Step OR Faydown OR Clawline OR Drifter's Cloak OR Sharpdart OR (Flea Brew AND (Easy Flea Brew Stall OR Easy Crest Pogo (Hunter, Reaper, Beast, Architect, Shaman)) |  | Verified |  |
+| SPR | Sand Pit to Right | Right of Sand Pits | Sand Pits | Swift Step OR Faydown OR Clawline OR Drifter's Cloak OR Sharpdart OR (Flea Brew AND (Easy Flea Brew Stall OR Easy Crest Pogo (Hunter, Reaper, Beast, Architect, Shaman)) |  | Verified |  |
+| SPL | Sand Pit to Left | Left of Sand Pits | Sand Pits | Nothing |  | Verified |  |
+| SPL | Sand Pit to Left | Sand Pits | Left of Sand Pits | Nothing |  | Verified |  |
 
 #### Check Locations
 
@@ -6612,31 +6672,31 @@ No check locations defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| B1 | Bottom | Lace Bridge | [The Big Fall (Aspid_01)](#the-big-fall-aspid01) | T1 | Nothing (Falling) |  |  |  |
-| B2 | bot2 | Lace Bridge | [The Big Fall (Aspid_01)](#the-big-fall-aspid01) | T2 | Nothing (Falling) |  |  |  |
-| B3 | bot3 | Lace Bridge | [The Big Fall (Aspid_01)](#the-big-fall-aspid01) | T3 | Nothing (Falling) |  |  |  |
-| B4 | bot4 | Lace Bridge | [The Big Fall (Aspid_01)](#the-big-fall-aspid01) | T4 | Nothing (Falling) |  |  |  |
-| B5 | bot5 | Lace Bridge | [The Big Fall (Aspid_01)](#the-big-fall-aspid01) | T5 | Nothing (Falling) |  |  |  |
-| B6 | bot6 | Lace Bridge | [The Big Fall (Aspid_01)](#the-big-fall-aspid01) | T6 | Nothing (Falling) |  |  |  |
-| B7 | bot7 | Lace Bridge | [The Big Fall (Aspid_01)](#the-big-fall-aspid01) | T7 | Nothing (Falling) |  |  |  |
-| R | Right | Lace Bridge | [Shellwood Connection To Blasted steps (Shellwood_08)](#shellwood-connection-to-blasted-steps-shellwood08) | L | Nothing |  |  |  |
-| TR3 | Top Right (3) | Lace Bridge | [Blasted Steps Wide Long Vertical (Coral_03)](#blasted-steps-wide-long-vertical-coral03) | B3 | Silk Soar |  |  |  |
-| TR4 | Top Right (4) | Lace Bridge | [Blasted Steps Wide Long Vertical (Coral_03)](#blasted-steps-wide-long-vertical-coral03) | B4 | Silk Soar |  |  |  |
-| TR5 | Top Right (5) | Lace Bridge | [Blasted Steps Wide Long Vertical (Coral_03)](#blasted-steps-wide-long-vertical-coral03) | B5 | Silk Soar |  |  |  |
-| TR6 | Top Right (6) | Lace Bridge | [Blasted Steps Wide Long Vertical (Coral_03)](#blasted-steps-wide-long-vertical-coral03) | B6 | Silk Soar |  |  |  |
-| TR7 | Top Right (7) | Lace Bridge | [Blasted Steps Wide Long Vertical (Coral_03)](#blasted-steps-wide-long-vertical-coral03) | B7 | Silk Soar |  |  |  |
-| TR8 | Top Right (8) | Lace Bridge | [Blasted Steps Wide Long Vertical (Coral_03)](#blasted-steps-wide-long-vertical-coral03) | B8 | Silk Soar |  |  |  |
-| TM | Top Middle | Before Map Edge | [Blasted Steps Toll Bench Bottom (Coral_02)](#blasted-steps-toll-bench-bottom-coral02) | BR | (Cling Grip AND (Spike Pogo OR Swift Step OR Faydown OR Crest Pogo OR Drifter's Cloak OR Flea Brew OR Precise Movement OR Sharpdart OR Clawline OR Needle Strike OR Heal Stall) OR (Swift Step AND Scuttlebrace) |  |  |  |
-| TL | Top Left | Map Edge | [Blasted Steps Mask Shard (Coral_19b)](#blasted-steps-mask-shard-coral19b) | B | Silk Soar OR (Swift Step AND Faydown AND Clawline AND Precise Movement) |  |  |  |
+| B1 | Bottom | Lace Bridge | [The Big Fall (Aspid_01)](#the-big-fall-aspid01) | T1 | Nothing (Falling) |  | Verified |  |
+| B2 | bot2 | Lace Bridge | [The Big Fall (Aspid_01)](#the-big-fall-aspid01) | T2 | Nothing (Falling) |  | Verified |  |
+| B3 | bot3 | Lace Bridge | [The Big Fall (Aspid_01)](#the-big-fall-aspid01) | T3 | Nothing (Falling) |  | Verified |  |
+| B4 | bot4 | Lace Bridge | [The Big Fall (Aspid_01)](#the-big-fall-aspid01) | T4 | Nothing (Falling) |  | Verified |  |
+| B5 | bot5 | Lace Bridge | [The Big Fall (Aspid_01)](#the-big-fall-aspid01) | T5 | Nothing (Falling) |  | Verified |  |
+| B6 | bot6 | Lace Bridge | [The Big Fall (Aspid_01)](#the-big-fall-aspid01) | T6 | Nothing (Falling) |  | Verified |  |
+| B7 | bot7 | Lace Bridge | [The Big Fall (Aspid_01)](#the-big-fall-aspid01) | T7 | Nothing (Falling) |  | Verified |  |
+| R | Right | Lace Bridge | [Shellwood Connection To Blasted steps (Shellwood_08)](#shellwood-connection-to-blasted-steps-shellwood08) | L | Nothing |  | Verified |  |
+| TR3 | Top Right (3) | Lace Bridge | [Blasted Steps Wide Long Vertical (Coral_03)](#blasted-steps-wide-long-vertical-coral03) | B3 | Silk Soar |  | Verified |  |
+| TR4 | Top Right (4) | Lace Bridge | [Blasted Steps Wide Long Vertical (Coral_03)](#blasted-steps-wide-long-vertical-coral03) | B4 | Silk Soar |  | Verified |  |
+| TR5 | Top Right (5) | Lace Bridge | [Blasted Steps Wide Long Vertical (Coral_03)](#blasted-steps-wide-long-vertical-coral03) | B5 | Silk Soar |  | Verified |  |
+| TR6 | Top Right (6) | Lace Bridge | [Blasted Steps Wide Long Vertical (Coral_03)](#blasted-steps-wide-long-vertical-coral03) | B6 | Silk Soar |  | Verified |  |
+| TR7 | Top Right (7) | Lace Bridge | [Blasted Steps Wide Long Vertical (Coral_03)](#blasted-steps-wide-long-vertical-coral03) | B7 | Silk Soar |  | Verified |  |
+| TR8 | Top Right (8) | Lace Bridge | [Blasted Steps Wide Long Vertical (Coral_03)](#blasted-steps-wide-long-vertical-coral03) | B8 | Silk Soar |  | Verified |  |
+| TM | Top Middle | Before Map Edge | [Blasted Steps Toll Bench Bottom (Coral_02)](#blasted-steps-toll-bench-bottom-coral02) | BR | (Cling Grip AND (Spike Pogo OR Swift Step OR Faydown OR Easy Crest Pogo OR Drifter's Cloak OR Flea Brew OR Easy Skip OR Sharpdart OR Clawline OR Needle Strike OR Easy Heal Stall)) OR (Swift Step AND Scuttlebrace) |  | Verified |  |
+| TL | Top Left | Map Edge | [Blasted Steps Mask Shard (Coral_19b)](#blasted-steps-mask-shard-coral19b) | B | Silk Soar OR (Swift Step AND Faydown AND Clawline AND Easy Skip) |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| MEB | Map Edge to Before | Map Edge | Before Map Edge | Nothing |  |  |  |
-| MEB | Map Edge to Before | Before Map Edge | Map Edge | Nothing |  |  |  |
-| BLB | Before to Lace Bridge | Before Map Edge | Lace Bridge | Nothing |  |  |  |
-| BLB | Before to Lace Bridge | Lace Bridge | Before Map Edge | Nothing |  |  |  |
+| MEB | Map Edge to Before | Map Edge | Before Map Edge | Nothing |  | Verified |  |
+| MEB | Map Edge to Before | Before Map Edge | Map Edge | Nothing |  | Verified |  |
+| BLB | Before to Lace Bridge | Before Map Edge | Lace Bridge | Nothing |  | Verified |  |
+| BLB | Before to Lace Bridge | Lace Bridge | Before Map Edge | Nothing |  | Verified |  |
 
 #### Check Locations
 
@@ -6656,7 +6716,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| B | Bottom |  | [Blasted Steps Map Edge (Coral_19)](#blasted-steps-map-edge-coral19) | TL | Nothing |  |  |  |
+| B | Bottom |  | [Blasted Steps Map Edge (Coral_19)](#blasted-steps-map-edge-coral19) | TL | Nothing |  | Verified |  |
 
 #### Subroom Connections
 
@@ -6666,7 +6726,7 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Mask Shard: Blasted Steps |  | (Swift Step AND Scuttlebrace AND Faydown) OR (Cling Grip AND Spike Pogos AND (Ledge Grab OR Hazard Respawn)) |  |  | Included |  |
+| Mask Shard: Blasted Steps |  | (Swift Step AND Scuttlebrace AND Faydown) OR (Cling Grip AND Spike Pogos AND (Ledge Grab OR Easy Hazard Respawn)) |  | Verified | Included |  |
 
 ### Blasted Steps Shakra Room (Coral_12)
 
@@ -6688,31 +6748,31 @@ No subroom connections defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| BL | Bottom Left | Bottom Third (Left) | [Blasted Steps Wide Long Vertical (Coral_03)](#blasted-steps-wide-long-vertical-coral03) | BR | Nothing |  |  |  |
-| R | Right | Middle Third (Entrance) | [Blasted Steps Steel Soul (Coral_37)](#blasted-steps-steel-soul-coral37) | L | Nothing |  |  |  |
-| TL | Top Left | Top Third (Entrance) | [Blasted Steps Wide Long Vertical (Coral_03)](#blasted-steps-wide-long-vertical-coral03) | MR | Nothing |  |  |  |
+| BL | Bottom Left | Bottom Third (Left) | [Blasted Steps Wide Long Vertical (Coral_03)](#blasted-steps-wide-long-vertical-coral03) | BR | Nothing |  | Verified |  |
+| R | Right | Middle Third (Entrance) | [Blasted Steps Steel Soul (Coral_37)](#blasted-steps-steel-soul-coral37) | L | Nothing |  | Verified |  |
+| TL | Top Left | Top Third (Entrance) | [Blasted Steps Wide Long Vertical (Coral_03)](#blasted-steps-wide-long-vertical-coral03) | MR | Nothing |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| BLR | Bottom Third Left to Right | Bottom Third (Left) | Bottom Third (Right) | Swift Step OR Faydown OR Clawline OR Flea Brew OR Sharpdart |  |  |  |
-| BLR | Bottom Third Left to Right | Bottom Third (Right) | Bottom Third (Left) | Swift Step OR Faydown OR Clawline OR Flea Brew OR Sharpdart |  |  |  |
-| BMB | Bottom to Middle Bottom | Bottom Third (Right) | Middle Third (Bottom) | ((Swift Step OR Faydown OR Clawline OR Proficient Beast OR Sharpdart) AND Cling Grip) OR (Swift Step AND Scuttlebrace AND (Enemy Pogo OR Flea Brew OR Precise Movement)) OR Silk Soar |  |  |  |
-| BMB | Bottom to Middle Bottom | Middle Third (Bottom) | Bottom Third (Right) | Nothing (Falling) |  |  |  |
-| MBT | Middle Bottom to Middle Top | Middle Third (Bottom) | Middle Third (Top) | ((Swift Step OR Faydown OR Clawline OR Proficient Beast OR Sharpdart) AND Cling Grip) OR (Swift Step AND Scuttlebrace AND (Enemy Pogo OR Flea Brew OR Precise Movement)) OR Silk Soar |  |  |  |
-| MBT | Middle Bottom to Middle Top | Middle Third (Top) | Middle Third (Bottom) | Nothing (Falling) |  |  |  |
-| MTE | Middle Top to Middle Entrance | Middle Third (Top) | Middle Third (Entrance) | ((Swift Step OR Faydown OR Clawline OR Proficient Beast OR Sharpdart) AND Cling Grip) OR (Swift Step AND Scuttlebrace AND (Enemy Pogo OR Flea Brew OR Precise Movement)) OR Silk Soar |  |  |  |
-| MTE | Middle Top to Middle Entrance | Middle Third (Entrance) | Middle Third (Top) | Swift Step OR Faydown OR Clawline OR Flea Brew OR Sharpdart |  |  |  |
-| MET | Middle Entrance to Top | Middle Third (Entrance) | Middle Third (Top) | ((Swift Step OR Faydown OR Clawline OR Proficient Beast OR Sharpdart) AND Cling Grip) OR (Swift Step AND Scuttlebrace AND (Enemy Pogo OR Flea Brew OR Precise Movement)) OR Silk Soar |  |  |  |
-| MET | Middle Entrance to Top | Middle Third (Top) | Middle Third (Entrance) | Nothing (Falling) |  |  |  |
-| TTE | Top to Top Entrance | Top Third | Top Third (Entrance) | ((Swift Step OR Faydown OR Clawline OR Proficient Beast OR Sharpdart) AND Cling Grip) OR (Swift Step AND Scuttlebrace AND (Enemy Pogo OR Flea Brew OR Precise Movement)) OR Silk Soar |  |  |  |
+| BLR | Bottom Third Left to Right | Bottom Third (Left) | Bottom Third (Right) | Swift Step OR Faydown OR Clawline OR Flea Brew OR Sharpdart |  | Verified |  |
+| BLR | Bottom Third Left to Right | Bottom Third (Right) | Bottom Third (Left) | Swift Step OR Faydown OR Clawline OR Flea Brew OR Sharpdart |  | Verified |  |
+| BMB | Bottom to Middle Bottom | Bottom Third (Right) | Middle Third (Bottom) | ((Swift Step OR Faydown OR Clawline OR (Easy Beast Crest Pogo) OR Sharpdart) AND Cling Grip) OR (Swift Step AND Scuttlebrace AND (Easy Enemy Pogo OR Flea Brew OR Easy Skip)) OR Silk Soar |  | Verified |  |
+| BMB | Bottom to Middle Bottom | Middle Third (Bottom) | Bottom Third (Right) | Nothing (Falling) |  | Verified |  |
+| MBT | Middle Bottom to Middle Top | Middle Third (Bottom) | Middle Third (Top) | ((Swift Step OR Faydown OR Clawline OR (Easy Beast Crest Pogo) OR Sharpdart) AND Cling Grip) OR (Swift Step AND Scuttlebrace AND (Easy Enemy Pogo OR Flea Brew OR Easy Skip)) OR Silk Soar |  | Verified |  |
+| MBT | Middle Bottom to Middle Top | Middle Third (Top) | Middle Third (Bottom) | Nothing (Falling) |  | Verified |  |
+| MTE | Middle Top to Middle Entrance | Middle Third (Top) | Middle Third (Entrance) | ((Swift Step OR Faydown OR Clawline OR (Easy Beast Crest Pogo) OR Sharpdart) AND Cling Grip) OR (Swift Step AND Scuttlebrace AND (Easy Enemy Pogo OR Flea Brew OR Easy Skip)) OR Silk Soar |  | Verified |  |
+| MTE | Middle Top to Middle Entrance | Middle Third (Entrance) | Middle Third (Top) | Swift Step OR Faydown OR Clawline OR Flea Brew OR Sharpdart |  | Verified |  |
+| MET | Middle Entrance to Top | Middle Third (Entrance) | Top Third | ((Swift Step OR Faydown OR Clawline OR (Easy Beast Crest Pogo) OR Sharpdart) AND Cling Grip) OR (Swift Step AND Scuttlebrace AND (Easy Enemy Pogo OR Flea Brew OR Easy Skip)) OR Silk Soar |  | Verified |  |
+| MET | Middle Entrance to Top | Top Third | Middle Third (Entrance) | Nothing (Falling) |  | Verified |  |
+| TTE | Top to Top Entrance | Top Third | Top Third (Entrance) | ((Swift Step OR Faydown OR Clawline OR (Easy Beast Crest Pogo) OR Sharpdart) AND Cling Grip) OR (Swift Step AND Scuttlebrace AND (Easy Enemy Pogo OR Flea Brew OR Easy Skip)) OR Silk Soar |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Map Purchase: Blasted Steps | Bottom Third (Right) | Swift Step OR Faydown OR Clawline OR Flea Brew OR Sharpdart |  |  | Included |  |
+| Map Purchase: Blasted Steps | Bottom Third (Right) | Swift Step OR Faydown OR Clawline OR Flea Brew OR Sharpdart AND Act 1 |  | Verified | Included | This can be purchased at Bellhart if Shakra has moved. |
 
 ### Blasted Steps Shell / Beast Shard (Coral_36)
 
@@ -6728,7 +6788,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | Left |  | [Blasted Steps Thin Long Vertical (Coral_35)](#blasted-steps-thin-long-vertical-coral35) | MR | Nothing |  |  |  |
+| L | Left |  | [Blasted Steps Thin Long Vertical (Coral_35)](#blasted-steps-thin-long-vertical-coral35) | MR | Nothing |  | Verified |  |
 
 #### Subroom Connections
 
@@ -6738,9 +6798,10 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Beast Shard: Blasted Steps |  | (Swift Step AND Scuttlebrace AND Faydown) OR Cling Grip OR Silk Soar |  |  | Included |  |
-| Shell Shard Cache: Blasted Steps #4 |  | (Swift Step AND Scuttlebrace AND Faydown) OR Cling Grip OR Silk Soar |  |  | Included |  |
-| Shell Shard Cache: Blasted Steps #5 |  | (Swift Step AND Scuttlebrace AND Faydown) OR Cling Grip OR Silk Soar |  |  | Included |  |
+| Beast Shard: Blasted Steps |  | (Swift Step AND Scuttlebrace AND Faydown) OR Cling Grip OR Silk Soar |  | Verified | Included |  |
+| Shell Shard Cache: Blasted Steps #4 |  | (Swift Step AND Scuttlebrace AND Faydown) OR Cling Grip OR Silk Soar |  | Verified | Included |  |
+| Shell Shard Cache: Blasted Steps #5 |  | (Swift Step AND Scuttlebrace AND Faydown) OR Cling Grip OR Silk Soar |  | Verified | Included |  |
+| Blasted Steps - Judge Nursery Record |  | Nothing |  | Verified | Included |  |
 
 ### Blasted Steps Steel Soul (Coral_37)
 
@@ -6756,7 +6817,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | Left |  | [Blasted Steps Shakra Room (Coral_12)](#blasted-steps-shakra-room-coral12) | R | Nothing |  |  |  |
+| L | Left |  | [Blasted Steps Shakra Room (Coral_12)](#blasted-steps-shakra-room-coral12) | R | Nothing |  | Verified |  |
 
 #### Subroom Connections
 
@@ -6766,8 +6827,8 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Silkeater: Blasted Steps |  | Nothing |  |  | Included |  |
-| Wish: A Vassal Lost |  | Break Wall |  |  | Included | Steel Soul required |
+| Silkeater: Blasted Steps |  | Nothing |  | Verified | Included |  |
+| Wish: A Vassal Lost |  | Steel Soul Active |  | Verified | Included |  |
 
 ### Blasted Steps Thin Long Vertical (Coral_35)
 
@@ -6788,32 +6849,32 @@ No subroom connections defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| BL | Bottom Left | Bottom Third (Lower Half) | [Blasted Steps Horizontal Room with Two Sand Pits (Coral_43)](#blasted-steps-horizontal-room-with-two-sand-pits-coral43) | R | Nothing |  |  |  |
-| R | Right | Bottom Third (Upper Half) | [Blasted Steps Bellway (Bellway_08)](#blasted-steps-bellway-bellway08) | L | Nothing |  |  |  |
-| ML | Middle Left | Middle Third (Lower Half) | [Blasted Steps Grindle (Coral_42)](#blasted-steps-grindle-coral42) | R | Nothing |  |  |  |
-| MR | Middle Right | Middle Third (Upper Half) | [Blasted Steps Shell / Beast Shard (Coral_36)](#blasted-steps-shell-beast-shard-coral36) | L | Nothing |  |  |  |
-| T | Top | Top Third (Upper Half) | [Sands of Karak Tall Centre Room (Coral_35b)](#sands-of-karak-tall-centre-room-coral35b) | F | Break Wall from Coral_35b |  |  |  |
+| BL | Bottom Left | Bottom Third (Lower Half) | [Blasted Steps Horizontal Room with Two Sand Pits (Coral_43)](#blasted-steps-horizontal-room-with-two-sand-pits-coral43) | R | Nothing |  | Verified |  |
+| R | Right | Bottom Third (Upper Half) | [Blasted Steps Bellway (Bellway_08)](#blasted-steps-bellway-bellway08) | L | Nothing |  | Verified |  |
+| ML | Middle Left | Middle Third (Lower Half) | [Blasted Steps Grindle (Coral_42)](#blasted-steps-grindle-coral42) | R | Nothing |  | Verified |  |
+| MR | Middle Right | Middle Third (Upper Half) | [Blasted Steps Shell / Beast Shard (Coral_36)](#blasted-steps-shell-beast-shard-coral36) | L | Break Wall from Coral_35 |  | Verified |  |
+| T | Top | Top Third (Upper Half) | [Sands of Karak Tall Centre Room (Coral_35b)](#sands-of-karak-tall-centre-room-coral35b) | F | Break Wall from Coral_35b |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| BLU | Bottom Lower to Upper | Bottom Third (Lower Half) | Bottom Third (Upper Half) | (Cling Grip OR (Scuttlebrace AND Swift Step) OR (Silk Soar and Ledge Grab) |  |  |  |
-| BLU | Bottom Lower to Upper | Bottom Third (Upper Half) | Bottom Third (Lower Half) | Nothing (Falling) |  |  |  |
-| BML | Bottom to Middle Lower | Bottom Third (Upper Half) | Middle Third (Lower Half) | (Cling Grip OR (Scuttlebrace AND Swift Step AND (Clawline OR Faydown OR Flea Brew Stall OR Sharpdart)) OR Silk Soar) |  |  |  |
-| BML | Bottom to Middle Lower | Middle Third (Lower Half) | Bottom Third (Upper Half) | Nothing (Falling) |  |  |  |
-| MLU | Middle Lower to Upper | Middle Third (Lower Half) | Middle Third (Upper Half) | (Cling Grip OR (Scuttlebrace AND Swift Step AND (Faydown OR Flea Brew Stall) OR Silk Soar) AND Break Wall |  |  |  |
-| MLU | Middle Lower to Upper | Middle Third (Upper Half) | Middle Third (Lower Half) | Nothing (Falling) |  |  |  |
-| MTL | Middle to Top Lower | Middle Third (Upper Half) | Top Third (Lower Half) | (Cling Grip OR (Scuttlebrace AND Swift Step AND (Faydown OR Flea Brew Stall) OR Silk Soar) AND Break Wall from Coral_35b |  |  |  |
-| MTL | Middle to Top Lower | Top Third (Lower Half) | Middle Third (Upper Half) | Nothing (Falling) |  |  |  |
-| TLU | Top Lower to Upper | Top Third (Lower Half) | Top Third (Upper Half) | Nothing (Jump) |  |  |  |
-| TLU | Top Lower to Upper | Top Third (Upper Half) | Top Third (Lower Half) | Nothing (Fall) |  |  |  |
+| BLU | Bottom Lower to Upper | Bottom Third (Lower Half) | Bottom Third (Upper Half) | Cling Grip OR (Scuttlebrace AND Swift Step) OR (Silk Soar and Ledge Grab) |  | Verified |  |
+| BLU | Bottom Lower to Upper | Bottom Third (Upper Half) | Bottom Third (Lower Half) | Nothing (Falling) |  | Verified |  |
+| BML | Bottom to Middle Lower | Bottom Third (Upper Half) | Middle Third (Lower Half) | (Cling Grip OR (Scuttlebrace AND Swift Step AND (Clawline OR Faydown OR Easy Flea Brew Stall OR Sharpdart)) OR Silk Soar) |  | Verified |  |
+| BML | Bottom to Middle Lower | Middle Third (Lower Half) | Bottom Third (Upper Half) | Nothing (Falling) |  | Verified |  |
+| MLU | Middle Lower to Upper | Middle Third (Lower Half) | Middle Third (Upper Half) | Cling Grip OR (Scuttlebrace AND Swift Step AND (Faydown OR Easy Flea Brew Stall)) OR Silk Soar |  | Verified |  |
+| MLU | Middle Lower to Upper | Middle Third (Upper Half) | Middle Third (Lower Half) | Nothing (Falling) |  | Verified |  |
+| MTL | Middle to Top Lower | Middle Third (Upper Half) | Top Third (Lower Half) | Cling Grip OR (Scuttlebrace AND Swift Step AND (Faydown OR Easy Flea Brew Stall)) OR Silk Soar |  | Verified |  |
+| MTL | Middle to Top Lower | Top Third (Lower Half) | Middle Third (Upper Half) | Nothing (Falling) |  | Verified |  |
+| TLU | Top Lower to Upper | Top Third (Lower Half) | Top Third (Upper Half) | Nothing (Jump) |  | Verified |  |
+| TLU | Top Lower to Upper | Top Third (Upper Half) | Top Third (Lower Half) | Nothing (Fall) |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Flea: Blasted Steps | Top Third (Upper Half) | Nothing |  |  | Included |  |
+| Flea: Blasted Steps | Top Third (Upper Half) | Nothing |  | Verified | Included |  |
 
 ### Blasted Steps Toll Bench Bottom (Coral_02)
 
@@ -6842,29 +6903,32 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| BRM | Bottom Right to Middle | Bottom Right | Middle | Swift Step OR Faydown OR Clawline OR Flea Brew OR Sharpdart |  |  |  |
-| BRM | Bottom Right to Middle | Middle | Bottom Right | Nothing (Falling) |  |  |  |
-| BLM | Bottom Left to Middle | Bottom Left | Middle | ((Swift Step OR Proficient Beast OR Clawline OR Sharpdart OR (Flea Brew AND Flew Brew Stall AND Ledge Grab)) AND (Faydown OR Cling Grip OR Silk Soar)) OR Scuttlebrace OR (Drifter's Cloak AND ((Faydown AND Enemy Pogo AND Ledge Grab) OR Silk Soar)) |  |  |  |
-| BLM | Bottom Left to Middle | Middle | Bottom Left | Nothing (Falling) |  |  |  |
-| MTL | Middle to Top Left | Middle | Top Left | ((Swift Step OR Proficient Beast OR Clawline OR Sharpdart OR (Flea Brew AND Flew Brew Stall AND Ledge Grab)) AND (Faydown OR Cling Grip OR Silk Soar)) OR Scuttlebrace OR (Drifter's Cloak AND ((Faydown AND Enemy Pogo AND Ledge Grab) OR Silk Soar)) |  |  |  |
-| MTL | Middle to Top Left | Top Left | Middle | Swift Step OR Faydown OR Clawline OR Flea Brew OR Sharpdart OR Crest Pogo |  |  |  |
-| TLR | Top Left to Top Right | Top Left | Top Right | ((Swift Step OR Proficient Beast OR Clawline OR Sharpdart OR (Flea Brew AND Flew Brew Stall AND Ledge Grab)) AND (Faydown OR Cling Grip OR Silk Soar)) OR Scuttlebrace OR (Drifter's Cloak AND ((Faydown AND Enemy Pogo AND Ledge Grab) OR Silk Soar)) |  |  |  |
-| TLR | Top Left to Top Right | Top Right | Top Left | ((Swift Step OR Proficient Beast OR Clawline OR Sharpdart OR (Flea Brew AND Flew Brew Stall AND Ledge Grab)) AND (Faydown OR Cling Grip OR Silk Soar)) OR Scuttlebrace OR (Drifter's Cloak AND ((Faydown AND Enemy Pogo AND Ledge Grab) OR Silk Soar)) |  |  |  |
-| PLT | Pit Left to Top Right | Top Right Pit (Left) | Top Right | Cling Grip OR Scuttlebrace OR Silk Soar OR (Faydown AND Ledge Grab AND (Heal Stall or Flea Brew Stall)) |  |  |  |
-| PLT | Pit Left to Top Right | Top Right | Top Right Pit (Left) | Nothing (Falling) |  |  |  |
-| PRT | Pit Right to Top RIght | Top Right Pit (Right) | Top Right | Cling Grip OR Scuttlebrace OR Faydown |  |  |  |
-| PRT | Pit Right to Top RIght | Top Right | Top Right Pit (Right) | Nothing (Falling) |  |  |  |
-| BRP | Bottom Right to Pit | Top Right Pit (Left) | Bottom Right | Nothing (Falling) |  |  |  |
-| LPM | Left Pit to Middle | Top Right Pit (Left) | Middle | Hit Lever OR Crest Pogo OR Clawline OR Flea Brew OR Sharpdart OR Swift Step OR Faydown |  |  |  |
+| BRM | Bottom Right to Middle | Bottom Right | Middle | Swift Step OR Faydown OR Clawline OR Flea Brew OR Sharpdart |  | Verified |  |
+| BRM | Bottom Right to Middle | Middle | Bottom Right | Nothing (Falling) |  | Verified |  |
+| BLM | Bottom Left to Middle | Bottom Left | Middle | ((Swift Step OR Easy Beast Crest Pogo OR Clawline OR Sharpdart OR (Flea Brew AND Easy Flea Brew Stall AND Ledge Grab)) AND (Faydown OR Cling Grip OR Silk Soar)) OR (Scuttlebrace AND Swift Step) OR (Drifter's Cloak AND ((Faydown AND Enemy Pogo AND Ledge Grab) OR Silk Soar)) |  | Verified |  |
+| BLM | Bottom Left to Middle | Middle | Bottom Left | Nothing (Falling) |  | Verified |  |
+| MTL | Middle to Top Left | Middle | Top Left | ((Swift Step OR Easy Beast Crest Pogo OR Clawline OR Sharpdart OR (Flea Brew AND Easy Flea Brew Stall AND Ledge Grab)) AND (Faydown OR Cling Grip OR Silk Soar)) OR (Scuttlebrace AND Swift Step) OR (Drifter's Cloak AND ((Faydown AND Enemy Pogo AND Ledge Grab) OR Silk Soar)) |  | Verified |  |
+| MTL | Middle to Top Left | Top Left | Middle | Swift Step OR Faydown OR Clawline OR Flea Brew OR Sharpdart OR Crest Pogo |  | Verified |  |
+| TLR | Top Left to Top Right | Top Left | Top Right | ((Swift Step OR Easy Beast Crest Pogo OR Clawline OR Sharpdart OR (Flea Brew AND Easy Flea Brew Stall AND Ledge Grab)) AND (Faydown OR Cling Grip OR Silk Soar)) OR (Scuttlebrace AND Swift Step) OR (Drifter's Cloak AND ((Faydown AND Enemy Pogo AND Ledge Grab) OR Silk Soar)) |  | Verified |  |
+| TLR | Top Left to Top Right | Top Right | Top Left | ((Swift Step OR Easy Beast Crest Pogo OR Clawline OR Sharpdart OR (Flea Brew AND Easy Flea Brew Stall AND Ledge Grab)) AND (Faydown OR Cling Grip OR Silk Soar)) OR (Scuttlebrace AND Swift Step) OR (Drifter's Cloak AND ((Faydown AND Enemy Pogo AND Ledge Grab) OR Silk Soar)) |  | Verified |  |
+| PLT | Pit Left to Top Right | Top Right Pit (Left) | Top Right | Cling Grip OR Scuttlebrace OR Silk Soar OR (Faydown AND Ledge Grab AND (Easy Heal Stall or Easy Flea Brew Stall)) |  | Verified |  |
+| PLT | Pit Left to Top Right | Top Right | Top Right Pit (Left) | Nothing (Falling) |  | Verified |  |
+| PRT | Pit Right to Top RIght | Top Right Pit (Right) | Top Right | Cling Grip OR Scuttlebrace OR Faydown |  | Verified |  |
+| PRT | Pit Right to Top RIght | Top Right | Top Right Pit (Right) | Nothing (Falling) |  | Verified |  |
+| BRP | Bottom Right to Pit | Top Right Pit (Left) | Bottom Right | Nothing (Falling) |  | Verified |  |
+| BRP | Bottom Right to Pit | Bottom Right | Top Right Pit (Left) | Lever Broken FROM Coral_02 (Top Right Pit) AND Silk Soar AND Ledge Grab |  | Verified |  |
+| LPM | Left Pit to Middle | Top Right Pit (Left) | Middle | Lever Broken FROM Coral_02 (Top Right Pit) OR Easy Crest Pogo OR Clawline OR Flea Brew OR Sharpdart OR Swift Step OR Faydown |  | Verified |  |
+| LPM | Left Pit to Middle | Middle | Top Right Pit (Left) | Lever Broken FROM Coral_02 (Top Right Pit) AND Faydown OR (Silk Soar AND Ledge Grab) |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Memory Locket: Blasted Steps | Top Right Pit (Right) | ((Swift Step OR Proficient Beast OR Clawline OR Sharpdart) AND (Faydown OR Cling Grip)) OR (Swift Step AND Scuttlebrace) OR (Drifter's Cloak AND (Faydown OR Silk Soar) OR (Silk Soar AND Faydown) |  |  | Included |  |
-| Shell Shard Cache: Blasted Steps #1 | Bottom Left | (Cling Grip AND (Swift Step OR Flea Brew OR Faydown OR Clawline)) OR (Swift Step and Scuttlebrace) |  |  | Included |  |
-| Shell Shard Cache: Blasted Steps #2 | Bottom Left | (Cling Grip AND (Swift Step OR Flea Brew OR Faydown OR Clawline)) OR (Swift Step and Scuttlebrace) |  |  | Included |  |
-| Shell Shard Cache: Blasted Steps #3 | Bottom Left | (Cling Grip AND (Swift Step OR Flea Brew OR Faydown OR Clawline)) OR (Swift Step and Scuttlebrace) |  |  | Included |  |
+| Memory Locket: Blasted Steps | Top Right Pit (Right) | ((Swift Step OR Easy Beast Crest Pogo OR Clawline OR Sharpdart) AND (Faydown OR Cling Grip)) OR (Swift Step AND Scuttlebrace) OR (Drifter's Cloak AND (Faydown OR Silk Soar)) OR (Silk Soar AND Faydown) |  | Verified | Included |  |
+| Shell Shard Cache: Blasted Steps #1 | Bottom Left | (Cling Grip AND (Swift Step OR Flea Brew OR Faydown OR Clawline)) OR (Swift Step and Scuttlebrace) |  | Verified | Included |  |
+| Shell Shard Cache: Blasted Steps #2 | Bottom Left | (Cling Grip AND (Swift Step OR Flea Brew OR Faydown OR Clawline)) OR (Swift Step and Scuttlebrace) |  | Verified | Included |  |
+| Shell Shard Cache: Blasted Steps #3 | Bottom Left | (Cling Grip AND (Swift Step OR Flea Brew OR Faydown OR Clawline)) OR (Swift Step and Scuttlebrace) |  | Verified | Included |  |
+| Lever Coral_02 (Top Right Pit) | Top Right Pit (Left) | Nothing |  | Verified | Not included |  |
 
 ### Blasted Steps Wide Long Vertical (Coral_03)
 
@@ -6888,48 +6952,48 @@ No subroom connections defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| BL | Bottom Left | Bottom Third (Left) | [Blasted Steps Toll Bench Bottom (Coral_02)](#blasted-steps-toll-bench-bottom-coral02) | TR | Nothing |  |  |  |
-| B3 | Bottom (3) | Pit | [Blasted Steps Map Edge (Coral_19)](#blasted-steps-map-edge-coral19) | TR3 | Nothing |  |  |  |
-| B4 | Bottom (4) | Pit | [Blasted Steps Map Edge (Coral_19)](#blasted-steps-map-edge-coral19) | TR4 | Nothing |  |  |  |
-| B5 | Bottom (5) | Pit | [Blasted Steps Map Edge (Coral_19)](#blasted-steps-map-edge-coral19) | TR5 | Nothing |  |  |  |
-| B6 | Bottom (6) | Pit | [Blasted Steps Map Edge (Coral_19)](#blasted-steps-map-edge-coral19) | TR6 | Nothing |  |  |  |
-| B7 | Bottom (7) | Pit | [Blasted Steps Map Edge (Coral_19)](#blasted-steps-map-edge-coral19) | TR7 | Nothing |  |  |  |
-| B8 | Bottom (8) | Pit | [Blasted Steps Map Edge (Coral_19)](#blasted-steps-map-edge-coral19) | TR8 | Nothing |  |  |  |
-| BR | Bottom Right | Bottom Third (Right) | [Blasted Steps Shakra Room (Coral_12)](#blasted-steps-shakra-room-coral12) | BL | Nothing |  |  |  |
-| ML | Middle Left | Middle Left (Entrance) | [Great Conchflies (Coral_11)](#great-conchflies-coral11) | R | Nothing |  |  |  |
-| MR | Middle Right | Middle Right (Entrance) | [Blasted Steps Shakra Room (Coral_12)](#blasted-steps-shakra-room-coral12) | TL | Nothing |  |  |  |
-| TR | Top Right | Top Third Entrances | [Pre Last Judge Room (Coral_32)](#pre-last-judge-room-coral32) | L | Nothing |  |  |  |
-| TL | Top Left | Top Third Entrances | [Blasted Steps Bellway (Bellway_08)](#blasted-steps-bellway-bellway08) | R | Nothing |  |  |  |
+| BL | Bottom Left | Bottom Third (Left) | [Blasted Steps Toll Bench Bottom (Coral_02)](#blasted-steps-toll-bench-bottom-coral02) | TR | Nothing |  | Verified |  |
+| B3 | Bottom (3) | Pit | [Blasted Steps Map Edge (Coral_19)](#blasted-steps-map-edge-coral19) | TR3 | Nothing |  | Verified |  |
+| B4 | Bottom (4) | Pit | [Blasted Steps Map Edge (Coral_19)](#blasted-steps-map-edge-coral19) | TR4 | Nothing |  | Verified |  |
+| B5 | Bottom (5) | Pit | [Blasted Steps Map Edge (Coral_19)](#blasted-steps-map-edge-coral19) | TR5 | Nothing |  | Verified |  |
+| B6 | Bottom (6) | Pit | [Blasted Steps Map Edge (Coral_19)](#blasted-steps-map-edge-coral19) | TR6 | Nothing |  | Verified |  |
+| B7 | Bottom (7) | Pit | [Blasted Steps Map Edge (Coral_19)](#blasted-steps-map-edge-coral19) | TR7 | Nothing |  | Verified |  |
+| B8 | Bottom (8) | Pit | [Blasted Steps Map Edge (Coral_19)](#blasted-steps-map-edge-coral19) | TR8 | Nothing |  | Verified |  |
+| BR | Bottom Right | Bottom Third (Right) | [Blasted Steps Shakra Room (Coral_12)](#blasted-steps-shakra-room-coral12) | BL | Nothing |  | Verified |  |
+| ML | Middle Left | Middle Left (Entrance) | [Great Conchflies (Coral_11)](#great-conchflies-coral11) | R | Nothing |  | Verified |  |
+| MR | Middle Right | Middle Right (Entrance) | [Blasted Steps Shakra Room (Coral_12)](#blasted-steps-shakra-room-coral12) | TL | Nothing |  | Verified |  |
+| TR | Top Right | Top Third Entrances | [Pre Last Judge Room (Coral_32)](#pre-last-judge-room-coral32) | L | Nothing |  | Verified |  |
+| TL | Top Left | Top Third Entrances | [Blasted Steps Bellway (Bellway_08)](#blasted-steps-bellway-bellway08) | R | Nothing |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| BLR | Bottom Left to Right | Bottom Third (Left) | Bottom Third (Right) | Swift Step OR Faydown OR Enemy Pogo OR Silk Soar OR Clawline OR (Flea Brew AND (Crest Pogo OR Flew Brew Stall)) |  |  |  |
-| BLR | Bottom Left to Right | Bottom Third (Right) | Bottom Third (Left) | Swift Step OR Faydown OR Enemy Pogo OR Silk Soar OR Clawline OR (Flea Brew AND (Crest Pogo OR Flew Brew Stall)) |  |  |  |
-| BLM | Bottom Left to Middle 1 | Bottom Third (Left) | Middle Section 1 | ((Enemy Pogo AND Faydown AND Ledge Grab) OR (Swift Step OR Faydown OR Clawline OR Drifter's Cloak OR Enemy Pogo OR (Flea Brew AND (Crest Pogo OR Flea Brew Stall)) AND CLING) OR (Swift Step AND Scuttlebrace AND Faydown) OR Silk Soar |  |  |  |
-| BLM | Bottom Left to Middle 1 | Middle Section 1 | Bottom Third (Left) | Nothing (Falling) |  |  |  |
-| BRM | Bottom Right to Middle | Bottom Third (Right) | Middle Section 1 | ((Enemy Pogo AND Faydown AND Ledge Grab) OR (Swift Step OR Faydown OR Clawline OR Drifter's Cloak OR Enemy Pogo OR (Flea Brew AND (Crest Pogo OR Flea Brew Stall)) AND CLING) OR (Swift Step AND Scuttlebrace AND Faydown) OR Silk Soar |  |  |  |
-| BRM | Bottom Right to Middle | Middle Section 1 | Bottom Third (Right) | Nothing (Falling) |  |  |  |
-| M12 | Middle 1 to Middle 2 | Middle Section 1 | Middle Section 2 | Nothing (Jumping) |  |  |  |
-| M12 | Middle 1 to Middle 2 | Middle Section 2 | Middle Section 1 | Nothing (Falling) |  |  |  |
-| MLE | Middle to Middle Left | Middle Section 2 | Middle Left (Entrance) | Enemy Pogo OR Silk Soar OR Swift Step OR Clawline OR Sharpdart (Drifter's Cloak AND Ledge Grab) OR (Flea Brew AND (Cling OR Flea Brew Stall OR Heal Stall)) |  |  |  |
-| MLE | Middle to Middle Left | Middle Left (Entrance) | Middle Section 2 | Enemy Pogo OR Swift Step OR Clawline OR Sharpdart OR Drifter's Cloak OR Faydown OR Flea Brew OR Silk Soar OR (Crest Pogo and Cling Grip) |  |  |  |
-| MRE | Middle to Middle Right | Middle Section 2 | Middle Right (Entrance) | (Easy Skip AND Drifter's Cloak) OR (Easy Skip AND Swift Step AND Clawline AND Cling AND Ledge Grab) OR (Faydown AND ((Swift Step AND Ledge Grab) OR (Drifter's Cloak AND Wind AND Ledge Grab) OR Clawline)) OR Silk Soar |  |  |  |
-| MRE | Middle to Middle Right | Middle Right (Entrance) | Middle Section 2 | Nothing (Falling) |  |  |  |
-| PTB | Pit to Bottom | Pit | Bottom Third (Left) | Cling Grip OR Scuttle OR Silk Soar |  |  |  |
-| PTB | Pit to Bottom | Bottom Third (Left) | Pit | Nothing (Falling) |  |  |  |
-| MRT | Middle Right to Top | Middle Right (Entrance) | Top Third | Ledge Grab OR Cling Grip OR Faydown OR Silk Soar OR Scuttle |  |  |  |
-| MRT | Middle Right to Top | Top Third | Middle Right (Entrance) | Nothing (Falling) |  |  |  |
-| TTE | Top Third to Entrances | Top Third | Top Third Entrances | (Ledge Grab AND (Cling Grip OR (Scuttlebrace AND Proficient Movement)) AND ((Lever Hit AND Flea Brew) OR Swift Step OR Clawline)) OR Silk Soar |  |  |  |
-| TTE | Top Third to Entrances | Top Third Entrances | Top Third | Nothing (Falling) |  |  |  |
+| BLR | Bottom Left to Right | Bottom Third (Left) | Bottom Third (Right) | Swift Step OR Faydown OR Enemy Pogo OR Silk Soar OR Clawline OR (Flea Brew AND (Easy Crest Pogo OR Easy Flew Brew Stall)) |  | Verified |  |
+| BLR | Bottom Left to Right | Bottom Third (Right) | Bottom Third (Left) | Swift Step OR Faydown OR Enemy Pogo OR Silk Soar OR Clawline OR (Flea Brew AND (Easy Crest Pogo OR Easy Flew Brew Stall)) |  | Verified |  |
+| BLM | Bottom Left to Middle 1 | Bottom Third (Left) | Middle Section 1 | (Easy Enemy Pogo AND Faydown AND Ledge Grab) OR ((Swift Step OR Faydown OR Clawline OR Drifter's Cloak OR Easy Enemy Pogo OR (Flea Brew AND (Easy Crest Pogo OR Easy Flea Brew Stall))) AND Cling Grip) OR (Swift Step AND Scuttlebrace AND Faydown) OR Silk Soar |  | Verified |  |
+| BLM | Bottom Left to Middle 1 | Middle Section 1 | Bottom Third (Left) | Nothing (Falling) |  | Verified |  |
+| BRM | Bottom Right to Middle | Bottom Third (Right) | Middle Section 1 | (Easy Enemy Pogo AND Faydown AND Ledge Grab) OR ((Swift Step OR Faydown OR Clawline OR Drifter's Cloak OR Easy Enemy Pogo OR (Flea Brew AND (Easy Crest Pogo OR Easy Flea Brew Stall))) AND Cling Grip) OR (Swift Step AND Scuttlebrace AND Faydown) OR Silk Soar |  | Verified |  |
+| BRM | Bottom Right to Middle | Middle Section 1 | Bottom Third (Right) | Nothing (Falling) |  | Verified |  |
+| M12 | Middle 1 to Middle 2 | Middle Section 1 | Middle Section 2 | Nothing (Jumping) |  | Verified |  |
+| M12 | Middle 1 to Middle 2 | Middle Section 2 | Middle Section 1 | Nothing (Falling) |  | Verified |  |
+| MLE | Middle to Middle Left | Middle Section 2 | Middle Left (Entrance) | Easy Enemy Pogo OR Silk Soar OR Swift Step OR Clawline OR Sharpdart OR (Drifter's Cloak AND Ledge Grab) OR (Flea Brew AND (Cling Grip OR Easy Flea Brew Stall OR Easy Heal Stall)) |  | Verified |  |
+| MLE | Middle to Middle Left | Middle Left (Entrance) | Middle Section 2 | Easy Enemy Pogo OR Swift Step OR Clawline OR Sharpdart OR Drifter's Cloak OR Faydown OR Flea Brew OR Silk Soar OR (Easy Crest Pogo (Hunter, Reaper, Beast, Architect, Shaman) AND Cling Grip) |  | Verified |  |
+| MRE | Middle to Middle Right | Middle Section 2 | Middle Right (Entrance) | (Moderate Skip AND Drifter's Cloak AND Swift Step) OR (Easy Skip AND Swift Step AND Clawline AND Cling AND Ledge Grab) OR (Faydown AND ((Swift Step AND Ledge Grab) OR (Easy Skip AND Drifter's Cloak AND Wind AND Ledge Grab) OR Clawline)) OR Silk Soar |  | Verified |  |
+| MRE | Middle to Middle Right | Middle Right (Entrance) | Middle Section 2 | Nothing (Falling) |  | Verified |  |
+| PTB | Pit to Bottom | Pit | Bottom Third (Left) | Cling Grip OR Scuttle OR Silk Soar |  | Verified |  |
+| PTB | Pit to Bottom | Bottom Third (Left) | Pit | Nothing (Falling) |  | Verified |  |
+| MRT | Middle Right to Top | Middle Right (Entrance) | Top Third | Ledge Grab OR Cling Grip OR Faydown OR Silk Soar OR Scuttle |  | Verified |  |
+| MRT | Middle Right to Top | Top Third | Middle Right (Entrance) | Nothing (Falling) |  | Verified |  |
+| TTE | Top Third to Entrances | Top Third | Top Third Entrances | (Ledge Grab AND (Cling Grip OR (Scuttlebrace AND Easy Skip)) AND ((Lever BROKEN From Coral_03 (Top Third) AND Flea Brew) OR Swift Step OR Clawline)) OR Silk Soar |  | Verified |  |
+| TTE | Top Third to Entrances | Top Third Entrances | Top Third | Nothing (Falling) |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Frayed Rosary String: Blasted Steps | Pit | Nothing (Falling) |  |  | Included |  |
-| Lever | Top Third | Ledge Grab AND (Cling Grip OR Scuttlebrace) OR Faydown OR Silk Soar |  |  | Included |  |
+| Frayed Rosary String: Blasted Steps | Pit | Nothing (Falling) |  | Verified | Included |  |
+| Lever Coral_03 (Top Third) | Top Third | Ledge Grab AND (Cling Grip OR Scuttlebrace) OR Faydown OR Silk Soar |  | Verified | Not included |  |
 
 ### Great Conchflies (Coral_11)
 
@@ -6947,21 +7011,23 @@ No subroom connections defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | Right | Triple Sand Pit Right | [Blasted Steps Wide Long Vertical (Coral_03)](#blasted-steps-wide-long-vertical-coral03) | ML | Nothing |  |  |  |
-| L | Left | Great Conchflies | [Horizontal Room with Sand Pit (Coral_11b)](#horizontal-room-with-sand-pit-coral11b) | R | Beat Great Conchflies |  |  |  |
+| R | Right | Triple Sand Pit Right | [Blasted Steps Wide Long Vertical (Coral_03)](#blasted-steps-wide-long-vertical-coral03) | ML | Nothing |  | Verified |  |
+| L | Left | Great Conchflies | [Horizontal Room with Sand Pit (Coral_11b)](#horizontal-room-with-sand-pit-coral11b) | R | Beat Great Conchflies |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| TSC | Triple Sand Pit to Conch | Triple Sand Pit | Great Conchflies | Swift Step OR Faydown OR Clawline OR Drifter's Cloak OR Beast Crest OR Sharpdart (Flea Brew AND (Flea Brew Stall OR Heal Stall OR Ledge Grab)) |  |  |  |
-| TSC | Triple Sand Pit to Conch | Great Conchflies | Triple Sand Pit | Nothing |  |  |  |
-| TSR | Triple Sand Pit to Right | Triple Sand Pit | Triple Sand Pit Right | Swift Step OR Faydown OR Clawline OR Drifter's Cloak OR Beast Crest OR Sharpdart (Flea Brew AND (Flea Brew Stall OR Heal Stall OR Ledge Grab)) |  |  |  |
-| TSR | Triple Sand Pit to Right | Triple Sand Pit Right | Triple Sand Pit | Nothing |  |  |  |
+| TSC | Triple Sand Pit to Conch | Triple Sand Pit | Great Conchflies | Swift Step OR Faydown OR Clawline OR Drifter's Cloak OR Easy Beast Crest Pogo OR Sharpdart (Flea Brew AND (Easy Flea Brew Stall OR Easy Heal Stall OR Ledge Grab)) |  | Verified |  |
+| TSC | Triple Sand Pit to Conch | Great Conchflies | Triple Sand Pit | Swift Step OR Faydown OR Clawline OR Drifter's Cloak OR Easy Beast Crest Pogo OR Sharpdart (Flea Brew AND (Easy Flea Brew Stall OR Easy Heal Stall OR Ledge Grab)) |  | Verified |  |
+| TSR | Triple Sand Pit to Right | Triple Sand Pit | Triple Sand Pit Right | Swift Step OR Faydown OR Clawline OR Drifter's Cloak OR Easy Beast Crest Pogo OR Sharpdart (Flea Brew AND (Easy Flea Brew Stall OR Easy Heal Stall OR Ledge Grab)) |  | Verified |  |
+| TSR | Triple Sand Pit to Right | Triple Sand Pit Right | Triple Sand Pit | Swift Step OR Faydown OR Clawline OR Drifter's Cloak OR Easy Beast Crest Pogo OR Sharpdart (Flea Brew AND (Easy Flea Brew Stall OR Easy Heal Stall OR Ledge Grab)) |  | Verified |  |
 
 #### Check Locations
 
-No check locations defined.
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Boss: Great Conchflies | Great Conchflies | Nothing |  | Verified | Included |  |
 
 ### Horizontal Room with Sand Pit (Coral_11b)
 
@@ -6978,15 +7044,15 @@ No check locations defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | Right | Sand Pit Right | [Great Conchflies (Coral_11)](#great-conchflies-coral11) | L | Nothing |  |  |  |
-| L | Left | Sand Pit Left | [Windy Pinstress Entrance (Coral_34)](#windy-pinstress-entrance-coral34) | R | Nothing |  |  |  |
+| R | Right | Sand Pit Right | [Great Conchflies (Coral_11)](#great-conchflies-coral11) | L | Nothing |  | Verified |  |
+| L | Left | Sand Pit Left | [Windy Pinstress Entrance (Coral_34)](#windy-pinstress-entrance-coral34) | R | Nothing |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| SP | Sand Pit | Sand Pit Left | Sand Pit Right | Swift Step OR Faydown OR Clawline OR Drifter's Cloak OR Beast Crest OR Sharpdart (Flea Brew AND (Flea Brew Stall OR Heal Stall OR Ledge Grab)) |  |  |  |
-| SP | Sand Pit | Sand Pit Right | Sand Pit Left | Swift Step OR Faydown OR Clawline OR Drifter's Cloak OR Beast Crest OR Sharpdart (Flea Brew AND (Flea Brew Stall OR Heal Stall OR Ledge Grab)) |  |  |  |
+| SP | Sand Pit | Sand Pit Left | Sand Pit Right | Swift Step OR Faydown OR Clawline OR Drifter's Cloak OR Beast Crest OR Sharpdart (Flea Brew AND (Easy Flea Brew Stall OR Easy Heal Stall OR Ledge Grab)) |  | Verified |  |
+| SP | Sand Pit | Sand Pit Right | Sand Pit Left | Swift Step OR Faydown OR Clawline OR Drifter's Cloak OR Beast Crest OR Sharpdart (Flea Brew AND (Easy Flea Brew Stall OR Easy Heal Stall OR Ledge Grab)) |  | Verified |  |
 
 #### Check Locations
 
@@ -7006,8 +7072,8 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | Left |  | [Pre Last Judge Room (Coral_32)](#pre-last-judge-room-coral32) | R | Nothing |  |  |  |
-| R | Right |  | [Grand Bridge (Coral_10)](#grand-bridge-coral10) | L | Beat Last Judge and 5 Bells |  |  |  |
+| L | Left |  | [Pre Last Judge Room (Coral_32)](#pre-last-judge-room-coral32) | R | Nothing |  | Verified |  |
+| R | Right |  | [Grand Bridge (Coral_10)](#grand-bridge-coral10) | L | Five Bellshrines Rung AND Last Judge Defeated |  | Verified |  |
 
 #### Subroom Connections
 
@@ -7015,7 +7081,9 @@ No subroom connections defined.
 
 #### Check Locations
 
-No check locations defined.
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Boss: Last Judge |  | Swift Step OR Faydown |  | Verified | Included | Combat Requirements |
 
 ### Lumble the Lucky (Coral_33)
 
@@ -7031,7 +7099,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | Right |  | [Blasted Steps Horizontal Room with Two Sand Pits (Coral_43)](#blasted-steps-horizontal-room-with-two-sand-pits-coral43) | L | Nothing |  |  |  |
+| R | Right |  | [Blasted Steps Horizontal Room with Two Sand Pits (Coral_43)](#blasted-steps-horizontal-room-with-two-sand-pits-coral43) | L | Nothing |  | Verified |  |
 
 #### Subroom Connections
 
@@ -7041,7 +7109,7 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Magnetite Dice |  | Prior to defeating the Cogwork Dancers or obtaining the Clawline: Given by Lumble the Lucky if you win against him after he runs out of Rosaries.  After defeating the Cogwork Dancers or obtaining the Clawline: Found next to Lumble's body.  Act 3: Sold by Grindle for Rosaries 300. |  |  | Included |  |
+| Magnetite Dice |  | (Win Against Lumble after He Runs Out of Rosaries OR Clawline Location Acquired OR Event: Cogwork Dancers Defeated) AND NOT Act 3 |  | Verified | Included |  |
 
 ### Pinstress Room (Room_Pinstress)
 
@@ -7057,7 +7125,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | Left |  | [Windy Pinstress Entrance (Coral_34)](#windy-pinstress-entrance-coral34) | C | Nothing |  |  |  |
+| L | Left |  | [Windy Pinstress Entrance (Coral_34)](#windy-pinstress-entrance-coral34) | C | Nothing |  | Verified |  |
 
 #### Subroom Connections
 
@@ -7065,7 +7133,9 @@ No subroom connections defined.
 
 #### Check Locations
 
-No check locations defined.
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Needle Strike |  | Nothing |  | Verified | Included |  |
 
 ### Pre Last Judge Room (Coral_32)
 
@@ -7084,40 +7154,38 @@ No check locations defined.
 - Top Right
 - Left (Entrance)
 
-- **Ascension:** This shouldn't actually cover the Craftmetal but there's no way to make an oblong room.
-
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | Left | Left (Entrance) | [Blasted Steps Wide Long Vertical (Coral_03)](#blasted-steps-wide-long-vertical-coral03) | TR | Nothing |  |  |  |
-| T | Top | Top (Entrance) | [Sands of Karak Elevator to Blasted Steps (Coral_38)](#sands-of-karak-elevator-to-blasted-steps-coral38) | F | ((Swift Step OR Faydown OR Clawline OR Drifter's Cloak OR (Flea Brew AND Ledge Grab)) AND Cling Grip) OR Silk Soar |  |  |  |
-| R | Right | Right (Entrance) | [Last Judge Arena (Coral_Judge_Arena)](#last-judge-arena-coraljudgearena) | L | ((Swift Step OR Faydown OR Clawline OR Drifter's Cloak OR (Flea Brew AND Ledge Grab)) AND Cling Grip) OR Silk Soar |  |  |  |
+| L | Left | Left (Entrance) | [Blasted Steps Wide Long Vertical (Coral_03)](#blasted-steps-wide-long-vertical-coral03) | TR | Nothing |  | Verified |  |
+| T | Top | Top (Entrance) | [Sands of Karak Elevator to Blasted Steps (Coral_38)](#sands-of-karak-elevator-to-blasted-steps-coral38) | F | BROKEN Wall from Coral_38 Side |  | Verified |  |
+| R | Right | Right (Entrance) | [Last Judge Arena (Coral_Judge_Arena)](#last-judge-arena-coraljudgearena) | L | Nothing |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| LTA | Left to Ascension | Left (Entrance) | Ascension | Nothing |  |  |  |
-| LTA | Left to Ascension | Ascension | Left (Entrance) | ((Swift Step OR Faydown OR Clawline OR Drifter's Cloak OR (Flea Brew AND Ledge Grab)) AND Cling Grip) OR Silk Soar |  |  |  |
-| ATI | Ascension to Intermission | Ascension | Intermission | ((Swift Step OR Faydown OR Clawline OR Drifter's Cloak OR (Flea Brew AND Ledge Grab)) AND Cling Grip) OR Silk Soar |  |  |  |
-| ATI | Ascension to Intermission | Intermission | Ascension | Nothing (Fall) |  |  |  |
-| ITR | Intermission to Top Right | Intermission | Top Right | Nothing (Fall) |  |  |  |
-| ITR | Intermission to Top Right | Top Right | Intermission | ((Swift Step OR Faydown OR Clawline OR Drifter's Cloak OR (Flea Brew AND Ledge Grab)) AND Cling Grip) OR Silk Soar |  |  |  |
-| TRD | Top Right to Descent | Top Right | Descent | Nothing (Fall) |  |  |  |
-| TRD | Top Right to Descent | Descent | Top Right | ((Swift Step OR Faydown OR Clawline OR Drifter's Cloak OR (Flea Brew AND Ledge Grab)) AND Cling Grip) OR Silk Soar |  |  |  |
-| TRV | Top Right to Top Vertical | Top Right | Top Vertical Shaft | ((Swift Step OR Faydown OR Clawline OR Drifter's Cloak OR (Flea Brew AND Ledge Grab)) AND Cling Grip) OR Silk Soar |  |  |  |
-| TRV | Top Right to Top Vertical | Top Vertical Shaft | Top Right | Nothing (Fall) |  |  |  |
-| VTE | Top Vertical to Top (Entrance) | Top Vertical Shaft | Top (Entrance) | Cling Grip OR Silk Soar |  |  |  |
-| VTE | Top Vertical to Top (Entrance) | Top (Entrance) | Top Vertical Shaft | Nothing (Fall) |  |  |  |
-| TRE | Top Right to Right (Entrance) | Top Right | Right (Entrance) | ((Swift Step OR Faydown OR Clawline OR Drifter's Cloak OR (Flea Brew AND Ledge Grab)) AND Cling Grip) OR Silk Soar |  |  |  |
-| TRE | Top Right to Right (Entrance) | Right (Entrance) | Top Right | Nothing (Fall) |  |  |  |
+| LTA | Left to Ascension | Left (Entrance) | Ascension | Nothing |  | Verified |  |
+| LTA | Left to Ascension | Ascension | Left (Entrance) | ((Swift Step OR Faydown OR Clawline OR Drifter's Cloak OR (Flea Brew AND Ledge Grab)) AND Cling Grip) OR Silk Soar |  | Verified |  |
+| ATI | Ascension to Intermission | Ascension | Intermission | ((Swift Step OR Faydown OR Clawline OR Drifter's Cloak OR (Flea Brew AND Ledge Grab)) AND Cling Grip) OR Silk Soar |  | Verified |  |
+| ATI | Ascension to Intermission | Intermission | Ascension | Nothing (Fall) |  | Verified |  |
+| ITR | Intermission to Top Right | Intermission | Top Right | Nothing (Fall) |  | Verified |  |
+| ITR | Intermission to Top Right | Top Right | Intermission | ((Swift Step OR Faydown OR Clawline OR Drifter's Cloak OR (Flea Brew AND Ledge Grab)) AND Cling Grip) OR Silk Soar |  | Verified |  |
+| TRD | Top Right to Descent | Top Right | Descent | Nothing (Fall) |  | Verified |  |
+| TRD | Top Right to Descent | Descent | Top Right | (Swift Step OR Faydown OR Clawline OR Drifter's Cloak OR (Flea Brew AND (Ledge Grab OR Easy Hazard Respawn)) AND Cling Grip |  | Verified |  |
+| TRV | Top Right to Top Vertical | Top Right | Top Vertical Shaft | ((Swift Step OR Faydown OR Clawline OR Drifter's Cloak OR (Flea Brew AND Ledge Grab)) AND Cling Grip) OR Silk Soar |  | Verified |  |
+| TRV | Top Right to Top Vertical | Top Vertical Shaft | Top Right | Nothing (Fall) |  | Verified |  |
+| VTE | Top Vertical to Top (Entrance) | Top Vertical Shaft | Top (Entrance) | Cling Grip OR Silk Soar |  | Verified |  |
+| VTE | Top Vertical to Top (Entrance) | Top (Entrance) | Top Vertical Shaft | Nothing (Fall) |  | Verified |  |
+| TRE | Top Right to Right (Entrance) | Top Right | Right (Entrance) | ((Swift Step OR Faydown OR Clawline OR Drifter's Cloak OR (Flea Brew AND Ledge Grab)) AND Cling Grip) OR Silk Soar |  | Verified |  |
+| TRE | Top Right to Right (Entrance) | Right (Entrance) | Top Right | Nothing (Fall) |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Craftmetal: Blasted Steps | Descent | ((Swift Step OR Faydown OR Clawline OR Drifter's Cloak OR (Flea Brew AND Ledge Grab)) AND Cling Grip) OR Silk Soar |  |  | Included |  |
+| Craftmetal: Blasted Steps | Descent | Swift Step OR Faydown OR Clawline OR Drifter's Cloak |  | Verified | Included |  |
 
 ### Windy Pinstress Entrance (Coral_34)
 
@@ -7135,18 +7203,18 @@ No check locations defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | Right | Lower Third | [Horizontal Room with Sand Pit (Coral_11b)](#horizontal-room-with-sand-pit-coral11b) | L | Nothing |  |  |  |
-| C | Center | Middle Third | [Pinstress Room (Room_Pinstress)](#pinstress-room-roompinstress) | L | Nothing (Falling) |  |  |  |
-| T | Top | Upper Third | [Sands of Karak Entrance (Coral_25)](#sands-of-karak-entrance-coral25) | F | Cling Grip OR (Scuttlebrace AND Faydown) OR Silk Soar |  |  |  |
+| R | Right | Lower Third | [Horizontal Room with Sand Pit (Coral_11b)](#horizontal-room-with-sand-pit-coral11b) | L | Nothing |  | Verified |  |
+| C | Center | Middle Third | [Pinstress Room (Room_Pinstress)](#pinstress-room-roompinstress) | L | Nothing (Falling) |  | Verified |  |
+| T | Top | Upper Third | [Sands of Karak Entrance (Coral_25)](#sands-of-karak-entrance-coral25) | F | Cling Grip OR (Scuttlebrace AND Faydown) OR Silk Soar |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| LTC | Lower to Center | Lower Third | Middle Third | Clawline  OR (Flea Brew AND (Faydown OR (Swift Step AND Ledge Grab) OR (Beast Crest AND Ledge Grab))) |  |  |  |
-| LTC | Lower to Center | Middle Third | Lower Third | Nothing (Falling) |  |  |  |
-| CTT | Center to Top | Middle Third | Upper Third | (Clawline AND (Cling Grip OR Scuttlebrace) AND 2 Silk Hearts) OR (Clawline AND Cling Grip AND (Faydown OR (Beast Crest AND Ledge Grab))) |  |  |  |
-| CTT | Center to Top | Upper Third | Middle Third | Nothing (Falling) |  |  |  |
+| LTC | Lower to Center | Lower Third | Middle Third | Clawline OR (Flea Brew AND (Faydown OR (Swift Step AND Ledge Grab) OR (Easy Beast Crest Pogo AND Ledge Grab))) |  | Verified |  |
+| LTC | Lower to Center | Middle Third | Lower Third | Nothing (Falling) |  | Verified |  |
+| CTT | Center to Top | Middle Third | Upper Third | (Clawline AND (Cling Grip OR Scuttlebrace)) OR (Clawline AND Cling Grip AND (Faydown OR (Easy Beast Crest Pogo AND Ledge Grab))) |  | Verified |  |
+| CTT | Center to Top | Upper Third | Middle Third | Nothing (Falling) |  | Verified |  |
 
 #### Check Locations
 
@@ -10964,7 +11032,7 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | TL | Top Left | Top Third | [Choral Chambers Eastern Shaft (Song_05)](#choral-chambers-eastern-shaft-song05) | R1 | Nothing |  | Verified |  |
 | TR | Top Right | Top Right (Entrance) | [Whiteward Long Horizontal (Ward_05)](#whiteward-long-horizontal-ward05) | L | Nothing |  | Verified |  |
-| ML | Middle Left | Middle Third (Left) | [Whiteward Map Room (Ward_02b)](#whiteward-map-room-ward02b) | R | Nothing |  | Verified |  |
+| ML | Middle Left | Middle Third (Left) | [Whiteward Tunnel Room (Ward_02b)](#whiteward-tunnel-room-ward02b) | R | Nothing |  | Verified |  |
 | MR | Middle Right | Middle Third (Right) | [Whiteward Silkeater (Ward_04)](#whiteward-silkeater-ward04) | L | Break Wall |  | Verified |  |
 | BL | Bottom Left | Bottom Third (Left) | [Whiteward Unravelled Arena Room (Ward_02)](#whiteward-unravelled-arena-room-ward02) | R | Nothing |  | Verified |  |
 | BR | Bottom Right | Vertical Shaft (Lower) | [Whiteward Descent Connection (Ward_03)](#whiteward-descent-connection-ward03) | L | Nothing |  | Verified |  |
@@ -10980,10 +11048,10 @@ No subroom connections defined.
 | MLR | Middle Left to Right | Middle Third (Left) | Middle Third (Right) | Nothing (Jump) |  | Verified |  |
 | MLR | Middle Left to Right | Middle Third (Right) | Middle Third (Left) | Nothing (Jump) |  | Verified |  |
 | RVL | Right to Vertical Lower | Middle Third (Right) | Vertical Shaft (Lower) | Nothing (Fall) |  | Verified |  |
-| RVL | Right to Vertical Lower | Vertical Shaft (Lower) | Middle Third (Right) | Cling Grip OR (Scuttlebrace AND (Flea Brew Stall OR Heal Stall OR Faydown)) OR Silk Soar |  | Verified |  |
-| RVU | Right to Vertical Upper | Middle Third (Right) | Vertical Shaft (Upper) | Silk Soar OR (Faydown AND Cling Grip AND Easy Tool  Skip) |  | Verified |  |
+| RVL | Right to Vertical Lower | Vertical Shaft (Lower) | Middle Third (Right) | Cling Grip OR (Scuttlebrace AND (Moderate Flea Brew Stall OR Moderate Heal Stall OR Faydown)) OR Silk Soar |  | Verified |  |
+| RVU | Right to Vertical Upper | Middle Third (Right) | Vertical Shaft (Upper) | Silk Soar OR (Faydown AND Cling Grip AND Easy Skip) |  | Verified |  |
 | RVU | Right to Vertical Upper | Vertical Shaft (Upper) | Middle Third (Right) | Nothing (Fall) |  | Verified |  |
-| VTR | Vertical to Top Right (Entrance) | Vertical Shaft (Upper) | Top Right (Entrance) | Silk Soar OR (Faydown AND Cling Grip AND Easy Tool Skip) |  | Verified |  |
+| VTR | Vertical to Top Right (Entrance) | Vertical Shaft (Upper) | Top Right (Entrance) | Silk Soar OR (Faydown AND Cling Grip AND Easy Skip) |  | Verified |  |
 | VTR | Vertical to Top Right (Entrance) | Top Right (Entrance) | Vertical Shaft (Upper) | Nothing (Fall) |  | Verified |  |
 | ETP | Elevator to Pit | Elevator Shaft | Pit | Set Elevator to Top AND White Key Used |  | Verified |  |
 | ETP | Elevator to Pit | Pit | Elevator Shaft | Set Elevator to Top AND (Cling Grip OR Scuttlebrace OR Silk Soar) |  | Verified |  |
@@ -10993,8 +11061,35 @@ No subroom connections defined.
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | Whiteward - Spool Fragment | Pit | Nothing |  | Verified | Included |  |
-| Whiteward Bench | Top Third | White Key |  | Verified | Included |  |
+| Whiteward Bench | Top Third | White Key Used |  | Verified | Included |  |
 | Whiteward - Map Purchase | Vertical Shaft (Lower) | Nothing |  | Verified | Included |  |
+
+### Whiteward Sherma Gauntlet (Ward_09)
+
+**Game ID:** Ward_09
+
+**Contributors:** skai
+
+#### Subrooms
+
+No subrooms defined.
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | Left |  | [Whiteward Descent Connection (Ward_03)](#whiteward-descent-connection-ward03) | SG | Nothing |  | Verified |  |
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Wish: Balm for the Wounded |  | Start Balm for the Wounded Wish AND Beat Sherma Gauntlet in Whiteward Sherma Gauntlet (Ward_09) |  | Verified | Included | Completion for the wish. |
+| Balm for the Wounded - Spool Fragment |  | Start Balm for the Wounded Wish AND Beat Sherma Gauntlet in Whiteward Sherma Gauntlet (Ward_09) |  | Verified | Included | Completion for the wish. |
 
 ### Whiteward Descent Connection (Ward_03)
 
@@ -11021,15 +11116,16 @@ No subroom connections defined.
 | L | Left | Bottom (Left) | [Whiteward Entrance (Ward_01)](#whiteward-entrance-ward01) | BR | Nothing |  | Verified |  |
 | B | Bottom | Bottom Right (Lower) | [Whiteward Descent (Ward_06)](#whiteward-descent-ward06) | T | Nothing |  | Verified |  |
 | T | Top | Top | [Whiteward Junk Dump (Ward_07)](#whiteward-junk-dump-ward07) | B | Nothing |  | Verified |  |
+| SG | SG | Middle (Left) | [Whiteward Sherma Gauntlet (Ward_09)](#whiteward-sherma-gauntlet-ward09) | L | Wish Balm for the Wounded Started |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| BLS | Bottom Left to Spikes | Bottom (Left) | Spikes | Spike Pogo OR Dash OR Sprint OR Sharpdart OR Clawline OR Faydown OR Drifter's Cloak OR Flea Brew OR ((Plasmium Phial OR Voltvessels) AND Easy Tool Skip) |  | Verified |  |
-| BLS | Bottom Left to Spikes | Spikes | Bottom (Left) | Spike Pogo OR Dash OR Sprint OR Sharpdart OR Clawline OR Faydown OR Drifter's Cloak OR Flea Brew OR ((Plasmium Phial OR Voltvessels) AND Easy Tool Skip) |  | Verified |  |
-| SBR | Spikes to Bottom Right | Spikes | Bottom (Middle) | Spike Pogo OR Dash OR Sprint OR Sharpdart OR Clawline OR Faydown OR Drifter's Cloak OR Flea Brew OR ((Plasmium Phial OR Voltvessels) AND Easy Tool Skip) |  | Verified |  |
-| SBR | Spikes to Bottom Right | Bottom (Middle) | Spikes | Spike Pogo OR Dash OR Sprint OR Sharpdart OR Clawline OR Faydown OR Drifter's Cloak OR Flea Brew OR ((Plasmium Phial OR Voltvessels) AND Easy Tool Skip) |  | Verified |  |
+| BLS | Bottom Left to Spikes | Bottom (Left) | Spikes | Easy Spike Pogo OR Dash OR Sprint OR Sharpdart OR Clawline OR Faydown OR Drifter's Cloak OR Flea Brew OR ((Plasmium Phial OR Voltvessels) AND Easy Tool Skip) |  | Verified |  |
+| BLS | Bottom Left to Spikes | Spikes | Bottom (Left) | Easy Spike Pogo OR Dash OR Sprint OR Sharpdart OR Clawline OR Faydown OR Drifter's Cloak OR Flea Brew OR ((Plasmium Phial OR Voltvessels) AND Easy Tool Skip) |  | Verified |  |
+| SBR | Spikes to Bottom Right | Spikes | Bottom (Middle) | Easy Spike Pogo OR Dash OR Sprint OR Sharpdart OR Clawline OR Faydown OR Drifter's Cloak OR Flea Brew OR ((Plasmium Phial OR Voltvessels) AND Easy Tool Skip) |  | Verified |  |
+| SBR | Spikes to Bottom Right | Bottom (Middle) | Spikes | Easy Spike Pogo OR Dash OR Sprint OR Sharpdart OR Clawline OR Faydown OR Drifter's Cloak OR Flea Brew OR ((Plasmium Phial OR Voltvessels) AND Easy Tool Skip) |  | Verified |  |
 | BMA | Bottom to Ascent | Bottom (Middle) | Ascent | Cling Grip OR Scuttlebrace OR Silk Soar OR Faydown |  | Verified |  |
 | BMA | Bottom to Ascent | Ascent | Bottom (Middle) | Cling Grip OR Scuttlebrace OR Silk Soar OR Faydown |  | Verified |  |
 | AML | Ascent to Middle Left | Ascent | Middle (Left) | Cling Grip OR Scuttlebrace OR Silk Soar OR Faydown |  | Verified |  |
@@ -11045,7 +11141,9 @@ No subroom connections defined.
 
 #### Check Locations
 
-No check locations defined.
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Injector Band | Middle (Left) | Nothing |  | Verified | Included |  |
 
 ### Whiteward Descent (Ward_06)
 
@@ -11064,7 +11162,7 @@ No check locations defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | T | Top | Descent Upper | [Whiteward Descent Connection (Ward_03)](#whiteward-descent-connection-ward03) | B | Nothing |  | Verified |  |
-| B | Bottom | Descent Lower | [Underworks Twelfth Architect (Under_17)](#underworks-twelfth-architect-under17) | UP | Nothing (Fall) |  | Verified | The Cauldron is undone as of now so the game name for the room destination is listed. |
+| B | Bottom | Descent Lower | [Underworks Twelfth Architect (Under_17)](#underworks-twelfth-architect-under17) | UP | Nothing (Fall) |  | Verified |  |
 
 #### Subroom Connections
 
@@ -11079,8 +11177,8 @@ No check locations defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Whiteward Descent - Rosary Cache #1 | Descent Rosary Side | Nothing |  | Verified | Included |  |
-| Whiteward Descent - Rosary Cache #2 | Descent Rosary Side | Nothing |  | Verified | Included |  |
+| Whiteward - Rosary Cache #1 | Descent Rosary Side | Nothing |  | Verified | Included |  |
+| Whiteward - Rosary Cache #2 | Descent Rosary Side | Nothing |  | Verified | Included |  |
 
 ### Whiteward Junk Dump (Ward_07)
 
@@ -11106,7 +11204,8 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Whiteward Top Right - Lore |  | Nothing |  | Verified | Included |  |
+| Whiteward - Oath |  | Nothing |  | Verified | Included |  |
+| Surgeon's Key |  | Clawline Skill |  | Verified | Included |  |
 
 ### Whiteward Long Horizontal (Ward_05)
 
@@ -11132,7 +11231,7 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Choral Commandment #3 |  | Nothing |  | Verified | Included |  |
+| Relic: Choral Commandment (Eastern Whiteward) |  | Nothing |  | Verified | Included |  |
 
 ### Whiteward Silkeater (Ward_04)
 
@@ -11178,7 +11277,7 @@ No subroom connections defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| T | Top | Vertical Left | [Whiteward Map Room (Ward_02b)](#whiteward-map-room-ward02b) | B | Silk Soar OR Faydown OR Cling Grip OR Scuttlebrace |  | Verified |  |
+| T | Top | Vertical Left | [Whiteward Tunnel Room (Ward_02b)](#whiteward-tunnel-room-ward02b) | B | Silk Soar OR Faydown OR Cling Grip OR Scuttlebrace |  | Verified |  |
 | R | Right | Surgery Tables (Right) | [Whiteward Entrance (Ward_01)](#whiteward-entrance-ward01) | BL | Nothing |  | Verified |  |
 | B | Bottom | Unravelled Arena | [Confession Toll (Under_08)](#confession-toll-under08) | T | Beat Unravelled Arena |  | Verified |  |
 
@@ -11188,20 +11287,21 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | SLV | Surgery Left to Vertical | Surgery Tables (Left) | Vertical Left | Ledge Grab OR Faydown OR Clawline OR Silk Soar OR (Proficient Movement AND Scuttlebrace) |  | Verified |  |
 | SLV | Surgery Left to Vertical | Vertical Left | Surgery Tables (Left) | Nothing (Falling) |  | Verified |  |
-| SRL | Surgery Right to Left | Surgery Tables (Right) | Surgery Tables (Left) | (Nothing AND NOT Key Inserted) OR (Faydown OR Clawline OR Sharpdart) |  | Verified |  |
-| SRL | Surgery Right to Left | Surgery Tables (Left) | Surgery Tables (Right) | (Nothing AND NOT Key Inserted) OR (Faydown OR Clawline OR Sharpdart) |  | Verified |  |
-| SKS | Surgery to Key Shaft | Surgery Tables (Left) | Key Shaft | Nothing (Falling) |  | Verified |  |
-| SKS | Surgery to Key Shaft | Key Shaft | Surgery Tables (Left) | Silk Soar |  | Verified |  |
+| SRL | Surgery Right to Left | Surgery Tables (Right) | Surgery Tables (Left) | Nothing |  | Verified |  |
+| SRL | Surgery Right to Left | Surgery Tables (Left) | Surgery Tables (Right) | Nothing |  | Verified |  |
+| SKS | Surgery to Key Shaft | Surgery Tables (Left) | Key Shaft | Surgeon's Key Used |  | Verified |  |
+| SKS | Surgery to Key Shaft | Key Shaft | Surgery Tables (Left) | Surgeon's Key Used AND Silk Soar |  | Verified |  |
 | KSA | Key Shaft to Arena | Key Shaft | Unravelled Arena | Nothing (Falling) |  | Verified |  |
-| KSA | Key Shaft to Arena | Unravelled Arena | Key Shaft | Silk Soar |  | Verified |  |
+| KSA | Key Shaft to Arena | Unravelled Arena | Key Shaft | Surgeon's Key Used AND Silk Soar |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| White Ward: Silk Heart | Unravelled Arena | Beat Unravelled Arena |  | Verified | Included |  |
+| The Unravelled - Silk Heart | Unravelled Arena | Beat Unravelled Arena |  | Verified | Included |  |
+| Boss: The Unravelled | Unravelled Arena | Beat Unravelled Arena |  | Verified | Included |  |
 
-### Whiteward Map Room (Ward_02b)
+### Whiteward Tunnel Room (Ward_02b)
 
 **Game ID:** Ward_02b
 
@@ -11220,7 +11320,7 @@ No subroom connections defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | B | Bottom | Lower Tunnels | [Whiteward Unravelled Arena Room (Ward_02)](#whiteward-unravelled-arena-room-ward02) | T | Nothing |  | Verified |  |
-| R | Right | Pickup Section | [Whiteward Entrance (Ward_01)](#whiteward-entrance-ward01) | ML | Break 4x Wall |  | Verified |  |
+| R | Right | Pickup Section | [Whiteward Entrance (Ward_01)](#whiteward-entrance-ward01) | ML | Break 4x Wall from Left |  | Verified |  |
 
 #### Subroom Connections
 
@@ -11238,7 +11338,7 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Map: Whiteward | Pickup Section | Nothing |  | Verified | Included |  |
+| Relic: Choral Commandment (Western Whiteward) | Pickup Section | Nothing |  | Verified | Included |  |
 
 ## High Halls
 
@@ -13027,6 +13127,451 @@ No subroom connections defined.
 ## Putrified Ducts
 
 ## The Cradle
+
+### ACT3 Connection To GMS (Cradle_01_Destroyed)
+
+**Game ID:** Cradle_01_Destroyed
+
+**Contributors:** Pyxl
+
+#### Subrooms
+
+No subrooms defined.
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| F | bot1 |  | [ACT3 Lace2 Arena (Song_Tower_Destroyed)](#act3-lace2-arena-songtowerdestroyed) | C | ~None |  | Verified |  |
+| C | top1 |  | [ACT3 GMS Arena (Cradle_03_Destroyed)](#act3-gms-arena-cradle03destroyed) | F | ( Cling Grip OR Scuttlebrace ) AND ( Silk Soar OR Faydown Cloak ) |  | Verified |  |
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+No check locations defined.
+
+### ACT3 GMS Arena (Cradle_03_Destroyed)
+
+**Game ID:** Cradle_03_Destroyed
+
+**Contributors:** Pyxl
+
+#### Subrooms
+
+- Bottom
+- Bridge
+- Door To Surface
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| F | bot1 | Bottom | [ACT3 Connection To GMS (Cradle_01_Destroyed)](#act3-connection-to-gms-cradle01destroyed) | C | None |  | Verified |  |
+| D | door1 | Door To Surface | [Cradle Path Of Pain First Room (Cradle_Destroyed_Challenge_02)](#cradle-path-of-pain-first-room-cradledestroyedchallenge02) | L | None |  | Verified |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| CB | Climb Bridge | Bottom | Bridge | Silk Soar OR ( Cling Grip AND Faydown Cloak AND ( Clawline OR Dash OR Drifters Cloak ) |  | Verified |  |
+| CB | Climb Bridge | Bridge | Bottom | None |  | Verified |  |
+| SS | Surface Shaft | Bridge | Door To Surface | Silk Soar |  | Verified |  |
+| SS | Surface Shaft | Door To Surface | Bridge | None |  | Verified |  |
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Pale Nails | Bridge | None |  | Verified | Included |  |
+
+### ACT3 Lace2 Arena (Song_Tower_Destroyed)
+
+**Game ID:** Song_Tower_Destroyed
+
+**Contributors:** Pyxl
+
+#### Subrooms
+
+- Surface Path
+- Flower Bed
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| F | bot1 | Flower Bed | TODO |  | None |  | Verified |  |
+| C | top1 | Surface Path | [ACT3 Connection To GMS (Cradle_01_Destroyed)](#act3-connection-to-gms-cradle01destroyed) | F | None |  | Verified |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| UA | Up And Away | Flower Bed | Surface Path | Silk Soar |  | Verified |  |
+| UA | Up And Away | Surface Path | Flower Bed | None |  | Verified |  |
+
+#### Check Locations
+
+No check locations defined.
+
+### ACT2 GMS Arena (Cradle_03)
+
+**Game ID:** Cradle_03
+
+**Contributors:** Pyxl
+
+#### Subrooms
+
+- Bottom
+- Shell Shard Ledge
+- Arena
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left2 | Bottom | [Act2 Cradle Left Shaft (Cradle_02)](#act2-cradle-left-shaft-cradle02) | UR | None |  | Verified | None |
+| R | right2 | Bottom | [Terminus Ventrica (Tube_Hub)](#terminus-ventrica-tubehub) | UL | None |  | Verified | None |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| P1 | Platforms 1 | Bottom | Shell Shard Ledge | Silk Soar OR ( Cling Grip AND ( Dash OR Clawline OR Faydown Cloak OR Sharpdart ) ) |  | Verified |  |
+| P1 | Platforms 1 | Shell Shard Ledge | Bottom | None |  | Verified |  |
+| P2 | Platforms 2 | Shell Shard Ledge | Arena | Silk Soar OR ( Cling Grip AND ( Dash OR Clawline OR Sharpdart ) ) OR Faydown Cloak |  | Verified |  |
+| P2 | Platforms 2 | Arena | Shell Shard Ledge | None |  | Verified |  |
+| P3 | Platforms 3 | Bottom | Arena | Silk Soar OR ( Cling Grip AND ( Dash OR Clawline OR Faydown Cloak OR Sharpdart ) ) |  | Verified |  |
+| P3 | Platforms 3 | Arena | Bottom | None |  | Verified |  |
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Shell Shard Cache: Cradle #1 | Shell Shard Ledge | None |  | Verified | Included |  |
+| Boss: Grand Mother Silk | Arena | None |  | Verified | Included |  |
+
+### Act2 Cradle Connector Hallway (Cradle_01)
+
+**Game ID:** Cradle_01
+
+**Contributors:** Pyxl
+
+#### Subrooms
+
+No subrooms defined.
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left1 |  | [Act2 Cradle Left Shaft (Cradle_02)](#act2-cradle-left-shaft-cradle02) | LR | None |  | Verified |  |
+| R | right1 |  | [Terminus Ventrica (Tube_Hub)](#terminus-ventrica-tubehub) | ML | None |  | Verified |  |
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+No check locations defined.
+
+### Act2 Cradle Left Shaft (Cradle_02)
+
+**Game ID:** Cradle_02
+
+**Contributors:** Pyxl
+
+#### Subrooms
+
+- Map Ledge
+- Weaver Lore Ledge
+- Lower Right Ledge
+- Upper Right Ledge
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| UR | right1 | Upper Right Ledge | [ACT2 GMS Arena (Cradle_03)](#act2-gms-arena-cradle03) | L | None |  | Verified |  |
+| L | left2 | Weaver Lore Ledge | [Weaver Jail Lore Room (Cradle_02b)](#weaver-jail-lore-room-cradle02b) | R | Break Wall |  | Verified |  |
+| LR | right2 | Lower Right Ledge | [Act2 Cradle Connector Hallway (Cradle_01)](#act2-cradle-connector-hallway-cradle01) | L | None |  | Verified |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| S1 | Lower Shaft | Weaver Lore Ledge | Lower Right Ledge | Faydown Cloak OR Cling Grip OR Scuttlebrace |  | Verified |  |
+| S1 | Lower Shaft | Lower Right Ledge | Weaver Lore Ledge | None |  | Verified |  |
+| S2 | Central Shaft | Lower Right Ledge | Map Ledge | Cling Grip OR Scuttlebrace |  | Verified |  |
+| S2 | Central Shaft | Map Ledge | Lower Right Ledge | None |  | Verified |  |
+| S3 | Upper Shaft | Map Ledge | Upper Right Ledge | Cling Grip OR Scuttlebrace |  | Verified |  |
+| S3 | Upper Shaft | Upper Right Ledge | Map Ledge | None |  | Verified |  |
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Map: Cradle | Map Ledge | None |  | Verified | Included |  |
+
+### Lace 2 Fight (Song_Tower_01)
+
+**Game ID:** Song_Tower_01
+
+**Contributors:** Pyxl
+
+#### Subrooms
+
+No subrooms defined.
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| D | door_cinematicEnd |  | [Cog Dancers (Cog_Dancers)](#cog-dancers-cogdancers) | E | Lace 2 Defeated | TODO | Verified | You know im not actually sure which of these doors is the elevator will need to double check once images are in |
+| R | right1 |  | [Terminus Ventrica (Tube_Hub)](#terminus-ventrica-tubehub) | LL | Lace 2 Defeated |  | Verified |  |
+| DR | door_cutsceneEndLaceTower |  | TODO |  |  | TODO | Verified | The silk heart room, think its been disabled in mod |
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Boss: Lace 2 |  | Proficient Combat OR 2 Needle Upgrades |  | Verified | Included |  |
+| Silk Heart: Lace 2 |  | Lace 2 Defeated |  | Verified | Included |  |
+
+#### Notes
+
+No map image for this
+
+### Terminus Ventrica (Tube_Hub)
+
+**Game ID:** Tube_Hub
+
+**Contributors:** Pyxl
+
+#### Subrooms
+
+- Ventricas
+- Silkeater Room
+- Lower Shaft
+- Central Shaft
+- Upper Shaft
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| LL | left1 | Lower Shaft | [Lace 2 Fight (Song_Tower_01)](#lace-2-fight-songtower01) | R | ACT 2 |  | Verified |  |
+| ML | left4 | Central Shaft | [Act2 Cradle Connector Hallway (Cradle_01)](#act2-cradle-connector-hallway-cradle01) | R | ACT 2 |  | Verified |  |
+| UL | left3 | Upper Shaft | [ACT2 GMS Arena (Cradle_03)](#act2-gms-arena-cradle03) | R | ACT 2 |  | Verified |  |
+| V | door_tubeEnter | Ventricas | [Ventrica Menu](#ventrica-menu) | T | Terminus Ventrica Owned |  | Verified |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| SES | Silk Eater Shaft | Silkeater Room | Ventricas | Break Breakable Floor AND ( Cling Grip OR Scuttlebrace ) |  | Verified | Potentially possible with silk soar if you come during act 3 |
+| SES | Silk Eater Shaft | Ventricas | Silkeater Room | Break Breakable Floor |  | Verified |  |
+| TS1 | Tall Shaft1 | Ventricas | Lower Shaft | One way wall opened from Lower Shaft |  | Verified |  |
+| TS1 | Tall Shaft1 | Lower Shaft | Ventricas | One way wall opened from Lower Shaft AND ( Scuttlebrace OR Cling Grip OR Silk Soar ) |  | Verified |  |
+| TS2 | Tall Shaft2 | Lower Shaft | Central Shaft | Scuttlebrace OR Cling Grip OR Silk Soar |  | Verified |  |
+| TS2 | Tall Shaft2 | Central Shaft | Lower Shaft | None |  | Verified |  |
+| TS3 | Tall Shaft3 | Central Shaft | Upper Shaft | One way door opened from Upper Shaft AND ( Scuttlebrace OR Cling Grip OR Silk Soar ) |  | Verified |  |
+| TS3 | Tall Shaft3 | Upper Shaft | Central Shaft | One way door opened from Upper Shaft |  | Verified |  |
+|  |  |  |  |  |  | Verified |  |
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Silkeate: Terminus | Silkeater Room | None |  | Verified | Included |  |
+
+#### Notes
+
+I entered this during act 3 and got the same scene dump, dont believe they count as differant rooms also cannot find the area on the map
+
+### Weaver Jail Lore Room (Cradle_02b)
+
+**Game ID:** Cradle_02b
+
+**Contributors:** Pyxl
+
+#### Subrooms
+
+- Bottom
+- Loreplatform1
+- Loreplatform2
+- Loreplatform3
+- Exit
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| R | right1 | Exit | [Act2 Cradle Left Shaft (Cradle_02)](#act2-cradle-left-shaft-cradle02) | L | None |  | Verified |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| B1 | Bottom To Platform 1 | Bottom | Loreplatform1 | Silk Soar OR Faydown Cloak OR ( Cling Grip AND Clawline ) |  | Verified |  |
+| B1 | Bottom To Platform 1 | Loreplatform1 | Bottom | None |  | Verified |  |
+| P12 | Platform 1 To Platform 2 | Loreplatform1 | Loreplatform2 | Silk Soar OR Faydown Cloak OR ( Cling Grip AND Clawline ) |  | Verified |  |
+| P12 | Platform 1 To Platform 2 | Loreplatform2 | Loreplatform1 | None |  | Verified |  |
+| P23 | Platform 2 To Platform 3 | Loreplatform2 | Loreplatform3 | Silk Soar OR Faydown Cloak OR ( Cling Grip AND Clawline ) |  | Verified |  |
+| P23 | Platform 2 To Platform 3 | Loreplatform3 | Loreplatform2 | None |  | Verified |  |
+| P3L | Platform 3 To Exit | Loreplatform3 | Exit | Clawline OR ( Faydown Cloak AND Drifters Cloak ) |  | Verified |  |
+| P3L | Platform 3 To Exit | Exit | Loreplatform3 | Faydown Cloak OR Drifters Cloak OR Clawline OR Sprint OR Dash |  | Verified |  |
+| LP2 | Exit To Platform 2 | Exit | Loreplatform2 | None |  | Verified |  |
+| LP2 | Exit To Platform 2 | Loreplatform2 | Exit | Cling Grip OR Silk Soar OR Scuttlebrace OR ( Faydown Cloak AND ( Ledge grab OR Shamen Crest OR Clawline ) |  | Verified |  |
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Lore: Cradle #1 | Bottom | None |  | Verified | Included |  |
+| Lore: Cradle #2 | Loreplatform1 | None |  | Verified | Included |  |
+| Lore: Cradle #3 | Loreplatform3 | None |  | Verified | Included |  |
+
+### Cradle Path Of Pain First Room (Cradle_Destroyed_Challenge_02)
+
+**Game ID:** Cradle_Destroyed_Challenge_02
+
+**Contributors:** Pyxl
+
+#### Subrooms
+
+- Start
+- End
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| C | top1 |  | [Path of Pain Bench (Cradle_Destroyed_Challenge_Bench)](#path-of-pain-bench-cradledestroyedchallengebench) | F | Cling Grip OR Silk Soar OR Scuttlebrace |  | Verified |  |
+| L | left1 |  | [ACT3 GMS Arena (Cradle_03_Destroyed)](#act3-gms-arena-cradle03destroyed) | D | None |  | Verified |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| WR | Whole Room | Start | End | Faydown Cloak AND Cling Grip AND ( Clawline OR Dash ) |  | Verified |  |
+| WR | Whole Room | End | Start | Faydown Cloak OR Drifters Cloak OR Clawline OR Dash |  | Verified |  |
+
+#### Check Locations
+
+No check locations defined.
+
+#### Notes
+
+Needs a map link
+
+### Path of Pain Bench (Cradle_Destroyed_Challenge_Bench)
+
+**Game ID:** Cradle_Destroyed_Challenge_Bench
+
+**Contributors:** Pyxl
+
+#### Subrooms
+
+No subrooms defined.
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| R | right1 |  | [Path Of Pain Silksong (Cradle_Destroyed_Challenge_01)](#path-of-pain-silksong-cradledestroyedchallenge01) | L | None |  | Verified |  |
+| F | bot1 |  | [Cradle Path Of Pain First Room (Cradle_Destroyed_Challenge_02)](#cradle-path-of-pain-first-room-cradledestroyedchallenge02) | C | none |  | Verified |  |
+| D | door1 |  | [The Surface (Abandoned_town)](#the-surface-abandonedtown) | D | Silk Soar OR ( Faydown Cloak AND Clinggrip ) |  | Verified |  |
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+No check locations defined.
+
+#### Notes
+
+Needs a map link
+
+### Path Of Pain Silksong (Cradle_Destroyed_Challenge_01)
+
+**Game ID:** Cradle_Destroyed_Challenge_01
+
+**Contributors:** Pyxl
+
+#### Subrooms
+
+- Top
+- Bottom
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| C | top1 | Top | [The Surface (Abandoned_town)](#the-surface-abandonedtown) | F | Cling Grip AND Clawline AND Faydown Cloak |  | Verified |  |
+| L | left1 | Bottom | [Path of Pain Bench (Cradle_Destroyed_Challenge_Bench)](#path-of-pain-bench-cradledestroyedchallengebench) | R | Medium Skips OR Drifters Cloak |  | Verified |  |
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+No check locations defined.
+
+#### Notes
+
+No map link for this
+
+### The Surface (Abandoned_town)
+
+**Game ID:** Abandoned_town
+
+**Contributors:** Pyxl
+
+#### Subrooms
+
+- Hole
+- Door
+- Nameless Town
+
+- **Nameless Town:**  Right Side of room cant place box
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| D | door1 | Door | [Path of Pain Bench (Cradle_Destroyed_Challenge_Bench)](#path-of-pain-bench-cradledestroyedchallengebench) | D | None |  | Verified |  |
+| F | bot1 | Hole | [Path Of Pain Silksong (Cradle_Destroyed_Challenge_01)](#path-of-pain-silksong-cradledestroyedchallenge01) | C | None |  | Verified |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| SL | Surface Left | Hole | Door | None |  | Verified |  |
+| SL | Surface Left | Door | Hole | Faydown Cloak OR Cling Grip OR Ledge Grab OR Scuttlebrace |  | Verified |  |
+| SR | Surface Right | Door | Nameless Town | None |  | Verified |  |
+| SR | Surface Right | Nameless Town | Door | None |  | Verified |  |
+| HN | Hole to Nameless Town | Hole | Nameless Town | None |  | Verified |  |
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Surface Memento | Nameless Town | None |  | Verified | Not included |  |
+
+#### Notes
+
+No map link for this
 
 ## The Abyss
 

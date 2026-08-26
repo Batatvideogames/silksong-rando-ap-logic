@@ -12,7 +12,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left |  | [Weavenest Atla Teleporter (Weave_02)](weavenest-atla-teleporter.md) | UR | none |  |  |  |
+| L | left |  | [Weavenest Atla Teleporter (Weave_02)](weavenest-atla-teleporter.md) | UR | none |  | Verified |  |
 
 ## Subroom Connections
 
@@ -22,5 +22,5 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| power activation |  | none |  |  | Not included | NOT CURRENTLY RANDOMIZED |
-| weavenest atla map |  | none |  |  | Included | weavenest atla power activation |
+| weavenest atla power activation |  | activate switch up |  | Verified | Not included | NOT CURRENTLY RANDOMIZED |
+| weavenest atla map |  | weavenest atla power activation |  | Verified | Included |  |

@@ -24,7 +24,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | LW | Left Wall | Left Side | Central | Cling Grip OR Faydown Cloak OR Silk Soar OR ( Dash AND Scuttlebrace ) |  |  |  |
 | LW | Left Wall | Central | Left Side | Cling Grip OR Faydown Cloak OR Silk Soar OR ( Dash AND Scuttlebrace ) |  |  |  |
-| RW | Right Wall | Central | Right Side | ( Swim OR Drifters Cloak AND Easy Skip ) AND ( Cling Grip OR ( Dash AND Scuttlebrace ) |  |  |  |
+| RW | Right Wall | Central | Right Side | ( Swim OR ( Drifters Cloak  AND Easy Skips ) ) AND ( Cling Grip OR Scuttlebrace ) |  |  |  |
 | RW | Right Wall | Right Side | Central | Cling Grip OR Faydown Cloak OR Silk Soar OR ( Dash AND Scuttlebrace ) |  |  |  |
 | HS | Hidden Shaft | Left Side | Upper Area | Break wall from upper Area AND Silk Soar |  |  |  |
 | HS | Hidden Shaft | Upper Area | Left Side | Break wall from upper Area |  |  |  |

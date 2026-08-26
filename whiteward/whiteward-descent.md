@@ -15,7 +15,7 @@
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | T | Top | Descent Upper | [Whiteward Descent Connection (Ward_03)](whiteward-descent-connection.md) | B | Nothing |  | Verified |  |
-| B | Bottom | Descent Lower | [Underworks Twelfth Architect (Under_17)](../underworks/underworks-twelfth-architect.md) | UP | Nothing (Fall) |  | Verified | The Cauldron is undone as of now so the game name for the room destination is listed. |
+| B | Bottom | Descent Lower | [Underworks Twelfth Architect (Under_17)](../underworks/underworks-twelfth-architect.md) | UP | Nothing (Fall) |  | Verified |  |
 
 ## Subroom Connections
 
@@ -30,5 +30,5 @@
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Whiteward Descent - Rosary Cache #1 | Descent Rosary Side | Nothing |  | Verified | Included |  |
-| Whiteward Descent - Rosary Cache #2 | Descent Rosary Side | Nothing |  | Verified | Included |  |
+| Whiteward - Rosary Cache #1 | Descent Rosary Side | Nothing |  | Verified | Included |  |
+| Whiteward - Rosary Cache #2 | Descent Rosary Side | Nothing |  | Verified | Included |  |

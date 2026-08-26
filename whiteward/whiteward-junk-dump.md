@@ -22,4 +22,5 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Whiteward Top Right - Lore |  | Nothing |  | Verified | Included |  |
+| Whiteward - Oath |  | Nothing |  | Verified | Included |  |
+| Surgeon's Key |  | Clawline Skill |  | Verified | Included |  |

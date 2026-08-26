@@ -28,5 +28,7 @@
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Shell Shard Cache: Shellwood #12 | Top | None |  |  | Included |  |
+| Shell Shard Cache: Shellwood #1 | Top | None |  |  | Included |  |
 | Bench | Bottom | Cling Grip OR ( Dash AND Scuttlebrace ) |  |  | Included |  |
+| Shell Shard Cache: Shellwood #2 | Top | None |  |  | Included |  |
+| Shell Shard Cache: Shellwood #3 | Top | None |  |  | Included |  |
