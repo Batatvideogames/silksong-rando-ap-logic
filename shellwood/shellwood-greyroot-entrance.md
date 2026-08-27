@@ -12,8 +12,8 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| D | door1 |  | [Greyroot (Room_Witch)](greyroot.md) | L | None |  |  |  |
-| R | right1 |  | [Shellwood Big Room Left (Shellwood_02)](shellwood-big-room-left.md) | UL | None |  |  |  |
+| D | door1 |  | [Greyroot (Room_Witch)](greyroot.md) | L | None |  | Verified |  |
+| R | right1 |  | [Shellwood Big Room Left (Shellwood_02)](shellwood-big-room-left.md) | UL | None |  | Verified |  |
 
 ## Subroom Connections
 

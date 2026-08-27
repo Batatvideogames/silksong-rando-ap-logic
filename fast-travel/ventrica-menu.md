@@ -8,7 +8,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| T | terminus |  | TODO |  | terminus ventrica unlocked | TODO |  |  |
+| T | terminus |  | [Terminus Ventrica (Tube_Hub)](../the-cradle/terminus-ventrica.md) | V | terminus ventrica unlocked |  | Verified |  |
 | M | memorium |  | TODO |  | memorium ventrica unlocked | TODO |  |  |
 | HH | high halls |  | [High Halls Ventrica (Hang_06b)](../high-halls/high-halls-ventrica.md) | V | high halls ventrica unlocked |  | Verified |  |
 | FS | first shrine |  | [Songclave Tube (Song_Enclave_Tube)](../choral-chambers/songclave-tube.md) | V | first shrine ventrica unlocked |  | Verified |  |

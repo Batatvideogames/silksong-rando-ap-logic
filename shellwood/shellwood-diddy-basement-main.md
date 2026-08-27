@@ -15,23 +15,23 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 | Left Corridor | [Greyroots Basement Tall room (Mosstown_03)](greyroots-basement-tall-room.md) | UR | None |  |  |  |
-| D | door1 | Right Corridor | [Witch Chapel (Shellwood_25b)](witch-chapel.md) | L | Not accesible from this side |  |  |  |
+| L | left1 | Left Corridor | [Greyroots Basement Tall room (Mosstown_03)](greyroots-basement-tall-room.md) | UR | None |  | Verified |  |
+| D | door1 | Right Corridor | [Witch Chapel (Shellwood_25b)](witch-chapel.md) | L | Not accesible from this side |  | Verified |  |
 
 ## Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| LW | Left Wall | Left Corridor | Left Puddles | Cling Grip OR Silk soar OR Faydown Cloak OR ( Dash AND Scuttlebrace ) |  |  |  |
-| LW | Left Wall | Left Puddles | Left Corridor | None |  |  |  |
-| PU | Puddles | Left Puddles | Right Puddles | Swim OR Clawline OR Sharpdart OR Drifters Cloak OR Easy skips |  |  |  |
-| PU | Puddles | Right Puddles | Left Puddles | Swim OR Clawline OR Sharpdart OR Drifters Cloak OR Easy skips |  |  |  |
-| RW | Right Wall | Right Puddles | Right Corridor | Cling Grip OR Silk soar OR Faydown Cloak OR ( Dash AND Scuttlebrace ) |  |  |  |
-| RW | Right Wall | Right Corridor | Right Puddles | None |  |  |  |
+| LW | Left Wall | Left Corridor | Left Puddles | Cling Grip OR Silk soar OR Faydown Cloak OR ( Dash AND Scuttlebrace ) |  | Verified |  |
+| LW | Left Wall | Left Puddles | Left Corridor | None |  | Verified |  |
+| PU | Puddles | Left Puddles | Right Puddles | Swim OR Clawline OR Sharpdart OR Drifters Cloak OR Easy skips |  | Verified |  |
+| PU | Puddles | Right Puddles | Left Puddles | Swim OR Clawline OR Sharpdart OR Drifters Cloak OR Easy skips |  | Verified |  |
+| RW | Right Wall | Right Puddles | Right Corridor | Cling Grip OR Silk soar OR Faydown Cloak OR ( Dash AND Scuttlebrace ) |  | Verified |  |
+| RW | Right Wall | Right Corridor | Right Puddles | None |  | Verified |  |
 
 ## Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Rosary String: Shellwood #2 | Left Puddles | Cling Grip OR Silk Soar OR ( Faydown Cloak AND Shaman Crest ) OR ( Dash AND Scuttlebrace ) |  |  | Included |  |
-| Relic: Weaver effigy (Keelal, Shellwood) | Right Corridor | Cling Grip AND Swim AND ( Clawline OR Faydown Cloak OR Drifters Cloak OR Sharpdart OR Beast Crest OR Sprint OR Dash ) |  |  | Included |  |
+| Rosary String: Shellwood #2 | Left Puddles | Cling Grip OR Silk Soar OR ( Faydown Cloak AND Shaman Crest ) OR ( Dash AND Scuttlebrace ) |  | Verified | Included |  |
+| Relic: Weaver effigy (Keelal, Shellwood) | Right Corridor | Cling Grip AND Swim AND ( Clawline OR Faydown Cloak OR Drifters Cloak OR Sharpdart OR Beast Crest OR Sprint OR Dash ) |  | Verified | Included |  |

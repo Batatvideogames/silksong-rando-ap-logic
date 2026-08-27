@@ -12,8 +12,8 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Shellwood Greyroot entrance (Shellwood_Witch)](shellwood-greyroot-entrance.md) | D | None |  |  |  |
-| QR | Quest Rebirth |  | [Witch Chapel (Shellwood_25b)](witch-chapel.md) | QR | Rite of the pollip Completed AND owns twisted bud |  |  |  |
+| L | left1 |  | [Shellwood Greyroot entrance (Shellwood_Witch)](shellwood-greyroot-entrance.md) | D | None |  | Verified |  |
+| QR | Quest Rebirth |  | [Witch Chapel (Shellwood_25b)](witch-chapel.md) | QR | All 6 Pollip Hearts Owned AND Twisted Bud Owned |  | Verified | One way one use Teleport |
 
 ## Subroom Connections
 
@@ -23,4 +23,4 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Pollip Pouch |  | 6 Pollip Hearts |  |  | Included |  |
+| Pollip Pouch |  | 6 Pollip Hearts |  | Verified | Included |  |

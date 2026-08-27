@@ -12,8 +12,8 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 |  | [Shellwood Sister Splinter Bench (Shellwood_01b)](shellwood-sister-splinter-bench.md) | UL | None |  |  |  |
-| L | left1 |  | [Cling Grip Room (Shellwood_10)](cling-grip-room.md) | LR | None |  |  |  |
+| R | right1 |  | [Shellwood Sister Splinter Bench (Shellwood_01b)](shellwood-sister-splinter-bench.md) | UL | None |  | Verified |  |
+| L | left1 |  | [Cling Grip Room (Shellwood_10)](cling-grip-room.md) | LR | None |  | Verified |  |
 
 ## Subroom Connections
 
@@ -23,4 +23,4 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Pollip Heart #3 |  | None |  |  | Included |  |
+| Pollip Heart #3 |  | None |  | Verified | Included |  |

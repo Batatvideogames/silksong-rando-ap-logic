@@ -12,7 +12,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Sands of Karak Elevator to Blasted Steps (Coral_38)](sands-of-karak-elevator-to-blasted-steps.md) | R | None |  |  |  |
+| L | left1 |  | [Sands of Karak Elevator to Blasted Steps (Coral_38)](sands-of-karak-elevator-to-blasted-steps.md) | R | None |  | Verified |  |
 
 ## Subroom Connections
 
@@ -22,4 +22,4 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Simple key: Sands of Karak east bench |  | None |  |  | Included |  |
+| Simple key: Sands of Karak east bench |  | None |  | Verified | Included |  |

@@ -12,7 +12,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 |  | [Sands of Karak Lower Left Long Room (Coral_23)](sands-of-karak-lower-left-long-room.md) | UL | None |  |  |  |
+| R | right1 |  | [Sands of Karak Lower Left Long Room (Coral_23)](sands-of-karak-lower-left-long-room.md) | UL | None |  | Verified |  |
 
 ## Subroom Connections
 
@@ -22,5 +22,5 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Watcher at the edge |  | Needolin AND ( 2 x Needle upgrade OR Proficient combat ) |  |  | Included |  |
-| Grey Memento |  | Needolin AND ( 2 x Needle upgrade OR Proficient combat ) |  |  | Included |  |
+| Watcher at the edge |  | Needolin AND ( 2 x Needle upgrade OR Proficient combat ) |  | Verified | Included |  |
+| Grey Memento |  | Needolin AND ( 2 x Needle upgrade OR Proficient combat ) |  | Verified | Not included |  |

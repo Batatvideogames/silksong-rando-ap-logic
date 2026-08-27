@@ -33,7 +33,6 @@
 | TS2 | Tall Shaft2 | Central Shaft | Lower Shaft | None |  | Verified |  |
 | TS3 | Tall Shaft3 | Central Shaft | Upper Shaft | One way door opened from Upper Shaft AND ( Scuttlebrace OR Cling Grip OR Silk Soar ) |  | Verified |  |
 | TS3 | Tall Shaft3 | Upper Shaft | Central Shaft | One way door opened from Upper Shaft |  | Verified |  |
-|  |  |  |  |  |  | Verified |  |
 
 ## Check Locations
 

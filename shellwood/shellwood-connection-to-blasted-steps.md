@@ -12,9 +12,9 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 |  | [Shellwood Bellshrine (Bellshrine_03)](shellwood-bellshrine.md) | L | None |  |  |  |
-| L | left1 |  | [Blasted Steps Map Edge (Coral_19)](../blasted-steps/blasted-steps-map-edge.md) | R | None |  |  |  |
-| F | bot1 |  | [shellwood Far Left Tall Room (Shellwood_04c)](shellwood-far-left-tall-room.md) | C | None |  |  |  |
+| R | right1 |  | [Shellwood Bellshrine (Bellshrine_03)](shellwood-bellshrine.md) | L | None |  | Verified |  |
+| L | left1 |  | [Blasted Steps Map Edge (Coral_19)](../blasted-steps/blasted-steps-map-edge.md) | R | None |  | Verified |  |
+| F | bot1 |  | [shellwood Far Left Tall Room (Shellwood_04c)](shellwood-far-left-tall-room.md) | C | None |  | Verified |  |
 
 ## Subroom Connections
 

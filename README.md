@@ -209,9 +209,16 @@ Generated from the non-archived records in `input/silksong-rando-logic.db`.
 ## Greymoor
 
 - [Greymoor Bellshrine (Bellshrine_02)](./greymoor/greymoor-bellshrine.md)
-- [Greymoor Bone Scroll Room (Greymoor_21)](./greymoor/greymoor-bone-scroll-room.md)
+- [Greymoor Craw Lake (Greymoor_15b)](./greymoor/greymoor-craw-lake.md)
+- [Greymoor Craw Lake Entrance (Greymoor_15)](./greymoor/greymoor-craw-lake-entrance.md)
+- [Greymoor Crow Nest (Room_CrowCourt)](./greymoor/greymoor-crow-nest.md)
+- [Greymoor East Bellshrine Room (Greymoor_02)](./greymoor/greymoor-east-bellshrine-room.md)
 - [Greymoor Lower Halfway Home Path (Greymoor_13)](./greymoor/greymoor-lower-halfway-home-path.md)
+- [Greymoor Silver Shells room (Greymoor_17)](./greymoor/greymoor-silver-shells-room.md)
+- [Greymoor Upper Halfway Home Path (Greymoor_12)](./greymoor/greymoor-upper-halfway-home-path.md)
+- [Greymoor Weaver Shrine (Greymoor_22)](./greymoor/greymoor-weaver-shrine.md)
 - [Greymoor West Bellshrine Room  (Greymoor_01)](./greymoor/greymoor-west-bellshrine-room.md)
+- [Greymoor bone scroll room (Greymoor_21)](./greymoor/greymoor-bone-scroll-room.md)
 
 ## Whisp Thicket
 

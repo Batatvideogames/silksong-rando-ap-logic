@@ -1,8 +1,6 @@
-# Greymoor Bone Scroll Room (Greymoor_21)
+# Greymoor bone scroll room (Greymoor_21)
 
 **Game ID:** Greymoor_21
-
-**Contributors:** isssma
 
 ## Subrooms
 
@@ -12,7 +10,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| T | top |  | [Greymoor Lower Halfway Home Path (Greymoor_13)](greymoor-lower-halfway-home-path.md) | D | Ledge grab OR faydown cloak OR silk soar OR cling grip OR shaman crest pogo |  | Verified |  |
+| T | top |  | [Greymoor Lower Halfway Home Path (Greymoor_13)](greymoor-lower-halfway-home-path.md) | D | Ledge grab OR faydown cloak OR silk soar OR cling grip OR medium crest pogo (shaman) |  | Verified |  |
 
 ## Subroom Connections
 

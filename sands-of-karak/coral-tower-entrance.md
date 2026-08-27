@@ -20,7 +20,7 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| SC | Sandcarver Pit | Door | Exit | "Clawline OR Sharpdart OR Drifters Cloak OR ( Sprint AND ( Dash OR Faydown Cloak OR Beast Crest ) ) OR  ( Faydown Cloak AND ( Beast Crest OR Hunter Crest OR Architect Crest OR Shaman Crest ( Wanderer Crest AND Needle strike ) ) ) " |  |  |  |
+| SC | Sandcarver Pit | Door | Exit | Clawline OR Sharpdart OR Drifters Cloak OR ( Sprint AND ( Dash OR Faydown Cloak OR Beast Crest ) ) OR  ( Faydown Cloak AND ( Beast Crest OR Hunter Crest OR Architect Crest OR Shaman Crest ( Wanderer Crest AND Needle strike ) ) ) " |  |  |  |
 | SC | Sandcarver Pit | Exit | Door | Clawline OR Sharpdart OR ( Sprint AND ( Dash OR Faydown Cloak OR Drifters Cloak OR Beast Crest OR Architect Crest ) )  OR ( Sprint AND ( Shaman Crest OR Hunter crest OR Heal stall OR ( Wanderers Crest AND Needle Strike AND Ledge Grab ) ) ) OR ( Dash AND ( Reaper Crest OR Beast Crest OR Faydown Cloak OR Drifters Cloak OR ( Architect Crest AND ( Ledge Grab OR Needle Strike ) ) ) ) OR ( Faydown Cloak AND ( Beast Crest OR Architect Crest OR Shaman Crest OR Hunter Crest OR Drifters Cloak OR ( Reaper Crest AND Ledge Grab ) OR ( Wanderer Crest AND Needle strike ) ) ) OR ( Drifters Cloak And ( Beast Crest OR Architect Crest OR Shaman Crest OR Wanderer Crest OR Heal Stall OR Ledge Grab OR Silk Soar OR ( Reaper Crest AND Needle Strike ) ) ) OR ( Silk Soar AND ( Beast Crest OR Architect Crest ) ) |  |  |  |
 
 ## Check Locations

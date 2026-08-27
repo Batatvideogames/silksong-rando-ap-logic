@@ -15,7 +15,7 @@
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | B | bot1 | Lever Door | [Cog Dancers (Cog_Dancers)](cog-dancers.md) | T |  |  |  |  |
-| T | top1 | Upper Entrance | cogwork core |  |  |  |  |  |
+| T | top1 | Upper Entrance | [Cogwork Core Architect's Melody (Cog_09)](cogwork-core-architect-s-melody.md) | B |  |  |  |  |
 
 ## Subroom Connections
 

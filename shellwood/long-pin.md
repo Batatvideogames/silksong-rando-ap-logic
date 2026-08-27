@@ -12,7 +12,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Shellwood Right Side Big room (Shellwood_01)](shellwood-right-side-big-room.md) | UR |  |  |  |  |
+| L | left1 |  | [Shellwood Right Side Big room (Shellwood_01)](shellwood-right-side-big-room.md) | UR | None |  | Verified |  |
 
 ## Subroom Connections
 
@@ -22,4 +22,4 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Long pin |  | None |  |  | Included |  |
+| Long pin |  | None |  | Verified | Included |  |

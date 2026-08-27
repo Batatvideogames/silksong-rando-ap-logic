@@ -13,20 +13,19 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| UL | left3 | Upper Level | [Widow Boss Fight (Belltown_Shrine)](widow-boss-fight.md) | R | None |  |  |  |
-| UD | door1 | Upper Level | [Bellhart Right Entrance (Belltown_06)](bellhart-right-entrance.md) | UD | Inaccessible |  |  |  |
-| LL | left1 | Lower Level | [Belltown (Belltown)](belltown.md) | R | None |  |  |  |
-| R | right1 | Lower Level | TODO |  | None |  |  |  |
+| UL | left3 | Upper Level | [Widow Boss Fight (Belltown_Shrine)](widow-boss-fight.md) | R | None |  | Verified |  |
+| LL | left1 | Lower Level | [Belltown (Belltown)](belltown.md) | R | None |  | Verified |  |
+| R | right1 | Lower Level | Greymoor Moorwing Arena Room | L | None |  | Verified | Update once skai sends in the left greymoor export only here so moriko doesnt crucify me |
 
 ## Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| EL | Elevator | Lower Level | Upper Level | Elevator activated from avobe |  |  |  |
-| EL | Elevator | Upper Level | Lower Level | Elevator activated |  |  |  |
+| EL | Elevator | Lower Level | Upper Level | Elevator activated Upper Level |  | Verified |  |
+| EL | Elevator | Upper Level | Lower Level | Elevator activated From Upper Level |  | Verified |  |
 
 ## Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Lore: Bellhart #1 | Lower Level | none |  |  | Not included |  |
+| Lore: Bellhart #1 | Lower Level | none |  | Verified | Not included |  |

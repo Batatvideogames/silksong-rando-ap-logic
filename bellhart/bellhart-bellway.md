@@ -12,9 +12,9 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| F | bot1 |  | [Bellhart Lower (Belltown_basement_03)](bellhart-lower.md) | C | None |  |  |  |
-| L | left1 |  | [Belltown (Belltown)](belltown.md) | BD | Ledge Grab OR Clawline OR Faydown Cloak OR Cling Grip OR Silk Soar |  |  |  |
-| BH | door_fastTravelExit |  | [Bellway Menu](../fast-travel/bellway-menu.md) | BH | Bellway access |  |  |  |
+| F | bot1 |  | [Bellhart Lower (Belltown_basement_03)](bellhart-lower.md) | C | None |  | Verified |  |
+| L | left1 |  | [Belltown (Belltown)](belltown.md) | BD | Ledge Grab OR Clawline OR Faydown Cloak OR Cling Grip OR Silk Soar |  | Verified |  |
+| BH | door_fastTravelExit |  | [Bellway Menu](../fast-travel/bellway-menu.md) | BH | Bellway access |  | Verified |  |
 
 ## Subroom Connections
 
@@ -24,4 +24,4 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Bellway: Bellhart |  | None |  |  | Included |  |
+| Bellway: Bellhart |  | None |  | Verified | Included |  |

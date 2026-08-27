@@ -4974,28 +4974,29 @@ No check locations defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| UR | right1 | Upper Level | [Shellwood Top Room (Shellwood_26)](#shellwood-top-room-shellwood26) | L | Cling Grip Or Silk Soar OR ( Dash AND Scuttlebrace ) |  |  |  |
-| LR | right2 | Ground Level | [Shellwood Flower Pogo Upper Hall (Shellwood_20)](#shellwood-flower-pogo-upper-hall-shellwood20) | L | ( Dash AND Scuttlebrace ) OR Cling Grip OR Clawline OR Faydown Cloak OR Ledge Grab |  |  |  |
-| ML | left2 | Central Level | [Cling grip Side room (Shellwood_11)](#cling-grip-side-room-shellwood11) | LR | Dash OR Sprint OR Clawline OR Sharp Dart OR Beast Crest OR Faydown Cloak OR Drifters Cloak |  |  |  |
-| UL | left1 | Upper Level | [Cling grip Side room (Shellwood_11)](#cling-grip-side-room-shellwood11) | UR | None |  |  |  |
-| MR | right3 | Central Level | [Sister Splinter (Shellwood_18)](#sister-splinter-shellwood18) | L | ( Dash AND Scuttlebrace ) OR Cling Grip OR Clawline OR Faydown Cloak OR Ledge Grab |  |  |  |
-| LL | left3 | Ground Level | [Shellwood Lower Left Tall Room (Shellwood_03)](#shellwood-lower-left-tall-room-shellwood03) | UR | None |  |  |  |
+| UR | right1 | Upper Level | [Shellwood Top Room (Shellwood_26)](#shellwood-top-room-shellwood26) | L | Cling Grip Or Silk Soar OR ( Dash AND Scuttlebrace ) |  | Verified |  |
+| LR | right2 | Ground Level | [Shellwood Flower Pogo Upper Hall (Shellwood_20)](#shellwood-flower-pogo-upper-hall-shellwood20) | L | ( Dash AND Scuttlebrace ) OR Cling Grip OR Clawline OR Faydown Cloak OR Ledge Grab |  | Verified |  |
+| ML | left2 | Central Level | [Cling grip Side room (Shellwood_11)](#cling-grip-side-room-shellwood11) | LR | Dash OR Sprint OR Clawline OR Sharp Dart OR Beast Crest OR Faydown Cloak OR Drifters Cloak |  | Verified |  |
+| UL | left1 | Upper Level | [Cling grip Side room (Shellwood_11)](#cling-grip-side-room-shellwood11) | UR | None |  | Verified |  |
+| MR | right3 | Central Level | [Sister Splinter (Shellwood_18)](#sister-splinter-shellwood18) | L | ( Dash AND Scuttlebrace ) OR Cling Grip OR Clawline OR Faydown Cloak OR Ledge Grab |  | Verified |  |
+| LL | left3 | Ground Level | [Shellwood Lower Left Tall Room (Shellwood_03)](#shellwood-lower-left-tall-room-shellwood03) | UR | None |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| EP |  | Ground Level | Central Level | ( Dash AND Scuttlebrace ) OR Cling Grip OR (( Faydown Cloak OR Easy skips ) AND ( Clawline OR  Sharpdart OR  Faydown Cloak ) ) OR Silk Soar |  |  |  |
-|  |  | Central Level | Ground Level | None |  |  |  |
-|  |  | Central Level | Upper Level | Silk Soar OR ( Easy skips AND Cling Grip AND Faydown Cloak ) |  |  |  |
-|  |  | Upper Level | Central Level | None |  |  |  |
+| EP | taunt pogo | Ground Level | Central Level | ( Dash AND Scuttlebrace ) OR Cling Grip OR (( Faydown Cloak OR Easy skips ) AND ( Clawline OR  Sharpdart OR  Faydown Cloak ) ) OR Silk Soar |  | Verified |  |
+| EP | taunt pogo | Central Level | Ground Level | None |  | Verified |  |
+| OA | Open Area | Central Level | Upper Level | Silk Soar OR ( Easy skips AND Cling Grip AND Faydown Cloak ) |  | Verified |  |
+| OA | Open Area | Upper Level | Central Level | None |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Cling Grip | Upper Level | None |  |  | Included |  |
-| Pollip Heart #5 | Central Level | None |  |  | Included |  |
+| Cling Grip | Upper Level | None |  | Verified | Included |  |
+| Pollip Heart #5 | Central Level | None |  | Verified | Included |  |
+| Shellwood - Weaver Harp Inscryption | Ground Level | None |  | Verified | Included |  |
 
 ### Cling grip Side room (Shellwood_11)
 
@@ -5012,21 +5013,21 @@ No check locations defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LR | right2 | Lower Level | [Cling Grip Room (Shellwood_10)](#cling-grip-room-shellwood10) | ML | None |  |  |  |
-| UR | right1 | Upper Level | [Cling Grip Room (Shellwood_10)](#cling-grip-room-shellwood10) | UL | None |  |  |  |
+| LR | right2 | Lower Level | [Cling Grip Room (Shellwood_10)](#cling-grip-room-shellwood10) | ML | None |  | Verified |  |
+| UR | right1 | Upper Level | [Cling Grip Room (Shellwood_10)](#cling-grip-room-shellwood10) | UL | None |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| FP | Flower Pogos | Lower Level | Upper Level | ( Easy skips AND Swim ) OR Dash OR Sprint OR Sharp Dart OR Beast Crest OR Faydown Cloak OR Drifters Cloak OR Clawline OR ( Dash AND Scuttlebrace ) OR Cling Grip OR Silk Soar |  |  |  |
-| FP | Flower Pogos | Upper Level | Lower Level | None |  |  |  |
+| FP | Flower Pogos | Lower Level | Upper Level | ( Easy skips AND Swim ) OR Dash OR Sprint OR Sharp Dart OR Beast Crest OR Faydown Cloak OR Drifters Cloak OR Clawline OR ( Dash AND Scuttlebrace ) OR Cling Grip OR Silk Soar |  | Verified |  |
+| FP | Flower Pogos | Upper Level | Lower Level | None |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Rosaries | Upper Level | None | TODO |  | Not included | Not included rn |
+| Rosaries | Upper Level | None | TODO | Verified | Not included | Not included rn |
 
 ### Greyroot (Room_Witch)
 
@@ -5042,8 +5043,8 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Shellwood Greyroot entrance (Shellwood_Witch)](#shellwood-greyroot-entrance-shellwoodwitch) | D | None |  |  |  |
-| QR | Quest Rebirth |  | [Witch Chapel (Shellwood_25b)](#witch-chapel-shellwood25b) | QR | Rite of the pollip Completed AND owns twisted bud |  |  |  |
+| L | left1 |  | [Shellwood Greyroot entrance (Shellwood_Witch)](#shellwood-greyroot-entrance-shellwoodwitch) | D | None |  | Verified |  |
+| QR | Quest Rebirth |  | [Witch Chapel (Shellwood_25b)](#witch-chapel-shellwood25b) | QR | All 6 Pollip Hearts Owned AND Twisted Bud Owned |  | Verified | One way one use Teleport |
 
 #### Subroom Connections
 
@@ -5053,7 +5054,7 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Pollip Pouch |  | 6 Pollip Hearts |  |  | Included |  |
+| Pollip Pouch |  | 6 Pollip Hearts |  | Verified | Included |  |
 
 ### Greyroots Basement Tall room (Mosstown_03)
 
@@ -5070,25 +5071,25 @@ No subroom connections defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| UR | right2 | Top | [Shellwood Diddy Basement Main (Shellwood_25)](#shellwood-diddy-basement-main-shellwood25) | L | None |  |  |  |
-| LR | right1 | Bottom | [The Marrow Skull Wall (Bone_06)](#the-marrow-skull-wall-bone06) | L | None |  |  |  |
-| C | top1 | Top | [Shellwood Lower Left Tall Room (Shellwood_03)](#shellwood-lower-left-tall-room-shellwood03) | F | Cling Grip |  |  |  |
+| UR | right2 | Top | [Shellwood Diddy Basement Main (Shellwood_25)](#shellwood-diddy-basement-main-shellwood25) | L | None |  | Verified |  |
+| LR | right1 | Bottom | [The Marrow Skull Wall (Bone_06)](#the-marrow-skull-wall-bone06) | L | None |  | Verified |  |
+| C | top1 | Top | [Shellwood Lower Left Tall Room (Shellwood_03)](#shellwood-lower-left-tall-room-shellwood03) | F | Cling Grip |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| SH | Shaft | Top | Bottom | None |  |  |  |
-| SH | Shaft | Bottom | Top | Silksoar OR Cling grip |  |  |  |
+| SH | Shaft | Top | Bottom | None |  | Verified |  |
+| SH | Shaft | Bottom | Top | Silksoar OR Cling grip |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Shell Shard Cache: Shellwood #1 | Top | None |  |  | Included |  |
-| Bench | Bottom | Cling Grip OR ( Dash AND Scuttlebrace ) |  |  | Included |  |
-| Shell Shard Cache: Shellwood #2 | Top | None |  |  | Included |  |
-| Shell Shard Cache: Shellwood #3 | Top | None |  |  | Included |  |
+| Shell Shard Cache: Shellwood #1 | Top | None |  | Verified | Included |  |
+| Bench | Bottom | Cling Grip OR ( Dash AND Scuttlebrace ) |  | Verified | Not included |  |
+| Shell Shard Cache: Shellwood #2 | Top | None |  | Verified | Included |  |
+| Shell Shard Cache: Shellwood #3 | Top | None |  | Verified | Included |  |
 
 ### Long Pin (Belltown_Room_shellwood)
 
@@ -5104,7 +5105,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Shellwood Right Side Big room (Shellwood_01)](#shellwood-right-side-big-room-shellwood01) | UR |  |  |  |  |
+| L | left1 |  | [Shellwood Right Side Big room (Shellwood_01)](#shellwood-right-side-big-room-shellwood01) | UR | None |  | Verified |  |
 
 #### Subroom Connections
 
@@ -5114,7 +5115,7 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Long pin |  | None |  |  | Included |  |
+| Long pin |  | None |  | Verified | Included |  |
 
 ### Shellgrave (Shellgrave)
 
@@ -5128,7 +5129,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| F | bot1 |  | [Shellwood Left side Long pond room (Shellwood_04b)](#shellwood-left-side-long-pond-room-shellwood04b) | RC | None |  |  |  |
+| F | bot1 |  | [Shellwood Left side Long pond room (Shellwood_04b)](#shellwood-left-side-long-pond-room-shellwood04b) | RC | None |  | Verified |  |
 
 #### Subroom Connections
 
@@ -5138,7 +5139,7 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Rosary Cache |  | None |  |  | Not included |  |
+| Rosary Cache |  | None |  | Verified | Not included | Not included no id |
 
 ### Shellwood Bellshrine (Bellshrine_03)
 
@@ -5154,8 +5155,8 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Shellwood Connection To Blasted steps (Shellwood_08)](#shellwood-connection-to-blasted-steps-shellwood08) | R | None |  |  |  |
-| R | right1 |  | [Shellwood Bellway  (Shellwood_19)](#shellwood-bellway) | L | Bell: Shellwood AND Bellsrhine Active |  |  |  |
+| L | left1 |  | [Shellwood Connection To Blasted steps (Shellwood_08)](#shellwood-connection-to-blasted-steps-shellwood08) | R | None |  | Verified |  |
+| R | right1 |  | [Shellwood Bellway  (Shellwood_19)](#shellwood-bellway) | L | Bell: Shellwood AND Bellsrhine Active |  | Verified |  |
 
 #### Subroom Connections
 
@@ -5165,7 +5166,7 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Bell: Shellwood |  | None |  |  | Included |  |
+| Bell: Shellwood |  | None |  | Verified | Included |  |
 
 ### Shellwood Bellway
  (Shellwood_19)
@@ -5183,22 +5184,22 @@ No subroom connections defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 | Right Puddle | [Shellwood Lower Left Tall Room (Shellwood_03)](#shellwood-lower-left-tall-room-shellwood03) | UL | None |  |  |  |
+| R | right1 | Right Puddle | [Shellwood Lower Left Tall Room (Shellwood_03)](#shellwood-lower-left-tall-room-shellwood03) | UL | None |  | Verified |  |
 | L | left1 | Left Puddle | [Shellwood Bellshrine (Bellshrine_03)](#shellwood-bellshrine-bellshrine03) | R | Bell: shellwood owned |  | Needs verification | Might also need switch from other side, needs testing |
-| BB | door_fastTravelExit | Right Puddle | [Bellway Menu](#bellway-menu) | SW | Bellway: Shellwood owned AND ( Bell Beast Defeated OR Yaml setting to not need that turned on ) |  |  |  |
+| BB | door_fastTravelExit | Right Puddle | [Bellway Menu](#bellway-menu) | SW | Bellway: Shellwood owned AND ( Bell Beast Defeated OR Yaml setting to not need that turned on ) |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| PU | Puddle | Left Puddle | Right Puddle | Swim Or Dash OR Sprint OR Clawline OR Sharpdart OR Beast Crest OR Drifters Cloak OR Faydown Cloak |  |  |  |
-| PU | Puddle | Right Puddle | Left Puddle | Swim Or Dash OR Sprint OR Clawline OR Sharpdart OR Beast Crest OR Drifters Cloak OR Faydown Cloak |  |  |  |
+| PU | Puddle | Left Puddle | Right Puddle | Swim Or Dash OR Sprint OR Clawline OR Sharpdart OR Beast Crest OR Drifters Cloak OR Faydown Cloak |  | Verified |  |
+| PU | Puddle | Right Puddle | Left Puddle | Swim Or Dash OR Sprint OR Clawline OR Sharpdart OR Beast Crest OR Drifters Cloak OR Faydown Cloak |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Bellway: Shellwood | Right Puddle | None |  |  | Included |  |
+| Bellway: Shellwood | Right Puddle | None |  | Verified | Included |  |
 
 ### Shellwood Big Room Left (Shellwood_02)
 
@@ -5218,33 +5219,33 @@ No subroom connections defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| UR | right1 | Ceiling area | [Shellwood Sister Splinter Bench (Shellwood_01b)](#shellwood-sister-splinter-bench-shellwood01b) | LL | None |  |  |  |
-| LL | left2 | Ground Left | [shellwood Shakra (Shellwood_16)](#shellwood-shakra-shellwood16) | R | None |  |  |  |
-| UL | left3 | Platforms | [Shellwood Greyroot entrance (Shellwood_Witch)](#shellwood-greyroot-entrance-shellwoodwitch) | R | None |  |  |  |
-| LR | right2 | Ground Right | [Shellwood Right Side Big room (Shellwood_01)](#shellwood-right-side-big-room-shellwood01) | LL | NOne |  |  |  |
+| UR | right1 | Ceiling area | [Shellwood Sister Splinter Bench (Shellwood_01b)](#shellwood-sister-splinter-bench-shellwood01b) | LL | None |  | Verified |  |
+| LL | left2 | Ground Left | [shellwood Shakra (Shellwood_16)](#shellwood-shakra-shellwood16) | R | None |  | Verified |  |
+| UL | left3 | Platforms | [Shellwood Greyroot entrance (Shellwood_Witch)](#shellwood-greyroot-entrance-shellwoodwitch) | R | None |  | Verified |  |
+| LR | right2 | Ground Right | [Shellwood Right Side Big room (Shellwood_01)](#shellwood-right-side-big-room-shellwood01) | LL | NOne |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| EL | Elevator | Ground Centre | Ceiling area | Activated from Ceiling area |  |  |  |
-| EL | Elevator | Ceiling area | Ground Centre | Activated from Ceiling area |  |  |  |
-| RL | Right Lake | Ground Centre | Ground Right | ( Enemy Pogo AND Ledge Grab ) OR Dash OR Sprint OR clawline OR Beast Crest OR Faydown Cloak OR Drifters Cloak OR ( Swim AND Ledge Grab ) |  |  |  |
-| RL | Right Lake | Ground Right | Ground Centre | ( Enemy Pogo AND Ledge Grab ) OR Dash OR Sprint OR clawline OR Beast Crest OR Faydown Cloak OR Drifters Cloak OR ( Swim AND Ledge Grab ) |  |  |  |
-| LL | Left Lake | Ground Centre | Ground Left | ( Enemy Pogo AND Ledge Grab ) OR Dash OR Sprint OR clawline OR Beast Crest OR Faydown Cloak OR Drifters Cloak |  |  |  |
-| LL | Left Lake | Ground Left | Ground Centre | None |  |  |  |
-| LP | Left Platforms | Platforms | Ground Left | None |  |  |  |
-| LP | Left Platforms | Ground Left | Platforms | ( Faydown Cloak AND ( Cling Grip OR ( Scuttle Brace AND Dash ) ) ) OR Silk Soar OR ( Enemy Pogo AND Hard Skips ) |  |  |  |
-| CP | Central Platforms | Platforms | Ground Centre | None |  |  |  |
-| CP | Central Platforms | Ground Centre | Platforms | ( Faydown Cloak AND Ledge Grab ) OR Silk Soar |  |  |  |
-| RP | Right Platforms | Platforms | Ground Right | None |  |  |  |
-| RP | Right Platforms | Ground Right | Platforms | Silk Soar |  |  |  |
+| EL | Elevator | Ground Centre | Ceiling area | Activated from Ceiling area |  | Verified |  |
+| EL | Elevator | Ceiling area | Ground Centre | Activated from Ceiling area |  | Verified |  |
+| RL | Right Lake | Ground Centre | Ground Right | ( Enemy Pogo AND Ledge Grab ) OR Dash OR Sprint OR clawline OR Beast Crest OR Faydown Cloak OR Drifters Cloak OR ( Swim AND Ledge Grab ) |  | Verified |  |
+| RL | Right Lake | Ground Right | Ground Centre | ( Enemy Pogo AND Ledge Grab ) OR Dash OR Sprint OR clawline OR Beast Crest OR Faydown Cloak OR Drifters Cloak OR ( Swim AND Ledge Grab ) |  | Verified |  |
+| LL | Left Lake | Ground Centre | Ground Left | ( Enemy Pogo AND Ledge Grab ) OR Dash OR Sprint OR clawline OR Beast Crest OR Faydown Cloak OR Drifters Cloak |  | Verified |  |
+| LL | Left Lake | Ground Left | Ground Centre | None |  | Verified |  |
+| LP | Left Platforms | Platforms | Ground Left | None |  | Verified |  |
+| LP | Left Platforms | Ground Left | Platforms | ( Faydown Cloak AND ( Cling Grip OR ( Scuttle Brace AND Dash ) ) ) OR Silk Soar OR ( Enemy Pogo AND Hard Skips ) |  | Verified |  |
+| CP | Central Platforms | Platforms | Ground Centre | None |  | Verified |  |
+| CP | Central Platforms | Ground Centre | Platforms | ( Faydown Cloak AND Ledge Grab ) OR Silk Soar |  | Verified |  |
+| RP | Right Platforms | Platforms | Ground Right | None |  | Verified |  |
+| RP | Right Platforms | Ground Right | Platforms | Silk Soar |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Pollip Heart #6 | Platforms | Ledge Grab OR Silk Soar OR Faydown Cloak |  |  | Included |  |
+| Pollip Heart #6 | Platforms | Ledge Grab OR Silk Soar OR Faydown Cloak |  | Verified | Included |  |
 
 ### Shellwood Connection To Blasted steps (Shellwood_08)
 
@@ -5260,9 +5261,9 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 |  | [Shellwood Bellshrine (Bellshrine_03)](#shellwood-bellshrine-bellshrine03) | L | None |  |  |  |
-| L | left1 |  | [Blasted Steps Map Edge (Coral_19)](#blasted-steps-map-edge-coral19) | R | None |  |  |  |
-| F | bot1 |  | [shellwood Far Left Tall Room (Shellwood_04c)](#shellwood-far-left-tall-room-shellwood04c) | C | None |  |  |  |
+| R | right1 |  | [Shellwood Bellshrine (Bellshrine_03)](#shellwood-bellshrine-bellshrine03) | L | None |  | Verified |  |
+| L | left1 |  | [Blasted Steps Map Edge (Coral_19)](#blasted-steps-map-edge-coral19) | R | None |  | Verified |  |
+| F | bot1 |  | [shellwood Far Left Tall Room (Shellwood_04c)](#shellwood-far-left-tall-room-shellwood04c) | C | None |  | Verified |  |
 
 #### Subroom Connections
 
@@ -5289,26 +5290,26 @@ No check locations defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 | Left Corridor | [Greyroots Basement Tall room (Mosstown_03)](#greyroots-basement-tall-room-mosstown03) | UR | None |  |  |  |
-| D | door1 | Right Corridor | [Witch Chapel (Shellwood_25b)](#witch-chapel-shellwood25b) | L | Not accesible from this side |  |  |  |
+| L | left1 | Left Corridor | [Greyroots Basement Tall room (Mosstown_03)](#greyroots-basement-tall-room-mosstown03) | UR | None |  | Verified |  |
+| D | door1 | Right Corridor | [Witch Chapel (Shellwood_25b)](#witch-chapel-shellwood25b) | L | Not accesible from this side |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| LW | Left Wall | Left Corridor | Left Puddles | Cling Grip OR Silk soar OR Faydown Cloak OR ( Dash AND Scuttlebrace ) |  |  |  |
-| LW | Left Wall | Left Puddles | Left Corridor | None |  |  |  |
-| PU | Puddles | Left Puddles | Right Puddles | Swim OR Clawline OR Sharpdart OR Drifters Cloak OR Easy skips |  |  |  |
-| PU | Puddles | Right Puddles | Left Puddles | Swim OR Clawline OR Sharpdart OR Drifters Cloak OR Easy skips |  |  |  |
-| RW | Right Wall | Right Puddles | Right Corridor | Cling Grip OR Silk soar OR Faydown Cloak OR ( Dash AND Scuttlebrace ) |  |  |  |
-| RW | Right Wall | Right Corridor | Right Puddles | None |  |  |  |
+| LW | Left Wall | Left Corridor | Left Puddles | Cling Grip OR Silk soar OR Faydown Cloak OR ( Dash AND Scuttlebrace ) |  | Verified |  |
+| LW | Left Wall | Left Puddles | Left Corridor | None |  | Verified |  |
+| PU | Puddles | Left Puddles | Right Puddles | Swim OR Clawline OR Sharpdart OR Drifters Cloak OR Easy skips |  | Verified |  |
+| PU | Puddles | Right Puddles | Left Puddles | Swim OR Clawline OR Sharpdart OR Drifters Cloak OR Easy skips |  | Verified |  |
+| RW | Right Wall | Right Puddles | Right Corridor | Cling Grip OR Silk soar OR Faydown Cloak OR ( Dash AND Scuttlebrace ) |  | Verified |  |
+| RW | Right Wall | Right Corridor | Right Puddles | None |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Rosary String: Shellwood #2 | Left Puddles | Cling Grip OR Silk Soar OR ( Faydown Cloak AND Shaman Crest ) OR ( Dash AND Scuttlebrace ) |  |  | Included |  |
-| Relic: Weaver effigy (Keelal, Shellwood) | Right Corridor | Cling Grip AND Swim AND ( Clawline OR Faydown Cloak OR Drifters Cloak OR Sharpdart OR Beast Crest OR Sprint OR Dash ) |  |  | Included |  |
+| Rosary String: Shellwood #2 | Left Puddles | Cling Grip OR Silk Soar OR ( Faydown Cloak AND Shaman Crest ) OR ( Dash AND Scuttlebrace ) |  | Verified | Included |  |
+| Relic: Weaver effigy (Keelal, Shellwood) | Right Corridor | Cling Grip AND Swim AND ( Clawline OR Faydown Cloak OR Drifters Cloak OR Sharpdart OR Beast Crest OR Sprint OR Dash ) |  | Verified | Included |  |
 
 ### Shellwood Flower Pogo Upper Hall (Shellwood_20)
 
@@ -5324,8 +5325,8 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 |  | [Shellwood Sister Splinter Bench (Shellwood_01b)](#shellwood-sister-splinter-bench-shellwood01b) | UL | None |  |  |  |
-| L | left1 |  | [Cling Grip Room (Shellwood_10)](#cling-grip-room-shellwood10) | LR | None |  |  |  |
+| R | right1 |  | [Shellwood Sister Splinter Bench (Shellwood_01b)](#shellwood-sister-splinter-bench-shellwood01b) | UL | None |  | Verified |  |
+| L | left1 |  | [Cling Grip Room (Shellwood_10)](#cling-grip-room-shellwood10) | LR | None |  | Verified |  |
 
 #### Subroom Connections
 
@@ -5335,7 +5336,7 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Pollip Heart #3 |  | None |  |  | Included |  |
+| Pollip Heart #3 |  | None |  | Verified | Included |  |
 
 ### Shellwood Greyroot entrance (Shellwood_Witch)
 
@@ -5351,8 +5352,8 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| D | door1 |  | [Greyroot (Room_Witch)](#greyroot-roomwitch) | L | None |  |  |  |
-| R | right1 |  | [Shellwood Big Room Left (Shellwood_02)](#shellwood-big-room-left-shellwood02) | UL | None |  |  |  |
+| D | door1 |  | [Greyroot (Room_Witch)](#greyroot-roomwitch) | L | None |  | Verified |  |
+| R | right1 |  | [Shellwood Big Room Left (Shellwood_02)](#shellwood-big-room-left-shellwood02) | UL | None |  | Verified |  |
 
 #### Subroom Connections
 
@@ -5376,8 +5377,8 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Shellwood Sister Splinter Bench (Shellwood_01b)](#shellwood-sister-splinter-bench-shellwood01b) | MR | Faydown Cloak OR ( Drifters Cloak AND Ledge Grab ) OR ( Dash AND Ledge Grab )  OR Clawline OR Sharpdart OR Beast Crest |  |  |  |
-| R | right1 |  | [Upper Bellhart (Belltown_04)](#upper-bellhart-belltown04) | LL | Faydown Cloak OR Drifters Cloak OR Dash OR Clawline OR Sharpdart OR Beast Crest |  |  |  |
+| L | left1 |  | [Shellwood Sister Splinter Bench (Shellwood_01b)](#shellwood-sister-splinter-bench-shellwood01b) | MR | Faydown Cloak OR ( Drifters Cloak AND Ledge Grab ) OR ( Dash AND Ledge Grab )  OR Clawline OR Sharpdart OR Beast Crest |  | Verified |  |
+| R | right1 |  | [Upper Bellhart (Belltown_04)](#upper-bellhart-belltown04) | LL | Faydown Cloak OR Drifters Cloak OR Dash OR Clawline OR Sharpdart OR Beast Crest |  | Verified |  |
 
 #### Subroom Connections
 
@@ -5387,7 +5388,7 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Pollip Heart #2 |  | Faydown Cloak OR Drifters Cloak OR Dash OR Clawline OR Sharpdart OR Beast Crest |  |  | Included |  |
+| Pollip Heart #2 |  | Faydown Cloak OR Drifters Cloak OR Dash OR Clawline OR Sharpdart OR Beast Crest |  | Verified | Included |  |
 
 ### Shellwood Left side Long pond room (Shellwood_04b)
 
@@ -5469,8 +5470,8 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [The Big Fall (Aspid_01)](#the-big-fall-aspid01) | UR | None |  |  |  |
-| R | right1 |  | [Shellwood Left side Long pond room (Shellwood_04b)](#shellwood-left-side-long-pond-room-shellwood04b) | L | None |  |  |  |
+| L | left1 |  | [The Big Fall (Aspid_01)](#the-big-fall-aspid01) | UR | None |  | Verified |  |
+| R | right1 |  | [Shellwood Left side Long pond room (Shellwood_04b)](#shellwood-left-side-long-pond-room-shellwood04b) | L | None |  | Verified |  |
 
 #### Subroom Connections
 
@@ -5480,7 +5481,7 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Bench |  | Dont be broke |  |  | Not included |  |
+| Bench |  | Dont be broke |  | Verified | Not included |  |
 
 ### Shellwood Mask Shard Room (Shellwood_14)
 
@@ -5496,7 +5497,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Shellwood Lower Left Tall Room (Shellwood_03)](#shellwood-lower-left-tall-room-shellwood03) | MR | None |  |  |  |
+| L | left1 |  | [Shellwood Lower Left Tall Room (Shellwood_03)](#shellwood-lower-left-tall-room-shellwood03) | MR | None |  | Verified |  |
 
 #### Subroom Connections
 
@@ -5506,7 +5507,7 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Mask Shard: Shellwood #12 |  | Ledge Grab OR Dash OR Clawline OR Faydown Cloak OR Drifters Cloak OR Beast Crest |  |  | Included |  |
+| Mask Shard: Shellwood #12 |  | Ledge Grab OR Dash OR Clawline OR Faydown Cloak OR Drifters Cloak OR Beast Crest |  | Verified | Included |  |
 
 ### Shellwood Right Side Big room (Shellwood_01)
 
@@ -5525,33 +5526,33 @@ No subroom connections defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| UR | right1 | Right Platforms | [Long Pin (Belltown_Room_shellwood)](#long-pin-belltownroomshellwood) | L | Nest in Door broken |  |  |  |
-| UL | left1 | Central Platforms | [Shellwood Sister Splinter Bench (Shellwood_01b)](#shellwood-sister-splinter-bench-shellwood01b) | LR | None |  |  |  |
-| LR | right2 | Ground Level Right | [Bellhart Hallway to Shellwood (Belltown_07)](#bellhart-hallway-to-shellwood-belltown07) | L | None |  |  |  |
-| LL | left2 | Ground Level Left | [Shellwood Big Room Left (Shellwood_02)](#shellwood-big-room-left-shellwood02) | LR | Door opened from other side |  |  |  |
+| UR | right1 | Right Platforms | [Long Pin (Belltown_Room_shellwood)](#long-pin-belltownroomshellwood) | L | Nest in Door broken |  | Verified |  |
+| UL | left1 | Central Platforms | [Shellwood Sister Splinter Bench (Shellwood_01b)](#shellwood-sister-splinter-bench-shellwood01b) | LR | None |  | Verified |  |
+| LR | right2 | Ground Level Right | [Bellhart Hallway to Shellwood (Belltown_07)](#bellhart-hallway-to-shellwood-belltown07) | L | None |  | Verified |  |
+| LL | left2 | Ground Level Left | [Shellwood Big Room Left (Shellwood_02)](#shellwood-big-room-left-shellwood02) | LR | Door opened from other side |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| LA | Lake | Ground Level Left | Ground Level Right | ( Dash AND ( Sprint OR Drifters Cloak ) ) OR Clawline OR Sharpdart OR Swim OR ( Faydown Cloak AND Drifters Cloak ) |  |  |  |
-| LA | Lake | Ground Level Right | Ground Level Left | ( Dash AND ( Sprint OR Drifters Cloak ) ) OR Clawline OR Sharpdart OR Swim OR ( Faydown Cloak AND Drifters Cloak ) |  |  |  |
-| C1 | Chasm 1 | Ground Level Left | Central Platforms | ( Ledge Grab AND ( Dash OR Drifters Cloak OR Beast Crest ) ) OR Clawline OR Cling Grip OR Silk Soar OR Sharpdart OR Faydown Cloak |  |  |  |
-| C1 | Chasm 1 | Central Platforms | Ground Level Left | None |  |  |  |
-| C2 | Chasm 2 | Central Platforms | Right Platforms | Ledge Grab OR Faydown Cloak OR Silk Soar OR Cling grip OR Dash OR Scuttlebrace OR Clawline  OR Sprint |  |  |  |
-| C2 | Chasm 2 | Right Platforms | Central Platforms | None |  |  |  |
-| C3 | Chasm 3 | Right Platforms | Ground Level Right | None |  |  |  |
-| C3 | Chasm 3 | Ground Level Right | Right Platforms | Silk Soar OR ( Cling Grip AND Faydown Cloak  AND ( Swim OR ( Easy Skips AND ( Sprint OR Dash ) ) OR Drifters Cloak OR Clawline OR Sharpdart ) ) |  |  |  |
+| LA | Lake | Ground Level Left | Ground Level Right | ( Dash AND ( Sprint OR Drifters Cloak ) ) OR Clawline OR Sharpdart OR Swim OR ( Faydown Cloak AND Drifters Cloak ) |  | Verified |  |
+| LA | Lake | Ground Level Right | Ground Level Left | ( Dash AND ( Sprint OR Drifters Cloak ) ) OR Clawline OR Sharpdart OR Swim OR ( Faydown Cloak AND Drifters Cloak ) |  | Verified |  |
+| C1 | Chasm 1 | Ground Level Left | Central Platforms | ( Ledge Grab AND ( Dash OR Drifters Cloak OR Beast Crest ) ) OR Clawline OR Cling Grip OR Silk Soar OR Sharpdart OR Faydown Cloak |  | Verified |  |
+| C1 | Chasm 1 | Central Platforms | Ground Level Left | None |  | Verified |  |
+| C2 | Chasm 2 | Central Platforms | Right Platforms | Ledge Grab OR Faydown Cloak OR Silk Soar OR Cling grip OR Dash OR Scuttlebrace OR Clawline  OR Sprint |  | Verified |  |
+| C2 | Chasm 2 | Right Platforms | Central Platforms | None |  | Verified |  |
+| C3 | Chasm 3 | Right Platforms | Ground Level Right | None |  | Verified |  |
+| C3 | Chasm 3 | Ground Level Right | Right Platforms | Silk Soar OR ( Cling Grip AND Faydown Cloak  AND ( Swim OR ( Easy Skips AND ( Sprint OR Dash ) ) OR Drifters Cloak OR Clawline OR Sharpdart ) ) |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Collectable IFrayed Rosary String: Shellwoodtem Pickup | Central Platforms | None |  |  | Included |  |
-| Pollip Heart #1 | Right Platforms | Cling Grip OR Silk Soar OR Scuttlebrace |  |  | Included |  |
-| Shell shard Cache: Shellwood #4 | Right Platforms | None |  |  | Included |  |
-| Shell shard Cache: Shellwood #5 | Right Platforms | None |  |  | Included |  |
-| Shell shard Cache: Shellwood #6 | Right Platforms | None |  |  | Included |  |
+| Collectable IFrayed Rosary String: Shellwoodtem Pickup | Central Platforms | None |  | Verified | Included |  |
+| Pollip Heart #1 | Right Platforms | Cling Grip OR Silk Soar OR Scuttlebrace |  | Verified | Included |  |
+| Shell shard Cache: Shellwood #4 | Right Platforms | None |  | Verified | Included |  |
+| Shell shard Cache: Shellwood #5 | Right Platforms | None |  | Verified | Included |  |
+| Shell shard Cache: Shellwood #6 | Right Platforms | None |  | Verified | Included |  |
 
 ### Shellwood Sister Splinter Bench (Shellwood_01b)
 
@@ -5572,39 +5573,39 @@ No subroom connections defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| UR | right1 | Elevator Platform | [Shellwood Upper Bellhart Entrance (Shellwood_13)](#shellwood-upper-bellhart-entrance-shellwood13) | LL | None |  |  |  |
-| LR | right2 | Bench Toll | [Shellwood Right Side Big room (Shellwood_01)](#shellwood-right-side-big-room-shellwood01) | UL | None |  |  |  |
-| MR | right3 | Upper Hidden | [Shellwood Hidden Bellhart Connection (Shellwood_15)](#shellwood-hidden-bellhart-connection-shellwood15) | L | Door Opened from other side |  |  |  |
-| UL | left1 | Upper Main | [Shellwood Flower Pogo Upper Hall (Shellwood_20)](#shellwood-flower-pogo-upper-hall-shellwood20) | R | None |  |  |  |
-| LL | left2 | Above Arena | [Shellwood Big Room Left (Shellwood_02)](#shellwood-big-room-left-shellwood02) | UR | None |  |  |  |
+| UR | right1 | Elevator Platform | [Shellwood Upper Bellhart Entrance (Shellwood_13)](#shellwood-upper-bellhart-entrance-shellwood13) | LL | None |  | Verified |  |
+| LR | right2 | Bench Toll | [Shellwood Right Side Big room (Shellwood_01)](#shellwood-right-side-big-room-shellwood01) | UL | None |  | Verified |  |
+| MR | right3 | Upper Hidden | [Shellwood Hidden Bellhart Connection (Shellwood_15)](#shellwood-hidden-bellhart-connection-shellwood15) | L | Door Opened from other side |  | Verified |  |
+| UL | left1 | Upper Main | [Shellwood Flower Pogo Upper Hall (Shellwood_20)](#shellwood-flower-pogo-upper-hall-shellwood20) | R | None |  | Verified |  |
+| LL | left2 | Above Arena | [Shellwood Big Room Left (Shellwood_02)](#shellwood-big-room-left-shellwood02) | UR | None |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| AD | Arena Drop | Above Arena | Arena | None |  |  |  |
-| AD | Arena Drop | Arena | Above Arena | Silk Soar |  |  |  |
-| AE | Arena Exit | Arena | Bench Toll | Ledge Grab OR ( Dash AND Scuttlebrace ) OR Clawline OR Cling Grip OR Faydown Cloak OR Silk Soar |  |  |  |
-| AE | Arena Exit | Bench Toll | Arena | None |  |  |  |
-| CL1 | Climb 1 | Bench Toll | Upper Hidden | ( Cling Grip AND ( Clawline OR Dash OR Sharpdart OR Drifters Cloak OR Faydown Cloak OR Beast Crest ) ) OR Silk Soar |  |  |  |
-| CL1 | Climb 1 | Upper Hidden | Bench Toll | None |  |  |  |
-| EL | Elevator | Bench Toll | Elevator Platform | Elevator activated |  |  |  |
-| EL | Elevator | Elevator Platform | Bench Toll | Elevator activated |  |  |  |
-| CL2 | Climb 2 | Upper Main | Bench Toll | None |  |  |  |
-| CL2 | Climb 2 | Bench Toll | Upper Main | Cling Grip OR Silk Soar |  |  |  |
-| HP | Hidden Path | Upper Main | Upper Hidden | None |  |  |  |
-| HP | Hidden Path | Upper Hidden | Upper Main | None |  |  |  |
-| EP | Elevator Platform | Upper Main | Elevator Platform | None |  |  |  |
-| EP | Elevator Platform | Elevator Platform | Upper Main | Ledge Grab OR ( Dash AND Scuttlebrace ) OR Clawline OR Cling Grip OR Faydown Cloak OR Silk Soar |  |  |  |
-| CL3 | Climb 3 | Above Arena | Bench Toll | Cling Grip OR Silk Soar OR ( Dash AND Scuttlebrace ) |  |  |  |
-| CL3 | Climb 3 | Bench Toll | Above Arena | None |  |  |  |
+| AD | Arena Drop | Above Arena | Arena | None |  | Verified |  |
+| AD | Arena Drop | Arena | Above Arena | Silk Soar |  | Verified |  |
+| AE | Arena Exit | Arena | Bench Toll | Ledge Grab OR ( Dash AND Scuttlebrace ) OR Clawline OR Cling Grip OR Faydown Cloak OR Silk Soar |  | Verified |  |
+| AE | Arena Exit | Bench Toll | Arena | None |  | Verified |  |
+| CL1 | Climb 1 | Bench Toll | Upper Hidden | ( Cling Grip AND ( Clawline OR Dash OR Sharpdart OR Drifters Cloak OR Faydown Cloak OR Beast Crest ) ) OR Silk Soar |  | Verified |  |
+| CL1 | Climb 1 | Upper Hidden | Bench Toll | None |  | Verified |  |
+| EL | Elevator | Bench Toll | Elevator Platform | Elevator activated from Elevator Platform |  | Verified |  |
+| EL | Elevator | Elevator Platform | Bench Toll | Elevator activated from Elevator Platform |  | Verified |  |
+| CL2 | Climb 2 | Upper Main | Bench Toll | None |  | Verified |  |
+| CL2 | Climb 2 | Bench Toll | Upper Main | Cling Grip OR Silk Soar |  | Verified |  |
+| HP | Hidden Path | Upper Main | Upper Hidden | None |  | Verified |  |
+| HP | Hidden Path | Upper Hidden | Upper Main | None |  | Verified |  |
+| EP | Elevator Platform | Upper Main | Elevator Platform | None |  | Verified |  |
+| EP | Elevator Platform | Elevator Platform | Upper Main | Ledge Grab OR ( Dash AND Scuttlebrace ) OR Clawline OR Cling Grip OR Faydown Cloak OR Silk Soar |  | Verified |  |
+| CL3 | Climb 3 | Above Arena | Bench Toll | Cling Grip OR Silk Soar OR ( Dash AND Scuttlebrace ) |  | Verified |  |
+| CL3 | Climb 3 | Bench Toll | Above Arena | None |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Rosary String: Shellwood #1 | Upper Hidden | None |  |  | Included |  |
-| Bench | Bench Toll | None |  |  | Included |  |
+| Rosary String: Shellwood #1 | Upper Hidden | None |  | Verified | Included |  |
+| Bench | Bench Toll | None |  | Verified | Not included |  |
 
 ### Shellwood Top Room (Shellwood_26)
 
@@ -5623,30 +5624,29 @@ No subroom connections defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 | Left Side | [Cling Grip Room (Shellwood_10)](#cling-grip-room-shellwood10) | UR | None |  |  |  |
-| F | bot1 | Right Side | [Sister Splinter (Shellwood_18)](#sister-splinter-shellwood18) | C | None |  |  |  |
+| L | left1 | Left Side | [Cling Grip Room (Shellwood_10)](#cling-grip-room-shellwood10) | UR | None |  | Verified |  |
+| F | bot1 | Right Side | [Sister Splinter (Shellwood_18)](#sister-splinter-shellwood18) | C | None |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| LW | Left Wall | Left Side | Central | Cling Grip OR Faydown Cloak OR Silk Soar OR ( Dash AND Scuttlebrace ) |  |  |  |
-| LW | Left Wall | Central | Left Side | Cling Grip OR Faydown Cloak OR Silk Soar OR ( Dash AND Scuttlebrace ) |  |  |  |
-| RW | Right Wall | Central | Right Side | ( Swim OR ( Drifters Cloak  AND Easy Skips ) ) AND ( Cling Grip OR Scuttlebrace ) |  |  |  |
-| RW | Right Wall | Right Side | Central | Cling Grip OR Faydown Cloak OR Silk Soar OR ( Dash AND Scuttlebrace ) |  |  |  |
-| HS | Hidden Shaft | Left Side | Upper Area | Break wall from upper Area AND Silk Soar |  |  |  |
-| HS | Hidden Shaft | Upper Area | Left Side | Break wall from upper Area |  |  |  |
-| CC | Central Shaft | Central | Upper Area | Cling Grip AND ( Swim OR Clawline OR Drifters Cloak OR Sharpdart OR ( Beast Crest AND Dash ) OR ( Sprint AND Dash ) ) OR ( Dash AND Scuttlebrace AND ( Swim OR Clawline OR Easy skips OR Faydown Cloak ) ) |  |  |  |
-| CC | Central Shaft | Upper Area | Central | None |  |  |  |
+| LW | Left Wall | Left Side | Central | Cling Grip OR Faydown Cloak OR Silk Soar OR ( Dash AND Scuttlebrace ) |  | Verified |  |
+| LW | Left Wall | Central | Left Side | Cling Grip OR Faydown Cloak OR Silk Soar OR ( Dash AND Scuttlebrace ) |  | Verified |  |
+| RW | Right Wall | Central | Right Side | ( Swim OR ( Drifters Cloak  AND Easy Skips ) ) AND ( Cling Grip OR Scuttlebrace ) |  | Verified |  |
+| RW | Right Wall | Right Side | Central | Cling Grip OR Faydown Cloak OR Silk Soar OR ( Dash AND Scuttlebrace ) |  | Verified |  |
+| HS | Hidden Shaft | Left Side | Upper Area | Break wall from upper Area AND Silk Soar |  | Verified |  |
+| HS | Hidden Shaft | Upper Area | Left Side | Break wall from upper Area |  | Verified |  |
+| CC | Central Shaft | Central | Upper Area | Cling Grip AND ( Swim OR Clawline OR Drifters Cloak OR Sharpdart OR ( Beast Crest AND Dash ) OR ( Sprint AND Dash ) ) OR ( Dash AND Scuttlebrace AND ( Swim OR Clawline OR Easy skips OR Faydown Cloak ) ) |  | Verified |  |
+| CC | Central Shaft | Upper Area | Central | None |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Pollip Heart #4 | Upper Area | Cling Grip OR Silk Soar OR Clawline OR ( Faydown Cloak AND ( Ledge Grab OR Clawline ) ) |  |  | Included |  |
-| Rosary cache: Shellwood | Right Side | Cling Grip OR Silk Soar OR ( Scuttlebrace AND Dash ) |  |  | Included |  |
-| Upper Area | Upper Area | None |  |  | Not included | Not included |
-| Resting Site: Shellwood | Right Side | Wish: A vassal Lost started AND Steel Soul |  |  | Not included |  |
+| Pollip Heart #4 | Upper Area | Cling Grip OR Silk Soar OR Clawline OR ( Faydown Cloak AND ( Ledge Grab OR Clawline ) ) |  | Verified | Included |  |
+| Rosary cache: Shellwood | Right Side | Cling Grip OR Silk Soar OR ( Scuttlebrace AND Dash ) |  | Verified | Included |  |
+| Resting Site: Shellwood | Right Side | Wish: A vassal Lost started AND Steel Soul |  | Verified | Not included |  |
 
 ### Shellwood Upper Bellhart Entrance (Shellwood_13)
 
@@ -5665,26 +5665,26 @@ No subroom connections defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| UL | left1 | Upper Area | [Sister Splinter (Shellwood_18)](#sister-splinter-shellwood18) | R | ((Any non-Wanderer crest) AND Ledge Grab) OR Clawline OR Dash OR Drifter's Cloak OR Faydown Cloak OR Sharpdart |  |  |  |
-| R | right1 | Bell Ledge | [Upper Bellhart (Belltown_04)](#upper-bellhart-belltown04) | UL | None |  |  |  |
-| LL | left2 | Left Pond | [Shellwood Sister Splinter Bench (Shellwood_01b)](#shellwood-sister-splinter-bench-shellwood01b) | UR | None |  |  |  |
+| UL | left1 | Upper Area | [Sister Splinter (Shellwood_18)](#sister-splinter-shellwood18) | R | ((Any non-Wanderer crest) AND Ledge Grab) OR Clawline OR Dash OR Drifter's Cloak OR Faydown Cloak OR Sharpdart |  | Verified |  |
+| R | right1 | Bell Ledge | [Upper Bellhart (Belltown_04)](#upper-bellhart-belltown04) | UL | None |  | Verified |  |
+| LL | left2 | Left Pond | [Shellwood Sister Splinter Bench (Shellwood_01b)](#shellwood-sister-splinter-bench-shellwood01b) | UR | None |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| BL | Bell Ledge | Bell Ledge | Upper Area | Cling Grip OR Faydown Cloak OR Silk soar OR ( Dash AND Scuttlebrace ) |  |  |  |
-| BL | Bell Ledge | Upper Area | Bell Ledge | None |  |  |  |
-| PO | Pond | Left Pond | Right Pond | Swim OR Clawline OR (Drifter's Cloak AND (Faydown Cloak OR (Sprint AND Dash) OR (Sharpdart AND Ledge Grab))) OR (Faydown Cloak AND Sharpdart AND (Dash OR Beast Crest)) |  |  |  |
-| PO | Pond | Right Pond | Left Pond | Swim OR ( Clawline AND ( Ledge Grab OR Dash OR Sharpdart OR beast Crest OR Faydown Cloak ) ) OR ( Sprint AND ( ( Sharpdart AND Dash ) OR ( Sharpdart AND Beast Crest ) OR ( Faydown Cloak AND Drifters Cloak ) OR ( Sharpdart AND Drifters Cloak) OR ( Faydown Cloak AND Sharpdart ) ) ) |  |  |  |
-| PL | Platforms | Upper Area | Right Pond | None |  |  |  |
-| PL | Platforms | Right Pond | Upper Area | Ledge Grab OR Dash OR Clawline OR Faydown Cloak OR Cling Grip OR Silk soar |  |  |  |
+| BL | Bell Ledge | Bell Ledge | Upper Area | Cling Grip OR Faydown Cloak OR Silk soar OR ( Dash AND Scuttlebrace ) |  | Verified |  |
+| BL | Bell Ledge | Upper Area | Bell Ledge | None |  | Verified |  |
+| PO | Pond | Left Pond | Right Pond | Swim OR Clawline OR (Drifter's Cloak AND (Faydown Cloak OR (Sprint AND Dash) OR (Sharpdart AND Ledge Grab))) OR (Faydown Cloak AND Sharpdart AND (Dash OR Beast Crest)) |  | Verified |  |
+| PO | Pond | Right Pond | Left Pond | Swim OR ( Clawline AND ( Ledge Grab OR Dash OR Sharpdart OR beast Crest OR Faydown Cloak ) ) OR ( Sprint AND ( ( Sharpdart AND Dash ) OR ( Sharpdart AND Beast Crest ) OR ( Faydown Cloak AND Drifters Cloak ) OR ( Sharpdart AND Drifters Cloak) OR ( Faydown Cloak AND Sharpdart ) ) ) |  | Verified |  |
+| PL | Platforms | Upper Area | Right Pond | None |  | Verified |  |
+| PL | Platforms | Right Pond | Upper Area | Ledge Grab OR Dash OR Clawline OR Faydown Cloak OR Cling Grip OR Silk soar |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Shard Bundle: Shellwood | Upper Area | (Cling Grip AND Faydown Cloak ) OR Silk Soar OR ( Faydown Cloak AND Dash AND Scuttlebrace ) |  |  | Included |  |
+| Shard Bundle: Shellwood | Upper Area | (Cling Grip AND Faydown Cloak ) OR Silk Soar OR ( Faydown Cloak AND Dash AND Scuttlebrace ) |  | Verified | Included |  |
 
 ### Sister Splinter (Shellwood_18)
 
@@ -5701,22 +5701,22 @@ No subroom connections defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 | Arena Side | [Cling Grip Room (Shellwood_10)](#cling-grip-room-shellwood10) | MR |  |  |  |  |
-| R | right1 | Right Side | [Shellwood Upper Bellhart Entrance (Shellwood_13)](#shellwood-upper-bellhart-entrance-shellwood13) | UL |  |  |  |  |
-| C | top1 | Right Side | [Shellwood Top Room (Shellwood_26)](#shellwood-top-room-shellwood26) | F | Cling Grip OR ( Dash AND Scuttlebrace ) |  |  |  |
+| L | left1 | Arena Side | [Cling Grip Room (Shellwood_10)](#cling-grip-room-shellwood10) | MR | None |  | Verified |  |
+| R | right1 | Right Side | [Shellwood Upper Bellhart Entrance (Shellwood_13)](#shellwood-upper-bellhart-entrance-shellwood13) | UL | None |  | Verified |  |
+| C | top1 | Right Side | [Shellwood Top Room (Shellwood_26)](#shellwood-top-room-shellwood26) | F | Cling Grip OR ( Dash AND Scuttlebrace ) |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| PU | Puddle | Arena Side | Right Side | Swim OR ( Cling Grip AND Ledge grab ) OR Dash OR Clawline OR Sharp Dart OR Drifters Cloak OR Faydown Cloak OR Beast Crest |  |  |  |
-| PU | Puddle | Right Side | Arena Side | Swim OR Dash OR Clawline OR Sharp Dart OR Drifters Cloak OR Faydown Cloak OR Beast Crest |  |  |  |
+| PU | Puddle | Arena Side | Right Side | Swim OR ( Cling Grip AND Ledge grab ) OR Dash OR Clawline OR Sharp Dart OR Drifters Cloak OR Faydown Cloak OR Beast Crest |  | Verified |  |
+| PU | Puddle | Right Side | Arena Side | Swim OR Dash OR Clawline OR Sharp Dart OR Drifters Cloak OR Faydown Cloak OR Beast Crest |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Boss: Sister Splinter | Arena Side | None |  |  | Included |  |
+| Boss: Sister Splinter | Arena Side | None |  | Verified | Included |  |
 
 ### Witch Chapel (Shellwood_25b)
 
@@ -5732,8 +5732,8 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | Left1 |  | [Shellwood Diddy Basement Main (Shellwood_25)](#shellwood-diddy-basement-main-shellwood25) | D | None |  |  |  |
-| QR | Quest Rebirth |  | [Greyroot (Room_Witch)](#greyroot-roomwitch) | QR |  |  |  |  |
+| L | Left1 |  | [Shellwood Diddy Basement Main (Shellwood_25)](#shellwood-diddy-basement-main-shellwood25) | D | None |  | Verified |  |
+| QR | Quest Rebirth |  | [Greyroot (Room_Witch)](#greyroot-roomwitch) | QR | Inaccessible this way |  | Verified | 1 way 1 use teleport from other side this is here just for the link |
 
 #### Subroom Connections
 
@@ -5757,8 +5757,8 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| C | top1 |  | [Shellwood Connection To Blasted steps (Shellwood_08)](#shellwood-connection-to-blasted-steps-shellwood08) | F | (Faydown Cloak AND difficult enemy pogo AND Ledge grab) OR cling grip OR silk soar OR ( Dash AND Scuttlebrace AND Faydown Cloak ) |  |  |  |
-| F | bot1 |  | [Shellwood Left side Long pond room (Shellwood_04b)](#shellwood-left-side-long-pond-room-shellwood04b) | LC | None |  |  |  |
+| C | top1 |  | [Shellwood Connection To Blasted steps (Shellwood_08)](#shellwood-connection-to-blasted-steps-shellwood08) | F | (Faydown Cloak AND Hard Skips AND ( Ledge grab OR Difficulty above hard skips ) OR cling grip OR silk soar OR ( Dash AND Scuttlebrace AND Faydown Cloak ) |  | Verified |  |
+| F | bot1 |  | [Shellwood Left side Long pond room (Shellwood_04b)](#shellwood-left-side-long-pond-room-shellwood04b) | LC | None |  | Verified |  |
 
 #### Subroom Connections
 
@@ -5782,8 +5782,8 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Shellwood Lower Left Tall Room (Shellwood_03)](#shellwood-lower-left-tall-room-shellwood03) | LR | None |  |  |  |
-| R | right1 |  | [Shellwood Big Room Left (Shellwood_02)](#shellwood-big-room-left-shellwood02) | LL | None |  |  |  |
+| L | left1 |  | [Shellwood Lower Left Tall Room (Shellwood_03)](#shellwood-lower-left-tall-room-shellwood03) | LR | None |  | Verified |  |
+| R | right1 |  | [Shellwood Big Room Left (Shellwood_02)](#shellwood-big-room-left-shellwood02) | LL | None |  | Verified |  |
 
 #### Subroom Connections
 
@@ -5793,7 +5793,7 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Map: Shellwood |  | None |  |  | Included |  |
+| Map: Shellwood |  | None |  | Verified | Included |  |
 
 ## Bellhart
 
@@ -5811,9 +5811,9 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| F | bot1 |  | [Bellhart Lower (Belltown_basement_03)](#bellhart-lower-belltownbasement03) | C | None |  |  |  |
-| L | left1 |  | [Belltown (Belltown)](#belltown-belltown) | BD | Ledge Grab OR Clawline OR Faydown Cloak OR Cling Grip OR Silk Soar |  |  |  |
-| BH | door_fastTravelExit |  | [Bellway Menu](#bellway-menu) | BH | Bellway access |  |  |  |
+| F | bot1 |  | [Bellhart Lower (Belltown_basement_03)](#bellhart-lower-belltownbasement03) | C | None |  | Verified |  |
+| L | left1 |  | [Belltown (Belltown)](#belltown-belltown) | BD | Ledge Grab OR Clawline OR Faydown Cloak OR Cling Grip OR Silk Soar |  | Verified |  |
+| BH | door_fastTravelExit |  | [Bellway Menu](#bellway-menu) | BH | Bellway access |  | Verified |  |
 
 #### Subroom Connections
 
@@ -5823,7 +5823,7 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Bellway: Bellhart |  | None |  |  | Included |  |
+| Bellway: Bellhart |  | None |  | Verified | Included |  |
 
 ### Bellhart Hallway to Shellwood (Belltown_07)
 
@@ -5839,8 +5839,8 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Shellwood Right Side Big room (Shellwood_01)](#shellwood-right-side-big-room-shellwood01) | LR | None |  |  |  |
-| R | right1 |  | [Belltown (Belltown)](#belltown-belltown) | L | None |  |  |  |
+| L | left1 |  | [Shellwood Right Side Big room (Shellwood_01)](#shellwood-right-side-big-room-shellwood01) | LR | None |  | Verified |  |
+| R | right1 |  | [Belltown (Belltown)](#belltown-belltown) | L | None |  | Verified |  |
 
 #### Subroom Connections
 
@@ -5850,8 +5850,8 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Rosary Cache: Bellhart #4 |  | Cling Grip OR Silk soar OR ( Dash AND Scuttlebrace AND Faydown Cloak ) |  |  | Included |  |
-| Lore: Bellhart #2 |  | None |  |  | Included |  |
+| Rosary Cache: Bellhart #4 |  | Cling Grip OR Silk soar OR ( Dash AND Scuttlebrace AND Faydown Cloak ) |  | Verified | Included |  |
+| Bellhart- Outer Sign |  | None |  | Verified | Included |  |
 
 ### Bellhart Lower (Belltown_basement_03)
 
@@ -5876,53 +5876,57 @@ No subroom connections defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| C | top1 | Top Exit | [Bellhart Bellway (Belltown_basement)](#bellhart-bellway-belltownbasement) | F | None |  |  |  |
-| L | left1 | Bottom Exit | [The Marrow Jail Pathway (Bone_08)](#the-marrow-jail-pathway-bone08) | UR | None |  |  |  |
+| C | top1 | Top Exit | [Bellhart Bellway (Belltown_basement)](#bellhart-bellway-belltownbasement) | F | None |  | Verified |  |
+| L | left1 | Bottom Exit | [The Marrow Jail Pathway (Bone_08)](#the-marrow-jail-pathway-bone08) | UR | None |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| PL | Platforms Upper | Top Exit | Hermit | None |  |  |  |
-| PL | Platforms Upper | Hermit | Top Exit | Clawline OR Ledge Grab OR Shamen Crest OR ( Dash AND Scuttlebrace ) OR Faydown Cloak OR Silk Soar OR  Cling Grip |  |  |  |
-| UP | Upper Hall | Hermit | Upper Hall | Cling Grip OR Silk Soar OR ( Scuttlebrace AND Dash ) |  |  |  |
-| UP | Upper Hall | Upper Hall | Hermit | None |  |  |  |
-| TL | Tall Passage Left | Upper Hall | Under Hermit Hall | None |  |  |  |
-| TL | Tall Passage Left | Under Hermit Hall | Upper Hall | Cling Grip OR ( Scuttlebrace AND Dash ) |  |  |  |
-| HH | Hermit Hole | Hermit | Under Hermit Hall | One way wall broken From Underneath |  |  |  |
-| HH | Hermit Hole | Under Hermit Hall | Hermit | Cling Grip OR Silk Soar OR ( Scuttlebrace AND Dash ) AND One way wall broken |  |  |  |
-| TR | Tall Passage Right | Under Hermit Hall | Rosary Room | None |  |  |  |
-| TR | Tall Passage Right | Rosary Room | Under Hermit Hall | Cling Grip OR ( Scuttlebrace AND Dash ) |  |  |  |
-| WS | Wide Shaft | Rosary Room | Passage below rosary | None |  |  |  |
-| WS | Wide Shaft | Passage below rosary | Rosary Room | Cling Grip OR Silk Soar OR ( Scuttlebrace AND Dash ) |  |  |  |
-| RS | Shaft near Rosary Cache | Passage below rosary | Breakable Wall Passage | Cling Grip OR Silk Soar OR ( Scuttlebrace AND Dash ) |  |  |  |
-| RS | Shaft near Rosary Cache | Breakable Wall Passage | Passage below rosary | None |  |  |  |
-| BW | Broken Floor Shaft | Breakable Wall Passage | Under Hermit Hall | Cling Grip OR ( Scuttlebrace AND Dash ) |  |  |  |
-| BW | Broken Floor Shaft | Under Hermit Hall | Breakable Wall Passage | One way wall broken From Underneath |  |  |  |
-| BL | Tall Passage Bottom Left | Breakable Wall Passage | Lower Passage 1 | None |  |  |  |
-| BL | Tall Passage Bottom Left | Lower Passage 1 | Breakable Wall Passage | Cling Grip OR ( Scuttlebrace AND Dash ) |  |  |  |
-| LV | Lower Passages Shaft | Lower Passage 1 | Lower Passage 2 | None |  |  |  |
-| LV | Lower Passages Shaft | Lower Passage 2 | Lower Passage 1 | Cling Grip OR ( Scuttlebrace AND Dash ) |  |  |  |
-| WP | Wide Platform Shaft | Lower Passage 2 | Passage below rosary | Cling Grip OR Silk Soar OR ( Dash AND Scuttlebrace AND ( Ledge Grab OR Clawline OR Faydown Cloak OR Sharpdart OR Beast Crest ) ) AND Breakable Floor Opened |  |  |  |
-| WP | Wide Platform Shaft | Passage below rosary | Lower Passage 2 | One way wall broken From Underneath AND ( Dash OR Sprint OR Ledge grab OR Clawline OR Drifters Cloak OR Faydown Cloak OR Cling grip OR Shamen Crest OR Architect Crest OR Beast Crest ) |  |  |  |
-| ES | Exit Shaft | Lower Passage 2 | Bottom Exit | Break One way wall |  |  |  |
-| ES | Exit Shaft | Bottom Exit | Lower Passage 2 | One way wall broken from above AND ( Cling Grip OR Silk Soar ( Dash AND Scuttlebrace AND Faydown Cloak ) ) |  |  |  |
+| PL | Platforms Upper | Top Exit | Hermit | None |  | Verified |  |
+| PL | Platforms Upper | Hermit | Top Exit | Clawline OR Ledge Grab OR Shamen Crest OR ( Dash AND Scuttlebrace ) OR Faydown Cloak OR Silk Soar OR  Cling Grip |  | Verified |  |
+| UP | Upper Hall | Hermit | Upper Hall | Cling Grip OR Silk Soar OR ( Scuttlebrace AND Dash ) |  | Verified |  |
+| UP | Upper Hall | Upper Hall | Hermit | None |  | Verified |  |
+| TL | Tall Passage Left | Upper Hall | Under Hermit Hall | None |  | Verified |  |
+| TL | Tall Passage Left | Under Hermit Hall | Upper Hall | Cling Grip OR ( Scuttlebrace AND Dash ) |  | Verified |  |
+| HH | Hermit Hole | Hermit | Under Hermit Hall | Hermit hole breakable wall broken from "under Hermit Hall" |  | Verified |  |
+| HH | Hermit Hole | Under Hermit Hall | Hermit | Hermit hole breakable wall broken from "under Hermit Hall" AND ( Cling Grip OR Silk Soar OR Scuttlebrace ) |  | Verified |  |
+| TR | Tall Passage Right | Under Hermit Hall | Rosary Room | None |  | Verified |  |
+| TR | Tall Passage Right | Rosary Room | Under Hermit Hall | Cling Grip OR ( Scuttlebrace AND Dash ) |  | Verified |  |
+| WS | Wide Shaft | Rosary Room | Passage below rosary | None |  | Verified |  |
+| WS | Wide Shaft | Passage below rosary | Rosary Room | Cling Grip OR Silk Soar OR ( Scuttlebrace AND Dash ) |  | Verified |  |
+| RS | Shaft near Rosary Cache | Passage below rosary | Breakable Wall Passage | Cling Grip OR Silk Soar OR ( Scuttlebrace AND Dash ) |  | Verified |  |
+| RS | Shaft near Rosary Cache | Breakable Wall Passage | Passage below rosary | None |  | Verified |  |
+| BW | Broken Floor Shaft | Breakable Wall Passage | Under Hermit Hall | Breakable Wall Passage Breakable Wall broken from "Breakable Wall Passage" AND ( Cling Grip OR Scuttlebrace ) |  | Verified |  |
+| BW | Broken Floor Shaft | Under Hermit Hall | Breakable Wall Passage | Breakable Wall Passage Breakable Wall broken from "Breakable Wall Passage" |  | Verified |  |
+| BL | Tall Passage Bottom Left | Breakable Wall Passage | Lower Passage 1 | None |  | Verified |  |
+| BL | Tall Passage Bottom Left | Lower Passage 1 | Breakable Wall Passage | Cling Grip OR ( Scuttlebrace AND Dash ) |  | Verified |  |
+| LV | Lower Passages Shaft | Lower Passage 1 | Lower Passage 2 | None |  | Verified |  |
+| LV | Lower Passages Shaft | Lower Passage 2 | Lower Passage 1 | Cling Grip OR ( Scuttlebrace AND Dash ) |  | Verified |  |
+| WP | Wide Platform Shaft | Lower Passage 2 | Passage below rosary | Lower Passage 2 Breakable Wall broken from "Lower Passage 2" AND ( Cling Grip OR Silk Soar OR ( Dash AND Scuttlebrace AND ( Ledge Grab OR Clawline OR Faydown Cloak OR Sharpdart OR Beast Crest ) ) ) |  | Verified |  |
+| WP | Wide Platform Shaft | Passage below rosary | Lower Passage 2 | Lower Passage 2 Breakable Wall broken from "Lower Passage 2" AND ( Dash OR Sprint OR Ledge grab OR Clawline OR Drifters Cloak OR Faydown Cloak OR Cling grip OR Shamen Crest OR Architect Crest OR Beast Crest ) |  | Verified |  |
+| ES | Exit Shaft | Lower Passage 2 | Bottom Exit | Lower Passage 2 Breakable  Wall To Exit broken from "Lower Passage 2" |  | Verified |  |
+| ES | Exit Shaft | Bottom Exit | Lower Passage 2 | Lower Passage 2 Breakable  Wall To Exit broken from "Lower Passage 2" AND ( Cling Grip OR Silk Soar ( Dash AND Scuttlebrace AND Faydown Cloak ) ) |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Hermits Soul | Hermit | Silk and Soul Wish Started |  |  | Not included |  |
-| Silver Bell Spawn Location #6 | Upper Hall | Silver Bells Wish Started |  |  | Not included |  |
-| Rosary Cache: Bellhart #6 | Upper Hall | None |  |  | Included |  |
-| Silver Bell Spawn Location #7 | Upper Hall | Silver Bells Wish Started |  |  | Not included |  |
-| Silver Bell Spawn Location #8 | Under Hermit Hall | Silver Bells Wish Started |  |  | Not included |  |
-| Silver Bell Spawn Location #12 | Under Hermit Hall | Silver Bells Wish Started |  |  | Not included |  |
-| Rosary Cache: Bellhart #7 | Rosary Room | None |  |  | Included |  |
-| Silver Bell Spawn Location #9 | Passage below rosary | Silver Bells Wish Started |  |  | Not included |  |
-| Silver Bell Spawn Location #10 | Lower Passage 1 | Silver Bells Wish Started |  |  | Not included |  |
-| Silver Bell Spawn Location #11 | Lower Passage 2 | Silver Bells Wish Started |  |  | Not included |  |
-| Rosary Cache: Bellhart #5 | Bottom Exit | None |  |  | Included |  |
+| Hermits Soul | Hermit | Silk and Soul Wish Started |  | Verified | Not included |  |
+| Silver Bell Spawn Location #6 | Upper Hall | Silver Bells Wish Started |  | Verified | Not included |  |
+| Rosary Cache: Bellhart #6 | Upper Hall | None |  | Verified | Included |  |
+| Silver Bell Spawn Location #7 | Upper Hall | Silver Bells Wish Started |  | Verified | Not included |  |
+| Silver Bell Spawn Location #8 | Under Hermit Hall | Silver Bells Wish Started |  | Verified | Not included |  |
+| Silver Bell Spawn Location #12 | Under Hermit Hall | Silver Bells Wish Started |  | Verified | Not included |  |
+| Rosary Cache: Bellhart #7 | Rosary Room | None |  | Verified | Included |  |
+| Silver Bell Spawn Location #9 | Passage below rosary | Silver Bells Wish Started |  | Verified | Not included |  |
+| Silver Bell Spawn Location #10 | Lower Passage 1 | Silver Bells Wish Started |  | Verified | Not included |  |
+| Silver Bell Spawn Location #11 | Lower Passage 2 | Silver Bells Wish Started |  | Verified | Not included |  |
+| Rosary Cache: Bellhart #5 | Bottom Exit | None |  | Verified | Included |  |
+| Hermit Hole Breakable Wall | Under Hermit Hall | None |  | Verified | Not included |  |
+| Breakable Wall Passage Breakable Wall | Breakable Wall Passage | None |  | Verified | Not included |  |
+| Lower Passage 2 Breakable Wall | Lower Passage 2 | None |  | Verified | Not included |  |
+| Lower Passage 2 Breakable  Wall To Exit | Lower Passage 2 | None |  | Verified | Not included |  |
 
 ### Bellhart Pinsmith (Belltown_Room_pinsmith)
 
@@ -5938,7 +5942,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Belltown (Belltown)](#belltown-belltown) | ND | None |  |  |  |
+| L | left1 |  | [Belltown (Belltown)](#belltown-belltown) | ND | None |  | Verified |  |
 
 #### Subroom Connections
 
@@ -5948,10 +5952,10 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Needle Upgrade 1 |  | None |  |  | Included |  |
-| Needle Upgrade 2 |  | Pale Oil |  |  | Included |  |
-| Needle Upgrade 3 |  | Pale Oil |  |  | Included |  |
-| Needle Upgrade 4 |  | Pale Oil |  |  | Included |  |
+| Needle Upgrade 1 |  | None |  | Verified | Included |  |
+| Needle Upgrade 2 |  | 1 Pale Oil Owned |  | Verified | Included |  |
+| Needle Upgrade 3 |  | 1 Pale Oil Owned |  | Verified | Included |  |
+| Needle Upgrade 4 |  | 1 Pale Oil Owned |  | Verified | Included |  |
 
 ### Bellhart Relic Shop (Belltown_Room_Relic)
 
@@ -5967,7 +5971,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Belltown (Belltown)](#belltown-belltown) | RD | None |  |  |  |
+| L | left1 |  | [Belltown (Belltown)](#belltown-belltown) | RD | None |  | Verified |  |
 
 #### Subroom Connections
 
@@ -5977,21 +5981,21 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Hand In bone scroll 1 |  | Bone scroll |  |  | Included |  |
-| Hand In bone scroll 2 |  | Bone scroll |  |  | Included |  |
-| Hand In bone scroll 3 |  | Bone scroll |  |  | Included |  |
-| Hand In bone scroll 4 |  | Bone scroll |  |  | Included |  |
-| Hand In Weaver Effigy 1 |  | Weaver Effigy |  |  | Included |  |
-| Hand In Weaver Effigy 2 |  | Weaver Effigy |  |  | Included |  |
-| Hand In Weaver Effigy 3 |  | Weaver Effigy |  |  | Included |  |
-| Hand in Choral Commandment 1 |  | Choral Commandment |  |  | Included |  |
-| Hand in Choral Commandment 2 |  | Choral Commandment |  |  | Included |  |
-| Hand in Choral Commandment 3 |  | Choral Commandment |  |  | Included |  |
-| Hand in Choral Commandment 4 |  | Choral Commandment |  |  | Included |  |
-| Hand in Rune Harp 1 |  | Rune Harp |  |  | Included |  |
-| Hand in Rune Harp 2 |  | Rune Harp |  |  | Included |  |
-| Hand in Rune Harp 3 |  | Rune Harp |  |  | Included |  |
-| Hand in Arcane Egg |  | Arcane Egg |  |  | Included |  |
+| Hand In bone scroll 1 |  | Bone scroll |  | Verified | Included |  |
+| Hand In bone scroll 2 |  | Bone scroll |  | Verified | Included |  |
+| Hand In bone scroll 3 |  | Bone scroll |  | Verified | Included |  |
+| Hand In bone scroll 4 |  | Bone scroll |  | Verified | Included |  |
+| Hand In Weaver Effigy 1 |  | Weaver Effigy |  | Verified | Included |  |
+| Hand In Weaver Effigy 2 |  | Weaver Effigy |  | Verified | Included |  |
+| Hand In Weaver Effigy 3 |  | Weaver Effigy |  | Verified | Included |  |
+| Hand in Choral Commandment 1 |  | Choral Commandment |  | Verified | Included |  |
+| Hand in Choral Commandment 2 |  | Choral Commandment |  | Verified | Included |  |
+| Hand in Choral Commandment 3 |  | Choral Commandment |  | Verified | Included |  |
+| Hand in Choral Commandment 4 |  | Choral Commandment |  | Verified | Included |  |
+| Hand in Rune Harp 1 |  | Rune Harp |  | Verified | Included |  |
+| Hand in Rune Harp 2 |  | Rune Harp |  | Verified | Included |  |
+| Hand in Rune Harp 3 |  | Rune Harp |  | Verified | Included |  |
+| Hand in Arcane Egg |  | Arcane Egg |  | Verified | Included |  |
 
 ### Bellhart Right Entrance (Belltown_06)
 
@@ -6008,23 +6012,22 @@ No subroom connections defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| UL | left3 | Upper Level | [Widow Boss Fight (Belltown_Shrine)](#widow-boss-fight-belltownshrine) | R | None |  |  |  |
-| UD | door1 | Upper Level | [Bellhart Right Entrance (Belltown_06)](#bellhart-right-entrance-belltown06) | UD | Inaccessible |  |  |  |
-| LL | left1 | Lower Level | [Belltown (Belltown)](#belltown-belltown) | R | None |  |  |  |
-| R | right1 | Lower Level | TODO |  | None |  |  |  |
+| UL | left3 | Upper Level | [Widow Boss Fight (Belltown_Shrine)](#widow-boss-fight-belltownshrine) | R | None |  | Verified |  |
+| LL | left1 | Lower Level | [Belltown (Belltown)](#belltown-belltown) | R | None |  | Verified |  |
+| R | right1 | Lower Level | Greymoor Moorwing Arena Room | L | None |  | Verified | Update once skai sends in the left greymoor export only here so moriko doesnt crucify me |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| EL | Elevator | Lower Level | Upper Level | Elevator activated from avobe |  |  |  |
-| EL | Elevator | Upper Level | Lower Level | Elevator activated |  |  |  |
+| EL | Elevator | Lower Level | Upper Level | Elevator activated Upper Level |  | Verified |  |
+| EL | Elevator | Upper Level | Lower Level | Elevator activated From Upper Level |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Lore: Bellhart #1 | Lower Level | none |  |  | Not included |  |
+| Lore: Bellhart #1 | Lower Level | none |  | Verified | Not included |  |
 
 ### Belltown (Belltown)
 
@@ -6041,56 +6044,56 @@ No subroom connections defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| RD | door4 | Upper Area | [Bellhart Relic Shop (Belltown_Room_Relic)](#bellhart-relic-shop-belltownroomrelic) | L |  |  |  |  |
-| L | left3 | Lower Area | [Bellhart Hallway to Shellwood (Belltown_07)](#bellhart-hallway-to-shellwood-belltown07) | R |  |  |  |  |
-| BD | door1 | Lower Area | [Bellhart Bellway (Belltown_basement)](#bellhart-bellway-belltownbasement) | L |  |  |  |  |
-| HD | door5 | Upper Area | [Bellhome (Belltown_room_spare)](#bellhome-belltownroomspare) | L |  |  |  |  |
-| ND | door3 | Upper Area | [Bellhart Pinsmith (Belltown_Room_pinsmith)](#bellhart-pinsmith-belltownroompinsmith) | L |  |  |  |  |
-| R | right2 | Lower Area | [Bellhart Right Entrance (Belltown_06)](#bellhart-right-entrance-belltown06) | LL |  |  |  |  |
+| RD | door4 | Upper Area | [Bellhart Relic Shop (Belltown_Room_Relic)](#bellhart-relic-shop-belltownroomrelic) | L | None |  | Verified |  |
+| L | left3 | Lower Area | [Bellhart Hallway to Shellwood (Belltown_07)](#bellhart-hallway-to-shellwood-belltown07) | R | None |  | Verified |  |
+| BD | door1 | Lower Area | [Bellhart Bellway (Belltown_basement)](#bellhart-bellway-belltownbasement) | L | None |  | Verified |  |
+| HD | door5 | Upper Area | [Bellhome (Belltown_room_spare)](#bellhome-belltownroomspare) | L | None |  | Verified |  |
+| ND | door3 | Upper Area | [Bellhart Pinsmith (Belltown_Room_pinsmith)](#bellhart-pinsmith-belltownroompinsmith) | L | None |  | Verified |  |
+| R | right2 | Lower Area | [Bellhart Right Entrance (Belltown_06)](#bellhart-right-entrance-belltown06) | LL | None |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| PL | Platforms | Lower Area | Upper Area | Ledge grab OR Dash OR Clawline OR Silksoar OR Faydown Cloak OR Sharpdart OR Shamen Crest OR Cling Grip |  |  |  |
-| PL | Platforms | Upper Area | Lower Area | None |  |  |  |
+| PL | Platforms | Lower Area | Upper Area | Ledge grab OR Dash OR Clawline OR Silksoar OR Faydown Cloak OR Sharpdart OR Shamen Crest OR Cling Grip |  | Verified |  |
+| PL | Platforms | Upper Area | Lower Area | None |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Memory Locket: Bellhart roof | Upper Area | Silk Soar |  |  | Included |  |
-| Wish: Silver Bells | Lower Area | 8 Silver Bells |  |  | Included |  |
-| Wish: My Missing Courier | Lower Area | Locate Tipp in Aspid_01 |  |  | Included |  |
-| Wish: Crawbug Clearing | Lower Area | 25 Ragpelt |  |  | Included |  |
-| Wish: Restoration of Bellhart | Lower Area | 250 Rosaries |  |  | Included |  |
-| Wish: Bellharts Glory | Lower Area | 400 Rosaries |  |  | Included |  |
-| Wish: My missing Brother | Lower Area | Locate Pill in Dust_04 |  |  | Included |  |
-| Wish: Savage Beastfly | Lower Area | Kill the Savage Beastfly in Bone_East_08 |  |  | Included |  |
-| Wish: Trails End | Lower Area | Meet Shakra in Shadow_24 |  |  | Included |  |
-| Wish: Fatal Resolve | Lower Area | Find note in room_pinstress and beat her at Peak_07 AND ACT3 |  |  | Included |  |
-| Wish: Ecstacy of the end | Lower Area | Achieve the highscore in all 3 games in Fleatopia ( Aqueduct_05 ) AND ACT3 |  |  | Included |  |
-| Wish: Heros Call | Lower Area | Defeat Lost Garmond in Coral_33 AND ACT3 |  |  | Included |  |
-| Wish: The Hidden Hunter | Lower Area | Defeat Gurr the Outcast in Bone_east_18b |  |  | Included |  |
-| Wish: Dark hearts | Lower Area | Defeat 12 Void Masses AND ACT3 |  |  | Included |  |
-| Wish: The Threadspun town | Lower Area | Defeat Widow in Belltown_Shrine |  |  | Included |  |
-| Wish: Bone bottom supplys | Upper Area | Travel to Bone Bottom ( Bonetown ) |  |  | Included |  |
-| Wish: Pilgrims Rest Supplys | Upper Area | Travel to Pilgrims Rest ( Bone_east_10 ) |  |  | Included |  |
-| Wish: Queens Egg | Upper Area | Travel to Dust_11 |  |  | Included |  |
-| Wish; Songclave Supplys | Upper Area | Travel to Songclave ( Song_enclave ) |  |  | Included |  |
-| Wish: Fleatopia Supplys | Upper Area | Travel to Fleatopia ( Aqueduct_05 ) |  |  | Included |  |
-| Wish: Liquid Laquer | Upper Area | Travel to Mask Maker ( Peak_mask_maker ) |  |  | Included |  |
-| Wish: Couriers Rasher | Upper Area | Travel to Song_09b fast |  |  | Included |  |
-| Memory Locket ( Frey ) | Lower Area | 330 Rosaries |  |  | Included |  |
-| Spool Fragment ( Frey ) | Lower Area | 270 Rosaries AND Wish: My missing Courier completed |  |  | Included |  |
-| Multibinder | Lower Area | 880 Rosaries AND Wish: My missing Courier completed |  |  | Included |  |
-| Desk | Lower Area | 380 Rosaries |  |  | Included |  |
-| Gleamlights | Lower Area | 320 Rosaries |  |  | Included |  |
-| Bell Lacquer | Lower Area | 520 Rosaries |  |  | Included |  |
-| Personal Spa | Lower Area | 1100 Rosaries AND 2 other bellhome items |  |  | Included |  |
-| Gramophone | Lower Area | 490 Rosaries AND All psalm cylinders handed in |  |  | Included |  |
-| Map: Bellhart | Upper Area | 40 Rosaries |  |  | Included |  |
-| Craw Summons | Lower Area | None |  |  | Included |  |
+| Memory Locket: Bellhart roof | Upper Area | Silk Soar |  | Verified | Included |  |
+| Wish: Silver Bells | Lower Area | 8 Silver Bells |  | Verified | Included |  |
+| Wish: My Missing Courier | Lower Area | Locate Tipp in Aspid_01 |  | Verified | Included |  |
+| Wish: Crawbug Clearing | Lower Area | 25 Ragpelt |  | Verified | Included |  |
+| Wish: Restoration of Bellhart | Lower Area | 250 Rosaries |  | Verified | Included |  |
+| Wish: Bellharts Glory | Lower Area | 400 Rosaries |  | Verified | Included |  |
+| Wish: My missing Brother | Lower Area | Locate Pill in Dust_04 |  | Verified | Included |  |
+| Wish: Savage Beastfly | Lower Area | Kill the Savage Beastfly in Bone_East_08 |  | Verified | Included |  |
+| Wish: Trails End | Lower Area | Meet Shakra in Shadow_24 |  | Verified | Included |  |
+| Wish: Fatal Resolve | Lower Area | Find note in room_pinstress and beat her at Peak_07 AND ACT3 |  | Verified | Included |  |
+| Wish: Ecstacy of the end | Lower Area | Achieve the highscore in all 3 games in Fleatopia ( Aqueduct_05 ) AND ACT3 |  | Verified | Included |  |
+| Wish: Heros Call | Lower Area | Defeat Lost Garmond in Coral_33 AND ACT3 |  | Verified | Included |  |
+| Wish: The Hidden Hunter | Lower Area | Defeat Gurr the Outcast in Bone_east_18b |  | Verified | Included |  |
+| Wish: Dark hearts | Lower Area | Defeat 12 Void Masses AND ACT3 |  | Verified | Included |  |
+| Wish: The Threadspun town | Lower Area | Defeat Widow in Belltown_Shrine |  | Verified | Included |  |
+| Wish: Bone bottom supplys | Upper Area | Travel to Bone Bottom ( Bonetown ) |  | Verified | Included |  |
+| Wish: Pilgrims Rest Supplys | Upper Area | Travel to Pilgrims Rest ( Bone_east_10 ) |  | Verified | Included |  |
+| Wish: Queens Egg | Upper Area | Travel to Dust_11 |  | Verified | Included |  |
+| Wish; Songclave Supplys | Upper Area | Travel to Songclave ( Song_enclave ) |  | Verified | Included |  |
+| Wish: Fleatopia Supplys | Upper Area | Travel to Fleatopia ( Aqueduct_05 ) |  | Verified | Included |  |
+| Wish: Liquid Laquer | Upper Area | Travel to Mask Maker ( Peak_mask_maker ) |  | Verified | Included |  |
+| Wish: Couriers Rasher | Upper Area | Travel to Song_09b fast |  | Verified | Included |  |
+| Memory Locket ( Frey ) | Lower Area | 330 Rosaries |  | Verified | Included |  |
+| Spool Fragment ( Frey ) | Lower Area | 270 Rosaries AND Wish: My missing Courier completed |  | Verified | Included |  |
+| Multibinder | Lower Area | 880 Rosaries AND Wish: My missing Courier completed |  | Verified | Included |  |
+| Desk | Lower Area | 380 Rosaries |  | Verified | Included |  |
+| Gleamlights | Lower Area | 320 Rosaries |  | Verified | Included |  |
+| Bell Lacquer | Lower Area | 520 Rosaries |  | Verified | Included |  |
+| Personal Spa | Lower Area | 1100 Rosaries AND 2 other bellhome items |  | Verified | Included |  |
+| Gramophone | Lower Area | 490 Rosaries AND All psalm cylinders handed in |  | Verified | Included |  |
+| Map: Bellhart | Upper Area | 40 Rosaries |  | Verified | Included |  |
+| Craw Summons | Lower Area | None |  | Verified | Included |  |
 
 ### Upper Bellhart (Belltown_04)
 
@@ -6110,38 +6113,38 @@ No subroom connections defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LL | left2 | Lower Exits | [Shellwood Hidden Bellhart Connection (Shellwood_15)](#shellwood-hidden-bellhart-connection-shellwood15) | R | None |  |  |  |
-| F | bot1 | Lower Exits | [Widow Boss Fight (Belltown_Shrine)](#widow-boss-fight-belltownshrine) | C | None |  |  |  |
-| UL | left1 | Upper Big room | [Shellwood Upper Bellhart Entrance (Shellwood_13)](#shellwood-upper-bellhart-entrance-shellwood13) | R | None |  |  |  |
+| LL | left2 | Lower Exits | [Shellwood Hidden Bellhart Connection (Shellwood_15)](#shellwood-hidden-bellhart-connection-shellwood15) | R | None |  | Verified |  |
+| F | bot1 | Lower Exits | [Widow Boss Fight (Belltown_Shrine)](#widow-boss-fight-belltownshrine) | C | None |  | Verified |  |
+| UL | left1 | Upper Big room | [Shellwood Upper Bellhart Entrance (Shellwood_13)](#shellwood-upper-bellhart-entrance-shellwood13) | R | None |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| TS1 | Tall Shaft1 | Lower Exits | Lower Big Room | Break wall AND ( Ledge Grab OR Clawline OR Faydown Cloak OR ( Dash AND Scuttlebrace ) OR Damage Knockback OR Cling Grip ) |  |  |  |
-| TS1 | Tall Shaft1 | Lower Big Room | Lower Exits | Break wall AND ( Ledge Grab OR Clawline OR Faydown Cloak OR ( Dash AND Scuttlebrace ) OR Cling grip ) |  |  |  |
-| TS2 | Tall Shaft2 | Lower Exits | Silver Bell Cubby | Break wall AND ( Cling Grip OR ( Dash AND Scuttlebrace ) ) |  |  |  |
-| TS2 | Tall Shaft2 | Silver Bell Cubby | Lower Exits | Break wall |  |  |  |
-| TS3 | Tall Shaft3 | Lower Big Room | Silver Bell Cubby | None |  |  |  |
-| TS3 | Tall Shaft3 | Silver Bell Cubby | Lower Big Room | Cling Grip OR ( Dash AND Scuttlebrace ) |  |  |  |
-| TS4 | Tall Shaft4 | Silver Bell Cubby | Central Passage | Cling Grip OR ( Dash AND Scuttlebrace ) |  |  |  |
-| TS4 | Tall Shaft4 | Central Passage | Silver Bell Cubby | None |  |  |  |
-| US | Upper Shafts | Central Passage | Upper Big room | Break wall AND ( Cling Grip OR ( Dash AND Scuttlebrace ) ) |  |  |  |
-| US | Upper Shafts | Upper Big room | Central Passage | None |  |  |  |
+| TS1 | Tall Shaft1 | Lower Exits | Lower Big Room | Break wall AND ( Ledge Grab OR Clawline OR Faydown Cloak OR ( Dash AND Scuttlebrace ) OR Damage Knockback OR Cling Grip ) |  | Verified |  |
+| TS1 | Tall Shaft1 | Lower Big Room | Lower Exits | Break wall AND ( Ledge Grab OR Clawline OR Faydown Cloak OR ( Dash AND Scuttlebrace ) OR Cling grip ) |  | Verified |  |
+| TS2 | Tall Shaft2 | Lower Exits | Silver Bell Cubby | Break wall AND ( Cling Grip OR ( Dash AND Scuttlebrace ) ) |  | Verified |  |
+| TS2 | Tall Shaft2 | Silver Bell Cubby | Lower Exits | Break wall |  | Verified |  |
+| TS3 | Tall Shaft3 | Lower Big Room | Silver Bell Cubby | Cling Grip OR Scuttlebrace |  | Verified |  |
+| TS3 | Tall Shaft3 | Silver Bell Cubby | Lower Big Room | None |  | Verified |  |
+| TS4 | Tall Shaft4 | Silver Bell Cubby | Central Passage | Cling Grip OR ( Dash AND Scuttlebrace ) |  | Verified |  |
+| TS4 | Tall Shaft4 | Central Passage | Silver Bell Cubby | None |  | Verified |  |
+| US | Upper Shafts | Central Passage | Upper Big room | Break wall AND ( Cling Grip OR ( Dash AND Scuttlebrace ) ) |  | Verified |  |
+| US | Upper Shafts | Upper Big room | Central Passage | None |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Silver Bell Spawn Location #1 | Lower Big Room | None |  |  | Included |  |
-| Silver Bell Spawn Location #2 | Lower Big Room | Cling Grip OR Silk Soar OR ( Dash AND Scuttlebrace ) |  |  | Included |  |
-| Rosary Cache: Bellhart #1 | Lower Big Room | Cling Grip OR Silk Soar OR ( Dash AND Scuttlebrace ) |  |  | Included |  |
-| Rosary Cache: Bellhart #2 | Lower Big Room | Cling Grip OR Silk Soar OR ( Dash AND Scuttlebrace ) |  |  | Included |  |
-| Silver Bell Spawn Location #3 | Silver Bell Cubby | None |  |  | Included |  |
-| Silver Bell Spawn Location #4 | Central Passage | Break wall |  |  | Included |  |
-| Rosary Cache: Bellhart #3 | Central Passage | Break wall |  |  | Included |  |
-| Silver Bell Spawn Location #5 | Upper Big room | None |  |  | Included |  |
-| Flea: Bellhart | Upper Big room | Silk Soar OR Cling Grip OR ( Dash AND Scuttlebrace ) OR ( Easy skips AND ( Faydown Cloak OR Drifters Cloak ) ) |  |  | Included |  |
+| Silver Bell Spawn Location #1 | Lower Big Room | None |  | Verified | Included |  |
+| Silver Bell Spawn Location #2 | Lower Big Room | Cling Grip OR Silk Soar OR ( Dash AND Scuttlebrace ) |  | Verified | Included |  |
+| Rosary Cache: Bellhart #1 | Lower Big Room | Cling Grip OR Silk Soar OR ( Dash AND Scuttlebrace ) |  | Verified | Included |  |
+| Rosary Cache: Bellhart #2 | Lower Big Room | Cling Grip OR Silk Soar OR ( Dash AND Scuttlebrace ) |  | Verified | Included |  |
+| Silver Bell Spawn Location #3 | Silver Bell Cubby | None |  | Verified | Included |  |
+| Silver Bell Spawn Location #4 | Central Passage | Break wall |  | Verified | Included |  |
+| Rosary Cache: Bellhart #3 | Central Passage | Break wall |  | Verified | Included |  |
+| Silver Bell Spawn Location #5 | Upper Big room | None |  | Verified | Included |  |
+| Flea: Bellhart | Upper Big room | Silk Soar OR Cling Grip OR ( Dash AND Scuttlebrace ) OR ( Easy skips AND ( Faydown Cloak OR Drifters Cloak ) ) |  | Verified | Included |  |
 
 ### Widow Boss Fight (Belltown_Shrine)
 
@@ -6158,25 +6161,25 @@ No subroom connections defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 | Arena | [Bellhart Right Entrance (Belltown_06)](#bellhart-right-entrance-belltown06) | UL | None |  |  |  |
-| C | top1 | Upper | [Upper Bellhart (Belltown_04)](#upper-bellhart-belltown04) | F | Silk Soar OR Cling Grip OR ( Dash AND Scuttlebrace ) OR ( Easy skips AND ( Faydown Cloak OR Drifters Cloak ) ) |  |  |  |
+| R | right1 | Arena | [Bellhart Right Entrance (Belltown_06)](#bellhart-right-entrance-belltown06) | UL | None |  | Verified |  |
+| C | top1 | Upper | [Upper Bellhart (Belltown_04)](#upper-bellhart-belltown04) | F | Silk Soar OR Cling Grip OR ( Dash AND Scuttlebrace ) OR ( Easy skips AND ( Faydown Cloak OR Drifters Cloak ) ) |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| TD | Trapdoor | Arena | Upper | Hit Switch AND ( Cling Grip OR Silk soar OR ( Dash AND Scuttlebrace ) ) |  |  |  |
-| TD | Trapdoor | Upper | Arena | Hit Switch |  |  |  |
-| RH | Roof Hole | Arena | Upper | Silk Soar OR ( Cling Grip AND Faydown Cloak AND ( Clawline OR Sharpdart ) |  |  |  |
-| RH | Roof Hole | Upper | Arena | None |  |  |  |
+| TD | Trapdoor | Arena | Upper | Switch Broken from Arena AND ( Cling Grip OR Silk soar OR ( Dash AND Scuttlebrace ) ) |  | Verified | Permanently open |
+| TD | Trapdoor | Upper | Arena | Switch Broken from Arena |  | Verified | Permanently open |
+| RH | Roof Hole | Arena | Upper | Silk Soar OR ( Cling Grip AND Faydown Cloak AND ( Clawline OR Sharpdart ) |  | Verified |  |
+| RH | Roof Hole | Upper | Arena | None |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Boss: Widow | Arena | None |  |  | Included |  |
-| Bell: Bellhart | Arena | None |  |  | Included |  |
-| Needolin | Arena | None |  |  | Included |  |
+| Boss: Widow | Arena | None |  | Verified | Included |  |
+| Bell: Bellhart | Arena | None |  | Verified | Included |  |
+| Needolin | Arena | None |  | Verified | Included |  |
 
 ### Bellhome (Belltown_room_spare)
 
@@ -6210,8 +6213,6 @@ No check locations defined.
 
 **Game ID:** Bellshrine_02
 
-**Contributors:** isssma
-
 #### Subrooms
 
 No subrooms defined.
@@ -6220,8 +6221,8 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left |  | [Greymoor West Bellshrine Room  (Greymoor_01)](#greymoor-west-bellshrine-room-greymoor01) | MR | Activating the Bellshrine:Greymoor check |  | Verified |  |
-| R | right |  | greymoor east bellshrine room | ML | none |  | Verified |  |
+| L | left |  | [Greymoor West Bellshrine Room  (Greymoor_01)](#greymoor-west-bellshrine-room-greymoor01) | MR | LEVER broken FROM Greymoor Bellshrine (LEFT OR RIGHT) |  | Verified |  |
+| R | right |  | [Greymoor East Bellshrine Room (Greymoor_02)](#greymoor-east-bellshrine-room-greymoor02) | ML | none |  | Verified |  |
 
 #### Subroom Connections
 
@@ -6231,40 +6232,212 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Greymoor - Bellshrine (ring bell switch) |  | none |  | Verified | Included | Opens up room transition: L |
+| Greymoor - Bellshrine |  | none |  | Verified | Included | LEVER broken FROM Greymoor Bellshrine (LEFT OR RIGHT) |
 
-### Greymoor Bone Scroll Room (Greymoor_21)
+### Greymoor Craw Lake (Greymoor_15b)
 
-**Game ID:** Greymoor_21
-
-**Contributors:** isssma
+**Game ID:** Greymoor_15b
 
 #### Subrooms
 
-No subrooms defined.
+- craw building
+- lower left section
+- middle craw nest
+- upper craw nest
+- spiked room
+- flea room
+- middle craw nest left
+- small ass platform
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| T | top |  | [Greymoor Lower Halfway Home Path (Greymoor_13)](#greymoor-lower-halfway-home-path-greymoor13) | D | Ledge grab OR faydown cloak OR silk soar OR cling grip OR shaman crest pogo |  | Verified |  |
+| T | top | upper craw nest | [Greymoor Weaver Shrine (Greymoor_22)](#greymoor-weaver-shrine-greymoor22) | B | silk soar OR (LEVER broken FROM greymoor crow nest (crow arena) UP AND easy crest pogo (hunter, reaper, wanderer, beast, witch, architect, shaman) AND (ledge grab OR faydown cloak OR cling grip)) |  | Verified |  |
+| ML | middle left | middle craw nest left | [Greymoor Craw Lake Entrance (Greymoor_15)](#greymoor-craw-lake-entrance-greymoor15) | UR | none |  | Verified |  |
+| LR | lower right | craw building | TODO |  | ACT 3 AND green prince quest AND (((cling grip OR silk soar) AND (clawline OR (progressive swift step 1 AND (drifter cloak OR (sharpdart AND faydown cloak))) OR (progressive swift step 2 AND faydown cloak))) OR (LEVER broken FROM greymoor crow nest (crow arena) UP  AND (easy crest pogo (beast, architect, shaman) OR (easy crest pogo (reaper, wanderer, witch) AND ledge grab) OR (easy crest pogo (hunter, reaper, wanderer, witch) AND (faydown cloak OR drifter cloak OR clawline OR sharpdart OR progressive swift step 2))))) |  | Verified |  |
+| CN | craw nest entrance | craw building | [Greymoor Crow Nest (Room_CrowCourt)](#greymoor-crow-nest-roomcrowcourt) | L | swim OR ledge grab OR cling grip OR hard enemy pogo |  | Verified |  |
+| LL | lower left | lower left section | [Greymoor Craw Lake Entrance (Greymoor_15)](#greymoor-craw-lake-entrance-greymoor15) | LR | none |  | Verified |  |
 
 #### Subroom Connections
 
-No subroom connections defined.
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| LG | lake gap | lower left section | craw building | swim OR clawline OR ((progressive swift step 2 OR sharpdart) AND faydown cloak AND drifter cloak) OR (progressive swift step 2 AND sharpdart AND faydown cloak) OR (progressive swift step 1 AND sharpdart AND drifter cloak) OR (silk soar AND drifter cloak AND (faydown cloak OR sharpdart OR progressive swift step 2)) OR (LEVER broken FROM greymoor crow nest (crow arena) UP AND easy crest pogo (hunter, reaper, wanderer, beast, witch, architect, shaman)) |  | Verified |  |
+| LG | lake gap | craw building | lower left section | swim OR clawline OR silk soar OR ((progressive swift step 2 OR sharpdart) AND faydown cloak AND drifter cloak) OR (progressive swift step 2 AND sharpdart AND faydown cloak) OR (progressive swift step 1 AND sharpdart AND (drifter cloak OR ((ledge grab OR cling grip) AND faydown cloak))) OR (LEVER broken FROM greymoor crow nest (crow arena) UP AND easy crest pogo (hunter, reaper, wanderer, beast, witch, architect, shaman)) |  | Verified |  |
+| FL | fall left | upper craw nest | flea room | progressive swift step 2 OR clawline OR sharpdart OR drifter cloak OR faydown cloak |  | Verified |  |
+| FL | fall left | flea room | upper craw nest | silk soar |  | Verified | must drop to middle craw nest |
+| FR | fall right | upper craw nest | middle craw nest left | progressive swift step 2 OR clawline OR sharpdart OR drifter cloak OR (faydown cloak AND ledge grab) |  | Verified |  |
+| FR | fall right | middle craw nest left | upper craw nest | silk soar |  | Verified | must drop to middle craw nest |
+| G1 | gap 1 | craw building | lower left section | (drifter cloak AND ((progressive swift step 1 AND clawline) OR (progressive swift step 2 AND shaprdart AND faydown cloak))) OR medium crest pogo (hunter, reaper beast, witch, architect, shaman) |  | Verified |  |
+| G1 | gap 1 | lower left section | craw building | (drifter cloak AND ((progressive swift step 1 AND clawline) OR (progressive swift step 2 AND shaprdart AND faydown cloak))) OR easy crest pogo (hunter, reaper beast, witch, architect, shaman) |  | Verified |  |
+| G2 | gap 2 | middle craw nest left | middle craw nest | none (normal jump) |  | Verified |  |
+| G2 | gap 2 | middle craw nest | middle craw nest left | (progressive swift step 1 AND faydown cloak AND ledge grab) OR (LEVER broken FROM greymoor crow nest (crow arena) UP AND medium crest pogo (hunter, reaper, wanderer, beast, witch, architect, shaman)) |  | Verified |  |
+| G3 | gap 3 | middle craw nest | flea room | (drifter cloak OR clawline OR (progressive swift step 2 AND (ledge grab OR cling grip OR sharpdart OR faydown cloak)) OR (progressive swift step 1 AND (faydown cloak AND (ledge grab OR cling grip) OR sharpdart))) OR (LEVER broken FROM greymoor crow nest AND medium crest pogo (hunter, reaper, wanderer, beast, witch, architect, shaman)) |  | Verified |  |
+| G3 | gap 3 | flea room | middle craw nest | (drifter cloak OR clawline OR (progressive swift step 2 AND (ledge grab OR cling grip OR sharpdart OR faydown cloak)) OR (progressive swift step 1 AND (faydown cloak AND (ledge grab OR cling grip) OR sharpdart))) OR (LEVER broken FROM greymoor crow nest (crow arena) UP AND easy crest pogo (hunter, reaper, wanderer, beast, witch, architect, shaman)) |  | Verified |  |
+| D1 | drop 1 | craw building | flea room | silk soar |  | Verified |  |
+| D1 | drop 1 | flea room | craw building | none (just fall) |  | Verified |  |
+| D2 | drop 2 | upper craw nest | middle craw nest | none (just fall) |  | Verified |  |
+| D2 | drop 2 | middle craw nest | upper craw nest | silk soar OR (LEVER broken FROM greymoor crow nest (crow arena) UP AND easy crest pogo (hunter, reaper, wanderer, beast, witch, architect, shaman)) |  | Verified |  |
+| D3 | drop 3 | middle craw nest | craw building | none (just fall) |  | Verified |  |
+| D3 | drop 3 | craw building | middle craw nest | silk soar OR (LEVER broken FROM greymoor crow nest (crow arena) UP AND easy crest pogo (hunter, reaper, wanderer, beast, witch, architect, shaman)) |  | Verified |  |
+| D4 | drop 4 | small ass platform | middle craw nest | (LEVER broken FROM greymoor crow nest (crow arena) UP AND easy crest pogo (hunter, reaper, wanderer, beast, witch, architect, shaman)) |  | Verified |  |
+| D4 | drop 4 | middle craw nest | small ass platform | clawline OR sharpdart OR progressive swift step 2 OR faydown cloak OR drifter cloak (progressive swift step 1 AND (ledge grab OR easy flea brew OR silkspeed anklets))) |  | Verified |  |
+| H | hatch | craw building | flea room | LEVER broken FROM greymoor craw lake (flea room) (LEFT OR RIGHT OR UP) |  | Verified | It remains open for some time and closes again |
+| H | hatch | flea room | craw building | LEVER broken FROM greymoor craw lake (flea room) (LEFT OR RIGHT OR UP) |  | Verified | It remains open for some time and closes again |
+| SL | spike lower | spiked room | upper craw nest | LEVER broken FROM greymoor crow nest (crow arena) |  | Verified |  |
+| SL | spike lower | upper craw nest | spiked room | clawline OR ((progressive swift step 2 OR sharpdart) AND (drifter cloak OR faydown cloak)) OR (LEVER broken FROM greymoor crow nest (crow arena) UP AND (medium crest pogo (hunter, reaper, wanderer, beast, witch, shaman) OR (medium crest pogo (architect) AND ledge grab))) |  | Verified |  |
+| SU | spike upper | spiked room | upper craw nest | easy spike pogo OR (LEVER broken FROM greymoor crow nest (crow arena) UP AND easy crest pogo (hunter, reaper, wanderer, beast, witch, architect, shaman)) |  | Verified |  |
+| SU | spike upper | upper craw nest | spiked room | none |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Relic: Bone Scroll (Greymoor) |  | swim |  | Verified | Included |  |
+| Greymoor - Frayed Rosary String #2 | lower left section | none |  | Verified | Not included |  |
+| Greymoor - Rosary Cache #20 | middle craw nest | faydown cloak OR silk soar (hard skip AND clawline AND shamna crest AND ledge grab) OR hard enemy pogo |  | Verified | Not included |  |
+| Flea Freymoor - Craw Lake | flea room | silk soar OR ledge grab OR faydown cloak OR cling grip OR hard enemy pogo |  | Verified | Not included |  |
+| Greymoor - Rosary Cache #21 | flea room | none |  | Verified | Not included |  |
+| Greymoor - Rosary Cache #22 | flea room | none |  | Verified | Not included |  |
+| Greymoor - Rosary Cache #19 | upper craw nest | silk soar OR clawline OR (drifter cloak AND (faydown cloak OR ledge grab OR sharpdart OR progressive swift step 1 OR easy flea brew)) OR (progressive swift step 1 AND (sharpdart OR (faydown cloak AND easy flea brew))) OR (progressive swift step 2 AND faydown cloak) OR (LEVER broken FROM greymoor crow nest (crow arena) UP AND easy crest pogo (hunter, reaper, wanderer, beast, witch, architect, shaman)) |  | Verified | Not included |  |
+| Threefold Pin | upper craw nest | silk soar OR silk soar OR clawline OR (drifter cloak AND (faydown cloak OR ledge grab OR sharpdart OR progressive swift step 1 OR easy flea brew)) OR (progressive swift step 1 AND (sharpdart OR (faydown cloak AND easy flea brew))) OR (progressive swift step 2 AND faydown cloak) OR (LEVER broken FROM greymoor crow nest (crow arena) UP AND easy crest pogo (hunter, reaper, wanderer, beast, witch, architect, shaman)) |  | Verified | Included |  |
+
+### Greymoor Craw Lake Entrance (Greymoor_15)
+
+**Game ID:** Greymoor_15
+
+#### Subrooms
+
+- upper section
+- lower left section
+- lower right section
+- middle section
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| LL | lower left | lower left section | [Greymoor East Bellshrine Room (Greymoor_02)](#greymoor-east-bellshrine-room-greymoor02) | LR | none |  | Verified |  |
+| LR | lower right | lower right section | [Greymoor Craw Lake (Greymoor_15b)](#greymoor-craw-lake-greymoor15b) | LL | swim OR medium enemy pogo OR easy flea brew OR progressive swift step 1 OR clawline OR sharpdart OR drifter cloak OR faydown cloak |  | Verified |  |
+| UR | upper right | upper section | [Greymoor Craw Lake (Greymoor_15b)](#greymoor-craw-lake-greymoor15b) | ML | LEVER broken FROM craw lake (middle craw nest left)(UP OR LEFT OR RIGHT) AND (silk soar OR ledge grab OR faydown cloaK OR medium enemy pogo OR cling grip) |  | Verified |  |
+| UL | upper left | upper section | [Greymoor East Bellshrine Room (Greymoor_02)](#greymoor-east-bellshrine-room-greymoor02) | MR | none |  | Verified |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| ASP | air shaft platform | lower left section | lower right section | drifter cloak OR silk soar OR (faydown cloak AND (cling grip OR ledge grab)) |  | Verified |  |
+| ASP | air shaft platform | lower right section | lower left section | silk soar OR cling grip OR easy enemy pogo OR (faydown cloak AND ledge grab |  | Verified |  |
+| F | fall | lower right section | middle section | silk soar OR hard enemy pogo |  | Verified |  |
+| F | fall | middle section | lower right section | none (just fall) |  | Verified |  |
+| C | climb | middle section | upper section | ledge grab OR faydown cloak OR silk soar OR cling grip OR scuttlebrace |  | Verified |  |
+| C | climb | upper section | middle section | none (just fall) |  | Verified |  |
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Greymoor - Frayed Rosary String #1 | upper section | none |  | Verified | Not included |  |
+| Greymoor - Rosary Cache #18 | middle section | silk soar OR faydown cloak OR hard enemy pogo OR ((medium enemy pogo OR ledge grab OR cling grip) AND (progressive swift step 1 OR sharpdart OR clawline OR drifter cloak)) |  | Verified | Not included |  |
+
+### Greymoor Crow Nest (Room_CrowCourt)
+
+**Game ID:** Room_CrowCourt
+
+#### Subrooms
+
+- crow lower nest
+- crow arena
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| b | bottom | crow lower nest | greymoor crow court | T | crow summons |  | Verified |  |
+| L | left | crow arena | [Greymoor Craw Lake (Greymoor_15b)](#greymoor-craw-lake-greymoor15b) | CN | silk soar OR  (LEVER broken FROM crow nest (crow arena) UP AND (easy crest pogo (hunter, reaper, wanderer, beast, witch, architect, shaman) OR progressive swift step 1 OR faydown clok)) |  | Verified |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| f1 | fall 1 | crow arena | crow lower nest | none (just fall) |  | Verified |  |
+| f1 | fall 1 | crow lower nest | crow arena | silk soar OR (SWITCH broken FROM crow arena up AND easy crest pogo(hunter, reaper, wanderer, beast, witch, architect, shaman)) |  | Verified |  |
+| f2 | fall 2 | crow arena | crow lower nest | none (just fall) |  | Verified |  |
+| f2 | fall 2 | crow lower nest | crow arena | ledge grab OR silk soar OR faydown cloak OR easy enemy pogo |  | Verified |  |
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| baloon lever | crow arena | easy crest pogo(shaman, reaper, wanderer) OR (easy crest pogo(hunter, beast, architect, witch) AND faydown cloak OR ledge grab) OR silk soar |  | Verified | Not included |  |
+| Greymoor - Rosary Cache #30 | crow arena | none |  | Verified | Not included |  |
+| Greymoor - Rosary Cache #29 | crow arena | none |  | Verified | Not included |  |
+| Greymoor - Rosary Cache #28 | crow lower nest | (faydown cloak AND (progressive swift step 1 OR sharpdart OR clawline)) OR (drifter cloak AND (progressive swift step 2 OR sharpdart OR clawline)) OR (LEVER broken FROM crow nest (crow arena) UP AND (easy crest pogo (hunter, reaper, wanderer, beast, witch, architect, shaman) OR progressive swift step 1 OR faydown cloak)) |  | Verified | Not included |  |
+| Greymoor - Rosary Cache #32 | crow lower nest | progressive swift step 1 OR sharpdart OR clawline OR (LEVER broken FROM crow nest (crow arena) UP AND (easy crest pogo (hunter, reaper, wanderer, beast, witch, architect, shaman) OR faydown cloak)) |  | Verified | Not included |  |
+| Greymoor - Rosary Cache #33 | crow lower nest | progressive swift step 1 OR sharpdart OR clawline OR (LEVER broken FROM crow nest (crow arena) UP AND (easy crest pogo (hunter, reaper, wanderer, beast, witch, architect, shaman) OR faydown cloak)) |  | Verified | Not included |  |
+| Greymoor - Rosary Cache #31 | crow lower nest | (faydown cloak AND (progressive swift step 1 OR sharpdart OR clawline)) OR (drifter cloak AND (progressive swift step 2 OR sharpdart OR clawline)) OR (LEVER broken FROM crow nest (crow arena) UP AND (easy crest pogo (hunter, reaper, wanderer, beast, witch, architect, shaman) OR progressive swift step 1 OR faydown cloak)) |  | Verified | Not included |  |
+| Greymoor - Rosary Cache #34 | crow arena | none |  | Verified | Not included |  |
+
+### Greymoor East Bellshrine Room (Greymoor_02)
+
+**Game ID:** Greymoor_02
+
+#### Subrooms
+
+- lower section left
+- lower section right
+- middle section right
+- middle section left
+- bridge left section
+- bridge right section
+- upper crow nest
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| LSL | lower left | lower section left | [Greymoor West Bellshrine Room  (Greymoor_01)](#greymoor-west-bellshrine-room-greymoor01) | LR | none |  | Verified |  |
+| LR | lower right | lower section left | [Greymoor Craw Lake Entrance (Greymoor_15)](#greymoor-craw-lake-entrance-greymoor15) | LL | none |  | Verified |  |
+| ML | middle left | middle section left | [Greymoor Bellshrine (Bellshrine_02)](#greymoor-bellshrine-bellshrine02) | R | none |  | Verified |  |
+| MR | middle right | middle section right | [Greymoor Craw Lake Entrance (Greymoor_15)](#greymoor-craw-lake-entrance-greymoor15) | UL | none |  | Verified |  |
+| BL | bridge left | bridge left section | [Greymoor West Bellshrine Room  (Greymoor_01)](#greymoor-west-bellshrine-room-greymoor01) | TR | none |  | Verified |  |
+| HR | hidden right | upper crow nest | [Greymoor Silver Shells room (Greymoor_17)](#greymoor-silver-shells-room-greymoor17) | L | (Wall broken FROM greymoor east bellshrine room (upper crow nest) (RIGHT)) AND (silk soar OR faydown cloak OR (cling grip AND (easy spike pogo OR progressive swift step 1 OR clawline OR sharpdart OR drifter cloak)) OR hard enemy pogo OR (medium enemy pogo AND ledge grab AND (progressive swift step 1 OR clawline))) |  | Verified |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| TP | tall platform | lower section right | lower section left | ledge grab OR faydown cloak OR silk soar OR cling grip |  | Verified |  |
+| TP | tall platform | lower section left | lower section right | none (just fall) |  | Verified |  |
+| F1 | fall 1 | middle section left | lower section left | none (just fall) |  | Verified |  |
+| LS1 | lever switch 1 | lower section right | middle section right | silk soar OR (LEVER broken FROM greymoor east bellshrine room (middle section) (RIGHT OR LEFT OR DOWN OR UP) AND  easy crest pogo (hunter, reaper, wanderer, beast, witch, architect, shaman)) |  | Verified |  |
+| LS1 | lever switch 1 | middle section right | lower section right | none (just fall) |  | Verified |  |
+| G1 | gap 1 | middle section right | middle section left | (LEVER broken FROM greymoor east bellshrine room (middle section) (RIGHT OR LEFT OR DOWN OR UP) AND easy crest pogo (hunter, reaper, wanderer, beast, witch, architect, shaman)) OR progressive swift step 1 OR clawline OR sharpdart OR drifter cloak OR faydown cloak |  | Verified |  |
+| G1 | gap 1 | middle section left | middle section right | Progressive swift step 2 OR clawline OR sharpdart OR drifter cloak OR silkspeed anklets  OR (progressive swift step 1 AND (faydown cloak OR ledge grab)) OR (LEVER broken FROM greymoor east bellshrine room (middle section) (RIGHT OR LEFT OR DOWN OR UP) AND easy crest pogo (hunter, reaper, wanderer, beast, witch, architect, shaman)) |  | Verified |  |
+| BG | bridge gap | bridge left section | bridge right section | NOT (LEVER broken FROM greymoor east bellshrine room (bridge right section)) OR (clawline OR ((progressive swift step 2 OR sharpdart OR (progressive swift step 1 AND ((easy flea brew AND ledge grab) OR (speed anklets used AND cling grip)))) AND (drifter cloak OR faydown cloak))) |  | Verified |  |
+| BG | bridge gap | bridge right section | bridge left section | NOT (LEVER broken FROM greymoor east bellshrine room (bridge right section)) OR (clawline OR ((progressive swift step 2 OR sharpdart OR (progressive swift step 1 AND ((easy flea brew AND ledge grab) OR (silkspeed anklets used AND cling grip)))) AND (drifter cloak OR faydown cloak))) |  | Verified |  |
+| CR | climb right | middle section right | bridge right section | (LEVER broken FROM greymoor east bellshrine room (bridge right section) (RIGHT OR LEFT OR DOWN OR UP) AND (cling grip OR silk soar)) |  | Verified |  |
+| CR | climb right | bridge right section | middle section right | LEVER broken FROM greymoor east bellshrine room (bridge right section) (RIGHT OR LEFT OR DOWN OR UP) |  | Verified |  |
+| CL | climb left | middle section left | bridge left section | (LEVER broken FROM greymoor east bellshrine room (bridge right section) (RIGHT OR LEFT OR DOWN OR UP)) AND silk soar OR (cling grip AND faydown cloak) |  | Verified |  |
+| CL | climb left | bridge left section | middle section left | LEVER broken FROM greymoor east bellshrine room (bridge right section) (RIGHT OR LEFT OR DOWN OR UP) |  | Verified |  |
+| UL | upper left | bridge left section | upper crow nest | silk soar |  | Verified |  |
+| UL | upper left | upper crow nest | bridge left section | none (fall) |  | Verified |  |
+| UR | upper right | bridge right section | upper crow nest | silk soar OR easy crest pogo (hunter, reaper, wanderer, beast, witch, architect, shaman) |  | Verified |  |
+| UR | upper right | upper crow nest | bridge right section | none (fall) |  | Verified |  |
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Greymoor - Spool Fragment | upper crow nest | silk soar OR faydown cloak OR (cling grip AND (easy spike pogo OR progressive swift step 1 OR clawline OR sharpdart OR faydown cloak OR drifter cloak) OR (hard enemy pogo)) |  | Verified | Included |  |
+| Greymoor #2 - Rosary Cache | upper crow nest | silk soar OR faydown cloak OR hard enemy pogo OR (easy crest pogo (hunter, reaper, wanderer, beast, witch, architect, shaman) AND (clawline OR sharpdart OR progressive swift step 2 OR drifter cloak)) |  | Verified | Not included |  |
+| Greymoor #3 - Rosary Cache | upper crow nest | silk soar OR faydown cloak OR hard enemy pogo OR (easy crest pogo (hunter, reaper, wanderer, beast, witch, architect, shaman) AND (clawline OR sharpdart OR progressive swift step 2 OR drifter cloak)) |  | Verified | Not included |  |
+| Greeymoor - map purchase | lower section right | none |  | Verified | Included |  |
 
 ### Greymoor Lower Halfway Home Path (Greymoor_13)
 
 **Game ID:** Greymoor_13
 
-**Contributors:** isssma
-
 #### Subrooms
 
 No subrooms defined.
@@ -6273,9 +6446,9 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left |  | TODO |  | Progressive swift step 1 OR clawline OR faydown cloak OR drifter cloak OR sharp dart OR beast crest pogo OR flea brew OR (cling grip AND (crest pogo EXCEPT wanderer crest pogo) OR swim) |  | Verified |  |
-| R | right |  | [Greymoor West Bellshrine Room  (Greymoor_01)](#greymoor-west-bellshrine-room-greymoor01) | LL | Swim OR Crest Pogo OR Progressive swift step 2 OR clawline OR sharpdart OR (drifter cloak AND (ledge grab OR progressive swift step 1 OR faydown cloack)) OR (faydown cloak and progressive swift step 1) |  | Verified |  |
-| D | down |  | [Greymoor Bone Scroll Room (Greymoor_21)](#greymoor-bone-scroll-room-greymoor21) | T | Swim OR (clawline AND ledge grab) |  | Verified |  |
+| L | left |  | TODO |  | progressive swift step 1 OR clawline OR faydown cloak OR drifter cloak OR sharpdart OR easy crest pogo (beast) OR easy flea brew OR (cling grip AND crest pogo (hunter, reaper, witch, architect, shaman)) OR swim |  | Verified |  |
+| R | right |  | [Greymoor West Bellshrine Room  (Greymoor_01)](#greymoor-west-bellshrine-room-greymoor01) | LL | swim OR easy crest pogo (hunter, reaper, wanderer, beast, witch, architect, shaman) OR progressive swift step 2 OR clawline OR sharpdart OR (drifter cloak AND (ledge grab OR progressive swift step 1 OR faydown cloak)) OR (faydown cloak AND progressive swift step 1) |  | Verified |  |
+| D | down |  | [Greymoor bone scroll room (Greymoor_21)](#greymoor-bone-scroll-room-greymoor21) | T | swim OR (clawline AND ledge grab) |  | Verified |  |
 
 #### Subroom Connections
 
@@ -6285,11 +6458,115 @@ No subroom connections defined.
 
 No check locations defined.
 
+### Greymoor Silver Shells room (Greymoor_17)
+
+**Game ID:** Greymoor_17
+
+#### Subrooms
+
+- main path
+- hidden area
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left | main path | [Greymoor East Bellshrine Room (Greymoor_02)](#greymoor-east-bellshrine-room-greymoor02) | HR | none |  | Verified |  |
+| U | upper | main path | [Sinner's Road Styx Room (Dust_11)](#sinners-road-styx-room-dust11) | B | faydown cloak OR cling grip OR easy scuttlebrace OR silk soar |  | Verified |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| C | climb | main path | hidden area | none (just fall) |  | Verified |  |
+| C | climb | hidden area | main path | ledge grab Or silk soar OR faydown cloak OR cling grip OR (easy scuttle brace AND (easy enemy pogo OR progressive swift step 2 OR clawline OR sharpdart)) |  | Verified |  |
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Greymoor - Shell Shard Cache #3 | hidden area | WALL broken FROM (greymoor silver shells room) LEFT |  | Verified | Not included |  |
+| Greymoor - Shell Shard Cache #4 | hidden area | WALL broken FROM (greymoor silver shells room) LEFT |  | Verified | Not included |  |
+| Greymoor - Shell Shard Cache #5 | hidden area | WALL broken FROM (greymoor silver shells room) LEFT |  | Verified | Not included |  |
+| Greymoor - Shell Shard Cache #6 | hidden area | WALL broken FROM (greymoor silver shells room) LEFT |  | Verified | Not included |  |
+| Greymoor - Shell Shard Cache #7 | hidden area | WALL broken FROM (greymoor silver shells room) LEFT |  | Verified | Not included |  |
+
+### Greymoor Upper Halfway Home Path (Greymoor_12)
+
+**Game ID:** Greymoor_12
+
+#### Subrooms
+
+- left section
+- right section
+- upper platform section
+- check platform
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left | left section | TODO |  | swim OR medium enemy pogo OR progressive swift step 1 OR clawline OR sharpdart OR flea brew OR faydown cloak OR drifter cloak OR easy crest pogo (hunter, reaper, beast, witch, architect) OR (medium crest pogo (shaman) AND ledge grab) |  | Verified |  |
+| R | right | right section | [Greymoor West Bellshrine Room  (Greymoor_01)](#greymoor-west-bellshrine-room-greymoor01) | TL | none |  | Verified |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| TP | tall platform | left section | right section | swim OR faydown cloak OR medium scuttlebrace OR medium enemy pogo OR ((easy enemy pogo OR easy flea brew) AND (ledge grab OR cling grip) OR clawline OR progressive swift step 1 OR sharpdart OR easy crest pogo (beast) OR (easy crest pogo (hunter, reaper, witch, architect, shaman)) |  | Verified |  |
+| TP | tall platform | right section | left section | swim OR faydown cloak OR medium scuttlebrace OR medium enemy pogo OR (easy enemy pogo AND (cling grip OR ledge grab)) OR (cling grip AND (progressive swift step 1 OR clawline OR sharpdart)) OR (silk soar AND (clawline OR progressive swift step 2 OR sharpdart)) |  | Verified |  |
+| UP | upper platform | left section | upper platform section | silk soar OR easy enemy pogo OR progressive swift step 1 OR faydown cloak OR shaprdart OR clawline OR flea brew OR (drifter cloak and (cling grip OR ledge grab)) |  | Verified |  |
+| UP | upper platform | upper platform section | left section | none (just fall) |  | Verified |  |
+| G | gap | check platform | upper platform section | faydown cloak OR (cling grip AND (clawline OR progressive swift step 1)) |  | Verified |  |
+| G | gap | upper platform section | check platform | faydown cloak OR drifter cloak OR progressive swift step 1 OR sharpdart OR clawline OR easy crest pogo (hunter, reaper, beast, witch, architect OR shaman) |  | Verified |  |
+| PG | pogo skip | left section | check platform | faydown cloak OR silk soar OR hard enemy pogo AND ledge grab |  | Verified |  |
+| PG | pogo skip | check platform | left section | none (fall) |  | Verified |  |
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Greymoor #2 - Shard Bundle: | left section | none |  | Verified | Not included |  |
+
+#### Notes
+
+need to recheck this logic due to possible chain or requirements being repeated
+
+### Greymoor Weaver Shrine (Greymoor_22)
+
+**Game ID:** Greymoor_22
+
+#### Subrooms
+
+- left section
+- right section
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| B | bottom | left section | [Greymoor Craw Lake (Greymoor_15b)](#greymoor-craw-lake-greymoor15b) | T | none |  | Verified |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| UP | upper path | left section | right section | easy crest pogo (hunter, reaper, wanderer, beast, witch, architect, shaman) |  | Verified |  |
+| UP | upper path | right section | left section | ledge grab |  | Verified |  |
+| W | wall exit | right section | left section | WALL broken FROM greymoor weaver shrine (right section) left |  | Verified |  |
+| W | wall exit | left section | right section | WALL broken FROM greymoor weaver shrine (right section) left |  | Verified |  |
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Thread storm | left section | easy crest pogo (hunter, reaper, wanderer, beast, witch, architect, shaman) |  | Verified | Included |  |
+| Greymoor - Rosary Cache #26 | right section | none |  | Verified | Not included |  |
+| Greymoor - Rosary Cache #27 | right section | none |  | Verified | Not included |  |
+
 ### Greymoor West Bellshrine Room  (Greymoor_01)
 
 **Game ID:** Greymoor_01
-
-**Contributors:** isssma
 
 #### Subrooms
 
@@ -6303,36 +6580,59 @@ No check locations defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| TL | top left | upper path left | greymoor upper halfway home path | R | Ledge grab OR cling grip OR enemy pogo OR faydown cloak OR scuttlebrace OR (progressive swftstep 1 AND claw line OR sharpdart) OR silk soar |  | Verified |  |
-| TR | top right | upper path right | greymoor east bellshrine room | BL | cling grip OR progressive swift step 1 OR faydown cloak OR silk soar OR clawline OR sharp dart OR (drifter cloak AND ledge grab) |  | Verified |  |
-| LR | lower right | main path | greymoor east bellshrine room | LSL | IF (lever switch was activated) => ledge grab OR Shaman crest OR faydown cloak OR silk soar |  | Verified |  |
+| TL | top left | upper path left | [Greymoor Upper Halfway Home Path (Greymoor_12)](#greymoor-upper-halfway-home-path-greymoor12) | R | Ledge grab OR cling grip OR enemy pogo OR faydown cloak OR medium scuttlebrace OR (progressive swftstep 1 AND clawline OR sharpdart) OR silk soar |  | Verified |  |
+| TR | top right | upper path right | [Greymoor East Bellshrine Room (Greymoor_02)](#greymoor-east-bellshrine-room-greymoor02) | BL | cling grip OR progressive swift step 1 OR faydown cloak OR silk soar OR clawline OR sharp dart OR (drifter cloak AND ledge grab) |  | Verified |  |
+| LR | lower right | main path | [Greymoor East Bellshrine Room (Greymoor_02)](#greymoor-east-bellshrine-room-greymoor02) | LSL | NOT LEVER broken FROM greymoor west bellshrine room (middle section right) (LEFT OR RIGHT OR UP)) OR ledge grab OR medium crest pogo (shaman) OR faydown cloak OR silk soar |  | Verified |  |
 | LL | lower left | main path | [Greymoor Lower Halfway Home Path (Greymoor_13)](#greymoor-lower-halfway-home-path-greymoor13) | R | none |  | Verified |  |
-| MR | middle right | middle section right | [Greymoor Bellshrine (Bellshrine_02)](#greymoor-bellshrine-bellshrine02) | L | Bellshrine: Greymoor check |  | Verified |  |
-| D | down | main path | [Far Fields Upper Shaft (Bone_East_11)](#far-fields-upper-shaft-boneeast11) | C | Enter from far fields using drifter cloak |  | Verified |  |
+| MR | middle right | middle section right | [Greymoor Bellshrine (Bellshrine_02)](#greymoor-bellshrine-bellshrine02) | L | LEVER broken FROM Greymoor Bellshrine (LEFT OR RIGHT) |  | Verified |  |
+| D | down | main path | TODO |  | drifter cloak AND enter from far field |  | Verified | it remains open after that |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| LS | Lever Switch | main path | middle section right | cling grip OR silk soar OR (lever switch AND (faydown cloak OR ledge grab OR shaman crest pogo)) |  | Verified |  |
-| LS | Lever Switch | middle section right | main path | none (Switch is on this sidel) |  | Verified | the switch can be missed and fall to Main Pathway |
-| P | Platform | middle section left | upper path right | ledge grab OR faydown cloak OR silk soar OR shaman crest pogo OR cling grip |  | Verified | the platform can be missed and fall to main pathway |
-| P | Platform | upper path right | middle section left | none (can fall to reach it) |  | Verified | the platform can be missed and fall to main pathway |
+| LS | lever switch | main path | middle section right | cling grip OR medium scuttlebrace OR (LEVER broken FROM greymoor west bellshrine room (middle section right) (LEFT OR RIGHT OR UP) AND (ledge grab OR medium crest pogo (shaman))) |  | Verified |  |
+| LS | lever switch | middle section right | main path | none (Switch is on this sidel) |  | Verified |  |
+| P | Platform | middle section left | upper path right | ledge grab OR faydown cloak OR silk soar OR medium crest pogo (shaman) OR cling grip |  | Verified |  |
+| P | Platform | upper path right | middle section left | none (just fall) |  | Verified |  |
 | F1 | Fall 1 | middle section right | upper path right | Silk soar |  | Verified |  |
-| F1 | Fall 1 | upper path right | middle section right | none (can fall to reach it) |  | Verified |  |
+| F1 | Fall 1 | upper path right | middle section right | none (just fall) |  | Verified |  |
 | BG | Big Gap | middle section right | middle section left | progressive swift step 1 AND clawline AND drifter cloak AND faydown cloak |  | Verified |  |
 | BG | Big Gap | middle section left | middle section right | progressive swift step 1 AND clawline AND drifter cloak AND faydown cloak |  | Verified |  |
-| G | Gap | upper path right | upper path left | faydown cloak OR OR drifter cloak OR flea brew OR progressive swift step 1 OR clawline OR sharpdart OR scuttlebrace |  | Verified |  |
-| G | Gap | upper path left | upper path right | ledge grab OR enemy pogo OR progressive swift step 1 OR clawline OR sharpdart OR faydown cloak OR beast crest pogo OR shaman crest pogo |  | Verified |  |
-| F2 | Fall 2 | middle section right | main path | none (can fall to reach it) |  | Verified |  |
+| G | Gap | upper path right | upper path left | faydown cloak OR OR drifter cloak OR easy flea brew OR progressive swift step 1 OR clawline OR sharpdart OR medium scuttlebrace |  | Verified |  |
+| G | Gap | upper path left | upper path right | ledge grab OR medium enemy pogo OR progressive swift step 1 OR clawline OR sharpdart OR faydown cloak OR easy crest pogo (beast) OR medium crest pogo (shaman) |  | Verified |  |
+| F2 | Fall 2 | middle section right | main path | none (just fall) |  | Verified |  |
 | F2 | Fall 2 | main path | middle section right | silk soar |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Greymoor #1 - Rosary Cache | middle section left | Silk soar OR none OR (progressive swift step 1 AND faydown cloak AND clawline AND drifter cloak) |  | Verified | Not included | it really dpeends a lot from the entrance to the room to define the requirements so i placed subroom transitions that matter |
-| lever switch | middle section right | silk soar OR cling grip |  | Verified | Not included | this drops down a platform that alters subroom connection LS and room connection LR |
+| Greymoor #1 - Rosary Cache | middle section left | none |  | Verified | Not included |  |
+
+### Greymoor bone scroll room (Greymoor_21)
+
+**Game ID:** Greymoor_21
+
+#### Subrooms
+
+No subrooms defined.
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| T | top |  | [Greymoor Lower Halfway Home Path (Greymoor_13)](#greymoor-lower-halfway-home-path-greymoor13) | D | Ledge grab OR faydown cloak OR silk soar OR cling grip OR medium crest pogo (shaman) |  | Verified |  |
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Relic: Bone Scroll (Greymoor) |  | swim |  | Verified | Included |  |
 
 ## Whisp Thicket
 
@@ -9753,7 +10053,7 @@ No check locations defined.
 | R1 | right2 | Central Area | [Songclave Steam Tunnel (Library_02)](#songclave-steam-tunnel-library02) | TL | none |  | Verified |  |
 | B | bot1 | Bottom Area | [Grand Bellway Shaft (Song_20)](#grand-bellway-shaft-song20) | T | none |  | Verified |  |
 | RH | right3 | Horizontal Tunnel | [Songclave Steam Tunnel (Library_02)](#songclave-steam-tunnel-library02) | BL | none |  | Verified | both sides have levers making the tunnel horizontal |
-| LH | left4 | Horizontal Tunnel | TODO |  | none |  | Verified | both sides have levers making the tunnel horizontal |
+| LH | left4 | Horizontal Tunnel | [Cogwork Core East Choral Entrance (Cog_06)](#cogwork-core-east-choral-entrance-cog06) | R | none |  | Verified | both sides have levers making the tunnel horizontal |
 
 #### Subroom Connections
 
@@ -10027,8 +10327,8 @@ Boss needs only any crest to be beatable. The big line attack can be parried wit
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 | Bottom | TODO |  | Nothing. |  | Verified |  |
-| T | top1 | Top Entrance | TODO |  | Nothing. |  | Verified |  |
+| R | right1 | Bottom | [Cogwork Core Breakable Walls (Cog_10_Destroyed)](#cogwork-core-breakable-walls-cog10destroyed) | L | Nothing. |  | Verified |  |
+| T | top1 | Top Entrance | [ACT3 Lace2 Arena (Song_Tower_Destroyed)](#act3-lace2-arena-songtowerdestroyed) | F | Nothing. |  | Verified |  |
 
 #### Subroom Connections
 
@@ -10255,7 +10555,7 @@ No check locations defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | B | bot1 | Lever Door | [Cog Dancers (Cog_Dancers)](#cog-dancers-cogdancers) | T |  |  |  |  |
-| T | top1 | Upper Entrance | cogwork core |  |  |  |  |  |
+| T | top1 | Upper Entrance | [Cogwork Core Architect's Melody (Cog_09)](#cogwork-core-architects-melody-cog09) | B |  |  |  |  |
 
 #### Subroom Connections
 
@@ -11895,24 +12195,24 @@ No check locations defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 | Entrance | [Coral Tower Entrance (Coral_28)](#coral-tower-entrance-coral28) | D | None |  |  |  |
-| DR | door_wakeOnGround | Main | TODO |  | Needolin AND Elegy of the Deep |  |  |  |
+| L | left1 | Entrance | [Coral Tower Entrance (Coral_28)](#coral-tower-entrance-coral28) | D | None |  | Verified |  |
+| DR | door_wakeOnGround | Main | TODO |  | Needolin AND Elegy of the Deep | TODO | Verified | Leads to the Memory Coral Tower, That room only needs silk soar and (Proficient Combat or needle upgrades to beat khan) |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| SC | Sandcarver Pit | Entrance | Main | Dash OR Sprint OR Drifters cloak OR Faydown Cloak OR Clawline OR Beast Crest OR Sharpdart OR Architect Crest |  |  |  |
-| SC | Sandcarver PIt | Main | Entrance | Dash OR Sprint OR Drifters cloak OR Faydown Cloak OR Clawline OR Beast Crest OR Sharpdart OR Architect Crest |  |  |  |
-| S2 | Sandcarver Pit 2 | Main | Bench | Dash OR Sprint OR Drifters cloak OR Faydown Cloak OR Clawline OR Beast Crest OR Sharpdart OR ( Architect Crest AND Ledge Grab AND Needle Strike ) |  |  |  |
-| S2 | Sandcarver Pit 2 | Bench | Main | Dash OR Sprint OR Drifters cloak OR Faydown Cloak OR Clawline OR Beast Crest OR Sharpdart OR Architect Crest |  |  |  |
+| SC | Sandcarver Pit | Entrance | Main | Dash OR Sprint OR Drifters cloak OR Faydown Cloak OR Clawline OR Beast Crest OR Sharpdart OR Architect Crest |  | Verified |  |
+| SC | Sandcarver PIt | Main | Entrance | Dash OR Sprint OR Drifters cloak OR Faydown Cloak OR Clawline OR Beast Crest OR Sharpdart OR Architect Crest |  | Verified |  |
+| S2 | Sandcarver Pit 2 | Main | Bench | Dash OR Sprint OR Drifters cloak OR Faydown Cloak OR Clawline OR Beast Crest OR Sharpdart OR ( Architect Crest AND Ledge Grab AND Needle Strike ) |  | Verified |  |
+| S2 | Sandcarver Pit 2 | Bench | Main | Dash OR Sprint OR Drifters cloak OR Faydown Cloak OR Clawline OR Beast Crest OR Sharpdart OR Architect Crest |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | Conchcutter | Main | None |  |  | Included |  |
-| Lore | Entrance | None |  |  | Included |  |
+| Sands of Karak - Lower Coral Tablet | Entrance | None |  |  | Included |  |
 
 ### Coral Tower Entrance (Coral_28)
 
@@ -11936,7 +12236,7 @@ No check locations defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| SC | Sandcarver Pit | Door | Exit | "Clawline OR Sharpdart OR Drifters Cloak OR ( Sprint AND ( Dash OR Faydown Cloak OR Beast Crest ) ) OR  ( Faydown Cloak AND ( Beast Crest OR Hunter Crest OR Architect Crest OR Shaman Crest ( Wanderer Crest AND Needle strike ) ) ) " |  |  |  |
+| SC | Sandcarver Pit | Door | Exit | Clawline OR Sharpdart OR Drifters Cloak OR ( Sprint AND ( Dash OR Faydown Cloak OR Beast Crest ) ) OR  ( Faydown Cloak AND ( Beast Crest OR Hunter Crest OR Architect Crest OR Shaman Crest ( Wanderer Crest AND Needle strike ) ) ) " |  |  |  |
 | SC | Sandcarver Pit | Exit | Door | Clawline OR Sharpdart OR ( Sprint AND ( Dash OR Faydown Cloak OR Drifters Cloak OR Beast Crest OR Architect Crest ) )  OR ( Sprint AND ( Shaman Crest OR Hunter crest OR Heal stall OR ( Wanderers Crest AND Needle Strike AND Ledge Grab ) ) ) OR ( Dash AND ( Reaper Crest OR Beast Crest OR Faydown Cloak OR Drifters Cloak OR ( Architect Crest AND ( Ledge Grab OR Needle Strike ) ) ) ) OR ( Faydown Cloak AND ( Beast Crest OR Architect Crest OR Shaman Crest OR Hunter Crest OR Drifters Cloak OR ( Reaper Crest AND Ledge Grab ) OR ( Wanderer Crest AND Needle strike ) ) ) OR ( Drifters Cloak And ( Beast Crest OR Architect Crest OR Shaman Crest OR Wanderer Crest OR Heal Stall OR Ledge Grab OR Silk Soar OR ( Reaper Crest AND Needle Strike ) ) ) OR ( Silk Soar AND ( Beast Crest OR Architect Crest ) ) |  |  |  |
 
 #### Check Locations
@@ -11961,23 +12261,23 @@ No check locations defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 | Start | [Sands of Karak Tall Centre Room (Coral_35b)](#sands-of-karak-tall-centre-room-coral35b) | UML | None |  |  |  |
+| R | right1 | Start | [Sands of Karak Tall Centre Room (Coral_35b)](#sands-of-karak-tall-centre-room-coral35b) | UML | None |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| WR | Whole Room | Start | End | Cling grip AND ( Clawline OR Sharpdart OR ( Dash AND ( Drifters Cloak OR Beast Crest ) ) ) OR ( Beast crest AND Faydown Cloak AND Needle Strike ) |  |  |  |
-| WR | Whole Room | End | Start | Cling grip AND ( Clawline OR Sharpdart OR ( Dash AND ( Drifters Cloak OR Beast Crest ) ) ) OR ( Beast crest AND Faydown Cloak AND Needle Strike ) |  |  |  |
-| SD | Shard Detour | Start | Shard Platform | Silk Soar OR ( ( Dash AND Scuttlebrace ) AND ( Clawline OR Sharpdart ) ) OR ( Cling grip AND ( Dash OR Clawline OR Sharpdart OR Beast Crest OR Faydown Cloak OR Drifters Cloak ) ) |  |  |  |
-| SD | Shard Detour | Shard Platform | Start | None |  |  |  |
+| WR | Whole Room | Start | End | Cling grip AND ( Clawline OR Sharpdart OR ( Dash AND ( Drifters Cloak OR Beast Crest ) ) ) OR ( Beast crest AND Faydown Cloak AND Needle Strike ) |  | Verified |  |
+| WR | Whole Room | End | Start | Cling grip AND ( Clawline OR Sharpdart OR ( Dash AND ( Drifters Cloak OR Beast Crest ) ) ) OR ( Beast crest AND Faydown Cloak AND Needle Strike ) |  | Verified |  |
+| SD | Shard Detour | Start | Shard Platform | Silk Soar OR ( ( Dash AND Scuttlebrace ) AND ( Clawline OR Sharpdart ) ) OR ( Cling grip AND ( Dash OR Clawline OR Sharpdart OR Beast Crest OR Faydown Cloak OR Drifters Cloak ) ) |  | Verified |  |
+| SD | Shard Detour | Shard Platform | Start | None |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Crustnut | End | None |  |  | Included |  |
-| Shard Cache: Sands of Karak #11 | Shard Platform | None |  |  | Included |  |
+| Crustnut | End | None |  | Verified | Included |  |
+| Shard Cache: Sands of Karak #11 | Shard Platform | None |  | Verified | Included |  |
 
 ### Sands of Karak Bellshrine (Bellshrine_Coral)
 
@@ -11993,7 +12293,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Sands of Karak Elevator to Blasted Steps (Coral_38)](#sands-of-karak-elevator-to-blasted-steps-coral38) | R | None |  |  |  |
+| L | left1 |  | [Sands of Karak Elevator to Blasted Steps (Coral_38)](#sands-of-karak-elevator-to-blasted-steps-coral38) | R | None |  | Verified |  |
 
 #### Subroom Connections
 
@@ -12003,7 +12303,7 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Simple key: Sands of Karak east bench |  | None |  |  | Included |  |
+| Simple key: Sands of Karak east bench |  | None |  | Verified | Included |  |
 
 ### Sands of Karak Elevator to Blasted Steps (Coral_38)
 
@@ -12022,30 +12322,30 @@ No subroom connections defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 | Left | [Sands of Karak Right Side Tall room (Coral_26)](#sands-of-karak-right-side-tall-room-coral26) | R | None |  |  |  |
-| R | right1 | Right | [Sands of Karak Bellshrine (Bellshrine_Coral)](#sands-of-karak-bellshrine-bellshrinecoral) | L | None |  |  |  |
-| F | bot1 | Bottom | [Pre Last Judge Room (Coral_32)](#pre-last-judge-room-coral32) | T | None | TODO |  |  |
+| L | left1 | Left | [Sands of Karak Right Side Tall room (Coral_26)](#sands-of-karak-right-side-tall-room-coral26) | R | None |  | Verified |  |
+| R | right1 | Right | [Sands of Karak Bellshrine (Bellshrine_Coral)](#sands-of-karak-bellshrine-bellshrinecoral) | L | None |  | Verified |  |
+| F | bot1 | Bottom | [Pre Last Judge Room (Coral_32)](#pre-last-judge-room-coral32) | T | None |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| OE | Over Elevator | Left | Right | Shamen Crest OR Ledge Grab OR Cling Grip OR Sprint OR ( Dash AND Scuttlebrace ) OR Silk Soar OR Beast Crest OR Clawline OR Elevator Activated OR ( ( Reaper Crest OR Hunter Crest ) AND Needle Strike ) |  |  |  |
-| OE | Over Elevator | Right | Left | None |  |  |  |
-| EL | Elevator | Right | Bottom | Elevator Activated |  |  |  |
-| EL | Elevator | Bottom | Right | Elevator Activated |  |  |  |
-| SH | Shaft | Bottom | Shardilard Ledge | Silk Soar OR ( Cling grip AND ( Faydown Cloak OR Drifters Cloak OR Clawline OR Sharpdart OR ( Dash AND ( Beast Crest OR Shaman Crest ) OR ( Architect crest AND Needle Strike ) ) ) OR ( Dash AND Scuttlebrace AND Clawline AND ( Faydown Cloak OR Drifters Cloak ) ) |  |  |  |
-| SH | Shaft | Shardilard Ledge | Bottom | None |  |  |  |
+| OE | Over Elevator | Left | Right | Shamen Crest OR Ledge Grab OR Cling Grip OR Sprint OR ( Dash AND Scuttlebrace ) OR Silk Soar OR Beast Crest OR Clawline OR Elevator Activated OR ( ( Reaper Crest OR Hunter Crest ) AND Needle Strike ) |  | Verified |  |
+| OE | Over Elevator | Right | Left | None |  | Verified |  |
+| EL | Elevator | Right | Bottom | Elevator Activated |  | Verified |  |
+| EL | Elevator | Bottom | Right | Elevator Activated |  | Verified |  |
+| SH | Shaft | Bottom | Shardilard Ledge | Silk Soar OR ( Cling grip AND ( Faydown Cloak OR Drifters Cloak OR Clawline OR Sharpdart OR ( Dash AND ( Beast Crest OR Shaman Crest ) OR ( Architect crest AND Needle Strike ) ) ) OR ( Dash AND Scuttlebrace AND Clawline AND ( Faydown Cloak OR Drifters Cloak ) ) |  | Verified |  |
+| SH | Shaft | Shardilard Ledge | Bottom | None |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Shell shard cache: Sands of Karak #5 | Shardilard Ledge | None |  |  | Included |  |
-| Shell shard cache: Sands of Karak #6 | Shardilard Ledge | None |  |  | Included |  |
-| Shell shard cache: Sands of Karak #7 | Shardilard Ledge | None |  |  | Included |  |
-| Shell Shard cache: Not in Archi No id | Shardilard Ledge | None |  |  | Not included |  |
-| Shardilard | Shardilard Ledge | None |  |  | Not included | Should these be included? |
+| Sands of Karak - Shellshard Cache #5 | Shardilard Ledge | None |  | Verified | Included |  |
+| Sands of Karak - Shellshard Cache #6 | Shardilard Ledge | None |  | Verified | Included |  |
+| Sands of Karak - Shellshard Cache #7 | Shardilard Ledge | None |  | Verified | Included |  |
+| Sands of Karak - Shellshard Cache #8 | Shardilard Ledge | None |  | Verified | Included |  |
+| Shardilard | Shardilard Ledge | None |  | Verified | Not included | Should these be included? |
 
 ### Sands of Karak Entrance (Coral_25)
 
@@ -12062,21 +12362,21 @@ No subroom connections defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| F | bot1 | Bottom | [Windy Pinstress Entrance (Coral_34)](#windy-pinstress-entrance-coral34) | T | None | TODO |  |  |
-| R | right1 | Top | [Sands of Karak Lower Left Long Room (Coral_23)](#sands-of-karak-lower-left-long-room-coral23) | LL | None |  |  |  |
+| F | bot1 | Bottom | [Windy Pinstress Entrance (Coral_34)](#windy-pinstress-entrance-coral34) | T | None |  | Verified |  |
+| R | right1 | Top | [Sands of Karak Lower Left Long Room (Coral_23)](#sands-of-karak-lower-left-long-room-coral23) | LL | None |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| BS | Big Shaft | Bottom | Top | Silk soar OR ( Cling Grip AND ( Easy Skips OR  Clawline ) ) |  |  |  |
-| BS | Big Shaft | Top | Bottom | None |  |  |  |
+| BS | Big Shaft | Bottom | Top | Silk soar OR ( Cling Grip AND ( Easy Skips OR  Clawline ) ) |  | Verified |  |
+| BS | Big Shaft | Top | Bottom | None |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Lore | Top | Silk soar OR ( Cling grip AND ( Faydown Cloak OR Dash OR Drifters Cloak OR Clawline OR Sharpdart ) ) or ( Scuttlebrace and faydown Cloak ) |  |  | Not included |  |
+| Sands of Karak - Upper Coral Tablet | Top | Silk soar OR ( Cling grip AND ( Faydown Cloak OR Dash OR Drifters Cloak OR Clawline OR Sharpdart ) ) or ( Scuttlebrace and faydown Cloak ) |  | Verified | Not included |  |
 
 ### Sands of Karak Lower Left Long Room (Coral_23)
 
@@ -12096,28 +12396,28 @@ No subroom connections defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| UL | left2 | Hidden Exit | [Watcher at the Edge (Coral_39)](#watcher-at-the-edge-coral39) | R | None |  |  |  |
-| R | right1 | Right Exit | [Sands of Karak Tall Centre Room (Coral_35b)](#sands-of-karak-tall-centre-room-coral35b) | LL | None |  |  |  |
-| LL | left1 | Lower Entrance | [Sands of Karak Entrance (Coral_25)](#sands-of-karak-entrance-coral25) | R | None |  |  |  |
+| UL | left2 | Hidden Exit | [Watcher at the Edge (Coral_39)](#watcher-at-the-edge-coral39) | R | None |  | Verified |  |
+| R | right1 | Right Exit | [Sands of Karak Tall Centre Room (Coral_35b)](#sands-of-karak-tall-centre-room-coral35b) | LL | None |  | Verified |  |
+| LL | left1 | Lower Entrance | [Sands of Karak Entrance (Coral_25)](#sands-of-karak-entrance-coral25) | R | None |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| LN | Lower Nut Platforming | Lower Entrance | Centre Platform | Dash OR Clawline OR Drifters Cloak OR Faydown Cloak OR Beast Crest OR Sharpdart OR ( Reaper Crest AND Ledge Grab ) |  |  |  |
-| LN | Lower Nut Platforming | Centre Platform | Lower Entrance | Clawline OR ( Dash AND Sprint AND Faydown Cloak AND Drifters Cloak ) |  |  |  |
-| UP | Upper Left Nut Platforming | Centre Platform | Upper Left Platform | ( Cling grip OR Silk Soar ) AND ( Dash OR Clawline OR Sharpdart OR Faydown Cloak OR Drifters Cloak ) OR ( Silk Soar AND Beast Crest ) |  |  |  |
-| UP | Upper Left Nut Platforming | Upper Left Platform | Centre Platform | Dash OR Clawline OR Beast Crest OR Drifters Cloak OR Faydown Cloak OR Sharpdart |  |  |  |
-| HD | Hidden Shaft | Upper Left Platform | Hidden Exit | Silk Soar |  |  |  |
-| HD | Hidden Shaft | Hidden Exit | Upper Left Platform | None |  |  |  |
-| RN | Right Nut Platforming | Centre Platform | Right Exit | Cling Grip AND ( Dash OR Drifters Cloak OR Clawline OR Sharpdart OR ( Faydown Cloak AND Beast Crest  ) ) |  |  |  |
-| RN | Right Nut Platforming | Right Exit | Centre Platform | Clawline AND ( Dash OR Drifters Cloak OR Faydown Cloak OR Sharpdart ) OR ( Drifters Cloak AND Sharpdart AND 16 Max silk ) |  |  |  |
+| LN | Lower Nut Platforming | Lower Entrance | Centre Platform | Dash OR Clawline OR Drifters Cloak OR Faydown Cloak OR Beast Crest OR Sharpdart OR ( Reaper Crest AND Ledge Grab ) |  | Verified |  |
+| LN | Lower Nut Platforming | Centre Platform | Lower Entrance | Clawline OR ( Dash AND Sprint AND Faydown Cloak AND Drifters Cloak ) |  | Verified |  |
+| UP | Upper Left Nut Platforming | Centre Platform | Upper Left Platform | ( ( Cling grip OR Silk Soar ) AND ( Dash OR Clawline OR Sharpdart OR Faydown Cloak OR Drifters Cloak ) ) OR ( Silk Soar AND Beast Crest ) |  | Verified |  |
+| UP | Upper Left Nut Platforming | Upper Left Platform | Centre Platform | Dash OR Clawline OR Beast Crest OR Drifters Cloak OR Faydown Cloak OR Sharpdart |  | Verified |  |
+| HD | Hidden Shaft | Upper Left Platform | Hidden Exit | Silk Soar |  | Verified |  |
+| HD | Hidden Shaft | Hidden Exit | Upper Left Platform | None |  | Verified |  |
+| RN | Right Nut Platforming | Centre Platform | Right Exit | Cling Grip AND ( Dash OR Drifters Cloak OR Clawline OR Sharpdart OR ( Faydown Cloak AND Beast Crest  ) ) |  | Verified |  |
+| RN | Right Nut Platforming | Right Exit | Centre Platform | ( Clawline AND ( Dash OR Drifters Cloak OR Faydown Cloak OR Sharpdart ) ) OR ( Drifters Cloak AND Sharpdart AND ( 7 Spool Upgrades OR ( 4 Spool Upgrades AND Spool extender Owned ) OR ( 3 Spool Upgrades AND Egg of Flealia ) OR ( Egg of Flealia AND Spool Extender ) ) ) |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Memory Locket #15 | Upper Left Platform | None |  |  | Included |  |
+| Dands of Karak - Memory Locket | Upper Left Platform | None |  |  | Included |  |
 
 ### Sands of Karak Lower Right Long Room (Coral_24)
 
@@ -12137,31 +12437,30 @@ No subroom connections defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 | Left Exit | [Sands of Karak Tall Centre Room (Coral_35b)](#sands-of-karak-tall-centre-room-coral35b) | LR | None |  |  |  |
-| R | right1 | Right Exit | [Sands of Karak Right Side Tall room (Coral_26)](#sands-of-karak-right-side-tall-room-coral26) | LL | None |  |  |  |
+| L | left1 | Left Exit | [Sands of Karak Tall Centre Room (Coral_35b)](#sands-of-karak-tall-centre-room-coral35b) | LR | None |  | Verified |  |
+| R | right1 | Right Exit | [Sands of Karak Right Side Tall room (Coral_26)](#sands-of-karak-right-side-tall-room-coral26) | LL | None |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| LW | Left Wall | Left Exit | Flea Ledge | Silk Soar |  |  |  |
-| LW | Left Wall | Flea Ledge | Left Exit | None |  |  |  |
-| LN | Lower Left Nut Platforms | Left Exit | Lower Centre Platform | Beast Crest OR Dash OR Clawline OR Faydown Cloak OR Drifters Cloak OR Sharpdart OR ( Ledge grab AND ( Reaper crest OR Shamen Crest OR Hunters Crest OR Wanderers Crest ) ) |  |  |  |
-| LN | Lower Left Nut Platforms | Lower Centre Platform | Left Exit | ( Drifters Cloak AND ( Clawline OR Beastcrest OR Dash OR Faydown Cloak ) ) OR ( Clawline AND ( Shamen crest OR Faydown Cloak OR Silk Soar OR Beast Crest ) ) OR ( Faydown Cloak AND ( Beast Crest OR Sharpdart ) ) |  |  |  |
-| UN | Upper Left Nut Platforms | Upper Centre Platform | Flea Ledge | "( Cling grip AND Clawline ) OR ( Clawline AND ( Drifters Cloak AND ( hunter Crest OR Reaper Crest OR Wanderer Crest OR Shaman Crest ) ) OR Faydown Cloak ) " |  |  |  |
-| UN | Upper Left Nut Platforms | Flea Ledge | Upper Centre Platform | Not happening |  | Needs verification |  |
-| RN | Right Nut Platforms | Upper Centre Platform | Right Exit | ( Cling grip AND  ( ( Clawline OR Drifters Cloak ) OR Beast Crest ) ) |  |  |  |
-| RN | Right Nut Platforms | Right Exit | Upper Centre Platform | None |  |  |  |
-| CN | Centre Platforms | Lower Centre Platform | Upper Centre Platform | Faydown Cloak OR Sprint OR ( Dash AND ( Ledge grab OR Cling grip ) ) OR Drifters Cloak OR Clawline OR Sharpdart OR Silksoar OR Beast Crest OR ( Architect Crest AND Needle Strike ) |  |  |  |
-| CN | Centre Platforms | Upper Centre Platform | Lower Centre Platform | None |  |  |  |
+| LW | Left Wall | Left Exit | Flea Ledge | Silk Soar |  | Verified |  |
+| LW | Left Wall | Flea Ledge | Left Exit | None |  | Verified |  |
+| LN | Lower Left Nut Platforms | Left Exit | Lower Centre Platform | Beast Crest OR Dash OR Clawline OR Faydown Cloak OR Drifters Cloak OR Sharpdart OR ( Ledge grab AND ( Reaper crest OR Shamen Crest OR Hunters Crest OR Wanderers Crest ) ) |  | Verified |  |
+| LN | Lower Left Nut Platforms | Lower Centre Platform | Left Exit | ( Drifters Cloak AND ( Clawline OR Beast crest OR Dash OR Faydown Cloak ) ) OR ( Clawline AND ( Shaman crest OR Faydown Cloak OR Silk Soar OR Beast Crest ) ) OR ( Faydown Cloak AND ( Beast Crest OR Sharpdart ) ) |  | Verified |  |
+| UN | Upper Left Nut Platforms | Upper Centre Platform | Flea Ledge | ( Cling grip AND Clawline ) OR ( Clawline AND ( Drifters Cloak AND ( hunter Crest OR Reaper Crest OR Wanderer Crest OR Shaman Crest ) ) OR Faydown Cloak ) |  | Verified | While technically not one way its just cancer to get back and had 0 practical use to dropping down and redoing the lower route |
+| RN | Right Nut Platforms | Upper Centre Platform | Right Exit | ( Cling grip AND  ( ( Clawline OR Drifters Cloak ) OR Beast Crest ) ) |  | Verified |  |
+| RN | Right Nut Platforms | Right Exit | Upper Centre Platform | None |  | Verified |  |
+| CN | Centre Platforms | Lower Centre Platform | Upper Centre Platform | Faydown Cloak OR Sprint OR ( Dash AND ( Ledge grab OR Cling grip ) ) OR Drifters Cloak OR Clawline OR Sharpdart OR Silksoar OR Beast Crest OR ( Architect Crest AND Needle Strike ) |  | Verified |  |
+| CN | Centre Platforms | Upper Centre Platform | Lower Centre Platform | None |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Shell Shard Cache: Sands of Karak #1 | Lower Centre Platform | None |  |  | Included |  |
-| Shell Shard Cache: Sands of Karak #2 | Lower Centre Platform | None |  |  | Included |  |
-| Flea: Sands of Karak | Flea Ledge | None |  |  | Included |  |
+| Shell Shard Cache: Sands of Karak #1 | Lower Centre Platform | None |  | Verified | Included |  |
+| Shell Shard Cache: Sands of Karak #2 | Lower Centre Platform | None |  | Verified | Included |  |
+| Flea: Sands of Karak | Flea Ledge | None |  | Verified | Included |  |
 
 ### Sands of Karak Right Side Tall room (Coral_26)
 
@@ -12179,20 +12478,20 @@ No subroom connections defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| UL | left2 | Top | [Sands of Karak Upper Right Long Room (Coral_44)](#sands-of-karak-upper-right-long-room-coral44) | R | None |  |  |  |
-| LL | left1 | Centre | [Sands of Karak Lower Right Long Room (Coral_24)](#sands-of-karak-lower-right-long-room-coral24) | R | None |  |  |  |
-| R | right1 | Centre | [Sands of Karak Elevator to Blasted Steps (Coral_38)](#sands-of-karak-elevator-to-blasted-steps-coral38) | L | None |  |  |  |
+| UL | left2 | Top | [Sands of Karak Upper Right Long Room (Coral_44)](#sands-of-karak-upper-right-long-room-coral44) | R | None |  | Verified |  |
+| LL | left1 | Centre | [Sands of Karak Lower Right Long Room (Coral_24)](#sands-of-karak-lower-right-long-room-coral24) | R | None |  | Verified |  |
+| R | right1 | Centre | [Sands of Karak Elevator to Blasted Steps (Coral_38)](#sands-of-karak-elevator-to-blasted-steps-coral38) | L | None |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| TS1 | Tall Shaft1 | Centre | Bottom | None |  |  |  |
-| TS1 | Tall Shaft1 | Bottom | Centre | Cling Grip |  |  |  |
-| TS2 | Tall Shaft2 | Top | Bottom | None |  |  |  |
-| TS2 | Tall Shaft2 | Bottom | Top | Cling Grip AND ( Clawline OR Faydown Cloak OR ( Ledge Grab AND ( Drifters Cloak OR Dash ) OR ( Beast Crest AND Needle Strike ) ) |  |  |  |
-| TS3 | Tall Shaft3 | Top | Centre | None |  |  |  |
-| TS3 | Tall Shaft3 | Centre | Top | Silk Soar AND Cling grip AND ( Dash OR Clawline OR Sharpdart OR Faydown Cloak OR Drifters Cloak ) OR ( Beast Crest AND Needle Strike ) |  |  |  |
+| TS1 | Tall Shaft1 | Centre | Bottom | None |  | Verified |  |
+| TS1 | Tall Shaft1 | Bottom | Centre | Cling Grip |  | Verified |  |
+| TS2 | Tall Shaft2 | Top | Bottom | None |  | Verified |  |
+| TS2 | Tall Shaft2 | Bottom | Top | Cling Grip AND ( Clawline OR Faydown Cloak OR ( Ledge Grab AND ( Drifters Cloak OR Dash ) OR ( Beast Crest AND Needle Strike ) ) |  | Verified |  |
+| TS3 | Tall Shaft3 | Top | Centre | None |  | Verified |  |
+| TS3 | Tall Shaft3 | Centre | Top | Silk Soar AND Cling grip AND ( Dash OR Clawline OR Sharpdart OR Faydown Cloak OR Drifters Cloak ) OR ( Beast Crest AND Needle Strike ) |  | Verified |  |
 
 #### Check Locations
 
@@ -12217,31 +12516,31 @@ No check locations defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| D | door1 | Voltnest Level | [Voltnest (Coral_29)](#voltnest-coral29) | L | None |  |  |  |
-| LL | left3 | Ground Level | [Sands of Karak Lower Left Long Room (Coral_23)](#sands-of-karak-lower-left-long-room-coral23) | R | None |  |  |  |
-| F | bot1 | Ground Level | [Blasted Steps Thin Long Vertical (Coral_35)](#blasted-steps-thin-long-vertical-coral35) | T | Giant Stalactite Above broken | TODO |  |  |
-| LR | right2 | Ground Level | [Sands of Karak Lower Right Long Room (Coral_24)](#sands-of-karak-lower-right-long-room-coral24) | L | Break Wall |  |  |  |
-| UL | left2 | Bridge Level | [Sands of Karak Upper Left Long Room (Coral_27)](#sands-of-karak-upper-left-long-room-coral27) | R | None |  |  |  |
-| UML | left5 | Crust Nut Ledge | [Crustnut (Coral_41)](#crustnut-coral41) | R | Break Wall |  |  |  |
-| UR | right1 | Bridge Level | [Sands of Karak Upper Right Long Room (Coral_44)](#sands-of-karak-upper-right-long-room-coral44) | L | None |  |  |  |
-| ULL | left4 | Shakra Ledge | [Sands of Shakra (Coral_40)](#sands-of-shakra-coral40) | R | None |  |  |  |
+| D | door1 | Voltnest Level | [Voltnest (Coral_29)](#voltnest-coral29) | L | None |  | Verified |  |
+| LL | left3 | Ground Level | [Sands of Karak Lower Left Long Room (Coral_23)](#sands-of-karak-lower-left-long-room-coral23) | R | None |  | Verified |  |
+| F | bot1 | Ground Level | [Blasted Steps Thin Long Vertical (Coral_35)](#blasted-steps-thin-long-vertical-coral35) | T | Giant Stalactite from "Stalactite" broken |  | Verified |  |
+| LR | right2 | Ground Level | [Sands of Karak Lower Right Long Room (Coral_24)](#sands-of-karak-lower-right-long-room-coral24) | L | Break Wall |  | Verified |  |
+| UL | left2 | Bridge Level | [Sands of Karak Upper Left Long Room (Coral_27)](#sands-of-karak-upper-left-long-room-coral27) | R | None |  | Verified |  |
+| UML | left5 | Crust Nut Ledge | [Crustnut (Coral_41)](#crustnut-coral41) | R | Break Wall |  | Verified |  |
+| UR | right1 | Bridge Level | [Sands of Karak Upper Right Long Room (Coral_44)](#sands-of-karak-upper-right-long-room-coral44) | L | None |  | Verified |  |
+| ULL | left4 | Shakra Ledge | [Sands of Shakra (Coral_40)](#sands-of-shakra-coral40) | R | None |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| LS | Lower Shaft | Ground Level | Shakra Ledge | Silk Soar OR ( Faydown Cloak AND ( Cling grip OR ( Dash AND Scuttlebrace ) ) ) OR ( Cling grip AND ( Dash OR Sprint OR Drifters Cloak OR Clawline OR Sharpdart ) OR ( ( Beast Crest OR Architect Crest ) AND Needle Strike ) |  |  |  |
-| LS | Lower Shaft | Shakra Ledge | Ground Level | None |  |  |  |
-| ST1 | Stalactite | Ground Level | Stalactite | Silk Soar |  |  |  |
-| ST1 | Stalactite | Stalactite | Ground Level | None |  |  |  |
-| ST2 | Stalactite2 | Shakra Ledge | Stalactite | ( ( Dash AND Scuttlebrace ) OR Cling grip ) AND ( Dash OR Sprint OR Drifters Cloak OR Faydown Cloak OR Sharp Dart OR Clawline )  OR ( Cling Grip AND ( Beast Crest OR Hunter Crest OR Shaman Crest OR ( ( Reaper Crest OR Architect Crest ) AND Needle Strike ) ) |  |  |  |
-| St2 | Stalactite2 | Stalactite | Shakra Ledge | None |  |  |  |
-| US1 | Upper Shaft1 | Shakra Ledge | Crust Nut Ledge | ( Dash AND Scuttlebrace ) OR ( Cling grip AND ( Dash AND ( Ledge Grab OR Shamen Crest ) ) OR Clawline OR Faydown Cloak OR Sharpdart ) OR ( Cling Grip AND ( Beast Crest OR Hunter Crest OR ( Reaper Crest AND Needle Strike ) ) |  |  |  |
-| US1 | Upper Shaft1 | Crust Nut Ledge | Shakra Ledge | None |  |  |  |
-| US2 | Upper Shaft2 | Crust Nut Ledge | Bridge Level | Upper Stalactite Broken AND ( ( Dash AND Scuttlebrace AND Faydown Cloak ) OR Cling grip OR ( Silk Soar AND Faydown Cloak AND ( Ledge Grab OR Clawline OR Sharp Dart ) ) ) OR Faydown Cloak OR ( ( Silk Soar ) AND ( Architect Crest OR Witch Crest OR Reaper Crest OR Shaman Crest OR ( Wanderer Crest AND ( ledge grab or Dash OR Sharp Dart OR Clawline OR Drifters Cloak ) ) ) ) |  |  |  |
-| US2 | Upper Shaft2 | Bridge Level | Crust Nut Ledge | Upper Stalactite Broken |  |  |  |
-| VS | Voltwyrm Shaft | Bridge Level | Voltnest Level | ( Cling Grip AND Faydown Cloak AND ( Clawline OR Dash OR Sharpdart )  ) OR(  Silk soar AND ( Cling Grip OR Faydown Cloak OR ( Dash AND Scuttlebrace ) ) ) OR ( Faydown Cloak AND Beast Crest AND Needle Strike AND Cling Grip ) OR ( ( ( ( Architect Crest OR Reaper Crest ) AND Needle strike ) OR Shaman Crest ) AND Cling Grip AND Faydown Cloak ) |  |  |  |
-| VS | VoltWyrm Shaft | Voltnest Level | Bridge Level | None |  |  |  |
+| LS | Lower Shaft | Ground Level | Shakra Ledge | Silk Soar OR ( Faydown Cloak AND ( Cling grip OR ( Dash AND Scuttlebrace ) ) ) OR ( Cling grip AND ( Dash OR Sprint OR Drifters Cloak OR Clawline OR Sharpdart ) OR ( ( Beast Crest OR Architect Crest ) AND Needle Strike ) |  | Verified |  |
+| LS | Lower Shaft | Shakra Ledge | Ground Level | None |  | Verified |  |
+| ST1 | Stalactite | Ground Level | Stalactite | Silk Soar |  | Verified |  |
+| ST1 | Stalactite | Stalactite | Ground Level | None |  | Verified |  |
+| ST2 | Stalactite2 | Shakra Ledge | Stalactite | ( ( Scuttlebrace OR Cling grip ) AND ( Dash OR Sprint OR Drifters Cloak OR Faydown Cloak OR Sharp Dart OR Clawline ) ) OR ( Cling Grip AND ( Beast Crest OR Hunter Crest OR Shaman Crest OR ( ( Reaper Crest OR Architect Crest ) AND Needle Strike ) ) |  | Verified |  |
+| St2 | Stalactite2 | Stalactite | Shakra Ledge | None |  | Verified |  |
+| US1 | Upper Shaft1 | Shakra Ledge | Crust Nut Ledge | ( ( Scuttlebrace  OR  Cling grip )  AND  ( Dash AND ( Ledge Grab OR Shamen Crest ) )   OR Clawline OR Faydown Cloak OR Sharpdart ) OR ( Cling Grip AND ( Beast Crest OR Hunter Crest OR ( Reaper Crest AND Needle Strike ) ) ) |  | Verified |  |
+| US1 | Upper Shaft1 | Crust Nut Ledge | Shakra Ledge | None |  | Verified |  |
+| US2 | Upper Shaft2 | Crust Nut Ledge | Bridge Level | Giant stalactite from "Bridge Level" Broken AND ( (  Scuttlebrace OR Cling grip OR  Faydown Cloak  OR (  Silk Soar AND ( Architect Crest OR Witch Crest OR Reaper Crest OR Shaman Crest OR ( Wanderer Crest AND ( ledge grab or Dash OR Sharpdart OR Clawline OR Drifters Cloak ) ) ) ) ) ) |  | Verified |  |
+| US2 | Upper Shaft2 | Bridge Level | Crust Nut Ledge | Upper Stalactite Broken from "Bridge Level" |  | Verified |  |
+| VS | Voltwyrm Shaft | Bridge Level | Voltnest Level | ( Cling Grip AND Faydown Cloak AND ( Clawline OR Dash OR Sharpdart OR ( Moderate Skips AND ( Beast Crest AND Needle Strike AND Cling Grip  )  OR ( ( ( Architect Crest OR Reaper Crest )  AND Needle Strike ) OR Shaman Crest )  )  )  ) OR (  Silk soar AND ( Cling Grip OR Faydown Cloak OR Scuttlebrace ) ) |  | Verified |  |
+| VS | VoltWyrm Shaft | Voltnest Level | Bridge Level | None |  | Verified |  |
 
 #### Check Locations
 
@@ -12263,25 +12562,25 @@ No check locations defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 | Left Ledge | [Coral Tower Entrance (Coral_28)](#coral-tower-entrance-coral28) | R | None |  |  |  |
-| R | right1 | Right Ledge | [Sands of Karak Tall Centre Room (Coral_35b)](#sands-of-karak-tall-centre-room-coral35b) | UL | None |  |  |  |
+| L | left1 | Left Ledge | [Coral Tower Entrance (Coral_28)](#coral-tower-entrance-coral28) | R | None |  | Verified |  |
+| R | right1 | Right Ledge | [Sands of Karak Tall Centre Room (Coral_35b)](#sands-of-karak-tall-centre-room-coral35b) | UL | None |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| WR | Whole Room | Left Ledge | Right Ledge | Beast Crest OR Clawline OR Faydown Cloak OR Drifters Cloak OR Sharpdart OR Dash |  |  |  |
-| WR | Whole Room | Right Ledge | Left Ledge | Cling Grip AND ( ( ( Dash OR Drifters Cloak OR Faydown Cloak ) AND Sprint ) OR Clawline OR Sharpdart ) OR ( Faydown Cloak AND Clawline ) |  |  |  |
-| DR | Drop | Left Ledge | Shell Ledge | Hunters Crest OR Beast Crest OR Architect Crest OR Shamen Crest OR ( Ledge grab AND ( Reaper crest OR Witch Crest ) ) OR Dash OR Clawline OR Sharpdart OR Drifters Cloak OR Faydown Cloak OR ( Wanderer crest AND Needle Strike ) |  |  |  |
-| DR | Drop | Shell Ledge | Left Ledge | Ledge Grab OR Clawline OR Faydown Cloak OR Beast Crest |  |  |  |
+| WR | Whole Room | Left Ledge | Right Ledge | Beast Crest OR Clawline OR Faydown Cloak OR Drifters Cloak OR Sharpdart OR Dash |  | Verified |  |
+| WR | Whole Room | Right Ledge | Left Ledge | ( Cling Grip AND ( ( ( Dash OR Drifters Cloak OR Faydown Cloak ) AND Sprint ) OR Clawline OR Sharpdart ) ) OR ( Faydown Cloak AND Clawline AND Spike Pogo Easy ) |  | Verified |  |
+| DR | Drop | Left Ledge | Shell Ledge | Hunters Crest OR Beast Crest OR Architect Crest OR Shamen Crest OR ( Ledge grab AND ( Reaper crest OR Witch Crest ) ) OR Dash OR Clawline OR Sharpdart OR Drifters Cloak OR Faydown Cloak OR ( Wanderer crest AND Needle Strike ) |  | Verified |  |
+| DR | Drop | Shell Ledge | Left Ledge | Ledge Grab OR Clawline OR Faydown Cloak OR Beast Crest |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Shell shard cache: Sands of Karak #3 | Shell Ledge | None |  |  | Included |  |
-| Shell Shard cache: Not included | Shell Ledge | None |  |  | Not included |  |
-| Boss: Raging Conchfly | Left Ledge | Proficient Combat OR 2 x Needle Upgrade |  |  | Included |  |
+| Shell shard cache: Sands of Karak #3 | Shell Ledge | None |  | Verified | Included |  |
+| Shell Shard cache: #4 | Shell Ledge | None |  | Verified | Included |  |
+| Boss: Raging Conchfly | Left Ledge | Proficient Combat OR 2 x Needle Upgrade |  | Verified | Included |  |
 
 ### Sands of Karak Upper Right Long Room (Coral_44)
 
@@ -12298,15 +12597,15 @@ No check locations defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 | Left Exit | [Sands of Karak Tall Centre Room (Coral_35b)](#sands-of-karak-tall-centre-room-coral35b) | UR | None |  |  |  |
-| R | right1 | Right Exit | [Sands of Karak Right Side Tall room (Coral_26)](#sands-of-karak-right-side-tall-room-coral26) | UL | None |  |  |  |
+| L | left1 | Left Exit | [Sands of Karak Tall Centre Room (Coral_35b)](#sands-of-karak-tall-centre-room-coral35b) | UR | None |  | Verified |  |
+| R | right1 | Right Exit | [Sands of Karak Right Side Tall room (Coral_26)](#sands-of-karak-right-side-tall-room-coral26) | UL | None |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| WR | Whole Room | Left Exit | Right Exit | Cling grip AND ( Clawline OR ( Faydown Cloak AND ( Dash OR Sharpdart OR Drifters Cloak ) ) |  |  |  |
-| WR | Whole Room | Right Exit | Left Exit | Clawline AND ( Drifters Cloak OR Shamen Crest ) AND ( Cling grip OR Silk Soar ) |  |  |  |
+| WR | Whole Room | Left Exit | Right Exit | Cling grip AND ( Clawline OR ( Faydown Cloak AND ( Dash OR Sharpdart OR Drifters Cloak ) ) |  | Verified |  |
+| WR | Whole Room | Right Exit | Left Exit | Clawline AND ( Drifters Cloak OR Shamen Crest ) AND ( Cling grip OR Silk Soar ) |  | Verified |  |
 
 #### Check Locations
 
@@ -12326,7 +12625,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 |  | [Sands of Karak Tall Centre Room (Coral_35b)](#sands-of-karak-tall-centre-room-coral35b) | ULL | None |  |  |  |
+| R | right1 |  | [Sands of Karak Tall Centre Room (Coral_35b)](#sands-of-karak-tall-centre-room-coral35b) | ULL | None |  | Verified |  |
 
 #### Subroom Connections
 
@@ -12336,9 +12635,9 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Map: Sands of Karak |  | None |  |  | Included |  |
-| Shell Shard Cache: Sands of Karak #9 |  | Faydown Cloak OR Cling Grip OR Silk Soar OR Thread Storm OR Rune Rage OR ( Beast Crest AND Needle Strike ) |  |  | Included |  |
-| Shell Shard Cache: Sands of Karak #10 |  | Faydown Cloak OR Cling Grip OR Silk Soar OR Thread Storm OR Rune Rage OR ( Beast Crest AND Needle Strike ) |  |  | Included |  |
+| Map: Sands of Karak |  | None |  | Verified | Included |  |
+| Shell Shard Cache: Sands of Karak #9 |  | Faydown Cloak OR Cling Grip OR Silk Soar OR Thread Storm OR Rune Rage OR ( Beast Crest AND Needle Strike ) |  | Verified | Included |  |
+| Shell Shard Cache: Sands of Karak #10 |  | Faydown Cloak OR Cling Grip OR Silk Soar OR Thread Storm OR Rune Rage OR ( Beast Crest AND Needle Strike ) |  | Verified | Included |  |
 
 ### Watcher at the Edge (Coral_39)
 
@@ -12354,7 +12653,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 |  | [Sands of Karak Lower Left Long Room (Coral_23)](#sands-of-karak-lower-left-long-room-coral23) | UL | None |  |  |  |
+| R | right1 |  | [Sands of Karak Lower Left Long Room (Coral_23)](#sands-of-karak-lower-left-long-room-coral23) | UL | None |  | Verified |  |
 
 #### Subroom Connections
 
@@ -12364,8 +12663,8 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Watcher at the edge |  | Needolin AND ( 2 x Needle upgrade OR Proficient combat ) |  |  | Included |  |
-| Grey Memento |  | Needolin AND ( 2 x Needle upgrade OR Proficient combat ) |  |  | Included |  |
+| Watcher at the edge |  | Needolin AND ( 2 x Needle upgrade OR Proficient combat ) |  | Verified | Included |  |
+| Grey Memento |  | Needolin AND ( 2 x Needle upgrade OR Proficient combat ) |  | Verified | Not included |  |
 
 ### Voltnest (Coral_29)
 
@@ -12383,7 +12682,7 @@ No subroom connections defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 | Start | [Sands of Karak Tall Centre Room (Coral_35b)](#sands-of-karak-tall-centre-room-coral35b) | D |  |  | Verified |  |
+| L | left1 | Start | [Sands of Karak Tall Centre Room (Coral_35b)](#sands-of-karak-tall-centre-room-coral35b) | D | None |  | Verified |  |
 
 #### Subroom Connections
 
@@ -13202,7 +13501,7 @@ No check locations defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| F | bot1 | Flower Bed | TODO |  | None |  | Verified |  |
+| F | bot1 | Flower Bed | [Cogwork Core Architect's Melody (Act 3) (Cog_09_Destroyed)](#cogwork-core-architects-melody-act-3-cog09destroyed) | T | None |  | Verified |  |
 | C | top1 | Surface Path | [ACT3 Connection To GMS (Cradle_01_Destroyed)](#act3-connection-to-gms-cradle01destroyed) | F | None |  | Verified |  |
 
 #### Subroom Connections
@@ -13384,7 +13683,6 @@ No map image for this
 | TS2 | Tall Shaft2 | Central Shaft | Lower Shaft | None |  | Verified |  |
 | TS3 | Tall Shaft3 | Central Shaft | Upper Shaft | One way door opened from Upper Shaft AND ( Scuttlebrace OR Cling Grip OR Silk Soar ) |  | Verified |  |
 | TS3 | Tall Shaft3 | Upper Shaft | Central Shaft | One way door opened from Upper Shaft |  | Verified |  |
-|  |  |  |  |  |  | Verified |  |
 
 #### Check Locations
 
@@ -14158,7 +14456,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| T | terminus |  | TODO |  | terminus ventrica unlocked | TODO |  |  |
+| T | terminus |  | [Terminus Ventrica (Tube_Hub)](#terminus-ventrica-tubehub) | V | terminus ventrica unlocked |  | Verified |  |
 | M | memorium |  | TODO |  | memorium ventrica unlocked | TODO |  |  |
 | HH | high halls |  | [High Halls Ventrica (Hang_06b)](#high-halls-ventrica-hang06b) | V | high halls ventrica unlocked |  | Verified |  |
 | FS | first shrine |  | [Songclave Tube (Song_Enclave_Tube)](#songclave-tube-songenclavetube) | V | first shrine ventrica unlocked |  | Verified |  |

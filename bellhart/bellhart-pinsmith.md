@@ -12,7 +12,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Belltown (Belltown)](belltown.md) | ND | None |  |  |  |
+| L | left1 |  | [Belltown (Belltown)](belltown.md) | ND | None |  | Verified |  |
 
 ## Subroom Connections
 
@@ -22,7 +22,7 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Needle Upgrade 1 |  | None |  |  | Included |  |
-| Needle Upgrade 2 |  | Pale Oil |  |  | Included |  |
-| Needle Upgrade 3 |  | Pale Oil |  |  | Included |  |
-| Needle Upgrade 4 |  | Pale Oil |  |  | Included |  |
+| Needle Upgrade 1 |  | None |  | Verified | Included |  |
+| Needle Upgrade 2 |  | 1 Pale Oil Owned |  | Verified | Included |  |
+| Needle Upgrade 3 |  | 1 Pale Oil Owned |  | Verified | Included |  |
+| Needle Upgrade 4 |  | 1 Pale Oil Owned |  | Verified | Included |  |

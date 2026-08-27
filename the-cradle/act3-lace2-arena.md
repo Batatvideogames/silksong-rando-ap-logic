@@ -13,7 +13,7 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| F | bot1 | Flower Bed | TODO |  | None |  | Verified |  |
+| F | bot1 | Flower Bed | [Cogwork Core Architect's Melody (Act 3) (Cog_09_Destroyed)](../cogwork-core/cogwork-core-architect-s-melody-act-3.md) | T | None |  | Verified |  |
 | C | top1 | Surface Path | [ACT3 Connection To GMS (Cradle_01_Destroyed)](act3-connection-to-gms.md) | F | None |  | Verified |  |
 
 ## Subroom Connections

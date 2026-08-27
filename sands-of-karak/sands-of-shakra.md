@@ -12,7 +12,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 |  | [Sands of Karak Tall Centre Room (Coral_35b)](sands-of-karak-tall-centre-room.md) | ULL | None |  |  |  |
+| R | right1 |  | [Sands of Karak Tall Centre Room (Coral_35b)](sands-of-karak-tall-centre-room.md) | ULL | None |  | Verified |  |
 
 ## Subroom Connections
 
@@ -22,6 +22,6 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Map: Sands of Karak |  | None |  |  | Included |  |
-| Shell Shard Cache: Sands of Karak #9 |  | Faydown Cloak OR Cling Grip OR Silk Soar OR Thread Storm OR Rune Rage OR ( Beast Crest AND Needle Strike ) |  |  | Included |  |
-| Shell Shard Cache: Sands of Karak #10 |  | Faydown Cloak OR Cling Grip OR Silk Soar OR Thread Storm OR Rune Rage OR ( Beast Crest AND Needle Strike ) |  |  | Included |  |
+| Map: Sands of Karak |  | None |  | Verified | Included |  |
+| Shell Shard Cache: Sands of Karak #9 |  | Faydown Cloak OR Cling Grip OR Silk Soar OR Thread Storm OR Rune Rage OR ( Beast Crest AND Needle Strike ) |  | Verified | Included |  |
+| Shell Shard Cache: Sands of Karak #10 |  | Faydown Cloak OR Cling Grip OR Silk Soar OR Thread Storm OR Rune Rage OR ( Beast Crest AND Needle Strike ) |  | Verified | Included |  |
