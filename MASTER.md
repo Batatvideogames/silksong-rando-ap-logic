@@ -7793,6 +7793,31 @@ No subroom connections defined.
 | Shell Shard Cache: Sinner’s Road #4 | shard ledge | none |  |  | Included |  |
 | Shell Shard Cache: Sinner’s Road #5 | shard ledge | none |  |  | Included |  |
 
+### Sinner's Road Mist Maze Completed (Dust_Maze_08_completed)
+
+**Game ID:** Dust_Maze_08_completed
+
+**Contributors:** Herchey and a gallon of milk
+
+#### Subrooms
+
+No subrooms defined.
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| UR | up right |  | [Exhaust Organ External (Dust_09)](#exhaust-organ-external-dust09) | L | cling grip AND (silk soar OR clawline OR sharpdart OR drifter's cloak OR faydown cloak OR (crest pogo AND run)) |  |  |  |
+| LR | low right |  | [Sinner's Road North Hall (Dust_05)](#sinners-road-north-hall-dust05) | L | spike pogo OR clawline OR sharpdart OR faydown cloak OR drifter's cloak OR scuttlebrace OR run OR dash OR cling grip |  |  |  |
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+No check locations defined.
+
 ### Sinner's Road Muckroach Cages (Dust_03)
 
 **Game ID:** Dust_03
@@ -7846,7 +7871,7 @@ No subroom connections defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left | behind left wall | TODO |  | none |  |  |  |
+| L | left | behind left wall | [Sinner's Road Mist Maze Completed (Dust_Maze_08_completed)](#sinners-road-mist-maze-completed-dustmaze08completed) | LR | none |  |  |  |
 | C | center | hatch | [Sinner's Road Vertical Hall West (Dust_02)](#sinners-road-vertical-hall-west-dust02) | C | none |  |  |  |
 | R | right | right door platform | [Sinner's Road Vertical Hall East (Dust_06)](#sinners-road-vertical-hall-east-dust06) | L | faydown cloak OR (crest pogo AND drifter’s cloak) OR (clawline AND (ledge grab OR cling grip) |  |  |  |
 
@@ -7951,7 +7976,7 @@ No check locations defined.
 | L | left | upper | [Sinner's Road North Hall (Dust_05)](#sinners-road-north-hall-dust05) | R | none |  |  |  |
 | LR | lower right | lower | [Sinner's Road Styx Room (Dust_11)](#sinners-road-styx-room-dust11) | L | none |  |  |  |
 | MR | middle right | upper | [Sinner's Road Flea Rescue (Dust_12)](#sinners-road-flea-rescue-dust12) | L | none |  |  |  |
-| UR | upper right | upper | [Bilewater Entrance (Shadow_05)](#bilewater-entrance-shadow05) | L | none |  |  |  |
+| UR | upper right | upper | [Bilewater Sinner's Entrance (Shadow_05)](#bilewater-sinners-entrance-shadow05) | L | none |  |  |  |
 
 #### Subroom Connections
 
@@ -11074,7 +11099,9 @@ lol
 | TL | left1 | Down We Go | [Whispering Vaults Bench (Library_08)](#whispering-vaults-bench-library08) | R | Nothing. |  |  |  |
 | BL | left2 | Up And Away | [Whispering Vaults Below Bench (Library_06)](#whispering-vaults-below-bench-library06) | R | Nothing. |  |  |  |
 | T | top1 | Sky High | [Whispering Vaults Jumps (Library_09)](#whispering-vaults-jumps-library09) | B | Nothing. |  |  |  |
-| B | bot1 | White Palace Lite | [Shadow_22 (Shadow_22)](#shadow22-shadow22) | T | Nothing. |  |  |  |
+| B1 | bot1 | White Palace Lite | [Bilewater Citadel Exit (Shadow_22)](#bilewater-citadel-exit-shadow22) | T1 | Nothing. |  |  |  |
+| B2 | bot2 | White Palace Lite | [Bilewater Citadel Exit (Shadow_22)](#bilewater-citadel-exit-shadow22) | T2 | Nothing. |  |  |  |
+| B3 | bot3 | White Palace Lite | [Bilewater Citadel Exit (Shadow_22)](#bilewater-citadel-exit-shadow22) | T3 | Nothing. |  |  |  |
 
 #### Subroom Connections
 
@@ -12015,32 +12042,33 @@ No check locations defined.
 
 ## Bilewater
 
-### Bellway (Bellway_Shadow)
+### Bilewater Arena Shack (Shadow_Bilehaven_Room)
+
+**Game ID:** Shadow_Bilehaven_Room
+
+#### Subrooms
+
+No subrooms defined.
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left |  | [Bilewater Groal Arena (Shadow_18)](#bilewater-groal-arena-shadow18) | D |  |  |  |  |
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+No check locations defined.
+
+### Bilewater Bellway (Bellway_Shadow)
 
 **Game ID:** Bellway_Shadow
 
-#### Subrooms
-
-No subrooms defined.
-
-#### Room Transitions
-
-| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| FT | door_fastTravelExit |  | TODO |  |  |  |  |  |
-| L | left1 |  | TODO |  |  |  |  |  |
-
-#### Subroom Connections
-
-No subroom connections defined.
-
-#### Check Locations
-
-No check locations defined.
-
-### Bilewater Entrance (Shadow_05)
-
-**Game ID:** Shadow_05
+**Contributors:** Herchey
 
 #### Subrooms
 
@@ -12050,75 +12078,8 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right |  | TODO |  |  |  |  |  |
-| L | left |  | [Sinner's Road Vertical Hall East (Dust_06)](#sinners-road-vertical-hall-east-dust06) | UR |  |  |  |  |
-
-#### Subroom Connections
-
-No subroom connections defined.
-
-#### Check Locations
-
-No check locations defined.
-
-### New room
-
-#### Subrooms
-
-No subrooms defined.
-
-#### Room Transitions
-
-No room transitions defined.
-
-#### Subroom Connections
-
-No subroom connections defined.
-
-#### Check Locations
-
-No check locations defined.
-
-### Shadow_22 (Shadow_22)
-
-**Game ID:** Shadow_22
-
-#### Subrooms
-
-No subrooms defined.
-
-#### Room Transitions
-
-| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-|  | bot1 |  | TODO |  |  |  |  |  |
-| T | top1 |  | [Whispering Vaults Totally Not White Palace (Library_07)](#whispering-vaults-totally-not-white-palace-library07) | B |  |  |  |  |
-
-#### Subroom Connections
-
-No subroom connections defined.
-
-#### Check Locations
-
-No check locations defined.
-
-### Exhaust Organ Exterior (Dust_09)
-
-**Game ID:** Dust_09
-
-#### Subrooms
-
-No subrooms defined.
-
-#### Room Transitions
-
-| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-|  | door2 |  | [Exhaust Organ Interior (Organ_01)](#exhaust-organ-interior-organ01) |  |  | TODO |  |  |
-|  | left2 |  | TODO |  |  | TODO |  |  |
-|  | right1 |  | TODO |  |  | TODO |  |  |
-|  | door1 |  | [Exhaust Organ Interior (Organ_01)](#exhaust-organ-interior-organ01) |  |  | TODO |  |  |
-|  |  |  | TODO |  |  | TODO |  |  |
+| D | door |  | [Bellway Menu](#bellway-menu) | BW | none |  |  |  |
+| L | left |  | [Bilewater Organ Entrance (Shadow_04)](#bilewater-organ-entrance-shadow04) | LR | none |  |  |  |
 
 #### Subroom Connections
 
@@ -12128,8 +12089,946 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| right_wall_one_way |  |  | TODO |  | Included |  |
-|  |  |  | TODO |  | Included |  |
+| Bilewater - Bellway |  | none |  |  | Included |  |
+
+### Bilewater Bullshit Bench (Shadow_15)
+
+**Game ID:** Shadow_15
+
+**Contributors:** Herchey and The Black Dahlia Murder (band)
+
+#### Subrooms
+
+- upper
+- lower
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| LR | lower right | lower | [Bilewater Upper Bloatroach Tower (Shadow_01)](#bilewater-upper-bloatroach-tower-shadow01) | ML | none |  | Verified |  |
+| UR | upper right | upper | [Bilewater Upper Bloatroach Tower (Shadow_01)](#bilewater-upper-bloatroach-tower-shadow01) | UL | none |  | Verified |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| UL | upper to lower | upper | lower | swim |  |  | Going back up to upper is impossible. One way connection. |
+
+#### Check Locations
+
+No check locations defined.
+
+### Bilewater Citadel Exit (Shadow_22)
+
+**Game ID:** Shadow_22
+
+**Contributors:** herchey
+
+#### Subrooms
+
+No subrooms defined.
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| T1 | top1 |  | [Whispering Vaults Totally Not White Palace (Library_07)](#whispering-vaults-totally-not-white-palace-library07) | B1 |  | TODO |  |  |
+| T2 | top2 |  | [Whispering Vaults Totally Not White Palace (Library_07)](#whispering-vaults-totally-not-white-palace-library07) | B2 |  | TODO |  |  |
+| T3 | top3 |  | [Whispering Vaults Totally Not White Palace (Library_07)](#whispering-vaults-totally-not-white-palace-library07) | B3 |  | TODO |  |  |
+| B | bot1 |  | [Bilewater West Secret Rooms (Shadow_20)](#bilewater-west-secret-rooms-shadow20) | C |  | TODO |  |  |
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+No check locations defined.
+
+### Bilewater East Bench (Shadow_08)
+
+**Game ID:** Shadow_08
+
+**Contributors:** Herchey and Sadako Yamamura
+
+#### Subrooms
+
+- top right
+- right room
+- bench room
+- bench entrance
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| C | ceiling | right room | [Bilewater Lower Trap Gauntlet Hall (Shadow_10)](#bilewater-lower-trap-gauntlet-hall-shadow10) | LR | none |  |  |  |
+| L | left | bench entrance | [Bilewater Mothleaf Hall (Shadow_27)](#bilewater-mothleaf-hall-shadow27) | R | none |  |  |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| RB | right to bench | right room | bench room | (cling grip OR scuttlebrace) AND (swim OR clawline OR sharpdart OR drifter's cloak OR faydown cloak) AND left attack |  |  | breakable wall |
+| RB | right to bench | bench room | right room | right attack AND (cling grip OR silk soar OR scuttlebrace) |  |  | breakable wall |
+| BE | bench entrance to bench room | bench entrance | bench room | right attack |  |  | breakable wall |
+| BE | bench entrance to bench room | bench room | bench entrance | left attack |  |  | breakable wall |
+| TR | top right to right | top right | right room | none |  |  |  |
+| TR | top right to right | right room | top right | cling grip AND faydown cloak |  |  |  |
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Bilewater - Storeroom Record | bench room | none |  |  | Included |  |
+
+### Bilewater East Column (Shadow_09)
+
+**Game ID:** Shadow_09
+
+**Contributors:** Herchey Man
+
+#### Subrooms
+
+- floor
+- upper
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| R | right | floor | [Bilewater Weavenest Murglin (Shadow_Weavehome)](#bilewater-weavenest-murglin-shadowweavehome) | L | none |  |  |  |
+| ML | middle left | upper | [Bilewater Flea Rescue (Shadow_28)](#bilewater-flea-rescue-shadow28) | R | left attack OR right attack |  |  | breakable wall depending on entrance direction |
+| UL | upper left | upper | [Bilewater Lower East Hall (Shadow_03)](#bilewater-lower-east-hall-shadow03) | R | none |  |  |  |
+| LL | lower left | floor | [Bilewater Sinner's Entrance (Shadow_05)](#bilewater-sinners-entrance-shadow05) | R | swim AND needolin |  |  |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| FU | Floor to Upper | floor | upper | Silk soar OR ((cling grip OR scuttlebrace) AND (clawline OR sharpdart OR faydown cloak)) OR (cling grip AND drifter’s cloak) |  |  |  |
+| FU | Floor to Upper | upper | floor | none |  |  |  |
+
+#### Check Locations
+
+No check locations defined.
+
+### Bilewater Flea Rescue (Shadow_28)
+
+**Game ID:** Shadow_28
+
+**Contributors:** Herchey and absolutely no one else
+
+#### Subrooms
+
+No subrooms defined.
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| R | right |  | [Bilewater East Column (Shadow_09)](#bilewater-east-column-shadow09) | ML | none |  |  |  |
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Flea: Bilewater - Thieves |  | Scuttlebrace OR cling grip |  |  | Included |  |
+
+### Bilewater Groal Arena (Shadow_18)
+
+**Game ID:** Shadow_18
+
+**Contributors:** Herchey and Dante (the Divine Comedy one, not DMC)
+
+#### Subrooms
+
+- left of arena
+- arena
+- right of arena
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| R | right | right of arena | [Bilewater Upper Trap Gauntlet Hall (Shadow_12)](#bilewater-upper-trap-gauntlet-hall-shadow12) | L | none |  |  |  |
+| D | door | left of arena | [Bilewater Arena Shack (Shadow_Bilehaven_Room)](#bilewater-arena-shack-shadowbilehavenroom) | L | none |  |  |  |
+| L | left | left of arena | [Bilewater Upper Bloatroach Tower (Shadow_01)](#bilewater-upper-bloatroach-tower-shadow01) | UR | none |  |  |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| LA | left to arena | left of arena | arena | none |  |  |  |
+| LA | left to arena | arena | left of arena | none |  |  |  |
+| RA | right to arena | right of arena | arena | clawline OR sharpdart OR drifter's cloak OR sharpdart OR run |  |  |  |
+| RA | right to arena | arena | right of arena | clawline OR sharpdart OR drifter's cloak OR sharpdart OR run |  |  |  |
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Boss: Groal the Great | arena | none |  |  | Included | Technically none, lol. |
+| Bilewater - Bilehaven Plaque | right of arena | cling grip OR silk soar OR scuttlebrace |  |  | Included |  |
+
+### Bilewater Hanging Corpse Room (Shadow_16)
+
+**Game ID:** Shadow_16
+
+**Contributors:** Herchey and Dude (his neighbor's cat)
+
+#### Subrooms
+
+No subrooms defined.
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| R | right |  | [Bilewater Lower Trap Gauntlet Hall (Shadow_10)](#bilewater-lower-trap-gauntlet-hall-shadow10) | L | cling grip AND (clawline OR (faydown cloak AND (drifter's cloak OR (sharpdart AND dash)))) |  |  |  |
+| L | left |  | [Bilewater Upper Bloatroach Tower (Shadow_01)](#bilewater-upper-bloatroach-tower-shadow01) | MR | drifter's cloak OR clawline OR (faydown AND (run OR sharpdart OR beast pogo)) OR (sharpdart AND (swim OR beast pogo)) |  |  |  |
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+No check locations defined.
+
+### Bilewater Lower Bloatroach Tower (Shadow_02)
+
+**Game ID:** Shadow_02
+
+**Contributors:** Herchey and Wesker (his cat)
+
+#### Subrooms
+
+- low left
+- low right
+- mid right
+- halfway up
+- rosary plat
+- up left
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| LR | lower right | low right | [Bilewater Lower East Hall (Shadow_03)](#bilewater-lower-east-hall-shadow03) | L | none |  |  |  |
+| UR | upper right | halfway up | [Bilewater Upper East Column (Shadow_26)](#bilewater-upper-east-column-shadow26) | LL | (clawline OR crest pogo) AND (faydown cloak OR drifter's cloak) |  |  |  |
+| LL | lower left | low left | [Bilewater West Hall (Shadow_04b)](#bilewater-west-hall-shadow04b) | R | none |  |  |  |
+| MR | middle right | mid right | [Bilewater Shakra Room (Shadow_23)](#bilewater-shakra-room-shadow23) | L | none |  |  |  |
+| UL | upper left | up left | [Bilewater Upper West Column (Shadow_14)](#bilewater-upper-west-column-shadow14) | LR | none |  |  |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| LOW | low left and right | low left | low right | swim OR dash OR clawline OR sharpdart OR faydown cloak OR drifter's cloak OR beast pogo |  |  |  |
+| LOW | low left and right | low right | low left | swim OR dash OR clawline OR sharpdart OR faydown cloak OR drifter's cloak OR beast pogo |  |  |  |
+| LLM | low left to mid | low left | mid right | ((faydown cloak AND cling grip) OR silk soar) AND (clawline OR sharpdart OR drifter's cloak OR faydown cloak) |  |  |  |
+| LLM | low left to mid | mid right | low left | silk soar OR clawline OR sharpdart OR drifter's cloak OR faydown cloak OR dash |  |  |  |
+| LRM | low right to mid | low right | mid right | silk soar AND faydown cloak AND cling grip |  |  | Pretty goddamn precise from the silk soar to faydown. Maybe easy_skip though. Very easy to try again without penalty. |
+| LRM | low right to mid | mid right | low right | none |  |  | falling |
+| MUR | mid to halfway | mid right | halfway up | cling grip AND (clawline OR faydown cloak OR (drifter's cloak AND crest pogo)) |  |  |  |
+| MUR | mid to halfway | halfway up | mid right | none |  |  | falling |
+| UPR | halfway to rosary | halfway up | rosary plat | faydown cloak AND (clawline OR crest pogo) |  |  |  |
+| UPR | halfway to rosary | rosary plat | halfway up | none |  |  | falling |
+| HUL | halfway to upper left | halfway up | up left | faydown cloak AND cling grip AND (clawline OR crest pogo) |  |  |  |
+| HUL | halfway to upper left | up left | halfway up | none |  |  | falling |
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Bilewater - Frayed Rosary String | rosary plat | none |  |  | Included |  |
+
+### Bilewater Lower East Hall (Shadow_03)
+
+**Game ID:** Shadow_03
+
+**Contributors:** Herchey and Peter Griffin from Family Guy
+
+#### Subrooms
+
+- right hall
+- left platform
+- left lower
+- under upper
+- upper
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| R | right | right hall | [Bilewater East Column (Shadow_09)](#bilewater-east-column-shadow09) | UL | none |  |  |  |
+| C | ceiling | upper | [Bilewater Lower East Hall Secret (Shadow_21)](#bilewater-lower-east-hall-secret-shadow21) | L | Faydown cloak OR cling grip OR silk soar OR scuttlebrace |  |  |  |
+| L | left | left platform | [Bilewater Lower Bloatroach Tower (Shadow_02)](#bilewater-lower-bloatroach-tower-shadow02) | LR | none |  |  |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| LLL | left to left lower | left platform | left lower | none |  |  |  |
+| LLL | left to left lower | left lower | left platform | (cling grip AND (swim OR clawline OR sharpdart OR drifter’s cloak OR run OR dash)) OR faydown cloak |  |  |  |
+| LLU | left lower to upper | left lower | upper | silk soar |  |  |  |
+| LLU | left lower to upper | upper | left lower | none |  |  |  |
+| LUU | left lower to under upper | left lower | under upper | none |  |  |  |
+| LUU | left lower to under upper | under upper | left lower | Ledge grab OR cling grip OR scuttlebrace |  |  |  |
+| RUU | right to under upper | right hall | under upper | ((cling grip OR ledge grab) AND (swim OR clawline OR sharpdart OR drifter’s cloak OR run OR dash)) OR faydown cloak |  |  |  |
+| RUU | right to under upper | under upper | right hall | swim OR run OR sharpdart OR clawline OR scuttlebrace OR drifter's cloak OR faydown cloak OR hunter pogo OR beast pogo OR architect pogo |  |  |  |
+| UUU | under upper to upper | under upper | upper | Cling grip OR silk soar |  |  |  |
+| UUU | under upper to upper | upper | under upper | none |  |  |  |
+
+#### Check Locations
+
+No check locations defined.
+
+### Bilewater Lower East Hall Secret (Shadow_21)
+
+**Game ID:** Shadow_21
+
+**Contributors:** Herchey and Castle Guard 3
+
+#### Subrooms
+
+No subrooms defined.
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | lower |  | [Bilewater Lower East Hall (Shadow_03)](#bilewater-lower-east-hall-shadow03) | C |  |  |  |  |
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+No check locations defined.
+
+### Bilewater Lower Trap Gauntlet Hall (Shadow_10)
+
+**Game ID:** Shadow_10
+
+**Contributors:** Herchey and Leon Sexgod Kennedy
+
+#### Subrooms
+
+- bottom right
+- right door plat
+- left door plat
+- flea room
+- below flea
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| LR | lower right | bottom right | [Bilewater East Bench (Shadow_08)](#bilewater-east-bench-shadow08) | C | right attack |  |  | breakable wall |
+| L | left | left door plat | [Bilewater Hanging Corpse Room (Shadow_16)](#bilewater-hanging-corpse-room-shadow16) | R | none |  |  |  |
+| R | right | right door plat | [Bilewater Vertical Sac Pogo Room (Shadow_19)](#bilewater-vertical-sac-pogo-room-shadow19) | LL | none |  |  |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| LM | left to mid | left door plat | below flea | (cling grip OR scuttlebrace) AND (swim OR dash OR clawline OR sharpdart OR faydown cloak OR drifter's cloak) |  |  |  |
+| LM | left to mid | below flea | left door plat | (cling grip OR scuttlebrace) AND (swim OR run OR clawline OR sharpdart OR faydown cloak OR drifter's cloak OR beast crest) |  |  |  |
+| MF | mid to flea | below flea | flea room | cling grip OR scuttlebrace |  |  |  |
+| MF | mid to flea | flea room | below flea | none |  |  |  |
+| MBR | mid to bottom right | below flea | bottom right |  |  |  |  |
+| MBR | mid to bottom right | bottom right | below flea |  |  |  |  |
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Flea: Bilehaven | flea room | left attack |  |  | Included |  |
+| Bilewater - Shell Shard Cache #1 | bottom right | up attack AND swim |  |  | Included |  |
+| Bilewater - Shell Shard Cache #2 | bottom right | up attack AND swim |  |  | Included |  |
+
+### Bilewater Mothleaf Hall (Shadow_27)
+
+**Game ID:** Shadow_27
+
+**Contributors:** Herchey and Sherma (he was very helpful)
+
+#### Subrooms
+
+- left
+- right
+- center ground
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left | left | [Bilewater Upper East Column (Shadow_26)](#bilewater-upper-east-column-shadow26) | UR | none |  |  |  |
+| R | right | right | [Bilewater East Bench (Shadow_08)](#bilewater-east-bench-shadow08) | L | none |  |  | Only opens when breaking the left wall in shadow_08 |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| LC | left to center | left | center ground | swim OR (clawline OR crest pogo) |  |  |  |
+| LC | left to center | center ground | left | swim OR (clawline OR crest pogo) |  |  |  |
+| RC | right to center | right | center ground | (drifter's cloak OR faydown cloak OR clawline OR sharpdart) OR swim |  |  |  |
+| RC | right to center | center ground | right | (drifter's cloak OR faydown cloak OR clawline OR sharpdart) OR swim |  |  |  |
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Bilewater East - Memory Locket | right | none |  |  | Included |  |
+
+### Bilewater Northeast Tiny Room (Shadow_25)
+
+**Game ID:** Shadow_25
+
+**Contributors:** Herchey and NOT 8bitdo (awful ass controller firmware)
+
+#### Subrooms
+
+No subrooms defined.
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left |  | [Bilewater Vertical Sac Pogo Room (Shadow_19)](#bilewater-vertical-sac-pogo-room-shadow19) | LR | none |  |  |  |
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Bilewater - Shell Shard Cache #5 |  | silk soar OR faydown cloak OR (ledge grab AND (sharpdart OR clawline)) OR (cling grab AND beast pogo) |  |  | Included |  |
+| Bilewater - Shell Shard Cache #6 |  | silk soar OR faydown cloak OR (ledge grab AND (sharpdart OR clawline)) OR (cling grab AND beast pogo) |  |  | Included |  |
+| Bilewater - Shell Shard Cache #7 |  | silk soar OR faydown cloak OR (ledge grab AND (sharpdart OR clawline)) OR (cling grab AND beast pogo) |  |  | Included |  |
+
+### Bilewater Organ Entrance (Shadow_04)
+
+**Game ID:** Shadow_04
+
+**Contributors:** Herchey and Bill Gates
+
+#### Subrooms
+
+- up right
+- ceiling
+- left
+- lower right
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| LR | lower right | lower right | [Bilewater Bellway (Bellway_Shadow)](#bilewater-bellway-bellwayshadow) | L | attack |  |  |  |
+| L | left | left | [Exhaust Organ External (Dust_09)](#exhaust-organ-external-dust09) | R | none |  |  |  |
+| C | ceiling | ceiling | [Bilewater West Secret Rooms (Shadow_20)](#bilewater-west-secret-rooms-shadow20) | L | cling grip OR scuttlebrace OR silk soar |  |  |  |
+| UR | upper right | up right | [Bilewater West Hall (Shadow_04b)](#bilewater-west-hall-shadow04b) | L | none |  |  |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| LLR | left to low right | left | lower right | drifter's cloak OR faydown cloak OR clawline OR sharpdart OR scuttlebrace OR run OR hunter pogo OR beast pogo OR architect pogo OR shaman pogo OR ledge grab OR cling grip |  |  |  |
+| LLR | left to low right | lower right | left | drifter's cloak OR faydown cloak OR clawline OR sharpdart OR scuttlebrace OR run OR hunter pogo OR beast pogo OR architect pogo OR shaman pogo OR ledge grab OR cling grip |  |  |  |
+| LU | left to up right | left | up right | faydown cloak OR silk soar OR (cling grip AND (drifter's cloak OR (clawline AND ledge grab))) |  |  |  |
+| LU | left to up right | up right | left | none |  |  |  |
+| UC | up right to ceiling | up right | ceiling | ledge grab OR cling grip OR faydown cloak OR silk soar |  |  |  |
+| UC | up right to ceiling | ceiling | up right | none |  |  |  |
+
+#### Check Locations
+
+No check locations defined.
+
+### Bilewater Shakra Room (Shadow_23)
+
+**Game ID:** Shadow_23
+
+**Contributors:** Herchey ft. Lil Jon
+
+#### Subrooms
+
+No subrooms defined.
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left |  | [Bilewater Lower Bloatroach Tower (Shadow_02)](#bilewater-lower-bloatroach-tower-shadow02) | MR | none |  |  |  |
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Bilewater - Map Purchase |  | none |  |  | Included |  |
+
+### Bilewater Sinner's Entrance (Shadow_05)
+
+**Game ID:** Shadow_05
+
+**Contributors:** Herchey and the big man upstairs (Jesus)
+
+#### Subrooms
+
+- left quarter
+- left rosary platform
+- middle quarter
+- right quarter
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| R | right | right quarter | [Bilewater East Column (Shadow_09)](#bilewater-east-column-shadow09) | LL | none |  |  |  |
+| L | left | left quarter | [Sinner's Road Vertical Hall East (Dust_06)](#sinners-road-vertical-hall-east-dust06) | UR | none |  |  |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| LLR | left quarter to left rosary | left quarter | left rosary platform | silk soar OR (faydown cloak AND ledge grab) |  |  |  |
+| LLR | left quarter to left rosary | left rosary platform | left quarter | none |  |  |  |
+| LMQ | left quarter to middle quarter | left quarter | middle quarter | (cling grip AND (drifter’s cloak OR clawline OR sharpdart OR (faydown cloak AND swim)) OR (faydown cloak AND scuttlebrace AND swim) OR ((clawline OR sharpdart OR run) AND scuttlebrace) |  |  |  |
+| LMQ | left quarter to middle quarter | middle quarter | left quarter | Drifter’s cloak OR faydown cloak OR clawline OR sharpdart OR scuttlebrace OR run OR dash OR swim OR hunter’s pogo OR beast pogo OR architect pogo OR shaman pogo |  |  |  |
+| MQL | middle quarter to left rosary | middle quarter | left rosary platform | Clawline OR sharpdart OR (ledge grab AND (drifter’s cloak OR run)) |  |  | (run AND scuttlebrace) is possible, but probably easy_skips |
+| MQL | middle quarter to left rosary | left rosary platform | middle quarter | Clawline OR drifter’s cloak OR sharpdart OR dash OR (run AND (faydown cloak OR cling grip OR scuttlebrace OR architect pogo OR beast pogo) |  |  |  |
+| RQM | right quarter to middle quarter | right quarter | middle quarter | Drifter’s cloak OR faydown cloak OR sharpdart OR clawline OR swim OR scuttlebrace OR run OR beast pogo OR architect pogo |  |  |  |
+| RQM | right quarter to middle quarter | middle quarter | right quarter | (silk soar AND (beast pogo OR dash OR clawline OR sharpdart OR drifter’s cloak OR faydown OR scuttlebrace)) OR (cling grip AND (clawline OR sharpdart OR faydown cloak OR (drifter’s cloak AND ledge grab)) |  |  |  |
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Bilewater - Rosary Cache #1 | left rosary platform | none |  |  | Included |  |
+| Bilewater - Rosary Cache #2 | middle quarter | (Faydown cloak AND (ledge grab OR scuttlebrace)) OR silk soar OR cling grip |  |  | Included |  |
+
+### Bilewater Slubberlug River (Shadow_13)
+
+**Game ID:** Shadow_13
+
+**Contributors:** Herchey and pannenkoek2012
+
+#### Subrooms
+
+No subrooms defined.
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left |  | [Bilewater Spike Ball Ceiling Trap Room (Shadow_11)](#bilewater-spike-ball-ceiling-trap-room-shadow11) | R | none |  |  |  |
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Bilewater - Mask Shard |  | cling grip AND (clawline OR (sharpdart AND (faydown cloaK OR crest pogo)) OR (faydown cloak AND drifter's cloak)) |  |  | Included |  |
+
+### Bilewater Spike Ball Ceiling Trap Room (Shadow_11)
+
+**Game ID:** Shadow_11
+
+**Contributors:** Herchey and Me
+
+#### Subrooms
+
+- upper
+- lower
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| R | right | upper | [Bilewater Slubberlug River (Shadow_13)](#bilewater-slubberlug-river-shadow13) | L | none |  |  |  |
+| L | left | lower | [Bilewater Upper East Column (Shadow_26)](#bilewater-upper-east-column-shadow26) | LR | none |  |  |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| ud | up and down | upper | lower | none |  |  |  |
+| ud | up and down | lower | upper | cling grip OR silk soar |  |  |  |
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Bilewater - Shell Shard Cache #3 | lower | none |  |  | Included |  |
+| Bilewater - Shell Shard Cache #4 | lower | none |  |  | Included |  |
+| Quick Sling | upper | cling grab OR silk soar AND up attack |  |  | Included | up attack for breakable wall |
+
+### Bilewater Upper Bloatroach Tower (Shadow_01)
+
+**Game ID:** Shadow_01
+
+**Contributors:** Herchey and Red (his cat)
+
+#### Subrooms
+
+- lower left
+- lower right
+- lower climb
+- middle left
+- middle right
+- middle climb
+- upper left
+- upper right
+- top
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| MR | middle right | middle right | [Bilewater Hanging Corpse Room (Shadow_16)](#bilewater-hanging-corpse-room-shadow16) | L | none |  |  |  |
+| UR | upper right | upper right | [Bilewater Groal Arena (Shadow_18)](#bilewater-groal-arena-shadow18) | L | none |  |  |  |
+| LR | lower right | lower right | [Bilewater Upper East Column (Shadow_26)](#bilewater-upper-east-column-shadow26) | UL | none |  |  |  |
+| ML | middle left | middle left | [Bilewater Bullshit Bench (Shadow_15)](#bilewater-bullshit-bench-shadow15) | LR | right attack |  |  | Cannot enter from right until broken from left. |
+| UL | upper left | upper left | [Bilewater Bullshit Bench (Shadow_15)](#bilewater-bullshit-bench-shadow15) | UR | none |  |  |  |
+| LL | lower left | lower left | [Bilewater Upper West Column (Shadow_14)](#bilewater-upper-west-column-shadow14) | UR | none |  |  |  |
+| C | ceiling | top | TODO |  | none |  |  |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| LLR | lower left to lower right | lower left | lower right | swim OR (dash AND (faydown cloak OR cling grip OR crest pogo)) OR (faydown cloak AND drifter's cloak) |  |  | Due to the nature of the room, enemy pogos are expected here |
+| LLR | lower left to lower right | lower right | lower left | (swim AND faydown cloak AND (ledge grab OR cling grip)) OR clawline OR (cling grip AND faydown cloak AND (crest pogo OR clawline)) |  |  | Due to the nature of the room, enemy pogos are expected here |
+| LMR | lower left to middle right | lower left | middle right | cling grip AND ((faydown cloak AND (clawline OR crest pogo)) OR (drifter's cloak AND clawline)) |  |  | Due to the nature of the room, enemy pogos are expected here |
+| LMR | lower left to middle right | middle right | lower left | swim OR crest pogo OR clawline OR dash |  |  | Dash only is very easily possible if the nearby bloatroach is dead |
+| RML | middle right to middle left | middle right | middle left | cling grip AND (drifter's cloak AND (shartdart OR clawline OR (crest pogo AND ledge grab)) OR (faydown cloak AND (drifter's cloak OR dash OR clawline OR sharpdart))) OR (run AND faydown cloak AND (clawline OR crestpogo)) |  |  |  |
+| RML | middle right to middle left | middle left | middle right | drifter's cloak OR faydown cloak OR clawline OR sharpdart OR dash OR run |  |  | Doing this with only run is a pretty precise coyote jump to make it past the spikes. easy_skips maybe? |
+| URT | upper right to top | upper right | top | cling grip AND dash AND (crest pogo OR clawline) |  |  |  |
+| URT | upper right to top | top | upper right | none |  |  |  |
+| MLL | middle left to upper left | middle left | upper left | faydown cloak AND (ledge grab OR cling grip) AND (crest pogo OR clawline) |  |  |  |
+| MLL | middle left to upper left | upper left | middle left | drifter's cloak OR faydown cloak OR clawline OR sharpdart OR run OR dash OR crest pogo OR scuttlebrace |  |  | Throw scuttle into easy_skips probably because it's not as intuitive |
+
+#### Check Locations
+
+No check locations defined.
+
+### Bilewater Upper East Column (Shadow_26)
+
+**Game ID:** Shadow_26
+
+**Contributors:** Herchey and Super Mario RPG
+
+#### Subrooms
+
+- low left door
+- low right door
+- center climb
+- up left door
+- up right door
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| UL | upper left | up left door | [Bilewater Upper Bloatroach Tower (Shadow_01)](#bilewater-upper-bloatroach-tower-shadow01) | LR | none |  |  |  |
+| LL | lower left | low left door | [Bilewater Lower Bloatroach Tower (Shadow_02)](#bilewater-lower-bloatroach-tower-shadow02) | UR | none |  |  |  |
+| LR | lower right | low right door | [Bilewater Spike Ball Ceiling Trap Room (Shadow_11)](#bilewater-spike-ball-ceiling-trap-room-shadow11) | L | none |  |  |  |
+| UR | upper right | up right door | [Bilewater Mothleaf Hall (Shadow_27)](#bilewater-mothleaf-hall-shadow27) | L | none |  |  |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| ldc | low door crossing | low left door | low right door | clawline OR sharpdart OR drifter's cloak OR run |  |  |  |
+| ldc | low door crossing | low right door | low left door | (ledge grab AND (faydown cloak OR beast pogo)) OR drifter's cloak OR clawline OR sharpdart OR run |  |  |  |
+| tc | the climb | low left door | up left door | cling grip AND faydown cloak |  |  |  |
+| tc | the climb | up left door | low left door | none |  |  |  |
+| udc | up door crossing | up left door | up right door | cling grip OR scuttlebrace OR (silk soar AND (clawline OR sharpdart OR drifter's cloak OR (faydown cloak AND ledge grab))) |  |  |  |
+| udc | up door crossing | up right door | up left door | clawline OR sharpdart OR faydown cloak OR drifter's cloak OR hunter pogo OR reaper pogo OR beast pogo OR witch pogo OR architect pogo OR shaman pogo |  |  |  |
+
+#### Check Locations
+
+No check locations defined.
+
+### Bilewater Upper Trap Gauntlet Hall (Shadow_12)
+
+**Game ID:** Shadow_12
+
+**Contributors:** Herchey and John Madden
+
+#### Subrooms
+
+No subrooms defined.
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| R | right |  | [Bilewater Vertical Sac Pogo Room (Shadow_19)](#bilewater-vertical-sac-pogo-room-shadow19) | UL | run OR clawline OR sharpdart OR drifter's cloak OR faydown cloak OR swim |  |  | Sharpdart requires 6 uses == 24 silk, so you'd need to farm the little shits to get across with ONLY this. |
+| L | left |  | [Bilewater Groal Arena (Shadow_18)](#bilewater-groal-arena-shadow18) | R | faydown cloak OR ((ledge grab OR cling grip OR silk soar) AND (run OR clawline OR sharpdart OR drifter's cloak OR swim)) |  |  | Sharpdart requires 6 uses == 24 silk, so you'd need to farm the little shits to get across with ONLY this. |
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+No check locations defined.
+
+### Bilewater Upper West Column (Shadow_14)
+
+**Game ID:** Shadow_14
+
+**Contributors:** Herchey and his whole entire extended family
+
+#### Subrooms
+
+- lower
+- upper
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| UR | upper right | upper | [Bilewater Upper Bloatroach Tower (Shadow_01)](#bilewater-upper-bloatroach-tower-shadow01) | LL | none |  |  |  |
+| LR | lower right | lower | [Bilewater Lower Bloatroach Tower (Shadow_02)](#bilewater-lower-bloatroach-tower-shadow02) | UL | none |  |  |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| LM | low to up | lower | upper | cling_grip AND (Faydown cloak OR crest_pogo) AND (clawline OR sharpdart) |  |  | crest_pogo should be an easy or medium skip since it requires a one-hit death enemy that you need to let float up before pogoing |
+| LM | low to up | upper | lower | Cling grip AND (Drifter’s cloak OR faydown cloak OR clawline OR sharpdart OR dash) |  |  | Clawline, sharpdart, dash are pretty annoying to hit without a cloak, so easy/medium skips |
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Bilewater - Rosary Cache #3 | upper | Cling grip AND (faydown cloak OR crest pogo) |  |  | Included |  |
+
+### Bilewater Vertical Sac Pogo Room (Shadow_19)
+
+**Game ID:** Shadow_19
+
+**Contributors:** Herchey and someone he grabbed off the street real quick
+
+#### Subrooms
+
+- upper platform
+- low left platform
+- low right door platform
+- up left door platform
+- climb start wall
+
+- **upper platform:** none
+- **low left platform:** none
+- **low right door platform:** none
+- **up left door platform:** none
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| UL | upper left | up left door platform | [Bilewater Upper Trap Gauntlet Hall (Shadow_12)](#bilewater-upper-trap-gauntlet-hall-shadow12) | R | none |  |  |  |
+| UR | upper right | upper platform | [Bilewater Waterfall (Shadow_24)](#bilewater-waterfall-shadow24) | L | none |  |  | Without Trails End quest, this is inaccessible from both sides. |
+| LR | lower right | low right door platform | [Bilewater Northeast Tiny Room (Shadow_25)](#bilewater-northeast-tiny-room-shadow25) | L | none |  |  |  |
+| LL | lower left | low left platform | [Bilewater Lower Trap Gauntlet Hall (Shadow_10)](#bilewater-lower-trap-gauntlet-hall-shadow10) | R | silk soar OR cling grip |  |  |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| lp | lower platform crossing | low left platform | climb start wall | dash OR clawline OR swim |  |  |  |
+| lp | lower platform crossing | climb start wall | low left platform | dash OR clawline OR swim |  |  |  |
+| CR | climb wall to right | climb start wall | low right door platform | swim OR (clawline OR (sharpdart AND (ledge grab OR cling grip))) |  |  | Anything other than swim is a bit narrow of a window. Easy_skip? |
+| CR | climb wall to right | low right door platform | climb start wall | cling grip AND (swim OR faydown cloak) |  |  | faydown is a pretty narrow window. easy_skip? |
+| CUL | climb to upper left | climb start wall | up left door platform | clawline AND faydown cloak |  |  |  |
+| CUL | climb to upper left | up left door platform | climb start wall | drifter's cloak OR (faydown cloak AND clawline) |  |  |  |
+| ULL | upper left to lower left | up left door platform | low left platform | drifter's cloak OR (faydown cloak AND clawline) |  |  |  |
+| ULT | upper left to top | up left door platform | upper platform | faydown cloak AND cling grip AND (crest pogo OR clawline) |  |  |  |
+| ULT | upper left to top | upper platform | up left door platform | drifter's cloak OR faydown cloak OR clawline OR sharpdart |  |  |  |
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Bilewater - Rosary Cache #4 | upper platform | none |  |  | Included |  |
+| Bilewater - Rosary Cache #5 | upper platform | none |  |  | Included |  |
+
+### Bilewater Waterfall (Shadow_24)
+
+**Game ID:** Shadow_24
+
+**Contributors:** Herchey and the girl reading this
+
+#### Subrooms
+
+No subrooms defined.
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left |  | [Bilewater Vertical Sac Pogo Room (Shadow_19)](#bilewater-vertical-sac-pogo-room-shadow19) | UR | none |  |  |  |
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Throwing Ring |  | faydown cloak AND swim AND cling grip AND (ledge grab OR dash OR clawline OR sharpdart)) |  |  | Included | Dash, clawline, and sharpdart are a bit precise and require you to get nearly the most possible height out of first and second jumps |
+
+### Bilewater Weavenest Murglin (Shadow_Weavehome)
+
+**Game ID:** Shadow_Weavehome
+
+**Contributors:** Herchey and The Silent from StS 1 (not 2)
+
+#### Subrooms
+
+No subrooms defined.
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left |  | [Bilewater East Column (Shadow_09)](#bilewater-east-column-shadow09) | R | needolin |  |  |  |
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Ruined Tool |  | (cling grip OR silk soar) AND (swim OR clawline OR drifter's cloak) |  |  | Included |  |
+| Bilewater - Weaver Workshop Scroll |  | (cling grip OR silk soar) AND (swim OR clawline OR drifter's cloak) AND right attack |  |  | Included | breakable wall |
+
+### Bilewater West Hall (Shadow_04b)
+
+**Game ID:** Shadow_04b
+
+**Contributors:** Herchey and the Tonight Show Band
+
+#### Subrooms
+
+- left
+- right
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left | left | [Bilewater Organ Entrance (Shadow_04)](#bilewater-organ-entrance-shadow04) | UR | Clawline OR sharpdart OR hunter’s pogo OR reaper pogo OR beast pogo OR shaman pogo OR (ledge grab AND (witch pogo OR architect pogo)) OR (swim AND faydown cloak) OR (silk soar AND drifter’s cloak) |  |  | Remember that these go fully from left door to right door and vice versa |
+| R | right | right | [Bilewater Lower Bloatroach Tower (Shadow_02)](#bilewater-lower-bloatroach-tower-shadow02) | LL | (crest pogo AND (faydown cloak OR ((clawline OR sharpdart OR dash OR drifter’s cloak) AND cling grip))) OR (silk soar AND ((drifter’s cloak AND (cling grip OR clawline OR sharpdart)) OR (clawline AND sharpdart)) |  |  |  |
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+No check locations defined.
+
+### Bilewater West Secret Rooms (Shadow_20)
+
+**Game ID:** Shadow_20
+
+**Contributors:** Herchey and someone else
+
+#### Subrooms
+
+- top area
+- lower area
+- ceiling exit
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | lower | lower area | [Bilewater Organ Entrance (Shadow_04)](#bilewater-organ-entrance-shadow04) | C | none |  |  |  |
+| C | ceiling | top area | [Bilewater Citadel Exit (Shadow_22)](#bilewater-citadel-exit-shadow22) | B | cling grip AND crest pogo AND faydown cloak |  |  | Requires an annoying enemy lure. Medium_skips. Should be one-way normally. |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| TL | top to bottom | lower area | top area | faydown cloak OR silk soar OR scuttlebrace OR cling grip |  |  |  |
+| TL | top to bottom | top area | lower area | none |  |  |  |
+| TC | top to ceiling | top area | ceiling exit | (crest pogo OR clawline) AND (ledge grab OR cling grip OR faydown cloak) |  |  |  |
+| TC | top to ceiling | ceiling exit | top area | (faydown cloak AND (swim OR crest pogo)) OR drifter's cloak OR clawline OR sharpdart |  |  |  |
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Bilewater West - Memory Locket | lower area | cling grip AND (swim OR clawline OR hunter pogo OR beast pogo OR architect pogo OR ((wanderer pogo OR witch pogo OR reaper pogo) AND (dash OR faydown cloak OR drifter's cloak))) |  |  | Included |  |
+| Bilewater - Rosary Cache #6 | lower area | none |  |  | Included |  |
+| Bilewater - Rosary Cache #7 | lower area | none |  |  | Included |  |
+
+### Exhaust Organ External (Dust_09)
+
+**Game ID:** Dust_09
+
+**Contributors:** Herchey and the Forgotten Contributor
+
+#### Subrooms
+
+- middle platform
+- left platform
+- right platform
+- upper door plat
+- flea hall plat
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| UD | up door | upper door plat | TODO |  | none | TODO |  |  |
+| LD | low door | middle platform | TODO |  | none | TODO |  |  |
+| L | left | left platform | [Sinner's Road Mist Maze Completed (Dust_Maze_08_completed)](#sinners-road-mist-maze-completed-dustmaze08completed) | UR | none |  |  |  |
+| R | right | right platform | [Bilewater Organ Entrance (Shadow_04)](#bilewater-organ-entrance-shadow04) | L | none |  |  |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| LPM | left plat to middle | left platform | middle platform | faydown cloak OR drifter's cloak OR run OR dash OR clawline OR sharpdart OR silk soar OR scuttlebrace OR swim |  |  |  |
+| LPM | left plat to middle | middle platform | left platform | faydown cloak OR drifter's cloak OR run OR dash OR clawline OR sharpdart OR silk soar OR scuttlebrace OR swim |  |  |  |
+| RPM | right plat to middle | right platform | middle platform | swim |  |  |  |
+| RPM | right plat to middle | middle platform | right platform | swim |  |  |  |
+| MPU | mid plat to upper | middle platform | upper door plat | silk soar |  |  |  |
+| MPU | mid plat to upper | upper door plat | middle platform | none |  |  | falling |
+| LPF | left plat to flea | left platform | flea hall plat | silk soar |  |  |  |
+| LPF | left plat to flea | flea hall plat | left platform | none |  |  | falling |
+| UPF | upper plat to flea | upper door plat | flea hall plat | cling grip OR ledge grip OR scuttlebrace |  |  |  |
+| UPF | upper plat to flea | flea hall plat | upper door plat | drifter's cloak OR faydown cloak OR run OR dash OR clawline OR sharpdart OR scuttlebrace |  |  |  |
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Flea Rescue | flea hall plat | (swim OR cling grip OR faydown cloak OR (silk soar AND (clawline OR ((drifter's cloak OR sharpdart) AND ledge grab)))) AND left attack |  |  | Included |  |
 
 ### Exhaust Organ Interior (Organ_01)
 
@@ -12143,9 +13042,9 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-|  | left1 |  | TODO |  |  | TODO |  |  |
 | UE | Underworks Elevator |  | [Underworks Exhaust Organ Transit (Library_12)](#underworks-exhaust-organ-transit-library12) | EV |  |  |  |  |
-|  | left2 |  | TODO |  |  | TODO |  |  |
+| UL | left1 |  | TODO |  |  | TODO |  |  |
+| LL | left2 |  | TODO |  |  | TODO |  |  |
 
 #### Subroom Connections
 
@@ -12156,24 +13055,6 @@ No subroom connections defined.
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | Silk Grub Large Cocoon |  |  |  |  | Included |  |
-
-### New room
-
-#### Subrooms
-
-No subrooms defined.
-
-#### Room Transitions
-
-No room transitions defined.
-
-#### Subroom Connections
-
-No subroom connections defined.
-
-#### Check Locations
-
-No check locations defined.
 
 ## Memorium
 
@@ -14431,7 +15312,7 @@ No subrooms defined.
 | BS | blasted steps |  | [Blasted Steps Bellway (Bellway_08)](#blasted-steps-bellway-bellway08) | BB | blasted steps bellway unlocked |  | Verified |  |
 | TS | the slab |  | [Slab Bellway (Slab_06)](#slab-bellway-slab06) | BW | the slab bellway unlocked |  | Verified |  |
 | GB | grand bellway |  | [Grand Bellway (Bellway_City)](#grand-bellway-bellwaycity) | BW | grand bellway bellway unlocked |  | Verified |  |
-| BW | bilewater |  | TODO |  | bilewater bellway unlocked | TODO |  |  |
+| BW | bilewater |  | [Bilewater Bellway (Bellway_Shadow)](#bilewater-bellway-bellwayshadow) | D | bilewater bellway unlocked | TODO |  |  |
 | PD | putrified ducts |  | TODO |  | putrified ducts bellway unlocked | TODO |  |  |
 
 #### Subroom Connections

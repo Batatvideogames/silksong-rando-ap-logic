@@ -16,7 +16,7 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left | behind left wall | TODO |  | none |  |  |  |
+| L | left | behind left wall | [Sinner's Road Mist Maze Completed (Dust_Maze_08_completed)](sinner-s-road-mist-maze-completed.md) | LR | none |  |  |  |
 | C | center | hatch | [Sinner's Road Vertical Hall West (Dust_02)](sinner-s-road-vertical-hall-west.md) | C | none |  |  |  |
 | R | right | right door platform | [Sinner's Road Vertical Hall East (Dust_06)](sinner-s-road-vertical-hall-east.md) | L | faydown cloak OR (crest pogo AND drifter’s cloak) OR (clawline AND (ledge grab OR cling grip) |  |  |  |
 

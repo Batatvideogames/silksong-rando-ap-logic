@@ -1,6 +1,8 @@
-# Bellway (Bellway_Shadow)
+# Bilewater Lower East Hall Secret (Shadow_21)
 
-**Game ID:** Bellway_Shadow
+**Game ID:** Shadow_21
+
+**Contributors:** Herchey and Castle Guard 3
 
 ## Subrooms
 
@@ -10,8 +12,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| FT | door_fastTravelExit |  | TODO |  |  |  |  |  |
-| L | left1 |  | TODO |  |  |  |  |  |
+| L | lower |  | [Bilewater Lower East Hall (Shadow_03)](bilewater-lower-east-hall.md) | C |  |  |  |  |
 
 ## Subroom Connections
 

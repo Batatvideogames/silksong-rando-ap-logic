@@ -1,6 +1,8 @@
-# Exhaust Organ Interior (Organ_01)
+# Bilewater Shakra Room (Shadow_23)
 
-**Game ID:** Organ_01
+**Game ID:** Shadow_23
+
+**Contributors:** Herchey ft. Lil Jon
 
 ## Subrooms
 
@@ -10,9 +12,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| UE | Underworks Elevator |  | [Underworks Exhaust Organ Transit (Library_12)](../underworks/underworks-exhaust-organ-transit.md) | EV |  |  |  |  |
-| UL | left1 |  | TODO |  |  | TODO |  |  |
-| LL | left2 |  | TODO |  |  | TODO |  |  |
+| L | left |  | [Bilewater Lower Bloatroach Tower (Shadow_02)](bilewater-lower-bloatroach-tower.md) | MR | none |  |  |  |
 
 ## Subroom Connections
 
@@ -22,4 +22,4 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Silk Grub Large Cocoon |  |  |  |  | Included |  |
+| Bilewater - Map Purchase |  | none |  |  | Included |  |

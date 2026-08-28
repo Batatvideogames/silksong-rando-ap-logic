@@ -17,7 +17,7 @@
 | L | left | upper | [Sinner's Road North Hall (Dust_05)](sinner-s-road-north-hall.md) | R | none |  |  |  |
 | LR | lower right | lower | [Sinner's Road Styx Room (Dust_11)](sinner-s-road-styx-room.md) | L | none |  |  |  |
 | MR | middle right | upper | [Sinner's Road Flea Rescue (Dust_12)](sinner-s-road-flea-rescue.md) | L | none |  |  |  |
-| UR | upper right | upper | [Bilewater Entrance (Shadow_05)](../bilewater/bilewater-entrance.md) | L | none |  |  |  |
+| UR | upper right | upper | [Bilewater Sinner's Entrance (Shadow_05)](../bilewater/bilewater-sinner-s-entrance.md) | L | none |  |  |  |
 
 ## Subroom Connections
 

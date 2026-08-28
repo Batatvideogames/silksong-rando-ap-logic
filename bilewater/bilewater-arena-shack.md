@@ -1,6 +1,6 @@
-# Bilewater Entrance (Shadow_05)
+# Bilewater Arena Shack (Shadow_Bilehaven_Room)
 
-**Game ID:** Shadow_05
+**Game ID:** Shadow_Bilehaven_Room
 
 ## Subrooms
 
@@ -10,8 +10,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right |  | TODO |  |  |  |  |  |
-| L | left |  | [Sinner's Road Vertical Hall East (Dust_06)](../sinner-s-road/sinner-s-road-vertical-hall-east.md) | UR |  |  |  |  |
+| L | left |  | [Bilewater Groal Arena (Shadow_18)](bilewater-groal-arena.md) | D |  |  |  |  |
 
 ## Subroom Connections
 

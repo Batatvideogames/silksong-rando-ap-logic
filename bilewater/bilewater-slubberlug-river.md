@@ -1,6 +1,8 @@
-# Exhaust Organ Interior (Organ_01)
+# Bilewater Slubberlug River (Shadow_13)
 
-**Game ID:** Organ_01
+**Game ID:** Shadow_13
+
+**Contributors:** Herchey and pannenkoek2012
 
 ## Subrooms
 
@@ -10,9 +12,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| UE | Underworks Elevator |  | [Underworks Exhaust Organ Transit (Library_12)](../underworks/underworks-exhaust-organ-transit.md) | EV |  |  |  |  |
-| UL | left1 |  | TODO |  |  | TODO |  |  |
-| LL | left2 |  | TODO |  |  | TODO |  |  |
+| L | left |  | [Bilewater Spike Ball Ceiling Trap Room (Shadow_11)](bilewater-spike-ball-ceiling-trap-room.md) | R | none |  |  |  |
 
 ## Subroom Connections
 
@@ -22,4 +22,4 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Silk Grub Large Cocoon |  |  |  |  | Included |  |
+| Bilewater - Mask Shard |  | cling grip AND (clawline OR (sharpdart AND (faydown cloaK OR crest pogo)) OR (faydown cloak AND drifter's cloak)) |  |  | Included |  |

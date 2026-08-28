@@ -18,7 +18,9 @@
 | TL | left1 | Down We Go | [Whispering Vaults Bench (Library_08)](whispering-vaults-bench.md) | R | Nothing. |  |  |  |
 | BL | left2 | Up And Away | [Whispering Vaults Below Bench (Library_06)](whispering-vaults-below-bench.md) | R | Nothing. |  |  |  |
 | T | top1 | Sky High | [Whispering Vaults Jumps (Library_09)](whispering-vaults-jumps.md) | B | Nothing. |  |  |  |
-| B | bot1 | White Palace Lite | [Shadow_22 (Shadow_22)](../bilewater/shadow-22.md) | T | Nothing. |  |  |  |
+| B1 | bot1 | White Palace Lite | [Bilewater Citadel Exit (Shadow_22)](../bilewater/bilewater-citadel-exit.md) | T1 | Nothing. |  |  |  |
+| B2 | bot2 | White Palace Lite | [Bilewater Citadel Exit (Shadow_22)](../bilewater/bilewater-citadel-exit.md) | T2 | Nothing. |  |  |  |
+| B3 | bot3 | White Palace Lite | [Bilewater Citadel Exit (Shadow_22)](../bilewater/bilewater-citadel-exit.md) | T3 | Nothing. |  |  |  |
 
 ## Subroom Connections
 

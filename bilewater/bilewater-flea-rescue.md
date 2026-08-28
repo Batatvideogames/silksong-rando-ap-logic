@@ -1,6 +1,8 @@
-# Exhaust Organ Interior (Organ_01)
+# Bilewater Flea Rescue (Shadow_28)
 
-**Game ID:** Organ_01
+**Game ID:** Shadow_28
+
+**Contributors:** Herchey and absolutely no one else
 
 ## Subrooms
 
@@ -10,9 +12,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| UE | Underworks Elevator |  | [Underworks Exhaust Organ Transit (Library_12)](../underworks/underworks-exhaust-organ-transit.md) | EV |  |  |  |  |
-| UL | left1 |  | TODO |  |  | TODO |  |  |
-| LL | left2 |  | TODO |  |  | TODO |  |  |
+| R | right |  | [Bilewater East Column (Shadow_09)](bilewater-east-column.md) | ML | none |  |  |  |
 
 ## Subroom Connections
 
@@ -22,4 +22,4 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Silk Grub Large Cocoon |  |  |  |  | Included |  |
+| Flea: Bilewater - Thieves |  | Scuttlebrace OR cling grip |  |  | Included |  |

@@ -1,6 +1,8 @@
-# Exhaust Organ Interior (Organ_01)
+# Bilewater Bellway (Bellway_Shadow)
 
-**Game ID:** Organ_01
+**Game ID:** Bellway_Shadow
+
+**Contributors:** Herchey
 
 ## Subrooms
 
@@ -10,9 +12,8 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| UE | Underworks Elevator |  | [Underworks Exhaust Organ Transit (Library_12)](../underworks/underworks-exhaust-organ-transit.md) | EV |  |  |  |  |
-| UL | left1 |  | TODO |  |  | TODO |  |  |
-| LL | left2 |  | TODO |  |  | TODO |  |  |
+| D | door |  | [Bellway Menu](../fast-travel/bellway-menu.md) | BW | none |  |  |  |
+| L | left |  | [Bilewater Organ Entrance (Shadow_04)](bilewater-organ-entrance.md) | LR | none |  |  |  |
 
 ## Subroom Connections
 
@@ -22,4 +23,4 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Silk Grub Large Cocoon |  |  |  |  | Included |  |
+| Bilewater - Bellway |  | none |  |  | Included |  |
