@@ -26,7 +26,7 @@
 | ML | middle left | middle left | [Bilewater Bullshit Bench (Shadow_15)](bilewater-bullshit-bench.md) | LR | right attack |  |  | Cannot enter from right until broken from left. |
 | UL | upper left | upper left | [Bilewater Bullshit Bench (Shadow_15)](bilewater-bullshit-bench.md) | UR | none |  |  |  |
 | LL | lower left | lower left | [Bilewater Upper West Column (Shadow_14)](bilewater-upper-west-column.md) | UR | none |  |  |  |
-| C | ceiling | top | TODO |  | none |  |  |  |
+| C | ceiling | top | [Putrified Ducts Connection To Bilewater (Aqueduct_04)](../putrified-ducts/putrified-ducts-connection-to-bilewater.md) | F | none |  |  |  |
 
 ## Subroom Connections
 

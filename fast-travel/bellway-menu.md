@@ -18,8 +18,8 @@ No subrooms defined.
 | BS | blasted steps |  | [Blasted Steps Bellway (Bellway_08)](../blasted-steps/blasted-steps-bellway.md) | BB | blasted steps bellway unlocked |  | Verified |  |
 | TS | the slab |  | [Slab Bellway (Slab_06)](../the-slab/slab-bellway.md) | BW | the slab bellway unlocked |  | Verified |  |
 | GB | grand bellway |  | [Grand Bellway (Bellway_City)](../choral-chambers/grand-bellway.md) | BW | grand bellway bellway unlocked |  | Verified |  |
-| BW | bilewater |  | [Bilewater Bellway (Bellway_Shadow)](../bilewater/bilewater-bellway.md) | D | bilewater bellway unlocked | TODO |  |  |
-| PD | putrified ducts |  | TODO |  | putrified ducts bellway unlocked | TODO |  |  |
+| BW | bilewater |  | [Bilewater Bellway (Bellway_Shadow)](../bilewater/bilewater-bellway.md) | D | bilewater bellway unlocked |  | Verified |  |
+| PD | putrified ducts |  | [Putrified Ducts Bellway (Bellway_Aqueduct)](../putrified-ducts/putrified-ducts-bellway.md) | BB | putrified ducts bellway unlocked |  | Verified |  |
 
 ## Subroom Connections
 

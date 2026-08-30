@@ -261,6 +261,10 @@ No rooms defined.
 - [Grand Gate Maintenance Room (Song_01c)](./grand-gate/grand-gate-maintenance-room.md)
 - [Grand Gate Courtroom (Song_19_entrance)](./grand-gate/grand-gate-courtroom.md)
 - [Grand Elevator (Under_01)](./grand-gate/grand-elevator.md)
+- [Entrance to Nyleth (Under_27)](./grand-gate/entrance-to-nyleth.md)
+- [Shrine Guardian Seth (Shellwood_22)](./grand-gate/shrine-guardian-seth.md)
+- [Nyleth Shrine (Shellwood_11b)](./grand-gate/nyleth-shrine.md)
+- [Nyleth Fight (Shellwood_11b_Memory)](./grand-gate/nyleth-fight.md)
 
 ## Sinner's Road
 
@@ -504,7 +508,16 @@ No rooms defined.
 
 ## Putrified Ducts
 
-No rooms defined.
+- [Fleatopia (Aqueduct_05)](./putrified-ducts/fleatopia.md)
+- [Huntress (Room_Huntress)](./putrified-ducts/huntress.md)
+- [Putrified Ducts Bellway (Bellway_Aqueduct)](./putrified-ducts/putrified-ducts-bellway.md)
+- [Putrified Ducts Connection To Bilewater (Aqueduct_04)](./putrified-ducts/putrified-ducts-connection-to-bilewater.md)
+- [Putrified Ducts Entrance (Aqueduct_01)](./putrified-ducts/putrified-ducts-entrance.md)
+- [Putrified Ducts Lower Bridge Room (Aqueduct_03)](./putrified-ducts/putrified-ducts-lower-bridge-room.md)
+- [Putrified Ducts Map Room (Aqueduct_07)](./putrified-ducts/putrified-ducts-map-room.md)
+- [Putrified Ducts Path To Vog (Aqueduct_06)](./putrified-ducts/putrified-ducts-path-to-vog.md)
+- [Putrified Ducts Rosary Room (Aqueduct_08)](./putrified-ducts/putrified-ducts-rosary-room.md)
+- [Putrified Ducts Tall Room (Aqueduct_02)](./putrified-ducts/putrified-ducts-tall-room.md)
 
 ## The Cradle
 

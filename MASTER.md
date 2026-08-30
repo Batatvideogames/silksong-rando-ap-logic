@@ -7619,8 +7619,8 @@ No subroom connections defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | TL | left1 | Top | [Grand Gate Courtroom (Song_19_entrance)](#grand-gate-courtroom-song19entrance) | R | none |  |  |  |
-| SLB | left3 | Crash Site | TODO |  | opens from the other side (breakable wall) | TODO |  |  |
-| SLT | left2 | Crash Site | TODO |  | silk soar and cling grip | TODO |  | Either come back from Top for a second time or get access from the crash site. To check if the breakable wall exists both sides |
+| SLB | left3 | Crash Site | [Entrance to Nyleth (Under_27)](#entrance-to-nyleth-under27) | LR | opens from the other side (breakable wall) | TODO |  |  |
+| SLT | left2 | Crash Site | [Entrance to Nyleth (Under_27)](#entrance-to-nyleth-under27) | UR | silk soar and cling grip | TODO |  | Either come back from Top for a second time or get access from the crash site. To check if the breakable wall exists both sides |
 | R | right1 | Crash Site | [Broken Elevator (Under_01b)](#broken-elevator-under01b) | L | none |  |  |  |
 
 #### Subroom Connections
@@ -7632,6 +7632,124 @@ No subroom connections defined.
 #### Check Locations
 
 No check locations defined.
+
+### Entrance to Nyleth (Under_27)
+
+**Game ID:** Under_27
+
+**Contributors:** Pyxl
+
+#### Subrooms
+
+- Entrance
+- Shell Shard Ledge
+- Exit
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left1 | Exit | [Shrine Guardian Seth (Shellwood_22)](#shrine-guardian-seth-shellwood22) | R | None |  | Verified |  |
+| UR | right1 | Entrance | [Grand Elevator (Under_01)](#grand-elevator-under01) | SLT | Silk Soar OR ( Faydown Cloak AND Cling Grip ) |  | Verified |  |
+| LR | right2 | Entrance | [Grand Elevator (Under_01)](#grand-elevator-under01) | SLB | Vines In Door Broken |  | Verified |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| WR | Whole Room | Entrance | Exit | "Breakable Chain - Entrance" Broken From Entrance AND ( "Breakable Vine - Exit Hall" Broken from Exit OR ( Faydown Cloak AND ( Clawline OR Drifters Cloak ) AND ( Cling Grip OR Ledge grab OR Silk Soar OR Scuttlebrace ) ) |  | Verified |  |
+| WR | Whole Room | Exit | Entrance | ( "Breakable Vine - Exit Hall" Broken from Exit AND Faydown Cloak AND ( Cling Grip OR Ledge Grab OR Dash ) ) |  | Verified |  |
+| DE | Detour | Exit | Shell Shard Ledge | ( Faydown Cloak AND Cling Grip AND ( Clawline OR Dash OR Drifters Cloak ) ) |  | Verified |  |
+| DE | Detour | Shell Shard Ledge | Exit | ( Faydown Cloak AND ( Cling Grip OR Ledge Grab OR Silk Soar ) AND ( Clawline OR Dash OR Drifters Cloak ) ) |  | Verified |  |
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Grand Gate - Shell Shard Cache | Shell Shard Ledge | None |  | Verified | Included |  |
+| Breakable Vines - Exit Hall | Exit | None |  | Verified | Included |  |
+| Breakable Chain - Entrance | Entrance | Silk Soar OR ( Faydown Cloak OR Cling Grip ) |  | Verified | Included |  |
+
+### Shrine Guardian Seth (Shellwood_22)
+
+**Game ID:** Shellwood_22
+
+**Contributors:** Pyxl
+
+#### Subrooms
+
+No subrooms defined.
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| D | door1 |  | [Nyleth Shrine (Shellwood_11b)](#nyleth-shrine-shellwood11b) | R |  |  |  |  |
+| R | right1 |  | [Entrance to Nyleth (Under_27)](#entrance-to-nyleth-under27) | L | None |  |  |  |
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Boss: Shrine Guardian Seth |  | Proficient Combat OR 2x Needle Upgrades |  | Verified | Included |  |
+
+### Nyleth Shrine (Shellwood_11b)
+
+**Game ID:** Shellwood_11b
+
+**Contributors:** Pyxl
+
+#### Subrooms
+
+No subrooms defined.
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| R | right1 |  | [Shrine Guardian Seth (Shellwood_22)](#shrine-guardian-seth-shellwood22) | D | None |  | Verified |  |
+| D | door_wakeOnGround |  | [Nyleth Fight (Shellwood_11b_Memory)](#nyleth-fight-shellwood11bmemory) | D | Needolin AND Elegy of the deep |  | Verified |  |
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Lore |  | None |  | Verified | Not included | Not included on the map |
+
+### Nyleth Fight (Shellwood_11b_Memory)
+
+**Game ID:** Shellwood_11b_Memory
+
+**Contributors:** Pyxl
+
+#### Subrooms
+
+No subrooms defined.
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| D | door_wakeInMemory |  | [Nyleth Shrine (Shellwood_11b)](#nyleth-shrine-shellwood11b) | D | Die OR Kill Nyleth |  | Verified | This is just an entrance transition if you wanna go back gotta die |
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Boss: Nyleth |  | Proficient Combat OR 2 Needle Upgrades |  | Verified | Included |  |
+| Pollen Heart |  | Proficient Combat OR 2 Needle Upgrades |  | Verified | Included |  |
 
 ## Sinner's Road
 
@@ -12707,7 +12825,7 @@ No subroom connections defined.
 | ML | middle left | middle left | [Bilewater Bullshit Bench (Shadow_15)](#bilewater-bullshit-bench-shadow15) | LR | right attack |  |  | Cannot enter from right until broken from left. |
 | UL | upper left | upper left | [Bilewater Bullshit Bench (Shadow_15)](#bilewater-bullshit-bench-shadow15) | UR | none |  |  |  |
 | LL | lower left | lower left | [Bilewater Upper West Column (Shadow_14)](#bilewater-upper-west-column-shadow14) | UR | none |  |  |  |
-| C | ceiling | top | TODO |  | none |  |  |  |
+| C | ceiling | top | [Putrified Ducts Connection To Bilewater (Aqueduct_04)](#putrified-ducts-connection-to-bilewater-aqueduct04) | F | none |  |  |  |
 
 #### Subroom Connections
 
@@ -14306,6 +14424,403 @@ No subroom connections defined.
 
 ## Putrified Ducts
 
+### Fleatopia (Aqueduct_05)
+
+**Game ID:** Aqueduct_05
+
+**Contributors:** Pyxl
+
+#### Subrooms
+
+- Entrance
+- Fleatopia
+- The Herald
+- Craftmetal
+- Upper Ledge
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left1 | Entrance | [Putrified Ducts Lower Bridge Room (Aqueduct_03)](#putrified-ducts-lower-bridge-room-aqueduct03) | R | None |  | Verified |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| MP | Maggot Puddle | Entrance | Fleatopia | Swim OR Clawline OR Drifters Cloak OR ( Sprint AND Dash ) OR Sharpdart |  | Verified |  |
+| MP | Maggot Puddle | Fleatopia | Entrance | ( Swim AND Cling Grip ) OR ( Faydown cloak AND ( Clawline OR ( Sprint AND Dash ) ) ) |  | Verified |  |
+| PL1 | Pale Lake1 | Fleatopia | Craftmetal | Swim AND Faydown Cloak AND ( Cling Grip OR Scuttlebrace ) |  | Verified |  |
+| PL1 | Pale Lake1 | Craftmetal | Fleatopia | Swim |  | Verified |  |
+| PL2 | Pale Lake2 | Fleatopia | Upper Ledge | Swim AND ( Cling Grip OR Scuttlebrace ) |  | Verified |  |
+| PL2 | Pale Lake2 | Upper Ledge | Fleatopia | Clawline OR ( Drifters Cloak AND Sprint AND Faydown Cloak ) |  | Verified |  |
+| HS | Hidden Shaft | Upper Ledge | The Herald | Silk Soar |  | Verified |  |
+| HS | Hidden Shaft | The Herald | Upper Ledge | None |  | Verified |  |
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Putrified Ducts - Craft Metal | Craftmetal | None |  | Verified | Included |  |
+| Putrified Ducts - Shell Shard Cache #9 | Upper Ledge | Faydown Cloak OR Clawline OR ( Sprint AND Dash ) OR Sharp Dart |  | Verified | Included |  |
+| Putrified Ducts - Shell Shard Cache #10 | Upper Ledge | Faydown Cloak OR Clawline OR ( Sprint AND Dash ) OR Sharp Dart |  | Verified | Included |  |
+| Putrified Ducts - Shell Shard Cache #11 | Upper Ledge | Faydown Cloak OR Clawline OR ( Sprint AND Dash ) OR Sharp Dart |  | Verified | Included |  |
+| Putrified Ducts - Shell Shard Cache #8 | Fleatopia | Silk Soar |  | Verified | Included |  |
+| Putrified Ducts - White Lake Waver Sign | Fleatopia | Needolin |  | Verified | Included | Missable / no check |
+| Wish: Passing Of The Age | The Herald | ACT3 AND Needolin AND ( "Ruined Chapel" In Logic AND "Bone Bottom Town" In Logic AND "Far Fields Skull Room East" In Logic AND "Greymoor_06, Top Area" In Logic AND "Slab First Sinner Antechamber" In Logic AND "Peak_08. Faythorn" In Logic AND "Path Of Pain SilkSong, Top" In Logic ) |  | Verified | Included | Need room and subroom name from greymoor and the room and subroom from mount fay |
+| Wish: Ecstasy of the end | Fleatopia | ACT3 AND Beat all 3 highscores in the festival minigames |  | Verified | Included |  |
+| Gaurdians Memento | Fleatopia | ACT3 AND Nyleth Defeated AND ( Crust King Khan Defeated OR Karmelita Defeated OR Clover Dancers Defeated ) AND "Greymoor_02" In Logic AND "Shellwood Flower Pogo Upper Hall" In logic AND "Grand Bridge" In Logic AND Beat All of Seths Highscores in Festival |  | Verified | Not included |  |
+| Pale Oil | Fleatopia | Wish: Ecstacy Of The End Completed |  | Verified | Included |  |
+| Egg of Flealia | Fleatopia | ALL Fleas Owned |  | Verified | Included |  |
+| Fleatopia - Tool Pouch | Fleatopia | 22 Fleas Owned AND Flea Caravan in Fleatopia |  | Verified | Included |  |
+| Fleatopia - Rosary Necklace | Fleatopia | Will remove this line once confirmation this no exists |  | Needs verification | Not included | Doesnt exist in game? |
+
+### Huntress (Room_Huntress)
+
+**Game ID:** Room_Huntress
+
+**Contributors:** Pyxl
+
+#### Subrooms
+
+No subrooms defined.
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left1 |  | [Putrified Ducts Connection To Bilewater (Aqueduct_04)](#putrified-ducts-connection-to-bilewater-aqueduct04) | D | None |  | Verified |  |
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Putrified Ducts - Bench Huntress |  | None |  |  | Included |  |
+| Longclaw |  | Wish: Broodfeast Completed OR Wish: Runtfeast Completed |  |  | Included |  |
+| Wish: Broodfeast |  | ACT2 AND ( 15 Seared Organs AND ( Flintslate OR Pimpillo OR Wispfire Lantern OR Voltvessels ) ) AND ( 35 Shredded Organs AND ( Sawtooth Circlet OR Cogwork Wheel OR Delver's Drill OR Conchcutter OR Beast Crest OR Architect Crest ) ) AND ( 10 Skewered Organs AND ( Sting Shard OR Longpin OR Needle Phial ) ) |  |  | Included | The tools listed are all the methods to get said organs |
+| Wish: Runtfeast |  | ACT3 AND Wish: Broodfeast NOT completed ( 15 Seared Organs AND ( Flintslate OR Pimpillo OR Wispfire Lantern OR Voltvessels ) ) AND ( 35 Shredded Organs AND ( Sawtooth Circlet OR Cogwork Wheel OR Delver's Drill OR Conchcutter OR Beast Crest OR Architect Crest ) ) AND ( 10 Skewered Organs AND ( Sting Shard OR Longpin OR Needle Phial ) ) |  |  | Included |  |
+
+### Putrified Ducts Bellway (Bellway_Aqueduct)
+
+**Game ID:** Bellway_Aqueduct
+
+**Contributors:** Pyxl
+
+#### Subrooms
+
+- Bellway
+- Vog Camp
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| BB | door_fastTravelExit | Bellway | [Bellway Menu](#bellway-menu) | PD | Bellway - Putrified Ducts Location Purchased |  | Verified |  |
+| L | left1 | Bellway | [Putrified Ducts Tall Room (Aqueduct_02)](#putrified-ducts-tall-room-aqueduct02) | UR | None |  | Verified |  |
+| R | right1 | Vog Camp | [Putrified Ducts Path To Vog (Aqueduct_06)](#putrified-ducts-path-to-vog-aqueduct06) | UL | Dash OR Ledge Grab OR Silk Soar OR Faydown Cloak OR Cling Grip OR Shaman Crest OR ( Beast Crest AND ( Hard Skips OR Needle Strike ) ) |  | Verified |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| SH | Shaft | Vog Camp | Bellway | Breakable Floor Broken From Vog Camp |  | Verified |  |
+| SH | Shaft | Bellway | Vog Camp | Breakable Floor Broken From Vog Camp AND Silk Soar |  | Verified |  |
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Putrified Ducts - Bellway Bench | Bellway | None |  | Verified | Included |  |
+| Flea: Putrified Ducts - Vog | Vog Camp | None |  | Verified | Included |  |
+| Putrified Ducts - Bellway | Bellway | None |  | Verified | Included |  |
+
+### Putrified Ducts Connection To Bilewater (Aqueduct_04)
+
+**Game ID:** Aqueduct_04
+
+**Contributors:** Pyxl
+
+#### Subrooms
+
+- Bilewater Entrance
+- Putrified Ducts Entrance
+- Shell Shard Platform
+- Apostate Key Area
+- Lower Shell Ledge
+- Hut Door
+- Hub Area
+- Upper Platform
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| R | right1 | Putrified Ducts Entrance | [Putrified Ducts Tall Room (Aqueduct_02)](#putrified-ducts-tall-room-aqueduct02) | LL | None |  | Verified |  |
+| D | door1 | Hut Door | [Huntress (Room_Huntress)](#huntress-roomhuntress) | L | None |  | Verified |  |
+| F | bot1 | Bilewater Entrance | [Bilewater Upper Bloatroach Tower (Shadow_01)](#bilewater-upper-bloatroach-tower-shadow01) | C | None |  | Verified |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| PDE | Putrified Ducts Entrance | Putrified Ducts Entrance | Hub Area | "Breakable wall from Ducts" Broken From Putrified Ducts Entrance |  | Verified |  |
+| PDE | Putrified Ducts Entrance | Hub Area | Putrified Ducts Entrance | "Breakable wall from Ducts" Broken From Putrified Ducts Entrance |  | Verified |  |
+| BWE | Bilewater Entrance | Bilewater Entrance | Hub Area | "Breakable Floor From Bilewater" Broken From Bilewater Entrance AND ( Silk Soar OR ( Faydown Cloak AND ( Cling Grip OR Scuttlebrace ) ) ) |  | Verified |  |
+| BWE | Bilewater Entrance | Hub Area | Bilewater Entrance | "Breakable Floor From Bilewater" Broken From Bilewater Entrance |  | Verified |  |
+| RS | Right Steps | Hub Area | Upper Platform | Silk Soar OR Faydown Cloak OR Cling Grip OR Scuttlebrace OR ( Ledge Grab AND ( Shaman crest OR Hard Skips ) ) |  | Verified |  |
+| RS | Right Steps | Upper Platform | Hub Area | None |  | Verified |  |
+| KV | Kidnap Vines | Upper Platform | Shell Shard Platform | None |  | Verified |  |
+| KV | Kidnap Vines | Shell Shard Platform | Upper Platform | None |  | Verified |  |
+| BG | Gap Slightly too big to jump across | Upper Platform | Apostate Key Area | Dash OR Sprint OR Clawline OR Sharpdart OR Beast Crest OR Faydown Cloak OR Drifters Cloak OR Hunter Crest OR Architect Crest OR ( Ledge Grab AND ( Needle strike AND Wanderer Crest ) OR Hard skips ) |  | Verified |  |
+| BG | Gap Slightly too big to jump across | Apostate Key Area | Upper Platform | Dash OR Sprint OR Clawline OR Sharpdart OR Beast Crest OR Faydown Cloak OR Drifters Cloak OR Hunter Crest OR Architect Crest OR ( Ledge Grab AND ( Needle strike AND Wanderer Crest ) OR Hard skips ) |  | Verified |  |
+| MLL | Maggot Lake Left | Upper Platform | Lower Shell Ledge | Clawline OR ( Drifters Cloak AND ( Ledge Grab OR Dash OR Faydown Cloak OR Beast Crest OR Sharpdart ) ) OR ( Swim AND ( Ledge Grab OR Dash OR Faydown Cloak OR Cling Grip OR Shaman Crest OR ( Beast Crest AND Hard Skips ) ) ) OR ( Sprint AND Dash ) OR Sharpdart |  | Verified |  |
+| MLL | Maggot Lake Left | Lower Shell Ledge | Upper Platform | Cling Grip AND Clawline AND Faydown Cloak |  | Verified |  |
+| MLR | Maggot Lake Right | Upper Platform | Hut Door | Drifters Cloak OR Faydown Cloak OR Swim OR Clawline OR ( Sprint AND Dash ) OR Sharpdart |  | Verified |  |
+| MLC | Maggot Lake Centre | Lower Shell Ledge | Hut Door | Clawline OR Swim OR ( Faydown Cloak AND Drifters Cloak ) OR ( Sprint AND Drifters Cloak ) |  | Verified |  |
+| MLC | Maggot Lake Centre | Hut Door | Lower Shell Ledge | Clawline OR ( Swim AND ( Ledge Grab OR Dash OR Faydown Cloak OR Cling Grip OR Shaman Crest OR ( Beast Crest AND Hard Skips ) ) )  OR ( Faydown Cloak AND Drifters Cloak ) OR ( Sprint AND Drifters Cloak ) |  | Verified |  |
+| HH | Hut to HUB | Hut Door | Hub Area | "Breakable Wall From Hut Door" Broken From Hut Door AND ( ( Faydown Cloak AND ( Cling Grip OR Scuttlebrace ) ) OR ( Silk Soar AND ( Sprint OR Dash OR Clawline OR Sharpdart OR Beast Crest  OR Drifters Cloak OR Faydown Cloak ) ) |  | Verified |  |
+| HH | Hut to HUB | Hub Area | Hut Door | "Breakable Wall From Hut Door" Broken From Hut Door AND ( Swim OR Sprint OR Dash OR Drifters Cloak OR Faydown Cloak OR Clawline OR Sharpdart OR Hunters Crest OR Beast Crest OR Architect Crest OR ( Needle strike AND Wanderer Crest AND Ledge Grab ) |  | Verified |  |
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Breakable Wall From Ducts | Putrified Ducts Entrance | None |  | Verified | Included |  |
+| Breakable Floor From Bilewater | Bilewater Entrance | None |  | Verified | Included |  |
+| Breakable Wall From Hut Door | Hut Door | None |  | Verified | Included |  |
+| Putrified Ducts - Shell Shard Cache #3 | Lower Shell Ledge | None |  | Verified | Included |  |
+| Putrified Ducts - Shell Shard Cache #4 | Lower Shell Ledge | None |  | Verified | Included |  |
+| Putrified Ducts - Shell Shard Cache #5 | Lower Shell Ledge | None |  | Verified | Included |  |
+| Putrified Ducts - Shell Shard Cache #6 | Shell Shard Platform | None |  | Verified | Included |  |
+| Putrified Ducts - Shell Shard Cache #7 | Shell Shard Platform | None |  | Verified | Included |  |
+| Key of Apostate | Apostate Key Area | None |  | Verified | Included |  |
+
+### Putrified Ducts Entrance (Aqueduct_01)
+
+**Game ID:** Aqueduct_01
+
+**Contributors:** Pyxl
+
+#### Subrooms
+
+- Entrance
+- Left Platform
+- Centre Platform
+- Shell Shards bridge
+- Exit
+- Rosary String Ledge
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| R | right1 | Exit | [Putrified Ducts Tall Room (Aqueduct_02)](#putrified-ducts-tall-room-aqueduct02) | UL | None |  | Verified |  |
+| L | left1 | Entrance | Arborium_11 | R | None | TODO | Verified | Memorium has not been done yet |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| EC | Entrance Cave | Entrance | Left Platform | Faydown Cloak AND ( CLing Grip OR Scuttlebrace ) |  | Verified |  |
+| EC | Entrance Cave | Left Platform | Entrance | ( Faydown Cloak AND Cling Grip ) OR ( Silk Soar AND ( Dash OR Clawline OR Sharpdart OR Faydown Cloak OR Drifters Cloak ) ) |  | Verified |  |
+| LBB | Left Broken Bridge | Left Platform | Centre Platform | Dash OR Faydown Cloak OR ( ( Cling Grip OR Ledge Grab ) AND ( Sprint OR Clawline OR Sharp Dart ) ) |  | Verified |  |
+| LBB | Left Broken Bridge | Centre Platform | Left Platform | Faydown Cloak OR Clawline OR Sprint OR ( Drifters Cloak AND Easy Skips ) OR Silk Soar OR ( Cling Grip AND Dash ) |  | Verified |  |
+| UB | Under The Bridge | Centre Platform | Shell Shards bridge | ( Easy Skips AND ( Ledge Grab OR Drifters Cloak OR Hunters Crest OR Beast Crest OR Architect Crest OR  Shaman Crest OR Clawline OR  Dash OR Sharpdart ) ) OR Faydown Cloak OR Cling Grip OR Scuttlebrace |  | Verified |  |
+| UB | Under The Bridge | Shell Shards bridge | Centre Platform | ( Faydown Cloak AND ( Cling Grip OR Clawline OR Sprint OR Scuttlebrace OR Drifters Cloak OR Sharpdart ) ) |  | Verified |  |
+| OB | Over The Bridge | Centre Platform | Exit | Clawline OR Drifters Cloak OR Silk Soar OR ( Faydown Cloak AND ( Cling Grip OR Dash OR Sprint ) ) OR ( Swim AND Dash AND Cling Grip ) |  | Verified |  |
+| OB | Over The Bridge | Exit | Centre Platform | Dash OR Faydown Cloak OR Run OR Drifters Cloak OR Cling Grip OR Silk Soar OR Clawline OR Sharpdart |  | Verified |  |
+| UE | Under The Exit | Exit | Rosary String Ledge | None |  | Verified |  |
+| UE | Under The Exit | Rosary String Ledge | Exit | Faydown Cloak OR Silk Soar OR ( ( Dash OR Cling Grip ) AND ( Clawline OR Drifters Cloak OR Sharpdart OR Sprint ) ) |  | Verified |  |
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Putrified Ducts - Shell Shard Cache #1 | Shell Shards bridge | None |  | Verified | Included | Merge Map icons on map |
+| Putrified Ducts - Shell Shard Cache #2 | Shell Shards bridge | None |  | Verified | Included | Merge Map icons on map |
+| Putrified Ducts - Frayed Rosary String | Rosary String Ledge | None |  | Verified | Included |  |
+
+### Putrified Ducts Lower Bridge Room (Aqueduct_03)
+
+**Game ID:** Aqueduct_03
+
+**Contributors:** Pyxl
+
+#### Subrooms
+
+- Left Exit
+- Right Exit
+- Ceiling Exit
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| R | right1 | Right Exit | [Fleatopia (Aqueduct_05)](#fleatopia-aqueduct05) | L | None |  | Verified |  |
+| L | left1 | Left Exit | [Putrified Ducts Tall Room (Aqueduct_02)](#putrified-ducts-tall-room-aqueduct02) | LR | None |  | Verified |  |
+| C | top1 | Ceiling Exit | [Putrified Ducts Path To Vog (Aqueduct_06)](#putrified-ducts-path-to-vog-aqueduct06) | F | Faydown Cloak OR Cling Grip OR Silk Soar OR Scuttlebrace |  | Verified |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| AB | Across The Bridges | Left Exit | Right Exit | ( Cling Grip AND ( Clawline OR Faydown Cloak ) ) OR ( Silk Soar AND ( Drifters Cloak OR Clawline ) ) |  | Verified |  |
+| AB | Across The Bridges | Right Exit | Left Exit | ( Cling Grip AND Clawline )  OR ( Silk Soar AND ( Drifters Cloak OR Clawline ) ) |  | Verified |  |
+| TC | Ceiling Tunnel | Right Exit | Ceiling Exit | ( Silk Soar AND ( Faydown Cloak OR Sprint OR Dash OR Cling Grip OR Clawline OR Drifters Cloak OR Faydown Cloak OR Sharpdart ) ) OR ( Faydown Cloak AND ( Dash OR Clawline OR Sharpdart OR Beast Crest OR Drifters Cloak ) ) OR ( Cling Grip AND Clawline ) |  | Verified |  |
+| TC | Ceiling Tunnel | Ceiling Exit | Right Exit | Sprint OR Clawline OR Faydown Cloak OR ( Silk Soar AND ( Dash OR Drifters Cloak OR Cling Grip ) ) |  | Verified |  |
+| SS | Silk Soar Up | Left Exit | Ceiling Exit | Silk Soar AND ( Drifters cloak OR Faydown Cloak OR Clawline ) |  | Verified |  |
+| SS | Silk Soar Up | Ceiling Exit | Left Exit | Drifters Cloak OR Clawline OR ( Swim AND Faydown Cloak ) OR ( Silk Soar AND ( Dash OR Sharpdart ) ) |  | Verified |  |
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Breakable Wall | Right Exit | Faydown Cloak OR ( Cling Grip AND Clawline ) OR ( Silk Soar AND ( Drifters Cloak OR Dash OR Cling Grip OR Clawline OR Sharpdart OR Sprint ) ) |  | Verified | Not included |  |
+
+### Putrified Ducts Map Room (Aqueduct_07)
+
+**Game ID:** Aqueduct_07
+
+**Contributors:** Pyxl
+
+#### Subrooms
+
+No subrooms defined.
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| R | right1 |  | [Putrified Ducts Tall Room (Aqueduct_02)](#putrified-ducts-tall-room-aqueduct02) | ML | None |  | Verified |  |
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Putrified Ducts - thread memory Map Room |  | Needolin |  | Verified | Not included |  |
+| Putrified Ducts - Map Pickup |  | None |  | Verified | Included |  |
+
+### Putrified Ducts Path To Vog (Aqueduct_06)
+
+**Game ID:** Aqueduct_06
+
+**Contributors:** Pyxl
+
+#### Subrooms
+
+- Main
+- Camp
+- Top
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| F | bot1 | Main | [Putrified Ducts Lower Bridge Room (Aqueduct_03)](#putrified-ducts-lower-bridge-room-aqueduct03) | C | None |  | Verified |  |
+| UL | left1 | Top | [Putrified Ducts Bellway (Bellway_Aqueduct)](#putrified-ducts-bellway-bellwayaqueduct) | R | None |  | Verified |  |
+| LL | left2 | Main | [Putrified Ducts Rosary Room (Aqueduct_08)](#putrified-ducts-rosary-room-aqueduct08) | R | None |  | Verified |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| VA | Vine Acsent | Main | Top | ( Clawline AND ( Cling Grip OR ( Drifters Cloak AND ( Faydown Cloak OR Dash ) ) )  ) |  | Verified |  |
+| VA | Vine Acsent | Top | Main | Clawline AND Faydown Cloak |  | Verified |  |
+| TC | Thorn Crossing | Main | Camp | ( Faydown Cloak AND ( Hunter Crest OR Swim OR Reaper Crest OR Beast Crest OR Architect Crest OR Sprint OR Dash OR ( Ledge Grab AND Hard Skips ) ) ) OR Sharpdart OR Clawline OR Drifters Cloak OR ( Sprint AND Dash ) |  | Verified |  |
+| TC | Thorn Crossing | Camp | Main | ( Faydown Cloak AND ( Hunter Crest OR Swim OR Reaper Crest OR Beast Crest OR Architect Crest OR Sprint OR Dash OR ( Ledge Grab AND Hard Skips ) ) ) OR Sharpdart OR Clawline OR Drifters Cloak OR ( Sprint AND Dash ) |  | Verified |  |
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| thread_memory | Camp | Needolin |  | Verified | Not included |  |
+| Wreath OF Purity | Camp | None |  | Verified | Included |  |
+
+### Putrified Ducts Rosary Room (Aqueduct_08)
+
+**Game ID:** Aqueduct_08
+
+**Contributors:** Pyxl
+
+#### Subrooms
+
+- Left
+- Right
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left1 | Left | [Putrified Ducts Tall Room (Aqueduct_02)](#putrified-ducts-tall-room-aqueduct02) | MR | Break Breakable Sewer Grate |  | Verified |  |
+| R | right1 | Right | [Putrified Ducts Path To Vog (Aqueduct_06)](#putrified-ducts-path-to-vog-aqueduct06) | LL | None |  | Verified |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| MP | Maggot Puddle | Left | Right | Swim OR Sprint OR Dash OR Faydown Cloak OR Drifters Cloak OR Clawline OR Sharpdart OR Beast Crest |  | Verified |  |
+| MP | Maggot Puddle | Right | Left | Swim OR Sprint OR Dash OR Faydown Cloak OR Drifters Cloak OR Clawline OR Sharpdart OR Beast Crest |  | Verified |  |
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Putrified Ducts - Rosary Cache #1 | Right | None |  | Verified | Included |  |
+| Putrified Ducts - Rosary Cache #2 | Right | None |  | Verified | Included |  |
+| Putrified Ducts - Rosary Cache #3 | Right | None |  | Verified | Included |  |
+| Breakable Sewer Grate 2 | Left | None |  | Verified | Not included |  |
+
+### Putrified Ducts Tall Room (Aqueduct_02)
+
+**Game ID:** Aqueduct_02
+
+**Contributors:** Pyxl
+
+#### Subrooms
+
+- Top Left
+- Bellway Door
+- Middle Platform
+- Lower Sewage Tunnel
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| UL | left1 | Top Left | [Putrified Ducts Entrance (Aqueduct_01)](#putrified-ducts-entrance-aqueduct01) | R | None |  | Verified |  |
+| UR | right2 | Bellway Door | [Putrified Ducts Bellway (Bellway_Aqueduct)](#putrified-ducts-bellway-bellwayaqueduct) | L | None |  | Verified |  |
+| ML | left3 | Middle Platform | [Putrified Ducts Map Room (Aqueduct_07)](#putrified-ducts-map-room-aqueduct07) | R | None |  | Verified |  |
+| MR | right3 | Middle Platform | [Putrified Ducts Rosary Room (Aqueduct_08)](#putrified-ducts-rosary-room-aqueduct08) | L | Door Opened From Other Side |  | Verified |  |
+| LL | left2 | Lower Sewage Tunnel | [Putrified Ducts Connection To Bilewater (Aqueduct_04)](#putrified-ducts-connection-to-bilewater-aqueduct04) | R | Break Breakable Sewer Grate |  | Verified |  |
+| LR | right1 | Lower Sewage Tunnel | [Putrified Ducts Lower Bridge Room (Aqueduct_03)](#putrified-ducts-lower-bridge-room-aqueduct03) | L | None |  | Verified |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| UG | Upper Gap | Top Left | Bellway Door | Ledge Grab OR Dash OR Cling Grip OR Drifters Cloak OR Faydown Cloak OR Silk Soar OR Clawline OR Sharpdart OR Scuttlebrace OR Hunter Crest OR Reaper Crest OR Beast Crest OR Witch Crest OR Architect Crest OR Shaman Crest OR Naked Crest  OR ( Needle Strike AND Wanderer Crest ) |  | Verified |  |
+| UG | Upper Gap | Bellway Door | Top Left | Faydown Cloak OR Cling Grip OR Silk Soar OR Scuttlebrace |  | Verified |  |
+| TS | The Shaft | Top Left | Middle Platform | None |  | Verified |  |
+| TS | The Shaft | Middle Platform | Top Left | Cling Grip OR Silk Soar OR Faydown CLoak OR ( Scuttlebrace AND ( Clawline OR Ledge Grab ) ) |  | Verified |  |
+| TS2 | The Shaft 2 | Bellway Door | Middle Platform | None |  | Verified |  |
+| TS2 | The Shaft 2 | Middle Platform | Bellway Door | Cling Grip OR Silk Soar OR Faydown CLoak OR ( Scuttlebrace AND ( Clawline OR Ledge Grab ) ) |  | Verified |  |
+| TT | The Tunnel | Middle Platform | Lower Sewage Tunnel | None |  | Verified |  |
+| TT | The Tunnel | Lower Sewage Tunnel | Middle Platform | Silk Soar OR ( Faydown Cloak AND ( Cling Grip OR Scuttlebrace ) |  | Verified |  |
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Breakable Sewer Grate | Lower Sewage Tunnel | None |  | Verified | Not included |  |
+
 ## The Cradle
 
 ### ACT3 Connection To GMS (Cradle_01_Destroyed)
@@ -15312,8 +15827,8 @@ No subrooms defined.
 | BS | blasted steps |  | [Blasted Steps Bellway (Bellway_08)](#blasted-steps-bellway-bellway08) | BB | blasted steps bellway unlocked |  | Verified |  |
 | TS | the slab |  | [Slab Bellway (Slab_06)](#slab-bellway-slab06) | BW | the slab bellway unlocked |  | Verified |  |
 | GB | grand bellway |  | [Grand Bellway (Bellway_City)](#grand-bellway-bellwaycity) | BW | grand bellway bellway unlocked |  | Verified |  |
-| BW | bilewater |  | [Bilewater Bellway (Bellway_Shadow)](#bilewater-bellway-bellwayshadow) | D | bilewater bellway unlocked | TODO |  |  |
-| PD | putrified ducts |  | TODO |  | putrified ducts bellway unlocked | TODO |  |  |
+| BW | bilewater |  | [Bilewater Bellway (Bellway_Shadow)](#bilewater-bellway-bellwayshadow) | D | bilewater bellway unlocked |  | Verified |  |
+| PD | putrified ducts |  | [Putrified Ducts Bellway (Bellway_Aqueduct)](#putrified-ducts-bellway-bellwayaqueduct) | BB | putrified ducts bellway unlocked |  | Verified |  |
 
 #### Subroom Connections
 
