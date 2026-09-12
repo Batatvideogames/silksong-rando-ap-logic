@@ -25,14 +25,14 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| EL | Elevator | Ground Centre | Ceiling area | Activated from Ceiling area |  | Verified |  |
-| EL | Elevator | Ceiling area | Ground Centre | Activated from Ceiling area |  | Verified |  |
-| RL | Right Lake | Ground Centre | Ground Right | ( Enemy Pogo AND Ledge Grab ) OR Dash OR Sprint OR clawline OR Beast Crest OR Faydown Cloak OR Drifters Cloak OR ( Swim AND Ledge Grab ) |  | Verified |  |
-| RL | Right Lake | Ground Right | Ground Centre | ( Enemy Pogo AND Ledge Grab ) OR Dash OR Sprint OR clawline OR Beast Crest OR Faydown Cloak OR Drifters Cloak OR ( Swim AND Ledge Grab ) |  | Verified |  |
-| LL | Left Lake | Ground Centre | Ground Left | ( Enemy Pogo AND Ledge Grab ) OR Dash OR Sprint OR clawline OR Beast Crest OR Faydown Cloak OR Drifters Cloak |  | Verified |  |
+| EL | Elevator | Ground Centre | Ceiling area | Prereq Elevator Button |  | Verified |  |
+| EL | Elevator | Ceiling area | Ground Centre | Prereq Elevator Button |  | Verified |  |
+| RL | Right Lake | Ground Centre | Ground Right | ( Enemy Pogo AND Ledge Grab ) OR Dash OR Sprint OR clawline OR Easy Beast Crest Pogo OR Faydown Cloak OR Drifters Cloak OR ( Swim AND Ledge Grab ) |  | Verified |  |
+| RL | Right Lake | Ground Right | Ground Centre | ( Enemy Pogo AND Ledge Grab ) OR Dash OR Sprint OR clawline OR Easy Beast Crest Pogo OR Faydown Cloak OR Drifters Cloak OR ( Swim AND Ledge Grab ) |  | Verified |  |
+| LL | Left Lake | Ground Centre | Ground Left | ( Enemy Pogo AND Ledge Grab ) OR Dash OR Sprint OR clawline OR Easy Beast Crest Pogo OR Faydown Cloak OR Drifters Cloak |  | Verified |  |
 | LL | Left Lake | Ground Left | Ground Centre | None |  | Verified |  |
 | LP | Left Platforms | Platforms | Ground Left | None |  | Verified |  |
-| LP | Left Platforms | Ground Left | Platforms | ( Faydown Cloak AND ( Cling Grip OR ( Scuttle Brace AND Dash ) ) ) OR Silk Soar OR ( Enemy Pogo AND Hard Skips ) |  | Verified |  |
+| LP | Left Platforms | Ground Left | Platforms | ( Faydown Cloak AND ( Cling Grip OR ( ScuttleBrace AND Dash ) ) ) OR Silk Soar OR ( Hard Enemy Pogo ) |  | Verified |  |
 | CP | Central Platforms | Platforms | Ground Centre | None |  | Verified |  |
 | CP | Central Platforms | Ground Centre | Platforms | ( Faydown Cloak AND Ledge Grab ) OR Silk Soar |  | Verified |  |
 | RP | Right Platforms | Platforms | Ground Right | None |  | Verified |  |
@@ -40,6 +40,8 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Pollip Heart #6 | Platforms | Ledge Grab OR Silk Soar OR Faydown Cloak |  | Verified | Included |  |
+| Pollip Heart #6 | Platforms | Ledge Grab OR Silk Soar OR Faydown Cloak |  | Verified | collectible |  |
+| Elevator Button | Ceiling area | None |  | Verified | switch |  |
+| Big Door Button | Ground Right | None |  | Verified | switch |  |

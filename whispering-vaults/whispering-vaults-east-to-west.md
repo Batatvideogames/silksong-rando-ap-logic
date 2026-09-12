@@ -24,16 +24,16 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| VL | Vertical Low | Bottom | Center | Silk Soar OR Cling Grip OR Faydown Cloak AND (Ledge Grab OR Clawline) |  | Verified |  |
+| VL | Vertical Low | Bottom | Center | Activate Whispering Vaults: Flip Switch #3 AND (Silk Soar OR Cling Grip OR (Faydown Cloak AND Ledge Grab)) |  | Verified |  |
 | VH | Vertical High | Center | Top | Cling Grip OR Silk Soar |  | Verified |  |
-| MS | Mask Shard | Top | Shard | Silk Soar OR Box Pogo |  | Verified |  |
+| MS | Mask Shard | Top | Shard | Silk Soar OR Easy Box Pogo |  | Verified |  |
 | MS | Mask Shard | Shard | Top | Nothing. (Fall) |  | Verified |  |
 | VH | Vertical High | Top | Center | Nothing. (Fall) |  | Verified |  |
-| VL | Vertical Low | Center | Bottom | Nothing. (fall) |  | Verified |  |
+| VL | Vertical Low | Center | Bottom | Activate Whispering Vaults: Flip Switch #3 |  | Verified |  |
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Whispering Vaults: Mask Shard #1 | Shard | Nothing. |  | Verified | Included |  |
-| Whispering Vaults: Flip Switch #3 | Bottom | Nothing. |  | Verified | Included |  |
+| Whispering Vaults: Mask Shard #1 | Shard | Nothing. |  | Verified | collectible |  |
+| Whispering Vaults: Flip Switch #3 | Bottom | Nothing. |  | Verified | switch |  |

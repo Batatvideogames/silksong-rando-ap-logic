@@ -12,17 +12,17 @@ Generated from the non-archived records in `input/silksong-rando-logic.db`.
 
 ## Bone Bottom
 
+- [Bone Bottom Town (Bonetown)](./bone-bottom/bone-bottom-town.md)
 - [Bone Bottom Bellway (Bellway_01)](./bone-bottom/bone-bottom-bellway.md)
+- [Bonegrave (Bonegrave)](./bone-bottom/bonegrave.md)
 - [Bonegrave Passage (Bone_Steel_Servant)](./bone-bottom/bonegrave-passage.md)
 - [Chapel of the Wanderer (Chapel_Wanderer)](./bone-bottom/chapel-of-the-wanderer.md)
-- [Bone Bottom Town (Bonetown)](./bone-bottom/bone-bottom-town.md)
-- [Mosshome Middle (Mosstown_01)](./bone-bottom/mosshome-middle.md)
-- [Bonegrave (Bonegrave)](./bone-bottom/bonegrave.md)
 - [Mosshome Lower (Bone_11)](./bone-bottom/mosshome-lower.md)
 - [Mosshome Side Room (Bone_05b)](./bone-bottom/mosshome-side-room.md)
 - [Mosshome Druid (Mosstown_02c)](./bone-bottom/mosshome-druid.md)
 - [Mosshome Spool (Bone_11b)](./bone-bottom/mosshome-spool.md)
 - [Mosshome Upper (Mosstown_02)](./bone-bottom/mosshome-upper.md)
+- [Mosshome Middle (Mosstown_01)](./bone-bottom/mosshome-middle.md)
 - [Mosshome Basement (Bone_01b)](./bone-bottom/mosshome-basement.md)
 - [The Big Fall (Aspid_01)](./bone-bottom/the-big-fall.md)
 
@@ -52,7 +52,7 @@ Generated from the non-archived records in `input/silksong-rando-logic.db`.
 
 - [Weavenest Atla Entrance (Weave_04)](./weavenest-atla/weavenest-atla-entrance.md)
 - [Weavenest Atla Teleporter (Weave_02)](./weavenest-atla/weavenest-atla-teleporter.md)
-- [Weavenest Atla Power (Weave_12)](./weavenest-atla/weavenest-atla-power.md)
+- [Weavenest Atla Power Room (Weave_12)](./weavenest-atla/weavenest-atla-power-room.md)
 - [Weavenest Atla Eva (Weave_10)](./weavenest-atla/weavenest-atla-eva.md)
 - [Weavenest Atla Bench (Weave_07)](./weavenest-atla/weavenest-atla-bench.md)
 - [Weavenest Atla Grotto (Weave_03)](./weavenest-atla/weavenest-atla-grotto.md)
@@ -78,7 +78,6 @@ Generated from the non-archived records in `input/silksong-rando-logic.db`.
 
 ## Deep Docks
 
-- [Deep Docks Diving Bell Interior (Room_Diving_Bell)](./deep-docks/deep-docks-diving-bell-interior.md)
 - [Deep Docks Entrance (Dock_08)](./deep-docks/deep-docks-entrance.md)
 - [Deep Docks Bench Shaft (Dock_01)](./deep-docks/deep-docks-bench-shaft.md)
 - [Deep Docks Map Shop (Bone_East_01)](./deep-docks/deep-docks-map-shop.md)
@@ -108,6 +107,7 @@ Generated from the non-archived records in `input/silksong-rando-logic.db`.
 - [Deep Docks Silkeater Room (Dock_14)](./deep-docks/deep-docks-silkeater-room.md)
 - [Deep Docks Magma Slug Tunnels (Dock_11)](./deep-docks/deep-docks-magma-slug-tunnels.md)
 - [Deep Docks Diving Bell Room (Dock_12)](./deep-docks/deep-docks-diving-bell-room.md)
+- [Deep Docks Diving Bell Interior (Room_Diving_Bell)](./deep-docks/deep-docks-diving-bell-interior.md)
 
 ## Far Fields
 
@@ -166,7 +166,7 @@ Generated from the non-archived records in `input/silksong-rando-logic.db`.
 ## Shellwood
 
 - [Cling Grip Room (Shellwood_10)](./shellwood/cling-grip-room.md)
-- [Cling grip Side room (Shellwood_11)](./shellwood/cling-grip-side-room.md)
+- [Cling Grip Side Room (Shellwood_11)](./shellwood/cling-grip-side-room.md)
 - [Greyroot (Room_Witch)](./shellwood/greyroot.md)
 - [Greyroots Basement Tall room (Mosstown_03)](./shellwood/greyroots-basement-tall-room.md)
 - [Long Pin (Belltown_Room_shellwood)](./shellwood/long-pin.md)
@@ -209,16 +209,35 @@ Generated from the non-archived records in `input/silksong-rando-logic.db`.
 ## Greymoor
 
 - [Greymoor Bellshrine (Bellshrine_02)](./greymoor/greymoor-bellshrine.md)
+- [Greymoor Bellway (Bellway_04)](./greymoor/greymoor-bellway.md)
+- [Greymoor Bone Scroll Room (Greymoor_21)](./greymoor/greymoor-bone-scroll-room.md)
+- [Greymoor Chapel of The Reaper (Greymoor_20c)](./greymoor/greymoor-chapel-of-the-reaper.md)
+- [Greymoor Chapel of The Reaper Entrance (Greymoor_20b)](./greymoor/greymoor-chapel-of-the-reaper-entrance.md)
 - [Greymoor Craw Lake (Greymoor_15b)](./greymoor/greymoor-craw-lake.md)
 - [Greymoor Craw Lake Entrance (Greymoor_15)](./greymoor/greymoor-craw-lake-entrance.md)
+- [Greymoor Crow Court (Room_CrowCourt_02)](./greymoor/greymoor-crow-court.md)
 - [Greymoor Crow Nest (Room_CrowCourt)](./greymoor/greymoor-crow-nest.md)
 - [Greymoor East Bellshrine Room (Greymoor_02)](./greymoor/greymoor-east-bellshrine-room.md)
+- [Greymoor Eastern Tower (Greymoor_04)](./greymoor/greymoor-eastern-tower.md)
+- [Greymoor Entry to Bellhart (Greymoor_08)](./greymoor/greymoor-entry-to-bellhart.md)
+- [Greymoor Halfway Home (Halfway_01)](./greymoor/greymoor-halfway-home.md)
+- [Greymoor Halfway Home Exterior (Greymoor_03)](./greymoor/greymoor-halfway-home-exterior.md)
+- [Greymoor Kraft Room (Greymoor_24)](./greymoor/greymoor-kraft-room.md)
 - [Greymoor Lower Halfway Home Path (Greymoor_13)](./greymoor/greymoor-lower-halfway-home-path.md)
+- [Greymoor Middle Passage (Greymoor_10)](./greymoor/greymoor-middle-passage.md)
+- [Greymoor Rat Tunnel (Greymoor_16)](./greymoor/greymoor-rat-tunnel.md)
 - [Greymoor Silver Shells room (Greymoor_17)](./greymoor/greymoor-silver-shells-room.md)
+- [Greymoor Towers Patio (Greymoor_05)](./greymoor/greymoor-towers-patio.md)
 - [Greymoor Upper Halfway Home Path (Greymoor_12)](./greymoor/greymoor-upper-halfway-home-path.md)
+- [Greymoor Upper Towers Path (Greymoor_11)](./greymoor/greymoor-upper-towers-path.md)
 - [Greymoor Weaver Shrine (Greymoor_22)](./greymoor/greymoor-weaver-shrine.md)
 - [Greymoor West Bellshrine Room  (Greymoor_01)](./greymoor/greymoor-west-bellshrine-room.md)
-- [Greymoor bone scroll room (Greymoor_21)](./greymoor/greymoor-bone-scroll-room.md)
+- [Greymoor Western Room (Greymoor_07)](./greymoor/greymoor-western-room.md)
+- [Greymoor Western Tower (Greymoor_06)](./greymoor/greymoor-western-tower.md)
+- [Pimpillo Room (Wisp_06)](./greymoor/pimpillo-room.md)
+- [Yarnaby Place (Wisp_03)](./greymoor/yarnaby-place.md)
+- [Greymoor Yarnaby Room (Belltown_Room_doctor)](./greymoor/greymoor-yarnaby-room.md)
+- [Halfway Home Cellar (Ant_08)](./greymoor/halfway-home-cellar.md)
 
 ## Whisp Thicket
 
@@ -282,11 +301,6 @@ No rooms defined.
 - [Sinner's Road Vertical Hall West (Dust_02)](./sinner-s-road/sinner-s-road-vertical-hall-west.md)
 - [Sinner's Road Shack (dust_shack)](./sinner-s-road/sinner-s-road-shack.md)
 
-## The Mist
-
-- [Mist Entrance (Dust_Maze_09_entrance)](./the-mist/mist-entrance.md)
-- [The Mist Room 5 (Dust_Maze_05)](./the-mist/the-mist-room-5.md)
-
 ## Underworks
 
 - [Vaults & Bellway Cauldron Entrance (Library_11)](./underworks/vaults-bellway-cauldron-entrance.md)
@@ -320,7 +334,6 @@ No rooms defined.
 - [Underworks Saw Shaft (Under_03c)](./underworks/underworks-saw-shaft.md)
 - [Underworks Shard Room (Under_03)](./underworks/underworks-shard-room.md)
 - [Underworks Wisp Thicket Passage (Under_23)](./underworks/underworks-wisp-thicket-passage.md)
-- [Library_12b (Library_12b-0)](./underworks/library-12b.md)
 
 ## Choral Chambers
 
@@ -504,7 +517,25 @@ No rooms defined.
 
 ## Mount Fay
 
-No rooms defined.
+- [Mount Fay Entrance (Peak_01)](./mount-fay/mount-fay-entrance.md)
+- [Brightvein (Peak_06)](./mount-fay/brightvein.md)
+- [Brightvein Entrance (Peak_06b)](./mount-fay/brightvein-entrance.md)
+- [FayForn (Peak_08b)](./mount-fay/fayforn.md)
+- [Mask Maker (Peak_Mask_Maker)](./mount-fay/mask-maker.md)
+- [Mask Maker Passage (Peak_05d)](./mount-fay/mask-maker-passage.md)
+- [Memory Crystal (Bellway_Peak_02)](./mount-fay/memory-crystal.md)
+- [Mount Fay Bench Toll (Bellway_Peak)](./mount-fay/mount-fay-bench-toll.md)
+- [Mount Fay Frozen Flea (Peak_05c)](./mount-fay/mount-fay-frozen-flea.md)
+- [Mount Fay Ice Lake Platforming Room (Peak_04)](./mount-fay/mount-fay-ice-lake-platforming-room.md)
+- [Mount Fay Large Servitor Hallway (Peak_04d)](./mount-fay/mount-fay-large-servitor-hallway.md)
+- [Mount Fay Lore Room (Peak_10)](./mount-fay/mount-fay-lore-room.md)
+- [Mount Fay Lower Slope (Peak_05)](./mount-fay/mount-fay-lower-slope.md)
+- [Mount Fay Magnetite Outcropping (Peak_05e)](./mount-fay/mount-fay-magnetite-outcropping.md)
+- [Mount Fay Mask Shard (Peak_04c)](./mount-fay/mount-fay-mask-shard.md)
+- [Mount Fay Peak Bench (Peak_12)](./mount-fay/mount-fay-peak-bench.md)
+- [Mount Fay Right Side Middle Room (Peak_07)](./mount-fay/mount-fay-right-side-middle-room.md)
+- [Mount Fay Shakra (Peak_02)](./mount-fay/mount-fay-shakra.md)
+- [Mount Fay Upper Slope (Peak_08)](./mount-fay/mount-fay-upper-slope.md)
 
 ## Putrified Ducts
 
@@ -552,8 +583,8 @@ No rooms defined.
 - [Abyss Upper Big Room (Abyss_02b)](./the-abyss/abyss-upper-big-room.md)
 - [Arcane Egg Room (Abyss_04)](./the-abyss/arcane-egg-room.md)
 - [Weavenest Absolom (Abyss_08)](./the-abyss/weavenest-absolom.md)
-- [Abyss_Cocoon (Abyss_Cocoon)](./the-abyss/abyss-cocoon.md)
-- [Last_Dive (Last_Dive)](./the-abyss/last-dive.md)
+- [Abyss Cocoon (Abyss_Cocoon)](./the-abyss/abyss-cocoon.md)
+- [Last Dive (Last_Dive)](./the-abyss/last-dive.md)
 
 ## Fast Travel
 

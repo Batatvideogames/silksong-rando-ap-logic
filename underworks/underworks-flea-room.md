@@ -22,6 +22,6 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Underworks: Flea #1 | Flea | Nothing. |  | Verified | Included |  |
+| Underworks: Flea #1 | Flea | Nothing. |  | Verified |  |  |

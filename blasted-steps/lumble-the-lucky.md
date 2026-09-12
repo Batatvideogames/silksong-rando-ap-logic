@@ -20,6 +20,6 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Magnetite Dice |  | (Win Against Lumble after He Runs Out of Rosaries OR Clawline Location Acquired OR Event: Cogwork Dancers Defeated) AND NOT Act 3 |  | Verified | Included |  |
+| Magnetite Dice |  | (Win Against Lumble after He Runs Out of Rosaries OR Clawline Location Acquired OR Event: Cogwork Dancers Defeated) AND Act 2 |  | Verified |  | Changed "NOT Act 3" to Act 2 - hero |

@@ -20,14 +20,14 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| J | Jump | The Only Jump In This Entire Room | Not The Jump. | Ledge Grab OR Cling Grip OR Faydown Cloak OR Clawline OR Beast Charge OR Scuttlebrace OR Sprint |  | Verified |  |
-| J | Jump | Not The Jump. | The Only Jump In This Entire Room | Spike Pogo OR Clawline OR Dash OR Sprint OR Faydown Cloak OR Drifter's Cloak OR Scuttlebrace OR Cling Grip OR Sharp Dart |  | Verified |  |
+| J | Jump | The Only Jump In This Entire Room | Not The Jump. | Ledge Grab OR Cling Grip OR Faydown Cloak OR Clawline OR Easy Needle Strike Stall (Beast) OR Scuttlebrace OR Sprint |  | Verified |  |
+| J | Jump | Not The Jump. | The Only Jump In This Entire Room | Spike Pogo OR Clawline OR Dash OR Sprint OR Faydown Cloak OR Drifter's Cloak OR Scuttlebrace OR Cling Grip OR Sharpdart |  | Verified |  |
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Collectable Item Pickup - Quill Red | Not The Jump. | Nothing. |  | Verified | Included |  |
-| Collectable Item Pickup - Quill Purple | Not The Jump. | Nothing. |  | Verified | Included |  |
-| Whispering Vaults: Lore #2 | Not The Jump. | Nothing. |  | Verified | Not included |  |
-| Whispering Vaults: Lore #3 | Not The Jump. | Nothing. |  | Verified | Included |  |
+| Collectable Item Pickup - Quill Red | Not The Jump. | Nothing. |  | Verified | collectible | Missable (Exclusive with other Quills |
+| Collectable Item Pickup - Quill Purple | Not The Jump. | Nothing. |  | Verified | collectible | Missable (Exclusive with other Quills) |
+| Whispering Vaults: Lore #2 | Not The Jump. | Nothing. |  | Verified | lore |  |
+| Whispering Vaults: Lore #3 | Not The Jump. | Nothing. |  | Verified | lore |  |

@@ -35,7 +35,7 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Shell Shard Cache: Sinner’s Road #6 | left area | swim |  |  | Included |  |
-| Shell Shard Cache: Sinner’s Road #7 | left area | swim |  |  | Included |  |
+| Shell Shard Cache: Sinner’s Road #6 | left area | swim |  |  | collectible |  |
+| Shell Shard Cache: Sinner’s Road #7 | left area | swim |  |  | collectible |  |

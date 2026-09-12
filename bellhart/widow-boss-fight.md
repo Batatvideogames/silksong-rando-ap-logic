@@ -14,21 +14,22 @@
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | R | right1 | Arena | [Bellhart Right Entrance (Belltown_06)](bellhart-right-entrance.md) | UL | None |  | Verified |  |
-| C | top1 | Upper | [Upper Bellhart (Belltown_04)](upper-bellhart.md) | F | Silk Soar OR Cling Grip OR ( Dash AND Scuttlebrace ) OR ( Easy skips AND ( Faydown Cloak OR Drifters Cloak ) ) |  | Verified |  |
+| C | top1 | Upper | [Upper Bellhart (Belltown_04)](upper-bellhart.md) | F | Silk Soar OR Cling Grip OR ( Dash AND Scuttlebrace ) OR ( Easy Heal Stall AND ( Faydown Cloak OR Drifters Cloak ) ) |  | Verified |  |
 
 ## Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| TD | Trapdoor | Arena | Upper | Switch Broken from Arena AND ( Cling Grip OR Silk soar OR ( Dash AND Scuttlebrace ) ) |  | Verified | Permanently open |
-| TD | Trapdoor | Upper | Arena | Switch Broken from Arena |  | Verified | Permanently open |
-| RH | Roof Hole | Arena | Upper | Silk Soar OR ( Cling Grip AND Faydown Cloak AND ( Clawline OR Sharpdart ) |  | Verified |  |
+| TD | Trapdoor | Arena | Upper | prereq widow lever AND ( Cling Grip OR Silk soar OR ( Dash AND Scuttlebrace ) ) |  | Verified | Permanently open |
+| TD | Trapdoor | Upper | Arena | prereq widow lever |  | Verified | Permanently open |
+| RH | Roof Hole | Arena | Upper | Silk Soar OR ( Cling Grip AND Faydown Cloak AND ( Clawline OR Sharpdart ) ) |  | Verified |  |
 | RH | Roof Hole | Upper | Arena | None |  | Verified |  |
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Boss: Widow | Arena | None |  | Verified | Included |  |
-| Bell: Bellhart | Arena | None |  | Verified | Included |  |
-| Needolin | Arena | None |  | Verified | Included |  |
+| Boss: Widow | Arena | None |  | Verified | boss |  |
+| Bell: Bellhart | Arena | None |  | Verified | collectible |  |
+| Needolin | Arena | None |  | Verified | collectible |  |
+| Widow Lever | Arena | None |  | Verified | switch |  |

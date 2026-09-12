@@ -41,6 +41,6 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| silk spool deep docks 1 | spool fragment area | none |  |  | Included |  |
+| silk spool deep docks 1 | spool fragment area | none |  |  |  |  |

@@ -20,6 +20,6 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| summoned savior boss fight |  | TODO (steel soul only?) | TODO |  | Included |  |
+| summoned savior boss fight |  | TODO (steel soul only?) | TODO |  |  |  |

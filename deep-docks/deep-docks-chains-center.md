@@ -50,15 +50,15 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| flintslate | upper left hallway | none |  |  | Included |  |
-| shell shard cache deep docks 6 | middle switch platform | none |  |  | Included | MARKED AS ??? ON TRACKER |
-| shell shard cache deep docks 7 | middle switch platform | none |  |  | Included | MARKED AS ??? ON TRACKER |
-| shell shard cache deep docks 8 | middle switch platform | none |  |  | Included | MARKED AS ??? ON TRACKER |
-| shell shard cache deep docks 9 | middle switch platform | none |  |  | Included | MARKED AS ??? ON TRACKER |
-| ceiling switch | middle switch platform | none |  |  | Not included | lowers middle chain platforms |
-| door switch | upper left hallway | none |  |  | Not included |  |
+| flintslate | upper left hallway | none |  |  |  |  |
+| shell shard cache deep docks 6 | middle switch platform | none |  |  |  | MARKED AS ??? ON TRACKER |
+| shell shard cache deep docks 7 | middle switch platform | none |  |  |  | MARKED AS ??? ON TRACKER |
+| shell shard cache deep docks 8 | middle switch platform | none |  |  |  | MARKED AS ??? ON TRACKER |
+| shell shard cache deep docks 9 | middle switch platform | none |  |  |  | MARKED AS ??? ON TRACKER |
+| ceiling switch | middle switch platform | none |  |  |  | lowers middle chain platforms |
+| door switch | upper left hallway | none |  |  |  |  |
 
 ## Notes
 

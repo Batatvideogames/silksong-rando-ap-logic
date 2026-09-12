@@ -15,18 +15,18 @@
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | R | right1 | Right Puddle | [Shellwood Lower Left Tall Room (Shellwood_03)](shellwood-lower-left-tall-room.md) | UL | None |  | Verified |  |
-| L | left1 | Left Puddle | [Shellwood Bellshrine (Bellshrine_03)](shellwood-bellshrine.md) | R | Bell: shellwood owned |  | Needs verification | Might also need switch from other side, needs testing |
-| BB | door_fastTravelExit | Right Puddle | [Bellway Menu](../fast-travel/bellway-menu.md) | SW | Bellway: Shellwood owned AND ( Bell Beast Defeated OR Yaml setting to not need that turned on ) |  | Verified |  |
+| L | left1 | Left Puddle | [Shellwood Bellshrine (Bellshrine_03)](shellwood-bellshrine.md) | R | Have Bell: Shellwood AND Activate Shellwood Shrine IN Shellwood Bellshrine |  | Verified | Might also need switch from other side, needs testing |
+| BB | door_fastTravelExit | Right Puddle | [Bellway Menu](../fast-travel/bellway-menu.md) | SW | Prereq Bellway: Shellwood |  | Verified |  |
 
 ## Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| PU | Puddle | Left Puddle | Right Puddle | Swim Or Dash OR Sprint OR Clawline OR Sharpdart OR Beast Crest OR Drifters Cloak OR Faydown Cloak |  | Verified |  |
-| PU | Puddle | Right Puddle | Left Puddle | Swim Or Dash OR Sprint OR Clawline OR Sharpdart OR Beast Crest OR Drifters Cloak OR Faydown Cloak |  | Verified |  |
+| PU | Puddle | Left Puddle | Right Puddle | Swim OR Dash OR Sprint OR Clawline OR Sharpdart OR Easy Beast Crest pogo OR Drifters Cloak OR Faydown Cloak |  | Verified |  |
+| PU | Puddle | Right Puddle | Left Puddle | Swim OR Dash OR Sprint OR Clawline OR Sharpdart OR Easy Beast Crest pogo OR Drifters Cloak OR Faydown Cloak |  | Verified |  |
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Bellway: Shellwood | Right Puddle | None |  | Verified | Included |  |
+| Bellway: Shellwood | Right Puddle | None |  | Verified | travel |  |

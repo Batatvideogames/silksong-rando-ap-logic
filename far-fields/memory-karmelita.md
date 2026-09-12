@@ -13,7 +13,7 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| MG | door_wakeInMemory | entrance | [Current Karmelita (Ant_Queen)](current-karmelita.md) | MG | none |  | Verified |  |
+| MG | door_wakeInMemory | entrance | [Current Karmelita (Ant_Queen)](current-karmelita.md) | MG | none |  | Verified | just walk left to leave |
 
 ## Subroom Connections
 
@@ -24,6 +24,7 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| boss skarrsinger karmelita | arena | skill |  | Verified | Included |  |
+| skarrsinger karmelita boss fight | arena | none |  | Verified | boss |  |
+| hunter's heart | arena | defeat skarrsinger karmelita boss fight |  | Verified | collectible |  |

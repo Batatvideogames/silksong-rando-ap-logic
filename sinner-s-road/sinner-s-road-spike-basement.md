@@ -24,6 +24,6 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Barbed Bracelet | lower | none |  |  | Included |  |
+| Barbed Bracelet | lower | none |  |  | collectible |  |

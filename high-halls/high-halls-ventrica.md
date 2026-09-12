@@ -21,7 +21,7 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| High Halls - Map Purchase |  | rosaries |  | Verified | Included |  |
-| High Halls - Ventrica |  | rosaries |  | Verified | Included |  |
+| High Halls - Map Purchase |  | rosaries |  | Verified |  |  |
+| High Halls - Ventrica |  | rosaries |  | Verified |  |  |

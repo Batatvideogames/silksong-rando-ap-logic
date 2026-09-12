@@ -20,7 +20,7 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Wish: Balm for the Wounded |  | Start Balm for the Wounded Wish AND Beat Sherma Gauntlet in Whiteward Sherma Gauntlet (Ward_09) |  | Verified | Included | Completion for the wish. |
-| Balm for the Wounded - Spool Fragment |  | Start Balm for the Wounded Wish AND Beat Sherma Gauntlet in Whiteward Sherma Gauntlet (Ward_09) |  | Verified | Included | Completion for the wish. |
+| Wish: Balm for the Wounded |  | Start Balm for the Wounded Wish AND Beat Sherma Gauntlet in Whiteward Sherma Gauntlet (Ward_09) |  | Verified |  | Completion for the wish. |
+| Balm for the Wounded - Spool Fragment |  | Start Balm for the Wounded Wish AND Beat Sherma Gauntlet in Whiteward Sherma Gauntlet (Ward_09) |  | Verified |  | Completion for the wish. |

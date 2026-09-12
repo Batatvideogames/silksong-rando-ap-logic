@@ -33,7 +33,7 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Bilewater - Rosary Cache #1 | left rosary platform | none |  |  | Included |  |
-| Bilewater - Rosary Cache #2 | middle quarter | (Faydown cloak AND (ledge grab OR scuttlebrace)) OR silk soar OR cling grip |  |  | Included |  |
+| Bilewater - Rosary Cache #1 | left rosary platform | none |  |  |  |  |
+| Bilewater - Rosary Cache #2 | middle quarter | (Faydown cloak AND (ledge grab OR scuttlebrace)) OR silk soar OR cling grip |  |  |  |  |

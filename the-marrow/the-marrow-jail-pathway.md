@@ -27,8 +27,8 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| platform switch | upper area | none |  |  | Included |  |
-| rosary cache the marrow 8 | lower area | none |  |  | Included |  |
-| rosary cache the marrow 9 | lower area | none |  |  | Included |  |
+| platform switch | upper area | none |  |  |  |  |
+| rosary cache the marrow 8 | lower area | none |  |  |  |  |
+| rosary cache the marrow 9 | lower area | none |  |  |  |  |

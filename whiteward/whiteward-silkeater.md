@@ -20,6 +20,6 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| White Ward: Silkeater |  | Cling Grip OR Scuttlebrace OR Silk Soar OR (Faydown AND Ledge Grab) |  | Verified | Included |  |
+| White Ward: Silkeater |  | Cling Grip OR Scuttlebrace OR Silk Soar OR (Faydown AND Ledge Grab) |  | Verified |  |  |

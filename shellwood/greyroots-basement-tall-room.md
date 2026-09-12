@@ -26,9 +26,10 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Shell Shard Cache: Shellwood #1 | Top | None |  | Verified | Included |  |
-| Bench | Bottom | Cling Grip OR ( Dash AND Scuttlebrace ) |  | Verified | Not included |  |
-| Shell Shard Cache: Shellwood #2 | Top | None |  | Verified | Included |  |
-| Shell Shard Cache: Shellwood #3 | Top | None |  | Verified | Included |  |
+| Shell Shard Cache: Shellwood #1 | Top | None |  | Verified | resource |  |
+| Bench Diddy Basement | Bottom | Cling Grip OR ( Dash AND Scuttlebrace ) |  | Verified | bench |  |
+| Shell Shard Cache: Shellwood #2 | Top | None |  | Verified | resource |  |
+| Shell Shard Cache: Shellwood #3 | Top | None |  | Verified | resource |  |
+| Breakable Roof Diddy Basement | Top | Cling Grip |  | Verified | blockade |  |

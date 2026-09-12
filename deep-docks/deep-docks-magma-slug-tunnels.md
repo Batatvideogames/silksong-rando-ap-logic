@@ -30,8 +30,8 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| left door switch | left exit area | none |  |  | Not included | opens the pathway between left/right |
-| right door switch | right exit area | none |  |  | Not included | unlocks the right exit |
-| beast shard deep docks | slug tunnels | none |  |  | Included | annoying af areas enabled OR ( silk soar AND magma bell AND blue slot ) |
+| left door switch | left exit area | none |  |  |  | opens the pathway between left/right |
+| right door switch | right exit area | none |  |  |  | unlocks the right exit |
+| beast shard deep docks | slug tunnels | none |  |  |  | annoying af areas enabled OR ( silk soar AND magma bell AND blue slot ) |

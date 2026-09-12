@@ -20,6 +20,6 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| High Halls - Spool Fragment |  | silk soar or (clawline and faydown cloak and cling grip) |  | Verified | Included |  |
+| High Halls - Spool Fragment |  | silk soar or (clawline and faydown cloak and cling grip) |  | Verified |  |  |

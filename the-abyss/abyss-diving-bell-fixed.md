@@ -13,7 +13,7 @@ No subrooms defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | L | left1 |  | [Abyss Landing Zone (Abyss_03)](abyss-landing-zone.md) | D2 | None |  | Verified |  |
-| B | door_cinematicEnd |  | [Deep Docks Diving Bell Interior (Room_Diving_Bell)](../deep-docks/deep-docks-diving-bell-interior.md) | D | None | TODO |  |  |
+| B | door_cinematicEnd |  | [Deep Docks Diving Bell Interior (Room_Diving_Bell)](../deep-docks/deep-docks-diving-bell-interior.md) | D | None |  | Verified |  |
 
 ## Subroom Connections
 

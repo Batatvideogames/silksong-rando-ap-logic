@@ -20,11 +20,11 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| UP | upper pogo | main area | flea rescue area | ledge grab OR scuttlebrace OR shaman crest OR reaper crest OR wanderer crest OR faydown cloak OR silk soar |  | Verified |  |
+| UP | upper pogo | main area | flea rescue area | ledge grab OR scuttlebrace OR easy shaman pogo OR easy reaper pogo OR easy wanderer pogo OR faydown cloak OR silk soar |  | Verified |  |
 | UP | upper pogo | flea rescue area | main area | none (falling) |  | Verified |  |
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| flea rescue | flea rescue area | can break cage |  | Verified | Included |  |
+| flea rescue | flea rescue area | break vines right |  | Verified | collectible |  |

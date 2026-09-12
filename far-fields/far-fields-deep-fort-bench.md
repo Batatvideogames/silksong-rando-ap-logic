@@ -22,11 +22,11 @@
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | SS | silk soar spot | main floor | bench area | silk soar |  | Verified |  |
-| SS | silk soar spot | bench area | main floor | none (falling) |  |  |  |
+| SS | silk soar spot | bench area | main floor | none (falling) |  | Verified |  |
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| craw summons | bench area | meet craw summons requirements | TODO | Needs verification | Not included | one of several possible craw summons locations |
-| bench | bench area | none |  | Verified | Not included |  |
+| craw summons spawn point | bench area | craw summons ready |  | Verified | collectible | one of several possible craw summons locations |
+| bench | bench area | none |  | Verified | bench |  |

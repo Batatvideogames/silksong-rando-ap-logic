@@ -20,14 +20,14 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| WR | Whole Room | Start | End | Cling grip AND ( Clawline OR Sharpdart OR ( Dash AND ( Drifters Cloak OR Beast Crest ) ) ) OR ( Beast crest AND Faydown Cloak AND Needle Strike ) |  | Verified |  |
-| WR | Whole Room | End | Start | Cling grip AND ( Clawline OR Sharpdart OR ( Dash AND ( Drifters Cloak OR Beast Crest ) ) ) OR ( Beast crest AND Faydown Cloak AND Needle Strike ) |  | Verified |  |
-| SD | Shard Detour | Start | Shard Platform | Silk Soar OR ( ( Dash AND Scuttlebrace ) AND ( Clawline OR Sharpdart ) ) OR ( Cling grip AND ( Dash OR Clawline OR Sharpdart OR Beast Crest OR Faydown Cloak OR Drifters Cloak ) ) |  | Verified |  |
+| WR | Whole Room | Start | End | Cling grip AND ( ( Clawline OR Sharpdart OR ( Dash AND ( Drifters Cloak OR easy Beast Crest pogo ) ) ) OR ( easy Beast crest pogo AND Faydown Cloak AND easy Needle Strike stall ) ) |  | Verified |  |
+| WR | Whole Room | End | Start | Cling grip AND ( ( Clawline OR Sharpdart OR ( Dash AND ( Drifters Cloak OR easy Beast Crest pogo ) ) ) OR ( easy Beast crest pogo AND Faydown Cloak AND easy Needle Strike stall) ) |  | Verified |  |
+| SD | Shard Detour | Start | Shard Platform | Silk Soar OR ( ( Dash AND Scuttlebrace ) AND ( Clawline OR Sharpdart ) ) OR ( Cling grip AND ( Dash OR Clawline OR Sharpdart OR easy Beast Crest pogo OR Faydown Cloak OR Drifters Cloak ) ) |  | Verified |  |
 | SD | Shard Detour | Shard Platform | Start | None |  | Verified |  |
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Crustnut | End | None |  | Verified | Included |  |
-| Shard Cache: Sands of Karak #11 | Shard Platform | None |  | Verified | Included |  |
+| Crustnut | End | None |  | Verified | collectible |  |
+| Shard Cache: Sands of Karak #11 | Shard Platform | None |  | Verified | resource |  |

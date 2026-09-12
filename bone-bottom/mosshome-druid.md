@@ -20,8 +20,8 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| wish berry picking |  | TODO |  |  | Not included | this just gets you druid's eye |
-| druid's eye |  | progressive mossberry (3) |  |  | Included | TRACKER WRONG POSITION |
-| druid's eyes |  | progressive mossberry (7) |  |  | Included | TRACKER WRONG POSITION |
+| wish berry picking |  | TODO |  |  |  | this just gets you druid's eye |
+| druid's eye |  | progressive mossberry (3) |  |  |  | TRACKER WRONG POSITION |
+| druid's eyes |  | progressive mossberry (7) |  |  |  | TRACKER WRONG POSITION |

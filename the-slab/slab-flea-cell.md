@@ -18,6 +18,6 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Flea: The Slab |  | none |  |  | Included |  |
+| Flea: The Slab |  | none |  |  |  |  |

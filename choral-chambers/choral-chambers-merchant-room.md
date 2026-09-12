@@ -20,6 +20,6 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Rosary Cache: Choral Chambers #10 |  | cling grip |  | Verified | Included |  |
+| Rosary Cache: Choral Chambers #10 |  | cling grip |  | Verified |  |  |

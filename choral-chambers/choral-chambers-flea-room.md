@@ -20,6 +20,6 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Flea: Choral Chambers - Spa |  | none |  | Verified | Included |  |
+| Flea: Choral Chambers - Spa |  | none |  | Verified |  |  |

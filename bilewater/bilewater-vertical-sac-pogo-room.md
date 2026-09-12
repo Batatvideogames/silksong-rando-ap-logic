@@ -42,7 +42,7 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Bilewater - Rosary Cache #4 | upper platform | none |  |  | Included |  |
-| Bilewater - Rosary Cache #5 | upper platform | none |  |  | Included |  |
+| Bilewater - Rosary Cache #4 | upper platform | none |  |  |  |  |
+| Bilewater - Rosary Cache #5 | upper platform | none |  |  |  |  |

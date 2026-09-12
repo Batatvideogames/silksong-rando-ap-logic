@@ -10,7 +10,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-|  | left1 |  | [Songclave (Song_Enclave)](songclave.md) | D |  |  |  |  |
+| L | left1 |  | [Songclave (Song_Enclave)](songclave.md) | D | none |  | Verified |  |
 
 ## Subroom Connections
 

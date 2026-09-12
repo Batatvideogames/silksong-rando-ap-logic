@@ -1,0 +1,3680 @@
+{
+  "requirementCatalogueVersion": 1,
+  "predicates": [
+    {
+      "id": "e33d333d-9ecc-5425-a005-f59b5f0507a5",
+      "name": "No Requirements",
+      "category": "Built-in",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "none",
+      "notes": "For situations where a traversal has no restrictions.",
+      "sortOrder": 0,
+      "aliases": "none, nothing, nada, free"
+    },
+    {
+      "id": "1df654de-515d-5554-a398-58286e0446e1",
+      "name": "Invalid",
+      "category": "Built-in",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "invalid",
+      "notes": "For situations where a traversal can never happen.",
+      "sortOrder": 1,
+      "aliases": "invalid, impassable, you have literally no reason to ever do this"
+    },
+    {
+      "id": "7b77acec-2ee9-5052-a24a-c38ffdbd83de",
+      "name": "Prerequisite Check",
+      "category": "Dependency",
+      "inputSyntax": "{predicate} {check}",
+      "outputSyntax": "dependency:{check}",
+      "notes": "Use when another check (in the same room or another room) is the gatekeeper for a condition. Review the special {check} syntax in the syntax guide.",
+      "sortOrder": 2,
+      "aliases": "prereq, complete, defeat, activate, unlock, clear, after"
+    },
+    {
+      "id": "49fc1dd1-fac9-514f-b3ab-3854b2320c50",
+      "name": "Have Item",
+      "category": "Inventory",
+      "inputSyntax": "{predicate} {item}",
+      "outputSyntax": "item:{item}",
+      "notes": "Use when ownership of an item is enough, even if you can\u0027t equip/use it.",
+      "sortOrder": 3,
+      "aliases": "have, own"
+    },
+    {
+      "id": "9e243d7a-b158-4e43-9ce5-5e1babcf6dca",
+      "name": "Needle",
+      "category": "Ability",
+      "inputSyntax": "{predicate} {direction}",
+      "outputSyntax": "capability:needle:{direction}",
+      "notes": "",
+      "sortOrder": 4,
+      "aliases": "needle, hit, attack"
+    },
+    {
+      "id": "9ffbf5c7-4b2c-5bdc-b84f-b61f71e81835",
+      "name": "Break Vines",
+      "category": "Interaction",
+      "inputSyntax": "{predicate} {direction}",
+      "outputSyntax": "capability:break-vines:{direction}",
+      "notes": "Use when you need to break vines. Needed for attack randomization.",
+      "sortOrder": 5,
+      "aliases": "break vines"
+    },
+    {
+      "id": "962b2bd6-e65c-50d8-935c-17adab3f0622",
+      "name": "Break Wall",
+      "category": "Interaction",
+      "inputSyntax": "{predicate} {direction}",
+      "outputSyntax": "capability:break-wall:{direction}",
+      "notes": "Use when you need to break a wall. Needed for attack randomization.",
+      "sortOrder": 6,
+      "aliases": "break wall"
+    },
+    {
+      "id": "405b8446-7137-42b9-8c30-a98c7bb911bf",
+      "name": "Break Blast Rock",
+      "category": "Interaction",
+      "inputSyntax": "{predicate} {direction}",
+      "outputSyntax": "capability:break-blast-rock:{direction}",
+      "notes": "Use when you need to trigger a blast rock. Needed for attack randomization.",
+      "sortOrder": 7,
+      "aliases": "break blast rock"
+    },
+    {
+      "id": "18d3f65e-a38d-5b5c-9426-97f26759826f",
+      "name": "Open Airlock",
+      "category": "Interaction",
+      "inputSyntax": "{predicate} {direction}",
+      "outputSyntax": "capability:break-airlock:{direction}",
+      "notes": "Use when you need to flip an airlock switch. Needed for attack randomization. (Airlocks are the doors that open and close behind you in Deep Docks after you flip the lever.)",
+      "sortOrder": 8,
+      "aliases": "open airlock, break airlock, hit airlock"
+    },
+    {
+      "id": "907e5883-b374-4b92-8b23-7caa88026392",
+      "name": "Flip Switch",
+      "category": "Interaction",
+      "inputSyntax": "{predicate} {direction}",
+      "outputSyntax": "capability:break-switch:{direction}",
+      "notes": "Use when you need to interact with a switch. Needed for attack randomization.",
+      "sortOrder": 9,
+      "aliases": "flip switch, flip lever, break switch, break lever, hit switch, hit lever"
+    },
+    {
+      "id": "b4246106-b154-500e-8a0d-8ff0cdbab1ab",
+      "name": "Ledge Grab",
+      "category": "Ability",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "capability:ledge-grab",
+      "notes": "",
+      "sortOrder": 10,
+      "aliases": "ledge grab"
+    },
+    {
+      "id": "7f15bbb4-a01d-56d5-a074-1d0e2f8946a7",
+      "name": "Swim",
+      "category": "Ability",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "capability:swim",
+      "notes": "",
+      "sortOrder": 11,
+      "aliases": "swim"
+    },
+    {
+      "id": "8b59e2f5-83de-5a48-ab90-c6cc02605274",
+      "name": "Progressive Swift Step 1",
+      "category": "Ability",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "capability:sprint",
+      "notes": "",
+      "sortOrder": 12,
+      "aliases": "run, sprint, swift step 1, progressive swift step 1"
+    },
+    {
+      "id": "44034142-4a67-5fd4-83f5-68c344ec9ba8",
+      "name": "Progressive Swift Step 2",
+      "category": "Ability",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "capability:dash",
+      "notes": "",
+      "sortOrder": 13,
+      "aliases": "dash, swift step 2, progressive swift step 2"
+    },
+    {
+      "id": "cdcace80-fbee-5b7c-9e81-922da0874671",
+      "name": "Cling Grip",
+      "category": "Ability",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "capability:cling-grip",
+      "notes": "",
+      "sortOrder": 14,
+      "aliases": "cling grip"
+    },
+    {
+      "id": "888691bc-99b9-5ca8-b34e-b686b8ca57d7",
+      "name": "Drifter\u0027s Cloak",
+      "category": "Ability",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "capability:drifters-cloak",
+      "notes": "",
+      "sortOrder": 15,
+      "aliases": "drifters cloak, drifters"
+    },
+    {
+      "id": "2950dcf2-0817-5aa8-b2f4-28c82c51ef15",
+      "name": "Faydown Cloak",
+      "category": "Ability",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "capability:faydown-cloak",
+      "notes": "",
+      "sortOrder": 16,
+      "aliases": "faydown cloak, faydown"
+    },
+    {
+      "id": "97e688ac-7ade-5b4f-8e7a-d99c7c138ae6",
+      "name": "Clawline",
+      "category": "Ability",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "capability:clawline",
+      "notes": "",
+      "sortOrder": 17,
+      "aliases": "clawline"
+    },
+    {
+      "id": "1394e75b-3782-41f2-bad0-22ff1fff9c7c",
+      "name": "Clawline (w/ Quantity)",
+      "category": "Ability",
+      "inputSyntax": "{predicate} {quantity}",
+      "outputSyntax": "capability:clawline:{quantity}",
+      "notes": "",
+      "sortOrder": 18,
+      "aliases": "clawline x"
+    },
+    {
+      "id": "78ff32b2-842a-5dde-9ebe-a582082d14c5",
+      "name": "Silk Soar",
+      "category": "Ability",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "capability:silk-soar",
+      "notes": "I will allow the typo \u0022silksoar\u0022 out of the generosity of my heart.",
+      "sortOrder": 19,
+      "aliases": "silk soar, silksoar"
+    },
+    {
+      "id": "6e19f6a1-e559-500f-868c-72b3fb83b818",
+      "name": "Needolin",
+      "category": "Ability",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "capability:needolin",
+      "notes": "Implies ownership of the needolin and the silk to use it.",
+      "sortOrder": 20,
+      "aliases": "needolin"
+    },
+    {
+      "id": "d91b95e7-6633-50c2-9bd5-cc3092048d81",
+      "name": "Sharpdart",
+      "category": "Ability",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "capability:sharpdart",
+      "notes": "This is more than having the spell sharpdart. This implies the ability to equip it and the necessary silk to use it.",
+      "sortOrder": 21,
+      "aliases": "sharpdart"
+    },
+    {
+      "id": "eb7828d2-2c03-4846-b205-68abdd563801",
+      "name": "Sharpdart (w/ Quantity)",
+      "category": "Ability",
+      "inputSyntax": "{predicate} {quantity}",
+      "outputSyntax": "capability:sharpdart:{quantity}",
+      "notes": "This is more than having the spell sharpdart. This implies the ability to equip it and the necessary silk to use it the specified number of times.",
+      "sortOrder": 22,
+      "aliases": "sharpdart x"
+    },
+    {
+      "id": "287281a9-0360-59b8-a31e-953c4ad19717",
+      "name": "Scuttlebrace",
+      "category": "Ability",
+      "inputSyntax": "{difficulty?} {predicate}",
+      "outputSyntax": "capability:scuttlebrace:{difficulty}",
+      "notes": "The unholy abomination. This implies you have the tool, dash, and the tool slot to equip scuttlebrace.",
+      "sortOrder": 23,
+      "aliases": "scuttlebrace"
+    },
+    {
+      "id": "dac62eb7-1b6e-43a7-92d6-f678e5e66c30",
+      "name": "Flea Brew",
+      "category": "Ability",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "capability:flea-brew",
+      "notes": "This implies you have the tool, the tool slot to equip it, and the means of getting a refill.",
+      "sortOrder": 24,
+      "aliases": "flea brew"
+    },
+    {
+      "id": "8f8be758-e4d6-48df-b8e0-cfa19e4058b0",
+      "name": "Silkspeed Anklets",
+      "category": "Ability",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "capability:silkspeed-anklets",
+      "notes": "This implies you have the tool and the tool slot to equip it.",
+      "sortOrder": 25,
+      "aliases": "silkspeed anklets, silkspeed, anklets"
+    },
+    {
+      "id": "e6eace42-1eea-45c4-8f5f-e48ceb19276c",
+      "name": "Curveclaw",
+      "category": "Ability",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "capability:curveclaw",
+      "notes": "This implies you have the tool and the tool slot to equip it.",
+      "sortOrder": 26,
+      "aliases": "curveclaw"
+    },
+    {
+      "id": "62240635-3465-4d6f-b7c2-6551237f7087",
+      "name": "Elegy of the Deep",
+      "category": "Ability",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "capability:elegy-of-the-deep",
+      "notes": "Implies having the melody and the needolin to play it.",
+      "sortOrder": 27,
+      "aliases": "elegy of the deep, elegy melody, play elegy"
+    },
+    {
+      "id": "b9ad57b4-812d-4135-994d-3a786b4d37e5",
+      "name": "Magma Bell",
+      "category": "Ability",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "capability:magma-bell",
+      "notes": "This implies you have the tool and the tool slot to equip it.",
+      "sortOrder": 28,
+      "aliases": "magma bell"
+    },
+    {
+      "id": "21a234cc-768b-4c6d-8c18-eb4d9693fe11",
+      "name": "Shredding Damage",
+      "category": "Ability",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "capability:damage-shredding",
+      "notes": "Implies having and the ability to equip Sawtooth Circlet, Cogwork Wheel, Delver\u0027s Drill, Conchcutter, Beast Crest, or Architect Crest.",
+      "sortOrder": 29,
+      "aliases": "shredding damage, shred"
+    },
+    {
+      "id": "0ed29967-8102-4316-8967-3f04bf14db48",
+      "name": "Skewering Damage",
+      "category": "Ability",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "capability:damage-skewering",
+      "notes": "Implies having and being able to equip Sting Shard, Longpin, or Needle Phial.",
+      "sortOrder": 30,
+      "aliases": "skewering damage, skewer"
+    },
+    {
+      "id": "f9a7b3f6-a5f7-4135-a8b3-23974c370243",
+      "name": "Searing Damage",
+      "category": "Ability",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "capability:damage-searing",
+      "notes": "Implies having and being able to equip Flintslate, Pimpillo, Wispfire Lantern, or Voltvessels.",
+      "sortOrder": 31,
+      "aliases": "searing damage, sear"
+    },
+    {
+      "id": "537d9c2f-e302-5b47-aeb5-d4bb7c42563f",
+      "name": "Hunter Crest Attack",
+      "category": "Technique",
+      "inputSyntax": "{predicate} {direction}",
+      "outputSyntax": "technique:hunter-crest-attack:{direction}",
+      "notes": "",
+      "sortOrder": 32,
+      "aliases": "hunter attack, hunter crest attack, hunter slash"
+    },
+    {
+      "id": "bfc75271-5434-54c6-aec1-273d21aa5e38",
+      "name": "Wanderer Crest Attack",
+      "category": "Technique",
+      "inputSyntax": "{predicate} {direction}",
+      "outputSyntax": "technique:wanderer-crest-attack:{direction}",
+      "notes": "",
+      "sortOrder": 33,
+      "aliases": "wanderer attack, wanderer crest attack, wanderer slash"
+    },
+    {
+      "id": "ff564106-edef-5fb4-94bc-afcda3266310",
+      "name": "Beast Crest Attack",
+      "category": "Technique",
+      "inputSyntax": "{predicate} {direction}",
+      "outputSyntax": "technique:beast-crest-attack:{direction}",
+      "notes": "",
+      "sortOrder": 34,
+      "aliases": "beast attack, beast crest attack, beast slash"
+    },
+    {
+      "id": "36359761-63ee-5809-a927-520de4b999db",
+      "name": "Reaper Crest Attack",
+      "category": "Technique",
+      "inputSyntax": "{predicate} {direction}",
+      "outputSyntax": "technique:reaper-crest-attack:{direction}",
+      "notes": "",
+      "sortOrder": 35,
+      "aliases": "reaper attack, reaper crest attack, reaper slash"
+    },
+    {
+      "id": "485faaca-97de-561c-bf2b-ac838c644541",
+      "name": "Witch Crest Attack",
+      "category": "Technique",
+      "inputSyntax": "{predicate} {direction}",
+      "outputSyntax": "technique:witch-crest-attack:{direction}",
+      "notes": "",
+      "sortOrder": 36,
+      "aliases": "witch attack, witch crest attack, witch slash"
+    },
+    {
+      "id": "c8c35379-7842-5d0b-b651-79057f5195da",
+      "name": "Architect Crest Attack",
+      "category": "Technique",
+      "inputSyntax": "{predicate} {direction}",
+      "outputSyntax": "technique:architect-crest-attack:{direction}",
+      "notes": "",
+      "sortOrder": 37,
+      "aliases": "architect attack, architect crest attack, architect slash"
+    },
+    {
+      "id": "616ca77e-8b7e-5b35-a5fb-8c870c75b430",
+      "name": "Shaman Crest Attack",
+      "category": "Technique",
+      "inputSyntax": "{predicate} {direction}",
+      "outputSyntax": "technique:shaman-crest-attack:{direction}",
+      "notes": "",
+      "sortOrder": 38,
+      "aliases": "shaman attack, shaman crest attack, shaman slash"
+    },
+    {
+      "id": "a0012032-80da-456b-b7ce-30bae9dc36f3",
+      "name": "Hunter Crest Pogo",
+      "category": "Ability",
+      "inputSyntax": "{difficulty} {predicate}",
+      "outputSyntax": "capability:hunter-crest-pogo:{difficulty}",
+      "notes": "",
+      "sortOrder": 39,
+      "aliases": "hunter pogo, hunter crest pogo"
+    },
+    {
+      "id": "df123bbd-6708-462b-85ee-d251f058a041",
+      "name": "Wanderer Crest Pogo",
+      "category": "Ability",
+      "inputSyntax": "{difficulty} {predicate}",
+      "outputSyntax": "capability:wanderer-crest-pogo:{difficulty}",
+      "notes": "",
+      "sortOrder": 40,
+      "aliases": "wanderer pogo, wanderer crest pogo"
+    },
+    {
+      "id": "00aa3b99-27fb-5a54-877d-fd7e52b8bde5",
+      "name": "Beast Crest Pogo",
+      "category": "Ability",
+      "inputSyntax": "{difficulty} {predicate}",
+      "outputSyntax": "capability:beast-crest-pogo:{difficulty}",
+      "notes": "",
+      "sortOrder": 41,
+      "aliases": "beast pogo, beast crest pogo"
+    },
+    {
+      "id": "fff4390c-c9cf-4f38-a115-9dd4f8671680",
+      "name": "Reaper Crest Pogo",
+      "category": "Ability",
+      "inputSyntax": "{difficulty} {predicate}",
+      "outputSyntax": "capability:reaper-crest-pogo:{difficulty}",
+      "notes": "",
+      "sortOrder": 42,
+      "aliases": "reaper pogo, reaper crest pogo"
+    },
+    {
+      "id": "4eb74d8f-d9be-45ec-baaf-8f0ff75512b9",
+      "name": "Witch Crest Pogo",
+      "category": "Ability",
+      "inputSyntax": "{difficulty} {predicate}",
+      "outputSyntax": "capability:witch-crest-pogo:{difficulty}",
+      "notes": "",
+      "sortOrder": 43,
+      "aliases": "witch pogo, witch crest pogo"
+    },
+    {
+      "id": "da57c71b-e53a-5dff-b707-dadb8fbd9ef7",
+      "name": "Architect Crest Pogo",
+      "category": "Ability",
+      "inputSyntax": "{difficulty} {predicate}",
+      "outputSyntax": "capability:architect-crest-pogo:{difficulty}",
+      "notes": "",
+      "sortOrder": 44,
+      "aliases": "architect pogo, architect crest pogo"
+    },
+    {
+      "id": "257a5a90-ef45-50ce-af79-521300706f7d",
+      "name": "Shaman Crest Pogo",
+      "category": "Ability",
+      "inputSyntax": "{difficulty} {predicate}",
+      "outputSyntax": "capability:shaman-crest-pogo:{difficulty}",
+      "notes": "",
+      "sortOrder": 45,
+      "aliases": "shaman pogo, shaman crest pogo"
+    },
+    {
+      "id": "53203476-0a4b-56a2-ad73-bed0316fd638",
+      "name": "Hunter Crest Needle Strike",
+      "category": "Technique",
+      "inputSyntax": "{difficulty} {predicate}",
+      "outputSyntax": "technique:hunter-crest-needle-strike:{difficulty}",
+      "notes": "",
+      "sortOrder": 46,
+      "aliases": "hunter needle strike, hunter crest needle strike, hunter charge"
+    },
+    {
+      "id": "892b726e-0a63-52e8-bde2-d801a4c05284",
+      "name": "Wanderer Crest Needle Strike",
+      "category": "Technique",
+      "inputSyntax": "{difficulty} {predicate}",
+      "outputSyntax": "technique:wanderer-crest-needle-strike:{difficulty}",
+      "notes": "",
+      "sortOrder": 47,
+      "aliases": "wanderer needle strike, wanderer crest needle strike, wanderer charge"
+    },
+    {
+      "id": "d8e174ba-7b43-51a5-ba6c-b1e668049367",
+      "name": "Beast Crest Needle Strike",
+      "category": "Technique",
+      "inputSyntax": "{difficulty} {predicate}",
+      "outputSyntax": "technique:beast-crest-needle-strike:{difficulty}",
+      "notes": "",
+      "sortOrder": 48,
+      "aliases": "beast needle strike, beast crest needle strike, beast charge"
+    },
+    {
+      "id": "cd5030ed-e674-5d49-a069-2b785405a2ab",
+      "name": "Reaper Crest Needle Strike",
+      "category": "Technique",
+      "inputSyntax": "{difficulty} {predicate}",
+      "outputSyntax": "technique:reaper-crest-needle-strike:{difficulty}",
+      "notes": "",
+      "sortOrder": 49,
+      "aliases": "reaper needle strike, reaper crest needle strike, reaper charge"
+    },
+    {
+      "id": "60643804-0f91-5117-bddb-6b92f9574736",
+      "name": "Witch Crest Needle Strike",
+      "category": "Technique",
+      "inputSyntax": "{difficulty} {predicate}",
+      "outputSyntax": "technique:witch-crest-needle-strike:{difficulty}",
+      "notes": "",
+      "sortOrder": 50,
+      "aliases": "witch needle strike, witch crest needle strike, witch charge"
+    },
+    {
+      "id": "8d86b902-e68c-5b9e-9f96-eb4414f7e7c9",
+      "name": "Architect Crest Needle Strike",
+      "category": "Technique",
+      "inputSyntax": "{difficulty} {predicate}",
+      "outputSyntax": "technique:architect-crest-needle-strike:{difficulty}",
+      "notes": "",
+      "sortOrder": 51,
+      "aliases": "architect needle strike, architect crest needle strike, architect charge"
+    },
+    {
+      "id": "ad9b0c8d-4860-520a-aaea-8d7ed75dea16",
+      "name": "Shaman Crest Needle Strike",
+      "category": "Technique",
+      "inputSyntax": "{difficulty} {predicate}",
+      "outputSyntax": "technique:shaman-crest-needle-strike:{difficulty}",
+      "notes": "",
+      "sortOrder": 52,
+      "aliases": "shaman needle strike, shaman crest needle strike, shaman charge"
+    },
+    {
+      "id": "6ccc5e48-bb32-5dba-8bf3-ec93411d2c36",
+      "name": "Enemy Pogo",
+      "category": "Ability",
+      "inputSyntax": "{difficulty?} {predicate}",
+      "outputSyntax": "capability:enemy-pogo:{difficulty}",
+      "notes": "",
+      "sortOrder": 53,
+      "aliases": "enemy pogo"
+    },
+    {
+      "id": "32367338-0631-5453-a6a9-e8ce0e4f655b",
+      "name": "Spike Pogo",
+      "category": "Ability",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "capability:spike-pogo",
+      "notes": "Use when a traversal requires a pogo on spikes. Needed for cloakless run randomization. Use for spike pogos that are essentially free.",
+      "sortOrder": 54,
+      "aliases": "spike pogo"
+    },
+    {
+      "id": "be669aa2-f8e6-45e4-9d93-55095644eed9",
+      "name": "Spike Pogo Skip",
+      "category": "Technique",
+      "inputSyntax": "{difficulty} {predicate}",
+      "outputSyntax": "capability:spike-pogo-skip:{difficulty}",
+      "notes": "Use when a traversal requires a pogo on spikes. Needed for cloakless run randomization. Considered a skip if it is devious movement that should not be performed by mere mortals.",
+      "sortOrder": 55,
+      "aliases": "skip spike pogo"
+    },
+    {
+      "id": "792edc30-8708-4b1e-8bb5-a4dba710bea2",
+      "name": "Needle Strike Stall",
+      "category": "Technique",
+      "inputSyntax": "{difficulty} {predicate}",
+      "outputSyntax": "capability:needle-strike-stall:{difficulty}",
+      "notes": "",
+      "sortOrder": 56,
+      "aliases": "needle strike stall"
+    },
+    {
+      "id": "92111a7b-a251-5ba2-a4ed-ca3456139dc9",
+      "name": "Heal Stall",
+      "category": "Technique",
+      "inputSyntax": "{difficulty} {predicate}",
+      "outputSyntax": "capability:heal-stall:{difficulty}",
+      "notes": "Factors in whether the user only has shaman crest.",
+      "sortOrder": 57,
+      "aliases": "heal stall"
+    },
+    {
+      "id": "1e4bf14f-62a4-5c88-a443-41b103dd26ce",
+      "name": "Flea Brew Stall",
+      "category": "Technique",
+      "inputSyntax": "{difficulty} {predicate}",
+      "outputSyntax": "capability:flea-brew-stall:{difficulty}",
+      "notes": "",
+      "sortOrder": 58,
+      "aliases": "flea brew stall"
+    },
+    {
+      "id": "908bdcfd-84d1-4b22-b975-1228bf1dd00d",
+      "name": "Hazard Respawn",
+      "category": "Technique",
+      "inputSyntax": "{difficulty} {predicate}",
+      "outputSyntax": "capability:hazard-respawn:{difficulty}",
+      "notes": "Indicates the user takes advantage of a hazard respawn to cross a gap. Must be careful not to confuse with damage boost, which does not respawn the player. Quantity indicates masks of damage taken.",
+      "sortOrder": 59,
+      "aliases": "hazard respawn"
+    },
+    {
+      "id": "e35edcc3-93b7-43c2-bd80-d30dd494d21e",
+      "name": "Damage Boost",
+      "category": "Technique",
+      "inputSyntax": "{difficulty} {predicate}",
+      "outputSyntax": "technique:damage-boost:{difficulty}",
+      "notes": "Indicates the user takes advantage of a taking damage to cross a gap. Must be careful not to confuse with hazard respawn, which respawns the player. Quantity indicates masks of damage taken.",
+      "sortOrder": 60,
+      "aliases": "damage boost"
+    },
+    {
+      "id": "20bf89ba-73c6-47da-9f14-c8e1c3814b61",
+      "name": "Cocoon Skip",
+      "category": "Technique",
+      "inputSyntax": "{difficulty} {predicate}",
+      "outputSyntax": "capability:cocoon-slip:{difficulty}",
+      "notes": "\u0022We are NOT doing cocoon skip.\u0022 - Moriko Kyoho",
+      "sortOrder": 61,
+      "aliases": "cocoon skip"
+    },
+    {
+      "id": "f211fc8f-37a2-4862-9171-ffcb22cb6a58",
+      "name": "Rescued Fleas",
+      "category": "Count",
+      "inputSyntax": "{predicate} {quantity}",
+      "outputSyntax": "count:fleas:{quantity}",
+      "notes": "",
+      "sortOrder": 62,
+      "aliases": "fleas, rescued fleas"
+    },
+    {
+      "id": "a475b242-b6d2-5428-bf56-2306726bdb3e",
+      "name": "Mossberries",
+      "category": "Count",
+      "inputSyntax": "{predicate} {quantity}",
+      "outputSyntax": "count:mossberries:{quantity}",
+      "notes": "",
+      "sortOrder": 63,
+      "aliases": "mossberries"
+    },
+    {
+      "id": "dd853719-b627-4306-a16b-af60a96eebbd",
+      "name": "Flexible Spines",
+      "category": "Count",
+      "inputSyntax": "{predicate} {quantity}",
+      "outputSyntax": "count:flexible-spines:{quantity}",
+      "notes": "Used for the Flexible Spines wish. The spines are an infinitely farmable resources if you have access to a Hoker enemy if you can leave then reenter the room. ",
+      "sortOrder": 64,
+      "aliases": "flexible spines"
+    },
+    {
+      "id": "1d66e2fa-e621-5d22-b81c-6273359c1d1f",
+      "name": "Pollip Hearts",
+      "category": "Count",
+      "inputSyntax": "{predicate} {quantity}",
+      "outputSyntax": "count:pollip-hearts:{quantity}",
+      "notes": "Used for the Rite of Pollip wish.",
+      "sortOrder": 65,
+      "aliases": "pollip hearts"
+    },
+    {
+      "id": "e7afb47e-5763-44c1-86e4-d541f8393823",
+      "name": "Pale Oils",
+      "category": "Count",
+      "inputSyntax": "{predicate} {quantity}",
+      "outputSyntax": "count:pale-oil:{quantity}",
+      "notes": "",
+      "sortOrder": 66,
+      "aliases": "pale oils"
+    },
+    {
+      "id": "bcbdc047-d20a-5f43-8c7f-1135269b79b7",
+      "name": "Spool Fragments",
+      "category": "Count",
+      "inputSyntax": "{predicate} {quantity}",
+      "outputSyntax": "count:spool-fragments:{quantity}",
+      "notes": "",
+      "sortOrder": 67,
+      "aliases": "spool fragments"
+    },
+    {
+      "id": "4557a957-41ae-5a35-8c26-fd7f81cf7066",
+      "name": "Silkhearts",
+      "category": "Count",
+      "inputSyntax": "{predicate} {quantity}",
+      "outputSyntax": "count:progressive-silkheart:{quantity}",
+      "notes": "",
+      "sortOrder": 68,
+      "aliases": "silkhearts"
+    },
+    {
+      "id": "c05dcf55-6210-5c74-bad4-fb7132c0f451",
+      "name": "Needle Upgrades",
+      "category": "Count",
+      "inputSyntax": "{predicate} {quantity}",
+      "outputSyntax": "count:progressive-needle-upgrade:{quantity}",
+      "notes": "",
+      "sortOrder": 69,
+      "aliases": "needle upgrades"
+    },
+    {
+      "id": "39ed53fd-ccc4-5b07-8d94-6340d0deeb78",
+      "name": "Rosaries",
+      "category": "Count",
+      "inputSyntax": "{predicate} {quantity}",
+      "outputSyntax": "count:rosaries:{quantity}",
+      "notes": "",
+      "sortOrder": 70,
+      "aliases": "rosaries"
+    },
+    {
+      "id": "8d8a75b4-bda5-4729-88b3-347413a05cd2",
+      "name": "Seared Organs",
+      "category": "Count",
+      "inputSyntax": "{predicate} {quantity}",
+      "outputSyntax": "count:seared-organs:{quantity}",
+      "notes": "Used for the Broodfeast or Runtfeast wish.",
+      "sortOrder": 71,
+      "aliases": "seared organs"
+    },
+    {
+      "id": "e4b3e6f8-60de-4711-bc80-58bc6c8e8efc",
+      "name": "Shredded Organs",
+      "category": "Count",
+      "inputSyntax": "{predicate} {quantity}",
+      "outputSyntax": "count:shredded-organs:{quantity}",
+      "notes": "Used for the Broodfeast or Runtfeast wish.",
+      "sortOrder": 72,
+      "aliases": "shredded organs"
+    },
+    {
+      "id": "6d85fce4-958a-4d13-a32e-ff24f34ce272",
+      "name": "Skewered Organs",
+      "category": "Count",
+      "inputSyntax": "{predicate} {quantity}",
+      "outputSyntax": "count:skewered-organs:{quantity}",
+      "notes": "Used for the Broodfeast or Runtfeast wish.",
+      "sortOrder": 73,
+      "aliases": "skewered organs"
+    },
+    {
+      "id": "75444340-73a9-4157-8a8d-7bd4d80a3d08",
+      "name": "Activated Bellshrines",
+      "category": "Count",
+      "inputSyntax": "{predicate} {quantity}",
+      "outputSyntax": "count:bellshrines-activated:{quantity}",
+      "notes": "Used for Last Judge fight trigger.",
+      "sortOrder": 74,
+      "aliases": "activated bellshrines"
+    },
+    {
+      "id": "f876b528-109b-5c20-aa71-74e13854ee61",
+      "name": "Tool Slots Unlocked",
+      "category": "Count",
+      "inputSyntax": "{predicate} {quantity}",
+      "outputSyntax": "count:tool-slots-unlocked:{quantity}",
+      "notes": "Used for Eva requirements. Implies having the needed crests for the number of tool slots and enough memory lockets to unlock them.",
+      "sortOrder": 75,
+      "aliases": "tool slots unlocked"
+    },
+    {
+      "id": "6df12dcf-82aa-580c-9924-eaa696894132",
+      "name": "Hunter\u0027s Journal Entries",
+      "category": "Count",
+      "inputSyntax": "{predicate} {quantity}",
+      "outputSyntax": "count:hunter-journal-entries:{quantity}",
+      "notes": "Used for Nuu\u0027s wish or Hunter\u0027s Journal completion goals. Indicates the number of unique enemies you can encounter and journal.",
+      "sortOrder": 76,
+      "aliases": "hunters journal entries"
+    },
+    {
+      "id": "689ba9ed-8105-43a8-aeb1-f1cd5a828062",
+      "name": "Act I",
+      "category": "State",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "state:act-1",
+      "notes": "I don\u0027t think this will get used, but adding it for completeness. ",
+      "sortOrder": 77,
+      "aliases": "act i, act 1"
+    },
+    {
+      "id": "3be9aeb2-0992-407c-81bc-4c26dfd984e4",
+      "name": "Act II",
+      "category": "State",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "state:act-2",
+      "notes": "",
+      "sortOrder": 78,
+      "aliases": "act ii, act 2"
+    },
+    {
+      "id": "0b87a3cf-3234-433a-ba22-49229ad3f79b",
+      "name": "Act III",
+      "category": "State",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "state:act-3",
+      "notes": "",
+      "sortOrder": 79,
+      "aliases": "act iii, act 3"
+    },
+    {
+      "id": "1d8e373c-12c5-4eff-a68e-4255371018f2",
+      "name": "Steel Soul",
+      "category": "State",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "state:steel-soul",
+      "notes": "",
+      "sortOrder": 80,
+      "aliases": "steel soul, ooo look at me im so good at the game"
+    },
+    {
+      "id": "293ea632-6df0-41bf-8991-b8b19114ac36",
+      "name": "Craw Summons Ready",
+      "category": "State",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "state:craw-summons-ready",
+      "notes": "Ready to receive Craw Summons at an eligible bench spot. Created a predicate because there is not a singular spot to define the logic. Implies proper story progression, but not eligible bench access. Bench access logic is applied by using this requirement on the check location.",
+      "sortOrder": 81,
+      "aliases": "craw summons ready"
+    }
+  ],
+  "items": [
+    {
+      "id": "b1cbd73e-3b27-5e47-9296-5fda71acf89f",
+      "name": "Ability: Faydown Cloak",
+      "category": "Skill",
+      "outputValue": "ability-faydown-cloak",
+      "notes": "",
+      "sortOrder": 0,
+      "aliases": "ability faydown cloak, faydown cloak, faydown"
+    },
+    {
+      "id": "42ae2cd2-efd3-5ce9-b09d-fac756d6e50a",
+      "name": "Ability: Needle Strike",
+      "category": "Skill",
+      "outputValue": "ability-needle-strike",
+      "notes": "",
+      "sortOrder": 1,
+      "aliases": "Ability Needle Strike"
+    },
+    {
+      "id": "18d97493-21c8-59ea-b355-27ce1e303cbf",
+      "name": "Ancestral Art: Silk Soar",
+      "category": "Skill",
+      "outputValue": "ancestral-art-silk-soar",
+      "notes": "",
+      "sortOrder": 2,
+      "aliases": "Ancestral Art Silk Soar, silk soar, silksoar"
+    },
+    {
+      "id": "21b785c9-9d35-51d3-b03e-7b189d178d98",
+      "name": "Ancestral Art: Cling Grip",
+      "category": "Skill",
+      "outputValue": "ancestral-art-cling-grip",
+      "notes": "",
+      "sortOrder": 3,
+      "aliases": "Ancestral Art Cling Grip, cling grip"
+    },
+    {
+      "id": "23b31cfd-0849-5e69-aa26-4739a7e3231d",
+      "name": "Ability: Drifter\u0027s Cloak",
+      "category": "Skill",
+      "outputValue": "ability-drifter-s-cloak",
+      "notes": "",
+      "sortOrder": 4,
+      "aliases": "Ability Drifters Cloak, drifters cloak, drifters"
+    },
+    {
+      "id": "d432cd82-abca-5d10-954a-ad4eaae4d714",
+      "name": "Ancestral Art: Swift Step",
+      "category": "Skill",
+      "outputValue": "ancestral-art-swift-step",
+      "notes": "",
+      "sortOrder": 5,
+      "aliases": "Ancestral Art Swift Step, swift step"
+    },
+    {
+      "id": "a6ffc554-21c6-53ed-bf1b-89e6deec82d7",
+      "name": "Ancestral Art: Clawline",
+      "category": "Skill",
+      "outputValue": "ancestral-art-clawline",
+      "notes": "",
+      "sortOrder": 6,
+      "aliases": "Ancestral Art Clawline, clawline"
+    },
+    {
+      "id": "f1b0f9f6-5acb-50ea-9caf-6ceee7d68df5",
+      "name": "Item: Quill",
+      "category": "Skill",
+      "outputValue": "item-quill",
+      "notes": "",
+      "sortOrder": 7,
+      "aliases": "Item Quill, quill, map quill"
+    },
+    {
+      "id": "53e45c5e-df19-5a71-b2dd-1c134ae0e092",
+      "name": "Ancestral Art: Needolin",
+      "category": "Skill",
+      "outputValue": "ancestral-art-needolin",
+      "notes": "",
+      "sortOrder": 8,
+      "aliases": "Ancestral Art Needolin, needolin"
+    },
+    {
+      "id": "cf8a2098-79c6-58b2-94f9-80dbfaa60a99",
+      "name": "Tool: Silkshot (Forge Daughter)",
+      "category": "Tool",
+      "outputValue": "tool-silkshot-forge-daughter",
+      "notes": "",
+      "sortOrder": 9,
+      "aliases": "Tool Silkshot Forge Daughter"
+    },
+    {
+      "id": "32e38afa-d2c8-5d6d-b6b4-eb3b65201032",
+      "name": "Tool: Silkshot (Twelfth Architect)",
+      "category": "Tool",
+      "outputValue": "tool-silkshot-twelfth-architect",
+      "notes": "",
+      "sortOrder": 10,
+      "aliases": "Tool Silkshot Twelfth Architect"
+    },
+    {
+      "id": "285b1f57-6058-5276-a10b-9948b02723c8",
+      "name": "Tool: Silkshot (Original)",
+      "category": "Tool",
+      "outputValue": "tool-silkshot-original",
+      "notes": "",
+      "sortOrder": 11,
+      "aliases": "Tool Silkshot Original"
+    },
+    {
+      "id": "1da4ce40-9b27-58cf-a3ac-32fdd9f71b98",
+      "name": "Tool: Volt Filament",
+      "category": "Tool",
+      "outputValue": "tool-volt-filament",
+      "notes": "",
+      "sortOrder": 12,
+      "aliases": "Tool Volt Filament"
+    },
+    {
+      "id": "6eae6152-393e-56ab-8107-336b0d9be172",
+      "name": "Tool: Tacks",
+      "category": "Tool",
+      "outputValue": "tool-tacks",
+      "notes": "",
+      "sortOrder": 13,
+      "aliases": "Tool Tacks"
+    },
+    {
+      "id": "baa543ad-9d85-52e8-99c7-4a8006c1cee3",
+      "name": "Tool: Pollip Pouch",
+      "category": "Tool",
+      "outputValue": "tool-pollip-pouch",
+      "notes": "",
+      "sortOrder": 14,
+      "aliases": "Tool Pollip Pouch"
+    },
+    {
+      "id": "7ba805ea-4b18-50a2-8b7a-e7339b8333ff",
+      "name": "Tool: Snare Setter",
+      "category": "Tool",
+      "outputValue": "tool-snare-setter",
+      "notes": "",
+      "sortOrder": 15,
+      "aliases": "Tool Snare Setter"
+    },
+    {
+      "id": "bbb7c516-0e83-5819-b5ab-16a0d6b741c6",
+      "name": "Tool: Wispfire Lantern",
+      "category": "Tool",
+      "outputValue": "tool-wispfire-lantern",
+      "notes": "",
+      "sortOrder": 16,
+      "aliases": "Tool Wispfire Lantern"
+    },
+    {
+      "id": "f80eabe9-4868-5a11-82fa-a28360c6f8e8",
+      "name": "Tool: Memory Crystal",
+      "category": "Tool",
+      "outputValue": "tool-memory-crystal",
+      "notes": "",
+      "sortOrder": 17,
+      "aliases": "Tool Memory Crystal"
+    },
+    {
+      "id": "59ea7679-7709-5b1f-adcd-1ed46fdfff0a",
+      "name": "Tool: Voltvessels",
+      "category": "Tool",
+      "outputValue": "tool-voltvessels",
+      "notes": "",
+      "sortOrder": 18,
+      "aliases": "Tool Voltvessels"
+    },
+    {
+      "id": "011abeff-0c72-5e1d-a303-2e25c2825de6",
+      "name": "Tool: Threefold Pin",
+      "category": "Tool",
+      "outputValue": "tool-threefold-pin",
+      "notes": "",
+      "sortOrder": 19,
+      "aliases": "Tool Threefold Pin"
+    },
+    {
+      "id": "0ef5f44f-d889-5c7d-a4f6-81acdd475570",
+      "name": "Tool: Warding Bell",
+      "category": "Tool",
+      "outputValue": "tool-warding-bell",
+      "notes": "",
+      "sortOrder": 20,
+      "aliases": "Tool Warding Bell"
+    },
+    {
+      "id": "dd25e28f-8b6f-5556-8241-01e74bb82f68",
+      "name": "Tool: Rosary Cannon",
+      "category": "Tool",
+      "outputValue": "tool-rosary-cannon",
+      "notes": "",
+      "sortOrder": 21,
+      "aliases": "Tool Rosary Cannon"
+    },
+    {
+      "id": "246b77f8-285a-517e-9a02-9718587a28b7",
+      "name": "Tool: Longpin",
+      "category": "Tool",
+      "outputValue": "tool-longpin",
+      "notes": "",
+      "sortOrder": 22,
+      "aliases": "Tool Longpin"
+    },
+    {
+      "id": "407a0e07-bc87-598e-aa22-1936b3863bd3",
+      "name": "Tool: Sawtooth Circlet",
+      "category": "Tool",
+      "outputValue": "tool-sawtooth-circlet",
+      "notes": "",
+      "sortOrder": 23,
+      "aliases": "Tool Sawtooth Circlet"
+    },
+    {
+      "id": "98bdb210-2f91-58b9-927e-e3edeb58a645",
+      "name": "Progressive Claw Mirror",
+      "category": "Tool",
+      "outputValue": "progressive-claw-mirror",
+      "notes": "",
+      "sortOrder": 24,
+      "aliases": "Progressive Claw Mirror"
+    },
+    {
+      "id": "94e9d961-1fdd-57f8-9f60-8a71493dcf2a",
+      "name": "Tool: Throwing Ring",
+      "category": "Tool",
+      "outputValue": "tool-throwing-ring",
+      "notes": "",
+      "sortOrder": 25,
+      "aliases": "Tool Throwing Ring"
+    },
+    {
+      "id": "d068d611-2297-557c-b8bc-8496d006ed65",
+      "name": "Tool: Delver\u0027s Drill",
+      "category": "Tool",
+      "outputValue": "tool-delver-s-drill",
+      "notes": "",
+      "sortOrder": 26,
+      "aliases": "Tool Delvers Drill"
+    },
+    {
+      "id": "69c5ba05-e1a9-554d-8423-5cd7415e226b",
+      "name": "Tool: Quick Sling",
+      "category": "Tool",
+      "outputValue": "tool-quick-sling",
+      "notes": "",
+      "sortOrder": 27,
+      "aliases": "Tool Quick Sling"
+    },
+    {
+      "id": "f41f210b-6f78-588c-8e7f-6d6632049167",
+      "name": "Tool: Spider Strings",
+      "category": "Tool",
+      "outputValue": "tool-spider-strings",
+      "notes": "",
+      "sortOrder": 28,
+      "aliases": "Tool Spider Strings"
+    },
+    {
+      "id": "4141aeab-d868-59b8-b901-e4753f53b4dd",
+      "name": "Tool: Fractured Mask",
+      "category": "Tool",
+      "outputValue": "tool-fractured-mask",
+      "notes": "",
+      "sortOrder": 29,
+      "aliases": "Tool Fractured Mask"
+    },
+    {
+      "id": "658341e2-8ee4-5efd-85cd-5d42ab6b00ad",
+      "name": "Tool: Silkspeed Anklets",
+      "category": "Tool",
+      "outputValue": "tool-silkspeed-anklets",
+      "notes": "",
+      "sortOrder": 30,
+      "aliases": "Tool Silkspeed Anklets"
+    },
+    {
+      "id": "fd7dddee-17bb-5952-8b12-10bb254f1716",
+      "name": "Tool: Weighted Belt",
+      "category": "Tool",
+      "outputValue": "tool-weighted-belt",
+      "notes": "",
+      "sortOrder": 31,
+      "aliases": "Tool Weighted Belt"
+    },
+    {
+      "id": "ae8d503d-fe0f-50f6-a37c-82d64211b707",
+      "name": "Tool: Multibinder",
+      "category": "Tool",
+      "outputValue": "tool-multibinder",
+      "notes": "",
+      "sortOrder": 32,
+      "aliases": "Tool Multibinder"
+    },
+    {
+      "id": "5d109cbe-bad5-555d-b21d-009c775cbe4a",
+      "name": "Tool: Reserve Bind",
+      "category": "Tool",
+      "outputValue": "tool-reserve-bind",
+      "notes": "",
+      "sortOrder": 33,
+      "aliases": "Tool Reserve Bind"
+    },
+    {
+      "id": "8827311b-138d-550f-9ace-538d437eee24",
+      "name": "Tool: Injector Band",
+      "category": "Tool",
+      "outputValue": "tool-injector-band",
+      "notes": "",
+      "sortOrder": 34,
+      "aliases": "Tool Injector Band"
+    },
+    {
+      "id": "5c4af8c0-bfea-58cd-a4bb-c99c6a6e6eb5",
+      "name": "Tool: Barbed Bracelet",
+      "category": "Tool",
+      "outputValue": "tool-barbed-bracelet",
+      "notes": "",
+      "sortOrder": 35,
+      "aliases": "Tool Barbed Bracelet"
+    },
+    {
+      "id": "0b55dd5f-010d-5720-a57a-0df93615184e",
+      "name": "Tool: Sting Shard",
+      "category": "Tool",
+      "outputValue": "tool-sting-shard",
+      "notes": "",
+      "sortOrder": 36,
+      "aliases": "Tool Sting Shard"
+    },
+    {
+      "id": "6c09453b-1af4-55fb-925d-3fd3e62e99a9",
+      "name": "Tool: Conchcutter",
+      "category": "Tool",
+      "outputValue": "tool-conchcutter",
+      "notes": "",
+      "sortOrder": 37,
+      "aliases": "Tool Conchcutter"
+    },
+    {
+      "id": "4ab7dab5-b7f6-5e27-80f1-5c771763c406",
+      "name": "Tool: Pimpillo",
+      "category": "Tool",
+      "outputValue": "tool-pimpillo",
+      "notes": "",
+      "sortOrder": 38,
+      "aliases": "Tool Pimpillo"
+    },
+    {
+      "id": "a25af42d-bcd2-5405-9b07-ff9ca9edc370",
+      "name": "Tool: Straight Pin",
+      "category": "Tool",
+      "outputValue": "tool-straight-pin",
+      "notes": "",
+      "sortOrder": 39,
+      "aliases": "Tool Straight Pin"
+    },
+    {
+      "id": "7d7cb710-4eb0-5e31-a146-43c80628c569",
+      "name": "Tool: Cogfly",
+      "category": "Tool",
+      "outputValue": "tool-cogfly",
+      "notes": "",
+      "sortOrder": 40,
+      "aliases": "Tool Cogfly"
+    },
+    {
+      "id": "7742f72a-c1af-57c1-bba7-d662677eb8c8",
+      "name": "Progressive Curveclaw",
+      "category": "Tool",
+      "outputValue": "progressive-curveclaw",
+      "notes": "",
+      "sortOrder": 41,
+      "aliases": "Progressive Curveclaw"
+    },
+    {
+      "id": "372e4973-04c2-519e-bd87-4e815d22222d",
+      "name": "Tool: Cogwork Wheel",
+      "category": "Tool",
+      "outputValue": "tool-cogwork-wheel",
+      "notes": "",
+      "sortOrder": 42,
+      "aliases": "Tool Cogwork Wheel"
+    },
+    {
+      "id": "c9364eb8-1c99-55c8-bc27-5e166fc43254",
+      "name": "Tool: Flea Brew",
+      "category": "Tool",
+      "outputValue": "tool-flea-brew",
+      "notes": "",
+      "sortOrder": 43,
+      "aliases": "Tool Flea Brew, flea brew"
+    },
+    {
+      "id": "2ca13aa0-fbc7-551b-89f5-12d9840b0102",
+      "name": "Tool: Magnetite Dice",
+      "category": "Tool",
+      "outputValue": "tool-magnetite-dice",
+      "notes": "",
+      "sortOrder": 44,
+      "aliases": "Tool Magnetite Dice"
+    },
+    {
+      "id": "c5726fcf-6257-5af8-ae92-69e56daf7d7e",
+      "name": "Tool: Magnetite Brooch",
+      "category": "Tool",
+      "outputValue": "tool-magnetite-brooch",
+      "notes": "",
+      "sortOrder": 45,
+      "aliases": "Tool Magnetite Brooch"
+    },
+    {
+      "id": "499c7ff1-0b5a-5990-b5de-4b80130fde6e",
+      "name": "Tool: Weavelight",
+      "category": "Tool",
+      "outputValue": "tool-weavelight",
+      "notes": "",
+      "sortOrder": 46,
+      "aliases": "Tool Weavelight"
+    },
+    {
+      "id": "aa2b44ab-6609-5a92-a5ba-3a4eceb685c0",
+      "name": "Tool: Pin Badge",
+      "category": "Tool",
+      "outputValue": "tool-pin-badge",
+      "notes": "",
+      "sortOrder": 47,
+      "aliases": "Tool Pin Badge"
+    },
+    {
+      "id": "b85061d5-e6ce-5cab-81a3-a84f3055b82b",
+      "name": "Tool: Needle Phial",
+      "category": "Tool",
+      "outputValue": "tool-needle-phial",
+      "notes": "",
+      "sortOrder": 48,
+      "aliases": "Tool Needle Phial"
+    },
+    {
+      "id": "35e269a4-a731-54ee-8aee-7da971cdf73c",
+      "name": "Tool: Plasmium Phial",
+      "category": "Tool",
+      "outputValue": "tool-plasmium-phial",
+      "notes": "",
+      "sortOrder": 49,
+      "aliases": "Tool Plasmium Phial"
+    },
+    {
+      "id": "2bdc66c4-4810-5355-a0f0-4ba05e3f791b",
+      "name": "Tool: Shell Satchel",
+      "category": "Tool",
+      "outputValue": "tool-shell-satchel",
+      "notes": "",
+      "sortOrder": 50,
+      "aliases": "Tool Shell Satchel"
+    },
+    {
+      "id": "19a596d8-c162-57bd-9be6-46f48a2b74a2",
+      "name": "Tool: Dead Bug\u0027s Purse",
+      "category": "Tool",
+      "outputValue": "tool-dead-bug-s-purse",
+      "notes": "",
+      "sortOrder": 51,
+      "aliases": "Tool Dead Bugs Purse"
+    },
+    {
+      "id": "fa6aa37a-59b7-524f-af3d-32a663780ecc",
+      "name": "Tool: Scuttlebrace",
+      "category": "Tool",
+      "outputValue": "tool-scuttlebrace",
+      "notes": "",
+      "sortOrder": 52,
+      "aliases": "Tool Scuttlebrace"
+    },
+    {
+      "id": "7faea9be-3823-51d0-9ffe-4385fce17cc2",
+      "name": "Tool: Thief\u0027s Mark",
+      "category": "Tool",
+      "outputValue": "tool-thief-s-mark",
+      "notes": "",
+      "sortOrder": 53,
+      "aliases": "Tool Thiefs Mark"
+    },
+    {
+      "id": "221057d1-47e1-583b-8c8f-327478f66548",
+      "name": "Tool: Compass",
+      "category": "Tool",
+      "outputValue": "tool-compass",
+      "notes": "",
+      "sortOrder": 54,
+      "aliases": "Tool Compass"
+    },
+    {
+      "id": "d9dc7b68-69ab-57fb-b1d9-c09a25a39ffd",
+      "name": "Tool: Snitch Pick",
+      "category": "Tool",
+      "outputValue": "tool-snitch-pick",
+      "notes": "",
+      "sortOrder": 55,
+      "aliases": "Tool Snitch Pick"
+    },
+    {
+      "id": "ea5018f6-7e5a-5fb9-9377-17a64c05cdf8",
+      "name": "Tool: Flintslate",
+      "category": "Tool",
+      "outputValue": "tool-flintslate",
+      "notes": "",
+      "sortOrder": 56,
+      "aliases": "Tool Flintslate"
+    },
+    {
+      "id": "59482810-079f-5093-88d3-1a895ddad881",
+      "name": "Tool: Wreath of Purity",
+      "category": "Tool",
+      "outputValue": "tool-wreath-of-purity",
+      "notes": "",
+      "sortOrder": 57,
+      "aliases": "Tool Wreath of Purity"
+    },
+    {
+      "id": "783c29bd-32fc-5d5f-9cc3-31eae0b48a03",
+      "name": "Tool: Magma Bell",
+      "category": "Tool",
+      "outputValue": "tool-magma-bell",
+      "notes": "",
+      "sortOrder": 58,
+      "aliases": "Tool Magma Bell"
+    },
+    {
+      "id": "56bf3248-c804-5b48-be7a-a31ef2c4cdb9",
+      "name": "Tool: Ascendant\u0027s Grip",
+      "category": "Tool",
+      "outputValue": "tool-ascendant-s-grip",
+      "notes": "",
+      "sortOrder": 59,
+      "aliases": "Tool Ascendants Grip"
+    },
+    {
+      "id": "2de8de90-1330-5867-9246-945ff918f2a1",
+      "name": "Tool: Longclaw",
+      "category": "Tool",
+      "outputValue": "tool-longclaw",
+      "notes": "",
+      "sortOrder": 60,
+      "aliases": "Tool Longclaw"
+    },
+    {
+      "id": "a1957da1-d62e-53ac-aabf-5994f69bc9d1",
+      "name": "Tool: Shard Pendant",
+      "category": "Tool",
+      "outputValue": "tool-shard-pendant",
+      "notes": "",
+      "sortOrder": 61,
+      "aliases": "Tool Shard Pendant"
+    },
+    {
+      "id": "a554446d-7d0e-594d-b24d-60eba57fd179",
+      "name": "Tool: Spool Extender",
+      "category": "Tool",
+      "outputValue": "tool-spool-extender",
+      "notes": "",
+      "sortOrder": 62,
+      "aliases": "Tool Spool Extender"
+    },
+    {
+      "id": "062f3d9d-6ee4-53f0-bd4e-0bf4afac932a",
+      "name": "Tool: Egg of Flealia",
+      "category": "Tool",
+      "outputValue": "tool-egg-of-flealia",
+      "notes": "",
+      "sortOrder": 63,
+      "aliases": "Tool Egg of Flealia"
+    },
+    {
+      "id": "8b7f73bc-e9f0-506f-8981-7b0735b3b9c5",
+      "name": "Silk Skill: Silkspear",
+      "category": "Spell",
+      "outputValue": "silk-skill-silkspear",
+      "notes": "",
+      "sortOrder": 64,
+      "aliases": "Silk Skill Silkspear"
+    },
+    {
+      "id": "4b814354-a6f0-5fb0-bebe-3d0dba3c20c9",
+      "name": "Silk Skill: Cross Stitch",
+      "category": "Spell",
+      "outputValue": "silk-skill-cross-stitch",
+      "notes": "",
+      "sortOrder": 65,
+      "aliases": "Silk Skill Cross Stitch"
+    },
+    {
+      "id": "fca1a97b-df20-5af9-8e2c-27218b3e24c0",
+      "name": "Silk Skill: Pale Nails",
+      "category": "Spell",
+      "outputValue": "silk-skill-pale-nails",
+      "notes": "",
+      "sortOrder": 66,
+      "aliases": "Silk Skill Pale Nails"
+    },
+    {
+      "id": "767dfba7-452c-5bd8-8031-4cf320c54157",
+      "name": "Silk Skill: Sharpdart",
+      "category": "Spell",
+      "outputValue": "silk-skill-sharpdart",
+      "notes": "",
+      "sortOrder": 67,
+      "aliases": "Silk Skill Sharpdart"
+    },
+    {
+      "id": "7bc6dc05-43db-55fb-a516-dbafd207a79d",
+      "name": "Silk Skill: Rune Rage",
+      "category": "Spell",
+      "outputValue": "silk-skill-rune-rage",
+      "notes": "",
+      "sortOrder": 68,
+      "aliases": "Silk Skill Rune Rage"
+    },
+    {
+      "id": "50fc9b33-22f7-5151-99e9-c11d2d81a94f",
+      "name": "Silk Skill: Thread Storm",
+      "category": "Spell",
+      "outputValue": "silk-skill-thread-storm",
+      "notes": "",
+      "sortOrder": 69,
+      "aliases": "Silk Skill Thread Storm"
+    },
+    {
+      "id": "0f8c1d26-0140-5715-8f0c-7406d446f281",
+      "name": "Crest: Witch",
+      "category": "Crest",
+      "outputValue": "crest-witch",
+      "notes": "",
+      "sortOrder": 70,
+      "aliases": "Crest Witch"
+    },
+    {
+      "id": "89024057-2637-51a9-bb15-dc534bbffe86",
+      "name": "Crest: Beast",
+      "category": "Crest",
+      "outputValue": "crest-beast",
+      "notes": "",
+      "sortOrder": 71,
+      "aliases": "Crest Beast"
+    },
+    {
+      "id": "94fa3ca6-3097-58eb-8972-cd246d37739f",
+      "name": "Crest: Architect",
+      "category": "Crest",
+      "outputValue": "crest-architect",
+      "notes": "",
+      "sortOrder": 72,
+      "aliases": "Crest Architect"
+    },
+    {
+      "id": "c5286e22-480c-5d35-af13-c49d3615a0b6",
+      "name": "Crest: Shaman",
+      "category": "Crest",
+      "outputValue": "crest-shaman",
+      "notes": "",
+      "sortOrder": 73,
+      "aliases": "Crest Shaman"
+    },
+    {
+      "id": "68e52e7d-c650-5967-86e1-0a4734d6b7c5",
+      "name": "Crest: Reaper",
+      "category": "Crest",
+      "outputValue": "crest-reaper",
+      "notes": "",
+      "sortOrder": 74,
+      "aliases": "Crest Reaper"
+    },
+    {
+      "id": "13c636e1-3bf8-59df-9980-a2a612f1f398",
+      "name": "Crest: Wanderer",
+      "category": "Crest",
+      "outputValue": "crest-wanderer",
+      "notes": "",
+      "sortOrder": 75,
+      "aliases": "Crest Wanderer"
+    },
+    {
+      "id": "fd94fe96-1ccb-56c2-aaf4-3ddbab700b31",
+      "name": "Crest: Hunter",
+      "category": "Crest",
+      "outputValue": "crest-hunter",
+      "notes": "",
+      "sortOrder": 76,
+      "aliases": "Crest Hunter"
+    },
+    {
+      "id": "b6092463-87ea-58ad-a6ef-ee6764916476",
+      "name": "Flea: The Marrow",
+      "category": "Flea",
+      "outputValue": "flea-the-marrow",
+      "notes": "",
+      "sortOrder": 77,
+      "aliases": "Flea The Marrow"
+    },
+    {
+      "id": "aedc9e78-4766-50bb-9d6a-0a3c738460b7",
+      "name": "Flea: Deep Docks (Bellway)",
+      "category": "Flea",
+      "outputValue": "flea-deep-docks-bellway",
+      "notes": "",
+      "sortOrder": 78,
+      "aliases": "Flea Deep Docks Bellway"
+    },
+    {
+      "id": "1946cba0-7291-528a-8058-a289cb67b3e0",
+      "name": "Flea: Deep Docks (Weaver Burial Spire)",
+      "category": "Flea",
+      "outputValue": "flea-deep-docks-weaver-burial-spire",
+      "notes": "",
+      "sortOrder": 79,
+      "aliases": "Flea Deep Docks Weaver Burial Spire"
+    },
+    {
+      "id": "b220cd38-71d7-5352-b22f-133e323490b2",
+      "name": "Flea: Far Fields (Captured)",
+      "category": "Flea",
+      "outputValue": "flea-far-fields-captured",
+      "notes": "",
+      "sortOrder": 80,
+      "aliases": "Flea Far Fields Captured"
+    },
+    {
+      "id": "b85e41fc-b373-5090-8dce-767be25d4b1b",
+      "name": "Flea: Hunter\u0027s March",
+      "category": "Flea",
+      "outputValue": "flea-hunter-s-march",
+      "notes": "",
+      "sortOrder": 81,
+      "aliases": "Flea Hunters March"
+    },
+    {
+      "id": "1f4ef8fd-aa2b-50a9-90d5-56f7f72c6b48",
+      "name": "Flea: Greymoor (Craw Lake)",
+      "category": "Flea",
+      "outputValue": "flea-greymoor-craw-lake",
+      "notes": "",
+      "sortOrder": 82,
+      "aliases": "Flea Greymoor Craw Lake"
+    },
+    {
+      "id": "70429782-af37-5908-b3fa-d338b993d87f",
+      "name": "Flea: Greymoor (Tower)",
+      "category": "Flea",
+      "outputValue": "flea-greymoor-tower",
+      "notes": "",
+      "sortOrder": 83,
+      "aliases": "Flea Greymoor Tower"
+    },
+    {
+      "id": "6dc43cca-beb2-5dd3-b6e9-0dbf49fddd2b",
+      "name": "Flea: Shellwood",
+      "category": "Flea",
+      "outputValue": "flea-shellwood",
+      "notes": "",
+      "sortOrder": 84,
+      "aliases": "Flea Shellwood"
+    },
+    {
+      "id": "1f8e546e-ea56-5a3a-8bb8-6bc89f7e848d",
+      "name": "Flea: Pilgrim\u0027s Rest",
+      "category": "Flea",
+      "outputValue": "flea-pilgrim-s-rest",
+      "notes": "",
+      "sortOrder": 85,
+      "aliases": "Flea Pilgrims Rest"
+    },
+    {
+      "id": "7395b997-c229-5506-bd31-a2c303b9e699",
+      "name": "Flea: Blasted Steps",
+      "category": "Flea",
+      "outputValue": "flea-blasted-steps",
+      "notes": "",
+      "sortOrder": 86,
+      "aliases": "Flea Blasted Steps"
+    },
+    {
+      "id": "f4b39c9f-e260-529c-892d-956ec23e378f",
+      "name": "Flea: Sinner\u0027s Road",
+      "category": "Flea",
+      "outputValue": "flea-sinner-s-road",
+      "notes": "",
+      "sortOrder": 87,
+      "aliases": "Flea Sinners Road"
+    },
+    {
+      "id": "bcb1c980-f2ad-5a34-8a31-739de1cedd97",
+      "name": "Flea: Exhaust Organ",
+      "category": "Flea",
+      "outputValue": "flea-exhaust-organ",
+      "notes": "",
+      "sortOrder": 88,
+      "aliases": "Flea Exhaust Organ"
+    },
+    {
+      "id": "c4d3b18a-321b-5c8d-bb80-f5e5d4835d7d",
+      "name": "Flea: Bellhart",
+      "category": "Flea",
+      "outputValue": "flea-bellhart",
+      "notes": "",
+      "sortOrder": 89,
+      "aliases": "Flea Bellhart"
+    },
+    {
+      "id": "8153a92c-58eb-5b28-b370-74705a770b39",
+      "name": "Flea: Wormways",
+      "category": "Flea",
+      "outputValue": "flea-wormways",
+      "notes": "",
+      "sortOrder": 90,
+      "aliases": "Flea Wormways"
+    },
+    {
+      "id": "b1c56289-d6ff-5892-86e0-64eb1b48ca5e",
+      "name": "Flea: The Slab (Cell)",
+      "category": "Flea",
+      "outputValue": "flea-the-slab-cell",
+      "notes": "",
+      "sortOrder": 91,
+      "aliases": "Flea The Slab Cell"
+    },
+    {
+      "id": "edb2218a-aa24-5864-96ad-b30577103205",
+      "name": "Flea: Bilewater (Thieves)",
+      "category": "Flea",
+      "outputValue": "flea-bilewater-thieves",
+      "notes": "",
+      "sortOrder": 92,
+      "aliases": "Flea Bilewater Thieves"
+    },
+    {
+      "id": "7097099d-88d1-5a1a-b7aa-7ab63b45339d",
+      "name": "Flea: Deep Docks (Mines)",
+      "category": "Flea",
+      "outputValue": "flea-deep-docks-mines",
+      "notes": "",
+      "sortOrder": 93,
+      "aliases": "Flea Deep Docks Mines"
+    },
+    {
+      "id": "8f1e8e22-e48b-5d2e-8ecb-324341042c05",
+      "name": "Flea: Wisp Thicket",
+      "category": "Flea",
+      "outputValue": "flea-wisp-thicket",
+      "notes": "",
+      "sortOrder": 94,
+      "aliases": "Flea Wisp Thicket"
+    },
+    {
+      "id": "ce49e423-be48-57f6-8f96-b30ccb6c2b1c",
+      "name": "Flea: Bilehaven",
+      "category": "Flea",
+      "outputValue": "flea-bilehaven",
+      "notes": "",
+      "sortOrder": 95,
+      "aliases": "Flea Bilehaven"
+    },
+    {
+      "id": "2f367829-bc32-5d94-834d-0de7c6422ca1",
+      "name": "Flea: Choral Chambers (Spa)",
+      "category": "Flea",
+      "outputValue": "flea-choral-chambers-spa",
+      "notes": "",
+      "sortOrder": 96,
+      "aliases": "Flea Choral Chambers Spa"
+    },
+    {
+      "id": "a2f3a1c7-b2c0-5efa-9ff4-c6892ef3c92d",
+      "name": "Flea: Sands of Karak",
+      "category": "Flea",
+      "outputValue": "flea-sands-of-karak",
+      "notes": "",
+      "sortOrder": 97,
+      "aliases": "Flea Sands of Karak"
+    },
+    {
+      "id": "70a20600-7c68-50f3-87bf-58fde984b0ce",
+      "name": "Flea: Mount Fay",
+      "category": "Flea",
+      "outputValue": "flea-mount-fay",
+      "notes": "",
+      "sortOrder": 98,
+      "aliases": "Flea Mount Fay"
+    },
+    {
+      "id": "07659a5d-8e3d-5e08-bcfe-12af592b0d0e",
+      "name": "Flea: Songclave",
+      "category": "Flea",
+      "outputValue": "flea-songclave",
+      "notes": "",
+      "sortOrder": 99,
+      "aliases": "Flea Songclave"
+    },
+    {
+      "id": "b2cccb81-3205-5034-b321-0ebdaa0fe812",
+      "name": "Flea: Choral Chambers (Walled Room)",
+      "category": "Flea",
+      "outputValue": "flea-choral-chambers-walled-room",
+      "notes": "",
+      "sortOrder": 100,
+      "aliases": "Flea Choral Chambers Walled Room"
+    },
+    {
+      "id": "b0419f56-5c22-5f7d-ad59-1ba0beefe133",
+      "name": "Flea: Whispering Vaults",
+      "category": "Flea",
+      "outputValue": "flea-whispering-vaults",
+      "notes": "",
+      "sortOrder": 101,
+      "aliases": "Flea Whispering Vaults"
+    },
+    {
+      "id": "02fac15f-3e8d-5027-8749-36e27fb11cf5",
+      "name": "Flea: Underworks",
+      "category": "Flea",
+      "outputValue": "flea-underworks",
+      "notes": "",
+      "sortOrder": 102,
+      "aliases": "Flea Underworks"
+    },
+    {
+      "id": "02513a88-4cf0-56a9-9b0d-94f446138ed4",
+      "name": "Flea: The Slab (Bellway)",
+      "category": "Flea",
+      "outputValue": "flea-the-slab-bellway",
+      "notes": "",
+      "sortOrder": 103,
+      "aliases": "Flea The Slab Bellway"
+    },
+    {
+      "id": "5e6ad4c1-81bf-59fa-b0be-25b9c12d8fe7",
+      "name": "Crest Slot: Hunter (Red 1)",
+      "category": "CrestSlot",
+      "outputValue": "crest-slot-hunter-red-1",
+      "notes": "",
+      "sortOrder": 104,
+      "aliases": "Crest Slot Hunter Red 1"
+    },
+    {
+      "id": "7ddc42de-b049-5626-85ce-52cf40da3985",
+      "name": "Crest Slot: Hunter (Blue 1)",
+      "category": "CrestSlot",
+      "outputValue": "crest-slot-hunter-blue-1",
+      "notes": "",
+      "sortOrder": 105,
+      "aliases": "Crest Slot Hunter Blue 1"
+    },
+    {
+      "id": "5ccbf63f-2a62-53b7-b18f-1f89d30700b8",
+      "name": "Crest Slot: Hunter (Yellow 1)",
+      "category": "CrestSlot",
+      "outputValue": "crest-slot-hunter-yellow-1",
+      "notes": "",
+      "sortOrder": 106,
+      "aliases": "Crest Slot Hunter Yellow 1"
+    },
+    {
+      "id": "935440f0-8ee4-5ec5-b33f-ebd6ac645b7f",
+      "name": "Crest Slot: Reaper (Red 1)",
+      "category": "CrestSlot",
+      "outputValue": "crest-slot-reaper-red-1",
+      "notes": "",
+      "sortOrder": 107,
+      "aliases": "Crest Slot Reaper Red 1"
+    },
+    {
+      "id": "068ad250-bb63-530f-9592-e59e5bc96921",
+      "name": "Crest Slot: Reaper (Blue 1)",
+      "category": "CrestSlot",
+      "outputValue": "crest-slot-reaper-blue-1",
+      "notes": "",
+      "sortOrder": 108,
+      "aliases": "Crest Slot Reaper Blue 1"
+    },
+    {
+      "id": "1ae047f5-f3a6-536b-98b1-f887c6824862",
+      "name": "Crest Slot: Reaper (Yellow 1)",
+      "category": "CrestSlot",
+      "outputValue": "crest-slot-reaper-yellow-1",
+      "notes": "",
+      "sortOrder": 109,
+      "aliases": "Crest Slot Reaper Yellow 1"
+    },
+    {
+      "id": "29d0ec51-9028-5fe3-9636-165880f642bd",
+      "name": "Crest Slot: Wanderer (Blue 1)",
+      "category": "CrestSlot",
+      "outputValue": "crest-slot-wanderer-blue-1",
+      "notes": "",
+      "sortOrder": 110,
+      "aliases": "Crest Slot Wanderer Blue 1"
+    },
+    {
+      "id": "c34b1e8a-403c-5e62-a33f-98c62cf1d48e",
+      "name": "Crest Slot: Wanderer (Blue 2)",
+      "category": "CrestSlot",
+      "outputValue": "crest-slot-wanderer-blue-2",
+      "notes": "",
+      "sortOrder": 111,
+      "aliases": "Crest Slot Wanderer Blue 2"
+    },
+    {
+      "id": "043180af-2f39-52b5-b7df-62f6d2f62c5b",
+      "name": "Crest Slot: Wanderer (Yellow 1)",
+      "category": "CrestSlot",
+      "outputValue": "crest-slot-wanderer-yellow-1",
+      "notes": "",
+      "sortOrder": 112,
+      "aliases": "Crest Slot Wanderer Yellow 1"
+    },
+    {
+      "id": "234976ce-a062-58cf-b14e-a823b81788c3",
+      "name": "Crest Slot: Beast (Yellow 1)",
+      "category": "CrestSlot",
+      "outputValue": "crest-slot-beast-yellow-1",
+      "notes": "",
+      "sortOrder": 113,
+      "aliases": "Crest Slot Beast Yellow 1"
+    },
+    {
+      "id": "ef0682fb-78c2-562a-8fac-3f1cfcbe1980",
+      "name": "Crest Slot: Beast (Yellow 2)",
+      "category": "CrestSlot",
+      "outputValue": "crest-slot-beast-yellow-2",
+      "notes": "",
+      "sortOrder": 114,
+      "aliases": "Crest Slot Beast Yellow 2"
+    },
+    {
+      "id": "fbf4b291-6fdd-54b6-9fc3-084324307900",
+      "name": "Crest Slot: Witch (Red 1)",
+      "category": "CrestSlot",
+      "outputValue": "crest-slot-witch-red-1",
+      "notes": "",
+      "sortOrder": 115,
+      "aliases": "Crest Slot Witch Red 1"
+    },
+    {
+      "id": "00096062-16c7-5dfb-9d42-c17c11c1f582",
+      "name": "Crest Slot: Witch (Blue 1)",
+      "category": "CrestSlot",
+      "outputValue": "crest-slot-witch-blue-1",
+      "notes": "",
+      "sortOrder": 116,
+      "aliases": "Crest Slot Witch Blue 1"
+    },
+    {
+      "id": "dd7474b3-54cf-5809-82ab-2247e13c2ef1",
+      "name": "Crest Slot: Witch (Blue 2)",
+      "category": "CrestSlot",
+      "outputValue": "crest-slot-witch-blue-2",
+      "notes": "",
+      "sortOrder": 117,
+      "aliases": "Crest Slot Witch Blue 2"
+    },
+    {
+      "id": "bb607ab8-3b17-5d33-ad44-a8a7d0ad96dd",
+      "name": "Crest Slot: Architect (Blue 1)",
+      "category": "CrestSlot",
+      "outputValue": "crest-slot-architect-blue-1",
+      "notes": "",
+      "sortOrder": 118,
+      "aliases": "Crest Slot Architect Blue 1"
+    },
+    {
+      "id": "a5d8a581-ef47-569c-9f6e-f49d03691eab",
+      "name": "Crest Slot: Architect (Yellow 1)",
+      "category": "CrestSlot",
+      "outputValue": "crest-slot-architect-yellow-1",
+      "notes": "",
+      "sortOrder": 119,
+      "aliases": "Crest Slot Architect Yellow 1"
+    },
+    {
+      "id": "263e0367-96b3-5d74-ba61-03fa597bd130",
+      "name": "Crest Slot: Architect (Yellow 2)",
+      "category": "CrestSlot",
+      "outputValue": "crest-slot-architect-yellow-2",
+      "notes": "",
+      "sortOrder": 120,
+      "aliases": "Crest Slot Architect Yellow 2"
+    },
+    {
+      "id": "dd7a68c9-17c3-53b0-9a11-a5076fdcbe3c",
+      "name": "Crest Slot: Architect (Blue 2)",
+      "category": "CrestSlot",
+      "outputValue": "crest-slot-architect-blue-2",
+      "notes": "",
+      "sortOrder": 121,
+      "aliases": "Crest Slot Architect Blue 2"
+    },
+    {
+      "id": "7451c9e1-ccfa-5073-9b7f-0cdeb7c7be59",
+      "name": "Crest Slot: Shaman (Blue 1)",
+      "category": "CrestSlot",
+      "outputValue": "crest-slot-shaman-blue-1",
+      "notes": "",
+      "sortOrder": 122,
+      "aliases": "Crest Slot Shaman Blue 1"
+    },
+    {
+      "id": "4a3b78b7-21c8-55b6-9846-472021ecca51",
+      "name": "Crest Slot: Shaman (Blue 2)",
+      "category": "CrestSlot",
+      "outputValue": "crest-slot-shaman-blue-2",
+      "notes": "",
+      "sortOrder": 123,
+      "aliases": "Crest Slot Shaman Blue 2"
+    },
+    {
+      "id": "e4f39a77-afca-5f68-80f2-eeb387e3fd01",
+      "name": "Mask Shard #1",
+      "category": "MaskShard",
+      "outputValue": "mask-shard-1",
+      "notes": "",
+      "sortOrder": 124,
+      "aliases": "Mask Shard 1"
+    },
+    {
+      "id": "70daecf2-0512-5cd9-bff4-4b26f2c7a3d0",
+      "name": "Mask Shard #2",
+      "category": "MaskShard",
+      "outputValue": "mask-shard-2",
+      "notes": "",
+      "sortOrder": 125,
+      "aliases": "Mask Shard 2"
+    },
+    {
+      "id": "4e822c11-1457-5899-b41e-a8ca1c572a89",
+      "name": "Mask Shard #3",
+      "category": "MaskShard",
+      "outputValue": "mask-shard-3",
+      "notes": "",
+      "sortOrder": 126,
+      "aliases": "Mask Shard 3"
+    },
+    {
+      "id": "0ec96315-fbfc-536c-aa99-77b7ac239ab0",
+      "name": "Mask Shard #4",
+      "category": "MaskShard",
+      "outputValue": "mask-shard-4",
+      "notes": "",
+      "sortOrder": 127,
+      "aliases": "Mask Shard 4"
+    },
+    {
+      "id": "e005fb08-466f-513a-964c-b40baaca2c11",
+      "name": "Mask Shard #5",
+      "category": "MaskShard",
+      "outputValue": "mask-shard-5",
+      "notes": "",
+      "sortOrder": 128,
+      "aliases": "Mask Shard 5"
+    },
+    {
+      "id": "52bb9bf9-1f13-5d9f-9497-1b50a4a555bb",
+      "name": "Mask Shard #6",
+      "category": "MaskShard",
+      "outputValue": "mask-shard-6",
+      "notes": "",
+      "sortOrder": 129,
+      "aliases": "Mask Shard 6"
+    },
+    {
+      "id": "f4218106-9fdc-5a2e-b846-3fb15b2d9e0f",
+      "name": "Mask Shard #7",
+      "category": "MaskShard",
+      "outputValue": "mask-shard-7",
+      "notes": "",
+      "sortOrder": 130,
+      "aliases": "Mask Shard 7"
+    },
+    {
+      "id": "42165649-e77b-5b18-a169-00e578f6e830",
+      "name": "Mask Shard #8",
+      "category": "MaskShard",
+      "outputValue": "mask-shard-8",
+      "notes": "",
+      "sortOrder": 131,
+      "aliases": "Mask Shard 8"
+    },
+    {
+      "id": "71bebc98-dec6-53cb-a1d4-68a571dac8dd",
+      "name": "Mask Shard #9",
+      "category": "MaskShard",
+      "outputValue": "mask-shard-9",
+      "notes": "",
+      "sortOrder": 132,
+      "aliases": "Mask Shard 9"
+    },
+    {
+      "id": "6faa2734-1d29-57b1-9800-7249a967c788",
+      "name": "Mask Shard #10",
+      "category": "MaskShard",
+      "outputValue": "mask-shard-10",
+      "notes": "",
+      "sortOrder": 133,
+      "aliases": "Mask Shard 10"
+    },
+    {
+      "id": "31ddb999-5a93-511f-a250-f506984770c2",
+      "name": "Mask Shard #11",
+      "category": "MaskShard",
+      "outputValue": "mask-shard-11",
+      "notes": "",
+      "sortOrder": 134,
+      "aliases": "Mask Shard 11"
+    },
+    {
+      "id": "85ee171e-efeb-5173-b20f-4214376b576e",
+      "name": "Mask Shard #12",
+      "category": "MaskShard",
+      "outputValue": "mask-shard-12",
+      "notes": "",
+      "sortOrder": 135,
+      "aliases": "Mask Shard 12"
+    },
+    {
+      "id": "f4148ccc-2bc7-5e02-bbf6-6e3ccdf0cb71",
+      "name": "Mask Shard #13",
+      "category": "MaskShard",
+      "outputValue": "mask-shard-13",
+      "notes": "",
+      "sortOrder": 136,
+      "aliases": "Mask Shard 13"
+    },
+    {
+      "id": "d7c19dc9-2aa3-59ca-94cd-4b09bff02fd4",
+      "name": "Mask Shard #14",
+      "category": "MaskShard",
+      "outputValue": "mask-shard-14",
+      "notes": "",
+      "sortOrder": 137,
+      "aliases": "Mask Shard 14"
+    },
+    {
+      "id": "c6a747b6-16fe-5039-81e5-33bf88341a4d",
+      "name": "Mask Shard #15",
+      "category": "MaskShard",
+      "outputValue": "mask-shard-15",
+      "notes": "",
+      "sortOrder": 138,
+      "aliases": "Mask Shard 15"
+    },
+    {
+      "id": "f8f13086-d17c-5773-808e-4c3655ee625f",
+      "name": "Mask Shard #16",
+      "category": "MaskShard",
+      "outputValue": "mask-shard-16",
+      "notes": "",
+      "sortOrder": 139,
+      "aliases": "Mask Shard 16"
+    },
+    {
+      "id": "13f59a4a-fe73-518d-8313-98b1a3c3e960",
+      "name": "Mask Shard #17",
+      "category": "MaskShard",
+      "outputValue": "mask-shard-17",
+      "notes": "",
+      "sortOrder": 140,
+      "aliases": "Mask Shard 17"
+    },
+    {
+      "id": "5a501bdf-5b47-577d-8bc7-0f2191f04f8a",
+      "name": "Mask Shard #18",
+      "category": "MaskShard",
+      "outputValue": "mask-shard-18",
+      "notes": "",
+      "sortOrder": 141,
+      "aliases": "Mask Shard 18"
+    },
+    {
+      "id": "f4c2cf4e-f191-5695-ba53-9976f48fca95",
+      "name": "Mask Shard #19",
+      "category": "MaskShard",
+      "outputValue": "mask-shard-19",
+      "notes": "",
+      "sortOrder": 142,
+      "aliases": "Mask Shard 19"
+    },
+    {
+      "id": "a9580e81-335c-531a-bc87-72c7806adb44",
+      "name": "Mask Shard #20",
+      "category": "MaskShard",
+      "outputValue": "mask-shard-20",
+      "notes": "",
+      "sortOrder": 143,
+      "aliases": "Mask Shard 20"
+    },
+    {
+      "id": "7f0c010e-5144-56fb-8502-bbe4dfe965ee",
+      "name": "Spool Fragment #1",
+      "category": "SpoolFragment",
+      "outputValue": "spool-fragment-1",
+      "notes": "",
+      "sortOrder": 144,
+      "aliases": "Spool Fragment 1"
+    },
+    {
+      "id": "12ec9891-3a44-5eb3-bab8-349d070b8e0e",
+      "name": "Spool Fragment #2",
+      "category": "SpoolFragment",
+      "outputValue": "spool-fragment-2",
+      "notes": "",
+      "sortOrder": 145,
+      "aliases": "Spool Fragment 2"
+    },
+    {
+      "id": "137411d0-50ef-578c-a714-bf5ae69a7cde",
+      "name": "Spool Fragment #3",
+      "category": "SpoolFragment",
+      "outputValue": "spool-fragment-3",
+      "notes": "",
+      "sortOrder": 146,
+      "aliases": "Spool Fragment 3"
+    },
+    {
+      "id": "1c67ae2f-53a9-569d-8579-76d44cd53b3d",
+      "name": "Spool Fragment #4",
+      "category": "SpoolFragment",
+      "outputValue": "spool-fragment-4",
+      "notes": "",
+      "sortOrder": 147,
+      "aliases": "Spool Fragment 4"
+    },
+    {
+      "id": "3492d2b3-79c3-54d4-ae1b-7fc76eb465a1",
+      "name": "Spool Fragment #5",
+      "category": "SpoolFragment",
+      "outputValue": "spool-fragment-5",
+      "notes": "",
+      "sortOrder": 148,
+      "aliases": "Spool Fragment 5"
+    },
+    {
+      "id": "bce45a47-3df3-53a8-a175-bc50697e09e4",
+      "name": "Spool Fragment #6",
+      "category": "SpoolFragment",
+      "outputValue": "spool-fragment-6",
+      "notes": "",
+      "sortOrder": 149,
+      "aliases": "Spool Fragment 6"
+    },
+    {
+      "id": "984790d4-186c-5e5d-b80a-a9b889f0cd0c",
+      "name": "Spool Fragment #7",
+      "category": "SpoolFragment",
+      "outputValue": "spool-fragment-7",
+      "notes": "",
+      "sortOrder": 150,
+      "aliases": "Spool Fragment 7"
+    },
+    {
+      "id": "813479ed-8f46-54f0-9c19-e5d8fb9e1a9e",
+      "name": "Spool Fragment #8",
+      "category": "SpoolFragment",
+      "outputValue": "spool-fragment-8",
+      "notes": "",
+      "sortOrder": 151,
+      "aliases": "Spool Fragment 8"
+    },
+    {
+      "id": "bcfce241-49eb-5a27-85f9-1b627cfdf27d",
+      "name": "Spool Fragment #9",
+      "category": "SpoolFragment",
+      "outputValue": "spool-fragment-9",
+      "notes": "",
+      "sortOrder": 152,
+      "aliases": "Spool Fragment 9"
+    },
+    {
+      "id": "17c5df2b-88d5-56f0-bbac-74c3054fe2e8",
+      "name": "Spool Fragment #10",
+      "category": "SpoolFragment",
+      "outputValue": "spool-fragment-10",
+      "notes": "",
+      "sortOrder": 153,
+      "aliases": "Spool Fragment 10"
+    },
+    {
+      "id": "ead7c0c9-4b26-5d94-a5fc-021fd0e00db2",
+      "name": "Spool Fragment #11",
+      "category": "SpoolFragment",
+      "outputValue": "spool-fragment-11",
+      "notes": "",
+      "sortOrder": 154,
+      "aliases": "Spool Fragment 11"
+    },
+    {
+      "id": "f130064d-abe4-5544-91c9-3d4af9d2786a",
+      "name": "Spool Fragment #12",
+      "category": "SpoolFragment",
+      "outputValue": "spool-fragment-12",
+      "notes": "",
+      "sortOrder": 155,
+      "aliases": "Spool Fragment 12"
+    },
+    {
+      "id": "d61e98d0-1952-54e3-9ead-4e9db4e72c63",
+      "name": "Spool Fragment #13",
+      "category": "SpoolFragment",
+      "outputValue": "spool-fragment-13",
+      "notes": "",
+      "sortOrder": 156,
+      "aliases": "Spool Fragment 13"
+    },
+    {
+      "id": "bc37ce5b-43ee-550b-82cd-6479f8122518",
+      "name": "Spool Fragment #14",
+      "category": "SpoolFragment",
+      "outputValue": "spool-fragment-14",
+      "notes": "",
+      "sortOrder": 157,
+      "aliases": "Spool Fragment 14"
+    },
+    {
+      "id": "d900af48-260a-5002-961e-70160684f357",
+      "name": "Spool Fragment #15",
+      "category": "SpoolFragment",
+      "outputValue": "spool-fragment-15",
+      "notes": "",
+      "sortOrder": 158,
+      "aliases": "Spool Fragment 15"
+    },
+    {
+      "id": "d400071d-1f7d-54db-8c50-e544dcfec383",
+      "name": "Spool Fragment #16",
+      "category": "SpoolFragment",
+      "outputValue": "spool-fragment-16",
+      "notes": "",
+      "sortOrder": 159,
+      "aliases": "Spool Fragment 16"
+    },
+    {
+      "id": "ffc47bae-7250-5818-8ce9-e20ca7c0f614",
+      "name": "Spool Fragment #17",
+      "category": "SpoolFragment",
+      "outputValue": "spool-fragment-17",
+      "notes": "",
+      "sortOrder": 160,
+      "aliases": "Spool Fragment 17"
+    },
+    {
+      "id": "ff4aecc8-c8bf-5290-a416-89391a12bdbc",
+      "name": "Spool Fragment #18",
+      "category": "SpoolFragment",
+      "outputValue": "spool-fragment-18",
+      "notes": "",
+      "sortOrder": 161,
+      "aliases": "Spool Fragment 18"
+    },
+    {
+      "id": "6b882bb4-3c70-5ece-be84-b977e84b6caa",
+      "name": "Bellway: Deep Docks",
+      "category": "Bellway",
+      "outputValue": "bellway-deep-docks",
+      "notes": "",
+      "sortOrder": 162,
+      "aliases": "Bellway Deep Docks"
+    },
+    {
+      "id": "aa1f8fe6-ba31-59e9-a632-eec624753030",
+      "name": "Bellway: Far Fields",
+      "category": "Bellway",
+      "outputValue": "bellway-far-fields",
+      "notes": "",
+      "sortOrder": 163,
+      "aliases": "Bellway Far Fields"
+    },
+    {
+      "id": "eb33dc5a-99dc-5bb7-8a04-d6d7c55a84fd",
+      "name": "Bellway: Greymoor",
+      "category": "Bellway",
+      "outputValue": "bellway-greymoor",
+      "notes": "",
+      "sortOrder": 164,
+      "aliases": "Bellway Greymoor"
+    },
+    {
+      "id": "ff3acb5f-296b-5526-8a4e-08ae787ee393",
+      "name": "Bellway: Bellhart",
+      "category": "Bellway",
+      "outputValue": "bellway-bellhart",
+      "notes": "",
+      "sortOrder": 165,
+      "aliases": "Bellway Bellhart"
+    },
+    {
+      "id": "5faf6bb5-f5f0-5b7b-8890-f5e296b642e3",
+      "name": "Bellway: Blasted Steps",
+      "category": "Bellway",
+      "outputValue": "bellway-blasted-steps",
+      "notes": "",
+      "sortOrder": 166,
+      "aliases": "Bellway Blasted Steps"
+    },
+    {
+      "id": "24a89ac7-56f8-5690-b111-80d8d5afb653",
+      "name": "Bellway: Grand Bellway",
+      "category": "Bellway",
+      "outputValue": "bellway-grand-bellway",
+      "notes": "",
+      "sortOrder": 167,
+      "aliases": "Bellway Grand Bellway"
+    },
+    {
+      "id": "87287e74-189c-52bc-bc1e-13ef16989d28",
+      "name": "Bellway: The Slab",
+      "category": "Bellway",
+      "outputValue": "bellway-the-slab",
+      "notes": "",
+      "sortOrder": 168,
+      "aliases": "Bellway The Slab"
+    },
+    {
+      "id": "7623107d-03c4-585d-b58a-1b5c2e63d034",
+      "name": "Bellway: Shellwood",
+      "category": "Bellway",
+      "outputValue": "bellway-shellwood",
+      "notes": "",
+      "sortOrder": 169,
+      "aliases": "Bellway Shellwood"
+    },
+    {
+      "id": "d912fb26-4c35-5511-ae24-db3fae5b76f6",
+      "name": "Bellway: Bilewater",
+      "category": "Bellway",
+      "outputValue": "bellway-bilewater",
+      "notes": "",
+      "sortOrder": 170,
+      "aliases": "Bellway Bilewater"
+    },
+    {
+      "id": "8072e779-f0aa-5d86-a6a9-c769e3fde6a5",
+      "name": "Bellway: Putrified Ducts",
+      "category": "Bellway",
+      "outputValue": "bellway-putrified-ducts",
+      "notes": "",
+      "sortOrder": 171,
+      "aliases": "Bellway Putrified Ducts"
+    },
+    {
+      "id": "bb4fc06f-a3cb-5418-963b-c28446926f73",
+      "name": "Ventrica: Choral Chambers",
+      "category": "Ventrica",
+      "outputValue": "ventrica-choral-chambers",
+      "notes": "",
+      "sortOrder": 172,
+      "aliases": "Ventrica Choral Chambers"
+    },
+    {
+      "id": "b1d93fa5-47ea-5c60-aee3-6793e8d94252",
+      "name": "Ventrica: Underworks",
+      "category": "Ventrica",
+      "outputValue": "ventrica-underworks",
+      "notes": "",
+      "sortOrder": 173,
+      "aliases": "Ventrica Underworks"
+    },
+    {
+      "id": "786db75e-25cb-5064-a581-86eedb45f567",
+      "name": "Ventrica: Grand Bellway",
+      "category": "Ventrica",
+      "outputValue": "ventrica-grand-bellway",
+      "notes": "",
+      "sortOrder": 174,
+      "aliases": "Ventrica Grand Bellway"
+    },
+    {
+      "id": "47f7faed-e610-5469-8292-e06514aba412",
+      "name": "Ventrica: High Halls",
+      "category": "Ventrica",
+      "outputValue": "ventrica-high-halls",
+      "notes": "",
+      "sortOrder": 175,
+      "aliases": "Ventrica High Halls"
+    },
+    {
+      "id": "cff17440-71a8-5ab6-9ff7-eccf282f0cb3",
+      "name": "Ventrica: Songclave",
+      "category": "Ventrica",
+      "outputValue": "ventrica-songclave",
+      "notes": "",
+      "sortOrder": 176,
+      "aliases": "Ventrica Songclave"
+    },
+    {
+      "id": "e3d9c48e-5434-5c60-9a02-58bf266dff7c",
+      "name": "Ventrica: Memorium",
+      "category": "Ventrica",
+      "outputValue": "ventrica-memorium",
+      "notes": "",
+      "sortOrder": 177,
+      "aliases": "Ventrica Memorium"
+    },
+    {
+      "id": "fdfc215a-f482-5e73-8b1c-78698d74463a",
+      "name": "Map: Mosslands",
+      "category": "Map",
+      "outputValue": "map-mosslands",
+      "notes": "",
+      "sortOrder": 178,
+      "aliases": "Map Mosslands"
+    },
+    {
+      "id": "9940e568-b1c9-5834-895f-004479aa0fc0",
+      "name": "Map: The Marrow",
+      "category": "Map",
+      "outputValue": "map-the-marrow",
+      "notes": "",
+      "sortOrder": 179,
+      "aliases": "Map The Marrow"
+    },
+    {
+      "id": "b5a85395-0e3c-5647-8a82-5787a24e5890",
+      "name": "Map: Deep Docks",
+      "category": "Map",
+      "outputValue": "map-deep-docks",
+      "notes": "",
+      "sortOrder": 180,
+      "aliases": "Map Deep Docks"
+    },
+    {
+      "id": "d7050172-5cd5-5289-8897-04f567b1e564",
+      "name": "Map: Far Fields",
+      "category": "Map",
+      "outputValue": "map-far-fields",
+      "notes": "",
+      "sortOrder": 181,
+      "aliases": "Map Far Fields"
+    },
+    {
+      "id": "d042b08d-3725-55ac-b8b6-07c9e1a51d01",
+      "name": "Map: Wormways",
+      "category": "Map",
+      "outputValue": "map-wormways",
+      "notes": "",
+      "sortOrder": 182,
+      "aliases": "Map Wormways"
+    },
+    {
+      "id": "4a10b195-81b2-5c21-aed0-9c9a066f93aa",
+      "name": "Map: Hunter\u0027s March",
+      "category": "Map",
+      "outputValue": "map-hunter-s-march",
+      "notes": "",
+      "sortOrder": 183,
+      "aliases": "Map Hunters March"
+    },
+    {
+      "id": "782d2413-9435-55ce-a133-505056a354a8",
+      "name": "Map: Greymoor",
+      "category": "Map",
+      "outputValue": "map-greymoor",
+      "notes": "",
+      "sortOrder": 184,
+      "aliases": "Map Greymoor"
+    },
+    {
+      "id": "d68a15fa-0736-5fd5-ae64-c0470036f160",
+      "name": "Map: Bellhart",
+      "category": "Map",
+      "outputValue": "map-bellhart",
+      "notes": "",
+      "sortOrder": 185,
+      "aliases": "Map Bellhart"
+    },
+    {
+      "id": "917ce3f4-5685-5d77-8eda-af9eaacfff39",
+      "name": "Map: Shellwood",
+      "category": "Map",
+      "outputValue": "map-shellwood",
+      "notes": "",
+      "sortOrder": 186,
+      "aliases": "Map Shellwood"
+    },
+    {
+      "id": "8ecdc527-3ce3-5fa4-824c-0369f9c779fd",
+      "name": "Map: Blasted Steps",
+      "category": "Map",
+      "outputValue": "map-blasted-steps",
+      "notes": "",
+      "sortOrder": 187,
+      "aliases": "Map Blasted Steps"
+    },
+    {
+      "id": "4f5d95b2-a76b-578a-a265-b853fe1ba67c",
+      "name": "Map: Sinner\u0027s Road",
+      "category": "Map",
+      "outputValue": "map-sinner-s-road",
+      "notes": "",
+      "sortOrder": 188,
+      "aliases": "Map Sinners Road"
+    },
+    {
+      "id": "3e23dbed-90ee-5f9b-8ec2-1fa67a38aaa8",
+      "name": "Map: Mount Fay",
+      "category": "Map",
+      "outputValue": "map-mount-fay",
+      "notes": "",
+      "sortOrder": 189,
+      "aliases": "Map Mount Fay"
+    },
+    {
+      "id": "c392cc0c-d487-5374-ba89-1092ef83487d",
+      "name": "Map: Sands of Karak",
+      "category": "Map",
+      "outputValue": "map-sands-of-karak",
+      "notes": "",
+      "sortOrder": 190,
+      "aliases": "Map Sands of Karak"
+    },
+    {
+      "id": "044bb2b5-f605-562b-92c6-9c18235343dd",
+      "name": "Map: Bilewater",
+      "category": "Map",
+      "outputValue": "map-bilewater",
+      "notes": "",
+      "sortOrder": 191,
+      "aliases": "Map Bilewater"
+    },
+    {
+      "id": "e2d2f34c-8b02-54c4-88ec-e680d39fa52d",
+      "name": "Progressive Crafting Kit",
+      "category": "Upgrade",
+      "outputValue": "progressive-crafting-kit",
+      "notes": "",
+      "sortOrder": 192,
+      "aliases": "Progressive Crafting Kit"
+    },
+    {
+      "id": "6831d2b9-d916-51b5-afd8-1e32348641de",
+      "name": "Bench Pins",
+      "category": "Pin",
+      "outputValue": "bench-pins",
+      "notes": "",
+      "sortOrder": 193,
+      "aliases": "Bench Pins"
+    },
+    {
+      "id": "3204c0b8-49be-5b65-a4f7-e5577b6936e2",
+      "name": "Ventrica Pins",
+      "category": "Pin",
+      "outputValue": "ventrica-pins",
+      "notes": "",
+      "sortOrder": 194,
+      "aliases": "Ventrica Pins"
+    },
+    {
+      "id": "5f6a722d-3420-528d-81de-ae31ab9c01fa",
+      "name": "Bellway Pins",
+      "category": "Pin",
+      "outputValue": "bellway-pins",
+      "notes": "",
+      "sortOrder": 195,
+      "aliases": "Bellway Pins"
+    },
+    {
+      "id": "fb4439ec-6340-5f78-a055-57b4a1e8a117",
+      "name": "Vendor Pins",
+      "category": "Pin",
+      "outputValue": "vendor-pins",
+      "notes": "",
+      "sortOrder": 196,
+      "aliases": "Vendor Pins"
+    },
+    {
+      "id": "a92fe17e-f4c0-533b-9119-31f98a47abcb",
+      "name": "Relic: Weaver Effigy (Keelal, Shellwood)",
+      "category": "Relic",
+      "outputValue": "relic-weaver-effigy-keelal-shellwood",
+      "notes": "",
+      "sortOrder": 197,
+      "aliases": "Relic Weaver Effigy Keelal Shellwood"
+    },
+    {
+      "id": "9fc2a71f-b162-5e76-a239-b84433e8549d",
+      "name": "Relic: Psalm Cylinder (East Whispering Vaults)",
+      "category": "Relic",
+      "outputValue": "relic-psalm-cylinder-east-whispering-vaults",
+      "notes": "",
+      "sortOrder": 198,
+      "aliases": "Relic Psalm Cylinder East Whispering Vaults"
+    },
+    {
+      "id": "6bdf30c2-ec81-5a7c-ab56-6f44c2bd6ca7",
+      "name": "Relic: Bone Scroll (Wisp Thicket)",
+      "category": "Relic",
+      "outputValue": "relic-bone-scroll-wisp-thicket",
+      "notes": "",
+      "sortOrder": 199,
+      "aliases": "Relic Bone Scroll Wisp Thicket"
+    },
+    {
+      "id": "afa9020e-7533-5c8f-83f1-f7e65e437e1f",
+      "name": "Relic: Weaver Effigy (Camora, Moss Grotto)",
+      "category": "Relic",
+      "outputValue": "relic-weaver-effigy-camora-moss-grotto",
+      "notes": "",
+      "sortOrder": 200,
+      "aliases": "Relic Weaver Effigy Camora Moss Grotto"
+    },
+    {
+      "id": "46ad1b1c-34d0-5162-8b8d-c6e4c32508ca",
+      "name": "Relic: Sacred Cylinder",
+      "category": "Relic",
+      "outputValue": "relic-sacred-cylinder",
+      "notes": "",
+      "sortOrder": 201,
+      "aliases": "Relic Sacred Cylinder"
+    },
+    {
+      "id": "f0e24027-ae3b-5793-b4f1-a11d35f76d2d",
+      "name": "Relic: Choral Commandment (Jubilana)",
+      "category": "Relic",
+      "outputValue": "relic-choral-commandment-jubilana",
+      "notes": "",
+      "sortOrder": 202,
+      "aliases": "Relic Choral Commandment Jubilana"
+    },
+    {
+      "id": "7b7b6d33-5630-5c99-ae3c-0b032eff84e7",
+      "name": "Relic: Psalm Cylinder (Underworks)",
+      "category": "Relic",
+      "outputValue": "relic-psalm-cylinder-underworks",
+      "notes": "",
+      "sortOrder": 203,
+      "aliases": "Relic Psalm Cylinder Underworks"
+    },
+    {
+      "id": "7c179f00-e7aa-530f-aab1-4564507d6a01",
+      "name": "Relic: Rune Harp (High Halls)",
+      "category": "Relic",
+      "outputValue": "relic-rune-harp-high-halls",
+      "notes": "",
+      "sortOrder": 204,
+      "aliases": "Relic Rune Harp High Halls"
+    },
+    {
+      "id": "849e5a6d-cee9-5171-9b79-50ae33b78b1d",
+      "name": "Relic: Psalm Cylinder (Vaultkeeper Cardinius)",
+      "category": "Relic",
+      "outputValue": "relic-psalm-cylinder-vaultkeeper-cardinius",
+      "notes": "",
+      "sortOrder": 205,
+      "aliases": "Relic Psalm Cylinder Vaultkeeper Cardinius"
+    },
+    {
+      "id": "7902d67f-15da-592b-b953-29eef067719e",
+      "name": "Relic: Psalm Cylinder (High Halls)",
+      "category": "Relic",
+      "outputValue": "relic-psalm-cylinder-high-halls",
+      "notes": "",
+      "sortOrder": 206,
+      "aliases": "Relic Psalm Cylinder High Halls"
+    },
+    {
+      "id": "99948d53-e5e4-5656-bcde-4b15f7f1e787",
+      "name": "Relic: Choral Commandment (Western Whiteward)",
+      "category": "Relic",
+      "outputValue": "relic-choral-commandment-western-whiteward",
+      "notes": "",
+      "sortOrder": 207,
+      "aliases": "Relic Choral Commandment Western Whiteward"
+    },
+    {
+      "id": "e3c03082-b11d-52be-9820-018c1ad0ad3d",
+      "name": "Relic: Rune Harp (Weavenest Cindril)",
+      "category": "Relic",
+      "outputValue": "relic-rune-harp-weavenest-cindril",
+      "notes": "",
+      "sortOrder": 208,
+      "aliases": "Relic Rune Harp Weavenest Cindril"
+    },
+    {
+      "id": "cc9e277a-aff3-5ab0-b249-eb9548eccd4f",
+      "name": "Relic: Psalm Cylinder (Grindle)",
+      "category": "Relic",
+      "outputValue": "relic-psalm-cylinder-grindle",
+      "notes": "",
+      "sortOrder": 209,
+      "aliases": "Relic Psalm Cylinder Grindle"
+    },
+    {
+      "id": "2e4372ac-cb9f-5485-8b87-cefad30b0a46",
+      "name": "Relic: Rune Harp (Weavenest Atla)",
+      "category": "Relic",
+      "outputValue": "relic-rune-harp-weavenest-atla",
+      "notes": "",
+      "sortOrder": 210,
+      "aliases": "Relic Rune Harp Weavenest Atla"
+    },
+    {
+      "id": "84b5c7f6-0bae-5ba7-8bea-23a1705ee5e8",
+      "name": "Relic: Bone Scroll (Underworks)",
+      "category": "Relic",
+      "outputValue": "relic-bone-scroll-underworks",
+      "notes": "",
+      "sortOrder": 211,
+      "aliases": "Relic Bone Scroll Underworks"
+    },
+    {
+      "id": "fc926d2d-e0b5-57d4-b990-87c8d75d36b5",
+      "name": "Relic: Bone Scroll (Far Fields)",
+      "category": "Relic",
+      "outputValue": "relic-bone-scroll-far-fields",
+      "notes": "",
+      "sortOrder": 212,
+      "aliases": "Relic Bone Scroll Far Fields"
+    },
+    {
+      "id": "e940d763-4ecf-5d38-9580-5cac6a0796ef",
+      "name": "Relic: Choral Commandment (Moss Grotto)",
+      "category": "Relic",
+      "outputValue": "relic-choral-commandment-moss-grotto",
+      "notes": "",
+      "sortOrder": 213,
+      "aliases": "Relic Choral Commandment Moss Grotto"
+    },
+    {
+      "id": "4851f501-40f6-5ad2-b9fc-d090964a6bdf",
+      "name": "Relic: Choral Commandment (Eastern Whiteward)",
+      "category": "Relic",
+      "outputValue": "relic-choral-commandment-eastern-whiteward",
+      "notes": "",
+      "sortOrder": 214,
+      "aliases": "Relic Choral Commandment Eastern Whiteward"
+    },
+    {
+      "id": "564d1108-2875-56c1-9e91-bd8e5032c6de",
+      "name": "Relic: Bone Scroll (Greymoor)",
+      "category": "Relic",
+      "outputValue": "relic-bone-scroll-greymoor",
+      "notes": "",
+      "sortOrder": 215,
+      "aliases": "Relic Bone Scroll Greymoor"
+    },
+    {
+      "id": "a440c1d7-e9c1-5350-b723-f8e0a02cb952",
+      "name": "Relic: Weaver Effigy (Atla, The Slab)",
+      "category": "Relic",
+      "outputValue": "relic-weaver-effigy-atla-the-slab",
+      "notes": "",
+      "sortOrder": 216,
+      "aliases": "Relic Weaver Effigy Atla The Slab"
+    },
+    {
+      "id": "4adb0757-ca69-5c8b-a19e-642d24bedf43",
+      "name": "Relic: Arcane Egg",
+      "category": "Relic",
+      "outputValue": "relic-arcane-egg",
+      "notes": "",
+      "sortOrder": 217,
+      "aliases": "Relic Arcane Egg"
+    },
+    {
+      "id": "e2584ba9-6a7f-56e2-a006-312e33814062",
+      "name": "Rosaries (60)",
+      "category": "Currency",
+      "outputValue": "rosaries-60",
+      "notes": "",
+      "sortOrder": 218,
+      "aliases": "Rosaries 60"
+    },
+    {
+      "id": "c5dac910-4c94-5193-81e7-b1947bbfad46",
+      "name": "Shell Shards (80)",
+      "category": "Currency",
+      "outputValue": "shell-shards-80",
+      "notes": "",
+      "sortOrder": 219,
+      "aliases": "Shell Shards 80"
+    },
+    {
+      "id": "0b8d9bbc-835c-56ea-af41-e5e7e0d7209d",
+      "name": "Stagger Trap",
+      "category": "Trap",
+      "outputValue": "stagger-trap",
+      "notes": "",
+      "sortOrder": 220,
+      "aliases": "Stagger Trap"
+    },
+    {
+      "id": "e846b1da-9873-5d03-abd1-867d24adb041",
+      "name": "Rosary Spill Trap",
+      "category": "Trap",
+      "outputValue": "rosary-spill-trap",
+      "notes": "",
+      "sortOrder": 221,
+      "aliases": "Rosary Spill Trap"
+    },
+    {
+      "id": "78f226dd-cf76-58d0-beb1-88520ea826a7",
+      "name": "Darkness Trap",
+      "category": "Trap",
+      "outputValue": "darkness-trap",
+      "notes": "",
+      "sortOrder": 222,
+      "aliases": "Darkness Trap"
+    },
+    {
+      "id": "3e2d9d3c-a5e2-5601-bdd7-97d4e16ef24b",
+      "name": "Cursed Crest Trap",
+      "category": "Trap",
+      "outputValue": "cursed-crest-trap",
+      "notes": "",
+      "sortOrder": 223,
+      "aliases": "Cursed Crest Trap"
+    },
+    {
+      "id": "089cebae-c852-54d6-b17c-0c6f547453f7",
+      "name": "Muckmaggot Status Trap",
+      "category": "Trap",
+      "outputValue": "muckmaggot-status-trap",
+      "notes": "",
+      "sortOrder": 224,
+      "aliases": "Muckmaggot Status Trap"
+    },
+    {
+      "id": "1e0909f0-4c89-56f0-a3de-980b02a09a9b",
+      "name": "Progressive Swift Step",
+      "category": "Skill",
+      "outputValue": "progressive-swift-step",
+      "notes": "",
+      "sortOrder": 225,
+      "aliases": "Progressive Swift Step"
+    },
+    {
+      "id": "25d780d5-3b9b-50d2-af70-adbcdca3bf44",
+      "name": "Progressive Needle Upgrade",
+      "category": "NeedleUpgrade",
+      "outputValue": "progressive-needle-upgrade",
+      "notes": "",
+      "sortOrder": 226,
+      "aliases": "Progressive Needle Upgrade"
+    },
+    {
+      "id": "305d2e79-0ee7-5486-95ba-a7398abb0cfc",
+      "name": "Pale Oil",
+      "category": "NeedleUpgrade",
+      "outputValue": "pale-oil",
+      "notes": "",
+      "sortOrder": 227,
+      "aliases": "Pale Oil"
+    },
+    {
+      "id": "37a9b432-e2f6-5e17-95bd-a0d5a3fa4cef",
+      "name": "Progressive Druid\u0027s Eyes",
+      "category": "Upgrade",
+      "outputValue": "progressive-druid-s-eyes",
+      "notes": "",
+      "sortOrder": 228,
+      "aliases": "Progressive Druids Eyes"
+    },
+    {
+      "id": "d81c467b-3576-5cda-a97d-03a7191652ba",
+      "name": "Progressive Compass",
+      "category": "Skill",
+      "outputValue": "progressive-compass",
+      "notes": "",
+      "sortOrder": 229,
+      "aliases": "Progressive Compass"
+    },
+    {
+      "id": "1279191e-6cc9-51bd-bdb0-d3921ede7ed6",
+      "name": "Frayed Rosary String",
+      "category": "Resource",
+      "outputValue": "frayed-rosary-string",
+      "notes": "",
+      "sortOrder": 230,
+      "aliases": "Frayed Rosary String"
+    },
+    {
+      "id": "e5178544-96f0-5951-a72d-93bd478bfce7",
+      "name": "Rosary String",
+      "category": "Resource",
+      "outputValue": "rosary-string",
+      "notes": "",
+      "sortOrder": 231,
+      "aliases": "Rosary String"
+    },
+    {
+      "id": "f3e282c5-8c61-5745-bbc9-7a4172b50020",
+      "name": "Rosary Necklace",
+      "category": "Resource",
+      "outputValue": "rosary-necklace",
+      "notes": "",
+      "sortOrder": 232,
+      "aliases": "Rosary Necklace"
+    },
+    {
+      "id": "97ca6347-d7ea-50e8-ae8e-ab07a2611697",
+      "name": "Heavy Rosary Necklace",
+      "category": "Resource",
+      "outputValue": "heavy-rosary-necklace",
+      "notes": "",
+      "sortOrder": 233,
+      "aliases": "Heavy Rosary Necklace"
+    },
+    {
+      "id": "7953b356-5d52-59f5-b628-b0894a064fe1",
+      "name": "Pale Rosary Necklace",
+      "category": "Resource",
+      "outputValue": "pale-rosary-necklace",
+      "notes": "",
+      "sortOrder": 234,
+      "aliases": "Pale Rosary Necklace"
+    },
+    {
+      "id": "97094983-7193-59ab-8a9d-30f2f9caee1a",
+      "name": "Shard Bundle",
+      "category": "Resource",
+      "outputValue": "shard-bundle",
+      "notes": "",
+      "sortOrder": 235,
+      "aliases": "Shard Bundle"
+    },
+    {
+      "id": "370b5537-a1be-5579-8423-efc848350666",
+      "name": "Beast Shard",
+      "category": "Resource",
+      "outputValue": "beast-shard",
+      "notes": "",
+      "sortOrder": 236,
+      "aliases": "Beast Shard"
+    },
+    {
+      "id": "8bec60f1-70d6-5c75-a977-baaafa3d85bf",
+      "name": "Pristine Core",
+      "category": "Resource",
+      "outputValue": "pristine-core",
+      "notes": "",
+      "sortOrder": 237,
+      "aliases": "Pristine Core"
+    },
+    {
+      "id": "53eb093f-1a87-55bc-a53c-72cf3f7d6fe8",
+      "name": "Rosaries (10)",
+      "category": "Resource",
+      "outputValue": "rosaries-10",
+      "notes": "",
+      "sortOrder": 238,
+      "aliases": "Rosaries 10"
+    },
+    {
+      "id": "f20e6f6d-3fb6-573d-ad61-8f6443042b6c",
+      "name": "Shell Shards (10)",
+      "category": "Resource",
+      "outputValue": "shell-shards-10",
+      "notes": "",
+      "sortOrder": 239,
+      "aliases": "Shell Shards 10"
+    },
+    {
+      "id": "85c69318-4890-5649-a372-d57b53fdd3a6",
+      "name": "Ruined Tool",
+      "category": "Tool",
+      "outputValue": "ruined-tool",
+      "notes": "",
+      "sortOrder": 240,
+      "aliases": "Ruined Tool"
+    },
+    {
+      "id": "07cce3ea-2bae-5009-84f9-b20b25dbe41e",
+      "name": "Simple Key (Wormways)",
+      "category": "Key",
+      "outputValue": "simple-key-wormways",
+      "notes": "",
+      "sortOrder": 241,
+      "aliases": "Simple Key Wormways"
+    },
+    {
+      "id": "0bc52b2b-333d-5fa0-8416-5a4cc4cd1331",
+      "name": "Simple Key (Deep Docks)",
+      "category": "Key",
+      "outputValue": "simple-key-deep-docks",
+      "notes": "",
+      "sortOrder": 242,
+      "aliases": "Simple Key Deep Docks"
+    },
+    {
+      "id": "96f4cb16-981e-5c49-910a-adf63e5b0d4d",
+      "name": "Simple Key (Green Prince)",
+      "category": "Key",
+      "outputValue": "simple-key-green-prince",
+      "notes": "",
+      "sortOrder": 243,
+      "aliases": "Simple Key Green Prince"
+    },
+    {
+      "id": "a5f260f5-c64c-5961-a534-eff3d7c34289",
+      "name": "Simple Key (Rosary Bank)",
+      "category": "Key",
+      "outputValue": "simple-key-rosary-bank",
+      "notes": "",
+      "sortOrder": 244,
+      "aliases": "Simple Key Rosary Bank"
+    },
+    {
+      "id": "310d8f86-10f2-584d-bf59-e97008a79bc8",
+      "name": "Map: Weavenest Atla",
+      "category": "Map",
+      "outputValue": "map-weavenest-atla",
+      "notes": "",
+      "sortOrder": 245,
+      "aliases": "Map Weavenest Atla"
+    },
+    {
+      "id": "2b1d4f79-cc0c-578c-b27a-d334c30a188c",
+      "name": "Map: Grand Gate",
+      "category": "Map",
+      "outputValue": "map-grand-gate",
+      "notes": "",
+      "sortOrder": 246,
+      "aliases": "Map Grand Gate"
+    },
+    {
+      "id": "ab5e123e-37f1-5b91-a6a6-0c1db5a0a0b8",
+      "name": "Map: Underworks",
+      "category": "Map",
+      "outputValue": "map-underworks",
+      "notes": "",
+      "sortOrder": 247,
+      "aliases": "Map Underworks"
+    },
+    {
+      "id": "c5f92063-2ae2-5c6b-8708-0f5d81359514",
+      "name": "Map: Choral Chambers",
+      "category": "Map",
+      "outputValue": "map-choral-chambers",
+      "notes": "",
+      "sortOrder": 248,
+      "aliases": "Map Choral Chambers"
+    },
+    {
+      "id": "d0745b01-145a-5d3f-bfc5-bdd1bff3e153",
+      "name": "Map: Whispering Vaults",
+      "category": "Map",
+      "outputValue": "map-whispering-vaults",
+      "notes": "",
+      "sortOrder": 249,
+      "aliases": "Map Whispering Vaults"
+    },
+    {
+      "id": "8ed45ca8-ede8-5981-8581-15e155d74bc2",
+      "name": "Map: Whiteward",
+      "category": "Map",
+      "outputValue": "map-whiteward",
+      "notes": "",
+      "sortOrder": 250,
+      "aliases": "Map Whiteward"
+    },
+    {
+      "id": "c063e20b-6141-5fd4-ad7a-36707cf5544c",
+      "name": "Map: Cogwork Core",
+      "category": "Map",
+      "outputValue": "map-cogwork-core",
+      "notes": "",
+      "sortOrder": 251,
+      "aliases": "Map Cogwork Core"
+    },
+    {
+      "id": "1ef24021-9ca2-52cb-9d57-aa55b1b4f2d2",
+      "name": "Map: Memorium",
+      "category": "Map",
+      "outputValue": "map-memorium",
+      "notes": "",
+      "sortOrder": 252,
+      "aliases": "Map Memorium"
+    },
+    {
+      "id": "eebfd02a-697a-5c7d-86f9-3d5745f36882",
+      "name": "Map: High Halls",
+      "category": "Map",
+      "outputValue": "map-high-halls",
+      "notes": "",
+      "sortOrder": 253,
+      "aliases": "Map High Halls"
+    },
+    {
+      "id": "2d7e4f44-4a44-5b86-b27a-a3b3affa0e39",
+      "name": "Map: The Slab",
+      "category": "Map",
+      "outputValue": "map-the-slab",
+      "notes": "",
+      "sortOrder": 254,
+      "aliases": "Map The Slab"
+    },
+    {
+      "id": "5e650176-f48f-5214-b2b9-af72b9506784",
+      "name": "Map: Putrified Ducts",
+      "category": "Map",
+      "outputValue": "map-putrified-ducts",
+      "notes": "",
+      "sortOrder": 255,
+      "aliases": "Map Putrified Ducts"
+    },
+    {
+      "id": "316c326a-e9d1-522c-91d8-5f76755fd350",
+      "name": "Map: The Cradle",
+      "category": "Map",
+      "outputValue": "map-the-cradle",
+      "notes": "",
+      "sortOrder": 256,
+      "aliases": "Map The Cradle"
+    },
+    {
+      "id": "4b6aaf1f-3f97-5c36-aed1-b56e14396061",
+      "name": "Map: Verdania",
+      "category": "Map",
+      "outputValue": "map-verdania",
+      "notes": "",
+      "sortOrder": 257,
+      "aliases": "Map Verdania"
+    },
+    {
+      "id": "c20f0012-cd9b-58e7-870d-a32c2545f140",
+      "name": "Map: The Abyss",
+      "category": "Map",
+      "outputValue": "map-the-abyss",
+      "notes": "",
+      "sortOrder": 258,
+      "aliases": "Map The Abyss"
+    },
+    {
+      "id": "eef4da9d-c362-56f3-8a02-d9d65155ac3a",
+      "name": "Architect\u0027s Melody",
+      "category": "Melody",
+      "outputValue": "architect-s-melody",
+      "notes": "",
+      "sortOrder": 259,
+      "aliases": "Architects Melody"
+    },
+    {
+      "id": "8c568631-7a65-5135-a893-98fcb501b2af",
+      "name": "Conductor\u0027s Melody",
+      "category": "Melody",
+      "outputValue": "conductor-s-melody",
+      "notes": "",
+      "sortOrder": 260,
+      "aliases": "Conductors Melody"
+    },
+    {
+      "id": "fcdee0c2-528d-504a-9bb3-2b86e5f70e0f",
+      "name": "Vaultkeeper\u0027s Melody",
+      "category": "Melody",
+      "outputValue": "vaultkeeper-s-melody",
+      "notes": "",
+      "sortOrder": 261,
+      "aliases": "Vaultkeepers Melody"
+    },
+    {
+      "id": "3f0915e4-881e-5d2b-8209-f93ecd692c73",
+      "name": "Elegy of the Deep",
+      "category": "Melody",
+      "outputValue": "elegy-of-the-deep",
+      "notes": "",
+      "sortOrder": 262,
+      "aliases": "Elegy of the Deep"
+    },
+    {
+      "id": "fcddef45-fe69-5af3-8cb8-2a8fd7135477",
+      "name": "Beastling Call",
+      "category": "Melody",
+      "outputValue": "beastling-call",
+      "notes": "",
+      "sortOrder": 263,
+      "aliases": "Beastling Call"
+    },
+    {
+      "id": "a21e2b2a-7259-57ee-82d2-3ee448c7848b",
+      "name": "Memory Locket",
+      "category": "MemoryLocket",
+      "outputValue": "memory-locket",
+      "notes": "",
+      "sortOrder": 264,
+      "aliases": "Memory Locket"
+    },
+    {
+      "id": "368d3c95-928e-5065-a4e2-b099a9784f6f",
+      "name": "Craftmetal",
+      "category": "Craftmetal",
+      "outputValue": "craftmetal",
+      "notes": "",
+      "sortOrder": 265,
+      "aliases": "Craftmetal"
+    },
+    {
+      "id": "e449ef84-8361-599e-b186-a1531191f1b3",
+      "name": "Mossberry",
+      "category": "Mossberry",
+      "outputValue": "mossberry",
+      "notes": "",
+      "sortOrder": 266,
+      "aliases": "Mossberry"
+    },
+    {
+      "id": "02652e1a-5669-597d-9ebf-a130dce31588",
+      "name": "Silkeater",
+      "category": "Silkeater",
+      "outputValue": "silkeater",
+      "notes": "",
+      "sortOrder": 267,
+      "aliases": "Silkeater"
+    },
+    {
+      "id": "c59a3f45-8d13-5574-98da-a57656c694ad",
+      "name": "Key of Indolent",
+      "category": "MajorKey",
+      "outputValue": "key-of-indolent",
+      "notes": "",
+      "sortOrder": 268,
+      "aliases": "Key of Indolent"
+    },
+    {
+      "id": "1e9642bb-d5db-5d96-912f-c6ae085810a4",
+      "name": "Key of Heretic",
+      "category": "MajorKey",
+      "outputValue": "key-of-heretic",
+      "notes": "",
+      "sortOrder": 269,
+      "aliases": "Key of Heretic"
+    },
+    {
+      "id": "3debbb50-5479-51bf-9028-591955dbd418",
+      "name": "Key of Apostate",
+      "category": "MajorKey",
+      "outputValue": "key-of-apostate",
+      "notes": "",
+      "sortOrder": 270,
+      "aliases": "Key of Apostate"
+    },
+    {
+      "id": "d46fc37b-2255-5fdc-b65a-e00081aa49ab",
+      "name": "White Key",
+      "category": "MajorKey",
+      "outputValue": "white-key",
+      "notes": "",
+      "sortOrder": 271,
+      "aliases": "White Key"
+    },
+    {
+      "id": "443b9d11-405b-517b-b44f-e08e2810fb13",
+      "name": "Surgeon\u0027s Key",
+      "category": "MajorKey",
+      "outputValue": "surgeon-s-key",
+      "notes": "",
+      "sortOrder": 272,
+      "aliases": "Surgeons Key"
+    },
+    {
+      "id": "cf4920b9-12eb-5d8a-a4de-04a4d766f267",
+      "name": "Architect\u0027s Key",
+      "category": "MajorKey",
+      "outputValue": "architect-s-key",
+      "notes": "",
+      "sortOrder": 273,
+      "aliases": "Architects Key"
+    },
+    {
+      "id": "2f6717d8-d0c8-53a7-9e9c-79438d72befc",
+      "name": "Craw Summons",
+      "category": "MajorKey",
+      "outputValue": "craw-summons",
+      "notes": "",
+      "sortOrder": 274,
+      "aliases": "Craw Summons"
+    },
+    {
+      "id": "77471041-b6e3-4387-9c48-f01327b3289e",
+      "name": "Everbloom",
+      "category": "MajorKey",
+      "outputValue": "everbloom",
+      "notes": "Was missing from original import?",
+      "sortOrder": 275,
+      "aliases": "everbloom"
+    },
+    {
+      "id": "50d6047d-84a4-5cda-9e20-f88da711377b",
+      "name": "Flea: Greymoor (Kratt)",
+      "category": "Flea",
+      "outputValue": "flea-greymoor-kratt",
+      "notes": "",
+      "sortOrder": 276,
+      "aliases": "Flea Greymoor Kratt"
+    },
+    {
+      "id": "cbbe28b6-5c09-5d3a-9779-f5c1546bae78",
+      "name": "Flea: Putrified Ducts (Vog)",
+      "category": "Flea",
+      "outputValue": "flea-putrified-ducts-vog",
+      "notes": "",
+      "sortOrder": 277,
+      "aliases": "Flea Putrified Ducts Vog"
+    },
+    {
+      "id": "e5d199d8-46a8-5e1c-bd68-7d2fed086ad4",
+      "name": "Flea: Memorium (Huge Flea)",
+      "category": "Flea",
+      "outputValue": "flea-memorium-huge-flea",
+      "notes": "",
+      "sortOrder": 278,
+      "aliases": "Flea Memorium Huge Flea"
+    },
+    {
+      "id": "84d75859-be96-54d0-9cd5-ed4f627ed3a4",
+      "name": "Naked Trap",
+      "category": "Trap",
+      "outputValue": "naked-trap",
+      "notes": "",
+      "sortOrder": 279,
+      "aliases": "Naked Trap"
+    },
+    {
+      "id": "e4dc3b2d-33cc-5bdf-abf3-7c053af7da78",
+      "name": "Progressive Silkheart",
+      "category": "SilkHeart",
+      "outputValue": "progressive-silkheart",
+      "notes": "",
+      "sortOrder": 280,
+      "aliases": "Progressive Silkheart"
+    },
+    {
+      "id": "57b413a3-dec9-5041-8220-46bc6b161096",
+      "name": "Progressive Tool Pouch",
+      "category": "ToolPouch",
+      "outputValue": "progressive-tool-pouch",
+      "notes": "",
+      "sortOrder": 281,
+      "aliases": "Progressive Tool Pouch"
+    },
+    {
+      "id": "ddf1b179-f57c-599d-b41f-c559145659dc",
+      "name": "Pollip Heart",
+      "category": "PollipHeart",
+      "outputValue": "pollip-heart",
+      "notes": "",
+      "sortOrder": 282,
+      "aliases": "Pollip Heart"
+    },
+    {
+      "id": "c8508668-fd30-58aa-9c56-e66f657d8747",
+      "name": "Growstone",
+      "category": "Resource",
+      "outputValue": "growstone",
+      "notes": "",
+      "sortOrder": 283,
+      "aliases": "Growstone"
+    },
+    {
+      "id": "f8b82a4b-a791-5d6d-abce-b73efc84a48b",
+      "name": "Rosaries (30)",
+      "category": "Resource",
+      "outputValue": "rosaries-30",
+      "notes": "",
+      "sortOrder": 284,
+      "aliases": "Rosaries 30"
+    },
+    {
+      "id": "925e7f94-1b9d-50d9-b6f2-dfb279b1ff00",
+      "name": "Rosaries (70)",
+      "category": "Resource",
+      "outputValue": "rosaries-70",
+      "notes": "",
+      "sortOrder": 285,
+      "aliases": "Rosaries 70"
+    },
+    {
+      "id": "005a5fa1-b4df-5877-b059-9f63f7861809",
+      "name": "Rosaries (75)",
+      "category": "Resource",
+      "outputValue": "rosaries-75",
+      "notes": "",
+      "sortOrder": 286,
+      "aliases": "Rosaries 75"
+    },
+    {
+      "id": "ceb8cc63-1547-58e1-9174-e05d32501da6",
+      "name": "Rosaries (84)",
+      "category": "Resource",
+      "outputValue": "rosaries-84",
+      "notes": "",
+      "sortOrder": 287,
+      "aliases": "Rosaries 84"
+    },
+    {
+      "id": "2cdc6119-a04f-58b3-a6e6-b95428f522f0",
+      "name": "Rosaries (90)",
+      "category": "Resource",
+      "outputValue": "rosaries-90",
+      "notes": "",
+      "sortOrder": 288,
+      "aliases": "Rosaries 90"
+    },
+    {
+      "id": "e90af044-1b47-5fec-8305-be1c49d80a46",
+      "name": "Rosaries (105)",
+      "category": "Resource",
+      "outputValue": "rosaries-105",
+      "notes": "",
+      "sortOrder": 289,
+      "aliases": "Rosaries 105"
+    },
+    {
+      "id": "397592b4-4540-5622-b83d-54f6cde4ef01",
+      "name": "Rosaries (112)",
+      "category": "Resource",
+      "outputValue": "rosaries-112",
+      "notes": "",
+      "sortOrder": 290,
+      "aliases": "Rosaries 112"
+    },
+    {
+      "id": "43115558-0087-5fac-a843-22bec0a5130a",
+      "name": "Rosaries (115)",
+      "category": "Resource",
+      "outputValue": "rosaries-115",
+      "notes": "",
+      "sortOrder": 291,
+      "aliases": "Rosaries 115"
+    },
+    {
+      "id": "1adb486d-2554-5342-99cd-0308f27d07a7",
+      "name": "Rosaries (130)",
+      "category": "Resource",
+      "outputValue": "rosaries-130",
+      "notes": "",
+      "sortOrder": 292,
+      "aliases": "Rosaries 130"
+    },
+    {
+      "id": "25fa1f21-1637-5448-b1df-2d0d1062eb0b",
+      "name": "Rosaries (155)",
+      "category": "Resource",
+      "outputValue": "rosaries-155",
+      "notes": "",
+      "sortOrder": 293,
+      "aliases": "Rosaries 155"
+    },
+    {
+      "id": "4e311bd9-1ca6-567e-b96f-d68a89032ca9",
+      "name": "Shell Shards (35)",
+      "category": "Resource",
+      "outputValue": "shell-shards-35",
+      "notes": "",
+      "sortOrder": 294,
+      "aliases": "Shell Shards 35"
+    },
+    {
+      "id": "a0465861-d5f5-5972-a10f-3eec464e1cbc",
+      "name": "Bell: The Marrow",
+      "category": "BellShrine",
+      "outputValue": "bell-the-marrow",
+      "notes": "",
+      "sortOrder": 295,
+      "aliases": "Bell The Marrow"
+    },
+    {
+      "id": "8c2479ba-026a-537a-9f15-3e6a8465fcc8",
+      "name": "Bell: Deep Docks",
+      "category": "BellShrine",
+      "outputValue": "bell-deep-docks",
+      "notes": "",
+      "sortOrder": 296,
+      "aliases": "Bell Deep Docks"
+    },
+    {
+      "id": "58071602-216e-53ca-b474-826cc2e1936d",
+      "name": "Bell: Greymoor",
+      "category": "BellShrine",
+      "outputValue": "bell-greymoor",
+      "notes": "",
+      "sortOrder": 297,
+      "aliases": "Bell Greymoor"
+    },
+    {
+      "id": "f7c2dca0-e0be-569d-bc97-8a5fbdcde918",
+      "name": "Bell: Shellwood",
+      "category": "BellShrine",
+      "outputValue": "bell-shellwood",
+      "notes": "",
+      "sortOrder": 298,
+      "aliases": "Bell Shellwood"
+    },
+    {
+      "id": "528be3f0-a92f-5d80-baab-1f2d2786d146",
+      "name": "Bell: Bellhart",
+      "category": "BellShrine",
+      "outputValue": "bell-bellhart",
+      "notes": "",
+      "sortOrder": 299,
+      "aliases": "Bell Bellhart"
+    },
+    {
+      "id": "f39c1eb8-de9f-4be2-a8bf-c421e4f151d0",
+      "name": "Surface Memento",
+      "category": "Memento",
+      "outputValue": "memento-surface",
+      "notes": "",
+      "sortOrder": 300,
+      "aliases": "surface memento"
+    },
+    {
+      "id": "cabd2ee6-4c2b-4689-80d0-a093cc152b91",
+      "name": "Craw Memento",
+      "category": "Memento",
+      "outputValue": "memento-craw",
+      "notes": "",
+      "sortOrder": 301,
+      "aliases": "craw memento"
+    },
+    {
+      "id": "88bc40da-ba96-450f-a00d-a9cf60fb2e90",
+      "name": "Grey Memento",
+      "category": "Memento",
+      "outputValue": "memento-grey",
+      "notes": "",
+      "sortOrder": 302,
+      "aliases": "grey memento"
+    },
+    {
+      "id": "e1a0854c-070c-4731-bb36-8dfff5fefead",
+      "name": "Hero\u0027s Memento",
+      "category": "Memento",
+      "outputValue": "memento-heros",
+      "notes": "",
+      "sortOrder": 303,
+      "aliases": "heros memento"
+    },
+    {
+      "id": "2edfdf75-da3a-4271-a4f9-2fae3b4f1c2c",
+      "name": "Sprintmaster Memento",
+      "category": "Memento",
+      "outputValue": "memento-sprintmaster",
+      "notes": "",
+      "sortOrder": 304,
+      "aliases": "sprintmaster memento"
+    },
+    {
+      "id": "d6fc8f54-c2b5-45b5-9bf5-d6779ddd2022",
+      "name": "Hunter\u0027s Memento",
+      "category": "Memento",
+      "outputValue": "memento-hunters",
+      "notes": "",
+      "sortOrder": 305,
+      "aliases": "hunters memento"
+    },
+    {
+      "id": "f87569c9-2fe0-4b6c-a87f-dfa9513f2a75",
+      "name": "Guardian\u0027s Memento",
+      "category": "Memento",
+      "outputValue": "memento-guardians",
+      "notes": "",
+      "sortOrder": 306,
+      "aliases": "guardians memento"
+    },
+    {
+      "id": "ac7ddb79-0d0b-4833-bc64-76251eb392d4",
+      "name": "Encrusted Heart Memento",
+      "category": "Memento",
+      "outputValue": "memento-encrusted-heart",
+      "notes": "The memento version of the Encrusted Heart.",
+      "sortOrder": 307,
+      "aliases": "encrusted heart memento"
+    },
+    {
+      "id": "d46ea1f2-cb3c-43bd-98bd-05c2b20fa590",
+      "name": "Pollen Heart Memento",
+      "category": "Memento",
+      "outputValue": "memento-pollen-heart",
+      "notes": "The memento version of the Pollen Heart.",
+      "sortOrder": 308,
+      "aliases": "pollen heart memento"
+    },
+    {
+      "id": "5bb66ebd-9732-412e-a3d6-d4acde8b133e",
+      "name": "Hunter\u0027s Heart Memento",
+      "category": "Memento",
+      "outputValue": "memento-hunters-heart",
+      "notes": "The memento version of the Hunter\u0027s Heart.",
+      "sortOrder": 309,
+      "aliases": "hunters heart memento"
+    },
+    {
+      "id": "e359fb7d-d9a4-4e24-887e-19fe3b2ae652",
+      "name": "Conjoined Heart Memento",
+      "category": "Memento",
+      "outputValue": "memento-conjoined-heart",
+      "notes": "The memento version of the Conjoined Heart.",
+      "sortOrder": 310,
+      "aliases": "conjoined heart memento"
+    },
+    {
+      "id": "b0096b0a-29ce-468c-b4a3-609a132888a2",
+      "name": "Encrusted Heart",
+      "category": "Heart",
+      "outputValue": "memory-encrusted-heart",
+      "notes": "The key item acquired from the memory fight.",
+      "sortOrder": 311,
+      "aliases": "encrusted heart"
+    },
+    {
+      "id": "769fd4ac-34d0-4c23-a8a2-be3bb76f28b2",
+      "name": "Pollen Heart",
+      "category": "Heart",
+      "outputValue": "memory-pollen-heart",
+      "notes": "The key item acquired from the memory fight.",
+      "sortOrder": 312,
+      "aliases": "pollen heart"
+    },
+    {
+      "id": "ed42d106-6b12-4139-8093-e2a8a849162b",
+      "name": "Hunter\u0027s Heart",
+      "category": "Heart",
+      "outputValue": "memory-hunters-heart",
+      "notes": "The key item acquired from the memory fight.",
+      "sortOrder": 313,
+      "aliases": "hunters heart"
+    },
+    {
+      "id": "1c157902-bcf3-479d-ba28-39d0307df980",
+      "name": "Conjoined Heart",
+      "category": "Heart",
+      "outputValue": "memory-conjoined-heart",
+      "notes": "The key item acquired from the memory fight.",
+      "sortOrder": 314,
+      "aliases": "conjoined heart"
+    },
+    {
+      "id": "500965da-f4a8-403e-add7-ca7b0c128eaf",
+      "name": "Twisted Bud",
+      "category": "MajorKey",
+      "outputValue": "twisted-bud",
+      "notes": "",
+      "sortOrder": 315,
+      "aliases": "twisted bud"
+    },
+    {
+      "id": "0f8322fe-0918-48f4-862f-b932a34fce92",
+      "name": "Bellhome Key",
+      "category": "MajorKey",
+      "outputValue": "bellhome-key",
+      "notes": "",
+      "sortOrder": 316,
+      "aliases": "bellhome key"
+    }
+  ]
+}

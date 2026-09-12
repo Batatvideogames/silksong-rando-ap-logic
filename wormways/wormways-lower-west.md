@@ -28,10 +28,10 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| memory locket | tunnels | none |  |  | Included |  |
-| plasmium pustule lower west | tunnels | needle phial AND red tool slot |  |  | Included | NOT RANDOMIZED YET |
+| memory locket | tunnels | none |  |  |  |  |
+| plasmium pustule lower west | tunnels | needle phial AND red tool slot |  |  |  | NOT RANDOMIZED YET |
 
 ## Notes
 

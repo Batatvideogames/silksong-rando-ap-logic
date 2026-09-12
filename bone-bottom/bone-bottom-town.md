@@ -2,6 +2,8 @@
 
 **Game ID:** Bonetown
 
+**Contributors:** herounit, Super EpicGuy
+
 ## Subrooms
 
 - sky
@@ -32,11 +34,12 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| CC | climb chapel | ground level | chapel roof | silk soar OR ( cling grip AND ( LL door NOT opened OR faydown cloak ) ) OR (scuttlebrace AND dash AND faydown cloak) |  |  |  |
+| CC | climb chapel | ground level | chapel roof | silk soar OR ( cling grip AND ( LL door NOT opened OR faydown cloak ) ) OR (scuttlebrace AND dash AND faydown cloak ) |  |  |  |
 | SM | soar to middle platforms | ground level | upper middle platforms | silk soar |  |  |  |
 | SS | soar to sky exit | ground level | sky | silk soar |  |  |  |
 | SR | soar to right platforms | ground level | upper right platforms | silk soar |  |  |  |
-| EV | elevator | ground level | upper right platforms | elevator switch flipped |  |  |  |
+| EV | elevator | ground level | upper right platforms | activate elevator switch |  | Verified |  |
+| EV | elevator | upper right platforms | ground level | activate elevator switch |  | Verified |  |
 | CC | climb chapel | chapel roof | ground level | none |  |  |  |
 | CR | climb roof | chapel roof | upper left platforms | silk soar OR cling grip OR (scuttlebrace AND dash AND (((faydown cloak OR shaman OR flea brew)) AND easy skips) OR (hard skips AND (hunter OR reaper OR wanderer OR beast OR architect) OR (silk storm OR rune rage)) |  |  | You need a very precise heal or spell boost to scuttlebrace the wall without wings, which can be done by anything but witch crest |
 | CR | climb roof | upper left platforms | chapel roof | none |  |  |  |
@@ -51,24 +54,25 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| bone bottom mossberry | upper right platforms | none |  |  | Included |  |
-| elevator switch | upper right platforms | none |  |  | Not included |  |
-| rosary cache bone bottom 8 | upper right platforms | none |  |  | Included |  |
-| rosary cache bone bottom 9 | upper right platforms | none |  |  | Included |  |
-| weaver effigy camora moss grotto | upper middle platforms | none |  |  | Included |  |
-| rosary dish bone bottom | upper middle platforms | none |  |  | Not included | NOT CURRENTLY RANDOMIZED |
-| mask shard pebbs shop grindle act 3 | ground level |  |  |  | Included | pebb's shop |
-| simple key | ground level |  |  |  | Included | pebb's shop |
-| bone bottom shop craft metal | ground level |  |  |  | Included | pebb's shop |
-| magnetite broach | ground level |  |  |  | Included | pebb's shop |
-| wish bone bottom repairs | ground level |  |  |  | Included |  |
-| wish a life saving bridge | ground level |  |  |  | Included |  |
-| wish an icon of hope | ground level |  |  |  | Included |  |
-| wish garb of the pilgrims | ground level |  |  |  | Included |  |
-| wish volatile flintbeetles | ground level |  |  |  | Included |  |
-| wish the terrible tyrant | ground level |  |  |  | Included |  |
-| wish bone bottom supplies | ground level |  |  |  | Included |  |
-| boss skull tyrant | ground level |  |  |  | Included |  |
-| shell shard cache bone bottom | ground level |  |  |  | Included | is this breaking the statue? STILL MARKED AS ??? ON TRACKER |
+| bone bottom mossberry | upper right platforms | none |  |  | collectible |  |
+| elevator switch | upper right platforms | none |  |  | switch |  |
+| rosary cache bone bottom 8 | upper right platforms | none |  |  | collectible |  |
+| rosary cache bone bottom 9 | upper right platforms | none |  |  | collectible |  |
+| weaver effigy camora moss grotto | upper middle platforms | none |  |  | collectible |  |
+| rosary dish bone bottom | upper middle platforms | none |  |  | collectible | NOT CURRENTLY RANDOMIZED |
+| mask shard pebbs shop grindle act 3 | ground level |  |  |  | collectible | pebb's shop |
+| simple key | ground level |  |  |  | collectible | pebb's shop |
+| bone bottom shop craft metal | ground level |  |  |  | collectible | pebb's shop |
+| magnetite broach | ground level |  |  |  | collectible | pebb's shop |
+| shell shard cache bone bottom | ground level |  |  |  | collectible | is this breaking the statue? STILL MARKED AS ??? ON TRACKER |
+| wish bone bottom repairs | ground level |  |  |  | event |  |
+| wish a life saving bridge | ground level |  |  |  | event |  |
+| wish an icon of hope | ground level |  |  |  | event |  |
+| wish garb of the pilgrims | ground level |  |  |  | event |  |
+| wish volatile flintbeetles | ground level |  |  |  | event |  |
+| wish the terrible tyrant | ground level |  |  |  | event |  |
+| wish bone bottom supplies | ground level |  |  |  | event |  |
+| bone bottom skull tyrant boss fight | ground level |  |  |  | boss | can miss |
+| reach bone bottom | ground level | none |  |  | logic-point | addresses the loading zone blocker in moss grotto center ceiling that only goes away once you've been up here - remove this/requirement in moss grotto center once this is removed in the randomizer |

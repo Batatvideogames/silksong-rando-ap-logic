@@ -13,8 +13,8 @@
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | B | bot1 | Bottom Tunnel | [Slab Chilly Prison (Slab_15)](slab-chilly-prison.md) | T | none |  |  |  |
-| L | left1 | Bottom Tunnel | [Slab Chilly Prison (Slab_15)](slab-chilly-prison.md) | L | cling grip | TODO |  | Naked. Temporarily moved to room below instead of Peak_01 |
-| T | top1 | Arena | [Slab Chilly Top (Slab_22)](slab-chilly-top.md) | BL | cling grip or silk soar |  |  | Naked |
+| L | left1 | Bottom Tunnel | [Mount Fay Entrance (Peak_01)](../mount-fay/mount-fay-entrance.md) | USR | cling grip |  |  | Naked. |
+| T | top1 | Arena | [Slab Chilly Top (Slab_22)](slab-chilly-top.md) | BL | cling grip OR silk soar |  |  | Naked |
 | R | right1 | Right Entrance | [Slab Cell (Slab_03)](slab-cell.md) | L0L | none |  |  |  |
 
 ## Subroom Connections
@@ -26,6 +26,6 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Key of Heretic | Arena | gauntlet |  |  | Included |  |
+| Key of Heretic | Arena | gauntlet |  |  |  |  |

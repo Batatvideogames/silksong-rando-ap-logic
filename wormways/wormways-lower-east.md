@@ -32,9 +32,9 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| plasmium pustule lower east | tunnels | needle phial AND red tool slot |  |  | Not included | NOT CURRENTLY RANDOMIZED |
+| plasmium pustule lower east | tunnels | needle phial AND red tool slot |  |  |  | NOT CURRENTLY RANDOMIZED |
 
 ## Notes
 

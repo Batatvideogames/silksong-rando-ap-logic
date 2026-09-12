@@ -24,6 +24,6 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| memory locket deep docks | pit of despair | none |  |  | Included |  |
+| memory locket deep docks | pit of despair | none |  |  |  |  |

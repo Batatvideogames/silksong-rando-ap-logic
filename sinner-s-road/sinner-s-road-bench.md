@@ -20,7 +20,7 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Rosary Cache: Sinner’s Road #8 |  | Silk soar OR (Faywing cloak AND cling grip) |  |  | Included |  |
-| Map Purchase: Sinner's Road |  | Silk Soar OR (crest pogo AND (swim OR ledge grab)) |  |  | Included |  |
+| Rosary Cache: Sinner’s Road #8 |  | Silk soar OR (Faydown AND cling grip) |  |  | collectible |  |
+| Map Purchase: Sinner's Road |  | Silk Soar OR (crest pogo AND (swim OR ledge grab)) |  |  | collectible |  |

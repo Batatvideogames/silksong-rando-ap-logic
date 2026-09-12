@@ -16,13 +16,13 @@
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | R | right1 | Bottom | [Cogwork Core Breakable Walls (Cog_10_Destroyed)](cogwork-core-breakable-walls.md) | L | Nothing. |  | Verified |  |
-| T | top1 | Top Entrance | [ACT3 Lace2 Arena (Song_Tower_Destroyed)](../the-cradle/act3-lace2-arena.md) | F | Nothing. |  | Verified |  |
+| T | top1 | Top Entrance | [ACT3 Lace2 Arena (Song_Tower_Destroyed)](../the-cradle/act3-lace2-arena.md) | F | Nothing. | TODO | Verified |  |
 
 ## Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| BC | Bottom-Center | Bottom | Center | Silk Soar OR Faydown Cloak AND Cling Grip |  | Verified |  |
+| BC | Bottom-Center | Bottom | Center | Silk Soar OR (Faydown Cloak AND Cling Grip) |  | Verified |  |
 | BC | Bottom-Center | Center | Bottom | Nothing. (Fall) |  | Verified |  |
 | CSE | Center-Silk Soar Entrance | Center | Silk Soar Ceiling | Silk Soar |  | Verified |  |
 | CSE | Center-Silk Soar Entrance | Silk Soar Ceiling | Center | Nothing. (Fall) |  | Verified |  |

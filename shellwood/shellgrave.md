@@ -2,6 +2,8 @@
 
 **Game ID:** Shellgrave
 
+**Contributors:** Pyxl
+
 ## Subrooms
 
 No subrooms defined.
@@ -18,6 +20,6 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Rosary Cache |  | None |  | Verified | Not included | Not included no id |
+| Rosary Cache |  | None |  | Verified | resource | Not included no id |

@@ -21,16 +21,16 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| W | Walk | Right Side | Left Side | Flipped Switch #1 |  | Verified |  |
-| W | Walk | Left Side | Right Side | Flipped Switch #1 |  | Verified |  |
-| J | Jump | Right Side | Top Room | Silk Soar OR Cling Grip OR Scuttlebrace OR Faydown Cloak AND Ledge Grab |  | Verified |  |
+| W | Walk | Right Side | Left Side | Activate Whispering Vaults: Flip Switch #1 |  | Verified |  |
+| W | Walk | Left Side | Right Side | Activate Whispering Vaults: Flip Switch #1 |  | Verified |  |
+| J | Jump | Right Side | Top Room | Silk Soar OR Cling Grip OR Scuttlebrace OR (Faydown Cloak AND Ledge Grab) |  | Verified |  |
 | J | Jump | Top Room | Right Side | Nothing. (Fall) |  | Verified |  |
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Whispering Vaults: Break Wall #1 (Up) | Right Side | Nothing. |  | Verified | Included |  |
-| Sacred Cylinder | Left Side | Nothing. |  | Verified | Included |  |
-| Whispering Vaults: Flip Switch #1 (Down) | Right Side | Nothing. |  | Verified | Included |  |
-| Whispering Vaults: Needolin Lore #1 | Left Side | Needolin. |  | Verified | Included |  |
+| Whispering Vaults: Break Wall #1 (Up) | Right Side | Nothing. |  | Verified | blockade |  |
+| Sacred Cylinder | Left Side | Nothing. |  | Verified | collectible |  |
+| Whispering Vaults: Flip Switch #1 | Right Side | Flip Switch Left |  | Verified | switch |  |
+| Whispering Vaults: Needolin Lore #1 | Left Side | Needolin |  | Verified | event |  |

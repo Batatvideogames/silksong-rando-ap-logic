@@ -67,8 +67,8 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| rosary cache moss grotto | lower left area | none |  |  | Included |  |
-| choral commandment moss grotto | middle right ledge | none |  |  | Included |  |
-| wish my missing courier | wish ledge | none |  |  | Included |  |
+| rosary cache moss grotto | lower left area | none |  |  |  |  |
+| choral commandment moss grotto | middle right ledge | none |  |  |  |  |
+| wish my missing courier | wish ledge | none |  |  |  |  |

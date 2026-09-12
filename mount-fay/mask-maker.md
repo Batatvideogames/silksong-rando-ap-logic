@@ -1,6 +1,8 @@
-# Mist Entrance (Dust_Maze_09_entrance)
+# Mask Maker (Peak_Mask_Maker)
 
-**Game ID:** Dust_Maze_09_entrance
+**Game ID:** Peak_Mask_Maker
+
+**Contributors:** Pxyl
 
 ## Subrooms
 
@@ -10,8 +12,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | Right |  | Dust_05 |  | Nothing |  |  |  |
-| L | Left |  | :) | R | Nothing |  |  |  |
+| R | right1 |  | [Mask Maker Passage (Peak_05d)](mask-maker-passage.md) | D | None |  | Verified |  |
 
 ## Subroom Connections
 

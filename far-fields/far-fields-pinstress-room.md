@@ -19,7 +19,7 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| T | top1 | ceiling exit area | [Far Fields Pinstress Attic (Bone_East_09b)](far-fields-pinstress-attic.md) | F | blocked from other side by blast rock |  | Verified |  |
+| T | top1 | ceiling exit area | [Far Fields Pinstress Attic (Bone_East_09b)](far-fields-pinstress-attic.md) | F | clear blast rock exit block IN far fields pinstress attic |  | Verified |  |
 | UL | left3 | upper left exit area | [Far Fields Pinstress Mask Shard (Bone_East_20)](far-fields-pinstress-mask-shard.md) | R | none |  | Verified |  |
 | LR | right2 | lower right exit area | [Far Fields Skull Room West (Bone_East_14)](far-fields-skull-room-west.md) | LL | none |  | Verified |  |
 | LL | left2 | lower left exit area | [Far Fields Chorus (Bone_East_08)](far-fields-chorus.md) | R | none |  | Verified |  |
@@ -31,7 +31,7 @@
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | LBA | left basin access | lower left exit area | lava basin | none (falling) |  | Verified |  |
-| LBA | left basin access | lava basin | lower left exit area | ledge grab OR drifter's cloak OR faydown cloak OR silk soar OR scuttlebrace OR shaman crest |  | Verified |  |
+| LBA | left basin access | lava basin | lower left exit area | ledge grab OR drifter's cloak OR faydown cloak OR silk soar OR scuttlebrace OR easy shaman pogo |  | Verified |  |
 | RBA | right basin access | upper right exit area | lava basin | none |  | Verified | actually none both ways - not even ledge grab |
 | RBA | right basin access | lava basin | upper right exit area | none |  | Verified | actually none both ways - not even ledge grab |
 | LRA | lower right access | upper right exit area | lower right exit area | none (falling) |  | Verified |  |
@@ -46,8 +46,8 @@
 | CWA | ceiling wind ascend | ceiling wind tunnel | ceiling exit area | silk soar OR ( break blast rock down AND drifter's cloak ) |  | Verified |  |
 | CWA | ceiling wind ascend | ceiling exit area | ceiling wind tunnel | none (falling) |  | Verified |  |
 | F1 | fall 1 | ceiling wind tunnel | pinstress hut platform | none (falling) |  | Verified |  |
-| ULC | upper left crossing | upper left exit area | ceiling wind tunnel | run OR dash OR beast crest OR drifter's cloak OR faydown cloak OR silk soar OR sharpdart OR scuttlebrace |  | Verified |  |
-| ULC | upper left crossing | ceiling wind tunnel | upper left exit area | run OR ( beast crest AND ledge grab ) OR drifter's cloak OR faydown cloak OR silk soar OR sharpdart |  | Verified | left ledge is slightly higher, so fewer options this way |
+| ULC | upper left crossing | upper left exit area | ceiling wind tunnel | run OR dash OR easy beast pogo OR drifter's cloak OR faydown cloak OR silk soar OR sharpdart OR scuttlebrace |  | Verified |  |
+| ULC | upper left crossing | ceiling wind tunnel | upper left exit area | run OR ( easy beast pogo AND ledge grab ) OR drifter's cloak OR faydown cloak OR silk soar OR sharpdart |  | Verified | left ledge is slightly higher, so fewer options this way |
 
 ## Check Locations
 

@@ -21,12 +21,12 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Shell Shard Cache: Wisp Thicket #6 |  | (dash and cling grip) clawline or spike pogo or drifter's cloak | TODO |  | Included | May have different requirements if entered from the top |
-| Shell Shard Cache: Wisp Thicket #7 |  | (dash and cling grip) or clawline or spike pogo or drifter's cloak | TODO |  | Included | May have different requirements if entered from the top |
-| Shell Shard Cache: Wisp Thicket #1 |  | dash or faydown cloak or clawline or spike pogo or drifter's cloak |  |  | Included |  |
-| Shell Shard Cache: Wisp Thicket #2 |  | dash or faydown cloak or clawline or spike pogo or drifter's cloak |  |  | Included |  |
-| Shell Shard Cache: Wisp Thicket #3 |  | dash or faydown cloak or clawline or spike pogo or drifter's cloak |  |  | Included |  |
-| Shell Shard Cache: Wisp Thicket #4 |  | dash or faydown cloak or clawline or spike pogo or drifter's cloak |  |  | Included |  |
-| Shell Shard Cache: Wisp Thicket #5 |  | dash or faydown cloak or clawline or spike pogo or drifter's cloak |  |  | Included |  |
+| Shell Shard Cache: Wisp Thicket #6 |  | (dash and cling grip) clawline or spike pogo or drifter's cloak | TODO |  |  | May have different requirements if entered from the top |
+| Shell Shard Cache: Wisp Thicket #7 |  | (dash and cling grip) or clawline or spike pogo or drifter's cloak | TODO |  |  | May have different requirements if entered from the top |
+| Shell Shard Cache: Wisp Thicket #1 |  | dash or faydown cloak or clawline or spike pogo or drifter's cloak |  |  |  |  |
+| Shell Shard Cache: Wisp Thicket #2 |  | dash or faydown cloak or clawline or spike pogo or drifter's cloak |  |  |  |  |
+| Shell Shard Cache: Wisp Thicket #3 |  | dash or faydown cloak or clawline or spike pogo or drifter's cloak |  |  |  |  |
+| Shell Shard Cache: Wisp Thicket #4 |  | dash or faydown cloak or clawline or spike pogo or drifter's cloak |  |  |  |  |
+| Shell Shard Cache: Wisp Thicket #5 |  | dash or faydown cloak or clawline or spike pogo or drifter's cloak |  |  |  |  |

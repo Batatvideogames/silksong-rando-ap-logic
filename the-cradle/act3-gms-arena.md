@@ -21,13 +21,13 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| CB | Climb Bridge | Bottom | Bridge | Silk Soar OR ( Cling Grip AND Faydown Cloak AND ( Clawline OR Dash OR Drifters Cloak ) |  | Verified |  |
+| CB | Climb Bridge | Bottom | Bridge | Silk Soar OR ( Cling Grip AND Faydown Cloak AND ( Clawline OR Dash OR Drifters Cloak ) ) |  | Verified |  |
 | CB | Climb Bridge | Bridge | Bottom | None |  | Verified |  |
 | SS | Surface Shaft | Bridge | Door To Surface | Silk Soar |  | Verified |  |
 | SS | Surface Shaft | Door To Surface | Bridge | None |  | Verified |  |
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Pale Nails | Bridge | None |  | Verified | Included |  |
+| Pale Nails | Bridge | None |  | Verified | collectible |  |

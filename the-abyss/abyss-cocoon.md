@@ -1,4 +1,4 @@
-# Abyss_Cocoon (Abyss_Cocoon)
+# Abyss Cocoon (Abyss_Cocoon)
 
 **Game ID:** Abyss_Cocoon
 
@@ -12,8 +12,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-|  | door_test |  | TODO |  |  | TODO |  | No clue what this is |
-| D | door_entry |  | [Last_Dive (Last_Dive)](last-dive.md) | D2 | None |  | Verified |  |
+| D | door_entry |  | [Last Dive (Last_Dive)](last-dive.md) | D2 | None |  | Verified |  |
 
 ## Subroom Connections
 
@@ -21,9 +20,9 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Boss: Lost Lace |  | Cling Grip OR Faydown Cloak OR Silk Soar |  |  | Included | Only include as a check for win cons like flea hunt |
+| Boss: Lost Lace |  | Cling Grip OR Faydown Cloak OR Silk Soar |  | Verified | boss | Only include as a check for win cons like flea hunt |
 
 ## Notes
 

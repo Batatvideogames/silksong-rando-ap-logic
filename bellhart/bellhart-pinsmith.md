@@ -20,9 +20,9 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Needle Upgrade 1 |  | None |  | Verified | Included |  |
-| Needle Upgrade 2 |  | 1 Pale Oil Owned |  | Verified | Included |  |
-| Needle Upgrade 3 |  | 1 Pale Oil Owned |  | Verified | Included |  |
-| Needle Upgrade 4 |  | 1 Pale Oil Owned |  | Verified | Included |  |
+| Progressive Needle Upgrade 1 |  | None |  | Verified | collectible |  |
+| Progressive Needle Upgrade 2 |  | pale oils 1 |  | Verified | collectible | cumulative requirement |
+| Progressive Needle Upgrade 3 |  | pale oils 2 |  | Verified | collectible | cumulative requirement |
+| Progressive Needle Upgrade 4 |  | pale oils 3 |  | Verified | collectible | cumulative requirement |

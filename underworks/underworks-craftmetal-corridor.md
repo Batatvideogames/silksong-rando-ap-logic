@@ -22,6 +22,6 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Underworks: Craftmetal #1 | Fuckass Jump Left | Nothing. |  | Verified | Included |  |
+| Underworks: Craftmetal #1 | Fuckass Jump Left | Nothing. |  | Verified |  |  |

@@ -19,10 +19,10 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| The Slab - Rosary Chest |  | none |  |  | Included |  |
-| The Slab - Rosary Cache #2 |  | none |  |  | Included |  |
-| The Slab - Rosary Cache #3 |  | none |  |  | Included |  |
-| The Slab - Rosary Cache #4 |  | none |  |  | Included |  |
-| The Slab - Rosary Cache #5 |  | none |  |  | Included |  |
+| The Slab - Rosary Chest |  | none |  |  |  |  |
+| The Slab - Rosary Cache #2 |  | none |  |  |  |  |
+| The Slab - Rosary Cache #3 |  | none |  |  |  |  |
+| The Slab - Rosary Cache #4 |  | none |  |  |  |  |
+| The Slab - Rosary Cache #5 |  | none |  |  |  |  |

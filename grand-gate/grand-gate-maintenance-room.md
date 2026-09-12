@@ -12,8 +12,8 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Grand Gate Courtroom (Song_19_entrance)](grand-gate-courtroom.md) | TR | none |  |  | falling is enough |
-| T | top1 |  | [Choral Chambers Below Ventrica (Song_01)](../choral-chambers/choral-chambers-below-ventrica.md) | B | cling grip |  |  | no silk soar |
+| L | left1 |  | [Grand Gate Courtroom (Song_19_entrance)](grand-gate-courtroom.md) | TR | none |  | Verified | falling is enough |
+| T | top1 |  | [Choral Chambers Below Ventrica (Song_01)](../choral-chambers/choral-chambers-below-ventrica.md) | B | cling grip |  | Verified | no silk soar |
 
 ## Subroom Connections
 

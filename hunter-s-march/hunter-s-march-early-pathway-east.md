@@ -20,13 +20,13 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| V1 | vertical 1 | main area | ceiling alcove | silk soar OR shaman crest OR reaper crest OR wanderer crest faydown cloak OR cling grip OR ledge grab OR scuttlebrace |  | Verified |  |
+| V1 | vertical 1 | main area | ceiling alcove | silk soar OR easy shaman pogo OR easy reaper pogo OR easy wanderer pogo OR faydown cloak OR cling grip OR ledge grab OR scuttlebrace |  | Verified |  |
 | V1 | vertical 1 | ceiling alcove | main area | none (falling) |  | Verified |  |
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| shell shard cache hunters march 3 | ceiling alcove | none |  | Verified | Included |  |
-| shell shard cache hunters march 4 | ceiling alcove | none |  | Verified | Included |  |
-| silk webs x3 | main area | none |  | Verified | Not included | not yet randomized |
+| shell shard cache hunters march 3 | ceiling alcove | none |  | Verified | collectible |  |
+| shell shard cache hunters march 4 | ceiling alcove | none |  | Verified | collectible |  |
+| silk webs x3 | main area | none |  | Verified | resource | not yet randomized |

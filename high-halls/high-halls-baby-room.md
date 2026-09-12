@@ -21,6 +21,6 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Relic Psalm Cylinder (High Halls) |  | none |  | Verified | Included |  |
+| Relic Psalm Cylinder (High Halls) |  | none |  | Verified |  |  |

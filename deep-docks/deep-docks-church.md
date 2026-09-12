@@ -21,13 +21,13 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| rosary cache deep docks 3 |  | none |  |  | Included |  |
-| rosary cache deep docks 4 |  | none |  |  | Included |  |
-| rosary cache deep docks 5 |  | none |  |  | Included | MARKED AS ??? ON TRACKER |
-| rosary cache deep docks 6 |  | none |  |  | Included | MARKED AS ??? ON TRACKER |
-| rosary chest |  | none |  |  | Not included | NOT YET RANDOMIZED |
+| rosary cache deep docks 3 |  | none |  |  |  |  |
+| rosary cache deep docks 4 |  | none |  |  |  |  |
+| rosary cache deep docks 5 |  | none |  |  |  | MARKED AS ??? ON TRACKER |
+| rosary cache deep docks 6 |  | none |  |  |  | MARKED AS ??? ON TRACKER |
+| rosary chest |  | none |  |  |  | NOT YET RANDOMIZED |
 
 ## Notes
 

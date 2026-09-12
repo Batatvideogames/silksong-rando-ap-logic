@@ -25,7 +25,7 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| dead bugs purse | upper area | none |  |  | Included | STILL MARKED AS ??? ON TRACKER |
-| shakra shop items | upper area |  |  |  | Included | :) |
+| dead bugs purse | upper area | none |  |  |  | STILL MARKED AS ??? ON TRACKER |
+| shakra shop items | upper area |  |  |  |  | :) |

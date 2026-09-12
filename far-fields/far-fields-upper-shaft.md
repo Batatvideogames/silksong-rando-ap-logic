@@ -31,7 +31,7 @@
 | V1 | vertical 1 | above middle gate | the bottom | none (falling) |  | Verified |  |
 | V2 | vertical 2 | above middle gate | hunters march bridge | drifter's cloak OR silk soar |  | Verified |  |
 | V2 | vertical 2 | hunters march bridge | above middle gate | none (falling) |  | Verified |  |
-| V3 | vertical 3 | hunters march bridge | top wind tunnel | silk soar OR ( drifter's cloak AND NOT activate hunter's march bridge lever ) |  | Verified | the bridge blocks the wind stream - not sure exactly how this should be represented |
+| V3 | vertical 3 | hunters march bridge | top wind tunnel | silk soar OR ( drifter's cloak AND NOT activate hunter's march bridge lever ) | TODO | Verified | the bridge blocks the wind stream - not sure exactly how this should be represented |
 | V3 | vertical 3 | top wind tunnel | hunters march bridge | none (falling) |  | Verified |  |
 | LB | left bridge crossing | left march bridge room | hunters march bridge | activate hunter's march bridge lever |  | Verified |  |
 | LB | left bridge crossing | hunters march bridge | left march bridge room | activate hunter's march bridge lever |  | Verified |  |
@@ -40,8 +40,8 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| lower gate lever | the bottom | activate switch down |  | Verified | Not included |  |
-| middle gate lever | above middle gate | activate switch down |  | Verified | Not included |  |
-| hunter's march bridge lever | left march bridge room | activate switch down |  | Verified | Included |  |
+| lower gate lever | the bottom | flip switch down |  | Verified | switch |  |
+| middle gate lever | above middle gate | flip switch down |  | Verified | switch |  |
+| hunter's march bridge lever | left march bridge room | flip switch down |  | Verified | switch |  |

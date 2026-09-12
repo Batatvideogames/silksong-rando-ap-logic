@@ -28,9 +28,9 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| map purchase deep docks | lower area | none |  | Needs verification | Included | shakra shop |
-| pin purchase vendor pins | lower area | none |  | Needs verification | Included | shakra shop |
-| switch to upper lower platform | lower area | none |  | Needs verification | Not included | NOT CURRENTLY RANDOMIZED |
-| switch to lower lower platform | lower area | none |  | Needs verification | Not included | NOT CURRENTLY RANDOMIZED (doesn't currently really block anything since you can just jump above and fall down) |
+| map purchase deep docks | lower area | none |  | Needs verification |  | shakra shop |
+| pin purchase vendor pins | lower area | none |  | Needs verification |  | shakra shop |
+| switch to upper lower platform | lower area | none |  | Needs verification |  | NOT CURRENTLY RANDOMIZED |
+| switch to lower lower platform | lower area | none |  | Needs verification |  | NOT CURRENTLY RANDOMIZED (doesn't currently really block anything since you can just jump above and fall down) |

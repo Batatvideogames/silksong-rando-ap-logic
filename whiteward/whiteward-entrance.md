@@ -48,8 +48,8 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Whiteward - Spool Fragment | Pit | Nothing |  | Verified | Included |  |
-| Whiteward Bench | Top Third | White Key Used |  | Verified | Included |  |
-| Whiteward - Map Purchase | Vertical Shaft (Lower) | Nothing |  | Verified | Included |  |
+| Whiteward - Spool Fragment | Pit | Nothing |  | Verified |  |  |
+| Whiteward Bench | Top Third | White Key Used |  | Verified |  |  |
+| Whiteward - Map Purchase | Vertical Shaft (Lower) | Nothing |  | Verified |  |  |

@@ -26,9 +26,9 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Memory Locket: Choral Chambers | Secret Tunnel | none |  | Verified | Included | breakable wall |
-| Ventrica: Grand Bellway | Base | rosaries |  | Verified | Included |  |
-| Map Purchase: Choral Chambers | Base | rosaries |  | Verified | Included |  |
-| Bellway: Grand Bellway | Base | rosaries |  | Verified | Included |  |
+| Memory Locket: Choral Chambers | Secret Tunnel | none |  | Verified |  | breakable wall |
+| Ventrica: Grand Bellway | Base | rosaries |  | Verified |  |  |
+| Map Purchase: Choral Chambers | Base | rosaries |  | Verified |  |  |
+| Bellway: Grand Bellway | Base | rosaries |  | Verified |  |  |

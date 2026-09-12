@@ -25,13 +25,13 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| LV | Left Vertical | Blocks | Arena | Silk Soar/Faydown Cloak AND Spike Pogo (except Witch) AND Ledge Grab/Clawline OR Cling Grip AND Crest Pogo/Dash/Sprint/Clawline/Drifter's Cloak/Sharp Dart OR Spike Pogo Scuttlebrace AND Faydown Cloak/(Dash AND Ledge Grab)/Clawline/Sharp Dart/Beast Pogo |  | Verified |  |
-| RV | Right Vertical | Bottom Right | Arena | Silk Soar OR Cling Grip OR Scuttlebrace AND Faydown Cloak |  | Verified |  |
-| LV | Left Vertical | Arena | Blocks | Crest Pogo |  | Verified |  |
+| LV | Left Vertical | Blocks | Arena | Silk Soar OR (Faydown Cloak AND Spike Pogo (except Witch) AND Ledge Grab) OR (Cling Grip AND (Spike Pogo OR Dash OR Sprint OR Clawline OR Drifter's Cloak OR Sharpdart)) OR (Scuttlebrace AND (Faydown Cloak OR (Dash AND Ledge Grab) OR Clawline OR Sharpdart OR Easy Beast Crest Pogo)) |  | Verified |  |
+| RV | Right Vertical | Bottom Right | Arena | Silk Soar OR Cling Grip OR (Scuttlebrace AND Faydown Cloak) |  | Verified |  |
+| LV | Left Vertical | Arena | Blocks | Spike Pogo OR Easy Box Pogo OR Clawline OR Faydown Cloak OR Drifter's Cloak OR Sharpdart |  | Verified |  |
 | RV | Right Vertical | Arena | Bottom Right | Nothing. (Fall) |  | Verified |  |
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Whispering Vaults: Arena #1 | Arena | Nothing. |  | Verified | Included | doubt this will be used, just futureproofing. |
+| Whispering Vaults: Arena #1 | Arena | Nothing. |  | Verified | gauntlet |  |

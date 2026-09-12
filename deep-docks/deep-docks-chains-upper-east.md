@@ -23,18 +23,20 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| DS | open door switch | upper left hallway | chain platforms | none (switch is on this side) |  |  |  |
-| DS | open door switch | chain platforms | upper left hallway | door opened from the other side |  |  |  |
+| DS | open door switch | upper left hallway | chain platforms | activate door switch |  |  |  |
+| DS | open door switch | chain platforms | upper left hallway | activate door switch |  |  |  |
 | BW | break wall | chain platforms | lower left chest room | break wall (from this side) |  |  |  |
 | BW | break wall | lower left chest room | chain platforms | wall broken |  |  |  |
-| RG | open ring gate | chain platforms | behind ring gate | clawline |  |  |  |
-| RG | open ring gate | behind ring gate | chain platforms | gate opened from the other side |  |  |  |
+| RG | open ring gate | chain platforms | behind ring gate | unlock ring gate |  |  |  |
+| RG | open ring gate | behind ring gate | chain platforms | unlock ring gate |  |  |  |
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| craftmetal deep docks | lower left chest room | none |  |  | Included | its freeeeee, right? :) |
+| craftmetal deep docks | lower left chest room | none |  |  |  | its freeeeee, right? :) |
+| ring gate | chain platforms | clawline |  |  |  |  |
+| door switch | upper left hallway | none |  |  |  |  |
 
 ## Notes
 

@@ -19,6 +19,6 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Underworks: Ventrica Toll |  | Nothing. |  | Verified | Included |  |
+| Underworks: Ventrica Toll |  | Nothing. |  | Verified |  |  |

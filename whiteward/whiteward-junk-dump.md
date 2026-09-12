@@ -20,7 +20,7 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Whiteward - Oath |  | Nothing |  | Verified | Included |  |
-| Surgeon's Key |  | Clawline Skill |  | Verified | Included |  |
+| Whiteward - Oath |  | Nothing |  | Verified |  |  |
+| Surgeon's Key |  | Clawline Skill |  | Verified |  |  |

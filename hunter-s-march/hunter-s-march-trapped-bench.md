@@ -20,7 +20,7 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| trapped bench |  | bench trap switch flipped |  | Verified | Not included |  |
-| bench trap switch |  | none |  | Verified | Not included |  |
+| trapped bench |  | activate bench trap switch |  | Verified | bench |  |
+| bench trap switch |  | flip switch up |  | Verified | switch |  |

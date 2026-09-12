@@ -20,9 +20,9 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| needle phial |  | none |  |  | Included |  |
-| plasmium phial |  | filled needle phial |  |  | Included |  |
-| wish missing assitant |  | TODO | TODO |  | Included |  |
-| wish alchemist assistant |  |  |  |  | Not included |  |
+| needle phial |  | none |  |  |  |  |
+| plasmium phial |  | filled needle phial |  |  |  |  |
+| wish missing assitant |  | TODO | TODO |  |  |  |
+| wish alchemist assistant |  |  |  |  |  |  |

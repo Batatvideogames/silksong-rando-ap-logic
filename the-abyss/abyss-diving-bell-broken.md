@@ -13,7 +13,7 @@ No subrooms defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | L | left1 |  | [Abyss Landing Zone (Abyss_03)](abyss-landing-zone.md) | D1 | None |  | Verified |  |
-| D | door_wakeOnGround |  | TODO |  |  |  |  |  |
+| D | door_wakeOnGround |  | [Abyss Diving Bell Broken (Room_Diving_Bell_Abyss)](abyss-diving-bell-broken.md) | D | None |  | Verified | One Way from deep docks |
 
 ## Subroom Connections
 

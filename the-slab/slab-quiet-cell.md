@@ -23,6 +23,6 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| The Slab - Memory Locket | Top | none |  |  | Included |  |
+| The Slab - Memory Locket | Top | none |  |  |  |  |

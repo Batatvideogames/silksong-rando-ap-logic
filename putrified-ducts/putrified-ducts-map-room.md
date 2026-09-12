@@ -20,7 +20,7 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Putrified Ducts - thread memory Map Room |  | Needolin |  | Verified | Not included |  |
-| Putrified Ducts - Map Pickup |  | None |  | Verified | Included |  |
+| Putrified Ducts - thread memory Map Room |  | Needolin |  | Verified | lore |  |
+| Putrified Ducts - Map Pickup |  | None |  | Verified | collectible |  |

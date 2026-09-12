@@ -50,9 +50,9 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| activate track | right lava track | none |  | Verified | Not included |  |
-| rosary cache the marrow 11 | left alcove | none |  | Verified | Included |  |
-| rosary cache the marrow 12 | left alcove | none |  | Verified | Included |  |
-| rosary cache the marrow 13 | right alcove | none |  | Verified | Included |  |
+| activate track | right lava track | none |  | Verified |  |  |
+| rosary cache the marrow 11 | left alcove | none |  | Verified |  |  |
+| rosary cache the marrow 12 | left alcove | none |  | Verified |  |  |
+| rosary cache the marrow 13 | right alcove | none |  | Verified |  |  |

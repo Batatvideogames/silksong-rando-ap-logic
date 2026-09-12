@@ -26,6 +26,6 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Relic: Bone Scroll (Wisp Thicket) | Top | none |  |  | Included |  |
+| Relic: Bone Scroll (Wisp Thicket) | Top | none |  |  |  |  |

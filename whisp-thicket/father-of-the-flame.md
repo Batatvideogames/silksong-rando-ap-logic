@@ -20,7 +20,7 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Wispfire Lantern |  | faydown cloak | TODO |  | Included | You can defeat the boss naked... but maybe something is "recommended" |
-| Boss: Father of the Flame |  | faydown cloak | TODO |  | Included | You can defeat the boss naked... but maybe something is "recommended" |
+| Wispfire Lantern |  | faydown cloak | TODO |  |  | You can defeat the boss naked... but maybe something is "recommended" |
+| Boss: Father of the Flame |  | faydown cloak | TODO |  |  | You can defeat the boss naked... but maybe something is "recommended" |

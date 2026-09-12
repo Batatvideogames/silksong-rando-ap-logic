@@ -20,8 +20,8 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| WR | Whole Room | Left Exit | Right Exit | Cling grip AND ( Clawline OR ( Faydown Cloak AND ( Dash OR Sharpdart OR Drifters Cloak ) ) |  | Verified |  |
-| WR | Whole Room | Right Exit | Left Exit | Clawline AND ( Drifters Cloak OR Shamen Crest ) AND ( Cling grip OR Silk Soar ) |  | Verified |  |
+| WR | Whole Room | Left Exit | Right Exit | Cling grip AND ( Clawline OR ( Faydown Cloak AND ( Dash OR Sharpdart OR Drifters Cloak ) ) ) |  | Verified |  |
+| WR | Whole Room | Right Exit | Left Exit | Clawline AND ( Drifters Cloak OR easy Shaman Crest pogo ) AND ( Cling grip OR Silk Soar ) |  | Verified |  |
 
 ## Check Locations
 

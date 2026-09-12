@@ -24,25 +24,26 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| VR | Vertical Right | Top | Bottom Right | Nothing. (Fall) |  | Verified |  |
-| VR | Vertical Right | Bottom Right | Top | Flipped Switch #2 AND (Cling Grip OR Scuttlebrace OR Faydown Cloak OR Clawline OR Dash OR Silk Soar OR Ledge Grab) |  | Verified |  |
-| VL | Vertical Left | Top | Bottom Right | Flipped Switch #2 |  | Verified |  |
-| VL | Vertical Left | Bottom Right | Top | Silk Soar OR Faydown Cloak AND Cling Grip/Scuttlebrace |  | Verified |  |
-| LL | Leave Left | Bottom Center | Bottom Left Entrance | Flipped Switch #1 |  | Verified |  |
-| LL | Leave Left | Bottom Left Entrance | Bottom Center | Flipped Switch #1 |  | Verified |  |
+| VR | Vertical Right | Top | Bottom Right | Activate Whispering Vaults: Flip Switch #12 |  | Verified |  |
+| VR | Vertical Right | Bottom Right | Top | Activate Whispering Vaults: Flip Switch #12 AND (Cling Grip OR Scuttlebrace OR Faydown Cloak OR Clawline OR Dash OR Silk Soar OR Ledge Grab) |  | Verified |  |
+| VL | Vertical Left | Top | Bottom Right | Nothing. (Fall) |  | Verified |  |
+| VL | Vertical Left | Bottom Right | Top | Silk Soar OR (Faydown Cloak AND (Cling Grip OR Scuttlebrace)) |  | Verified |  |
+| LL | Leave Left | Bottom Center | Bottom Left Entrance | Activate Whispering Vaults: Flip Switch #4 |  | Verified |  |
+| LL | Leave Left | Bottom Left Entrance | Bottom Center | Activate Whispering Vaults: Flip Switch #4 |  | Verified |  |
 | ESL | Enter Stage Left | Bottom Center | Fight | Nothing. |  | Verified |  |
-| ESL | Enter Stage Left | Fight | Bottom Center | Beat Trobbio |  | Verified |  |
+| ESL | Enter Stage Left | Fight | Bottom Center | Defeat Trobbio OR (Act 3 AND Defeat Tormented Trobbio) |  | Verified |  |
 | ESR | Enter Stage Right | Bottom Right | Fight | Nothing. |  | Verified |  |
-| ESR | Enter Stage Right | Fight | Bottom Right | Beat Trobbio |  | Verified |  |
+| ESR | Enter Stage Right | Fight | Bottom Right | Defeat Trobbio OR (Act 3 AND Defeat Tormented Trobbio) |  | Verified |  |
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Progressive Claw Mirror 2 | Fight | Beat Trobbio 2 |  | Verified | Included |  |
-| Whispering Vaults: Lore #4 | Bottom Left Entrance | Nothing. |  | Verified | Included |  |
-| Trobbio | Fight | Nothing. |  | Verified | Included |  |
-| Progressive Claw Mirror 1 | Fight | Beat Trobbio 1 |  | Verified | Included |  |
-| Whispering Vaults: Flip Switch #1 (Up) | Bottom Center | Nothing. |  | Verified | Included |  |
-| Whispering Vaults: Flip Switch #2 (Left) | Bottom Right | Nothing. |  | Verified | Included |  |
-| AP Minor Cache - Whispering Vaults - Shell Shard Cache #2 | Top | Nothing. |  | Verified | Included |  |
+| Progressive Claw Mirror 2 | Fight | Defeat Tormented Trobbio |  | Verified | collectible |  |
+| Whispering Vaults: Lore #4 | Bottom Left Entrance | Nothing. |  | Verified | lore |  |
+| Trobbio | Fight | Nothing. |  | Verified | boss |  |
+| Progressive Claw Mirror 1 | Fight | Defeat Trobbio |  | Verified | collectible |  |
+| Whispering Vaults: Flip Switch #4 | Bottom Center | Nothing. |  | Verified | switch |  |
+| Whispering Vaults: Flip Switch #12 | Bottom Right | Nothing. |  | Verified | switch |  |
+| AP Minor Cache - Whispering Vaults - Shell Shard Cache #2 | Top | Nothing. |  | Verified | resource |  |
+| Tormented Trobbio | Fight | (Act 3 AND Activate Wish: Pain, Anguish and Misery IN Songclave) |  | Verified | boss |  |

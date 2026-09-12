@@ -39,10 +39,10 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Rosary Cache: Choral Chambers #3 | Pre Top | none |  |  | Included |  |
-| Rosary Cache: Choral Chambers #4 | Pre Top | none |  |  | Included |  |
-| Shell Shard Cache: Choral Chambers | Side Chamber | none |  |  | Included |  |
-| Rosary Cache: Choral Chambers #1 | Window | none |  |  | Included |  |
-| Rosary Cache: Choral Chambers #2 | Window | none |  |  | Included |  |
+| Rosary Cache: Choral Chambers #3 | Pre Top | none |  |  |  |  |
+| Rosary Cache: Choral Chambers #4 | Pre Top | none |  |  |  |  |
+| Shell Shard Cache: Choral Chambers | Side Chamber | none |  |  |  |  |
+| Rosary Cache: Choral Chambers #1 | Window | none |  |  |  |  |
+| Rosary Cache: Choral Chambers #2 | Window | none |  |  |  |  |

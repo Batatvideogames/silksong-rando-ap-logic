@@ -31,9 +31,9 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Surface Memento | Nameless Town | None |  | Verified | Not included |  |
+| Surface Memento | Nameless Town | None |  | Verified | collectible |  |
 
 ## Notes
 

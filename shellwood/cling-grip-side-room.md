@@ -1,4 +1,4 @@
-# Cling grip Side room (Shellwood_11)
+# Cling Grip Side Room (Shellwood_11)
 
 **Game ID:** Shellwood_11
 
@@ -20,11 +20,11 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| FP | Flower Pogos | Lower Level | Upper Level | ( Easy skips AND Swim ) OR Dash OR Sprint OR Sharp Dart OR Beast Crest OR Faydown Cloak OR Drifters Cloak OR Clawline OR ( Dash AND Scuttlebrace ) OR Cling Grip OR Silk Soar |  | Verified |  |
+| FP | Flower Pogos | Lower Level | Upper Level | ( Easy enemy pogo AND Swim ) OR Dash OR Sprint OR SharpDart OR easy Beast Crest pogo OR Faydown Cloak OR Drifters Cloak OR Clawline OR ( Dash AND Scuttlebrace ) OR Cling Grip OR Silk Soar |  | Verified |  |
 | FP | Flower Pogos | Upper Level | Lower Level | None |  | Verified |  |
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Rosaries | Upper Level | None | TODO | Verified | Not included | Not included rn |
+| Rosaries | Upper Level | None | TODO | Verified | resource | Not included rn |

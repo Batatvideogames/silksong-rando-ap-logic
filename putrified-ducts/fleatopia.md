@@ -33,18 +33,17 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Putrified Ducts - Craft Metal | Craftmetal | None |  | Verified | Included |  |
-| Putrified Ducts - Shell Shard Cache #9 | Upper Ledge | Faydown Cloak OR Clawline OR ( Sprint AND Dash ) OR Sharp Dart |  | Verified | Included |  |
-| Putrified Ducts - Shell Shard Cache #10 | Upper Ledge | Faydown Cloak OR Clawline OR ( Sprint AND Dash ) OR Sharp Dart |  | Verified | Included |  |
-| Putrified Ducts - Shell Shard Cache #11 | Upper Ledge | Faydown Cloak OR Clawline OR ( Sprint AND Dash ) OR Sharp Dart |  | Verified | Included |  |
-| Putrified Ducts - Shell Shard Cache #8 | Fleatopia | Silk Soar |  | Verified | Included |  |
-| Putrified Ducts - White Lake Waver Sign | Fleatopia | Needolin |  | Verified | Included | Missable / no check |
-| Wish: Passing Of The Age | The Herald | ACT3 AND Needolin AND ( "Ruined Chapel" In Logic AND "Bone Bottom Town" In Logic AND "Far Fields Skull Room East" In Logic AND "Greymoor_06, Top Area" In Logic AND "Slab First Sinner Antechamber" In Logic AND "Peak_08. Faythorn" In Logic AND "Path Of Pain SilkSong, Top" In Logic ) |  | Verified | Included | Need room and subroom name from greymoor and the room and subroom from mount fay |
-| Wish: Ecstasy of the end | Fleatopia | ACT3 AND Beat all 3 highscores in the festival minigames |  | Verified | Included |  |
-| Gaurdians Memento | Fleatopia | ACT3 AND Nyleth Defeated AND ( Crust King Khan Defeated OR Karmelita Defeated OR Clover Dancers Defeated ) AND "Greymoor_02" In Logic AND "Shellwood Flower Pogo Upper Hall" In logic AND "Grand Bridge" In Logic AND Beat All of Seths Highscores in Festival |  | Verified | Not included |  |
-| Pale Oil | Fleatopia | Wish: Ecstacy Of The End Completed |  | Verified | Included |  |
-| Egg of Flealia | Fleatopia | ALL Fleas Owned |  | Verified | Included |  |
-| Fleatopia - Tool Pouch | Fleatopia | 22 Fleas Owned AND Flea Caravan in Fleatopia |  | Verified | Included |  |
-| Fleatopia - Rosary Necklace | Fleatopia | Will remove this line once confirmation this no exists |  | Needs verification | Not included | Doesnt exist in game? |
+| Putrified Ducts - Craft Metal | Craftmetal | None |  | Verified | collectible |  |
+| Putrified Ducts - Shell Shard Cache #9 | Upper Ledge | Faydown Cloak OR Clawline OR ( Sprint AND Dash ) OR SharpDart |  | Verified | resource |  |
+| Putrified Ducts - Shell Shard Cache #10 | Upper Ledge | Faydown Cloak OR Clawline OR ( Sprint AND Dash ) OR SharpDart |  | Verified | resource |  |
+| Putrified Ducts - Shell Shard Cache #11 | Upper Ledge | Faydown Cloak OR Clawline OR ( Sprint AND Dash ) OR SharpDart |  | Verified | resource |  |
+| Putrified Ducts - Shell Shard Cache #8 | Fleatopia | Silk Soar |  | Verified | resource |  |
+| Putrified Ducts - White Lake Waver Sign | Fleatopia | Needolin |  | Verified | lore | Missable / no check |
+| Wish: Passing Of The Age | The Herald | ACT 3 AND Needolin AND ( "Ruined Chapel" In Logic AND "Bone Bottom Town" In Logic AND "Far Fields Skull Room East" In Logic AND "Greymoor_06, Top Area" In Logic AND "Slab First Sinner Antechamber" In Logic AND "Peak_08. Faythorn" In Logic AND "Path Of Pain SilkSong, Top" In Logic ) |  | Verified | event | Need room and subroom name from greymoor and the room and subroom from mount fay |
+| Wish: Ecstasy of the end | Fleatopia | ACT 3 AND Beat all 3 highscores in the festival minigames |  | Verified | event |  |
+| Gaurdians Memento | Fleatopia | ACT 3 AND Nyleth Defeated AND ( Crust King Khan Defeated OR Karmelita Defeated OR Clover Dancers Defeated ) AND "Greymoor_02" In Logic AND "Shellwood Flower Pogo Upper Hall" In logic AND "Grand Bridge" In Logic AND Beat All of Seths Highscores in Festival |  | Verified | collectible |  |
+| Pale Oil | Fleatopia | Prereq Wish: Ecstasy of the end |  | Verified | collectible |  |
+| Egg of Flealia | Fleatopia | fleas 30 |  | Verified | collectible | All fleas |
+| Fleatopia - Tool Pouch | Fleatopia | fleas 22 |  | Verified | collectible |  |

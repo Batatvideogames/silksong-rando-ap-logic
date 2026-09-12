@@ -20,6 +20,6 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Mask Shard: Blasted Steps |  | (Swift Step AND Scuttlebrace AND Faydown) OR (Cling Grip AND Spike Pogos AND (Ledge Grab OR Easy Hazard Respawn)) |  | Verified | Included |  |
+| Mask Shard: Blasted Steps |  | (Swift Step AND Scuttlebrace AND Faydown) OR (Cling Grip AND Spike Pogos AND (Ledge Grab OR Easy Hazard Respawn)) |  | Verified |  |  |

@@ -30,7 +30,7 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Shell Shard Cache: Cradle #1 | Shell Shard Ledge | None |  | Verified | Included |  |
-| Boss: Grand Mother Silk | Arena | None |  | Verified | Included |  |
+| Shell Shard Cache: Cradle #1 | Shell Shard Ledge | None |  | Verified | resource |  |
+| Boss: Grand Mother Silk | Arena | None |  | Verified | boss |  |

@@ -18,6 +18,6 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| The Slab (Key of Apostate) - Mask Shard |  | cling grip and dash and faydown and clawline and spike pogo and drifter's cloak | TODO |  | Included | Not actually tested, placeholded everything |
+| The Slab (Key of Apostate) - Mask Shard |  | cling grip and dash and faydown and clawline and spike pogo and drifter's cloak | TODO |  |  | Not actually tested, placeholded everything |

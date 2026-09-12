@@ -20,13 +20,13 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| MJ | massive jump | the pit of despair | the highest highs | ledge grab OR clawline OR shaman's crest OR faydown cloak OR silk soar OR scuttlebrace OR cling grip |  | Verified |  |
+| MJ | massive jump | the pit of despair | the highest highs | ledge grab OR clawline OR faydown cloak OR silk soar OR scuttlebrace OR cling grip OR easy shaman pogo |  | Verified |  |
 | MJ | massive jump | the highest highs | the pit of despair | none (falling) |  | Verified |  |
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| rosary cache far fields 11 | the highest highs | none |  | Verified | Included |  |
-| rosary cache far fields 12 | the highest highs | none |  | Verified | Included |  |
-| rosary cache far fields 13 | the highest highs | none |  | Verified | Included |  |
+| rosary cache far fields 11 | the highest highs | none |  | Verified | collectible |  |
+| rosary cache far fields 12 | the highest highs | none |  | Verified | collectible |  |
+| rosary cache far fields 13 | the highest highs | none |  | Verified | collectible |  |

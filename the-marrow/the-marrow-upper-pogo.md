@@ -20,9 +20,9 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| rosary cache the marrow 14 |  | none |  |  | Included |  |
-| rosary cache the marrow 15 |  | none |  |  | Included |  |
-| rosary cache the marrow 16 |  | none |  |  | Included |  |
-| rosary chest |  | none |  |  | Not included | NOT RANDOMIZED YET |
+| rosary cache the marrow 14 |  | none |  |  |  |  |
+| rosary cache the marrow 15 |  | none |  |  |  |  |
+| rosary cache the marrow 16 |  | none |  |  |  |  |
+| rosary chest |  | none |  |  |  | NOT RANDOMIZED YET |

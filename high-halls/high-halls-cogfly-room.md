@@ -20,6 +20,6 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Cogfly |  | 1 craftmetal |  | Verified | Included |  |
+| Cogfly |  | 1 craftmetal |  | Verified |  |  |

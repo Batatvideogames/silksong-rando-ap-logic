@@ -25,6 +25,6 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Bilewater - Rosary Cache #3 | upper | Cling grip AND (faydown cloak OR crest pogo) |  |  | Included |  |
+| Bilewater - Rosary Cache #3 | upper | Cling grip AND (faydown cloak OR crest pogo) |  |  |  |  |

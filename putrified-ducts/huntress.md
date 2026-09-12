@@ -20,9 +20,9 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Putrified Ducts - Bench Huntress |  | None |  |  | Included |  |
-| Longclaw |  | Wish: Broodfeast Completed OR Wish: Runtfeast Completed |  |  | Included |  |
-| Wish: Broodfeast |  | ACT2 AND ( 15 Seared Organs AND ( Flintslate OR Pimpillo OR Wispfire Lantern OR Voltvessels ) ) AND ( 35 Shredded Organs AND ( Sawtooth Circlet OR Cogwork Wheel OR Delver's Drill OR Conchcutter OR Beast Crest OR Architect Crest ) ) AND ( 10 Skewered Organs AND ( Sting Shard OR Longpin OR Needle Phial ) ) |  |  | Included | The tools listed are all the methods to get said organs |
-| Wish: Runtfeast |  | ACT3 AND Wish: Broodfeast NOT completed ( 15 Seared Organs AND ( Flintslate OR Pimpillo OR Wispfire Lantern OR Voltvessels ) ) AND ( 35 Shredded Organs AND ( Sawtooth Circlet OR Cogwork Wheel OR Delver's Drill OR Conchcutter OR Beast Crest OR Architect Crest ) ) AND ( 10 Skewered Organs AND ( Sting Shard OR Longpin OR Needle Phial ) ) |  |  | Included |  |
+| Putrified Ducts - Bench Huntress |  | None |  | Verified | bench |  |
+| Longclaw |  | complete Wish: Broodfeast OR complete Wish: Runtfeast |  | Verified | collectible |  |
+| Wish: Broodfeast |  | ACT 2  AND ( Seared Organs 15 AND Shredded Organs 35 AND Skewered Organs 10 )  AND ( Searing Damage AND Shredding Damage AND Skewering Damage ) |  | Verified | event | Searing Damage: Flintslate OR Pimpillo OR Wispfire Lantern OR Voltvessels  Shredding Damage: Sawtooth Circlet OR Cogwork Wheel OR Delver's Drill OR Conchcutter OR Beast Crest OR Architect Crest  Skewering Damage: Sting Shard OR Longpin OR Needle Phial |
+| Wish: Runtfeast |  | ACT 3  AND ( Seared Organs 15 AND Shredded Organs 35 AND Skewered Organs 10 )  AND ( Searing Damage AND Shredding Damage AND Skewering Damage ) |  | Verified | event | Mutually exclusive with Broodfeast. Probably needs to be functionally treated as the same location or split into separate checks and made permanently available. |

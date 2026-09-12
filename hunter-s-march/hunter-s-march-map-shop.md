@@ -22,13 +22,13 @@
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | LG | left gauntlet entrance | left of gauntlet | gauntlet | none (starts gauntlet) |  | Verified |  |
-| LG | left gauntlet entrance | gauntlet | left of gauntlet | defeat gauntlet |  | Verified |  |
+| LG | left gauntlet entrance | gauntlet | left of gauntlet | defeat gauntlet fight |  | Verified |  |
 | RG | right of gauntlet entrance | right of gauntlet | gauntlet | none (starts gauntlet) |  | Verified |  |
-| RG | right of gauntlet entrance | gauntlet | right of gauntlet | defeat gauntlet |  | Verified |  |
+| RG | right of gauntlet entrance | gauntlet | right of gauntlet | defeat gauntlet fight |  | Verified |  |
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| gauntlet fight | gauntlet | none |  | Verified | Not included |  |
-| map purchase hunter's march | gauntlet | defeat gauntlet |  | Verified | Included |  |
+| gauntlet fight | gauntlet | none |  | Verified | gauntlet |  |
+| map purchase hunter's march | gauntlet | defeat gauntlet fight |  | Verified | collectible |  |

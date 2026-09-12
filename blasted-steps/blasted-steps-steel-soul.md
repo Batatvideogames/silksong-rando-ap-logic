@@ -20,7 +20,7 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Silkeater: Blasted Steps |  | Nothing |  | Verified | Included |  |
-| Wish: A Vassal Lost |  | Steel Soul Active |  | Verified | Included |  |
+| Silkeater: Blasted Steps |  | Nothing |  | Verified |  |  |
+| Wish: A Vassal Lost |  | Steel Soul |  | Verified |  |  |

@@ -28,8 +28,8 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| forebrothers boss fight | boss area | none |  |  | Included |  |
-| rosary cache 1 | right area | none |  |  | Included |  |
-| rosary cache 2 | right area | none |  |  | Included |  |
+| forebrothers boss fight | boss area | none |  |  |  |  |
+| rosary cache 1 | right area | none |  |  |  |  |
+| rosary cache 2 | right area | none |  |  |  |  |

@@ -1,6 +1,6 @@
-# Library_12b (Library_12b-0)
+# Greymoor Middle Passage (Greymoor_10)
 
-**Game ID:** Library_12b-0
+**Game ID:** Greymoor_10
 
 ## Subrooms
 
@@ -10,7 +10,8 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| T | Top |  | [Vaultkeeper Cauldron Entrance (Library_10)](../whispering-vaults/vaultkeeper-cauldron-entrance.md) | B | ??? | TODO |  |  |
+| L | left |  | [Greymoor Western Tower (Greymoor_06)](greymoor-western-tower.md) | MR | nothing |  | Verified |  |
+| R | right |  | [Greymoor Eastern Tower (Greymoor_04)](greymoor-eastern-tower.md) | ML | nothing |  | Verified |  |
 
 ## Subroom Connections
 

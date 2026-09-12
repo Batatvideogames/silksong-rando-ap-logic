@@ -35,12 +35,12 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| silkspear | main area | none |  |  | Included |  |
-| frayed rosary string bone bottom silkspear passage | upper left area | none |  |  | Included |  |
-| rosary cache mosshome 3 | main area | none |  |  | Included |  |
-| rosary cache mosshome 4 | main area | none |  |  | Included |  |
+| silkspear | main area | none |  |  |  |  |
+| frayed rosary string bone bottom silkspear passage | upper left area | none |  |  |  |  |
+| rosary cache mosshome 3 | main area | none |  |  |  |  |
+| rosary cache mosshome 4 | main area | none |  |  |  |  |
 
 ## Notes
 

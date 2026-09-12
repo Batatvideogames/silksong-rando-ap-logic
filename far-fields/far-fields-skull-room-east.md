@@ -26,8 +26,8 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| G1 | gap 1 | main floor | weavenest platform | run OR dash or beast crest OR drifter's cloak OR faydown cloak OR clawline OR sharpdart OR scuttlebrace |  | Verified |  |
-| G1 | gap 1 | weavenest platform | main floor | run OR dash or beast crest OR drifter's cloak OR faydown cloak OR clawline OR sharpdart OR scuttlebrace |  | Verified |  |
+| G1 | gap 1 | main floor | weavenest platform | run OR dash OR easy beast pogo OR drifters cloak OR faydown cloak OR clawline OR sharpdart OR scuttlebrace |  | Verified |  |
+| G1 | gap 1 | weavenest platform | main floor | run OR dash OR easy beast pogo OR drifters cloak OR faydown cloak OR clawline OR sharpdart OR scuttlebrace |  | Verified |  |
 | V1 | vertical 1 | main floor | skull platform | silk soar OR ( clawline AND ( cling grip OR faydown cloak ) ) OR ( ledge grab AND run AND dash AND faydown cloak ) |  | Verified |  |
 | V1 | vertical 1 | skull platform | main floor | none (falling) |  | Verified |  |
 | V2 | vertical 2 | main floor | rosary platform | silk soar OR faydown cloak OR ( ledge grab AND ( run OR dash OR drifter's cloak OR clawline OR sharpdart ) ) |  | Verified |  |
@@ -39,7 +39,8 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| rosary cache far fields 7 | rosary platform | none |  | Verified | Included |  |
-| rosary cache far fields 8 | rosary platform | none |  | Verified | Included |  |
+| rosary cache far fields 7 | rosary platform | none |  | Verified | collectible |  |
+| rosary cache far fields 8 | rosary platform | none |  | Verified | collectible |  |
+| hoker enemy | main floor | none (attack enemy up) |  | Verified | enemy | used to farm flexible spines |

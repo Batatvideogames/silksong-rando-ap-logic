@@ -42,6 +42,6 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Bilewater - Frayed Rosary String | rosary plat | none |  |  | Included |  |
+| Bilewater - Frayed Rosary String | rosary plat | none |  |  |  |  |

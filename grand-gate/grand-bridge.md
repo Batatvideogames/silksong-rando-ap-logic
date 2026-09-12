@@ -12,8 +12,8 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | Left |  | [Last Judge Arena (Coral_Judge_Arena)](../blasted-steps/last-judge-arena.md) | R | Last Judge Defeated |  | Verified |  |
-| R | Right |  | [Grand Gate Courtroom (Song_19_entrance)](grand-gate-courtroom.md) | L | Grand Bridge Plate Stood On |  | Verified |  |
+| L | Left |  | [Last Judge Arena (Coral_Judge_Arena)](../blasted-steps/last-judge-arena.md) | R | prereq Boss: Last Judge IN Last Judge Arena |  | Verified |  |
+| R | Right |  | [Grand Gate Courtroom (Song_19_entrance)](grand-gate-courtroom.md) | L | activate Grand Bridge Plate |  | Verified |  |
 
 ## Subroom Connections
 
@@ -21,6 +21,6 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Grand Bridge Plate |  | Nothing |  | Verified | Included |  |
+| Grand Bridge Plate |  | Nothing |  | Verified | switch |  |

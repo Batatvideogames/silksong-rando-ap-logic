@@ -1,4 +1,4 @@
-# Weavenest Atla Power (Weave_12)
+# Weavenest Atla Power Room (Weave_12)
 
 **Game ID:** Weave_12
 
@@ -20,7 +20,7 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| weavenest atla power activation |  | activate switch up |  | Verified | Not included | NOT CURRENTLY RANDOMIZED |
-| weavenest atla map |  | weavenest atla power activation |  | Verified | Included |  |
+| weavenest atla power activation |  | flip switch up |  | Verified | switch | NOT CURRENTLY RANDOMIZED |
+| weavenest atla map |  | complete weavenest atla power activation |  | Verified | collectible |  |

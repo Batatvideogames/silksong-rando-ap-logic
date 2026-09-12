@@ -31,6 +31,6 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| free silk | free silk | none |  | Verified | Not included | not yet randomized |
+| free silk | free silk | none |  | Verified | resource | not yet randomized |

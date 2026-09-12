@@ -22,6 +22,6 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Indolent Key | Left | none |  |  | Not included | Not randomized |
+| Indolent Key | Left | none |  |  |  | Not randomized |

@@ -25,10 +25,10 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Rosary Cache: Sinner’s Road #5 | upper | none |  |  | Included |  |
-| Rosary Cache: Sinner’s Road #6 | upper | none |  |  | Included |  |
-| Rosary Cache: Sinner’s Road #7 | upper | none |  |  | Included |  |
-| Shard Bundle: Sinner’s Road | upper | Ledge grab OR cling grip OR faydown cloak OR silk soar OR scuttlebrace |  |  | Included |  |
-| Simple Key: Roachkeeper | upper | Cling grip AND (dash OR drifter’s cloak OR clawline OR sharpdart) |  |  | Included |  |
+| Rosary Cache: Sinner’s Road #5 | upper | none |  |  | collectible |  |
+| Rosary Cache: Sinner’s Road #6 | upper | none |  |  | collectible |  |
+| Rosary Cache: Sinner’s Road #7 | upper | none |  |  | collectible |  |
+| Shard Bundle: Sinner’s Road | upper | Ledge grab OR cling grip OR faydown cloak OR silk soar OR scuttlebrace |  |  | collectible |  |
+| Simple Key: Roachkeeper | upper | Cling grip AND (dash OR drifter’s cloak OR clawline OR sharpdart) |  |  | collectible |  |

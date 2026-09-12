@@ -21,7 +21,7 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| craggler mini boss fight |  | none |  |  | Included |  |
-| beast shard |  | defeat craggler |  |  | Not included | NOT CURRENTLY RANDOMIZED |
+| craggler mini boss fight |  | none |  |  |  |  |
+| beast shard |  | defeat craggler mini boss fight |  |  |  |  |

@@ -15,7 +15,7 @@
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | R | Right | Triple Sand Pit Right | [Blasted Steps Wide Long Vertical (Coral_03)](blasted-steps-wide-long-vertical.md) | ML | Nothing |  | Verified |  |
-| L | Left | Great Conchflies | [Horizontal Room with Sand Pit (Coral_11b)](horizontal-room-with-sand-pit.md) | R | Beat Great Conchflies |  | Verified |  |
+| L | Left | Great Conchflies | [Horizontal Room with Sand Pit (Coral_11b)](horizontal-room-with-sand-pit.md) | R | defeat Boss: Great Conchflies |  | Verified |  |
 
 ## Subroom Connections
 
@@ -28,6 +28,6 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Boss: Great Conchflies | Great Conchflies | Nothing |  | Verified | Included |  |
+| Boss: Great Conchflies | Great Conchflies | Nothing |  | Verified |  |  |

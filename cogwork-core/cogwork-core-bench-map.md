@@ -24,8 +24,9 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Cogwork Core: Flip Switch (Up) #4 | Bench | Nothing. |  | Verified | Included |  |
-| Cogwork Core: Flip Switch (Down) #5 | Map | Nothing. |  | Verified | Included |  |
-| Cogwork Core: Map | Map | Flipped Switch #5 |  | Verified | Included |  |
+| Cogwork Core: Flip Switch #4 | Bench | Nothing. |  | Verified | switch |  |
+| Cogwork Core: Flip Switch #5 | Map | Nothing. |  | Verified | switch |  |
+| Cogwork Core: Map | Map | Activate Cogwork Core: Flip Switch #5 |  | Verified | collectible |  |
+| Cogwork Core: Bench | Bench | Activate Cogwork Core: Flip Switch #4 |  | Verified | bench |  |

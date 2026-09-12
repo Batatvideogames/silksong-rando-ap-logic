@@ -18,9 +18,9 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Underworks: Silkeater |  | Nothing. |  |  | Included |  |
-| Underworks: Break Wall (Up) |  | Nothing. |  |  | Included |  |
-| Underworks: Needolin Lore |  | Needolin. |  |  | Included |  |
-| Architect's Crest |  | Nothing. |  |  | Included |  |
+| Underworks: Silkeater |  | Nothing. |  |  |  |  |
+| Underworks: Break Wall (Up) |  | Nothing. |  |  |  |  |
+| Underworks: Needolin Lore |  | Needolin. |  |  |  |  |
+| Architect's Crest |  | Nothing. |  |  |  |  |

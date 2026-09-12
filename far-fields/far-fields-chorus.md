@@ -17,8 +17,8 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 | left exit area | [Far Fields Wind Shaft (Bone_East_07)](far-fields-wind-shaft.md) | R3 | none |  |  |  |
-| R | right1 | lower right side | [Far Fields Pinstress Room (Bone_East_09)](far-fields-pinstress-room.md) | LL | none |  |  |  |
+| L | left1 | left exit area | [Far Fields Wind Shaft (Bone_East_07)](far-fields-wind-shaft.md) | R3 | none |  | Verified |  |
+| R | right1 | lower right side | [Far Fields Pinstress Room (Bone_East_09)](far-fields-pinstress-room.md) | LL | none |  | Verified |  |
 
 ## Subroom Connections
 
@@ -33,13 +33,13 @@
 | BL | boss left entrance | boss arena | lower left side | none |  | Verified |  |
 | BR | boss right entrance | lower right side | boss arena | none |  | Verified | no boss defeat passthrough requirement |
 | BR | boss right entrance | boss arena | lower right side | none |  | Verified |  |
-| V3 | vertical 3 | lower right side | upper right alcove | drifter's cloak OR ( silk soar AND ( cling grip AND ( faydown cloak OR dash OR clawline OR sharpdart ) OR  scuttlebrace ) ) |  | Verified |  |
+| V3 | vertical 3 | lower right side | upper right alcove | drifter's cloak OR ( silk soar AND ( scuttlebrace OR ( cling grip AND ( faydown cloak OR dash OR clawline OR sharpdart ) ) ) ) |  | Verified |  |
 | V3 | vertical 3 | upper right alcove | lower right side | none (falling) |  | Verified |  |
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| boss fourth chorus | boss arena | wish flexible spines complete |  | Verified | Included |  |
-| rosary cache far fields 2 | upper left alcove | none |  | Verified | Included |  |
-| free silk | upper right alcove | none |  | Verified | Not included | NOT CURRENTLY RANDOMIZED |
+| boss fourth chorus | boss arena | complete THE flexible spines wish goal |  | Verified | boss |  |
+| rosary cache far fields 2 | upper left alcove | none |  | Verified | collectible |  |
+| free silk | upper right alcove | none |  | Verified | resource | NOT CURRENTLY RANDOMIZED |

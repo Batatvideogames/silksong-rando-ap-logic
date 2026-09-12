@@ -11,14 +11,14 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| CD | chapel door | ritual chamber | [Ruined Chapel (Tut_03)](ruined-chapel.md) | CD | TODO | TODO |  |  |
+| CD | chapel door | ritual chamber | [Ruined Chapel (Tut_03)](ruined-chapel.md) | CD |  | TODO |  |  |
 
 ## Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| SS | silk soar spot | ritual chamber | crest chamber | silk soar |  |  |  |
-| SS | silk soar spot | crest chamber | ritual chamber | silk soar |  |  |  |
+| SS | silk soar spot | ritual chamber | crest chamber | silk soar |  | Verified |  |
+| SS | silk soar spot | crest chamber | ritual chamber | silk soar |  | Verified |  |
 
 ## Check Locations
 

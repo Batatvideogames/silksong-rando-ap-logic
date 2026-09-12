@@ -21,6 +21,6 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| The Slab - Shard Bundle |  | ledge grab or cling grip or clawline or faydown |  |  | Included |  |
+| The Slab - Shard Bundle |  | ledge grab or cling grip or clawline or faydown |  |  |  |  |

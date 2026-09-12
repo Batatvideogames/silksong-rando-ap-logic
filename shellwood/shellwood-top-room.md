@@ -24,17 +24,19 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | LW | Left Wall | Left Side | Central | Cling Grip OR Faydown Cloak OR Silk Soar OR ( Dash AND Scuttlebrace ) |  | Verified |  |
 | LW | Left Wall | Central | Left Side | Cling Grip OR Faydown Cloak OR Silk Soar OR ( Dash AND Scuttlebrace ) |  | Verified |  |
-| RW | Right Wall | Central | Right Side | ( Swim OR ( Drifters Cloak  AND Easy Skips ) ) AND ( Cling Grip OR Scuttlebrace ) |  | Verified |  |
+| RW | Right Wall | Central | Right Side | ( Swim OR ( Drifters Cloak  AND Easy enemy pogo ) ) AND ( Cling Grip OR Scuttlebrace ) |  | Verified |  |
 | RW | Right Wall | Right Side | Central | Cling Grip OR Faydown Cloak OR Silk Soar OR ( Dash AND Scuttlebrace ) |  | Verified |  |
-| HS | Hidden Shaft | Left Side | Upper Area | Break wall from upper Area AND Silk Soar |  | Verified |  |
-| HS | Hidden Shaft | Upper Area | Left Side | Break wall from upper Area |  | Verified |  |
-| CC | Central Shaft | Central | Upper Area | Cling Grip AND ( Swim OR Clawline OR Drifters Cloak OR Sharpdart OR ( Beast Crest AND Dash ) OR ( Sprint AND Dash ) ) OR ( Dash AND Scuttlebrace AND ( Swim OR Clawline OR Easy skips OR Faydown Cloak ) ) |  | Verified |  |
+| HS | Hidden Shaft | Left Side | Upper Area | prereq Shellwood 26 Wall AND Silk Soar |  | Verified |  |
+| HS | Hidden Shaft | Upper Area | Left Side | prereq Shellwood 26 Wall AND Silk Soar |  | Verified |  |
+| CC | Central Shaft | Central | Upper Area | Cling Grip AND ( ( Swim OR Clawline OR Drifters Cloak OR Sharpdart OR ( easy Beast Crest pogo AND Dash ) OR ( Sprint AND Dash ) ) OR ( Dash AND Scuttlebrace AND ( Swim OR Clawline OR Easy enemy pogo OR Faydown Cloak ) ) ) |  | Verified |  |
 | CC | Central Shaft | Upper Area | Central | None |  | Verified |  |
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Pollip Heart #4 | Upper Area | Cling Grip OR Silk Soar OR Clawline OR ( Faydown Cloak AND ( Ledge Grab OR Clawline ) ) |  | Verified | Included |  |
-| Rosary cache: Shellwood | Right Side | Cling Grip OR Silk Soar OR ( Scuttlebrace AND Dash ) |  | Verified | Included |  |
-| Resting Site: Shellwood | Right Side | Wish: A vassal Lost started AND Steel Soul |  | Verified | Not included |  |
+| Pollip Heart #4 | Upper Area | Cling Grip OR Silk Soar OR Clawline OR ( Faydown Cloak AND ( Ledge Grab OR Clawline ) ) |  | Verified | collectible |  |
+| Rosary cache: Shellwood | Right Side | Cling Grip OR Silk Soar OR ( Scuttlebrace AND Dash ) |  | Verified | resource |  |
+| Resting Site: Shellwood | Right Side | prereq Wish: A vassal Lost started AND Steel Soul |  | Verified | collectible |  |
+| Wish: A Vassal Lost Started | Right Side | None |  | Verified | event |  |
+| Shellwood 26 Wall | Upper Area | None |  | Verified | blockade |  |

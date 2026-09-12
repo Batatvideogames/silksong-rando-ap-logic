@@ -20,6 +20,6 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Whispering Vaults: Flip Switch #5 (Left) |  | Nothing. |  | Verified | Included |  |
+| Whispering Vaults: Flip Switch #5 |  | Flip Switch Left |  | Verified | switch |  |

@@ -20,6 +20,6 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| map purchase far fields |  | none |  | Verified | Included | shakra shop |
+| map purchase far fields |  | none |  | Verified | collectible | shakra shop |

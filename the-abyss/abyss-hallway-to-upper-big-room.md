@@ -20,8 +20,8 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| WR | Whole Room | Left Exit | Right Exit | Clawline OR Faydown Cloak OR Cling Grip OR ( Medium Skip AND Drifters Cloak ) OR Dash OR Reaper Crest OR Beast Crest OR Shaman Crest |  | Verified |  |
-| WR | Whole Room | Right Exit | Left Exit | Clawline OR Faydown Cloak OR Cling Grip OR ( Medium Skip AND Drifters Cloak ) OR Dash OR Reaper Crest OR Beast Crest OR Shaman Crest |  | Verified |  |
+| WR | Whole Room | Left Exit | Right Exit | Clawline OR Faydown Cloak OR Cling Grip OR ( Medium skip spike pogo AND Drifters Cloak ) OR Dash OR easy Reaper Crest pogo OR easy Beast Crest pogo OR easy Shaman Crest pogo |  | Verified |  |
+| WR | Whole Room | Right Exit | Left Exit | Clawline OR Faydown Cloak OR Cling Grip OR ( Medium skip spike pogo AND Drifters Cloak ) OR Dash OR easy Reaper Crest pogo OR easy Beast Crest pogo OR easy Shaman Crest pogo |  | Verified |  |
 
 ## Check Locations
 

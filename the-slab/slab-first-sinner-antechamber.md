@@ -19,8 +19,8 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| The Slab - Weaver Gate Inscription |  | faydown |  |  | Included |  |
-| Rune Rage |  | faydown |  |  | Included |  |
-| Boss: First Sinner |  | faydown |  |  | Included |  |
+| The Slab - Weaver Gate Inscription |  | faydown |  |  |  |  |
+| Rune Rage |  | faydown |  |  |  |  |
+| Boss: First Sinner |  | faydown |  |  |  |  |

@@ -40,8 +40,8 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Rosary Cache: Sinner’s Road #1 | lower | Ledge grab OR cling grip OR faydown cloak |  |  | Included |  |
-| Rosary Cache: Sinner’s Road #2 | upper right | none |  |  | Included |  |
-| Rosary Cache: Sinner’s Road #3 | upper right | none |  |  | Included |  |
+| Rosary Cache: Sinner’s Road #1 | lower | Ledge grab OR cling grip OR faydown cloak |  |  | collectible |  |
+| Rosary Cache: Sinner’s Road #2 | upper right | none |  |  | collectible |  |
+| Rosary Cache: Sinner’s Road #3 | upper right | none |  |  | collectible |  |

@@ -22,6 +22,6 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Rosary Necklace: Wisp Thicket |  | silk soar or cling grip |  |  | Included |  |
+| Rosary Necklace: Wisp Thicket |  | silk soar or cling grip |  |  |  |  |

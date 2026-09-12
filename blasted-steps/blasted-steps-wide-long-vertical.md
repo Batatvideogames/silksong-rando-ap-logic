@@ -58,7 +58,7 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Frayed Rosary String: Blasted Steps | Pit | Nothing (Falling) |  | Verified | Included |  |
-| Lever Coral_03 (Top Third) | Top Third | Ledge Grab AND (Cling Grip OR Scuttlebrace) OR Faydown OR Silk Soar |  | Verified | Not included |  |
+| Frayed Rosary String: Blasted Steps | Pit | Nothing (Falling) |  | Verified |  |  |
+| Lever Coral_03 (Top Third) | Top Third | Ledge Grab AND (Cling Grip OR Scuttlebrace) OR Faydown OR Silk Soar |  | Verified |  |  |

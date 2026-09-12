@@ -20,9 +20,9 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| flea rescue |  | ledge grab OR faydown cloak OR clawline OR silk soar |  | Verified | Included |  |
+| flea rescue |  | ledge grab OR faydown cloak OR clawline OR silk soar |  | Verified |  |  |
 
 ## Notes
 

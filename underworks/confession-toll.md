@@ -32,8 +32,8 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Memory Locket: Underworks | Memory | none |  |  | Included |  |
-| Shell Shard Cache: Underworks #15 | Top | none |  |  | Included |  |
-| Relic: Psalm Cylinder (Underworks) | Secret | TBD | TODO |  | Included |  |
+| Memory Locket: Underworks | Memory | none |  |  |  |  |
+| Shell Shard Cache: Underworks #15 | Top | none |  |  |  |  |
+| Relic: Psalm Cylinder (Underworks) | Secret | TBD | TODO |  |  |  |

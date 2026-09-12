@@ -22,8 +22,8 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| WR | Whole Room | Right Exit | Left Exit | Clawline OR ( Drifters Cloak AND Faydown Cloak AND ( Beast Crest or Reaper Crest OR Wanderer Crest OR Witch Crest OR Shamen Crest  OR ( ( Hunter Crest OR Architect Crest ) AND ( Dash OR Sharpdart ) |  | Verified |  |
-| WR | Whole Room | Left Exit | Right Exit | Clawline OR ( Drifters Cloak AND Faydown Cloak AND ( Beast Crest or Reaper Crest OR Wanderer Crest OR Witch Crest OR Shamen Crest  OR ( ( Hunter Crest OR Architect Crest ) AND ( Dash OR Sharpdart ) |  | Verified |  |
+| WR | Whole Room | Right Exit | Left Exit | Clawline OR ( Drifters Cloak AND Faydown Cloak AND ( easy Beast Crest pogo OR medium Reaper Crest pogo OR medium Wanderer Crest pogo OR medium Witch Crest pogo OR Medium Shaman Crest pogo OR ( ( easy Hunter Crest pogo OR easy Architect Crest pogo ) AND ( Dash OR Sharpdart ) ) ) ) |  | Verified |  |
+| WR | Whole Room | Left Exit | Right Exit | Clawline OR ( Drifters Cloak AND Faydown Cloak AND ( easy Beast Crest pogo OR easy Reaper Crest pogo OR easy Wanderer Crest pogo OR medium Witch Crest pogo OR medium Shaman Crest pogo OR ( ( easy Hunter Crest pogo OR easy Architect Crest pogo ) AND ( Dash OR Sharpdart ) ) ) ) |  | Verified |  |
 | EL | Escape Ledge | Left Exit | Escape Ledge | Silk Soar OR Cling Grip |  | Verified |  |
 | EL | Escape Ledge | Escape Ledge | Left Exit | None |  | Verified |  |
 

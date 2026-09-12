@@ -18,7 +18,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | L | left1 | Left | [Wisp Thicket Grounds (Wisp_02)](wisp-thicket-grounds.md) | R | none |  |  |  |
 | R | right1 | Bench | [Wisp Thicket Shaft (Wisp_08)](wisp-thicket-shaft.md) | L | none |  |  |  |
-| B | bot1 | Bottom | TODO |  | none |  |  |  |
+| B | bot1 | Bottom | [Greymoor Western Tower (Greymoor_06)](../greymoor/greymoor-western-tower.md) | T | none |  |  |  |
 
 ## Subroom Connections
 

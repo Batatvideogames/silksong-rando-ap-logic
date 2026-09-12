@@ -29,7 +29,7 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Boss: Groal the Great | arena | none |  |  | Included | Technically none, lol. |
-| Bilewater - Bilehaven Plaque | right of arena | cling grip OR silk soar OR scuttlebrace |  |  | Included |  |
+| Boss: Groal the Great | arena | none |  |  |  | Technically none, lol. |
+| Bilewater - Bilehaven Plaque | right of arena | cling grip OR silk soar OR scuttlebrace |  |  |  |  |

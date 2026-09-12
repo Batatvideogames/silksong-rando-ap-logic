@@ -21,11 +21,11 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| PU | Puddle | Arena Side | Right Side | Swim OR ( Cling Grip AND Ledge grab ) OR Dash OR Clawline OR Sharp Dart OR Drifters Cloak OR Faydown Cloak OR Beast Crest |  | Verified |  |
-| PU | Puddle | Right Side | Arena Side | Swim OR Dash OR Clawline OR Sharp Dart OR Drifters Cloak OR Faydown Cloak OR Beast Crest |  | Verified |  |
+| PU | Puddle | Arena Side | Right Side | Swim OR ( Cling Grip AND Ledge grab ) OR Dash OR Clawline OR SharpDart OR Drifters Cloak OR Faydown Cloak OR easy Beast Crest pogo |  | Verified |  |
+| PU | Puddle | Right Side | Arena Side | Swim OR Dash OR Clawline OR SharpDart OR Drifters Cloak OR Faydown Cloak OR easy Beast Crest pogo |  | Verified |  |
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Boss: Sister Splinter | Arena Side | None |  | Verified | Included |  |
+| Boss: Sister Splinter | Arena Side | None |  | Verified | boss |  |

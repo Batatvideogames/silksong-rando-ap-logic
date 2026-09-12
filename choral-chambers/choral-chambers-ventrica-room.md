@@ -26,10 +26,10 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Map Purchase: Choral Chambers | Lateral | rosaries |  |  | Included |  |
-| Rosary Cache: Choral Chambers #5 | Ventrica | none |  |  | Included |  |
-| Rosary Cache: Choral Chambers #6 | Ventrica | none |  |  | Included |  |
-| Rosary Cache: Choral Chambers #7 | Ventrica | none |  |  | Included |  |
-| Ventrica: Choral Chambers | Ventrica | rosaries |  |  | Included |  |
+| Map Purchase: Choral Chambers | Lateral | rosaries |  |  |  |  |
+| Rosary Cache: Choral Chambers #5 | Ventrica | none |  |  |  |  |
+| Rosary Cache: Choral Chambers #6 | Ventrica | none |  |  |  |  |
+| Rosary Cache: Choral Chambers #7 | Ventrica | none |  |  |  |  |
+| Ventrica: Choral Chambers | Ventrica | rosaries |  |  |  |  |

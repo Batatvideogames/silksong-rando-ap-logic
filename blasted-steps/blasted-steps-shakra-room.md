@@ -40,6 +40,6 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Map Purchase: Blasted Steps | Bottom Third (Right) | Swift Step OR Faydown OR Clawline OR Flea Brew OR Sharpdart AND Act 1 |  | Verified | Included | This can be purchased at Bellhart if Shakra has moved. |
+| Map Purchase: Blasted Steps | Bottom Third (Right) | Swift Step OR Faydown OR Clawline OR Flea Brew OR Sharpdart AND Act 1 |  | Verified |  | This can be purchased at Bellhart if Shakra has moved. |

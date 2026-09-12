@@ -20,11 +20,11 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| BS | Big Shaft | Bottom | Top | Silk soar OR ( Cling Grip AND ( Easy Skips OR  Clawline ) ) |  | Verified |  |
+| BS | Big Shaft | Bottom | Top | Silk soar OR ( Cling Grip AND ( Easy skip spike pogo OR  Clawline ) ) |  | Verified |  |
 | BS | Big Shaft | Top | Bottom | None |  | Verified |  |
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Sands of Karak - Upper Coral Tablet | Top | Silk soar OR ( Cling grip AND ( Faydown Cloak OR Dash OR Drifters Cloak OR Clawline OR Sharpdart ) ) or ( Scuttlebrace and faydown Cloak ) |  | Verified | Not included |  |
+| Sands of Karak - Upper Coral Tablet | Top | Silk soar OR ( Cling grip AND ( Faydown Cloak OR Dash OR Drifters Cloak OR Clawline OR Sharpdart ) ) OR ( Scuttlebrace AND faydown Cloak ) |  | Verified | lore |  |

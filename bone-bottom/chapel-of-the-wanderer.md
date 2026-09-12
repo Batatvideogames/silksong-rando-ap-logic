@@ -20,13 +20,13 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| wanderer's crest |  | none |  |  | Included |  |
-| rosary cache bongrave 1 |  | none |  |  | Included |  |
-| rosary cache bongrave 2 |  | none |  |  | Included |  |
-| rosary cache bongrave 3 |  | none |  |  | Included |  |
-| rosary cache bongrave 4 |  | none |  |  | Included |  |
+| wanderer's crest |  | none |  |  |  |  |
+| rosary cache bongrave 1 |  | none |  |  |  |  |
+| rosary cache bongrave 2 |  | none |  |  |  |  |
+| rosary cache bongrave 3 |  | none |  |  |  |  |
+| rosary cache bongrave 4 |  | none |  |  |  |  |
 
 ## Notes
 

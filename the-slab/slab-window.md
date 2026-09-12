@@ -18,8 +18,8 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| The Slab - Shell Shard Cache #4 |  | swim |  |  | Included |  |
-| The Slab - Shell Shard Cache #5 |  | swim |  |  | Included |  |
-| Relic: Weaver Effigy (Atla, The Slab) |  | cling grip and (dash or clawline or faydown cloak) |  |  | Included |  |
+| The Slab - Shell Shard Cache #4 |  | swim |  |  |  |  |
+| The Slab - Shell Shard Cache #5 |  | swim |  |  |  |  |
+| Relic: Weaver Effigy (Atla, The Slab) |  | cling grip and (dash or clawline or faydown cloak) |  |  |  |  |

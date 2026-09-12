@@ -20,6 +20,6 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Tacks |  | Complete Roach Guts OR reach act 3 |  |  | Included |  |
+| Tacks |  | Complete Roach Guts OR act 3 |  |  | collectible |  |

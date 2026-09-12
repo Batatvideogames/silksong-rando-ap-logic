@@ -21,8 +21,8 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| rosary cache the marrow 10 |  | none |  |  | Included |  |
-| shell shard cache the marrow 5 |  |  |  |  | Included |  |
-| shell shard cache the marrow 6 |  |  |  |  | Included |  |
+| rosary cache the marrow 10 |  | none |  |  |  |  |
+| shell shard cache the marrow 5 |  |  |  |  |  |  |
+| shell shard cache the marrow 6 |  |  |  |  |  |  |

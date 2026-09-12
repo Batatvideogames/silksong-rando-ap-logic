@@ -25,6 +25,6 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| bench | bench area | none |  | Verified | Not included |  |
+| bench | bench area | none |  | Verified | bench |  |

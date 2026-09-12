@@ -23,7 +23,7 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| DS | door switch | main pathway | gauntlet right | switch flipped |  | Needs verification |  |
+| DS | door switch | main pathway | gauntlet right | activate door switch |  | Needs verification |  |
 | DS | door switch | gauntlet right | main pathway | none (switch is on this side) |  | Needs verification |  |
 | GL | gauntlet fight left | gauntlet left | gauntlet | none (starts gauntlet) |  | Needs verification |  |
 | GL | gauntlet fight left | gauntlet | gauntlet left | defeat gauntlet |  | Needs verification |  |
@@ -32,8 +32,8 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| door switch | gauntlet right | none |  | Needs verification | Not included |  |
-| gauntlet | gauntlet | none |  | Needs verification | Not included |  |
-| mask shard the marrow deep docks passage | gauntlet right | none |  | Needs verification | Included |  |
+| door switch | gauntlet right | none |  | Needs verification |  |  |
+| gauntlet | gauntlet | none |  | Needs verification |  |  |
+| mask shard the marrow deep docks passage | gauntlet right | none |  | Needs verification |  |  |

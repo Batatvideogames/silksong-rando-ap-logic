@@ -48,6 +48,6 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Underworks: Flip Switch (Left OR Right) #3 | Mid Right Entrance | Nothing. |  | Verified | Included | is this even a check? |
+| Underworks: Flip Switch (Left OR Right) #3 | Mid Right Entrance | Nothing. |  | Verified |  | is this even a check? |

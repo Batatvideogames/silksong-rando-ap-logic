@@ -21,7 +21,7 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Shell Shard Cache: Underworks #13 |  | cling grip and dash |  |  | Included |  |
-| Flea: Underworks - Wisp Thicket Passage |  | cling grip and dash |  |  | Included |  |
+| Shell Shard Cache: Underworks #13 |  | cling grip and dash |  |  |  |  |
+| Flea: Underworks - Wisp Thicket Passage |  | cling grip and dash |  |  |  |  |

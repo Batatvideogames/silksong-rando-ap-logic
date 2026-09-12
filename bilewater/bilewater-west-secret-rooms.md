@@ -28,8 +28,8 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Bilewater West - Memory Locket | lower area | cling grip AND (swim OR clawline OR hunter pogo OR beast pogo OR architect pogo OR ((wanderer pogo OR witch pogo OR reaper pogo) AND (dash OR faydown cloak OR drifter's cloak))) |  |  | Included |  |
-| Bilewater - Rosary Cache #6 | lower area | none |  |  | Included |  |
-| Bilewater - Rosary Cache #7 | lower area | none |  |  | Included |  |
+| Bilewater West - Memory Locket | lower area | cling grip AND (swim OR clawline OR hunter pogo OR beast pogo OR architect pogo OR ((wanderer pogo OR witch pogo OR reaper pogo) AND (dash OR faydown cloak OR drifter's cloak))) |  |  |  |  |
+| Bilewater - Rosary Cache #6 | lower area | none |  |  |  |  |
+| Bilewater - Rosary Cache #7 | lower area | none |  |  |  |  |

@@ -48,6 +48,6 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Injector Band | Middle (Left) | Nothing |  | Verified | Included |  |
+| Injector Band | Middle (Left) | Nothing |  | Verified |  |  |

@@ -48,16 +48,16 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Underworks: Shell Shard Cache #4 | Shell Shard Cache | Nothing. |  | Verified | Included |  |
-| Twelfth Architect Pristine Core | First Floor | Nothing. |  | Verified | Included |  |
-| Underworks: Needolin Lore #2 | One-way Entrance (Top) | Needolin |  | Verified | Included | futureproofing in case |
-| Underworks: Needolin Lore #3 | Needolin Check Guy | Needolin |  | Verified | Included | futureproofing in case |
-| Underworks: Flip Switch (Left OR Right) | Left Exit (Top) | Nothing. |  | Verified | Included |  |
-| Twelfth Architect: Silkshot | First Floor | Ruined Tool AND 1 Craftmetal |  | Verified | Included |  |
-| Twelfth Architect: Cogwork Wheel | First Floor | 1 Craftmetal |  | Verified | Included |  |
-| Twelfth Architect: Sawtooth Circlet | First Floor | 1 Craftmetal |  | Verified | Included |  |
-| Twelfth Architect: Scuttlebrace | First Floor | 1 Craftmetal |  | Verified | Included |  |
-| Twelfth Architect: Crafting Kit | First Floor | Nothing. |  | Verified | Included |  |
-| Twelfth Architect: Architect's Key | First Floor | 25 Tools |  | Verified | Included |  |
+| Underworks: Shell Shard Cache #4 | Shell Shard Cache | Nothing. |  | Verified |  |  |
+| Twelfth Architect Pristine Core | First Floor | Nothing. |  | Verified |  |  |
+| Underworks: Needolin Lore #2 | One-way Entrance (Top) | Needolin |  | Verified |  | futureproofing in case |
+| Underworks: Needolin Lore #3 | Needolin Check Guy | Needolin |  | Verified |  | futureproofing in case |
+| Underworks: Flip Switch (Left OR Right) | Left Exit (Top) | Nothing. |  | Verified |  |  |
+| Twelfth Architect: Silkshot | First Floor | Ruined Tool AND 1 Craftmetal |  | Verified |  |  |
+| Twelfth Architect: Cogwork Wheel | First Floor | 1 Craftmetal |  | Verified |  |  |
+| Twelfth Architect: Sawtooth Circlet | First Floor | 1 Craftmetal |  | Verified |  |  |
+| Twelfth Architect: Scuttlebrace | First Floor | 1 Craftmetal |  | Verified |  |  |
+| Twelfth Architect: Crafting Kit | First Floor | Nothing. |  | Verified |  |  |
+| Twelfth Architect: Architect's Key | First Floor | 25 Tools |  | Verified |  |  |

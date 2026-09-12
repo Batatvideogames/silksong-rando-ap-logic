@@ -20,6 +20,6 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Simple key: Sands of Karak east bench |  | None |  | Verified | Included |  |
+| Simple key: Sands of Karak east bench |  | None |  | Verified | collectible |  |

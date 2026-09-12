@@ -25,8 +25,8 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Rosary Cache: Choral Chambers #17 | Base | none |  |  | Included |  |
-| Rosary Cache: Choral Chambers #18 | Base | none |  |  | Included |  |
-| Rosary Cache: Choral Chambers #19 | Base | none |  |  | Included |  |
+| Rosary Cache: Choral Chambers #17 | Base | none |  |  |  |  |
+| Rosary Cache: Choral Chambers #18 | Base | none |  |  |  |  |
+| Rosary Cache: Choral Chambers #19 | Base | none |  |  |  |  |

@@ -25,25 +25,25 @@
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | EL | Entrance-Left | Entrance | Left Room | Silk Soar OR Cling Grip OR Scuttlebrace |  | Verified |  |
-| LR | Left-Right | Left Room | Right Room | Flipped Switch |  | Verified |  |
+| LR | Left-Right | Left Room | Right Room | Activate Cogwork Core: Flip Switch #2 |  | Verified |  |
 | RB | Right-Bottom | Right Room | Bottom Room | Nothing. (Fall) |  | Verified |  |
 | BLS | Bottom-Spool Left | Bottom Room | Silk Spool Jump Left | Nothing. (Fall) |  | Verified |  |
-| SSJ | Silk Spool Jump | Silk Spool Jump Left | Silk Spool Jump Right | Dash OR Sprint OR Clawline OR Sharp Dart OR Scuttlebrace |  | Verified | hehe, funny dragonball reference. |
-| SSJ | Silk Spool Jump | Silk Spool Jump Right | Silk Spool Jump Left | Dash OR Sprint OR Clawline OR Sharp Dart OR Scuttlebrace |  | Verified |  |
+| SSJ | Silk Spool Jump | Silk Spool Jump Left | Silk Spool Jump Right | Dash OR Sprint OR Clawline OR Sharpdart OR Scuttlebrace |  | Verified | hehe, funny dragonball reference. |
+| SSJ | Silk Spool Jump | Silk Spool Jump Right | Silk Spool Jump Left | Dash OR Sprint OR Clawline OR Sharpdart OR Scuttlebrace |  | Verified |  |
 | BLS | Bottom-Spool Left | Silk Spool Jump Left | Bottom Room | Scuttlebrace OR Cling Grip |  | Verified |  |
 | BE | Bottom-Entrance | Bottom Room | Entrance | Nothing. |  | Verified |  |
-| BE | Bottom-Entrance | Entrance | Bottom Room | Can't. |  | Verified |  |
+| BE | Bottom-Entrance | Entrance | Bottom Room | Invalid |  | Verified |  |
 | EL | Entrance-Left | Left Room | Entrance | Nothing. (Fall) |  | Verified |  |
-| LR | Left-Right | Right Room | Left Room | Flipped Switch |  | Verified |  |
+| LR | Left-Right | Right Room | Left Room | Activate Cogwork Core: Flip Switch #2 |  | Verified |  |
 | RB | Right-Bottom | Bottom Room | Right Room | Silk Soar OR Cling Grip OR Scuttlebrace |  | Verified |  |
 | LG | Left-Gauntlet | Left Room | Arena | Silk Soar |  | Verified |  |
-| LG | Left-Gauntlet | Arena | Left Room | Beat Arena. |  | Verified |  |
+| LG | Left-Gauntlet | Arena | Left Room | Complete Cogwork Core: Gauntlet #2 |  | Verified |  |
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Cogwork Core: Silk Spool #1 | Silk Spool Jump Left | Nothing. |  | Verified | Included |  |
-| Cogwork Core: Flip Switch (Up) #2 | Left Room | Nothing. |  | Verified | Included | interacting with this switch causes a mini-boss type enemy to spawn |
-| Cogwork Core: Pristine Core | Arena | Beat Arena. |  | Verified | Included |  |
-| Cogwork Core: Gauntlet #2 | Arena | Beat Arena. |  | Verified | Included |  |
+| Cogwork Core: Silk Spool #1 | Silk Spool Jump Left | Nothing. |  | Verified | collectible |  |
+| Cogwork Core: Flip Switch #2 | Left Room | Nothing. |  | Verified | switch | interacting with this switch causes a mini-boss type enemy to spawn |
+| Cogwork Core: Pristine Core | Arena | Complete Cogwork Core: Gauntlet #2 |  | Verified | collectible |  |
+| Cogwork Core: Gauntlet #2 | Arena | Nothing. |  | Verified | gauntlet |  |

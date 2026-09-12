@@ -40,6 +40,6 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Flea: Blasted Steps | Top Third (Upper Half) | Nothing |  | Verified | Included |  |
+| Flea: Blasted Steps | Top Third (Upper Half) | Nothing |  | Verified |  |  |

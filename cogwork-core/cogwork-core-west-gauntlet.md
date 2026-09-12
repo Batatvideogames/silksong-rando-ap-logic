@@ -23,13 +23,13 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| MT | Main-Top | Main | Top Entrance | Silk Soar OR Faydown Cloak AND (Cling Grip OR Scuttlebrace OR Ledge Grab OR Clawline) |  | Verified |  |
+| MT | Main-Top | Main | Top Entrance | (Silk Soar OR (Faydown Cloak AND (Cling Grip OR Scuttlebrace OR Ledge Grab))) |  | Verified |  |
 | MT | Main-Top | Top Entrance | Main | Nothing. (fall) |  | Verified |  |
-| ML | Main-Left | Main | Left Entrance | Beat Arena AND (Silk Soar OR Cling Grip OR Scuttlebrace) |  | Verified |  |
-| ML | Main-Left | Left Entrance | Main | Beat Arena |  | Verified |  |
+| ML | Main-Left | Main | Left Entrance | (Complete Cogwork Core: Gauntlet #1 AND (Silk Soar OR Cling Grip OR Scuttlebrace)) |  | Verified |  |
+| ML | Main-Left | Left Entrance | Main | Complete Cogwork Core: Gauntlet #1 |  | Verified |  |
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Cogwork Core: Arena Fight #1 | Arena | Beat the Arena. |  | Verified | Included |  |
+| Cogwork Core: Gauntlet #1 | Arena | Nothing |  | Verified | gauntlet |  |

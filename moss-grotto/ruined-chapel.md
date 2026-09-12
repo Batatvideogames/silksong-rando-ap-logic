@@ -8,30 +8,33 @@
 
 - chapel
 - boss room
+- bench passage
 - bench room
 
 ## Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right | bench room | [Moss Grotto Center (Tut_01)](moss-grotto-center.md) | UL | none |  |  |  |
-| AR | ascend rope | chapel | [Bone Bottom Town (Bonetown)](../bone-bottom/bone-bottom-town.md) | DR | none |  |  |  |
-| CD | chapel door | chapel | [Ruined Chapel Interior](ruined-chapel-interior.md) | CD | unknown OR ruined chapel access override |  |  | randomizer currently forces the door open under some conditions |
+| R | right | bench room | [Moss Grotto Center (Tut_01)](moss-grotto-center.md) | UL | none |  | Verified |  |
+| AR | ascend rope | chapel | [Bone Bottom Town (Bonetown)](../bone-bottom/bone-bottom-town.md) | DR | none |  | Verified |  |
+| CD | chapel door | chapel | [Ruined Chapel Interior](ruined-chapel-interior.md) | CD |  | TODO |  | how the heck do you open this door again? |
 
 ## Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| RB | right boss entrance | bench room | boss room | break vines |  |  |  |
-| RB | right boss entrance | boss room | bench room | moss mother defeated |  |  |  |
-| LB | left boss entrance | chapel | boss room | none |  |  |  |
-| LB | left boss entrance | boss room | chapel | moss mother defeated |  |  |  |
+| RB | right boss entrance | bench passage | boss room | break vines left (starts fight) |  | Verified |  |
+| RB | right boss entrance | boss room | bench passage | complete moss mother boss fight |  | Verified |  |
+| LB | left boss entrance | chapel | boss room | none (starts fight) |  | Verified |  |
+| LB | left boss entrance | boss room | chapel | complete moss mother boss fight |  | Verified |  |
+| V1 | ledge grab | boss room | bench passage | ledge grab OR faydown OR silk soar OR cling grip |  | Verified |  |
+| V1 | ledge grab | bench passage | boss room | none (falling) |  | Verified |  |
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| moss mother boss fight | boss room |  |  |  | Included |  |
+| moss mother boss fight | boss room | none |  | Verified | boss |  |
 
 ## Notes
 

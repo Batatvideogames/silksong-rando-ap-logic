@@ -13,20 +13,20 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 | Oil Room | [Grand Bellway Shaft (Song_20)](../choral-chambers/grand-bellway-shaft.md) | UR | Nothing. (Fall) |  | Verified |  |
+| L | left1 | Oil Room | [Grand Bellway Shaft (Song_20)](../choral-chambers/grand-bellway-shaft.md) | UR | Activate Whispering Vaults: Flip Switch #10 |  | Verified |  |
 | R | right1 | Oil Room | [Whispering Vaults Flea Shaft (Library_01)](whispering-vaults-flea-shaft.md) | CL | Nothing. (Fall) |  | Verified |  |
 
 ## Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| V | Vertical | Entrance | Oil Room | Silk Soar OR Cling Grip/Scuttlebrace AND Faydown Cloak/Drifter's Cloak/Clawline/Sharp Dart/Spint/(Dash AND Crest Pogo) |  | Verified | lever, one sided door |
+| V | Vertical | Entrance | Oil Room | Silk Soar OR Cling Grip OR (Scuttlebrace AND (Faydown Cloak OR Drifter's Cloak OR Clawline OR Sharpdart OR Sprint OR (Dash AND Easy Box Pogo))) |  | Verified | lever, one sided door |
 | V | Vertical | Oil Room | Entrance | Nothing. (Fall) |  | Verified | both sides. |
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Whispering Vaults: Pale Oil | Oil Room | Flipped Switch #6 |  | Verified | Included |  |
-| Whispering Vaults: Flip Switch #6 (Left) | Oil Room | Nothing. |  | Verified | Included |  |
-| Whispering Vaults: Flip Switch #7 (Left) | Oil Room | Flipped Switch #6 |  | Verified | Included |  |
+| Whispering Vaults: Pale Oil | Oil Room | Activate Whispering Vaults: Flip Switch #11 |  | Verified | collectible |  |
+| Whispering Vaults: Flip Switch #11 | Oil Room | Nothing. |  | Verified | switch |  |
+| Whispering Vaults: Flip Switch #10 | Oil Room | Activate Whispering Vaults: Flip Switch #11 |  | Verified | switch |  |

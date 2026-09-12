@@ -22,9 +22,9 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Rosary Cache: Underworks #2 |  | cling grip |  | Verified | Included |  |
-| Rosary Cache: Underworks #3 |  | cling grip |  | Verified | Included |  |
-| Shell Shard Cache: Underworks #14 |  | cling grip and (dash or clawline or sharpdart) |  | Verified | Included |  |
-| Frayed Rosary String: Underworks #1 |  | cling grip |  | Verified | Included |  |
+| Rosary Cache: Underworks #2 |  | cling grip |  | Verified |  |  |
+| Rosary Cache: Underworks #3 |  | cling grip |  | Verified |  |  |
+| Shell Shard Cache: Underworks #14 |  | cling grip and (dash or clawline or sharpdart) |  | Verified |  |  |
+| Frayed Rosary String: Underworks #1 |  | cling grip |  | Verified |  |  |

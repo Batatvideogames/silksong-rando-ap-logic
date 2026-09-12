@@ -21,6 +21,6 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| High Halls - Shell Shard Cache #1 |  | faydown cloak and cling grip and swim |  | Verified | Included |  |
+| High Halls - Shell Shard Cache #1 |  | faydown cloak and cling grip and swim |  | Verified |  |  |

@@ -25,18 +25,18 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | LW | Left Wall | Left Exit | Flea Ledge | Silk Soar |  | Verified |  |
 | LW | Left Wall | Flea Ledge | Left Exit | None |  | Verified |  |
-| LN | Lower Left Nut Platforms | Left Exit | Lower Centre Platform | Beast Crest OR Dash OR Clawline OR Faydown Cloak OR Drifters Cloak OR Sharpdart OR ( Ledge grab AND ( Reaper crest OR Shamen Crest OR Hunters Crest OR Wanderers Crest ) ) |  | Verified |  |
-| LN | Lower Left Nut Platforms | Lower Centre Platform | Left Exit | ( Drifters Cloak AND ( Clawline OR Beast crest OR Dash OR Faydown Cloak ) ) OR ( Clawline AND ( Shaman crest OR Faydown Cloak OR Silk Soar OR Beast Crest ) ) OR ( Faydown Cloak AND ( Beast Crest OR Sharpdart ) ) |  | Verified |  |
-| UN | Upper Left Nut Platforms | Upper Centre Platform | Flea Ledge | ( Cling grip AND Clawline ) OR ( Clawline AND ( Drifters Cloak AND ( hunter Crest OR Reaper Crest OR Wanderer Crest OR Shaman Crest ) ) OR Faydown Cloak ) |  | Verified | While technically not one way its just cancer to get back and had 0 practical use to dropping down and redoing the lower route |
-| RN | Right Nut Platforms | Upper Centre Platform | Right Exit | ( Cling grip AND  ( ( Clawline OR Drifters Cloak ) OR Beast Crest ) ) |  | Verified |  |
+| LN | Lower Left Nut Platforms | Left Exit | Lower Centre Platform | easy Beast Crest pogo OR Dash OR Clawline OR Faydown Cloak OR Drifters Cloak OR Sharpdart OR ( Ledge grab AND ( easy Reaper crest pogo OR easy Shaman Crest pogo OR easy Hunter Crest pogo OR easy Wanderer Crest pogo ) ) |  | Verified |  |
+| LN | Lower Left Nut Platforms | Lower Centre Platform | Left Exit | ( Drifters Cloak AND ( Clawline OR easy Beast crest pogo OR Dash OR Faydown Cloak ) ) OR ( Clawline AND ( easy Shaman crest pogo OR Faydown Cloak OR Silk Soar OR easy Beast Crest pogo ) ) OR ( Faydown Cloak AND ( easy Beast Crest pogo OR Sharpdart ) ) |  | Verified |  |
+| UN | Upper Left Nut Platforms | Upper Centre Platform | Flea Ledge | ( Cling grip AND Clawline ) OR ( Clawline AND ( ( Drifters Cloak AND ( hard hunter Crest pogo OR hard Reaper Crest pogo OR hard Wanderer Crest pogo OR hard Shaman Crest pogo ) ) OR Faydown Cloak ) ) |  | Verified | While technically not one way its just cancer to get back and had 0 practical use to dropping down and redoing the lower route |
+| RN | Right Nut Platforms | Upper Centre Platform | Right Exit | ( Cling grip AND  ( ( Clawline OR Drifters Cloak ) OR easy Beast Crest pogo ) ) |  | Verified |  |
 | RN | Right Nut Platforms | Right Exit | Upper Centre Platform | None |  | Verified |  |
-| CN | Centre Platforms | Lower Centre Platform | Upper Centre Platform | Faydown Cloak OR Sprint OR ( Dash AND ( Ledge grab OR Cling grip ) ) OR Drifters Cloak OR Clawline OR Sharpdart OR Silksoar OR Beast Crest OR ( Architect Crest AND Needle Strike ) |  | Verified |  |
+| CN | Centre Platforms | Lower Centre Platform | Upper Centre Platform | Faydown Cloak OR Sprint OR ( Dash AND ( Ledge grab OR Cling grip ) ) OR Drifters Cloak OR Clawline OR Sharpdart OR Silksoar OR easy Beast Crest pogo OR ( easy Architect Crest pogo AND easy Needle Strike stall ) |  | Verified |  |
 | CN | Centre Platforms | Upper Centre Platform | Lower Centre Platform | None |  | Verified |  |
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Shell Shard Cache: Sands of Karak #1 | Lower Centre Platform | None |  | Verified | Included |  |
-| Shell Shard Cache: Sands of Karak #2 | Lower Centre Platform | None |  | Verified | Included |  |
-| Flea: Sands of Karak | Flea Ledge | None |  | Verified | Included |  |
+| Shell Shard Cache: Sands of Karak #1 | Lower Centre Platform | None |  | Verified | resource |  |
+| Shell Shard Cache: Sands of Karak #2 | Lower Centre Platform | None |  | Verified | resource |  |
+| Flea: Sands of Karak | Flea Ledge | None |  | Verified | collectible |  |

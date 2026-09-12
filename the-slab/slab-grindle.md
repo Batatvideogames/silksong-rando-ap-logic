@@ -18,6 +18,6 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| The Slab - Map Pickup |  | none |  |  | Included |  |
+| The Slab - Map Pickup |  | none |  |  |  |  |

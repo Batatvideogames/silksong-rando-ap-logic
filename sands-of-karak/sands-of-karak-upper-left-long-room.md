@@ -21,15 +21,15 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| WR | Whole Room | Left Ledge | Right Ledge | Beast Crest OR Clawline OR Faydown Cloak OR Drifters Cloak OR Sharpdart OR Dash |  | Verified |  |
-| WR | Whole Room | Right Ledge | Left Ledge | ( Cling Grip AND ( ( ( Dash OR Drifters Cloak OR Faydown Cloak ) AND Sprint ) OR Clawline OR Sharpdart ) ) OR ( Faydown Cloak AND Clawline AND Spike Pogo Easy ) |  | Verified |  |
-| DR | Drop | Left Ledge | Shell Ledge | Hunters Crest OR Beast Crest OR Architect Crest OR Shamen Crest OR ( Ledge grab AND ( Reaper crest OR Witch Crest ) ) OR Dash OR Clawline OR Sharpdart OR Drifters Cloak OR Faydown Cloak OR ( Wanderer crest AND Needle Strike ) |  | Verified |  |
-| DR | Drop | Shell Ledge | Left Ledge | Ledge Grab OR Clawline OR Faydown Cloak OR Beast Crest |  | Verified |  |
+| WR | Whole Room | Left Ledge | Right Ledge | easy Beast Crest pogo OR Clawline OR Faydown Cloak OR Drifters Cloak OR Sharpdart OR Dash |  | Verified |  |
+| WR | Whole Room | Right Ledge | Left Ledge | ( Cling Grip AND ( ( ( Dash OR Drifters Cloak OR Faydown Cloak ) AND Sprint ) OR Clawline OR Sharpdart ) ) OR ( Faydown Cloak AND Clawline AND easy skip spike pogo ) |  | Verified |  |
+| DR | Drop | Left Ledge | Shell Ledge | easy Hunter Crest pogo OR easy Beast Crest pogo OR easy Architect Crest pogo OR easy Shaman Crest pogo OR ( Ledge grab AND ( easy Reaper crest pogo OR easy Witch Crest pogo ) ) OR Dash OR Clawline OR Sharpdart OR Drifters Cloak OR Faydown Cloak OR ( easy Wanderer crest pogo AND easy Needle Strike stall ) |  | Verified |  |
+| DR | Drop | Shell Ledge | Left Ledge | Ledge Grab OR Clawline OR Faydown Cloak OR medium Beast Crest pogo |  | Verified |  |
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Shell shard cache: Sands of Karak #3 | Shell Ledge | None |  | Verified | Included |  |
-| Shell Shard cache: #4 | Shell Ledge | None |  | Verified | Included |  |
-| Boss: Raging Conchfly | Left Ledge | Proficient Combat OR 2 x Needle Upgrade |  | Verified | Included |  |
+| Shell shard cache: Sands of Karak #3 | Shell Ledge | None |  | Verified | resource |  |
+| Shell Shard cache: Sands of Karak #4 | Shell Ledge | None |  | Verified | resource |  |
+| Boss: Raging Conchfly | Left Ledge | Needle Upgrades 2 |  | Verified | boss |  |

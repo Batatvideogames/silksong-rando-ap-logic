@@ -25,6 +25,6 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Shell Shard Cache: Underworks #12 | Left | none |  |  | Included |  |
+| Shell Shard Cache: Underworks #12 | Left | none |  |  |  |  |

@@ -30,7 +30,7 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| bell beast boss fight | boss room | silk spear |  |  | Included | sharpdart doesn't work |
-| silk heart bell beast | boss room | bell beast defeated |  |  | Included |  |
+| bell beast boss fight | boss room | silk spear |  |  |  | sharpdart doesn't work |
+| silk heart bell beast | boss room | bell beast defeated |  |  |  |  |

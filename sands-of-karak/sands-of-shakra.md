@@ -20,8 +20,8 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Map: Sands of Karak |  | None |  | Verified | Included |  |
-| Shell Shard Cache: Sands of Karak #9 |  | Faydown Cloak OR Cling Grip OR Silk Soar OR Thread Storm OR Rune Rage OR ( Beast Crest AND Needle Strike ) |  | Verified | Included |  |
-| Shell Shard Cache: Sands of Karak #10 |  | Faydown Cloak OR Cling Grip OR Silk Soar OR Thread Storm OR Rune Rage OR ( Beast Crest AND Needle Strike ) |  | Verified | Included |  |
+| Map: Sands of Karak |  | None |  | Verified | collectible |  |
+| Shell Shard Cache: Sands of Karak #9 |  | Faydown Cloak OR Cling Grip OR Silk Soar OR have Silk Skill: Thread Storm OR have Silk Skill: Rune Rage OR ( easy Beast Crest pogo AND easy Needle Strike stall ) |  | Verified | resource |  |
+| Shell Shard Cache: Sands of Karak #10 |  | Faydown Cloak OR Cling Grip OR Silk Soar OR have Silk Skill: Thread Storm OR have Silk Skill: Rune Rage OR ( easy Beast Crest pogo AND easy Needle Strike stall ) |  | Verified | resource |  |

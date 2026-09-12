@@ -19,22 +19,22 @@
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | BR | right2 | Bottom | [Whispering Vaults Hell (Library_04)](whispering-vaults-hell.md) | LL | Nothing. |  | Verified |  |
-| CL | left2 | Lower Platforms | [Grand Bellway Library (Library_03)](grand-bellway-library.md) | R | Silk Soar OR Enemy Pogo x2 OR Faydown Cloak AND (Ledge Grab/Clawline OR (Sprint AND Shaman Pogo/Beast Charge/Beast Pogo)) OR Cling Grip AND Enemy Pogo/Sprint/Dash/Clawline/Drifter's Cloak/Sharp Dart/Architect Charge/Beast Pogo/Beast Charge |  | Verified | first enemy pogo only available with flipped lever. crest specific options and enemy pogos probably easy skip? |
+| CL | left2 | Lower Platforms | [Grand Bellway Library (Library_03)](grand-bellway-library.md) | R | Silk Soar OR (Activate Whispering Vaults: Flip Switch #5 IN whispering vaults vaultborn lever AND Easy Enemy Pogo (2)) OR (Faydown Cloak AND (Ledge Grab OR (Sprint AND (Easy Beast Crest Pogo OR Easy Shaman Crest Pogo OR Easy Needle Strike Stall (Beast))))) OR (Cling Grip AND (Easy Enemy Pogo OR Sprint OR Dash OR Clawline OR Drifter's Cloak OR Sharpdart OR Easy Beast Crest Pogo OR Easy Needle Strike Stall (Beast OR Architect))) |  | Verified | first enemy pogo only available with flipped lever. crest specific options and enemy pogos probably easy skip? |
 | TR | right1 | Top | [Whispering Vaults Hell (Library_04)](whispering-vaults-hell.md) | TL | Nothing. |  | Verified |  |
 | TL | left1 | Top | [Songclave Steam Tunnel (Library_02)](songclave-steam-tunnel.md) | BR | Nothing. |  | Verified |  |
-| BL | left3 | Bottom | [Whispering Vaults Vaultborn Lever (Library_15)](whispering-vaults-vaultborn-lever.md) | R | Nothing. |  | Verified |  |
+| BL | left3 | Bottom | [Whispering Vaults Vaultborn Lever (Library_15)](whispering-vaults-vaultborn-lever.md) | R | Activate Whispering Vaults: Break Wall #4 |  | Verified |  |
 
 ## Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| GF | Ground to Floor 1 | Bottom | Lower Platforms | Silk Soar OR Faydown Cloak AND (Ledge Grab OR Clawline) OR Enemy Pogo (Easy Skip) |  | Verified |  |
-| UT | Upwards Traversal | Lower Platforms | Upper Platforms | Silk Soar OR Enemy Pogos AND Faydown Cloak OR Faydown Cloak AND Ledge Grab/Clawline/Beast Pogo/Beast Charge/Shaman Pogo/Cling Grip OR Cling Grip AND Sprint/Dash/Beast Pogo/Beast Charge/Architect Charge/Sharp Dart/Drifter's Cloak/Clawline |  | Verified |  |
-| FG | Flea Grab | Upper Platforms | Flea Check | Silk Soar OR Cling Grip AND Clawline/Sharp Dart/Drifter's Cloak/Beast Charge/Beast Pogo/Architect Charge OR Cling Grip/Scuttlebrace AND Faydown Cloak AND Swift Step |  | Verified | collect yo flea. |
+| GF | Ground to Floor 1 | Bottom | Lower Platforms | Silk Soar OR (Faydown Cloak AND Ledge Grab) OR Enemy Pogo (Easy Skip) |  | Verified |  |
+| UT | Upwards Traversal | Lower Platforms | Upper Platforms | Silk Soar OR (Medium Enemy Pogo AND Faydown Cloak) OR (Faydown Cloak AND (Ledge Grab OR Easy Beast Crest Pogo OR Easy Needle Strike Stall (Beast) OR Easy Shaman Crest Pogo)) OR (Cling Grip AND (Sprint OR Dash OR Easy Beast Crest Pogo OR Easy Needle Strike Stall (Beast OR Architect) OR Sharpdart OR Drifter's Cloak OR Clawline)) |  | Verified |  |
+| FG | Flea Grab | Upper Platforms | Flea Check | Silk Soar OR (Cling Grip AND (Clawline OR Sharpdart OR Drifter's Cloak OR Easy Beast Crest Pogo OR Easy Needle Strike Stall (Beast OR Architect) OR Cling Grip)) OR (Scuttlebrace AND Faydown Cloak AND Swift Step 2) |  | Verified | collect yo flea. |
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Whispering Vaults: Flea #1 | Flea Check | Silk Soar OR Scuttlebrace/Cling Grip AND Clawline/Sharp Dart/Drifter's Cloak/Beast Charge/Beast Pogo/Architect Charge OR Cling Grip/Scuttlebrace AND Faydown Cloak AND Swift Step |  | Verified | Included |  |
-| Whispering Vaults: Break Wall #4 (Left) | Bottom | Nothing, leads to BL |  | Verified | Included |  |
+| Whispering Vaults: Flea #1 | Flea Check | Silk Soar OR Scuttlebrace OR (Cling Grip AND (Clawline OR Sharpdart OR Drifter's Cloak OR Easy Beast Crest Pogo OR Easy Needle Strike Stall (Beast OR Architect) OR Cling Grip)) OR (Scuttlebrace AND (Faydown Cloak AND Swift Step 2)) |  | Verified | collectible |  |
+| Whispering Vaults: Break Wall #4 | Bottom | Break Wall Left |  | Verified | blockade |  |

@@ -12,7 +12,7 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 | Left | [Slab Arena (Slab_16)](slab-arena.md) | L | none | TODO |  | Temporarily moved to room above instead of Peak_01 |
+| L | left1 | Left | [Mount Fay Entrance (Peak_01)](../mount-fay/mount-fay-entrance.md) | MSR | none |  |  |  |
 | B | bot1 | Left | [Slab Indolent Room (Slab_14)](slab-indolent-room.md) | T | none |  |  |  |
 | T | top1 | Top | [Slab Arena (Slab_16)](slab-arena.md) | B | cling grip |  |  | Naked |
 | R | right1 | Right | [Slab Cell (Slab_03)](slab-cell.md) | L1L | none |  |  |  |

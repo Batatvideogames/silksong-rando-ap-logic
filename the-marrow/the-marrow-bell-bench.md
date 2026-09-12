@@ -23,13 +23,13 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| rosary cache the marrow 5 | falling rocks | none |  |  | Included |  |
-| rosary cache the marrow 6 | falling rocks | none |  |  | Included |  |
-| rosary cache the marrow 3 | bell bench | none |  |  | Included |  |
-| rosary cache the marrow 4 | bell bench | none |  |  | Included |  |
-| bench unlock | bell bench | pay monies |  |  | Not included | NOT CURRENTLY RANDOMIZED |
+| rosary cache the marrow 5 | falling rocks | none |  |  |  |  |
+| rosary cache the marrow 6 | falling rocks | none |  |  |  |  |
+| rosary cache the marrow 3 | bell bench | none |  |  |  |  |
+| rosary cache the marrow 4 | bell bench | none |  |  |  |  |
+| bench unlock | bell bench | pay monies |  |  |  | NOT CURRENTLY RANDOMIZED |
 
 ## Notes
 

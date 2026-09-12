@@ -31,12 +31,12 @@
 | P3L | Platform 3 To Exit | Loreplatform3 | Exit | Clawline OR ( Faydown Cloak AND Drifters Cloak ) |  | Verified |  |
 | P3L | Platform 3 To Exit | Exit | Loreplatform3 | Faydown Cloak OR Drifters Cloak OR Clawline OR Sprint OR Dash |  | Verified |  |
 | LP2 | Exit To Platform 2 | Exit | Loreplatform2 | None |  | Verified |  |
-| LP2 | Exit To Platform 2 | Loreplatform2 | Exit | Cling Grip OR Silk Soar OR Scuttlebrace OR ( Faydown Cloak AND ( Ledge grab OR Shamen Crest OR Clawline ) |  | Verified |  |
+| LP2 | Exit To Platform 2 | Loreplatform2 | Exit | Cling Grip OR Silk Soar OR Scuttlebrace OR ( Faydown Cloak AND ( Ledge grab OR easy Shaman Crest pogo OR Clawline ) ) |  | Verified |  |
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Lore: Cradle #1 | Bottom | None |  | Verified | Included |  |
-| Lore: Cradle #2 | Loreplatform1 | None |  | Verified | Included |  |
-| Lore: Cradle #3 | Loreplatform3 | None |  | Verified | Included |  |
+| Lore: Cradle #1 | Bottom | None |  | Verified | lore |  |
+| Lore: Cradle #2 | Loreplatform1 | None |  | Verified | lore |  |
+| Lore: Cradle #3 | Loreplatform3 | None |  | Verified | lore |  |

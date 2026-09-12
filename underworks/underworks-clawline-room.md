@@ -37,8 +37,8 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Clawline Pickup | Clawline Statue | Nothing. |  | Verified | Included |  |
-| Underworks: Shard Bundle #2 | Shard Bundle Check | Nothing. |  | Verified | Included |  |
-| Clawline Ring | Arena | Clawline |  | Verified | Included |  |
+| Clawline Pickup | Clawline Statue | Nothing. |  | Verified |  |  |
+| Underworks: Shard Bundle #2 | Shard Bundle Check | Nothing. |  | Verified |  |  |
+| Clawline Ring | Arena | Clawline |  | Verified |  |  |

@@ -13,8 +13,8 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| C | top1 |  | [Path of Pain Bench (Cradle_Destroyed_Challenge_Bench)](path-of-pain-bench.md) | F | Cling Grip OR Silk Soar OR Scuttlebrace |  | Verified |  |
-| L | left1 |  | [ACT3 GMS Arena (Cradle_03_Destroyed)](act3-gms-arena.md) | D | None |  | Verified |  |
+| C | top1 | End | [Path of Pain Bench (Cradle_Destroyed_Challenge_Bench)](path-of-pain-bench.md) | F | Cling Grip OR Silk Soar OR Scuttlebrace |  | Verified |  |
+| L | left1 | Start | [ACT3 GMS Arena (Cradle_03_Destroyed)](act3-gms-arena.md) | D | None |  | Verified |  |
 
 ## Subroom Connections
 

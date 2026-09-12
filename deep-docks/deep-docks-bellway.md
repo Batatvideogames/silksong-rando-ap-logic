@@ -12,8 +12,8 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Deep Docks Bellway Flea Rescue (Dock_16)](deep-docks-bellway-flea-rescue.md) | R | break wall |  | Needs verification |  |
-| BB | door_fastTravelExit |  | [Bellway Menu](../fast-travel/bellway-menu.md) | DD | bellway unlocked |  | Needs verification |  |
+| L | left1 |  | [Deep Docks Bellway Flea Rescue (Dock_16)](deep-docks-bellway-flea-rescue.md) | R | break wall left |  | Needs verification |  |
+| BB | door_fastTravelExit |  | [Bellway Menu](../fast-travel/bellway-menu.md) | DD | completed bellway pay lock |  | Needs verification |  |
 | R | right1 |  | [Deep Docks Map Shop (Bone_East_01)](deep-docks-map-shop.md) | LL | none |  | Needs verification |  |
 
 ## Subroom Connections
@@ -22,6 +22,6 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| bellway pay lock |  | none |  | Needs verification | Not included |  |
+| bellway pay lock |  | none |  | Needs verification |  |  |

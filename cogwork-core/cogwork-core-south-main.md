@@ -35,25 +35,25 @@
 | TLT | Top-Left Top | Top Entrance | Left Shaft Top Side | Nothing. (Fall) |  | Verified |  |
 | TLT | Top-Left Top | Left Shaft Top Side | Top Entrance | Ledge Grab OR Clawline OR Faydown Cloak OR Scuttlebrace |  | Verified |  |
 | LTB | Left Top-Left Bottom | Left Shaft Top Side | Left Shaft Bottom Side | Nothing. (Fall) |  | Verified |  |
-| LTB | Left Top-Left Bottom | Left Shaft Bottom Side | Left Shaft Top Side | Spike Pogo AND (Ledge Grab OR Clawline OR Faydown Cloak) (Easy Skip) OR Cling Grip AND (Ledge Grab OR Clawline) |  | Verified |  |
+| LTB | Left Top-Left Bottom | Left Shaft Bottom Side | Left Shaft Top Side | (Spike Pogo AND (Ledge Grab OR Clawline OR Faydown Cloak (Easy Skip))) OR (Cling Grip AND Ledge Grab) | TODO | Verified |  |
 | LBB | Left Bottom-Bottom | Left Shaft Bottom Side | Bottom | Nothing. (Fall) |  | Verified |  |
-| LBB | Left Bottom-Bottom | Bottom | Left Shaft Bottom Side | Cling Grip AND (Ledge Grab OR Clawline) OR Faydown Cloak AND (Spike Pogo OR Enemy Pogo (Easy Skip)) |  | Verified |  |
-| BRR | Bottom-Right Bottom Shaft | Bottom | Right Shaft Bottom Side | Cling Grip AND (faydown Cloak OR Clawline OR (Dash AND Drifter's Cloak) OR Spike Pogo) OR Spike Pogo AND Faydown Cloak OR Clawline AND Faydown Cloak (Hard Skip) |  | Verified |  |
+| LBB | Left Bottom-Bottom | Bottom | Left Shaft Bottom Side | (Cling Grip AND Ledge Grab) OR (Faydown Cloak AND (Spike Pogo OR Enemy Pogo (Easy Skip))) | TODO | Verified |  |
+| BRR | Bottom-Right Bottom Shaft | Bottom | Right Shaft Bottom Side | (Cling Grip AND (Faydown Cloak OR Clawline OR (Dash AND Drifter's Cloak) OR Spike Pogo)) OR (Spike Pogo AND (Faydown Cloak OR (Clawline AND Faydown Cloak (Hard Skip)))) | TODO | Verified |  |
 | BRR | Bottom-Right Bottom Shaft | Right Shaft Bottom Side | Bottom | Nothing. (Fall) |  | Verified |  |
-| RBT | Right Bottom-Right Top | Right Shaft Bottom Side | Right Shaft Top Side | Cling Grip AND Faydown Cloak AND (Drifter's Cloak OR Dash) OR Faydown Cloak AND Spike Pogo OR Clawline AND Faydown Cloak (Hard Skip) |  | Verified |  |
+| RBT | Right Bottom-Right Top | Right Shaft Bottom Side | Right Shaft Top Side | (Cling Grip AND Faydown Cloak AND (Drifter's Cloak OR Dash)) OR (Faydown Cloak AND Spike Pogo) OR (Clawline AND Faydown Cloak (Hard Skip)) | TODO | Verified | unsure if any of these marks are being properly read as skips |
 | RBT | Right Bottom-Right Top | Right Shaft Top Side | Right Shaft Bottom Side | Nothing. (fall) |  | Verified |  |
-| RST | Right Top-Top Door | Right Shaft Top Side | Top Right Door | (Ledge Grab OR Clawline OR Scuttlebrace) AND (Spike Pogo AND (Cling Grip OR Faydown Cloak) OR (Clawline AND Faydown Cloak (Easy Skip)) |  | Verified | AQ - my cat |
+| RST | Right Top-Top Door | Right Shaft Top Side | Top Right Door | ((Ledge Grab OR Clawline OR Scuttlebrace) AND (Spike Pogo AND (Cling Grip OR Faydown Cloak))) OR (Clawline AND (Faydown Cloak (Easy Skip))) |  | Verified | AQ - my cat |
 | RST | Right Top-Top Door | Top Right Door | Right Shaft Top Side | Nothing. (Fall) |  | Verified |  |
-| TDT | Right Top Door-Top | Top Right Door | Top Entrance | Flipped Switch #5 |  | Verified |  |
-| TDT | Right Top Door-Top | Top Entrance | Top Right Door | Flipped Switch on other side |  | Verified |  |
-| SC | Shortcut | Left Shaft Bottom Side | Right Shaft Bottom Side | Flipped Switch on other side |  | Verified |  |
-| SC | Shortcut | Right Shaft Bottom Side | Left Shaft Bottom Side | Flipped Switch #4 |  | Verified |  |
-| BBE | Bottom-Bottom Exit | Bottom | Bottom Right Entrance | Spike Pogo OR Clawline OR Sharp Dart OR Sprint OR Dash OR Drifter's Cloak OR Faydown Cloak |  | Verified |  |
-| BBE | Bottom-Bottom Exit | Bottom Right Entrance | Bottom | Spike Pogo OR Clawline OR Sharp Dart OR Sprint OR Dash OR Drifter's Cloak OR Faydown Cloak |  | Verified |  |
+| TDT | Right Top Door-Top | Top Right Door | Top Entrance | Activate Cogwork Core: Flipped Switch #4 |  | Verified |  |
+| TDT | Right Top Door-Top | Top Entrance | Top Right Door | Activate Cogwork Core: Flipped Switch #5 |  | Verified |  |
+| SC | Shortcut | Left Shaft Bottom Side | Right Shaft Bottom Side | Activate Cogwork Core: Flipped Switch #4 |  | Verified |  |
+| SC | Shortcut | Right Shaft Bottom Side | Left Shaft Bottom Side | Activate Cogwork Core: Flipped Switch #4 |  | Verified |  |
+| BBE | Bottom-Bottom Exit | Bottom | Bottom Right Entrance | Spike Pogo OR Clawline OR Sharpdart OR Sprint OR Dash OR Drifter's Cloak OR Faydown Cloak |  | Verified |  |
+| BBE | Bottom-Bottom Exit | Bottom Right Entrance | Bottom | Spike Pogo OR Clawline OR Sharpdart OR Sprint OR Dash OR Drifter's Cloak OR Faydown Cloak |  | Verified |  |
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Cogwork Core: Flipped Switch (Up) #5 | Top Right Door | Nothing. |  | Verified | Included |  |
-| Cogwork Core: Flipped Switch (Left) #4 | Shaft Shortcut | Nothing. |  | Verified | Included |  |
+| Cogwork Core: Flipped Switch #5 | Top Right Door | Nothing. |  | Verified | switch |  |
+| Cogwork Core: Flipped Switch #4 | Shaft Shortcut | Flip Switch Left |  | Verified | switch |  |

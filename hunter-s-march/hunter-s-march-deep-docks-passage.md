@@ -23,16 +23,16 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| BG | bone gate | before gate | right of gauntlet | none (switch is on this side) |  | Verified |  |
-| BG | bone gate | right of gauntlet | before gate | switched flipped |  | Verified |  |
+| BG | bone gate | before gate | right of gauntlet | activate bone switch |  | Verified |  |
+| BG | bone gate | right of gauntlet | before gate | activate bone switch |  | Verified |  |
 | RG | right gauntlet | right of gauntlet | gauntlet | none (starts gauntlet) |  | Verified |  |
-| RG | right gauntlet | gauntlet | right of gauntlet | defeat gauntlet |  | Verified |  |
+| RG | right gauntlet | gauntlet | right of gauntlet | defeat gauntlet fight |  | Verified |  |
 | LG | left gauntlet | left of gauntlet | gauntlet | none (starts gauntlet) |  | Verified |  |
-| LG | left gauntlet | gauntlet | left of gauntlet | defeat gauntlet |  | Verified |  |
+| LG | left gauntlet | gauntlet | left of gauntlet | defeat gauntlet fight |  | Verified |  |
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| bone switch | before gate | none |  | Verified | Not included |  |
-| gauntlet fight | gauntlet | none |  | Verified | Not included |  |
+| bone switch | before gate | none |  | Verified | switch |  |
+| gauntlet fight | gauntlet | none |  | Verified | gauntlet |  |

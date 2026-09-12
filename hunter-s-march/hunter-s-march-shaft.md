@@ -36,9 +36,9 @@
 | F1 | falling 1 | UR platform | L3 platform | none (falling) |  | Verified |  |
 | V3 | vertical 3 | UR platform | L2 platform | ledge grab OR silk soar OR drifter's cloak OR faydown cloak |  | Verified | got it with scuttlebrace exactly once LOL |
 | V3 | vertical 3 | L2 platform | UR platform | none (falling) |  | Verified |  |
-| V4 | vertical 4 | L2 platform | L1 platform | ledge grab OR silk soar OR drifter's cloak OR faydown cloak OR easy skips enabled |  | Verified | can pogo off a fly to avoid the need for ledge grab bit of a pain |
+| V4 | vertical 4 | L2 platform | L1 platform | ledge grab OR silk soar OR drifter's cloak OR faydown cloak OR easy enemy pogo |  | Verified | can pogo off a fly to avoid the need for ledge grab bit of a pain |
 | V4 | vertical 4 | L1 platform | L2 platform | none (falling) |  | Verified |  |
-| V5 | vertical 5 | L1 platform | the top | silk soar OR cling grip OR faydown cloak OR scuttlebrace OR ( ledge grab AND easy skips enabled ) |  | Verified | saying that ledge grab is needed for convenience |
+| V5 | vertical 5 | L1 platform | the top | silk soar OR cling grip OR faydown cloak OR easy scuttlebrace OR ledge grab |  | Verified | saying that ledge grab is needed for convenience |
 | V5 | vertical 5 | the top | L1 platform | none (falling) |  | Verified |  |
 
 ## Check Locations

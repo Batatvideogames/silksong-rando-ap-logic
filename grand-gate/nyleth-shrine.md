@@ -13,7 +13,7 @@ No subrooms defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | R | right1 |  | [Shrine Guardian Seth (Shellwood_22)](shrine-guardian-seth.md) | D | None |  | Verified |  |
-| D | door_wakeOnGround |  | [Nyleth Fight (Shellwood_11b_Memory)](nyleth-fight.md) | D | Needolin AND Elegy of the deep |  | Verified |  |
+| D | door_wakeOnGround |  | [Nyleth Fight (Shellwood_11b_Memory)](nyleth-fight.md) | D | Needolin AND Have Elegy of the deep |  | Verified |  |
 
 ## Subroom Connections
 
@@ -21,6 +21,6 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Lore |  | None |  | Verified | Not included | Not included on the map |
+| Lore |  | None |  | Verified | lore | Not included on the map |

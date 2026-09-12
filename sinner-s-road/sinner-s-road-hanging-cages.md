@@ -36,8 +36,8 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Wish: My Missing Brother | upper entry | Complete My Missing Courier Wish |  |  | Included |  |
-| Shell Shard Cache: Sinner’s Road #4 | shard ledge | none |  |  | Included |  |
-| Shell Shard Cache: Sinner’s Road #5 | shard ledge | none |  |  | Included |  |
+| Wish: My Missing Brother | upper entry | Complete My Missing Courier Wish |  |  | event |  |
+| Shell Shard Cache: Sinner’s Road #4 | shard ledge | none |  |  | collectible |  |
+| Shell Shard Cache: Sinner’s Road #5 | shard ledge | none |  |  | collectible |  |

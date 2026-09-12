@@ -22,6 +22,6 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Underworks: Frayed Rosary Necklace #1 | Rosary Necklace | Nothing. |  | Verified | Included |  |
+| Underworks: Frayed Rosary Necklace #1 | Rosary Necklace | Nothing. |  | Verified |  |  |

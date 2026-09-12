@@ -35,11 +35,11 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| flea rescue | flea rescue area | none |  | Verified | Included | break cage |
-| rosary cache far fields 16 | camp | none |  | Verified | Included |  |
-| rosary cache far fields 17 | camp | none |  | Verified | Included |  |
+| flea rescue | flea rescue area | none |  | Verified | collectible | break cage |
+| rosary cache far fields 16 | camp | none |  | Verified | collectible |  |
+| rosary cache far fields 17 | camp | none |  | Verified | collectible |  |
 
 ## Notes
 

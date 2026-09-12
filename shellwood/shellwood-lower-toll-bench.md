@@ -13,7 +13,7 @@ No subrooms defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | L | left1 |  | [The Big Fall (Aspid_01)](../bone-bottom/the-big-fall.md) | UR | None |  | Verified |  |
-| R | right1 |  | [Shellwood Left side Long pond room (Shellwood_04b)](shellwood-left-side-long-pond-room.md) | L | None |  | Verified |  |
+| R | right1 |  | [Shellwood Left side Long pond room (Shellwood_04b)](shellwood-left-side-long-pond-room.md) | L | Break Vines Right |  | Verified |  |
 
 ## Subroom Connections
 
@@ -21,6 +21,6 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Bench |  | Dont be broke |  | Verified | Not included |  |
+| Lower Shellwood Toll Bench |  | None |  | Verified | bench |  |

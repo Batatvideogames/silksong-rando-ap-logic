@@ -26,8 +26,8 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| frayed rosary string the marrow flea caravan passage | main area | none |  |  | Included |  |
-| rosary dish | main area | none | TODO |  | Not included | NOT CURRENTLY RANDOMIZED |
-| wish survivor's camp supplies | main area | TODO | TODO |  | Included | TODO |
+| frayed rosary string the marrow flea caravan passage | main area | none |  |  |  |  |
+| rosary dish | main area | none | TODO |  |  | NOT CURRENTLY RANDOMIZED |
+| wish survivor's camp supplies | main area | TODO | TODO |  |  | TODO |

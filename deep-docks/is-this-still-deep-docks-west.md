@@ -29,7 +29,7 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| blast rock pathway opener | ground | blast rock |  |  | Not included |  |
-| frayed rosary string deep docks | side room | none |  |  | Included | MARKED AS ??? ON TRACKER |
+| blast rock pathway opener | ground | blast rock |  |  |  |  |
+| frayed rosary string deep docks | side room | none |  |  |  | MARKED AS ??? ON TRACKER |

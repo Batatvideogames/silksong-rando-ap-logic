@@ -19,16 +19,16 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| CG | cross gap | storage room | skarr shop | run OR dash OR faydown cloak OR clawline OR ( sharpdart AND silk heart ) |  | Verified | too many jumps for sharpdart without upgrades or silk heart; could add progressive spool fragments as a requirement for multiple sharpdart jumps |
-| CG | cross gap | skarr shop | storage room | run OR dash OR faydown cloak OR clawline OR ( sharpdart AND silk heart ) |  | Verified |  |
+| CG | cross gap | storage room | skarr shop | run OR dash OR faydown cloak OR clawline OR sharpdart x 3 |  | Verified | too many jumps for sharpdart without upgrades or silk heart; could add progressive spool fragments as a requirement for multiple sharpdart jumps |
+| CG | cross gap | skarr shop | storage room | run OR dash OR faydown cloak OR clawline OR sharpdart x 3 |  | Verified |  |
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| fractured mask | skarr shop | none |  | Verified | Included |  |
-| curveclaw | skarr shop | none | TODO |  | Included | I think this item mistakenly displays in the treasure vault instead of the skarr shop |
-| shell shard cache hunter's march 5 | storage room | none |  | Verified | Included |  |
-| shell shard cache hunter's march 6 | storage room | none |  | Verified | Included |  |
-| shell shard cache hunter's march 7 | storage room | none |  | Verified | Included |  |
-| shell shard cache hunter's march 8 | storage room | none |  | Verified | Included |  |
+| fractured mask | skarr shop | none |  | Verified | collectible |  |
+| curveclaw | skarr shop | none |  | Verified | collectible | I think this item mistakenly displays in the treasure vault instead of the skarr shop |
+| shell shard cache hunter's march 5 | storage room | none |  | Verified | collectible |  |
+| shell shard cache hunter's march 6 | storage room | none |  | Verified | collectible |  |
+| shell shard cache hunter's march 7 | storage room | none |  | Verified | collectible |  |
+| shell shard cache hunter's march 8 | storage room | none |  | Verified | collectible |  |

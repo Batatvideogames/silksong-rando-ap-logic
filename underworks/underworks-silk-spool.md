@@ -34,13 +34,13 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Underworks: Shell Shard Rock #3 | Shell Shard Alcove #1 | Nothing. |  | Verified | Included |  |
-| Underworks: Shell Shard Rock #4 | Shell Shard Alcove #1 | Nothing. |  | Verified | Included |  |
-| Underworks: Shell Shard Rock #5 | Shell Shard Alcove #1 | Nothing. |  | Verified | Included |  |
-| Underworks: Shell Shard Rock #6 | Shell Shard Alcove #1 | Nothing. |  | Verified | Included |  |
-| Underworks: Shell Shard Cache #2 | Shell Shard Alcove #2 | Nothing. |  | Verified | Included |  |
-| Underworks: Shell Shard Cache #3 | Shell Shard Alcove #2 | Nothing. |  | Verified | Included |  |
-| Underworks: Silk Spool Fragment #1 | Silk Spool | Nothing. |  | Verified | Included |  |
-| Underworks: Break Wall #3 (Left) | Silk Spool | Nothing. |  | Verified | Included |  |
+| Underworks: Shell Shard Rock #3 | Shell Shard Alcove #1 | Nothing. |  | Verified |  |  |
+| Underworks: Shell Shard Rock #4 | Shell Shard Alcove #1 | Nothing. |  | Verified |  |  |
+| Underworks: Shell Shard Rock #5 | Shell Shard Alcove #1 | Nothing. |  | Verified |  |  |
+| Underworks: Shell Shard Rock #6 | Shell Shard Alcove #1 | Nothing. |  | Verified |  |  |
+| Underworks: Shell Shard Cache #2 | Shell Shard Alcove #2 | Nothing. |  | Verified |  |  |
+| Underworks: Shell Shard Cache #3 | Shell Shard Alcove #2 | Nothing. |  | Verified |  |  |
+| Underworks: Silk Spool Fragment #1 | Silk Spool | Nothing. |  | Verified |  |  |
+| Underworks: Break Wall #3 (Left) | Silk Spool | Nothing. |  | Verified |  |  |

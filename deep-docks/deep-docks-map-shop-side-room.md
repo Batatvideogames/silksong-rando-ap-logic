@@ -12,7 +12,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Deep Docks Map Shop (Bone_East_01)](deep-docks-map-shop.md) | MR | none |  | Needs verification |  |
+| L | left1 |  | [Deep Docks Map Shop (Bone_East_01)](deep-docks-map-shop.md) | MR | none |  | Verified |  |
 
 ## Subroom Connections
 

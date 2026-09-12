@@ -28,9 +28,9 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Rosary Cache: Choral Chambers #11 | Top | none |  |  | Included | falling |
-| Rosary Cache: Choral Chambers #12 | Top | none |  |  | Included | falling |
-| Rosary Cache: Choral Chambers #13 | Top | none |  |  | Included | falling |
-| Mask Shard: Cogwork Core | Right Secret | none |  |  | Included |  |
+| Rosary Cache: Choral Chambers #11 | Top | none |  |  |  | falling |
+| Rosary Cache: Choral Chambers #12 | Top | none |  |  |  | falling |
+| Rosary Cache: Choral Chambers #13 | Top | none |  |  |  | falling |
+| Mask Shard: Cogwork Core | Right Secret | none |  |  |  |  |

@@ -33,6 +33,6 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Relic: Choral Commandment (Western Whiteward) | Pickup Section | Nothing |  | Verified | Included |  |
+| Relic: Choral Commandment (Western Whiteward) | Pickup Section | Nothing |  | Verified |  |  |

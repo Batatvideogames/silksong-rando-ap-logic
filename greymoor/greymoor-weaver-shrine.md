@@ -2,6 +2,8 @@
 
 **Game ID:** Greymoor_22
 
+**Contributors:** Isssma
+
 ## Subrooms
 
 - left section
@@ -17,15 +19,16 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| UP | upper path | left section | right section | easy crest pogo (hunter, reaper, wanderer, beast, witch, architect, shaman) |  | Verified |  |
+| UP | upper path | left section | right section | easy hunter pogo OR easy reaper pogo OR easy wanderer pogo OR easy beast pogo OR easy witch pogo OR easy architect pogo OR easy shaman pogo |  | Verified |  |
 | UP | upper path | right section | left section | ledge grab |  | Verified |  |
-| W | wall exit | right section | left section | WALL broken FROM greymoor weaver shrine (right section) left |  | Verified |  |
-| W | wall exit | left section | right section | WALL broken FROM greymoor weaver shrine (right section) left |  | Verified |  |
+| W | wall exit | right section | left section | clear shortcut wall |  | Verified |  |
+| W | wall exit | left section | right section | clear shortcut wall |  | Verified |  |
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Thread storm | left section | easy crest pogo (hunter, reaper, wanderer, beast, witch, architect, shaman) |  | Verified | Included |  |
-| Greymoor - Rosary Cache #26 | right section | none |  | Verified | Not included |  |
-| Greymoor - Rosary Cache #27 | right section | none |  | Verified | Not included |  |
+| Thread storm | left section | easy hunter pogo OR easy reaper pogo OR easy wanderer pogo OR easy beast pogo OR easy witch pogo OR easy architect pogo OR easy shaman pogo |  | Verified | collectible |  |
+| Greymoor - Rosary Cache #26 | right section | none |  | Verified | resource |  |
+| Greymoor - Rosary Cache #27 | right section | none |  | Verified | resource |  |
+| shortcut wall | right section | break wall left OR break wall up |  | Verified | blockade |  |

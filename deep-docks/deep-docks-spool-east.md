@@ -24,10 +24,10 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| spool fragment deep docks | spool fragment area | none |  |  | Included |  |
-| shell shard cache deep docks 1 | the floor is lava | magma bell AND blue slot |  |  | Included |  |
-| shell shard cache deep docks 2 | the floor is lava | magma bell AND blue slot |  |  | Included |  |
-| shell shard cache deep docks 3 | the floor is lava | magma bell AND blue slot |  |  | Included |  |
-| platform lever | the floor is lava | none |  |  | Not included |  |
+| spool fragment deep docks | spool fragment area | none |  |  |  |  |
+| shell shard cache deep docks 1 | the floor is lava | magma bell AND blue slot |  |  |  |  |
+| shell shard cache deep docks 2 | the floor is lava | magma bell AND blue slot |  |  |  |  |
+| shell shard cache deep docks 3 | the floor is lava | magma bell AND blue slot |  |  |  |  |
+| platform lever | the floor is lava | none |  |  |  |  |

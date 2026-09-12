@@ -1,6 +1,8 @@
-# The Mist Room 5 (Dust_Maze_05)
+# Mount Fay Large Servitor Hallway (Peak_04d)
 
-**Game ID:** Dust_Maze_05
+**Game ID:** Peak_04d
+
+**Contributors:** Pyxl
 
 ## Subrooms
 
@@ -10,11 +12,8 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | Left |  | ? | ? |  |  |  |  |
-| UR | Upper Right |  | ? | L |  |  |  |  |
-| T | Top |  | ? | ? |  |  |  |  |
-| B | Bottom |  | ? | ? |  |  |  |  |
-| LR | Right |  | ? | ? |  |  |  |  |
+| R | right1 |  | [Mount Fay Shakra (Peak_02)](mount-fay-shakra.md) | ML | None |  | Verified |  |
+| L | left1 |  | [Mount Fay Ice Lake Platforming Room (Peak_04)](mount-fay-ice-lake-platforming-room.md) | R | None |  | Verified |  |
 
 ## Subroom Connections
 

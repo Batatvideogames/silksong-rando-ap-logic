@@ -20,12 +20,16 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| RestBench |  | none |  | Verified | Not included |  |
-| mask shard fastest in pharloom |  | fastest in pharloom wish complete |  | Needs verification | Included | win races 1 2 and 3 |
-| fastest in pharloom wish start |  | none |  | Verified | Included |  |
-| race victory 1 - rosary beads |  | run AND dash AND cling grip AND clawline AND faydown cloak | TODO | Needs verification | Not included | these need to be refined for each race |
-| race victory 2 - beast shard |  | run AND dash AND cling grip AND clawline AND faydown cloak | TODO | Needs verification | Not included | these need to be refined for each race |
-| race victory 3 - mask shard |  | run AND dash AND cling grip AND clawline AND faydown cloak | TODO | Needs verification | Not included | these need to be refined for each race |
-| race victory 4 - memento |  | run AND dash AND cling grip AND clawline AND faydown cloak | TODO | Needs verification | Not included | these need to be refined for each race |
+| RestBench |  | none |  | Verified | bench |  |
+| fastest in pharloom wish start |  | none |  | Verified | event |  |
+| fastest in pharloom wish goal |  | complete race victory 3 |  | Verified | event |  |
+| race victory 1 |  | complete fastest in pharloom wish start AND run AND dash AND cling grip AND clawline AND faydown cloak | TODO | Needs verification | event | these need to be refined for each race |
+| race victory 2 |  | complete race victory 1  AND run AND dash AND cling grip AND clawline AND faydown cloak | TODO | Needs verification | event | these need to be refined for each race |
+| race victory 3 |  | complete race victory 2  AND run AND dash AND cling grip AND clawline AND faydown cloak | TODO | Needs verification | event | these need to be refined for each race |
+| race victory 4 |  | complete race victory 3  AND run AND dash AND cling grip AND clawline AND faydown cloak | TODO | Needs verification | event | these need to be refined for each race |
+| rosary beads |  | complete race victory 1 |  | Verified | collectible |  |
+| beast shard |  | complete race victory 2 |  | Verified | collectible |  |
+| mask shard fastest in pharloom |  | complete fastest in pharloom wish goal |  | Verified | collectible | win races 1, 2, and 3 |
+| sprintmaster memento |  | complete race victory 4 |  | Verified | collectible |  |

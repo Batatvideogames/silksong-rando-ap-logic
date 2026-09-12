@@ -19,17 +19,18 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| GF | grunt fight | left of door | right of door | none (defeat grunts) |  | Verified |  |
-| GF | grunt fight | right of door | left of door | grunts defeated |  | Verified |  |
+| GF | grunt fight | left of door | right of door | defeat grunt fight |  | Verified |  |
+| GF | grunt fight | right of door | left of door | defeat grunt fight |  | Verified |  |
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| rosary cache hunters march 4 | left of door | none |  | Verified | Included |  |
-| rosary cache hunters march 5 | left of door | none |  | Verified | Included |  |
-| rosary cache hunters march 6 | left of door | none |  | Verified | Included |  |
-| rosary cache hunters march 7 | left of door | none |  | Verified | Included |  |
-| rosary cache hunters march 8 | left of door | none |  | Verified | Included |  |
-| rosary cache hunters march 9 | left of door | none |  | Verified | Included |  |
-| rosary cache hunters march 10 | left of door | none |  | Verified | Included |  |
+| rosary cache hunters march 4 | left of door | none |  | Verified | collectible |  |
+| rosary cache hunters march 5 | left of door | none |  | Verified | collectible |  |
+| rosary cache hunters march 6 | left of door | none |  | Verified | collectible |  |
+| rosary cache hunters march 7 | left of door | none |  | Verified | collectible |  |
+| rosary cache hunters march 8 | left of door | none |  | Verified | collectible |  |
+| rosary cache hunters march 9 | left of door | none |  | Verified | collectible |  |
+| rosary cache hunters march 10 | left of door | none |  | Verified | collectible |  |
+| grunt fight | right of door | none |  | Verified | miniboss | pretty sure these two don't respawn |

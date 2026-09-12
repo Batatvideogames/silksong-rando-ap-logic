@@ -21,15 +21,15 @@
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | EB | Entrance-Bundle | Entrance | Shard Bundle Check | Silk Soar OR Faydown Cloak |  | Verified |  |
-| BS | Bundle-Sentinel | Shard Bundle Check | Second Sentinel | Break Wall #1 AND #2 |  | Verified |  |
-| BS | Bundle-Sentinel | Second Sentinel | Shard Bundle Check | Break Wall #1 AND #2 |  | Verified |  |
+| BS | Bundle-Sentinel | Shard Bundle Check | Second Sentinel | Activate Cogwork Core: Break Wall #1 AND Activate Cogwork Core: Break Wall #2 |  | Verified |  |
+| BS | Bundle-Sentinel | Second Sentinel | Shard Bundle Check | Activate Cogwork Core: Break Wall #1 AND Activate Cogwork Core: Break Wall #2 |  | Verified |  |
 | EB | Entrance-Bundle | Shard Bundle Check | Entrance | Nothing. (Fall) |  | Verified |  |
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Cogwork Core: Shard Bundle #1 | Shard Bundle Check | Nothing. |  | Verified | Included |  |
-| Cogwork Core: Break Wall (Right) #1 | Shard Bundle Check | Nothing. |  | Verified | Included |  |
-| Cogwork Core: Break Wall (Right) #2 | Shard Bundle Check | Nothing. |  | Verified | Included |  |
-| Sentinel Awake | Second Sentinel | Break Tube, Provide Cogheart |  | Verified | Included |  |
+| Cogwork Core: Shard Bundle #1 | Shard Bundle Check | Nothing. |  | Verified | collectible |  |
+| Cogwork Core: Break Wall #1 | Shard Bundle Check | Nothing. |  | Verified | blockade |  |
+| Cogwork Core: Break Wall #2 | Shard Bundle Check | Nothing. |  | Verified | blockade |  |
+| Sentinel | Second Sentinel | (Break Wall Right AND Cogheart Pieces 3) |  | Verified | event |  |

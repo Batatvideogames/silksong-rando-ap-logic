@@ -21,8 +21,8 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| rosary cache the marrow mosslands passage 1 |  | none |  |  | Included |  |
-| rosary cache the marrow mosslands passage 2 |  | none |  |  | Included |  |
-| rosary dish |  |  |  |  | Not included | NOT CURRENTLY RANDOMIZED |
+| rosary cache the marrow mosslands passage 1 |  | none |  |  |  |  |
+| rosary cache the marrow mosslands passage 2 |  | none |  |  |  |  |
+| rosary dish |  |  |  |  |  | NOT CURRENTLY RANDOMIZED |

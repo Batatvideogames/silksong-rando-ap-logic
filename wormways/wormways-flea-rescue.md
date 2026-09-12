@@ -24,6 +24,6 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| flea wormways snacc | main area | none |  |  | Included |  |
+| flea wormways snacc | main area | none |  |  |  |  |

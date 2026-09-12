@@ -28,6 +28,6 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Bilewater East - Memory Locket | right | none |  |  | Included |  |
+| Bilewater East - Memory Locket | right | none |  |  |  |  |

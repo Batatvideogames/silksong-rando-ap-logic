@@ -23,8 +23,8 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| craft metal |  | none |  |  | Included |  |
-| shell shard cache the marrow 4 |  | none |  |  | Included | MARKED AS ??? ON TRACKER |
-| volatile flintbeetle 3 |  | none |  |  | Included | this one has a stable position |
+| craft metal |  | none |  |  |  |  |
+| shell shard cache the marrow 4 |  | none |  |  |  | MARKED AS ??? ON TRACKER |
+| volatile flintbeetle 3 |  | none |  |  |  | this one has a stable position |

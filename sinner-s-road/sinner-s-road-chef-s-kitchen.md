@@ -24,10 +24,10 @@
 | LU | lower to upper | lower | upper | faydown cloak OR silk soar |  |  |  |
 | LU | lower to upper | upper | lower | none |  |  |  |
 | BL | basement to lower | basement | lower | scuttlebrace OR cling grip OR silk soar |  |  |  |
-| BL | basement to lower | lower | basement | none (IMPOSSIBLE!!!) |  |  |  |
+| BL | basement to lower | lower | basement | invalid (true one-way) |  |  |  |
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Boss: Disgraced Chef Lugoli | upper | Silk soar OR faydown cloak |  |  | Included |  |
+| Boss: Disgraced Chef Lugoli | upper | Silk soar OR faydown cloak |  |  | boss |  |

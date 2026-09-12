@@ -33,8 +33,8 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Flea: Bilehaven | flea room | left attack |  |  | Included |  |
-| Bilewater - Shell Shard Cache #1 | bottom right | up attack AND swim |  |  | Included |  |
-| Bilewater - Shell Shard Cache #2 | bottom right | up attack AND swim |  |  | Included |  |
+| Flea: Bilehaven | flea room | left attack |  |  |  |  |
+| Bilewater - Shell Shard Cache #1 | bottom right | up attack AND swim |  |  |  |  |
+| Bilewater - Shell Shard Cache #2 | bottom right | up attack AND swim |  |  |  |  |

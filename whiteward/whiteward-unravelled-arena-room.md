@@ -35,7 +35,7 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| The Unravelled - Silk Heart | Unravelled Arena | Beat Unravelled Arena |  | Verified | Included |  |
-| Boss: The Unravelled | Unravelled Arena | Beat Unravelled Arena |  | Verified | Included |  |
+| The Unravelled - Silk Heart | Unravelled Arena | Beat Unravelled Arena |  | Verified |  |  |
+| Boss: The Unravelled | Unravelled Arena | Beat Unravelled Arena |  | Verified |  |  |

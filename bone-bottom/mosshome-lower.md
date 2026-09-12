@@ -28,7 +28,7 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| rosary cache bone bottom 4 | main area | none |  |  | Included |  |
-| rosary cache bone bottom 5 | main area | none |  |  | Included |  |
+| rosary cache bone bottom 4 | main area | none |  |  |  |  |
+| rosary cache bone bottom 5 | main area | none |  |  |  |  |

@@ -23,14 +23,14 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| LA | Lower Ascent | Bottom | Top | (Silk Soar OR Cling Grip OR Scuttlebrace) AND (Dash OR Clawline OR Sharp Dart OR Faydown Cloak) |  | Verified |  |
-| HA | Higher Ascent | Top | Rosary | Silk Soar OR Box Pogo (All Crests except Hunter) OR Cling Grip AND (Faydown Cloak OR Clawline OR Sharp Dart OR Architect Charge) OR (Cling Grip AND (Enemy Pogo (Easy Skip)) |  | Verified |  |
-| E | Exit | Top | Right Exit | Silk Soar OR Cling Grip OR Scuttlebrace OR Faydown Cloak AND (Ledge Grab OR Clawline) |  | Verified | clawline skip here is REALLY precise |
+| LA | Lower Ascent | Bottom | Top | (Silk Soar OR Cling Grip OR Scuttlebrace) AND (Dash OR Clawline OR Sharpdart OR Faydown Cloak) |  | Verified |  |
+| HA | Higher Ascent | Top | Rosary | Silk Soar OR easy box pogo OR (Cling Grip AND (Faydown Cloak OR Clawline OR Sharpdart OR easy Needle Strike Stall (Architect) OR (Cling Grip AND Easy Enemy Pogo))) |  | Verified |  |
+| E | Exit | Top | Right Exit | Silk Soar OR Cling Grip OR Scuttlebrace OR (Faydown Cloak AND Ledge Grab) |  | Verified |  |
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| AP Minor Cache - Whispering Vaults - Rosary Cache #4 | Rosary | Nothing. |  | Verified | Included |  |
-| Whispering Vaults: Rosary Cache #3 | Rosary | Nothing. |  | Verified | Included |  |
-| Whispering Vaults: Rosary Dish #2 | Rosary | Nothing. |  | Verified | Included |  |
+| AP Minor Cache - Whispering Vaults - Rosary Cache #4 | Rosary | Nothing. |  | Verified | resource |  |
+| Whispering Vaults: Rosary Cache #3 | Rosary | Nothing. |  | Verified | resource |  |
+| Whispering Vaults: Rosary Dish #2 | Rosary | Nothing. |  | Verified | resource |  |

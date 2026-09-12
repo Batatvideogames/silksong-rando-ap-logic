@@ -19,12 +19,12 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| TC | thorn crossing | right side | left side | claw line OR ( drifter's cloak AND ( ledge grab OR silk soar ) ) OR |  | Verified |  |
+| TC | thorn crossing | right side | left side | clawline OR ( drifter's cloak AND ( ledge grab OR silk soar ) ) |  | Verified |  |
 | TC | thorn crossing | left side | right side | drifter's cloak OR ( clawline AND ( silk soar OR faydown cloak OR run ) ) |  | Verified |  |
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| mask shard far fields above the seamstress | left side | drifter's cloak OR silk soar OR faydown cloak |  | Verified | Included | must break blast rock on ceiling - this likely has a large number of tool options - haven't really considered this here |
-| random silk | left side | none |  | Verified | Not included | NOT YET RANDOMIZED |
+| mask shard far fields above the seamstress | left side | drifter's cloak OR silk soar OR faydown cloak |  | Verified | collectible | must break blast rock on ceiling - this likely has a large number of tool options - haven't really considered this here |
+| random silk | left side | none |  | Verified | resource | NOT YET RANDOMIZED |

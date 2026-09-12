@@ -31,6 +31,6 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Bilewater - Storeroom Record | bench room | none |  |  | Included |  |
+| Bilewater - Storeroom Record | bench room | none |  |  |  |  |

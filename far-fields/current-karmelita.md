@@ -13,7 +13,7 @@ No subrooms defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | L | left1 |  | [Far Fields Deep Fort (Bone_East_25)](far-fields-deep-fort.md) | D | none |  | Verified |  |
-| MG | memory |  | [Memory Karmelita (Memory_Ant_Queen)](memory-karmelita.md) | MG | needolin |  | Verified |  |
+| MG | memory |  | [Memory Karmelita (Memory_Ant_Queen)](memory-karmelita.md) | MG | elegy of the deep |  | Verified |  |
 
 ## Subroom Connections
 

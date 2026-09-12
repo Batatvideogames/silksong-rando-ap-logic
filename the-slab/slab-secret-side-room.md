@@ -25,9 +25,9 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| The Slab - Shell Shard Cache #6 | Top | cling grip or (silk soar and (ledge grab or dash)) |  |  | Included | Naked |
-| The Slab - Shell Shard Cache #7 | Top | cling grip or (silk soar and (ledge grab or dash)) |  |  | Included | Naked |
-| The Slab - Frayed Rosary String #2 | Corpse | none |  |  | Included |  |
-| The Slab - Rosary Cache #1 | Corpse | none |  |  | Included |  |
+| The Slab - Shell Shard Cache #6 | Top | cling grip or (silk soar and (ledge grab or dash)) |  |  |  | Naked |
+| The Slab - Shell Shard Cache #7 | Top | cling grip or (silk soar and (ledge grab or dash)) |  |  |  | Naked |
+| The Slab - Frayed Rosary String #2 | Corpse | none |  |  |  |  |
+| The Slab - Rosary Cache #1 | Corpse | none |  |  |  |  |

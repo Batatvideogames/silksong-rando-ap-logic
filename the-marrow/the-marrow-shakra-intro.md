@@ -28,17 +28,17 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| lower platform switch (into floor) | main area | lowers platform into the marrow entrance |  |  | Not included | NOT CURRENTLY RANDOMIZED |
-| rosary cache the marrow 7 | main area | none |  |  | Included |  |
-| shell shard cache the marrow 2 | main area | none |  |  | Included |  |
-| shell shard cache the marrow 3 | main area | none |  |  | Included |  |
-| quill | main area |  |  |  | Included | shakra's shop |
-| compass | main area |  |  |  | Included | shakra's shop |
-| map mosslands | main area |  |  |  | Included | shakra's shop |
-| map the marrow | main area |  |  |  | Included | shakra's shop |
-| map bench pins | main area |  |  |  | Included | shakra's shop |
-| map bellway pins | main area |  |  |  | Included | shakra's shop \| appears to be bugged in availability logic still. shows available but isn't |
-| mosshome middle door switch | behind gate | none |  |  | Not included |  |
-| volatile flintbeetle 2 | main area | none | TODO |  | Included | this one swaps position based on when [GAME STATE] - wiki says when the shortcut after bellshrine is opened |
+| lower platform switch (into floor) | main area | lowers platform into the marrow entrance |  |  |  | NOT CURRENTLY RANDOMIZED |
+| rosary cache the marrow 7 | main area | none |  |  |  |  |
+| shell shard cache the marrow 2 | main area | none |  |  |  |  |
+| shell shard cache the marrow 3 | main area | none |  |  |  |  |
+| quill | main area |  |  |  |  | shakra's shop |
+| compass | main area |  |  |  |  | shakra's shop |
+| map mosslands | main area |  |  |  |  | shakra's shop |
+| map the marrow | main area |  |  |  |  | shakra's shop |
+| map bench pins | main area |  |  |  |  | shakra's shop |
+| map bellway pins | main area |  |  |  |  | shakra's shop \| appears to be bugged in availability logic still. shows available but isn't |
+| mosshome middle door switch | behind gate | none |  |  |  |  |
+| volatile flintbeetle 2 | main area | none | TODO |  |  | this one swaps position based on when [GAME STATE] - wiki says when the shortcut after bellshrine is opened |

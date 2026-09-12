@@ -24,8 +24,8 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| lore tablet | lower level |  |  |  | Not included | NOT ACTUALLY A CHECK |
-| memory locket the marrow | upper level |  | TODO |  | Included | on the tracker but appears to be inaccessible |
-| gauntlet fight | upper level |  | TODO |  | Not included | not on the tracker / what are the trigger conditions? |
+| lore tablet | lower level |  |  |  |  | NOT ACTUALLY A CHECK |
+| memory locket the marrow | upper level |  | TODO |  |  | on the tracker but appears to be inaccessible |
+| gauntlet fight | upper level |  | TODO |  |  | not on the tracker / what are the trigger conditions? |

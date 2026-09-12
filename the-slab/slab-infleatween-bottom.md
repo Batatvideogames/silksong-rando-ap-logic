@@ -27,8 +27,8 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| The Slab - Shell Shard Cache #1 | Top | none |  |  | Included |  |
-| The Slab - Shell Shard Cache #2 | Top | none |  |  | Included |  |
-| The Slab - Shell Shard Cache #3 | Top | none |  |  | Included |  |
+| The Slab - Shell Shard Cache #1 | Top | none |  |  |  |  |
+| The Slab - Shell Shard Cache #2 | Top | none |  |  |  |  |
+| The Slab - Shell Shard Cache #3 | Top | none |  |  |  |  |

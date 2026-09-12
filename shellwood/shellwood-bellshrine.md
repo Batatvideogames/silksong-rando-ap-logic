@@ -13,7 +13,7 @@ No subrooms defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | L | left1 |  | [Shellwood Connection To Blasted steps (Shellwood_08)](shellwood-connection-to-blasted-steps.md) | R | None |  | Verified |  |
-| R | right1 |  | [Shellwood Bellway  (Shellwood_19)](shellwood-bellway.md) | L | Bell: Shellwood AND Bellsrhine Active |  | Verified |  |
+| R | right1 |  | [Shellwood Bellway  (Shellwood_19)](shellwood-bellway.md) | L | Have Bell: Shellwood AND Prereq Shellwood Shrine |  | Verified |  |
 
 ## Subroom Connections
 
@@ -21,6 +21,7 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Bell: Shellwood |  | None |  | Verified | Included |  |
+| Bell: Shellwood |  | None |  | Verified | resource |  |
+| Shellwood Shrine |  | None |  | Verified | switch |  |

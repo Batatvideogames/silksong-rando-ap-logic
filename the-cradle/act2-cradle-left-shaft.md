@@ -16,7 +16,7 @@
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | UR | right1 | Upper Right Ledge | [ACT2 GMS Arena (Cradle_03)](act2-gms-arena.md) | L | None |  | Verified |  |
-| L | left2 | Weaver Lore Ledge | [Weaver Jail Lore Room (Cradle_02b)](weaver-jail-lore-room.md) | R | Break Wall |  | Verified |  |
+| L | left2 | Weaver Lore Ledge | [Weaver Jail Lore Room (Cradle_02b)](weaver-jail-lore-room.md) | R | None |  | Verified |  |
 | LR | right2 | Lower Right Ledge | [Act2 Cradle Connector Hallway (Cradle_01)](act2-cradle-connector-hallway.md) | L | None |  | Verified |  |
 
 ## Subroom Connections
@@ -32,6 +32,6 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Map: Cradle | Map Ledge | None |  | Verified | Included |  |
+| Map: Cradle | Map Ledge | None |  | Verified | collectible |  |

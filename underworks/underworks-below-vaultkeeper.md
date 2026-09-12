@@ -35,7 +35,7 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Underworks: Needolin Lore #1 | Needolin Check | Needolin |  | Verified | Included |  |
-| Underworks: Shell Shard Cache #1 | Shell Shard Check | Nothing. |  | Verified | Included |  |
+| Underworks: Needolin Lore #1 | Needolin Check | Needolin |  | Verified |  |  |
+| Underworks: Shell Shard Cache #1 | Shell Shard Check | Nothing. |  | Verified |  |  |

@@ -21,8 +21,8 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| silk spool |  | none |  |  | Included | NOT RANDOMIZED YET |
-| skull tyrant boss fight |  | none |  |  | Included | NOT RANDOMIZED YET |
-| crown fragment |  | defeat skull tyrant |  |  | Included | NOT RANDOMIZED YET |
+| silk spool |  | none |  |  |  | NOT RANDOMIZED YET |
+| skull tyrant boss fight |  | none |  |  |  | NOT RANDOMIZED YET |
+| crown fragment |  | defeat skull tyrant |  |  |  | NOT RANDOMIZED YET |

@@ -30,6 +30,6 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Underworks: Flip Switch #2 (Left) | Elevator Shaft | Nothing. |  | Verified | Included |  |
+| Underworks: Flip Switch #2 (Left) | Elevator Shaft | Nothing. |  | Verified |  |  |

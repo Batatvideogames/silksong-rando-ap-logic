@@ -19,7 +19,7 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| The Slab - Left Orders |  | none |  |  | Included |  |
-| The Slab - Right Orders |  | none |  |  | Included |  |
+| The Slab - Left Orders |  | none |  |  |  |  |
+| The Slab - Right Orders |  | none |  |  |  |  |

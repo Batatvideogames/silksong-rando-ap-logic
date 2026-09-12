@@ -26,16 +26,16 @@
 | SF | spike float | ground | spike exit | ( cling grip AND drifter's cloak ) OR ( silk soar AND drifter's cloak ) |  | Verified | exit silk soar early and land on platform |
 | SF | spike float | spike exit | ground | none (falling) |  | Verified | can barely ledge grab by falling to jump down |
 | BG | bell bench gate | before gate | bell bench | none (switch is on this side) |  | Verified |  |
-| BG | bell bench gate | bell bench | before gate | gate switch flipped |  | Verified |  |
+| BG | bell bench gate | bell bench | before gate | activate gate switch |  | Verified |  |
 | CG | cling grip | ground | before gate | cling grip OR silk soar OR scuttlebrace |  | Verified |  |
 | CG | cling grip | before gate | ground | none (falling) |  | Verified |  |
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| rosary cache far fields 9 | ground | none |  | Verified | Included | MARKED AS ??? ON TRACKER |
-| rosary cache far fields 10 | ground | none |  | Verified | Included | MARKED AS ??? ON TRACKER |
-| gate switch | before gate | none |  | Verified | Not included |  |
-| bench pay lock | bell bench | none |  | Verified | Not included |  |
-| bench :) | bell bench | unlock bench lock |  | Verified | Not included |  |
+| rosary cache far fields 9 | ground | none |  | Verified | collectible | MARKED AS ??? ON TRACKER |
+| rosary cache far fields 10 | ground | none |  | Verified | collectible | MARKED AS ??? ON TRACKER |
+| gate switch | before gate | flip switch up |  | Verified | switch |  |
+| bench rosary lock | bell bench | none |  | Verified | lock |  |
+| bench :) | bell bench | unlock bench rosary lock |  | Verified | bench |  |

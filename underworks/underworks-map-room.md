@@ -20,7 +20,7 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Map Pickup: Underworks |  | none |  | Verified | Included |  |
-| Relic: Bone Scroll (Underworks) |  | none |  | Verified | Included |  |
+| Map Pickup: Underworks |  | none |  | Verified |  |  |
+| Relic: Bone Scroll (Underworks) |  | none |  | Verified |  |  |

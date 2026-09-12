@@ -33,6 +33,6 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Heavy Rosary Necklace: Choral Chambers | Base | cling grip or silk soar |  |  | Included | Secret hidden by breaking the ceiling |
+| Heavy Rosary Necklace: Choral Chambers | Base | cling grip or silk soar |  |  |  | Secret hidden by breaking the ceiling |

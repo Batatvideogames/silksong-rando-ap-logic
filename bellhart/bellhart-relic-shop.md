@@ -20,20 +20,20 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Hand In bone scroll 1 |  | Bone scroll |  | Verified | Included |  |
-| Hand In bone scroll 2 |  | Bone scroll |  | Verified | Included |  |
-| Hand In bone scroll 3 |  | Bone scroll |  | Verified | Included |  |
-| Hand In bone scroll 4 |  | Bone scroll |  | Verified | Included |  |
-| Hand In Weaver Effigy 1 |  | Weaver Effigy |  | Verified | Included |  |
-| Hand In Weaver Effigy 2 |  | Weaver Effigy |  | Verified | Included |  |
-| Hand In Weaver Effigy 3 |  | Weaver Effigy |  | Verified | Included |  |
-| Hand in Choral Commandment 1 |  | Choral Commandment |  | Verified | Included |  |
-| Hand in Choral Commandment 2 |  | Choral Commandment |  | Verified | Included |  |
-| Hand in Choral Commandment 3 |  | Choral Commandment |  | Verified | Included |  |
-| Hand in Choral Commandment 4 |  | Choral Commandment |  | Verified | Included |  |
-| Hand in Rune Harp 1 |  | Rune Harp |  | Verified | Included |  |
-| Hand in Rune Harp 2 |  | Rune Harp |  | Verified | Included |  |
-| Hand in Rune Harp 3 |  | Rune Harp |  | Verified | Included |  |
-| Hand in Arcane Egg |  | Arcane Egg |  | Verified | Included |  |
+| Hand In bone scroll 1 |  | Bone scroll |  | Verified |  |  |
+| Hand In bone scroll 2 |  | Bone scroll |  | Verified |  |  |
+| Hand In bone scroll 3 |  | Bone scroll |  | Verified |  |  |
+| Hand In bone scroll 4 |  | Bone scroll |  | Verified |  |  |
+| Hand In Weaver Effigy 1 |  | Weaver Effigy |  | Verified |  |  |
+| Hand In Weaver Effigy 2 |  | Weaver Effigy |  | Verified |  |  |
+| Hand In Weaver Effigy 3 |  | Weaver Effigy |  | Verified |  |  |
+| Hand in Choral Commandment 1 |  | Choral Commandment |  | Verified |  |  |
+| Hand in Choral Commandment 2 |  | Choral Commandment |  | Verified |  |  |
+| Hand in Choral Commandment 3 |  | Choral Commandment |  | Verified |  |  |
+| Hand in Choral Commandment 4 |  | Choral Commandment |  | Verified |  |  |
+| Hand in Rune Harp 1 |  | Rune Harp |  | Verified |  |  |
+| Hand in Rune Harp 2 |  | Rune Harp |  | Verified |  |  |
+| Hand in Rune Harp 3 |  | Rune Harp |  | Verified |  |  |
+| Hand in Arcane Egg |  | Arcane Egg |  | Verified |  |  |

@@ -13,7 +13,7 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| TL | top2 | Secret Platform | TODO |  | none | TODO |  |  |
+| TL | top2 | Secret Platform | [Cogwork Core Breakable Walls (Cog_10_Destroyed)](../cogwork-core/cogwork-core-breakable-walls.md) | B | none | TODO |  |  |
 | L | left1 | Base | [Cog Dancers (Cog_Dancers)](../cogwork-core/cog-dancers.md) | R | none |  | Verified |  |
 | T | top1 | Base | TODO |  | (silk soar or faydown cloak) and breaking wall |  | Verified |  |
 | R | right1 | Base | [Songclave (Song_Enclave)](songclave.md) | TL | none |  | Verified |  |

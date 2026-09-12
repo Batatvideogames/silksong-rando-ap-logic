@@ -46,9 +46,9 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Flea: Choral Chambers - Walled Room | Top Section 2 | (cling grip and drifter's cloak) or silk soar |  |  | Included |  |
-| Rosary Cache: Choral Chambers #14 | Base Upper | clawline or faydown cloak or (dash and ledge grab) | TODO |  | Included | check, probably better to split Base Upper into two zones since they can be gotten from BLT easier than from BLB |
-| Rosary Cache: Choral Chambers #15 | Base Upper | clawline or faydown cloak or (dash and ledge grab) | TODO |  | Included | check, probably better to split Base Upper into two zones since they can be gotten from BLT easier than from BLB |
-| Rosary Cache: Choral Chambers #16 | Base Upper | clawline or faydown cloak or (dash and ledge grab) | TODO |  | Included | check, probably better to split Base Upper into two zones since they can be gotten from BLT easier than from BLB |
+| Flea: Choral Chambers - Walled Room | Top Section 2 | (cling grip and drifter's cloak) or silk soar |  |  |  |  |
+| Rosary Cache: Choral Chambers #14 | Base Upper | clawline or faydown cloak or (dash and ledge grab) | TODO |  |  | check, probably better to split Base Upper into two zones since they can be gotten from BLT easier than from BLB |
+| Rosary Cache: Choral Chambers #15 | Base Upper | clawline or faydown cloak or (dash and ledge grab) | TODO |  |  | check, probably better to split Base Upper into two zones since they can be gotten from BLT easier than from BLB |
+| Rosary Cache: Choral Chambers #16 | Base Upper | clawline or faydown cloak or (dash and ledge grab) | TODO |  |  | check, probably better to split Base Upper into two zones since they can be gotten from BLT easier than from BLB |

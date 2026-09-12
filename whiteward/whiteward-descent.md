@@ -28,7 +28,7 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Whiteward - Rosary Cache #1 | Descent Rosary Side | Nothing |  | Verified | Included |  |
-| Whiteward - Rosary Cache #2 | Descent Rosary Side | Nothing |  | Verified | Included |  |
+| Whiteward - Rosary Cache #1 | Descent Rosary Side | Nothing |  | Verified |  |  |
+| Whiteward - Rosary Cache #2 | Descent Rosary Side | Nothing |  | Verified |  |  |

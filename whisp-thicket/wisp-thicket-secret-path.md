@@ -25,6 +25,6 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Craftmetal: Wisp Thicket | Top | none |  |  | Included |  |
+| Craftmetal: Wisp Thicket | Top | none |  |  |  |  |

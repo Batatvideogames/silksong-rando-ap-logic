@@ -20,9 +20,9 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| progressive curveclaw |  | act 3 AND curveclaw AND red slot |  | Verified | Not included | NOT CURRENTLY ON TRACKER - MAY NOT BE RANDOMIZED |
+| progressive curveclaw 2 |  | act 3 AND curveclaw |  | Verified | collectible | NOT CURRENTLY ON TRACKER - MAY NOT BE RANDOMIZED |
 
 ## Notes
 

@@ -24,10 +24,10 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| crest of the hunter | eva pod | none |  | Verified | Not included | per a random reddit thread |
-| yellow vesticrest | eva pod | 12 tool slots unlocked |  | Verified | Not included | per a random reddit thread |
-| blue vesticrest | eva pod | 20 tool slots unlocked |  | Verified | Not included | per a random reddit thread |
-| crest of the hunter 2 | eva pod | 27 tool slots unlocked |  | Verified | Not included | per a random reddit thread |
-| sylphsong | eva pod | 32 tool slots unlocked |  | Verified | Not included | per a random reddit thread |
+| crest of the hunter | eva pod | none |  | Verified | collectible | per a random reddit thread |
+| yellow vesticrest | eva pod | tool slots unlocked 12 |  | Verified | collectible | per a random reddit thread |
+| blue vesticrest | eva pod | tool slots unlocked 20 |  | Verified | collectible | per a random reddit thread |
+| crest of the hunter 2 | eva pod | tool slots unlocked 27 |  | Verified | collectible | per a random reddit thread |
+| sylphsong | eva pod | tool slots unlocked 32 |  | Verified | collectible | per a random reddit thread |

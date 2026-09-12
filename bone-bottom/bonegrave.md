@@ -31,9 +31,9 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| boneyard mossberry | graveyard | ledge grab OR clawline OR faydown cloak OR cling grip OR silk soar OR (upper right entrance AND dash OR sharpdart OR (easy skips AND any air stall better than heal)) |  |  | Included | can be gotten with only jump -tested edit: jump *and* ledge grab  air stalls include tool stalls and architect, hunter, and beast down slashes, but NOT low silk spell stalls or needle strikes |
-| rosary cache bone bottom 6 | upper right exit | none |  |  | Included |  |
-| rosary cache bone bottom 7 | upper right exit | none |  |  | Included |  |
-| rosaries on grave | graveyard | none |  |  | Not included | NOT CURRENTLY RANDOMIZED |
+| boneyard mossberry | graveyard | ledge grab OR clawline OR faydown cloak OR cling grip OR silk soar OR (upper right entrance AND dash OR sharpdart OR (easy skips AND any air stall better than heal)) |  |  |  | can be gotten with only jump -tested edit: jump *and* ledge grab  air stalls include tool stalls and architect, hunter, and beast down slashes, but NOT low silk spell stalls or needle strikes |
+| rosary cache bone bottom 6 | upper right exit | none |  |  |  |  |
+| rosary cache bone bottom 7 | upper right exit | none |  |  |  |  |
+| rosaries on grave | graveyard | none |  |  |  | NOT CURRENTLY RANDOMIZED |

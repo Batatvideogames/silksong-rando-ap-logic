@@ -30,6 +30,6 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| plasmium pustule upper west | plasmium spot | needle phial AND red tool slot |  |  | Included | NOT RANDOMIZED YET |
+| plasmium pustule upper west | plasmium spot | needle phial AND red tool slot |  |  |  | NOT RANDOMIZED YET |

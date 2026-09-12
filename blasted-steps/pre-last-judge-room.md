@@ -44,6 +44,6 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Craftmetal: Blasted Steps | Descent | Swift Step OR Faydown OR Clawline OR Drifter's Cloak |  | Verified | Included |  |
+| Craftmetal: Blasted Steps | Descent | Swift Step OR Faydown OR Clawline OR Drifter's Cloak |  | Verified |  |  |

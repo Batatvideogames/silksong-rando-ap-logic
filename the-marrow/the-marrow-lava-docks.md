@@ -27,6 +27,6 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| rosary spike | main area | none |  |  | Included | NOT RANDOMIZED YET |
+| rosary spike | main area | none |  |  |  | NOT RANDOMIZED YET |

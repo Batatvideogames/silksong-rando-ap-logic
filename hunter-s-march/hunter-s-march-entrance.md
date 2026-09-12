@@ -21,14 +21,15 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| FG | fight grunt | before door | after door | none (defeat grunt) |  | Verified |  |
-| FG | fight grunt | after door | before door | grunt defeated (other side) |  | Verified |  |
+| FG | fight grunt | before door | after door | defeat grunt fight |  | Verified |  |
+| FG | fight grunt | after door | before door | defeat grunt fight |  | Verified |  |
 | LG | ledge grab | after door | checks alcove | ledge grab OR faydown cloak OR silk soar |  | Verified |  |
 | LG | ledge grab | checks alcove | after door | none (falling) |  | Verified |  |
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| shell shard cache hunter's march 1 | checks alcove | none |  | Verified | Included | MARKED AS ??? ON TRACKER |
-| shell shard cache hunter's march 2 | checks alcove | none |  | Verified | Included | MARKED AS ??? ON TRACKER |
+| shell shard cache hunter's march 1 | checks alcove | none |  | Verified | collectible | MARKED AS ??? ON TRACKER |
+| shell shard cache hunter's march 2 | checks alcove | none |  | Verified | collectible | MARKED AS ??? ON TRACKER |
+| grunt fight | before door | none |  | Verified | miniboss |  |

@@ -20,8 +20,8 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| straight pin |  | none |  |  | Included |  |
-| pin minigame 1 |  |  |  |  | Included | straight pin minigame either missing or too early |
-| pin minigame 2 |  |  |  |  | Included |  |
+| straight pin |  | none |  |  |  |  |
+| pin minigame 1 |  |  |  |  |  | straight pin minigame either missing or too early |
+| pin minigame 2 |  |  |  |  |  |  |

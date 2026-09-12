@@ -44,10 +44,10 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Memory Locket: Blasted Steps | Top Right Pit (Right) | ((Swift Step OR Easy Beast Crest Pogo OR Clawline OR Sharpdart) AND (Faydown OR Cling Grip)) OR (Swift Step AND Scuttlebrace) OR (Drifter's Cloak AND (Faydown OR Silk Soar)) OR (Silk Soar AND Faydown) |  | Verified | Included |  |
-| Shell Shard Cache: Blasted Steps #1 | Bottom Left | (Cling Grip AND (Swift Step OR Flea Brew OR Faydown OR Clawline)) OR (Swift Step and Scuttlebrace) |  | Verified | Included |  |
-| Shell Shard Cache: Blasted Steps #2 | Bottom Left | (Cling Grip AND (Swift Step OR Flea Brew OR Faydown OR Clawline)) OR (Swift Step and Scuttlebrace) |  | Verified | Included |  |
-| Shell Shard Cache: Blasted Steps #3 | Bottom Left | (Cling Grip AND (Swift Step OR Flea Brew OR Faydown OR Clawline)) OR (Swift Step and Scuttlebrace) |  | Verified | Included |  |
-| Lever Coral_02 (Top Right Pit) | Top Right Pit (Left) | Nothing |  | Verified | Not included |  |
+| Memory Locket: Blasted Steps | Top Right Pit (Right) | ((Swift Step OR Easy Beast Crest Pogo OR Clawline OR Sharpdart) AND (Faydown OR Cling Grip)) OR (Swift Step AND Scuttlebrace) OR (Drifter's Cloak AND (Faydown OR Silk Soar)) OR (Silk Soar AND Faydown) |  | Verified |  |  |
+| Shell Shard Cache: Blasted Steps #1 | Bottom Left | (Cling Grip AND (Swift Step OR Flea Brew OR Faydown OR Clawline)) OR (Swift Step and Scuttlebrace) |  | Verified |  |  |
+| Shell Shard Cache: Blasted Steps #2 | Bottom Left | (Cling Grip AND (Swift Step OR Flea Brew OR Faydown OR Clawline)) OR (Swift Step and Scuttlebrace) |  | Verified |  |  |
+| Shell Shard Cache: Blasted Steps #3 | Bottom Left | (Cling Grip AND (Swift Step OR Flea Brew OR Faydown OR Clawline)) OR (Swift Step and Scuttlebrace) |  | Verified |  |  |
+| Lever Coral_02 (Top Right Pit) | Top Right Pit (Left) | Nothing |  | Verified |  |  |

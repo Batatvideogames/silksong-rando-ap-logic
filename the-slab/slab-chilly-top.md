@@ -19,6 +19,6 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| The Slab - Frayed Rosary String #3 |  | cling grip and dash |  |  | Included | Naked |
+| The Slab - Frayed Rosary String #3 |  | cling grip and dash |  |  |  | Naked |

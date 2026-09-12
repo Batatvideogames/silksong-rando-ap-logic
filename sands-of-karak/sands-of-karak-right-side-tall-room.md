@@ -25,9 +25,9 @@
 | TS1 | Tall Shaft1 | Centre | Bottom | None |  | Verified |  |
 | TS1 | Tall Shaft1 | Bottom | Centre | Cling Grip |  | Verified |  |
 | TS2 | Tall Shaft2 | Top | Bottom | None |  | Verified |  |
-| TS2 | Tall Shaft2 | Bottom | Top | Cling Grip AND ( Clawline OR Faydown Cloak OR ( Ledge Grab AND ( Drifters Cloak OR Dash ) OR ( Beast Crest AND Needle Strike ) ) |  | Verified |  |
+| TS2 | Tall Shaft2 | Bottom | Top | Cling Grip AND ( Clawline OR Faydown Cloak OR ( Ledge Grab AND ( ( Drifters Cloak OR Dash ) OR ( easy Beast Crest pogo AND easy Needle Strike stall ) ) ) ) |  | Verified |  |
 | TS3 | Tall Shaft3 | Top | Centre | None |  | Verified |  |
-| TS3 | Tall Shaft3 | Centre | Top | Silk Soar AND Cling grip AND ( Dash OR Clawline OR Sharpdart OR Faydown Cloak OR Drifters Cloak ) OR ( Beast Crest AND Needle Strike ) |  | Verified |  |
+| TS3 | Tall Shaft3 | Centre | Top | Silk Soar AND Cling grip AND ( ( Dash OR Clawline OR Sharpdart OR Faydown Cloak OR Drifters Cloak ) OR ( easy Beast Crest pogo AND easy Needle Strike stall) ) |  | Verified |  |
 
 ## Check Locations
 

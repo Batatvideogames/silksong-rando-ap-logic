@@ -20,7 +20,7 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Watcher at the edge |  | Needolin AND ( 2 x Needle upgrade OR Proficient combat ) |  | Verified | Included |  |
-| Grey Memento |  | Needolin AND ( 2 x Needle upgrade OR Proficient combat ) |  | Verified | Not included |  |
+| Watcher at the edge |  | Needolin AND Needle Upgrades 2 |  | Verified | boss |  |
+| Grey Memento |  | Needolin AND Needle Upgrades 2 |  | Verified | collectible |  |

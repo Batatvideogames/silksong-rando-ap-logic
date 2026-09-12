@@ -31,6 +31,6 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Underworks: Flip Switch (Left) #3 | Lever Shaft | Nothing. |  | Verified | Included |  |
+| Underworks: Flip Switch (Left) #3 | Lever Shaft | Nothing. |  | Verified |  |  |

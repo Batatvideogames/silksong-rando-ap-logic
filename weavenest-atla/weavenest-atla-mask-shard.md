@@ -20,13 +20,13 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| G1 | gap 1 | left exit area | starting line | spike pogo easy OR run OR dash OR drifter's cloak OR faydown cloak OR cling grip OR clawline OR sharpdart |  | Verified |  |
-| G1 | gap 1 | starting line | left exit area | spike pogo easy OR run OR dash OR drifter's cloak OR faydown cloak OR cling grip OR clawline OR sharpdart |  | Verified |  |
-| LC | lava challenge | starting line | mask shard spot | silk soar  OR ( medium skips enabled AND scuttlebrace )  OR ( ( cling grip OR scuttlebrace ) AND ( run OR dash OR drifter's cloak OR faydown cloak OR clawline OR sharpdart ) ) |  | Verified | the scuttlebrace-only tech allows this to be done without anything else, but I would personally consider it medium because of the timing and control requirements w/ lava damage for mistakes |
+| G1 | gap 1 | left exit area | starting line | spike pogo OR run OR dash OR drifter's cloak OR faydown cloak OR cling grip OR clawline OR sharpdart |  | Verified |  |
+| G1 | gap 1 | starting line | left exit area | spike pogo OR run OR dash OR drifter's cloak OR faydown cloak OR cling grip OR clawline OR sharpdart |  | Verified |  |
+| LC | lava challenge | starting line | mask shard spot | silk soar  OR medium scuttlebrace OR ( ( cling grip OR scuttlebrace ) AND ( dash OR drifter's cloak OR faydown cloak OR clawline OR sharpdart ) ) |  | Verified | the scuttlebrace-only tech allows this to be done without anything else, but I would personally consider it medium because of the timing and control requirements w/ lava damage for mistakes |
 | LC | lava challenge | mask shard spot | starting line | none (falling) |  | Verified |  |
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| weavenest alta mask shard | mask shard spot | none |  | Verified | Included |  |
+| weavenest alta mask shard | mask shard spot | none |  | Verified | collectible |  |

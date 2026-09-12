@@ -20,6 +20,6 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| plasmified zango boss fight |  | TODO (act 3?) | TODO |  | Included |  |
+| plasmified zango boss fight |  | TODO (act 3?) | TODO |  |  |  |

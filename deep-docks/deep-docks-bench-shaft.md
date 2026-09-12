@@ -22,10 +22,10 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| bench rosary lock |  | none |  |  | Not included |  |
-| bench |  | unlock bench |  |  | Not included |  |
-| rosary cache deep docks 7 |  | none |  |  | Included | MARKED AS ??? ON TRACKER |
-| rosary cache deep docks 8 |  | none |  |  | Included | MARKED AS ??? ON TRACKER |
-| shell shard cache deep docks 4 |  | none |  |  | Included | MARKED AS ??? ON TRACKER |
+| bench rosary lock |  | none |  |  |  |  |
+| bench |  | unlock bench |  |  |  |  |
+| rosary cache deep docks 7 |  | none |  |  |  | MARKED AS ??? ON TRACKER |
+| rosary cache deep docks 8 |  | none |  |  |  | MARKED AS ??? ON TRACKER |
+| shell shard cache deep docks 4 |  | none |  |  |  | MARKED AS ??? ON TRACKER |

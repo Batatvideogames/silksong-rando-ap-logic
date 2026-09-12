@@ -25,8 +25,8 @@
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Bilewater - Shell Shard Cache #3 | lower | none |  |  | Included |  |
-| Bilewater - Shell Shard Cache #4 | lower | none |  |  | Included |  |
-| Quick Sling | upper | cling grab OR silk soar AND up attack |  |  | Included | up attack for breakable wall |
+| Bilewater - Shell Shard Cache #3 | lower | none |  |  |  |  |
+| Bilewater - Shell Shard Cache #4 | lower | none |  |  |  |  |
+| Quick Sling | upper | cling grab OR silk soar AND up attack |  |  |  | up attack for breakable wall |

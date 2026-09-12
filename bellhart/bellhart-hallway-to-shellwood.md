@@ -21,7 +21,7 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Rosary Cache: Bellhart #4 |  | Cling Grip OR Silk soar OR ( Dash AND Scuttlebrace AND Faydown Cloak ) |  | Verified | Included |  |
-| Bellhart- Outer Sign |  | None |  | Verified | Included |  |
+| Rosary Cache: Bellhart #4 |  | Cling Grip OR Silk soar OR ( Dash AND Scuttlebrace AND Faydown Cloak ) |  | Verified | resource |  |
+| Bellhart- Outer Sign |  | None |  | Verified | lore |  |

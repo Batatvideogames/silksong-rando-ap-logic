@@ -21,7 +21,7 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| bone bottom spool fragment |  | none |  |  | Included |  |
-| floor switch to open ceiling exit |  | none |  |  | Included |  |
+| bone bottom spool fragment |  | none |  |  |  |  |
+| floor switch to open ceiling exit |  | none |  |  |  |  |

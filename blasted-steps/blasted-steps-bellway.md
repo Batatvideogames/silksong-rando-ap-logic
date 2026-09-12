@@ -22,6 +22,6 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Archipelago | Notes |
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Bellway: Blasted Steps |  | Nothing |  | Verified | Included |  |
+| Bellway: Blasted Steps |  | Nothing |  | Verified |  |  |

@@ -21,7 +21,7 @@
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | SH | Shaft | Top | Bottom | None |  | Verified | Spike Pogo |
-| SH | Shaft | Bottom | Top | Silk Soar AND ( Cling Grip OR ( Reaper Crest AND Ledge Grab ) OR Scuttlebrace |  | Verified |  |
+| SH | Shaft | Bottom | Top | Silk Soar AND ( Cling Grip OR ( easy Reaper Crest pogo AND Ledge Grab ) OR Scuttlebrace ) |  | Verified |  |
 
 ## Check Locations
 
