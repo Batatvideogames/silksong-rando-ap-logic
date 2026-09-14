@@ -23,4 +23,4 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Boss: Last Judge |  | Swift Step OR Faydown |  | Verified |  | Combat Requirements |
+| Boss: Last Judge |  | Progressive Swift Step 2 OR Faydown |  | Verified | boss | Combat Requirements |

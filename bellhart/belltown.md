@@ -32,29 +32,29 @@
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | Memory Locket: Bellhart roof | Upper Area | Silk Soar |  | Verified | collectible |  |
-| Wish: Silver Bells | Lower Area | 8 Silver Bells |  | Verified |  |  |
-| Wish: My Missing Courier | Lower Area | Locate Tipp in Aspid_01 |  | Verified |  |  |
-| Wish: Crawbug Clearing | Lower Area | 25 Ragpelt |  | Verified |  |  |
-| Wish: Restoration of Bellhart | Lower Area | 250 Rosaries |  | Verified |  |  |
-| Wish: Bellharts Glory | Lower Area | 400 Rosaries |  | Verified |  |  |
-| Wish: My missing Brother | Lower Area | Locate Pill in Dust_04 |  | Verified |  |  |
-| Wish: Savage Beastfly | Lower Area | Kill the Savage Beastfly in Bone_East_08 |  | Verified |  |  |
-| Wish: Trails End | Lower Area | Meet Shakra in Shadow_24 |  | Verified |  |  |
-| Wish: Fatal Resolve | Lower Area | Find note in room_pinstress and beat her at Peak_07 AND ACT3 |  | Verified |  |  |
-| Wish: Ecstacy of the end | Lower Area | Achieve the highscore in all 3 games in Fleatopia ( Aqueduct_05 ) AND ACT3 |  | Verified |  |  |
-| Wish: Heros Call | Lower Area | Defeat Lost Garmond in Coral_33 AND ACT3 |  | Verified |  |  |
-| Wish: The Hidden Hunter | Lower Area | Defeat Gurr the Outcast in Bone_east_18b |  | Verified |  |  |
-| Wish: Dark hearts | Lower Area | Defeat 12 Void Masses AND ACT3 |  | Verified |  |  |
-| Wish: The Threadspun town | Lower Area | Defeat Widow in Belltown_Shrine |  | Verified |  |  |
-| Wish: Bone bottom supplys | Upper Area | Travel to Bone Bottom ( Bonetown ) |  | Verified |  |  |
-| Wish: Pilgrims Rest Supplys | Upper Area | Travel to Pilgrims Rest ( Bone_east_10 ) |  | Verified |  |  |
-| Wish: Queens Egg | Upper Area | Travel to Dust_11 |  | Verified |  |  |
-| Wish; Songclave Supplys | Upper Area | Travel to Songclave ( Song_enclave ) |  | Verified |  |  |
-| Wish: Fleatopia Supplys | Upper Area | Travel to Fleatopia ( Aqueduct_05 ) |  | Verified |  |  |
-| Wish: Liquid Laquer | Upper Area | Travel to Mask Maker ( Peak_mask_maker ) |  | Verified |  |  |
-| Wish: Couriers Rasher | Upper Area | Travel to Song_09b fast |  | Verified |  |  |
-| Memory Locket ( Frey ) | Lower Area | 330 Rosaries |  | Verified |  |  |
-| Spool Fragment ( Frey ) | Lower Area | 270 Rosaries AND Wish: My missing Courier completed |  | Verified |  |  |
+| Wish: Silver Bells | Lower Area | 8 Silver Bells |  | Verified | event |  |
+| Wish: My Missing Courier | Lower Area | Locate Tipp in Aspid_01 |  | Verified | event |  |
+| Wish: Crawbug Clearing | Lower Area | 25 Ragpelt |  | Verified | event |  |
+| Wish: Restoration of Bellhart | Lower Area | 250 Rosaries |  | Verified | event |  |
+| Wish: Bellharts Glory | Lower Area | 400 Rosaries |  | Verified | event |  |
+| my missing courier wish promised | Lower Area | none |  |  | event |  |
+| Wish: Savage Beastfly | Lower Area | Kill the Savage Beastfly in Bone_East_08 |  | Verified | event |  |
+| Wish: Trails End | Lower Area | Meet Shakra in Shadow_24 |  | Verified | event |  |
+| Wish: Fatal Resolve | Lower Area | Find note in room_pinstress and beat her at Peak_07 AND ACT3 |  | Verified | event |  |
+| Wish: Ecstacy of the end | Lower Area | Achieve the highscore in all 3 games in Fleatopia ( Aqueduct_05 ) AND ACT3 |  | Verified | event |  |
+| Wish: Heros Call | Lower Area | Defeat Lost Garmond in Coral_33 AND ACT3 |  | Verified | event |  |
+| Wish: The Hidden Hunter | Lower Area | Defeat Gurr the Outcast in Bone_east_18b |  | Verified | event |  |
+| Wish: Dark hearts | Lower Area | Defeat 12 Void Masses AND ACT3 |  | Verified | event |  |
+| Wish: The Threadspun town | Lower Area | Defeat Widow in Belltown_Shrine |  | Verified | event |  |
+| Wish: Bone bottom supplys | Upper Area | Travel to Bone Bottom ( Bonetown ) |  | Verified | event |  |
+| pilgrims rest supplies wish promised | Upper Area | act 1 OR act 2 |  | Verified | event | not available in act 3 |
+| Wish: Queens Egg | Upper Area | Travel to Dust_11 |  | Verified | event |  |
+| Wish; Songclave Supplys | Upper Area | Travel to Songclave ( Song_enclave ) |  | Verified | event |  |
+| Wish: Fleatopia Supplys | Upper Area | Travel to Fleatopia ( Aqueduct_05 ) |  | Verified | event |  |
+| Wish: Liquid Laquer | Upper Area | Travel to Mask Maker ( Peak_mask_maker ) |  | Verified | event |  |
+| Wish: Couriers Rasher | Upper Area | Travel to Song_09b fast |  | Verified | event |  |
+| Memory Locket ( Frey ) | Lower Area | 330 Rosaries |  | Verified | event |  |
+| Spool Fragment ( Frey ) | Lower Area | 270 Rosaries AND Wish: My missing Courier completed |  | Verified | event |  |
 | Multibinder | Lower Area | prereq Wish: My missing Courier |  | Verified | collectible |  |
 | Desk | Lower Area | 380 Rosaries |  | Verified |  |  |
 | Gleamlights | Lower Area | 320 Rosaries |  | Verified |  |  |

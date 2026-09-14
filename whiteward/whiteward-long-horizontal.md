@@ -22,4 +22,4 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Relic: Choral Commandment (Eastern Whiteward) |  | Nothing |  | Verified |  |  |
+| Relic: Choral Commandment (Eastern Whiteward) |  | Nothing |  | Verified | collectible |  |

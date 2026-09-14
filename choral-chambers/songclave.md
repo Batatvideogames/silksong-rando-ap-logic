@@ -21,7 +21,7 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| V | Vertical | Base | Top Platform | silk soar or cling grip |  | Verified |  |
+| V | Vertical | Base | Top Platform | silk soar OR cling grip |  | Verified |  |
 | V | Vertical | Top Platform | Base | none |  | Verified | falling |
 
 ## Check Locations
@@ -30,3 +30,4 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | White Key | Base | none |  |  |  |  |
 | Wish: Pain, Anguish and Misery | Base | Act 3 AND Defeat Trobbio IN Trobbio |  |  | event |  |
+| Balm for the Wounded Wish Start | Base |  | TODO |  |  |  |

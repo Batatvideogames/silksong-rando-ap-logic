@@ -25,4 +25,4 @@ No subroom connections defined.
 | weighted belt |  | none (shop) |  | Verified | collectible | POSITION OF WEIGHTED BELT DEPENDS ON ACT - CAN BUY IT HERE IN ACT 1 AND 2 BUT HAVE TO GRAB IT FROM ACT 3 IN THE WIND SHAFT |
 | memory locket pilgrims rest shop |  | none (shop) |  | Verified | collectible | shop |
 | tool pouch pilgrim's rest shop |  | none (shop) |  | Verified | collectible | NOT RANDOMIZED AS OF v0.4.2 |
-| pilgrims rest supplies wish goal |  | complete THE pilgrims rest supplies wish start |  | Verified | collectible |  |
+| pilgrims rest supplies wish granted |  | complete THE pilgrims rest supplies wish promised |  | Verified | collectible |  |

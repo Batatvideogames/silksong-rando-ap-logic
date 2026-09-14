@@ -26,20 +26,21 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| BLR | Bottom Third Left to Right | Bottom Third (Left) | Bottom Third (Right) | Swift Step OR Faydown OR Clawline OR Flea Brew OR Sharpdart |  | Verified |  |
-| BLR | Bottom Third Left to Right | Bottom Third (Right) | Bottom Third (Left) | Swift Step OR Faydown OR Clawline OR Flea Brew OR Sharpdart |  | Verified |  |
-| BMB | Bottom to Middle Bottom | Bottom Third (Right) | Middle Third (Bottom) | ((Swift Step OR Faydown OR Clawline OR (Easy Beast Crest Pogo) OR Sharpdart) AND Cling Grip) OR (Swift Step AND Scuttlebrace AND (Easy Enemy Pogo OR Flea Brew OR Easy Skip)) OR Silk Soar |  | Verified |  |
+| BLR | Bottom Third Left to Right | Bottom Third (Left) | Bottom Third (Right) | Progressive Swift Step 1 OR Faydown OR Clawline OR Flea Brew OR Sharpdart OR Easy Beast Crest Pogo |  | Verified |  |
+| BLR | Bottom Third Left to Right | Bottom Third (Right) | Bottom Third (Left) | Progressive Swift Step 1 OR Faydown OR Clawline OR Flea Brew OR Sharpdart OR Easy Beast Crest Pogo |  | Verified |  |
+| BMB | Bottom to Middle Bottom | Bottom Third (Right) | Middle Third (Bottom) | Cling Grip OR Scuttlebrace OR Silk Soar |  | Verified |  |
 | BMB | Bottom to Middle Bottom | Middle Third (Bottom) | Bottom Third (Right) | Nothing (Falling) |  | Verified |  |
-| MBT | Middle Bottom to Middle Top | Middle Third (Bottom) | Middle Third (Top) | ((Swift Step OR Faydown OR Clawline OR (Easy Beast Crest Pogo) OR Sharpdart) AND Cling Grip) OR (Swift Step AND Scuttlebrace AND (Easy Enemy Pogo OR Flea Brew OR Easy Skip)) OR Silk Soar |  | Verified |  |
+| MBT | Middle Bottom to Middle Top | Middle Third (Bottom) | Middle Third (Top) | ((Progressive Swift Step 2 OR Faydown OR Clawline  OR Sharpdart) AND Cling Grip) OR ((Hard Scuttlebrace AND Ledge Grab) OR (Medium Scuttlebrace AND (Flea Brew OR Faydown OR Clawline) AND Ledge Grab)) OR Silk Soar |  | Verified |  |
 | MBT | Middle Bottom to Middle Top | Middle Third (Top) | Middle Third (Bottom) | Nothing (Falling) |  | Verified |  |
-| MTE | Middle Top to Middle Entrance | Middle Third (Top) | Middle Third (Entrance) | ((Swift Step OR Faydown OR Clawline OR (Easy Beast Crest Pogo) OR Sharpdart) AND Cling Grip) OR (Swift Step AND Scuttlebrace AND (Easy Enemy Pogo OR Flea Brew OR Easy Skip)) OR Silk Soar |  | Verified |  |
-| MTE | Middle Top to Middle Entrance | Middle Third (Entrance) | Middle Third (Top) | Swift Step OR Faydown OR Clawline OR Flea Brew OR Sharpdart |  | Verified |  |
-| MET | Middle Entrance to Top | Middle Third (Entrance) | Top Third | ((Swift Step OR Faydown OR Clawline OR (Easy Beast Crest Pogo) OR Sharpdart) AND Cling Grip) OR (Swift Step AND Scuttlebrace AND (Easy Enemy Pogo OR Flea Brew OR Easy Skip)) OR Silk Soar |  | Verified |  |
+| MTE | Middle Top to Middle Entrance | Middle Third (Top) | Middle Third (Entrance) | Clawline OR Faydown OR Scuttlebrace OR Cling Grip OR Silk Soar OR Sharpdart OR ((Drifter's OR (Progressive Swift Step 2 AND Flea Brew) OR (Flea Brew AND Medium Flea Brew Stall)) AND Ledge Grab) |  | Verified |  |
+| MTE | Middle Top to Middle Entrance | Middle Third (Entrance) | Middle Third (Top) | Progressive Swift Step 2 OR Faydown OR Clawline OR  Sharpdart OR (Flea Brew AND Easy Flea Brew Stall) |  | Verified |  |
+| MET | Middle Entrance to Top | Middle Third (Entrance) | Top Third | Cling Grip OR Silk Soar OR (Scuttlebrace AND Spike Pogo) OR (Faydown AND Easy Enemy Pogo) |  | Verified |  |
 | MET | Middle Entrance to Top | Top Third | Middle Third (Entrance) | Nothing (Falling) |  | Verified |  |
-| TTE | Top to Top Entrance | Top Third | Top Third (Entrance) | ((Swift Step OR Faydown OR Clawline OR (Easy Beast Crest Pogo) OR Sharpdart) AND Cling Grip) OR (Swift Step AND Scuttlebrace AND (Easy Enemy Pogo OR Flea Brew OR Easy Skip)) OR Silk Soar |  | Verified |  |
+| TTE | Top to Top Entrance | Top Third | Top Third (Entrance) | Nothing |  | Verified |  |
+| TTE | Top to Top Entrance | Top Third (Entrance) | Top Third | Progressive Swift Step 2 OR Faydown OR Clawline OR Sharpdart OR Flea Brew |  | Verified |  |
 
 ## Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Map Purchase: Blasted Steps | Bottom Third (Right) | Swift Step OR Faydown OR Clawline OR Flea Brew OR Sharpdart AND Act 1 |  | Verified |  | This can be purchased at Bellhart if Shakra has moved. |
+| Map Purchase: Blasted Steps | Bottom Third (Right) | (Progressive Swift Step 1 OR Faydown OR Clawline OR Flea Brew OR Sharpdart OR Easy Beast Crest Pogo) AND Act 1 |  | Verified | collectible | This can be purchased at Bellhart if Shakra has moved. |

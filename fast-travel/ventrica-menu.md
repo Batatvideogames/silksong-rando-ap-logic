@@ -8,13 +8,13 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| T | terminus |  | [Terminus Ventrica (Tube_Hub)](../the-cradle/terminus-ventrica.md) | V | unlock terminus ventrica |  | Verified |  |
-| M | memorium |  | TODO |  | unlock memorium ventrica | TODO |  |  |
-| HH | high halls |  | [High Halls Ventrica (Hang_06b)](../high-halls/high-halls-ventrica.md) | V | unlock high halls ventrica |  | Verified |  |
-| FS | first shrine |  | [Songclave Tube (Song_Enclave_Tube)](../choral-chambers/songclave-tube.md) | V | unlock first shrine ventrica |  | Verified |  |
-| CC | choral chambers |  | [Choral Chambers Ventrica Room (Song_01b)](../choral-chambers/choral-chambers-ventrica-room.md) | V | unlock choral chambers ventrica |  | Verified |  |
-| GB | grand bellway |  | [Grand Bellway (Bellway_City)](../choral-chambers/grand-bellway.md) | VT | unlock grand bellway ventrica |  | Verified |  |
-| UW | underworks |  | [Underworks Ventrica (Under_22)](../underworks/underworks-ventrica.md) | V | unlock underworks ventrica |  | Verified |  |
+| T | terminus |  | [Terminus Ventrica (Tube_Hub)](../the-cradle/terminus-ventrica.md) | V | have ventrica terminus |  | Verified |  |
+| M | memorium |  | TODO |  | have ventrica memorium | TODO |  |  |
+| HH | high halls |  | [High Halls Ventrica (Hang_06b)](../high-halls/high-halls-ventrica.md) | V | have ventrica high halls |  | Verified |  |
+| FS | first shrine |  | [Songclave Tube (Song_Enclave_Tube)](../choral-chambers/songclave-tube.md) | V | have ventrica first shrine |  | Verified |  |
+| CC | choral chambers |  | [Choral Chambers Ventrica Room (Song_01b)](../choral-chambers/choral-chambers-ventrica-room.md) | V | have ventrica choral chambers |  | Verified |  |
+| GB | grand bellway |  | [Grand Bellway (Bellway_City)](../choral-chambers/grand-bellway.md) | VT | have ventrica grand bellway |  | Verified |  |
+| UW | underworks |  | [Underworks Ventrica (Under_22)](../underworks/underworks-ventrica.md) | V | have ventrica underworks |  | Verified |  |
 
 ## Subroom Connections
 

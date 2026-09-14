@@ -13,7 +13,7 @@ No subrooms defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | L | left1 |  | [High Halls Vault (Hang_06)](high-halls-vault.md) | R | none |  | Verified |  |
-| V | door_tubeEnter |  | [Ventrica Menu](../fast-travel/ventrica-menu.md) | HH | rosaries |  | Verified |  |
+| V | door_tubeEnter |  | [Ventrica Menu](../fast-travel/ventrica-menu.md) | HH | unlock ventrica high halls |  | Verified |  |
 
 ## Subroom Connections
 
@@ -24,4 +24,4 @@ No subroom connections defined.
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | High Halls - Map Purchase |  | rosaries |  | Verified |  |  |
-| High Halls - Ventrica |  | rosaries |  | Verified |  |  |
+| Ventrica High Halls |  | rosaries |  | Verified |  |  |

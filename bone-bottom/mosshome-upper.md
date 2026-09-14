@@ -6,41 +6,47 @@
 
 ## Subrooms
 
-- main area
-- bottom right area
-- upper left area
-- upper main area
+- center platforms
+- ground right
+- ground left
+- spire platforms
+- silkspear passage
 
 ## Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LF | left floor | main area | [Mosshome Middle (Mosstown_01)](mosshome-middle.md) | C | none |  |  |  |
-| L | left | main area | [The Big Fall (Aspid_01)](the-big-fall.md) | MR | break wall |  |  | wall can be broken from this side |
-| RF | right floor | bottom right area | [Mosshome Side Room (Bone_05b)](mosshome-side-room.md) | C | none |  |  |  |
-| R | right | bottom right area | [Mosshome Druid (Mosstown_02c)](mosshome-druid.md) | L | none |  |  |  |
+| LF | left floor | ground left | [Mosshome Middle (Mosstown_01)](mosshome-middle.md) | C | none |  | Verified |  |
+| L | left | ground left | [The Big Fall (Aspid_01)](the-big-fall.md) | MR | clear left exit breakable wall |  | Verified |  |
+| RF | right floor | ground right | [Mosshome Side Room (Bone_05b)](mosshome-side-room.md) | C | none |  | Verified |  |
+| R | right | ground right | [Mosshome Druid (Mosstown_02c)](mosshome-druid.md) | L | none |  | Verified |  |
 
 ## Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| RS | right silk blockade | main area | bottom right area | can break silk blockade |  |  |  |
-| RS | right silk blockade | bottom right area | main area | can break silk blockade |  |  |  |
-| LS | left silk blockade | upper main area | upper left area | can break silk blockade |  |  |  |
-| LS | left silk blockade | upper left area | upper main area | none (broken silk blockade) |  |  |  |
-| RB | rope barrier | upper left area | main area | none (cut the rope) |  |  |  |
-| RB | rope barrier | main area | upper left area | rope cut from other side AND (ledge grab OR height gain) |  |  |  |
-| RP | right platforms | main area | upper main area | ledge grab OR any height gain OR easy skips |  |  |  |
-| RP | right platforms | upper main area | main area | none |  |  |  |
+| RS | right silk blockade | center platforms | ground right | break silk blockade |  | Verified |  |
+| RS | right silk blockade | ground right | center platforms | break silk blockade |  | Verified |  |
+| GL | left ground crossing | ground left | center platforms | ledge grab OR spike pogo OR run OR dash OR faydown OR drifters OR clawline OR sharpdart OR easy beast pogo OR easy architect charge |  | Verified | platform above spikes make this way more complicated than it should |
+| GL | left ground crossing | center platforms | ground left | ledge grab OR spike pogo OR run OR dash OR faydown OR drifters OR clawline OR sharpdart OR easy beast pogo OR easy architect charge |  | Verified |  |
+| LS | left silk blockade | spire platforms | silkspear passage | break silk blockade |  | Verified |  |
+| LS | left silk blockade | silkspear passage | spire platforms | break silk blockade |  | Verified |  |
+| RB | rope barrier | silkspear passage | ground left | clear rope platform blockade |  | Verified |  |
+| RB | rope barrier | ground left | silkspear passage | clear rope platform blockade AND ( ledge grab OR cling grip OR faydown OR silk soar OR easy shaman pogo ) |  | Verified |  |
+| V1 | vertical 1 | center platforms | spire platforms | ledge grab OR cling grip OR faydown OR silk soar OR easy shaman pogo |  | Verified |  |
+| V1 | vertical 1 | spire platforms | center platforms | none |  | Verified |  |
 
 ## Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| silkspear | main area | none |  |  |  |  |
-| frayed rosary string bone bottom silkspear passage | upper left area | none |  |  |  |  |
-| rosary cache mosshome 3 | main area | none |  |  |  |  |
-| rosary cache mosshome 4 | main area | none |  |  |  |  |
+| mosshome moss plaque | center platforms | none |  | Verified | lore |  |
+| silkspear | spire platforms | none |  | Verified | collectible |  |
+| mosshome rosary cache 3 | spire platforms | none |  | Verified | collectible |  |
+| mosshome rosary cache 4 | spire platforms | none |  | Verified | collectible |  |
+| frayed rosary string bone bottom silkspear passage | silkspear passage | none |  | Verified | collectible |  |
+| rope platform blockade | silkspear passage | cut rope down OR cut rope left OR cut rope right OR cut rope up |  | Verified | blockade |  |
+| left exit breakable wall | ground left | break wall left |  | Verified | blockade |  |
 
 ## Notes
 

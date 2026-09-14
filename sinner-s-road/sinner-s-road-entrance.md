@@ -24,3 +24,4 @@ No subroom connections defined.
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | Frayed Rosary String: Sinner's Road |  | left attack |  |  | collectible |  |
+| Lace 1 Encounter Spot |  | none |  | Verified | event | This needs to be converted into a multi-point access virtual location. |

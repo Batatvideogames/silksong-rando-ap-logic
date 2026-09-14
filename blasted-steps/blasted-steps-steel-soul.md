@@ -22,5 +22,5 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Silkeater: Blasted Steps |  | Nothing |  | Verified |  |  |
-| Wish: A Vassal Lost |  | Steel Soul |  | Verified |  |  |
+| Silkeater: Blasted Steps |  | Nothing |  | Verified | collectible |  |
+| Wish: A Vassal Lost |  | Steel Soul |  | Verified | event |  |

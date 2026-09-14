@@ -22,4 +22,4 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Needle Strike |  | Nothing |  | Verified |  |  |
+| Needle Strike |  | Nothing |  | Verified | collectible |  |

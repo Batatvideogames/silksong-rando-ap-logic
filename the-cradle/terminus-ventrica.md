@@ -19,7 +19,7 @@
 | LL | left1 | Lower Shaft | [Lace 2 Fight (Song_Tower_01)](lace-2-fight.md) | R | ACT 2 |  | Verified |  |
 | ML | left4 | Central Shaft | [Act2 Cradle Connector Hallway (Cradle_01)](act2-cradle-connector-hallway.md) | R | ACT 2 |  | Verified |  |
 | UL | left3 | Upper Shaft | [ACT2 GMS Arena (Cradle_03)](act2-gms-arena.md) | R | ACT 2 |  | Verified |  |
-| V | door_tubeEnter | Ventricas | [Ventrica Menu](../fast-travel/ventrica-menu.md) | T | Prereq Terminus Ventrica |  | Verified |  |
+| V | door_tubeEnter | Ventricas | [Ventrica Menu](../fast-travel/ventrica-menu.md) | T | unlock ventrica terminus |  | Verified |  |
 
 ## Subroom Connections
 
@@ -42,7 +42,7 @@
 | Breakable Floor terminus | Ventricas | None |  | Verified | blockade |  |
 | Terminus OWW | Lower Shaft | None |  | Verified | blockade |  |
 | Terminus Upper Shaft | Upper Shaft | None |  | Verified | switch |  |
-| Terminus Ventrica | Ventricas | Invalid |  | Verified | travel | Always owned |
+| Ventrica Terminus | Ventricas | None |  | Verified | travel | Always owned |
 
 ## Notes
 

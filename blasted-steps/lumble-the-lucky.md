@@ -22,4 +22,5 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Magnetite Dice |  | (Win Against Lumble after He Runs Out of Rosaries OR Clawline Location Acquired OR Event: Cogwork Dancers Defeated) AND Act 2 |  | Verified |  | Changed "NOT Act 3" to Act 2 - hero |
+| Magnetite Dice |  | ( Complete Bankrupt Lumble OR Prereq Clawline Pickup IN Underworks Clawline Room OR Prereq THE cogwork dancers boss fight ) AND ( Act 1 OR Act 2 ) |  | Verified | collectible |  |
+| Bankrupt Lumble |  | None |  | Verified | event |  |

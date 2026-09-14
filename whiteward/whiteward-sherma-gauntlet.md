@@ -22,5 +22,6 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Wish: Balm for the Wounded |  | Start Balm for the Wounded Wish AND Beat Sherma Gauntlet in Whiteward Sherma Gauntlet (Ward_09) |  | Verified |  | Completion for the wish. |
-| Balm for the Wounded - Spool Fragment |  | Start Balm for the Wounded Wish AND Beat Sherma Gauntlet in Whiteward Sherma Gauntlet (Ward_09) |  | Verified |  | Completion for the wish. |
+| Balm for the Wounded Gauntlet |  | Nothing |  | Verified | gauntlet | Completion for the wish. |
+| Balm for the Wounded - Spool Fragment |  | Complete Balm for the Wounded Wish Goal |  | Verified | event | Completion for the wish. |
+| Balm for the Wounded Wish Goal |  | Defeat Balm for the Wounded Gauntlet |  | Verified | event |  |

@@ -13,7 +13,7 @@ No subrooms defined.
 | T | top1 |  | [Slab Infleatween Bottom (Slab_05)](slab-infleatween-bottom.md) | B | none |  |  |  |
 | NI | door1 |  | TODO |  |  | TODO |  | Not implemented as far as I know |
 | L | left1 |  | [Mount Fay Entrance (Peak_01)](../mount-fay/mount-fay-entrance.md) | LR | none | TODO |  | To Peaks_01 |
-| BW | door_fastTravelExit |  | [Bellway Menu](../fast-travel/bellway-menu.md) | TS | bellway available |  |  |  |
+| BW | door_fastTravelExit |  | [Bellway Menu](../fast-travel/bellway-menu.md) | TS | Unlock Bellway The Slab |  |  |  |
 
 ## Subroom Connections
 
@@ -24,4 +24,5 @@ No subroom connections defined.
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | Flea: The Slab - Bellway |  | (cling grip and faydown) or silk soar |  |  |  |  |
-| The Slab - Bellway |  | rosaries |  |  |  |  |
+| Bellway The Slab |  | Unlock Bellway Rosary Lock |  |  | travel |  |
+| Bellway Rosary Lock |  | rosaries 40 |  |  | lock |  |

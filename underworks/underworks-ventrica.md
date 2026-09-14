@@ -11,7 +11,7 @@ No subrooms defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | R | right1 |  | [Underworks East Shaft (Under_13)](underworks-east-shaft.md) | HL | Nothing. |  | Verified |  |
-| V | door_tubeEnter |  | [Ventrica Menu](../fast-travel/ventrica-menu.md) | UW | Nothing. |  | Verified |  |
+| V | door_tubeEnter |  | [Ventrica Menu](../fast-travel/ventrica-menu.md) | UW | have ventrica underworks |  | Verified |  |
 
 ## Subroom Connections
 

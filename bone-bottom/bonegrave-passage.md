@@ -22,4 +22,4 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| summoned savior boss fight |  | TODO (steel soul only?) | TODO |  |  |  |
+| summoned savior boss fight |  |  | TODO |  | boss |  |

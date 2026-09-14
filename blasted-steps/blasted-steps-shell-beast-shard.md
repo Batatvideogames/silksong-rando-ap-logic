@@ -22,7 +22,7 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Beast Shard: Blasted Steps |  | (Swift Step AND Scuttlebrace AND Faydown) OR Cling Grip OR Silk Soar |  | Verified |  |  |
-| Shell Shard Cache: Blasted Steps #4 |  | (Swift Step AND Scuttlebrace AND Faydown) OR Cling Grip OR Silk Soar |  | Verified |  |  |
-| Shell Shard Cache: Blasted Steps #5 |  | (Swift Step AND Scuttlebrace AND Faydown) OR Cling Grip OR Silk Soar |  | Verified |  |  |
-| Blasted Steps - Judge Nursery Record |  | Nothing |  | Verified |  |  |
+| Beast Shard: Blasted Steps |  | (Scuttlebrace AND Faydown) OR Cling Grip OR Silk Soar |  | Verified | collectible |  |
+| Shell Shard Cache: Blasted Steps #4 |  | (Scuttlebrace AND Faydown) OR Cling Grip OR Silk Soar |  | Verified | collectible |  |
+| Shell Shard Cache: Blasted Steps #5 |  | (Scuttlebrace AND Faydown) OR Cling Grip OR Silk Soar |  | Verified | collectible |  |
+| Blasted Steps - Judge Nursery Record |  | Nothing |  | Verified | lore |  |

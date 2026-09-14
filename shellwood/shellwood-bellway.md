@@ -16,7 +16,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | R | right1 | Right Puddle | [Shellwood Lower Left Tall Room (Shellwood_03)](shellwood-lower-left-tall-room.md) | UL | None |  | Verified |  |
 | L | left1 | Left Puddle | [Shellwood Bellshrine (Bellshrine_03)](shellwood-bellshrine.md) | R | Have Bell: Shellwood AND Activate Shellwood Shrine IN Shellwood Bellshrine |  | Verified | Might also need switch from other side, needs testing |
-| BB | door_fastTravelExit | Right Puddle | [Bellway Menu](../fast-travel/bellway-menu.md) | SW | Prereq Bellway: Shellwood |  | Verified |  |
+| BB | door_fastTravelExit | Right Puddle | [Bellway Menu](../fast-travel/bellway-menu.md) | SW | Unlock Shellwood Bellway |  | Verified |  |
 
 ## Subroom Connections
 
@@ -29,4 +29,5 @@
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Bellway: Shellwood | Right Puddle | None |  | Verified | travel |  |
+| Shellwood Bellway | Right Puddle | Unlock Bellway Rosary Lock |  | Verified | travel |  |
+| Bellway Rosary Lock | Right Puddle | Rosaries 40 |  | Verified | lock |  |

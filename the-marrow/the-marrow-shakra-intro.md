@@ -23,8 +23,8 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| DS | door switch | main area | behind gate | door switch flipped |  |  |  |
-| DS | door switch | behind gate | main area | none (can flip door switch from this side) |  |  |  |
+| DS | door switch | main area | behind gate | activate bench gate switch |  | Verified |  |
+| DS | door switch | behind gate | main area | activate bench gate switch |  | Verified |  |
 
 ## Check Locations
 
@@ -42,3 +42,4 @@
 | map bellway pins | main area |  |  |  |  | shakra's shop \| appears to be bugged in availability logic still. shows available but isn't |
 | mosshome middle door switch | behind gate | none |  |  |  |  |
 | volatile flintbeetle 2 | main area | none | TODO |  |  | this one swaps position based on when [GAME STATE] - wiki says when the shortcut after bellshrine is opened |
+| bench gate switch | behind gate | flip switch up |  |  | switch |  |

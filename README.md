@@ -17,14 +17,14 @@ Generated from the non-archived records in `input/silksong-rando-logic.db`.
 - [Bonegrave (Bonegrave)](./bone-bottom/bonegrave.md)
 - [Bonegrave Passage (Bone_Steel_Servant)](./bone-bottom/bonegrave-passage.md)
 - [Chapel of the Wanderer (Chapel_Wanderer)](./bone-bottom/chapel-of-the-wanderer.md)
-- [Mosshome Lower (Bone_11)](./bone-bottom/mosshome-lower.md)
+- [The Big Fall (Aspid_01)](./bone-bottom/the-big-fall.md)
 - [Mosshome Side Room (Bone_05b)](./bone-bottom/mosshome-side-room.md)
 - [Mosshome Druid (Mosstown_02c)](./bone-bottom/mosshome-druid.md)
-- [Mosshome Spool (Bone_11b)](./bone-bottom/mosshome-spool.md)
 - [Mosshome Upper (Mosstown_02)](./bone-bottom/mosshome-upper.md)
 - [Mosshome Middle (Mosstown_01)](./bone-bottom/mosshome-middle.md)
-- [Mosshome Basement (Bone_01b)](./bone-bottom/mosshome-basement.md)
-- [The Big Fall (Aspid_01)](./bone-bottom/the-big-fall.md)
+- [Mosshome Lower (Bone_11)](./bone-bottom/mosshome-lower.md)
+- [Mosshome Basement (Bone_11b)](./bone-bottom/mosshome-basement.md)
+- [Mosshome Basement Passage (Bone_01b)](./bone-bottom/mosshome-basement-passage.md)
 
 ## The Marrow
 

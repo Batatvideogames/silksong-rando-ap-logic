@@ -16,7 +16,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | R | right1 | bellway | [Far Fields Pinstress Attic (Bone_East_09b)](far-fields-pinstress-attic.md) | L | none |  | Verified |  |
 | L | left1 | bellway | [Far Fields Wind Shaft (Bone_East_07)](far-fields-wind-shaft.md) | R2 | none |  | Verified |  |
-| BB | door_fastTravelExit | bellway | [Bellway Menu](../fast-travel/bellway-menu.md) | FF | unlock bellway rosary lock |  | Verified |  |
+| BB | door_fastTravelExit | bellway | [Bellway Menu](../fast-travel/bellway-menu.md) | FF | unlock bellway far fields |  | Verified |  |
 
 ## Subroom Connections
 
@@ -34,4 +34,4 @@
 | bench | bellway | unlock bench rosary lock |  | Verified | bench |  |
 | bench rosary lock | bellway | none |  | Verified | lock |  |
 | bellway rosary lock | bellway | none |  | Verified | lock |  |
-| far fields bellway | bellway | unlock bellway rosary lock |  | Verified | travel |  |
+| bellway far fields | bellway | unlock bellway rosary lock |  | Verified | travel |  |

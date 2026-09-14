@@ -12,7 +12,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left |  | [Mosshome Upper (Mosstown_02)](mosshome-upper.md) | R | none |  |  |  |
+| L | left |  | [Mosshome Upper (Mosstown_02)](mosshome-upper.md) | R | none |  | Verified |  |
 
 ## Subroom Connections
 
@@ -22,6 +22,8 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| wish berry picking |  | TODO |  |  |  | this just gets you druid's eye |
-| druid's eye |  | progressive mossberry (3) |  |  |  | TRACKER WRONG POSITION |
-| druid's eyes |  | progressive mossberry (7) |  |  |  | TRACKER WRONG POSITION |
+| berry picking wish start |  | none |  | Verified | event |  |
+| berry picking wish goal |  | mossberries 3 |  | Verified | event |  |
+| druid's eye |  | complete berry picking wish goal |  | Verified | collectible | TRACKER POSITION WRONG AS OF v0.4.5 |
+| druid's eyes |  | mossberries 7 |  | Verified | collectible | TRACKER POSITION WRONG AS OF v0.4.5 |
+| bench |  | none |  | Verified | bench |  |

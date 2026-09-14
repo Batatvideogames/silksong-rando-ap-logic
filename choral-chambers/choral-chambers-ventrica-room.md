@@ -16,7 +16,7 @@
 | R | right1 | Lateral | [Choral Chambers Below Spa (Song_02)](choral-chambers-below-spa.md) | L | none |  |  |  |
 | T | top1 | Ventrica | [Choral Chambers Above Ventrica (Song_03)](choral-chambers-above-ventrica.md) | B | cling grip or silk soar or faydown cloak |  |  |  |
 | B | bot1 | Lateral | [Choral Chambers Below Ventrica (Song_01)](choral-chambers-below-ventrica.md) | T | none |  |  |  |
-| V | door_tubeEnter | Ventrica | [Ventrica Menu](../fast-travel/ventrica-menu.md) | CC | rosaries |  |  |  |
+| V | door_tubeEnter | Ventrica | [Ventrica Menu](../fast-travel/ventrica-menu.md) | CC | unlock ventrica choral chambers |  |  |  |
 
 ## Subroom Connections
 

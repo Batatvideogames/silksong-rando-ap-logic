@@ -25,29 +25,29 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| BRM | Bottom Right to Middle | Bottom Right | Middle | Swift Step OR Faydown OR Clawline OR Flea Brew OR Sharpdart |  | Verified |  |
+| BRM | Bottom Right to Middle | Bottom Right | Middle | (Cling Grip AND (Progressive Swift Step 1 OR Sharpdart OR Clawline OR Flea Brew)) OR Faydown OR Easy Scuttlebrace OR Silk Soar |  | Verified |  |
 | BRM | Bottom Right to Middle | Middle | Bottom Right | Nothing (Falling) |  | Verified |  |
-| BLM | Bottom Left to Middle | Bottom Left | Middle | ((Swift Step OR Easy Beast Crest Pogo OR Clawline OR Sharpdart OR (Flea Brew AND Easy Flea Brew Stall AND Ledge Grab)) AND (Faydown OR Cling Grip OR Silk Soar)) OR (Scuttlebrace AND Swift Step) OR (Drifter's Cloak AND ((Faydown AND Enemy Pogo AND Ledge Grab) OR Silk Soar)) |  | Verified |  |
+| BLM | Bottom Left to Middle | Bottom Left | Middle | (Cling Grip AND (Progressive Swift Step 1 OR Sharpdart OR Clawline OR Flea Brew)) OR Faydown OR Medium Scuttlebrace OR Silk Soar |  | Verified |  |
 | BLM | Bottom Left to Middle | Middle | Bottom Left | Nothing (Falling) |  | Verified |  |
-| MTL | Middle to Top Left | Middle | Top Left | ((Swift Step OR Easy Beast Crest Pogo OR Clawline OR Sharpdart OR (Flea Brew AND Easy Flea Brew Stall AND Ledge Grab)) AND (Faydown OR Cling Grip OR Silk Soar)) OR (Scuttlebrace AND Swift Step) OR (Drifter's Cloak AND ((Faydown AND Enemy Pogo AND Ledge Grab) OR Silk Soar)) |  | Verified |  |
-| MTL | Middle to Top Left | Top Left | Middle | Swift Step OR Faydown OR Clawline OR Flea Brew OR Sharpdart OR Crest Pogo |  | Verified |  |
-| TLR | Top Left to Top Right | Top Left | Top Right | ((Swift Step OR Easy Beast Crest Pogo OR Clawline OR Sharpdart OR (Flea Brew AND Easy Flea Brew Stall AND Ledge Grab)) AND (Faydown OR Cling Grip OR Silk Soar)) OR (Scuttlebrace AND Swift Step) OR (Drifter's Cloak AND ((Faydown AND Enemy Pogo AND Ledge Grab) OR Silk Soar)) |  | Verified |  |
-| TLR | Top Left to Top Right | Top Right | Top Left | ((Swift Step OR Easy Beast Crest Pogo OR Clawline OR Sharpdart OR (Flea Brew AND Easy Flea Brew Stall AND Ledge Grab)) AND (Faydown OR Cling Grip OR Silk Soar)) OR (Scuttlebrace AND Swift Step) OR (Drifter's Cloak AND ((Faydown AND Enemy Pogo AND Ledge Grab) OR Silk Soar)) |  | Verified |  |
-| PLT | Pit Left to Top Right | Top Right Pit (Left) | Top Right | Cling Grip OR Scuttlebrace OR Silk Soar OR (Faydown AND Ledge Grab AND (Easy Heal Stall or Easy Flea Brew Stall)) |  | Verified |  |
+| MTL | Middle to Top Left | Middle | Top Left | (Cling Grip AND (Progressive Swift Step 1 OR Sharpdart OR Clawline OR Flea Brew)) OR Faydown OR Easy Scuttlebrace OR Silk Soar |  | Verified |  |
+| MTL | Middle to Top Left | Top Left | Middle | Nothing (Fall) |  | Verified |  |
+| TLR | Top Left to Top Right | Top Left | Top Right | (Cling Grip AND (Progressive Swift Step 2 OR Sharpdart OR Clawline OR (Flea Brew AND (Easy Flea Brew Stall OR Easy Heal Stall OR Ledge Grab)))) OR (Faydown AND Ledge Grab) OR Easy Scuttlebrace OR Silk Soar |  | Verified |  |
+| TLR | Top Left to Top Right | Top Right | Top Left | Progressive Swift Step 2 OR Sharpdart OR Clawline OR Faydown OR (Flea Brew AND (Easy Flea Brew Stall OR Easy Heal Stall OR Ledge Grab)) |  | Verified |  |
+| PLT | Pit Left to Top Right | Top Right Pit (Left) | Top Right | Cling Grip OR Scuttlebrace OR Silk Soar OR (Faydown AND Ledge Grab AND (Easy Heal Stall OR Easy Flea Brew Stall)) |  | Verified |  |
 | PLT | Pit Left to Top Right | Top Right | Top Right Pit (Left) | Nothing (Falling) |  | Verified |  |
-| PRT | Pit Right to Top RIght | Top Right Pit (Right) | Top Right | Cling Grip OR Scuttlebrace OR Faydown |  | Verified |  |
+| PRT | Pit Right to Top RIght | Top Right Pit (Right) | Top Right | Cling Grip OR Scuttlebrace OR (Faydown AND Ledge Grab) |  | Verified |  |
 | PRT | Pit Right to Top RIght | Top Right | Top Right Pit (Right) | Nothing (Falling) |  | Verified |  |
 | BRP | Bottom Right to Pit | Top Right Pit (Left) | Bottom Right | Nothing (Falling) |  | Verified |  |
-| BRP | Bottom Right to Pit | Bottom Right | Top Right Pit (Left) | Lever Broken FROM Coral_02 (Top Right Pit) AND Silk Soar AND Ledge Grab |  | Verified |  |
-| LPM | Left Pit to Middle | Top Right Pit (Left) | Middle | Lever Broken FROM Coral_02 (Top Right Pit) OR Easy Crest Pogo OR Clawline OR Flea Brew OR Sharpdart OR Swift Step OR Faydown |  | Verified |  |
-| LPM | Left Pit to Middle | Middle | Top Right Pit (Left) | Lever Broken FROM Coral_02 (Top Right Pit) AND Faydown OR (Silk Soar AND Ledge Grab) |  | Verified |  |
+| BRP | Bottom Right to Pit | Bottom Right | Top Right Pit (Left) | (Prereq Top Right Pit Lever (Top Right Pit) OR (Faydown AND Ledge Grab)) AND Silk Soar |  | Verified |  |
+| LPM | Left Pit to Middle | Top Right Pit (Left) | Middle | Prereq Top Right Pit Lever OR (Easy Hunter Crest Pogo OR Easy Reaper Crest Pogo OR Easy Beast Crest Pogo OR Easy Architect Crest Pogo) OR Clawline OR Flea Brew OR Sharpdart OR Progressive Swift Step 2 OR Faydown |  | Verified | Didn't Split Sprint/Dash |
+| LPM | Left Pit to Middle | Middle | Top Right Pit (Left) | (Prereq Top Right Pit Lever AND (Ledge Grab OR Faydown)) OR Silk Soar |  | Verified |  |
 
 ## Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Memory Locket: Blasted Steps | Top Right Pit (Right) | ((Swift Step OR Easy Beast Crest Pogo OR Clawline OR Sharpdart) AND (Faydown OR Cling Grip)) OR (Swift Step AND Scuttlebrace) OR (Drifter's Cloak AND (Faydown OR Silk Soar)) OR (Silk Soar AND Faydown) |  | Verified |  |  |
-| Shell Shard Cache: Blasted Steps #1 | Bottom Left | (Cling Grip AND (Swift Step OR Flea Brew OR Faydown OR Clawline)) OR (Swift Step and Scuttlebrace) |  | Verified |  |  |
-| Shell Shard Cache: Blasted Steps #2 | Bottom Left | (Cling Grip AND (Swift Step OR Flea Brew OR Faydown OR Clawline)) OR (Swift Step and Scuttlebrace) |  | Verified |  |  |
-| Shell Shard Cache: Blasted Steps #3 | Bottom Left | (Cling Grip AND (Swift Step OR Flea Brew OR Faydown OR Clawline)) OR (Swift Step and Scuttlebrace) |  | Verified |  |  |
-| Lever Coral_02 (Top Right Pit) | Top Right Pit (Left) | Nothing |  | Verified |  |  |
+| Memory Locket: Blasted Steps | Top Right Pit (Right) | Nothing (Fall) |  | Verified | collectible |  |
+| Shell Shard Cache: Blasted Steps #1 | Bottom Left | Nothing (Fall) |  | Verified | collectible |  |
+| Shell Shard Cache: Blasted Steps #2 | Bottom Left | Nothing (Fall) |  | Verified | collectible |  |
+| Shell Shard Cache: Blasted Steps #3 | Bottom Left | Nothing (Fall) |  | Verified | collectible |  |
+| Top Right Pit Lever | Top Right Pit (Left) | Nothing |  | Verified | switch |  |

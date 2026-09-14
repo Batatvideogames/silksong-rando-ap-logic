@@ -14,7 +14,7 @@ No subrooms defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | F | bot1 |  | [Bellhart Lower (Belltown_basement_03)](bellhart-lower.md) | C | None |  | Verified |  |
 | L | left1 |  | [Belltown (Belltown)](belltown.md) | BD | Ledge Grab OR Clawline OR Faydown Cloak OR Cling Grip OR Silk Soar |  | Verified |  |
-| BH | door_fastTravelExit |  | [Bellway Menu](../fast-travel/bellway-menu.md) | BH | complete bellway bellhart |  | Verified |  |
+| BH | door_fastTravelExit |  | [Bellway Menu](../fast-travel/bellway-menu.md) | BH | unlock Bellway Bellhart |  | Verified |  |
 
 ## Subroom Connections
 
@@ -25,4 +25,4 @@ No subroom connections defined.
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | bellway rosary lock |  | none |  | Verified | lock |  |
-| Bellway: Bellhart |  | complete bellway rosary lock |  | Verified | travel |  |
+| Bellway: Bellhart |  | unlock bellway rosary lock |  | Verified | travel |  |

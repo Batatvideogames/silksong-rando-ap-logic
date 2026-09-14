@@ -15,8 +15,8 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | R | right1 | Secret Tunnel | [Vaults & Bellway Cauldron Entrance (Library_11)](../underworks/vaults-bellway-cauldron-entrance.md) | HL |  | TODO |  |  |
 | L | left1 | Base | [Grand Bellway Shaft (Song_20)](grand-bellway-shaft.md) | BR | none |  | Verified |  |
-| BW | door_fastTravelExit | Base | [Bellway Menu](../fast-travel/bellway-menu.md) | GB | rosaries | TODO |  |  |
-| VT | door_tubeEnter | Base | [Ventrica Menu](../fast-travel/ventrica-menu.md) | GB | rosaries | TODO |  |  |
+| BW | door_fastTravelExit | Base | [Bellway Menu](../fast-travel/bellway-menu.md) | GB | unlock bellway grand bellway |  |  |  |
+| VT | door_tubeEnter | Base | [Ventrica Menu](../fast-travel/ventrica-menu.md) | GB | unlock ventrica grand bellway |  |  |  |
 
 ## Subroom Connections
 
@@ -28,7 +28,9 @@
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Memory Locket: Choral Chambers | Secret Tunnel | none |  | Verified |  | breakable wall |
-| Ventrica: Grand Bellway | Base | rosaries |  | Verified |  |  |
-| Map Purchase: Choral Chambers | Base | rosaries |  | Verified |  |  |
-| Bellway: Grand Bellway | Base | rosaries |  | Verified |  |  |
+| Memory Locket: Choral Chambers | Secret Tunnel | none |  | Verified | collectible | breakable wall |
+| Map Purchase: Choral Chambers | Base | rosaries |  | Verified | collectible |  |
+| Ventrica Rosary Lock | Base | rosaries 80 |  |  | lock |  |
+| Ventrica: Grand Bellway | Base | Unlock Ventrica Rosary Lock |  | Verified | travel |  |
+| Bellway Rosary Lock | Base | rosaries 80 |  |  | lock |  |
+| Bellway: Grand Bellway | Base | Unlock Bellway Rosary Lock |  | Verified | travel |  |

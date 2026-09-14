@@ -15,7 +15,7 @@
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | L | left | upper entrance | [Greymoor Towers Patio (Greymoor_05)](greymoor-towers-patio.md) | LR | none |  | Verified |  |
-| BW | Bellway | bellway zone | [Greymoor Bellway (Bellway_04)](greymoor-bellway.md) | BW | prereq Greymoor - Bellway |  | Verified |  |
+| BW | Bellway | bellway zone | [Bellway Menu](../fast-travel/bellway-menu.md) | GM | unlock bellway greymoor |  | Verified |  |
 | D | down | lower passage | [Greymoor Rat Tunnel (Greymoor_16)](greymoor-rat-tunnel.md) | T | none |  | Verified |  |
 
 ## Subroom Connections
@@ -31,4 +31,5 @@
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Greymoor - Bellway | bellway zone | none |  | Verified | travel |  |
+| Bellway Greymoor | bellway zone | Unlock Bellway Rosary Lock |  | Verified | travel |  |
+| Bellway Rosary Lock | bellway zone | rosaries 60 |  | Verified | lock |  |

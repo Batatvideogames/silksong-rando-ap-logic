@@ -13,7 +13,7 @@ No subrooms defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | R | Right |  | [Blasted Steps Wide Long Vertical (Coral_03)](blasted-steps-wide-long-vertical.md) | TL | Nothing |  | Verified |  |
-| BB | Bell Beast |  | [Bellway Menu](../fast-travel/bellway-menu.md) | BS | Bell Beast Available AND Blasted Steps Bellway Unlocked |  | Verified |  |
+| BB | Bell Beast |  | [Bellway Menu](../fast-travel/bellway-menu.md) | BS | Unlock Blasted Steps Bellway |  | Verified |  |
 | L | Left |  | [Blasted Steps Thin Long Vertical (Coral_35)](blasted-steps-thin-long-vertical.md) | R | Nothing |  | Verified |  |
 
 ## Subroom Connections
@@ -24,4 +24,7 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Bellway: Blasted Steps |  | Nothing |  | Verified |  |  |
+| Blasted Steps Bellway |  | Unlock Bellway Rosary Lock |  | Verified | travel |  |
+| Bellway Rosary Lock |  | Rosaries 60 |  | Verified | lock |  |
+| Bench |  | Unlock Bench Rosary Lock |  | Verified | bench |  |
+| Bench Rosary Lock |  | Rosaries 40 |  | Verified | lock |  |

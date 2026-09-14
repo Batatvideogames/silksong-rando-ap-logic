@@ -22,5 +22,5 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Whiteward - Oath |  | Nothing |  | Verified |  |  |
-| Surgeon's Key |  | Clawline Skill |  | Verified |  |  |
+| Whiteward - Oath |  | Nothing |  | Verified | lore |  |
+| Surgeon's Key |  | Clawline |  | Verified | collectible |  |

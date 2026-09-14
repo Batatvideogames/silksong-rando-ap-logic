@@ -17,7 +17,7 @@
 | L | left | left area | [Mosshome Middle (Mosstown_01)](../bone-bottom/mosshome-middle.md) | LR | none |  |  |  |
 | F | floor | left area | [The Marrow Shakra Intro (Bone_04)](the-marrow-shakra-intro.md) | C | none |  |  |  |
 | R | right | right area | [The Marrow Bellshrine (Bellshrine)](the-marrow-bellshrine.md) | L | none |  |  |  |
-| BB | bellway | boss room | [Bellway Menu](../fast-travel/bellway-menu.md) | TM | defeat bell beast |  |  |  |
+| BB | bellway | boss room | [Bellway Menu](../fast-travel/bellway-menu.md) | TM | unlock bellway the marrow |  | Verified |  |
 
 ## Subroom Connections
 
@@ -25,12 +25,13 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | LB | left boss fight | left area | boss room | none |  |  |  |
 | LB | left boss fight | boss room | left area | none |  |  | boss fight doesn't start automatically so can leave any time |
-| RB | right boss fight | right area | boss room | bell beast defeated |  |  | can't enter the arena from this side |
-| RB | right boss fight | boss room | right area | bell beast defeated |  |  | bell beast defeated needs to be here to gate this from seemingly like a straight passthrough |
+| RB | right boss fight | right area | boss room | defeat bell beast boss fight |  |  | can't enter the arena from this side |
+| RB | right boss fight | boss room | right area | defeat bell beast boss fight |  |  | bell beast defeated needs to be here to gate this from seemingly like a straight passthrough |
 
 ## Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| bell beast boss fight | boss room | silk spear |  |  |  | sharpdart doesn't work |
-| silk heart bell beast | boss room | bell beast defeated |  |  |  |  |
+| bell beast boss fight | boss room | silk spear |  |  | boss | sharpdart doesn't work |
+| silk heart bell beast | boss room | defeat bell beast boss fight |  |  | collectible |  |
+| bellway the marrow | boss room | defeat bell beast boss fight |  |  | travel |  |

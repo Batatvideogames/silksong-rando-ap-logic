@@ -36,3 +36,4 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | gate switch | switch platform | none |  |  |  |  |
 | lace 1 boss fight | boss arena | none |  |  |  |  |
+| lace 1 encounter spot | boss arena | none |  |  |  | This needs to be converted into a multi-location virtual event |

@@ -38,7 +38,7 @@
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Cogwork Dancers | BossArena | Nothing | TODO | Verified | boss |  |
+| Cogwork Dancers Boss Fight | BossArena | Nothing | TODO | Verified | boss |  |
 
 ## Notes
 

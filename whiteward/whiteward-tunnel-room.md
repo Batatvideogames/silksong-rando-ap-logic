@@ -17,7 +17,7 @@
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | B | Bottom | Lower Tunnels | [Whiteward Unravelled Arena Room (Ward_02)](whiteward-unravelled-arena-room.md) | T | Nothing |  | Verified |  |
-| R | Right | Pickup Section | [Whiteward Entrance (Ward_01)](whiteward-entrance.md) | ML | Break 4x Wall from Left |  | Verified |  |
+| R | Right | Pickup Section | [Whiteward Entrance (Ward_01)](whiteward-entrance.md) | ML | Break Wall Left |  | Verified | There are four walls. |
 
 ## Subroom Connections
 
@@ -35,4 +35,4 @@
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Relic: Choral Commandment (Western Whiteward) | Pickup Section | Nothing |  | Verified |  |  |
+| Relic: Choral Commandment (Western Whiteward) | Pickup Section | Nothing |  | Verified | collectible |  |

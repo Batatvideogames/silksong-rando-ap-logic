@@ -13,7 +13,7 @@ No subrooms defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | B | bot1 |  | [Songclave (Song_Enclave)](songclave.md) | T | none |  |  |  |
-| V | door_tubeEnter |  | [Ventrica Menu](../fast-travel/ventrica-menu.md) | FS | ventrica | TODO |  | ventrica, repeat for each possible exit |
+| V | door_tubeEnter |  | [Ventrica Menu](../fast-travel/ventrica-menu.md) | FS | unlock ventrica first shrine | TODO |  | ventrica, repeat for each possible exit |
 
 ## Subroom Connections
 
@@ -23,4 +23,4 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Ventrica: Songclave |  | none |  |  |  |  |
+| Ventrica: First Shrine |  | none |  |  | travel |  |
