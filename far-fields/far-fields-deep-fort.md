@@ -28,4 +28,4 @@
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | memory locket far fields | prison | none |  | Verified | collectible | name says act 3 but is not actually gated by act 3 |
-| grunt | main area | none | TODO | Verified | miniboss | I *think* he doesn't respawn but need to check. Only affects type classification. |
+| grunt | main area | none |  | Verified | miniboss | does not respawn |

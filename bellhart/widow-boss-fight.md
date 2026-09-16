@@ -30,6 +30,7 @@
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | Boss: Widow | Arena | None |  | Verified | boss |  |
-| Bell: Bellhart | Arena | None |  | Verified | collectible |  |
-| Needolin | Arena | None |  | Verified | collectible |  |
-| Widow Lever | Arena | None |  | Verified | switch |  |
+| Bell: Bellhart | Arena | Activate Bellshrine Lever |  | Verified | collectible |  |
+| Needolin | Arena | Defeat Boss Widow |  | Verified | collectible |  |
+| Bellshrine Lever | Arena | Defeat Boss Widow |  | Verified | switch |  |
+| Bench | Arena | Activate Bellshrine Lever |  | Verified | bench |  |

@@ -26,13 +26,13 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| TF | Falling from Top | Top | Middle | clawline and drifter's cloak |  | Verified |  |
-| S | Spiked Secreft | Middle | Left Spike Exit | drifter's cloak and (cling grip or clawline) |  | Verified |  |
-| MF | Falling from Middle | Middle | Bottom | drifter's cloak and clawline |  | Verified |  |
-| SF | Falling from Secret | Left Spike Exit | Bottom | drifter's cloak and clawline |  |  |  |
+| TF | Falling from Top | Top | Middle | clawline AND drifter's cloak |  | Verified |  |
+| S | Spiked Secret | Middle | Left Spike Exit | drifter's cloak AND (cling grip OR clawline) AND break wall left |  | Verified |  |
+| SF | Falling from Secret | Left Spike Exit | Bottom | drifter's cloak AND clawline |  | Verified |  |
+| MF | Falling from Middle | Middle | Bottom | drifter's cloak AND clawline |  | Verified |  |
 
 ## Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| High Halls - Rosary Cache | Top | clawline and (silk soar or cling grip) |  | Verified |  |  |
+| High Halls - Rosary Cache | Top | clawline AND (silk soar OR cling grip) |  | Verified | collectible |  |

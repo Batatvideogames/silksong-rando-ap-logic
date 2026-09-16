@@ -19,12 +19,14 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| RN | run | entrance | secret room | run AND silkspeed anklets AND flea brew | TODO | Needs verification | need to check if there are platforming requirements |
-| RN | run | secret room | entrance | none | TODO | Needs verification |  |
+| SR | secret room | entrance | secret room | unlock secret room lock |  | Verified |  |
+| SR | secret room | secret room | entrance | unlock secret room lock AND ( cling grip OR silk soar OR scuttlebrace ) |  | Verified |  |
 
 ## Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| silkspeed anklets | entrance | run OR dash |  | Verified | collectible |  |
-| relic rune harp weavenest cindril | secret room | none |  | Needs verification | collectible |  |
+| silkspeed anklets | entrance | run |  | Verified | collectible |  |
+| relic rune harp weavenest cindril | secret room | none |  | Verified | collectible |  |
+| map of paths away from pharloom | secret room | none |  | Verified | lore |  |
+| secret room lock | entrance | run AND silkspeed anklets AND flea brew |  | Verified | lock |  |

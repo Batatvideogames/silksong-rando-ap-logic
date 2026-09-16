@@ -9,7 +9,7 @@ No subrooms defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | T | terminus |  | [Terminus Ventrica (Tube_Hub)](../the-cradle/terminus-ventrica.md) | V | have ventrica terminus |  | Verified |  |
-| M | memorium |  | TODO |  | have ventrica memorium | TODO |  |  |
+| M | memorium |  | [Memorium Ventrica (Arborium_Tube)](../memorium/memorium-ventrica.md) | V | have ventrica memorium |  | Verified |  |
 | HH | high halls |  | [High Halls Ventrica (Hang_06b)](../high-halls/high-halls-ventrica.md) | V | have ventrica high halls |  | Verified |  |
 | FS | first shrine |  | [Songclave Tube (Song_Enclave_Tube)](../choral-chambers/songclave-tube.md) | V | have ventrica first shrine |  | Verified |  |
 | CC | choral chambers |  | [Choral Chambers Ventrica Room (Song_01b)](../choral-chambers/choral-chambers-ventrica-room.md) | V | have ventrica choral chambers |  | Verified |  |

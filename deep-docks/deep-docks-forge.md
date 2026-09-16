@@ -24,8 +24,8 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| DS | door switch | left area | right area | activate gate switch |  | Verified |  |
-| DS | door switch | right area | left area | activate gate switch |  | Verified |  |
+| DS | door switch | left area | forge daughter | activate gate switch |  | Verified |  |
+| DS | door switch | forge daughter | left area | activate gate switch |  | Verified |  |
 | GL | gauntlet left | left area | gauntlet | none |  | Verified |  |
 | GL | gauntlet left | gauntlet | left area | complete gauntlet fight |  | Verified |  |
 | GR | gauntlet right | right area | gauntlet | none |  | Verified |  |
@@ -39,13 +39,14 @@
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| shell shard cache deep docks 10 | left area | none |  | Verified |  | break wall |
-| shard bundle deep docks 2 | left area | none |  | Verified |  |  |
-| silkshot (forge daughter) | forge daughter | have ruined tool |  | Verified |  |  |
-| sting shard | forge daughter | none |  | Verified |  | forge daughter shop |
-| magma bell | forge daughter | none |  | Verified |  | forge daughter shop |
-| crafting kit forge daughter | forge daughter | none |  | Verified |  | forge daughter shop |
-| readable lore tablet | left area | open airlock left |  | Verified |  |  |
-| gate switch | forge daughter | none |  | Verified |  |  |
-| gauntlet fight | gauntlet | none |  | Verified |  |  |
-| deep docks simple key lock | right exit platform | have simple key deep docks |  | Verified |  |  |
+| deep docks shell shard cache 10 | left area | none |  | Verified | collectible | break wall |
+| deep docks shard bundle 2 | left area | none |  | Verified | collectible |  |
+| silkshot (forge daughter) | forge daughter | have ruined tool |  | Verified | collectible |  |
+| sting shard | forge daughter | none |  | Verified | collectible | forge daughter shop |
+| magma bell | forge daughter | none |  | Verified | collectible | forge daughter shop |
+| crafting kit forge daughter | forge daughter | none |  | Verified | collectible | forge daughter shop |
+| readable lore tablet | left area | open airlock left |  | Verified | lore |  |
+| gate switch | forge daughter | none |  | Verified | switch |  |
+| gauntlet fight | gauntlet | none |  | Verified | gauntlet |  |
+| deep docks simple key lock | right exit platform | have simple key deep docks |  | Verified | lock |  |
+| bench | forge daughter | none |  | Verified | bench |  |

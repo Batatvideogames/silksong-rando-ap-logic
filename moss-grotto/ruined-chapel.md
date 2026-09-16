@@ -7,7 +7,7 @@
 ## Subrooms
 
 - chapel
-- boss room
+- boss arena
 - bench passage
 - bench room
 
@@ -23,18 +23,18 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| RB | right boss entrance | bench passage | boss room | break vines left (starts fight) |  | Verified |  |
-| RB | right boss entrance | boss room | bench passage | complete moss mother boss fight |  | Verified |  |
-| LB | left boss entrance | chapel | boss room | none (starts fight) |  | Verified |  |
-| LB | left boss entrance | boss room | chapel | complete moss mother boss fight |  | Verified |  |
-| V1 | ledge grab | boss room | bench passage | ledge grab OR faydown OR silk soar OR cling grip |  | Verified |  |
-| V1 | ledge grab | bench passage | boss room | none (falling) |  | Verified |  |
+| RB | right boss entrance | bench passage | boss arena | break vines left (starts fight) |  | Verified |  |
+| RB | right boss entrance | boss arena | bench passage | complete moss mother boss fight |  | Verified |  |
+| LB | left boss entrance | chapel | boss arena | none (starts fight) |  | Verified |  |
+| LB | left boss entrance | boss arena | chapel | complete moss mother boss fight |  | Verified |  |
+| V1 | ledge grab | bench room | bench passage | ledge grab OR faydown OR silk soar OR cling grip |  | Verified |  |
+| V1 | ledge grab | bench passage | bench room | none (falling) |  | Verified |  |
 
 ## Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| moss mother boss fight | boss room | none |  | Verified | boss |  |
+| moss mother boss fight | boss arena | none |  | Verified | boss |  |
 
 ## Notes
 

@@ -18,7 +18,7 @@
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | R | right1 | Exit | [Putrified Ducts Tall Room (Aqueduct_02)](putrified-ducts-tall-room.md) | UL | None |  | Verified |  |
-| L | left1 | Entrance | TODO |  | None | TODO | Verified | Memorium has not been done yet |
+| L | left1 | Entrance | [Shopkeeper hides (Arborium_11)](../memorium/shopkeeper-hides.md) | R | None | TODO | Verified | Memorium has not been done yet |
 
 ## Subroom Connections
 

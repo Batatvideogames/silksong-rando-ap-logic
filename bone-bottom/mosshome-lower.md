@@ -16,8 +16,8 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LR | lower right | lower right exit | [The Marrow Shakra Intro (Bone_04)](../the-marrow/the-marrow-shakra-intro.md) | LL | none |  | Verified |  |
-| UR | upper right | upper right level | [The Marrow Shakra Intro (Bone_04)](../the-marrow/the-marrow-shakra-intro.md) | UL | none |  | Verified |  |
+| LR | lower right | lower right exit | [The Marrow Map Shop (Bone_04)](../the-marrow/the-marrow-map-shop.md) | LL | none |  | Verified |  |
+| UR | upper right | upper right level | [The Marrow Map Shop (Bone_04)](../the-marrow/the-marrow-map-shop.md) | UL | none |  | Verified |  |
 | L | left | upper left exit | [The Big Fall (Aspid_01)](the-big-fall.md) | LR | none |  | Verified |  |
 | C | ceiling | upper left exit | [Mosshome Middle (Mosstown_01)](mosshome-middle.md) | F | activate floor exit switch IN mosshome middle |  | Verified |  |
 | F | floor | ground floor | [Mosshome Basement (Bone_11b)](mosshome-basement.md) | C | activate pressure plate IN mosshome basement |  | Verified |  |

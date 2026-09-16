@@ -17,7 +17,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | L | left1 | upper left hallway | [Deep Docks Chains Center (Dock_02b)](deep-docks-chains-center.md) | UR | none |  |  |  |
 | F | bot1 | behind ring gate | [Deep Docks Chains Lower East (Dock_03c)](deep-docks-chains-lower-east.md) | RC | none |  |  |  |
-| R | right1 | chain platforms | [Far Fields Deep Docks Backdoor (Dock_03b)](../far-fields/far-fields-deep-docks-backdoor.md) | L | none |  |  |  |
+| R | right1 | chain platforms | [Far Fields Deep Docks Backdoor (Dock_03b)](../far-fields/far-fields-deep-docks-backdoor.md) | L | break wall right |  |  |  |
 
 ## Subroom Connections
 

@@ -12,7 +12,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Deep Docks Diving Bell Room (Dock_12)](deep-docks-diving-bell-room.md) | D | None |  | Verified |  |
+| L | left1 |  | [Deep Docks Diving Bell Room (Dock_12)](deep-docks-diving-bell-room.md) | D | none |  | Verified |  |
 | D | door_cinematicEnd |  | [Abyss Diving Bell Fixed (Room_Diving_Bell_Abyss_Fixed)](../the-abyss/abyss-diving-bell-fixed.md) | B | ACT3 AND Mallow is in control room above |  | Needs verification |  |
 
 ## Subroom Connections

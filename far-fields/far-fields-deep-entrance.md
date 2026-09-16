@@ -38,8 +38,8 @@
 | G1 | gap 1 | middle left platform | plains | run OR dash OR drifter's cloak OR faydown cloak OR clawline OR sharpdart OR scuttlebrace |  | Verified |  |
 | G1 | gap 1 | plains | middle left platform | run OR drifter's cloak OR faydown cloak OR clawline OR sharpdart OR ( dash AND ledge grab ) |  | Verified |  |
 | V3 | vertical 3 | plains | lower right area | none (falling) |  | Verified |  |
-| V3 | vertical 3 | lower right area | plains | silk soar OR clawline OR faydown cloak OR ( ledge grab AND (  ) ) | TODO | Needs verification |  |
-| V4 | vertical 4 | lower right area | lower right alcove | break blast rock left AND ( 2 masks OR cling grip OR faydown cloak OR scuttlebrace ) |  | Verified | can just break it, reset from thorns and jump down again - won't work with 1 hp though :) |
+| V3 | vertical 3 | lower right area | plains | silk soar  OR faydown OR ( ledge grab AND ( run OR clawline ) ) |  | Verified |  |
+| V4 | vertical 4 | lower right area | lower right alcove | break blast rock left AND ( spike pogo OR cling grip OR faydown cloak OR scuttlebrace OR   easy hazard respawn ) |  | Verified | can just break it, reset from thorns and jump down again - won't work with 1 hp though :) |
 | V4 | vertical 4 | lower right alcove | lower right area | cling grip OR faydown cloak OR scuttlebrace |  | Verified |  |
 | V5 | vertical 5 | lower right area | bottom exit area | none (falling) |  | Verified |  |
 | V5 | vertical 5 | bottom exit area | lower right area | silk soar OR cling grip OR scuttlebrace ( faydown cloak AND ledge grab ) |  | Verified |  |

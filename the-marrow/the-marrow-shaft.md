@@ -15,7 +15,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | F | floor | lower shaft | [The Marrow Lava Intro (Bone_02)](the-marrow-lava-intro.md) | LC | none |  |  |  |
 | LL | lower left | lower shaft | [The Marrow Shaft Side Room (Bone_17)](the-marrow-shaft-side-room.md) | R | none |  |  |  |
-| ML | middle left | lower shaft | [The Marrow Shakra Intro (Bone_04)](the-marrow-shakra-intro.md) | R | none |  |  |  |
+| ML | middle left | lower shaft | [The Marrow Map Shop (Bone_04)](the-marrow-map-shop.md) | R | none |  |  |  |
 | UL | upper left | upper shaft | [The Marrow Bellshrine (Bellshrine)](the-marrow-bellshrine.md) | R | bell must be rung |  |  |  |
 | LR | lower right | lower shaft | [The Marrow Flea Caravan (Bone_10)](the-marrow-flea-caravan.md) | L | none |  |  |  |
 | UR | upper right | upper shaft | [The Marrow Mr Burns House (Bone_14)](the-marrow-mr-burns-house.md) | L | none |  |  |  |

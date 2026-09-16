@@ -1,8 +1,8 @@
-# The Marrow Shaft Side Room (Bone_17)
+# Memorium Rhino Room (Arborium_02)
 
-**Game ID:** Bone_17
+**Game ID:** Arborium_02
 
-**Contributors:** herounit
+**Contributors:** heric
 
 ## Subrooms
 
@@ -12,7 +12,8 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right |  | [The Marrow Shaft (Bone_03)](the-marrow-shaft.md) | LL | none |  | Verified |  |
+| R | right1 |  | [Seed Shooty Memorium (Arborium_03)](seed-shooty-memorium.md) | LL | none |  | Verified |  |
+| L | left1 |  | [Memorium Start Shaft (Arborium_01)](memorium-start-shaft.md) | LR | none |  | Verified |  |
 
 ## Subroom Connections
 
@@ -22,4 +23,4 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| shard pendant |  | none |  | Verified | collectible |  |
+| Memorium - Beast Shard |  | none |  | Verified | collectible |  |

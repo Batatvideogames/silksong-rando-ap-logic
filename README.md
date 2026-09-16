@@ -35,7 +35,7 @@ Generated from the non-archived records in `input/silksong-rando-logic.db`.
 - [The Marrow Flea Caravan (Bone_10)](./the-marrow/the-marrow-flea-caravan.md)
 - [The Marrow Shaft (Bone_03)](./the-marrow/the-marrow-shaft.md)
 - [The Marrow Shaft Side Room (Bone_17)](./the-marrow/the-marrow-shaft-side-room.md)
-- [The Marrow Shakra Intro (Bone_04)](./the-marrow/the-marrow-shakra-intro.md)
+- [The Marrow Map Shop (Bone_04)](./the-marrow/the-marrow-map-shop.md)
 - [The Marrow Bellway (Bone_05)](./the-marrow/the-marrow-bellway.md)
 - [The Marrow Bellshrine (Bellshrine)](./the-marrow/the-marrow-bellshrine.md)
 - [The Marrow Skull Wall (Bone_06)](./the-marrow/the-marrow-skull-wall.md)
@@ -468,7 +468,18 @@ No rooms defined.
 
 ## Memorium
 
-No rooms defined.
+- [BEEG flea (Arborium_08)](./memorium/beeg-flea.md)
+- [Memorium Karak (Arborium_06)](./memorium/memorium-karak.md)
+- [Memorium Mossy (Arborium_09)](./memorium/memorium-mossy.md)
+- [Memorium Rhino Room (Arborium_02)](./memorium/memorium-rhino-room.md)
+- [Memorium Start Shaft (Arborium_01)](./memorium/memorium-start-shaft.md)
+- [Memorium Ventrica (Arborium_Tube)](./memorium/memorium-ventrica.md)
+- [Memorium Voltnest (Arborium_07)](./memorium/memorium-voltnest.md)
+- [Memorium bench (Arborium_04)](./memorium/memorium-bench.md)
+- [Memorium puzzle (Arborium_10)](./memorium/memorium-puzzle.md)
+- [Memorium water room (Arborium_05)](./memorium/memorium-water-room.md)
+- [Seed Shooty Memorium (Arborium_03)](./memorium/seed-shooty-memorium.md)
+- [Shopkeeper hides (Arborium_11)](./memorium/shopkeeper-hides.md)
 
 ## Sands of Karak
 

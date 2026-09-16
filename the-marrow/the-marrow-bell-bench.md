@@ -13,9 +13,9 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| UL | upper left | falling rocks | [The Marrow Entrance (Bone_01)](the-marrow-entrance.md) | UR | none |  |  |  |
-| LL | left left | bell bench | [The Marrow Entrance (Bone_01)](the-marrow-entrance.md) | LR | none |  |  |  |
-| R | right | bell bench | [The Marrow Lava Intro (Bone_02)](the-marrow-lava-intro.md) | L | none |  |  |  |
+| UL | upper left | falling rocks | [The Marrow Entrance (Bone_01)](the-marrow-entrance.md) | UR | none |  | Verified |  |
+| LL | lower left | bell bench | [The Marrow Entrance (Bone_01)](the-marrow-entrance.md) | LR | none |  | Verified |  |
+| R | right | bell bench | [The Marrow Lava Intro (Bone_02)](the-marrow-lava-intro.md) | L | none |  | Verified |  |
 
 ## Subroom Connections
 
@@ -25,11 +25,13 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| rosary cache the marrow 5 | falling rocks | none |  |  |  |  |
-| rosary cache the marrow 6 | falling rocks | none |  |  |  |  |
-| rosary cache the marrow 3 | bell bench | none |  |  |  |  |
-| rosary cache the marrow 4 | bell bench | none |  |  |  |  |
-| bench unlock | bell bench | pay monies |  |  |  | NOT CURRENTLY RANDOMIZED |
+| the marrow rosary cache 5 | falling rocks | none |  | Verified | collectible |  |
+| the marrow rosary cache 6 | falling rocks | none |  | Verified | collectible |  |
+| the marrow rosary cache 3 | bell bench | none |  | Verified | collectible |  |
+| the marrow rosary cache 4 | bell bench | none |  | Verified | collectible |  |
+| bench rosary lock | bell bench | rosaries 30 |  | Verified | lock |  |
+| bench | bell bench | unlock bench rosary lock |  | Verified | bench |  |
+| lore plaque | bell bench | none |  | Verified | lore |  |
 
 ## Notes
 

@@ -12,8 +12,8 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Deep Docks Lace Intro (Bone_East_12)](deep-docks-lace-intro.md) | R | none |  |  |  |
-| R | right1 |  | [Far Fields Entrance East (Bone_East_02)](../far-fields/far-fields-entrance-east.md) | L | activate bellshrine switch |  |  |  |
+| L | left1 |  | [Deep Docks Lace Intro (Bone_East_12)](deep-docks-lace-intro.md) | R | none |  | Verified |  |
+| R | right1 |  | [Far Fields Entrance East (Bone_East_02)](../far-fields/far-fields-entrance-east.md) | L | ( bellshrinesanity off AND activate bellshrine switch )  OR ( bellshrinesanity on AND have bell deep docks ) |  | Verified |  |
 
 ## Subroom Connections
 
@@ -23,5 +23,6 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| bellshrine switch |  | none |  |  |  |  |
-| bench :) |  | deep docks bellshrine activated |  |  |  |  |
+| bellshrine switch |  | none |  | Verified | switch |  |
+| bench |  | activate bellshrine switch |  | Verified | bench |  |
+| bell deep docks |  | activate bellshrine switch |  | Verified | collectible |  |

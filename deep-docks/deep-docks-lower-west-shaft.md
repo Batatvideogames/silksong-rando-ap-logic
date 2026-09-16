@@ -15,7 +15,7 @@ No subrooms defined.
 | L | left1 |  | [Deep Docks Church (Dock_06_Church)](deep-docks-church.md) | R | none |  |  |  |
 | MR | right2 |  | [Deep Docks Spool East (Bone_East_13)](deep-docks-spool-east.md) | L | none |  |  |  |
 | UR | right1 |  | [Deep Docks Forge (Room_Forge)](deep-docks-forge.md) | L | none |  |  |  |
-| LR | right3 |  | [Deep Docks Sauna (Dock_10)](deep-docks-sauna.md) | L | must be opened from the other side for the first time |  |  |  |
+| LR | right3 |  | [Deep Docks Sauna (Dock_10)](deep-docks-sauna.md) | L | activate door pressure plate IN deep docks sauna |  |  |  |
 
 ## Subroom Connections
 

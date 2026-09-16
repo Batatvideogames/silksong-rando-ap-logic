@@ -29,30 +29,30 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| LT | lava track | right lava track | left lava track | activate track OR ( clawline AND shaman crest ) |  | Verified |  |
-| LT | lava track | left lava track | right lava track | activate track OR ( clawline AND shaman crest ) |  | Verified |  |
-| AM | ascend to maze | right lava track | lower maze 2 | cling grip OR silk soar OR ( scuttle brace AND ( ledge grab OR faydown cloak OR clawline  ) ) |  | Verified |  |
+| LT | lava track | right lava track | left lava track | activate track pressure plate  OR ( clawline x 8 AND easy shaman pogo ) |  | Verified | other stalls would work but would be harder |
+| LT | lava track | left lava track | right lava track | activate track pressure plate  OR ( clawline x 8 AND easy shaman pogo ) |  | Verified | other stalls would work but would be harder |
+| AM | ascend to maze | right lava track | lower maze 2 | cling grip  OR silk soar  OR ( scuttlebrace AND ( ledge grab OR faydown cloak OR clawline  ) ) |  | Verified |  |
 | AM | ascend to maze | lower maze 2 | right lava track | none (falling) |  | Verified |  |
 | RBW | right break wall | lower maze 2 | lower maze 3 | none (break wall right) |  | Verified |  |
 | RBW | right break wall | lower maze 3 | lower maze 2 | none (break wall left) |  | Verified |  |
-| AR | ascend right | lower maze 3 | right alcove | cling grip OR scuttlebrace OR ( faydown cloak AND ledge grab ) ) |  | Verified |  |
-| AR | ascend right | right alcove | lower maze 3 | spike pogo OR cling grip OR faydown cloak OR dash OR drifter's cloak OR clawline OR sharpdart OR scuttlebrace |  | Verified |  |
-| MMA | middle maze ascend | lower maze 1 | middle maze | cling grip OR scuttlebrace OR ( faydown cloak AND ( ledge grab OR clawline OR shaman's crest ) ) |  | Verified |  |
+| AR | ascend right | lower maze 3 | right alcove | cling grip  OR scuttlebrace  OR ( faydown AND ledge grab ) |  | Verified |  |
+| AR | ascend right | right alcove | lower maze 3 | spike pogo  OR cling grip  OR faydown  OR dash  OR drifters  OR clawline  OR sharpdart  OR scuttlebrace |  | Verified |  |
+| MMA | middle maze ascend | lower maze 1 | middle maze | cling grip  OR scuttlebrace  OR ( faydown cloak AND ( ledge grab OR clawline OR easy shaman pogo ) ) |  | Verified |  |
 | MMA | middle maze ascend | middle maze | lower maze 1 | none (falling) |  | Verified |  |
 | LA | left alcove access | middle maze | left alcove | none (break wall left) |  | Verified |  |
-| LA | left alcove access | left alcove | middle maze | cling grip OR scuttlebrace OR ( ledge grab AND faydown cloak ) |  | Verified |  |
-| SP | spike pogo | lower maze 1 | lower maze 2 | ledge grab OR spike pogo OR run OR dash OR drifter's cloak OR faydown cloak OR clawline OR scuttlebrace OR sharpdart |  | Verified | roof makes it so ledge grab works from left to right  but not the other way |
-| SP | spike pogo | lower maze 2 | lower maze 1 | spike pogo OR run OR dash OR drifter's cloak OR faydown cloak OR clawline OR scuttlebrace OR sharpdart |  | Verified | possible other stalls might work - lip on ceiling seems to make it impassable with walking jump? |
+| LA | left alcove access | left alcove | middle maze | cling grip  OR scuttlebrace  OR ( ledge grab AND faydown cloak ) |  | Verified |  |
+| SP | spike pogo | lower maze 1 | lower maze 2 | ledge grab  OR spike pogo  OR run  OR dash  OR drifter's cloak  OR faydown cloak  OR clawline  OR scuttlebrace  OR sharpdart |  | Verified | roof makes it so ledge grab works from left to right  but not the other way |
+| SP | spike pogo | lower maze 2 | lower maze 1 | spike pogo  OR run  OR dash  OR drifters  OR faydown  OR clawline  OR scuttlebrace  OR sharpdart |  | Verified | possible other stalls might work - lip on ceiling seems to make it impassable with walking jump? |
 | UBW | upper break wall | upper maze left | ceiling exit area | none (break wall right) |  | Verified |  |
 | UBW | upper break wall | ceiling exit area | upper maze left | none (break wall left) |  | Verified |  |
-| UA | upper ascend | middle maze | upper maze left | silk soar OR cling grip OR scuttlebrace OR ( faydown cloak AND ledge grab ) ) |  | Verified |  |
+| UA | upper ascend | middle maze | upper maze left | silk soar  OR cling grip  OR scuttlebrace  OR ( faydown cloak AND ledge grab ) |  | Verified |  |
 | UA | upper ascend | upper maze left | middle maze | none (falling) |  | Verified |  |
 
 ## Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| activate track | right lava track | none |  | Verified |  |  |
-| rosary cache the marrow 11 | left alcove | none |  | Verified |  |  |
-| rosary cache the marrow 12 | left alcove | none |  | Verified |  |  |
-| rosary cache the marrow 13 | right alcove | none |  | Verified |  |  |
+| track pressure plate | right lava track | none (stand on it) |  | Verified | switch |  |
+| the marrow rosary cache 11 | left alcove | none |  | Verified | collectible |  |
+| the marrow rosary cache 12 | left alcove | none |  | Verified | collectible |  |
+| the marrow rosary cache 13 | right alcove | none |  | Verified | collectible |  |
