@@ -46,8 +46,8 @@ Compiled from the database-generated room notes.
 | S3 | shaft 3 | center shaft | lower crossing | none (falling) |  | Verified |  |
 | S4 | shaft 4 | dead ledge | lower crossing | ledge grab OR faydown cloak OR silk soar OR scuttlebrace OR ( cling grip AND ( dash OR clawline ) ) |  | Verified |  |
 | S4 | shaft 4 | lower crossing | dead ledge | none (falling) |  | Verified |  |
-| S5 | shaft 5 | rock bottom | lower crossing | silk soar OR ( cling grip AND faydown cloak )  OR ( easy scuttlebrace AND dash AND faydown cloak AND ( ( drifters cloak AND ledge grab ) OR clawline OR sharpdart ) ) |  | Verified |  |
-| S5 | shaft 5 | lower crossing | rock bottom | none (falling) |  | Verified |  |
+| S5 | shaft 5 | rock bottom | dead ledge | silk soar OR ( cling grip AND faydown cloak )  OR ( easy scuttlebrace AND dash AND faydown cloak AND ( ( drifters cloak AND ledge grab ) OR clawline OR sharpdart ) ) |  | Verified |  |
+| S5 | shaft 5 | dead ledge | rock bottom | none (falling) |  | Verified |  |
 | LG | ledge grab 1 | rock bottom | beast alcove | ledge grab OR faydown cloak OR silk soar OR cling grip OR scuttlebrace |  | Verified |  |
 | LG | ledge grab 1 | beast alcove | rock bottom | none (falling) |  | Verified |  |
 
@@ -285,8 +285,8 @@ No check locations defined.
 | CL | clawline across the sky | upper middle platforms | upper right platforms | clawline  OR ( dash AND ( sharpdart OR drifters ) )  OR ( run AND sharpdart )  OR ( drifters AND ( faydown cloak OR easy proficient movement ) ) | TODO | Verified | This is how it is currently implemented in the apworld; need to verify with SEG as it was malformed prior to correction. - hero |
 | CL | clawline across the sky | upper right platforms | upper middle platforms | clawline  OR ( dash AND ( sharpdart OR drifters ) )  OR ( run AND sharpdart )  OR ( drifters AND ( faydown cloak OR easy proficient movement ) ) |  | Verified | This is how it is currently implemented in the apworld; need to verify with SEG as it was malformed prior to correction. - hero |
 | SR | soar to right platforms | upper right platforms | ground level | none (falling) |  | Verified |  |
-| DL | sky drift to right platforms | sky | upper right platforms | drifters  OR clawline OR faydown OR sharpdart OR dash OR easy beast pogo OR easy hunter pogo OR easy architect pogo |  | Verified |  |
-| DR | sky drift to middle platforms | sky | upper middle platforms | drifters  OR clawline OR faydown OR sharpdart OR dash OR easy beast pogo OR easy hunter pogo OR easy architect pogo |  | Verified |  |
+| DL | sky drift to right platforms | sky | upper middle platforms | drifters  OR clawline OR faydown OR sharpdart OR dash OR easy beast pogo OR easy hunter pogo OR easy architect pogo |  | Verified |  |
+| DR | sky drift to middle platforms | sky | upper right platforms | drifters  OR clawline OR faydown OR sharpdart OR dash OR easy beast pogo OR easy hunter pogo OR easy architect pogo |  | Verified |  |
 | SS | soar to sky exit | sky | ground level | none (falling) |  | Verified |  |
 
 #### Check Locations
@@ -498,7 +498,7 @@ need see if there are other checks in here
 - middle right ledge
 - lower left area
 - lower right area
-- bottom area
+- bottom gap area
 - upper silk soar only zone
 - lower silk soar only zone
 - bottom left area
@@ -519,11 +519,11 @@ need see if there are other checks in here
 | LR | lower right | lower right area | [Mosshome Lower (Bone_11)](#mosshome-lower-bone11) | L | none |  | Verified |  |
 | UL | upper left | upper left ledge | [Wormways Upper East (Crawl_01)](#wormways-upper-east-crawl01) | R | none |  | Verified |  |
 | LL | lower left | lower left area | [Wormways Craggler Hallway (Crawl_04)](#wormways-craggler-hallway-crawl04) | R | none |  | Verified |  |
-| B1 | bot1 | bottom area | [Bone Bottom Town (Bonetown)](#bone-bottom-town-bonetown) | T1 | none |  | Verified |  |
+| B1 | bot1 | bottom gap area | [Bone Bottom Town (Bonetown)](#bone-bottom-town-bonetown) | T1 | none |  | Verified |  |
 | B2 | bot2 | lower right area | [Bone Bottom Town (Bonetown)](#bone-bottom-town-bonetown) | T2 | none |  | Verified |  |
-| B3 | bot3 | bottom area | [Bone Bottom Town (Bonetown)](#bone-bottom-town-bonetown) | T3 | none |  | Verified |  |
-| B4 | bot4 | bottom area | [Bone Bottom Town (Bonetown)](#bone-bottom-town-bonetown) | T4 | none |  | Verified |  |
-| B5 | bot5 | bottom area | [Bone Bottom Town (Bonetown)](#bone-bottom-town-bonetown) | T5 | none |  | Verified |  |
+| B3 | bot3 | bottom gap area | [Bone Bottom Town (Bonetown)](#bone-bottom-town-bonetown) | T3 | none |  | Verified |  |
+| B4 | bot4 | bottom gap area | [Bone Bottom Town (Bonetown)](#bone-bottom-town-bonetown) | T4 | none |  | Verified |  |
+| B5 | bot5 | bottom gap area | [Bone Bottom Town (Bonetown)](#bone-bottom-town-bonetown) | T5 | none |  | Verified |  |
 
 #### Subroom Connections
 
@@ -535,10 +535,10 @@ need see if there are other checks in here
 | F4 | wish ledge fall | wish ledge | upper silk soar only zone | none (falling) |  | Verified |  |
 | F5 | upper silk soar zone fall | upper silk soar only zone | middle right ledge | none (falling) |  | Verified |  |
 | F6 | middle right ledge fall | middle right ledge | lower silk soar only zone | none (falling) |  | Verified |  |
-| F7 | lower silk soar zone fall | lower silk soar only zone | bottom area | none (falling) |  | Verified |  |
-| F8 | lower left area fall | lower left area | bottom area | none (falling) |  | Verified |  |
-| F9 | lower right area fall | lower right area | bottom area | none (falling) |  | Verified |  |
-| S1 | bottom silk soar | bottom area | lower silk soar only zone | silk soar |  | Verified |  |
+| F7 | lower silk soar zone fall | lower silk soar only zone | bottom gap area | none (falling) |  | Verified |  |
+| F8 | lower left area fall | bottom left area | bottom gap area | none (falling) |  | Verified |  |
+| F9 | lower right area fall | lower right area | bottom gap area | none (falling) |  | Verified |  |
+| S1 | bottom silk soar | bottom gap area | lower silk soar only zone | silk soar |  | Verified |  |
 | S2 | lower zone silk soar | lower silk soar only zone | upper silk soar only zone | silk soar |  | Verified |  |
 | S3 | upper zone silk soar | upper silk soar only zone | top area | silk soar |  | Verified |  |
 | UC | upper crossing | upper left ledge | upper right ledge | silk soar  OR cling grip  OR faydown cloak  OR ( ledge grab AND ( dash OR clawline OR medium scuttlebrace ) ) OR ( ( medium enemy pogo OR ledge grab ) AND ( run OR sharpdart OR easy beast pogo ) )  OR ( easy enemy pogo AND ( clawline OR dash OR medium shaman pogo ) ) |  | Verified |  |
@@ -745,8 +745,8 @@ known silk blockade breakers = silk spear, sharpdart, rune rage, weaver silkshot
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| RJ | running jump | ground floor | upper left exit | run  OR ( dash AND  ( ledge grab OR cling grip ) ) OR faydown  OR silk soar  OR clawline  OR sharpdart  OR easy beast pogo  OR easy enemy pogo |  | Verified |  |
-| RJ | running jump | upper left exit | ground floor | none (falling) |  | Verified |  |
+| RJ | running jump | upper right level | upper left exit | run  OR ( dash AND ( ledge grab OR cling grip ) ) OR faydown  OR silk soar  OR clawline  OR sharpdart  OR easy beast pogo  OR easy enemy pogo | TODO | Needs verification | double check if this is right - should be center platform be part of upper right level or ground floor? |
+| RJ | running jump | upper left exit | upper right level | none (falling) | TODO | Verified |  |
 | LG1 | ledge grab 1 | ground floor | rosary alcove | ledge grab  OR faydown cloak OR silk soar OR cling grip OR scuttlebrace OR easy shaman pogo |  | Verified |  |
 | LG1 | ledge grab 1 | rosary alcove | ground floor | none (falling) |  | Verified |  |
 | LG2 | ledge grab 2 | ground floor | upper right level | ledge grab  OR faydown cloak OR silk soar OR cling grip |  | Verified |  |
@@ -1214,7 +1214,7 @@ No subroom connections defined.
 | L | left | left area | [Mosshome Middle (Mosstown_01)](#mosshome-middle-mosstown01) | LR | none |  | Verified |  |
 | F | floor | left area | [The Marrow Map Shop (Bone_04)](#the-marrow-map-shop-bone04) | C | none |  | Verified |  |
 | R | right | right area | [The Marrow Bellshrine (Bellshrine)](#the-marrow-bellshrine-bellshrine) | L | none |  | Verified |  |
-| BB | bellway | left area | [Bellway Menu](#bellway-menu) | TM | unlock bellway the marrow |  | Verified |  |
+| BB | bellway | right area | [Bellway Menu](#bellway-menu) | TM | unlock bellway the marrow |  | Verified |  |
 
 #### Subroom Connections
 
@@ -1483,8 +1483,8 @@ No subroom connections defined.
 | C1 | open cell 1 | grindle cell | upper platforms | break wall left |  | Verified |  |
 | C2 | open cell 2 | upper platforms | other cell | break wall left |  | Verified |  |
 | C2 | open cell 2 | other cell | upper platforms | break wall right |  | Verified |  |
-| V2 | vertical 2 | upper platforms | above grindle cell | ledge grab OR cling grip OR faydown OR silk soar |  | Verified |  |
-| V2 | vertical 2 | above grindle cell | upper platforms | none (falling) |  | Verified |  |
+| V2 | vertical 2 | grindle cell | above grindle cell | ledge grab OR cling grip OR faydown OR silk soar |  | Verified |  |
+| V2 | vertical 2 | above grindle cell | grindle cell | none (falling) |  | Verified |  |
 
 #### Check Locations
 
@@ -3432,7 +3432,7 @@ No check locations defined.
 | UR | right1 | upper right platforms | [Far Fields Wind Shaft (Bone_East_07)](#far-fields-wind-shaft-boneeast07) | L1 | none |  | Verified |  |
 | LR | right2 | lower right exit platform | [Far Fields Wind Shaft (Bone_East_07)](#far-fields-wind-shaft-boneeast07) | L2 | none |  | Verified |  |
 | L | left1 | lower walkway | [Far Fields Entrance East (Bone_East_02)](#far-fields-entrance-east-boneeast02) | R | none |  | Verified |  |
-| C | top3 | upper right platforms | [Far Fields Fort Lower Passage (Bone_East_16)](#far-fields-fort-lower-passage-boneeast16) | F | none |  | Verified |  |
+| C | top3 | upper left platforms | [Far Fields Fort Lower Passage (Bone_East_16)](#far-fields-fort-lower-passage-boneeast16) | F | none |  | Verified |  |
 
 #### Subroom Connections
 
@@ -4077,7 +4077,7 @@ No subroom connections defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 | bellway | [Far Fields Pinstress Attic (Bone_East_09b)](#far-fields-pinstress-attic-boneeast09b) | L | none |  | Verified |  |
+| R | right1 | right exit area | [Far Fields Pinstress Attic (Bone_East_09b)](#far-fields-pinstress-attic-boneeast09b) | L | none |  | Verified |  |
 | L | left1 | bellway | [Far Fields Wind Shaft (Bone_East_07)](#far-fields-wind-shaft-boneeast07) | R2 | none |  | Verified |  |
 | BB | door_fastTravelExit | bellway | [Bellway Menu](#bellway-menu) | FF | unlock bellway far fields |  | Verified |  |
 
@@ -4399,8 +4399,8 @@ the arena to mask shard connections are one-way so the full requirement chain is
 | V5 | vertical 5 | bottom exit area | lower right area | silk soar OR cling grip OR scuttlebrace ( faydown cloak AND ledge grab ) |  | Verified |  |
 | DS | door switch | right exit area | left of right exit gate | activate right exit door switch |  | Verified |  |
 | DS | door switch | left of right exit gate | right exit area | activate right exit door switch |  | Verified |  |
-| V6 | vertical 6 | lower right alcove | left of right exit gate | silk soar OR faydown cloak OR ( ledge grab AND ( run OR drifter's cloak OR clawline ) ) |  | Verified |  |
-| V6 | vertical 6 | left of right exit gate | lower right alcove | none (falling) |  | Verified |  |
+| V6 | vertical 6 | lower right area | left of right exit gate | silk soar OR faydown cloak OR ( ledge grab AND ( run OR drifter's cloak OR clawline ) ) |  | Verified |  |
+| V6 | vertical 6 | left of right exit gate | lower right area | none (falling) |  | Verified |  |
 | S1 | silk soar 1 | plains | plains upper left platform | silk soar OR ( faydown cloak AND clawline ) |  | Verified | can hop up from the ground here or cross over from the plains upper right platform - requirements are the same |
 | S1 | silk soar 1 | plains upper left platform | plains | none (falling) |  | Verified |  |
 | S2 | silk soar 2 | plains | plains upper right platform | silk soar |  | Verified |  |
@@ -12613,8 +12613,8 @@ No subroom connections defined.
 | AML | Ascent to Middle Left | Middle (Left) | Ascent | Nothing (Fall) |  | Verified |  |
 | AMR | Ascent to Middle Right | Ascent | Middle (Right) | Cling Grip OR Scuttlebrace OR Silk Soar OR Faydown |  | Verified |  |
 | AMR | Ascent to Middle Right | Middle (Right) | Ascent | Nothing (Fall) |  | Verified |  |
-| MRB | Middle Right to Bottom | Bottom Right (Lower) | Middle (Right) | (Magma Bell AND Silk Soar) OR (Faydown AND Cling Grip) |  | Verified |  |
-| MRB | Middle Right to Bottom | Middle (Right) | Bottom Right (Lower) | Nothing (Fall) |  | Verified |  |
+| MRB | Middle Right to Bottom | Bottom Right (Lower) | Middle (Right) | (Magma Bell AND Silk Soar) OR (Faydown AND Cling Grip) | TODO | Verified | is the jump to bottom lower intended? |
+| MRB | Middle Right to Bottom | Middle (Right) | Bottom Right (Lower) | Nothing (Fall) | TODO | Verified | is the jump to bottom lower intended? |
 | AAT | Ascent to Top | Ascent | Top | Cling Grip OR Silk Soar OR Faydown |  | Verified |  |
 | AAT | Ascent to Top | Top | Ascent | Cling Grip OR Silk Soar OR Faydown |  | Verified |  |
 | BUL | Bottom Right Upper to Lower | Bottom Right (Lower) | Bottom Right (Upper) | Cling Grip OR Silk Soar |  | Verified |  |

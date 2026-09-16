@@ -45,8 +45,8 @@
 | V5 | vertical 5 | bottom exit area | lower right area | silk soar OR cling grip OR scuttlebrace ( faydown cloak AND ledge grab ) |  | Verified |  |
 | DS | door switch | right exit area | left of right exit gate | activate right exit door switch |  | Verified |  |
 | DS | door switch | left of right exit gate | right exit area | activate right exit door switch |  | Verified |  |
-| V6 | vertical 6 | lower right alcove | left of right exit gate | silk soar OR faydown cloak OR ( ledge grab AND ( run OR drifter's cloak OR clawline ) ) |  | Verified |  |
-| V6 | vertical 6 | left of right exit gate | lower right alcove | none (falling) |  | Verified |  |
+| V6 | vertical 6 | lower right area | left of right exit gate | silk soar OR faydown cloak OR ( ledge grab AND ( run OR drifter's cloak OR clawline ) ) |  | Verified |  |
+| V6 | vertical 6 | left of right exit gate | lower right area | none (falling) |  | Verified |  |
 | S1 | silk soar 1 | plains | plains upper left platform | silk soar OR ( faydown cloak AND clawline ) |  | Verified | can hop up from the ground here or cross over from the plains upper right platform - requirements are the same |
 | S1 | silk soar 1 | plains upper left platform | plains | none (falling) |  | Verified |  |
 | S2 | silk soar 2 | plains | plains upper right platform | silk soar |  | Verified |  |

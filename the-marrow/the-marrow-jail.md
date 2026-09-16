@@ -28,8 +28,8 @@
 | C1 | open cell 1 | grindle cell | upper platforms | break wall left |  | Verified |  |
 | C2 | open cell 2 | upper platforms | other cell | break wall left |  | Verified |  |
 | C2 | open cell 2 | other cell | upper platforms | break wall right |  | Verified |  |
-| V2 | vertical 2 | upper platforms | above grindle cell | ledge grab OR cling grip OR faydown OR silk soar |  | Verified |  |
-| V2 | vertical 2 | above grindle cell | upper platforms | none (falling) |  | Verified |  |
+| V2 | vertical 2 | grindle cell | above grindle cell | ledge grab OR cling grip OR faydown OR silk soar |  | Verified |  |
+| V2 | vertical 2 | above grindle cell | grindle cell | none (falling) |  | Verified |  |
 
 ## Check Locations
 

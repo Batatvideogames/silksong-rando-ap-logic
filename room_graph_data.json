@@ -4546,11 +4546,11 @@
           "unresolved_reasons": []
         },
         {
-          "id": "moss-grotto/moss-grotto-center#rock-bottom>lower-crossing@s5",
+          "id": "moss-grotto/moss-grotto-center#rock-bottom>dead-ledge@s5",
           "alias": "S5",
           "name": "shaft 5",
           "source_node_id": "moss-grotto/moss-grotto-center#rock-bottom",
-          "target_node_id": "moss-grotto/moss-grotto-center#lower-crossing",
+          "target_node_id": "moss-grotto/moss-grotto-center#dead-ledge",
           "requirement": {
             "raw": "silk soar\nOR ( cling grip AND faydown cloak ) \nOR ( easy scuttlebrace AND dash AND faydown cloak AND ( ( drifters cloak AND ledge grab ) OR clawline OR sharpdart ) )",
             "mode": "expression",
@@ -4591,10 +4591,10 @@
           "unresolved_reasons": []
         },
         {
-          "id": "moss-grotto/moss-grotto-center#lower-crossing>rock-bottom@s5",
+          "id": "moss-grotto/moss-grotto-center#dead-ledge>rock-bottom@s5",
           "alias": "S5",
           "name": "shaft 5",
-          "source_node_id": "moss-grotto/moss-grotto-center#lower-crossing",
+          "source_node_id": "moss-grotto/moss-grotto-center#dead-ledge",
           "target_node_id": "moss-grotto/moss-grotto-center#rock-bottom",
           "requirement": {
             "raw": "none (falling)",
@@ -6776,11 +6776,11 @@
           "unresolved_reasons": []
         },
         {
-          "id": "bone-bottom/bone-bottom-town#sky>upper-right-platforms@dl",
+          "id": "bone-bottom/bone-bottom-town#sky>upper-middle-platforms@dl",
           "alias": "DL",
           "name": "sky drift to right platforms",
           "source_node_id": "bone-bottom/bone-bottom-town#sky",
-          "target_node_id": "bone-bottom/bone-bottom-town#upper-right-platforms",
+          "target_node_id": "bone-bottom/bone-bottom-town#upper-middle-platforms",
           "requirement": {
             "raw": "drifters \nOR clawline\nOR faydown\nOR sharpdart\nOR dash\nOR easy beast pogo\nOR easy hunter pogo\nOR easy architect pogo",
             "mode": "expression",
@@ -6819,11 +6819,11 @@
           "unresolved_reasons": []
         },
         {
-          "id": "bone-bottom/bone-bottom-town#sky>upper-middle-platforms@dr",
+          "id": "bone-bottom/bone-bottom-town#sky>upper-right-platforms@dr",
           "alias": "DR",
           "name": "sky drift to middle platforms",
           "source_node_id": "bone-bottom/bone-bottom-town#sky",
-          "target_node_id": "bone-bottom/bone-bottom-town#upper-middle-platforms",
+          "target_node_id": "bone-bottom/bone-bottom-town#upper-right-platforms",
           "requirement": {
             "raw": "drifters \nOR clawline\nOR faydown\nOR sharpdart\nOR dash\nOR easy beast pogo\nOR easy hunter pogo\nOR easy architect pogo",
             "mode": "expression",
@@ -8936,8 +8936,8 @@
           "notes": ""
         },
         {
-          "id": "bone-bottom/the-big-fall#bottom-area",
-          "name": "bottom area",
+          "id": "bone-bottom/the-big-fall#bottom-gap-area",
+          "name": "bottom gap area",
           "notes": ""
         },
         {
@@ -9230,7 +9230,7 @@
           "alias": "B1",
           "name": "bot1",
           "in_game_id": "bot1",
-          "source_node_id": "bone-bottom/the-big-fall#bottom-area",
+          "source_node_id": "bone-bottom/the-big-fall#bottom-gap-area",
           "target": "bone-bottom/bone-bottom-town@t1",
           "requirement": {
             "raw": "none",
@@ -9272,7 +9272,7 @@
           "alias": "B3",
           "name": "bot3",
           "in_game_id": "bot3",
-          "source_node_id": "bone-bottom/the-big-fall#bottom-area",
+          "source_node_id": "bone-bottom/the-big-fall#bottom-gap-area",
           "target": "bone-bottom/bone-bottom-town@t3",
           "requirement": {
             "raw": "none",
@@ -9293,7 +9293,7 @@
           "alias": "B4",
           "name": "bot4",
           "in_game_id": "bot4",
-          "source_node_id": "bone-bottom/the-big-fall#bottom-area",
+          "source_node_id": "bone-bottom/the-big-fall#bottom-gap-area",
           "target": "bone-bottom/bone-bottom-town@t4",
           "requirement": {
             "raw": "none",
@@ -9314,7 +9314,7 @@
           "alias": "B5",
           "name": "bot5",
           "in_game_id": "bot5",
-          "source_node_id": "bone-bottom/the-big-fall#bottom-area",
+          "source_node_id": "bone-bottom/the-big-fall#bottom-gap-area",
           "target": "bone-bottom/bone-bottom-town@t5",
           "requirement": {
             "raw": "none",
@@ -9453,11 +9453,11 @@
           "unresolved_reasons": []
         },
         {
-          "id": "bone-bottom/the-big-fall#lower-silk-soar-only-zone>bottom-area@f7",
+          "id": "bone-bottom/the-big-fall#lower-silk-soar-only-zone>bottom-gap-area@f7",
           "alias": "F7",
           "name": "lower silk soar zone fall",
           "source_node_id": "bone-bottom/the-big-fall#lower-silk-soar-only-zone",
-          "target_node_id": "bone-bottom/the-big-fall#bottom-area",
+          "target_node_id": "bone-bottom/the-big-fall#bottom-gap-area",
           "requirement": {
             "raw": "none (falling)",
             "mode": "none",
@@ -9473,11 +9473,11 @@
           "unresolved_reasons": []
         },
         {
-          "id": "bone-bottom/the-big-fall#lower-left-area>bottom-area@f8",
+          "id": "bone-bottom/the-big-fall#bottom-left-area>bottom-gap-area@f8",
           "alias": "F8",
           "name": "lower left area fall",
-          "source_node_id": "bone-bottom/the-big-fall#lower-left-area",
-          "target_node_id": "bone-bottom/the-big-fall#bottom-area",
+          "source_node_id": "bone-bottom/the-big-fall#bottom-left-area",
+          "target_node_id": "bone-bottom/the-big-fall#bottom-gap-area",
           "requirement": {
             "raw": "none (falling)",
             "mode": "none",
@@ -9493,11 +9493,11 @@
           "unresolved_reasons": []
         },
         {
-          "id": "bone-bottom/the-big-fall#lower-right-area>bottom-area@f9",
+          "id": "bone-bottom/the-big-fall#lower-right-area>bottom-gap-area@f9",
           "alias": "F9",
           "name": "lower right area fall",
           "source_node_id": "bone-bottom/the-big-fall#lower-right-area",
-          "target_node_id": "bone-bottom/the-big-fall#bottom-area",
+          "target_node_id": "bone-bottom/the-big-fall#bottom-gap-area",
           "requirement": {
             "raw": "none (falling)",
             "mode": "none",
@@ -9513,10 +9513,10 @@
           "unresolved_reasons": []
         },
         {
-          "id": "bone-bottom/the-big-fall#bottom-area>lower-silk-soar-only-zone@s1",
+          "id": "bone-bottom/the-big-fall#bottom-gap-area>lower-silk-soar-only-zone@s1",
           "alias": "S1",
           "name": "bottom silk soar",
-          "source_node_id": "bone-bottom/the-big-fall#bottom-area",
+          "source_node_id": "bone-bottom/the-big-fall#bottom-gap-area",
           "target_node_id": "bone-bottom/the-big-fall#lower-silk-soar-only-zone",
           "requirement": {
             "raw": "silk soar",
@@ -11503,13 +11503,13 @@
       ],
       "connections": [
         {
-          "id": "bone-bottom/mosshome-lower#ground-floor>upper-left-exit@rj",
+          "id": "bone-bottom/mosshome-lower#upper-right-level>upper-left-exit@rj",
           "alias": "RJ",
           "name": "running jump",
-          "source_node_id": "bone-bottom/mosshome-lower#ground-floor",
+          "source_node_id": "bone-bottom/mosshome-lower#upper-right-level",
           "target_node_id": "bone-bottom/mosshome-lower#upper-left-exit",
           "requirement": {
-            "raw": "run \nOR ( dash AND  ( ledge grab OR cling grip ) )\nOR faydown \nOR silk soar \nOR clawline \nOR sharpdart \nOR easy beast pogo \nOR easy enemy pogo",
+            "raw": "run \nOR ( dash AND ( ledge grab OR cling grip ) )\nOR faydown \nOR silk soar \nOR clawline \nOR sharpdart \nOR easy beast pogo \nOR easy enemy pogo",
             "mode": "expression",
             "dnf": [
               [
@@ -11544,18 +11544,18 @@
             ],
             "unresolved_reasons": []
           },
-          "notes": "",
-          "is_todo": false,
-          "is_verified": true,
+          "notes": "double check if this is right - should be center platform be part of upper right level or ground floor?",
+          "is_todo": true,
+          "is_verified": false,
           "logic_status": "active",
           "unresolved_reasons": []
         },
         {
-          "id": "bone-bottom/mosshome-lower#upper-left-exit>ground-floor@rj",
+          "id": "bone-bottom/mosshome-lower#upper-left-exit>upper-right-level@rj",
           "alias": "RJ",
           "name": "running jump",
           "source_node_id": "bone-bottom/mosshome-lower#upper-left-exit",
-          "target_node_id": "bone-bottom/mosshome-lower#ground-floor",
+          "target_node_id": "bone-bottom/mosshome-lower#upper-right-level",
           "requirement": {
             "raw": "none (falling)",
             "mode": "none",
@@ -11565,7 +11565,7 @@
             "unresolved_reasons": []
           },
           "notes": "",
-          "is_todo": false,
+          "is_todo": true,
           "is_verified": true,
           "logic_status": "active",
           "unresolved_reasons": []
@@ -15726,7 +15726,7 @@
           "alias": "BB",
           "name": "bellway",
           "in_game_id": "door_fastTravelExit",
-          "source_node_id": "the-marrow/the-marrow-bellway#left-area",
+          "source_node_id": "the-marrow/the-marrow-bellway#right-area",
           "target": "fast-travel/bellway-menu@tm",
           "requirement": {
             "raw": "unlock bellway the marrow",
@@ -17336,10 +17336,10 @@
           "unresolved_reasons": []
         },
         {
-          "id": "the-marrow/the-marrow-jail#upper-platforms>above-grindle-cell@v2",
+          "id": "the-marrow/the-marrow-jail#grindle-cell>above-grindle-cell@v2",
           "alias": "V2",
           "name": "vertical 2",
-          "source_node_id": "the-marrow/the-marrow-jail#upper-platforms",
+          "source_node_id": "the-marrow/the-marrow-jail#grindle-cell",
           "target_node_id": "the-marrow/the-marrow-jail#above-grindle-cell",
           "requirement": {
             "raw": "ledge grab\nOR cling grip\nOR faydown\nOR silk soar",
@@ -17367,11 +17367,11 @@
           "unresolved_reasons": []
         },
         {
-          "id": "the-marrow/the-marrow-jail#above-grindle-cell>upper-platforms@v2",
+          "id": "the-marrow/the-marrow-jail#above-grindle-cell>grindle-cell@v2",
           "alias": "V2",
           "name": "vertical 2",
           "source_node_id": "the-marrow/the-marrow-jail#above-grindle-cell",
-          "target_node_id": "the-marrow/the-marrow-jail#upper-platforms",
+          "target_node_id": "the-marrow/the-marrow-jail#grindle-cell",
           "requirement": {
             "raw": "none (falling)",
             "mode": "none",
@@ -29406,7 +29406,7 @@
           "alias": "C",
           "name": "top3",
           "in_game_id": "top3",
-          "source_node_id": "far-fields/far-fields-entrance-west#upper-right-platforms",
+          "source_node_id": "far-fields/far-fields-entrance-west#upper-left-platforms",
           "target": "far-fields/far-fields-fort-lower-passage@f",
           "requirement": {
             "raw": "none",
@@ -34958,7 +34958,7 @@
           "alias": "R",
           "name": "right1",
           "in_game_id": "right1",
-          "source_node_id": "far-fields/far-fields-bellway#bellway",
+          "source_node_id": "far-fields/far-fields-bellway#right-exit-area",
           "target": "far-fields/far-fields-pinstress-attic@l",
           "requirement": {
             "raw": "none",
@@ -37988,10 +37988,10 @@
           "unresolved_reasons": []
         },
         {
-          "id": "far-fields/far-fields-deep-entrance#lower-right-alcove>left-of-right-exit-gate@v6",
+          "id": "far-fields/far-fields-deep-entrance#lower-right-area>left-of-right-exit-gate@v6",
           "alias": "V6",
           "name": "vertical 6",
-          "source_node_id": "far-fields/far-fields-deep-entrance#lower-right-alcove",
+          "source_node_id": "far-fields/far-fields-deep-entrance#lower-right-area",
           "target_node_id": "far-fields/far-fields-deep-entrance#left-of-right-exit-gate",
           "requirement": {
             "raw": "silk soar OR faydown cloak OR ( ledge grab AND ( run OR drifter's cloak OR clawline ) )",
@@ -38025,11 +38025,11 @@
           "unresolved_reasons": []
         },
         {
-          "id": "far-fields/far-fields-deep-entrance#left-of-right-exit-gate>lower-right-alcove@v6",
+          "id": "far-fields/far-fields-deep-entrance#left-of-right-exit-gate>lower-right-area@v6",
           "alias": "V6",
           "name": "vertical 6",
           "source_node_id": "far-fields/far-fields-deep-entrance#left-of-right-exit-gate",
-          "target_node_id": "far-fields/far-fields-deep-entrance#lower-right-alcove",
+          "target_node_id": "far-fields/far-fields-deep-entrance#lower-right-area",
           "requirement": {
             "raw": "none (falling)",
             "mode": "none",
@@ -100216,8 +100216,8 @@
             ],
             "unresolved_reasons": []
           },
-          "notes": "",
-          "is_todo": false,
+          "notes": "is the jump to bottom lower intended?",
+          "is_todo": true,
           "is_verified": true,
           "logic_status": "active",
           "unresolved_reasons": []
@@ -100236,8 +100236,8 @@
             ],
             "unresolved_reasons": []
           },
-          "notes": "",
-          "is_todo": false,
+          "notes": "is the jump to bottom lower intended?",
+          "is_todo": true,
           "is_verified": true,
           "logic_status": "active",
           "unresolved_reasons": []

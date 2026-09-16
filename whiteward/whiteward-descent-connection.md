@@ -39,8 +39,8 @@
 | AML | Ascent to Middle Left | Middle (Left) | Ascent | Nothing (Fall) |  | Verified |  |
 | AMR | Ascent to Middle Right | Ascent | Middle (Right) | Cling Grip OR Scuttlebrace OR Silk Soar OR Faydown |  | Verified |  |
 | AMR | Ascent to Middle Right | Middle (Right) | Ascent | Nothing (Fall) |  | Verified |  |
-| MRB | Middle Right to Bottom | Bottom Right (Lower) | Middle (Right) | (Magma Bell AND Silk Soar) OR (Faydown AND Cling Grip) |  | Verified |  |
-| MRB | Middle Right to Bottom | Middle (Right) | Bottom Right (Lower) | Nothing (Fall) |  | Verified |  |
+| MRB | Middle Right to Bottom | Bottom Right (Lower) | Middle (Right) | (Magma Bell AND Silk Soar) OR (Faydown AND Cling Grip) | TODO | Verified | is the jump to bottom lower intended? |
+| MRB | Middle Right to Bottom | Middle (Right) | Bottom Right (Lower) | Nothing (Fall) | TODO | Verified | is the jump to bottom lower intended? |
 | AAT | Ascent to Top | Ascent | Top | Cling Grip OR Silk Soar OR Faydown |  | Verified |  |
 | AAT | Ascent to Top | Top | Ascent | Cling Grip OR Silk Soar OR Faydown |  | Verified |  |
 | BUL | Bottom Right Upper to Lower | Bottom Right (Lower) | Bottom Right (Upper) | Cling Grip OR Silk Soar |  | Verified |  |

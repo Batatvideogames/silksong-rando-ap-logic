@@ -40,8 +40,8 @@
 | S3 | shaft 3 | center shaft | lower crossing | none (falling) |  | Verified |  |
 | S4 | shaft 4 | dead ledge | lower crossing | ledge grab OR faydown cloak OR silk soar OR scuttlebrace OR ( cling grip AND ( dash OR clawline ) ) |  | Verified |  |
 | S4 | shaft 4 | lower crossing | dead ledge | none (falling) |  | Verified |  |
-| S5 | shaft 5 | rock bottom | lower crossing | silk soar OR ( cling grip AND faydown cloak )  OR ( easy scuttlebrace AND dash AND faydown cloak AND ( ( drifters cloak AND ledge grab ) OR clawline OR sharpdart ) ) |  | Verified |  |
-| S5 | shaft 5 | lower crossing | rock bottom | none (falling) |  | Verified |  |
+| S5 | shaft 5 | rock bottom | dead ledge | silk soar OR ( cling grip AND faydown cloak )  OR ( easy scuttlebrace AND dash AND faydown cloak AND ( ( drifters cloak AND ledge grab ) OR clawline OR sharpdart ) ) |  | Verified |  |
+| S5 | shaft 5 | dead ledge | rock bottom | none (falling) |  | Verified |  |
 | LG | ledge grab 1 | rock bottom | beast alcove | ledge grab OR faydown cloak OR silk soar OR cling grip OR scuttlebrace |  | Verified |  |
 | LG | ledge grab 1 | beast alcove | rock bottom | none (falling) |  | Verified |  |
 

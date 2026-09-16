@@ -19,7 +19,7 @@
 | UR | right1 | upper right platforms | [Far Fields Wind Shaft (Bone_East_07)](far-fields-wind-shaft.md) | L1 | none |  | Verified |  |
 | LR | right2 | lower right exit platform | [Far Fields Wind Shaft (Bone_East_07)](far-fields-wind-shaft.md) | L2 | none |  | Verified |  |
 | L | left1 | lower walkway | [Far Fields Entrance East (Bone_East_02)](far-fields-entrance-east.md) | R | none |  | Verified |  |
-| C | top3 | upper right platforms | [Far Fields Fort Lower Passage (Bone_East_16)](far-fields-fort-lower-passage.md) | F | none |  | Verified |  |
+| C | top3 | upper left platforms | [Far Fields Fort Lower Passage (Bone_East_16)](far-fields-fort-lower-passage.md) | F | none |  | Verified |  |
 
 ## Subroom Connections
 

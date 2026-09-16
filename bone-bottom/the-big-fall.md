@@ -13,7 +13,7 @@
 - middle right ledge
 - lower left area
 - lower right area
-- bottom area
+- bottom gap area
 - upper silk soar only zone
 - lower silk soar only zone
 - bottom left area
@@ -34,11 +34,11 @@
 | LR | lower right | lower right area | [Mosshome Lower (Bone_11)](mosshome-lower.md) | L | none |  | Verified |  |
 | UL | upper left | upper left ledge | [Wormways Upper East (Crawl_01)](../wormways/wormways-upper-east.md) | R | none |  | Verified |  |
 | LL | lower left | lower left area | [Wormways Craggler Hallway (Crawl_04)](../wormways/wormways-craggler-hallway.md) | R | none |  | Verified |  |
-| B1 | bot1 | bottom area | [Bone Bottom Town (Bonetown)](bone-bottom-town.md) | T1 | none |  | Verified |  |
+| B1 | bot1 | bottom gap area | [Bone Bottom Town (Bonetown)](bone-bottom-town.md) | T1 | none |  | Verified |  |
 | B2 | bot2 | lower right area | [Bone Bottom Town (Bonetown)](bone-bottom-town.md) | T2 | none |  | Verified |  |
-| B3 | bot3 | bottom area | [Bone Bottom Town (Bonetown)](bone-bottom-town.md) | T3 | none |  | Verified |  |
-| B4 | bot4 | bottom area | [Bone Bottom Town (Bonetown)](bone-bottom-town.md) | T4 | none |  | Verified |  |
-| B5 | bot5 | bottom area | [Bone Bottom Town (Bonetown)](bone-bottom-town.md) | T5 | none |  | Verified |  |
+| B3 | bot3 | bottom gap area | [Bone Bottom Town (Bonetown)](bone-bottom-town.md) | T3 | none |  | Verified |  |
+| B4 | bot4 | bottom gap area | [Bone Bottom Town (Bonetown)](bone-bottom-town.md) | T4 | none |  | Verified |  |
+| B5 | bot5 | bottom gap area | [Bone Bottom Town (Bonetown)](bone-bottom-town.md) | T5 | none |  | Verified |  |
 
 ## Subroom Connections
 
@@ -50,10 +50,10 @@
 | F4 | wish ledge fall | wish ledge | upper silk soar only zone | none (falling) |  | Verified |  |
 | F5 | upper silk soar zone fall | upper silk soar only zone | middle right ledge | none (falling) |  | Verified |  |
 | F6 | middle right ledge fall | middle right ledge | lower silk soar only zone | none (falling) |  | Verified |  |
-| F7 | lower silk soar zone fall | lower silk soar only zone | bottom area | none (falling) |  | Verified |  |
-| F8 | lower left area fall | lower left area | bottom area | none (falling) |  | Verified |  |
-| F9 | lower right area fall | lower right area | bottom area | none (falling) |  | Verified |  |
-| S1 | bottom silk soar | bottom area | lower silk soar only zone | silk soar |  | Verified |  |
+| F7 | lower silk soar zone fall | lower silk soar only zone | bottom gap area | none (falling) |  | Verified |  |
+| F8 | lower left area fall | bottom left area | bottom gap area | none (falling) |  | Verified |  |
+| F9 | lower right area fall | lower right area | bottom gap area | none (falling) |  | Verified |  |
+| S1 | bottom silk soar | bottom gap area | lower silk soar only zone | silk soar |  | Verified |  |
 | S2 | lower zone silk soar | lower silk soar only zone | upper silk soar only zone | silk soar |  | Verified |  |
 | S3 | upper zone silk soar | upper silk soar only zone | top area | silk soar |  | Verified |  |
 | UC | upper crossing | upper left ledge | upper right ledge | silk soar  OR cling grip  OR faydown cloak  OR ( ledge grab AND ( dash OR clawline OR medium scuttlebrace ) ) OR ( ( medium enemy pogo OR ledge grab ) AND ( run OR sharpdart OR easy beast pogo ) )  OR ( easy enemy pogo AND ( clawline OR dash OR medium shaman pogo ) ) |  | Verified |  |
