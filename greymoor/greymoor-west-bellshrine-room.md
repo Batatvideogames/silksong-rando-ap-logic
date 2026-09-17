@@ -29,16 +29,16 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | LS | lever switch | main path | middle section right | cling grip OR medium scuttlebrace OR (prereq shrine entrance lever AND (ledge grab OR medium shaman pogo)) |  | Verified |  |
 | LS | lever switch | middle section right | main path | none (Switch is on this sidel) |  | Verified |  |
-| P | Platform | middle section left | upper path right | ledge grab OR faydown cloak OR silk soar OR medium shaman pogo OR cling grip |  | Verified |  |
-| P | Platform | upper path right | middle section left | none (just fall) |  | Verified |  |
+| P | Platform | middle section left | upper path left | ledge grab OR faydown cloak OR silk soar OR medium shaman pogo OR cling grip |  | Verified |  |
+| P | Platform | upper path left | middle section left | none (just fall) |  | Verified |  |
 | F1 | Fall 1 | middle section right | upper path right | Silk soar |  | Verified |  |
 | F1 | Fall 1 | upper path right | middle section right | none (just fall) |  | Verified |  |
 | BG | Big Gap | middle section right | middle section left | progressive swift step 1 AND clawline AND drifters cloak AND faydown cloak |  | Verified |  |
 | BG | Big Gap | middle section left | middle section right | progressive swift step 1 AND clawline AND drifters cloak AND faydown cloak |  | Verified |  |
 | G | Gap | upper path right | upper path left | faydown cloak OR drifters cloak OR flea brew OR progressive swift step 1 OR clawline OR sharpdart OR medium scuttlebrace |  | Verified |  |
 | G | Gap | upper path left | upper path right | ledge grab OR medium enemy pogo OR progressive swift step 1 OR clawline OR sharpdart OR faydown cloak OR easy beast pogo OR medium shaman pogo |  | Verified |  |
-| F2 | Fall 2 | middle section right | main path | none (just fall) |  | Verified |  |
-| F2 | Fall 2 | main path | middle section right | silk soar |  | Verified |  |
+| F2 | Fall 2 | middle section left | main path | none (just fall) |  | Verified |  |
+| F2 | Fall 2 | main path | middle section left | silk soar |  | Verified |  |
 
 ## Check Locations
 

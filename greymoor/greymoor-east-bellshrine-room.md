@@ -19,7 +19,7 @@
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | LSL | lower left | lower section left | [Greymoor West Bellshrine Room  (Greymoor_01)](greymoor-west-bellshrine-room.md) | LR | none |  | Verified |  |
-| LR | lower right | lower section left | [Greymoor Craw Lake Entrance (Greymoor_15)](greymoor-craw-lake-entrance.md) | LL | none |  | Verified |  |
+| LR | lower right | lower section right | [Greymoor Craw Lake Entrance (Greymoor_15)](greymoor-craw-lake-entrance.md) | LL | none |  | Verified |  |
 | ML | middle left | middle section left | [Greymoor Bellshrine (Bellshrine_02)](greymoor-bellshrine.md) | R | none |  | Verified |  |
 | MR | middle right | middle section right | [Greymoor Craw Lake Entrance (Greymoor_15)](greymoor-craw-lake-entrance.md) | UL | none |  | Verified |  |
 | BL | bridge left | bridge left section | [Greymoor West Bellshrine Room  (Greymoor_01)](greymoor-west-bellshrine-room.md) | TR | none |  | Verified |  |

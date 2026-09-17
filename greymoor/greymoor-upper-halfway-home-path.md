@@ -35,4 +35,4 @@
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Greymoor #2 - Shard Bundle: | left section | none |  | Verified | resource |  |
+| Greymoor #2 - Shard Bundle: | check platform | none |  | Verified | resource |  |

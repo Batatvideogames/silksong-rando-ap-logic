@@ -27,7 +27,7 @@
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Voltvessels | Memorium stuff | nada |  | Verified | collectible |  |
+| Voltvessels | Memorium stuff | complete Memoria gauntlet |  | Verified | collectible |  |
 | Memoria gauntlet | Memorium stuff | nada |  | Verified | gauntlet | custom name |
 
 ## Notes
