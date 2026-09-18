@@ -8467,7 +8467,7 @@ No subrooms defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | L | Left |  | [Pre Last Judge Room (Coral_32)](#pre-last-judge-room-coral32) | R | Nothing |  | Verified |  |
-| R | Right |  | [Grand Bridge (Coral_10)](#grand-bridge-coral10) | L | Activated Bellshrines 5 AND defeat Boss: Last Judge |  | Verified |  |
+| R | Right |  | [Grand Bridge (Coral_10)](#grand-bridge-coral10) | L | defeat Boss: Last Judge |  | Verified |  |
 
 #### Subroom Connections
 
@@ -8477,7 +8477,8 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Boss: Last Judge |  | Progressive Swift Step 2 OR Faydown |  | Verified | boss | Combat Requirements |
+| Boss: Last Judge |  | prereq Five Bellshrines Rung AND (Progressive Swift Step 2 OR Faydown) |  | Verified | boss | Combat Requirements |
+| Five Bellshrines Rung |  | activated bellshrines 5 |  | Verified | event |  |
 
 ### Lumble the Lucky (Coral_33)
 
@@ -12618,7 +12619,7 @@ No subroom connections defined.
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | BLS | Bottom Left to Spikes | Bottom (Left) | Spikes | Easy Skip Spike Pogo OR Dash OR Sprint OR Sharpdart OR Clawline OR Faydown OR Drifter's Cloak OR Have Flea Brew OR Easy Plasmium Phial Stall OR Easy Voltvessels Stall |  | Verified |  |
-| BLS | Bottom Left to Spikes | Spikes | Bottom (Left) | Easy Skip Spike Pogo OR Dash OR Sprint OR Sharpdart OR Clawline OR Faydown OR Drifter's Cloak OR Flea Brew OR Easy Plasmium Phial Stall OR Easy Voltvessels Stall |  | Verified |  |
+| BLS | Bottom Left to Spikes | Spikes | Bottom (Left) | Easy Skip Spike Pogo OR Dash OR Sprint OR Sharpdart OR Clawline OR Faydown OR Drifter's Cloak OR Have Flea Brew OR Easy Plasmium Phial Stall OR Easy Voltvessels Stall |  | Verified |  |
 | SBR | Spikes to Bottom Right | Spikes | Bottom (Middle) | Easy Skip Spike Pogo OR Dash OR Sprint OR Sharpdart OR Clawline OR Faydown OR Drifter's Cloak OR Flea Brew OR Easy Plasmium Phial Stall OR Easy Voltvessels Stall |  | Verified |  |
 | SBR | Spikes to Bottom Right | Bottom (Middle) | Spikes | Easy Skip Spike Pogo OR Dash OR Sprint OR Sharpdart OR Clawline OR Faydown OR Drifter's Cloak OR Flea Brew OR Easy Plasmium Phial Stall OR Easy Voltvessels Stall |  | Verified |  |
 | BMA | Bottom to Ascent | Bottom (Middle) | Ascent | Cling Grip OR Scuttlebrace OR Silk Soar OR Faydown |  | Verified |  |
@@ -12627,8 +12628,8 @@ No subroom connections defined.
 | AML | Ascent to Middle Left | Middle (Left) | Ascent | Nothing (Fall) |  | Verified |  |
 | AMR | Ascent to Middle Right | Ascent | Middle (Right) | Cling Grip OR Scuttlebrace OR Silk Soar OR Faydown |  | Verified |  |
 | AMR | Ascent to Middle Right | Middle (Right) | Ascent | Nothing (Fall) |  | Verified |  |
-| MRB | Middle Right to Bottom | Bottom Right (Lower) | Middle (Right) | (Magma Bell AND Silk Soar) OR (Faydown AND Cling Grip) | TODO | Verified | is the jump to bottom lower intended? |
-| MRB | Middle Right to Bottom | Middle (Right) | Bottom Right (Lower) | Nothing (Fall) | TODO | Verified | is the jump to bottom lower intended? |
+| MRB | Middle Right to Bottom | Bottom Right (Upper) | Middle (Right) | (Magma Bell AND Silk Soar) OR (Faydown AND Cling Grip) |  | Verified |  |
+| MRB | Middle Right to Bottom | Middle (Right) | Bottom Right (Upper) | Nothing (Fall) |  | Verified |  |
 | AAT | Ascent to Top | Ascent | Top | Cling Grip OR Silk Soar OR Faydown |  | Verified |  |
 | AAT | Ascent to Top | Top | Ascent | Cling Grip OR Silk Soar OR Faydown |  | Verified |  |
 | BUL | Bottom Right Upper to Lower | Bottom Right (Lower) | Bottom Right (Upper) | Cling Grip OR Silk Soar |  | Verified |  |

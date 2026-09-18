@@ -72633,11 +72633,10 @@
           "source_node_id": "blasted-steps/last-judge-arena#room",
           "target": "grand-gate/grand-bridge@l",
           "requirement": {
-            "raw": "Activated Bellshrines 5 AND defeat Boss: Last Judge",
+            "raw": "defeat Boss: Last Judge",
             "mode": "expression",
             "dnf": [
               [
-                "count:bellshrines-activated:5",
                 "dependency:location:blasted-steps/last-judge-arena::boss/boss-last-judge"
               ]
             ],
@@ -72660,19 +72659,44 @@
           "has_persisted_state": true,
           "node_id": "blasted-steps/last-judge-arena#room",
           "requirement": {
-            "raw": "Progressive Swift Step 2 OR Faydown",
+            "raw": "prereq Five Bellshrines Rung AND (Progressive Swift Step 2 OR Faydown)",
             "mode": "expression",
             "dnf": [
               [
+                "dependency:location:blasted-steps/last-judge-arena::event/five-bellshrines-rung",
                 "capability:dash"
               ],
               [
+                "dependency:location:blasted-steps/last-judge-arena::event/five-bellshrines-rung",
                 "capability:faydown-cloak"
               ]
             ],
             "unresolved_reasons": []
           },
           "notes": "Combat Requirements",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:blasted-steps/last-judge-arena::event/five-bellshrines-rung",
+          "name": "Five Bellshrines Rung",
+          "in_game_id": null,
+          "location_type": "event",
+          "has_persisted_state": true,
+          "node_id": "blasted-steps/last-judge-arena#room",
+          "requirement": {
+            "raw": "activated bellshrines 5",
+            "mode": "expression",
+            "dnf": [
+              [
+                "count:bellshrines-activated:5"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
@@ -99914,7 +99938,7 @@
           "source_node_id": "whiteward/whiteward-descent-connection#spikes",
           "target_node_id": "whiteward/whiteward-descent-connection#bottom-left",
           "requirement": {
-            "raw": "Easy Skip Spike Pogo OR Dash OR Sprint OR Sharpdart OR Clawline OR Faydown OR Drifter's Cloak OR Flea Brew OR Easy Plasmium Phial Stall OR Easy Voltvessels Stall",
+            "raw": "Easy Skip Spike Pogo OR Dash OR Sprint OR Sharpdart OR Clawline OR Faydown OR Drifter's Cloak OR Have Flea Brew OR Easy Plasmium Phial Stall OR Easy Voltvessels Stall",
             "mode": "expression",
             "dnf": [
               [
@@ -99939,7 +99963,7 @@
                 "capability:drifters-cloak"
               ],
               [
-                "capability:flea-brew"
+                "item:tool-flea-brew"
               ],
               [
                 "capability:plasmium-phial-stall:easy"
@@ -100219,10 +100243,10 @@
           "unresolved_reasons": []
         },
         {
-          "id": "whiteward/whiteward-descent-connection#bottom-right-lower>middle-right@mrb",
+          "id": "whiteward/whiteward-descent-connection#bottom-right-upper>middle-right@mrb",
           "alias": "MRB",
           "name": "Middle Right to Bottom",
-          "source_node_id": "whiteward/whiteward-descent-connection#bottom-right-lower",
+          "source_node_id": "whiteward/whiteward-descent-connection#bottom-right-upper",
           "target_node_id": "whiteward/whiteward-descent-connection#middle-right",
           "requirement": {
             "raw": "(Magma Bell AND Silk Soar) OR (Faydown AND Cling Grip)",
@@ -100239,18 +100263,18 @@
             ],
             "unresolved_reasons": []
           },
-          "notes": "is the jump to bottom lower intended?",
-          "is_todo": true,
+          "notes": "",
+          "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
           "unresolved_reasons": []
         },
         {
-          "id": "whiteward/whiteward-descent-connection#middle-right>bottom-right-lower@mrb",
+          "id": "whiteward/whiteward-descent-connection#middle-right>bottom-right-upper@mrb",
           "alias": "MRB",
           "name": "Middle Right to Bottom",
           "source_node_id": "whiteward/whiteward-descent-connection#middle-right",
-          "target_node_id": "whiteward/whiteward-descent-connection#bottom-right-lower",
+          "target_node_id": "whiteward/whiteward-descent-connection#bottom-right-upper",
           "requirement": {
             "raw": "Nothing (Fall)",
             "mode": "none",
@@ -100259,8 +100283,8 @@
             ],
             "unresolved_reasons": []
           },
-          "notes": "is the jump to bottom lower intended?",
-          "is_todo": true,
+          "notes": "",
+          "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
           "unresolved_reasons": []

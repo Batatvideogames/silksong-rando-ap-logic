@@ -46092,7 +46092,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-20T07:46:56.1780822Z",
-          "updatedUtc": "2026-09-14T04:21:00.7728271Z"
+          "updatedUtc": "2026-09-18T15:42:21.3424797Z"
         },
         {
           "id": "9c6d1114-6747-4d7d-8370-75b2e43d13ed",
@@ -46100,7 +46100,7 @@
           "friendlyName": "Bottom Left to Spikes",
           "sourceSubroomReferenceText": "Spikes",
           "destinationSubroomReferenceText": "Bottom (Left)",
-          "requirements": "Easy Skip Spike Pogo OR Dash OR Sprint OR Sharpdart OR Clawline OR Faydown OR Drifter\u0027s Cloak OR Flea Brew OR Easy Plasmium Phial Stall OR Easy Voltvessels Stall",
+          "requirements": "Easy Skip Spike Pogo OR Dash OR Sprint OR Sharpdart OR Clawline OR Faydown OR Drifter\u0027s Cloak OR Have Flea Brew OR Easy Plasmium Phial Stall OR Easy Voltvessels Stall",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 68.05017852783203,
@@ -46111,7 +46111,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-20T07:47:27.6259384Z",
-          "updatedUtc": "2026-09-14T04:20:52.3145078Z"
+          "updatedUtc": "2026-09-18T15:42:37.9955644Z"
         },
         {
           "id": "59d34a85-4095-4317-bce7-356ca1f54c94",
@@ -46130,7 +46130,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-20T07:47:10.3544817Z",
-          "updatedUtc": "2026-09-14T04:20:47.1789973Z"
+          "updatedUtc": "2026-09-18T15:42:55.0051409Z"
         },
         {
           "id": "057d36c6-dfe1-4023-be8f-e396f0332d8b",
@@ -46149,7 +46149,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-20T07:47:28.368957Z",
-          "updatedUtc": "2026-09-14T04:30:25.3774208Z"
+          "updatedUtc": "2026-09-18T15:43:25.5203409Z"
         },
         {
           "id": "ec7da9db-7ee9-4603-b380-00fb05f17012",
@@ -46269,39 +46269,39 @@
           "id": "f1debcf7-e76e-4c80-86af-6949e602fcdc",
           "alias": "MRB",
           "friendlyName": "Middle Right to Bottom",
-          "sourceSubroomReferenceText": "Bottom Right (Lower)",
+          "sourceSubroomReferenceText": "Bottom Right (Upper)",
           "destinationSubroomReferenceText": "Middle (Right)",
           "requirements": "(Magma Bell AND Silk Soar) OR (Faydown AND Cling Grip)",
-          "notes": "is the jump to bottom lower intended?",
+          "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 214.6475067138672,
           "sceneUnitY": 30.437345504760742,
           "sortOrder": 10,
-          "isTodo": true,
+          "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-20T08:20:47.1690294Z",
-          "updatedUtc": "2026-09-16T05:23:03.7947736Z"
+          "updatedUtc": "2026-09-16T06:53:17.2197908Z"
         },
         {
           "id": "c703ab4c-5f8e-4590-8e78-4ee587ca8696",
           "alias": "MRB",
           "friendlyName": "Middle Right to Bottom",
           "sourceSubroomReferenceText": "Middle (Right)",
-          "destinationSubroomReferenceText": "Bottom Right (Lower)",
+          "destinationSubroomReferenceText": "Bottom Right (Upper)",
           "requirements": "Nothing (Fall)",
-          "notes": "is the jump to bottom lower intended?",
+          "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 214.6475067138672,
           "sceneUnitY": 30.437345504760742,
           "sortOrder": 11,
-          "isTodo": true,
+          "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-20T08:20:31.4889003Z",
-          "updatedUtc": "2026-09-16T05:23:04.80966Z"
+          "updatedUtc": "2026-09-16T06:53:21.1444721Z"
         },
         {
           "id": "1d1848df-0cab-4e5b-a15b-a0f8722fbb24",
@@ -119324,7 +119324,7 @@
           "sourceSubroomReferenceText": null,
           "destinationRoomReferenceText": "Grand Bridge",
           "destinationTransitionAliasText": "L",
-          "requirements": "Activated Bellshrines 5 AND defeat Boss: Last Judge",
+          "requirements": "defeat Boss: Last Judge",
           "notes": "",
           "sortOrder": 1,
           "isTodo": false,
@@ -119332,7 +119332,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-18T09:10:16.1311073Z",
-          "updatedUtc": "2026-09-06T00:43:20.1169523Z"
+          "updatedUtc": "2026-09-17T07:47:43.3159519Z"
         },
         {
           "id": "d6ed9800-bcb0-4ee8-93ff-0a0c655e6b37",
@@ -119404,7 +119404,7 @@
           "annotationSceneUnitX": 29.088863372802734,
           "annotationSceneUnitY": 28.14002227783203,
           "subroomReferenceText": "",
-          "requirements": "Progressive Swift Step 2 OR Faydown",
+          "requirements": "prereq Five Bellshrines Rung AND (Progressive Swift Step 2 OR Faydown)",
           "notes": "Combat Requirements",
           "locationType": "boss",
           "enableAnnotation": true,
@@ -119414,7 +119414,32 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-25T17:56:06.5612366Z",
-          "updatedUtc": "2026-09-08T04:43:37.8818928Z"
+          "updatedUtc": "2026-09-17T07:47:24.2607951Z"
+        },
+        {
+          "id": "dda23c11-682d-4a7c-9f7b-799360acf8b4",
+          "friendlyName": "Five Bellshrines Rung",
+          "inGameId": null,
+          "inGamePositionX": null,
+          "inGamePositionY": null,
+          "inGamePositionZ": null,
+          "localPositionX": null,
+          "localPositionY": null,
+          "localPositionZ": null,
+          "annotationSceneUnitX": 58.2525749206543,
+          "annotationSceneUnitY": 37.45661926269531,
+          "subroomReferenceText": "",
+          "requirements": "activated bellshrines 5",
+          "notes": "",
+          "locationType": "event",
+          "enableAnnotation": true,
+          "sortOrder": 1,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-09-17T07:43:27.7800695Z",
+          "updatedUtc": "2026-09-17T07:47:54.4753847Z"
         }
       ]
     },
