@@ -13,7 +13,7 @@ No subrooms defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | L | left |  | [The Marrow Bellway (Bone_05)](the-marrow-bellway.md) | R | none |  | Verified |  |
-| R | right |  | [The Marrow Shaft (Bone_03)](the-marrow-shaft.md) | UL | ( bellshrinesanity off AND activate bellshrine switch )  OR ( bellshrinesanity on AND have bell the marrow ) |  | Verified |  |
+| R | right |  | [The Marrow Shaft (Bone_03)](the-marrow-shaft.md) | UL | ( bellshrinesanity off AND activate bellshrine switch )  OR ( bellshrinesanity on AND have bell the marrow ) |  | Verified | requirement for inner and outer gate must be maintained in sync |
 
 ## Subroom Connections
 

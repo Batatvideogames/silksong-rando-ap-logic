@@ -15,7 +15,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | UL | left3 | Upper Level | [Widow Boss Fight (Belltown_Shrine)](widow-boss-fight.md) | R | None |  | Verified |  |
 | LL | left1 | Lower Level | [Belltown (Belltown)](belltown.md) | R | None |  | Verified |  |
-| R | right1 | Lower Level | [Greymoor Entry to Bellhart (Greymoor_08)](../greymoor/greymoor-entry-to-bellhart.md) | L | None | TODO | Verified | Update once skai sends in the left greymoor export only here so moriko doesnt crucify me |
+| R | right1 | Lower Level | [Greymoor Entry to Bellhart (Greymoor_08)](../greymoor/greymoor-entry-to-bellhart.md) | L | None |  | Verified | Update once skai sends in the left greymoor export only here so moriko doesnt crucify me |
 
 ## Subroom Connections
 

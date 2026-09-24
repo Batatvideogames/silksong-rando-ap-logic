@@ -12,7 +12,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left |  | [Bilewater East Column (Shadow_09)](bilewater-east-column.md) | R | needolin |  |  |  |
+| L | left |  | [Bilewater East Column (Shadow_09)](bilewater-east-column.md) | R | needolin |  | Verified |  |
 
 ## Subroom Connections
 
@@ -22,5 +22,5 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Ruined Tool |  | (cling grip OR silk soar) AND (swim OR clawline OR drifter's cloak) |  |  |  |  |
-| Bilewater - Weaver Workshop Scroll |  | (cling grip OR silk soar) AND (swim OR clawline OR drifter's cloak) AND right attack |  |  |  | breakable wall |
+| Ruined Tool |  | (cling grip OR silk soar) AND (swim OR clawline OR drifter's cloak) |  | Verified | collectible |  |
+| Bilewater - Weaver Workshop Scroll |  | (cling grip OR silk soar) AND (swim OR clawline OR drifter's cloak) AND attack right |  | Verified | lore | breakable wall |

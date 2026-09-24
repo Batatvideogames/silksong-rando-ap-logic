@@ -1,8 +1,4 @@
-# Bilewater Lower East Hall Secret (Shadow_21)
-
-**Game ID:** Shadow_21
-
-**Contributors:** Herchey and Castle Guard 3
+# Bellhart Deliveries
 
 ## Subrooms
 
@@ -12,7 +8,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | lower |  | [Bilewater Lower East Hall (Shadow_03)](bilewater-lower-east-hall.md) | C | nada |  | Verified |  |
+| BH | bellhart |  | [Belltown (Belltown)](../bellhart/belltown.md) | DW | invalid |  | Verified |  |
 
 ## Subroom Connections
 
@@ -22,4 +18,4 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Get Kidnapped |  | clawline OR (enemy pogo AND (cling grip OR ledge grab OR faydown cloak OR drifter's cloak OR dash)) |  | Verified | event |  |
+| survivors camp supplies wish promised |  | act 3 |  | Verified | event | doesn't seem to require having saved the couriers? might cause problems later, because this room is locked behind that requirement, teehee |

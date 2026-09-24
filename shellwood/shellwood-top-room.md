@@ -10,6 +10,7 @@
 - Central
 - Right Side
 - Upper Area
+- Pollip Room
 
 ## Room Transitions
 
@@ -26,16 +27,18 @@
 | LW | Left Wall | Central | Left Side | Cling Grip OR Faydown Cloak OR Silk Soar OR ( Dash AND Scuttlebrace ) |  | Verified |  |
 | RW | Right Wall | Central | Right Side | ( Swim OR ( Drifters Cloak  AND Easy enemy pogo ) ) AND ( Cling Grip OR Scuttlebrace ) |  | Verified |  |
 | RW | Right Wall | Right Side | Central | Cling Grip OR Faydown Cloak OR Silk Soar OR ( Dash AND Scuttlebrace ) |  | Verified |  |
-| HS | Hidden Shaft | Left Side | Upper Area | prereq Shellwood 26 Wall AND Silk Soar |  | Verified |  |
-| HS | Hidden Shaft | Upper Area | Left Side | prereq Shellwood 26 Wall AND Silk Soar |  | Verified |  |
+| HS | Hidden Shaft | Pollip Room | Upper Area | prereq Shellwood 26 Wall AND Silk Soar |  | Verified |  |
+| HS | Hidden Shaft | Upper Area | Pollip Room | prereq Shellwood 26 Wall |  | Verified |  |
 | CC | Central Shaft | Central | Upper Area | Cling Grip AND ( ( Swim OR Clawline OR Drifters Cloak OR Sharpdart OR ( easy Beast Crest pogo AND Dash ) OR ( Sprint AND Dash ) ) OR ( Dash AND Scuttlebrace AND ( Swim OR Clawline OR Easy enemy pogo OR Faydown Cloak ) ) ) |  | Verified |  |
 | CC | Central Shaft | Upper Area | Central | None |  | Verified |  |
+| PH | Pollip Hole | Central | Pollip Room | Silk Soar OR ( Faydown Cloak AND ( Ledge Grab OR Cling Grip ) ) |  | Verified |  |
+| PH | Pollip Hole | Pollip Room | Central | None |  | Verified |  |
 
 ## Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Pollip Heart #4 | Upper Area | Cling Grip OR Silk Soar OR Clawline OR ( Faydown Cloak AND ( Ledge Grab OR Clawline ) ) |  | Verified | collectible |  |
+| Pollip Heart #4 | Pollip Room | Cling Grip OR Silk Soar OR Clawline OR ( Faydown Cloak AND ( Ledge Grab OR Clawline ) ) |  | Verified | collectible |  |
 | Rosary cache: Shellwood | Right Side | Cling Grip OR Silk Soar OR ( Scuttlebrace AND Dash ) |  | Verified | resource |  |
 | Resting Site: Shellwood | Right Side | prereq Wish: A vassal Lost started AND Steel Soul |  | Verified | collectible |  |
 | Wish: A Vassal Lost Started | Right Side | None |  | Verified | event |  |

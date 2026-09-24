@@ -19,6 +19,8 @@
 | HD | door5 | Upper Area | [Bellhome (Belltown_room_spare)](bellhome.md) | L | None |  | Verified |  |
 | ND | door3 | Upper Area | [Bellhart Pinsmith (Belltown_Room_pinsmith)](bellhart-pinsmith.md) | L | None | TODO | Needs verification | requires widow defeat? |
 | R | right2 | Lower Area | [Bellhart Right Entrance (Belltown_06)](bellhart-right-entrance.md) | LL | None |  | Needs verification |  |
+| WW | wish wall | Lower Area | [Bellhart Wish Wall](../wish-menus/bellhart-wish-wall.md) | BH | defeat THE boss widow |  | Verified |  |
+| DW | delivery wishes | Upper Area | [Bellhart Deliveries](../wish-menus/bellhart-deliveries.md) | BH | complete THE my missing brother wish granted |  | Verified |  |
 
 ## Subroom Connections
 
@@ -33,13 +35,12 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | Memory Locket: Bellhart roof | Upper Area | Silk Soar |  | Verified | collectible |  |
 | Wish: Silver Bells | Lower Area | 8 Silver Bells |  | Verified | event |  |
-| Wish: My Missing Courier | Lower Area | Locate Tipp in Aspid_01 |  | Verified | event |  |
 | Wish: Crawbug Clearing | Lower Area | 25 Ragpelt |  | Verified | event |  |
 | Wish: Restoration of Bellhart | Lower Area | 250 Rosaries |  | Verified | event |  |
 | Wish: Bellharts Glory | Lower Area | 400 Rosaries |  | Verified | event |  |
-| my missing courier wish promised | Lower Area | none |  |  | event |  |
+| My Missing Courier Wish Promised | Lower Area | defeat THE boss: widow |  | Verified | event |  |
+| My Missing Brother Wish Promised | Lower Area | complete THE My Missing Courier Wish Granted AND ( complete THE Great Taste Of Pharloom Wish Promised OR complete Meet the Caretaker IN Songclave ) |  | Verified | event |  |
 | Wish: Savage Beastfly | Lower Area | Kill the Savage Beastfly in Bone_East_08 |  | Verified | event |  |
-| Wish: Trails End | Lower Area | Meet Shakra in Shadow_24 |  | Verified | event |  |
 | Wish: Fatal Resolve | Lower Area | Find note in room_pinstress and beat her at Peak_07 AND ACT3 |  | Verified | event |  |
 | Wish: Ecstacy of the end | Lower Area | Achieve the highscore in all 3 games in Fleatopia ( Aqueduct_05 ) AND ACT3 |  | Verified | event |  |
 | Wish: Heros Call | Lower Area | Defeat Lost Garmond in Coral_33 AND ACT3 |  | Verified | event |  |
@@ -47,7 +48,7 @@
 | Wish: Dark hearts | Lower Area | Defeat 12 Void Masses AND ACT3 |  | Verified | event |  |
 | Wish: The Threadspun town | Lower Area | Defeat Widow in Belltown_Shrine |  | Verified | event |  |
 | Wish: Bone bottom supplys | Upper Area | Travel to Bone Bottom ( Bonetown ) |  | Verified | event |  |
-| pilgrims rest supplies wish promised | Upper Area | act 1 OR act 2 |  | Verified | event | not available in act 3 |
+| Pilgrims Rest Supplies Wish Promised | Upper Area | complete THE My Missing Brother Wish Granted AND ( act 1 OR act 2 ) |  | Verified | event | not available in act 3 |
 | Wish: Queens Egg | Upper Area | Travel to Dust_11 |  | Verified | event |  |
 | Wish; Songclave Supplys | Upper Area | Travel to Songclave ( Song_enclave ) |  | Verified | event |  |
 | Wish: Fleatopia Supplys | Upper Area | Travel to Fleatopia ( Aqueduct_05 ) |  | Verified | event |  |
@@ -55,7 +56,7 @@
 | Wish: Couriers Rasher | Upper Area | Travel to Song_09b fast |  | Verified | event |  |
 | Memory Locket ( Frey ) | Lower Area | 330 Rosaries |  | Verified | event |  |
 | Spool Fragment ( Frey ) | Lower Area | 270 Rosaries AND Wish: My missing Courier completed |  | Verified | event |  |
-| Multibinder | Lower Area | prereq Wish: My missing Courier |  | Verified | collectible |  |
+| Multibinder | Lower Area | prereq THE My Missing Courier Wish Granted AND Rosaries 800 |  | Verified | collectible |  |
 | Desk | Lower Area | 380 Rosaries |  | Verified |  |  |
 | Gleamlights | Lower Area | 320 Rosaries |  | Verified |  |  |
 | Bell Lacquer | Lower Area | 520 Rosaries |  | Verified |  |  |

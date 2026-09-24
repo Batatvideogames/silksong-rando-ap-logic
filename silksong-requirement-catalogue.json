@@ -332,13 +332,23 @@
       "aliases": "magma bell"
     },
     {
+      "id": "b9ad0c5e-952c-41a1-8eef-3624a747910c",
+      "name": "Needle Phial",
+      "category": "Ability",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "capability:needle-phial",
+      "notes": "This implies you have the tool and the tool slot to equip it. Used in alchemist wishes to harvest plasmium.",
+      "sortOrder": 33,
+      "aliases": "needle phial"
+    },
+    {
       "id": "21a234cc-768b-4c6d-8c18-eb4d9693fe11",
       "name": "Shredding Damage",
       "category": "Ability",
       "inputSyntax": "{predicate}",
       "outputSyntax": "capability:damage-shredding",
       "notes": "Implies having and the ability to equip Sawtooth Circlet, Cogwork Wheel, Delver\u0027s Drill, Conchcutter, Beast Crest, or Architect Crest.",
-      "sortOrder": 33,
+      "sortOrder": 34,
       "aliases": "shredding damage, shred"
     },
     {
@@ -348,7 +358,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "capability:damage-skewering",
       "notes": "Implies having and being able to equip Sting Shard or Longpin. \n*Needle Phial also causes skewering damage, but should not be factored into logic because it is lost when upgrading to Plasmium Phial.",
-      "sortOrder": 34,
+      "sortOrder": 35,
       "aliases": "skewering damage, skewer"
     },
     {
@@ -358,7 +368,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "capability:damage-searing",
       "notes": "Implies having and being able to equip Flintslate, Pimpillo, Wispfire Lantern, or Voltvessels.",
-      "sortOrder": 35,
+      "sortOrder": 36,
       "aliases": "searing damage, sear"
     },
     {
@@ -368,7 +378,7 @@
       "inputSyntax": "{predicate} {direction}",
       "outputSyntax": "technique:hunter-crest-attack:{direction}",
       "notes": "",
-      "sortOrder": 36,
+      "sortOrder": 37,
       "aliases": "hunter attack, hunter crest attack, hunter slash"
     },
     {
@@ -378,7 +388,7 @@
       "inputSyntax": "{predicate} {direction}",
       "outputSyntax": "technique:wanderer-crest-attack:{direction}",
       "notes": "",
-      "sortOrder": 37,
+      "sortOrder": 38,
       "aliases": "wanderer attack, wanderer crest attack, wanderer slash"
     },
     {
@@ -388,7 +398,7 @@
       "inputSyntax": "{predicate} {direction}",
       "outputSyntax": "technique:beast-crest-attack:{direction}",
       "notes": "",
-      "sortOrder": 38,
+      "sortOrder": 39,
       "aliases": "beast attack, beast crest attack, beast slash"
     },
     {
@@ -398,7 +408,7 @@
       "inputSyntax": "{predicate} {direction}",
       "outputSyntax": "technique:reaper-crest-attack:{direction}",
       "notes": "",
-      "sortOrder": 39,
+      "sortOrder": 40,
       "aliases": "reaper attack, reaper crest attack, reaper slash"
     },
     {
@@ -408,7 +418,7 @@
       "inputSyntax": "{predicate} {direction}",
       "outputSyntax": "technique:witch-crest-attack:{direction}",
       "notes": "",
-      "sortOrder": 40,
+      "sortOrder": 41,
       "aliases": "witch attack, witch crest attack, witch slash"
     },
     {
@@ -418,7 +428,7 @@
       "inputSyntax": "{predicate} {direction}",
       "outputSyntax": "technique:architect-crest-attack:{direction}",
       "notes": "",
-      "sortOrder": 41,
+      "sortOrder": 42,
       "aliases": "architect attack, architect crest attack, architect slash"
     },
     {
@@ -428,7 +438,7 @@
       "inputSyntax": "{predicate} {direction}",
       "outputSyntax": "technique:shaman-crest-attack:{direction}",
       "notes": "",
-      "sortOrder": 42,
+      "sortOrder": 43,
       "aliases": "shaman attack, shaman crest attack, shaman slash"
     },
     {
@@ -438,7 +448,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:hunter-crest-pogo:{difficulty}",
       "notes": "",
-      "sortOrder": 43,
+      "sortOrder": 44,
       "aliases": "hunter pogo, hunter crest pogo"
     },
     {
@@ -448,7 +458,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:wanderer-crest-pogo:{difficulty}",
       "notes": "",
-      "sortOrder": 44,
+      "sortOrder": 45,
       "aliases": "wanderer pogo, wanderer crest pogo"
     },
     {
@@ -458,7 +468,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:beast-crest-pogo:{difficulty}",
       "notes": "",
-      "sortOrder": 45,
+      "sortOrder": 46,
       "aliases": "beast pogo, beast crest pogo"
     },
     {
@@ -468,7 +478,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:reaper-crest-pogo:{difficulty}",
       "notes": "",
-      "sortOrder": 46,
+      "sortOrder": 47,
       "aliases": "reaper pogo, reaper crest pogo"
     },
     {
@@ -478,7 +488,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:witch-crest-pogo:{difficulty}",
       "notes": "",
-      "sortOrder": 47,
+      "sortOrder": 48,
       "aliases": "witch pogo, witch crest pogo"
     },
     {
@@ -488,7 +498,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:architect-crest-pogo:{difficulty}",
       "notes": "",
-      "sortOrder": 48,
+      "sortOrder": 49,
       "aliases": "architect pogo, architect crest pogo"
     },
     {
@@ -498,7 +508,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:shaman-crest-pogo:{difficulty}",
       "notes": "",
-      "sortOrder": 49,
+      "sortOrder": 50,
       "aliases": "shaman pogo, shaman crest pogo"
     },
     {
@@ -508,7 +518,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:naked-pogo:{difficulty}",
       "notes": "",
-      "sortOrder": 50,
+      "sortOrder": 51,
       "aliases": "naked pogo, naked crest pogo, cloakless pogo"
     },
     {
@@ -518,7 +528,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "technique:hunter-crest-needle-strike:{difficulty}",
       "notes": "",
-      "sortOrder": 51,
+      "sortOrder": 52,
       "aliases": "hunter needle strike, hunter crest needle strike, hunter charge"
     },
     {
@@ -528,7 +538,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "technique:wanderer-crest-needle-strike:{difficulty}",
       "notes": "",
-      "sortOrder": 52,
+      "sortOrder": 53,
       "aliases": "wanderer needle strike, wanderer crest needle strike, wanderer charge"
     },
     {
@@ -538,7 +548,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "technique:beast-crest-needle-strike:{difficulty}",
       "notes": "",
-      "sortOrder": 53,
+      "sortOrder": 54,
       "aliases": "beast needle strike, beast crest needle strike, beast charge"
     },
     {
@@ -548,7 +558,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "technique:reaper-crest-needle-strike:{difficulty}",
       "notes": "",
-      "sortOrder": 54,
+      "sortOrder": 55,
       "aliases": "reaper needle strike, reaper crest needle strike, reaper charge"
     },
     {
@@ -558,7 +568,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "technique:witch-crest-needle-strike:{difficulty}",
       "notes": "",
-      "sortOrder": 55,
+      "sortOrder": 56,
       "aliases": "witch needle strike, witch crest needle strike, witch charge"
     },
     {
@@ -568,7 +578,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "technique:architect-crest-needle-strike:{difficulty}",
       "notes": "",
-      "sortOrder": 56,
+      "sortOrder": 57,
       "aliases": "architect needle strike, architect crest needle strike, architect charge"
     },
     {
@@ -578,7 +588,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "technique:shaman-crest-needle-strike:{difficulty}",
       "notes": "",
-      "sortOrder": 57,
+      "sortOrder": 58,
       "aliases": "shaman needle strike, shaman crest needle strike, shaman charge"
     },
     {
@@ -588,7 +598,7 @@
       "inputSyntax": "{difficulty?} {predicate}",
       "outputSyntax": "capability:enemy-pogo:{difficulty}",
       "notes": "",
-      "sortOrder": 58,
+      "sortOrder": 59,
       "aliases": "enemy pogo"
     },
     {
@@ -598,7 +608,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "capability:spike-pogo",
       "notes": "Use when a traversal requires a pogo on spikes. Needed for cloakless run randomization. Use for spike pogos that are essentially free.",
-      "sortOrder": 59,
+      "sortOrder": 60,
       "aliases": "spike pogo"
     },
     {
@@ -608,7 +618,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:spike-pogo-skip:{difficulty}",
       "notes": "Use when a traversal requires a pogo on spikes. Needed for cloakless run randomization. Considered a skip if it is devious movement that should not be performed by mere mortals.",
-      "sortOrder": 60,
+      "sortOrder": 61,
       "aliases": "skip spike pogo"
     },
     {
@@ -618,7 +628,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:wind-skip:{difficulty}",
       "notes": "Used in windy areas in Blasted Steps. Implies owning drifter\u0027s cloak. ",
-      "sortOrder": 61,
+      "sortOrder": 62,
       "aliases": "wind skip"
     },
     {
@@ -628,7 +638,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:cocoon-skip:{difficulty}",
       "notes": "\u0022We are NOT doing cocoon skip.\u0022 - Moriko Kyoho, 2026",
-      "sortOrder": 62,
+      "sortOrder": 63,
       "aliases": "cocoon skip"
     },
     {
@@ -638,7 +648,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:needle-strike-stall:{difficulty}",
       "notes": "",
-      "sortOrder": 63,
+      "sortOrder": 64,
       "aliases": "needle strike stall, charge stall"
     },
     {
@@ -648,7 +658,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:heal-stall:{difficulty}",
       "notes": "Factors in whether the user only has shaman crest.",
-      "sortOrder": 64,
+      "sortOrder": 65,
       "aliases": "heal stall"
     },
     {
@@ -658,7 +668,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:flea-brew-stall:{difficulty}",
       "notes": "Implies owning and being able to equip tool.",
-      "sortOrder": 65,
+      "sortOrder": 66,
       "aliases": "flea brew stall"
     },
     {
@@ -668,7 +678,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:flintslate-stall:{difficulty}",
       "notes": "Implies owning and being able to equip tool.",
-      "sortOrder": 66,
+      "sortOrder": 67,
       "aliases": "flintslate stall"
     },
     {
@@ -678,17 +688,17 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:plasmium-phial-stall:{difficulty}",
       "notes": "Implies owning and being able to equip tool.",
-      "sortOrder": 67,
+      "sortOrder": 68,
       "aliases": "plasmium phial stall, plasmium stall"
     },
     {
       "id": "26e3a40d-3a01-4159-ab0f-7c03c48f80c4",
       "name": "Voltvessels Stall",
-      "category": "Ability",
+      "category": "Technique",
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:voltvessels-stall:{difficulty}",
       "notes": "Implies owning and being able to equip tool.",
-      "sortOrder": 68,
+      "sortOrder": 69,
       "aliases": "voltvessels stall"
     },
     {
@@ -698,7 +708,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:hazard-respawn:{difficulty}",
       "notes": "Indicates the user takes advantage of a hazard respawn to cross a gap. Must be careful not to confuse with damage boost, which does not respawn the player. Quantity indicates masks of damage taken.",
-      "sortOrder": 69,
+      "sortOrder": 70,
       "aliases": "hazard respawn"
     },
     {
@@ -708,18 +718,48 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:damage-boost:{difficulty}",
       "notes": "Indicates the user takes advantage of a taking damage to cross a gap. Must be careful not to confuse with hazard respawn, which respawns the player. Quantity indicates masks of damage taken.",
-      "sortOrder": 70,
+      "sortOrder": 71,
       "aliases": "damage boost"
     },
     {
       "id": "8b0fd4ee-f774-4adf-9be1-3894413c3206",
       "name": "Proficient Movement",
       "category": "Technique",
-      "inputSyntax": "{difficulty} {predicate}",
-      "outputSyntax": "capability:proficient-movement:{difficulty}",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "capability:proficient-movement",
       "notes": "For situations that do not use a specific stall or skip technique, but the traversal requires a minimum skill level.",
-      "sortOrder": 71,
+      "sortOrder": 72,
       "aliases": "proficient movement"
+    },
+    {
+      "id": "39ed53fd-ccc4-5b07-8d94-6340d0deeb78",
+      "name": "Rosaries",
+      "category": "Count",
+      "inputSyntax": "{predicate} {quantity}",
+      "outputSyntax": "count:rosaries:{quantity}",
+      "notes": "",
+      "sortOrder": 73,
+      "aliases": "rosaries"
+    },
+    {
+      "id": "f0b11a2e-669a-416a-91ab-254ec8e92ec8",
+      "name": "Shell Shards",
+      "category": "Count",
+      "inputSyntax": "{predicate} {quantity}",
+      "outputSyntax": "count:shell-shards:{quantity}",
+      "notes": "",
+      "sortOrder": 74,
+      "aliases": "shell shards"
+    },
+    {
+      "id": "e5306e69-d87c-40a4-b458-ed5eed167acc",
+      "name": "Craftmetals",
+      "category": "Count",
+      "inputSyntax": "{predicate} {quantity}",
+      "outputSyntax": "count:craftmetals:{quantity}",
+      "notes": "",
+      "sortOrder": 75,
+      "aliases": "craftmetals"
     },
     {
       "id": "f211fc8f-37a2-4862-9171-ffcb22cb6a58",
@@ -728,7 +768,7 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "count:fleas:{quantity}",
       "notes": "",
-      "sortOrder": 72,
+      "sortOrder": 76,
       "aliases": "fleas, rescued fleas"
     },
     {
@@ -738,7 +778,7 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "count:mossberries:{quantity}",
       "notes": "",
-      "sortOrder": 73,
+      "sortOrder": 77,
       "aliases": "mossberries"
     },
     {
@@ -748,7 +788,7 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "count:flexible-spines:{quantity}",
       "notes": "Used for the Flexible Spines wish. The spines are an infinitely farmable resources if you have access to a Hoker enemy if you can leave then reenter the room. ",
-      "sortOrder": 74,
+      "sortOrder": 78,
       "aliases": "flexible spines"
     },
     {
@@ -758,7 +798,7 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "count:pollip-hearts:{quantity}",
       "notes": "Used for the Rite of Pollip wish.",
-      "sortOrder": 75,
+      "sortOrder": 79,
       "aliases": "pollip hearts"
     },
     {
@@ -768,7 +808,7 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "count:pale-oil:{quantity}",
       "notes": "",
-      "sortOrder": 76,
+      "sortOrder": 80,
       "aliases": "pale oils"
     },
     {
@@ -778,7 +818,7 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "count:spool-fragments:{quantity}",
       "notes": "",
-      "sortOrder": 77,
+      "sortOrder": 81,
       "aliases": "spool fragments"
     },
     {
@@ -788,7 +828,7 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "count:progressive-silkheart:{quantity}",
       "notes": "",
-      "sortOrder": 78,
+      "sortOrder": 82,
       "aliases": "silk hearts, progressive silk hearts, silkhearts"
     },
     {
@@ -798,18 +838,48 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "count:progressive-needle-upgrade:{quantity}",
       "notes": "",
-      "sortOrder": 79,
+      "sortOrder": 83,
       "aliases": "needle upgrades"
     },
     {
-      "id": "39ed53fd-ccc4-5b07-8d94-6340d0deeb78",
-      "name": "Rosaries",
+      "id": "e221f7e3-7d96-42dd-89f6-b567f16e847a",
+      "name": "Pilgrim Shawls",
       "category": "Count",
       "inputSyntax": "{predicate} {quantity}",
-      "outputSyntax": "count:rosaries:{quantity}",
-      "notes": "",
-      "sortOrder": 80,
-      "aliases": "rosaries"
+      "outputSyntax": "count:pilgrim-shawls:{quantity}",
+      "notes": "Used for the Garb of the Pilgrims wish. The following pilgrim enemies grant shawls upon defeat: pilgrim groveller, pilgrim pouncer, overgrown pilgrim, winged pilgrim, covetous pilgrim, pilgrim hulk, pilgrim hornfly, pilgrim bellbearer, winged pilgrim bellbearer, elder pilgrim, pilgrim hiker, and pilgrim guide.",
+      "sortOrder": 84,
+      "aliases": "pilgrim shawls"
+    },
+    {
+      "id": "73db4f80-5ba9-406a-93da-91a6c39158d9",
+      "name": "Flintgems",
+      "category": "Count",
+      "inputSyntax": "{predicate} {quantity}",
+      "outputSyntax": "count:flintgems:{quantity}",
+      "notes": "Used for the wish Volatile Flintbeetles.",
+      "sortOrder": 85,
+      "aliases": "flintgems"
+    },
+    {
+      "id": "ddec2c9e-dd59-4922-8ef2-28189da19697",
+      "name": "Plasmified Blood",
+      "category": "Count",
+      "inputSyntax": "{predicate} {quantity}",
+      "outputSyntax": "count:plasmified-blood:{quantity}",
+      "notes": "Used in the wish Advanced Alchemy. ",
+      "sortOrder": 86,
+      "aliases": "plasmified blood"
+    },
+    {
+      "id": "898f1dcf-f20a-4d61-9091-0bb87656acff",
+      "name": "Roach Guts",
+      "category": "Count",
+      "inputSyntax": "{predicate} {quantity}",
+      "outputSyntax": "count:roach-guts:{quantity}",
+      "notes": "Used for the wish Roach Guts.",
+      "sortOrder": 87,
+      "aliases": "roach guts"
     },
     {
       "id": "8d8a75b4-bda5-4729-88b3-347413a05cd2",
@@ -818,7 +888,7 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "count:seared-organs:{quantity}",
       "notes": "Used for the Broodfeast or Runtfeast wish.",
-      "sortOrder": 81,
+      "sortOrder": 88,
       "aliases": "seared organs"
     },
     {
@@ -828,7 +898,7 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "count:shredded-organs:{quantity}",
       "notes": "Used for the Broodfeast or Runtfeast wish.",
-      "sortOrder": 82,
+      "sortOrder": 89,
       "aliases": "shredded organs"
     },
     {
@@ -838,7 +908,7 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "count:skewered-organs:{quantity}",
       "notes": "Used for the Broodfeast or Runtfeast wish.",
-      "sortOrder": 83,
+      "sortOrder": 90,
       "aliases": "skewered organs"
     },
     {
@@ -848,7 +918,7 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "count:bellshrines-activated:{quantity}",
       "notes": "Used for Last Judge fight trigger.",
-      "sortOrder": 84,
+      "sortOrder": 91,
       "aliases": "activated bellshrines"
     },
     {
@@ -858,7 +928,7 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "count:tool-slots-unlocked:{quantity}",
       "notes": "Used for Eva requirements. Implies having the needed crests for the number of tool slots and enough memory lockets to unlock them.",
-      "sortOrder": 85,
+      "sortOrder": 92,
       "aliases": "tool slots unlocked"
     },
     {
@@ -868,8 +938,48 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "count:hunter-journal-entries:{quantity}",
       "notes": "Used for Nuu\u0027s wish or Hunter\u0027s Journal completion goals. Indicates the number of unique enemies you can encounter and journal.",
-      "sortOrder": 86,
+      "sortOrder": 93,
       "aliases": "hunters journal entries"
+    },
+    {
+      "id": "63531a1c-b9de-4f64-81b6-295e5e5009c6",
+      "name": "Shakra Map Purchases",
+      "category": "Count",
+      "inputSyntax": "{predicate} {quantity}",
+      "outputSyntax": "count:shakra-map-purchases:{quantity}",
+      "notes": "Used for Trail\u0027s End wish. Must have all of Shakra\u0027s maps purchased. ",
+      "sortOrder": 94,
+      "aliases": "shakra map purchases"
+    },
+    {
+      "id": "9da1d469-6d84-4927-bef0-f3cc5380fab0",
+      "name": "Threefold Melody Parts",
+      "category": "Count",
+      "inputSyntax": "{predicate} {quantity}",
+      "outputSyntax": "count:threefold-melody-parts:{quantity}",
+      "notes": "Used for Trail\u0027s End wish. Must have two out of the three at least.",
+      "sortOrder": 95,
+      "aliases": "threefold melody parts"
+    },
+    {
+      "id": "e464aeae-8814-4e44-bd59-0800ddadd5c5",
+      "name": "Maps",
+      "category": "Count",
+      "inputSyntax": "{predicate} {quantity}",
+      "outputSyntax": "count:maps:{quantity}",
+      "notes": "Used for the A Vassal Lost wish requirements.",
+      "sortOrder": 96,
+      "aliases": "maps"
+    },
+    {
+      "id": "7b0154be-a624-428b-8805-3a57ae617d61",
+      "name": "Visit Resting Sites",
+      "category": "Count",
+      "inputSyntax": "{predicate} {quantity}",
+      "outputSyntax": "count:visit-resting-sites:{quantity}",
+      "notes": "Used in the A Vassal Lost wish requirements. Three resting sites are randomly assigned to be visited out of a pool of six sites in various locations. Visiting all three assigned sites unlocks the passage in Bonegrave to reach the Summoned Savior boss fight.",
+      "sortOrder": 97,
+      "aliases": "visit resting sites"
     },
     {
       "id": "689ba9ed-8105-43a8-aeb1-f1cd5a828062",
@@ -878,7 +988,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:act-1",
       "notes": "I don\u0027t think this will get used, but adding it for completeness. ",
-      "sortOrder": 87,
+      "sortOrder": 98,
       "aliases": "act i, act 1"
     },
     {
@@ -888,7 +998,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:act-2",
       "notes": "",
-      "sortOrder": 88,
+      "sortOrder": 99,
       "aliases": "act ii, act 2"
     },
     {
@@ -898,18 +1008,8 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:act-3",
       "notes": "",
-      "sortOrder": 89,
+      "sortOrder": 100,
       "aliases": "act iii, act 3"
-    },
-    {
-      "id": "1d8e373c-12c5-4eff-a68e-4255371018f2",
-      "name": "Steel Soul",
-      "category": "State",
-      "inputSyntax": "{predicate}",
-      "outputSyntax": "state:steel-soul",
-      "notes": "",
-      "sortOrder": 90,
-      "aliases": "steel soul, ooo look at me im so good at the game"
     },
     {
       "id": "293ea632-6df0-41bf-8991-b8b19114ac36",
@@ -918,37 +1018,97 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:craw-summons-ready",
       "notes": "Ready to receive Craw Summons at an eligible bench spot. Created a predicate because there is not a singular spot to define the logic. Implies proper story progression, but not eligible bench access. Bench access logic is applied by using this requirement on the check location.",
-      "sortOrder": 91,
+      "sortOrder": 101,
       "aliases": "craw summons ready"
     },
     {
-      "id": "e5306e69-d87c-40a4-b458-ed5eed167acc",
-      "name": "Craftmetals",
-      "category": "Count",
-      "inputSyntax": "{predicate} {quantity}",
-      "outputSyntax": "count:craftmetals:{quantity}",
+      "id": "5dc4021f-d904-41de-ba3f-9609b1daf28b",
+      "name": "Visit Shellwood",
+      "category": "State",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "state:visit-shellwood",
+      "notes": "Used for the wish Volatile Flintbeetles.",
+      "sortOrder": 102,
+      "aliases": "visit shellwood"
+    },
+    {
+      "id": "3391c7e6-9089-434f-963c-85f4f2f3548d",
+      "name": "Visit Greymoor",
+      "category": "State",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "state:visit-greymoor",
+      "notes": "Used for the wish Volatile Flintbeetles.",
+      "sortOrder": 103,
+      "aliases": "visit greymoor"
+    },
+    {
+      "id": "c948fe24-d266-4a0e-8f67-107b7e245e3e",
+      "name": "Visit Sinner\u0027s Road",
+      "category": "State",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "state:visit-sinners-road",
       "notes": "",
-      "sortOrder": 92,
-      "aliases": "craftmetals"
+      "sortOrder": 104,
+      "aliases": "visit sinners road"
+    },
+    {
+      "id": "4e288301-b32c-4212-b19b-c41c7fc0fbf1",
+      "name": "Visit Blasted Steps",
+      "category": "State",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "state:visit-blasted-steps",
+      "notes": "",
+      "sortOrder": 105,
+      "aliases": "visit blasted steps"
+    },
+    {
+      "id": "25a3b64e-ee31-4f41-a1e8-12300f8800b5",
+      "name": "Visit The Citadel",
+      "category": "State",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "state:visit-the-citadel",
+      "notes": "Used for the wish An Icon of Hope. In-game flag is tied to citadelWoken. Good luck.",
+      "sortOrder": 106,
+      "aliases": "visit the citadel"
+    },
+    {
+      "id": "1d8e373c-12c5-4eff-a68e-4255371018f2",
+      "name": "Steel Soul On",
+      "category": "Setting",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "setting:steel-soul-on",
+      "notes": "",
+      "sortOrder": 107,
+      "aliases": "steel soul on, steel soul, ooo look at me im so good at the game"
+    },
+    {
+      "id": "4a75b86c-f733-4e8c-b212-048d0ae8f769",
+      "name": "Steel Soul Off",
+      "category": "Setting",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "setting:steel-soul-off",
+      "notes": "",
+      "sortOrder": 108,
+      "aliases": "steel soul off"
     },
     {
       "id": "8cf3b945-7a56-446d-ac22-66599865d8ab",
       "name": "Bellshrinesanity On",
-      "category": "State",
+      "category": "Setting",
       "inputSyntax": "{predicate}",
-      "outputSyntax": "state:bellshrinesanity-on",
+      "outputSyntax": "setting:bellshrinesanity-on",
       "notes": "",
-      "sortOrder": 93,
+      "sortOrder": 109,
       "aliases": "bellshrinesanity on"
     },
     {
       "id": "c673b113-942a-47b4-9145-2483e941e034",
       "name": "Bellshrinesanity Off",
-      "category": "State",
+      "category": "Setting",
       "inputSyntax": "{predicate}",
-      "outputSyntax": "state:bellshrinesanity-off",
+      "outputSyntax": "setting:bellshrinesanity-off",
       "notes": "",
-      "sortOrder": 94,
+      "sortOrder": 110,
       "aliases": "bellshrinesanity off"
     }
   ],
@@ -1647,12 +1807,21 @@
       "aliases": "Crest Hunter"
     },
     {
+      "id": "de6a01c7-9dc4-4e8a-a4a5-f9ae1f57b1f2",
+      "name": "Crest: Cursed",
+      "category": "Crest",
+      "outputValue": "crest-cursed",
+      "notes": "",
+      "sortOrder": 77,
+      "aliases": "Crest Cursed"
+    },
+    {
       "id": "b6092463-87ea-58ad-a6ef-ee6764916476",
       "name": "Flea: The Marrow",
       "category": "Flea",
       "outputValue": "flea-the-marrow",
       "notes": "",
-      "sortOrder": 77,
+      "sortOrder": 78,
       "aliases": "Flea The Marrow"
     },
     {
@@ -1661,7 +1830,7 @@
       "category": "Flea",
       "outputValue": "flea-deep-docks-bellway",
       "notes": "",
-      "sortOrder": 78,
+      "sortOrder": 79,
       "aliases": "Flea Deep Docks Bellway"
     },
     {
@@ -1670,7 +1839,7 @@
       "category": "Flea",
       "outputValue": "flea-deep-docks-weaver-burial-spire",
       "notes": "",
-      "sortOrder": 79,
+      "sortOrder": 80,
       "aliases": "Flea Deep Docks Weaver Burial Spire"
     },
     {
@@ -1679,7 +1848,7 @@
       "category": "Flea",
       "outputValue": "flea-far-fields-captured",
       "notes": "",
-      "sortOrder": 80,
+      "sortOrder": 81,
       "aliases": "Flea Far Fields Captured"
     },
     {
@@ -1688,7 +1857,7 @@
       "category": "Flea",
       "outputValue": "flea-hunter-s-march",
       "notes": "",
-      "sortOrder": 81,
+      "sortOrder": 82,
       "aliases": "Flea Hunters March"
     },
     {
@@ -1697,7 +1866,7 @@
       "category": "Flea",
       "outputValue": "flea-greymoor-craw-lake",
       "notes": "",
-      "sortOrder": 82,
+      "sortOrder": 83,
       "aliases": "Flea Greymoor Craw Lake"
     },
     {
@@ -1706,7 +1875,7 @@
       "category": "Flea",
       "outputValue": "flea-greymoor-tower",
       "notes": "",
-      "sortOrder": 83,
+      "sortOrder": 84,
       "aliases": "Flea Greymoor Tower"
     },
     {
@@ -1715,7 +1884,7 @@
       "category": "Flea",
       "outputValue": "flea-shellwood",
       "notes": "",
-      "sortOrder": 84,
+      "sortOrder": 85,
       "aliases": "Flea Shellwood"
     },
     {
@@ -1724,7 +1893,7 @@
       "category": "Flea",
       "outputValue": "flea-pilgrim-s-rest",
       "notes": "",
-      "sortOrder": 85,
+      "sortOrder": 86,
       "aliases": "Flea Pilgrims Rest"
     },
     {
@@ -1733,7 +1902,7 @@
       "category": "Flea",
       "outputValue": "flea-blasted-steps",
       "notes": "",
-      "sortOrder": 86,
+      "sortOrder": 87,
       "aliases": "Flea Blasted Steps"
     },
     {
@@ -1742,7 +1911,7 @@
       "category": "Flea",
       "outputValue": "flea-sinner-s-road",
       "notes": "",
-      "sortOrder": 87,
+      "sortOrder": 88,
       "aliases": "Flea Sinners Road"
     },
     {
@@ -1751,7 +1920,7 @@
       "category": "Flea",
       "outputValue": "flea-exhaust-organ",
       "notes": "",
-      "sortOrder": 88,
+      "sortOrder": 89,
       "aliases": "Flea Exhaust Organ"
     },
     {
@@ -1760,7 +1929,7 @@
       "category": "Flea",
       "outputValue": "flea-bellhart",
       "notes": "",
-      "sortOrder": 89,
+      "sortOrder": 90,
       "aliases": "Flea Bellhart"
     },
     {
@@ -1769,7 +1938,7 @@
       "category": "Flea",
       "outputValue": "flea-wormways",
       "notes": "",
-      "sortOrder": 90,
+      "sortOrder": 91,
       "aliases": "Flea Wormways"
     },
     {
@@ -1778,7 +1947,7 @@
       "category": "Flea",
       "outputValue": "flea-the-slab-cell",
       "notes": "",
-      "sortOrder": 91,
+      "sortOrder": 92,
       "aliases": "Flea The Slab Cell"
     },
     {
@@ -1787,7 +1956,7 @@
       "category": "Flea",
       "outputValue": "flea-bilewater-thieves",
       "notes": "",
-      "sortOrder": 92,
+      "sortOrder": 93,
       "aliases": "Flea Bilewater Thieves"
     },
     {
@@ -1796,7 +1965,7 @@
       "category": "Flea",
       "outputValue": "flea-deep-docks-mines",
       "notes": "",
-      "sortOrder": 93,
+      "sortOrder": 94,
       "aliases": "Flea Deep Docks Mines"
     },
     {
@@ -1805,7 +1974,7 @@
       "category": "Flea",
       "outputValue": "flea-wisp-thicket",
       "notes": "",
-      "sortOrder": 94,
+      "sortOrder": 95,
       "aliases": "Flea Wisp Thicket"
     },
     {
@@ -1814,7 +1983,7 @@
       "category": "Flea",
       "outputValue": "flea-bilehaven",
       "notes": "",
-      "sortOrder": 95,
+      "sortOrder": 96,
       "aliases": "Flea Bilehaven"
     },
     {
@@ -1823,7 +1992,7 @@
       "category": "Flea",
       "outputValue": "flea-choral-chambers-spa",
       "notes": "",
-      "sortOrder": 96,
+      "sortOrder": 97,
       "aliases": "Flea Choral Chambers Spa"
     },
     {
@@ -1832,7 +2001,7 @@
       "category": "Flea",
       "outputValue": "flea-sands-of-karak",
       "notes": "",
-      "sortOrder": 97,
+      "sortOrder": 98,
       "aliases": "Flea Sands of Karak"
     },
     {
@@ -1841,7 +2010,7 @@
       "category": "Flea",
       "outputValue": "flea-mount-fay",
       "notes": "",
-      "sortOrder": 98,
+      "sortOrder": 99,
       "aliases": "Flea Mount Fay"
     },
     {
@@ -1850,7 +2019,7 @@
       "category": "Flea",
       "outputValue": "flea-songclave",
       "notes": "",
-      "sortOrder": 99,
+      "sortOrder": 100,
       "aliases": "Flea Songclave"
     },
     {
@@ -1859,7 +2028,7 @@
       "category": "Flea",
       "outputValue": "flea-choral-chambers-walled-room",
       "notes": "",
-      "sortOrder": 100,
+      "sortOrder": 101,
       "aliases": "Flea Choral Chambers Walled Room"
     },
     {
@@ -1868,7 +2037,7 @@
       "category": "Flea",
       "outputValue": "flea-whispering-vaults",
       "notes": "",
-      "sortOrder": 101,
+      "sortOrder": 102,
       "aliases": "Flea Whispering Vaults"
     },
     {
@@ -1877,7 +2046,7 @@
       "category": "Flea",
       "outputValue": "flea-underworks",
       "notes": "",
-      "sortOrder": 102,
+      "sortOrder": 103,
       "aliases": "Flea Underworks"
     },
     {
@@ -1886,7 +2055,7 @@
       "category": "Flea",
       "outputValue": "flea-the-slab-bellway",
       "notes": "",
-      "sortOrder": 103,
+      "sortOrder": 104,
       "aliases": "Flea The Slab Bellway"
     },
     {
@@ -1895,7 +2064,7 @@
       "category": "CrestSlot",
       "outputValue": "crest-slot-hunter-red-1",
       "notes": "",
-      "sortOrder": 104,
+      "sortOrder": 105,
       "aliases": "Crest Slot Hunter Red 1"
     },
     {
@@ -1904,7 +2073,7 @@
       "category": "CrestSlot",
       "outputValue": "crest-slot-hunter-blue-1",
       "notes": "",
-      "sortOrder": 105,
+      "sortOrder": 106,
       "aliases": "Crest Slot Hunter Blue 1"
     },
     {
@@ -1913,7 +2082,7 @@
       "category": "CrestSlot",
       "outputValue": "crest-slot-hunter-yellow-1",
       "notes": "",
-      "sortOrder": 106,
+      "sortOrder": 107,
       "aliases": "Crest Slot Hunter Yellow 1"
     },
     {
@@ -1922,7 +2091,7 @@
       "category": "CrestSlot",
       "outputValue": "crest-slot-reaper-red-1",
       "notes": "",
-      "sortOrder": 107,
+      "sortOrder": 108,
       "aliases": "Crest Slot Reaper Red 1"
     },
     {
@@ -1931,7 +2100,7 @@
       "category": "CrestSlot",
       "outputValue": "crest-slot-reaper-blue-1",
       "notes": "",
-      "sortOrder": 108,
+      "sortOrder": 109,
       "aliases": "Crest Slot Reaper Blue 1"
     },
     {
@@ -1940,7 +2109,7 @@
       "category": "CrestSlot",
       "outputValue": "crest-slot-reaper-yellow-1",
       "notes": "",
-      "sortOrder": 109,
+      "sortOrder": 110,
       "aliases": "Crest Slot Reaper Yellow 1"
     },
     {
@@ -1949,7 +2118,7 @@
       "category": "CrestSlot",
       "outputValue": "crest-slot-wanderer-blue-1",
       "notes": "",
-      "sortOrder": 110,
+      "sortOrder": 111,
       "aliases": "Crest Slot Wanderer Blue 1"
     },
     {
@@ -1958,7 +2127,7 @@
       "category": "CrestSlot",
       "outputValue": "crest-slot-wanderer-blue-2",
       "notes": "",
-      "sortOrder": 111,
+      "sortOrder": 112,
       "aliases": "Crest Slot Wanderer Blue 2"
     },
     {
@@ -1967,7 +2136,7 @@
       "category": "CrestSlot",
       "outputValue": "crest-slot-wanderer-yellow-1",
       "notes": "",
-      "sortOrder": 112,
+      "sortOrder": 113,
       "aliases": "Crest Slot Wanderer Yellow 1"
     },
     {
@@ -1976,7 +2145,7 @@
       "category": "CrestSlot",
       "outputValue": "crest-slot-beast-yellow-1",
       "notes": "",
-      "sortOrder": 113,
+      "sortOrder": 114,
       "aliases": "Crest Slot Beast Yellow 1"
     },
     {
@@ -1985,7 +2154,7 @@
       "category": "CrestSlot",
       "outputValue": "crest-slot-beast-yellow-2",
       "notes": "",
-      "sortOrder": 114,
+      "sortOrder": 115,
       "aliases": "Crest Slot Beast Yellow 2"
     },
     {
@@ -1994,7 +2163,7 @@
       "category": "CrestSlot",
       "outputValue": "crest-slot-witch-red-1",
       "notes": "",
-      "sortOrder": 115,
+      "sortOrder": 116,
       "aliases": "Crest Slot Witch Red 1"
     },
     {
@@ -2003,7 +2172,7 @@
       "category": "CrestSlot",
       "outputValue": "crest-slot-witch-blue-1",
       "notes": "",
-      "sortOrder": 116,
+      "sortOrder": 117,
       "aliases": "Crest Slot Witch Blue 1"
     },
     {
@@ -2012,7 +2181,7 @@
       "category": "CrestSlot",
       "outputValue": "crest-slot-witch-blue-2",
       "notes": "",
-      "sortOrder": 117,
+      "sortOrder": 118,
       "aliases": "Crest Slot Witch Blue 2"
     },
     {
@@ -2021,7 +2190,7 @@
       "category": "CrestSlot",
       "outputValue": "crest-slot-architect-blue-1",
       "notes": "",
-      "sortOrder": 118,
+      "sortOrder": 119,
       "aliases": "Crest Slot Architect Blue 1"
     },
     {
@@ -2030,7 +2199,7 @@
       "category": "CrestSlot",
       "outputValue": "crest-slot-architect-yellow-1",
       "notes": "",
-      "sortOrder": 119,
+      "sortOrder": 120,
       "aliases": "Crest Slot Architect Yellow 1"
     },
     {
@@ -2039,7 +2208,7 @@
       "category": "CrestSlot",
       "outputValue": "crest-slot-architect-yellow-2",
       "notes": "",
-      "sortOrder": 120,
+      "sortOrder": 121,
       "aliases": "Crest Slot Architect Yellow 2"
     },
     {
@@ -2048,7 +2217,7 @@
       "category": "CrestSlot",
       "outputValue": "crest-slot-architect-blue-2",
       "notes": "",
-      "sortOrder": 121,
+      "sortOrder": 122,
       "aliases": "Crest Slot Architect Blue 2"
     },
     {
@@ -2057,7 +2226,7 @@
       "category": "CrestSlot",
       "outputValue": "crest-slot-shaman-blue-1",
       "notes": "",
-      "sortOrder": 122,
+      "sortOrder": 123,
       "aliases": "Crest Slot Shaman Blue 1"
     },
     {
@@ -2066,7 +2235,7 @@
       "category": "CrestSlot",
       "outputValue": "crest-slot-shaman-blue-2",
       "notes": "",
-      "sortOrder": 123,
+      "sortOrder": 124,
       "aliases": "Crest Slot Shaman Blue 2"
     },
     {
@@ -2075,7 +2244,7 @@
       "category": "MaskShard",
       "outputValue": "mask-shard-1",
       "notes": "",
-      "sortOrder": 124,
+      "sortOrder": 125,
       "aliases": "Mask Shard 1"
     },
     {
@@ -2084,7 +2253,7 @@
       "category": "MaskShard",
       "outputValue": "mask-shard-2",
       "notes": "",
-      "sortOrder": 125,
+      "sortOrder": 126,
       "aliases": "Mask Shard 2"
     },
     {
@@ -2093,7 +2262,7 @@
       "category": "MaskShard",
       "outputValue": "mask-shard-3",
       "notes": "",
-      "sortOrder": 126,
+      "sortOrder": 127,
       "aliases": "Mask Shard 3"
     },
     {
@@ -2102,7 +2271,7 @@
       "category": "MaskShard",
       "outputValue": "mask-shard-4",
       "notes": "",
-      "sortOrder": 127,
+      "sortOrder": 128,
       "aliases": "Mask Shard 4"
     },
     {
@@ -2111,7 +2280,7 @@
       "category": "MaskShard",
       "outputValue": "mask-shard-5",
       "notes": "",
-      "sortOrder": 128,
+      "sortOrder": 129,
       "aliases": "Mask Shard 5"
     },
     {
@@ -2120,7 +2289,7 @@
       "category": "MaskShard",
       "outputValue": "mask-shard-6",
       "notes": "",
-      "sortOrder": 129,
+      "sortOrder": 130,
       "aliases": "Mask Shard 6"
     },
     {
@@ -2129,7 +2298,7 @@
       "category": "MaskShard",
       "outputValue": "mask-shard-7",
       "notes": "",
-      "sortOrder": 130,
+      "sortOrder": 131,
       "aliases": "Mask Shard 7"
     },
     {
@@ -2138,8 +2307,17 @@
       "category": "MaskShard",
       "outputValue": "mask-shard-8",
       "notes": "",
-      "sortOrder": 131,
+      "sortOrder": 132,
       "aliases": "Mask Shard 8"
+    },
+    {
+      "id": "3e2d9d3c-a5e2-5601-bdd7-97d4e16ef24b",
+      "name": "Cursed Crest Trap",
+      "category": "Trap",
+      "outputValue": "cursed-crest-trap",
+      "notes": "",
+      "sortOrder": 133,
+      "aliases": "Cursed Crest Trap"
     },
     {
       "id": "71bebc98-dec6-53cb-a1d4-68a571dac8dd",
@@ -2147,7 +2325,7 @@
       "category": "MaskShard",
       "outputValue": "mask-shard-9",
       "notes": "",
-      "sortOrder": 132,
+      "sortOrder": 134,
       "aliases": "Mask Shard 9"
     },
     {
@@ -2156,7 +2334,7 @@
       "category": "MaskShard",
       "outputValue": "mask-shard-10",
       "notes": "",
-      "sortOrder": 133,
+      "sortOrder": 135,
       "aliases": "Mask Shard 10"
     },
     {
@@ -2165,7 +2343,7 @@
       "category": "MaskShard",
       "outputValue": "mask-shard-11",
       "notes": "",
-      "sortOrder": 134,
+      "sortOrder": 136,
       "aliases": "Mask Shard 11"
     },
     {
@@ -2174,7 +2352,7 @@
       "category": "MaskShard",
       "outputValue": "mask-shard-12",
       "notes": "",
-      "sortOrder": 135,
+      "sortOrder": 137,
       "aliases": "Mask Shard 12"
     },
     {
@@ -2183,7 +2361,7 @@
       "category": "MaskShard",
       "outputValue": "mask-shard-13",
       "notes": "",
-      "sortOrder": 136,
+      "sortOrder": 138,
       "aliases": "Mask Shard 13"
     },
     {
@@ -2192,7 +2370,7 @@
       "category": "MaskShard",
       "outputValue": "mask-shard-14",
       "notes": "",
-      "sortOrder": 137,
+      "sortOrder": 139,
       "aliases": "Mask Shard 14"
     },
     {
@@ -2201,7 +2379,7 @@
       "category": "MaskShard",
       "outputValue": "mask-shard-15",
       "notes": "",
-      "sortOrder": 138,
+      "sortOrder": 140,
       "aliases": "Mask Shard 15"
     },
     {
@@ -2210,7 +2388,7 @@
       "category": "MaskShard",
       "outputValue": "mask-shard-16",
       "notes": "",
-      "sortOrder": 139,
+      "sortOrder": 141,
       "aliases": "Mask Shard 16"
     },
     {
@@ -2219,7 +2397,7 @@
       "category": "MaskShard",
       "outputValue": "mask-shard-17",
       "notes": "",
-      "sortOrder": 140,
+      "sortOrder": 142,
       "aliases": "Mask Shard 17"
     },
     {
@@ -2228,7 +2406,7 @@
       "category": "MaskShard",
       "outputValue": "mask-shard-18",
       "notes": "",
-      "sortOrder": 141,
+      "sortOrder": 143,
       "aliases": "Mask Shard 18"
     },
     {
@@ -2237,7 +2415,7 @@
       "category": "MaskShard",
       "outputValue": "mask-shard-19",
       "notes": "",
-      "sortOrder": 142,
+      "sortOrder": 144,
       "aliases": "Mask Shard 19"
     },
     {
@@ -2246,7 +2424,7 @@
       "category": "MaskShard",
       "outputValue": "mask-shard-20",
       "notes": "",
-      "sortOrder": 143,
+      "sortOrder": 145,
       "aliases": "Mask Shard 20"
     },
     {
@@ -2255,7 +2433,7 @@
       "category": "SpoolFragment",
       "outputValue": "spool-fragment-1",
       "notes": "",
-      "sortOrder": 144,
+      "sortOrder": 146,
       "aliases": "Spool Fragment 1"
     },
     {
@@ -2264,7 +2442,7 @@
       "category": "SpoolFragment",
       "outputValue": "spool-fragment-2",
       "notes": "",
-      "sortOrder": 145,
+      "sortOrder": 147,
       "aliases": "Spool Fragment 2"
     },
     {
@@ -2273,7 +2451,7 @@
       "category": "SpoolFragment",
       "outputValue": "spool-fragment-3",
       "notes": "",
-      "sortOrder": 146,
+      "sortOrder": 148,
       "aliases": "Spool Fragment 3"
     },
     {
@@ -2282,7 +2460,7 @@
       "category": "SpoolFragment",
       "outputValue": "spool-fragment-4",
       "notes": "",
-      "sortOrder": 147,
+      "sortOrder": 149,
       "aliases": "Spool Fragment 4"
     },
     {
@@ -2291,7 +2469,7 @@
       "category": "SpoolFragment",
       "outputValue": "spool-fragment-5",
       "notes": "",
-      "sortOrder": 148,
+      "sortOrder": 150,
       "aliases": "Spool Fragment 5"
     },
     {
@@ -2300,7 +2478,7 @@
       "category": "SpoolFragment",
       "outputValue": "spool-fragment-6",
       "notes": "",
-      "sortOrder": 149,
+      "sortOrder": 151,
       "aliases": "Spool Fragment 6"
     },
     {
@@ -2309,7 +2487,7 @@
       "category": "SpoolFragment",
       "outputValue": "spool-fragment-7",
       "notes": "",
-      "sortOrder": 150,
+      "sortOrder": 152,
       "aliases": "Spool Fragment 7"
     },
     {
@@ -2318,7 +2496,7 @@
       "category": "SpoolFragment",
       "outputValue": "spool-fragment-8",
       "notes": "",
-      "sortOrder": 151,
+      "sortOrder": 153,
       "aliases": "Spool Fragment 8"
     },
     {
@@ -2327,7 +2505,7 @@
       "category": "SpoolFragment",
       "outputValue": "spool-fragment-9",
       "notes": "",
-      "sortOrder": 152,
+      "sortOrder": 154,
       "aliases": "Spool Fragment 9"
     },
     {
@@ -2336,7 +2514,7 @@
       "category": "SpoolFragment",
       "outputValue": "spool-fragment-10",
       "notes": "",
-      "sortOrder": 153,
+      "sortOrder": 155,
       "aliases": "Spool Fragment 10"
     },
     {
@@ -2345,7 +2523,7 @@
       "category": "SpoolFragment",
       "outputValue": "spool-fragment-11",
       "notes": "",
-      "sortOrder": 154,
+      "sortOrder": 156,
       "aliases": "Spool Fragment 11"
     },
     {
@@ -2354,7 +2532,7 @@
       "category": "SpoolFragment",
       "outputValue": "spool-fragment-12",
       "notes": "",
-      "sortOrder": 155,
+      "sortOrder": 157,
       "aliases": "Spool Fragment 12"
     },
     {
@@ -2363,7 +2541,7 @@
       "category": "SpoolFragment",
       "outputValue": "spool-fragment-13",
       "notes": "",
-      "sortOrder": 156,
+      "sortOrder": 158,
       "aliases": "Spool Fragment 13"
     },
     {
@@ -2372,7 +2550,7 @@
       "category": "SpoolFragment",
       "outputValue": "spool-fragment-14",
       "notes": "",
-      "sortOrder": 157,
+      "sortOrder": 159,
       "aliases": "Spool Fragment 14"
     },
     {
@@ -2381,7 +2559,7 @@
       "category": "SpoolFragment",
       "outputValue": "spool-fragment-15",
       "notes": "",
-      "sortOrder": 158,
+      "sortOrder": 160,
       "aliases": "Spool Fragment 15"
     },
     {
@@ -2390,7 +2568,7 @@
       "category": "SpoolFragment",
       "outputValue": "spool-fragment-16",
       "notes": "",
-      "sortOrder": 159,
+      "sortOrder": 161,
       "aliases": "Spool Fragment 16"
     },
     {
@@ -2399,7 +2577,7 @@
       "category": "SpoolFragment",
       "outputValue": "spool-fragment-17",
       "notes": "",
-      "sortOrder": 160,
+      "sortOrder": 162,
       "aliases": "Spool Fragment 17"
     },
     {
@@ -2408,7 +2586,7 @@
       "category": "SpoolFragment",
       "outputValue": "spool-fragment-18",
       "notes": "",
-      "sortOrder": 161,
+      "sortOrder": 163,
       "aliases": "Spool Fragment 18"
     },
     {
@@ -2417,7 +2595,7 @@
       "category": "Bellway",
       "outputValue": "bellway-bone-bottom",
       "notes": "",
-      "sortOrder": 162,
+      "sortOrder": 164,
       "aliases": "Bellway Bone Bottom"
     },
     {
@@ -2426,7 +2604,7 @@
       "category": "Bellway",
       "outputValue": "bellway-the-marrow",
       "notes": "",
-      "sortOrder": 163,
+      "sortOrder": 165,
       "aliases": "bellway the marrow"
     },
     {
@@ -2435,7 +2613,7 @@
       "category": "Bellway",
       "outputValue": "bellway-deep-docks",
       "notes": "",
-      "sortOrder": 164,
+      "sortOrder": 166,
       "aliases": "Bellway Deep Docks"
     },
     {
@@ -2444,7 +2622,7 @@
       "category": "Bellway",
       "outputValue": "bellway-far-fields",
       "notes": "",
-      "sortOrder": 165,
+      "sortOrder": 167,
       "aliases": "Bellway Far Fields"
     },
     {
@@ -2453,7 +2631,7 @@
       "category": "Bellway",
       "outputValue": "bellway-greymoor",
       "notes": "",
-      "sortOrder": 166,
+      "sortOrder": 168,
       "aliases": "Bellway Greymoor"
     },
     {
@@ -2462,7 +2640,7 @@
       "category": "Bellway",
       "outputValue": "bellway-bellhart",
       "notes": "",
-      "sortOrder": 167,
+      "sortOrder": 169,
       "aliases": "Bellway Bellhart"
     },
     {
@@ -2471,7 +2649,7 @@
       "category": "Bellway",
       "outputValue": "bellway-blasted-steps",
       "notes": "",
-      "sortOrder": 168,
+      "sortOrder": 170,
       "aliases": "Bellway Blasted Steps"
     },
     {
@@ -2480,7 +2658,7 @@
       "category": "Bellway",
       "outputValue": "bellway-grand-bellway",
       "notes": "",
-      "sortOrder": 169,
+      "sortOrder": 171,
       "aliases": "Bellway Grand Bellway"
     },
     {
@@ -2489,7 +2667,7 @@
       "category": "Bellway",
       "outputValue": "bellway-the-slab",
       "notes": "",
-      "sortOrder": 170,
+      "sortOrder": 172,
       "aliases": "Bellway The Slab"
     },
     {
@@ -2498,7 +2676,7 @@
       "category": "Bellway",
       "outputValue": "bellway-shellwood",
       "notes": "",
-      "sortOrder": 171,
+      "sortOrder": 173,
       "aliases": "Bellway Shellwood"
     },
     {
@@ -2507,7 +2685,7 @@
       "category": "Bellway",
       "outputValue": "bellway-bilewater",
       "notes": "",
-      "sortOrder": 172,
+      "sortOrder": 174,
       "aliases": "Bellway Bilewater"
     },
     {
@@ -2516,7 +2694,7 @@
       "category": "Bellway",
       "outputValue": "bellway-putrified-ducts",
       "notes": "",
-      "sortOrder": 173,
+      "sortOrder": 175,
       "aliases": "Bellway Putrified Ducts"
     },
     {
@@ -2525,7 +2703,7 @@
       "category": "Ventrica",
       "outputValue": "ventrica-terminus",
       "notes": "",
-      "sortOrder": 174,
+      "sortOrder": 176,
       "aliases": "ventrica terminus"
     },
     {
@@ -2534,7 +2712,7 @@
       "category": "Ventrica",
       "outputValue": "ventrica-choral-chambers",
       "notes": "",
-      "sortOrder": 175,
+      "sortOrder": 177,
       "aliases": "Ventrica Choral Chambers"
     },
     {
@@ -2543,7 +2721,7 @@
       "category": "Ventrica",
       "outputValue": "ventrica-underworks",
       "notes": "",
-      "sortOrder": 176,
+      "sortOrder": 178,
       "aliases": "Ventrica Underworks"
     },
     {
@@ -2552,7 +2730,7 @@
       "category": "Ventrica",
       "outputValue": "ventrica-grand-bellway",
       "notes": "",
-      "sortOrder": 177,
+      "sortOrder": 179,
       "aliases": "Ventrica Grand Bellway"
     },
     {
@@ -2561,7 +2739,7 @@
       "category": "Ventrica",
       "outputValue": "ventrica-high-halls",
       "notes": "",
-      "sortOrder": 178,
+      "sortOrder": 180,
       "aliases": "Ventrica High Halls"
     },
     {
@@ -2570,7 +2748,7 @@
       "category": "Ventrica",
       "outputValue": "ventrica-songclave",
       "notes": "",
-      "sortOrder": 179,
+      "sortOrder": 181,
       "aliases": "Ventrica Songclave, Ventrica First Shrine"
     },
     {
@@ -2579,7 +2757,7 @@
       "category": "Ventrica",
       "outputValue": "ventrica-memorium",
       "notes": "",
-      "sortOrder": 180,
+      "sortOrder": 182,
       "aliases": "Ventrica Memorium"
     },
     {
@@ -2588,7 +2766,7 @@
       "category": "Map",
       "outputValue": "map-mosslands",
       "notes": "",
-      "sortOrder": 181,
+      "sortOrder": 183,
       "aliases": "Map Mosslands"
     },
     {
@@ -2597,7 +2775,7 @@
       "category": "Map",
       "outputValue": "map-the-marrow",
       "notes": "",
-      "sortOrder": 182,
+      "sortOrder": 184,
       "aliases": "Map The Marrow"
     },
     {
@@ -2606,7 +2784,7 @@
       "category": "Map",
       "outputValue": "map-deep-docks",
       "notes": "",
-      "sortOrder": 183,
+      "sortOrder": 185,
       "aliases": "Map Deep Docks"
     },
     {
@@ -2615,7 +2793,7 @@
       "category": "Map",
       "outputValue": "map-far-fields",
       "notes": "",
-      "sortOrder": 184,
+      "sortOrder": 186,
       "aliases": "Map Far Fields"
     },
     {
@@ -2624,7 +2802,7 @@
       "category": "Map",
       "outputValue": "map-wormways",
       "notes": "",
-      "sortOrder": 185,
+      "sortOrder": 187,
       "aliases": "Map Wormways"
     },
     {
@@ -2633,7 +2811,7 @@
       "category": "Map",
       "outputValue": "map-hunter-s-march",
       "notes": "",
-      "sortOrder": 186,
+      "sortOrder": 188,
       "aliases": "Map Hunters March"
     },
     {
@@ -2642,7 +2820,7 @@
       "category": "Map",
       "outputValue": "map-greymoor",
       "notes": "",
-      "sortOrder": 187,
+      "sortOrder": 189,
       "aliases": "Map Greymoor"
     },
     {
@@ -2651,7 +2829,7 @@
       "category": "Map",
       "outputValue": "map-bellhart",
       "notes": "",
-      "sortOrder": 188,
+      "sortOrder": 190,
       "aliases": "Map Bellhart"
     },
     {
@@ -2660,7 +2838,7 @@
       "category": "Map",
       "outputValue": "map-shellwood",
       "notes": "",
-      "sortOrder": 189,
+      "sortOrder": 191,
       "aliases": "Map Shellwood"
     },
     {
@@ -2669,7 +2847,7 @@
       "category": "Map",
       "outputValue": "map-blasted-steps",
       "notes": "",
-      "sortOrder": 190,
+      "sortOrder": 192,
       "aliases": "Map Blasted Steps"
     },
     {
@@ -2678,7 +2856,7 @@
       "category": "Map",
       "outputValue": "map-sinner-s-road",
       "notes": "",
-      "sortOrder": 191,
+      "sortOrder": 193,
       "aliases": "Map Sinners Road"
     },
     {
@@ -2687,7 +2865,7 @@
       "category": "Map",
       "outputValue": "map-mount-fay",
       "notes": "",
-      "sortOrder": 192,
+      "sortOrder": 194,
       "aliases": "Map Mount Fay"
     },
     {
@@ -2696,7 +2874,7 @@
       "category": "Map",
       "outputValue": "map-sands-of-karak",
       "notes": "",
-      "sortOrder": 193,
+      "sortOrder": 195,
       "aliases": "Map Sands of Karak"
     },
     {
@@ -2705,7 +2883,7 @@
       "category": "Map",
       "outputValue": "map-bilewater",
       "notes": "",
-      "sortOrder": 194,
+      "sortOrder": 196,
       "aliases": "Map Bilewater"
     },
     {
@@ -2714,7 +2892,7 @@
       "category": "Upgrade",
       "outputValue": "progressive-crafting-kit",
       "notes": "",
-      "sortOrder": 195,
+      "sortOrder": 197,
       "aliases": "Progressive Crafting Kit"
     },
     {
@@ -2723,7 +2901,7 @@
       "category": "Pin",
       "outputValue": "bench-pins",
       "notes": "",
-      "sortOrder": 196,
+      "sortOrder": 198,
       "aliases": "Bench Pins"
     },
     {
@@ -2732,7 +2910,7 @@
       "category": "Pin",
       "outputValue": "ventrica-pins",
       "notes": "",
-      "sortOrder": 197,
+      "sortOrder": 199,
       "aliases": "Ventrica Pins"
     },
     {
@@ -2741,7 +2919,7 @@
       "category": "Pin",
       "outputValue": "bellway-pins",
       "notes": "",
-      "sortOrder": 198,
+      "sortOrder": 200,
       "aliases": "Bellway Pins"
     },
     {
@@ -2750,7 +2928,7 @@
       "category": "Pin",
       "outputValue": "vendor-pins",
       "notes": "",
-      "sortOrder": 199,
+      "sortOrder": 201,
       "aliases": "Vendor Pins"
     },
     {
@@ -2759,7 +2937,7 @@
       "category": "Relic",
       "outputValue": "relic-weaver-effigy-keelal-shellwood",
       "notes": "",
-      "sortOrder": 200,
+      "sortOrder": 202,
       "aliases": "Relic Weaver Effigy Keelal Shellwood"
     },
     {
@@ -2768,7 +2946,7 @@
       "category": "Relic",
       "outputValue": "relic-psalm-cylinder-east-whispering-vaults",
       "notes": "",
-      "sortOrder": 201,
+      "sortOrder": 203,
       "aliases": "Relic Psalm Cylinder East Whispering Vaults"
     },
     {
@@ -2777,7 +2955,7 @@
       "category": "Relic",
       "outputValue": "relic-bone-scroll-wisp-thicket",
       "notes": "",
-      "sortOrder": 202,
+      "sortOrder": 204,
       "aliases": "Relic Bone Scroll Wisp Thicket"
     },
     {
@@ -2786,7 +2964,7 @@
       "category": "Relic",
       "outputValue": "relic-weaver-effigy-camora-moss-grotto",
       "notes": "",
-      "sortOrder": 203,
+      "sortOrder": 205,
       "aliases": "Relic Weaver Effigy Camora Moss Grotto"
     },
     {
@@ -2795,7 +2973,7 @@
       "category": "Relic",
       "outputValue": "relic-sacred-cylinder",
       "notes": "",
-      "sortOrder": 204,
+      "sortOrder": 206,
       "aliases": "Relic Sacred Cylinder"
     },
     {
@@ -2804,7 +2982,7 @@
       "category": "Relic",
       "outputValue": "relic-choral-commandment-jubilana",
       "notes": "",
-      "sortOrder": 205,
+      "sortOrder": 207,
       "aliases": "Relic Choral Commandment Jubilana"
     },
     {
@@ -2813,7 +2991,7 @@
       "category": "Relic",
       "outputValue": "relic-psalm-cylinder-underworks",
       "notes": "",
-      "sortOrder": 206,
+      "sortOrder": 208,
       "aliases": "Relic Psalm Cylinder Underworks"
     },
     {
@@ -2822,7 +3000,7 @@
       "category": "Relic",
       "outputValue": "relic-rune-harp-high-halls",
       "notes": "",
-      "sortOrder": 207,
+      "sortOrder": 209,
       "aliases": "Relic Rune Harp High Halls"
     },
     {
@@ -2831,7 +3009,7 @@
       "category": "Relic",
       "outputValue": "relic-psalm-cylinder-vaultkeeper-cardinius",
       "notes": "",
-      "sortOrder": 208,
+      "sortOrder": 210,
       "aliases": "Relic Psalm Cylinder Vaultkeeper Cardinius"
     },
     {
@@ -2840,7 +3018,7 @@
       "category": "Relic",
       "outputValue": "relic-psalm-cylinder-high-halls",
       "notes": "",
-      "sortOrder": 209,
+      "sortOrder": 211,
       "aliases": "Relic Psalm Cylinder High Halls"
     },
     {
@@ -2849,7 +3027,7 @@
       "category": "Relic",
       "outputValue": "relic-choral-commandment-western-whiteward",
       "notes": "",
-      "sortOrder": 210,
+      "sortOrder": 212,
       "aliases": "Relic Choral Commandment Western Whiteward"
     },
     {
@@ -2858,7 +3036,7 @@
       "category": "Relic",
       "outputValue": "relic-rune-harp-weavenest-cindril",
       "notes": "",
-      "sortOrder": 211,
+      "sortOrder": 213,
       "aliases": "Relic Rune Harp Weavenest Cindril"
     },
     {
@@ -2867,7 +3045,7 @@
       "category": "Relic",
       "outputValue": "relic-psalm-cylinder-grindle",
       "notes": "",
-      "sortOrder": 212,
+      "sortOrder": 214,
       "aliases": "Relic Psalm Cylinder Grindle"
     },
     {
@@ -2876,7 +3054,7 @@
       "category": "Relic",
       "outputValue": "relic-rune-harp-weavenest-atla",
       "notes": "",
-      "sortOrder": 213,
+      "sortOrder": 215,
       "aliases": "Relic Rune Harp Weavenest Atla"
     },
     {
@@ -2885,7 +3063,7 @@
       "category": "Relic",
       "outputValue": "relic-bone-scroll-underworks",
       "notes": "",
-      "sortOrder": 214,
+      "sortOrder": 216,
       "aliases": "Relic Bone Scroll Underworks"
     },
     {
@@ -2894,7 +3072,7 @@
       "category": "Relic",
       "outputValue": "relic-bone-scroll-far-fields",
       "notes": "",
-      "sortOrder": 215,
+      "sortOrder": 217,
       "aliases": "Relic Bone Scroll Far Fields"
     },
     {
@@ -2903,7 +3081,7 @@
       "category": "Relic",
       "outputValue": "relic-choral-commandment-moss-grotto",
       "notes": "",
-      "sortOrder": 216,
+      "sortOrder": 218,
       "aliases": "Relic Choral Commandment Moss Grotto"
     },
     {
@@ -2912,7 +3090,7 @@
       "category": "Relic",
       "outputValue": "relic-choral-commandment-eastern-whiteward",
       "notes": "",
-      "sortOrder": 217,
+      "sortOrder": 219,
       "aliases": "Relic Choral Commandment Eastern Whiteward"
     },
     {
@@ -2921,7 +3099,7 @@
       "category": "Relic",
       "outputValue": "relic-bone-scroll-greymoor",
       "notes": "",
-      "sortOrder": 218,
+      "sortOrder": 220,
       "aliases": "Relic Bone Scroll Greymoor"
     },
     {
@@ -2930,7 +3108,7 @@
       "category": "Relic",
       "outputValue": "relic-weaver-effigy-atla-the-slab",
       "notes": "",
-      "sortOrder": 219,
+      "sortOrder": 221,
       "aliases": "Relic Weaver Effigy Atla The Slab"
     },
     {
@@ -2939,7 +3117,7 @@
       "category": "Relic",
       "outputValue": "relic-arcane-egg",
       "notes": "",
-      "sortOrder": 220,
+      "sortOrder": 222,
       "aliases": "Relic Arcane Egg"
     },
     {
@@ -2948,7 +3126,7 @@
       "category": "Currency",
       "outputValue": "rosaries-60",
       "notes": "",
-      "sortOrder": 221,
+      "sortOrder": 223,
       "aliases": "Rosaries 60"
     },
     {
@@ -2957,7 +3135,7 @@
       "category": "Currency",
       "outputValue": "shell-shards-80",
       "notes": "",
-      "sortOrder": 222,
+      "sortOrder": 224,
       "aliases": "Shell Shards 80"
     },
     {
@@ -2966,7 +3144,7 @@
       "category": "Trap",
       "outputValue": "stagger-trap",
       "notes": "",
-      "sortOrder": 223,
+      "sortOrder": 225,
       "aliases": "Stagger Trap"
     },
     {
@@ -2975,7 +3153,7 @@
       "category": "Trap",
       "outputValue": "rosary-spill-trap",
       "notes": "",
-      "sortOrder": 224,
+      "sortOrder": 226,
       "aliases": "Rosary Spill Trap"
     },
     {
@@ -2984,17 +3162,8 @@
       "category": "Trap",
       "outputValue": "darkness-trap",
       "notes": "",
-      "sortOrder": 225,
+      "sortOrder": 227,
       "aliases": "Darkness Trap"
-    },
-    {
-      "id": "3e2d9d3c-a5e2-5601-bdd7-97d4e16ef24b",
-      "name": "Cursed Crest Trap",
-      "category": "Trap",
-      "outputValue": "cursed-crest-trap",
-      "notes": "",
-      "sortOrder": 226,
-      "aliases": "Cursed Crest Trap"
     },
     {
       "id": "089cebae-c852-54d6-b17c-0c6f547453f7",
@@ -3002,7 +3171,7 @@
       "category": "Trap",
       "outputValue": "muckmaggot-status-trap",
       "notes": "",
-      "sortOrder": 227,
+      "sortOrder": 228,
       "aliases": "Muckmaggot Status Trap"
     },
     {
@@ -3011,7 +3180,7 @@
       "category": "Skill",
       "outputValue": "progressive-swift-step",
       "notes": "",
-      "sortOrder": 228,
+      "sortOrder": 229,
       "aliases": "Progressive Swift Step"
     },
     {
@@ -3020,7 +3189,7 @@
       "category": "NeedleUpgrade",
       "outputValue": "progressive-needle-upgrade",
       "notes": "",
-      "sortOrder": 229,
+      "sortOrder": 230,
       "aliases": "Progressive Needle Upgrade"
     },
     {
@@ -3029,7 +3198,7 @@
       "category": "NeedleUpgrade",
       "outputValue": "pale-oil",
       "notes": "",
-      "sortOrder": 230,
+      "sortOrder": 231,
       "aliases": "Pale Oil"
     },
     {
@@ -3038,7 +3207,7 @@
       "category": "Upgrade",
       "outputValue": "progressive-druid-s-eyes",
       "notes": "",
-      "sortOrder": 231,
+      "sortOrder": 232,
       "aliases": "Progressive Druids Eyes"
     },
     {
@@ -3047,7 +3216,7 @@
       "category": "Skill",
       "outputValue": "progressive-compass",
       "notes": "",
-      "sortOrder": 232,
+      "sortOrder": 233,
       "aliases": "Progressive Compass"
     },
     {
@@ -3056,7 +3225,7 @@
       "category": "Resource",
       "outputValue": "frayed-rosary-string",
       "notes": "",
-      "sortOrder": 233,
+      "sortOrder": 234,
       "aliases": "Frayed Rosary String"
     },
     {
@@ -3065,7 +3234,7 @@
       "category": "Resource",
       "outputValue": "rosary-string",
       "notes": "",
-      "sortOrder": 234,
+      "sortOrder": 235,
       "aliases": "Rosary String"
     },
     {
@@ -3074,7 +3243,7 @@
       "category": "Resource",
       "outputValue": "rosary-necklace",
       "notes": "",
-      "sortOrder": 235,
+      "sortOrder": 236,
       "aliases": "Rosary Necklace"
     },
     {
@@ -3083,7 +3252,7 @@
       "category": "Resource",
       "outputValue": "heavy-rosary-necklace",
       "notes": "",
-      "sortOrder": 236,
+      "sortOrder": 237,
       "aliases": "Heavy Rosary Necklace"
     },
     {
@@ -3092,7 +3261,7 @@
       "category": "Resource",
       "outputValue": "pale-rosary-necklace",
       "notes": "",
-      "sortOrder": 237,
+      "sortOrder": 238,
       "aliases": "Pale Rosary Necklace"
     },
     {
@@ -3101,7 +3270,7 @@
       "category": "Resource",
       "outputValue": "shard-bundle",
       "notes": "",
-      "sortOrder": 238,
+      "sortOrder": 239,
       "aliases": "Shard Bundle"
     },
     {
@@ -3110,7 +3279,7 @@
       "category": "Resource",
       "outputValue": "beast-shard",
       "notes": "",
-      "sortOrder": 239,
+      "sortOrder": 240,
       "aliases": "Beast Shard"
     },
     {
@@ -3119,7 +3288,7 @@
       "category": "Resource",
       "outputValue": "pristine-core",
       "notes": "",
-      "sortOrder": 240,
+      "sortOrder": 241,
       "aliases": "Pristine Core"
     },
     {
@@ -3128,7 +3297,7 @@
       "category": "Resource",
       "outputValue": "rosaries-10",
       "notes": "",
-      "sortOrder": 241,
+      "sortOrder": 242,
       "aliases": "Rosaries 10"
     },
     {
@@ -3137,7 +3306,7 @@
       "category": "Resource",
       "outputValue": "shell-shards-10",
       "notes": "",
-      "sortOrder": 242,
+      "sortOrder": 243,
       "aliases": "Shell Shards 10"
     },
     {
@@ -3146,7 +3315,7 @@
       "category": "Tool",
       "outputValue": "ruined-tool",
       "notes": "",
-      "sortOrder": 243,
+      "sortOrder": 244,
       "aliases": "Ruined Tool"
     },
     {
@@ -3155,7 +3324,7 @@
       "category": "Key",
       "outputValue": "simple-key-wormways",
       "notes": "",
-      "sortOrder": 244,
+      "sortOrder": 245,
       "aliases": "Simple Key Wormways"
     },
     {
@@ -3164,7 +3333,7 @@
       "category": "Key",
       "outputValue": "simple-key-deep-docks",
       "notes": "",
-      "sortOrder": 245,
+      "sortOrder": 246,
       "aliases": "Simple Key Deep Docks"
     },
     {
@@ -3173,7 +3342,7 @@
       "category": "Key",
       "outputValue": "simple-key-green-prince",
       "notes": "",
-      "sortOrder": 246,
+      "sortOrder": 247,
       "aliases": "Simple Key Green Prince"
     },
     {
@@ -3182,7 +3351,7 @@
       "category": "Key",
       "outputValue": "simple-key-rosary-bank",
       "notes": "",
-      "sortOrder": 247,
+      "sortOrder": 248,
       "aliases": "Simple Key Rosary Bank"
     },
     {
@@ -3191,7 +3360,7 @@
       "category": "Map",
       "outputValue": "map-weavenest-atla",
       "notes": "",
-      "sortOrder": 248,
+      "sortOrder": 249,
       "aliases": "Map Weavenest Atla"
     },
     {
@@ -3200,7 +3369,7 @@
       "category": "Map",
       "outputValue": "map-grand-gate",
       "notes": "",
-      "sortOrder": 249,
+      "sortOrder": 250,
       "aliases": "Map Grand Gate"
     },
     {
@@ -3209,7 +3378,7 @@
       "category": "Map",
       "outputValue": "map-underworks",
       "notes": "",
-      "sortOrder": 250,
+      "sortOrder": 251,
       "aliases": "Map Underworks"
     },
     {
@@ -3218,7 +3387,7 @@
       "category": "Map",
       "outputValue": "map-choral-chambers",
       "notes": "",
-      "sortOrder": 251,
+      "sortOrder": 252,
       "aliases": "Map Choral Chambers"
     },
     {
@@ -3227,7 +3396,7 @@
       "category": "Map",
       "outputValue": "map-whispering-vaults",
       "notes": "",
-      "sortOrder": 252,
+      "sortOrder": 253,
       "aliases": "Map Whispering Vaults"
     },
     {
@@ -3236,7 +3405,7 @@
       "category": "Map",
       "outputValue": "map-whiteward",
       "notes": "",
-      "sortOrder": 253,
+      "sortOrder": 254,
       "aliases": "Map Whiteward"
     },
     {
@@ -3245,7 +3414,7 @@
       "category": "Map",
       "outputValue": "map-cogwork-core",
       "notes": "",
-      "sortOrder": 254,
+      "sortOrder": 255,
       "aliases": "Map Cogwork Core"
     },
     {
@@ -3254,7 +3423,7 @@
       "category": "Map",
       "outputValue": "map-memorium",
       "notes": "",
-      "sortOrder": 255,
+      "sortOrder": 256,
       "aliases": "Map Memorium"
     },
     {
@@ -3263,7 +3432,7 @@
       "category": "Map",
       "outputValue": "map-high-halls",
       "notes": "",
-      "sortOrder": 256,
+      "sortOrder": 257,
       "aliases": "Map High Halls"
     },
     {
@@ -3272,7 +3441,7 @@
       "category": "Map",
       "outputValue": "map-the-slab",
       "notes": "",
-      "sortOrder": 257,
+      "sortOrder": 258,
       "aliases": "Map The Slab"
     },
     {
@@ -3281,7 +3450,7 @@
       "category": "Map",
       "outputValue": "map-putrified-ducts",
       "notes": "",
-      "sortOrder": 258,
+      "sortOrder": 259,
       "aliases": "Map Putrified Ducts"
     },
     {
@@ -3290,7 +3459,7 @@
       "category": "Map",
       "outputValue": "map-the-cradle",
       "notes": "",
-      "sortOrder": 259,
+      "sortOrder": 260,
       "aliases": "Map The Cradle"
     },
     {
@@ -3299,7 +3468,7 @@
       "category": "Map",
       "outputValue": "map-verdania",
       "notes": "",
-      "sortOrder": 260,
+      "sortOrder": 261,
       "aliases": "Map Verdania"
     },
     {
@@ -3308,7 +3477,7 @@
       "category": "Map",
       "outputValue": "map-the-abyss",
       "notes": "",
-      "sortOrder": 261,
+      "sortOrder": 262,
       "aliases": "Map The Abyss"
     },
     {
@@ -3317,7 +3486,7 @@
       "category": "Melody",
       "outputValue": "architect-s-melody",
       "notes": "",
-      "sortOrder": 262,
+      "sortOrder": 263,
       "aliases": "Architects Melody"
     },
     {
@@ -3326,7 +3495,7 @@
       "category": "Melody",
       "outputValue": "conductor-s-melody",
       "notes": "",
-      "sortOrder": 263,
+      "sortOrder": 264,
       "aliases": "Conductors Melody"
     },
     {
@@ -3335,7 +3504,7 @@
       "category": "Melody",
       "outputValue": "vaultkeeper-s-melody",
       "notes": "",
-      "sortOrder": 264,
+      "sortOrder": 265,
       "aliases": "Vaultkeepers Melody"
     },
     {
@@ -3344,7 +3513,7 @@
       "category": "Melody",
       "outputValue": "elegy-of-the-deep",
       "notes": "",
-      "sortOrder": 265,
+      "sortOrder": 266,
       "aliases": "Elegy of the Deep"
     },
     {
@@ -3353,7 +3522,7 @@
       "category": "Melody",
       "outputValue": "beastling-call",
       "notes": "",
-      "sortOrder": 266,
+      "sortOrder": 267,
       "aliases": "Beastling Call"
     },
     {
@@ -3362,7 +3531,7 @@
       "category": "MemoryLocket",
       "outputValue": "memory-locket",
       "notes": "",
-      "sortOrder": 267,
+      "sortOrder": 268,
       "aliases": "Memory Locket"
     },
     {
@@ -3371,7 +3540,7 @@
       "category": "Craftmetal",
       "outputValue": "craftmetal",
       "notes": "",
-      "sortOrder": 268,
+      "sortOrder": 269,
       "aliases": "Craftmetal"
     },
     {
@@ -3380,7 +3549,7 @@
       "category": "Mossberry",
       "outputValue": "mossberry",
       "notes": "",
-      "sortOrder": 269,
+      "sortOrder": 270,
       "aliases": "Mossberry"
     },
     {
@@ -3389,7 +3558,7 @@
       "category": "Silkeater",
       "outputValue": "silkeater",
       "notes": "",
-      "sortOrder": 270,
+      "sortOrder": 271,
       "aliases": "Silkeater"
     },
     {
@@ -3398,7 +3567,7 @@
       "category": "MajorKey",
       "outputValue": "key-of-indolent",
       "notes": "",
-      "sortOrder": 271,
+      "sortOrder": 272,
       "aliases": "Key of Indolent"
     },
     {
@@ -3407,7 +3576,7 @@
       "category": "MajorKey",
       "outputValue": "key-of-heretic",
       "notes": "",
-      "sortOrder": 272,
+      "sortOrder": 273,
       "aliases": "Key of Heretic"
     },
     {
@@ -3416,7 +3585,7 @@
       "category": "MajorKey",
       "outputValue": "key-of-apostate",
       "notes": "",
-      "sortOrder": 273,
+      "sortOrder": 274,
       "aliases": "Key of Apostate"
     },
     {
@@ -3425,7 +3594,7 @@
       "category": "MajorKey",
       "outputValue": "white-key",
       "notes": "",
-      "sortOrder": 274,
+      "sortOrder": 275,
       "aliases": "White Key"
     },
     {
@@ -3434,7 +3603,7 @@
       "category": "MajorKey",
       "outputValue": "surgeon-s-key",
       "notes": "",
-      "sortOrder": 275,
+      "sortOrder": 276,
       "aliases": "Surgeons Key"
     },
     {
@@ -3443,7 +3612,7 @@
       "category": "MajorKey",
       "outputValue": "architect-s-key",
       "notes": "",
-      "sortOrder": 276,
+      "sortOrder": 277,
       "aliases": "Architects Key"
     },
     {
@@ -3452,7 +3621,7 @@
       "category": "MajorKey",
       "outputValue": "craw-summons",
       "notes": "",
-      "sortOrder": 277,
+      "sortOrder": 278,
       "aliases": "Craw Summons"
     },
     {
@@ -3461,8 +3630,17 @@
       "category": "MajorKey",
       "outputValue": "everbloom",
       "notes": "Was missing from original import?",
-      "sortOrder": 278,
+      "sortOrder": 279,
       "aliases": "everbloom"
+    },
+    {
+      "id": "ce821022-6d4b-4e85-bdc8-bb28209d7be3",
+      "name": "Crown Fragment",
+      "category": "MajorKey",
+      "outputValue": "crown-fragment",
+      "notes": "Obtained from defeating the terrible tyrant in wish The Terrible Tyrant. Is \u0022MajorKey\u0022 classification correct?",
+      "sortOrder": 280,
+      "aliases": "Crown Fragment"
     },
     {
       "id": "50d6047d-84a4-5cda-9e20-f88da711377b",
@@ -3470,7 +3648,7 @@
       "category": "Flea",
       "outputValue": "flea-greymoor-kratt",
       "notes": "",
-      "sortOrder": 279,
+      "sortOrder": 281,
       "aliases": "Flea Greymoor Kratt"
     },
     {
@@ -3479,7 +3657,7 @@
       "category": "Flea",
       "outputValue": "flea-putrified-ducts-vog",
       "notes": "",
-      "sortOrder": 280,
+      "sortOrder": 282,
       "aliases": "Flea Putrified Ducts Vog"
     },
     {
@@ -3488,7 +3666,7 @@
       "category": "Flea",
       "outputValue": "flea-memorium-huge-flea",
       "notes": "",
-      "sortOrder": 281,
+      "sortOrder": 283,
       "aliases": "Flea Memorium Huge Flea"
     },
     {
@@ -3497,7 +3675,7 @@
       "category": "Trap",
       "outputValue": "naked-trap",
       "notes": "",
-      "sortOrder": 282,
+      "sortOrder": 284,
       "aliases": "Naked Trap"
     },
     {
@@ -3506,7 +3684,7 @@
       "category": "SilkHeart",
       "outputValue": "progressive-silkheart",
       "notes": "",
-      "sortOrder": 283,
+      "sortOrder": 285,
       "aliases": "Progressive Silkheart"
     },
     {
@@ -3515,7 +3693,7 @@
       "category": "ToolPouch",
       "outputValue": "progressive-tool-pouch",
       "notes": "",
-      "sortOrder": 284,
+      "sortOrder": 286,
       "aliases": "Progressive Tool Pouch"
     },
     {
@@ -3524,7 +3702,7 @@
       "category": "PollipHeart",
       "outputValue": "pollip-heart",
       "notes": "",
-      "sortOrder": 285,
+      "sortOrder": 287,
       "aliases": "Pollip Heart"
     },
     {
@@ -3533,7 +3711,7 @@
       "category": "Resource",
       "outputValue": "growstone",
       "notes": "",
-      "sortOrder": 286,
+      "sortOrder": 288,
       "aliases": "Growstone"
     },
     {
@@ -3542,7 +3720,7 @@
       "category": "Resource",
       "outputValue": "rosaries-30",
       "notes": "",
-      "sortOrder": 287,
+      "sortOrder": 289,
       "aliases": "Rosaries 30"
     },
     {
@@ -3551,7 +3729,7 @@
       "category": "Resource",
       "outputValue": "rosaries-70",
       "notes": "",
-      "sortOrder": 288,
+      "sortOrder": 290,
       "aliases": "Rosaries 70"
     },
     {
@@ -3560,7 +3738,7 @@
       "category": "Resource",
       "outputValue": "rosaries-75",
       "notes": "",
-      "sortOrder": 289,
+      "sortOrder": 291,
       "aliases": "Rosaries 75"
     },
     {
@@ -3569,7 +3747,7 @@
       "category": "Resource",
       "outputValue": "rosaries-84",
       "notes": "",
-      "sortOrder": 290,
+      "sortOrder": 292,
       "aliases": "Rosaries 84"
     },
     {
@@ -3578,7 +3756,7 @@
       "category": "Resource",
       "outputValue": "rosaries-90",
       "notes": "",
-      "sortOrder": 291,
+      "sortOrder": 293,
       "aliases": "Rosaries 90"
     },
     {
@@ -3587,7 +3765,7 @@
       "category": "Resource",
       "outputValue": "rosaries-105",
       "notes": "",
-      "sortOrder": 292,
+      "sortOrder": 294,
       "aliases": "Rosaries 105"
     },
     {
@@ -3596,7 +3774,7 @@
       "category": "Resource",
       "outputValue": "rosaries-112",
       "notes": "",
-      "sortOrder": 293,
+      "sortOrder": 295,
       "aliases": "Rosaries 112"
     },
     {
@@ -3605,7 +3783,7 @@
       "category": "Resource",
       "outputValue": "rosaries-115",
       "notes": "",
-      "sortOrder": 294,
+      "sortOrder": 296,
       "aliases": "Rosaries 115"
     },
     {
@@ -3614,7 +3792,7 @@
       "category": "Resource",
       "outputValue": "rosaries-130",
       "notes": "",
-      "sortOrder": 295,
+      "sortOrder": 297,
       "aliases": "Rosaries 130"
     },
     {
@@ -3623,7 +3801,7 @@
       "category": "Resource",
       "outputValue": "rosaries-155",
       "notes": "",
-      "sortOrder": 296,
+      "sortOrder": 298,
       "aliases": "Rosaries 155"
     },
     {
@@ -3632,7 +3810,7 @@
       "category": "Resource",
       "outputValue": "shell-shards-35",
       "notes": "",
-      "sortOrder": 297,
+      "sortOrder": 299,
       "aliases": "Shell Shards 35"
     },
     {
@@ -3641,7 +3819,7 @@
       "category": "BellShrine",
       "outputValue": "bell-the-marrow",
       "notes": "",
-      "sortOrder": 298,
+      "sortOrder": 300,
       "aliases": "Bell The Marrow"
     },
     {
@@ -3650,7 +3828,7 @@
       "category": "BellShrine",
       "outputValue": "bell-deep-docks",
       "notes": "",
-      "sortOrder": 299,
+      "sortOrder": 301,
       "aliases": "Bell Deep Docks"
     },
     {
@@ -3659,7 +3837,7 @@
       "category": "BellShrine",
       "outputValue": "bell-greymoor",
       "notes": "",
-      "sortOrder": 300,
+      "sortOrder": 302,
       "aliases": "Bell Greymoor"
     },
     {
@@ -3668,7 +3846,7 @@
       "category": "BellShrine",
       "outputValue": "bell-shellwood",
       "notes": "",
-      "sortOrder": 301,
+      "sortOrder": 303,
       "aliases": "Bell Shellwood"
     },
     {
@@ -3677,8 +3855,17 @@
       "category": "BellShrine",
       "outputValue": "bell-bellhart",
       "notes": "",
-      "sortOrder": 302,
+      "sortOrder": 304,
       "aliases": "Bell Bellhart"
+    },
+    {
+      "id": "a886ffe5-2ccf-4126-8087-2db450127b03",
+      "name": "Bell: Songclave",
+      "category": "BellShrine",
+      "outputValue": "bell-songclave",
+      "notes": "",
+      "sortOrder": 305,
+      "aliases": "Bell Songclave"
     },
     {
       "id": "f39c1eb8-de9f-4be2-a8bf-c421e4f151d0",
@@ -3686,7 +3873,7 @@
       "category": "Memento",
       "outputValue": "memento-surface",
       "notes": "",
-      "sortOrder": 303,
+      "sortOrder": 306,
       "aliases": "surface memento"
     },
     {
@@ -3695,7 +3882,7 @@
       "category": "Memento",
       "outputValue": "memento-craw",
       "notes": "",
-      "sortOrder": 304,
+      "sortOrder": 307,
       "aliases": "craw memento"
     },
     {
@@ -3704,7 +3891,7 @@
       "category": "Memento",
       "outputValue": "memento-grey",
       "notes": "",
-      "sortOrder": 305,
+      "sortOrder": 308,
       "aliases": "grey memento"
     },
     {
@@ -3713,7 +3900,7 @@
       "category": "Memento",
       "outputValue": "memento-heros",
       "notes": "",
-      "sortOrder": 306,
+      "sortOrder": 309,
       "aliases": "heros memento"
     },
     {
@@ -3722,7 +3909,7 @@
       "category": "Memento",
       "outputValue": "memento-sprintmaster",
       "notes": "",
-      "sortOrder": 307,
+      "sortOrder": 310,
       "aliases": "sprintmaster memento"
     },
     {
@@ -3731,7 +3918,7 @@
       "category": "Memento",
       "outputValue": "memento-hunters",
       "notes": "",
-      "sortOrder": 308,
+      "sortOrder": 311,
       "aliases": "hunters memento"
     },
     {
@@ -3740,7 +3927,7 @@
       "category": "Memento",
       "outputValue": "memento-guardians",
       "notes": "",
-      "sortOrder": 309,
+      "sortOrder": 312,
       "aliases": "guardians memento"
     },
     {
@@ -3749,7 +3936,7 @@
       "category": "Memento",
       "outputValue": "memento-encrusted-heart",
       "notes": "The memento version of the Encrusted Heart.",
-      "sortOrder": 310,
+      "sortOrder": 313,
       "aliases": "encrusted heart memento"
     },
     {
@@ -3758,7 +3945,7 @@
       "category": "Memento",
       "outputValue": "memento-pollen-heart",
       "notes": "The memento version of the Pollen Heart.",
-      "sortOrder": 311,
+      "sortOrder": 314,
       "aliases": "pollen heart memento"
     },
     {
@@ -3767,7 +3954,7 @@
       "category": "Memento",
       "outputValue": "memento-hunters-heart",
       "notes": "The memento version of the Hunter\u0027s Heart.",
-      "sortOrder": 312,
+      "sortOrder": 315,
       "aliases": "hunters heart memento"
     },
     {
@@ -3776,7 +3963,7 @@
       "category": "Memento",
       "outputValue": "memento-conjoined-heart",
       "notes": "The memento version of the Conjoined Heart.",
-      "sortOrder": 313,
+      "sortOrder": 316,
       "aliases": "conjoined heart memento"
     },
     {
@@ -3785,7 +3972,7 @@
       "category": "Heart",
       "outputValue": "memory-encrusted-heart",
       "notes": "The key item acquired from the memory fight.",
-      "sortOrder": 314,
+      "sortOrder": 317,
       "aliases": "encrusted heart"
     },
     {
@@ -3794,7 +3981,7 @@
       "category": "Heart",
       "outputValue": "memory-pollen-heart",
       "notes": "The key item acquired from the memory fight.",
-      "sortOrder": 315,
+      "sortOrder": 318,
       "aliases": "pollen heart"
     },
     {
@@ -3803,7 +3990,7 @@
       "category": "Heart",
       "outputValue": "memory-hunters-heart",
       "notes": "The key item acquired from the memory fight.",
-      "sortOrder": 316,
+      "sortOrder": 319,
       "aliases": "hunters heart"
     },
     {
@@ -3812,7 +3999,7 @@
       "category": "Heart",
       "outputValue": "memory-conjoined-heart",
       "notes": "The key item acquired from the memory fight.",
-      "sortOrder": 317,
+      "sortOrder": 320,
       "aliases": "conjoined heart"
     },
     {
@@ -3821,7 +4008,7 @@
       "category": "MajorKey",
       "outputValue": "twisted-bud",
       "notes": "",
-      "sortOrder": 318,
+      "sortOrder": 321,
       "aliases": "twisted bud"
     },
     {
@@ -3830,7 +4017,7 @@
       "category": "MajorKey",
       "outputValue": "bellhome-key",
       "notes": "",
-      "sortOrder": 319,
+      "sortOrder": 322,
       "aliases": "bellhome key"
     },
     {
@@ -3839,8 +4026,17 @@
       "category": "MajorKey",
       "outputValue": "diving-bell-key",
       "notes": "",
-      "sortOrder": 320,
+      "sortOrder": 323,
       "aliases": "Diving Bell Key"
+    },
+    {
+      "id": "073f3368-57a8-480c-a3e2-af9d6d825146",
+      "name": "Steel Spines",
+      "category": "MajorKey",
+      "outputValue": "steel-spines",
+      "notes": "Used in the wish Infestation Operation. ",
+      "sortOrder": 324,
+      "aliases": "steel spines"
     }
   ]
 }

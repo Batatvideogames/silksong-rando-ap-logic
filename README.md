@@ -178,7 +178,7 @@ Generated from the non-archived records in `input/silksong-rando-logic.db`.
 - [Shellwood Connection To Blasted steps (Shellwood_08)](./shellwood/shellwood-connection-to-blasted-steps.md)
 - [Shellwood Diddy Basement Main (Shellwood_25)](./shellwood/shellwood-diddy-basement-main.md)
 - [Shellwood Flower Pogo Upper Hall (Shellwood_20)](./shellwood/shellwood-flower-pogo-upper-hall.md)
-- [Shellwood Greyroot entrance (Shellwood_Witch)](./shellwood/shellwood-greyroot-entrance.md)
+- [Shellwood Greyroot Entrance (Shellwood_Witch)](./shellwood/shellwood-greyroot-entrance.md)
 - [Shellwood Hidden Bellhart Connection (Shellwood_15)](./shellwood/shellwood-hidden-bellhart-connection.md)
 - [Shellwood Left side Long pond room (Shellwood_04b)](./shellwood/shellwood-left-side-long-pond-room.md)
 - [Shellwood Lower Left Tall Room (Shellwood_03)](./shellwood/shellwood-lower-left-tall-room.md)
@@ -212,14 +212,15 @@ Generated from the non-archived records in `input/silksong-rando-logic.db`.
 - [Greymoor Craw Lake (Greymoor_15b)](./greymoor/greymoor-craw-lake.md)
 - [Greymoor Crow Court (Room_CrowCourt_02)](./greymoor/greymoor-crow-court.md)
 - [Greymoor Crow Nest (Room_CrowCourt)](./greymoor/greymoor-crow-nest.md)
+- [Greymoor East Bellshrine Room (Greymoor_02)](./greymoor/greymoor-east-bellshrine-room.md)
+- [Greymoor Eastern Tower (Greymoor_04)](./greymoor/greymoor-eastern-tower.md)
 - [Greymoor Weaver Shrine (Greymoor_22)](./greymoor/greymoor-weaver-shrine.md)
+- [Greymoor Western Tower (Greymoor_06)](./greymoor/greymoor-western-tower.md)
 - [Greymoor Bellway (Bellway_04)](./greymoor/greymoor-bellway.md)
 - [Greymoor Bone Scroll Room (Greymoor_21)](./greymoor/greymoor-bone-scroll-room.md)
 - [Greymoor Chapel of The Reaper (Greymoor_20c)](./greymoor/greymoor-chapel-of-the-reaper.md)
 - [Greymoor Chapel of The Reaper Entrance (Greymoor_20b)](./greymoor/greymoor-chapel-of-the-reaper-entrance.md)
 - [Greymoor Craw Lake Entrance (Greymoor_15)](./greymoor/greymoor-craw-lake-entrance.md)
-- [Greymoor East Bellshrine Room (Greymoor_02)](./greymoor/greymoor-east-bellshrine-room.md)
-- [Greymoor Eastern Tower (Greymoor_04)](./greymoor/greymoor-eastern-tower.md)
 - [Greymoor Entry to Bellhart (Greymoor_08)](./greymoor/greymoor-entry-to-bellhart.md)
 - [Greymoor Halfway Home (Halfway_01)](./greymoor/greymoor-halfway-home.md)
 - [Greymoor Halfway Home Exterior (Greymoor_03)](./greymoor/greymoor-halfway-home-exterior.md)
@@ -233,7 +234,6 @@ Generated from the non-archived records in `input/silksong-rando-logic.db`.
 - [Greymoor Upper Towers Path (Greymoor_11)](./greymoor/greymoor-upper-towers-path.md)
 - [Greymoor West Bellshrine Room  (Greymoor_01)](./greymoor/greymoor-west-bellshrine-room.md)
 - [Greymoor Western Room (Greymoor_07)](./greymoor/greymoor-western-room.md)
-- [Greymoor Western Tower (Greymoor_06)](./greymoor/greymoor-western-tower.md)
 - [Pimpillo Room (Wisp_06)](./greymoor/pimpillo-room.md)
 - [Yarnaby Place (Wisp_03)](./greymoor/yarnaby-place.md)
 - [Greymoor Yarnaby Room (Belltown_Room_doctor)](./greymoor/greymoor-yarnaby-room.md)
@@ -337,8 +337,8 @@ No rooms defined.
 
 ## Choral Chambers
 
-- [Bellshrine_Enclave (Bellshrine_Enclave)](./choral-chambers/bellshrine-enclave.md)
 - [High Halls Entrance (Hang_01)](./choral-chambers/high-halls-entrance.md)
+- [Songclave Bellshrine (Bellshrine_Enclave)](./choral-chambers/songclave-bellshrine.md)
 - [Songclave (Song_Enclave)](./choral-chambers/songclave.md)
 - [Choral Chambers Spa (Song_10)](./choral-chambers/choral-chambers-spa.md)
 - [Choral Chambers Outside Spa (Song_04)](./choral-chambers/choral-chambers-outside-spa.md)
@@ -431,6 +431,7 @@ No rooms defined.
 - [High Halls Ventrica (Hang_06b)](./high-halls/high-halls-ventrica.md)
 - [High Halls Conductor (Hang_12)](./high-halls/high-halls-conductor.md)
 - [High Halls Arena (Hang_04)](./high-halls/high-halls-arena.md)
+- [High Halls Not Implemented Room (Cog_11)](./high-halls/high-halls-not-implemented-room.md)
 
 ## Bilewater
 
@@ -463,7 +464,7 @@ No rooms defined.
 - [Bilewater Weavenest Murglin (Shadow_Weavehome)](./bilewater/bilewater-weavenest-murglin.md)
 - [Bilewater West Hall (Shadow_04b)](./bilewater/bilewater-west-hall.md)
 - [Bilewater West Secret Rooms (Shadow_20)](./bilewater/bilewater-west-secret-rooms.md)
-- [Exhaust Organ External (Dust_09)](./bilewater/exhaust-organ-external.md)
+- [Exhaust Organ Exterior (Dust_09)](./bilewater/exhaust-organ-exterior.md)
 - [Exhaust Organ Interior (Organ_01)](./bilewater/exhaust-organ-interior.md)
 
 ## Memorium
@@ -601,3 +602,10 @@ No rooms defined.
 
 - [Bellway Menu](./fast-travel/bellway-menu.md)
 - [Ventrica Menu](./fast-travel/ventrica-menu.md)
+
+## Wish Menus
+
+- [Bone Bottom Wish Wall](./wish-menus/bone-bottom-wish-wall.md)
+- [Bellhart Wish Wall](./wish-menus/bellhart-wish-wall.md)
+- [Bellhart Deliveries](./wish-menus/bellhart-deliveries.md)
+- [Songclave Wish Wall](./wish-menus/songclave-wish-wall.md)

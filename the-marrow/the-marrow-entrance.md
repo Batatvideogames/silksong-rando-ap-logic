@@ -51,7 +51,7 @@
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | the marrow shell shard cache 1 | above gauntlet | none |  | Verified | collectible |  |
-| volatile flintbeetle 1 | above gauntlet | none |  | Verified | miniboss | stable position |
+| volatile flintbeetle 1 | above gauntlet | complete THE volatile flintbeetles wish promised |  | Verified | miniboss | stable position |
 | gauntlet fight | gauntlet arena | none |  | Verified | gauntlet |  |
 | sherma door switch | passage right | flip switch up |  | Verified | switch |  |
 | the marrow rosary cache 1 | passage right | none |  | Verified | collectible |  |

@@ -13,22 +13,22 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| C | ceiling | right half | [Sinner's Road Chef's Kitchen (Dust_Chef)](sinner-s-road-chef-s-kitchen.md) | H | (faydown cloak AND cling grip) OR silk soar |  |  |  |
-| LR | lower right | right half | [Sinner's Road Spike Basement (Dust_Barb)](sinner-s-road-spike-basement.md) | C | none |  |  |  |
-| L | left | left half | [Sinner's Road Vertical Hall West (Dust_02)](sinner-s-road-vertical-hall-west.md) | LR | none |  |  |  |
+| C | ceiling | right half | [Sinner's Road Chef's Kitchen (Dust_Chef)](sinner-s-road-chef-s-kitchen.md) | H | (faydown cloak AND cling grip) OR silk soar |  | Verified |  |
+| LR | lower right | right half | [Sinner's Road Spike Basement (Dust_Barb)](sinner-s-road-spike-basement.md) | C | none |  | Verified |  |
+| L | left | left half | [Sinner's Road Vertical Hall West (Dust_02)](sinner-s-road-vertical-hall-west.md) | LR | none |  | Verified |  |
 
 ## Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| LR | left to right | left half | right half | none |  |  |  |
-| LR | left to right | right half | left half | Cling grip OR ledge grab OR silk soar OR dash OR crest pogo OR faydown cloak |  |  |  |
+| LR | left to right | left half | right half | none |  | Verified |  |
+| LR | left to right | right half | left half | Cling grip OR ledge grab OR silk soar OR dash OR enemy pogo OR faydown cloak |  | Verified |  |
 
 ## Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Shell Shard Cache: Sinner’s Road #1 | left half | Silk soar OR ledge grab OR cling grip OR faydown cloak | TODO |  | collectible | Check subroom |
-| Shell Shard Cache: Sinner’s Road #2 | left half | Silk soar OR ledge grab OR cling grip OR faydown cloak | TODO |  | collectible |  |
-| Shell Shard Cache: Sinner’s Road #3 | left half | Silk soar OR ledge grab OR cling grip OR faydown cloak | TODO |  | collectible |  |
-| Rosary Cache: Sinner’s Road #4 | left half | Ledge grab OR silk soar OR faydown cloak OR scuttlebrace | TODO |  | collectible |  |
+| Shell Shard Cache: Sinner’s Road #1 | left half | Silk soar OR ledge grab OR cling grip OR faydown cloak |  | Verified | collectible | Check subroom |
+| Shell Shard Cache: Sinner’s Road #2 | left half | Silk soar OR ledge grab OR cling grip OR faydown cloak |  | Verified | collectible |  |
+| Shell Shard Cache: Sinner’s Road #3 | left half | Silk soar OR ledge grab OR cling grip OR faydown cloak |  | Verified | collectible |  |
+| Rosary Cache: Sinner’s Road #4 | left half | Ledge grab OR silk soar OR faydown cloak OR scuttlebrace |  | Verified | collectible |  |

@@ -28,7 +28,6 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | Thief's Mark | Upper Half | Nothing |  | Verified | collectible |  |
 | Snitch Pick | Upper Half | Clawline |  | Verified | collectible |  |
-| Reserve Bind | Upper Half | Nothing |  | Verified | collectible |  |
 | Relic: Psalm Cylinder (Grindle) | Upper Half | Nothing |  | Verified | collectible |  |
 | Crafting Kit: Grindle | Upper Half | Nothing |  | Verified | collectible |  |
 | Spool Fragment: Grindle (Blasted Steps) | Upper Half | Nothing |  | Verified | collectible |  |

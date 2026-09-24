@@ -20,8 +20,11 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| UL | upper to lower | upper | lower | swim |  |  | Going back up to upper is impossible. One way connection. |
+| UL | upper to lower | upper | lower | swim |  | Verified |  |
+| UL | upper to lower | lower | upper | invalid |  | Verified | Going back up to upper is impossible. One way connection. |
 
 ## Check Locations
 
-No check locations defined.
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Bilewater Bullshit Bench Exit Wall | lower | break wall right |  | Verified | blockade |  |

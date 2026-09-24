@@ -12,8 +12,8 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| D | door |  | [Bellway Menu](../fast-travel/bellway-menu.md) | BW | unlock bellway bilewater |  |  |  |
-| L | left |  | [Bilewater Organ Entrance (Shadow_04)](bilewater-organ-entrance.md) | LR | none |  |  |  |
+| D | door |  | [Bellway Menu](../fast-travel/bellway-menu.md) | BW | none |  | Verified |  |
+| L | left |  | [Bilewater Organ Entrance (Shadow_04)](bilewater-organ-entrance.md) | LR | none |  | Verified |  |
 
 ## Subroom Connections
 
@@ -23,5 +23,5 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Bellway: Bilewater |  | Unlock Bellway Rosary Lock |  |  | travel |  |
-| Bellway Rosary Lock |  | rosaries 80 |  |  | lock |  |
+| Bilewater - Bellway |  | rosaries 60 |  | Verified | travel |  |
+| Bilewater Bellway Bench |  | none |  | Verified | bench |  |

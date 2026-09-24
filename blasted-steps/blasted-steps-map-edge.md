@@ -28,7 +28,7 @@
 | TR6 | Top Right (6) | Lace Bridge | [Blasted Steps Wide Long Vertical (Coral_03)](blasted-steps-wide-long-vertical.md) | B6 | Silk Soar |  | Verified |  |
 | TR7 | Top Right (7) | Lace Bridge | [Blasted Steps Wide Long Vertical (Coral_03)](blasted-steps-wide-long-vertical.md) | B7 | Silk Soar |  | Verified |  |
 | TR8 | Top Right (8) | Lace Bridge | [Blasted Steps Wide Long Vertical (Coral_03)](blasted-steps-wide-long-vertical.md) | B8 | Silk Soar |  | Verified |  |
-| TM | Top Middle | Before Map Edge | [Blasted Steps Toll Bench Bottom (Coral_02)](blasted-steps-toll-bench-bottom.md) | BR | (Cling Grip AND (Spike Pogo OR Progressive Swift Step 1 OR Faydown OR Spike Pogo OR Drifter's Cloak OR Flea Brew OR Easy Proficient Movement OR Sharpdart OR Clawline OR Easy Needle Strike Stall OR Easy Heal Stall)) OR Scuttlebrace |  | Verified |  |
+| TM | Top Middle | Before Map Edge | [Blasted Steps Toll Bench Bottom (Coral_02)](blasted-steps-toll-bench-bottom.md) | BR | (Cling Grip AND (Spike Pogo OR Progressive Swift Step 1 OR Faydown OR Spike Pogo OR Drifter's Cloak OR Flea Brew OR Proficient Movement OR Sharpdart OR Clawline OR Easy Needle Strike Stall OR Easy Heal Stall)) OR Scuttlebrace |  | Verified |  |
 | TL | Top Left | Map Edge | [Blasted Steps Mask Shard (Coral_19b)](blasted-steps-mask-shard.md) | B | Silk Soar OR (Progressive Swift Step 1 AND Faydown AND Clawline AND Ledge Grab AND (Cling Grip OR Scuttlebrace)) |  | Verified |  |
 
 ## Subroom Connections

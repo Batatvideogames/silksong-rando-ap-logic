@@ -46,4 +46,4 @@
 | Greymoor - Rosary Cache #8 | left middle section | nothing |  | Verified | resource |  |
 | Greymoor - Rosary Cache #9 | upper area | nothing |  | Verified | resource |  |
 | Greymor - Shard Bundle #1 | upper area | faydown cloak OR progressive swift step 1 OR easy enemy pogo OR silk soar OR sharpdart OR clawline |  | Verified | resource |  |
-| Boos: MoorWing | lower section | Act 2 AND complete Wish: The Lost Fleas IN the marrow flea caravan |  | Verified | boss | maybe just change the wqish to moorwing spkipped ion the other room |
+| Boos: MoorWing | lower section | Act 2 AND complete THE the lost fleas wish granted |  | Verified | boss | maybe just change the wqish to moorwing spkipped ion the other room |

@@ -1,8 +1,6 @@
-# Shellwood Greyroot Entrance (Shellwood_Witch)
+# Songclave Wish Wall
 
-**Game ID:** Shellwood_Witch
-
-**Contributors:** Pyxl
+**Contributors:** herounit
 
 ## Subrooms
 
@@ -12,8 +10,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| D | door1 |  | [Greyroot (Room_Witch)](greyroot.md) | L | None |  | Verified |  |
-| R | right1 |  | [Shellwood Big Room Left (Shellwood_02)](shellwood-big-room-left.md) | UL | None |  | Verified |  |
+| SC | songclave |  | [Songclave (Song_Enclave)](../choral-chambers/songclave.md) | WW | invalid |  | Verified |  |
 
 ## Subroom Connections
 

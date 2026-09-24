@@ -13,17 +13,17 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| C | ceiling | upper | [Sinner's Road Muckroach Cages (Dust_03)](sinner-s-road-muckroach-cages.md) | LR | none |  |  |  |
+| C | ceiling | upper | [Sinner's Road Muckroach Cages (Dust_03)](sinner-s-road-muckroach-cages.md) | LR | none |  | Verified |  |
 
 ## Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| UL | Upper to lower | upper | lower | none |  |  |  |
-| UL | Upper to lower | lower | upper | Silk soar OR cling grip |  |  |  |
+| UL | Upper to lower | upper | lower | none |  | Verified |  |
+| UL | Upper to lower | lower | upper | Silk soar OR cling grip |  | Verified |  |
 
 ## Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Barbed Bracelet | lower | none |  |  | collectible |  |
+| Barbed Bracelet | lower | none |  | Verified | collectible |  |

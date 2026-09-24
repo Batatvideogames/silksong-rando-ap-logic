@@ -49,8 +49,8 @@
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| frayed rosary string moss grotto | rock bottom | none |  | Verified | collectible |  |
-| shell shard cache moss grotto 1 | lower crossing | none |  | Verified | collectible |  |
+| frayed rosary string moss grotto | dead ledge | none |  | Verified | collectible |  |
+| shell shard cache moss grotto 1 | rock bottom | none |  | Verified | collectible |  |
 | moss grotto beast shard | beast alcove | none |  | Verified | collectible |  |
 | moss grotto rosary chest | side room | none |  | Verified | collectible |  |
 

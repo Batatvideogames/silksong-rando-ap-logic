@@ -15,7 +15,7 @@
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | R | right1 | Right Puddle | [Shellwood Lower Left Tall Room (Shellwood_03)](shellwood-lower-left-tall-room.md) | UL | None |  | Verified |  |
-| L | left1 | Left Puddle | [Shellwood Bellshrine (Bellshrine_03)](shellwood-bellshrine.md) | R | Have Bell: Shellwood AND Activate Shellwood Shrine IN Shellwood Bellshrine |  | Verified | Might also need switch from other side, needs testing |
+| L | left1 | Left Puddle | [Shellwood Bellshrine (Bellshrine_03)](shellwood-bellshrine.md) | R | ( bellshrinesanity off AND activate bellshrine switch IN shellwood bellshrine )  OR ( bellshrinesanity on AND have bell shellwood ) |  | Verified | Might also need switch from other side, needs testing |
 | BB | door_fastTravelExit | Right Puddle | [Bellway Menu](../fast-travel/bellway-menu.md) | SW | Unlock Shellwood Bellway |  | Verified |  |
 
 ## Subroom Connections

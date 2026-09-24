@@ -13,18 +13,18 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| UR | upper right | upper | [Bilewater Upper Bloatroach Tower (Shadow_01)](bilewater-upper-bloatroach-tower.md) | LL | none |  |  |  |
-| LR | lower right | lower | [Bilewater Lower Bloatroach Tower (Shadow_02)](bilewater-lower-bloatroach-tower.md) | UL | none |  |  |  |
+| UR | upper right | upper | [Bilewater Upper Bloatroach Tower (Shadow_01)](bilewater-upper-bloatroach-tower.md) | LL | none |  | Verified |  |
+| LR | lower right | lower | [Bilewater Lower Bloatroach Tower (Shadow_02)](bilewater-lower-bloatroach-tower.md) | UL | none |  | Verified |  |
 
 ## Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| LM | low to up | lower | upper | cling_grip AND (Faydown cloak OR crest_pogo) AND (clawline OR sharpdart) |  |  | crest_pogo should be an easy or medium skip since it requires a one-hit death enemy that you need to let float up before pogoing |
-| LM | low to up | upper | lower | Cling grip AND (Drifter’s cloak OR faydown cloak OR clawline OR sharpdart OR dash) |  |  | Clawline, sharpdart, dash are pretty annoying to hit without a cloak, so easy/medium skips |
+| LM | low to up | lower | upper | cling grip AND (Faydown cloak OR enemy pogo) AND (clawline OR sharpdart) |  | Verified | crest_pogo should be an easy or medium skip since it requires a one-hit death enemy that you need to let float up before pogoing |
+| LM | low to up | upper | lower | Cling grip AND (Drifter’s cloak OR faydown cloak OR clawline OR sharpdart OR dash) |  | Verified | Clawline, sharpdart, dash are pretty annoying to hit without a cloak, so easy/medium skips |
 
 ## Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Bilewater - Rosary Cache #3 | upper | Cling grip AND (faydown cloak OR crest pogo) |  |  |  |  |
+| Bilewater - Rosary Cache #3 | upper | Cling grip AND (faydown cloak OR enemy pogo) |  | Verified | resource |  |

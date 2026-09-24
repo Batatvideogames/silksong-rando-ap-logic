@@ -21,7 +21,7 @@
 | LR | lower right | door platform | [Bone Bottom Town (Bonetown)](bone-bottom-town.md) | LL | none |  | Verified |  |
 | C | ceiling | upper left exit | [Wormways Lower East (Crawl_07)](../wormways/wormways-lower-east.md) | F | silk soar OR cling grip OR faydown cloak OR scuttlebrace |  | Verified |  |
 | CD | chapel door | graveyard | [Chapel of the Wanderer (Chapel_Wanderer)](chapel-of-the-wanderer.md) | CD | none |  | Verified | "wanderer's door override" is meant to cover any situation that would require the door to stay open, such as rosary cache rando |
-| LL | lower left | graveyard | [Bonegrave Passage (Bone_Steel_Servant)](bonegrave-passage.md) | R | steel soul AND act 3 | TODO |  | need to check act 3 |
+| LL | lower left | graveyard | [Bonegrave Passage (Bone_Steel_Servant)](bonegrave-passage.md) | R | complete THE a vassal lost wish promised AND visit resting sites 3 |  | Verified |  |
 
 ## Subroom Connections
 

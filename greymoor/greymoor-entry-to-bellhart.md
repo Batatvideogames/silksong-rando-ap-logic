@@ -38,7 +38,7 @@
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | Greymoor - Rosary Cache #14 | Top Right Section | nothing |  | Verified | resource |  |
-| Flea Brew | Bottom Left Section | complete Wish: The Lost Fleas IN the marrow flea caravan |  | Verified | collectible |  |
+| Flea Brew | Bottom Left Section | complete THE The Lost Fleas Wish Granted |  | Verified | collectible |  |
 | Flea Caravan - Spool fragment | Bottom Left Section | fleas 14 |  | Verified | collectible |  |
-| Boss: Moorwing | Bottom Left Section | unfinished Wish: The Lost Fleas IN the marrow flea caravan | TODO | Verified | boss | no idea how to place that the quest must be unfinished |
+| Boss: Moorwing | Bottom Left Section | unfinished Wish: The Lost Fleas IN the marrow flea caravan | TODO | Verified | boss | no idea how to place that the quest must be unfinished - isssma currently a non-monotonic logic problem here - hero |
 | tied airstream | Top Section | break switch left OR break switch up OR break switch right |  | Verified | blockade |  |

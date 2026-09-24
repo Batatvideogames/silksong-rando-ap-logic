@@ -31,8 +31,8 @@
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Memorium - Map Purchase | Main Area | rosaries 70 |  | Verified | collectible | swapped the subroom - as it appeared to be incorrect - hero |
-| Memorium - Shard Bundle | Entrance | none |  | Verified | collectible | swapped the subroom - as it appeared to be incorrect - hero |
+| Memorium - Shard Bundle | Main Area | rosaries 70 |  | Verified | collectible | swapped the subroom - as it appeared to be incorrect - hero |
+| Memorium - Map Purchase | Entrance | none |  | Verified | collectible | swapped the subroom - as it appeared to be incorrect - hero |
 | Wish: The Lost Merchant | Main Area |  | TODO |  | event | need to mark the requirments of like starting the wish |
 
 ## Notes

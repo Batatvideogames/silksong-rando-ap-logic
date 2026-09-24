@@ -26,8 +26,8 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| RJ | running jump | upper right level | upper left exit | run  OR ( dash AND ( ledge grab OR cling grip ) ) OR faydown  OR silk soar  OR clawline  OR sharpdart  OR easy beast pogo  OR easy enemy pogo | TODO | Needs verification | double check if this is right - should be center platform be part of upper right level or ground floor? |
-| RJ | running jump | upper left exit | upper right level | none (falling) | TODO | Verified |  |
+| RJ | running jump | upper right level | upper left exit | run  OR ( dash AND ( ledge grab OR cling grip ) ) OR faydown  OR silk soar  OR clawline  OR sharpdart  OR easy beast pogo  OR easy enemy pogo |  | Verified |  |
+| RJ | running jump | upper left exit | upper right level | none (falling) |  | Verified |  |
 | LG1 | ledge grab 1 | ground floor | rosary alcove | ledge grab  OR faydown cloak OR silk soar OR cling grip OR scuttlebrace OR easy shaman pogo |  | Verified |  |
 | LG1 | ledge grab 1 | rosary alcove | ground floor | none (falling) |  | Verified |  |
 | LG2 | ledge grab 2 | ground floor | upper right level | ledge grab  OR faydown cloak OR silk soar OR cling grip |  | Verified |  |

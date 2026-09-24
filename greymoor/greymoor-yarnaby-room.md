@@ -22,5 +22,6 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Crest: Witch |  | complete Wish: Infestation Operation |  | Verified | collectible |  |
-| Wish: Infestation Operation |  | have cursed crest trap | TODO |  | event | verify if the trap triggers the quest still i think this was solved tho |
+| Infestation Operation Wish Promised |  | complete THE rite of rebirth wish granted AND have crest cursed |  | Verified | event |  |
+| Infestation Operation Wish Granted |  | complete Infestation Operation Wish Promised AND have Steel Spines |  | Verified | event |  |
+| Crest: Witch |  | complete Infestation Operation Wish Granted |  | Verified | collectible |  |

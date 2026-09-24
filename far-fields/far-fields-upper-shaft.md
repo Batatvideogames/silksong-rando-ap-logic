@@ -45,3 +45,4 @@
 | lower gate lever | the bottom | flip switch down |  | Verified | switch |  |
 | middle gate lever | above middle gate | flip switch down |  | Verified | switch |  |
 | hunter's march bridge lever | left march bridge room | flip switch down |  | Verified | switch |  |
+| greymoor floor blockade | top wind tunnel | none (opens once traveled through) |  | Verified | blockade |  |

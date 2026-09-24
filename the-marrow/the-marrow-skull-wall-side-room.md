@@ -13,19 +13,19 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left | lower level | [The Marrow Skull Wall (Bone_06)](the-marrow-skull-wall.md) | R | none |  |  |  |
+| L | left | lower level | [The Marrow Skull Wall (Bone_06)](the-marrow-skull-wall.md) | R | none |  | Verified |  |
 
 ## Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| CG | climb | lower level | upper level | cling grip or silk soar |  |  |  |
-| CG | climb | upper level | lower level | cling grip or silk soar |  |  |  |
+| CG | climb | lower level | upper level | cling grip  OR silk soar OR scuttlebrace |  | Verified |  |
+| CG | climb | upper level | lower level | none (falling) |  | Verified |  |
 
 ## Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| lore tablet | lower level |  |  |  |  | NOT ACTUALLY A CHECK |
-| memory locket the marrow | upper level |  | TODO |  |  | on the tracker but appears to be inaccessible |
-| gauntlet fight | upper level |  | TODO |  |  | not on the tracker / what are the trigger conditions? |
+| the marrow pilgrim diary | lower level | none |  | Verified | lore |  |
+| gauntlet fight | upper level | have cling grip |  | Verified | gauntlet |  |
+| the marrow memory locket | upper level | defeat gauntlet fight |  | Verified | collectible |  |

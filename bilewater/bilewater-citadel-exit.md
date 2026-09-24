@@ -2,24 +2,28 @@
 
 **Game ID:** Shadow_22
 
-**Contributors:** herchey
+**Contributors:** herchey all by himself this time like a big, strong man
 
 ## Subrooms
 
-No subrooms defined.
+- pond
+- platform
 
 ## Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| T1 | top1 |  | [Whispering Vaults Totally Not White Palace (Library_07)](../whispering-vaults/whispering-vaults-totally-not-white-palace.md) | B1 |  | TODO |  |  |
-| T2 | top2 |  | [Whispering Vaults Totally Not White Palace (Library_07)](../whispering-vaults/whispering-vaults-totally-not-white-palace.md) | B2 |  | TODO |  |  |
-| T3 | top3 |  | [Whispering Vaults Totally Not White Palace (Library_07)](../whispering-vaults/whispering-vaults-totally-not-white-palace.md) | B3 |  | TODO |  |  |
-| B | bot1 |  | [Bilewater West Secret Rooms (Shadow_20)](bilewater-west-secret-rooms.md) | C |  | TODO |  |  |
+| T1 | top1 | pond | [Whispering Vaults Totally Not White Palace (Library_07)](../whispering-vaults/whispering-vaults-totally-not-white-palace.md) | B1 | invalid |  | Verified |  |
+| T2 | top2 | pond | [Whispering Vaults Totally Not White Palace (Library_07)](../whispering-vaults/whispering-vaults-totally-not-white-palace.md) | B2 | invalid |  | Verified |  |
+| T3 | top3 | pond | [Whispering Vaults Totally Not White Palace (Library_07)](../whispering-vaults/whispering-vaults-totally-not-white-palace.md) | B3 | invalid |  | Verified |  |
+| B | bot1 | platform | [Bilewater West Secret Rooms (Shadow_20)](bilewater-west-secret-rooms.md) | C | nada |  | Verified |  |
 
 ## Subroom Connections
 
-No subroom connections defined.
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| pp | pond and platform | pond | platform | swim AND ( cling grip OR ledge grab OR faydown cloak ) |  | Verified |  |
+| pp | pond and platform | platform | pond | swim |  | Verified |  |
 
 ## Check Locations
 

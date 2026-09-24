@@ -18,6 +18,7 @@
 | SL | left3 | Left Spike Exit | [High Halls Flooded Room (Hang_10)](high-halls-flooded-room.md) | R | none |  | Verified |  |
 | B | bot1 | Bottom | [High Halls Vault (Hang_06)](high-halls-vault.md) | T | none |  | Verified | One way only (opened from this side) |
 | L | left4 | Bottom | [High Halls Baby Room (Hang_16)](high-halls-baby-room.md) | R | none |  | Verified |  |
+| NI | right2 | Middle | [High Halls Not Implemented Room (Cog_11)](high-halls-not-implemented-room.md) | L | invalid |  |  | NOT IMPLEMENTED BY DEVS |
 | R | right1 | Bottom | TODO |  | opened during Final Audience Wish according to wiki | TODO |  |  |
 | ML | left2 | Middle | [High Halls Cogfly Room (Hang_09)](high-halls-cogfly-room.md) | R | none |  | Verified |  |
 | TL | left1 | Top | [High Halls Big Slide (Hang_13)](high-halls-big-slide.md) | R | none |  | Verified |  |

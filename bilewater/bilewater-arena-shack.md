@@ -10,7 +10,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left |  | [Bilewater Groal Arena (Shadow_18)](bilewater-groal-arena.md) | D |  |  |  |  |
+| L | left |  | [Bilewater Groal Arena (Shadow_18)](bilewater-groal-arena.md) | D | nada |  | Verified |  |
 
 ## Subroom Connections
 
@@ -18,4 +18,6 @@ No subroom connections defined.
 
 ## Check Locations
 
-No check locations defined.
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Seeker's Soul |  | none |  | Verified | collectible |  |

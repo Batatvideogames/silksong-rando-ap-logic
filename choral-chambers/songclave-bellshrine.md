@@ -1,4 +1,4 @@
-# Bellshrine_Enclave (Bellshrine_Enclave)
+# Songclave Bellshrine (Bellshrine_Enclave)
 
 **Game ID:** Bellshrine_Enclave
 
@@ -18,4 +18,7 @@ No subroom connections defined.
 
 ## Check Locations
 
-No check locations defined.
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| bellshrine switch |  |  | TODO |  | switch |  |
+| bench |  | activate bellshrine switch |  | Verified | bench |  |

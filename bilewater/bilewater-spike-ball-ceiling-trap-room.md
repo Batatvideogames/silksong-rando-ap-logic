@@ -13,20 +13,20 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right | upper | [Bilewater Slubberlug River (Shadow_13)](bilewater-slubberlug-river.md) | L | none |  |  |  |
-| L | left | lower | [Bilewater Upper East Column (Shadow_26)](bilewater-upper-east-column.md) | LR | none |  |  |  |
+| R | right | upper | [Bilewater Slubberlug River (Shadow_13)](bilewater-slubberlug-river.md) | L | none |  | Verified |  |
+| L | left | lower | [Bilewater Upper East Column (Shadow_26)](bilewater-upper-east-column.md) | LR | none |  | Verified |  |
 
 ## Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| ud | up and down | upper | lower | none |  |  |  |
-| ud | up and down | lower | upper | cling grip OR silk soar |  |  |  |
+| UD | up and down | upper | lower | none |  | Verified |  |
+| UD | up and down | lower | upper | cling grip OR silk soar |  | Verified |  |
 
 ## Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Bilewater - Shell Shard Cache #3 | lower | none |  |  |  |  |
-| Bilewater - Shell Shard Cache #4 | lower | none |  |  |  |  |
-| Quick Sling | upper | cling grab OR silk soar AND up attack |  |  |  | up attack for breakable wall |
+| Bilewater - Shell Shard Cache #3 | lower | none |  | Verified | collectible |  |
+| Bilewater - Shell Shard Cache #4 | lower | none |  | Verified | collectible |  |
+| Quick Sling | upper | (cling grip OR silk soar) AND attack up |  | Verified | collectible | up attack for breakable wall |

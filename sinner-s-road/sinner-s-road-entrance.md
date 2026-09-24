@@ -12,8 +12,8 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left |  | [Greymoor Halfway Home Exterior (Greymoor_03)](../greymoor/greymoor-halfway-home-exterior.md) | UR | ledge grab | TODO |  |  |
-| R | right |  | [Sinner's Road Vertical Hall West (Dust_02)](sinner-s-road-vertical-hall-west.md) | LL | ledge grab |  |  |  |
+| L | left |  | [Greymoor Halfway Home Exterior (Greymoor_03)](../greymoor/greymoor-halfway-home-exterior.md) | UR | ledge grab OR cling grip OR silk soar OR faydown cloak OR scuttlebrace |  | Verified |  |
+| R | right |  | [Sinner's Road Vertical Hall West (Dust_02)](sinner-s-road-vertical-hall-west.md) | LL | ledge grab OR cling grip OR silk soar OR faydown cloak OR scuttlebrace |  | Verified |  |
 
 ## Subroom Connections
 
@@ -23,5 +23,4 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Frayed Rosary String: Sinner's Road |  | left attack |  |  | collectible |  |
-| Lace 1 Encounter Spot |  | none |  | Verified | event | This needs to be converted into a multi-point access virtual location. |
+| Frayed Rosary String: Sinner's Road |  | break wall left |  | Verified | collectible |  |

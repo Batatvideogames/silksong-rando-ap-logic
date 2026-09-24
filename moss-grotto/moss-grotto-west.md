@@ -45,7 +45,7 @@
 | shell shard cache moss grotto 6 | the backroom cache | none |  | Verified | collectible |  |
 | shell shard cache moss grotto 7 | the backroom cache | none |  | Verified | collectible |  |
 | moss grotto west mossberry | mossberry platform | none |  | Verified | collectible |  |
-| one-way breakable wall | the backroom floor | break wall right |  | Verified | blockade |  |
+| one-way breakable wall | the backroom cache | break wall right |  | Verified | blockade |  |
 
 ## Notes
 

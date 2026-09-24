@@ -12,7 +12,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right |  | [Bilewater East Column (Shadow_09)](bilewater-east-column.md) | ML | none |  |  |  |
+| R | right |  | [Bilewater East Column (Shadow_09)](bilewater-east-column.md) | ML | none |  | Verified |  |
 
 ## Subroom Connections
 
@@ -22,4 +22,4 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Flea: Bilewater - Thieves |  | Scuttlebrace OR cling grip |  |  |  |  |
+| Flea: Bilewater - Thieves |  | Scuttlebrace OR cling grip |  | Verified | collectible |  |

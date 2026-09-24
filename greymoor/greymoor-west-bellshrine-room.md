@@ -20,8 +20,8 @@
 | TR | top right | upper path right | [Greymoor East Bellshrine Room (Greymoor_02)](greymoor-east-bellshrine-room.md) | BL | cling grip OR progressive swift step 1 OR faydown cloak OR silk soar OR clawline OR sharpdart OR (drifters cloak AND ledge grab) |  | Verified |  |
 | LR | lower right | main path | [Greymoor East Bellshrine Room (Greymoor_02)](greymoor-east-bellshrine-room.md) | LSL | (prereq shrine entrance lever AND (ledge grab OR medium shaman pogo OR faydown cloak OR silk soar)) OR nothing |  | Verified |  |
 | LL | lower left | main path | [Greymoor Lower Halfway Home Path (Greymoor_13)](greymoor-lower-halfway-home-path.md) | R | none |  | Verified |  |
-| MR | middle right | middle section right | [Greymoor Bellshrine (Bellshrine_02)](greymoor-bellshrine.md) | L | prereq Greymoor - Bellshrine IN greymoor bellshrine |  | Verified |  |
-| D | down | main path | [Far Fields Upper Shaft (Bone_East_11)](../far-fields/far-fields-upper-shaft.md) | C | nothing |  | Verified | MUST enter from far fields to activate this connection |
+| MR | middle right | middle section right | [Greymoor Bellshrine (Bellshrine_02)](greymoor-bellshrine.md) | L | ( bellshrinesanity off AND activate bellshrine switch IN greymoor bellshrine )  OR ( bellshrinesanity on AND have bell greymoor ) |  | Verified | need to make sure this stays in sync with the connection on the other side |
+| D | down | main path | [Far Fields Upper Shaft (Bone_East_11)](../far-fields/far-fields-upper-shaft.md) | C | clear greymoor floor blockade IN far fields upper shaft |  | Verified | MUST enter from far fields to activate this connection |
 
 ## Subroom Connections
 

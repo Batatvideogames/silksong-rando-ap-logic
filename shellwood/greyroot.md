@@ -12,8 +12,8 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Shellwood Greyroot entrance (Shellwood_Witch)](shellwood-greyroot-entrance.md) | D | None |  | Verified |  |
-| QR | Quest Rebirth |  | [Witch Chapel (Shellwood_25b)](witch-chapel.md) | QR | complete rite of rebirth wish start |  | Verified | One way one use Teleport |
+| L | left1 |  | [Shellwood Greyroot Entrance (Shellwood_Witch)](shellwood-greyroot-entrance.md) | D | None |  | Verified |  |
+| QR | Quest Rebirth |  | [Witch Chapel (Shellwood_25b)](witch-chapel.md) | QR | complete rite of rebirth wish promised |  | Verified | One way one use Teleport |
 
 ## Subroom Connections
 
@@ -23,7 +23,9 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| rite of the pollip wish start |  | none |  | Verified | event |  |
-| rite of the pollip wish goal |  | Pollip Hearts 6 |  | Verified | event |  |
-| Pollip Pouch |  | complete rite of the pollip wish goal |  | Verified | collectible |  |
-| rite of rebirth wish start |  | complete rite of the pollip wish goal AND have twisted bud |  | Verified | event |  |
+| rite of the pollip wish promised |  | none |  | Verified | event |  |
+| rite of the pollip wish granted |  | complete rite of the pollip wish promised AND Pollip Hearts 6 |  | Verified | event |  |
+| Pollip Pouch |  | complete rite of the pollip wish granted |  | Verified | collectible |  |
+| rite of rebirth wish promised |  | complete rite of the pollip wish granted  AND have twisted bud |  | Verified | event |  |
+| rite of rebirth wish granted |  | complete rite of rebirth wish promised |  | Verified | event |  |
+| Crest Cursed |  | complete rite of rebirth wish granted |  | Verified | collectible |  |

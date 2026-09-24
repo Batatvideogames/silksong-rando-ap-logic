@@ -54,6 +54,6 @@
 | map the marrow | shakra intro | rosaries 50 |  | Verified | collectible | shakra's shop |
 | map bench pins | shakra intro | rosaries 60 |  | Verified | collectible | shakra's shop |
 | map bellway pins | shakra intro | rosaries 60 |  | Verified | collectible | shakra's shop \| appears to be bugged in availability logic still. shows available but isn't |
-| volatile flintbeetle 2 | right upper path | none |  | Needs verification | miniboss | this one swaps position based on when [GAME STATE] - wiki says when the shortcut after bellshrine is opened - not sure of exact position in the room |
+| volatile flintbeetle 2 | right upper path | complete THE volatile flintbeetles wish promised |  | Verified | miniboss | this one swaps position based on when the marrow bellshrine is activated (per the wiki) - best to ensure both locations are accessible for the quest |
 | bench gate switch | bench spot | flip switch up |  | Verified | switch |  |
 | bench | bench spot | none |  | Verified | bench |  |

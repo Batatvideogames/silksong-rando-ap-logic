@@ -20,8 +20,8 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| TD | Trapdoor | Arena | Upper | prereq widow lever AND ( Cling Grip OR Silk soar OR ( Dash AND Scuttlebrace ) ) |  | Verified | Permanently open |
-| TD | Trapdoor | Upper | Arena | prereq widow lever |  | Verified | Permanently open |
+| TD | Trapdoor | Arena | Upper | prereq Bellshrine Lever AND ( Cling Grip OR Silk soar OR ( Dash AND Scuttlebrace ) ) |  | Verified | Permanently open |
+| TD | Trapdoor | Upper | Arena | prereq Bellshrine Lever |  | Verified | Permanently open |
 | RH | Roof Hole | Arena | Upper | Silk Soar OR ( Cling Grip AND Faydown Cloak AND ( Clawline OR Sharpdart ) ) |  | Verified |  |
 | RH | Roof Hole | Upper | Arena | None |  | Verified |  |
 

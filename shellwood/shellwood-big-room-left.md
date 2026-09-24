@@ -18,7 +18,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | UR | right1 | Ceiling area | [Shellwood Sister Splinter Bench (Shellwood_01b)](shellwood-sister-splinter-bench.md) | LL | None |  | Verified |  |
 | LL | left2 | Ground Left | [shellwood Shakra (Shellwood_16)](shellwood-shakra.md) | R | None |  | Verified |  |
-| UL | left3 | Platforms | [Shellwood Greyroot entrance (Shellwood_Witch)](shellwood-greyroot-entrance.md) | R | None |  | Verified |  |
+| UL | left3 | Platforms | [Shellwood Greyroot Entrance (Shellwood_Witch)](shellwood-greyroot-entrance.md) | R | None |  | Verified |  |
 | LR | right2 | Ground Right | [Shellwood Right Side Big room (Shellwood_01)](shellwood-right-side-big-room.md) | LL | NOne |  | Verified |  |
 
 ## Subroom Connections

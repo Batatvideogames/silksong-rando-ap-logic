@@ -9,13 +9,13 @@
 - chapel
 - boss arena
 - bench passage
-- bench room
+- bench spot
 
 ## Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right | bench room | [Moss Grotto Center (Tut_01)](moss-grotto-center.md) | UL | none |  | Verified |  |
+| R | right | bench spot | [Moss Grotto Center (Tut_01)](moss-grotto-center.md) | UL | none |  | Verified |  |
 | AR | ascend rope | chapel | [Bone Bottom Town (Bonetown)](../bone-bottom/bone-bottom-town.md) | DR | none |  | Verified |  |
 | CD | chapel door | chapel | [Ruined Chapel Interior](ruined-chapel-interior.md) | CD |  | TODO |  | how the heck do you open this door again? |
 
@@ -27,14 +27,15 @@
 | RB | right boss entrance | boss arena | bench passage | complete moss mother boss fight |  | Verified |  |
 | LB | left boss entrance | chapel | boss arena | none (starts fight) |  | Verified |  |
 | LB | left boss entrance | boss arena | chapel | complete moss mother boss fight |  | Verified |  |
-| V1 | ledge grab | bench room | bench passage | ledge grab OR faydown OR silk soar OR cling grip |  | Verified |  |
-| V1 | ledge grab | bench passage | bench room | none (falling) |  | Verified |  |
+| V1 | ledge grab | bench spot | bench passage | ledge grab OR faydown OR silk soar OR cling grip |  | Verified |  |
+| V1 | ledge grab | bench passage | bench spot | none (falling) |  | Verified |  |
 
 ## Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | moss mother boss fight | boss arena | none |  | Verified | boss |  |
+| bench | bench spot | none |  | Verified | bench |  |
 
 ## Notes
 
