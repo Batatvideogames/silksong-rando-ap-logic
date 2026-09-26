@@ -18,7 +18,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | T | top1 | Top | [High Halls Shaft Top (Hang_03_top)](high-halls-shaft-top.md) | B | none |  | Verified |  |
 | TR | right1 | Top Right | [High Halls Big Slide (Hang_13)](high-halls-big-slide.md) | L | none |  | Verified |  |
-| BL | left2 | Middle Left | [High Halls Small Room (Hang_15)](high-halls-small-room.md) | R | none |  | Verified |  |
+| BL | left2 | Bottom Left | [High Halls Small Room (Hang_15)](high-halls-small-room.md) | R | none |  | Verified |  |
 | BR | right2 | Bottom Right | [High Halls Flooded Room (Hang_10)](high-halls-flooded-room.md) | L | clear left exit blockade IN high halls flooded room |  | Verified |  |
 | ML | left1 | Middle Left | [High Halls Small Slide (Hang_02)](high-halls-small-slide.md) | R | none |  | Verified |  |
 
@@ -26,15 +26,15 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| B | Bottom Traversal | Bottom Left | Bottom Right | swim or clawline or (faydown cloak and dash) |  | Verified |  |
-| B | Bottom Traversal | Bottom Right | Bottom Left | swim or clawline or (faydown cloak and dash) |  | Verified |  |
-| B2 | Bottom Right to Mid Left | Bottom Right | Middle Left | cling grip and faydown cloak or clawline |  | Verified |  |
-| M | Middle Left to Top Right | Middle Left | Top Right | clawline and cling grip |  | Verified |  |
-| T | Top Right to Top | Top Right | Top | faydown cloak and (clawline or (cling grip and dash)) |  | Verified |  |
+| B | Bottom Traversal | Bottom Left | Bottom Right | swim OR clawline OR (faydown cloak AND dash) |  | Verified |  |
+| B | Bottom Traversal | Bottom Right | Bottom Left | swim OR clawline OR (faydown cloak AND dash) |  | Verified |  |
+| B2 | Bottom Right to Mid Left | Bottom Right | Middle Left | ( cling grip AND faydown cloak ) OR clawline |  | Verified |  |
+| M | Middle Left to Top Right | Middle Left | Top Right | clawline AND cling grip |  | Verified |  |
+| T | Top Right to Top | Top Right | Top | faydown cloak AND (clawline OR (cling grip AND dash)) |  | Verified |  |
 | FT | Falling from Top | Top | Middle Left | none |  | Verified | falilng |
-| FT2 | Falling from Top 2 | Top | Top Right | clawline or dash or faydown cloak |  | Verified |  |
+| FT2 | Falling from Top 2 | Top | Top Right | clawline OR dash OR faydown cloak |  | Verified |  |
 | FM | Falling from Mid | Middle Left | Bottom Left | none |  | Verified | falling |
-| FM2 | Falling from Mid 2 | Middle Left | Bottom Right | clawline or dash or faydown cloak |  | Verified |  |
+| FM2 | Falling from Mid 2 | Middle Left | Bottom Right | clawline OR dash OR faydown cloak |  | Verified |  |
 
 ## Check Locations
 

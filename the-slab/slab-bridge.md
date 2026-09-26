@@ -20,8 +20,8 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| H | Horizontal | Left | Right | cling grip or ledge grab or faydown cloak or clawline |  | Verified | You can jump off of the left obstacle and use clawline twice, this cannot be done from the other side |
-| H | Horizontal | Right | Left | cling grip or ledge grab or faydown cloak |  | Verified |  |
+| H | Horizontal | Left | Right | cling grip OR ledge grab OR faydown cloak OR clawline |  | Verified | You can jump off of the left obstacle and use clawline twice, this cannot be done from the other side |
+| H | Horizontal | Right | Left | cling grip OR ledge grab OR faydown cloak |  | Verified |  |
 
 ## Check Locations
 

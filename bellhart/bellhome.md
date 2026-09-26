@@ -23,4 +23,4 @@ No subroom connections defined.
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | bench |  | none |  | Verified | bench |  |
-| act toggle |  | needolin | TODO | Needs verification | bench | is needolin required for swap? |
+| act toggle |  | act 3 AND needolin | TODO |  | bench | is needolin required for swap? |

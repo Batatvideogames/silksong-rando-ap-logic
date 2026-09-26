@@ -22,4 +22,4 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Are there things here? |  |  | TODO |  |  |  |
+| Conductors Melody |  | Act 2 |  | Verified | collectible |  |

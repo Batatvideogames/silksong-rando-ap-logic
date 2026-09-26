@@ -21,4 +21,6 @@ No subroom connections defined.
 
 ## Check Locations
 
-No check locations defined.
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| meet karmelita |  | none |  | Verified | logic-point | used for the hidden hunter wish |

@@ -22,4 +22,4 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| High Halls - Spool Fragment |  | silk soar or (clawline and faydown cloak and cling grip) |  | Verified |  |  |
+| High Halls - Spool Fragment |  | silk soar OR (clawline AND faydown cloak AND cling grip) |  | Verified | collectible |  |

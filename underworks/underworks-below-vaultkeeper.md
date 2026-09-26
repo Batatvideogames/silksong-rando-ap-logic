@@ -27,7 +27,7 @@
 | NP | Needolin Path | Top Exit Shaft | Needolin Check | Nothing. (Fall) |  | Verified | pretty precise fall |
 | NP | Needolin Path | Needolin Check | Top Exit Shaft | Cling Grip OR Spike Pogo |  | Verified |  |
 | LP | Left Path | Top Exit Shaft | Left Side Shafts | Nothing. (Fall) |  | Verified |  |
-| LP | Left Path | Left Side Shafts | Top Exit Shaft | Ledge Grab OR Clawline OR Scuttlebrace OR Faydown Cloak OR Crest (Shaman) Pogo OR Crest (Beast) Charge |  | Verified |  |
+| LP | Left Path | Left Side Shafts | Top Exit Shaft | Ledge Grab OR Clawline OR Scuttlebrace OR Faydown Cloak OR Easy Shaman Pogo OR Easy Beast Charge |  | Verified |  |
 | SP | Shell Path | Left Side Shafts | Shell Shard Check | Nothing. (fall) |  | Verified |  |
 | SP | Shell Path | Shell Shard Check | Left Side Shafts | Cling Grip OR Scuttlebrace |  | Verified |  |
 | LPC | Left Path, Continued | Left Side Shafts | Left Side Shaft Exit | Nothing. (Fall) |  | Verified |  |
@@ -37,5 +37,5 @@
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Underworks: Needolin Lore #1 | Needolin Check | Needolin |  | Verified |  |  |
-| Underworks: Shell Shard Cache #1 | Shell Shard Check | Nothing. |  | Verified |  |  |
+| Underworks: Needolin Lore #1 | Needolin Check | Needolin |  | Verified | lore |  |
+| Underworks: Shell Shard Cache #1 | Shell Shard Check | Nothing. |  | Verified | collectible |  |

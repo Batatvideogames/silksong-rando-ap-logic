@@ -25,14 +25,16 @@
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | V | Vertical | Top | Base | none |  | Verified | falling |
-| V | Vertical | Base | Top | cling grip or silk soar |  | Verified |  |
+| V | Vertical | Base | Top | cling grip OR silk soar |  | Verified |  |
 | GL | Gauntlet Left | Left | Gauntlet | none |  | Verified |  |
-| GL | Gauntlet Left | Gauntlet | Left | gauntlet |  | Verified |  |
+| GL | Gauntlet Left | Gauntlet | Left | defeat Gauntlet Fight |  | Verified |  |
 | GR | Gauntlet Right | Base | Gauntlet | none |  | Verified |  |
-| GR | Gauntlet Right | Gauntlet | Base | gauntlet |  | Verified |  |
+| GR | Gauntlet Right | Gauntlet | Base | defeat Gauntlet Fight |  | Verified |  |
 
 ## Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Heavy Rosary Necklace: Choral Chambers | Base | cling grip or silk soar |  |  |  | Secret hidden by breaking the ceiling |
+| Gauntlet Fight | Gauntlet | none |  |  | gauntlet |  |
+| Heavy Rosary Necklace: Choral Chambers | Base | cling grip OR silk soar |  |  | collectible | Secret hidden by breaking the ceiling |
+| Second Sentinel Encounter | Gauntlet | defeat Gauntlet Fight AND Act 2 AND complete THE Second Sentinel Activation |  |  | resource | only act 2 per the wiki |

@@ -9,9 +9,10 @@
 - left exit area
 - right exit area
 - ceiling exit area
+- crossing
 - trapper's arena
 - trapper's den
-- crossing
+- trapper's ledge
 
 ## Room Transitions
 
@@ -25,20 +26,23 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| TB | trapped bench | crossing | trapper's arena | act 3 AND the hidden hunter wish in progress | TODO | Needs verification |  |
-| TB | trapped bench | trapper's arena | crossing | defeat gurr the outcast boss fight AND silk soar | TODO | Needs verification |  |
-| RB | right boss fight | trapper's arena | trapper's den | defeat gurr the outcast boss fight | TODO | Needs verification |  |
-| RB | right boss fight | trapper's den | trapper's arena | defeat gurr the outcast boss fight | TODO | Needs verification |  |
+| TB | trapped bench | crossing | trapper's arena | act 3 AND complete THE the hidden hunter wish promised |  | Verified |  |
+| TB | trapped bench | trapper's arena | crossing | defeat gurr the outcast boss fight AND silk soar |  | Verified |  |
+| RB | right boss fight | trapper's arena | trapper's den | defeat gurr the outcast boss fight |  | Verified |  |
+| RB | right boss fight | trapper's den | trapper's arena | defeat gurr the outcast boss fight |  | Verified |  |
 | G1 | gap 1 | left exit area | crossing | clawline AND silkhearts 1 |  | Verified |  |
 | G1 | gap 1 | crossing | left exit area | clawline  AND silkhearts 1 AND ( run OR dash OR drifters OR faydown ) |  | Verified |  |
 | G2 | gap 2 | crossing | right exit area | clawline AND silkhearts 1 |  | Verified | need to pogo to let silk recharge with only 1 heart, but it isn't that bad |
 | G2 | gap 2 | right exit area | crossing | ( clawline AND silkhearts 2 ) OR ( clawline  AND silkhearts 1 AND ( dash OR faydown OR drifters ) ) |  | Verified | need enough silk to clawline twice to get the distance by itself |
 | V1 | vertical 1 | crossing | ceiling exit area | ( faydown cloak AND ( cling grip OR scuttlebrace ) )  OR ( silk soar AND ( clawline OR drifter's cloak OR faydown cloak OR ( ledge grab AND dash ) ) ) |  | Verified |  |
 | V1 | vertical 1 | ceiling exit area | crossing | run OR dash OR drifter's cloak OR  faydown cloak OR easy beast pogo OR sharpdart OR scuttlebrace |  | Verified |  |
+| T1 | trapper 1 | trapper's den | trapper's ledge | faydown OR cling grip OR scuttlebrace OR silk soar |  | Verified |  |
+| T1 | trapper 1 | trapper's ledge | trapper's den | none (falling) |  | Verified |  |
 
 ## Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| AP Minor Cache - Rosary Cache: Far Fields #19 | trapper's den | defeat gurr the outcast boss fight | TODO | Needs verification | collectible |  |
-| gurr the outcast boss fight | trapper's arena | none | TODO | Needs verification | boss |  |
+| gurr the outcast boss fight | trapper's arena | none |  | Verified | boss |  |
+| AP Minor Cache - Rosary Cache: Far Fields #19 | trapper's ledge | none |  | Verified | collectible |  |
+| Grass Doll | trapper's ledge | none |  | Verified | collectible |  |

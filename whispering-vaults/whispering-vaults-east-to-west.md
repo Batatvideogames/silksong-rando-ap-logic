@@ -26,7 +26,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | VL | Vertical Low | Bottom | Center | Activate Whispering Vaults: Flip Switch #3 AND (Silk Soar OR Cling Grip OR (Faydown Cloak AND Ledge Grab)) |  | Verified |  |
 | VH | Vertical High | Center | Top | Cling Grip OR Silk Soar |  | Verified |  |
-| MS | Mask Shard | Top | Shard | Silk Soar OR Easy Box Pogo |  | Verified |  |
+| MS | Mask Shard | Top | Shard | Silk Soar OR Proficient Movement (Easy Box Pogo) |  | Verified |  |
 | MS | Mask Shard | Shard | Top | Nothing. (Fall) |  | Verified |  |
 | VH | Vertical High | Top | Center | Nothing. (Fall) |  | Verified |  |
 | VL | Vertical Low | Center | Bottom | Activate Whispering Vaults: Flip Switch #3 |  | Verified |  |

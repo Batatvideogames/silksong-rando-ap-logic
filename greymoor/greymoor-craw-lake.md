@@ -25,7 +25,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | T | top | lil top | [Greymoor Weaver Shrine (Greymoor_22)](greymoor-weaver-shrine.md) | B | silk soar OR ledge grab OR faydown cloak OR cling grip |  | Verified |  |
 | ML | middle left | middle craw nest left | [Greymoor Craw Lake Entrance (Greymoor_15)](greymoor-craw-lake-entrance.md) | UR | none |  | Verified |  |
-| LR | lower right | craw building | TODO |  | ACT 3 AND (((cling grip OR silk soar) AND (clawline OR (progressive swift step 1 AND (drifters cloak OR (sharpdart AND faydown cloak))) OR (progressive swift step 2 AND faydown cloak))) OR (prereq balloon lever IN greymoor crow nest AND (clawline OR faydown cloak OR drifters cloak OR sharpdart OR progressive swift step 2 OR ledge grab OR easy hunter pogo OR easy architect pogo OR easy shaman pogo OR easy beast crest pogo))) |  | Verified |  |
+| LR | lower right | craw building | [Verdania Placeholder](../verdania/verdania-placeholder.md) | P | ACT 3 AND (((cling grip OR silk soar) AND (clawline OR (progressive swift step 1 AND (drifters cloak OR (sharpdart AND faydown cloak))) OR (progressive swift step 2 AND faydown cloak))) OR (prereq balloon lever IN greymoor crow nest AND (clawline OR faydown cloak OR drifters cloak OR sharpdart OR progressive swift step 2 OR ledge grab OR easy hunter pogo OR easy architect pogo OR easy shaman pogo OR easy beast crest pogo))) |  | Verified | verdania not yet mapped |
 | CN | craw nest entrance | craw building | [Greymoor Crow Nest (Room_CrowCourt)](greymoor-crow-nest.md) | L | swim OR ledge grab OR cling grip OR hard enemy pogo |  | Verified |  |
 | LL | lower left | lower left section | [Greymoor Craw Lake Entrance (Greymoor_15)](greymoor-craw-lake-entrance.md) | LR | none |  | Verified |  |
 
@@ -60,7 +60,7 @@
 | H | hatch | flea room | lower flea room | prereq flea airlock |  | Verified |  |
 | SL | spike lower | spiked room | upper craw nest | prereq spike room lever AND (clawline AND faydown cloak AND (ledge grab OR progressive swift step 1)) |  | Verified |  |
 | SL | spike lower | upper craw nest | spiked room | (clawline OR ((progressive swift step 2 OR sharpdart) AND (drifters cloak OR faydown cloak)) ) AND prereq spike room lever |  | Verified |  |
-| SU | spike upper | spiked room | left top craw nest | easy skip spike pogo OR prereq balloon lever IN greymoor crow nest |  | Verified |  |
+| SU | spike upper | spiked room | left top craw nest | (proficient movement AND spike pogo) OR prereq balloon lever IN greymoor crow nest |  | Verified |  |
 | SU | spike upper | left top craw nest | spiked room | none |  | Verified |  |
 | F1 | fall 1 | left top craw nest | upper craw nest | none (just fall) |  | Verified |  |
 | F1 | fall 1 | upper craw nest | left top craw nest | silk soar OR (cling grip AND (easy enemy pogo OR faydown cloak)) |  | Verified |  |

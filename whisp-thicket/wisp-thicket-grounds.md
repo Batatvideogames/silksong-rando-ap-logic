@@ -12,9 +12,9 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| T | top1 |  | [Wisp Thicket Secret Path (Wisp_05)](wisp-thicket-secret-path.md) | B | silk soar or cling grip |  |  |  |
+| T | top1 |  | [Wisp Thicket Secret Path (Wisp_05)](wisp-thicket-secret-path.md) | B | silk soar OR cling grip |  |  |  |
 | R | right1 |  | [Wisp Thicket Bench (Wisp_04)](wisp-thicket-bench.md) | L | none |  |  |  |
-| L | left1 |  | [Father of the Flame (Belltown_08)](father-of-the-flame.md) | R | ledge grab or faydown cloak or silk soar |  |  |  |
+| L | left1 |  | [Father of the Flame (Belltown_08)](father-of-the-flame.md) | R | ledge grab OR faydown cloak OR silk soar |  |  |  |
 
 ## Subroom Connections
 
@@ -24,4 +24,4 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Rosary Necklace: Wisp Thicket |  | silk soar or cling grip |  |  |  |  |
+| Rosary Necklace: Wisp Thicket |  | silk soar OR cling grip |  |  | collectible |  |

@@ -10,8 +10,8 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Slab Cell (Slab_03)](slab-cell.md) | L6R | Key of Heretic Owned |  |  |  |
-| R | right1 |  | [Slab First Sinner Antechamber (Slab_10c)](slab-first-sinner-antechamber.md) | L | (faydown and cling grip) or silk soar |  |  |  |
+| L | left1 |  | [Slab Cell (Slab_03)](slab-cell.md) | L6R | have Key of Heretic |  |  |  |
+| R | right1 |  | [Slab First Sinner Antechamber (Slab_10c)](slab-first-sinner-antechamber.md) | L | (faydown AND cling grip) OR silk soar |  |  |  |
 
 ## Subroom Connections
 
@@ -21,8 +21,8 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| The Slab - Rosary Chest |  | none |  |  |  |  |
-| The Slab - Rosary Cache #2 |  | none |  |  |  |  |
-| The Slab - Rosary Cache #3 |  | none |  |  |  |  |
-| The Slab - Rosary Cache #4 |  | none |  |  |  |  |
-| The Slab - Rosary Cache #5 |  | none |  |  |  |  |
+| The Slab - Rosary Chest |  | none |  |  | collectible |  |
+| The Slab - Rosary Cache #2 |  | none |  |  | collectible |  |
+| The Slab - Rosary Cache #3 |  | none |  |  | collectible |  |
+| The Slab - Rosary Cache #4 |  | none |  |  | collectible |  |
+| The Slab - Rosary Cache #5 |  | none |  |  | collectible |  |

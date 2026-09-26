@@ -50,4 +50,5 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | Rosary String: Shellwood #1 | Upper Hidden | None |  | Verified | collectible |  |
 | Sister Splinter Toll Bench | Bench Toll | None |  | Verified | bench |  |
+| Craw Summons | Bench Toll | Craw Summons Ready |  | Verified | collectible |  |
 | Shellwood Elevator Button 2 | Elevator Platform | None |  | Verified | switch |  |

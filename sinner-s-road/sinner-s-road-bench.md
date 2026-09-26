@@ -25,3 +25,4 @@ No subroom connections defined.
 | Rosary Cache: Sinner’s Road #8 |  | Silk soar OR (Faydown AND cling grip) |  | Verified | collectible |  |
 | Map Purchase: Sinner's Road |  | Silk Soar OR (spike pogo AND (swim OR ledge grab)) |  | Verified | collectible |  |
 | Sinner's Road Bench |  | rosaries 40 AND (cling grip OR silk soar) AND break wall left AND break vines right AND ((faydown cloak AND clawline) OR (spike pogo AND swim)) |  | Verified | bench |  |
+| Craw Summons |  | Craw Summons Ready |  | Verified | collectible |  |

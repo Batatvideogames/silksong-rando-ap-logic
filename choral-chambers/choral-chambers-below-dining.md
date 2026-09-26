@@ -21,7 +21,7 @@
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | V | Vertical | Top | Bottom | none |  |  | falling |
-| V | Vertical | Bottom | Top | silk soar or cling grip |  |  |  |
+| V | Vertical | Bottom | Top | silk soar OR cling grip |  |  |  |
 
 ## Check Locations
 

@@ -21,7 +21,7 @@
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | V | Vertical | Top | Bottom | none |  |  | falling |
-| V | Vertical | Bottom | Top | silk soar or (cling grip and (faydown cloak or clawline or dash)) or (faydown cloak and ledge grab) |  |  |  |
+| V | Vertical | Bottom | Top | silk soar OR (cling grip AND (faydown cloak OR clawline OR dash)) OR (faydown cloak AND ledge grab) |  |  |  |
 
 ## Check Locations
 

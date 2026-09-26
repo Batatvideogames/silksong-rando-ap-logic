@@ -13,7 +13,7 @@
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | R | right1 | Top | [Slab Shaft (Slab_21)](slab-shaft.md) | UL | none |  |  |  |
-| L | left1 | Bottom | [Slab Cell (Slab_03)](slab-cell.md) | L1R | breakable wall (opens from this side) |  |  |  |
+| L | left1 | Bottom | [Slab Cell (Slab_03)](slab-cell.md) | L1R | clear Breakable Wall Blockade |  |  |  |
 
 ## Subroom Connections
 
@@ -27,7 +27,8 @@
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| The Slab - Shell Shard Cache #6 | Top | cling grip or (silk soar and (ledge grab or dash)) |  |  |  | Naked |
-| The Slab - Shell Shard Cache #7 | Top | cling grip or (silk soar and (ledge grab or dash)) |  |  |  | Naked |
-| The Slab - Frayed Rosary String #2 | Corpse | none |  |  |  |  |
-| The Slab - Rosary Cache #1 | Corpse | none |  |  |  |  |
+| The Slab - Shell Shard Cache #6 | Top | cling grip OR (silk soar AND (ledge grab OR dash)) |  |  | collectible | Naked |
+| The Slab - Shell Shard Cache #7 | Top | cling grip OR (silk soar AND (ledge grab OR dash)) |  |  | collectible | Naked |
+| The Slab - Frayed Rosary String #2 | Corpse | none |  |  | collectible |  |
+| The Slab - Rosary Cache #1 | Corpse | none |  |  | collectible |  |
+| Breakable Wall Blockade | Bottom | break wall left |  |  | blockade |  |

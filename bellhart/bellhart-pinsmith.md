@@ -26,3 +26,4 @@ No subroom connections defined.
 | Progressive Needle Upgrade 2 |  | pale oils 1 |  | Verified | collectible | cumulative requirement |
 | Progressive Needle Upgrade 3 |  | pale oils 2 |  | Verified | collectible | cumulative requirement |
 | Progressive Needle Upgrade 4 |  | pale oils 3 |  | Verified | collectible | cumulative requirement |
+| Pinmaster's Oil Wish Granted |  | complete THE Pinmaster's Oil Wish Promised AND pale oils 1 |  | Verified | event | can be missed, but counts towards silk and soul regardless of completion after second needle upgrade |

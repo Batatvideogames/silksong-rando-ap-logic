@@ -22,4 +22,4 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Lore: Abyss #3 |  | ( Faydown Cloak AND ( easy Reaper Crest pogo OR Cling Grip ) ) OR ( Silk Soar AND ( ( Easy Skip spike pogo AND Ledge grab ) OR Cling Grip OR Clawline OR Scuttlebrace )  ) |  | Verified | lore |  |
+| Lore: Abyss #3 |  | ( Faydown Cloak AND ( easy Reaper Crest pogo OR Cling Grip ) ) OR ( Silk Soar AND ( ( ( Proficient Movement AND spike pogo ) AND Ledge grab ) OR Cling Grip OR Clawline OR Scuttlebrace )  ) |  | Verified | lore |  |

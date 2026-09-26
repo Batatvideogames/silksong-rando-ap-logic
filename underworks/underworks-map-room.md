@@ -22,5 +22,5 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Map Pickup: Underworks |  | none |  | Verified |  |  |
-| Relic: Bone Scroll (Underworks) |  | none |  | Verified |  |  |
+| Map Pickup: Underworks |  | none |  | Verified | collectible |  |
+| Relic: Bone Scroll (Underworks) |  | none |  | Verified | collectible |  |

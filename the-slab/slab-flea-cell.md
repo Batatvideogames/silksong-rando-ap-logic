@@ -20,4 +20,4 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Flea: The Slab |  | none |  |  |  |  |
+| Flea: The Slab |  | none |  |  | collectible |  |

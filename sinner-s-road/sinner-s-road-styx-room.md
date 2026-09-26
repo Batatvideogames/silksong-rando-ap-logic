@@ -32,3 +32,5 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | Styx Room Upper Breakable Wall | left | break wall right |  | Verified | blockade |  |
 | Styx Room Lower Breakable Wall | cage | break wall right |  | Verified | blockade |  |
+| Styx Grew First Grub | left | steel soul off |  | Verified | logic-point |  |
+| Craw Summons | left | Craw Summons Ready |  | Verified | collectible |  |

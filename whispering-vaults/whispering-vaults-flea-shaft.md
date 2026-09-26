@@ -29,8 +29,11 @@
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | GF | Ground to Floor 1 | Bottom | Lower Platforms | Silk Soar OR (Faydown Cloak AND Ledge Grab) OR Enemy Pogo (Easy Skip) |  | Verified |  |
+| GF | Ground to Floor 1 | Lower Platforms | Bottom | None (Falling) |  | Verified | added due to none all connections being one-way - hero, 9/26 |
 | UT | Upwards Traversal | Lower Platforms | Upper Platforms | Silk Soar OR (Medium Enemy Pogo AND Faydown Cloak) OR (Faydown Cloak AND (Ledge Grab OR Easy Beast Crest Pogo OR Easy Needle Strike Stall (Beast) OR Easy Shaman Crest Pogo)) OR (Cling Grip AND (Sprint OR Dash OR Easy Beast Crest Pogo OR Easy Needle Strike Stall (Beast OR Architect) OR Sharpdart OR Drifter's Cloak OR Clawline)) |  | Verified |  |
+| UT | Upwards Traversal | Upper Platforms | Lower Platforms | None (Falling) |  | Verified | added due to none all connections being one-way - hero, 9/26 |
 | FG | Flea Grab | Upper Platforms | Flea Check | Silk Soar OR (Cling Grip AND (Clawline OR Sharpdart OR Drifter's Cloak OR Easy Beast Crest Pogo OR Easy Needle Strike Stall (Beast OR Architect) OR Cling Grip)) OR (Scuttlebrace AND Faydown Cloak AND Swift Step 2) |  | Verified | collect yo flea. |
+| FG | Flea Grab | Flea Check | Upper Platforms | None (Falling) |  | Verified | added due to none all connections being one-way - hero, 9/26 |
 
 ## Check Locations
 

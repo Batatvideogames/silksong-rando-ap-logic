@@ -22,4 +22,4 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Delver's Drill |  | none |  |  |  |  |
+| Delver's Drill |  | none |  |  | collectible |  |

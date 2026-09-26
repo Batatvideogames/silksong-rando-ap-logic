@@ -1,6 +1,6 @@
-# Slab Grindle (Slab_20)
+# Slab Broodmother Alcove
 
-**Game ID:** Slab_20
+**Contributors:** herounit
 
 ## Subrooms
 
@@ -10,7 +10,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Slab Cell (Slab_03)](slab-cell.md) | L2R | none |  |  |  |
+| U | unknown |  | [Slab Arena (Slab_16)](slab-arena.md) | D |  | TODO | Needs verification |  |
 
 ## Subroom Connections
 
@@ -20,5 +20,5 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| The Slab - Map Pickup |  | none |  |  | collectible |  |
-| The Slab - East Bench |  | none |  |  | bench |  |
+| Broodmother Boss Fight |  |  | TODO | Needs verification | boss | unknown if gated by quest or just room access |
+| Broodmother's Eye |  | defeat Broodmother Boss Fight |  | Verified | collectible |  |

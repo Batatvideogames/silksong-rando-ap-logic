@@ -21,11 +21,11 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| V1 | Right to Top | Right | Top | cling grip and spike pogo |  |  |  |
-| V2 | Bottom to Right | Bottom | Right | cling grip and spike pogo and faydown cloak |  |  |  |
+| V1 | Right to Top | Right | Top | cling grip AND spike pogo |  |  |  |
+| V2 | Bottom to Right | Bottom | Right | cling grip AND spike pogo AND faydown cloak |  |  |  |
 
 ## Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Relic: Bone Scroll (Wisp Thicket) | Top | none |  |  |  |  |
+| Relic: Bone Scroll (Wisp Thicket) | Top | none |  |  | collectible |  |

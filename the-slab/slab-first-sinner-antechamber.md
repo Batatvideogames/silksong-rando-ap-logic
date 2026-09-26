@@ -21,6 +21,6 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| The Slab - Weaver Gate Inscription |  | faydown |  |  |  |  |
-| Rune Rage |  | faydown |  |  |  |  |
-| Boss: First Sinner |  | faydown |  |  |  |  |
+| The Slab - Weaver Gate Inscription |  | faydown |  |  | lore |  |
+| Rune Rage |  | defeat Boss: First Sinner |  |  | collectible |  |
+| Boss: First Sinner |  | faydown |  |  | boss |  |

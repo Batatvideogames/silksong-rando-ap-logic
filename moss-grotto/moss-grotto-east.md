@@ -25,7 +25,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | RG | right ledge grab | ground floor | alcove check spot | ledge grab OR cling grip OR scuttlebrace OR faydown |  | Verified |  |
 | RG | right ledge grab | alcove check spot | ground floor | none (falling) |  | Verified |  |
-| WD | weavenest door gap | ground floor | weavenest door platform | ledge grab OR run OR dash OR clawline OR drifters OR faydown OR cling grip OR easy skip spike pogo OR easy shaman pogo OR easy beast pogo OR silk soar |  | Verified |  |
+| WD | weavenest door gap | ground floor | weavenest door platform | ledge grab OR run OR dash OR clawline OR drifters OR faydown OR cling grip OR ( spike pogo AND proficient movement ) OR easy shaman pogo OR easy beast pogo OR silk soar |  | Verified |  |
 | WD | weavenest door gap | weavenest door platform | ground floor | none (falling) |  | Verified |  |
 | UG | upper ledge grab | ground floor | upper platforms | ledge grab OR dash OR faydown OR cling grip OR silk soar OR easy shaman pogo |  | Verified |  |
 | UG | upper ledge grab | upper platforms | ground floor | none (falling) |  | Verified |  |

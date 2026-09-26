@@ -20,7 +20,7 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| TE | The Escape | Start | End | ( Silk Soar AND Drifters Cloak AND Cling Grip AND Faydown Cloak AND ( Easy Skip spike pogo OR Clawline ) ) |  | Verified | One way |
+| TE | The Escape | Start | End | ( Silk Soar AND Drifters Cloak AND Cling Grip AND Faydown Cloak AND ( ( Proficient Movement AND spike pogo ) OR Clawline ) ) |  | Verified | One way |
 
 ## Check Locations
 

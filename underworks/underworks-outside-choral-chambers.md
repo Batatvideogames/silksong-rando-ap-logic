@@ -14,7 +14,7 @@ No subrooms defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | NF | bot1 |  | [Underworks Western Gauntlet (Under_07)](underworks-western-gauntlet.md) | NF | NOT IMPLEMENTED | TODO |  | Haven't found any connection to bottom in Act 2. Maybe Act 3? Maybe a miss from the devs? |
 | L | left2 |  | [Underworks Shaft (Under_02)](underworks-shaft.md) | R4 | none |  |  |  |
-| T | top1 |  | [Choral Chambers Outisde Underworks (Under_07b)](../choral-chambers/choral-chambers-outisde-underworks.md) | B | cling grip or silk soar |  |  |  |
+| T | top1 |  | [Choral Chambers Outisde Underworks (Under_07b)](../choral-chambers/choral-chambers-outisde-underworks.md) | B | cling grip OR silk soar |  |  |  |
 
 ## Subroom Connections
 
@@ -24,7 +24,7 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Rosary Cache: Underworks #2 |  | cling grip |  | Verified |  |  |
-| Rosary Cache: Underworks #3 |  | cling grip |  | Verified |  |  |
-| Shell Shard Cache: Underworks #14 |  | cling grip and (dash or clawline or sharpdart) |  | Verified |  |  |
-| Frayed Rosary String: Underworks #1 |  | cling grip |  | Verified |  |  |
+| Rosary Cache: Underworks #2 |  | cling grip |  | Verified | collectible |  |
+| Rosary Cache: Underworks #3 |  | cling grip |  | Verified | collectible |  |
+| Shell Shard Cache: Underworks #14 |  | cling grip AND (dash OR clawline OR sharpdart) |  | Verified | collectible |  |
+| Frayed Rosary String: Underworks #1 |  | cling grip |  | Verified | collectible |  |

@@ -46,3 +46,4 @@
 | survivors camps supplies wish granted | flea floor | complete THE survivors camp supplies wish promised |  | Verified | event | reward is 180 rosaries |
 | the lost fleas wish promised | flea floor | none |  | Verified | event | wish can be started here or at the bone bottom wish wall |
 | the lost fleas wish granted | flea floor | ( act 1 OR act 2 )  AND complete the lost fleas wish promised AND fleas 5 |  | Verified | event | grants caravan invite |
+| flea caravan move to greymoor | flea floor | complete the lost fleas wish granted |  | Verified | event |  |

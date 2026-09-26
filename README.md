@@ -251,7 +251,7 @@ Generated from the non-archived records in `input/silksong-rando-logic.db`.
 
 ## Verdania
 
-No rooms defined.
+- [Verdania Placeholder](./verdania/verdania-placeholder.md)
 
 ## Blasted Steps
 
@@ -270,7 +270,7 @@ No rooms defined.
 - [Horizontal Room with Sand Pit (Coral_11b)](./blasted-steps/horizontal-room-with-sand-pit.md)
 - [Last Judge Arena (Coral_Judge_Arena)](./blasted-steps/last-judge-arena.md)
 - [Lumble the Lucky (Coral_33)](./blasted-steps/lumble-the-lucky.md)
-- [Pinstress Room (Room_Pinstress)](./blasted-steps/pinstress-room.md)
+- [Windy Pinstress Room (Room_Pinstress)](./blasted-steps/windy-pinstress-room.md)
 - [Pre Last Judge Room (Coral_32)](./blasted-steps/pre-last-judge-room.md)
 - [Windy Pinstress Entrance (Coral_34)](./blasted-steps/windy-pinstress-entrance.md)
 
@@ -431,6 +431,7 @@ No rooms defined.
 - [High Halls Ventrica (Hang_06b)](./high-halls/high-halls-ventrica.md)
 - [High Halls Conductor (Hang_12)](./high-halls/high-halls-conductor.md)
 - [High Halls Arena (Hang_04)](./high-halls/high-halls-arena.md)
+- [High Halls Sentinel Graveyard (Hang_17b)](./high-halls/high-halls-sentinel-graveyard.md)
 - [High Halls Not Implemented Room (Cog_11)](./high-halls/high-halls-not-implemented-room.md)
 
 ## Bilewater
@@ -504,6 +505,7 @@ No rooms defined.
 
 - [Slab Bridge (Slab_01)](./the-slab/slab-bridge.md)
 - [Slab Arena (Slab_16)](./the-slab/slab-arena.md)
+- [Slab Broodmother Alcove](./the-slab/slab-broodmother-alcove.md)
 - [Slab Cell (Slab_03)](./the-slab/slab-cell.md)
 - [Slab Chilly Prison (Slab_15)](./the-slab/slab-chilly-prison.md)
 - [Slab Bellway (Slab_06)](./the-slab/slab-bellway.md)
@@ -602,6 +604,7 @@ No rooms defined.
 
 - [Bellway Menu](./fast-travel/bellway-menu.md)
 - [Ventrica Menu](./fast-travel/ventrica-menu.md)
+- [Slab Capture](./fast-travel/slab-capture.md)
 
 ## Wish Menus
 

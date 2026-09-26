@@ -22,4 +22,4 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| High Halls - Shell Shard Cache #2 |  | none |  | Verified |  |  |
+| High Halls - Shell Shard Cache #2 |  | none |  | Verified | collectible |  |

@@ -12,8 +12,8 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 |  | [Underworks Central Shaft (Under_05)](underworks-central-shaft.md) | WT | cling grip and dash |  |  |  |
-| B | bot1 |  | [Wisp Thicket Cave (Wisp_09)](../whisp-thicket/wisp-thicket-cave.md) | T | cling grip and dash |  |  |  |
+| R | right1 |  | [Underworks Central Shaft (Under_05)](underworks-central-shaft.md) | WT | cling grip AND dash |  |  |  |
+| B | bot1 |  | [Wisp Thicket Cave (Wisp_09)](../whisp-thicket/wisp-thicket-cave.md) | T | cling grip AND dash |  |  |  |
 
 ## Subroom Connections
 
@@ -23,5 +23,5 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Shell Shard Cache: Underworks #13 |  | cling grip and dash |  |  |  |  |
-| Flea: Underworks - Wisp Thicket Passage |  | cling grip and dash |  |  |  |  |
+| Shell Shard Cache: Underworks #13 |  | cling grip AND dash |  |  | collectible |  |
+| Flea: Underworks - Wisp Thicket Passage |  | cling grip AND dash |  |  | collectible |  |

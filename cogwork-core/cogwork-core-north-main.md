@@ -21,7 +21,7 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| BEL | Bottom Entrance-Lever | Lower Entrance | Lever Door | (Medium Skip Spike Pogo (Hunter OR Reaper OR Architect OR Shaman) AND (Cling Grip OR Faydown Cloak OR Ledge Grab) AND Enemy Pogo (Easy Skip)) |  | Verified | Can be clawline only'd but since theres no specific skip tag for that i am omitting it. |
+| BEL | Bottom Entrance-Lever | Lower Entrance | Lever Door | ((Proficient Movement AND Spike Pogo)  AND Medium Hunter Pogo AND Medium Reaper Pogo AND Medium Architect Pogo AND Medium Shaman Pogo AND (Cling Grip OR Faydown Cloak OR Ledge Grab) AND Easy Enemy Pogo (Easy Skip)) |  | Verified | Can be clawline only'd but since theres no specific skip tag for that i am omitting it. |
 | BEL | Bottom Entrance-Lever | Lever Door | Lower Entrance | Drifter's Cloak |  | Verified | let me add a Nothing as a medium skip pls it'll be funny |
 | LTE | Lever-Top Entrance | Lever Door | Upper Entrance | Clawline AND Faydown Cloak AND Cling Grip |  | Verified |  |
 | LTE | Lever-Top Entrance | Upper Entrance | Lever Door | Clawline OR Sharpdart OR Dash OR Faydown Cloak OR Drifter's Cloak |  | Verified |  |

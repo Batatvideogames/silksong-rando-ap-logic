@@ -16,7 +16,7 @@
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | UL | left2 | Upper Exit | [Abyss Escape Hallway (Abyss_13)](abyss-escape-hallway.md) | R | None |  | Verified |  |
-| D1 | door1 | Landing Zone | [Abyss Diving Bell Broken (Room_Diving_Bell_Abyss)](abyss-diving-bell-broken.md) | L | Does Not have Everbloom OR Silksoar | TODO | Verified | What tf are we doing with this thinggg |
+| D1 | door1 | Landing Zone | [Abyss Diving Bell Broken (Room_Diving_Bell_Abyss)](abyss-diving-bell-broken.md) | L | invalid |  | Verified | logic always keeps the bell fixed |
 | D2 | door2 | Landing Zone | [Abyss Diving Bell Fixed (Room_Diving_Bell_Abyss_Fixed)](abyss-diving-bell-fixed.md) | L | Have Everbloom |  | Verified |  |
 | LL | left1 | Lower Exit | [Abyss Hallway To Upper Big Room (Abyss_02)](abyss-hallway-to-upper-big-room.md) | R | None |  | Verified |  |
 

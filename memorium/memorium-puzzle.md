@@ -20,7 +20,9 @@ No subroom connections defined.
 
 ## Check Locations
 
-No check locations defined.
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Memorimum Cogheart Piece |  | flip switch up OR flip switch down |  | Verified | collectible | memory puzzle |
 
 ## Notes
 

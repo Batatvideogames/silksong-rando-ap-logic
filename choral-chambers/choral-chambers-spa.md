@@ -14,7 +14,7 @@
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | L | left1 | Showers | [Choral Chambers Outside Spa (Song_04)](choral-chambers-outside-spa.md) | R2 | none |  | Verified |  |
-| R | right1 | Spa | [Choral Chambers Flea Shaft (Song_11)](choral-chambers-flea-shaft.md) | BLB | cling grip or silk soar or (faydown cloak and ledge grab) |  | Verified | one way door, opens from this side |
+| R | right1 | Spa | [Choral Chambers Flea Shaft (Song_11)](choral-chambers-flea-shaft.md) | BLB | cling grip OR silk soar OR (faydown cloak AND ledge grab) |  | Verified | one way door, opens from this side |
 
 ## Subroom Connections
 

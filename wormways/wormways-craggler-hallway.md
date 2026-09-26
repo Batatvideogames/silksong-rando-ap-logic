@@ -24,7 +24,7 @@ No subroom connections defined.
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | craggler mini boss fight |  | none |  | Verified | miniboss |  |
-| craggler beast shard |  | defeat craggler mini boss fight |  | Verified | collectible | NOT CURRENTLY RANDOMIZED |
+| craggler beast shard |  | defeat craggler mini boss fight |  | Verified | collectible |  |
 
 ## Notes
 

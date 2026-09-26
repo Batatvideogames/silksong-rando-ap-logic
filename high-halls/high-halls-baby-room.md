@@ -13,7 +13,7 @@ No subrooms defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | R | right1 |  | [High Halls Big Shaft (Hang_08)](high-halls-big-shaft.md) | L | none |  | Verified |  |
-| S | door1 |  | TODO |  | faydown cloaka and cling grip | TODO |  | Secret door to Hang_14 (not in the map, doesn't have any checks) |
+| S | door1 |  | TODO |  | faydown cloak AND cling grip | TODO |  | Secret door to Hang_14 (not in the map, doesn't have any checks) |
 
 ## Subroom Connections
 
@@ -23,4 +23,4 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Relic Psalm Cylinder (High Halls) |  | none |  | Verified |  |  |
+| Relic Psalm Cylinder (High Halls) |  | none |  | Verified | collectible |  |

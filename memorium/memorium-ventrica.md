@@ -23,5 +23,5 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Ventrica: Memorium |  | unlock Ventrica Rosary Lock |  | Verified | travel |  |
-| Ventrica Rosary Lock |  | rosaries 80 |  | Verified | lock |  |
+| Ventrica: Memorium |  | unlock Ventrica: Memorium Rosary Lock |  | Verified | travel |  |
+| Ventrica: Memorium Rosary Lock |  | rosaries 80 |  | Verified | lock |  |

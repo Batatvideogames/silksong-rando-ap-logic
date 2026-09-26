@@ -22,8 +22,8 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| H | Horizontal | Left | Right | dash or clawline or faydown cloak or (spike pogo and ledge grab) or (drifter's cloak and ledge grab) |  |  |  |
-| H | Horizontal | Right | Left | dash or clawline or faydown cloak or spike pogo or drifter's cloak |  |  |  |
+| H | Horizontal | Left | Right | dash OR clawline OR faydown cloak OR (spike pogo AND ledge grab) OR (drifter's cloak AND ledge grab) |  |  |  |
+| H | Horizontal | Right | Left | dash OR clawline OR faydown cloak OR spike pogo OR drifter's cloak |  |  |  |
 | V | Vertical | Top | Left | cling grip |  |  |  |
 | V | Vertical | Left | Top | cling grip |  |  |  |
 

@@ -33,4 +33,4 @@
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Underworks: Flip Switch (Left) #3 | Lever Shaft | Nothing. |  | Verified |  |  |
+| Underworks: Flip Switch (Left) #3 | Lever Shaft | Nothing. |  | Verified | switch |  |

@@ -23,14 +23,14 @@
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | V | Vertical | Top | Base | none |  |  | falling |
-| V | Vertical | Base | Top | cling grip or faydown cloak or silk soar | TODO |  | Needs checking |
+| V | Vertical | Base | Top | cling grip OR faydown cloak OR silk soar | TODO |  | Needs checking |
 | S | Secret | Right Secret | Base | none |  |  | one way door |
 
 ## Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Rosary Cache: Choral Chambers #11 | Top | none |  |  |  | falling |
-| Rosary Cache: Choral Chambers #12 | Top | none |  |  |  | falling |
-| Rosary Cache: Choral Chambers #13 | Top | none |  |  |  | falling |
-| Mask Shard: Cogwork Core | Right Secret | none |  |  |  |  |
+| Rosary Cache: Choral Chambers #11 | Top | none |  |  | collectible | falling |
+| Rosary Cache: Choral Chambers #12 | Top | none |  |  | collectible | falling |
+| Rosary Cache: Choral Chambers #13 | Top | none |  |  | collectible | falling |
+| Mask Shard: Cogwork Core | Right Secret | none |  |  | collectible |  |

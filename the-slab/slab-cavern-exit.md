@@ -21,9 +21,9 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| H | Indolent Door | Left | Right | Indolent Key Owned |  |  |  |
-| H | Indolent Door | Right | Left | Indolent Key Owned |  |  |  |
-| V | Cavern | Cavern | Left | ledge grab or faydown or clawline or silk soar |  |  |  |
+| H | Indolent Door | Left | Right | have Key of Indolent |  |  |  |
+| H | Indolent Door | Right | Left | have Key of Indolent |  |  |  |
+| V | Cavern | Cavern | Left | ledge grab OR faydown OR clawline OR silk soar |  |  |  |
 
 ## Check Locations
 

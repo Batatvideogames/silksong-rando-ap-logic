@@ -20,7 +20,7 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| BS | Big Shaft | Bottom | Top | Silk soar OR ( Cling Grip AND ( Easy skip spike pogo OR  Clawline ) ) |  | Verified |  |
+| BS | Big Shaft | Bottom | Top | Silk soar OR ( Cling Grip AND ( ( Proficient Movement AND Spike Pogo ) OR Clawline ) ) |  | Verified |  |
 | BS | Big Shaft | Top | Bottom | None |  | Verified |  |
 
 ## Check Locations

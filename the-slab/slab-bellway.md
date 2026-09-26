@@ -23,6 +23,6 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Flea: The Slab - Bellway |  | (cling grip and faydown) or silk soar |  |  |  |  |
+| Flea: The Slab - Bellway |  | (cling grip AND faydown) OR silk soar |  |  | collectible |  |
 | Bellway The Slab |  | Unlock Bellway Rosary Lock |  |  | travel |  |
 | Bellway Rosary Lock |  | rosaries 40 |  |  | lock |  |

@@ -22,4 +22,4 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Mask Shard: Wisp Thicket |  | cling grip and (clawline or (faydown cloak and spike pogo)) |  | Verified |  |  |
+| Mask Shard: Wisp Thicket |  | cling grip AND (clawline OR (faydown cloak AND spike pogo)) |  | Verified | collectible |  |

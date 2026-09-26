@@ -28,9 +28,9 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| BL | Reaching Bottom Lever | Bottom | Lever | silk soar or (cling grip and (ledge grab or faydown cloak or clawline)) |  |  |  |
-| LM | Lever to Mid | Lever | Mid | cling grip or silk soar |  |  |  |
-| TOT | Top to Overtop | Top | Overtop | cling grip or faydown cloak or silk soar |  |  |  |
+| BL | Reaching Bottom Lever | Bottom | Lever | silk soar OR (cling grip AND (ledge grab OR faydown cloak OR clawline)) |  |  |  |
+| LM | Lever to Mid | Lever | Mid | cling grip OR silk soar |  |  |  |
+| TOT | Top to Overtop | Top | Overtop | cling grip OR faydown cloak OR silk soar |  |  |  |
 | UG | Coming form Underground | Underground | Bottom | been able to reach top and  (faydown cloak and cling grip) or (silk soar and ((dash and ledge grab) or cling grip or clawline) | TODO |  | Hard to verify because of the difficult geometry |
 | UGL | Underground Level | Top | Underground | none |  |  | Hitting the lever will let you go all the way down to the underground |
 | FOT | Falling from Overtop | Overtop | Top | none |  |  | falling |

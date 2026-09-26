@@ -26,8 +26,8 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | VR | Vertical Right | Top | Bottom Right | Activate Whispering Vaults: Flip Switch #12 |  | Verified |  |
 | VR | Vertical Right | Bottom Right | Top | Activate Whispering Vaults: Flip Switch #12 AND (Cling Grip OR Scuttlebrace OR Faydown Cloak OR Clawline OR Dash OR Silk Soar OR Ledge Grab) |  | Verified |  |
-| VL | Vertical Left | Top | Bottom Right | Nothing. (Fall) |  | Verified |  |
-| VL | Vertical Left | Bottom Right | Top | Silk Soar OR (Faydown Cloak AND (Cling Grip OR Scuttlebrace)) |  | Verified |  |
+| VL | Vertical Left | Top | Bottom Center | Nothing. (Fall) |  | Verified |  |
+| VL | Vertical Left | Bottom Center | Top | Silk Soar OR (Faydown Cloak AND (Cling Grip OR Scuttlebrace)) |  | Verified |  |
 | LL | Leave Left | Bottom Center | Bottom Left Entrance | Activate Whispering Vaults: Flip Switch #4 |  | Verified |  |
 | LL | Leave Left | Bottom Left Entrance | Bottom Center | Activate Whispering Vaults: Flip Switch #4 |  | Verified |  |
 | ESL | Enter Stage Left | Bottom Center | Fight | Nothing. |  | Verified |  |
@@ -39,11 +39,12 @@
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Progressive Claw Mirror 2 | Fight | Defeat Tormented Trobbio |  | Verified | collectible |  |
 | Whispering Vaults: Lore #4 | Bottom Left Entrance | Nothing. |  | Verified | lore |  |
 | Trobbio | Fight | Nothing. |  | Verified | boss |  |
 | Progressive Claw Mirror 1 | Fight | Defeat Trobbio |  | Verified | collectible |  |
 | Whispering Vaults: Flip Switch #4 | Bottom Center | Nothing. |  | Verified | switch |  |
 | Whispering Vaults: Flip Switch #12 | Bottom Right | Nothing. |  | Verified | switch |  |
 | AP Minor Cache - Whispering Vaults - Shell Shard Cache #2 | Top | Nothing. |  | Verified | resource |  |
-| Tormented Trobbio | Fight | (Act 3 AND Activate Wish: Pain, Anguish and Misery IN Songclave) |  | Verified | boss |  |
+| Tormented Trobbio | Fight | complete THE Pain, Anguish and Misery Wish Promised |  | Verified | boss | Is there a hard act 3 requirement for his spawn? - hero, 9/26 |
+| Pain, Anguish and Misery Wish Granted | Fight | Defeat Tormented Trobbio |  | Verified | event |  |
+| Progressive Claw Mirror 2 | Fight | Defeat Tormented Trobbio |  | Verified | collectible |  |

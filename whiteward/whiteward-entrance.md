@@ -39,9 +39,9 @@
 | MLR | Middle Left to Right | Middle Third (Right) | Middle Third (Left) | Nothing (Jump) |  | Verified |  |
 | RVL | Right to Vertical Lower | Middle Third (Right) | Vertical Shaft (Lower) | Nothing (Fall) |  | Verified |  |
 | RVL | Right to Vertical Lower | Vertical Shaft (Lower) | Middle Third (Right) | Cling Grip OR (Scuttlebrace AND (Medium Flea Brew Stall OR Medium Heal Stall OR Faydown)) OR Silk Soar |  | Verified |  |
-| RVU | Right to Vertical Upper | Middle Third (Right) | Vertical Shaft (Upper) | Silk Soar OR (Faydown AND Cling Grip AND Easy Proficient Movement) |  | Verified |  |
+| RVU | Right to Vertical Upper | Middle Third (Right) | Vertical Shaft (Upper) | Silk Soar OR (Faydown AND Cling Grip AND Proficient Movement) |  | Verified |  |
 | RVU | Right to Vertical Upper | Vertical Shaft (Upper) | Middle Third (Right) | Nothing (Fall) |  | Verified |  |
-| VTR | Vertical to Top Right (Entrance) | Vertical Shaft (Upper) | Top Right (Entrance) | Silk Soar OR (Faydown AND Cling Grip AND Easy Proficient Movement) |  | Verified |  |
+| VTR | Vertical to Top Right (Entrance) | Vertical Shaft (Upper) | Top Right (Entrance) | Silk Soar OR (Faydown AND Cling Grip AND Proficient Movement) |  | Verified |  |
 | VTR | Vertical to Top Right (Entrance) | Top Right (Entrance) | Vertical Shaft (Upper) | Nothing (Fall) |  | Verified |  |
 | ETP | Elevator to Pit | Elevator Shaft | Pit | Have White Key |  | Verified |  |
 | ETP | Elevator to Pit | Pit | Elevator Shaft | (Cling Grip OR Scuttlebrace OR Silk Soar) |  | Verified |  |

@@ -12,7 +12,8 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Is this still Deep Docks? (East) (Bone_East_04)](is-this-still-deep-docks-east.md) | UR |  |  |  |  |
+| L | left1 |  | [Is this still Deep Docks? (East) (Bone_East_04)](is-this-still-deep-docks-east.md) | UR | none |  | Verified |  |
+| SC | slab capture |  | [Slab Capture](../fast-travel/slab-capture.md) | DD | after get kidnapped |  | Verified |  |
 
 ## Subroom Connections
 
@@ -20,7 +21,10 @@ No subroom connections defined.
 
 ## Check Locations
 
-No check locations defined.
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| wardenfly |  | ( act 1 OR act 2 ) AND defeat THE bell beast boss fight |  |  | enemy | per the wiki |
+| get kidnapped |  | after wardenfly |  |  | logic-point |  |
 
 ## Notes
 

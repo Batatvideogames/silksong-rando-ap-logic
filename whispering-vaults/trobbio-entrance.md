@@ -13,7 +13,7 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | Left | The Only Jump In This Entire Room | [Trobbio (Library_13)](trobbio.md) | TR | Nothing. |  | Verified |  |
+| L | Left | Not The Jump. | [Trobbio (Library_13)](trobbio.md) | TR | Nothing. |  | Verified |  |
 | R | Right | The Only Jump In This Entire Room | [Whispering Vaults Hell (Library_04)](whispering-vaults-hell.md) | CL | Nothing. |  | Verified |  |
 
 ## Subroom Connections

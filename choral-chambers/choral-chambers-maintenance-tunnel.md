@@ -21,12 +21,12 @@
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | V | Vertical | Base | Maintenance Tunnel | silk soar |  |  |  |
-| V | Vertical | Maintenance Tunnel | Base | silk soar or cling grip |  |  |  |
+| V | Vertical | Maintenance Tunnel | Base | silk soar OR cling grip |  |  |  |
 
 ## Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Rosary Cache: Choral Chambers #17 | Base | none |  |  |  |  |
-| Rosary Cache: Choral Chambers #18 | Base | none |  |  |  |  |
-| Rosary Cache: Choral Chambers #19 | Base | none |  |  |  |  |
+| Rosary Cache: Choral Chambers #17 | Base | none |  |  | collectible |  |
+| Rosary Cache: Choral Chambers #18 | Base | none |  |  | collectible |  |
+| Rosary Cache: Choral Chambers #19 | Base | none |  |  | collectible |  |

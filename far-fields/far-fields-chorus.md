@@ -40,6 +40,8 @@
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| boss fourth chorus | boss arena | complete THE flexible spines wish goal |  | Verified | boss |  |
+| fourth chorus boss fight | boss arena | complete THE flexible spines wish granted |  | Verified | boss |  |
 | rosary cache far fields 2 | upper left alcove | none |  | Verified | collectible |  |
-| free silk | upper right alcove | none |  | Verified | resource | NOT CURRENTLY RANDOMIZED |
+| silk | upper right alcove | none |  | Verified | resource | silk webs |
+| savage beastfly 2 boss fight | boss arena | complete THE savage beastfly wish promised |  | Verified | boss |  |
+| Horn Fragment | boss arena | defeat savage beastfly 2 boss fight |  | Verified | collectible |  |

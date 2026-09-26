@@ -33,13 +33,15 @@
 | F3 | Upper Left to Right Stage | Upper Left | Right Stage | none |  | Verified | falling |
 | F4 | Right Stage to Bottom Left | Right Stage | Bottom Left | none |  | Verified | falling |
 | F5 | Bottom Left to Bottom Right | Bottom Left | Bottom Right | none |  | Verified | falling |
-| J5 | Bottom Right to Bottom Left | Bottom Right | Bottom Left | silk soar or cling grip |  | Verified | Might be able to use enemy pogo and faydown cloak |
-| J4 | Bottom Left to Right Stage | Bottom Left | Right Stage | cling grip or silk soar |  | Verified |  |
-| J3 | Right Stage to Upper Left | Right Stage | Upper Left | cling grip or silk soar |  | Verified |  |
+| J5 | Bottom Right to Bottom Left | Bottom Right | Bottom Left | silk soar OR cling grip |  | Verified | Might be able to use enemy pogo and faydown cloak |
+| J4 | Bottom Left to Right Stage | Bottom Left | Right Stage | cling grip OR silk soar |  | Verified |  |
+| J3 | Right Stage to Upper Left | Right Stage | Upper Left | cling grip OR silk soar |  | Verified |  |
 | J3E | Bottom Right to Upper Left | Bottom Right | Upper Left | silk soar |  | Verified |  |
-| J2 | Upper Left to Upper Right | Upper Left | Upper Right | (cling grip and (faydown cloak or swift step or clawline)) or silk soar |  | Verified |  |
-| J1 | Upper Right to Top | Upper Right | Top | ledge grab or silk soar or clawline or faydown cloak |  | Verified |  |
+| J2 | Upper Left to Upper Right | Upper Left | Upper Right | (cling grip AND (faydown cloak OR swift step OR clawline)) OR silk soar |  | Verified |  |
+| J1 | Upper Right to Top | Upper Right | Top | ledge grab OR silk soar OR clawline OR faydown cloak |  | Verified |  |
 
 ## Check Locations
 
-No check locations defined.
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Lace Second Encounter | Bottom Right | none |  | Verified | event |  |

@@ -20,8 +20,8 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| BC | B-C | Bottom | Center | Silk Soar OR Cling Grip OR Scuttlebrace AND Crest Pogo (Shaman) OR Faydown Cloak AND (Ledge Grab OR Clawline) |  | Verified |  |
-| CT | C-T | Center | Top | Silk Soar OR Cling Grip OR Scuttlebrac |  | Verified |  |
+| BC | B-C | Bottom | Center | Silk Soar OR Cling Grip OR Scuttlebrace AND Easy Shaman Pogo OR Faydown Cloak AND (Ledge Grab OR Clawline) |  | Verified |  |
+| CT | C-T | Center | Top | Silk Soar OR Cling Grip OR Scuttlebrace |  | Verified |  |
 | CT | C-T | Top | Center | Nothing. (Fall) |  | Verified |  |
 | BC | B-C | Center | Bottom | Nothing. (Fall) |  | Verified |  |
 

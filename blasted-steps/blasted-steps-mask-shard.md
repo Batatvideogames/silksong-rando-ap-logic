@@ -22,4 +22,4 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Mask Shard: Blasted Steps |  | (Scuttlebrace AND Faydown) OR (Cling Grip AND Easy Skip Spike Pogo AND (Ledge Grab OR Easy Hazard Respawn)) |  | Verified | collectible |  |
+| Mask Shard: Blasted Steps |  | (Scuttlebrace AND Faydown) OR ( Proficient Movement AND Cling Grip AND Spike Pogo AND (Ledge Grab OR Easy Hazard Respawn)) |  | Verified | collectible |  |

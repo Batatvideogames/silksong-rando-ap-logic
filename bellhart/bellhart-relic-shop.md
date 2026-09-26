@@ -22,18 +22,22 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Hand In bone scroll 1 |  | Bone scroll |  | Verified |  |  |
-| Hand In bone scroll 2 |  | Bone scroll |  | Verified |  |  |
-| Hand In bone scroll 3 |  | Bone scroll |  | Verified |  |  |
-| Hand In bone scroll 4 |  | Bone scroll |  | Verified |  |  |
-| Hand In Weaver Effigy 1 |  | Weaver Effigy |  | Verified |  |  |
-| Hand In Weaver Effigy 2 |  | Weaver Effigy |  | Verified |  |  |
-| Hand In Weaver Effigy 3 |  | Weaver Effigy |  | Verified |  |  |
-| Hand in Choral Commandment 1 |  | Choral Commandment |  | Verified |  |  |
-| Hand in Choral Commandment 2 |  | Choral Commandment |  | Verified |  |  |
-| Hand in Choral Commandment 3 |  | Choral Commandment |  | Verified |  |  |
-| Hand in Choral Commandment 4 |  | Choral Commandment |  | Verified |  |  |
-| Hand in Rune Harp 1 |  | Rune Harp |  | Verified |  |  |
-| Hand in Rune Harp 2 |  | Rune Harp |  | Verified |  |  |
-| Hand in Rune Harp 3 |  | Rune Harp |  | Verified |  |  |
-| Hand in Arcane Egg |  | Arcane Egg |  | Verified |  |  |
+| Hand In Bone Scroll Relic Bone Scroll Far Fields |  | have Relic Bone Scroll Far Fields |  | Verified | event |  |
+| Hand In Bone Scroll Greymoor |  | have Relic Bone Scroll Greymoor |  | Verified | event |  |
+| Hand In Bone Scroll Underworks |  | have Relic Bone Scroll Underworks |  | Verified | event |  |
+| Hand In Bone Scroll Wisp Thicket |  | have Relic Bone Scroll Wisp Thicket |  | Verified | event |  |
+| Hand In Weaver Effigy Moss Grotto |  | have Relic Weaver Effigy Camora Moss Grotto |  | Verified | event |  |
+| Hand In Weaver Effigy Shellwood |  | have Relic Weaver Effigy Keelal Shellwood |  | Verified | event |  |
+| Hand In Weaver Effigy  The Slab |  | have Relic Weaver Effigy Atla The Slab |  | Verified | event |  |
+| Hand in Choral Commandment Jubilana |  | have Relic Choral Commandment Jubilana |  | Verified | event |  |
+| Hand in Choral Commandment Western Whiteward |  | have Relic Choral Commandment Western Whiteward |  | Verified | event |  |
+| Hand in Choral Commandment Moss Grotto |  | have Relic Choral Commandment Moss Grotto |  | Verified | event |  |
+| Hand in Choral Commandment Eastern Whiteward |  | have Relic Choral Commandment Eastern Whiteward |  | Verified | event |  |
+| Hand in Rune Harp Weavenest Atla |  | have Relic Rune Harp Weavenest Atla |  | Verified | event |  |
+| Hand in Rune Harp Weavenest Cindril |  | have Relic Rune Harp Weavenest Cindril |  | Verified | event |  |
+| Hand in Rune Harp High Halls |  | have Relic Rune Harp High Halls |  | Verified | event |  |
+| Hand in Arcane Egg |  | have Relic Arcane Egg |  | Verified | event |  |
+
+## Notes
+
+Relic slots are numbered for convenience but not for required reasons.

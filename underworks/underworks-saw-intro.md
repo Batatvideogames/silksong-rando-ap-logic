@@ -20,11 +20,11 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| H | Horizontal | Left | Right | ledge grab or dash or clawline or cling grip |  |  |  |
-| H | Horizontal | Right | Left | ledge grab or dash or clawline |  |  |  |
+| H | Horizontal | Left | Right | ledge grab OR dash OR clawline OR cling grip |  |  |  |
+| H | Horizontal | Right | Left | ledge grab OR dash OR clawline |  |  |  |
 
 ## Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Shell Shard Cache: Underworks #12 | Left | none |  |  |  |  |
+| Shell Shard Cache: Underworks #12 | Left | none |  |  | collectible |  |

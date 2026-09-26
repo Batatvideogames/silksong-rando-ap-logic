@@ -15,7 +15,7 @@
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | R | Right | Lower Third | [Horizontal Room with Sand Pit (Coral_11b)](horizontal-room-with-sand-pit.md) | L | Nothing |  | Verified |  |
-| C | Center | Middle Third | [Pinstress Room (Room_Pinstress)](pinstress-room.md) | L | Nothing (Falling) |  | Verified |  |
+| C | Center | Middle Third | [Windy Pinstress Room (Room_Pinstress)](windy-pinstress-room.md) | L | Nothing (Falling) |  | Verified |  |
 | T | Top | Upper Third | [Sands of Karak Entrance (Coral_25)](../sands-of-karak/sands-of-karak-entrance.md) | F | Cling Grip OR (Scuttlebrace AND Faydown) OR Silk Soar |  | Verified |  |
 
 ## Subroom Connections

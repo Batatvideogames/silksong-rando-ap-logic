@@ -24,8 +24,8 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| V | Base to Top | Base | Top | cling grip and (faydown cloak or dash or sharpdart or drifter's cloak or ledge grab) or silk soar |  |  |  |
-| V2 | Top To Memory | Top | Memory | faydown cloak or ledge grab or silk soar | TODO |  | check cling grip as well when there's no ledge grab |
+| V | Base to Top | Base | Top | cling grip AND (faydown cloak OR dash OR sharpdart OR drifter's cloak OR ledge grab) OR silk soar |  |  |  |
+| V2 | Top To Memory | Top | Memory | faydown cloak OR ledge grab OR silk soar | TODO |  | check cling grip as well when there's no ledge grab |
 | F | Top to Base | Top | Base | none |  |  | falling |
 | S | Secret to Top | Secret | Top | none | TODO |  | falling |
 | S2 | Secret to Memory | Secret | Memory | none | TODO |  | falling |
@@ -34,6 +34,6 @@
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Memory Locket: Underworks | Memory | none |  |  |  |  |
-| Shell Shard Cache: Underworks #15 | Top | none |  |  |  |  |
-| Relic: Psalm Cylinder (Underworks) | Secret | TBD | TODO |  |  |  |
+| Memory Locket: Underworks | Memory | none |  |  | collectible | based on in-game coords, this is named incorrectly - hero, 9/26 |
+| Shell Shard Cache: Underworks #15 | Top | none |  |  | collectible |  |
+| Relic: Psalm Cylinder (Underworks) | Secret | TBD | TODO |  | collectible |  |

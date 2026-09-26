@@ -237,9 +237,9 @@
       "category": "Ability",
       "inputSyntax": "{predicate}",
       "outputSyntax": "capability:sharpdart",
-      "notes": "Implies the ability to equip it and the necessary silk to use it.",
+      "notes": "Implies the ability to equip it and the necessary silk to use it. I will allow \u0022sharp dart\u0022 as an alias. Not without protest.",
       "sortOrder": 23,
-      "aliases": "sharpdart"
+      "aliases": "sharpdart, sharp dart"
     },
     {
       "id": "eb7828d2-2c03-4846-b205-68abdd563801",
@@ -612,23 +612,13 @@
       "aliases": "spike pogo"
     },
     {
-      "id": "be669aa2-f8e6-45e4-9d93-55095644eed9",
-      "name": "Spike Pogo Skip",
-      "category": "Technique",
-      "inputSyntax": "{difficulty} {predicate}",
-      "outputSyntax": "capability:spike-pogo-skip:{difficulty}",
-      "notes": "Use when a traversal requires a pogo on spikes. Needed for cloakless run randomization. Considered a skip if it is devious movement that should not be performed by mere mortals.",
-      "sortOrder": 61,
-      "aliases": "skip spike pogo"
-    },
-    {
       "id": "888001b0-59b2-435d-8f2c-e85c0c5b6e64",
       "name": "Wind Skip",
       "category": "Technique",
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:wind-skip:{difficulty}",
       "notes": "Used in windy areas in Blasted Steps. Implies owning drifter\u0027s cloak. ",
-      "sortOrder": 62,
+      "sortOrder": 61,
       "aliases": "wind skip"
     },
     {
@@ -638,7 +628,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:cocoon-skip:{difficulty}",
       "notes": "\u0022We are NOT doing cocoon skip.\u0022 - Moriko Kyoho, 2026",
-      "sortOrder": 63,
+      "sortOrder": 62,
       "aliases": "cocoon skip"
     },
     {
@@ -648,7 +638,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:needle-strike-stall:{difficulty}",
       "notes": "",
-      "sortOrder": 64,
+      "sortOrder": 63,
       "aliases": "needle strike stall, charge stall"
     },
     {
@@ -658,7 +648,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:heal-stall:{difficulty}",
       "notes": "Factors in whether the user only has shaman crest.",
-      "sortOrder": 65,
+      "sortOrder": 64,
       "aliases": "heal stall"
     },
     {
@@ -668,7 +658,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:flea-brew-stall:{difficulty}",
       "notes": "Implies owning and being able to equip tool.",
-      "sortOrder": 66,
+      "sortOrder": 65,
       "aliases": "flea brew stall"
     },
     {
@@ -678,7 +668,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:flintslate-stall:{difficulty}",
       "notes": "Implies owning and being able to equip tool.",
-      "sortOrder": 67,
+      "sortOrder": 66,
       "aliases": "flintslate stall"
     },
     {
@@ -688,7 +678,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:plasmium-phial-stall:{difficulty}",
       "notes": "Implies owning and being able to equip tool.",
-      "sortOrder": 68,
+      "sortOrder": 67,
       "aliases": "plasmium phial stall, plasmium stall"
     },
     {
@@ -698,7 +688,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:voltvessels-stall:{difficulty}",
       "notes": "Implies owning and being able to equip tool.",
-      "sortOrder": 69,
+      "sortOrder": 68,
       "aliases": "voltvessels stall"
     },
     {
@@ -708,7 +698,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:hazard-respawn:{difficulty}",
       "notes": "Indicates the user takes advantage of a hazard respawn to cross a gap. Must be careful not to confuse with damage boost, which does not respawn the player. Quantity indicates masks of damage taken.",
-      "sortOrder": 70,
+      "sortOrder": 69,
       "aliases": "hazard respawn"
     },
     {
@@ -718,7 +708,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:damage-boost:{difficulty}",
       "notes": "Indicates the user takes advantage of a taking damage to cross a gap. Must be careful not to confuse with hazard respawn, which respawns the player. Quantity indicates masks of damage taken.",
-      "sortOrder": 71,
+      "sortOrder": 70,
       "aliases": "damage boost"
     },
     {
@@ -728,7 +718,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "capability:proficient-movement",
       "notes": "For situations that do not use a specific stall or skip technique, but the traversal requires a minimum skill level.",
-      "sortOrder": 72,
+      "sortOrder": 71,
       "aliases": "proficient movement"
     },
     {
@@ -738,7 +728,7 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "count:rosaries:{quantity}",
       "notes": "",
-      "sortOrder": 73,
+      "sortOrder": 72,
       "aliases": "rosaries"
     },
     {
@@ -748,7 +738,7 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "count:shell-shards:{quantity}",
       "notes": "",
-      "sortOrder": 74,
+      "sortOrder": 73,
       "aliases": "shell shards"
     },
     {
@@ -758,7 +748,7 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "count:craftmetals:{quantity}",
       "notes": "",
-      "sortOrder": 75,
+      "sortOrder": 74,
       "aliases": "craftmetals"
     },
     {
@@ -768,7 +758,7 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "count:fleas:{quantity}",
       "notes": "",
-      "sortOrder": 76,
+      "sortOrder": 75,
       "aliases": "fleas, rescued fleas"
     },
     {
@@ -778,7 +768,7 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "count:mossberries:{quantity}",
       "notes": "",
-      "sortOrder": 77,
+      "sortOrder": 76,
       "aliases": "mossberries"
     },
     {
@@ -788,7 +778,7 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "count:flexible-spines:{quantity}",
       "notes": "Used for the Flexible Spines wish. The spines are an infinitely farmable resources if you have access to a Hoker enemy if you can leave then reenter the room. ",
-      "sortOrder": 78,
+      "sortOrder": 77,
       "aliases": "flexible spines"
     },
     {
@@ -798,7 +788,7 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "count:pollip-hearts:{quantity}",
       "notes": "Used for the Rite of Pollip wish.",
-      "sortOrder": 79,
+      "sortOrder": 78,
       "aliases": "pollip hearts"
     },
     {
@@ -808,7 +798,7 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "count:pale-oil:{quantity}",
       "notes": "",
-      "sortOrder": 80,
+      "sortOrder": 79,
       "aliases": "pale oils"
     },
     {
@@ -818,7 +808,7 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "count:spool-fragments:{quantity}",
       "notes": "",
-      "sortOrder": 81,
+      "sortOrder": 80,
       "aliases": "spool fragments"
     },
     {
@@ -828,7 +818,7 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "count:progressive-silkheart:{quantity}",
       "notes": "",
-      "sortOrder": 82,
+      "sortOrder": 81,
       "aliases": "silk hearts, progressive silk hearts, silkhearts"
     },
     {
@@ -838,7 +828,7 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "count:progressive-needle-upgrade:{quantity}",
       "notes": "",
-      "sortOrder": 83,
+      "sortOrder": 82,
       "aliases": "needle upgrades"
     },
     {
@@ -848,7 +838,7 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "count:pilgrim-shawls:{quantity}",
       "notes": "Used for the Garb of the Pilgrims wish. The following pilgrim enemies grant shawls upon defeat: pilgrim groveller, pilgrim pouncer, overgrown pilgrim, winged pilgrim, covetous pilgrim, pilgrim hulk, pilgrim hornfly, pilgrim bellbearer, winged pilgrim bellbearer, elder pilgrim, pilgrim hiker, and pilgrim guide.",
-      "sortOrder": 84,
+      "sortOrder": 83,
       "aliases": "pilgrim shawls"
     },
     {
@@ -858,7 +848,7 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "count:flintgems:{quantity}",
       "notes": "Used for the wish Volatile Flintbeetles.",
-      "sortOrder": 85,
+      "sortOrder": 84,
       "aliases": "flintgems"
     },
     {
@@ -868,7 +858,7 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "count:plasmified-blood:{quantity}",
       "notes": "Used in the wish Advanced Alchemy. ",
-      "sortOrder": 86,
+      "sortOrder": 85,
       "aliases": "plasmified blood"
     },
     {
@@ -878,7 +868,7 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "count:roach-guts:{quantity}",
       "notes": "Used for the wish Roach Guts.",
-      "sortOrder": 87,
+      "sortOrder": 86,
       "aliases": "roach guts"
     },
     {
@@ -888,7 +878,7 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "count:seared-organs:{quantity}",
       "notes": "Used for the Broodfeast or Runtfeast wish.",
-      "sortOrder": 88,
+      "sortOrder": 87,
       "aliases": "seared organs"
     },
     {
@@ -898,7 +888,7 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "count:shredded-organs:{quantity}",
       "notes": "Used for the Broodfeast or Runtfeast wish.",
-      "sortOrder": 89,
+      "sortOrder": 88,
       "aliases": "shredded organs"
     },
     {
@@ -908,7 +898,7 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "count:skewered-organs:{quantity}",
       "notes": "Used for the Broodfeast or Runtfeast wish.",
-      "sortOrder": 90,
+      "sortOrder": 89,
       "aliases": "skewered organs"
     },
     {
@@ -918,7 +908,7 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "count:bellshrines-activated:{quantity}",
       "notes": "Used for Last Judge fight trigger.",
-      "sortOrder": 91,
+      "sortOrder": 90,
       "aliases": "activated bellshrines"
     },
     {
@@ -928,7 +918,7 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "count:tool-slots-unlocked:{quantity}",
       "notes": "Used for Eva requirements. Implies having the needed crests for the number of tool slots and enough memory lockets to unlock them.",
-      "sortOrder": 92,
+      "sortOrder": 91,
       "aliases": "tool slots unlocked"
     },
     {
@@ -938,7 +928,7 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "count:hunter-journal-entries:{quantity}",
       "notes": "Used for Nuu\u0027s wish or Hunter\u0027s Journal completion goals. Indicates the number of unique enemies you can encounter and journal.",
-      "sortOrder": 93,
+      "sortOrder": 92,
       "aliases": "hunters journal entries"
     },
     {
@@ -948,8 +938,48 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "count:shakra-map-purchases:{quantity}",
       "notes": "Used for Trail\u0027s End wish. Must have all of Shakra\u0027s maps purchased. ",
-      "sortOrder": 94,
+      "sortOrder": 93,
       "aliases": "shakra map purchases"
+    },
+    {
+      "id": "4e56af0f-d99d-425d-bcca-cd163603bc7c",
+      "name": "Second Sentinel Encounters",
+      "category": "Count",
+      "inputSyntax": "{predicate} {quantity}",
+      "outputSyntax": "count:second-sentinel-encounters:{quantity}",
+      "notes": "Used for the Final Audience wish. All Second Sentinel Encounters locations listed in the wiki are marked as events with appropriate requirements. ",
+      "sortOrder": 94,
+      "aliases": "second sentinel encounters"
+    },
+    {
+      "id": "d8e12269-b23e-479a-ae9e-6486dc01153f",
+      "name": "Fine Pins",
+      "category": "Count",
+      "inputSyntax": "{predicate} {quantity}",
+      "outputSyntax": "count:fine-pins:{quantity}",
+      "notes": "Used for the Fine Pins wish. Dropped by Choristors and Reeds. Will need enemies that drop them/resource locations marked in logic. ",
+      "sortOrder": 95,
+      "aliases": "fine pins"
+    },
+    {
+      "id": "6efc5e19-3a0a-4c0e-960c-d7fc20b9950f",
+      "name": "Choir Cloaks",
+      "category": "Count",
+      "inputSyntax": "{predicate} {quantity}",
+      "outputSyntax": "count:choir-cloaks:{quantity}",
+      "notes": "Used for the Cloaks of the Choir wish. Dropped by Choir Pouncers, Choir Hornheads, Choir Flyers, and Choir Elders. Locations of enemies that drop them and resources will need to be marked in logic.",
+      "sortOrder": 96,
+      "aliases": "choir cloaks"
+    },
+    {
+      "id": "f1fc48ec-ff2e-45b4-8fdd-13e626f11ab9",
+      "name": "Cogheart Pieces",
+      "category": "Count",
+      "inputSyntax": "{predicate} {quantity}",
+      "outputSyntax": "count:cogheart-pieces:{quantity}",
+      "notes": "Used to activate the Second Sentinel.",
+      "sortOrder": 97,
+      "aliases": "cogheart pieces"
     },
     {
       "id": "9da1d469-6d84-4927-bef0-f3cc5380fab0",
@@ -958,7 +988,7 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "count:threefold-melody-parts:{quantity}",
       "notes": "Used for Trail\u0027s End wish. Must have two out of the three at least.",
-      "sortOrder": 95,
+      "sortOrder": 98,
       "aliases": "threefold melody parts"
     },
     {
@@ -968,8 +998,18 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "count:maps:{quantity}",
       "notes": "Used for the A Vassal Lost wish requirements.",
-      "sortOrder": 96,
+      "sortOrder": 99,
       "aliases": "maps"
+    },
+    {
+      "id": "9152c3af-ce91-457c-9b92-16ed8a8c31a2",
+      "name": "Grant Songclave Wishes",
+      "category": "Count",
+      "inputSyntax": "{predicate} {quantity}",
+      "outputSyntax": "count:grant-songclave-wishes:{quantity}",
+      "notes": "Used for various Songclave wish requirements. ",
+      "sortOrder": 100,
+      "aliases": "grant songclave wishes"
     },
     {
       "id": "7b0154be-a624-428b-8805-3a57ae617d61",
@@ -978,8 +1018,18 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "count:visit-resting-sites:{quantity}",
       "notes": "Used in the A Vassal Lost wish requirements. Three resting sites are randomly assigned to be visited out of a pool of six sites in various locations. Visiting all three assigned sites unlocks the passage in Bonegrave to reach the Summoned Savior boss fight.",
-      "sortOrder": 97,
+      "sortOrder": 101,
       "aliases": "visit resting sites"
+    },
+    {
+      "id": "8f81089b-ac57-4688-a214-15635e4ffc90",
+      "name": "Silk and Soul Points",
+      "category": "Count",
+      "inputSyntax": "{predicate} {quantity}",
+      "outputSyntax": "count:silk-and-soul-points:{quantity}",
+      "notes": "Uuuuuuuh, good luck on this one. :)",
+      "sortOrder": 102,
+      "aliases": "silk and soul points"
     },
     {
       "id": "689ba9ed-8105-43a8-aeb1-f1cd5a828062",
@@ -988,7 +1038,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:act-1",
       "notes": "I don\u0027t think this will get used, but adding it for completeness. ",
-      "sortOrder": 98,
+      "sortOrder": 103,
       "aliases": "act i, act 1"
     },
     {
@@ -998,7 +1048,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:act-2",
       "notes": "",
-      "sortOrder": 99,
+      "sortOrder": 104,
       "aliases": "act ii, act 2"
     },
     {
@@ -1008,7 +1058,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:act-3",
       "notes": "",
-      "sortOrder": 100,
+      "sortOrder": 105,
       "aliases": "act iii, act 3"
     },
     {
@@ -1017,8 +1067,8 @@
       "category": "State",
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:craw-summons-ready",
-      "notes": "Ready to receive Craw Summons at an eligible bench spot. Created a predicate because there is not a singular spot to define the logic. Implies proper story progression, but not eligible bench access. Bench access logic is applied by using this requirement on the check location.",
-      "sortOrder": 101,
+      "notes": "Ready to receive Craw Summons at an eligible bench spot. Created a predicate because there is not a singular spot to define the logic. Implies proper story progression, but not eligible bench access. Bench access logic is applied by using this requirement on the check location.\n\n\u0022To receive the Craw Summons, Hornet must have reached Act 3, completed the SEEK: Awaiting the End objective, and hit the lever inside the Craw house on Craw Lake.\u0022 - per the wiki",
+      "sortOrder": 106,
       "aliases": "craw summons ready"
     },
     {
@@ -1028,7 +1078,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:visit-shellwood",
       "notes": "Used for the wish Volatile Flintbeetles.",
-      "sortOrder": 102,
+      "sortOrder": 107,
       "aliases": "visit shellwood"
     },
     {
@@ -1038,7 +1088,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:visit-greymoor",
       "notes": "Used for the wish Volatile Flintbeetles.",
-      "sortOrder": 103,
+      "sortOrder": 108,
       "aliases": "visit greymoor"
     },
     {
@@ -1048,7 +1098,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:visit-sinners-road",
       "notes": "",
-      "sortOrder": 104,
+      "sortOrder": 109,
       "aliases": "visit sinners road"
     },
     {
@@ -1058,7 +1108,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:visit-blasted-steps",
       "notes": "",
-      "sortOrder": 105,
+      "sortOrder": 110,
       "aliases": "visit blasted steps"
     },
     {
@@ -1068,8 +1118,18 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:visit-the-citadel",
       "notes": "Used for the wish An Icon of Hope. In-game flag is tied to citadelWoken. Good luck.",
-      "sortOrder": 106,
+      "sortOrder": 111,
       "aliases": "visit the citadel"
+    },
+    {
+      "id": "9dbc4d22-777b-4fa0-99be-27e9523771d8",
+      "name": "Visit Whiteward",
+      "category": "State",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "state:visit-whiteward",
+      "notes": "Used for the wish Balm for the Wounded.",
+      "sortOrder": 112,
+      "aliases": "visit whiteward"
     },
     {
       "id": "1d8e373c-12c5-4eff-a68e-4255371018f2",
@@ -1078,7 +1138,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "setting:steel-soul-on",
       "notes": "",
-      "sortOrder": 107,
+      "sortOrder": 113,
       "aliases": "steel soul on, steel soul, ooo look at me im so good at the game"
     },
     {
@@ -1088,7 +1148,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "setting:steel-soul-off",
       "notes": "",
-      "sortOrder": 108,
+      "sortOrder": 114,
       "aliases": "steel soul off"
     },
     {
@@ -1098,7 +1158,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "setting:bellshrinesanity-on",
       "notes": "",
-      "sortOrder": 109,
+      "sortOrder": 115,
       "aliases": "bellshrinesanity on"
     },
     {
@@ -1108,8 +1168,88 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "setting:bellshrinesanity-off",
       "notes": "",
-      "sortOrder": 110,
+      "sortOrder": 116,
       "aliases": "bellshrinesanity off"
+    },
+    {
+      "id": "4af4e6d4-ab97-4a77-a6fd-e5a94f7a1483",
+      "name": "Ragpelts",
+      "category": "Count",
+      "inputSyntax": "{predicate} {quantity}",
+      "outputSyntax": "count:ragpelts:{quantity}",
+      "notes": "Used in the wish Crawbug Clearing. Dropped by Craws, Tallcraws, and Squatcraws. Locations will need to be marked on the map for enemies and resources.",
+      "sortOrder": 117,
+      "aliases": "ragpelts"
+    },
+    {
+      "id": "c0dc374f-443f-433b-872d-813c899bab18",
+      "name": "Tools",
+      "category": "Count",
+      "inputSyntax": "{predicate} {quantity}",
+      "outputSyntax": "count:tools:{quantity}",
+      "notes": "Own the specified number of tools. Required for Architect\u0027s Key.",
+      "sortOrder": 118,
+      "aliases": "tools"
+    },
+    {
+      "id": "9b820438-da1c-4bd5-bde7-f8ddb5268335",
+      "name": "Silver Bells",
+      "category": "Count",
+      "inputSyntax": "{predicate} {quantity}",
+      "outputSyntax": "count:silver-bells:{quantity}",
+      "notes": "Used for the Silver Bells wish. Silver bell gather locations will need to be marked on the map to facilitate this logic requirement.",
+      "sortOrder": 119,
+      "aliases": "silver bells"
+    },
+    {
+      "id": "8b077960-3193-42fd-8bac-b9c7bff9437c",
+      "name": "Sold Relics",
+      "category": "Count",
+      "inputSyntax": "{predicate} {quantity}",
+      "outputSyntax": "count:sold-relics:{quantity}",
+      "notes": "Used for Restoration of Bellhart wish. Indicates how many relics have been sold to Relic Seeker Scrounge. ",
+      "sortOrder": 120,
+      "aliases": "sold relics"
+    },
+    {
+      "id": "929cf766-1e04-4cd2-b3d2-c6a71bcfb96a",
+      "name": "Garmond and Zaza Encounters",
+      "category": "Count",
+      "inputSyntax": "{predicate} {quantity}",
+      "outputSyntax": "count:garmond-and-zaza-encounters:{quantity}",
+      "notes": "Used for the wish Hero\u0027s Call. Wiki indicates that the encounters must be Act 3 encounters.",
+      "sortOrder": 121,
+      "aliases": "garmond and zaza encounters"
+    },
+    {
+      "id": "1ee01afb-9c11-42fe-9060-4c3c0e8876e9",
+      "name": "Destroy Void Masses",
+      "category": "Count",
+      "inputSyntax": "{predicate} {quantity}",
+      "outputSyntax": "count:destroy-void-masses:{quantity}",
+      "notes": "Used in the Dark Hearts wish. According to the wiki there are 47 void masses locations (45 in Steel Soul because the two near Styx\u0027s spot don\u0027t spawn). No drops for the quest, just a defeat counter for them. ",
+      "sortOrder": 122,
+      "aliases": "destroy void masses"
+    },
+    {
+      "id": "ddeca9eb-9dde-46c0-9e2a-2ac498c62135",
+      "name": "Bellhome Items",
+      "category": "Count",
+      "inputSyntax": "{predicate} {quantity}",
+      "outputSyntax": "count:bellhome-items:{quantity}",
+      "notes": "",
+      "sortOrder": 123,
+      "aliases": "bellhome items"
+    },
+    {
+      "id": "0eb66d8e-b7ce-45f9-8296-8ed3fe422938",
+      "name": "Sold Pslam Cylinders",
+      "category": "Count",
+      "inputSyntax": "{predicate} {quantity}",
+      "outputSyntax": "count:sold-psalm-cylinders:{quantity}",
+      "notes": "",
+      "sortOrder": 124,
+      "aliases": "sold pslam cylinders"
     }
   ],
   "items": [
@@ -1129,7 +1269,7 @@
       "outputValue": "ability-needle-strike",
       "notes": "",
       "sortOrder": 1,
-      "aliases": "Ability Needle Strike"
+      "aliases": "Ability Needle Strike, Needle Strike"
     },
     {
       "id": "18d97493-21c8-59ea-b355-27ce1e303cbf",
@@ -3643,12 +3783,21 @@
       "aliases": "Crown Fragment"
     },
     {
+      "id": "20afa5ae-338f-4690-9932-434c49938b45",
+      "name": "Broodmother\u0027s Eye",
+      "category": "MajorKey",
+      "outputValue": "broodmothers-eye",
+      "notes": "",
+      "sortOrder": 281,
+      "aliases": "broodmothers eye"
+    },
+    {
       "id": "50d6047d-84a4-5cda-9e20-f88da711377b",
       "name": "Flea: Greymoor (Kratt)",
       "category": "Flea",
       "outputValue": "flea-greymoor-kratt",
       "notes": "",
-      "sortOrder": 281,
+      "sortOrder": 282,
       "aliases": "Flea Greymoor Kratt"
     },
     {
@@ -3657,7 +3806,7 @@
       "category": "Flea",
       "outputValue": "flea-putrified-ducts-vog",
       "notes": "",
-      "sortOrder": 282,
+      "sortOrder": 283,
       "aliases": "Flea Putrified Ducts Vog"
     },
     {
@@ -3666,7 +3815,7 @@
       "category": "Flea",
       "outputValue": "flea-memorium-huge-flea",
       "notes": "",
-      "sortOrder": 283,
+      "sortOrder": 284,
       "aliases": "Flea Memorium Huge Flea"
     },
     {
@@ -3675,7 +3824,7 @@
       "category": "Trap",
       "outputValue": "naked-trap",
       "notes": "",
-      "sortOrder": 284,
+      "sortOrder": 285,
       "aliases": "Naked Trap"
     },
     {
@@ -3684,7 +3833,7 @@
       "category": "SilkHeart",
       "outputValue": "progressive-silkheart",
       "notes": "",
-      "sortOrder": 285,
+      "sortOrder": 286,
       "aliases": "Progressive Silkheart"
     },
     {
@@ -3693,7 +3842,7 @@
       "category": "ToolPouch",
       "outputValue": "progressive-tool-pouch",
       "notes": "",
-      "sortOrder": 286,
+      "sortOrder": 287,
       "aliases": "Progressive Tool Pouch"
     },
     {
@@ -3702,7 +3851,7 @@
       "category": "PollipHeart",
       "outputValue": "pollip-heart",
       "notes": "",
-      "sortOrder": 287,
+      "sortOrder": 288,
       "aliases": "Pollip Heart"
     },
     {
@@ -3711,7 +3860,7 @@
       "category": "Resource",
       "outputValue": "growstone",
       "notes": "",
-      "sortOrder": 288,
+      "sortOrder": 289,
       "aliases": "Growstone"
     },
     {
@@ -3720,7 +3869,7 @@
       "category": "Resource",
       "outputValue": "rosaries-30",
       "notes": "",
-      "sortOrder": 289,
+      "sortOrder": 290,
       "aliases": "Rosaries 30"
     },
     {
@@ -3729,7 +3878,7 @@
       "category": "Resource",
       "outputValue": "rosaries-70",
       "notes": "",
-      "sortOrder": 290,
+      "sortOrder": 291,
       "aliases": "Rosaries 70"
     },
     {
@@ -3738,7 +3887,7 @@
       "category": "Resource",
       "outputValue": "rosaries-75",
       "notes": "",
-      "sortOrder": 291,
+      "sortOrder": 292,
       "aliases": "Rosaries 75"
     },
     {
@@ -3747,7 +3896,7 @@
       "category": "Resource",
       "outputValue": "rosaries-84",
       "notes": "",
-      "sortOrder": 292,
+      "sortOrder": 293,
       "aliases": "Rosaries 84"
     },
     {
@@ -3756,7 +3905,7 @@
       "category": "Resource",
       "outputValue": "rosaries-90",
       "notes": "",
-      "sortOrder": 293,
+      "sortOrder": 294,
       "aliases": "Rosaries 90"
     },
     {
@@ -3765,7 +3914,7 @@
       "category": "Resource",
       "outputValue": "rosaries-105",
       "notes": "",
-      "sortOrder": 294,
+      "sortOrder": 295,
       "aliases": "Rosaries 105"
     },
     {
@@ -3774,7 +3923,7 @@
       "category": "Resource",
       "outputValue": "rosaries-112",
       "notes": "",
-      "sortOrder": 295,
+      "sortOrder": 296,
       "aliases": "Rosaries 112"
     },
     {
@@ -3783,7 +3932,7 @@
       "category": "Resource",
       "outputValue": "rosaries-115",
       "notes": "",
-      "sortOrder": 296,
+      "sortOrder": 297,
       "aliases": "Rosaries 115"
     },
     {
@@ -3792,7 +3941,7 @@
       "category": "Resource",
       "outputValue": "rosaries-130",
       "notes": "",
-      "sortOrder": 297,
+      "sortOrder": 298,
       "aliases": "Rosaries 130"
     },
     {
@@ -3801,7 +3950,7 @@
       "category": "Resource",
       "outputValue": "rosaries-155",
       "notes": "",
-      "sortOrder": 298,
+      "sortOrder": 299,
       "aliases": "Rosaries 155"
     },
     {
@@ -3810,7 +3959,7 @@
       "category": "Resource",
       "outputValue": "shell-shards-35",
       "notes": "",
-      "sortOrder": 299,
+      "sortOrder": 300,
       "aliases": "Shell Shards 35"
     },
     {
@@ -3819,7 +3968,7 @@
       "category": "BellShrine",
       "outputValue": "bell-the-marrow",
       "notes": "",
-      "sortOrder": 300,
+      "sortOrder": 301,
       "aliases": "Bell The Marrow"
     },
     {
@@ -3828,7 +3977,7 @@
       "category": "BellShrine",
       "outputValue": "bell-deep-docks",
       "notes": "",
-      "sortOrder": 301,
+      "sortOrder": 302,
       "aliases": "Bell Deep Docks"
     },
     {
@@ -3837,7 +3986,7 @@
       "category": "BellShrine",
       "outputValue": "bell-greymoor",
       "notes": "",
-      "sortOrder": 302,
+      "sortOrder": 303,
       "aliases": "Bell Greymoor"
     },
     {
@@ -3846,7 +3995,7 @@
       "category": "BellShrine",
       "outputValue": "bell-shellwood",
       "notes": "",
-      "sortOrder": 303,
+      "sortOrder": 304,
       "aliases": "Bell Shellwood"
     },
     {
@@ -3855,7 +4004,7 @@
       "category": "BellShrine",
       "outputValue": "bell-bellhart",
       "notes": "",
-      "sortOrder": 304,
+      "sortOrder": 305,
       "aliases": "Bell Bellhart"
     },
     {
@@ -3864,7 +4013,7 @@
       "category": "BellShrine",
       "outputValue": "bell-songclave",
       "notes": "",
-      "sortOrder": 305,
+      "sortOrder": 306,
       "aliases": "Bell Songclave"
     },
     {
@@ -3873,7 +4022,7 @@
       "category": "Memento",
       "outputValue": "memento-surface",
       "notes": "",
-      "sortOrder": 306,
+      "sortOrder": 307,
       "aliases": "surface memento"
     },
     {
@@ -3882,7 +4031,7 @@
       "category": "Memento",
       "outputValue": "memento-craw",
       "notes": "",
-      "sortOrder": 307,
+      "sortOrder": 308,
       "aliases": "craw memento"
     },
     {
@@ -3891,7 +4040,7 @@
       "category": "Memento",
       "outputValue": "memento-grey",
       "notes": "",
-      "sortOrder": 308,
+      "sortOrder": 309,
       "aliases": "grey memento"
     },
     {
@@ -3900,7 +4049,7 @@
       "category": "Memento",
       "outputValue": "memento-heros",
       "notes": "",
-      "sortOrder": 309,
+      "sortOrder": 310,
       "aliases": "heros memento"
     },
     {
@@ -3909,7 +4058,7 @@
       "category": "Memento",
       "outputValue": "memento-sprintmaster",
       "notes": "",
-      "sortOrder": 310,
+      "sortOrder": 311,
       "aliases": "sprintmaster memento"
     },
     {
@@ -3918,7 +4067,7 @@
       "category": "Memento",
       "outputValue": "memento-hunters",
       "notes": "",
-      "sortOrder": 311,
+      "sortOrder": 312,
       "aliases": "hunters memento"
     },
     {
@@ -3927,7 +4076,7 @@
       "category": "Memento",
       "outputValue": "memento-guardians",
       "notes": "",
-      "sortOrder": 312,
+      "sortOrder": 313,
       "aliases": "guardians memento"
     },
     {
@@ -3936,7 +4085,7 @@
       "category": "Memento",
       "outputValue": "memento-encrusted-heart",
       "notes": "The memento version of the Encrusted Heart.",
-      "sortOrder": 313,
+      "sortOrder": 314,
       "aliases": "encrusted heart memento"
     },
     {
@@ -3945,7 +4094,7 @@
       "category": "Memento",
       "outputValue": "memento-pollen-heart",
       "notes": "The memento version of the Pollen Heart.",
-      "sortOrder": 314,
+      "sortOrder": 315,
       "aliases": "pollen heart memento"
     },
     {
@@ -3954,7 +4103,7 @@
       "category": "Memento",
       "outputValue": "memento-hunters-heart",
       "notes": "The memento version of the Hunter\u0027s Heart.",
-      "sortOrder": 315,
+      "sortOrder": 316,
       "aliases": "hunters heart memento"
     },
     {
@@ -3963,7 +4112,7 @@
       "category": "Memento",
       "outputValue": "memento-conjoined-heart",
       "notes": "The memento version of the Conjoined Heart.",
-      "sortOrder": 316,
+      "sortOrder": 317,
       "aliases": "conjoined heart memento"
     },
     {
@@ -3972,7 +4121,7 @@
       "category": "Heart",
       "outputValue": "memory-encrusted-heart",
       "notes": "The key item acquired from the memory fight.",
-      "sortOrder": 317,
+      "sortOrder": 318,
       "aliases": "encrusted heart"
     },
     {
@@ -3981,7 +4130,7 @@
       "category": "Heart",
       "outputValue": "memory-pollen-heart",
       "notes": "The key item acquired from the memory fight.",
-      "sortOrder": 318,
+      "sortOrder": 319,
       "aliases": "pollen heart"
     },
     {
@@ -3990,7 +4139,7 @@
       "category": "Heart",
       "outputValue": "memory-hunters-heart",
       "notes": "The key item acquired from the memory fight.",
-      "sortOrder": 319,
+      "sortOrder": 320,
       "aliases": "hunters heart"
     },
     {
@@ -3999,7 +4148,7 @@
       "category": "Heart",
       "outputValue": "memory-conjoined-heart",
       "notes": "The key item acquired from the memory fight.",
-      "sortOrder": 320,
+      "sortOrder": 321,
       "aliases": "conjoined heart"
     },
     {
@@ -4008,7 +4157,7 @@
       "category": "MajorKey",
       "outputValue": "twisted-bud",
       "notes": "",
-      "sortOrder": 321,
+      "sortOrder": 322,
       "aliases": "twisted bud"
     },
     {
@@ -4017,7 +4166,7 @@
       "category": "MajorKey",
       "outputValue": "bellhome-key",
       "notes": "",
-      "sortOrder": 322,
+      "sortOrder": 323,
       "aliases": "bellhome key"
     },
     {
@@ -4026,7 +4175,7 @@
       "category": "MajorKey",
       "outputValue": "diving-bell-key",
       "notes": "",
-      "sortOrder": 323,
+      "sortOrder": 324,
       "aliases": "Diving Bell Key"
     },
     {
@@ -4035,8 +4184,26 @@
       "category": "MajorKey",
       "outputValue": "steel-spines",
       "notes": "Used in the wish Infestation Operation. ",
-      "sortOrder": 324,
+      "sortOrder": 325,
       "aliases": "steel spines"
+    },
+    {
+      "id": "914e94de-210a-4e28-a980-da81493e0ae4",
+      "name": "Horn Fragment",
+      "category": "MajorKey",
+      "outputValue": "horn-fragment",
+      "notes": "Used in Savage Beastfly wish.",
+      "sortOrder": 326,
+      "aliases": "horn fragment"
+    },
+    {
+      "id": "155b585c-5cd7-4db2-9e1a-13b36965f0fb",
+      "name": "Grass Doll",
+      "category": "MajorKey",
+      "outputValue": "grass-doll",
+      "notes": "Used for The Hidden Hunter wish.",
+      "sortOrder": 327,
+      "aliases": "grass doll"
     }
   ]
 }

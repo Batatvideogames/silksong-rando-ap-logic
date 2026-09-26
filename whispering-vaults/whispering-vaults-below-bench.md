@@ -24,7 +24,7 @@
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | LA | Lower Ascent | Bottom | Top | (Silk Soar OR Cling Grip OR Scuttlebrace) AND (Dash OR Clawline OR Sharpdart OR Faydown Cloak) |  | Verified |  |
-| HA | Higher Ascent | Top | Rosary | Silk Soar OR easy box pogo OR (Cling Grip AND (Faydown Cloak OR Clawline OR Sharpdart OR easy Needle Strike Stall (Architect) OR (Cling Grip AND Easy Enemy Pogo))) |  | Verified |  |
+| HA | Higher Ascent | Top | Rosary | Silk Soar OR Proficient Movement (easy box pogo) OR (Cling Grip AND (Faydown Cloak OR Clawline OR Sharpdart OR easy Needle Strike Stall (Architect) OR (Cling Grip AND Easy Enemy Pogo))) |  | Verified |  |
 | E | Exit | Top | Right Exit | Silk Soar OR Cling Grip OR Scuttlebrace OR (Faydown Cloak AND Ledge Grab) |  | Verified |  |
 
 ## Check Locations

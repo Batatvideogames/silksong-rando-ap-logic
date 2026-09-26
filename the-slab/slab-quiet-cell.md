@@ -18,11 +18,11 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| V | Vertical | Bottom | Top | cling grip or silk soar |  |  |  |
+| V | Vertical | Bottom | Top | cling grip OR silk soar |  |  |  |
 | V | Vertical | Top | Bottom | none |  |  |  |
 
 ## Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| The Slab - Memory Locket | Top | none |  |  |  |  |
+| The Slab - Memory Locket | Top | none |  |  | collectible |  |

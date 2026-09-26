@@ -14,21 +14,21 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | B | bot1 | Bottom | [Slab Bellway (Slab_06)](slab-bellway.md) | T | none |  |  |  |
 | T | top1 | Top | [Slab Infleatween Top (Slab_04)](slab-infleatween-top.md) | B | none |  |  |  |
-| R | right1 | Mid | [Slab Cell (Slab_03)](slab-cell.md) | L5L | Key of the Apostate Owned |  |  |  |
+| R | right1 | Mid | [Slab Cell (Slab_03)](slab-cell.md) | L5L | have Key of Apostate |  |  |  |
 
 ## Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| V | Vertical | Mid | Top | cling grip or silk soar |  |  |  |
+| V | Vertical | Mid | Top | cling grip OR silk soar |  |  |  |
 | V | Vertical | Top | Mid | none |  |  | falling |
 | V2 | Vertical 2 | Mid | Bottom | none |  |  | falling |
-| V2 | Vertical 2 | Bottom | Mid | ledge grab or faydown or silk soar |  |  |  |
+| V2 | Vertical 2 | Bottom | Mid | ledge grab OR faydown OR silk soar |  |  |  |
 
 ## Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| The Slab - Shell Shard Cache #1 | Top | none |  |  |  |  |
-| The Slab - Shell Shard Cache #2 | Top | none |  |  |  |  |
-| The Slab - Shell Shard Cache #3 | Top | none |  |  |  |  |
+| The Slab - Shell Shard Cache #1 | Top | none |  |  | collectible |  |
+| The Slab - Shell Shard Cache #2 | Top | none |  |  | collectible |  |
+| The Slab - Shell Shard Cache #3 | Top | none |  |  | collectible |  |

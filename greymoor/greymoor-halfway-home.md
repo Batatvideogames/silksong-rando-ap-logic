@@ -29,3 +29,6 @@ No subroom connections defined.
 | Greymoor - Nuu's Scrolls |  | (silk soar OR faydown cloak OR ledge grab OR cling grip) |  | Verified | lore | Nuu must not be present in halfway home, according to the wiki she has a 50% chance to not appear but its garanteed that she leaves after certain bosses are defeated: the Skull Tyrant in the Marrow, one of the Great Conchflies in Blasted Steps, Sister Splinter in Shellwood, and Voltvyrm in Voltnest |
 | Wish: Bugs of Pharloom |  | silk soar OR faydown cloak OR ledge grab OR cling grip |  | Verified | event |  |
 | pressure plate |  | none (pressure switch) |  | Verified | switch |  |
+| Crawbug Clearing Wish Promised |  | defeat THE boss widow |  | Verified | event | can be accepted here or at the wish board |
+| Crawbug Clearing Wish Granted |  | complete Crawbug Clearing Wish Promised AND Ragpelts 25 |  | Verified | event |  |
+| Greymoor Crafting Kit |  | complete Crawbug Clearing Wish Granted |  | Verified | collectible |  |

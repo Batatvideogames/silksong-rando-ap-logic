@@ -24,4 +24,4 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Rosary Cache: Underworks #1 |  | cling grip or silk soar or (faydown cloak and ledge grab) |  |  |  |  |
+| Rosary Cache: Underworks #1 |  | cling grip OR silk soar OR (faydown cloak AND ledge grab) |  |  | collectible |  |

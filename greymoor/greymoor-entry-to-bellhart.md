@@ -39,6 +39,7 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | Greymoor - Rosary Cache #14 | Top Right Section | nothing |  | Verified | resource |  |
 | Flea Brew | Bottom Left Section | complete THE The Lost Fleas Wish Granted |  | Verified | collectible |  |
-| Flea Caravan - Spool fragment | Bottom Left Section | fleas 14 |  | Verified | collectible |  |
-| Boss: Moorwing | Bottom Left Section | unfinished Wish: The Lost Fleas IN the marrow flea caravan | TODO | Verified | boss | no idea how to place that the quest must be unfinished - isssma currently a non-monotonic logic problem here - hero |
+| Flea Caravan - Spool fragment | Bottom Left Section | after flea caravan move to blasted steps |  | Verified | collectible | reward for the move is the spool fragment |
+| Boss: Moorwing | Bottom Left Section | invalid |  | Verified | boss | randomizer should always force moorwing at other spot for consitent logic - hero, 9/26 |
 | tied airstream | Top Section | break switch left OR break switch up OR break switch right |  | Verified | blockade |  |
+| flea caravan move to blasted steps | Bottom Left Section | after THE flea caravan move to greymoor AND fleas 12 AND defeat THE boss last judge |  | Verified | event | per the wiki |

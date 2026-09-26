@@ -35,7 +35,7 @@
 | S2 | shaft 2 | upper section | middle section | nothing (just fall) |  | Verified |  |
 | PG1 | platform gap 1 | upper section | upper airstream section | nothing (just fall) |  | Verified |  |
 | PG1 | platform gap 1 | upper airstream section | upper section | ledge grab OR faydown cloak OR silk soar OR medium enemy pogo |  | Verified |  |
-| S3 | shaft 3 | upper section | tower top | medium skip spike pogo OR silk soar OR ((drifters cloak AND (spike pogo OR ledge grab OR progressive swift step 2 OR faydown cloak OR cling grip)) AND activate upper airstream) |  | Verified |  |
+| S3 | shaft 3 | upper section | tower top | (proficient movement AND spike pogo) OR silk soar OR ((drifters cloak AND (spike pogo OR ledge grab OR progressive swift step 2 OR faydown cloak OR cling grip)) AND activate upper airstream) |  | Verified |  |
 | S3 | shaft 3 | tower top | upper section | none (just fall) |  | Verified |  |
 
 ## Check Locations
@@ -43,9 +43,9 @@
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | Greymoor - Rosary Cache #6 | lower airstream section | nothing |  | Verified | resource |  |
-| Greymoor - Silkeater | tower top | silk soar OR medium skip spike pogo OR (drifters cloak AND (spike pogo OR faydown cloak OR (clawline AND cling grip)) AND activate top airstream) |  | Verified | collectible |  |
+| Greymoor - Silkeater | tower top | silk soar OR (proficient movement AND spike pogo) OR (drifters cloak AND (spike pogo OR faydown cloak OR (clawline AND cling grip)) AND activate top airstream) |  | Verified | collectible |  |
 | Greymoor Tower Gaunlet | arena encounter | nothing |  | Verified | gauntlet |  |
 | lower airstream | lower airstream section | hit lever right OR hit lever up OR hit lever down |  | Verified | switch |  |
 | middle airstream | middle section | ((drifters cloak AND activate lower airstream) OR ledge grab OR cling grip OR silk soar OR faydown cloak) AND (hit lever right OR hit lever up OR hit lever left) |  | Verified | switch |  |
 | upper airstream | upper airstream section | hit lever right OR hit lever down |  | Verified | switch |  |
-| top airstream | tower top | (hit lever right OR hit lever up OR hit lever left) AND ((activate upper airstream AND drifters cloak) OR hard skip spike pogo) |  | Verified | switch |  |
+| top airstream | tower top | (hit lever right OR hit lever up OR hit lever left) AND ((activate upper airstream AND drifters cloak) OR (proficient movement AND spike pogo)) |  | Verified | switch |  |

@@ -32,4 +32,4 @@
 | Cogwork Core: Shard Bundle #1 | Shard Bundle Check | Nothing. |  | Verified | collectible |  |
 | Cogwork Core: Break Wall #1 | Shard Bundle Check | Nothing. |  | Verified | blockade |  |
 | Cogwork Core: Break Wall #2 | Shard Bundle Check | Nothing. |  | Verified | blockade |  |
-| Sentinel | Second Sentinel | (Break Wall Right AND Cogheart Pieces 3) |  | Verified | event |  |
+| Second Sentinel Activation | Second Sentinel | (Break Wall Right AND Cogheart Pieces 3) |  | Verified | event |  |

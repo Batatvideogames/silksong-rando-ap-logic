@@ -33,7 +33,7 @@
 | LS | Lower Slope | Bottom | Shell Shard Slope | Silk SOar OR ( cling Grip AND ( Faydown Cloak OR Clawline OR ( Dash AND Drifters Cloak AND Easy Reaper Crest Pogo ) ) ) |  | Verified |  |
 | LS | Lower Slope | Shell Shard Slope | Bottom | None |  | Verified |  |
 | US | Upper Slope | Pinstress Arena | Shell Shard Slope | None |  | Verified |  |
-| US | Upper Slope | Shell Shard Slope | Pinstress Arena | Faydown Cloak AND Cling Grip AND Easy Skip Spike Pogo |  | Verified |  |
+| US | Upper Slope | Shell Shard Slope | Pinstress Arena | Faydown Cloak AND Cling Grip AND  Proficient Movement  AND Spike Pogo |  | Verified |  |
 | UW | Upper Wall | Pinstress Arena | Top | Silk Soar OR ( Cling Grip AND ( ( Clawline OR Faydown Cloak ) OR ( Dash AND Drifters Cloak AND Sharpdart ) ) ) |  | Verified |  |
 | UW | Upper Wall | Top | Pinstress Arena | None |  | Verified |  |
 
@@ -45,5 +45,6 @@
 | Mount Fay - Shell Shard Cache #5 | Shell Shard Slope | None |  | Verified | resource |  |
 | Mount Fay - Shell Shard Cache #6 | Shell Shard Slope | None |  | Verified | resource |  |
 | Mount Fay - Shell Shard Cache #7 | Shell Shard Slope | None |  | Verified | resource |  |
-| Pin Badge | Pinstress Arena | Have Ability: Needle Strike AND prereq Wish: A Fatal Resolve Started |  | Verified | collectible |  |
-| Wish: A Fatal Resolve Started | Pinstress Arena | Invalid |  | Verified | event |  |
+| Pinstress Boss Fight | Pinstress Arena | complete Fatal Resolve Wish Promised IN Windy Pinstress Room OR (  complete Fatal Resolve Wish Promised IN Bellhart Wish Wall AND complete Read Pinstress Note IN Windy Pinstress Room ) | TODO |  | boss | wiki says you need to read the note if you start from the wish wall - may need to change if inaccurate |
+| Fatal Resolve Wish Granted | Pinstress Arena | defeat Pinstress Boss Fight |  | Verified | event |  |
+| Pin Badge | Pinstress Arena | complete Pinstress Boss Fight |  | Verified | collectible |  |

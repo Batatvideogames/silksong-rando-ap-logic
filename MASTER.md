@@ -145,7 +145,7 @@ somehow missed this being its own room before
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | RG | right ledge grab | ground floor | alcove check spot | ledge grab OR cling grip OR scuttlebrace OR faydown |  | Verified |  |
 | RG | right ledge grab | alcove check spot | ground floor | none (falling) |  | Verified |  |
-| WD | weavenest door gap | ground floor | weavenest door platform | ledge grab OR run OR dash OR clawline OR drifters OR faydown OR cling grip OR easy skip spike pogo OR easy shaman pogo OR easy beast pogo OR silk soar |  | Verified |  |
+| WD | weavenest door gap | ground floor | weavenest door platform | ledge grab OR run OR dash OR clawline OR drifters OR faydown OR cling grip OR ( spike pogo AND proficient movement ) OR easy shaman pogo OR easy beast pogo OR silk soar |  | Verified |  |
 | WD | weavenest door gap | weavenest door platform | ground floor | none (falling) |  | Verified |  |
 | UG | upper ledge grab | ground floor | upper platforms | ledge grab OR dash OR faydown OR cling grip OR silk soar OR easy shaman pogo |  | Verified |  |
 | UG | upper ledge grab | upper platforms | ground floor | none (falling) |  | Verified |  |
@@ -539,8 +539,8 @@ need see if there are other checks in here
 | UC | upper crossing | upper left ledge | upper right ledge | silk soar  OR cling grip  OR faydown cloak  OR ( ledge grab AND ( dash OR clawline OR medium scuttlebrace ) ) OR ( ( medium enemy pogo OR ledge grab ) AND ( run OR sharpdart OR easy beast pogo ) )  OR ( easy enemy pogo AND ( clawline OR dash OR medium shaman pogo ) ) |  | Verified |  |
 | UC | upper crossing | upper right ledge | upper left ledge | none (parkour) |  | Verified |  |
 | WC | wish climb | wish ledge | upper left ledge | silk soar  OR cling grip OR ( ledge grab AND scuttlebrace ) |  | Verified |  |
-| LW | lower to wish climb | lower right area | wish ledge | silk soar  OR ( hard enemy pogo AND easy skip spike pogo AND ( ( run AND ledge grab ) OR dash ) AND cling grip AND faydown cloak AND drifters cloak AND clawline ) |  | Verified | Super EpicGuy has a clip of doing this skip from the lower right exit to the wish ledge. Insane. |
-| LM | lower to middle climb | lower right area | middle right ledge | silk soar  OR ( hard enemy pogo AND hard skip spike pogo AND ( hard cocoon skip OR hard flintslate  stall OR hard flea brew stall OR hard plasmium stall ) AND cling grip AND drifters )  OR ( medium enemy pogo AND easy skip spike pogo AND cling grip AND faydown cloak ) |  | Verified |  |
+| LW | lower to wish climb | lower right area | wish ledge | silk soar  OR ( hard enemy pogo AND ( spike pogo AND proficient movement ) AND ( ( run AND ledge grab ) OR dash ) AND cling grip AND faydown cloak AND drifters cloak AND clawline ) |  | Verified | Super EpicGuy has a clip of doing this skip from the lower right exit to the wish ledge. Insane. |
+| LM | lower to middle climb | lower right area | middle right ledge | silk soar  OR ( proficient movement AND hard enemy pogo AND spike pogo AND ( hard cocoon skip OR hard flintslate  stall OR hard flea brew stall OR hard plasmium stall ) AND cling grip AND drifters )  OR ( proficient movement AND medium enemy pogo AND spike pogo AND cling grip AND faydown cloak ) |  | Verified |  |
 | LC | lower crossing | lower left area | lower right area | silk soar OR faydown OR medium scuttlebrace (due to risk of falling) OR ( ( ledge grab OR cling grip ) AND ( easy enemy pogo OR run OR dash OR clawline OR sharpdart x 2 OR drifters ) ) |  | Verified |  |
 | LC | lower crossing | lower right area | lower left area | silk soar OR faydown OR medium scuttlebrace (due to risk of falling) OR easy enemy pogo OR run  OR dash  OR clawline  OR sharpdart x 1 OR drifters |  | Verified |  |
 | BLL | bottom to lower left | bottom left area | lower left area | ledge grab OR cling grip OR faydown cloak OR silk soar |  | Verified |  |
@@ -1080,6 +1080,7 @@ no checks
 | survivors camps supplies wish granted | flea floor | complete THE survivors camp supplies wish promised |  | Verified | event | reward is 180 rosaries |
 | the lost fleas wish promised | flea floor | none |  | Verified | event | wish can be started here or at the bone bottom wish wall |
 | the lost fleas wish granted | flea floor | ( act 1 OR act 2 )  AND complete the lost fleas wish promised AND fleas 5 |  | Verified | event | grants caravan invite |
+| flea caravan move to greymoor | flea floor | complete the lost fleas wish granted |  | Verified | event |  |
 
 ### The Marrow Shaft (Bone_03)
 
@@ -2047,7 +2048,7 @@ No subroom connections defined.
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | craggler mini boss fight |  | none |  | Verified | miniboss |  |
-| craggler beast shard |  | defeat craggler mini boss fight |  | Verified | collectible | NOT CURRENTLY RANDOMIZED |
+| craggler beast shard |  | defeat craggler mini boss fight |  | Verified | collectible |  |
 
 #### Notes
 
@@ -2067,14 +2068,15 @@ should at bare minimum have dash or run in combat logic
 - upper platform area
 - mask grotto
 - rosary duct
+- behind door
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | LR | lower right | entrance tunnel | [Wormways Craggler Hallway (Crawl_04)](#wormways-craggler-hallway-crawl04) | L | none |  | Verified |  |
-| LL | lower left | entrance tunnel | [Wormways Middle (Crawl_03b)](#wormways-middle-crawl03b) | R | prereq use simple key on lock |  | Verified |  |
-| UL | upper left | upper platform area | [Wormways Upper West (Crawl_03)](#wormways-upper-west-crawl03) | R | complete shaft wall IN Wormways Upper West |  | Verified |  |
+| LL | lower left | behind door | [Wormways Middle (Crawl_03b)](#wormways-middle-crawl03b) | R | none |  | Verified | there's a pocket of air behind the door and it is not enforced on the other side |
+| UL | upper left | upper platform area | [Wormways Upper West (Crawl_03)](#wormways-upper-west-crawl03) | R | clear shaft wall blockade IN Wormways Upper West |  | Verified |  |
 | UR | upper right | middle platform area | [Wormways Upper East (Crawl_01)](#wormways-upper-east-crawl01) | L | none |  | Verified |  |
 | MR | middle right | middle platform area | [Wormways Flea Rescue (Crawl_06)](#wormways-flea-rescue-crawl06) | L | break wall {right} |  | Verified |  |
 
@@ -2090,15 +2092,17 @@ should at bare minimum have dash or run in combat logic
 | GT | grotto tunnel | mask grotto | entrance tunnel | ledge grab OR (cling grip OR faydown cloak OR scuttlebrace OR silk soar) |  | Verified |  |
 | DL | duct ledge | upper platform area | rosary duct | cling grip OR scuttlebrace |  | Verified |  |
 | DL | duct ledge | rosary duct | upper platform area | none (falling) |  | Verified |  |
+| SK | simple key lock | entrance tunnel | behind door | unlock Wormways Simple Lock |  | Verified |  |
+| SK | simple key lock | behind door | entrance tunnel | unlock Wormways Simple Lock |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| use simple key on lock | entrance tunnel | have Simple Key Wormways |  | Verified | lock | unlocks the LL room exit |
+| Wormways Simple Lock | entrance tunnel | have Simple Key Wormways |  | Verified | lock | unlocks the LL room exit |
 | mask shard wormways | mask grotto | (ledge grab OR cling grip OR silksoar OR faydown cloak) |  | Verified | collectible | current hazard respawn from grotto water makes the theoretical no-swim req arbitrary, (you spawn in the entrance tunnel  or in the shaft if you came from above) |
 | frayed rosary string wormways | rosary duct | (ledge grab AND (cling grip OR silk soar OR scuttlebrace)) OR (cling grip OR silk soar OR (scuttlebrace AND (flea brew OR clawline OR sharpdart OR faydown cloak))) |  | Verified | collectible |  |
-| flip door switch | middle platform area | none |  | Verified | switch | unlocks the middle/lower shortcut |
+| flip door switch | middle platform area | flip switch down |  | Verified | switch | unlocks the middle/lower shortcut |
 
 ### Wormways Flea Rescue (Crawl_06)
 
@@ -2149,8 +2153,8 @@ cry: exit - for room rando - the entrance is functional and open regardless of w
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right | main tunnel | [Wormways Shaft (Crawl_02)](#wormways-shaft-crawl02) | LL | none |  | Verified |  |
-| F | floor | main tunnel | [Wormways Lower East (Crawl_07)](#wormways-lower-east-crawl07) | C | none |  | Verified | Imported destination text: wormways lower east - C |
+| R | right | main tunnel | [Wormways Shaft (Crawl_02)](#wormways-shaft-crawl02) | LL | none |  | Verified | simple key lock doesn't block this side at all |
+| F | floor | main tunnel | [Wormways Lower East (Crawl_07)](#wormways-lower-east-crawl07) | C | none |  | Verified |  |
 | C | ceiling | wormways west scaffold | [Wormways Upper West (Crawl_03)](#wormways-upper-west-crawl03) | F | none |  | Verified |  |
 
 #### Subroom Connections
@@ -2176,13 +2180,14 @@ No check locations defined.
 - plasmium alcove
 - weavenest landing
 - main tunnel lower
+- right exit area
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | F | floor | main tunnel lower | [Wormways Middle (Crawl_03b)](#wormways-middle-crawl03b) | C | none |  | Verified |  |
-| R | right | main area upper | [Wormways Shaft (Crawl_02)](#wormways-shaft-crawl02) | UL | ledge grab OR faydown cloak OR cling grip OR silk soar OR easy shaman pogo OR scuttlebrace |  | Verified |  |
+| R | right | main area upper | [Wormways Shaft (Crawl_02)](#wormways-shaft-crawl02) | UL | clear shaft wall blockade |  | Verified |  |
 | C | ceiling | main area upper | [Wormways Laboratory (Crawl_08)](#wormways-laboratory-crawl08) | F | silk soar OR cling grip OR scuttlebrace |  | Verified |  |
 | WD | weaver door | weavenest landing | [Wormways Weavenest (Crawl_05)](#wormways-weavenest-crawl05) | WD | needolin |  | Verified |  |
 
@@ -2198,13 +2203,15 @@ No check locations defined.
 | CL | lower climb | plasmium alcove | main tunnel lower | none (falling) |  | Verified |  |
 | MS | main tunnel shaft | main tunnel lower | main area upper | ledge grab OR cling grip OR scuttlebrace OR faydown cloak OR easy enemy pogo |  | Verified |  |
 | MS | main tunnel shaft | main area upper | main tunnel lower | none (falling) |  | Verified |  |
+| RA | right ascend | main area upper | right exit area | ledge grab OR faydown cloak OR cling grip OR silk soar OR easy shaman pogo OR scuttlebrace |  | Verified |  |
+| RA | right ascend | right exit area | main area upper | none (falling) |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | plasmium bud upper west | plasmium alcove | complete THE alchemist's assistant wish promised  AND needle phial |  | Verified | collectible |  |
-| shaft wall | main area upper | needle {right} |  | Verified | blockade |  |
+| shaft wall blockade | main area upper | break wall right |  | Verified | blockade |  |
 | plasmid lower | main tunnel lower | act 3 |  | Verified | enemy | there are two spawn points in this subroom |
 | plasmified blood lower | main tunnel lower | needle phial  AND defeat plasmid lower |  | Verified | resource |  |
 | plasmid upper | main area upper | act 3 |  | Verified | enemy |  |
@@ -2513,9 +2520,9 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| door switch | gauntlet right | none |  | Needs verification |  |  |
-| gauntlet | gauntlet | none |  | Needs verification |  |  |
-| mask shard the marrow deep docks passage | gauntlet right | none |  | Needs verification |  |  |
+| door switch | gauntlet right | none |  | Needs verification | switch |  |
+| gauntlet | gauntlet | none |  | Needs verification | gauntlet |  |
+| mask shard the marrow deep docks passage | gauntlet right | none |  | Needs verification | collectible |  |
 
 ### Deep Docks Bench Shaft (Dock_01)
 
@@ -2845,7 +2852,8 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Is this still Deep Docks? (East) (Bone_East_04)](#is-this-still-deep-docks-east-boneeast04) | UR |  |  |  |  |
+| L | left1 |  | [Is this still Deep Docks? (East) (Bone_East_04)](#is-this-still-deep-docks-east-boneeast04) | UR | none |  | Verified |  |
+| SC | slab capture |  | [Slab Capture](#slab-capture) | DD | after get kidnapped |  | Verified |  |
 
 #### Subroom Connections
 
@@ -2853,7 +2861,10 @@ No subroom connections defined.
 
 #### Check Locations
 
-No check locations defined.
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| wardenfly |  | ( act 1 OR act 2 ) AND defeat THE bell beast boss fight |  |  | enemy | per the wiki |
+| get kidnapped |  | after wardenfly |  |  | logic-point |  |
 
 #### Notes
 
@@ -4018,9 +4029,11 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| boss fourth chorus | boss arena | complete THE flexible spines wish goal |  | Verified | boss |  |
+| fourth chorus boss fight | boss arena | complete THE flexible spines wish granted |  | Verified | boss |  |
 | rosary cache far fields 2 | upper left alcove | none |  | Verified | collectible |  |
-| free silk | upper right alcove | none |  | Verified | resource | NOT CURRENTLY RANDOMIZED |
+| silk | upper right alcove | none |  | Verified | resource | silk webs |
+| savage beastfly 2 boss fight | boss arena | complete THE savage beastfly wish promised |  | Verified | boss |  |
+| Horn Fragment | boss arena | defeat savage beastfly 2 boss fight |  | Verified | collectible |  |
 
 ### Far Fields Pinstress Attic (Bone_East_09b)
 
@@ -4138,9 +4151,9 @@ No subroom connections defined.
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | bench |  | none |  | Verified | bench |  |
-| flexible spines wish start |  | none |  | Verified | event |  |
-| flexible spines wish goal |  | complete flexible spines wish start AND ( flexible spines 25  OR defeat hoker enemy IN far fields skull room west OR defeat hoker enemy IN far fields skull room east ) |  | Verified | event | wasn't sure which made more sense here - the former is more accurate, but the latter is more logic complete |
-| drifters cloak |  | complete flexible spines wish goal |  | Verified | collectible |  |
+| flexible spines wish promised |  | none |  | Verified | event |  |
+| flexible spines wish granted |  | complete flexible spines wish promised AND ( flexible spines 25  OR defeat hoker enemy IN far fields skull room west OR defeat hoker enemy IN far fields skull room east ) |  | Verified | event | wasn't sure which made more sense here - the former is more accurate, but the latter is more logic complete |
+| drifters cloak |  | complete flexible spines wish granted |  | Verified | collectible |  |
 
 ### Far Fields Pinstress Mask Shard (Bone_East_20)
 
@@ -4266,6 +4279,7 @@ No subroom connections defined.
 | bench rosary lock | bellway | none |  | Verified | lock |  |
 | bellway rosary lock | bellway | none |  | Verified | lock |  |
 | bellway far fields | bellway | unlock bellway rosary lock |  | Verified | travel |  |
+| Craw Summons | bellway | craw summons ready |  | Verified | collectible |  |
 
 ### Far Fields Deep Docks Loopback (Bone_East_15)
 
@@ -4607,9 +4621,10 @@ the arena to mask shard connections are one-way so the full requirement chain is
 - left exit area
 - right exit area
 - ceiling exit area
+- crossing
 - trapper's arena
 - trapper's den
-- crossing
+- trapper's ledge
 
 #### Room Transitions
 
@@ -4623,23 +4638,26 @@ the arena to mask shard connections are one-way so the full requirement chain is
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| TB | trapped bench | crossing | trapper's arena | act 3 AND the hidden hunter wish in progress | TODO | Needs verification |  |
-| TB | trapped bench | trapper's arena | crossing | defeat gurr the outcast boss fight AND silk soar | TODO | Needs verification |  |
-| RB | right boss fight | trapper's arena | trapper's den | defeat gurr the outcast boss fight | TODO | Needs verification |  |
-| RB | right boss fight | trapper's den | trapper's arena | defeat gurr the outcast boss fight | TODO | Needs verification |  |
+| TB | trapped bench | crossing | trapper's arena | act 3 AND complete THE the hidden hunter wish promised |  | Verified |  |
+| TB | trapped bench | trapper's arena | crossing | defeat gurr the outcast boss fight AND silk soar |  | Verified |  |
+| RB | right boss fight | trapper's arena | trapper's den | defeat gurr the outcast boss fight |  | Verified |  |
+| RB | right boss fight | trapper's den | trapper's arena | defeat gurr the outcast boss fight |  | Verified |  |
 | G1 | gap 1 | left exit area | crossing | clawline AND silkhearts 1 |  | Verified |  |
 | G1 | gap 1 | crossing | left exit area | clawline  AND silkhearts 1 AND ( run OR dash OR drifters OR faydown ) |  | Verified |  |
 | G2 | gap 2 | crossing | right exit area | clawline AND silkhearts 1 |  | Verified | need to pogo to let silk recharge with only 1 heart, but it isn't that bad |
 | G2 | gap 2 | right exit area | crossing | ( clawline AND silkhearts 2 ) OR ( clawline  AND silkhearts 1 AND ( dash OR faydown OR drifters ) ) |  | Verified | need enough silk to clawline twice to get the distance by itself |
 | V1 | vertical 1 | crossing | ceiling exit area | ( faydown cloak AND ( cling grip OR scuttlebrace ) )  OR ( silk soar AND ( clawline OR drifter's cloak OR faydown cloak OR ( ledge grab AND dash ) ) ) |  | Verified |  |
 | V1 | vertical 1 | ceiling exit area | crossing | run OR dash OR drifter's cloak OR  faydown cloak OR easy beast pogo OR sharpdart OR scuttlebrace |  | Verified |  |
+| T1 | trapper 1 | trapper's den | trapper's ledge | faydown OR cling grip OR scuttlebrace OR silk soar |  | Verified |  |
+| T1 | trapper 1 | trapper's ledge | trapper's den | none (falling) |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| AP Minor Cache - Rosary Cache: Far Fields #19 | trapper's den | defeat gurr the outcast boss fight | TODO | Needs verification | collectible |  |
-| gurr the outcast boss fight | trapper's arena | none | TODO | Needs verification | boss |  |
+| gurr the outcast boss fight | trapper's arena | none |  | Verified | boss |  |
+| AP Minor Cache - Rosary Cache: Far Fields #19 | trapper's ledge | none |  | Verified | collectible |  |
+| Grass Doll | trapper's ledge | none |  | Verified | collectible |  |
 
 ### Far Fields Pilgrim's Rest Deep Passage (Bone_East_18c)
 
@@ -4769,8 +4787,8 @@ No check locations defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| craw summons spawn point | bench area | craw summons ready |  | Verified | collectible | one of several possible craw summons locations |
 | bench | bench area | none |  | Verified | bench |  |
+| Craw Summons | bench area | craw summons ready |  | Verified | collectible | one of several possible craw summons locations |
 
 ### Far Fields Deep Fort (Bone_East_25)
 
@@ -4827,7 +4845,9 @@ No subroom connections defined.
 
 #### Check Locations
 
-No check locations defined.
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| meet karmelita |  | none |  | Verified | logic-point | used for the hidden hunter wish |
 
 ### Memory Karmelita (Memory_Ant_Queen)
 
@@ -4885,15 +4905,15 @@ No subroom connections defined.
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | RestBench |  | none |  | Verified | bench |  |
-| fastest in pharloom wish start |  | none |  | Verified | event |  |
-| fastest in pharloom wish goal |  | complete race victory 3 |  | Verified | event |  |
-| race victory 1 |  | complete fastest in pharloom wish start AND run AND dash AND cling grip AND clawline AND faydown cloak | TODO | Needs verification | event | these need to be refined for each race |
+| fastest in pharloom wish promised |  | none |  | Verified | event | can also start at the bellhart wish wall |
+| fastest in pharloom wish granted |  | complete fastest in pharloom wish promised AND complete race victory 3 |  | Verified | event |  |
+| race victory 1 |  | complete fastest in pharloom wish promised AND run AND dash AND cling grip AND clawline AND faydown cloak | TODO | Needs verification | event | these need to be refined for each race |
 | race victory 2 |  | complete race victory 1  AND run AND dash AND cling grip AND clawline AND faydown cloak | TODO | Needs verification | event | these need to be refined for each race |
 | race victory 3 |  | complete race victory 2  AND run AND dash AND cling grip AND clawline AND faydown cloak | TODO | Needs verification | event | these need to be refined for each race |
 | race victory 4 |  | complete race victory 3  AND run AND dash AND cling grip AND clawline AND faydown cloak | TODO | Needs verification | event | these need to be refined for each race |
 | rosary beads |  | complete race victory 1 |  | Verified | collectible |  |
 | beast shard |  | complete race victory 2 |  | Verified | collectible |  |
-| mask shard fastest in pharloom |  | complete fastest in pharloom wish goal |  | Verified | collectible | win races 1, 2, and 3 |
+| fastest in pharloom mask shard |  | complete race victory 3 |  | Verified | collectible |  |
 | sprintmaster memento |  | complete race victory 4 |  | Verified | collectible |  |
 
 ## Hunter's March
@@ -4924,16 +4944,16 @@ No subroom connections defined.
 | DS | door switch | chapel entrance | right of boss fight | drifter's cloak OR activate door switch |  | Verified |  |
 | DS | door switch | right of boss fight | chapel entrance | activate door switch |  | Verified |  |
 | BR | boss right entrance | right of boss fight | boss arena | none (starts boss fight) |  | Verified |  |
-| BR | boss right entrance | boss arena | right of boss fight | defeat savage beastly boss fight |  | Verified |  |
-| BL | boss left entrance | crest area | boss arena | defeat savage beastly boss fight |  | Verified |  |
-| BL | boss left entrance | boss arena | crest area | defeat savage beastly boss fight |  | Verified |  |
+| BR | boss right entrance | boss arena | right of boss fight | defeat savage beastfly boss fight |  | Verified |  |
+| BL | boss left entrance | crest area | boss arena | defeat savage beastfly boss fight |  | Verified |  |
+| BL | boss left entrance | boss arena | crest area | defeat savage beastfly boss fight |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | door switch | right of boss fight | flip switch down |  | Verified | switch |  |
-| savage beastly boss fight | boss arena | none |  | Verified | boss |  |
+| savage beastfly boss fight | boss arena | none |  | Verified | boss |  |
 | crest beast | crest area | none |  | Verified | collectible |  |
 
 ### Hunter's March Chapel Passage (Ant_20)
@@ -5533,6 +5553,7 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- |
 | Shell Shard Cache: Shellwood #1 | Top | None |  | Verified | resource |  |
 | Bench Diddy Basement | Bottom | Cling Grip OR ( Dash AND Scuttlebrace ) |  | Verified | bench |  |
+| Craw Summons | Bottom | Craw Summons Ready |  | Verified | collectible |  |
 | Shell Shard Cache: Shellwood #2 | Top | None |  | Verified | resource |  |
 | Shell Shard Cache: Shellwood #3 | Top | None |  | Verified | resource |  |
 | Breakable Roof Diddy Basement | Top | Cling Grip |  | Verified | blockade |  |
@@ -5937,6 +5958,7 @@ No subroom connections defined.
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | Lower Shellwood Toll Bench |  | None |  | Verified | bench |  |
+| Craw Summons |  | Craw Summons Ready |  | Verified | collectible |  |
 
 ### Shellwood Mask Shard Room (Shellwood_14)
 
@@ -6062,6 +6084,7 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- |
 | Rosary String: Shellwood #1 | Upper Hidden | None |  | Verified | collectible |  |
 | Sister Splinter Toll Bench | Bench Toll | None |  | Verified | bench |  |
+| Craw Summons | Bench Toll | Craw Summons Ready |  | Verified | collectible |  |
 | Shellwood Elevator Button 2 | Elevator Platform | None |  | Verified | switch |  |
 
 ### Shellwood Top Room (Shellwood_26)
@@ -6421,6 +6444,7 @@ No subroom connections defined.
 | Progressive Needle Upgrade 2 |  | pale oils 1 |  | Verified | collectible | cumulative requirement |
 | Progressive Needle Upgrade 3 |  | pale oils 2 |  | Verified | collectible | cumulative requirement |
 | Progressive Needle Upgrade 4 |  | pale oils 3 |  | Verified | collectible | cumulative requirement |
+| Pinmaster's Oil Wish Granted |  | complete THE Pinmaster's Oil Wish Promised AND pale oils 1 |  | Verified | event | can be missed, but counts towards silk and soul regardless of completion after second needle upgrade |
 
 ### Bellhart Relic Shop (Belltown_Room_Relic)
 
@@ -6446,21 +6470,25 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Hand In bone scroll 1 |  | Bone scroll |  | Verified |  |  |
-| Hand In bone scroll 2 |  | Bone scroll |  | Verified |  |  |
-| Hand In bone scroll 3 |  | Bone scroll |  | Verified |  |  |
-| Hand In bone scroll 4 |  | Bone scroll |  | Verified |  |  |
-| Hand In Weaver Effigy 1 |  | Weaver Effigy |  | Verified |  |  |
-| Hand In Weaver Effigy 2 |  | Weaver Effigy |  | Verified |  |  |
-| Hand In Weaver Effigy 3 |  | Weaver Effigy |  | Verified |  |  |
-| Hand in Choral Commandment 1 |  | Choral Commandment |  | Verified |  |  |
-| Hand in Choral Commandment 2 |  | Choral Commandment |  | Verified |  |  |
-| Hand in Choral Commandment 3 |  | Choral Commandment |  | Verified |  |  |
-| Hand in Choral Commandment 4 |  | Choral Commandment |  | Verified |  |  |
-| Hand in Rune Harp 1 |  | Rune Harp |  | Verified |  |  |
-| Hand in Rune Harp 2 |  | Rune Harp |  | Verified |  |  |
-| Hand in Rune Harp 3 |  | Rune Harp |  | Verified |  |  |
-| Hand in Arcane Egg |  | Arcane Egg |  | Verified |  |  |
+| Hand In Bone Scroll Relic Bone Scroll Far Fields |  | have Relic Bone Scroll Far Fields |  | Verified | event |  |
+| Hand In Bone Scroll Greymoor |  | have Relic Bone Scroll Greymoor |  | Verified | event |  |
+| Hand In Bone Scroll Underworks |  | have Relic Bone Scroll Underworks |  | Verified | event |  |
+| Hand In Bone Scroll Wisp Thicket |  | have Relic Bone Scroll Wisp Thicket |  | Verified | event |  |
+| Hand In Weaver Effigy Moss Grotto |  | have Relic Weaver Effigy Camora Moss Grotto |  | Verified | event |  |
+| Hand In Weaver Effigy Shellwood |  | have Relic Weaver Effigy Keelal Shellwood |  | Verified | event |  |
+| Hand In Weaver Effigy  The Slab |  | have Relic Weaver Effigy Atla The Slab |  | Verified | event |  |
+| Hand in Choral Commandment Jubilana |  | have Relic Choral Commandment Jubilana |  | Verified | event |  |
+| Hand in Choral Commandment Western Whiteward |  | have Relic Choral Commandment Western Whiteward |  | Verified | event |  |
+| Hand in Choral Commandment Moss Grotto |  | have Relic Choral Commandment Moss Grotto |  | Verified | event |  |
+| Hand in Choral Commandment Eastern Whiteward |  | have Relic Choral Commandment Eastern Whiteward |  | Verified | event |  |
+| Hand in Rune Harp Weavenest Atla |  | have Relic Rune Harp Weavenest Atla |  | Verified | event |  |
+| Hand in Rune Harp Weavenest Cindril |  | have Relic Rune Harp Weavenest Cindril |  | Verified | event |  |
+| Hand in Rune Harp High Halls |  | have Relic Rune Harp High Halls |  | Verified | event |  |
+| Hand in Arcane Egg |  | have Relic Arcane Egg |  | Verified | event |  |
+
+#### Notes
+
+Relic slots are numbered for convenience but not for required reasons.
 
 ### Bellhart Right Entrance (Belltown_06)
 
@@ -6510,12 +6538,12 @@ No subroom connections defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| RD | door4 | Upper Area | [Bellhart Relic Shop (Belltown_Room_Relic)](#bellhart-relic-shop-belltownroomrelic) | L | None | TODO | Needs verification | requires widow defeat? |
+| RD | door4 | Upper Area | [Bellhart Relic Shop (Belltown_Room_Relic)](#bellhart-relic-shop-belltownroomrelic) | L | defeat THE boss widow |  | Verified |  |
+| HD | door5 | Upper Area | [Bellhome (Belltown_room_spare)](#bellhome-belltownroomspare) | L | none |  | Verified | the randomizer makes this always accessible |
+| ND | door3 | Upper Area | [Bellhart Pinsmith (Belltown_Room_pinsmith)](#bellhart-pinsmith-belltownroompinsmith) | L | defeat THE boss widow |  | Verified |  |
 | L | left3 | Lower Area | [Bellhart Hallway to Shellwood (Belltown_07)](#bellhart-hallway-to-shellwood-belltown07) | R | None |  | Verified |  |
+| R | right2 | Lower Area | [Bellhart Right Entrance (Belltown_06)](#bellhart-right-entrance-belltown06) | LL | None |  | Verified |  |
 | BD | door1 | Lower Area | [Bellhart Bellway (Belltown_basement)](#bellhart-bellway-belltownbasement) | L | None |  | Verified |  |
-| HD | door5 | Upper Area | [Bellhome (Belltown_room_spare)](#bellhome-belltownroomspare) | L | None |  | Verified |  |
-| ND | door3 | Upper Area | [Bellhart Pinsmith (Belltown_Room_pinsmith)](#bellhart-pinsmith-belltownroompinsmith) | L | None | TODO | Needs verification | requires widow defeat? |
-| R | right2 | Lower Area | [Bellhart Right Entrance (Belltown_06)](#bellhart-right-entrance-belltown06) | LL | None |  | Needs verification |  |
 | WW | wish wall | Lower Area | [Bellhart Wish Wall](#bellhart-wish-wall) | BH | defeat THE boss widow |  | Verified |  |
 | DW | delivery wishes | Upper Area | [Bellhart Deliveries](#bellhart-deliveries) | BH | complete THE my missing brother wish granted |  | Verified |  |
 
@@ -6530,37 +6558,19 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Memory Locket: Bellhart roof | Upper Area | Silk Soar |  | Verified | collectible |  |
-| Wish: Silver Bells | Lower Area | 8 Silver Bells |  | Verified | event |  |
-| Wish: Crawbug Clearing | Lower Area | 25 Ragpelt |  | Verified | event |  |
-| Wish: Restoration of Bellhart | Lower Area | 250 Rosaries |  | Verified | event |  |
-| Wish: Bellharts Glory | Lower Area | 400 Rosaries |  | Verified | event |  |
-| My Missing Courier Wish Promised | Lower Area | defeat THE boss: widow |  | Verified | event |  |
-| My Missing Brother Wish Promised | Lower Area | complete THE My Missing Courier Wish Granted AND ( complete THE Great Taste Of Pharloom Wish Promised OR complete Meet the Caretaker IN Songclave ) |  | Verified | event |  |
-| Wish: Savage Beastfly | Lower Area | Kill the Savage Beastfly in Bone_East_08 |  | Verified | event |  |
-| Wish: Fatal Resolve | Lower Area | Find note in room_pinstress and beat her at Peak_07 AND ACT3 |  | Verified | event |  |
-| Wish: Ecstacy of the end | Lower Area | Achieve the highscore in all 3 games in Fleatopia ( Aqueduct_05 ) AND ACT3 |  | Verified | event |  |
-| Wish: Heros Call | Lower Area | Defeat Lost Garmond in Coral_33 AND ACT3 |  | Verified | event |  |
-| Wish: The Hidden Hunter | Lower Area | Defeat Gurr the Outcast in Bone_east_18b |  | Verified | event |  |
-| Wish: Dark hearts | Lower Area | Defeat 12 Void Masses AND ACT3 |  | Verified | event |  |
-| Wish: The Threadspun town | Lower Area | Defeat Widow in Belltown_Shrine |  | Verified | event |  |
-| Wish: Bone bottom supplys | Upper Area | Travel to Bone Bottom ( Bonetown ) |  | Verified | event |  |
-| Pilgrims Rest Supplies Wish Promised | Upper Area | complete THE My Missing Brother Wish Granted AND ( act 1 OR act 2 ) |  | Verified | event | not available in act 3 |
-| Wish: Queens Egg | Upper Area | Travel to Dust_11 |  | Verified | event |  |
-| Wish; Songclave Supplys | Upper Area | Travel to Songclave ( Song_enclave ) |  | Verified | event |  |
-| Wish: Fleatopia Supplys | Upper Area | Travel to Fleatopia ( Aqueduct_05 ) |  | Verified | event |  |
-| Wish: Liquid Laquer | Upper Area | Travel to Mask Maker ( Peak_mask_maker ) |  | Verified | event |  |
-| Wish: Couriers Rasher | Upper Area | Travel to Song_09b fast |  | Verified | event |  |
-| Memory Locket ( Frey ) | Lower Area | 330 Rosaries |  | Verified | event |  |
-| Spool Fragment ( Frey ) | Lower Area | 270 Rosaries AND Wish: My missing Courier completed |  | Verified | event |  |
-| Multibinder | Lower Area | prereq THE My Missing Courier Wish Granted AND Rosaries 800 |  | Verified | collectible |  |
-| Desk | Lower Area | 380 Rosaries |  | Verified |  |  |
-| Gleamlights | Lower Area | 320 Rosaries |  | Verified |  |  |
-| Bell Lacquer | Lower Area | 520 Rosaries |  | Verified |  |  |
-| Personal Spa | Lower Area | 1100 Rosaries AND 2 other bellhome items |  | Verified |  |  |
-| Gramophone | Lower Area | 490 Rosaries AND All psalm cylinders handed in |  | Verified |  |  |
+| Memory Locket: Bellhart Roof | Upper Area | Silk Soar |  | Verified | collectible |  |
+| Couriers Rasher | Upper Area | complete THE Great Taste of Pharloom Wish Promised |  | Verified | logic-point |  |
 | Map: Bellhart | Upper Area | None |  | Verified | collectible |  |
-| Craw Summons | Lower Area | None |  | Verified | collectible |  |
+| Memory Locket (Frey) | Lower Area | Rosaries 330 |  | Verified | event |  |
+| Spool Fragment (Frey) | Lower Area | prereq THE My Missing Courier Wish Granted AND Rosaries 270 |  | Verified | event |  |
+| Multibinder | Lower Area | prereq THE My Missing Courier Wish Granted AND Rosaries 800 |  | Verified | collectible |  |
+| Desk | Lower Area | Rosaries 380 |  | Verified | collectible |  |
+| Gleamlights | Lower Area | Rosaries 320 |  | Verified | collectible |  |
+| Bell Lacquer | Lower Area | Rosaries 520 |  | Verified | collectible |  |
+| Personal Spa | Lower Area | Bellhome Items 2 AND Rosaries 11000 |  | Verified | collectible |  |
+| Gramophone | Lower Area | sold pslam cylinders 6 AND Rosaries 490 |  | Verified | collectible |  |
+| Bench | Lower Area | none |  | Verified | bench |  |
+| Craw Summons | Lower Area | Craw Summons Ready |  | Verified | collectible |  |
 
 ### Upper Bellhart (Belltown_04)
 
@@ -6675,7 +6685,7 @@ No subroom connections defined.
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | bench |  | none |  | Verified | bench |  |
-| act toggle |  | needolin | TODO | Needs verification | bench | is needolin required for swap? |
+| act toggle |  | act 3 AND needolin | TODO |  | bench | is needolin required for swap? |
 
 ## Greymoor
 
@@ -6734,7 +6744,7 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | T | top | lil top | [Greymoor Weaver Shrine (Greymoor_22)](#greymoor-weaver-shrine-greymoor22) | B | silk soar OR ledge grab OR faydown cloak OR cling grip |  | Verified |  |
 | ML | middle left | middle craw nest left | [Greymoor Craw Lake Entrance (Greymoor_15)](#greymoor-craw-lake-entrance-greymoor15) | UR | none |  | Verified |  |
-| LR | lower right | craw building | TODO |  | ACT 3 AND (((cling grip OR silk soar) AND (clawline OR (progressive swift step 1 AND (drifters cloak OR (sharpdart AND faydown cloak))) OR (progressive swift step 2 AND faydown cloak))) OR (prereq balloon lever IN greymoor crow nest AND (clawline OR faydown cloak OR drifters cloak OR sharpdart OR progressive swift step 2 OR ledge grab OR easy hunter pogo OR easy architect pogo OR easy shaman pogo OR easy beast crest pogo))) |  | Verified |  |
+| LR | lower right | craw building | [Verdania Placeholder](#verdania-placeholder) | P | ACT 3 AND (((cling grip OR silk soar) AND (clawline OR (progressive swift step 1 AND (drifters cloak OR (sharpdart AND faydown cloak))) OR (progressive swift step 2 AND faydown cloak))) OR (prereq balloon lever IN greymoor crow nest AND (clawline OR faydown cloak OR drifters cloak OR sharpdart OR progressive swift step 2 OR ledge grab OR easy hunter pogo OR easy architect pogo OR easy shaman pogo OR easy beast crest pogo))) |  | Verified | verdania not yet mapped |
 | CN | craw nest entrance | craw building | [Greymoor Crow Nest (Room_CrowCourt)](#greymoor-crow-nest-roomcrowcourt) | L | swim OR ledge grab OR cling grip OR hard enemy pogo |  | Verified |  |
 | LL | lower left | lower left section | [Greymoor Craw Lake Entrance (Greymoor_15)](#greymoor-craw-lake-entrance-greymoor15) | LR | none |  | Verified |  |
 
@@ -6769,7 +6779,7 @@ No subroom connections defined.
 | H | hatch | flea room | lower flea room | prereq flea airlock |  | Verified |  |
 | SL | spike lower | spiked room | upper craw nest | prereq spike room lever AND (clawline AND faydown cloak AND (ledge grab OR progressive swift step 1)) |  | Verified |  |
 | SL | spike lower | upper craw nest | spiked room | (clawline OR ((progressive swift step 2 OR sharpdart) AND (drifters cloak OR faydown cloak)) ) AND prereq spike room lever |  | Verified |  |
-| SU | spike upper | spiked room | left top craw nest | easy skip spike pogo OR prereq balloon lever IN greymoor crow nest |  | Verified |  |
+| SU | spike upper | spiked room | left top craw nest | (proficient movement AND spike pogo) OR prereq balloon lever IN greymoor crow nest |  | Verified |  |
 | SU | spike upper | left top craw nest | spiked room | none |  | Verified |  |
 | F1 | fall 1 | left top craw nest | upper craw nest | none (just fall) |  | Verified |  |
 | F1 | fall 1 | upper craw nest | left top craw nest | silk soar OR (cling grip AND (easy enemy pogo OR faydown cloak)) |  | Verified |  |
@@ -6937,7 +6947,7 @@ No subroom connections defined.
 | UR | upper right | lone crow platform | bridge right section | none (fall) |  | Verified |  |
 | G2 | gap 2 | lone crow platform | upper crow nest | silk soar OR faydown cloak OR hard enemy pogo OR clawline OR sharpdart OR progressive swift step 2 OR drifters cloak |  | Verified |  |
 | G2 | gap 2 | upper crow nest | lone crow platform | nothing |  | Verified |  |
-| S1 | shaft 1 | upper crow nest | top right | silk soar OR (cling grip AND (easy skip spike pogo OR progressive swift step 1 OR clawline OR sharpdart OR drifters cloak OR medium enemy pogo )) |  | Verified |  |
+| S1 | shaft 1 | upper crow nest | top right | silk soar OR (cling grip AND ((proficient movement AND spike pogo) OR progressive swift step 1 OR clawline OR sharpdart OR drifters cloak OR medium enemy pogo )) |  | Verified |  |
 | S1 | shaft 1 | top right | upper crow nest | nada |  | Verified |  |
 | PG1 | platform gap | upper crow nest | top left | silk soar OR faydown cloak OR hard enemy pogo |  | Verified |  |
 | PG1 | platform gap | top left | upper crow nest | nothing |  | Verified |  |
@@ -6994,7 +7004,7 @@ No subroom connections defined.
 | S2 | shaft 2 | upper section | middle section | nothing (just fall) |  | Verified |  |
 | PG1 | platform gap 1 | upper section | upper airstream section | nothing (just fall) |  | Verified |  |
 | PG1 | platform gap 1 | upper airstream section | upper section | ledge grab OR faydown cloak OR silk soar OR medium enemy pogo |  | Verified |  |
-| S3 | shaft 3 | upper section | tower top | medium skip spike pogo OR silk soar OR ((drifters cloak AND (spike pogo OR ledge grab OR progressive swift step 2 OR faydown cloak OR cling grip)) AND activate upper airstream) |  | Verified |  |
+| S3 | shaft 3 | upper section | tower top | (proficient movement AND spike pogo) OR silk soar OR ((drifters cloak AND (spike pogo OR ledge grab OR progressive swift step 2 OR faydown cloak OR cling grip)) AND activate upper airstream) |  | Verified |  |
 | S3 | shaft 3 | tower top | upper section | none (just fall) |  | Verified |  |
 
 #### Check Locations
@@ -7002,12 +7012,12 @@ No subroom connections defined.
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | Greymoor - Rosary Cache #6 | lower airstream section | nothing |  | Verified | resource |  |
-| Greymoor - Silkeater | tower top | silk soar OR medium skip spike pogo OR (drifters cloak AND (spike pogo OR faydown cloak OR (clawline AND cling grip)) AND activate top airstream) |  | Verified | collectible |  |
+| Greymoor - Silkeater | tower top | silk soar OR (proficient movement AND spike pogo) OR (drifters cloak AND (spike pogo OR faydown cloak OR (clawline AND cling grip)) AND activate top airstream) |  | Verified | collectible |  |
 | Greymoor Tower Gaunlet | arena encounter | nothing |  | Verified | gauntlet |  |
 | lower airstream | lower airstream section | hit lever right OR hit lever up OR hit lever down |  | Verified | switch |  |
 | middle airstream | middle section | ((drifters cloak AND activate lower airstream) OR ledge grab OR cling grip OR silk soar OR faydown cloak) AND (hit lever right OR hit lever up OR hit lever left) |  | Verified | switch |  |
 | upper airstream | upper airstream section | hit lever right OR hit lever down |  | Verified | switch |  |
-| top airstream | tower top | (hit lever right OR hit lever up OR hit lever left) AND ((activate upper airstream AND drifters cloak) OR hard skip spike pogo) |  | Verified | switch |  |
+| top airstream | tower top | (hit lever right OR hit lever up OR hit lever left) AND ((activate upper airstream AND drifters cloak) OR (proficient movement AND spike pogo)) |  | Verified | switch |  |
 
 ### Greymoor Weaver Shrine (Greymoor_22)
 
@@ -7308,9 +7318,10 @@ No check locations defined.
 | --- | --- | --- | --- | --- | --- | --- |
 | Greymoor - Rosary Cache #14 | Top Right Section | nothing |  | Verified | resource |  |
 | Flea Brew | Bottom Left Section | complete THE The Lost Fleas Wish Granted |  | Verified | collectible |  |
-| Flea Caravan - Spool fragment | Bottom Left Section | fleas 14 |  | Verified | collectible |  |
-| Boss: Moorwing | Bottom Left Section | unfinished Wish: The Lost Fleas IN the marrow flea caravan | TODO | Verified | boss | no idea how to place that the quest must be unfinished - isssma currently a non-monotonic logic problem here - hero |
+| Flea Caravan - Spool fragment | Bottom Left Section | after flea caravan move to blasted steps |  | Verified | collectible | reward for the move is the spool fragment |
+| Boss: Moorwing | Bottom Left Section | invalid |  | Verified | boss | randomizer should always force moorwing at other spot for consitent logic - hero, 9/26 |
 | tied airstream | Top Section | break switch left OR break switch up OR break switch right |  | Verified | blockade |  |
+| flea caravan move to blasted steps | Bottom Left Section | after THE flea caravan move to greymoor AND fleas 12 AND defeat THE boss last judge |  | Verified | event | per the wiki |
 
 ### Greymoor Halfway Home (Halfway_01)
 
@@ -7343,6 +7354,9 @@ No subroom connections defined.
 | Greymoor - Nuu's Scrolls |  | (silk soar OR faydown cloak OR ledge grab OR cling grip) |  | Verified | lore | Nuu must not be present in halfway home, according to the wiki she has a 50% chance to not appear but its garanteed that she leaves after certain bosses are defeated: the Skull Tyrant in the Marrow, one of the Great Conchflies in Blasted Steps, Sister Splinter in Shellwood, and Voltvyrm in Voltnest |
 | Wish: Bugs of Pharloom |  | silk soar OR faydown cloak OR ledge grab OR cling grip |  | Verified | event |  |
 | pressure plate |  | none (pressure switch) |  | Verified | switch |  |
+| Crawbug Clearing Wish Promised |  | defeat THE boss widow |  | Verified | event | can be accepted here or at the wish board |
+| Crawbug Clearing Wish Granted |  | complete Crawbug Clearing Wish Promised AND Ragpelts 25 |  | Verified | event |  |
+| Greymoor Crafting Kit |  | complete Crawbug Clearing Wish Granted |  | Verified | collectible |  |
 
 ### Greymoor Halfway Home Exterior (Greymoor_03)
 
@@ -7612,6 +7626,7 @@ No check locations defined.
 | LL | lower left | lower section | [Greymoor Western Tower (Greymoor_06)](#greymoor-western-tower-greymoor06) | LR | nothing |  | Verified |  |
 | ML | middle left | garmond room | [Greymoor Western Tower (Greymoor_06)](#greymoor-western-tower-greymoor06) | GR | nothing |  | Verified |  |
 | MR | middle right | east tower entrance | [Greymoor Eastern Tower (Greymoor_04)](#greymoor-eastern-tower-greymoor04) | LL | ledge grab OR cling grip OR silk soar OR hard scuttlebrace |  | Verified |  |
+| SC | slab capture | lower section | [Slab Capture](#slab-capture) | GM | after Get Kidnapped |  | Verified |  |
 
 #### Subroom Connections
 
@@ -7638,6 +7653,8 @@ No check locations defined.
 | Greymoor - Rosary Cache #9 | upper area | nothing |  | Verified | resource |  |
 | Greymor - Shard Bundle #1 | upper area | faydown cloak OR progressive swift step 1 OR easy enemy pogo OR silk soar OR sharpdart OR clawline |  | Verified | resource |  |
 | Boos: MoorWing | lower section | Act 2 AND complete THE the lost fleas wish granted |  | Verified | boss | maybe just change the wqish to moorwing spkipped ion the other room |
+| Wardenfly | lower section | ( act 1 AND act 2 ) AND defeat THE bell beast boss fight |  | Verified | enemy | per the wiki |
+| Get Kidnapped | lower section | after wardenfly |  | Verified | event |  |
 
 ### Greymoor Upper Halfway Home Path (Greymoor_12)
 
@@ -7956,7 +7973,7 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Mask Shard: Wisp Thicket |  | cling grip and (clawline or (faydown cloak and spike pogo)) |  | Verified |  |  |
+| Mask Shard: Wisp Thicket |  | cling grip AND (clawline OR (faydown cloak AND spike pogo)) |  | Verified | collectible |  |
 
 ### Wisp Thicket Shaft (Wisp_08)
 
@@ -7981,14 +7998,14 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| V1 | Right to Top | Right | Top | cling grip and spike pogo |  |  |  |
-| V2 | Bottom to Right | Bottom | Right | cling grip and spike pogo and faydown cloak |  |  |  |
+| V1 | Right to Top | Right | Top | cling grip AND spike pogo |  |  |  |
+| V2 | Bottom to Right | Bottom | Right | cling grip AND spike pogo AND faydown cloak |  |  |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Relic: Bone Scroll (Wisp Thicket) | Top | none |  |  |  |  |
+| Relic: Bone Scroll (Wisp Thicket) | Top | none |  |  | collectible |  |
 
 ### Wisp Thicket Bench (Wisp_04)
 
@@ -8016,16 +8033,19 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| L1 | Left to Bench | Left | Bench | clawline or dash or spike pogo or drifter's cloak or faydown cloak |  |  |  |
-| L2 | Left to Bottom | Left | Bottom | spike pogo or drifter's cloak or clawline or dash |  |  |  |
-| B1 | Bench to Left | Bench | Left | (dash and ledge grab) or faydown cloak or clawline |  |  |  |
-| B2 | Bench to Bottom | Bench | Bottom | drifter's cloak or spike pogo or clawline or dash |  |  |  |
-| V1 | Bottom to Bench | Bottom | Bench | spike pogo or (faydown cloak and clawline) |  |  |  |
-| V2 | Bottom to Left | Bottom | Left | spike pogo and (ledge grab or faydown cloak or clawline) |  |  |  |
+| L1 | Left to Bench | Left | Bench | clawline OR dash OR spike pogo OR drifter's cloak OR faydown cloak |  |  |  |
+| L2 | Left to Bottom | Left | Bottom | spike pogo OR drifter's cloak OR clawline OR dash |  |  |  |
+| B1 | Bench to Left | Bench | Left | (dash AND ledge grab) OR faydown cloak OR clawline |  |  |  |
+| B2 | Bench to Bottom | Bench | Bottom | drifter's cloak OR spike pogo OR clawline OR dash |  |  |  |
+| V1 | Bottom to Bench | Bottom | Bench | spike pogo OR (faydown cloak AND clawline) |  |  |  |
+| V2 | Bottom to Left | Bottom | Left | spike pogo AND (ledge grab OR faydown cloak OR clawline) |  |  |  |
 
 #### Check Locations
 
-No check locations defined.
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Bench | Bench | none |  | Verified | bench |  |
+| Craw Summons | Bench | Craw Summons Ready |  | Verified | collectible |  |
 
 ### Wisp Thicket Grounds (Wisp_02)
 
@@ -8041,9 +8061,9 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| T | top1 |  | [Wisp Thicket Secret Path (Wisp_05)](#wisp-thicket-secret-path-wisp05) | B | silk soar or cling grip |  |  |  |
+| T | top1 |  | [Wisp Thicket Secret Path (Wisp_05)](#wisp-thicket-secret-path-wisp05) | B | silk soar OR cling grip |  |  |  |
 | R | right1 |  | [Wisp Thicket Bench (Wisp_04)](#wisp-thicket-bench-wisp04) | L | none |  |  |  |
-| L | left1 |  | [Father of the Flame (Belltown_08)](#father-of-the-flame-belltown08) | R | ledge grab or faydown cloak or silk soar |  |  |  |
+| L | left1 |  | [Father of the Flame (Belltown_08)](#father-of-the-flame-belltown08) | R | ledge grab OR faydown cloak OR silk soar |  |  |  |
 
 #### Subroom Connections
 
@@ -8053,7 +8073,7 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Rosary Necklace: Wisp Thicket |  | silk soar or cling grip |  |  |  |  |
+| Rosary Necklace: Wisp Thicket |  | silk soar OR cling grip |  |  | collectible |  |
 
 ### Father of the Flame (Belltown_08)
 
@@ -8079,8 +8099,8 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Wispfire Lantern |  | faydown cloak | TODO |  |  | You can defeat the boss naked... but maybe something is "recommended" |
-| Boss: Father of the Flame |  | faydown cloak | TODO |  |  | You can defeat the boss naked... but maybe something is "recommended" |
+| Wispfire Lantern |  | faydown cloak | TODO |  | collectible | You can defeat the boss naked... but maybe something is "recommended" |
+| Boss: Father of the Flame |  | faydown cloak | TODO |  | boss | You can defeat the boss naked... but maybe something is "recommended" |
 
 ### Wisp Thicket Secret Path (Wisp_05)
 
@@ -8104,14 +8124,14 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| V | Vertical | Bottom | Top | cling grip and (spike pogo or (faydown cloak and clawline)) |  |  |  |
-| V | Vertical | Top | Bottom | spike pogo or drifter's cloak |  |  |  |
+| V | Vertical | Bottom | Top | cling grip AND (spike pogo OR (faydown cloak AND clawline)) |  |  |  |
+| V | Vertical | Top | Bottom | spike pogo OR drifter's cloak |  |  |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Craftmetal: Wisp Thicket | Top | none |  |  |  |  |
+| Craftmetal: Wisp Thicket | Top | none |  |  | collectible |  |
 
 ### Wisp Thicket Cave (Wisp_09)
 
@@ -8127,7 +8147,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 |  | [Wisp Thicket Secret Path (Wisp_05)](#wisp-thicket-secret-path-wisp05) | L | spike pogo or clawline or drifter's cloak or (faydown cloak and dash) |  |  |  |
+| R | right1 |  | [Wisp Thicket Secret Path (Wisp_05)](#wisp-thicket-secret-path-wisp05) | L | spike pogo OR clawline OR drifter's cloak OR (faydown cloak AND dash) |  |  |  |
 | T | top1 |  | [Underworks Wisp Thicket Passage (Under_23)](#underworks-wisp-thicket-passage-under23) | B | faydown cloak |  |  |  |
 
 #### Subroom Connections
@@ -8138,15 +8158,35 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Shell Shard Cache: Wisp Thicket #6 |  | (dash and cling grip) clawline or spike pogo or drifter's cloak | TODO |  |  | May have different requirements if entered from the top |
-| Shell Shard Cache: Wisp Thicket #7 |  | (dash and cling grip) or clawline or spike pogo or drifter's cloak | TODO |  |  | May have different requirements if entered from the top |
-| Shell Shard Cache: Wisp Thicket #1 |  | dash or faydown cloak or clawline or spike pogo or drifter's cloak |  |  |  |  |
-| Shell Shard Cache: Wisp Thicket #2 |  | dash or faydown cloak or clawline or spike pogo or drifter's cloak |  |  |  |  |
-| Shell Shard Cache: Wisp Thicket #3 |  | dash or faydown cloak or clawline or spike pogo or drifter's cloak |  |  |  |  |
-| Shell Shard Cache: Wisp Thicket #4 |  | dash or faydown cloak or clawline or spike pogo or drifter's cloak |  |  |  |  |
-| Shell Shard Cache: Wisp Thicket #5 |  | dash or faydown cloak or clawline or spike pogo or drifter's cloak |  |  |  |  |
+| Shell Shard Cache: Wisp Thicket #6 |  | (dash AND cling grip) OR clawline OR spike pogo OR drifter's cloak | TODO |  | collectible | May have different requirements if entered from the top |
+| Shell Shard Cache: Wisp Thicket #7 |  | (dash AND cling grip) OR clawline OR spike pogo OR drifter's cloak | TODO |  | collectible | May have different requirements if entered from the top |
+| Shell Shard Cache: Wisp Thicket #1 |  | dash OR faydown cloak OR clawline OR spike pogo OR drifter's cloak |  |  | collectible |  |
+| Shell Shard Cache: Wisp Thicket #2 |  | dash OR faydown cloak OR clawline OR spike pogo OR drifter's cloak |  |  | collectible |  |
+| Shell Shard Cache: Wisp Thicket #3 |  | dash OR faydown cloak OR clawline OR spike pogo OR drifter's cloak |  |  | collectible |  |
+| Shell Shard Cache: Wisp Thicket #4 |  | dash OR faydown cloak OR clawline OR spike pogo OR drifter's cloak |  |  | collectible |  |
+| Shell Shard Cache: Wisp Thicket #5 |  | dash OR faydown cloak OR clawline OR spike pogo OR drifter's cloak |  |  | collectible |  |
 
 ## Verdania
+
+### Verdania Placeholder
+
+#### Subrooms
+
+No subrooms defined.
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| P | placeholder |  | [Greymoor Craw Lake (Greymoor_15b)](#greymoor-craw-lake-greymoor15b) | LR | invalid |  | Needs verification |  |
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+No check locations defined.
 
 ## Blasted Steps
 
@@ -8326,7 +8366,7 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Mask Shard: Blasted Steps |  | (Scuttlebrace AND Faydown) OR (Cling Grip AND Easy Skip Spike Pogo AND (Ledge Grab OR Easy Hazard Respawn)) |  | Verified | collectible |  |
+| Mask Shard: Blasted Steps |  | (Scuttlebrace AND Faydown) OR ( Proficient Movement AND Cling Grip AND Spike Pogo AND (Ledge Grab OR Easy Hazard Respawn)) |  | Verified | collectible |  |
 
 ### Blasted Steps Shakra Room (Coral_12)
 
@@ -8692,6 +8732,7 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- |
 | Boss: Last Judge |  | prereq Five Bellshrines Rung AND (Progressive Swift Step 2 OR Faydown) |  | Verified | boss | Combat Requirements |
 | Five Bellshrines Rung |  | activated bellshrines 5 |  | Verified | event |  |
+| flea caravan move to fleatopia |  | after THE flea caravan move to blasted steps AND fleas 22 AND after THE reached pale lake |  | Verified | event |  |
 
 ### Lumble the Lucky (Coral_33)
 
@@ -8719,8 +8760,11 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- |
 | Magnetite Dice |  | ( Complete Bankrupt Lumble OR Prereq Clawline Pickup IN Underworks Clawline Room OR Prereq THE cogwork dancers boss fight ) AND ( Act 1 OR Act 2 ) |  | Verified | collectible |  |
 | Bankrupt Lumble |  | None |  | Verified | event |  |
+| Lost Garmond Boss Fight |  | complete THE Hero's Call Wish Promised |  | Verified | boss |  |
+| Hero's Call Wish Granted |  | defeat Lost Garmond Boss Fight |  | Verified | event |  |
+| Hero's Memento |  | defeat Lost Garmond Boss Fight |  | Verified | collectible |  |
 
-### Pinstress Room (Room_Pinstress)
+### Windy Pinstress Room (Room_Pinstress)
 
 **Game ID:** Room_Pinstress
 
@@ -8745,6 +8789,8 @@ No subroom connections defined.
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | Needle Strike |  | Nothing |  | Verified | collectible |  |
+| Read Pinstress Note |  | act 3 AND have needle strike AND have silk soar |  | Verified | logic-point | technically lore, but not really |
+| Fatal Resolve Wish Promised |  | after Read Pinstress Note |  | Verified | event | can be accepted at the wish wall, but hornet has to read the note first anyway, so functionally it doesn't matter |
 
 ### Pre Last Judge Room (Coral_32)
 
@@ -8817,7 +8863,7 @@ No subroom connections defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | R | Right | Lower Third | [Horizontal Room with Sand Pit (Coral_11b)](#horizontal-room-with-sand-pit-coral11b) | L | Nothing |  | Verified |  |
-| C | Center | Middle Third | [Pinstress Room (Room_Pinstress)](#pinstress-room-roompinstress) | L | Nothing (Falling) |  | Verified |  |
+| C | Center | Middle Third | [Windy Pinstress Room (Room_Pinstress)](#windy-pinstress-room-roompinstress) | L | Nothing (Falling) |  | Verified |  |
 | T | Top | Upper Third | [Sands of Karak Entrance (Coral_25)](#sands-of-karak-entrance-coral25) | F | Cling Grip OR (Scuttlebrace AND Faydown) OR Silk Soar |  | Verified |  |
 
 #### Subroom Connections
@@ -9094,6 +9140,7 @@ No subroom connections defined.
 | Rosary Cache: Sinner’s Road #8 |  | Silk soar OR (Faydown AND cling grip) |  | Verified | collectible |  |
 | Map Purchase: Sinner's Road |  | Silk Soar OR (spike pogo AND (swim OR ledge grab)) |  | Verified | collectible |  |
 | Sinner's Road Bench |  | rosaries 40 AND (cling grip OR silk soar) AND break wall left AND break vines right AND ((faydown cloak AND clawline) OR (spike pogo AND swim)) |  | Verified | bench |  |
+| Craw Summons |  | Craw Summons Ready |  | Verified | collectible |  |
 
 ### Sinner's Road Chef's Kitchen (Dust_Chef)
 
@@ -9410,6 +9457,8 @@ No check locations defined.
 | --- | --- | --- | --- | --- | --- | --- |
 | Styx Room Upper Breakable Wall | left | break wall right |  | Verified | blockade |  |
 | Styx Room Lower Breakable Wall | cage | break wall right |  | Verified | blockade |  |
+| Styx Grew First Grub | left | steel soul off |  | Verified | logic-point |  |
+| Craw Summons | left | Craw Summons Ready |  | Verified | collectible |  |
 
 ### Sinner's Road Vertical Hall East (Dust_06)
 
@@ -9559,7 +9608,7 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Underworks: Flip Switch #2 (Left) | Elevator Shaft | Nothing. |  | Verified |  |  |
+| Underworks: Flip Switch #2 (Left) | Elevator Shaft | Nothing. |  | Verified | switch |  |
 
 ### Chapel of the Architect (Under_20)
 
@@ -9583,10 +9632,10 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Underworks: Silkeater |  | Nothing. |  |  |  |  |
-| Underworks: Break Wall (Up) |  | Nothing. |  |  |  |  |
-| Underworks: Needolin Lore |  | Needolin. |  |  |  |  |
-| Architect's Crest |  | Nothing. |  |  |  |  |
+| Underworks: Silkeater |  | Nothing. |  |  | collectible |  |
+| Underworks: Break Wall (Up) |  | Nothing. |  |  | blockade |  |
+| Underworks: Needolin Lore |  | Needolin. |  |  | lore |  |
+| Architect's Crest |  | Nothing. |  |  | collectible |  |
 
 ### Underworks Below Vaultkeeper (Library_12b)
 
@@ -9617,7 +9666,7 @@ No subroom connections defined.
 | NP | Needolin Path | Top Exit Shaft | Needolin Check | Nothing. (Fall) |  | Verified | pretty precise fall |
 | NP | Needolin Path | Needolin Check | Top Exit Shaft | Cling Grip OR Spike Pogo |  | Verified |  |
 | LP | Left Path | Top Exit Shaft | Left Side Shafts | Nothing. (Fall) |  | Verified |  |
-| LP | Left Path | Left Side Shafts | Top Exit Shaft | Ledge Grab OR Clawline OR Scuttlebrace OR Faydown Cloak OR Crest (Shaman) Pogo OR Crest (Beast) Charge |  | Verified |  |
+| LP | Left Path | Left Side Shafts | Top Exit Shaft | Ledge Grab OR Clawline OR Scuttlebrace OR Faydown Cloak OR Easy Shaman Pogo OR Easy Beast Charge |  | Verified |  |
 | SP | Shell Path | Left Side Shafts | Shell Shard Check | Nothing. (fall) |  | Verified |  |
 | SP | Shell Path | Shell Shard Check | Left Side Shafts | Cling Grip OR Scuttlebrace |  | Verified |  |
 | LPC | Left Path, Continued | Left Side Shafts | Left Side Shaft Exit | Nothing. (Fall) |  | Verified |  |
@@ -9627,8 +9676,8 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Underworks: Needolin Lore #1 | Needolin Check | Needolin |  | Verified |  |  |
-| Underworks: Shell Shard Cache #1 | Shell Shard Check | Nothing. |  | Verified |  |  |
+| Underworks: Needolin Lore #1 | Needolin Check | Needolin |  | Verified | lore |  |
+| Underworks: Shell Shard Cache #1 | Shell Shard Check | Nothing. |  | Verified | collectible |  |
 
 ### Underworks Clawline Entrance (Under_19c)
 
@@ -9652,8 +9701,8 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| BC | B-C | Bottom | Center | Silk Soar OR Cling Grip OR Scuttlebrace AND Crest Pogo (Shaman) OR Faydown Cloak AND (Ledge Grab OR Clawline) |  | Verified |  |
-| CT | C-T | Center | Top | Silk Soar OR Cling Grip OR Scuttlebrac |  | Verified |  |
+| BC | B-C | Bottom | Center | Silk Soar OR Cling Grip OR Scuttlebrace AND Easy Shaman Pogo OR Faydown Cloak AND (Ledge Grab OR Clawline) |  | Verified |  |
+| CT | C-T | Center | Top | Silk Soar OR Cling Grip OR Scuttlebrace |  | Verified |  |
 | CT | C-T | Top | Center | Nothing. (Fall) |  | Verified |  |
 | BC | B-C | Center | Bottom | Nothing. (Fall) |  | Verified |  |
 
@@ -9702,8 +9751,8 @@ No check locations defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Clawline Pickup | Clawline Statue | Nothing. |  | Verified |  |  |
-| Underworks: Shard Bundle #2 | Shard Bundle Check | Nothing. |  | Verified |  |  |
+| Clawline Pickup | Clawline Statue | Nothing. |  | Verified | collectible |  |
+| Underworks: Shard Bundle #2 | Shard Bundle Check | Nothing. |  | Verified | collectible |  |
 | Clawline Ring | Arena | Clawline |  | Verified |  |  |
 
 ### Underworks Craftmetal Corridor (Under_19b)
@@ -9725,14 +9774,14 @@ No check locations defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| J | Jump | Fuckass Jump Left | Fuckass Jump Right | Ledge Grab OR Clawline OR Sharp Dart OR Cling Grip OR Scuttlebrace OR Sprint OR Dash OR Faydown Cloak OR Drifter's Cloak OR Crest Pogo (Shaman OR Beast OR Architect OR Hunter OR Reaper) OR Crest Needle Strike (Witch OR Wanderer) |  | Verified | why couldnt you have been TWO pixels shorter? |
+| J | Jump | Fuckass Jump Left | Fuckass Jump Right | Ledge Grab OR Clawline OR Sharp Dart OR Cling Grip OR Scuttlebrace OR Sprint OR Dash OR Faydown Cloak OR Drifter's Cloak  OR Easy Shaman Pogo  OR Easy Beast Pogo OR Easy Architect Pogo OR Easy Hunter Pogo OR Easy Reaper Pogo  OR Easy Witch Needle Strike OR Easy Wanderer Needle Strike |  | Verified | why couldnt you have been TWO pixels shorter? |
 | J | Jump | Fuckass Jump Right | Fuckass Jump Left | Nothing. |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Underworks: Craftmetal #1 | Fuckass Jump Left | Nothing. |  | Verified |  |  |
+| Underworks: Craftmetal #1 | Fuckass Jump Left | Nothing. |  | Verified | collectible |  |
 
 ### Underworks East Shaft (Under_13)
 
@@ -9770,7 +9819,7 @@ No check locations defined.
 | BLR | Bottom Left-Bottom Right | Bottom Left Entrance | Bottom Right Entrance | Ledge Grab OR Clawline OR Faydown Cloak |  | Verified |  |
 | BLR | Bottom Left-Bottom Right | Bottom Right Entrance | Bottom Left Entrance | Ledge Grab AND (Sprint OR Dash OR Drifter's Cloak) OR Clawline OR Cling Grip OR Faydown Cloak |  | Verified |  |
 | BC | Bottom-Lower Central | Bottom | Lower Central Shaft | Silk Soar OR (Faydown Cloak OR Clawline) AND Enemy Pogo OR Cling Grip OR Scuttlebrace |  | Verified |  |
-| LHL | Lower Left-High Left | Lower Left Entrance | High Left Entrance | Cling Grip Or Scuttlebrace |  | Verified |  |
+| LHL | Lower Left-High Left | Lower Left Entrance | High Left Entrance | Cling Grip OR Scuttlebrace |  | Verified |  |
 | LHL | Lower Left-High Left | High Left Entrance | Lower Left Entrance | Nothing. (Fall) |  | Verified |  |
 | HLT | High Left-Top Left | High Left Entrance | Top Left Entrance | Silk Soar OR Faydown Cloak OR Cling Grip OR Scuttlebrace |  | Verified |  |
 | HLT | High Left-Top Left | Top Left Entrance | High Left Entrance | Nothing. (Fall) |  | Verified |  |
@@ -9786,7 +9835,7 @@ No check locations defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Underworks: Flip Switch (Left OR Right) #3 | Mid Right Entrance | Nothing. |  | Verified |  | is this even a check? |
+| Underworks: Flip Switch (Left OR Right) #3 | Mid Right Entrance | Nothing. |  | Verified | switch | is this even a check? |
 
 ### Underworks Eastern Gauntlet (Under_10)
 
@@ -9818,9 +9867,9 @@ No check locations defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Underworks: Lever (Up) #1 | Arena | Beat Arena |  | Verified |  |  |
-| Underworks: Silk Spool #2 | Arena | Nothing. |  | Verified |  |  |
-| Underworks: Arena Fight #1 | Arena |  |  | Verified |  |  |
+| Underworks: Lever (Up) #1 | Arena | Beat Arena |  | Verified | switch |  |
+| Underworks: Silk Spool #2 | Arena | Nothing. |  | Verified | collectible |  |
+| Underworks: Arena Fight #1 | Arena |  |  | Verified | collectible |  |
 
 ### Underworks Exhaust Organ Transit (Library_12)
 
@@ -9871,14 +9920,14 @@ No check locations defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Underworks: Break Wall #1 (Left OR Right) | Far Right | Nothing. |  | Verified |  |  |
-| Underworks: Shell Shard Pillar #1 | Shell Shard Cache #2 | Nothing. |  | Verified |  |  |
-| Underworks: Shell Shard Pillar #2 | Shell Shard Cache #2 | Nothing. |  | Verified |  |  |
-| Underworks: Shell Shard Rock #2 | Shell Shard Cache #1 | Nothing. |  | Verified |  |  |
-| Underworks: Shard Bundle #1 | Shell Bundle Pickup | Nothing. |  | Verified |  |  |
-| Underworks: Shell Shard Rock #1 | Shell Shard Cache #1 | Nothing. |  | Verified |  |  |
-| Wunderworks: Break Wall #2 (Up) | Upper Left | Nothing. |  | Verified |  |  |
-| Underworks: Flip Switch #1 (Left) | Exhaust Organ Elevator | Nothing. |  | Verified |  |  |
+| Underworks: Break Wall #1 (Left OR Right) | Far Right | Nothing. |  | Verified | switch |  |
+| Underworks: Shell Shard Pillar #1 | Shell Shard Cache #2 | Nothing. |  | Verified | collectible |  |
+| Underworks: Shell Shard Pillar #2 | Shell Shard Cache #2 | Nothing. |  | Verified | collectible |  |
+| Underworks: Shell Shard Rock #2 | Shell Shard Cache #1 | Nothing. |  | Verified | collectible |  |
+| Underworks: Shard Bundle #1 | Shell Bundle Pickup | Nothing. |  | Verified | collectible |  |
+| Underworks: Shell Shard Rock #1 | Shell Shard Cache #1 | Nothing. |  | Verified | collectible |  |
+| Wunderworks: Break Wall #2 (Up) | Upper Left | Nothing. |  | Verified | blockade |  |
+| Underworks: Flip Switch #1 (Left) | Exhaust Organ Elevator | Nothing. |  | Verified | switch |  |
 
 ### Underworks Flea Room (Under_21)
 
@@ -9899,14 +9948,14 @@ No check locations defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| FG | Flea Get | Entrance | Flea | Ledge Grab OR Clawline OR  Cling Grip OR Scuttlebracre OR Faydown Cloak OR Silk Soar |  | Verified |  |
+| FG | Flea Get | Entrance | Flea | Ledge Grab OR Clawline OR Cling Grip OR Scuttlebrace OR Faydown Cloak OR Silk Soar |  | Verified |  |
 | FG | Flea Get | Flea | Entrance | Nothing. (Fall) |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Underworks: Flea #1 | Flea | Nothing. |  | Verified |  |  |
+| Underworks: Flea #1 | Flea | Nothing. |  | Verified | collectible |  |
 
 ### Underworks Lava Flow Corridor (Under_19)
 
@@ -9970,7 +10019,7 @@ No check locations defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Underworks: Flip Switch (Left) #3 | Lever Shaft | Nothing. |  | Verified |  |  |
+| Underworks: Flip Switch (Left) #3 | Lever Shaft | Nothing. |  | Verified | switch |  |
 
 ### Underworks Rosary Room (Under_12)
 
@@ -9991,14 +10040,14 @@ No check locations defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| RP | Rosary Pickup | Entrance | Rosary Necklace | Ledge Grab OR Clawline OR  Cling Grip OR Scuttlebracre OR Faydown Cloak OR Silk Soar |  | Verified |  |
+| RP | Rosary Pickup | Entrance | Rosary Necklace | Ledge Grab OR Clawline OR  Cling Grip OR Scuttlebrace OR Faydown Cloak OR Silk Soar |  | Verified |  |
 | RP | Rosary Pickup | Rosary Necklace | Entrance | Nothing. (Fall) |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Underworks: Frayed Rosary Necklace #1 | Rosary Necklace | Nothing. |  | Verified |  |  |
+| Underworks: Frayed Rosary Necklace #1 | Rosary Necklace | Nothing. |  | Verified | collectible |  |
 
 ### Underworks Silk Spool (Library_11b)
 
@@ -10038,14 +10087,14 @@ No check locations defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Underworks: Shell Shard Rock #3 | Shell Shard Alcove #1 | Nothing. |  | Verified |  |  |
-| Underworks: Shell Shard Rock #4 | Shell Shard Alcove #1 | Nothing. |  | Verified |  |  |
-| Underworks: Shell Shard Rock #5 | Shell Shard Alcove #1 | Nothing. |  | Verified |  |  |
-| Underworks: Shell Shard Rock #6 | Shell Shard Alcove #1 | Nothing. |  | Verified |  |  |
-| Underworks: Shell Shard Cache #2 | Shell Shard Alcove #2 | Nothing. |  | Verified |  |  |
-| Underworks: Shell Shard Cache #3 | Shell Shard Alcove #2 | Nothing. |  | Verified |  |  |
-| Underworks: Silk Spool Fragment #1 | Silk Spool | Nothing. |  | Verified |  |  |
-| Underworks: Break Wall #3 (Left) | Silk Spool | Nothing. |  | Verified |  |  |
+| Underworks: Shell Shard Rock #3 | Shell Shard Alcove #1 | Nothing. |  | Verified | collectible |  |
+| Underworks: Shell Shard Rock #4 | Shell Shard Alcove #1 | Nothing. |  | Verified | collectible |  |
+| Underworks: Shell Shard Rock #5 | Shell Shard Alcove #1 | Nothing. |  | Verified | collectible |  |
+| Underworks: Shell Shard Rock #6 | Shell Shard Alcove #1 | Nothing. |  | Verified | collectible |  |
+| Underworks: Shell Shard Cache #2 | Shell Shard Alcove #2 | Nothing. |  | Verified | collectible |  |
+| Underworks: Shell Shard Cache #3 | Shell Shard Alcove #2 | Nothing. |  | Verified | collectible |  |
+| Underworks: Silk Spool Fragment #1 | Silk Spool | Nothing. |  | Verified | collectible |  |
+| Underworks: Break Wall #3 (Left) | Silk Spool | Nothing. |  | Verified | blockade |  |
 
 ### Underworks Twelfth Architect (Under_17)
 
@@ -10072,7 +10121,7 @@ No check locations defined.
 | BL | Bottom Left | Left Exit Bottom) | [Underworks Clawline Room (Under_18)](#underworks-clawline-room-under18) | TL | Nothing. |  | Verified |  |
 | BR | Bottom Right | One-way Entrance (Bottom) | [Underworks Clawline Room (Under_18)](#underworks-clawline-room-under18) | TR | Nothing. |  | Verified |  |
 | UP | Upwards | One-way Entrance (Top) | [Whiteward Descent (Ward_06)](#whiteward-descent-ward06) | B | Silk Soar. |  | Verified |  |
-| AC | Architect Chapel | Second Floor | [Chapel of the Architect (Under_20)](#chapel-of-the-architect-under20) | L | Architect's Key |  | Verified |  |
+| AC | Architect Chapel | Second Floor | [Chapel of the Architect (Under_20)](#chapel-of-the-architect-under20) | L | have Architect's Key |  | Verified |  |
 
 #### Subroom Connections
 
@@ -10086,8 +10135,8 @@ No check locations defined.
 | GTF | Ground to First | First Floor | Ground Floor | Nothing. (Fall) |  | Verified |  |
 | TE | Top Entrance | One-way Entrance (Top) | Ground Floor | Nothing. (Fall) |  | Verified |  |
 | BE | Bottom Entrance | One-way Entrance (Bottom) | Ground Floor | Silk Soar OR Faydown Cloak AND (Ledge Grab OR Clawline) OR Cling Grip OR Scuttlebrace |  | Verified |  |
-| TE | Top Entrance | Ground Floor | One-way Entrance (Top) | Can't. |  | Verified |  |
-| BE | Bottom Entrance | Ground Floor | One-way Entrance (Bottom) | Can't. |  | Verified |  |
+| TE | Top Entrance | Ground Floor | One-way Entrance (Top) | invalid |  | Verified |  |
+| BE | Bottom Entrance | Ground Floor | One-way Entrance (Bottom) | invalid |  | Verified |  |
 | CS | Collect Shards | Ground Floor | Shell Shard Cache | Nothing. (Fall) |  | Verified |  |
 | CS | Collect Shards | Shell Shard Cache | Ground Floor | Silk Soar OR Faydown Cloak AND (Ledge Grab OR Clawline) OR Cling Grip OR Scuttlebrace |  | Verified | LOTTA this in this room. |
 | ESL | Exit Stage Left | Ground Floor | Left Exit Bottom) | Nothing. (Fall) |  | Verified |  |
@@ -10099,17 +10148,17 @@ No check locations defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Underworks: Shell Shard Cache #4 | Shell Shard Cache | Nothing. |  | Verified |  |  |
-| Twelfth Architect Pristine Core | First Floor | Nothing. |  | Verified |  |  |
-| Underworks: Needolin Lore #2 | One-way Entrance (Top) | Needolin |  | Verified |  | futureproofing in case |
-| Underworks: Needolin Lore #3 | Needolin Check Guy | Needolin |  | Verified |  | futureproofing in case |
-| Underworks: Flip Switch (Left OR Right) | Left Exit (Top) | Nothing. |  | Verified |  |  |
-| Twelfth Architect: Silkshot | First Floor | Ruined Tool AND 1 Craftmetal |  | Verified |  |  |
-| Twelfth Architect: Cogwork Wheel | First Floor | 1 Craftmetal |  | Verified |  |  |
-| Twelfth Architect: Sawtooth Circlet | First Floor | 1 Craftmetal |  | Verified |  |  |
-| Twelfth Architect: Scuttlebrace | First Floor | 1 Craftmetal |  | Verified |  |  |
-| Twelfth Architect: Crafting Kit | First Floor | Nothing. |  | Verified |  |  |
-| Twelfth Architect: Architect's Key | First Floor | 25 Tools |  | Verified |  |  |
+| Underworks: Shell Shard Cache #4 | Shell Shard Cache | Nothing. |  | Verified | collectible |  |
+| Twelfth Architect Pristine Core | First Floor | Nothing. | TODO | Verified | collectible | is this really nothing? - hero, 9/25 |
+| Underworks: Needolin Lore #2 | One-way Entrance (Top) | Needolin |  | Verified | lore | futureproofing in case |
+| Underworks: Needolin Lore #3 | Needolin Check Guy | Needolin |  | Verified | lore | futureproofing in case |
+| Underworks: Flip Switch (Left OR Right) | Left Exit (Top) | Nothing. |  | Verified | switch |  |
+| Twelfth Architect: Silkshot | First Floor | have Ruined Tool  AND Craftmetals 1 |  | Verified | collectible |  |
+| Twelfth Architect: Cogwork Wheel | First Floor | Craftmetals 1 |  | Verified | collectible |  |
+| Twelfth Architect: Sawtooth Circlet | First Floor | Craftmetals 1 |  | Verified | collectible |  |
+| Twelfth Architect: Scuttlebrace | First Floor | Craftmetals 1 |  | Verified | collectible |  |
+| Twelfth Architect: Crafting Kit | First Floor | Nothing. |  | Verified | collectible |  |
+| Twelfth Architect: Architect's Key | First Floor | Tools 25 |  | Verified | collectible |  |
 
 ### Underworks Ventrica (Under_22)
 
@@ -10124,7 +10173,7 @@ No subrooms defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | R | right1 |  | [Underworks East Shaft (Under_13)](#underworks-east-shaft-under13) | HL | Nothing. |  | Verified |  |
-| V | door_tubeEnter |  | [Ventrica Menu](#ventrica-menu) | UW | have ventrica underworks |  | Verified |  |
+| V | door_tubeEnter |  | [Ventrica Menu](#ventrica-menu) | UW | unlock Underworks: Ventrica |  | Verified |  |
 
 #### Subroom Connections
 
@@ -10134,7 +10183,8 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Underworks: Ventrica Toll |  | Nothing. |  | Verified |  |  |
+| Underworks: Ventrica Rosary Lock |  | Rosaries 80 |  | Verified | lock |  |
+| Underworks: Ventrica |  | unlock Underworks: Ventrica Rosary Lock |  | Verified | travel |  |
 
 ### Broken Elevator (Under_01b)
 
@@ -10187,8 +10237,8 @@ No check locations defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| V | Base to Top | Base | Top | cling grip and (faydown cloak or dash or sharpdart or drifter's cloak or ledge grab) or silk soar |  |  |  |
-| V2 | Top To Memory | Top | Memory | faydown cloak or ledge grab or silk soar | TODO |  | check cling grip as well when there's no ledge grab |
+| V | Base to Top | Base | Top | cling grip AND (faydown cloak OR dash OR sharpdart OR drifter's cloak OR ledge grab) OR silk soar |  |  |  |
+| V2 | Top To Memory | Top | Memory | faydown cloak OR ledge grab OR silk soar | TODO |  | check cling grip as well when there's no ledge grab |
 | F | Top to Base | Top | Base | none |  |  | falling |
 | S | Secret to Top | Secret | Top | none | TODO |  | falling |
 | S2 | Secret to Memory | Secret | Memory | none | TODO |  | falling |
@@ -10197,9 +10247,9 @@ No check locations defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Memory Locket: Underworks | Memory | none |  |  |  |  |
-| Shell Shard Cache: Underworks #15 | Top | none |  |  |  |  |
-| Relic: Psalm Cylinder (Underworks) | Secret | TBD | TODO |  |  |  |
+| Memory Locket: Underworks | Memory | none |  |  | collectible | based on in-game coords, this is named incorrectly - hero, 9/26 |
+| Shell Shard Cache: Underworks #15 | Top | none |  |  | collectible |  |
+| Relic: Psalm Cylinder (Underworks) | Secret | TBD | TODO |  | collectible |  |
 
 ### Underworks Below Confession (Under_06)
 
@@ -10218,17 +10268,17 @@ No check locations defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | L | left1 | Left | [Underworks Western Gauntlet (Under_07)](#underworks-western-gauntlet-under07) | R | none |  |  |  |
-| T | top1 | Center | [Confession Toll (Under_08)](#confession-toll-under08) | B | cling grip or silk soar |  |  |  |
+| T | top1 | Center | [Confession Toll (Under_08)](#confession-toll-under08) | B | cling grip OR silk soar |  |  |  |
 | R | right1 | Right | [Underworks Central Shaft (Under_05)](#underworks-central-shaft-under05) | TL | none |  |  |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| LC | Left-Center | Left | Center | spike pogo or dash or clawline | TODO |  | Very hard for me to verify |
-| LC | Left-Center | Center | Left | spike pogo or dash or clawline | TODO |  | Very hard for me to verify |
-| RC | Right-Center | Right | Center | spike pogo or dash or clawline | TODO |  | Very hard for me to verify |
-| RC | Right-Center | Center | Right | spike pogo or dash or clawline | TODO |  | Very hard for me to verify |
+| LC | Left-Center | Left | Center | spike pogo OR dash OR clawline | TODO |  | Very hard for me to verify |
+| LC | Left-Center | Center | Left | spike pogo OR dash OR clawline | TODO |  | Very hard for me to verify |
+| RC | Right-Center | Right | Center | spike pogo OR dash OR clawline | TODO |  | Very hard for me to verify |
+| RC | Right-Center | Center | Right | spike pogo OR dash OR clawline | TODO |  | Very hard for me to verify |
 
 #### Check Locations
 
@@ -10258,8 +10308,8 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Map Pickup: Underworks |  | none |  | Verified |  |  |
-| Relic: Bone Scroll (Underworks) |  | none |  | Verified |  |  |
+| Map Pickup: Underworks |  | none |  | Verified | collectible |  |
+| Relic: Bone Scroll (Underworks) |  | none |  | Verified | collectible |  |
 
 ### Underworks Outside Choral Chambers (Under_07c)
 
@@ -10277,7 +10327,7 @@ No subrooms defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | NF | bot1 |  | [Underworks Western Gauntlet (Under_07)](#underworks-western-gauntlet-under07) | NF | NOT IMPLEMENTED | TODO |  | Haven't found any connection to bottom in Act 2. Maybe Act 3? Maybe a miss from the devs? |
 | L | left2 |  | [Underworks Shaft (Under_02)](#underworks-shaft-under02) | R4 | none |  |  |  |
-| T | top1 |  | [Choral Chambers Outisde Underworks (Under_07b)](#choral-chambers-outisde-underworks-under07b) | B | cling grip or silk soar |  |  |  |
+| T | top1 |  | [Choral Chambers Outisde Underworks (Under_07b)](#choral-chambers-outisde-underworks-under07b) | B | cling grip OR silk soar |  |  |  |
 
 #### Subroom Connections
 
@@ -10287,10 +10337,10 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Rosary Cache: Underworks #2 |  | cling grip |  | Verified |  |  |
-| Rosary Cache: Underworks #3 |  | cling grip |  | Verified |  |  |
-| Shell Shard Cache: Underworks #14 |  | cling grip and (dash or clawline or sharpdart) |  | Verified |  |  |
-| Frayed Rosary String: Underworks #1 |  | cling grip |  | Verified |  |  |
+| Rosary Cache: Underworks #2 |  | cling grip |  | Verified | collectible |  |
+| Rosary Cache: Underworks #3 |  | cling grip |  | Verified | collectible |  |
+| Shell Shard Cache: Underworks #14 |  | cling grip AND (dash OR clawline OR sharpdart) |  | Verified | collectible |  |
+| Frayed Rosary String: Underworks #1 |  | cling grip |  | Verified | collectible |  |
 
 ### Underworks Shaft (Under_02)
 
@@ -10322,9 +10372,9 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| BL | Reaching Bottom Lever | Bottom | Lever | silk soar or (cling grip and (ledge grab or faydown cloak or clawline)) |  |  |  |
-| LM | Lever to Mid | Lever | Mid | cling grip or silk soar |  |  |  |
-| TOT | Top to Overtop | Top | Overtop | cling grip or faydown cloak or silk soar |  |  |  |
+| BL | Reaching Bottom Lever | Bottom | Lever | silk soar OR (cling grip AND (ledge grab OR faydown cloak OR clawline)) |  |  |  |
+| LM | Lever to Mid | Lever | Mid | cling grip OR silk soar |  |  |  |
+| TOT | Top to Overtop | Top | Overtop | cling grip OR faydown cloak OR silk soar |  |  |  |
 | UG | Coming form Underground | Underground | Bottom | been able to reach top and  (faydown cloak and cling grip) or (silk soar and ((dash and ledge grab) or cling grip or clawline) | TODO |  | Hard to verify because of the difficult geometry |
 | UGL | Underground Level | Top | Underground | none |  |  | Hitting the lever will let you go all the way down to the underground |
 | FOT | Falling from Overtop | Overtop | Top | none |  |  | falling |
@@ -10362,7 +10412,7 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Rosary Cache: Underworks #1 |  | cling grip or silk soar or (faydown cloak and ledge grab) |  |  |  |  |
+| Rosary Cache: Underworks #1 |  | cling grip OR silk soar OR (faydown cloak AND ledge grab) |  |  | collectible |  |
 
 ### Underworks Central Shaft (Under_05)
 
@@ -10390,9 +10440,9 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| BF | Break Floor | Wisp Thicket | Bottom | cling grip and (spike pogo or clawline or faydown cloak) |  |  |  |
-| BM | Bototm to Mid | Bottom | Mid | silk soar or (cling grip and (dash or ledge grab or faydown cloak or sharpart or clawline or drifter's cloak) |  |  |  |
-| MT | Mid to Top | Mid | Top | silk soar or cling grip |  |  |  |
+| BF | Break Floor | Wisp Thicket | Bottom | cling grip AND (spike pogo OR clawline OR faydown cloak) |  |  |  |
+| BM | Bototm to Mid | Bottom | Mid | silk soar OR (cling grip AND (dash OR ledge grab OR faydown cloak OR sharpdart OR clawline OR drifter's cloak) |  |  |  |
+| MT | Mid to Top | Mid | Top | silk soar OR cling grip |  |  |  |
 | FT | Falling from Top | Top | Mid | none |  |  | falling |
 | FM | Falling from Mid | Mid | Bottom | none |  |  | falling |
 
@@ -10426,7 +10476,7 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Shell Shard Cache: Underworks |  | cling grip and (dash or faydown cloak or clawline) | TODO |  |  | may be other options |
+| Shell Shard Cache: Underworks |  | cling grip AND (dash OR faydown cloak OR clawline) | TODO |  | collectible | may be other options |
 
 ### Underworks Delver's Drill (Under_14)
 
@@ -10452,7 +10502,7 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Delver's Drill |  | none |  |  |  |  |
+| Delver's Drill |  | none |  |  | collectible |  |
 
 ### Underworks Gym (Under_03d)
 
@@ -10500,14 +10550,14 @@ No check locations defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| H | Horizontal | Left | Right | ledge grab or dash or clawline or cling grip |  |  |  |
-| H | Horizontal | Right | Left | ledge grab or dash or clawline |  |  |  |
+| H | Horizontal | Left | Right | ledge grab OR dash OR clawline OR cling grip |  |  |  |
+| H | Horizontal | Right | Left | ledge grab OR dash OR clawline |  |  |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Shell Shard Cache: Underworks #12 | Left | none |  |  |  |  |
+| Shell Shard Cache: Underworks #12 | Left | none |  |  | collectible |  |
 
 ### Underworks Saw Shaft (Under_03c)
 
@@ -10533,8 +10583,8 @@ No check locations defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| H | Horizontal | Left | Right | dash or clawline or faydown cloak or (spike pogo and ledge grab) or (drifter's cloak and ledge grab) |  |  |  |
-| H | Horizontal | Right | Left | dash or clawline or faydown cloak or spike pogo or drifter's cloak |  |  |  |
+| H | Horizontal | Left | Right | dash OR clawline OR faydown cloak OR (spike pogo AND ledge grab) OR (drifter's cloak AND ledge grab) |  |  |  |
+| H | Horizontal | Right | Left | dash OR clawline OR faydown cloak OR spike pogo OR drifter's cloak |  |  |  |
 | V | Vertical | Top | Left | cling grip |  |  |  |
 | V | Vertical | Left | Top | cling grip |  |  |  |
 
@@ -10566,7 +10616,7 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Shard Bundle: Underworks #1 |  | easy skips or dash or faydown cloak or drifter's cloak or spike pogo or clawline or sharpdart |  |  |  |  |
+| Shard Bundle: Underworks #1 |  | proficient movement OR dash OR faydown cloak OR drifter's cloak OR spike pogo OR clawline OR sharpdart |  |  | collectible |  |
 
 ### Underworks Wisp Thicket Passage (Under_23)
 
@@ -10582,8 +10632,8 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 |  | [Underworks Central Shaft (Under_05)](#underworks-central-shaft-under05) | WT | cling grip and dash |  |  |  |
-| B | bot1 |  | [Wisp Thicket Cave (Wisp_09)](#wisp-thicket-cave-wisp09) | T | cling grip and dash |  |  |  |
+| R | right1 |  | [Underworks Central Shaft (Under_05)](#underworks-central-shaft-under05) | WT | cling grip AND dash |  |  |  |
+| B | bot1 |  | [Wisp Thicket Cave (Wisp_09)](#wisp-thicket-cave-wisp09) | T | cling grip AND dash |  |  |  |
 
 #### Subroom Connections
 
@@ -10593,8 +10643,8 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Shell Shard Cache: Underworks #13 |  | cling grip and dash |  |  |  |  |
-| Flea: Underworks - Wisp Thicket Passage |  | cling grip and dash |  |  |  |  |
+| Shell Shard Cache: Underworks #13 |  | cling grip AND dash |  |  | collectible |  |
+| Flea: Underworks - Wisp Thicket Passage |  | cling grip AND dash |  |  | collectible |  |
 
 ## Choral Chambers
 
@@ -10611,7 +10661,7 @@ No subrooms defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | BR | right2 |  | [Corridor to High Halls (Song_17)](#corridor-to-high-halls-song17) | L | none |  | Verified |  |
-| TP | right1 |  | [High Halls Small Slide (Hang_02)](#high-halls-small-slide-hang02) | L | clawline and (spike pogo or faydown cloak) or silk soar |  | Verified |  |
+| TP | right1 |  | [High Halls Small Slide (Hang_02)](#high-halls-small-slide-hang02) | L | clawline AND (spike pogo OR faydown cloak) OR silk soar |  | Verified |  |
 
 #### Subroom Connections
 
@@ -10677,10 +10727,10 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| White Key | Base | none |  |  |  |  |
+| White Key | Base | none |  |  | collectible |  |
 | Wish: Pain, Anguish and Misery | Base | Act 3 AND Defeat Trobbio IN Trobbio |  |  | event |  |
-| Balm for the Wounded Wish Start | Base |  | TODO |  |  |  |
 | Meet the Caretaker | Base | activate bellshrine switch IN bellshrine-enclave |  | Verified | logic-point |  |
+| Reach Songclave | Base | none |  | Verified | logic-point | Used for Savage Beastfly wish. |
 
 ### Choral Chambers Spa (Song_10)
 
@@ -10698,7 +10748,7 @@ No subroom connections defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | L | left1 | Showers | [Choral Chambers Outside Spa (Song_04)](#choral-chambers-outside-spa-song04) | R2 | none |  | Verified |  |
-| R | right1 | Spa | [Choral Chambers Flea Shaft (Song_11)](#choral-chambers-flea-shaft-song11) | BLB | cling grip or silk soar or (faydown cloak and ledge grab) |  | Verified | one way door, opens from this side |
+| R | right1 | Spa | [Choral Chambers Flea Shaft (Song_11)](#choral-chambers-flea-shaft-song11) | BLB | cling grip OR silk soar OR (faydown cloak AND ledge grab) |  | Verified | one way door, opens from this side |
 
 #### Subroom Connections
 
@@ -10738,17 +10788,19 @@ No check locations defined.
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | V | Vertical | Top | Base | none |  | Verified | falling |
-| V | Vertical | Base | Top | cling grip or silk soar |  | Verified |  |
+| V | Vertical | Base | Top | cling grip OR silk soar |  | Verified |  |
 | GL | Gauntlet Left | Left | Gauntlet | none |  | Verified |  |
-| GL | Gauntlet Left | Gauntlet | Left | gauntlet |  | Verified |  |
+| GL | Gauntlet Left | Gauntlet | Left | defeat Gauntlet Fight |  | Verified |  |
 | GR | Gauntlet Right | Base | Gauntlet | none |  | Verified |  |
-| GR | Gauntlet Right | Gauntlet | Base | gauntlet |  | Verified |  |
+| GR | Gauntlet Right | Gauntlet | Base | defeat Gauntlet Fight |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Heavy Rosary Necklace: Choral Chambers | Base | cling grip or silk soar |  |  |  | Secret hidden by breaking the ceiling |
+| Gauntlet Fight | Gauntlet | none |  |  | gauntlet |  |
+| Heavy Rosary Necklace: Choral Chambers | Base | cling grip OR silk soar |  |  | collectible | Secret hidden by breaking the ceiling |
+| Second Sentinel Encounter | Gauntlet | defeat Gauntlet Fight AND Act 2 AND complete THE Second Sentinel Activation |  |  | resource | only act 2 per the wiki |
 
 ### Choral Chambers Western Shaft (Song_12)
 
@@ -10781,13 +10833,13 @@ No check locations defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| V1 | Bottom to Section 1 | Bottom | Section 1 | silk soar or (faydown cloak and ledge grab) or (cling grip and (dash or faydown cloak or clawline or sharpdart)) |  | Verified |  |
-| V2 | Section 1 to Section 2 | Section 1 | Section 2 | ledge grab or silk soar or faydown cloak or clawline |  | Verified |  |
-| V3 | Section 2 to Section 3 | Section 2 | Section 3 | silk soar or cling grip or (faydown cloak and ledge grab) |  | Verified |  |
-| V4L | Section 3 to Section 4 Left | Section 3 | Section 4 Left | cling grip or (faydown cloak and ledge grab) |  | Verified |  |
-| V4R | Section 3 to Section 4 Right | Section 3 | Section 4 Right | spike pogo or silk soar or (faydown cloak and ledge grab) |  | Verified |  |
-| S4 | Section 4 traversal | Section 4 Left | Section 4 Right | clawline or drifter's cloak or dash or faydown cloak or sharpdart |  | Verified |  |
-| S4 | Section 4 traversal | Section 4 Right | Section 4 Left | clawline or drifter's cloak or dash or faydown cloak or sharpdart |  | Verified |  |
+| V1 | Bottom to Section 1 | Bottom | Section 1 | silk soar OR (faydown cloak AND ledge grab) OR (cling grip AND (dash OR faydown cloak OR clawline OR sharpdart)) |  | Verified |  |
+| V2 | Section 1 to Section 2 | Section 1 | Section 2 | ledge grab OR silk soar OR faydown cloak OR clawline |  | Verified |  |
+| V3 | Section 2 to Section 3 | Section 2 | Section 3 | silk soar OR cling grip OR (faydown cloak AND ledge grab) |  | Verified |  |
+| V4L | Section 3 to Section 4 Left | Section 3 | Section 4 Left | cling grip OR (faydown cloak AND ledge grab) |  | Verified |  |
+| V4R | Section 3 to Section 4 Right | Section 3 | Section 4 Right | spike pogo OR silk soar OR (faydown cloak AND ledge grab) |  | Verified |  |
+| S4 | Section 4 traversal | Section 4 Left | Section 4 Right | clawline OR drifter's cloak OR dash OR faydown cloak OR sharpdart |  | Verified |  |
+| S4 | Section 4 traversal | Section 4 Right | Section 4 Left | clawline OR drifter's cloak OR dash OR faydown cloak OR sharpdart |  | Verified |  |
 | F4L | Section 4 Left falling | Section 4 Left | Section 3 | none |  | Verified | falling |
 | F4R | Section 4 Right falling | Section 4 Right | Section 3 | none |  | Verified | falling |
 | F3 | Section 3 Falling | Section 3 | Section 2 | none |  | Verified | falling |
@@ -10844,7 +10896,9 @@ No subroom connections defined.
 
 #### Check Locations
 
-No check locations defined.
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Choral Chambers Cogheart Piece |  | flip switch up OR flip switch down |  | Verified | collectible | memory puzzle |
 
 ### Choral Chambers Grindle (Song_08)
 
@@ -10894,7 +10948,7 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Flea: Choral Chambers - Spa |  | none |  | Verified |  |  |
+| Flea: Choral Chambers - Spa |  | none |  | Verified | collectible |  |
 
 ### Choral Chambers Above Spa (Song_13)
 
@@ -10944,15 +10998,15 @@ No check locations defined.
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | V | Vertical | Base | Maintenance Tunnel | silk soar |  |  |  |
-| V | Vertical | Maintenance Tunnel | Base | silk soar or cling grip |  |  |  |
+| V | Vertical | Maintenance Tunnel | Base | silk soar OR cling grip |  |  |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Rosary Cache: Choral Chambers #17 | Base | none |  |  |  |  |
-| Rosary Cache: Choral Chambers #18 | Base | none |  |  |  |  |
-| Rosary Cache: Choral Chambers #19 | Base | none |  |  |  |  |
+| Rosary Cache: Choral Chambers #17 | Base | none |  |  | collectible |  |
+| Rosary Cache: Choral Chambers #18 | Base | none |  |  | collectible |  |
+| Rosary Cache: Choral Chambers #19 | Base | none |  |  | collectible |  |
 
 ### Choral Chambers Flea Shaft (Song_11)
 
@@ -10978,7 +11032,7 @@ No check locations defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | S3L | left1 | Top Section 3 Left | [Corridor to High Halls (Song_17)](#corridor-to-high-halls-song17) | R | none |  |  |  |
 | S2L | left2 | Top Section 2 | [Choral Chambers Maintenance Tunnel (Song_15)](#choral-chambers-maintenance-tunnel-song15) | R | none |  |  |  |
-| S3R | right2 | Top Section 3 Right | [High Halls Corridor (Hang_07)](#high-halls-corridor-hang07) | L | ledge grab or faydown cloak or cling grip or silk soar |  |  |  |
+| S3R | right2 | Top Section 3 Right | [High Halls Corridor (Hang_07)](#high-halls-corridor-hang07) | L | ledge grab OR faydown cloak OR cling grip OR silk soar |  |  |  |
 | BLB | left4 | Base Upper | [Choral Chambers Spa (Song_10)](#choral-chambers-spa-song10) | R | breakable wall -must be opened from the other side |  |  |  |
 | BR | right3 | Base Bottom | [Choral Chambers Eastern Shaft (Song_05)](#choral-chambers-eastern-shaft-song05) | L3 | none |  |  |  |
 | BLT | left3 | Base Upper | [Choral Chambers Above Spa (Song_13)](#choral-chambers-above-spa-song13) | R | none |  |  |  |
@@ -10988,26 +11042,26 @@ No check locations defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| VB | Vertical Base | Base Bottom | Base Upper | silk soar faydown cloak or (cling grip and ((dash and ledge grab) or (drifter's cloak and ledge grab) or clawline)) |  |  |  |
+| VB | Vertical Base | Base Bottom | Base Upper | silk soar faydown cloak OR (cling grip AND ((dash AND ledge grab) OR (drifter's cloak AND ledge grab) OR clawline)) |  |  |  |
 | VB | Vertical Base | Base Upper | Base Bottom | none |  |  | falling |
 | VL | Vertical Lever | Top Section 1 | Base Upper | none |  |  | one way, falling |
-| V1 | Section 1 to Section 2 | Top Section 1 | Top Section 2 | silk soar or cling grip or (faydown cloak and ledge grab) |  |  |  |
-| V2L | Section 2 to Section 3 Left | Top Section 2 | Top Section 3 Left | silk soar and (ledge grab or clawline or dash or sharpdart or faydown cloak) |  |  |  |
-| V3R | Section 2 to Section 3 Right | Top Section 2 | Top Section 3 Right | silk soar or (cling grip and (clawline or dash)) |  |  |  |
+| V1 | Section 1 to Section 2 | Top Section 1 | Top Section 2 | silk soar OR cling grip OR (faydown cloak AND ledge grab) |  |  |  |
+| V2L | Section 2 to Section 3 Left | Top Section 2 | Top Section 3 Left | silk soar AND (ledge grab OR clawline OR dash OR sharpdart OR faydown cloak) |  |  |  |
+| V3R | Section 2 to Section 3 Right | Top Section 2 | Top Section 3 Right | silk soar OR (cling grip AND (clawline OR dash)) |  |  |  |
 | F3L | Section 3 Right falling | Top Section 3 Right | Top Section 2 | none |  |  | falling |
 | F3R | Section 3 Left falling | Top Section 3 Left | Top Section 2 | none |  |  | falling |
 | F2 | Section 2 falling | Top Section 2 | Top Section 1 | none |  |  | falling |
-| H | Top Horizontal Traversal | Top Section 3 Right | Top Section 3 Left | ledge grab or clawline or drifter's cloak | TODO |  | check sharpdart |
-| H | Top Horizontal Traversal | Top Section 3 Left | Top Section 3 Right | ledge grab or clawline or cling grip |  |  |  |
+| H | Top Horizontal Traversal | Top Section 3 Right | Top Section 3 Left | ledge grab OR clawline OR drifter's cloak | TODO |  | check sharpdart |
+| H | Top Horizontal Traversal | Top Section 3 Left | Top Section 3 Right | ledge grab OR clawline OR cling grip |  |  |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Flea: Choral Chambers - Walled Room | Top Section 2 | (cling grip and drifter's cloak) or silk soar |  |  |  |  |
-| Rosary Cache: Choral Chambers #14 | Base Upper | clawline or faydown cloak or (dash and ledge grab) | TODO |  |  | check, probably better to split Base Upper into two zones since they can be gotten from BLT easier than from BLB |
-| Rosary Cache: Choral Chambers #15 | Base Upper | clawline or faydown cloak or (dash and ledge grab) | TODO |  |  | check, probably better to split Base Upper into two zones since they can be gotten from BLT easier than from BLB |
-| Rosary Cache: Choral Chambers #16 | Base Upper | clawline or faydown cloak or (dash and ledge grab) | TODO |  |  | check, probably better to split Base Upper into two zones since they can be gotten from BLT easier than from BLB |
+| Flea: Choral Chambers - Walled Room | Top Section 2 | (cling grip AND drifter's cloak) OR silk soar |  |  | collectible |  |
+| Rosary Cache: Choral Chambers #14 | Base Upper | clawline OR faydown cloak OR (dash AND ledge grab) | TODO |  | collectible | check, probably better to split Base Upper into two zones since they can be gotten from BLT easier than from BLB |
+| Rosary Cache: Choral Chambers #15 | Base Upper | clawline OR faydown cloak OR (dash AND ledge grab) | TODO |  | collectible | check, probably better to split Base Upper into two zones since they can be gotten from BLT easier than from BLB |
+| Rosary Cache: Choral Chambers #16 | Base Upper | clawline OR faydown cloak OR (dash AND ledge grab) | TODO |  | collectible | check, probably better to split Base Upper into two zones since they can be gotten from BLT easier than from BLB |
 
 ### High Halls Corridor (Hang_07)
 
@@ -11086,17 +11140,17 @@ No check locations defined.
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | V | Vertical | Top | Base | none |  |  | falling |
-| V | Vertical | Base | Top | cling grip or faydown cloak or silk soar | TODO |  | Needs checking |
+| V | Vertical | Base | Top | cling grip OR faydown cloak OR silk soar | TODO |  | Needs checking |
 | S | Secret | Right Secret | Base | none |  |  | one way door |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Rosary Cache: Choral Chambers #11 | Top | none |  |  |  | falling |
-| Rosary Cache: Choral Chambers #12 | Top | none |  |  |  | falling |
-| Rosary Cache: Choral Chambers #13 | Top | none |  |  |  | falling |
-| Mask Shard: Cogwork Core | Right Secret | none |  |  |  |  |
+| Rosary Cache: Choral Chambers #11 | Top | none |  |  | collectible | falling |
+| Rosary Cache: Choral Chambers #12 | Top | none |  |  | collectible | falling |
+| Rosary Cache: Choral Chambers #13 | Top | none |  |  | collectible | falling |
+| Mask Shard: Cogwork Core | Right Secret | none |  |  | collectible |  |
 
 ### Choral Chambers Dining Room (Song_09b)
 
@@ -11113,7 +11167,7 @@ No check locations defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| T | top1 | Diner | [Choral Chambers Over Dininig (Song_09)](#choral-chambers-over-dininig-song09) | B | ledge grab or clawline or faydown cloak or silk soar |  |  |  |
+| T | top1 | Diner | [Choral Chambers Over Dininig (Song_09)](#choral-chambers-over-dininig-song09) | B | ledge grab OR clawline OR faydown cloak OR silk soar |  |  |  |
 | L | left1 | Below Diner | [Choral Chambers Flea Shaft (Song_11)](#choral-chambers-flea-shaft-song11) | S1R | none |  |  |  |
 
 #### Subroom Connections
@@ -11126,7 +11180,7 @@ No check locations defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Silkeater: Choral Chambers East | Below Diner | ledge grab or silk soar or cling grip or faydown cloak | TODO |  |  | Check |
+| Silkeater: Choral Chambers East | Below Diner | ledge grab OR silk soar OR cling grip OR faydown cloak | TODO |  | collectible | Check |
 | Great Taste of Pharloom Wish Promised | Diner | Act 2 |  | Verified | event | wiki says "act 2" is the only prereq |
 
 ### Choral Chambers Eastern Shaft (Song_05)
@@ -11147,7 +11201,7 @@ No check locations defined.
 | L1 | left5 | Section 1 | [Choral Chambers Below Spa (Song_02)](#choral-chambers-below-spa-song02) | R | none |  | Verified |  |
 | R1 | right3 | Section 1 | [Whiteward Entrance (Ward_01)](#whiteward-entrance-ward01) | TL | none |  | Verified |  |
 | L2 | left4 | Section 3 | [Choral Chambers Merchant Room (Song_07)](#choral-chambers-merchant-room-song07) | R | none |  | Verified |  |
-| R2 | right4 | Section 2 | [Choral Chambers East to West (Song_27)](#choral-chambers-east-to-west-song27) | L | door should be opened from the other side |  | Verified |  |
+| R2 | right4 | Section 2 | [Choral Chambers East to West (Song_27)](#choral-chambers-east-to-west-song27) | L | activate door switch IN choral chambers east to west |  | Verified |  |
 | L3 | left3 | Section 3 | [Choral Chambers Flea Shaft (Song_11)](#choral-chambers-flea-shaft-song11) | BR | none |  | Verified |  |
 | R4 | right2 | Section 4 | [Choral Chambers Below Dining (Song_18)](#choral-chambers-below-dining-song18) | L | none |  | Verified |  |
 
@@ -11155,16 +11209,18 @@ No check locations defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| V1 | Section 1 to Section 2 | Section 1 | Section 2 | (ledge grab and pogo) or silk soar or (cling grip and (dash or clawline) |  |  |  |
-| V2 | Section 2 to Section 3 | Section 2 | Section 3 | silk soar or (cling grip and (ledge grab or clawline)) or faydown cloak |  |  |  |
-| V3 | Section 3 to Section 4 | Section 3 | Section 4 | ((ledge grab or clawline) and pogo) or silk soar |  |  |  |
+| V1 | Section 1 to Section 2 | Section 1 | Section 2 | (ledge grab AND pogo) OR silk soar OR (cling grip AND (dash OR clawline)) |  |  |  |
+| V2 | Section 2 to Section 3 | Section 2 | Section 3 | silk soar OR (cling grip AND (ledge grab OR clawline)) OR faydown cloak |  |  |  |
+| V3 | Section 3 to Section 4 | Section 3 | Section 4 | ((ledge grab OR clawline) AND pogo) OR silk soar |  |  |  |
 | F4 | Falling from Section 4 | Section 4 | Section 3 | none |  |  | falling |
 | F3 | Falling from Section 3 | Section 3 | Section 2 | none |  |  | falling |
 | F2 | Falling from Section 2 | Section 2 | Section 1 | none |  |  | falling |
 
 #### Check Locations
 
-No check locations defined.
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Lace Second Encounter | Section 1 | none |  | Verified | event |  |
 
 ### Choral Chambers Merchant Room (Song_07)
 
@@ -11190,7 +11246,9 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Rosary Cache: Choral Chambers #10 |  | cling grip |  | Verified |  |  |
+| Rosary Cache: Choral Chambers #10 |  | cling grip |  | Verified | collectible |  |
+| The Wandering Merchant Wish Granted |  | complete THE The Wandering Merchant Wish Promised |  |  | event |  |
+| Second Sentinel Encounter |  | Act 3  AND complete THE Second Sentinel Activation AND complete The Wandering Merchant Wish Granted |  |  | event | per the wiki |
 
 ### Choral Chambers Below Dining (Song_18)
 
@@ -11215,7 +11273,7 @@ No subroom connections defined.
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | V | Vertical | Top | Bottom | none |  |  | falling |
-| V | Vertical | Bottom | Top | silk soar or cling grip |  |  |  |
+| V | Vertical | Bottom | Top | silk soar OR cling grip |  |  |  |
 
 #### Check Locations
 
@@ -11243,12 +11301,14 @@ No check locations defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| H | Horizontal | Right | Left | cling grip or silk soar |  |  |  |
-| H | Horizontal | Left | Right | ledge grab or faydown cloak or silk soar |  |  |  |
+| H | Horizontal | Right | Left | cling grip OR silk soar |  |  |  |
+| H | Horizontal | Left | Right | ledge grab OR faydown cloak OR silk soar |  |  |  |
 
 #### Check Locations
 
-No check locations defined.
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Second Sentinel Encounter | Right | Act 3 AND  complete THE Second Sentinel Activation | TODO | Needs verification | event | Random. Need to verify it is on this side |
 
 ### Choral Chambers Above Ventrica (Song_03)
 
@@ -11273,7 +11333,7 @@ No check locations defined.
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | V | Vertical | Top | Bottom | none |  |  | falling |
-| V | Vertical | Bottom | Top | silk soar or (cling grip and (faydown cloak or clawline or dash)) or (faydown cloak and ledge grab) |  |  |  |
+| V | Vertical | Bottom | Top | silk soar OR (cling grip AND (faydown cloak OR clawline OR dash)) OR (faydown cloak AND ledge grab) |  |  |  |
 
 #### Check Locations
 
@@ -11295,9 +11355,9 @@ No check locations defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | R | right1 | Lateral | [Choral Chambers Below Spa (Song_02)](#choral-chambers-below-spa-song02) | L | none |  |  |  |
-| T | top1 | Ventrica | [Choral Chambers Above Ventrica (Song_03)](#choral-chambers-above-ventrica-song03) | B | cling grip or silk soar or faydown cloak |  |  |  |
+| T | top1 | Ventrica | [Choral Chambers Above Ventrica (Song_03)](#choral-chambers-above-ventrica-song03) | B | cling grip OR silk soar OR faydown cloak |  |  |  |
 | B | bot1 | Lateral | [Choral Chambers Below Ventrica (Song_01)](#choral-chambers-below-ventrica-song01) | T | none |  |  |  |
-| V | door_tubeEnter | Ventrica | [Ventrica Menu](#ventrica-menu) | CC | unlock ventrica choral chambers |  |  |  |
+| V | door_tubeEnter | Ventrica | [Ventrica Menu](#ventrica-menu) | CC | unlock Ventrica: Choral Chambers |  |  |  |
 
 #### Subroom Connections
 
@@ -11309,11 +11369,12 @@ No check locations defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Map Purchase: Choral Chambers | Lateral | rosaries |  |  |  |  |
-| Rosary Cache: Choral Chambers #5 | Ventrica | none |  |  |  |  |
-| Rosary Cache: Choral Chambers #6 | Ventrica | none |  |  |  |  |
-| Rosary Cache: Choral Chambers #7 | Ventrica | none |  |  |  |  |
-| Ventrica: Choral Chambers | Ventrica | rosaries |  |  |  |  |
+| Map Purchase: Choral Chambers | Lateral | rosaries 70 |  |  | collectible | one of two possible locations - hero, 9/26 |
+| Rosary Cache: Choral Chambers #5 | Ventrica | none |  |  | collectible |  |
+| Rosary Cache: Choral Chambers #6 | Ventrica | none |  |  | collectible |  |
+| Rosary Cache: Choral Chambers #7 | Ventrica | none |  |  | collectible |  |
+| Ventrica: Choral Chambers | Ventrica | Unlock Ventrica: Choral Chambers Rosary Lock |  |  | travel |  |
+| Ventrica: Choral Chambers Rosary Lock | Ventrica | rosaries 80 |  |  | lore |  |
 
 ### Choral Chambers Below Ventrica (Song_01)
 
@@ -11403,8 +11464,8 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| B | bot1 |  | [Songclave (Song_Enclave)](#songclave-songenclave) | T | none |  |  |  |
-| V | door_tubeEnter |  | [Ventrica Menu](#ventrica-menu) | FS | unlock ventrica first shrine | TODO |  | ventrica, repeat for each possible exit |
+| B | bot1 |  | [Songclave (Song_Enclave)](#songclave-songenclave) | T | none |  | Verified |  |
+| V | door_tubeEnter |  | [Ventrica Menu](#ventrica-menu) | FS | unlock Ventrica: First Shrine |  | Verified |  |
 
 #### Subroom Connections
 
@@ -11414,7 +11475,8 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Ventrica: First Shrine |  | none |  |  | travel |  |
+| Ventrica: First Shrine Rosary Lock |  | rosaries 80 |  | Verified | lock |  |
+| Ventrica: First Shrine |  | unlock Ventrica: First Shrine Rosary Lock |  | Verified | travel |  |
 
 ### Memorium Entrance Tunnel (Song_25)
 
@@ -11449,6 +11511,7 @@ No subroom connections defined.
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | Memorium entrance vines | Base | (silk soar OR faydown cloak) AND break wall up |  | Verified | blockade | one way wall and also logic can be improved for more skips |
+| Second Sentinel Encounter | Base | complete THE Second Sentinel Activation |  | Verified | event |  |
 
 ### Rotating Tunnel (Song_20b)
 
@@ -11468,7 +11531,7 @@ No subroom connections defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | T | top1 | Top Platform | [Memorium Entrance Tunnel (Song_25)](#memorium-entrance-tunnel-song25) | B | none |  | Verified |  |
-| L1 | left2 | Central Area | [Songclave Silk Shop (Song_29)](#songclave-silk-shop-song29) | R | ledge grab or dash or faydown cloak or clawline or sharpdart or drifter's cloak or silk soar or enemy pogo |  | Verified |  |
+| L1 | left2 | Central Area | [Songclave Silk Shop (Song_29)](#songclave-silk-shop-song29) | R | ledge grab OR dash OR faydown cloak OR clawline OR sharpdart OR drifter's cloak OR silk soar OR easy enemy pogo |  | Verified |  |
 | R1 | right2 | Central Area | [Songclave Steam Tunnel (Library_02)](#songclave-steam-tunnel-library02) | TL | none |  | Verified |  |
 | B | bot1 | Bottom Area | [Grand Bellway Shaft (Song_20)](#grand-bellway-shaft-song20) | T | none |  | Verified |  |
 | RH | right3 | Horizontal Tunnel | [Songclave Steam Tunnel (Library_02)](#songclave-steam-tunnel-library02) | BL | none |  | Verified | both sides have levers making the tunnel horizontal |
@@ -11480,7 +11543,7 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | V | Vertical | Top Platform | Central Area | none |  | Verified | falling, door on top platform's side (no inverse) |
 | T | Tunnel | Central Area | Bottom Area | none |  | Verified | falling, both sides have levers making the tunnel vertical |
-| T | Tunnel | Bottom Area | Central Area | silk soar or cling grip |  | Verified | both sides have levers making the tunnel vertical |
+| T | Tunnel | Bottom Area | Central Area | silk soar OR cling grip |  | Verified | both sides have levers making the tunnel vertical |
 
 #### Check Locations
 
@@ -11545,16 +11608,18 @@ No check locations defined.
 | F3 | Upper Left to Right Stage | Upper Left | Right Stage | none |  | Verified | falling |
 | F4 | Right Stage to Bottom Left | Right Stage | Bottom Left | none |  | Verified | falling |
 | F5 | Bottom Left to Bottom Right | Bottom Left | Bottom Right | none |  | Verified | falling |
-| J5 | Bottom Right to Bottom Left | Bottom Right | Bottom Left | silk soar or cling grip |  | Verified | Might be able to use enemy pogo and faydown cloak |
-| J4 | Bottom Left to Right Stage | Bottom Left | Right Stage | cling grip or silk soar |  | Verified |  |
-| J3 | Right Stage to Upper Left | Right Stage | Upper Left | cling grip or silk soar |  | Verified |  |
+| J5 | Bottom Right to Bottom Left | Bottom Right | Bottom Left | silk soar OR cling grip |  | Verified | Might be able to use enemy pogo and faydown cloak |
+| J4 | Bottom Left to Right Stage | Bottom Left | Right Stage | cling grip OR silk soar |  | Verified |  |
+| J3 | Right Stage to Upper Left | Right Stage | Upper Left | cling grip OR silk soar |  | Verified |  |
 | J3E | Bottom Right to Upper Left | Bottom Right | Upper Left | silk soar |  | Verified |  |
-| J2 | Upper Left to Upper Right | Upper Left | Upper Right | (cling grip and (faydown cloak or swift step or clawline)) or silk soar |  | Verified |  |
-| J1 | Upper Right to Top | Upper Right | Top | ledge grab or silk soar or clawline or faydown cloak |  | Verified |  |
+| J2 | Upper Left to Upper Right | Upper Left | Upper Right | (cling grip AND (faydown cloak OR swift step OR clawline)) OR silk soar |  | Verified |  |
+| J1 | Upper Right to Top | Upper Right | Top | ledge grab OR silk soar OR clawline OR faydown cloak |  | Verified |  |
 
 #### Check Locations
 
-No check locations defined.
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Lace Second Encounter | Bottom Right | none |  | Verified | event |  |
 
 ### Grand Bellway Side Room (Song_24)
 
@@ -11580,7 +11645,8 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Silkeater: Choral Chambers West |  | spike pogo or dash or clawline or faydown cloak or sharpdart or drifer's cloak or cling grip |  | Verified |  |  |
+| Silkeater: Choral Chambers West |  | spike pogo OR dash OR clawline OR faydown cloak OR sharpdart OR drifter's cloak OR cling grip |  | Verified | collectible |  |
+| Second Sentinel Encounter |  | Act 3  AND complete THE Second Sentinel Activation | TODO | Needs verification | event | need to verify this is the room the wiki is referring to |
 
 ### Grand Bellway (Bellway_City)
 
@@ -11599,8 +11665,8 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | R | right1 | Secret Tunnel | [Vaults & Bellway Cauldron Entrance (Library_11)](#vaults-bellway-cauldron-entrance-library11) | HL |  | TODO |  |  |
 | L | left1 | Base | [Grand Bellway Shaft (Song_20)](#grand-bellway-shaft-song20) | BR | none |  | Verified |  |
-| BW | door_fastTravelExit | Base | [Bellway Menu](#bellway-menu) | GB | unlock bellway grand bellway |  |  |  |
-| VT | door_tubeEnter | Base | [Ventrica Menu](#ventrica-menu) | GB | unlock ventrica grand bellway |  |  |  |
+| BW | door_fastTravelExit | Base | [Bellway Menu](#bellway-menu) | GB | unlock Bellway: Grand Bellway |  | Verified |  |
+| VT | door_tubeEnter | Base | [Ventrica Menu](#ventrica-menu) | GB | unlock Ventrica: Grand Bellway |  | Verified |  |
 
 #### Subroom Connections
 
@@ -11613,11 +11679,11 @@ No subroom connections defined.
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | Memory Locket: Choral Chambers | Secret Tunnel | none |  | Verified | collectible | breakable wall |
-| Map Purchase: Choral Chambers | Base | rosaries |  | Verified | collectible |  |
-| Ventrica Rosary Lock | Base | rosaries 80 |  |  | lock |  |
-| Ventrica: Grand Bellway | Base | Unlock Ventrica Rosary Lock |  | Verified | travel |  |
-| Bellway Rosary Lock | Base | rosaries 80 |  |  | lock |  |
-| Bellway: Grand Bellway | Base | Unlock Bellway Rosary Lock |  | Verified | travel |  |
+| Map Purchase: Choral Chambers | Base | rosaries 70 |  | Verified | collectible | one of two possible locations - hero, 9/26 |
+| Ventrica: Grand Bellway Rosary Lock | Base | rosaries 80 |  | Verified | lock |  |
+| Ventrica: Grand Bellway | Base | Unlock Ventrica: Grand Bellway Rosary Lock |  | Verified | travel |  |
+| Bellway: Grand Bellway Rosary Lock | Base | rosaries 80 |  | Verified | lock |  |
+| Bellway: Grand Bellway | Base | Unlock Bellway Grand Bellway Rosary Lock |  | Verified | travel |  |
 
 ### Choral Chambers East to West (Song_27)
 
@@ -11636,18 +11702,21 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | T | top1 | Left Side | [Choral Chambers Below Dining (Song_18)](#choral-chambers-below-dining-song18) | B | One way, can't be used at all from this side even if you entered from it! | TODO |  | One way, can't be used at all from this side even if you entered from it! |
 | R | right1 | Right Side | [Grand Bellway Shaft (Song_20)](#grand-bellway-shaft-song20) | UL |  | TODO |  |  |
-| L | left1 | Left Side | [Choral Chambers Eastern Shaft (Song_05)](#choral-chambers-eastern-shaft-song05) | R2 | none |  |  | one way door |
+| L | left1 | Left Side | [Choral Chambers Eastern Shaft (Song_05)](#choral-chambers-eastern-shaft-song05) | R2 | activate door switch |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| H | Horizontal | Left Side | Right Side | clawline or ledge grab or faydown cloak or spike pogo |  | Verified |  |
-| H | Horizontal | Right Side | Left Side | clawline or ledge grab or faydown cloak or spike pogo |  |  |  |
+| H | Horizontal | Left Side | Right Side | clawline OR ledge grab OR faydown cloak OR spike pogo |  | Verified |  |
+| H | Horizontal | Right Side | Left Side | clawline OR ledge grab OR faydown cloak OR spike pogo |  |  |  |
 
 #### Check Locations
 
-No check locations defined.
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| door switch | Left Side | flip switch left |  | Verified | switch |  |
+| Second Sentinel Encounter | Right Side | complete THE Second Sentinel Activation | TODO | Needs verification | event | Random. Need to verify it is on this side |
 
 #### Notes
 
@@ -11674,8 +11743,8 @@ Door on the east can be only opened from the west
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | R | right1 | BaseRight | [Memorium Entrance Tunnel (Song_25)](#memorium-entrance-tunnel-song25) | L | none |  | Verified |  |
 | L | left1 | BaseLeft | [High Halls Corridor (Hang_07)](#high-halls-corridor-hang07) | R | none |  | Verified |  |
-| B1 | bot1 | BossArena | [Cogwork Core South Main (Cog_04)](#cogwork-core-south-main-cog04) | TL | Defeat Cogwork Dancers |  | Verified |  |
-| B2 | bot2 | BossArena | [Cogwork Core South Main (Cog_04)](#cogwork-core-south-main-cog04) | TR | Defeat Cogwork Dancers |  | Verified |  |
+| B1 | bot1 | BossArena | [Cogwork Core South Main (Cog_04)](#cogwork-core-south-main-cog04) | TL | Defeat Cogwork Dancers Boss Fight |  | Verified |  |
+| B2 | bot2 | BossArena | [Cogwork Core South Main (Cog_04)](#cogwork-core-south-main-cog04) | TR | Defeat Cogwork Dancers Boss Fight |  | Verified |  |
 | E | elevator | BossArena | [Lace 2 Fight (Song_Tower_01)](#lace-2-fight-songtower01) | D |  | TODO |  | TODO: Check all that's needed for the elevator to work |
 | D | door1 | Top | [Cogwork Core Main Connection (Cog_Pass)](#cogwork-core-main-connection-cogpass) | TL | Nothing. |  |  | TODO |
 | T | top1 | Top | [Cogwork Core North Main (Cog_08)](#cogwork-core-north-main-cog08) | B | clawline |  |  | probably one way |
@@ -11684,11 +11753,11 @@ Door on the east can be only opened from the west
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| V | Vertical | BossArena | Top | Defeat Cogwork Dancers AND Silk Soar |  | Verified |  |
+| V | Vertical | BossArena | Top | Defeat Cogwork Dancers Boss Fight AND Silk Soar |  | Verified |  |
 | V | Vertical | Top | BossArena | Nothing | TODO |  | falling, check if dancers boss is required on a new save |
 | R | RightSide | BaseRight | BossArena | none |  | Verified |  |
-| R | RightSide | BossArena | BaseRight | Defeat Cogwork Dancers |  | Verified |  |
-| L | LeftSide | BossArena | BaseLeft | Defeat Cogwork Dancers |  | Verified |  |
+| R | RightSide | BossArena | BaseRight | Defeat Cogwork Dancers Boss Fight |  | Verified |  |
+| L | LeftSide | BossArena | BaseLeft | Defeat Cogwork Dancers Boss Fight |  | Verified |  |
 | L | LeftSide | BaseLeft | BossArena | Nothing |  | Verified |  |
 
 #### Check Locations
@@ -11696,6 +11765,7 @@ Door on the east can be only opened from the west
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | Cogwork Dancers Boss Fight | BossArena | Nothing | TODO | Verified | boss |  |
+| Play Threefold Melody | BossArena | defeat Cogwork Dancers Boss Fight AND threefold melody parts 3 |  | Verified | logic-point | Used in Liquid Lacquer wish requirements per the wiki. |
 
 #### Notes
 
@@ -11984,7 +12054,7 @@ No check locations defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| BEL | Bottom Entrance-Lever | Lower Entrance | Lever Door | (Medium Skip Spike Pogo (Hunter OR Reaper OR Architect OR Shaman) AND (Cling Grip OR Faydown Cloak OR Ledge Grab) AND Enemy Pogo (Easy Skip)) |  | Verified | Can be clawline only'd but since theres no specific skip tag for that i am omitting it. |
+| BEL | Bottom Entrance-Lever | Lower Entrance | Lever Door | ((Proficient Movement AND Spike Pogo)  AND Medium Hunter Pogo AND Medium Reaper Pogo AND Medium Architect Pogo AND Medium Shaman Pogo AND (Cling Grip OR Faydown Cloak OR Ledge Grab) AND Easy Enemy Pogo (Easy Skip)) |  | Verified | Can be clawline only'd but since theres no specific skip tag for that i am omitting it. |
 | BEL | Bottom Entrance-Lever | Lever Door | Lower Entrance | Drifter's Cloak |  | Verified | let me add a Nothing as a medium skip pls it'll be funny |
 | LTE | Lever-Top Entrance | Lever Door | Upper Entrance | Clawline AND Faydown Cloak AND Cling Grip |  | Verified |  |
 | LTE | Lever-Top Entrance | Upper Entrance | Lever Door | Clawline OR Sharpdart OR Dash OR Faydown Cloak OR Drifter's Cloak |  | Verified |  |
@@ -12029,7 +12099,7 @@ No check locations defined.
 | Cogwork Core: Shard Bundle #1 | Shard Bundle Check | Nothing. |  | Verified | collectible |  |
 | Cogwork Core: Break Wall #1 | Shard Bundle Check | Nothing. |  | Verified | blockade |  |
 | Cogwork Core: Break Wall #2 | Shard Bundle Check | Nothing. |  | Verified | blockade |  |
-| Sentinel | Second Sentinel | (Break Wall Right AND Cogheart Pieces 3) |  | Verified | event |  |
+| Second Sentinel Activation | Second Sentinel | (Break Wall Right AND Cogheart Pieces 3) |  | Verified | event |  |
 
 ### Cogwork Core South Main (Cog_04)
 
@@ -12145,8 +12215,8 @@ No check locations defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| B | Bottom | Left Side | [Underworks Below Vaultkeeper (Library_12b)](#underworks-below-vaultkeeper-library12b) | T | Nothing. |  | Verified | the bottom portion of 04 doesn't link for some reason, so this transition can't connect until that's fixed |
-| L | Left | Right Side | [Whispering Vaults Hell (Library_04)](#whispering-vaults-hell-library04) | BR | Nothing. |  | Verified |  |
+| B | Bottom | Right Side | [Underworks Below Vaultkeeper (Library_12b)](#underworks-below-vaultkeeper-library12b) | T | Nothing. |  | Verified |  |
+| L | Left | Left Side | [Whispering Vaults Hell (Library_04)](#whispering-vaults-hell-library04) | BR | Nothing. |  | Verified |  |
 
 #### Subroom Connections
 
@@ -12192,7 +12262,7 @@ No check locations defined.
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | LA | Lower Ascent | Bottom | Top | (Silk Soar OR Cling Grip OR Scuttlebrace) AND (Dash OR Clawline OR Sharpdart OR Faydown Cloak) |  | Verified |  |
-| HA | Higher Ascent | Top | Rosary | Silk Soar OR easy box pogo OR (Cling Grip AND (Faydown Cloak OR Clawline OR Sharpdart OR easy Needle Strike Stall (Architect) OR (Cling Grip AND Easy Enemy Pogo))) |  | Verified |  |
+| HA | Higher Ascent | Top | Rosary | Silk Soar OR Proficient Movement (easy box pogo) OR (Cling Grip AND (Faydown Cloak OR Clawline OR Sharpdart OR easy Needle Strike Stall (Architect) OR (Cling Grip AND Easy Enemy Pogo))) |  | Verified |  |
 | E | Exit | Top | Right Exit | Silk Soar OR Cling Grip OR Scuttlebrace OR (Faydown Cloak AND Ledge Grab) |  | Verified |  |
 
 #### Check Locations
@@ -12273,7 +12343,7 @@ No check locations defined.
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | VL | Vertical Low | Bottom | Center | Activate Whispering Vaults: Flip Switch #3 AND (Silk Soar OR Cling Grip OR (Faydown Cloak AND Ledge Grab)) |  | Verified |  |
 | VH | Vertical High | Center | Top | Cling Grip OR Silk Soar |  | Verified |  |
-| MS | Mask Shard | Top | Shard | Silk Soar OR Easy Box Pogo |  | Verified |  |
+| MS | Mask Shard | Top | Shard | Silk Soar OR Proficient Movement (Easy Box Pogo) |  | Verified |  |
 | MS | Mask Shard | Shard | Top | Nothing. (Fall) |  | Verified |  |
 | VH | Vertical High | Top | Center | Nothing. (Fall) |  | Verified |  |
 | VL | Vertical Low | Center | Bottom | Activate Whispering Vaults: Flip Switch #3 |  | Verified |  |
@@ -12316,8 +12386,11 @@ No check locations defined.
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | GF | Ground to Floor 1 | Bottom | Lower Platforms | Silk Soar OR (Faydown Cloak AND Ledge Grab) OR Enemy Pogo (Easy Skip) |  | Verified |  |
+| GF | Ground to Floor 1 | Lower Platforms | Bottom | None (Falling) |  | Verified | added due to none all connections being one-way - hero, 9/26 |
 | UT | Upwards Traversal | Lower Platforms | Upper Platforms | Silk Soar OR (Medium Enemy Pogo AND Faydown Cloak) OR (Faydown Cloak AND (Ledge Grab OR Easy Beast Crest Pogo OR Easy Needle Strike Stall (Beast) OR Easy Shaman Crest Pogo)) OR (Cling Grip AND (Sprint OR Dash OR Easy Beast Crest Pogo OR Easy Needle Strike Stall (Beast OR Architect) OR Sharpdart OR Drifter's Cloak OR Clawline)) |  | Verified |  |
+| UT | Upwards Traversal | Upper Platforms | Lower Platforms | None (Falling) |  | Verified | added due to none all connections being one-way - hero, 9/26 |
 | FG | Flea Grab | Upper Platforms | Flea Check | Silk Soar OR (Cling Grip AND (Clawline OR Sharpdart OR Drifter's Cloak OR Easy Beast Crest Pogo OR Easy Needle Strike Stall (Beast OR Architect) OR Cling Grip)) OR (Scuttlebrace AND Faydown Cloak AND Swift Step 2) |  | Verified | collect yo flea. |
+| FG | Flea Grab | Flea Check | Upper Platforms | None (Falling) |  | Verified | added due to none all connections being one-way - hero, 9/26 |
 
 #### Check Locations
 
@@ -12357,7 +12430,7 @@ No check locations defined.
 | BL | Bottom Left | Lowest Hallway | [Whispering Vaults Music Box (Library_16)](#whispering-vaults-music-box-library16) | R | Nothing |  | Verified |  |
 | CL | Center Left | Middle Hallway | [Trobbio Entrance (Library_13b)](#trobbio-entrance-library13b) | R | Nothing |  | Verified |  |
 | LL | Low Left | Left Side Shaft | [Whispering Vaults Flea Shaft (Library_01)](#whispering-vaults-flea-shaft-library01) | BR | Nothing |  | Verified |  |
-| LR | Low Right | Upper Platform | [Whispering Vaults East To West (Library_05)](#whispering-vaults-east-to-west-library05) | BL | Nothing |  | Verified |  |
+| LR | Low Right | Upper Low Hallway | [Whispering Vaults East To West (Library_05)](#whispering-vaults-east-to-west-library05) | BL | Nothing |  | Verified |  |
 | TR | Top Right | Top Hallway | [Whispering Vaults Jumps (Library_09)](#whispering-vaults-jumps-library09) | L | Activate Whispering Vaults: Flip Switch #6 IN Whispering Vaults Jumps |  | Verified |  |
 | TL | Top Left | Top Hallway | [Whispering Vaults Flea Shaft (Library_01)](#whispering-vaults-flea-shaft-library01) | TR | Nothing |  | Verified |  |
 | BR | Bottom Right | Ground | [Vaultkeeper Cauldron Entrance (Library_10)](#vaultkeeper-cauldron-entrance-library10) | L | Nothing |  | Verified |  |
@@ -12578,13 +12651,13 @@ No subroom connections defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | L | left1 | Oil Room | [Grand Bellway Shaft (Song_20)](#grand-bellway-shaft-song20) | UR | Activate Whispering Vaults: Flip Switch #10 |  | Verified |  |
-| R | right1 | Oil Room | [Whispering Vaults Flea Shaft (Library_01)](#whispering-vaults-flea-shaft-library01) | CL | Nothing. (Fall) |  | Verified |  |
+| R | right1 | Entrance | [Whispering Vaults Flea Shaft (Library_01)](#whispering-vaults-flea-shaft-library01) | CL | Nothing. (Fall) |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| V | Vertical | Entrance | Oil Room | Silk Soar OR Cling Grip OR (Scuttlebrace AND (Faydown Cloak OR Drifter's Cloak OR Clawline OR Sharpdart OR Sprint OR (Dash AND Easy Box Pogo))) |  | Verified | lever, one sided door |
+| V | Vertical | Entrance | Oil Room | Silk Soar OR Cling Grip OR (Scuttlebrace AND (Faydown Cloak OR Drifter's Cloak OR Clawline OR Sharpdart OR Sprint OR (Dash AND Proficient Movement (Easy Box Pogo)))) |  | Verified | lever, one sided door |
 | V | Vertical | Oil Room | Entrance | Nothing. (Fall) |  | Verified | both sides. |
 
 #### Check Locations
@@ -12613,10 +12686,10 @@ No subroom connections defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| BL | left1 | Top | [Rotating Tunnel (Song_20b)](#rotating-tunnel-song20b) | RH | Nothing. |  | Verified |  |
-| TL | left2 | Bottom | [Rotating Tunnel (Song_20b)](#rotating-tunnel-song20b) | R1 | Nothing. |  | Verified |  |
-| BR | right1 | Bottom | [Whispering Vaults Flea Shaft (Library_01)](#whispering-vaults-flea-shaft-library01) | TL | Nothing. |  | Verified |  |
+| TL | left2 | Top | [Rotating Tunnel (Song_20b)](#rotating-tunnel-song20b) | R1 | Nothing. |  | Verified |  |
 | TR | right2 | Top | [Songclave (Song_Enclave)](#songclave-songenclave) | BL | Nothing. |  | Verified |  |
+| BL | left1 | Bottom | [Rotating Tunnel (Song_20b)](#rotating-tunnel-song20b) | RH | Nothing. |  | Verified |  |
+| BR | right1 | Bottom | [Whispering Vaults Flea Shaft (Library_01)](#whispering-vaults-flea-shaft-library01) | TL | Nothing. |  | Verified |  |
 
 #### Subroom Connections
 
@@ -12624,7 +12697,7 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | LV | Left Vertical | Blocks | Arena | Silk Soar OR (Faydown Cloak AND Spike Pogo (except Witch) AND Ledge Grab) OR (Cling Grip AND (Spike Pogo OR Dash OR Sprint OR Clawline OR Drifter's Cloak OR Sharpdart)) OR (Scuttlebrace AND (Faydown Cloak OR (Dash AND Ledge Grab) OR Clawline OR Sharpdart OR Easy Beast Crest Pogo)) |  | Verified |  |
 | RV | Right Vertical | Bottom Right | Arena | Silk Soar OR Cling Grip OR (Scuttlebrace AND Faydown Cloak) |  | Verified |  |
-| LV | Left Vertical | Arena | Blocks | Spike Pogo OR Easy Box Pogo OR Clawline OR Faydown Cloak OR Drifter's Cloak OR Sharpdart |  | Verified |  |
+| LV | Left Vertical | Arena | Blocks | Spike Pogo OR Proficient Movement (Easy Box Pogo) OR Clawline OR Faydown Cloak OR Drifter's Cloak OR Sharpdart |  | Verified |  |
 | RV | Right Vertical | Arena | Bottom Right | Nothing. (Fall) |  | Verified |  |
 
 #### Check Locations
@@ -12661,8 +12734,8 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | VR | Vertical Right | Top | Bottom Right | Activate Whispering Vaults: Flip Switch #12 |  | Verified |  |
 | VR | Vertical Right | Bottom Right | Top | Activate Whispering Vaults: Flip Switch #12 AND (Cling Grip OR Scuttlebrace OR Faydown Cloak OR Clawline OR Dash OR Silk Soar OR Ledge Grab) |  | Verified |  |
-| VL | Vertical Left | Top | Bottom Right | Nothing. (Fall) |  | Verified |  |
-| VL | Vertical Left | Bottom Right | Top | Silk Soar OR (Faydown Cloak AND (Cling Grip OR Scuttlebrace)) |  | Verified |  |
+| VL | Vertical Left | Top | Bottom Center | Nothing. (Fall) |  | Verified |  |
+| VL | Vertical Left | Bottom Center | Top | Silk Soar OR (Faydown Cloak AND (Cling Grip OR Scuttlebrace)) |  | Verified |  |
 | LL | Leave Left | Bottom Center | Bottom Left Entrance | Activate Whispering Vaults: Flip Switch #4 |  | Verified |  |
 | LL | Leave Left | Bottom Left Entrance | Bottom Center | Activate Whispering Vaults: Flip Switch #4 |  | Verified |  |
 | ESL | Enter Stage Left | Bottom Center | Fight | Nothing. |  | Verified |  |
@@ -12674,14 +12747,15 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Progressive Claw Mirror 2 | Fight | Defeat Tormented Trobbio |  | Verified | collectible |  |
 | Whispering Vaults: Lore #4 | Bottom Left Entrance | Nothing. |  | Verified | lore |  |
 | Trobbio | Fight | Nothing. |  | Verified | boss |  |
 | Progressive Claw Mirror 1 | Fight | Defeat Trobbio |  | Verified | collectible |  |
 | Whispering Vaults: Flip Switch #4 | Bottom Center | Nothing. |  | Verified | switch |  |
 | Whispering Vaults: Flip Switch #12 | Bottom Right | Nothing. |  | Verified | switch |  |
 | AP Minor Cache - Whispering Vaults - Shell Shard Cache #2 | Top | Nothing. |  | Verified | resource |  |
-| Tormented Trobbio | Fight | (Act 3 AND Activate Wish: Pain, Anguish and Misery IN Songclave) |  | Verified | boss |  |
+| Tormented Trobbio | Fight | complete THE Pain, Anguish and Misery Wish Promised |  | Verified | boss | Is there a hard act 3 requirement for his spawn? - hero, 9/26 |
+| Pain, Anguish and Misery Wish Granted | Fight | Defeat Tormented Trobbio |  | Verified | event |  |
+| Progressive Claw Mirror 2 | Fight | Defeat Tormented Trobbio |  | Verified | collectible |  |
 
 ### Trobbio Entrance (Library_13b)
 
@@ -12698,7 +12772,7 @@ No subroom connections defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | Left | The Only Jump In This Entire Room | [Trobbio (Library_13)](#trobbio-library13) | TR | Nothing. |  | Verified |  |
+| L | Left | Not The Jump. | [Trobbio (Library_13)](#trobbio-library13) | TR | Nothing. |  | Verified |  |
 | R | Right | The Only Jump In This Entire Room | [Whispering Vaults Hell (Library_04)](#whispering-vaults-hell-library04) | CL | Nothing. |  | Verified |  |
 
 #### Subroom Connections
@@ -12786,9 +12860,9 @@ No subroom connections defined.
 | MLR | Middle Left to Right | Middle Third (Right) | Middle Third (Left) | Nothing (Jump) |  | Verified |  |
 | RVL | Right to Vertical Lower | Middle Third (Right) | Vertical Shaft (Lower) | Nothing (Fall) |  | Verified |  |
 | RVL | Right to Vertical Lower | Vertical Shaft (Lower) | Middle Third (Right) | Cling Grip OR (Scuttlebrace AND (Medium Flea Brew Stall OR Medium Heal Stall OR Faydown)) OR Silk Soar |  | Verified |  |
-| RVU | Right to Vertical Upper | Middle Third (Right) | Vertical Shaft (Upper) | Silk Soar OR (Faydown AND Cling Grip AND Easy Proficient Movement) |  | Verified |  |
+| RVU | Right to Vertical Upper | Middle Third (Right) | Vertical Shaft (Upper) | Silk Soar OR (Faydown AND Cling Grip AND Proficient Movement) |  | Verified |  |
 | RVU | Right to Vertical Upper | Vertical Shaft (Upper) | Middle Third (Right) | Nothing (Fall) |  | Verified |  |
-| VTR | Vertical to Top Right (Entrance) | Vertical Shaft (Upper) | Top Right (Entrance) | Silk Soar OR (Faydown AND Cling Grip AND Easy Proficient Movement) |  | Verified |  |
+| VTR | Vertical to Top Right (Entrance) | Vertical Shaft (Upper) | Top Right (Entrance) | Silk Soar OR (Faydown AND Cling Grip AND Proficient Movement) |  | Verified |  |
 | VTR | Vertical to Top Right (Entrance) | Top Right (Entrance) | Vertical Shaft (Upper) | Nothing (Fall) |  | Verified |  |
 | ETP | Elevator to Pit | Elevator Shaft | Pit | Have White Key |  | Verified |  |
 | ETP | Elevator to Pit | Pit | Elevator Shaft | (Cling Grip OR Scuttlebrace OR Silk Soar) |  | Verified |  |
@@ -12827,8 +12901,8 @@ No subroom connections defined.
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | Balm for the Wounded Gauntlet |  | Nothing |  | Verified | gauntlet | Completion for the wish. |
-| Balm for the Wounded - Spool Fragment |  | Complete Balm for the Wounded Wish Goal |  | Verified | event | Completion for the wish. |
-| Balm for the Wounded Wish Goal |  | Defeat Balm for the Wounded Gauntlet |  | Verified | event |  |
+| Balm for the Wounded Wish Granted |  | Defeat Balm for the Wounded Gauntlet |  | Verified | event |  |
+| Balm for the Wounded - Spool Fragment |  | Complete Balm for the Wounded Wish Granted |  | Verified | collectible | Completion for the wish. |
 
 ### Whiteward Descent Connection (Ward_03)
 
@@ -12855,16 +12929,16 @@ No subroom connections defined.
 | L | Left | Bottom (Left) | [Whiteward Entrance (Ward_01)](#whiteward-entrance-ward01) | BR | Nothing |  | Verified |  |
 | B | Bottom | Bottom Right (Lower) | [Whiteward Descent (Ward_06)](#whiteward-descent-ward06) | T | Nothing |  | Verified |  |
 | T | Top | Top | [Whiteward Junk Dump (Ward_07)](#whiteward-junk-dump-ward07) | B | Nothing |  | Verified |  |
-| SG | SG | Middle (Left) | [Whiteward Sherma Gauntlet (Ward_09)](#whiteward-sherma-gauntlet-ward09) | L | Complete THE Balm for the Wounded Wish Start |  | Verified |  |
+| SG | SG | Middle (Left) | [Whiteward Sherma Gauntlet (Ward_09)](#whiteward-sherma-gauntlet-ward09) | L | Complete THE Balm for the Wounded Wish Promised |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| BLS | Bottom Left to Spikes | Bottom (Left) | Spikes | Easy Skip Spike Pogo OR Dash OR Sprint OR Sharpdart OR Clawline OR Faydown OR Drifter's Cloak OR Have Flea Brew OR Easy Plasmium Phial Stall OR Easy Voltvessels Stall |  | Verified |  |
-| BLS | Bottom Left to Spikes | Spikes | Bottom (Left) | Easy Skip Spike Pogo OR Dash OR Sprint OR Sharpdart OR Clawline OR Faydown OR Drifter's Cloak OR Have Flea Brew OR Easy Plasmium Phial Stall OR Easy Voltvessels Stall |  | Verified |  |
-| SBR | Spikes to Bottom Right | Spikes | Bottom (Middle) | Easy Skip Spike Pogo OR Dash OR Sprint OR Sharpdart OR Clawline OR Faydown OR Drifter's Cloak OR Flea Brew OR Easy Plasmium Phial Stall OR Easy Voltvessels Stall |  | Verified |  |
-| SBR | Spikes to Bottom Right | Bottom (Middle) | Spikes | Easy Skip Spike Pogo OR Dash OR Sprint OR Sharpdart OR Clawline OR Faydown OR Drifter's Cloak OR Flea Brew OR Easy Plasmium Phial Stall OR Easy Voltvessels Stall |  | Verified |  |
+| BLS | Bottom Left to Spikes | Bottom (Left) | Spikes | Spike Pogo OR Dash OR Sprint OR Sharpdart OR Clawline OR Faydown OR Drifter's Cloak OR Have Flea Brew OR Easy Plasmium Phial Stall OR Easy Voltvessels Stall |  | Verified |  |
+| BLS | Bottom Left to Spikes | Spikes | Bottom (Left) | Spike Pogo OR Dash OR Sprint OR Sharpdart OR Clawline OR Faydown OR Drifter's Cloak OR Have Flea Brew OR Easy Plasmium Phial Stall OR Easy Voltvessels Stall |  | Verified |  |
+| SBR | Spikes to Bottom Right | Spikes | Bottom (Middle) | Spike Pogo  OR Dash OR Sprint OR Sharpdart OR Clawline OR Faydown OR Drifter's Cloak OR Flea Brew OR Easy Plasmium Phial Stall OR Easy Voltvessels Stall |  | Verified |  |
+| SBR | Spikes to Bottom Right | Bottom (Middle) | Spikes | Spike Pogo  OR Dash OR Sprint OR Sharpdart OR Clawline OR Faydown OR Drifter's Cloak OR Flea Brew OR Easy Plasmium Phial Stall OR Easy Voltvessels Stall |  | Verified |  |
 | BMA | Bottom to Ascent | Bottom (Middle) | Ascent | Cling Grip OR Scuttlebrace OR Silk Soar OR Faydown |  | Verified |  |
 | BMA | Bottom to Ascent | Ascent | Bottom (Middle) | Cling Grip OR Scuttlebrace OR Silk Soar OR Faydown |  | Verified |  |
 | AML | Ascent to Middle Left | Ascent | Middle (Left) | Cling Grip OR Scuttlebrace OR Silk Soar OR Faydown |  | Verified |  |
@@ -13024,7 +13098,7 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| SLV | Surgery Left to Vertical | Surgery Tables (Left) | Vertical Left | Ledge Grab OR Faydown OR Clawline OR Silk Soar OR (Easy Proficient Movement AND Scuttlebrace) |  | Verified |  |
+| SLV | Surgery Left to Vertical | Surgery Tables (Left) | Vertical Left | Ledge Grab OR Faydown OR Clawline OR Silk Soar OR (Proficient Movement AND Scuttlebrace) |  | Verified |  |
 | SLV | Surgery Left to Vertical | Vertical Left | Surgery Tables (Left) | Nothing (Falling) |  | Verified |  |
 | SRL | Surgery Right to Left | Surgery Tables (Right) | Surgery Tables (Left) | Nothing |  | Verified |  |
 | SRL | Surgery Right to Left | Surgery Tables (Left) | Surgery Tables (Right) | Nothing |  | Verified |  |
@@ -13090,22 +13164,39 @@ No subroom connections defined.
 
 #### Subrooms
 
-No subrooms defined.
+- left exit
+- right exit
+- left platform
+- center platform
+- right platform
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 |  | [High Halls Shaft Bottom (Hang_03)](#high-halls-shaft-bottom-hang03) | ML | (ledge grab or clawline or cling grip or faydown cloak) and swim |  | Verified |  |
-| L | left1 |  | [High Halls Entrance (Hang_01)](#high-halls-entrance-hang01) | TP | clawline or (faydown cloak and dash and ledge grab) |  | Verified |  |
+| R | right1 | right exit | [High Halls Shaft Bottom (Hang_03)](#high-halls-shaft-bottom-hang03) | ML | none |  | Verified |  |
+| L | left1 | left exit | [High Halls Entrance (Hang_01)](#high-halls-entrance-hang01) | TP | none |  | Verified |  |
 
 #### Subroom Connections
 
-No subroom connections defined.
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| V1 | vertical 1 | left exit | left platform | invalid |  | Needs verification | placeholder until can map it - original logic is in OG connection |
+| V1 | vertical 1 | left platform | left exit | invalid |  | Needs verification | placeholder until can map it - original logic is in OG connection |
+| C1 | crossing 1 | left platform | center platform | invalid |  | Needs verification | placeholder until can map it - original logic is in OG connection |
+| C1 | crossing 1 | center platform | left platform | invalid |  | Needs verification | placeholder until can map it - original logic is in OG connection |
+| C2 | crossing 2 | center platform | right platform | invalid |  | Needs verification | placeholder until can map it - original logic is in OG connection |
+| C2 | crossing 2 | right platform | center platform | invalid |  | Needs verification | placeholder until can map it - original logic is in OG connection |
+| C3 | crossing 3 | right platform | right exit | invalid |  | Needs verification | placeholder until can map it - original logic is in OG connection |
+| C3 | crossing 3 | right exit | right platform | invalid |  | Needs verification | placeholder until can map it - original logic is in OG connection |
+| OG | original requirements | left exit | right exit | clawline OR (faydown cloak AND dash AND ledge grab) |  | Verified | delete after remapped |
+| OG | original requirements | right exit | left exit | (ledge grab OR clawline OR cling grip OR faydown cloak) AND swim |  | Verified | delete after remapped |
 
 #### Check Locations
 
-No check locations defined.
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Second Sentinel Encounter | center platform | act 3 AND complete THE second sentinel activation | TODO | Needs verification | event | need to verify this is the correct platform |
 
 ### High Halls Shaft Top (Hang_03_top)
 
@@ -13131,7 +13222,7 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| High Halls - Spool Fragment |  | silk soar or (clawline and faydown cloak and cling grip) |  | Verified |  |  |
+| High Halls - Spool Fragment |  | silk soar OR (clawline AND faydown cloak AND cling grip) |  | Verified | collectible |  |
 
 ### High Halls Shaft Bottom (Hang_03)
 
@@ -13153,7 +13244,7 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | T | top1 | Top | [High Halls Shaft Top (Hang_03_top)](#high-halls-shaft-top-hang03top) | B | none |  | Verified |  |
 | TR | right1 | Top Right | [High Halls Big Slide (Hang_13)](#high-halls-big-slide-hang13) | L | none |  | Verified |  |
-| BL | left2 | Middle Left | [High Halls Small Room (Hang_15)](#high-halls-small-room-hang15) | R | none |  | Verified |  |
+| BL | left2 | Bottom Left | [High Halls Small Room (Hang_15)](#high-halls-small-room-hang15) | R | none |  | Verified |  |
 | BR | right2 | Bottom Right | [High Halls Flooded Room (Hang_10)](#high-halls-flooded-room-hang10) | L | clear left exit blockade IN high halls flooded room |  | Verified |  |
 | ML | left1 | Middle Left | [High Halls Small Slide (Hang_02)](#high-halls-small-slide-hang02) | R | none |  | Verified |  |
 
@@ -13161,15 +13252,15 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| B | Bottom Traversal | Bottom Left | Bottom Right | swim or clawline or (faydown cloak and dash) |  | Verified |  |
-| B | Bottom Traversal | Bottom Right | Bottom Left | swim or clawline or (faydown cloak and dash) |  | Verified |  |
-| B2 | Bottom Right to Mid Left | Bottom Right | Middle Left | cling grip and faydown cloak or clawline |  | Verified |  |
-| M | Middle Left to Top Right | Middle Left | Top Right | clawline and cling grip |  | Verified |  |
-| T | Top Right to Top | Top Right | Top | faydown cloak and (clawline or (cling grip and dash)) |  | Verified |  |
+| B | Bottom Traversal | Bottom Left | Bottom Right | swim OR clawline OR (faydown cloak AND dash) |  | Verified |  |
+| B | Bottom Traversal | Bottom Right | Bottom Left | swim OR clawline OR (faydown cloak AND dash) |  | Verified |  |
+| B2 | Bottom Right to Mid Left | Bottom Right | Middle Left | ( cling grip AND faydown cloak ) OR clawline |  | Verified |  |
+| M | Middle Left to Top Right | Middle Left | Top Right | clawline AND cling grip |  | Verified |  |
+| T | Top Right to Top | Top Right | Top | faydown cloak AND (clawline OR (cling grip AND dash)) |  | Verified |  |
 | FT | Falling from Top | Top | Middle Left | none |  | Verified | falilng |
-| FT2 | Falling from Top 2 | Top | Top Right | clawline or dash or faydown cloak |  | Verified |  |
+| FT2 | Falling from Top 2 | Top | Top Right | clawline OR dash OR faydown cloak |  | Verified |  |
 | FM | Falling from Mid | Middle Left | Bottom Left | none |  | Verified | falling |
-| FM2 | Falling from Mid 2 | Middle Left | Bottom Right | clawline or dash or faydown cloak |  | Verified |  |
+| FM2 | Falling from Mid 2 | Middle Left | Bottom Right | clawline OR dash OR faydown cloak |  | Verified |  |
 
 #### Check Locations
 
@@ -13199,7 +13290,7 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| High Halls - Shell Shard Cache #2 |  | none |  | Verified |  |  |
+| High Halls - Shell Shard Cache #2 |  | none |  | Verified | collectible |  |
 
 ### High Halls Big Slide (Hang_13)
 
@@ -13215,8 +13306,8 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 |  | [High Halls Big Shaft (Hang_08)](#high-halls-big-shaft-hang08) | TL | clawline and (ledge grab or faydown cloak or dash) |  | Verified |  |
-| L | left1 |  | [High Halls Shaft Bottom (Hang_03)](#high-halls-shaft-bottom-hang03) | TR | (swim and ledge grab) or (clawline and dash) or drifter's cloak |  | Verified |  |
+| R | right1 |  | [High Halls Big Shaft (Hang_08)](#high-halls-big-shaft-hang08) | TL | clawline AND (ledge grab OR faydown cloak OR dash) |  | Verified |  |
+| L | left1 |  | [High Halls Shaft Bottom (Hang_03)](#high-halls-shaft-bottom-hang03) | TR | (swim AND ledge grab) OR (clawline AND dash) OR drifter's cloak |  | Verified |  |
 
 #### Subroom Connections
 
@@ -13238,6 +13329,7 @@ No check locations defined.
 - Middle
 - Left Spike Exit
 - Bottom
+- Behind Sentinel Gate
 
 #### Room Transitions
 
@@ -13246,8 +13338,8 @@ No check locations defined.
 | SL | left3 | Left Spike Exit | [High Halls Flooded Room (Hang_10)](#high-halls-flooded-room-hang10) | R | none |  | Verified |  |
 | B | bot1 | Bottom | [High Halls Vault (Hang_06)](#high-halls-vault-hang06) | T | none |  | Verified | One way only (opened from this side) |
 | L | left4 | Bottom | [High Halls Baby Room (Hang_16)](#high-halls-baby-room-hang16) | R | none |  | Verified |  |
-| NI | right2 | Middle | [High Halls Not Implemented Room (Cog_11)](#high-halls-not-implemented-room-cog11) | L | invalid |  |  | NOT IMPLEMENTED BY DEVS |
-| R | right1 | Bottom | TODO |  | opened during Final Audience Wish according to wiki | TODO |  |  |
+| NI | right2 | Middle | [High Halls Not Implemented Room (Cog_11)](#high-halls-not-implemented-room-cog11) | L | invalid |  | Verified | NOT IMPLEMENTED BY DEVS |
+| R | right1 | Behind Sentinel Gate | [High Halls Sentinel Graveyard (Hang_17b)](#high-halls-sentinel-graveyard-hang17b) | L | none |  | Verified |  |
 | ML | left2 | Middle | [High Halls Cogfly Room (Hang_09)](#high-halls-cogfly-room-hang09) | R | none |  | Verified |  |
 | TL | left1 | Top | [High Halls Big Slide (Hang_13)](#high-halls-big-slide-hang13) | R | none |  | Verified |  |
 
@@ -13259,6 +13351,8 @@ No check locations defined.
 | S | Spiked Secret | Middle | Left Spike Exit | drifter's cloak AND (cling grip OR clawline) AND break wall left |  | Verified |  |
 | SF | Falling from Secret | Left Spike Exit | Bottom | drifter's cloak AND clawline |  | Verified |  |
 | MF | Falling from Middle | Middle | Bottom | drifter's cloak AND clawline |  | Verified |  |
+| WG | wish gate | Bottom | Behind Sentinel Gate | complete THE final audience wish promised |  | Verified |  |
+| WG | wish gate | Behind Sentinel Gate | Bottom | complete THE final audience wish promised |  | Verified |  |
 
 #### Check Locations
 
@@ -13351,7 +13445,7 @@ No subrooms defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | R | right1 |  | [High Halls Big Shaft (Hang_08)](#high-halls-big-shaft-hang08) | L | none |  | Verified |  |
-| S | door1 |  | TODO |  | faydown cloaka and cling grip | TODO |  | Secret door to Hang_14 (not in the map, doesn't have any checks) |
+| S | door1 |  | TODO |  | faydown cloak AND cling grip | TODO |  | Secret door to Hang_14 (not in the map, doesn't have any checks) |
 
 #### Subroom Connections
 
@@ -13361,7 +13455,7 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Relic Psalm Cylinder (High Halls) |  | none |  | Verified |  |  |
+| Relic Psalm Cylinder (High Halls) |  | none |  | Verified | collectible |  |
 
 ### High Halls Vault (Hang_06)
 
@@ -13377,11 +13471,11 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| D | door1 |  | TODO |  | (ledge grab or faydown cloak or silk soar) and Simple Key (Rosary Bank) | TODO |  |  |
+| D | door1 |  | TODO |  | (ledge grab OR faydown cloak OR silk soar) AND have Simple Key Rosary Bank | TODO |  |  |
 | L | left1 |  | [High Halls Arena (Hang_04)](#high-halls-arena-hang04) | R | none |  | Verified |  |
 | B | bot1 |  | [High Halls Corridor (Hang_07)](#high-halls-corridor-hang07) | T | none |  | Verified | One way lever (opens from this side) |
 | R | right1 |  | [High Halls Ventrica (Hang_06b)](#high-halls-ventrica-hang06b) | L | none |  | Verified |  |
-| T | top1 |  | [High Halls Big Shaft (Hang_08)](#high-halls-big-shaft-hang08) | B | cling grip or (faydown cloak and ledge grab) or silk soar |  | Verified |  |
+| T | top1 |  | [High Halls Big Shaft (Hang_08)](#high-halls-big-shaft-hang08) | B | cling grip OR (faydown cloak AND ledge grab) OR silk soar |  | Verified |  |
 
 #### Subroom Connections
 
@@ -13406,7 +13500,7 @@ No subrooms defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | L | left1 |  | [High Halls Vault (Hang_06)](#high-halls-vault-hang06) | R | none |  | Verified |  |
-| V | door_tubeEnter |  | [Ventrica Menu](#ventrica-menu) | HH | unlock ventrica high halls |  | Verified |  |
+| V | door_tubeEnter |  | [Ventrica Menu](#ventrica-menu) | HH | unlock Ventrica High Halls |  | Verified |  |
 
 #### Subroom Connections
 
@@ -13416,8 +13510,9 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| High Halls - Map Purchase |  | rosaries |  | Verified |  |  |
-| Ventrica High Halls |  | rosaries |  | Verified |  |  |
+| High Halls - Map Purchase |  | rosaries 70 |  | Verified | collectible |  |
+| Ventrica High Halls Rosary Lock |  | rosaries 80 |  | Verified | lock |  |
+| Ventrica High Halls |  | unlock Ventrica High Halls Rosary Lock |  | Verified | travel |  |
 
 ### High Halls Conductor (Hang_12)
 
@@ -13443,7 +13538,7 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Are there things here? |  |  | TODO |  |  |  |
+| Conductors Melody |  | Act 2 |  | Verified | collectible |  |
 
 ### High Halls Arena (Hang_04)
 
@@ -13453,14 +13548,45 @@ No subroom connections defined.
 
 #### Subrooms
 
+- left of gauntlet
+- gauntlet arena
+- right of gauntlet
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left1 | left of gauntlet | [High Halls Conductor (Hang_12)](#high-halls-conductor-hang12) | R | none |  | Verified |  |
+| R | right1 | right of gauntlet | [High Halls Vault (Hang_06)](#high-halls-vault-hang06) | L | none |  | Verified |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| RG | right gauntlet door | right of gauntlet | gauntlet arena | none (starts gauntlet) |  | Verified |  |
+| RG | right gauntlet door | gauntlet arena | right of gauntlet | defeat gauntlet fight |  | Verified |  |
+| LG | left gauntlet door | gauntlet arena | left of gauntlet | defeat gauntlet fight |  | Verified |  |
+| LG | left gauntlet door | left of gauntlet | gauntlet arena | defeat gauntlet fight | TODO | Needs verification | need to double check this for room rando |
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| gauntlet fight | gauntlet arena | none |  | Verified | gauntlet |  |
+
+### High Halls Sentinel Graveyard (Hang_17b)
+
+**Game ID:** Hang_17b
+
+#### Subrooms
+
 No subrooms defined.
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [High Halls Conductor (Hang_12)](#high-halls-conductor-hang12) | R | gauntlet |  |  |  |
-| R | right1 |  | [High Halls Vault (Hang_06)](#high-halls-vault-hang06) | L | gauntlet |  |  |  |
+| L | left1 |  | [High Halls Big Shaft (Hang_08)](#high-halls-big-shaft-hang08) | R | none |  | Verified | gate on the other side has no influence on this exit |
 
 #### Subroom Connections
 
@@ -13468,7 +13594,11 @@ No subroom connections defined.
 
 #### Check Locations
 
-No check locations defined.
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Second Sentinel Boss Fight |  | none | TODO | Verified | boss | normally would be `complete THE Final Audience Wish Promised` but team cherry did nothing to protect the boss fight from starting without the wish - not ideal for entrance rando, and might need to be patched |
+| Final Audience Wish Granted |  | complete THE Final Audience Wish Promised  AND defeat Second Sentinel Boss Fight |  | Verified | event | assuming this becomes impossible if the boss is defeated before the wish is accepted |
+| Reserve Bind |  | complete Final Audience Wish Granted |  | Verified | collectible |  |
 
 ### High Halls Not Implemented Room (Cog_11)
 
@@ -13551,6 +13681,7 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- |
 | Bilewater - Bellway |  | rosaries 60 |  | Verified | travel |  |
 | Bilewater Bellway Bench |  | none |  | Verified | bench |  |
+| Craw Summons |  | craw summons ready |  | Verified | collectible |  |
 
 ### Bilewater Bullshit Bench (Shadow_15)
 
@@ -13881,23 +14012,29 @@ No check locations defined.
 
 #### Subrooms
 
-No subrooms defined.
+- lower area
+- upper area
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | lower |  | [Bilewater Lower East Hall (Shadow_03)](#bilewater-lower-east-hall-shadow03) | C | nada |  | Verified |  |
+| L | lower | lower area | [Bilewater Lower East Hall (Shadow_03)](#bilewater-lower-east-hall-shadow03) | C | nada |  | Verified |  |
+| SC | slab capture | upper area | [Slab Capture](#slab-capture) | BW | after Get Kidnapped |  | Verified |  |
 
 #### Subroom Connections
 
-No subroom connections defined.
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| V1 | vertical 1 | lower area | upper area | clawline OR (enemy pogo AND (cling grip OR ledge grab OR faydown cloak OR drifter's cloak OR dash)) |  | Verified | converted get kidnapped into subroom connection to simplify kidnapping requirements |
+| V1 | vertical 1 | upper area | lower area | none (falling) |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Get Kidnapped |  | clawline OR (enemy pogo AND (cling grip OR ledge grab OR faydown cloak OR drifter's cloak OR dash)) |  | Verified | event |  |
+| Wardenfly | upper area | ( act 1 AND act 2 ) AND defeat THE Bell Beast Boss Fight AND (  after Lace Second Encounter IN Choral Chambers Eastern Shaft OR after Lace Second Encounter IN Grand Bellway Shaft ) |  | Verified | enemy | per the wiki |
+| Get Kidnapped | upper area | after Wardenfly |  | Verified | logic-point |  |
 
 ### Bilewater Lower Trap Gauntlet Hall (Shadow_10)
 
@@ -14376,23 +14513,28 @@ No check locations defined.
 
 #### Subrooms
 
-No subrooms defined.
+- left exit
+- trails end
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left |  | [Bilewater Vertical Sac Pogo Room (Shadow_19)](#bilewater-vertical-sac-pogo-room-shadow19) | UR | complete THE trails end wish promised |  | Verified | note for room rando - this side might be open without the wish having been started |
+| L | left | left exit | [Bilewater Vertical Sac Pogo Room (Shadow_19)](#bilewater-vertical-sac-pogo-room-shadow19) | UR | none |  | Verified | blockade on other side of this door has no impact on this direction |
 
 #### Subroom Connections
 
-No subroom connections defined.
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| CR | crossing | left exit | trails end | faydown cloak  AND swim  AND cling grip  AND ( ledge grab OR dash OR clawline OR sharpdart ) |  | Verified |  |
+| CR | crossing | trails end | left exit | silk soar AND faydown cloak  AND swim  AND cling grip  AND ( ledge grab OR dash OR clawline OR sharpdart ) |  | Verified | don't think you can get out without silk soar's height? |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Throwing Ring |  | complete THE trails end wish promised AND faydown cloak  AND swim  AND cling grip  AND ( ledge grab OR dash OR clawline OR sharpdart ) |  | Verified | collectible | Dash, clawline, and sharpdart are a bit precise and require you to get nearly the most possible height out of first and second jumps |
+| trails end wish granted | trails end | complete THE trails end wish promised AND needolin |  | Verified | event |  |
+| Throwing Ring | trails end | complete THE trails end wish promised |  | Verified | collectible | Dash, clawline, and sharpdart are a bit precise and require you to get nearly the most possible height out of first and second jumps |
 
 ### Bilewater Weavenest Murglin (Shadow_Weavehome)
 
@@ -14795,8 +14937,8 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Ventrica: Memorium |  | unlock Ventrica Rosary Lock |  | Verified | travel |  |
-| Ventrica Rosary Lock |  | rosaries 80 |  | Verified | lock |  |
+| Ventrica: Memorium |  | unlock Ventrica: Memorium Rosary Lock |  | Verified | travel |  |
+| Ventrica: Memorium Rosary Lock |  | rosaries 80 |  | Verified | lock |  |
 
 ### Memorium Voltnest (Arborium_07)
 
@@ -14888,7 +15030,9 @@ No subroom connections defined.
 
 #### Check Locations
 
-No check locations defined.
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Memorimum Cogheart Piece |  | flip switch up OR flip switch down |  | Verified | collectible | memory puzzle |
 
 #### Notes
 
@@ -15002,7 +15146,7 @@ cling grip OR faydown cloak OR (silk soar AND silkhearts 1)
 | --- | --- | --- | --- | --- | --- | --- |
 | Memorium - Shard Bundle | Main Area | rosaries 70 |  | Verified | collectible | swapped the subroom - as it appeared to be incorrect - hero |
 | Memorium - Map Purchase | Entrance | none |  | Verified | collectible | swapped the subroom - as it appeared to be incorrect - hero |
-| Wish: The Lost Merchant | Main Area |  | TODO |  | event | need to mark the requirments of like starting the wish |
+| The Lost Merchant Wish Granted | Main Area | complete THE The Lost Merchant Wish Promised |  | Verified | event |  |
 
 #### Notes
 
@@ -15202,7 +15346,7 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| BS | Big Shaft | Bottom | Top | Silk soar OR ( Cling Grip AND ( Easy skip spike pogo OR  Clawline ) ) |  | Verified |  |
+| BS | Big Shaft | Bottom | Top | Silk soar OR ( Cling Grip AND ( ( Proficient Movement AND Spike Pogo ) OR Clawline ) ) |  | Verified |  |
 | BS | Big Shaft | Top | Bottom | None |  | Verified |  |
 
 #### Check Locations
@@ -15406,7 +15550,7 @@ No check locations defined.
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | WR | Whole Room | Left Ledge | Right Ledge | easy Beast Crest pogo OR Clawline OR Faydown Cloak OR Drifters Cloak OR Sharpdart OR Dash |  | Verified |  |
-| WR | Whole Room | Right Ledge | Left Ledge | ( Cling Grip AND ( ( ( Dash OR Drifters Cloak OR Faydown Cloak ) AND Sprint ) OR Clawline OR Sharpdart ) ) OR ( Faydown Cloak AND Clawline AND easy skip spike pogo ) |  | Verified |  |
+| WR | Whole Room | Right Ledge | Left Ledge | ( Cling Grip AND ( ( ( Dash OR Drifters Cloak OR Faydown Cloak ) AND Sprint ) OR Clawline OR Sharpdart ) ) OR ( Faydown Cloak AND Clawline AND ( Proficient Movement AND Spike Pogo ) ) |  | Verified |  |
 | DR | Drop | Left Ledge | Shell Ledge | easy Hunter Crest pogo OR easy Beast Crest pogo OR easy Architect Crest pogo OR easy Shaman Crest pogo OR ( Ledge grab AND ( easy Reaper crest pogo OR easy Witch Crest pogo ) ) OR Dash OR Clawline OR Sharpdart OR Drifters Cloak OR Faydown Cloak OR ( easy Wanderer crest pogo AND easy Needle Strike stall ) |  | Verified |  |
 | DR | Drop | Shell Ledge | Left Ledge | Ledge Grab OR Clawline OR Faydown Cloak OR medium Beast Crest pogo |  | Verified |  |
 
@@ -15560,8 +15704,8 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| H | Horizontal | Left | Right | cling grip or ledge grab or faydown cloak or clawline |  | Verified | You can jump off of the left obstacle and use clawline twice, this cannot be done from the other side |
-| H | Horizontal | Right | Left | cling grip or ledge grab or faydown cloak |  | Verified |  |
+| H | Horizontal | Left | Right | cling grip OR ledge grab OR faydown cloak OR clawline |  | Verified | You can jump off of the left obstacle and use clawline twice, this cannot be done from the other side |
+| H | Horizontal | Right | Left | cling grip OR ledge grab OR faydown cloak |  | Verified |  |
 
 #### Check Locations
 
@@ -15581,6 +15725,7 @@ No check locations defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| D | door1 | Arena | [Slab Broodmother Alcove](#slab-broodmother-alcove) | U | complete THE The Wailing Mother Wish Promised |  | Needs verification | need the room mapped |
 | B | bot1 | Bottom Tunnel | [Slab Chilly Prison (Slab_15)](#slab-chilly-prison-slab15) | T | none |  |  |  |
 | L | left1 | Bottom Tunnel | [Mount Fay Entrance (Peak_01)](#mount-fay-entrance-peak01) | USR | cling grip |  |  | Naked. |
 | T | top1 | Arena | [Slab Chilly Top (Slab_22)](#slab-chilly-top-slab22) | BL | cling grip OR silk soar |  |  | Naked |
@@ -15590,14 +15735,41 @@ No check locations defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| A | Arena | Arena | Right Entrance | Key of Heretic Owned |  |  |  |
-| A | Arena | Right Entrance | Arena | Key of Heretic Owned |  |  |  |
+| A | Arena | Arena | Right Entrance | have Key of Heretic |  |  |  |
+| A | Arena | Right Entrance | Arena | have Key of Heretic |  |  |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Key of Heretic | Arena | gauntlet |  |  |  |  |
+| Key of Heretic | Arena | defeat gauntlet fight |  |  | collectible |  |
+| Gauntlet Fight | Arena | none |  |  | gauntlet |  |
+| The Wailing Mother Wish Broodmother Alcove Trigger | Arena | none |  | Verified | logic-point |  |
+
+### Slab Broodmother Alcove
+
+**Contributors:** herounit
+
+#### Subrooms
+
+No subrooms defined.
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| U | unknown |  | [Slab Arena (Slab_16)](#slab-arena-slab16) | D |  | TODO | Needs verification |  |
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Broodmother Boss Fight |  |  | TODO | Needs verification | boss | unknown if gated by quest or just room access |
+| Broodmother's Eye |  | defeat Broodmother Boss Fight |  | Verified | collectible |  |
 
 ### Slab Cell (Slab_03)
 
@@ -15624,53 +15796,53 @@ No check locations defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| CPT | door_slabCaged | L1 | TODO |  | Captured Event |  |  | no destination, logically equivalent to L1 since you need to go up to reach L0 |
+| CPT | door_slabCaged | L1 | [Slab Capture](#slab-capture) | CG | invalid |  |  | no destination, logically equivalent to L1 since you need to go up to reach L0 |
 | L0L | left1 | L0L | [Slab Arena (Slab_16)](#slab-arena-slab16) | R | none |  |  |  |
-| L0R | right1 | L0R | [Slab Why Room (Slab_17)](#slab-why-room-slab17) | L | Apostate Key Owned |  |  |  |
+| L0R | right1 | L0R | [Slab Why Room (Slab_17)](#slab-why-room-slab17) | L | have Key of Apostate |  |  |  |
 | L1L | left2 | L1 | [Slab Chilly Prison (Slab_15)](#slab-chilly-prison-slab15) | R | none |  |  |  |
-| L1R | right2 | L1 | [Slab Secret Side Room (Slab_18)](#slab-secret-side-room-slab18) | L | One way (opens from the other side) |  |  | One way (opens from the other side) |
+| L1R | right2 | L1 | [Slab Secret Side Room (Slab_18)](#slab-secret-side-room-slab18) | L | clear Breakable Wall Blockade IN slab secret side room |  |  | One way (opens from the other side) |
 | L2L | left3 | L2L | [Slab Indolent Room (Slab_14)](#slab-indolent-room-slab14) | R | none |  |  |  |
 | L2R | right3 | L2R | [Slab Grindle (Slab_20)](#slab-grindle-slab20) | L | none |  |  |  |
 | L3L | left4 | L3L | [Slab Flea Prison (Slab_13)](#slab-flea-prison-slab13) | R | none |  |  |  |
 | L3R | right4 | L3R | [Slab Cavern Exit (Slab_23)](#slab-cavern-exit-slab23) | L | none |  |  |  |
 | L4L | left5 | L4 | [Slab Infleatween Top (Slab_04)](#slab-infleatween-top-slab04) | R | none |  |  |  |
-| L4R | right5 | L4 | [Slab Entrance (Slab_02)](#slab-entrance-slab02) | L | opens from the other side |  |  |  |
-| L5L | left6 | L5L | [Slab Infleatween Bottom (Slab_05)](#slab-infleatween-bottom-slab05) | R | Key of Apostate Owned |  |  |  |
+| L4R | right5 | L4 | [Slab Entrance (Slab_02)](#slab-entrance-slab02) | L | activate slab entrance switch IN slab entrance |  |  |  |
+| L5L | left6 | L5L | [Slab Infleatween Bottom (Slab_05)](#slab-infleatween-bottom-slab05) | R | have Key of Apostate |  |  |  |
 | L5R | right8 | L5R | [Slab Cave Entrance (Slab_08)](#slab-cave-entrance-slab08) | L | none |  |  |  |
-| L6R | right7 | L6 | [Slab Prelude (Slab_19b)](#slab-prelude-slab19b) | L | Key of Heretic Owned |  |  |  |
-| L7L | left7 | L7 | [Slab Poodle (Slab_07)](#slab-poodle-slab07) | R1 | Breakable Wall (opened from the other side) |  |  |  |
+| L6R | right7 | L6 | [Slab Prelude (Slab_19b)](#slab-prelude-slab19b) | L | have Key of Heretic |  |  |  |
+| L7L | left7 | L7 | [Slab Poodle (Slab_07)](#slab-poodle-slab07) | R1 | clear Exit Breakable Wall Blockade IN slab poodle |  |  |  |
 | L8L | left8 | L8 | [Slab Poodle (Slab_07)](#slab-poodle-slab07) | R2 | none |  |  |  |
-| L8R | right9 | L8 | [Slab Window (Slab_12)](#slab-window-slab12) | L | Breakable Wall (from this side) |  |  |  |
+| L8R | right9 | L8 | [Slab Window (Slab_12)](#slab-window-slab12) | L | break wall right |  |  |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| L0 | L0 - L0 | L0L | L0R | ledge grab or cling grip |  |  | Naked |
+| L0 | L0 - L0 | L0L | L0R | ledge grab OR cling grip |  |  | Naked |
 | 0L1 | L0l - L1 | L0L | L1 | none |  |  | falling |
 | 0R1 | L0R - L1 | L0R | L1 | none |  |  | falling |
-| 0L1 | L0l - L1 | L1 | L0L | cling grip or silk soar |  |  | Naked |
-| 0R1 | L0R - L1 | L1 | L0R | cling grip or silk soar |  |  | Naked |
-| 2L1 | L2L - L1 | L2L | L1 | cling grip or silk soar |  |  | Naked. One way only |
-| 2R1 | L2R - L1 | L2R | L1 | cling grip or silk soar |  |  | Naked. One way only |
-| L2 | L2 - L2 | L2L | L2R | ledge grab or silk soar |  |  | Naked |
-| L2 | L2 - L2 | L2R | L2L | ledge grab or silk soar |  |  | Naked |
+| 0L1 | L0l - L1 | L1 | L0L | cling grip OR silk soar |  |  | Naked |
+| 0R1 | L0R - L1 | L1 | L0R | cling grip OR silk soar |  |  | Naked |
+| 2L1 | L2L - L1 | L2L | L1 | cling grip OR silk soar |  |  | Naked. One way only |
+| 2R1 | L2R - L1 | L2R | L1 | cling grip OR silk soar |  |  | Naked. One way only |
+| L2 | L2 - L2 | L2L | L2R | ledge grab OR silk soar |  |  | Naked |
+| L2 | L2 - L2 | L2R | L2L | ledge grab OR silk soar |  |  | Naked |
 | 2FL | L2L to L3L | L2L | L3L | none |  |  | falling |
 | 2FR | L2L to L3R | L2L | L3R | none |  |  | falling |
 | 2DL | L2R to L3L | L2R | L3L | none |  |  | falling |
 | 2DR | L2R to L3R | L2R | L3R | none |  |  | falling |
-| L3 | L3 - L3 | L3L | L3R | cling grip or silk soar or dash |  |  | Naked. When you are still naked the bridge should be closed enabling you to just walk over it but added prior transitions to still have a valid path. |
-| BR1 | Bridge1 | L3L | Key of Heretic Bridge | Key of Heretic Owned |  |  |  |
-| BR2 | Bridge2 | L3R | Key of Heretic Bridge | Key of Heretic Owned |  |  |  |
+| L3 | L3 - L3 | L3L | L3R | cling grip OR silk soar OR dash |  |  | Naked. When you are still naked the bridge should be closed enabling you to just walk over it but added prior transitions to still have a valid path. |
+| BR1 | Bridge1 | L3L | Key of Heretic Bridge | have Key of Heretic |  |  |  |
+| BR2 | Bridge2 | L3R | Key of Heretic Bridge | have Key of Heretic |  |  |  |
 | BL4 | Bridge to L4 | Key of Heretic Bridge | L4 | none |  |  | falling, one way lever |
 | 5R4 | L5R to L4 | L5R | L4 | cling grip |  |  | one way lever |
-| 5L4 | L5L to L4 | L5L | L4 | cling grip and faydown |  |  | one way lever |
-| L5 | L5 | L5L | L5R | (dash and ledge grab) or faydown or clawline or cling grip |  |  |  |
-| L5 | L5 | L5R | L5L | ledge grab or faydown or clawline or dash |  |  |  |
+| 5L4 | L5L to L4 | L5L | L4 | cling grip AND faydown |  |  | one way lever |
+| L5 | L5 | L5L | L5R | (dash AND ledge grab) OR faydown OR clawline OR cling grip |  |  |  |
+| L5 | L5 | L5R | L5L | ledge grab OR faydown OR clawline OR dash |  |  |  |
 | 5LF | L5L to L6 | L5L | L6 | none |  |  | falling |
-| 5LF | L5L to L6 | L6 | L5L | (cling grip or silk soar) and (ledge grab or faydown or clawline or dash) |  |  |  |
+| 5LF | L5L to L6 | L6 | L5L | (cling grip OR silk soar) AND (ledge grab OR faydown OR clawline OR dash) |  |  |  |
 | 5RF | L5R to L6 | L5R | L6 | none |  |  | falling |
-| 5RF | L5R to L6 | L6 | L5R | cling grip or silk soar |  |  |  |
+| 5RF | L5R to L6 | L6 | L5R | cling grip OR silk soar |  |  |  |
 | L6F | L6 to L8 | L6 | L8 | swim |  |  | L7 is non existant until opened |
 | L7F | L7 to L8 | L7 | L8 | swim |  |  | falling |
 | L7U | L7 to L6 | L7 | L6 | cling grip |  |  |  |
@@ -15702,8 +15874,8 @@ No check locations defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| H | Indolent Key | Left | Right | Indolent Key Owned |  |  | Naked |
-| H | Indolent Key | Right | Left | Indolent Key Owned |  |  |  |
+| H | Indolent Key | Left | Right | have Key of Indolent |  |  | Naked |
+| H | Indolent Key | Right | Left | have Key of Indolent |  |  |  |
 | T | Top | Right | Top | cling grip |  |  | Naked |
 | T | Top | Top | Right | none |  |  | falling |
 
@@ -15736,7 +15908,7 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Flea: The Slab - Bellway |  | (cling grip and faydown) or silk soar |  |  |  |  |
+| Flea: The Slab - Bellway |  | (cling grip AND faydown) OR silk soar |  |  | collectible |  |
 | Bellway The Slab |  | Unlock Bellway Rosary Lock |  |  | travel |  |
 | Bellway Rosary Lock |  | rosaries 40 |  |  | lock |  |
 
@@ -15752,8 +15924,8 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| D | door1 |  | [Slab Quiet Cell (Slab_Cell_Quiet)](#slab-quiet-cell-slabcellquiet) | B | (faydown and cling grip) or silk soar |  |  |  |
-| L | left1 |  | [Slab Cell (Slab_03)](#slab-cell-slab03) | L5R | Key of Heretic Owned |  |  |  |
+| D | door1 |  | [Slab Quiet Cell (Slab_Cell_Quiet)](#slab-quiet-cell-slabcellquiet) | B | (faydown AND cling grip) OR silk soar |  |  |  |
+| L | left1 |  | [Slab Cell (Slab_03)](#slab-cell-slab03) | L5R | have Key of Heretic |  |  |  |
 
 #### Subroom Connections
 
@@ -15763,8 +15935,8 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| The Slab - Left Orders |  | none |  |  |  |  |
-| The Slab - Right Orders |  | none |  |  |  |  |
+| The Slab - Left Orders |  | none |  |  | lore |  |
+| The Slab - Right Orders |  | none |  |  | lore |  |
 
 ### Slab Cavern Exit (Slab_23)
 
@@ -15789,9 +15961,9 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| H | Indolent Door | Left | Right | Indolent Key Owned |  |  |  |
-| H | Indolent Door | Right | Left | Indolent Key Owned |  |  |  |
-| V | Cavern | Cavern | Left | ledge grab or faydown or clawline or silk soar |  |  |  |
+| H | Indolent Door | Left | Right | have Key of Indolent |  |  |  |
+| H | Indolent Door | Right | Left | have Key of Indolent |  |  |  |
+| V | Cavern | Cavern | Left | ledge grab OR faydown OR clawline OR silk soar |  |  |  |
 
 #### Check Locations
 
@@ -15809,8 +15981,8 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| BL | bot1 |  | [Slab Arena (Slab_16)](#slab-arena-slab16) | T | cling grip and dash |  |  | Naked |
-| BR | bot2 |  | [Slab Shaft (Slab_21)](#slab-shaft-slab21) | T | dash and (cling grip or ledge grab) |  |  | Naked |
+| BL | bot1 |  | [Slab Arena (Slab_16)](#slab-arena-slab16) | T | cling grip AND dash |  |  | Naked |
+| BR | bot2 |  | [Slab Shaft (Slab_21)](#slab-shaft-slab21) | T | dash AND (cling grip OR ledge grab) |  |  | Naked |
 
 #### Subroom Connections
 
@@ -15820,7 +15992,7 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| The Slab - Frayed Rosary String #3 |  | cling grip and dash |  |  |  | Naked |
+| The Slab - Frayed Rosary String #3 |  | cling grip AND dash |  |  | collectible | Naked |
 
 ### Slab Entrance (Slab_02)
 
@@ -15834,7 +16006,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Slab Cell (Slab_03)](#slab-cell-slab03) | L4R | one way door (opens from this side) |  |  |  |
+| L | left1 |  | [Slab Cell (Slab_03)](#slab-cell-slab03) | L4R | activate slab entrance switch |  |  |  |
 | R | right1 |  | [Slab Bridge (Slab_01)](#slab-bridge-slab01) | L | none |  |  |  |
 
 #### Subroom Connections
@@ -15845,7 +16017,8 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| The Slab - Frayed Rosary String #1 |  | none |  |  |  |  |
+| The Slab - Frayed Rosary String #1 |  | none |  |  | collectible |  |
+| Slab Entrance Switch |  | flip switch down |  |  | switch |  |
 
 ### Slab First Sinner Antechamber (Slab_10c)
 
@@ -15870,9 +16043,9 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| The Slab - Weaver Gate Inscription |  | faydown |  |  |  |  |
-| Rune Rage |  | faydown |  |  |  |  |
-| Boss: First Sinner |  | faydown |  |  |  |  |
+| The Slab - Weaver Gate Inscription |  | faydown |  |  | lore |  |
+| Rune Rage |  | defeat Boss: First Sinner |  |  | collectible |  |
+| Boss: First Sinner |  | faydown |  |  | boss |  |
 
 ### Slab Flea Cell (Slab_Cell)
 
@@ -15896,7 +16069,7 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Flea: The Slab |  | none |  |  |  |  |
+| Flea: The Slab |  | none |  |  | collectible |  |
 
 ### Slab Flea Prison (Slab_13)
 
@@ -15911,7 +16084,7 @@ No subroom connections defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 | Secret | [Mount Fay Entrance (Peak_01)](#mount-fay-entrance-peak01) | LSR | none | TODO |  | Goes outside to Peak_01 |
+| L | left1 | Secret | [Mount Fay Entrance (Peak_01)](#mount-fay-entrance-peak01) | LSR | none |  |  |  |
 | B | bot1 | Secret | [Slab Infleatween Top (Slab_04)](#slab-infleatween-top-slab04) | T | none |  |  |  |
 | R | right1 | Top | [Slab Cell (Slab_03)](#slab-cell-slab03) | L3L | none |  |  |  |
 | D | door1 | Top | [Slab Flea Cell (Slab_Cell)](#slab-flea-cell-slabcell) | L | none |  |  |  |
@@ -15922,9 +16095,7 @@ No subroom connections defined.
 
 #### Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
-| --- | --- | --- | --- | --- | --- | --- |
-| The Slab - Spool Fragment | Secret | cling grip | TODO |  |  | Not actually in this room, but logic'ed until Peak_01 is done |
+No check locations defined.
 
 ### Slab Grindle (Slab_20)
 
@@ -15948,7 +16119,8 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| The Slab - Map Pickup |  | none |  |  |  |  |
+| The Slab - Map Pickup |  | none |  |  | collectible |  |
+| The Slab - East Bench |  | none |  |  | bench |  |
 
 ### Slab Indolent Room (Slab_14)
 
@@ -15970,13 +16142,13 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| D | Indolent Door | Left | Right | Indolent Key Owned |  |  |  |
+| D | Indolent Door | Left | Right | have Key of Indolent |  |  |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Indolent Key | Left | none |  |  |  | Not randomized |
+| Indolent Key | Left | none |  |  | collectible | Not randomized |
 
 ### Slab Infleatween Bottom (Slab_05)
 
@@ -15994,24 +16166,24 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | B | bot1 | Bottom | [Slab Bellway (Slab_06)](#slab-bellway-slab06) | T | none |  |  |  |
 | T | top1 | Top | [Slab Infleatween Top (Slab_04)](#slab-infleatween-top-slab04) | B | none |  |  |  |
-| R | right1 | Mid | [Slab Cell (Slab_03)](#slab-cell-slab03) | L5L | Key of the Apostate Owned |  |  |  |
+| R | right1 | Mid | [Slab Cell (Slab_03)](#slab-cell-slab03) | L5L | have Key of Apostate |  |  |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| V | Vertical | Mid | Top | cling grip or silk soar |  |  |  |
+| V | Vertical | Mid | Top | cling grip OR silk soar |  |  |  |
 | V | Vertical | Top | Mid | none |  |  | falling |
 | V2 | Vertical 2 | Mid | Bottom | none |  |  | falling |
-| V2 | Vertical 2 | Bottom | Mid | ledge grab or faydown or silk soar |  |  |  |
+| V2 | Vertical 2 | Bottom | Mid | ledge grab OR faydown OR silk soar |  |  |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| The Slab - Shell Shard Cache #1 | Top | none |  |  |  |  |
-| The Slab - Shell Shard Cache #2 | Top | none |  |  |  |  |
-| The Slab - Shell Shard Cache #3 | Top | none |  |  |  |  |
+| The Slab - Shell Shard Cache #1 | Top | none |  |  | collectible |  |
+| The Slab - Shell Shard Cache #2 | Top | none |  |  | collectible |  |
+| The Slab - Shell Shard Cache #3 | Top | none |  |  | collectible |  |
 
 ### Slab Infleatween Top (Slab_04)
 
@@ -16026,8 +16198,7 @@ No subrooms defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | R | right1 |  | [Slab Cell (Slab_03)](#slab-cell-slab03) | L4L | none |  |  |  |
-| T | top1 |  | [Slab Flea Prison (Slab_13)](#slab-flea-prison-slab13) | B | (cling grip and (ledge grab or dash)) or silk soar |  |  |  |
-| NI | door1 |  | TODO |  |  | TODO |  | Not implemented as far as I know |
+| T | top1 |  | [Slab Flea Prison (Slab_13)](#slab-flea-prison-slab13) | B | (cling grip AND (ledge grab OR dash)) OR silk soar |  |  |  |
 | B | bot1 |  | [Slab Infleatween Bottom (Slab_05)](#slab-infleatween-bottom-slab05) | T | none |  |  |  |
 
 #### Subroom Connections
@@ -16038,7 +16209,7 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| The Slab - Shard Bundle |  | ledge grab or cling grip or clawline or faydown |  |  |  |  |
+| The Slab - Shard Bundle |  | ledge grab OR cling grip OR clawline OR faydown |  |  | collectible |  |
 
 ### Slab Penitent Cell (Slab_Cell_Creature)
 
@@ -16074,7 +16245,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R1 | right1 |  | [Slab Cell (Slab_03)](#slab-cell-slab03) | L7L | swim and faydown and clawline and cling grip |  |  |  |
+| R1 | right1 |  | [Slab Cell (Slab_03)](#slab-cell-slab03) | L7L | swim AND faydown AND clawline AND cling grip AND clear Exit Breakable Wall Blockade |  |  |  |
 | R2 | right2 |  | [Slab Cell (Slab_03)](#slab-cell-slab03) | L8L | swim |  |  |  |
 
 #### Subroom Connections
@@ -16083,7 +16254,9 @@ No subroom connections defined.
 
 #### Check Locations
 
-No check locations defined.
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Exit Breakable Wall Blockade |  | break wall right |  |  | blockade |  |
 
 ### Slab Prelude (Slab_19b)
 
@@ -16097,8 +16270,8 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Slab Cell (Slab_03)](#slab-cell-slab03) | L6R | Key of Heretic Owned |  |  |  |
-| R | right1 |  | [Slab First Sinner Antechamber (Slab_10c)](#slab-first-sinner-antechamber-slab10c) | L | (faydown and cling grip) or silk soar |  |  |  |
+| L | left1 |  | [Slab Cell (Slab_03)](#slab-cell-slab03) | L6R | have Key of Heretic |  |  |  |
+| R | right1 |  | [Slab First Sinner Antechamber (Slab_10c)](#slab-first-sinner-antechamber-slab10c) | L | (faydown AND cling grip) OR silk soar |  |  |  |
 
 #### Subroom Connections
 
@@ -16108,11 +16281,11 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| The Slab - Rosary Chest |  | none |  |  |  |  |
-| The Slab - Rosary Cache #2 |  | none |  |  |  |  |
-| The Slab - Rosary Cache #3 |  | none |  |  |  |  |
-| The Slab - Rosary Cache #4 |  | none |  |  |  |  |
-| The Slab - Rosary Cache #5 |  | none |  |  |  |  |
+| The Slab - Rosary Chest |  | none |  |  | collectible |  |
+| The Slab - Rosary Cache #2 |  | none |  |  | collectible |  |
+| The Slab - Rosary Cache #3 |  | none |  |  | collectible |  |
+| The Slab - Rosary Cache #4 |  | none |  |  | collectible |  |
+| The Slab - Rosary Cache #5 |  | none |  |  | collectible |  |
 
 ### Slab Quiet Cell (Slab_Cell_Quiet)
 
@@ -16134,14 +16307,14 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| V | Vertical | Bottom | Top | cling grip or silk soar |  |  |  |
+| V | Vertical | Bottom | Top | cling grip OR silk soar |  |  |  |
 | V | Vertical | Top | Bottom | none |  |  |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| The Slab - Memory Locket | Top | none |  |  |  |  |
+| The Slab - Memory Locket | Top | none |  |  | collectible |  |
 
 ### Slab Secret Side Room (Slab_18)
 
@@ -16158,7 +16331,7 @@ No subroom connections defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | R | right1 | Top | [Slab Shaft (Slab_21)](#slab-shaft-slab21) | UL | none |  |  |  |
-| L | left1 | Bottom | [Slab Cell (Slab_03)](#slab-cell-slab03) | L1R | breakable wall (opens from this side) |  |  |  |
+| L | left1 | Bottom | [Slab Cell (Slab_03)](#slab-cell-slab03) | L1R | clear Breakable Wall Blockade |  |  |  |
 
 #### Subroom Connections
 
@@ -16172,10 +16345,11 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| The Slab - Shell Shard Cache #6 | Top | cling grip or (silk soar and (ledge grab or dash)) |  |  |  | Naked |
-| The Slab - Shell Shard Cache #7 | Top | cling grip or (silk soar and (ledge grab or dash)) |  |  |  | Naked |
-| The Slab - Frayed Rosary String #2 | Corpse | none |  |  |  |  |
-| The Slab - Rosary Cache #1 | Corpse | none |  |  |  |  |
+| The Slab - Shell Shard Cache #6 | Top | cling grip OR (silk soar AND (ledge grab OR dash)) |  |  | collectible | Naked |
+| The Slab - Shell Shard Cache #7 | Top | cling grip OR (silk soar AND (ledge grab OR dash)) |  |  | collectible | Naked |
+| The Slab - Frayed Rosary String #2 | Corpse | none |  |  | collectible |  |
+| The Slab - Rosary Cache #1 | Corpse | none |  |  | collectible |  |
+| Breakable Wall Blockade | Bottom | break wall left |  |  | blockade |  |
 
 ### Slab Shaft (Slab_21)
 
@@ -16192,14 +16366,14 @@ No subroom connections defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | BL | left3 | Bottom | [Slab Cavern Exit (Slab_23)](#slab-cavern-exit-slab23) | R | none |  |  | Naked. Logic accounting for not being able to do more. |
-| T | top1 | Top | [Slab Chilly Top (Slab_22)](#slab-chilly-top-slab22) | BR | cling grip or silk soar |  |  | Naked. Logic accounting for not being able to do more. |
+| T | top1 | Top | [Slab Chilly Top (Slab_22)](#slab-chilly-top-slab22) | BR | cling grip OR silk soar |  |  | Naked. Logic accounting for not being able to do more. |
 | UL | left1 | Mid | [Slab Secret Side Room (Slab_18)](#slab-secret-side-room-slab18) | R | none |  |  | Naked. Logic accounting for not being able to do more. |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| V1 | Vertical 1 | Bottom | Mid | cling grip and dash |  |  | Naked |
+| V1 | Vertical 1 | Bottom | Mid | cling grip AND dash |  |  | Naked |
 | V1 | Vertical 1 | Mid | Bottom | none |  |  | falling |
 | V2 | Vertical 2 | Mid | Top | cling grip |  |  | Naked |
 | V2 | Vertical 2 | Top | Mid | none |  |  | falling |
@@ -16220,7 +16394,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Slab Cell (Slab_03)](#slab-cell-slab03) | L0R | Key of the Apostate Owned |  |  |  |
+| L | left1 |  | [Slab Cell (Slab_03)](#slab-cell-slab03) | L0R | have Key of Apostate |  |  |  |
 
 #### Subroom Connections
 
@@ -16230,7 +16404,7 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| The Slab (Key of Apostate) - Mask Shard |  | cling grip and dash and faydown and clawline and spike pogo and drifter's cloak | TODO |  |  | Not actually tested, placeholded everything |
+| The Slab (Key of Apostate) - Mask Shard |  | cling grip AND dash AND faydown AND clawline AND spike pogo AND drifter's cloak | TODO |  | collectible | Not actually tested, placeholded everything |
 
 ### Slab Window (Slab_12)
 
@@ -16244,7 +16418,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Slab Cell (Slab_03)](#slab-cell-slab03) | L8R | none | TODO |  | There's a breakable wall on the other side and it hasn't been tested on this side |
+| L | left1 |  | [Slab Cell (Slab_03)](#slab-cell-slab03) | L8R | break wall left | TODO |  | There's a breakable wall on the other side and it hasn't been tested on this side |
 
 #### Subroom Connections
 
@@ -16254,9 +16428,9 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| The Slab - Shell Shard Cache #4 |  | swim |  |  |  |  |
-| The Slab - Shell Shard Cache #5 |  | swim |  |  |  |  |
-| Relic: Weaver Effigy (Atla, The Slab) |  | cling grip and (dash or clawline or faydown cloak) |  |  |  |  |
+| The Slab - Shell Shard Cache #4 |  | swim |  |  | collectible |  |
+| The Slab - Shell Shard Cache #5 |  | swim |  |  | collectible |  |
+| Relic: Weaver Effigy (Atla, The Slab) |  | cling grip AND (dash OR clawline OR faydown cloak) |  |  | collectible |  |
 
 ## Mount Fay
 
@@ -16291,7 +16465,7 @@ No subroom connections defined.
 | LML | left3 | Lower Middle Left Exit | [Mount Fay Shakra (Peak_02)](#mount-fay-shakra-peak02) | LMR | None |  | Verified |  |
 | UML | left2 | Upper Middle Left Exit | [Mount Fay Shakra (Peak_02)](#mount-fay-shakra-peak02) | UMR | None |  | Verified |  |
 | USR | right1 | Slab Side Room Upper | [Slab Arena (Slab_16)](#slab-arena-slab16) | L | None |  | Verified |  |
-| C1 | top1 | Upper Left Exit | [Mount Fay Right Side Middle Room (Peak_07)](#mount-fay-right-side-middle-room-peak07) | F1 | Cling Grip AND ( Clawline OR ( Faydown Cloak AND DRifters Cloak AND Dash ) OR ( Drifters Cloak AND Sharpdart AND Hard skip spike pogo AND Hard Heal Stall AND Hard Cocoon Skip ) ) |  | Verified |  |
+| C1 | top1 | Upper Left Exit | [Mount Fay Right Side Middle Room (Peak_07)](#mount-fay-right-side-middle-room-peak07) | F1 | Cling Grip AND ( Clawline OR ( Faydown Cloak AND DRifters Cloak AND Dash ) OR ( Drifters Cloak AND Sharpdart AND ( Proficient Movement AND Spike Pogo ) AND Hard Heal Stall AND Hard Cocoon Skip ) ) |  | Verified |  |
 | MSR | right2 | Slab Side Room Lower | [Slab Chilly Prison (Slab_15)](#slab-chilly-prison-slab15) | L | None |  | Verified |  |
 | LR | right4 | lower Entrance | [Slab Bellway (Slab_06)](#slab-bellway-slab06) | L | None |  | Verified |  |
 | DU | Dummy | Upper Left Exit | [Mount Fay Right Side Middle Room (Peak_07)](#mount-fay-right-side-middle-room-peak07) | F5 | Invalid |  | Verified |  |
@@ -16302,11 +16476,11 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | SL | Slab Connection | Slab Side Room Upper | Slab Side Room Lower | None |  | Verified |  |
 | SL | Slab Connection | Slab Side Room Lower | Slab Side Room Upper | Cling Grip OR Scuttlebrace OR Silk Soar |  | Verified |  |
-| LC | Lower Crossing | lower Entrance | Lower Left Exit | Silk Soar OR Clawline OR ( Faydown Cloak AND Hard skip spike pogo AND Hard Heal Stall AND Hard Cocoon Skip AND Ledge Grab ) OR ( Sharpdart AND Drifters Cloak ) |  | Verified |  |
+| LC | Lower Crossing | lower Entrance | Lower Left Exit | Silk Soar OR Clawline OR ( Faydown Cloak AND ( Proficient Movement AND Spike Pogo ) AND Hard Heal Stall AND Hard Cocoon Skip AND Ledge Grab ) OR ( Sharpdart AND Drifters Cloak ) |  | Verified |  |
 | LC | Lower Crossing | Lower Left Exit | lower Entrance | Cling Grip OR Silk Soar OR Clawline OR Faydown Cloak OR ( Dash AND ( Sprint OR Drifters Cloak OR Sharpdart OR easy Beast Crest pogo OR Medium Heal Stall ) ) |  | Verified |  |
 | LL | Lower Ledge | Lower Left Exit | Lower Middle Left Exit | Silk Soar OR ( Faydown Cloak AND ( Cling Grip OR ( Hard Heal Stall AND Scuttlebrace ) ) ) |  | Verified |  |
 | LL | Lower Ledge | Lower Middle Left Exit | Lower Left Exit | None |  | Verified |  |
-| MC | Middle Crossing | Lower Middle Left Exit | Shell Shard Ledge | ( Cling Grip AND ( ( Clawline OR Drifters Cloak OR ( Faydown Cloak AND ( Dash OR Sharpdart ) ) ) OR ( Medium Reaper Crest pogo AND Faydown Cloak AND Clawline AND Medium Skip spike pogo ) ) ) |  | Verified |  |
+| MC | Middle Crossing | Lower Middle Left Exit | Shell Shard Ledge | ( Cling Grip AND ( ( Clawline OR Drifters Cloak OR ( Faydown Cloak AND ( Dash OR Sharpdart ) ) ) OR ( Medium Reaper Crest pogo AND Faydown Cloak AND Clawline AND ( Proficient Movement AND Spike Pogo ) ) ) ) |  | Verified |  |
 | MC | Middle Crossing | Shell Shard Ledge | Lower Middle Left Exit | Clawline OR Silk Soar OR Drifters Cloak OR ( Dash AND Faydown Cloak ) |  | Verified |  |
 | SS | Silk Soar Shards | lower Entrance | Shell Shard Ledge | Silk Soar |  | Verified |  |
 | SS | Silk Soar Shards | Shell Shard Ledge | lower Entrance | None |  | Verified |  |
@@ -16323,7 +16497,7 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- |
 | Mount Fay - Shell shard cache #1 | Shell Shard Ledge | None |  | Verified | resource |  |
 | Mount Fay - Shell shard cache #2 | Shell Shard Ledge | None |  | Verified | resource |  |
-| The Slab - Spool Fragment | Slab Spool Room | cling grip OR Scuttlebrace OR Silk Soar | TODO | Needs verification | collectible | Duplicate check name for spool fragment? |
+| The Slab - Spool Fragment | Slab Spool Room | cling grip OR Scuttlebrace OR Silk Soar |  | Verified | collectible | Duplicate check name for spool fragment? |
 | Breakable Wall - Mount Fay Entrance | Upper Left Exit | None |  | Verified | blockade |  |
 
 ### Brightvein (Peak_06)
@@ -16817,7 +16991,7 @@ No subroom connections defined.
 | LS | Lower Slope | Bottom | Shell Shard Slope | Silk SOar OR ( cling Grip AND ( Faydown Cloak OR Clawline OR ( Dash AND Drifters Cloak AND Easy Reaper Crest Pogo ) ) ) |  | Verified |  |
 | LS | Lower Slope | Shell Shard Slope | Bottom | None |  | Verified |  |
 | US | Upper Slope | Pinstress Arena | Shell Shard Slope | None |  | Verified |  |
-| US | Upper Slope | Shell Shard Slope | Pinstress Arena | Faydown Cloak AND Cling Grip AND Easy Skip Spike Pogo |  | Verified |  |
+| US | Upper Slope | Shell Shard Slope | Pinstress Arena | Faydown Cloak AND Cling Grip AND  Proficient Movement  AND Spike Pogo |  | Verified |  |
 | UW | Upper Wall | Pinstress Arena | Top | Silk Soar OR ( Cling Grip AND ( ( Clawline OR Faydown Cloak ) OR ( Dash AND Drifters Cloak AND Sharpdart ) ) ) |  | Verified |  |
 | UW | Upper Wall | Top | Pinstress Arena | None |  | Verified |  |
 
@@ -16829,8 +17003,9 @@ No subroom connections defined.
 | Mount Fay - Shell Shard Cache #5 | Shell Shard Slope | None |  | Verified | resource |  |
 | Mount Fay - Shell Shard Cache #6 | Shell Shard Slope | None |  | Verified | resource |  |
 | Mount Fay - Shell Shard Cache #7 | Shell Shard Slope | None |  | Verified | resource |  |
-| Pin Badge | Pinstress Arena | Have Ability: Needle Strike AND prereq Wish: A Fatal Resolve Started |  | Verified | collectible |  |
-| Wish: A Fatal Resolve Started | Pinstress Arena | Invalid |  | Verified | event |  |
+| Pinstress Boss Fight | Pinstress Arena | complete Fatal Resolve Wish Promised IN Windy Pinstress Room OR (  complete Fatal Resolve Wish Promised IN Bellhart Wish Wall AND complete Read Pinstress Note IN Windy Pinstress Room ) | TODO |  | boss | wiki says you need to read the note if you start from the wish wall - may need to change if inaccurate |
+| Fatal Resolve Wish Granted | Pinstress Arena | defeat Pinstress Boss Fight |  | Verified | event |  |
+| Pin Badge | Pinstress Arena | complete Pinstress Boss Fight |  | Verified | collectible |  |
 
 ### Mount Fay Shakra (Peak_02)
 
@@ -16961,12 +17136,22 @@ No check locations defined.
 | Putrified Ducts - Shell Shard Cache #11 | Upper Ledge | Faydown Cloak OR Clawline OR ( Sprint AND Dash ) OR SharpDart |  | Verified | resource |  |
 | Putrified Ducts - Shell Shard Cache #8 | Fleatopia | Silk Soar |  | Verified | resource |  |
 | Putrified Ducts - White Lake Waver Sign | Fleatopia | Needolin |  | Verified | lore | Missable / no check |
-| Wish: Passing Of The Age | The Herald | ACT 3 AND Needolin AND ( "Ruined Chapel" In Logic AND "Bone Bottom Town" In Logic AND "Far Fields Skull Room East" In Logic AND "Greymoor_06, Top Area" In Logic AND "Slab First Sinner Antechamber" In Logic AND "Peak_08. Faythorn" In Logic AND "Path Of Pain SilkSong, Top" In Logic ) |  | Verified | event | Need room and subroom name from greymoor and the room and subroom from mount fay |
-| Wish: Ecstasy of the end | Fleatopia | ACT 3 AND Beat all 3 highscores in the festival minigames |  | Verified | event |  |
-| Gaurdians Memento | Fleatopia | ACT 3 AND Nyleth Defeated AND ( Crust King Khan Defeated OR Karmelita Defeated OR Clover Dancers Defeated ) AND "Greymoor_02" In Logic AND "Shellwood Flower Pogo Upper Hall" In logic AND "Grand Bridge" In Logic AND Beat All of Seths Highscores in Festival |  | Verified | collectible |  |
-| Pale Oil | Fleatopia | Prereq Wish: Ecstasy of the end |  | Verified | collectible |  |
-| Egg of Flealia | Fleatopia | fleas 30 |  | Verified | collectible | All fleas |
+| Wish: Passing Of The Age | The Herald | ACT 3 AND Needolin AND ( "Ruined Chapel" In Logic AND "Bone Bottom Town" In Logic AND "Far Fields Skull Room East" In Logic AND "Greymoor_06, Top Area" In Logic AND "Slab First Sinner Antechamber" In Logic AND "Peak_08. Faythorn" In Logic AND "Path Of Pain SilkSong, Top" In Logic ) | TODO |  | event | Need room and subroom name from greymoor and the room and subroom from mount fay |
+| Ecstasy of the End Wish Promised | Fleatopia | act 3 AND after THE flea caravan move to fleatopia AND silk soar AND fleas 30 |  | Verified | event | one of two places to accept this wish  spreadsheet flag is vague, so using wiki requirements |
+| Ecstasy of the End Wish Granted | Fleatopia | complete Ecstasy of the End Wish Promised AND complete Flea Juggle High Score AND complete Flea Dodge High Score AND after Flea Bounce High Score |  | Verified | event |  |
+| Pale Oil | Fleatopia | complete Ecstasy of the End Wish Granted |  | Verified | collectible |  |
 | Fleatopia - Tool Pouch | Fleatopia | fleas 22 |  | Verified | collectible |  |
+| Egg of Flealia | Fleatopia | fleas 30 |  | Verified | collectible | All fleas |
+| Reached Pale Lake | Fleatopia | none |  | Verified | logic-point |  |
+| Festival of the Flea | Fleatopia | complete Ecstasy of the End Wish Promised |  | Verified | logic-point |  |
+| Flea Juggle High Score | Fleatopia | after Festival of the Flea |  | Verified | event | these probably need movement requirements |
+| Flea Dodge High Score | Fleatopia | after Festival of the Flea |  | Verified | event | these probably need movement requirements |
+| Flea Bounce High Score | Fleatopia | after Festival of the Flea |  | Verified | event | these probably need movement requirements |
+| Seth Joins Festival of the Flea | Fleatopia | after THE Seth Move to Fleatopia  ACT 3  AND Defeat THE Boss Nyleth  AND ( Defeat THE Boss Crust King Khan OR Defeat THE Boss Karmelita OR Defeat THE Boss Clover Dancers )  AND "Greymoor_02" In Logic  AND "Shellwood Flower Pogo Upper Hall" In logic  AND "Grand Bridge" In Logic  AND after Ecstasy of the End Wish Granted | TODO |  | logic-point |  |
+| Flea Juggle Beat Seth Score | Fleatopia | after Seth Joins Festival of the Flea |  | Verified | event | these probably need movement requirements |
+| Flea Dodge Beat Seth Score | Fleatopia | after Seth Joins Festival of the Flea |  | Verified | event | these probably need movement requirements |
+| Flea Bounce Beat Seth Score | Fleatopia | after Seth Joins Festival of the Flea |  | Verified | event | these probably need movement requirements |
+| Gaurdians Memento | Fleatopia | complete Flea Juggle Beat Seth Score AND complete Flea Dodge Beat Seth Score AND after Flea Bounce Beat Seth Score |  | Verified | collectible |  |
 
 ### Huntress (Room_Huntress)
 
@@ -17114,7 +17299,7 @@ No subroom connections defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | R | right1 | Exit | [Putrified Ducts Tall Room (Aqueduct_02)](#putrified-ducts-tall-room-aqueduct02) | UL | None |  | Verified |  |
-| L | left1 | Entrance | [Shopkeeper hides (Arborium_11)](#shopkeeper-hides-arborium11) | R | None | TODO | Verified | Memorium has not been done yet |
+| L | left1 | Entrance | [Shopkeeper hides (Arborium_11)](#shopkeeper-hides-arborium11) | R | None |  | Verified |  |
 
 #### Subroom Connections
 
@@ -17794,7 +17979,7 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Lore: Abyss #3 |  | ( Faydown Cloak AND ( easy Reaper Crest pogo OR Cling Grip ) ) OR ( Silk Soar AND ( ( Easy Skip spike pogo AND Ledge grab ) OR Cling Grip OR Clawline OR Scuttlebrace )  ) |  | Verified | lore |  |
+| Lore: Abyss #3 |  | ( Faydown Cloak AND ( easy Reaper Crest pogo OR Cling Grip ) ) OR ( Silk Soar AND ( ( ( Proficient Movement AND spike pogo ) AND Ledge grab ) OR Cling Grip OR Clawline OR Scuttlebrace )  ) |  | Verified | lore |  |
 
 ### Abyss Collapsing Hallway (Abyss_07)
 
@@ -17926,7 +18111,7 @@ No check locations defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| TE | The Escape | Start | End | ( Silk Soar AND Drifters Cloak AND Cling Grip AND Faydown Cloak AND ( Easy Skip spike pogo OR Clawline ) ) |  | Verified | One way |
+| TE | The Escape | Start | End | ( Silk Soar AND Drifters Cloak AND Cling Grip AND Faydown Cloak AND ( ( Proficient Movement AND spike pogo ) OR Clawline ) ) |  | Verified | One way |
 
 #### Check Locations
 
@@ -18015,8 +18200,8 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| WR | Whole Room | Left Exit | Right Exit | Clawline OR Faydown Cloak OR Cling Grip OR ( Medium skip spike pogo AND Drifters Cloak ) OR Dash OR easy Reaper Crest pogo OR easy Beast Crest pogo OR easy Shaman Crest pogo |  | Verified |  |
-| WR | Whole Room | Right Exit | Left Exit | Clawline OR Faydown Cloak OR Cling Grip OR ( Medium skip spike pogo AND Drifters Cloak ) OR Dash OR easy Reaper Crest pogo OR easy Beast Crest pogo OR easy Shaman Crest pogo |  | Verified |  |
+| WR | Whole Room | Left Exit | Right Exit | Clawline OR Faydown Cloak OR Cling Grip OR ( ( Proficient Movement AND spike pogo ) AND Drifters Cloak ) OR Dash OR easy Reaper Crest pogo OR easy Beast Crest pogo OR easy Shaman Crest pogo |  | Verified |  |
+| WR | Whole Room | Right Exit | Left Exit | Clawline OR Faydown Cloak OR Cling Grip OR ( ( Proficient Movement AND spike pogo ) AND Drifters Cloak ) OR Dash OR easy Reaper Crest pogo OR easy Beast Crest pogo OR easy Shaman Crest pogo |  | Verified |  |
 
 #### Check Locations
 
@@ -18040,7 +18225,7 @@ No check locations defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | UL | left2 | Upper Exit | [Abyss Escape Hallway (Abyss_13)](#abyss-escape-hallway-abyss13) | R | None |  | Verified |  |
-| D1 | door1 | Landing Zone | [Abyss Diving Bell Broken (Room_Diving_Bell_Abyss)](#abyss-diving-bell-broken-roomdivingbellabyss) | L | Does Not have Everbloom OR Silksoar | TODO | Verified | What tf are we doing with this thinggg |
+| D1 | door1 | Landing Zone | [Abyss Diving Bell Broken (Room_Diving_Bell_Abyss)](#abyss-diving-bell-broken-roomdivingbellabyss) | L | invalid |  | Verified | logic always keeps the bell fixed |
 | D2 | door2 | Landing Zone | [Abyss Diving Bell Fixed (Room_Diving_Bell_Abyss_Fixed)](#abyss-diving-bell-fixed-roomdivingbellabyssfixed) | L | Have Everbloom |  | Verified |  |
 | LL | left1 | Lower Exit | [Abyss Hallway To Upper Big Room (Abyss_02)](#abyss-hallway-to-upper-big-room-abyss02) | R | None |  | Verified |  |
 
@@ -18133,10 +18318,10 @@ No check locations defined.
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | SS | Silk Soar | Bottom | Top | Silk Soar |  | Verified |  |
 | SS | Silk Soar | Top | Bottom | None |  | Verified |  |
-| US | Upper Spikes | Top | Spike Platform | Easy Skip spike pogo OR ( Drifters Cloak OR Clawline ) |  | Verified |  |
-| US | Upper Spikes | Spike Platform | Top | Cling Grip AND ( Easy Skip spike pogo OR Clawline ) |  | Verified |  |
-| LS | Lower Spikes | Bottom | Spike Platform | Silk Soar AND ( Easy Skip spike pogo OR Drifters Cloak OR Clawline ) |  | Verified |  |
-| LS | Lower Spikes | Spike Platform | Bottom | Easy Skip spike pogo OR ( Drifters Cloak OR Clawline ) |  | Verified |  |
+| US | Upper Spikes | Top | Spike Platform | ( Proficient Movement AND spike pogo ) OR ( Drifters Cloak OR Clawline ) |  | Verified |  |
+| US | Upper Spikes | Spike Platform | Top | Cling Grip AND ( ( Proficient Movement AND spike pogo ) OR Clawline ) |  | Verified |  |
+| LS | Lower Spikes | Bottom | Spike Platform | Silk Soar AND ( ( Proficient Movement AND spike pogo ) OR Drifters Cloak OR Clawline ) |  | Verified |  |
+| LS | Lower Spikes | Spike Platform | Bottom | ( Proficient Movement AND spike pogo ) OR ( Drifters Cloak OR Clawline ) |  | Verified |  |
 
 #### Check Locations
 
@@ -18201,7 +18386,7 @@ No check locations defined.
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | WR | Whole Room | Start | End | Clawline AND Cling Grip AND Faydown Cloak |  | Verified |  |
 | EX | Exit | End | Start | ( Cling Grip AND ( Faydown Cloak OR Clawline ) ) |  | Verified |  |
-| EX | Exit | Start | End | Silk Soar AND Easy Skip spike pogo |  | Verified |  |
+| EX | Exit | Start | End | Silk Soar AND ( Proficient Movement AND spike pogo ) |  | Verified |  |
 | SP | Spikes | Entrance | Start | Sprint OR Dash OR Clawline OR Sharpdart OR Drifters Cloak OR Faydown Cloak |  | Verified |  |
 | SP | Spikes | Start | Entrance | None |  | Verified |  |
 
@@ -18372,6 +18557,35 @@ No check locations defined.
 
 a virtual room to represent the ventrica fast travel menu
 
+### Slab Capture
+
+**Contributors:** herounit
+
+#### Subrooms
+
+No subrooms defined.
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| CG | cage |  | [Slab Cell (Slab_03)](#slab-cell-slab03) | CPT | none |  | Verified |  |
+| DD | deep docks |  | ["Deep Docks" March Side Room (Bone_East_04c)](#deep-docks-march-side-room-boneeast04c) | SC | invalid |  | Verified | one-way to prevent logic traversal bleed |
+| BW | bilewater |  | [Bilewater Lower East Hall Secret (Shadow_21)](#bilewater-lower-east-hall-secret-shadow21) | SC | invalid |  | Verified | one-way to prevent logic traversal bleed |
+| GM | greymoor |  | [Greymoor Towers Patio (Greymoor_05)](#greymoor-towers-patio-greymoor05) | SC | invalid |  | Verified | one-way to prevent logic traversal bleed |
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+No check locations defined.
+
+#### Notes
+
+A virtual room to represent being captured by a wardenfly cage and transported to The Slab.
+
 ## Wish Menus
 
 ### Bone Bottom Wish Wall
@@ -18398,20 +18612,24 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- |
 | the lost fleas wish promised |  | none |  | Verified | event | also promised/granted at the flea caravan |
 | berry picking wish promised |  | none |  | Verified | event | granted at the moss druid |
-| garb of the pilgrims wish promised |  | ( act 1 OR act 2 ) AND  defeat THE bell beast boss fight | TODO |  | event | spreadsheet says "always available" and wiki says "defeat the bell beast"  which is it? |
+| garb of the pilgrims wish promised |  | act 1 OR act 2 |  | Verified | event |  |
 | garb of the pilgrims wish granted |  | complete garb of the pilgrims wish promised  AND pilgrim shawls 12 |  | Verified | event | reward is 120 rosary necklace |
 | volatile flintbeetles wish promised |  | ( act 1 OR act 2 ) AND  ( visit greymoor  OR visit shellwood ) |  | Verified | event | new predicate for reaching a zone, woo |
 | volatile flintbeetles wish granted |  | complete volatile flintbeetles wish promised AND flintgems 3 |  | Verified | event |  |
 | volatile flintbeetles memory locket |  | complete volatile flintbeetles wish granted |  | Verified | collectible |  |
 | the terrible tyrant wish promised |  | ( act 1 OR act 2 ) AND  have cling grip |  | Verified | event | granted at the marrow boss arena |
 | the terrible tyrant wish granted |  | complete the terrible tyrant wish promised AND have crown fragment |  | Verified | event | reward is 220 rosary necklace |
-| bone bottom repairs wish promised |  | ( act 1 OR act 2 ) AND  defeat THE bell beast boss fight | TODO |  | event | spreadsheet says "always available" and wiki says "defeat the bell beast"  which is it? |
+| bone bottom repairs wish promised |  | act 1 OR act 2 |  | Verified | event |  |
 | bone bottom repairs wish granted |  | complete bone bottom repairs wish promised AND shell shards 200 |  | Verified | event | reward is self-satisfaction (and unlocking other wishes) |
 | a lifesaving bridge wish promised |  | ( act 1 OR act 2 ) AND  complete bone bottom repairs wish granted AND ( defeat THE boss widow  OR visit greymoor ) |  | Verified | event |  |
 | a lifesaving bridge wish granted |  | complete a lifesaving bridge wish promised AND shell shards 300 |  | Verified | event | reward is a breakable bridge |
 | an icon of hope wish promised |  | ( act 1 OR act 2 ) AND  complete a lifesaving bridge wish granted AND ( visit the citadel ) |  | Verified | event |  |
 | an icon of hope wish granted |  | complete an icon of hope wish promised AND shell shards 440 |  | Verified | event | reward is hornet statuette AND flick breakable statue |
 | hornet statuette |  | complete an icon of hope wish granted |  | Verified | collectible |  |
+
+#### Notes
+
+Access to the Wish Wall (and this virtual room) is gated by defeating Bell Beast. All wishes below therefore have that as a prerequisite.
 
 ### Bellhart Wish Wall
 
@@ -18435,7 +18653,36 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
+| pinmasters oil wish promised |  | none |  | Verified | event | reward is needle upgrade  granted at pimaster plinney's shop |
+| my missing courier wish promised |  | none |  | Verified | event |  |
+| silver bells wish promised |  | none |  | Verified | event |  |
+| silver bells wish granted |  | complete silver bells wish promised AND Silver Bells 8 |  | Verified | event | reward is a rosary necklace |
+| crawbug clearing wish promised |  | none |  | Verified | event | can be started here or with creige directly |
+| restoration of bellhart wish promised |  | needle upgrades 1 AND sold relics 1 |  | Verified | event | spreadsheet says requirements are: - nail upgrades > 0 - sold relics > 0 - pavo conversation > 0 + time passed |
+| restoration of bellhart wish granted |  | complete restoration of bellhart wish promised AND rosaries 250 |  | Verified | event | reward is self-satisfaction, I guess? |
+| my missing brother wish promised |  | complete THE My Missing Courier Wish Granted AND ( complete THE Great Taste Of Pharloom Wish Promised OR complete Meet the Caretaker IN Songclave ) |  | Verified | event |  |
 | trails end wish promised |  | shakra map purchases 14 AND have faydown cloak  AND ( defeat THE boss groal the great OR threefold melody parts 2 ) |  | Verified | event | Must have purchased all Shakra maps, own at least two of the threefold melody parts or defeat groal the great |
+| silk and soul wish promised |  | after silk and soul wish promised IN songclave wish wall |  | Verified | event | usually wouldn't do it this way, because this makes it look like you need to go songclave to collect this wish (technically true), but this wish req is a pain  not even sure it should be on here from a logic perspective |
+| savage beastfly wish promised |  | defeat THE savage beastfly boss fight AND defeat THE fourth chorus boss fight AND complete THE reach songclave |  | Verified | event | spreadsheet says requirements are: - defeat savage beastfly - defeated fourth chorus - visited songclave |
+| savage beastfly wish granted |  | complete savage beastfly wish promised AND have horn fragment |  | Verified | event | reward is a mask shard |
+| Savage Beastfly - Mask Shard |  | complete savage beastfly wish granted |  | Verified | collectible |  |
+| bellharts glory wish promised |  | complete restoration of bellhart wish granted AND ( defeat THE cogwork dancers boss fight OR have clawline OR complete THE reach songclave ) |  | Needs verification | event | Spreadsheet flags are vague, so rolling with the wiki requirements for a bit  "datamining gem" spreadsheet says that requirements are: - quest completed: Belltown House Start  - BelltownHouseState == 1  - citadelHalfwayComplete == true  "player anecdote coal" wiki says that requirements are: - restore bellhart - cogwork dancers or clawline or songclave |
+| bellharts glory wish granted |  | complete restoration of bellhart wish promised AND rosaries 400 |  | Verified | event | reward is bellhome key |
+| Bellhome Key |  | complete bellharts glory wish granted |  | Verified | collectible |  |
+| fatal resolve wish promised |  | act 3 AND have silk soar AND have needle strike |  | Verified | event | one of two locations to start the wish - wiki says you need to swing by the hut first if you accept here |
+| heros call wish promised |  | ( garmond and zaza encounters 3 OR have everbloom ) |  | Needs verification | event | spreadsheet has single quest ready flag, so using wiki as source  they have 9 locations where they spawn, will map them later - hero, 9/26 |
+| dark hearts wish promised |  | act 3 |  | Needs verification | event | actual flag is quest completed: Black Thread Pt1 Shamans? |
+| dark hearts wish granted |  | destroy void masses 12 |  | Verified | event | this one is going to take a LOT of time to map properly - there are 47 void masses (45 in steel soul) locations per the wiki |
+| Dark Hearts - Mask Shard |  | complete dark hearts wish granted |  | Verified | collectible |  |
+| the hidden hunter wish promised |  | complete THE meet karmelita |  | Verified | event |  |
+| the hidden hunter wish granted |  | have grass doll |  | Verified | event |  |
+| The Hidden Hunter - Mask Shard |  | complete the hidden hunter wish granted |  | Verified | collectible |  |
+| fastest in pharloom wish promised |  | have silk soar |  | Verified | event | one of two places to accept this wish |
+| ecstasy of the end wish promised |  | act 3 AND after THE flea caravan move to fleatopia AND silk soar AND fleas 30 |  | Verified | event | one of two places to accept this wish  spreadsheet flag is vague, so using wiki requirements |
+
+#### Notes
+
+Access to the Wish Wall (and this virtual room) is gated by defeating Widow. All wishes below therefore have that as a prerequisite.
 
 ### Bellhart Deliveries
 
@@ -18457,7 +18704,17 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| survivors camp supplies wish promised |  | act 3 |  | Verified | event | doesn't seem to require having saved the couriers? might cause problems later, because this room is locked behind that requirement, teehee |
+| bone bottom supplies wish promised |  | act 1 OR act 2 |  | Verified | event |  |
+| pilgrims rest supplies wish promised |  | act 1 OR act 2 |  | Verified | event |  |
+| queens egg wish promised |  | after THE styx grew first grub |  | Verified | event | per the spreadsheet |
+| songclave supplies wish promised |  | act 3 OR complete THE meet the caretaker |  | Verified | event | per the spreadsheet: (enclaveLevel > 0 AND soulSnareReady == false) OR (blackThreadWorld == true)) |
+| liquid lacquer wish promised |  | have faydown AND after THE Play Threefold Melody |  | Verified | event |  |
+| fleatopia supplies wish promised |  | after THE flea caravan move to fleatopia |  | Verified | event |  |
+| survivors camp wish supplies |  | act 3 |  | Verified | event | doesn't seem to require having saved the couriers? might cause problems later, because this room is locked behind that requirement, teehee |
+
+#### Notes
+
+Access to the Delivery Wishes (and this virtual room) is gated by rescuing Tipp & Phil. All wishes below therefore have that as a prerequisite.
 
 ### Songclave Wish Wall
 
@@ -18479,4 +18736,25 @@ No subroom connections defined.
 
 #### Check Locations
 
-No check locations defined.
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| building up songclave wish promised |  | act 2 |  |  | event |  |
+| building up songclave wish granted |  | complete building up songclave wish promised AND rosaries 300 |  | Verified | event |  |
+| strengthening songclave wish promised |  | act 2 AND complete building up songclave wish granted AND grant songclave wishes 4 |  | Needs verification | event | "datamining gem" spreadsheet says that requirements are: - quest completed: Songclave Donation 1  - (enclaveLevel > 1 AND enclaveDonation2_Available == true)  "player anecdote coal" wiki says that requirements are: - complete building up songclave - complete 3 other wishes (4 counting building up songclave) |
+| strengthening songclave wish granted |  | complete strengthening songclave wish promised AND rosaries 500 |  | Verified | event |  |
+| balm for the wounded wish promised |  | act 2 AND complete THE building up songclave wish granted AND grant songclave wishes 2 AND visit whiteward |  | Needs verification | event | granted in whiteward; rewards spool fragment  "datamining gem" spreadsheet says that requirements are: - shermaQuestActive == true  "player anecdote coal" wiki says that requirements are: - meet sherma within songclave, which requires building up songclave wish, and one other wish - visit the whiteward |
+| the wandering merchant wish promised |  | act 2 |  |  | event | granted in choral chambers merchant room; reward is jubilana setting up shop  "datamining gem" spreadsheet says that requirements are: - always  "player anecdote coal" wiki says that requirements are: - discover songclave |
+| the lost merchant wish promised |  | act 2 AND complete THE the wandering merchant wish granted AND grant songclave wishes 5 AND have faydown cloak |  | Needs verification | event | granted in memorium shopkeeper hides; reward is more shop inventory  "datamining gem" spreadsheet says that requirements are: - quest completed: Save City Merchant - cityMerchantCanLeaveForBridge == true  "player anecdote coal" wiki says that requirements are: - complete the wandering merchant wish - complete 5 total songclave wishes (including the above) - speak to jubilana - faydown cloak |
+| fine pins wish promised |  | none |  | Needs verification | event | unsure if limited to act 2  "datamining gem" spreadsheet says that requirements are: - always  "player anecdote coal" wiki says that requirements are: - ring the bell in the first shrine |
+| fine pins wish granted |  | complete THE fine pins wish promised AND fine pins 12 |  | Verified | event | reward is heavy rosary necklace |
+| cloaks of the choir wish promised |  | complete building up songclave wish granted AND complete fine pins wish granted |  | Needs verification | event | unsure if limited to act 2  "datamining gem" spreadsheet says that requirements are: - quest completed: Fine Pins - enclaveLevel > 1  "player anecdote coal" wiki says that requirements are: - building up songclave wish - fine pins wish granted |
+| cloaks of the choir wish granted |  | complete THE cloaks of the choir wish promised AND choir cloaks 16 |  | Verified | event | reward is heavy rosary necklace |
+| the wailing mother wish promised |  | act 2 AND defeat gauntlet fight IN slab arena AND complete building up songclave wish granted AND grant songclave wishes 5 |  |  | event | unsure if limited to act 2  "datamining gem" spreadsheet says that requirements are: - slab_cloak_battle_completed == true  - enclaveLevel > 2  "player anecdote coal" wiki says that requirements are: - Visit slab arena room - complete building up songclave wish - complete 5 total songclave wishes (including the above) |
+| the wailing mother wish granted |  | complete the wailing mother wish promised AND have broodmothers eye |  | Verified | event | reward is heavy rosary necklace |
+| final audience wish promised |  | activate THE second sentinel activation AND have conductors melody AND ( second sentinel encounters 2 OR ( have everbloom AND second sentinel encounters 1 )  ) AND complete THE building up songclave wish granted AND   complete THE balm for the wounded wish granted AND grant songclave wishes 2 |  | Needs verification | event | "datamining gem" spreadsheet says that requirements are: - songChevalierQuestReady == true  "player anecdote coal" wiki says that requirements are: - activating second sentinel - meet second sentinel twice in citadel OR once if have everbloom - have conductor's melody - complete two wishes in songclave, one of which should be building up songclave  without further datamining insight, i'll roll with the wiki requirements |
+| silk and soul wish promised |  | act 2 AND have faydown cloak AND defeat THE boss lace 2 AND complete THE flea caravan move to fleatopia AND complete THE flexible spines wish granted AND complete THE bone bottom repairs wish granted AND complete THE a lifesaving bridge wish granted AND complete THE crawbug clearing wish granted AND complete THE restoration of bellhart wish granted AND complete THE bellharts glory wish granted AND complete THE building up songclave wish granted AND complete THE strengthening songclave wish granted AND complete THE trails end wish granted AND complete THE balm for the wounded wish granted AND silk and soul points 17 |  |  | event | LOL  per the spreadsheet for required wishes  spreadsheet also has a requirement to talk to pavo under BelltownGreeterHouseFullDlg - not sure how to represent that  sadly "silk and soul points 17" is load-bearing here |
+| pain anguish and misery wish promised |  | have silksoar AND have progressive claw mirror |  |  | event | reward is dark mirror (progressive claw mirror) and is granted in the stage  act 3 is implicit in vanilla because of silksoar, but not explicitly enforced. in theory could you get this quest before defeating trobbio 1?  "datamining gem" spreadsheet says that requirements are: - tool "dazzle bind" (claw mirror?) - silksoar  "player anecdote coal" wiki says that requirements are: - claw mirror - silksoar |
+
+#### Notes
+
+Access to the Wish Wall (and this virtual room) is gated by activating the Songclave Bellshrine and meeting the Caretaker. All wishes below therefore have that as a prerequisite.

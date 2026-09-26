@@ -52,7 +52,7 @@
 | UR | upper right | lone crow platform | bridge right section | none (fall) |  | Verified |  |
 | G2 | gap 2 | lone crow platform | upper crow nest | silk soar OR faydown cloak OR hard enemy pogo OR clawline OR sharpdart OR progressive swift step 2 OR drifters cloak |  | Verified |  |
 | G2 | gap 2 | upper crow nest | lone crow platform | nothing |  | Verified |  |
-| S1 | shaft 1 | upper crow nest | top right | silk soar OR (cling grip AND (easy skip spike pogo OR progressive swift step 1 OR clawline OR sharpdart OR drifters cloak OR medium enemy pogo )) |  | Verified |  |
+| S1 | shaft 1 | upper crow nest | top right | silk soar OR (cling grip AND ((proficient movement AND spike pogo) OR progressive swift step 1 OR clawline OR sharpdart OR drifters cloak OR medium enemy pogo )) |  | Verified |  |
 | S1 | shaft 1 | top right | upper crow nest | nada |  | Verified |  |
 | PG1 | platform gap | upper crow nest | top left | silk soar OR faydown cloak OR hard enemy pogo |  | Verified |  |
 | PG1 | platform gap | top left | upper crow nest | nothing |  | Verified |  |

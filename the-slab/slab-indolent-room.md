@@ -18,10 +18,10 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| D | Indolent Door | Left | Right | Indolent Key Owned |  |  |  |
+| D | Indolent Door | Left | Right | have Key of Indolent |  |  |  |
 
 ## Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Indolent Key | Left | none |  |  |  | Not randomized |
+| Indolent Key | Left | none |  |  | collectible | Not randomized |

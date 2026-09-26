@@ -22,5 +22,5 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Wispfire Lantern |  | faydown cloak | TODO |  |  | You can defeat the boss naked... but maybe something is "recommended" |
-| Boss: Father of the Flame |  | faydown cloak | TODO |  |  | You can defeat the boss naked... but maybe something is "recommended" |
+| Wispfire Lantern |  | faydown cloak | TODO |  | collectible | You can defeat the boss naked... but maybe something is "recommended" |
+| Boss: Father of the Flame |  | faydown cloak | TODO |  | boss | You can defeat the boss naked... but maybe something is "recommended" |

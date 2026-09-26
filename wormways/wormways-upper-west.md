@@ -10,13 +10,14 @@
 - plasmium alcove
 - weavenest landing
 - main tunnel lower
+- right exit area
 
 ## Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | F | floor | main tunnel lower | [Wormways Middle (Crawl_03b)](wormways-middle.md) | C | none |  | Verified |  |
-| R | right | main area upper | [Wormways Shaft (Crawl_02)](wormways-shaft.md) | UL | ledge grab OR faydown cloak OR cling grip OR silk soar OR easy shaman pogo OR scuttlebrace |  | Verified |  |
+| R | right | main area upper | [Wormways Shaft (Crawl_02)](wormways-shaft.md) | UL | clear shaft wall blockade |  | Verified |  |
 | C | ceiling | main area upper | [Wormways Laboratory (Crawl_08)](wormways-laboratory.md) | F | silk soar OR cling grip OR scuttlebrace |  | Verified |  |
 | WD | weaver door | weavenest landing | [Wormways Weavenest (Crawl_05)](wormways-weavenest.md) | WD | needolin |  | Verified |  |
 
@@ -32,13 +33,15 @@
 | CL | lower climb | plasmium alcove | main tunnel lower | none (falling) |  | Verified |  |
 | MS | main tunnel shaft | main tunnel lower | main area upper | ledge grab OR cling grip OR scuttlebrace OR faydown cloak OR easy enemy pogo |  | Verified |  |
 | MS | main tunnel shaft | main area upper | main tunnel lower | none (falling) |  | Verified |  |
+| RA | right ascend | main area upper | right exit area | ledge grab OR faydown cloak OR cling grip OR silk soar OR easy shaman pogo OR scuttlebrace |  | Verified |  |
+| RA | right ascend | right exit area | main area upper | none (falling) |  | Verified |  |
 
 ## Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | plasmium bud upper west | plasmium alcove | complete THE alchemist's assistant wish promised  AND needle phial |  | Verified | collectible |  |
-| shaft wall | main area upper | needle {right} |  | Verified | blockade |  |
+| shaft wall blockade | main area upper | break wall right |  | Verified | blockade |  |
 | plasmid lower | main tunnel lower | act 3 |  | Verified | enemy | there are two spawn points in this subroom |
 | plasmified blood lower | main tunnel lower | needle phial  AND defeat plasmid lower |  | Verified | resource |  |
 | plasmid upper | main area upper | act 3 |  | Verified | enemy |  |

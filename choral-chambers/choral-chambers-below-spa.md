@@ -20,9 +20,11 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| H | Horizontal | Right | Left | cling grip or silk soar |  |  |  |
-| H | Horizontal | Left | Right | ledge grab or faydown cloak or silk soar |  |  |  |
+| H | Horizontal | Right | Left | cling grip OR silk soar |  |  |  |
+| H | Horizontal | Left | Right | ledge grab OR faydown cloak OR silk soar |  |  |  |
 
 ## Check Locations
 
-No check locations defined.
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Second Sentinel Encounter | Right | Act 3 AND  complete THE Second Sentinel Activation | TODO | Needs verification | event | Random. Need to verify it is on this side |

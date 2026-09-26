@@ -20,11 +20,11 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| V | Vertical | Bottom | Top | cling grip and (spike pogo or (faydown cloak and clawline)) |  |  |  |
-| V | Vertical | Top | Bottom | spike pogo or drifter's cloak |  |  |  |
+| V | Vertical | Bottom | Top | cling grip AND (spike pogo OR (faydown cloak AND clawline)) |  |  |  |
+| V | Vertical | Top | Bottom | spike pogo OR drifter's cloak |  |  |  |
 
 ## Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Craftmetal: Wisp Thicket | Top | none |  |  |  |  |
+| Craftmetal: Wisp Thicket | Top | none |  |  | collectible |  |

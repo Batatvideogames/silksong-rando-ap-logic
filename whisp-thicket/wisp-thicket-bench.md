@@ -24,13 +24,16 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| L1 | Left to Bench | Left | Bench | clawline or dash or spike pogo or drifter's cloak or faydown cloak |  |  |  |
-| L2 | Left to Bottom | Left | Bottom | spike pogo or drifter's cloak or clawline or dash |  |  |  |
-| B1 | Bench to Left | Bench | Left | (dash and ledge grab) or faydown cloak or clawline |  |  |  |
-| B2 | Bench to Bottom | Bench | Bottom | drifter's cloak or spike pogo or clawline or dash |  |  |  |
-| V1 | Bottom to Bench | Bottom | Bench | spike pogo or (faydown cloak and clawline) |  |  |  |
-| V2 | Bottom to Left | Bottom | Left | spike pogo and (ledge grab or faydown cloak or clawline) |  |  |  |
+| L1 | Left to Bench | Left | Bench | clawline OR dash OR spike pogo OR drifter's cloak OR faydown cloak |  |  |  |
+| L2 | Left to Bottom | Left | Bottom | spike pogo OR drifter's cloak OR clawline OR dash |  |  |  |
+| B1 | Bench to Left | Bench | Left | (dash AND ledge grab) OR faydown cloak OR clawline |  |  |  |
+| B2 | Bench to Bottom | Bench | Bottom | drifter's cloak OR spike pogo OR clawline OR dash |  |  |  |
+| V1 | Bottom to Bench | Bottom | Bench | spike pogo OR (faydown cloak AND clawline) |  |  |  |
+| V2 | Bottom to Left | Bottom | Left | spike pogo AND (ledge grab OR faydown cloak OR clawline) |  |  |  |
 
 ## Check Locations
 
-No check locations defined.
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Bench | Bench | none |  | Verified | bench |  |
+| Craw Summons | Bench | Craw Summons Ready |  | Verified | collectible |  |

@@ -22,4 +22,5 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Silkeater: Choral Chambers West |  | spike pogo or dash or clawline or faydown cloak or sharpdart or drifer's cloak or cling grip |  | Verified |  |  |
+| Silkeater: Choral Chambers West |  | spike pogo OR dash OR clawline OR faydown cloak OR sharpdart OR drifter's cloak OR cling grip |  | Verified | collectible |  |
+| Second Sentinel Encounter |  | Act 3  AND complete THE Second Sentinel Activation | TODO | Needs verification | event | need to verify this is the room the wiki is referring to |

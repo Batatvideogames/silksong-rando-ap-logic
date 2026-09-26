@@ -22,4 +22,6 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Rosary Cache: Choral Chambers #10 |  | cling grip |  | Verified |  |  |
+| Rosary Cache: Choral Chambers #10 |  | cling grip |  | Verified | collectible |  |
+| The Wandering Merchant Wish Granted |  | complete THE The Wandering Merchant Wish Promised |  |  | event |  |
+| Second Sentinel Encounter |  | Act 3  AND complete THE Second Sentinel Activation AND complete The Wandering Merchant Wish Granted |  |  | event | per the wiki |

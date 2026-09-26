@@ -17,11 +17,11 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| RP | Rosary Pickup | Entrance | Rosary Necklace | Ledge Grab OR Clawline OR  Cling Grip OR Scuttlebracre OR Faydown Cloak OR Silk Soar |  | Verified |  |
+| RP | Rosary Pickup | Entrance | Rosary Necklace | Ledge Grab OR Clawline OR  Cling Grip OR Scuttlebrace OR Faydown Cloak OR Silk Soar |  | Verified |  |
 | RP | Rosary Pickup | Rosary Necklace | Entrance | Nothing. (Fall) |  | Verified |  |
 
 ## Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Underworks: Frayed Rosary Necklace #1 | Rosary Necklace | Nothing. |  | Verified |  |  |
+| Underworks: Frayed Rosary Necklace #1 | Rosary Necklace | Nothing. |  | Verified | collectible |  |

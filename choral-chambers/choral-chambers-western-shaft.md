@@ -29,13 +29,13 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| V1 | Bottom to Section 1 | Bottom | Section 1 | silk soar or (faydown cloak and ledge grab) or (cling grip and (dash or faydown cloak or clawline or sharpdart)) |  | Verified |  |
-| V2 | Section 1 to Section 2 | Section 1 | Section 2 | ledge grab or silk soar or faydown cloak or clawline |  | Verified |  |
-| V3 | Section 2 to Section 3 | Section 2 | Section 3 | silk soar or cling grip or (faydown cloak and ledge grab) |  | Verified |  |
-| V4L | Section 3 to Section 4 Left | Section 3 | Section 4 Left | cling grip or (faydown cloak and ledge grab) |  | Verified |  |
-| V4R | Section 3 to Section 4 Right | Section 3 | Section 4 Right | spike pogo or silk soar or (faydown cloak and ledge grab) |  | Verified |  |
-| S4 | Section 4 traversal | Section 4 Left | Section 4 Right | clawline or drifter's cloak or dash or faydown cloak or sharpdart |  | Verified |  |
-| S4 | Section 4 traversal | Section 4 Right | Section 4 Left | clawline or drifter's cloak or dash or faydown cloak or sharpdart |  | Verified |  |
+| V1 | Bottom to Section 1 | Bottom | Section 1 | silk soar OR (faydown cloak AND ledge grab) OR (cling grip AND (dash OR faydown cloak OR clawline OR sharpdart)) |  | Verified |  |
+| V2 | Section 1 to Section 2 | Section 1 | Section 2 | ledge grab OR silk soar OR faydown cloak OR clawline |  | Verified |  |
+| V3 | Section 2 to Section 3 | Section 2 | Section 3 | silk soar OR cling grip OR (faydown cloak AND ledge grab) |  | Verified |  |
+| V4L | Section 3 to Section 4 Left | Section 3 | Section 4 Left | cling grip OR (faydown cloak AND ledge grab) |  | Verified |  |
+| V4R | Section 3 to Section 4 Right | Section 3 | Section 4 Right | spike pogo OR silk soar OR (faydown cloak AND ledge grab) |  | Verified |  |
+| S4 | Section 4 traversal | Section 4 Left | Section 4 Right | clawline OR drifter's cloak OR dash OR faydown cloak OR sharpdart |  | Verified |  |
+| S4 | Section 4 traversal | Section 4 Right | Section 4 Left | clawline OR drifter's cloak OR dash OR faydown cloak OR sharpdart |  | Verified |  |
 | F4L | Section 4 Left falling | Section 4 Left | Section 3 | none |  | Verified | falling |
 | F4R | Section 4 Right falling | Section 4 Right | Section 3 | none |  | Verified | falling |
 | F3 | Section 3 Falling | Section 3 | Section 2 | none |  | Verified | falling |

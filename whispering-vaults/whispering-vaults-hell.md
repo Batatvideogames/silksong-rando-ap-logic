@@ -29,7 +29,7 @@
 | BL | Bottom Left | Lowest Hallway | [Whispering Vaults Music Box (Library_16)](whispering-vaults-music-box.md) | R | Nothing |  | Verified |  |
 | CL | Center Left | Middle Hallway | [Trobbio Entrance (Library_13b)](trobbio-entrance.md) | R | Nothing |  | Verified |  |
 | LL | Low Left | Left Side Shaft | [Whispering Vaults Flea Shaft (Library_01)](whispering-vaults-flea-shaft.md) | BR | Nothing |  | Verified |  |
-| LR | Low Right | Upper Platform | [Whispering Vaults East To West (Library_05)](whispering-vaults-east-to-west.md) | BL | Nothing |  | Verified |  |
+| LR | Low Right | Upper Low Hallway | [Whispering Vaults East To West (Library_05)](whispering-vaults-east-to-west.md) | BL | Nothing |  | Verified |  |
 | TR | Top Right | Top Hallway | [Whispering Vaults Jumps (Library_09)](whispering-vaults-jumps.md) | L | Activate Whispering Vaults: Flip Switch #6 IN Whispering Vaults Jumps |  | Verified |  |
 | TL | Top Left | Top Hallway | [Whispering Vaults Flea Shaft (Library_01)](whispering-vaults-flea-shaft.md) | TR | Nothing |  | Verified |  |
 | BR | Bottom Right | Ground | [Vaultkeeper Cauldron Entrance (Library_10)](vaultkeeper-cauldron-entrance.md) | L | Nothing |  | Verified |  |

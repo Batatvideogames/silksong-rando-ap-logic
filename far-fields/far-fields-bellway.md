@@ -35,3 +35,4 @@
 | bench rosary lock | bellway | none |  | Verified | lock |  |
 | bellway rosary lock | bellway | none |  | Verified | lock |  |
 | bellway far fields | bellway | unlock bellway rosary lock |  | Verified | travel |  |
+| Craw Summons | bellway | craw summons ready |  | Verified | collectible |  |

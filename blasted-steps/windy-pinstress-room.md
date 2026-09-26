@@ -1,4 +1,4 @@
-# Pinstress Room (Room_Pinstress)
+# Windy Pinstress Room (Room_Pinstress)
 
 **Game ID:** Room_Pinstress
 
@@ -23,3 +23,5 @@ No subroom connections defined.
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | Needle Strike |  | Nothing |  | Verified | collectible |  |
+| Read Pinstress Note |  | act 3 AND have needle strike AND have silk soar |  | Verified | logic-point | technically lore, but not really |
+| Fatal Resolve Wish Promised |  | after Read Pinstress Note |  | Verified | event | can be accepted at the wish wall, but hornet has to read the note first anyway, so functionally it doesn't matter |

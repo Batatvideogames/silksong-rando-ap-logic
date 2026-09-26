@@ -21,8 +21,8 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| H | Indolent Key | Left | Right | Indolent Key Owned |  |  | Naked |
-| H | Indolent Key | Right | Left | Indolent Key Owned |  |  |  |
+| H | Indolent Key | Left | Right | have Key of Indolent |  |  | Naked |
+| H | Indolent Key | Right | Left | have Key of Indolent |  |  |  |
 | T | Top | Right | Top | cling grip |  |  | Naked |
 | T | Top | Top | Right | none |  |  | falling |
 

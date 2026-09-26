@@ -31,3 +31,4 @@
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | Memorium entrance vines | Base | (silk soar OR faydown cloak) AND break wall up |  | Verified | blockade | one way wall and also logic can be improved for more skips |
+| Second Sentinel Encounter | Base | complete THE Second Sentinel Activation |  | Verified | event |  |

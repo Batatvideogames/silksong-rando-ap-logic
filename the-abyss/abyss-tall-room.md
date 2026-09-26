@@ -25,10 +25,10 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | SS | Silk Soar | Bottom | Top | Silk Soar |  | Verified |  |
 | SS | Silk Soar | Top | Bottom | None |  | Verified |  |
-| US | Upper Spikes | Top | Spike Platform | Easy Skip spike pogo OR ( Drifters Cloak OR Clawline ) |  | Verified |  |
-| US | Upper Spikes | Spike Platform | Top | Cling Grip AND ( Easy Skip spike pogo OR Clawline ) |  | Verified |  |
-| LS | Lower Spikes | Bottom | Spike Platform | Silk Soar AND ( Easy Skip spike pogo OR Drifters Cloak OR Clawline ) |  | Verified |  |
-| LS | Lower Spikes | Spike Platform | Bottom | Easy Skip spike pogo OR ( Drifters Cloak OR Clawline ) |  | Verified |  |
+| US | Upper Spikes | Top | Spike Platform | ( Proficient Movement AND spike pogo ) OR ( Drifters Cloak OR Clawline ) |  | Verified |  |
+| US | Upper Spikes | Spike Platform | Top | Cling Grip AND ( ( Proficient Movement AND spike pogo ) OR Clawline ) |  | Verified |  |
+| LS | Lower Spikes | Bottom | Spike Platform | Silk Soar AND ( ( Proficient Movement AND spike pogo ) OR Drifters Cloak OR Clawline ) |  | Verified |  |
+| LS | Lower Spikes | Spike Platform | Bottom | ( Proficient Movement AND spike pogo ) OR ( Drifters Cloak OR Clawline ) |  | Verified |  |
 
 ## Check Locations
 

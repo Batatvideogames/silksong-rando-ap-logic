@@ -22,4 +22,4 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Flea: Choral Chambers - Spa |  | none |  | Verified |  |  |
+| Flea: Choral Chambers - Spa |  | none |  | Verified | collectible |  |

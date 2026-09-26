@@ -23,6 +23,6 @@ No subroom connections defined.
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | bench |  | none |  | Verified | bench |  |
-| flexible spines wish start |  | none |  | Verified | event |  |
-| flexible spines wish goal |  | complete flexible spines wish start AND ( flexible spines 25  OR defeat hoker enemy IN far fields skull room west OR defeat hoker enemy IN far fields skull room east ) |  | Verified | event | wasn't sure which made more sense here - the former is more accurate, but the latter is more logic complete |
-| drifters cloak |  | complete flexible spines wish goal |  | Verified | collectible |  |
+| flexible spines wish promised |  | none |  | Verified | event |  |
+| flexible spines wish granted |  | complete flexible spines wish promised AND ( flexible spines 25  OR defeat hoker enemy IN far fields skull room west OR defeat hoker enemy IN far fields skull room east ) |  | Verified | event | wasn't sure which made more sense here - the former is more accurate, but the latter is more logic complete |
+| drifters cloak |  | complete flexible spines wish granted |  | Verified | collectible |  |

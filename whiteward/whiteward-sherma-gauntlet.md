@@ -23,5 +23,5 @@ No subroom connections defined.
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | Balm for the Wounded Gauntlet |  | Nothing |  | Verified | gauntlet | Completion for the wish. |
-| Balm for the Wounded - Spool Fragment |  | Complete Balm for the Wounded Wish Goal |  | Verified | event | Completion for the wish. |
-| Balm for the Wounded Wish Goal |  | Defeat Balm for the Wounded Gauntlet |  | Verified | event |  |
+| Balm for the Wounded Wish Granted |  | Defeat Balm for the Wounded Gauntlet |  | Verified | event |  |
+| Balm for the Wounded - Spool Fragment |  | Complete Balm for the Wounded Wish Granted |  | Verified | collectible | Completion for the wish. |

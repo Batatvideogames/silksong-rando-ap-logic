@@ -25,3 +25,4 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- |
 | Bilewater - Bellway |  | rosaries 60 |  | Verified | travel |  |
 | Bilewater Bellway Bench |  | none |  | Verified | bench |  |
+| Craw Summons |  | craw summons ready |  | Verified | collectible |  |

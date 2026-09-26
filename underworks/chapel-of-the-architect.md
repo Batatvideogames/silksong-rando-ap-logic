@@ -20,7 +20,7 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Underworks: Silkeater |  | Nothing. |  |  |  |  |
-| Underworks: Break Wall (Up) |  | Nothing. |  |  |  |  |
-| Underworks: Needolin Lore |  | Needolin. |  |  |  |  |
-| Architect's Crest |  | Nothing. |  |  |  |  |
+| Underworks: Silkeater |  | Nothing. |  |  | collectible |  |
+| Underworks: Break Wall (Up) |  | Nothing. |  |  | blockade |  |
+| Underworks: Needolin Lore |  | Needolin. |  |  | lore |  |
+| Architect's Crest |  | Nothing. |  |  | collectible |  |

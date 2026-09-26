@@ -47,11 +47,11 @@
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Underworks: Break Wall #1 (Left OR Right) | Far Right | Nothing. |  | Verified |  |  |
-| Underworks: Shell Shard Pillar #1 | Shell Shard Cache #2 | Nothing. |  | Verified |  |  |
-| Underworks: Shell Shard Pillar #2 | Shell Shard Cache #2 | Nothing. |  | Verified |  |  |
-| Underworks: Shell Shard Rock #2 | Shell Shard Cache #1 | Nothing. |  | Verified |  |  |
-| Underworks: Shard Bundle #1 | Shell Bundle Pickup | Nothing. |  | Verified |  |  |
-| Underworks: Shell Shard Rock #1 | Shell Shard Cache #1 | Nothing. |  | Verified |  |  |
-| Wunderworks: Break Wall #2 (Up) | Upper Left | Nothing. |  | Verified |  |  |
-| Underworks: Flip Switch #1 (Left) | Exhaust Organ Elevator | Nothing. |  | Verified |  |  |
+| Underworks: Break Wall #1 (Left OR Right) | Far Right | Nothing. |  | Verified | switch |  |
+| Underworks: Shell Shard Pillar #1 | Shell Shard Cache #2 | Nothing. |  | Verified | collectible |  |
+| Underworks: Shell Shard Pillar #2 | Shell Shard Cache #2 | Nothing. |  | Verified | collectible |  |
+| Underworks: Shell Shard Rock #2 | Shell Shard Cache #1 | Nothing. |  | Verified | collectible |  |
+| Underworks: Shard Bundle #1 | Shell Bundle Pickup | Nothing. |  | Verified | collectible |  |
+| Underworks: Shell Shard Rock #1 | Shell Shard Cache #1 | Nothing. |  | Verified | collectible |  |
+| Wunderworks: Break Wall #2 (Up) | Upper Left | Nothing. |  | Verified | blockade |  |
+| Underworks: Flip Switch #1 (Left) | Exhaust Organ Elevator | Nothing. |  | Verified | switch |  |

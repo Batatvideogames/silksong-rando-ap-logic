@@ -24,4 +24,4 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Shell Shard Cache: Underworks |  | cling grip and (dash or faydown cloak or clawline) | TODO |  |  | may be other options |
+| Shell Shard Cache: Underworks |  | cling grip AND (dash OR faydown cloak OR clawline) | TODO |  | collectible | may be other options |

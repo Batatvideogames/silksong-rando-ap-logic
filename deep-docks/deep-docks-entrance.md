@@ -34,6 +34,6 @@
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| door switch | gauntlet right | none |  | Needs verification |  |  |
-| gauntlet | gauntlet | none |  | Needs verification |  |  |
-| mask shard the marrow deep docks passage | gauntlet right | none |  | Needs verification |  |  |
+| door switch | gauntlet right | none |  | Needs verification | switch |  |
+| gauntlet | gauntlet | none |  | Needs verification | gauntlet |  |
+| mask shard the marrow deep docks passage | gauntlet right | none |  | Needs verification | collectible |  |

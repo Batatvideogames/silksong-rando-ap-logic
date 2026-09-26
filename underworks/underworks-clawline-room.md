@@ -39,6 +39,6 @@
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Clawline Pickup | Clawline Statue | Nothing. |  | Verified |  |  |
-| Underworks: Shard Bundle #2 | Shard Bundle Check | Nothing. |  | Verified |  |  |
+| Clawline Pickup | Clawline Statue | Nothing. |  | Verified | collectible |  |
+| Underworks: Shard Bundle #2 | Shard Bundle Check | Nothing. |  | Verified | collectible |  |
 | Clawline Ring | Arena | Clawline |  | Verified |  |  |

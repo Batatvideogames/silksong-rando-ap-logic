@@ -22,4 +22,4 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Shard Bundle: Underworks #1 |  | easy skips or dash or faydown cloak or drifter's cloak or spike pogo or clawline or sharpdart |  |  |  |  |
+| Shard Bundle: Underworks #1 |  | proficient movement OR dash OR faydown cloak OR drifter's cloak OR spike pogo OR clawline OR sharpdart |  |  | collectible |  |

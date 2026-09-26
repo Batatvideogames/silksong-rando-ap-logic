@@ -14,8 +14,8 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| B | Bottom | Left Side | [Underworks Below Vaultkeeper (Library_12b)](../underworks/underworks-below-vaultkeeper.md) | T | Nothing. |  | Verified | the bottom portion of 04 doesn't link for some reason, so this transition can't connect until that's fixed |
-| L | Left | Right Side | [Whispering Vaults Hell (Library_04)](whispering-vaults-hell.md) | BR | Nothing. |  | Verified |  |
+| B | Bottom | Right Side | [Underworks Below Vaultkeeper (Library_12b)](../underworks/underworks-below-vaultkeeper.md) | T | Nothing. |  | Verified |  |
+| L | Left | Left Side | [Whispering Vaults Hell (Library_04)](whispering-vaults-hell.md) | BR | Nothing. |  | Verified |  |
 
 ## Subroom Connections
 

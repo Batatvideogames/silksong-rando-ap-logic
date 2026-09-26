@@ -30,6 +30,7 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | Shell Shard Cache: Shellwood #1 | Top | None |  | Verified | resource |  |
 | Bench Diddy Basement | Bottom | Cling Grip OR ( Dash AND Scuttlebrace ) |  | Verified | bench |  |
+| Craw Summons | Bottom | Craw Summons Ready |  | Verified | collectible |  |
 | Shell Shard Cache: Shellwood #2 | Top | None |  | Verified | resource |  |
 | Shell Shard Cache: Shellwood #3 | Top | None |  | Verified | resource |  |
 | Breakable Roof Diddy Basement | Top | Cling Grip |  | Verified | blockade |  |

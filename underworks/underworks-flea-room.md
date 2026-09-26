@@ -17,11 +17,11 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| FG | Flea Get | Entrance | Flea | Ledge Grab OR Clawline OR  Cling Grip OR Scuttlebracre OR Faydown Cloak OR Silk Soar |  | Verified |  |
+| FG | Flea Get | Entrance | Flea | Ledge Grab OR Clawline OR Cling Grip OR Scuttlebrace OR Faydown Cloak OR Silk Soar |  | Verified |  |
 | FG | Flea Get | Flea | Entrance | Nothing. (Fall) |  | Verified |  |
 
 ## Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Underworks: Flea #1 | Flea | Nothing. |  | Verified |  |  |
+| Underworks: Flea #1 | Flea | Nothing. |  | Verified | collectible |  |

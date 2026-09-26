@@ -22,7 +22,7 @@
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | WR | Whole Room | Left Ledge | Right Ledge | easy Beast Crest pogo OR Clawline OR Faydown Cloak OR Drifters Cloak OR Sharpdart OR Dash |  | Verified |  |
-| WR | Whole Room | Right Ledge | Left Ledge | ( Cling Grip AND ( ( ( Dash OR Drifters Cloak OR Faydown Cloak ) AND Sprint ) OR Clawline OR Sharpdart ) ) OR ( Faydown Cloak AND Clawline AND easy skip spike pogo ) |  | Verified |  |
+| WR | Whole Room | Right Ledge | Left Ledge | ( Cling Grip AND ( ( ( Dash OR Drifters Cloak OR Faydown Cloak ) AND Sprint ) OR Clawline OR Sharpdart ) ) OR ( Faydown Cloak AND Clawline AND ( Proficient Movement AND Spike Pogo ) ) |  | Verified |  |
 | DR | Drop | Left Ledge | Shell Ledge | easy Hunter Crest pogo OR easy Beast Crest pogo OR easy Architect Crest pogo OR easy Shaman Crest pogo OR ( Ledge grab AND ( easy Reaper crest pogo OR easy Witch Crest pogo ) ) OR Dash OR Clawline OR Sharpdart OR Drifters Cloak OR Faydown Cloak OR ( easy Wanderer crest pogo AND easy Needle Strike stall ) |  | Verified |  |
 | DR | Drop | Shell Ledge | Left Ledge | Ledge Grab OR Clawline OR Faydown Cloak OR medium Beast Crest pogo |  | Verified |  |
 

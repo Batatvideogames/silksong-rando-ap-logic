@@ -29,7 +29,7 @@
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| White Key | Base | none |  |  |  |  |
+| White Key | Base | none |  |  | collectible |  |
 | Wish: Pain, Anguish and Misery | Base | Act 3 AND Defeat Trobbio IN Trobbio |  |  | event |  |
-| Balm for the Wounded Wish Start | Base |  | TODO |  |  |  |
 | Meet the Caretaker | Base | activate bellshrine switch IN bellshrine-enclave |  | Verified | logic-point |  |
+| Reach Songclave | Base | none |  | Verified | logic-point | Used for Savage Beastfly wish. |

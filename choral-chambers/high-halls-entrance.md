@@ -11,7 +11,7 @@ No subrooms defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | BR | right2 |  | [Corridor to High Halls (Song_17)](corridor-to-high-halls.md) | L | none |  | Verified |  |
-| TP | right1 |  | [High Halls Small Slide (Hang_02)](../high-halls/high-halls-small-slide.md) | L | clawline and (spike pogo or faydown cloak) or silk soar |  | Verified |  |
+| TP | right1 |  | [High Halls Small Slide (Hang_02)](../high-halls/high-halls-small-slide.md) | L | clawline AND (spike pogo OR faydown cloak) OR silk soar |  | Verified |  |
 
 ## Subroom Connections
 

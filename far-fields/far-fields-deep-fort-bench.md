@@ -28,5 +28,5 @@
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| craw summons spawn point | bench area | craw summons ready |  | Verified | collectible | one of several possible craw summons locations |
 | bench | bench area | none |  | Verified | bench |  |
+| Craw Summons | bench area | craw summons ready |  | Verified | collectible | one of several possible craw summons locations |

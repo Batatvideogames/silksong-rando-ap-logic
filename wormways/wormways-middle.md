@@ -13,8 +13,8 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right | main tunnel | [Wormways Shaft (Crawl_02)](wormways-shaft.md) | LL | none |  | Verified |  |
-| F | floor | main tunnel | [Wormways Lower East (Crawl_07)](wormways-lower-east.md) | C | none |  | Verified | Imported destination text: wormways lower east - C |
+| R | right | main tunnel | [Wormways Shaft (Crawl_02)](wormways-shaft.md) | LL | none |  | Verified | simple key lock doesn't block this side at all |
+| F | floor | main tunnel | [Wormways Lower East (Crawl_07)](wormways-lower-east.md) | C | none |  | Verified |  |
 | C | ceiling | wormways west scaffold | [Wormways Upper West (Crawl_03)](wormways-upper-west.md) | F | none |  | Verified |  |
 
 ## Subroom Connections

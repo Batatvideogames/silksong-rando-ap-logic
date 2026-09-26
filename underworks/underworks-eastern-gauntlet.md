@@ -28,6 +28,6 @@
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Underworks: Lever (Up) #1 | Arena | Beat Arena |  | Verified |  |  |
-| Underworks: Silk Spool #2 | Arena | Nothing. |  | Verified |  |  |
-| Underworks: Arena Fight #1 | Arena |  |  | Verified |  |  |
+| Underworks: Lever (Up) #1 | Arena | Beat Arena |  | Verified | switch |  |
+| Underworks: Silk Spool #2 | Arena | Nothing. |  | Verified | collectible |  |
+| Underworks: Arena Fight #1 | Arena |  |  | Verified | collectible |  |

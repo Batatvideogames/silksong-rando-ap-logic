@@ -24,9 +24,9 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| BF | Break Floor | Wisp Thicket | Bottom | cling grip and (spike pogo or clawline or faydown cloak) |  |  |  |
-| BM | Bototm to Mid | Bottom | Mid | silk soar or (cling grip and (dash or ledge grab or faydown cloak or sharpart or clawline or drifter's cloak) |  |  |  |
-| MT | Mid to Top | Mid | Top | silk soar or cling grip |  |  |  |
+| BF | Break Floor | Wisp Thicket | Bottom | cling grip AND (spike pogo OR clawline OR faydown cloak) |  |  |  |
+| BM | Bototm to Mid | Bottom | Mid | silk soar OR (cling grip AND (dash OR ledge grab OR faydown cloak OR sharpdart OR clawline OR drifter's cloak) |  |  |  |
+| MT | Mid to Top | Mid | Top | silk soar OR cling grip |  |  |  |
 | FT | Falling from Top | Top | Mid | none |  |  | falling |
 | FM | Falling from Mid | Mid | Bottom | none |  |  | falling |
 

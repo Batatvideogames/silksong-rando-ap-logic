@@ -29,7 +29,7 @@
 | LML | left3 | Lower Middle Left Exit | [Mount Fay Shakra (Peak_02)](mount-fay-shakra.md) | LMR | None |  | Verified |  |
 | UML | left2 | Upper Middle Left Exit | [Mount Fay Shakra (Peak_02)](mount-fay-shakra.md) | UMR | None |  | Verified |  |
 | USR | right1 | Slab Side Room Upper | [Slab Arena (Slab_16)](../the-slab/slab-arena.md) | L | None |  | Verified |  |
-| C1 | top1 | Upper Left Exit | [Mount Fay Right Side Middle Room (Peak_07)](mount-fay-right-side-middle-room.md) | F1 | Cling Grip AND ( Clawline OR ( Faydown Cloak AND DRifters Cloak AND Dash ) OR ( Drifters Cloak AND Sharpdart AND Hard skip spike pogo AND Hard Heal Stall AND Hard Cocoon Skip ) ) |  | Verified |  |
+| C1 | top1 | Upper Left Exit | [Mount Fay Right Side Middle Room (Peak_07)](mount-fay-right-side-middle-room.md) | F1 | Cling Grip AND ( Clawline OR ( Faydown Cloak AND DRifters Cloak AND Dash ) OR ( Drifters Cloak AND Sharpdart AND ( Proficient Movement AND Spike Pogo ) AND Hard Heal Stall AND Hard Cocoon Skip ) ) |  | Verified |  |
 | MSR | right2 | Slab Side Room Lower | [Slab Chilly Prison (Slab_15)](../the-slab/slab-chilly-prison.md) | L | None |  | Verified |  |
 | LR | right4 | lower Entrance | [Slab Bellway (Slab_06)](../the-slab/slab-bellway.md) | L | None |  | Verified |  |
 | DU | Dummy | Upper Left Exit | [Mount Fay Right Side Middle Room (Peak_07)](mount-fay-right-side-middle-room.md) | F5 | Invalid |  | Verified |  |
@@ -40,11 +40,11 @@
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | SL | Slab Connection | Slab Side Room Upper | Slab Side Room Lower | None |  | Verified |  |
 | SL | Slab Connection | Slab Side Room Lower | Slab Side Room Upper | Cling Grip OR Scuttlebrace OR Silk Soar |  | Verified |  |
-| LC | Lower Crossing | lower Entrance | Lower Left Exit | Silk Soar OR Clawline OR ( Faydown Cloak AND Hard skip spike pogo AND Hard Heal Stall AND Hard Cocoon Skip AND Ledge Grab ) OR ( Sharpdart AND Drifters Cloak ) |  | Verified |  |
+| LC | Lower Crossing | lower Entrance | Lower Left Exit | Silk Soar OR Clawline OR ( Faydown Cloak AND ( Proficient Movement AND Spike Pogo ) AND Hard Heal Stall AND Hard Cocoon Skip AND Ledge Grab ) OR ( Sharpdart AND Drifters Cloak ) |  | Verified |  |
 | LC | Lower Crossing | Lower Left Exit | lower Entrance | Cling Grip OR Silk Soar OR Clawline OR Faydown Cloak OR ( Dash AND ( Sprint OR Drifters Cloak OR Sharpdart OR easy Beast Crest pogo OR Medium Heal Stall ) ) |  | Verified |  |
 | LL | Lower Ledge | Lower Left Exit | Lower Middle Left Exit | Silk Soar OR ( Faydown Cloak AND ( Cling Grip OR ( Hard Heal Stall AND Scuttlebrace ) ) ) |  | Verified |  |
 | LL | Lower Ledge | Lower Middle Left Exit | Lower Left Exit | None |  | Verified |  |
-| MC | Middle Crossing | Lower Middle Left Exit | Shell Shard Ledge | ( Cling Grip AND ( ( Clawline OR Drifters Cloak OR ( Faydown Cloak AND ( Dash OR Sharpdart ) ) ) OR ( Medium Reaper Crest pogo AND Faydown Cloak AND Clawline AND Medium Skip spike pogo ) ) ) |  | Verified |  |
+| MC | Middle Crossing | Lower Middle Left Exit | Shell Shard Ledge | ( Cling Grip AND ( ( Clawline OR Drifters Cloak OR ( Faydown Cloak AND ( Dash OR Sharpdart ) ) ) OR ( Medium Reaper Crest pogo AND Faydown Cloak AND Clawline AND ( Proficient Movement AND Spike Pogo ) ) ) ) |  | Verified |  |
 | MC | Middle Crossing | Shell Shard Ledge | Lower Middle Left Exit | Clawline OR Silk Soar OR Drifters Cloak OR ( Dash AND Faydown Cloak ) |  | Verified |  |
 | SS | Silk Soar Shards | lower Entrance | Shell Shard Ledge | Silk Soar |  | Verified |  |
 | SS | Silk Soar Shards | Shell Shard Ledge | lower Entrance | None |  | Verified |  |
@@ -61,5 +61,5 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | Mount Fay - Shell shard cache #1 | Shell Shard Ledge | None |  | Verified | resource |  |
 | Mount Fay - Shell shard cache #2 | Shell Shard Ledge | None |  | Verified | resource |  |
-| The Slab - Spool Fragment | Slab Spool Room | cling grip OR Scuttlebrace OR Silk Soar | TODO | Needs verification | collectible | Duplicate check name for spool fragment? |
+| The Slab - Spool Fragment | Slab Spool Room | cling grip OR Scuttlebrace OR Silk Soar |  | Verified | collectible | Duplicate check name for spool fragment? |
 | Breakable Wall - Mount Fay Entrance | Upper Left Exit | None |  | Verified | blockade |  |

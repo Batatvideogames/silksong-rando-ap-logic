@@ -21,6 +21,7 @@
 | LL | lower left | lower section | [Greymoor Western Tower (Greymoor_06)](greymoor-western-tower.md) | LR | nothing |  | Verified |  |
 | ML | middle left | garmond room | [Greymoor Western Tower (Greymoor_06)](greymoor-western-tower.md) | GR | nothing |  | Verified |  |
 | MR | middle right | east tower entrance | [Greymoor Eastern Tower (Greymoor_04)](greymoor-eastern-tower.md) | LL | ledge grab OR cling grip OR silk soar OR hard scuttlebrace |  | Verified |  |
+| SC | slab capture | lower section | [Slab Capture](../fast-travel/slab-capture.md) | GM | after Get Kidnapped |  | Verified |  |
 
 ## Subroom Connections
 
@@ -47,3 +48,5 @@
 | Greymoor - Rosary Cache #9 | upper area | nothing |  | Verified | resource |  |
 | Greymor - Shard Bundle #1 | upper area | faydown cloak OR progressive swift step 1 OR easy enemy pogo OR silk soar OR sharpdart OR clawline |  | Verified | resource |  |
 | Boos: MoorWing | lower section | Act 2 AND complete THE the lost fleas wish granted |  | Verified | boss | maybe just change the wqish to moorwing spkipped ion the other room |
+| Wardenfly | lower section | ( act 1 AND act 2 ) AND defeat THE bell beast boss fight |  | Verified | enemy | per the wiki |
+| Get Kidnapped | lower section | after wardenfly |  | Verified | event |  |

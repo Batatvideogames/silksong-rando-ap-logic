@@ -24,3 +24,4 @@ No subroom connections defined.
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | Lower Shellwood Toll Bench |  | None |  | Verified | bench |  |
+| Craw Summons |  | Craw Summons Ready |  | Verified | collectible |  |
