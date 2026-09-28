@@ -41,3 +41,4 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | rosary cache bone bottom 4 | rosary alcove | none |  | Verified | collectible |  |
 | rosary cache bone bottom 5 | rosary alcove | none |  | Verified | collectible |  |
+| Garmond and Zaza Act 3 Meeting Bone Bottom | upper right level | Act 3 |  | Verified | event |  |

@@ -11,6 +11,8 @@
 - Left Spike Exit
 - Bottom
 - Behind Sentinel Gate
+- Resting Site Ledge
+- Penthouse
 
 ## Room Transitions
 
@@ -34,9 +36,14 @@
 | MF | Falling from Middle | Middle | Bottom | drifter's cloak AND clawline |  | Verified |  |
 | WG | wish gate | Bottom | Behind Sentinel Gate | complete THE final audience wish promised |  | Verified |  |
 | WG | wish gate | Behind Sentinel Gate | Bottom | complete THE final audience wish promised |  | Verified |  |
+| TR | top to resting site | Top | Resting Site Ledge | clawline |  | Verified |  |
+| TR | top to resting site | Resting Site Ledge | Top | none (falling) |  | Verified |  |
+| RP | resting site to penthouse | Resting Site Ledge | Penthouse | silk soar OR cling grip |  | Verified |  |
+| RP | resting site to penthouse | Penthouse | Resting Site Ledge | none (falling) |  | Verified |  |
 
 ## Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| High Halls - Rosary Cache | Top | clawline AND (silk soar OR cling grip) |  | Verified | collectible |  |
+| High Halls - Rosary Cache | Penthouse | none |  | Verified | collectible |  |
+| Resting Site: High Halls | Resting Site Ledge | complete THE A Vassal Lost Wish Promised |  | Verified | event |  |

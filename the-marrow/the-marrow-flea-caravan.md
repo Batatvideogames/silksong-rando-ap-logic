@@ -43,7 +43,7 @@
 | the marrow flea caravan passage frayed rosary string | top floor | none |  | Verified | collectible |  |
 | the marrow flea caravan rosary dish | behind breakable wall | none |  | Verified | collectible |  |
 | door switch | behind metal gate | flip switch up |  | Verified | switch |  |
-| survivors camps supplies wish granted | flea floor | complete THE survivors camp supplies wish promised |  | Verified | event | reward is 180 rosaries |
+| survivors camps supplies wish granted | flea floor | complete THE survivors camp supplies wish promised |  | Verified | event |  |
 | the lost fleas wish promised | flea floor | none |  | Verified | event | wish can be started here or at the bone bottom wish wall |
 | the lost fleas wish granted | flea floor | ( act 1 OR act 2 )  AND complete the lost fleas wish promised AND fleas 5 |  | Verified | event | grants caravan invite |
 | flea caravan move to greymoor | flea floor | complete the lost fleas wish granted |  | Verified | event |  |

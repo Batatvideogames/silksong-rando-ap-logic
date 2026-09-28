@@ -2,6 +2,8 @@
 
 **Game ID:** Slab_10c
 
+**Contributors:** samupo
+
 ## Subrooms
 
 No subrooms defined.
@@ -24,3 +26,4 @@ No subroom connections defined.
 | The Slab - Weaver Gate Inscription |  | faydown |  |  | lore |  |
 | Rune Rage |  | defeat Boss: First Sinner |  |  | collectible |  |
 | Boss: First Sinner |  | faydown |  |  | boss |  |
+| Mister Mushroom Meeting The Slab |  | after THE Mister Mushroom Meeting Greymoor AND Needolin |  | Verified | event |  |

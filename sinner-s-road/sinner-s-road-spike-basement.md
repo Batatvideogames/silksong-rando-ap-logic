@@ -2,7 +2,7 @@
 
 **Game ID:** Dust_Barb
 
-**Contributors:** herchey
+**Contributors:** herchey's basement
 
 ## Subrooms
 

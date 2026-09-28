@@ -2,7 +2,7 @@
 
 **Game ID:** Dust_01
 
-**Contributors:** herchey
+**Contributors:** herchey and Moriko Kyoho's dog
 
 ## Subrooms
 

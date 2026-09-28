@@ -24,3 +24,4 @@ No subroom connections defined.
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | Pollip Heart #3 |  | None |  | Verified | collectible |  |
+| Seth Meeting Shellwood |  | after THE Seth Meeting Greymoor |  | Verified | event |  |

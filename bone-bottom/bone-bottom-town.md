@@ -12,6 +12,7 @@
 - upper middle platforms
 - upper left platforms
 - chapel roof
+- shakra platform
 
 ## Room Transitions
 
@@ -52,6 +53,9 @@
 | DL | sky drift to right platforms | sky | upper middle platforms | drifters  OR clawline OR faydown OR sharpdart OR dash OR easy beast pogo OR easy hunter pogo OR easy architect pogo |  | Verified |  |
 | DR | sky drift to middle platforms | sky | upper right platforms | drifters  OR clawline OR faydown OR sharpdart OR dash OR easy beast pogo OR easy hunter pogo OR easy architect pogo |  | Verified |  |
 | SS | soar to sky exit | sky | ground level | none (falling) |  | Verified |  |
+| RC | right platform climb | ground level | shakra platform | ledge grab OR cling grip OR silk soar OR faydown |  | Verified |  |
+| RC | right platform climb | shakra platform | ground level | none (falling) |  | Verified |  |
+| RF | right platform fall | upper right platforms | shakra platform | none (falling) |  | Verified |  |
 
 ## Check Locations
 
@@ -70,3 +74,4 @@
 | shell shard cache bone bottom | ground level | complete THE an icon of hope wish granted |  | Verified | collectible |  |
 | skull tyrant bone bottom boss fight | ground level | complete THE the terrible tyrant wish granted AND ( visit blasted steps  OR visit the citadel  OR visit sinners road ) |  | Verified | boss | may be other hidden requirements. wiki says 30% chance of spawn after reaching key areas and using a bench in the zone. |
 | reach bone bottom | ground level | none |  | Verified | logic-point | addresses the loading zone blocker in moss grotto center ceiling that only goes away once you've been up here - remove this/requirement in moss grotto center if/when this is removed in the randomizer |
+| Mister Mushroom Meeting Bone Bottom | shakra platform | after THE Mister Mushroom Meeting Moss Grotto AND Needolin |  | Verified | event |  |

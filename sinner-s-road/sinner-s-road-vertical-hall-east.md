@@ -2,7 +2,7 @@
 
 **Game ID:** Dust_06
 
-**Contributors:** herchey
+**Contributors:** herchey, Sponsor of BatAtMakingDumbFunShit
 
 ## Subrooms
 

@@ -40,6 +40,5 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | Pollip Heart #4 | Pollip Room | Cling Grip OR Silk Soar OR Clawline OR ( Faydown Cloak AND ( Ledge Grab OR Clawline ) ) |  | Verified | collectible |  |
 | Rosary cache: Shellwood | Right Side | Cling Grip OR Silk Soar OR ( Scuttlebrace AND Dash ) |  | Verified | resource |  |
-| Resting Site: Shellwood | Right Side | prereq Wish: A vassal Lost started AND Steel Soul |  | Verified | collectible |  |
-| Wish: A Vassal Lost Started | Right Side | None |  | Verified | event |  |
+| Resting Site: Shellwood | Right Side | prereq THE A Vassal Lost Wish Promised |  | Verified | event |  |
 | Shellwood 26 Wall | Upper Area | None |  | Verified | blockade |  |

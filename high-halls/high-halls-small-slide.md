@@ -23,14 +23,14 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| V1 | vertical 1 | left exit | left platform | invalid |  | Needs verification | placeholder until can map it - original logic is in OG connection |
-| V1 | vertical 1 | left platform | left exit | invalid |  | Needs verification | placeholder until can map it - original logic is in OG connection |
-| C1 | crossing 1 | left platform | center platform | invalid |  | Needs verification | placeholder until can map it - original logic is in OG connection |
-| C1 | crossing 1 | center platform | left platform | invalid |  | Needs verification | placeholder until can map it - original logic is in OG connection |
-| C2 | crossing 2 | center platform | right platform | invalid |  | Needs verification | placeholder until can map it - original logic is in OG connection |
-| C2 | crossing 2 | right platform | center platform | invalid |  | Needs verification | placeholder until can map it - original logic is in OG connection |
-| C3 | crossing 3 | right platform | right exit | invalid |  | Needs verification | placeholder until can map it - original logic is in OG connection |
-| C3 | crossing 3 | right exit | right platform | invalid |  | Needs verification | placeholder until can map it - original logic is in OG connection |
+| V1 | vertical 1 | left exit | left platform | invalid | TODO | Needs verification | placeholder until can map it - original logic is in OG connection |
+| V1 | vertical 1 | left platform | left exit | invalid | TODO | Needs verification | placeholder until can map it - original logic is in OG connection |
+| C1 | crossing 1 | left platform | center platform | invalid | TODO | Needs verification | placeholder until can map it - original logic is in OG connection |
+| C1 | crossing 1 | center platform | left platform | invalid | TODO | Needs verification | placeholder until can map it - original logic is in OG connection |
+| C2 | crossing 2 | center platform | right platform | invalid | TODO | Needs verification | placeholder until can map it - original logic is in OG connection |
+| C2 | crossing 2 | right platform | center platform | invalid | TODO | Needs verification | placeholder until can map it - original logic is in OG connection |
+| C3 | crossing 3 | right platform | right exit | invalid | TODO | Needs verification | placeholder until can map it - original logic is in OG connection |
+| C3 | crossing 3 | right exit | right platform | invalid | TODO | Needs verification | placeholder until can map it - original logic is in OG connection |
 | OG | original requirements | left exit | right exit | clawline OR (faydown cloak AND dash AND ledge grab) |  | Verified | delete after remapped |
 | OG | original requirements | right exit | left exit | (ledge grab OR clawline OR cling grip OR faydown cloak) AND swim |  | Verified | delete after remapped |
 

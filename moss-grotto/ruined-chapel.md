@@ -36,6 +36,7 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | moss mother boss fight | boss arena | none |  | Verified | boss |  |
 | bench | bench spot | none |  | Verified | bench |  |
+| Mister Mushroom Meeting Moss Grotto | boss arena | complete THE Passing of the Age Wish Promised AND Needolin |  | Verified | event |  |
 
 ## Notes
 

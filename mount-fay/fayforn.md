@@ -39,3 +39,4 @@
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | Faydown Cloak | Fayforn | Needolin |  | Verified | collectible |  |
+| Mister Mushroom Meeting Mount Fay | Fayforn | after THE Mister Mushroom Meeting The Slab |  | Verified | event | needolin not required - he's talking to the fayforn |

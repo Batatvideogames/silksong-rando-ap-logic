@@ -37,7 +37,7 @@ No subroom connections defined.
 | bellharts glory wish granted |  | complete restoration of bellhart wish promised AND rosaries 400 |  | Verified | event | reward is bellhome key |
 | Bellhome Key |  | complete bellharts glory wish granted |  | Verified | collectible |  |
 | fatal resolve wish promised |  | act 3 AND have silk soar AND have needle strike |  | Verified | event | one of two locations to start the wish - wiki says you need to swing by the hut first if you accept here |
-| heros call wish promised |  | ( garmond and zaza encounters 3 OR have everbloom ) |  | Needs verification | event | spreadsheet has single quest ready flag, so using wiki as source  they have 9 locations where they spawn, will map them later - hero, 9/26 |
+| heros call wish promised |  | ( garmond and zaza act 3 encounters 3 OR have everbloom ) |  | Needs verification | event | spreadsheet has single quest ready flag, so using wiki as source  they have 9 locations where they spawn, will map them later - hero, 9/26 |
 | dark hearts wish promised |  | act 3 |  | Needs verification | event | actual flag is quest completed: Black Thread Pt1 Shamans? |
 | dark hearts wish granted |  | destroy void masses 12 |  | Verified | event | this one is going to take a LOT of time to map properly - there are 47 void masses (45 in steel soul) locations per the wiki |
 | Dark Hearts - Mask Shard |  | complete dark hearts wish granted |  | Verified | collectible |  |
@@ -45,7 +45,7 @@ No subroom connections defined.
 | the hidden hunter wish granted |  | have grass doll |  | Verified | event |  |
 | The Hidden Hunter - Mask Shard |  | complete the hidden hunter wish granted |  | Verified | collectible |  |
 | fastest in pharloom wish promised |  | have silk soar |  | Verified | event | one of two places to accept this wish |
-| ecstasy of the end wish promised |  | act 3 AND after THE flea caravan move to fleatopia AND silk soar AND fleas 30 |  | Verified | event | one of two places to accept this wish  spreadsheet flag is vague, so using wiki requirements |
+| ecstasy of the end wish promised |  | act 3 AND after THE flea caravan move to fleatopia AND silk soar AND have egg of flealia |  | Verified | event | one of two places to accept this wish  spreadsheet flag is vague, so using wiki requirements |
 
 ## Notes
 

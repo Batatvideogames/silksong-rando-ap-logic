@@ -17,6 +17,7 @@
 - upper silk soar only zone
 - lower silk soar only zone
 - bottom left area
+- resting site ledge
 
 ## Room Transitions
 
@@ -44,18 +45,20 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| F1 | top fall | top area | upper right ledge | none (falling) |  | Verified |  |
-| F2 | upper right ledge fall | upper right ledge | upper left ledge | none (falling) |  | Verified |  |
-| F3 | upper left ledge fall | upper left ledge | wish ledge | none (falling) |  | Verified |  |
-| F4 | wish ledge fall | wish ledge | upper silk soar only zone | none (falling) |  | Verified |  |
-| F5 | upper silk soar zone fall | upper silk soar only zone | middle right ledge | none (falling) |  | Verified |  |
-| F6 | middle right ledge fall | middle right ledge | lower silk soar only zone | none (falling) |  | Verified |  |
-| F7 | lower silk soar zone fall | lower silk soar only zone | bottom gap area | none (falling) |  | Verified |  |
-| F8 | lower left area fall | bottom left area | bottom gap area | none (falling) |  | Verified |  |
-| F9 | lower right area fall | lower right area | bottom gap area | none (falling) |  | Verified |  |
+| F1 | top fall | top area | resting site ledge | none (falling) |  | Verified |  |
+| F2 | resting site fall | resting site ledge | upper right ledge | none (falling) |  | Verified |  |
+| F3 | upper right ledge fall | upper right ledge | upper left ledge | none (falling) |  | Verified |  |
+| F4 | upper left ledge fall | upper left ledge | wish ledge | none (falling) |  | Verified |  |
+| F5 | wish ledge fall | wish ledge | upper silk soar only zone | none (falling) |  | Verified |  |
+| F6 | upper silk soar zone fall | upper silk soar only zone | middle right ledge | none (falling) |  | Verified |  |
+| F7 | middle right ledge fall | middle right ledge | lower silk soar only zone | none (falling) |  | Verified |  |
+| F8 | lower silk soar zone fall | lower silk soar only zone | bottom gap area | none (falling) |  | Verified |  |
+| F9 | lower left area fall | bottom left area | bottom gap area | none (falling) |  | Verified |  |
+| F10 | lower right area fall | lower right area | bottom gap area | none (falling) |  | Verified |  |
 | S1 | bottom silk soar | bottom gap area | lower silk soar only zone | silk soar |  | Verified |  |
 | S2 | lower zone silk soar | lower silk soar only zone | upper silk soar only zone | silk soar |  | Verified |  |
 | S3 | upper zone silk soar | upper silk soar only zone | top area | silk soar |  | Verified |  |
+| RC | resting site climb | upper right ledge | resting site ledge | silk soar OR ( cling grip AND faydown cloak ) |  | Verified |  |
 | UC | upper crossing | upper left ledge | upper right ledge | silk soar  OR cling grip  OR faydown cloak  OR ( ledge grab AND ( dash OR clawline OR medium scuttlebrace ) ) OR ( ( medium enemy pogo OR ledge grab ) AND ( run OR sharpdart OR easy beast pogo ) )  OR ( easy enemy pogo AND ( clawline OR dash OR medium shaman pogo ) ) |  | Verified |  |
 | UC | upper crossing | upper right ledge | upper left ledge | none (parkour) |  | Verified |  |
 | WC | wish climb | wish ledge | upper left ledge | silk soar  OR cling grip OR ( ledge grab AND scuttlebrace ) |  | Verified |  |
@@ -72,4 +75,5 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | moss grotto rosary cache | bottom left area | none |  | Verified | collectible |  |
 | relic choral commandment moss grotto | middle right ledge | none |  | Verified | collectible |  |
-| my missing courier wish granted | wish ledge | complete my missing courier wish promised IN belltown |  | Verified | event |  |
+| my missing courier wish granted | wish ledge | complete my missing courier wish promised IN bellhart wish wall |  | Verified | event |  |
+| resting site bone bottom | resting site ledge | complete THE a vassal lost wish promised |  | Verified | event |  |

@@ -71,3 +71,4 @@
 | Greeymoor - map purchase | lower section right | nothing |  | Verified | collectible |  |
 | balloon switch | middle section right | flip lever up OR flip lever right OR flip lever left |  | Verified | switch |  |
 | bridge lever | bridge right section | flip lever up OR flip lever right OR flip lever left |  | Verified | switch |  |
+| Seth Meeting Greymoor | lower section right | defeat THE Boss: Shrine Guardian Seth AND (  have everbloom OR have encrusted heart OR have hunters heart OR have conjoined heart ) |  | Verified | event | requirements per the wiki |

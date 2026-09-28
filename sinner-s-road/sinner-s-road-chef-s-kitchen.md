@@ -2,7 +2,7 @@
 
 **Game ID:** Dust_Chef
 
-**Contributors:** herchey
+**Contributors:** herchey and some pop-tarts
 
 ## Subrooms
 

@@ -12,7 +12,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 |  | [Underworks Shaft (Under_02)](underworks-shaft.md) | L2 | none |  |  |  |
+| R | right1 |  | [Underworks Shaft (Under_02)](underworks-shaft.md) | L2 | none | TODO | Verified |  |
 
 ## Subroom Connections
 
@@ -22,5 +22,6 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Map Pickup: Underworks |  | none |  | Verified | collectible |  |
-| Relic: Bone Scroll (Underworks) |  | none |  | Verified | collectible |  |
+| Map Pickup: Underworks |  | none | TODO | Verified | collectible |  |
+| Relic: Bone Scroll (Underworks) |  | none | TODO | Verified | collectible |  |
+| Underworks: Break Wall #4 |  | Break Wall Left | TODO | Needs verification | blockade | Verify ingame. |

@@ -2,7 +2,7 @@
 
 **Game ID:** Dust_05
 
-**Contributors:** herchey
+**Contributors:** herchey boi
 
 ## Subrooms
 
@@ -11,6 +11,7 @@
 - middle area
 - right door platform
 - hatch
+- chest plat
 
 ## Room Transitions
 
@@ -24,14 +25,18 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| LWL | Behind left wall to left area | behind left wall | left area | complete North Hall Breakable wall |  | Verified |  |
-| LWL | Behind left wall to left area | left area | behind left wall | complete North Hall Breakable wall AND (Silk soar OR faydown cloak OR cling grip OR scuttlebrace) |  | Verified |  |
+| LWL | Behind left wall to left area | behind left wall | left area | break wall right |  | Verified |  |
+| LWL | Behind left wall to left area | left area | behind left wall | break wall left AND (Silk soar OR faydown cloak OR cling grip OR scuttlebrace) |  | Verified |  |
 | LAM | Left area to middle area | left area | middle area | clawline OR enemy pogo OR (sharpdart x 3 AND (drifter’s cloak OR faydown cloak)) OR (drifter’s cloak AND ((cling grip AND ledge grab) OR faydown cloak)) OR (swim AND ledge grab) |  | Verified |  |
 | LAM | Left area to middle area | middle area | left area | clawline OR enemy pogo OR (sharpdart AND (drifter’s cloak OR faydown cloak)) OR (drifter’s cloak AND faydown cloak) OR (swim AND (ledge grab OR cling grip)) |  | Verified |  |
 | MAH | Middle area to hatch | middle area | hatch | none |  | Verified | Technically "any attack" is the requirement |
 | MAH | Middle area to hatch | hatch | middle area | Ledge grab OR cling grip OR faydown cloak OR silk soar |  | Verified |  |
 | MAR | Middle area to right door platform | middle area | right door platform | (swim AND faydown cloak) OR (clawline AND (drifter’s cloak OR sharpdart OR enemy pogo)) OR (drifter’s cloak AND (sharpdart OR enemy pogo)) OR (sharpdart AND enemy pogo) |  | Verified |  |
 | MAR | Middle area to right door platform | right door platform | middle area | enemy pogo OR swim OR (drifter’s cloak AND (run OR dash OR ledge grab OR sharpdart OR clawline OR faydown cloak)) OR (run AND (faydown cloak OR sharpdart OR clawline)) |  | Verified |  |
+| MAC | mid to chest | middle area | chest plat | faydown cloak OR silk soar |  | Verified |  |
+| MAC | mid to chest | chest plat | middle area | none |  | Verified |  |
+| LC | left to chest | left area | chest plat | (dash AND faydown cloak AND drifter's cloak) OR enemy pogo OR (clawline x 5) |  | Verified |  |
+| LC | left to chest | chest plat | left area | (dash AND faydown cloak AND drifter's cloak) OR enemy pogo OR (clawline x 5) |  | Verified |  |
 
 ## Check Locations
 
@@ -39,4 +44,5 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | Shell Shard Cache: Sinner’s Road #6 | left area | swim AND attack up |  | Verified | collectible |  |
 | Shell Shard Cache: Sinner’s Road #7 | left area | swim AND attack up |  | Verified | collectible |  |
-| North Hall Breakable wall | left area | none |  | Verified | blockade |  |
+| Sinner's Road - Rosary Chest | chest plat | none |  | Verified | collectible |  |
+| Garmond and Zaza Act 3 Meeting Sinner's Road | right door platform | Act 3 |  | Verified | event |  |

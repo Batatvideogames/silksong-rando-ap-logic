@@ -41,10 +41,10 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | Silver Bell Spawn Location #1 | Lower Big Room | None |  | Verified | collectible |  |
 | Silver Bell Spawn Location #2 | Lower Big Room | Cling Grip OR Silk Soar OR ( Dash AND Scuttlebrace ) |  | Verified | collectible |  |
-| Rosary Cache: Bellhart #1 | Lower Big Room | Cling Grip OR Silk Soar OR ( Dash AND Scuttlebrace ) |  | Verified | resource |  |
-| Rosary Cache: Bellhart #2 | Lower Big Room | Cling Grip OR Silk Soar OR ( Dash AND Scuttlebrace ) |  | Verified | resource |  |
+| Rosary Cache: Bellhart #1 | Lower Big Room | Cling Grip OR Silk Soar OR ( Dash AND Scuttlebrace ) |  | Verified | collectible |  |
+| Rosary Cache: Bellhart #2 | Lower Big Room | Cling Grip OR Silk Soar OR ( Dash AND Scuttlebrace ) |  | Verified | collectible |  |
 | Silver Bell Spawn Location #3 | Silver Bell Cubby | None |  | Verified | collectible |  |
 | Silver Bell Spawn Location #4 | Central Passage | None |  | Verified | collectible |  |
-| Rosary Cache: Bellhart #3 | Central Passage | None |  | Verified | resource |  |
+| Rosary Cache: Bellhart #3 | Central Passage | None |  | Verified | collectible |  |
 | Silver Bell Spawn Location #5 | Upper Big room | None |  | Verified | collectible |  |
 | Flea: Bellhart | Upper Big room | Silk Soar OR Cling Grip OR ( Dash AND Scuttlebrace ) OR ( Easy enemy pogo AND ( Faydown Cloak OR Drifters Cloak ) ) |  | Verified | collectible |  |

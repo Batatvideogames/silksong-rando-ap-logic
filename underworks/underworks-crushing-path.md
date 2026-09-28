@@ -12,9 +12,9 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Underworks Saw Shaft (Under_03c)](underworks-saw-shaft.md) | R | dash or clawline | TODO |  | may be other options |
+| L | left1 |  | [Underworks Saw Shaft (Under_03c)](underworks-saw-shaft.md) | R | dash OR clawline | TODO |  | may be other options |
 | T | top1 |  | [Underworks Gym (Under_03d)](underworks-gym.md) | B | cling grip | TODO |  | may be other options |
-| R | right1 |  | [Underworks Central Shaft (Under_05)](underworks-central-shaft.md) | BL | dash or clawline | TODO |  | may be other options |
+| R | right1 |  | [Underworks Central Shaft (Under_05)](underworks-central-shaft.md) | BL | dash OR clawline | TODO |  | may be other options |
 
 ## Subroom Connections
 

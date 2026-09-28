@@ -51,3 +51,4 @@
 | Flea: Greymoor - Tower | tower top section | none |  | Verified | collectible |  |
 | Greymoor - Rosary Cache #10 | middle section | nothing |  | Verified | resource |  |
 | top trapdoor | tower top section | break lever right OR break lever left OR break lever up |  | Verified | blockade |  |
+| Mister Mushroom Meeting Greymoor | whisp thicket entrance | after THE Mister Mushroom Meeting Far Fields AND Needolin |  | Verified | event |  |

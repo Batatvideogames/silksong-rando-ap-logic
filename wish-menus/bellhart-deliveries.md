@@ -1,5 +1,7 @@
 # Bellhart Deliveries
 
+**Contributors:** herounit
+
 ## Subrooms
 
 No subrooms defined.
@@ -24,7 +26,7 @@ No subroom connections defined.
 | songclave supplies wish promised |  | act 3 OR complete THE meet the caretaker |  | Verified | event | per the spreadsheet: (enclaveLevel > 0 AND soulSnareReady == false) OR (blackThreadWorld == true)) |
 | liquid lacquer wish promised |  | have faydown AND after THE Play Threefold Melody |  | Verified | event |  |
 | fleatopia supplies wish promised |  | after THE flea caravan move to fleatopia |  | Verified | event |  |
-| survivors camp wish supplies |  | act 3 |  | Verified | event | doesn't seem to require having saved the couriers? might cause problems later, because this room is locked behind that requirement, teehee |
+| survivors camp supplies wish promised |  | act 3 |  | Verified | event | doesn't seem to require having saved the couriers? might cause problems later, because this room is locked behind that requirement, teehee |
 
 ## Notes
 

@@ -12,7 +12,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| B | bot1 |  | [Underworks Crushing Path (Under_04)](underworks-crushing-path.md) | T | none |  |  |  |
+| B | bot1 |  | [Underworks Crushing Path (Under_04)](underworks-crushing-path.md) | T | none | TODO |  |  |
 
 ## Subroom Connections
 

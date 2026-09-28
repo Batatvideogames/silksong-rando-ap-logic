@@ -2,7 +2,7 @@
 
 **Game ID:** Dust_04
 
-**Contributors:** herchey
+**Contributors:** herchey and Lace (she didn't help at all because she was on the phone with Hornet the whole time)
 
 ## Subrooms
 
@@ -48,6 +48,8 @@
 | LMU | middle left plat to upper | plat above upper door | middle left plat | none |  | Verified |  |
 | MLS | middle left to shard | middle left plat | shard ledge | faydown cloak OR (run AND (ledge grab OR cling grip)) OR (clawline AND (ledge grab OR cling grip)) |  | Verified |  |
 | MLS | middle left to shard | shard ledge | middle left plat | ((ledge grab OR cling grip) AND (dash OR clawline x 2 OR sharpdart x 2)) |  | Verified |  |
+| RML | right ledge to middle left | right ledge | middle left plat | ((cling grip OR silk soar OR (faydown cloak AND ledge grab)) AND (((enemy pogo OR clawline OR (dash AND drifter's cloak) OR sharpdart x 2) AND (ledge grab OR cling grip)) OR (faydown cloak AND dash))) |  | Verified |  |
+| RML | right ledge to middle left | middle left plat | right ledge | run OR dash OR clawline OR sharpdart OR drifter's cloak OR faydown cloak |  | Verified |  |
 
 ## Check Locations
 

@@ -22,10 +22,10 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| H | Horizontal | Left | Right | dash OR clawline OR faydown cloak OR (spike pogo AND ledge grab) OR (drifter's cloak AND ledge grab) |  |  |  |
-| H | Horizontal | Right | Left | dash OR clawline OR faydown cloak OR spike pogo OR drifter's cloak |  |  |  |
-| V | Vertical | Top | Left | cling grip |  |  |  |
-| V | Vertical | Left | Top | cling grip |  |  |  |
+| H | Horizontal | Left | Right | dash OR clawline OR faydown cloak OR (spike pogo AND ledge grab) OR (drifter's cloak AND ledge grab) | TODO |  |  |
+| H | Horizontal | Right | Left | dash OR clawline OR faydown cloak OR spike pogo OR drifter's cloak | TODO |  |  |
+| V | Vertical | Top | Left | cling grip | TODO |  |  |
+| V | Vertical | Left | Top | cling grip | TODO |  |  |
 
 ## Check Locations
 

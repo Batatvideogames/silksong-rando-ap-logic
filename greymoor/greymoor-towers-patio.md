@@ -50,3 +50,4 @@
 | Boos: MoorWing | lower section | Act 2 AND complete THE the lost fleas wish granted |  | Verified | boss | maybe just change the wqish to moorwing spkipped ion the other room |
 | Wardenfly | lower section | ( act 1 AND act 2 ) AND defeat THE bell beast boss fight |  | Verified | enemy | per the wiki |
 | Get Kidnapped | lower section | after wardenfly |  | Verified | event |  |
+| Garmond and Zaza Act 3 Meeting Greymoor | lower section | Act 3 |  | Verified | event |  |

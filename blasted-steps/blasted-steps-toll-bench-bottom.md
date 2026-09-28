@@ -51,3 +51,4 @@
 | Shell Shard Cache: Blasted Steps #2 | Bottom Left | Nothing (Fall) |  | Verified | collectible |  |
 | Shell Shard Cache: Blasted Steps #3 | Bottom Left | Nothing (Fall) |  | Verified | collectible |  |
 | Top Right Pit Lever | Top Right Pit (Left) | Nothing |  | Verified | switch |  |
+| Garmond and Zaza Act 3 Meeting Blasted Steps | Top Left | Act 3 |  |  | event | Need to verify subroom |

@@ -14,9 +14,9 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 | Left | [Underworks Western Gauntlet (Under_07)](underworks-western-gauntlet.md) | R | none |  |  |  |
-| T | top1 | Center | [Confession Toll (Under_08)](confession-toll.md) | B | cling grip OR silk soar |  |  |  |
-| R | right1 | Right | [Underworks Central Shaft (Under_05)](underworks-central-shaft.md) | TL | none |  |  |  |
+| L | left1 | Left | [Underworks Western Gauntlet (Under_07)](underworks-western-gauntlet.md) | R | none |  | Verified |  |
+| T | top1 | Center | [Confession Toll (Under_08)](confession-toll.md) | B | Cling Grip OR Silk Soar |  | Verified |  |
+| R | right1 | Right | [Underworks Central Shaft (Under_05)](underworks-central-shaft.md) | TL | none |  | Verified |  |
 
 ## Subroom Connections
 

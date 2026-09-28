@@ -2,7 +2,7 @@
 
 **Game ID:** Dust_10
 
-**Contributors:** herchey
+**Contributors:** herchey when he was chillin'
 
 ## Subrooms
 

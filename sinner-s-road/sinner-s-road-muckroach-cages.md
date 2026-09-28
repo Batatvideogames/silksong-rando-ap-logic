@@ -2,7 +2,7 @@
 
 **Game ID:** Dust_03
 
-**Contributors:** herchey
+**Contributors:** herchey and NOT these shitty muckroaches
 
 ## Subrooms
 

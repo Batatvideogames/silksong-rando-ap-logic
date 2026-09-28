@@ -2,7 +2,7 @@
 
 **Game ID:** Dust_11
 
-**Contributors:** herchey
+**Contributors:** herchey and Styx
 
 ## Subrooms
 

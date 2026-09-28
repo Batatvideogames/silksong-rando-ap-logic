@@ -17,12 +17,12 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R4 | right1 | Overtop | [Underworks Outside Choral Chambers (Under_07c)](underworks-outside-choral-chambers.md) | L | none |  |  |  |
-| R3 | right2 | Top | [Underworks Western Gauntlet (Under_07)](underworks-western-gauntlet.md) | L | none |  |  |  |
-| R2 | right3 | Mid | [Underworks Saw Intro (Under_03b)](underworks-saw-intro.md) | L | none |  |  |  |
-| L2 | left3 | Mid | [Underworks Map Room (Under_16)](underworks-map-room.md) | R | none |  |  |  |
-| L1 | left1 | Bottom | [Broken Elevator (Under_01b)](broken-elevator.md) | R | must be opened from the other side |  |  |  |
-| R1 | right4 | Underground | [Underworks Delver's Drill (Under_14)](underworks-delver-s-drill.md) | L | none |  |  |  |
+| R4 | right1 | Overtop | [Underworks Outside Choral Chambers (Under_07c)](underworks-outside-choral-chambers.md) | L | none | TODO |  |  |
+| R3 | right2 | Top | [Underworks Western Gauntlet (Under_07)](underworks-western-gauntlet.md) | L | none | TODO |  |  |
+| R2 | right3 | Mid | [Underworks Saw Intro (Under_03b)](underworks-saw-intro.md) | L | none | TODO |  |  |
+| L2 | left3 | Mid | [Underworks Map Room (Under_16)](underworks-map-room.md) | R | none | TODO |  |  |
+| L1 | left1 | Bottom | [Broken Elevator (Under_01b)](broken-elevator.md) | R | must be opened from the other side | TODO |  |  |
+| R1 | right4 | Underground | [Underworks Delver's Drill (Under_14)](underworks-delver-s-drill.md) | L | none | TODO |  |  |
 
 ## Subroom Connections
 

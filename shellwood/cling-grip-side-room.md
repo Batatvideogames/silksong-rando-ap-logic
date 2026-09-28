@@ -27,4 +27,4 @@
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Rosaries | Upper Level | None | TODO | Verified | resource | Not included rn |
+| Rosary Grave Marker | Upper Level | None |  | Verified | resource |  |

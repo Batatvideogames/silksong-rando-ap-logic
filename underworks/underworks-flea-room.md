@@ -2,6 +2,8 @@
 
 **Game ID:** Under_21
 
+**Contributors:** Rebel
+
 ## Subrooms
 
 - Entrance
@@ -17,7 +19,7 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| FG | Flea Get | Entrance | Flea | Ledge Grab OR Clawline OR Cling Grip OR Scuttlebrace OR Faydown Cloak OR Silk Soar |  | Verified |  |
+| FG | Flea Get | Entrance | Flea | Ledge Grab OR Clawline OR  Cling Grip OR Scuttlebrace OR Faydown Cloak OR Silk Soar |  | Verified |  |
 | FG | Flea Get | Flea | Entrance | Nothing. (Fall) |  | Verified |  |
 
 ## Check Locations

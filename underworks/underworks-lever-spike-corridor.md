@@ -2,6 +2,8 @@
 
 **Game ID:** Under_11
 
+**Contributors:** Rebel
+
 ## Subrooms
 
 - Left Side Entrance
@@ -25,12 +27,12 @@
 | RC | Right-Central | Right Side Entrance | Central Top Shaft | Silk Soar OR Cling Grip OR Scuttlebrace OR Faydown Cloak |  | Verified |  |
 | RC | Right-Central | Central Top Shaft | Right Side Entrance | Nothing. (Fall) |  | Verified |  |
 | CL | Central-Lever | Central Top Shaft | Lever Shaft | Nothing. (fall) |  | Verified |  |
-| CL | Central-Lever | Lever Shaft | Central Top Shaft | Lever Flipped AND (Silk Soar OR Cling Grip OR Scuttlebrace OR Faydown Cloak) |  | Verified |  |
-| LL | Left-Lever | Left Side Entrance | Lever Shaft | Lever Flipped AND (Spike Pogo OR Dash OR Sprint OR Clawline OR Sharp Dart OR Faydown Cloak OR Drifter's Cloak OR Scuttlebrace |  | Verified |  |
-| LL | Left-Lever | Lever Shaft | Left Side Entrance | Lever Flipped AND (Spike Pogo OR Dash OR Sprint OR Clawline OR Sharp Dart OR Faydown Cloak OR Drifter's Cloak OR Scuttlebrace |  | Verified |  |
+| CL | Central-Lever | Lever Shaft | Central Top Shaft | Activate Underworks: Flip Switch #4 AND (Silk Soar OR Cling Grip OR Scuttlebrace OR Faydown Cloak) |  | Verified |  |
+| LL | Left-Lever | Left Side Entrance | Lever Shaft | (Activate Underworks: Flip Switch #4 AND (Spike Pogo OR Dash OR Sprint OR Clawline OR Sharpdart OR Faydown Cloak OR Drifter's Cloak OR Scuttlebrace)) |  | Verified |  |
+| LL | Left-Lever | Lever Shaft | Left Side Entrance | (Activate Underworks: Flip Switch #4 AND (Spike Pogo OR Dash OR Sprint OR Clawline OR Sharpdart OR Faydown Cloak OR Drifter's Cloak OR Scuttlebrace)) |  | Verified |  |
 
 ## Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Underworks: Flip Switch (Left) #3 | Lever Shaft | Nothing. |  | Verified | switch |  |
+| Underworks: Flip Switch #4 | Lever Shaft | Flip Switch Left |  | Verified | switch |  |

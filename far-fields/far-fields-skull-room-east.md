@@ -12,6 +12,7 @@
 - skull platform
 - rosary platform
 - upper passage
+- herald platform
 
 ## Room Transitions
 
@@ -36,6 +37,8 @@
 | V3 | vertical 3 | upper passage | main floor | none (falling) |  | Verified |  |
 | UC | upper crossing | upper passage | upper left exit area | ledge grab OR spike pogo OR run OR dash OR drifter's cloak OR faydown cloak OR clawline OR sharpdart OR scuttlebrace |  | Verified |  |
 | UC | upper crossing | upper left exit area | upper passage | ledge grab OR spike pogo OR run OR dash OR drifter's cloak OR faydown cloak OR clawline OR sharpdart OR scuttlebrace |  | Verified |  |
+| HP | herald platform access | main floor | herald platform | ledge grab OR cling grip OR silk soar OR faydown |  | Verified |  |
+| HP | herald platform access | herald platform | main floor | none (falling) |  | Verified |  |
 
 ## Check Locations
 
@@ -44,3 +47,4 @@
 | rosary cache far fields 7 | rosary platform | none |  | Verified | collectible |  |
 | rosary cache far fields 8 | rosary platform | none |  | Verified | collectible |  |
 | hoker enemy | main floor | none (attack enemy up) |  | Verified | enemy | used to farm flexible spines |
+| Mister Mushroom Meeting Far Fields | herald platform | after THE Mister Mushroom Meeting Bone Bottom AND Needolin |  | Verified | event |  |

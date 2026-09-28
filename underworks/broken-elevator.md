@@ -12,8 +12,8 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Grand Elevator (Under_01)](../grand-gate/grand-elevator.md) | R | none |  |  |  |
-| R | right1 |  | [Underworks Shaft (Under_02)](underworks-shaft.md) | L1 | none |  |  | one way, opens from this side |
+| L | left1 |  | [Grand Elevator (Under_01)](../grand-gate/grand-elevator.md) | R | none |  | Verified |  |
+| R | right1 |  | [Underworks Shaft (Under_02)](underworks-shaft.md) | L1 | Activate Locked Door |  | Verified | one way, opens from this side |
 
 ## Subroom Connections
 
@@ -21,4 +21,6 @@ No subroom connections defined.
 
 ## Check Locations
 
-No check locations defined.
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Locked Door |  | Break Wall Right | TODO | Needs verification | blockade | verify ingame |

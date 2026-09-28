@@ -12,7 +12,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Underworks Shaft (Under_02)](underworks-shaft.md) | R1 | none |  |  |  |
+| L | left1 |  | [Underworks Shaft (Under_02)](underworks-shaft.md) | R1 | none | TODO |  |  |
 
 ## Subroom Connections
 
@@ -22,4 +22,4 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Delver's Drill |  | none |  |  | collectible |  |
+| Delver's Drill |  | none | TODO |  | collectible |  |

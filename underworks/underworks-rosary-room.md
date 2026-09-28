@@ -2,6 +2,8 @@
 
 **Game ID:** Under_12
 
+**Contributors:** Rebel
+
 ## Subrooms
 
 - Entrance

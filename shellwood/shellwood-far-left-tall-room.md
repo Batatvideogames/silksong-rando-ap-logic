@@ -13,7 +13,7 @@ No subrooms defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | C | top1 |  | [Shellwood Connection To Blasted steps (Shellwood_08)](shellwood-connection-to-blasted-steps.md) | F | ( Faydown Cloak AND Hard enemy pogo ) OR cling grip OR silk soar OR ( Dash AND Medium Scuttlebrace AND Faydown Cloak ) |  | Verified |  |
-| F | bot1 |  | [Shellwood Left side Long pond room (Shellwood_04b)](shellwood-left-side-long-pond-room.md) | LC | None |  | Verified |  |
+| F | bot1 |  | [Shellwood Left Side Long Pond Room (Shellwood_04b)](shellwood-left-side-long-pond-room.md) | LC | None |  | Verified |  |
 
 ## Subroom Connections
 

@@ -21,7 +21,7 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| SR | spire right | spire | right exit platform | run OR dash OR drifter's cloak OR faydown cloak OR clawline OR sharpdart OR (silk soar AND magma bell AND blue slot) OR beast crest |  |  | i did it exactly ONCE with shaman crest and couldn't do it again :( |
+| SR | spire right | spire | right exit platform | run OR dash OR drifter's cloak OR faydown cloak OR clawline OR sharpdart OR (silk soar AND magma bell) OR easy beast pogo |  |  | i did it exactly ONCE with shaman crest and couldn't do it again :( |
 | SR | spire right | right exit platform | spire | none |  |  |  |
 | PG | platform gaps | spire | flea platform | run OR dash OR drifter's cloak OR faydown cloak OR clawline OR silk soar |  |  | Removed sharpdart - too many gaps in a row |
 | PG | platform gaps | flea platform | spire | none (falling) |  |  |  |
@@ -34,3 +34,4 @@
 | swift step | spire | none |  |  |  |  |
 | door switch | spire | none |  |  |  |  |
 | platform switch | flea platform | none |  |  |  |  |
+| Garmond and Zaza Act 3 Meeting Deep Docks | spire | Act 3 |  | Verified | event |  |

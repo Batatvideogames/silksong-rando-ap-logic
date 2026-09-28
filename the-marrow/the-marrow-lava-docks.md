@@ -40,3 +40,4 @@
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | rosary spike | upper left platforms | none |  | Verified | collectible |  |
+| Garmond and Zaza Act 3 Meeting The Marrow | ground floor | Act 3 |  | Verified | event |  |

@@ -180,7 +180,7 @@ Generated from the non-archived records in `input/silksong-rando-logic.db`.
 - [Shellwood Flower Pogo Upper Hall (Shellwood_20)](./shellwood/shellwood-flower-pogo-upper-hall.md)
 - [Shellwood Greyroot Entrance (Shellwood_Witch)](./shellwood/shellwood-greyroot-entrance.md)
 - [Shellwood Hidden Bellhart Connection (Shellwood_15)](./shellwood/shellwood-hidden-bellhart-connection.md)
-- [Shellwood Left side Long pond room (Shellwood_04b)](./shellwood/shellwood-left-side-long-pond-room.md)
+- [Shellwood Left Side Long Pond Room (Shellwood_04b)](./shellwood/shellwood-left-side-long-pond-room.md)
 - [Shellwood Lower Left Tall Room (Shellwood_03)](./shellwood/shellwood-lower-left-tall-room.md)
 - [Shellwood Lower Toll bench (Shellwood_08c)](./shellwood/shellwood-lower-toll-bench.md)
 - [Shellwood Mask Shard Room (Shellwood_14)](./shellwood/shellwood-mask-shard-room.md)

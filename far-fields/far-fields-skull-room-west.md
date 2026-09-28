@@ -49,3 +49,5 @@
 | spine break blast rock | bone bridge | break blast rock up |  | Verified | blockade |  |
 | lower left blast rock blockade | lower left exit area | break blast rock right |  | Verified | blockade |  |
 | upper left blast rock blockade | upper left exit area | break blast rock left |  | Verified | blockade |  |
+| Resting Site Far Fields | bone bridge | complete THE a vassal lost wish promised |  | Verified | event |  |
+| Garmond and Zaza Act 3 Meeting Far Fields East | main floor | Act 3 |  | Verified | event |  |

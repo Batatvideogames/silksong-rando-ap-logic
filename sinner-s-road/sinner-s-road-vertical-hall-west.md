@@ -2,7 +2,7 @@
 
 **Game ID:** Dust_02
 
-**Contributors:** herchey
+**Contributors:** herchey's going to bed
 
 ## Subrooms
 

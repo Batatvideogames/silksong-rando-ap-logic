@@ -59,15 +59,15 @@
 | --- | --- | --- | --- | --- | --- | --- |
 | Hermits Soul | Hermit | prereq Wish: Silk And Soul Started |  | Verified | collectible |  |
 | Silver Bell Spawn Location #6 | Upper Hall | prereq Wish: Silver Bells Started |  | Verified | collectible |  |
-| Rosary Cache: Bellhart #6 | Upper Hall | None |  | Verified | resource |  |
+| Rosary Cache: Bellhart #6 | Upper Hall | None |  | Verified | collectible |  |
 | Silver Bell Spawn Location #7 | Upper Hall | prereq Wish: Silver Bells Started |  | Verified | collectible |  |
 | Silver Bell Spawn Location #8 | Under Hermit Hall | prereq Wish: Silver Bells Started |  | Verified | collectible |  |
 | Silver Bell Spawn Location #12 | Under Hermit Hall | prereq Wish: Silver Bells Started |  | Verified | collectible |  |
-| Rosary Cache: Bellhart #7 | Rosary Room | None |  | Verified | resource |  |
+| Rosary Cache: Bellhart #7 | Rosary Room | None |  | Verified | collectible |  |
 | Silver Bell Spawn Location #9 | Passage below rosary | prereq Wish: Silver Bells Started |  | Verified | collectible |  |
 | Silver Bell Spawn Location #10 | Lower Passage 1 | prereq Wish: Silver Bells Started |  | Verified | collectible |  |
 | Silver Bell Spawn Location #11 | Lower Passage 2 | prereq Wish: Silver Bells Started |  | Verified | collectible |  |
-| Rosary Cache: Bellhart #5 | Bottom Exit | None |  | Verified | resource |  |
+| Rosary Cache: Bellhart #5 | Bottom Exit | None |  | Verified | collectible |  |
 | Hermit Hole Breakable Wall | Under Hermit Hall | None |  | Verified | blockade |  |
 | Breakable Wall Passage Breakable Wall | Breakable Wall Passage | None |  | Verified | blockade |  |
 | Lower Passage 2 Breakable Wall | Lower Passage 2 | None |  | Verified | blockade |  |

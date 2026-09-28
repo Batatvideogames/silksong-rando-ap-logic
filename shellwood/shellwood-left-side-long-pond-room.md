@@ -1,4 +1,4 @@
-# Shellwood Left side Long pond room (Shellwood_04b)
+# Shellwood Left Side Long Pond Room (Shellwood_04b)
 
 **Game ID:** Shellwood_04b
 
@@ -27,4 +27,6 @@
 
 ## Check Locations
 
-No check locations defined.
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Garmond and Zaza Act 3 Meeting Shellwood | Left Lake | Act 3 |  | Verified | event |  |
