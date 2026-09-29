@@ -2,24 +2,34 @@
 
 **Game ID:** Dock_04
 
-**Contributors:** herounit
+**Contributors:** herounit and Rebel
 
 ## Subrooms
 
-No subrooms defined.
+- Top
+- Middle
+- Low
+- Bottom
 
 ## Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Deep Docks Church (Dock_06_Church)](deep-docks-church.md) | R | none |  |  |  |
-| MR | right2 |  | [Deep Docks Spool East (Bone_East_13)](deep-docks-spool-east.md) | L | none |  |  |  |
-| UR | right1 |  | [Deep Docks Forge (Room_Forge)](deep-docks-forge.md) | L | none |  |  |  |
-| LR | right3 |  | [Deep Docks Sauna (Dock_10)](deep-docks-sauna.md) | L | activate door pressure plate IN deep docks sauna |  |  |  |
+| L | left1 | Low | [Deep Docks Church (Dock_06_Church)](deep-docks-church.md) | R | none |  | Verified |  |
+| MR | right2 | Middle | [Deep Docks Spool East (Bone_East_13)](deep-docks-spool-east.md) | L | none |  | Verified |  |
+| UR | right1 | Top | [Deep Docks Forge (Room_Forge)](deep-docks-forge.md) | L | none |  | Verified |  |
+| LR | right3 | Bottom | [Deep Docks Sauna (Dock_10)](deep-docks-sauna.md) | L | Activate Sauna Door Lock IN Deep Docks Sauna |  | Verified |  |
 
 ## Subroom Connections
 
-No subroom connections defined.
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| TM | Top <> Middle | Top | Middle | Nothing. (Fall) |  | Verified |  |
+| TM | Top <> Middle | Middle | Top | Ledge Grab OR Cling Grip OR Scuttlebrace OR Faydown Cloak OR Silk Soar |  | Verified |  |
+| ML | Middle <> Low | Middle | Low | Nothing. (Fall) |  | Verified |  |
+| ML | Middle <> Low | Low | Middle | Ledge Grab OR Cling Grip OR Scuttlebrace OR Faydown Cloak OR Silk Soar |  | Verified |  |
+| LB | Low <> Bottom | Low | Bottom | Nothing. (Fall) |  | Verified |  |
+| LB | Low <> Bottom | Bottom | Low | Ledge Grab OR Cling Grip OR Scuttlebrace OR Faydown Cloak OR Sprint OR Silk Soar |  | Verified |  |
 
 ## Check Locations
 

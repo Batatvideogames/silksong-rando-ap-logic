@@ -2,7 +2,7 @@
 
 **Game ID:** Bone_East_12
 
-**Contributors:** herounit
+**Contributors:** herounit and Rebel
 
 ## Subrooms
 
@@ -15,25 +15,24 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 | left area | [Deep Docks Map Shop (Bone_East_01)](deep-docks-map-shop.md) | LR | none |  |  |  |
-| R | right1 | right area | [Deep Docks Bellshrine (Bellshrine_05)](deep-docks-bellshrine.md) | L | none |  |  |  |
-| F | bot1 | left area | [Deep Docks Forge (Room_Forge)](deep-docks-forge.md) | C | activate airlock up |  |  |  |
+| L | left1 | left area | [Deep Docks Map Shop (Bone_East_01)](deep-docks-map-shop.md) | LR | none |  | Verified |  |
+| R | right1 | right area | [Deep Docks Bellshrine (Bellshrine_05)](deep-docks-bellshrine.md) | L | none |  | Verified |  |
+| F | bot1 | left area | [Deep Docks Forge (Room_Forge)](deep-docks-forge.md) | C | Open Airlock Down |  | Verified |  |
 
 ## Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| SP | lever platform jump | left area | switch platform | run OR dash OR drifter's cloak OR faydown cloak OR silk soar OR clawline OR sharpdart OR beast crest |  |  |  |
-| SP | lever platform jump | switch platform | left area | none (falling) |  |  |  |
-| BL | boss arena left | left area | boss arena | gate switch flipped |  |  |  |
-| BL | boss arena left | boss arena | left area | gate switch flipped AND completed lace 1 boss fight |  |  |  |
-| BR | boss arena right | boss arena | right area | completed lace 1 boss fight |  |  |  |
-| BR | boss arena right | right area | boss arena | none |  | Needs verification |  |
+| SP | lever platform jump | left area | switch platform | Scuttlebrace OR Faydown Cloak OR Silk Soar OR Sprint OR Easy Beast Charge OR ((Ledge Grab OR Cling Grip) AND (Drifter's Cloak OR Dash OR Clawline OR Sharpdart OR Medium Voltvessels Stall OR Easy Architect Charge)) OR (Flea Brew AND Easy Flea Brew Stall) |  | Verified |  |
+| SP | lever platform jump | switch platform | left area | none (falling) |  | Verified |  |
+| BL | boss arena left | left area | boss arena | activate gate switch lace |  | Verified |  |
+| BL | boss arena left | boss arena | left area | activate gate switch lace AND defeat lace 1 boss fight |  | Verified |  |
+| BR | boss arena right | boss arena | right area | defeat lace 1 boss fight |  | Verified |  |
+| BR | boss arena right | right area | boss arena | defeat lace 1 boss fight |  | Verified |  |
 
 ## Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| gate switch | switch platform | none |  |  |  |  |
-| lace 1 boss fight | boss arena | none |  |  |  |  |
-| lace 1 encounter spot | boss arena | none |  |  |  | This needs to be converted into a multi-location virtual event |
+| gate switch lace | switch platform | none |  | Verified | switch |  |
+| lace 1 boss fight | boss arena | none |  | Verified | boss |  |

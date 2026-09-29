@@ -2,7 +2,7 @@
 
 **Game ID:** Dock_09
 
-**Contributors:** herounit
+**Contributors:** herounit and Rebel
 
 ## Subrooms
 
@@ -14,22 +14,20 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 | right area | [Deep Docks Chains West (Dock_02)](deep-docks-chains-west.md) | LL | none |  |  |  |
-| L | left1 | left area | [Deep Docks Lower East Shaft (Dock_15)](deep-docks-lower-east-shaft.md) | UR | none |  |  |  |
+| R | right1 | right area | [Deep Docks Chains West (Dock_02)](deep-docks-chains-west.md) | LL | none |  | Verified |  |
+| L | left1 | left area | [Deep Docks Lower East Shaft (Dock_15)](deep-docks-lower-east-shaft.md) | UR | none |  | Verified |  |
 
 ## Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| RB | right boss entrance | right area | boss area | none (starts fight) |  |  |  |
-| RB | right boss entrance | boss area | right area | defeat forebrothers |  |  |  |
-| LB | left boss entrance | left area | boss area | none |  |  | not sure if right side is blocked off by default - needs verification |
-| LB | left boss entrance | boss area | left area | defeat forebrothers |  |  |  |
+| RB | right boss entrance | right area | boss area | none (starts fight) |  | Verified |  |
+| RB | right boss entrance | boss area | right area | defeat forebrothers boss fight AND (Cling Grip OR Faydown Cloak OR Silk Soar) |  | Verified |  |
+| LB | left boss entrance | left area | boss area | defeat forebrothers boss fight |  | Verified |  |
+| LB | left boss entrance | boss area | left area | defeat forebrothers boss fight |  | Verified |  |
 
 ## Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| forebrothers boss fight | boss area | none |  |  |  |  |
-| rosary cache 1 | right area | none |  |  |  |  |
-| rosary cache 2 | right area | none |  |  |  |  |
+| forebrothers boss fight | boss area | none |  | Verified | boss |  |

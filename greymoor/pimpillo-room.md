@@ -23,4 +23,3 @@ No subroom connections defined.
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | Pimpillo |  | have Craftmetal |  | Verified | collectible |  |
-| bounce vine wall |  | break wall: down |  | Verified | blockade | if not broken you just get bounced back |

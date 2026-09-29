@@ -31,11 +31,11 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| PG1 | plartform gap 1 | lower section | guarded platforms | ledge grab OR silk soar OR cling grip OR progressive swift step 2 OR medium shaman pogo  OR easy beast needle strike |  | Verified |  |
+| PG1 | plartform gap 1 | lower section | guarded platforms | ledge grab OR silk soar OR cling grip OR progressive swift step 2 OR medium shaman pogo  OR easy beast needle strike OR faydown cloak |  | Verified |  |
 | PG1 | plartform gap 1 | guarded platforms | lower section | none (just fall) |  | Verified |  |
-| PG2 | platform gap 2 | middle section | lower spike wheel | ledge grab OR silk soar OR cling grip OR progressive swift step 1 OR easy beast needle strike |  | Verified |  |
+| PG2 | platform gap 2 | middle section | lower spike wheel | ledge grab OR silk soar OR cling grip OR progressive swift step 1 OR easy beast needle strike OR faydown cloak |  | Verified |  |
 | PG2 | platform gap 2 | lower spike wheel | middle section | none (just fall) |  | Verified |  |
-| PG3 | platform gap 3 | lower spike wheel | upper spike wheel | cling grip OR silk soar OR (faydown cloak AND (easy scuttlebrace OR progressive swift step 1)) |  | Verified |  |
+| PG3 | platform gap 3 | lower spike wheel | upper spike wheel | cling grip OR silk soar OR (faydown cloak AND (easy scuttlebrace OR progressive swift step 1 OR ledge grab)) |  | Verified |  |
 | PG3 | platform gap 3 | upper spike wheel | lower spike wheel | none (just fall) |  | Verified |  |
 | F1 | fall 1 | upper spike wheel | tower top section | unlock top trapdoor AND spike pogo AND (faydown cloak OR ledge grab OR cling grip) |  | Verified |  |
 | F1 | fall 1 | tower top section | upper spike wheel | unlock top trapdoor |  | Verified |  |

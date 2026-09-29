@@ -2,7 +2,7 @@
 
 **Game ID:** Bone_East_04c
 
-**Contributors:** herounit
+**Contributors:** herounit and Rebel
 
 ## Subrooms
 
@@ -12,7 +12,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Is this still Deep Docks? (East) (Bone_East_04)](is-this-still-deep-docks-east.md) | UR | none |  | Verified |  |
+| L | left1 |  | [Is this still Deep Docks? East (Bone_East_04)](is-this-still-deep-docks-east.md) | UR | Nothing. |  | Verified |  |
 | SC | slab capture |  | [Slab Capture](../fast-travel/slab-capture.md) | DD | after get kidnapped |  | Verified |  |
 
 ## Subroom Connections
@@ -23,9 +23,10 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| wardenfly |  | ( act 1 OR act 2 ) AND defeat THE bell beast boss fight |  |  | enemy | per the wiki |
-| get kidnapped |  | after wardenfly |  |  | logic-point |  |
+| wardenfly |  | ( act 1 OR act 2 ) AND defeat THE bell beast boss fight |  | Verified | enemy | per the wiki |
+| get kidnapped |  | after wardenfly |  | Verified | logic-point |  |
 
 ## Notes
 
 just a camp? no enemies? did we find bush girl here at some point?
+and a wardenfly!

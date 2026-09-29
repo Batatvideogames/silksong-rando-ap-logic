@@ -19,7 +19,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | L | left | behind left wall | [Sinner's Road Mist Maze Completed (Dust_Maze_08_completed)](sinner-s-road-mist-maze-completed.md) | LR | none |  | Verified |  |
 | C | center | hatch | [Sinner's Road Vertical Hall West (Dust_02)](sinner-s-road-vertical-hall-west.md) | C | none |  | Verified |  |
-| R | right | right door platform | [Sinner's Road Vertical Hall East (Dust_06)](sinner-s-road-vertical-hall-east.md) | L | faydown cloak OR (enemy pogo AND drifter’s cloak) OR (clawline AND (ledge grab OR cling grip)) |  | Verified |  |
+| R | right | right door platform | [Sinner's Road Vertical Hall East (Dust_06)](sinner-s-road-vertical-hall-east.md) | L | complete North Hall Door Switch |  | Verified |  |
 
 ## Subroom Connections
 
@@ -46,3 +46,4 @@
 | Shell Shard Cache: Sinner’s Road #7 | left area | swim AND attack up |  | Verified | collectible |  |
 | Sinner's Road - Rosary Chest | chest plat | none |  | Verified | collectible |  |
 | Garmond and Zaza Act 3 Meeting Sinner's Road | right door platform | Act 3 |  | Verified | event |  |
+| North Hall Door Switch | right door platform | hit switch up OR hit switch right OR hit switch left |  | Verified | switch |  |

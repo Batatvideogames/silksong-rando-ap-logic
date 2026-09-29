@@ -2,7 +2,7 @@
 
 **Game ID:** Dock_02b
 
-**Contributors:** herounit
+**Contributors:** herounit and Rebel
 
 ## Subrooms
 
@@ -14,51 +14,54 @@
 - lower left area
 - middle side room
 - lower chain platforms
+- upper right exit
+- Flintslate
 
 ## Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| UL | left1 | upper left hallway | [Deep Docks Chains West (Dock_02)](deep-docks-chains-west.md) | UR | none |  |  |  |
-| ML | left2 | middle left exit area | [Deep Docks Chains West (Dock_02)](deep-docks-chains-west.md) | MR | none |  |  |  |
-| LL | left3 | lower left area | [Deep Docks Chains West (Dock_02)](deep-docks-chains-west.md) | LR | none |  |  |  |
-| UR | right1 | upper chain platforms | [Deep Docks Chains Upper East (Dock_03)](deep-docks-chains-upper-east.md) | L | break wall (from this side) |  |  | can't enter from the other side until this is broken |
-| LR | right2 | lower right area | [Deep Docks Chains Lower East (Dock_03c)](deep-docks-chains-lower-east.md) | L | break wall (from other side) |  |  |  |
+| UL | left1 | upper left hallway | [Deep Docks Chains West (Dock_02)](deep-docks-chains-west.md) | UR | none |  | Verified |  |
+| ML | left2 | middle left exit area | [Deep Docks Chains West (Dock_02)](deep-docks-chains-west.md) | MR | none |  | Verified |  |
+| LL | left3 | lower left area | [Deep Docks Chains West (Dock_02)](deep-docks-chains-west.md) | LR | none |  | Verified |  |
+| UR | right1 | upper right exit | [Deep Docks Chains Upper East (Dock_03)](deep-docks-chains-upper-east.md) | L | none |  | Verified |  |
+| LR | right2 | lower right area | [Deep Docks Chains Lower East (Dock_03c)](deep-docks-chains-lower-east.md) | L | activate shortcut blast rock IN Deep docks chains lower east |  | Verified |  |
 
 ## Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| ME | middle exit to switch platform | middle left exit area | middle switch platform | cling grip OR ( silk soar AND magma bell AND blue slot ) |  |  |  |
-| ME | middle exit to switch platform | middle switch platform | middle left exit area | none (falling) |  |  |  |
-| LC | lower crossing | lower right area | lower left area | run OR dash OR drifter's cloak OR faydown cloak OR cling grip OR silk soar OR claw line OR sharp dart OR beast crest OR shaman crest |  |  |  |
-| LC | lower crossing | lower left area | lower right area | none (jump) |  |  |  |
-| P1 | lower to middle switch platform | lower left area | lower chain platforms | silk soar |  |  |  |
-| P1 | lower to middle switch platform | lower chain platforms | lower left area | none (falling) |  |  |  |
-| P2 | lower platforms to lower right area | lower chain platforms | lower right area | none (falling) |  |  |  |
-| P2 | lower platforms to lower right area | lower right area | lower chain platforms | silk soar |  |  |  |
-| C1 | middle chains to upper chains | middle switch platform | upper chain platforms | ceiling switch activated AND ( silk soar OR cling grip ) |  |  |  |
-| C1 | middle chains to upper chains | upper chain platforms | middle switch platform | ceiling switch activated AND none (falling) |  |  |  |
-| MS | middle switch platform to side room | middle switch platform | middle side room | none (falling) |  |  | one-way |
-| MS | middle switch platform to side room | middle side room | middle switch platform | ceiling switch activated |  |  |  |
-| MP | middle platform to lower chains | middle switch platform | lower chain platforms | none |  |  |  |
-| MP | middle platform to lower chains | lower chain platforms | middle switch platform | none |  |  |  |
-| DS | open door switch | upper left hallway | upper chain platforms | none (door switch is on this side) |  |  |  |
-| DS | open door switch | upper chain platforms | upper left hallway | door switch flipped |  |  |  |
-| S1 | side room to chain platforms | middle side room | lower chain platforms | none |  |  |  |
-| S1 | side room to chain platforms | lower chain platforms | middle side room | none (falling) |  |  | I have a feeling this line is going to cause problems |
+| ME | middle exit to switch platform | middle left exit area | middle switch platform | cling grip OR ( silk soar AND magma bell ) |  | Verified |  |
+| ME | middle exit to switch platform | middle switch platform | middle left exit area | none (falling) |  | Verified |  |
+| LC | lower crossing | lower right area | lower left area | run OR dash OR drifter's cloak OR faydown cloak OR cling grip OR silk soar OR clawline OR sharp dart OR easy beast crest pogo OR ((Ledge Grab AND (easy shaman crest pogo OR easy reaper pogo OR (Proficient Movement AND Architect Attack Left) OR Easy Architect Charge OR Easy Beast Charge))) |  | Verified |  |
+| LC | lower crossing | lower left area | lower right area | none (jump) |  | Verified |  |
+| P1 | lower to middle switch platform | lower left area | lower chain platforms | silk soar |  | Verified |  |
+| P1 | lower to middle switch platform | lower chain platforms | lower left area | none (falling) |  | Verified |  |
+| P2 | lower platforms to lower right area | lower chain platforms | lower right area | none (falling) |  | Verified |  |
+| P2 | lower platforms to lower right area | lower right area | lower chain platforms | silk soar |  | Verified |  |
+| C1 | middle chains to upper chains | middle switch platform | upper chain platforms | activate ceiling switch AND ( silk soar OR cling grip OR Scuttlebrace) |  | Verified |  |
+| C1 | middle chains to upper chains | upper chain platforms | middle switch platform | activate ceiling switch (Fall) |  | Verified |  |
+| MS | middle switch platform to side room | middle switch platform | middle side room | none (falling) |  | Verified | one-way |
+| MS | middle switch platform to side room | middle side room | middle switch platform | (Silk Soar OR (Cling Grip AND Faydown Cloak) OR (Activate Ceiling Switch AND (Ledge Grab OR Cling Grip OR Scuttlebrace OR Faydown Cloak OR Clawline OR Sharpdart OR Dash OR Proficient Movement))) |  | Verified |  |
+| MP | middle platform to lower chains | middle switch platform | lower chain platforms | none |  | Verified |  |
+| MP | middle platform to lower chains | lower chain platforms | middle switch platform | ((Silk Soar OR (Activate Ceiling Switch AND (Ledge Grab OR Cling Grip OR Scuttlebrace OR Faydown Cloak OR Clawline OR Sharpdart OR Dash OR Proficient Movement)))) |  | Verified |  |
+| S1 | side room to chain platforms | middle side room | lower chain platforms | ((Silk Soar OR (Activate Ceiling Switch AND (Ledge Grab OR Cling Grip OR Scuttlebrace OR Faydown Cloak OR Clawline OR Sharpdart OR Dash OR Proficient Movement)))) |  | Verified |  |
+| S1 | side room to chain platforms | lower chain platforms | middle side room | none (falling) |  | Verified | I have a feeling this line is going to cause problems |
+| CUE | Upper Chain <> Right Exit | upper chain platforms | upper right exit | Ledge Grab OR Cling Grip OR Scuttlebrace OR Silk Soar OR Faydown Cloak OR Clawline OR Sharpdart OR Dash |  | Verified |  |
+| CUE | Upper Chain <> Right Exit | upper right exit | upper chain platforms | nada (Fall) |  | Verified |  |
+| FG | Flintslate Get | upper chain platforms | Flintslate | Silk Soar OR Ledge Grab OR Cling Grip OR Scuttlebrace OR Faydown Cloak OR Clawline OR Sharpdart OR Dash |  | Verified |  |
+| FG | Flintslate Get | Flintslate | upper chain platforms | Nada |  | Verified |  |
 
 ## Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| flintslate | upper left hallway | none |  |  |  |  |
-| shell shard cache deep docks 6 | middle switch platform | none |  |  |  | MARKED AS ??? ON TRACKER |
-| shell shard cache deep docks 7 | middle switch platform | none |  |  |  | MARKED AS ??? ON TRACKER |
-| shell shard cache deep docks 8 | middle switch platform | none |  |  |  | MARKED AS ??? ON TRACKER |
-| shell shard cache deep docks 9 | middle switch platform | none |  |  |  | MARKED AS ??? ON TRACKER |
-| ceiling switch | middle switch platform | none |  |  |  | lowers middle chain platforms |
-| door switch | upper left hallway | none |  |  |  |  |
+| flintslate | Flintslate | none |  | Verified | collectible |  |
+| shell shard cache deep docks 6 | middle side room | none |  | Verified | resource |  |
+| shell shard cache deep docks 7 | middle side room | none |  | Verified | resource |  |
+| shell shard cache deep docks 8 | middle side room | none |  | Verified | resource |  |
+| shell shard cache deep docks 9 | middle side room | none |  | Verified | resource |  |
+| ceiling switch | middle switch platform | none |  | Verified | switch | lowers middle chain platforms |
 
 ## Notes
 

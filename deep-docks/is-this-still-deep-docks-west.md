@@ -1,35 +1,38 @@
-# Is this still Deep Docks? (West) (Bone_East_04b)
+# Is this still Deep Docks West (Bone_East_04b)
 
 **Game ID:** Bone_East_04b
 
-**Contributors:** herounit
+**Contributors:** herounit and Rebel
 
 ## Subrooms
 
 - side room
 - ground
 - upper level
+- Rosary String
 
 ## Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 | ground | [Is this still Deep Docks? (East) (Bone_East_04)](is-this-still-deep-docks-east.md) | L | attack blast rock, unblocks wall |  |  |  |
-| C | top1 | upper level | [Hunter's March Deep Docks Passage (Ant_05b)](../hunter-s-march/hunter-s-march-deep-docks-passage.md) | LF |  |  |  |  |
-| L | left1 | ground | [Deep Docks Upper Spire (Bone_East_05)](deep-docks-upper-spire.md) | R |  |  |  |  |
+| R | right1 | ground | [Is this still Deep Docks? East (Bone_East_04)](is-this-still-deep-docks-east.md) | L | Activate Deep Docks Is This Still Deep Docks West Blast Rock |  | Verified |  |
+| C | top1 | upper level | [Hunter's March Deep Docks Passage (Ant_05b)](../hunter-s-march/hunter-s-march-deep-docks-passage.md) | LF | Nothing. |  | Verified |  |
+| L | left1 | ground | [Deep Docks Upper Spire (Bone_East_05)](deep-docks-upper-spire.md) | R | Nothing. |  | Verified |  |
 
 ## Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| BW | break wall | side room | ground | break wall (left) |  |  |  |
-| BW | break wall | ground | side room | none |  |  |  |
-| BJ | big jump | ground | upper level | silk soar OR faydown cloak OR cling grip |  |  |  |
-| BJ | big jump | upper level | ground | none (falling) |  |  |  |
+| BW | break wall | side room | ground | break wall left |  | Verified |  |
+| BW | break wall | ground | side room | Ledge Grab OR Cling Grip OR Faydown Cloak OR Silk Soar OR Easy Enemy Pogo |  | Verified |  |
+| BJ | big jump | ground | upper level | Cling Grip OR (Faydown Cloak AND Ledge Grab) OR Silk Soar |  | Verified |  |
+| BJ | big jump | upper level | ground | none (falling) |  | Verified |  |
+| CR | Collect Rosary | side room | Rosary String | Ledge Grab OR Faydown Cloak OR Cling Grip OR Silk Soar |  | Verified |  |
+| CR | Collect Rosary | Rosary String | side room | Nothing. (Fall) |  | Verified |  |
 
 ## Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| blast rock pathway opener | ground | blast rock |  |  |  |  |
-| frayed rosary string deep docks | side room | none |  |  |  | MARKED AS ??? ON TRACKER |
+| Deep Docks Is This Still Deep Docks West Blast Rock | ground | Break Blast Rock Right |  | Verified | blockade |  |
+| Deep Docks Is This Still Deep Docks West - Frayed Rosary String | Rosary String | Nothing. |  | Verified | collectible |  |

@@ -29,4 +29,4 @@
 | silkspeed anklets | entrance | run OR ( easy beast pogo AND proficient movement ) |  | Verified | collectible | archipelago contribution that you can get the anklets without run |
 | relic rune harp weavenest cindril | secret room | none |  | Verified | collectible |  |
 | map of paths away from pharloom | secret room | none |  | Verified | lore |  |
-| secret room lock | entrance | run AND silkspeed anklets AND flea brew |  | Verified | lock |  |
+| secret room lock | entrance | run AND silkspeed anklets AND flea brew speed |  | Verified | lock |  |

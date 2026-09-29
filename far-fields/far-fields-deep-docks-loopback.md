@@ -15,7 +15,7 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 | bell bench | [Is this still Deep Docks? (East) (Bone_East_04)](../deep-docks/is-this-still-deep-docks-east.md) | LR | none |  | Verified |  |
+| L | left1 | bell bench | [Is this still Deep Docks? East (Bone_East_04)](../deep-docks/is-this-still-deep-docks-east.md) | LR | none |  | Verified |  |
 | F | bot1 | ground | [Far Fields Entrance East (Bone_East_02)](far-fields-entrance-east.md) | C | none |  | Verified |  |
 | R | right1 | spike exit | [Far Fields Fort Upper Passage (Bone_East_17)](far-fields-fort-upper-passage.md) | L | none |  | Verified |  |
 

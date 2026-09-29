@@ -2,7 +2,7 @@
 
 **Game ID:** Dock_08
 
-**Contributors:** herounit
+**Contributors:** herounit and Rebel
 
 ## Subrooms
 
@@ -15,25 +15,25 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| UL | left2 | gauntlet left | [The Marrow Lava Docks (Bone_09)](../the-marrow/the-marrow-lava-docks.md) | UR | none |  | Needs verification |  |
-| LL | left1 | main pathway | [The Marrow Lava Docks (Bone_09)](../the-marrow/the-marrow-lava-docks.md) | LR | none |  | Needs verification |  |
-| R | right1 | main pathway | [Deep Docks Bench Shaft (Dock_01)](deep-docks-bench-shaft.md) | L | none |  | Needs verification |  |
+| UL | left2 | gauntlet left | [The Marrow Lava Docks (Bone_09)](../the-marrow/the-marrow-lava-docks.md) | UR | none |  | Verified |  |
+| LL | left1 | main pathway | [The Marrow Lava Docks (Bone_09)](../the-marrow/the-marrow-lava-docks.md) | LR | none |  | Verified |  |
+| R | right1 | main pathway | [Deep Docks Bench Shaft (Dock_01)](deep-docks-bench-shaft.md) | L | none |  | Verified |  |
 
 ## Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| DS | door switch | main pathway | gauntlet right | activate door switch |  | Needs verification |  |
-| DS | door switch | gauntlet right | main pathway | none (switch is on this side) |  | Needs verification |  |
-| GL | gauntlet fight left | gauntlet left | gauntlet | none (starts gauntlet) |  | Needs verification |  |
-| GL | gauntlet fight left | gauntlet | gauntlet left | defeat gauntlet |  | Needs verification |  |
-| GR | gauntlet fight right | gauntlet | gauntlet right | defeat gauntlet |  | Needs verification |  |
-| GR | gauntlet fight right | gauntlet right | gauntlet | none (starts gauntlet) |  | Needs verification | probably not possible to reach unless switch is flipped via AP check |
+| DS | door switch | main pathway | gauntlet right | Activate Deep Docks Entrance Lever AND (Ledge Grab OR Faydown Cloak OR Easy Scuttlebrace OR Easy Shaman Crest Pogo OR Easy Needle Strike Stall (Beast)) |  | Verified |  |
+| DS | door switch | gauntlet right | main pathway | Activate Deep Docks Entrance Lever |  | Verified |  |
+| GL | gauntlet fight left | gauntlet left | gauntlet | Nothing. |  | Verified |  |
+| GL | gauntlet fight left | gauntlet | gauntlet left | Defeat Deep Docks Entrance Battle |  | Verified |  |
+| GR | gauntlet fight right | gauntlet | gauntlet right | Defeat Deep Docks Entrance Battle |  | Verified |  |
+| GR | gauntlet fight right | gauntlet right | gauntlet | Activate Deep Docks Entrance Lever |  | Verified |  |
 
 ## Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| door switch | gauntlet right | none |  | Needs verification | switch |  |
-| gauntlet | gauntlet | none |  | Needs verification | gauntlet |  |
-| mask shard the marrow deep docks passage | gauntlet right | none |  | Needs verification | collectible |  |
+| Deep Docks Entrance Lever | gauntlet right | Flip Switch Right |  | Verified | switch |  |
+| Deep Docks Entrance Battle | gauntlet | Nothing. |  | Verified | gauntlet |  |
+| Deep Docks Entrance - Mask Shard | gauntlet right | Nothing. |  | Verified | collectible |  |

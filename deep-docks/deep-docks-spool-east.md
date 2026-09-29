@@ -2,7 +2,7 @@
 
 **Game ID:** Bone_East_13
 
-**Contributors:** herounit
+**Contributors:** herounit and Rebel
 
 ## Subrooms
 
@@ -13,21 +13,21 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 | the floor is lava | [Deep Docks Lower West Shaft (Dock_04)](deep-docks-lower-west-shaft.md) | MR | none |  |  |  |
+| L | left1 | the floor is lava | [Deep Docks Lower West Shaft (Dock_04)](deep-docks-lower-west-shaft.md) | MR | none |  | Verified |  |
 
 ## Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| LP | lower platforms | the floor is lava | spool fragment area | platforms lowered OR faydown cloak OR (silk soar AND magma bell) | TODO |  | might have more options, hard to check after lever is flipped |
-| LP | lower platforms | spool fragment area | the floor is lava | none (falling) |  |  |  |
+| LP | lower platforms | the floor is lava | spool fragment area | (Silk Soar AND (Proficient Movement OR Magma Bell)) OR (Faydown Cloak AND (Ledge Grab OR Cling Grip OR Scuttlebrace OR Clawline OR Sharpdart OR Dash)) OR (Sprint AND Cling Grip) OR ((Clawline OR Sharpdart) AND (Cling Grip OR Ledge Grab OR (Scuttlebrace AND Proficient Movement))) OR ((Clawline x 2 AND (Dash OR Drifter's Cloak OR Flea Brew OR Easy Flea Brew Stall OR Easy Voltvessels Stall OR Easy Architect Charge OR Easy Beast Charge))) OR (Clawline x 3 AND Medium Flintslate Stall) OR (Sharpdart x 2 AND (Drifter's Cloak OR (Flea Brew AND Medium Flea Brew Stall))) OR Activate The Lever That Makes All Of My Hard Work Worthless |  | Verified | might have more options, hard to check after lever is flipped |
+| LP | lower platforms | spool fragment area | the floor is lava | none (falling) |  | Verified |  |
 
 ## Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| spool fragment deep docks | spool fragment area | none |  |  |  |  |
-| shell shard cache deep docks 1 | the floor is lava | magma bell AND blue slot |  |  |  |  |
-| shell shard cache deep docks 2 | the floor is lava | magma bell AND blue slot |  |  |  |  |
-| shell shard cache deep docks 3 | the floor is lava | magma bell AND blue slot |  |  |  |  |
-| platform lever | the floor is lava | none |  |  |  |  |
+| spool fragment deep docks | spool fragment area | none |  | Verified | collectible |  |
+| shell shard cache deep docks 1 | the floor is lava | Magma Bell |  | Verified | resource |  |
+| shell shard cache deep docks 2 | the floor is lava | Magma Bell |  | Verified | resource |  |
+| shell shard cache deep docks 3 | the floor is lava | Magma Bell |  | Verified | resource |  |
+| the lever that makes all of my hard work worthless | the floor is lava | none |  | Verified | switch |  |

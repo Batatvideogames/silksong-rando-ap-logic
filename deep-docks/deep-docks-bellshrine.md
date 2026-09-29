@@ -2,7 +2,7 @@
 
 **Game ID:** Bellshrine_05
 
-**Contributors:** herounit
+**Contributors:** herounit and Rebel
 
 ## Subrooms
 

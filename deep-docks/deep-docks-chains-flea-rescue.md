@@ -2,7 +2,7 @@
 
 **Game ID:** Dock_03d
 
-**Contributors:** herounit
+**Contributors:** herounit and Rebel
 
 ## Subrooms
 
@@ -12,7 +12,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| F | bot1 |  | [Deep Docks Chains Lower East (Dock_03c)](deep-docks-chains-lower-east.md) | LC | none |  |  |  |
+| F | bot1 |  | [Deep Docks Chains Lower East (Dock_03c)](deep-docks-chains-lower-east.md) | LC | open airlock down |  | Verified |  |
 
 ## Subroom Connections
 
@@ -20,4 +20,6 @@ No subroom connections defined.
 
 ## Check Locations
 
-No check locations defined.
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Flea |  | Attack Right |  | Verified | collectible | easiest flea ever |

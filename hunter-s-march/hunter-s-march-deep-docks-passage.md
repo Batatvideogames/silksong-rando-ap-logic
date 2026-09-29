@@ -16,8 +16,8 @@
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | R | right1 | before gate | [Hunter's March Shaft (Ant_14)](hunter-s-march-shaft.md) | L4 | none |  | Verified |  |
-| LF | bot1 | left of gauntlet | [Is this still Deep Docks? (West) (Bone_East_04b)](../deep-docks/is-this-still-deep-docks-west.md) | C | none |  | Verified |  |
-| RF | bot2 | right of gauntlet | [Is this still Deep Docks? (East) (Bone_East_04)](../deep-docks/is-this-still-deep-docks-east.md) | C | none |  | Verified |  |
+| LF | bot1 | left of gauntlet | [Is this still Deep Docks West (Bone_East_04b)](../deep-docks/is-this-still-deep-docks-west.md) | C | none |  | Verified |  |
+| RF | bot2 | right of gauntlet | [Is this still Deep Docks? East (Bone_East_04)](../deep-docks/is-this-still-deep-docks-east.md) | C | none |  | Verified |  |
 
 ## Subroom Connections
 

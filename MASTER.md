@@ -2500,7 +2500,7 @@ No subroom connections defined.
 
 **Game ID:** Dock_08
 
-**Contributors:** herounit
+**Contributors:** herounit and Rebel
 
 #### Subrooms
 
@@ -2513,34 +2513,34 @@ No subroom connections defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| UL | left2 | gauntlet left | [The Marrow Lava Docks (Bone_09)](#the-marrow-lava-docks-bone09) | UR | none |  | Needs verification |  |
-| LL | left1 | main pathway | [The Marrow Lava Docks (Bone_09)](#the-marrow-lava-docks-bone09) | LR | none |  | Needs verification |  |
-| R | right1 | main pathway | [Deep Docks Bench Shaft (Dock_01)](#deep-docks-bench-shaft-dock01) | L | none |  | Needs verification |  |
+| UL | left2 | gauntlet left | [The Marrow Lava Docks (Bone_09)](#the-marrow-lava-docks-bone09) | UR | none |  | Verified |  |
+| LL | left1 | main pathway | [The Marrow Lava Docks (Bone_09)](#the-marrow-lava-docks-bone09) | LR | none |  | Verified |  |
+| R | right1 | main pathway | [Deep Docks Bench Shaft (Dock_01)](#deep-docks-bench-shaft-dock01) | L | none |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| DS | door switch | main pathway | gauntlet right | activate door switch |  | Needs verification |  |
-| DS | door switch | gauntlet right | main pathway | none (switch is on this side) |  | Needs verification |  |
-| GL | gauntlet fight left | gauntlet left | gauntlet | none (starts gauntlet) |  | Needs verification |  |
-| GL | gauntlet fight left | gauntlet | gauntlet left | defeat gauntlet |  | Needs verification |  |
-| GR | gauntlet fight right | gauntlet | gauntlet right | defeat gauntlet |  | Needs verification |  |
-| GR | gauntlet fight right | gauntlet right | gauntlet | none (starts gauntlet) |  | Needs verification | probably not possible to reach unless switch is flipped via AP check |
+| DS | door switch | main pathway | gauntlet right | Activate Deep Docks Entrance Lever AND (Ledge Grab OR Faydown Cloak OR Easy Scuttlebrace OR Easy Shaman Crest Pogo OR Easy Needle Strike Stall (Beast)) |  | Verified |  |
+| DS | door switch | gauntlet right | main pathway | Activate Deep Docks Entrance Lever |  | Verified |  |
+| GL | gauntlet fight left | gauntlet left | gauntlet | Nothing. |  | Verified |  |
+| GL | gauntlet fight left | gauntlet | gauntlet left | Defeat Deep Docks Entrance Battle |  | Verified |  |
+| GR | gauntlet fight right | gauntlet | gauntlet right | Defeat Deep Docks Entrance Battle |  | Verified |  |
+| GR | gauntlet fight right | gauntlet right | gauntlet | Activate Deep Docks Entrance Lever |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| door switch | gauntlet right | none |  | Needs verification | switch |  |
-| gauntlet | gauntlet | none |  | Needs verification | gauntlet |  |
-| mask shard the marrow deep docks passage | gauntlet right | none |  | Needs verification | collectible |  |
+| Deep Docks Entrance Lever | gauntlet right | Flip Switch Right |  | Verified | switch |  |
+| Deep Docks Entrance Battle | gauntlet | Nothing. |  | Verified | gauntlet |  |
+| Deep Docks Entrance - Mask Shard | gauntlet right | Nothing. |  | Verified | collectible |  |
 
 ### Deep Docks Bench Shaft (Dock_01)
 
 **Game ID:** Dock_01
 
-**Contributors:** herounit
+**Contributors:** herounit and Rebel
 
 #### Subrooms
 
@@ -2550,9 +2550,9 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| UR | right1 |  | [Deep Docks Upper Spire (Bone_East_05)](#deep-docks-upper-spire-boneeast05) | L | gate unlocked from other side |  | Needs verification | must be unlocked from the other side |
-| LR | right2 |  | [Deep Docks Map Shop (Bone_East_01)](#deep-docks-map-shop-boneeast01) | UL | none |  | Needs verification |  |
-| L | left1 |  | [Deep Docks Entrance (Dock_08)](#deep-docks-entrance-dock08) | R | none |  | Needs verification |  |
+| UR | right1 |  | [Deep Docks Upper Spire (Bone_East_05)](#deep-docks-upper-spire-boneeast05) | L | Activate Deep Docks Upper Spire Gate Lever IN Deep Docks Upper Spire |  | Verified | must be unlocked from the other side |
+| LR | right2 |  | [Deep Docks Map Shop (Bone_East_01)](#deep-docks-map-shop-boneeast01) | UL | Nothing. |  | Verified |  |
+| L | left1 |  | [Deep Docks Entrance (Dock_08)](#deep-docks-entrance-dock08) | R | Nothing. |  | Verified |  |
 
 #### Subroom Connections
 
@@ -2562,54 +2562,71 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| bench rosary lock |  | none |  |  |  |  |
-| bench |  | unlock bench |  |  |  |  |
-| rosary cache deep docks 7 |  | none |  |  |  | MARKED AS ??? ON TRACKER |
-| rosary cache deep docks 8 |  | none |  |  |  | MARKED AS ??? ON TRACKER |
-| shell shard cache deep docks 4 |  | none |  |  |  | MARKED AS ??? ON TRACKER |
+| bench rosary lock |  | Rosaries 30 |  | Verified | lock |  |
+| Deep Docks Shaft Bench |  | Unlock bench rosary lock |  | Verified | bench |  |
+| Deep Docks - Rosary Cache #7 |  | Nothing. |  | Verified | resource |  |
+| Deep Docks - Rosary Cache #8 |  | Nothing. |  | Verified | resource |  |
+| Deep Docks - Shell Shard Cache #4 |  | Nothing. |  | Verified | resource |  |
 
 ### Deep Docks Map Shop (Bone_East_01)
 
 **Game ID:** Bone_East_01
 
-**Contributors:** herounit
+**Contributors:** herounit and Rebel
 
 #### Subrooms
 
 - upper area
-- lower area
+- lower left door
+- Floor
+- Lower Right Switch
+- Lower Right Door
+- Center Left
+- Upper Switch
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| UL | left1 | lower area | [Deep Docks Bench Shaft (Dock_01)](#deep-docks-bench-shaft-dock01) | LR | none |  | Needs verification |  |
-| LL | left2 | lower area | [Deep Docks Bellway (Bellway_02)](#deep-docks-bellway-bellway02) | R | none |  | Needs verification |  |
-| UR | right1 | upper area | [Deep Docks Spire Lower (Bone_East_03)](#deep-docks-spire-lower-boneeast03) | L | none |  | Needs verification |  |
-| MR | right2 | lower area | [Deep Docks Map Shop Side Room (Dock_05)](#deep-docks-map-shop-side-room-dock05) | L | none |  | Needs verification |  |
-| LR | right3 | lower area | [Deep Docks Lace Intro (Bone_East_12)](#deep-docks-lace-intro-boneeast12) | L | none |  | Needs verification |  |
+| UL | left1 | lower left door | [Deep Docks Bench Shaft (Dock_01)](#deep-docks-bench-shaft-dock01) | LR | none |  | Verified |  |
+| LL | left2 | Floor | [Deep Docks Bellway (Bellway_02)](#deep-docks-bellway-bellway02) | R | none |  | Verified |  |
+| UR | right1 | upper area | [Deep Docks Spire Lower (Bone_East_03)](#deep-docks-spire-lower-boneeast03) | L | none |  | Verified |  |
+| MR | right2 | Lower Right Door | [Deep Docks Map Shop Side Room (Dock_05)](#deep-docks-map-shop-side-room-dock05) | L | none |  | Verified |  |
+| LR | right3 | Floor | [Deep Docks Lace Intro (Bone_East_12)](#deep-docks-lace-intro-boneeast12) | L | none |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| LP | lower platform | lower area | upper area | flip switch to lower platform |  | Needs verification |  |
-| LP | lower platform | upper area | lower area | none (falling) |  | Needs verification |  |
+| FLL | Floor <> Lower Left | Floor | lower left door | Ledge Grab OR Cling Grip OR Scuttlebrace OR Faydown Cloak OR Silk Soar |  | Verified |  |
+| FLL | Floor <> Lower Left | lower left door | Floor | Nothing. (Fall) |  | Verified |  |
+| LLC | Lower Left <> Center | lower left door | Center Left | Ledge Grab OR Cling Grip OR Scuttlebrace OR Faydown Cloak OR Silk Soar |  | Verified |  |
+| LLC | Lower Left <> Center | Center Left | lower left door | Nothing. (Fall) |  | Verified |  |
+| CRD | Center <> Lower Right Door | Center Left | Lower Right Door | Sprint OR Dash OR Clawline OR Sharpdart OR Faydown Cloak OR Drifter's Cloak OR Silk Soar OR ((Medium Voltvessels Stall OR Easy Architect Charge OR (Flea Brew AND Easy Flea Brew Stall)) AND (Ledge Grab OR Cling Grip)) OR Easy Beast Charge OR Easy Beast Pogo OR Activate switch to lower lower platform |  | Verified |  |
+| CRD | Center <> Lower Right Door | Lower Right Door | Center Left | Activate switch to lower lower platform OR Sprint OR Dash OR Clawline OR Sharpdart OR Faydown Cloak OR Drifter's Cloak OR Silk Soar OR Easy Voltvessels Stall OR (Easy Flea Brew Stall AND Flea Brew) OR ((Hard Flintslate Stall OR Easy Hunter Pogo) AND (Ledge Grab OR Cling Grip)) OR Easy Architect Charge OR Easy Beast Charge OR Easy Beast Pogo OR Easy Architect Pogo |  | Verified |  |
+| CRS | Center <> Lower Right Switch | Center Left | Lower Right Switch | Nothing. (Fall) |  | Verified |  |
+| CRS | Center <> Lower Right Switch | Lower Right Switch | Center Left | Invalid |  | Verified |  |
+| SLL | Switch <> Lower Left | Lower Right Switch | lower left door | Silk Soar OR (Activate switch to lower lower platform AND (Cling Grip OR Ledge Grab OR Scuttlebrace OR Faydown Cloak)) OR ((Clawline OR Dash OR Sharpdart) AND (Ledge Grab OR Cling Grip OR Faydown Cloak)) OR Drifter's Cloak OR Sprint OR Easy Beast Crest Pogo OR Easy Beast Charge OR ((Easy Architect Charge OR Easy Voltvessels Stall) AND (Ledge Grab OR Cling Grip)) |  | Verified |  |
+| SLL | Switch <> Lower Left | lower left door | Lower Right Switch | Dash OR Sprint OR Sharpdart OR Clawline OR Faydown Cloak OR Drifter's Cloak OR Scuttlebrace |  | Verified |  |
+| SCL | Upper Switch <> Center Left | Center Left | Upper Switch | Ledge Grab OR Cling Grip OR Faydown Cloak OR Silk Soar |  | Verified |  |
+| SCL | Upper Switch <> Center Left | Upper Switch | Center Left | Nothing. (Fall) |  | Verified |  |
+| UCL | Upper <> Center Left | Center Left | upper area | Faydown Cloak OR Silk Soar OR (Activate switch to upper lower platform  AND (Ledge Grab OR Cling Grip OR Easy Beast Charge OR Easy Shaman Pogo)) |  | Verified |  |
+| UCL | Upper <> Center Left | upper area | Center Left | Nothing. (Fall) |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| map purchase deep docks | lower area | none |  | Needs verification |  | shakra shop |
-| pin purchase vendor pins | lower area | none |  | Needs verification |  | shakra shop |
-| switch to upper lower platform | lower area | none |  | Needs verification |  | NOT CURRENTLY RANDOMIZED |
-| switch to lower lower platform | lower area | none |  | Needs verification |  | NOT CURRENTLY RANDOMIZED (doesn't currently really block anything since you can just jump above and fall down) |
+| map purchase deep docks | Floor | none |  | Verified | collectible | shakra shop |
+| pin purchase vendor pins | Floor | none |  | Verified | collectible | shakra shop |
+| switch to upper lower platform | Upper Switch | Flip Switch Left |  | Verified | switch | NOT CURRENTLY RANDOMIZED |
+| switch to lower lower platform | Lower Right Switch | Flip Switch Right |  | Verified | switch | NOT CURRENTLY RANDOMIZED (doesn't currently really block anything since you can just jump above and fall down) |
 
 ### Deep Docks Map Shop Side Room (Dock_05)
 
 **Game ID:** Dock_05
 
-**Contributors:** herounit
+**Contributors:** herounit and Rebel
 
 #### Subrooms
 
@@ -2637,66 +2654,77 @@ nothing to see here - just murder sleeping dudes
 
 **Game ID:** Bellway_02
 
-**Contributors:** herounit
+**Contributors:** herounit and Rebel
 
 #### Subrooms
 
-No subrooms defined.
+- Bell Beast
+- Entry
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Deep Docks Bellway Flea Rescue (Dock_16)](#deep-docks-bellway-flea-rescue-dock16) | R | break wall left |  | Needs verification |  |
-| BB | door_fastTravelExit |  | [Bellway Menu](#bellway-menu) | DD | unlock bellway deep docks |  | Needs verification |  |
-| R | right1 |  | [Deep Docks Map Shop (Bone_East_01)](#deep-docks-map-shop-boneeast01) | LL | none |  | Needs verification |  |
+| L | left1 | Bell Beast | [Deep Docks Bellway Flea Rescue (Dock_16)](#deep-docks-bellway-flea-rescue-dock16) | R | Activate bellway breakable wall |  | Verified |  |
+| BB | door_fastTravelExit | Bell Beast | [Bellway Menu](#bellway-menu) | DD | unlock bellway deep docks |  | Verified |  |
+| R | right1 | Entry | [Deep Docks Map Shop (Bone_East_01)](#deep-docks-map-shop-boneeast01) | LL | none |  | Verified |  |
 
 #### Subroom Connections
 
-No subroom connections defined.
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| E | Entrance | Entry | Bell Beast | Nothing. (Fall) |  | Verified |  |
+| E | Entrance | Bell Beast | Entry | Ledge Grab OR Cling Grip OR Scuttlebrace OR Faydown Cloak OR Silk Soar |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| bellway rosary lock |  | rosaries 40 |  | Verified | lock |  |
-| bellway deep docks |  | unlock bellway rosary lock |  |  | travel |  |
+| bellway rosary lock | Bell Beast | rosaries 40 |  | Verified | lock |  |
+| bellway breakable wall | Bell Beast | Break Wall Left |  | Verified | blockade |  |
+| bellway deep docks | Bell Beast | unlock bellway rosary lock |  | Verified | travel |  |
 
 ### Deep Docks Bellway Flea Rescue (Dock_16)
 
 **Game ID:** Dock_16
 
-**Contributors:** herounit
+**Contributors:** herounit and Rebel
 
 #### Subrooms
 
-No subrooms defined.
+- Floor
+- Upper
+- Flea
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 |  | [Deep Docks Bellway (Bellway_02)](#deep-docks-bellway-bellway02) | L | none |  | Verified |  |
+| R | right1 | Floor | [Deep Docks Bellway (Bellway_02)](#deep-docks-bellway-bellway02) | L | none |  | Verified |  |
 
 #### Subroom Connections
 
-No subroom connections defined.
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| FTU | Floor <> Upper | Floor | Upper | Ledge Grab OR Cling Grip OR Faydown Cloak OR Silk Soar |  | Verified |  |
+| FTU | Floor <> Upper | Upper | Floor | Nothing. (Fall) |  | Verified |  |
+| UTF | Upper <> Flea | Upper | Flea | Nothing. |  | Verified |  |
+| UTF | Upper <> Flea | Flea | Upper | Nothing. |  | Verified |  |
+| FTF | Floor <> Flea | Floor | Flea | (Activate Flea Breakable Floor AND (Silk Soar OR (Faydown Cloak AND (Ledge Grab OR Cling Grip OR Scuttlebrace)))) |  | Verified |  |
+| FTF | Floor <> Flea | Flea | Floor | Activate Flea Breakable Floor |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| flea rescue |  | ledge grab OR faydown cloak OR clawline OR silk soar |  | Verified |  |  |
-
-#### Notes
-
-ledge grab is the only real requirement in this room
+| flea rescue bellway | Flea | Nothing. |  | Verified | collectible |  |
+| flea breakable floor | Flea | Break Wall Down |  | Verified | blockade | stand on it |
 
 ### Deep Docks Lace Intro (Bone_East_12)
 
 **Game ID:** Bone_East_12
 
-**Contributors:** herounit
+**Contributors:** herounit and Rebel
 
 #### Subrooms
 
@@ -2709,34 +2737,33 @@ ledge grab is the only real requirement in this room
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 | left area | [Deep Docks Map Shop (Bone_East_01)](#deep-docks-map-shop-boneeast01) | LR | none |  |  |  |
-| R | right1 | right area | [Deep Docks Bellshrine (Bellshrine_05)](#deep-docks-bellshrine-bellshrine05) | L | none |  |  |  |
-| F | bot1 | left area | [Deep Docks Forge (Room_Forge)](#deep-docks-forge-roomforge) | C | activate airlock up |  |  |  |
+| L | left1 | left area | [Deep Docks Map Shop (Bone_East_01)](#deep-docks-map-shop-boneeast01) | LR | none |  | Verified |  |
+| R | right1 | right area | [Deep Docks Bellshrine (Bellshrine_05)](#deep-docks-bellshrine-bellshrine05) | L | none |  | Verified |  |
+| F | bot1 | left area | [Deep Docks Forge (Room_Forge)](#deep-docks-forge-roomforge) | C | Open Airlock Down |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| SP | lever platform jump | left area | switch platform | run OR dash OR drifter's cloak OR faydown cloak OR silk soar OR clawline OR sharpdart OR beast crest |  |  |  |
-| SP | lever platform jump | switch platform | left area | none (falling) |  |  |  |
-| BL | boss arena left | left area | boss arena | gate switch flipped |  |  |  |
-| BL | boss arena left | boss arena | left area | gate switch flipped AND completed lace 1 boss fight |  |  |  |
-| BR | boss arena right | boss arena | right area | completed lace 1 boss fight |  |  |  |
-| BR | boss arena right | right area | boss arena | none |  | Needs verification |  |
+| SP | lever platform jump | left area | switch platform | Scuttlebrace OR Faydown Cloak OR Silk Soar OR Sprint OR Easy Beast Charge OR ((Ledge Grab OR Cling Grip) AND (Drifter's Cloak OR Dash OR Clawline OR Sharpdart OR Medium Voltvessels Stall OR Easy Architect Charge)) OR (Flea Brew AND Easy Flea Brew Stall) |  | Verified |  |
+| SP | lever platform jump | switch platform | left area | none (falling) |  | Verified |  |
+| BL | boss arena left | left area | boss arena | activate gate switch lace |  | Verified |  |
+| BL | boss arena left | boss arena | left area | activate gate switch lace AND defeat lace 1 boss fight |  | Verified |  |
+| BR | boss arena right | boss arena | right area | defeat lace 1 boss fight |  | Verified |  |
+| BR | boss arena right | right area | boss arena | defeat lace 1 boss fight |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| gate switch | switch platform | none |  |  |  |  |
-| lace 1 boss fight | boss arena | none |  |  |  |  |
-| lace 1 encounter spot | boss arena | none |  |  |  | This needs to be converted into a multi-location virtual event |
+| gate switch lace | switch platform | none |  | Verified | switch |  |
+| lace 1 boss fight | boss arena | none |  | Verified | boss |  |
 
 ### Deep Docks Bellshrine (Bellshrine_05)
 
 **Game ID:** Bellshrine_05
 
-**Contributors:** herounit
+**Contributors:** herounit and Rebel
 
 #### Subrooms
 
@@ -2765,96 +2792,121 @@ No subroom connections defined.
 
 **Game ID:** Bone_East_03
 
-**Contributors:** herounit
+**Contributors:** herounit and Rebel
 
 #### Subrooms
 
-No subrooms defined.
+- Top Left Entrance Path
+- Top Right Entrance Path
+- Rosary
+- Floor
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| C | top1 |  | [Is this still Deep Docks? (East) (Bone_East_04)](#is-this-still-deep-docks-east-boneeast04) | F | hit blast rock, opens exit |  |  |  |
-| L | left1 |  | [Deep Docks Map Shop (Bone_East_01)](#deep-docks-map-shop-boneeast01) | UR | none |  |  |  |
+| C | top1 | Top Right Entrance Path | [Is this still Deep Docks? East (Bone_East_04)](#is-this-still-deep-docks-east-boneeast04) | F | Activate Deep Docks Lower Spire Blast Rock |  | Verified |  |
+| L | left1 | Top Left Entrance Path | [Deep Docks Map Shop (Bone_East_01)](#deep-docks-map-shop-boneeast01) | UR | none |  | Verified |  |
 
 #### Subroom Connections
 
-No subroom connections defined.
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| FTL | Floor <> Top Left | Floor | Top Left Entrance Path | Clawline x 2 OR Sharpdart x 2 OR Ledge Grab OR Cling Grip OR Scuttlebrace OR Faydown Cloak OR Drifter's Cloak OR Dash OR Sprint OR Silk Soar |  | Verified |  |
+| FTL | Floor <> Top Left | Top Left Entrance Path | Floor | Nothing. (Fall) |  | Verified |  |
+| FTR | Floor <> Top Right | Floor | Top Right Entrance Path | Ledge Grab  OR Cling Grip  OR Scuttlebrace  OR Faydown Cloak  OR (Silk Soar AND Magma Bell)  OR Easy Shaman Pogo OR Easy Enemy Pogo |  | Verified | removed "easy drill skip" until I know what it is added shaman pogo and enemy pogo - hero, 9/28 |
+| FTR | Floor <> Top Right | Top Right Entrance Path | Floor | Nothing. (Fall) |  | Verified |  |
+| FR | Floor <> Rosary | Floor | Rosary | ((Sprint OR Dash OR Clawline OR Sharpdart OR Easy Architect Charge OR Flea Brew OR Easy Flea Brew Stall) AND (Ledge Grab OR Cling Grip)) OR (((Proficient Movement AND Architect Attack Right) OR (Easy Heal Stall AND Easy Voltvessels Stall)) AND Cling Grip) OR (Silk Soar AND Magma Bell) |  | Verified |  |
+| FR | Floor <> Rosary | Rosary | Floor | Nothing. (Fall) |  | Verified |  |
+| RTR | Rosary <> Top Right | Rosary | Top Right Entrance Path | Nothing. |  | Verified |  |
+| RTR | Rosary <> Top Right | Top Right Entrance Path | Rosary | Nothing. |  | Verified |  |
 
 #### Check Locations
 
-No check locations defined.
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Deep Docks Lower Spire Rosary Cache | Rosary | Nothing. |  | Verified | resource |  |
+| Deep Docks Lower Spire Blast Rock | Top Right Entrance Path | Break Blast Rock Up |  | Verified | blockade |  |
 
-### Is this still Deep Docks? (East) (Bone_East_04)
+### Is this still Deep Docks? East (Bone_East_04)
 
 **Game ID:** Bone_East_04
 
-**Contributors:** herounit
+**Contributors:** herounit and Rebel
 
 #### Subrooms
 
-No subrooms defined.
+- Ground
+- Upper Right Door
+- Upper Left
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| C | top2 |  | [Hunter's March Deep Docks Passage (Ant_05b)](#hunters-march-deep-docks-passage-ant05b) | RF | none |  |  |  |
-| UR | right2 |  | ["Deep Docks" March Side Room (Bone_East_04c)](#deep-docks-march-side-room-boneeast04c) | L | silk soar OR cling grip OR faydown cloak |  |  |  |
-| LR | right1 |  | [Far Fields Deep Docks Loopback (Bone_East_15)](#far-fields-deep-docks-loopback-boneeast15) | L | none |  |  |  |
-| L | left1 |  | [Is this still Deep Docks? (West) (Bone_East_04b)](#is-this-still-deep-docks-west-boneeast04b) | R | wall must be destroyed from the other side |  |  |  |
-| F | bot1 |  | [Deep Docks Spire Lower (Bone_East_03)](#deep-docks-spire-lower-boneeast03) | C | floor must be destroyed from the other side |  |  |  |
+| C | top2 | Upper Left | [Hunter's March Deep Docks Passage (Ant_05b)](#hunters-march-deep-docks-passage-ant05b) | RF | none |  | Verified |  |
+| UR | right2 | Upper Right Door | ["Deep Docks" March Side Room (Bone_East_04c)](#deep-docks-march-side-room-boneeast04c) | L | Nothing. |  | Verified |  |
+| LR | right1 | Ground | [Far Fields Deep Docks Loopback (Bone_East_15)](#far-fields-deep-docks-loopback-boneeast15) | L | none |  | Verified |  |
+| L | left1 | Ground | [Is this still Deep Docks West (Bone_East_04b)](#is-this-still-deep-docks-west-boneeast04b) | R | Activate Deep Docks Is This Still Deep Docks West Blast Rock IN Is This Still Deep Docks West |  | Verified |  |
+| F | bot1 | Ground | [Deep Docks Spire Lower (Bone_East_03)](#deep-docks-spire-lower-boneeast03) | C | Activate Deep Docks Lower Spire Blast Rock IN deep docks spire lower |  | Verified |  |
 
 #### Subroom Connections
 
-No subroom connections defined.
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| GtA | Ground to Right | Ground | Upper Right Door | ((Easy Enemy Pogo OR Faydown Cloak) AND Ledge Grab) OR Cling Grip OR Silk Soar |  | Verified |  |
+| GtA | Ground to Right | Upper Right Door | Ground | Nothing. (Fall) |  | Verified |  |
+| GtL | Ground to Left | Ground | Upper Left | Easy Enemy Pogo OR Faydown Cloak OR Cling Grip OR Ledge Grab OR (Scuttlebrace AND Dash) |  | Verified | dash is included in the scuttlebrace use requirement so i dont think its necessary but i will anyway, |
+| GtL | Ground to Left | Upper Left | Ground | Nothing. (Fall) |  | Verified |  |
 
 #### Check Locations
 
 No check locations defined.
 
-### Is this still Deep Docks? (West) (Bone_East_04b)
+### Is this still Deep Docks West (Bone_East_04b)
 
 **Game ID:** Bone_East_04b
 
-**Contributors:** herounit
+**Contributors:** herounit and Rebel
 
 #### Subrooms
 
 - side room
 - ground
 - upper level
+- Rosary String
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 | ground | [Is this still Deep Docks? (East) (Bone_East_04)](#is-this-still-deep-docks-east-boneeast04) | L | attack blast rock, unblocks wall |  |  |  |
-| C | top1 | upper level | [Hunter's March Deep Docks Passage (Ant_05b)](#hunters-march-deep-docks-passage-ant05b) | LF |  |  |  |  |
-| L | left1 | ground | [Deep Docks Upper Spire (Bone_East_05)](#deep-docks-upper-spire-boneeast05) | R |  |  |  |  |
+| R | right1 | ground | [Is this still Deep Docks? East (Bone_East_04)](#is-this-still-deep-docks-east-boneeast04) | L | Activate Deep Docks Is This Still Deep Docks West Blast Rock |  | Verified |  |
+| C | top1 | upper level | [Hunter's March Deep Docks Passage (Ant_05b)](#hunters-march-deep-docks-passage-ant05b) | LF | Nothing. |  | Verified |  |
+| L | left1 | ground | [Deep Docks Upper Spire (Bone_East_05)](#deep-docks-upper-spire-boneeast05) | R | Nothing. |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| BW | break wall | side room | ground | break wall (left) |  |  |  |
-| BW | break wall | ground | side room | none |  |  |  |
-| BJ | big jump | ground | upper level | silk soar OR faydown cloak OR cling grip |  |  |  |
-| BJ | big jump | upper level | ground | none (falling) |  |  |  |
+| BW | break wall | side room | ground | break wall left |  | Verified |  |
+| BW | break wall | ground | side room | Ledge Grab OR Cling Grip OR Faydown Cloak OR Silk Soar OR Easy Enemy Pogo |  | Verified |  |
+| BJ | big jump | ground | upper level | Cling Grip OR (Faydown Cloak AND Ledge Grab) OR Silk Soar |  | Verified |  |
+| BJ | big jump | upper level | ground | none (falling) |  | Verified |  |
+| CR | Collect Rosary | side room | Rosary String | Ledge Grab OR Faydown Cloak OR Cling Grip OR Silk Soar |  | Verified |  |
+| CR | Collect Rosary | Rosary String | side room | Nothing. (Fall) |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| blast rock pathway opener | ground | blast rock |  |  |  |  |
-| frayed rosary string deep docks | side room | none |  |  |  | MARKED AS ??? ON TRACKER |
+| Deep Docks Is This Still Deep Docks West Blast Rock | ground | Break Blast Rock Right |  | Verified | blockade |  |
+| Deep Docks Is This Still Deep Docks West - Frayed Rosary String | Rosary String | Nothing. |  | Verified | collectible |  |
 
 ### "Deep Docks" March Side Room (Bone_East_04c)
 
 **Game ID:** Bone_East_04c
 
-**Contributors:** herounit
+**Contributors:** herounit and Rebel
 
 #### Subrooms
 
@@ -2864,7 +2916,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Is this still Deep Docks? (East) (Bone_East_04)](#is-this-still-deep-docks-east-boneeast04) | UR | none |  | Verified |  |
+| L | left1 |  | [Is this still Deep Docks? East (Bone_East_04)](#is-this-still-deep-docks-east-boneeast04) | UR | Nothing. |  | Verified |  |
 | SC | slab capture |  | [Slab Capture](#slab-capture) | DD | after get kidnapped |  | Verified |  |
 
 #### Subroom Connections
@@ -2875,126 +2927,144 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| wardenfly |  | ( act 1 OR act 2 ) AND defeat THE bell beast boss fight |  |  | enemy | per the wiki |
-| get kidnapped |  | after wardenfly |  |  | logic-point |  |
+| wardenfly |  | ( act 1 OR act 2 ) AND defeat THE bell beast boss fight |  | Verified | enemy | per the wiki |
+| get kidnapped |  | after wardenfly |  | Verified | logic-point |  |
 
 #### Notes
 
 just a camp? no enemies? did we find bush girl here at some point?
+and a wardenfly!
 
 ### Deep Docks Upper Spire (Bone_East_05)
 
 **Game ID:** Bone_East_05
 
-**Contributors:** herounit
+**Contributors:** herounit and Rebel
 
 #### Subrooms
 
-- flea platform
+- left flea platform
 - spire
 - right exit platform
+- Flea Access Lever
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 | spire | [Deep Docks Bench Shaft (Dock_01)](#deep-docks-bench-shaft-dock01) | UR | none (door switch is on this side) |  |  |  |
-| R | right1 | right exit platform | [Is this still Deep Docks? (West) (Bone_East_04b)](#is-this-still-deep-docks-west-boneeast04b) | L | none |  |  | need to verify if silksoar works with magma bell |
+| L | left1 | spire | [Deep Docks Bench Shaft (Dock_01)](#deep-docks-bench-shaft-dock01) | UR | Activate Deep Docks Upper Spire Gate Lever |  | Verified |  |
+| R | right1 | right exit platform | [Is this still Deep Docks West (Bone_East_04b)](#is-this-still-deep-docks-west-boneeast04b) | L | none |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| SR | spire right | spire | right exit platform | run OR dash OR drifter's cloak OR faydown cloak OR clawline OR sharpdart OR (silk soar AND magma bell) OR easy beast pogo |  |  | i did it exactly ONCE with shaman crest and couldn't do it again :( |
-| SR | spire right | right exit platform | spire | none |  |  |  |
-| PG | platform gaps | spire | flea platform | run OR dash OR drifter's cloak OR faydown cloak OR clawline OR silk soar |  |  | Removed sharpdart - too many gaps in a row |
-| PG | platform gaps | flea platform | spire | none (falling) |  |  |  |
+| SR | spire right | spire | right exit platform | Cling Grip  OR Sprint  OR Faydown Cloak  OR Clawline  OR Easy Scuttlebrace  OR ((Dash OR Drifter's Cloak) AND (Ledge Grab OR (Silk Soar AND Magma Bell)))  OR Easy Beast Charge  OR Easy Beast Pogo  OR Flea Brew OR Sharpdart  OR (Medium Shaman Crest Pogo AND Ledge Grab)  OR ((Easy Voltvessels Stall OR Easy Flintslate Stall OR Easy Plasmium Stall) AND Ledge Grab)  OR Easy Architect Charge  OR ((Proficient Movement AND Architect Attack Right) AND (Easy Heal Stall AND Ledge Grab)) OR Hard Plasmium Stall |  | Verified | removed unqualified "OR Flea Brew" - is it used as a stall or just having it enables you to make the jump? As far as I can tell, flea brew still requires ledge grab - hero, 9/28 removed "OR (Easy Drill Skip AND Ledge Grab)" until rebel can give feedback on how this works - hero, 9/28 |
+| SR | spire right | right exit platform | spire | Nothing. |  | Verified |  |
+| PG | platform gaps | spire | Flea Access Lever | Sprint OR Dash OR Drifter's Cloak OR Faydown Cloak OR Clawline OR Silk Soar OR Scuttlebrace OR Easy Beast Charge OR Easy Beast Pogo OR Easy Architect Charge OR Flea Brew OR Medium Voltvessels Stall OR Sharpdart x 4 |  | Verified |  |
+| PG | platform gaps | Flea Access Lever | spire | Nothing. (fall) |  | Verified |  |
+| FG | Flea Get | Flea Access Lever | left flea platform | Silk Soar OR (Faydown Cloak AND Ledge Grab) OR Cling Grip OR (Activate Deep Docks Upper Spire Flea Lever AND (Easy Scuttlebrace OR Sprint OR Dash)) OR (Drifter's Cloak AND (Ledge Grab OR (Proficient Movement AND Architect Attack Left) )) OR ((Easy Architect Charge OR Easy Beast Charge) AND Ledge Grab) |  | Verified |  |
+| FG | Flea Get | left flea platform | Flea Access Lever | Nothing. (Fall) |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| flea rescue | flea platform | none |  |  |  |  |
-| swift step | spire | none |  |  |  |  |
-| door switch | spire | none |  |  |  |  |
-| platform switch | flea platform | none |  |  |  |  |
+| Deep Docks Upper Spire - Flea | left flea platform | Nothing. |  | Verified | collectible |  |
+| Swift Step | spire | Nothing. |  | Verified | collectible |  |
+| Deep Docks Upper Spire Gate Lever | spire | Flip Switch Left |  | Verified | switch |  |
+| Deep Docks Upper Spire Flea Lever | Flea Access Lever | Flip Switch Left |  | Verified | switch |  |
 | Garmond and Zaza Act 3 Meeting Deep Docks | spire | Act 3 |  | Verified | event |  |
 
 ### Deep Docks Forge (Room_Forge)
 
 **Game ID:** Room_Forge
 
-**Contributors:** herounit
+**Contributors:** herounit and Rebel
 
 #### Subrooms
 
-- left area
+- left entrance
 - right area
 - gauntlet
 - forge daughter
 - right exit platform
+- hidden left room
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| C | top1 | left area | [Deep Docks Lace Intro (Bone_East_12)](#deep-docks-lace-intro-boneeast12) | F | none |  | Verified | activate airlock |
-| L | left1 | left area | [Deep Docks Lower West Shaft (Dock_04)](#deep-docks-lower-west-shaft-dock04) | UR | none |  | Verified |  |
-| R | right1 | right exit platform | [Deep Docks Chains West (Dock_02)](#deep-docks-chains-west-dock02) | UL | unlock deep docks simple key lock |  | Verified |  |
+| C | top1 | left entrance | [Deep Docks Lace Intro (Bone_East_12)](#deep-docks-lace-intro-boneeast12) | F | Open Airlock Up |  | Verified |  |
+| L | left1 | left entrance | [Deep Docks Lower West Shaft (Dock_04)](#deep-docks-lower-west-shaft-dock04) | UR | none |  | Verified |  |
+| R | right1 | right exit platform | [Deep Docks Chains West (Dock_02)](#deep-docks-chains-west-dock02) | UL | Own Simple Key Deep Docks |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| DS | door switch | left area | forge daughter | activate gate switch |  | Verified |  |
-| DS | door switch | forge daughter | left area | activate gate switch |  | Verified |  |
-| GL | gauntlet left | left area | gauntlet | none |  | Verified |  |
-| GL | gauntlet left | gauntlet | left area | complete gauntlet fight |  | Verified |  |
+| DS | door switch | left entrance | forge daughter | activate gate switch forge |  | Verified |  |
+| DS | door switch | forge daughter | left entrance | activate gate switch forge |  | Verified |  |
+| GL | gauntlet left | left entrance | gauntlet | none |  | Verified |  |
+| GL | gauntlet left | gauntlet | left entrance | clear Forge Battle |  | Verified |  |
 | GR | gauntlet right | right area | gauntlet | none |  | Verified |  |
-| GR | gauntlet right | gauntlet | right area | complete gauntlet fight |  | Verified |  |
+| GR | gauntlet right | gauntlet | right area | clear Forge Battle |  | Verified |  |
 | GC | gauntlet upper | forge daughter | gauntlet | open airlock down |  | Verified |  |
-| GC | gauntlet upper | gauntlet | forge daughter | complete gauntlet fight AND ( open airlock up AND ( ledge grab OR faydown cloak OR clawline OR scuttlebrace OR easy shaman pogo ) ) |  | Verified |  |
-| RJ | running jump | right area | right exit platform | run OR dash OR drifter's cloak OR faydown cloak OR clawline OR sharpdart OR easy beast pogo |  | Verified |  |
-| RJ | running jump | right exit platform | right area | run OR dash OR drifter's cloak OR faydown cloak OR clawline OR sharpdart OR easy beast pogo |  | Verified |  |
+| GC | gauntlet upper | gauntlet | forge daughter | Clear Forge Battle AND ( open airlock up AND ( ledge grab OR faydown cloak OR scuttlebrace OR Silk Soar OR easy shaman crest pogo ) ) |  | Verified |  |
+| RJ | running jump | right area | right exit platform | Sprint OR Faydown Cloak OR Clawline OR Sharpdart OR Scuttlebrace OR Drifter's Cloak OR Easy Beast Charge OR Easy Beast Pogo OR (((Dash OR Medium Voltvessels Stall OR Easy Architect Charge OR (Flea Brew AND Easy Flea Brew Stall)) AND (Ledge Grab OR Cling Grip))) OR (Flea Brew AND Medium Flea Brew Stall AND Medium Heal Stall) OR (Easy Architect Pogo AND Cling Grip) OR (Medium Hunter Pogo AND Cling Grip) |  | Verified |  |
+| RJ | running jump | right exit platform | right area | Sprint OR Dash OR Faydown Cloak OR Drifter's Cloak OR Clawline OR Sharpdart OR Easy Beast Pogo OR Easy Hunter Pogo OR Easy Architect Pogo OR Easy Beast Charge OR Easy Architect Charge OR Easy Voltvessels Stall OR Easy Flintslate Stall OR Easy Flea Brew Stall OR Flea Brew OR Medium Heal Stall |  | Verified |  |
+| EHD | Hidden Room | left entrance | hidden left room | Ledge Grab OR Cling Grip OR Scuttlebrace OR Faydown Cloak OR Silk Soar OR Easy Beast Charge  OR Proficient Movement (Pogo the crate on the paltform) |  | Verified |  |
+| EHD | Hidden Room | hidden left room | left entrance | Nothing. (Fall) |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| deep docks shell shard cache 10 | left area | none |  | Verified | collectible | break wall |
-| deep docks shard bundle 2 | left area | none |  | Verified | collectible |  |
-| silkshot (forge daughter) | forge daughter | have ruined tool |  | Verified | collectible |  |
-| sting shard | forge daughter | none |  | Verified | collectible | forge daughter shop |
-| magma bell | forge daughter | none |  | Verified | collectible | forge daughter shop |
+| shell shard cache deep docks 10 | left entrance | Activate Shard Bundle Wall |  | Verified | resource |  |
+| shard bundle deep docks 2 | hidden left room | none |  | Verified | collectible |  |
+| silkshot (forge daughter) | forge daughter | own Ruined Tool AND Craftmetals 1 |  | Verified | collectible | forge daughter shop |
+| sting shard | forge daughter | Craftmetals 1 |  | Verified | collectible | forge daughter shop |
+| magma bell | forge daughter | Craftmetals 1 |  | Verified | collectible | forge daughter shop |
 | crafting kit forge daughter | forge daughter | none |  | Verified | collectible | forge daughter shop |
-| readable lore tablet | left area | open airlock left |  | Verified | lore |  |
-| gate switch | forge daughter | none |  | Verified | switch |  |
-| gauntlet fight | gauntlet | none |  | Verified | gauntlet |  |
-| deep docks simple key lock | right exit platform | have simple key deep docks |  | Verified | lock |  |
-| bench | forge daughter | none |  | Verified | bench |  |
+| readable lore tablet forge | left entrance | open airlock left |  | Verified | lore |  |
+| gate switch forge | forge daughter | none |  | Verified | switch |  |
+| Shard Bundle Wall | left entrance | Break Wall Left |  | Verified | blockade |  |
+| Forge Battle | gauntlet | Nothing. |  | Verified | gauntlet |  |
+| Forge bench | forge daughter | Nothing. |  | Verified | bench |  |
+| Ballow Move to Control Room | forge daughter | Act 3 |  | Verified | event |  |
 
 ### Deep Docks Lower West Shaft (Dock_04)
 
 **Game ID:** Dock_04
 
-**Contributors:** herounit
+**Contributors:** herounit and Rebel
 
 #### Subrooms
 
-No subrooms defined.
+- Top
+- Middle
+- Low
+- Bottom
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Deep Docks Church (Dock_06_Church)](#deep-docks-church-dock06church) | R | none |  |  |  |
-| MR | right2 |  | [Deep Docks Spool East (Bone_East_13)](#deep-docks-spool-east-boneeast13) | L | none |  |  |  |
-| UR | right1 |  | [Deep Docks Forge (Room_Forge)](#deep-docks-forge-roomforge) | L | none |  |  |  |
-| LR | right3 |  | [Deep Docks Sauna (Dock_10)](#deep-docks-sauna-dock10) | L | activate door pressure plate IN deep docks sauna |  |  |  |
+| L | left1 | Low | [Deep Docks Church (Dock_06_Church)](#deep-docks-church-dock06church) | R | none |  | Verified |  |
+| MR | right2 | Middle | [Deep Docks Spool East (Bone_East_13)](#deep-docks-spool-east-boneeast13) | L | none |  | Verified |  |
+| UR | right1 | Top | [Deep Docks Forge (Room_Forge)](#deep-docks-forge-roomforge) | L | none |  | Verified |  |
+| LR | right3 | Bottom | [Deep Docks Sauna (Dock_10)](#deep-docks-sauna-dock10) | L | Activate Sauna Door Lock IN Deep Docks Sauna |  | Verified |  |
 
 #### Subroom Connections
 
-No subroom connections defined.
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| TM | Top <> Middle | Top | Middle | Nothing. (Fall) |  | Verified |  |
+| TM | Top <> Middle | Middle | Top | Ledge Grab OR Cling Grip OR Scuttlebrace OR Faydown Cloak OR Silk Soar |  | Verified |  |
+| ML | Middle <> Low | Middle | Low | Nothing. (Fall) |  | Verified |  |
+| ML | Middle <> Low | Low | Middle | Ledge Grab OR Cling Grip OR Scuttlebrace OR Faydown Cloak OR Silk Soar |  | Verified |  |
+| LB | Low <> Bottom | Low | Bottom | Nothing. (Fall) |  | Verified |  |
+| LB | Low <> Bottom | Bottom | Low | Ledge Grab OR Cling Grip OR Scuttlebrace OR Faydown Cloak OR Sprint OR Silk Soar |  | Verified |  |
 
 #### Check Locations
 
@@ -3004,7 +3074,7 @@ No check locations defined.
 
 **Game ID:** Bone_East_13
 
-**Contributors:** herounit
+**Contributors:** herounit and Rebel
 
 #### Subrooms
 
@@ -3015,55 +3085,61 @@ No check locations defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 | the floor is lava | [Deep Docks Lower West Shaft (Dock_04)](#deep-docks-lower-west-shaft-dock04) | MR | none |  |  |  |
+| L | left1 | the floor is lava | [Deep Docks Lower West Shaft (Dock_04)](#deep-docks-lower-west-shaft-dock04) | MR | none |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| LP | lower platforms | the floor is lava | spool fragment area | platforms lowered OR faydown cloak OR (silk soar AND magma bell) | TODO |  | might have more options, hard to check after lever is flipped |
-| LP | lower platforms | spool fragment area | the floor is lava | none (falling) |  |  |  |
+| LP | lower platforms | the floor is lava | spool fragment area | (Silk Soar AND (Proficient Movement OR Magma Bell)) OR (Faydown Cloak AND (Ledge Grab OR Cling Grip OR Scuttlebrace OR Clawline OR Sharpdart OR Dash)) OR (Sprint AND Cling Grip) OR ((Clawline OR Sharpdart) AND (Cling Grip OR Ledge Grab OR (Scuttlebrace AND Proficient Movement))) OR ((Clawline x 2 AND (Dash OR Drifter's Cloak OR Flea Brew OR Easy Flea Brew Stall OR Easy Voltvessels Stall OR Easy Architect Charge OR Easy Beast Charge))) OR (Clawline x 3 AND Medium Flintslate Stall) OR (Sharpdart x 2 AND (Drifter's Cloak OR (Flea Brew AND Medium Flea Brew Stall))) OR Activate The Lever That Makes All Of My Hard Work Worthless |  | Verified | might have more options, hard to check after lever is flipped |
+| LP | lower platforms | spool fragment area | the floor is lava | none (falling) |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| spool fragment deep docks | spool fragment area | none |  |  |  |  |
-| shell shard cache deep docks 1 | the floor is lava | magma bell AND blue slot |  |  |  |  |
-| shell shard cache deep docks 2 | the floor is lava | magma bell AND blue slot |  |  |  |  |
-| shell shard cache deep docks 3 | the floor is lava | magma bell AND blue slot |  |  |  |  |
-| platform lever | the floor is lava | none |  |  |  |  |
+| spool fragment deep docks | spool fragment area | none |  | Verified | collectible |  |
+| shell shard cache deep docks 1 | the floor is lava | Magma Bell |  | Verified | resource |  |
+| shell shard cache deep docks 2 | the floor is lava | Magma Bell |  | Verified | resource |  |
+| shell shard cache deep docks 3 | the floor is lava | Magma Bell |  | Verified | resource |  |
+| the lever that makes all of my hard work worthless | the floor is lava | none |  | Verified | switch |  |
 
 ### Deep Docks Church (Dock_06_Church)
 
 **Game ID:** Dock_06_Church
 
-**Contributors:** herounit
+**Contributors:** herounit and Rebel
 
 #### Subrooms
 
-No subrooms defined.
+- Bottom
+- Top
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 |  | [Deep Docks Lower West Shaft (Dock_04)](#deep-docks-lower-west-shaft-dock04) | L | none |  |  |  |
-| F | bot1 |  | [Abyss Escape (Abyss_09)](#abyss-escape-abyss09) | C |  | TODO |  | FROM THE ABYSS ESCAPE |
+| R | right1 | Top | [Deep Docks Lower West Shaft (Dock_04)](#deep-docks-lower-west-shaft-dock04) | L | none |  | Verified |  |
+| F | bot1 | Bottom | [Abyss Escape (Abyss_09)](#abyss-escape-abyss09) | C | none |  | Verified | FROM THE ABYSS ESCAPE |
 
 #### Subroom Connections
 
-No subroom connections defined.
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| UaD | Up and Down | Top | Bottom | Activate church grate switch |  | Verified |  |
+| UaD | Up and Down | Bottom | Top | Activate church grate switch AND (Silk Soar OR Cling Grip) |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| rosary cache deep docks 3 |  | none |  |  |  |  |
-| rosary cache deep docks 4 |  | none |  |  |  |  |
-| rosary cache deep docks 5 |  | none |  |  |  | MARKED AS ??? ON TRACKER |
-| rosary cache deep docks 6 |  | none |  |  |  | MARKED AS ??? ON TRACKER |
-| rosary chest |  | none |  |  |  | NOT YET RANDOMIZED |
+| rosary cache deep docks 3 | Top | none |  | Verified | resource |  |
+| rosary cache deep docks 4 | Top | none |  | Verified | resource |  |
+| rosary cache deep docks 5 | Top | Act 1 OR Act 2 |  | Verified | resource |  |
+| rosary cache deep docks 6 | Top | Act 1 OR Act 2 |  | Verified | resource |  |
+| rosary chest church | Top | Act 1 OR Act 2 |  | Verified | resource |  |
+| church grate switch | Bottom | Flip Switch Up |  | Verified | switch |  |
+| Church Bench | Bottom | none |  | Verified | bench |  |
 
 #### Notes
 
@@ -3073,43 +3149,52 @@ might need to revise the subrooms later
 
 **Game ID:** Dock_02
 
-**Contributors:** herounit
+**Contributors:** herounit and Rebel
 
 #### Subrooms
 
 - main area
-- middle crossing
+- middle crossing Left
 - lower left exit
+- lower right exit
+- Shard Bundle
+- Middle Crossing Right
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| UL | left1 | main area | [Deep Docks Forge (Room_Forge)](#deep-docks-forge-roomforge) | R | unlock deep docks simple key lock IN deep docks forge |  |  |  |
-| LL | left2 | lower left exit | [Deep Docks Forebrothers (Dock_09)](#deep-docks-forebrothers-dock09) | R | none |  |  |  |
-| UR | right1 | main area | [Deep Docks Chains Center (Dock_02b)](#deep-docks-chains-center-dock02b) | UL | none |  |  |  |
-| MR | right2 | middle crossing | [Deep Docks Chains Center (Dock_02b)](#deep-docks-chains-center-dock02b) | ML | none |  |  |  |
-| LR | right3 | middle crossing | [Deep Docks Chains Center (Dock_02b)](#deep-docks-chains-center-dock02b) | LL | none |  |  |  |
+| UL | left1 | main area | [Deep Docks Forge (Room_Forge)](#deep-docks-forge-roomforge) | R | none |  | Verified |  |
+| LL | left2 | lower left exit | [Deep Docks Forebrothers (Dock_09)](#deep-docks-forebrothers-dock09) | R | none |  | Verified |  |
+| UR | right1 | main area | [Deep Docks Chains Center (Dock_02b)](#deep-docks-chains-center-dock02b) | UL | Easy Enemy Pogo OR Ledge Grab OR Cling Grip OR Faydown Cloak OR Silk Soar |  | Verified |  |
+| MR | right2 | Middle Crossing Right | [Deep Docks Chains Center (Dock_02b)](#deep-docks-chains-center-dock02b) | ML | none |  | Verified |  |
+| LR | right3 | lower right exit | [Deep Docks Chains Center (Dock_02b)](#deep-docks-chains-center-dock02b) | LL | none |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| BF | break floor | middle crossing | main area | cling grip AND clear breakable floor supports |  |  |  |
-| BF | break floor | main area | middle crossing | clear breakable floor supports |  |  |  |
-| LE | lower left exit | lower left exit | middle crossing | cling grip OR ( silk soar AND magma bell ) |  |  |  |
-| LE | lower left exit | middle crossing | lower left exit |  |  |  |  |
+| BF | break floor | middle crossing Left | main area | ((( silk soar AND magma bell AND Drifter's Cloak ) OR ( Silk Soar AND Magma Bell AND Proficient Movement)) AND Activate spike hall breakable floor) |  | Verified |  |
+| BF | break floor | main area | middle crossing Left | Activate spike hall breakable floor |  | Verified |  |
+| LE | lower left exit | lower left exit | middle crossing Left | cling grip OR Scuttlebrace OR (Silk Soar AND Magma Bell) |  | Verified |  |
+| LE | lower left exit | middle crossing Left | lower left exit | Nothing. (Fall) |  | Verified | you can miss the fall and trap yourself itemless lmao |
+| GS | Get Shards | main area | Shard Bundle | Nothing. (Fall) |  | Verified |  |
+| GS | Get Shards | Shard Bundle | main area | Ledge Grab OR Cling Grip OR Faydown Cloak OR Silk Soar |  | Verified |  |
+| CB | Cross Bridge | middle crossing Left | Middle Crossing Right | Open Airlock Right |  | Verified |  |
+| CB | Cross Bridge | Middle Crossing Right | middle crossing Left | Open Airlock Left |  | Verified |  |
+| MLR | Middle Right <> Lower Right | Middle Crossing Right | lower right exit | Nothing. (Fall) |  | Verified |  |
+| MLR | Middle Right <> Lower Right | lower right exit | Middle Crossing Right | ((Dash OR Clawline OR Sharpdart OR Easy Architect Charge OR Easy Beast Charge OR Easy Architect Pogo OR Easy Hunter Pogo OR Easy Beast Pogo OR Easy Wanderer Charge OR Medium Shaman Pogo OR Easy Voltvessels Stall OR Easy Flintslate Stall OR Easy Flea Brew Stall OR Flea Brew) AND Cling Grip) OR (Faydown Cloak AND Medium Scuttlebrace) OR (Proficient Movement AND Silk Soar) |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| shard bundle deep docks 1 | main area | none |  |  |  | MARKED AS ??? ON TRACKER can fall and grab the ledge to this one |
-| shell shard cache deep docks 5 | main area | none |  |  |  | MARKED AS ??? ON TRACKER |
-| flintstone journal collection point | main area | none |  |  |  |  |
-| rosary cache deep docks 1 | main area | none |  |  |  | MARKED AS ??? ON TRACKER |
-| rosary cache deep docks 2 | main area | none |  |  |  | MARKED AS ??? ON TRACKER |
-| breakable floor supports | middle crossing | break wall up |  |  |  |  |
+| shard bundle deep docks 1 | Shard Bundle | none |  | Verified | collectible |  |
+| shell shard cache deep docks 5 | main area | none |  | Verified | resource |  |
+| flintstone journal collection point | lower left exit | none |  | Verified | lore |  |
+| rosary cache deep docks 1 | main area | none |  | Verified | resource |  |
+| rosary cache deep docks 2 | main area | none |  | Verified | resource |  |
+| spike hall breakable floor | middle crossing Left | Break Wall Up |  | Verified | blockade |  |
 
 #### Notes
 
@@ -3119,7 +3204,7 @@ need to verify how this room works - thought it had some of the platforms go awa
 
 **Game ID:** Dock_03d
 
-**Contributors:** herounit
+**Contributors:** herounit and Rebel
 
 #### Subrooms
 
@@ -3129,7 +3214,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| F | bot1 |  | [Deep Docks Chains Lower East (Dock_03c)](#deep-docks-chains-lower-east-dock03c) | LC | none |  |  |  |
+| F | bot1 |  | [Deep Docks Chains Lower East (Dock_03c)](#deep-docks-chains-lower-east-dock03c) | LC | open airlock down |  | Verified |  |
 
 #### Subroom Connections
 
@@ -3137,13 +3222,15 @@ No subroom connections defined.
 
 #### Check Locations
 
-No check locations defined.
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Flea |  | Attack Right |  | Verified | collectible | easiest flea ever |
 
 ### Deep Docks Chains Center (Dock_02b)
 
 **Game ID:** Dock_02b
 
-**Contributors:** herounit
+**Contributors:** herounit and Rebel
 
 #### Subrooms
 
@@ -3155,51 +3242,54 @@ No check locations defined.
 - lower left area
 - middle side room
 - lower chain platforms
+- upper right exit
+- Flintslate
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| UL | left1 | upper left hallway | [Deep Docks Chains West (Dock_02)](#deep-docks-chains-west-dock02) | UR | none |  |  |  |
-| ML | left2 | middle left exit area | [Deep Docks Chains West (Dock_02)](#deep-docks-chains-west-dock02) | MR | none |  |  |  |
-| LL | left3 | lower left area | [Deep Docks Chains West (Dock_02)](#deep-docks-chains-west-dock02) | LR | none |  |  |  |
-| UR | right1 | upper chain platforms | [Deep Docks Chains Upper East (Dock_03)](#deep-docks-chains-upper-east-dock03) | L | break wall (from this side) |  |  | can't enter from the other side until this is broken |
-| LR | right2 | lower right area | [Deep Docks Chains Lower East (Dock_03c)](#deep-docks-chains-lower-east-dock03c) | L | break wall (from other side) |  |  |  |
+| UL | left1 | upper left hallway | [Deep Docks Chains West (Dock_02)](#deep-docks-chains-west-dock02) | UR | none |  | Verified |  |
+| ML | left2 | middle left exit area | [Deep Docks Chains West (Dock_02)](#deep-docks-chains-west-dock02) | MR | none |  | Verified |  |
+| LL | left3 | lower left area | [Deep Docks Chains West (Dock_02)](#deep-docks-chains-west-dock02) | LR | none |  | Verified |  |
+| UR | right1 | upper right exit | [Deep Docks Chains Upper East (Dock_03)](#deep-docks-chains-upper-east-dock03) | L | none |  | Verified |  |
+| LR | right2 | lower right area | [Deep Docks Chains Lower East (Dock_03c)](#deep-docks-chains-lower-east-dock03c) | L | activate shortcut blast rock IN Deep docks chains lower east |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| ME | middle exit to switch platform | middle left exit area | middle switch platform | cling grip OR ( silk soar AND magma bell AND blue slot ) |  |  |  |
-| ME | middle exit to switch platform | middle switch platform | middle left exit area | none (falling) |  |  |  |
-| LC | lower crossing | lower right area | lower left area | run OR dash OR drifter's cloak OR faydown cloak OR cling grip OR silk soar OR claw line OR sharp dart OR beast crest OR shaman crest |  |  |  |
-| LC | lower crossing | lower left area | lower right area | none (jump) |  |  |  |
-| P1 | lower to middle switch platform | lower left area | lower chain platforms | silk soar |  |  |  |
-| P1 | lower to middle switch platform | lower chain platforms | lower left area | none (falling) |  |  |  |
-| P2 | lower platforms to lower right area | lower chain platforms | lower right area | none (falling) |  |  |  |
-| P2 | lower platforms to lower right area | lower right area | lower chain platforms | silk soar |  |  |  |
-| C1 | middle chains to upper chains | middle switch platform | upper chain platforms | ceiling switch activated AND ( silk soar OR cling grip ) |  |  |  |
-| C1 | middle chains to upper chains | upper chain platforms | middle switch platform | ceiling switch activated AND none (falling) |  |  |  |
-| MS | middle switch platform to side room | middle switch platform | middle side room | none (falling) |  |  | one-way |
-| MS | middle switch platform to side room | middle side room | middle switch platform | ceiling switch activated |  |  |  |
-| MP | middle platform to lower chains | middle switch platform | lower chain platforms | none |  |  |  |
-| MP | middle platform to lower chains | lower chain platforms | middle switch platform | none |  |  |  |
-| DS | open door switch | upper left hallway | upper chain platforms | none (door switch is on this side) |  |  |  |
-| DS | open door switch | upper chain platforms | upper left hallway | door switch flipped |  |  |  |
-| S1 | side room to chain platforms | middle side room | lower chain platforms | none |  |  |  |
-| S1 | side room to chain platforms | lower chain platforms | middle side room | none (falling) |  |  | I have a feeling this line is going to cause problems |
+| ME | middle exit to switch platform | middle left exit area | middle switch platform | cling grip OR ( silk soar AND magma bell ) |  | Verified |  |
+| ME | middle exit to switch platform | middle switch platform | middle left exit area | none (falling) |  | Verified |  |
+| LC | lower crossing | lower right area | lower left area | run OR dash OR drifter's cloak OR faydown cloak OR cling grip OR silk soar OR clawline OR sharp dart OR easy beast crest pogo OR ((Ledge Grab AND (easy shaman crest pogo OR easy reaper pogo OR (Proficient Movement AND Architect Attack Left) OR Easy Architect Charge OR Easy Beast Charge))) |  | Verified |  |
+| LC | lower crossing | lower left area | lower right area | none (jump) |  | Verified |  |
+| P1 | lower to middle switch platform | lower left area | lower chain platforms | silk soar |  | Verified |  |
+| P1 | lower to middle switch platform | lower chain platforms | lower left area | none (falling) |  | Verified |  |
+| P2 | lower platforms to lower right area | lower chain platforms | lower right area | none (falling) |  | Verified |  |
+| P2 | lower platforms to lower right area | lower right area | lower chain platforms | silk soar |  | Verified |  |
+| C1 | middle chains to upper chains | middle switch platform | upper chain platforms | activate ceiling switch AND ( silk soar OR cling grip OR Scuttlebrace) |  | Verified |  |
+| C1 | middle chains to upper chains | upper chain platforms | middle switch platform | activate ceiling switch (Fall) |  | Verified |  |
+| MS | middle switch platform to side room | middle switch platform | middle side room | none (falling) |  | Verified | one-way |
+| MS | middle switch platform to side room | middle side room | middle switch platform | (Silk Soar OR (Cling Grip AND Faydown Cloak) OR (Activate Ceiling Switch AND (Ledge Grab OR Cling Grip OR Scuttlebrace OR Faydown Cloak OR Clawline OR Sharpdart OR Dash OR Proficient Movement))) |  | Verified |  |
+| MP | middle platform to lower chains | middle switch platform | lower chain platforms | none |  | Verified |  |
+| MP | middle platform to lower chains | lower chain platforms | middle switch platform | ((Silk Soar OR (Activate Ceiling Switch AND (Ledge Grab OR Cling Grip OR Scuttlebrace OR Faydown Cloak OR Clawline OR Sharpdart OR Dash OR Proficient Movement)))) |  | Verified |  |
+| S1 | side room to chain platforms | middle side room | lower chain platforms | ((Silk Soar OR (Activate Ceiling Switch AND (Ledge Grab OR Cling Grip OR Scuttlebrace OR Faydown Cloak OR Clawline OR Sharpdart OR Dash OR Proficient Movement)))) |  | Verified |  |
+| S1 | side room to chain platforms | lower chain platforms | middle side room | none (falling) |  | Verified | I have a feeling this line is going to cause problems |
+| CUE | Upper Chain <> Right Exit | upper chain platforms | upper right exit | Ledge Grab OR Cling Grip OR Scuttlebrace OR Silk Soar OR Faydown Cloak OR Clawline OR Sharpdart OR Dash |  | Verified |  |
+| CUE | Upper Chain <> Right Exit | upper right exit | upper chain platforms | nada (Fall) |  | Verified |  |
+| FG | Flintslate Get | upper chain platforms | Flintslate | Silk Soar OR Ledge Grab OR Cling Grip OR Scuttlebrace OR Faydown Cloak OR Clawline OR Sharpdart OR Dash |  | Verified |  |
+| FG | Flintslate Get | Flintslate | upper chain platforms | Nada |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| flintslate | upper left hallway | none |  |  |  |  |
-| shell shard cache deep docks 6 | middle switch platform | none |  |  |  | MARKED AS ??? ON TRACKER |
-| shell shard cache deep docks 7 | middle switch platform | none |  |  |  | MARKED AS ??? ON TRACKER |
-| shell shard cache deep docks 8 | middle switch platform | none |  |  |  | MARKED AS ??? ON TRACKER |
-| shell shard cache deep docks 9 | middle switch platform | none |  |  |  | MARKED AS ??? ON TRACKER |
-| ceiling switch | middle switch platform | none |  |  |  | lowers middle chain platforms |
-| door switch | upper left hallway | none |  |  |  |  |
+| flintslate | Flintslate | none |  | Verified | collectible |  |
+| shell shard cache deep docks 6 | middle side room | none |  | Verified | resource |  |
+| shell shard cache deep docks 7 | middle side room | none |  | Verified | resource |  |
+| shell shard cache deep docks 8 | middle side room | none |  | Verified | resource |  |
+| shell shard cache deep docks 9 | middle side room | none |  | Verified | resource |  |
+| ceiling switch | middle switch platform | none |  | Verified | switch | lowers middle chain platforms |
 
 #### Notes
 
@@ -3211,7 +3301,7 @@ the switch to lower the middle chain section makes some of this logic difficult 
 
 **Game ID:** Dock_03
 
-**Contributors:** herounit
+**Contributors:** herounit and Rebel
 
 #### Subrooms
 
@@ -3219,33 +3309,41 @@ the switch to lower the middle chain section makes some of this logic difficult 
 - chain platforms
 - lower left chest room
 - behind ring gate
+- Lower Chain Platforms
+- Door Switch
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 | upper left hallway | [Deep Docks Chains Center (Dock_02b)](#deep-docks-chains-center-dock02b) | UR | none |  |  |  |
-| F | bot1 | behind ring gate | [Deep Docks Chains Lower East (Dock_03c)](#deep-docks-chains-lower-east-dock03c) | RC | none |  |  |  |
-| R | right1 | chain platforms | [Far Fields Deep Docks Backdoor (Dock_03b)](#far-fields-deep-docks-backdoor-dock03b) | L | break wall right |  |  |  |
+| L | left1 | upper left hallway | [Deep Docks Chains Center (Dock_02b)](#deep-docks-chains-center-dock02b) | UR | Ledge Grab OR Cling Grip OR Silk Soar OR Faydown Cloak OR Proficient Movement |  | Verified |  |
+| F | bot1 | behind ring gate | [Deep Docks Chains Lower East (Dock_03c)](#deep-docks-chains-lower-east-dock03c) | RC | Open Airlock Down |  | Verified |  |
+| R | right1 | chain platforms | [Far Fields Deep Docks Backdoor (Dock_03b)](#far-fields-deep-docks-backdoor-dock03b) | L | Activate Deep Docks Side Chain Room Door OR Activate Far Fields Side Chain Room Door IN Far Fields Deep Docks Backdoor |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| DS | open door switch | upper left hallway | chain platforms | activate door switch |  |  |  |
-| DS | open door switch | chain platforms | upper left hallway | activate door switch |  |  |  |
-| BW | break wall | chain platforms | lower left chest room | break wall (from this side) |  |  |  |
-| BW | break wall | lower left chest room | chain platforms | wall broken |  |  |  |
-| RG | open ring gate | chain platforms | behind ring gate | unlock ring gate |  |  |  |
-| RG | open ring gate | behind ring gate | chain platforms | unlock ring gate |  |  |  |
+| DS | open door switch | Door Switch | chain platforms | Activate Left Side Door Switch |  | Verified |  |
+| DS | open door switch | chain platforms | Door Switch | Activate Left Side Door Switch |  | Verified |  |
+| BW | break wall | Lower Chain Platforms | lower left chest room | Activate Craftmetal Breakable Wall |  | Verified |  |
+| BW | break wall | lower left chest room | Lower Chain Platforms | Activate Craftmetal Breakable Wall |  | Verified |  |
+| RG | open ring gate | Lower Chain Platforms | behind ring gate | Activate Platforms Clawline Ring |  | Verified |  |
+| RG | open ring gate | behind ring gate | Lower Chain Platforms | Activate Platforms Clawline Ring |  | Verified |  |
+| LSD | Left Side <> Door | upper left hallway | Door Switch | Ledge Grab OR Cling Grip OR Scuttlebrace OR Silk Soar OR Faydown Cloak |  | Verified |  |
+| LSD | Left Side <> Door | Door Switch | upper left hallway | Ledge Grab OR Cling Grip OR Scuttlebrace OR Silk Soar OR Faydown Cloak |  | Verified |  |
+| CT | Chain Travel | Lower Chain Platforms | chain platforms | (Ledge Grab AND (Dash OR Clawline OR Sharpdart)) OR Cling Grip OR Scuttlebrace OR Silk Soar OR Faydown Cloak |  | Verified |  |
+| CT | Chain Travel | chain platforms | Lower Chain Platforms | Nothing. (Fall) |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| craftmetal deep docks | lower left chest room | none |  |  |  | its freeeeee, right? :) |
-| ring gate | chain platforms | clawline |  |  |  |  |
-| door switch | upper left hallway | none |  |  |  |  |
+| craftmetal deep docks | lower left chest room | Activate Craftmetal Breakable Wall |  | Verified | collectible | its freeeeee, right? :) |
+| Deep Docks Side Chain Room Door | chain platforms | Break Wall Right |  | Verified | blockade | wall can be opened from both sides |
+| Left Side Door Switch | Door Switch | Flip Switch Right |  | Verified | switch |  |
+| Platforms Clawline Ring | Lower Chain Platforms | Clawline |  | Verified | switch |  |
+| Craftmetal Breakable Wall | Lower Chain Platforms | Break Wall Left |  | Verified | collectible |  |
 
 #### Notes
 
@@ -3255,7 +3353,7 @@ the floor/lower half of this area is closed off initially
 
 **Game ID:** Dock_03c
 
-**Contributors:** herounit
+**Contributors:** herounit and Rebel
 
 #### Subrooms
 
@@ -3272,37 +3370,50 @@ the floor/lower half of this area is closed off initially
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| RC | top2 | upper chains | [Deep Docks Chains Upper East (Dock_03)](#deep-docks-chains-upper-east-dock03) | F |  |  |  |  |
-| LC | top1 | upper left of gauntlet | [Deep Docks Chains Flea Rescue (Dock_03d)](#deep-docks-chains-flea-rescue-dock03d) | F |  |  |  |  |
-| L | left2 | lower lava platform | [Deep Docks Chains Center (Dock_02b)](#deep-docks-chains-center-dock02b) | LR | none (hit blast rock on this side to open exit for both sides) |  |  |  |
+| RC | top2 | upper chains | [Deep Docks Chains Upper East (Dock_03)](#deep-docks-chains-upper-east-dock03) | F | nothing. |  | Verified |  |
+| LC | top1 | upper left of gauntlet | [Deep Docks Chains Flea Rescue (Dock_03d)](#deep-docks-chains-flea-rescue-dock03d) | F | open airlock Up |  | Verified |  |
+| L | left2 | lower lava platform | [Deep Docks Chains Center (Dock_02b)](#deep-docks-chains-center-dock02b) | LR | Activate Shortcut Blast Rock |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| SP | open spool door | spool fragment area | upper chains | open airlock door |  |  | one-way |
-| SP | open spool door | upper chains | spool fragment area | can pogo  AND cling grip  AND ( clawline OR ( dash AND ( run OR sharpdart OR drifter's cloak ) ) ) |  | Needs verification | run or sharpdart or drifter's cloak  or clawline to get to the initial wall to cling grip. clawline or dash to get to pogo area. then free. |
-| C1 | upper to middle chains | middle chains | upper chains | run OR dash OR drifter's cloak OR faydown cloak OR cling grip OR silk soar OR clawline OR sharpdart |  |  |  |
-| C1 | upper to middle chains | upper chains | middle chains | none (falling) |  |  |  |
-| C2 | lower to middle chains | lower chains | middle chains | silk soar OR cling grip OR faydown cloak |  |  |  |
-| C2 | lower to middle chains | middle chains | lower chains | none (falling) |  |  |  |
-| UC | upper clawline area | lower chains | upper lava platform | clawline |  |  |  |
-| UC | upper clawline area | upper lava platform | lower chains | clawline OR drifter's cloak |  |  |  |
-| LG | cross lava gap | lower chains | lower lava platform | clawline OR ( drifter's cloak AND faydown cloak ) |  | Needs verification | seems just out of reach of drifter's cloak and dash |
-| LG | cross lava gap | lower lava platform | lower chains | clawline OR ( drifter's cloak AND faydown cloak ) |  |  |  |
-| UL | upper lava platform to lower lava platform | upper lava platform | lower lava platform | none (falling) |  |  |  |
+| SP | open spool door | spool fragment area | upper chains | open airlock left |  | Verified | one-way |
+| SP | open spool door | upper chains | spool fragment area | Invalid |  | Verified |  |
+| C1 | upper to middle chains | middle chains | upper chains | faydown cloak OR cling grip OR Scuttlebrace OR silk soar OR Ledge Grab |  | Verified |  |
+| C1 | upper to middle chains | upper chains | middle chains | none (falling) |  | Verified |  |
+| C2 | lower to middle chains | lower chains | middle chains | silk soar OR cling grip OR Scuttlebrace OR (faydown cloak AND Ledge Grab) |  | Verified |  |
+| C2 | lower to middle chains | middle chains | lower chains | none (falling) |  | Verified |  |
+| UC | upper clawline area | lower chains | upper lava platform | clawline |  | Verified |  |
+| UC | upper clawline area | upper lava platform | lower chains | clawline OR Sharpdart OR drifter's cloak OR (Medium Flintslate Stall AND Medium Hunter Pogo) OR Medium Voltvessels Stall OR Medium Beast Pogo OR Medium Architect Pogo OR (Flea Brew AND (Easy Architect Charge OR Easy Beast Charge OR Easy Hunter Pogo)) OR (Medium Flea Brew Stall AND Flea Brew) |  | Verified |  |
+| LG | cross lava gap | lower chains | lower lava platform | (clawline OR ( drifter's cloak AND (faydown cloak OR Medium Beast Charge OR Hard Architect Charge OR (Dash AND Easy Beast Pogo) ) ) OR (Sharpdart x 2 AND (Drifter's CLoak OR Easy Flea Brew Stall OR Easy Voltvessels Stall)) OR (Sharpdart x 3 AND Medium Flintslate Stall)) |  | Verified | seems just out of reach of drifter's cloak and dash |
+| LG | cross lava gap | lower lava platform | lower chains | clawline OR ( drifter's cloak AND faydown cloak ) |  | Verified |  |
+| UL | upper lava platform to lower lava platform | upper lava platform | lower lava platform | none (falling) |  | Verified |  |
+| UL | upper lava platform to lower lava platform | lower lava platform | upper lava platform | Clawline OR Silk Soar |  | Verified |  |
+| TGL | To Gauntlet Lower | lower lava platform | gauntlet | Silk Soar |  | Verified |  |
+| TGL | To Gauntlet Lower | gauntlet | lower lava platform | Nothing. (Fall) |  | Verified |  |
+| TGH | To Gauntlet Higher | upper lava platform | gauntlet | (Clawline AND (Cling Grip OR Scuttlebrace)) OR (((Sharpdart x 2 AND Cling Grip AND (Faydown Cloak OR Medium Flea Brew Stall)) AND (Spike Pogo OR Ledge Grab))) |  | Verified |  |
+| TGH | To Gauntlet Higher | gauntlet | upper lava platform | Invalid |  | Verified |  |
+| CG | Chain Gauntlet | gauntlet | middle chains | clear chains gauntlet |  | Verified |  |
+| CG | Chain Gauntlet | middle chains | gauntlet | clear chains gauntlet |  | Verified |  |
+| TF | To Flea | gauntlet | upper left of gauntlet | clear chains gauntlet AND (Silk Soar OR Cling Grip OR Faydown Cloak OR Scuttlebrace) |  | Verified |  |
+| TF | To Flea | upper left of gauntlet | gauntlet | Nothing (Fall) |  | Verified |  |
+| SC | spool crossing | lower chains | spool fragment area | cling grip  AND ( clawline OR ( dash AND ( run OR sharpdart OR drifter's cloak ) ) ) AND break blast rock up AND break blast rock down |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| silk spool deep docks 1 | spool fragment area | none |  |  |  |  |
+| Deep Docks (Southeast) - Spool Fragment | spool fragment area | none |  | Verified | collectible |  |
+| Shortcut Blast Rock | lower lava platform | nada |  | Verified | blockade |  |
+| Chains Gauntlet | gauntlet | nothing. |  | Verified | gauntlet |  |
+| Spool Door Switch | spool fragment area | Flip Switch Left |  | Verified | switch |  |
 
 ### Deep Docks Forebrothers (Dock_09)
 
 **Game ID:** Dock_09
 
-**Contributors:** herounit
+**Contributors:** herounit and Rebel
 
 #### Subrooms
 
@@ -3314,31 +3425,29 @@ the floor/lower half of this area is closed off initially
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 | right area | [Deep Docks Chains West (Dock_02)](#deep-docks-chains-west-dock02) | LL | none |  |  |  |
-| L | left1 | left area | [Deep Docks Lower East Shaft (Dock_15)](#deep-docks-lower-east-shaft-dock15) | UR | none |  |  |  |
+| R | right1 | right area | [Deep Docks Chains West (Dock_02)](#deep-docks-chains-west-dock02) | LL | none |  | Verified |  |
+| L | left1 | left area | [Deep Docks Lower East Shaft (Dock_15)](#deep-docks-lower-east-shaft-dock15) | UR | none |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| RB | right boss entrance | right area | boss area | none (starts fight) |  |  |  |
-| RB | right boss entrance | boss area | right area | defeat forebrothers |  |  |  |
-| LB | left boss entrance | left area | boss area | none |  |  | not sure if right side is blocked off by default - needs verification |
-| LB | left boss entrance | boss area | left area | defeat forebrothers |  |  |  |
+| RB | right boss entrance | right area | boss area | none (starts fight) |  | Verified |  |
+| RB | right boss entrance | boss area | right area | defeat forebrothers boss fight AND (Cling Grip OR Faydown Cloak OR Silk Soar) |  | Verified |  |
+| LB | left boss entrance | left area | boss area | defeat forebrothers boss fight |  | Verified |  |
+| LB | left boss entrance | boss area | left area | defeat forebrothers boss fight |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| forebrothers boss fight | boss area | none |  |  |  |  |
-| rosary cache 1 | right area | none |  |  |  |  |
-| rosary cache 2 | right area | none |  |  |  |  |
+| forebrothers boss fight | boss area | none |  | Verified | boss |  |
 
 ### Deep Docks Lower East Shaft (Dock_15)
 
 **Game ID:** Dock_15
 
-**Contributors:** herounit
+**Contributors:** herounit and Rebel
 
 #### Subrooms
 
@@ -3350,30 +3459,32 @@ the floor/lower half of this area is closed off initially
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| UL | left1 | upper area | [Deep Docks Sauna (Dock_10)](#deep-docks-sauna-dock10) | R | none |  |  |  |
-| LL | left2 | upper area | [Deep Docks Memory Hole (Dock_13)](#deep-docks-memory-hole-dock13) | R | none |  |  |  |
-| UR | right1 | upper area | [Deep Docks Forebrothers (Dock_09)](#deep-docks-forebrothers-dock09) | L | none |  |  |  |
-| MR | right2 | upper area | [Deep Docks Silkeater Room (Dock_14)](#deep-docks-silkeater-room-dock14) | L | none |  |  |  |
-| LR | right3 | the floor is lava | [Deep Docks Magma Slug Tunnels (Dock_11)](#deep-docks-magma-slug-tunnels-dock11) | L | none |  |  |  |
+| UL | left1 | upper area | [Deep Docks Sauna (Dock_10)](#deep-docks-sauna-dock10) | R | none |  | Verified |  |
+| LL | left2 | lower left exit area | [Deep Docks Memory Hole (Dock_13)](#deep-docks-memory-hole-dock13) | R | none |  | Verified |  |
+| UR | right1 | upper area | [Deep Docks Forebrothers (Dock_09)](#deep-docks-forebrothers-dock09) | L | none |  | Verified |  |
+| MR | right2 | upper area | [Deep Docks Silkeater Room (Dock_14)](#deep-docks-silkeater-room-dock14) | L | none |  | Verified |  |
+| LR | right3 | the floor is lava | [Deep Docks Magma Slug Tunnels (Dock_11)](#deep-docks-magma-slug-tunnels-dock11) | L | none |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| CG | cling grip | upper area | the floor is lava | cling grip |  |  |  |
-| CG | cling grip | the floor is lava | upper area | none (falling) |  |  |  |
-| BW | breakable wall | upper area | lower left exit area | break wall |  |  |  |
-| BW | breakable wall | lower left exit area | upper area | break wall |  |  |  |
+| CG | cling grip | upper area | the floor is lava | cling grip OR (Hard Scuttlebrace AND Faydown Cloak AND Clawline AND ((Proficient Movement OR (Ledge Grab OR Dash OR Drifter's Cloak)))) |  | Verified |  |
+| CG | cling grip | the floor is lava | upper area | none (falling) |  | Verified |  |
+| BW | breakable wall | upper area | lower left exit area | Activate Lower Left Entry Wall |  | Verified |  |
+| BW | breakable wall | lower left exit area | upper area | Activate Lower Left Entry Wall |  | Verified |  |
 
 #### Check Locations
 
-No check locations defined.
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Lower Left Entry Wall | upper area | Break Wall Left |  | Verified | blockade |  |
 
 ### Deep Docks Sauna (Dock_10)
 
 **Game ID:** Dock_10
 
-**Contributors:** herounit
+**Contributors:** herounit and Rebel
 
 #### Subrooms
 
@@ -3383,7 +3494,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Deep Docks Lower West Shaft (Dock_04)](#deep-docks-lower-west-shaft-dock04) | LR | activate door pressure plate |  | Verified |  |
+| L | left1 |  | [Deep Docks Lower West Shaft (Dock_04)](#deep-docks-lower-west-shaft-dock04) | LR | Activate Sauna Door Lock |  | Verified |  |
 | R | right1 |  | [Deep Docks Lower East Shaft (Dock_15)](#deep-docks-lower-east-shaft-dock15) | UL | none |  | Verified |  |
 
 #### Subroom Connections
@@ -3394,14 +3505,14 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| bench |  | none |  | Verified | bench |  |
-| door pressure plate |  | flip switch down |  | Verified | switch | have to break thing on top of pressure plate before you can step on it |
+| Sauna Door Lock |  | Attack Left AND Flip Switch Down |  | Verified | switch |  |
+| Sauna Bench |  | nada |  | Verified | bench |  |
 
 ### Deep Docks Memory Hole (Dock_13)
 
 **Game ID:** Dock_13
 
-**Contributors:** herounit
+**Contributors:** herounit and Rebel
 
 #### Subrooms
 
@@ -3412,52 +3523,56 @@ No subroom connections defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 | entrance | [Deep Docks Lower East Shaft (Dock_15)](#deep-docks-lower-east-shaft-dock15) | LL |  |  |  |  |
+| R | right1 | entrance | [Deep Docks Lower East Shaft (Dock_15)](#deep-docks-lower-east-shaft-dock15) | LL | nada |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| TP | the pit | entrance | pit of despair | none (falling) |  |  | this is possible but a massive pain, also a one-way softlock potential |
-| TP | the pit | pit of despair | entrance | cling grip |  |  |  |
+| TP | the pit | entrance | pit of despair | Proficient Movement (git gud lmao) OR Drifter's Cloak OR Spike Pogo OR Cling Grip |  | Verified | this is possible but a massive pain, also a one-way softlock potential |
+| TP | the pit | pit of despair | entrance | (cling grip AND Proficient Movement) OR (Cling Grip AND (Faydown Cloak OR Clawline OR Spike Pogo)) |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| memory locket deep docks | pit of despair | none |  |  |  |  |
+| memory locket deep docks | pit of despair | none |  | Verified | collectible |  |
 
 ### Deep Docks Silkeater Room (Dock_14)
 
 **Game ID:** Dock_14
 
-**Contributors:** herounit
+**Contributors:** herounit and Rebel
 
 #### Subrooms
 
-No subrooms defined.
+- Entry
+- Da Eater
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Deep Docks Lower East Shaft (Dock_15)](#deep-docks-lower-east-shaft-dock15) | MR | none |  |  |  |
+| L | left1 | Entry | [Deep Docks Lower East Shaft (Dock_15)](#deep-docks-lower-east-shaft-dock15) | MR | none |  | Verified |  |
 
 #### Subroom Connections
 
-No subroom connections defined.
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| J | Jump | Entry | Da Eater | Ledge Grab OR Cling Grip OR Scuttlebrace OR Faydown Cloak OR Silk Soar OR Proficient Movement (Crate Pogo) |  | Verified |  |
+| J | Jump | Da Eater | Entry | Ledge Grab OR Cling Grip OR Scuttlebrace OR Faydown Cloak OR Silk Soar |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| silkeater deep socks |  | none |  |  |  |  |
+| silkeater deep socks | Da Eater | none |  | Verified | collectible |  |
 
 ### Deep Docks Magma Slug Tunnels (Dock_11)
 
 **Game ID:** Dock_11
 
-**Contributors:** herounit
+**Contributors:** herounit and Rebel
 
 #### Subrooms
 
@@ -3523,24 +3638,34 @@ No subroom connections defined.
 
 #### Subrooms
 
-No subrooms defined.
+- diving bell platform
+- diving bell control room
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| D | door1 |  | [Deep Docks Diving Bell Interior (Room_Diving_Bell)](#deep-docks-diving-bell-interior-roomdivingbell) | L | unlock diving bell lock |  | Verified |  |
-| L | left1 |  | [Deep Docks Magma Slug Tunnels (Dock_11)](#deep-docks-magma-slug-tunnels-dock11) | R | none |  | Verified | transition is not blocked by door in next room |
+| D | door1 | diving bell platform | [Deep Docks Diving Bell Interior (Room_Diving_Bell)](#deep-docks-diving-bell-interior-roomdivingbell) | L | unlock diving bell lock |  | Verified |  |
+| L | left1 | diving bell platform | [Deep Docks Magma Slug Tunnels (Dock_11)](#deep-docks-magma-slug-tunnels-dock11) | R | none |  | Verified | transition is not blocked by door in next room |
 
 #### Subroom Connections
 
-No subroom connections defined.
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| CL | climb | diving bell platform | diving bell control room | silk soar OR cling grip OR scuttlebrace |  | Verified |  |
+| CL | climb | diving bell control room | diving bell platform | none (falling) |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| diving bell lock |  | have diving bell key |  | Verified | lock |  |
+| diving bell lock | diving bell platform | have diving bell key |  | Verified | lock |  |
+| diving bell key | diving bell control room | after Ballow in Diving Bell Control Room |  | Verified | collectible |  |
+| Ballow in Diving Bell Control Room | diving bell control room | complete THE Ballow Move to Control Room |  | Verified | event |  |
+
+#### Notes
+
+dive bell thingy room wow.
 
 ### Deep Docks Diving Bell Interior (Room_Diving_Bell)
 
@@ -3556,8 +3681,8 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Deep Docks Diving Bell Room (Dock_12)](#deep-docks-diving-bell-room-dock12) | D | none |  | Verified |  |
-| D | door_cinematicEnd |  | [Abyss Diving Bell Fixed (Room_Diving_Bell_Abyss_Fixed)](#abyss-diving-bell-fixed-roomdivingbellabyssfixed) | B | ACT3 AND Mallow is in control room above |  | Needs verification |  |
+| L | left1 |  | [Deep Docks Diving Bell Room (Dock_12)](#deep-docks-diving-bell-room-dock12) | D | None |  | Verified |  |
+| D | door_cinematicEnd |  | [Abyss Diving Bell Fixed (Room_Diving_Bell_Abyss_Fixed)](#abyss-diving-bell-fixed-roomdivingbellabyssfixed) | B | ACT 3 AND after THE Ballow in Diving Bell Control Room |  | Verified |  |
 
 #### Subroom Connections
 
@@ -3565,7 +3690,9 @@ No subroom connections defined.
 
 #### Check Locations
 
-No check locations defined.
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Bell Bench |  | Nothing. |  | Verified | bench | is this a valid bench for rando? |
 
 ## Far Fields
 
@@ -4313,7 +4440,7 @@ No subroom connections defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 | bell bench | [Is this still Deep Docks? (East) (Bone_East_04)](#is-this-still-deep-docks-east-boneeast04) | LR | none |  | Verified |  |
+| L | left1 | bell bench | [Is this still Deep Docks? East (Bone_East_04)](#is-this-still-deep-docks-east-boneeast04) | LR | none |  | Verified |  |
 | F | bot1 | ground | [Far Fields Entrance East (Bone_East_02)](#far-fields-entrance-east-boneeast02) | C | none |  | Verified |  |
 | R | right1 | spike exit | [Far Fields Fort Upper Passage (Bone_East_17)](#far-fields-fort-upper-passage-boneeast17) | L | none |  | Verified |  |
 
@@ -4354,15 +4481,15 @@ No subroom connections defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 | upper area | [Deep Docks Chains Upper East (Dock_03)](#deep-docks-chains-upper-east-dock03) | R | break wall left |  | Verified |  |
+| L | left1 | upper area | [Deep Docks Chains Upper East (Dock_03)](#deep-docks-chains-upper-east-dock03) | R | Activate Deep Docks Side Chain Room Door IN Deep Docks Chains East OR Activate Far Fields Side Chain Room Door |  | Verified | is this true? map doesn't seem to agree -you can open it from both lol. |
 | R | right1 | lower area | [Far Fields Wind Shaft (Bone_East_07)](#far-fields-wind-shaft-boneeast07) | L3 | none |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| LG1 | ledge grab 1 | lower area | upper area | ledge grab  OR silk soar  OR faydown  OR cling grip OR easy shaman pogo |  | Verified |  |
-| LG1 | ledge grab 1 | upper area | lower area | none (falling) |  | Verified |  |
+| LG | ledge grabs | lower area | upper area | ledge grab OR silk soar OR faydown cloak OR clawline OR easy shaman pogo |  | Verified |  |
+| LG | ledge grabs | upper area | lower area | none (falling) |  | Verified |  |
 | LG2 | ledge grab 2 | upper area | platform | ledge grab  OR silk soar  OR faydown  OR cling grip OR scuttlebrace |  | Verified |  |
 | LG2 | ledge grab 2 | platform | upper area | none (falling) |  | Verified |  |
 
@@ -4371,6 +4498,7 @@ No subroom connections defined.
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | warding bell | platform | none |  | Verified | collectible |  |
+| Far Fields Side Chain Room Door | upper area | Break Wall Left |  | Verified | blockade | wall can be opened from both sides |
 
 ### Far Fields Skull Room West (Bone_East_14)
 
@@ -4553,7 +4681,7 @@ the arena to mask shard connections are one-way so the full requirement chain is
 | silkspeed anklets | entrance | run OR ( easy beast pogo AND proficient movement ) |  | Verified | collectible | archipelago contribution that you can get the anklets without run |
 | relic rune harp weavenest cindril | secret room | none |  | Verified | collectible |  |
 | map of paths away from pharloom | secret room | none |  | Verified | lore |  |
-| secret room lock | entrance | run AND silkspeed anklets AND flea brew |  | Verified | lock |  |
+| secret room lock | entrance | run AND silkspeed anklets AND flea brew speed |  | Verified | lock |  |
 
 ### Far Fields Deep Entrance (Bone_East_24)
 
@@ -5383,8 +5511,8 @@ No check locations defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | R | right1 | before gate | [Hunter's March Shaft (Ant_14)](#hunters-march-shaft-ant14) | L4 | none |  | Verified |  |
-| LF | bot1 | left of gauntlet | [Is this still Deep Docks? (West) (Bone_East_04b)](#is-this-still-deep-docks-west-boneeast04b) | C | none |  | Verified |  |
-| RF | bot2 | right of gauntlet | [Is this still Deep Docks? (East) (Bone_East_04)](#is-this-still-deep-docks-east-boneeast04) | C | none |  | Verified |  |
+| LF | bot1 | left of gauntlet | [Is this still Deep Docks West (Bone_East_04b)](#is-this-still-deep-docks-west-boneeast04b) | C | none |  | Verified |  |
+| RF | bot2 | right of gauntlet | [Is this still Deep Docks? East (Bone_East_04)](#is-this-still-deep-docks-east-boneeast04) | C | none |  | Verified |  |
 
 #### Subroom Connections
 
@@ -7115,11 +7243,11 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| PG1 | plartform gap 1 | lower section | guarded platforms | ledge grab OR silk soar OR cling grip OR progressive swift step 2 OR medium shaman pogo  OR easy beast needle strike |  | Verified |  |
+| PG1 | plartform gap 1 | lower section | guarded platforms | ledge grab OR silk soar OR cling grip OR progressive swift step 2 OR medium shaman pogo  OR easy beast needle strike OR faydown cloak |  | Verified |  |
 | PG1 | plartform gap 1 | guarded platforms | lower section | none (just fall) |  | Verified |  |
-| PG2 | platform gap 2 | middle section | lower spike wheel | ledge grab OR silk soar OR cling grip OR progressive swift step 1 OR easy beast needle strike |  | Verified |  |
+| PG2 | platform gap 2 | middle section | lower spike wheel | ledge grab OR silk soar OR cling grip OR progressive swift step 1 OR easy beast needle strike OR faydown cloak |  | Verified |  |
 | PG2 | platform gap 2 | lower spike wheel | middle section | none (just fall) |  | Verified |  |
-| PG3 | platform gap 3 | lower spike wheel | upper spike wheel | cling grip OR silk soar OR (faydown cloak AND (easy scuttlebrace OR progressive swift step 1)) |  | Verified |  |
+| PG3 | platform gap 3 | lower spike wheel | upper spike wheel | cling grip OR silk soar OR (faydown cloak AND (easy scuttlebrace OR progressive swift step 1 OR ledge grab)) |  | Verified |  |
 | PG3 | platform gap 3 | upper spike wheel | lower spike wheel | none (just fall) |  | Verified |  |
 | F1 | fall 1 | upper spike wheel | tower top section | unlock top trapdoor AND spike pogo AND (faydown cloak OR ledge grab OR cling grip) |  | Verified |  |
 | F1 | fall 1 | tower top section | upper spike wheel | unlock top trapdoor |  | Verified |  |
@@ -7136,6 +7264,65 @@ No subroom connections defined.
 | Greymoor - Rosary Cache #10 | middle section | nothing |  | Verified | resource |  |
 | top trapdoor | tower top section | break lever right OR break lever left OR break lever up |  | Verified | blockade |  |
 | Mister Mushroom Meeting Greymoor | whisp thicket entrance | after THE Mister Mushroom Meeting Far Fields AND Needolin |  | Verified | event |  |
+
+### Pimpillo Room (Wisp_06)
+
+**Game ID:** Wisp_06
+
+**Contributors:** Isssma
+
+#### Subrooms
+
+No subrooms defined.
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| D | down |  | [Yarnaby Place (Wisp_03)](#yarnaby-place-wisp03) | T | nothing |  | Verified |  |
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Pimpillo |  | have Craftmetal |  | Verified | collectible |  |
+
+### Yarnaby Place (Wisp_03)
+
+**Game ID:** Wisp_03
+
+**Contributors:** Isssma
+
+#### Subrooms
+
+- lower section
+- upper shaft
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| YH | yanarby house | lower section | [Greymoor Yarnaby Room (Belltown_Room_doctor)](#greymoor-yarnaby-room-belltownroomdoctor) | L | have cursed crest trap |  | Verified |  |
+| R | right | lower section | [Greymoor Western Tower (Greymoor_06)](#greymoor-western-tower-greymoor06) | YP | nothing |  | Verified |  |
+| T | top | upper shaft | [Pimpillo Room (Wisp_06)](#pimpillo-room-wisp06) | D | prereq vine wall AND (silk soar OR cling grip OR easy scuttlebrace) |  | Verified |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| S1 | shaft 1 | lower section | upper shaft | silk soar OR ((cling grip OR easy scuttlebrace) AND (faydown cloak OR progressive swift step 1 OR clawline OR sharpdart OR easy architect needle strike OR easy beast pogo OR ((flea brew OR drifters cloak) AND cling grip))) |  | Verified |  |
+| S1 | shaft 1 | upper shaft | lower section | nothing (just fall) |  | Verified |  |
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Greymoor - Frayed Rosary String #3 | upper shaft | nothing |  | Verified | resource |  |
+| vine wall | upper shaft | break wall: up |  | Verified | blockade | if not broken the vine wall bounces you back |
 
 ### Greymoor Bellway (Bellway_04)
 
@@ -7861,66 +8048,6 @@ No check locations defined.
 | Greymoor - Rosary Cache #13 | upper section | silk soar OR faydown cloak OR clawline OR progressive swift step 1 OR sharpdart OR ledge grab OR cling grip OR easy beast pogo OR medium shaman pogo |  | Verified | resource |  |
 | Greymoor - Rosary Dish | rosaries room | nothing |  | Verified | resource |  |
 | tower entrance door | tower entrance | break lever right OR break lever left OR break lever up |  | Verified | blockade |  |
-
-### Pimpillo Room (Wisp_06)
-
-**Game ID:** Wisp_06
-
-**Contributors:** Isssma
-
-#### Subrooms
-
-No subrooms defined.
-
-#### Room Transitions
-
-| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| D | down |  | [Yarnaby Place (Wisp_03)](#yarnaby-place-wisp03) | T | nothing |  | Verified |  |
-
-#### Subroom Connections
-
-No subroom connections defined.
-
-#### Check Locations
-
-| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
-| --- | --- | --- | --- | --- | --- | --- |
-| Pimpillo |  | have Craftmetal |  | Verified | collectible |  |
-| bounce vine wall |  | break wall: down |  | Verified | blockade | if not broken you just get bounced back |
-
-### Yarnaby Place (Wisp_03)
-
-**Game ID:** Wisp_03
-
-**Contributors:** Isssma
-
-#### Subrooms
-
-- lower section
-- upper shaft
-
-#### Room Transitions
-
-| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| YH | yanarby house | lower section | [Greymoor Yarnaby Room (Belltown_Room_doctor)](#greymoor-yarnaby-room-belltownroomdoctor) | L | have crest cursed |  | Verified |  |
-| R | right | lower section | [Greymoor Western Tower (Greymoor_06)](#greymoor-western-tower-greymoor06) | YP | nothing |  | Verified |  |
-| T | top | upper shaft | [Pimpillo Room (Wisp_06)](#pimpillo-room-wisp06) | D | prereq vine wall AND (silk soar OR cling grip OR easy scuttlebrace) |  | Verified |  |
-
-#### Subroom Connections
-
-| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| S1 | shaft 1 | lower section | upper shaft | silk soar OR ((cling grip AND easy scuttlebrace) AND (faydown cloak OR progressive swift step 1 OR clawline OR sharpdart OR easy architect needle strike OR easy beast pogo OR ((flea brew OR drifters cloak) AND cling grip))) |  | Verified |  |
-| S1 | shaft 1 | upper shaft | lower section | nothing (just fall) |  | Verified |  |
-
-#### Check Locations
-
-| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
-| --- | --- | --- | --- | --- | --- | --- |
-| Greymoor - Frayed Rosary String #3 | upper shaft | silk soar OR cling grip OR easy scuttlebrace |  | Verified | resource |  |
-| vine wall | upper shaft | break wall: up |  | Verified | blockade | if not broken the vine wall bounces you back |
 
 ### Greymoor Yarnaby Room (Belltown_Room_doctor)
 
@@ -8944,7 +9071,7 @@ No subroom connections defined.
 
 **Game ID:** Song_01c
 
-**Contributors:** samupo
+**Contributors:** samupo and Isssma
 
 #### Subrooms
 
@@ -8955,33 +9082,7 @@ No subrooms defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | L | left1 |  | [Grand Gate Courtroom (Song_19_entrance)](#grand-gate-courtroom-song19entrance) | TR | none |  | Verified | falling is enough |
-| T | top1 |  | [Choral Chambers Below Ventrica (Song_01)](#choral-chambers-below-ventrica-song01) | B | cling grip |  | Verified | no silk soar |
-
-#### Subroom Connections
-
-No subroom connections defined.
-
-#### Check Locations
-
-No check locations defined.
-
-### Grand Gate Courtroom (Song_19_entrance)
-
-**Game ID:** Song_19_entrance
-
-**Contributors:** samupo
-
-#### Subrooms
-
-No subrooms defined.
-
-#### Room Transitions
-
-| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Grand Bridge (Coral_10)](#grand-bridge-coral10) | R | Prereq Boss: Last Judge IN Last Judge Arena |  | Verified | blocked |
-| TR | right1 |  | [Grand Gate Maintenance Room (Song_01c)](#grand-gate-maintenance-room-song01c) | L | faydown cloak OR silk soar |  | Verified |  |
-| R | right2 |  | [Grand Elevator (Under_01)](#grand-elevator-under01) | TL | none |  | Verified |  |
+| T | top1 |  | [Choral Chambers Below Ventrica (Song_01)](#choral-chambers-below-ventrica-song01) | B | cling grip OR scuttlebrace |  | Verified | no silk soar |
 
 #### Subroom Connections
 
@@ -8991,8 +9092,45 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Spool Fragment: Grand Gate |  | (faydown cloak AND cling grip) OR silk soar |  | Verified | collectible |  |
-| Map Purchase: Grand Gate |  | None |  | Verified | collectible |  |
+| metal wall |  | break wall left OR break wall up OR clear metal bars IN grand gate courtroom |  | Verified | blockade |  |
+
+### Grand Gate Courtroom (Song_19_entrance)
+
+**Game ID:** Song_19_entrance
+
+**Contributors:** samupo
+
+#### Subrooms
+
+- lower section
+- upper section
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left1 | lower section | [Grand Bridge (Coral_10)](#grand-bridge-coral10) | R | Prereq Grand Bridge Plate IN Grand Bridge |  | Verified | blocked |
+| TR | right1 | upper section | [Grand Gate Maintenance Room (Song_01c)](#grand-gate-maintenance-room-song01c) | L | silk soar OR faydown cloak OR cling grip OR ledge grab |  | Verified |  |
+| R | right2 | lower section | [Grand Elevator (Under_01)](#grand-elevator-under01) | TL | none |  | Verified |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| BG | big gap | lower section | upper section | silk soar OR faydown cloak OR (ledge grab AND (progressive swift step 1 OR clawline OR sharpdart OR flea brew OR easy hunter pogo OR easy architect pogo OR drifters cloak)) |  | Verified |  |
+| BG | big gap | upper section | lower section | nothing |  | Verified |  |
+
+#### Check Locations
+
+| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Spool Fragment: Grand Gate | upper section | silk soar OR ((cling grip OR scuttlebrace) AND (faydown cloak OR ledge grab)) |  | Verified | collectible |  |
+| Map Purchase: Grand Gate | lower section | None |  | Verified | collectible |  |
+| metal bars | upper section | break wall right OR break wall up OR clear metal wall IN grand gate maintenance room |  | Verified | blockade |  |
+
+#### Notes
+
+the syntax assumes upswing is not randomized otherwise, must make upswing required for the subroom transition and the check of the spool
 
 ### Grand Elevator (Under_01)
 
@@ -9405,7 +9543,7 @@ No check locations defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | L | left | behind left wall | [Sinner's Road Mist Maze Completed (Dust_Maze_08_completed)](#sinners-road-mist-maze-completed-dustmaze08completed) | LR | none |  | Verified |  |
 | C | center | hatch | [Sinner's Road Vertical Hall West (Dust_02)](#sinners-road-vertical-hall-west-dust02) | C | none |  | Verified |  |
-| R | right | right door platform | [Sinner's Road Vertical Hall East (Dust_06)](#sinners-road-vertical-hall-east-dust06) | L | faydown cloak OR (enemy pogo AND drifter’s cloak) OR (clawline AND (ledge grab OR cling grip)) |  | Verified |  |
+| R | right | right door platform | [Sinner's Road Vertical Hall East (Dust_06)](#sinners-road-vertical-hall-east-dust06) | L | complete North Hall Door Switch |  | Verified |  |
 
 #### Subroom Connections
 
@@ -9432,6 +9570,7 @@ No check locations defined.
 | Shell Shard Cache: Sinner’s Road #7 | left area | swim AND attack up |  | Verified | collectible |  |
 | Sinner's Road - Rosary Chest | chest plat | none |  | Verified | collectible |  |
 | Garmond and Zaza Act 3 Meeting Sinner's Road | right door platform | Act 3 |  | Verified | event |  |
+| North Hall Door Switch | right door platform | hit switch up OR hit switch right OR hit switch left |  | Verified | switch |  |
 
 ### Sinner's Road Spike Basement (Dust_Barb)
 
@@ -9508,30 +9647,50 @@ No check locations defined.
 
 #### Subrooms
 
-- lower
 - upper
+- bilewater door
+- left door
+- mid right door
+- mid cage
+- low mid cage
+- low door
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left | upper | [Sinner's Road North Hall (Dust_05)](#sinners-road-north-hall-dust05) | R | none |  | Verified |  |
-| LR | lower right | lower | [Sinner's Road Styx Room (Dust_11)](#sinners-road-styx-room-dust11) | L | none |  | Verified |  |
-| MR | middle right | upper | [Sinner's Road Flea Rescue (Dust_12)](#sinners-road-flea-rescue-dust12) | L | none |  | Verified |  |
-| UR | upper right | upper | [Bilewater Sinner's Entrance (Shadow_05)](#bilewater-sinners-entrance-shadow05) | L | none |  | Verified |  |
+| L | left | left door | [Sinner's Road North Hall (Dust_05)](#sinners-road-north-hall-dust05) | R | complete North Hall Door Switch IN Sinner's Road North Hall |  | Verified |  |
+| LR | lower right | low door | [Sinner's Road Styx Room (Dust_11)](#sinners-road-styx-room-dust11) | L | none |  | Verified |  |
+| MR | middle right | mid right door | [Sinner's Road Flea Rescue (Dust_12)](#sinners-road-flea-rescue-dust12) | L | none |  | Verified |  |
+| UR | upper right | bilewater door | [Bilewater Sinner's Entrance (Shadow_05)](#bilewater-sinners-entrance-shadow05) | L | none |  | Verified |  |
 
 #### Subroom Connections
 
-No subroom connections defined.
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| UTB | upper to bilewater | upper | bilewater door | faydown cloak OR drifter's cloak OR clawline OR sharpdart |  | Verified |  |
+| UTB | upper to bilewater | bilewater door | upper | (clawline AND (cling grip OR faydown cloak)) |  | Verified |  |
+| UTL | upper to left | upper | left door | NONE |  | Verified | IT'S BECAUSE YOU FUCKING FALL TO IT AND THAT'S IT |
+| UTL | upper to left | left door | upper | ledge grab OR cling grip OR faydown cloak OR scuttlebrace OR (silk soar AND proficient movement) |  | Verified |  |
+| CTL | cage to left | mid cage | left door | scuttlebrace OR cling grip OR silk soar |  | Verified |  |
+| CTL | cage to left | left door | mid cage | none |  | Verified | It's like "Only Up" but if it was the other direction |
+| CTB | cage to bile | mid cage | bilewater door | (faydown cloak AND (ledge grab OR (cling grip))) OR (silk soar AND (clawline OR sharpdart OR drifter's cloak OR faydown cloak)) |  | Verified |  |
+| CTB | cage to bile | bilewater door | mid cage | none |  | Verified | you go down |
+| MRC | cage traversal | low mid cage | mid cage | (faydown cloak AND ledge grab) OR silk soar OR cling grip |  | Verified |  |
+| MRC | cage traversal | mid cage | low mid cage | none |  | Verified | alling |
+| MDC | mid door to cage | low mid cage | mid right door | none |  | Verified | gravitytty5fdsf |
+| MDC | mid door to cage | mid right door | low mid cage | ledge grab OR cling grip OR faydown cloak OR scuttlebrace OR silk soar |  | Verified |  |
+| LM | low to mid | low door | low mid cage | silk soar OR cling grip |  | Verified |  |
+| LM | low to mid | low mid cage | low door | none |  | Verified | fALLING |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Rosary Cache: Sinner’s Road #5 | upper | none |  | Verified | collectible |  |
-| Rosary Cache: Sinner’s Road #6 | upper | none |  | Verified | collectible |  |
-| Rosary Cache: Sinner’s Road #7 | upper | none |  | Verified | collectible |  |
-| Shard Bundle: Sinner’s Road | upper | Ledge grab OR cling grip OR faydown cloak OR silk soar OR scuttlebrace |  | Verified | collectible |  |
+| Rosary Cache: Sinner’s Road #5 | mid cage | none |  | Verified | collectible |  |
+| Rosary Cache: Sinner’s Road #6 | mid cage | none |  | Verified | collectible |  |
+| Rosary Cache: Sinner’s Road #7 | mid cage | none |  | Verified | collectible |  |
+| Shard Bundle: Sinner’s Road | bilewater door | none |  | Verified | collectible |  |
 | Simple Key: Roachkeeper | upper | Cling grip AND (dash OR drifter’s cloak OR clawline OR sharpdart) |  | Verified | collectible |  |
 
 ### Sinner's Road Vertical Hall West (Dust_02)

@@ -333,13 +333,13 @@
     },
     {
       "id": "dac62eb7-1b6e-43a7-92d6-f678e5e66c30",
-      "name": "Flea Brew",
+      "name": "Flea Brew Jump",
       "category": "Ability",
       "inputSyntax": "{predicate}",
-      "outputSyntax": "capability:flea-brew",
-      "notes": "This implies you have the tool, the tool slot to equip it, and the means of getting a refill.",
+      "outputSyntax": "capability:flea-brew-jump",
+      "notes": "This implies you have the tool, the tool slot to equip it, and the means of getting a refill. Part of the enhanced movement logic category that can be enabled or disabled.",
       "sortOrder": 33,
-      "aliases": "flea brew"
+      "aliases": "flea brew, flea brew jump"
     },
     {
       "id": "8f8be758-e4d6-48df-b8e0-cfa19e4058b0",
@@ -702,24 +702,24 @@
       "aliases": "heal stall"
     },
     {
-      "id": "1e4bf14f-62a4-5c88-a443-41b103dd26ce",
-      "name": "Flea Brew Stall",
-      "category": "Technique",
-      "inputSyntax": "{difficulty} {predicate}",
-      "outputSyntax": "capability:flea-brew-stall:{difficulty}",
-      "notes": "Implies owning and being able to equip tool.",
-      "sortOrder": 70,
-      "aliases": "flea brew stall"
-    },
-    {
       "id": "819dea3c-3205-415f-8607-6f19a96fd3f3",
       "name": "Flintslate Stall",
       "category": "Technique",
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:flintslate-stall:{difficulty}",
       "notes": "Implies owning and being able to equip tool.",
-      "sortOrder": 71,
+      "sortOrder": 70,
       "aliases": "flintslate stall"
+    },
+    {
+      "id": "1e4bf14f-62a4-5c88-a443-41b103dd26ce",
+      "name": "Flea Brew Stall",
+      "category": "Technique",
+      "inputSyntax": "{difficulty} {predicate}",
+      "outputSyntax": "capability:flea-brew-stall:{difficulty}",
+      "notes": "Implies owning and being able to equip tool.",
+      "sortOrder": 71,
+      "aliases": "flea brew stall"
     },
     {
       "id": "ea318428-99e5-4a48-9be9-d44ddf71eab2",
@@ -972,13 +972,23 @@
       "aliases": "tool slots unlocked"
     },
     {
+      "id": "1ca8c951-0375-4fe3-bb43-79c80177d9fb",
+      "name": "Flea Brew Speed",
+      "category": "Capability",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "capability:flea-brew-speed",
+      "notes": "Used for the one situation where you are actually required to use Flea Brew for its speed at the Weavenest in Far Fields to unlock the secret area. Implies having the tool, being able to equip it, and access to refills. This should not be controlled by enhanced movement settings, as this is a core part of game logic.",
+      "sortOrder": 97,
+      "aliases": "flea brew speed"
+    },
+    {
       "id": "6df12dcf-82aa-580c-9924-eaa696894132",
       "name": "Hunter\u0027s Journal Entries",
       "category": "Count",
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "count:hunter-journal-entries:{quantity}",
       "notes": "Used for Nuu\u0027s wish or Hunter\u0027s Journal completion goals. Indicates the number of unique enemies you can encounter and journal.",
-      "sortOrder": 97,
+      "sortOrder": 98,
       "aliases": "hunters journal entries"
     },
     {
@@ -988,7 +998,7 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "count:shakra-map-purchases:{quantity}",
       "notes": "Used for Trail\u0027s End wish. Must have all of Shakra\u0027s maps purchased. ",
-      "sortOrder": 98,
+      "sortOrder": 99,
       "aliases": "shakra map purchases"
     },
     {
@@ -998,7 +1008,7 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "count:second-sentinel-encounters:{quantity}",
       "notes": "Used for the Final Audience wish. All Second Sentinel Encounters locations listed in the wiki are marked as events with appropriate requirements. ",
-      "sortOrder": 99,
+      "sortOrder": 100,
       "aliases": "second sentinel encounters"
     },
     {
@@ -1008,7 +1018,7 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "count:fine-pins:{quantity}",
       "notes": "Used for the Fine Pins wish. Dropped by Choristors and Reeds. Will need enemies that drop them/resource locations marked in logic. ",
-      "sortOrder": 100,
+      "sortOrder": 101,
       "aliases": "fine pins"
     },
     {
@@ -1018,7 +1028,7 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "count:choir-cloaks:{quantity}",
       "notes": "Used for the Cloaks of the Choir wish. Dropped by Choir Pouncers, Choir Hornheads, Choir Flyers, and Choir Elders. Locations of enemies that drop them and resources will need to be marked in logic.",
-      "sortOrder": 101,
+      "sortOrder": 102,
       "aliases": "choir cloaks"
     },
     {
@@ -1028,7 +1038,7 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "count:cogheart-pieces:{quantity}",
       "notes": "Used to activate the Second Sentinel.",
-      "sortOrder": 102,
+      "sortOrder": 103,
       "aliases": "cogheart pieces"
     },
     {
@@ -1038,7 +1048,7 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "count:threefold-melody-parts:{quantity}",
       "notes": "Used for Trail\u0027s End wish. Must have two out of the three at least.",
-      "sortOrder": 103,
+      "sortOrder": 104,
       "aliases": "threefold melody parts"
     },
     {
@@ -1048,7 +1058,7 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "count:maps:{quantity}",
       "notes": "Used for the A Vassal Lost wish requirements.",
-      "sortOrder": 104,
+      "sortOrder": 105,
       "aliases": "maps"
     },
     {
@@ -1058,7 +1068,7 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "count:grant-songclave-wishes:{quantity}",
       "notes": "Used for various Songclave wish requirements. ",
-      "sortOrder": 105,
+      "sortOrder": 106,
       "aliases": "grant songclave wishes"
     },
     {
@@ -1068,7 +1078,7 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "count:visit-resting-sites:{quantity}",
       "notes": "Used in the A Vassal Lost wish requirements. Three resting sites are randomly assigned to be visited out of a pool of six sites in various locations. Visiting all three assigned sites unlocks the passage in Bonegrave to reach the Summoned Savior boss fight.",
-      "sortOrder": 106,
+      "sortOrder": 107,
       "aliases": "visit resting sites"
     },
     {
@@ -1078,7 +1088,7 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "count:sold-relics:{quantity}",
       "notes": "Used for Restoration of Bellhart wish. Indicates how many relics have been sold to Relic Seeker Scrounge. ",
-      "sortOrder": 107,
+      "sortOrder": 108,
       "aliases": "sold relics"
     },
     {
@@ -1088,7 +1098,7 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "count:ragpelts:{quantity}",
       "notes": "Used in the wish Crawbug Clearing. Dropped by Craws, Tallcraws, and Squatcraws. Locations will need to be marked on the map for enemies and resources.",
-      "sortOrder": 108,
+      "sortOrder": 109,
       "aliases": "ragpelts"
     },
     {
@@ -1098,7 +1108,7 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "count:silver-bells:{quantity}",
       "notes": "Used for the Silver Bells wish. Silver bell gather locations will need to be marked on the map to facilitate this logic requirement.",
-      "sortOrder": 109,
+      "sortOrder": 110,
       "aliases": "silver bells"
     },
     {
@@ -1108,7 +1118,7 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "count:garmond-and-zaza-act-3-encounters:{quantity}",
       "notes": "Used for the wish Hero\u0027s Call. Wiki indicates that the encounters must be Act 3 encounters.",
-      "sortOrder": 110,
+      "sortOrder": 111,
       "aliases": "garmond and zaza act 3 encounters"
     },
     {
@@ -1118,7 +1128,7 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "count:silk-and-soul-points:{quantity}",
       "notes": "Uuuuuuuh, good luck on this one. :)",
-      "sortOrder": 111,
+      "sortOrder": 112,
       "aliases": "silk and soul points"
     },
     {
@@ -1128,7 +1138,7 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "count:bellhome-items:{quantity}",
       "notes": "",
-      "sortOrder": 112,
+      "sortOrder": 113,
       "aliases": "bellhome items"
     },
     {
@@ -1138,7 +1148,7 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "count:sold-psalm-cylinders:{quantity}",
       "notes": "",
-      "sortOrder": 113,
+      "sortOrder": 114,
       "aliases": "sold pslam cylinders"
     },
     {
@@ -1148,7 +1158,7 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "count:destroy-void-masses:{quantity}",
       "notes": "Used in the Dark Hearts wish. According to the wiki there are 47 void masses locations (45 in Steel Soul because the two near Styx\u0027s spot don\u0027t spawn). No drops for the quest, just a defeat counter for them. ",
-      "sortOrder": 114,
+      "sortOrder": 115,
       "aliases": "destroy void masses"
     },
     {
@@ -1158,7 +1168,7 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "count:tools:{quantity}",
       "notes": "Own the specified number of tools. Required for Architect\u0027s Key.",
-      "sortOrder": 115,
+      "sortOrder": 116,
       "aliases": "tools"
     },
     {
@@ -1168,7 +1178,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:act-1",
       "notes": "I don\u0027t think this will get used, but adding it for completeness. ",
-      "sortOrder": 116,
+      "sortOrder": 117,
       "aliases": "act i, act 1"
     },
     {
@@ -1178,7 +1188,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:act-2",
       "notes": "",
-      "sortOrder": 117,
+      "sortOrder": 118,
       "aliases": "act ii, act 2"
     },
     {
@@ -1188,7 +1198,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:act-3",
       "notes": "",
-      "sortOrder": 118,
+      "sortOrder": 119,
       "aliases": "act iii, act 3"
     },
     {
@@ -1198,7 +1208,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:craw-summons-ready",
       "notes": "Ready to receive Craw Summons at an eligible bench spot. Created a predicate because there is not a singular spot to define the logic. Implies proper story progression, but not eligible bench access. Bench access logic is applied by using this requirement on the check location.\n\n\u0022To receive the Craw Summons, Hornet must have reached Act 3, completed the SEEK: Awaiting the End objective, and hit the lever inside the Craw house on Craw Lake.\u0022 - per the wiki",
-      "sortOrder": 119,
+      "sortOrder": 120,
       "aliases": "craw summons ready"
     },
     {
@@ -1208,7 +1218,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:visit-shellwood",
       "notes": "Used for the wish Volatile Flintbeetles.",
-      "sortOrder": 120,
+      "sortOrder": 121,
       "aliases": "visit shellwood"
     },
     {
@@ -1218,7 +1228,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:visit-greymoor",
       "notes": "Used for the wish Volatile Flintbeetles.",
-      "sortOrder": 121,
+      "sortOrder": 122,
       "aliases": "visit greymoor"
     },
     {
@@ -1228,7 +1238,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:visit-sinners-road",
       "notes": "",
-      "sortOrder": 122,
+      "sortOrder": 123,
       "aliases": "visit sinners road"
     },
     {
@@ -1238,7 +1248,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:visit-blasted-steps",
       "notes": "",
-      "sortOrder": 123,
+      "sortOrder": 124,
       "aliases": "visit blasted steps"
     },
     {
@@ -1248,7 +1258,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:visit-the-citadel",
       "notes": "Used for the wish An Icon of Hope. In-game flag is tied to citadelWoken. Good luck.",
-      "sortOrder": 124,
+      "sortOrder": 125,
       "aliases": "visit the citadel"
     },
     {
@@ -1258,7 +1268,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:visit-whiteward",
       "notes": "Used for the wish Balm for the Wounded.",
-      "sortOrder": 125,
+      "sortOrder": 126,
       "aliases": "visit whiteward"
     },
     {
@@ -1268,7 +1278,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "setting:steel-soul-on",
       "notes": "",
-      "sortOrder": 126,
+      "sortOrder": 127,
       "aliases": "steel soul on, steel soul, ooo look at me im so good at the game"
     },
     {
@@ -1278,7 +1288,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "setting:steel-soul-off",
       "notes": "",
-      "sortOrder": 127,
+      "sortOrder": 128,
       "aliases": "steel soul off"
     },
     {
@@ -1288,7 +1298,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "setting:bellshrinesanity-on",
       "notes": "",
-      "sortOrder": 128,
+      "sortOrder": 129,
       "aliases": "bellshrinesanity on"
     },
     {
@@ -1298,7 +1308,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "setting:bellshrinesanity-off",
       "notes": "",
-      "sortOrder": 129,
+      "sortOrder": 130,
       "aliases": "bellshrinesanity off"
     },
     {
@@ -1308,7 +1318,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "setting:bossanity-on",
       "notes": "",
-      "sortOrder": 130,
+      "sortOrder": 131,
       "aliases": "bossanity on"
     },
     {
@@ -1318,7 +1328,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "setting:bossanity-off",
       "notes": "",
-      "sortOrder": 131,
+      "sortOrder": 132,
       "aliases": "bossanity off"
     },
     {
@@ -1328,7 +1338,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "setting:wishsanity-on",
       "notes": "",
-      "sortOrder": 132,
+      "sortOrder": 133,
       "aliases": "wishsanity on"
     },
     {
@@ -1338,7 +1348,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "setting:wishsanity-off",
       "notes": "",
-      "sortOrder": 133,
+      "sortOrder": 134,
       "aliases": "wishsanity off"
     }
   ],
