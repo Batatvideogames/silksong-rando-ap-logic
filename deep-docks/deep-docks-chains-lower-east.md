@@ -7,13 +7,16 @@
 ## Subrooms
 
 - upper chains
-- spool fragment area
+- spool fragment
 - lower chains
 - middle chains
 - upper lava platform
 - lower lava platform
 - gauntlet
 - upper left of gauntlet
+- Spool Rock 1
+- Spool Rock 2
+- Spool Rock 3
 
 ## Room Transitions
 
@@ -27,8 +30,8 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| SP | open spool door | spool fragment area | upper chains | open airlock left |  | Verified | one-way |
-| SP | open spool door | upper chains | spool fragment area | Invalid |  | Verified |  |
+| SP | open spool door | spool fragment | upper chains | open airlock left |  | Verified | one-way |
+| SP | open spool door | upper chains | spool fragment | Invalid |  | Verified |  |
 | C1 | upper to middle chains | middle chains | upper chains | faydown cloak OR cling grip OR Scuttlebrace OR silk soar OR Ledge Grab |  | Verified |  |
 | C1 | upper to middle chains | upper chains | middle chains | none (falling) |  | Verified |  |
 | C2 | lower to middle chains | lower chains | middle chains | silk soar OR cling grip OR Scuttlebrace OR (faydown cloak AND Ledge Grab) |  | Verified |  |
@@ -47,13 +50,22 @@
 | CG | Chain Gauntlet | middle chains | gauntlet | clear chains gauntlet |  | Verified |  |
 | TF | To Flea | gauntlet | upper left of gauntlet | clear chains gauntlet AND (Silk Soar OR Cling Grip OR Faydown Cloak OR Scuttlebrace) |  | Verified |  |
 | TF | To Flea | upper left of gauntlet | gauntlet | Nothing (Fall) |  | Verified |  |
-| SC | spool crossing | lower chains | spool fragment area | cling grip  AND ( clawline OR ( dash AND ( run OR sharpdart OR drifter's cloak ) ) ) AND break blast rock up AND break blast rock down |  | Verified |  |
+| SSC | Start Spool Collection | lower chains | Spool Rock 1 | (((Clawline OR Progressive Swift Step 2 OR Sharpdart) AND (Drifter's Cloak OR Faydown Cloak)) OR (((Flea Brew AND Medium Flea Brew Stall) OR Medium Voltvessels Stall) AND Drifter's Cloak) OR (Drifter's Cloak AND Faydown Cloak)) AND Cling Grip |  | Verified | functionally one way |
+| SSC | Start Spool Collection | Spool Rock 1 | lower chains | Invalid |  | Verified |  |
+| CSC | Continue Spool Collection | Spool Rock 1 | Spool Rock 2 | Cling Grip AND (Spike Pogo OR Clawline OR Sharpdart OR (Faydown Cloak AND Drifter's Cloak)) |  | Verified | functionally one way |
+| CSC | Continue Spool Collection | Spool Rock 2 | Spool Rock 1 | Invalid |  | Verified |  |
+| FBR | Final Blast Rock | Spool Rock 2 | Spool Rock 3 | (Cling Grip AND ( ( ( (Easy Beast Pogo OR Clawline x 2 OR Faydown Cloak OR Drifter's Cloak OR Sharpdart OR Dash) AND Spike Pogo) ) OR ( (Faydown Cloak AND Drifter's Cloak) AND (Easy Flea Brew Stall OR Medium Voltvessels Stall) ) ) ) |  | Verified | functionally one way |
+| FBR | Final Blast Rock | Spool Rock 3 | Spool Rock 2 | Invalid |  | Verified |  |
+| SFT | spool fragment time | Spool Rock 3 | spool fragment | (Cling Grip AND (Proficient Movement OR Spike Pogo OR Dash OR Sharpdart x 2 OR Clawline OR Drifter's Cloak OR Faydown Cloak)) |  | Verified | functionally one way |
+| SFT | spool fragment time | spool fragment | Spool Rock 3 | Invalid |  | Verified |  |
 
 ## Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Deep Docks (Southeast) - Spool Fragment | spool fragment area | none |  | Verified | collectible |  |
+| silk spool deep docks 1 | spool fragment | Activate First Spool Blast Rock AND Activate Second Spool Blast Rock AND Activate Third Spool Blast Rock |  | Verified | collectible |  |
 | Shortcut Blast Rock | lower lava platform | nada |  | Verified | blockade |  |
 | Chains Gauntlet | gauntlet | nothing. |  | Verified | gauntlet |  |
-| Spool Door Switch | spool fragment area | Flip Switch Left |  | Verified | switch |  |
+| First Spool Blast Rock | Spool Rock 1 | Break Blast Rock Up |  | Verified | blockade |  |
+| Second Spool Blast Rock | Spool Rock 2 | Break Blast Rock Down AND Activate First Spool Blast Rock |  | Verified | blockade |  |
+| Third Spool Blast Rock | Spool Rock 3 | Break Blast Rock Up AND Activate First Spool Blast Rock AND Activate Second Spool Blast Rock |  | Verified | blockade |  |

@@ -901,6 +901,16 @@
       "notes": "Implies owning and being able to equip tool."
     },
     {
+      "name": "Drill Crystal Pogo",
+      "category": "Technique",
+      "input_syntax": "{difficulty} {predicate}",
+      "output_syntax": "capability:drill-crystal-pogo:{difficulty}",
+      "aliases": [
+        "drill crystal pogo"
+      ],
+      "notes": "Implies owning tools delver's drill and memory crystal and being able to equip them both at the same time. Involves taking damage to create the crystal and then using the drill to gain vertical height from it. "
+    },
+    {
       "name": "Hazard Respawn",
       "category": "Technique",
       "input_syntax": "{difficulty} {predicate}",
@@ -28961,7 +28971,7 @@
           "source_node_id": "deep-docks/deep-docks-spire-lower#floor",
           "target_node_id": "deep-docks/deep-docks-spire-lower#top-right-entrance-path",
           "requirement": {
-            "raw": "Ledge Grab \nOR Cling Grip \nOR Scuttlebrace \nOR Faydown Cloak \nOR (Silk Soar AND Magma Bell) \nOR Easy Shaman Pogo\nOR Easy Enemy Pogo",
+            "raw": "Ledge Grab \nOR Cling Grip \nOR Scuttlebrace \nOR Faydown Cloak \nOR (Silk Soar AND Magma Bell) \nOR Easy Shaman Pogo\nOR Easy Enemy Pogo\nOR Easy Drill Crystal Pogo",
             "mode": "expression",
             "dnf": [
               [
@@ -28985,11 +28995,14 @@
               ],
               [
                 "capability:enemy-pogo:easy"
+              ],
+              [
+                "capability:drill-crystal-pogo:easy"
               ]
             ],
             "unresolved_reasons": []
           },
-          "notes": "removed \"easy drill skip\" until I know what it is\nadded shaman pogo and enemy pogo - hero, 9/28",
+          "notes": "",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
@@ -29022,7 +29035,7 @@
           "source_node_id": "deep-docks/deep-docks-spire-lower#floor",
           "target_node_id": "deep-docks/deep-docks-spire-lower#rosary",
           "requirement": {
-            "raw": "((Sprint OR Dash OR Clawline OR Sharpdart OR Easy Architect Charge OR Flea Brew OR Easy Flea Brew Stall) AND (Ledge Grab OR Cling Grip)) OR (((Proficient Movement AND Architect Attack Right) OR (Easy Heal Stall AND Easy Voltvessels Stall)) AND Cling Grip) OR (Silk Soar AND Magma Bell)",
+            "raw": "((Sprint OR Dash OR Clawline OR Sharpdart OR Easy Architect Charge OR Flea Brew OR Easy Flea Brew Stall) AND (Ledge Grab OR Cling Grip)) \nOR (((Proficient Movement AND Architect Attack Right) OR (Easy Heal Stall AND Easy Voltvessels Stall)) AND Cling Grip) \nOR (Silk Soar AND Magma Bell)",
             "mode": "expression",
             "dnf": [
               [
@@ -29962,7 +29975,7 @@
           "source_node_id": "deep-docks/deep-docks-upper-spire#spire",
           "target_node_id": "deep-docks/deep-docks-upper-spire#right-exit-platform",
           "requirement": {
-            "raw": "Cling Grip \nOR Sprint \nOR Faydown Cloak \nOR Clawline \nOR Easy Scuttlebrace \nOR ((Dash OR Drifter's Cloak) AND (Ledge Grab OR (Silk Soar AND Magma Bell))) \nOR Easy Beast Charge \nOR Easy Beast Pogo \nOR Flea Brew\nOR Sharpdart \nOR (Medium Shaman Crest Pogo AND Ledge Grab) \nOR ((Easy Voltvessels Stall OR Easy Flintslate Stall OR Easy Plasmium Stall) AND Ledge Grab) \nOR Easy Architect Charge \nOR ((Proficient Movement AND Architect Attack Right) AND (Easy Heal Stall AND Ledge Grab)) OR Hard Plasmium Stall",
+            "raw": "Cling Grip \nOR Sprint \nOR Faydown Cloak \nOR Clawline \nOR Easy Scuttlebrace\nOR (Silk Soar AND (Magma Bell OR Proficient Movement))\nOR ((Dash OR Drifter's Cloak OR Flea Brew) AND Ledge Grab) \nOR Easy Beast Charge OR Easy Beast Pogo \nOR (Flea Brew AND Easy Flea Brew Stall) \nOR Sharpdart \nOR (Medium Shaman Crest Pogo AND Ledge Grab) \nOR ((Easy Voltvessels Stall OR Easy Flintslate Stall \nOR Easy Plasmium Stall) AND Ledge Grab) \nOR (Easy Drill Crystal Pogo AND Ledge Grab) \nOR Easy Architect Charge \nOR (Proficient Movement AND Architect Attack Right AND ( Easy Heal Stall OR Easy Flea Brew Stall OR Easy Flintslate Stall OR Easy Voltvessels Stall ) AND Ledge Grab)\nOR Hard Plasmium Stall",
             "mode": "expression",
             "dnf": [
               [
@@ -29981,22 +29994,24 @@
                 "capability:scuttlebrace:easy"
               ],
               [
-                "capability:dash",
-                "capability:ledge-grab"
+                "capability:silk-soar",
+                "capability:magma-bell"
+              ],
+              [
+                "capability:silk-soar",
+                "capability:proficient-movement"
               ],
               [
                 "capability:dash",
-                "capability:silk-soar",
-                "capability:magma-bell"
+                "capability:ledge-grab"
               ],
               [
                 "capability:drifters-cloak",
                 "capability:ledge-grab"
               ],
               [
-                "capability:drifters-cloak",
-                "capability:silk-soar",
-                "capability:magma-bell"
+                "capability:flea-brew-jump",
+                "capability:ledge-grab"
               ],
               [
                 "technique:beast-crest-needle-strike:easy"
@@ -30005,7 +30020,8 @@
                 "capability:beast-crest-pogo:easy"
               ],
               [
-                "capability:flea-brew-jump"
+                "capability:flea-brew-jump",
+                "capability:flea-brew-stall:easy"
               ],
               [
                 "capability:sharpdart"
@@ -30027,6 +30043,10 @@
                 "capability:ledge-grab"
               ],
               [
+                "capability:drill-crystal-pogo:easy",
+                "capability:ledge-grab"
+              ],
+              [
                 "technique:architect-crest-needle-strike:easy"
               ],
               [
@@ -30036,12 +30056,30 @@
                 "capability:ledge-grab"
               ],
               [
+                "capability:proficient-movement",
+                "technique:architect-crest-attack:right",
+                "capability:flea-brew-stall:easy",
+                "capability:ledge-grab"
+              ],
+              [
+                "capability:proficient-movement",
+                "technique:architect-crest-attack:right",
+                "capability:flintslate-stall:easy",
+                "capability:ledge-grab"
+              ],
+              [
+                "capability:proficient-movement",
+                "technique:architect-crest-attack:right",
+                "capability:voltvessels-stall:easy",
+                "capability:ledge-grab"
+              ],
+              [
                 "capability:plasmium-phial-stall:hard"
               ]
             ],
             "unresolved_reasons": []
           },
-          "notes": "removed unqualified \"OR Flea Brew\" - is it used as a stall or just having it enables you to make the jump? As far as I can tell, flea brew still requires ledge grab - hero, 9/28\nremoved \"OR (Easy Drill Skip AND Ledge Grab)\" until rebel can give feedback on how this works - hero, 9/28",
+          "notes": "",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
@@ -30152,7 +30190,7 @@
           "source_node_id": "deep-docks/deep-docks-upper-spire#flea-access-lever",
           "target_node_id": "deep-docks/deep-docks-upper-spire#left-flea-platform",
           "requirement": {
-            "raw": "Silk Soar OR (Faydown Cloak AND Ledge Grab) OR Cling Grip OR (Activate Deep Docks Upper Spire Flea Lever AND (Easy Scuttlebrace OR Sprint OR Dash)) OR (Drifter's Cloak AND (Ledge Grab OR (Proficient Movement AND Architect Attack Left) )) OR ((Easy Architect Charge OR Easy Beast Charge) AND Ledge Grab)",
+            "raw": "Silk Soar \nOR (Faydown Cloak AND Ledge Grab) \nOR Cling Grip \nOR (Activate Deep Docks Upper Spire Flea Lever AND (Easy Scuttlebrace OR Sprint OR Dash))\nOR (Drifter's Cloak AND (Ledge Grab OR (Proficient Movement AND Architect Attack Left) ))\nOR ((Easy Architect Charge OR Easy Beast Charge) AND Ledge Grab)",
             "mode": "expression",
             "dnf": [
               [
@@ -34110,8 +34148,8 @@
           "notes": ""
         },
         {
-          "id": "deep-docks/deep-docks-chains-lower-east#spool-fragment-area",
-          "name": "spool fragment area",
+          "id": "deep-docks/deep-docks-chains-lower-east#spool-fragment",
+          "name": "spool fragment",
           "notes": ""
         },
         {
@@ -34142,6 +34180,21 @@
         {
           "id": "deep-docks/deep-docks-chains-lower-east#upper-left-of-gauntlet",
           "name": "upper left of gauntlet",
+          "notes": ""
+        },
+        {
+          "id": "deep-docks/deep-docks-chains-lower-east#spool-rock-1",
+          "name": "Spool Rock 1",
+          "notes": ""
+        },
+        {
+          "id": "deep-docks/deep-docks-chains-lower-east#spool-rock-2",
+          "name": "Spool Rock 2",
+          "notes": ""
+        },
+        {
+          "id": "deep-docks/deep-docks-chains-lower-east#spool-rock-3",
+          "name": "Spool Rock 3",
           "notes": ""
         }
       ],
@@ -34216,10 +34269,10 @@
       ],
       "connections": [
         {
-          "id": "deep-docks/deep-docks-chains-lower-east#spool-fragment-area>upper-chains@sp",
+          "id": "deep-docks/deep-docks-chains-lower-east#spool-fragment>upper-chains@sp",
           "alias": "SP",
           "name": "open spool door",
-          "source_node_id": "deep-docks/deep-docks-chains-lower-east#spool-fragment-area",
+          "source_node_id": "deep-docks/deep-docks-chains-lower-east#spool-fragment",
           "target_node_id": "deep-docks/deep-docks-chains-lower-east#upper-chains",
           "requirement": {
             "raw": "open airlock left",
@@ -34238,11 +34291,11 @@
           "unresolved_reasons": []
         },
         {
-          "id": "deep-docks/deep-docks-chains-lower-east#upper-chains>spool-fragment-area@sp",
+          "id": "deep-docks/deep-docks-chains-lower-east#upper-chains>spool-fragment@sp",
           "alias": "SP",
           "name": "open spool door",
           "source_node_id": "deep-docks/deep-docks-chains-lower-east#upper-chains",
-          "target_node_id": "deep-docks/deep-docks-chains-lower-east#spool-fragment-area",
+          "target_node_id": "deep-docks/deep-docks-chains-lower-east#spool-fragment",
           "requirement": {
             "raw": "Invalid",
             "mode": "expression",
@@ -34785,41 +34838,292 @@
           "unresolved_reasons": []
         },
         {
-          "id": "deep-docks/deep-docks-chains-lower-east#lower-chains>spool-fragment-area@sc",
-          "alias": "SC",
-          "name": "spool crossing",
+          "id": "deep-docks/deep-docks-chains-lower-east#lower-chains>spool-rock-1@ssc",
+          "alias": "SSC",
+          "name": "Start Spool Collection",
           "source_node_id": "deep-docks/deep-docks-chains-lower-east#lower-chains",
-          "target_node_id": "deep-docks/deep-docks-chains-lower-east#spool-fragment-area",
+          "target_node_id": "deep-docks/deep-docks-chains-lower-east#spool-rock-1",
           "requirement": {
-            "raw": "cling grip \nAND ( clawline OR ( dash AND ( run OR sharpdart OR drifter's cloak ) ) )\nAND break blast rock up\nAND break blast rock down",
+            "raw": "(((Clawline OR Progressive Swift Step 2 OR Sharpdart) AND (Drifter's Cloak OR Faydown Cloak)) OR (((Flea Brew AND Medium Flea Brew Stall) OR Medium Voltvessels Stall) AND Drifter's Cloak) OR (Drifter's Cloak AND Faydown Cloak)) AND Cling Grip",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:clawline",
+                "capability:drifters-cloak",
+                "capability:cling-grip"
+              ],
+              [
+                "capability:clawline",
+                "capability:faydown-cloak",
+                "capability:cling-grip"
+              ],
+              [
+                "capability:dash",
+                "capability:drifters-cloak",
+                "capability:cling-grip"
+              ],
+              [
+                "capability:dash",
+                "capability:faydown-cloak",
+                "capability:cling-grip"
+              ],
+              [
+                "capability:sharpdart",
+                "capability:drifters-cloak",
+                "capability:cling-grip"
+              ],
+              [
+                "capability:sharpdart",
+                "capability:faydown-cloak",
+                "capability:cling-grip"
+              ],
+              [
+                "capability:flea-brew-jump",
+                "capability:flea-brew-stall:medium",
+                "capability:drifters-cloak",
+                "capability:cling-grip"
+              ],
+              [
+                "capability:voltvessels-stall:medium",
+                "capability:drifters-cloak",
+                "capability:cling-grip"
+              ],
+              [
+                "capability:drifters-cloak",
+                "capability:faydown-cloak",
+                "capability:cling-grip"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "functionally one way",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "deep-docks/deep-docks-chains-lower-east#spool-rock-1>lower-chains@ssc",
+          "alias": "SSC",
+          "name": "Start Spool Collection",
+          "source_node_id": "deep-docks/deep-docks-chains-lower-east#spool-rock-1",
+          "target_node_id": "deep-docks/deep-docks-chains-lower-east#lower-chains",
+          "requirement": {
+            "raw": "Invalid",
+            "mode": "expression",
+            "dnf": [
+              [
+                "invalid"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "deep-docks/deep-docks-chains-lower-east#spool-rock-1>spool-rock-2@csc",
+          "alias": "CSC",
+          "name": "Continue Spool Collection",
+          "source_node_id": "deep-docks/deep-docks-chains-lower-east#spool-rock-1",
+          "target_node_id": "deep-docks/deep-docks-chains-lower-east#spool-rock-2",
+          "requirement": {
+            "raw": "Cling Grip AND (Spike Pogo OR Clawline OR Sharpdart OR (Faydown Cloak AND Drifter's Cloak))",
             "mode": "expression",
             "dnf": [
               [
                 "capability:cling-grip",
-                "capability:clawline",
-                "capability:break-blast-rock:up",
-                "capability:break-blast-rock:down"
+                "capability:spike-pogo"
               ],
               [
                 "capability:cling-grip",
-                "capability:dash",
-                "capability:sprint",
-                "capability:break-blast-rock:up",
-                "capability:break-blast-rock:down"
+                "capability:clawline"
               ],
               [
                 "capability:cling-grip",
-                "capability:dash",
-                "capability:sharpdart",
-                "capability:break-blast-rock:up",
-                "capability:break-blast-rock:down"
+                "capability:sharpdart"
               ],
               [
                 "capability:cling-grip",
-                "capability:dash",
+                "capability:faydown-cloak",
+                "capability:drifters-cloak"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "functionally one way",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "deep-docks/deep-docks-chains-lower-east#spool-rock-2>spool-rock-1@csc",
+          "alias": "CSC",
+          "name": "Continue Spool Collection",
+          "source_node_id": "deep-docks/deep-docks-chains-lower-east#spool-rock-2",
+          "target_node_id": "deep-docks/deep-docks-chains-lower-east#spool-rock-1",
+          "requirement": {
+            "raw": "Invalid",
+            "mode": "expression",
+            "dnf": [
+              [
+                "invalid"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "deep-docks/deep-docks-chains-lower-east#spool-rock-2>spool-rock-3@fbr",
+          "alias": "FBR",
+          "name": "Final Blast Rock",
+          "source_node_id": "deep-docks/deep-docks-chains-lower-east#spool-rock-2",
+          "target_node_id": "deep-docks/deep-docks-chains-lower-east#spool-rock-3",
+          "requirement": {
+            "raw": "(Cling Grip AND ( ( ( (Easy Beast Pogo OR Clawline x 2 OR Faydown Cloak OR Drifter's Cloak OR Sharpdart OR Dash) AND Spike Pogo) ) OR ( (Faydown Cloak AND Drifter's Cloak) AND (Easy Flea Brew Stall OR Medium Voltvessels Stall) ) ) )",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:cling-grip",
+                "capability:beast-crest-pogo:easy",
+                "capability:spike-pogo"
+              ],
+              [
+                "capability:cling-grip",
+                "capability:clawline:2",
+                "capability:spike-pogo"
+              ],
+              [
+                "capability:cling-grip",
+                "capability:faydown-cloak",
+                "capability:spike-pogo"
+              ],
+              [
+                "capability:cling-grip",
                 "capability:drifters-cloak",
-                "capability:break-blast-rock:up",
-                "capability:break-blast-rock:down"
+                "capability:spike-pogo"
+              ],
+              [
+                "capability:cling-grip",
+                "capability:sharpdart",
+                "capability:spike-pogo"
+              ],
+              [
+                "capability:cling-grip",
+                "capability:dash",
+                "capability:spike-pogo"
+              ],
+              [
+                "capability:cling-grip",
+                "capability:faydown-cloak",
+                "capability:drifters-cloak",
+                "capability:flea-brew-stall:easy"
+              ],
+              [
+                "capability:cling-grip",
+                "capability:faydown-cloak",
+                "capability:drifters-cloak",
+                "capability:voltvessels-stall:medium"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "functionally one way",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "deep-docks/deep-docks-chains-lower-east#spool-rock-3>spool-rock-2@fbr",
+          "alias": "FBR",
+          "name": "Final Blast Rock",
+          "source_node_id": "deep-docks/deep-docks-chains-lower-east#spool-rock-3",
+          "target_node_id": "deep-docks/deep-docks-chains-lower-east#spool-rock-2",
+          "requirement": {
+            "raw": "Invalid",
+            "mode": "expression",
+            "dnf": [
+              [
+                "invalid"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "deep-docks/deep-docks-chains-lower-east#spool-rock-3>spool-fragment@sft",
+          "alias": "SFT",
+          "name": "spool fragment time",
+          "source_node_id": "deep-docks/deep-docks-chains-lower-east#spool-rock-3",
+          "target_node_id": "deep-docks/deep-docks-chains-lower-east#spool-fragment",
+          "requirement": {
+            "raw": "(Cling Grip AND (Proficient Movement OR Spike Pogo OR Dash OR Sharpdart x 2 OR Clawline OR Drifter's Cloak OR Faydown Cloak))",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:cling-grip",
+                "capability:proficient-movement"
+              ],
+              [
+                "capability:cling-grip",
+                "capability:spike-pogo"
+              ],
+              [
+                "capability:cling-grip",
+                "capability:dash"
+              ],
+              [
+                "capability:cling-grip",
+                "capability:sharpdart:2"
+              ],
+              [
+                "capability:cling-grip",
+                "capability:clawline"
+              ],
+              [
+                "capability:cling-grip",
+                "capability:drifters-cloak"
+              ],
+              [
+                "capability:cling-grip",
+                "capability:faydown-cloak"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "functionally one way",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "deep-docks/deep-docks-chains-lower-east#spool-fragment>spool-rock-3@sft",
+          "alias": "SFT",
+          "name": "spool fragment time",
+          "source_node_id": "deep-docks/deep-docks-chains-lower-east#spool-fragment",
+          "target_node_id": "deep-docks/deep-docks-chains-lower-east#spool-rock-3",
+          "requirement": {
+            "raw": "Invalid",
+            "mode": "expression",
+            "dnf": [
+              [
+                "invalid"
               ]
             ],
             "unresolved_reasons": []
@@ -34833,17 +35137,21 @@
       ],
       "locations": [
         {
-          "id": "location:deep-docks/deep-docks-chains-lower-east::collectible/deep-docks-southeast-spool-fragment",
-          "name": "Deep Docks (Southeast) - Spool Fragment",
+          "id": "location:deep-docks/deep-docks-chains-lower-east::collectible/silk-spool-deep-docks-1",
+          "name": "silk spool deep docks 1",
           "in_game_id": "Silk Spool",
           "location_type": "collectible",
           "has_persisted_state": true,
-          "node_id": "deep-docks/deep-docks-chains-lower-east#spool-fragment-area",
+          "node_id": "deep-docks/deep-docks-chains-lower-east#spool-fragment",
           "requirement": {
-            "raw": "none",
-            "mode": "none",
+            "raw": "Activate First Spool Blast Rock AND Activate Second Spool Blast Rock AND Activate Third Spool Blast Rock",
+            "mode": "expression",
             "dnf": [
-              []
+              [
+                "dependency:location:deep-docks/deep-docks-chains-lower-east::blockade/first-spool-blast-rock",
+                "dependency:location:deep-docks/deep-docks-chains-lower-east::blockade/second-spool-blast-rock",
+                "dependency:location:deep-docks/deep-docks-chains-lower-east::blockade/third-spool-blast-rock"
+              ]
             ],
             "unresolved_reasons": []
           },
@@ -34896,18 +35204,67 @@
           "unresolved_reasons": []
         },
         {
-          "id": "location:deep-docks/deep-docks-chains-lower-east::switch/spool-door-switch",
-          "name": "Spool Door Switch",
+          "id": "location:deep-docks/deep-docks-chains-lower-east::blockade/first-spool-blast-rock",
+          "name": "First Spool Blast Rock",
           "in_game_id": null,
-          "location_type": "switch",
+          "location_type": "blockade",
           "has_persisted_state": true,
-          "node_id": "deep-docks/deep-docks-chains-lower-east#spool-fragment-area",
+          "node_id": "deep-docks/deep-docks-chains-lower-east#spool-rock-1",
           "requirement": {
-            "raw": "Flip Switch Left",
+            "raw": "Break Blast Rock Up",
             "mode": "expression",
             "dnf": [
               [
-                "capability:break-switch:left"
+                "capability:break-blast-rock:up"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:deep-docks/deep-docks-chains-lower-east::blockade/second-spool-blast-rock",
+          "name": "Second Spool Blast Rock",
+          "in_game_id": null,
+          "location_type": "blockade",
+          "has_persisted_state": true,
+          "node_id": "deep-docks/deep-docks-chains-lower-east#spool-rock-2",
+          "requirement": {
+            "raw": "Break Blast Rock Down AND Activate First Spool Blast Rock ",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:break-blast-rock:down",
+                "dependency:location:deep-docks/deep-docks-chains-lower-east::blockade/first-spool-blast-rock"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:deep-docks/deep-docks-chains-lower-east::blockade/third-spool-blast-rock",
+          "name": "Third Spool Blast Rock",
+          "in_game_id": null,
+          "location_type": "blockade",
+          "has_persisted_state": true,
+          "node_id": "deep-docks/deep-docks-chains-lower-east#spool-rock-3",
+          "requirement": {
+            "raw": "Break Blast Rock Up AND Activate First Spool Blast Rock AND Activate Second Spool Blast Rock",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:break-blast-rock:up",
+                "dependency:location:deep-docks/deep-docks-chains-lower-east::blockade/first-spool-blast-rock",
+                "dependency:location:deep-docks/deep-docks-chains-lower-east::blockade/second-spool-blast-rock"
               ]
             ],
             "unresolved_reasons": []

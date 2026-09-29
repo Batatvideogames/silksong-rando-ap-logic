@@ -2814,9 +2814,9 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | FTL | Floor <> Top Left | Floor | Top Left Entrance Path | Clawline x 2 OR Sharpdart x 2 OR Ledge Grab OR Cling Grip OR Scuttlebrace OR Faydown Cloak OR Drifter's Cloak OR Dash OR Sprint OR Silk Soar |  | Verified |  |
 | FTL | Floor <> Top Left | Top Left Entrance Path | Floor | Nothing. (Fall) |  | Verified |  |
-| FTR | Floor <> Top Right | Floor | Top Right Entrance Path | Ledge Grab  OR Cling Grip  OR Scuttlebrace  OR Faydown Cloak  OR (Silk Soar AND Magma Bell)  OR Easy Shaman Pogo OR Easy Enemy Pogo |  | Verified | removed "easy drill skip" until I know what it is added shaman pogo and enemy pogo - hero, 9/28 |
+| FTR | Floor <> Top Right | Floor | Top Right Entrance Path | Ledge Grab  OR Cling Grip  OR Scuttlebrace  OR Faydown Cloak  OR (Silk Soar AND Magma Bell)  OR Easy Shaman Pogo OR Easy Enemy Pogo OR Easy Drill Crystal Pogo |  | Verified |  |
 | FTR | Floor <> Top Right | Top Right Entrance Path | Floor | Nothing. (Fall) |  | Verified |  |
-| FR | Floor <> Rosary | Floor | Rosary | ((Sprint OR Dash OR Clawline OR Sharpdart OR Easy Architect Charge OR Flea Brew OR Easy Flea Brew Stall) AND (Ledge Grab OR Cling Grip)) OR (((Proficient Movement AND Architect Attack Right) OR (Easy Heal Stall AND Easy Voltvessels Stall)) AND Cling Grip) OR (Silk Soar AND Magma Bell) |  | Verified |  |
+| FR | Floor <> Rosary | Floor | Rosary | ((Sprint OR Dash OR Clawline OR Sharpdart OR Easy Architect Charge OR Flea Brew OR Easy Flea Brew Stall) AND (Ledge Grab OR Cling Grip))  OR (((Proficient Movement AND Architect Attack Right) OR (Easy Heal Stall AND Easy Voltvessels Stall)) AND Cling Grip)  OR (Silk Soar AND Magma Bell) |  | Verified |  |
 | FR | Floor <> Rosary | Rosary | Floor | Nothing. (Fall) |  | Verified |  |
 | RTR | Rosary <> Top Right | Rosary | Top Right Entrance Path | Nothing. |  | Verified |  |
 | RTR | Rosary <> Top Right | Top Right Entrance Path | Rosary | Nothing. |  | Verified |  |
@@ -2959,11 +2959,11 @@ and a wardenfly!
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| SR | spire right | spire | right exit platform | Cling Grip  OR Sprint  OR Faydown Cloak  OR Clawline  OR Easy Scuttlebrace  OR ((Dash OR Drifter's Cloak) AND (Ledge Grab OR (Silk Soar AND Magma Bell)))  OR Easy Beast Charge  OR Easy Beast Pogo  OR Flea Brew OR Sharpdart  OR (Medium Shaman Crest Pogo AND Ledge Grab)  OR ((Easy Voltvessels Stall OR Easy Flintslate Stall OR Easy Plasmium Stall) AND Ledge Grab)  OR Easy Architect Charge  OR ((Proficient Movement AND Architect Attack Right) AND (Easy Heal Stall AND Ledge Grab)) OR Hard Plasmium Stall |  | Verified | removed unqualified "OR Flea Brew" - is it used as a stall or just having it enables you to make the jump? As far as I can tell, flea brew still requires ledge grab - hero, 9/28 removed "OR (Easy Drill Skip AND Ledge Grab)" until rebel can give feedback on how this works - hero, 9/28 |
+| SR | spire right | spire | right exit platform | Cling Grip  OR Sprint  OR Faydown Cloak  OR Clawline  OR Easy Scuttlebrace OR (Silk Soar AND (Magma Bell OR Proficient Movement)) OR ((Dash OR Drifter's Cloak OR Flea Brew) AND Ledge Grab)  OR Easy Beast Charge OR Easy Beast Pogo  OR (Flea Brew AND Easy Flea Brew Stall)  OR Sharpdart  OR (Medium Shaman Crest Pogo AND Ledge Grab)  OR ((Easy Voltvessels Stall OR Easy Flintslate Stall  OR Easy Plasmium Stall) AND Ledge Grab)  OR (Easy Drill Crystal Pogo AND Ledge Grab)  OR Easy Architect Charge  OR (Proficient Movement AND Architect Attack Right AND ( Easy Heal Stall OR Easy Flea Brew Stall OR Easy Flintslate Stall OR Easy Voltvessels Stall ) AND Ledge Grab) OR Hard Plasmium Stall |  | Verified |  |
 | SR | spire right | right exit platform | spire | Nothing. |  | Verified |  |
 | PG | platform gaps | spire | Flea Access Lever | Sprint OR Dash OR Drifter's Cloak OR Faydown Cloak OR Clawline OR Silk Soar OR Scuttlebrace OR Easy Beast Charge OR Easy Beast Pogo OR Easy Architect Charge OR Flea Brew OR Medium Voltvessels Stall OR Sharpdart x 4 |  | Verified |  |
 | PG | platform gaps | Flea Access Lever | spire | Nothing. (fall) |  | Verified |  |
-| FG | Flea Get | Flea Access Lever | left flea platform | Silk Soar OR (Faydown Cloak AND Ledge Grab) OR Cling Grip OR (Activate Deep Docks Upper Spire Flea Lever AND (Easy Scuttlebrace OR Sprint OR Dash)) OR (Drifter's Cloak AND (Ledge Grab OR (Proficient Movement AND Architect Attack Left) )) OR ((Easy Architect Charge OR Easy Beast Charge) AND Ledge Grab) |  | Verified |  |
+| FG | Flea Get | Flea Access Lever | left flea platform | Silk Soar  OR (Faydown Cloak AND Ledge Grab)  OR Cling Grip  OR (Activate Deep Docks Upper Spire Flea Lever AND (Easy Scuttlebrace OR Sprint OR Dash)) OR (Drifter's Cloak AND (Ledge Grab OR (Proficient Movement AND Architect Attack Left) )) OR ((Easy Architect Charge OR Easy Beast Charge) AND Ledge Grab) |  | Verified |  |
 | FG | Flea Get | left flea platform | Flea Access Lever | Nothing. (Fall) |  | Verified |  |
 
 #### Check Locations
@@ -3358,13 +3358,16 @@ the floor/lower half of this area is closed off initially
 #### Subrooms
 
 - upper chains
-- spool fragment area
+- spool fragment
 - lower chains
 - middle chains
 - upper lava platform
 - lower lava platform
 - gauntlet
 - upper left of gauntlet
+- Spool Rock 1
+- Spool Rock 2
+- Spool Rock 3
 
 #### Room Transitions
 
@@ -3378,8 +3381,8 @@ the floor/lower half of this area is closed off initially
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| SP | open spool door | spool fragment area | upper chains | open airlock left |  | Verified | one-way |
-| SP | open spool door | upper chains | spool fragment area | Invalid |  | Verified |  |
+| SP | open spool door | spool fragment | upper chains | open airlock left |  | Verified | one-way |
+| SP | open spool door | upper chains | spool fragment | Invalid |  | Verified |  |
 | C1 | upper to middle chains | middle chains | upper chains | faydown cloak OR cling grip OR Scuttlebrace OR silk soar OR Ledge Grab |  | Verified |  |
 | C1 | upper to middle chains | upper chains | middle chains | none (falling) |  | Verified |  |
 | C2 | lower to middle chains | lower chains | middle chains | silk soar OR cling grip OR Scuttlebrace OR (faydown cloak AND Ledge Grab) |  | Verified |  |
@@ -3398,16 +3401,25 @@ the floor/lower half of this area is closed off initially
 | CG | Chain Gauntlet | middle chains | gauntlet | clear chains gauntlet |  | Verified |  |
 | TF | To Flea | gauntlet | upper left of gauntlet | clear chains gauntlet AND (Silk Soar OR Cling Grip OR Faydown Cloak OR Scuttlebrace) |  | Verified |  |
 | TF | To Flea | upper left of gauntlet | gauntlet | Nothing (Fall) |  | Verified |  |
-| SC | spool crossing | lower chains | spool fragment area | cling grip  AND ( clawline OR ( dash AND ( run OR sharpdart OR drifter's cloak ) ) ) AND break blast rock up AND break blast rock down |  | Verified |  |
+| SSC | Start Spool Collection | lower chains | Spool Rock 1 | (((Clawline OR Progressive Swift Step 2 OR Sharpdart) AND (Drifter's Cloak OR Faydown Cloak)) OR (((Flea Brew AND Medium Flea Brew Stall) OR Medium Voltvessels Stall) AND Drifter's Cloak) OR (Drifter's Cloak AND Faydown Cloak)) AND Cling Grip |  | Verified | functionally one way |
+| SSC | Start Spool Collection | Spool Rock 1 | lower chains | Invalid |  | Verified |  |
+| CSC | Continue Spool Collection | Spool Rock 1 | Spool Rock 2 | Cling Grip AND (Spike Pogo OR Clawline OR Sharpdart OR (Faydown Cloak AND Drifter's Cloak)) |  | Verified | functionally one way |
+| CSC | Continue Spool Collection | Spool Rock 2 | Spool Rock 1 | Invalid |  | Verified |  |
+| FBR | Final Blast Rock | Spool Rock 2 | Spool Rock 3 | (Cling Grip AND ( ( ( (Easy Beast Pogo OR Clawline x 2 OR Faydown Cloak OR Drifter's Cloak OR Sharpdart OR Dash) AND Spike Pogo) ) OR ( (Faydown Cloak AND Drifter's Cloak) AND (Easy Flea Brew Stall OR Medium Voltvessels Stall) ) ) ) |  | Verified | functionally one way |
+| FBR | Final Blast Rock | Spool Rock 3 | Spool Rock 2 | Invalid |  | Verified |  |
+| SFT | spool fragment time | Spool Rock 3 | spool fragment | (Cling Grip AND (Proficient Movement OR Spike Pogo OR Dash OR Sharpdart x 2 OR Clawline OR Drifter's Cloak OR Faydown Cloak)) |  | Verified | functionally one way |
+| SFT | spool fragment time | spool fragment | Spool Rock 3 | Invalid |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Deep Docks (Southeast) - Spool Fragment | spool fragment area | none |  | Verified | collectible |  |
+| silk spool deep docks 1 | spool fragment | Activate First Spool Blast Rock AND Activate Second Spool Blast Rock AND Activate Third Spool Blast Rock |  | Verified | collectible |  |
 | Shortcut Blast Rock | lower lava platform | nada |  | Verified | blockade |  |
 | Chains Gauntlet | gauntlet | nothing. |  | Verified | gauntlet |  |
-| Spool Door Switch | spool fragment area | Flip Switch Left |  | Verified | switch |  |
+| First Spool Blast Rock | Spool Rock 1 | Break Blast Rock Up |  | Verified | blockade |  |
+| Second Spool Blast Rock | Spool Rock 2 | Break Blast Rock Down AND Activate First Spool Blast Rock |  | Verified | blockade |  |
+| Third Spool Blast Rock | Spool Rock 3 | Break Blast Rock Up AND Activate First Spool Blast Rock AND Activate Second Spool Blast Rock |  | Verified | blockade |  |
 
 ### Deep Docks Forebrothers (Dock_09)
 
