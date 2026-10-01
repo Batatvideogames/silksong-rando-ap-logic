@@ -42,10 +42,10 @@
 | C1 | middle chains to upper chains | middle switch platform | upper chain platforms | activate ceiling switch AND ( silk soar OR cling grip OR Scuttlebrace) |  | Verified |  |
 | C1 | middle chains to upper chains | upper chain platforms | middle switch platform | activate ceiling switch (Fall) |  | Verified |  |
 | MS | middle switch platform to side room | middle switch platform | middle side room | none (falling) |  | Verified | one-way |
-| MS | middle switch platform to side room | middle side room | middle switch platform | (Silk Soar OR (Cling Grip AND Faydown Cloak) OR (Activate Ceiling Switch AND (Ledge Grab OR Cling Grip OR Scuttlebrace OR Faydown Cloak OR Clawline OR Sharpdart OR Dash OR Proficient Movement))) |  | Verified |  |
+| MS | middle switch platform to side room | middle side room | middle switch platform | Silk Soar  OR (Cling Grip AND Faydown Cloak)  OR (Activate Ceiling Switch AND (Ledge Grab OR Cling Grip OR Scuttlebrace OR Faydown Cloak OR Clawline OR Sharpdart OR Dash OR Proficient Movement)) |  | Verified |  |
 | MP | middle platform to lower chains | middle switch platform | lower chain platforms | none |  | Verified |  |
-| MP | middle platform to lower chains | lower chain platforms | middle switch platform | ((Silk Soar OR (Activate Ceiling Switch AND (Ledge Grab OR Cling Grip OR Scuttlebrace OR Faydown Cloak OR Clawline OR Sharpdart OR Dash OR Proficient Movement)))) |  | Verified |  |
-| S1 | side room to chain platforms | middle side room | lower chain platforms | ((Silk Soar OR (Activate Ceiling Switch AND (Ledge Grab OR Cling Grip OR Scuttlebrace OR Faydown Cloak OR Clawline OR Sharpdart OR Dash OR Proficient Movement)))) |  | Verified |  |
+| MP | middle platform to lower chains | lower chain platforms | middle switch platform | Silk Soar  OR (Activate Ceiling Switch AND (Ledge Grab OR Cling Grip OR Scuttlebrace OR Faydown Cloak OR Clawline OR Sharpdart OR Dash OR Proficient Movement)) |  | Verified |  |
+| S1 | side room to chain platforms | middle side room | lower chain platforms | Silk Soar  OR (Activate Ceiling Switch AND (Ledge Grab OR Cling Grip OR Scuttlebrace OR Faydown Cloak OR Clawline OR Sharpdart OR Dash OR Proficient Movement)) |  | Verified |  |
 | S1 | side room to chain platforms | lower chain platforms | middle side room | none (falling) |  | Verified | I have a feeling this line is going to cause problems |
 | CUE | Upper Chain <> Right Exit | upper chain platforms | upper right exit | Ledge Grab OR Cling Grip OR Scuttlebrace OR Silk Soar OR Faydown Cloak OR Clawline OR Sharpdart OR Dash |  | Verified |  |
 | CUE | Upper Chain <> Right Exit | upper right exit | upper chain platforms | nada (Fall) |  | Verified |  |

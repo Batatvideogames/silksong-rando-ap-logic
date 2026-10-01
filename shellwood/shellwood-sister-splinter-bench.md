@@ -18,10 +18,10 @@
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | UR | right1 | Elevator Platform | [Shellwood Upper Bellhart Entrance (Shellwood_13)](shellwood-upper-bellhart-entrance.md) | LL | None |  | Verified |  |
-| LR | right2 | Bench Toll | [Shellwood Right Side Big room (Shellwood_01)](shellwood-right-side-big-room.md) | UL | None |  | Verified |  |
 | MR | right3 | Upper Hidden | [Shellwood Hidden Bellhart Connection (Shellwood_15)](shellwood-hidden-bellhart-connection.md) | L | activate Shellwood 15 Wall IN Shellwood Hidden Bellhart Connection |  | Verified |  |
+| LL | left2 | Bench Toll | [Shellwood Big Room Left (Shellwood_02)](shellwood-big-room-left.md) | UR | None |  | Verified |  |
 | UL | left1 | Upper Main | [Shellwood Flower Pogo Upper Hall (Shellwood_20)](shellwood-flower-pogo-upper-hall.md) | R | None |  | Verified |  |
-| LL | left2 | Above Arena | [Shellwood Big Room Left (Shellwood_02)](shellwood-big-room-left.md) | UR | None |  | Verified |  |
+| LR | right2 | Above Arena | [Shellwood Right Side Big room (Shellwood_01)](shellwood-right-side-big-room.md) | UL | None |  | Verified |  |
 
 ## Subroom Connections
 

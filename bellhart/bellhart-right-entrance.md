@@ -29,4 +29,4 @@
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | Lore: Bellhart #1 | Lower Level | none |  | Verified | lore |  |
-| Bellhart elevator | Upper Level | None |  | Verified | switch |  |
+| Bellhart Elevator | Upper Level | None |  | Verified | switch |  |

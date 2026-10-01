@@ -269,7 +269,7 @@ No check locations defined.
 | T3 | top3 | sky | [The Big Fall (Aspid_01)](#the-big-fall-aspid01) | B3 | silk soar |  | Verified |  |
 | T4 | top4 | sky | [The Big Fall (Aspid_01)](#the-big-fall-aspid01) | B4 | silk soar |  | Verified |  |
 | T5 | top5 | sky | [The Big Fall (Aspid_01)](#the-big-fall-aspid01) | B5 | silk soar |  | Verified |  |
-| WW | wish wall | ground level | [Bone Bottom Wish Wall](#bone-bottom-wish-wall) | BB | defeat THE bell beast boss fight |  | Verified |  |
+| WW | wish wall | ground level | [Bone Bottom Wish Wall](#bone-bottom-wish-wall) | BB | defeat THE bell beast boss fight OR visit shellwood |  | Verified | "IT'S NOT BELL BEAST DEFEAT OR WIDOW DEFEAT FOR BONE BOTTOM WISH WALL IT'S BELL BEAST DEFEATED OR SHELLWOOD VISITED???" - Moriko, in utter denial |
 
 #### Subroom Connections
 
@@ -3270,10 +3270,10 @@ No subroom connections defined.
 | C1 | middle chains to upper chains | middle switch platform | upper chain platforms | activate ceiling switch AND ( silk soar OR cling grip OR Scuttlebrace) |  | Verified |  |
 | C1 | middle chains to upper chains | upper chain platforms | middle switch platform | activate ceiling switch (Fall) |  | Verified |  |
 | MS | middle switch platform to side room | middle switch platform | middle side room | none (falling) |  | Verified | one-way |
-| MS | middle switch platform to side room | middle side room | middle switch platform | (Silk Soar OR (Cling Grip AND Faydown Cloak) OR (Activate Ceiling Switch AND (Ledge Grab OR Cling Grip OR Scuttlebrace OR Faydown Cloak OR Clawline OR Sharpdart OR Dash OR Proficient Movement))) |  | Verified |  |
+| MS | middle switch platform to side room | middle side room | middle switch platform | Silk Soar  OR (Cling Grip AND Faydown Cloak)  OR (Activate Ceiling Switch AND (Ledge Grab OR Cling Grip OR Scuttlebrace OR Faydown Cloak OR Clawline OR Sharpdart OR Dash OR Proficient Movement)) |  | Verified |  |
 | MP | middle platform to lower chains | middle switch platform | lower chain platforms | none |  | Verified |  |
-| MP | middle platform to lower chains | lower chain platforms | middle switch platform | ((Silk Soar OR (Activate Ceiling Switch AND (Ledge Grab OR Cling Grip OR Scuttlebrace OR Faydown Cloak OR Clawline OR Sharpdart OR Dash OR Proficient Movement)))) |  | Verified |  |
-| S1 | side room to chain platforms | middle side room | lower chain platforms | ((Silk Soar OR (Activate Ceiling Switch AND (Ledge Grab OR Cling Grip OR Scuttlebrace OR Faydown Cloak OR Clawline OR Sharpdart OR Dash OR Proficient Movement)))) |  | Verified |  |
+| MP | middle platform to lower chains | lower chain platforms | middle switch platform | Silk Soar  OR (Activate Ceiling Switch AND (Ledge Grab OR Cling Grip OR Scuttlebrace OR Faydown Cloak OR Clawline OR Sharpdart OR Dash OR Proficient Movement)) |  | Verified |  |
+| S1 | side room to chain platforms | middle side room | lower chain platforms | Silk Soar  OR (Activate Ceiling Switch AND (Ledge Grab OR Cling Grip OR Scuttlebrace OR Faydown Cloak OR Clawline OR Sharpdart OR Dash OR Proficient Movement)) |  | Verified |  |
 | S1 | side room to chain platforms | lower chain platforms | middle side room | none (falling) |  | Verified | I have a feeling this line is going to cause problems |
 | CUE | Upper Chain <> Right Exit | upper chain platforms | upper right exit | Ledge Grab OR Cling Grip OR Scuttlebrace OR Silk Soar OR Faydown Cloak OR Clawline OR Sharpdart OR Dash |  | Verified |  |
 | CUE | Upper Chain <> Right Exit | upper right exit | upper chain platforms | nada (Fall) |  | Verified |  |
@@ -6012,25 +6012,32 @@ No check locations defined.
 
 #### Subrooms
 
-No subrooms defined.
+- Left Exit Area
+- Right Exit Area
+- Pollip Spot
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Shellwood Sister Splinter Bench (Shellwood_01b)](#shellwood-sister-splinter-bench-shellwood01b) | MR | Faydown Cloak OR ( Drifters Cloak AND Ledge Grab ) OR ( Dash AND Ledge Grab )  OR Clawline OR Sharpdart OR easy Beast Crest pogo |  | Verified |  |
-| R | right1 |  | [Upper Bellhart (Belltown_04)](#upper-bellhart-belltown04) | LL | Faydown Cloak OR Drifters Cloak OR Dash OR Clawline OR Sharpdart OR easy Beast Crest pogo |  | Verified |  |
+| L | left1 | Left Exit Area | [Shellwood Sister Splinter Bench (Shellwood_01b)](#shellwood-sister-splinter-bench-shellwood01b) | MR | Clear Shellwood 15 Wall |  | Verified |  |
+| R | right1 | Right Exit Area | [Upper Bellhart (Belltown_04)](#upper-bellhart-belltown04) | LL | None |  | Verified |  |
 
 #### Subroom Connections
 
-No subroom connections defined.
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| RC | Room Crossing | Left Exit Area | Right Exit Area | Faydown Cloak OR Drifters Cloak OR Dash OR Clawline OR Sharpdart OR easy Beast Crest pogo |  | Verified |  |
+| RC | Room Crossing | Right Exit Area | Left Exit Area | Faydown Cloak OR ( Drifters Cloak AND Ledge Grab ) OR ( Dash AND Ledge Grab )  OR Clawline OR Sharpdart OR easy Beast Crest pogo |  | Verified |  |
+| PA | Pollip Access | Left Exit Area | Pollip Spot | Break Wall Left |  | Verified |  |
+| PA | Pollip Access | Pollip Spot | Left Exit Area | Break Wall Right |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Pollip Heart #2 |  | Faydown Cloak OR Drifters Cloak OR Dash OR Clawline OR Sharpdart OR easy Beast Crest pogo |  | Verified | collectible |  |
-| Shellwood 15 Wall |  | None |  | Verified | blockade |  |
+| Pollip Heart #2 | Pollip Spot | Faydown Cloak OR Drifters Cloak OR Dash OR Clawline OR Sharpdart OR easy Beast Crest pogo |  | Verified | collectible |  |
+| Shellwood 15 Wall | Left Exit Area | Break Wall Left |  | Verified | blockade |  |
 
 ### Shellwood Left Side Long Pond Room (Shellwood_04b)
 
@@ -6220,10 +6227,10 @@ No subroom connections defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | UR | right1 | Elevator Platform | [Shellwood Upper Bellhart Entrance (Shellwood_13)](#shellwood-upper-bellhart-entrance-shellwood13) | LL | None |  | Verified |  |
-| LR | right2 | Bench Toll | [Shellwood Right Side Big room (Shellwood_01)](#shellwood-right-side-big-room-shellwood01) | UL | None |  | Verified |  |
 | MR | right3 | Upper Hidden | [Shellwood Hidden Bellhart Connection (Shellwood_15)](#shellwood-hidden-bellhart-connection-shellwood15) | L | activate Shellwood 15 Wall IN Shellwood Hidden Bellhart Connection |  | Verified |  |
+| LL | left2 | Bench Toll | [Shellwood Big Room Left (Shellwood_02)](#shellwood-big-room-left-shellwood02) | UR | None |  | Verified |  |
 | UL | left1 | Upper Main | [Shellwood Flower Pogo Upper Hall (Shellwood_20)](#shellwood-flower-pogo-upper-hall-shellwood20) | R | None |  | Verified |  |
-| LL | left2 | Above Arena | [Shellwood Big Room Left (Shellwood_02)](#shellwood-big-room-left-shellwood02) | UR | None |  | Verified |  |
+| LR | right2 | Above Arena | [Shellwood Right Side Big room (Shellwood_01)](#shellwood-right-side-big-room-shellwood01) | UL | None |  | Verified |  |
 
 #### Subroom Connections
 
@@ -6312,13 +6319,14 @@ No subroom connections defined.
 - Right Pond
 - Bell Ledge
 - Upper Area
+- Right Exit Area
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | UL | left1 | Upper Area | [Sister Splinter (Shellwood_18)](#sister-splinter-shellwood18) | R | ((( Easy Hunter Crest pogo OR Easy Beast Crest pogo OR medium Architect Crest pogo ) AND Ledge Grab) OR ( Medium Heal Stall AND ( medium Reaper Crest pogo OR Hard Shaman Crest pogo OR easy Wanderer Crest pogo OR hard Witch Crest pogo ) ) ) OR Clawline OR Dash OR Drifter's Cloak OR Faydown Cloak OR Sharpdart |  | Verified |  |
-| R | right1 | Bell Ledge | [Upper Bellhart (Belltown_04)](#upper-bellhart-belltown04) | UL | None |  | Verified |  |
+| R | right1 | Right Exit Area | [Upper Bellhart (Belltown_04)](#upper-bellhart-belltown04) | UL | None |  | Verified |  |
 | LL | left2 | Left Pond | [Shellwood Sister Splinter Bench (Shellwood_01b)](#shellwood-sister-splinter-bench-shellwood01b) | UR | None |  | Verified |  |
 
 #### Subroom Connections
@@ -6331,6 +6339,8 @@ No subroom connections defined.
 | PO | Pond | Right Pond | Left Pond | Swim OR ( Clawline AND ( Ledge Grab OR Dash OR Sharpdart OR easy beast Crest pogo OR Faydown Cloak ) ) OR ( Sprint AND ( ( Sharpdart AND Dash ) OR ( Sharpdart AND easy Beast Crest pogo ) OR ( Faydown Cloak AND Drifters Cloak ) OR ( Sharpdart AND Drifters Cloak) OR ( Faydown Cloak AND Sharpdart ) ) ) |  | Verified |  |
 | PL | Platforms | Upper Area | Right Pond | None |  | Verified |  |
 | PL | Platforms | Right Pond | Upper Area | Ledge Grab OR Dash OR Clawline OR Faydown Cloak OR Cling Grip OR Silk soar |  | Verified |  |
+| BB | Break Bell Walls | Bell Ledge | Right Exit Area | Break Wall Right |  | Verified |  |
+| BB | Break Bell Walls | Right Exit Area | Bell Ledge | Break Wall Left |  | Verified |  |
 
 #### Check Locations
 
@@ -6688,7 +6698,7 @@ Relic slots are numbered for convenience but not for required reasons.
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
 | Lore: Bellhart #1 | Lower Level | none |  | Verified | lore |  |
-| Bellhart elevator | Upper Level | None |  | Verified | switch |  |
+| Bellhart Elevator | Upper Level | None |  | Verified | switch |  |
 
 ### Belltown (Belltown)
 
@@ -6752,14 +6762,17 @@ Relic slots are numbered for convenience but not for required reasons.
 - Silver Bell Cubby
 - Central Passage
 - Upper Big room
+- Unsafe Lower Left Landing
+
+- **Unsafe Lower Left Landing:** [Unsafe] The lower left blockade makes entering from the other side drop you into the void.
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LL | left2 | Lower Exits | [Shellwood Hidden Bellhart Connection (Shellwood_15)](#shellwood-hidden-bellhart-connection-shellwood15) | R | None |  | Verified |  |
-| F | bot1 | Lower Exits | [Widow Boss Fight (Belltown_Shrine)](#widow-boss-fight-belltownshrine) | C | None |  | Verified |  |
 | UL | left1 | Upper Big room | [Shellwood Upper Bellhart Entrance (Shellwood_13)](#shellwood-upper-bellhart-entrance-shellwood13) | R | None |  | Verified |  |
+| LL | left2 | Unsafe Lower Left Landing | [Shellwood Hidden Bellhart Connection (Shellwood_15)](#shellwood-hidden-bellhart-connection-shellwood15) | R | clear Lower Left Bell Blockade |  | Verified | [UNSAFE ARRIVAL] the blockade does NOT block the inverse exit in shellwood, but does prevent getting into the room safely |
+| F | bot1 | Lower Exits | [Widow Boss Fight (Belltown_Shrine)](#widow-boss-fight-belltownshrine) | C | none |  | Verified |  |
 
 #### Subroom Connections
 
@@ -6775,6 +6788,8 @@ Relic slots are numbered for convenience but not for required reasons.
 | TS4 | Tall Shaft4 | Central Passage | Silver Bell Cubby | None |  | Verified |  |
 | US | Upper Shafts | Central Passage | Upper Big room | ( Cling Grip OR ( Dash AND Scuttlebrace ) ) |  | Verified |  |
 | US | Upper Shafts | Upper Big room | Central Passage | None |  | Verified |  |
+| BLB | Break Lower Blockade | Lower Exits | Unsafe Lower Left Landing | clear Lower Left Bell Blockade |  | Verified |  |
+| BLB | Break Lower Blockade | Unsafe Lower Left Landing | Lower Exits | clear Lower Left Bell Blockade |  | Verified |  |
 
 #### Check Locations
 
@@ -6789,6 +6804,7 @@ Relic slots are numbered for convenience but not for required reasons.
 | Rosary Cache: Bellhart #3 | Central Passage | None |  | Verified | collectible |  |
 | Silver Bell Spawn Location #5 | Upper Big room | None |  | Verified | collectible |  |
 | Flea: Bellhart | Upper Big room | Silk Soar OR Cling Grip OR ( Dash AND Scuttlebrace ) OR ( Easy enemy pogo AND ( Faydown Cloak OR Drifters Cloak ) ) |  | Verified | collectible |  |
+| Lower Left Bell Blockade | Lower Exits | Break Wall Left |  | Verified | blockade | can also be broken from the right while falling into the void - hero, 9/30 |
 
 ### Widow Boss Fight (Belltown_Shrine)
 
@@ -6798,24 +6814,33 @@ Relic slots are numbered for convenience but not for required reasons.
 
 #### Subrooms
 
-- Arena
 - Upper
+- Arena Right
+- Arena
+- Arena Left
+- Trapdoor Switch Ledge
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 | Arena | [Bellhart Right Entrance (Belltown_06)](#bellhart-right-entrance-belltown06) | UL | None |  | Verified |  |
+| R | right1 | Arena Right | [Bellhart Right Entrance (Belltown_06)](#bellhart-right-entrance-belltown06) | UL | None |  | Verified |  |
 | C | top1 | Upper | [Upper Bellhart (Belltown_04)](#upper-bellhart-belltown04) | F | Silk Soar OR Cling Grip OR ( Dash AND Scuttlebrace ) OR ( Easy Heal Stall AND ( Faydown Cloak OR Drifters Cloak ) ) |  | Verified |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| TD | Trapdoor | Arena | Upper | prereq Bellshrine Lever AND ( Cling Grip OR Silk soar OR ( Dash AND Scuttlebrace ) ) |  | Verified | Permanently open |
-| TD | Trapdoor | Upper | Arena | prereq Bellshrine Lever |  | Verified | Permanently open |
 | RH | Roof Hole | Arena | Upper | Silk Soar OR ( Cling Grip AND Faydown Cloak AND ( Clawline OR Sharpdart ) ) |  | Verified |  |
 | RH | Roof Hole | Upper | Arena | None |  | Verified |  |
+| AR | Exit Arena Right | Arena | Arena Right | Activate Bellshrine Lever |  | Verified |  |
+| AR | Exit Arena Right | Arena Right | Arena | Activate Bellshrine Lever |  | Verified |  |
+| AL | Exit Arena Left | Arena Left | Arena | Activate Bellshrine Lever |  | Verified |  |
+| AL | Exit Arena Left | Arena | Arena Left | Activate Bellshrine Lever |  | Verified |  |
+| TD | Trapdoor | Trapdoor Switch Ledge | Upper | activate Trapdoor Lever AND (  Ledge Grab  OR Cling Grip  OR Silk Soar  OR Scuttlebrace ) |  | Verified |  |
+| TD | Trapdoor | Upper | Trapdoor Switch Ledge | activate Trapdoor Lever |  | Verified |  |
+| ALC | Arena Left Climb | Arena Left | Trapdoor Switch Ledge | Cling Grip OR Silk Soar OR Scuttlebrace |  | Verified |  |
+| ALC | Arena Left Climb | Trapdoor Switch Ledge | Arena Left | None (Falling) |  | Verified |  |
 
 #### Check Locations
 
@@ -6826,6 +6851,7 @@ Relic slots are numbered for convenience but not for required reasons.
 | Needolin | Arena | Defeat Boss Widow |  | Verified | collectible |  |
 | Bellshrine Lever | Arena | Defeat Boss Widow |  | Verified | switch |  |
 | Bench | Arena | Activate Bellshrine Lever |  | Verified | bench |  |
+| Trapdoor Lever | Trapdoor Switch Ledge | Flip Switch Down |  | Verified | switch |  |
 
 ### Bellhome (Belltown_room_spare)
 
@@ -15036,9 +15062,9 @@ No check locations defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| rm | blind gameplay | Right side | Middle | easy enemy pogo OR ledge grab OR faydown cloak OR silk soar | TODO | Verified | Room is blind unless dark stuff is removed |
+| rm | blind gameplay | Right side | Middle | easy enemy pogo OR ledge grab OR faydown cloak OR silk soar |  | Verified | Room is blind unless dark stuff is removed |
 | mr | middle --> right | Middle | Right side | easy enemy pogo OR (ledge grab AND (dash OR run)) OR faydown cloak OR dash OR (run AND cling grip) |  | Verified | theres also an enemy that you can super easily clawline even on accident to get the height you need but I have no clue what to label that as you can also clawline plus silk soar but it feels like it would fall under a skip of some kind and i feel like easy enemy pogo already covers that  damage boosts arent accounted for but if implemented "OR easy damage boost" that can be |
-| Ml | Middle <-> Left | Left side | Middle | run OR drifter's cloak OR faydown cloak OR easy architect pogo OR (clawline AND silkhearts 1) OR easy beast pogo | TODO | Verified | Room is blind unless dark stuff is removed |
+| Ml | Middle <-> Left | Left side | Middle | run OR drifter's cloak OR faydown cloak OR easy architect pogo OR (clawline AND silkhearts 1) OR easy beast pogo |  | Verified | Room is blind unless dark stuff is removed |
 | Ml | Middle <-> Left | Middle | Left side | medium shaman pogo OR run OR faydown cloak  OR clawline OR drifter's cloak OR easy architect pogo OR easy hunter pogo OR easy needle strike stall(wanderers) OR easy beast pogo |  | Verified | can be done no items but need a precise movement option |
 | lu | idk | Middle | left and up | faydown cloak OR (silk soar AND (dash OR clawline)) OR (run AND (ledge grab OR cling grip)) OR (clawline AND ledge grab) |  | Verified |  |
 | ll | smth | Left side | left and up | faydown cloak OR (silk soar AND (dash OR (clawline AND silkhearts 1))) OR (run AND (ledge grab OR cling grip)) OR (clawline AND silkhearts 1 AND ledge grab) |  | Verified |  |
@@ -15075,7 +15101,7 @@ No check locations defined.
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | tf | top/fragment | Top | Fragment | clawline AND faydown cloak AND dash AND cling grip AND drifter's cloak |  | Verified | clawline AND faydown cloak AND precise movement OR dash AND faydown cloak AND cling grip AND (precise movement OR drifter's cloak) with precise movement clause |
 | fb | fragment/bottom | Fragment | Bottom | nada |  | Verified |  |
-| fb | fragment/bottom | Bottom | Fragment | silk soar OR cling grip OR (faydown cloak AND ledge grab AND easy shaman pogo) OR(easy scuttlebrace AND (faydown cloak OR ledge grab OR easy shaman pogo OR easy architect pogo OR easy wanderer pogo OR easy reaper pogo OR medium hunter pogo OR easy beast pogo)) | TODO | Verified | Room is blind unless dark stuff is removed |
+| fb | fragment/bottom | Bottom | Fragment | silk soar OR cling grip OR (faydown cloak AND ledge grab AND easy shaman pogo) OR(easy scuttlebrace AND (faydown cloak OR ledge grab OR easy shaman pogo OR easy architect pogo OR easy wanderer pogo OR easy reaper pogo OR medium hunter pogo OR easy beast pogo)) |  | Verified | Room is blind unless dark stuff is removed |
 
 #### Check Locations
 
@@ -17264,7 +17290,7 @@ No subroom connections defined.
 | Mount Fay - Shell Shard Cache #5 | Shell Shard Slope | None |  | Verified | resource |  |
 | Mount Fay - Shell Shard Cache #6 | Shell Shard Slope | None |  | Verified | resource |  |
 | Mount Fay - Shell Shard Cache #7 | Shell Shard Slope | None |  | Verified | resource |  |
-| Pinstress Boss Fight | Pinstress Arena | complete Fatal Resolve Wish Promised IN Windy Pinstress Room OR (  complete Fatal Resolve Wish Promised IN Bellhart Wish Wall AND complete Read Pinstress Note IN Windy Pinstress Room ) | TODO |  | boss | wiki says you need to read the note if you start from the wish wall - may need to change if inaccurate |
+| Pinstress Boss Fight | Pinstress Arena | complete Fatal Resolve Wish Promised IN Windy Pinstress Room OR (  complete Fatal Resolve Wish Promised IN Bellhart Wish Wall AND complete Read Pinstress Note IN Windy Pinstress Room ) |  | Verified | boss | confirmed that you need to read the note if you start from the wish wall |
 | Fatal Resolve Wish Granted | Pinstress Arena | defeat Pinstress Boss Fight |  | Verified | event |  |
 | Pin Badge | Pinstress Arena | complete Pinstress Boss Fight |  | Verified | collectible |  |
 
@@ -17962,26 +17988,29 @@ No check locations defined.
 
 #### Subrooms
 
-No subrooms defined.
+- Arena
+- Behind Right Gate
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| D | door_cinematicEnd |  | [Cog Dancers (Cog_Dancers)](#cog-dancers-cogdancers) | E | Prereq Boss: Lace 2 |  | Verified | You know im not actually sure which of these doors is the elevator will need to double check once images are in |
-| R | right1 |  | [Terminus Ventrica (Tube_Hub)](#terminus-ventrica-tubehub) | LL | Prereq Boss: Lace 2 |  | Verified |  |
-| DR | door_cutsceneEndLaceTower |  | [Lace 2 Fight (Song_Tower_01)](#lace-2-fight-songtower01) | DR | None |  | Verified | The silk heart room, think its been disabled in mod |
+| D | door_cinematicEnd | Arena | [Cog Dancers (Cog_Dancers)](#cog-dancers-cogdancers) | E | Prereq Boss: Lace 2 |  | Verified | You know im not actually sure which of these doors is the elevator will need to double check once images are in |
+| R | right1 | Behind Right Gate | [Terminus Ventrica (Tube_Hub)](#terminus-ventrica-tubehub) | LL | None |  | Verified |  |
 
 #### Subroom Connections
 
-No subroom connections defined.
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| DB | Door Bridge | Arena | Behind Right Gate | prereq Boss: Lace 2 |  | Verified |  |
+| DB | Door Bridge | Behind Right Gate | Arena | prereq Boss: Lace 2 |  | Verified |  |
 
 #### Check Locations
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| Boss: Lace 2 |  | needle upgrades 2 |  | Verified | boss |  |
-| Silk Heart: Lace 2 |  | prereq Boss: Lace 2 |  | Verified | collectible |  |
+| Boss: Lace 2 | Arena | needle upgrades 2 |  | Verified | boss |  |
+| Silk Heart: Lace 2 | Arena | prereq Boss: Lace 2 |  | Verified | collectible |  |
 
 #### Notes
 
@@ -18942,12 +18971,12 @@ No subroom connections defined.
 | savage beastfly wish promised |  | defeat THE savage beastfly boss fight AND defeat THE fourth chorus boss fight AND complete THE reach songclave |  | Verified | event | spreadsheet says requirements are: - defeat savage beastfly - defeated fourth chorus - visited songclave |
 | savage beastfly wish granted |  | complete savage beastfly wish promised AND have horn fragment |  | Verified | event | reward is a mask shard |
 | Savage Beastfly - Mask Shard |  | complete savage beastfly wish granted |  | Verified | collectible |  |
-| bellharts glory wish promised |  | complete restoration of bellhart wish granted AND ( defeat THE cogwork dancers boss fight OR have clawline OR complete THE reach songclave ) |  | Needs verification | event | Spreadsheet flags are vague, so rolling with the wiki requirements for a bit  "datamining gem" spreadsheet says that requirements are: - quest completed: Belltown House Start  - BelltownHouseState == 1  - citadelHalfwayComplete == true  "player anecdote coal" wiki says that requirements are: - restore bellhart - cogwork dancers or clawline or songclave |
+| bellharts glory wish promised |  | complete restoration of bellhart wish granted AND ( defeat THE cogwork dancers boss fight OR have clawline OR complete THE reach songclave ) |  | Verified | event | Spreadsheet flags are vague, so rolling with the wiki requirements for a bit  "datamining gem" spreadsheet says that requirements are: - quest completed: Belltown House Start  - BelltownHouseState == 1  - citadelHalfwayComplete == true  - per Moriko, "First donation completed, house half/built after time passes, then Dancers defeated OR Clawline owned OR Songclave visited"  "player anecdote coal" wiki says that requirements are: - restore bellhart - cogwork dancers or clawline or songclave |
 | bellharts glory wish granted |  | complete restoration of bellhart wish promised AND rosaries 400 |  | Verified | event | reward is bellhome key |
 | Bellhome Key |  | complete bellharts glory wish granted |  | Verified | collectible |  |
 | fatal resolve wish promised |  | act 3 AND have silk soar AND have needle strike |  | Verified | event | one of two locations to start the wish - wiki says you need to swing by the hut first if you accept here |
-| heros call wish promised |  | ( garmond and zaza act 3 encounters 3 OR have everbloom ) |  | Needs verification | event | spreadsheet has single quest ready flag, so using wiki as source  they have 9 locations where they spawn, will map them later - hero, 9/26 |
-| dark hearts wish promised |  | act 3 |  | Needs verification | event | actual flag is quest completed: Black Thread Pt1 Shamans? |
+| heros call wish promised |  | ( garmond and zaza act 3 encounters 3 OR have everbloom ) |  | Verified | event | spreadsheet has single quest ready flag, so using wiki as source  "Three act 3 Garmond encounters OR Everbloom, followed by time passing" - requirements per Moriko  all act 3 locations mapped - hero, 9/28 |
+| dark hearts wish promised |  | act 3 | TODO | Needs verification | event | actual flag is quest completed: Black Thread Pt1 Shamans?  "Complete the initial shaman meeting, then destroy 12 Void Messes. The prereq is not the 3 heart ritual" - requirements per Moriko  still need to map shaman meeting points - hero, 9/30 |
 | dark hearts wish granted |  | destroy void masses 12 |  | Verified | event | this one is going to take a LOT of time to map properly - there are 47 void masses (45 in steel soul) locations per the wiki |
 | Dark Hearts - Mask Shard |  | complete dark hearts wish granted |  | Verified | collectible |  |
 | the hidden hunter wish promised |  | complete THE meet karmelita |  | Verified | event |  |
@@ -19016,20 +19045,20 @@ No subroom connections defined.
 
 | Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
 | --- | --- | --- | --- | --- | --- | --- |
-| building up songclave wish promised |  | act 2 |  |  | event |  |
+| building up songclave wish promised |  | act 2 |  | Verified | event |  |
 | building up songclave wish granted |  | complete building up songclave wish promised AND rosaries 300 |  | Verified | event |  |
-| strengthening songclave wish promised |  | act 2 AND complete building up songclave wish granted AND grant songclave wishes 4 |  | Needs verification | event | "datamining gem" spreadsheet says that requirements are: - quest completed: Songclave Donation 1  - (enclaveLevel > 1 AND enclaveDonation2_Available == true)  "player anecdote coal" wiki says that requirements are: - complete building up songclave - complete 3 other wishes (4 counting building up songclave) |
+| strengthening songclave wish promised |  | act 2 AND complete building up songclave wish granted AND grant songclave wishes 4 |  | Verified | event | "datamining gem" spreadsheet says that requirements are: - quest completed: Songclave Donation 1  - (enclaveLevel > 1 AND enclaveDonation2_Available == true)  "First donation completed, sonclave level ≥2 and four completed Songclave wishes " - requirements per Moriko  "player anecdote coal" wiki says that requirements are: - complete building up songclave - complete 3 other wishes (4 counting building up songclave) |
 | strengthening songclave wish granted |  | complete strengthening songclave wish promised AND rosaries 500 |  | Verified | event |  |
-| balm for the wounded wish promised |  | act 2 AND complete THE building up songclave wish granted AND grant songclave wishes 2 AND visit whiteward |  | Needs verification | event | granted in whiteward; rewards spool fragment  "datamining gem" spreadsheet says that requirements are: - shermaQuestActive == true  "player anecdote coal" wiki says that requirements are: - meet sherma within songclave, which requires building up songclave wish, and one other wish - visit the whiteward |
+| balm for the wounded wish promised |  | act 2 AND complete THE building up songclave wish granted AND grant songclave wishes 2 AND visit whiteward |  | Verified | event | granted in whiteward; rewards spool fragment  "datamining gem" spreadsheet says that requirements are: - shermaQuestActive == true  "player anecdote coal" wiki says that requirements are: - meet sherma within songclave, which requires building up songclave wish, and one other wish - visit the whiteward |
 | the wandering merchant wish promised |  | act 2 |  | Verified | event | granted in choral chambers merchant room; reward is jubilana setting up shop  "datamining gem" spreadsheet says that requirements are: - always  "player anecdote coal" wiki says that requirements are: - discover songclave |
-| the lost merchant wish promised |  | act 2 AND complete THE the wandering merchant wish granted AND grant songclave wishes 5 AND have faydown cloak |  | Needs verification | event | granted in memorium shopkeeper hides; reward is more shop inventory  "datamining gem" spreadsheet says that requirements are: - quest completed: Save City Merchant - cityMerchantCanLeaveForBridge == true  "player anecdote coal" wiki says that requirements are: - complete the wandering merchant wish - complete 5 total songclave wishes (including the above) - speak to jubilana - faydown cloak |
+| the lost merchant wish promised |  | act 2 AND complete THE the wandering merchant wish granted AND grant songclave wishes 5 AND have faydown cloak |  | Verified | event | granted in memorium shopkeeper hides; reward is more shop inventory  "datamining gem" spreadsheet says that requirements are: - quest completed: Save City Merchant - cityMerchantCanLeaveForBridge == true  "Wandering Merchant completed, Songclave level 3, Jubiliana spoken to there and Faydown Cloak" - requirements per Moriko  "player anecdote coal" wiki says that requirements are: - complete the wandering merchant wish - complete 5 total songclave wishes (including the above) - speak to jubilana - faydown cloak |
 | fine pins wish promised |  | none |  | Verified | event | unsure if limited to act 2  "datamining gem" spreadsheet says that requirements are: - always  "player anecdote coal" wiki says that requirements are: - ring the bell in the first shrine |
 | fine pins wish granted |  | complete THE fine pins wish promised AND fine pins 12 |  | Verified | event | reward is heavy rosary necklace |
 | cloaks of the choir wish promised |  | complete building up songclave wish granted AND complete fine pins wish granted |  | Verified | event | unsure if limited to act 2  "datamining gem" spreadsheet says that requirements are: - quest completed: Fine Pins - enclaveLevel > 1  "player anecdote coal" wiki says that requirements are: - building up songclave wish - fine pins wish granted |
 | cloaks of the choir wish granted |  | complete THE cloaks of the choir wish promised AND choir cloaks 16 |  | Verified | event | reward is heavy rosary necklace |
-| the wailing mother wish promised |  | act 2 AND defeat gauntlet fight IN slab arena AND complete building up songclave wish granted AND grant songclave wishes 5 |  |  | event | unsure if limited to act 2  "datamining gem" spreadsheet says that requirements are: - slab_cloak_battle_completed == true  - enclaveLevel > 2  "player anecdote coal" wiki says that requirements are: - Visit slab arena room - complete building up songclave wish - complete 5 total songclave wishes (including the above) |
+| the wailing mother wish promised |  | act 2 AND defeat gauntlet fight IN slab arena AND complete building up songclave wish granted AND grant songclave wishes 5 |  | Verified | event | unsure if limited to act 2  "datamining gem" spreadsheet says that requirements are: - slab_cloak_battle_completed == true  - enclaveLevel > 2  "Slab gauntlet completed and Songclave level 3" - requirements per Moriko  "player anecdote coal" wiki says that requirements are: - Visit slab arena room - complete building up songclave wish - complete 5 total songclave wishes (including the above) |
 | the wailing mother wish granted |  | complete the wailing mother wish promised AND have broodmothers eye |  | Verified | event | reward is heavy rosary necklace |
-| final audience wish promised |  | activate THE second sentinel activation AND have conductors melody AND ( second sentinel encounters 2 OR ( have everbloom AND second sentinel encounters 1 )  ) AND complete THE building up songclave wish granted AND   complete THE balm for the wounded wish granted AND grant songclave wishes 2 |  | Needs verification | event | "datamining gem" spreadsheet says that requirements are: - songChevalierQuestReady == true  "player anecdote coal" wiki says that requirements are: - activating second sentinel - meet second sentinel twice in citadel OR once if have everbloom - have conductor's melody - complete two wishes in songclave, one of which should be building up songclave  without further datamining insight, i'll roll with the wiki requirements |
+| final audience wish promised |  | activate THE second sentinel activation AND have conductors melody AND ( second sentinel encounters 2 OR ( have everbloom AND second sentinel encounters 1 )  ) AND complete THE building up songclave wish granted AND   complete THE balm for the wounded wish granted AND grant songclave wishes 2 |  | Verified | event | "datamining gem" spreadsheet says that requirements are: - songChevalierQuestReady == true  "Two encounters + Conductors Melody + Congclave level ≥ 2, or one encounter + Everbloom" - requirements per Moriko  "This datamining session sucked" - Additional note by Moriko. Still unsure what it means. Perhaps related to Bilewater?  "player anecdote coal" wiki says that requirements are: - activating second sentinel - meet second sentinel twice in citadel OR once if have everbloom - have conductor's melody - complete two wishes in songclave, one of which should be building up songclave  without further datamining insight, i'll roll with the wiki requirements |
 | silk and soul wish promised |  | act 2 AND have faydown cloak AND defeat THE boss lace 2 AND complete THE flea caravan move to fleatopia AND complete THE flexible spines wish granted AND complete THE bone bottom repairs wish granted AND complete THE a lifesaving bridge wish granted AND complete THE crawbug clearing wish granted AND complete THE restoration of bellhart wish granted AND complete THE bellharts glory wish granted AND complete THE building up songclave wish granted AND complete THE strengthening songclave wish granted AND complete THE trails end wish granted AND complete THE balm for the wounded wish granted AND silk and soul points 17 |  | Verified | event | LOL  per the spreadsheet for required wishes  spreadsheet also has a requirement to talk to pavo under BelltownGreeterHouseFullDlg - not sure how to represent that  sadly "silk and soul points 17" is load-bearing here |
 | pain anguish and misery wish promised |  | have silksoar AND have progressive claw mirror |  | Verified | event | reward is dark mirror (progressive claw mirror) and is granted in the stage  act 3 is implicit in vanilla because of silksoar, but not explicitly enforced. in theory could you get this quest before defeating trobbio 1?  "datamining gem" spreadsheet says that requirements are: - tool "dazzle bind" (claw mirror?) - silksoar  "player anecdote coal" wiki says that requirements are: - claw mirror - silksoar |
 

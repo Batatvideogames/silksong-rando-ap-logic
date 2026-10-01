@@ -30,7 +30,7 @@
 | T3 | top3 | sky | [The Big Fall (Aspid_01)](the-big-fall.md) | B3 | silk soar |  | Verified |  |
 | T4 | top4 | sky | [The Big Fall (Aspid_01)](the-big-fall.md) | B4 | silk soar |  | Verified |  |
 | T5 | top5 | sky | [The Big Fall (Aspid_01)](the-big-fall.md) | B5 | silk soar |  | Verified |  |
-| WW | wish wall | ground level | [Bone Bottom Wish Wall](../wish-menus/bone-bottom-wish-wall.md) | BB | defeat THE bell beast boss fight |  | Verified |  |
+| WW | wish wall | ground level | [Bone Bottom Wish Wall](../wish-menus/bone-bottom-wish-wall.md) | BB | defeat THE bell beast boss fight OR visit shellwood |  | Verified | "IT'S NOT BELL BEAST DEFEAT OR WIDOW DEFEAT FOR BONE BOTTOM WISH WALL IT'S BELL BEAST DEFEATED OR SHELLWOOD VISITED???" - Moriko, in utter denial |
 
 ## Subroom Connections
 
