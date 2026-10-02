@@ -29,10 +29,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Blasted Steps Shell / Beast Shard (Coral_36)](../00-annotations/blasted-steps/blasted-steps-shell-beast-shard-scene.png)](../00-annotations/blasted-steps/blasted-steps-shell-beast-shard-scene.png)
-
 ### Connections
 
 [![Connections for Blasted Steps Shell / Beast Shard (Coral_36)](../00-annotations/blasted-steps/blasted-steps-shell-beast-shard-connections.png)](../00-annotations/blasted-steps/blasted-steps-shell-beast-shard-connections.png)
@@ -40,3 +36,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Blasted Steps Shell / Beast Shard (Coral_36)](../00-annotations/blasted-steps/blasted-steps-shell-beast-shard-checks.png)](../00-annotations/blasted-steps/blasted-steps-shell-beast-shard-checks.png)
+
+### Scene
+
+[![Scene for Blasted Steps Shell / Beast Shard (Coral_36)](../00-annotations/blasted-steps/blasted-steps-shell-beast-shard-scene.png)](../00-annotations/blasted-steps/blasted-steps-shell-beast-shard-scene.png)

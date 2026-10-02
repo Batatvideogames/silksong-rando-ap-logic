@@ -37,10 +37,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Abyss Upper Big Room (Abyss_02b)](../00-annotations/the-abyss/abyss-upper-big-room-scene.png)](../00-annotations/the-abyss/abyss-upper-big-room-scene.png)
-
 ### Connections
 
 [![Connections for Abyss Upper Big Room (Abyss_02b)](../00-annotations/the-abyss/abyss-upper-big-room-connections.png)](../00-annotations/the-abyss/abyss-upper-big-room-connections.png)
@@ -48,3 +44,7 @@
 ### Checks
 
 [![Checks for Abyss Upper Big Room (Abyss_02b)](../00-annotations/the-abyss/abyss-upper-big-room-checks.png)](../00-annotations/the-abyss/abyss-upper-big-room-checks.png)
+
+### Scene
+
+[![Scene for Abyss Upper Big Room (Abyss_02b)](../00-annotations/the-abyss/abyss-upper-big-room-scene.png)](../00-annotations/the-abyss/abyss-upper-big-room-scene.png)

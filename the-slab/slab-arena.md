@@ -37,10 +37,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Slab Arena (Slab_16)](../00-annotations/the-slab/slab-arena-scene.png)](../00-annotations/the-slab/slab-arena-scene.png)
-
 ### Connections
 
 [![Connections for Slab Arena (Slab_16)](../00-annotations/the-slab/slab-arena-connections.png)](../00-annotations/the-slab/slab-arena-connections.png)
@@ -48,3 +44,7 @@
 ### Checks
 
 [![Checks for Slab Arena (Slab_16)](../00-annotations/the-slab/slab-arena-checks.png)](../00-annotations/the-slab/slab-arena-checks.png)
+
+### Scene
+
+[![Scene for Slab Arena (Slab_16)](../00-annotations/the-slab/slab-arena-scene.png)](../00-annotations/the-slab/slab-arena-scene.png)

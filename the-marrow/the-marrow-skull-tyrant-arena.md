@@ -35,10 +35,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for The Marrow Skull Tyrant Arena (Bone_15)](../00-annotations/the-marrow/the-marrow-skull-tyrant-arena-scene.png)](../00-annotations/the-marrow/the-marrow-skull-tyrant-arena-scene.png)
-
 ### Connections
 
 [![Connections for The Marrow Skull Tyrant Arena (Bone_15)](../00-annotations/the-marrow/the-marrow-skull-tyrant-arena-connections.png)](../00-annotations/the-marrow/the-marrow-skull-tyrant-arena-connections.png)
@@ -46,3 +42,7 @@
 ### Checks
 
 [![Checks for The Marrow Skull Tyrant Arena (Bone_15)](../00-annotations/the-marrow/the-marrow-skull-tyrant-arena-checks.png)](../00-annotations/the-marrow/the-marrow-skull-tyrant-arena-checks.png)
+
+### Scene
+
+[![Scene for The Marrow Skull Tyrant Arena (Bone_15)](../00-annotations/the-marrow/the-marrow-skull-tyrant-arena-scene.png)](../00-annotations/the-marrow/the-marrow-skull-tyrant-arena-scene.png)

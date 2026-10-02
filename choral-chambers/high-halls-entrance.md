@@ -23,10 +23,6 @@ No check locations defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for High Halls Entrance (Hang_01)](../00-annotations/choral-chambers/high-halls-entrance-scene.png)](../00-annotations/choral-chambers/high-halls-entrance-scene.png)
-
 ### Connections
 
 [![Connections for High Halls Entrance (Hang_01)](../00-annotations/choral-chambers/high-halls-entrance-connections.png)](../00-annotations/choral-chambers/high-halls-entrance-connections.png)
@@ -34,3 +30,7 @@ No check locations defined.
 ### Checks
 
 [![Checks for High Halls Entrance (Hang_01)](../00-annotations/choral-chambers/high-halls-entrance-checks.png)](../00-annotations/choral-chambers/high-halls-entrance-checks.png)
+
+### Scene
+
+[![Scene for High Halls Entrance (Hang_01)](../00-annotations/choral-chambers/high-halls-entrance-scene.png)](../00-annotations/choral-chambers/high-halls-entrance-scene.png)

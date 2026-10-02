@@ -33,10 +33,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Hunter's March Pogo Intro (Ant_03)](../00-annotations/hunter-s-march/hunter-s-march-pogo-intro-scene.png)](../00-annotations/hunter-s-march/hunter-s-march-pogo-intro-scene.png)
-
 ### Connections
 
 [![Connections for Hunter's March Pogo Intro (Ant_03)](../00-annotations/hunter-s-march/hunter-s-march-pogo-intro-connections.png)](../00-annotations/hunter-s-march/hunter-s-march-pogo-intro-connections.png)
@@ -44,3 +40,7 @@
 ### Checks
 
 [![Checks for Hunter's March Pogo Intro (Ant_03)](../00-annotations/hunter-s-march/hunter-s-march-pogo-intro-checks.png)](../00-annotations/hunter-s-march/hunter-s-march-pogo-intro-checks.png)
+
+### Scene
+
+[![Scene for Hunter's March Pogo Intro (Ant_03)](../00-annotations/hunter-s-march/hunter-s-march-pogo-intro-scene.png)](../00-annotations/hunter-s-march/hunter-s-march-pogo-intro-scene.png)

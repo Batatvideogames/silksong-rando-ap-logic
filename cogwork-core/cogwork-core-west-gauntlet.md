@@ -38,10 +38,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Cogwork Core West Gauntlet (Cog_05)](../00-annotations/cogwork-core/cogwork-core-west-gauntlet-scene.png)](../00-annotations/cogwork-core/cogwork-core-west-gauntlet-scene.png)
-
 ### Connections
 
 [![Connections for Cogwork Core West Gauntlet (Cog_05)](../00-annotations/cogwork-core/cogwork-core-west-gauntlet-connections.png)](../00-annotations/cogwork-core/cogwork-core-west-gauntlet-connections.png)
@@ -49,3 +45,7 @@
 ### Checks
 
 [![Checks for Cogwork Core West Gauntlet (Cog_05)](../00-annotations/cogwork-core/cogwork-core-west-gauntlet-checks.png)](../00-annotations/cogwork-core/cogwork-core-west-gauntlet-checks.png)
+
+### Scene
+
+[![Scene for Cogwork Core West Gauntlet (Cog_05)](../00-annotations/cogwork-core/cogwork-core-west-gauntlet-scene.png)](../00-annotations/cogwork-core/cogwork-core-west-gauntlet-scene.png)

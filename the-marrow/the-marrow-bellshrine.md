@@ -29,10 +29,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for The Marrow Bellshrine (Bellshrine)](../00-annotations/the-marrow/the-marrow-bellshrine-scene.png)](../00-annotations/the-marrow/the-marrow-bellshrine-scene.png)
-
 ### Connections
 
 [![Connections for The Marrow Bellshrine (Bellshrine)](../00-annotations/the-marrow/the-marrow-bellshrine-connections.png)](../00-annotations/the-marrow/the-marrow-bellshrine-connections.png)
@@ -40,3 +36,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for The Marrow Bellshrine (Bellshrine)](../00-annotations/the-marrow/the-marrow-bellshrine-checks.png)](../00-annotations/the-marrow/the-marrow-bellshrine-checks.png)
+
+### Scene
+
+[![Scene for The Marrow Bellshrine (Bellshrine)](../00-annotations/the-marrow/the-marrow-bellshrine-scene.png)](../00-annotations/the-marrow/the-marrow-bellshrine-scene.png)

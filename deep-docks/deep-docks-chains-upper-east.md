@@ -54,10 +54,6 @@ the floor/lower half of this area is closed off initially
 
 ## Room Images
 
-### Scene
-
-[![Scene for Deep Docks Chains Upper East (Dock_03)](../00-annotations/deep-docks/deep-docks-chains-upper-east-scene.png)](../00-annotations/deep-docks/deep-docks-chains-upper-east-scene.png)
-
 ### Connections
 
 [![Connections for Deep Docks Chains Upper East (Dock_03)](../00-annotations/deep-docks/deep-docks-chains-upper-east-connections.png)](../00-annotations/deep-docks/deep-docks-chains-upper-east-connections.png)
@@ -65,3 +61,7 @@ the floor/lower half of this area is closed off initially
 ### Checks
 
 [![Checks for Deep Docks Chains Upper East (Dock_03)](../00-annotations/deep-docks/deep-docks-chains-upper-east-checks.png)](../00-annotations/deep-docks/deep-docks-chains-upper-east-checks.png)
+
+### Scene
+
+[![Scene for Deep Docks Chains Upper East (Dock_03)](../00-annotations/deep-docks/deep-docks-chains-upper-east-scene.png)](../00-annotations/deep-docks/deep-docks-chains-upper-east-scene.png)

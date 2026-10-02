@@ -25,10 +25,6 @@ No check locations defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Sinner's Road Mist Maze Completed (Dust_Maze_08_completed)](../00-annotations/sinner-s-road/sinner-s-road-mist-maze-completed-scene.png)](../00-annotations/sinner-s-road/sinner-s-road-mist-maze-completed-scene.png)
-
 ### Connections
 
 [![Connections for Sinner's Road Mist Maze Completed (Dust_Maze_08_completed)](../00-annotations/sinner-s-road/sinner-s-road-mist-maze-completed-connections.png)](../00-annotations/sinner-s-road/sinner-s-road-mist-maze-completed-connections.png)
@@ -36,3 +32,7 @@ No check locations defined.
 ### Checks
 
 [![Checks for Sinner's Road Mist Maze Completed (Dust_Maze_08_completed)](../00-annotations/sinner-s-road/sinner-s-road-mist-maze-completed-checks.png)](../00-annotations/sinner-s-road/sinner-s-road-mist-maze-completed-checks.png)
+
+### Scene
+
+[![Scene for Sinner's Road Mist Maze Completed (Dust_Maze_08_completed)](../00-annotations/sinner-s-road/sinner-s-road-mist-maze-completed-scene.png)](../00-annotations/sinner-s-road/sinner-s-road-mist-maze-completed-scene.png)

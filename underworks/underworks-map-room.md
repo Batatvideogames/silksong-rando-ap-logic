@@ -28,10 +28,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Underworks Map Room (Under_16)](../00-annotations/underworks/underworks-map-room-scene.png)](../00-annotations/underworks/underworks-map-room-scene.png)
-
 ### Connections
 
 [![Connections for Underworks Map Room (Under_16)](../00-annotations/underworks/underworks-map-room-connections.png)](../00-annotations/underworks/underworks-map-room-connections.png)
@@ -39,3 +35,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Underworks Map Room (Under_16)](../00-annotations/underworks/underworks-map-room-checks.png)](../00-annotations/underworks/underworks-map-room-checks.png)
+
+### Scene
+
+[![Scene for Underworks Map Room (Under_16)](../00-annotations/underworks/underworks-map-room-scene.png)](../00-annotations/underworks/underworks-map-room-scene.png)

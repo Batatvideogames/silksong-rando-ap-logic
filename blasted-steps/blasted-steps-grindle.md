@@ -43,10 +43,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Blasted Steps Grindle (Coral_42)](../00-annotations/blasted-steps/blasted-steps-grindle-scene.png)](../00-annotations/blasted-steps/blasted-steps-grindle-scene.png)
-
 ### Connections
 
 [![Connections for Blasted Steps Grindle (Coral_42)](../00-annotations/blasted-steps/blasted-steps-grindle-connections.png)](../00-annotations/blasted-steps/blasted-steps-grindle-connections.png)
@@ -54,3 +50,7 @@
 ### Checks
 
 [![Checks for Blasted Steps Grindle (Coral_42)](../00-annotations/blasted-steps/blasted-steps-grindle-checks.png)](../00-annotations/blasted-steps/blasted-steps-grindle-checks.png)
+
+### Scene
+
+[![Scene for Blasted Steps Grindle (Coral_42)](../00-annotations/blasted-steps/blasted-steps-grindle-scene.png)](../00-annotations/blasted-steps/blasted-steps-grindle-scene.png)

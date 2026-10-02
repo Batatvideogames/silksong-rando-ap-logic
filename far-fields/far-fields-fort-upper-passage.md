@@ -43,10 +43,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Far Fields Fort Upper Passage (Bone_East_17)](../00-annotations/far-fields/far-fields-fort-upper-passage-scene.png)](../00-annotations/far-fields/far-fields-fort-upper-passage-scene.png)
-
 ### Connections
 
 [![Connections for Far Fields Fort Upper Passage (Bone_East_17)](../00-annotations/far-fields/far-fields-fort-upper-passage-connections.png)](../00-annotations/far-fields/far-fields-fort-upper-passage-connections.png)
@@ -54,3 +50,7 @@
 ### Checks
 
 [![Checks for Far Fields Fort Upper Passage (Bone_East_17)](../00-annotations/far-fields/far-fields-fort-upper-passage-checks.png)](../00-annotations/far-fields/far-fields-fort-upper-passage-checks.png)
+
+### Scene
+
+[![Scene for Far Fields Fort Upper Passage (Bone_East_17)](../00-annotations/far-fields/far-fields-fort-upper-passage-scene.png)](../00-annotations/far-fields/far-fields-fort-upper-passage-scene.png)

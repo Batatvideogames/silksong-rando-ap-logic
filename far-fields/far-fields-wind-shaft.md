@@ -77,10 +77,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Far Fields Wind Shaft (Bone_East_07)](../00-annotations/far-fields/far-fields-wind-shaft-scene.png)](../00-annotations/far-fields/far-fields-wind-shaft-scene.png)
-
 ### Connections
 
 [![Connections for Far Fields Wind Shaft (Bone_East_07)](../00-annotations/far-fields/far-fields-wind-shaft-connections.png)](../00-annotations/far-fields/far-fields-wind-shaft-connections.png)
@@ -88,3 +84,7 @@
 ### Checks
 
 [![Checks for Far Fields Wind Shaft (Bone_East_07)](../00-annotations/far-fields/far-fields-wind-shaft-checks.png)](../00-annotations/far-fields/far-fields-wind-shaft-checks.png)
+
+### Scene
+
+[![Scene for Far Fields Wind Shaft (Bone_East_07)](../00-annotations/far-fields/far-fields-wind-shaft-scene.png)](../00-annotations/far-fields/far-fields-wind-shaft-scene.png)

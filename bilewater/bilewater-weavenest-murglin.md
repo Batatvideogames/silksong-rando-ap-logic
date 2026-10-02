@@ -27,10 +27,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Bilewater Weavenest Murglin (Shadow_Weavehome)](../00-annotations/bilewater/bilewater-weavenest-murglin-scene.png)](../00-annotations/bilewater/bilewater-weavenest-murglin-scene.png)
-
 ### Connections
 
 [![Connections for Bilewater Weavenest Murglin (Shadow_Weavehome)](../00-annotations/bilewater/bilewater-weavenest-murglin-connections.png)](../00-annotations/bilewater/bilewater-weavenest-murglin-connections.png)
@@ -38,3 +34,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Bilewater Weavenest Murglin (Shadow_Weavehome)](../00-annotations/bilewater/bilewater-weavenest-murglin-checks.png)](../00-annotations/bilewater/bilewater-weavenest-murglin-checks.png)
+
+### Scene
+
+[![Scene for Bilewater Weavenest Murglin (Shadow_Weavehome)](../00-annotations/bilewater/bilewater-weavenest-murglin-scene.png)](../00-annotations/bilewater/bilewater-weavenest-murglin-scene.png)

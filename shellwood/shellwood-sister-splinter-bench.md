@@ -57,10 +57,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Shellwood Sister Splinter Bench (Shellwood_01b)](../00-annotations/shellwood/shellwood-sister-splinter-bench-scene.png)](../00-annotations/shellwood/shellwood-sister-splinter-bench-scene.png)
-
 ### Connections
 
 [![Connections for Shellwood Sister Splinter Bench (Shellwood_01b)](../00-annotations/shellwood/shellwood-sister-splinter-bench-connections.png)](../00-annotations/shellwood/shellwood-sister-splinter-bench-connections.png)
@@ -68,3 +64,7 @@
 ### Checks
 
 [![Checks for Shellwood Sister Splinter Bench (Shellwood_01b)](../00-annotations/shellwood/shellwood-sister-splinter-bench-checks.png)](../00-annotations/shellwood/shellwood-sister-splinter-bench-checks.png)
+
+### Scene
+
+[![Scene for Shellwood Sister Splinter Bench (Shellwood_01b)](../00-annotations/shellwood/shellwood-sister-splinter-bench-scene.png)](../00-annotations/shellwood/shellwood-sister-splinter-bench-scene.png)

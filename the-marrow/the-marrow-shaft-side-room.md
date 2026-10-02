@@ -26,10 +26,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for The Marrow Shaft Side Room (Bone_17)](../00-annotations/the-marrow/the-marrow-shaft-side-room-scene.png)](../00-annotations/the-marrow/the-marrow-shaft-side-room-scene.png)
-
 ### Connections
 
 [![Connections for The Marrow Shaft Side Room (Bone_17)](../00-annotations/the-marrow/the-marrow-shaft-side-room-connections.png)](../00-annotations/the-marrow/the-marrow-shaft-side-room-connections.png)
@@ -37,3 +33,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for The Marrow Shaft Side Room (Bone_17)](../00-annotations/the-marrow/the-marrow-shaft-side-room-checks.png)](../00-annotations/the-marrow/the-marrow-shaft-side-room-checks.png)
+
+### Scene
+
+[![Scene for The Marrow Shaft Side Room (Bone_17)](../00-annotations/the-marrow/the-marrow-shaft-side-room-scene.png)](../00-annotations/the-marrow/the-marrow-shaft-side-room-scene.png)

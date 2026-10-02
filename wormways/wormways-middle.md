@@ -32,10 +32,6 @@ No check locations defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Wormways Middle (Crawl_03b)](../00-annotations/wormways/wormways-middle-scene.png)](../00-annotations/wormways/wormways-middle-scene.png)
-
 ### Connections
 
 [![Connections for Wormways Middle (Crawl_03b)](../00-annotations/wormways/wormways-middle-connections.png)](../00-annotations/wormways/wormways-middle-connections.png)
@@ -43,3 +39,7 @@ No check locations defined.
 ### Checks
 
 [![Checks for Wormways Middle (Crawl_03b)](../00-annotations/wormways/wormways-middle-checks.png)](../00-annotations/wormways/wormways-middle-checks.png)
+
+### Scene
+
+[![Scene for Wormways Middle (Crawl_03b)](../00-annotations/wormways/wormways-middle-scene.png)](../00-annotations/wormways/wormways-middle-scene.png)

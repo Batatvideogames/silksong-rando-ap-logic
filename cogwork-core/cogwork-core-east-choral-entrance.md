@@ -33,10 +33,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Cogwork Core East Choral Entrance (Cog_06)](../00-annotations/cogwork-core/cogwork-core-east-choral-entrance-scene.png)](../00-annotations/cogwork-core/cogwork-core-east-choral-entrance-scene.png)
-
 ### Connections
 
 [![Connections for Cogwork Core East Choral Entrance (Cog_06)](../00-annotations/cogwork-core/cogwork-core-east-choral-entrance-connections.png)](../00-annotations/cogwork-core/cogwork-core-east-choral-entrance-connections.png)
@@ -44,3 +40,7 @@
 ### Checks
 
 [![Checks for Cogwork Core East Choral Entrance (Cog_06)](../00-annotations/cogwork-core/cogwork-core-east-choral-entrance-checks.png)](../00-annotations/cogwork-core/cogwork-core-east-choral-entrance-checks.png)
+
+### Scene
+
+[![Scene for Cogwork Core East Choral Entrance (Cog_06)](../00-annotations/cogwork-core/cogwork-core-east-choral-entrance-scene.png)](../00-annotations/cogwork-core/cogwork-core-east-choral-entrance-scene.png)

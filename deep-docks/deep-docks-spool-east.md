@@ -36,10 +36,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Deep Docks Spool East (Bone_East_13)](../00-annotations/deep-docks/deep-docks-spool-east-scene.png)](../00-annotations/deep-docks/deep-docks-spool-east-scene.png)
-
 ### Connections
 
 [![Connections for Deep Docks Spool East (Bone_East_13)](../00-annotations/deep-docks/deep-docks-spool-east-connections.png)](../00-annotations/deep-docks/deep-docks-spool-east-connections.png)
@@ -47,3 +43,7 @@
 ### Checks
 
 [![Checks for Deep Docks Spool East (Bone_East_13)](../00-annotations/deep-docks/deep-docks-spool-east-checks.png)](../00-annotations/deep-docks/deep-docks-spool-east-checks.png)
+
+### Scene
+
+[![Scene for Deep Docks Spool East (Bone_East_13)](../00-annotations/deep-docks/deep-docks-spool-east-scene.png)](../00-annotations/deep-docks/deep-docks-spool-east-scene.png)

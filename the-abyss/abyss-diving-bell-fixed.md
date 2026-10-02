@@ -25,10 +25,6 @@ No check locations defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Abyss Diving Bell Fixed (Room_Diving_Bell_Abyss_Fixed)](../00-annotations/the-abyss/abyss-diving-bell-fixed-scene.png)](../00-annotations/the-abyss/abyss-diving-bell-fixed-scene.png)
-
 ### Connections
 
 [![Connections for Abyss Diving Bell Fixed (Room_Diving_Bell_Abyss_Fixed)](../00-annotations/the-abyss/abyss-diving-bell-fixed-connections.png)](../00-annotations/the-abyss/abyss-diving-bell-fixed-connections.png)
@@ -36,3 +32,7 @@ No check locations defined.
 ### Checks
 
 [![Checks for Abyss Diving Bell Fixed (Room_Diving_Bell_Abyss_Fixed)](../00-annotations/the-abyss/abyss-diving-bell-fixed-checks.png)](../00-annotations/the-abyss/abyss-diving-bell-fixed-checks.png)
+
+### Scene
+
+[![Scene for Abyss Diving Bell Fixed (Room_Diving_Bell_Abyss_Fixed)](../00-annotations/the-abyss/abyss-diving-bell-fixed-scene.png)](../00-annotations/the-abyss/abyss-diving-bell-fixed-scene.png)

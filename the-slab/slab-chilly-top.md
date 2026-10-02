@@ -25,10 +25,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Slab Chilly Top (Slab_22)](../00-annotations/the-slab/slab-chilly-top-scene.png)](../00-annotations/the-slab/slab-chilly-top-scene.png)
-
 ### Connections
 
 [![Connections for Slab Chilly Top (Slab_22)](../00-annotations/the-slab/slab-chilly-top-connections.png)](../00-annotations/the-slab/slab-chilly-top-connections.png)
@@ -36,3 +32,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Slab Chilly Top (Slab_22)](../00-annotations/the-slab/slab-chilly-top-checks.png)](../00-annotations/the-slab/slab-chilly-top-checks.png)
+
+### Scene
+
+[![Scene for Slab Chilly Top (Slab_22)](../00-annotations/the-slab/slab-chilly-top-scene.png)](../00-annotations/the-slab/slab-chilly-top-scene.png)

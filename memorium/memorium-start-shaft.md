@@ -58,10 +58,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Memorium Start Shaft (Arborium_01)](../00-annotations/memorium/memorium-start-shaft-scene.png)](../00-annotations/memorium/memorium-start-shaft-scene.png)
-
 ### Connections
 
 [![Connections for Memorium Start Shaft (Arborium_01)](../00-annotations/memorium/memorium-start-shaft-connections.png)](../00-annotations/memorium/memorium-start-shaft-connections.png)
@@ -69,3 +65,7 @@
 ### Checks
 
 [![Checks for Memorium Start Shaft (Arborium_01)](../00-annotations/memorium/memorium-start-shaft-checks.png)](../00-annotations/memorium/memorium-start-shaft-checks.png)
+
+### Scene
+
+[![Scene for Memorium Start Shaft (Arborium_01)](../00-annotations/memorium/memorium-start-shaft-scene.png)](../00-annotations/memorium/memorium-start-shaft-scene.png)

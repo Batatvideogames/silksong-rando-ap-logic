@@ -41,10 +41,6 @@ this room needs swimming requirements added to cross it - at least two subrooms
 
 ## Room Images
 
-### Scene
-
-[![Scene for High Halls Flooded Room (Hang_10)](../00-annotations/high-halls/high-halls-flooded-room-scene.png)](../00-annotations/high-halls/high-halls-flooded-room-scene.png)
-
 ### Connections
 
 [![Connections for High Halls Flooded Room (Hang_10)](../00-annotations/high-halls/high-halls-flooded-room-connections.png)](../00-annotations/high-halls/high-halls-flooded-room-connections.png)
@@ -52,3 +48,7 @@ this room needs swimming requirements added to cross it - at least two subrooms
 ### Checks
 
 [![Checks for High Halls Flooded Room (Hang_10)](../00-annotations/high-halls/high-halls-flooded-room-checks.png)](../00-annotations/high-halls/high-halls-flooded-room-checks.png)
+
+### Scene
+
+[![Scene for High Halls Flooded Room (Hang_10)](../00-annotations/high-halls/high-halls-flooded-room-scene.png)](../00-annotations/high-halls/high-halls-flooded-room-scene.png)

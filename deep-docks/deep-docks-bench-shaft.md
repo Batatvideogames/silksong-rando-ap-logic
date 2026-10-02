@@ -32,10 +32,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Deep Docks Bench Shaft (Dock_01)](../00-annotations/deep-docks/deep-docks-bench-shaft-scene.png)](../00-annotations/deep-docks/deep-docks-bench-shaft-scene.png)
-
 ### Connections
 
 [![Connections for Deep Docks Bench Shaft (Dock_01)](../00-annotations/deep-docks/deep-docks-bench-shaft-connections.png)](../00-annotations/deep-docks/deep-docks-bench-shaft-connections.png)
@@ -43,3 +39,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Deep Docks Bench Shaft (Dock_01)](../00-annotations/deep-docks/deep-docks-bench-shaft-checks.png)](../00-annotations/deep-docks/deep-docks-bench-shaft-checks.png)
+
+### Scene
+
+[![Scene for Deep Docks Bench Shaft (Dock_01)](../00-annotations/deep-docks/deep-docks-bench-shaft-scene.png)](../00-annotations/deep-docks/deep-docks-bench-shaft-scene.png)

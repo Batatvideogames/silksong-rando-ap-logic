@@ -57,10 +57,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Greymoor Western Tower (Greymoor_06)](../00-annotations/greymoor/greymoor-western-tower-scene.png)](../00-annotations/greymoor/greymoor-western-tower-scene.png)
-
 ### Connections
 
 [![Connections for Greymoor Western Tower (Greymoor_06)](../00-annotations/greymoor/greymoor-western-tower-connections.png)](../00-annotations/greymoor/greymoor-western-tower-connections.png)
@@ -68,3 +64,7 @@
 ### Checks
 
 [![Checks for Greymoor Western Tower (Greymoor_06)](../00-annotations/greymoor/greymoor-western-tower-checks.png)](../00-annotations/greymoor/greymoor-western-tower-checks.png)
+
+### Scene
+
+[![Scene for Greymoor Western Tower (Greymoor_06)](../00-annotations/greymoor/greymoor-western-tower-scene.png)](../00-annotations/greymoor/greymoor-western-tower-scene.png)

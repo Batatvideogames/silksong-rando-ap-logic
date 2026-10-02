@@ -52,10 +52,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for High Halls Big Shaft (Hang_08)](../00-annotations/high-halls/high-halls-big-shaft-scene.png)](../00-annotations/high-halls/high-halls-big-shaft-scene.png)
-
 ### Connections
 
 [![Connections for High Halls Big Shaft (Hang_08)](../00-annotations/high-halls/high-halls-big-shaft-connections.png)](../00-annotations/high-halls/high-halls-big-shaft-connections.png)
@@ -63,3 +59,7 @@
 ### Checks
 
 [![Checks for High Halls Big Shaft (Hang_08)](../00-annotations/high-halls/high-halls-big-shaft-checks.png)](../00-annotations/high-halls/high-halls-big-shaft-checks.png)
+
+### Scene
+
+[![Scene for High Halls Big Shaft (Hang_08)](../00-annotations/high-halls/high-halls-big-shaft-scene.png)](../00-annotations/high-halls/high-halls-big-shaft-scene.png)

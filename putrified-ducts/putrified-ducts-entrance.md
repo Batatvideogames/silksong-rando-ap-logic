@@ -47,10 +47,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Putrified Ducts Entrance (Aqueduct_01)](../00-annotations/putrified-ducts/putrified-ducts-entrance-scene.png)](../00-annotations/putrified-ducts/putrified-ducts-entrance-scene.png)
-
 ### Connections
 
 [![Connections for Putrified Ducts Entrance (Aqueduct_01)](../00-annotations/putrified-ducts/putrified-ducts-entrance-connections.png)](../00-annotations/putrified-ducts/putrified-ducts-entrance-connections.png)
@@ -58,3 +54,7 @@
 ### Checks
 
 [![Checks for Putrified Ducts Entrance (Aqueduct_01)](../00-annotations/putrified-ducts/putrified-ducts-entrance-checks.png)](../00-annotations/putrified-ducts/putrified-ducts-entrance-checks.png)
+
+### Scene
+
+[![Scene for Putrified Ducts Entrance (Aqueduct_01)](../00-annotations/putrified-ducts/putrified-ducts-entrance-scene.png)](../00-annotations/putrified-ducts/putrified-ducts-entrance-scene.png)

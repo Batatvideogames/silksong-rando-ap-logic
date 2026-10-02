@@ -39,10 +39,6 @@ Door on the east can be only opened from the west
 
 ## Room Images
 
-### Scene
-
-[![Scene for Choral Chambers East to West (Song_27)](../00-annotations/choral-chambers/choral-chambers-east-to-west-scene.png)](../00-annotations/choral-chambers/choral-chambers-east-to-west-scene.png)
-
 ### Connections
 
 [![Connections for Choral Chambers East to West (Song_27)](../00-annotations/choral-chambers/choral-chambers-east-to-west-connections.png)](../00-annotations/choral-chambers/choral-chambers-east-to-west-connections.png)
@@ -50,3 +46,7 @@ Door on the east can be only opened from the west
 ### Checks
 
 [![Checks for Choral Chambers East to West (Song_27)](../00-annotations/choral-chambers/choral-chambers-east-to-west-checks.png)](../00-annotations/choral-chambers/choral-chambers-east-to-west-checks.png)
+
+### Scene
+
+[![Scene for Choral Chambers East to West (Song_27)](../00-annotations/choral-chambers/choral-chambers-east-to-west-scene.png)](../00-annotations/choral-chambers/choral-chambers-east-to-west-scene.png)

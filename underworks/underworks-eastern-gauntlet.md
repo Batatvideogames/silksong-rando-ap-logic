@@ -38,10 +38,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Underworks Eastern Gauntlet (Under_10)](../00-annotations/underworks/underworks-eastern-gauntlet-scene.png)](../00-annotations/underworks/underworks-eastern-gauntlet-scene.png)
-
 ### Connections
 
 [![Connections for Underworks Eastern Gauntlet (Under_10)](../00-annotations/underworks/underworks-eastern-gauntlet-connections.png)](../00-annotations/underworks/underworks-eastern-gauntlet-connections.png)
@@ -49,3 +45,7 @@
 ### Checks
 
 [![Checks for Underworks Eastern Gauntlet (Under_10)](../00-annotations/underworks/underworks-eastern-gauntlet-checks.png)](../00-annotations/underworks/underworks-eastern-gauntlet-checks.png)
+
+### Scene
+
+[![Scene for Underworks Eastern Gauntlet (Under_10)](../00-annotations/underworks/underworks-eastern-gauntlet-scene.png)](../00-annotations/underworks/underworks-eastern-gauntlet-scene.png)

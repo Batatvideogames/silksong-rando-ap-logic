@@ -28,10 +28,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Underworks Crushing Path (Under_04)](../00-annotations/underworks/underworks-crushing-path-scene.png)](../00-annotations/underworks/underworks-crushing-path-scene.png)
-
 ### Connections
 
 [![Connections for Underworks Crushing Path (Under_04)](../00-annotations/underworks/underworks-crushing-path-connections.png)](../00-annotations/underworks/underworks-crushing-path-connections.png)
@@ -39,3 +35,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Underworks Crushing Path (Under_04)](../00-annotations/underworks/underworks-crushing-path-checks.png)](../00-annotations/underworks/underworks-crushing-path-checks.png)
+
+### Scene
+
+[![Scene for Underworks Crushing Path (Under_04)](../00-annotations/underworks/underworks-crushing-path-scene.png)](../00-annotations/underworks/underworks-crushing-path-scene.png)

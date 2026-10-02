@@ -45,10 +45,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Putrified Ducts Tall Room (Aqueduct_02)](../00-annotations/putrified-ducts/putrified-ducts-tall-room-scene.png)](../00-annotations/putrified-ducts/putrified-ducts-tall-room-scene.png)
-
 ### Connections
 
 [![Connections for Putrified Ducts Tall Room (Aqueduct_02)](../00-annotations/putrified-ducts/putrified-ducts-tall-room-connections.png)](../00-annotations/putrified-ducts/putrified-ducts-tall-room-connections.png)
@@ -56,3 +52,7 @@
 ### Checks
 
 [![Checks for Putrified Ducts Tall Room (Aqueduct_02)](../00-annotations/putrified-ducts/putrified-ducts-tall-room-checks.png)](../00-annotations/putrified-ducts/putrified-ducts-tall-room-checks.png)
+
+### Scene
+
+[![Scene for Putrified Ducts Tall Room (Aqueduct_02)](../00-annotations/putrified-ducts/putrified-ducts-tall-room-scene.png)](../00-annotations/putrified-ducts/putrified-ducts-tall-room-scene.png)

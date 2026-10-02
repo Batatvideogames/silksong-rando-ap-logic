@@ -55,10 +55,6 @@ somehow missed this being its own room before
 
 ## Room Images
 
-### Scene
-
-[![Scene for Moss Grotto West (Tut_02)](../00-annotations/moss-grotto/moss-grotto-west-scene.png)](../00-annotations/moss-grotto/moss-grotto-west-scene.png)
-
 ### Connections
 
 [![Connections for Moss Grotto West (Tut_02)](../00-annotations/moss-grotto/moss-grotto-west-connections.png)](../00-annotations/moss-grotto/moss-grotto-west-connections.png)
@@ -66,3 +62,7 @@ somehow missed this being its own room before
 ### Checks
 
 [![Checks for Moss Grotto West (Tut_02)](../00-annotations/moss-grotto/moss-grotto-west-checks.png)](../00-annotations/moss-grotto/moss-grotto-west-checks.png)
+
+### Scene
+
+[![Scene for Moss Grotto West (Tut_02)](../00-annotations/moss-grotto/moss-grotto-west-scene.png)](../00-annotations/moss-grotto/moss-grotto-west-scene.png)

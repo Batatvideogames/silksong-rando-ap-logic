@@ -39,10 +39,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Vaultkeeper Cauldron Entrance (Library_10)](../00-annotations/whispering-vaults/vaultkeeper-cauldron-entrance-scene.png)](../00-annotations/whispering-vaults/vaultkeeper-cauldron-entrance-scene.png)
-
 ### Connections
 
 [![Connections for Vaultkeeper Cauldron Entrance (Library_10)](../00-annotations/whispering-vaults/vaultkeeper-cauldron-entrance-connections.png)](../00-annotations/whispering-vaults/vaultkeeper-cauldron-entrance-connections.png)
@@ -50,3 +46,7 @@
 ### Checks
 
 [![Checks for Vaultkeeper Cauldron Entrance (Library_10)](../00-annotations/whispering-vaults/vaultkeeper-cauldron-entrance-checks.png)](../00-annotations/whispering-vaults/vaultkeeper-cauldron-entrance-checks.png)
+
+### Scene
+
+[![Scene for Vaultkeeper Cauldron Entrance (Library_10)](../00-annotations/whispering-vaults/vaultkeeper-cauldron-entrance-scene.png)](../00-annotations/whispering-vaults/vaultkeeper-cauldron-entrance-scene.png)

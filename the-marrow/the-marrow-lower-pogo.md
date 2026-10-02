@@ -49,10 +49,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for The Marrow Lower Pogo (Bone_07)](../00-annotations/the-marrow/the-marrow-lower-pogo-scene.png)](../00-annotations/the-marrow/the-marrow-lower-pogo-scene.png)
-
 ### Connections
 
 [![Connections for The Marrow Lower Pogo (Bone_07)](../00-annotations/the-marrow/the-marrow-lower-pogo-connections.png)](../00-annotations/the-marrow/the-marrow-lower-pogo-connections.png)
@@ -60,3 +56,7 @@
 ### Checks
 
 [![Checks for The Marrow Lower Pogo (Bone_07)](../00-annotations/the-marrow/the-marrow-lower-pogo-checks.png)](../00-annotations/the-marrow/the-marrow-lower-pogo-checks.png)
+
+### Scene
+
+[![Scene for The Marrow Lower Pogo (Bone_07)](../00-annotations/the-marrow/the-marrow-lower-pogo-scene.png)](../00-annotations/the-marrow/the-marrow-lower-pogo-scene.png)

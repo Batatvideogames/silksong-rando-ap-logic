@@ -28,10 +28,6 @@ No check locations defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for High Halls Vault (Hang_06)](../00-annotations/high-halls/high-halls-vault-scene.png)](../00-annotations/high-halls/high-halls-vault-scene.png)
-
 ### Connections
 
 [![Connections for High Halls Vault (Hang_06)](../00-annotations/high-halls/high-halls-vault-connections.png)](../00-annotations/high-halls/high-halls-vault-connections.png)
@@ -39,3 +35,7 @@ No check locations defined.
 ### Checks
 
 [![Checks for High Halls Vault (Hang_06)](../00-annotations/high-halls/high-halls-vault-checks.png)](../00-annotations/high-halls/high-halls-vault-checks.png)
+
+### Scene
+
+[![Scene for High Halls Vault (Hang_06)](../00-annotations/high-halls/high-halls-vault-scene.png)](../00-annotations/high-halls/high-halls-vault-scene.png)

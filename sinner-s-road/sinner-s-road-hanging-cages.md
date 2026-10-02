@@ -64,10 +64,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Sinner's Road Hanging Cages (Dust_04)](../00-annotations/sinner-s-road/sinner-s-road-hanging-cages-scene.png)](../00-annotations/sinner-s-road/sinner-s-road-hanging-cages-scene.png)
-
 ### Connections
 
 [![Connections for Sinner's Road Hanging Cages (Dust_04)](../00-annotations/sinner-s-road/sinner-s-road-hanging-cages-connections.png)](../00-annotations/sinner-s-road/sinner-s-road-hanging-cages-connections.png)
@@ -75,3 +71,7 @@
 ### Checks
 
 [![Checks for Sinner's Road Hanging Cages (Dust_04)](../00-annotations/sinner-s-road/sinner-s-road-hanging-cages-checks.png)](../00-annotations/sinner-s-road/sinner-s-road-hanging-cages-checks.png)
+
+### Scene
+
+[![Scene for Sinner's Road Hanging Cages (Dust_04)](../00-annotations/sinner-s-road/sinner-s-road-hanging-cages-scene.png)](../00-annotations/sinner-s-road/sinner-s-road-hanging-cages-scene.png)

@@ -33,10 +33,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Choral Chambers Below Spa (Song_02)](../00-annotations/choral-chambers/choral-chambers-below-spa-scene.png)](../00-annotations/choral-chambers/choral-chambers-below-spa-scene.png)
-
 ### Connections
 
 [![Connections for Choral Chambers Below Spa (Song_02)](../00-annotations/choral-chambers/choral-chambers-below-spa-connections.png)](../00-annotations/choral-chambers/choral-chambers-below-spa-connections.png)
@@ -44,3 +40,7 @@
 ### Checks
 
 [![Checks for Choral Chambers Below Spa (Song_02)](../00-annotations/choral-chambers/choral-chambers-below-spa-checks.png)](../00-annotations/choral-chambers/choral-chambers-below-spa-checks.png)
+
+### Scene
+
+[![Scene for Choral Chambers Below Spa (Song_02)](../00-annotations/choral-chambers/choral-chambers-below-spa-scene.png)](../00-annotations/choral-chambers/choral-chambers-below-spa-scene.png)

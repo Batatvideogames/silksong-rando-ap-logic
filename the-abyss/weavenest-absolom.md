@@ -37,10 +37,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Weavenest Absolom (Abyss_08)](../00-annotations/the-abyss/weavenest-absolom-scene.png)](../00-annotations/the-abyss/weavenest-absolom-scene.png)
-
 ### Connections
 
 [![Connections for Weavenest Absolom (Abyss_08)](../00-annotations/the-abyss/weavenest-absolom-connections.png)](../00-annotations/the-abyss/weavenest-absolom-connections.png)
@@ -48,3 +44,7 @@
 ### Checks
 
 [![Checks for Weavenest Absolom (Abyss_08)](../00-annotations/the-abyss/weavenest-absolom-checks.png)](../00-annotations/the-abyss/weavenest-absolom-checks.png)
+
+### Scene
+
+[![Scene for Weavenest Absolom (Abyss_08)](../00-annotations/the-abyss/weavenest-absolom-scene.png)](../00-annotations/the-abyss/weavenest-absolom-scene.png)

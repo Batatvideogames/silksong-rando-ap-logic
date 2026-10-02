@@ -51,10 +51,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Exhaust Organ Interior (Organ_01)](../00-annotations/bilewater/exhaust-organ-interior-scene.png)](../00-annotations/bilewater/exhaust-organ-interior-scene.png)
-
 ### Connections
 
 [![Connections for Exhaust Organ Interior (Organ_01)](../00-annotations/bilewater/exhaust-organ-interior-connections.png)](../00-annotations/bilewater/exhaust-organ-interior-connections.png)
@@ -62,3 +58,7 @@
 ### Checks
 
 [![Checks for Exhaust Organ Interior (Organ_01)](../00-annotations/bilewater/exhaust-organ-interior-checks.png)](../00-annotations/bilewater/exhaust-organ-interior-checks.png)
+
+### Scene
+
+[![Scene for Exhaust Organ Interior (Organ_01)](../00-annotations/bilewater/exhaust-organ-interior-scene.png)](../00-annotations/bilewater/exhaust-organ-interior-scene.png)

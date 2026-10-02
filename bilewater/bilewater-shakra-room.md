@@ -26,10 +26,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Bilewater Shakra Room (Shadow_23)](../00-annotations/bilewater/bilewater-shakra-room-scene.png)](../00-annotations/bilewater/bilewater-shakra-room-scene.png)
-
 ### Connections
 
 [![Connections for Bilewater Shakra Room (Shadow_23)](../00-annotations/bilewater/bilewater-shakra-room-connections.png)](../00-annotations/bilewater/bilewater-shakra-room-connections.png)
@@ -37,3 +33,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Bilewater Shakra Room (Shadow_23)](../00-annotations/bilewater/bilewater-shakra-room-checks.png)](../00-annotations/bilewater/bilewater-shakra-room-checks.png)
+
+### Scene
+
+[![Scene for Bilewater Shakra Room (Shadow_23)](../00-annotations/bilewater/bilewater-shakra-room-scene.png)](../00-annotations/bilewater/bilewater-shakra-room-scene.png)

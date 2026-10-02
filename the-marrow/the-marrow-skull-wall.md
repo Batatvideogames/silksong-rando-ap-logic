@@ -44,10 +44,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for The Marrow Skull Wall (Bone_06)](../00-annotations/the-marrow/the-marrow-skull-wall-scene.png)](../00-annotations/the-marrow/the-marrow-skull-wall-scene.png)
-
 ### Connections
 
 [![Connections for The Marrow Skull Wall (Bone_06)](../00-annotations/the-marrow/the-marrow-skull-wall-connections.png)](../00-annotations/the-marrow/the-marrow-skull-wall-connections.png)
@@ -55,3 +51,7 @@
 ### Checks
 
 [![Checks for The Marrow Skull Wall (Bone_06)](../00-annotations/the-marrow/the-marrow-skull-wall-checks.png)](../00-annotations/the-marrow/the-marrow-skull-wall-checks.png)
+
+### Scene
+
+[![Scene for The Marrow Skull Wall (Bone_06)](../00-annotations/the-marrow/the-marrow-skull-wall-scene.png)](../00-annotations/the-marrow/the-marrow-skull-wall-scene.png)

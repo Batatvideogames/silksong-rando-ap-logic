@@ -34,10 +34,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Memorium water room (Arborium_05)](../00-annotations/memorium/memorium-water-room-scene.png)](../00-annotations/memorium/memorium-water-room-scene.png)
-
 ### Connections
 
 [![Connections for Memorium water room (Arborium_05)](../00-annotations/memorium/memorium-water-room-connections.png)](../00-annotations/memorium/memorium-water-room-connections.png)
@@ -45,3 +41,7 @@
 ### Checks
 
 [![Checks for Memorium water room (Arborium_05)](../00-annotations/memorium/memorium-water-room-checks.png)](../00-annotations/memorium/memorium-water-room-checks.png)
+
+### Scene
+
+[![Scene for Memorium water room (Arborium_05)](../00-annotations/memorium/memorium-water-room-scene.png)](../00-annotations/memorium/memorium-water-room-scene.png)

@@ -42,10 +42,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Whispering Vaults East To West (Library_05)](../00-annotations/whispering-vaults/whispering-vaults-east-to-west-scene.png)](../00-annotations/whispering-vaults/whispering-vaults-east-to-west-scene.png)
-
 ### Connections
 
 [![Connections for Whispering Vaults East To West (Library_05)](../00-annotations/whispering-vaults/whispering-vaults-east-to-west-connections.png)](../00-annotations/whispering-vaults/whispering-vaults-east-to-west-connections.png)
@@ -53,3 +49,7 @@
 ### Checks
 
 [![Checks for Whispering Vaults East To West (Library_05)](../00-annotations/whispering-vaults/whispering-vaults-east-to-west-checks.png)](../00-annotations/whispering-vaults/whispering-vaults-east-to-west-checks.png)
+
+### Scene
+
+[![Scene for Whispering Vaults East To West (Library_05)](../00-annotations/whispering-vaults/whispering-vaults-east-to-west-scene.png)](../00-annotations/whispering-vaults/whispering-vaults-east-to-west-scene.png)

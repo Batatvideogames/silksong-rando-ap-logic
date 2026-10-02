@@ -37,10 +37,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Greymoor Weaver Shrine (Greymoor_22)](../00-annotations/greymoor/greymoor-weaver-shrine-scene.png)](../00-annotations/greymoor/greymoor-weaver-shrine-scene.png)
-
 ### Connections
 
 [![Connections for Greymoor Weaver Shrine (Greymoor_22)](../00-annotations/greymoor/greymoor-weaver-shrine-connections.png)](../00-annotations/greymoor/greymoor-weaver-shrine-connections.png)
@@ -48,3 +44,7 @@
 ### Checks
 
 [![Checks for Greymoor Weaver Shrine (Greymoor_22)](../00-annotations/greymoor/greymoor-weaver-shrine-checks.png)](../00-annotations/greymoor/greymoor-weaver-shrine-checks.png)
+
+### Scene
+
+[![Scene for Greymoor Weaver Shrine (Greymoor_22)](../00-annotations/greymoor/greymoor-weaver-shrine-scene.png)](../00-annotations/greymoor/greymoor-weaver-shrine-scene.png)

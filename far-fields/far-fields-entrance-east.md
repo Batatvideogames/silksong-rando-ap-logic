@@ -37,10 +37,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Far Fields Entrance East (Bone_East_02)](../00-annotations/far-fields/far-fields-entrance-east-scene.png)](../00-annotations/far-fields/far-fields-entrance-east-scene.png)
-
 ### Connections
 
 [![Connections for Far Fields Entrance East (Bone_East_02)](../00-annotations/far-fields/far-fields-entrance-east-connections.png)](../00-annotations/far-fields/far-fields-entrance-east-connections.png)
@@ -48,3 +44,7 @@
 ### Checks
 
 [![Checks for Far Fields Entrance East (Bone_East_02)](../00-annotations/far-fields/far-fields-entrance-east-checks.png)](../00-annotations/far-fields/far-fields-entrance-east-checks.png)
+
+### Scene
+
+[![Scene for Far Fields Entrance East (Bone_East_02)](../00-annotations/far-fields/far-fields-entrance-east-scene.png)](../00-annotations/far-fields/far-fields-entrance-east-scene.png)

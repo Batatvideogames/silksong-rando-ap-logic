@@ -40,10 +40,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Songclave Steam Tunnel (Library_02)](../00-annotations/whispering-vaults/songclave-steam-tunnel-scene.png)](../00-annotations/whispering-vaults/songclave-steam-tunnel-scene.png)
-
 ### Connections
 
 [![Connections for Songclave Steam Tunnel (Library_02)](../00-annotations/whispering-vaults/songclave-steam-tunnel-connections.png)](../00-annotations/whispering-vaults/songclave-steam-tunnel-connections.png)
@@ -51,3 +47,7 @@
 ### Checks
 
 [![Checks for Songclave Steam Tunnel (Library_02)](../00-annotations/whispering-vaults/songclave-steam-tunnel-checks.png)](../00-annotations/whispering-vaults/songclave-steam-tunnel-checks.png)
+
+### Scene
+
+[![Scene for Songclave Steam Tunnel (Library_02)](../00-annotations/whispering-vaults/songclave-steam-tunnel-scene.png)](../00-annotations/whispering-vaults/songclave-steam-tunnel-scene.png)

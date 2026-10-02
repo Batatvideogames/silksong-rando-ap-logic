@@ -34,10 +34,6 @@ No check locations defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Blasted Steps Horizontal Room with Two Sand Pits (Coral_43)](../00-annotations/blasted-steps/blasted-steps-horizontal-room-with-two-sand-pits-scene.png)](../00-annotations/blasted-steps/blasted-steps-horizontal-room-with-two-sand-pits-scene.png)
-
 ### Connections
 
 [![Connections for Blasted Steps Horizontal Room with Two Sand Pits (Coral_43)](../00-annotations/blasted-steps/blasted-steps-horizontal-room-with-two-sand-pits-connections.png)](../00-annotations/blasted-steps/blasted-steps-horizontal-room-with-two-sand-pits-connections.png)
@@ -45,3 +41,7 @@ No check locations defined.
 ### Checks
 
 [![Checks for Blasted Steps Horizontal Room with Two Sand Pits (Coral_43)](../00-annotations/blasted-steps/blasted-steps-horizontal-room-with-two-sand-pits-checks.png)](../00-annotations/blasted-steps/blasted-steps-horizontal-room-with-two-sand-pits-checks.png)
+
+### Scene
+
+[![Scene for Blasted Steps Horizontal Room with Two Sand Pits (Coral_43)](../00-annotations/blasted-steps/blasted-steps-horizontal-room-with-two-sand-pits-scene.png)](../00-annotations/blasted-steps/blasted-steps-horizontal-room-with-two-sand-pits-scene.png)

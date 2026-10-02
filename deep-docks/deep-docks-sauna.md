@@ -28,10 +28,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Deep Docks Sauna (Dock_10)](../00-annotations/deep-docks/deep-docks-sauna-scene.png)](../00-annotations/deep-docks/deep-docks-sauna-scene.png)
-
 ### Connections
 
 [![Connections for Deep Docks Sauna (Dock_10)](../00-annotations/deep-docks/deep-docks-sauna-connections.png)](../00-annotations/deep-docks/deep-docks-sauna-connections.png)
@@ -39,3 +35,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Deep Docks Sauna (Dock_10)](../00-annotations/deep-docks/deep-docks-sauna-checks.png)](../00-annotations/deep-docks/deep-docks-sauna-checks.png)
+
+### Scene
+
+[![Scene for Deep Docks Sauna (Dock_10)](../00-annotations/deep-docks/deep-docks-sauna-scene.png)](../00-annotations/deep-docks/deep-docks-sauna-scene.png)

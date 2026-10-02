@@ -38,10 +38,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Putrified Ducts Path To Vog (Aqueduct_06)](../00-annotations/putrified-ducts/putrified-ducts-path-to-vog-scene.png)](../00-annotations/putrified-ducts/putrified-ducts-path-to-vog-scene.png)
-
 ### Connections
 
 [![Connections for Putrified Ducts Path To Vog (Aqueduct_06)](../00-annotations/putrified-ducts/putrified-ducts-path-to-vog-connections.png)](../00-annotations/putrified-ducts/putrified-ducts-path-to-vog-connections.png)
@@ -49,3 +45,7 @@
 ### Checks
 
 [![Checks for Putrified Ducts Path To Vog (Aqueduct_06)](../00-annotations/putrified-ducts/putrified-ducts-path-to-vog-checks.png)](../00-annotations/putrified-ducts/putrified-ducts-path-to-vog-checks.png)
+
+### Scene
+
+[![Scene for Putrified Ducts Path To Vog (Aqueduct_06)](../00-annotations/putrified-ducts/putrified-ducts-path-to-vog-scene.png)](../00-annotations/putrified-ducts/putrified-ducts-path-to-vog-scene.png)

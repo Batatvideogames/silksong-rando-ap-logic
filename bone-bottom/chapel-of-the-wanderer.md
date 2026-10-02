@@ -62,10 +62,6 @@ need see if there are other checks in here
 
 ## Room Images
 
-### Scene
-
-[![Scene for Chapel of the Wanderer (Chapel_Wanderer)](../00-annotations/bone-bottom/chapel-of-the-wanderer-scene.png)](../00-annotations/bone-bottom/chapel-of-the-wanderer-scene.png)
-
 ### Connections
 
 [![Connections for Chapel of the Wanderer (Chapel_Wanderer)](../00-annotations/bone-bottom/chapel-of-the-wanderer-connections.png)](../00-annotations/bone-bottom/chapel-of-the-wanderer-connections.png)
@@ -73,3 +69,7 @@ need see if there are other checks in here
 ### Checks
 
 [![Checks for Chapel of the Wanderer (Chapel_Wanderer)](../00-annotations/bone-bottom/chapel-of-the-wanderer-checks.png)](../00-annotations/bone-bottom/chapel-of-the-wanderer-checks.png)
+
+### Scene
+
+[![Scene for Chapel of the Wanderer (Chapel_Wanderer)](../00-annotations/bone-bottom/chapel-of-the-wanderer-scene.png)](../00-annotations/bone-bottom/chapel-of-the-wanderer-scene.png)

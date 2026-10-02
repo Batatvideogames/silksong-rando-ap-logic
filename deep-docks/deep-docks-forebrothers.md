@@ -36,10 +36,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Deep Docks Forebrothers (Dock_09)](../00-annotations/deep-docks/deep-docks-forebrothers-scene.png)](../00-annotations/deep-docks/deep-docks-forebrothers-scene.png)
-
 ### Connections
 
 [![Connections for Deep Docks Forebrothers (Dock_09)](../00-annotations/deep-docks/deep-docks-forebrothers-connections.png)](../00-annotations/deep-docks/deep-docks-forebrothers-connections.png)
@@ -47,3 +43,7 @@
 ### Checks
 
 [![Checks for Deep Docks Forebrothers (Dock_09)](../00-annotations/deep-docks/deep-docks-forebrothers-checks.png)](../00-annotations/deep-docks/deep-docks-forebrothers-checks.png)
+
+### Scene
+
+[![Scene for Deep Docks Forebrothers (Dock_09)](../00-annotations/deep-docks/deep-docks-forebrothers-scene.png)](../00-annotations/deep-docks/deep-docks-forebrothers-scene.png)

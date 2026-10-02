@@ -73,10 +73,6 @@ the switch to lower the middle chain section makes some of this logic difficult 
 
 ## Room Images
 
-### Scene
-
-[![Scene for Deep Docks Chains Center (Dock_02b)](../00-annotations/deep-docks/deep-docks-chains-center-scene.png)](../00-annotations/deep-docks/deep-docks-chains-center-scene.png)
-
 ### Connections
 
 [![Connections for Deep Docks Chains Center (Dock_02b)](../00-annotations/deep-docks/deep-docks-chains-center-connections.png)](../00-annotations/deep-docks/deep-docks-chains-center-connections.png)
@@ -84,3 +80,7 @@ the switch to lower the middle chain section makes some of this logic difficult 
 ### Checks
 
 [![Checks for Deep Docks Chains Center (Dock_02b)](../00-annotations/deep-docks/deep-docks-chains-center-checks.png)](../00-annotations/deep-docks/deep-docks-chains-center-checks.png)
+
+### Scene
+
+[![Scene for Deep Docks Chains Center (Dock_02b)](../00-annotations/deep-docks/deep-docks-chains-center-scene.png)](../00-annotations/deep-docks/deep-docks-chains-center-scene.png)

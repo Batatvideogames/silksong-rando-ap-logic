@@ -26,10 +26,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Underworks Shard Room (Under_03)](../00-annotations/underworks/underworks-shard-room-scene.png)](../00-annotations/underworks/underworks-shard-room-scene.png)
-
 ### Connections
 
 [![Connections for Underworks Shard Room (Under_03)](../00-annotations/underworks/underworks-shard-room-connections.png)](../00-annotations/underworks/underworks-shard-room-connections.png)
@@ -37,3 +33,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Underworks Shard Room (Under_03)](../00-annotations/underworks/underworks-shard-room-checks.png)](../00-annotations/underworks/underworks-shard-room-checks.png)
+
+### Scene
+
+[![Scene for Underworks Shard Room (Under_03)](../00-annotations/underworks/underworks-shard-room-scene.png)](../00-annotations/underworks/underworks-shard-room-scene.png)

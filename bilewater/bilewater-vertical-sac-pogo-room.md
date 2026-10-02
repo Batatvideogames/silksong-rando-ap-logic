@@ -51,10 +51,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Bilewater Vertical Sac Pogo Room (Shadow_19)](../00-annotations/bilewater/bilewater-vertical-sac-pogo-room-scene.png)](../00-annotations/bilewater/bilewater-vertical-sac-pogo-room-scene.png)
-
 ### Connections
 
 [![Connections for Bilewater Vertical Sac Pogo Room (Shadow_19)](../00-annotations/bilewater/bilewater-vertical-sac-pogo-room-connections.png)](../00-annotations/bilewater/bilewater-vertical-sac-pogo-room-connections.png)
@@ -62,3 +58,7 @@
 ### Checks
 
 [![Checks for Bilewater Vertical Sac Pogo Room (Shadow_19)](../00-annotations/bilewater/bilewater-vertical-sac-pogo-room-checks.png)](../00-annotations/bilewater/bilewater-vertical-sac-pogo-room-checks.png)
+
+### Scene
+
+[![Scene for Bilewater Vertical Sac Pogo Room (Shadow_19)](../00-annotations/bilewater/bilewater-vertical-sac-pogo-room-scene.png)](../00-annotations/bilewater/bilewater-vertical-sac-pogo-room-scene.png)

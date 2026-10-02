@@ -41,10 +41,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Underworks Lever Spike Corridor (Under_11)](../00-annotations/underworks/underworks-lever-spike-corridor-scene.png)](../00-annotations/underworks/underworks-lever-spike-corridor-scene.png)
-
 ### Connections
 
 [![Connections for Underworks Lever Spike Corridor (Under_11)](../00-annotations/underworks/underworks-lever-spike-corridor-connections.png)](../00-annotations/underworks/underworks-lever-spike-corridor-connections.png)
@@ -52,3 +48,7 @@
 ### Checks
 
 [![Checks for Underworks Lever Spike Corridor (Under_11)](../00-annotations/underworks/underworks-lever-spike-corridor-checks.png)](../00-annotations/underworks/underworks-lever-spike-corridor-checks.png)
+
+### Scene
+
+[![Scene for Underworks Lever Spike Corridor (Under_11)](../00-annotations/underworks/underworks-lever-spike-corridor-scene.png)](../00-annotations/underworks/underworks-lever-spike-corridor-scene.png)

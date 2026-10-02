@@ -36,10 +36,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Cogwork Core North Main (Cog_08)](../00-annotations/cogwork-core/cogwork-core-north-main-scene.png)](../00-annotations/cogwork-core/cogwork-core-north-main-scene.png)
-
 ### Connections
 
 [![Connections for Cogwork Core North Main (Cog_08)](../00-annotations/cogwork-core/cogwork-core-north-main-connections.png)](../00-annotations/cogwork-core/cogwork-core-north-main-connections.png)
@@ -47,3 +43,7 @@
 ### Checks
 
 [![Checks for Cogwork Core North Main (Cog_08)](../00-annotations/cogwork-core/cogwork-core-north-main-checks.png)](../00-annotations/cogwork-core/cogwork-core-north-main-checks.png)
+
+### Scene
+
+[![Scene for Cogwork Core North Main (Cog_08)](../00-annotations/cogwork-core/cogwork-core-north-main-scene.png)](../00-annotations/cogwork-core/cogwork-core-north-main-scene.png)

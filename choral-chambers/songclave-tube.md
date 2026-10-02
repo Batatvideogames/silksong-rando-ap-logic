@@ -28,10 +28,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Songclave Tube (Song_Enclave_Tube)](../00-annotations/choral-chambers/songclave-tube-scene.png)](../00-annotations/choral-chambers/songclave-tube-scene.png)
-
 ### Connections
 
 [![Connections for Songclave Tube (Song_Enclave_Tube)](../00-annotations/choral-chambers/songclave-tube-connections.png)](../00-annotations/choral-chambers/songclave-tube-connections.png)
@@ -39,3 +35,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Songclave Tube (Song_Enclave_Tube)](../00-annotations/choral-chambers/songclave-tube-checks.png)](../00-annotations/choral-chambers/songclave-tube-checks.png)
+
+### Scene
+
+[![Scene for Songclave Tube (Song_Enclave_Tube)](../00-annotations/choral-chambers/songclave-tube-scene.png)](../00-annotations/choral-chambers/songclave-tube-scene.png)

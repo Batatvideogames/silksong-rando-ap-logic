@@ -29,10 +29,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Sinner's Road Shack (dust_shack)](../00-annotations/sinner-s-road/sinner-s-road-shack-scene.png)](../00-annotations/sinner-s-road/sinner-s-road-shack-scene.png)
-
 ### Connections
 
 [![Connections for Sinner's Road Shack (dust_shack)](../00-annotations/sinner-s-road/sinner-s-road-shack-connections.png)](../00-annotations/sinner-s-road/sinner-s-road-shack-connections.png)
@@ -40,3 +36,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Sinner's Road Shack (dust_shack)](../00-annotations/sinner-s-road/sinner-s-road-shack-checks.png)](../00-annotations/sinner-s-road/sinner-s-road-shack-checks.png)
+
+### Scene
+
+[![Scene for Sinner's Road Shack (dust_shack)](../00-annotations/sinner-s-road/sinner-s-road-shack-scene.png)](../00-annotations/sinner-s-road/sinner-s-road-shack-scene.png)

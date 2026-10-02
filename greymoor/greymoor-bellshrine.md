@@ -28,10 +28,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Greymoor Bellshrine (Bellshrine_02)](../00-annotations/greymoor/greymoor-bellshrine-scene.png)](../00-annotations/greymoor/greymoor-bellshrine-scene.png)
-
 ### Connections
 
 [![Connections for Greymoor Bellshrine (Bellshrine_02)](../00-annotations/greymoor/greymoor-bellshrine-connections.png)](../00-annotations/greymoor/greymoor-bellshrine-connections.png)
@@ -39,3 +35,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Greymoor Bellshrine (Bellshrine_02)](../00-annotations/greymoor/greymoor-bellshrine-checks.png)](../00-annotations/greymoor/greymoor-bellshrine-checks.png)
+
+### Scene
+
+[![Scene for Greymoor Bellshrine (Bellshrine_02)](../00-annotations/greymoor/greymoor-bellshrine-scene.png)](../00-annotations/greymoor/greymoor-bellshrine-scene.png)

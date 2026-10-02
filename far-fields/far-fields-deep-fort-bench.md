@@ -35,10 +35,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Far Fields Deep Fort Bench (Bone_East_27)](../00-annotations/far-fields/far-fields-deep-fort-bench-scene.png)](../00-annotations/far-fields/far-fields-deep-fort-bench-scene.png)
-
 ### Connections
 
 [![Connections for Far Fields Deep Fort Bench (Bone_East_27)](../00-annotations/far-fields/far-fields-deep-fort-bench-connections.png)](../00-annotations/far-fields/far-fields-deep-fort-bench-connections.png)
@@ -46,3 +42,7 @@
 ### Checks
 
 [![Checks for Far Fields Deep Fort Bench (Bone_East_27)](../00-annotations/far-fields/far-fields-deep-fort-bench-checks.png)](../00-annotations/far-fields/far-fields-deep-fort-bench-checks.png)
+
+### Scene
+
+[![Scene for Far Fields Deep Fort Bench (Bone_East_27)](../00-annotations/far-fields/far-fields-deep-fort-bench-scene.png)](../00-annotations/far-fields/far-fields-deep-fort-bench-scene.png)

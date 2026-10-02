@@ -41,10 +41,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Choral Chambers Eastern Shaft (Song_05)](../00-annotations/choral-chambers/choral-chambers-eastern-shaft-scene.png)](../00-annotations/choral-chambers/choral-chambers-eastern-shaft-scene.png)
-
 ### Connections
 
 [![Connections for Choral Chambers Eastern Shaft (Song_05)](../00-annotations/choral-chambers/choral-chambers-eastern-shaft-connections.png)](../00-annotations/choral-chambers/choral-chambers-eastern-shaft-connections.png)
@@ -52,3 +48,7 @@
 ### Checks
 
 [![Checks for Choral Chambers Eastern Shaft (Song_05)](../00-annotations/choral-chambers/choral-chambers-eastern-shaft-checks.png)](../00-annotations/choral-chambers/choral-chambers-eastern-shaft-checks.png)
+
+### Scene
+
+[![Scene for Choral Chambers Eastern Shaft (Song_05)](../00-annotations/choral-chambers/choral-chambers-eastern-shaft-scene.png)](../00-annotations/choral-chambers/choral-chambers-eastern-shaft-scene.png)

@@ -40,10 +40,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Greyroots Basement Tall room (Mosstown_03)](../00-annotations/shellwood/greyroots-basement-tall-room-scene.png)](../00-annotations/shellwood/greyroots-basement-tall-room-scene.png)
-
 ### Connections
 
 [![Connections for Greyroots Basement Tall room (Mosstown_03)](../00-annotations/shellwood/greyroots-basement-tall-room-connections.png)](../00-annotations/shellwood/greyroots-basement-tall-room-connections.png)
@@ -51,3 +47,7 @@
 ### Checks
 
 [![Checks for Greyroots Basement Tall room (Mosstown_03)](../00-annotations/shellwood/greyroots-basement-tall-room-checks.png)](../00-annotations/shellwood/greyroots-basement-tall-room-checks.png)
+
+### Scene
+
+[![Scene for Greyroots Basement Tall room (Mosstown_03)](../00-annotations/shellwood/greyroots-basement-tall-room-scene.png)](../00-annotations/shellwood/greyroots-basement-tall-room-scene.png)

@@ -28,10 +28,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Bellhart Hallway to Shellwood (Belltown_07)](../00-annotations/bellhart/bellhart-hallway-to-shellwood-scene.png)](../00-annotations/bellhart/bellhart-hallway-to-shellwood-scene.png)
-
 ### Connections
 
 [![Connections for Bellhart Hallway to Shellwood (Belltown_07)](../00-annotations/bellhart/bellhart-hallway-to-shellwood-connections.png)](../00-annotations/bellhart/bellhart-hallway-to-shellwood-connections.png)
@@ -39,3 +35,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Bellhart Hallway to Shellwood (Belltown_07)](../00-annotations/bellhart/bellhart-hallway-to-shellwood-checks.png)](../00-annotations/bellhart/bellhart-hallway-to-shellwood-checks.png)
+
+### Scene
+
+[![Scene for Bellhart Hallway to Shellwood (Belltown_07)](../00-annotations/bellhart/bellhart-hallway-to-shellwood-scene.png)](../00-annotations/bellhart/bellhart-hallway-to-shellwood-scene.png)

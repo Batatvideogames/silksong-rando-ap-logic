@@ -31,10 +31,6 @@ No check locations defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for ACT3 Lace2 Arena (Song_Tower_Destroyed)](../00-annotations/the-cradle/act3-lace2-arena-scene.png)](../00-annotations/the-cradle/act3-lace2-arena-scene.png)
-
 ### Connections
 
 [![Connections for ACT3 Lace2 Arena (Song_Tower_Destroyed)](../00-annotations/the-cradle/act3-lace2-arena-connections.png)](../00-annotations/the-cradle/act3-lace2-arena-connections.png)
@@ -42,3 +38,7 @@ No check locations defined.
 ### Checks
 
 [![Checks for ACT3 Lace2 Arena (Song_Tower_Destroyed)](../00-annotations/the-cradle/act3-lace2-arena-checks.png)](../00-annotations/the-cradle/act3-lace2-arena-checks.png)
+
+### Scene
+
+[![Scene for ACT3 Lace2 Arena (Song_Tower_Destroyed)](../00-annotations/the-cradle/act3-lace2-arena-scene.png)](../00-annotations/the-cradle/act3-lace2-arena-scene.png)

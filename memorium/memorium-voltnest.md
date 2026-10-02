@@ -40,10 +40,6 @@ farsight isnt randoed yet but from "Memorium stuff" needs nada
 
 ## Room Images
 
-### Scene
-
-[![Scene for Memorium Voltnest (Arborium_07)](../00-annotations/memorium/memorium-voltnest-scene.png)](../00-annotations/memorium/memorium-voltnest-scene.png)
-
 ### Connections
 
 [![Connections for Memorium Voltnest (Arborium_07)](../00-annotations/memorium/memorium-voltnest-connections.png)](../00-annotations/memorium/memorium-voltnest-connections.png)
@@ -51,3 +47,7 @@ farsight isnt randoed yet but from "Memorium stuff" needs nada
 ### Checks
 
 [![Checks for Memorium Voltnest (Arborium_07)](../00-annotations/memorium/memorium-voltnest-checks.png)](../00-annotations/memorium/memorium-voltnest-checks.png)
+
+### Scene
+
+[![Scene for Memorium Voltnest (Arborium_07)](../00-annotations/memorium/memorium-voltnest-scene.png)](../00-annotations/memorium/memorium-voltnest-scene.png)

@@ -27,10 +27,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for shellwood Shakra (Shellwood_16)](../00-annotations/shellwood/shellwood-shakra-scene.png)](../00-annotations/shellwood/shellwood-shakra-scene.png)
-
 ### Connections
 
 [![Connections for shellwood Shakra (Shellwood_16)](../00-annotations/shellwood/shellwood-shakra-connections.png)](../00-annotations/shellwood/shellwood-shakra-connections.png)
@@ -38,3 +34,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for shellwood Shakra (Shellwood_16)](../00-annotations/shellwood/shellwood-shakra-checks.png)](../00-annotations/shellwood/shellwood-shakra-checks.png)
+
+### Scene
+
+[![Scene for shellwood Shakra (Shellwood_16)](../00-annotations/shellwood/shellwood-shakra-scene.png)](../00-annotations/shellwood/shellwood-shakra-scene.png)

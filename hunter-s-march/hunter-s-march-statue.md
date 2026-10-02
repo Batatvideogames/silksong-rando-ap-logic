@@ -31,10 +31,6 @@ No check locations defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Hunter's March Statue (Ant_05c)](../00-annotations/hunter-s-march/hunter-s-march-statue-scene.png)](../00-annotations/hunter-s-march/hunter-s-march-statue-scene.png)
-
 ### Connections
 
 [![Connections for Hunter's March Statue (Ant_05c)](../00-annotations/hunter-s-march/hunter-s-march-statue-connections.png)](../00-annotations/hunter-s-march/hunter-s-march-statue-connections.png)
@@ -42,3 +38,7 @@ No check locations defined.
 ### Checks
 
 [![Checks for Hunter's March Statue (Ant_05c)](../00-annotations/hunter-s-march/hunter-s-march-statue-checks.png)](../00-annotations/hunter-s-march/hunter-s-march-statue-checks.png)
+
+### Scene
+
+[![Scene for Hunter's March Statue (Ant_05c)](../00-annotations/hunter-s-march/hunter-s-march-statue-scene.png)](../00-annotations/hunter-s-march/hunter-s-march-statue-scene.png)

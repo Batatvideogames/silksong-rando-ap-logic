@@ -28,10 +28,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Memorium Ventrica (Arborium_Tube)](../00-annotations/memorium/memorium-ventrica-scene.png)](../00-annotations/memorium/memorium-ventrica-scene.png)
-
 ### Connections
 
 [![Connections for Memorium Ventrica (Arborium_Tube)](../00-annotations/memorium/memorium-ventrica-connections.png)](../00-annotations/memorium/memorium-ventrica-connections.png)
@@ -39,3 +35,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Memorium Ventrica (Arborium_Tube)](../00-annotations/memorium/memorium-ventrica-checks.png)](../00-annotations/memorium/memorium-ventrica-checks.png)
+
+### Scene
+
+[![Scene for Memorium Ventrica (Arborium_Tube)](../00-annotations/memorium/memorium-ventrica-scene.png)](../00-annotations/memorium/memorium-ventrica-scene.png)

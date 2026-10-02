@@ -35,10 +35,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Greymoor Halfway Home (Halfway_01)](../00-annotations/greymoor/greymoor-halfway-home-scene.png)](../00-annotations/greymoor/greymoor-halfway-home-scene.png)
-
 ### Connections
 
 [![Connections for Greymoor Halfway Home (Halfway_01)](../00-annotations/greymoor/greymoor-halfway-home-connections.png)](../00-annotations/greymoor/greymoor-halfway-home-connections.png)
@@ -46,3 +42,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Greymoor Halfway Home (Halfway_01)](../00-annotations/greymoor/greymoor-halfway-home-checks.png)](../00-annotations/greymoor/greymoor-halfway-home-checks.png)
+
+### Scene
+
+[![Scene for Greymoor Halfway Home (Halfway_01)](../00-annotations/greymoor/greymoor-halfway-home-scene.png)](../00-annotations/greymoor/greymoor-halfway-home-scene.png)

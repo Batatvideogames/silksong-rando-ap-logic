@@ -35,10 +35,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Far Fields Fort Lower Passage (Bone_East_16)](../00-annotations/far-fields/far-fields-fort-lower-passage-scene.png)](../00-annotations/far-fields/far-fields-fort-lower-passage-scene.png)
-
 ### Connections
 
 [![Connections for Far Fields Fort Lower Passage (Bone_East_16)](../00-annotations/far-fields/far-fields-fort-lower-passage-connections.png)](../00-annotations/far-fields/far-fields-fort-lower-passage-connections.png)
@@ -46,3 +42,7 @@
 ### Checks
 
 [![Checks for Far Fields Fort Lower Passage (Bone_East_16)](../00-annotations/far-fields/far-fields-fort-lower-passage-checks.png)](../00-annotations/far-fields/far-fields-fort-lower-passage-checks.png)
+
+### Scene
+
+[![Scene for Far Fields Fort Lower Passage (Bone_East_16)](../00-annotations/far-fields/far-fields-fort-lower-passage-scene.png)](../00-annotations/far-fields/far-fields-fort-lower-passage-scene.png)

@@ -46,10 +46,6 @@ No check locations defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Underworks Shaft (Under_02)](../00-annotations/underworks/underworks-shaft-scene.png)](../00-annotations/underworks/underworks-shaft-scene.png)
-
 ### Connections
 
 [![Connections for Underworks Shaft (Under_02)](../00-annotations/underworks/underworks-shaft-connections.png)](../00-annotations/underworks/underworks-shaft-connections.png)
@@ -57,3 +53,7 @@ No check locations defined.
 ### Checks
 
 [![Checks for Underworks Shaft (Under_02)](../00-annotations/underworks/underworks-shaft-checks.png)](../00-annotations/underworks/underworks-shaft-checks.png)
+
+### Scene
+
+[![Scene for Underworks Shaft (Under_02)](../00-annotations/underworks/underworks-shaft-scene.png)](../00-annotations/underworks/underworks-shaft-scene.png)

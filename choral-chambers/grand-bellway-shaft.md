@@ -50,10 +50,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Grand Bellway Shaft (Song_20)](../00-annotations/choral-chambers/grand-bellway-shaft-scene.png)](../00-annotations/choral-chambers/grand-bellway-shaft-scene.png)
-
 ### Connections
 
 [![Connections for Grand Bellway Shaft (Song_20)](../00-annotations/choral-chambers/grand-bellway-shaft-connections.png)](../00-annotations/choral-chambers/grand-bellway-shaft-connections.png)
@@ -61,3 +57,7 @@
 ### Checks
 
 [![Checks for Grand Bellway Shaft (Song_20)](../00-annotations/choral-chambers/grand-bellway-shaft-checks.png)](../00-annotations/choral-chambers/grand-bellway-shaft-checks.png)
+
+### Scene
+
+[![Scene for Grand Bellway Shaft (Song_20)](../00-annotations/choral-chambers/grand-bellway-shaft-scene.png)](../00-annotations/choral-chambers/grand-bellway-shaft-scene.png)

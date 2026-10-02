@@ -37,10 +37,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Shellwood Lower Left Tall Room (Shellwood_03)](../00-annotations/shellwood/shellwood-lower-left-tall-room-scene.png)](../00-annotations/shellwood/shellwood-lower-left-tall-room-scene.png)
-
 ### Connections
 
 [![Connections for Shellwood Lower Left Tall Room (Shellwood_03)](../00-annotations/shellwood/shellwood-lower-left-tall-room-connections.png)](../00-annotations/shellwood/shellwood-lower-left-tall-room-connections.png)
@@ -48,3 +44,7 @@
 ### Checks
 
 [![Checks for Shellwood Lower Left Tall Room (Shellwood_03)](../00-annotations/shellwood/shellwood-lower-left-tall-room-checks.png)](../00-annotations/shellwood/shellwood-lower-left-tall-room-checks.png)
+
+### Scene
+
+[![Scene for Shellwood Lower Left Tall Room (Shellwood_03)](../00-annotations/shellwood/shellwood-lower-left-tall-room-scene.png)](../00-annotations/shellwood/shellwood-lower-left-tall-room-scene.png)

@@ -35,10 +35,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Weavenest Atla Mask Shard (Weave_05b)](../00-annotations/weavenest-atla/weavenest-atla-mask-shard-scene.png)](../00-annotations/weavenest-atla/weavenest-atla-mask-shard-scene.png)
-
 ### Connections
 
 [![Connections for Weavenest Atla Mask Shard (Weave_05b)](../00-annotations/weavenest-atla/weavenest-atla-mask-shard-connections.png)](../00-annotations/weavenest-atla/weavenest-atla-mask-shard-connections.png)
@@ -46,3 +42,7 @@
 ### Checks
 
 [![Checks for Weavenest Atla Mask Shard (Weave_05b)](../00-annotations/weavenest-atla/weavenest-atla-mask-shard-checks.png)](../00-annotations/weavenest-atla/weavenest-atla-mask-shard-checks.png)
+
+### Scene
+
+[![Scene for Weavenest Atla Mask Shard (Weave_05b)](../00-annotations/weavenest-atla/weavenest-atla-mask-shard-scene.png)](../00-annotations/weavenest-atla/weavenest-atla-mask-shard-scene.png)

@@ -28,10 +28,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Underworks Western Gauntlet (Under_07)](../00-annotations/underworks/underworks-western-gauntlet-scene.png)](../00-annotations/underworks/underworks-western-gauntlet-scene.png)
-
 ### Connections
 
 [![Connections for Underworks Western Gauntlet (Under_07)](../00-annotations/underworks/underworks-western-gauntlet-connections.png)](../00-annotations/underworks/underworks-western-gauntlet-connections.png)
@@ -39,3 +35,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Underworks Western Gauntlet (Under_07)](../00-annotations/underworks/underworks-western-gauntlet-checks.png)](../00-annotations/underworks/underworks-western-gauntlet-checks.png)
+
+### Scene
+
+[![Scene for Underworks Western Gauntlet (Under_07)](../00-annotations/underworks/underworks-western-gauntlet-scene.png)](../00-annotations/underworks/underworks-western-gauntlet-scene.png)

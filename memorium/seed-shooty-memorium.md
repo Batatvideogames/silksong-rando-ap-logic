@@ -41,10 +41,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Seed Shooty Memorium (Arborium_03)](../00-annotations/memorium/seed-shooty-memorium-scene.png)](../00-annotations/memorium/seed-shooty-memorium-scene.png)
-
 ### Connections
 
 [![Connections for Seed Shooty Memorium (Arborium_03)](../00-annotations/memorium/seed-shooty-memorium-connections.png)](../00-annotations/memorium/seed-shooty-memorium-connections.png)
@@ -52,3 +48,7 @@
 ### Checks
 
 [![Checks for Seed Shooty Memorium (Arborium_03)](../00-annotations/memorium/seed-shooty-memorium-checks.png)](../00-annotations/memorium/seed-shooty-memorium-checks.png)
+
+### Scene
+
+[![Scene for Seed Shooty Memorium (Arborium_03)](../00-annotations/memorium/seed-shooty-memorium-scene.png)](../00-annotations/memorium/seed-shooty-memorium-scene.png)

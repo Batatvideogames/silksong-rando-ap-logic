@@ -39,10 +39,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Greymoor Upper Towers Path (Greymoor_11)](../00-annotations/greymoor/greymoor-upper-towers-path-scene.png)](../00-annotations/greymoor/greymoor-upper-towers-path-scene.png)
-
 ### Connections
 
 [![Connections for Greymoor Upper Towers Path (Greymoor_11)](../00-annotations/greymoor/greymoor-upper-towers-path-connections.png)](../00-annotations/greymoor/greymoor-upper-towers-path-connections.png)
@@ -50,3 +46,7 @@
 ### Checks
 
 [![Checks for Greymoor Upper Towers Path (Greymoor_11)](../00-annotations/greymoor/greymoor-upper-towers-path-checks.png)](../00-annotations/greymoor/greymoor-upper-towers-path-checks.png)
+
+### Scene
+
+[![Scene for Greymoor Upper Towers Path (Greymoor_11)](../00-annotations/greymoor/greymoor-upper-towers-path-scene.png)](../00-annotations/greymoor/greymoor-upper-towers-path-scene.png)

@@ -41,10 +41,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Deep Docks Lace Intro (Bone_East_12)](../00-annotations/deep-docks/deep-docks-lace-intro-scene.png)](../00-annotations/deep-docks/deep-docks-lace-intro-scene.png)
-
 ### Connections
 
 [![Connections for Deep Docks Lace Intro (Bone_East_12)](../00-annotations/deep-docks/deep-docks-lace-intro-connections.png)](../00-annotations/deep-docks/deep-docks-lace-intro-connections.png)
@@ -52,3 +48,7 @@
 ### Checks
 
 [![Checks for Deep Docks Lace Intro (Bone_East_12)](../00-annotations/deep-docks/deep-docks-lace-intro-checks.png)](../00-annotations/deep-docks/deep-docks-lace-intro-checks.png)
+
+### Scene
+
+[![Scene for Deep Docks Lace Intro (Bone_East_12)](../00-annotations/deep-docks/deep-docks-lace-intro-scene.png)](../00-annotations/deep-docks/deep-docks-lace-intro-scene.png)

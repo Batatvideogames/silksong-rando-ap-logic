@@ -26,10 +26,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Far Fields Map Shop (Bone_East_21)](../00-annotations/far-fields/far-fields-map-shop-scene.png)](../00-annotations/far-fields/far-fields-map-shop-scene.png)
-
 ### Connections
 
 [![Connections for Far Fields Map Shop (Bone_East_21)](../00-annotations/far-fields/far-fields-map-shop-connections.png)](../00-annotations/far-fields/far-fields-map-shop-connections.png)
@@ -37,3 +33,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Far Fields Map Shop (Bone_East_21)](../00-annotations/far-fields/far-fields-map-shop-checks.png)](../00-annotations/far-fields/far-fields-map-shop-checks.png)
+
+### Scene
+
+[![Scene for Far Fields Map Shop (Bone_East_21)](../00-annotations/far-fields/far-fields-map-shop-scene.png)](../00-annotations/far-fields/far-fields-map-shop-scene.png)

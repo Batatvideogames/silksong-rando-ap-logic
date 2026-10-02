@@ -36,10 +36,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Deep Docks Bellway (Bellway_02)](../00-annotations/deep-docks/deep-docks-bellway-scene.png)](../00-annotations/deep-docks/deep-docks-bellway-scene.png)
-
 ### Connections
 
 [![Connections for Deep Docks Bellway (Bellway_02)](../00-annotations/deep-docks/deep-docks-bellway-connections.png)](../00-annotations/deep-docks/deep-docks-bellway-connections.png)
@@ -47,3 +43,7 @@
 ### Checks
 
 [![Checks for Deep Docks Bellway (Bellway_02)](../00-annotations/deep-docks/deep-docks-bellway-checks.png)](../00-annotations/deep-docks/deep-docks-bellway-checks.png)
+
+### Scene
+
+[![Scene for Deep Docks Bellway (Bellway_02)](../00-annotations/deep-docks/deep-docks-bellway-scene.png)](../00-annotations/deep-docks/deep-docks-bellway-scene.png)

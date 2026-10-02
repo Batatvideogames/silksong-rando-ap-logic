@@ -64,10 +64,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Deep Docks Magma Slug Tunnels (Dock_11)](../00-annotations/deep-docks/deep-docks-magma-slug-tunnels-scene.png)](../00-annotations/deep-docks/deep-docks-magma-slug-tunnels-scene.png)
-
 ### Connections
 
 [![Connections for Deep Docks Magma Slug Tunnels (Dock_11)](../00-annotations/deep-docks/deep-docks-magma-slug-tunnels-connections.png)](../00-annotations/deep-docks/deep-docks-magma-slug-tunnels-connections.png)
@@ -75,3 +71,7 @@
 ### Checks
 
 [![Checks for Deep Docks Magma Slug Tunnels (Dock_11)](../00-annotations/deep-docks/deep-docks-magma-slug-tunnels-checks.png)](../00-annotations/deep-docks/deep-docks-magma-slug-tunnels-checks.png)
+
+### Scene
+
+[![Scene for Deep Docks Magma Slug Tunnels (Dock_11)](../00-annotations/deep-docks/deep-docks-magma-slug-tunnels-scene.png)](../00-annotations/deep-docks/deep-docks-magma-slug-tunnels-scene.png)

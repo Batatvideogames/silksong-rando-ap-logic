@@ -46,10 +46,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Exhaust Organ Exterior (Dust_09)](../00-annotations/bilewater/exhaust-organ-exterior-scene.png)](../00-annotations/bilewater/exhaust-organ-exterior-scene.png)
-
 ### Connections
 
 [![Connections for Exhaust Organ Exterior (Dust_09)](../00-annotations/bilewater/exhaust-organ-exterior-connections.png)](../00-annotations/bilewater/exhaust-organ-exterior-connections.png)
@@ -57,3 +53,7 @@
 ### Checks
 
 [![Checks for Exhaust Organ Exterior (Dust_09)](../00-annotations/bilewater/exhaust-organ-exterior-checks.png)](../00-annotations/bilewater/exhaust-organ-exterior-checks.png)
+
+### Scene
+
+[![Scene for Exhaust Organ Exterior (Dust_09)](../00-annotations/bilewater/exhaust-organ-exterior-scene.png)](../00-annotations/bilewater/exhaust-organ-exterior-scene.png)

@@ -26,10 +26,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Greymoor Kraft Room (Greymoor_24)](../00-annotations/greymoor/greymoor-kraft-room-scene.png)](../00-annotations/greymoor/greymoor-kraft-room-scene.png)
-
 ### Connections
 
 [![Connections for Greymoor Kraft Room (Greymoor_24)](../00-annotations/greymoor/greymoor-kraft-room-connections.png)](../00-annotations/greymoor/greymoor-kraft-room-connections.png)
@@ -37,3 +33,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Greymoor Kraft Room (Greymoor_24)](../00-annotations/greymoor/greymoor-kraft-room-checks.png)](../00-annotations/greymoor/greymoor-kraft-room-checks.png)
+
+### Scene
+
+[![Scene for Greymoor Kraft Room (Greymoor_24)](../00-annotations/greymoor/greymoor-kraft-room-scene.png)](../00-annotations/greymoor/greymoor-kraft-room-scene.png)

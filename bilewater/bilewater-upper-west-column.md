@@ -33,10 +33,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Bilewater Upper West Column (Shadow_14)](../00-annotations/bilewater/bilewater-upper-west-column-scene.png)](../00-annotations/bilewater/bilewater-upper-west-column-scene.png)
-
 ### Connections
 
 [![Connections for Bilewater Upper West Column (Shadow_14)](../00-annotations/bilewater/bilewater-upper-west-column-connections.png)](../00-annotations/bilewater/bilewater-upper-west-column-connections.png)
@@ -44,3 +40,7 @@
 ### Checks
 
 [![Checks for Bilewater Upper West Column (Shadow_14)](../00-annotations/bilewater/bilewater-upper-west-column-checks.png)](../00-annotations/bilewater/bilewater-upper-west-column-checks.png)
+
+### Scene
+
+[![Scene for Bilewater Upper West Column (Shadow_14)](../00-annotations/bilewater/bilewater-upper-west-column-scene.png)](../00-annotations/bilewater/bilewater-upper-west-column-scene.png)

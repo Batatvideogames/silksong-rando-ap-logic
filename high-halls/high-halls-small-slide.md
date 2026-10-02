@@ -44,10 +44,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for High Halls Small Slide (Hang_02)](../00-annotations/high-halls/high-halls-small-slide-scene.png)](../00-annotations/high-halls/high-halls-small-slide-scene.png)
-
 ### Connections
 
 [![Connections for High Halls Small Slide (Hang_02)](../00-annotations/high-halls/high-halls-small-slide-connections.png)](../00-annotations/high-halls/high-halls-small-slide-connections.png)
@@ -55,3 +51,7 @@
 ### Checks
 
 [![Checks for High Halls Small Slide (Hang_02)](../00-annotations/high-halls/high-halls-small-slide-checks.png)](../00-annotations/high-halls/high-halls-small-slide-checks.png)
+
+### Scene
+
+[![Scene for High Halls Small Slide (Hang_02)](../00-annotations/high-halls/high-halls-small-slide-scene.png)](../00-annotations/high-halls/high-halls-small-slide-scene.png)

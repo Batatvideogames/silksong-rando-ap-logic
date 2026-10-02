@@ -79,10 +79,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Bellhart Lower (Belltown_basement_03)](../00-annotations/bellhart/bellhart-lower-scene.png)](../00-annotations/bellhart/bellhart-lower-scene.png)
-
 ### Connections
 
 [![Connections for Bellhart Lower (Belltown_basement_03)](../00-annotations/bellhart/bellhart-lower-connections.png)](../00-annotations/bellhart/bellhart-lower-connections.png)
@@ -90,3 +86,7 @@
 ### Checks
 
 [![Checks for Bellhart Lower (Belltown_basement_03)](../00-annotations/bellhart/bellhart-lower-checks.png)](../00-annotations/bellhart/bellhart-lower-checks.png)
+
+### Scene
+
+[![Scene for Bellhart Lower (Belltown_basement_03)](../00-annotations/bellhart/bellhart-lower-scene.png)](../00-annotations/bellhart/bellhart-lower-scene.png)

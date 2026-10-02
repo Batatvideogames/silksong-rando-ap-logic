@@ -25,10 +25,6 @@ No check locations defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Choral Chambers Above Spa (Song_13)](../00-annotations/choral-chambers/choral-chambers-above-spa-scene.png)](../00-annotations/choral-chambers/choral-chambers-above-spa-scene.png)
-
 ### Connections
 
 [![Connections for Choral Chambers Above Spa (Song_13)](../00-annotations/choral-chambers/choral-chambers-above-spa-connections.png)](../00-annotations/choral-chambers/choral-chambers-above-spa-connections.png)
@@ -36,3 +32,7 @@ No check locations defined.
 ### Checks
 
 [![Checks for Choral Chambers Above Spa (Song_13)](../00-annotations/choral-chambers/choral-chambers-above-spa-checks.png)](../00-annotations/choral-chambers/choral-chambers-above-spa-checks.png)
+
+### Scene
+
+[![Scene for Choral Chambers Above Spa (Song_13)](../00-annotations/choral-chambers/choral-chambers-above-spa-scene.png)](../00-annotations/choral-chambers/choral-chambers-above-spa-scene.png)

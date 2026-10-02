@@ -51,10 +51,6 @@ cry: elevator abyss cross is one and done if entered from above without the requ
 
 ## Room Images
 
-### Scene
-
-[![Scene for Wormways Upper East (Crawl_01)](../00-annotations/wormways/wormways-upper-east-scene.png)](../00-annotations/wormways/wormways-upper-east-scene.png)
-
 ### Connections
 
 [![Connections for Wormways Upper East (Crawl_01)](../00-annotations/wormways/wormways-upper-east-connections.png)](../00-annotations/wormways/wormways-upper-east-connections.png)
@@ -62,3 +58,7 @@ cry: elevator abyss cross is one and done if entered from above without the requ
 ### Checks
 
 [![Checks for Wormways Upper East (Crawl_01)](../00-annotations/wormways/wormways-upper-east-checks.png)](../00-annotations/wormways/wormways-upper-east-checks.png)
+
+### Scene
+
+[![Scene for Wormways Upper East (Crawl_01)](../00-annotations/wormways/wormways-upper-east-scene.png)](../00-annotations/wormways/wormways-upper-east-scene.png)

@@ -25,10 +25,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Songclave Bellshrine (Bellshrine_Enclave)](../00-annotations/choral-chambers/songclave-bellshrine-scene.png)](../00-annotations/choral-chambers/songclave-bellshrine-scene.png)
-
 ### Connections
 
 [![Connections for Songclave Bellshrine (Bellshrine_Enclave)](../00-annotations/choral-chambers/songclave-bellshrine-connections.png)](../00-annotations/choral-chambers/songclave-bellshrine-connections.png)
@@ -36,3 +32,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Songclave Bellshrine (Bellshrine_Enclave)](../00-annotations/choral-chambers/songclave-bellshrine-checks.png)](../00-annotations/choral-chambers/songclave-bellshrine-checks.png)
+
+### Scene
+
+[![Scene for Songclave Bellshrine (Bellshrine_Enclave)](../00-annotations/choral-chambers/songclave-bellshrine-scene.png)](../00-annotations/choral-chambers/songclave-bellshrine-scene.png)

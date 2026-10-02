@@ -33,10 +33,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Mosshome Side Room (Bone_05b)](../00-annotations/bone-bottom/mosshome-side-room-scene.png)](../00-annotations/bone-bottom/mosshome-side-room-scene.png)
-
 ### Connections
 
 [![Connections for Mosshome Side Room (Bone_05b)](../00-annotations/bone-bottom/mosshome-side-room-connections.png)](../00-annotations/bone-bottom/mosshome-side-room-connections.png)
@@ -44,3 +40,7 @@
 ### Checks
 
 [![Checks for Mosshome Side Room (Bone_05b)](../00-annotations/bone-bottom/mosshome-side-room-checks.png)](../00-annotations/bone-bottom/mosshome-side-room-checks.png)
+
+### Scene
+
+[![Scene for Mosshome Side Room (Bone_05b)](../00-annotations/bone-bottom/mosshome-side-room-scene.png)](../00-annotations/bone-bottom/mosshome-side-room-scene.png)

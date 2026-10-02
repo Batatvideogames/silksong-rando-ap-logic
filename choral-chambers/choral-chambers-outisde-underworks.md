@@ -25,10 +25,6 @@ No check locations defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Choral Chambers Outisde Underworks (Under_07b)](../00-annotations/choral-chambers/choral-chambers-outisde-underworks-scene.png)](../00-annotations/choral-chambers/choral-chambers-outisde-underworks-scene.png)
-
 ### Connections
 
 [![Connections for Choral Chambers Outisde Underworks (Under_07b)](../00-annotations/choral-chambers/choral-chambers-outisde-underworks-connections.png)](../00-annotations/choral-chambers/choral-chambers-outisde-underworks-connections.png)
@@ -36,3 +32,7 @@ No check locations defined.
 ### Checks
 
 [![Checks for Choral Chambers Outisde Underworks (Under_07b)](../00-annotations/choral-chambers/choral-chambers-outisde-underworks-checks.png)](../00-annotations/choral-chambers/choral-chambers-outisde-underworks-checks.png)
+
+### Scene
+
+[![Scene for Choral Chambers Outisde Underworks (Under_07b)](../00-annotations/choral-chambers/choral-chambers-outisde-underworks-scene.png)](../00-annotations/choral-chambers/choral-chambers-outisde-underworks-scene.png)

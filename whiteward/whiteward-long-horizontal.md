@@ -26,10 +26,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Whiteward Long Horizontal (Ward_05)](../00-annotations/whiteward/whiteward-long-horizontal-scene.png)](../00-annotations/whiteward/whiteward-long-horizontal-scene.png)
-
 ### Connections
 
 [![Connections for Whiteward Long Horizontal (Ward_05)](../00-annotations/whiteward/whiteward-long-horizontal-connections.png)](../00-annotations/whiteward/whiteward-long-horizontal-connections.png)
@@ -37,3 +33,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Whiteward Long Horizontal (Ward_05)](../00-annotations/whiteward/whiteward-long-horizontal-checks.png)](../00-annotations/whiteward/whiteward-long-horizontal-checks.png)
+
+### Scene
+
+[![Scene for Whiteward Long Horizontal (Ward_05)](../00-annotations/whiteward/whiteward-long-horizontal-scene.png)](../00-annotations/whiteward/whiteward-long-horizontal-scene.png)

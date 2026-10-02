@@ -56,10 +56,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Whiteward Descent Connection (Ward_03)](../00-annotations/whiteward/whiteward-descent-connection-scene.png)](../00-annotations/whiteward/whiteward-descent-connection-scene.png)
-
 ### Connections
 
 [![Connections for Whiteward Descent Connection (Ward_03)](../00-annotations/whiteward/whiteward-descent-connection-connections.png)](../00-annotations/whiteward/whiteward-descent-connection-connections.png)
@@ -67,3 +63,7 @@
 ### Checks
 
 [![Checks for Whiteward Descent Connection (Ward_03)](../00-annotations/whiteward/whiteward-descent-connection-checks.png)](../00-annotations/whiteward/whiteward-descent-connection-checks.png)
+
+### Scene
+
+[![Scene for Whiteward Descent Connection (Ward_03)](../00-annotations/whiteward/whiteward-descent-connection-scene.png)](../00-annotations/whiteward/whiteward-descent-connection-scene.png)

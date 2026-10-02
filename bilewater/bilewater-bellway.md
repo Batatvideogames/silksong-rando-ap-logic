@@ -29,10 +29,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Bilewater Bellway (Bellway_Shadow)](../00-annotations/bilewater/bilewater-bellway-scene.png)](../00-annotations/bilewater/bilewater-bellway-scene.png)
-
 ### Connections
 
 [![Connections for Bilewater Bellway (Bellway_Shadow)](../00-annotations/bilewater/bilewater-bellway-connections.png)](../00-annotations/bilewater/bilewater-bellway-connections.png)
@@ -40,3 +36,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Bilewater Bellway (Bellway_Shadow)](../00-annotations/bilewater/bilewater-bellway-checks.png)](../00-annotations/bilewater/bilewater-bellway-checks.png)
+
+### Scene
+
+[![Scene for Bilewater Bellway (Bellway_Shadow)](../00-annotations/bilewater/bilewater-bellway-scene.png)](../00-annotations/bilewater/bilewater-bellway-scene.png)

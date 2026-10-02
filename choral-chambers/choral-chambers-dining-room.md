@@ -33,10 +33,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Choral Chambers Dining Room (Song_09b)](../00-annotations/choral-chambers/choral-chambers-dining-room-scene.png)](../00-annotations/choral-chambers/choral-chambers-dining-room-scene.png)
-
 ### Connections
 
 [![Connections for Choral Chambers Dining Room (Song_09b)](../00-annotations/choral-chambers/choral-chambers-dining-room-connections.png)](../00-annotations/choral-chambers/choral-chambers-dining-room-connections.png)
@@ -44,3 +40,7 @@
 ### Checks
 
 [![Checks for Choral Chambers Dining Room (Song_09b)](../00-annotations/choral-chambers/choral-chambers-dining-room-checks.png)](../00-annotations/choral-chambers/choral-chambers-dining-room-checks.png)
+
+### Scene
+
+[![Scene for Choral Chambers Dining Room (Song_09b)](../00-annotations/choral-chambers/choral-chambers-dining-room-scene.png)](../00-annotations/choral-chambers/choral-chambers-dining-room-scene.png)

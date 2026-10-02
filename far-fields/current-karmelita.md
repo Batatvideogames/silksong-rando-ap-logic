@@ -27,10 +27,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Current Karmelita (Ant_Queen)](../00-annotations/far-fields/current-karmelita-scene.png)](../00-annotations/far-fields/current-karmelita-scene.png)
-
 ### Connections
 
 [![Connections for Current Karmelita (Ant_Queen)](../00-annotations/far-fields/current-karmelita-connections.png)](../00-annotations/far-fields/current-karmelita-connections.png)
@@ -38,3 +34,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Current Karmelita (Ant_Queen)](../00-annotations/far-fields/current-karmelita-checks.png)](../00-annotations/far-fields/current-karmelita-checks.png)
+
+### Scene
+
+[![Scene for Current Karmelita (Ant_Queen)](../00-annotations/far-fields/current-karmelita-scene.png)](../00-annotations/far-fields/current-karmelita-scene.png)

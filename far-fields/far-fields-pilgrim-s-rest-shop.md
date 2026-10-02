@@ -29,10 +29,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Far Fields Pilgrim's Rest Shop (Bone_East_10_Room)](../00-annotations/far-fields/far-fields-pilgrim-s-rest-shop-scene.png)](../00-annotations/far-fields/far-fields-pilgrim-s-rest-shop-scene.png)
-
 ### Connections
 
 [![Connections for Far Fields Pilgrim's Rest Shop (Bone_East_10_Room)](../00-annotations/far-fields/far-fields-pilgrim-s-rest-shop-connections.png)](../00-annotations/far-fields/far-fields-pilgrim-s-rest-shop-connections.png)
@@ -40,3 +36,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Far Fields Pilgrim's Rest Shop (Bone_East_10_Room)](../00-annotations/far-fields/far-fields-pilgrim-s-rest-shop-checks.png)](../00-annotations/far-fields/far-fields-pilgrim-s-rest-shop-checks.png)
+
+### Scene
+
+[![Scene for Far Fields Pilgrim's Rest Shop (Bone_East_10_Room)](../00-annotations/far-fields/far-fields-pilgrim-s-rest-shop-scene.png)](../00-annotations/far-fields/far-fields-pilgrim-s-rest-shop-scene.png)

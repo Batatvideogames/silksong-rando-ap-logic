@@ -56,10 +56,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Whispering Vaults Jumps (Library_09)](../00-annotations/whispering-vaults/whispering-vaults-jumps-scene.png)](../00-annotations/whispering-vaults/whispering-vaults-jumps-scene.png)
-
 ### Connections
 
 [![Connections for Whispering Vaults Jumps (Library_09)](../00-annotations/whispering-vaults/whispering-vaults-jumps-connections.png)](../00-annotations/whispering-vaults/whispering-vaults-jumps-connections.png)
@@ -67,3 +63,7 @@
 ### Checks
 
 [![Checks for Whispering Vaults Jumps (Library_09)](../00-annotations/whispering-vaults/whispering-vaults-jumps-checks.png)](../00-annotations/whispering-vaults/whispering-vaults-jumps-checks.png)
+
+### Scene
+
+[![Scene for Whispering Vaults Jumps (Library_09)](../00-annotations/whispering-vaults/whispering-vaults-jumps-scene.png)](../00-annotations/whispering-vaults/whispering-vaults-jumps-scene.png)

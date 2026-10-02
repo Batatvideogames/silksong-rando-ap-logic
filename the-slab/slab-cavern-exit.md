@@ -33,10 +33,6 @@ No check locations defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Slab Cavern Exit (Slab_23)](../00-annotations/the-slab/slab-cavern-exit-scene.png)](../00-annotations/the-slab/slab-cavern-exit-scene.png)
-
 ### Connections
 
 [![Connections for Slab Cavern Exit (Slab_23)](../00-annotations/the-slab/slab-cavern-exit-connections.png)](../00-annotations/the-slab/slab-cavern-exit-connections.png)
@@ -44,3 +40,7 @@ No check locations defined.
 ### Checks
 
 [![Checks for Slab Cavern Exit (Slab_23)](../00-annotations/the-slab/slab-cavern-exit-checks.png)](../00-annotations/the-slab/slab-cavern-exit-checks.png)
+
+### Scene
+
+[![Scene for Slab Cavern Exit (Slab_23)](../00-annotations/the-slab/slab-cavern-exit-scene.png)](../00-annotations/the-slab/slab-cavern-exit-scene.png)

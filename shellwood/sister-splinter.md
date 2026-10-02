@@ -34,10 +34,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Sister Splinter (Shellwood_18)](../00-annotations/shellwood/sister-splinter-scene.png)](../00-annotations/shellwood/sister-splinter-scene.png)
-
 ### Connections
 
 [![Connections for Sister Splinter (Shellwood_18)](../00-annotations/shellwood/sister-splinter-connections.png)](../00-annotations/shellwood/sister-splinter-connections.png)
@@ -45,3 +41,7 @@
 ### Checks
 
 [![Checks for Sister Splinter (Shellwood_18)](../00-annotations/shellwood/sister-splinter-checks.png)](../00-annotations/shellwood/sister-splinter-checks.png)
+
+### Scene
+
+[![Scene for Sister Splinter (Shellwood_18)](../00-annotations/shellwood/sister-splinter-scene.png)](../00-annotations/shellwood/sister-splinter-scene.png)

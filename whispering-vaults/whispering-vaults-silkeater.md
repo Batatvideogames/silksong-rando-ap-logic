@@ -37,10 +37,6 @@ lol
 
 ## Room Images
 
-### Scene
-
-[![Scene for Whispering Vaults Silkeater (Library_14)](../00-annotations/whispering-vaults/whispering-vaults-silkeater-scene.png)](../00-annotations/whispering-vaults/whispering-vaults-silkeater-scene.png)
-
 ### Connections
 
 [![Connections for Whispering Vaults Silkeater (Library_14)](../00-annotations/whispering-vaults/whispering-vaults-silkeater-connections.png)](../00-annotations/whispering-vaults/whispering-vaults-silkeater-connections.png)
@@ -48,3 +44,7 @@ lol
 ### Checks
 
 [![Checks for Whispering Vaults Silkeater (Library_14)](../00-annotations/whispering-vaults/whispering-vaults-silkeater-checks.png)](../00-annotations/whispering-vaults/whispering-vaults-silkeater-checks.png)
+
+### Scene
+
+[![Scene for Whispering Vaults Silkeater (Library_14)](../00-annotations/whispering-vaults/whispering-vaults-silkeater-scene.png)](../00-annotations/whispering-vaults/whispering-vaults-silkeater-scene.png)

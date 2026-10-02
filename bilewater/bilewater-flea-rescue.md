@@ -26,10 +26,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Bilewater Flea Rescue (Shadow_28)](../00-annotations/bilewater/bilewater-flea-rescue-scene.png)](../00-annotations/bilewater/bilewater-flea-rescue-scene.png)
-
 ### Connections
 
 [![Connections for Bilewater Flea Rescue (Shadow_28)](../00-annotations/bilewater/bilewater-flea-rescue-connections.png)](../00-annotations/bilewater/bilewater-flea-rescue-connections.png)
@@ -37,3 +33,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Bilewater Flea Rescue (Shadow_28)](../00-annotations/bilewater/bilewater-flea-rescue-checks.png)](../00-annotations/bilewater/bilewater-flea-rescue-checks.png)
+
+### Scene
+
+[![Scene for Bilewater Flea Rescue (Shadow_28)](../00-annotations/bilewater/bilewater-flea-rescue-scene.png)](../00-annotations/bilewater/bilewater-flea-rescue-scene.png)

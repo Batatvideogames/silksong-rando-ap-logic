@@ -45,10 +45,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Mosshome Middle (Mosstown_01)](../00-annotations/bone-bottom/mosshome-middle-scene.png)](../00-annotations/bone-bottom/mosshome-middle-scene.png)
-
 ### Connections
 
 [![Connections for Mosshome Middle (Mosstown_01)](../00-annotations/bone-bottom/mosshome-middle-connections.png)](../00-annotations/bone-bottom/mosshome-middle-connections.png)
@@ -56,3 +52,7 @@
 ### Checks
 
 [![Checks for Mosshome Middle (Mosstown_01)](../00-annotations/bone-bottom/mosshome-middle-checks.png)](../00-annotations/bone-bottom/mosshome-middle-checks.png)
+
+### Scene
+
+[![Scene for Mosshome Middle (Mosstown_01)](../00-annotations/bone-bottom/mosshome-middle-scene.png)](../00-annotations/bone-bottom/mosshome-middle-scene.png)

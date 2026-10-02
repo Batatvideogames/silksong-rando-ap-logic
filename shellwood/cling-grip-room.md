@@ -42,10 +42,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Cling Grip Room (Shellwood_10)](../00-annotations/shellwood/cling-grip-room-scene.png)](../00-annotations/shellwood/cling-grip-room-scene.png)
-
 ### Connections
 
 [![Connections for Cling Grip Room (Shellwood_10)](../00-annotations/shellwood/cling-grip-room-connections.png)](../00-annotations/shellwood/cling-grip-room-connections.png)
@@ -53,3 +49,7 @@
 ### Checks
 
 [![Checks for Cling Grip Room (Shellwood_10)](../00-annotations/shellwood/cling-grip-room-checks.png)](../00-annotations/shellwood/cling-grip-room-checks.png)
+
+### Scene
+
+[![Scene for Cling Grip Room (Shellwood_10)](../00-annotations/shellwood/cling-grip-room-scene.png)](../00-annotations/shellwood/cling-grip-room-scene.png)

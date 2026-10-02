@@ -48,10 +48,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Greymoor Entry to Bellhart (Greymoor_08)](../00-annotations/greymoor/greymoor-entry-to-bellhart-scene.png)](../00-annotations/greymoor/greymoor-entry-to-bellhart-scene.png)
-
 ### Connections
 
 [![Connections for Greymoor Entry to Bellhart (Greymoor_08)](../00-annotations/greymoor/greymoor-entry-to-bellhart-connections.png)](../00-annotations/greymoor/greymoor-entry-to-bellhart-connections.png)
@@ -59,3 +55,7 @@
 ### Checks
 
 [![Checks for Greymoor Entry to Bellhart (Greymoor_08)](../00-annotations/greymoor/greymoor-entry-to-bellhart-checks.png)](../00-annotations/greymoor/greymoor-entry-to-bellhart-checks.png)
+
+### Scene
+
+[![Scene for Greymoor Entry to Bellhart (Greymoor_08)](../00-annotations/greymoor/greymoor-entry-to-bellhart-scene.png)](../00-annotations/greymoor/greymoor-entry-to-bellhart-scene.png)

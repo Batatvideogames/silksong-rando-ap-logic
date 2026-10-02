@@ -41,10 +41,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Is this still Deep Docks West (Bone_East_04b)](../00-annotations/deep-docks/is-this-still-deep-docks-west-scene.png)](../00-annotations/deep-docks/is-this-still-deep-docks-west-scene.png)
-
 ### Connections
 
 [![Connections for Is this still Deep Docks West (Bone_East_04b)](../00-annotations/deep-docks/is-this-still-deep-docks-west-connections.png)](../00-annotations/deep-docks/is-this-still-deep-docks-west-connections.png)
@@ -52,3 +48,7 @@
 ### Checks
 
 [![Checks for Is this still Deep Docks West (Bone_East_04b)](../00-annotations/deep-docks/is-this-still-deep-docks-west-checks.png)](../00-annotations/deep-docks/is-this-still-deep-docks-west-checks.png)
+
+### Scene
+
+[![Scene for Is this still Deep Docks West (Bone_East_04b)](../00-annotations/deep-docks/is-this-still-deep-docks-west-scene.png)](../00-annotations/deep-docks/is-this-still-deep-docks-west-scene.png)

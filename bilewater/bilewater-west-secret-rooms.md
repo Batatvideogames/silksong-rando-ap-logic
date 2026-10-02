@@ -39,10 +39,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Bilewater West Secret Rooms (Shadow_20)](../00-annotations/bilewater/bilewater-west-secret-rooms-scene.png)](../00-annotations/bilewater/bilewater-west-secret-rooms-scene.png)
-
 ### Connections
 
 [![Connections for Bilewater West Secret Rooms (Shadow_20)](../00-annotations/bilewater/bilewater-west-secret-rooms-connections.png)](../00-annotations/bilewater/bilewater-west-secret-rooms-connections.png)
@@ -50,3 +46,7 @@
 ### Checks
 
 [![Checks for Bilewater West Secret Rooms (Shadow_20)](../00-annotations/bilewater/bilewater-west-secret-rooms-checks.png)](../00-annotations/bilewater/bilewater-west-secret-rooms-checks.png)
+
+### Scene
+
+[![Scene for Bilewater West Secret Rooms (Shadow_20)](../00-annotations/bilewater/bilewater-west-secret-rooms-scene.png)](../00-annotations/bilewater/bilewater-west-secret-rooms-scene.png)

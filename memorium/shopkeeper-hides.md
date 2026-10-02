@@ -43,10 +43,6 @@ I HATE THIS ROOOOOM
 
 ## Room Images
 
-### Scene
-
-[![Scene for Shopkeeper hides (Arborium_11)](../00-annotations/memorium/shopkeeper-hides-scene.png)](../00-annotations/memorium/shopkeeper-hides-scene.png)
-
 ### Connections
 
 [![Connections for Shopkeeper hides (Arborium_11)](../00-annotations/memorium/shopkeeper-hides-connections.png)](../00-annotations/memorium/shopkeeper-hides-connections.png)
@@ -54,3 +50,7 @@ I HATE THIS ROOOOOM
 ### Checks
 
 [![Checks for Shopkeeper hides (Arborium_11)](../00-annotations/memorium/shopkeeper-hides-checks.png)](../00-annotations/memorium/shopkeeper-hides-checks.png)
+
+### Scene
+
+[![Scene for Shopkeeper hides (Arborium_11)](../00-annotations/memorium/shopkeeper-hides-scene.png)](../00-annotations/memorium/shopkeeper-hides-scene.png)

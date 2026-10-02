@@ -29,10 +29,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Shellwood Bellshrine (Bellshrine_03)](../00-annotations/shellwood/shellwood-bellshrine-scene.png)](../00-annotations/shellwood/shellwood-bellshrine-scene.png)
-
 ### Connections
 
 [![Connections for Shellwood Bellshrine (Bellshrine_03)](../00-annotations/shellwood/shellwood-bellshrine-connections.png)](../00-annotations/shellwood/shellwood-bellshrine-connections.png)
@@ -40,3 +36,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Shellwood Bellshrine (Bellshrine_03)](../00-annotations/shellwood/shellwood-bellshrine-checks.png)](../00-annotations/shellwood/shellwood-bellshrine-checks.png)
+
+### Scene
+
+[![Scene for Shellwood Bellshrine (Bellshrine_03)](../00-annotations/shellwood/shellwood-bellshrine-scene.png)](../00-annotations/shellwood/shellwood-bellshrine-scene.png)

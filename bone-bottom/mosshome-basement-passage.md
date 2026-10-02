@@ -35,10 +35,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Mosshome Basement Passage (Bone_01b)](../00-annotations/bone-bottom/mosshome-basement-passage-scene.png)](../00-annotations/bone-bottom/mosshome-basement-passage-scene.png)
-
 ### Connections
 
 [![Connections for Mosshome Basement Passage (Bone_01b)](../00-annotations/bone-bottom/mosshome-basement-passage-connections.png)](../00-annotations/bone-bottom/mosshome-basement-passage-connections.png)
@@ -46,3 +42,7 @@
 ### Checks
 
 [![Checks for Mosshome Basement Passage (Bone_01b)](../00-annotations/bone-bottom/mosshome-basement-passage-checks.png)](../00-annotations/bone-bottom/mosshome-basement-passage-checks.png)
+
+### Scene
+
+[![Scene for Mosshome Basement Passage (Bone_01b)](../00-annotations/bone-bottom/mosshome-basement-passage-scene.png)](../00-annotations/bone-bottom/mosshome-basement-passage-scene.png)

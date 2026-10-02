@@ -25,10 +25,6 @@ No check locations defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Greymoor Chapel of The Reaper Entrance (Greymoor_20b)](../00-annotations/greymoor/greymoor-chapel-of-the-reaper-entrance-scene.png)](../00-annotations/greymoor/greymoor-chapel-of-the-reaper-entrance-scene.png)
-
 ### Connections
 
 [![Connections for Greymoor Chapel of The Reaper Entrance (Greymoor_20b)](../00-annotations/greymoor/greymoor-chapel-of-the-reaper-entrance-connections.png)](../00-annotations/greymoor/greymoor-chapel-of-the-reaper-entrance-connections.png)
@@ -36,3 +32,7 @@ No check locations defined.
 ### Checks
 
 [![Checks for Greymoor Chapel of The Reaper Entrance (Greymoor_20b)](../00-annotations/greymoor/greymoor-chapel-of-the-reaper-entrance-checks.png)](../00-annotations/greymoor/greymoor-chapel-of-the-reaper-entrance-checks.png)
+
+### Scene
+
+[![Scene for Greymoor Chapel of The Reaper Entrance (Greymoor_20b)](../00-annotations/greymoor/greymoor-chapel-of-the-reaper-entrance-scene.png)](../00-annotations/greymoor/greymoor-chapel-of-the-reaper-entrance-scene.png)

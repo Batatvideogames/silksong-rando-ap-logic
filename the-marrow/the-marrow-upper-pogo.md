@@ -38,10 +38,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for The Marrow Upper Pogo (Bone_19)](../00-annotations/the-marrow/the-marrow-upper-pogo-scene.png)](../00-annotations/the-marrow/the-marrow-upper-pogo-scene.png)
-
 ### Connections
 
 [![Connections for The Marrow Upper Pogo (Bone_19)](../00-annotations/the-marrow/the-marrow-upper-pogo-connections.png)](../00-annotations/the-marrow/the-marrow-upper-pogo-connections.png)
@@ -49,3 +45,7 @@
 ### Checks
 
 [![Checks for The Marrow Upper Pogo (Bone_19)](../00-annotations/the-marrow/the-marrow-upper-pogo-checks.png)](../00-annotations/the-marrow/the-marrow-upper-pogo-checks.png)
+
+### Scene
+
+[![Scene for The Marrow Upper Pogo (Bone_19)](../00-annotations/the-marrow/the-marrow-upper-pogo-scene.png)](../00-annotations/the-marrow/the-marrow-upper-pogo-scene.png)

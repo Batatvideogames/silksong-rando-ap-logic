@@ -58,10 +58,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Bonegrave (Bonegrave)](../00-annotations/bone-bottom/bonegrave-scene.png)](../00-annotations/bone-bottom/bonegrave-scene.png)
-
 ### Connections
 
 [![Connections for Bonegrave (Bonegrave)](../00-annotations/bone-bottom/bonegrave-connections.png)](../00-annotations/bone-bottom/bonegrave-connections.png)
@@ -69,3 +65,7 @@
 ### Checks
 
 [![Checks for Bonegrave (Bonegrave)](../00-annotations/bone-bottom/bonegrave-checks.png)](../00-annotations/bone-bottom/bonegrave-checks.png)
+
+### Scene
+
+[![Scene for Bonegrave (Bonegrave)](../00-annotations/bone-bottom/bonegrave-scene.png)](../00-annotations/bone-bottom/bonegrave-scene.png)

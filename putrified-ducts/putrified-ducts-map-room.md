@@ -27,10 +27,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Putrified Ducts Map Room (Aqueduct_07)](../00-annotations/putrified-ducts/putrified-ducts-map-room-scene.png)](../00-annotations/putrified-ducts/putrified-ducts-map-room-scene.png)
-
 ### Connections
 
 [![Connections for Putrified Ducts Map Room (Aqueduct_07)](../00-annotations/putrified-ducts/putrified-ducts-map-room-connections.png)](../00-annotations/putrified-ducts/putrified-ducts-map-room-connections.png)
@@ -38,3 +34,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Putrified Ducts Map Room (Aqueduct_07)](../00-annotations/putrified-ducts/putrified-ducts-map-room-checks.png)](../00-annotations/putrified-ducts/putrified-ducts-map-room-checks.png)
+
+### Scene
+
+[![Scene for Putrified Ducts Map Room (Aqueduct_07)](../00-annotations/putrified-ducts/putrified-ducts-map-room-scene.png)](../00-annotations/putrified-ducts/putrified-ducts-map-room-scene.png)

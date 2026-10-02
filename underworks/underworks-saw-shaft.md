@@ -35,10 +35,6 @@ No check locations defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Underworks Saw Shaft (Under_03c)](../00-annotations/underworks/underworks-saw-shaft-scene.png)](../00-annotations/underworks/underworks-saw-shaft-scene.png)
-
 ### Connections
 
 [![Connections for Underworks Saw Shaft (Under_03c)](../00-annotations/underworks/underworks-saw-shaft-connections.png)](../00-annotations/underworks/underworks-saw-shaft-connections.png)
@@ -46,3 +42,7 @@ No check locations defined.
 ### Checks
 
 [![Checks for Underworks Saw Shaft (Under_03c)](../00-annotations/underworks/underworks-saw-shaft-checks.png)](../00-annotations/underworks/underworks-saw-shaft-checks.png)
+
+### Scene
+
+[![Scene for Underworks Saw Shaft (Under_03c)](../00-annotations/underworks/underworks-saw-shaft-scene.png)](../00-annotations/underworks/underworks-saw-shaft-scene.png)

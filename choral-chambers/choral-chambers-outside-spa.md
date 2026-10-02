@@ -43,10 +43,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Choral Chambers Outside Spa (Song_04)](../00-annotations/choral-chambers/choral-chambers-outside-spa-scene.png)](../00-annotations/choral-chambers/choral-chambers-outside-spa-scene.png)
-
 ### Connections
 
 [![Connections for Choral Chambers Outside Spa (Song_04)](../00-annotations/choral-chambers/choral-chambers-outside-spa-connections.png)](../00-annotations/choral-chambers/choral-chambers-outside-spa-connections.png)
@@ -54,3 +50,7 @@
 ### Checks
 
 [![Checks for Choral Chambers Outside Spa (Song_04)](../00-annotations/choral-chambers/choral-chambers-outside-spa-checks.png)](../00-annotations/choral-chambers/choral-chambers-outside-spa-checks.png)
+
+### Scene
+
+[![Scene for Choral Chambers Outside Spa (Song_04)](../00-annotations/choral-chambers/choral-chambers-outside-spa-scene.png)](../00-annotations/choral-chambers/choral-chambers-outside-spa-scene.png)

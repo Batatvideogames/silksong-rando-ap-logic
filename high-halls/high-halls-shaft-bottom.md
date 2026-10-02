@@ -44,10 +44,6 @@ No check locations defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for High Halls Shaft Bottom (Hang_03)](../00-annotations/high-halls/high-halls-shaft-bottom-scene.png)](../00-annotations/high-halls/high-halls-shaft-bottom-scene.png)
-
 ### Connections
 
 [![Connections for High Halls Shaft Bottom (Hang_03)](../00-annotations/high-halls/high-halls-shaft-bottom-connections.png)](../00-annotations/high-halls/high-halls-shaft-bottom-connections.png)
@@ -55,3 +51,7 @@ No check locations defined.
 ### Checks
 
 [![Checks for High Halls Shaft Bottom (Hang_03)](../00-annotations/high-halls/high-halls-shaft-bottom-checks.png)](../00-annotations/high-halls/high-halls-shaft-bottom-checks.png)
+
+### Scene
+
+[![Scene for High Halls Shaft Bottom (Hang_03)](../00-annotations/high-halls/high-halls-shaft-bottom-scene.png)](../00-annotations/high-halls/high-halls-shaft-bottom-scene.png)

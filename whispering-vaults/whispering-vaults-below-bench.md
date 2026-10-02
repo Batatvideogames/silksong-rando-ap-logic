@@ -39,10 +39,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Whispering Vaults Below Bench (Library_06)](../00-annotations/whispering-vaults/whispering-vaults-below-bench-scene.png)](../00-annotations/whispering-vaults/whispering-vaults-below-bench-scene.png)
-
 ### Connections
 
 [![Connections for Whispering Vaults Below Bench (Library_06)](../00-annotations/whispering-vaults/whispering-vaults-below-bench-connections.png)](../00-annotations/whispering-vaults/whispering-vaults-below-bench-connections.png)
@@ -50,3 +46,7 @@
 ### Checks
 
 [![Checks for Whispering Vaults Below Bench (Library_06)](../00-annotations/whispering-vaults/whispering-vaults-below-bench-checks.png)](../00-annotations/whispering-vaults/whispering-vaults-below-bench-checks.png)
+
+### Scene
+
+[![Scene for Whispering Vaults Below Bench (Library_06)](../00-annotations/whispering-vaults/whispering-vaults-below-bench-scene.png)](../00-annotations/whispering-vaults/whispering-vaults-below-bench-scene.png)

@@ -55,10 +55,6 @@ does anything show up in that tunnel opposite to the plasmium alcove later on? f
 
 ## Room Images
 
-### Scene
-
-[![Scene for Wormways Upper West (Crawl_03)](../00-annotations/wormways/wormways-upper-west-scene.png)](../00-annotations/wormways/wormways-upper-west-scene.png)
-
 ### Connections
 
 [![Connections for Wormways Upper West (Crawl_03)](../00-annotations/wormways/wormways-upper-west-connections.png)](../00-annotations/wormways/wormways-upper-west-connections.png)
@@ -66,3 +62,7 @@ does anything show up in that tunnel opposite to the plasmium alcove later on? f
 ### Checks
 
 [![Checks for Wormways Upper West (Crawl_03)](../00-annotations/wormways/wormways-upper-west-checks.png)](../00-annotations/wormways/wormways-upper-west-checks.png)
+
+### Scene
+
+[![Scene for Wormways Upper West (Crawl_03)](../00-annotations/wormways/wormways-upper-west-scene.png)](../00-annotations/wormways/wormways-upper-west-scene.png)

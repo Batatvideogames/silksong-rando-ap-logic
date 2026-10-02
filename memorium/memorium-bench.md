@@ -32,10 +32,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Memorium bench (Arborium_04)](../00-annotations/memorium/memorium-bench-scene.png)](../00-annotations/memorium/memorium-bench-scene.png)
-
 ### Connections
 
 [![Connections for Memorium bench (Arborium_04)](../00-annotations/memorium/memorium-bench-connections.png)](../00-annotations/memorium/memorium-bench-connections.png)
@@ -43,3 +39,7 @@
 ### Checks
 
 [![Checks for Memorium bench (Arborium_04)](../00-annotations/memorium/memorium-bench-checks.png)](../00-annotations/memorium/memorium-bench-checks.png)
+
+### Scene
+
+[![Scene for Memorium bench (Arborium_04)](../00-annotations/memorium/memorium-bench-scene.png)](../00-annotations/memorium/memorium-bench-scene.png)

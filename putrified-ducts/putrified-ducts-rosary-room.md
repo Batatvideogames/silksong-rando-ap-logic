@@ -36,10 +36,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Putrified Ducts Rosary Room (Aqueduct_08)](../00-annotations/putrified-ducts/putrified-ducts-rosary-room-scene.png)](../00-annotations/putrified-ducts/putrified-ducts-rosary-room-scene.png)
-
 ### Connections
 
 [![Connections for Putrified Ducts Rosary Room (Aqueduct_08)](../00-annotations/putrified-ducts/putrified-ducts-rosary-room-connections.png)](../00-annotations/putrified-ducts/putrified-ducts-rosary-room-connections.png)
@@ -47,3 +43,7 @@
 ### Checks
 
 [![Checks for Putrified Ducts Rosary Room (Aqueduct_08)](../00-annotations/putrified-ducts/putrified-ducts-rosary-room-checks.png)](../00-annotations/putrified-ducts/putrified-ducts-rosary-room-checks.png)
+
+### Scene
+
+[![Scene for Putrified Ducts Rosary Room (Aqueduct_08)](../00-annotations/putrified-ducts/putrified-ducts-rosary-room-scene.png)](../00-annotations/putrified-ducts/putrified-ducts-rosary-room-scene.png)

@@ -24,10 +24,6 @@ No check locations defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Choral Chambers Grindle (Song_08)](../00-annotations/choral-chambers/choral-chambers-grindle-scene.png)](../00-annotations/choral-chambers/choral-chambers-grindle-scene.png)
-
 ### Connections
 
 [![Connections for Choral Chambers Grindle (Song_08)](../00-annotations/choral-chambers/choral-chambers-grindle-connections.png)](../00-annotations/choral-chambers/choral-chambers-grindle-connections.png)
@@ -35,3 +31,7 @@ No check locations defined.
 ### Checks
 
 [![Checks for Choral Chambers Grindle (Song_08)](../00-annotations/choral-chambers/choral-chambers-grindle-checks.png)](../00-annotations/choral-chambers/choral-chambers-grindle-checks.png)
+
+### Scene
+
+[![Scene for Choral Chambers Grindle (Song_08)](../00-annotations/choral-chambers/choral-chambers-grindle-scene.png)](../00-annotations/choral-chambers/choral-chambers-grindle-scene.png)

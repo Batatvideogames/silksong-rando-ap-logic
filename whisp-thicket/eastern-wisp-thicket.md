@@ -26,10 +26,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Eastern Wisp Thicket (Wisp_07)](../00-annotations/whisp-thicket/eastern-wisp-thicket-scene.png)](../00-annotations/whisp-thicket/eastern-wisp-thicket-scene.png)
-
 ### Connections
 
 [![Connections for Eastern Wisp Thicket (Wisp_07)](../00-annotations/whisp-thicket/eastern-wisp-thicket-connections.png)](../00-annotations/whisp-thicket/eastern-wisp-thicket-connections.png)
@@ -37,3 +33,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Eastern Wisp Thicket (Wisp_07)](../00-annotations/whisp-thicket/eastern-wisp-thicket-checks.png)](../00-annotations/whisp-thicket/eastern-wisp-thicket-checks.png)
+
+### Scene
+
+[![Scene for Eastern Wisp Thicket (Wisp_07)](../00-annotations/whisp-thicket/eastern-wisp-thicket-scene.png)](../00-annotations/whisp-thicket/eastern-wisp-thicket-scene.png)

@@ -45,10 +45,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Sands of Karak Elevator to Blasted Steps (Coral_38)](../00-annotations/sands-of-karak/sands-of-karak-elevator-to-blasted-steps-scene.png)](../00-annotations/sands-of-karak/sands-of-karak-elevator-to-blasted-steps-scene.png)
-
 ### Connections
 
 [![Connections for Sands of Karak Elevator to Blasted Steps (Coral_38)](../00-annotations/sands-of-karak/sands-of-karak-elevator-to-blasted-steps-connections.png)](../00-annotations/sands-of-karak/sands-of-karak-elevator-to-blasted-steps-connections.png)
@@ -56,3 +52,7 @@
 ### Checks
 
 [![Checks for Sands of Karak Elevator to Blasted Steps (Coral_38)](../00-annotations/sands-of-karak/sands-of-karak-elevator-to-blasted-steps-checks.png)](../00-annotations/sands-of-karak/sands-of-karak-elevator-to-blasted-steps-checks.png)
+
+### Scene
+
+[![Scene for Sands of Karak Elevator to Blasted Steps (Coral_38)](../00-annotations/sands-of-karak/sands-of-karak-elevator-to-blasted-steps-scene.png)](../00-annotations/sands-of-karak/sands-of-karak-elevator-to-blasted-steps-scene.png)

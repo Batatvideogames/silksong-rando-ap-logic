@@ -57,10 +57,6 @@ no checks
 
 ## Room Images
 
-### Scene
-
-[![Scene for The Marrow Shaft (Bone_03)](../00-annotations/the-marrow/the-marrow-shaft-scene.png)](../00-annotations/the-marrow/the-marrow-shaft-scene.png)
-
 ### Connections
 
 [![Connections for The Marrow Shaft (Bone_03)](../00-annotations/the-marrow/the-marrow-shaft-connections.png)](../00-annotations/the-marrow/the-marrow-shaft-connections.png)
@@ -68,3 +64,7 @@ no checks
 ### Checks
 
 [![Checks for The Marrow Shaft (Bone_03)](../00-annotations/the-marrow/the-marrow-shaft-checks.png)](../00-annotations/the-marrow/the-marrow-shaft-checks.png)
+
+### Scene
+
+[![Scene for The Marrow Shaft (Bone_03)](../00-annotations/the-marrow/the-marrow-shaft-scene.png)](../00-annotations/the-marrow/the-marrow-shaft-scene.png)

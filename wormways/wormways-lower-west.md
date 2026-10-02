@@ -60,10 +60,6 @@ cry: wasn't sure how to mark the second markable wall in this room, there's one 
 
 ## Room Images
 
-### Scene
-
-[![Scene for Wormways Lower West (Crawl_09)](../00-annotations/wormways/wormways-lower-west-scene.png)](../00-annotations/wormways/wormways-lower-west-scene.png)
-
 ### Connections
 
 [![Connections for Wormways Lower West (Crawl_09)](../00-annotations/wormways/wormways-lower-west-connections.png)](../00-annotations/wormways/wormways-lower-west-connections.png)
@@ -71,3 +67,7 @@ cry: wasn't sure how to mark the second markable wall in this room, there's one 
 ### Checks
 
 [![Checks for Wormways Lower West (Crawl_09)](../00-annotations/wormways/wormways-lower-west-checks.png)](../00-annotations/wormways/wormways-lower-west-checks.png)
+
+### Scene
+
+[![Scene for Wormways Lower West (Crawl_09)](../00-annotations/wormways/wormways-lower-west-scene.png)](../00-annotations/wormways/wormways-lower-west-scene.png)

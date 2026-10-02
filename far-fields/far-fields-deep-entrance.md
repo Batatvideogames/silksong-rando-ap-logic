@@ -78,10 +78,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Far Fields Deep Entrance (Bone_East_24)](../00-annotations/far-fields/far-fields-deep-entrance-scene.png)](../00-annotations/far-fields/far-fields-deep-entrance-scene.png)
-
 ### Connections
 
 [![Connections for Far Fields Deep Entrance (Bone_East_24)](../00-annotations/far-fields/far-fields-deep-entrance-connections.png)](../00-annotations/far-fields/far-fields-deep-entrance-connections.png)
@@ -89,3 +85,7 @@
 ### Checks
 
 [![Checks for Far Fields Deep Entrance (Bone_East_24)](../00-annotations/far-fields/far-fields-deep-entrance-checks.png)](../00-annotations/far-fields/far-fields-deep-entrance-checks.png)
+
+### Scene
+
+[![Scene for Far Fields Deep Entrance (Bone_East_24)](../00-annotations/far-fields/far-fields-deep-entrance-scene.png)](../00-annotations/far-fields/far-fields-deep-entrance-scene.png)

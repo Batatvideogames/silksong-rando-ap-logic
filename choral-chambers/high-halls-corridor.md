@@ -27,10 +27,6 @@ No check locations defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for High Halls Corridor (Hang_07)](../00-annotations/choral-chambers/high-halls-corridor-scene.png)](../00-annotations/choral-chambers/high-halls-corridor-scene.png)
-
 ### Connections
 
 [![Connections for High Halls Corridor (Hang_07)](../00-annotations/choral-chambers/high-halls-corridor-connections.png)](../00-annotations/choral-chambers/high-halls-corridor-connections.png)
@@ -38,3 +34,7 @@ No check locations defined.
 ### Checks
 
 [![Checks for High Halls Corridor (Hang_07)](../00-annotations/choral-chambers/high-halls-corridor-checks.png)](../00-annotations/choral-chambers/high-halls-corridor-checks.png)
+
+### Scene
+
+[![Scene for High Halls Corridor (Hang_07)](../00-annotations/choral-chambers/high-halls-corridor-scene.png)](../00-annotations/choral-chambers/high-halls-corridor-scene.png)

@@ -54,10 +54,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Mount Fay Shakra (Peak_02)](../00-annotations/mount-fay/mount-fay-shakra-scene.png)](../00-annotations/mount-fay/mount-fay-shakra-scene.png)
-
 ### Connections
 
 [![Connections for Mount Fay Shakra (Peak_02)](../00-annotations/mount-fay/mount-fay-shakra-connections.png)](../00-annotations/mount-fay/mount-fay-shakra-connections.png)
@@ -65,3 +61,7 @@
 ### Checks
 
 [![Checks for Mount Fay Shakra (Peak_02)](../00-annotations/mount-fay/mount-fay-shakra-checks.png)](../00-annotations/mount-fay/mount-fay-shakra-checks.png)
+
+### Scene
+
+[![Scene for Mount Fay Shakra (Peak_02)](../00-annotations/mount-fay/mount-fay-shakra-scene.png)](../00-annotations/mount-fay/mount-fay-shakra-scene.png)

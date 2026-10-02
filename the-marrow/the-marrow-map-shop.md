@@ -62,10 +62,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for The Marrow Map Shop (Bone_04)](../00-annotations/the-marrow/the-marrow-map-shop-scene.png)](../00-annotations/the-marrow/the-marrow-map-shop-scene.png)
-
 ### Connections
 
 [![Connections for The Marrow Map Shop (Bone_04)](../00-annotations/the-marrow/the-marrow-map-shop-connections.png)](../00-annotations/the-marrow/the-marrow-map-shop-connections.png)
@@ -73,3 +69,7 @@
 ### Checks
 
 [![Checks for The Marrow Map Shop (Bone_04)](../00-annotations/the-marrow/the-marrow-map-shop-checks.png)](../00-annotations/the-marrow/the-marrow-map-shop-checks.png)
+
+### Scene
+
+[![Scene for The Marrow Map Shop (Bone_04)](../00-annotations/the-marrow/the-marrow-map-shop-scene.png)](../00-annotations/the-marrow/the-marrow-map-shop-scene.png)

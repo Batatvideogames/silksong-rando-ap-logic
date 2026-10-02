@@ -26,10 +26,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Sinner's Road Flea Rescue (Dust_12)](../00-annotations/sinner-s-road/sinner-s-road-flea-rescue-scene.png)](../00-annotations/sinner-s-road/sinner-s-road-flea-rescue-scene.png)
-
 ### Connections
 
 [![Connections for Sinner's Road Flea Rescue (Dust_12)](../00-annotations/sinner-s-road/sinner-s-road-flea-rescue-connections.png)](../00-annotations/sinner-s-road/sinner-s-road-flea-rescue-connections.png)
@@ -37,3 +33,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Sinner's Road Flea Rescue (Dust_12)](../00-annotations/sinner-s-road/sinner-s-road-flea-rescue-checks.png)](../00-annotations/sinner-s-road/sinner-s-road-flea-rescue-checks.png)
+
+### Scene
+
+[![Scene for Sinner's Road Flea Rescue (Dust_12)](../00-annotations/sinner-s-road/sinner-s-road-flea-rescue-scene.png)](../00-annotations/sinner-s-road/sinner-s-road-flea-rescue-scene.png)

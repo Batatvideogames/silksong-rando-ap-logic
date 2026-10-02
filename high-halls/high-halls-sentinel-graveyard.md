@@ -26,10 +26,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for High Halls Sentinel Graveyard (Hang_17b)](../00-annotations/high-halls/high-halls-sentinel-graveyard-scene.png)](../00-annotations/high-halls/high-halls-sentinel-graveyard-scene.png)
-
 ### Connections
 
 [![Connections for High Halls Sentinel Graveyard (Hang_17b)](../00-annotations/high-halls/high-halls-sentinel-graveyard-connections.png)](../00-annotations/high-halls/high-halls-sentinel-graveyard-connections.png)
@@ -37,3 +33,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for High Halls Sentinel Graveyard (Hang_17b)](../00-annotations/high-halls/high-halls-sentinel-graveyard-checks.png)](../00-annotations/high-halls/high-halls-sentinel-graveyard-checks.png)
+
+### Scene
+
+[![Scene for High Halls Sentinel Graveyard (Hang_17b)](../00-annotations/high-halls/high-halls-sentinel-graveyard-scene.png)](../00-annotations/high-halls/high-halls-sentinel-graveyard-scene.png)

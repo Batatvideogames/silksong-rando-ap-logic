@@ -36,10 +36,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Arcane Egg Room (Abyss_04)](../00-annotations/the-abyss/arcane-egg-room-scene.png)](../00-annotations/the-abyss/arcane-egg-room-scene.png)
-
 ### Connections
 
 [![Connections for Arcane Egg Room (Abyss_04)](../00-annotations/the-abyss/arcane-egg-room-connections.png)](../00-annotations/the-abyss/arcane-egg-room-connections.png)
@@ -47,3 +43,7 @@
 ### Checks
 
 [![Checks for Arcane Egg Room (Abyss_04)](../00-annotations/the-abyss/arcane-egg-room-checks.png)](../00-annotations/the-abyss/arcane-egg-room-checks.png)
+
+### Scene
+
+[![Scene for Arcane Egg Room (Abyss_04)](../00-annotations/the-abyss/arcane-egg-room-scene.png)](../00-annotations/the-abyss/arcane-egg-room-scene.png)

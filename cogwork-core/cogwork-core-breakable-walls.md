@@ -56,10 +56,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Cogwork Core Breakable Walls (Cog_10_Destroyed)](../00-annotations/cogwork-core/cogwork-core-breakable-walls-scene.png)](../00-annotations/cogwork-core/cogwork-core-breakable-walls-scene.png)
-
 ### Connections
 
 [![Connections for Cogwork Core Breakable Walls (Cog_10_Destroyed)](../00-annotations/cogwork-core/cogwork-core-breakable-walls-connections.png)](../00-annotations/cogwork-core/cogwork-core-breakable-walls-connections.png)
@@ -67,3 +63,7 @@
 ### Checks
 
 [![Checks for Cogwork Core Breakable Walls (Cog_10_Destroyed)](../00-annotations/cogwork-core/cogwork-core-breakable-walls-checks.png)](../00-annotations/cogwork-core/cogwork-core-breakable-walls-checks.png)
+
+### Scene
+
+[![Scene for Cogwork Core Breakable Walls (Cog_10_Destroyed)](../00-annotations/cogwork-core/cogwork-core-breakable-walls-scene.png)](../00-annotations/cogwork-core/cogwork-core-breakable-walls-scene.png)

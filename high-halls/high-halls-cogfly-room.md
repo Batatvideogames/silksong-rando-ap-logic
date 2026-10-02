@@ -33,10 +33,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for High Halls Cogfly Room (Hang_09)](../00-annotations/high-halls/high-halls-cogfly-room-scene.png)](../00-annotations/high-halls/high-halls-cogfly-room-scene.png)
-
 ### Connections
 
 [![Connections for High Halls Cogfly Room (Hang_09)](../00-annotations/high-halls/high-halls-cogfly-room-connections.png)](../00-annotations/high-halls/high-halls-cogfly-room-connections.png)
@@ -44,3 +40,7 @@
 ### Checks
 
 [![Checks for High Halls Cogfly Room (Hang_09)](../00-annotations/high-halls/high-halls-cogfly-room-checks.png)](../00-annotations/high-halls/high-halls-cogfly-room-checks.png)
+
+### Scene
+
+[![Scene for High Halls Cogfly Room (Hang_09)](../00-annotations/high-halls/high-halls-cogfly-room-scene.png)](../00-annotations/high-halls/high-halls-cogfly-room-scene.png)

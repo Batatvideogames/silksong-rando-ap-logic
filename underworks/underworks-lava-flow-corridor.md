@@ -31,10 +31,6 @@ No check locations defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Underworks Lava Flow Corridor (Under_19)](../00-annotations/underworks/underworks-lava-flow-corridor-scene.png)](../00-annotations/underworks/underworks-lava-flow-corridor-scene.png)
-
 ### Connections
 
 [![Connections for Underworks Lava Flow Corridor (Under_19)](../00-annotations/underworks/underworks-lava-flow-corridor-connections.png)](../00-annotations/underworks/underworks-lava-flow-corridor-connections.png)
@@ -42,3 +38,7 @@ No check locations defined.
 ### Checks
 
 [![Checks for Underworks Lava Flow Corridor (Under_19)](../00-annotations/underworks/underworks-lava-flow-corridor-checks.png)](../00-annotations/underworks/underworks-lava-flow-corridor-checks.png)
+
+### Scene
+
+[![Scene for Underworks Lava Flow Corridor (Under_19)](../00-annotations/underworks/underworks-lava-flow-corridor-scene.png)](../00-annotations/underworks/underworks-lava-flow-corridor-scene.png)

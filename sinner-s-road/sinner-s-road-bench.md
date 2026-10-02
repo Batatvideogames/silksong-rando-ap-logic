@@ -29,10 +29,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Sinner's Road Bench (Dust_10)](../00-annotations/sinner-s-road/sinner-s-road-bench-scene.png)](../00-annotations/sinner-s-road/sinner-s-road-bench-scene.png)
-
 ### Connections
 
 [![Connections for Sinner's Road Bench (Dust_10)](../00-annotations/sinner-s-road/sinner-s-road-bench-connections.png)](../00-annotations/sinner-s-road/sinner-s-road-bench-connections.png)
@@ -40,3 +36,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Sinner's Road Bench (Dust_10)](../00-annotations/sinner-s-road/sinner-s-road-bench-checks.png)](../00-annotations/sinner-s-road/sinner-s-road-bench-checks.png)
+
+### Scene
+
+[![Scene for Sinner's Road Bench (Dust_10)](../00-annotations/sinner-s-road/sinner-s-road-bench-scene.png)](../00-annotations/sinner-s-road/sinner-s-road-bench-scene.png)

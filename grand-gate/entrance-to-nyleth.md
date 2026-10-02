@@ -40,10 +40,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Entrance to Nyleth (Under_27)](../00-annotations/grand-gate/entrance-to-nyleth-scene.png)](../00-annotations/grand-gate/entrance-to-nyleth-scene.png)
-
 ### Connections
 
 [![Connections for Entrance to Nyleth (Under_27)](../00-annotations/grand-gate/entrance-to-nyleth-connections.png)](../00-annotations/grand-gate/entrance-to-nyleth-connections.png)
@@ -51,3 +47,7 @@
 ### Checks
 
 [![Checks for Entrance to Nyleth (Under_27)](../00-annotations/grand-gate/entrance-to-nyleth-checks.png)](../00-annotations/grand-gate/entrance-to-nyleth-checks.png)
+
+### Scene
+
+[![Scene for Entrance to Nyleth (Under_27)](../00-annotations/grand-gate/entrance-to-nyleth-scene.png)](../00-annotations/grand-gate/entrance-to-nyleth-scene.png)

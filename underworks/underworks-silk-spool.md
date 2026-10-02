@@ -51,10 +51,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Underworks Silk Spool (Library_11b)](../00-annotations/underworks/underworks-silk-spool-scene.png)](../00-annotations/underworks/underworks-silk-spool-scene.png)
-
 ### Connections
 
 [![Connections for Underworks Silk Spool (Library_11b)](../00-annotations/underworks/underworks-silk-spool-connections.png)](../00-annotations/underworks/underworks-silk-spool-connections.png)
@@ -62,3 +58,7 @@
 ### Checks
 
 [![Checks for Underworks Silk Spool (Library_11b)](../00-annotations/underworks/underworks-silk-spool-checks.png)](../00-annotations/underworks/underworks-silk-spool-checks.png)
+
+### Scene
+
+[![Scene for Underworks Silk Spool (Library_11b)](../00-annotations/underworks/underworks-silk-spool-scene.png)](../00-annotations/underworks/underworks-silk-spool-scene.png)

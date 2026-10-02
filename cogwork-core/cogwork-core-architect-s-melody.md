@@ -32,10 +32,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Cogwork Core Architect's Melody (Cog_09)](../00-annotations/cogwork-core/cogwork-core-architect-s-melody-scene.png)](../00-annotations/cogwork-core/cogwork-core-architect-s-melody-scene.png)
-
 ### Connections
 
 [![Connections for Cogwork Core Architect's Melody (Cog_09)](../00-annotations/cogwork-core/cogwork-core-architect-s-melody-connections.png)](../00-annotations/cogwork-core/cogwork-core-architect-s-melody-connections.png)
@@ -43,3 +39,7 @@
 ### Checks
 
 [![Checks for Cogwork Core Architect's Melody (Cog_09)](../00-annotations/cogwork-core/cogwork-core-architect-s-melody-checks.png)](../00-annotations/cogwork-core/cogwork-core-architect-s-melody-checks.png)
+
+### Scene
+
+[![Scene for Cogwork Core Architect's Melody (Cog_09)](../00-annotations/cogwork-core/cogwork-core-architect-s-melody-scene.png)](../00-annotations/cogwork-core/cogwork-core-architect-s-melody-scene.png)

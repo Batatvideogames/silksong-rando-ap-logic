@@ -42,10 +42,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Bilewater Sinner's Entrance (Shadow_05)](../00-annotations/bilewater/bilewater-sinner-s-entrance-scene.png)](../00-annotations/bilewater/bilewater-sinner-s-entrance-scene.png)
-
 ### Connections
 
 [![Connections for Bilewater Sinner's Entrance (Shadow_05)](../00-annotations/bilewater/bilewater-sinner-s-entrance-connections.png)](../00-annotations/bilewater/bilewater-sinner-s-entrance-connections.png)
@@ -53,3 +49,7 @@
 ### Checks
 
 [![Checks for Bilewater Sinner's Entrance (Shadow_05)](../00-annotations/bilewater/bilewater-sinner-s-entrance-checks.png)](../00-annotations/bilewater/bilewater-sinner-s-entrance-checks.png)
+
+### Scene
+
+[![Scene for Bilewater Sinner's Entrance (Shadow_05)](../00-annotations/bilewater/bilewater-sinner-s-entrance-scene.png)](../00-annotations/bilewater/bilewater-sinner-s-entrance-scene.png)

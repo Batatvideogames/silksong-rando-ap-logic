@@ -31,10 +31,6 @@ No check locations defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Bilewater West Hall (Shadow_04b)](../00-annotations/bilewater/bilewater-west-hall-scene.png)](../00-annotations/bilewater/bilewater-west-hall-scene.png)
-
 ### Connections
 
 [![Connections for Bilewater West Hall (Shadow_04b)](../00-annotations/bilewater/bilewater-west-hall-connections.png)](../00-annotations/bilewater/bilewater-west-hall-connections.png)
@@ -42,3 +38,7 @@ No check locations defined.
 ### Checks
 
 [![Checks for Bilewater West Hall (Shadow_04b)](../00-annotations/bilewater/bilewater-west-hall-checks.png)](../00-annotations/bilewater/bilewater-west-hall-checks.png)
+
+### Scene
+
+[![Scene for Bilewater West Hall (Shadow_04b)](../00-annotations/bilewater/bilewater-west-hall-scene.png)](../00-annotations/bilewater/bilewater-west-hall-scene.png)

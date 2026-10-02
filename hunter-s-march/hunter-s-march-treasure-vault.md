@@ -39,10 +39,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Hunter's March Treasure Vault (Ant_21)](../00-annotations/hunter-s-march/hunter-s-march-treasure-vault-scene.png)](../00-annotations/hunter-s-march/hunter-s-march-treasure-vault-scene.png)
-
 ### Connections
 
 [![Connections for Hunter's March Treasure Vault (Ant_21)](../00-annotations/hunter-s-march/hunter-s-march-treasure-vault-connections.png)](../00-annotations/hunter-s-march/hunter-s-march-treasure-vault-connections.png)
@@ -50,3 +46,7 @@
 ### Checks
 
 [![Checks for Hunter's March Treasure Vault (Ant_21)](../00-annotations/hunter-s-march/hunter-s-march-treasure-vault-checks.png)](../00-annotations/hunter-s-march/hunter-s-march-treasure-vault-checks.png)
+
+### Scene
+
+[![Scene for Hunter's March Treasure Vault (Ant_21)](../00-annotations/hunter-s-march/hunter-s-march-treasure-vault-scene.png)](../00-annotations/hunter-s-march/hunter-s-march-treasure-vault-scene.png)

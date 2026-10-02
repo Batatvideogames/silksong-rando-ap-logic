@@ -48,10 +48,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Blasted Steps Thin Long Vertical (Coral_35)](../00-annotations/blasted-steps/blasted-steps-thin-long-vertical-scene.png)](../00-annotations/blasted-steps/blasted-steps-thin-long-vertical-scene.png)
-
 ### Connections
 
 [![Connections for Blasted Steps Thin Long Vertical (Coral_35)](../00-annotations/blasted-steps/blasted-steps-thin-long-vertical-connections.png)](../00-annotations/blasted-steps/blasted-steps-thin-long-vertical-connections.png)
@@ -59,3 +55,7 @@
 ### Checks
 
 [![Checks for Blasted Steps Thin Long Vertical (Coral_35)](../00-annotations/blasted-steps/blasted-steps-thin-long-vertical-checks.png)](../00-annotations/blasted-steps/blasted-steps-thin-long-vertical-checks.png)
+
+### Scene
+
+[![Scene for Blasted Steps Thin Long Vertical (Coral_35)](../00-annotations/blasted-steps/blasted-steps-thin-long-vertical-scene.png)](../00-annotations/blasted-steps/blasted-steps-thin-long-vertical-scene.png)

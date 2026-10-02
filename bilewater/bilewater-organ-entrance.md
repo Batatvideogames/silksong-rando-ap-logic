@@ -39,10 +39,6 @@ No check locations defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Bilewater Organ Entrance (Shadow_04)](../00-annotations/bilewater/bilewater-organ-entrance-scene.png)](../00-annotations/bilewater/bilewater-organ-entrance-scene.png)
-
 ### Connections
 
 [![Connections for Bilewater Organ Entrance (Shadow_04)](../00-annotations/bilewater/bilewater-organ-entrance-connections.png)](../00-annotations/bilewater/bilewater-organ-entrance-connections.png)
@@ -50,3 +46,7 @@ No check locations defined.
 ### Checks
 
 [![Checks for Bilewater Organ Entrance (Shadow_04)](../00-annotations/bilewater/bilewater-organ-entrance-checks.png)](../00-annotations/bilewater/bilewater-organ-entrance-checks.png)
+
+### Scene
+
+[![Scene for Bilewater Organ Entrance (Shadow_04)](../00-annotations/bilewater/bilewater-organ-entrance-scene.png)](../00-annotations/bilewater/bilewater-organ-entrance-scene.png)

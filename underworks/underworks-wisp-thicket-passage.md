@@ -28,10 +28,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Underworks Wisp Thicket Passage (Under_23)](../00-annotations/underworks/underworks-wisp-thicket-passage-scene.png)](../00-annotations/underworks/underworks-wisp-thicket-passage-scene.png)
-
 ### Connections
 
 [![Connections for Underworks Wisp Thicket Passage (Under_23)](../00-annotations/underworks/underworks-wisp-thicket-passage-connections.png)](../00-annotations/underworks/underworks-wisp-thicket-passage-connections.png)
@@ -39,3 +35,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Underworks Wisp Thicket Passage (Under_23)](../00-annotations/underworks/underworks-wisp-thicket-passage-checks.png)](../00-annotations/underworks/underworks-wisp-thicket-passage-checks.png)
+
+### Scene
+
+[![Scene for Underworks Wisp Thicket Passage (Under_23)](../00-annotations/underworks/underworks-wisp-thicket-passage-scene.png)](../00-annotations/underworks/underworks-wisp-thicket-passage-scene.png)

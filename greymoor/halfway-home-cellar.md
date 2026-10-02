@@ -27,10 +27,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Halfway Home Cellar (Ant_08)](../00-annotations/greymoor/halfway-home-cellar-scene.png)](../00-annotations/greymoor/halfway-home-cellar-scene.png)
-
 ### Connections
 
 [![Connections for Halfway Home Cellar (Ant_08)](../00-annotations/greymoor/halfway-home-cellar-connections.png)](../00-annotations/greymoor/halfway-home-cellar-connections.png)
@@ -38,3 +34,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Halfway Home Cellar (Ant_08)](../00-annotations/greymoor/halfway-home-cellar-checks.png)](../00-annotations/greymoor/halfway-home-cellar-checks.png)
+
+### Scene
+
+[![Scene for Halfway Home Cellar (Ant_08)](../00-annotations/greymoor/halfway-home-cellar-scene.png)](../00-annotations/greymoor/halfway-home-cellar-scene.png)

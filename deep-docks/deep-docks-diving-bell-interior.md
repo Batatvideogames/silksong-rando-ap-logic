@@ -27,10 +27,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Deep Docks Diving Bell Interior (Room_Diving_Bell)](../00-annotations/deep-docks/deep-docks-diving-bell-interior-scene.png)](../00-annotations/deep-docks/deep-docks-diving-bell-interior-scene.png)
-
 ### Connections
 
 [![Connections for Deep Docks Diving Bell Interior (Room_Diving_Bell)](../00-annotations/deep-docks/deep-docks-diving-bell-interior-connections.png)](../00-annotations/deep-docks/deep-docks-diving-bell-interior-connections.png)
@@ -38,3 +34,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Deep Docks Diving Bell Interior (Room_Diving_Bell)](../00-annotations/deep-docks/deep-docks-diving-bell-interior-checks.png)](../00-annotations/deep-docks/deep-docks-diving-bell-interior-checks.png)
+
+### Scene
+
+[![Scene for Deep Docks Diving Bell Interior (Room_Diving_Bell)](../00-annotations/deep-docks/deep-docks-diving-bell-interior-scene.png)](../00-annotations/deep-docks/deep-docks-diving-bell-interior-scene.png)

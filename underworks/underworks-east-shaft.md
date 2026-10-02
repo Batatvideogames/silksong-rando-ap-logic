@@ -58,10 +58,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Underworks East Shaft (Under_13)](../00-annotations/underworks/underworks-east-shaft-scene.png)](../00-annotations/underworks/underworks-east-shaft-scene.png)
-
 ### Connections
 
 [![Connections for Underworks East Shaft (Under_13)](../00-annotations/underworks/underworks-east-shaft-connections.png)](../00-annotations/underworks/underworks-east-shaft-connections.png)
@@ -69,3 +65,7 @@
 ### Checks
 
 [![Checks for Underworks East Shaft (Under_13)](../00-annotations/underworks/underworks-east-shaft-checks.png)](../00-annotations/underworks/underworks-east-shaft-checks.png)
+
+### Scene
+
+[![Scene for Underworks East Shaft (Under_13)](../00-annotations/underworks/underworks-east-shaft-scene.png)](../00-annotations/underworks/underworks-east-shaft-scene.png)

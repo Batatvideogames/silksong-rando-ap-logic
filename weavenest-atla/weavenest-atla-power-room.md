@@ -27,10 +27,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Weavenest Atla Power Room (Weave_12)](../00-annotations/weavenest-atla/weavenest-atla-power-room-scene.png)](../00-annotations/weavenest-atla/weavenest-atla-power-room-scene.png)
-
 ### Connections
 
 [![Connections for Weavenest Atla Power Room (Weave_12)](../00-annotations/weavenest-atla/weavenest-atla-power-room-connections.png)](../00-annotations/weavenest-atla/weavenest-atla-power-room-connections.png)
@@ -38,3 +34,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Weavenest Atla Power Room (Weave_12)](../00-annotations/weavenest-atla/weavenest-atla-power-room-checks.png)](../00-annotations/weavenest-atla/weavenest-atla-power-room-checks.png)
+
+### Scene
+
+[![Scene for Weavenest Atla Power Room (Weave_12)](../00-annotations/weavenest-atla/weavenest-atla-power-room-scene.png)](../00-annotations/weavenest-atla/weavenest-atla-power-room-scene.png)

@@ -54,10 +54,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Sands of Karak Tall Centre Room (Coral_35b)](../00-annotations/sands-of-karak/sands-of-karak-tall-centre-room-scene.png)](../00-annotations/sands-of-karak/sands-of-karak-tall-centre-room-scene.png)
-
 ### Connections
 
 [![Connections for Sands of Karak Tall Centre Room (Coral_35b)](../00-annotations/sands-of-karak/sands-of-karak-tall-centre-room-connections.png)](../00-annotations/sands-of-karak/sands-of-karak-tall-centre-room-connections.png)
@@ -65,3 +61,7 @@
 ### Checks
 
 [![Checks for Sands of Karak Tall Centre Room (Coral_35b)](../00-annotations/sands-of-karak/sands-of-karak-tall-centre-room-checks.png)](../00-annotations/sands-of-karak/sands-of-karak-tall-centre-room-checks.png)
+
+### Scene
+
+[![Scene for Sands of Karak Tall Centre Room (Coral_35b)](../00-annotations/sands-of-karak/sands-of-karak-tall-centre-room-scene.png)](../00-annotations/sands-of-karak/sands-of-karak-tall-centre-room-scene.png)

@@ -37,10 +37,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Far Fields Deep Docks Backdoor (Dock_03b)](../00-annotations/far-fields/far-fields-deep-docks-backdoor-scene.png)](../00-annotations/far-fields/far-fields-deep-docks-backdoor-scene.png)
-
 ### Connections
 
 [![Connections for Far Fields Deep Docks Backdoor (Dock_03b)](../00-annotations/far-fields/far-fields-deep-docks-backdoor-connections.png)](../00-annotations/far-fields/far-fields-deep-docks-backdoor-connections.png)
@@ -48,3 +44,7 @@
 ### Checks
 
 [![Checks for Far Fields Deep Docks Backdoor (Dock_03b)](../00-annotations/far-fields/far-fields-deep-docks-backdoor-checks.png)](../00-annotations/far-fields/far-fields-deep-docks-backdoor-checks.png)
+
+### Scene
+
+[![Scene for Far Fields Deep Docks Backdoor (Dock_03b)](../00-annotations/far-fields/far-fields-deep-docks-backdoor-scene.png)](../00-annotations/far-fields/far-fields-deep-docks-backdoor-scene.png)

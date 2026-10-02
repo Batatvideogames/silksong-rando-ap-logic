@@ -67,10 +67,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Blasted Steps Wide Long Vertical (Coral_03)](../00-annotations/blasted-steps/blasted-steps-wide-long-vertical-scene.png)](../00-annotations/blasted-steps/blasted-steps-wide-long-vertical-scene.png)
-
 ### Connections
 
 [![Connections for Blasted Steps Wide Long Vertical (Coral_03)](../00-annotations/blasted-steps/blasted-steps-wide-long-vertical-connections.png)](../00-annotations/blasted-steps/blasted-steps-wide-long-vertical-connections.png)
@@ -78,3 +74,7 @@
 ### Checks
 
 [![Checks for Blasted Steps Wide Long Vertical (Coral_03)](../00-annotations/blasted-steps/blasted-steps-wide-long-vertical-checks.png)](../00-annotations/blasted-steps/blasted-steps-wide-long-vertical-checks.png)
+
+### Scene
+
+[![Scene for Blasted Steps Wide Long Vertical (Coral_03)](../00-annotations/blasted-steps/blasted-steps-wide-long-vertical-scene.png)](../00-annotations/blasted-steps/blasted-steps-wide-long-vertical-scene.png)

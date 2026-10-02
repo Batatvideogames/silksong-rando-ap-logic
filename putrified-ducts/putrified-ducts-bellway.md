@@ -38,10 +38,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Putrified Ducts Bellway (Bellway_Aqueduct)](../00-annotations/putrified-ducts/putrified-ducts-bellway-scene.png)](../00-annotations/putrified-ducts/putrified-ducts-bellway-scene.png)
-
 ### Connections
 
 [![Connections for Putrified Ducts Bellway (Bellway_Aqueduct)](../00-annotations/putrified-ducts/putrified-ducts-bellway-connections.png)](../00-annotations/putrified-ducts/putrified-ducts-bellway-connections.png)
@@ -49,3 +45,7 @@
 ### Checks
 
 [![Checks for Putrified Ducts Bellway (Bellway_Aqueduct)](../00-annotations/putrified-ducts/putrified-ducts-bellway-checks.png)](../00-annotations/putrified-ducts/putrified-ducts-bellway-checks.png)
+
+### Scene
+
+[![Scene for Putrified Ducts Bellway (Bellway_Aqueduct)](../00-annotations/putrified-ducts/putrified-ducts-bellway-scene.png)](../00-annotations/putrified-ducts/putrified-ducts-bellway-scene.png)

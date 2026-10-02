@@ -41,10 +41,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Bilewater East Bench (Shadow_08)](../00-annotations/bilewater/bilewater-east-bench-scene.png)](../00-annotations/bilewater/bilewater-east-bench-scene.png)
-
 ### Connections
 
 [![Connections for Bilewater East Bench (Shadow_08)](../00-annotations/bilewater/bilewater-east-bench-connections.png)](../00-annotations/bilewater/bilewater-east-bench-connections.png)
@@ -52,3 +48,7 @@
 ### Checks
 
 [![Checks for Bilewater East Bench (Shadow_08)](../00-annotations/bilewater/bilewater-east-bench-checks.png)](../00-annotations/bilewater/bilewater-east-bench-checks.png)
+
+### Scene
+
+[![Scene for Bilewater East Bench (Shadow_08)](../00-annotations/bilewater/bilewater-east-bench-scene.png)](../00-annotations/bilewater/bilewater-east-bench-scene.png)

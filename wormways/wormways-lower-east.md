@@ -60,10 +60,6 @@ cry: Most of this area can be navigated without mobility upgrades simply with po
 
 ## Room Images
 
-### Scene
-
-[![Scene for Wormways Lower East (Crawl_07)](../00-annotations/wormways/wormways-lower-east-scene.png)](../00-annotations/wormways/wormways-lower-east-scene.png)
-
 ### Connections
 
 [![Connections for Wormways Lower East (Crawl_07)](../00-annotations/wormways/wormways-lower-east-connections.png)](../00-annotations/wormways/wormways-lower-east-connections.png)
@@ -71,3 +67,7 @@ cry: Most of this area can be navigated without mobility upgrades simply with po
 ### Checks
 
 [![Checks for Wormways Lower East (Crawl_07)](../00-annotations/wormways/wormways-lower-east-checks.png)](../00-annotations/wormways/wormways-lower-east-checks.png)
+
+### Scene
+
+[![Scene for Wormways Lower East (Crawl_07)](../00-annotations/wormways/wormways-lower-east-scene.png)](../00-annotations/wormways/wormways-lower-east-scene.png)

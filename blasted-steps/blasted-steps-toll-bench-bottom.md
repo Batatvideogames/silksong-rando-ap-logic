@@ -57,10 +57,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Blasted Steps Toll Bench Bottom (Coral_02)](../00-annotations/blasted-steps/blasted-steps-toll-bench-bottom-scene.png)](../00-annotations/blasted-steps/blasted-steps-toll-bench-bottom-scene.png)
-
 ### Connections
 
 [![Connections for Blasted Steps Toll Bench Bottom (Coral_02)](../00-annotations/blasted-steps/blasted-steps-toll-bench-bottom-connections.png)](../00-annotations/blasted-steps/blasted-steps-toll-bench-bottom-connections.png)
@@ -68,3 +64,7 @@
 ### Checks
 
 [![Checks for Blasted Steps Toll Bench Bottom (Coral_02)](../00-annotations/blasted-steps/blasted-steps-toll-bench-bottom-checks.png)](../00-annotations/blasted-steps/blasted-steps-toll-bench-bottom-checks.png)
+
+### Scene
+
+[![Scene for Blasted Steps Toll Bench Bottom (Coral_02)](../00-annotations/blasted-steps/blasted-steps-toll-bench-bottom-scene.png)](../00-annotations/blasted-steps/blasted-steps-toll-bench-bottom-scene.png)

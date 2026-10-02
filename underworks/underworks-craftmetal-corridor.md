@@ -32,10 +32,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Underworks Craftmetal Corridor (Under_19b)](../00-annotations/underworks/underworks-craftmetal-corridor-scene.png)](../00-annotations/underworks/underworks-craftmetal-corridor-scene.png)
-
 ### Connections
 
 [![Connections for Underworks Craftmetal Corridor (Under_19b)](../00-annotations/underworks/underworks-craftmetal-corridor-connections.png)](../00-annotations/underworks/underworks-craftmetal-corridor-connections.png)
@@ -43,3 +39,7 @@
 ### Checks
 
 [![Checks for Underworks Craftmetal Corridor (Under_19b)](../00-annotations/underworks/underworks-craftmetal-corridor-checks.png)](../00-annotations/underworks/underworks-craftmetal-corridor-checks.png)
+
+### Scene
+
+[![Scene for Underworks Craftmetal Corridor (Under_19b)](../00-annotations/underworks/underworks-craftmetal-corridor-scene.png)](../00-annotations/underworks/underworks-craftmetal-corridor-scene.png)

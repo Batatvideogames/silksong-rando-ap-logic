@@ -38,10 +38,6 @@ hero: all good, I gotchu (also insane that you are doing logic contributions bef
 
 ## Room Images
 
-### Scene
-
-[![Scene for Wormways Laboratory (Crawl_08)](../00-annotations/wormways/wormways-laboratory-scene.png)](../00-annotations/wormways/wormways-laboratory-scene.png)
-
 ### Connections
 
 [![Connections for Wormways Laboratory (Crawl_08)](../00-annotations/wormways/wormways-laboratory-connections.png)](../00-annotations/wormways/wormways-laboratory-connections.png)
@@ -49,3 +45,7 @@ hero: all good, I gotchu (also insane that you are doing logic contributions bef
 ### Checks
 
 [![Checks for Wormways Laboratory (Crawl_08)](../00-annotations/wormways/wormways-laboratory-checks.png)](../00-annotations/wormways/wormways-laboratory-checks.png)
+
+### Scene
+
+[![Scene for Wormways Laboratory (Crawl_08)](../00-annotations/wormways/wormways-laboratory-scene.png)](../00-annotations/wormways/wormways-laboratory-scene.png)

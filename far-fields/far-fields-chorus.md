@@ -50,10 +50,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Far Fields Chorus (Bone_East_08)](../00-annotations/far-fields/far-fields-chorus-scene.png)](../00-annotations/far-fields/far-fields-chorus-scene.png)
-
 ### Connections
 
 [![Connections for Far Fields Chorus (Bone_East_08)](../00-annotations/far-fields/far-fields-chorus-connections.png)](../00-annotations/far-fields/far-fields-chorus-connections.png)
@@ -61,3 +57,7 @@
 ### Checks
 
 [![Checks for Far Fields Chorus (Bone_East_08)](../00-annotations/far-fields/far-fields-chorus-checks.png)](../00-annotations/far-fields/far-fields-chorus-checks.png)
+
+### Scene
+
+[![Scene for Far Fields Chorus (Bone_East_08)](../00-annotations/far-fields/far-fields-chorus-scene.png)](../00-annotations/far-fields/far-fields-chorus-scene.png)

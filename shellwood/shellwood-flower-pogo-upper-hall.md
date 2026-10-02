@@ -28,10 +28,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Shellwood Flower Pogo Upper Hall (Shellwood_20)](../00-annotations/shellwood/shellwood-flower-pogo-upper-hall-scene.png)](../00-annotations/shellwood/shellwood-flower-pogo-upper-hall-scene.png)
-
 ### Connections
 
 [![Connections for Shellwood Flower Pogo Upper Hall (Shellwood_20)](../00-annotations/shellwood/shellwood-flower-pogo-upper-hall-connections.png)](../00-annotations/shellwood/shellwood-flower-pogo-upper-hall-connections.png)
@@ -39,3 +35,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Shellwood Flower Pogo Upper Hall (Shellwood_20)](../00-annotations/shellwood/shellwood-flower-pogo-upper-hall-checks.png)](../00-annotations/shellwood/shellwood-flower-pogo-upper-hall-checks.png)
+
+### Scene
+
+[![Scene for Shellwood Flower Pogo Upper Hall (Shellwood_20)](../00-annotations/shellwood/shellwood-flower-pogo-upper-hall-scene.png)](../00-annotations/shellwood/shellwood-flower-pogo-upper-hall-scene.png)

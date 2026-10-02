@@ -47,10 +47,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for The Marrow Jail (Bone_12)](../00-annotations/the-marrow/the-marrow-jail-scene.png)](../00-annotations/the-marrow/the-marrow-jail-scene.png)
-
 ### Connections
 
 [![Connections for The Marrow Jail (Bone_12)](../00-annotations/the-marrow/the-marrow-jail-connections.png)](../00-annotations/the-marrow/the-marrow-jail-connections.png)
@@ -58,3 +54,7 @@
 ### Checks
 
 [![Checks for The Marrow Jail (Bone_12)](../00-annotations/the-marrow/the-marrow-jail-checks.png)](../00-annotations/the-marrow/the-marrow-jail-checks.png)
+
+### Scene
+
+[![Scene for The Marrow Jail (Bone_12)](../00-annotations/the-marrow/the-marrow-jail-scene.png)](../00-annotations/the-marrow/the-marrow-jail-scene.png)

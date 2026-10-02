@@ -33,10 +33,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Bilewater Bullshit Bench (Shadow_15)](../00-annotations/bilewater/bilewater-bullshit-bench-scene.png)](../00-annotations/bilewater/bilewater-bullshit-bench-scene.png)
-
 ### Connections
 
 [![Connections for Bilewater Bullshit Bench (Shadow_15)](../00-annotations/bilewater/bilewater-bullshit-bench-connections.png)](../00-annotations/bilewater/bilewater-bullshit-bench-connections.png)
@@ -44,3 +40,7 @@
 ### Checks
 
 [![Checks for Bilewater Bullshit Bench (Shadow_15)](../00-annotations/bilewater/bilewater-bullshit-bench-checks.png)](../00-annotations/bilewater/bilewater-bullshit-bench-checks.png)
+
+### Scene
+
+[![Scene for Bilewater Bullshit Bench (Shadow_15)](../00-annotations/bilewater/bilewater-bullshit-bench-scene.png)](../00-annotations/bilewater/bilewater-bullshit-bench-scene.png)

@@ -52,10 +52,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Sinner's Road North Hall (Dust_05)](../00-annotations/sinner-s-road/sinner-s-road-north-hall-scene.png)](../00-annotations/sinner-s-road/sinner-s-road-north-hall-scene.png)
-
 ### Connections
 
 [![Connections for Sinner's Road North Hall (Dust_05)](../00-annotations/sinner-s-road/sinner-s-road-north-hall-connections.png)](../00-annotations/sinner-s-road/sinner-s-road-north-hall-connections.png)
@@ -63,3 +59,7 @@
 ### Checks
 
 [![Checks for Sinner's Road North Hall (Dust_05)](../00-annotations/sinner-s-road/sinner-s-road-north-hall-checks.png)](../00-annotations/sinner-s-road/sinner-s-road-north-hall-checks.png)
+
+### Scene
+
+[![Scene for Sinner's Road North Hall (Dust_05)](../00-annotations/sinner-s-road/sinner-s-road-north-hall-scene.png)](../00-annotations/sinner-s-road/sinner-s-road-north-hall-scene.png)

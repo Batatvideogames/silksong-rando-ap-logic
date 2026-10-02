@@ -37,10 +37,6 @@ No check locations defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Is this still Deep Docks? East (Bone_East_04)](../00-annotations/deep-docks/is-this-still-deep-docks-east-scene.png)](../00-annotations/deep-docks/is-this-still-deep-docks-east-scene.png)
-
 ### Connections
 
 [![Connections for Is this still Deep Docks? East (Bone_East_04)](../00-annotations/deep-docks/is-this-still-deep-docks-east-connections.png)](../00-annotations/deep-docks/is-this-still-deep-docks-east-connections.png)
@@ -48,3 +44,7 @@ No check locations defined.
 ### Checks
 
 [![Checks for Is this still Deep Docks? East (Bone_East_04)](../00-annotations/deep-docks/is-this-still-deep-docks-east-checks.png)](../00-annotations/deep-docks/is-this-still-deep-docks-east-checks.png)
+
+### Scene
+
+[![Scene for Is this still Deep Docks? East (Bone_East_04)](../00-annotations/deep-docks/is-this-still-deep-docks-east-scene.png)](../00-annotations/deep-docks/is-this-still-deep-docks-east-scene.png)

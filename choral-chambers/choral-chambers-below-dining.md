@@ -31,10 +31,6 @@ No check locations defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Choral Chambers Below Dining (Song_18)](../00-annotations/choral-chambers/choral-chambers-below-dining-scene.png)](../00-annotations/choral-chambers/choral-chambers-below-dining-scene.png)
-
 ### Connections
 
 [![Connections for Choral Chambers Below Dining (Song_18)](../00-annotations/choral-chambers/choral-chambers-below-dining-connections.png)](../00-annotations/choral-chambers/choral-chambers-below-dining-connections.png)
@@ -42,3 +38,7 @@ No check locations defined.
 ### Checks
 
 [![Checks for Choral Chambers Below Dining (Song_18)](../00-annotations/choral-chambers/choral-chambers-below-dining-checks.png)](../00-annotations/choral-chambers/choral-chambers-below-dining-checks.png)
+
+### Scene
+
+[![Scene for Choral Chambers Below Dining (Song_18)](../00-annotations/choral-chambers/choral-chambers-below-dining-scene.png)](../00-annotations/choral-chambers/choral-chambers-below-dining-scene.png)

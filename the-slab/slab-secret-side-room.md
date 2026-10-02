@@ -37,10 +37,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Slab Secret Side Room (Slab_18)](../00-annotations/the-slab/slab-secret-side-room-scene.png)](../00-annotations/the-slab/slab-secret-side-room-scene.png)
-
 ### Connections
 
 [![Connections for Slab Secret Side Room (Slab_18)](../00-annotations/the-slab/slab-secret-side-room-connections.png)](../00-annotations/the-slab/slab-secret-side-room-connections.png)
@@ -48,3 +44,7 @@
 ### Checks
 
 [![Checks for Slab Secret Side Room (Slab_18)](../00-annotations/the-slab/slab-secret-side-room-checks.png)](../00-annotations/the-slab/slab-secret-side-room-checks.png)
+
+### Scene
+
+[![Scene for Slab Secret Side Room (Slab_18)](../00-annotations/the-slab/slab-secret-side-room-scene.png)](../00-annotations/the-slab/slab-secret-side-room-scene.png)

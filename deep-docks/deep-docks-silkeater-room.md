@@ -32,10 +32,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Deep Docks Silkeater Room (Dock_14)](../00-annotations/deep-docks/deep-docks-silkeater-room-scene.png)](../00-annotations/deep-docks/deep-docks-silkeater-room-scene.png)
-
 ### Connections
 
 [![Connections for Deep Docks Silkeater Room (Dock_14)](../00-annotations/deep-docks/deep-docks-silkeater-room-connections.png)](../00-annotations/deep-docks/deep-docks-silkeater-room-connections.png)
@@ -43,3 +39,7 @@
 ### Checks
 
 [![Checks for Deep Docks Silkeater Room (Dock_14)](../00-annotations/deep-docks/deep-docks-silkeater-room-checks.png)](../00-annotations/deep-docks/deep-docks-silkeater-room-checks.png)
+
+### Scene
+
+[![Scene for Deep Docks Silkeater Room (Dock_14)](../00-annotations/deep-docks/deep-docks-silkeater-room-scene.png)](../00-annotations/deep-docks/deep-docks-silkeater-room-scene.png)

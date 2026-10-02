@@ -31,10 +31,6 @@ No check locations defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Far Fields Deep Fort Passage (Bone_East_26)](../00-annotations/far-fields/far-fields-deep-fort-passage-scene.png)](../00-annotations/far-fields/far-fields-deep-fort-passage-scene.png)
-
 ### Connections
 
 [![Connections for Far Fields Deep Fort Passage (Bone_East_26)](../00-annotations/far-fields/far-fields-deep-fort-passage-connections.png)](../00-annotations/far-fields/far-fields-deep-fort-passage-connections.png)
@@ -42,3 +38,7 @@ No check locations defined.
 ### Checks
 
 [![Checks for Far Fields Deep Fort Passage (Bone_East_26)](../00-annotations/far-fields/far-fields-deep-fort-passage-checks.png)](../00-annotations/far-fields/far-fields-deep-fort-passage-checks.png)
+
+### Scene
+
+[![Scene for Far Fields Deep Fort Passage (Bone_East_26)](../00-annotations/far-fields/far-fields-deep-fort-passage-scene.png)](../00-annotations/far-fields/far-fields-deep-fort-passage-scene.png)

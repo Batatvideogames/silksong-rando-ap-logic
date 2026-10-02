@@ -36,10 +36,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Crustnut (Coral_41)](../00-annotations/sands-of-karak/crustnut-scene.png)](../00-annotations/sands-of-karak/crustnut-scene.png)
-
 ### Connections
 
 [![Connections for Crustnut (Coral_41)](../00-annotations/sands-of-karak/crustnut-connections.png)](../00-annotations/sands-of-karak/crustnut-connections.png)
@@ -47,3 +43,7 @@
 ### Checks
 
 [![Checks for Crustnut (Coral_41)](../00-annotations/sands-of-karak/crustnut-checks.png)](../00-annotations/sands-of-karak/crustnut-checks.png)
+
+### Scene
+
+[![Scene for Crustnut (Coral_41)](../00-annotations/sands-of-karak/crustnut-scene.png)](../00-annotations/sands-of-karak/crustnut-scene.png)

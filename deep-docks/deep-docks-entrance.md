@@ -42,10 +42,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Deep Docks Entrance (Dock_08)](../00-annotations/deep-docks/deep-docks-entrance-scene.png)](../00-annotations/deep-docks/deep-docks-entrance-scene.png)
-
 ### Connections
 
 [![Connections for Deep Docks Entrance (Dock_08)](../00-annotations/deep-docks/deep-docks-entrance-connections.png)](../00-annotations/deep-docks/deep-docks-entrance-connections.png)
@@ -53,3 +49,7 @@
 ### Checks
 
 [![Checks for Deep Docks Entrance (Dock_08)](../00-annotations/deep-docks/deep-docks-entrance-checks.png)](../00-annotations/deep-docks/deep-docks-entrance-checks.png)
+
+### Scene
+
+[![Scene for Deep Docks Entrance (Dock_08)](../00-annotations/deep-docks/deep-docks-entrance-scene.png)](../00-annotations/deep-docks/deep-docks-entrance-scene.png)

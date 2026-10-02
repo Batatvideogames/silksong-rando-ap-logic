@@ -32,10 +32,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Underworks Flea Room (Under_21)](../00-annotations/underworks/underworks-flea-room-scene.png)](../00-annotations/underworks/underworks-flea-room-scene.png)
-
 ### Connections
 
 [![Connections for Underworks Flea Room (Under_21)](../00-annotations/underworks/underworks-flea-room-connections.png)](../00-annotations/underworks/underworks-flea-room-connections.png)
@@ -43,3 +39,7 @@
 ### Checks
 
 [![Checks for Underworks Flea Room (Under_21)](../00-annotations/underworks/underworks-flea-room-checks.png)](../00-annotations/underworks/underworks-flea-room-checks.png)
+
+### Scene
+
+[![Scene for Underworks Flea Room (Under_21)](../00-annotations/underworks/underworks-flea-room-scene.png)](../00-annotations/underworks/underworks-flea-room-scene.png)

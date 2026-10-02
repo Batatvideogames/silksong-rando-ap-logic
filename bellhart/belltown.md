@@ -51,10 +51,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Belltown (Belltown)](../00-annotations/bellhart/belltown-scene.png)](../00-annotations/bellhart/belltown-scene.png)
-
 ### Connections
 
 [![Connections for Belltown (Belltown)](../00-annotations/bellhart/belltown-connections.png)](../00-annotations/bellhart/belltown-connections.png)
@@ -62,3 +58,7 @@
 ### Checks
 
 [![Checks for Belltown (Belltown)](../00-annotations/bellhart/belltown-checks.png)](../00-annotations/bellhart/belltown-checks.png)
+
+### Scene
+
+[![Scene for Belltown (Belltown)](../00-annotations/bellhart/belltown-scene.png)](../00-annotations/bellhart/belltown-scene.png)

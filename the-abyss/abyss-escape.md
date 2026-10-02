@@ -30,10 +30,6 @@ No check locations defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Abyss Escape (Abyss_09)](../00-annotations/the-abyss/abyss-escape-scene.png)](../00-annotations/the-abyss/abyss-escape-scene.png)
-
 ### Connections
 
 [![Connections for Abyss Escape (Abyss_09)](../00-annotations/the-abyss/abyss-escape-connections.png)](../00-annotations/the-abyss/abyss-escape-connections.png)
@@ -41,3 +37,7 @@ No check locations defined.
 ### Checks
 
 [![Checks for Abyss Escape (Abyss_09)](../00-annotations/the-abyss/abyss-escape-checks.png)](../00-annotations/the-abyss/abyss-escape-checks.png)
+
+### Scene
+
+[![Scene for Abyss Escape (Abyss_09)](../00-annotations/the-abyss/abyss-escape-scene.png)](../00-annotations/the-abyss/abyss-escape-scene.png)

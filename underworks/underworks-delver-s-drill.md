@@ -26,10 +26,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Underworks Delver's Drill (Under_14)](../00-annotations/underworks/underworks-delver-s-drill-scene.png)](../00-annotations/underworks/underworks-delver-s-drill-scene.png)
-
 ### Connections
 
 [![Connections for Underworks Delver's Drill (Under_14)](../00-annotations/underworks/underworks-delver-s-drill-connections.png)](../00-annotations/underworks/underworks-delver-s-drill-connections.png)
@@ -37,3 +33,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Underworks Delver's Drill (Under_14)](../00-annotations/underworks/underworks-delver-s-drill-checks.png)](../00-annotations/underworks/underworks-delver-s-drill-checks.png)
+
+### Scene
+
+[![Scene for Underworks Delver's Drill (Under_14)](../00-annotations/underworks/underworks-delver-s-drill-scene.png)](../00-annotations/underworks/underworks-delver-s-drill-scene.png)

@@ -38,10 +38,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Cogwork Core Second Sentinel (Cog_10)](../00-annotations/cogwork-core/cogwork-core-second-sentinel-scene.png)](../00-annotations/cogwork-core/cogwork-core-second-sentinel-scene.png)
-
 ### Connections
 
 [![Connections for Cogwork Core Second Sentinel (Cog_10)](../00-annotations/cogwork-core/cogwork-core-second-sentinel-connections.png)](../00-annotations/cogwork-core/cogwork-core-second-sentinel-connections.png)
@@ -49,3 +45,7 @@
 ### Checks
 
 [![Checks for Cogwork Core Second Sentinel (Cog_10)](../00-annotations/cogwork-core/cogwork-core-second-sentinel-checks.png)](../00-annotations/cogwork-core/cogwork-core-second-sentinel-checks.png)
+
+### Scene
+
+[![Scene for Cogwork Core Second Sentinel (Cog_10)](../00-annotations/cogwork-core/cogwork-core-second-sentinel-scene.png)](../00-annotations/cogwork-core/cogwork-core-second-sentinel-scene.png)

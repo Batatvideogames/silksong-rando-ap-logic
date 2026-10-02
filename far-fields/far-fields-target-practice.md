@@ -30,10 +30,6 @@ this is the room where you get progressive curveclaw (curvesickle) in act 3
 
 ## Room Images
 
-### Scene
-
-[![Scene for Far Fields Target Practice (Bone_East_22)](../00-annotations/far-fields/far-fields-target-practice-scene.png)](../00-annotations/far-fields/far-fields-target-practice-scene.png)
-
 ### Connections
 
 [![Connections for Far Fields Target Practice (Bone_East_22)](../00-annotations/far-fields/far-fields-target-practice-connections.png)](../00-annotations/far-fields/far-fields-target-practice-connections.png)
@@ -41,3 +37,7 @@ this is the room where you get progressive curveclaw (curvesickle) in act 3
 ### Checks
 
 [![Checks for Far Fields Target Practice (Bone_East_22)](../00-annotations/far-fields/far-fields-target-practice-checks.png)](../00-annotations/far-fields/far-fields-target-practice-checks.png)
+
+### Scene
+
+[![Scene for Far Fields Target Practice (Bone_East_22)](../00-annotations/far-fields/far-fields-target-practice-scene.png)](../00-annotations/far-fields/far-fields-target-practice-scene.png)

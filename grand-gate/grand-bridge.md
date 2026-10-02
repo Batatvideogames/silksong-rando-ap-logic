@@ -28,10 +28,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Grand Bridge (Coral_10)](../00-annotations/grand-gate/grand-bridge-scene.png)](../00-annotations/grand-gate/grand-bridge-scene.png)
-
 ### Connections
 
 [![Connections for Grand Bridge (Coral_10)](../00-annotations/grand-gate/grand-bridge-connections.png)](../00-annotations/grand-gate/grand-bridge-connections.png)
@@ -39,3 +35,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Grand Bridge (Coral_10)](../00-annotations/grand-gate/grand-bridge-checks.png)](../00-annotations/grand-gate/grand-bridge-checks.png)
+
+### Scene
+
+[![Scene for Grand Bridge (Coral_10)](../00-annotations/grand-gate/grand-bridge-scene.png)](../00-annotations/grand-gate/grand-bridge-scene.png)

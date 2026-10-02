@@ -25,10 +25,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Slab Grindle (Slab_20)](../00-annotations/the-slab/slab-grindle-scene.png)](../00-annotations/the-slab/slab-grindle-scene.png)
-
 ### Connections
 
 [![Connections for Slab Grindle (Slab_20)](../00-annotations/the-slab/slab-grindle-connections.png)](../00-annotations/the-slab/slab-grindle-connections.png)
@@ -36,3 +32,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Slab Grindle (Slab_20)](../00-annotations/the-slab/slab-grindle-checks.png)](../00-annotations/the-slab/slab-grindle-checks.png)
+
+### Scene
+
+[![Scene for Slab Grindle (Slab_20)](../00-annotations/the-slab/slab-grindle-scene.png)](../00-annotations/the-slab/slab-grindle-scene.png)

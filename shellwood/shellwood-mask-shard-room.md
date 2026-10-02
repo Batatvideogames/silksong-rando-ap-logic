@@ -26,10 +26,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Shellwood Mask Shard Room (Shellwood_14)](../00-annotations/shellwood/shellwood-mask-shard-room-scene.png)](../00-annotations/shellwood/shellwood-mask-shard-room-scene.png)
-
 ### Connections
 
 [![Connections for Shellwood Mask Shard Room (Shellwood_14)](../00-annotations/shellwood/shellwood-mask-shard-room-connections.png)](../00-annotations/shellwood/shellwood-mask-shard-room-connections.png)
@@ -37,3 +33,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Shellwood Mask Shard Room (Shellwood_14)](../00-annotations/shellwood/shellwood-mask-shard-room-checks.png)](../00-annotations/shellwood/shellwood-mask-shard-room-checks.png)
+
+### Scene
+
+[![Scene for Shellwood Mask Shard Room (Shellwood_14)](../00-annotations/shellwood/shellwood-mask-shard-room-scene.png)](../00-annotations/shellwood/shellwood-mask-shard-room-scene.png)

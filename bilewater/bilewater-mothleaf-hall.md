@@ -40,10 +40,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Bilewater Mothleaf Hall (Shadow_27)](../00-annotations/bilewater/bilewater-mothleaf-hall-scene.png)](../00-annotations/bilewater/bilewater-mothleaf-hall-scene.png)
-
 ### Connections
 
 [![Connections for Bilewater Mothleaf Hall (Shadow_27)](../00-annotations/bilewater/bilewater-mothleaf-hall-connections.png)](../00-annotations/bilewater/bilewater-mothleaf-hall-connections.png)
@@ -51,3 +47,7 @@
 ### Checks
 
 [![Checks for Bilewater Mothleaf Hall (Shadow_27)](../00-annotations/bilewater/bilewater-mothleaf-hall-checks.png)](../00-annotations/bilewater/bilewater-mothleaf-hall-checks.png)
+
+### Scene
+
+[![Scene for Bilewater Mothleaf Hall (Shadow_27)](../00-annotations/bilewater/bilewater-mothleaf-hall-scene.png)](../00-annotations/bilewater/bilewater-mothleaf-hall-scene.png)

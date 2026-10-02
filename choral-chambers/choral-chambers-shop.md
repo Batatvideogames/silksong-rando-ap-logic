@@ -24,10 +24,6 @@ No check locations defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Choral Chambers Shop (Song_28)](../00-annotations/choral-chambers/choral-chambers-shop-scene.png)](../00-annotations/choral-chambers/choral-chambers-shop-scene.png)
-
 ### Connections
 
 [![Connections for Choral Chambers Shop (Song_28)](../00-annotations/choral-chambers/choral-chambers-shop-connections.png)](../00-annotations/choral-chambers/choral-chambers-shop-connections.png)
@@ -35,3 +31,7 @@ No check locations defined.
 ### Checks
 
 [![Checks for Choral Chambers Shop (Song_28)](../00-annotations/choral-chambers/choral-chambers-shop-checks.png)](../00-annotations/choral-chambers/choral-chambers-shop-checks.png)
+
+### Scene
+
+[![Scene for Choral Chambers Shop (Song_28)](../00-annotations/choral-chambers/choral-chambers-shop-scene.png)](../00-annotations/choral-chambers/choral-chambers-shop-scene.png)

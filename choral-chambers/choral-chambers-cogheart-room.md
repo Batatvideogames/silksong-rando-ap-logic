@@ -26,10 +26,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Choral Chambers Cogheart Room (Song_26)](../00-annotations/choral-chambers/choral-chambers-cogheart-room-scene.png)](../00-annotations/choral-chambers/choral-chambers-cogheart-room-scene.png)
-
 ### Connections
 
 [![Connections for Choral Chambers Cogheart Room (Song_26)](../00-annotations/choral-chambers/choral-chambers-cogheart-room-connections.png)](../00-annotations/choral-chambers/choral-chambers-cogheart-room-connections.png)
@@ -37,3 +33,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Choral Chambers Cogheart Room (Song_26)](../00-annotations/choral-chambers/choral-chambers-cogheart-room-checks.png)](../00-annotations/choral-chambers/choral-chambers-cogheart-room-checks.png)
+
+### Scene
+
+[![Scene for Choral Chambers Cogheart Room (Song_26)](../00-annotations/choral-chambers/choral-chambers-cogheart-room-scene.png)](../00-annotations/choral-chambers/choral-chambers-cogheart-room-scene.png)

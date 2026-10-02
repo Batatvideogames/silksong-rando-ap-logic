@@ -59,10 +59,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Deep Docks Forge (Room_Forge)](../00-annotations/deep-docks/deep-docks-forge-scene.png)](../00-annotations/deep-docks/deep-docks-forge-scene.png)
-
 ### Connections
 
 [![Connections for Deep Docks Forge (Room_Forge)](../00-annotations/deep-docks/deep-docks-forge-connections.png)](../00-annotations/deep-docks/deep-docks-forge-connections.png)
@@ -70,3 +66,7 @@
 ### Checks
 
 [![Checks for Deep Docks Forge (Room_Forge)](../00-annotations/deep-docks/deep-docks-forge-checks.png)](../00-annotations/deep-docks/deep-docks-forge-checks.png)
+
+### Scene
+
+[![Scene for Deep Docks Forge (Room_Forge)](../00-annotations/deep-docks/deep-docks-forge-scene.png)](../00-annotations/deep-docks/deep-docks-forge-scene.png)

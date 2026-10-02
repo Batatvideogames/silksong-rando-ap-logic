@@ -26,10 +26,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Slab Infleatween Top (Slab_04)](../00-annotations/the-slab/slab-infleatween-top-scene.png)](../00-annotations/the-slab/slab-infleatween-top-scene.png)
-
 ### Connections
 
 [![Connections for Slab Infleatween Top (Slab_04)](../00-annotations/the-slab/slab-infleatween-top-connections.png)](../00-annotations/the-slab/slab-infleatween-top-connections.png)
@@ -37,3 +33,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Slab Infleatween Top (Slab_04)](../00-annotations/the-slab/slab-infleatween-top-checks.png)](../00-annotations/the-slab/slab-infleatween-top-checks.png)
+
+### Scene
+
+[![Scene for Slab Infleatween Top (Slab_04)](../00-annotations/the-slab/slab-infleatween-top-scene.png)](../00-annotations/the-slab/slab-infleatween-top-scene.png)

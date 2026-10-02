@@ -26,10 +26,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Blasted Steps Mask Shard (Coral_19b)](../00-annotations/blasted-steps/blasted-steps-mask-shard-scene.png)](../00-annotations/blasted-steps/blasted-steps-mask-shard-scene.png)
-
 ### Connections
 
 [![Connections for Blasted Steps Mask Shard (Coral_19b)](../00-annotations/blasted-steps/blasted-steps-mask-shard-connections.png)](../00-annotations/blasted-steps/blasted-steps-mask-shard-connections.png)
@@ -37,3 +33,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Blasted Steps Mask Shard (Coral_19b)](../00-annotations/blasted-steps/blasted-steps-mask-shard-checks.png)](../00-annotations/blasted-steps/blasted-steps-mask-shard-checks.png)
+
+### Scene
+
+[![Scene for Blasted Steps Mask Shard (Coral_19b)](../00-annotations/blasted-steps/blasted-steps-mask-shard-scene.png)](../00-annotations/blasted-steps/blasted-steps-mask-shard-scene.png)

@@ -37,10 +37,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Sinner's Road Chef's Kitchen (Dust_Chef)](../00-annotations/sinner-s-road/sinner-s-road-chef-s-kitchen-scene.png)](../00-annotations/sinner-s-road/sinner-s-road-chef-s-kitchen-scene.png)
-
 ### Connections
 
 [![Connections for Sinner's Road Chef's Kitchen (Dust_Chef)](../00-annotations/sinner-s-road/sinner-s-road-chef-s-kitchen-connections.png)](../00-annotations/sinner-s-road/sinner-s-road-chef-s-kitchen-connections.png)
@@ -48,3 +44,7 @@
 ### Checks
 
 [![Checks for Sinner's Road Chef's Kitchen (Dust_Chef)](../00-annotations/sinner-s-road/sinner-s-road-chef-s-kitchen-checks.png)](../00-annotations/sinner-s-road/sinner-s-road-chef-s-kitchen-checks.png)
+
+### Scene
+
+[![Scene for Sinner's Road Chef's Kitchen (Dust_Chef)](../00-annotations/sinner-s-road/sinner-s-road-chef-s-kitchen-scene.png)](../00-annotations/sinner-s-road/sinner-s-road-chef-s-kitchen-scene.png)

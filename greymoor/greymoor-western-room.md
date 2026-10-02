@@ -53,10 +53,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Greymoor Western Room (Greymoor_07)](../00-annotations/greymoor/greymoor-western-room-scene.png)](../00-annotations/greymoor/greymoor-western-room-scene.png)
-
 ### Connections
 
 [![Connections for Greymoor Western Room (Greymoor_07)](../00-annotations/greymoor/greymoor-western-room-connections.png)](../00-annotations/greymoor/greymoor-western-room-connections.png)
@@ -64,3 +60,7 @@
 ### Checks
 
 [![Checks for Greymoor Western Room (Greymoor_07)](../00-annotations/greymoor/greymoor-western-room-checks.png)](../00-annotations/greymoor/greymoor-western-room-checks.png)
+
+### Scene
+
+[![Scene for Greymoor Western Room (Greymoor_07)](../00-annotations/greymoor/greymoor-western-room-scene.png)](../00-annotations/greymoor/greymoor-western-room-scene.png)

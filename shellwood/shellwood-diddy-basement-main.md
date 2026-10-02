@@ -40,10 +40,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Shellwood Diddy Basement Main (Shellwood_25)](../00-annotations/shellwood/shellwood-diddy-basement-main-scene.png)](../00-annotations/shellwood/shellwood-diddy-basement-main-scene.png)
-
 ### Connections
 
 [![Connections for Shellwood Diddy Basement Main (Shellwood_25)](../00-annotations/shellwood/shellwood-diddy-basement-main-connections.png)](../00-annotations/shellwood/shellwood-diddy-basement-main-connections.png)
@@ -51,3 +47,7 @@
 ### Checks
 
 [![Checks for Shellwood Diddy Basement Main (Shellwood_25)](../00-annotations/shellwood/shellwood-diddy-basement-main-checks.png)](../00-annotations/shellwood/shellwood-diddy-basement-main-checks.png)
+
+### Scene
+
+[![Scene for Shellwood Diddy Basement Main (Shellwood_25)](../00-annotations/shellwood/shellwood-diddy-basement-main-scene.png)](../00-annotations/shellwood/shellwood-diddy-basement-main-scene.png)

@@ -56,10 +56,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Deep Docks Map Shop (Bone_East_01)](../00-annotations/deep-docks/deep-docks-map-shop-scene.png)](../00-annotations/deep-docks/deep-docks-map-shop-scene.png)
-
 ### Connections
 
 [![Connections for Deep Docks Map Shop (Bone_East_01)](../00-annotations/deep-docks/deep-docks-map-shop-connections.png)](../00-annotations/deep-docks/deep-docks-map-shop-connections.png)
@@ -67,3 +63,7 @@
 ### Checks
 
 [![Checks for Deep Docks Map Shop (Bone_East_01)](../00-annotations/deep-docks/deep-docks-map-shop-checks.png)](../00-annotations/deep-docks/deep-docks-map-shop-checks.png)
+
+### Scene
+
+[![Scene for Deep Docks Map Shop (Bone_East_01)](../00-annotations/deep-docks/deep-docks-map-shop-scene.png)](../00-annotations/deep-docks/deep-docks-map-shop-scene.png)

@@ -28,10 +28,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Abyss Final Bench (Abyss_12)](../00-annotations/the-abyss/abyss-final-bench-scene.png)](../00-annotations/the-abyss/abyss-final-bench-scene.png)
-
 ### Connections
 
 [![Connections for Abyss Final Bench (Abyss_12)](../00-annotations/the-abyss/abyss-final-bench-connections.png)](../00-annotations/the-abyss/abyss-final-bench-connections.png)
@@ -39,3 +35,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Abyss Final Bench (Abyss_12)](../00-annotations/the-abyss/abyss-final-bench-checks.png)](../00-annotations/the-abyss/abyss-final-bench-checks.png)
+
+### Scene
+
+[![Scene for Abyss Final Bench (Abyss_12)](../00-annotations/the-abyss/abyss-final-bench-scene.png)](../00-annotations/the-abyss/abyss-final-bench-scene.png)

@@ -27,10 +27,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Grand Bellway Side Room (Song_24)](../00-annotations/choral-chambers/grand-bellway-side-room-scene.png)](../00-annotations/choral-chambers/grand-bellway-side-room-scene.png)
-
 ### Connections
 
 [![Connections for Grand Bellway Side Room (Song_24)](../00-annotations/choral-chambers/grand-bellway-side-room-connections.png)](../00-annotations/choral-chambers/grand-bellway-side-room-connections.png)
@@ -38,3 +34,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Grand Bellway Side Room (Song_24)](../00-annotations/choral-chambers/grand-bellway-side-room-checks.png)](../00-annotations/choral-chambers/grand-bellway-side-room-checks.png)
+
+### Scene
+
+[![Scene for Grand Bellway Side Room (Song_24)](../00-annotations/choral-chambers/grand-bellway-side-room-scene.png)](../00-annotations/choral-chambers/grand-bellway-side-room-scene.png)

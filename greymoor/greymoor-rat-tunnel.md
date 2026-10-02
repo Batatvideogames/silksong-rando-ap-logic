@@ -66,10 +66,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Greymoor Rat Tunnel (Greymoor_16)](../00-annotations/greymoor/greymoor-rat-tunnel-scene.png)](../00-annotations/greymoor/greymoor-rat-tunnel-scene.png)
-
 ### Connections
 
 [![Connections for Greymoor Rat Tunnel (Greymoor_16)](../00-annotations/greymoor/greymoor-rat-tunnel-connections.png)](../00-annotations/greymoor/greymoor-rat-tunnel-connections.png)
@@ -77,3 +73,7 @@
 ### Checks
 
 [![Checks for Greymoor Rat Tunnel (Greymoor_16)](../00-annotations/greymoor/greymoor-rat-tunnel-checks.png)](../00-annotations/greymoor/greymoor-rat-tunnel-checks.png)
+
+### Scene
+
+[![Scene for Greymoor Rat Tunnel (Greymoor_16)](../00-annotations/greymoor/greymoor-rat-tunnel-scene.png)](../00-annotations/greymoor/greymoor-rat-tunnel-scene.png)

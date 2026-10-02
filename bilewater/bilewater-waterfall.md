@@ -33,10 +33,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Bilewater Waterfall (Shadow_24)](../00-annotations/bilewater/bilewater-waterfall-scene.png)](../00-annotations/bilewater/bilewater-waterfall-scene.png)
-
 ### Connections
 
 [![Connections for Bilewater Waterfall (Shadow_24)](../00-annotations/bilewater/bilewater-waterfall-connections.png)](../00-annotations/bilewater/bilewater-waterfall-connections.png)
@@ -44,3 +40,7 @@
 ### Checks
 
 [![Checks for Bilewater Waterfall (Shadow_24)](../00-annotations/bilewater/bilewater-waterfall-checks.png)](../00-annotations/bilewater/bilewater-waterfall-checks.png)
+
+### Scene
+
+[![Scene for Bilewater Waterfall (Shadow_24)](../00-annotations/bilewater/bilewater-waterfall-scene.png)](../00-annotations/bilewater/bilewater-waterfall-scene.png)

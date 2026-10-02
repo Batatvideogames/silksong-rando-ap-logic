@@ -43,10 +43,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Deep Docks Upper Spire (Bone_East_05)](../00-annotations/deep-docks/deep-docks-upper-spire-scene.png)](../00-annotations/deep-docks/deep-docks-upper-spire-scene.png)
-
 ### Connections
 
 [![Connections for Deep Docks Upper Spire (Bone_East_05)](../00-annotations/deep-docks/deep-docks-upper-spire-connections.png)](../00-annotations/deep-docks/deep-docks-upper-spire-connections.png)
@@ -54,3 +50,7 @@
 ### Checks
 
 [![Checks for Deep Docks Upper Spire (Bone_East_05)](../00-annotations/deep-docks/deep-docks-upper-spire-checks.png)](../00-annotations/deep-docks/deep-docks-upper-spire-checks.png)
+
+### Scene
+
+[![Scene for Deep Docks Upper Spire (Bone_East_05)](../00-annotations/deep-docks/deep-docks-upper-spire-scene.png)](../00-annotations/deep-docks/deep-docks-upper-spire-scene.png)

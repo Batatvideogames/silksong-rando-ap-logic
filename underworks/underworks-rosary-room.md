@@ -32,10 +32,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Underworks Rosary Room (Under_12)](../00-annotations/underworks/underworks-rosary-room-scene.png)](../00-annotations/underworks/underworks-rosary-room-scene.png)
-
 ### Connections
 
 [![Connections for Underworks Rosary Room (Under_12)](../00-annotations/underworks/underworks-rosary-room-connections.png)](../00-annotations/underworks/underworks-rosary-room-connections.png)
@@ -43,3 +39,7 @@
 ### Checks
 
 [![Checks for Underworks Rosary Room (Under_12)](../00-annotations/underworks/underworks-rosary-room-checks.png)](../00-annotations/underworks/underworks-rosary-room-checks.png)
+
+### Scene
+
+[![Scene for Underworks Rosary Room (Under_12)](../00-annotations/underworks/underworks-rosary-room-scene.png)](../00-annotations/underworks/underworks-rosary-room-scene.png)

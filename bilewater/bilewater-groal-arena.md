@@ -38,10 +38,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Bilewater Groal Arena (Shadow_18)](../00-annotations/bilewater/bilewater-groal-arena-scene.png)](../00-annotations/bilewater/bilewater-groal-arena-scene.png)
-
 ### Connections
 
 [![Connections for Bilewater Groal Arena (Shadow_18)](../00-annotations/bilewater/bilewater-groal-arena-connections.png)](../00-annotations/bilewater/bilewater-groal-arena-connections.png)
@@ -49,3 +45,7 @@
 ### Checks
 
 [![Checks for Bilewater Groal Arena (Shadow_18)](../00-annotations/bilewater/bilewater-groal-arena-checks.png)](../00-annotations/bilewater/bilewater-groal-arena-checks.png)
+
+### Scene
+
+[![Scene for Bilewater Groal Arena (Shadow_18)](../00-annotations/bilewater/bilewater-groal-arena-scene.png)](../00-annotations/bilewater/bilewater-groal-arena-scene.png)

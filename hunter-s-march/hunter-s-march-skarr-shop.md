@@ -37,10 +37,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Hunter's March Skarr Shop (Ant_Merchant)](../00-annotations/hunter-s-march/hunter-s-march-skarr-shop-scene.png)](../00-annotations/hunter-s-march/hunter-s-march-skarr-shop-scene.png)
-
 ### Connections
 
 [![Connections for Hunter's March Skarr Shop (Ant_Merchant)](../00-annotations/hunter-s-march/hunter-s-march-skarr-shop-connections.png)](../00-annotations/hunter-s-march/hunter-s-march-skarr-shop-connections.png)
@@ -48,3 +44,7 @@
 ### Checks
 
 [![Checks for Hunter's March Skarr Shop (Ant_Merchant)](../00-annotations/hunter-s-march/hunter-s-march-skarr-shop-checks.png)](../00-annotations/hunter-s-march/hunter-s-march-skarr-shop-checks.png)
+
+### Scene
+
+[![Scene for Hunter's March Skarr Shop (Ant_Merchant)](../00-annotations/hunter-s-march/hunter-s-march-skarr-shop-scene.png)](../00-annotations/hunter-s-march/hunter-s-march-skarr-shop-scene.png)

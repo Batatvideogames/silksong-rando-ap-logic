@@ -33,10 +33,6 @@ No check locations defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Bilewater Citadel Exit (Shadow_22)](../00-annotations/bilewater/bilewater-citadel-exit-scene.png)](../00-annotations/bilewater/bilewater-citadel-exit-scene.png)
-
 ### Connections
 
 [![Connections for Bilewater Citadel Exit (Shadow_22)](../00-annotations/bilewater/bilewater-citadel-exit-connections.png)](../00-annotations/bilewater/bilewater-citadel-exit-connections.png)
@@ -44,3 +40,7 @@ No check locations defined.
 ### Checks
 
 [![Checks for Bilewater Citadel Exit (Shadow_22)](../00-annotations/bilewater/bilewater-citadel-exit-checks.png)](../00-annotations/bilewater/bilewater-citadel-exit-checks.png)
+
+### Scene
+
+[![Scene for Bilewater Citadel Exit (Shadow_22)](../00-annotations/bilewater/bilewater-citadel-exit-scene.png)](../00-annotations/bilewater/bilewater-citadel-exit-scene.png)

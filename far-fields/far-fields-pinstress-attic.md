@@ -38,10 +38,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Far Fields Pinstress Attic (Bone_East_09b)](../00-annotations/far-fields/far-fields-pinstress-attic-scene.png)](../00-annotations/far-fields/far-fields-pinstress-attic-scene.png)
-
 ### Connections
 
 [![Connections for Far Fields Pinstress Attic (Bone_East_09b)](../00-annotations/far-fields/far-fields-pinstress-attic-connections.png)](../00-annotations/far-fields/far-fields-pinstress-attic-connections.png)
@@ -49,3 +45,7 @@
 ### Checks
 
 [![Checks for Far Fields Pinstress Attic (Bone_East_09b)](../00-annotations/far-fields/far-fields-pinstress-attic-checks.png)](../00-annotations/far-fields/far-fields-pinstress-attic-checks.png)
+
+### Scene
+
+[![Scene for Far Fields Pinstress Attic (Bone_East_09b)](../00-annotations/far-fields/far-fields-pinstress-attic-scene.png)](../00-annotations/far-fields/far-fields-pinstress-attic-scene.png)

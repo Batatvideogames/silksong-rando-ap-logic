@@ -32,10 +32,6 @@ No check locations defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Grand Elevator (Under_01)](../00-annotations/grand-gate/grand-elevator-scene.png)](../00-annotations/grand-gate/grand-elevator-scene.png)
-
 ### Connections
 
 [![Connections for Grand Elevator (Under_01)](../00-annotations/grand-gate/grand-elevator-connections.png)](../00-annotations/grand-gate/grand-elevator-connections.png)
@@ -43,3 +39,7 @@ No check locations defined.
 ### Checks
 
 [![Checks for Grand Elevator (Under_01)](../00-annotations/grand-gate/grand-elevator-checks.png)](../00-annotations/grand-gate/grand-elevator-checks.png)
+
+### Scene
+
+[![Scene for Grand Elevator (Under_01)](../00-annotations/grand-gate/grand-elevator-scene.png)](../00-annotations/grand-gate/grand-elevator-scene.png)

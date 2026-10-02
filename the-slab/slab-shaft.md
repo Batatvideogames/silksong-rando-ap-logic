@@ -33,10 +33,6 @@ No check locations defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Slab Shaft (Slab_21)](../00-annotations/the-slab/slab-shaft-scene.png)](../00-annotations/the-slab/slab-shaft-scene.png)
-
 ### Connections
 
 [![Connections for Slab Shaft (Slab_21)](../00-annotations/the-slab/slab-shaft-connections.png)](../00-annotations/the-slab/slab-shaft-connections.png)
@@ -44,3 +40,7 @@ No check locations defined.
 ### Checks
 
 [![Checks for Slab Shaft (Slab_21)](../00-annotations/the-slab/slab-shaft-checks.png)](../00-annotations/the-slab/slab-shaft-checks.png)
+
+### Scene
+
+[![Scene for Slab Shaft (Slab_21)](../00-annotations/the-slab/slab-shaft-scene.png)](../00-annotations/the-slab/slab-shaft-scene.png)

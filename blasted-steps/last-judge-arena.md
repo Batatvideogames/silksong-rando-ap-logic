@@ -29,10 +29,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Last Judge Arena (Coral_Judge_Arena)](../00-annotations/blasted-steps/last-judge-arena-scene.png)](../00-annotations/blasted-steps/last-judge-arena-scene.png)
-
 ### Connections
 
 [![Connections for Last Judge Arena (Coral_Judge_Arena)](../00-annotations/blasted-steps/last-judge-arena-connections.png)](../00-annotations/blasted-steps/last-judge-arena-connections.png)
@@ -40,3 +36,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Last Judge Arena (Coral_Judge_Arena)](../00-annotations/blasted-steps/last-judge-arena-checks.png)](../00-annotations/blasted-steps/last-judge-arena-checks.png)
+
+### Scene
+
+[![Scene for Last Judge Arena (Coral_Judge_Arena)](../00-annotations/blasted-steps/last-judge-arena-scene.png)](../00-annotations/blasted-steps/last-judge-arena-scene.png)

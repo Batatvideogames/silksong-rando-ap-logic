@@ -39,10 +39,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Sinner's Road Styx Room (Dust_11)](../00-annotations/sinner-s-road/sinner-s-road-styx-room-scene.png)](../00-annotations/sinner-s-road/sinner-s-road-styx-room-scene.png)
-
 ### Connections
 
 [![Connections for Sinner's Road Styx Room (Dust_11)](../00-annotations/sinner-s-road/sinner-s-road-styx-room-connections.png)](../00-annotations/sinner-s-road/sinner-s-road-styx-room-connections.png)
@@ -50,3 +46,7 @@
 ### Checks
 
 [![Checks for Sinner's Road Styx Room (Dust_11)](../00-annotations/sinner-s-road/sinner-s-road-styx-room-checks.png)](../00-annotations/sinner-s-road/sinner-s-road-styx-room-checks.png)
+
+### Scene
+
+[![Scene for Sinner's Road Styx Room (Dust_11)](../00-annotations/sinner-s-road/sinner-s-road-styx-room-scene.png)](../00-annotations/sinner-s-road/sinner-s-road-styx-room-scene.png)

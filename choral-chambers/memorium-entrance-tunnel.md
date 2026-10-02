@@ -37,10 +37,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Memorium Entrance Tunnel (Song_25)](../00-annotations/choral-chambers/memorium-entrance-tunnel-scene.png)](../00-annotations/choral-chambers/memorium-entrance-tunnel-scene.png)
-
 ### Connections
 
 [![Connections for Memorium Entrance Tunnel (Song_25)](../00-annotations/choral-chambers/memorium-entrance-tunnel-connections.png)](../00-annotations/choral-chambers/memorium-entrance-tunnel-connections.png)
@@ -48,3 +44,7 @@
 ### Checks
 
 [![Checks for Memorium Entrance Tunnel (Song_25)](../00-annotations/choral-chambers/memorium-entrance-tunnel-checks.png)](../00-annotations/choral-chambers/memorium-entrance-tunnel-checks.png)
+
+### Scene
+
+[![Scene for Memorium Entrance Tunnel (Song_25)](../00-annotations/choral-chambers/memorium-entrance-tunnel-scene.png)](../00-annotations/choral-chambers/memorium-entrance-tunnel-scene.png)

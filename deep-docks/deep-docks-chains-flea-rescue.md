@@ -26,10 +26,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Deep Docks Chains Flea Rescue (Dock_03d)](../00-annotations/deep-docks/deep-docks-chains-flea-rescue-scene.png)](../00-annotations/deep-docks/deep-docks-chains-flea-rescue-scene.png)
-
 ### Connections
 
 [![Connections for Deep Docks Chains Flea Rescue (Dock_03d)](../00-annotations/deep-docks/deep-docks-chains-flea-rescue-connections.png)](../00-annotations/deep-docks/deep-docks-chains-flea-rescue-connections.png)
@@ -37,3 +33,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Deep Docks Chains Flea Rescue (Dock_03d)](../00-annotations/deep-docks/deep-docks-chains-flea-rescue-checks.png)](../00-annotations/deep-docks/deep-docks-chains-flea-rescue-checks.png)
+
+### Scene
+
+[![Scene for Deep Docks Chains Flea Rescue (Dock_03d)](../00-annotations/deep-docks/deep-docks-chains-flea-rescue-scene.png)](../00-annotations/deep-docks/deep-docks-chains-flea-rescue-scene.png)

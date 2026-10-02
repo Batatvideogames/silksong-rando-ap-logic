@@ -33,10 +33,6 @@ and a wardenfly!
 
 ## Room Images
 
-### Scene
-
-[![Scene for "Deep Docks" March Side Room (Bone_East_04c)](../00-annotations/deep-docks/deep-docks-march-side-room-scene.png)](../00-annotations/deep-docks/deep-docks-march-side-room-scene.png)
-
 ### Connections
 
 [![Connections for "Deep Docks" March Side Room (Bone_East_04c)](../00-annotations/deep-docks/deep-docks-march-side-room-connections.png)](../00-annotations/deep-docks/deep-docks-march-side-room-connections.png)
@@ -44,3 +40,7 @@ and a wardenfly!
 ### Checks
 
 [![Checks for "Deep Docks" March Side Room (Bone_East_04c)](../00-annotations/deep-docks/deep-docks-march-side-room-checks.png)](../00-annotations/deep-docks/deep-docks-march-side-room-checks.png)
+
+### Scene
+
+[![Scene for "Deep Docks" March Side Room (Bone_East_04c)](../00-annotations/deep-docks/deep-docks-march-side-room-scene.png)](../00-annotations/deep-docks/deep-docks-march-side-room-scene.png)

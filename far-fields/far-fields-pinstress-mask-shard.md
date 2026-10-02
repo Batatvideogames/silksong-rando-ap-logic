@@ -33,10 +33,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Far Fields Pinstress Mask Shard (Bone_East_20)](../00-annotations/far-fields/far-fields-pinstress-mask-shard-scene.png)](../00-annotations/far-fields/far-fields-pinstress-mask-shard-scene.png)
-
 ### Connections
 
 [![Connections for Far Fields Pinstress Mask Shard (Bone_East_20)](../00-annotations/far-fields/far-fields-pinstress-mask-shard-connections.png)](../00-annotations/far-fields/far-fields-pinstress-mask-shard-connections.png)
@@ -44,3 +40,7 @@
 ### Checks
 
 [![Checks for Far Fields Pinstress Mask Shard (Bone_East_20)](../00-annotations/far-fields/far-fields-pinstress-mask-shard-checks.png)](../00-annotations/far-fields/far-fields-pinstress-mask-shard-checks.png)
+
+### Scene
+
+[![Scene for Far Fields Pinstress Mask Shard (Bone_East_20)](../00-annotations/far-fields/far-fields-pinstress-mask-shard-scene.png)](../00-annotations/far-fields/far-fields-pinstress-mask-shard-scene.png)

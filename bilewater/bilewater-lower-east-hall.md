@@ -43,10 +43,6 @@ No check locations defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Bilewater Lower East Hall (Shadow_03)](../00-annotations/bilewater/bilewater-lower-east-hall-scene.png)](../00-annotations/bilewater/bilewater-lower-east-hall-scene.png)
-
 ### Connections
 
 [![Connections for Bilewater Lower East Hall (Shadow_03)](../00-annotations/bilewater/bilewater-lower-east-hall-connections.png)](../00-annotations/bilewater/bilewater-lower-east-hall-connections.png)
@@ -54,3 +50,7 @@ No check locations defined.
 ### Checks
 
 [![Checks for Bilewater Lower East Hall (Shadow_03)](../00-annotations/bilewater/bilewater-lower-east-hall-checks.png)](../00-annotations/bilewater/bilewater-lower-east-hall-checks.png)
+
+### Scene
+
+[![Scene for Bilewater Lower East Hall (Shadow_03)](../00-annotations/bilewater/bilewater-lower-east-hall-scene.png)](../00-annotations/bilewater/bilewater-lower-east-hall-scene.png)

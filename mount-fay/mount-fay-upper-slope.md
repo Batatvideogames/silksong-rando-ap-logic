@@ -34,10 +34,6 @@ No check locations defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Mount Fay Upper Slope (Peak_08)](../00-annotations/mount-fay/mount-fay-upper-slope-scene.png)](../00-annotations/mount-fay/mount-fay-upper-slope-scene.png)
-
 ### Connections
 
 [![Connections for Mount Fay Upper Slope (Peak_08)](../00-annotations/mount-fay/mount-fay-upper-slope-connections.png)](../00-annotations/mount-fay/mount-fay-upper-slope-connections.png)
@@ -45,3 +41,7 @@ No check locations defined.
 ### Checks
 
 [![Checks for Mount Fay Upper Slope (Peak_08)](../00-annotations/mount-fay/mount-fay-upper-slope-checks.png)](../00-annotations/mount-fay/mount-fay-upper-slope-checks.png)
+
+### Scene
+
+[![Scene for Mount Fay Upper Slope (Peak_08)](../00-annotations/mount-fay/mount-fay-upper-slope-scene.png)](../00-annotations/mount-fay/mount-fay-upper-slope-scene.png)

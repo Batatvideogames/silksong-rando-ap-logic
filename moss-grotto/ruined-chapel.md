@@ -48,10 +48,6 @@ Ascend rope AND the ceiling are valid exits - but I believe they take you to the
 
 ## Room Images
 
-### Scene
-
-[![Scene for Ruined Chapel (Tut_03)](../00-annotations/moss-grotto/ruined-chapel-scene.png)](../00-annotations/moss-grotto/ruined-chapel-scene.png)
-
 ### Connections
 
 [![Connections for Ruined Chapel (Tut_03)](../00-annotations/moss-grotto/ruined-chapel-connections.png)](../00-annotations/moss-grotto/ruined-chapel-connections.png)
@@ -59,3 +55,7 @@ Ascend rope AND the ceiling are valid exits - but I believe they take you to the
 ### Checks
 
 [![Checks for Ruined Chapel (Tut_03)](../00-annotations/moss-grotto/ruined-chapel-checks.png)](../00-annotations/moss-grotto/ruined-chapel-checks.png)
+
+### Scene
+
+[![Scene for Ruined Chapel (Tut_03)](../00-annotations/moss-grotto/ruined-chapel-scene.png)](../00-annotations/moss-grotto/ruined-chapel-scene.png)

@@ -64,10 +64,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Fleatopia (Aqueduct_05)](../00-annotations/putrified-ducts/fleatopia-scene.png)](../00-annotations/putrified-ducts/fleatopia-scene.png)
-
 ### Connections
 
 [![Connections for Fleatopia (Aqueduct_05)](../00-annotations/putrified-ducts/fleatopia-connections.png)](../00-annotations/putrified-ducts/fleatopia-connections.png)
@@ -75,3 +71,7 @@
 ### Checks
 
 [![Checks for Fleatopia (Aqueduct_05)](../00-annotations/putrified-ducts/fleatopia-checks.png)](../00-annotations/putrified-ducts/fleatopia-checks.png)
+
+### Scene
+
+[![Scene for Fleatopia (Aqueduct_05)](../00-annotations/putrified-ducts/fleatopia-scene.png)](../00-annotations/putrified-ducts/fleatopia-scene.png)

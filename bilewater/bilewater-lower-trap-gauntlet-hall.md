@@ -48,10 +48,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Bilewater Lower Trap Gauntlet Hall (Shadow_10)](../00-annotations/bilewater/bilewater-lower-trap-gauntlet-hall-scene.png)](../00-annotations/bilewater/bilewater-lower-trap-gauntlet-hall-scene.png)
-
 ### Connections
 
 [![Connections for Bilewater Lower Trap Gauntlet Hall (Shadow_10)](../00-annotations/bilewater/bilewater-lower-trap-gauntlet-hall-connections.png)](../00-annotations/bilewater/bilewater-lower-trap-gauntlet-hall-connections.png)
@@ -59,3 +55,7 @@
 ### Checks
 
 [![Checks for Bilewater Lower Trap Gauntlet Hall (Shadow_10)](../00-annotations/bilewater/bilewater-lower-trap-gauntlet-hall-checks.png)](../00-annotations/bilewater/bilewater-lower-trap-gauntlet-hall-checks.png)
+
+### Scene
+
+[![Scene for Bilewater Lower Trap Gauntlet Hall (Shadow_10)](../00-annotations/bilewater/bilewater-lower-trap-gauntlet-hall-scene.png)](../00-annotations/bilewater/bilewater-lower-trap-gauntlet-hall-scene.png)

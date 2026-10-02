@@ -27,10 +27,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Watcher at the Edge (Coral_39)](../00-annotations/sands-of-karak/watcher-at-the-edge-scene.png)](../00-annotations/sands-of-karak/watcher-at-the-edge-scene.png)
-
 ### Connections
 
 [![Connections for Watcher at the Edge (Coral_39)](../00-annotations/sands-of-karak/watcher-at-the-edge-connections.png)](../00-annotations/sands-of-karak/watcher-at-the-edge-connections.png)
@@ -38,3 +34,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Watcher at the Edge (Coral_39)](../00-annotations/sands-of-karak/watcher-at-the-edge-checks.png)](../00-annotations/sands-of-karak/watcher-at-the-edge-checks.png)
+
+### Scene
+
+[![Scene for Watcher at the Edge (Coral_39)](../00-annotations/sands-of-karak/watcher-at-the-edge-scene.png)](../00-annotations/sands-of-karak/watcher-at-the-edge-scene.png)

@@ -32,10 +32,6 @@ cry: would any difficulty modifiers be appropriate? ledge grab and horizontal mo
 
 ## Room Images
 
-### Scene
-
-[![Scene for Wormways Weavenest (Crawl_05)](../00-annotations/wormways/wormways-weavenest-scene.png)](../00-annotations/wormways/wormways-weavenest-scene.png)
-
 ### Connections
 
 [![Connections for Wormways Weavenest (Crawl_05)](../00-annotations/wormways/wormways-weavenest-connections.png)](../00-annotations/wormways/wormways-weavenest-connections.png)
@@ -43,3 +39,7 @@ cry: would any difficulty modifiers be appropriate? ledge grab and horizontal mo
 ### Checks
 
 [![Checks for Wormways Weavenest (Crawl_05)](../00-annotations/wormways/wormways-weavenest-checks.png)](../00-annotations/wormways/wormways-weavenest-checks.png)
+
+### Scene
+
+[![Scene for Wormways Weavenest (Crawl_05)](../00-annotations/wormways/wormways-weavenest-scene.png)](../00-annotations/wormways/wormways-weavenest-scene.png)

@@ -51,10 +51,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Far Fields Deep Lower East (Bone_East_18b)](../00-annotations/far-fields/far-fields-deep-lower-east-scene.png)](../00-annotations/far-fields/far-fields-deep-lower-east-scene.png)
-
 ### Connections
 
 [![Connections for Far Fields Deep Lower East (Bone_East_18b)](../00-annotations/far-fields/far-fields-deep-lower-east-connections.png)](../00-annotations/far-fields/far-fields-deep-lower-east-connections.png)
@@ -62,3 +58,7 @@
 ### Checks
 
 [![Checks for Far Fields Deep Lower East (Bone_East_18b)](../00-annotations/far-fields/far-fields-deep-lower-east-checks.png)](../00-annotations/far-fields/far-fields-deep-lower-east-checks.png)
+
+### Scene
+
+[![Scene for Far Fields Deep Lower East (Bone_East_18b)](../00-annotations/far-fields/far-fields-deep-lower-east-scene.png)](../00-annotations/far-fields/far-fields-deep-lower-east-scene.png)

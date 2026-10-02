@@ -28,10 +28,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Sands of Shakra (Coral_40)](../00-annotations/sands-of-karak/sands-of-shakra-scene.png)](../00-annotations/sands-of-karak/sands-of-shakra-scene.png)
-
 ### Connections
 
 [![Connections for Sands of Shakra (Coral_40)](../00-annotations/sands-of-karak/sands-of-shakra-connections.png)](../00-annotations/sands-of-karak/sands-of-shakra-connections.png)
@@ -39,3 +35,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Sands of Shakra (Coral_40)](../00-annotations/sands-of-karak/sands-of-shakra-checks.png)](../00-annotations/sands-of-karak/sands-of-shakra-checks.png)
+
+### Scene
+
+[![Scene for Sands of Shakra (Coral_40)](../00-annotations/sands-of-karak/sands-of-shakra-scene.png)](../00-annotations/sands-of-karak/sands-of-shakra-scene.png)

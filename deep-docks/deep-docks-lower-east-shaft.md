@@ -39,10 +39,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Deep Docks Lower East Shaft (Dock_15)](../00-annotations/deep-docks/deep-docks-lower-east-shaft-scene.png)](../00-annotations/deep-docks/deep-docks-lower-east-shaft-scene.png)
-
 ### Connections
 
 [![Connections for Deep Docks Lower East Shaft (Dock_15)](../00-annotations/deep-docks/deep-docks-lower-east-shaft-connections.png)](../00-annotations/deep-docks/deep-docks-lower-east-shaft-connections.png)
@@ -50,3 +46,7 @@
 ### Checks
 
 [![Checks for Deep Docks Lower East Shaft (Dock_15)](../00-annotations/deep-docks/deep-docks-lower-east-shaft-checks.png)](../00-annotations/deep-docks/deep-docks-lower-east-shaft-checks.png)
+
+### Scene
+
+[![Scene for Deep Docks Lower East Shaft (Dock_15)](../00-annotations/deep-docks/deep-docks-lower-east-shaft-scene.png)](../00-annotations/deep-docks/deep-docks-lower-east-shaft-scene.png)

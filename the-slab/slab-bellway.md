@@ -29,10 +29,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Slab Bellway (Slab_06)](../00-annotations/the-slab/slab-bellway-scene.png)](../00-annotations/the-slab/slab-bellway-scene.png)
-
 ### Connections
 
 [![Connections for Slab Bellway (Slab_06)](../00-annotations/the-slab/slab-bellway-connections.png)](../00-annotations/the-slab/slab-bellway-connections.png)
@@ -40,3 +36,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Slab Bellway (Slab_06)](../00-annotations/the-slab/slab-bellway-checks.png)](../00-annotations/the-slab/slab-bellway-checks.png)
+
+### Scene
+
+[![Scene for Slab Bellway (Slab_06)](../00-annotations/the-slab/slab-bellway-scene.png)](../00-annotations/the-slab/slab-bellway-scene.png)

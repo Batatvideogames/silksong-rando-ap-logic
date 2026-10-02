@@ -62,10 +62,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Underworks Exhaust Organ Transit (Library_12)](../00-annotations/underworks/underworks-exhaust-organ-transit-scene.png)](../00-annotations/underworks/underworks-exhaust-organ-transit-scene.png)
-
 ### Connections
 
 [![Connections for Underworks Exhaust Organ Transit (Library_12)](../00-annotations/underworks/underworks-exhaust-organ-transit-connections.png)](../00-annotations/underworks/underworks-exhaust-organ-transit-connections.png)
@@ -73,3 +69,7 @@
 ### Checks
 
 [![Checks for Underworks Exhaust Organ Transit (Library_12)](../00-annotations/underworks/underworks-exhaust-organ-transit-checks.png)](../00-annotations/underworks/underworks-exhaust-organ-transit-checks.png)
+
+### Scene
+
+[![Scene for Underworks Exhaust Organ Transit (Library_12)](../00-annotations/underworks/underworks-exhaust-organ-transit-scene.png)](../00-annotations/underworks/underworks-exhaust-organ-transit-scene.png)

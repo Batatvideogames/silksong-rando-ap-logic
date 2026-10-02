@@ -29,10 +29,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Deep Docks Bellshrine (Bellshrine_05)](../00-annotations/deep-docks/deep-docks-bellshrine-scene.png)](../00-annotations/deep-docks/deep-docks-bellshrine-scene.png)
-
 ### Connections
 
 [![Connections for Deep Docks Bellshrine (Bellshrine_05)](../00-annotations/deep-docks/deep-docks-bellshrine-connections.png)](../00-annotations/deep-docks/deep-docks-bellshrine-connections.png)
@@ -40,3 +36,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Deep Docks Bellshrine (Bellshrine_05)](../00-annotations/deep-docks/deep-docks-bellshrine-checks.png)](../00-annotations/deep-docks/deep-docks-bellshrine-checks.png)
+
+### Scene
+
+[![Scene for Deep Docks Bellshrine (Bellshrine_05)](../00-annotations/deep-docks/deep-docks-bellshrine-scene.png)](../00-annotations/deep-docks/deep-docks-bellshrine-scene.png)

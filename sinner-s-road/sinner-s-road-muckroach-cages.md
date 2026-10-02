@@ -37,10 +37,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Sinner's Road Muckroach Cages (Dust_03)](../00-annotations/sinner-s-road/sinner-s-road-muckroach-cages-scene.png)](../00-annotations/sinner-s-road/sinner-s-road-muckroach-cages-scene.png)
-
 ### Connections
 
 [![Connections for Sinner's Road Muckroach Cages (Dust_03)](../00-annotations/sinner-s-road/sinner-s-road-muckroach-cages-connections.png)](../00-annotations/sinner-s-road/sinner-s-road-muckroach-cages-connections.png)
@@ -48,3 +44,7 @@
 ### Checks
 
 [![Checks for Sinner's Road Muckroach Cages (Dust_03)](../00-annotations/sinner-s-road/sinner-s-road-muckroach-cages-checks.png)](../00-annotations/sinner-s-road/sinner-s-road-muckroach-cages-checks.png)
+
+### Scene
+
+[![Scene for Sinner's Road Muckroach Cages (Dust_03)](../00-annotations/sinner-s-road/sinner-s-road-muckroach-cages-scene.png)](../00-annotations/sinner-s-road/sinner-s-road-muckroach-cages-scene.png)

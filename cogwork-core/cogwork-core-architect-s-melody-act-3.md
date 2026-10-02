@@ -37,10 +37,6 @@ No check locations defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Cogwork Core Architect's Melody (Act 3) (Cog_09_Destroyed)](../00-annotations/cogwork-core/cogwork-core-architect-s-melody-act-3-scene.png)](../00-annotations/cogwork-core/cogwork-core-architect-s-melody-act-3-scene.png)
-
 ### Connections
 
 [![Connections for Cogwork Core Architect's Melody (Act 3) (Cog_09_Destroyed)](../00-annotations/cogwork-core/cogwork-core-architect-s-melody-act-3-connections.png)](../00-annotations/cogwork-core/cogwork-core-architect-s-melody-act-3-connections.png)
@@ -48,3 +44,7 @@ No check locations defined.
 ### Checks
 
 [![Checks for Cogwork Core Architect's Melody (Act 3) (Cog_09_Destroyed)](../00-annotations/cogwork-core/cogwork-core-architect-s-melody-act-3-checks.png)](../00-annotations/cogwork-core/cogwork-core-architect-s-melody-act-3-checks.png)
+
+### Scene
+
+[![Scene for Cogwork Core Architect's Melody (Act 3) (Cog_09_Destroyed)](../00-annotations/cogwork-core/cogwork-core-architect-s-melody-act-3-scene.png)](../00-annotations/cogwork-core/cogwork-core-architect-s-melody-act-3-scene.png)

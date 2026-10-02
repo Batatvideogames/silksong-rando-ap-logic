@@ -35,10 +35,6 @@ No check locations defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Underworks Clawline Entrance (Under_19c)](../00-annotations/underworks/underworks-clawline-entrance-scene.png)](../00-annotations/underworks/underworks-clawline-entrance-scene.png)
-
 ### Connections
 
 [![Connections for Underworks Clawline Entrance (Under_19c)](../00-annotations/underworks/underworks-clawline-entrance-connections.png)](../00-annotations/underworks/underworks-clawline-entrance-connections.png)
@@ -46,3 +42,7 @@ No check locations defined.
 ### Checks
 
 [![Checks for Underworks Clawline Entrance (Under_19c)](../00-annotations/underworks/underworks-clawline-entrance-checks.png)](../00-annotations/underworks/underworks-clawline-entrance-checks.png)
+
+### Scene
+
+[![Scene for Underworks Clawline Entrance (Under_19c)](../00-annotations/underworks/underworks-clawline-entrance-scene.png)](../00-annotations/underworks/underworks-clawline-entrance-scene.png)

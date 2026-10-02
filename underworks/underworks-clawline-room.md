@@ -50,10 +50,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Underworks Clawline Room (Under_18)](../00-annotations/underworks/underworks-clawline-room-scene.png)](../00-annotations/underworks/underworks-clawline-room-scene.png)
-
 ### Connections
 
 [![Connections for Underworks Clawline Room (Under_18)](../00-annotations/underworks/underworks-clawline-room-connections.png)](../00-annotations/underworks/underworks-clawline-room-connections.png)
@@ -61,3 +57,7 @@
 ### Checks
 
 [![Checks for Underworks Clawline Room (Under_18)](../00-annotations/underworks/underworks-clawline-room-checks.png)](../00-annotations/underworks/underworks-clawline-room-checks.png)
+
+### Scene
+
+[![Scene for Underworks Clawline Room (Under_18)](../00-annotations/underworks/underworks-clawline-room-scene.png)](../00-annotations/underworks/underworks-clawline-room-scene.png)

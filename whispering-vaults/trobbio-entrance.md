@@ -36,10 +36,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Trobbio Entrance (Library_13b)](../00-annotations/whispering-vaults/trobbio-entrance-scene.png)](../00-annotations/whispering-vaults/trobbio-entrance-scene.png)
-
 ### Connections
 
 [![Connections for Trobbio Entrance (Library_13b)](../00-annotations/whispering-vaults/trobbio-entrance-connections.png)](../00-annotations/whispering-vaults/trobbio-entrance-connections.png)
@@ -47,3 +43,7 @@
 ### Checks
 
 [![Checks for Trobbio Entrance (Library_13b)](../00-annotations/whispering-vaults/trobbio-entrance-checks.png)](../00-annotations/whispering-vaults/trobbio-entrance-checks.png)
+
+### Scene
+
+[![Scene for Trobbio Entrance (Library_13b)](../00-annotations/whispering-vaults/trobbio-entrance-scene.png)](../00-annotations/whispering-vaults/trobbio-entrance-scene.png)

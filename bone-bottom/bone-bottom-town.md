@@ -80,10 +80,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Bone Bottom Town (Bonetown)](../00-annotations/bone-bottom/bone-bottom-town-scene.png)](../00-annotations/bone-bottom/bone-bottom-town-scene.png)
-
 ### Connections
 
 [![Connections for Bone Bottom Town (Bonetown)](../00-annotations/bone-bottom/bone-bottom-town-connections.png)](../00-annotations/bone-bottom/bone-bottom-town-connections.png)
@@ -91,3 +87,7 @@
 ### Checks
 
 [![Checks for Bone Bottom Town (Bonetown)](../00-annotations/bone-bottom/bone-bottom-town-checks.png)](../00-annotations/bone-bottom/bone-bottom-town-checks.png)
+
+### Scene
+
+[![Scene for Bone Bottom Town (Bonetown)](../00-annotations/bone-bottom/bone-bottom-town-scene.png)](../00-annotations/bone-bottom/bone-bottom-town-scene.png)

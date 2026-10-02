@@ -41,10 +41,6 @@ While falling rocks and the bell bench are the same in-game room, there is no co
 
 ## Room Images
 
-### Scene
-
-[![Scene for The Marrow Bell Bench (Bone_01c)](../00-annotations/the-marrow/the-marrow-bell-bench-scene.png)](../00-annotations/the-marrow/the-marrow-bell-bench-scene.png)
-
 ### Connections
 
 [![Connections for The Marrow Bell Bench (Bone_01c)](../00-annotations/the-marrow/the-marrow-bell-bench-connections.png)](../00-annotations/the-marrow/the-marrow-bell-bench-connections.png)
@@ -52,3 +48,7 @@ While falling rocks and the bell bench are the same in-game room, there is no co
 ### Checks
 
 [![Checks for The Marrow Bell Bench (Bone_01c)](../00-annotations/the-marrow/the-marrow-bell-bench-checks.png)](../00-annotations/the-marrow/the-marrow-bell-bench-checks.png)
+
+### Scene
+
+[![Scene for The Marrow Bell Bench (Bone_01c)](../00-annotations/the-marrow/the-marrow-bell-bench-scene.png)](../00-annotations/the-marrow/the-marrow-bell-bench-scene.png)

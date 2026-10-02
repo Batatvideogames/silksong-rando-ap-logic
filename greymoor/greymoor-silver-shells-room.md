@@ -38,10 +38,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Greymoor Silver Shells room (Greymoor_17)](../00-annotations/greymoor/greymoor-silver-shells-room-scene.png)](../00-annotations/greymoor/greymoor-silver-shells-room-scene.png)
-
 ### Connections
 
 [![Connections for Greymoor Silver Shells room (Greymoor_17)](../00-annotations/greymoor/greymoor-silver-shells-room-connections.png)](../00-annotations/greymoor/greymoor-silver-shells-room-connections.png)
@@ -49,3 +45,7 @@
 ### Checks
 
 [![Checks for Greymoor Silver Shells room (Greymoor_17)](../00-annotations/greymoor/greymoor-silver-shells-room-checks.png)](../00-annotations/greymoor/greymoor-silver-shells-room-checks.png)
+
+### Scene
+
+[![Scene for Greymoor Silver Shells room (Greymoor_17)](../00-annotations/greymoor/greymoor-silver-shells-room-scene.png)](../00-annotations/greymoor/greymoor-silver-shells-room-scene.png)

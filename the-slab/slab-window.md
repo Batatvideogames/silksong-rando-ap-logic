@@ -26,10 +26,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Slab Window (Slab_12)](../00-annotations/the-slab/slab-window-scene.png)](../00-annotations/the-slab/slab-window-scene.png)
-
 ### Connections
 
 [![Connections for Slab Window (Slab_12)](../00-annotations/the-slab/slab-window-connections.png)](../00-annotations/the-slab/slab-window-connections.png)
@@ -37,3 +33,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Slab Window (Slab_12)](../00-annotations/the-slab/slab-window-checks.png)](../00-annotations/the-slab/slab-window-checks.png)
+
+### Scene
+
+[![Scene for Slab Window (Slab_12)](../00-annotations/the-slab/slab-window-scene.png)](../00-annotations/the-slab/slab-window-scene.png)

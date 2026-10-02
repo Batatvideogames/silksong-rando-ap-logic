@@ -46,10 +46,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Whispering Vaults Flea Shaft (Library_01)](../00-annotations/whispering-vaults/whispering-vaults-flea-shaft-scene.png)](../00-annotations/whispering-vaults/whispering-vaults-flea-shaft-scene.png)
-
 ### Connections
 
 [![Connections for Whispering Vaults Flea Shaft (Library_01)](../00-annotations/whispering-vaults/whispering-vaults-flea-shaft-connections.png)](../00-annotations/whispering-vaults/whispering-vaults-flea-shaft-connections.png)
@@ -57,3 +53,7 @@
 ### Checks
 
 [![Checks for Whispering Vaults Flea Shaft (Library_01)](../00-annotations/whispering-vaults/whispering-vaults-flea-shaft-checks.png)](../00-annotations/whispering-vaults/whispering-vaults-flea-shaft-checks.png)
+
+### Scene
+
+[![Scene for Whispering Vaults Flea Shaft (Library_01)](../00-annotations/whispering-vaults/whispering-vaults-flea-shaft-scene.png)](../00-annotations/whispering-vaults/whispering-vaults-flea-shaft-scene.png)

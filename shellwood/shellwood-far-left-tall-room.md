@@ -25,10 +25,6 @@ No check locations defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for shellwood Far Left Tall Room (Shellwood_04c)](../00-annotations/shellwood/shellwood-far-left-tall-room-scene.png)](../00-annotations/shellwood/shellwood-far-left-tall-room-scene.png)
-
 ### Connections
 
 [![Connections for shellwood Far Left Tall Room (Shellwood_04c)](../00-annotations/shellwood/shellwood-far-left-tall-room-connections.png)](../00-annotations/shellwood/shellwood-far-left-tall-room-connections.png)
@@ -36,3 +32,7 @@ No check locations defined.
 ### Checks
 
 [![Checks for shellwood Far Left Tall Room (Shellwood_04c)](../00-annotations/shellwood/shellwood-far-left-tall-room-checks.png)](../00-annotations/shellwood/shellwood-far-left-tall-room-checks.png)
+
+### Scene
+
+[![Scene for shellwood Far Left Tall Room (Shellwood_04c)](../00-annotations/shellwood/shellwood-far-left-tall-room-scene.png)](../00-annotations/shellwood/shellwood-far-left-tall-room-scene.png)

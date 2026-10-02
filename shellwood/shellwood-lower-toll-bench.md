@@ -28,10 +28,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Shellwood Lower Toll bench (Shellwood_08c)](../00-annotations/shellwood/shellwood-lower-toll-bench-scene.png)](../00-annotations/shellwood/shellwood-lower-toll-bench-scene.png)
-
 ### Connections
 
 [![Connections for Shellwood Lower Toll bench (Shellwood_08c)](../00-annotations/shellwood/shellwood-lower-toll-bench-connections.png)](../00-annotations/shellwood/shellwood-lower-toll-bench-connections.png)
@@ -39,3 +35,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Shellwood Lower Toll bench (Shellwood_08c)](../00-annotations/shellwood/shellwood-lower-toll-bench-checks.png)](../00-annotations/shellwood/shellwood-lower-toll-bench-checks.png)
+
+### Scene
+
+[![Scene for Shellwood Lower Toll bench (Shellwood_08c)](../00-annotations/shellwood/shellwood-lower-toll-bench-scene.png)](../00-annotations/shellwood/shellwood-lower-toll-bench-scene.png)

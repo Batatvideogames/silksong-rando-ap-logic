@@ -27,10 +27,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Grand Gate Maintenance Room (Song_01c)](../00-annotations/grand-gate/grand-gate-maintenance-room-scene.png)](../00-annotations/grand-gate/grand-gate-maintenance-room-scene.png)
-
 ### Connections
 
 [![Connections for Grand Gate Maintenance Room (Song_01c)](../00-annotations/grand-gate/grand-gate-maintenance-room-connections.png)](../00-annotations/grand-gate/grand-gate-maintenance-room-connections.png)
@@ -38,3 +34,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Grand Gate Maintenance Room (Song_01c)](../00-annotations/grand-gate/grand-gate-maintenance-room-checks.png)](../00-annotations/grand-gate/grand-gate-maintenance-room-checks.png)
+
+### Scene
+
+[![Scene for Grand Gate Maintenance Room (Song_01c)](../00-annotations/grand-gate/grand-gate-maintenance-room-scene.png)](../00-annotations/grand-gate/grand-gate-maintenance-room-scene.png)

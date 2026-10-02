@@ -41,10 +41,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Hunter's March Deep Docks Passage (Ant_05b)](../00-annotations/hunter-s-march/hunter-s-march-deep-docks-passage-scene.png)](../00-annotations/hunter-s-march/hunter-s-march-deep-docks-passage-scene.png)
-
 ### Connections
 
 [![Connections for Hunter's March Deep Docks Passage (Ant_05b)](../00-annotations/hunter-s-march/hunter-s-march-deep-docks-passage-connections.png)](../00-annotations/hunter-s-march/hunter-s-march-deep-docks-passage-connections.png)
@@ -52,3 +48,7 @@
 ### Checks
 
 [![Checks for Hunter's March Deep Docks Passage (Ant_05b)](../00-annotations/hunter-s-march/hunter-s-march-deep-docks-passage-checks.png)](../00-annotations/hunter-s-march/hunter-s-march-deep-docks-passage-checks.png)
+
+### Scene
+
+[![Scene for Hunter's March Deep Docks Passage (Ant_05b)](../00-annotations/hunter-s-march/hunter-s-march-deep-docks-passage-scene.png)](../00-annotations/hunter-s-march/hunter-s-march-deep-docks-passage-scene.png)

@@ -59,10 +59,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Whiteward Entrance (Ward_01)](../00-annotations/whiteward/whiteward-entrance-scene.png)](../00-annotations/whiteward/whiteward-entrance-scene.png)
-
 ### Connections
 
 [![Connections for Whiteward Entrance (Ward_01)](../00-annotations/whiteward/whiteward-entrance-connections.png)](../00-annotations/whiteward/whiteward-entrance-connections.png)
@@ -70,3 +66,7 @@
 ### Checks
 
 [![Checks for Whiteward Entrance (Ward_01)](../00-annotations/whiteward/whiteward-entrance-checks.png)](../00-annotations/whiteward/whiteward-entrance-checks.png)
+
+### Scene
+
+[![Scene for Whiteward Entrance (Ward_01)](../00-annotations/whiteward/whiteward-entrance-scene.png)](../00-annotations/whiteward/whiteward-entrance-scene.png)

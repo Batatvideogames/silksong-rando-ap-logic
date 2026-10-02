@@ -39,10 +39,6 @@ No check locations defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Bilewater Upper East Column (Shadow_26)](../00-annotations/bilewater/bilewater-upper-east-column-scene.png)](../00-annotations/bilewater/bilewater-upper-east-column-scene.png)
-
 ### Connections
 
 [![Connections for Bilewater Upper East Column (Shadow_26)](../00-annotations/bilewater/bilewater-upper-east-column-connections.png)](../00-annotations/bilewater/bilewater-upper-east-column-connections.png)
@@ -50,3 +46,7 @@ No check locations defined.
 ### Checks
 
 [![Checks for Bilewater Upper East Column (Shadow_26)](../00-annotations/bilewater/bilewater-upper-east-column-checks.png)](../00-annotations/bilewater/bilewater-upper-east-column-checks.png)
+
+### Scene
+
+[![Scene for Bilewater Upper East Column (Shadow_26)](../00-annotations/bilewater/bilewater-upper-east-column-scene.png)](../00-annotations/bilewater/bilewater-upper-east-column-scene.png)

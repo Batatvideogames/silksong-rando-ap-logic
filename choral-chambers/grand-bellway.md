@@ -39,10 +39,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Grand Bellway (Bellway_City)](../00-annotations/choral-chambers/grand-bellway-scene.png)](../00-annotations/choral-chambers/grand-bellway-scene.png)
-
 ### Connections
 
 [![Connections for Grand Bellway (Bellway_City)](../00-annotations/choral-chambers/grand-bellway-connections.png)](../00-annotations/choral-chambers/grand-bellway-connections.png)
@@ -50,3 +46,7 @@
 ### Checks
 
 [![Checks for Grand Bellway (Bellway_City)](../00-annotations/choral-chambers/grand-bellway-checks.png)](../00-annotations/choral-chambers/grand-bellway-checks.png)
+
+### Scene
+
+[![Scene for Grand Bellway (Bellway_City)](../00-annotations/choral-chambers/grand-bellway-scene.png)](../00-annotations/choral-chambers/grand-bellway-scene.png)

@@ -37,10 +37,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Slab Infleatween Bottom (Slab_05)](../00-annotations/the-slab/slab-infleatween-bottom-scene.png)](../00-annotations/the-slab/slab-infleatween-bottom-scene.png)
-
 ### Connections
 
 [![Connections for Slab Infleatween Bottom (Slab_05)](../00-annotations/the-slab/slab-infleatween-bottom-connections.png)](../00-annotations/the-slab/slab-infleatween-bottom-connections.png)
@@ -48,3 +44,7 @@
 ### Checks
 
 [![Checks for Slab Infleatween Bottom (Slab_05)](../00-annotations/the-slab/slab-infleatween-bottom-checks.png)](../00-annotations/the-slab/slab-infleatween-bottom-checks.png)
+
+### Scene
+
+[![Scene for Slab Infleatween Bottom (Slab_05)](../00-annotations/the-slab/slab-infleatween-bottom-scene.png)](../00-annotations/the-slab/slab-infleatween-bottom-scene.png)

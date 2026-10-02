@@ -26,10 +26,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Pimpillo Room (Wisp_06)](../00-annotations/greymoor/pimpillo-room-scene.png)](../00-annotations/greymoor/pimpillo-room-scene.png)
-
 ### Connections
 
 [![Connections for Pimpillo Room (Wisp_06)](../00-annotations/greymoor/pimpillo-room-connections.png)](../00-annotations/greymoor/pimpillo-room-connections.png)
@@ -37,3 +33,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Pimpillo Room (Wisp_06)](../00-annotations/greymoor/pimpillo-room-checks.png)](../00-annotations/greymoor/pimpillo-room-checks.png)
+
+### Scene
+
+[![Scene for Pimpillo Room (Wisp_06)](../00-annotations/greymoor/pimpillo-room-scene.png)](../00-annotations/greymoor/pimpillo-room-scene.png)

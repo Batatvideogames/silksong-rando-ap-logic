@@ -35,10 +35,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Yarnaby Place (Wisp_03)](../00-annotations/greymoor/yarnaby-place-scene.png)](../00-annotations/greymoor/yarnaby-place-scene.png)
-
 ### Connections
 
 [![Connections for Yarnaby Place (Wisp_03)](../00-annotations/greymoor/yarnaby-place-connections.png)](../00-annotations/greymoor/yarnaby-place-connections.png)
@@ -46,3 +42,7 @@
 ### Checks
 
 [![Checks for Yarnaby Place (Wisp_03)](../00-annotations/greymoor/yarnaby-place-checks.png)](../00-annotations/greymoor/yarnaby-place-checks.png)
+
+### Scene
+
+[![Scene for Yarnaby Place (Wisp_03)](../00-annotations/greymoor/yarnaby-place-scene.png)](../00-annotations/greymoor/yarnaby-place-scene.png)

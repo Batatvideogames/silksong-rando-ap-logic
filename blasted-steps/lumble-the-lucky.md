@@ -30,10 +30,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Lumble the Lucky (Coral_33)](../00-annotations/blasted-steps/lumble-the-lucky-scene.png)](../00-annotations/blasted-steps/lumble-the-lucky-scene.png)
-
 ### Connections
 
 [![Connections for Lumble the Lucky (Coral_33)](../00-annotations/blasted-steps/lumble-the-lucky-connections.png)](../00-annotations/blasted-steps/lumble-the-lucky-connections.png)
@@ -41,3 +37,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Lumble the Lucky (Coral_33)](../00-annotations/blasted-steps/lumble-the-lucky-checks.png)](../00-annotations/blasted-steps/lumble-the-lucky-checks.png)
+
+### Scene
+
+[![Scene for Lumble the Lucky (Coral_33)](../00-annotations/blasted-steps/lumble-the-lucky-scene.png)](../00-annotations/blasted-steps/lumble-the-lucky-scene.png)

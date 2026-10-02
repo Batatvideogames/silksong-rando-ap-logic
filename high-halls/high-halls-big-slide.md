@@ -25,10 +25,6 @@ No check locations defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for High Halls Big Slide (Hang_13)](../00-annotations/high-halls/high-halls-big-slide-scene.png)](../00-annotations/high-halls/high-halls-big-slide-scene.png)
-
 ### Connections
 
 [![Connections for High Halls Big Slide (Hang_13)](../00-annotations/high-halls/high-halls-big-slide-connections.png)](../00-annotations/high-halls/high-halls-big-slide-connections.png)
@@ -36,3 +32,7 @@ No check locations defined.
 ### Checks
 
 [![Checks for High Halls Big Slide (Hang_13)](../00-annotations/high-halls/high-halls-big-slide-checks.png)](../00-annotations/high-halls/high-halls-big-slide-checks.png)
+
+### Scene
+
+[![Scene for High Halls Big Slide (Hang_13)](../00-annotations/high-halls/high-halls-big-slide-scene.png)](../00-annotations/high-halls/high-halls-big-slide-scene.png)

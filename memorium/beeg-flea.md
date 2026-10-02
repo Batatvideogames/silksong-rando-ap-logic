@@ -34,10 +34,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for BEEG flea (Arborium_08)](../00-annotations/memorium/beeg-flea-scene.png)](../00-annotations/memorium/beeg-flea-scene.png)
-
 ### Connections
 
 [![Connections for BEEG flea (Arborium_08)](../00-annotations/memorium/beeg-flea-connections.png)](../00-annotations/memorium/beeg-flea-connections.png)
@@ -45,3 +41,7 @@
 ### Checks
 
 [![Checks for BEEG flea (Arborium_08)](../00-annotations/memorium/beeg-flea-checks.png)](../00-annotations/memorium/beeg-flea-checks.png)
+
+### Scene
+
+[![Scene for BEEG flea (Arborium_08)](../00-annotations/memorium/beeg-flea-scene.png)](../00-annotations/memorium/beeg-flea-scene.png)

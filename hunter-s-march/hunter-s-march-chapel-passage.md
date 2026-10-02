@@ -36,10 +36,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Hunter's March Chapel Passage (Ant_20)](../00-annotations/hunter-s-march/hunter-s-march-chapel-passage-scene.png)](../00-annotations/hunter-s-march/hunter-s-march-chapel-passage-scene.png)
-
 ### Connections
 
 [![Connections for Hunter's March Chapel Passage (Ant_20)](../00-annotations/hunter-s-march/hunter-s-march-chapel-passage-connections.png)](../00-annotations/hunter-s-march/hunter-s-march-chapel-passage-connections.png)
@@ -47,3 +43,7 @@
 ### Checks
 
 [![Checks for Hunter's March Chapel Passage (Ant_20)](../00-annotations/hunter-s-march/hunter-s-march-chapel-passage-checks.png)](../00-annotations/hunter-s-march/hunter-s-march-chapel-passage-checks.png)
+
+### Scene
+
+[![Scene for Hunter's March Chapel Passage (Ant_20)](../00-annotations/hunter-s-march/hunter-s-march-chapel-passage-scene.png)](../00-annotations/hunter-s-march/hunter-s-march-chapel-passage-scene.png)

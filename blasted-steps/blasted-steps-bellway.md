@@ -31,10 +31,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Blasted Steps Bellway (Bellway_08)](../00-annotations/blasted-steps/blasted-steps-bellway-scene.png)](../00-annotations/blasted-steps/blasted-steps-bellway-scene.png)
-
 ### Connections
 
 [![Connections for Blasted Steps Bellway (Bellway_08)](../00-annotations/blasted-steps/blasted-steps-bellway-connections.png)](../00-annotations/blasted-steps/blasted-steps-bellway-connections.png)
@@ -42,3 +38,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Blasted Steps Bellway (Bellway_08)](../00-annotations/blasted-steps/blasted-steps-bellway-checks.png)](../00-annotations/blasted-steps/blasted-steps-bellway-checks.png)
+
+### Scene
+
+[![Scene for Blasted Steps Bellway (Bellway_08)](../00-annotations/blasted-steps/blasted-steps-bellway-scene.png)](../00-annotations/blasted-steps/blasted-steps-bellway-scene.png)

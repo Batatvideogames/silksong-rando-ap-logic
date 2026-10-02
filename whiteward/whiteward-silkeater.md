@@ -26,10 +26,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Whiteward Silkeater (Ward_04)](../00-annotations/whiteward/whiteward-silkeater-scene.png)](../00-annotations/whiteward/whiteward-silkeater-scene.png)
-
 ### Connections
 
 [![Connections for Whiteward Silkeater (Ward_04)](../00-annotations/whiteward/whiteward-silkeater-connections.png)](../00-annotations/whiteward/whiteward-silkeater-connections.png)
@@ -37,3 +33,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Whiteward Silkeater (Ward_04)](../00-annotations/whiteward/whiteward-silkeater-checks.png)](../00-annotations/whiteward/whiteward-silkeater-checks.png)
+
+### Scene
+
+[![Scene for Whiteward Silkeater (Ward_04)](../00-annotations/whiteward/whiteward-silkeater-scene.png)](../00-annotations/whiteward/whiteward-silkeater-scene.png)

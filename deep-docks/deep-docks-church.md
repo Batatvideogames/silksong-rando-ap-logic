@@ -43,10 +43,6 @@ might need to revise the subrooms later
 
 ## Room Images
 
-### Scene
-
-[![Scene for Deep Docks Church (Dock_06_Church)](../00-annotations/deep-docks/deep-docks-church-scene.png)](../00-annotations/deep-docks/deep-docks-church-scene.png)
-
 ### Connections
 
 [![Connections for Deep Docks Church (Dock_06_Church)](../00-annotations/deep-docks/deep-docks-church-connections.png)](../00-annotations/deep-docks/deep-docks-church-connections.png)
@@ -54,3 +50,7 @@ might need to revise the subrooms later
 ### Checks
 
 [![Checks for Deep Docks Church (Dock_06_Church)](../00-annotations/deep-docks/deep-docks-church-checks.png)](../00-annotations/deep-docks/deep-docks-church-checks.png)
+
+### Scene
+
+[![Scene for Deep Docks Church (Dock_06_Church)](../00-annotations/deep-docks/deep-docks-church-scene.png)](../00-annotations/deep-docks/deep-docks-church-scene.png)

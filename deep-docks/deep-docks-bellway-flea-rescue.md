@@ -38,10 +38,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Deep Docks Bellway Flea Rescue (Dock_16)](../00-annotations/deep-docks/deep-docks-bellway-flea-rescue-scene.png)](../00-annotations/deep-docks/deep-docks-bellway-flea-rescue-scene.png)
-
 ### Connections
 
 [![Connections for Deep Docks Bellway Flea Rescue (Dock_16)](../00-annotations/deep-docks/deep-docks-bellway-flea-rescue-connections.png)](../00-annotations/deep-docks/deep-docks-bellway-flea-rescue-connections.png)
@@ -49,3 +45,7 @@
 ### Checks
 
 [![Checks for Deep Docks Bellway Flea Rescue (Dock_16)](../00-annotations/deep-docks/deep-docks-bellway-flea-rescue-checks.png)](../00-annotations/deep-docks/deep-docks-bellway-flea-rescue-checks.png)
+
+### Scene
+
+[![Scene for Deep Docks Bellway Flea Rescue (Dock_16)](../00-annotations/deep-docks/deep-docks-bellway-flea-rescue-scene.png)](../00-annotations/deep-docks/deep-docks-bellway-flea-rescue-scene.png)

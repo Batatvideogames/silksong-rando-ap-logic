@@ -51,10 +51,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Far Fields Upper Shaft (Bone_East_11)](../00-annotations/far-fields/far-fields-upper-shaft-scene.png)](../00-annotations/far-fields/far-fields-upper-shaft-scene.png)
-
 ### Connections
 
 [![Connections for Far Fields Upper Shaft (Bone_East_11)](../00-annotations/far-fields/far-fields-upper-shaft-connections.png)](../00-annotations/far-fields/far-fields-upper-shaft-connections.png)
@@ -62,3 +58,7 @@
 ### Checks
 
 [![Checks for Far Fields Upper Shaft (Bone_East_11)](../00-annotations/far-fields/far-fields-upper-shaft-checks.png)](../00-annotations/far-fields/far-fields-upper-shaft-checks.png)
+
+### Scene
+
+[![Scene for Far Fields Upper Shaft (Bone_East_11)](../00-annotations/far-fields/far-fields-upper-shaft-scene.png)](../00-annotations/far-fields/far-fields-upper-shaft-scene.png)

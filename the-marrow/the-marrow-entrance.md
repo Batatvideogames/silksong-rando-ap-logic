@@ -61,10 +61,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for The Marrow Entrance (Bone_01)](../00-annotations/the-marrow/the-marrow-entrance-scene.png)](../00-annotations/the-marrow/the-marrow-entrance-scene.png)
-
 ### Connections
 
 [![Connections for The Marrow Entrance (Bone_01)](../00-annotations/the-marrow/the-marrow-entrance-connections.png)](../00-annotations/the-marrow/the-marrow-entrance-connections.png)
@@ -72,3 +68,7 @@
 ### Checks
 
 [![Checks for The Marrow Entrance (Bone_01)](../00-annotations/the-marrow/the-marrow-entrance-checks.png)](../00-annotations/the-marrow/the-marrow-entrance-checks.png)
+
+### Scene
+
+[![Scene for The Marrow Entrance (Bone_01)](../00-annotations/the-marrow/the-marrow-entrance-scene.png)](../00-annotations/the-marrow/the-marrow-entrance-scene.png)

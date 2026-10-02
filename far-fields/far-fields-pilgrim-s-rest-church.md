@@ -36,10 +36,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Far Fields Pilgrim's Rest Church (Bone_East_10_Church)](../00-annotations/far-fields/far-fields-pilgrim-s-rest-church-scene.png)](../00-annotations/far-fields/far-fields-pilgrim-s-rest-church-scene.png)
-
 ### Connections
 
 [![Connections for Far Fields Pilgrim's Rest Church (Bone_East_10_Church)](../00-annotations/far-fields/far-fields-pilgrim-s-rest-church-connections.png)](../00-annotations/far-fields/far-fields-pilgrim-s-rest-church-connections.png)
@@ -47,3 +43,7 @@
 ### Checks
 
 [![Checks for Far Fields Pilgrim's Rest Church (Bone_East_10_Church)](../00-annotations/far-fields/far-fields-pilgrim-s-rest-church-checks.png)](../00-annotations/far-fields/far-fields-pilgrim-s-rest-church-checks.png)
+
+### Scene
+
+[![Scene for Far Fields Pilgrim's Rest Church (Bone_East_10_Church)](../00-annotations/far-fields/far-fields-pilgrim-s-rest-church-scene.png)](../00-annotations/far-fields/far-fields-pilgrim-s-rest-church-scene.png)

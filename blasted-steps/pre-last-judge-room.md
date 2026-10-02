@@ -56,10 +56,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Pre Last Judge Room (Coral_32)](../00-annotations/blasted-steps/pre-last-judge-room-scene.png)](../00-annotations/blasted-steps/pre-last-judge-room-scene.png)
-
 ### Connections
 
 [![Connections for Pre Last Judge Room (Coral_32)](../00-annotations/blasted-steps/pre-last-judge-room-connections.png)](../00-annotations/blasted-steps/pre-last-judge-room-connections.png)
@@ -67,3 +63,7 @@
 ### Checks
 
 [![Checks for Pre Last Judge Room (Coral_32)](../00-annotations/blasted-steps/pre-last-judge-room-checks.png)](../00-annotations/blasted-steps/pre-last-judge-room-checks.png)
+
+### Scene
+
+[![Scene for Pre Last Judge Room (Coral_32)](../00-annotations/blasted-steps/pre-last-judge-room-scene.png)](../00-annotations/blasted-steps/pre-last-judge-room-scene.png)

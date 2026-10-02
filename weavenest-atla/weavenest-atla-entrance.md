@@ -25,10 +25,6 @@ No check locations defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Weavenest Atla Entrance (Weave_04)](../00-annotations/weavenest-atla/weavenest-atla-entrance-scene.png)](../00-annotations/weavenest-atla/weavenest-atla-entrance-scene.png)
-
 ### Connections
 
 [![Connections for Weavenest Atla Entrance (Weave_04)](../00-annotations/weavenest-atla/weavenest-atla-entrance-connections.png)](../00-annotations/weavenest-atla/weavenest-atla-entrance-connections.png)
@@ -36,3 +32,7 @@ No check locations defined.
 ### Checks
 
 [![Checks for Weavenest Atla Entrance (Weave_04)](../00-annotations/weavenest-atla/weavenest-atla-entrance-checks.png)](../00-annotations/weavenest-atla/weavenest-atla-entrance-checks.png)
+
+### Scene
+
+[![Scene for Weavenest Atla Entrance (Weave_04)](../00-annotations/weavenest-atla/weavenest-atla-entrance-scene.png)](../00-annotations/weavenest-atla/weavenest-atla-entrance-scene.png)

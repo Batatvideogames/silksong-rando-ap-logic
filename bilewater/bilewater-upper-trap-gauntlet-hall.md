@@ -25,10 +25,6 @@ No check locations defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Bilewater Upper Trap Gauntlet Hall (Shadow_12)](../00-annotations/bilewater/bilewater-upper-trap-gauntlet-hall-scene.png)](../00-annotations/bilewater/bilewater-upper-trap-gauntlet-hall-scene.png)
-
 ### Connections
 
 [![Connections for Bilewater Upper Trap Gauntlet Hall (Shadow_12)](../00-annotations/bilewater/bilewater-upper-trap-gauntlet-hall-connections.png)](../00-annotations/bilewater/bilewater-upper-trap-gauntlet-hall-connections.png)
@@ -36,3 +32,7 @@ No check locations defined.
 ### Checks
 
 [![Checks for Bilewater Upper Trap Gauntlet Hall (Shadow_12)](../00-annotations/bilewater/bilewater-upper-trap-gauntlet-hall-checks.png)](../00-annotations/bilewater/bilewater-upper-trap-gauntlet-hall-checks.png)
+
+### Scene
+
+[![Scene for Bilewater Upper Trap Gauntlet Hall (Shadow_12)](../00-annotations/bilewater/bilewater-upper-trap-gauntlet-hall-scene.png)](../00-annotations/bilewater/bilewater-upper-trap-gauntlet-hall-scene.png)

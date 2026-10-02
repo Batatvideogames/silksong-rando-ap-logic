@@ -61,10 +61,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for The Marrow Lava Track (Bone_16)](../00-annotations/the-marrow/the-marrow-lava-track-scene.png)](../00-annotations/the-marrow/the-marrow-lava-track-scene.png)
-
 ### Connections
 
 [![Connections for The Marrow Lava Track (Bone_16)](../00-annotations/the-marrow/the-marrow-lava-track-connections.png)](../00-annotations/the-marrow/the-marrow-lava-track-connections.png)
@@ -72,3 +68,7 @@
 ### Checks
 
 [![Checks for The Marrow Lava Track (Bone_16)](../00-annotations/the-marrow/the-marrow-lava-track-checks.png)](../00-annotations/the-marrow/the-marrow-lava-track-checks.png)
+
+### Scene
+
+[![Scene for The Marrow Lava Track (Bone_16)](../00-annotations/the-marrow/the-marrow-lava-track-scene.png)](../00-annotations/the-marrow/the-marrow-lava-track-scene.png)

@@ -46,10 +46,6 @@ No check locations defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Far Fields Pilgrim's Rest (Bone_East_10)](../00-annotations/far-fields/far-fields-pilgrim-s-rest-scene.png)](../00-annotations/far-fields/far-fields-pilgrim-s-rest-scene.png)
-
 ### Connections
 
 [![Connections for Far Fields Pilgrim's Rest (Bone_East_10)](../00-annotations/far-fields/far-fields-pilgrim-s-rest-connections.png)](../00-annotations/far-fields/far-fields-pilgrim-s-rest-connections.png)
@@ -57,3 +53,7 @@ No check locations defined.
 ### Checks
 
 [![Checks for Far Fields Pilgrim's Rest (Bone_East_10)](../00-annotations/far-fields/far-fields-pilgrim-s-rest-checks.png)](../00-annotations/far-fields/far-fields-pilgrim-s-rest-checks.png)
+
+### Scene
+
+[![Scene for Far Fields Pilgrim's Rest (Bone_East_10)](../00-annotations/far-fields/far-fields-pilgrim-s-rest-scene.png)](../00-annotations/far-fields/far-fields-pilgrim-s-rest-scene.png)

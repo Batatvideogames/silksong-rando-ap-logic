@@ -68,10 +68,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Underworks Twelfth Architect (Under_17)](../00-annotations/underworks/underworks-twelfth-architect-scene.png)](../00-annotations/underworks/underworks-twelfth-architect-scene.png)
-
 ### Connections
 
 [![Connections for Underworks Twelfth Architect (Under_17)](../00-annotations/underworks/underworks-twelfth-architect-connections.png)](../00-annotations/underworks/underworks-twelfth-architect-connections.png)
@@ -79,3 +75,7 @@
 ### Checks
 
 [![Checks for Underworks Twelfth Architect (Under_17)](../00-annotations/underworks/underworks-twelfth-architect-checks.png)](../00-annotations/underworks/underworks-twelfth-architect-checks.png)
+
+### Scene
+
+[![Scene for Underworks Twelfth Architect (Under_17)](../00-annotations/underworks/underworks-twelfth-architect-scene.png)](../00-annotations/underworks/underworks-twelfth-architect-scene.png)

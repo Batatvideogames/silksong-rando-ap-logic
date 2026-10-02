@@ -37,10 +37,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Hunter's March Map Shop (Ant_04_mid)](../00-annotations/hunter-s-march/hunter-s-march-map-shop-scene.png)](../00-annotations/hunter-s-march/hunter-s-march-map-shop-scene.png)
-
 ### Connections
 
 [![Connections for Hunter's March Map Shop (Ant_04_mid)](../00-annotations/hunter-s-march/hunter-s-march-map-shop-connections.png)](../00-annotations/hunter-s-march/hunter-s-march-map-shop-connections.png)
@@ -48,3 +44,7 @@
 ### Checks
 
 [![Checks for Hunter's March Map Shop (Ant_04_mid)](../00-annotations/hunter-s-march/hunter-s-march-map-shop-checks.png)](../00-annotations/hunter-s-march/hunter-s-march-map-shop-checks.png)
+
+### Scene
+
+[![Scene for Hunter's March Map Shop (Ant_04_mid)](../00-annotations/hunter-s-march/hunter-s-march-map-shop-scene.png)](../00-annotations/hunter-s-march/hunter-s-march-map-shop-scene.png)

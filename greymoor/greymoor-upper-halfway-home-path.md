@@ -41,10 +41,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Greymoor Upper Halfway Home Path (Greymoor_12)](../00-annotations/greymoor/greymoor-upper-halfway-home-path-scene.png)](../00-annotations/greymoor/greymoor-upper-halfway-home-path-scene.png)
-
 ### Connections
 
 [![Connections for Greymoor Upper Halfway Home Path (Greymoor_12)](../00-annotations/greymoor/greymoor-upper-halfway-home-path-connections.png)](../00-annotations/greymoor/greymoor-upper-halfway-home-path-connections.png)
@@ -52,3 +48,7 @@
 ### Checks
 
 [![Checks for Greymoor Upper Halfway Home Path (Greymoor_12)](../00-annotations/greymoor/greymoor-upper-halfway-home-path-checks.png)](../00-annotations/greymoor/greymoor-upper-halfway-home-path-checks.png)
+
+### Scene
+
+[![Scene for Greymoor Upper Halfway Home Path (Greymoor_12)](../00-annotations/greymoor/greymoor-upper-halfway-home-path-scene.png)](../00-annotations/greymoor/greymoor-upper-halfway-home-path-scene.png)

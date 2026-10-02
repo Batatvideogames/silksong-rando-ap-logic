@@ -26,10 +26,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Sands of Karak Bellshrine (Bellshrine_Coral)](../00-annotations/sands-of-karak/sands-of-karak-bellshrine-scene.png)](../00-annotations/sands-of-karak/sands-of-karak-bellshrine-scene.png)
-
 ### Connections
 
 [![Connections for Sands of Karak Bellshrine (Bellshrine_Coral)](../00-annotations/sands-of-karak/sands-of-karak-bellshrine-connections.png)](../00-annotations/sands-of-karak/sands-of-karak-bellshrine-connections.png)
@@ -37,3 +33,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Sands of Karak Bellshrine (Bellshrine_Coral)](../00-annotations/sands-of-karak/sands-of-karak-bellshrine-checks.png)](../00-annotations/sands-of-karak/sands-of-karak-bellshrine-checks.png)
+
+### Scene
+
+[![Scene for Sands of Karak Bellshrine (Bellshrine_Coral)](../00-annotations/sands-of-karak/sands-of-karak-bellshrine-scene.png)](../00-annotations/sands-of-karak/sands-of-karak-bellshrine-scene.png)

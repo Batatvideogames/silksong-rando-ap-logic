@@ -41,10 +41,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Far Fields Bellway (Bellway_03)](../00-annotations/far-fields/far-fields-bellway-scene.png)](../00-annotations/far-fields/far-fields-bellway-scene.png)
-
 ### Connections
 
 [![Connections for Far Fields Bellway (Bellway_03)](../00-annotations/far-fields/far-fields-bellway-connections.png)](../00-annotations/far-fields/far-fields-bellway-connections.png)
@@ -52,3 +48,7 @@
 ### Checks
 
 [![Checks for Far Fields Bellway (Bellway_03)](../00-annotations/far-fields/far-fields-bellway-checks.png)](../00-annotations/far-fields/far-fields-bellway-checks.png)
+
+### Scene
+
+[![Scene for Far Fields Bellway (Bellway_03)](../00-annotations/far-fields/far-fields-bellway-scene.png)](../00-annotations/far-fields/far-fields-bellway-scene.png)

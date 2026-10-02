@@ -52,10 +52,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Whispering Vaults Totally Not White Palace (Library_07)](../00-annotations/whispering-vaults/whispering-vaults-totally-not-white-palace-scene.png)](../00-annotations/whispering-vaults/whispering-vaults-totally-not-white-palace-scene.png)
-
 ### Connections
 
 [![Connections for Whispering Vaults Totally Not White Palace (Library_07)](../00-annotations/whispering-vaults/whispering-vaults-totally-not-white-palace-connections.png)](../00-annotations/whispering-vaults/whispering-vaults-totally-not-white-palace-connections.png)
@@ -63,3 +59,7 @@
 ### Checks
 
 [![Checks for Whispering Vaults Totally Not White Palace (Library_07)](../00-annotations/whispering-vaults/whispering-vaults-totally-not-white-palace-checks.png)](../00-annotations/whispering-vaults/whispering-vaults-totally-not-white-palace-checks.png)
+
+### Scene
+
+[![Scene for Whispering Vaults Totally Not White Palace (Library_07)](../00-annotations/whispering-vaults/whispering-vaults-totally-not-white-palace-scene.png)](../00-annotations/whispering-vaults/whispering-vaults-totally-not-white-palace-scene.png)

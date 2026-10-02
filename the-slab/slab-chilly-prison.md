@@ -34,10 +34,6 @@ No check locations defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Slab Chilly Prison (Slab_15)](../00-annotations/the-slab/slab-chilly-prison-scene.png)](../00-annotations/the-slab/slab-chilly-prison-scene.png)
-
 ### Connections
 
 [![Connections for Slab Chilly Prison (Slab_15)](../00-annotations/the-slab/slab-chilly-prison-connections.png)](../00-annotations/the-slab/slab-chilly-prison-connections.png)
@@ -45,3 +41,7 @@ No check locations defined.
 ### Checks
 
 [![Checks for Slab Chilly Prison (Slab_15)](../00-annotations/the-slab/slab-chilly-prison-checks.png)](../00-annotations/the-slab/slab-chilly-prison-checks.png)
+
+### Scene
+
+[![Scene for Slab Chilly Prison (Slab_15)](../00-annotations/the-slab/slab-chilly-prison-scene.png)](../00-annotations/the-slab/slab-chilly-prison-scene.png)

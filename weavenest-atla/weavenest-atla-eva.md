@@ -36,10 +36,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Weavenest Atla Eva (Weave_10)](../00-annotations/weavenest-atla/weavenest-atla-eva-scene.png)](../00-annotations/weavenest-atla/weavenest-atla-eva-scene.png)
-
 ### Connections
 
 [![Connections for Weavenest Atla Eva (Weave_10)](../00-annotations/weavenest-atla/weavenest-atla-eva-connections.png)](../00-annotations/weavenest-atla/weavenest-atla-eva-connections.png)
@@ -47,3 +43,7 @@
 ### Checks
 
 [![Checks for Weavenest Atla Eva (Weave_10)](../00-annotations/weavenest-atla/weavenest-atla-eva-checks.png)](../00-annotations/weavenest-atla/weavenest-atla-eva-checks.png)
+
+### Scene
+
+[![Scene for Weavenest Atla Eva (Weave_10)](../00-annotations/weavenest-atla/weavenest-atla-eva-scene.png)](../00-annotations/weavenest-atla/weavenest-atla-eva-scene.png)

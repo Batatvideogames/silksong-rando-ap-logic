@@ -53,10 +53,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Far Fields Skull Room East (Bone_East_14b)](../00-annotations/far-fields/far-fields-skull-room-east-scene.png)](../00-annotations/far-fields/far-fields-skull-room-east-scene.png)
-
 ### Connections
 
 [![Connections for Far Fields Skull Room East (Bone_East_14b)](../00-annotations/far-fields/far-fields-skull-room-east-connections.png)](../00-annotations/far-fields/far-fields-skull-room-east-connections.png)
@@ -64,3 +60,7 @@
 ### Checks
 
 [![Checks for Far Fields Skull Room East (Bone_East_14b)](../00-annotations/far-fields/far-fields-skull-room-east-checks.png)](../00-annotations/far-fields/far-fields-skull-room-east-checks.png)
+
+### Scene
+
+[![Scene for Far Fields Skull Room East (Bone_East_14b)](../00-annotations/far-fields/far-fields-skull-room-east-scene.png)](../00-annotations/far-fields/far-fields-skull-room-east-scene.png)

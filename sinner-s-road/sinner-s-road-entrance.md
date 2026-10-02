@@ -27,10 +27,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Sinner's Road Entrance (Dust_01)](../00-annotations/sinner-s-road/sinner-s-road-entrance-scene.png)](../00-annotations/sinner-s-road/sinner-s-road-entrance-scene.png)
-
 ### Connections
 
 [![Connections for Sinner's Road Entrance (Dust_01)](../00-annotations/sinner-s-road/sinner-s-road-entrance-connections.png)](../00-annotations/sinner-s-road/sinner-s-road-entrance-connections.png)
@@ -38,3 +34,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Sinner's Road Entrance (Dust_01)](../00-annotations/sinner-s-road/sinner-s-road-entrance-checks.png)](../00-annotations/sinner-s-road/sinner-s-road-entrance-checks.png)
+
+### Scene
+
+[![Scene for Sinner's Road Entrance (Dust_01)](../00-annotations/sinner-s-road/sinner-s-road-entrance-scene.png)](../00-annotations/sinner-s-road/sinner-s-road-entrance-scene.png)

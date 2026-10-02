@@ -35,10 +35,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Blasted Steps Steel Soul (Coral_37)](../00-annotations/blasted-steps/blasted-steps-steel-soul-scene.png)](../00-annotations/blasted-steps/blasted-steps-steel-soul-scene.png)
-
 ### Connections
 
 [![Connections for Blasted Steps Steel Soul (Coral_37)](../00-annotations/blasted-steps/blasted-steps-steel-soul-connections.png)](../00-annotations/blasted-steps/blasted-steps-steel-soul-connections.png)
@@ -46,3 +42,7 @@
 ### Checks
 
 [![Checks for Blasted Steps Steel Soul (Coral_37)](../00-annotations/blasted-steps/blasted-steps-steel-soul-checks.png)](../00-annotations/blasted-steps/blasted-steps-steel-soul-checks.png)
+
+### Scene
+
+[![Scene for Blasted Steps Steel Soul (Coral_37)](../00-annotations/blasted-steps/blasted-steps-steel-soul-scene.png)](../00-annotations/blasted-steps/blasted-steps-steel-soul-scene.png)

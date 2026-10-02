@@ -56,10 +56,6 @@ known silk blockade breakers = silk spear, sharpdart, rune rage, weaver silkshot
 
 ## Room Images
 
-### Scene
-
-[![Scene for Mosshome Upper (Mosstown_02)](../00-annotations/bone-bottom/mosshome-upper-scene.png)](../00-annotations/bone-bottom/mosshome-upper-scene.png)
-
 ### Connections
 
 [![Connections for Mosshome Upper (Mosstown_02)](../00-annotations/bone-bottom/mosshome-upper-connections.png)](../00-annotations/bone-bottom/mosshome-upper-connections.png)
@@ -67,3 +63,7 @@ known silk blockade breakers = silk spear, sharpdart, rune rage, weaver silkshot
 ### Checks
 
 [![Checks for Mosshome Upper (Mosstown_02)](../00-annotations/bone-bottom/mosshome-upper-checks.png)](../00-annotations/bone-bottom/mosshome-upper-checks.png)
+
+### Scene
+
+[![Scene for Mosshome Upper (Mosstown_02)](../00-annotations/bone-bottom/mosshome-upper-scene.png)](../00-annotations/bone-bottom/mosshome-upper-scene.png)

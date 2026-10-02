@@ -39,10 +39,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Putrified Ducts Lower Bridge Room (Aqueduct_03)](../00-annotations/putrified-ducts/putrified-ducts-lower-bridge-room-scene.png)](../00-annotations/putrified-ducts/putrified-ducts-lower-bridge-room-scene.png)
-
 ### Connections
 
 [![Connections for Putrified Ducts Lower Bridge Room (Aqueduct_03)](../00-annotations/putrified-ducts/putrified-ducts-lower-bridge-room-connections.png)](../00-annotations/putrified-ducts/putrified-ducts-lower-bridge-room-connections.png)
@@ -50,3 +46,7 @@
 ### Checks
 
 [![Checks for Putrified Ducts Lower Bridge Room (Aqueduct_03)](../00-annotations/putrified-ducts/putrified-ducts-lower-bridge-room-checks.png)](../00-annotations/putrified-ducts/putrified-ducts-lower-bridge-room-checks.png)
+
+### Scene
+
+[![Scene for Putrified Ducts Lower Bridge Room (Aqueduct_03)](../00-annotations/putrified-ducts/putrified-ducts-lower-bridge-room-scene.png)](../00-annotations/putrified-ducts/putrified-ducts-lower-bridge-room-scene.png)

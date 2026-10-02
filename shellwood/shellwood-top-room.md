@@ -47,10 +47,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Shellwood Top Room (Shellwood_26)](../00-annotations/shellwood/shellwood-top-room-scene.png)](../00-annotations/shellwood/shellwood-top-room-scene.png)
-
 ### Connections
 
 [![Connections for Shellwood Top Room (Shellwood_26)](../00-annotations/shellwood/shellwood-top-room-connections.png)](../00-annotations/shellwood/shellwood-top-room-connections.png)
@@ -58,3 +54,7 @@
 ### Checks
 
 [![Checks for Shellwood Top Room (Shellwood_26)](../00-annotations/shellwood/shellwood-top-room-checks.png)](../00-annotations/shellwood/shellwood-top-room-checks.png)
+
+### Scene
+
+[![Scene for Shellwood Top Room (Shellwood_26)](../00-annotations/shellwood/shellwood-top-room-scene.png)](../00-annotations/shellwood/shellwood-top-room-scene.png)

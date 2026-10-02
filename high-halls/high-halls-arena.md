@@ -36,10 +36,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for High Halls Arena (Hang_04)](../00-annotations/high-halls/high-halls-arena-scene.png)](../00-annotations/high-halls/high-halls-arena-scene.png)
-
 ### Connections
 
 [![Connections for High Halls Arena (Hang_04)](../00-annotations/high-halls/high-halls-arena-connections.png)](../00-annotations/high-halls/high-halls-arena-connections.png)
@@ -47,3 +43,7 @@
 ### Checks
 
 [![Checks for High Halls Arena (Hang_04)](../00-annotations/high-halls/high-halls-arena-checks.png)](../00-annotations/high-halls/high-halls-arena-checks.png)
+
+### Scene
+
+[![Scene for High Halls Arena (Hang_04)](../00-annotations/high-halls/high-halls-arena-scene.png)](../00-annotations/high-halls/high-halls-arena-scene.png)

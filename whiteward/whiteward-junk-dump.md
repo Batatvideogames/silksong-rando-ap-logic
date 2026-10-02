@@ -27,10 +27,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Whiteward Junk Dump (Ward_07)](../00-annotations/whiteward/whiteward-junk-dump-scene.png)](../00-annotations/whiteward/whiteward-junk-dump-scene.png)
-
 ### Connections
 
 [![Connections for Whiteward Junk Dump (Ward_07)](../00-annotations/whiteward/whiteward-junk-dump-connections.png)](../00-annotations/whiteward/whiteward-junk-dump-connections.png)
@@ -38,3 +34,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Whiteward Junk Dump (Ward_07)](../00-annotations/whiteward/whiteward-junk-dump-checks.png)](../00-annotations/whiteward/whiteward-junk-dump-checks.png)
+
+### Scene
+
+[![Scene for Whiteward Junk Dump (Ward_07)](../00-annotations/whiteward/whiteward-junk-dump-scene.png)](../00-annotations/whiteward/whiteward-junk-dump-scene.png)

@@ -48,10 +48,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Shellwood Right Side Big room (Shellwood_01)](../00-annotations/shellwood/shellwood-right-side-big-room-scene.png)](../00-annotations/shellwood/shellwood-right-side-big-room-scene.png)
-
 ### Connections
 
 [![Connections for Shellwood Right Side Big room (Shellwood_01)](../00-annotations/shellwood/shellwood-right-side-big-room-connections.png)](../00-annotations/shellwood/shellwood-right-side-big-room-connections.png)
@@ -59,3 +55,7 @@
 ### Checks
 
 [![Checks for Shellwood Right Side Big room (Shellwood_01)](../00-annotations/shellwood/shellwood-right-side-big-room-checks.png)](../00-annotations/shellwood/shellwood-right-side-big-room-checks.png)
+
+### Scene
+
+[![Scene for Shellwood Right Side Big room (Shellwood_01)](../00-annotations/shellwood/shellwood-right-side-big-room-scene.png)](../00-annotations/shellwood/shellwood-right-side-big-room-scene.png)

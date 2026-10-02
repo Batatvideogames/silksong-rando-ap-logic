@@ -29,10 +29,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Slab Prelude (Slab_19b)](../00-annotations/the-slab/slab-prelude-scene.png)](../00-annotations/the-slab/slab-prelude-scene.png)
-
 ### Connections
 
 [![Connections for Slab Prelude (Slab_19b)](../00-annotations/the-slab/slab-prelude-connections.png)](../00-annotations/the-slab/slab-prelude-connections.png)
@@ -40,3 +36,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Slab Prelude (Slab_19b)](../00-annotations/the-slab/slab-prelude-checks.png)](../00-annotations/the-slab/slab-prelude-checks.png)
+
+### Scene
+
+[![Scene for Slab Prelude (Slab_19b)](../00-annotations/the-slab/slab-prelude-scene.png)](../00-annotations/the-slab/slab-prelude-scene.png)

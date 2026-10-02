@@ -37,10 +37,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Coral Tower (Coral_Tower_01)](../00-annotations/sands-of-karak/coral-tower-scene.png)](../00-annotations/sands-of-karak/coral-tower-scene.png)
-
 ### Connections
 
 [![Connections for Coral Tower (Coral_Tower_01)](../00-annotations/sands-of-karak/coral-tower-connections.png)](../00-annotations/sands-of-karak/coral-tower-connections.png)
@@ -48,3 +44,7 @@
 ### Checks
 
 [![Checks for Coral Tower (Coral_Tower_01)](../00-annotations/sands-of-karak/coral-tower-checks.png)](../00-annotations/sands-of-karak/coral-tower-checks.png)
+
+### Scene
+
+[![Scene for Coral Tower (Coral_Tower_01)](../00-annotations/sands-of-karak/coral-tower-scene.png)](../00-annotations/sands-of-karak/coral-tower-scene.png)

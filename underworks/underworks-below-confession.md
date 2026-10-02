@@ -35,10 +35,6 @@ No check locations defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Underworks Below Confession (Under_06)](../00-annotations/underworks/underworks-below-confession-scene.png)](../00-annotations/underworks/underworks-below-confession-scene.png)
-
 ### Connections
 
 [![Connections for Underworks Below Confession (Under_06)](../00-annotations/underworks/underworks-below-confession-connections.png)](../00-annotations/underworks/underworks-below-confession-connections.png)
@@ -46,3 +42,7 @@ No check locations defined.
 ### Checks
 
 [![Checks for Underworks Below Confession (Under_06)](../00-annotations/underworks/underworks-below-confession-checks.png)](../00-annotations/underworks/underworks-below-confession-checks.png)
+
+### Scene
+
+[![Scene for Underworks Below Confession (Under_06)](../00-annotations/underworks/underworks-below-confession-scene.png)](../00-annotations/underworks/underworks-below-confession-scene.png)

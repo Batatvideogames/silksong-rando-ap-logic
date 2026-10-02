@@ -26,10 +26,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Whispering Vaults Vaultborn Lever (Library_15)](../00-annotations/whispering-vaults/whispering-vaults-vaultborn-lever-scene.png)](../00-annotations/whispering-vaults/whispering-vaults-vaultborn-lever-scene.png)
-
 ### Connections
 
 [![Connections for Whispering Vaults Vaultborn Lever (Library_15)](../00-annotations/whispering-vaults/whispering-vaults-vaultborn-lever-connections.png)](../00-annotations/whispering-vaults/whispering-vaults-vaultborn-lever-connections.png)
@@ -37,3 +33,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Whispering Vaults Vaultborn Lever (Library_15)](../00-annotations/whispering-vaults/whispering-vaults-vaultborn-lever-checks.png)](../00-annotations/whispering-vaults/whispering-vaults-vaultborn-lever-checks.png)
+
+### Scene
+
+[![Scene for Whispering Vaults Vaultborn Lever (Library_15)](../00-annotations/whispering-vaults/whispering-vaults-vaultborn-lever-scene.png)](../00-annotations/whispering-vaults/whispering-vaults-vaultborn-lever-scene.png)

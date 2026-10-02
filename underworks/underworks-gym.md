@@ -24,10 +24,6 @@ No check locations defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Underworks Gym (Under_03d)](../00-annotations/underworks/underworks-gym-scene.png)](../00-annotations/underworks/underworks-gym-scene.png)
-
 ### Connections
 
 [![Connections for Underworks Gym (Under_03d)](../00-annotations/underworks/underworks-gym-connections.png)](../00-annotations/underworks/underworks-gym-connections.png)
@@ -35,3 +31,7 @@ No check locations defined.
 ### Checks
 
 [![Checks for Underworks Gym (Under_03d)](../00-annotations/underworks/underworks-gym-checks.png)](../00-annotations/underworks/underworks-gym-checks.png)
+
+### Scene
+
+[![Scene for Underworks Gym (Under_03d)](../00-annotations/underworks/underworks-gym-scene.png)](../00-annotations/underworks/underworks-gym-scene.png)

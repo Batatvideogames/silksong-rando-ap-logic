@@ -54,10 +54,6 @@ no checks
 
 ## Room Images
 
-### Scene
-
-[![Scene for The Marrow Lava Intro (Bone_02)](../00-annotations/the-marrow/the-marrow-lava-intro-scene.png)](../00-annotations/the-marrow/the-marrow-lava-intro-scene.png)
-
 ### Connections
 
 [![Connections for The Marrow Lava Intro (Bone_02)](../00-annotations/the-marrow/the-marrow-lava-intro-connections.png)](../00-annotations/the-marrow/the-marrow-lava-intro-connections.png)
@@ -65,3 +61,7 @@ no checks
 ### Checks
 
 [![Checks for The Marrow Lava Intro (Bone_02)](../00-annotations/the-marrow/the-marrow-lava-intro-checks.png)](../00-annotations/the-marrow/the-marrow-lava-intro-checks.png)
+
+### Scene
+
+[![Scene for The Marrow Lava Intro (Bone_02)](../00-annotations/the-marrow/the-marrow-lava-intro-scene.png)](../00-annotations/the-marrow/the-marrow-lava-intro-scene.png)

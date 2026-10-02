@@ -23,10 +23,6 @@ No check locations defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Greymoor Middle Passage (Greymoor_10)](../00-annotations/greymoor/greymoor-middle-passage-scene.png)](../00-annotations/greymoor/greymoor-middle-passage-scene.png)
-
 ### Connections
 
 [![Connections for Greymoor Middle Passage (Greymoor_10)](../00-annotations/greymoor/greymoor-middle-passage-connections.png)](../00-annotations/greymoor/greymoor-middle-passage-connections.png)
@@ -34,3 +30,7 @@ No check locations defined.
 ### Checks
 
 [![Checks for Greymoor Middle Passage (Greymoor_10)](../00-annotations/greymoor/greymoor-middle-passage-checks.png)](../00-annotations/greymoor/greymoor-middle-passage-checks.png)
+
+### Scene
+
+[![Scene for Greymoor Middle Passage (Greymoor_10)](../00-annotations/greymoor/greymoor-middle-passage-scene.png)](../00-annotations/greymoor/greymoor-middle-passage-scene.png)

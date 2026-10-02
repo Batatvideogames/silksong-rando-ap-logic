@@ -30,10 +30,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Slab Indolent Room (Slab_14)](../00-annotations/the-slab/slab-indolent-room-scene.png)](../00-annotations/the-slab/slab-indolent-room-scene.png)
-
 ### Connections
 
 [![Connections for Slab Indolent Room (Slab_14)](../00-annotations/the-slab/slab-indolent-room-connections.png)](../00-annotations/the-slab/slab-indolent-room-connections.png)
@@ -41,3 +37,7 @@
 ### Checks
 
 [![Checks for Slab Indolent Room (Slab_14)](../00-annotations/the-slab/slab-indolent-room-checks.png)](../00-annotations/the-slab/slab-indolent-room-checks.png)
+
+### Scene
+
+[![Scene for Slab Indolent Room (Slab_14)](../00-annotations/the-slab/slab-indolent-room-scene.png)](../00-annotations/the-slab/slab-indolent-room-scene.png)

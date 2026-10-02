@@ -27,10 +27,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Bone Bottom Bellway (Bellway_01)](../00-annotations/bone-bottom/bone-bottom-bellway-scene.png)](../00-annotations/bone-bottom/bone-bottom-bellway-scene.png)
-
 ### Connections
 
 [![Connections for Bone Bottom Bellway (Bellway_01)](../00-annotations/bone-bottom/bone-bottom-bellway-connections.png)](../00-annotations/bone-bottom/bone-bottom-bellway-connections.png)
@@ -38,3 +34,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Bone Bottom Bellway (Bellway_01)](../00-annotations/bone-bottom/bone-bottom-bellway-checks.png)](../00-annotations/bone-bottom/bone-bottom-bellway-checks.png)
+
+### Scene
+
+[![Scene for Bone Bottom Bellway (Bellway_01)](../00-annotations/bone-bottom/bone-bottom-bellway-scene.png)](../00-annotations/bone-bottom/bone-bottom-bellway-scene.png)

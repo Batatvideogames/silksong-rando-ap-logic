@@ -57,10 +57,6 @@ need to verify how this room works - thought it had some of the platforms go awa
 
 ## Room Images
 
-### Scene
-
-[![Scene for Deep Docks Chains West (Dock_02)](../00-annotations/deep-docks/deep-docks-chains-west-scene.png)](../00-annotations/deep-docks/deep-docks-chains-west-scene.png)
-
 ### Connections
 
 [![Connections for Deep Docks Chains West (Dock_02)](../00-annotations/deep-docks/deep-docks-chains-west-connections.png)](../00-annotations/deep-docks/deep-docks-chains-west-connections.png)
@@ -68,3 +64,7 @@ need to verify how this room works - thought it had some of the platforms go awa
 ### Checks
 
 [![Checks for Deep Docks Chains West (Dock_02)](../00-annotations/deep-docks/deep-docks-chains-west-checks.png)](../00-annotations/deep-docks/deep-docks-chains-west-checks.png)
+
+### Scene
+
+[![Scene for Deep Docks Chains West (Dock_02)](../00-annotations/deep-docks/deep-docks-chains-west-scene.png)](../00-annotations/deep-docks/deep-docks-chains-west-scene.png)

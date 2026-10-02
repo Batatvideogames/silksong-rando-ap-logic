@@ -56,10 +56,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Blasted Steps Map Edge (Coral_19)](../00-annotations/blasted-steps/blasted-steps-map-edge-scene.png)](../00-annotations/blasted-steps/blasted-steps-map-edge-scene.png)
-
 ### Connections
 
 [![Connections for Blasted Steps Map Edge (Coral_19)](../00-annotations/blasted-steps/blasted-steps-map-edge-connections.png)](../00-annotations/blasted-steps/blasted-steps-map-edge-connections.png)
@@ -67,3 +63,7 @@
 ### Checks
 
 [![Checks for Blasted Steps Map Edge (Coral_19)](../00-annotations/blasted-steps/blasted-steps-map-edge-checks.png)](../00-annotations/blasted-steps/blasted-steps-map-edge-checks.png)
+
+### Scene
+
+[![Scene for Blasted Steps Map Edge (Coral_19)](../00-annotations/blasted-steps/blasted-steps-map-edge-scene.png)](../00-annotations/blasted-steps/blasted-steps-map-edge-scene.png)

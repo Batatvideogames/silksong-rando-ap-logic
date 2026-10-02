@@ -38,10 +38,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Songclave (Song_Enclave)](../00-annotations/choral-chambers/songclave-scene.png)](../00-annotations/choral-chambers/songclave-scene.png)
-
 ### Connections
 
 [![Connections for Songclave (Song_Enclave)](../00-annotations/choral-chambers/songclave-connections.png)](../00-annotations/choral-chambers/songclave-connections.png)
@@ -49,3 +45,7 @@
 ### Checks
 
 [![Checks for Songclave (Song_Enclave)](../00-annotations/choral-chambers/songclave-checks.png)](../00-annotations/choral-chambers/songclave-checks.png)
+
+### Scene
+
+[![Scene for Songclave (Song_Enclave)](../00-annotations/choral-chambers/songclave-scene.png)](../00-annotations/choral-chambers/songclave-scene.png)

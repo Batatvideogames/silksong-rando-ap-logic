@@ -82,10 +82,6 @@ No check locations defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Slab Cell (Slab_03)](../00-annotations/the-slab/slab-cell-scene.png)](../00-annotations/the-slab/slab-cell-scene.png)
-
 ### Connections
 
 [![Connections for Slab Cell (Slab_03)](../00-annotations/the-slab/slab-cell-connections.png)](../00-annotations/the-slab/slab-cell-connections.png)
@@ -93,3 +89,7 @@ No check locations defined.
 ### Checks
 
 [![Checks for Slab Cell (Slab_03)](../00-annotations/the-slab/slab-cell-checks.png)](../00-annotations/the-slab/slab-cell-checks.png)
+
+### Scene
+
+[![Scene for Slab Cell (Slab_03)](../00-annotations/the-slab/slab-cell-scene.png)](../00-annotations/the-slab/slab-cell-scene.png)

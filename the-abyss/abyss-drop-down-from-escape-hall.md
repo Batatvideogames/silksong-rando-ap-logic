@@ -31,10 +31,6 @@ No check locations defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Abyss Drop Down From Escape Hall (Abyss_11)](../00-annotations/the-abyss/abyss-drop-down-from-escape-hall-scene.png)](../00-annotations/the-abyss/abyss-drop-down-from-escape-hall-scene.png)
-
 ### Connections
 
 [![Connections for Abyss Drop Down From Escape Hall (Abyss_11)](../00-annotations/the-abyss/abyss-drop-down-from-escape-hall-connections.png)](../00-annotations/the-abyss/abyss-drop-down-from-escape-hall-connections.png)
@@ -42,3 +38,7 @@ No check locations defined.
 ### Checks
 
 [![Checks for Abyss Drop Down From Escape Hall (Abyss_11)](../00-annotations/the-abyss/abyss-drop-down-from-escape-hall-checks.png)](../00-annotations/the-abyss/abyss-drop-down-from-escape-hall-checks.png)
+
+### Scene
+
+[![Scene for Abyss Drop Down From Escape Hall (Abyss_11)](../00-annotations/the-abyss/abyss-drop-down-from-escape-hall-scene.png)](../00-annotations/the-abyss/abyss-drop-down-from-escape-hall-scene.png)

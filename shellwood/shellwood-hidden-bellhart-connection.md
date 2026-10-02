@@ -37,10 +37,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Shellwood Hidden Bellhart Connection (Shellwood_15)](../00-annotations/shellwood/shellwood-hidden-bellhart-connection-scene.png)](../00-annotations/shellwood/shellwood-hidden-bellhart-connection-scene.png)
-
 ### Connections
 
 [![Connections for Shellwood Hidden Bellhart Connection (Shellwood_15)](../00-annotations/shellwood/shellwood-hidden-bellhart-connection-connections.png)](../00-annotations/shellwood/shellwood-hidden-bellhart-connection-connections.png)
@@ -48,3 +44,7 @@
 ### Checks
 
 [![Checks for Shellwood Hidden Bellhart Connection (Shellwood_15)](../00-annotations/shellwood/shellwood-hidden-bellhart-connection-checks.png)](../00-annotations/shellwood/shellwood-hidden-bellhart-connection-checks.png)
+
+### Scene
+
+[![Scene for Shellwood Hidden Bellhart Connection (Shellwood_15)](../00-annotations/shellwood/shellwood-hidden-bellhart-connection-scene.png)](../00-annotations/shellwood/shellwood-hidden-bellhart-connection-scene.png)

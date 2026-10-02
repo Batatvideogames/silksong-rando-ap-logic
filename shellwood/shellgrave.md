@@ -26,10 +26,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Shellgrave (Shellgrave)](../00-annotations/shellwood/shellgrave-scene.png)](../00-annotations/shellwood/shellgrave-scene.png)
-
 ### Connections
 
 [![Connections for Shellgrave (Shellgrave)](../00-annotations/shellwood/shellgrave-connections.png)](../00-annotations/shellwood/shellgrave-connections.png)
@@ -37,3 +33,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Shellgrave (Shellgrave)](../00-annotations/shellwood/shellgrave-checks.png)](../00-annotations/shellwood/shellgrave-checks.png)
+
+### Scene
+
+[![Scene for Shellgrave (Shellgrave)](../00-annotations/shellwood/shellgrave-scene.png)](../00-annotations/shellwood/shellgrave-scene.png)

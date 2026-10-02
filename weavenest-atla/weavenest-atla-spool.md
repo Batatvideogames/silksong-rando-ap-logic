@@ -40,10 +40,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Weavenest Atla Spool (Weave_11)](../00-annotations/weavenest-atla/weavenest-atla-spool-scene.png)](../00-annotations/weavenest-atla/weavenest-atla-spool-scene.png)
-
 ### Connections
 
 [![Connections for Weavenest Atla Spool (Weave_11)](../00-annotations/weavenest-atla/weavenest-atla-spool-connections.png)](../00-annotations/weavenest-atla/weavenest-atla-spool-connections.png)
@@ -51,3 +47,7 @@
 ### Checks
 
 [![Checks for Weavenest Atla Spool (Weave_11)](../00-annotations/weavenest-atla/weavenest-atla-spool-checks.png)](../00-annotations/weavenest-atla/weavenest-atla-spool-checks.png)
+
+### Scene
+
+[![Scene for Weavenest Atla Spool (Weave_11)](../00-annotations/weavenest-atla/weavenest-atla-spool-scene.png)](../00-annotations/weavenest-atla/weavenest-atla-spool-scene.png)

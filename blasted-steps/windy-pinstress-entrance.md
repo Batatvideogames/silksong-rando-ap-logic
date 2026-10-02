@@ -35,10 +35,6 @@ No check locations defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Windy Pinstress Entrance (Coral_34)](../00-annotations/blasted-steps/windy-pinstress-entrance-scene.png)](../00-annotations/blasted-steps/windy-pinstress-entrance-scene.png)
-
 ### Connections
 
 [![Connections for Windy Pinstress Entrance (Coral_34)](../00-annotations/blasted-steps/windy-pinstress-entrance-connections.png)](../00-annotations/blasted-steps/windy-pinstress-entrance-connections.png)
@@ -46,3 +42,7 @@ No check locations defined.
 ### Checks
 
 [![Checks for Windy Pinstress Entrance (Coral_34)](../00-annotations/blasted-steps/windy-pinstress-entrance-checks.png)](../00-annotations/blasted-steps/windy-pinstress-entrance-checks.png)
+
+### Scene
+
+[![Scene for Windy Pinstress Entrance (Coral_34)](../00-annotations/blasted-steps/windy-pinstress-entrance-scene.png)](../00-annotations/blasted-steps/windy-pinstress-entrance-scene.png)

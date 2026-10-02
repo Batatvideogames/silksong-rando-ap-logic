@@ -33,10 +33,6 @@ should at bare minimum have dash or run in combat logic
 
 ## Room Images
 
-### Scene
-
-[![Scene for Wormways Craggler Hallway (Crawl_04)](../00-annotations/wormways/wormways-craggler-hallway-scene.png)](../00-annotations/wormways/wormways-craggler-hallway-scene.png)
-
 ### Connections
 
 [![Connections for Wormways Craggler Hallway (Crawl_04)](../00-annotations/wormways/wormways-craggler-hallway-connections.png)](../00-annotations/wormways/wormways-craggler-hallway-connections.png)
@@ -44,3 +40,7 @@ should at bare minimum have dash or run in combat logic
 ### Checks
 
 [![Checks for Wormways Craggler Hallway (Crawl_04)](../00-annotations/wormways/wormways-craggler-hallway-checks.png)](../00-annotations/wormways/wormways-craggler-hallway-checks.png)
+
+### Scene
+
+[![Scene for Wormways Craggler Hallway (Crawl_04)](../00-annotations/wormways/wormways-craggler-hallway-scene.png)](../00-annotations/wormways/wormways-craggler-hallway-scene.png)

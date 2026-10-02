@@ -38,10 +38,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Greymoor Bellway (Bellway_04)](../00-annotations/greymoor/greymoor-bellway-scene.png)](../00-annotations/greymoor/greymoor-bellway-scene.png)
-
 ### Connections
 
 [![Connections for Greymoor Bellway (Bellway_04)](../00-annotations/greymoor/greymoor-bellway-connections.png)](../00-annotations/greymoor/greymoor-bellway-connections.png)
@@ -49,3 +45,7 @@
 ### Checks
 
 [![Checks for Greymoor Bellway (Bellway_04)](../00-annotations/greymoor/greymoor-bellway-checks.png)](../00-annotations/greymoor/greymoor-bellway-checks.png)
+
+### Scene
+
+[![Scene for Greymoor Bellway (Bellway_04)](../00-annotations/greymoor/greymoor-bellway-scene.png)](../00-annotations/greymoor/greymoor-bellway-scene.png)

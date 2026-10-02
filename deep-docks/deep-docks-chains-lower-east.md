@@ -74,10 +74,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Deep Docks Chains Lower East (Dock_03c)](../00-annotations/deep-docks/deep-docks-chains-lower-east-scene.png)](../00-annotations/deep-docks/deep-docks-chains-lower-east-scene.png)
-
 ### Connections
 
 [![Connections for Deep Docks Chains Lower East (Dock_03c)](../00-annotations/deep-docks/deep-docks-chains-lower-east-connections.png)](../00-annotations/deep-docks/deep-docks-chains-lower-east-connections.png)
@@ -85,3 +81,7 @@
 ### Checks
 
 [![Checks for Deep Docks Chains Lower East (Dock_03c)](../00-annotations/deep-docks/deep-docks-chains-lower-east-checks.png)](../00-annotations/deep-docks/deep-docks-chains-lower-east-checks.png)
+
+### Scene
+
+[![Scene for Deep Docks Chains Lower East (Dock_03c)](../00-annotations/deep-docks/deep-docks-chains-lower-east-scene.png)](../00-annotations/deep-docks/deep-docks-chains-lower-east-scene.png)

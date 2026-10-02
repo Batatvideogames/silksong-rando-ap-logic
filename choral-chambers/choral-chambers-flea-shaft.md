@@ -57,10 +57,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Choral Chambers Flea Shaft (Song_11)](../00-annotations/choral-chambers/choral-chambers-flea-shaft-scene.png)](../00-annotations/choral-chambers/choral-chambers-flea-shaft-scene.png)
-
 ### Connections
 
 [![Connections for Choral Chambers Flea Shaft (Song_11)](../00-annotations/choral-chambers/choral-chambers-flea-shaft-connections.png)](../00-annotations/choral-chambers/choral-chambers-flea-shaft-connections.png)
@@ -68,3 +64,7 @@
 ### Checks
 
 [![Checks for Choral Chambers Flea Shaft (Song_11)](../00-annotations/choral-chambers/choral-chambers-flea-shaft-checks.png)](../00-annotations/choral-chambers/choral-chambers-flea-shaft-checks.png)
+
+### Scene
+
+[![Scene for Choral Chambers Flea Shaft (Song_11)](../00-annotations/choral-chambers/choral-chambers-flea-shaft-scene.png)](../00-annotations/choral-chambers/choral-chambers-flea-shaft-scene.png)

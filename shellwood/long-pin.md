@@ -26,10 +26,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Long Pin (Belltown_Room_shellwood)](../00-annotations/shellwood/long-pin-scene.png)](../00-annotations/shellwood/long-pin-scene.png)
-
 ### Connections
 
 [![Connections for Long Pin (Belltown_Room_shellwood)](../00-annotations/shellwood/long-pin-connections.png)](../00-annotations/shellwood/long-pin-connections.png)
@@ -37,3 +33,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Long Pin (Belltown_Room_shellwood)](../00-annotations/shellwood/long-pin-checks.png)](../00-annotations/shellwood/long-pin-checks.png)
+
+### Scene
+
+[![Scene for Long Pin (Belltown_Room_shellwood)](../00-annotations/shellwood/long-pin-scene.png)](../00-annotations/shellwood/long-pin-scene.png)

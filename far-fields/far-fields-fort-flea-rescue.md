@@ -49,10 +49,6 @@ this had no subrooms before ledge grab...
 
 ## Room Images
 
-### Scene
-
-[![Scene for Far Fields Fort Flea Rescue (Bone_East_17b)](../00-annotations/far-fields/far-fields-fort-flea-rescue-scene.png)](../00-annotations/far-fields/far-fields-fort-flea-rescue-scene.png)
-
 ### Connections
 
 [![Connections for Far Fields Fort Flea Rescue (Bone_East_17b)](../00-annotations/far-fields/far-fields-fort-flea-rescue-connections.png)](../00-annotations/far-fields/far-fields-fort-flea-rescue-connections.png)
@@ -60,3 +56,7 @@ this had no subrooms before ledge grab...
 ### Checks
 
 [![Checks for Far Fields Fort Flea Rescue (Bone_East_17b)](../00-annotations/far-fields/far-fields-fort-flea-rescue-checks.png)](../00-annotations/far-fields/far-fields-fort-flea-rescue-checks.png)
+
+### Scene
+
+[![Scene for Far Fields Fort Flea Rescue (Bone_East_17b)](../00-annotations/far-fields/far-fields-fort-flea-rescue-scene.png)](../00-annotations/far-fields/far-fields-fort-flea-rescue-scene.png)

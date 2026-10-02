@@ -59,10 +59,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Upper Bellhart (Belltown_04)](../00-annotations/bellhart/upper-bellhart-scene.png)](../00-annotations/bellhart/upper-bellhart-scene.png)
-
 ### Connections
 
 [![Connections for Upper Bellhart (Belltown_04)](../00-annotations/bellhart/upper-bellhart-connections.png)](../00-annotations/bellhart/upper-bellhart-connections.png)
@@ -70,3 +66,7 @@
 ### Checks
 
 [![Checks for Upper Bellhart (Belltown_04)](../00-annotations/bellhart/upper-bellhart-checks.png)](../00-annotations/bellhart/upper-bellhart-checks.png)
+
+### Scene
+
+[![Scene for Upper Bellhart (Belltown_04)](../00-annotations/bellhart/upper-bellhart-scene.png)](../00-annotations/bellhart/upper-bellhart-scene.png)

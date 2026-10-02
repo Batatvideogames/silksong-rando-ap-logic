@@ -33,10 +33,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Weavenest Atla Bench (Weave_07)](../00-annotations/weavenest-atla/weavenest-atla-bench-scene.png)](../00-annotations/weavenest-atla/weavenest-atla-bench-scene.png)
-
 ### Connections
 
 [![Connections for Weavenest Atla Bench (Weave_07)](../00-annotations/weavenest-atla/weavenest-atla-bench-connections.png)](../00-annotations/weavenest-atla/weavenest-atla-bench-connections.png)
@@ -44,3 +40,7 @@
 ### Checks
 
 [![Checks for Weavenest Atla Bench (Weave_07)](../00-annotations/weavenest-atla/weavenest-atla-bench-checks.png)](../00-annotations/weavenest-atla/weavenest-atla-bench-checks.png)
+
+### Scene
+
+[![Scene for Weavenest Atla Bench (Weave_07)](../00-annotations/weavenest-atla/weavenest-atla-bench-scene.png)](../00-annotations/weavenest-atla/weavenest-atla-bench-scene.png)

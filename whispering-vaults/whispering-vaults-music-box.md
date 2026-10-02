@@ -26,10 +26,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Whispering Vaults Music Box (Library_16)](../00-annotations/whispering-vaults/whispering-vaults-music-box-scene.png)](../00-annotations/whispering-vaults/whispering-vaults-music-box-scene.png)
-
 ### Connections
 
 [![Connections for Whispering Vaults Music Box (Library_16)](../00-annotations/whispering-vaults/whispering-vaults-music-box-connections.png)](../00-annotations/whispering-vaults/whispering-vaults-music-box-connections.png)
@@ -37,3 +33,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Whispering Vaults Music Box (Library_16)](../00-annotations/whispering-vaults/whispering-vaults-music-box-checks.png)](../00-annotations/whispering-vaults/whispering-vaults-music-box-checks.png)
+
+### Scene
+
+[![Scene for Whispering Vaults Music Box (Library_16)](../00-annotations/whispering-vaults/whispering-vaults-music-box-scene.png)](../00-annotations/whispering-vaults/whispering-vaults-music-box-scene.png)

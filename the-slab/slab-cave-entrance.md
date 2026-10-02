@@ -26,10 +26,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Slab Cave Entrance (Slab_08)](../00-annotations/the-slab/slab-cave-entrance-scene.png)](../00-annotations/the-slab/slab-cave-entrance-scene.png)
-
 ### Connections
 
 [![Connections for Slab Cave Entrance (Slab_08)](../00-annotations/the-slab/slab-cave-entrance-connections.png)](../00-annotations/the-slab/slab-cave-entrance-connections.png)
@@ -37,3 +33,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Slab Cave Entrance (Slab_08)](../00-annotations/the-slab/slab-cave-entrance-checks.png)](../00-annotations/the-slab/slab-cave-entrance-checks.png)
+
+### Scene
+
+[![Scene for Slab Cave Entrance (Slab_08)](../00-annotations/the-slab/slab-cave-entrance-scene.png)](../00-annotations/the-slab/slab-cave-entrance-scene.png)

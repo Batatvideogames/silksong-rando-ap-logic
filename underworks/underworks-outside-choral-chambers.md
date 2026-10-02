@@ -31,10 +31,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Underworks Outside Choral Chambers (Under_07c)](../00-annotations/underworks/underworks-outside-choral-chambers-scene.png)](../00-annotations/underworks/underworks-outside-choral-chambers-scene.png)
-
 ### Connections
 
 [![Connections for Underworks Outside Choral Chambers (Under_07c)](../00-annotations/underworks/underworks-outside-choral-chambers-connections.png)](../00-annotations/underworks/underworks-outside-choral-chambers-connections.png)
@@ -42,3 +38,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Underworks Outside Choral Chambers (Under_07c)](../00-annotations/underworks/underworks-outside-choral-chambers-checks.png)](../00-annotations/underworks/underworks-outside-choral-chambers-checks.png)
+
+### Scene
+
+[![Scene for Underworks Outside Choral Chambers (Under_07c)](../00-annotations/underworks/underworks-outside-choral-chambers-scene.png)](../00-annotations/underworks/underworks-outside-choral-chambers-scene.png)

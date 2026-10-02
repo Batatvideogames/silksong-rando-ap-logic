@@ -28,10 +28,6 @@ No check locations defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Slab Flea Prison (Slab_13)](../00-annotations/the-slab/slab-flea-prison-scene.png)](../00-annotations/the-slab/slab-flea-prison-scene.png)
-
 ### Connections
 
 [![Connections for Slab Flea Prison (Slab_13)](../00-annotations/the-slab/slab-flea-prison-connections.png)](../00-annotations/the-slab/slab-flea-prison-connections.png)
@@ -39,3 +35,7 @@ No check locations defined.
 ### Checks
 
 [![Checks for Slab Flea Prison (Slab_13)](../00-annotations/the-slab/slab-flea-prison-checks.png)](../00-annotations/the-slab/slab-flea-prison-checks.png)
+
+### Scene
+
+[![Scene for Slab Flea Prison (Slab_13)](../00-annotations/the-slab/slab-flea-prison-scene.png)](../00-annotations/the-slab/slab-flea-prison-scene.png)

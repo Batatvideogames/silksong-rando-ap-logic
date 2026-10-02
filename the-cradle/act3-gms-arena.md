@@ -36,10 +36,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for ACT3 GMS Arena (Cradle_03_Destroyed)](../00-annotations/the-cradle/act3-gms-arena-scene.png)](../00-annotations/the-cradle/act3-gms-arena-scene.png)
-
 ### Connections
 
 [![Connections for ACT3 GMS Arena (Cradle_03_Destroyed)](../00-annotations/the-cradle/act3-gms-arena-connections.png)](../00-annotations/the-cradle/act3-gms-arena-connections.png)
@@ -47,3 +43,7 @@
 ### Checks
 
 [![Checks for ACT3 GMS Arena (Cradle_03_Destroyed)](../00-annotations/the-cradle/act3-gms-arena-checks.png)](../00-annotations/the-cradle/act3-gms-arena-checks.png)
+
+### Scene
+
+[![Scene for ACT3 GMS Arena (Cradle_03_Destroyed)](../00-annotations/the-cradle/act3-gms-arena-scene.png)](../00-annotations/the-cradle/act3-gms-arena-scene.png)

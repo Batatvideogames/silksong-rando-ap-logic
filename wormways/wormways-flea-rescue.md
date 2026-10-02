@@ -36,10 +36,6 @@ cry: exit - for room rando - the entrance is functional and open regardless of w
 
 ## Room Images
 
-### Scene
-
-[![Scene for Wormways Flea Rescue (Crawl_06)](../00-annotations/wormways/wormways-flea-rescue-scene.png)](../00-annotations/wormways/wormways-flea-rescue-scene.png)
-
 ### Connections
 
 [![Connections for Wormways Flea Rescue (Crawl_06)](../00-annotations/wormways/wormways-flea-rescue-connections.png)](../00-annotations/wormways/wormways-flea-rescue-connections.png)
@@ -47,3 +43,7 @@ cry: exit - for room rando - the entrance is functional and open regardless of w
 ### Checks
 
 [![Checks for Wormways Flea Rescue (Crawl_06)](../00-annotations/wormways/wormways-flea-rescue-checks.png)](../00-annotations/wormways/wormways-flea-rescue-checks.png)
+
+### Scene
+
+[![Scene for Wormways Flea Rescue (Crawl_06)](../00-annotations/wormways/wormways-flea-rescue-scene.png)](../00-annotations/wormways/wormways-flea-rescue-scene.png)

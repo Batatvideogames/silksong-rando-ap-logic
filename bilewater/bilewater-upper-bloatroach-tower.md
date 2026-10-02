@@ -55,10 +55,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Bilewater Upper Bloatroach Tower (Shadow_01)](../00-annotations/bilewater/bilewater-upper-bloatroach-tower-scene.png)](../00-annotations/bilewater/bilewater-upper-bloatroach-tower-scene.png)
-
 ### Connections
 
 [![Connections for Bilewater Upper Bloatroach Tower (Shadow_01)](../00-annotations/bilewater/bilewater-upper-bloatroach-tower-connections.png)](../00-annotations/bilewater/bilewater-upper-bloatroach-tower-connections.png)
@@ -66,3 +62,7 @@
 ### Checks
 
 [![Checks for Bilewater Upper Bloatroach Tower (Shadow_01)](../00-annotations/bilewater/bilewater-upper-bloatroach-tower-checks.png)](../00-annotations/bilewater/bilewater-upper-bloatroach-tower-checks.png)
+
+### Scene
+
+[![Scene for Bilewater Upper Bloatroach Tower (Shadow_01)](../00-annotations/bilewater/bilewater-upper-bloatroach-tower-scene.png)](../00-annotations/bilewater/bilewater-upper-bloatroach-tower-scene.png)

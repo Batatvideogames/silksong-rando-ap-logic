@@ -26,10 +26,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Bilewater Slubberlug River (Shadow_13)](../00-annotations/bilewater/bilewater-slubberlug-river-scene.png)](../00-annotations/bilewater/bilewater-slubberlug-river-scene.png)
-
 ### Connections
 
 [![Connections for Bilewater Slubberlug River (Shadow_13)](../00-annotations/bilewater/bilewater-slubberlug-river-connections.png)](../00-annotations/bilewater/bilewater-slubberlug-river-connections.png)
@@ -37,3 +33,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Bilewater Slubberlug River (Shadow_13)](../00-annotations/bilewater/bilewater-slubberlug-river-checks.png)](../00-annotations/bilewater/bilewater-slubberlug-river-checks.png)
+
+### Scene
+
+[![Scene for Bilewater Slubberlug River (Shadow_13)](../00-annotations/bilewater/bilewater-slubberlug-river-scene.png)](../00-annotations/bilewater/bilewater-slubberlug-river-scene.png)

@@ -46,10 +46,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for The Marrow Lava Docks (Bone_09)](../00-annotations/the-marrow/the-marrow-lava-docks-scene.png)](../00-annotations/the-marrow/the-marrow-lava-docks-scene.png)
-
 ### Connections
 
 [![Connections for The Marrow Lava Docks (Bone_09)](../00-annotations/the-marrow/the-marrow-lava-docks-connections.png)](../00-annotations/the-marrow/the-marrow-lava-docks-connections.png)
@@ -57,3 +53,7 @@
 ### Checks
 
 [![Checks for The Marrow Lava Docks (Bone_09)](../00-annotations/the-marrow/the-marrow-lava-docks-checks.png)](../00-annotations/the-marrow/the-marrow-lava-docks-checks.png)
+
+### Scene
+
+[![Scene for The Marrow Lava Docks (Bone_09)](../00-annotations/the-marrow/the-marrow-lava-docks-scene.png)](../00-annotations/the-marrow/the-marrow-lava-docks-scene.png)

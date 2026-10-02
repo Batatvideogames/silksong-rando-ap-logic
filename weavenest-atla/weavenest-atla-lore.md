@@ -40,10 +40,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Weavenest Atla Lore (Weave_08)](../00-annotations/weavenest-atla/weavenest-atla-lore-scene.png)](../00-annotations/weavenest-atla/weavenest-atla-lore-scene.png)
-
 ### Connections
 
 [![Connections for Weavenest Atla Lore (Weave_08)](../00-annotations/weavenest-atla/weavenest-atla-lore-connections.png)](../00-annotations/weavenest-atla/weavenest-atla-lore-connections.png)
@@ -51,3 +47,7 @@
 ### Checks
 
 [![Checks for Weavenest Atla Lore (Weave_08)](../00-annotations/weavenest-atla/weavenest-atla-lore-checks.png)](../00-annotations/weavenest-atla/weavenest-atla-lore-checks.png)
+
+### Scene
+
+[![Scene for Weavenest Atla Lore (Weave_08)](../00-annotations/weavenest-atla/weavenest-atla-lore-scene.png)](../00-annotations/weavenest-atla/weavenest-atla-lore-scene.png)

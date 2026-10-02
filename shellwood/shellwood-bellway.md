@@ -35,10 +35,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Shellwood Bellway (Shellwood_19)](../00-annotations/shellwood/shellwood-bellway-scene.png)](../00-annotations/shellwood/shellwood-bellway-scene.png)
-
 ### Connections
 
 [![Connections for Shellwood Bellway (Shellwood_19)](../00-annotations/shellwood/shellwood-bellway-connections.png)](../00-annotations/shellwood/shellwood-bellway-connections.png)
@@ -46,3 +42,7 @@
 ### Checks
 
 [![Checks for Shellwood Bellway (Shellwood_19)](../00-annotations/shellwood/shellwood-bellway-checks.png)](../00-annotations/shellwood/shellwood-bellway-checks.png)
+
+### Scene
+
+[![Scene for Shellwood Bellway (Shellwood_19)](../00-annotations/shellwood/shellwood-bellway-scene.png)](../00-annotations/shellwood/shellwood-bellway-scene.png)

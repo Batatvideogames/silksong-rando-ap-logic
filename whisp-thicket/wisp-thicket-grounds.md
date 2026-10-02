@@ -28,10 +28,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Wisp Thicket Grounds (Wisp_02)](../00-annotations/whisp-thicket/wisp-thicket-grounds-scene.png)](../00-annotations/whisp-thicket/wisp-thicket-grounds-scene.png)
-
 ### Connections
 
 [![Connections for Wisp Thicket Grounds (Wisp_02)](../00-annotations/whisp-thicket/wisp-thicket-grounds-connections.png)](../00-annotations/whisp-thicket/wisp-thicket-grounds-connections.png)
@@ -39,3 +35,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Wisp Thicket Grounds (Wisp_02)](../00-annotations/whisp-thicket/wisp-thicket-grounds-checks.png)](../00-annotations/whisp-thicket/wisp-thicket-grounds-checks.png)
+
+### Scene
+
+[![Scene for Wisp Thicket Grounds (Wisp_02)](../00-annotations/whisp-thicket/wisp-thicket-grounds-scene.png)](../00-annotations/whisp-thicket/wisp-thicket-grounds-scene.png)

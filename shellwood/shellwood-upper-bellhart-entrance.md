@@ -43,10 +43,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Shellwood Upper Bellhart Entrance (Shellwood_13)](../00-annotations/shellwood/shellwood-upper-bellhart-entrance-scene.png)](../00-annotations/shellwood/shellwood-upper-bellhart-entrance-scene.png)
-
 ### Connections
 
 [![Connections for Shellwood Upper Bellhart Entrance (Shellwood_13)](../00-annotations/shellwood/shellwood-upper-bellhart-entrance-connections.png)](../00-annotations/shellwood/shellwood-upper-bellhart-entrance-connections.png)
@@ -54,3 +50,7 @@
 ### Checks
 
 [![Checks for Shellwood Upper Bellhart Entrance (Shellwood_13)](../00-annotations/shellwood/shellwood-upper-bellhart-entrance-checks.png)](../00-annotations/shellwood/shellwood-upper-bellhart-entrance-checks.png)
+
+### Scene
+
+[![Scene for Shellwood Upper Bellhart Entrance (Shellwood_13)](../00-annotations/shellwood/shellwood-upper-bellhart-entrance-scene.png)](../00-annotations/shellwood/shellwood-upper-bellhart-entrance-scene.png)

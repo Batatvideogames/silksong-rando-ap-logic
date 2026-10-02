@@ -51,10 +51,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Choral Chambers Below Ventrica (Song_01)](../00-annotations/choral-chambers/choral-chambers-below-ventrica-scene.png)](../00-annotations/choral-chambers/choral-chambers-below-ventrica-scene.png)
-
 ### Connections
 
 [![Connections for Choral Chambers Below Ventrica (Song_01)](../00-annotations/choral-chambers/choral-chambers-below-ventrica-connections.png)](../00-annotations/choral-chambers/choral-chambers-below-ventrica-connections.png)
@@ -62,3 +58,7 @@
 ### Checks
 
 [![Checks for Choral Chambers Below Ventrica (Song_01)](../00-annotations/choral-chambers/choral-chambers-below-ventrica-checks.png)](../00-annotations/choral-chambers/choral-chambers-below-ventrica-checks.png)
+
+### Scene
+
+[![Scene for Choral Chambers Below Ventrica (Song_01)](../00-annotations/choral-chambers/choral-chambers-below-ventrica-scene.png)](../00-annotations/choral-chambers/choral-chambers-below-ventrica-scene.png)

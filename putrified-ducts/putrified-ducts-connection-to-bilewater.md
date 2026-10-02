@@ -63,10 +63,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Putrified Ducts Connection To Bilewater (Aqueduct_04)](../00-annotations/putrified-ducts/putrified-ducts-connection-to-bilewater-scene.png)](../00-annotations/putrified-ducts/putrified-ducts-connection-to-bilewater-scene.png)
-
 ### Connections
 
 [![Connections for Putrified Ducts Connection To Bilewater (Aqueduct_04)](../00-annotations/putrified-ducts/putrified-ducts-connection-to-bilewater-connections.png)](../00-annotations/putrified-ducts/putrified-ducts-connection-to-bilewater-connections.png)
@@ -74,3 +70,7 @@
 ### Checks
 
 [![Checks for Putrified Ducts Connection To Bilewater (Aqueduct_04)](../00-annotations/putrified-ducts/putrified-ducts-connection-to-bilewater-checks.png)](../00-annotations/putrified-ducts/putrified-ducts-connection-to-bilewater-checks.png)
+
+### Scene
+
+[![Scene for Putrified Ducts Connection To Bilewater (Aqueduct_04)](../00-annotations/putrified-ducts/putrified-ducts-connection-to-bilewater-scene.png)](../00-annotations/putrified-ducts/putrified-ducts-connection-to-bilewater-scene.png)

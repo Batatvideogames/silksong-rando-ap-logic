@@ -28,10 +28,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Bilewater Northeast Tiny Room (Shadow_25)](../00-annotations/bilewater/bilewater-northeast-tiny-room-scene.png)](../00-annotations/bilewater/bilewater-northeast-tiny-room-scene.png)
-
 ### Connections
 
 [![Connections for Bilewater Northeast Tiny Room (Shadow_25)](../00-annotations/bilewater/bilewater-northeast-tiny-room-connections.png)](../00-annotations/bilewater/bilewater-northeast-tiny-room-connections.png)
@@ -39,3 +35,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Bilewater Northeast Tiny Room (Shadow_25)](../00-annotations/bilewater/bilewater-northeast-tiny-room-checks.png)](../00-annotations/bilewater/bilewater-northeast-tiny-room-checks.png)
+
+### Scene
+
+[![Scene for Bilewater Northeast Tiny Room (Shadow_25)](../00-annotations/bilewater/bilewater-northeast-tiny-room-scene.png)](../00-annotations/bilewater/bilewater-northeast-tiny-room-scene.png)

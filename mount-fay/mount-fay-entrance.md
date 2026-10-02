@@ -68,10 +68,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Mount Fay Entrance (Peak_01)](../00-annotations/mount-fay/mount-fay-entrance-scene.png)](../00-annotations/mount-fay/mount-fay-entrance-scene.png)
-
 ### Connections
 
 [![Connections for Mount Fay Entrance (Peak_01)](../00-annotations/mount-fay/mount-fay-entrance-connections.png)](../00-annotations/mount-fay/mount-fay-entrance-connections.png)
@@ -79,3 +75,7 @@
 ### Checks
 
 [![Checks for Mount Fay Entrance (Peak_01)](../00-annotations/mount-fay/mount-fay-entrance-checks.png)](../00-annotations/mount-fay/mount-fay-entrance-checks.png)
+
+### Scene
+
+[![Scene for Mount Fay Entrance (Peak_01)](../00-annotations/mount-fay/mount-fay-entrance-scene.png)](../00-annotations/mount-fay/mount-fay-entrance-scene.png)

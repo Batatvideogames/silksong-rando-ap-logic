@@ -30,10 +30,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Mosshome Druid (Mosstown_02c)](../00-annotations/bone-bottom/mosshome-druid-scene.png)](../00-annotations/bone-bottom/mosshome-druid-scene.png)
-
 ### Connections
 
 [![Connections for Mosshome Druid (Mosstown_02c)](../00-annotations/bone-bottom/mosshome-druid-connections.png)](../00-annotations/bone-bottom/mosshome-druid-connections.png)
@@ -41,3 +37,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Mosshome Druid (Mosstown_02c)](../00-annotations/bone-bottom/mosshome-druid-checks.png)](../00-annotations/bone-bottom/mosshome-druid-checks.png)
+
+### Scene
+
+[![Scene for Mosshome Druid (Mosstown_02c)](../00-annotations/bone-bottom/mosshome-druid-scene.png)](../00-annotations/bone-bottom/mosshome-druid-scene.png)

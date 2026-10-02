@@ -34,10 +34,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Wisp Thicket Shaft (Wisp_08)](../00-annotations/whisp-thicket/wisp-thicket-shaft-scene.png)](../00-annotations/whisp-thicket/wisp-thicket-shaft-scene.png)
-
 ### Connections
 
 [![Connections for Wisp Thicket Shaft (Wisp_08)](../00-annotations/whisp-thicket/wisp-thicket-shaft-connections.png)](../00-annotations/whisp-thicket/wisp-thicket-shaft-connections.png)
@@ -45,3 +41,7 @@
 ### Checks
 
 [![Checks for Wisp Thicket Shaft (Wisp_08)](../00-annotations/whisp-thicket/wisp-thicket-shaft-checks.png)](../00-annotations/whisp-thicket/wisp-thicket-shaft-checks.png)
+
+### Scene
+
+[![Scene for Wisp Thicket Shaft (Wisp_08)](../00-annotations/whisp-thicket/wisp-thicket-shaft-scene.png)](../00-annotations/whisp-thicket/wisp-thicket-shaft-scene.png)

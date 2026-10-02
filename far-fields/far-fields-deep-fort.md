@@ -34,10 +34,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Far Fields Deep Fort (Bone_East_25)](../00-annotations/far-fields/far-fields-deep-fort-scene.png)](../00-annotations/far-fields/far-fields-deep-fort-scene.png)
-
 ### Connections
 
 [![Connections for Far Fields Deep Fort (Bone_East_25)](../00-annotations/far-fields/far-fields-deep-fort-connections.png)](../00-annotations/far-fields/far-fields-deep-fort-connections.png)
@@ -45,3 +41,7 @@
 ### Checks
 
 [![Checks for Far Fields Deep Fort (Bone_East_25)](../00-annotations/far-fields/far-fields-deep-fort-checks.png)](../00-annotations/far-fields/far-fields-deep-fort-checks.png)
+
+### Scene
+
+[![Scene for Far Fields Deep Fort (Bone_East_25)](../00-annotations/far-fields/far-fields-deep-fort-scene.png)](../00-annotations/far-fields/far-fields-deep-fort-scene.png)

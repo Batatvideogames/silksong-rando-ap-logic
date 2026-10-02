@@ -26,10 +26,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Abyss Bottom Left Lore Room (Abyss_06)](../00-annotations/the-abyss/abyss-bottom-left-lore-room-scene.png)](../00-annotations/the-abyss/abyss-bottom-left-lore-room-scene.png)
-
 ### Connections
 
 [![Connections for Abyss Bottom Left Lore Room (Abyss_06)](../00-annotations/the-abyss/abyss-bottom-left-lore-room-connections.png)](../00-annotations/the-abyss/abyss-bottom-left-lore-room-connections.png)
@@ -37,3 +33,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Abyss Bottom Left Lore Room (Abyss_06)](../00-annotations/the-abyss/abyss-bottom-left-lore-room-checks.png)](../00-annotations/the-abyss/abyss-bottom-left-lore-room-checks.png)
+
+### Scene
+
+[![Scene for Abyss Bottom Left Lore Room (Abyss_06)](../00-annotations/the-abyss/abyss-bottom-left-lore-room-scene.png)](../00-annotations/the-abyss/abyss-bottom-left-lore-room-scene.png)

@@ -28,10 +28,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Choral Chambers Merchant Room (Song_07)](../00-annotations/choral-chambers/choral-chambers-merchant-room-scene.png)](../00-annotations/choral-chambers/choral-chambers-merchant-room-scene.png)
-
 ### Connections
 
 [![Connections for Choral Chambers Merchant Room (Song_07)](../00-annotations/choral-chambers/choral-chambers-merchant-room-connections.png)](../00-annotations/choral-chambers/choral-chambers-merchant-room-connections.png)
@@ -39,3 +35,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Choral Chambers Merchant Room (Song_07)](../00-annotations/choral-chambers/choral-chambers-merchant-room-checks.png)](../00-annotations/choral-chambers/choral-chambers-merchant-room-checks.png)
+
+### Scene
+
+[![Scene for Choral Chambers Merchant Room (Song_07)](../00-annotations/choral-chambers/choral-chambers-merchant-room-scene.png)](../00-annotations/choral-chambers/choral-chambers-merchant-room-scene.png)

@@ -35,10 +35,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Choral Chambers Maintenance Tunnel (Song_15)](../00-annotations/choral-chambers/choral-chambers-maintenance-tunnel-scene.png)](../00-annotations/choral-chambers/choral-chambers-maintenance-tunnel-scene.png)
-
 ### Connections
 
 [![Connections for Choral Chambers Maintenance Tunnel (Song_15)](../00-annotations/choral-chambers/choral-chambers-maintenance-tunnel-connections.png)](../00-annotations/choral-chambers/choral-chambers-maintenance-tunnel-connections.png)
@@ -46,3 +42,7 @@
 ### Checks
 
 [![Checks for Choral Chambers Maintenance Tunnel (Song_15)](../00-annotations/choral-chambers/choral-chambers-maintenance-tunnel-checks.png)](../00-annotations/choral-chambers/choral-chambers-maintenance-tunnel-checks.png)
+
+### Scene
+
+[![Scene for Choral Chambers Maintenance Tunnel (Song_15)](../00-annotations/choral-chambers/choral-chambers-maintenance-tunnel-scene.png)](../00-annotations/choral-chambers/choral-chambers-maintenance-tunnel-scene.png)

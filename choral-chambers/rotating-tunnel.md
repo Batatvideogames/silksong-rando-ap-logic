@@ -38,10 +38,6 @@ No check locations defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Rotating Tunnel (Song_20b)](../00-annotations/choral-chambers/rotating-tunnel-scene.png)](../00-annotations/choral-chambers/rotating-tunnel-scene.png)
-
 ### Connections
 
 [![Connections for Rotating Tunnel (Song_20b)](../00-annotations/choral-chambers/rotating-tunnel-connections.png)](../00-annotations/choral-chambers/rotating-tunnel-connections.png)
@@ -49,3 +45,7 @@ No check locations defined.
 ### Checks
 
 [![Checks for Rotating Tunnel (Song_20b)](../00-annotations/choral-chambers/rotating-tunnel-checks.png)](../00-annotations/choral-chambers/rotating-tunnel-checks.png)
+
+### Scene
+
+[![Scene for Rotating Tunnel (Song_20b)](../00-annotations/choral-chambers/rotating-tunnel-scene.png)](../00-annotations/choral-chambers/rotating-tunnel-scene.png)

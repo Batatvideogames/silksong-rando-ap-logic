@@ -31,10 +31,6 @@ No check locations defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Abyss Collapsing Hallway (Abyss_07)](../00-annotations/the-abyss/abyss-collapsing-hallway-scene.png)](../00-annotations/the-abyss/abyss-collapsing-hallway-scene.png)
-
 ### Connections
 
 [![Connections for Abyss Collapsing Hallway (Abyss_07)](../00-annotations/the-abyss/abyss-collapsing-hallway-connections.png)](../00-annotations/the-abyss/abyss-collapsing-hallway-connections.png)
@@ -42,3 +38,7 @@ No check locations defined.
 ### Checks
 
 [![Checks for Abyss Collapsing Hallway (Abyss_07)](../00-annotations/the-abyss/abyss-collapsing-hallway-checks.png)](../00-annotations/the-abyss/abyss-collapsing-hallway-checks.png)
+
+### Scene
+
+[![Scene for Abyss Collapsing Hallway (Abyss_07)](../00-annotations/the-abyss/abyss-collapsing-hallway-scene.png)](../00-annotations/the-abyss/abyss-collapsing-hallway-scene.png)

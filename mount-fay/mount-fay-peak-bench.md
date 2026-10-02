@@ -27,10 +27,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Mount Fay Peak Bench (Peak_12)](../00-annotations/mount-fay/mount-fay-peak-bench-scene.png)](../00-annotations/mount-fay/mount-fay-peak-bench-scene.png)
-
 ### Connections
 
 [![Connections for Mount Fay Peak Bench (Peak_12)](../00-annotations/mount-fay/mount-fay-peak-bench-connections.png)](../00-annotations/mount-fay/mount-fay-peak-bench-connections.png)
@@ -38,3 +34,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Mount Fay Peak Bench (Peak_12)](../00-annotations/mount-fay/mount-fay-peak-bench-checks.png)](../00-annotations/mount-fay/mount-fay-peak-bench-checks.png)
+
+### Scene
+
+[![Scene for Mount Fay Peak Bench (Peak_12)](../00-annotations/mount-fay/mount-fay-peak-bench-scene.png)](../00-annotations/mount-fay/mount-fay-peak-bench-scene.png)

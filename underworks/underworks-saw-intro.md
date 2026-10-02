@@ -33,10 +33,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Underworks Saw Intro (Under_03b)](../00-annotations/underworks/underworks-saw-intro-scene.png)](../00-annotations/underworks/underworks-saw-intro-scene.png)
-
 ### Connections
 
 [![Connections for Underworks Saw Intro (Under_03b)](../00-annotations/underworks/underworks-saw-intro-connections.png)](../00-annotations/underworks/underworks-saw-intro-connections.png)
@@ -44,3 +40,7 @@
 ### Checks
 
 [![Checks for Underworks Saw Intro (Under_03b)](../00-annotations/underworks/underworks-saw-intro-checks.png)](../00-annotations/underworks/underworks-saw-intro-checks.png)
+
+### Scene
+
+[![Scene for Underworks Saw Intro (Under_03b)](../00-annotations/underworks/underworks-saw-intro-scene.png)](../00-annotations/underworks/underworks-saw-intro-scene.png)

@@ -49,10 +49,6 @@ No check locations defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Hunter's March Shaft (Ant_14)](../00-annotations/hunter-s-march/hunter-s-march-shaft-scene.png)](../00-annotations/hunter-s-march/hunter-s-march-shaft-scene.png)
-
 ### Connections
 
 [![Connections for Hunter's March Shaft (Ant_14)](../00-annotations/hunter-s-march/hunter-s-march-shaft-connections.png)](../00-annotations/hunter-s-march/hunter-s-march-shaft-connections.png)
@@ -60,3 +56,7 @@ No check locations defined.
 ### Checks
 
 [![Checks for Hunter's March Shaft (Ant_14)](../00-annotations/hunter-s-march/hunter-s-march-shaft-checks.png)](../00-annotations/hunter-s-march/hunter-s-march-shaft-checks.png)
+
+### Scene
+
+[![Scene for Hunter's March Shaft (Ant_14)](../00-annotations/hunter-s-march/hunter-s-march-shaft-scene.png)](../00-annotations/hunter-s-march/hunter-s-march-shaft-scene.png)

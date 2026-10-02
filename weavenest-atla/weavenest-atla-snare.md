@@ -26,10 +26,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Weavenest Atla Snare (Weave_14)](../00-annotations/weavenest-atla/weavenest-atla-snare-scene.png)](../00-annotations/weavenest-atla/weavenest-atla-snare-scene.png)
-
 ### Connections
 
 [![Connections for Weavenest Atla Snare (Weave_14)](../00-annotations/weavenest-atla/weavenest-atla-snare-connections.png)](../00-annotations/weavenest-atla/weavenest-atla-snare-connections.png)
@@ -37,3 +33,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Weavenest Atla Snare (Weave_14)](../00-annotations/weavenest-atla/weavenest-atla-snare-checks.png)](../00-annotations/weavenest-atla/weavenest-atla-snare-checks.png)
+
+### Scene
+
+[![Scene for Weavenest Atla Snare (Weave_14)](../00-annotations/weavenest-atla/weavenest-atla-snare-scene.png)](../00-annotations/weavenest-atla/weavenest-atla-snare-scene.png)

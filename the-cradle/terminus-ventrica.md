@@ -52,10 +52,6 @@ I entered this during act 3 and got the same scene dump, dont believe they count
 
 ## Room Images
 
-### Scene
-
-[![Scene for Terminus Ventrica (Tube_Hub)](../00-annotations/the-cradle/terminus-ventrica-scene.png)](../00-annotations/the-cradle/terminus-ventrica-scene.png)
-
 ### Connections
 
 [![Connections for Terminus Ventrica (Tube_Hub)](../00-annotations/the-cradle/terminus-ventrica-connections.png)](../00-annotations/the-cradle/terminus-ventrica-connections.png)
@@ -63,3 +59,7 @@ I entered this during act 3 and got the same scene dump, dont believe they count
 ### Checks
 
 [![Checks for Terminus Ventrica (Tube_Hub)](../00-annotations/the-cradle/terminus-ventrica-checks.png)](../00-annotations/the-cradle/terminus-ventrica-checks.png)
+
+### Scene
+
+[![Scene for Terminus Ventrica (Tube_Hub)](../00-annotations/the-cradle/terminus-ventrica-scene.png)](../00-annotations/the-cradle/terminus-ventrica-scene.png)

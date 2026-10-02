@@ -43,10 +43,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for The Marrow Mr Burns House (Bone_14)](../00-annotations/the-marrow/the-marrow-mr-burns-house-scene.png)](../00-annotations/the-marrow/the-marrow-mr-burns-house-scene.png)
-
 ### Connections
 
 [![Connections for The Marrow Mr Burns House (Bone_14)](../00-annotations/the-marrow/the-marrow-mr-burns-house-connections.png)](../00-annotations/the-marrow/the-marrow-mr-burns-house-connections.png)
@@ -54,3 +50,7 @@
 ### Checks
 
 [![Checks for The Marrow Mr Burns House (Bone_14)](../00-annotations/the-marrow/the-marrow-mr-burns-house-checks.png)](../00-annotations/the-marrow/the-marrow-mr-burns-house-checks.png)
+
+### Scene
+
+[![Scene for The Marrow Mr Burns House (Bone_14)](../00-annotations/the-marrow/the-marrow-mr-burns-house-scene.png)](../00-annotations/the-marrow/the-marrow-mr-burns-house-scene.png)

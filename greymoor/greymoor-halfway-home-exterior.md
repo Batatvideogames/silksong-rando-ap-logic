@@ -72,10 +72,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Greymoor Halfway Home Exterior (Greymoor_03)](../00-annotations/greymoor/greymoor-halfway-home-exterior-scene.png)](../00-annotations/greymoor/greymoor-halfway-home-exterior-scene.png)
-
 ### Connections
 
 [![Connections for Greymoor Halfway Home Exterior (Greymoor_03)](../00-annotations/greymoor/greymoor-halfway-home-exterior-connections.png)](../00-annotations/greymoor/greymoor-halfway-home-exterior-connections.png)
@@ -83,3 +79,7 @@
 ### Checks
 
 [![Checks for Greymoor Halfway Home Exterior (Greymoor_03)](../00-annotations/greymoor/greymoor-halfway-home-exterior-checks.png)](../00-annotations/greymoor/greymoor-halfway-home-exterior-checks.png)
+
+### Scene
+
+[![Scene for Greymoor Halfway Home Exterior (Greymoor_03)](../00-annotations/greymoor/greymoor-halfway-home-exterior-scene.png)](../00-annotations/greymoor/greymoor-halfway-home-exterior-scene.png)

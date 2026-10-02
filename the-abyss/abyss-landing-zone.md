@@ -44,10 +44,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Abyss Landing Zone (Abyss_03)](../00-annotations/the-abyss/abyss-landing-zone-scene.png)](../00-annotations/the-abyss/abyss-landing-zone-scene.png)
-
 ### Connections
 
 [![Connections for Abyss Landing Zone (Abyss_03)](../00-annotations/the-abyss/abyss-landing-zone-connections.png)](../00-annotations/the-abyss/abyss-landing-zone-connections.png)
@@ -55,3 +51,7 @@
 ### Checks
 
 [![Checks for Abyss Landing Zone (Abyss_03)](../00-annotations/the-abyss/abyss-landing-zone-checks.png)](../00-annotations/the-abyss/abyss-landing-zone-checks.png)
+
+### Scene
+
+[![Scene for Abyss Landing Zone (Abyss_03)](../00-annotations/the-abyss/abyss-landing-zone-scene.png)](../00-annotations/the-abyss/abyss-landing-zone-scene.png)

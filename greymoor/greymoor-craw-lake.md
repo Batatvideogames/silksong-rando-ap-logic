@@ -92,10 +92,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Greymoor Craw Lake (Greymoor_15b)](../00-annotations/greymoor/greymoor-craw-lake-scene.png)](../00-annotations/greymoor/greymoor-craw-lake-scene.png)
-
 ### Connections
 
 [![Connections for Greymoor Craw Lake (Greymoor_15b)](../00-annotations/greymoor/greymoor-craw-lake-connections.png)](../00-annotations/greymoor/greymoor-craw-lake-connections.png)
@@ -103,3 +99,7 @@
 ### Checks
 
 [![Checks for Greymoor Craw Lake (Greymoor_15b)](../00-annotations/greymoor/greymoor-craw-lake-checks.png)](../00-annotations/greymoor/greymoor-craw-lake-checks.png)
+
+### Scene
+
+[![Scene for Greymoor Craw Lake (Greymoor_15b)](../00-annotations/greymoor/greymoor-craw-lake-scene.png)](../00-annotations/greymoor/greymoor-craw-lake-scene.png)

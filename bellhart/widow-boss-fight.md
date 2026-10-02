@@ -49,10 +49,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Widow Boss Fight (Belltown_Shrine)](../00-annotations/bellhart/widow-boss-fight-scene.png)](../00-annotations/bellhart/widow-boss-fight-scene.png)
-
 ### Connections
 
 [![Connections for Widow Boss Fight (Belltown_Shrine)](../00-annotations/bellhart/widow-boss-fight-connections.png)](../00-annotations/bellhart/widow-boss-fight-connections.png)
@@ -60,3 +56,7 @@
 ### Checks
 
 [![Checks for Widow Boss Fight (Belltown_Shrine)](../00-annotations/bellhart/widow-boss-fight-checks.png)](../00-annotations/bellhart/widow-boss-fight-checks.png)
+
+### Scene
+
+[![Scene for Widow Boss Fight (Belltown_Shrine)](../00-annotations/bellhart/widow-boss-fight-scene.png)](../00-annotations/bellhart/widow-boss-fight-scene.png)

@@ -39,10 +39,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Hunter's March Deep Entrance (Ant_09)](../00-annotations/hunter-s-march/hunter-s-march-deep-entrance-scene.png)](../00-annotations/hunter-s-march/hunter-s-march-deep-entrance-scene.png)
-
 ### Connections
 
 [![Connections for Hunter's March Deep Entrance (Ant_09)](../00-annotations/hunter-s-march/hunter-s-march-deep-entrance-connections.png)](../00-annotations/hunter-s-march/hunter-s-march-deep-entrance-connections.png)
@@ -50,3 +46,7 @@
 ### Checks
 
 [![Checks for Hunter's March Deep Entrance (Ant_09)](../00-annotations/hunter-s-march/hunter-s-march-deep-entrance-checks.png)](../00-annotations/hunter-s-march/hunter-s-march-deep-entrance-checks.png)
+
+### Scene
+
+[![Scene for Hunter's March Deep Entrance (Ant_09)](../00-annotations/hunter-s-march/hunter-s-march-deep-entrance-scene.png)](../00-annotations/hunter-s-march/hunter-s-march-deep-entrance-scene.png)

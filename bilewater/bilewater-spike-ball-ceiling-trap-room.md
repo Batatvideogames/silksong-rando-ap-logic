@@ -35,10 +35,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Bilewater Spike Ball Ceiling Trap Room (Shadow_11)](../00-annotations/bilewater/bilewater-spike-ball-ceiling-trap-room-scene.png)](../00-annotations/bilewater/bilewater-spike-ball-ceiling-trap-room-scene.png)
-
 ### Connections
 
 [![Connections for Bilewater Spike Ball Ceiling Trap Room (Shadow_11)](../00-annotations/bilewater/bilewater-spike-ball-ceiling-trap-room-connections.png)](../00-annotations/bilewater/bilewater-spike-ball-ceiling-trap-room-connections.png)
@@ -46,3 +42,7 @@
 ### Checks
 
 [![Checks for Bilewater Spike Ball Ceiling Trap Room (Shadow_11)](../00-annotations/bilewater/bilewater-spike-ball-ceiling-trap-room-checks.png)](../00-annotations/bilewater/bilewater-spike-ball-ceiling-trap-room-checks.png)
+
+### Scene
+
+[![Scene for Bilewater Spike Ball Ceiling Trap Room (Shadow_11)](../00-annotations/bilewater/bilewater-spike-ball-ceiling-trap-room-scene.png)](../00-annotations/bilewater/bilewater-spike-ball-ceiling-trap-room-scene.png)

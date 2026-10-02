@@ -45,10 +45,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Whiteward Unravelled Arena Room (Ward_02)](../00-annotations/whiteward/whiteward-unravelled-arena-room-scene.png)](../00-annotations/whiteward/whiteward-unravelled-arena-room-scene.png)
-
 ### Connections
 
 [![Connections for Whiteward Unravelled Arena Room (Ward_02)](../00-annotations/whiteward/whiteward-unravelled-arena-room-connections.png)](../00-annotations/whiteward/whiteward-unravelled-arena-room-connections.png)
@@ -56,3 +52,7 @@
 ### Checks
 
 [![Checks for Whiteward Unravelled Arena Room (Ward_02)](../00-annotations/whiteward/whiteward-unravelled-arena-room-checks.png)](../00-annotations/whiteward/whiteward-unravelled-arena-room-checks.png)
+
+### Scene
+
+[![Scene for Whiteward Unravelled Arena Room (Ward_02)](../00-annotations/whiteward/whiteward-unravelled-arena-room-scene.png)](../00-annotations/whiteward/whiteward-unravelled-arena-room-scene.png)

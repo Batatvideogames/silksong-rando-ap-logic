@@ -51,10 +51,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Greymoor West Bellshrine Room (Greymoor_01)](../00-annotations/greymoor/greymoor-west-bellshrine-room-scene.png)](../00-annotations/greymoor/greymoor-west-bellshrine-room-scene.png)
-
 ### Connections
 
 [![Connections for Greymoor West Bellshrine Room (Greymoor_01)](../00-annotations/greymoor/greymoor-west-bellshrine-room-connections.png)](../00-annotations/greymoor/greymoor-west-bellshrine-room-connections.png)
@@ -62,3 +58,7 @@
 ### Checks
 
 [![Checks for Greymoor West Bellshrine Room (Greymoor_01)](../00-annotations/greymoor/greymoor-west-bellshrine-room-checks.png)](../00-annotations/greymoor/greymoor-west-bellshrine-room-checks.png)
+
+### Scene
+
+[![Scene for Greymoor West Bellshrine Room (Greymoor_01)](../00-annotations/greymoor/greymoor-west-bellshrine-room-scene.png)](../00-annotations/greymoor/greymoor-west-bellshrine-room-scene.png)

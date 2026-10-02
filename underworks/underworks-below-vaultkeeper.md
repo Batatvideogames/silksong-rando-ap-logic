@@ -46,10 +46,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Underworks Below Vaultkeeper (Library_12b)](../00-annotations/underworks/underworks-below-vaultkeeper-scene.png)](../00-annotations/underworks/underworks-below-vaultkeeper-scene.png)
-
 ### Connections
 
 [![Connections for Underworks Below Vaultkeeper (Library_12b)](../00-annotations/underworks/underworks-below-vaultkeeper-connections.png)](../00-annotations/underworks/underworks-below-vaultkeeper-connections.png)
@@ -57,3 +53,7 @@
 ### Checks
 
 [![Checks for Underworks Below Vaultkeeper (Library_12b)](../00-annotations/underworks/underworks-below-vaultkeeper-checks.png)](../00-annotations/underworks/underworks-below-vaultkeeper-checks.png)
+
+### Scene
+
+[![Scene for Underworks Below Vaultkeeper (Library_12b)](../00-annotations/underworks/underworks-below-vaultkeeper-scene.png)](../00-annotations/underworks/underworks-below-vaultkeeper-scene.png)

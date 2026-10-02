@@ -38,10 +38,6 @@ No map image for this
 
 ## Room Images
 
-### Scene
-
-[![Scene for Lace 2 Fight (Song_Tower_01)](../00-annotations/the-cradle/lace-2-fight-scene.png)](../00-annotations/the-cradle/lace-2-fight-scene.png)
-
 ### Connections
 
 [![Connections for Lace 2 Fight (Song_Tower_01)](../00-annotations/the-cradle/lace-2-fight-connections.png)](../00-annotations/the-cradle/lace-2-fight-connections.png)
@@ -49,3 +45,7 @@ No map image for this
 ### Checks
 
 [![Checks for Lace 2 Fight (Song_Tower_01)](../00-annotations/the-cradle/lace-2-fight-checks.png)](../00-annotations/the-cradle/lace-2-fight-checks.png)
+
+### Scene
+
+[![Scene for Lace 2 Fight (Song_Tower_01)](../00-annotations/the-cradle/lace-2-fight-scene.png)](../00-annotations/the-cradle/lace-2-fight-scene.png)

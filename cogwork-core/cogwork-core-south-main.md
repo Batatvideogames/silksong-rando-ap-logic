@@ -62,10 +62,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Cogwork Core South Main (Cog_04)](../00-annotations/cogwork-core/cogwork-core-south-main-scene.png)](../00-annotations/cogwork-core/cogwork-core-south-main-scene.png)
-
 ### Connections
 
 [![Connections for Cogwork Core South Main (Cog_04)](../00-annotations/cogwork-core/cogwork-core-south-main-connections.png)](../00-annotations/cogwork-core/cogwork-core-south-main-connections.png)
@@ -73,3 +69,7 @@
 ### Checks
 
 [![Checks for Cogwork Core South Main (Cog_04)](../00-annotations/cogwork-core/cogwork-core-south-main-checks.png)](../00-annotations/cogwork-core/cogwork-core-south-main-checks.png)
+
+### Scene
+
+[![Scene for Cogwork Core South Main (Cog_04)](../00-annotations/cogwork-core/cogwork-core-south-main-scene.png)](../00-annotations/cogwork-core/cogwork-core-south-main-scene.png)

@@ -35,10 +35,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Shellwood Left Side Long Pond Room (Shellwood_04b)](../00-annotations/shellwood/shellwood-left-side-long-pond-room-scene.png)](../00-annotations/shellwood/shellwood-left-side-long-pond-room-scene.png)
-
 ### Connections
 
 [![Connections for Shellwood Left Side Long Pond Room (Shellwood_04b)](../00-annotations/shellwood/shellwood-left-side-long-pond-room-connections.png)](../00-annotations/shellwood/shellwood-left-side-long-pond-room-connections.png)
@@ -46,3 +42,7 @@
 ### Checks
 
 [![Checks for Shellwood Left Side Long Pond Room (Shellwood_04b)](../00-annotations/shellwood/shellwood-left-side-long-pond-room-checks.png)](../00-annotations/shellwood/shellwood-left-side-long-pond-room-checks.png)
+
+### Scene
+
+[![Scene for Shellwood Left Side Long Pond Room (Shellwood_04b)](../00-annotations/shellwood/shellwood-left-side-long-pond-room-scene.png)](../00-annotations/shellwood/shellwood-left-side-long-pond-room-scene.png)

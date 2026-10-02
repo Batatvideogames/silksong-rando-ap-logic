@@ -26,10 +26,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Wormways Zango Arena (Crawl_10)](../00-annotations/wormways/wormways-zango-arena-scene.png)](../00-annotations/wormways/wormways-zango-arena-scene.png)
-
 ### Connections
 
 [![Connections for Wormways Zango Arena (Crawl_10)](../00-annotations/wormways/wormways-zango-arena-connections.png)](../00-annotations/wormways/wormways-zango-arena-connections.png)
@@ -37,3 +33,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Wormways Zango Arena (Crawl_10)](../00-annotations/wormways/wormways-zango-arena-checks.png)](../00-annotations/wormways/wormways-zango-arena-checks.png)
+
+### Scene
+
+[![Scene for Wormways Zango Arena (Crawl_10)](../00-annotations/wormways/wormways-zango-arena-scene.png)](../00-annotations/wormways/wormways-zango-arena-scene.png)

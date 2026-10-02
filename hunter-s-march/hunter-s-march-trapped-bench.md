@@ -27,10 +27,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Hunter's March Trapped Bench (Ant_17)](../00-annotations/hunter-s-march/hunter-s-march-trapped-bench-scene.png)](../00-annotations/hunter-s-march/hunter-s-march-trapped-bench-scene.png)
-
 ### Connections
 
 [![Connections for Hunter's March Trapped Bench (Ant_17)](../00-annotations/hunter-s-march/hunter-s-march-trapped-bench-connections.png)](../00-annotations/hunter-s-march/hunter-s-march-trapped-bench-connections.png)
@@ -38,3 +34,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Hunter's March Trapped Bench (Ant_17)](../00-annotations/hunter-s-march/hunter-s-march-trapped-bench-checks.png)](../00-annotations/hunter-s-march/hunter-s-march-trapped-bench-checks.png)
+
+### Scene
+
+[![Scene for Hunter's March Trapped Bench (Ant_17)](../00-annotations/hunter-s-march/hunter-s-march-trapped-bench-scene.png)](../00-annotations/hunter-s-march/hunter-s-march-trapped-bench-scene.png)

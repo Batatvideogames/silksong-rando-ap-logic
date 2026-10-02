@@ -39,10 +39,6 @@ No check locations defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Deep Docks Lower West Shaft (Dock_04)](../00-annotations/deep-docks/deep-docks-lower-west-shaft-scene.png)](../00-annotations/deep-docks/deep-docks-lower-west-shaft-scene.png)
-
 ### Connections
 
 [![Connections for Deep Docks Lower West Shaft (Dock_04)](../00-annotations/deep-docks/deep-docks-lower-west-shaft-connections.png)](../00-annotations/deep-docks/deep-docks-lower-west-shaft-connections.png)
@@ -50,3 +46,7 @@ No check locations defined.
 ### Checks
 
 [![Checks for Deep Docks Lower West Shaft (Dock_04)](../00-annotations/deep-docks/deep-docks-lower-west-shaft-checks.png)](../00-annotations/deep-docks/deep-docks-lower-west-shaft-checks.png)
+
+### Scene
+
+[![Scene for Deep Docks Lower West Shaft (Dock_04)](../00-annotations/deep-docks/deep-docks-lower-west-shaft-scene.png)](../00-annotations/deep-docks/deep-docks-lower-west-shaft-scene.png)

@@ -49,10 +49,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Blasted Steps Shakra Room (Coral_12)](../00-annotations/blasted-steps/blasted-steps-shakra-room-scene.png)](../00-annotations/blasted-steps/blasted-steps-shakra-room-scene.png)
-
 ### Connections
 
 [![Connections for Blasted Steps Shakra Room (Coral_12)](../00-annotations/blasted-steps/blasted-steps-shakra-room-connections.png)](../00-annotations/blasted-steps/blasted-steps-shakra-room-connections.png)
@@ -60,3 +56,7 @@
 ### Checks
 
 [![Checks for Blasted Steps Shakra Room (Coral_12)](../00-annotations/blasted-steps/blasted-steps-shakra-room-checks.png)](../00-annotations/blasted-steps/blasted-steps-shakra-room-checks.png)
+
+### Scene
+
+[![Scene for Blasted Steps Shakra Room (Coral_12)](../00-annotations/blasted-steps/blasted-steps-shakra-room-scene.png)](../00-annotations/blasted-steps/blasted-steps-shakra-room-scene.png)

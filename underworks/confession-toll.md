@@ -42,10 +42,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Confession Toll (Under_08)](../00-annotations/underworks/confession-toll-scene.png)](../00-annotations/underworks/confession-toll-scene.png)
-
 ### Connections
 
 [![Connections for Confession Toll (Under_08)](../00-annotations/underworks/confession-toll-connections.png)](../00-annotations/underworks/confession-toll-connections.png)
@@ -53,3 +49,7 @@
 ### Checks
 
 [![Checks for Confession Toll (Under_08)](../00-annotations/underworks/confession-toll-checks.png)](../00-annotations/underworks/confession-toll-checks.png)
+
+### Scene
+
+[![Scene for Confession Toll (Under_08)](../00-annotations/underworks/confession-toll-scene.png)](../00-annotations/underworks/confession-toll-scene.png)

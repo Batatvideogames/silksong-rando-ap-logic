@@ -53,10 +53,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Mount Fay Right Side Middle Room (Peak_07)](../00-annotations/mount-fay/mount-fay-right-side-middle-room-scene.png)](../00-annotations/mount-fay/mount-fay-right-side-middle-room-scene.png)
-
 ### Connections
 
 [![Connections for Mount Fay Right Side Middle Room (Peak_07)](../00-annotations/mount-fay/mount-fay-right-side-middle-room-connections.png)](../00-annotations/mount-fay/mount-fay-right-side-middle-room-connections.png)
@@ -64,3 +60,7 @@
 ### Checks
 
 [![Checks for Mount Fay Right Side Middle Room (Peak_07)](../00-annotations/mount-fay/mount-fay-right-side-middle-room-checks.png)](../00-annotations/mount-fay/mount-fay-right-side-middle-room-checks.png)
+
+### Scene
+
+[![Scene for Mount Fay Right Side Middle Room (Peak_07)](../00-annotations/mount-fay/mount-fay-right-side-middle-room-scene.png)](../00-annotations/mount-fay/mount-fay-right-side-middle-room-scene.png)

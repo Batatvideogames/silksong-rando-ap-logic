@@ -43,10 +43,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Moss Grotto East (Tut_01b)](../00-annotations/moss-grotto/moss-grotto-east-scene.png)](../00-annotations/moss-grotto/moss-grotto-east-scene.png)
-
 ### Connections
 
 [![Connections for Moss Grotto East (Tut_01b)](../00-annotations/moss-grotto/moss-grotto-east-connections.png)](../00-annotations/moss-grotto/moss-grotto-east-connections.png)
@@ -54,3 +50,7 @@
 ### Checks
 
 [![Checks for Moss Grotto East (Tut_01b)](../00-annotations/moss-grotto/moss-grotto-east-checks.png)](../00-annotations/moss-grotto/moss-grotto-east-checks.png)
+
+### Scene
+
+[![Scene for Moss Grotto East (Tut_01b)](../00-annotations/moss-grotto/moss-grotto-east-scene.png)](../00-annotations/moss-grotto/moss-grotto-east-scene.png)

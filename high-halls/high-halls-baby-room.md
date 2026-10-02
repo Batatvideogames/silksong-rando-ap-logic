@@ -27,10 +27,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for High Halls Baby Room (Hang_16)](../00-annotations/high-halls/high-halls-baby-room-scene.png)](../00-annotations/high-halls/high-halls-baby-room-scene.png)
-
 ### Connections
 
 [![Connections for High Halls Baby Room (Hang_16)](../00-annotations/high-halls/high-halls-baby-room-connections.png)](../00-annotations/high-halls/high-halls-baby-room-connections.png)
@@ -38,3 +34,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for High Halls Baby Room (Hang_16)](../00-annotations/high-halls/high-halls-baby-room-checks.png)](../00-annotations/high-halls/high-halls-baby-room-checks.png)
+
+### Scene
+
+[![Scene for High Halls Baby Room (Hang_16)](../00-annotations/high-halls/high-halls-baby-room-scene.png)](../00-annotations/high-halls/high-halls-baby-room-scene.png)

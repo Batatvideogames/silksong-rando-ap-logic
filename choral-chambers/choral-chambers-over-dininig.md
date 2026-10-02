@@ -39,10 +39,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Choral Chambers Over Dininig (Song_09)](../00-annotations/choral-chambers/choral-chambers-over-dininig-scene.png)](../00-annotations/choral-chambers/choral-chambers-over-dininig-scene.png)
-
 ### Connections
 
 [![Connections for Choral Chambers Over Dininig (Song_09)](../00-annotations/choral-chambers/choral-chambers-over-dininig-connections.png)](../00-annotations/choral-chambers/choral-chambers-over-dininig-connections.png)
@@ -50,3 +46,7 @@
 ### Checks
 
 [![Checks for Choral Chambers Over Dininig (Song_09)](../00-annotations/choral-chambers/choral-chambers-over-dininig-checks.png)](../00-annotations/choral-chambers/choral-chambers-over-dininig-checks.png)
+
+### Scene
+
+[![Scene for Choral Chambers Over Dininig (Song_09)](../00-annotations/choral-chambers/choral-chambers-over-dininig-scene.png)](../00-annotations/choral-chambers/choral-chambers-over-dininig-scene.png)

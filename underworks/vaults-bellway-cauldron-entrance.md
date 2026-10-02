@@ -40,10 +40,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Vaults & Bellway Cauldron Entrance (Library_11)](../00-annotations/underworks/vaults-bellway-cauldron-entrance-scene.png)](../00-annotations/underworks/vaults-bellway-cauldron-entrance-scene.png)
-
 ### Connections
 
 [![Connections for Vaults & Bellway Cauldron Entrance (Library_11)](../00-annotations/underworks/vaults-bellway-cauldron-entrance-connections.png)](../00-annotations/underworks/vaults-bellway-cauldron-entrance-connections.png)
@@ -51,3 +47,7 @@
 ### Checks
 
 [![Checks for Vaults & Bellway Cauldron Entrance (Library_11)](../00-annotations/underworks/vaults-bellway-cauldron-entrance-checks.png)](../00-annotations/underworks/vaults-bellway-cauldron-entrance-checks.png)
+
+### Scene
+
+[![Scene for Vaults & Bellway Cauldron Entrance (Library_11)](../00-annotations/underworks/vaults-bellway-cauldron-entrance-scene.png)](../00-annotations/underworks/vaults-bellway-cauldron-entrance-scene.png)

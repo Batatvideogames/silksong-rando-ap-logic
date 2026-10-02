@@ -27,10 +27,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Far Fields Pilgrim's Rest Deep Passage (Bone_East_18c)](../00-annotations/far-fields/far-fields-pilgrim-s-rest-deep-passage-scene.png)](../00-annotations/far-fields/far-fields-pilgrim-s-rest-deep-passage-scene.png)
-
 ### Connections
 
 [![Connections for Far Fields Pilgrim's Rest Deep Passage (Bone_East_18c)](../00-annotations/far-fields/far-fields-pilgrim-s-rest-deep-passage-connections.png)](../00-annotations/far-fields/far-fields-pilgrim-s-rest-deep-passage-connections.png)
@@ -38,3 +34,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Far Fields Pilgrim's Rest Deep Passage (Bone_East_18c)](../00-annotations/far-fields/far-fields-pilgrim-s-rest-deep-passage-checks.png)](../00-annotations/far-fields/far-fields-pilgrim-s-rest-deep-passage-checks.png)
+
+### Scene
+
+[![Scene for Far Fields Pilgrim's Rest Deep Passage (Bone_East_18c)](../00-annotations/far-fields/far-fields-pilgrim-s-rest-deep-passage-scene.png)](../00-annotations/far-fields/far-fields-pilgrim-s-rest-deep-passage-scene.png)

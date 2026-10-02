@@ -31,10 +31,6 @@ No check locations defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Abyss Hallway To Upper Big Room (Abyss_02)](../00-annotations/the-abyss/abyss-hallway-to-upper-big-room-scene.png)](../00-annotations/the-abyss/abyss-hallway-to-upper-big-room-scene.png)
-
 ### Connections
 
 [![Connections for Abyss Hallway To Upper Big Room (Abyss_02)](../00-annotations/the-abyss/abyss-hallway-to-upper-big-room-connections.png)](../00-annotations/the-abyss/abyss-hallway-to-upper-big-room-connections.png)
@@ -42,3 +38,7 @@ No check locations defined.
 ### Checks
 
 [![Checks for Abyss Hallway To Upper Big Room (Abyss_02)](../00-annotations/the-abyss/abyss-hallway-to-upper-big-room-checks.png)](../00-annotations/the-abyss/abyss-hallway-to-upper-big-room-checks.png)
+
+### Scene
+
+[![Scene for Abyss Hallway To Upper Big Room (Abyss_02)](../00-annotations/the-abyss/abyss-hallway-to-upper-big-room-scene.png)](../00-annotations/the-abyss/abyss-hallway-to-upper-big-room-scene.png)

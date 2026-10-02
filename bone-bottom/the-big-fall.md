@@ -82,10 +82,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for The Big Fall (Aspid_01)](../00-annotations/bone-bottom/the-big-fall-scene.png)](../00-annotations/bone-bottom/the-big-fall-scene.png)
-
 ### Connections
 
 [![Connections for The Big Fall (Aspid_01)](../00-annotations/bone-bottom/the-big-fall-connections.png)](../00-annotations/bone-bottom/the-big-fall-connections.png)
@@ -93,3 +89,7 @@
 ### Checks
 
 [![Checks for The Big Fall (Aspid_01)](../00-annotations/bone-bottom/the-big-fall-checks.png)](../00-annotations/bone-bottom/the-big-fall-checks.png)
+
+### Scene
+
+[![Scene for The Big Fall (Aspid_01)](../00-annotations/bone-bottom/the-big-fall-scene.png)](../00-annotations/bone-bottom/the-big-fall-scene.png)

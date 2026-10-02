@@ -42,10 +42,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Sprintmaster Cave (Sprintmaster_Cave)](../00-annotations/far-fields/sprintmaster-cave-scene.png)](../00-annotations/far-fields/sprintmaster-cave-scene.png)
-
 ### Connections
 
 [![Connections for Sprintmaster Cave (Sprintmaster_Cave)](../00-annotations/far-fields/sprintmaster-cave-connections.png)](../00-annotations/far-fields/sprintmaster-cave-connections.png)
@@ -53,3 +49,7 @@
 ### Checks
 
 [![Checks for Sprintmaster Cave (Sprintmaster_Cave)](../00-annotations/far-fields/sprintmaster-cave-checks.png)](../00-annotations/far-fields/sprintmaster-cave-checks.png)
+
+### Scene
+
+[![Scene for Sprintmaster Cave (Sprintmaster_Cave)](../00-annotations/far-fields/sprintmaster-cave-scene.png)](../00-annotations/far-fields/sprintmaster-cave-scene.png)

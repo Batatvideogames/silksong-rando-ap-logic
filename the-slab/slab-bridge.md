@@ -31,10 +31,6 @@ No check locations defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Slab Bridge (Slab_01)](../00-annotations/the-slab/slab-bridge-scene.png)](../00-annotations/the-slab/slab-bridge-scene.png)
-
 ### Connections
 
 [![Connections for Slab Bridge (Slab_01)](../00-annotations/the-slab/slab-bridge-connections.png)](../00-annotations/the-slab/slab-bridge-connections.png)
@@ -42,3 +38,7 @@ No check locations defined.
 ### Checks
 
 [![Checks for Slab Bridge (Slab_01)](../00-annotations/the-slab/slab-bridge-checks.png)](../00-annotations/the-slab/slab-bridge-checks.png)
+
+### Scene
+
+[![Scene for Slab Bridge (Slab_01)](../00-annotations/the-slab/slab-bridge-scene.png)](../00-annotations/the-slab/slab-bridge-scene.png)

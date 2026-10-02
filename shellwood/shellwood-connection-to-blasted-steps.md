@@ -26,10 +26,6 @@ No check locations defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Shellwood Connection To Blasted steps (Shellwood_08)](../00-annotations/shellwood/shellwood-connection-to-blasted-steps-scene.png)](../00-annotations/shellwood/shellwood-connection-to-blasted-steps-scene.png)
-
 ### Connections
 
 [![Connections for Shellwood Connection To Blasted steps (Shellwood_08)](../00-annotations/shellwood/shellwood-connection-to-blasted-steps-connections.png)](../00-annotations/shellwood/shellwood-connection-to-blasted-steps-connections.png)
@@ -37,3 +33,7 @@ No check locations defined.
 ### Checks
 
 [![Checks for Shellwood Connection To Blasted steps (Shellwood_08)](../00-annotations/shellwood/shellwood-connection-to-blasted-steps-checks.png)](../00-annotations/shellwood/shellwood-connection-to-blasted-steps-checks.png)
+
+### Scene
+
+[![Scene for Shellwood Connection To Blasted steps (Shellwood_08)](../00-annotations/shellwood/shellwood-connection-to-blasted-steps-scene.png)](../00-annotations/shellwood/shellwood-connection-to-blasted-steps-scene.png)

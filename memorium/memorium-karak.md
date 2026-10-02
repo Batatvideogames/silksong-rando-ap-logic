@@ -41,10 +41,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Memorium Karak (Arborium_06)](../00-annotations/memorium/memorium-karak-scene.png)](../00-annotations/memorium/memorium-karak-scene.png)
-
 ### Connections
 
 [![Connections for Memorium Karak (Arborium_06)](../00-annotations/memorium/memorium-karak-connections.png)](../00-annotations/memorium/memorium-karak-connections.png)
@@ -52,3 +48,7 @@
 ### Checks
 
 [![Checks for Memorium Karak (Arborium_06)](../00-annotations/memorium/memorium-karak-checks.png)](../00-annotations/memorium/memorium-karak-checks.png)
+
+### Scene
+
+[![Scene for Memorium Karak (Arborium_06)](../00-annotations/memorium/memorium-karak-scene.png)](../00-annotations/memorium/memorium-karak-scene.png)

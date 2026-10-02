@@ -25,10 +25,6 @@ No check locations defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for ACT3 Connection To GMS (Cradle_01_Destroyed)](../00-annotations/the-cradle/act3-connection-to-gms-scene.png)](../00-annotations/the-cradle/act3-connection-to-gms-scene.png)
-
 ### Connections
 
 [![Connections for ACT3 Connection To GMS (Cradle_01_Destroyed)](../00-annotations/the-cradle/act3-connection-to-gms-connections.png)](../00-annotations/the-cradle/act3-connection-to-gms-connections.png)
@@ -36,3 +32,7 @@ No check locations defined.
 ### Checks
 
 [![Checks for ACT3 Connection To GMS (Cradle_01_Destroyed)](../00-annotations/the-cradle/act3-connection-to-gms-checks.png)](../00-annotations/the-cradle/act3-connection-to-gms-checks.png)
+
+### Scene
+
+[![Scene for ACT3 Connection To GMS (Cradle_01_Destroyed)](../00-annotations/the-cradle/act3-connection-to-gms-scene.png)](../00-annotations/the-cradle/act3-connection-to-gms-scene.png)

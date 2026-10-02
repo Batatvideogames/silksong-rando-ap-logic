@@ -50,10 +50,6 @@ No check locations defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Choral Chambers Western Shaft (Song_12)](../00-annotations/choral-chambers/choral-chambers-western-shaft-scene.png)](../00-annotations/choral-chambers/choral-chambers-western-shaft-scene.png)
-
 ### Connections
 
 [![Connections for Choral Chambers Western Shaft (Song_12)](../00-annotations/choral-chambers/choral-chambers-western-shaft-connections.png)](../00-annotations/choral-chambers/choral-chambers-western-shaft-connections.png)
@@ -61,3 +57,7 @@ No check locations defined.
 ### Checks
 
 [![Checks for Choral Chambers Western Shaft (Song_12)](../00-annotations/choral-chambers/choral-chambers-western-shaft-checks.png)](../00-annotations/choral-chambers/choral-chambers-western-shaft-checks.png)
+
+### Scene
+
+[![Scene for Choral Chambers Western Shaft (Song_12)](../00-annotations/choral-chambers/choral-chambers-western-shaft-scene.png)](../00-annotations/choral-chambers/choral-chambers-western-shaft-scene.png)

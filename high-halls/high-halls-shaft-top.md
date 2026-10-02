@@ -26,10 +26,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for High Halls Shaft Top (Hang_03_top)](../00-annotations/high-halls/high-halls-shaft-top-scene.png)](../00-annotations/high-halls/high-halls-shaft-top-scene.png)
-
 ### Connections
 
 [![Connections for High Halls Shaft Top (Hang_03_top)](../00-annotations/high-halls/high-halls-shaft-top-connections.png)](../00-annotations/high-halls/high-halls-shaft-top-connections.png)
@@ -37,3 +33,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for High Halls Shaft Top (Hang_03_top)](../00-annotations/high-halls/high-halls-shaft-top-checks.png)](../00-annotations/high-halls/high-halls-shaft-top-checks.png)
+
+### Scene
+
+[![Scene for High Halls Shaft Top (Hang_03_top)](../00-annotations/high-halls/high-halls-shaft-top-scene.png)](../00-annotations/high-halls/high-halls-shaft-top-scene.png)

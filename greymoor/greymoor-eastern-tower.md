@@ -54,10 +54,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Greymoor Eastern Tower (Greymoor_04)](../00-annotations/greymoor/greymoor-eastern-tower-scene.png)](../00-annotations/greymoor/greymoor-eastern-tower-scene.png)
-
 ### Connections
 
 [![Connections for Greymoor Eastern Tower (Greymoor_04)](../00-annotations/greymoor/greymoor-eastern-tower-connections.png)](../00-annotations/greymoor/greymoor-eastern-tower-connections.png)
@@ -65,3 +61,7 @@
 ### Checks
 
 [![Checks for Greymoor Eastern Tower (Greymoor_04)](../00-annotations/greymoor/greymoor-eastern-tower-checks.png)](../00-annotations/greymoor/greymoor-eastern-tower-checks.png)
+
+### Scene
+
+[![Scene for Greymoor Eastern Tower (Greymoor_04)](../00-annotations/greymoor/greymoor-eastern-tower-scene.png)](../00-annotations/greymoor/greymoor-eastern-tower-scene.png)

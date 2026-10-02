@@ -34,10 +34,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Bilewater Lower East Hall Secret (Shadow_21)](../00-annotations/bilewater/bilewater-lower-east-hall-secret-scene.png)](../00-annotations/bilewater/bilewater-lower-east-hall-secret-scene.png)
-
 ### Connections
 
 [![Connections for Bilewater Lower East Hall Secret (Shadow_21)](../00-annotations/bilewater/bilewater-lower-east-hall-secret-connections.png)](../00-annotations/bilewater/bilewater-lower-east-hall-secret-connections.png)
@@ -45,3 +41,7 @@
 ### Checks
 
 [![Checks for Bilewater Lower East Hall Secret (Shadow_21)](../00-annotations/bilewater/bilewater-lower-east-hall-secret-checks.png)](../00-annotations/bilewater/bilewater-lower-east-hall-secret-checks.png)
+
+### Scene
+
+[![Scene for Bilewater Lower East Hall Secret (Shadow_21)](../00-annotations/bilewater/bilewater-lower-east-hall-secret-scene.png)](../00-annotations/bilewater/bilewater-lower-east-hall-secret-scene.png)

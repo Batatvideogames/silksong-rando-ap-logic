@@ -39,10 +39,6 @@ dive bell thingy room wow.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Deep Docks Diving Bell Room (Dock_12)](../00-annotations/deep-docks/deep-docks-diving-bell-room-scene.png)](../00-annotations/deep-docks/deep-docks-diving-bell-room-scene.png)
-
 ### Connections
 
 [![Connections for Deep Docks Diving Bell Room (Dock_12)](../00-annotations/deep-docks/deep-docks-diving-bell-room-connections.png)](../00-annotations/deep-docks/deep-docks-diving-bell-room-connections.png)
@@ -50,3 +46,7 @@ dive bell thingy room wow.
 ### Checks
 
 [![Checks for Deep Docks Diving Bell Room (Dock_12)](../00-annotations/deep-docks/deep-docks-diving-bell-room-checks.png)](../00-annotations/deep-docks/deep-docks-diving-bell-room-checks.png)
+
+### Scene
+
+[![Scene for Deep Docks Diving Bell Room (Dock_12)](../00-annotations/deep-docks/deep-docks-diving-bell-room-scene.png)](../00-annotations/deep-docks/deep-docks-diving-bell-room-scene.png)

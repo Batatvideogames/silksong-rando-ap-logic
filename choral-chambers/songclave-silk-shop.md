@@ -24,10 +24,6 @@ No check locations defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Songclave Silk Shop (Song_29)](../00-annotations/choral-chambers/songclave-silk-shop-scene.png)](../00-annotations/choral-chambers/songclave-silk-shop-scene.png)
-
 ### Connections
 
 [![Connections for Songclave Silk Shop (Song_29)](../00-annotations/choral-chambers/songclave-silk-shop-connections.png)](../00-annotations/choral-chambers/songclave-silk-shop-connections.png)
@@ -35,3 +31,7 @@ No check locations defined.
 ### Checks
 
 [![Checks for Songclave Silk Shop (Song_29)](../00-annotations/choral-chambers/songclave-silk-shop-checks.png)](../00-annotations/choral-chambers/songclave-silk-shop-checks.png)
+
+### Scene
+
+[![Scene for Songclave Silk Shop (Song_29)](../00-annotations/choral-chambers/songclave-silk-shop-scene.png)](../00-annotations/choral-chambers/songclave-silk-shop-scene.png)

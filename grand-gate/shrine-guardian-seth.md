@@ -27,10 +27,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Shrine Guardian Seth (Shellwood_22)](../00-annotations/grand-gate/shrine-guardian-seth-scene.png)](../00-annotations/grand-gate/shrine-guardian-seth-scene.png)
-
 ### Connections
 
 [![Connections for Shrine Guardian Seth (Shellwood_22)](../00-annotations/grand-gate/shrine-guardian-seth-connections.png)](../00-annotations/grand-gate/shrine-guardian-seth-connections.png)
@@ -38,3 +34,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Shrine Guardian Seth (Shellwood_22)](../00-annotations/grand-gate/shrine-guardian-seth-checks.png)](../00-annotations/grand-gate/shrine-guardian-seth-checks.png)
+
+### Scene
+
+[![Scene for Shrine Guardian Seth (Shellwood_22)](../00-annotations/grand-gate/shrine-guardian-seth-scene.png)](../00-annotations/grand-gate/shrine-guardian-seth-scene.png)

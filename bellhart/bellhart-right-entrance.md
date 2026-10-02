@@ -35,10 +35,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Bellhart Right Entrance (Belltown_06)](../00-annotations/bellhart/bellhart-right-entrance-scene.png)](../00-annotations/bellhart/bellhart-right-entrance-scene.png)
-
 ### Connections
 
 [![Connections for Bellhart Right Entrance (Belltown_06)](../00-annotations/bellhart/bellhart-right-entrance-connections.png)](../00-annotations/bellhart/bellhart-right-entrance-connections.png)
@@ -46,3 +42,7 @@
 ### Checks
 
 [![Checks for Bellhart Right Entrance (Belltown_06)](../00-annotations/bellhart/bellhart-right-entrance-checks.png)](../00-annotations/bellhart/bellhart-right-entrance-checks.png)
+
+### Scene
+
+[![Scene for Bellhart Right Entrance (Belltown_06)](../00-annotations/bellhart/bellhart-right-entrance-scene.png)](../00-annotations/bellhart/bellhart-right-entrance-scene.png)

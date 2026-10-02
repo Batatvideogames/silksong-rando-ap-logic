@@ -31,10 +31,6 @@ No check locations defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Bilewater Hanging Corpse Room (Shadow_16)](../00-annotations/bilewater/bilewater-hanging-corpse-room-scene.png)](../00-annotations/bilewater/bilewater-hanging-corpse-room-scene.png)
-
 ### Connections
 
 [![Connections for Bilewater Hanging Corpse Room (Shadow_16)](../00-annotations/bilewater/bilewater-hanging-corpse-room-connections.png)](../00-annotations/bilewater/bilewater-hanging-corpse-room-connections.png)
@@ -42,3 +38,7 @@ No check locations defined.
 ### Checks
 
 [![Checks for Bilewater Hanging Corpse Room (Shadow_16)](../00-annotations/bilewater/bilewater-hanging-corpse-room-checks.png)](../00-annotations/bilewater/bilewater-hanging-corpse-room-checks.png)
+
+### Scene
+
+[![Scene for Bilewater Hanging Corpse Room (Shadow_16)](../00-annotations/bilewater/bilewater-hanging-corpse-room-scene.png)](../00-annotations/bilewater/bilewater-hanging-corpse-room-scene.png)

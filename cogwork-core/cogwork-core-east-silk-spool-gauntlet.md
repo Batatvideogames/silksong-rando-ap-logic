@@ -52,10 +52,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Cogwork Core East Silk Spool & Gauntlet (Cog_07)](../00-annotations/cogwork-core/cogwork-core-east-silk-spool-gauntlet-scene.png)](../00-annotations/cogwork-core/cogwork-core-east-silk-spool-gauntlet-scene.png)
-
 ### Connections
 
 [![Connections for Cogwork Core East Silk Spool & Gauntlet (Cog_07)](../00-annotations/cogwork-core/cogwork-core-east-silk-spool-gauntlet-connections.png)](../00-annotations/cogwork-core/cogwork-core-east-silk-spool-gauntlet-connections.png)
@@ -63,3 +59,7 @@
 ### Checks
 
 [![Checks for Cogwork Core East Silk Spool & Gauntlet (Cog_07)](../00-annotations/cogwork-core/cogwork-core-east-silk-spool-gauntlet-checks.png)](../00-annotations/cogwork-core/cogwork-core-east-silk-spool-gauntlet-checks.png)
+
+### Scene
+
+[![Scene for Cogwork Core East Silk Spool & Gauntlet (Cog_07)](../00-annotations/cogwork-core/cogwork-core-east-silk-spool-gauntlet-scene.png)](../00-annotations/cogwork-core/cogwork-core-east-silk-spool-gauntlet-scene.png)

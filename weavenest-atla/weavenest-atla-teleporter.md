@@ -41,10 +41,6 @@ No check locations defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Weavenest Atla Teleporter (Weave_02)](../00-annotations/weavenest-atla/weavenest-atla-teleporter-scene.png)](../00-annotations/weavenest-atla/weavenest-atla-teleporter-scene.png)
-
 ### Connections
 
 [![Connections for Weavenest Atla Teleporter (Weave_02)](../00-annotations/weavenest-atla/weavenest-atla-teleporter-connections.png)](../00-annotations/weavenest-atla/weavenest-atla-teleporter-connections.png)
@@ -52,3 +48,7 @@ No check locations defined.
 ### Checks
 
 [![Checks for Weavenest Atla Teleporter (Weave_02)](../00-annotations/weavenest-atla/weavenest-atla-teleporter-checks.png)](../00-annotations/weavenest-atla/weavenest-atla-teleporter-checks.png)
+
+### Scene
+
+[![Scene for Weavenest Atla Teleporter (Weave_02)](../00-annotations/weavenest-atla/weavenest-atla-teleporter-scene.png)](../00-annotations/weavenest-atla/weavenest-atla-teleporter-scene.png)

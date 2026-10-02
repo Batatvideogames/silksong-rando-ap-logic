@@ -56,10 +56,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Greymoor Towers Patio (Greymoor_05)](../00-annotations/greymoor/greymoor-towers-patio-scene.png)](../00-annotations/greymoor/greymoor-towers-patio-scene.png)
-
 ### Connections
 
 [![Connections for Greymoor Towers Patio (Greymoor_05)](../00-annotations/greymoor/greymoor-towers-patio-connections.png)](../00-annotations/greymoor/greymoor-towers-patio-connections.png)
@@ -67,3 +63,7 @@
 ### Checks
 
 [![Checks for Greymoor Towers Patio (Greymoor_05)](../00-annotations/greymoor/greymoor-towers-patio-checks.png)](../00-annotations/greymoor/greymoor-towers-patio-checks.png)
+
+### Scene
+
+[![Scene for Greymoor Towers Patio (Greymoor_05)](../00-annotations/greymoor/greymoor-towers-patio-scene.png)](../00-annotations/greymoor/greymoor-towers-patio-scene.png)

@@ -49,10 +49,6 @@ Boss needs only any crest to be beatable. The big line attack can be parried wit
 
 ## Room Images
 
-### Scene
-
-[![Scene for Cog Dancers (Cog_Dancers)](../00-annotations/cogwork-core/cog-dancers-scene.png)](../00-annotations/cogwork-core/cog-dancers-scene.png)
-
 ### Connections
 
 [![Connections for Cog Dancers (Cog_Dancers)](../00-annotations/cogwork-core/cog-dancers-connections.png)](../00-annotations/cogwork-core/cog-dancers-connections.png)
@@ -60,3 +56,7 @@ Boss needs only any crest to be beatable. The big line attack can be parried wit
 ### Checks
 
 [![Checks for Cog Dancers (Cog_Dancers)](../00-annotations/cogwork-core/cog-dancers-checks.png)](../00-annotations/cogwork-core/cog-dancers-checks.png)
+
+### Scene
+
+[![Scene for Cog Dancers (Cog_Dancers)](../00-annotations/cogwork-core/cog-dancers-scene.png)](../00-annotations/cogwork-core/cog-dancers-scene.png)

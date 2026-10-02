@@ -31,10 +31,6 @@ No check locations defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Sands of Karak Upper Right Long Room (Coral_44)](../00-annotations/sands-of-karak/sands-of-karak-upper-right-long-room-scene.png)](../00-annotations/sands-of-karak/sands-of-karak-upper-right-long-room-scene.png)
-
 ### Connections
 
 [![Connections for Sands of Karak Upper Right Long Room (Coral_44)](../00-annotations/sands-of-karak/sands-of-karak-upper-right-long-room-connections.png)](../00-annotations/sands-of-karak/sands-of-karak-upper-right-long-room-connections.png)
@@ -42,3 +38,7 @@ No check locations defined.
 ### Checks
 
 [![Checks for Sands of Karak Upper Right Long Room (Coral_44)](../00-annotations/sands-of-karak/sands-of-karak-upper-right-long-room-checks.png)](../00-annotations/sands-of-karak/sands-of-karak-upper-right-long-room-checks.png)
+
+### Scene
+
+[![Scene for Sands of Karak Upper Right Long Room (Coral_44)](../00-annotations/sands-of-karak/sands-of-karak-upper-right-long-room-scene.png)](../00-annotations/sands-of-karak/sands-of-karak-upper-right-long-room-scene.png)

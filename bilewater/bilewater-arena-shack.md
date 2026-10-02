@@ -24,10 +24,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Bilewater Arena Shack (Shadow_Bilehaven_Room)](../00-annotations/bilewater/bilewater-arena-shack-scene.png)](../00-annotations/bilewater/bilewater-arena-shack-scene.png)
-
 ### Connections
 
 [![Connections for Bilewater Arena Shack (Shadow_Bilehaven_Room)](../00-annotations/bilewater/bilewater-arena-shack-connections.png)](../00-annotations/bilewater/bilewater-arena-shack-connections.png)
@@ -35,3 +31,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Bilewater Arena Shack (Shadow_Bilehaven_Room)](../00-annotations/bilewater/bilewater-arena-shack-checks.png)](../00-annotations/bilewater/bilewater-arena-shack-checks.png)
+
+### Scene
+
+[![Scene for Bilewater Arena Shack (Shadow_Bilehaven_Room)](../00-annotations/bilewater/bilewater-arena-shack-scene.png)](../00-annotations/bilewater/bilewater-arena-shack-scene.png)

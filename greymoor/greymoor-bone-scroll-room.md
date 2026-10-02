@@ -26,10 +26,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Greymoor Bone Scroll Room (Greymoor_21)](../00-annotations/greymoor/greymoor-bone-scroll-room-scene.png)](../00-annotations/greymoor/greymoor-bone-scroll-room-scene.png)
-
 ### Connections
 
 [![Connections for Greymoor Bone Scroll Room (Greymoor_21)](../00-annotations/greymoor/greymoor-bone-scroll-room-connections.png)](../00-annotations/greymoor/greymoor-bone-scroll-room-connections.png)
@@ -37,3 +33,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Greymoor Bone Scroll Room (Greymoor_21)](../00-annotations/greymoor/greymoor-bone-scroll-room-checks.png)](../00-annotations/greymoor/greymoor-bone-scroll-room-checks.png)
+
+### Scene
+
+[![Scene for Greymoor Bone Scroll Room (Greymoor_21)](../00-annotations/greymoor/greymoor-bone-scroll-room-scene.png)](../00-annotations/greymoor/greymoor-bone-scroll-room-scene.png)

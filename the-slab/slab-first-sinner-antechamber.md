@@ -30,10 +30,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Slab First Sinner Antechamber (Slab_10c)](../00-annotations/the-slab/slab-first-sinner-antechamber-scene.png)](../00-annotations/the-slab/slab-first-sinner-antechamber-scene.png)
-
 ### Connections
 
 [![Connections for Slab First Sinner Antechamber (Slab_10c)](../00-annotations/the-slab/slab-first-sinner-antechamber-connections.png)](../00-annotations/the-slab/slab-first-sinner-antechamber-connections.png)
@@ -41,3 +37,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Slab First Sinner Antechamber (Slab_10c)](../00-annotations/the-slab/slab-first-sinner-antechamber-checks.png)](../00-annotations/the-slab/slab-first-sinner-antechamber-checks.png)
+
+### Scene
+
+[![Scene for Slab First Sinner Antechamber (Slab_10c)](../00-annotations/the-slab/slab-first-sinner-antechamber-scene.png)](../00-annotations/the-slab/slab-first-sinner-antechamber-scene.png)

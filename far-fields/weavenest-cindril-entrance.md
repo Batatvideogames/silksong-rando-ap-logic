@@ -35,10 +35,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Weavenest Cindril Entrance (Bone_East_Weavehome)](../00-annotations/far-fields/weavenest-cindril-entrance-scene.png)](../00-annotations/far-fields/weavenest-cindril-entrance-scene.png)
-
 ### Connections
 
 [![Connections for Weavenest Cindril Entrance (Bone_East_Weavehome)](../00-annotations/far-fields/weavenest-cindril-entrance-connections.png)](../00-annotations/far-fields/weavenest-cindril-entrance-connections.png)
@@ -46,3 +42,7 @@
 ### Checks
 
 [![Checks for Weavenest Cindril Entrance (Bone_East_Weavehome)](../00-annotations/far-fields/weavenest-cindril-entrance-checks.png)](../00-annotations/far-fields/weavenest-cindril-entrance-checks.png)
+
+### Scene
+
+[![Scene for Weavenest Cindril Entrance (Bone_East_Weavehome)](../00-annotations/far-fields/weavenest-cindril-entrance-scene.png)](../00-annotations/far-fields/weavenest-cindril-entrance-scene.png)

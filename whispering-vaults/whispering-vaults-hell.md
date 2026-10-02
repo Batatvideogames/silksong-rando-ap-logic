@@ -73,10 +73,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Whispering Vaults Hell (Library_04)](../00-annotations/whispering-vaults/whispering-vaults-hell-scene.png)](../00-annotations/whispering-vaults/whispering-vaults-hell-scene.png)
-
 ### Connections
 
 [![Connections for Whispering Vaults Hell (Library_04)](../00-annotations/whispering-vaults/whispering-vaults-hell-connections.png)](../00-annotations/whispering-vaults/whispering-vaults-hell-connections.png)
@@ -84,3 +80,7 @@
 ### Checks
 
 [![Checks for Whispering Vaults Hell (Library_04)](../00-annotations/whispering-vaults/whispering-vaults-hell-checks.png)](../00-annotations/whispering-vaults/whispering-vaults-hell-checks.png)
+
+### Scene
+
+[![Scene for Whispering Vaults Hell (Library_04)](../00-annotations/whispering-vaults/whispering-vaults-hell-scene.png)](../00-annotations/whispering-vaults/whispering-vaults-hell-scene.png)

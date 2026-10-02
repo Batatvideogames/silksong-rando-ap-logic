@@ -33,10 +33,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Sands of Karak Entrance (Coral_25)](../00-annotations/sands-of-karak/sands-of-karak-entrance-scene.png)](../00-annotations/sands-of-karak/sands-of-karak-entrance-scene.png)
-
 ### Connections
 
 [![Connections for Sands of Karak Entrance (Coral_25)](../00-annotations/sands-of-karak/sands-of-karak-entrance-connections.png)](../00-annotations/sands-of-karak/sands-of-karak-entrance-connections.png)
@@ -44,3 +40,7 @@
 ### Checks
 
 [![Checks for Sands of Karak Entrance (Coral_25)](../00-annotations/sands-of-karak/sands-of-karak-entrance-checks.png)](../00-annotations/sands-of-karak/sands-of-karak-entrance-checks.png)
+
+### Scene
+
+[![Scene for Sands of Karak Entrance (Coral_25)](../00-annotations/sands-of-karak/sands-of-karak-entrance-scene.png)](../00-annotations/sands-of-karak/sands-of-karak-entrance-scene.png)

@@ -51,10 +51,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Wormways Shaft (Crawl_02)](../00-annotations/wormways/wormways-shaft-scene.png)](../00-annotations/wormways/wormways-shaft-scene.png)
-
 ### Connections
 
 [![Connections for Wormways Shaft (Crawl_02)](../00-annotations/wormways/wormways-shaft-connections.png)](../00-annotations/wormways/wormways-shaft-connections.png)
@@ -62,3 +58,7 @@
 ### Checks
 
 [![Checks for Wormways Shaft (Crawl_02)](../00-annotations/wormways/wormways-shaft-checks.png)](../00-annotations/wormways/wormways-shaft-checks.png)
+
+### Scene
+
+[![Scene for Wormways Shaft (Crawl_02)](../00-annotations/wormways/wormways-shaft-scene.png)](../00-annotations/wormways/wormways-shaft-scene.png)

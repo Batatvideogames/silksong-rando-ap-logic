@@ -27,10 +27,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Broken Elevator (Under_01b)](../00-annotations/underworks/broken-elevator-scene.png)](../00-annotations/underworks/broken-elevator-scene.png)
-
 ### Connections
 
 [![Connections for Broken Elevator (Under_01b)](../00-annotations/underworks/broken-elevator-connections.png)](../00-annotations/underworks/broken-elevator-connections.png)
@@ -38,3 +34,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Broken Elevator (Under_01b)](../00-annotations/underworks/broken-elevator-checks.png)](../00-annotations/underworks/broken-elevator-checks.png)
+
+### Scene
+
+[![Scene for Broken Elevator (Under_01b)](../00-annotations/underworks/broken-elevator-scene.png)](../00-annotations/underworks/broken-elevator-scene.png)

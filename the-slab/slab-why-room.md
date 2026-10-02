@@ -24,10 +24,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Slab Why Room (Slab_17)](../00-annotations/the-slab/slab-why-room-scene.png)](../00-annotations/the-slab/slab-why-room-scene.png)
-
 ### Connections
 
 [![Connections for Slab Why Room (Slab_17)](../00-annotations/the-slab/slab-why-room-connections.png)](../00-annotations/the-slab/slab-why-room-connections.png)
@@ -35,3 +31,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Slab Why Room (Slab_17)](../00-annotations/the-slab/slab-why-room-checks.png)](../00-annotations/the-slab/slab-why-room-checks.png)
+
+### Scene
+
+[![Scene for Slab Why Room (Slab_17)](../00-annotations/the-slab/slab-why-room-scene.png)](../00-annotations/the-slab/slab-why-room-scene.png)

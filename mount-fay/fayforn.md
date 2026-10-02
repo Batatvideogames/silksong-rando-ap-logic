@@ -45,10 +45,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for FayForn (Peak_08b)](../00-annotations/mount-fay/fayforn-scene.png)](../00-annotations/mount-fay/fayforn-scene.png)
-
 ### Connections
 
 [![Connections for FayForn (Peak_08b)](../00-annotations/mount-fay/fayforn-connections.png)](../00-annotations/mount-fay/fayforn-connections.png)
@@ -56,3 +52,7 @@
 ### Checks
 
 [![Checks for FayForn (Peak_08b)](../00-annotations/mount-fay/fayforn-checks.png)](../00-annotations/mount-fay/fayforn-checks.png)
+
+### Scene
+
+[![Scene for FayForn (Peak_08b)](../00-annotations/mount-fay/fayforn-scene.png)](../00-annotations/mount-fay/fayforn-scene.png)

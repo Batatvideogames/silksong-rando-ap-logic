@@ -40,10 +40,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for The Marrow Bellway (Bone_05)](../00-annotations/the-marrow/the-marrow-bellway-scene.png)](../00-annotations/the-marrow/the-marrow-bellway-scene.png)
-
 ### Connections
 
 [![Connections for The Marrow Bellway (Bone_05)](../00-annotations/the-marrow/the-marrow-bellway-connections.png)](../00-annotations/the-marrow/the-marrow-bellway-connections.png)
@@ -51,3 +47,7 @@
 ### Checks
 
 [![Checks for The Marrow Bellway (Bone_05)](../00-annotations/the-marrow/the-marrow-bellway-checks.png)](../00-annotations/the-marrow/the-marrow-bellway-checks.png)
+
+### Scene
+
+[![Scene for The Marrow Bellway (Bone_05)](../00-annotations/the-marrow/the-marrow-bellway-scene.png)](../00-annotations/the-marrow/the-marrow-bellway-scene.png)

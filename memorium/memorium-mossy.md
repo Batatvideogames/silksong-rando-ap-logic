@@ -36,10 +36,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Memorium Mossy (Arborium_09)](../00-annotations/memorium/memorium-mossy-scene.png)](../00-annotations/memorium/memorium-mossy-scene.png)
-
 ### Connections
 
 [![Connections for Memorium Mossy (Arborium_09)](../00-annotations/memorium/memorium-mossy-connections.png)](../00-annotations/memorium/memorium-mossy-connections.png)
@@ -47,3 +43,7 @@
 ### Checks
 
 [![Checks for Memorium Mossy (Arborium_09)](../00-annotations/memorium/memorium-mossy-checks.png)](../00-annotations/memorium/memorium-mossy-checks.png)
+
+### Scene
+
+[![Scene for Memorium Mossy (Arborium_09)](../00-annotations/memorium/memorium-mossy-scene.png)](../00-annotations/memorium/memorium-mossy-scene.png)

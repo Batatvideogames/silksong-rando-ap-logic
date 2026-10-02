@@ -28,10 +28,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Underworks Ventrica (Under_22)](../00-annotations/underworks/underworks-ventrica-scene.png)](../00-annotations/underworks/underworks-ventrica-scene.png)
-
 ### Connections
 
 [![Connections for Underworks Ventrica (Under_22)](../00-annotations/underworks/underworks-ventrica-connections.png)](../00-annotations/underworks/underworks-ventrica-connections.png)
@@ -39,3 +35,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Underworks Ventrica (Under_22)](../00-annotations/underworks/underworks-ventrica-checks.png)](../00-annotations/underworks/underworks-ventrica-checks.png)
+
+### Scene
+
+[![Scene for Underworks Ventrica (Under_22)](../00-annotations/underworks/underworks-ventrica-scene.png)](../00-annotations/underworks/underworks-ventrica-scene.png)

@@ -54,10 +54,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Weavenest Atla Grotto (Weave_03)](../00-annotations/weavenest-atla/weavenest-atla-grotto-scene.png)](../00-annotations/weavenest-atla/weavenest-atla-grotto-scene.png)
-
 ### Connections
 
 [![Connections for Weavenest Atla Grotto (Weave_03)](../00-annotations/weavenest-atla/weavenest-atla-grotto-connections.png)](../00-annotations/weavenest-atla/weavenest-atla-grotto-connections.png)
@@ -65,3 +61,7 @@
 ### Checks
 
 [![Checks for Weavenest Atla Grotto (Weave_03)](../00-annotations/weavenest-atla/weavenest-atla-grotto-checks.png)](../00-annotations/weavenest-atla/weavenest-atla-grotto-checks.png)
+
+### Scene
+
+[![Scene for Weavenest Atla Grotto (Weave_03)](../00-annotations/weavenest-atla/weavenest-atla-grotto-scene.png)](../00-annotations/weavenest-atla/weavenest-atla-grotto-scene.png)

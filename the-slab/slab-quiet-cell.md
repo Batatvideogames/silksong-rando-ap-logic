@@ -31,10 +31,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Slab Quiet Cell (Slab_Cell_Quiet)](../00-annotations/the-slab/slab-quiet-cell-scene.png)](../00-annotations/the-slab/slab-quiet-cell-scene.png)
-
 ### Connections
 
 [![Connections for Slab Quiet Cell (Slab_Cell_Quiet)](../00-annotations/the-slab/slab-quiet-cell-connections.png)](../00-annotations/the-slab/slab-quiet-cell-connections.png)
@@ -42,3 +38,7 @@
 ### Checks
 
 [![Checks for Slab Quiet Cell (Slab_Cell_Quiet)](../00-annotations/the-slab/slab-quiet-cell-checks.png)](../00-annotations/the-slab/slab-quiet-cell-checks.png)
+
+### Scene
+
+[![Scene for Slab Quiet Cell (Slab_Cell_Quiet)](../00-annotations/the-slab/slab-quiet-cell-scene.png)](../00-annotations/the-slab/slab-quiet-cell-scene.png)

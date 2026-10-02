@@ -29,10 +29,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Far Fields Pinstress Hut Interior (Bone_East_Umbrella)](../00-annotations/far-fields/far-fields-pinstress-hut-interior-scene.png)](../00-annotations/far-fields/far-fields-pinstress-hut-interior-scene.png)
-
 ### Connections
 
 [![Connections for Far Fields Pinstress Hut Interior (Bone_East_Umbrella)](../00-annotations/far-fields/far-fields-pinstress-hut-interior-connections.png)](../00-annotations/far-fields/far-fields-pinstress-hut-interior-connections.png)
@@ -40,3 +36,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Far Fields Pinstress Hut Interior (Bone_East_Umbrella)](../00-annotations/far-fields/far-fields-pinstress-hut-interior-checks.png)](../00-annotations/far-fields/far-fields-pinstress-hut-interior-checks.png)
+
+### Scene
+
+[![Scene for Far Fields Pinstress Hut Interior (Bone_East_Umbrella)](../00-annotations/far-fields/far-fields-pinstress-hut-interior-scene.png)](../00-annotations/far-fields/far-fields-pinstress-hut-interior-scene.png)

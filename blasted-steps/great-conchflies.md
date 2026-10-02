@@ -36,10 +36,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Great Conchflies (Coral_11)](../00-annotations/blasted-steps/great-conchflies-scene.png)](../00-annotations/blasted-steps/great-conchflies-scene.png)
-
 ### Connections
 
 [![Connections for Great Conchflies (Coral_11)](../00-annotations/blasted-steps/great-conchflies-connections.png)](../00-annotations/blasted-steps/great-conchflies-connections.png)
@@ -47,3 +43,7 @@
 ### Checks
 
 [![Checks for Great Conchflies (Coral_11)](../00-annotations/blasted-steps/great-conchflies-checks.png)](../00-annotations/blasted-steps/great-conchflies-checks.png)
+
+### Scene
+
+[![Scene for Great Conchflies (Coral_11)](../00-annotations/blasted-steps/great-conchflies-scene.png)](../00-annotations/blasted-steps/great-conchflies-scene.png)

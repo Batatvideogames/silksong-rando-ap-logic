@@ -41,10 +41,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Whiteward Tunnel Room (Ward_02b)](../00-annotations/whiteward/whiteward-tunnel-room-scene.png)](../00-annotations/whiteward/whiteward-tunnel-room-scene.png)
-
 ### Connections
 
 [![Connections for Whiteward Tunnel Room (Ward_02b)](../00-annotations/whiteward/whiteward-tunnel-room-connections.png)](../00-annotations/whiteward/whiteward-tunnel-room-connections.png)
@@ -52,3 +48,7 @@
 ### Checks
 
 [![Checks for Whiteward Tunnel Room (Ward_02b)](../00-annotations/whiteward/whiteward-tunnel-room-checks.png)](../00-annotations/whiteward/whiteward-tunnel-room-checks.png)
+
+### Scene
+
+[![Scene for Whiteward Tunnel Room (Ward_02b)](../00-annotations/whiteward/whiteward-tunnel-room-scene.png)](../00-annotations/whiteward/whiteward-tunnel-room-scene.png)

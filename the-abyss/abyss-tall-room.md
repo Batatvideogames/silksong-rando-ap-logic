@@ -38,10 +38,6 @@ No check locations defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Abyss Tall Room (Abyss_01)](../00-annotations/the-abyss/abyss-tall-room-scene.png)](../00-annotations/the-abyss/abyss-tall-room-scene.png)
-
 ### Connections
 
 [![Connections for Abyss Tall Room (Abyss_01)](../00-annotations/the-abyss/abyss-tall-room-connections.png)](../00-annotations/the-abyss/abyss-tall-room-connections.png)
@@ -49,3 +45,7 @@ No check locations defined.
 ### Checks
 
 [![Checks for Abyss Tall Room (Abyss_01)](../00-annotations/the-abyss/abyss-tall-room-checks.png)](../00-annotations/the-abyss/abyss-tall-room-checks.png)
+
+### Scene
+
+[![Scene for Abyss Tall Room (Abyss_01)](../00-annotations/the-abyss/abyss-tall-room-scene.png)](../00-annotations/the-abyss/abyss-tall-room-scene.png)

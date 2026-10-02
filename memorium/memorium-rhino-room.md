@@ -27,10 +27,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Memorium Rhino Room (Arborium_02)](../00-annotations/memorium/memorium-rhino-room-scene.png)](../00-annotations/memorium/memorium-rhino-room-scene.png)
-
 ### Connections
 
 [![Connections for Memorium Rhino Room (Arborium_02)](../00-annotations/memorium/memorium-rhino-room-connections.png)](../00-annotations/memorium/memorium-rhino-room-connections.png)
@@ -38,3 +34,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Memorium Rhino Room (Arborium_02)](../00-annotations/memorium/memorium-rhino-room-checks.png)](../00-annotations/memorium/memorium-rhino-room-checks.png)
+
+### Scene
+
+[![Scene for Memorium Rhino Room (Arborium_02)](../00-annotations/memorium/memorium-rhino-room-scene.png)](../00-annotations/memorium/memorium-rhino-room-scene.png)

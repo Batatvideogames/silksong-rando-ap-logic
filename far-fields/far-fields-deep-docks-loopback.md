@@ -44,10 +44,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Far Fields Deep Docks Loopback (Bone_East_15)](../00-annotations/far-fields/far-fields-deep-docks-loopback-scene.png)](../00-annotations/far-fields/far-fields-deep-docks-loopback-scene.png)
-
 ### Connections
 
 [![Connections for Far Fields Deep Docks Loopback (Bone_East_15)](../00-annotations/far-fields/far-fields-deep-docks-loopback-connections.png)](../00-annotations/far-fields/far-fields-deep-docks-loopback-connections.png)
@@ -55,3 +51,7 @@
 ### Checks
 
 [![Checks for Far Fields Deep Docks Loopback (Bone_East_15)](../00-annotations/far-fields/far-fields-deep-docks-loopback-checks.png)](../00-annotations/far-fields/far-fields-deep-docks-loopback-checks.png)
+
+### Scene
+
+[![Scene for Far Fields Deep Docks Loopback (Bone_East_15)](../00-annotations/far-fields/far-fields-deep-docks-loopback-scene.png)](../00-annotations/far-fields/far-fields-deep-docks-loopback-scene.png)

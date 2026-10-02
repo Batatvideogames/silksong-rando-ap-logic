@@ -29,10 +29,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for High Halls Ventrica (Hang_06b)](../00-annotations/high-halls/high-halls-ventrica-scene.png)](../00-annotations/high-halls/high-halls-ventrica-scene.png)
-
 ### Connections
 
 [![Connections for High Halls Ventrica (Hang_06b)](../00-annotations/high-halls/high-halls-ventrica-connections.png)](../00-annotations/high-halls/high-halls-ventrica-connections.png)
@@ -40,3 +36,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for High Halls Ventrica (Hang_06b)](../00-annotations/high-halls/high-halls-ventrica-checks.png)](../00-annotations/high-halls/high-halls-ventrica-checks.png)
+
+### Scene
+
+[![Scene for High Halls Ventrica (Hang_06b)](../00-annotations/high-halls/high-halls-ventrica-scene.png)](../00-annotations/high-halls/high-halls-ventrica-scene.png)

@@ -35,10 +35,6 @@ No check locations defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Abyss Escape Hallway (Abyss_13)](../00-annotations/the-abyss/abyss-escape-hallway-scene.png)](../00-annotations/the-abyss/abyss-escape-hallway-scene.png)
-
 ### Connections
 
 [![Connections for Abyss Escape Hallway (Abyss_13)](../00-annotations/the-abyss/abyss-escape-hallway-connections.png)](../00-annotations/the-abyss/abyss-escape-hallway-connections.png)
@@ -46,3 +42,7 @@ No check locations defined.
 ### Checks
 
 [![Checks for Abyss Escape Hallway (Abyss_13)](../00-annotations/the-abyss/abyss-escape-hallway-checks.png)](../00-annotations/the-abyss/abyss-escape-hallway-checks.png)
+
+### Scene
+
+[![Scene for Abyss Escape Hallway (Abyss_13)](../00-annotations/the-abyss/abyss-escape-hallway-scene.png)](../00-annotations/the-abyss/abyss-escape-hallway-scene.png)

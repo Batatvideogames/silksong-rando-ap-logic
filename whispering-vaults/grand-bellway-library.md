@@ -35,10 +35,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Grand Bellway Library (Library_03)](../00-annotations/whispering-vaults/grand-bellway-library-scene.png)](../00-annotations/whispering-vaults/grand-bellway-library-scene.png)
-
 ### Connections
 
 [![Connections for Grand Bellway Library (Library_03)](../00-annotations/whispering-vaults/grand-bellway-library-connections.png)](../00-annotations/whispering-vaults/grand-bellway-library-connections.png)
@@ -46,3 +42,7 @@
 ### Checks
 
 [![Checks for Grand Bellway Library (Library_03)](../00-annotations/whispering-vaults/grand-bellway-library-checks.png)](../00-annotations/whispering-vaults/grand-bellway-library-checks.png)
+
+### Scene
+
+[![Scene for Grand Bellway Library (Library_03)](../00-annotations/whispering-vaults/grand-bellway-library-scene.png)](../00-annotations/whispering-vaults/grand-bellway-library-scene.png)

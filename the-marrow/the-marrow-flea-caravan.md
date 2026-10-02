@@ -52,10 +52,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for The Marrow Flea Caravan (Bone_10)](../00-annotations/the-marrow/the-marrow-flea-caravan-scene.png)](../00-annotations/the-marrow/the-marrow-flea-caravan-scene.png)
-
 ### Connections
 
 [![Connections for The Marrow Flea Caravan (Bone_10)](../00-annotations/the-marrow/the-marrow-flea-caravan-connections.png)](../00-annotations/the-marrow/the-marrow-flea-caravan-connections.png)
@@ -63,3 +59,7 @@
 ### Checks
 
 [![Checks for The Marrow Flea Caravan (Bone_10)](../00-annotations/the-marrow/the-marrow-flea-caravan-checks.png)](../00-annotations/the-marrow/the-marrow-flea-caravan-checks.png)
+
+### Scene
+
+[![Scene for The Marrow Flea Caravan (Bone_10)](../00-annotations/the-marrow/the-marrow-flea-caravan-scene.png)](../00-annotations/the-marrow/the-marrow-flea-caravan-scene.png)

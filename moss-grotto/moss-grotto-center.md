@@ -63,10 +63,6 @@ not having the west part as part of this area causes the graph to be more comple
 
 ## Room Images
 
-### Scene
-
-[![Scene for Moss Grotto Center (Tut_01)](../00-annotations/moss-grotto/moss-grotto-center-scene.png)](../00-annotations/moss-grotto/moss-grotto-center-scene.png)
-
 ### Connections
 
 [![Connections for Moss Grotto Center (Tut_01)](../00-annotations/moss-grotto/moss-grotto-center-connections.png)](../00-annotations/moss-grotto/moss-grotto-center-connections.png)
@@ -74,3 +70,7 @@ not having the west part as part of this area causes the graph to be more comple
 ### Checks
 
 [![Checks for Moss Grotto Center (Tut_01)](../00-annotations/moss-grotto/moss-grotto-center-checks.png)](../00-annotations/moss-grotto/moss-grotto-center-checks.png)
+
+### Scene
+
+[![Scene for Moss Grotto Center (Tut_01)](../00-annotations/moss-grotto/moss-grotto-center-scene.png)](../00-annotations/moss-grotto/moss-grotto-center-scene.png)

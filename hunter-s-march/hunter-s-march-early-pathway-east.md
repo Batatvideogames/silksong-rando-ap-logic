@@ -35,10 +35,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Hunter's March Early Pathway East (Ant_04)](../00-annotations/hunter-s-march/hunter-s-march-early-pathway-east-scene.png)](../00-annotations/hunter-s-march/hunter-s-march-early-pathway-east-scene.png)
-
 ### Connections
 
 [![Connections for Hunter's March Early Pathway East (Ant_04)](../00-annotations/hunter-s-march/hunter-s-march-early-pathway-east-connections.png)](../00-annotations/hunter-s-march/hunter-s-march-early-pathway-east-connections.png)
@@ -46,3 +42,7 @@
 ### Checks
 
 [![Checks for Hunter's March Early Pathway East (Ant_04)](../00-annotations/hunter-s-march/hunter-s-march-early-pathway-east-checks.png)](../00-annotations/hunter-s-march/hunter-s-march-early-pathway-east-checks.png)
+
+### Scene
+
+[![Scene for Hunter's March Early Pathway East (Ant_04)](../00-annotations/hunter-s-march/hunter-s-march-early-pathway-east-scene.png)](../00-annotations/hunter-s-march/hunter-s-march-early-pathway-east-scene.png)

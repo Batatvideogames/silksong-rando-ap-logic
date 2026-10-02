@@ -57,10 +57,6 @@ No check locations defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Far Fields Pinstress Room (Bone_East_09)](../00-annotations/far-fields/far-fields-pinstress-room-scene.png)](../00-annotations/far-fields/far-fields-pinstress-room-scene.png)
-
 ### Connections
 
 [![Connections for Far Fields Pinstress Room (Bone_East_09)](../00-annotations/far-fields/far-fields-pinstress-room-connections.png)](../00-annotations/far-fields/far-fields-pinstress-room-connections.png)
@@ -68,3 +64,7 @@ No check locations defined.
 ### Checks
 
 [![Checks for Far Fields Pinstress Room (Bone_East_09)](../00-annotations/far-fields/far-fields-pinstress-room-checks.png)](../00-annotations/far-fields/far-fields-pinstress-room-checks.png)
+
+### Scene
+
+[![Scene for Far Fields Pinstress Room (Bone_East_09)](../00-annotations/far-fields/far-fields-pinstress-room-scene.png)](../00-annotations/far-fields/far-fields-pinstress-room-scene.png)

@@ -40,10 +40,6 @@ the syntax assumes upswing is not randomized otherwise, must make upswing requir
 
 ## Room Images
 
-### Scene
-
-[![Scene for Grand Gate Courtroom (Song_19_entrance)](../00-annotations/grand-gate/grand-gate-courtroom-scene.png)](../00-annotations/grand-gate/grand-gate-courtroom-scene.png)
-
 ### Connections
 
 [![Connections for Grand Gate Courtroom (Song_19_entrance)](../00-annotations/grand-gate/grand-gate-courtroom-connections.png)](../00-annotations/grand-gate/grand-gate-courtroom-connections.png)
@@ -51,3 +47,7 @@ the syntax assumes upswing is not randomized otherwise, must make upswing requir
 ### Checks
 
 [![Checks for Grand Gate Courtroom (Song_19_entrance)](../00-annotations/grand-gate/grand-gate-courtroom-checks.png)](../00-annotations/grand-gate/grand-gate-courtroom-checks.png)
+
+### Scene
+
+[![Scene for Grand Gate Courtroom (Song_19_entrance)](../00-annotations/grand-gate/grand-gate-courtroom-scene.png)](../00-annotations/grand-gate/grand-gate-courtroom-scene.png)

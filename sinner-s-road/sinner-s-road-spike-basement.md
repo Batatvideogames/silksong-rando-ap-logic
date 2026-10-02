@@ -32,10 +32,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Sinner's Road Spike Basement (Dust_Barb)](../00-annotations/sinner-s-road/sinner-s-road-spike-basement-scene.png)](../00-annotations/sinner-s-road/sinner-s-road-spike-basement-scene.png)
-
 ### Connections
 
 [![Connections for Sinner's Road Spike Basement (Dust_Barb)](../00-annotations/sinner-s-road/sinner-s-road-spike-basement-connections.png)](../00-annotations/sinner-s-road/sinner-s-road-spike-basement-connections.png)
@@ -43,3 +39,7 @@
 ### Checks
 
 [![Checks for Sinner's Road Spike Basement (Dust_Barb)](../00-annotations/sinner-s-road/sinner-s-road-spike-basement-checks.png)](../00-annotations/sinner-s-road/sinner-s-road-spike-basement-checks.png)
+
+### Scene
+
+[![Scene for Sinner's Road Spike Basement (Dust_Barb)](../00-annotations/sinner-s-road/sinner-s-road-spike-basement-scene.png)](../00-annotations/sinner-s-road/sinner-s-road-spike-basement-scene.png)

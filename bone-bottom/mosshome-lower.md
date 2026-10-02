@@ -47,10 +47,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Mosshome Lower (Bone_11)](../00-annotations/bone-bottom/mosshome-lower-scene.png)](../00-annotations/bone-bottom/mosshome-lower-scene.png)
-
 ### Connections
 
 [![Connections for Mosshome Lower (Bone_11)](../00-annotations/bone-bottom/mosshome-lower-connections.png)](../00-annotations/bone-bottom/mosshome-lower-connections.png)
@@ -58,3 +54,7 @@
 ### Checks
 
 [![Checks for Mosshome Lower (Bone_11)](../00-annotations/bone-bottom/mosshome-lower-checks.png)](../00-annotations/bone-bottom/mosshome-lower-checks.png)
+
+### Scene
+
+[![Scene for Mosshome Lower (Bone_11)](../00-annotations/bone-bottom/mosshome-lower-scene.png)](../00-annotations/bone-bottom/mosshome-lower-scene.png)

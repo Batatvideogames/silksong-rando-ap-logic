@@ -51,10 +51,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Sinner's Road Vertical Hall West (Dust_02)](../00-annotations/sinner-s-road/sinner-s-road-vertical-hall-west-scene.png)](../00-annotations/sinner-s-road/sinner-s-road-vertical-hall-west-scene.png)
-
 ### Connections
 
 [![Connections for Sinner's Road Vertical Hall West (Dust_02)](../00-annotations/sinner-s-road/sinner-s-road-vertical-hall-west-connections.png)](../00-annotations/sinner-s-road/sinner-s-road-vertical-hall-west-connections.png)
@@ -62,3 +58,7 @@
 ### Checks
 
 [![Checks for Sinner's Road Vertical Hall West (Dust_02)](../00-annotations/sinner-s-road/sinner-s-road-vertical-hall-west-checks.png)](../00-annotations/sinner-s-road/sinner-s-road-vertical-hall-west-checks.png)
+
+### Scene
+
+[![Scene for Sinner's Road Vertical Hall West (Dust_02)](../00-annotations/sinner-s-road/sinner-s-road-vertical-hall-west-scene.png)](../00-annotations/sinner-s-road/sinner-s-road-vertical-hall-west-scene.png)

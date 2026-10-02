@@ -25,10 +25,6 @@ No subroom connections defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Slab Poodle (Slab_07)](../00-annotations/the-slab/slab-poodle-scene.png)](../00-annotations/the-slab/slab-poodle-scene.png)
-
 ### Connections
 
 [![Connections for Slab Poodle (Slab_07)](../00-annotations/the-slab/slab-poodle-connections.png)](../00-annotations/the-slab/slab-poodle-connections.png)
@@ -36,3 +32,7 @@ No subroom connections defined.
 ### Checks
 
 [![Checks for Slab Poodle (Slab_07)](../00-annotations/the-slab/slab-poodle-checks.png)](../00-annotations/the-slab/slab-poodle-checks.png)
+
+### Scene
+
+[![Scene for Slab Poodle (Slab_07)](../00-annotations/the-slab/slab-poodle-scene.png)](../00-annotations/the-slab/slab-poodle-scene.png)

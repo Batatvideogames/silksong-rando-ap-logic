@@ -32,10 +32,6 @@
 
 ## Room Images
 
-### Scene
-
-[![Scene for Deep Docks Memory Hole (Dock_13)](../00-annotations/deep-docks/deep-docks-memory-hole-scene.png)](../00-annotations/deep-docks/deep-docks-memory-hole-scene.png)
-
 ### Connections
 
 [![Connections for Deep Docks Memory Hole (Dock_13)](../00-annotations/deep-docks/deep-docks-memory-hole-connections.png)](../00-annotations/deep-docks/deep-docks-memory-hole-connections.png)
@@ -43,3 +39,7 @@
 ### Checks
 
 [![Checks for Deep Docks Memory Hole (Dock_13)](../00-annotations/deep-docks/deep-docks-memory-hole-checks.png)](../00-annotations/deep-docks/deep-docks-memory-hole-checks.png)
+
+### Scene
+
+[![Scene for Deep Docks Memory Hole (Dock_13)](../00-annotations/deep-docks/deep-docks-memory-hole-scene.png)](../00-annotations/deep-docks/deep-docks-memory-hole-scene.png)

@@ -26,10 +26,6 @@ No check locations defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Greymoor Lower Halfway Home Path (Greymoor_13)](../00-annotations/greymoor/greymoor-lower-halfway-home-path-scene.png)](../00-annotations/greymoor/greymoor-lower-halfway-home-path-scene.png)
-
 ### Connections
 
 [![Connections for Greymoor Lower Halfway Home Path (Greymoor_13)](../00-annotations/greymoor/greymoor-lower-halfway-home-path-connections.png)](../00-annotations/greymoor/greymoor-lower-halfway-home-path-connections.png)
@@ -37,3 +33,7 @@ No check locations defined.
 ### Checks
 
 [![Checks for Greymoor Lower Halfway Home Path (Greymoor_13)](../00-annotations/greymoor/greymoor-lower-halfway-home-path-checks.png)](../00-annotations/greymoor/greymoor-lower-halfway-home-path-checks.png)
+
+### Scene
+
+[![Scene for Greymoor Lower Halfway Home Path (Greymoor_13)](../00-annotations/greymoor/greymoor-lower-halfway-home-path-scene.png)](../00-annotations/greymoor/greymoor-lower-halfway-home-path-scene.png)

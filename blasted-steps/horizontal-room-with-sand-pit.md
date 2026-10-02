@@ -31,10 +31,6 @@ No check locations defined.
 
 ## Room Images
 
-### Scene
-
-[![Scene for Horizontal Room with Sand Pit (Coral_11b)](../00-annotations/blasted-steps/horizontal-room-with-sand-pit-scene.png)](../00-annotations/blasted-steps/horizontal-room-with-sand-pit-scene.png)
-
 ### Connections
 
 [![Connections for Horizontal Room with Sand Pit (Coral_11b)](../00-annotations/blasted-steps/horizontal-room-with-sand-pit-connections.png)](../00-annotations/blasted-steps/horizontal-room-with-sand-pit-connections.png)
@@ -42,3 +38,7 @@ No check locations defined.
 ### Checks
 
 [![Checks for Horizontal Room with Sand Pit (Coral_11b)](../00-annotations/blasted-steps/horizontal-room-with-sand-pit-checks.png)](../00-annotations/blasted-steps/horizontal-room-with-sand-pit-checks.png)
+
+### Scene
+
+[![Scene for Horizontal Room with Sand Pit (Coral_11b)](../00-annotations/blasted-steps/horizontal-room-with-sand-pit-scene.png)](../00-annotations/blasted-steps/horizontal-room-with-sand-pit-scene.png)
