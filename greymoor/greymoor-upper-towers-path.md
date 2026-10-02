@@ -6,31 +6,47 @@
 
 ## Subrooms
 
-- main section
-- airstream lever
-- upper corridor
+| No. | Subroom | Annotated |
+| --- | --- | --- |
+| S1 | main section | ✓ |
+| S2 | airstream lever | ✓ |
+| S3 | upper corridor | ✓ |
 
 ## Room Transitions
 
-| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| U | up | upper corridor | [Greymoor Western Tower (Greymoor_06)](greymoor-western-tower.md) | UR | nothing |  | Verified |  |
-| R | right | main section | [Greymoor Eastern Tower (Greymoor_04)](greymoor-eastern-tower.md) | UL | nothing |  | Verified |  |
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| U | up | upper corridor | [Greymoor Western Tower (Greymoor_06)](greymoor-western-tower.md) | UR | nothing |  | Verified | ✓ |  |
+| R | right | main section | [Greymoor Eastern Tower (Greymoor_04)](greymoor-eastern-tower.md) | UL | nothing |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
-| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| S1 | shaft 1 | main section | upper corridor | silk soar OR cling grip OR medium scuttlebrace |  | Verified |  |
-| S1 | shaft 1 | upper corridor | main section | none (just fall) |  | Verified |  |
-| D1 | drop 1 | main section | airstream lever | none (just fall) |  | Verified |  |
-| D1 | drop 1 | airstream lever | main section | spike pogo OR silk soar OR ledge grab OR easy enemy pogo OR cling grip OR faydown cloak OR progressive swift step 2 |  | Verified |  |
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| S1 | shaft 1 | main section | upper corridor | silk soar OR cling grip OR medium scuttlebrace |  | Verified | ✓ |  |
+| S1 | shaft 1 | upper corridor | main section | none (just fall) |  | Verified | ✓ |  |
+| D1 | drop 1 | main section | airstream lever | none (just fall) |  | Verified | ✓ |  |
+| D1 | drop 1 | airstream lever | main section | spike pogo OR silk soar OR ledge grab OR easy enemy pogo OR cling grip OR faydown cloak OR progressive swift step 2 |  | Verified | ✓ |  |
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
-| --- | --- | --- | --- | --- | --- | --- |
-| Greymoor - Rosary Cache #15 | main section | none |  | Verified | resource |  |
-| Greymoor - Rosary Cache #16 | main section | none |  | Verified | resource |  |
-| Greymoor - Rosary Cache #17 | main section | drifters cloak OR (silk soar AND (progressive swift step 2 OR sharpdart OR clawline OR faydown cloak OR hard enemy pogo)) |  | Verified | resource |  |
-| airstream | airstream lever | hit lever right OR hit lever up |  | Verified | switch |  |
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Greymoor - Rosary Cache #15 | main section | none |  | Verified | resource | ✓ |  |
+| 2 | Greymoor - Rosary Cache #16 | main section | none |  | Verified | resource | ✓ |  |
+| 3 | Greymoor - Rosary Cache #17 | main section | drifters cloak OR (silk soar AND (progressive swift step 2 OR sharpdart OR clawline OR faydown cloak OR hard enemy pogo)) |  | Verified | resource | ✓ |  |
+| 4 | airstream | airstream lever | hit lever right OR hit lever up |  | Verified | switch | ✓ |  |
+
+## Room Images
+
+### Scene
+
+[![Scene for Greymoor Upper Towers Path (Greymoor_11)](../00-annotations/greymoor/greymoor-upper-towers-path-scene.png)](../00-annotations/greymoor/greymoor-upper-towers-path-scene.png)
+
+### Connections
+
+[![Connections for Greymoor Upper Towers Path (Greymoor_11)](../00-annotations/greymoor/greymoor-upper-towers-path-connections.png)](../00-annotations/greymoor/greymoor-upper-towers-path-connections.png)
+
+### Checks
+
+[![Checks for Greymoor Upper Towers Path (Greymoor_11)](../00-annotations/greymoor/greymoor-upper-towers-path-checks.png)](../00-annotations/greymoor/greymoor-upper-towers-path-checks.png)

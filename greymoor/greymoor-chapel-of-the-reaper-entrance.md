@@ -10,10 +10,10 @@ No subrooms defined.
 
 ## Room Transitions
 
-| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| CHE | chapel Entrance |  | [Greymoor Chapel of The Reaper (Greymoor_20c)](greymoor-chapel-of-the-reaper.md) | L | nothing |  | Verified | MUST NOT OWN REAPER CREST, the door will close if crest is owned at all blocking the exit |
-| R | right |  | [Greymoor Western Room (Greymoor_07)](greymoor-western-room.md) | CH | nothing |  | Verified |  |
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| CHE | chapel Entrance |  | [Greymoor Chapel of The Reaper (Greymoor_20c)](greymoor-chapel-of-the-reaper.md) | L | nothing |  | Verified | ✓ | MUST NOT OWN REAPER CREST, the door will close if crest is owned at all blocking the exit |
+| R | right |  | [Greymoor Western Room (Greymoor_07)](greymoor-western-room.md) | CH | nothing |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
@@ -22,3 +22,17 @@ No subroom connections defined.
 ## Check Locations
 
 No check locations defined.
+
+## Room Images
+
+### Scene
+
+[![Scene for Greymoor Chapel of The Reaper Entrance (Greymoor_20b)](../00-annotations/greymoor/greymoor-chapel-of-the-reaper-entrance-scene.png)](../00-annotations/greymoor/greymoor-chapel-of-the-reaper-entrance-scene.png)
+
+### Connections
+
+[![Connections for Greymoor Chapel of The Reaper Entrance (Greymoor_20b)](../00-annotations/greymoor/greymoor-chapel-of-the-reaper-entrance-connections.png)](../00-annotations/greymoor/greymoor-chapel-of-the-reaper-entrance-connections.png)
+
+### Checks
+
+[![Checks for Greymoor Chapel of The Reaper Entrance (Greymoor_20b)](../00-annotations/greymoor/greymoor-chapel-of-the-reaper-entrance-checks.png)](../00-annotations/greymoor/greymoor-chapel-of-the-reaper-entrance-checks.png)

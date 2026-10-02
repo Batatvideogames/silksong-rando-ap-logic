@@ -6,33 +6,49 @@
 
 ## Subrooms
 
-- Left Side Entrance
-- Right Side Entrance
-- Central Top Shaft
-- Lever Shaft
+| No. | Subroom | Annotated |
+| --- | --- | --- |
+| S1 | Left Side Entrance | ✓ |
+| S2 | Right Side Entrance | ✓ |
+| S3 | Central Top Shaft | ✓ |
+| S4 | Lever Shaft | ✓ |
 
 ## Room Transitions
 
-| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 | Left Side Entrance | [Underworks Central Shaft (Under_05)](underworks-central-shaft.md) | TR | Nothing. |  | Verified |  |
-| R | right1 | Right Side Entrance | [Underworks East Shaft (Under_13)](underworks-east-shaft.md) | TL | Nothing. |  | Verified |  |
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left1 | Left Side Entrance | [Underworks Central Shaft (Under_05)](underworks-central-shaft.md) | TR | Nothing. |  | Verified | ✓ |  |
+| R | right1 | Right Side Entrance | [Underworks East Shaft (Under_13)](underworks-east-shaft.md) | TL | Nothing. |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
-| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| LC | Left-CentraL | Left Side Entrance | Central Top Shaft | Silk Soar OR Cling Grip OR Scuttlebrace OR Faydown Cloak |  | Verified |  |
-| LC | Left-CentraL | Central Top Shaft | Left Side Entrance | Nothing. (Fall) |  | Verified |  |
-| RC | Right-Central | Right Side Entrance | Central Top Shaft | Silk Soar OR Cling Grip OR Scuttlebrace OR Faydown Cloak |  | Verified |  |
-| RC | Right-Central | Central Top Shaft | Right Side Entrance | Nothing. (Fall) |  | Verified |  |
-| CL | Central-Lever | Central Top Shaft | Lever Shaft | Nothing. (fall) |  | Verified |  |
-| CL | Central-Lever | Lever Shaft | Central Top Shaft | Activate Underworks: Flip Switch #4 AND (Silk Soar OR Cling Grip OR Scuttlebrace OR Faydown Cloak) |  | Verified |  |
-| LL | Left-Lever | Left Side Entrance | Lever Shaft | (Activate Underworks: Flip Switch #4 AND (Spike Pogo OR Dash OR Sprint OR Clawline OR Sharpdart OR Faydown Cloak OR Drifter's Cloak OR Scuttlebrace)) |  | Verified |  |
-| LL | Left-Lever | Lever Shaft | Left Side Entrance | (Activate Underworks: Flip Switch #4 AND (Spike Pogo OR Dash OR Sprint OR Clawline OR Sharpdart OR Faydown Cloak OR Drifter's Cloak OR Scuttlebrace)) |  | Verified |  |
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| LC | Left-CentraL | Left Side Entrance | Central Top Shaft | Silk Soar OR Cling Grip OR Scuttlebrace OR Faydown Cloak |  | Verified |  |  |
+| LC | Left-CentraL | Central Top Shaft | Left Side Entrance | Nothing. (Fall) |  | Verified |  |  |
+| RC | Right-Central | Right Side Entrance | Central Top Shaft | Silk Soar OR Cling Grip OR Scuttlebrace OR Faydown Cloak |  | Verified |  |  |
+| RC | Right-Central | Central Top Shaft | Right Side Entrance | Nothing. (Fall) |  | Verified |  |  |
+| CL | Central-Lever | Central Top Shaft | Lever Shaft | Nothing. (fall) |  | Verified |  |  |
+| CL | Central-Lever | Lever Shaft | Central Top Shaft | Activate Underworks: Flip Switch #4 AND (Silk Soar OR Cling Grip OR Scuttlebrace OR Faydown Cloak) |  | Verified |  |  |
+| LL | Left-Lever | Left Side Entrance | Lever Shaft | (Activate Underworks: Flip Switch #4 AND (Spike Pogo OR Dash OR Sprint OR Clawline OR Sharpdart OR Faydown Cloak OR Drifter's Cloak OR Scuttlebrace)) |  | Verified |  |  |
+| LL | Left-Lever | Lever Shaft | Left Side Entrance | (Activate Underworks: Flip Switch #4 AND (Spike Pogo OR Dash OR Sprint OR Clawline OR Sharpdart OR Faydown Cloak OR Drifter's Cloak OR Scuttlebrace)) |  | Verified |  |  |
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
-| --- | --- | --- | --- | --- | --- | --- |
-| Underworks: Flip Switch #4 | Lever Shaft | Flip Switch Left |  | Verified | switch |  |
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Underworks: Flip Switch #4 | Lever Shaft | Flip Switch Left |  | Verified | switch | ✓ |  |
+
+## Room Images
+
+### Scene
+
+[![Scene for Underworks Lever Spike Corridor (Under_11)](../00-annotations/underworks/underworks-lever-spike-corridor-scene.png)](../00-annotations/underworks/underworks-lever-spike-corridor-scene.png)
+
+### Connections
+
+[![Connections for Underworks Lever Spike Corridor (Under_11)](../00-annotations/underworks/underworks-lever-spike-corridor-connections.png)](../00-annotations/underworks/underworks-lever-spike-corridor-connections.png)
+
+### Checks
+
+[![Checks for Underworks Lever Spike Corridor (Under_11)](../00-annotations/underworks/underworks-lever-spike-corridor-checks.png)](../00-annotations/underworks/underworks-lever-spike-corridor-checks.png)

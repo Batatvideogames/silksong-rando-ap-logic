@@ -10,9 +10,9 @@ No subrooms defined.
 
 ## Room Transitions
 
-| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 |  | [FayForn (Peak_08b)](fayforn.md) | L2 | None |  | Verified |  |
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| R | right1 |  | [FayForn (Peak_08b)](fayforn.md) | L2 | None |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
@@ -20,7 +20,21 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
-| --- | --- | --- | --- | --- | --- | --- |
-| Mount Fay Peak Bench |  | None |  | Verified | bench |  |
-| Silkshot ( Original ) |  | Have Craftmetal AND Have Ruined Tool |  | Verified | collectible |  |
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Mount Fay Peak Bench |  | None |  | Verified | bench |  |  |
+| 2 | Silkshot ( Original ) |  | Have Craftmetal AND Have Ruined Tool |  | Verified | collectible |  |  |
+
+## Room Images
+
+### Scene
+
+[![Scene for Mount Fay Peak Bench (Peak_12)](../00-annotations/mount-fay/mount-fay-peak-bench-scene.png)](../00-annotations/mount-fay/mount-fay-peak-bench-scene.png)
+
+### Connections
+
+[![Connections for Mount Fay Peak Bench (Peak_12)](../00-annotations/mount-fay/mount-fay-peak-bench-connections.png)](../00-annotations/mount-fay/mount-fay-peak-bench-connections.png)
+
+### Checks
+
+[![Checks for Mount Fay Peak Bench (Peak_12)](../00-annotations/mount-fay/mount-fay-peak-bench-checks.png)](../00-annotations/mount-fay/mount-fay-peak-bench-checks.png)

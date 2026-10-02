@@ -2,6 +2,8 @@
 
 Generated from the non-archived records in `input/silksong-rando-logic.db`.
 
+[Composite Master](./MASTER.md)
+
 ## Moss Grotto
 
 - [Moss Grotto Center (Tut_01)](./moss-grotto/moss-grotto-center.md)
@@ -172,8 +174,7 @@ Generated from the non-archived records in `input/silksong-rando-logic.db`.
 - [Long Pin (Belltown_Room_shellwood)](./shellwood/long-pin.md)
 - [Shellgrave (Shellgrave)](./shellwood/shellgrave.md)
 - [Shellwood Bellshrine (Bellshrine_03)](./shellwood/shellwood-bellshrine.md)
-- [Shellwood Bellway
- (Shellwood_19)](./shellwood/shellwood-bellway.md)
+- [Shellwood Bellway (Shellwood_19)](./shellwood/shellwood-bellway.md)
 - [Shellwood Big Room Left (Shellwood_02)](./shellwood/shellwood-big-room-left.md)
 - [Shellwood Connection To Blasted steps (Shellwood_08)](./shellwood/shellwood-connection-to-blasted-steps.md)
 - [Shellwood Diddy Basement Main (Shellwood_25)](./shellwood/shellwood-diddy-basement-main.md)
@@ -234,7 +235,7 @@ Generated from the non-archived records in `input/silksong-rando-logic.db`.
 - [Greymoor Towers Patio (Greymoor_05)](./greymoor/greymoor-towers-patio.md)
 - [Greymoor Upper Halfway Home Path (Greymoor_12)](./greymoor/greymoor-upper-halfway-home-path.md)
 - [Greymoor Upper Towers Path (Greymoor_11)](./greymoor/greymoor-upper-towers-path.md)
-- [Greymoor West Bellshrine Room  (Greymoor_01)](./greymoor/greymoor-west-bellshrine-room.md)
+- [Greymoor West Bellshrine Room (Greymoor_01)](./greymoor/greymoor-west-bellshrine-room.md)
 - [Greymoor Western Room (Greymoor_07)](./greymoor/greymoor-western-room.md)
 - [Greymoor Yarnaby Room (Belltown_Room_doctor)](./greymoor/greymoor-yarnaby-room.md)
 - [Halfway Home Cellar (Ant_08)](./greymoor/halfway-home-cellar.md)
@@ -612,3 +613,16 @@ Generated from the non-archived records in `input/silksong-rando-logic.db`.
 - [Bellhart Wish Wall](./wish-menus/bellhart-wish-wall.md)
 - [Bellhart Deliveries](./wish-menus/bellhart-deliveries.md)
 - [Songclave Wish Wall](./wish-menus/songclave-wish-wall.md)
+
+## Image Credits
+
+Massive thank you to **RainingChain** and **IdoManti** for allowing us to
+generate room annotations using the 25%-resolution image of their amazing
+high-detail Silksong map. The room images in this documentation are generated
+from that map through Silksong Rando Logic Manager.
+
+[Explore their interactive Silksong map and their incredible work.](https://scripterswar.com/silksong/map)
+
+The underlying map imagery is not covered by this repository's license.
+Reuse, modification, or redistribution of that imagery requires permission
+from its owners.

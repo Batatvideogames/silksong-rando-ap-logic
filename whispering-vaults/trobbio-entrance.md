@@ -6,28 +6,44 @@
 
 ## Subrooms
 
-- The Only Jump In This Entire Room
-- Not The Jump.
+| No. | Subroom | Annotated |
+| --- | --- | --- |
+| S1 | The Only Jump In This Entire Room | ✓ |
+| S2 | Not The Jump. | ✓ |
 
 ## Room Transitions
 
-| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | Left | Not The Jump. | [Trobbio (Library_13)](trobbio.md) | TR | Nothing. |  | Verified |  |
-| R | Right | The Only Jump In This Entire Room | [Whispering Vaults Hell (Library_04)](whispering-vaults-hell.md) | CL | Nothing. |  | Verified |  |
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | Left | Not The Jump. | [Trobbio (Library_13)](trobbio.md) | TR | Nothing. |  | Verified | ✓ |  |
+| R | Right | The Only Jump In This Entire Room | [Whispering Vaults Hell (Library_04)](whispering-vaults-hell.md) | CL | Nothing. |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
-| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| J | Jump | The Only Jump In This Entire Room | Not The Jump. | Ledge Grab OR Cling Grip OR Faydown Cloak OR Clawline OR Easy Needle Strike Stall (Beast) OR Scuttlebrace OR Sprint |  | Verified |  |
-| J | Jump | Not The Jump. | The Only Jump In This Entire Room | Spike Pogo OR Clawline OR Dash OR Sprint OR Faydown Cloak OR Drifter's Cloak OR Scuttlebrace OR Cling Grip OR Sharpdart |  | Verified |  |
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| J | Jump | The Only Jump In This Entire Room | Not The Jump. | Ledge Grab OR Cling Grip OR Faydown Cloak OR Clawline OR Easy Needle Strike Stall (Beast) OR Scuttlebrace OR Sprint |  | Verified | ✓ |  |
+| J | Jump | Not The Jump. | The Only Jump In This Entire Room | Spike Pogo OR Clawline OR Dash OR Sprint OR Faydown Cloak OR Drifter's Cloak OR Scuttlebrace OR Cling Grip OR Sharpdart |  | Verified | ✓ |  |
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
-| --- | --- | --- | --- | --- | --- | --- |
-| Collectable Item Pickup - Quill Red | Not The Jump. | Nothing. |  | Verified | collectible | Missable (Exclusive with other Quills |
-| Collectable Item Pickup - Quill Purple | Not The Jump. | Nothing. |  | Verified | collectible | Missable (Exclusive with other Quills) |
-| Whispering Vaults: Lore #2 | Not The Jump. | Nothing. |  | Verified | lore |  |
-| Whispering Vaults: Lore #3 | Not The Jump. | Nothing. |  | Verified | lore |  |
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Collectable Item Pickup - Quill Red | Not The Jump. | Nothing. |  | Verified | collectible | ✓ | Missable (Exclusive with other Quills |
+| 2 | Collectable Item Pickup - Quill Purple | Not The Jump. | Nothing. |  | Verified | collectible | ✓ | Missable (Exclusive with other Quills) |
+| 3 | Whispering Vaults: Lore #2 | Not The Jump. | Nothing. |  | Verified | lore | ✓ |  |
+| 4 | Whispering Vaults: Lore #3 | Not The Jump. | Nothing. |  | Verified | lore | ✓ |  |
+
+## Room Images
+
+### Scene
+
+[![Scene for Trobbio Entrance (Library_13b)](../00-annotations/whispering-vaults/trobbio-entrance-scene.png)](../00-annotations/whispering-vaults/trobbio-entrance-scene.png)
+
+### Connections
+
+[![Connections for Trobbio Entrance (Library_13b)](../00-annotations/whispering-vaults/trobbio-entrance-connections.png)](../00-annotations/whispering-vaults/trobbio-entrance-connections.png)
+
+### Checks
+
+[![Checks for Trobbio Entrance (Library_13b)](../00-annotations/whispering-vaults/trobbio-entrance-checks.png)](../00-annotations/whispering-vaults/trobbio-entrance-checks.png)

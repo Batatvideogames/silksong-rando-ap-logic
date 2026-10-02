@@ -10,9 +10,9 @@ No subrooms defined.
 
 ## Room Transitions
 
-| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Seed Shooty Memorium (Arborium_03)](seed-shooty-memorium.md) | R | nada |  | Verified |  |
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left1 |  | [Seed Shooty Memorium (Arborium_03)](seed-shooty-memorium.md) | R | nada |  | Verified |  |  |
 
 ## Subroom Connections
 
@@ -20,12 +20,16 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
-| --- | --- | --- | --- | --- | --- | --- |
-| Memorimum Cogheart Piece |  | flip switch up OR flip switch down |  | Verified | collectible | memory puzzle |
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Memorimum Cogheart Piece |  | flip switch up OR flip switch down |  | Verified | collectible |  | memory puzzle |
 
 ## Notes
 
 the logic for the puzzle thing, can be implemented once its randoed
 
 cling grip OR faydown cloak OR (silk soar AND silkhearts 1)
+
+## Room Images
+
+Scene image unavailable.

@@ -10,10 +10,10 @@ No subrooms defined.
 
 ## Room Transitions
 
-| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 |  | [Memorium Start Shaft (Arborium_01)](memorium-start-shaft.md) | Ve | nada |  | Verified |  |
-| V | door_tubeEnter |  | [Ventrica Menu](../fast-travel/ventrica-menu.md) | M | unlock Ventrica Memorium |  | Verified |  |
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| R | right1 |  | [Memorium Start Shaft (Arborium_01)](memorium-start-shaft.md) | Ve | nada |  | Verified | ✓ |  |
+| V | door_tubeEnter |  | [Ventrica Menu](../fast-travel/ventrica-menu.md) | M | unlock Ventrica Memorium |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
@@ -21,7 +21,21 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
-| --- | --- | --- | --- | --- | --- | --- |
-| Ventrica: Memorium |  | unlock Ventrica: Memorium Rosary Lock |  | Verified | travel |  |
-| Ventrica: Memorium Rosary Lock |  | rosaries 80 |  | Verified | lock |  |
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Ventrica: Memorium |  | unlock Ventrica: Memorium Rosary Lock |  | Verified | travel |  |  |
+| 2 | Ventrica: Memorium Rosary Lock |  | rosaries 80 |  | Verified | lock |  |  |
+
+## Room Images
+
+### Scene
+
+[![Scene for Memorium Ventrica (Arborium_Tube)](../00-annotations/memorium/memorium-ventrica-scene.png)](../00-annotations/memorium/memorium-ventrica-scene.png)
+
+### Connections
+
+[![Connections for Memorium Ventrica (Arborium_Tube)](../00-annotations/memorium/memorium-ventrica-connections.png)](../00-annotations/memorium/memorium-ventrica-connections.png)
+
+### Checks
+
+[![Checks for Memorium Ventrica (Arborium_Tube)](../00-annotations/memorium/memorium-ventrica-checks.png)](../00-annotations/memorium/memorium-ventrica-checks.png)

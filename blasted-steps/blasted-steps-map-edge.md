@@ -6,48 +6,64 @@
 
 ## Subrooms
 
-- Lace Bridge
-- Before Map Edge (Lower)
-- Map Edge
-- Before Map Edge (Middle)
-- Before Map Edge (Top)
+| No. | Subroom | Annotated |
+| --- | --- | --- |
+| S1 | Lace Bridge | ✓ |
+| S2 | Before Map Edge (Lower) | ✓ |
+| S3 | Map Edge | ✓ |
+| S4 | Before Map Edge (Middle) | ✓ |
+| S5 | Before Map Edge (Top) | ✓ |
 
 ## Room Transitions
 
-| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| B1 | Bottom | Lace Bridge | [The Big Fall (Aspid_01)](../bone-bottom/the-big-fall.md) | T1 | Nothing (Falling) |  | Verified |  |
-| B2 | bot2 | Lace Bridge | [The Big Fall (Aspid_01)](../bone-bottom/the-big-fall.md) | T2 | Nothing (Falling) |  | Verified |  |
-| B3 | bot3 | Lace Bridge | [The Big Fall (Aspid_01)](../bone-bottom/the-big-fall.md) | T3 | Nothing (Falling) |  | Verified |  |
-| B4 | bot4 | Lace Bridge | [The Big Fall (Aspid_01)](../bone-bottom/the-big-fall.md) | T4 | Nothing (Falling) |  | Verified |  |
-| B5 | bot5 | Lace Bridge | [The Big Fall (Aspid_01)](../bone-bottom/the-big-fall.md) | T5 | Nothing (Falling) |  | Verified |  |
-| B6 | bot6 | Lace Bridge | [The Big Fall (Aspid_01)](../bone-bottom/the-big-fall.md) | T6 | Nothing (Falling) |  | Verified |  |
-| B7 | bot7 | Lace Bridge | [The Big Fall (Aspid_01)](../bone-bottom/the-big-fall.md) | T7 | Nothing (Falling) |  | Verified |  |
-| R | Right | Lace Bridge | [Shellwood Connection To Blasted steps (Shellwood_08)](../shellwood/shellwood-connection-to-blasted-steps.md) | L | Nothing |  | Verified |  |
-| TR3 | Top Right (3) | Lace Bridge | [Blasted Steps Wide Long Vertical (Coral_03)](blasted-steps-wide-long-vertical.md) | B3 | Silk Soar |  | Verified |  |
-| TR4 | Top Right (4) | Lace Bridge | [Blasted Steps Wide Long Vertical (Coral_03)](blasted-steps-wide-long-vertical.md) | B4 | Silk Soar |  | Verified |  |
-| TR5 | Top Right (5) | Lace Bridge | [Blasted Steps Wide Long Vertical (Coral_03)](blasted-steps-wide-long-vertical.md) | B5 | Silk Soar |  | Verified |  |
-| TR6 | Top Right (6) | Lace Bridge | [Blasted Steps Wide Long Vertical (Coral_03)](blasted-steps-wide-long-vertical.md) | B6 | Silk Soar |  | Verified |  |
-| TR7 | Top Right (7) | Lace Bridge | [Blasted Steps Wide Long Vertical (Coral_03)](blasted-steps-wide-long-vertical.md) | B7 | Silk Soar |  | Verified |  |
-| TR8 | Top Right (8) | Lace Bridge | [Blasted Steps Wide Long Vertical (Coral_03)](blasted-steps-wide-long-vertical.md) | B8 | Silk Soar |  | Verified |  |
-| TM | Top Middle | Before Map Edge (Top) | [Blasted Steps Toll Bench Bottom (Coral_02)](blasted-steps-toll-bench-bottom.md) | BR | Nothing |  | Verified |  |
-| TL | Top Left | Map Edge | [Blasted Steps Mask Shard (Coral_19b)](blasted-steps-mask-shard.md) | B | Silk Soar OR (Progressive Swift Step 1 AND Faydown AND Clawline AND Ledge Grab AND (Cling Grip OR Scuttlebrace)) |  | Verified |  |
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| B1 | Bottom | Lace Bridge | [The Big Fall (Aspid_01)](../bone-bottom/the-big-fall.md) | T1 | Nothing (Falling) |  | Verified | ✓ |  |
+| B2 | bot2 | Lace Bridge | [The Big Fall (Aspid_01)](../bone-bottom/the-big-fall.md) | T2 | Nothing (Falling) |  | Verified | ✓ |  |
+| B3 | bot3 | Lace Bridge | [The Big Fall (Aspid_01)](../bone-bottom/the-big-fall.md) | T3 | Nothing (Falling) |  | Verified | ✓ |  |
+| B4 | bot4 | Lace Bridge | [The Big Fall (Aspid_01)](../bone-bottom/the-big-fall.md) | T4 | Nothing (Falling) |  | Verified | ✓ |  |
+| B5 | bot5 | Lace Bridge | [The Big Fall (Aspid_01)](../bone-bottom/the-big-fall.md) | T5 | Nothing (Falling) |  | Verified | ✓ |  |
+| B6 | bot6 | Lace Bridge | [The Big Fall (Aspid_01)](../bone-bottom/the-big-fall.md) | T6 | Nothing (Falling) |  | Verified | ✓ |  |
+| B7 | bot7 | Lace Bridge | [The Big Fall (Aspid_01)](../bone-bottom/the-big-fall.md) | T7 | Nothing (Falling) |  | Verified | ✓ |  |
+| R | Right | Lace Bridge | [Shellwood Connection To Blasted steps (Shellwood_08)](../shellwood/shellwood-connection-to-blasted-steps.md) | L | Nothing |  | Verified | ✓ |  |
+| TR3 | Top Right (3) | Lace Bridge | [Blasted Steps Wide Long Vertical (Coral_03)](blasted-steps-wide-long-vertical.md) | B3 | Silk Soar |  | Verified | ✓ |  |
+| TR4 | Top Right (4) | Lace Bridge | [Blasted Steps Wide Long Vertical (Coral_03)](blasted-steps-wide-long-vertical.md) | B4 | Silk Soar |  | Verified | ✓ |  |
+| TR5 | Top Right (5) | Lace Bridge | [Blasted Steps Wide Long Vertical (Coral_03)](blasted-steps-wide-long-vertical.md) | B5 | Silk Soar |  | Verified | ✓ |  |
+| TR6 | Top Right (6) | Lace Bridge | [Blasted Steps Wide Long Vertical (Coral_03)](blasted-steps-wide-long-vertical.md) | B6 | Silk Soar |  | Verified | ✓ |  |
+| TR7 | Top Right (7) | Lace Bridge | [Blasted Steps Wide Long Vertical (Coral_03)](blasted-steps-wide-long-vertical.md) | B7 | Silk Soar |  | Verified | ✓ |  |
+| TR8 | Top Right (8) | Lace Bridge | [Blasted Steps Wide Long Vertical (Coral_03)](blasted-steps-wide-long-vertical.md) | B8 | Silk Soar |  | Verified | ✓ |  |
+| TM | Top Middle | Before Map Edge (Top) | [Blasted Steps Toll Bench Bottom (Coral_02)](blasted-steps-toll-bench-bottom.md) | BR | Nothing |  | Verified | ✓ |  |
+| TL | Top Left | Map Edge | [Blasted Steps Mask Shard (Coral_19b)](blasted-steps-mask-shard.md) | B | Silk Soar OR (Progressive Swift Step 1 AND Faydown AND Clawline AND Ledge Grab AND (Cling Grip OR Scuttlebrace)) |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
-| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| MEB | Map Edge to Before (Lower) | Map Edge | Before Map Edge (Lower) | Nothing |  | Verified |  |
-| MEB | Map Edge to Before (Lower) | Before Map Edge (Lower) | Map Edge | Nothing |  | Verified |  |
-| BLB | Before to Lace Bridge | Before Map Edge (Lower) | Lace Bridge | Nothing |  | Verified |  |
-| BLB | Before to Lace Bridge | Lace Bridge | Before Map Edge (Lower) | Nothing |  | Verified |  |
-| ELM | Map Edge (Lower) to Middle | Before Map Edge (Lower) | Before Map Edge (Middle) | Cling Grip OR Silk Soar OR Easy Scuttlebrace |  | Verified |  |
-| ELM | Map Edge (Lower) to Middle | Before Map Edge (Middle) | Before Map Edge (Lower) | Nothing (Fall) |  | Verified |  |
-| EMU | Map Edge (Middle) to Upper | Before Map Edge (Middle) | Before Map Edge (Top) | (Cling Grip AND (Spike Pogo OR Progressive Swift Step 1 OR Spike Pogo OR Drifter's Cloak OR Flea Brew OR Proficient Movement OR Sharpdart OR Clawline OR Easy Needle Strike Stall OR Easy Heal Stall)) OR Scuttlebrace OR Faydown |  | Verified |  |
-| EMU | Map Edge (Middle) to Upper | Before Map Edge (Top) | Before Map Edge (Middle) | Nothing (Fall) |  | Verified |  |
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| MEB | Map Edge to Before (Lower) | Map Edge | Before Map Edge (Lower) | Nothing |  | Verified | ✓ |  |
+| MEB | Map Edge to Before (Lower) | Before Map Edge (Lower) | Map Edge | Nothing |  | Verified | ✓ |  |
+| BLB | Before to Lace Bridge | Before Map Edge (Lower) | Lace Bridge | Nothing |  | Verified | ✓ |  |
+| BLB | Before to Lace Bridge | Lace Bridge | Before Map Edge (Lower) | Nothing |  | Verified | ✓ |  |
+| ELM | Map Edge (Lower) to Middle | Before Map Edge (Lower) | Before Map Edge (Middle) | Cling Grip OR Silk Soar OR Easy Scuttlebrace |  | Verified | ✓ |  |
+| ELM | Map Edge (Lower) to Middle | Before Map Edge (Middle) | Before Map Edge (Lower) | Nothing (Fall) |  | Verified | ✓ |  |
+| EMU | Map Edge (Middle) to Upper | Before Map Edge (Middle) | Before Map Edge (Top) | (Cling Grip AND (Spike Pogo OR Progressive Swift Step 1 OR Spike Pogo OR Drifter's Cloak OR Flea Brew OR Proficient Movement OR Sharpdart OR Clawline OR Easy Needle Strike Stall OR Easy Heal Stall)) OR Scuttlebrace OR Faydown |  | Verified | ✓ |  |
+| EMU | Map Edge (Middle) to Upper | Before Map Edge (Top) | Before Map Edge (Middle) | Nothing (Fall) |  | Verified | ✓ |  |
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
-| --- | --- | --- | --- | --- | --- | --- |
-| Blasted Steps - Shellwood Entrance Sign | Before Map Edge (Middle) | Nothing |  | Verified | lore |  |
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Blasted Steps - Shellwood Entrance Sign | Before Map Edge (Middle) | Nothing |  | Verified | lore | ✓ |  |
+
+## Room Images
+
+### Scene
+
+[![Scene for Blasted Steps Map Edge (Coral_19)](../00-annotations/blasted-steps/blasted-steps-map-edge-scene.png)](../00-annotations/blasted-steps/blasted-steps-map-edge-scene.png)
+
+### Connections
+
+[![Connections for Blasted Steps Map Edge (Coral_19)](../00-annotations/blasted-steps/blasted-steps-map-edge-connections.png)](../00-annotations/blasted-steps/blasted-steps-map-edge-connections.png)
+
+### Checks
+
+[![Checks for Blasted Steps Map Edge (Coral_19)](../00-annotations/blasted-steps/blasted-steps-map-edge-checks.png)](../00-annotations/blasted-steps/blasted-steps-map-edge-checks.png)

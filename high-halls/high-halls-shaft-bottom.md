@@ -6,36 +6,52 @@
 
 ## Subrooms
 
-- Top
-- Top Right
-- Middle Left
-- Bottom Left
-- Bottom Right
+| No. | Subroom | Annotated |
+| --- | --- | --- |
+| S1 | Top | ✓ |
+| S2 | Top Right | ✓ |
+| S3 | Middle Left | ✓ |
+| S4 | Bottom Left | ✓ |
+| S5 | Bottom Right | ✓ |
 
 ## Room Transitions
 
-| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| T | top1 | Top | [High Halls Shaft Top (Hang_03_top)](high-halls-shaft-top.md) | B | none |  | Verified |  |
-| TR | right1 | Top Right | [High Halls Big Slide (Hang_13)](high-halls-big-slide.md) | L | none |  | Verified |  |
-| BL | left2 | Bottom Left | [High Halls Small Room (Hang_15)](high-halls-small-room.md) | R | none |  | Verified |  |
-| BR | right2 | Bottom Right | [High Halls Flooded Room (Hang_10)](high-halls-flooded-room.md) | L | clear left exit blockade IN high halls flooded room |  | Verified |  |
-| ML | left1 | Middle Left | [High Halls Small Slide (Hang_02)](high-halls-small-slide.md) | R | none |  | Verified |  |
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| T | top1 | Top | [High Halls Shaft Top (Hang_03_top)](high-halls-shaft-top.md) | B | none |  | Verified | ✓ |  |
+| TR | right1 | Top Right | [High Halls Big Slide (Hang_13)](high-halls-big-slide.md) | L | none |  | Verified | ✓ |  |
+| BL | left2 | Bottom Left | [High Halls Small Room (Hang_15)](high-halls-small-room.md) | R | none |  | Verified | ✓ |  |
+| BR | right2 | Bottom Right | [High Halls Flooded Room (Hang_10)](high-halls-flooded-room.md) | L | clear left exit blockade IN high halls flooded room |  | Verified | ✓ |  |
+| ML | left1 | Middle Left | [High Halls Small Slide (Hang_02)](high-halls-small-slide.md) | R | none |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
-| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| B | Bottom Traversal | Bottom Left | Bottom Right | swim OR clawline OR (faydown cloak AND dash) |  | Verified |  |
-| B | Bottom Traversal | Bottom Right | Bottom Left | swim OR clawline OR (faydown cloak AND dash) |  | Verified |  |
-| B2 | Bottom Right to Mid Left | Bottom Right | Middle Left | ( cling grip AND faydown cloak ) OR clawline |  | Verified |  |
-| M | Middle Left to Top Right | Middle Left | Top Right | clawline AND cling grip |  | Verified |  |
-| T | Top Right to Top | Top Right | Top | faydown cloak AND (clawline OR (cling grip AND dash)) |  | Verified |  |
-| FT | Falling from Top | Top | Middle Left | none |  | Verified | falilng |
-| FT2 | Falling from Top 2 | Top | Top Right | clawline OR dash OR faydown cloak |  | Verified |  |
-| FM | Falling from Mid | Middle Left | Bottom Left | none |  | Verified | falling |
-| FM2 | Falling from Mid 2 | Middle Left | Bottom Right | clawline OR dash OR faydown cloak |  | Verified |  |
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| B | Bottom Traversal | Bottom Left | Bottom Right | swim OR clawline OR (faydown cloak AND dash) |  | Verified | ✓ |  |
+| B | Bottom Traversal | Bottom Right | Bottom Left | swim OR clawline OR (faydown cloak AND dash) |  | Verified | ✓ |  |
+| B2 | Bottom Right to Mid Left | Bottom Right | Middle Left | ( cling grip AND faydown cloak ) OR clawline |  | Verified | ✓ |  |
+| M | Middle Left to Top Right | Middle Left | Top Right | clawline AND cling grip |  | Verified | ✓ |  |
+| T | Top Right to Top | Top Right | Top | faydown cloak AND (clawline OR (cling grip AND dash)) |  | Verified | ✓ |  |
+| FT | Falling from Top | Top | Middle Left | none |  | Verified | ✓ | falilng |
+| FT2 | Falling from Top 2 | Top | Top Right | clawline OR dash OR faydown cloak |  | Verified | ✓ |  |
+| FM | Falling from Mid | Middle Left | Bottom Left | none |  | Verified | ✓ | falling |
+| FM2 | Falling from Mid 2 | Middle Left | Bottom Right | clawline OR dash OR faydown cloak |  | Verified | ✓ |  |
 
 ## Check Locations
 
 No check locations defined.
+
+## Room Images
+
+### Scene
+
+[![Scene for High Halls Shaft Bottom (Hang_03)](../00-annotations/high-halls/high-halls-shaft-bottom-scene.png)](../00-annotations/high-halls/high-halls-shaft-bottom-scene.png)
+
+### Connections
+
+[![Connections for High Halls Shaft Bottom (Hang_03)](../00-annotations/high-halls/high-halls-shaft-bottom-connections.png)](../00-annotations/high-halls/high-halls-shaft-bottom-connections.png)
+
+### Checks
+
+[![Checks for High Halls Shaft Bottom (Hang_03)](../00-annotations/high-halls/high-halls-shaft-bottom-checks.png)](../00-annotations/high-halls/high-halls-shaft-bottom-checks.png)

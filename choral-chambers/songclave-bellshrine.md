@@ -8,9 +8,9 @@ No subrooms defined.
 
 ## Room Transitions
 
-| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Songclave (Song_Enclave)](songclave.md) | D | none |  | Verified |  |
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left1 |  | [Songclave (Song_Enclave)](songclave.md) | D | none |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
@@ -18,7 +18,21 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
-| --- | --- | --- | --- | --- | --- | --- |
-| bellshrine switch |  |  | TODO |  | switch |  |
-| bench |  | activate bellshrine switch |  | Verified | bench |  |
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | bellshrine switch |  |  | TODO |  | switch | ✓ |  |
+| 2 | bench |  | activate bellshrine switch |  | Verified | bench |  |  |
+
+## Room Images
+
+### Scene
+
+[![Scene for Songclave Bellshrine (Bellshrine_Enclave)](../00-annotations/choral-chambers/songclave-bellshrine-scene.png)](../00-annotations/choral-chambers/songclave-bellshrine-scene.png)
+
+### Connections
+
+[![Connections for Songclave Bellshrine (Bellshrine_Enclave)](../00-annotations/choral-chambers/songclave-bellshrine-connections.png)](../00-annotations/choral-chambers/songclave-bellshrine-connections.png)
+
+### Checks
+
+[![Checks for Songclave Bellshrine (Bellshrine_Enclave)](../00-annotations/choral-chambers/songclave-bellshrine-checks.png)](../00-annotations/choral-chambers/songclave-bellshrine-checks.png)

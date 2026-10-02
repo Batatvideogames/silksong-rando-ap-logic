@@ -10,9 +10,9 @@ No subrooms defined.
 
 ## Room Transitions
 
-| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right |  | [Bilewater East Column (Shadow_09)](bilewater-east-column.md) | ML | none |  | Verified |  |
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| R | right |  | [Bilewater East Column (Shadow_09)](bilewater-east-column.md) | ML | none |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
@@ -20,6 +20,20 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
-| --- | --- | --- | --- | --- | --- | --- |
-| Flea: Bilewater - Thieves |  | Scuttlebrace OR cling grip |  | Verified | collectible |  |
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Flea: Bilewater - Thieves |  | Scuttlebrace OR cling grip |  | Verified | collectible | ✓ |  |
+
+## Room Images
+
+### Scene
+
+[![Scene for Bilewater Flea Rescue (Shadow_28)](../00-annotations/bilewater/bilewater-flea-rescue-scene.png)](../00-annotations/bilewater/bilewater-flea-rescue-scene.png)
+
+### Connections
+
+[![Connections for Bilewater Flea Rescue (Shadow_28)](../00-annotations/bilewater/bilewater-flea-rescue-connections.png)](../00-annotations/bilewater/bilewater-flea-rescue-connections.png)
+
+### Checks
+
+[![Checks for Bilewater Flea Rescue (Shadow_28)](../00-annotations/bilewater/bilewater-flea-rescue-checks.png)](../00-annotations/bilewater/bilewater-flea-rescue-checks.png)

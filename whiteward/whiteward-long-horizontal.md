@@ -10,9 +10,9 @@ No subrooms defined.
 
 ## Room Transitions
 
-| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | Left |  | [Whiteward Entrance (Ward_01)](whiteward-entrance.md) | TR | Nothing |  | Verified |  |
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | Left |  | [Whiteward Entrance (Ward_01)](whiteward-entrance.md) | TR | Nothing |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
@@ -20,6 +20,20 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
-| --- | --- | --- | --- | --- | --- | --- |
-| Relic: Choral Commandment (Eastern Whiteward) |  | Nothing |  | Verified | collectible |  |
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Relic: Choral Commandment (Eastern Whiteward) |  | Nothing |  | Verified | collectible | ✓ |  |
+
+## Room Images
+
+### Scene
+
+[![Scene for Whiteward Long Horizontal (Ward_05)](../00-annotations/whiteward/whiteward-long-horizontal-scene.png)](../00-annotations/whiteward/whiteward-long-horizontal-scene.png)
+
+### Connections
+
+[![Connections for Whiteward Long Horizontal (Ward_05)](../00-annotations/whiteward/whiteward-long-horizontal-connections.png)](../00-annotations/whiteward/whiteward-long-horizontal-connections.png)
+
+### Checks
+
+[![Checks for Whiteward Long Horizontal (Ward_05)](../00-annotations/whiteward/whiteward-long-horizontal-checks.png)](../00-annotations/whiteward/whiteward-long-horizontal-checks.png)

@@ -8,9 +8,9 @@ No subrooms defined.
 
 ## Room Transitions
 
-| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Slab Cavern Exit (Slab_23)](slab-cavern-exit.md) | D1 | none |  |  |  |
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left1 |  | [Slab Cavern Exit (Slab_23)](slab-cavern-exit.md) | D1 | none |  |  |  |  |
 
 ## Subroom Connections
 
@@ -19,3 +19,7 @@ No subroom connections defined.
 ## Check Locations
 
 No check locations defined.
+
+## Room Images
+
+Scene image unavailable.

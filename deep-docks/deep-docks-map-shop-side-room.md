@@ -10,9 +10,9 @@ No subrooms defined.
 
 ## Room Transitions
 
-| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Deep Docks Map Shop (Bone_East_01)](deep-docks-map-shop.md) | MR | none |  | Verified |  |
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left1 |  | [Deep Docks Map Shop (Bone_East_01)](deep-docks-map-shop.md) | MR | none |  | Verified |  |  |
 
 ## Subroom Connections
 
@@ -25,3 +25,7 @@ No check locations defined.
 ## Notes
 
 nothing to see here - just murder sleeping dudes
+
+## Room Images
+
+Scene image unavailable.

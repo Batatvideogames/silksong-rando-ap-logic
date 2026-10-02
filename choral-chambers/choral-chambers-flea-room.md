@@ -10,9 +10,9 @@ No subrooms defined.
 
 ## Room Transitions
 
-| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Choral Chambers Western Shaft (Song_12)](choral-chambers-western-shaft.md) | S2R | none |  | Verified |  |
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left1 |  | [Choral Chambers Western Shaft (Song_12)](choral-chambers-western-shaft.md) | S2R | none |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
@@ -20,6 +20,20 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
-| --- | --- | --- | --- | --- | --- | --- |
-| Flea: Choral Chambers - Spa |  | none |  | Verified | collectible |  |
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Flea: Choral Chambers - Spa |  | none |  | Verified | collectible |  |  |
+
+## Room Images
+
+### Scene
+
+[![Scene for Choral Chambers Flea Room (Song_14)](../00-annotations/choral-chambers/choral-chambers-flea-room-scene.png)](../00-annotations/choral-chambers/choral-chambers-flea-room-scene.png)
+
+### Connections
+
+[![Connections for Choral Chambers Flea Room (Song_14)](../00-annotations/choral-chambers/choral-chambers-flea-room-connections.png)](../00-annotations/choral-chambers/choral-chambers-flea-room-connections.png)
+
+### Checks
+
+[![Checks for Choral Chambers Flea Room (Song_14)](../00-annotations/choral-chambers/choral-chambers-flea-room-checks.png)](../00-annotations/choral-chambers/choral-chambers-flea-room-checks.png)

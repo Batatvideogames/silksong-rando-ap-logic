@@ -6,50 +6,66 @@
 
 ## Subrooms
 
-- Lower Central Shaft
-- Bottom Left Entrance
-- Bottom Right Entrance
-- Bottom
-- Lower Left Entrance
-- High Left Entrance
-- Top Left Entrance
-- Mid Right Entrance
-- Top Right Entrance
-- Upper Central Shaft
+| No. | Subroom | Annotated |
+| --- | --- | --- |
+| S1 | Lower Central Shaft | ✓ |
+| S2 | Bottom Left Entrance | ✓ |
+| S3 | Bottom Right Entrance | ✓ |
+| S4 | Bottom | ✓ |
+| S5 | Lower Left Entrance | ✓ |
+| S6 | High Left Entrance | ✓ |
+| S7 | Top Left Entrance | ✓ |
+| S8 | Mid Right Entrance | ✓ |
+| S9 | Top Right Entrance | ✓ |
+| S10 | Upper Central Shaft | ✓ |
 
 ## Room Transitions
 
-| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| BL | Bottom Left | Bottom Left Entrance | [Underworks Flea Room (Under_21)](underworks-flea-room.md) | R | Nothing. |  | Verified |  |
-| BR | Bottom Right | Bottom Right Entrance | [Underworks Lava Flow Corridor (Under_19)](underworks-lava-flow-corridor.md) | L | Nothing. |  | Verified |  |
-| TL | Top Left | Top Left Entrance | [Underworks Lever Spike Corridor (Under_11)](underworks-lever-spike-corridor.md) | R | Nothing. |  | Verified |  |
-| TR | Top Right | Top Right Entrance | [Underworks Twelfth Architect (Under_17)](underworks-twelfth-architect.md) | FL | Nothing. |  | Verified |  |
-| HL | High Left | High Left Entrance | [Underworks Ventrica (Under_22)](underworks-ventrica.md) | R | Nothing. |  | Verified |  |
-| MR | Mid Right | Mid Right Entrance | [Underworks Clawline Room (Under_18)](underworks-clawline-room.md) | L | Nothing. |  | Verified |  |
-| LL | Low Left | Lower Left Entrance | [Underworks Eastern Gauntlet (Under_10)](underworks-eastern-gauntlet.md) | R | Nothing. |  | Verified |  |
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| BL | Bottom Left | Bottom Left Entrance | [Underworks Flea Room (Under_21)](underworks-flea-room.md) | R | Nothing. |  | Verified | ✓ |  |
+| BR | Bottom Right | Bottom Right Entrance | [Underworks Lava Flow Corridor (Under_19)](underworks-lava-flow-corridor.md) | L | Nothing. |  | Verified | ✓ |  |
+| TL | Top Left | Top Left Entrance | [Underworks Lever Spike Corridor (Under_11)](underworks-lever-spike-corridor.md) | R | Nothing. |  | Verified | ✓ |  |
+| TR | Top Right | Top Right Entrance | [Underworks Twelfth Architect (Under_17)](underworks-twelfth-architect.md) | FL | Nothing. |  | Verified | ✓ |  |
+| HL | High Left | High Left Entrance | [Underworks Ventrica (Under_22)](underworks-ventrica.md) | R | Nothing. |  | Verified | ✓ |  |
+| MR | Mid Right | Mid Right Entrance | [Underworks Clawline Room (Under_18)](underworks-clawline-room.md) | L | Nothing. |  | Verified | ✓ |  |
+| LL | Low Left | Lower Left Entrance | [Underworks Eastern Gauntlet (Under_10)](underworks-eastern-gauntlet.md) | R | Nothing. |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
-| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| BLR | Bottom Left-Bottom Right | Bottom Left Entrance | Bottom Right Entrance | Ledge Grab OR Clawline OR Faydown Cloak |  | Verified |  |
-| BLR | Bottom Left-Bottom Right | Bottom Right Entrance | Bottom Left Entrance | (Ledge Grab AND (Sprint OR Dash OR Drifter's Cloak)) OR Clawline OR Cling Grip OR Faydown Cloak |  | Verified |  |
-| BC | Bottom-Lower Central | Bottom | Lower Central Shaft | Silk Soar OR ((Faydown Cloak OR Clawline) AND (Enemy Pogo OR Cling Grip OR Scuttlebrace)) |  | Verified |  |
-| LHL | Lower Left-High Left | Lower Left Entrance | High Left Entrance | Cling Grip OR Scuttlebrace |  | Verified |  |
-| LHL | Lower Left-High Left | High Left Entrance | Lower Left Entrance | Nothing. (Fall) |  | Verified |  |
-| HLT | High Left-Top Left | High Left Entrance | Top Left Entrance | Silk Soar OR Faydown Cloak OR Cling Grip OR Scuttlebrace |  | Verified |  |
-| HLT | High Left-Top Left | Top Left Entrance | High Left Entrance | Nothing. (Fall) |  | Verified |  |
-| HLR | High Left-Mid Right | High Left Entrance | Mid Right Entrance | Activate Underworks: Flip Switch #3 |  | Verified |  |
-| HLR | High Left-Mid Right | Mid Right Entrance | High Left Entrance | Silk Soar OR Cling Grip OR Faydown Cloak OR (Scuttlebrace AND (Drifter's Cloak OR (Dash AND Ledge Grab))) |  | Verified |  |
-| LUC | Lower Central-Upper Central | Lower Central Shaft | Upper Central Shaft | Silk Soar OR Cling Grip OR Scuttlebrace |  | Verified |  |
-| LUC | Lower Central-Upper Central | Upper Central Shaft | Lower Central Shaft | Nothing. (Fall) |  | Verified |  |
-| BC | Bottom-Lower Central | Lower Central Shaft | Bottom | Nothing. (Fall) |  | Verified |  |
-| CTP | Upper Central-Top Left | Upper Central Shaft | Top Right Entrance | Clawline OR Ledge Grab OR Scuttlebrace OR Faydown Cloak OR Cling Grip OR Silk Soar |  | Verified |  |
-| CTP | Upper Central-Top Left | Top Right Entrance | Upper Central Shaft | Nothing. (Fall) |  | Verified |  |
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| BLR | Bottom Left-Bottom Right | Bottom Left Entrance | Bottom Right Entrance | Ledge Grab OR Clawline OR Faydown Cloak |  | Verified | ✓ |  |
+| BLR | Bottom Left-Bottom Right | Bottom Right Entrance | Bottom Left Entrance | (Ledge Grab AND (Sprint OR Dash OR Drifter's Cloak)) OR Clawline OR Cling Grip OR Faydown Cloak |  | Verified | ✓ |  |
+| BC | Bottom-Lower Central | Bottom | Lower Central Shaft | Silk Soar OR ((Faydown Cloak OR Clawline) AND (Enemy Pogo OR Cling Grip OR Scuttlebrace)) |  | Verified | ✓ |  |
+| LHL | Lower Left-High Left | Lower Left Entrance | High Left Entrance | Cling Grip OR Scuttlebrace |  | Verified | ✓ |  |
+| LHL | Lower Left-High Left | High Left Entrance | Lower Left Entrance | Nothing. (Fall) |  | Verified | ✓ |  |
+| HLT | High Left-Top Left | High Left Entrance | Top Left Entrance | Silk Soar OR Faydown Cloak OR Cling Grip OR Scuttlebrace |  | Verified | ✓ |  |
+| HLT | High Left-Top Left | Top Left Entrance | High Left Entrance | Nothing. (Fall) |  | Verified | ✓ |  |
+| HLR | High Left-Mid Right | High Left Entrance | Mid Right Entrance | Activate Underworks: Flip Switch #3 |  | Verified | ✓ |  |
+| HLR | High Left-Mid Right | Mid Right Entrance | High Left Entrance | Silk Soar OR Cling Grip OR Faydown Cloak OR (Scuttlebrace AND (Drifter's Cloak OR (Dash AND Ledge Grab))) |  | Verified | ✓ |  |
+| LUC | Lower Central-Upper Central | Lower Central Shaft | Upper Central Shaft | Silk Soar OR Cling Grip OR Scuttlebrace |  | Verified | ✓ |  |
+| LUC | Lower Central-Upper Central | Upper Central Shaft | Lower Central Shaft | Nothing. (Fall) |  | Verified | ✓ |  |
+| BC | Bottom-Lower Central | Lower Central Shaft | Bottom | Nothing. (Fall) |  | Verified | ✓ |  |
+| CTP | Upper Central-Top Left | Upper Central Shaft | Top Right Entrance | Clawline OR Ledge Grab OR Scuttlebrace OR Faydown Cloak OR Cling Grip OR Silk Soar |  | Verified | ✓ |  |
+| CTP | Upper Central-Top Left | Top Right Entrance | Upper Central Shaft | Nothing. (Fall) |  | Verified | ✓ |  |
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
-| --- | --- | --- | --- | --- | --- | --- |
-| Underworks: Flip Switch #3 | Mid Right Entrance | Flip Switch Left |  | Verified | switch | is this even a check? |
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Underworks: Flip Switch #3 | Mid Right Entrance | Flip Switch Left |  | Verified | switch |  | is this even a check? |
+
+## Room Images
+
+### Scene
+
+[![Scene for Underworks East Shaft (Under_13)](../00-annotations/underworks/underworks-east-shaft-scene.png)](../00-annotations/underworks/underworks-east-shaft-scene.png)
+
+### Connections
+
+[![Connections for Underworks East Shaft (Under_13)](../00-annotations/underworks/underworks-east-shaft-connections.png)](../00-annotations/underworks/underworks-east-shaft-connections.png)
+
+### Checks
+
+[![Checks for Underworks East Shaft (Under_13)](../00-annotations/underworks/underworks-east-shaft-checks.png)](../00-annotations/underworks/underworks-east-shaft-checks.png)

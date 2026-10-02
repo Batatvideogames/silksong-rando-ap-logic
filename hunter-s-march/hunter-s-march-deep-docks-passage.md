@@ -6,33 +6,49 @@
 
 ## Subrooms
 
-- before gate
-- right of gauntlet
-- gauntlet
-- left of gauntlet
+| No. | Subroom | Annotated |
+| --- | --- | --- |
+| S1 | before gate | ✓ |
+| S2 | right of gauntlet | ✓ |
+| S3 | gauntlet | ✓ |
+| S4 | left of gauntlet | ✓ |
 
 ## Room Transitions
 
-| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 | before gate | [Hunter's March Shaft (Ant_14)](hunter-s-march-shaft.md) | L4 | none |  | Verified |  |
-| LF | bot1 | left of gauntlet | [Is this still Deep Docks West (Bone_East_04b)](../deep-docks/is-this-still-deep-docks-west.md) | C | none |  | Verified |  |
-| RF | bot2 | right of gauntlet | [Is this still Deep Docks? East (Bone_East_04)](../deep-docks/is-this-still-deep-docks-east.md) | C | none |  | Verified |  |
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| R | right1 | before gate | [Hunter's March Shaft (Ant_14)](hunter-s-march-shaft.md) | L4 | none |  | Verified | ✓ |  |
+| LF | bot1 | left of gauntlet | [Is this still Deep Docks West (Bone_East_04b)](../deep-docks/is-this-still-deep-docks-west.md) | C | none |  | Verified | ✓ |  |
+| RF | bot2 | right of gauntlet | [Is this still Deep Docks? East (Bone_East_04)](../deep-docks/is-this-still-deep-docks-east.md) | C | none |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
-| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| BG | bone gate | before gate | right of gauntlet | activate bone switch |  | Verified |  |
-| BG | bone gate | right of gauntlet | before gate | activate bone switch |  | Verified |  |
-| RG | right gauntlet | right of gauntlet | gauntlet | none (starts gauntlet) |  | Verified |  |
-| RG | right gauntlet | gauntlet | right of gauntlet | defeat gauntlet fight |  | Verified |  |
-| LG | left gauntlet | left of gauntlet | gauntlet | none (starts gauntlet) |  | Verified |  |
-| LG | left gauntlet | gauntlet | left of gauntlet | defeat gauntlet fight |  | Verified |  |
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| BG | bone gate | before gate | right of gauntlet | activate bone switch |  | Verified | ✓ |  |
+| BG | bone gate | right of gauntlet | before gate | activate bone switch |  | Verified | ✓ |  |
+| RG | right gauntlet | right of gauntlet | gauntlet | none (starts gauntlet) |  | Verified | ✓ |  |
+| RG | right gauntlet | gauntlet | right of gauntlet | defeat gauntlet fight |  | Verified | ✓ |  |
+| LG | left gauntlet | left of gauntlet | gauntlet | none (starts gauntlet) |  | Verified | ✓ |  |
+| LG | left gauntlet | gauntlet | left of gauntlet | defeat gauntlet fight |  | Verified | ✓ |  |
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
-| --- | --- | --- | --- | --- | --- | --- |
-| bone switch | before gate | none |  | Verified | switch |  |
-| gauntlet fight | gauntlet | none |  | Verified | gauntlet |  |
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | bone switch | before gate | none |  | Verified | switch |  |  |
+| 2 | gauntlet fight | gauntlet | none |  | Verified | gauntlet |  |  |
+
+## Room Images
+
+### Scene
+
+[![Scene for Hunter's March Deep Docks Passage (Ant_05b)](../00-annotations/hunter-s-march/hunter-s-march-deep-docks-passage-scene.png)](../00-annotations/hunter-s-march/hunter-s-march-deep-docks-passage-scene.png)
+
+### Connections
+
+[![Connections for Hunter's March Deep Docks Passage (Ant_05b)](../00-annotations/hunter-s-march/hunter-s-march-deep-docks-passage-connections.png)](../00-annotations/hunter-s-march/hunter-s-march-deep-docks-passage-connections.png)
+
+### Checks
+
+[![Checks for Hunter's March Deep Docks Passage (Ant_05b)](../00-annotations/hunter-s-march/hunter-s-march-deep-docks-passage-checks.png)](../00-annotations/hunter-s-march/hunter-s-march-deep-docks-passage-checks.png)

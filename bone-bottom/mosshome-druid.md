@@ -10,9 +10,9 @@ No subrooms defined.
 
 ## Room Transitions
 
-| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left |  | [Mosshome Upper (Mosstown_02)](mosshome-upper.md) | R | none |  | Verified |  |
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left |  | [Mosshome Upper (Mosstown_02)](mosshome-upper.md) | R | none |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
@@ -20,10 +20,24 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
-| --- | --- | --- | --- | --- | --- | --- |
-| berry picking wish start |  | none |  | Verified | event |  |
-| berry picking wish goal |  | mossberries 3 |  | Verified | event |  |
-| druid's eye |  | complete berry picking wish goal |  | Verified | collectible | TRACKER POSITION WRONG AS OF v0.4.5 |
-| druid's eyes |  | mossberries 7 |  | Verified | collectible | TRACKER POSITION WRONG AS OF v0.4.5 |
-| bench |  | none |  | Verified | bench |  |
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | berry picking wish start |  | none |  | Verified | event |  |  |
+| 2 | berry picking wish goal |  | mossberries 3 |  | Verified | event |  |  |
+| 3 | druid's eye |  | complete berry picking wish goal |  | Verified | collectible |  | TRACKER POSITION WRONG AS OF v0.4.5 |
+| 4 | druid's eyes |  | mossberries 7 |  | Verified | collectible |  | TRACKER POSITION WRONG AS OF v0.4.5 |
+| 5 | bench |  | none |  | Verified | bench | ✓ |  |
+
+## Room Images
+
+### Scene
+
+[![Scene for Mosshome Druid (Mosstown_02c)](../00-annotations/bone-bottom/mosshome-druid-scene.png)](../00-annotations/bone-bottom/mosshome-druid-scene.png)
+
+### Connections
+
+[![Connections for Mosshome Druid (Mosstown_02c)](../00-annotations/bone-bottom/mosshome-druid-connections.png)](../00-annotations/bone-bottom/mosshome-druid-connections.png)
+
+### Checks
+
+[![Checks for Mosshome Druid (Mosstown_02c)](../00-annotations/bone-bottom/mosshome-druid-checks.png)](../00-annotations/bone-bottom/mosshome-druid-checks.png)

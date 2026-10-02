@@ -10,9 +10,9 @@ No subrooms defined.
 
 ## Room Transitions
 
-| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 |  | [Mount Fay Shakra (Peak_02)](mount-fay-shakra.md) | LL | None |  | Verified |  |
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| R | right1 |  | [Mount Fay Shakra (Peak_02)](mount-fay-shakra.md) | LL | None |  | Verified |  |  |
 
 ## Subroom Connections
 
@@ -20,6 +20,10 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
-| --- | --- | --- | --- | --- | --- | --- |
-| Mount Fay - Weaver Inscrytion |  | None |  | Verified | lore |  |
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Mount Fay - Weaver Inscrytion |  | None |  | Verified | lore |  |  |
+
+## Room Images
+
+Scene image unavailable.

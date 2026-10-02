@@ -6,24 +6,40 @@
 
 ## Subrooms
 
-- Entrance
-- Rosary Necklace
+| No. | Subroom | Annotated |
+| --- | --- | --- |
+| S1 | Entrance |  |
+| S2 | Rosary Necklace |  |
 
 ## Room Transitions
 
-| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 | Entrance | [Underworks Central Shaft (Under_05)](underworks-central-shaft.md) | R | Nothing. |  | Verified |  |
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left1 | Entrance | [Underworks Central Shaft (Under_05)](underworks-central-shaft.md) | R | Nothing. |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
-| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| RP | Rosary Pickup | Entrance | Rosary Necklace | Ledge Grab OR Clawline OR  Cling Grip OR Scuttlebrace OR Faydown Cloak OR Silk Soar |  | Verified |  |
-| RP | Rosary Pickup | Rosary Necklace | Entrance | Nothing. (Fall) |  | Verified |  |
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| RP | Rosary Pickup | Entrance | Rosary Necklace | Ledge Grab OR Clawline OR  Cling Grip OR Scuttlebrace OR Faydown Cloak OR Silk Soar |  | Verified |  |  |
+| RP | Rosary Pickup | Rosary Necklace | Entrance | Nothing. (Fall) |  | Verified |  |  |
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
-| --- | --- | --- | --- | --- | --- | --- |
-| Underworks: Frayed Rosary Necklace #1 | Rosary Necklace | Nothing. |  | Verified | collectible |  |
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Underworks: Frayed Rosary Necklace #1 | Rosary Necklace | Nothing. |  | Verified | collectible | ✓ |  |
+
+## Room Images
+
+### Scene
+
+[![Scene for Underworks Rosary Room (Under_12)](../00-annotations/underworks/underworks-rosary-room-scene.png)](../00-annotations/underworks/underworks-rosary-room-scene.png)
+
+### Connections
+
+[![Connections for Underworks Rosary Room (Under_12)](../00-annotations/underworks/underworks-rosary-room-connections.png)](../00-annotations/underworks/underworks-rosary-room-connections.png)
+
+### Checks
+
+[![Checks for Underworks Rosary Room (Under_12)](../00-annotations/underworks/underworks-rosary-room-checks.png)](../00-annotations/underworks/underworks-rosary-room-checks.png)

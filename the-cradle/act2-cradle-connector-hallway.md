@@ -10,10 +10,10 @@ No subrooms defined.
 
 ## Room Transitions
 
-| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Act2 Cradle Left Shaft (Cradle_02)](act2-cradle-left-shaft.md) | LR | None |  | Verified |  |
-| R | right1 |  | [Terminus Ventrica (Tube_Hub)](terminus-ventrica.md) | ML | None |  | Verified |  |
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left1 |  | [Act2 Cradle Left Shaft (Cradle_02)](act2-cradle-left-shaft.md) | LR | None |  | Verified |  |  |
+| R | right1 |  | [Terminus Ventrica (Tube_Hub)](terminus-ventrica.md) | ML | None |  | Verified |  |  |
 
 ## Subroom Connections
 
@@ -22,3 +22,7 @@ No subroom connections defined.
 ## Check Locations
 
 No check locations defined.
+
+## Room Images
+
+Scene image unavailable.

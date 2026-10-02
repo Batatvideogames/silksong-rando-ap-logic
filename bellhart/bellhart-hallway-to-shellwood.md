@@ -10,10 +10,10 @@ No subrooms defined.
 
 ## Room Transitions
 
-| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Shellwood Right Side Big room (Shellwood_01)](../shellwood/shellwood-right-side-big-room.md) | LR | None |  | Verified |  |
-| R | right1 |  | [Belltown (Belltown)](belltown.md) | L | None |  | Verified |  |
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left1 |  | [Shellwood Right Side Big room (Shellwood_01)](../shellwood/shellwood-right-side-big-room.md) | LR | None |  | Verified | ✓ |  |
+| R | right1 |  | [Belltown (Belltown)](belltown.md) | L | None |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
@@ -21,7 +21,21 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
-| --- | --- | --- | --- | --- | --- | --- |
-| Rosary Cache: Bellhart #4 |  | Cling Grip OR Silk soar OR ( Dash AND Scuttlebrace AND Faydown Cloak ) |  | Verified | collectible |  |
-| Bellhart- Outer Sign |  | None |  | Verified | lore |  |
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Rosary Cache: Bellhart #4 |  | Cling Grip OR Silk soar OR ( Dash AND Scuttlebrace AND Faydown Cloak ) |  | Verified | collectible | ✓ |  |
+| 2 | Bellhart- Outer Sign |  | None |  | Verified | lore | ✓ |  |
+
+## Room Images
+
+### Scene
+
+[![Scene for Bellhart Hallway to Shellwood (Belltown_07)](../00-annotations/bellhart/bellhart-hallway-to-shellwood-scene.png)](../00-annotations/bellhart/bellhart-hallway-to-shellwood-scene.png)
+
+### Connections
+
+[![Connections for Bellhart Hallway to Shellwood (Belltown_07)](../00-annotations/bellhart/bellhart-hallway-to-shellwood-connections.png)](../00-annotations/bellhart/bellhart-hallway-to-shellwood-connections.png)
+
+### Checks
+
+[![Checks for Bellhart Hallway to Shellwood (Belltown_07)](../00-annotations/bellhart/bellhart-hallway-to-shellwood-checks.png)](../00-annotations/bellhart/bellhart-hallway-to-shellwood-checks.png)

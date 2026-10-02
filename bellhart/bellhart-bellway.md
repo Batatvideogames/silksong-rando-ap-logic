@@ -10,11 +10,11 @@ No subrooms defined.
 
 ## Room Transitions
 
-| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| F | bot1 |  | [Bellhart Lower (Belltown_basement_03)](bellhart-lower.md) | C | None |  | Verified |  |
-| L | left1 |  | [Belltown (Belltown)](belltown.md) | BD | Ledge Grab OR Clawline OR Faydown Cloak OR Cling Grip OR Silk Soar |  | Verified |  |
-| BH | door_fastTravelExit |  | [Bellway Menu](../fast-travel/bellway-menu.md) | BH | unlock Bellway Bellhart |  | Verified |  |
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| F | bot1 |  | [Bellhart Lower (Belltown_basement_03)](bellhart-lower.md) | C | None |  | Verified |  |  |
+| L | left1 |  | [Belltown (Belltown)](belltown.md) | BD | Ledge Grab OR Clawline OR Faydown Cloak OR Cling Grip OR Silk Soar |  | Verified |  |  |
+| BH | door_fastTravelExit |  | [Bellway Menu](../fast-travel/bellway-menu.md) | BH | unlock Bellway Bellhart |  | Verified |  |  |
 
 ## Subroom Connections
 
@@ -22,7 +22,11 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
-| --- | --- | --- | --- | --- | --- | --- |
-| bellway rosary lock |  | none |  | Verified | lock |  |
-| Bellway: Bellhart |  | unlock bellway rosary lock |  | Verified | travel |  |
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | bellway rosary lock |  | none |  | Verified | lock |  |  |
+| 2 | Bellway: Bellhart |  | unlock bellway rosary lock |  | Verified | travel |  |  |
+
+## Room Images
+
+Scene image unavailable.

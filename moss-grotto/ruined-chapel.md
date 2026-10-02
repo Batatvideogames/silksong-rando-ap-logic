@@ -6,40 +6,56 @@
 
 ## Subrooms
 
-- chapel
-- boss arena
-- bench passage
-- bench spot
+| No. | Subroom | Annotated |
+| --- | --- | --- |
+| S1 | chapel | ✓ |
+| S2 | boss arena | ✓ |
+| S3 | bench passage | ✓ |
+| S4 | bench spot | ✓ |
 
 ## Room Transitions
 
-| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right | bench spot | [Moss Grotto Center (Tut_01)](moss-grotto-center.md) | UL | none |  | Verified |  |
-| AR | ascend rope | chapel | [Bone Bottom Town (Bonetown)](../bone-bottom/bone-bottom-town.md) | DR | none |  | Verified |  |
-| CD | chapel door | chapel | [Ruined Chapel Interior](ruined-chapel-interior.md) | CD |  | TODO |  | how the heck do you open this door again? |
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| R | right | bench spot | [Moss Grotto Center (Tut_01)](moss-grotto-center.md) | UL | none |  | Verified | ✓ |  |
+| AR | ascend rope | chapel | [Bone Bottom Town (Bonetown)](../bone-bottom/bone-bottom-town.md) | DR | none |  | Verified | ✓ |  |
+| CD | chapel door | chapel | [Ruined Chapel Interior](ruined-chapel-interior.md) | CD |  | TODO |  | ✓ | how the heck do you open this door again? |
 
 ## Subroom Connections
 
-| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| RB | right boss entrance | bench passage | boss arena | break vines left (starts fight) |  | Verified |  |
-| RB | right boss entrance | boss arena | bench passage | complete moss mother boss fight |  | Verified |  |
-| LB | left boss entrance | chapel | boss arena | none (starts fight) |  | Verified |  |
-| LB | left boss entrance | boss arena | chapel | complete moss mother boss fight |  | Verified |  |
-| V1 | ledge grab | bench spot | bench passage | ledge grab OR faydown OR silk soar OR cling grip |  | Verified |  |
-| V1 | ledge grab | bench passage | bench spot | none (falling) |  | Verified |  |
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| RB | right boss entrance | bench passage | boss arena | break vines left (starts fight) |  | Verified | ✓ |  |
+| RB | right boss entrance | boss arena | bench passage | complete moss mother boss fight |  | Verified | ✓ |  |
+| LB | left boss entrance | chapel | boss arena | none (starts fight) |  | Verified | ✓ |  |
+| LB | left boss entrance | boss arena | chapel | complete moss mother boss fight |  | Verified | ✓ |  |
+| V1 | ledge grab | bench spot | bench passage | ledge grab OR faydown OR silk soar OR cling grip |  | Verified | ✓ |  |
+| V1 | ledge grab | bench passage | bench spot | none (falling) |  | Verified | ✓ |  |
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
-| --- | --- | --- | --- | --- | --- | --- |
-| moss mother boss fight | boss arena | none |  | Verified | boss |  |
-| bench | bench spot | none |  | Verified | bench |  |
-| Mister Mushroom Meeting Moss Grotto | boss arena | complete THE Passing of the Age Wish Promised AND Needolin |  | Verified | event |  |
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | moss mother boss fight | boss arena | none |  | Verified | boss | ✓ |  |
+| 2 | bench | bench spot | none |  | Verified | bench | ✓ |  |
+| 3 | Mister Mushroom Meeting Moss Grotto | boss arena | complete THE Passing of the Age Wish Promised AND Needolin |  | Verified | event |  |  |
 
 ## Notes
 
 ROOM BUG: fighting moss mother without breaking the vines on the right side of the arena (by approaching from the left), you get locked into the arena with darkness still covering the area.
 
 Ascend rope AND the ceiling are valid exits - but I believe they take you to the same bot1 exit on the other side.
+
+## Room Images
+
+### Scene
+
+[![Scene for Ruined Chapel (Tut_03)](../00-annotations/moss-grotto/ruined-chapel-scene.png)](../00-annotations/moss-grotto/ruined-chapel-scene.png)
+
+### Connections
+
+[![Connections for Ruined Chapel (Tut_03)](../00-annotations/moss-grotto/ruined-chapel-connections.png)](../00-annotations/moss-grotto/ruined-chapel-connections.png)
+
+### Checks
+
+[![Checks for Ruined Chapel (Tut_03)](../00-annotations/moss-grotto/ruined-chapel-checks.png)](../00-annotations/moss-grotto/ruined-chapel-checks.png)

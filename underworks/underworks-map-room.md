@@ -10,9 +10,9 @@ No subrooms defined.
 
 ## Room Transitions
 
-| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 |  | [Underworks Shaft (Under_02)](underworks-shaft.md) | L2 | none | TODO | Verified |  |
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| R | right1 |  | [Underworks Shaft (Under_02)](underworks-shaft.md) | L2 | none | TODO | Verified | ✓ |  |
 
 ## Subroom Connections
 
@@ -20,8 +20,22 @@ No subroom connections defined.
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
-| --- | --- | --- | --- | --- | --- | --- |
-| Map Pickup: Underworks |  | none | TODO | Verified | collectible |  |
-| Relic: Bone Scroll (Underworks) |  | none | TODO | Verified | collectible |  |
-| Underworks: Break Wall #4 |  | Break Wall Left | TODO | Needs verification | blockade | Verify ingame. |
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Map Pickup: Underworks |  | none | TODO | Verified | collectible |  |  |
+| 2 | Relic: Bone Scroll (Underworks) |  | none | TODO | Verified | collectible |  |  |
+| 3 | Underworks: Break Wall #4 |  | Break Wall Left | TODO | Needs verification | blockade |  | Verify ingame. |
+
+## Room Images
+
+### Scene
+
+[![Scene for Underworks Map Room (Under_16)](../00-annotations/underworks/underworks-map-room-scene.png)](../00-annotations/underworks/underworks-map-room-scene.png)
+
+### Connections
+
+[![Connections for Underworks Map Room (Under_16)](../00-annotations/underworks/underworks-map-room-connections.png)](../00-annotations/underworks/underworks-map-room-connections.png)
+
+### Checks
+
+[![Checks for Underworks Map Room (Under_16)](../00-annotations/underworks/underworks-map-room-checks.png)](../00-annotations/underworks/underworks-map-room-checks.png)

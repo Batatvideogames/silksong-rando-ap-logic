@@ -6,27 +6,43 @@
 
 ## Subrooms
 
-- Base
-- Maintenance Tunnel
+| No. | Subroom | Annotated |
+| --- | --- | --- |
+| S1 | Base | ✓ |
+| S2 | Maintenance Tunnel | ✓ |
 
 ## Room Transitions
 
-| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 | Base | [Choral Chambers Flea Shaft (Song_11)](choral-chambers-flea-shaft.md) | S2L | none |  | Verified |  |
-| L | left1 | Maintenance Tunnel | [Choral Chambers Western Shaft (Song_12)](choral-chambers-western-shaft.md) | S4R | none |  | Verified |  |
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| R | right1 | Base | [Choral Chambers Flea Shaft (Song_11)](choral-chambers-flea-shaft.md) | S2L | none |  | Verified | ✓ |  |
+| L | left1 | Maintenance Tunnel | [Choral Chambers Western Shaft (Song_12)](choral-chambers-western-shaft.md) | S4R | none |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
-| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| V | Vertical | Base | Maintenance Tunnel | silk soar |  |  |  |
-| V | Vertical | Maintenance Tunnel | Base | silk soar OR cling grip |  |  |  |
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| V | Vertical | Base | Maintenance Tunnel | silk soar |  |  | ✓ |  |
+| V | Vertical | Maintenance Tunnel | Base | silk soar OR cling grip |  |  | ✓ |  |
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
-| --- | --- | --- | --- | --- | --- | --- |
-| Rosary Cache: Choral Chambers #17 | Base | none |  |  | collectible |  |
-| Rosary Cache: Choral Chambers #18 | Base | none |  |  | collectible |  |
-| Rosary Cache: Choral Chambers #19 | Base | none |  |  | collectible |  |
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Rosary Cache: Choral Chambers #17 | Base | none |  |  | collectible |  |  |
+| 2 | Rosary Cache: Choral Chambers #18 | Base | none |  |  | collectible |  |  |
+| 3 | Rosary Cache: Choral Chambers #19 | Base | none |  |  | collectible |  |  |
+
+## Room Images
+
+### Scene
+
+[![Scene for Choral Chambers Maintenance Tunnel (Song_15)](../00-annotations/choral-chambers/choral-chambers-maintenance-tunnel-scene.png)](../00-annotations/choral-chambers/choral-chambers-maintenance-tunnel-scene.png)
+
+### Connections
+
+[![Connections for Choral Chambers Maintenance Tunnel (Song_15)](../00-annotations/choral-chambers/choral-chambers-maintenance-tunnel-connections.png)](../00-annotations/choral-chambers/choral-chambers-maintenance-tunnel-connections.png)
+
+### Checks
+
+[![Checks for Choral Chambers Maintenance Tunnel (Song_15)](../00-annotations/choral-chambers/choral-chambers-maintenance-tunnel-checks.png)](../00-annotations/choral-chambers/choral-chambers-maintenance-tunnel-checks.png)

@@ -6,25 +6,31 @@
 
 ## Subrooms
 
-- End
-- Start
+| No. | Subroom | Annotated |
+| --- | --- | --- |
+| S1 | End |  |
+| S2 | Start |  |
 
 ## Room Transitions
 
-| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 | Start | [Mount Fay Bench Toll (Bellway_Peak)](mount-fay-bench-toll.md) | LR | None |  | Verified |  |
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left1 | Start | [Mount Fay Bench Toll (Bellway_Peak)](mount-fay-bench-toll.md) | LR | None |  | Verified |  |  |
 
 ## Subroom Connections
 
-| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| IT | Ice Tunnel | Start | End | None |  | Verified |  |
-| IT | Ice Tunnel | End | Start | Cling Grip OR Scuttlebrace OR Silk Soar |  | Verified |  |
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| IT | Ice Tunnel | Start | End | None |  | Verified |  |  |
+| IT | Ice Tunnel | End | Start | Cling Grip OR Scuttlebrace OR Silk Soar |  | Verified |  |  |
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
-| --- | --- | --- | --- | --- | --- | --- |
-| Mount Fay - Rosary Cache #4 | Start | None |  | Verified | resource |  |
-| Memory Crystal | End | None |  | Verified | collectible |  |
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Mount Fay - Rosary Cache #4 | Start | None |  | Verified | resource |  |  |
+| 2 | Memory Crystal | End | None |  | Verified | collectible |  |  |
+
+## Room Images
+
+Scene image unavailable.

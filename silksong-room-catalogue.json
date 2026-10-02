@@ -34708,15 +34708,15 @@
           "requirements": "invalid",
           "notes": "placeholder until can map it - original logic is in OG connection",
           "enableAnnotation": true,
-          "sceneUnitX": 5.254,
-          "sceneUnitY": 17.544,
+          "sceneUnitX": 7.703033924102783,
+          "sceneUnitY": 18.150856018066406,
           "sortOrder": 0,
           "isTodo": true,
           "isVerified": false,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-25T03:50:38.4432564Z",
-          "updatedUtc": "2026-09-27T08:22:34.1703088Z"
+          "updatedUtc": "2026-10-02T04:41:07.0237361Z"
         },
         {
           "id": "b5df4054-3b5c-482f-bcb4-086697488eb5",
@@ -34727,15 +34727,15 @@
           "requirements": "invalid",
           "notes": "placeholder until can map it - original logic is in OG connection",
           "enableAnnotation": true,
-          "sceneUnitX": 5.254,
-          "sceneUnitY": 17.544,
+          "sceneUnitX": 7.703033924102783,
+          "sceneUnitY": 18.150856018066406,
           "sortOrder": 1,
           "isTodo": true,
           "isVerified": false,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-25T03:50:45.7366691Z",
-          "updatedUtc": "2026-09-27T08:22:34.5862364Z"
+          "updatedUtc": "2026-10-02T04:41:07.0237361Z"
         },
         {
           "id": "c235ca8d-c068-4bb4-91ba-ce12c4ad2821",
@@ -34746,15 +34746,15 @@
           "requirements": "invalid",
           "notes": "placeholder until can map it - original logic is in OG connection",
           "enableAnnotation": true,
-          "sceneUnitX": 32.642,
-          "sceneUnitY": 24.584,
+          "sceneUnitX": 34.233524322509766,
+          "sceneUnitY": 24.25286865234375,
           "sortOrder": 2,
           "isTodo": true,
           "isVerified": false,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-25T03:48:55.635339Z",
-          "updatedUtc": "2026-09-27T08:22:35.9955932Z"
+          "updatedUtc": "2026-10-02T04:41:23.6726682Z"
         },
         {
           "id": "ef9bbfba-f67f-4f2a-8afc-5c20a5f496df",
@@ -34765,15 +34765,15 @@
           "requirements": "invalid",
           "notes": "placeholder until can map it - original logic is in OG connection",
           "enableAnnotation": true,
-          "sceneUnitX": 32.642,
-          "sceneUnitY": 24.584,
+          "sceneUnitX": 34.233524322509766,
+          "sceneUnitY": 24.25286865234375,
           "sortOrder": 3,
           "isTodo": true,
           "isVerified": false,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-25T03:49:10.4711674Z",
-          "updatedUtc": "2026-09-27T08:22:36.5510151Z"
+          "updatedUtc": "2026-10-02T04:41:23.6726682Z"
         },
         {
           "id": "8307396d-47e0-4245-9eb5-fa91a5c09609",
@@ -34784,15 +34784,15 @@
           "requirements": "invalid",
           "notes": "placeholder until can map it - original logic is in OG connection",
           "enableAnnotation": true,
-          "sceneUnitX": 67.784,
-          "sceneUnitY": 31.217,
+          "sceneUnitX": 69.51907348632812,
+          "sceneUnitY": 32.47732162475586,
           "sortOrder": 4,
           "isTodo": true,
           "isVerified": false,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-25T03:49:38.5868742Z",
-          "updatedUtc": "2026-09-27T08:22:36.9573534Z"
+          "updatedUtc": "2026-10-02T04:41:19.3397891Z"
         },
         {
           "id": "062700ac-e618-456f-98ba-99909170b93f",
@@ -34803,15 +34803,15 @@
           "requirements": "invalid",
           "notes": "placeholder until can map it - original logic is in OG connection",
           "enableAnnotation": true,
-          "sceneUnitX": 67.784,
-          "sceneUnitY": 31.217,
+          "sceneUnitX": 69.51907348632812,
+          "sceneUnitY": 32.47732162475586,
           "sortOrder": 5,
           "isTodo": true,
           "isVerified": false,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-25T03:49:54.047042Z",
-          "updatedUtc": "2026-09-27T08:22:37.3458058Z"
+          "updatedUtc": "2026-10-02T04:41:19.3397891Z"
         },
         {
           "id": "5c9627f4-047c-4081-a0d1-2d3eb563e946",
@@ -34822,15 +34822,15 @@
           "requirements": "invalid",
           "notes": "placeholder until can map it - original logic is in OG connection",
           "enableAnnotation": true,
-          "sceneUnitX": 96.254,
-          "sceneUnitY": 35.401,
+          "sceneUnitX": 94.45773315429688,
+          "sceneUnitY": 34.33445358276367,
           "sortOrder": 6,
           "isTodo": true,
           "isVerified": false,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-25T03:51:54.8052661Z",
-          "updatedUtc": "2026-09-27T08:22:37.9211842Z"
+          "updatedUtc": "2026-10-02T04:41:14.2783508Z"
         },
         {
           "id": "a43eb222-88d7-46e0-b3cb-89fcddd33b9a",
@@ -34841,15 +34841,15 @@
           "requirements": "invalid",
           "notes": "placeholder until can map it - original logic is in OG connection",
           "enableAnnotation": true,
-          "sceneUnitX": 96.254,
-          "sceneUnitY": 35.401,
+          "sceneUnitX": 94.45773315429688,
+          "sceneUnitY": 34.33445358276367,
           "sortOrder": 7,
           "isTodo": true,
           "isVerified": false,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-25T03:51:48.206918Z",
-          "updatedUtc": "2026-09-27T08:22:39.5963935Z"
+          "updatedUtc": "2026-10-02T04:41:14.2783508Z"
         },
         {
           "id": "965f6bcd-9c7c-478f-bb94-721199897bf0",
@@ -34860,15 +34860,15 @@
           "requirements": "clawline OR (faydown cloak AND dash AND ledge grab)",
           "notes": "delete after remapped",
           "enableAnnotation": true,
-          "sceneUnitX": 63.68236541748047,
-          "sceneUnitY": 9.992730140686035,
+          "sceneUnitX": 60.233,
+          "sceneUnitY": 10.845,
           "sortOrder": 8,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-25T03:54:16.1616585Z",
-          "updatedUtc": "2026-09-25T03:55:19.3131036Z"
+          "updatedUtc": "2026-10-02T04:41:28.0569485Z"
         },
         {
           "id": "794dfbc6-6f6d-4729-8d80-c8b85dda22b4",
@@ -34879,15 +34879,15 @@
           "requirements": "(ledge grab OR clawline OR cling grip OR faydown cloak) AND swim",
           "notes": "delete after remapped",
           "enableAnnotation": true,
-          "sceneUnitX": 63.68236541748047,
-          "sceneUnitY": 9.992730140686035,
+          "sceneUnitX": 60.233,
+          "sceneUnitY": 10.845,
           "sortOrder": 9,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-25T03:54:43.8059382Z",
-          "updatedUtc": "2026-09-25T03:55:20.0001684Z"
+          "updatedUtc": "2026-10-02T04:41:28.0569485Z"
         }
       ],
       "checks": [
@@ -34914,7 +34914,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-25T03:53:10.3800196Z",
-          "updatedUtc": "2026-10-02T04:18:25.6367766Z"
+          "updatedUtc": "2026-10-02T04:41:45.7878061Z"
         }
       ]
     },

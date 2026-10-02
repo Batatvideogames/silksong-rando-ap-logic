@@ -6,32 +6,48 @@
 
 ## Subrooms
 
-- Top
-- Bottom
+| No. | Subroom | Annotated |
+| --- | --- | --- |
+| S1 | Top | ✓ |
+| S2 | Bottom | ✓ |
 
 ## Room Transitions
 
-| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| UR | right2 | Top | [Shellwood Diddy Basement Main (Shellwood_25)](shellwood-diddy-basement-main.md) | L | None |  | Verified |  |
-| LR | right1 | Bottom | [The Marrow Skull Wall (Bone_06)](../the-marrow/the-marrow-skull-wall.md) | L | clear blast rock exit blockade |  | Verified |  |
-| C | top1 | Top | [Shellwood Lower Left Tall Room (Shellwood_03)](shellwood-lower-left-tall-room.md) | F | Cling Grip |  | Verified |  |
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| UR | right2 | Top | [Shellwood Diddy Basement Main (Shellwood_25)](shellwood-diddy-basement-main.md) | L | None |  | Verified | ✓ |  |
+| LR | right1 | Bottom | [The Marrow Skull Wall (Bone_06)](../the-marrow/the-marrow-skull-wall.md) | L | clear blast rock exit blockade |  | Verified | ✓ |  |
+| C | top1 | Top | [Shellwood Lower Left Tall Room (Shellwood_03)](shellwood-lower-left-tall-room.md) | F | Cling Grip |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
-| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| SH | Shaft | Top | Bottom | None |  | Verified |  |
-| SH | Shaft | Bottom | Top | Silksoar OR Cling grip |  | Verified |  |
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| SH | Shaft | Top | Bottom | None |  | Verified | ✓ |  |
+| SH | Shaft | Bottom | Top | Silksoar OR Cling grip |  | Verified | ✓ |  |
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
-| --- | --- | --- | --- | --- | --- | --- |
-| Shell Shard Cache: Shellwood #1 | Top | None |  | Verified | resource |  |
-| Bench Diddy Basement | Bottom | Cling Grip OR ( Dash AND Scuttlebrace ) |  | Verified | bench |  |
-| Craw Summons | Bottom | Craw Summons Ready |  | Verified | collectible |  |
-| Shell Shard Cache: Shellwood #2 | Top | None |  | Verified | resource |  |
-| Shell Shard Cache: Shellwood #3 | Top | None |  | Verified | resource |  |
-| Breakable Roof Diddy Basement | Top | Cling Grip |  | Verified | blockade |  |
-| Blast Rock Exit Blockade | Bottom | break blast rock right |  | Verified | blockade |  |
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Shell Shard Cache: Shellwood #1 | Top | None |  | Verified | resource | ✓ |  |
+| 2 | Bench Diddy Basement | Bottom | Cling Grip OR ( Dash AND Scuttlebrace ) |  | Verified | bench | ✓ |  |
+| 3 | Craw Summons | Bottom | Craw Summons Ready |  | Verified | collectible |  |  |
+| 4 | Shell Shard Cache: Shellwood #2 | Top | None |  | Verified | resource | ✓ |  |
+| 5 | Shell Shard Cache: Shellwood #3 | Top | None |  | Verified | resource | ✓ |  |
+| 6 | Breakable Roof Diddy Basement | Top | Cling Grip |  | Verified | blockade |  |  |
+| 7 | Blast Rock Exit Blockade | Bottom | break blast rock right |  | Verified | blockade | ✓ |  |
+
+## Room Images
+
+### Scene
+
+[![Scene for Greyroots Basement Tall room (Mosstown_03)](../00-annotations/shellwood/greyroots-basement-tall-room-scene.png)](../00-annotations/shellwood/greyroots-basement-tall-room-scene.png)
+
+### Connections
+
+[![Connections for Greyroots Basement Tall room (Mosstown_03)](../00-annotations/shellwood/greyroots-basement-tall-room-connections.png)](../00-annotations/shellwood/greyroots-basement-tall-room-connections.png)
+
+### Checks
+
+[![Checks for Greyroots Basement Tall room (Mosstown_03)](../00-annotations/shellwood/greyroots-basement-tall-room-checks.png)](../00-annotations/shellwood/greyroots-basement-tall-room-checks.png)

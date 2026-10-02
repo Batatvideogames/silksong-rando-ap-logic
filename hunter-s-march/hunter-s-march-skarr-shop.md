@@ -6,29 +6,45 @@
 
 ## Subrooms
 
-- storage room
-- skarr shop
+| No. | Subroom | Annotated |
+| --- | --- | --- |
+| S1 | storage room | ✓ |
+| S2 | skarr shop | ✓ |
 
 ## Room Transitions
 
-| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 | storage room | [Hunter's March Shaft (Ant_14)](hunter-s-march-shaft.md) | L1 | none |  | Verified |  |
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| R | right1 | storage room | [Hunter's March Shaft (Ant_14)](hunter-s-march-shaft.md) | L1 | none |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
-| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| CG | cross gap | storage room | skarr shop | run OR dash OR faydown cloak OR clawline OR sharpdart x 3 |  | Verified | too many jumps for sharpdart without upgrades or silk heart; could add progressive spool fragments as a requirement for multiple sharpdart jumps |
-| CG | cross gap | skarr shop | storage room | run OR dash OR faydown cloak OR clawline OR sharpdart x 3 |  | Verified |  |
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| CG | cross gap | storage room | skarr shop | run OR dash OR faydown cloak OR clawline OR sharpdart x 3 |  | Verified |  | too many jumps for sharpdart without upgrades or silk heart; could add progressive spool fragments as a requirement for multiple sharpdart jumps |
+| CG | cross gap | skarr shop | storage room | run OR dash OR faydown cloak OR clawline OR sharpdart x 3 |  | Verified |  |  |
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
-| --- | --- | --- | --- | --- | --- | --- |
-| fractured mask | skarr shop | none |  | Verified | collectible |  |
-| curveclaw | skarr shop | none |  | Verified | collectible | I think this item mistakenly displays in the treasure vault instead of the skarr shop |
-| shell shard cache hunter's march 5 | storage room | none |  | Verified | collectible |  |
-| shell shard cache hunter's march 6 | storage room | none |  | Verified | collectible |  |
-| shell shard cache hunter's march 7 | storage room | none |  | Verified | collectible |  |
-| shell shard cache hunter's march 8 | storage room | none |  | Verified | collectible |  |
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | fractured mask | skarr shop | none |  | Verified | collectible | ✓ |  |
+| 2 | curveclaw | skarr shop | none |  | Verified | collectible | ✓ | I think this item mistakenly displays in the treasure vault instead of the skarr shop |
+| 3 | shell shard cache hunter's march 5 | storage room | none |  | Verified | collectible | ✓ |  |
+| 4 | shell shard cache hunter's march 6 | storage room | none |  | Verified | collectible | ✓ |  |
+| 5 | shell shard cache hunter's march 7 | storage room | none |  | Verified | collectible | ✓ |  |
+| 6 | shell shard cache hunter's march 8 | storage room | none |  | Verified | collectible | ✓ |  |
+
+## Room Images
+
+### Scene
+
+[![Scene for Hunter's March Skarr Shop (Ant_Merchant)](../00-annotations/hunter-s-march/hunter-s-march-skarr-shop-scene.png)](../00-annotations/hunter-s-march/hunter-s-march-skarr-shop-scene.png)
+
+### Connections
+
+[![Connections for Hunter's March Skarr Shop (Ant_Merchant)](../00-annotations/hunter-s-march/hunter-s-march-skarr-shop-connections.png)](../00-annotations/hunter-s-march/hunter-s-march-skarr-shop-connections.png)
+
+### Checks
+
+[![Checks for Hunter's March Skarr Shop (Ant_Merchant)](../00-annotations/hunter-s-march/hunter-s-march-skarr-shop-checks.png)](../00-annotations/hunter-s-march/hunter-s-march-skarr-shop-checks.png)

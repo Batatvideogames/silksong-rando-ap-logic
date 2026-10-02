@@ -6,36 +6,52 @@
 
 ## Subrooms
 
-- Landing Zone
-- Shard room
-- Lower Exit
-- Upper Exit
+| No. | Subroom | Annotated |
+| --- | --- | --- |
+| S1 | Landing Zone | ✓ |
+| S2 | Shard room | ✓ |
+| S3 | Lower Exit | ✓ |
+| S4 | Upper Exit | ✓ |
 
 ## Room Transitions
 
-| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| UL | left2 | Upper Exit | [Abyss Escape Hallway (Abyss_13)](abyss-escape-hallway.md) | R | None |  | Verified |  |
-| D1 | door1 | Landing Zone | [Abyss Diving Bell Broken (Room_Diving_Bell_Abyss)](abyss-diving-bell-broken.md) | L | invalid |  | Verified | logic always keeps the bell fixed |
-| D2 | door2 | Landing Zone | [Abyss Diving Bell Fixed (Room_Diving_Bell_Abyss_Fixed)](abyss-diving-bell-fixed.md) | L | Have Everbloom |  | Verified |  |
-| LL | left1 | Lower Exit | [Abyss Hallway To Upper Big Room (Abyss_02)](abyss-hallway-to-upper-big-room.md) | R | None |  | Verified |  |
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| UL | left2 | Upper Exit | [Abyss Escape Hallway (Abyss_13)](abyss-escape-hallway.md) | R | None |  | Verified | ✓ |  |
+| D1 | door1 | Landing Zone | [Abyss Diving Bell Broken (Room_Diving_Bell_Abyss)](abyss-diving-bell-broken.md) | L | invalid |  | Verified | ✓ | logic always keeps the bell fixed |
+| D2 | door2 | Landing Zone | [Abyss Diving Bell Fixed (Room_Diving_Bell_Abyss_Fixed)](abyss-diving-bell-fixed.md) | L | Have Everbloom |  | Verified | ✓ |  |
+| LL | left1 | Lower Exit | [Abyss Hallway To Upper Big Room (Abyss_02)](abyss-hallway-to-upper-big-room.md) | R | None |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
-| Alias | Name | Source | Destination | Requirements | TODO | Verification | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| RD | Right Drop | Landing Zone | Shard room | None ( Spike Pogo ) |  | Verified |  |
-| RD | Right Drop | Shard room | Landing Zone | Cling Grip OR Faydown Cloak   OR ( Scuttlebrace AND Clawline ) |  | Verified | Faydown Cloak barely clips the hazard respawn without ledge grab |
-| LD | Left Drop | Landing Zone | Lower Exit | None |  | Verified |  |
-| LD | Left Drop | Lower Exit | Landing Zone | easy Reaper Crest pogo OR Cling Grip OR Faydown Cloak OR Silk Soar OR Scuttlebrace |  | Verified | Silk Soar up to first Platform then Spike pogo with any crest to get up |
-| SE | Silk Soar Escape | Landing Zone | Upper Exit | Silk Soar AND ( easy Beast Crest pogo OR Dash OR Clawline OR Faydown Cloak ) |  | Verified |  |
-| SE | Silk Soar Escape | Upper Exit | Landing Zone | None |  | Verified |  |
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| RD | Right Drop | Landing Zone | Shard room | None ( Spike Pogo ) |  | Verified | ✓ |  |
+| RD | Right Drop | Shard room | Landing Zone | Cling Grip OR Faydown Cloak   OR ( Scuttlebrace AND Clawline ) |  | Verified | ✓ | Faydown Cloak barely clips the hazard respawn without ledge grab |
+| LD | Left Drop | Landing Zone | Lower Exit | None |  | Verified | ✓ |  |
+| LD | Left Drop | Lower Exit | Landing Zone | easy Reaper Crest pogo OR Cling Grip OR Faydown Cloak OR Silk Soar OR Scuttlebrace |  | Verified | ✓ | Silk Soar up to first Platform then Spike pogo with any crest to get up |
+| SE | Silk Soar Escape | Landing Zone | Upper Exit | Silk Soar AND ( easy Beast Crest pogo OR Dash OR Clawline OR Faydown Cloak ) |  | Verified | ✓ |  |
+| SE | Silk Soar Escape | Upper Exit | Landing Zone | None |  | Verified | ✓ |  |
 
 ## Check Locations
 
-| Check | Subroom | Requirements | TODO | Verification | Location Type | Notes |
-| --- | --- | --- | --- | --- | --- | --- |
-| Shell Shard Cache: Abyss #1 | Shard room | None |  | Verified | collectible |  |
-| Shell Shard Cache: Abyss #2 | Shard room | None |  | Verified | collectible |  |
-| Shell Shard Cache: Abyss #3 | Shard room | None |  | Verified | collectible |  |
-| Shell Shard Cache: Abyss #4 | Shard room | None |  | Verified | collectible |  |
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Shell Shard Cache: Abyss #1 | Shard room | None |  | Verified | collectible | ✓ |  |
+| 2 | Shell Shard Cache: Abyss #2 | Shard room | None |  | Verified | collectible | ✓ |  |
+| 3 | Shell Shard Cache: Abyss #3 | Shard room | None |  | Verified | collectible | ✓ |  |
+| 4 | Shell Shard Cache: Abyss #4 | Shard room | None |  | Verified | collectible | ✓ |  |
+
+## Room Images
+
+### Scene
+
+[![Scene for Abyss Landing Zone (Abyss_03)](../00-annotations/the-abyss/abyss-landing-zone-scene.png)](../00-annotations/the-abyss/abyss-landing-zone-scene.png)
+
+### Connections
+
+[![Connections for Abyss Landing Zone (Abyss_03)](../00-annotations/the-abyss/abyss-landing-zone-connections.png)](../00-annotations/the-abyss/abyss-landing-zone-connections.png)
+
+### Checks
+
+[![Checks for Abyss Landing Zone (Abyss_03)](../00-annotations/the-abyss/abyss-landing-zone-checks.png)](../00-annotations/the-abyss/abyss-landing-zone-checks.png)
