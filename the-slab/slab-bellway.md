@@ -10,7 +10,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| T | top1 |  | [Slab Infleatween Bottom (Slab_05)](slab-infleatween-bottom.md) | B | none |  |  |  |
+| T | top1 |  | [Slab Infleatween Bottom (Slab_05)](slab-infleatween-bottom.md) | B | Cling Grip OR Silk Soar OR Scuttlebrace OR (Faydown AND ((Proficient Movement AND Ledge Grab) OR (Flea Brew) OR (Easy Heal Stall OR Easy Flea Brew Stall) OR (Easy Shaman Crest Pogo))) |  | Verified |  |
 | NI | door1 |  | TODO |  |  | TODO |  | Not implemented as far as I know |
 | L | left1 |  | [Mount Fay Entrance (Peak_01)](../mount-fay/mount-fay-entrance.md) | LR | none | TODO |  | To Peaks_01 |
 | BW | door_fastTravelExit |  | [Bellway Menu](../fast-travel/bellway-menu.md) | TS | Unlock Bellway The Slab |  |  |  |

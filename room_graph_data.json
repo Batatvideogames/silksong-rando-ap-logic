@@ -78252,13 +78252,23 @@
           "notes": ""
         },
         {
-          "id": "blasted-steps/blasted-steps-map-edge#before-map-edge",
-          "name": "Before Map Edge",
+          "id": "blasted-steps/blasted-steps-map-edge#before-map-edge-lower",
+          "name": "Before Map Edge (Lower)",
           "notes": ""
         },
         {
           "id": "blasted-steps/blasted-steps-map-edge#map-edge",
           "name": "Map Edge",
+          "notes": ""
+        },
+        {
+          "id": "blasted-steps/blasted-steps-map-edge#before-map-edge-middle",
+          "name": "Before Map Edge (Middle)",
+          "notes": ""
+        },
+        {
+          "id": "blasted-steps/blasted-steps-map-edge#before-map-edge-top",
+          "name": "Before Map Edge (Top)",
           "notes": ""
         }
       ],
@@ -78574,59 +78584,13 @@
           "alias": "TM",
           "name": "Top Middle",
           "in_game_id": "top2",
-          "source_node_id": "blasted-steps/blasted-steps-map-edge#before-map-edge",
+          "source_node_id": "blasted-steps/blasted-steps-map-edge#before-map-edge-top",
           "target": "blasted-steps/blasted-steps-toll-bench-bottom@br",
           "requirement": {
-            "raw": "(Cling Grip AND (Spike Pogo OR Progressive Swift Step 1 OR Faydown OR Spike Pogo OR Drifter's Cloak OR Flea Brew OR Proficient Movement OR Sharpdart OR Clawline OR Easy Needle Strike Stall OR Easy Heal Stall)) OR Scuttlebrace",
-            "mode": "expression",
+            "raw": "Nothing",
+            "mode": "none",
             "dnf": [
-              [
-                "capability:cling-grip",
-                "capability:spike-pogo"
-              ],
-              [
-                "capability:cling-grip",
-                "capability:sprint"
-              ],
-              [
-                "capability:cling-grip",
-                "capability:faydown-cloak"
-              ],
-              [
-                "capability:cling-grip",
-                "capability:spike-pogo"
-              ],
-              [
-                "capability:cling-grip",
-                "capability:drifters-cloak"
-              ],
-              [
-                "capability:cling-grip",
-                "capability:flea-brew-jump"
-              ],
-              [
-                "capability:cling-grip",
-                "capability:proficient-movement"
-              ],
-              [
-                "capability:cling-grip",
-                "capability:sharpdart"
-              ],
-              [
-                "capability:cling-grip",
-                "capability:clawline"
-              ],
-              [
-                "capability:cling-grip",
-                "capability:needle-strike-stall:easy"
-              ],
-              [
-                "capability:cling-grip",
-                "capability:heal-stall:easy"
-              ],
-              [
-                "capability:scuttlebrace:none"
-              ]
+              []
             ],
             "unresolved_reasons": []
           },
@@ -78676,11 +78640,11 @@
       ],
       "connections": [
         {
-          "id": "blasted-steps/blasted-steps-map-edge#map-edge>before-map-edge@meb",
+          "id": "blasted-steps/blasted-steps-map-edge#map-edge>before-map-edge-lower@meb",
           "alias": "MEB",
-          "name": "Map Edge to Before",
+          "name": "Map Edge to Before (Lower)",
           "source_node_id": "blasted-steps/blasted-steps-map-edge#map-edge",
-          "target_node_id": "blasted-steps/blasted-steps-map-edge#before-map-edge",
+          "target_node_id": "blasted-steps/blasted-steps-map-edge#before-map-edge-lower",
           "requirement": {
             "raw": "Nothing",
             "mode": "none",
@@ -78696,10 +78660,10 @@
           "unresolved_reasons": []
         },
         {
-          "id": "blasted-steps/blasted-steps-map-edge#before-map-edge>map-edge@meb",
+          "id": "blasted-steps/blasted-steps-map-edge#before-map-edge-lower>map-edge@meb",
           "alias": "MEB",
-          "name": "Map Edge to Before",
-          "source_node_id": "blasted-steps/blasted-steps-map-edge#before-map-edge",
+          "name": "Map Edge to Before (Lower)",
+          "source_node_id": "blasted-steps/blasted-steps-map-edge#before-map-edge-lower",
           "target_node_id": "blasted-steps/blasted-steps-map-edge#map-edge",
           "requirement": {
             "raw": "Nothing",
@@ -78716,10 +78680,10 @@
           "unresolved_reasons": []
         },
         {
-          "id": "blasted-steps/blasted-steps-map-edge#before-map-edge>lace-bridge@blb",
+          "id": "blasted-steps/blasted-steps-map-edge#before-map-edge-lower>lace-bridge@blb",
           "alias": "BLB",
           "name": "Before to Lace Bridge",
-          "source_node_id": "blasted-steps/blasted-steps-map-edge#before-map-edge",
+          "source_node_id": "blasted-steps/blasted-steps-map-edge#before-map-edge-lower",
           "target_node_id": "blasted-steps/blasted-steps-map-edge#lace-bridge",
           "requirement": {
             "raw": "Nothing",
@@ -78736,13 +78700,146 @@
           "unresolved_reasons": []
         },
         {
-          "id": "blasted-steps/blasted-steps-map-edge#lace-bridge>before-map-edge@blb",
+          "id": "blasted-steps/blasted-steps-map-edge#lace-bridge>before-map-edge-lower@blb",
           "alias": "BLB",
           "name": "Before to Lace Bridge",
           "source_node_id": "blasted-steps/blasted-steps-map-edge#lace-bridge",
-          "target_node_id": "blasted-steps/blasted-steps-map-edge#before-map-edge",
+          "target_node_id": "blasted-steps/blasted-steps-map-edge#before-map-edge-lower",
           "requirement": {
             "raw": "Nothing",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "blasted-steps/blasted-steps-map-edge#before-map-edge-lower>before-map-edge-middle@elm",
+          "alias": "ELM",
+          "name": "Map Edge (Lower) to Middle",
+          "source_node_id": "blasted-steps/blasted-steps-map-edge#before-map-edge-lower",
+          "target_node_id": "blasted-steps/blasted-steps-map-edge#before-map-edge-middle",
+          "requirement": {
+            "raw": "Cling Grip OR Silk Soar OR Easy Scuttlebrace",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:cling-grip"
+              ],
+              [
+                "capability:silk-soar"
+              ],
+              [
+                "capability:scuttlebrace:easy"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "blasted-steps/blasted-steps-map-edge#before-map-edge-middle>before-map-edge-lower@elm",
+          "alias": "ELM",
+          "name": "Map Edge (Lower) to Middle",
+          "source_node_id": "blasted-steps/blasted-steps-map-edge#before-map-edge-middle",
+          "target_node_id": "blasted-steps/blasted-steps-map-edge#before-map-edge-lower",
+          "requirement": {
+            "raw": "Nothing (Fall)",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "blasted-steps/blasted-steps-map-edge#before-map-edge-middle>before-map-edge-top@emu",
+          "alias": "EMU",
+          "name": "Map Edge (Middle) to Upper",
+          "source_node_id": "blasted-steps/blasted-steps-map-edge#before-map-edge-middle",
+          "target_node_id": "blasted-steps/blasted-steps-map-edge#before-map-edge-top",
+          "requirement": {
+            "raw": "(Cling Grip AND (Spike Pogo OR Progressive Swift Step 1 OR Spike Pogo OR Drifter's Cloak OR Flea Brew OR Proficient Movement OR Sharpdart OR Clawline OR Easy Needle Strike Stall OR Easy Heal Stall)) OR Scuttlebrace OR Faydown",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:cling-grip",
+                "capability:spike-pogo"
+              ],
+              [
+                "capability:cling-grip",
+                "capability:sprint"
+              ],
+              [
+                "capability:cling-grip",
+                "capability:spike-pogo"
+              ],
+              [
+                "capability:cling-grip",
+                "capability:drifters-cloak"
+              ],
+              [
+                "capability:cling-grip",
+                "capability:flea-brew-jump"
+              ],
+              [
+                "capability:cling-grip",
+                "capability:proficient-movement"
+              ],
+              [
+                "capability:cling-grip",
+                "capability:sharpdart"
+              ],
+              [
+                "capability:cling-grip",
+                "capability:clawline"
+              ],
+              [
+                "capability:cling-grip",
+                "capability:needle-strike-stall:easy"
+              ],
+              [
+                "capability:cling-grip",
+                "capability:heal-stall:easy"
+              ],
+              [
+                "capability:scuttlebrace:none"
+              ],
+              [
+                "capability:faydown-cloak"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "blasted-steps/blasted-steps-map-edge#before-map-edge-top>before-map-edge-middle@emu",
+          "alias": "EMU",
+          "name": "Map Edge (Middle) to Upper",
+          "source_node_id": "blasted-steps/blasted-steps-map-edge#before-map-edge-top",
+          "target_node_id": "blasted-steps/blasted-steps-map-edge#before-map-edge-middle",
+          "requirement": {
+            "raw": "Nothing (Fall)",
             "mode": "none",
             "dnf": [
               []
@@ -78763,20 +78860,12 @@
           "in_game_id": null,
           "location_type": "lore",
           "has_persisted_state": false,
-          "node_id": "blasted-steps/blasted-steps-map-edge#before-map-edge",
+          "node_id": "blasted-steps/blasted-steps-map-edge#before-map-edge-middle",
           "requirement": {
-            "raw": "Cling Grip OR Easy Scuttlebrace OR Silk Soar",
-            "mode": "expression",
+            "raw": "Nothing",
+            "mode": "none",
             "dnf": [
-              [
-                "capability:cling-grip"
-              ],
-              [
-                "capability:scuttlebrace:easy"
-              ],
-              [
-                "capability:silk-soar"
-              ]
+              []
             ],
             "unresolved_reasons": []
           },
@@ -136307,16 +136396,45 @@
           "source_node_id": "the-slab/slab-bellway#room",
           "target": "the-slab/slab-infleatween-bottom@b",
           "requirement": {
-            "raw": "none",
-            "mode": "none",
+            "raw": "Cling Grip OR\nSilk Soar OR\nScuttlebrace OR\n(Faydown AND ((Proficient Movement AND Ledge Grab) OR (Flea Brew) OR (Easy Heal Stall OR Easy Flea Brew Stall) OR (Easy Shaman Crest Pogo)))",
+            "mode": "expression",
             "dnf": [
-              []
+              [
+                "capability:cling-grip"
+              ],
+              [
+                "capability:silk-soar"
+              ],
+              [
+                "capability:scuttlebrace:none"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:proficient-movement",
+                "capability:ledge-grab"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:flea-brew-jump"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:heal-stall:easy"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:flea-brew-stall:easy"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:shaman-crest-pogo:easy"
+              ]
             ],
             "unresolved_reasons": []
           },
           "notes": "",
           "is_todo": false,
-          "is_verified": null,
+          "is_verified": true,
           "logic_status": "active",
           "unresolved_reasons": []
         },

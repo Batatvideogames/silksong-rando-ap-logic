@@ -34914,7 +34914,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-25T03:53:10.3800196Z",
-          "updatedUtc": "2026-09-25T03:53:53.168084Z"
+          "updatedUtc": "2026-10-02T04:18:25.6367766Z"
         }
       ]
     },
@@ -71704,19 +71704,19 @@
         },
         {
           "id": "5cd8afe3-b7f0-475c-b5e7-ed9afb00df40",
-          "referenceId": "Before Map Edge",
-          "friendlyName": "Before Map Edge",
+          "referenceId": "Before Map Edge (Lower)",
+          "friendlyName": "Before Map Edge (Lower)",
           "notes": "",
-          "sceneUnitX": 249.56573767089844,
+          "sceneUnitX": 249.566,
           "sceneUnitY": 0,
-          "sceneUnitWidth": 103.01826232910156,
-          "sceneUnitHeight": 55,
+          "sceneUnitWidth": 103.018,
+          "sceneUnitHeight": 21.24,
           "enableAnnotation": true,
           "sortOrder": 1,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-18T19:08:36.0398659Z",
-          "updatedUtc": "2026-08-18T19:31:56.7093515Z"
+          "updatedUtc": "2026-10-01T21:59:52.8990986Z"
         },
         {
           "id": "8fdffd0b-6056-4fbf-9e7e-a1d00b30cacc",
@@ -71749,6 +71749,38 @@
           "archivedUtc": "2026-09-14T03:54:48.694014Z",
           "createdUtc": "2026-09-14T00:20:58.1813794Z",
           "updatedUtc": "2026-09-14T03:54:48.694014Z"
+        },
+        {
+          "id": "51ace960-0486-4839-ae0a-7f118f1b9c27",
+          "referenceId": "Before Map Edge (Middle)",
+          "friendlyName": "Before Map Edge (Middle)",
+          "notes": "",
+          "sceneUnitX": 249.566,
+          "sceneUnitY": 21.24,
+          "sceneUnitWidth": 103.018,
+          "sceneUnitHeight": 24.281000000000002,
+          "enableAnnotation": true,
+          "sortOrder": 3,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-10-01T21:58:57.8221912Z",
+          "updatedUtc": "2026-10-01T22:01:33.4293731Z"
+        },
+        {
+          "id": "41c47c6d-683c-4711-ae13-8d610c068a52",
+          "referenceId": "Before Map Edge (Top)",
+          "friendlyName": "Before Map Edge (Top)",
+          "notes": "",
+          "sceneUnitX": 249.566,
+          "sceneUnitY": 45.52052465820312,
+          "sceneUnitWidth": 103.018,
+          "sceneUnitHeight": 9.479475341796878,
+          "enableAnnotation": true,
+          "sortOrder": 4,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-10-01T21:59:23.8089091Z",
+          "updatedUtc": "2026-10-01T22:01:30.6463927Z"
         }
       ],
       "transitions": [
@@ -72144,10 +72176,10 @@
           "annotationSceneUnitX": 328,
           "annotationSceneUnitY": 55.5,
           "enableAnnotation": true,
-          "sourceSubroomReferenceText": "Before Map Edge",
+          "sourceSubroomReferenceText": "Before Map Edge (Top)",
           "destinationRoomReferenceText": "blasted steps toll bench bottom",
           "destinationTransitionAliasText": "BR",
-          "requirements": "(Cling Grip AND (Spike Pogo OR Progressive Swift Step 1 OR Faydown OR Spike Pogo OR Drifter\u0027s Cloak OR Flea Brew OR Proficient Movement OR Sharpdart OR Clawline OR Easy Needle Strike Stall OR Easy Heal Stall)) OR Scuttlebrace",
+          "requirements": "Nothing",
           "notes": "",
           "sortOrder": 14,
           "isTodo": false,
@@ -72155,7 +72187,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-18T08:45:21.2451402Z",
-          "updatedUtc": "2026-09-22T15:19:26.9748827Z"
+          "updatedUtc": "2026-10-01T22:17:51.7300678Z"
         },
         {
           "id": "334d90d0-59a9-4158-8657-ad979573c2b8",
@@ -72189,9 +72221,9 @@
         {
           "id": "b84a47fb-2f98-492d-92dd-aeb7d999edd3",
           "alias": "MEB",
-          "friendlyName": "Map Edge to Before",
+          "friendlyName": "Map Edge to Before (Lower)",
           "sourceSubroomReferenceText": "Map Edge",
-          "destinationSubroomReferenceText": "Before Map Edge",
+          "destinationSubroomReferenceText": "Before Map Edge (Lower)",
           "requirements": "Nothing",
           "notes": "",
           "enableAnnotation": true,
@@ -72203,13 +72235,13 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-18T21:49:11.440496Z",
-          "updatedUtc": "2026-08-25T18:16:20.26734Z"
+          "updatedUtc": "2026-10-01T22:02:29.3333014Z"
         },
         {
           "id": "72850e2c-75fd-4832-b16f-40596ce4a365",
           "alias": "MEB",
-          "friendlyName": "Map Edge to Before",
-          "sourceSubroomReferenceText": "Before Map Edge",
+          "friendlyName": "Map Edge to Before (Lower)",
+          "sourceSubroomReferenceText": "Before Map Edge (Lower)",
           "destinationSubroomReferenceText": "Map Edge",
           "requirements": "Nothing",
           "notes": "",
@@ -72222,13 +72254,13 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-18T21:49:45.8317795Z",
-          "updatedUtc": "2026-08-25T18:16:21.3892498Z"
+          "updatedUtc": "2026-10-01T22:02:39.7787394Z"
         },
         {
           "id": "902ad179-1c9d-459c-8c3c-17b1203d3fb3",
           "alias": "BLB",
           "friendlyName": "Before to Lace Bridge",
-          "sourceSubroomReferenceText": "Before Map Edge",
+          "sourceSubroomReferenceText": "Before Map Edge (Lower)",
           "destinationSubroomReferenceText": "Lace Bridge",
           "requirements": "Nothing",
           "notes": "",
@@ -72241,14 +72273,14 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-18T21:50:13.7730137Z",
-          "updatedUtc": "2026-08-25T18:16:22.2083006Z"
+          "updatedUtc": "2026-10-01T21:58:45.9060963Z"
         },
         {
           "id": "7d4f94e7-7755-49af-8af8-595dc35a1bc4",
           "alias": "BLB",
           "friendlyName": "Before to Lace Bridge",
           "sourceSubroomReferenceText": "Lace Bridge",
-          "destinationSubroomReferenceText": "Before Map Edge",
+          "destinationSubroomReferenceText": "Before Map Edge (Lower)",
           "requirements": "Nothing",
           "notes": "",
           "enableAnnotation": true,
@@ -72260,7 +72292,26 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-18T21:50:24.4123672Z",
-          "updatedUtc": "2026-08-25T18:16:22.9833074Z"
+          "updatedUtc": "2026-10-01T21:58:45.9060963Z"
+        },
+        {
+          "id": "1719c602-34fe-4b2c-9d14-bb1fe32889e0",
+          "alias": "ELM",
+          "friendlyName": "Map Edge (Lower) to Middle",
+          "sourceSubroomReferenceText": "Before Map Edge (Lower)",
+          "destinationSubroomReferenceText": "Before Map Edge (Middle)",
+          "requirements": "Cling Grip OR Silk Soar OR Easy Scuttlebrace",
+          "notes": "",
+          "enableAnnotation": true,
+          "sceneUnitX": 272.723876953125,
+          "sceneUnitY": 21.477807998657227,
+          "sortOrder": 4,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-10-01T22:01:56.8524803Z",
+          "updatedUtc": "2026-10-01T22:05:27.7951746Z"
         },
         {
           "id": "e7709718-dd47-4db3-abdf-6436d0028918",
@@ -72282,6 +72333,25 @@
           "updatedUtc": "2026-09-14T03:54:48.694014Z"
         },
         {
+          "id": "37991aa9-e4c7-4181-b1e5-f1efb7c9d120",
+          "alias": "ELM",
+          "friendlyName": "Map Edge (Lower) to Middle",
+          "sourceSubroomReferenceText": "Before Map Edge (Middle)",
+          "destinationSubroomReferenceText": "Before Map Edge (Lower)",
+          "requirements": "Nothing (Fall)",
+          "notes": "",
+          "enableAnnotation": true,
+          "sceneUnitX": 272.723876953125,
+          "sceneUnitY": 21.477807998657227,
+          "sortOrder": 5,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-10-01T22:04:37.8505841Z",
+          "updatedUtc": "2026-10-01T22:04:52.4621005Z"
+        },
+        {
           "id": "d1a06645-a7df-4b9d-bd9b-1aa88ebf1c50",
           "alias": "BBA",
           "friendlyName": "Below Bridge To Above",
@@ -72299,6 +72369,44 @@
           "archivedUtc": "2026-09-14T03:54:48.694014Z",
           "createdUtc": "2026-09-14T00:22:02.7620681Z",
           "updatedUtc": "2026-09-14T03:54:48.694014Z"
+        },
+        {
+          "id": "c71d4e51-054d-400f-bc57-0cdbbad16f24",
+          "alias": "EMU",
+          "friendlyName": "Map Edge (Middle) to Upper",
+          "sourceSubroomReferenceText": "Before Map Edge (Middle)",
+          "destinationSubroomReferenceText": "Before Map Edge (Top)",
+          "requirements": "(Cling Grip AND (Spike Pogo OR Progressive Swift Step 1 OR Spike Pogo OR Drifter\u0027s Cloak OR Flea Brew OR Proficient Movement OR Sharpdart OR Clawline OR Easy Needle Strike Stall OR Easy Heal Stall)) OR Scuttlebrace OR Faydown",
+          "notes": "",
+          "enableAnnotation": true,
+          "sceneUnitX": 338.7563781738281,
+          "sceneUnitY": 45.761043548583984,
+          "sortOrder": 6,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-10-01T22:03:32.4860428Z",
+          "updatedUtc": "2026-10-01T22:14:47.9649448Z"
+        },
+        {
+          "id": "4153ac69-f903-4a3f-a3fb-4a35de2f71d3",
+          "alias": "EMU",
+          "friendlyName": "Map Edge (Middle) to Upper",
+          "sourceSubroomReferenceText": "Before Map Edge (Top)",
+          "destinationSubroomReferenceText": "Before Map Edge (Middle)",
+          "requirements": "Nothing (Fall)",
+          "notes": "",
+          "enableAnnotation": true,
+          "sceneUnitX": 338.7563781738281,
+          "sceneUnitY": 45.761043548583984,
+          "sortOrder": 7,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-10-01T22:06:12.4685798Z",
+          "updatedUtc": "2026-10-01T22:11:49.223838Z"
         }
       ],
       "checks": [
@@ -72339,8 +72447,8 @@
           "localPositionZ": null,
           "annotationSceneUnitX": 299.0801696777344,
           "annotationSceneUnitY": 34.24483108520508,
-          "subroomReferenceText": "Before Map Edge",
-          "requirements": "Cling Grip OR Easy Scuttlebrace OR Silk Soar",
+          "subroomReferenceText": "Before Map Edge (Middle)",
+          "requirements": "Nothing",
           "notes": "",
           "locationType": "lore",
           "enableAnnotation": true,
@@ -72350,7 +72458,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-12T05:04:16.514948Z",
-          "updatedUtc": "2026-09-12T05:11:49.8831472Z"
+          "updatedUtc": "2026-10-01T21:59:46.5532502Z"
         }
       ]
     },
@@ -91270,15 +91378,15 @@
           "sourceSubroomReferenceText": null,
           "destinationRoomReferenceText": "slab infleatween bottom",
           "destinationTransitionAliasText": "B",
-          "requirements": "none",
+          "requirements": "Cling Grip OR\nSilk Soar OR\nScuttlebrace OR\n(Faydown AND ((Proficient Movement AND Ledge Grab) OR (Flea Brew) OR (Easy Heal Stall OR Easy Flea Brew Stall) OR (Easy Shaman Crest Pogo)))",
           "notes": "",
           "sortOrder": 0,
           "isTodo": false,
-          "isVerified": null,
+          "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-21T14:00:51.9070266Z",
-          "updatedUtc": "2026-08-21T14:02:18.1240696Z"
+          "updatedUtc": "2026-10-01T18:51:45.9230364Z"
         },
         {
           "id": "5d4ab8d2-2917-4a47-8255-b17bd4a8d16b",
@@ -119592,8 +119700,8 @@
           "localPositionX": null,
           "localPositionY": null,
           "localPositionZ": null,
-          "annotationSceneUnitX": null,
-          "annotationSceneUnitY": null,
+          "annotationSceneUnitX": 87.63445281982422,
+          "annotationSceneUnitY": 6.138339519500732,
           "subroomReferenceText": "boss room",
           "requirements": "silkspear",
           "notes": "only silkspear works here",
@@ -119605,7 +119713,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-02T20:49:50.4927449Z",
-          "updatedUtc": "2026-09-16T02:23:13.9767068Z"
+          "updatedUtc": "2026-10-02T02:50:36.2359876Z"
         },
         {
           "id": "be03f25e-1be7-47f0-b79c-861ac6131a4e",
