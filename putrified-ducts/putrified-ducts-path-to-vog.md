@@ -26,8 +26,8 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | VA | Vine Acsent | Main | Top | ( Clawline AND ( Cling Grip OR ( Drifters Cloak AND ( Faydown Cloak OR Dash ) ) )  ) |  | Verified | ✓ |  |
 | VA | Vine Acsent | Top | Main | Clawline AND Faydown Cloak |  | Verified | ✓ |  |
-| TC | Thorn Crossing | Main | Camp | ( Faydown Cloak AND ( easy Hunter Crest pogo OR Swim OR easy Reaper Crest pogo OR easy Beast Crest pogo OR easy Architect Crest pogo OR Sprint OR Dash OR ( Ledge Grab AND Hard Heal Stall) ) ) OR Sharpdart OR Clawline OR Drifters Cloak OR ( Sprint AND Dash ) |  | Verified |  |  |
-| TC | Thorn Crossing | Camp | Main | ( Faydown Cloak AND ( easy Hunter Crest pogo OR Swim OR easy Reaper Crest pogo OR easy Beast Crest pogo OR easy Architect Crest pogo OR Sprint OR Dash OR ( Ledge Grab AND Hard heal stall ) ) ) OR Sharpdart OR Clawline OR Drifters Cloak OR ( Sprint AND Dash ) |  | Verified |  |  |
+| TC | Thorn Crossing | Main | Camp | ( Faydown Cloak AND ( easy Hunter Crest pogo OR Swim OR easy Reaper Crest pogo OR easy Beast Crest pogo OR easy Architect Crest pogo OR Sprint OR Dash OR ( Ledge Grab AND Hard Heal Stall) ) ) OR Sharpdart OR Clawline OR Drifters Cloak OR ( Sprint AND Dash ) |  | Verified | ✓ |  |
+| TC | Thorn Crossing | Camp | Main | ( Faydown Cloak AND ( easy Hunter Crest pogo OR Swim OR easy Reaper Crest pogo OR easy Beast Crest pogo OR easy Architect Crest pogo OR Sprint OR Dash OR ( Ledge Grab AND Hard heal stall ) ) ) OR Sharpdart OR Clawline OR Drifters Cloak OR ( Sprint AND Dash ) |  | Verified | ✓ |  |
 
 ## Check Locations
 

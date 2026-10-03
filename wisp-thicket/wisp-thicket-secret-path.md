@@ -35,12 +35,12 @@
 
 ### Connections
 
-[![Connections for Wisp Thicket Secret Path (Wisp_05)](../00-annotations/whisp-thicket/wisp-thicket-secret-path-connections.png)](../00-annotations/whisp-thicket/wisp-thicket-secret-path-connections.png)
+[![Connections for Wisp Thicket Secret Path (Wisp_05)](../00-annotations/wisp-thicket/wisp-thicket-secret-path-connections.png)](../00-annotations/wisp-thicket/wisp-thicket-secret-path-connections.png)
 
 ### Checks
 
-[![Checks for Wisp Thicket Secret Path (Wisp_05)](../00-annotations/whisp-thicket/wisp-thicket-secret-path-checks.png)](../00-annotations/whisp-thicket/wisp-thicket-secret-path-checks.png)
+[![Checks for Wisp Thicket Secret Path (Wisp_05)](../00-annotations/wisp-thicket/wisp-thicket-secret-path-checks.png)](../00-annotations/wisp-thicket/wisp-thicket-secret-path-checks.png)
 
 ### Scene
 
-[![Scene for Wisp Thicket Secret Path (Wisp_05)](../00-annotations/whisp-thicket/wisp-thicket-secret-path-scene.png)](../00-annotations/whisp-thicket/wisp-thicket-secret-path-scene.png)
+[![Scene for Wisp Thicket Secret Path (Wisp_05)](../00-annotations/wisp-thicket/wisp-thicket-secret-path-scene.png)](../00-annotations/wisp-thicket/wisp-thicket-secret-path-scene.png)

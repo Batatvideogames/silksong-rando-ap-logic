@@ -45,19 +45,21 @@
 | BR | BL to LR | Lowest Hallway | Upper Low Hallway | Silk Soar OR Easy Enemy Pogo OR Clawline OR Ledge Grab OR Faydown Cloak OR Sprint OR Cling Grip OR Scuttlebrace |  | Verified | ✓ |  |
 | CR | Collect Rosaries | Lever | Rosary Dish | Sprint OR Dash OR Clawline OR Drifter's Cloak OR Faydown Cloak OR Cling Grip OR Scuttlebrace OR Sharpdart OR Easy Beast Crest Pogo OR Easy Architect Crest Pogo OR Easy Needle Strike Stall (Beast OR Architect) |  | Verified | ✓ |  |
 | PR | Progresion! | Left Side Shaft | Lever | Silk Soar OR Cling Grip OR Scuttlebrace |  | Verified | ✓ |  |
-| MP | More Progression! | Lever | Upper Platform | Activate Whispering Vaults: Flip Switch #8 AND (Silk Soar OR Cling Grip OR Scuttlebrace OR (Faydown Cloak AND (Ledge Grab OR Easy Shaman Crest Pogo))) |  | Verified | ✓ |  |
+| LMH | Lever <> Middle Hallway | Lever | Middle Hallway | ledge Grab OR Cling Grip OR Faydown Cloak OR Silk Soar OR Scuttlebrace |  | Verified |  |  |
+| LMH | Lever <> Middle Hallway | Middle Hallway | Lever | Nothing (Fall) |  | Verified |  |  |
+| MP | More Progression! | Middle Hallway | Upper Platform | (Silk Soar OR Cling Grip OR Scuttlebrace OR (Activate Whispering Vaults: Flip Switch #8 AND Faydown Cloak AND (Ledge Grab OR Easy Shaman Crest Pogo))) |  | Verified | ✓ |  |
+| MP | More Progression! | Upper Platform | Middle Hallway | Silk Soar OR Cling Grip OR Scuttlebrace |  | Verified | ✓ | accounting for the fact the player may not have activated the shortcut |
 | EMP | Even More Progression! | Upper Platform | Distant Platform | Silk Soar OR ((Cling Grip OR Scuttlebrace) AND (Faydown Cloak OR (Clawline AND (Sprint OR Dash OR Drifter's Cloak) AND Ledge Grab))) |  | Verified | ✓ |  |
 | LP | Last Push! | Distant Platform | Top Hallway | Silk Soar OR Cling Grip OR Scuttlebrace |  | Verified | ✓ |  |
 | MT | Map Time! | Top Hallway | Map Room | Activate Whispering Vaults: Flip Switch #9 AND (Silk Soar OR Cling Grip OR (Scuttlebrace AND (Easy Enemy Pogo/ OR Faydown Cloak))) |  | Verified | ✓ |  |
 | MT | Map Time! | Map Room | Top Hallway | Nothing (fall) |  | Verified | ✓ |  |
 | LP | Last Push! | Top Hallway | Distant Platform | Nothing (Fall) |  | Verified | ✓ |  |
 | EMP | Even More Progression! | Distant Platform | Upper Platform | Activate Whispering Vaults: Flip Switch #7 |  | Verified | ✓ |  |
-| MP | More Progression! | Upper Platform | Lever | Silk Soar OR Cling Grip OR Scuttlebrace |  | Verified | ✓ | accounting for the fact the player may not have activated the shortcut |
 | PR | Progresion! | Lever | Left Side Shaft | Nothing (Fall) |  | Verified | ✓ |  |
 | BR | BL to LR | Upper Low Hallway | Lowest Hallway | Nothing (Fall) |  | Verified | ✓ |  |
 | A1 | Ascent 1 | Lowest Hallway | Ground | Nothing (Fall) |  | Verified | ✓ |  |
-| US | Unlock Shortcut | Middle Hallway | Shortcut Box | Ledge Grab OR Cling Grip OR Scuttlebrace OR Faydown Cloak OR Clawline |  | Verified | ✓ | Opens Shortcut |
-| US2 | Use Shortcut | Shortcut Box | Middle Hallway | Activate Hell Room Box Shortcut Thing |  | Verified |  |  |
+| SC | Shortcut | Middle Hallway | Shortcut Box | Activate Hell Room Box Shortcut Thing AND (Ledge Grab OR Cling Grip OR Scuttlebrace OR Faydown Cloak OR Clawline) |  | Verified | ✓ | Opens Shortcut |
+| SC | Shortcut | Shortcut Box | Middle Hallway | Activate Hell Room Box Shortcut Thing |  | Verified | ✓ |  |
 
 ## Check Locations
 
@@ -69,7 +71,7 @@
 | 4 | Map: Whispering Vaults | Map Room | Nothing |  | Verified | collectible | ✓ |  |
 | 5 | Whispering Vaults: Break Wall #5 (Up) | Map Room | Nothing |  | Verified | blockade | ✓ |  |
 | 6 | Whispering Vaults: Rosary Dish #3 | Rosary Dish | Nothing |  | Verified | resource | ✓ |  |
-| 7 | Hell Room Box Shortcut thing. | Shortcut Box | Break Wall Right |  | Verified | logic-point |  | not a proper check, for logic documentation only. |
+| 7 | Hell Room Box Shortcut thing. | Shortcut Box | Break Wall Right |  | Verified | logic-point | ✓ | not a proper check, for logic documentation only. |
 
 ## Room Images
 

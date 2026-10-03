@@ -11,6 +11,7 @@
 | S1 | bellway | ✓ |
 | S2 | hidden area | ✓ |
 | S3 | right exit area | ✓ |
+| S4 | thorn path | ✓ |
 
 ## Room Transitions
 
@@ -26,8 +27,10 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | HP | hidden pathway | bellway | hidden area | unlock bellway rosary lock |  | Verified | ✓ |  |
 | HP | hidden pathway | hidden area | bellway | unlock bellway rosary lock |  | Verified | ✓ |  |
-| TP | thorn path | hidden area | right exit area | ( silk soar AND ( ledge grab OR cling grip OR scuttlebrace ) )  OR ( faydown cloak AND cling grip )  OR ( break blast rock down AND drifter's cloak AND ( cling grip OR scuttlebrace ) ) |  | Verified | ✓ |  |
-| TP | thorn path | right exit area | hidden area | silk soar OR drifter's cloak |  | Verified | ✓ |  |
+| LT | thorn path left | hidden area | thorn path | ( silk soar AND ( ledge grab OR cling grip OR scuttlebrace ) )  OR ( faydown cloak AND (scuttlebrace OR cling grip ) ) OR ( break blast rock down AND drifter's cloak AND ( cling grip OR scuttlebrace ) ) |  | Verified | ✓ |  |
+| TP | thorn path right | right exit area | thorn path | silk soar OR drifter's cloak |  | Verified | ✓ |  |
+| LT | thorn path left | thorn path | hidden area | none |  | Verified | ✓ |  |
+| TP | thorn path right | thorn path | right exit area | none (fall) |  | Verified | ✓ |  |
 
 ## Check Locations
 
@@ -38,6 +41,9 @@
 | 3 | bellway rosary lock | bellway | none |  | Verified | lock | ✓ |  |
 | 4 | bellway far fields | bellway | unlock bellway rosary lock |  | Verified | travel |  |  |
 | 5 | Craw Summons | bellway | craw summons ready |  | Verified | collectible |  |  |
+| 6 | vicious caranid 1 | thorn path | none |  | Verified | enemy | ✓ | shell shards |
+| 7 | vicious caranid 2 | thorn path | none |  | Verified | enemy | ✓ | shell shards |
+| 8 | vicious caranid 3 | thorn path | none |  | Verified | enemy | ✓ | shell shards |
 
 ## Room Images
 

@@ -24,9 +24,9 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| BS | Big Slide | Upper Entrance | Lower Exit | None |  | Verified |  | One Way Slide |
-| MM | Mask Maker Path | Lower Exit | Mask Maker Path | Enemy Pogo AND Cling Grip AND Faydown Cloak |  | Verified |  |  |
-| MM | Mask Maker Path | Mask Maker Path | Lower Exit | None |  | Verified |  |  |
+| BS | Big Slide | Upper Entrance | Lower Exit | None |  | Verified | ✓ | One Way Slide |
+| MM | Mask Maker Path | Lower Exit | Mask Maker Path | Enemy Pogo AND Cling Grip AND Faydown Cloak |  | Verified | ✓ |  |
+| MM | Mask Maker Path | Mask Maker Path | Lower Exit | None |  | Verified | ✓ |  |
 
 ## Check Locations
 

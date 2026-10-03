@@ -9,10 +9,11 @@
 | No. | Subroom | Annotated |
 | --- | --- | --- |
 | S1 | Top | ✓ |
-| S2 | Bottom | ✓ |
+| S2 | Bottom Left | ✓ |
 | S3 | Arena | ✓ |
 | S4 | Bottom Right | ✓ |
 | S5 | Blocks | ✓ |
+| S6 | Bottom | ✓ |
 
 ## Room Transitions
 
@@ -20,8 +21,8 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | TL | left2 | Top | [Rotating Tunnel (Song_20b)](../choral-chambers/rotating-tunnel.md) | R1 | Nothing. |  | Verified | ✓ |  |
 | TR | right2 | Top | [Songclave (Song_Enclave)](../choral-chambers/songclave.md) | BL | Nothing. |  | Verified | ✓ |  |
-| BL | left1 | Bottom | [Rotating Tunnel (Song_20b)](../choral-chambers/rotating-tunnel.md) | RH | Nothing. |  | Verified | ✓ |  |
-| BR | right1 | Bottom | [Whispering Vaults Flea Shaft (Library_01)](whispering-vaults-flea-shaft.md) | TL | Nothing. |  | Verified | ✓ |  |
+| BL | left1 | Bottom Left | [Rotating Tunnel (Song_20b)](../choral-chambers/rotating-tunnel.md) | RH | Nothing. |  | Verified | ✓ |  |
+| BR | right1 | Bottom Right | [Whispering Vaults Flea Shaft (Library_01)](whispering-vaults-flea-shaft.md) | TL | Nothing. |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
@@ -31,6 +32,8 @@
 | RV | Right Vertical | Bottom Right | Arena | Silk Soar OR Cling Grip OR (Scuttlebrace AND Faydown Cloak) |  | Verified | ✓ |  |
 | LV | Left Vertical | Arena | Blocks | Spike Pogo OR Proficient Movement (Easy Box Pogo) OR Clawline OR Faydown Cloak OR Drifter's Cloak OR Sharpdart |  | Verified | ✓ |  |
 | RV | Right Vertical | Arena | Bottom Right | Nothing. (Fall) |  | Verified | ✓ |  |
+| IV | Invalid | Top | Bottom | Invalid |  | Verified | ✓ |  |
+| IV | Invalid | Bottom | Top | Invalid |  | Verified | ✓ |  |
 
 ## Check Locations
 

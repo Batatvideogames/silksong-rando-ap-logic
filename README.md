@@ -136,7 +136,7 @@ Generated from the non-archived records in `input/silksong-rando-logic.db`.
 - [Far Fields Skull Room West (Bone_East_14)](./far-fields/far-fields-skull-room-west.md)
 - [Far Fields Skull Room East (Bone_East_14b)](./far-fields/far-fields-skull-room-east.md)
 - [Far Fields Skull Arena (Bone_East_LavaChallenge)](./far-fields/far-fields-skull-arena.md)
-- [Weavenest Cindril Entrance (Bone_East_Weavehome)](./far-fields/weavenest-cindril-entrance.md)
+- [Weavenest Cindril (Bone_East_Weavehome)](./far-fields/weavenest-cindril.md)
 - [Far Fields Deep Entrance (Bone_East_24)](./far-fields/far-fields-deep-entrance.md)
 - [Far Fields Deep Lower East (Bone_East_18b)](./far-fields/far-fields-deep-lower-east.md)
 - [Far Fields Pilgrim's Rest Deep Passage (Bone_East_18c)](./far-fields/far-fields-pilgrim-s-rest-deep-passage.md)
@@ -240,15 +240,15 @@ Generated from the non-archived records in `input/silksong-rando-logic.db`.
 - [Greymoor Yarnaby Room (Belltown_Room_doctor)](./greymoor/greymoor-yarnaby-room.md)
 - [Halfway Home Cellar (Ant_08)](./greymoor/halfway-home-cellar.md)
 
-## Whisp Thicket
+## Wisp Thicket
 
-- [Eastern Wisp Thicket (Wisp_07)](./whisp-thicket/eastern-wisp-thicket.md)
-- [Wisp Thicket Shaft (Wisp_08)](./whisp-thicket/wisp-thicket-shaft.md)
-- [Wisp Thicket Bench (Wisp_04)](./whisp-thicket/wisp-thicket-bench.md)
-- [Wisp Thicket Grounds (Wisp_02)](./whisp-thicket/wisp-thicket-grounds.md)
-- [Father of the Flame (Belltown_08)](./whisp-thicket/father-of-the-flame.md)
-- [Wisp Thicket Secret Path (Wisp_05)](./whisp-thicket/wisp-thicket-secret-path.md)
-- [Wisp Thicket Cave (Wisp_09)](./whisp-thicket/wisp-thicket-cave.md)
+- [Eastern Wisp Thicket (Wisp_07)](./wisp-thicket/eastern-wisp-thicket.md)
+- [Wisp Thicket Shaft (Wisp_08)](./wisp-thicket/wisp-thicket-shaft.md)
+- [Wisp Thicket Bench (Wisp_04)](./wisp-thicket/wisp-thicket-bench.md)
+- [Wisp Thicket Grounds (Wisp_02)](./wisp-thicket/wisp-thicket-grounds.md)
+- [Father of the Flame (Belltown_08)](./wisp-thicket/father-of-the-flame.md)
+- [Wisp Thicket Secret Path (Wisp_05)](./wisp-thicket/wisp-thicket-secret-path.md)
+- [Wisp Thicket Cave (Wisp_09)](./wisp-thicket/wisp-thicket-cave.md)
 
 ## Verdania
 

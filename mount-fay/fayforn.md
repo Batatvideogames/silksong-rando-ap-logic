@@ -28,13 +28,13 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| WT | Wind Tunnel Acsent | Lower Entrance | Fayforn | Drifters Cloak AND ( Cling Grip OR Scuttlebrace OR Silk Soar ) |  | Verified |  |  |
-| WT2 | Wind TUnnel 2 | Lower Entrance | Left Exit | Drifters Cloak AND ( Cling Grip OR Scuttlebrace OR Silk Soar ) |  | Verified |  |  |
-| DR1 | Drop 1 | Fayforn | Bench Entrance | None |  | Verified |  |  |
-| DR1 | Drop 1 | Bench Entrance | Fayforn | Silk Soar OR ( Cling Grip AND Faydown Cloak ) |  | Verified |  |  |
-| DR2 | Drop 2 | Bench Entrance | Drop | None |  | Verified |  |  |
-| CR | Crossing | Left Exit | Fayforn | Drifters Cloak |  | Verified |  |  |
-| CR | Crossing | Fayforn | Left Exit | Dash OR Sprint OR Drifters Cloak OR Faydown Cloak OR Clawline OR Sharpdart OR Easy Beast Crest Pogo |  | Verified |  |  |
+| WT | Wind Tunnel Acsent | Lower Entrance | Fayforn | Drifters Cloak AND ( Cling Grip OR Scuttlebrace OR Silk Soar ) |  | Verified | ✓ |  |
+| WT2 | Wind TUnnel 2 | Lower Entrance | Left Exit | Drifters Cloak AND ( Cling Grip OR Scuttlebrace OR Silk Soar ) |  | Verified | ✓ |  |
+| DR1 | Drop 1 | Fayforn | Bench Entrance | None |  | Verified | ✓ |  |
+| DR1 | Drop 1 | Bench Entrance | Fayforn | Silk Soar OR ( Cling Grip AND Faydown Cloak ) |  | Verified | ✓ |  |
+| DR2 | Drop 2 | Bench Entrance | Drop | None |  | Verified | ✓ |  |
+| CR | Crossing | Left Exit | Fayforn | Drifters Cloak |  | Verified | ✓ |  |
+| CR | Crossing | Fayforn | Left Exit | Dash OR Sprint OR Drifters Cloak OR Faydown Cloak OR Clawline OR Sharpdart OR Easy Beast Crest Pogo |  | Verified | ✓ |  |
 
 ## Check Locations
 

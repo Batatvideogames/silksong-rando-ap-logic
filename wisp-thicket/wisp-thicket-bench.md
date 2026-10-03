@@ -44,12 +44,12 @@
 
 ### Connections
 
-[![Connections for Wisp Thicket Bench (Wisp_04)](../00-annotations/whisp-thicket/wisp-thicket-bench-connections.png)](../00-annotations/whisp-thicket/wisp-thicket-bench-connections.png)
+[![Connections for Wisp Thicket Bench (Wisp_04)](../00-annotations/wisp-thicket/wisp-thicket-bench-connections.png)](../00-annotations/wisp-thicket/wisp-thicket-bench-connections.png)
 
 ### Checks
 
-[![Checks for Wisp Thicket Bench (Wisp_04)](../00-annotations/whisp-thicket/wisp-thicket-bench-checks.png)](../00-annotations/whisp-thicket/wisp-thicket-bench-checks.png)
+[![Checks for Wisp Thicket Bench (Wisp_04)](../00-annotations/wisp-thicket/wisp-thicket-bench-checks.png)](../00-annotations/wisp-thicket/wisp-thicket-bench-checks.png)
 
 ### Scene
 
-[![Scene for Wisp Thicket Bench (Wisp_04)](../00-annotations/whisp-thicket/wisp-thicket-bench-scene.png)](../00-annotations/whisp-thicket/wisp-thicket-bench-scene.png)
+[![Scene for Wisp Thicket Bench (Wisp_04)](../00-annotations/wisp-thicket/wisp-thicket-bench-scene.png)](../00-annotations/wisp-thicket/wisp-thicket-bench-scene.png)

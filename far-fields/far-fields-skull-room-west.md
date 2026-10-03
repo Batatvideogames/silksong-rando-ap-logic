@@ -30,13 +30,13 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | LBR | left blast rock | lower left exit area | main floor | clear lower left blast rock blockade |  | Verified | ✓ |  |
 | LBR | left blast rock | main floor | lower left exit area | clear lower left blast rock blockade |  | Verified | ✓ |  |
-| V1 | vertical 1 | main floor | upper left exit area | ledge grab OR silk soar OR easy shaman pogo OR drifter's cloak OR faydown cloak OR cling grip OR clawline OR scuttlebrace |  | Verified | ✓ |  |
+| V1 | vertical 1 | main floor | upper left exit area | ledge grab OR silk soar OR (easy enemy pogo AND (easy beast pogo OR easy shaman pogo OR architect slash left OR easy architect needle strike OR easy wanderer needle strike OR easy beast needle strike)) OR drifter's cloak OR faydown cloak OR cling grip OR clawline OR scuttlebrace OR run OR dash |  | Verified | ✓ |  |
 | V1 | vertical 1 | upper left exit area | main floor | clear upper left blast rock blockade |  | Verified | ✓ |  |
 | V2 | vertical 2 | main floor | relic alcove | clear upper left blast rock blockade AND ( drifter's cloak OR silk soar ) |  | Verified | ✓ |  |
 | V2 | vertical 2 | relic alcove | main floor | none (falling) |  | Verified | ✓ |  |
 | V3 | vertical 3 | main floor | rosary alcove | drifter's cloak OR faydown cloak OR silk soar OR ( ledge grab AND ( run OR dash OR easy beast pogo OR cling grip OR clawline OR sharpdart OR scuttlebrace ) ) |  | Verified | ✓ |  |
 | V3 | vertical 3 | rosary alcove | main floor | none (falling) |  | Verified | ✓ |  |
-| V4 | vertical 4 | main floor | bone bridge | clear spine break blast rock AND ( faydown cloak OR silk soar OR ledge grab ) |  | Verified | ✓ |  |
+| V4 | vertical 4 | main floor | bone bridge | clear spine break blast rock AND ( faydown cloak OR silk soar OR ledge grab OR cling grip ) |  | Verified | ✓ |  |
 | V4 | vertical 4 | bone bridge | main floor | clear spine break blast rock |  | Verified | ✓ |  |
 
 ## Check Locations
@@ -47,12 +47,22 @@
 | 2 | relic bone scroll far fields | relic alcove | none |  | Verified | collectible | ✓ |  |
 | 3 | rosary cache far fields 5 | rosary alcove | none |  | Verified | collectible | ✓ |  |
 | 4 | rosary cache far fields 6 | rosary alcove | none |  | Verified | collectible | ✓ |  |
-| 5 | hoker enemy | main floor | none |  | Verified | enemy |  | used to farm flexible spines |
+| 5 | hoker enemy | main floor | none |  | Verified | enemy | ✓ | used to farm flexible spines |
 | 6 | spine break blast rock | bone bridge | break blast rock up |  | Verified | blockade |  |  |
 | 7 | lower left blast rock blockade | lower left exit area | break blast rock right |  | Verified | blockade |  |  |
-| 8 | upper left blast rock blockade | upper left exit area | break blast rock left |  | Verified | blockade |  |  |
-| 9 | Resting Site Far Fields | bone bridge | complete THE a vassal lost wish promised |  | Verified | event | ✓ |  |
+| 8 | Resting Site Far Fields | bone bridge | complete THE a vassal lost wish promised |  | Verified | event | ✓ |  |
+| 9 | upper left blast rock blockade | upper left exit area | break blast rock left |  | Verified | blockade |  |  |
 | 10 | Garmond and Zaza Act 3 Meeting Far Fields East | main floor | Act 3 |  | Verified | event | ✓ |  |
+| 11 | shardillard | bone bridge | none |  | Verified | enemy |  | shell shards, hunter's journal |
+| 12 | fertid | bone bridge | none |  | Verified | enemy |  | shell shards |
+| 13 | winged pilgrim | main floor | none |  | Verified | enemy | ✓ | rosaries, can be farmed for pilgrim shawls |
+| 14 | pilgrim groveller | main floor | none |  | Verified | enemy | ✓ | rosaries, can be farmed for pilgrim shawls |
+| 15 | hoker 2 | main floor | none |  | Verified | enemy | ✓ | used to farm flexible spines |
+| 16 | pilgrim pouncer | main floor | none |  | Verified | enemy | ✓ | rosaries, can be farmed for pilgrim shawls |
+| 17 | pilgrim pouncer 2 | rosary alcove | none |  | Verified | enemy | ✓ | rosaries, can be farmed for pilgrim shawls |
+| 18 | fertid 2 | upper left exit area | none |  | Verified | enemy | ✓ | shell shards |
+| 19 | hoker 3 | rosary alcove | none |  | Verified | enemy | ✓ | used to farm flexible spines |
+| 20 | pilgrim groveller 2 | rosary alcove | none |  | Verified | enemy | ✓ | rosaries, can be farmed for pilgrim shawls |
 
 ## Room Images
 

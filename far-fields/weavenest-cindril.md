@@ -1,4 +1,4 @@
-# Weavenest Cindril Entrance (Bone_East_Weavehome)
+# Weavenest Cindril (Bone_East_Weavehome)
 
 **Game ID:** Bone_East_Weavehome
 
@@ -28,21 +28,23 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | silkspeed anklets | entrance | run OR ( easy beast pogo AND proficient movement ) |  | Verified | collectible | ✓ | archipelago contribution that you can get the anklets without run |
+| 1 | silkspeed anklets | entrance | run  OR (  proficient movement AND ( architect slash [right] OR easy hunter pogo OR easy beast pogo )  ) |  | Verified | collectible | ✓ |  |
 | 2 | relic rune harp weavenest cindril | secret room | none |  | Verified | collectible | ✓ |  |
 | 3 | map of paths away from pharloom | secret room | none |  | Verified | lore | ✓ |  |
 | 4 | secret room lock | entrance | run AND silkspeed anklets AND flea brew speed |  | Verified | lock | ✓ |  |
+| 5 | wvnest cindil bench | entrance | none |  | Verified | bench | ✓ |  |
+| 6 | servitor ignim | entrance | needle [up] |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 
 ### Connections
 
-[![Connections for Weavenest Cindril Entrance (Bone_East_Weavehome)](../00-annotations/far-fields/weavenest-cindril-entrance-connections.png)](../00-annotations/far-fields/weavenest-cindril-entrance-connections.png)
+[![Connections for Weavenest Cindril (Bone_East_Weavehome)](../00-annotations/far-fields/weavenest-cindril-connections.png)](../00-annotations/far-fields/weavenest-cindril-connections.png)
 
 ### Checks
 
-[![Checks for Weavenest Cindril Entrance (Bone_East_Weavehome)](../00-annotations/far-fields/weavenest-cindril-entrance-checks.png)](../00-annotations/far-fields/weavenest-cindril-entrance-checks.png)
+[![Checks for Weavenest Cindril (Bone_East_Weavehome)](../00-annotations/far-fields/weavenest-cindril-checks.png)](../00-annotations/far-fields/weavenest-cindril-checks.png)
 
 ### Scene
 
-[![Scene for Weavenest Cindril Entrance (Bone_East_Weavehome)](../00-annotations/far-fields/weavenest-cindril-entrance-scene.png)](../00-annotations/far-fields/weavenest-cindril-entrance-scene.png)
+[![Scene for Weavenest Cindril (Bone_East_Weavehome)](../00-annotations/far-fields/weavenest-cindril-scene.png)](../00-annotations/far-fields/weavenest-cindril-scene.png)

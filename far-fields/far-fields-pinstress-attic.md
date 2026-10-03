@@ -35,6 +35,9 @@
 | 1 | rosary cache far field 3 | upper right area | none |  | Verified | collectible |  |  |
 | 2 | rosary cache far field 4 | upper right area | none |  | Verified | collectible |  |  |
 | 3 | blast rock exit block | bottom left area | break blast rock down |  | Verified | blockade |  |  |
+| 4 | vicious caranid 1 | bottom left area | none |  | Verified | enemy | ✓ | shell shards |
+| 5 | caranid | bottom left area | none |  | Verified | enemy | ✓ | shell shards |
+| 6 | vicious caranid 2 | upper right area | none |  | Verified | enemy | ✓ | shell shards |
 
 ## Room Images
 

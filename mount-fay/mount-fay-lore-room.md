@@ -12,7 +12,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 |  | [Mount Fay Shakra (Peak_02)](mount-fay-shakra.md) | LL | None |  | Verified |  |  |
+| R | right1 |  | [Mount Fay Shakra (Peak_02)](mount-fay-shakra.md) | LL | None |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
@@ -26,4 +26,14 @@ No subroom connections defined.
 
 ## Room Images
 
-Scene image unavailable.
+### Connections
+
+[![Connections for Mount Fay Lore Room (Peak_10)](../00-annotations/mount-fay/mount-fay-lore-room-connections.png)](../00-annotations/mount-fay/mount-fay-lore-room-connections.png)
+
+### Checks
+
+[![Checks for Mount Fay Lore Room (Peak_10)](../00-annotations/mount-fay/mount-fay-lore-room-checks.png)](../00-annotations/mount-fay/mount-fay-lore-room-checks.png)
+
+### Scene
+
+[![Scene for Mount Fay Lore Room (Peak_10)](../00-annotations/mount-fay/mount-fay-lore-room-scene.png)](../00-annotations/mount-fay/mount-fay-lore-room-scene.png)

@@ -35,7 +35,7 @@
 | BL | boss left entrance | boss arena | lower left side | none |  | Verified | ✓ |  |
 | BR | boss right entrance | lower right side | boss arena | none |  | Verified | ✓ | no boss defeat passthrough requirement |
 | BR | boss right entrance | boss arena | lower right side | none |  | Verified | ✓ |  |
-| V3 | vertical 3 | lower right side | upper right alcove | drifter's cloak OR ( silk soar AND ( scuttlebrace OR ( cling grip AND ( faydown cloak OR dash OR clawline OR sharpdart ) ) ) ) |  | Verified | ✓ |  |
+| V3 | vertical 3 | lower right side | upper right alcove | drifter's cloak OR ( (silk soar OR faydown cloak) AND ( scuttlebrace OR cling grip)) |  | Verified | ✓ |  |
 | V3 | vertical 3 | upper right alcove | lower right side | none (falling) |  | Verified | ✓ |  |
 
 ## Check Locations

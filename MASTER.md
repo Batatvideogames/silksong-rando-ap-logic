@@ -4734,7 +4734,7 @@ No subroom connections defined.
 | BL | boss left entrance | boss arena | lower left side | none |  | Verified | ✓ |  |
 | BR | boss right entrance | lower right side | boss arena | none |  | Verified | ✓ | no boss defeat passthrough requirement |
 | BR | boss right entrance | boss arena | lower right side | none |  | Verified | ✓ |  |
-| V3 | vertical 3 | lower right side | upper right alcove | drifter's cloak OR ( silk soar AND ( scuttlebrace OR ( cling grip AND ( faydown cloak OR dash OR clawline OR sharpdart ) ) ) ) |  | Verified | ✓ |  |
+| V3 | vertical 3 | lower right side | upper right alcove | drifter's cloak OR ( (silk soar OR faydown cloak) AND ( scuttlebrace OR cling grip)) |  | Verified | ✓ |  |
 | V3 | vertical 3 | upper right alcove | lower right side | none (falling) |  | Verified | ✓ |  |
 
 #### Check Locations
@@ -4788,6 +4788,9 @@ No subroom connections defined.
 | 1 | rosary cache far field 3 | upper right area | none |  | Verified | collectible |  |  |
 | 2 | rosary cache far field 4 | upper right area | none |  | Verified | collectible |  |  |
 | 3 | blast rock exit block | bottom left area | break blast rock down |  | Verified | blockade |  |  |
+| 4 | vicious caranid 1 | bottom left area | none |  | Verified | enemy | ✓ | shell shards |
+| 5 | caranid | bottom left area | none |  | Verified | enemy | ✓ | shell shards |
+| 6 | vicious caranid 2 | upper right area | none |  | Verified | enemy | ✓ | shell shards |
 
 <a name="room-far-fields--far-fields-pinstress-room"></a>
 
@@ -4828,18 +4831,18 @@ No subroom connections defined.
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | LBA | left basin access | lower left exit area | lava basin | none (falling) |  | Verified | ✓ |  |
-| LBA | left basin access | lava basin | lower left exit area | ledge grab OR drifter's cloak OR faydown cloak OR silk soar OR scuttlebrace OR easy shaman pogo |  | Verified | ✓ |  |
+| LBA | left basin access | lava basin | lower left exit area | ledge grab OR drifter's cloak OR faydown cloak OR silk soar OR scuttlebrace OR (easy shaman pogo AND (flea brew OR run OR clawline)) OR (easy beast pogo AND easy flea brew stall) OR easy beast needle strike |  | Verified | ✓ |  |
 | RBA | right basin access | upper right exit area | lava basin | none |  | Verified | ✓ | actually none both ways - not even ledge grab |
 | RBA | right basin access | lava basin | upper right exit area | none |  | Verified | ✓ | actually none both ways - not even ledge grab |
 | LRA | lower right access | upper right exit area | lower right exit area | none (falling) |  | Verified | ✓ |  |
 | LRA | lower right access | lower right exit area | upper right exit area | cling grip OR drifter's cloak |  | Verified | ✓ |  |
-| RHA | right hut access | upper right exit area | pinstress hut platform | ledge grab OR drifter's cloak OR faydown cloak OR cling grip OR scuttlebrace OR clawline |  | Verified | ✓ |  |
+| RHA | right hut access | upper right exit area | pinstress hut platform | ledge grab OR drifter's cloak OR faydown cloak OR cling grip OR scuttlebrace OR clawline OR easy beast pogo OR flea brew |  | Verified | ✓ |  |
 | RHA | right hut access | pinstress hut platform | upper right exit area | none (falling) |  | Verified | ✓ |  |
 | HA | hut ascend | lava basin | pinstress hut platform | drifter's cloak OR silk soar |  | Verified | ✓ |  |
 | HA | hut ascend | pinstress hut platform | lava basin | none (falling) |  | Verified | ✓ |  |
-| ULA | upper left ascend | lower left exit area | upper left exit area | silk soar |  | Verified | ✓ |  |
+| ULA | upper left ascend | lower left exit area | upper left exit area | silk soar OR (cling grip AND clawline AND easy flea brew stall) |  | Verified | ✓ |  |
 | ULA | upper left ascend | upper left exit area | lower left exit area | none (falling) |  | Verified | ✓ |  |
-| URC | upper right crossing | upper right exit area | ceiling wind tunnel | ( drifter's cloak AND break blast rock down ) OR ( cling grip AND faydown cloak AND clawline ) |  | Verified | ✓ | maybe someone else try to find other options? |
+| URC | upper right crossing | upper right exit area | ceiling wind tunnel | ( drifter's cloak AND break blast rock down ) OR ( cling grip AND faydown cloak AND clawline ) OR (silk soar AND (scuttlebrace OR faydown cloak)) |  | Verified | ✓ | maybe someone else try to find other options? |
 | CWA | ceiling wind ascend | ceiling wind tunnel | ceiling exit area | silk soar OR ( break blast rock down AND drifter's cloak ) |  | Verified | ✓ |  |
 | CWA | ceiling wind ascend | ceiling exit area | ceiling wind tunnel | none (falling) |  | Verified | ✓ |  |
 | F1 | fall 1 | ceiling wind tunnel | pinstress hut platform | none (falling) |  | Verified | ✓ |  |
@@ -4848,7 +4851,12 @@ No subroom connections defined.
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | caranid | lava basin | none |  | Verified | enemy | ✓ | shell shards |
+| 2 | caranid 2 | lava basin | none |  | Verified | enemy | ✓ | shell shards |
+| 3 | vicious caranid | lava basin | none |  | Verified | enemy | ✓ | shell shards |
+| 4 | fertid | lower left exit area | none |  | Verified | enemy | ✓ | shell shards |
 
 <a name="room-far-fields--far-fields-pinstress-hut-interior"></a>
 
@@ -4880,7 +4888,7 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | bench |  | none |  | Verified | bench | ✓ |  |
 | 2 | flexible spines wish promised |  | none |  | Verified | event |  |  |
-| 3 | flexible spines wish granted |  | complete flexible spines wish promised AND ( flexible spines 25  OR defeat hoker enemy IN far fields skull room west OR defeat hoker enemy IN far fields skull room east ) |  | Verified | event |  | wasn't sure which made more sense here - the former is more accurate, but the latter is more logic complete |
+| 3 | flexible spines wish granted |  | complete flexible spines wish promised AND flexible spines 25 |  | Verified | event |  |  |
 | 4 | drifters cloak |  | complete flexible spines wish granted |  | Verified | collectible |  |  |
 
 <a name="room-far-fields--far-fields-pinstress-mask-shard"></a>
@@ -4899,6 +4907,7 @@ No subroom connections defined.
 | --- | --- | --- |
 | S1 | right side | ✓ |
 | S2 | left side | ✓ |
+| S3 | left side tunnel | ✓ |
 
 #### Room Transitions
 
@@ -4910,15 +4919,20 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| TC | thorn crossing | right side | left side | clawline OR ( drifter's cloak AND ( ledge grab OR silk soar ) ) |  | Verified | ✓ |  |
-| TC | thorn crossing | left side | right side | drifter's cloak OR ( clawline AND ( silk soar OR faydown cloak OR run ) ) |  | Verified | ✓ |  |
+| TC | thorn crossing | right side | left side | clawline OR ( drifter's cloak AND ( ledge grab OR silk soar ) ) OR (faydown cloak AND ((drifter's cloak AND proficient movement) OR (dash AND (easy flea brew stall OR easy voltvessels stall)))) |  | Verified | ✓ |  |
+| TC | thorn crossing | left side | right side | (clear vent boulder 2 AND drifter's cloak) OR ( clawline AND ( silk soar OR faydown cloak OR run ) ) OR (faydown cloak AND (drifter's cloak OR (dash AND (easy flea brew stall OR easy voltvessels stall)))) |  | Verified | ✓ |  |
+| TT | thorn crossing tunnel | left side | left side tunnel | none (falling) |  | Verified | ✓ |  |
+| TT | thorn crossing tunnel | left side tunnel | left side | (faydown cloak AND ledge grab) OR cling grip OR scuttlebrace OR silk soar OR (clear vent boulder 1 AND drifter's cloak) |  | Verified | ✓ |  |
 
 #### Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | mask shard far fields above the seamstress | left side | drifter's cloak OR silk soar OR faydown cloak |  | Verified | collectible |  | must break blast rock on ceiling - this likely has a large number of tool options - haven't really considered this here |
+| 1 | mask shard far fields above the seamstress | left side | drifter's cloak OR silk soar OR faydown cloak |  | Verified | collectible | ✓ | must break blast rock on ceiling - this likely has a large number of tool options - haven't really considered this here |
 | 2 | random silk | left side | none |  | Verified | resource |  | NOT YET RANDOMIZED |
+| 3 | fertid | left side | none |  | Verified | enemy | ✓ | shell shards |
+| 4 | vent boulder 1 | left side tunnel | none (attack) |  | Verified | blockade | ✓ | must be broken to return escape tunnel with drifter's cloak |
+| 5 | vent boulder 2 | left side tunnel | none (attack) |  | Verified | blockade | ✓ | must be broken to return to right side using drifter's cloak |
 
 <a name="room-far-fields--far-fields-target-practice"></a>
 
@@ -5001,6 +5015,7 @@ No subroom connections defined.
 | S1 | bellway | ✓ |
 | S2 | hidden area | ✓ |
 | S3 | right exit area | ✓ |
+| S4 | thorn path | ✓ |
 
 #### Room Transitions
 
@@ -5016,8 +5031,10 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | HP | hidden pathway | bellway | hidden area | unlock bellway rosary lock |  | Verified | ✓ |  |
 | HP | hidden pathway | hidden area | bellway | unlock bellway rosary lock |  | Verified | ✓ |  |
-| TP | thorn path | hidden area | right exit area | ( silk soar AND ( ledge grab OR cling grip OR scuttlebrace ) )  OR ( faydown cloak AND cling grip )  OR ( break blast rock down AND drifter's cloak AND ( cling grip OR scuttlebrace ) ) |  | Verified | ✓ |  |
-| TP | thorn path | right exit area | hidden area | silk soar OR drifter's cloak |  | Verified | ✓ |  |
+| LT | thorn path left | hidden area | thorn path | ( silk soar AND ( ledge grab OR cling grip OR scuttlebrace ) )  OR ( faydown cloak AND (scuttlebrace OR cling grip ) ) OR ( break blast rock down AND drifter's cloak AND ( cling grip OR scuttlebrace ) ) |  | Verified | ✓ |  |
+| TP | thorn path right | right exit area | thorn path | silk soar OR drifter's cloak |  | Verified | ✓ |  |
+| LT | thorn path left | thorn path | hidden area | none |  | Verified | ✓ |  |
+| TP | thorn path right | thorn path | right exit area | none (fall) |  | Verified | ✓ |  |
 
 #### Check Locations
 
@@ -5028,6 +5045,9 @@ No subroom connections defined.
 | 3 | bellway rosary lock | bellway | none |  | Verified | lock | ✓ |  |
 | 4 | bellway far fields | bellway | unlock bellway rosary lock |  | Verified | travel |  |  |
 | 5 | Craw Summons | bellway | craw summons ready |  | Verified | collectible |  |  |
+| 6 | vicious caranid 1 | thorn path | none |  | Verified | enemy | ✓ | shell shards |
+| 7 | vicious caranid 2 | thorn path | none |  | Verified | enemy | ✓ | shell shards |
+| 8 | vicious caranid 3 | thorn path | none |  | Verified | enemy | ✓ | shell shards |
 
 <a name="room-far-fields--far-fields-deep-docks-loopback"></a>
 
@@ -5154,13 +5174,13 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | LBR | left blast rock | lower left exit area | main floor | clear lower left blast rock blockade |  | Verified | ✓ |  |
 | LBR | left blast rock | main floor | lower left exit area | clear lower left blast rock blockade |  | Verified | ✓ |  |
-| V1 | vertical 1 | main floor | upper left exit area | ledge grab OR silk soar OR easy shaman pogo OR drifter's cloak OR faydown cloak OR cling grip OR clawline OR scuttlebrace |  | Verified | ✓ |  |
+| V1 | vertical 1 | main floor | upper left exit area | ledge grab OR silk soar OR (easy enemy pogo AND (easy beast pogo OR easy shaman pogo OR architect slash left OR easy architect needle strike OR easy wanderer needle strike OR easy beast needle strike)) OR drifter's cloak OR faydown cloak OR cling grip OR clawline OR scuttlebrace OR run OR dash |  | Verified | ✓ |  |
 | V1 | vertical 1 | upper left exit area | main floor | clear upper left blast rock blockade |  | Verified | ✓ |  |
 | V2 | vertical 2 | main floor | relic alcove | clear upper left blast rock blockade AND ( drifter's cloak OR silk soar ) |  | Verified | ✓ |  |
 | V2 | vertical 2 | relic alcove | main floor | none (falling) |  | Verified | ✓ |  |
 | V3 | vertical 3 | main floor | rosary alcove | drifter's cloak OR faydown cloak OR silk soar OR ( ledge grab AND ( run OR dash OR easy beast pogo OR cling grip OR clawline OR sharpdart OR scuttlebrace ) ) |  | Verified | ✓ |  |
 | V3 | vertical 3 | rosary alcove | main floor | none (falling) |  | Verified | ✓ |  |
-| V4 | vertical 4 | main floor | bone bridge | clear spine break blast rock AND ( faydown cloak OR silk soar OR ledge grab ) |  | Verified | ✓ |  |
+| V4 | vertical 4 | main floor | bone bridge | clear spine break blast rock AND ( faydown cloak OR silk soar OR ledge grab OR cling grip ) |  | Verified | ✓ |  |
 | V4 | vertical 4 | bone bridge | main floor | clear spine break blast rock |  | Verified | ✓ |  |
 
 #### Check Locations
@@ -5171,12 +5191,22 @@ No subroom connections defined.
 | 2 | relic bone scroll far fields | relic alcove | none |  | Verified | collectible | ✓ |  |
 | 3 | rosary cache far fields 5 | rosary alcove | none |  | Verified | collectible | ✓ |  |
 | 4 | rosary cache far fields 6 | rosary alcove | none |  | Verified | collectible | ✓ |  |
-| 5 | hoker enemy | main floor | none |  | Verified | enemy |  | used to farm flexible spines |
+| 5 | hoker enemy | main floor | none |  | Verified | enemy | ✓ | used to farm flexible spines |
 | 6 | spine break blast rock | bone bridge | break blast rock up |  | Verified | blockade |  |  |
 | 7 | lower left blast rock blockade | lower left exit area | break blast rock right |  | Verified | blockade |  |  |
-| 8 | upper left blast rock blockade | upper left exit area | break blast rock left |  | Verified | blockade |  |  |
-| 9 | Resting Site Far Fields | bone bridge | complete THE a vassal lost wish promised |  | Verified | event | ✓ |  |
+| 8 | Resting Site Far Fields | bone bridge | complete THE a vassal lost wish promised |  | Verified | event | ✓ |  |
+| 9 | upper left blast rock blockade | upper left exit area | break blast rock left |  | Verified | blockade |  |  |
 | 10 | Garmond and Zaza Act 3 Meeting Far Fields East | main floor | Act 3 |  | Verified | event | ✓ |  |
+| 11 | shardillard | bone bridge | none |  | Verified | enemy |  | shell shards, hunter's journal |
+| 12 | fertid | bone bridge | none |  | Verified | enemy |  | shell shards |
+| 13 | winged pilgrim | main floor | none |  | Verified | enemy | ✓ | rosaries, can be farmed for pilgrim shawls |
+| 14 | pilgrim groveller | main floor | none |  | Verified | enemy | ✓ | rosaries, can be farmed for pilgrim shawls |
+| 15 | hoker 2 | main floor | none |  | Verified | enemy | ✓ | used to farm flexible spines |
+| 16 | pilgrim pouncer | main floor | none |  | Verified | enemy | ✓ | rosaries, can be farmed for pilgrim shawls |
+| 17 | pilgrim pouncer 2 | rosary alcove | none |  | Verified | enemy | ✓ | rosaries, can be farmed for pilgrim shawls |
+| 18 | fertid 2 | upper left exit area | none |  | Verified | enemy | ✓ | shell shards |
+| 19 | hoker 3 | rosary alcove | none |  | Verified | enemy | ✓ | used to farm flexible spines |
+| 20 | pilgrim groveller 2 | rosary alcove | none |  | Verified | enemy | ✓ | rosaries, can be farmed for pilgrim shawls |
 
 <a name="room-far-fields--far-fields-skull-room-east"></a>
 
@@ -5207,7 +5237,7 @@ No subroom connections defined.
 | UL | left1 | upper left exit area | [Far Fields Skull Room West (Bone_East_14)](#room-far-fields--far-fields-skull-room-west) | UR | none |  | Verified | ✓ |  |
 | LL | left2 | main floor | [Far Fields Skull Room West (Bone_East_14)](#room-far-fields--far-fields-skull-room-west) | LR | none |  | Verified | ✓ |  |
 | D | door1 | skull platform | [Far Fields Skull Arena (Bone_East_LavaChallenge)](#room-far-fields--far-fields-skull-arena) | L | none |  | Verified | ✓ |  |
-| R | right1 | weavenest platform | [Weavenest Cindril Entrance (Bone_East_Weavehome)](#room-far-fields--weavenest-cindril-entrance) | L | needolin |  | Verified | ✓ |  |
+| R | right1 | weavenest platform | [Weavenest Cindril (Bone_East_Weavehome)](#room-far-fields--weavenest-cindril) | L | needolin |  | Verified | ✓ |  |
 
 #### Subroom Connections
 
@@ -5215,11 +5245,11 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | G1 | gap 1 | main floor | weavenest platform | run OR dash OR easy beast pogo OR drifters cloak OR faydown cloak OR clawline OR sharpdart OR scuttlebrace |  | Verified | ✓ |  |
 | G1 | gap 1 | weavenest platform | main floor | run OR dash OR easy beast pogo OR drifters cloak OR faydown cloak OR clawline OR sharpdart OR scuttlebrace |  | Verified | ✓ |  |
-| V1 | vertical 1 | main floor | skull platform | silk soar OR ( clawline AND ( cling grip OR faydown cloak ) ) OR ( ledge grab AND run AND dash AND faydown cloak ) |  | Verified | ✓ |  |
+| V1 | vertical 1 | main floor | skull platform | silk soar OR (faydown cloak AND (clawline OR cling grip OR ledge grab OR sharpdart x 2 OR (easy flea brew stall AND scuttlebrace) OR (dash AND easy beast needle strike AND easy beast pogo))) OR (run AND proficient movement AND (faydown cloak AND (drifter's cloak OR sharpdart OR (flea brew AND (easy beast pogo OR (easy architect needle strike AND architect slash right)))))) OR (run AND clawline AND ledge grab) |  | Verified | ✓ |  |
 | V1 | vertical 1 | skull platform | main floor | none (falling) |  | Verified | ✓ |  |
-| V2 | vertical 2 | main floor | rosary platform | silk soar OR faydown cloak OR ( ledge grab AND ( run OR dash OR drifter's cloak OR clawline OR sharpdart ) ) |  | Verified | ✓ |  |
+| V2 | vertical 2 | main floor | rosary platform | silk soar OR faydown cloak OR ( ledge grab AND ( run OR dash OR drifter's cloak OR clawline OR sharpdart ) ) OR cling grip |  | Verified | ✓ |  |
 | V2 | vertical 2 | rosary platform | main floor | none (falling) |  | Verified | ✓ |  |
-| V3 | vertical 3 | main floor | upper passage | ledge grab OR silk soar OR faydown cloak |  | Verified | ✓ | might be missing options here |
+| V3 | vertical 3 | main floor | upper passage | ledge grab OR silk soar OR faydown cloak OR cling grip |  | Verified | ✓ | might be missing options here |
 | V3 | vertical 3 | upper passage | main floor | none (falling) |  | Verified | ✓ |  |
 | UC | upper crossing | upper passage | upper left exit area | ledge grab OR spike pogo OR run OR dash OR drifter's cloak OR faydown cloak OR clawline OR sharpdart OR scuttlebrace |  | Verified | ✓ |  |
 | UC | upper crossing | upper left exit area | upper passage | ledge grab OR spike pogo OR run OR dash OR drifter's cloak OR faydown cloak OR clawline OR sharpdart OR scuttlebrace |  | Verified | ✓ |  |
@@ -5232,8 +5262,19 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | rosary cache far fields 7 | rosary platform | none |  | Verified | collectible | ✓ |  |
 | 2 | rosary cache far fields 8 | rosary platform | none |  | Verified | collectible | ✓ |  |
-| 3 | hoker enemy | main floor | none (attack enemy up) |  | Verified | enemy |  | used to farm flexible spines |
-| 4 | Mister Mushroom Meeting Far Fields | herald platform | after THE Mister Mushroom Meeting Bone Bottom AND Needolin |  | Verified | event | ✓ |  |
+| 3 | Mister Mushroom Meeting Far Fields | herald platform | after THE Mister Mushroom Meeting Bone Bottom AND Needolin |  | Verified | event | ✓ |  |
+| 4 | hoker | main floor | none (attack enemy up) |  | Verified | enemy | ✓ | shell shards, used to farm flexible spines, does not respawn (?) |
+| 5 | pilgrim hornfly | main floor | none |  | Verified | enemy | ✓ | rosaries, can be farmed for pilgrim shawls |
+| 6 | pilgrim hulk | main floor | none |  | Verified | enemy | ✓ | rosaries, can be farmed for pilgrim shawls |
+| 7 | fertid | main floor | none |  | Verified | enemy | ✓ | shell shards |
+| 8 | fertid 2 | main floor | none |  | Verified | enemy | ✓ | shell shards |
+| 9 | pilgrim hulk 2 | rosary platform | none |  | Verified | enemy | ✓ | rosaries, can be farmed for pilgrim shawls |
+| 10 | hoker 2 | upper passage | none |  | Verified | enemy | ✓ | shell shards, used to farm flexible spines |
+| 11 | hoker 3 | upper passage | none |  | Verified | enemy | ✓ | shell shards, used to farm flexible spines |
+| 12 | hoker 4 | upper left exit area | none |  | Verified | enemy | ✓ | shell shards, used to farm flexible spines |
+| 13 | fertid 3 | upper left exit area | none |  | Verified | enemy | ✓ | shell shards |
+| 14 | tarmite 1 | skull platform | none |  | Verified | enemy | ✓ | shell shards, spawns after skull arena gauntlet cleared and succesfully escaped lava ascent |
+| 15 | tarmite 2 | skull platform | none |  | Verified | enemy | ✓ | shells shard, spawns after skull arena guantlet cleared and succesfully escaped lava ascent |
 
 <a name="room-far-fields--far-fields-skull-arena"></a>
 
@@ -5286,11 +5327,11 @@ modeled this area as:
 entrance <-> crossing <-> check alcove <-> crossing -> arena -> mask alcove -> entrance 
 the arena to mask shard connections are one-way so the full requirement chain is enforced
 
-<a name="room-far-fields--weavenest-cindril-entrance"></a>
+<a name="room-far-fields--weavenest-cindril"></a>
 
-### Weavenest Cindril Entrance (Bone_East_Weavehome)
+### Weavenest Cindril (Bone_East_Weavehome)
 
-[View Room Page](./far-fields/weavenest-cindril-entrance.md)
+[View Room Page](./far-fields/weavenest-cindril.md)
 
 **Game ID:** Bone_East_Weavehome
 
@@ -5320,10 +5361,12 @@ the arena to mask shard connections are one-way so the full requirement chain is
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | silkspeed anklets | entrance | run OR ( easy beast pogo AND proficient movement ) |  | Verified | collectible | ✓ | archipelago contribution that you can get the anklets without run |
+| 1 | silkspeed anklets | entrance | run  OR (  proficient movement AND ( architect slash [right] OR easy hunter pogo OR easy beast pogo )  ) |  | Verified | collectible | ✓ |  |
 | 2 | relic rune harp weavenest cindril | secret room | none |  | Verified | collectible | ✓ |  |
 | 3 | map of paths away from pharloom | secret room | none |  | Verified | lore | ✓ |  |
 | 4 | secret room lock | entrance | run AND silkspeed anklets AND flea brew speed |  | Verified | lock | ✓ |  |
+| 5 | wvnest cindil bench | entrance | none |  | Verified | bench | ✓ |  |
+| 6 | servitor ignim | entrance | needle [up] |  | Verified | enemy | ✓ |  |
 
 <a name="room-far-fields--far-fields-deep-entrance"></a>
 
@@ -8270,7 +8313,7 @@ No subroom connections defined.
 | YP | Yanarby Path | upper spike wheel | [Yarnaby Place (Wisp_03)](#room-greymoor--yarnaby-place) | R | none |  | Verified | ✓ |  |
 | GR | garmon room | lower spike wheel | [Greymoor Towers Patio (Greymoor_05)](#room-greymoor--greymoor-towers-patio) | ML | none |  | Verified | ✓ |  |
 | UR | upper right | whisp thicket entrance | [Greymoor Upper Towers Path (Greymoor_11)](#room-greymoor--greymoor-upper-towers-path) | U | none |  | Verified | ✓ |  |
-| T | Top | whisp thicket entrance | [Wisp Thicket Bench (Wisp_04)](#room-whisp-thicket--wisp-thicket-bench) | B | faydown cloak |  | Verified | ✓ |  |
+| T | Top | whisp thicket entrance | [Wisp Thicket Bench (Wisp_04)](#room-wisp-thicket--wisp-thicket-bench) | B | faydown cloak |  | Verified | ✓ |  |
 
 #### Subroom Connections
 
@@ -9251,13 +9294,13 @@ No subroom connections defined.
 | 1 | Halfway Home Gauntlet |  | silk soar OR cling grip OR (faydown cloak AND ledge grab) |  | Verified | gauntlet | ✓ | completing the gauntlet requires defeating all enemies stationed across the room |
 | 2 | vintage nectar |  | complete Halfway Home Gauntlet |  | Verified | event | ✓ |  |
 
-## Whisp Thicket
+## Wisp Thicket
 
-<a name="room-whisp-thicket--eastern-wisp-thicket"></a>
+<a name="room-wisp-thicket--eastern-wisp-thicket"></a>
 
 ### Eastern Wisp Thicket (Wisp_07)
 
-[View Room Page](./whisp-thicket/eastern-wisp-thicket.md)
+[View Room Page](./wisp-thicket/eastern-wisp-thicket.md)
 
 **Game ID:** Wisp_07
 
@@ -9271,7 +9314,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Wisp Thicket Shaft (Wisp_08)](#room-whisp-thicket--wisp-thicket-shaft) | R | none |  | Verified | ✓ |  |
+| L | left1 |  | [Wisp Thicket Shaft (Wisp_08)](#room-wisp-thicket--wisp-thicket-shaft) | R | none |  | Verified | ✓ |  |
 
 #### Subroom Connections
 
@@ -9283,11 +9326,11 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Mask Shard: Wisp Thicket |  | cling grip AND (clawline OR (faydown cloak AND spike pogo)) |  | Verified | collectible |  |  |
 
-<a name="room-whisp-thicket--wisp-thicket-shaft"></a>
+<a name="room-wisp-thicket--wisp-thicket-shaft"></a>
 
 ### Wisp Thicket Shaft (Wisp_08)
 
-[View Room Page](./whisp-thicket/wisp-thicket-shaft.md)
+[View Room Page](./wisp-thicket/wisp-thicket-shaft.md)
 
 **Game ID:** Wisp_08
 
@@ -9305,8 +9348,8 @@ No subroom connections defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 | Bottom | [Wisp Thicket Bench (Wisp_04)](#room-whisp-thicket--wisp-thicket-bench) | R | none |  |  | ✓ |  |
-| R | right1 | Right | [Eastern Wisp Thicket (Wisp_07)](#room-whisp-thicket--eastern-wisp-thicket) | L | none |  |  | ✓ |  |
+| L | left1 | Bottom | [Wisp Thicket Bench (Wisp_04)](#room-wisp-thicket--wisp-thicket-bench) | R | none |  |  | ✓ |  |
+| R | right1 | Right | [Eastern Wisp Thicket (Wisp_07)](#room-wisp-thicket--eastern-wisp-thicket) | L | none |  |  | ✓ |  |
 
 #### Subroom Connections
 
@@ -9321,11 +9364,11 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Relic: Bone Scroll (Wisp Thicket) | Top | none |  |  | collectible |  |  |
 
-<a name="room-whisp-thicket--wisp-thicket-bench"></a>
+<a name="room-wisp-thicket--wisp-thicket-bench"></a>
 
 ### Wisp Thicket Bench (Wisp_04)
 
-[View Room Page](./whisp-thicket/wisp-thicket-bench.md)
+[View Room Page](./wisp-thicket/wisp-thicket-bench.md)
 
 **Game ID:** Wisp_04
 
@@ -9345,8 +9388,8 @@ No subroom connections defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 | Left | [Wisp Thicket Grounds (Wisp_02)](#room-whisp-thicket--wisp-thicket-grounds) | R | none |  |  | ✓ |  |
-| R | right1 | Bench | [Wisp Thicket Shaft (Wisp_08)](#room-whisp-thicket--wisp-thicket-shaft) | L | none |  |  | ✓ |  |
+| L | left1 | Left | [Wisp Thicket Grounds (Wisp_02)](#room-wisp-thicket--wisp-thicket-grounds) | R | none |  |  | ✓ |  |
+| R | right1 | Bench | [Wisp Thicket Shaft (Wisp_08)](#room-wisp-thicket--wisp-thicket-shaft) | L | none |  |  | ✓ |  |
 | B | bot1 | Bottom | [Greymoor Western Tower (Greymoor_06)](#room-greymoor--greymoor-western-tower) | T | none |  |  | ✓ |  |
 
 #### Subroom Connections
@@ -9367,11 +9410,11 @@ No subroom connections defined.
 | 1 | Bench | Bench | none |  | Verified | bench |  |  |
 | 2 | Craw Summons | Bench | Craw Summons Ready |  | Verified | collectible |  |  |
 
-<a name="room-whisp-thicket--wisp-thicket-grounds"></a>
+<a name="room-wisp-thicket--wisp-thicket-grounds"></a>
 
 ### Wisp Thicket Grounds (Wisp_02)
 
-[View Room Page](./whisp-thicket/wisp-thicket-grounds.md)
+[View Room Page](./wisp-thicket/wisp-thicket-grounds.md)
 
 **Game ID:** Wisp_02
 
@@ -9385,9 +9428,9 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| T | top1 |  | [Wisp Thicket Secret Path (Wisp_05)](#room-whisp-thicket--wisp-thicket-secret-path) | B | silk soar OR cling grip |  |  | ✓ |  |
-| R | right1 |  | [Wisp Thicket Bench (Wisp_04)](#room-whisp-thicket--wisp-thicket-bench) | L | none |  |  | ✓ |  |
-| L | left1 |  | [Father of the Flame (Belltown_08)](#room-whisp-thicket--father-of-the-flame) | R | ledge grab OR faydown cloak OR silk soar |  |  | ✓ |  |
+| T | top1 |  | [Wisp Thicket Secret Path (Wisp_05)](#room-wisp-thicket--wisp-thicket-secret-path) | B | silk soar OR cling grip |  |  | ✓ |  |
+| R | right1 |  | [Wisp Thicket Bench (Wisp_04)](#room-wisp-thicket--wisp-thicket-bench) | L | none |  |  | ✓ |  |
+| L | left1 |  | [Father of the Flame (Belltown_08)](#room-wisp-thicket--father-of-the-flame) | R | ledge grab OR faydown cloak OR silk soar |  |  | ✓ |  |
 
 #### Subroom Connections
 
@@ -9399,11 +9442,11 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Rosary Necklace: Wisp Thicket |  | silk soar OR cling grip |  |  | collectible |  |  |
 
-<a name="room-whisp-thicket--father-of-the-flame"></a>
+<a name="room-wisp-thicket--father-of-the-flame"></a>
 
 ### Father of the Flame (Belltown_08)
 
-[View Room Page](./whisp-thicket/father-of-the-flame.md)
+[View Room Page](./wisp-thicket/father-of-the-flame.md)
 
 **Game ID:** Belltown_08
 
@@ -9417,7 +9460,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 |  | [Wisp Thicket Grounds (Wisp_02)](#room-whisp-thicket--wisp-thicket-grounds) | L | none |  |  |  |  |
+| R | right1 |  | [Wisp Thicket Grounds (Wisp_02)](#room-wisp-thicket--wisp-thicket-grounds) | L | none |  |  |  |  |
 
 #### Subroom Connections
 
@@ -9430,11 +9473,11 @@ No subroom connections defined.
 | 1 | Wispfire Lantern |  | faydown cloak | TODO |  | collectible |  | You can defeat the boss naked... but maybe something is "recommended" |
 | 2 | Boss: Father of the Flame |  | faydown cloak | TODO |  | boss |  | You can defeat the boss naked... but maybe something is "recommended" |
 
-<a name="room-whisp-thicket--wisp-thicket-secret-path"></a>
+<a name="room-wisp-thicket--wisp-thicket-secret-path"></a>
 
 ### Wisp Thicket Secret Path (Wisp_05)
 
-[View Room Page](./whisp-thicket/wisp-thicket-secret-path.md)
+[View Room Page](./wisp-thicket/wisp-thicket-secret-path.md)
 
 **Game ID:** Wisp_05
 
@@ -9451,8 +9494,8 @@ No subroom connections defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| B | bot1 | Bottom | [Wisp Thicket Grounds (Wisp_02)](#room-whisp-thicket--wisp-thicket-grounds) | T | none |  |  | ✓ |  |
-| L | left1 | Top | [Wisp Thicket Cave (Wisp_09)](#room-whisp-thicket--wisp-thicket-cave) | R | none |  |  | ✓ |  |
+| B | bot1 | Bottom | [Wisp Thicket Grounds (Wisp_02)](#room-wisp-thicket--wisp-thicket-grounds) | T | none |  |  | ✓ |  |
+| L | left1 | Top | [Wisp Thicket Cave (Wisp_09)](#room-wisp-thicket--wisp-thicket-cave) | R | none |  |  | ✓ |  |
 
 #### Subroom Connections
 
@@ -9467,11 +9510,11 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Craftmetal: Wisp Thicket | Top | none |  |  | collectible |  |  |
 
-<a name="room-whisp-thicket--wisp-thicket-cave"></a>
+<a name="room-wisp-thicket--wisp-thicket-cave"></a>
 
 ### Wisp Thicket Cave (Wisp_09)
 
-[View Room Page](./whisp-thicket/wisp-thicket-cave.md)
+[View Room Page](./wisp-thicket/wisp-thicket-cave.md)
 
 **Game ID:** Wisp_09
 
@@ -9485,7 +9528,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 |  | [Wisp Thicket Secret Path (Wisp_05)](#room-whisp-thicket--wisp-thicket-secret-path) | L | spike pogo OR clawline OR drifter's cloak OR (faydown cloak AND dash) |  |  | ✓ |  |
+| R | right1 |  | [Wisp Thicket Secret Path (Wisp_05)](#room-wisp-thicket--wisp-thicket-secret-path) | L | spike pogo OR clawline OR drifter's cloak OR (faydown cloak AND dash) |  |  | ✓ |  |
 | T | top1 |  | [Underworks Wisp Thicket Passage (Under_23)](#room-underworks--underworks-wisp-thicket-passage) | B | faydown cloak |  |  | ✓ |  |
 
 #### Subroom Connections
@@ -12428,7 +12471,7 @@ No subrooms defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | R | right1 |  | [Underworks Central Shaft (Under_05)](#room-underworks--underworks-central-shaft) | WT | cling grip AND dash | TODO |  | ✓ |  |
-| B | bot1 |  | [Wisp Thicket Cave (Wisp_09)](#room-whisp-thicket--wisp-thicket-cave) | T | cling grip AND dash | TODO |  | ✓ |  |
+| B | bot1 |  | [Wisp Thicket Cave (Wisp_09)](#room-wisp-thicket--wisp-thicket-cave) | T | cling grip AND dash | TODO |  | ✓ |  |
 
 #### Subroom Connections
 
@@ -14517,19 +14560,21 @@ No check locations defined.
 | BR | BL to LR | Lowest Hallway | Upper Low Hallway | Silk Soar OR Easy Enemy Pogo OR Clawline OR Ledge Grab OR Faydown Cloak OR Sprint OR Cling Grip OR Scuttlebrace |  | Verified | ✓ |  |
 | CR | Collect Rosaries | Lever | Rosary Dish | Sprint OR Dash OR Clawline OR Drifter's Cloak OR Faydown Cloak OR Cling Grip OR Scuttlebrace OR Sharpdart OR Easy Beast Crest Pogo OR Easy Architect Crest Pogo OR Easy Needle Strike Stall (Beast OR Architect) |  | Verified | ✓ |  |
 | PR | Progresion! | Left Side Shaft | Lever | Silk Soar OR Cling Grip OR Scuttlebrace |  | Verified | ✓ |  |
-| MP | More Progression! | Lever | Upper Platform | Activate Whispering Vaults: Flip Switch #8 AND (Silk Soar OR Cling Grip OR Scuttlebrace OR (Faydown Cloak AND (Ledge Grab OR Easy Shaman Crest Pogo))) |  | Verified | ✓ |  |
+| LMH | Lever <> Middle Hallway | Lever | Middle Hallway | ledge Grab OR Cling Grip OR Faydown Cloak OR Silk Soar OR Scuttlebrace |  | Verified |  |  |
+| LMH | Lever <> Middle Hallway | Middle Hallway | Lever | Nothing (Fall) |  | Verified |  |  |
+| MP | More Progression! | Middle Hallway | Upper Platform | (Silk Soar OR Cling Grip OR Scuttlebrace OR (Activate Whispering Vaults: Flip Switch #8 AND Faydown Cloak AND (Ledge Grab OR Easy Shaman Crest Pogo))) |  | Verified | ✓ |  |
+| MP | More Progression! | Upper Platform | Middle Hallway | Silk Soar OR Cling Grip OR Scuttlebrace |  | Verified | ✓ | accounting for the fact the player may not have activated the shortcut |
 | EMP | Even More Progression! | Upper Platform | Distant Platform | Silk Soar OR ((Cling Grip OR Scuttlebrace) AND (Faydown Cloak OR (Clawline AND (Sprint OR Dash OR Drifter's Cloak) AND Ledge Grab))) |  | Verified | ✓ |  |
 | LP | Last Push! | Distant Platform | Top Hallway | Silk Soar OR Cling Grip OR Scuttlebrace |  | Verified | ✓ |  |
 | MT | Map Time! | Top Hallway | Map Room | Activate Whispering Vaults: Flip Switch #9 AND (Silk Soar OR Cling Grip OR (Scuttlebrace AND (Easy Enemy Pogo/ OR Faydown Cloak))) |  | Verified | ✓ |  |
 | MT | Map Time! | Map Room | Top Hallway | Nothing (fall) |  | Verified | ✓ |  |
 | LP | Last Push! | Top Hallway | Distant Platform | Nothing (Fall) |  | Verified | ✓ |  |
 | EMP | Even More Progression! | Distant Platform | Upper Platform | Activate Whispering Vaults: Flip Switch #7 |  | Verified | ✓ |  |
-| MP | More Progression! | Upper Platform | Lever | Silk Soar OR Cling Grip OR Scuttlebrace |  | Verified | ✓ | accounting for the fact the player may not have activated the shortcut |
 | PR | Progresion! | Lever | Left Side Shaft | Nothing (Fall) |  | Verified | ✓ |  |
 | BR | BL to LR | Upper Low Hallway | Lowest Hallway | Nothing (Fall) |  | Verified | ✓ |  |
 | A1 | Ascent 1 | Lowest Hallway | Ground | Nothing (Fall) |  | Verified | ✓ |  |
-| US | Unlock Shortcut | Middle Hallway | Shortcut Box | Ledge Grab OR Cling Grip OR Scuttlebrace OR Faydown Cloak OR Clawline |  | Verified | ✓ | Opens Shortcut |
-| US2 | Use Shortcut | Shortcut Box | Middle Hallway | Activate Hell Room Box Shortcut Thing |  | Verified |  |  |
+| SC | Shortcut | Middle Hallway | Shortcut Box | Activate Hell Room Box Shortcut Thing AND (Ledge Grab OR Cling Grip OR Scuttlebrace OR Faydown Cloak OR Clawline) |  | Verified | ✓ | Opens Shortcut |
+| SC | Shortcut | Shortcut Box | Middle Hallway | Activate Hell Room Box Shortcut Thing |  | Verified | ✓ |  |
 
 #### Check Locations
 
@@ -14541,7 +14586,7 @@ No check locations defined.
 | 4 | Map: Whispering Vaults | Map Room | Nothing |  | Verified | collectible | ✓ |  |
 | 5 | Whispering Vaults: Break Wall #5 (Up) | Map Room | Nothing |  | Verified | blockade | ✓ |  |
 | 6 | Whispering Vaults: Rosary Dish #3 | Rosary Dish | Nothing |  | Verified | resource | ✓ |  |
-| 7 | Hell Room Box Shortcut thing. | Shortcut Box | Break Wall Right |  | Verified | logic-point |  | not a proper check, for logic documentation only. |
+| 7 | Hell Room Box Shortcut thing. | Shortcut Box | Break Wall Right |  | Verified | logic-point | ✓ | not a proper check, for logic documentation only. |
 
 <a name="room-whispering-vaults--whispering-vaults-jumps"></a>
 
@@ -14784,10 +14829,11 @@ No subroom connections defined.
 | No. | Subroom | Annotated |
 | --- | --- | --- |
 | S1 | Top | ✓ |
-| S2 | Bottom | ✓ |
+| S2 | Bottom Left | ✓ |
 | S3 | Arena | ✓ |
 | S4 | Bottom Right | ✓ |
 | S5 | Blocks | ✓ |
+| S6 | Bottom | ✓ |
 
 #### Room Transitions
 
@@ -14795,8 +14841,8 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | TL | left2 | Top | [Rotating Tunnel (Song_20b)](#room-choral-chambers--rotating-tunnel) | R1 | Nothing. |  | Verified | ✓ |  |
 | TR | right2 | Top | [Songclave (Song_Enclave)](#room-choral-chambers--songclave) | BL | Nothing. |  | Verified | ✓ |  |
-| BL | left1 | Bottom | [Rotating Tunnel (Song_20b)](#room-choral-chambers--rotating-tunnel) | RH | Nothing. |  | Verified | ✓ |  |
-| BR | right1 | Bottom | [Whispering Vaults Flea Shaft (Library_01)](#room-whispering-vaults--whispering-vaults-flea-shaft) | TL | Nothing. |  | Verified | ✓ |  |
+| BL | left1 | Bottom Left | [Rotating Tunnel (Song_20b)](#room-choral-chambers--rotating-tunnel) | RH | Nothing. |  | Verified | ✓ |  |
+| BR | right1 | Bottom Right | [Whispering Vaults Flea Shaft (Library_01)](#room-whispering-vaults--whispering-vaults-flea-shaft) | TL | Nothing. |  | Verified | ✓ |  |
 
 #### Subroom Connections
 
@@ -14806,6 +14852,8 @@ No subroom connections defined.
 | RV | Right Vertical | Bottom Right | Arena | Silk Soar OR Cling Grip OR (Scuttlebrace AND Faydown Cloak) |  | Verified | ✓ |  |
 | LV | Left Vertical | Arena | Blocks | Spike Pogo OR Proficient Movement (Easy Box Pogo) OR Clawline OR Faydown Cloak OR Drifter's Cloak OR Sharpdart |  | Verified | ✓ |  |
 | RV | Right Vertical | Arena | Bottom Right | Nothing. (Fall) |  | Verified | ✓ |  |
+| IV | Invalid | Top | Bottom | Invalid |  | Verified | ✓ |  |
+| IV | Invalid | Bottom | Top | Invalid |  | Verified | ✓ |  |
 
 #### Check Locations
 
@@ -19219,7 +19267,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Brightvein Entrance (Peak_06b)](#room-mount-fay--brightvein-entrance) | D | None |  | Verified |  |  |
+| L | left1 |  | [Brightvein Entrance (Peak_06b)](#room-mount-fay--brightvein-entrance) | D | None |  | Verified | ✓ |  |
 
 #### Subroom Connections
 
@@ -19229,9 +19277,9 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Mount Fay - Shell Shard Cache #3 |  | silk Soar OR ( clawline AND cling grip ) |  | Verified | resource |  |  |
-| 2 | Mount Fay - Shell Shard Cache #4 |  | Silk Soar OR ( Clawline AND Cling Grip ) |  | Verified | resource |  |  |
-| 3 | Brightvein - Maskshard |  | Silk Soar AND Clawline AND Cling Grip AND Faydown Cloak |  | Verified | collectible |  |  |
+| 1 | Mount Fay - Shell Shard Cache #3 |  | silk Soar OR ( clawline AND cling grip ) |  | Verified | resource | ✓ |  |
+| 2 | Mount Fay - Shell Shard Cache #4 |  | Silk Soar OR ( Clawline AND Cling Grip ) |  | Verified | resource | ✓ |  |
+| 3 | Brightvein - Maskshard |  | Silk Soar AND Clawline AND Cling Grip AND Faydown Cloak |  | Verified | collectible | ✓ |  |
 
 <a name="room-mount-fay--brightvein-entrance"></a>
 
@@ -19251,8 +19299,8 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Mount Fay Magnetite Outcropping (Peak_05e)](#room-mount-fay--mount-fay-magnetite-outcropping) | UR | None |  | Verified |  |  |
-| D | door1 |  | [Brightvein (Peak_06)](#room-mount-fay--brightvein) | L | None |  | Verified |  |  |
+| L | left1 |  | [Mount Fay Magnetite Outcropping (Peak_05e)](#room-mount-fay--mount-fay-magnetite-outcropping) | UR | None |  | Verified | ✓ |  |
+| D | door1 |  | [Brightvein (Peak_06)](#room-mount-fay--brightvein) | L | None |  | Verified | ✓ |  |
 
 #### Subroom Connections
 
@@ -19296,13 +19344,13 @@ No check locations defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| WT | Wind Tunnel Acsent | Lower Entrance | Fayforn | Drifters Cloak AND ( Cling Grip OR Scuttlebrace OR Silk Soar ) |  | Verified |  |  |
-| WT2 | Wind TUnnel 2 | Lower Entrance | Left Exit | Drifters Cloak AND ( Cling Grip OR Scuttlebrace OR Silk Soar ) |  | Verified |  |  |
-| DR1 | Drop 1 | Fayforn | Bench Entrance | None |  | Verified |  |  |
-| DR1 | Drop 1 | Bench Entrance | Fayforn | Silk Soar OR ( Cling Grip AND Faydown Cloak ) |  | Verified |  |  |
-| DR2 | Drop 2 | Bench Entrance | Drop | None |  | Verified |  |  |
-| CR | Crossing | Left Exit | Fayforn | Drifters Cloak |  | Verified |  |  |
-| CR | Crossing | Fayforn | Left Exit | Dash OR Sprint OR Drifters Cloak OR Faydown Cloak OR Clawline OR Sharpdart OR Easy Beast Crest Pogo |  | Verified |  |  |
+| WT | Wind Tunnel Acsent | Lower Entrance | Fayforn | Drifters Cloak AND ( Cling Grip OR Scuttlebrace OR Silk Soar ) |  | Verified | ✓ |  |
+| WT2 | Wind TUnnel 2 | Lower Entrance | Left Exit | Drifters Cloak AND ( Cling Grip OR Scuttlebrace OR Silk Soar ) |  | Verified | ✓ |  |
+| DR1 | Drop 1 | Fayforn | Bench Entrance | None |  | Verified | ✓ |  |
+| DR1 | Drop 1 | Bench Entrance | Fayforn | Silk Soar OR ( Cling Grip AND Faydown Cloak ) |  | Verified | ✓ |  |
+| DR2 | Drop 2 | Bench Entrance | Drop | None |  | Verified | ✓ |  |
+| CR | Crossing | Left Exit | Fayforn | Drifters Cloak |  | Verified | ✓ |  |
+| CR | Crossing | Fayforn | Left Exit | Dash OR Sprint OR Drifters Cloak OR Faydown Cloak OR Clawline OR Sharpdart OR Easy Beast Crest Pogo |  | Verified | ✓ |  |
 
 #### Check Locations
 
@@ -19329,7 +19377,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 |  | [Mask Maker Passage (Peak_05d)](#room-mount-fay--mask-maker-passage) | D | None |  | Verified |  |  |
+| R | right1 |  | [Mask Maker Passage (Peak_05d)](#room-mount-fay--mask-maker-passage) | D | None |  | Verified | ✓ |  |
 
 #### Subroom Connections
 
@@ -19353,22 +19401,22 @@ No check locations defined.
 
 | No. | Subroom | Annotated |
 | --- | --- | --- |
-| S1 | Mask Maker Hut |  |
-| S2 | Exit |  |
+| S1 | Mask Maker Hut | ✓ |
+| S2 | Exit | ✓ |
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| F | bot1 | Exit | [Mount Fay Upper Slope (Peak_08)](#room-mount-fay--mount-fay-upper-slope) | C | None |  | Verified |  |  |
-| D | door1 | Mask Maker Hut | [Mask Maker (Peak_Mask_Maker)](#room-mount-fay--mask-maker) | R | None |  | Verified |  |  |
+| F | bot1 | Exit | [Mount Fay Upper Slope (Peak_08)](#room-mount-fay--mount-fay-upper-slope) | C | None |  | Verified | ✓ |  |
+| D | door1 | Mask Maker Hut | [Mask Maker (Peak_Mask_Maker)](#room-mount-fay--mask-maker) | R | None |  | Verified | ✓ |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| PL | Platforming | Exit | Mask Maker Hut | Cling Grip AND Faydown Cloak |  | Verified |  |  |
-| PL | Platforming | Mask Maker Hut | Exit | None |  | Verified |  |  |
+| PL | Platforming | Exit | Mask Maker Hut | Cling Grip AND Faydown Cloak |  | Verified | ✓ |  |
+| PL | Platforming | Mask Maker Hut | Exit | None |  | Verified | ✓ |  |
 
 #### Check Locations
 
@@ -19388,28 +19436,28 @@ No check locations defined.
 
 | No. | Subroom | Annotated |
 | --- | --- | --- |
-| S1 | End |  |
-| S2 | Start |  |
+| S1 | End | ✓ |
+| S2 | Start | ✓ |
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 | Start | [Mount Fay Bench Toll (Bellway_Peak)](#room-mount-fay--mount-fay-bench-toll) | LR | None |  | Verified |  |  |
+| L | left1 | Start | [Mount Fay Bench Toll (Bellway_Peak)](#room-mount-fay--mount-fay-bench-toll) | LR | None |  | Verified | ✓ |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| IT | Ice Tunnel | Start | End | None |  | Verified |  |  |
-| IT | Ice Tunnel | End | Start | Cling Grip OR Scuttlebrace OR Silk Soar |  | Verified |  |  |
+| IT | Ice Tunnel | Start | End | None |  | Verified | ✓ |  |
+| IT | Ice Tunnel | End | Start | Cling Grip OR Scuttlebrace OR Silk Soar |  | Verified | ✓ |  |
 
 #### Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Mount Fay - Rosary Cache #4 | Start | None |  | Verified | resource |  |  |
-| 2 | Memory Crystal | End | None |  | Verified | collectible |  |  |
+| 1 | Mount Fay - Rosary Cache #4 | Start | None |  | Verified | resource | ✓ |  |
+| 2 | Memory Crystal | End | None |  | Verified | collectible | ✓ |  |
 
 <a name="room-mount-fay--mount-fay-bench-toll"></a>
 
@@ -19425,35 +19473,35 @@ No check locations defined.
 
 | No. | Subroom | Annotated |
 | --- | --- | --- |
-| S1 | Lower Area |  |
-| S2 | Upper Area |  |
+| S1 | Lower Area | ✓ |
+| S2 | Upper Area | ✓ |
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| UR | right1 | Upper Area | [Mount Fay Ice Lake Platforming Room (Peak_04)](#room-mount-fay--mount-fay-ice-lake-platforming-room) | L | None |  | Verified |  |  |
-| LR | right2 | Lower Area | [Memory Crystal (Bellway_Peak_02)](#room-mount-fay--memory-crystal) | L | complete Breakable Wall - Mount Fay Bench Toll |  | Verified |  | Can Be Broken From Both sides |
-| C | top1 | Upper Area | [Mount Fay Lower Slope (Peak_05)](#room-mount-fay--mount-fay-lower-slope) | F | Silk Soar OR ( Cling Grip AND ( Dash OR Drifters Cloak OR Faydown Cloak OR Clawline ) ) OR ( Clawline AND Faydown Cloak AND Ledge Grab ) OR ( Faydown Cloak AND Scuttlebrace ) |  | Verified |  |  |
-| UL | left1 | Upper Area | [Mount Fay Mask Shard (Peak_04c)](#room-mount-fay--mount-fay-mask-shard) | UR | None |  | Verified |  |  |
-| LL | left2 | Lower Area | [Mount Fay Mask Shard (Peak_04c)](#room-mount-fay--mount-fay-mask-shard) | LR | Ledge Grab OR Dash OR Faydown Cloak OR Cling Grip OR Silk Soar |  | Verified |  |  |
+| UR | right1 | Upper Area | [Mount Fay Ice Lake Platforming Room (Peak_04)](#room-mount-fay--mount-fay-ice-lake-platforming-room) | L | None |  | Verified | ✓ |  |
+| LR | right2 | Lower Area | [Memory Crystal (Bellway_Peak_02)](#room-mount-fay--memory-crystal) | L | complete Breakable Wall - Mount Fay Bench Toll |  | Verified | ✓ | Can Be Broken From Both sides |
+| C | top1 | Upper Area | [Mount Fay Lower Slope (Peak_05)](#room-mount-fay--mount-fay-lower-slope) | F | Silk Soar OR ( Cling Grip AND ( Dash OR Drifters Cloak OR Faydown Cloak OR Clawline ) ) OR ( Clawline AND Faydown Cloak AND Ledge Grab ) OR ( Faydown Cloak AND Scuttlebrace ) |  | Verified | ✓ |  |
+| UL | left1 | Upper Area | [Mount Fay Mask Shard (Peak_04c)](#room-mount-fay--mount-fay-mask-shard) | UR | None |  | Verified | ✓ |  |
+| LL | left2 | Lower Area | [Mount Fay Mask Shard (Peak_04c)](#room-mount-fay--mount-fay-mask-shard) | LR | Ledge Grab OR Dash OR Faydown Cloak OR Cling Grip OR Silk Soar |  | Verified | ✓ |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| TD | Trapdoor | Lower Area | Upper Area | ( Faydown Cloak OR Silk Soar OR ( Cling Grip AND Clawline ) OR ( Ledge Grab AND ( Dash OR Clawline OR Drifters Cloak ) ) ) AND Complete Trapdoor lever |  | Verified |  | Lever activation is permanent |
-| TD | Trapdoor | Upper Area | Lower Area | ( Faydown Cloak OR Silk Soar OR ( Cling Grip AND Clawline ) OR ( Ledge Grab AND ( Dash OR Clawline OR Drifters Cloak ) ) ) AND Complete Trapdoor lever |  | Verified |  | Lever activation is permanent |
+| TD | Trapdoor | Lower Area | Upper Area | ( Faydown Cloak OR Silk Soar OR ( Cling Grip AND Clawline ) OR ( Ledge Grab AND ( Dash OR Clawline OR Drifters Cloak ) ) ) AND Complete Trapdoor lever |  | Verified | ✓ | Lever activation is permanent |
+| TD | Trapdoor | Upper Area | Lower Area | ( Faydown Cloak OR Silk Soar OR ( Cling Grip AND Clawline ) OR ( Ledge Grab AND ( Dash OR Clawline OR Drifters Cloak ) ) ) AND Complete Trapdoor lever |  | Verified | ✓ | Lever activation is permanent |
 
 #### Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Mount Fay - Rosary Cache #1 | Upper Area | Cling Grip OR Silk Soar OR Ledge grab OR Faydown Cloak |  | Verified | resource |  |  |
-| 2 | Mount Fay - Rosary Cache #2 | Upper Area | Cling Grip OR Silk Soar OR Ledge grab OR Faydown Cloak |  | Verified | resource |  |  |
-| 3 | Mount Fay - Rosary Cache #3 | Upper Area | Cling Grip OR Silk Soar OR Ledge grab OR Faydown Cloak |  | Verified | resource |  |  |
-| 4 | Trapdoor Lever | Lower Area | Faydown Cloak OR Silk Soar OR ( Cling Grip AND Clawline ) OR ( Ledge Grab AND ( Dash OR Clawline OR Drifters Cloak ) ) |  | Verified | switch |  |  |
-| 5 | Breakable Wall - Mount Fay Bench Toll | Lower Area | None |  | Verified | blockade |  |  |
+| 1 | Mount Fay - Rosary Cache #1 | Upper Area | Cling Grip OR Silk Soar OR Ledge grab OR Faydown Cloak |  | Verified | resource | ✓ |  |
+| 2 | Mount Fay - Rosary Cache #2 | Upper Area | Cling Grip OR Silk Soar OR Ledge grab OR Faydown Cloak |  | Verified | resource | ✓ |  |
+| 3 | Mount Fay - Rosary Cache #3 | Upper Area | Cling Grip OR Silk Soar OR Ledge grab OR Faydown Cloak |  | Verified | resource | ✓ |  |
+| 4 | Trapdoor Lever | Lower Area | Faydown Cloak OR Silk Soar OR ( Cling Grip AND Clawline ) OR ( Ledge Grab AND ( Dash OR Clawline OR Drifters Cloak ) ) |  | Verified | switch | ✓ |  |
+| 5 | Breakable Wall - Mount Fay Bench Toll | Lower Area | None |  | Verified | blockade | ✓ |  |
 
 <a name="room-mount-fay--mount-fay-frozen-flea"></a>
 
@@ -19469,30 +19517,30 @@ No check locations defined.
 
 | No. | Subroom | Annotated |
 | --- | --- | --- |
-| S1 | Upper Left |  |
-| S2 | Right Exit |  |
-| S3 | Frozen Flea |  |
+| S1 | Upper Left | ✓ |
+| S2 | Right Exit | ✓ |
+| S3 | Frozen Flea | ✓ |
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 | Right Exit | [Mount Fay Magnetite Outcropping (Peak_05e)](#room-mount-fay--mount-fay-magnetite-outcropping) | L | None |  | Verified |  |  |
-| L | left2 | Upper Left | [Mount Fay Lower Slope (Peak_05)](#room-mount-fay--mount-fay-lower-slope) | R | None |  | Verified |  |  |
+| R | right1 | Right Exit | [Mount Fay Magnetite Outcropping (Peak_05e)](#room-mount-fay--mount-fay-magnetite-outcropping) | L | None |  | Verified | ✓ |  |
+| L | left2 | Upper Left | [Mount Fay Lower Slope (Peak_05)](#room-mount-fay--mount-fay-lower-slope) | R | None |  | Verified | ✓ |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| SD | Spike Drop | Upper Left | Right Exit | Clawline AND ( Cling Grip OR ( Faydown Cloak AND Ledge Grab ) ) |  | Verified |  | One Way |
-| FF | Frozen Flea | Right Exit | Frozen Flea | Cling Grip OR Scuttlebrace |  | Verified |  |  |
-| FF | Frozen Flea | Frozen Flea | Right Exit | Cling Grip OR Dash OR Drifters Cloak OR Faydown Cloak OR Clawline OR Sharpdart |  | Verified |  |  |
+| SD | Spike Drop | Upper Left | Right Exit | Clawline AND ( Cling Grip OR ( Faydown Cloak AND Ledge Grab ) ) |  | Verified | ✓ | One Way |
+| FF | Frozen Flea | Right Exit | Frozen Flea | Cling Grip OR Scuttlebrace |  | Verified | ✓ |  |
+| FF | Frozen Flea | Frozen Flea | Right Exit | Cling Grip OR Dash OR Drifters Cloak OR Faydown Cloak OR Clawline OR Sharpdart |  | Verified | ✓ |  |
 
 #### Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Flea: Mount Fay | Frozen Flea | None |  | Verified | collectible |  |  |
+| 1 | Flea: Mount Fay | Frozen Flea | None |  | Verified | collectible | ✓ |  |
 
 <a name="room-mount-fay--mount-fay-ice-lake-platforming-room"></a>
 
@@ -19508,22 +19556,22 @@ No check locations defined.
 
 | No. | Subroom | Annotated |
 | --- | --- | --- |
-| S1 | Left Ledge |  |
-| S2 | Right Ledge |  |
+| S1 | Left Ledge | ✓ |
+| S2 | Right Ledge | ✓ |
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 | Left Ledge | [Mount Fay Bench Toll (Bellway_Peak)](#room-mount-fay--mount-fay-bench-toll) | UR | None |  | Verified |  |  |
-| R | right1 | Right Ledge | [Mount Fay Large Servitor Hallway (Peak_04d)](#room-mount-fay--mount-fay-large-servitor-hallway) | L | None |  | Verified |  |  |
+| L | left1 | Left Ledge | [Mount Fay Bench Toll (Bellway_Peak)](#room-mount-fay--mount-fay-bench-toll) | UR | None |  | Verified | ✓ |  |
+| R | right1 | Right Ledge | [Mount Fay Large Servitor Hallway (Peak_04d)](#room-mount-fay--mount-fay-large-servitor-hallway) | L | None |  | Verified | ✓ |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| IL | Ice Lake | Left Ledge | Right Ledge | ( Clawline AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip ) ) |  | Verified |  |  |
-| IL | Ice Lake | Right Ledge | Left Ledge | ( Clawline AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip ) ) |  | Verified |  |  |
+| IL | Ice Lake | Left Ledge | Right Ledge | ( Clawline AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip ) ) |  | Verified | ✓ |  |
+| IL | Ice Lake | Right Ledge | Left Ledge | ( Clawline AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip ) ) |  | Verified | ✓ |  |
 
 #### Check Locations
 
@@ -19547,8 +19595,8 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 |  | [Mount Fay Shakra (Peak_02)](#room-mount-fay--mount-fay-shakra) | ML | None |  | Verified |  |  |
-| L | left1 |  | [Mount Fay Ice Lake Platforming Room (Peak_04)](#room-mount-fay--mount-fay-ice-lake-platforming-room) | R | None |  | Verified |  |  |
+| R | right1 |  | [Mount Fay Shakra (Peak_02)](#room-mount-fay--mount-fay-shakra) | ML | None |  | Verified | ✓ |  |
+| L | left1 |  | [Mount Fay Ice Lake Platforming Room (Peak_04)](#room-mount-fay--mount-fay-ice-lake-platforming-room) | R | None |  | Verified | ✓ |  |
 
 #### Subroom Connections
 
@@ -19576,7 +19624,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 |  | [Mount Fay Shakra (Peak_02)](#room-mount-fay--mount-fay-shakra) | LL | None |  | Verified |  |  |
+| R | right1 |  | [Mount Fay Shakra (Peak_02)](#room-mount-fay--mount-fay-shakra) | LL | None |  | Verified | ✓ |  |
 
 #### Subroom Connections
 
@@ -19602,32 +19650,32 @@ No subroom connections defined.
 
 | No. | Subroom | Annotated |
 | --- | --- | --- |
-| S1 | Bottom |  |
-| S2 | Ceiling Area |  |
-| S3 | Right Exit |  |
+| S1 | Bottom | ✓ |
+| S2 | Ceiling Area | ✓ |
+| S3 | Right Exit | ✓ |
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| C | top2 | Ceiling Area | [Mount Fay Upper Slope (Peak_08)](#room-mount-fay--mount-fay-upper-slope) | F | None |  | Verified |  |  |
-| F | bot1 | Bottom | [Mount Fay Bench Toll (Bellway_Peak)](#room-mount-fay--mount-fay-bench-toll) | C | None |  | Verified |  |  |
-| R | right3 | Right Exit | [Mount Fay Frozen Flea (Peak_05c)](#room-mount-fay--mount-fay-frozen-flea) | L | None |  | Verified |  |  |
+| C | top2 | Ceiling Area | [Mount Fay Upper Slope (Peak_08)](#room-mount-fay--mount-fay-upper-slope) | F | None |  | Verified | ✓ |  |
+| F | bot1 | Bottom | [Mount Fay Bench Toll (Bellway_Peak)](#room-mount-fay--mount-fay-bench-toll) | C | None |  | Verified | ✓ |  |
+| R | right3 | Right Exit | [Mount Fay Frozen Flea (Peak_05c)](#room-mount-fay--mount-fay-frozen-flea) | L | None |  | Verified | ✓ |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| SH | Shaft | Ceiling Area | Right Exit | Complete Mount Fay Slope Lever |  | Verified |  |  |
-| SH | Shaft | Right Exit | Ceiling Area | Complete Mount Fay Slope Lever AND ( ( Faydown Cloak AND Drifters Cloak AND Cling Grip AND Sharpdart ) OR Silk Soar OR ( Clawline AND Faydown Cloak AND Cling Grip ) ) |  | Verified |  |  |
-| BS | Big Slope | Right Exit | Bottom | None |  | Verified |  |  |
-| BS | Big Slope | Bottom | Right Exit | Faydown Cloak OR ( Cling Grip AND Clawline ) |  | Verified |  |  |
+| SH | Shaft | Ceiling Area | Right Exit | Complete Mount Fay Slope Lever |  | Verified | ✓ |  |
+| SH | Shaft | Right Exit | Ceiling Area | Complete Mount Fay Slope Lever AND ( ( Faydown Cloak AND Drifters Cloak AND Cling Grip AND Sharpdart ) OR Silk Soar OR ( Clawline AND Faydown Cloak AND Cling Grip ) ) |  | Verified | ✓ |  |
+| BS | Big Slope | Right Exit | Bottom | None |  | Verified | ✓ |  |
+| BS | Big Slope | Bottom | Right Exit | Faydown Cloak OR ( Cling Grip AND Clawline ) |  | Verified | ✓ |  |
 
 #### Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Mount Fay Slope Lever | Ceiling Area | None |  | Verified | switch |  |  |
+| 1 | Mount Fay Slope Lever | Ceiling Area | None |  | Verified | switch | ✓ |  |
 
 <a name="room-mount-fay--mount-fay-magnetite-outcropping"></a>
 
@@ -19643,34 +19691,34 @@ No subroom connections defined.
 
 | No. | Subroom | Annotated |
 | --- | --- | --- |
-| S1 | Left Exit |  |
-| S2 | Brightvein |  |
-| S3 | Right Exit |  |
+| S1 | Left Exit | ✓ |
+| S2 | Brightvein | ✓ |
+| S3 | Right Exit | ✓ |
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| UR | right2 | Brightvein | [Brightvein Entrance (Peak_06b)](#room-mount-fay--brightvein-entrance) | L | Faydown Cloak OR Clawline OR Dash |  | Verified |  |  |
-| LR | right1 | Right Exit | [Mount Fay Shakra (Peak_02)](#room-mount-fay--mount-fay-shakra) | UL | None |  | Verified |  |  |
-| L | left1 | Left Exit | [Mount Fay Frozen Flea (Peak_05c)](#room-mount-fay--mount-fay-frozen-flea) | R | None |  | Verified |  |  |
+| UR | right2 | Brightvein | [Brightvein Entrance (Peak_06b)](#room-mount-fay--brightvein-entrance) | L | Faydown Cloak OR Clawline OR Dash |  | Verified | ✓ |  |
+| LR | right1 | Right Exit | [Mount Fay Shakra (Peak_02)](#room-mount-fay--mount-fay-shakra) | UL | None |  | Verified | ✓ |  |
+| L | left1 | Left Exit | [Mount Fay Frozen Flea (Peak_05c)](#room-mount-fay--mount-fay-frozen-flea) | R | None |  | Verified | ✓ |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| IL | Ice Lake | Right Exit | Left Exit | Swim OR Sprint OR Clawline OR Faydown Cloak OR ( Drifters Cloak AND Dash ) OR Sharpdart |  | Verified |  |  |
-| IL | Ice Lake | Left Exit | Right Exit | Swim OR Sprint OR Clawline OR Faydown Cloak OR ( Drifters Cloak AND Dash ) OR Sharpdart |  | Verified |  |  |
-| BRL | Brightvein Left | Brightvein | Left Exit | Drifters Cloak OR Dash OR Clawline OR Faydown Cloak OR Sharpdart OR Swim |  | Verified |  |  |
-| BRL | Brightvein Left | Left Exit | Brightvein | Silk Soar AND ( Swim OR Clawline OR Faydown Cloak OR ( Dash AND Drifters Cloak ) ) |  | Verified |  |  |
-| BRR | Brightvein Right | Right Exit | Brightvein | Silk Soar AND ( Swim OR Clawline OR Faydown Cloak OR ( Dash AND Drifters Cloak ) ) |  | Verified |  |  |
-| BRR | Brightvein Right | Brightvein | Right Exit | Drifters Cloak OR Dash OR Clawline OR Faydown Cloak OR Sharpdart OR Swim |  | Verified |  |  |
+| IL | Ice Lake | Right Exit | Left Exit | Swim OR Sprint OR Clawline OR Faydown Cloak OR ( Drifters Cloak AND Dash ) OR Sharpdart |  | Verified | ✓ |  |
+| IL | Ice Lake | Left Exit | Right Exit | Swim OR Sprint OR Clawline OR Faydown Cloak OR ( Drifters Cloak AND Dash ) OR Sharpdart |  | Verified | ✓ |  |
+| BRL | Brightvein Left | Brightvein | Left Exit | Drifters Cloak OR Dash OR Clawline OR Faydown Cloak OR Sharpdart OR Swim |  | Verified | ✓ |  |
+| BRL | Brightvein Left | Left Exit | Brightvein | Silk Soar AND ( Swim OR Clawline OR Faydown Cloak OR ( Dash AND Drifters Cloak ) ) |  | Verified | ✓ |  |
+| BRR | Brightvein Right | Right Exit | Brightvein | Silk Soar AND ( Swim OR Clawline OR Faydown Cloak OR ( Dash AND Drifters Cloak ) ) |  | Verified | ✓ |  |
+| BRR | Brightvein Right | Brightvein | Right Exit | Drifters Cloak OR Dash OR Clawline OR Faydown Cloak OR Sharpdart OR Swim |  | Verified | ✓ |  |
 
 #### Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Magnetite Outcrop | Brightvein | None |  | Verified | lore |  | Lore thingy not included rn |
+| 1 | Magnetite Outcrop | Brightvein | None |  | Verified | lore | ✓ | Lore thingy not included rn |
 
 <a name="room-mount-fay--mount-fay-mask-shard"></a>
 
@@ -19690,8 +19738,8 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LR | right2 |  | [Mount Fay Bench Toll (Bellway_Peak)](#room-mount-fay--mount-fay-bench-toll) | LL | None |  | Verified |  |  |
-| UR | right1 |  | [Mount Fay Bench Toll (Bellway_Peak)](#room-mount-fay--mount-fay-bench-toll) | UL | None |  | Verified |  |  |
+| LR | right2 |  | [Mount Fay Bench Toll (Bellway_Peak)](#room-mount-fay--mount-fay-bench-toll) | LL | None |  | Verified | ✓ |  |
+| UR | right1 |  | [Mount Fay Bench Toll (Bellway_Peak)](#room-mount-fay--mount-fay-bench-toll) | UL | None |  | Verified | ✓ |  |
 
 #### Subroom Connections
 
@@ -19701,7 +19749,7 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Mount Fay - Mask Shard |  | Silk Soar OR ( Faydown Cloak AND ( Cling Grip OR Scuttlebrace ) ) |  | Verified | collectible |  |  |
+| 1 | Mount Fay - Mask Shard |  | Silk Soar OR ( Faydown Cloak AND ( Cling Grip OR Scuttlebrace ) ) |  | Verified | collectible | ✓ |  |
 
 <a name="room-mount-fay--mount-fay-peak-bench"></a>
 
@@ -19770,14 +19818,14 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| WA | Wall | Bottom | Pinstress Arena | Silk Soar OR ( Cling Grip AND ( ( Faydown Cloak AND Enemy Pogo AND Spike Pogo ) OR ( Clawline AND Enemy Pogo ) OR ( Hard Reaper crest Pogo AND Dash AND Sprint AND Drifters Cloak AND Hard Flea Brew Stall AND Hard Heal Stall ) ) ) |  | Verified |  |  |
-| WA | Wall | Pinstress Arena | Bottom | None |  | Verified |  |  |
-| LS | Lower Slope | Bottom | Shell Shard Slope | Silk SOar OR ( cling Grip AND ( Faydown Cloak OR Clawline OR ( Dash AND Drifters Cloak AND Easy Reaper Crest Pogo ) ) ) |  | Verified |  |  |
-| LS | Lower Slope | Shell Shard Slope | Bottom | None |  | Verified |  |  |
-| US | Upper Slope | Pinstress Arena | Shell Shard Slope | None |  | Verified |  |  |
-| US | Upper Slope | Shell Shard Slope | Pinstress Arena | Faydown Cloak AND Cling Grip AND  Proficient Movement  AND Spike Pogo |  | Verified |  |  |
-| UW | Upper Wall | Pinstress Arena | Top | Silk Soar OR ( Cling Grip AND ( ( Clawline OR Faydown Cloak ) OR ( Dash AND Drifters Cloak AND Sharpdart ) ) ) |  | Verified |  |  |
-| UW | Upper Wall | Top | Pinstress Arena | None |  | Verified |  |  |
+| WA | Wall | Bottom | Pinstress Arena | Silk Soar OR ( Cling Grip AND ( ( Faydown Cloak AND Enemy Pogo AND Spike Pogo ) OR ( Clawline AND Enemy Pogo ) OR ( Hard Reaper crest Pogo AND Dash AND Sprint AND Drifters Cloak AND Hard Flea Brew Stall AND Hard Heal Stall ) ) ) |  | Verified | ✓ |  |
+| WA | Wall | Pinstress Arena | Bottom | None |  | Verified | ✓ |  |
+| LS | Lower Slope | Bottom | Shell Shard Slope | Silk SOar OR ( cling Grip AND ( Faydown Cloak OR Clawline OR ( Dash AND Drifters Cloak AND Easy Reaper Crest Pogo ) ) ) |  | Verified | ✓ |  |
+| LS | Lower Slope | Shell Shard Slope | Bottom | None |  | Verified | ✓ |  |
+| US | Upper Slope | Pinstress Arena | Shell Shard Slope | None |  | Verified | ✓ |  |
+| US | Upper Slope | Shell Shard Slope | Pinstress Arena | Faydown Cloak AND Cling Grip AND  Proficient Movement  AND Spike Pogo |  | Verified | ✓ |  |
+| UW | Upper Wall | Pinstress Arena | Top | Silk Soar OR ( Cling Grip AND ( ( Clawline OR Faydown Cloak ) OR ( Dash AND Drifters Cloak AND Sharpdart ) ) ) |  | Verified | ✓ |  |
+| UW | Upper Wall | Top | Pinstress Arena | None |  | Verified | ✓ |  |
 
 #### Check Locations
 
@@ -19879,9 +19927,9 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| BS | Big Slide | Upper Entrance | Lower Exit | None |  | Verified |  | One Way Slide |
-| MM | Mask Maker Path | Lower Exit | Mask Maker Path | Enemy Pogo AND Cling Grip AND Faydown Cloak |  | Verified |  |  |
-| MM | Mask Maker Path | Mask Maker Path | Lower Exit | None |  | Verified |  |  |
+| BS | Big Slide | Upper Entrance | Lower Exit | None |  | Verified | ✓ | One Way Slide |
+| MM | Mask Maker Path | Lower Exit | Mask Maker Path | Enemy Pogo AND Cling Grip AND Faydown Cloak |  | Verified | ✓ |  |
+| MM | Mask Maker Path | Mask Maker Path | Lower Exit | None |  | Verified | ✓ |  |
 
 #### Check Locations
 
@@ -20029,8 +20077,8 @@ No subroom connections defined.
 | 1 | Putrified Ducts - Bellway Bench | Bellway | None |  | Verified | bench | ✓ |  |
 | 2 | Flea: Putrified Ducts - Vog | Vog Camp | None |  | Verified | collectible | ✓ |  |
 | 3 | Bellway: Putrified Ducts | Bellway | Unlock Bellway Rosary Lock |  | Verified | travel | ✓ |  |
-| 4 | Vog Floor | Vog Camp | None |  | Verified | blockade |  |  |
-| 5 | Bellway Rosary Lock | Bellway | Rosaries 80 |  | Verified | lock |  |  |
+| 4 | Vog Floor | Vog Camp | None |  | Verified | blockade | ✓ |  |
+| 5 | Bellway Rosary Lock | Bellway | Rosaries 80 |  | Verified | lock | ✓ |  |
 
 <a name="room-putrified-ducts--putrified-ducts-connection-to-bilewater"></a>
 
@@ -20182,8 +20230,8 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | AB | Across The Bridges | Left Exit | Right Exit | ( Cling Grip AND ( Clawline OR Faydown Cloak ) ) OR ( Silk Soar AND ( Drifters Cloak OR Clawline ) ) |  | Verified |  |  |
 | AB | Across The Bridges | Right Exit | Left Exit | ( Cling Grip AND Clawline )  OR ( Silk Soar AND ( Drifters Cloak OR Clawline ) ) |  | Verified |  |  |
-| TC | Ceiling Tunnel | Right Exit | Ceiling Exit | ( Silk Soar AND ( Faydown Cloak OR Sprint OR Dash OR Cling Grip OR Clawline OR Drifters Cloak OR Faydown Cloak OR Sharpdart ) ) OR ( Faydown Cloak AND ( Dash OR Clawline OR Sharpdart OR easy Beast Crest pogo OR Drifters Cloak ) ) OR ( Cling Grip AND Clawline ) |  | Verified |  |  |
-| TC | Ceiling Tunnel | Ceiling Exit | Right Exit | Sprint OR Clawline OR Faydown Cloak OR ( Silk Soar AND ( Dash OR Drifters Cloak OR Cling Grip ) ) |  | Verified |  |  |
+| TC | Ceiling Tunnel | Right Exit | Ceiling Exit | ( Silk Soar AND ( Faydown Cloak OR Sprint OR Dash OR Cling Grip OR Clawline OR Drifters Cloak OR Faydown Cloak OR Sharpdart ) ) OR ( Faydown Cloak AND ( Dash OR Clawline OR Sharpdart OR easy Beast Crest pogo OR Drifters Cloak ) ) OR ( Cling Grip AND Clawline ) |  | Verified | ✓ |  |
+| TC | Ceiling Tunnel | Ceiling Exit | Right Exit | Sprint OR Clawline OR Faydown Cloak OR ( Silk Soar AND ( Dash OR Drifters Cloak OR Cling Grip ) ) |  | Verified | ✓ |  |
 | SS | Silk Soar Up | Left Exit | Ceiling Exit | Silk Soar AND ( Drifters cloak OR Faydown Cloak OR Clawline ) |  | Verified | ✓ |  |
 | SS | Silk Soar Up | Ceiling Exit | Left Exit | Drifters Cloak OR Clawline OR ( Swim AND Faydown Cloak ) OR ( Silk Soar AND ( Dash OR Sharpdart ) ) |  | Verified | ✓ |  |
 
@@ -20256,8 +20304,8 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | VA | Vine Acsent | Main | Top | ( Clawline AND ( Cling Grip OR ( Drifters Cloak AND ( Faydown Cloak OR Dash ) ) )  ) |  | Verified | ✓ |  |
 | VA | Vine Acsent | Top | Main | Clawline AND Faydown Cloak |  | Verified | ✓ |  |
-| TC | Thorn Crossing | Main | Camp | ( Faydown Cloak AND ( easy Hunter Crest pogo OR Swim OR easy Reaper Crest pogo OR easy Beast Crest pogo OR easy Architect Crest pogo OR Sprint OR Dash OR ( Ledge Grab AND Hard Heal Stall) ) ) OR Sharpdart OR Clawline OR Drifters Cloak OR ( Sprint AND Dash ) |  | Verified |  |  |
-| TC | Thorn Crossing | Camp | Main | ( Faydown Cloak AND ( easy Hunter Crest pogo OR Swim OR easy Reaper Crest pogo OR easy Beast Crest pogo OR easy Architect Crest pogo OR Sprint OR Dash OR ( Ledge Grab AND Hard heal stall ) ) ) OR Sharpdart OR Clawline OR Drifters Cloak OR ( Sprint AND Dash ) |  | Verified |  |  |
+| TC | Thorn Crossing | Main | Camp | ( Faydown Cloak AND ( easy Hunter Crest pogo OR Swim OR easy Reaper Crest pogo OR easy Beast Crest pogo OR easy Architect Crest pogo OR Sprint OR Dash OR ( Ledge Grab AND Hard Heal Stall) ) ) OR Sharpdart OR Clawline OR Drifters Cloak OR ( Sprint AND Dash ) |  | Verified | ✓ |  |
+| TC | Thorn Crossing | Camp | Main | ( Faydown Cloak AND ( easy Hunter Crest pogo OR Swim OR easy Reaper Crest pogo OR easy Beast Crest pogo OR easy Architect Crest pogo OR Sprint OR Dash OR ( Ledge Grab AND Hard heal stall ) ) ) OR Sharpdart OR Clawline OR Drifters Cloak OR ( Sprint AND Dash ) |  | Verified | ✓ |  |
 
 #### Check Locations
 

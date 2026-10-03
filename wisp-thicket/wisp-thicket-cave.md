@@ -35,12 +35,12 @@ No subroom connections defined.
 
 ### Connections
 
-[![Connections for Wisp Thicket Cave (Wisp_09)](../00-annotations/whisp-thicket/wisp-thicket-cave-connections.png)](../00-annotations/whisp-thicket/wisp-thicket-cave-connections.png)
+[![Connections for Wisp Thicket Cave (Wisp_09)](../00-annotations/wisp-thicket/wisp-thicket-cave-connections.png)](../00-annotations/wisp-thicket/wisp-thicket-cave-connections.png)
 
 ### Checks
 
-[![Checks for Wisp Thicket Cave (Wisp_09)](../00-annotations/whisp-thicket/wisp-thicket-cave-checks.png)](../00-annotations/whisp-thicket/wisp-thicket-cave-checks.png)
+[![Checks for Wisp Thicket Cave (Wisp_09)](../00-annotations/wisp-thicket/wisp-thicket-cave-checks.png)](../00-annotations/wisp-thicket/wisp-thicket-cave-checks.png)
 
 ### Scene
 
-[![Scene for Wisp Thicket Cave (Wisp_09)](../00-annotations/whisp-thicket/wisp-thicket-cave-scene.png)](../00-annotations/whisp-thicket/wisp-thicket-cave-scene.png)
+[![Scene for Wisp Thicket Cave (Wisp_09)](../00-annotations/wisp-thicket/wisp-thicket-cave-scene.png)](../00-annotations/wisp-thicket/wisp-thicket-cave-scene.png)

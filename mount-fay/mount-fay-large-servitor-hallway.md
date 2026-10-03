@@ -12,8 +12,8 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 |  | [Mount Fay Shakra (Peak_02)](mount-fay-shakra.md) | ML | None |  | Verified |  |  |
-| L | left1 |  | [Mount Fay Ice Lake Platforming Room (Peak_04)](mount-fay-ice-lake-platforming-room.md) | R | None |  | Verified |  |  |
+| R | right1 |  | [Mount Fay Shakra (Peak_02)](mount-fay-shakra.md) | ML | None |  | Verified | ✓ |  |
+| L | left1 |  | [Mount Fay Ice Lake Platforming Room (Peak_04)](mount-fay-ice-lake-platforming-room.md) | R | None |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
@@ -25,4 +25,14 @@ No check locations defined.
 
 ## Room Images
 
-Scene image unavailable.
+### Connections
+
+[![Connections for Mount Fay Large Servitor Hallway (Peak_04d)](../00-annotations/mount-fay/mount-fay-large-servitor-hallway-connections.png)](../00-annotations/mount-fay/mount-fay-large-servitor-hallway-connections.png)
+
+### Checks
+
+[![Checks for Mount Fay Large Servitor Hallway (Peak_04d)](../00-annotations/mount-fay/mount-fay-large-servitor-hallway-checks.png)](../00-annotations/mount-fay/mount-fay-large-servitor-hallway-checks.png)
+
+### Scene
+
+[![Scene for Mount Fay Large Servitor Hallway (Peak_04d)](../00-annotations/mount-fay/mount-fay-large-servitor-hallway-scene.png)](../00-annotations/mount-fay/mount-fay-large-servitor-hallway-scene.png)

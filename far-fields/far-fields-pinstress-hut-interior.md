@@ -24,7 +24,7 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | bench |  | none |  | Verified | bench | ✓ |  |
 | 2 | flexible spines wish promised |  | none |  | Verified | event |  |  |
-| 3 | flexible spines wish granted |  | complete flexible spines wish promised AND ( flexible spines 25  OR defeat hoker enemy IN far fields skull room west OR defeat hoker enemy IN far fields skull room east ) |  | Verified | event |  | wasn't sure which made more sense here - the former is more accurate, but the latter is more logic complete |
+| 3 | flexible spines wish granted |  | complete flexible spines wish promised AND flexible spines 25 |  | Verified | event |  |  |
 | 4 | drifters cloak |  | complete flexible spines wish granted |  | Verified | collectible |  |  |
 
 ## Room Images

@@ -12,7 +12,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 |  | [Mask Maker Passage (Peak_05d)](mask-maker-passage.md) | D | None |  | Verified |  |  |
+| R | right1 |  | [Mask Maker Passage (Peak_05d)](mask-maker-passage.md) | D | None |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
@@ -24,4 +24,14 @@ No check locations defined.
 
 ## Room Images
 
-Scene image unavailable.
+### Connections
+
+[![Connections for Mask Maker (Peak_Mask_Maker)](../00-annotations/mount-fay/mask-maker-connections.png)](../00-annotations/mount-fay/mask-maker-connections.png)
+
+### Checks
+
+[![Checks for Mask Maker (Peak_Mask_Maker)](../00-annotations/mount-fay/mask-maker-checks.png)](../00-annotations/mount-fay/mask-maker-checks.png)
+
+### Scene
+
+[![Scene for Mask Maker (Peak_Mask_Maker)](../00-annotations/mount-fay/mask-maker-scene.png)](../00-annotations/mount-fay/mask-maker-scene.png)

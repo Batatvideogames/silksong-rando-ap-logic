@@ -13,7 +13,7 @@ No subrooms defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | R | right1 |  | [Underworks Central Shaft (Under_05)](underworks-central-shaft.md) | WT | cling grip AND dash | TODO |  | ✓ |  |
-| B | bot1 |  | [Wisp Thicket Cave (Wisp_09)](../whisp-thicket/wisp-thicket-cave.md) | T | cling grip AND dash | TODO |  | ✓ |  |
+| B | bot1 |  | [Wisp Thicket Cave (Wisp_09)](../wisp-thicket/wisp-thicket-cave.md) | T | cling grip AND dash | TODO |  | ✓ |  |
 
 ## Subroom Connections
 
