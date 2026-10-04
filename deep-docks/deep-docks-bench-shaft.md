@@ -24,7 +24,7 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | bench rosary lock |  | Rosaries 30 |  | Verified | lock | ✓ |  |
+| 1 | bench rosary lock |  | Spend 30 Rosaries |  | Verified | lock | ✓ |  |
 | 2 | Deep Docks Shaft Bench |  | Unlock bench rosary lock |  | Verified | bench | ✓ |  |
 | 3 | Deep Docks - Rosary Cache #7 |  | Nothing. |  | Verified | resource | ✓ |  |
 | 4 | Deep Docks - Rosary Cache #8 |  | Nothing. |  | Verified | resource | ✓ |  |

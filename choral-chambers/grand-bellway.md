@@ -31,10 +31,10 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Memory Locket: Choral Chambers | Secret Tunnel | none |  | Verified | collectible | ✓ | breakable wall |
-| 2 | Map Purchase: Choral Chambers | Base | rosaries 70 |  | Verified | collectible |  | one of two possible locations - hero, 9/26 |
-| 3 | Ventrica: Grand Bellway Rosary Lock | Base | rosaries 80 |  | Verified | lock |  |  |
+| 2 | Map Purchase: Choral Chambers | Base | spend 70 rosaries |  | Verified | collectible |  | one of two possible locations - hero, 9/26 |
+| 3 | Ventrica: Grand Bellway Rosary Lock | Base | spend 80 rosaries |  | Verified | lock |  |  |
 | 4 | Ventrica: Grand Bellway | Base | Unlock Ventrica: Grand Bellway Rosary Lock |  | Verified | travel |  |  |
-| 5 | Bellway: Grand Bellway Rosary Lock | Base | rosaries 80 |  | Verified | lock |  |  |
+| 5 | Bellway: Grand Bellway Rosary Lock | Base | spend 80 rosaries |  | Verified | lock |  |  |
 | 6 | Bellway: Grand Bellway | Base | Unlock Bellway Grand Bellway Rosary Lock |  | Verified | travel |  |  |
 
 ## Room Images

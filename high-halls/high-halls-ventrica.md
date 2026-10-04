@@ -23,8 +23,8 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | High Halls - Map Purchase |  | rosaries 70 |  | Verified | collectible |  |  |
-| 2 | Ventrica High Halls Rosary Lock |  | rosaries 80 |  | Verified | lock |  |  |
+| 1 | High Halls - Map Purchase |  | spend 70 rosaries |  | Verified | collectible |  |  |
+| 2 | Ventrica High Halls Rosary Lock |  | spend 80 rosaries |  | Verified | lock |  |  |
 | 3 | Ventrica High Halls |  | unlock Ventrica High Halls Rosary Lock |  | Verified | travel |  |  |
 
 ## Room Images

@@ -22,8 +22,8 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| TC | thorn crossing | floor exit area | ceiling exit area | clawline  AND silkhearts 1 AND ( faydown OR silk soar ) |  | Verified | ✓ |  |
-| TC | thorn crossing | ceiling exit area | floor exit area | ( clawline  AND ( silkhearts 2  OR ( silkhearts 1 AND ( faydown OR dash OR drifters ) ) ) ) OR ( run AND dash AND drifters AND faydown ) |  | Verified | ✓ |  |
+| TC | thorn crossing | floor exit area | ceiling exit area | clawline  AND silkhearts x 1 AND ( faydown OR silk soar ) |  | Verified | ✓ |  |
+| TC | thorn crossing | ceiling exit area | floor exit area | ( clawline  AND ( silkhearts x 2 OR ( silkhearts x 1 AND ( faydown OR dash OR drifters ) ) ) ) OR ( run AND dash AND drifters AND faydown ) |  | Verified | ✓ |  |
 
 ## Check Locations
 

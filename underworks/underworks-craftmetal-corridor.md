@@ -21,8 +21,8 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| J | Jump | Fuckass Jump Left | Fuckass Jump Right | Ledge Grab OR Clawline OR Sharpdart OR Cling Grip OR Scuttlebrace OR Sprint OR Dash OR Faydown Cloak OR Drifter's Cloak OR Easy Shaman Crest Pogo OR Easy Beast Crest Pogo OR Easy Architect Crest Pogo OR Easy Hunter Crest Pogo OR Easy Reaper Crest Pogo OR Easy Needle Strike Stall (Witch OR Wanderer) | TODO | Verified |  | why couldnt you have been TWO pixels shorter? -need hunter and reaper crest pogos |
-| J | Jump | Fuckass Jump Right | Fuckass Jump Left | Nothing. |  | Verified |  |  |
+| J | Jump | Fuckass Jump Left | Fuckass Jump Right | Ledge Grab OR Clawline OR Sharp Dart OR Cling Grip OR Scuttlebrace OR Sprint OR Dash OR Faydown Cloak OR Drifter's Cloak  OR Easy Shaman Pogo  OR Easy Beast Pogo OR Easy Architect Pogo OR Easy Hunter Pogo OR Easy Reaper Pogo  OR Easy Witch Needle Strike OR Easy Wanderer Needle Strike |  | Verified | ✓ | why couldnt you have been TWO pixels shorter? |
+| J | Jump | Fuckass Jump Right | Fuckass Jump Left | Nothing. |  | Verified | ✓ |  |
 
 ## Check Locations
 

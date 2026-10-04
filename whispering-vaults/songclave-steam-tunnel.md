@@ -12,8 +12,8 @@
 | S2 | Bottom Left | ✓ |
 | S3 | Arena | ✓ |
 | S4 | Bottom Right | ✓ |
-| S5 | Blocks | ✓ |
-| S6 | Bottom | ✓ |
+| S5 | Upper Blocks | ✓ |
+| S6 | Lower Blocks | ✓ |
 
 ## Room Transitions
 
@@ -28,18 +28,27 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LV | Left Vertical | Blocks | Arena | Silk Soar OR (Faydown Cloak AND Spike Pogo (except Witch) AND Ledge Grab) OR (Cling Grip AND (Spike Pogo OR Dash OR Sprint OR Clawline OR Drifter's Cloak OR Sharpdart)) OR (Scuttlebrace AND (Faydown Cloak OR (Dash AND Ledge Grab) OR Clawline OR Sharpdart OR Easy Beast Crest Pogo)) |  | Verified | ✓ |  |
+| LV | Left Vertical | Upper Blocks | Arena | (Faydown Cloak AND Spike Pogo (except Witch) AND Ledge Grab) OR (Cling Grip AND (Spike Pogo OR Dash OR Sprint OR Clawline OR Drifter's Cloak OR Sharpdart)) OR (Scuttlebrace AND (Faydown Cloak OR (Dash AND Ledge Grab) OR Clawline OR Sharpdart OR Easy Beast Crest Pogo)) |  | Verified | ✓ |  |
 | RV | Right Vertical | Bottom Right | Arena | Silk Soar OR Cling Grip OR (Scuttlebrace AND Faydown Cloak) |  | Verified | ✓ |  |
-| LV | Left Vertical | Arena | Blocks | Spike Pogo OR Proficient Movement (Easy Box Pogo) OR Clawline OR Faydown Cloak OR Drifter's Cloak OR Sharpdart |  | Verified | ✓ |  |
+| LV | Left Vertical | Arena | Upper Blocks | Spike Pogo OR Proficient Movement (Easy Box Pogo) OR Clawline OR Faydown Cloak OR Drifter's Cloak OR Sharpdart |  | Verified | ✓ |  |
 | RV | Right Vertical | Arena | Bottom Right | Nothing. (Fall) |  | Verified | ✓ |  |
-| IV | Invalid | Top | Bottom | Invalid |  | Verified | ✓ |  |
-| IV | Invalid | Bottom | Top | Invalid |  | Verified | ✓ |  |
+| LBL | Lower Block Left Travel | Bottom Left | Lower Blocks | Nothing |  | Verified | ✓ |  |
+| LBL | Lower Block Left Travel | Lower Blocks | Bottom Left | Nothing |  | Verified | ✓ |  |
+| LBR | Lower Block Right Travel | Lower Blocks | Bottom Right | Activate Logic Box |  | Verified | ✓ |  |
+| LBR | Lower Block Right Travel | Bottom Right | Lower Blocks | Activate Logic Box |  | Verified | ✓ |  |
+| VBT | Lower <> Upper Block | Lower Blocks | Upper Blocks | Silk Soar OR (Proficient Movement (Box Pogo) AND Faydown Cloak AND Ledge Grab) OR Cling Grip OR ((Scuttlebrace AND (Faydown Cloak OR Clawline OR Sharpdart OR ((Drifter's Cloak OR Dash) AND Ledge Grab)))) OR (Activate Logic Box AND (Faydown Cloak)) |  | Verified | ✓ |  |
+| VBT | Lower <> Upper Block | Upper Blocks | Lower Blocks | Nothing. (Fall) |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Whispering Vaults: Arena #1 | Arena | Nothing. |  | Verified | gauntlet | ✓ |  |
+| 2 | Logic Box | Bottom Right | Attack Right OR Attack Left |  | Verified | logic-point | ✓ | < add predicate |
+
+## Notes
+
+No connection from Top to the rest of the subrooms.
 
 ## Room Images
 

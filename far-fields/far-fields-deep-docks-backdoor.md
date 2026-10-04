@@ -8,9 +8,9 @@
 
 | No. | Subroom | Annotated |
 | --- | --- | --- |
-| S1 | upper area |  |
-| S2 | lower area |  |
-| S3 | platform |  |
+| S1 | upper area | ✓ |
+| S2 | lower area | ✓ |
+| S3 | platform | ✓ |
 
 ## Room Transitions
 
@@ -23,8 +23,8 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LG | ledge grabs | lower area | upper area | ledge grab OR silk soar OR faydown cloak OR clawline OR easy shaman pogo |  | Verified | ✓ |  |
-| LG | ledge grabs | upper area | lower area | none (falling) |  | Verified | ✓ |  |
+| LG1 | ledge grab 1 | lower area | upper area | ledge grab  OR silk soar  OR faydown cloak  OR clawline  OR easy shaman pogo |  | Verified | ✓ |  |
+| LG1 | ledge grab 1 | upper area | lower area | none (falling) |  | Verified | ✓ |  |
 | LG2 | ledge grab 2 | upper area | platform | ledge grab  OR silk soar  OR faydown  OR cling grip OR scuttlebrace |  | Verified | ✓ |  |
 | LG2 | ledge grab 2 | platform | upper area | none (falling) |  | Verified | ✓ |  |
 
@@ -32,8 +32,8 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | warding bell | platform | none |  | Verified | collectible |  |  |
-| 2 | Far Fields Side Chain Room Door | upper area | Break Wall Left |  | Verified | blockade |  | wall can be opened from both sides |
+| 1 | warding bell | platform | none |  | Verified | collectible | ✓ |  |
+| 2 | Far Fields Side Chain Room Door | upper area | Break Wall Left |  | Verified | blockade | ✓ | wall can be opened from both sides |
 
 ## Room Images
 

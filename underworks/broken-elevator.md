@@ -2,7 +2,7 @@
 
 **Game ID:** Under_01b
 
-**Contributors:** samupo
+**Contributors:** samupo and Rebel
 
 ## Subrooms
 
@@ -13,7 +13,7 @@ No subrooms defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | L | left1 |  | [Grand Elevator (Under_01)](../grand-gate/grand-elevator.md) | R | none |  | Verified | ✓ |  |
-| R | right1 |  | [Underworks Shaft (Under_02)](underworks-shaft.md) | L1 | Activate Locked Door |  | Verified | ✓ | one way, opens from this side |
+| R | right1 |  | [Underworks Shaft (Under_02)](underworks-shaft.md) | L1 | Activate Elevator Bench Lever |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
@@ -23,7 +23,7 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Locked Door |  | Break Wall Right | TODO | Needs verification | blockade |  | verify ingame |
+| 1 | Elevator Bench Lever |  | Flip Switch Right |  | Verified | switch | ✓ |  |
 
 ## Room Images
 

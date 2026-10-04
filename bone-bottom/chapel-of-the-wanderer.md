@@ -50,11 +50,11 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | wanderer's crest | crest room | none |  | Verified | collectible |  |  |
 | 2 | One Way Wall | lower left shaft 1 | break wall up OR break wall right |  | Verified | blockade | ✓ |  |
-| 3 | gauntlet fight | gauntlet arena | none |  | Verified | gauntlet | ✓ |  |
-| 4 | rosary cache bongrave 1 | upper left | none |  | Verified | collectible | ✓ |  |
-| 5 | rosary cache bongrave 2 | upper left | none |  | Verified | collectible | ✓ |  |
-| 6 | rosary cache bongrave 3 | upper right | none |  | Verified | collectible | ✓ |  |
-| 7 | rosary cache bongrave 4 | upper right | none |  | Verified | collectible | ✓ |  |
+| 3 | bonegrave rosary cache 1 | upper left | none |  | Verified | collectible | ✓ |  |
+| 4 | bonegrave rosary cache 2 | upper left | none |  | Verified | collectible | ✓ |  |
+| 5 | bonegrave rosary cache 3 | upper right | none |  | Verified | collectible | ✓ |  |
+| 6 | bonegrave rosary cache 4 | upper right | none |  | Verified | collectible | ✓ |  |
+| 7 | gauntlet fight | gauntlet arena | none |  | Verified | gauntlet | ✓ |  |
 
 ## Notes
 

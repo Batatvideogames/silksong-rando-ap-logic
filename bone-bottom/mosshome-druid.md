@@ -23,9 +23,9 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | berry picking wish start |  | none |  | Verified | event |  |  |
-| 2 | berry picking wish goal |  | mossberries 3 |  | Verified | event |  |  |
+| 2 | berry picking wish goal |  | get 3 mossberries |  | Verified | event |  |  |
 | 3 | druid's eye |  | complete berry picking wish goal |  | Verified | collectible |  | TRACKER POSITION WRONG AS OF v0.4.5 |
-| 4 | druid's eyes |  | mossberries 7 |  | Verified | collectible |  | TRACKER POSITION WRONG AS OF v0.4.5 |
+| 4 | druid's eyes |  | get 7 mossberries |  | Verified | collectible |  | TRACKER POSITION WRONG AS OF v0.4.5 |
 | 5 | bench |  | none |  | Verified | bench | ✓ |  |
 
 ## Room Images

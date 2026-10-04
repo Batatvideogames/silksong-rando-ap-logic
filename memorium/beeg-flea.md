@@ -23,14 +23,14 @@
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | vl | volt left | volt | left | cling grip OR silk soar |  | Verified |  |  |
-| vl | volt left | left | volt | cling grip OR (silk soar AND silkhearts 1) |  | Verified |  |  |
+| vl | volt left | left | volt | cling grip OR (silk soar AND silkhearts x 1) |  | Verified |  |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Big flea wall | left | nada |  | Verified | blockade | ✓ | custom name |
-| 2 | Flea: Memorium - Huge Flea | left | cling grip OR (silk soar AND silkhearts 1) OR (easy scuttlebrace AND clawline AND silkhearts 1 AND(ledge grab OR faydown cloak OR medium shaman pogo)) |  | Verified | collectible |  | technically should be a subroom so silkhearts arent needed one way |
+| 2 | Flea: Memorium - Huge Flea | left | cling grip OR (silk soar AND silkhearts x 1) OR (easy scuttlebrace AND clawline AND silkhearts x 1 AND (ledge grab OR faydown cloak OR medium shaman pogo)) |  | Verified | collectible |  | technically should be a subroom so silkhearts arent needed one way |
 
 ## Room Images
 

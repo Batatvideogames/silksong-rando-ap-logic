@@ -45,8 +45,8 @@
 | BR | BL to LR | Lowest Hallway | Upper Low Hallway | Silk Soar OR Easy Enemy Pogo OR Clawline OR Ledge Grab OR Faydown Cloak OR Sprint OR Cling Grip OR Scuttlebrace |  | Verified | ✓ |  |
 | CR | Collect Rosaries | Lever | Rosary Dish | Sprint OR Dash OR Clawline OR Drifter's Cloak OR Faydown Cloak OR Cling Grip OR Scuttlebrace OR Sharpdart OR Easy Beast Crest Pogo OR Easy Architect Crest Pogo OR Easy Needle Strike Stall (Beast OR Architect) |  | Verified | ✓ |  |
 | PR | Progresion! | Left Side Shaft | Lever | Silk Soar OR Cling Grip OR Scuttlebrace |  | Verified | ✓ |  |
-| LMH | Lever <> Middle Hallway | Lever | Middle Hallway | ledge Grab OR Cling Grip OR Faydown Cloak OR Silk Soar OR Scuttlebrace |  | Verified |  |  |
-| LMH | Lever <> Middle Hallway | Middle Hallway | Lever | Nothing (Fall) |  | Verified |  |  |
+| LMH | Lever <> Middle Hallway | Lever | Middle Hallway | ledge Grab OR Cling Grip OR Faydown Cloak OR Silk Soar OR Scuttlebrace |  | Verified | ✓ |  |
+| LMH | Lever <> Middle Hallway | Middle Hallway | Lever | Nothing (Fall) |  | Verified | ✓ |  |
 | MP | More Progression! | Middle Hallway | Upper Platform | (Silk Soar OR Cling Grip OR Scuttlebrace OR (Activate Whispering Vaults: Flip Switch #8 AND Faydown Cloak AND (Ledge Grab OR Easy Shaman Crest Pogo))) |  | Verified | ✓ |  |
 | MP | More Progression! | Upper Platform | Middle Hallway | Silk Soar OR Cling Grip OR Scuttlebrace |  | Verified | ✓ | accounting for the fact the player may not have activated the shortcut |
 | EMP | Even More Progression! | Upper Platform | Distant Platform | Silk Soar OR ((Cling Grip OR Scuttlebrace) AND (Faydown Cloak OR (Clawline AND (Sprint OR Dash OR Drifter's Cloak) AND Ledge Grab))) |  | Verified | ✓ |  |

@@ -23,7 +23,7 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Boss: Shrine Guardian Seth |  | Needle Upgrades 2 |  | Verified | boss | ✓ |  |
+| 1 | Boss: Shrine Guardian Seth |  | None |  | Verified | boss | ✓ |  |
 
 ## Room Images
 

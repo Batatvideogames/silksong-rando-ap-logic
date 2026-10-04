@@ -24,20 +24,20 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LC | Left-CentraL | Left Side Entrance | Central Top Shaft | Silk Soar OR Cling Grip OR Scuttlebrace OR Faydown Cloak |  | Verified |  |  |
-| LC | Left-CentraL | Central Top Shaft | Left Side Entrance | Nothing. (Fall) |  | Verified |  |  |
-| RC | Right-Central | Right Side Entrance | Central Top Shaft | Silk Soar OR Cling Grip OR Scuttlebrace OR Faydown Cloak |  | Verified |  |  |
-| RC | Right-Central | Central Top Shaft | Right Side Entrance | Nothing. (Fall) |  | Verified |  |  |
-| CL | Central-Lever | Central Top Shaft | Lever Shaft | Nothing. (fall) |  | Verified |  |  |
-| CL | Central-Lever | Lever Shaft | Central Top Shaft | Activate Underworks: Flip Switch #4 AND (Silk Soar OR Cling Grip OR Scuttlebrace OR Faydown Cloak) |  | Verified |  |  |
-| LL | Left-Lever | Left Side Entrance | Lever Shaft | (Activate Underworks: Flip Switch #4 AND (Spike Pogo OR Dash OR Sprint OR Clawline OR Sharpdart OR Faydown Cloak OR Drifter's Cloak OR Scuttlebrace)) |  | Verified |  |  |
-| LL | Left-Lever | Lever Shaft | Left Side Entrance | (Activate Underworks: Flip Switch #4 AND (Spike Pogo OR Dash OR Sprint OR Clawline OR Sharpdart OR Faydown Cloak OR Drifter's Cloak OR Scuttlebrace)) |  | Verified |  |  |
+| LC | Left-CentraL | Left Side Entrance | Central Top Shaft | Silk Soar OR Cling Grip OR Scuttlebrace OR Faydown Cloak |  | Verified | ✓ |  |
+| LC | Left-CentraL | Central Top Shaft | Left Side Entrance | Nothing. (Fall) |  | Verified | ✓ |  |
+| RC | Right-Central | Right Side Entrance | Central Top Shaft | Silk Soar OR Cling Grip OR Scuttlebrace OR Faydown Cloak |  | Verified | ✓ |  |
+| RC | Right-Central | Central Top Shaft | Right Side Entrance | Nothing. (Fall) |  | Verified | ✓ |  |
+| CL | Central-Lever | Central Top Shaft | Lever Shaft | Nothing. (fall) |  | Verified | ✓ |  |
+| CL | Central-Lever | Lever Shaft | Central Top Shaft | Activate Shaft Shortcut Lever  AND (Silk Soar OR Cling Grip OR Scuttlebrace OR Faydown Cloak) |  | Verified | ✓ |  |
+| LL | Left-Lever | Left Side Entrance | Lever Shaft | Activate Shaft Shortcut Lever  AND (Spike Pogo OR Dash OR Sprint OR Clawline OR Sharp Dart OR Faydown Cloak OR Drifter's Cloak OR Scuttlebrace) |  | Verified | ✓ |  |
+| LL | Left-Lever | Lever Shaft | Left Side Entrance | Activate Shaft Shortcut Lever  AND (Spike Pogo OR Dash OR Sprint OR Clawline OR Sharp Dart OR Faydown Cloak OR Drifter's Cloak OR Scuttlebrace) |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Underworks: Flip Switch #4 | Lever Shaft | Flip Switch Left |  | Verified | switch | ✓ |  |
+| 1 | Shaft Shortcut Lever | Lever Shaft | Nothing. |  | Verified | switch | ✓ |  |
 
 ## Room Images
 

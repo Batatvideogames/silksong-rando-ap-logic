@@ -26,8 +26,8 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | V1 | vertical access | below left exit | left exit area | silk soar OR cling grip OR ( faydown cloak AND ledge grab ) |  | Verified | ✓ |  |
 | V1 | vertical access | left exit area | below left exit | none (falling) |  | Verified | ✓ |  |
-| TC | thorn crossing | below left exit | right exit area | clawline x 4 AND silkhearts 1 AND faydown cloak |  | Verified | ✓ |  |
-| TC | thorn crossing | right exit area | below left exit | ( clawline x 4 AND faydown cloak AND silkhearts 1 ) OR ( clawline x 5 AND silkhearts 2 ) |  | Verified | ✓ |  |
+| TC | thorn crossing | below left exit | right exit area | clawline x 4 AND silkhearts x 1 AND faydown cloak |  | Verified | ✓ |  |
+| TC | thorn crossing | right exit area | below left exit | ( clawline x 4 AND faydown cloak AND silkhearts x 1 ) OR ( clawline x 5 AND silkhearts x 2 ) |  | Verified | ✓ |  |
 | SC | silk collection | right exit area | free silk | clawline x 2 |  | Verified | ✓ |  |
 | SC | silk collection | free silk | right exit area | clawline x 2 |  | Verified | ✓ |  |
 

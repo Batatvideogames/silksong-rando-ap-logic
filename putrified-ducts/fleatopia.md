@@ -47,8 +47,8 @@
 | 8 | Ecstasy of the End Wish Promised | Fleatopia | act 3 AND after THE flea caravan move to fleatopia AND silk soar AND have egg of flealia |  | Verified | event |  | one of two places to accept this wish  spreadsheet flag is vague, so using wiki requirements |
 | 9 | Ecstasy of the End Wish Granted | Fleatopia | complete Ecstasy of the End Wish Promised AND complete Flea Juggle High Score AND complete Flea Dodge High Score AND after Flea Bounce High Score |  | Verified | event | ✓ |  |
 | 10 | Pale Oil | Fleatopia | complete Ecstasy of the End Wish Granted |  | Verified | collectible | ✓ |  |
-| 11 | Fleatopia - Tool Pouch | Fleatopia | fleas 22 |  | Verified | collectible |  |  |
-| 12 | Egg of Flealia | Fleatopia | fleas 30 |  | Verified | collectible |  | All fleas |
+| 11 | Fleatopia - Tool Pouch | Fleatopia | get 22 fleas |  | Verified | collectible |  |  |
+| 12 | Egg of Flealia | Fleatopia | get 30 fleas |  | Verified | collectible |  | All fleas |
 | 13 | Reached Pale Lake | Fleatopia | none |  | Verified | logic-point |  |  |
 | 14 | Festival of the Flea | Fleatopia | complete Ecstasy of the End Wish Promised |  | Verified | logic-point |  |  |
 | 15 | Flea Juggle High Score | Fleatopia | after Festival of the Flea | TODO | Verified | event |  | these probably need movement requirements |

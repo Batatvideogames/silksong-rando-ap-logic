@@ -22,8 +22,8 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Boss: Nyleth |  | needle upgrades 2 |  | Verified | boss |  |  |
-| 2 | Pollen Heart |  | needle upgrades 2 |  | Verified | collectible |  |  |
+| 1 | Boss: Nyleth |  | None |  | Verified | boss |  |  |
+| 2 | Pollen Heart |  | None |  | Verified | collectible |  |  |
 
 ## Room Images
 

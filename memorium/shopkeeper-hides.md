@@ -1,4 +1,4 @@
-# Shopkeeper hides (Arborium_11)
+# Shopkeeper Hides (Arborium_11)
 
 **Game ID:** Arborium_11
 
@@ -23,17 +23,17 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| H | hidden area | Entrance | Main Area | (silk soar AND silkhearts 1) OR (faydown cloak AND (cling grip OR easy scuttlebrace)) |  | Verified |  |  |
+| H | hidden area | Entrance | Main Area | (silk soar AND silkhearts x 1) OR (faydown cloak AND (cling grip OR easy scuttlebrace)) |  | Verified |  |  |
 | h2 | hidden area other way | Main Area | Entrance | cling grip OR (faydown cloak AND (easy shaman pogo AND easy scuttlebrace)) |  | Verified |  | enemy pogos can be done but its a weird rng so ima leave it untouched |
 | f | fall | Memorium exit | Main Area | nada |  | Verified |  |  |
-| c | climb | Main Area | Memorium exit | (silk soar AND silkhearts 1) OR ( faydown cloak AND cling grip) |  | Verified |  | enemy pogos can be done but its a weird rng so ima leave it untouched |
-| lc | long clawline spam | Memorium exit | Entrance | drifter's cloak AND clawline AND silkhearts 1 AND (medium scuttlebrace OR (faydown cloak AND easy scuttlebrace)) |  | Verified |  |  |
+| c | climb | Main Area | Memorium exit | (silk soar AND silkhearts x 1) OR ( faydown cloak AND cling grip) |  | Verified |  | enemy pogos can be done but its a weird rng so ima leave it untouched |
+| lc | long clawline spam | Memorium exit | Entrance | drifter's cloak AND clawline AND silkhearts x 1 AND (medium scuttlebrace OR (faydown cloak AND easy scuttlebrace)) |  | Verified |  |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Memorium - Shard Bundle | Main Area | rosaries 70 |  | Verified | collectible | ✓ | swapped the subroom - as it appeared to be incorrect - hero |
+| 1 | Memorium - Shard Bundle | Main Area | spend 70 rosaries |  | Verified | collectible | ✓ | swapped the subroom - as it appeared to be incorrect - hero |
 | 2 | Memorium - Map Purchase | Entrance | none |  | Verified | collectible | ✓ | swapped the subroom - as it appeared to be incorrect - hero |
 | 3 | The Lost Merchant Wish Granted | Main Area | complete THE The Lost Merchant Wish Promised |  | Verified | event |  |  |
 
@@ -45,12 +45,12 @@ I HATE THIS ROOOOOM
 
 ### Connections
 
-[![Connections for Shopkeeper hides (Arborium_11)](../00-annotations/memorium/shopkeeper-hides-connections.png)](../00-annotations/memorium/shopkeeper-hides-connections.png)
+[![Connections for Shopkeeper Hides (Arborium_11)](../00-annotations/memorium/shopkeeper-hides-connections.png)](../00-annotations/memorium/shopkeeper-hides-connections.png)
 
 ### Checks
 
-[![Checks for Shopkeeper hides (Arborium_11)](../00-annotations/memorium/shopkeeper-hides-checks.png)](../00-annotations/memorium/shopkeeper-hides-checks.png)
+[![Checks for Shopkeeper Hides (Arborium_11)](../00-annotations/memorium/shopkeeper-hides-checks.png)](../00-annotations/memorium/shopkeeper-hides-checks.png)
 
 ### Scene
 
-[![Scene for Shopkeeper hides (Arborium_11)](../00-annotations/memorium/shopkeeper-hides-scene.png)](../00-annotations/memorium/shopkeeper-hides-scene.png)
+[![Scene for Shopkeeper Hides (Arborium_11)](../00-annotations/memorium/shopkeeper-hides-scene.png)](../00-annotations/memorium/shopkeeper-hides-scene.png)

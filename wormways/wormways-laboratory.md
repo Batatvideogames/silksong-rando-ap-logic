@@ -28,7 +28,7 @@ No subroom connections defined.
 | 4 | alchemist's assistant wish promised |  | none |  | Verified | collectible |  |  |
 | 5 | alchemist's assistant wish granted |  | complete alchemist's assistant wish promised AND complete THE plasmium bud upper west AND complete THE plasmium bud lower west AND complete THE plasmium bud lower east |  | Verified | event | ✓ |  |
 | 6 | advanced alchemy wish promised |  | act 3  AND complete alchemist's assistant wish granted |  | Verified | event |  |  |
-| 7 | advanced alchemy wish granted |  | act 3  AND complete advanced alchemy wish promised AND plasmified blood 10 |  | Verified | event |  |  |
+| 7 | advanced alchemy wish granted |  | act 3  AND complete advanced alchemy wish promised AND get 10 plasmified blood |  | Verified | event |  |  |
 | 8 | laboratory bench |  | none |  | Verified | bench | ✓ |  |
 
 ## Notes

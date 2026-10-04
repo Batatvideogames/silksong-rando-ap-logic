@@ -30,7 +30,7 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | bellway rosary lock | Bell Beast | rosaries 40 |  | Verified | lock |  |  |
+| 1 | bellway rosary lock | Bell Beast | Spend 40 rosaries |  | Verified | lock |  |  |
 | 2 | bellway breakable wall | Bell Beast | Break Wall Left |  | Verified | blockade | ✓ |  |
 | 3 | bellway deep docks | Bell Beast | unlock bellway rosary lock |  | Verified | travel |  |  |
 

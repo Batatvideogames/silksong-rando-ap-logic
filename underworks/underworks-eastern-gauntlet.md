@@ -23,18 +23,18 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| RA | Right-Arena | Right Entrance | Arena | Silk Soar OR Cling Grip OR Scuttlebrace OR Faydown Cloak |  | Verified |  |  |
-| LA | Left-Arena | Left Entrance | Arena | Activate Underworks: Lever #1 |  | Verified |  |  |
-| LA | Left-Arena | Arena | Left Entrance | Activate Underworks: Lever #1 |  | Verified |  |  |
-| RA | Right-Arena | Arena | Right Entrance | Silk Soar OR Cling Grip OR Scuttlebrace OR Faydown Cloak OR Ledge Grab OR Clawline |  | Verified |  |  |
+| RA | Right-Arena | Right Entrance | Arena | Silk Soar OR Cling Grip OR Scuttlebrace OR Faydown Cloak |  | Verified | ✓ |  |
+| LA | Left-Arena | Left Entrance | Arena | Activate Gauntlet Exit Lever |  | Verified | ✓ |  |
+| LA | Left-Arena | Arena | Left Entrance | Clear Underworks Corridor Gauntlet AND Activate Gauntlet Exit Lever |  | Verified | ✓ |  |
+| RA | Right-Arena | Arena | Right Entrance | (Clear Underworks Corridor Gauntlet AND (Silk Soar OR Cling Grip OR Scuttlebrace OR Faydown Cloak OR Ledge Grab OR Clawline)) |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Underworks: Lever #1 | Arena | Complete Underworks: Gauntlet #1 |  | Verified | switch | ✓ |  |
+| 1 | Gauntlet Exit Lever | Arena | Clear Underworks Corridor Gauntlet |  | Verified | switch | ✓ |  |
 | 2 | Underworks: Silk Spool #2 | Arena | Nothing. |  | Verified | collectible | ✓ |  |
-| 3 | Underworks: Gauntlet #1 | Arena | Nothing |  | Verified | gauntlet | ✓ |  |
+| 3 | Underworks Corridor Gauntlet | Arena | Nothing. |  | Verified | collectible | ✓ |  |
 
 ## Room Images
 

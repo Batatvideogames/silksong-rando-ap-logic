@@ -29,10 +29,10 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | crest of the hunter | eva pod | none |  | Verified | collectible |  | per a random reddit thread |
-| 2 | yellow vesticrest | eva pod | tool slots unlocked 12 |  | Verified | collectible |  | per a random reddit thread |
-| 3 | blue vesticrest | eva pod | tool slots unlocked 20 |  | Verified | collectible |  | per a random reddit thread |
-| 4 | crest of the hunter 2 | eva pod | tool slots unlocked 27 |  | Verified | collectible |  | per a random reddit thread |
-| 5 | sylphsong | eva pod | tool slots unlocked 32 |  | Verified | collectible |  | per a random reddit thread |
+| 2 | yellow vesticrest | eva pod | get 12 tool slots unlocked |  | Verified | collectible |  | per a random reddit thread |
+| 3 | blue vesticrest | eva pod | get 20 tool slots unlocked |  | Verified | collectible |  | per a random reddit thread |
+| 4 | crest of the hunter 2 | eva pod | get 27 tool slots unlocked |  | Verified | collectible |  | per a random reddit thread |
+| 5 | sylphsong | eva pod | get 32 tool slots unlocked |  | Verified | collectible |  | per a random reddit thread |
 
 ## Room Images
 

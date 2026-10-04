@@ -2,36 +2,38 @@
 
 **Game ID:** Under_03c
 
-**Contributors:** samupo
+**Contributors:** samupo and Rebel
 
 ## Subrooms
 
 | No. | Subroom | Annotated |
 | --- | --- | --- |
-| S1 | Top |  |
-| S2 | Left |  |
-| S3 | Right |  |
+| S1 | Top | ✓ |
+| S2 | Left Entry | ✓ |
+| S3 | Right Entry | ✓ |
 
 ## Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L2 | left1 | Top | [Underworks Saw Intro (Under_03b)](underworks-saw-intro.md) | R | none |  |  | ✓ |  |
-| L1 | left2 | Left | [Underworks Shard Room (Under_03)](underworks-shard-room.md) | R | none |  |  | ✓ |  |
-| R | right1 | Right | [Underworks Crushing Path (Under_04)](underworks-crushing-path.md) | L | none |  |  | ✓ |  |
+| L2 | left1 | Top | [Underworks Saw Intro (Under_03b)](underworks-saw-intro.md) | R | none |  | Verified | ✓ |  |
+| L1 | left2 | Left Entry | [Underworks Shard Room (Under_03)](underworks-shard-room.md) | R | none |  | Verified | ✓ |  |
+| R | right1 | Right Entry | [Underworks Crushing Path (Under_04)](underworks-crushing-path.md) | L | none |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| H | Horizontal | Left | Right | dash OR clawline OR faydown cloak OR (spike pogo AND ledge grab) OR (drifter's cloak AND ledge grab) | TODO |  |  |  |
-| H | Horizontal | Right | Left | dash OR clawline OR faydown cloak OR spike pogo OR drifter's cloak | TODO |  |  |  |
-| V | Vertical | Top | Left | cling grip | TODO |  |  |  |
-| V | Vertical | Left | Top | cling grip | TODO |  |  |  |
+| H | Horizontal | Left Entry | Right Entry | dash OR clawline OR Sharpdart OR faydown cloak OR Easy Architect Charge OR Easy Beast Charge OR Easy Beast Pogo OR ((Proficient Movement OR Medium Flintslate Stall OR Easy Voltvessels Stall OR Easy Plasmium Stall OR Flea Brew OR Spike Pogo OR Drifter's Cloak) AND Ledge Grab) |  | Verified | ✓ |  |
+| H | Horizontal | Right Entry | Left Entry | dash OR clawline OR Sharpdart OR faydown cloak OR spike pogo OR drifter's cloak OR Easy Architect Charge OR Easy Beast Charge OR Easy Beast Pogo OR Easy Voltvessels Stall OR Easy Plasmium Stall OR Easy Flea Brew Stall OR Flea Brew OR ((Proficient Movement OR Medium Flintslate Stall) AND Ledge Grab) |  | Verified | ✓ |  |
+| V | Vertical | Top | Left Entry | cling grip OR Scuttlebrace |  | Verified | ✓ |  |
+| V | Vertical | Left Entry | Top | cling grip OR Scuttlebrace |  | Verified | ✓ |  |
 
 ## Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Snapping Floor | Right Entry | Break Wall Down |  | Verified | blockade | ✓ |  |
 
 ## Room Images
 

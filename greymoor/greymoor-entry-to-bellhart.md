@@ -44,7 +44,7 @@
 | 3 | Flea Caravan - Spool fragment | Bottom Left Section | after flea caravan move to blasted steps |  | Verified | collectible | ✓ | reward for the move is the spool fragment |
 | 4 | Boss: Moorwing | Bottom Left Section | invalid |  | Verified | boss | ✓ | randomizer should always force moorwing at other spot for consitent logic - hero, 9/26 |
 | 5 | tied airstream | Top Section | break switch left OR break switch up OR break switch right |  | Verified | blockade | ✓ |  |
-| 6 | flea caravan move to blasted steps | Bottom Left Section | after THE flea caravan move to greymoor AND fleas 12 AND defeat THE boss last judge |  | Verified | event |  | per the wiki |
+| 6 | flea caravan move to blasted steps | Bottom Left Section | after THE flea caravan move to greymoor AND get 12 fleas AND defeat THE boss last judge |  | Verified | event |  | per the wiki |
 
 ## Room Images
 

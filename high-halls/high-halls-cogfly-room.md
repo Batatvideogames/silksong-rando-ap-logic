@@ -28,7 +28,7 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Cogfly | main area | craftmetals 1 |  | Verified | collectible |  |  |
+| 1 | Cogfly | main area | spend 1 craftmetals |  | Verified | collectible |  |  |
 | 2 | High Halls - Shell Shard Cache #1 | down the drain | none |  | Verified | collectible | ✓ |  |
 
 ## Room Images

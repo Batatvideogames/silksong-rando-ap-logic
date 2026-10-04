@@ -34,7 +34,7 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Bellway Greymoor | bellway zone | Unlock Bellway Rosary Lock |  | Verified | travel | ✓ |  |
-| 2 | Bellway Rosary Lock | bellway zone | rosaries 60 |  | Verified | lock |  |  |
+| 2 | Bellway Rosary Lock | bellway zone | Spend 60 Rosaries |  | Verified | lock |  |  |
 
 ## Room Images
 

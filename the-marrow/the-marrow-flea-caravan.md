@@ -47,7 +47,7 @@
 | 3 | door switch | behind metal gate | flip switch up |  | Verified | switch | ✓ |  |
 | 4 | survivors camps supplies wish granted | flea floor | complete THE survivors camp supplies wish promised |  | Verified | event | ✓ |  |
 | 5 | the lost fleas wish promised | flea floor | none |  | Verified | event |  | wish can be started here or at the bone bottom wish wall |
-| 6 | the lost fleas wish granted | flea floor | ( act 1 OR act 2 )  AND complete the lost fleas wish promised AND fleas 5 |  | Verified | event |  | grants caravan invite |
+| 6 | the lost fleas wish granted | flea floor | ( act 1 OR act 2 )  AND complete the lost fleas wish promised AND get 5 fleas |  | Verified | event |  | grants caravan invite |
 | 7 | flea caravan move to greymoor | flea floor | complete the lost fleas wish granted |  | Verified | event |  |  |
 
 ## Room Images

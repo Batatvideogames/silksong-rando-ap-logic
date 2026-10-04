@@ -38,9 +38,9 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | bench | ground floor | none |  | Verified | bench |  |  |
-| 2 | pin minigame 1 | ground floor | defeat THE boss widow AND rosaries 25 AND ( Act 1 OR Act 2 ) |  | Verified | event |  | requirements per the wiki - not sure if you need the straight pin to start it or not |
-| 3 | pin minigame 2 | ground floor | complete pin minigame 1 AND rosaries 25 AND ( Act 1 OR Act 2 ) |  | Verified | event |  | requirements per the wiki |
-| 4 | pin minigame 3 | ground floor | complete pin minigame 2 AND rosaries 25 AND ( Act 1 OR Act 2 ) |  | Verified | event |  | requirements per the wiki |
+| 2 | pin minigame 1 | ground floor | defeat THE boss widow AND spend 25 rosaries AND ( Act 1 OR Act 2 ) |  | Verified | event |  | requirements per the wiki - not sure if you need the straight pin to start it or not |
+| 3 | pin minigame 2 | ground floor | complete pin minigame 1 AND spend 25 rosaries AND ( Act 1 OR Act 2 ) |  | Verified | event |  | requirements per the wiki |
+| 4 | pin minigame 3 | ground floor | complete pin minigame 2 AND spend 25 rosaries AND ( Act 1 OR Act 2 ) |  | Verified | event |  | requirements per the wiki |
 | 5 | progressive tool pouch | ground floor | complete pin minigame 1 OR Act 3 |  | Verified | collectible |  | tool pouch will be available for free in act 3 if not already collected |
 | 6 | heavy rosary necklace | ground floor | complete pin minigame 2 |  | Verified | collectible |  |  |
 | 7 | straight pin | above grindle cell | none |  | Verified | collectible | ✓ |  |

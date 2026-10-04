@@ -34,7 +34,7 @@
 | 2 | Flea: Putrified Ducts - Vog | Vog Camp | None |  | Verified | collectible | ✓ |  |
 | 3 | Bellway: Putrified Ducts | Bellway | Unlock Bellway Rosary Lock |  | Verified | travel | ✓ |  |
 | 4 | Vog Floor | Vog Camp | None |  | Verified | blockade | ✓ |  |
-| 5 | Bellway Rosary Lock | Bellway | Rosaries 80 |  | Verified | lock | ✓ |  |
+| 5 | Bellway Rosary Lock | Bellway | Spend 80 Rosaries |  | Verified | lock | ✓ |  |
 
 ## Room Images
 

@@ -46,9 +46,9 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | shell shard cache deep docks 10 | left entrance | Activate Shard Bundle Wall |  | Verified | resource | ✓ |  |
 | 2 | shard bundle deep docks 2 | hidden left room | none |  | Verified | collectible | ✓ |  |
-| 3 | silkshot (forge daughter) | forge daughter | own Ruined Tool AND Craftmetals 1 |  | Verified | collectible | ✓ | forge daughter shop |
-| 4 | sting shard | forge daughter | Craftmetals 1 |  | Verified | collectible | ✓ | forge daughter shop |
-| 5 | magma bell | forge daughter | Craftmetals 1 |  | Verified | collectible | ✓ | forge daughter shop |
+| 3 | silkshot (forge daughter) | forge daughter | own Ruined Tool AND Spend 1 Craftmetals |  | Verified | collectible | ✓ | forge daughter shop |
+| 4 | sting shard | forge daughter | Spend 1 Craftmetals |  | Verified | collectible | ✓ | forge daughter shop |
+| 5 | magma bell | forge daughter | Spend 1 Craftmetals |  | Verified | collectible | ✓ | forge daughter shop |
 | 6 | crafting kit forge daughter | forge daughter | none |  | Verified | collectible | ✓ | forge daughter shop |
 | 7 | readable lore tablet forge | left entrance | open airlock left |  | Verified | lore | ✓ |  |
 | 8 | gate switch forge | forge daughter | none |  | Verified | switch | ✓ |  |

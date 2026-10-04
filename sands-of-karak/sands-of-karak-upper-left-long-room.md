@@ -34,7 +34,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Shell shard cache: Sands of Karak #3 | Shell Ledge | None |  | Verified | resource | ✓ |  |
 | 2 | Shell Shard cache: Sands of Karak #4 | Shell Ledge | None |  | Verified | resource | ✓ |  |
-| 3 | Boss: Raging Conchfly | Left Ledge | Needle Upgrades 2 |  | Verified | boss | ✓ |  |
+| 3 | Boss: Raging Conchfly | Left Ledge | None |  | Verified | boss | ✓ |  |
 
 ## Room Images
 

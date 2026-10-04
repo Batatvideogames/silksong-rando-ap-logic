@@ -22,7 +22,7 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | summoned savior boss fight |  | complete THE a vassal lost wish promised AND visit resting sites 3 |  | Verified | boss |  |  |
+| 1 | summoned savior boss fight |  | complete THE a vassal lost wish promised AND at least 3 resting sites visited |  | Verified | boss |  |  |
 
 ## Room Images
 

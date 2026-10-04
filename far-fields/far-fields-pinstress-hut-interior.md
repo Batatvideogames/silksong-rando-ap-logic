@@ -24,7 +24,7 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | bench |  | none |  | Verified | bench | ✓ |  |
 | 2 | flexible spines wish promised |  | none |  | Verified | event |  |  |
-| 3 | flexible spines wish granted |  | complete flexible spines wish promised AND flexible spines 25 |  | Verified | event |  |  |
+| 3 | flexible spines wish granted |  | complete flexible spines wish promised AND get 25 flexible spines |  | Verified | event |  |  |
 | 4 | drifters cloak |  | complete flexible spines wish granted |  | Verified | collectible |  |  |
 
 ## Room Images

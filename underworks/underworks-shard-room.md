@@ -2,7 +2,7 @@
 
 **Game ID:** Under_03
 
-**Contributors:** samupo
+**Contributors:** samupo and Rebel
 
 ## Subrooms
 
@@ -12,7 +12,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 |  | [Underworks Saw Shaft (Under_03c)](underworks-saw-shaft.md) | L1 | none | TODO |  | ✓ |  |
+| R | right1 |  | [Underworks Saw Shaft (Under_03c)](underworks-saw-shaft.md) | L1 | none |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
@@ -22,7 +22,8 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Shard Bundle: Underworks #1 |  | proficient movement OR dash OR faydown cloak OR drifter's cloak OR spike pogo OR clawline OR sharpdart | TODO |  | collectible |  |  |
+| 1 | Shard Bundle: Underworks #1 |  | Activate Shard Bundle Wall |  | Verified | collectible | ✓ |  |
+| 2 | Shard Bundle Wall |  | Break Wall Left OR Break Wall Up |  | Verified | blockade | ✓ |  |
 
 ## Room Images
 

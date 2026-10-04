@@ -8,8 +8,8 @@
 
 | No. | Subroom | Annotated |
 | --- | --- | --- |
-| S1 | Entrance |  |
-| S2 | Rosary Necklace |  |
+| S1 | Entrance | ✓ |
+| S2 | Rosary Necklace | ✓ |
 
 ## Room Transitions
 
@@ -21,8 +21,8 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| RP | Rosary Pickup | Entrance | Rosary Necklace | Ledge Grab OR Clawline OR  Cling Grip OR Scuttlebrace OR Faydown Cloak OR Silk Soar |  | Verified |  |  |
-| RP | Rosary Pickup | Rosary Necklace | Entrance | Nothing. (Fall) |  | Verified |  |  |
+| RP | Rosary Pickup | Entrance | Rosary Necklace | Ledge Grab OR Clawline OR  Cling Grip OR Scuttlebrace OR Faydown Cloak OR Silk Soar |  | Verified | ✓ |  |
+| RP | Rosary Pickup | Rosary Necklace | Entrance | Nothing. (Fall) |  | Verified | ✓ |  |
 
 ## Check Locations
 

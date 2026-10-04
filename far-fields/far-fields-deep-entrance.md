@@ -34,14 +34,14 @@
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | V1 | vertical 1 | left exit area | middle left platform | none (falling) |  | Verified | ✓ |  |
-| V1 | vertical 1 | middle left platform | left exit area | silk soar OR faydown cloak |  | Verified | ✓ |  |
+| V1 | vertical 1 | middle left platform | left exit area | silk soar OR faydown cloak OR (cling grip AND (easy flea brew stall OR easy shaman pogo)) |  | Verified | ✓ |  |
 | V2 | vertical 2 | middle left platform | lower left alcove | run OR dash OR easy beast pogo OR drifter's cloak OR faydown cloak OR clawline OR sharpdart OR scuttlebrace |  | Verified | ✓ |  |
-| V2 | vertical 2 | lower left alcove | middle left platform | ( faydown cloak AND ledge grab ) OR ( cling grip AND ( run OR dash OR drifter's cloak OR faydown cloak OR clawline OR sharpdart ) ) |  | Verified | ✓ |  |
-| G1 | gap 1 | middle left platform | plains | run OR dash OR drifter's cloak OR faydown cloak OR clawline OR sharpdart OR scuttlebrace |  | Verified | ✓ |  |
-| G1 | gap 1 | plains | middle left platform | run OR drifter's cloak OR faydown cloak OR clawline OR sharpdart OR ( dash AND ledge grab ) |  | Verified | ✓ |  |
+| V2 | vertical 2 | lower left alcove | middle left platform | ( faydown cloak AND (flea brew OR ledge grab OR easy voltvessels stall ))  OR ( cling grip AND ( run OR dash OR drifter's cloak OR faydown cloak OR clawline OR sharpdart OR (proficient movement AND easy architect pogo) ) ) |  | Verified | ✓ |  |
+| G1 | gap 1 | middle left platform | plains | run OR dash OR drifter's cloak OR faydown cloak OR clawline OR sharpdart OR scuttlebrace OR easy hunter pogo OR easy architect needle strike OR easy beast pogo OR easy beast needle strike OR flea brew OR (proficient movement AND cling grip) |  | Verified | ✓ |  |
+| G1 | gap 1 | plains | middle left platform | run OR drifter's cloak OR faydown cloak OR clawline OR sharpdart OR (ledge grab AND (dash OR easy architect needle strike)) OR (proficient movement AND cling grip AND (easy architect needle strike OR (flea brew AND easy wanderer needle strike))) |  | Verified | ✓ |  |
 | V3 | vertical 3 | plains | lower right area | none (falling) |  | Verified | ✓ |  |
 | V3 | vertical 3 | lower right area | plains | silk soar  OR faydown OR ( ledge grab AND ( run OR clawline ) ) |  | Verified | ✓ |  |
-| V4 | vertical 4 | lower right area | lower right alcove | break blast rock left AND ( spike pogo OR cling grip OR faydown cloak OR scuttlebrace OR   easy hazard respawn ) |  | Verified | ✓ | can just break it, reset from thorns and jump down again - won't work with 1 hp though :) |
+| V4 | vertical 4 | lower right area | lower right alcove | break blast rock left AND ( spike pogo OR cling grip OR faydown cloak OR scuttlebrace OR easy hazard respawn ) |  | Verified | ✓ | can just break it, reset from thorns and jump down again - won't work with 1 hp though :) |
 | V4 | vertical 4 | lower right alcove | lower right area | cling grip OR faydown cloak OR scuttlebrace |  | Verified | ✓ |  |
 | V5 | vertical 5 | lower right area | bottom exit area | none (falling) |  | Verified | ✓ |  |
 | V5 | vertical 5 | bottom exit area | lower right area | silk soar OR cling grip OR scuttlebrace ( faydown cloak AND ledge grab ) |  | Verified | ✓ |  |
@@ -57,7 +57,7 @@
 | S3 | silk soar 3 | upper right alcove | lower right area | none (falling) |  | Verified | ✓ |  |
 | G2 | gap 2 | left of right exit gate | plains upper right platform | faydown cloak AND ( run OR dash OR drifter's cloak OR clawline OR sharpdart OR scuttlebrace ) |  | Verified | ✓ |  |
 | G2 | gap 2 | plains upper right platform | left of right exit gate | run OR dash OR drifter's cloak OR faydown cloak OR clawline OR scuttlebrace OR sharpdart |  | Verified | ✓ |  |
-| V7 | vertical 7 | plains upper right platform | upper right alcove | cling grip AND faydown cloak AND ( ledge grab OR run OR dash OR drifter's cloak OR clawline OR sharpdart OR scuttlebrace ) |  | Verified | ✓ |  |
+| V7 | vertical 7 | plains upper right platform | upper right alcove | (cling grip AND faydown cloak AND ( ledge grab OR run OR dash OR drifter's cloak OR sharpdart OR scuttlebrace )) OR (proficient movement AND cling grip AND ((clawline x 3) OR faydown cloak OR (clawline AND easy beast pogo) OR (run AND dash) )) |  | Verified | ✓ |  |
 | V7 | vertical 7 | upper right alcove | plains upper right platform | none (falling) |  | Verified | ✓ |  |
 | G3 | gap 3 | plains upper left platform | plains upper right platform | faydown cloak AND clawline |  | Verified | ✓ |  |
 | G3 | gap 3 | plains upper right platform | plains upper left platform | faydown cloak AND clawline |  | Verified | ✓ |  |
@@ -75,6 +75,16 @@
 | 7 | AP Minor Cache - Rosary Cache: Far Fields #21 | upper right alcove | none |  | Verified | collectible | ✓ |  |
 | 8 | AP Minor Cache - Rosary Cache: Far Fields #22 | upper right alcove | none |  | Verified | collectible | ✓ |  |
 | 9 | far fields pale rosary necklace | upper right alcove | act 3 |  | Verified | collectible | ✓ |  |
+| 10 | hardbone hopper | plains | none |  | Verified | enemy | ✓ | shell shards |
+| 11 | hardbone hopper elder 1 | plains | none |  | Verified | enemy | ✓ | shell shards |
+| 12 | hardbone hopper elder 2 | plains | none |  | Verified | enemy | ✓ | shell shards |
+| 13 | flapping fertid 1 | plains upper right platform | none |  | Verified | enemy | ✓ | shell shards |
+| 14 | flapping fertid 2 | plains upper right platform | none |  | Verified | enemy | ✓ | shell shards |
+| 15 | skarr scout 1 | plains | none |  | Verified | enemy | ✓ | rosaries |
+| 16 | hard bone hopper 2 | plains | none |  | Verified | enemy | ✓ | shell shards |
+| 17 | skarr stalker | upper right alcove | none |  | Verified | enemy | ✓ | shell shards |
+| 18 | skarr scout 2 | plains | none |  | Verified | enemy | ✓ | rosaries |
+| 19 | fertid 1 | lower right area | none |  | Verified | enemy | ✓ | shell shards |
 
 ## Room Images
 

@@ -2,32 +2,48 @@
 
 **Game ID:** Under_07c
 
-**Contributors:** samupo
+**Contributors:** samupo and Rebel
 
 ## Subrooms
 
-No subrooms defined.
+| No. | Subroom | Annotated |
+| --- | --- | --- |
+| S1 | Rosary | ✓ |
+| S2 | Main | ✓ |
+| S3 | Frayed String | ✓ |
+| S4 | Floor | ✓ |
 
 ## Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| NF | bot1 |  | [Underworks Western Gauntlet (Under_07)](underworks-western-gauntlet.md) | NF | NOT IMPLEMENTED | TODO |  | ✓ | Haven't found any connection to bottom in Act 2. Maybe Act 3? Maybe a miss from the devs? -verify ingame |
-| L | left2 |  | [Underworks Shaft (Under_02)](underworks-shaft.md) | R4 | none | TODO |  | ✓ |  |
-| T | top1 |  | [Choral Chambers Outisde Underworks (Under_07b)](../choral-chambers/choral-chambers-outisde-underworks.md) | B | cling grip OR silk soar | TODO |  | ✓ | -definitely outdated. |
+| L | left2 | Floor | [Underworks Shaft (Under_02)](underworks-shaft.md) | R4 | none |  | Verified | ✓ |  |
+| T | top1 | Main | [Choral Chambers Outisde Underworks (Under_07b)](../choral-chambers/choral-chambers-outisde-underworks.md) | B | Open Airlock Up AND (Silk Soar OR Faydown Cloak OR Cling Grip OR Easy Scuttlebrace) |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
-No subroom connections defined.
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| FM | Floor <> Main | Floor | Main | Cling Grip OR Scuttlebrace OR Silk Soar |  | Verified | ✓ |  |
+| FM | Floor <> Main | Main | Floor | Nothing. (fall) |  | Verified | ✓ |  |
+| MS | Main <> String | Main | Frayed String | Activate Fuckass Room Wall AND (Cling Grip OR Silk Soar OR (Easy Scuttlebrace AND Spike Pogo)) |  | Verified | ✓ |  |
+| MS | Main <> String | Frayed String | Main | Activate Fuckass Room Wall |  | Verified | ✓ |  |
+| MR | Main <> Rosary | Main | Rosary | Cling Grip OR Easy Scuttlebrace |  | Verified | ✓ |  |
+| MR | Main <> Rosary | Rosary | Main | Nothing. (Fall) |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Rosary Cache: Underworks #2 |  | cling grip | TODO | Verified | collectible | ✓ |  |
-| 2 | Rosary Cache: Underworks #3 |  | cling grip | TODO | Verified | collectible |  |  |
-| 3 | Shell Shard Cache: Underworks #14 |  | cling grip AND (dash OR clawline OR sharpdart) | TODO | Verified | collectible |  |  |
-| 4 | Frayed Rosary String: Underworks #1 |  | cling grip | TODO | Verified | collectible |  |  |
+| 1 | Rosary Cache: Underworks #2 | Rosary | cling grip |  | Verified | collectible | ✓ |  |
+| 2 | Rosary Cache: Underworks #3 | Rosary | cling grip |  | Verified | collectible | ✓ |  |
+| 3 | Shell Shard Cache: Underworks #14 | Main | cling grip AND (dash OR clawline OR sharpdart) |  | Verified | collectible | ✓ |  |
+| 4 | Frayed Rosary String: Underworks #1 | Frayed String | cling grip |  | Verified | collectible | ✓ |  |
+| 5 | Fuckass Room Wall | Main | Break Wall Right |  | Verified | blockade | ✓ |  |
+
+## Notes
+
+floor connection that is seemingly not in game
 
 ## Room Images
 

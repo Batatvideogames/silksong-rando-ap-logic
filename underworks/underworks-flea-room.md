@@ -8,8 +8,8 @@
 
 | No. | Subroom | Annotated |
 | --- | --- | --- |
-| S1 | Entrance |  |
-| S2 | Flea |  |
+| S1 | Entrance | ✓ |
+| S2 | Flea | ✓ |
 
 ## Room Transitions
 
@@ -21,8 +21,8 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| FG | Flea Get | Entrance | Flea | Ledge Grab OR Clawline OR  Cling Grip OR Scuttlebrace OR Faydown Cloak OR Silk Soar |  | Verified |  |  |
-| FG | Flea Get | Flea | Entrance | Nothing. (Fall) |  | Verified |  |  |
+| FG | Flea Get | Entrance | Flea | Ledge Grab OR Clawline OR Cling Grip OR Scuttlebrace OR Faydown Cloak OR Silk Soar |  | Verified | ✓ |  |
+| FG | Flea Get | Flea | Entrance | Nothing. (Fall) |  | Verified | ✓ |  |
 
 ## Check Locations
 

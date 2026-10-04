@@ -51,8 +51,8 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | frayed rosary string moss grotto | dead ledge | none |  | Verified | collectible | ✓ |  |
-| 2 | shell shard cache moss grotto 1 | rock bottom | none |  | Verified | collectible | ✓ |  |
+| 1 | moss grotto frayed rosary string | dead ledge | none |  | Verified | collectible | ✓ |  |
+| 2 | moss grotto shell shard cache 1 | rock bottom | none |  | Verified | collectible | ✓ |  |
 | 3 | moss grotto beast shard | beast alcove | none |  | Verified | collectible | ✓ |  |
 | 4 | moss grotto rosary chest | side room | none |  | Verified | collectible | ✓ |  |
 

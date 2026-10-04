@@ -30,12 +30,12 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | V1 | vertical 1 | main floor | upper left exit | silk soar OR faydown cloak |  | Verified | ✓ | platform can be dropped to make it only ledge grab after middle platform access is granted |
 | V1 | vertical 1 | upper left exit | main floor | none (falling) |  | Verified | ✓ |  |
-| G1 | gap 1 | middle upper platform | upper left exit | run OR ledge grab OR clawline OR faydown cloak OR drifter's cloak OR  clawline OR sharpdart |  | Verified | ✓ | based on after platform falls |
-| V2 | vertical 2 | main floor | lower right exit | ledge grab OR faydown cloak OR silk soar OR scuttlebrace OR clawline OR easy shaman pogo |  | Verified | ✓ |  |
+| G1 | gap 1 | middle upper platform | upper left exit | run OR ledge grab OR clawline OR faydown cloak OR drifter's cloak OR  clawline OR sharpdart OR easy hunter pogo OR easy beast pogo OR (architect slash left AND easy architect pogo) |  | Verified | ✓ | based on after platform falls |
+| V2 | vertical 2 | main floor | lower right exit | ledge grab OR faydown cloak OR silk soar OR scuttlebrace OR easy shaman pogo OR easy beast needle strike OR cling grip |  | Verified | ✓ |  |
 | V2 | vertical 2 | lower right exit | main floor | none (falling) |  | Verified | ✓ |  |
-| V3 | vertical 3 | main floor | upper right exit | ledge grab OR faydown cloak OR silk soar OR scuttlebrace |  | Verified | ✓ |  |
+| V3 | vertical 3 | main floor | upper right exit | ledge grab OR faydown cloak OR silk soar OR scuttlebrace OR cling grip |  | Verified | ✓ |  |
 | V3 | vertical 3 | upper right exit | main floor | none (falling) |  | Verified | ✓ |  |
-| G2 | gap 2 | upper right exit | middle upper platform | run OR dash OR drifter's cloak OR faydown cloak OR silk soar OR clawline OR sharpdart OR scuttlebrace |  | Verified | ✓ |  |
+| G2 | gap 2 | upper right exit | middle upper platform | run OR dash OR drifter's cloak OR faydown cloak OR silk soar OR clawline OR sharpdart OR scuttlebrace OR (proficient movement AND (architect slash left OR cling grip OR easy wanderer needle strike)) OR easy beast pogo OR easy architect needle strike OR easy beast needle strike |  | Verified | ✓ |  |
 | G2 | gap 2 | middle upper platform | upper right exit | none (jump) |  | Verified | ✓ |  |
 | V4 | vertical 4 | main floor | middle upper platform | silk soar |  | Verified | ✓ |  |
 | V4 | vertical 4 | middle upper platform | main floor | none (falling) |  | Verified | ✓ |  |

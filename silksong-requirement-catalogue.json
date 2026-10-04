@@ -9,7 +9,7 @@
       "outputSyntax": "none",
       "notes": "For situations where a traversal has no restrictions.",
       "sortOrder": 0,
-      "aliases": "none, nothing, nada, free"
+      "aliases": "none, nothing, nada, free, zilch"
     },
     {
       "id": "1df654de-515d-5554-a398-58286e0446e1",
@@ -42,13 +42,33 @@
       "aliases": "have, own"
     },
     {
+      "id": "919f7497-1a67-484a-9b1f-e83fd10e7e7a",
+      "name": "Get",
+      "category": "Count",
+      "inputSyntax": "{predicate} {quantity} {countable}",
+      "outputSyntax": "count:{countable}:{quantity}",
+      "notes": "Used to represent an absolute number of the required countable to meet the requirement.",
+      "sortOrder": 4,
+      "aliases": "get, count, min, at least"
+    },
+    {
+      "id": "af4ea095-6a26-4766-9f89-37dcf5b1990c",
+      "name": "Spend",
+      "category": "Count",
+      "inputSyntax": "{predicate} {quantity} {countable}",
+      "outputSyntax": "spend:{countable}:{quantity}",
+      "notes": "Used in situations where the resource is consumed instead of permanently gained, and therefore requirements need to be based on cumulative counts instead of absolute counts.",
+      "sortOrder": 5,
+      "aliases": "spend"
+    },
+    {
       "id": "9e243d7a-b158-4e43-9ce5-5e1babcf6dca",
       "name": "Needle",
       "category": "Ability",
       "inputSyntax": "{predicate} {direction}",
       "outputSyntax": "capability:needle:{direction}",
       "notes": "",
-      "sortOrder": 4,
+      "sortOrder": 6,
       "aliases": "needle, hit, attack"
     },
     {
@@ -58,7 +78,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "capability:break-silk-blockade",
       "notes": "Known silk blockade breakers: defeating bell beast, silk spear, sharpdart, rune rage, weaver silkshot, pimpillo, and needle strikes from hunter, reaper, beast, or shaman.",
-      "sortOrder": 5,
+      "sortOrder": 7,
       "aliases": "break silk blockade, clear silk blockade"
     },
     {
@@ -68,7 +88,7 @@
       "inputSyntax": "{predicate} {direction}",
       "outputSyntax": "capability:break-vines:{direction}",
       "notes": "Use when you need to break vines or cut rope. Needed for attack randomization.",
-      "sortOrder": 6,
+      "sortOrder": 8,
       "aliases": "break vines, cut rope"
     },
     {
@@ -78,7 +98,7 @@
       "inputSyntax": "{predicate} {direction}",
       "outputSyntax": "capability:break-wall:{direction}",
       "notes": "Use when you need to break a wall. Needed for attack randomization.",
-      "sortOrder": 7,
+      "sortOrder": 9,
       "aliases": "break wall"
     },
     {
@@ -88,7 +108,7 @@
       "inputSyntax": "{predicate} {direction}",
       "outputSyntax": "capability:break-blast-rock:{direction}",
       "notes": "Use when you need to trigger a blast rock. Needed for attack randomization.",
-      "sortOrder": 8,
+      "sortOrder": 10,
       "aliases": "break blast rock"
     },
     {
@@ -98,7 +118,7 @@
       "inputSyntax": "{predicate} {direction}",
       "outputSyntax": "capability:break-airlock:{direction}",
       "notes": "Use when you need to flip an airlock switch. Needed for attack randomization. (Airlocks are the doors that open and close behind you in Deep Docks after you flip the lever.)",
-      "sortOrder": 9,
+      "sortOrder": 11,
       "aliases": "open airlock, break airlock, hit airlock"
     },
     {
@@ -108,7 +128,7 @@
       "inputSyntax": "{predicate} {direction}",
       "outputSyntax": "capability:break-switch:{direction}",
       "notes": "Use when you need to interact with a switch. Needed for attack randomization.",
-      "sortOrder": 10,
+      "sortOrder": 12,
       "aliases": "flip switch, flip lever, break switch, break lever, hit switch, hit lever"
     },
     {
@@ -118,7 +138,7 @@
       "inputSyntax": "{predicate} {direction}",
       "outputSyntax": "capability:look:{direction}",
       "notes": "",
-      "sortOrder": 11,
+      "sortOrder": 13,
       "aliases": "look"
     },
     {
@@ -128,7 +148,7 @@
       "inputSyntax": "{predicate} {direction}",
       "outputSyntax": "capability:move:{direction}",
       "notes": "",
-      "sortOrder": 12,
+      "sortOrder": 14,
       "aliases": "move"
     },
     {
@@ -138,7 +158,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "capability:jump",
       "notes": "",
-      "sortOrder": 13,
+      "sortOrder": 15,
       "aliases": "jump"
     },
     {
@@ -148,7 +168,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "capability:heal",
       "notes": "",
-      "sortOrder": 14,
+      "sortOrder": 16,
       "aliases": "heal, bind"
     },
     {
@@ -158,7 +178,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "capability:taunt",
       "notes": "",
-      "sortOrder": 15,
+      "sortOrder": 17,
       "aliases": "taunt, garama, shaw, adino, git gud, hegale"
     },
     {
@@ -168,7 +188,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "capability:ledge-grab",
       "notes": "",
-      "sortOrder": 16,
+      "sortOrder": 18,
       "aliases": "ledge grab"
     },
     {
@@ -178,7 +198,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "capability:swim",
       "notes": "",
-      "sortOrder": 17,
+      "sortOrder": 19,
       "aliases": "swim"
     },
     {
@@ -188,7 +208,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "capability:sprint",
       "notes": "",
-      "sortOrder": 18,
+      "sortOrder": 20,
       "aliases": "run, sprint, swift step 1, progressive swift step 1"
     },
     {
@@ -198,7 +218,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "capability:dash",
       "notes": "",
-      "sortOrder": 19,
+      "sortOrder": 21,
       "aliases": "dash, swift step 2, progressive swift step 2"
     },
     {
@@ -208,7 +228,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "capability:cling-grip",
       "notes": "",
-      "sortOrder": 20,
+      "sortOrder": 22,
       "aliases": "cling grip"
     },
     {
@@ -218,7 +238,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "capability:drifters-cloak",
       "notes": "",
-      "sortOrder": 21,
+      "sortOrder": 23,
       "aliases": "drifters cloak, drifters"
     },
     {
@@ -228,7 +248,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "capability:faydown-cloak",
       "notes": "",
-      "sortOrder": 22,
+      "sortOrder": 24,
       "aliases": "faydown cloak, faydown"
     },
     {
@@ -238,7 +258,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "capability:clawline",
       "notes": "",
-      "sortOrder": 23,
+      "sortOrder": 25,
       "aliases": "clawline"
     },
     {
@@ -248,7 +268,7 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "capability:clawline:{quantity}",
       "notes": "",
-      "sortOrder": 24,
+      "sortOrder": 26,
       "aliases": "clawline x"
     },
     {
@@ -258,7 +278,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "capability:silk-soar",
       "notes": "I will allow the typo \u0022silksoar\u0022 out of the generosity of my heart.",
-      "sortOrder": 25,
+      "sortOrder": 27,
       "aliases": "silk soar, silksoar"
     },
     {
@@ -268,7 +288,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "capability:needolin",
       "notes": "Implies ownership of the needolin and the silk to use it.",
-      "sortOrder": 26,
+      "sortOrder": 28,
       "aliases": "needolin"
     },
     {
@@ -278,7 +298,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "capability:silkspear",
       "notes": "Implies the ability to equip it and the necessary silk to use it.",
-      "sortOrder": 27,
+      "sortOrder": 29,
       "aliases": "silkspear"
     },
     {
@@ -288,7 +308,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "capability:sharpdart",
       "notes": "Implies the ability to equip it and the necessary silk to use it. I will allow \u0022sharp dart\u0022 as an alias. Not without protest.",
-      "sortOrder": 28,
+      "sortOrder": 30,
       "aliases": "sharpdart, sharp dart"
     },
     {
@@ -298,7 +318,7 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "capability:sharpdart:{quantity}",
       "notes": "This is more than having the spell sharpdart. This implies the ability to equip it and the necessary silk to use it the specified number of times.",
-      "sortOrder": 29,
+      "sortOrder": 31,
       "aliases": "sharpdart x"
     },
     {
@@ -308,7 +328,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "capability:thread-storm",
       "notes": "Implies the ability to equip it and the necessary silk to use it.",
-      "sortOrder": 30,
+      "sortOrder": 32,
       "aliases": "thread storm"
     },
     {
@@ -318,7 +338,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "capability:rune-rage",
       "notes": "Implies the ability to equip it and the necessary silk to use it.",
-      "sortOrder": 31,
+      "sortOrder": 33,
       "aliases": "rune rage"
     },
     {
@@ -328,7 +348,7 @@
       "inputSyntax": "{difficulty?} {predicate}",
       "outputSyntax": "capability:scuttlebrace:{difficulty}",
       "notes": "The unholy abomination. This implies you have the tool, dash, and the tool slot to equip scuttlebrace.",
-      "sortOrder": 32,
+      "sortOrder": 34,
       "aliases": "scuttlebrace"
     },
     {
@@ -338,7 +358,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "capability:flea-brew-jump",
       "notes": "This implies you have the tool, the tool slot to equip it, and the means of getting a refill. Part of the enhanced movement logic category that can be enabled or disabled.",
-      "sortOrder": 33,
+      "sortOrder": 35,
       "aliases": "flea brew, flea brew jump"
     },
     {
@@ -348,7 +368,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "capability:silkspeed-anklets",
       "notes": "This implies you have the tool and the tool slot to equip it.",
-      "sortOrder": 34,
+      "sortOrder": 36,
       "aliases": "silkspeed anklets, silkspeed, anklets"
     },
     {
@@ -358,7 +378,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "capability:curveclaw",
       "notes": "This implies you have the tool and the tool slot to equip it.",
-      "sortOrder": 35,
+      "sortOrder": 37,
       "aliases": "curveclaw"
     },
     {
@@ -368,7 +388,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "capability:elegy-of-the-deep",
       "notes": "Implies having the melody and the needolin to play it.",
-      "sortOrder": 36,
+      "sortOrder": 38,
       "aliases": "elegy of the deep, elegy melody, play elegy"
     },
     {
@@ -378,7 +398,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "capability:magma-bell",
       "notes": "This implies you have the tool and the tool slot to equip it.",
-      "sortOrder": 37,
+      "sortOrder": 39,
       "aliases": "magma bell"
     },
     {
@@ -388,7 +408,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "capability:needle-phial",
       "notes": "This implies you have the tool and the tool slot to equip it. Used in alchemist wishes to harvest plasmium.",
-      "sortOrder": 38,
+      "sortOrder": 40,
       "aliases": "needle phial"
     },
     {
@@ -398,7 +418,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "capability:damage-shredding",
       "notes": "Implies having and the ability to equip Sawtooth Circlet, Cogwork Wheel, Delver\u0027s Drill, Conchcutter, Beast Crest, or Architect Crest.",
-      "sortOrder": 39,
+      "sortOrder": 41,
       "aliases": "shredding damage, shred"
     },
     {
@@ -408,7 +428,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "capability:damage-skewering",
       "notes": "Implies having and being able to equip Sting Shard or Longpin. \n*Needle Phial also causes skewering damage, but should not be factored into logic because it is lost when upgrading to Plasmium Phial.",
-      "sortOrder": 40,
+      "sortOrder": 42,
       "aliases": "skewering damage, skewer"
     },
     {
@@ -418,8 +438,18 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "capability:damage-searing",
       "notes": "Implies having and being able to equip Flintslate, Pimpillo, Wispfire Lantern, or Voltvessels.",
-      "sortOrder": 41,
+      "sortOrder": 43,
       "aliases": "searing damage, sear"
+    },
+    {
+      "id": "46f3f155-b9dd-4df4-99ee-c124452abc02",
+      "name": "Silkhearts (w/ Quantity)",
+      "category": "Count",
+      "inputSyntax": "{predicate} {quantity}",
+      "outputSyntax": "count:silkhearts:{quantity}",
+      "notes": "",
+      "sortOrder": 44,
+      "aliases": "silkhearts x"
     },
     {
       "id": "537d9c2f-e302-5b47-aeb5-d4bb7c42563f",
@@ -428,7 +458,7 @@
       "inputSyntax": "{predicate} {direction}",
       "outputSyntax": "technique:hunter-crest-attack:{direction}",
       "notes": "",
-      "sortOrder": 42,
+      "sortOrder": 45,
       "aliases": "hunter attack, hunter crest attack, hunter slash"
     },
     {
@@ -438,7 +468,7 @@
       "inputSyntax": "{predicate} {direction}",
       "outputSyntax": "technique:wanderer-crest-attack:{direction}",
       "notes": "",
-      "sortOrder": 43,
+      "sortOrder": 46,
       "aliases": "wanderer attack, wanderer crest attack, wanderer slash"
     },
     {
@@ -448,7 +478,7 @@
       "inputSyntax": "{predicate} {direction}",
       "outputSyntax": "technique:beast-crest-attack:{direction}",
       "notes": "",
-      "sortOrder": 44,
+      "sortOrder": 47,
       "aliases": "beast attack, beast crest attack, beast slash"
     },
     {
@@ -458,7 +488,7 @@
       "inputSyntax": "{predicate} {direction}",
       "outputSyntax": "technique:reaper-crest-attack:{direction}",
       "notes": "",
-      "sortOrder": 45,
+      "sortOrder": 48,
       "aliases": "reaper attack, reaper crest attack, reaper slash"
     },
     {
@@ -468,7 +498,7 @@
       "inputSyntax": "{predicate} {direction}",
       "outputSyntax": "technique:witch-crest-attack:{direction}",
       "notes": "",
-      "sortOrder": 46,
+      "sortOrder": 49,
       "aliases": "witch attack, witch crest attack, witch slash"
     },
     {
@@ -478,7 +508,7 @@
       "inputSyntax": "{predicate} {direction}",
       "outputSyntax": "technique:architect-crest-attack:{direction}",
       "notes": "",
-      "sortOrder": 47,
+      "sortOrder": 50,
       "aliases": "architect attack, architect crest attack, architect slash"
     },
     {
@@ -488,7 +518,7 @@
       "inputSyntax": "{predicate} {direction}",
       "outputSyntax": "technique:shaman-crest-attack:{direction}",
       "notes": "",
-      "sortOrder": 48,
+      "sortOrder": 51,
       "aliases": "shaman attack, shaman crest attack, shaman slash"
     },
     {
@@ -498,7 +528,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:hunter-crest-pogo:{difficulty}",
       "notes": "",
-      "sortOrder": 49,
+      "sortOrder": 52,
       "aliases": "hunter pogo, hunter crest pogo"
     },
     {
@@ -508,7 +538,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:wanderer-crest-pogo:{difficulty}",
       "notes": "",
-      "sortOrder": 50,
+      "sortOrder": 53,
       "aliases": "wanderer pogo, wanderer crest pogo"
     },
     {
@@ -518,7 +548,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:beast-crest-pogo:{difficulty}",
       "notes": "",
-      "sortOrder": 51,
+      "sortOrder": 54,
       "aliases": "beast pogo, beast crest pogo"
     },
     {
@@ -528,7 +558,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:reaper-crest-pogo:{difficulty}",
       "notes": "",
-      "sortOrder": 52,
+      "sortOrder": 55,
       "aliases": "reaper pogo, reaper crest pogo"
     },
     {
@@ -538,7 +568,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:witch-crest-pogo:{difficulty}",
       "notes": "",
-      "sortOrder": 53,
+      "sortOrder": 56,
       "aliases": "witch pogo, witch crest pogo"
     },
     {
@@ -548,7 +578,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:architect-crest-pogo:{difficulty}",
       "notes": "",
-      "sortOrder": 54,
+      "sortOrder": 57,
       "aliases": "architect pogo, architect crest pogo"
     },
     {
@@ -558,7 +588,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:shaman-crest-pogo:{difficulty}",
       "notes": "",
-      "sortOrder": 55,
+      "sortOrder": 58,
       "aliases": "shaman pogo, shaman crest pogo"
     },
     {
@@ -568,7 +598,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:naked-pogo:{difficulty}",
       "notes": "",
-      "sortOrder": 56,
+      "sortOrder": 59,
       "aliases": "naked pogo, naked crest pogo, cloakless pogo"
     },
     {
@@ -578,7 +608,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "technique:hunter-crest-needle-strike:{difficulty}",
       "notes": "",
-      "sortOrder": 57,
+      "sortOrder": 60,
       "aliases": "hunter needle strike, hunter crest needle strike, hunter charge"
     },
     {
@@ -588,7 +618,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "technique:wanderer-crest-needle-strike:{difficulty}",
       "notes": "",
-      "sortOrder": 58,
+      "sortOrder": 61,
       "aliases": "wanderer needle strike, wanderer crest needle strike, wanderer charge"
     },
     {
@@ -598,7 +628,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "technique:beast-crest-needle-strike:{difficulty}",
       "notes": "",
-      "sortOrder": 59,
+      "sortOrder": 62,
       "aliases": "beast needle strike, beast crest needle strike, beast charge"
     },
     {
@@ -608,7 +638,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "technique:reaper-crest-needle-strike:{difficulty}",
       "notes": "",
-      "sortOrder": 60,
+      "sortOrder": 63,
       "aliases": "reaper needle strike, reaper crest needle strike, reaper charge"
     },
     {
@@ -618,7 +648,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "technique:witch-crest-needle-strike:{difficulty}",
       "notes": "",
-      "sortOrder": 61,
+      "sortOrder": 64,
       "aliases": "witch needle strike, witch crest needle strike, witch charge"
     },
     {
@@ -628,7 +658,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "technique:architect-crest-needle-strike:{difficulty}",
       "notes": "",
-      "sortOrder": 62,
+      "sortOrder": 65,
       "aliases": "architect needle strike, architect crest needle strike, architect charge"
     },
     {
@@ -638,7 +668,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "technique:shaman-crest-needle-strike:{difficulty}",
       "notes": "",
-      "sortOrder": 63,
+      "sortOrder": 66,
       "aliases": "shaman needle strike, shaman crest needle strike, shaman charge"
     },
     {
@@ -648,7 +678,7 @@
       "inputSyntax": "{difficulty?} {predicate}",
       "outputSyntax": "capability:enemy-pogo:{difficulty}",
       "notes": "",
-      "sortOrder": 64,
+      "sortOrder": 67,
       "aliases": "enemy pogo"
     },
     {
@@ -658,7 +688,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "capability:spike-pogo",
       "notes": "Use when a traversal requires a pogo on spikes. Needed for cloakless run randomization. Use for spike pogos that are essentially free.",
-      "sortOrder": 65,
+      "sortOrder": 68,
       "aliases": "spike pogo"
     },
     {
@@ -668,7 +698,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:wind-skip:{difficulty}",
       "notes": "Used in windy areas in Blasted Steps. Implies owning drifter\u0027s cloak. ",
-      "sortOrder": 66,
+      "sortOrder": 69,
       "aliases": "wind skip"
     },
     {
@@ -678,7 +708,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:cocoon-skip:{difficulty}",
       "notes": "\u0022We are NOT doing cocoon skip.\u0022 - Moriko Kyoho, 2026",
-      "sortOrder": 67,
+      "sortOrder": 70,
       "aliases": "cocoon skip"
     },
     {
@@ -688,7 +718,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:needle-strike-stall:{difficulty}",
       "notes": "",
-      "sortOrder": 68,
+      "sortOrder": 71,
       "aliases": "needle strike stall, charge stall"
     },
     {
@@ -698,7 +728,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:heal-stall:{difficulty}",
       "notes": "Factors in whether the user only has shaman crest.",
-      "sortOrder": 69,
+      "sortOrder": 72,
       "aliases": "heal stall"
     },
     {
@@ -708,7 +738,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:flintslate-stall:{difficulty}",
       "notes": "Implies owning and being able to equip tool.",
-      "sortOrder": 70,
+      "sortOrder": 73,
       "aliases": "flintslate stall"
     },
     {
@@ -718,7 +748,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:flea-brew-stall:{difficulty}",
       "notes": "Implies owning and being able to equip tool.",
-      "sortOrder": 71,
+      "sortOrder": 74,
       "aliases": "flea brew stall"
     },
     {
@@ -728,7 +758,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:plasmium-phial-stall:{difficulty}",
       "notes": "Implies owning and being able to equip tool.",
-      "sortOrder": 72,
+      "sortOrder": 75,
       "aliases": "plasmium phial stall, plasmium stall"
     },
     {
@@ -738,7 +768,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:voltvessels-stall:{difficulty}",
       "notes": "Implies owning and being able to equip tool.",
-      "sortOrder": 73,
+      "sortOrder": 76,
       "aliases": "voltvessels stall"
     },
     {
@@ -748,7 +778,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:drill-crystal-pogo:{difficulty}",
       "notes": "Implies owning tools delver\u0027s drill and memory crystal and being able to equip them both at the same time. Involves taking damage to create the crystal and then using the drill to gain vertical height from it. ",
-      "sortOrder": 74,
+      "sortOrder": 77,
       "aliases": "drill crystal pogo"
     },
     {
@@ -758,7 +788,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:hazard-respawn:{difficulty}",
       "notes": "Indicates the user takes advantage of a hazard respawn to cross a gap. Must be careful not to confuse with damage boost, which does not respawn the player. Quantity indicates masks of damage taken.",
-      "sortOrder": 75,
+      "sortOrder": 78,
       "aliases": "hazard respawn"
     },
     {
@@ -768,7 +798,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:damage-boost:{difficulty}",
       "notes": "Indicates the user takes advantage of a taking damage to cross a gap. Must be careful not to confuse with hazard respawn, which respawns the player. Quantity indicates masks of damage taken.",
-      "sortOrder": 76,
+      "sortOrder": 79,
       "aliases": "damage boost"
     },
     {
@@ -778,208 +808,8 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "capability:proficient-movement",
       "notes": "For situations that do not use a specific stall or skip technique, but the traversal requires a minimum skill level.",
-      "sortOrder": 77,
-      "aliases": "proficient movement"
-    },
-    {
-      "id": "39ed53fd-ccc4-5b07-8d94-6340d0deeb78",
-      "name": "Rosaries",
-      "category": "Count",
-      "inputSyntax": "{predicate} {quantity}",
-      "outputSyntax": "count:rosaries:{quantity}",
-      "notes": "",
-      "sortOrder": 78,
-      "aliases": "rosaries"
-    },
-    {
-      "id": "f0b11a2e-669a-416a-91ab-254ec8e92ec8",
-      "name": "Shell Shards",
-      "category": "Count",
-      "inputSyntax": "{predicate} {quantity}",
-      "outputSyntax": "count:shell-shards:{quantity}",
-      "notes": "",
-      "sortOrder": 79,
-      "aliases": "shell shards"
-    },
-    {
-      "id": "e5306e69-d87c-40a4-b458-ed5eed167acc",
-      "name": "Craftmetals",
-      "category": "Count",
-      "inputSyntax": "{predicate} {quantity}",
-      "outputSyntax": "count:craftmetals:{quantity}",
-      "notes": "",
       "sortOrder": 80,
-      "aliases": "craftmetals"
-    },
-    {
-      "id": "f211fc8f-37a2-4862-9171-ffcb22cb6a58",
-      "name": "Rescued Fleas",
-      "category": "Count",
-      "inputSyntax": "{predicate} {quantity}",
-      "outputSyntax": "count:fleas:{quantity}",
-      "notes": "",
-      "sortOrder": 81,
-      "aliases": "fleas, rescued fleas"
-    },
-    {
-      "id": "a475b242-b6d2-5428-bf56-2306726bdb3e",
-      "name": "Mossberries",
-      "category": "Count",
-      "inputSyntax": "{predicate} {quantity}",
-      "outputSyntax": "count:mossberries:{quantity}",
-      "notes": "",
-      "sortOrder": 82,
-      "aliases": "mossberries"
-    },
-    {
-      "id": "dd853719-b627-4306-a16b-af60a96eebbd",
-      "name": "Flexible Spines",
-      "category": "Count",
-      "inputSyntax": "{predicate} {quantity}",
-      "outputSyntax": "count:flexible-spines:{quantity}",
-      "notes": "Used for the Flexible Spines wish. The spines are an infinitely farmable resources if you have access to a Hoker enemy if you can leave then reenter the room. ",
-      "sortOrder": 83,
-      "aliases": "flexible spines"
-    },
-    {
-      "id": "1d66e2fa-e621-5d22-b81c-6273359c1d1f",
-      "name": "Pollip Hearts",
-      "category": "Count",
-      "inputSyntax": "{predicate} {quantity}",
-      "outputSyntax": "count:pollip-hearts:{quantity}",
-      "notes": "Used for the Rite of Pollip wish.",
-      "sortOrder": 84,
-      "aliases": "pollip hearts"
-    },
-    {
-      "id": "e7afb47e-5763-44c1-86e4-d541f8393823",
-      "name": "Pale Oils",
-      "category": "Count",
-      "inputSyntax": "{predicate} {quantity}",
-      "outputSyntax": "count:pale-oil:{quantity}",
-      "notes": "",
-      "sortOrder": 85,
-      "aliases": "pale oils"
-    },
-    {
-      "id": "bcbdc047-d20a-5f43-8c7f-1135269b79b7",
-      "name": "Spool Fragments",
-      "category": "Count",
-      "inputSyntax": "{predicate} {quantity}",
-      "outputSyntax": "count:spool-fragments:{quantity}",
-      "notes": "",
-      "sortOrder": 86,
-      "aliases": "spool fragments"
-    },
-    {
-      "id": "4557a957-41ae-5a35-8c26-fd7f81cf7066",
-      "name": "Silk Hearts",
-      "category": "Count",
-      "inputSyntax": "{predicate} {quantity}",
-      "outputSyntax": "count:progressive-silkheart:{quantity}",
-      "notes": "",
-      "sortOrder": 87,
-      "aliases": "silk hearts, progressive silk hearts, silkhearts"
-    },
-    {
-      "id": "c05dcf55-6210-5c74-bad4-fb7132c0f451",
-      "name": "Needle Upgrades",
-      "category": "Count",
-      "inputSyntax": "{predicate} {quantity}",
-      "outputSyntax": "count:progressive-needle-upgrade:{quantity}",
-      "notes": "",
-      "sortOrder": 88,
-      "aliases": "needle upgrades"
-    },
-    {
-      "id": "e221f7e3-7d96-42dd-89f6-b567f16e847a",
-      "name": "Pilgrim Shawls",
-      "category": "Count",
-      "inputSyntax": "{predicate} {quantity}",
-      "outputSyntax": "count:pilgrim-shawls:{quantity}",
-      "notes": "Used for the Garb of the Pilgrims wish. The following pilgrim enemies grant shawls upon defeat: pilgrim groveller, pilgrim pouncer, overgrown pilgrim, winged pilgrim, covetous pilgrim, pilgrim hulk, pilgrim hornfly, pilgrim bellbearer, winged pilgrim bellbearer, elder pilgrim, pilgrim hiker, and pilgrim guide.",
-      "sortOrder": 89,
-      "aliases": "pilgrim shawls"
-    },
-    {
-      "id": "73db4f80-5ba9-406a-93da-91a6c39158d9",
-      "name": "Flintgems",
-      "category": "Count",
-      "inputSyntax": "{predicate} {quantity}",
-      "outputSyntax": "count:flintgems:{quantity}",
-      "notes": "Used for the wish Volatile Flintbeetles.",
-      "sortOrder": 90,
-      "aliases": "flintgems"
-    },
-    {
-      "id": "ddec2c9e-dd59-4922-8ef2-28189da19697",
-      "name": "Plasmified Blood",
-      "category": "Count",
-      "inputSyntax": "{predicate} {quantity}",
-      "outputSyntax": "count:plasmified-blood:{quantity}",
-      "notes": "Used in the wish Advanced Alchemy. ",
-      "sortOrder": 91,
-      "aliases": "plasmified blood"
-    },
-    {
-      "id": "898f1dcf-f20a-4d61-9091-0bb87656acff",
-      "name": "Roach Guts",
-      "category": "Count",
-      "inputSyntax": "{predicate} {quantity}",
-      "outputSyntax": "count:roach-guts:{quantity}",
-      "notes": "Used for the wish Roach Guts.",
-      "sortOrder": 92,
-      "aliases": "roach guts"
-    },
-    {
-      "id": "8d8a75b4-bda5-4729-88b3-347413a05cd2",
-      "name": "Seared Organs",
-      "category": "Count",
-      "inputSyntax": "{predicate} {quantity}",
-      "outputSyntax": "count:seared-organs:{quantity}",
-      "notes": "Used for the Broodfeast or Runtfeast wish.",
-      "sortOrder": 93,
-      "aliases": "seared organs"
-    },
-    {
-      "id": "e4b3e6f8-60de-4711-bc80-58bc6c8e8efc",
-      "name": "Shredded Organs",
-      "category": "Count",
-      "inputSyntax": "{predicate} {quantity}",
-      "outputSyntax": "count:shredded-organs:{quantity}",
-      "notes": "Used for the Broodfeast or Runtfeast wish.",
-      "sortOrder": 94,
-      "aliases": "shredded organs"
-    },
-    {
-      "id": "6d85fce4-958a-4d13-a32e-ff24f34ce272",
-      "name": "Skewered Organs",
-      "category": "Count",
-      "inputSyntax": "{predicate} {quantity}",
-      "outputSyntax": "count:skewered-organs:{quantity}",
-      "notes": "Used for the Broodfeast or Runtfeast wish.",
-      "sortOrder": 95,
-      "aliases": "skewered organs"
-    },
-    {
-      "id": "75444340-73a9-4157-8a8d-7bd4d80a3d08",
-      "name": "Activated Bellshrines",
-      "category": "Count",
-      "inputSyntax": "{predicate} {quantity}",
-      "outputSyntax": "count:bellshrines-activated:{quantity}",
-      "notes": "Used for Last Judge fight trigger.",
-      "sortOrder": 96,
-      "aliases": "activated bellshrines"
-    },
-    {
-      "id": "f876b528-109b-5c20-aa71-74e13854ee61",
-      "name": "Tool Slots Unlocked",
-      "category": "Count",
-      "inputSyntax": "{predicate} {quantity}",
-      "outputSyntax": "count:tool-slots-unlocked:{quantity}",
-      "notes": "Used for Eva requirements. Implies having the needed crests for the number of tool slots and enough memory lockets to unlock them.",
-      "sortOrder": 97,
-      "aliases": "tool slots unlocked"
+      "aliases": "proficient movement"
     },
     {
       "id": "1ca8c951-0375-4fe3-bb43-79c80177d9fb",
@@ -988,198 +818,8 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "capability:flea-brew-speed",
       "notes": "Used for the one situation where you are actually required to use Flea Brew for its speed at the Weavenest in Far Fields to unlock the secret area. Implies having the tool, being able to equip it, and access to refills. This should not be controlled by enhanced movement settings, as this is a core part of game logic.",
-      "sortOrder": 98,
+      "sortOrder": 81,
       "aliases": "flea brew speed"
-    },
-    {
-      "id": "6df12dcf-82aa-580c-9924-eaa696894132",
-      "name": "Hunter\u0027s Journal Entries",
-      "category": "Count",
-      "inputSyntax": "{predicate} {quantity}",
-      "outputSyntax": "count:hunter-journal-entries:{quantity}",
-      "notes": "Used for Nuu\u0027s wish or Hunter\u0027s Journal completion goals. Indicates the number of unique enemies you can encounter and journal.",
-      "sortOrder": 99,
-      "aliases": "hunters journal entries"
-    },
-    {
-      "id": "63531a1c-b9de-4f64-81b6-295e5e5009c6",
-      "name": "Shakra Map Purchases",
-      "category": "Count",
-      "inputSyntax": "{predicate} {quantity}",
-      "outputSyntax": "count:shakra-map-purchases:{quantity}",
-      "notes": "Used for Trail\u0027s End wish. Must have all of Shakra\u0027s maps purchased. ",
-      "sortOrder": 100,
-      "aliases": "shakra map purchases"
-    },
-    {
-      "id": "4e56af0f-d99d-425d-bcca-cd163603bc7c",
-      "name": "Second Sentinel Encounters",
-      "category": "Count",
-      "inputSyntax": "{predicate} {quantity}",
-      "outputSyntax": "count:second-sentinel-encounters:{quantity}",
-      "notes": "Used for the Final Audience wish. All Second Sentinel Encounters locations listed in the wiki are marked as events with appropriate requirements. ",
-      "sortOrder": 101,
-      "aliases": "second sentinel encounters"
-    },
-    {
-      "id": "d8e12269-b23e-479a-ae9e-6486dc01153f",
-      "name": "Fine Pins",
-      "category": "Count",
-      "inputSyntax": "{predicate} {quantity}",
-      "outputSyntax": "count:fine-pins:{quantity}",
-      "notes": "Used for the Fine Pins wish. Dropped by Choristors and Reeds. Will need enemies that drop them/resource locations marked in logic. ",
-      "sortOrder": 102,
-      "aliases": "fine pins"
-    },
-    {
-      "id": "6efc5e19-3a0a-4c0e-960c-d7fc20b9950f",
-      "name": "Choir Cloaks",
-      "category": "Count",
-      "inputSyntax": "{predicate} {quantity}",
-      "outputSyntax": "count:choir-cloaks:{quantity}",
-      "notes": "Used for the Cloaks of the Choir wish. Dropped by Choir Pouncers, Choir Hornheads, Choir Flyers, and Choir Elders. Locations of enemies that drop them and resources will need to be marked in logic.",
-      "sortOrder": 103,
-      "aliases": "choir cloaks"
-    },
-    {
-      "id": "f1fc48ec-ff2e-45b4-8fdd-13e626f11ab9",
-      "name": "Cogheart Pieces",
-      "category": "Count",
-      "inputSyntax": "{predicate} {quantity}",
-      "outputSyntax": "count:cogheart-pieces:{quantity}",
-      "notes": "Used to activate the Second Sentinel.",
-      "sortOrder": 104,
-      "aliases": "cogheart pieces"
-    },
-    {
-      "id": "9da1d469-6d84-4927-bef0-f3cc5380fab0",
-      "name": "Threefold Melody Parts",
-      "category": "Count",
-      "inputSyntax": "{predicate} {quantity}",
-      "outputSyntax": "count:threefold-melody-parts:{quantity}",
-      "notes": "Used for Trail\u0027s End wish. Must have two out of the three at least.",
-      "sortOrder": 105,
-      "aliases": "threefold melody parts"
-    },
-    {
-      "id": "e464aeae-8814-4e44-bd59-0800ddadd5c5",
-      "name": "Maps",
-      "category": "Count",
-      "inputSyntax": "{predicate} {quantity}",
-      "outputSyntax": "count:maps:{quantity}",
-      "notes": "Used for the A Vassal Lost wish requirements.",
-      "sortOrder": 106,
-      "aliases": "maps"
-    },
-    {
-      "id": "9152c3af-ce91-457c-9b92-16ed8a8c31a2",
-      "name": "Grant Songclave Wishes",
-      "category": "Count",
-      "inputSyntax": "{predicate} {quantity}",
-      "outputSyntax": "count:grant-songclave-wishes:{quantity}",
-      "notes": "Used for various Songclave wish requirements. ",
-      "sortOrder": 107,
-      "aliases": "grant songclave wishes"
-    },
-    {
-      "id": "7b0154be-a624-428b-8805-3a57ae617d61",
-      "name": "Visit Resting Sites",
-      "category": "Count",
-      "inputSyntax": "{predicate} {quantity}",
-      "outputSyntax": "count:visit-resting-sites:{quantity}",
-      "notes": "Used in the A Vassal Lost wish requirements. Three resting sites are randomly assigned to be visited out of a pool of six sites in various locations. Visiting all three assigned sites unlocks the passage in Bonegrave to reach the Summoned Savior boss fight.",
-      "sortOrder": 108,
-      "aliases": "visit resting sites"
-    },
-    {
-      "id": "8b077960-3193-42fd-8bac-b9c7bff9437c",
-      "name": "Sold Relics",
-      "category": "Count",
-      "inputSyntax": "{predicate} {quantity}",
-      "outputSyntax": "count:sold-relics:{quantity}",
-      "notes": "Used for Restoration of Bellhart wish. Indicates how many relics have been sold to Relic Seeker Scrounge. ",
-      "sortOrder": 109,
-      "aliases": "sold relics"
-    },
-    {
-      "id": "4af4e6d4-ab97-4a77-a6fd-e5a94f7a1483",
-      "name": "Ragpelts",
-      "category": "Count",
-      "inputSyntax": "{predicate} {quantity}",
-      "outputSyntax": "count:ragpelts:{quantity}",
-      "notes": "Used in the wish Crawbug Clearing. Dropped by Craws, Tallcraws, and Squatcraws. Locations will need to be marked on the map for enemies and resources.",
-      "sortOrder": 110,
-      "aliases": "ragpelts"
-    },
-    {
-      "id": "9b820438-da1c-4bd5-bde7-f8ddb5268335",
-      "name": "Silver Bells",
-      "category": "Count",
-      "inputSyntax": "{predicate} {quantity}",
-      "outputSyntax": "count:silver-bells:{quantity}",
-      "notes": "Used for the Silver Bells wish. Silver bell gather locations will need to be marked on the map to facilitate this logic requirement.",
-      "sortOrder": 111,
-      "aliases": "silver bells"
-    },
-    {
-      "id": "929cf766-1e04-4cd2-b3d2-c6a71bcfb96a",
-      "name": "Garmond and Zaza Act 3 Encounters",
-      "category": "Count",
-      "inputSyntax": "{predicate} {quantity}",
-      "outputSyntax": "count:garmond-and-zaza-act-3-encounters:{quantity}",
-      "notes": "Used for the wish Hero\u0027s Call. Wiki indicates that the encounters must be Act 3 encounters.",
-      "sortOrder": 112,
-      "aliases": "garmond and zaza act 3 encounters"
-    },
-    {
-      "id": "8f81089b-ac57-4688-a214-15635e4ffc90",
-      "name": "Silk and Soul Points",
-      "category": "Count",
-      "inputSyntax": "{predicate} {quantity}",
-      "outputSyntax": "count:silk-and-soul-points:{quantity}",
-      "notes": "Uuuuuuuh, good luck on this one. :)",
-      "sortOrder": 113,
-      "aliases": "silk and soul points"
-    },
-    {
-      "id": "ddeca9eb-9dde-46c0-9e2a-2ac498c62135",
-      "name": "Bellhome Items",
-      "category": "Count",
-      "inputSyntax": "{predicate} {quantity}",
-      "outputSyntax": "count:bellhome-items:{quantity}",
-      "notes": "",
-      "sortOrder": 114,
-      "aliases": "bellhome items"
-    },
-    {
-      "id": "0eb66d8e-b7ce-45f9-8296-8ed3fe422938",
-      "name": "Sold Pslam Cylinders",
-      "category": "Count",
-      "inputSyntax": "{predicate} {quantity}",
-      "outputSyntax": "count:sold-psalm-cylinders:{quantity}",
-      "notes": "",
-      "sortOrder": 115,
-      "aliases": "sold pslam cylinders"
-    },
-    {
-      "id": "1ee01afb-9c11-42fe-9060-4c3c0e8876e9",
-      "name": "Destroy Void Masses",
-      "category": "Count",
-      "inputSyntax": "{predicate} {quantity}",
-      "outputSyntax": "count:destroy-void-masses:{quantity}",
-      "notes": "Used in the Dark Hearts wish. According to the wiki there are 47 void masses locations (45 in Steel Soul because the two near Styx\u0027s spot don\u0027t spawn). No drops for the quest, just a defeat counter for them. ",
-      "sortOrder": 116,
-      "aliases": "destroy void masses"
-    },
-    {
-      "id": "c0dc374f-443f-433b-872d-813c899bab18",
-      "name": "Tools",
-      "category": "Count",
-      "inputSyntax": "{predicate} {quantity}",
-      "outputSyntax": "count:tools:{quantity}",
-      "notes": "Own the specified number of tools. Required for Architect\u0027s Key.",
-      "sortOrder": 117,
-      "aliases": "tools"
     },
     {
       "id": "689ba9ed-8105-43a8-aeb1-f1cd5a828062",
@@ -1188,7 +828,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:act-1",
       "notes": "I don\u0027t think this will get used, but adding it for completeness. ",
-      "sortOrder": 118,
+      "sortOrder": 82,
       "aliases": "act i, act 1"
     },
     {
@@ -1198,7 +838,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:act-2",
       "notes": "",
-      "sortOrder": 119,
+      "sortOrder": 83,
       "aliases": "act ii, act 2"
     },
     {
@@ -1208,8 +848,28 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:act-3",
       "notes": "",
-      "sortOrder": 120,
+      "sortOrder": 84,
       "aliases": "act iii, act 3"
+    },
+    {
+      "id": "35b7a3b8-90cf-458e-a7ef-102437a151ed",
+      "name": "Normal World Enemy Spawn",
+      "category": "State",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "state:enemy-spawn-normal-world",
+      "notes": "Acts 1 and 2. Used for enemy spawn requirements. Indicates the enemy only spawns in the normal world scene.",
+      "sortOrder": 85,
+      "aliases": "normal world spawn"
+    },
+    {
+      "id": "435876b6-bd52-4ae3-a5d0-61a28c14dc01",
+      "name": "Black Thread World Enemy Spawn",
+      "category": "State",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "state:enemy-spawn-black-thread-world",
+      "notes": "Act 3. Used for enemy spawn requirements. Indicates the enemy only spawns in the black thread world scene.",
+      "sortOrder": 86,
+      "aliases": "black thread world spawn"
     },
     {
       "id": "293ea632-6df0-41bf-8991-b8b19114ac36",
@@ -1218,7 +878,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:craw-summons-ready",
       "notes": "Ready to receive Craw Summons at an eligible bench spot. Created a predicate because there is not a singular spot to define the logic. Implies proper story progression, but not eligible bench access. Bench access logic is applied by using this requirement on the check location.\n\n\u0022To receive the Craw Summons, Hornet must have reached Act 3, completed the SEEK: Awaiting the End objective, and hit the lever inside the Craw house on Craw Lake.\u0022 - per the wiki",
-      "sortOrder": 121,
+      "sortOrder": 87,
       "aliases": "craw summons ready"
     },
     {
@@ -1228,7 +888,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:visit-shellwood",
       "notes": "Used for the wish Volatile Flintbeetles.",
-      "sortOrder": 122,
+      "sortOrder": 88,
       "aliases": "visit shellwood"
     },
     {
@@ -1238,7 +898,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:visit-greymoor",
       "notes": "Used for the wish Volatile Flintbeetles.",
-      "sortOrder": 123,
+      "sortOrder": 89,
       "aliases": "visit greymoor"
     },
     {
@@ -1248,7 +908,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:visit-sinners-road",
       "notes": "",
-      "sortOrder": 124,
+      "sortOrder": 90,
       "aliases": "visit sinners road"
     },
     {
@@ -1258,7 +918,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:visit-blasted-steps",
       "notes": "",
-      "sortOrder": 125,
+      "sortOrder": 91,
       "aliases": "visit blasted steps"
     },
     {
@@ -1268,7 +928,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:visit-the-citadel",
       "notes": "Used for the wish An Icon of Hope. In-game flag is tied to citadelWoken. Good luck.",
-      "sortOrder": 126,
+      "sortOrder": 92,
       "aliases": "visit the citadel"
     },
     {
@@ -1278,7 +938,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:visit-whiteward",
       "notes": "Used for the wish Balm for the Wounded.",
-      "sortOrder": 127,
+      "sortOrder": 93,
       "aliases": "visit whiteward"
     },
     {
@@ -1288,7 +948,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "setting:steel-soul-on",
       "notes": "",
-      "sortOrder": 128,
+      "sortOrder": 94,
       "aliases": "steel soul on, steel soul, ooo look at me im so good at the game"
     },
     {
@@ -1298,7 +958,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "setting:steel-soul-off",
       "notes": "",
-      "sortOrder": 129,
+      "sortOrder": 95,
       "aliases": "steel soul off"
     },
     {
@@ -1308,7 +968,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "setting:bellshrinesanity-on",
       "notes": "",
-      "sortOrder": 130,
+      "sortOrder": 96,
       "aliases": "bellshrinesanity on"
     },
     {
@@ -1318,7 +978,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "setting:bellshrinesanity-off",
       "notes": "",
-      "sortOrder": 131,
+      "sortOrder": 97,
       "aliases": "bellshrinesanity off"
     },
     {
@@ -1328,7 +988,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "setting:bossanity-on",
       "notes": "",
-      "sortOrder": 132,
+      "sortOrder": 98,
       "aliases": "bossanity on"
     },
     {
@@ -1338,7 +998,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "setting:bossanity-off",
       "notes": "",
-      "sortOrder": 133,
+      "sortOrder": 99,
       "aliases": "bossanity off"
     },
     {
@@ -1348,7 +1008,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "setting:wishsanity-on",
       "notes": "",
-      "sortOrder": 134,
+      "sortOrder": 100,
       "aliases": "wishsanity on"
     },
     {
@@ -1358,7 +1018,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "setting:wishsanity-off",
       "notes": "",
-      "sortOrder": 135,
+      "sortOrder": 101,
       "aliases": "wishsanity off"
     }
   ],
@@ -4427,21 +4087,21 @@
     },
     {
       "id": "ad4bc43b-635a-432a-9a03-cb66ec486554",
-      "name": "Sold Relics",
+      "name": "Relics Turned In",
       "category": "Collectible",
-      "outputValue": "sold-relics",
+      "outputValue": "relics-turned-in",
       "notes": "Used for Restoration of Bellhart wish. Indicates how many relics have been sold to Relic Seeker Scrounge. ",
       "sortOrder": 12,
-      "aliases": "sold relics"
+      "aliases": "relics turned in"
     },
     {
       "id": "a2889ee9-b523-4734-a04c-a0d4f8b8e1ef",
-      "name": "Sold Pslam Cylinders",
+      "name": "Psalm Cylinders Turned In",
       "category": "Collectible",
-      "outputValue": "sold-psalm-cylinders",
+      "outputValue": "psalm-cylinders-turned-in",
       "notes": "",
       "sortOrder": 13,
-      "aliases": "sold pslam cylinders"
+      "aliases": "psalm cylinders turned in"
     },
     {
       "id": "9d5b7cfd-61ea-4ac7-9b61-7e2f5a032e03",
@@ -4553,12 +4213,12 @@
     },
     {
       "id": "e74d2165-2d11-49e6-9197-d398f9c13634",
-      "name": "Activated Bellshrines",
+      "name": "Bellshrines Activated",
       "category": "Wish",
       "outputValue": "bellshrines-activated",
       "notes": "Used for Last Judge fight trigger.",
       "sortOrder": 26,
-      "aliases": "activated bellshrines"
+      "aliases": "bellshrines activated"
     },
     {
       "id": "5b0f2f7c-0169-40ca-9b59-11fb0470ecc1",
@@ -4598,12 +4258,12 @@
     },
     {
       "id": "cbd086c6-4bc6-4ac7-a642-bded3048ba4a",
-      "name": "Visit Resting Sites",
+      "name": "Resting Sites Visited",
       "category": "Wish",
       "outputValue": "visit-resting-sites",
       "notes": "Used in the A Vassal Lost wish requirements. Three resting sites are randomly assigned to be visited out of a pool of six sites in various locations. Visiting all three assigned sites unlocks the passage in Bonegrave to reach the Summoned Savior boss fight.",
       "sortOrder": 31,
-      "aliases": "visit resting sites"
+      "aliases": "resting sites visited"
     },
     {
       "id": "ff11251c-868b-44a6-a0ac-8401058b4d1b",
@@ -4630,7 +4290,7 @@
       "outputValue": "grant-songclave-wishes",
       "notes": "Used for various Songclave wish requirements. ",
       "sortOrder": 34,
-      "aliases": "grant songclave wishes"
+      "aliases": "songclave wishes granted"
     },
     {
       "id": "86f047fc-8c1d-41c3-8314-5acc5567ad99",
@@ -4661,12 +4321,12 @@
     },
     {
       "id": "7aaa46f4-12db-4fb0-8048-c8a00e3b833c",
-      "name": "Destroy Void Masses",
+      "name": "Void Masses Destroyed",
       "category": "Enemies",
       "outputValue": "destroy-void-masses",
       "notes": "Used in the Dark Hearts wish. According to the wiki there are 47 void masses locations (45 in Steel Soul because the two near Styx\u0027s spot don\u0027t spawn). No drops for the quest, just a defeat counter for them. ",
       "sortOrder": 38,
-      "aliases": "destroy void masses"
+      "aliases": "void masses destroyed"
     },
     {
       "id": "b0aa8de5-57c6-4bfa-88ba-1baf981656f2",
@@ -4682,305 +4342,305 @@
     {
       "id": "62472664-7819-40eb-be5a-368bf16f5b20",
       "name": "Mossgrub",
-      "category": null,
-      "outputValue": "",
+      "category": "Moss Grotto",
+      "outputValue": "MossBone Crawler",
       "notes": "",
       "sortOrder": 0,
-      "aliases": "Mossgrub"
+      "aliases": "Mossgrub, MossBone Crawler"
     },
     {
       "id": "b3cae439-bd24-4ae5-9e6f-ca3ae99d8675",
       "name": "Massive Mossgrub",
-      "category": null,
-      "outputValue": "",
+      "category": "Memorium",
+      "outputValue": "MossBone Crawler Fat",
       "notes": "",
       "sortOrder": 1,
-      "aliases": "Massive Mossgrub"
+      "aliases": "Massive Mossgrub, MossBone Crawler Fat"
     },
     {
       "id": "4704d89e-db92-43d6-a514-980d7580f4d0",
       "name": "Mossmir",
-      "category": null,
-      "outputValue": "",
+      "category": "Moss Grotto",
+      "outputValue": "MossBone Fly",
       "notes": "",
       "sortOrder": 2,
-      "aliases": "Mossmir"
+      "aliases": "Mossmir, MossBone Fly"
     },
     {
       "id": "393b8df5-f8c8-430b-a0eb-ad3450a01ba0",
       "name": "Moss Mother",
-      "category": null,
-      "outputValue": "",
+      "category": "Bosses",
+      "outputValue": "MossBone Mother",
       "notes": "",
       "sortOrder": 3,
-      "aliases": "Moss Mother"
+      "aliases": "Moss Mother, MossBone Mother"
     },
     {
       "id": "03a2f449-1b85-4f02-ae04-ae10e0833381",
       "name": "Aknid",
-      "category": null,
-      "outputValue": "",
+      "category": "Moss Grotto",
+      "outputValue": "Aspid Collector",
       "notes": "",
       "sortOrder": 4,
-      "aliases": "Aknid"
+      "aliases": "Aknid, Aspid Collector"
     },
     {
       "id": "93520619-cd62-4422-8568-109174b5749b",
       "name": "Skull Scuttler",
-      "category": null,
-      "outputValue": "",
+      "category": "The Marrow",
+      "outputValue": "Bone Goomba",
       "notes": "",
       "sortOrder": 5,
-      "aliases": "Skull Scuttler"
+      "aliases": "Skull Scuttler, Bone Goomba"
     },
     {
       "id": "2cea0ab6-fcc8-42c1-be42-0862ba2cd98f",
       "name": "Skullwing",
-      "category": null,
-      "outputValue": "",
+      "category": "The Marrow",
+      "outputValue": "Bone Goomba Bounce Fly",
       "notes": "",
       "sortOrder": 6,
-      "aliases": "Skullwing"
+      "aliases": "Skullwing, Bone Goomba Bounce Fly"
     },
     {
       "id": "58b5f57e-476e-4164-83fc-80f4538be3aa",
       "name": "Skull Brute",
-      "category": null,
-      "outputValue": "",
+      "category": "The Marrow",
+      "outputValue": "Bone Goomba Large",
       "notes": "",
       "sortOrder": 7,
-      "aliases": "Skull Brute"
+      "aliases": "Skull Brute, Bone Goomba Large"
     },
     {
       "id": "4d219cbf-84d2-4034-bf81-5294c49c8856",
       "name": "Skull Tyrant",
-      "category": null,
-      "outputValue": "",
+      "category": "Bosses",
+      "outputValue": "Skull King",
       "notes": "",
       "sortOrder": 8,
-      "aliases": "Skull Tyrant"
+      "aliases": "Skull Tyrant, Skull King"
     },
     {
       "id": "dec15e23-860e-4675-9680-9b63be7c532d",
       "name": "Kilik",
-      "category": null,
-      "outputValue": "",
+      "category": "The Marrow",
+      "outputValue": "Bone Crawler",
       "notes": "",
       "sortOrder": 9,
-      "aliases": "Kilik"
+      "aliases": "Kilik, Bone Crawler"
     },
     {
       "id": "e6e502a5-d901-4585-a4db-89599d3b1cba",
       "name": "Beastfly",
-      "category": null,
-      "outputValue": "",
+      "category": "The Marrow",
+      "outputValue": "Bone Flyer",
       "notes": "",
       "sortOrder": 10,
-      "aliases": "Beastfly"
+      "aliases": "Beastfly, Bone Flyer"
     },
     {
       "id": "c50ab9df-7dab-4a4a-89e9-8da5591dec5c",
       "name": "Savage Beastfly",
-      "category": null,
-      "outputValue": "",
+      "category": "Bosses",
+      "outputValue": "Bone Flyer Giant",
       "notes": "",
       "sortOrder": 11,
-      "aliases": "Savage Beastfly"
+      "aliases": "Savage Beastfly, Bone Flyer Giant"
     },
     {
       "id": "e94fd2bf-2729-4e68-9748-2bfb78559f59",
       "name": "Caranid",
-      "category": null,
-      "outputValue": "",
+      "category": "The Marrow",
+      "outputValue": "Bone Circler",
       "notes": "",
       "sortOrder": 12,
-      "aliases": "Caranid"
+      "aliases": "Caranid, Bone Circler"
     },
     {
       "id": "fa8532e7-dde5-4f30-92cc-8143cab7371f",
       "name": "Vicious Caranid",
-      "category": null,
-      "outputValue": "",
+      "category": "Deep Docks",
+      "outputValue": "Bone Circler Vicious",
       "notes": "",
       "sortOrder": 13,
-      "aliases": "Vicious Caranid"
+      "aliases": "Vicious Caranid, Bone Circler Vicious"
     },
     {
       "id": "f52d6ec4-9606-4811-8359-acf14516c550",
       "name": "Hardbone Hopper",
-      "category": null,
-      "outputValue": "",
+      "category": "Deep Docks",
+      "outputValue": "Bone Hopper",
       "notes": "",
       "sortOrder": 14,
-      "aliases": "Hardbone Hopper"
+      "aliases": "Hardbone Hopper, Bone Hopper"
     },
     {
       "id": "ce3e2388-28f5-4fec-9e45-cfa78ae7ad8f",
       "name": "Hardbone Elder",
-      "category": null,
-      "outputValue": "",
+      "category": "Far Fields",
+      "outputValue": "Bone Hopper Giant",
       "notes": "",
       "sortOrder": 15,
-      "aliases": "Hardbone Elder"
+      "aliases": "Hardbone Elder, Bone Hopper Giant"
     },
     {
       "id": "5e9bda53-b3db-4ab2-b5e1-18b30bd7ddab",
       "name": "Tarmite",
-      "category": null,
-      "outputValue": "",
+      "category": "Far Fields",
+      "outputValue": "Bone Spitter",
       "notes": "",
       "sortOrder": 16,
-      "aliases": "Tarmite"
+      "aliases": "Tarmite, Bone Spitter"
     },
     {
       "id": "c8dc9cc9-cb6a-4b82-b2b2-ccc7c987fe45",
       "name": "Mawling",
-      "category": null,
-      "outputValue": "",
+      "category": "Moss Grotto",
+      "outputValue": "Bone Roller",
       "notes": "",
       "sortOrder": 17,
-      "aliases": "Mawling"
+      "aliases": "Mawling, Bone Roller"
     },
     {
       "id": "c5fa6be0-aadf-441b-ac7b-de01e53499cb",
       "name": "Marrowmaw",
-      "category": null,
-      "outputValue": "",
+      "category": "Moss Grotto",
+      "outputValue": "Bone Thumper",
       "notes": "",
       "sortOrder": 18,
-      "aliases": "Marrowmaw"
+      "aliases": "Marrowmaw, Bone Thumper"
     },
     {
       "id": "6457a7af-28a1-4e15-8284-321136094686",
       "name": "Hoker",
-      "category": null,
-      "outputValue": "",
+      "category": "Far Fields",
+      "outputValue": "Spine Floater",
       "notes": "",
       "sortOrder": 19,
-      "aliases": "Hoker"
+      "aliases": "Hoker, Spine Floater"
     },
     {
       "id": "b0fdaf52-73d5-45a6-8714-8bc4fc5ef223",
       "name": "Flintbeetle",
-      "category": null,
-      "outputValue": "",
+      "category": "The Marrow",
+      "outputValue": "Rock Roller",
       "notes": "",
       "sortOrder": 20,
-      "aliases": "Flintbeetle"
+      "aliases": "Flintbeetle, Rock Roller"
     },
     {
       "id": "19a636bd-2c16-431f-a2ec-8139dff17ec9",
       "name": "Rhinogrund",
-      "category": null,
-      "outputValue": "",
+      "category": "Far Fields",
+      "outputValue": "Rhino",
       "notes": "",
       "sortOrder": 21,
-      "aliases": "Rhinogrund"
+      "aliases": "Rhinogrund, Rhino"
     },
     {
       "id": "7345a294-b46f-4bfa-a5ca-8aefb2745236",
       "name": "Gromling",
-      "category": null,
-      "outputValue": "",
+      "category": "Wormways",
+      "outputValue": "Crypt Worm",
       "notes": "",
       "sortOrder": 22,
-      "aliases": "Gromling"
+      "aliases": "Gromling, Crypt Worm"
     },
     {
       "id": "8ba53ad9-036c-48d5-bd73-2c4e61157abb",
       "name": "Grom",
-      "category": null,
-      "outputValue": "",
+      "category": "Wormways",
+      "outputValue": "Bone Worm",
       "notes": "",
       "sortOrder": 23,
-      "aliases": "Grom"
+      "aliases": "Grom, Bone Worm"
     },
     {
       "id": "67cd2230-2f67-4ec1-840c-269b56d847ca",
       "name": "Bell Beast",
-      "category": null,
-      "outputValue": "",
+      "category": "Bosses",
+      "outputValue": "Bone Beast",
       "notes": "",
       "sortOrder": 24,
-      "aliases": "Bell Beast"
+      "aliases": "Bell Beast, Bone Beast"
     },
     {
       "id": "bfae4336-f3fd-4730-b1e6-16e0ce2829e7",
       "name": "Pilgrim Groveller",
-      "category": null,
-      "outputValue": "",
+      "category": "The Marrow",
+      "outputValue": "Pilgrim 03",
       "notes": "",
       "sortOrder": 25,
-      "aliases": "Pilgrim Groveller"
+      "aliases": "Pilgrim Groveller, Pilgrim 03"
     },
     {
       "id": "fcaaec93-d853-4fe5-91d7-3a662fbcdbad",
       "name": "Pilgrim Pouncer",
-      "category": null,
-      "outputValue": "",
+      "category": "The Marrow",
+      "outputValue": "Pilgrim 01",
       "notes": "",
       "sortOrder": 26,
-      "aliases": "Pilgrim Pouncer"
+      "aliases": "Pilgrim Pouncer, Pilgrim 01"
     },
     {
       "id": "f7c5371e-d5f3-4004-9ae0-747bb4b946f3",
       "name": "Pilgrim Hornfly",
-      "category": null,
-      "outputValue": "",
+      "category": "Far Fields",
+      "outputValue": "Pilgrim 04",
       "notes": "",
       "sortOrder": 27,
-      "aliases": "Pilgrim Hornfly"
+      "aliases": "Pilgrim Hornfly, Pilgrim 04"
     },
     {
       "id": "d1d79cb6-532d-4952-9ef3-6a5f5dc5b52a",
       "name": "Pilgrim Hulk",
-      "category": null,
-      "outputValue": "",
+      "category": "Far Fields",
+      "outputValue": "Pilgrim 02",
       "notes": "",
       "sortOrder": 28,
-      "aliases": "Pilgrim Hulk"
+      "aliases": "Pilgrim Hulk, Pilgrim 02"
     },
     {
       "id": "c0de544b-b881-410c-95e2-ad50e61f74f2",
       "name": "Pilgrim Bellbearer",
-      "category": null,
-      "outputValue": "",
+      "category": "Greymoor",
+      "outputValue": "Pilgrim Bell Thrower",
       "notes": "",
       "sortOrder": 29,
-      "aliases": "Pilgrim Bellbearer"
+      "aliases": "Pilgrim Bellbearer, Pilgrim Bell Thrower"
     },
     {
       "id": "2a5f078e-0cef-46dd-b8f9-0ecb475257fd",
       "name": "Winged Pilgrim",
-      "category": null,
-      "outputValue": "",
+      "category": "The Marrow",
+      "outputValue": "Pilgrim Fly",
       "notes": "",
       "sortOrder": 30,
-      "aliases": "Winged Pilgrim"
+      "aliases": "Winged Pilgrim, Pilgrim Fly"
     },
     {
       "id": "0f1894c0-4e97-407f-8a66-a4e6dc43c0ca",
       "name": "Elder Pilgrim",
-      "category": null,
-      "outputValue": "",
+      "category": "The Marrow",
+      "outputValue": "Pilgrim 05",
       "notes": "",
       "sortOrder": 31,
-      "aliases": "Elder Pilgrim"
+      "aliases": "Elder Pilgrim, Pilgrim 05"
     },
     {
       "id": "621afc23-7c59-46f1-be6f-df1bf2f04e58",
       "name": "Winged Pilgrim Bellbearer",
-      "category": null,
-      "outputValue": "",
+      "category": "Shellwood",
+      "outputValue": "Pilgrim Bellthrower Fly",
       "notes": "",
       "sortOrder": 32,
-      "aliases": "Winged Pilgrim Bellbearer"
+      "aliases": "Winged Pilgrim Bellbearer, Pilgrim Bellthrower Fly"
     },
     {
       "id": "8d58da74-27eb-4110-983b-9526c60addf6",
       "name": "Pilgrim Hiker",
-      "category": null,
-      "outputValue": "",
+      "category": "Blasted Steps",
+      "outputValue": "Pilgrim Hiker",
       "notes": "",
       "sortOrder": 33,
       "aliases": "Pilgrim Hiker"
@@ -4988,107 +4648,107 @@
     {
       "id": "a887f0f8-eaaa-4182-b36f-e50c6a7f2bc3",
       "name": "Pilgrim Guide",
-      "category": null,
-      "outputValue": "",
+      "category": "Greymoor",
+      "outputValue": "Pilgrim StaffWielder",
       "notes": "",
       "sortOrder": 34,
-      "aliases": "Pilgrim Guide"
+      "aliases": "Pilgrim Guide, Pilgrim StaffWielder"
     },
     {
       "id": "61418733-e7a0-4006-93c7-4a44f98b6c46",
       "name": "Overgrown Pilgrim",
-      "category": null,
-      "outputValue": "",
+      "category": "Moss Grotto",
+      "outputValue": "Pilgrim Moss Spitter",
       "notes": "",
       "sortOrder": 35,
-      "aliases": "Overgrown Pilgrim"
+      "aliases": "Overgrown Pilgrim, Pilgrim Moss Spitter"
     },
     {
       "id": "11907bde-1149-43a9-a3d7-6101f450f66b",
       "name": "Covetous Pilgrim",
-      "category": null,
-      "outputValue": "",
+      "category": "Shellwood",
+      "outputValue": "Rosary Pilgrim",
       "notes": "",
       "sortOrder": 36,
-      "aliases": "Covetous Pilgrim"
+      "aliases": "Covetous Pilgrim, Rosary Pilgrim"
     },
     {
       "id": "52522126-180c-46d6-93df-3d47f6e05592",
       "name": "Snitchfly",
-      "category": null,
-      "outputValue": "",
+      "category": "High Halls",
+      "outputValue": "Rosary Thief",
       "notes": "",
       "sortOrder": 37,
-      "aliases": "Snitchfly"
+      "aliases": "Snitchfly, Rosary Thief"
     },
     {
       "id": "82a4024e-6078-480c-9820-e470fa2cd68f",
       "name": "Lavalug",
-      "category": null,
-      "outputValue": "",
+      "category": "Deep Docks",
+      "outputValue": "Tar Slug",
       "notes": "",
       "sortOrder": 38,
-      "aliases": "Lavalug"
+      "aliases": "Lavalug, Tar Slug"
     },
     {
       "id": "d90ec07d-380a-42b7-9c56-bd2eeb0af3f8",
       "name": "Lavalarga",
-      "category": null,
-      "outputValue": "",
+      "category": "Deep Docks",
+      "outputValue": "Tar Slug Huge",
       "notes": "",
       "sortOrder": 39,
-      "aliases": "Lavalarga"
+      "aliases": "Lavalarga, Tar Slug Huge"
     },
     {
       "id": "67db53d9-8004-49a6-955c-369b053abe84",
       "name": "Smelt Shoveller",
-      "category": null,
-      "outputValue": "",
+      "category": "Deep Docks",
+      "outputValue": "Dock Worker",
       "notes": "",
       "sortOrder": 40,
-      "aliases": "Smelt Shoveller"
+      "aliases": "Smelt Shoveller, Dock Worker"
     },
     {
       "id": "fc3e7e15-1e61-4934-a7e8-4ed2e4050384",
       "name": "Flintstone Flyer",
-      "category": null,
-      "outputValue": "",
+      "category": "Deep Docks",
+      "outputValue": "Dock Flyer",
       "notes": "",
       "sortOrder": 41,
-      "aliases": "Flintstone Flyer"
+      "aliases": "Flintstone Flyer, Dock Flyer"
     },
     {
       "id": "b6f285c9-25de-476e-ba70-ade9cf4d9978",
       "name": "Flintflame Flyer",
-      "category": null,
-      "outputValue": "",
+      "category": "Deep Docks",
+      "outputValue": "Dock Bomber",
       "notes": "",
       "sortOrder": 42,
-      "aliases": "Flintflame Flyer"
+      "aliases": "Flintflame Flyer, Dock Bomber"
     },
     {
       "id": "2783bf38-dfb4-4231-bc61-245ad523025a",
       "name": "Smokerock Sifter",
-      "category": null,
-      "outputValue": "",
+      "category": "Deep Docks",
+      "outputValue": "Shield Dock Worker",
       "notes": "",
       "sortOrder": 43,
-      "aliases": "Smokerock Sifter"
+      "aliases": "Smokerock Sifter, Shield Dock Worker"
     },
     {
       "id": "5a7e6c06-f105-418a-9d53-feb4795c8f8b",
       "name": "Deep Diver",
-      "category": null,
-      "outputValue": "",
+      "category": "Deep Docks",
+      "outputValue": "Dock Charger",
       "notes": "",
       "sortOrder": 44,
-      "aliases": "Deep Diver"
+      "aliases": "Deep Diver, Dock Charger"
     },
     {
       "id": "271dd674-500e-4f5c-820b-ff9a5ece2fdc",
       "name": "Forebrothers Signis \u0026 Gron",
-      "category": null,
-      "outputValue": "",
+      "category": "Bosses",
+      "outputValue": "UNKNOWN [Forebrothers Signis \u0026 Gron]",
       "notes": "",
       "sortOrder": 45,
       "aliases": "Forebrothers Signis and Gron"
@@ -5096,116 +4756,116 @@
     {
       "id": "57f2cf1f-13b2-4fe3-aad5-a213a9be8edc",
       "name": "Cragglite",
-      "category": null,
-      "outputValue": "",
+      "category": "Wormways",
+      "outputValue": "Small Crab",
       "notes": "",
       "sortOrder": 46,
-      "aliases": "Cragglite"
+      "aliases": "Cragglite, Small Crab"
     },
     {
       "id": "37f9fdb1-2901-47bd-94ff-8c6a0830bf51",
       "name": "Craggler",
-      "category": null,
-      "outputValue": "",
+      "category": "Wormways",
+      "outputValue": "Roof Crab",
       "notes": "",
       "sortOrder": 47,
-      "aliases": "Craggler"
+      "aliases": "Craggler, Roof Crab"
     },
     {
       "id": "3e859542-1805-4a98-8709-3c80a1c8016b",
       "name": "Brushflit",
-      "category": null,
-      "outputValue": "",
+      "category": "Far Fields",
+      "outputValue": "Fields Flock Flyers",
       "notes": "",
       "sortOrder": 48,
-      "aliases": "Brushflit"
+      "aliases": "Brushflit, Fields Flock Flyers"
     },
     {
       "id": "890c156a-5259-4dfa-8602-16dfb8fa4983",
       "name": "Fertid",
-      "category": null,
-      "outputValue": "",
+      "category": "Far Fields",
+      "outputValue": "Fields Goomba",
       "notes": "",
       "sortOrder": 49,
-      "aliases": "Fertid"
+      "aliases": "Fertid, Fields Goomba"
     },
     {
       "id": "4a16b2df-350e-4120-832d-7a9c6c680de5",
       "name": "Flapping Fertid",
-      "category": null,
-      "outputValue": "",
+      "category": "Far Fields",
+      "outputValue": "Fields Flyer",
       "notes": "",
       "sortOrder": 50,
-      "aliases": "Flapping Fertid"
+      "aliases": "Flapping Fertid, Fields Flyer"
     },
     {
       "id": "0929057a-48be-4092-b6d0-fd8a1d52e0e1",
       "name": "Fourth Chorus",
-      "category": null,
-      "outputValue": "",
+      "category": "Bosses",
+      "outputValue": "Song Golem",
       "notes": "",
       "sortOrder": 51,
-      "aliases": "Fourth Chorus"
+      "aliases": "Fourth Chorus, Song Golem"
     },
     {
       "id": "04714f1e-cbbf-4a1f-adfa-cf63d1da4a6d",
       "name": "Skarrlid",
-      "category": null,
-      "outputValue": "",
+      "category": "Hunter\u0027s March",
+      "outputValue": "Bone Hunter Tiny",
       "notes": "",
       "sortOrder": 52,
-      "aliases": "Skarrlid"
+      "aliases": "Skarrlid, Bone Hunter Tiny"
     },
     {
       "id": "7055a311-bdf4-4dde-83dd-9c8d364bbac8",
       "name": "Skarrwing",
-      "category": null,
-      "outputValue": "",
+      "category": "Hunter\u0027s March",
+      "outputValue": "Bone Hunter Buzzer",
       "notes": "",
       "sortOrder": 53,
-      "aliases": "Skarrwing"
+      "aliases": "Skarrwing, Bone Hunter Buzzer"
     },
     {
       "id": "f9c1a2b5-7fae-4a40-8822-fe65dfa31a99",
       "name": "Skarr Scout",
-      "category": null,
-      "outputValue": "",
+      "category": "Hunter\u0027s March",
+      "outputValue": "Bone Hunter Child",
       "notes": "",
       "sortOrder": 54,
-      "aliases": "Skarr Scout"
+      "aliases": "Skarr Scout, Bone Hunter Child"
     },
     {
       "id": "996c2003-06e5-45ac-b935-e7324a03fa62",
       "name": "Skarr Stalker",
-      "category": null,
-      "outputValue": "",
+      "category": "Hunter\u0027s March",
+      "outputValue": "Bone Hunter",
       "notes": "",
       "sortOrder": 55,
-      "aliases": "Skarr Stalker"
+      "aliases": "Skarr Stalker, Bone Hunter"
     },
     {
       "id": "2c6cfd4d-1800-45d8-bd26-e0905674be43",
       "name": "Spear Skarr",
-      "category": null,
-      "outputValue": "",
+      "category": "Hunter\u0027s March",
+      "outputValue": "Bone Hunter Fly",
       "notes": "",
       "sortOrder": 56,
-      "aliases": "Spear Skarr"
+      "aliases": "Spear Skarr, Bone Hunter Fly"
     },
     {
       "id": "461a8c58-9342-467a-8ced-7ee2db57950b",
       "name": "Skarrgard",
-      "category": null,
-      "outputValue": "",
+      "category": "Hunter\u0027s March",
+      "outputValue": "Bone Hunter Throw",
       "notes": "",
       "sortOrder": 57,
-      "aliases": "Skarrgard"
+      "aliases": "Skarrgard, Bone Hunter Throw"
     },
     {
       "id": "689ef9bf-674d-43f1-b734-0b2b19b1dd23",
       "name": "Gurr the Outcast",
-      "category": null,
-      "outputValue": "",
+      "category": "Bosses",
+      "outputValue": "UNKNOWN [Gurr the Outcast]",
       "notes": "",
       "sortOrder": 58,
       "aliases": "Gurr the Outcast"
@@ -5213,17 +4873,17 @@
     {
       "id": "ad6cb034-dca9-45a5-bf1d-86ed28be598e",
       "name": "Last Claw",
-      "category": null,
-      "outputValue": "",
+      "category": "Far Fields",
+      "outputValue": "Bone Hunter Chief",
       "notes": "",
       "sortOrder": 59,
-      "aliases": "Last Claw"
+      "aliases": "Last Claw, Bone Hunter Chief"
     },
     {
       "id": "cc670c1a-906d-4ec4-a0ea-fa978b1ff021",
       "name": "Skarrsinger Karmelita",
-      "category": null,
-      "outputValue": "",
+      "category": "Bosses",
+      "outputValue": "UNKNOWN [Skarrsinger Karmelita]",
       "notes": "",
       "sortOrder": 60,
       "aliases": "Skarrsinger Karmelita"
@@ -5231,8 +4891,8 @@
     {
       "id": "ef3dfc7e-8402-4c2a-a1ee-3da157a007d3",
       "name": "Mite",
-      "category": null,
-      "outputValue": "",
+      "category": "Greymoor",
+      "outputValue": "Mite",
       "notes": "",
       "sortOrder": 61,
       "aliases": "Mite"
@@ -5240,62 +4900,62 @@
     {
       "id": "22c1b3f8-9c42-45e0-be14-f1a669071739",
       "name": "Fluttermite",
-      "category": null,
-      "outputValue": "",
+      "category": "Greymoor",
+      "outputValue": "Mitefly",
       "notes": "",
       "sortOrder": 62,
-      "aliases": "Fluttermite"
+      "aliases": "Fluttermite, Mitefly"
     },
     {
       "id": "af14aa5e-19c8-4127-9031-7c6a2871a206",
       "name": "Mitemother",
-      "category": null,
-      "outputValue": "",
+      "category": "Greymoor",
+      "outputValue": "Gnat Giant",
       "notes": "",
       "sortOrder": 63,
-      "aliases": "Mitemother"
+      "aliases": "Mitemother, Gnat Giant"
     },
     {
       "id": "b3c8d06f-7882-4027-b28e-9acbf1a705e3",
       "name": "Dreg Catcher",
-      "category": null,
-      "outputValue": "",
+      "category": "Greymoor",
+      "outputValue": "Farmer Catcher",
       "notes": "",
       "sortOrder": 64,
-      "aliases": "Dreg Catcher"
+      "aliases": "Dreg Catcher, Farmer Catcher"
     },
     {
       "id": "42689fb5-f320-4616-a748-2c00897727f2",
       "name": "Silk Snipper",
-      "category": null,
-      "outputValue": "",
+      "category": "Greymoor",
+      "outputValue": "Farmer Scissors",
       "notes": "",
       "sortOrder": 65,
-      "aliases": "Silk Snipper"
+      "aliases": "Silk Snipper, Farmer Scissors"
     },
     {
       "id": "160617f6-5b05-4728-8061-0f24223c5412",
       "name": "Thread Raker",
-      "category": null,
-      "outputValue": "",
+      "category": "Greymoor",
+      "outputValue": "Farmer Centipede",
       "notes": "",
       "sortOrder": 66,
-      "aliases": "Thread Raker"
+      "aliases": "Thread Raker, Farmer Centipede"
     },
     {
       "id": "eca7ed53-a639-4382-90fe-a57e604215e5",
       "name": "Moorwing",
-      "category": null,
-      "outputValue": "",
+      "category": "Bosses",
+      "outputValue": "Vampire Gnat",
       "notes": "",
       "sortOrder": 67,
-      "aliases": "Moorwing"
+      "aliases": "Moorwing, Vampire Gnat"
     },
     {
       "id": "12400c42-cdfa-4c57-b349-f6df85402b1b",
       "name": "Wisp",
-      "category": null,
-      "outputValue": "",
+      "category": "Wisp Thicket",
+      "outputValue": "Wisp",
       "notes": "",
       "sortOrder": 68,
       "aliases": "Wisp"
@@ -5303,17 +4963,17 @@
     {
       "id": "65927877-31d0-43b2-ad71-24609590c719",
       "name": "Burning Bug",
-      "category": null,
-      "outputValue": "",
+      "category": "Wisp Thicket",
+      "outputValue": "Farmer Wisp",
       "notes": "",
       "sortOrder": 69,
-      "aliases": "Burning Bug"
+      "aliases": "Burning Bug, Farmer Wisp"
     },
     {
       "id": "c8fd574d-7db8-4bd9-8663-ae511722a963",
       "name": "Father of the Flame",
-      "category": null,
-      "outputValue": "",
+      "category": "Bosses",
+      "outputValue": "UNKNOWN [Father of the Flame]",
       "notes": "",
       "sortOrder": 70,
       "aliases": "Father of the Flame"
@@ -5321,62 +4981,62 @@
     {
       "id": "128bc2ba-42ae-4375-93e8-f6bfc9172580",
       "name": "Craw",
-      "category": null,
-      "outputValue": "",
+      "category": "Greymoor",
+      "outputValue": "Crow",
       "notes": "",
       "sortOrder": 71,
-      "aliases": "Craw"
+      "aliases": "Craw, Crow"
     },
     {
       "id": "655a9d41-abf9-42e9-85ce-92ccdcf65c22",
       "name": "Tallcraw",
-      "category": null,
-      "outputValue": "",
+      "category": "Greymoor",
+      "outputValue": "Crowman",
       "notes": "",
       "sortOrder": 72,
-      "aliases": "Tallcraw"
+      "aliases": "Tallcraw, Crowman"
     },
     {
       "id": "647dd915-b28e-4a3d-961f-4cc66c7d74d8",
       "name": "Squatcraw",
-      "category": null,
-      "outputValue": "",
+      "category": "Greymoor",
+      "outputValue": "Crowman Dagger",
       "notes": "",
       "sortOrder": 73,
-      "aliases": "Squatcraw"
+      "aliases": "Squatcraw, Crowman Dagger"
     },
     {
       "id": "add25ac6-7146-45f6-87aa-dc98835e6a45",
       "name": "Craw Juror",
-      "category": null,
-      "outputValue": "",
+      "category": "Greymoor",
+      "outputValue": "Crowman Juror Tiny",
       "notes": "",
       "sortOrder": 74,
-      "aliases": "Craw Juror"
+      "aliases": "Craw Juror, Crowman Juror Tiny"
     },
     {
       "id": "b719fb0c-71e0-4417-bf5e-bdb0d8c43f09",
       "name": "Tallcraw Juror",
-      "category": null,
-      "outputValue": "",
+      "category": "Greymoor",
+      "outputValue": "Crowman Juror",
       "notes": "",
       "sortOrder": 75,
-      "aliases": "Tallcraw Juror"
+      "aliases": "Tallcraw Juror, Crowman Juror"
     },
     {
       "id": "3a6d8b27-41c1-4678-9e30-e0fd4da9ee8d",
       "name": "Squatcraw Juror",
-      "category": null,
-      "outputValue": "",
+      "category": "Greymoor",
+      "outputValue": "Crowman Dagger Juror",
       "notes": "",
       "sortOrder": 76,
-      "aliases": "Squatcraw Juror"
+      "aliases": "Squatcraw Juror, Crowman Dagger Juror"
     },
     {
       "id": "96a0da0c-a49b-4781-8354-68ead4bc195c",
       "name": "Crawfather",
-      "category": null,
-      "outputValue": "",
+      "category": "Bosses",
+      "outputValue": "UNKNOWN [Crawfather]",
       "notes": "",
       "sortOrder": 77,
       "aliases": "Crawfather"
@@ -5384,62 +5044,62 @@
     {
       "id": "385cd04a-bdd8-4663-86e2-5d372a93817b",
       "name": "Muckmaggot",
-      "category": null,
-      "outputValue": "",
+      "category": "Bilewater",
+      "outputValue": "Maggots",
       "notes": "",
       "sortOrder": 78,
-      "aliases": "Muckmaggot"
+      "aliases": "Muckmaggot, Maggots"
     },
     {
       "id": "aefdf423-9adc-4e8a-b5e7-b3c3644c2700",
       "name": "Slubberlug",
-      "category": null,
-      "outputValue": "",
+      "category": "Bilewater",
+      "outputValue": "Dustroach Pollywog",
       "notes": "",
       "sortOrder": 79,
-      "aliases": "Slubberlug"
+      "aliases": "Slubberlug, Dustroach Pollywog"
     },
     {
       "id": "eb4273ad-e1d8-4b8c-aa29-2af495ac6306",
       "name": "Muckroach",
-      "category": null,
-      "outputValue": "",
+      "category": "Sinner\u0027s Road",
+      "outputValue": "Dustroach",
       "notes": "",
       "sortOrder": 80,
-      "aliases": "Muckroach"
+      "aliases": "Muckroach, Dustroach"
     },
     {
       "id": "b285ef04-6061-4336-892d-c38ab0cdac40",
       "name": "Bloatroach",
-      "category": null,
-      "outputValue": "",
+      "category": "Bilewater",
+      "outputValue": "Bloat Roach",
       "notes": "",
       "sortOrder": 81,
-      "aliases": "Bloatroach"
+      "aliases": "Bloatroach, Bloat Roach"
     },
     {
       "id": "2be3f6c5-2a35-4641-89ad-be74c65ad33f",
       "name": "Roachcatcher",
-      "category": null,
-      "outputValue": "",
+      "category": "Sinner\u0027s Road",
+      "outputValue": "Roachfeeder Short",
       "notes": "",
       "sortOrder": 82,
-      "aliases": "Roachcatcher"
+      "aliases": "Roachcatcher, Roachfeeder Short"
     },
     {
       "id": "95b70aef-a391-402f-add2-8ee807753b01",
       "name": "Roachfeeder",
-      "category": null,
-      "outputValue": "",
+      "category": "Sinner\u0027s Road",
+      "outputValue": "Roachfeeder Tall",
       "notes": "",
       "sortOrder": 83,
-      "aliases": "Roachfeeder"
+      "aliases": "Roachfeeder, Roachfeeder Tall"
     },
     {
       "id": "c00e96d5-7191-4a9d-a068-f665b56a0c35",
       "name": "Roachkeeper",
-      "category": null,
-      "outputValue": "",
+      "category": "Sinner\u0027s Road",
+      "outputValue": "Roachkeeper",
       "notes": "",
       "sortOrder": 84,
       "aliases": "Roachkeeper"
@@ -5447,26 +5107,26 @@
     {
       "id": "e7e2962a-3ff4-436e-a66e-901541127dfe",
       "name": "Roachserver",
-      "category": null,
-      "outputValue": "",
+      "category": "Sinner\u0027s Road",
+      "outputValue": "Roachkeeper Chef Tiny",
       "notes": "",
       "sortOrder": 85,
-      "aliases": "Roachserver"
+      "aliases": "Roachserver, Roachkeeper Chef Tiny"
     },
     {
       "id": "6292022d-b50c-48d5-9c77-b5a2c473b875",
       "name": "Disgraced Chef Lugoli",
-      "category": null,
-      "outputValue": "",
+      "category": "Bosses",
+      "outputValue": "Roachkeeper Chef",
       "notes": "",
       "sortOrder": 86,
-      "aliases": "Disgraced Chef Lugoli"
+      "aliases": "Disgraced Chef Lugoli, Roachkeeper Chef"
     },
     {
       "id": "bfb2c392-7912-40d1-9fc7-11175bf87e8a",
       "name": "Wraith",
-      "category": null,
-      "outputValue": "",
+      "category": "Sinner\u0027s Road",
+      "outputValue": "Wraith",
       "notes": "",
       "sortOrder": 87,
       "aliases": "Wraith"
@@ -5474,107 +5134,107 @@
     {
       "id": "e926e3b3-acca-43d9-a526-c6296d4b2068",
       "name": "Mothleaf Lagnia",
-      "category": null,
-      "outputValue": "",
+      "category": "Bilewater",
+      "outputValue": "Swamp Drifter",
       "notes": "",
       "sortOrder": 88,
-      "aliases": "Mothleaf Lagnia"
+      "aliases": "Mothleaf Lagnia, Swamp Drifter"
     },
     {
       "id": "1fec6c73-e79c-4605-96d9-f47e2738ee59",
       "name": "Miremite",
-      "category": null,
-      "outputValue": "",
+      "category": "Bilewater",
+      "outputValue": "Swamp Goomba",
       "notes": "",
       "sortOrder": 89,
-      "aliases": "Miremite"
+      "aliases": "Miremite, Swamp Goomba"
     },
     {
       "id": "15ad508c-607e-4349-b0de-cd49af80121d",
       "name": "Swamp Squit",
-      "category": null,
-      "outputValue": "",
+      "category": "Bilewater",
+      "outputValue": "Swamp Mosquito",
       "notes": "",
       "sortOrder": 90,
-      "aliases": "Swamp Squit"
+      "aliases": "Swamp Squit, Swamp Mosquito"
     },
     {
       "id": "db43f01c-8299-42f8-85f5-84ed6adcacdd",
       "name": "Spit Squit",
-      "category": null,
-      "outputValue": "",
+      "category": "Putrified Ducts",
+      "outputValue": "Swamp Mosquito Skinny",
       "notes": "",
       "sortOrder": 91,
-      "aliases": "Spit Squit"
+      "aliases": "Spit Squit, Swamp Mosquito Skinny"
     },
     {
       "id": "f839902c-7360-42c7-ab1d-d7cf0bbd92a4",
       "name": "Stilkin",
-      "category": null,
-      "outputValue": "",
+      "category": "Bilewater",
+      "outputValue": "Swamp Muckman",
       "notes": "",
       "sortOrder": 92,
-      "aliases": "Stilkin"
+      "aliases": "Stilkin, Swamp Muckman"
     },
     {
       "id": "4cae7134-cc33-4c72-874a-bfb99909c64f",
       "name": "Stilkin Trapper",
-      "category": null,
-      "outputValue": "",
+      "category": "Bilewater",
+      "outputValue": "Swamp Muckman Tall",
       "notes": "",
       "sortOrder": 93,
-      "aliases": "Stilkin Trapper"
+      "aliases": "Stilkin Trapper, Swamp Muckman Tall"
     },
     {
       "id": "5396998a-2826-41d1-8ba0-3b0e9262902a",
       "name": "Groal the Great",
-      "category": null,
-      "outputValue": "",
+      "category": "Bosses",
+      "outputValue": "Swamp Shaman",
       "notes": "",
       "sortOrder": 94,
-      "aliases": "Groal the Great"
+      "aliases": "Groal the Great, Swamp Shaman"
     },
     {
       "id": "3adf4303-55e1-4251-bb71-a85344aba01a",
       "name": "Barnak",
-      "category": null,
-      "outputValue": "",
+      "category": "Putrified Ducts",
+      "outputValue": "Swamp Barnacle",
       "notes": "",
       "sortOrder": 95,
-      "aliases": "Barnak"
+      "aliases": "Barnak, Swamp Barnacle"
     },
     {
       "id": "02aa7aeb-5a40-4439-83fa-59a78ec6ad94",
       "name": "Ductsucker",
-      "category": null,
-      "outputValue": "",
+      "category": "Putrified Ducts",
+      "outputValue": "Swamp Ductsucker",
       "notes": "",
       "sortOrder": 96,
-      "aliases": "Ductsucker"
+      "aliases": "Ductsucker, Swamp Ductsucker"
     },
     {
       "id": "8dd502fb-18f6-43c6-8191-483e12236ec4",
       "name": "Pond Skipper",
-      "category": null,
-      "outputValue": "",
+      "category": "Shellwood",
+      "outputValue": "Pond Skater",
       "notes": "",
       "sortOrder": 97,
-      "aliases": "Pond Skipper"
+      "aliases": "Pond Skipper, Pond Skater"
     },
     {
       "id": "7af63daa-23d8-4976-b8e1-6affae930b7c",
       "name": "Pondcatcher",
-      "category": null,
-      "outputValue": "",
+      "category": "Shellwood",
+      "outputValue": "Pilgrim Fisher",
       "notes": "",
       "sortOrder": 98,
-      "aliases": "Pondcatcher"
+      "aliases": "Pondcatcher, Pilgrim Fisher"
     },
     {
       "id": "5b888625-021a-4311-89ec-893e25d742fc",
       "name": "Shellwood Gnat",
-      "category": null,
-      "outputValue": "",
+      "category": "Shellwood",
+      "outputValue": "Shellwood Gnat",
       "notes": "",
       "sortOrder": 99,
       "aliases": "Shellwood Gnat"
@@ -5582,44 +5242,44 @@
     {
       "id": "f337ec3a-8c0a-4603-8c83-ecdeb426bae3",
       "name": "Wood Wasp",
-      "category": null,
-      "outputValue": "",
+      "category": "Shellwood",
+      "outputValue": "Shellwood Wasp",
       "notes": "",
       "sortOrder": 100,
-      "aliases": "Wood Wasp"
+      "aliases": "Wood Wasp, Shellwood Wasp"
     },
     {
       "id": "b68ba3fb-ed4d-4e57-8753-9e8d699cf65c",
       "name": "Splinter",
-      "category": null,
-      "outputValue": "",
+      "category": "Shellwood",
+      "outputValue": "Stick Insect",
       "notes": "",
       "sortOrder": 101,
-      "aliases": "Splinter"
+      "aliases": "Splinter, Stick Insect"
     },
     {
       "id": "8a056dab-dc3c-44e6-92db-7651a59f4c17",
       "name": "Splinterhorn",
-      "category": null,
-      "outputValue": "",
+      "category": "Shellwood",
+      "outputValue": "Stick Insect Charger",
       "notes": "",
       "sortOrder": 102,
-      "aliases": "Splinterhorn"
+      "aliases": "Splinterhorn, Stick Insect Charger"
     },
     {
       "id": "5414d1c6-fc1d-4846-adba-1b5a281ba2eb",
       "name": "Splinterbark",
-      "category": null,
-      "outputValue": "",
+      "category": "Shellwood",
+      "outputValue": "Stick Insect Flyer",
       "notes": "",
       "sortOrder": 103,
-      "aliases": "Splinterbark"
+      "aliases": "Splinterbark, Stick Insect Flyer"
     },
     {
       "id": "c6c35f2f-07f8-489a-a22c-8ff13592557c",
       "name": "Sister Splinter",
-      "category": null,
-      "outputValue": "",
+      "category": "Bosses",
+      "outputValue": "UNKNOWN [Sister Splinter]",
       "notes": "",
       "sortOrder": 104,
       "aliases": "Sister Splinter"
@@ -5627,35 +5287,35 @@
     {
       "id": "e993bcb8-f044-46bf-bc33-175c9395457b",
       "name": "Phacia",
-      "category": null,
-      "outputValue": "",
+      "category": "Shellwood",
+      "outputValue": "Flower Drifter",
       "notes": "",
       "sortOrder": 105,
-      "aliases": "Phacia"
+      "aliases": "Phacia, Flower Drifter"
     },
     {
       "id": "209f67da-76d5-4f9d-8169-78a21054257a",
       "name": "Pollenica",
-      "category": null,
-      "outputValue": "",
+      "category": "Shellwood",
+      "outputValue": "Bloom Shooter",
       "notes": "",
       "sortOrder": 106,
-      "aliases": "Pollenica"
+      "aliases": "Pollenica, Bloom Shooter"
     },
     {
       "id": "89a8e0c0-177b-4f02-803b-47f09e5c8510",
       "name": "Gahlia",
-      "category": null,
-      "outputValue": "",
+      "category": "Shellwood",
+      "outputValue": "Bloom Puncher",
       "notes": "",
       "sortOrder": 107,
-      "aliases": "Gahlia"
+      "aliases": "Gahlia, Bloom Puncher"
     },
     {
       "id": "105e4d2d-bfe7-49c4-a9b4-98b7da174893",
       "name": "Shrine Guardian Seth",
-      "category": null,
-      "outputValue": "",
+      "category": "Bosses",
+      "outputValue": "UNKNOWN [Shrine Guardian Seth]",
       "notes": "",
       "sortOrder": 108,
       "aliases": "Shrine Guardian Seth"
@@ -5663,89 +5323,89 @@
     {
       "id": "4b782177-9e69-4ef1-a35f-f5cba9c25044",
       "name": "Nyleth",
-      "category": null,
-      "outputValue": "",
+      "category": "Bosses",
+      "outputValue": "Flower Queen",
       "notes": "",
       "sortOrder": 109,
-      "aliases": "Nyleth"
+      "aliases": "Nyleth, Flower Queen"
     },
     {
       "id": "7677204c-d9b6-485c-89de-44fce917d375",
       "name": "Furm",
-      "category": null,
-      "outputValue": "",
+      "category": "Bellhart",
+      "outputValue": "Bell Goomba",
       "notes": "",
       "sortOrder": 110,
-      "aliases": "Furm"
+      "aliases": "Furm, Bell Goomba"
     },
     {
       "id": "4c45c534-7bd4-4973-92a6-baf9cd536155",
       "name": "Winged Furm",
-      "category": null,
-      "outputValue": "",
+      "category": "Bellhart",
+      "outputValue": "Bell Fly",
       "notes": "",
       "sortOrder": 111,
-      "aliases": "Winged Furm"
+      "aliases": "Winged Furm, Bell Fly"
     },
     {
       "id": "69210243-6dd6-402d-9ab9-0e37367f51f6",
       "name": "Pharlid",
-      "category": null,
-      "outputValue": "",
+      "category": "Blasted Steps",
+      "outputValue": "Blade Spider",
       "notes": "",
       "sortOrder": 112,
-      "aliases": "Pharlid"
+      "aliases": "Pharlid, Blade Spider"
     },
     {
       "id": "a66d8335-1922-4f78-8693-345cb6170d8c",
       "name": "Pharlid Diver",
-      "category": null,
-      "outputValue": "",
+      "category": "Weavenest Atla",
+      "outputValue": "Blade Spider Hang",
       "notes": "",
       "sortOrder": 113,
-      "aliases": "Pharlid Diver"
+      "aliases": "Pharlid Diver, Blade Spider Hang"
     },
     {
       "id": "6b5ab165-cdb0-4ce9-863f-f8eb1c9472c6",
       "name": "Shardillard",
       "category": null,
-      "outputValue": "",
+      "outputValue": "Shell Fossil Mimic",
       "notes": "",
       "sortOrder": 114,
-      "aliases": "Shardillard"
+      "aliases": "Shardillard, Shell Fossil Mimic"
     },
     {
       "id": "ad7c6f14-4fbb-4af7-b15b-cb5f8bd96917",
       "name": "Sandcarver",
-      "category": null,
-      "outputValue": "",
+      "category": "Blasted Steps",
+      "outputValue": "Sand Centipede",
       "notes": "",
       "sortOrder": 115,
-      "aliases": "Sandcarver"
+      "aliases": "Sandcarver, Sand Centipede"
     },
     {
       "id": "d22ee63e-b19d-46df-b999-9a3a2c5efee7",
       "name": "Squirrm",
-      "category": null,
-      "outputValue": "",
+      "category": "Blasted Steps",
+      "outputValue": "Coral Judge Child",
       "notes": "",
       "sortOrder": 116,
-      "aliases": "Squirrm"
+      "aliases": "Squirrm, Coral Judge Child"
     },
     {
       "id": "ca6ad7ed-0890-4ad1-b824-bc666b87e579",
       "name": "Judge",
-      "category": null,
-      "outputValue": "",
+      "category": "Blasted Steps",
+      "outputValue": "Coral Judge",
       "notes": "",
       "sortOrder": 117,
-      "aliases": "Judge"
+      "aliases": "Judge, Coral Judge"
     },
     {
       "id": "c5f3a246-0984-468f-a9c2-64156a3a3a8b",
       "name": "Last Judge",
-      "category": null,
-      "outputValue": "",
+      "category": "Bosses",
+      "outputValue": "Last Judge",
       "notes": "",
       "sortOrder": 118,
       "aliases": "Last Judge"
@@ -5753,53 +5413,53 @@
     {
       "id": "3169972d-503a-479b-9cda-0b8cd32d6ce3",
       "name": "Coral Furm",
-      "category": null,
-      "outputValue": "",
+      "category": "Sands of Karak",
+      "outputValue": "Coral Spike Goomba",
       "notes": "",
       "sortOrder": 119,
-      "aliases": "Coral Furm"
+      "aliases": "Coral Furm, Coral Spike Goomba"
     },
     {
       "id": "b3116c6b-cdcc-4331-9ea2-0ce85b2d9cf2",
       "name": "Driznit",
-      "category": null,
-      "outputValue": "",
+      "category": "Blasted Steps",
+      "outputValue": "Coral Conch Shooter",
       "notes": "",
       "sortOrder": 120,
-      "aliases": "Driznit"
+      "aliases": "Driznit, Coral Conch Shooter"
     },
     {
       "id": "9aaace71-f42e-48bf-b224-b0eb14cc68bd",
       "name": "Driznarga",
-      "category": null,
-      "outputValue": "",
+      "category": "Sands of Karak",
+      "outputValue": "Coral Conch Shooter Heavy",
       "notes": "",
       "sortOrder": 121,
-      "aliases": "Driznarga"
+      "aliases": "Driznarga, Coral Conch Shooter Heavy"
     },
     {
       "id": "a46ea758-bc03-435c-894d-defc6e88138c",
       "name": "Pokenabbin",
-      "category": null,
-      "outputValue": "",
+      "category": "Sands of Karak",
+      "outputValue": "Coral Conch Stabber",
       "notes": "",
       "sortOrder": 122,
-      "aliases": "Pokenabbin"
+      "aliases": "Pokenabbin, Coral Conch Stabber"
     },
     {
       "id": "3e2fe005-f344-434d-9261-141185d9742e",
       "name": "Conchfly",
-      "category": null,
-      "outputValue": "",
+      "category": "Sands of Karak",
+      "outputValue": "Coral Conch Driller",
       "notes": "",
       "sortOrder": 123,
-      "aliases": "Conchfly"
+      "aliases": "Conchfly, Coral Conch Driller"
     },
     {
       "id": "67d10aba-0273-4d6a-b5a0-7ec59939d35c",
       "name": "Great Conchfly",
-      "category": null,
-      "outputValue": "",
+      "category": "Bosses",
+      "outputValue": "UNKNOWN [Great Conchfly]",
       "notes": "",
       "sortOrder": 124,
       "aliases": "Great Conchfly"
@@ -5807,368 +5467,368 @@
     {
       "id": "a2380a61-e8bc-413f-949b-e81d136c0fa7",
       "name": "Crustcrawler",
-      "category": null,
-      "outputValue": "",
+      "category": "Sands of Karak",
+      "outputValue": "Coral Goomba",
       "notes": "",
       "sortOrder": 125,
-      "aliases": "Crustcrawler"
+      "aliases": "Crustcrawler, Coral Goomba"
     },
     {
       "id": "6b9a42e1-180d-476a-9f0a-88f4dc2b1e23",
       "name": "Crustcrag",
-      "category": null,
-      "outputValue": "",
+      "category": "Memorium",
+      "outputValue": "Coral Goomba Large",
       "notes": "",
       "sortOrder": 126,
-      "aliases": "Crustcrag"
+      "aliases": "Crustcrag, Coral Goomba Large"
     },
     {
       "id": "6c50ef52-a347-40a9-a7c5-a78305a27dbb",
       "name": "Kai",
-      "category": null,
-      "outputValue": "",
+      "category": "Sands of Karak",
+      "outputValue": "Coral Swimmer Fat",
       "notes": "",
       "sortOrder": 127,
-      "aliases": "Kai"
+      "aliases": "Kai, Coral Swimmer Fat"
     },
     {
       "id": "6d5e9f71-7976-4f19-982e-c853ee3c9dcb",
       "name": "Spinebeak Kai",
-      "category": null,
-      "outputValue": "",
+      "category": "Sands of Karak",
+      "outputValue": "Poke Swimmer",
       "notes": "",
       "sortOrder": 128,
-      "aliases": "Spinebeak Kai"
+      "aliases": "Spinebeak Kai, Poke Swimmer"
     },
     {
       "id": "a5239224-64e6-43df-bf6c-ad2ee3901c2b",
       "name": "Steelspine Kai",
-      "category": null,
-      "outputValue": "",
+      "category": "Sands of Karak",
+      "outputValue": "Spike Swimmer",
       "notes": "",
       "sortOrder": 129,
-      "aliases": "Steelspine Kai"
+      "aliases": "Steelspine Kai, Spike Swimmer"
     },
     {
       "id": "902fb43b-5f2f-4984-ab89-fc0cf2f5a3f4",
       "name": "Yuma",
-      "category": null,
-      "outputValue": "",
+      "category": "Sands of Karak",
+      "outputValue": "Coral Swimmer Small",
       "notes": "",
       "sortOrder": 130,
-      "aliases": "Yuma"
+      "aliases": "Yuma, Coral Swimmer Small"
     },
     {
       "id": "4fbb603f-a57a-4872-97de-7638e2c105cf",
       "name": "Yumama",
-      "category": null,
-      "outputValue": "",
+      "category": "Sands of Karak",
+      "outputValue": "Coral Big Jellyfish",
       "notes": "",
       "sortOrder": 131,
-      "aliases": "Yumama"
+      "aliases": "Yumama, Coral Big Jellyfish"
     },
     {
       "id": "1260729c-de1f-455a-a70f-16a5dded1347",
       "name": "Karaka",
-      "category": null,
-      "outputValue": "",
+      "category": "Sands of Karak",
+      "outputValue": "Coral Warrior",
       "notes": "",
       "sortOrder": 132,
-      "aliases": "Karaka"
+      "aliases": "Karaka, Coral Warrior"
     },
     {
       "id": "5aac4f4c-a6e7-4b28-b5c2-e40d5a8355e0",
       "name": "Kakri",
-      "category": null,
-      "outputValue": "",
+      "category": "Sands of Karak",
+      "outputValue": "Coral Flyer",
       "notes": "",
       "sortOrder": 133,
-      "aliases": "Kakri"
+      "aliases": "Kakri, Coral Flyer"
     },
     {
       "id": "267ed50a-6937-4358-9294-3c4373316b70",
       "name": "Yago",
-      "category": null,
-      "outputValue": "",
+      "category": "Sands of Karak",
+      "outputValue": "Coral Flyer Throw",
       "notes": "",
       "sortOrder": 134,
-      "aliases": "Yago"
+      "aliases": "Yago, Coral Flyer Throw"
     },
     {
       "id": "0e00d39f-a46f-43cf-993f-674b8055d3ec",
       "name": "Karak Gor",
-      "category": null,
-      "outputValue": "",
+      "category": "Sands of Karak",
+      "outputValue": "Coral Brawler",
       "notes": "",
       "sortOrder": 135,
-      "aliases": "Karak Gor"
+      "aliases": "Karak Gor, Coral Brawler"
     },
     {
       "id": "a27a4b95-0f69-4d0d-add4-bd307ec424b6",
       "name": "Alita",
-      "category": null,
-      "outputValue": "",
+      "category": "Sands of Karak",
+      "outputValue": "Coral Hunter",
       "notes": "",
       "sortOrder": 136,
-      "aliases": "Alita"
+      "aliases": "Alita, Coral Hunter"
     },
     {
       "id": "1e82773b-98d4-4322-bfd9-72d6b3b7d6db",
       "name": "Corrcrust Karaka",
-      "category": null,
-      "outputValue": "",
+      "category": "Sands of Karak",
+      "outputValue": "Coral Bubble Brute",
       "notes": "",
       "sortOrder": 137,
-      "aliases": "Corrcrust Karaka"
+      "aliases": "Corrcrust Karaka, Coral Bubble Brute"
     },
     {
       "id": "9efd227e-fe20-4510-9c2b-419d01aa9cd8",
       "name": "Crust King Khann",
-      "category": null,
-      "outputValue": "",
+      "category": "Bosses",
+      "outputValue": "Coral King",
       "notes": "",
       "sortOrder": 138,
-      "aliases": "Crust King Khann"
+      "aliases": "Crust King Khann, Coral King"
     },
     {
       "id": "2d167652-2539-4b6c-b18e-5ddd55701ef9",
       "name": "Watcher at the Edge",
-      "category": null,
-      "outputValue": "",
+      "category": "Bosses",
+      "outputValue": "Coral Warrior Grey",
       "notes": "",
       "sortOrder": 139,
-      "aliases": "Watcher at the Edge"
+      "aliases": "Watcher at the Edge, Coral Warrior Grey"
     },
     {
       "id": "6f84a301-d616-4fdf-8948-50ba730dbecc",
       "name": "Voltvyrm",
-      "category": null,
-      "outputValue": "",
+      "category": "Bosses",
+      "outputValue": "Zap Core Enemy",
       "notes": "",
       "sortOrder": 140,
-      "aliases": "Voltvyrm"
+      "aliases": "Voltvyrm, Zap Core Enemy"
     },
     {
       "id": "4a52a23e-8e26-46bf-9717-04ca54edc194",
       "name": "Drapefly",
-      "category": null,
-      "outputValue": "",
+      "category": "Underworks",
+      "outputValue": "Citadel Bat",
       "notes": "",
       "sortOrder": 141,
-      "aliases": "Drapefly"
+      "aliases": "Drapefly, Citadel Bat"
     },
     {
       "id": "9b18a08d-a0f8-42d5-b42a-91bec4459390",
       "name": "Drapelord",
-      "category": null,
-      "outputValue": "",
+      "category": "Memorium",
+      "outputValue": "Citadel Bat Large",
       "notes": "",
       "sortOrder": 142,
-      "aliases": "Drapelord"
+      "aliases": "Drapelord, Citadel Bat Large"
     },
     {
       "id": "6620464d-31bf-41c9-9a71-eab040146a70",
       "name": "Drapemite",
-      "category": null,
-      "outputValue": "",
+      "category": "Choral Chambers",
+      "outputValue": "Mite Heavy",
       "notes": "",
       "sortOrder": 143,
-      "aliases": "Drapemite"
+      "aliases": "Drapemite, Mite Heavy"
     },
     {
       "id": "908fbea4-4018-4b60-91d6-41e7e4d9433d",
       "name": "Giant Drapemite",
-      "category": null,
-      "outputValue": "",
+      "category": "Whispering Vaults",
+      "outputValue": "Understore Mite Giant",
       "notes": "",
       "sortOrder": 144,
-      "aliases": "Giant Drapemite"
+      "aliases": "Giant Drapemite, Understore Mite Giant"
     },
     {
       "id": "ea52afaa-2a06-4cea-b10b-3e8815e413a7",
       "name": "Underworker",
-      "category": null,
-      "outputValue": "",
+      "category": "Underworks",
+      "outputValue": "Understore Small",
       "notes": "",
       "sortOrder": 145,
-      "aliases": "Underworker"
+      "aliases": "Underworker, Understore Small"
     },
     {
       "id": "90f594ca-65c0-406b-ab51-e7d2403a6f84",
       "name": "Underscrub",
-      "category": null,
-      "outputValue": "",
+      "category": "Underworks",
+      "outputValue": "Pilgrim 03 Understore",
       "notes": "",
       "sortOrder": 146,
-      "aliases": "Underscrub"
+      "aliases": "Underscrub, Pilgrim 03 Understore"
     },
     {
       "id": "7531b58d-fac1-4fbd-b2be-6fbdd9bff985",
       "name": "Undersweep",
-      "category": null,
-      "outputValue": "",
+      "category": "Underworks",
+      "outputValue": "Pilgrim Staff Understore",
       "notes": "",
       "sortOrder": 147,
-      "aliases": "Undersweep"
+      "aliases": "Undersweep, Pilgrim Staff Understore"
     },
     {
       "id": "f8238e95-ff31-425a-b307-4198cf9d2cd8",
       "name": "Underpoke",
-      "category": null,
-      "outputValue": "",
+      "category": "Underworks",
+      "outputValue": "Understore Poker",
       "notes": "",
       "sortOrder": 148,
-      "aliases": "Underpoke"
+      "aliases": "Underpoke, Understore Poker"
     },
     {
       "id": "cdef9653-04e0-4c44-9ddc-ee9664435e7b",
       "name": "Underloft",
-      "category": null,
-      "outputValue": "",
+      "category": "Underworks",
+      "outputValue": "Understore Thrower",
       "notes": "",
       "sortOrder": 149,
-      "aliases": "Underloft"
+      "aliases": "Underloft, Understore Thrower"
     },
     {
       "id": "cc2df644-8e29-410a-b35a-809094531db4",
       "name": "Undercrank",
-      "category": null,
-      "outputValue": "",
+      "category": "Underworks",
+      "outputValue": "Understore Heavy",
       "notes": "",
       "sortOrder": 150,
-      "aliases": "Undercrank"
+      "aliases": "Undercrank, Understore Heavy"
     },
     {
       "id": "0b3fbb01-8e92-4e39-85c3-1ea3e4f66fdc",
       "name": "Envoy",
-      "category": null,
-      "outputValue": "",
+      "category": "Choral Chambers",
+      "outputValue": "Song Pilgrim 01",
       "notes": "",
       "sortOrder": 151,
-      "aliases": "Envoy"
+      "aliases": "Envoy, Song Pilgrim 01"
     },
     {
       "id": "1c36c8cd-c560-4eb7-a578-3fda08a19785",
       "name": "Choir Pouncer",
-      "category": null,
-      "outputValue": "",
+      "category": "Choral Chambers",
+      "outputValue": "Pilgrim 01 Song",
       "notes": "",
       "sortOrder": 152,
-      "aliases": "Choir Pouncer"
+      "aliases": "Choir Pouncer, Pilgrim 01 Song"
     },
     {
       "id": "f3dc8885-dbf8-45ba-87a2-6f094addf3dc",
       "name": "Choir Hornhead",
-      "category": null,
-      "outputValue": "",
+      "category": "Choral Chambers",
+      "outputValue": "Pilgrim 02 Song",
       "notes": "",
       "sortOrder": 153,
-      "aliases": "Choir Hornhead"
+      "aliases": "Choir Hornhead, Pilgrim 02 Song"
     },
     {
       "id": "b34add6c-733c-4d52-905a-12549756f192",
       "name": "Choir Bellbearer",
-      "category": null,
-      "outputValue": "",
+      "category": "Choral Chambers",
+      "outputValue": "Pilgrim 03 Song",
       "notes": "",
       "sortOrder": 154,
-      "aliases": "Choir Bellbearer"
+      "aliases": "Choir Bellbearer, Pilgrim 03 Song"
     },
     {
       "id": "51028be1-6f09-4717-9d38-e02692e17414",
       "name": "Choir Flyer",
-      "category": null,
-      "outputValue": "",
+      "category": "Choral Chambers",
+      "outputValue": "Pilgrim 04 Song",
       "notes": "",
       "sortOrder": 155,
-      "aliases": "Choir Flyer"
+      "aliases": "Choir Flyer, Pilgrim 04 Song"
     },
     {
       "id": "8e92cf4e-c507-4366-ae77-2a42771d849e",
       "name": "Choir Elder",
-      "category": null,
-      "outputValue": "",
+      "category": "Choral Chambers",
+      "outputValue": "Pilgrim Stomper Song",
       "notes": "",
       "sortOrder": 156,
-      "aliases": "Choir Elder"
+      "aliases": "Choir Elder, Pilgrim Stomper Song"
     },
     {
       "id": "dbe96e3e-a68b-4388-92b9-15383ccf2e56",
       "name": "Choristor",
-      "category": null,
-      "outputValue": "",
+      "category": "Choral Chambers",
+      "outputValue": "Song Pilgrim 03",
       "notes": "",
       "sortOrder": 157,
-      "aliases": "Choristor"
+      "aliases": "Choristor, Song Pilgrim 03"
     },
     {
       "id": "76010f41-0749-4768-bccd-a22968f362b4",
       "name": "Reed",
-      "category": null,
-      "outputValue": "",
+      "category": "Choral Chambers",
+      "outputValue": "Song Reed",
       "notes": "",
       "sortOrder": 158,
-      "aliases": "Reed"
+      "aliases": "Reed, Song Reed"
     },
     {
       "id": "e73f0206-4a80-4867-a89a-e4b7e8788a8d",
       "name": "Grand Reed",
-      "category": null,
-      "outputValue": "",
+      "category": "Choral Chambers",
+      "outputValue": "Song Reed Grand",
       "notes": "",
       "sortOrder": 159,
-      "aliases": "Grand Reed"
+      "aliases": "Grand Reed, Song Reed Grand"
     },
     {
       "id": "82ab44c2-8d8c-40e7-828e-bc7f44aa5ae9",
       "name": "Choir Clapper",
-      "category": null,
-      "outputValue": "",
+      "category": "High Halls",
+      "outputValue": "Song Heavy Sentry",
       "notes": "",
       "sortOrder": 160,
-      "aliases": "Choir Clapper"
+      "aliases": "Choir Clapper, Song Heavy Sentry"
     },
     {
       "id": "c9079244-d279-459a-a320-d770beeaa1f3",
       "name": "Clawmaiden",
-      "category": null,
-      "outputValue": "",
+      "category": "High Halls",
+      "outputValue": "Song Handmaiden",
       "notes": "",
       "sortOrder": 161,
-      "aliases": "Clawmaiden"
+      "aliases": "Clawmaiden, Song Handmaiden"
     },
     {
       "id": "bd8ab3f9-f1bb-4f55-b358-e48dcbdec832",
       "name": "Memoria",
-      "category": null,
-      "outputValue": "",
+      "category": "Memorium",
+      "outputValue": "Arborium Keeper",
       "notes": "",
       "sortOrder": 162,
-      "aliases": "Memoria"
+      "aliases": "Memoria, Arborium Keeper"
     },
     {
       "id": "46394cec-a598-4f3d-abd3-70740b7100b8",
       "name": "Minister",
-      "category": null,
-      "outputValue": "",
+      "category": "High Halls",
+      "outputValue": "Song Administrator",
       "notes": "",
       "sortOrder": 163,
-      "aliases": "Minister"
+      "aliases": "Minister, Song Administrator"
     },
     {
       "id": "9608eddd-187b-429c-9827-f9200f0dc7d2",
       "name": "Maestro",
-      "category": null,
-      "outputValue": "",
+      "category": "High Halls",
+      "outputValue": "Song Pilgrim Maestro",
       "notes": "",
       "sortOrder": 164,
-      "aliases": "Maestro"
+      "aliases": "Maestro, Song Pilgrim Maestro"
     },
     {
       "id": "e035257b-5b9b-4c24-a08c-f79b87051739",
       "name": "Second Sentinel",
-      "category": null,
-      "outputValue": "",
+      "category": "Bosses",
+      "outputValue": "UNKNOWN [Second Sentinel]",
       "notes": "",
       "sortOrder": 165,
       "aliases": "Second Sentinel"
@@ -6176,179 +5836,179 @@
     {
       "id": "f4480abf-f05e-4017-835b-5675da7fc60b",
       "name": "Dreg Husk",
-      "category": null,
-      "outputValue": "",
+      "category": "Whiteward",
+      "outputValue": "Song Threaded Husk",
       "notes": "",
       "sortOrder": 166,
-      "aliases": "Dreg Husk"
+      "aliases": "Dreg Husk, Song Threaded Husk"
     },
     {
       "id": "293d82bc-0fbb-47b3-888f-9b358d81ab25",
       "name": "Dregwheel",
-      "category": null,
-      "outputValue": "",
+      "category": "Whiteward",
+      "outputValue": "Song Threaded Husk Spin",
       "notes": "",
       "sortOrder": 167,
-      "aliases": "Dregwheel"
+      "aliases": "Dregwheel, Song Threaded Husk Spin"
     },
     {
       "id": "690f9730-9890-41d6-8fa5-a0b1c690dce7",
       "name": "Surgeon",
-      "category": null,
-      "outputValue": "",
+      "category": "Whiteward",
+      "outputValue": "Song Pilgrim 02",
       "notes": "",
       "sortOrder": 168,
-      "aliases": "Surgeon"
+      "aliases": "Surgeon, Song Pilgrim 02"
     },
     {
       "id": "23d2186b-4e51-48f0-b395-e2ec813d8f1b",
       "name": "Mortician",
-      "category": null,
-      "outputValue": "",
+      "category": "Whiteward",
+      "outputValue": "Song Creeper",
       "notes": "",
       "sortOrder": 169,
-      "aliases": "Mortician"
+      "aliases": "Mortician, Song Creeper"
     },
     {
       "id": "edf5a03f-40b1-4685-9646-2264aae8e0f7",
       "name": "The Unravelled",
-      "category": null,
-      "outputValue": "",
+      "category": "Bosses",
+      "outputValue": "Conductor Boss",
       "notes": "",
       "sortOrder": 170,
-      "aliases": "The Unravelled"
+      "aliases": "The Unravelled, Conductor Boss"
     },
     {
       "id": "d50ea688-fe4e-4e4a-9f0f-673a84748c40",
       "name": "Cogwork Underfly",
-      "category": null,
-      "outputValue": "",
+      "category": "Underworks",
+      "outputValue": "Understore Automaton",
       "notes": "",
       "sortOrder": 171,
-      "aliases": "Cogwork Underfly"
+      "aliases": "Cogwork Underfly, Understore Automaton"
     },
     {
       "id": "cb74c4ac-720c-42e9-9a2d-6262bf6caaff",
       "name": "Cogwork Hauler",
-      "category": null,
-      "outputValue": "",
+      "category": "Underworks",
+      "outputValue": "Understore Automaton EX",
       "notes": "",
       "sortOrder": 172,
-      "aliases": "Cogwork Hauler"
+      "aliases": "Cogwork Hauler, Understore Automaton EX"
     },
     {
       "id": "54003667-5808-4ef8-9b40-e9d7eeca8d04",
       "name": "Cogwork Crawler",
-      "category": null,
-      "outputValue": "",
+      "category": "Cogwork Core",
+      "outputValue": "Song Automaton Goomba",
       "notes": "",
       "sortOrder": 173,
-      "aliases": "Cogwork Crawler"
+      "aliases": "Cogwork Crawler, Song Automaton Goomba"
     },
     {
       "id": "c54040b6-fbf6-4cac-8bb3-f5c0b443cb52",
       "name": "Cogworker",
-      "category": null,
-      "outputValue": "",
+      "category": "Cogwork Core",
+      "outputValue": "Song Automaton Fly",
       "notes": "",
       "sortOrder": 174,
-      "aliases": "Cogworker"
+      "aliases": "Cogworker, Song Automaton Fly"
     },
     {
       "id": "952d834b-69a7-4aee-a731-bae79daab0c8",
       "name": "Cogwork Spine",
-      "category": null,
-      "outputValue": "",
+      "category": "Cogwork Core",
+      "outputValue": "Song Automaton Fly Spike",
       "notes": "",
       "sortOrder": 175,
-      "aliases": "Cogwork Spine"
+      "aliases": "Cogwork Spine, Song Automaton Fly Spike"
     },
     {
       "id": "1fa48d53-f60e-457d-a5bf-bcf9bf2d45e2",
       "name": "Cogwork Choirbug",
-      "category": null,
-      "outputValue": "",
+      "category": "Cogwork Core",
+      "outputValue": "Song Automaton 01",
       "notes": "",
       "sortOrder": 176,
-      "aliases": "Cogwork Choirbug"
+      "aliases": "Cogwork Choirbug, Song Automaton 01"
     },
     {
       "id": "4250b5d4-2359-45a3-a899-7615628eda66",
       "name": "Cogwork Cleanser",
-      "category": null,
-      "outputValue": "",
+      "category": "Cogwork Core",
+      "outputValue": "Song Automaton 02",
       "notes": "",
       "sortOrder": 177,
-      "aliases": "Cogwork Cleanser"
+      "aliases": "Cogwork Cleanser, Song Automaton 02"
     },
     {
       "id": "f7c5fefb-c8f8-4f58-9267-61529fa7e78e",
       "name": "Cogwork Defender",
-      "category": null,
-      "outputValue": "",
+      "category": "Cogwork Core",
+      "outputValue": "Song Automaton Shield",
       "notes": "",
       "sortOrder": 178,
-      "aliases": "Cogwork Defender"
+      "aliases": "Cogwork Defender, Song Automaton Shield"
     },
     {
       "id": "b06686b1-7dc2-432e-aa1b-1592609f855b",
       "name": "Cogwork Clapper",
-      "category": null,
-      "outputValue": "",
+      "category": "Cogwork Core",
+      "outputValue": "Song Automaton Ball",
       "notes": "",
       "sortOrder": 179,
-      "aliases": "Cogwork Clapper"
+      "aliases": "Cogwork Clapper, Song Automaton Ball"
     },
     {
       "id": "52d39b5e-e46a-4414-885a-720b3803eeb2",
       "name": "Cogwork Dancers",
-      "category": null,
-      "outputValue": "",
+      "category": "Bosses",
+      "outputValue": "Clockwork Dancer",
       "notes": "",
       "sortOrder": 180,
-      "aliases": "Cogwork Dancers"
+      "aliases": "Cogwork Dancers, Clockwork Dancer"
     },
     {
       "id": "d3d17d4d-950e-40ad-9d31-46838fc3e3cb",
       "name": "Vaultborn",
-      "category": null,
-      "outputValue": "",
+      "category": "Whispering Vaults",
+      "outputValue": "Song Scholar Acolyte",
       "notes": "",
       "sortOrder": 181,
-      "aliases": "Vaultborn"
+      "aliases": "Vaultborn, Song Scholar Acolyte"
     },
     {
       "id": "c880d0d2-f649-4efc-8c66-1367dabb98dc",
       "name": "Lampbearer",
-      "category": null,
-      "outputValue": "",
+      "category": "Whispering Vaults",
+      "outputValue": "Lightbearer",
       "notes": "",
       "sortOrder": 182,
-      "aliases": "Lampbearer"
+      "aliases": "Lampbearer, Lightbearer"
     },
     {
       "id": "bdbef48c-dc97-474c-95d1-be89dcd26ff9",
       "name": "Scrollreader",
-      "category": null,
-      "outputValue": "",
+      "category": "Whispering Vaults",
+      "outputValue": "Scrollkeeper",
       "notes": "",
       "sortOrder": 183,
-      "aliases": "Scrollreader"
+      "aliases": "Scrollreader, Scrollkeeper"
     },
     {
       "id": "0cabf8e2-6341-45eb-b2bf-494b108e7575",
       "name": "Vaultkeeper",
-      "category": null,
-      "outputValue": "",
+      "category": "Whispering Vaults",
+      "outputValue": "Scholar",
       "notes": "",
       "sortOrder": 184,
-      "aliases": "Vaultkeeper"
+      "aliases": "Vaultkeeper, Scholar"
     },
     {
       "id": "9eae1991-88b5-40e6-9fd3-1e4390a5e6d7",
       "name": "Trobbio",
-      "category": null,
-      "outputValue": "",
+      "category": "Bosses",
+      "outputValue": "Trobbio",
       "notes": "",
       "sortOrder": 185,
       "aliases": "Trobbio"
@@ -6356,8 +6016,8 @@
     {
       "id": "52e11c2b-027d-47d0-ad66-7f58ea48599b",
       "name": "Tormented Trobbio",
-      "category": null,
-      "outputValue": "",
+      "category": "Bosses",
+      "outputValue": "Tormented Trobbio",
       "notes": "",
       "sortOrder": 186,
       "aliases": "Tormented Trobbio"
@@ -6365,197 +6025,197 @@
     {
       "id": "d7b6ce59-2b99-4dd6-89ea-ada5d47f6e81",
       "name": "Penitent",
-      "category": null,
-      "outputValue": "",
+      "category": "The Slab",
+      "outputValue": "Slab Prisoner Leaper New",
       "notes": "",
       "sortOrder": 187,
-      "aliases": "Penitent"
+      "aliases": "Penitent, Slab Prisoner Leaper New"
     },
     {
       "id": "6fbf296a-24c4-44fc-938d-57500b3a5575",
       "name": "Puny Penitent",
-      "category": null,
-      "outputValue": "",
+      "category": "The Slab",
+      "outputValue": "Slab Prisoner Fly New",
       "notes": "",
       "sortOrder": 188,
-      "aliases": "Puny Penitent"
+      "aliases": "Puny Penitent, Slab Prisoner Fly New"
     },
     {
       "id": "5cfefb3f-75d7-46d1-a298-38790b337d2e",
       "name": "Freshfly",
-      "category": null,
-      "outputValue": "",
+      "category": "The Slab",
+      "outputValue": "Slab Fly Small Fresh",
       "notes": "",
       "sortOrder": 189,
-      "aliases": "Freshfly"
+      "aliases": "Freshfly, Slab Fly Small Fresh"
     },
     {
       "id": "79aec741-ed4c-4591-b427-8eb405f0b588",
       "name": "Scabfly",
-      "category": null,
-      "outputValue": "",
+      "category": "The Slab",
+      "outputValue": "Slab Fly Small",
       "notes": "",
       "sortOrder": 190,
-      "aliases": "Scabfly"
+      "aliases": "Scabfly, Slab Fly Small"
     },
     {
       "id": "2ae014e9-fc86-484e-9189-909267779279",
       "name": "Guardfly",
-      "category": null,
-      "outputValue": "",
+      "category": "The Slab",
+      "outputValue": "Slab Fly Mid",
       "notes": "",
       "sortOrder": 191,
-      "aliases": "Guardfly"
+      "aliases": "Guardfly, Slab Fly Mid"
     },
     {
       "id": "60fd66ba-373d-4b32-b125-08ae896ad1ad",
       "name": "Wardenfly",
-      "category": null,
-      "outputValue": "",
+      "category": "The Slab",
+      "outputValue": "Slab Fly Large",
       "notes": "",
       "sortOrder": 192,
-      "aliases": "Wardenfly"
+      "aliases": "Wardenfly, Slab Fly Large"
     },
     {
       "id": "dab26c9d-b291-4fe6-bbde-145d0b224a50",
       "name": "Broodmother",
-      "category": null,
-      "outputValue": "",
+      "category": "Bosses",
+      "outputValue": "Slab Fly Broodmother",
       "notes": "",
       "sortOrder": 193,
-      "aliases": "Broodmother"
+      "aliases": "Broodmother, Slab Fly Broodmother"
     },
     {
       "id": "8d4d71fc-5fd4-4deb-8c7d-573c83b4864a",
       "name": "Driftlin",
-      "category": null,
-      "outputValue": "",
+      "category": "Mount Fay",
+      "outputValue": "Peaks Drifter",
       "notes": "",
       "sortOrder": 194,
-      "aliases": "Driftlin"
+      "aliases": "Driftlin, Peaks Drifter"
     },
     {
       "id": "7bf398b1-ac7e-4f8e-ad92-7a189a5a8993",
       "name": "Mnemonid",
-      "category": null,
-      "outputValue": "",
+      "category": "Mount Fay",
+      "outputValue": "Crystal Drifter",
       "notes": "",
       "sortOrder": 195,
-      "aliases": "Mnemonid"
+      "aliases": "Mnemonid, Crystal Drifter"
     },
     {
       "id": "150eabd5-2ccf-4e71-bb6f-101e8ccbe4c8",
       "name": "Mnemonord",
-      "category": null,
-      "outputValue": "",
+      "category": "Mount Fay",
+      "outputValue": "Crystal Drifter Giant",
       "notes": "",
       "sortOrder": 196,
-      "aliases": "Mnemonord"
+      "aliases": "Mnemonord, Crystal Drifter Giant"
     },
     {
       "id": "9e6f72c3-eb46-46ac-81a6-fee95ebc70ff",
       "name": "Servitor Ignim",
-      "category": null,
-      "outputValue": "",
+      "category": "Weavenest Atla",
+      "outputValue": "Weaver Servitor",
       "notes": "",
       "sortOrder": 197,
-      "aliases": "Servitor Ignim"
+      "aliases": "Servitor Ignim, Weaver Servitor"
     },
     {
       "id": "7de62e00-69f0-400d-af5c-59671f101cb9",
       "name": "Servitor Boran",
-      "category": null,
-      "outputValue": "",
+      "category": "Mount Fay",
+      "outputValue": "Weaver Servitor Large",
       "notes": "",
       "sortOrder": 198,
-      "aliases": "Servitor Boran"
+      "aliases": "Servitor Boran, Weaver Servitor Large"
     },
     {
       "id": "c02de190-197c-4325-bae3-907c09ea7217",
       "name": "Winged Lifeseed",
-      "category": null,
-      "outputValue": "",
+      "category": "Wormways",
+      "outputValue": "Lifeblood Fly",
       "notes": "",
       "sortOrder": 199,
-      "aliases": "Winged Lifeseed"
+      "aliases": "Winged Lifeseed, Lifeblood Fly"
     },
     {
       "id": "9ebbdcb9-9440-4f93-8c60-9dc410038455",
       "name": "Plasmid",
-      "category": null,
-      "outputValue": "",
+      "category": "Wormways",
+      "outputValue": "Bone Worm Blueblood",
       "notes": "",
       "sortOrder": 200,
-      "aliases": "Plasmid"
+      "aliases": "Plasmid, Bone Worm Blueblood"
     },
     {
       "id": "975eb912-33fd-4350-bda0-1f42e319d1b5",
       "name": "Plasmidas",
-      "category": null,
-      "outputValue": "",
+      "category": "Wormways",
+      "outputValue": "Bone Worm Blueturret",
       "notes": "",
       "sortOrder": 201,
-      "aliases": "Plasmidas"
+      "aliases": "Plasmidas, Bone Worm Blueturret"
     },
     {
       "id": "9a8c10f7-686c-4b05-91a3-f67ae1a1d169",
       "name": "Plasmified Zango",
-      "category": null,
-      "outputValue": "",
+      "category": "Bosses",
+      "outputValue": "Blue Assistant",
       "notes": "",
       "sortOrder": 202,
-      "aliases": "Plasmified Zango"
+      "aliases": "Plasmified Zango, Blue Assistant"
     },
     {
       "id": "37f896f9-9532-416e-a397-399b437ab23c",
       "name": "Leaf Glider",
-      "category": null,
-      "outputValue": "",
+      "category": "Verdania",
+      "outputValue": "Lilypad Fly",
       "notes": "",
       "sortOrder": 203,
-      "aliases": "Leaf Glider"
+      "aliases": "Leaf Glider, Lilypad Fly"
     },
     {
       "id": "ab462e4e-d093-426d-9a6f-11056030e36e",
       "name": "Leaf Roller",
-      "category": null,
-      "outputValue": "",
+      "category": "Verdania",
+      "outputValue": "Grass Goomba",
       "notes": "",
       "sortOrder": 204,
-      "aliases": "Leaf Roller"
+      "aliases": "Leaf Roller, Grass Goomba"
     },
     {
       "id": "06299ace-6c04-45d7-8c9c-4d3889944d1c",
       "name": "Pendra",
-      "category": null,
-      "outputValue": "",
+      "category": "Verdania",
+      "outputValue": "Hornet Dragonfly",
       "notes": "",
       "sortOrder": 205,
-      "aliases": "Pendra"
+      "aliases": "Pendra, Hornet Dragonfly"
     },
     {
       "id": "7c8c9367-9415-45bb-8a30-1a4783763257",
       "name": "Pendragor",
-      "category": null,
-      "outputValue": "",
+      "category": "Verdania",
+      "outputValue": "Dragonfly Large",
       "notes": "",
       "sortOrder": 206,
-      "aliases": "Pendragor"
+      "aliases": "Pendragor, Dragonfly Large"
     },
     {
       "id": "171bfbbc-60e9-4067-8eca-53d770d13683",
       "name": "Nuphar",
-      "category": null,
-      "outputValue": "",
+      "category": "Verdania",
+      "outputValue": "Lilypad Trap",
       "notes": "",
       "sortOrder": 207,
-      "aliases": "Nuphar"
+      "aliases": "Nuphar, Lilypad Trap"
     },
     {
       "id": "ce550d54-e5a3-43a3-90aa-5b08c3b2a300",
       "name": "Cloverstag",
-      "category": null,
-      "outputValue": "",
+      "category": "Verdania",
+      "outputValue": "Cloverstag",
       "notes": "",
       "sortOrder": 208,
       "aliases": "Cloverstag"
@@ -6563,8 +6223,8 @@
     {
       "id": "2160e123-9e5b-4899-9807-f9923defdaee",
       "name": "Palestag",
-      "category": null,
-      "outputValue": "",
+      "category": "Bosses",
+      "outputValue": "UNKNOWN [Palestag]",
       "notes": "",
       "sortOrder": 209,
       "aliases": "Palestag"
@@ -6572,80 +6232,80 @@
     {
       "id": "6d41f7d1-0c1c-428a-9a29-954e5577bb35",
       "name": "Kindanir",
-      "category": null,
-      "outputValue": "",
+      "category": "Verdania",
+      "outputValue": "Grasshopper Child",
       "notes": "",
       "sortOrder": 210,
-      "aliases": "Kindanir"
+      "aliases": "Kindanir, Grasshopper Child"
     },
     {
       "id": "fff2afcb-0acc-4d50-83c0-f8713859f7cf",
       "name": "Verdanir",
-      "category": null,
-      "outputValue": "",
+      "category": "Verdania",
+      "outputValue": "Grasshopper Slasher",
       "notes": "",
       "sortOrder": 211,
-      "aliases": "Verdanir"
+      "aliases": "Verdanir, Grasshopper Slasher"
     },
     {
       "id": "e7060064-57a7-4f62-9e26-542362c375ee",
       "name": "Escalion",
-      "category": null,
-      "outputValue": "",
+      "category": "Verdania",
+      "outputValue": "Grasshopper Fly",
       "notes": "",
       "sortOrder": 212,
-      "aliases": "Escalion"
+      "aliases": "Escalion, Grasshopper Fly"
     },
     {
       "id": "a50ba74b-278e-49cf-8688-e0faf5401f7a",
       "name": "Clover Dancers",
-      "category": null,
-      "outputValue": "",
+      "category": "Bosses",
+      "outputValue": "Clover Dancer",
       "notes": "",
       "sortOrder": 213,
-      "aliases": "Clover Dancers"
+      "aliases": "Clover Dancers, Clover Dancer"
     },
     {
       "id": "3ba0acb4-6f3c-4af3-a44a-270cb0f8049b",
       "name": "Shadow Creeper",
-      "category": null,
-      "outputValue": "",
+      "category": "The Abyss",
+      "outputValue": "Abyss Crawler",
       "notes": "",
       "sortOrder": 214,
-      "aliases": "Shadow Creeper"
+      "aliases": "Shadow Creeper, Abyss Crawler"
     },
     {
       "id": "05494fa3-2fcc-4c4a-8106-0d94230ce907",
       "name": "Shadow Charger",
-      "category": null,
-      "outputValue": "",
+      "category": "The Abyss",
+      "outputValue": "Abyss Crawler Large",
       "notes": "",
       "sortOrder": 215,
-      "aliases": "Shadow Charger"
+      "aliases": "Shadow Charger, Abyss Crawler Large"
     },
     {
       "id": "f3416f6f-04df-4fad-a226-d75961eb433f",
       "name": "Gloomsac",
-      "category": null,
-      "outputValue": "",
+      "category": "The Abyss",
+      "outputValue": "Gloomfly",
       "notes": "",
       "sortOrder": 216,
-      "aliases": "Gloomsac"
+      "aliases": "Gloomsac, Gloomfly"
     },
     {
       "id": "5aee5cf2-38ea-4e31-9dff-094a11aa06e7",
       "name": "Gargant Gloom",
-      "category": null,
-      "outputValue": "",
+      "category": "The Abyss",
+      "outputValue": "Gloom Beast",
       "notes": "",
       "sortOrder": 217,
-      "aliases": "Gargant Gloom"
+      "aliases": "Gargant Gloom, Gloom Beast"
     },
     {
       "id": "a72ac08d-2299-492a-beda-15c18d00bee7",
       "name": "Void Tendrils",
-      "category": null,
-      "outputValue": "",
+      "category": "The Abyss",
+      "outputValue": "UNKNOWN [Void Tendrils]",
       "notes": "",
       "sortOrder": 218,
       "aliases": "Void Tendrils"
@@ -6654,25 +6314,25 @@
       "id": "080db5e0-adfc-499a-91ac-c23590e48ed7",
       "name": "Void Mass",
       "category": null,
-      "outputValue": "",
+      "outputValue": "Black Thread Core",
       "notes": "",
       "sortOrder": 219,
-      "aliases": "Void Mass"
+      "aliases": "Void Mass, Black Thread Core"
     },
     {
       "id": "26aac171-3052-4c5b-a8ca-2de61a04196a",
       "name": "Summoned Saviour",
-      "category": null,
-      "outputValue": "",
+      "category": "Bosses",
+      "outputValue": "Abyss Mass",
       "notes": "",
       "sortOrder": 220,
-      "aliases": "Summoned Saviour"
+      "aliases": "Summoned Saviour, Abyss Mass"
     },
     {
       "id": "c767b604-f93e-4a27-aa96-f88473ff71bb",
       "name": "Wingmould",
       "category": null,
-      "outputValue": "",
+      "outputValue": "UNKNOWN [Wingmould]",
       "notes": "",
       "sortOrder": 221,
       "aliases": "Wingmould"
@@ -6681,79 +6341,79 @@
       "id": "f6adbd18-ee2e-44ce-8905-aecef954078e",
       "name": "Garpid",
       "category": null,
-      "outputValue": "",
+      "outputValue": "Centipede Trap",
       "notes": "",
       "sortOrder": 222,
-      "aliases": "Garpid"
+      "aliases": "Garpid, Centipede Trap"
     },
     {
       "id": "80d9bd9b-f1db-4901-9468-d3e7bf7e9baa",
       "name": "Imoba",
       "category": null,
-      "outputValue": "",
+      "outputValue": "Spike Lazy Flyer",
       "notes": "",
       "sortOrder": 223,
-      "aliases": "Imoba"
+      "aliases": "Imoba, Spike Lazy Flyer"
     },
     {
       "id": "822c94d4-3355-4b57-a43a-18a16cfb7b7c",
       "name": "Skrill",
       "category": null,
-      "outputValue": "",
+      "outputValue": "Surface Scuttler",
       "notes": "",
       "sortOrder": 224,
-      "aliases": "Skrill"
+      "aliases": "Skrill, Surface Scuttler"
     },
     {
       "id": "ea4dc3d0-4996-46b6-9d36-f820fc286112",
       "name": "Bell Eater",
-      "category": null,
-      "outputValue": "",
+      "category": "Bosses",
+      "outputValue": "Giant Centipede",
       "notes": "",
       "sortOrder": 225,
-      "aliases": "Bell Eater"
+      "aliases": "Bell Eater, Giant Centipede"
     },
     {
       "id": "82623772-a5f6-45f7-b1df-08de70b9a9b3",
       "name": "Huge Flea",
-      "category": null,
-      "outputValue": "",
+      "category": "Memorium",
+      "outputValue": "Giant Flea",
       "notes": "",
       "sortOrder": 226,
-      "aliases": "Huge Flea"
+      "aliases": "Huge Flea, Giant Flea"
     },
     {
       "id": "98ee99b5-8953-4abf-bc44-f8821c2db94d",
       "name": "Shakra",
-      "category": null,
-      "outputValue": "",
+      "category": "Bosses",
+      "outputValue": "Mapper",
       "notes": "",
       "sortOrder": 227,
-      "aliases": "Shakra"
+      "aliases": "Shakra, Mapper"
     },
     {
       "id": "cd41e6e7-03da-441b-9302-445520341862",
       "name": "Garmond \u0026 Zaza",
-      "category": null,
-      "outputValue": "",
+      "category": "Bosses",
+      "outputValue": "Garmond Zaza",
       "notes": "",
       "sortOrder": 228,
-      "aliases": "Garmond and Zaza"
+      "aliases": "Garmond and Zaza, Garmond Zaza"
     },
     {
       "id": "ff28afc8-751e-420a-ae67-20fa1b8b0beb",
       "name": "Lost Garmond",
-      "category": null,
-      "outputValue": "",
+      "category": "Bosses",
+      "outputValue": "Garmond",
       "notes": "",
       "sortOrder": 229,
-      "aliases": "Lost Garmond"
+      "aliases": "Lost Garmond, Garmond"
     },
     {
       "id": "8cb30e76-b610-473a-a2f4-2fbc644900eb",
       "name": "Pinstress",
-      "category": null,
-      "outputValue": "",
+      "category": "Bosses",
+      "outputValue": "UNKNOWN [Pinstress]",
       "notes": "",
       "sortOrder": 230,
       "aliases": "Pinstress"
@@ -6761,26 +6421,26 @@
     {
       "id": "43f3d79c-d0e4-4e98-93eb-da9b92438109",
       "name": "Widow",
-      "category": null,
-      "outputValue": "",
+      "category": "Bosses",
+      "outputValue": "Spinner",
       "notes": "",
       "sortOrder": 231,
-      "aliases": "Widow"
+      "aliases": "Widow, Spinner"
     },
     {
       "id": "83d9641b-e1ce-4c5d-a66f-807b2c85cf86",
       "name": "First Sinner",
-      "category": null,
-      "outputValue": "",
+      "category": "Bosses",
+      "outputValue": "First Weaver",
       "notes": "",
       "sortOrder": 232,
-      "aliases": "First Sinner"
+      "aliases": "First Sinner, First Weaver"
     },
     {
       "id": "4527fce2-ff16-4465-bc09-7844d8beccd4",
       "name": "Phantom",
-      "category": null,
-      "outputValue": "",
+      "category": "Bosses",
+      "outputValue": "Phantom",
       "notes": "",
       "sortOrder": 233,
       "aliases": "Phantom"
@@ -6788,8 +6448,8 @@
     {
       "id": "1f0a9d40-c656-491f-ab4a-7c1730c2247b",
       "name": "Lace",
-      "category": null,
-      "outputValue": "",
+      "category": "Bosses",
+      "outputValue": "UNKNOWN [Lace]",
       "notes": "",
       "sortOrder": 234,
       "aliases": "Lace"
@@ -6797,17 +6457,17 @@
     {
       "id": "5c21e9f9-f723-4576-81c9-a34f48b48674",
       "name": "Grand Mother Silk",
-      "category": null,
-      "outputValue": "",
+      "category": "Bosses",
+      "outputValue": "Silk Boss",
       "notes": "",
       "sortOrder": 235,
-      "aliases": "Grand Mother Silk"
+      "aliases": "Grand Mother Silk, Silk Boss"
     },
     {
       "id": "ed795d3b-84d3-4889-b430-6428f4f2839c",
       "name": "Lost Lace",
-      "category": null,
-      "outputValue": "",
+      "category": "Bosses",
+      "outputValue": "Lost Lace",
       "notes": "",
       "sortOrder": 236,
       "aliases": "Lost Lace"

@@ -23,7 +23,7 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Bilewater - Bellway |  | rosaries 60 |  | Verified | travel | ✓ |  |
+| 1 | Bilewater - Bellway |  | spend 60 rosaries |  | Verified | travel | ✓ |  |
 | 2 | Bilewater Bellway Bench |  | none |  | Verified | bench | ✓ |  |
 | 3 | Craw Summons |  | craw summons ready |  | Verified | collectible |  |  |
 

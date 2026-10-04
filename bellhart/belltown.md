@@ -38,14 +38,14 @@
 | 1 | Memory Locket: Bellhart Roof | Upper Area | Silk Soar |  | Verified | collectible | ✓ |  |
 | 2 | Couriers Rasher | Upper Area | complete THE Great Taste of Pharloom Wish Promised |  | Verified | logic-point | ✓ |  |
 | 3 | Map: Bellhart | Upper Area | None |  | Verified | collectible | ✓ |  |
-| 4 | Memory Locket (Frey) | Lower Area | Rosaries 330 |  | Verified | event | ✓ |  |
-| 5 | Spool Fragment (Frey) | Lower Area | prereq THE My Missing Courier Wish Granted AND Rosaries 270 |  | Verified | event | ✓ |  |
-| 6 | Multibinder | Lower Area | prereq THE My Missing Courier Wish Granted AND Rosaries 800 |  | Verified | collectible | ✓ |  |
-| 7 | Desk | Lower Area | Rosaries 380 |  | Verified | collectible | ✓ |  |
-| 8 | Gleamlights | Lower Area | Rosaries 320 |  | Verified | collectible | ✓ |  |
-| 9 | Bell Lacquer | Lower Area | Rosaries 520 |  | Verified | collectible | ✓ |  |
-| 10 | Personal Spa | Lower Area | Bellhome Items 2 AND Rosaries 11000 |  | Verified | collectible | ✓ |  |
-| 11 | Gramophone | Lower Area | sold pslam cylinders 6 AND Rosaries 490 |  | Verified | collectible | ✓ |  |
+| 4 | Memory Locket (Frey) | Lower Area | Spend 330 Rosaries |  | Verified | event | ✓ |  |
+| 5 | Spool Fragment (Frey) | Lower Area | prereq THE My Missing Courier Wish Granted AND Spend 270 Rosaries |  | Verified | event | ✓ |  |
+| 6 | Multibinder | Lower Area | prereq THE My Missing Courier Wish Granted AND Spend 800 Rosaries |  | Verified | collectible | ✓ |  |
+| 7 | Desk | Lower Area | Spend 380 Rosaries |  | Verified | collectible | ✓ |  |
+| 8 | Gleamlights | Lower Area | Spend 320 Rosaries |  | Verified | collectible | ✓ |  |
+| 9 | Bell Lacquer | Lower Area | Spend 520 Rosaries |  | Verified | collectible | ✓ |  |
+| 10 | Personal Spa | Lower Area | Get 2 Bellhome Items AND Spend 11000 Rosaries |  | Verified | collectible | ✓ |  |
+| 11 | Gramophone | Lower Area | Get 6 Psalm Cylinders Turned In AND Spend 490 Rosaries |  | Verified | collectible | ✓ |  |
 | 12 | Bench | Lower Area | none |  | Verified | bench | ✓ |  |
 | 13 | Craw Summons | Lower Area | Craw Summons Ready |  | Verified | collectible | ✓ |  |
 

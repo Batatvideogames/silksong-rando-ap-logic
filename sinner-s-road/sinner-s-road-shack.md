@@ -23,9 +23,9 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Roach Guts Wish Promised |  | act 2 |  | Verified | event |  |  |
-| 2 | Roach Guts Wish Granted |  | roach guts 10 |  | Verified | event |  |  |
+| 2 | Roach Guts Wish Granted |  | get 10 roach guts |  | Verified | event |  |  |
 | 3 | Tacks |  | complete Roach Guts Wish Granted OR act 3 |  | Verified | collectible |  |  |
-| 4 | Steel Spines |  | complete THE Infestation Operation Wish Promised AND ( ( act 2 AND rosaries 160 ) OR act 3 ) |  | Verified | collectible |  | Free in act 3 cause they ded |
+| 4 | Steel Spines |  | complete THE Infestation Operation Wish Promised AND ( ( act 2 AND spend 160 rosaries ) OR act 3 ) |  | Verified | collectible |  | Free in act 3 cause they ded |
 
 ## Room Images
 

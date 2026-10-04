@@ -23,8 +23,8 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Underworks: Ventrica Rosary Lock |  | Rosaries 80 |  | Verified | lock | ✓ |  |
-| 2 | Underworks: Ventrica |  | unlock Underworks: Ventrica Rosary Lock |  | Verified | travel |  |  |
+| 1 | Underworks: Ventrica Rosary Lock |  | Spend 80 Rosaries |  | Verified | lock | ✓ |  |
+| 2 | Underworks: Ventrica |  | unlock Underworks: Ventrica Rosary Lock |  | Verified | travel | ✓ |  |
 
 ## Room Images
 

@@ -50,12 +50,12 @@
 | 3 | lower platform switch other room | middle upper platform | flip switch up |  | Verified | switch | ✓ | lowers platform into the marrow entrance room |
 | 4 | the marrow shell shard cache 2 | shakra intro | none |  | Verified | collectible | ✓ |  |
 | 5 | the marrow shell shard cache 3 | shakra intro | none |  | Verified | collectible | ✓ |  |
-| 6 | quill | shakra intro | rosaries 50 |  | Verified | collectible |  | shakra's shop |
-| 7 | compass | shakra intro | rosaries 70 |  | Verified | collectible |  | shakra's shop |
-| 8 | map mosslands | shakra intro | rosaries 40 |  | Verified | collectible |  | shakra's shop |
-| 9 | map the marrow | shakra intro | rosaries 50 |  | Verified | collectible |  | shakra's shop |
-| 10 | map bench pins | shakra intro | rosaries 60 |  | Verified | collectible |  | shakra's shop |
-| 11 | map bellway pins | shakra intro | rosaries 60 |  | Verified | collectible |  | shakra's shop \| appears to be bugged in availability logic still. shows available but isn't |
+| 6 | quill | shakra intro | spend 50 rosaries |  | Verified | collectible |  | shakra's shop |
+| 7 | compass | shakra intro | spend 70 rosaries |  | Verified | collectible |  | shakra's shop |
+| 8 | map mosslands | shakra intro | spend 40 rosaries |  | Verified | collectible |  | shakra's shop |
+| 9 | map the marrow | shakra intro | spend 50 rosaries |  | Verified | collectible |  | shakra's shop |
+| 10 | map bench pins | shakra intro | spend 60 rosaries |  | Verified | collectible |  | shakra's shop |
+| 11 | map bellway pins | shakra intro | spend 60 rosaries |  | Verified | collectible |  | shakra's shop \| appears to be bugged in availability logic still. shows available but isn't |
 | 12 | volatile flintbeetle 2 | right upper path | complete THE volatile flintbeetles wish promised |  | Verified | miniboss | ✓ | this one swaps position based on when the marrow bellshrine is activated (per the wiki) - best to ensure both locations are accessible for the quest |
 | 13 | bench gate switch | bench spot | flip switch up |  | Verified | switch | ✓ |  |
 | 14 | bench | bench spot | none |  | Verified | bench | ✓ |  |

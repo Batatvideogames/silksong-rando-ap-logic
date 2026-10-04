@@ -24,8 +24,8 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Boss: Last Judge |  | prereq Five Bellshrines Rung AND (Progressive Swift Step 2 OR Faydown) |  | Verified | boss | ✓ | Combat Requirements |
-| 2 | Five Bellshrines Rung |  | activated bellshrines 5 |  | Verified | event | ✓ |  |
-| 3 | flea caravan move to fleatopia |  | after THE flea caravan move to blasted steps AND fleas 22 AND after THE reached pale lake |  | Verified | event |  |  |
+| 2 | Five Bellshrines Rung |  | get 5 bellshrines activated |  | Verified | event | ✓ |  |
+| 3 | flea caravan move to fleatopia |  | after THE flea caravan move to blasted steps AND get 22 fleas AND after THE reached pale lake |  | Verified | event |  |  |
 
 ## Room Images
 

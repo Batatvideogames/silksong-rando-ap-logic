@@ -22,8 +22,8 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Watcher at the edge |  | Needolin AND Needle Upgrades 2 |  | Verified | boss | ✓ |  |
-| 2 | Grey Memento |  | Needolin AND Needle Upgrades 2 |  | Verified | collectible | ✓ |  |
+| 1 | Watcher at the Edge |  | Needolin |  | Verified | boss | ✓ |  |
+| 2 | Grey Memento |  | Needolin |  | Verified | collectible | ✓ |  |
 
 ## Room Images
 

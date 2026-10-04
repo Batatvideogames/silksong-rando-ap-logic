@@ -29,7 +29,7 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Boss: Lace 2 | Arena | needle upgrades 2 |  | Verified | boss | ✓ |  |
+| 1 | Boss: Lace 2 | Arena | None |  | Verified | boss | ✓ |  |
 | 2 | Silk Heart: Lace 2 | Arena | prereq Boss: Lace 2 |  | Verified | collectible | ✓ |  |
 
 ## Notes

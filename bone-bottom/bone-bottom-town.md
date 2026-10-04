@@ -69,10 +69,10 @@
 | 4 | bone bottom rosary cache 9 | upper right platforms | none |  | Verified | collectible | ✓ |  |
 | 5 | weaver effigy camora moss grotto | upper middle platforms | none |  | Verified | collectible | ✓ |  |
 | 6 | bone bottom rosary dish | upper middle platforms | none |  | Verified | collectible | ✓ |  |
-| 7 | magnetite broach | ground level | ( act 1 OR act 2 ) AND rosaries 120 |  | Verified | collectible | ✓ | pebb's shop |
-| 8 | mask shard pebbs shop grindle act 3 | ground level | ( act 1 OR act 2 ) AND rosaries 300 |  | Verified | collectible | ✓ | pebb's shop |
-| 9 | bone bottom shop craft metal | ground level | ( act 1 OR act 2 ) AND rosaries 60 |  | Verified | collectible | ✓ | pebb's shop |
-| 10 | simple key | ground level | ( act 1 OR act 2 ) AND rosaries 500 |  | Verified | collectible | ✓ | pebb's shop |
+| 7 | magnetite broach | ground level | ( act 1 OR act 2 ) AND spend 120 rosaries |  | Verified | collectible | ✓ | pebb's shop |
+| 8 | mask shard pebbs shop grindle act 3 | ground level | ( act 1 OR act 2 ) AND spend 300 rosaries |  | Verified | collectible | ✓ | pebb's shop |
+| 9 | bone bottom shop craft metal | ground level | ( act 1 OR act 2 ) AND spend 60 rosaries |  | Verified | collectible | ✓ | pebb's shop |
+| 10 | simple key | ground level | ( act 1 OR act 2 ) AND spend 500 rosaries |  | Verified | collectible | ✓ | pebb's shop |
 | 11 | shell shard cache bone bottom | ground level | complete THE an icon of hope wish granted |  | Verified | collectible |  |  |
 | 12 | skull tyrant bone bottom boss fight | ground level | complete THE the terrible tyrant wish granted AND ( visit blasted steps  OR visit the citadel  OR visit sinners road ) |  | Verified | boss |  | may be other hidden requirements. wiki says 30% chance of spawn after reaching key areas and using a bench in the zone. |
 | 13 | reach bone bottom | ground level | none |  | Verified | logic-point |  | addresses the loading zone blocker in moss grotto center ceiling that only goes away once you've been up here - remove this/requirement in moss grotto center if/when this is removed in the randomizer |

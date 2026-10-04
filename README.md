@@ -215,6 +215,7 @@ Generated from the non-archived records in `input/silksong-rando-logic.db`.
 - [Greymoor Crow Nest (Room_CrowCourt)](./greymoor/greymoor-crow-nest.md)
 - [Greymoor East Bellshrine Room (Greymoor_02)](./greymoor/greymoor-east-bellshrine-room.md)
 - [Greymoor Eastern Tower (Greymoor_04)](./greymoor/greymoor-eastern-tower.md)
+- [Greymoor Lower Halfway Home Path (Greymoor_13)](./greymoor/greymoor-lower-halfway-home-path.md)
 - [Greymoor Weaver Shrine (Greymoor_22)](./greymoor/greymoor-weaver-shrine.md)
 - [Greymoor Western Tower (Greymoor_06)](./greymoor/greymoor-western-tower.md)
 - [Pimpillo Room (Wisp_06)](./greymoor/pimpillo-room.md)
@@ -228,7 +229,6 @@ Generated from the non-archived records in `input/silksong-rando-logic.db`.
 - [Greymoor Halfway Home (Halfway_01)](./greymoor/greymoor-halfway-home.md)
 - [Greymoor Halfway Home Exterior (Greymoor_03)](./greymoor/greymoor-halfway-home-exterior.md)
 - [Greymoor Kraft Room (Greymoor_24)](./greymoor/greymoor-kraft-room.md)
-- [Greymoor Lower Halfway Home Path (Greymoor_13)](./greymoor/greymoor-lower-halfway-home-path.md)
 - [Greymoor Middle Passage (Greymoor_10)](./greymoor/greymoor-middle-passage.md)
 - [Greymoor Rat Tunnel (Greymoor_16)](./greymoor/greymoor-rat-tunnel.md)
 - [Greymoor Silver Shells room (Greymoor_17)](./greymoor/greymoor-silver-shells-room.md)
@@ -482,7 +482,7 @@ Generated from the non-archived records in `input/silksong-rando-logic.db`.
 - [Memorium puzzle (Arborium_10)](./memorium/memorium-puzzle.md)
 - [Memorium water room (Arborium_05)](./memorium/memorium-water-room.md)
 - [Seed Shooty Memorium (Arborium_03)](./memorium/seed-shooty-memorium.md)
-- [Shopkeeper hides (Arborium_11)](./memorium/shopkeeper-hides.md)
+- [Shopkeeper Hides (Arborium_11)](./memorium/shopkeeper-hides.md)
 
 ## Sands of Karak
 

@@ -18,6 +18,7 @@
 | S8 | Mid Right Entrance | ✓ |
 | S9 | Top Right Entrance | ✓ |
 | S10 | Upper Central Shaft | ✓ |
+| S11 | Bridge | ✓ |
 
 ## Room Transitions
 
@@ -35,26 +36,30 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| BLR | Bottom Left-Bottom Right | Bottom Left Entrance | Bottom Right Entrance | Ledge Grab OR Clawline OR Faydown Cloak |  | Verified | ✓ |  |
-| BLR | Bottom Left-Bottom Right | Bottom Right Entrance | Bottom Left Entrance | (Ledge Grab AND (Sprint OR Dash OR Drifter's Cloak)) OR Clawline OR Cling Grip OR Faydown Cloak |  | Verified | ✓ |  |
 | BC | Bottom-Lower Central | Bottom | Lower Central Shaft | Silk Soar OR ((Faydown Cloak OR Clawline) AND (Enemy Pogo OR Cling Grip OR Scuttlebrace)) |  | Verified | ✓ |  |
-| LHL | Lower Left-High Left | Lower Left Entrance | High Left Entrance | Cling Grip OR Scuttlebrace |  | Verified | ✓ |  |
-| LHL | Lower Left-High Left | High Left Entrance | Lower Left Entrance | Nothing. (Fall) |  | Verified | ✓ |  |
+| LHL | Lower Left-High Left | Lower Left Entrance | High Left Entrance | Open Airlock Up AND (Cling Grip OR Scuttlebrace) |  | Verified | ✓ |  |
+| LHL | Lower Left-High Left | High Left Entrance | Lower Left Entrance | Open Airlock Down |  | Verified | ✓ |  |
 | HLT | High Left-Top Left | High Left Entrance | Top Left Entrance | Silk Soar OR Faydown Cloak OR Cling Grip OR Scuttlebrace |  | Verified | ✓ |  |
 | HLT | High Left-Top Left | Top Left Entrance | High Left Entrance | Nothing. (Fall) |  | Verified | ✓ |  |
-| HLR | High Left-Mid Right | High Left Entrance | Mid Right Entrance | Activate Underworks: Flip Switch #3 |  | Verified | ✓ |  |
-| HLR | High Left-Mid Right | Mid Right Entrance | High Left Entrance | Silk Soar OR Cling Grip OR Faydown Cloak OR (Scuttlebrace AND (Drifter's Cloak OR (Dash AND Ledge Grab))) |  | Verified | ✓ |  |
 | LUC | Lower Central-Upper Central | Lower Central Shaft | Upper Central Shaft | Silk Soar OR Cling Grip OR Scuttlebrace |  | Verified | ✓ |  |
 | LUC | Lower Central-Upper Central | Upper Central Shaft | Lower Central Shaft | Nothing. (Fall) |  | Verified | ✓ |  |
 | BC | Bottom-Lower Central | Lower Central Shaft | Bottom | Nothing. (Fall) |  | Verified | ✓ |  |
 | CTP | Upper Central-Top Left | Upper Central Shaft | Top Right Entrance | Clawline OR Ledge Grab OR Scuttlebrace OR Faydown Cloak OR Cling Grip OR Silk Soar |  | Verified | ✓ |  |
 | CTP | Upper Central-Top Left | Top Right Entrance | Upper Central Shaft | Nothing. (Fall) |  | Verified | ✓ |  |
+| BLB | Bottom Left <> Bottom | Bottom Left Entrance | Bottom | Ledge Grab OR Faydown Cloak OR Cling Grip |  | Verified | ✓ |  |
+| BRB | Bottom Right <> Bottom | Bottom Right Entrance | Bottom | ((Ledge Grab OR Cling Grip OR Scuttlebrace) AND (Dash OR Sprint OR Clawline OR Sharpdart OR Easy Shaman Pogo OR Easy Architect Charge OR Easy Beast Charge OR Faydown Cloak)) |  | Verified | ✓ |  |
+| BLB | Bottom Left <> Bottom | Bottom | Bottom Left Entrance | Nothing. (Fall) |  | Verified | ✓ |  |
+| BRB | Bottom Right <> Bottom | Bottom | Bottom Right Entrance | Ledge Grab OR Cling Grip OR Faydown Cloak |  | Verified | ✓ |  |
+| MLB | Mid Left <> Bridge | High Left Entrance | Bridge | Activate Underworks East Bridge Switch |  | Verified | ✓ |  |
+| MRB | Mid Right <> Bridge | Mid Right Entrance | Bridge | (Activate Underworks East Bridge Switch AND (Cling Grip OR Faydown Cloak OR (Medium Scuttlebrace AND (Clawline OR Sharpdart x 2)))) |  | Verified | ✓ |  |
+| MRB | Mid Right <> Bridge | Bridge | Mid Right Entrance | Activate Underworks East Bridge Switch |  | Verified | ✓ |  |
+| MLB | Mid Left <> Bridge | Bridge | High Left Entrance | Activate Underworks East Bridge Switch |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Underworks: Flip Switch #3 | Mid Right Entrance | Flip Switch Left |  | Verified | switch |  | is this even a check? |
+| 1 | Underworks East Bridge Switch | Mid Right Entrance | Flip Switch Left |  | Verified | switch |  |  |
 
 ## Room Images
 

@@ -30,7 +30,7 @@ No subroom connections defined.
 | 4 | Wish: Bugs of Pharloom |  | silk soar OR faydown cloak OR ledge grab OR cling grip |  | Verified | event | ✓ |  |
 | 5 | pressure plate |  | none (pressure switch) |  | Verified | switch | ✓ |  |
 | 6 | Crawbug Clearing Wish Promised |  | defeat THE boss widow |  | Verified | event |  | can be accepted here or at the wish board |
-| 7 | Crawbug Clearing Wish Granted |  | complete Crawbug Clearing Wish Promised AND Ragpelts 25 |  | Verified | event |  |  |
+| 7 | Crawbug Clearing Wish Granted |  | complete Crawbug Clearing Wish Promised AND Get 25 Ragpelts |  | Verified | event |  |  |
 | 8 | Greymoor Crafting Kit |  | complete Crawbug Clearing Wish Granted |  | Verified | collectible |  |  |
 
 ## Room Images

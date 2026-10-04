@@ -2,7 +2,7 @@
 
 **Game ID:** Under_14
 
-**Contributors:** samupo
+**Contributors:** samupo and Rebel
 
 ## Subrooms
 
@@ -12,7 +12,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Underworks Shaft (Under_02)](underworks-shaft.md) | R1 | none | TODO |  | ✓ |  |
+| L | left1 |  | [Underworks Shaft (Under_02)](underworks-shaft.md) | R1 | none |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
@@ -22,7 +22,8 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Delver's Drill |  | none | TODO |  | collectible |  |  |
+| 1 | Delver's Drill |  | none |  | Verified | collectible | ✓ |  |
+| 2 | Useless Breakable Wall |  | Break Wall Right |  | Verified | blockade | ✓ |  |
 
 ## Room Images
 
