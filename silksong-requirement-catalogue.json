@@ -185,8 +185,8 @@
       "id": "b4246106-b154-500e-8a0d-8ff0cdbab1ab",
       "name": "Ledge Grab",
       "category": "Ability",
-      "inputSyntax": "{predicate}",
-      "outputSyntax": "capability:ledge-grab",
+      "inputSyntax": "{predicate} {direction?}",
+      "outputSyntax": "capability:ledge-grab:{direction}",
       "notes": "",
       "sortOrder": 18,
       "aliases": "ledge grab"
@@ -205,8 +205,8 @@
       "id": "8b59e2f5-83de-5a48-ab90-c6cc02605274",
       "name": "Progressive Swift Step 1",
       "category": "Ability",
-      "inputSyntax": "{predicate}",
-      "outputSyntax": "capability:sprint",
+      "inputSyntax": "{predicate} {direction?}",
+      "outputSyntax": "capability:sprint:{direction}",
       "notes": "",
       "sortOrder": 20,
       "aliases": "run, sprint, swift step 1, progressive swift step 1"
@@ -215,8 +215,8 @@
       "id": "44034142-4a67-5fd4-83f5-68c344ec9ba8",
       "name": "Progressive Swift Step 2",
       "category": "Ability",
-      "inputSyntax": "{predicate}",
-      "outputSyntax": "capability:dash",
+      "inputSyntax": "{predicate} {direction?}",
+      "outputSyntax": "capability:dash:{direction}",
       "notes": "",
       "sortOrder": 21,
       "aliases": "dash, swift step 2, progressive swift step 2"
@@ -255,8 +255,8 @@
       "id": "97e688ac-7ade-5b4f-8e7a-d99c7c138ae6",
       "name": "Clawline",
       "category": "Ability",
-      "inputSyntax": "{predicate}",
-      "outputSyntax": "capability:clawline",
+      "inputSyntax": "{predicate} {direction?}",
+      "outputSyntax": "capability:clawline:{direction}",
       "notes": "",
       "sortOrder": 25,
       "aliases": "clawline"
@@ -814,7 +814,7 @@
     {
       "id": "1ca8c951-0375-4fe3-bb43-79c80177d9fb",
       "name": "Flea Brew Speed",
-      "category": "Capability",
+      "category": "Ability",
       "inputSyntax": "{predicate}",
       "outputSyntax": "capability:flea-brew-speed",
       "notes": "Used for the one situation where you are actually required to use Flea Brew for its speed at the Weavenest in Far Fields to unlock the secret area. Implies having the tool, being able to equip it, and access to refills. This should not be controlled by enhanced movement settings, as this is a core part of game logic.",
@@ -1020,6 +1020,26 @@
       "notes": "",
       "sortOrder": 101,
       "aliases": "wishsanity off"
+    },
+    {
+      "id": "ea83695c-5241-4d11-ac13-e1d349d7041c",
+      "name": "Clawline Left (w/ Quantity)",
+      "category": "Ability",
+      "inputSyntax": "{predicate} {quantity}",
+      "outputSyntax": "capability:clawline:left:{quantity}",
+      "notes": "A bit of a hack to get direction \u002B quantity working for this.",
+      "sortOrder": 102,
+      "aliases": "clawline left x"
+    },
+    {
+      "id": "5a7bee4e-f689-42f8-8f65-1c7c1489e97c",
+      "name": "Clawline Right (w/ Quantity)",
+      "category": "Ability",
+      "inputSyntax": "{predicate} {quantity}",
+      "outputSyntax": "capability:clawline:right:{quantity}",
+      "notes": "A bit of a hack to get direction \u002B quantity working for this.",
+      "sortOrder": 103,
+      "aliases": "clawline right x"
     }
   ],
   "items": [

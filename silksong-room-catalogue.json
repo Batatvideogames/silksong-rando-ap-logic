@@ -19669,7 +19669,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-03T23:42:16.8111803Z",
-          "updatedUtc": "2026-09-10T02:53:39.888014Z"
+          "updatedUtc": "2026-10-04T23:34:24.5723754Z"
         },
         {
           "id": "f5ffc958-3fd0-45f5-bf1c-11a8efc9bfd3",
@@ -170993,7 +170993,7 @@
           "friendlyName": "vertical 1",
           "sourceSubroomReferenceText": "middle left platform",
           "destinationSubroomReferenceText": "left exit area",
-          "requirements": "silk soar OR faydown cloak OR (cling grip AND (easy flea brew stall OR easy shaman pogo))",
+          "requirements": "silk soar OR faydown cloak OR (ledge grab AND proficient movement AND (easy shaman pogo OR (easy flea brew stall AND clawline))) ",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 29.990522384643555,
@@ -171004,7 +171004,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-22T23:08:30.8296036Z",
-          "updatedUtc": "2026-10-04T01:17:18.5897058Z"
+          "updatedUtc": "2026-10-04T23:40:50.9509663Z"
         },
         {
           "id": "e22a5695-4113-466c-8e8b-48b9c86fd318",
@@ -171031,7 +171031,7 @@
           "friendlyName": "vertical 2",
           "sourceSubroomReferenceText": "lower left alcove",
           "destinationSubroomReferenceText": "middle left platform",
-          "requirements": "( faydown cloak AND (flea brew OR ledge grab OR easy voltvessels stall )) \nOR ( cling grip AND ( run OR dash OR drifter\u0027s cloak OR faydown cloak OR clawline OR sharpdart OR (proficient movement AND easy architect pogo) ) )",
+          "requirements": "(faydown cloak AND (flea brew OR ledge grab OR easy voltvessels stall OR easy architect needle strike OR easy beast pogo OR easy beast needle strike OR architect slash right)) OR ( cling grip AND ( run OR dash OR drifter\u0027s cloak OR faydown cloak OR clawline OR sharpdart OR flea brew OR easy beast needle strike OR easy architect needle strike OR architect slash right))",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 29.416128158569336,
@@ -171042,7 +171042,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-22T23:10:59.9726224Z",
-          "updatedUtc": "2026-10-04T07:43:25.3714281Z"
+          "updatedUtc": "2026-10-04T23:40:14.6500984Z"
         },
         {
           "id": "f69afadd-acaf-4f31-a548-765d0704bfa7",
@@ -171069,7 +171069,7 @@
           "friendlyName": "gap 1",
           "sourceSubroomReferenceText": "plains",
           "destinationSubroomReferenceText": "middle left platform",
-          "requirements": "run OR drifter\u0027s cloak OR faydown cloak OR clawline OR sharpdart OR (ledge grab AND (dash OR easy architect needle strike)) OR (proficient movement AND cling grip AND (easy architect needle strike OR (flea brew AND easy wanderer needle strike)))",
+          "requirements": "run OR drifter\u0027s cloak OR faydown cloak OR clawline OR sharpdart OR (ledge grab AND (dash OR easy architect needle strike)) OR (proficient movement AND cling grip AND (easy architect needle strike OR (flea brew AND easy wanderer needle strike))) OR (proficient movement AND flea brew AND (easy architect needle strike OR architect slash left))",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 62.236,
@@ -171080,7 +171080,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-22T23:19:41.1697655Z",
-          "updatedUtc": "2026-10-04T07:44:06.9255795Z"
+          "updatedUtc": "2026-10-04T23:40:33.7810942Z"
         },
         {
           "id": "4d216596-4e53-4d27-b1d4-49de799ed022",
