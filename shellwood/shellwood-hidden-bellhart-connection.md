@@ -34,6 +34,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Pollip Heart #2 | Pollip Spot | Faydown Cloak OR Drifters Cloak OR Dash OR Clawline OR Sharpdart OR easy Beast Crest pogo |  | Verified | collectible | ✓ |  |
 | 2 | Shellwood 15 Wall | Left Exit Area | Break Wall Left |  | Verified | blockade | ✓ |  |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

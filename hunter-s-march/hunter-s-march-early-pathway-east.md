@@ -32,6 +32,7 @@
 | 1 | shell shard cache hunters march 3 | ceiling alcove | none |  | Verified | collectible | ✓ |  |
 | 2 | shell shard cache hunters march 4 | ceiling alcove | none |  | Verified | collectible | ✓ |  |
 | 3 | silk webs x3 | main area | none |  | Verified | resource | ✓ | not yet randomized |
+| 4 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

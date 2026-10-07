@@ -32,6 +32,8 @@
 | 1 | rosary cache far fields 11 | the highest highs | none |  | Verified | collectible |  |  |
 | 2 | rosary cache far fields 12 | the highest highs | none |  | Verified | collectible |  |  |
 | 3 | rosary cache far fields 13 | the highest highs | none |  | Verified | collectible |  |  |
+| 4 | Fertid 1 |  |  |  |  | enemy | ✓ |  |
+| 5 | Skarr Stalker 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
 
 ## Room Images
 

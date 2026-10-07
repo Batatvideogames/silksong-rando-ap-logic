@@ -36,6 +36,7 @@
 | 2 | Sacred Cylinder | Left Side | Nothing. |  | Verified | collectible | ✓ |  |
 | 3 | Whispering Vaults: Flip Switch #1 | Right Side | Flip Switch Left |  | Verified | switch | ✓ |  |
 | 4 | Whispering Vaults: Needolin Lore #1 | Left Side | Needolin |  | Verified | event | ✓ |  |
+| 5 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

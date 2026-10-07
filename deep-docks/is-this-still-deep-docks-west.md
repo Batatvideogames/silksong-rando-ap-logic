@@ -38,6 +38,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Deep Docks Is This Still Deep Docks West Blast Rock | ground | Break Blast Rock Right |  | Verified | blockade | ✓ |  |
 | 2 | Deep Docks Is This Still Deep Docks West - Frayed Rosary String | Rosary String | Nothing. |  | Verified | collectible | ✓ |  |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

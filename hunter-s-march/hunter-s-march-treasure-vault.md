@@ -36,6 +36,7 @@
 | 6 | rosary cache hunters march 9 | left of door | none |  | Verified | collectible |  |  |
 | 7 | rosary cache hunters march 10 | left of door | none |  | Verified | collectible |  |  |
 | 8 | grunt fight | right of door | none |  | Verified | miniboss | ✓ | pretty sure these two don't respawn |
+| 9 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

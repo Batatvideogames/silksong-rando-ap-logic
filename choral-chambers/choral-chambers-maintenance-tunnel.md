@@ -32,6 +32,7 @@
 | 1 | Rosary Cache: Choral Chambers #17 | Base | none |  |  | collectible |  |  |
 | 2 | Rosary Cache: Choral Chambers #18 | Base | none |  |  | collectible |  |  |
 | 3 | Rosary Cache: Choral Chambers #19 | Base | none |  |  | collectible |  |  |
+| 4 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

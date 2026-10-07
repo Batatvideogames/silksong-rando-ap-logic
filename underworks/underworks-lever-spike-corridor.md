@@ -38,6 +38,7 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Shaft Shortcut Lever | Lever Shaft | Nothing. |  | Verified | switch | ✓ |  |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

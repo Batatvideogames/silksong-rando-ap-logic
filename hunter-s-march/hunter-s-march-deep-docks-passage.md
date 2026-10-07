@@ -38,6 +38,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | bone switch | before gate | none |  | Verified | switch |  |  |
 | 2 | gauntlet fight | gauntlet | none |  | Verified | gauntlet |  |  |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

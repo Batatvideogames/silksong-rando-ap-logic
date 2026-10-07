@@ -32,6 +32,11 @@
 | 1 | Bilewater - Shell Shard Cache #3 | lower | none |  | Verified | collectible | ✓ |  |
 | 2 | Bilewater - Shell Shard Cache #4 | lower | none |  | Verified | collectible | ✓ |  |
 | 3 | Quick Sling | upper | (cling grip OR silk soar) AND attack up |  | Verified | collectible | ✓ | up attack for breakable wall |
+| 4 | Mothleaf Lagnia 1 |  |  |  |  | enemy | ✓ |  |
+| 5 | Mothleaf Lagnia 2 |  |  |  |  | enemy | ✓ |  |
+| 6 | Swamp Squit 1 |  |  |  |  | enemy | ✓ |  |
+| 7 | Swamp Squit 2 |  |  |  |  | enemy | ✓ |  |
+| 8 | Miremite 1 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

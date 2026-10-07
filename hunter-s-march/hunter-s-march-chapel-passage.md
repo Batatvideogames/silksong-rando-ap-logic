@@ -33,6 +33,7 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | memory locket | crossing platform | none |  | Verified | collectible | ✓ | need to break a cage |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

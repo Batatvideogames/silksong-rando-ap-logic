@@ -38,6 +38,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | gate switch lace | switch platform | none |  | Verified | switch | ✓ |  |
 | 2 | lace 1 boss fight | boss arena | none |  | Verified | boss | ✓ |  |
+| 3 | Lace 1 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

@@ -34,6 +34,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | warding bell | platform | none |  | Verified | collectible | ✓ |  |
 | 2 | Far Fields Side Chain Room Door | upper area | Break Wall Left |  | Verified | blockade | ✓ | wall can be opened from both sides |
+| 3 | Fertid 1 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

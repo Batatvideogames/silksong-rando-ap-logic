@@ -59,6 +59,7 @@
 | 6 | Underworks: Shell Shard Rock #1 | Shell Shard Cache #1 | Nothing. |  | Verified | collectible | ✓ |  |
 | 7 | Underworks Spool Room Upper Floor | Center | Break Wall Up |  | Verified | blockade | ✓ |  |
 | 8 | Underworks Exhaust Organ Lever | Exhaust Organ Elevator | Flip Switch Left |  | Verified | switch | ✓ |  |
+| 9 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

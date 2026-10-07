@@ -72,6 +72,7 @@
 | 5 | Whispering Vaults: Break Wall #5 (Up) | Map Room | Nothing |  | Verified | blockade | ✓ |  |
 | 6 | Whispering Vaults: Rosary Dish #3 | Rosary Dish | Nothing |  | Verified | resource | ✓ |  |
 | 7 | Hell Room Box Shortcut thing. | Shortcut Box | Break Wall Right |  | Verified | logic-point | ✓ | not a proper check, for logic documentation only. |
+| 8 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

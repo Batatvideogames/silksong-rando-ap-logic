@@ -27,6 +27,7 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Indolent Key | Left | none |  |  | collectible |  | Not randomized |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

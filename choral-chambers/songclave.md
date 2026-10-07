@@ -35,6 +35,7 @@
 | 2 | Wish: Pain, Anguish and Misery | Base | Act 3 AND Defeat Trobbio IN Trobbio |  |  | event |  |  |
 | 3 | Meet the Caretaker | Base | activate bellshrine switch IN bellshrine-enclave |  | Verified | logic-point | ✓ |  |
 | 4 | Reach Songclave | Base | none |  | Verified | logic-point |  | Used for Savage Beastfly wish. |
+| 5 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

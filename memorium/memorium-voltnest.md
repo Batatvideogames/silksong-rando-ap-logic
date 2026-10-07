@@ -31,6 +31,8 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Voltvessels | Memorium stuff | complete Memoria gauntlet |  | Verified | collectible | ✓ |  |
 | 2 | Memoria gauntlet | Memorium stuff | nada |  | Verified | gauntlet | ✓ | custom name |
+| 3 | Memoria 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Memoria 2 |  |  |  |  | enemy | ✓ |  |
 
 ## Notes
 

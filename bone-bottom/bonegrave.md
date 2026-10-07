@@ -49,12 +49,27 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | boneyard mossberry | mossberry platform | none |  | Verified | collectible |  |  |
-| 2 | rosary cache bone bottom 6 | upper right exit | none |  | Verified | collectible |  |  |
-| 3 | rosary cache bone bottom 7 | upper right exit | none |  | Verified | collectible |  |  |
-| 4 | rosaries on grave | graveyard | none |  | Verified | collectible |  | NOT RANDOMIZED AS OF v0.4.5 |
+| 1 | boneyard mossberry | mossberry platform | none |  | Verified | collectible | ✓ |  |
+| 2 | rosary cache bone bottom 6 | upper right exit | none |  | Verified | collectible | ✓ |  |
+| 3 | rosary cache bone bottom 7 | upper right exit | none |  | Verified | collectible | ✓ |  |
+| 4 | rosaries on grave | graveyard | none |  | Verified | collectible | ✓ | NOT RANDOMIZED AS OF v0.4.5 |
 | 5 | wormways access breakable wall | upper left exit | break wall right |  | Verified | blockade | ✓ |  |
-| 6 | vines holding door closed | door platform | break vines right |  | Verified | blockade |  |  |
+| 6 | vines holding door closed | door platform | break vines right |  | Verified | blockade | ✓ |  |
+| 7 | Winged Pilgrim 1 | graveyard | None |  | Verified | enemy | ✓ |  |
+| 8 | Pilgrim Pouncer 1 | graveyard | None |  | Verified | enemy | ✓ |  |
+| 9 | Pilgrim Groveller 1 | graveyard | None |  | Verified | enemy | ✓ |  |
+| 10 | Elder Pilgrim 1 | graveyard | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 11 | Pilgrim Guide 1 | graveyard | None |  | Verified | enemy | ✓ |  |
+| 12 | Pilgrim Hornfly 1 | graveyard | None |  | Verified | enemy | ✓ |  |
+| 13 | Pilgrim Hornfly 2 | graveyard | None |  | Verified | enemy | ✓ |  |
+| 14 | Pilgrim Bellbearer 1 | graveyard | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 15 | Elder Pilgrim 2 | graveyard | None |  | Verified | enemy | ✓ |  |
+| 16 | Pilgrim Hornfly 3 | graveyard | None |  | Verified | enemy | ✓ |  |
+| 17 | Pilgrim Bellbearer 2 | graveyard | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 18 | Covetous Pilgrim 1 | graveyard | None |  | Verified | enemy | ✓ |  |
+| 19 | Overgrown Pilgrim 1 | upper right exit | None |  | Verified | enemy | ✓ |  |
+| 20 | Aknid 1 | upper right exit | None |  | Verified | enemy | ✓ |  |
+| 21 | Aknid 2 | mossberry platform | None |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

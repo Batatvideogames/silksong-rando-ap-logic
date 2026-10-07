@@ -30,6 +30,8 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | mosshome mossberry | ground floor | none |  | Verified | collectible |  |  |
+| 2 | Aknid 1 | ground floor | None |  | Verified | enemy | ✓ |  |
+| 3 | Aknid 2 | ground floor | None |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

@@ -35,6 +35,8 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | flea rescue bellway | Flea | Nothing. |  | Verified | collectible | ✓ |  |
 | 2 | flea breakable floor | Flea | Break Wall Down |  | Verified | blockade | ✓ | stand on it |
+| 3 | Skull Brute 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Caranid 1 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

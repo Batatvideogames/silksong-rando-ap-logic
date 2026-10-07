@@ -31,6 +31,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Boss: Lace 2 | Arena | None |  | Verified | boss | ✓ |  |
 | 2 | Silk Heart: Lace 2 | Arena | prereq Boss: Lace 2 |  | Verified | collectible | ✓ |  |
+| 3 | Lace 1 |  |  |  |  | enemy | ✓ |  |
 
 ## Notes
 

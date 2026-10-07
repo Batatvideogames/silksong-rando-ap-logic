@@ -30,6 +30,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Cogfly | main area | spend 1 craftmetals |  | Verified | collectible |  |  |
 | 2 | High Halls - Shell Shard Cache #1 | down the drain | none |  | Verified | collectible | ✓ |  |
+| 3 | Giant Drapemite 1 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

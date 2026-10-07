@@ -29,6 +29,7 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Underworks: Flea #1 | Flea | Nothing. |  | Verified | collectible | ✓ |  |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

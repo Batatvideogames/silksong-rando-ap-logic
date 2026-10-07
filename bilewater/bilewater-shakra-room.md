@@ -23,6 +23,7 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Bilewater - Map Purchase |  | none |  | Verified | collectible | ✓ |  |
+| 2 | Covetous Pilgrim 1 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

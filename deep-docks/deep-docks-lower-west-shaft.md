@@ -35,7 +35,17 @@
 
 ## Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Lavalug 1 |  |  |  |  | enemy | ✓ |  |
+| 2 | Lavalug 2 |  |  |  |  | enemy | ✓ |  |
+| 3 | Flintstone Flyer 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 4 | Smelt Shoveller 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 5 | Lavalug 3 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 6 | Flintstone Flyer 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 7 | Void Mass 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 8 | Flintstone Flyer 3 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 9 | Smelt Shoveller 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 ## Room Images
 

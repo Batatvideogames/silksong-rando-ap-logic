@@ -53,6 +53,10 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Injector Band | Middle (Left) | Nothing |  | Verified | collectible | ✓ |  |
+| 2 | Surgeon 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Mortician 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Mortician 2 |  |  |  |  | enemy | ✓ |  |
+| 5 | Mortician 3 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

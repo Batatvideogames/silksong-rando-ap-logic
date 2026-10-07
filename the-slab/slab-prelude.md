@@ -26,6 +26,7 @@ No subroom connections defined.
 | 3 | The Slab - Rosary Cache #3 |  | none |  |  | collectible |  |  |
 | 4 | The Slab - Rosary Cache #4 |  | none |  |  | collectible |  |  |
 | 5 | The Slab - Rosary Cache #5 |  | none |  |  | collectible |  |  |
+| 6 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

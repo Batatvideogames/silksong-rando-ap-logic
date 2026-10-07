@@ -22,6 +22,7 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | bellshrine switch |  |  | TODO |  | switch | ✓ |  |
 | 2 | bench |  | activate bellshrine switch |  | Verified | bench |  |  |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

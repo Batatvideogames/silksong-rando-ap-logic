@@ -37,6 +37,8 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | weavenest atla spool fragment | spool spot | none |  | Verified | collectible | ✓ |  |
+| 2 | Marrowmaw 1 | mid passage | None |  | Verified | enemy | ✓ |  |
+| 3 | Marrowmaw 2 | upper left passage | None |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

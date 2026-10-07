@@ -27,7 +27,14 @@
 
 ## Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Pharlid Diver 1 |  |  |  |  | enemy |  |  |
+| 2 | Pharlid Diver 2 |  |  |  |  | enemy |  |  |
+| 3 | Pharlid 1 |  |  |  |  | enemy |  |  |
+| 4 | Pharlid 2 |  |  |  |  | enemy |  |  |
+| 5 | Pharlid 3 |  |  |  |  | enemy |  |  |
+| 6 | Pharlid 4 |  |  |  |  | enemy |  |  |
 
 ## Notes
 

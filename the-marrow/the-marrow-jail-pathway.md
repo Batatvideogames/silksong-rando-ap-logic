@@ -40,6 +40,7 @@
 | 1 | platform switch | upper area | none |  | Verified | switch | ✓ |  |
 | 2 | the marrow rosary cache 8 | check alcove | none |  | Verified | collectible | ✓ |  |
 | 3 | the marrow rosary cache 9 | check alcove | none |  | Verified | collectible | ✓ |  |
+| 4 | Spear Skarr 1 | middle area | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

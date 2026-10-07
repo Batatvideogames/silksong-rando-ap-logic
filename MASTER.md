@@ -50,7 +50,7 @@ Generated from the database alongside the individual room pages.
 | SV | side room vines | side room | center shaft | break vines right |  | Verified | ✓ |  |
 | S3 | shaft 3 | lower crossing | center shaft | silk soar OR cling grip OR ( easy scuttlebrace AND dash AND ( sharpdart OR clawline OR faydown cloak ) ) |  | Verified | ✓ |  |
 | S3 | shaft 3 | center shaft | lower crossing | none (falling) |  | Verified | ✓ |  |
-| S4 | shaft 4 | dead ledge | lower crossing | ledge grab OR faydown cloak OR silk soar OR scuttlebrace OR ( cling grip AND ( dash OR clawline ) ) |  | Verified | ✓ |  |
+| S4 | shaft 4 | dead ledge | lower crossing | ledge grab  OR faydown cloak  OR silk soar  OR scuttlebrace  OR ( cling grip AND ( dash OR clawline ) ) |  | Verified | ✓ |  |
 | S4 | shaft 4 | lower crossing | dead ledge | none (falling) |  | Verified | ✓ |  |
 | S5 | shaft 5 | rock bottom | dead ledge | silk soar OR ( cling grip AND faydown cloak )  OR ( easy scuttlebrace AND dash AND faydown cloak AND ( ( drifters cloak AND ledge grab ) OR clawline OR sharpdart ) ) |  | Verified | ✓ |  |
 | S5 | shaft 5 | dead ledge | rock bottom | none (falling) |  | Verified | ✓ |  |
@@ -65,6 +65,9 @@ Generated from the database alongside the individual room pages.
 | 2 | moss grotto shell shard cache 1 | rock bottom | none |  | Verified | collectible | ✓ |  |
 | 3 | moss grotto beast shard | beast alcove | none |  | Verified | collectible | ✓ |  |
 | 4 | moss grotto rosary chest | side room | none |  | Verified | collectible | ✓ |  |
+| 5 | Mossmir 1 | side room | None |  | Verified | enemy | ✓ | need to check if dead |
+| 6 | Mossmir 2 | side room | None |  | Verified | enemy | ✓ |  |
+| 7 | Marrowmaw 1 | beast alcove | Normal World Spawn |  | Verified | enemy | ✓ |  |
 
 #### Notes
 
@@ -125,6 +128,23 @@ not having the west part as part of this area causes the graph to be more comple
 | 3 | shell shard cache moss grotto 7 | the backroom cache | none |  | Verified | collectible | ✓ |  |
 | 4 | moss grotto west mossberry | mossberry platform | none |  | Verified | collectible | ✓ |  |
 | 5 | one-way breakable wall | the backroom cache | break wall right |  | Verified | blockade | ✓ |  |
+| 6 | Mossgrub 1 | the backroom floor | None |  | Verified | enemy | ✓ |  |
+| 7 | Mossgrub 2 | upper level | None |  | Verified | enemy | ✓ |  |
+| 8 | Mossgrub 3 | the pond | None |  | Verified | enemy | ✓ |  |
+| 9 | Mossgrub 4 | lower right exit area | None |  | Verified | enemy | ✓ |  |
+| 10 | Mossgrub 5 | the backroom cache | None |  | Verified | enemy | ✓ |  |
+| 11 | Mossgrub 6 | lower right exit area | None |  | Verified | enemy | ✓ |  |
+| 12 | Mossgrub 7 | upper level | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 13 | Mossgrub 8 | upper level | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 14 | MossBone Cocoon 1 | lower right exit area | None |  | Verified | enemy | ✓ |  |
+| 15 | MossBone Cocoon 2 | lower right exit area | None |  | Verified | enemy | ✓ |  |
+| 16 | MossBone Cocoon 3 | lower right exit area | None |  | Verified | enemy | ✓ |  |
+| 17 | Mossmir 1 | upper level | None |  | Verified | enemy | ✓ |  |
+| 18 | Mossmir 2 | mossberry platform | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 19 | Mossmir 3 | upper level | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 20 | MossBone Cocoon 4 | upper level | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 21 | Mossmir 4 | upper level | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 22 | Moss Mother 1 | upper level | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 
 #### Notes
 
@@ -176,6 +196,18 @@ somehow missed this being its own room before
 | 2 | shell shard cache moss grotto 3 | alcove check spot | none |  | Verified | collectible | ✓ |  |
 | 3 | shell shard cache moss grotto 4 | alcove check spot | none |  | Verified | collectible | ✓ |  |
 | 4 | moss grotto east mossberry | upper platforms | easy enemy pogo OR run OR dash OR drifter's cloak OR faydown cloak OR silk soar OR clawline OR sharpdart OR easy beast pogo OR ( have crest shaman AND ( attack up OR attack right ) ) |  | Verified | collectible | ✓ |  |
+| 5 | Mossgrub 1 | ground floor | None |  | Verified | enemy | ✓ |  |
+| 6 | Mossgrub 2 | upper platforms | None |  | Verified | enemy | ✓ |  |
+| 7 | Mossmir 1 | upper platforms | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 8 | Mossgrub 3 | ground floor | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 9 | Mawling 1 | ground floor | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 10 | Mawling 2 | upper platforms | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 11 | Mawling 3 | ground floor | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 12 | Mawling 4 | ground floor | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 13 | Mossmir 2 | ground floor | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 14 | Mawling 5 | ground floor | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 15 | Marrowmaw 1 | ground floor | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 16 | Mossmir 3 | upper platforms | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 
 <a name="room-moss-grotto--ruined-chapel"></a>
 
@@ -202,7 +234,7 @@ somehow missed this being its own room before
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | R | right | bench spot | [Moss Grotto Center (Tut_01)](#room-moss-grotto--moss-grotto-center) | UL | none |  | Verified | ✓ |  |
 | AR | ascend rope | chapel | [Bone Bottom Town (Bonetown)](#room-bone-bottom--bone-bottom-town) | DR | none |  | Verified | ✓ |  |
-| CD | chapel door | chapel | [Ruined Chapel Interior](#room-moss-grotto--ruined-chapel-interior) | CD |  | TODO |  | ✓ | how the heck do you open this door again? |
+| CD | chapel door | chapel | [Ruined Chapel Interior (Tut_04)](#room-moss-grotto--ruined-chapel-interior) | L | Act 3 |  | Verified | ✓ |  |
 
 #### Subroom Connections
 
@@ -219,9 +251,27 @@ somehow missed this being its own room before
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | moss mother boss fight | boss arena | none |  | Verified | boss | ✓ |  |
-| 2 | bench | bench spot | none |  | Verified | bench | ✓ |  |
-| 3 | Mister Mushroom Meeting Moss Grotto | boss arena | complete THE Passing of the Age Wish Promised AND Needolin |  | Verified | event |  |  |
+| 1 | bench | bench spot | none |  | Verified | bench | ✓ |  |
+| 2 | Mister Mushroom Meeting Moss Grotto | boss arena | complete THE Passing of the Age Wish Promised AND Needolin |  | Verified | event |  |  |
+| 3 | moss mother boss fight | boss arena | Normal World Spawn |  | Verified | boss | ✓ |  |
+| 4 | Mossgrub Summon 0 | boss arena | Normal World Spawn AND Invalid |  | Verified | enemy | ✓ | boss summon - could be missed |
+| 5 | Mossgrub Summon 1 | boss arena | Normal World Spawn AND Invalid |  | Verified | enemy | ✓ | boss summon - could be missed |
+| 6 | MossBone Cocoon 0 | boss arena | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 7 | MossBone Cocoon 1 | boss arena | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 8 | MossBone Cocoon 2 | boss arena | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 9 | MossBone Cocoon 3 | boss arena | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 10 | MossBone Cocoon 4 | boss arena | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 11 | MossBone Cocoon 5 | boss arena | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 12 | MossBone Cocoon 6 | boss arena | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 13 | MossBone Cocoon 7 | boss arena | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 14 | MossBone Cocoon 8 | boss arena | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 15 | MossBone Cocoon 9 | boss arena | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 16 | MossBone Cocoon 10 | boss arena | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 17 | MossBone Cocoon 11 | boss arena | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 18 | MossBone Cocoon 12 | boss arena | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 19 | MossBone Cocoon 13 | boss arena | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 20 | MossBone Cocoon 14 | boss arena | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 21 | MossBone Cocoon 15 | boss arena | Normal World Spawn |  | Verified | enemy | ✓ |  |
 
 #### Notes
 
@@ -231,9 +281,11 @@ Ascend rope AND the ceiling are valid exits - but I believe they take you to the
 
 <a name="room-moss-grotto--ruined-chapel-interior"></a>
 
-### Ruined Chapel Interior
+### Ruined Chapel Interior (Tut_04)
 
 [View Room Page](./moss-grotto/ruined-chapel-interior.md)
+
+**Game ID:** Tut_04
 
 **Contributors:** herounit
 
@@ -241,29 +293,79 @@ Ascend rope AND the ceiling are valid exits - but I believe they take you to the
 
 | No. | Subroom | Annotated |
 | --- | --- | --- |
-| S1 | ritual chamber |  |
-| S2 | crest chamber |  |
+| S1 | ritual chamber | ✓ |
+| S2 | crest exit | ✓ |
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| CD | chapel door | ritual chamber | [Ruined Chapel (Tut_03)](#room-moss-grotto--ruined-chapel) | CD |  | TODO |  |  |  |
+| L | left1 | ritual chamber | [Ruined Chapel (Tut_03)](#room-moss-grotto--ruined-chapel) | CD | none |  | Verified | ✓ |  |
+| R | right1 | crest exit | [Ruined Chapel Crest Chamber (Tut_05)](#room-moss-grotto--ruined-chapel-crest-chamber) | L | none |  | Verified | ✓ |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| SS | silk soar spot | ritual chamber | crest chamber | silk soar |  | Verified |  |  |
-| SS | silk soar spot | crest chamber | ritual chamber | silk soar |  | Verified |  |  |
+| SS | silk soar spot | ritual chamber | crest exit | silk soar |  | Verified | ✓ |  |
+| SS | silk soar spot | crest exit | ritual chamber | silk soar |  | Verified | ✓ |  |
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | RestBench | ritual chamber | none |  | Verified | bench | ✓ |  |
+| 2 | churchkeeper_rosary | ritual chamber | none |  | Verified | collectible | ✓ | discarded robes from ruined chapel caretaker |
 
 #### Notes
 
 **UNABLE TO ACCESS IN LOGIC AUDIT MODE**
+
+<a name="room-moss-grotto--ruined-chapel-crest-chamber"></a>
+
+### Ruined Chapel Crest Chamber (Tut_05)
+
+[View Room Page](./moss-grotto/ruined-chapel-crest-chamber.md)
+
+**Game ID:** Tut_05
+
+**Contributors:** herounit
+
+#### Subrooms
+
+| No. | Subroom | Annotated |
+| --- | --- | --- |
+| S1 | left exit area | ✓ |
+| S2 | crest area | ✓ |
+| S3 | lore area | ✓ |
+| S4 | blocked area 1 | ✓ |
+| S5 | blocked area 2 | ✓ |
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left1 | left exit area | [Ruined Chapel Interior (Tut_04)](#room-moss-grotto--ruined-chapel-interior) | R | none |  | Verified | ✓ |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| V1 | vertical 1 | left exit area | blocked area 1 | (run AND dash) OR drifters OR faydown OR clawline OR sharpdart OR spike pogo |  | Verified |  |  |
+| V1 | vertical 1 | blocked area 1 | left exit area | silk soar AND ( run OR faydown OR clawline OR sharpdart OR ( ( ledge grab OR cling grip ) AND ( dash OR drifters ) ) ) |  | Verified |  |  |
+| V2 | vertical 2 | blocked area 1 | lore area | break wall left |  | Verified | ✓ |  |
+| V2 | vertical 2 | lore area | blocked area 1 | silk soar AND break wall right |  | Verified | ✓ |  |
+| BW1 | break wall 1 | lore area | blocked area 2 | break wall right |  | Verified | ✓ |  |
+| BW1 | break wall 1 | blocked area 2 | lore area | break wall left |  | Verified | ✓ |  |
+| V3 | vertical 3 | blocked area 2 | crest area | break wall right |  | Verified | ✓ |  |
+| V3 | vertical 3 | crest area | blocked area 2 | silk soar AND break wall left |  | Verified | ✓ |  |
+
+#### Check Locations
+
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Crest Shaman | crest area | none |  | Verified | collectible | ✓ |  |
+| 2 | Shaman Crest Ritual Recipe | lore area | none |  | Verified | lore | ✓ |  |
 
 ## Bone Bottom
 
@@ -350,6 +452,12 @@ No check locations defined.
 | 12 | skull tyrant bone bottom boss fight | ground level | complete THE the terrible tyrant wish granted AND ( visit blasted steps  OR visit the citadel  OR visit sinners road ) |  | Verified | boss |  | may be other hidden requirements. wiki says 30% chance of spawn after reaching key areas and using a bench in the zone. |
 | 13 | reach bone bottom | ground level | none |  | Verified | logic-point |  | addresses the loading zone blocker in moss grotto center ceiling that only goes away once you've been up here - remove this/requirement in moss grotto center if/when this is removed in the randomizer |
 | 14 | Mister Mushroom Meeting Bone Bottom | shakra platform | after THE Mister Mushroom Meeting Moss Grotto AND Needolin |  | Verified | event | ✓ |  |
+| 15 | Aknid 1 | upper right platforms | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 16 | Aknid 2 | upper right platforms | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 17 | Aknid 3 | upper right platforms | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 18 | Snitchfly 1 | ground level | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 19 | Snitchfly 2 | ground level | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 20 | Snitchfly 3 | ground level | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 
 <a name="room-bone-bottom--bone-bottom-bellway"></a>
 
@@ -437,12 +545,27 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | boneyard mossberry | mossberry platform | none |  | Verified | collectible |  |  |
-| 2 | rosary cache bone bottom 6 | upper right exit | none |  | Verified | collectible |  |  |
-| 3 | rosary cache bone bottom 7 | upper right exit | none |  | Verified | collectible |  |  |
-| 4 | rosaries on grave | graveyard | none |  | Verified | collectible |  | NOT RANDOMIZED AS OF v0.4.5 |
+| 1 | boneyard mossberry | mossberry platform | none |  | Verified | collectible | ✓ |  |
+| 2 | rosary cache bone bottom 6 | upper right exit | none |  | Verified | collectible | ✓ |  |
+| 3 | rosary cache bone bottom 7 | upper right exit | none |  | Verified | collectible | ✓ |  |
+| 4 | rosaries on grave | graveyard | none |  | Verified | collectible | ✓ | NOT RANDOMIZED AS OF v0.4.5 |
 | 5 | wormways access breakable wall | upper left exit | break wall right |  | Verified | blockade | ✓ |  |
-| 6 | vines holding door closed | door platform | break vines right |  | Verified | blockade |  |  |
+| 6 | vines holding door closed | door platform | break vines right |  | Verified | blockade | ✓ |  |
+| 7 | Winged Pilgrim 1 | graveyard | None |  | Verified | enemy | ✓ |  |
+| 8 | Pilgrim Pouncer 1 | graveyard | None |  | Verified | enemy | ✓ |  |
+| 9 | Pilgrim Groveller 1 | graveyard | None |  | Verified | enemy | ✓ |  |
+| 10 | Elder Pilgrim 1 | graveyard | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 11 | Pilgrim Guide 1 | graveyard | None |  | Verified | enemy | ✓ |  |
+| 12 | Pilgrim Hornfly 1 | graveyard | None |  | Verified | enemy | ✓ |  |
+| 13 | Pilgrim Hornfly 2 | graveyard | None |  | Verified | enemy | ✓ |  |
+| 14 | Pilgrim Bellbearer 1 | graveyard | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 15 | Elder Pilgrim 2 | graveyard | None |  | Verified | enemy | ✓ |  |
+| 16 | Pilgrim Hornfly 3 | graveyard | None |  | Verified | enemy | ✓ |  |
+| 17 | Pilgrim Bellbearer 2 | graveyard | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 18 | Covetous Pilgrim 1 | graveyard | None |  | Verified | enemy | ✓ |  |
+| 19 | Overgrown Pilgrim 1 | upper right exit | None |  | Verified | enemy | ✓ |  |
+| 20 | Aknid 1 | upper right exit | None |  | Verified | enemy | ✓ |  |
+| 21 | Aknid 2 | mossberry platform | None |  | Verified | enemy | ✓ |  |
 
 <a name="room-bone-bottom--bonegrave-passage"></a>
 
@@ -535,6 +658,16 @@ No subroom connections defined.
 | 5 | bonegrave rosary cache 3 | upper right | none |  | Verified | collectible | ✓ |  |
 | 6 | bonegrave rosary cache 4 | upper right | none |  | Verified | collectible | ✓ |  |
 | 7 | gauntlet fight | gauntlet arena | none |  | Verified | gauntlet | ✓ |  |
+| 8 | Winged Pilgrim 1 | gauntlet arena | none |  | Verified | enemy | ✓ |  |
+| 9 | Pilgrim Pouncer 1 | gauntlet arena | none |  | Verified | enemy | ✓ |  |
+| 10 | Pilgrim Groveller 1 | gauntlet arena | none |  | Verified | enemy | ✓ |  |
+| 11 | Pilgrim Hornfly 1 | gauntlet arena | none |  | Verified | enemy | ✓ |  |
+| 12 | Pilgrim Guide 1 | gauntlet arena | none |  | Verified | enemy | ✓ |  |
+| 13 | Winged Pilgrim 2 | gauntlet arena | none |  | Verified | enemy | ✓ |  |
+| 14 | Pilgrim Hulk 1 | gauntlet arena | none |  | Verified | enemy | ✓ |  |
+| 15 | Pilgrim Hulk 2 | gauntlet arena | none |  | Verified | enemy | ✓ |  |
+| 16 | Pilgrim Hornfly 2 | gauntlet arena | none |  | Verified | enemy | ✓ |  |
+| 17 | Winged Pilgrim 3 | gauntlet arena | none |  | Verified | enemy | ✓ |  |
 
 #### Notes
 
@@ -566,6 +699,7 @@ need see if there are other checks in here
 | S10 | lower silk soar only zone | ✓ |
 | S11 | bottom left area | ✓ |
 | S12 | resting site ledge | ✓ |
+| S13 | right aknids | ✓ |
 
 #### Room Transitions
 
@@ -616,6 +750,7 @@ need see if there are other checks in here
 | LC | lower crossing | lower right area | lower left area | silk soar OR faydown OR medium scuttlebrace (due to risk of falling) OR easy enemy pogo OR run  OR dash  OR clawline  OR sharpdart x 1 OR drifters |  | Verified | ✓ |  |
 | BLL | bottom to lower left | bottom left area | lower left area | ledge grab OR cling grip OR faydown cloak OR silk soar |  | Verified | ✓ |  |
 | BLL | bottom to lower left | lower left area | bottom left area | none (falling) |  | Verified | ✓ |  |
+| RA | right aknid access | lower right area | right aknids | ledge grab OR cling grip OR silk soar |  | Verified | ✓ |  |
 
 #### Check Locations
 
@@ -625,6 +760,16 @@ need see if there are other checks in here
 | 2 | relic choral commandment moss grotto | middle right ledge | none |  | Verified | collectible | ✓ |  |
 | 3 | my missing courier wish granted | wish ledge | complete my missing courier wish promised IN bellhart wish wall |  | Verified | event | ✓ |  |
 | 4 | resting site bone bottom | resting site ledge | complete THE a vassal lost wish promised |  | Verified | event | ✓ |  |
+| 5 | Caranid 1 | wish ledge | after THE My Missing Courier Wish Promised |  | Verified | enemy | ✓ | defeating these enemies is part of the wish |
+| 6 | Caranid 2 | wish ledge | after THE My Missing Courier Wish Promised |  | Verified | enemy | ✓ | defeating these enemies is part of the wish |
+| 7 | Caranid 3 | upper right ledge | None |  | Verified | enemy | ✓ |  |
+| 8 | Caranid 4 | upper right ledge | None |  | Verified | enemy | ✓ |  |
+| 9 | Caranid 5 | upper right ledge | None |  | Verified | enemy | ✓ |  |
+| 10 | Aknid 1 | right aknids | None |  | Verified | enemy | ✓ |  |
+| 11 | Aknid 2 | right aknids | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 12 | Aknid 3 | lower left area | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 13 | Aknid 4 | right aknids | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 14 | Aknid 5 | lower left area | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 
 <a name="room-bone-bottom--mosshome-side-room"></a>
 
@@ -662,6 +807,8 @@ need see if there are other checks in here
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | mosshome mossberry | ground floor | none |  | Verified | collectible |  |  |
+| 2 | Aknid 1 | ground floor | None |  | Verified | enemy | ✓ |  |
+| 3 | Aknid 2 | ground floor | None |  | Verified | enemy | ✓ |  |
 
 <a name="room-bone-bottom--mosshome-druid"></a>
 
@@ -752,6 +899,18 @@ No subroom connections defined.
 | 5 | frayed rosary string bone bottom silkspear passage | silkspear passage | none |  | Verified | collectible |  |  |
 | 6 | rope platform blockade | silkspear passage | cut rope down OR cut rope left OR cut rope right OR cut rope up |  | Verified | blockade |  |  |
 | 7 | left exit breakable wall | ground left | break wall left |  | Verified | blockade | ✓ |  |
+| 8 | Aknid 1 | silkspear passage | None |  | Verified | enemy | ✓ |  |
+| 9 | Pilgrim Groveller 1 | center platforms | None |  | Verified | enemy | ✓ |  |
+| 10 | Pilgrim Pouncer 1 | spire platforms | None |  | Verified | enemy | ✓ |  |
+| 11 | Aknid 2 | center platforms | None |  | Verified | enemy | ✓ |  |
+| 12 | Pilgrim Pouncer 2 | center platforms | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 13 | Pilgrim Groveller 2 | center platforms | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 14 | Pilgrim Groveller 3 | spire platforms | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 15 | Pilgrim Pouncer 3 | center platforms | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 16 | Overgrown Pilgrim 1 | center platforms | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 17 | Overgrown Pilgrim 2 | spire platforms | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 18 | Void Mass 1 | spire platforms | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 19 | Overgrown Pilgrim 3 | center platforms | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 
 #### Notes
 
@@ -805,6 +964,13 @@ known silk blockade breakers = silk spear, sharpdart, rune rage, weaver silkshot
 | 1 | floor exit switch | middle left area | flip switch down |  | Verified | blockade | ✓ |  |
 | 2 | rosary cache mosshome 1 | upper left area | none |  | Verified | collectible | ✓ |  |
 | 3 | rosary cache mosshome 2 | upper left area | none |  | Verified | collectible | ✓ |  |
+| 4 | Pilgrim Pouncer 1 | ground floor | None |  | Verified | enemy | ✓ |  |
+| 5 | Pilgrim Groveller 1 | ground floor | None |  | Verified | enemy | ✓ |  |
+| 6 | Overgrown Pilgrim 1 | ground floor | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 7 | Overgrown Pilgrim 2 | middle left area | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 8 | Aknid 1 | upper right area | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 9 | Overgrown Pilgrim 3 | middle left area | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 10 | Overgrown Pilgrim 4 | middle left area | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 
 <a name="room-bone-bottom--mosshome-lower"></a>
 
@@ -856,6 +1022,14 @@ known silk blockade breakers = silk spear, sharpdart, rune rage, weaver silkshot
 | 1 | rosary cache bone bottom 4 | rosary alcove | none |  | Verified | collectible |  |  |
 | 2 | rosary cache bone bottom 5 | rosary alcove | none |  | Verified | collectible |  |  |
 | 3 | Garmond and Zaza Act 3 Meeting Bone Bottom | upper right level | Act 3 |  | Verified | event | ✓ |  |
+| 4 | Pilgrim Groveller 1 | ground floor | None |  | Verified | enemy | ✓ |  |
+| 5 | Aknid 1 | ground floor | None |  | Verified | enemy | ✓ |  |
+| 6 | Pilgrim Pouncer 1 | upper right level | None |  | Verified | enemy | ✓ |  |
+| 7 | Pilgrim Groveller 2 | ground floor | None |  | Verified | enemy | ✓ |  |
+| 8 | Pilgrim Groveller 3 | upper right level | None |  | Verified | enemy | ✓ |  |
+| 9 | Pilgrim Groveller 4 | upper right level | None |  | Verified | enemy | ✓ |  |
+| 10 | Pilgrim Groveller 5 | ground floor | None |  | Verified | enemy | ✓ |  |
+| 11 | Pilgrim Pouncer 2 | ground floor | Normal World Spawn |  | Verified | enemy | ✓ |  |
 
 <a name="room-bone-bottom--mosshome-basement"></a>
 
@@ -933,6 +1107,9 @@ known silk blockade breakers = silk spear, sharpdart, rune rage, weaver silkshot
 | 1 | the marrow mosslands passage rosary cache 1 | upper level | none |  | Verified | collectible |  |  |
 | 2 | the marrow mosslands passage rosary cache 2 | upper level | none |  | Verified | collectible |  |  |
 | 3 | the marrow mosshome basement rosary dish | upper level | none |  | Verified | collectible |  |  |
+| 4 | Aknid 1 | lower level | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 5 | Aknid 2 | upper level | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 6 | Aknid 3 | upper level | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 
 ## The Marrow
 
@@ -1000,6 +1177,18 @@ known silk blockade breakers = silk spear, sharpdart, rune rage, weaver silkshot
 | 4 | sherma door switch | passage right | flip switch up |  | Verified | switch |  |  |
 | 5 | the marrow rosary cache 1 | passage right | none |  | Verified | collectible |  |  |
 | 6 | the marrow rosary cache 2 | passage right | none |  | Verified | collectible |  |  |
+| 7 | Skull Scuttler 1 | above gauntlet | None |  | Verified | enemy | ✓ |  |
+| 8 | Skull Brute 1 | above gauntlet | None |  | Verified | enemy | ✓ |  |
+| 9 | Beastfly 1 | gauntlet arena | None |  | Verified | enemy | ✓ |  |
+| 10 | Beastfly 2 | gauntlet arena | None |  | Verified | enemy | ✓ |  |
+| 11 | Beastfly 3 | gauntlet arena | None |  | Verified | enemy | ✓ |  |
+| 12 | Skull Scuttler 2 | gauntlet arena | None |  | Verified | enemy | ✓ |  |
+| 13 | Skull Scuttler 3 | gauntlet arena | None |  | Verified | enemy | ✓ |  |
+| 14 | Skull Brute 2 | gauntlet arena | None |  | Verified | enemy | ✓ |  |
+| 15 | Beastfly 4 | gauntlet arena | None |  | Verified | enemy | ✓ |  |
+| 16 | Beastfly 5 | above gauntlet | None |  | Verified | enemy | ✓ |  |
+| 17 | Skull Scuttler 4 | middle left | None |  | Verified | enemy | ✓ |  |
+| 18 | Skull Scuttler 5 | middle left | None |  | Verified | enemy | ✓ |  |
 
 <a name="room-the-marrow--the-marrow-bell-bench"></a>
 
@@ -1099,6 +1288,13 @@ While falling rocks and the bell bench are the same in-game room, there is no co
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | chain drop platform | chain break spot | none (stand on it) |  | Verified | switch | ✓ |  |
+| 2 | Skull Brute 1 | left platforms | None |  | Verified | enemy | ✓ |  |
+| 3 | Caranid 1 | left platforms | None |  | Verified | enemy | ✓ | technically in upper left exit but can be activated from lower spot |
+| 4 | Caranid 2 | chain break spot | None |  | Verified | enemy | ✓ |  |
+| 5 | Caranid 3 | chain break spot | None |  | Verified | enemy | ✓ |  |
+| 6 | Skull Scuttler 1 | ground right | None |  | Verified | enemy | ✓ |  |
+| 7 | Skull Scuttler 2 | ground left | None |  | Verified | enemy | ✓ |  |
+| 8 | Void Mass 1 | left platforms | Black Thread World Spawn |  | Verified | enemy | ✓ | placement seems to allow it to be attacked from here without getting to the upper platforms |
 
 #### Notes
 
@@ -1128,6 +1324,11 @@ no checks
 | S8 | right alcove | ✓ |
 | S9 | left lava track | ✓ |
 | S10 | right lava track | ✓ |
+| S11 | caranids over lava | ✓ |
+| S12 | brute hole | ✓ |
+| S13 | kilik island | ✓ |
+
+- **caranids over lava:** enemy only subroom - only make connections one-way
 
 #### Room Transitions
 
@@ -1143,22 +1344,28 @@ no checks
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | LT | lava track | right lava track | left lava track | activate track pressure plate  OR ( clawline x 8 AND easy shaman pogo ) |  | Verified | ✓ | other stalls would work but would be harder |
 | LT | lava track | left lava track | right lava track | activate track pressure plate  OR ( clawline x 8 AND easy shaman pogo ) |  | Verified | ✓ | other stalls would work but would be harder |
+| LC | left caranid access | left lava track | caranids over lava | activate track pressure plate OR ( clawline x 4 AND easy shaman pogo ) |  | Verified | ✓ | other stalls would work but would be harder |
+| RC | right caranid access | right lava track | caranids over lava | activate track pressure plate OR ( clawline x 4 AND easy shaman pogo ) |  | Verified | ✓ | other stalls would work but would be harder |
 | AM | ascend to maze | right lava track | lower maze 2 | cling grip  OR silk soar  OR ( scuttlebrace AND ( ledge grab OR faydown cloak OR clawline  ) ) |  | Verified | ✓ |  |
 | AM | ascend to maze | lower maze 2 | right lava track | none (falling) |  | Verified | ✓ |  |
-| RBW | right break wall | lower maze 2 | lower maze 3 | none (break wall right) |  | Verified | ✓ |  |
-| RBW | right break wall | lower maze 3 | lower maze 2 | none (break wall left) |  | Verified | ✓ |  |
+| RBW | right break wall | lower maze 2 | lower maze 3 | break wall right |  | Verified | ✓ |  |
+| RBW | right break wall | lower maze 3 | lower maze 2 | break wall left |  | Verified | ✓ |  |
 | AR | ascend right | lower maze 3 | right alcove | cling grip  OR scuttlebrace  OR ( faydown AND ledge grab ) |  | Verified | ✓ |  |
 | AR | ascend right | right alcove | lower maze 3 | spike pogo  OR cling grip  OR faydown  OR dash  OR drifters  OR clawline  OR sharpdart  OR scuttlebrace |  | Verified | ✓ |  |
 | MMA | middle maze ascend | lower maze 1 | middle maze | cling grip  OR scuttlebrace  OR ( faydown cloak AND ( ledge grab OR clawline OR easy shaman pogo ) ) |  | Verified | ✓ |  |
 | MMA | middle maze ascend | middle maze | lower maze 1 | none (falling) |  | Verified | ✓ |  |
-| LA | left alcove access | middle maze | left alcove | none (break wall left) |  | Verified | ✓ |  |
-| LA | left alcove access | left alcove | middle maze | cling grip  OR scuttlebrace  OR ( ledge grab AND faydown cloak ) |  | Verified | ✓ |  |
-| SP | spike pogo | lower maze 1 | lower maze 2 | ledge grab  OR spike pogo  OR run  OR dash  OR drifter's cloak  OR faydown cloak  OR clawline  OR scuttlebrace  OR sharpdart |  | Verified | ✓ | roof makes it so ledge grab works from left to right  but not the other way |
-| SP | spike pogo | lower maze 2 | lower maze 1 | spike pogo  OR run  OR dash  OR drifters  OR faydown  OR clawline  OR scuttlebrace  OR sharpdart |  | Verified | ✓ | possible other stalls might work - lip on ceiling seems to make it impassable with walking jump? |
-| UBW | upper break wall | upper maze left | ceiling exit area | none (break wall right) |  | Verified | ✓ |  |
-| UBW | upper break wall | ceiling exit area | upper maze left | none (break wall left) |  | Verified | ✓ |  |
+| LA | left alcove access | middle maze | left alcove | break wall left |  | Verified | ✓ |  |
+| LA | left alcove access | left alcove | middle maze | break wall right  AND ( cling grip OR scuttlebrace OR ( ledge grab AND faydown cloak ) ) |  | Verified | ✓ |  |
+| SPL | spike pogo left | lower maze 1 | kilik island | ledge grab OR spike pogo  OR run  OR dash  OR drifter's cloak  OR faydown cloak  OR clawline  OR scuttlebrace  OR sharpdart |  | Verified | ✓ | roof makes it so ledge grab works from left to right  but not the other way |
+| SPL | spike pogo left | kilik island | lower maze 1 | none (jump) |  | Verified | ✓ | no roof obstruction |
+| SPR | spike pogo right | lower maze 2 | kilik island | spike pogo  OR run  OR dash  OR drifters  OR faydown  OR clawline  OR scuttlebrace  OR sharpdart |  | Verified | ✓ | possible other stalls might work - lip on ceiling seems to make it impassable with walking jump? |
+| SPR | spike pogo right | kilik island | lower maze 2 | none (jump) |  | Verified | ✓ | no roof obstruction |
+| UBW | upper break wall | upper maze left | ceiling exit area | break wall right |  | Verified | ✓ |  |
+| UBW | upper break wall | ceiling exit area | upper maze left | break wall left |  | Verified | ✓ |  |
 | UA | upper ascend | middle maze | upper maze left | silk soar  OR cling grip  OR scuttlebrace  OR ( faydown cloak AND ledge grab ) |  | Verified | ✓ |  |
 | UA | upper ascend | upper maze left | middle maze | none (falling) |  | Verified | ✓ |  |
+| BH | brute hole access | lower maze 1 | brute hole | none (falling) |  | Verified | ✓ |  |
+| BH | brute hole access | brute hole | lower maze 1 | silk soar OR cling grip OR easy scuttlebrace |  | Verified | ✓ |  |
 
 #### Check Locations
 
@@ -1168,6 +1375,16 @@ no checks
 | 2 | the marrow rosary cache 11 | left alcove | none |  | Verified | collectible | ✓ |  |
 | 3 | the marrow rosary cache 12 | left alcove | none |  | Verified | collectible | ✓ |  |
 | 4 | the marrow rosary cache 13 | right alcove | none |  | Verified | collectible | ✓ |  |
+| 5 | Kilik 1 | kilik island | None |  | Verified | enemy | ✓ |  |
+| 6 | Kilik 2 | left alcove | None |  | Verified | enemy | ✓ |  |
+| 7 | Kilik 3 | lower maze 1 | None |  | Verified | enemy | ✓ |  |
+| 8 | Kilik 4 | kilik island | None |  | Verified | enemy | ✓ |  |
+| 9 | Skull Brute 1 | brute hole | None |  | Verified | enemy | ✓ |  |
+| 10 | Skull Brute 2 | ceiling exit area | None |  | Verified | enemy | ✓ |  |
+| 11 | Caranid 1 | caranids over lava | None |  | Verified | enemy | ✓ |  |
+| 12 | Caranid 2 | caranids over lava | None |  | Verified | enemy | ✓ |  |
+| 13 | Skull Scuttler 1 | right alcove | None |  | Verified | enemy | ✓ |  |
+| 14 | Skull Scuttler 2 | middle maze | None |  | Verified | enemy | ✓ |  |
 
 <a name="room-the-marrow--the-marrow-flea-caravan"></a>
 
@@ -1224,6 +1441,11 @@ no checks
 | 5 | the lost fleas wish promised | flea floor | none |  | Verified | event |  | wish can be started here or at the bone bottom wish wall |
 | 6 | the lost fleas wish granted | flea floor | ( act 1 OR act 2 )  AND complete the lost fleas wish promised AND get 5 fleas |  | Verified | event |  | grants caravan invite |
 | 7 | flea caravan move to greymoor | flea floor | complete the lost fleas wish granted |  | Verified | event |  |  |
+| 8 | Kilik 1 | behind breakable wall | None |  | Verified | enemy | ✓ |  |
+| 9 | Kilik 2 | behind breakable wall | None |  | Verified | enemy | ✓ |  |
+| 10 | Kilik 3 | top floor | None |  | Verified | enemy | ✓ |  |
+| 11 | Kilik 4 | top floor | None |  | Verified | enemy | ✓ |  |
+| 12 | Kilik 5 | ground floor | None |  | Verified | enemy | ✓ |  |
 
 <a name="room-the-marrow--the-marrow-shaft"></a>
 
@@ -1267,11 +1489,11 @@ no checks
 | DS | door switch | the bridge | upper middle shaft | activate door switch |  | Verified | ✓ |  |
 | V1 | vertical 1 | bottom shaft | lower middle shaft | ledge grab OR easy enemy pogo OR cling grip OR faydown OR silk soar |  | Verified | ✓ |  |
 | V1 | vertical 1 | lower middle shaft | bottom shaft | none (falling) |  | Verified | ✓ |  |
-| V2 | vertical 2 | lower middle shaft | upper middle shaft | ledge grab OR easy enemy pogo OR run OR dash OR drifters OR faydown OR cling grip OR scuttlebrace OR clawline OR sharpdart OR silk soar OR easy shaman pogo OR easy hunter pogo OR easy architect pogo OR easy beast pogo OR easy wanderer charge OR easy reaper charge OR easy heal stall OR easy flea brew stall OR easy flintslate stall OR easy plasmium phial stall OR easy voltvessels stall |  | Verified | ✓ | a WIDE variety of stalls work here. karma for the bottom section all being one chunk |
+| V2 | vertical 2 | lower middle shaft | upper middle shaft | ledge grab OR easy pogo off caranid OR run OR dash OR drifters OR faydown OR cling grip OR scuttlebrace OR clawline OR sharpdart OR silk soar OR easy shaman pogo OR easy hunter pogo OR easy architect pogo OR easy beast pogo OR easy wanderer charge OR easy reaper charge OR easy heal stall OR easy flea brew stall OR easy flintslate stall OR easy plasmium phial stall OR easy voltvessels stall |  | Verified | ✓ | a WIDE variety of stalls work here. karma for the bottom section all being one chunk |
 | V2 | vertical 2 | upper middle shaft | lower middle shaft | none (falling) |  | Verified | ✓ |  |
 | V3 | vertical 3 | the bridge | collapsing upper crossing | ledge grab OR cling grip OR faydown OR silk soar |  | Verified | ✓ |  |
 | V3 | vertical 3 | collapsing upper crossing | the bridge | none (falling) |  | Verified | ✓ |  |
-| V4 | vertical 4 | collapsing upper crossing | big boy shelf | ledge grab OR cling grip OR faydown OR silk soar OR easy enemy pogo |  | Verified | ✓ |  |
+| V4 | vertical 4 | collapsing upper crossing | big boy shelf | ledge grab OR cling grip OR faydown OR silk soar OR medium pogo off caranid |  | Verified | ✓ |  |
 | V4 | vertical 4 | big boy shelf | collapsing upper crossing | none (falling) |  | Verified | ✓ |  |
 | V5 | vertical 5 | big boy shelf | ceiling exit area | ledge grab OR cling grip OR scuttlebrace OR faydown OR silk soar |  | Verified | ✓ |  |
 | V5 | vertical 5 | ceiling exit area | big boy shelf | none (falling) |  | Verified | ✓ |  |
@@ -1281,6 +1503,14 @@ no checks
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | door switch | the bridge | flip switch down |  | Verified | switch | ✓ |  |
+| 2 | Skull Brute 1 | bottom shaft | None |  | Verified | enemy | ✓ |  |
+| 3 | Caranid 1 | bottom shaft | None |  | Verified | enemy | ✓ |  |
+| 4 | Caranid 2 | lower middle shaft | None |  | Verified | enemy | ✓ | can be lured to the lower section |
+| 5 | Caranid 3 | collapsing upper crossing | None |  | Verified | enemy | ✓ |  |
+| 6 | Caranid 4 | collapsing upper crossing | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 7 | Caranid 5 | lower middle shaft | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 8 | Skull Brute 2 | big boy shelf | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 9 | Skull Brute 3 | big boy shelf | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 
 #### Notes
 
@@ -1378,9 +1608,16 @@ No subroom connections defined.
 | 9 | map the marrow | shakra intro | spend 50 rosaries |  | Verified | collectible |  | shakra's shop |
 | 10 | map bench pins | shakra intro | spend 60 rosaries |  | Verified | collectible |  | shakra's shop |
 | 11 | map bellway pins | shakra intro | spend 60 rosaries |  | Verified | collectible |  | shakra's shop \| appears to be bugged in availability logic still. shows available but isn't |
-| 12 | volatile flintbeetle 2 | right upper path | complete THE volatile flintbeetles wish promised |  | Verified | miniboss | ✓ | this one swaps position based on when the marrow bellshrine is activated (per the wiki) - best to ensure both locations are accessible for the quest |
-| 13 | bench gate switch | bench spot | flip switch up |  | Verified | switch | ✓ |  |
-| 14 | bench | bench spot | none |  | Verified | bench | ✓ |  |
+| 12 | bench gate switch | bench spot | flip switch up |  | Verified | switch | ✓ |  |
+| 13 | bench | bench spot | none |  | Verified | bench | ✓ |  |
+| 14 | volatile flintbeetle 2 | right upper path | complete THE volatile flintbeetles wish promised |  | Verified | miniboss | ✓ | this one swaps position based on when the marrow bellshrine is activated (per the wiki) - best to ensure both locations are accessible for the quest |
+| 15 | Pilgrim Pouncer 1 | right upper path | None |  | Verified | enemy | ✓ | ded if shakra here |
+| 16 | Pilgrim Pouncer 2 | shakra intro | None |  | Verified | enemy | ✓ | ded if shakra here |
+| 17 | Pilgrim Groveller 1 | shakra intro | None |  | Verified | enemy | ✓ |  |
+| 18 | Pilgrim Groveller 2 | shakra intro | None |  | Verified | enemy | ✓ |  |
+| 19 | Winged Pilgrim 1 | right upper path | None |  | Verified | enemy | ✓ | ded if shakra here |
+| 20 | Skull Scuttler 1 | right lower path | None |  | Verified | enemy | ✓ |  |
+| 21 | Void Mass 1 | right lower path | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 
 <a name="room-the-marrow--the-marrow-bellway"></a>
 
@@ -1504,8 +1741,19 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | flea the marrow | flea platform | break vines right |  | Verified | collectible | ✓ |  |
-| 2 | volatile flintbeetle 2 | upper echelon | complete THE volatile flintbeetles wish promised |  | Verified | miniboss | ✓ | this one swaps position based on when the marrow bellshrine is activated (per the wiki) - best to ensure both locations are accessible for the quest |
-| 3 | Shell Fossil Mimic | upper echelon | attack up |  | Verified | enemy | ✓ | scene dumper grabbed it, so why not? |
+| 2 | Volatile Flintbeetle 2 | upper echelon | complete THE volatile flintbeetles wish promised |  | Verified | miniboss | ✓ | this one swaps position based on when the marrow bellshrine is activated (per the wiki) - best to ensure both locations are accessible for the quest |
+| 3 | Shell Fossil Mimic | upper echelon | attack up |  | Verified | miniboss | ✓ |  |
+| 4 | Skull Brute 1 | upper echelon | none |  | Verified | enemy | ✓ |  |
+| 5 | Beastfly 1 | upper echelon | none |  | Verified | enemy | ✓ |  |
+| 6 | Beastfly 2 | upper echelon | none |  | Verified | enemy | ✓ |  |
+| 7 | Beastfly 3 | ground floor | none |  | Verified | enemy | ✓ |  |
+| 8 | Skull Brute 2 | ground floor | none |  | Verified | enemy | ✓ |  |
+| 9 | Caranid 1 | flea platform | none |  | Verified | enemy | ✓ |  |
+| 10 | Caranid 2 | ground floor | none |  | Verified | enemy | ✓ | can reach from the ground floor |
+| 11 | Skull Scuttler 1 | middle platform | none |  | Verified | enemy | ✓ |  |
+| 12 | Caranid 3 | ground floor | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 13 | Caranid 4 | ground floor | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 14 | Shardillard 1 | upper echelon | none |  | Verified | enemy | ✓ |  |
 
 <a name="room-the-marrow--the-marrow-skull-wall-side-room"></a>
 
@@ -1544,6 +1792,16 @@ No subroom connections defined.
 | 1 | the marrow pilgrim diary | lower level | none |  | Verified | lore | ✓ |  |
 | 2 | gauntlet fight | upper level | have cling grip |  | Verified | gauntlet | ✓ |  |
 | 3 | the marrow memory locket | upper level | defeat gauntlet fight |  | Verified | collectible | ✓ |  |
+| 4 | Elder Pilgrim 1 | upper level | Normal World Spawn AND prereq gauntlet fight |  | Verified | enemy | ✓ |  |
+| 5 | Winged Pilgrim 1 | upper level | Normal World Spawn AND prereq gauntlet fight |  | Verified | enemy | ✓ |  |
+| 6 | Pilgrim Groveller 1 | upper level | Normal World Spawn AND prereq gauntlet fight |  | Verified | enemy | ✓ |  |
+| 7 | Pilgrim Pouncer 1 | upper level | Normal World Spawn AND prereq gauntlet fight |  | Verified | enemy | ✓ |  |
+| 8 | Pilgrim Groveller 2 | upper level | Normal World Spawn AND prereq gauntlet fight |  | Verified | enemy | ✓ |  |
+| 9 | Elder Pilgrim 2 | upper level | Black Thread World Spawn AND prereq gauntlet fight |  | Verified | enemy | ✓ | not sure if this is act 3 gauntlet |
+| 10 | Winged Pilgrim 2 | upper level | Black Thread World Spawn AND prereq gauntlet fight |  | Verified | enemy | ✓ |  |
+| 11 | Pilgrim Groveller 3 | upper level | Black Thread World Spawn AND prereq gauntlet fight |  | Verified | enemy | ✓ |  |
+| 12 | Pilgrim Pouncer 2 | upper level | Black Thread World Spawn AND prereq gauntlet fight |  | Verified | enemy | ✓ |  |
+| 13 | Pilgrim Groveller 4 | upper level | Black Thread World Spawn AND prereq gauntlet fight |  | Verified | enemy | ✓ |  |
 
 <a name="room-the-marrow--the-marrow-mr-burns-house"></a>
 
@@ -1591,6 +1849,16 @@ No subroom connections defined.
 | 1 | rosary cache the marrow 10 | ground floor | none |  | Verified | collectible | ✓ |  |
 | 2 | shell shard cache the marrow 5 | right upper area | none |  | Verified | collectible | ✓ |  |
 | 3 | shell shard cache the marrow 6 | right upper area | none |  | Verified | collectible | ✓ |  |
+| 4 | Shardillard 1 | right upper area | None |  | Verified | miniboss | ✓ |  |
+| 5 | Skull Brute 1 | ground floor | None |  | Verified | enemy | ✓ |  |
+| 6 | Caranid 1 | ground floor | None |  | Verified | enemy | ✓ |  |
+| 7 | Skull Scuttler 1 | ground floor | None |  | Verified | enemy | ✓ |  |
+| 8 | Skull Scuttler 2 | ground floor | None |  | Verified | enemy | ✓ |  |
+| 9 | Pilgrim Pouncer 1 | ground floor | None |  | Verified | enemy | ✓ |  |
+| 10 | Pilgrim Groveller 1 | mr burns house | None |  | Verified | enemy | ✓ |  |
+| 11 | Caranid 2 | right upper area | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 12 | Caranid 3 | right exit area | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 13 | Caranid 4 | right upper area | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 
 <a name="room-the-marrow--the-marrow-lower-pogo"></a>
 
@@ -1643,7 +1911,16 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | the marrow craft metal | craftmetal alcove | attack right |  | Verified | collectible | ✓ |  |
 | 2 | the marrow 4 shell shard cache | cache alcove | none |  | Verified | collectible | ✓ |  |
-| 3 | volatile flintbeetle 3 | lower mid right area | complete THE volatile flintbeetles wish promised |  | Verified | miniboss | ✓ | this one has a stable position |
+| 3 | Volatile Flintbeetle 3 | lower mid right area | complete THE volatile flintbeetles wish promised |  | Verified | miniboss | ✓ | this one has a stable position |
+| 4 | Skull Scuttler 1 | lower mid right area | None |  | Verified | enemy | ✓ |  |
+| 5 | Winged Pilgrim 1 | lower right exit area | None |  | Verified | enemy | ✓ |  |
+| 6 | Kilik 1 | pogo supreme | None |  | Verified | enemy | ✓ |  |
+| 7 | Caranid 1 | pogo supreme | None |  | Verified | enemy | ✓ |  |
+| 8 | Caranid 2 | pogo supreme | None |  | Verified | enemy | ✓ |  |
+| 9 | Skull Scuttler 2 | lower right exit area | None |  | Verified | enemy | ✓ |  |
+| 10 | Pilgrim Pouncer 1 | pogo supreme | None |  | Verified | enemy | ✓ |  |
+| 11 | Caranid 3 | pogo supreme | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 12 | Void Mass 1 | pogo supreme | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 
 <a name="room-the-marrow--the-marrow-upper-pogo"></a>
 
@@ -1733,6 +2010,7 @@ No subroom connections defined.
 | 1 | platform switch | upper area | none |  | Verified | switch | ✓ |  |
 | 2 | the marrow rosary cache 8 | check alcove | none |  | Verified | collectible | ✓ |  |
 | 3 | the marrow rosary cache 9 | check alcove | none |  | Verified | collectible | ✓ |  |
+| 4 | Spear Skarr 1 | middle area | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 
 <a name="room-the-marrow--the-marrow-jail"></a>
 
@@ -1784,6 +2062,7 @@ No subroom connections defined.
 | 5 | progressive tool pouch | ground floor | complete pin minigame 1 OR Act 3 |  | Verified | collectible |  | tool pouch will be available for free in act 3 if not already collected |
 | 6 | heavy rosary necklace | ground floor | complete pin minigame 2 |  | Verified | collectible |  |  |
 | 7 | straight pin | above grindle cell | none |  | Verified | collectible | ✓ |  |
+| 8 | Pilgrim Guide 1 | other cell | Normal World Spawn |  | Verified | enemy | ✓ |  |
 
 <a name="room-the-marrow--the-marrow-lava-docks"></a>
 
@@ -1834,6 +2113,17 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | rosary spike | upper left platforms | none |  | Verified | collectible | ✓ |  |
 | 2 | Garmond and Zaza Act 3 Meeting The Marrow | ground floor | Act 3 |  | Verified | event | ✓ |  |
+| 3 | Flintstone Flyer 1 | ground floor | None |  | Verified | enemy | ✓ |  |
+| 4 | Skull Brute 1 | upper left platforms | None |  | Verified | enemy | ✓ |  |
+| 5 | Caranid 1 | ground floor | None |  | Verified | enemy | ✓ |  |
+| 6 | Skull Scuttler 1 | upper left platforms | None |  | Verified | enemy | ✓ |  |
+| 7 | Pilgrim Pouncer 1 | upper left platforms | None |  | Verified | enemy | ✓ |  |
+| 8 | Smelt Shoveller 1 | ground floor | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 9 | Smelt Shoveller 2 | ground floor | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 10 | Skull Scuttler 2 | upper left platforms | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 11 | Skull Scuttler 3 | ground floor | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 12 | Void Mass 1 | elevated platforms | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 13 | Smelt Shoveller 3 | ground floor | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 
 <a name="room-the-marrow--the-marrow-skull-tyrant-arena"></a>
 
@@ -1871,8 +2161,9 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | free silk spinner | ground floor | attack down |  | Verified | collectible | ✓ |  |
-| 2 | skull tyrant boss fight | tyrants throne | none |  | Verified | boss | ✓ |  |
-| 3 | crown fragment | tyrants throne | complete THE the terrible tyrant wish promised |  | Verified | collectible | ✓ |  |
+| 2 | crown fragment | tyrants throne | complete THE the terrible tyrant wish promised |  | Verified | collectible | ✓ |  |
+| 3 | skull tyrant boss fight | tyrants throne | none |  | Verified | boss | ✓ |  |
+| 4 | Skull Scuttler 1 | ground floor | none |  | Verified | enemy | ✓ |  |
 
 ## Weavenest Atla
 
@@ -1903,7 +2194,9 @@ No subroom connections defined.
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Servitor Ignim 1 |  | faydown cloak  OR silk soar OR reaper attack up OR beast attack up OR architect attack up OR witch attack up OR shaman attack up |  | Verified | enemy | ✓ | lil bugger is on the ceiling - need reach to get him  something like rune rage would probably reach, but not sure I want to add that |
 
 <a name="room-weavenest-atla--weavenest-atla-teleporter"></a>
 
@@ -1948,7 +2241,11 @@ No check locations defined.
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Servitor Ignim 1 | lower telepad | None |  | Verified | enemy | ✓ |  |
+| 2 | Servitor Ignim 2 | lower shaft | None |  | Verified | enemy | ✓ |  |
+| 3 | Servitor Ignim 3 | lower telepad | None |  | Verified | enemy | ✓ |  |
 
 <a name="room-weavenest-atla--weavenest-atla-power-room"></a>
 
@@ -2113,8 +2410,33 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | weavenest atla mossberry | mossberry platform | none |  | Verified | collectible | ✓ |  |
-| 2 | double moss mother boss fight | boss room | none |  | Verified | boss |  | BOSS IS NOT CURRENTLY TIED TO A CHECK - but does unlock weavelight check |
+| 2 | double moss mother boss fight | boss room | None |  | Verified | boss |  | BOSS IS NOT CURRENTLY TIED TO A CHECK - but does unlock weavelight check |
 | 3 | weavelight | boss room | complete double moss mother boss fight |  | Verified | collectible |  |  |
+| 4 | Moss Mother A | boss room | None |  | Verified | enemy | ✓ | individual moss mother |
+| 5 | Moss Mother B | boss room | None |  | Verified | enemy | ✓ | individual moss mother |
+| 6 | Mossgrub Summon 1 | boss room | Invalid |  | Verified | enemy | ✓ | boss summon - not a guaranteed spawn |
+| 7 | Mossgrub Summon 2 | boss room | Invalid |  | Verified | enemy | ✓ | boss summon - not a guaranteed spawn |
+| 8 | Mossgrub Summon 3 | boss room | Invalid |  | Verified | enemy | ✓ | boss summon - not a guaranteed spawn |
+| 9 | Mossgrub Summon 4 | boss room | Invalid |  | Verified | enemy | ✓ | boss summon - not a guaranteed spawn |
+| 10 | Mossgrub 5 | causeway | None |  | Verified | enemy | ✓ |  |
+| 11 | MossBone Cocoon (6) | upper west platforms | None |  | Verified | enemy | ✓ |  |
+| 12 | MossBone Cocoon (5) | upper west platforms | Swim |  | Verified | enemy | ✓ |  |
+| 13 | MossBone Cocoon (4) | lower west platforms | None |  | Verified | enemy | ✓ |  |
+| 14 | Mossgrub 6 | causeway | None |  | Verified | enemy | ✓ |  |
+| 15 | Servitor Ignim 1 | causeway | None |  | Verified | enemy | ✓ |  |
+| 16 | Servitor Ignim 2 | lower west platforms | None |  | Verified | enemy | ✓ |  |
+| 17 | Mossmir 1 | upper west platforms | None |  | Verified | enemy | ✓ |  |
+| 18 | Mossmir 2 | upper east platforms | None |  | Verified | enemy | ✓ |  |
+| 19 | Mossmir 3 | upper west platforms | None |  | Verified | enemy | ✓ |  |
+| 20 | Mawling 1 | causeway | None |  | Verified | enemy | ✓ |  |
+| 21 | Marrowmaw 1 | upper east platforms | None |  | Verified | enemy | ✓ |  |
+| 22 | Mawling 2 | causeway | None |  | Verified | enemy | ✓ |  |
+| 23 | Marrowmaw 2 | lower west platforms | None |  | Verified | enemy | ✓ |  |
+| 24 | Mawling 3 | upper east platforms | None |  | Verified | enemy | ✓ |  |
+| 25 | Mawling 4 | causeway | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 26 | Void Mass 1 | mossberry platform | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 27 | Mossmir 4 | causeway | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 28 | Mossmir 5 | causeway | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 
 <a name="room-weavenest-atla--weavenest-atla-hallway"></a>
 
@@ -2143,7 +2465,9 @@ No subroom connections defined.
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Servitor Ignim 1 |  | None |  | Verified | enemy | ✓ |  |
 
 <a name="room-weavenest-atla--weavenest-atla-lore"></a>
 
@@ -2188,6 +2512,8 @@ No check locations defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | rune harp weavenest atla | upper platform | none |  | Verified | collectible | ✓ |  |
 | 2 | weavenest atla archive inscription | ground floor | none |  | Verified | lore | ✓ |  |
+| 3 | Servitor Ignim 1 | ground floor | none |  | Verified | enemy | ✓ |  |
+| 4 | Servitor Ignim 2 | upper platform | none |  | Verified | enemy | ✓ |  |
 
 <a name="room-weavenest-atla--weavenest-atla-mask-shard"></a>
 
@@ -2206,6 +2532,7 @@ No check locations defined.
 | S1 | left exit area | ✓ |
 | S2 | starting line | ✓ |
 | S3 | mask shard spot | ✓ |
+| S4 | lower skullwing spot | ✓ |
 
 #### Room Transitions
 
@@ -2221,12 +2548,20 @@ No check locations defined.
 | G1 | gap 1 | starting line | left exit area | spike pogo OR run OR dash OR drifter's cloak OR faydown cloak OR cling grip OR clawline OR sharpdart |  | Verified | ✓ |  |
 | LC | lava challenge | starting line | mask shard spot | silk soar  OR medium scuttlebrace OR ( ( cling grip OR scuttlebrace ) AND ( dash OR drifter's cloak OR faydown cloak OR clawline OR sharpdart ) ) |  | Verified | ✓ | the scuttlebrace-only tech allows this to be done without anything else, but I would personally consider it medium because of the timing and control requirements w/ lava damage for mistakes |
 | LC | lava challenge | mask shard spot | starting line | none (falling) |  | Verified | ✓ |  |
+| SW | skullwing access | starting line | lower skullwing spot | ( faydown AND ledge grab )  OR ( ( cling grip OR scuttlebrace ) AND ( run OR dash OR clawline OR drifters OR faydown OR sharpdart ) ) |  | Verified | ✓ |  |
+| F1 | fall 1 | mask shard spot | lower skullwing spot | none (falling) |  | Verified | ✓ | so silk soar is a viable option to get here too |
 
 #### Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | weavenest alta mask shard | mask shard spot | none |  | Verified | collectible | ✓ |  |
+| 2 | Pharlid Diver 1 | left exit area | None |  | Verified | enemy | ✓ |  |
+| 3 | Pharlid Diver 2 | starting line | None |  | Verified | enemy | ✓ |  |
+| 4 | Skullwing 1 | lower skullwing spot | None |  | Verified | enemy | ✓ |  |
+| 5 | Skullwing 2 | mask shard spot | None |  | Verified | enemy | ✓ |  |
+| 6 | Skullwing 3 | mask shard spot | None |  | Verified | enemy | ✓ |  |
+| 7 | Skullwing 4 | lower skullwing spot | None |  | Verified | enemy | ✓ | can be accessed if you can reach the mask shard spot for the most part |
 
 <a name="room-weavenest-atla--weavenest-atla-snare"></a>
 
@@ -2301,6 +2636,8 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | weavenest atla spool fragment | spool spot | none |  | Verified | collectible | ✓ |  |
+| 2 | Marrowmaw 1 | mid passage | None |  | Verified | enemy | ✓ |  |
+| 3 | Marrowmaw 2 | upper left passage | None |  | Verified | enemy | ✓ |  |
 
 ## Wormways
 
@@ -2335,6 +2672,7 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | craggler mini boss fight |  | none |  | Verified | miniboss | ✓ |  |
 | 2 | craggler beast shard |  | defeat craggler mini boss fight |  | Verified | collectible | ✓ |  |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 #### Notes
 
@@ -2395,6 +2733,7 @@ should at bare minimum have dash or run in combat logic
 | 2 | mask shard wormways | mask grotto | (ledge grab OR cling grip OR silksoar OR faydown cloak) |  | Verified | collectible | ✓ | current hazard respawn from grotto water makes the theoretical no-swim req arbitrary, (you spawn in the entrance tunnel  or in the shaft if you came from above) |
 | 3 | frayed rosary string wormways | rosary duct | (ledge grab AND (cling grip OR silk soar OR scuttlebrace)) OR (cling grip OR silk soar OR (scuttlebrace AND (flea brew OR clawline OR sharpdart OR faydown cloak))) |  | Verified | collectible | ✓ |  |
 | 4 | flip door switch | middle platform area | flip switch down |  | Verified | switch | ✓ | unlocks the middle/lower shortcut |
+| 5 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-wormways--wormways-flea-rescue"></a>
 
@@ -2431,6 +2770,7 @@ should at bare minimum have dash or run in combat logic
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | flea wormways snacc | main area | ledge grab OR (easy enemy pogo) OR silk soar OR faydown cloak OR cling grip |  | Verified | collectible | ✓ |  |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 #### Notes
 
@@ -2470,7 +2810,9 @@ cry: exit - for room rando - the entrance is functional and open regardless of w
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-wormways--wormways-upper-west"></a>
 
@@ -2526,6 +2868,7 @@ No check locations defined.
 | 4 | plasmified blood lower | main tunnel lower | needle phial  AND defeat plasmid lower |  | Verified | resource | ✓ |  |
 | 5 | plasmid upper | main area upper | act 3 |  | Verified | enemy | ✓ |  |
 | 6 | plasmified blood upper | main area upper | needle phial  AND defeat plasmid upper |  | Verified | resource | ✓ |  |
+| 7 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 #### Notes
 
@@ -2581,6 +2924,7 @@ does anything show up in that tunnel opposite to the plasmium alcove later on? f
 | 1 | dead bugs purse | pilgrim grave | steel soul off |  | Verified | collectible | ✓ | STILL MARKED AS ??? ON TRACKER |
 | 2 | shell satchel | pilgrim grave | steel soul on |  | Verified | collectible | ✓ |  |
 | 3 | wormways map | shakra camp | spend 70 rosaries |  | Verified | collectible | ✓ | shakra shop |
+| 4 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 #### Notes
 
@@ -2622,6 +2966,7 @@ No subroom connections defined.
 | 6 | advanced alchemy wish promised |  | act 3  AND complete alchemist's assistant wish granted |  | Verified | event |  |  |
 | 7 | advanced alchemy wish granted |  | act 3  AND complete advanced alchemy wish promised AND get 10 plasmified blood |  | Verified | event |  |  |
 | 8 | laboratory bench |  | none |  | Verified | bench | ✓ |  |
+| 9 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 #### Notes
 
@@ -2684,6 +3029,15 @@ hero: all good, I gotchu (also insane that you are doing logic contributions bef
 | 3 | plasmified blood west | left offshoot | needle phial AND defeat plasmid west |  | Verified | resource | ✓ |  |
 | 4 | plasmid east | bud alcove | act 3 |  | Verified | enemy | ✓ | location per the wiki |
 | 5 | plasmified blood east | bud alcove | needle phial AND defeat plasmid east |  | Verified | resource | ✓ |  |
+| 6 | Gromling 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 7 | Grom 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 8 | Grom 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 9 | Grom 3 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 10 | Grom 4 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 11 | Grom 5 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 12 | Grom 6 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 13 | Plasmid 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 14 | Plasmid 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 #### Notes
 
@@ -2748,6 +3102,7 @@ cry: Most of this area can be navigated without mobility upgrades simply with po
 | 7 | plasmified blood lower | lower tunnels | needle phial AND defeat plasmid lower |  | Verified | resource | ✓ |  |
 | 8 | plasmid east | right exit basement | act 3 |  | Verified | enemy | ✓ | location per the wiki |
 | 9 | plasmified blood east | right exit basement | needle phial AND defeat plasmid east |  | Verified | resource | ✓ |  |
+| 10 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 #### Notes
 
@@ -2787,6 +3142,7 @@ No subroom connections defined.
 | 1 | sharpdart |  | none |  | Verified | collectible | ✓ |  |
 | 2 | plasmid |  | act 3 |  | Verified | enemy | ✓ | location per the wiki; two spawn points in this room |
 | 3 | plasmified blood |  | needle phial AND defeat plasmid |  | Verified | resource |  |  |
+| 4 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 #### Notes
 
@@ -2821,6 +3177,7 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | plasmified zango boss fight |  | act 3 |  | Verified | boss | ✓ | can extract 4 plasmified blood from this boss, but not listing it as a resource because it can be missed if you just kill the boss without extracting them |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Deep Docks
 
@@ -2869,6 +3226,20 @@ No subroom connections defined.
 | 1 | Deep Docks Entrance Lever | gauntlet right | Flip Switch Right |  | Verified | switch | ✓ |  |
 | 2 | Deep Docks Entrance Battle | gauntlet | Nothing. |  | Verified | gauntlet | ✓ |  |
 | 3 | Deep Docks Entrance - Mask Shard | gauntlet right | Nothing. |  | Verified | collectible | ✓ |  |
+| 4 | Smelt Shoveller 1 |  |  |  |  | enemy | ✓ |  |
+| 5 | Beastfly 1 |  |  |  |  | enemy | ✓ |  |
+| 6 | Beastfly 2 |  |  |  |  | enemy | ✓ |  |
+| 7 | Flintstone Flyer 1 |  |  |  |  | enemy | ✓ |  |
+| 8 | Pilgrim Hulk 1 |  |  |  |  | enemy | ✓ |  |
+| 9 | Beastfly 3 |  |  |  |  | enemy | ✓ |  |
+| 10 | Beastfly 4 |  |  |  |  | enemy | ✓ |  |
+| 11 | Flintstone Flyer 2 |  |  |  |  | enemy | ✓ |  |
+| 12 | Smokerock Sifter 1 |  |  |  |  | enemy | ✓ |  |
+| 13 | Beastfly 5 |  |  |  |  | enemy | ✓ |  |
+| 14 | Beastfly 6 |  |  |  |  | enemy | ✓ |  |
+| 15 | Beastfly 7 |  |  |  |  | enemy | ✓ |  |
+| 16 | Beastfly 8 |  |  |  |  | enemy | ✓ |  |
+| 17 | Beastfly 9 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-deep-docks--deep-docks-bench-shaft"></a>
 
@@ -2965,6 +3336,9 @@ No subroom connections defined.
 | 2 | pin purchase vendor pins | Floor | none |  | Verified | collectible | ✓ | shakra shop |
 | 3 | switch to upper lower platform | Upper Switch | Flip Switch Left |  | Verified | switch | ✓ | NOT CURRENTLY RANDOMIZED |
 | 4 | switch to lower lower platform | Lower Right Switch | Flip Switch Right |  | Verified | switch | ✓ | NOT CURRENTLY RANDOMIZED (doesn't currently really block anything since you can just jump above and fall down) |
+| 5 | Smelt Shoveller 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 6 | Flintstone Flyer 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 7 | Flintstone Flyer 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 <a name="room-deep-docks--deep-docks-map-shop-side-room"></a>
 
@@ -2992,7 +3366,9 @@ No subroom connections defined.
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 #### Notes
 
@@ -3079,6 +3455,8 @@ nothing to see here - just murder sleeping dudes
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | flea rescue bellway | Flea | Nothing. |  | Verified | collectible | ✓ |  |
 | 2 | flea breakable floor | Flea | Break Wall Down |  | Verified | blockade | ✓ | stand on it |
+| 3 | Skull Brute 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Caranid 1 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-deep-docks--deep-docks-lace-intro"></a>
 
@@ -3124,6 +3502,7 @@ nothing to see here - just murder sleeping dudes
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | gate switch lace | switch platform | none |  | Verified | switch | ✓ |  |
 | 2 | lace 1 boss fight | boss arena | none |  | Verified | boss | ✓ |  |
+| 3 | Lace 1 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-deep-docks--deep-docks-bellshrine"></a>
 
@@ -3157,6 +3536,7 @@ No subroom connections defined.
 | 1 | bellshrine switch |  | none |  | Verified | switch |  |  |
 | 2 | bench |  | activate bellshrine switch |  | Verified | bench |  |  |
 | 3 | bell deep docks |  | activate bellshrine switch |  | Verified | collectible |  |  |
+| 4 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-deep-docks--deep-docks-spire-lower"></a>
 
@@ -3203,6 +3583,7 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Deep Docks Lower Spire Rosary Cache | Rosary | Nothing. |  | Verified | resource | ✓ |  |
 | 2 | Deep Docks Lower Spire Blast Rock | Top Right Entrance Path | Break Blast Rock Up |  | Verified | blockade | ✓ |  |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-deep-docks--is-this-still-deep-docks-east"></a>
 
@@ -3243,7 +3624,9 @@ No subroom connections defined.
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-deep-docks--is-this-still-deep-docks-west"></a>
 
@@ -3289,6 +3672,7 @@ No check locations defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Deep Docks Is This Still Deep Docks West Blast Rock | ground | Break Blast Rock Right |  | Verified | blockade | ✓ |  |
 | 2 | Deep Docks Is This Still Deep Docks West - Frayed Rosary String | Rosary String | Nothing. |  | Verified | collectible | ✓ |  |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-deep-docks--deep-docks-march-side-room"></a>
 
@@ -3321,6 +3705,7 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | wardenfly |  | ( act 1 OR act 2 ) AND defeat THE bell beast boss fight |  | Verified | enemy | ✓ | per the wiki |
 | 2 | get kidnapped |  | after wardenfly |  | Verified | logic-point | ✓ |  |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 #### Notes
 
@@ -3373,6 +3758,7 @@ and a wardenfly!
 | 3 | Deep Docks Upper Spire Gate Lever | spire | Flip Switch Left |  | Verified | switch | ✓ |  |
 | 4 | Deep Docks Upper Spire Flea Lever | Flea Access Lever | Flip Switch Left |  | Verified | switch | ✓ |  |
 | 5 | Garmond and Zaza Act 3 Meeting Deep Docks | spire | Act 3 |  | Verified | event | ✓ |  |
+| 6 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-deep-docks--deep-docks-forge"></a>
 
@@ -3436,6 +3822,15 @@ and a wardenfly!
 | 10 | Forge Battle | gauntlet | Nothing. |  | Verified | gauntlet | ✓ |  |
 | 11 | Forge bench | forge daughter | Nothing. |  | Verified | bench | ✓ |  |
 | 12 | Ballow Move to Control Room | forge daughter | Act 3 |  | Verified | event | ✓ |  |
+| 13 | Smokerock Sifter 1 |  |  |  |  | enemy | ✓ |  |
+| 14 | Flintstone Flyer 1 |  |  |  |  | enemy | ✓ |  |
+| 15 | Flintstone Flyer 2 |  |  |  |  | enemy | ✓ |  |
+| 16 | Flintstone Flyer 3 |  |  |  |  | enemy | ✓ |  |
+| 17 | Smokerock Sifter 2 |  |  |  |  | enemy | ✓ |  |
+| 18 | Flintstone Flyer 4 |  |  |  |  | enemy | ✓ |  |
+| 19 | Smelt Shoveller 1 |  |  |  |  | enemy | ✓ |  |
+| 20 | Smokerock Sifter 3 |  |  |  |  | enemy | ✓ |  |
+| 21 | Smelt Shoveller 2 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-deep-docks--deep-docks-lower-west-shaft"></a>
 
@@ -3478,7 +3873,17 @@ and a wardenfly!
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Lavalug 1 |  |  |  |  | enemy | ✓ |  |
+| 2 | Lavalug 2 |  |  |  |  | enemy | ✓ |  |
+| 3 | Flintstone Flyer 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 4 | Smelt Shoveller 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 5 | Lavalug 3 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 6 | Flintstone Flyer 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 7 | Void Mass 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 8 | Flintstone Flyer 3 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 9 | Smelt Shoveller 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 <a name="room-deep-docks--deep-docks-spool-east"></a>
 
@@ -3519,6 +3924,7 @@ No check locations defined.
 | 3 | shell shard cache deep docks 2 | the floor is lava | Magma Bell |  | Verified | resource | ✓ |  |
 | 4 | shell shard cache deep docks 3 | the floor is lava | Magma Bell |  | Verified | resource | ✓ |  |
 | 5 | the lever that makes all of my hard work worthless | the floor is lava | none |  | Verified | switch | ✓ |  |
+| 6 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-deep-docks--deep-docks-church"></a>
 
@@ -3562,6 +3968,7 @@ No check locations defined.
 | 5 | rosary chest church | Top | Act 1 OR Act 2 |  | Verified | resource | ✓ |  |
 | 6 | church grate switch | Bottom | Flip Switch Up |  | Verified | switch | ✓ |  |
 | 7 | Church Bench | Bottom | none |  | Verified | bench | ✓ |  |
+| 8 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 #### Notes
 
@@ -3623,6 +4030,21 @@ might need to revise the subrooms later
 | 4 | rosary cache deep docks 1 | main area | none |  | Verified | resource | ✓ |  |
 | 5 | rosary cache deep docks 2 | main area | none |  | Verified | resource | ✓ |  |
 | 6 | spike hall breakable floor | middle crossing Left | Break Wall Up |  | Verified | blockade | ✓ |  |
+| 7 | Lavalug 1 |  |  |  |  | enemy | ✓ |  |
+| 8 | Lavalug 2 |  |  |  |  | enemy | ✓ |  |
+| 9 | Lavalug 3 |  |  |  |  | enemy | ✓ |  |
+| 10 | Flintstone Flyer 1 |  |  |  |  | enemy | ✓ |  |
+| 11 | Smokerock Sifter 1 |  |  |  |  | enemy | ✓ |  |
+| 12 | Flintflame Flyer 1 |  |  |  |  | enemy | ✓ |  |
+| 13 | Caranid 1 |  |  |  |  | enemy | ✓ |  |
+| 14 | Vicious Caranid 1 |  |  |  |  | enemy | ✓ |  |
+| 15 | Caranid 2 |  |  |  |  | enemy | ✓ |  |
+| 16 | Caranid 3 |  |  |  |  | enemy | ✓ |  |
+| 17 | Vicious Caranid 2 |  |  |  |  | enemy | ✓ |  |
+| 18 | Smokerock Sifter 2 |  |  |  |  | enemy | ✓ |  |
+| 19 | Smelt Shoveller 1 |  |  |  |  | enemy | ✓ |  |
+| 20 | Lavalug 4 |  |  |  |  | enemy | ✓ |  |
+| 21 | Lavalug 5 |  |  |  |  | enemy | ✓ |  |
 
 #### Notes
 
@@ -3657,6 +4079,7 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Flea |  | Attack Right |  | Verified | collectible | ✓ | easiest flea ever |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-deep-docks--deep-docks-chains-center"></a>
 
@@ -3728,6 +4151,7 @@ No subroom connections defined.
 | 4 | shell shard cache deep docks 8 | middle side room | none |  | Verified | resource | ✓ |  |
 | 5 | shell shard cache deep docks 9 | middle side room | none |  | Verified | resource | ✓ |  |
 | 6 | ceiling switch | middle switch platform | none |  | Verified | switch | ✓ | lowers middle chain platforms |
+| 7 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 #### Notes
 
@@ -3788,6 +4212,7 @@ the switch to lower the middle chain section makes some of this logic difficult 
 | 3 | Left Side Door Switch | Door Switch | Flip Switch Right |  | Verified | switch | ✓ |  |
 | 4 | Platforms Clawline Ring | Lower Chain Platforms | Clawline |  | Verified | switch | ✓ |  |
 | 5 | Craftmetal Breakable Wall | Lower Chain Platforms | Break Wall Left |  | Verified | collectible | ✓ |  |
+| 6 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 #### Notes
 
@@ -3870,6 +4295,7 @@ the floor/lower half of this area is closed off initially
 | 4 | First Spool Blast Rock | Spool Rock 1 | Break Blast Rock Up |  | Verified | blockade | ✓ |  |
 | 5 | Second Spool Blast Rock | Spool Rock 2 | Break Blast Rock Down AND Activate First Spool Blast Rock |  | Verified | blockade | ✓ |  |
 | 6 | Third Spool Blast Rock | Spool Rock 3 | Break Blast Rock Up AND Activate First Spool Blast Rock AND Activate Second Spool Blast Rock |  | Verified | blockade | ✓ |  |
+| 7 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-deep-docks--deep-docks-forebrothers"></a>
 
@@ -3910,6 +4336,13 @@ the floor/lower half of this area is closed off initially
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | forebrothers boss fight | boss area | none |  | Verified | boss | ✓ |  |
+| 2 | Dock Guard Thrower 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Flintstone Flyer 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Smokerock Sifter 1 |  |  |  |  | enemy | ✓ |  |
+| 5 | Flintstone Flyer 2 |  |  |  |  | enemy | ✓ |  |
+| 6 | Flintstone Flyer 3 |  |  |  |  | enemy | ✓ |  |
+| 7 | Smelt Shoveller 1 |  |  |  |  | enemy | ✓ |  |
+| 8 | Dock Guard Slasher 1 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-deep-docks--deep-docks-lower-east-shaft"></a>
 
@@ -4021,6 +4454,7 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | memory locket deep docks | pit of despair | none |  | Verified | collectible | ✓ |  |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-deep-docks--deep-docks-silkeater-room"></a>
 
@@ -4057,6 +4491,7 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | silkeater deep socks | Da Eater | none |  | Verified | collectible | ✓ |  |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-deep-docks--deep-docks-magma-slug-tunnels"></a>
 
@@ -4125,6 +4560,16 @@ No subroom connections defined.
 | 5 | right tunnel blast rock blockade 2 | right tunnel 2 | break blast rock right |  | Verified | blockade | ✓ |  |
 | 6 | check alcove blast rock blockade | worst spot in the game | break blast rock right |  | Verified | blockade | ✓ |  |
 | 7 | beast shard deep docks | check alcove | none |  | Verified | collectible | ✓ |  |
+| 8 | Lavalarga 1 |  |  |  |  | enemy | ✓ |  |
+| 9 | Lavalarga 2 |  |  |  |  | enemy | ✓ |  |
+| 10 | Lavalarga 3 |  |  |  |  | enemy | ✓ |  |
+| 11 | Lavalarga 4 |  |  |  |  | enemy | ✓ |  |
+| 12 | Lavalug 1 |  |  |  |  | enemy | ✓ |  |
+| 13 | Lavalug 2 |  |  |  |  | enemy | ✓ |  |
+| 14 | Lavalarga 5 |  |  |  |  | enemy | ✓ |  |
+| 15 | Lavalarga 6 |  |  |  |  | enemy | ✓ |  |
+| 16 | Lavalarga 7 |  |  |  |  | enemy | ✓ |  |
+| 17 | Lavalarga 8 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-deep-docks--deep-docks-diving-bell-room"></a>
 
@@ -4242,6 +4687,33 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Garmond and Zaza Act 3 Meeting Far Fields West | main pathway | Act 3 |  | Verified | event |  |  |
+| 2 | Fertid 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 3 | Brushflit 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 4 | Brushflit 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 5 | Brushflit 3 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 6 | Brushflit 4 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 7 | Brushflit 5 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 8 | Brushflit 6 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 9 | Brushflit 7 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 10 | Brushflit 8 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 11 | Brushflit 9 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 12 | Brushflit 10 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 13 | Brushflit 11 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 14 | Brushflit 12 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 15 | Brushflit 13 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 16 | Brushflit 14 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 17 | Brushflit 15 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 18 | Brushflit 16 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 19 | Brushflit 17 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 20 | Brushflit 18 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 21 | Fertid 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 22 | Flapping Fertid 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 23 | Flapping Fertid 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 24 | Brushflit 19 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 25 | Brushflit 20 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 26 | Skarr Stalker 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 27 | Skarr Scout 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 28 | Skarr Scout 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 <a name="room-far-fields--far-fields-entrance-west"></a>
 
@@ -4294,6 +4766,23 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | shell shard cache far fields 1 | check alcove | none |  | Verified | collectible |  |  |
+| 2 | Skarr Scout 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 3 | Skarr Stalker 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 4 | Spear Skarr 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 5 | Rhinogrund 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 6 | Void Mass 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 7 | Skarr Stalker 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 8 | Skarr Scout 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 9 | Skarr Scout 3 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 10 | Fertid 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 11 | Fertid 2 |  |  |  |  | enemy | ✓ |  |
+| 12 | Flapping Fertid 1 |  |  |  |  | enemy | ✓ |  |
+| 13 | Brushflit 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 14 | Brushflit 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 15 | Brushflit 3 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 16 | Flapping Fertid 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 17 | Fertid 3 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 18 | Flapping Fertid 3 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 <a name="room-far-fields--far-fields-fort-lower-passage"></a>
 
@@ -4333,6 +4822,8 @@ No subroom connections defined.
 | 1 | rosary cache far fields 11 | the highest highs | none |  | Verified | collectible |  |  |
 | 2 | rosary cache far fields 12 | the highest highs | none |  | Verified | collectible |  |  |
 | 3 | rosary cache far fields 13 | the highest highs | none |  | Verified | collectible |  |  |
+| 4 | Fertid 1 |  |  |  |  | enemy | ✓ |  |
+| 5 | Skarr Stalker 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
 
 <a name="room-far-fields--far-fields-fort-flea-rescue"></a>
 
@@ -4382,6 +4873,11 @@ No subroom connections defined.
 | 1 | flea rescue | flea rescue area | none |  | Verified | collectible |  | break cage |
 | 2 | rosary cache far fields 16 | camp | none |  | Verified | collectible |  |  |
 | 3 | rosary cache far fields 17 | camp | none |  | Verified | collectible |  |  |
+| 4 | Fertid 1 |  |  |  |  | enemy | ✓ |  |
+| 5 | Skarr Scout 1 |  |  |  |  | enemy | ✓ |  |
+| 6 | Skarr Scout 2 |  |  |  |  | enemy | ✓ |  |
+| 7 | Fertid 2 |  |  |  |  | enemy | ✓ |  |
+| 8 | Fertid 3 |  |  |  |  | enemy | ✓ |  |
 
 #### Notes
 
@@ -4433,6 +4929,26 @@ this had no subrooms before ledge grab...
 | 2 | rosary cache far fields 15 | main area | none |  | Verified | collectible | ✓ |  |
 | 3 | lower platform switch | left exit area | flip switch up |  | Verified | switch | ✓ |  |
 | 4 | rosary chest | left exit area | none |  | Verified | collectible | ✓ | NOT YET RANDOMIZED |
+| 5 | Brushflit 1 |  |  |  |  | enemy | ✓ |  |
+| 6 | Brushflit 2 |  |  |  |  | enemy | ✓ |  |
+| 7 | Brushflit 3 |  |  |  |  | enemy | ✓ |  |
+| 8 | Fertid 1 |  |  |  |  | enemy | ✓ |  |
+| 9 | Flapping Fertid 1 |  |  |  |  | enemy | ✓ |  |
+| 10 | Flapping Fertid 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 11 | Brushflit 4 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 12 | Brushflit 5 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 13 | Brushflit 6 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 14 | Brushflit 7 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 15 | Skarr Stalker 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 16 | Skarr Scout 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 17 | Flapping Fertid 3 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 18 | Flapping Fertid 4 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 19 | Brushflit 8 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 20 | Void Mass 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 21 | Spear Skarr 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 22 | Skarr Stalker 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 23 | Skarr Scout 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 24 | Spear Skarr 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 <a name="room-far-fields--far-fields-wind-shaft"></a>
 
@@ -4514,6 +5030,30 @@ this had no subrooms before ledge grab...
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | rosary cache far fields 1 | rosary cache spot | none |  | Verified | collectible | ✓ |  |
 | 2 | weighted belt | mort corpse platform | act 3 |  | Verified | collectible | ✓ | according to the wiki you can either buy it from pilgrim's rest in act 1/2 OR you can grab it from mort's corpse here in act 3 |
+| 3 | Brushflit 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Brushflit 2 |  |  |  |  | enemy | ✓ |  |
+| 5 | Brushflit 3 |  |  |  |  | enemy | ✓ |  |
+| 6 | Brushflit 4 |  |  |  |  | enemy | ✓ |  |
+| 7 | Brushflit 5 |  |  |  |  | enemy | ✓ |  |
+| 8 | Brushflit 6 |  |  |  |  | enemy | ✓ |  |
+| 9 | Brushflit 7 |  |  |  |  | enemy | ✓ |  |
+| 10 | Brushflit 8 |  |  |  |  | enemy | ✓ |  |
+| 11 | Brushflit 9 |  |  |  |  | enemy | ✓ |  |
+| 12 | Brushflit 10 |  |  |  |  | enemy | ✓ |  |
+| 13 | Fertid 1 |  |  |  |  | enemy | ✓ |  |
+| 14 | Vicious Caranid 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 15 | Brushflit 11 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 16 | Brushflit 12 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 17 | Brushflit 13 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 18 | Brushflit 14 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 19 | Vicious Caranid 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 20 | Vicious Caranid 3 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 21 | Brushflit 15 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 22 | Brushflit 16 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 23 | Brushflit 17 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 24 | Brushflit 18 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 25 | Vicious Caranid 4 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 26 | Vicious Caranid 5 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 <a name="room-far-fields--far-fields-upper-shaft"></a>
 
@@ -4579,6 +5119,16 @@ this had no subrooms before ledge grab...
 | 9 | vicious caranid 2 | hunters march bridge | none |  | Verified | enemy | ✓ | shell shards |
 | 10 | vicious caranid 3 | top wind tunnel | none |  | Verified | enemy | ✓ | shell shards |
 | 11 | caranid 4 | top wind tunnel | none |  | Verified | enemy | ✓ | shell shards |
+| 12 | Vicious Caranid 4 |  |  |  |  | enemy | ✓ |  |
+| 13 | Caranid 5 |  |  |  |  | enemy | ✓ |  |
+| 14 | Caranid 6 |  |  |  |  | enemy | ✓ |  |
+| 15 | Vicious Caranid 5 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 16 | Caranid 7 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 17 | Vicious Caranid 6 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 18 | Caranid 8 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 19 | Vicious Caranid 7 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 20 | Vicious Caranid 8 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 21 | Caranid 9 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 <a name="room-far-fields--far-fields-pilgrim-s-rest"></a>
 
@@ -4628,7 +5178,11 @@ this had no subrooms before ledge grab...
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Snitchfly 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 2 | Snitchfly 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 3 | Pilgrim Hulk 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
 
 <a name="room-far-fields--far-fields-pilgrim-s-rest-church"></a>
 
@@ -4669,6 +5223,7 @@ No check locations defined.
 | 2 | rhinogrund miniboss fight | main floor | none (fite me) |  | Verified | miniboss |  | can skip by leaving and coming back |
 | 3 | door switch | main floor | none |  | Verified | switch |  |  |
 | 4 | beast shard | main floor | defeat rhinogrund miniboss fight |  | Verified | collectible |  | this can be missed - if the switch is flipped and you leave the room (or die) without defeating the rhinogrund or collecting the beast shard, they become unavailable |
+| 5 | Rhinogrund 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
 
 <a name="room-far-fields--far-fields-pilgrim-s-rest-shop"></a>
 
@@ -4702,6 +5257,8 @@ No subroom connections defined.
 | 2 | memory locket pilgrims rest shop |  | none (shop) |  | Verified | collectible |  | shop |
 | 3 | tool pouch pilgrim's rest shop |  | none (shop) |  | Verified | collectible |  | NOT RANDOMIZED AS OF v0.4.2 |
 | 4 | pilgrims rest supplies wish granted |  | complete THE pilgrims rest supplies wish promised |  | Verified | collectible |  |  |
+| 5 | Rhinogrund 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 6 | Snitchfly 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 <a name="room-far-fields--far-fields-chorus"></a>
 
@@ -4801,6 +5358,12 @@ No subroom connections defined.
 | 4 | vicious caranid 1 | bottom left area | none |  | Verified | enemy | ✓ | shell shards |
 | 5 | caranid | bottom left area | none |  | Verified | enemy | ✓ | shell shards |
 | 6 | vicious caranid 2 | upper right area | none |  | Verified | enemy | ✓ | shell shards |
+| 7 | Skarr Scout 1 |  |  |  |  | enemy | ✓ |  |
+| 8 | Fertid 1 |  |  |  |  | enemy | ✓ |  |
+| 9 | Vicious Caranid 3 |  |  |  |  | enemy | ✓ |  |
+| 10 | Vicious Caranid 4 |  |  |  |  | enemy | ✓ |  |
+| 11 | Caranid 1 |  |  |  |  | enemy | ✓ |  |
+| 12 | Flapping Fertid 1 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-far-fields--far-fields-pinstress-room"></a>
 
@@ -4867,6 +5430,10 @@ No subroom connections defined.
 | 2 | caranid 2 | lava basin | none |  | Verified | enemy | ✓ | shell shards |
 | 3 | vicious caranid | lava basin | none |  | Verified | enemy | ✓ | shell shards |
 | 4 | fertid | lower left exit area | none |  | Verified | enemy | ✓ | shell shards |
+| 5 | Fertid 1 |  |  |  |  | enemy | ✓ |  |
+| 6 | Vicious Caranid 1 |  |  |  |  | enemy | ✓ |  |
+| 7 | Caranid 1 |  |  |  |  | enemy | ✓ |  |
+| 8 | Caranid 3 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-far-fields--far-fields-pinstress-hut-interior"></a>
 
@@ -4943,6 +5510,7 @@ No subroom connections defined.
 | 3 | fertid | left side | none |  | Verified | enemy | ✓ | shell shards |
 | 4 | vent boulder 1 | left side tunnel | none (attack) |  | Verified | blockade | ✓ | must be broken to return escape tunnel with drifter's cloak |
 | 5 | vent boulder 2 | left side tunnel | none (attack) |  | Verified | blockade | ✓ | must be broken to return to right side using drifter's cloak |
+| 6 | Fertid 1 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-far-fields--far-fields-target-practice"></a>
 
@@ -4973,6 +5541,9 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | progressive curveclaw 2 |  | act 3 AND curveclaw |  | Verified | collectible |  | NOT CURRENTLY ON TRACKER - MAY NOT BE RANDOMIZED |
+| 2 | Skarr Scout 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 3 | Skarr Scout 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 4 | Spear Skarr 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
 
 #### Notes
 
@@ -5058,6 +5629,9 @@ No subroom connections defined.
 | 6 | vicious caranid 1 | thorn path | none |  | Verified | enemy | ✓ | shell shards |
 | 7 | vicious caranid 2 | thorn path | none |  | Verified | enemy | ✓ | shell shards |
 | 8 | vicious caranid 3 | thorn path | none |  | Verified | enemy | ✓ | shell shards |
+| 9 | Vicious Caranid 4 |  |  |  |  | enemy | ✓ |  |
+| 10 | Vicious Caranid 5 |  |  |  |  | enemy | ✓ |  |
+| 11 | Vicious Caranid 6 |  | Normal World Spawn |  |  | enemy | ✓ |  |
 
 <a name="room-far-fields--far-fields-deep-docks-loopback"></a>
 
@@ -5106,6 +5680,7 @@ No subroom connections defined.
 | 3 | gate switch | before gate | flip switch up |  | Verified | switch |  |  |
 | 4 | bench rosary lock | bell bench | none |  | Verified | lock |  |  |
 | 5 | bench :) | bell bench | unlock bench rosary lock |  | Verified | bench |  |  |
+| 6 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-far-fields--far-fields-deep-docks-backdoor"></a>
 
@@ -5147,6 +5722,7 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | warding bell | platform | none |  | Verified | collectible | ✓ |  |
 | 2 | Far Fields Side Chain Room Door | upper area | Break Wall Left |  | Verified | blockade | ✓ | wall can be opened from both sides |
+| 3 | Fertid 1 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-far-fields--far-fields-skull-room-west"></a>
 
@@ -5217,6 +5793,29 @@ No subroom connections defined.
 | 18 | fertid 2 | upper left exit area | none |  | Verified | enemy | ✓ | shell shards |
 | 19 | hoker 3 | rosary alcove | none |  | Verified | enemy | ✓ | used to farm flexible spines |
 | 20 | pilgrim groveller 2 | rosary alcove | none |  | Verified | enemy | ✓ | rosaries, can be farmed for pilgrim shawls |
+| 21 | Brushflit 1 |  |  |  |  | enemy | ✓ |  |
+| 22 | Brushflit 2 |  |  |  |  | enemy | ✓ |  |
+| 23 | Brushflit 3 |  |  |  |  | enemy | ✓ |  |
+| 24 | Brushflit 4 |  |  |  |  | enemy | ✓ |  |
+| 25 | Fertid 1 |  |  |  |  | enemy | ✓ |  |
+| 26 | Hoker 1 |  |  |  |  | enemy | ✓ |  |
+| 27 | Hoker 4 |  |  |  |  | enemy | ✓ |  |
+| 28 | Hoker 5 |  |  |  |  | enemy | ✓ |  |
+| 29 | Hoker 6 |  |  |  |  | enemy | ✓ |  |
+| 30 | Brushflit 5 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 31 | Brushflit 6 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 32 | Brushflit 7 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 33 | Pilgrim Pouncer 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 34 | Pilgrim Groveller 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 35 | Pilgrim Groveller 3 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 36 | Brushflit 8 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 37 | Winged Pilgrim 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 38 | Hoker 7 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 39 | Pilgrim Pouncer 3 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 40 | Pilgrim Hulk 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 41 | Winged Pilgrim 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 42 | Shardillard 1 |  |  |  |  | enemy | ✓ |  |
+| 43 | Fertid 3 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-far-fields--far-fields-skull-room-east"></a>
 
@@ -5285,6 +5884,28 @@ No subroom connections defined.
 | 13 | fertid 3 | upper left exit area | none |  | Verified | enemy | ✓ | shell shards |
 | 14 | tarmite 1 | skull platform | none |  | Verified | enemy | ✓ | shell shards, spawns after skull arena gauntlet cleared and succesfully escaped lava ascent |
 | 15 | tarmite 2 | skull platform | none |  | Verified | enemy | ✓ | shells shard, spawns after skull arena guantlet cleared and succesfully escaped lava ascent |
+| 16 | Tarmite 3 |  |  |  |  | enemy | ✓ |  |
+| 17 | Tarmite 4 |  |  |  |  | enemy | ✓ |  |
+| 18 | Fertid 1 |  |  |  |  | enemy | ✓ |  |
+| 19 | Brushflit 1 |  |  |  |  | enemy | ✓ |  |
+| 20 | Fertid 4 |  |  |  |  | enemy | ✓ |  |
+| 21 | Fertid 5 |  |  |  |  | enemy | ✓ |  |
+| 22 | Fertid 6 |  |  |  |  | enemy | ✓ |  |
+| 23 | Hoker 1 |  |  |  |  | enemy | ✓ |  |
+| 24 | Hoker 5 |  |  |  |  | enemy | ✓ |  |
+| 25 | Hoker 6 |  |  |  |  | enemy | ✓ |  |
+| 26 | Hoker 7 |  |  |  |  | enemy | ✓ |  |
+| 27 | Pilgrim Hulk 1 |  |  |  |  | enemy | ✓ |  |
+| 28 | Pilgrim Hornfly 1 |  |  |  |  | enemy | ✓ |  |
+| 29 | Fertid 7 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 30 | Brushflit 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 31 | Brushflit 3 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 32 | Brushflit 4 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 33 | Brushflit 5 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 34 | Brushflit 6 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 35 | Pilgrim Hulk 3 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 36 | Brushflit 7 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 37 | Brushflit 8 |  | Normal World Spawn |  |  | enemy | ✓ |  |
 
 <a name="room-far-fields--far-fields-skull-arena"></a>
 
@@ -5330,6 +5951,19 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | shell shard cache far fields 8 | check alcove | none |  | Verified | collectible |  | this becomes inaccessible after defeating the gauntlet - perhaps auto collect? |
 | 2 | mask shard far fields skull cave | mask alcove | none |  | Verified | collectible |  |  |
+| 3 | Beastfly 1 |  |  |  |  | enemy |  |  |
+| 4 | Beastfly 2 |  |  |  |  | enemy |  |  |
+| 5 | Tarmite 1 |  |  |  |  | enemy |  |  |
+| 6 | Vicious Caranid 1 |  |  |  |  | enemy |  |  |
+| 7 | Vicious Caranid 2 |  |  |  |  | enemy |  |  |
+| 8 | Tarmite 2 |  |  |  |  | enemy |  |  |
+| 9 | Tarmite 3 |  |  |  |  | enemy |  |  |
+| 10 | Tarmite 4 |  |  |  |  | enemy |  |  |
+| 11 | Tarmite 5 |  |  |  |  | enemy |  |  |
+| 12 | Tarmite 6 |  |  |  |  | enemy |  |  |
+| 13 | Tarmite 7 |  |  |  |  | enemy |  |  |
+| 14 | Tarmite 8 |  |  |  |  | enemy |  |  |
+| 15 | Tarmite 9 |  |  |  |  | enemy |  |  |
 
 #### Notes
 
@@ -5377,6 +6011,12 @@ the arena to mask shard connections are one-way so the full requirement chain is
 | 4 | secret room lock | entrance | run AND silkspeed anklets AND flea brew speed |  | Verified | lock | ✓ |  |
 | 5 | wvnest cindil bench | entrance | none |  | Verified | bench | ✓ |  |
 | 6 | servitor ignim | entrance | needle [up] |  | Verified | enemy | ✓ |  |
+| 7 | Weaver Servitor Broken (1) 1 |  |  |  |  | enemy | ✓ |  |
+| 8 | Servitor Ignim 1 |  |  |  |  | enemy | ✓ |  |
+| 9 | Weaver Servitor Broken 1 |  |  |  |  | enemy | ✓ |  |
+| 10 | Weaver Servitor Broken (2) 1 |  |  |  |  | enemy | ✓ |  |
+| 11 | Servitor Ignim 2 |  |  |  |  | enemy | ✓ |  |
+| 12 | Weaver Servitor Broken (1) 2 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-far-fields--far-fields-deep-entrance"></a>
 
@@ -5469,6 +6109,22 @@ the arena to mask shard connections are one-way so the full requirement chain is
 | 17 | skarr stalker | upper right alcove | none |  | Verified | enemy | ✓ | shell shards |
 | 18 | skarr scout 2 | plains | none |  | Verified | enemy | ✓ | rosaries |
 | 19 | fertid 1 | lower right area | none |  | Verified | enemy | ✓ | shell shards |
+| 20 | Hardbone Elder 1 |  |  |  |  | enemy | ✓ |  |
+| 21 | Hardbone Hopper 1 |  |  |  |  | enemy | ✓ |  |
+| 22 | Hardbone Hopper 2 |  |  |  |  | enemy | ✓ |  |
+| 23 | Hardbone Elder 2 |  |  |  |  | enemy | ✓ |  |
+| 24 | Skarr Scout 3 |  |  |  |  | enemy | ✓ |  |
+| 25 | Skarr Scout 4 |  |  |  |  | enemy | ✓ |  |
+| 26 | Brushflit 1 |  |  |  |  | enemy | ✓ |  |
+| 27 | Brushflit 2 |  |  |  |  | enemy | ✓ |  |
+| 28 | Brushflit 3 |  |  |  |  | enemy | ✓ |  |
+| 29 | Brushflit 4 |  |  |  |  | enemy | ✓ |  |
+| 30 | Brushflit 5 |  |  |  |  | enemy | ✓ |  |
+| 31 | Brushflit 6 |  |  |  |  | enemy | ✓ |  |
+| 32 | Skarr Stalker 1 |  |  |  |  | enemy | ✓ |  |
+| 33 | Fertid 2 |  |  |  |  | enemy | ✓ |  |
+| 34 | Flapping Fertid 3 |  |  |  |  | enemy | ✓ |  |
+| 35 | Flapping Fertid 4 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-far-fields--far-fields-deep-lower-east"></a>
 
@@ -5524,6 +6180,9 @@ the arena to mask shard connections are one-way so the full requirement chain is
 | 1 | gurr the outcast boss fight | trapper's arena | none |  | Verified | boss | ✓ |  |
 | 2 | AP Minor Cache - Rosary Cache: Far Fields #19 | trapper's ledge | none |  | Verified | collectible | ✓ |  |
 | 3 | Grass Doll | trapper's ledge | none |  | Verified | collectible | ✓ |  |
+| 4 | Fertid 1 |  |  |  |  | enemy | ✓ |  |
+| 5 | Flapping Fertid 1 |  |  |  |  | enemy | ✓ |  |
+| 6 | Bone Hunter Trapper 1 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-far-fields--far-fields-pilgrim-s-rest-deep-passage"></a>
 
@@ -5555,6 +6214,7 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | blast rock exit block |  | break blast rock left |  | Verified | blockade |  |  |
+| 2 | Fertid 1 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-far-fields--far-fields-deep-lower-west"></a>
 
@@ -5603,6 +6263,10 @@ No subroom connections defined.
 | 2 | AP Minor Cache - Shell Shard Cache: Far Fields #2 | upper right alcove | none |  | Verified | collectible | ✓ |  |
 | 3 | AP Minor Cache - Shell Shard Cache: Far Fields #3 | upper right alcove | none |  | Verified | collectible | ✓ |  |
 | 4 | AP Minor Cache - Rosary Cache: Far Fields #18 | upper right alcove | none |  | Verified | collectible | ✓ |  |
+| 5 | Hardbone Elder 1 |  |  |  |  | enemy | ✓ |  |
+| 6 | Hardbone Hopper 1 |  |  |  |  | enemy | ✓ |  |
+| 7 | Fertid 1 |  |  |  |  | enemy | ✓ |  |
+| 8 | Fertid 2 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-far-fields--far-fields-deep-fort-passage"></a>
 
@@ -5637,7 +6301,12 @@ No subroom connections defined.
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Skarr Stalker 1 |  |  |  |  | enemy | ✓ |  |
+| 2 | Fertid 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Spear Skarr 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Void Mass 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 <a name="room-far-fields--far-fields-deep-fort-bench"></a>
 
@@ -5715,6 +6384,8 @@ No check locations defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | memory locket far fields | prison | none |  | Verified | collectible | ✓ | name says act 3 but is not actually gated by act 3 |
 | 2 | grunt | main area | none |  | Verified | miniboss |  | does not respawn |
+| 3 | Skarrgard 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Flapping Fertid 1 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-far-fields--current-karmelita"></a>
 
@@ -5783,6 +6454,15 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | skarrsinger karmelita boss fight | arena | none |  | Verified | boss |  |  |
 | 2 | hunter's heart | arena | defeat skarrsinger karmelita boss fight |  | Verified | collectible |  |  |
+| 3 | Hunter Queen 1 |  |  |  |  | enemy |  |  |
+| 4 | NPC 1 |  |  |  |  | enemy |  |  |
+| 5 | Skarr Stalker 1 |  |  |  |  | enemy |  |  |
+| 6 | Skarr Scout 1 |  |  |  |  | enemy |  |  |
+| 7 | Skarr Scout 2 |  |  |  |  | enemy |  |  |
+| 8 | Spear Skarr 1 |  |  |  |  | enemy |  |  |
+| 9 | Skarr Stalker 2 |  |  |  |  | enemy |  |  |
+| 10 | Last Claw 1 |  |  |  |  | enemy |  |  |
+| 11 | Last Claw 2 |  |  |  |  | enemy |  |  |
 
 <a name="room-far-fields--sprintmaster-cave"></a>
 
@@ -5875,6 +6555,7 @@ No subroom connections defined.
 | 1 | door switch | right of boss fight | flip switch down |  | Verified | switch |  |  |
 | 2 | savage beastfly boss fight | boss arena | none |  | Verified | boss |  |  |
 | 3 | crest beast | crest area | none |  | Verified | collectible |  |  |
+| 4 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-hunter-s-march--hunter-s-march-chapel-passage"></a>
 
@@ -5915,6 +6596,7 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | memory locket | crossing platform | none |  | Verified | collectible | ✓ | need to break a cage |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-hunter-s-march--hunter-s-march-entrance"></a>
 
@@ -5957,6 +6639,7 @@ No subroom connections defined.
 | 1 | shell shard cache hunter's march 1 | checks alcove | none |  | Verified | collectible |  | MARKED AS ??? ON TRACKER |
 | 2 | shell shard cache hunter's march 2 | checks alcove | none |  | Verified | collectible |  | MARKED AS ??? ON TRACKER |
 | 3 | grunt fight | before door | none |  | Verified | miniboss |  |  |
+| 4 | Skarrgard 1 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-hunter-s-march--hunter-s-march-pogo-intro"></a>
 
@@ -5994,6 +6677,11 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | flea rescue | flea rescue area | break vines right |  | Verified | collectible |  |  |
+| 2 | Skarrwing 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Skarrlid 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Skarrlid 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 5 | Skarrwing 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 6 | Skarrwing 3 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 <a name="room-hunter-s-march--hunter-s-march-early-pathway-west"></a>
 
@@ -6009,10 +6697,12 @@ No subroom connections defined.
 
 | No. | Subroom | Annotated |
 | --- | --- | --- |
-| S1 | upper platforms | ✓ |
+| S1 | upper left platforms | ✓ |
 | S2 | upper left alcove | ✓ |
 | S3 | left exit area | ✓ |
 | S4 | lower floor | ✓ |
+| S5 | upper right platforms | ✓ |
+| S6 | trapped platform | ✓ |
 
 #### Room Transitions
 
@@ -6025,21 +6715,39 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| P1 | pogo 1 | left exit area | upper platforms | silk soar OR faydown cloak OR easy shaman pogo OR easy wanderer pogo OR easy reaper pogo OR ledge grab |  | Verified | ✓ |  |
-| P1 | pogo 1 | upper platforms | left exit area | none (falling) |  | Verified | ✓ |  |
+| P1 | pogo 1 | left exit area | upper left platforms | silk soar OR faydown cloak OR easy shaman pogo OR easy wanderer pogo OR easy reaper pogo OR ledge grab |  | Verified | ✓ |  |
+| P1 | pogo 1 | upper left platforms | left exit area | none (falling) |  | Verified | ✓ |  |
 | L1 | ledge grab 1 | lower floor | left exit area | ledge grab OR silk soar OR faydown cloak OR clawline OR easy shaman pogo |  | Verified | ✓ |  |
 | L1 | ledge grab 1 | left exit area | lower floor | none (falling) |  | Verified | ✓ |  |
-| L2 | ledge grab 2 | upper platforms | upper left alcove | ledge grab OR faydown cloak OR silk soar OR easy shaman pogo |  | Verified | ✓ |  |
-| L2 | ledge grab 2 | upper left alcove | upper platforms | none (falling) |  | Verified | ✓ |  |
+| L2 | ledge grab 2 | upper left platforms | upper left alcove | ledge grab OR faydown cloak OR silk soar OR easy shaman pogo |  | Verified | ✓ |  |
+| L2 | ledge grab 2 | upper left alcove | upper left platforms | none (falling) |  | Verified | ✓ |  |
+| RP | run jump left and pogo | trapped platform | upper left platforms | run |  | Verified | ✓ | a little tight to be able to pogo off the fruit, but not that bad |
+| TP | to trapped platform | lower floor | trapped platform | ledge grab OR cling grip OR run OR dash OR easy shaman pogo OR easy beast pogo OR easy architect charge OR easy wanderer charge OR faydown OR silk soar OR clawline OR sharpdart OR scuttlebrace |  | Verified | ✓ |  |
+| P2 | pogo 2 | lower floor | upper right platforms | ledge grab OR cling grip OR faydown OR silk soar OR clawline OR sharpdart OR scuttlebrace OR easy wanderer pogo OR easy reaper pogo OR easy beast pogo OR easy shaman pogo |  | Verified | ✓ |  |
+| P2 | pogo 2 | upper right platforms | lower floor | none (falling) |  | Verified | ✓ |  |
+| RT | right trapped crossing | upper right platforms | trapped platform | run OR dash OR faydown OR clawline  OR sharp dart OR scuttlebrace OR easy beast pogo OR easy architect charge |  | Verified | ✓ |  |
+| RT | right trapped crossing | trapped platform | upper right platforms | dash OR drifters OR faydown OR clawline OR sharpdart OR scuttlebrace  OR ( ( ledge grab OR cling grip ) AND ( run OR easy hunter pogo OR easy beast pogo OR easy architect charge ) ) |  | Verified | ✓ |  |
 
 #### Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | rosary cache hunters march 1 | upper left alcove | none |  | Verified | collectible |  | get there fast - the ants will eat them (v0.4.2) |
-| 2 | rosary cache hunters march 2 | upper left alcove | none |  | Verified | collectible |  | get there fast - the ants will eat them (v0.4.2) |
-| 3 | rosary cache hunters march 3 | upper platforms | none |  | Verified | collectible |  |  |
-| 4 | rosary necklace hunters march | upper platforms | none |  | Verified | collectible |  | ants eat them before you can collect (v0.4.2) |
+| 1 | rosary cache hunters march 1 | upper left alcove | none |  | Verified | collectible | ✓ | get there fast - the ants will eat them (v0.4.2) |
+| 2 | rosary cache hunters march 2 | upper left alcove | none |  | Verified | collectible | ✓ | get there fast - the ants will eat them (v0.4.2) |
+| 3 | rosary cache hunters march 3 | upper right platforms | none |  | Verified | collectible | ✓ |  |
+| 4 | rosary necklace hunters march | upper right platforms | none |  | Verified | collectible | ✓ | ants eat them before you can collect (v0.4.2) |
+| 5 | Skarr Stalker 1 | upper left platforms | None |  | Verified | enemy | ✓ |  |
+| 6 | Skarrlid 1 | upper left alcove | None |  | Verified | enemy | ✓ |  |
+| 7 | Spear Skarr 1 | upper left platforms | None |  | Verified | enemy | ✓ |  |
+| 8 | Skarrwing 1 | lower floor | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 9 | Skarrwing 2 | upper right platforms | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 10 | Skarr Scout 1 | upper right platforms | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 11 | Skarr Stalker 2 | lower floor | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 12 | Skarr Scout 2 | lower floor | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 13 | Skarrlid 2 | lower floor | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 14 | Skarrwing 3 | upper right platforms | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 15 | Void Mass 1 | upper left platforms | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 16 | Spear Skarr 2 | upper left platforms | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 
 <a name="room-hunter-s-march--hunter-s-march-map-shop"></a>
 
@@ -6081,6 +6789,7 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | gauntlet fight | gauntlet | none |  | Verified | gauntlet | ✓ |  |
 | 2 | map purchase hunter's march | gauntlet | defeat gauntlet fight |  | Verified | collectible | ✓ |  |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-hunter-s-march--hunter-s-march-early-pathway-east"></a>
 
@@ -6120,6 +6829,7 @@ No subroom connections defined.
 | 1 | shell shard cache hunters march 3 | ceiling alcove | none |  | Verified | collectible | ✓ |  |
 | 2 | shell shard cache hunters march 4 | ceiling alcove | none |  | Verified | collectible | ✓ |  |
 | 3 | silk webs x3 | main area | none |  | Verified | resource | ✓ | not yet randomized |
+| 4 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-hunter-s-march--hunter-s-march-shaft"></a>
 
@@ -6172,7 +6882,9 @@ No subroom connections defined.
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-hunter-s-march--hunter-s-march-trapped-bench"></a>
 
@@ -6204,6 +6916,7 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | trapped bench |  | activate bench trap switch |  | Verified | bench |  |  |
 | 2 | bench trap switch |  | flip switch up |  | Verified | switch |  |  |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-hunter-s-march--hunter-s-march-skarr-shop"></a>
 
@@ -6245,6 +6958,7 @@ No subroom connections defined.
 | 4 | shell shard cache hunter's march 6 | storage room | none |  | Verified | collectible | ✓ |  |
 | 5 | shell shard cache hunter's march 7 | storage room | none |  | Verified | collectible | ✓ |  |
 | 6 | shell shard cache hunter's march 8 | storage room | none |  | Verified | collectible | ✓ |  |
+| 7 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-hunter-s-march--hunter-s-march-treasure-vault"></a>
 
@@ -6288,6 +7002,7 @@ No subroom connections defined.
 | 6 | rosary cache hunters march 9 | left of door | none |  | Verified | collectible |  |  |
 | 7 | rosary cache hunters march 10 | left of door | none |  | Verified | collectible |  |  |
 | 8 | grunt fight | right of door | none |  | Verified | miniboss | ✓ | pretty sure these two don't respawn |
+| 9 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-hunter-s-march--hunter-s-march-statue"></a>
 
@@ -6322,7 +7037,9 @@ No subroom connections defined.
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-hunter-s-march--hunter-s-march-deep-docks-passage"></a>
 
@@ -6368,6 +7085,7 @@ No check locations defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | bone switch | before gate | none |  | Verified | switch |  |  |
 | 2 | gauntlet fight | gauntlet | none |  | Verified | gauntlet |  |  |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-hunter-s-march--hunter-s-march-deep-entrance"></a>
 
@@ -6411,6 +7129,7 @@ No check locations defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | free silk | free silk | none |  | Verified | resource |  | not yet randomized |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Shellwood
 
@@ -6459,6 +7178,7 @@ No check locations defined.
 | 1 | Cling Grip | Upper Level | None |  | Verified | collectible | ✓ |  |
 | 2 | Pollip Heart #5 | Central Level | None |  | Verified | collectible | ✓ |  |
 | 3 | Shellwood - Weaver Harp Inscryption | Ground Level | Needolin |  | Verified | lore | ✓ |  |
+| 4 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-shellwood--cling-grip-side-room"></a>
 
@@ -6496,6 +7216,7 @@ No check locations defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Rosary Grave Marker | Upper Level | None |  | Verified | resource | ✓ |  |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-shellwood--greyroot"></a>
 
@@ -6532,6 +7253,7 @@ No subroom connections defined.
 | 4 | rite of rebirth wish promised |  | complete rite of the pollip wish granted  AND have twisted bud |  | Verified | event |  |  |
 | 5 | rite of rebirth wish granted |  | complete rite of rebirth wish promised |  | Verified | event |  |  |
 | 6 | Crest Cursed |  | complete rite of rebirth wish granted |  | Verified | collectible |  |  |
+| 7 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-shellwood--greyroots-basement-tall-room"></a>
 
@@ -6576,6 +7298,12 @@ No subroom connections defined.
 | 5 | Shell Shard Cache: Shellwood #3 | Top | None |  | Verified | resource | ✓ |  |
 | 6 | Breakable Roof Diddy Basement | Top | Cling Grip |  | Verified | blockade |  |  |
 | 7 | Blast Rock Exit Blockade | Bottom | break blast rock right |  | Verified | blockade | ✓ |  |
+| 8 | Shellwood Goomba Flyer (1) 1 |  |  |  |  | enemy | ✓ |  |
+| 9 | Shellwood Goomba Flyer 1 |  |  |  |  | enemy | ✓ |  |
+| 10 | Aknid 1 |  |  |  |  | enemy | ✓ |  |
+| 11 | Aknid 2 |  |  |  |  | enemy | ✓ |  |
+| 12 | Shellwood Gnat 1 |  |  |  |  | enemy | ✓ |  |
+| 13 | Shellwood Gnat 2 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-shellwood--long-pin"></a>
 
@@ -6606,6 +7334,7 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Long pin |  | None |  | Verified | collectible | ✓ |  |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-shellwood--shellgrave"></a>
 
@@ -6636,6 +7365,7 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Rosary Cache |  | None |  | Verified | resource | ✓ | Not included no id |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-shellwood--shellwood-bellshrine"></a>
 
@@ -6669,6 +7399,7 @@ No subroom connections defined.
 | 1 | Bell: Shellwood |  | activate bellshrine switch |  | Verified | collectible | ✓ |  |
 | 2 | bench |  | activate bellshrine switch |  | Verified | bench |  |  |
 | 3 | bellshrine switch |  | flip switch down |  | Verified | switch |  |  |
+| 4 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-shellwood--shellwood-bellway"></a>
 
@@ -6708,6 +7439,7 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Shellwood Bellway | Right Puddle | Unlock Bellway Rosary Lock |  | Verified | travel |  |  |
 | 2 | Bellway Rosary Lock | Right Puddle | Spend 40 Rosaries |  | Verified | lock |  |  |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-shellwood--shellwood-big-room-left"></a>
 
@@ -6762,6 +7494,26 @@ No subroom connections defined.
 | 1 | Pollip Heart #6 | Platforms | Ledge Grab OR Silk Soar OR Faydown Cloak |  | Verified | collectible | ✓ |  |
 | 2 | Elevator Button | Ceiling area | None |  | Verified | switch |  |  |
 | 3 | Big Door Button | Ground Right | None |  | Verified | switch |  |  |
+| 4 | Shellwood Goomba Flyer (3) 1 |  |  |  |  | enemy | ✓ |  |
+| 5 | Shellwood Goomba Flyer 1 |  |  |  |  | enemy | ✓ |  |
+| 6 | Control 1 |  |  |  |  | enemy | ✓ |  |
+| 7 | Wood Wasp 1 |  |  |  |  | enemy | ✓ |  |
+| 8 | Wood Wasp 2 |  |  |  |  | enemy | ✓ |  |
+| 9 | Wood Wasp 3 |  |  |  |  | enemy | ✓ |  |
+| 10 | Wood Wasp 4 |  |  |  |  | enemy | ✓ |  |
+| 11 | Wood Wasp 5 |  |  |  |  | enemy | ✓ |  |
+| 12 | Pond Skipper 1 |  |  |  |  | enemy | ✓ |  |
+| 13 | Pond Skipper 2 |  |  |  |  | enemy | ✓ |  |
+| 14 | Pondcatcher 1 |  |  |  |  | enemy | ✓ |  |
+| 15 | Splinter 1 |  |  |  |  | enemy | ✓ |  |
+| 16 | Splinterhorn 1 |  |  |  |  | enemy | ✓ |  |
+| 17 | Void Mass 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 18 | Shellwood Gnat 1 |  |  |  |  | enemy | ✓ |  |
+| 19 | Shellwood Gnat 2 |  |  |  |  | enemy | ✓ |  |
+| 20 | Shellwood Gnat 3 |  |  |  |  | enemy | ✓ |  |
+| 21 | Shellwood Gnat 4 |  |  |  |  | enemy | ✓ |  |
+| 22 | Wood Wasp 6 |  |  |  |  | enemy | ✓ |  |
+| 23 | Wood Wasp 7 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-shellwood--shellwood-connection-to-blasted-steps"></a>
 
@@ -6791,7 +7543,9 @@ No subroom connections defined.
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-shellwood--shellwood-diddy-basement-main"></a>
 
@@ -6836,6 +7590,7 @@ No check locations defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Rosary String: Shellwood #2 | Left Puddles | Cling Grip OR Silk Soar OR ( Faydown Cloak AND Easy Shaman Crest pogo ) OR ( Dash AND Scuttlebrace ) |  | Verified | collectible | ✓ |  |
 | 2 | Relic: Weaver effigy (Keelal, Shellwood) | Right Corridor | Cling Grip AND Swim AND ( Clawline OR Faydown Cloak OR Drifters Cloak OR Sharpdart OR Easy Beast Crest pogo OR Sprint OR Dash ) |  | Verified | collectible | ✓ |  |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-shellwood--shellwood-flower-pogo-upper-hall"></a>
 
@@ -6868,6 +7623,7 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Pollip Heart #3 |  | None |  | Verified | collectible | ✓ |  |
 | 2 | Seth Meeting Shellwood |  | after THE Seth Meeting Greymoor |  | Verified | event | ✓ |  |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-shellwood--shellwood-greyroot-entrance"></a>
 
@@ -6896,7 +7652,9 @@ No subroom connections defined.
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-shellwood--shellwood-hidden-bellhart-connection"></a>
 
@@ -6938,6 +7696,7 @@ No check locations defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Pollip Heart #2 | Pollip Spot | Faydown Cloak OR Drifters Cloak OR Dash OR Clawline OR Sharpdart OR easy Beast Crest pogo |  | Verified | collectible | ✓ |  |
 | 2 | Shellwood 15 Wall | Left Exit Area | Break Wall Left |  | Verified | blockade | ✓ |  |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-shellwood--shellwood-left-side-long-pond-room"></a>
 
@@ -6977,6 +7736,17 @@ No check locations defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Garmond and Zaza Act 3 Meeting Shellwood | Left Lake | Act 3 |  | Verified | event | ✓ |  |
+| 2 | Pond Skipper 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Pond Skipper 2 |  |  |  |  | enemy | ✓ |  |
+| 4 | Pond Skipper 3 |  |  |  |  | enemy | ✓ |  |
+| 5 | Pondcatcher 1 |  |  |  |  | enemy | ✓ |  |
+| 6 | Pondcatcher 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 7 | Void Mass 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 8 | Pilgrim Hornfly 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 9 | Pondcatcher 3 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 10 | Shellwood Gnat 1 |  |  |  |  | enemy | ✓ |  |
+| 11 | Shellwood Gnat 2 |  |  |  |  | enemy | ✓ |  |
+| 12 | Shellwood Gnat 3 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-shellwood--shellwood-lower-left-tall-room"></a>
 
@@ -7018,6 +7788,17 @@ No check locations defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Flea: Shellwood | Top | None |  | Verified | collectible |  |  |
+| 2 | Phacia 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Phacia 2 |  |  |  |  | enemy | ✓ |  |
+| 4 | Phacia 3 |  |  |  |  | enemy | ✓ |  |
+| 5 | Phacia 4 |  |  |  |  | enemy | ✓ |  |
+| 6 | Phacia 5 |  |  |  |  | enemy | ✓ |  |
+| 7 | Phacia 6 |  |  |  |  | enemy | ✓ |  |
+| 8 | Pollenica 1 |  |  |  |  | enemy | ✓ |  |
+| 9 | Pollenica 2 |  |  |  |  | enemy | ✓ |  |
+| 10 | Pollenica 3 |  |  |  |  | enemy | ✓ |  |
+| 11 | Pollenica 4 |  |  |  |  | enemy | ✓ |  |
+| 12 | Pollenica 5 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-shellwood--shellwood-lower-toll-bench"></a>
 
@@ -7080,6 +7861,7 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Mask Shard: Shellwood #12 |  | Ledge Grab OR Dash OR Clawline OR Faydown Cloak OR Drifters Cloak OR Easy Beast Crest pogo |  | Verified | collectible | ✓ |  |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-shellwood--shellwood-right-side-big-room"></a>
 
@@ -7132,6 +7914,38 @@ No subroom connections defined.
 | 4 | Shell shard Cache: Shellwood #5 | Right Platforms | None |  | Verified | resource | ✓ |  |
 | 5 | Shell shard Cache: Shellwood #6 | Right Platforms | None |  | Verified | resource | ✓ |  |
 | 6 | Longpin Nest | Right Platforms | None |  | Verified | blockade |  |  |
+| 7 | Control 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 8 | Wood Wasp 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 9 | Wood Wasp 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 10 | Wood Wasp 3 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 11 | Shellwood Goomba Flyer (2) 1 |  |  |  |  | enemy | ✓ |  |
+| 12 | Shellwood Goomba Flyer (1) 1 |  |  |  |  | enemy | ✓ |  |
+| 13 | Shellwood Goomba 1 |  |  |  |  | enemy | ✓ |  |
+| 14 | Pond Skipper 1 |  |  |  |  | enemy | ✓ |  |
+| 15 | Pond Skipper 2 |  |  |  |  | enemy | ✓ |  |
+| 16 | Shellwood Goomba (2) 1 |  |  |  |  | enemy | ✓ |  |
+| 17 | Pond Skipper 3 |  |  |  |  | enemy | ✓ |  |
+| 18 | Wood Wasp 4 |  |  |  |  | enemy | ✓ |  |
+| 19 | Wood Wasp 5 |  |  |  |  | enemy | ✓ |  |
+| 20 | Shellwood Goomba Flyer 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 21 | Pondcatcher 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 22 | Shellwood Goomba (6) 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 23 | Pondcatcher 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 24 | Pilgrim Hornfly 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 25 | Elder Pilgrim 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 26 | Pondcatcher 3 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 27 | Shellwood Goomba Flyer (4) 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 28 | Shellwood Gnat 1 |  |  |  |  | enemy | ✓ |  |
+| 29 | Shellwood Gnat 2 |  |  |  |  | enemy | ✓ |  |
+| 30 | Shellwood Gnat 3 |  |  |  |  | enemy | ✓ |  |
+| 31 | Shellwood Gnat 4 |  |  |  |  | enemy | ✓ |  |
+| 32 | Shellwood Gnat 5 |  |  |  |  | enemy | ✓ |  |
+| 33 | Shellwood Gnat 6 |  |  |  |  | enemy | ✓ |  |
+| 34 | Shellwood Gnat 7 |  |  |  |  | enemy | ✓ |  |
+| 35 | Wood Wasp 6 |  |  |  |  | enemy | ✓ |  |
+| 36 | Wood Wasp 7 |  |  |  |  | enemy | ✓ |  |
+| 37 | Shellwood Gnat 8 |  |  |  |  | enemy | ✓ |  |
+| 38 | Shellwood Gnat 9 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-shellwood--shellwood-sister-splinter-bench"></a>
 
@@ -7193,6 +8007,7 @@ No subroom connections defined.
 | 2 | Sister Splinter Toll Bench | Bench Toll | None |  | Verified | bench | ✓ |  |
 | 3 | Craw Summons | Bench Toll | Craw Summons Ready |  | Verified | collectible |  |  |
 | 4 | Shellwood Elevator Button 2 | Elevator Platform | None |  | Verified | switch |  |  |
+| 5 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-shellwood--shellwood-top-room"></a>
 
@@ -7244,6 +8059,7 @@ No subroom connections defined.
 | 2 | Rosary cache: Shellwood | Right Side | Cling Grip OR Silk Soar OR ( Scuttlebrace AND Dash ) |  | Verified | resource | ✓ |  |
 | 3 | Resting Site: Shellwood | Right Side | prereq THE A Vassal Lost Wish Promised |  | Verified | event | ✓ |  |
 | 4 | Shellwood 26 Wall | Upper Area | None |  | Verified | blockade |  |  |
+| 5 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-shellwood--shellwood-upper-bellhart-entrance"></a>
 
@@ -7291,6 +8107,7 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Shard Bundle: Shellwood | Upper Area | (Cling Grip AND Faydown Cloak ) OR Silk Soar OR ( Faydown Cloak AND Dash AND Scuttlebrace ) |  | Verified | collectible | ✓ |  |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-shellwood--sister-splinter"></a>
 
@@ -7329,6 +8146,7 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Boss: Sister Splinter | Arena Side | None |  | Verified | boss | ✓ |  |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-shellwood--witch-chapel"></a>
 
@@ -7357,7 +8175,9 @@ No subroom connections defined.
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-shellwood--shellwood-far-left-tall-room"></a>
 
@@ -7386,7 +8206,9 @@ No subroom connections defined.
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-shellwood--shellwood-shakra"></a>
 
@@ -7453,6 +8275,7 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | bellway rosary lock |  | none |  | Verified | lock |  |  |
 | 2 | Bellway: Bellhart |  | unlock bellway rosary lock |  | Verified | travel |  |  |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-bellhart--bellhart-hallway-to-shellwood"></a>
 
@@ -7568,6 +8391,7 @@ No subroom connections defined.
 | 15 | Lower Passage 2 Breakable  Wall To Exit | Lower Passage 2 | None |  | Verified | blockade | ✓ |  |
 | 16 | Wish: Silver Bells Started | Top Exit | None |  | Verified | event |  |  |
 | 17 | Wish: Silk And Soul Started | Top Exit | None |  | Verified | event |  |  |
+| 18 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-bellhart--bellhart-pinsmith"></a>
 
@@ -7602,6 +8426,7 @@ No subroom connections defined.
 | 3 | Progressive Needle Upgrade 3 |  | get 2 pale oils |  | Verified | collectible |  | cumulative requirement |
 | 4 | Progressive Needle Upgrade 4 |  | get 3 pale oils |  | Verified | collectible |  | cumulative requirement |
 | 5 | Pinmaster's Oil Wish Granted |  | complete THE Pinmaster's Oil Wish Promised AND get 1 pale oils |  | Verified | event |  | can be missed, but counts towards silk and soul regardless of completion after second needle upgrade |
+| 6 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-bellhart--bellhart-relic-shop"></a>
 
@@ -7646,6 +8471,7 @@ No subroom connections defined.
 | 13 | Hand in Rune Harp Weavenest Cindril |  | have Relic Rune Harp Weavenest Cindril |  | Verified | event |  |  |
 | 14 | Hand in Rune Harp High Halls |  | have Relic Rune Harp High Halls |  | Verified | event |  |  |
 | 15 | Hand in Arcane Egg |  | have Relic Arcane Egg |  | Verified | event |  |  |
+| 16 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 #### Notes
 
@@ -7807,6 +8633,13 @@ Relic slots are numbered for convenience but not for required reasons.
 | 8 | Silver Bell Spawn Location #5 | Upper Big room | None |  | Verified | collectible | ✓ |  |
 | 9 | Flea: Bellhart | Upper Big room | Silk Soar OR Cling Grip OR ( Dash AND Scuttlebrace ) OR ( Easy enemy pogo AND ( Faydown Cloak OR Drifters Cloak ) ) |  | Verified | collectible | ✓ |  |
 | 10 | Lower Left Bell Blockade | Lower Exits | Break Wall Left |  | Verified | blockade | ✓ | can also be broken from the right while falling into the void - hero, 9/30 |
+| 11 | Winged Furm 1 |  |  |  |  | enemy | ✓ |  |
+| 12 | Winged Furm 2 |  |  |  |  | enemy | ✓ |  |
+| 13 | Winged Furm 3 |  |  |  |  | enemy | ✓ |  |
+| 14 | Furm 1 |  |  |  |  | enemy | ✓ |  |
+| 15 | Furm 2 |  |  |  |  | enemy | ✓ |  |
+| 16 | Furm 3 |  |  |  |  | enemy | ✓ |  |
+| 17 | Furm 4 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-bellhart--widow-boss-fight"></a>
 
@@ -7860,6 +8693,7 @@ Relic slots are numbered for convenience but not for required reasons.
 | 4 | Bellshrine Lever | Arena | Defeat Boss Widow |  | Verified | switch | ✓ |  |
 | 5 | Bench | Arena | Activate Bellshrine Lever |  | Verified | bench | ✓ |  |
 | 6 | Trapdoor Lever | Trapdoor Switch Ledge | Flip Switch Down |  | Verified | switch | ✓ |  |
+| 7 | Spinner Boss 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
 
 <a name="room-bellhart--bellhome"></a>
 
@@ -7891,6 +8725,7 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | bench |  | none |  | Verified | bench |  |  |
 | 2 | act toggle |  | act 3 |  | Verified | bench |  | probably need to flag this as requiring act 3 |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Greymoor
 
@@ -7925,6 +8760,7 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | bellshrine switch |  | hit lever: right OR hit lever: left |  | Verified | switch | ✓ |  |
 | 2 | bell greymoor |  | activate bellshrine switch |  | Verified | collectible |  |  |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-greymoor--greymoor-craw-lake"></a>
 
@@ -8021,6 +8857,30 @@ No subroom connections defined.
 | 7 | Threefold Pin | right top craw nest | nothing |  | Verified | collectible | ✓ |  |
 | 8 | flea airlock | flea room | open airlock left OR open airlock right OR open airlock up |  | Verified | switch | ✓ |  |
 | 9 | spike room lever | upper craw nest | flip lever up OR flip lever left OR flip lever right |  | Verified | switch | ✓ |  |
+| 10 | Craw Juror 1 |  |  |  |  | enemy | ✓ |  |
+| 11 | Craw Juror 2 |  |  |  |  | enemy | ✓ |  |
+| 12 | Craw Juror 3 |  |  |  |  | enemy | ✓ |  |
+| 13 | Craw Juror 4 |  |  |  |  | enemy | ✓ |  |
+| 14 | Craw Juror 5 |  |  |  |  | enemy | ✓ |  |
+| 15 | Craw Juror 6 |  |  |  |  | enemy | ✓ |  |
+| 16 | Craw Juror 7 |  |  |  |  | enemy | ✓ |  |
+| 17 | Craw Juror 8 |  |  |  |  | enemy | ✓ |  |
+| 18 | Craw Juror 9 |  |  |  |  | enemy | ✓ |  |
+| 19 | Craw 1 |  |  |  |  | enemy | ✓ |  |
+| 20 | Craw 2 |  |  |  |  | enemy | ✓ |  |
+| 21 | Craw 3 |  |  |  |  | enemy | ✓ |  |
+| 22 | Craw 4 |  |  |  |  | enemy | ✓ |  |
+| 23 | Craw 5 |  |  |  |  | enemy | ✓ |  |
+| 24 | Craw 6 |  |  |  |  | enemy | ✓ |  |
+| 25 | Craw 7 |  |  |  |  | enemy | ✓ |  |
+| 26 | Craw 8 |  |  |  |  | enemy | ✓ |  |
+| 27 | Craw 9 |  |  |  |  | enemy | ✓ |  |
+| 28 | Tallcraw 1 |  |  |  |  | enemy | ✓ |  |
+| 29 | Tallcraw 2 |  |  |  |  | enemy | ✓ |  |
+| 30 | Tallcraw 3 |  |  |  |  | enemy | ✓ |  |
+| 31 | Squatcraw 1 |  |  |  |  | enemy | ✓ |  |
+| 32 | Squatcraw 2 |  |  |  |  | enemy | ✓ |  |
+| 33 | Mite 1 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-greymoor--greymoor-crow-court"></a>
 
@@ -8068,6 +8928,7 @@ No subroom connections defined.
 | 5 | Greymoor - Rosary Cache #37 | left shaft | cling grip OR (easy scuttlebrace AND (ledge grab OR faydown cloak OR clawline OR easy beast pogo)) |  | Verified | resource |  |  |
 | 6 | Crow bell | left shaft | cling grip OR (easy scuttlebrace AND (ledge grab OR faydown cloak OR clawline OR easy beast pogo)) |  | Verified | collectible |  |  |
 | 7 | wood wall | left shaft | break wall right OR break wall up |  | Verified | blockade |  |  |
+| 8 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-greymoor--greymoor-crow-nest"></a>
 
@@ -8119,6 +8980,7 @@ No subroom connections defined.
 | 7 | Greymoor - Rosary Cache #31 | crow lower nest | (faydown cloak AND (progressive swift step 1 OR sharpdart OR clawline)) OR ((ledge grab OR cling grip OR easy enemy pogo) AND drifters cloak AND (progressive swift step 2 OR sharpdart OR clawline)) OR prereq balloon lever |  | Verified | resource |  |  |
 | 8 | Greymoor - Rosary Cache #34 | crow arena | none |  | Verified | resource |  |  |
 | 9 | Craw Lake Gauntlet | crow arena | nothing |  | Verified | gauntlet |  |  |
+| 10 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-greymoor--greymoor-east-bellshrine-room"></a>
 
@@ -8200,6 +9062,7 @@ No subroom connections defined.
 | 5 | balloon switch | middle section right | flip lever up OR flip lever right OR flip lever left |  | Verified | switch | ✓ |  |
 | 6 | bridge lever | bridge right section | flip lever up OR flip lever right OR flip lever left |  | Verified | switch | ✓ |  |
 | 7 | Seth Meeting Greymoor | lower section right | defeat THE Boss: Shrine Guardian Seth AND (  have everbloom OR have encrusted heart OR have hunters heart OR have conjoined heart ) |  | Verified | event | ✓ | requirements per the wiki |
+| 8 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-greymoor--greymoor-eastern-tower"></a>
 
@@ -8258,6 +9121,18 @@ No subroom connections defined.
 | 5 | middle airstream | middle section | ((drifters cloak AND activate lower airstream) OR ledge grab OR cling grip OR silk soar OR faydown cloak) AND (hit lever right OR hit lever up OR hit lever left) |  | Verified | switch | ✓ |  |
 | 6 | upper airstream | upper airstream section | hit lever right OR hit lever down |  | Verified | switch | ✓ |  |
 | 7 | top airstream | tower top | (hit lever right OR hit lever up OR hit lever left) AND ((activate upper airstream AND drifters cloak) OR (proficient movement AND spike pogo)) |  | Verified | switch | ✓ |  |
+| 8 | Silk Snipper 1 |  |  |  |  | enemy | ✓ |  |
+| 9 | Fluttermite 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 10 | Fluttermite 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 11 | Dreg Catcher 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 12 | Dreg Catcher 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 13 | Thread Raker 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 14 | Dreg Catcher 3 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 15 | Dreg Catcher 4 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 16 | Roachcatcher 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 17 | Dreg Catcher 5 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 18 | Thread Raker 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 19 | Thread Raker 3 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 <a name="room-greymoor--greymoor-lower-halfway-home-path"></a>
 
@@ -8301,7 +9176,9 @@ No subroom connections defined.
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-greymoor--greymoor-weaver-shrine"></a>
 
@@ -8343,6 +9220,7 @@ No check locations defined.
 | 2 | Greymoor - Rosary Cache #26 | right section | none |  | Verified | resource | ✓ |  |
 | 3 | Greymoor - Rosary Cache #27 | right section | none |  | Verified | resource | ✓ |  |
 | 4 | wooden wall | right section | break wall left OR break wall up |  | Verified | blockade | ✓ |  |
+| 5 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-greymoor--greymoor-western-tower"></a>
 
@@ -8404,6 +9282,11 @@ No check locations defined.
 | 2 | Greymoor - Rosary Cache #10 | middle section | nothing |  | Verified | resource | ✓ |  |
 | 3 | top trapdoor | tower top section | break lever right OR break lever left OR break lever up |  | Verified | blockade | ✓ |  |
 | 4 | Mister Mushroom Meeting Greymoor | whisp thicket entrance | after THE Mister Mushroom Meeting Far Fields AND Needolin |  | Verified | event | ✓ |  |
+| 5 | Silk Snipper 1 |  |  |  |  | enemy | ✓ |  |
+| 6 | Silk Snipper 2 |  |  |  |  | enemy | ✓ |  |
+| 7 | Mite 1 |  |  |  |  | enemy | ✓ |  |
+| 8 | Mite 2 |  |  |  |  | enemy | ✓ |  |
+| 9 | Mite 3 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-greymoor--pimpillo-room"></a>
 
@@ -8473,6 +9356,8 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Greymoor - Frayed Rosary String #3 | upper shaft | nothing |  | Verified | resource | ✓ |  |
 | 2 | vine wall | upper shaft | break wall: up |  | Verified | blockade | ✓ | if not broken the vine wall bounces you back |
+| 3 | Furm 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Dreg Catcher 1 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-greymoor--greymoor-bellway"></a>
 
@@ -8545,6 +9430,7 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Relic: Bone Scroll (Greymoor) |  | swim |  | Verified | collectible | ✓ |  |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-greymoor--greymoor-chapel-of-the-reaper"></a>
 
@@ -8589,6 +9475,12 @@ No subroom connections defined.
 | 2 | Chapel of the Reaper Gauntlet | gauntlet room | nothing |  | Verified | gauntlet |  |  |
 | 3 | gauntlet airlock | entrance section | hit lever right OR hit lever left OR hit lever up |  | Verified | blockade |  |  |
 | 4 | tied platform | upper area | break vines left OR break vines up OR break vines right |  | Verified | blockade |  |  |
+| 5 | Silk Snipper 1 |  |  |  |  | enemy |  |  |
+| 6 | Dreg Catcher 1 |  |  |  |  | enemy |  |  |
+| 7 | Dreg Catcher 2 |  |  |  |  | enemy |  |  |
+| 8 | Thread Raker 1 |  |  |  |  | enemy |  |  |
+| 9 | Silk Snipper 2 |  |  |  |  | enemy |  |  |
+| 10 | Silk Snipper 3 |  |  |  |  | enemy |  |  |
 
 <a name="room-greymoor--greymoor-chapel-of-the-reaper-entrance"></a>
 
@@ -8668,6 +9560,7 @@ No check locations defined.
 | 1 | Greymoor - Frayed Rosary String #1 | middle section | nothing |  | Verified | resource | ✓ |  |
 | 2 | Greymoor - Rosary Cache #18 | upper section | silk soar OR faydown cloak OR hard enemy pogo OR ((medium enemy pogo OR ledge grab OR cling grip) AND (progressive swift step 1 OR sharpdart OR clawline OR drifters cloak)) |  | Verified | resource | ✓ |  |
 | 3 | crawlake door | craw lake middle entrance | flip lever up OR flip lever right OR flip lever left |  | Verified | switch | ✓ |  |
+| 4 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-greymoor--greymoor-entry-to-bellhart"></a>
 
@@ -8720,6 +9613,12 @@ No check locations defined.
 | 4 | Boss: Moorwing | Bottom Left Section | invalid |  | Verified | boss | ✓ | randomizer should always force moorwing at other spot for consitent logic - hero, 9/26 |
 | 5 | tied airstream | Top Section | break switch left OR break switch up OR break switch right |  | Verified | blockade | ✓ |  |
 | 6 | flea caravan move to blasted steps | Bottom Left Section | after THE flea caravan move to greymoor AND get 12 fleas AND defeat THE boss last judge |  | Verified | event |  | per the wiki |
+| 7 | Elder Pilgrim 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 8 | Winged Pilgrim 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 9 | Winged Pilgrim 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 10 | Pilgrim Hornfly 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 11 | Winged Pilgrim 3 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 12 | Elder Pilgrim 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 <a name="room-greymoor--greymoor-halfway-home"></a>
 
@@ -8835,6 +9734,20 @@ No subroom connections defined.
 | 3 | Greymoor - Orders | upper center room | none |  | Verified | lore | ✓ |  |
 | 4 | tower elevator | tower platform | none (pressure switch) |  | Verified | switch | ✓ |  |
 | 5 | hidden right wall | upper right section | break wall right OR break wall up |  | Verified | blockade | ✓ |  |
+| 6 | Craw 1 |  |  |  |  | enemy | ✓ |  |
+| 7 | Craw 2 |  |  |  |  | enemy | ✓ |  |
+| 8 | Craw 3 |  |  |  |  | enemy | ✓ |  |
+| 9 | Craw 4 |  |  |  |  | enemy | ✓ |  |
+| 10 | Craw 5 |  |  |  |  | enemy | ✓ |  |
+| 11 | Dreg Catcher 1 |  |  |  |  | enemy | ✓ |  |
+| 12 | Fluttermite 1 |  |  |  |  | enemy | ✓ |  |
+| 13 | Fluttermite 2 |  |  |  |  | enemy | ✓ |  |
+| 14 | Fluttermite 3 |  |  |  |  | enemy | ✓ |  |
+| 15 | Fluttermite 4 |  |  |  |  | enemy | ✓ |  |
+| 16 | Mite 1 |  |  |  |  | enemy | ✓ |  |
+| 17 | Fluttermite 5 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 18 | Fluttermite 6 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 19 | Dreg Catcher 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
 
 <a name="room-greymoor--greymoor-kraft-room"></a>
 
@@ -8891,7 +9804,9 @@ No subroom connections defined.
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Thread Raker 1 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-greymoor--greymoor-rat-tunnel"></a>
 
@@ -8962,6 +9877,16 @@ No check locations defined.
 | 7 | Greymoor - Rosary Cache #24 | Top Right Section (Bottom) | clear Breakable wooden Wall |  | Verified | resource | ✓ |  |
 | 8 | Greymoor - Rosary Cache #25 | Top Right Section (Bottom) | clear Breakable wooden Wall |  | Verified | resource | ✓ |  |
 | 9 | tied blockade | Top Left Shaft (Center) | break switch left OR break switch up OR break switch right |  | Verified | blockade | ✓ |  |
+| 10 | Mitemother 1 |  |  |  |  | enemy | ✓ |  |
+| 11 | Mitemother 2 |  |  |  |  | enemy | ✓ |  |
+| 12 | Mitemother 3 |  |  |  |  | enemy | ✓ |  |
+| 13 | Fluttermite 1 |  |  |  |  | enemy | ✓ |  |
+| 14 | Fluttermite 2 |  |  |  |  | enemy | ✓ |  |
+| 15 | Mite 1 |  |  |  |  | enemy | ✓ |  |
+| 16 | Mite 2 |  |  |  |  | enemy | ✓ |  |
+| 17 | Mite 3 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 18 | Fluttermite 3 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 19 | Void Mass 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 <a name="room-greymoor--greymoor-silver-shells-room"></a>
 
@@ -9004,6 +9929,7 @@ No check locations defined.
 | 4 | Greymoor - Shell Shard Cache #6 | hidden area | prereq wooden wall |  | Verified | resource | ✓ |  |
 | 5 | Greymoor - Shell Shard Cache #7 | hidden area | prereq wooden wall |  | Verified | resource | ✓ |  |
 | 6 | wooden wall | hidden area | break wall: left |  | Verified | blockade | ✓ |  |
+| 7 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-greymoor--greymoor-towers-patio"></a>
 
@@ -9064,6 +9990,18 @@ No check locations defined.
 | 6 | Wardenfly | lower section | ( act 1 AND act 2 ) AND defeat THE bell beast boss fight |  | Verified | enemy | ✓ | per the wiki |
 | 7 | Get Kidnapped | lower section | after wardenfly |  | Verified | event | ✓ |  |
 | 8 | Garmond and Zaza Act 3 Meeting Greymoor | lower section | Act 3 |  | Verified | event | ✓ |  |
+| 9 | Thread Raker 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 10 | Thread Raker 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 11 | Dreg Catcher 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 12 | Dreg Catcher 2 |  |  |  |  | enemy | ✓ |  |
+| 13 | Wardenfly 1 |  |  |  |  | enemy | ✓ |  |
+| 14 | Silk Snipper 1 |  |  |  |  | enemy | ✓ |  |
+| 15 | Fluttermite 1 |  |  |  |  | enemy | ✓ |  |
+| 16 | Fluttermite 2 |  |  |  |  | enemy | ✓ |  |
+| 17 | Fluttermite 3 |  |  |  |  | enemy | ✓ |  |
+| 18 | Fluttermite 4 |  |  |  |  | enemy | ✓ |  |
+| 19 | Fluttermite 5 |  |  |  |  | enemy | ✓ |  |
+| 20 | Fluttermite 6 |  | Normal World Spawn |  |  | enemy | ✓ |  |
 
 <a name="room-greymoor--greymoor-upper-halfway-home-path"></a>
 
@@ -9109,6 +10047,7 @@ No check locations defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Greymoor #2 - Shard Bundle: | check platform | none |  | Verified | resource | ✓ |  |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-greymoor--greymoor-upper-towers-path"></a>
 
@@ -9152,6 +10091,11 @@ No check locations defined.
 | 2 | Greymoor - Rosary Cache #16 | main section | none |  | Verified | resource | ✓ |  |
 | 3 | Greymoor - Rosary Cache #17 | main section | drifters cloak OR (silk soar AND (progressive swift step 2 OR sharpdart OR clawline OR faydown cloak OR hard enemy pogo)) |  | Verified | resource | ✓ |  |
 | 4 | airstream | airstream lever | hit lever right OR hit lever up |  | Verified | switch | ✓ |  |
+| 5 | Roachcatcher 1 |  |  |  |  | enemy | ✓ |  |
+| 6 | Fluttermite 1 |  |  |  |  | enemy | ✓ |  |
+| 7 | Fluttermite 2 |  |  |  |  | enemy | ✓ |  |
+| 8 | Mite 1 |  |  |  |  | enemy | ✓ |  |
+| 9 | Void Mass 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 <a name="room-greymoor--greymoor-west-bellshrine-room"></a>
 
@@ -9207,6 +10151,7 @@ No check locations defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Greymoor #1 - Rosary Cache | middle section left | none |  | Verified | resource | ✓ |  |
 | 2 | shrine entrance lever | middle section right | flip switch right OR flip switch up OR flip switch left |  | Verified | switch | ✓ |  |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-greymoor--greymoor-western-room"></a>
 
@@ -9264,6 +10209,17 @@ No check locations defined.
 | 3 | Greymoor - Rosary Cache #13 | upper section | silk soar OR faydown cloak OR clawline OR progressive swift step 1 OR sharpdart OR ledge grab OR cling grip OR easy beast pogo OR medium shaman pogo |  | Verified | resource | ✓ |  |
 | 4 | Greymoor - Rosary Dish | rosaries room | nothing |  | Verified | resource | ✓ |  |
 | 5 | tower entrance door | tower entrance | break lever right OR break lever left OR break lever up |  | Verified | blockade | ✓ |  |
+| 6 | Silk Snipper 1 |  |  |  |  | enemy | ✓ |  |
+| 7 | Mite 1 |  |  |  |  | enemy | ✓ |  |
+| 8 | Mite 2 |  |  |  |  | enemy | ✓ |  |
+| 9 | Fluttermite 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 10 | Dreg Catcher 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 11 | Silk Snipper 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 12 | Silk Snipper 3 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 13 | Fluttermite 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 14 | Silk Snipper 4 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 15 | Void Mass 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 16 | Roachcatcher 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 <a name="room-greymoor--greymoor-yarnaby-room"></a>
 
@@ -9327,6 +10283,32 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Halfway Home Gauntlet |  | silk soar OR cling grip OR (faydown cloak AND ledge grab) |  | Verified | gauntlet | ✓ | completing the gauntlet requires defeating all enemies stationed across the room |
 | 2 | vintage nectar |  | complete Halfway Home Gauntlet |  | Verified | event | ✓ |  |
+| 3 | Skarr Stalker 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Skarrlid 1 |  |  |  |  | enemy | ✓ |  |
+| 5 | Skarr Scout 1 |  |  |  |  | enemy | ✓ |  |
+| 6 | Spear Skarr 1 |  |  |  |  | enemy | ✓ |  |
+| 7 | Skarrwing 1 |  |  |  |  | enemy | ✓ |  |
+| 8 | Skarrlid 2 |  |  |  |  | enemy | ✓ |  |
+| 9 | Skarr Scout 2 |  |  |  |  | enemy | ✓ |  |
+| 10 | Skarrwing 2 |  |  |  |  | enemy | ✓ |  |
+| 11 | Skarrlid 3 |  |  |  |  | enemy | ✓ |  |
+| 12 | Skarrlid 4 |  |  |  |  | enemy | ✓ |  |
+| 13 | Skarr Stalker 2 |  |  |  |  | enemy | ✓ |  |
+| 14 | Mite 1 |  |  |  |  | enemy | ✓ |  |
+| 15 | Fluttermite 1 |  |  |  |  | enemy | ✓ |  |
+| 16 | Mite 2 |  |  |  |  | enemy | ✓ |  |
+| 17 | Mite 3 |  |  |  |  | enemy | ✓ |  |
+| 18 | Mite 4 |  |  |  |  | enemy | ✓ |  |
+| 19 | Fluttermite 2 |  |  |  |  | enemy | ✓ |  |
+| 20 | Fluttermite 3 |  |  |  |  | enemy | ✓ |  |
+| 21 | Skarr Stalker 3 |  |  |  |  | enemy | ✓ |  |
+| 22 | Spear Skarr 2 |  |  |  |  | enemy | ✓ |  |
+| 23 | Skarr Scout 3 |  |  |  |  | enemy | ✓ |  |
+| 24 | Skarrwing 3 |  |  |  |  | enemy | ✓ |  |
+| 25 | Skarrgard 1 |  |  |  |  | enemy | ✓ |  |
+| 26 | Skarrlid 5 |  |  |  |  | enemy | ✓ |  |
+| 27 | Skarrlid 6 |  |  |  |  | enemy | ✓ |  |
+| 28 | Skarr Stalker 4 |  |  |  |  | enemy | ✓ |  |
 
 ## Wisp Thicket
 
@@ -9359,6 +10341,7 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Mask Shard: Wisp Thicket |  | cling grip AND (clawline OR (faydown cloak AND spike pogo)) |  | Verified | collectible |  |  |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-wisp-thicket--wisp-thicket-shaft"></a>
 
@@ -9397,6 +10380,7 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Relic: Bone Scroll (Wisp Thicket) | Top | none |  |  | collectible |  |  |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-wisp-thicket--wisp-thicket-bench"></a>
 
@@ -9443,6 +10427,7 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Bench | Bench | none |  | Verified | bench |  |  |
 | 2 | Craw Summons | Bench | Craw Summons Ready |  | Verified | collectible |  |  |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-wisp-thicket--wisp-thicket-grounds"></a>
 
@@ -9475,6 +10460,7 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Rosary Necklace: Wisp Thicket |  | silk soar OR cling grip |  |  | collectible |  |  |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-wisp-thicket--father-of-the-flame"></a>
 
@@ -9506,6 +10492,7 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Wispfire Lantern |  | faydown cloak | TODO |  | collectible |  | You can defeat the boss naked... but maybe something is "recommended" |
 | 2 | Boss: Father of the Flame |  | faydown cloak | TODO |  | boss |  | You can defeat the boss naked... but maybe something is "recommended" |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-wisp-thicket--wisp-thicket-secret-path"></a>
 
@@ -9543,6 +10530,7 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Craftmetal: Wisp Thicket | Top | none |  |  | collectible |  |  |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-wisp-thicket--wisp-thicket-cave"></a>
 
@@ -9580,6 +10568,7 @@ No subroom connections defined.
 | 5 | Shell Shard Cache: Wisp Thicket #3 |  | dash OR faydown cloak OR clawline OR spike pogo OR drifter's cloak |  |  | collectible |  |  |
 | 6 | Shell Shard Cache: Wisp Thicket #4 |  | dash OR faydown cloak OR clawline OR spike pogo OR drifter's cloak |  |  | collectible |  |  |
 | 7 | Shell Shard Cache: Wisp Thicket #5 |  | dash OR faydown cloak OR clawline OR spike pogo OR drifter's cloak |  |  | collectible |  |  |
+| 8 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Verdania
 
@@ -9690,6 +10679,7 @@ No subroom connections defined.
 | 10 | Mort (Pilgrim's Rest) / Grindle (Act 3) - Tool Pouch | Upper Half | Act 3 |  | Verified | collectible | ✓ | IF NOT Acquired from Mort |
 | 11 | Mort (Pilgrim's Rest) / Grindle (Act 3) - Memory Locket | Upper Half | Act 3 |  | Verified | collectible | ✓ | IF NOT Acquired from Mort |
 | 12 | Lumble (Blasted Steps) / Grindle (Act 3) - Magnetite Dice | Upper Half | Act 3 |  | Verified | collectible | ✓ | IF NOT Acquired from Lumble |
+| 13 | Snitchfly 1 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-blasted-steps--blasted-steps-horizontal-room-with-two-sand-pits"></a>
 
@@ -9788,6 +10778,7 @@ No check locations defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Blasted Steps - Shellwood Entrance Sign | Before Map Edge (Middle) | Nothing |  | Verified | lore | ✓ |  |
+| 2 | Pharlid 1 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-blasted-steps--blasted-steps-mask-shard"></a>
 
@@ -9818,6 +10809,10 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Mask Shard: Blasted Steps |  | (Scuttlebrace AND Faydown) OR ( Proficient Movement AND Cling Grip AND Spike Pogo AND (Ledge Grab OR Easy Hazard Respawn)) |  | Verified | collectible | ✓ |  |
+| 2 | Pharlid 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Pharlid 2 |  |  |  |  | enemy | ✓ |  |
+| 4 | Pharlid 3 |  |  |  |  | enemy | ✓ |  |
+| 5 | Pharlid 4 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-blasted-steps--blasted-steps-shakra-room"></a>
 
@@ -9871,6 +10866,14 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Map Purchase: Blasted Steps | Bottom Third (Right) | (Progressive Swift Step 1 OR Faydown OR Clawline OR Flea Brew OR Sharpdart OR Easy Beast Crest Pogo) AND Act 1 |  | Verified | collectible | ✓ | This can be purchased at Bellhart if Shakra has moved. |
+| 2 | Judge 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Driznit 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Driznit 2 |  |  |  |  | enemy | ✓ |  |
+| 5 | Pilgrim Hiker 1 |  |  |  |  | enemy | ✓ |  |
+| 6 | Pharlid 1 |  |  |  |  | enemy | ✓ |  |
+| 7 | Winged Pilgrim Bellbearer 1 |  |  |  |  | enemy | ✓ |  |
+| 8 | Judge 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 9 | Void Mass 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 <a name="room-blasted-steps--blasted-steps-shell-beast-shard"></a>
 
@@ -9904,6 +10907,16 @@ No subroom connections defined.
 | 2 | Shell Shard Cache: Blasted Steps #4 |  | (Scuttlebrace AND Faydown) OR Cling Grip OR Silk Soar |  | Verified | collectible | ✓ |  |
 | 3 | Shell Shard Cache: Blasted Steps #5 |  | (Scuttlebrace AND Faydown) OR Cling Grip OR Silk Soar |  | Verified | collectible | ✓ |  |
 | 4 | Blasted Steps - Judge Nursery Record |  | Nothing |  | Verified | lore | ✓ |  |
+| 5 | Squirrm 1 |  |  |  |  | enemy | ✓ |  |
+| 6 | Squirrm 2 |  |  |  |  | enemy | ✓ |  |
+| 7 | Squirrm 3 |  |  |  |  | enemy | ✓ |  |
+| 8 | Squirrm 4 |  |  |  |  | enemy | ✓ |  |
+| 9 | Squirrm 5 |  |  |  |  | enemy | ✓ |  |
+| 10 | Squirrm 6 |  |  |  |  | enemy | ✓ |  |
+| 11 | Squirrm 7 |  |  |  |  | enemy | ✓ |  |
+| 12 | Squirrm 8 |  |  |  |  | enemy | ✓ |  |
+| 13 | Squirrm 9 |  |  |  |  | enemy | ✓ |  |
+| 14 | Squirrm 10 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-blasted-steps--blasted-steps-steel-soul"></a>
 
@@ -10056,6 +11069,17 @@ No subroom connections defined.
 | 4 | Shell Shard Cache: Blasted Steps #3 | Bottom Left | Nothing (Fall) |  | Verified | collectible | ✓ |  |
 | 5 | Top Right Pit Lever | Top Right Pit (Left) | Nothing |  | Verified | switch | ✓ |  |
 | 6 | Garmond and Zaza Act 3 Meeting Blasted Steps | Top Left | Act 3 |  |  | event | ✓ | Need to verify subroom |
+| 7 | Judge 1 |  |  |  |  | enemy | ✓ |  |
+| 8 | Judge 2 |  |  |  |  | enemy | ✓ |  |
+| 9 | Pilgrim Bellbearer 1 |  |  |  |  | enemy | ✓ |  |
+| 10 | Pharlid 1 |  |  |  |  | enemy | ✓ |  |
+| 11 | Pharlid 2 |  |  |  |  | enemy | ✓ |  |
+| 12 | Pilgrim Pouncer 1 |  |  |  |  | enemy | ✓ |  |
+| 13 | Pilgrim Groveller 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 14 | Pilgrim Pouncer 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 15 | Judge 3 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 16 | Pilgrim Hiker 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 17 | Pilgrim Hiker 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 <a name="room-blasted-steps--blasted-steps-wide-long-vertical"></a>
 
@@ -10127,6 +11151,16 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Frayed Rosary String: Blasted Steps | Pit | Nothing (Falling) |  | Verified | collectible | ✓ |  |
 | 2 | Top Third Lever | Top Third | (Ledge Grab AND (Cling Grip OR Scuttlebrace)) OR Faydown OR Silk Soar |  | Verified | switch | ✓ |  |
+| 3 | Driznit 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Driznit 2 |  |  |  |  | enemy | ✓ |  |
+| 5 | Driznit 3 |  |  |  |  | enemy | ✓ |  |
+| 6 | Pilgrim Hiker 1 |  |  |  |  | enemy | ✓ |  |
+| 7 | Pharlid 1 |  |  |  |  | enemy | ✓ |  |
+| 8 | Pharlid 2 |  |  |  |  | enemy | ✓ |  |
+| 9 | Pharlid 3 |  |  |  |  | enemy | ✓ |  |
+| 10 | Pharlid 4 |  |  |  |  | enemy | ✓ |  |
+| 11 | Driznit 4 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 12 | Driznit 5 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 <a name="room-blasted-steps--great-conchflies"></a>
 
@@ -10167,6 +11201,13 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Boss: Great Conchflies | Great Conchflies | Nothing |  | Verified | boss | ✓ |  |
+| 2 | Driznit 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Coral Conch Driller Giant 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 4 | Coral Conch Driller Giant 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 5 | Driznit 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 6 | Void Mass 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 7 | Driznarga 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 8 | Driznit 3 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 <a name="room-blasted-steps--horizontal-room-with-sand-pit"></a>
 
@@ -10235,6 +11276,7 @@ No subroom connections defined.
 | 1 | Boss: Last Judge |  | prereq Five Bellshrines Rung AND (Progressive Swift Step 2 OR Faydown) |  | Verified | boss | ✓ | Combat Requirements |
 | 2 | Five Bellshrines Rung |  | get 5 bellshrines activated |  | Verified | event | ✓ |  |
 | 3 | flea caravan move to fleatopia |  | after THE flea caravan move to blasted steps AND get 22 fleas AND after THE reached pale lake |  | Verified | event |  |  |
+| 4 | Last Judge 1 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-blasted-steps--lumble-the-lucky"></a>
 
@@ -10269,6 +11311,10 @@ No subroom connections defined.
 | 3 | Lost Garmond Boss Fight |  | complete THE Hero's Call Wish Promised |  | Verified | boss |  |  |
 | 4 | Hero's Call Wish Granted |  | defeat Lost Garmond Boss Fight |  | Verified | event |  |  |
 | 5 | Hero's Memento |  | defeat Lost Garmond Boss Fight |  | Verified | collectible |  |  |
+| 6 | Lost Garmond 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 7 | Elder Pilgrim 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 8 | Winged Pilgrim 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 9 | Pilgrim Hiker 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 <a name="room-blasted-steps--windy-pinstress-room"></a>
 
@@ -10361,6 +11407,13 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Craftmetal: Blasted Steps | Descent | Faydown OR Clawline OR Drifter's Cloak OR Sharpdart OR Medium Shaman Pogo OR (Progressive Swift Step 1 AND Ledge Grab) |  | Verified | collectible | ✓ |  |
 | 2 | Spiky Blockade | Top (Entrance) | Break Wall Left |  | Verified | blockade | ✓ |  |
+| 3 | Judge 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Driznit 1 |  |  |  |  | enemy | ✓ |  |
+| 5 | Driznit 2 |  |  |  |  | enemy | ✓ |  |
+| 6 | Judge 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 7 | Void Mass 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 8 | Pilgrim Hiker 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 9 | Winged Pilgrim 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 <a name="room-blasted-steps--windy-pinstress-entrance"></a>
 
@@ -10434,6 +11487,7 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Grand Bridge Plate |  | Nothing |  | Verified | switch | ✓ |  |
 | 2 | Seth Meeting Grand Gate |  | after THE Seth Meeting Shellwood |  | Verified | event | ✓ | skipped per the wiki if: - ecstasy of the end wish granted - have everbloom |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-grand-gate--grand-gate-maintenance-room"></a>
 
@@ -10465,6 +11519,7 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | metal wall |  | break wall left OR break wall up OR clear metal bars IN grand gate courtroom |  | Verified | blockade | ✓ |  |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-grand-gate--grand-gate-courtroom"></a>
 
@@ -10505,6 +11560,7 @@ No subroom connections defined.
 | 1 | Spool Fragment: Grand Gate | upper section | silk soar OR ((cling grip OR scuttlebrace) AND (faydown cloak OR ledge grab)) |  | Verified | collectible | ✓ |  |
 | 2 | Map Purchase: Grand Gate | lower section | None |  | Verified | collectible | ✓ |  |
 | 3 | metal bars | upper section | break wall right OR break wall up OR clear metal wall IN grand gate maintenance room |  | Verified | blockade | ✓ |  |
+| 4 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 #### Notes
 
@@ -10544,7 +11600,9 @@ the syntax assumes upswing is not randomized otherwise, must make upswing requir
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-grand-gate--entrance-to-nyleth"></a>
 
@@ -10589,6 +11647,12 @@ No check locations defined.
 | 2 | Breakable Vines - Exit Hall | Exit | None |  | Verified | blockade | ✓ |  |
 | 3 | Breakable Chain - Entrance | Entrance | Silk Soar OR ( Faydown Cloak OR Cling Grip ) |  | Verified | blockade | ✓ |  |
 | 4 | Vined Up door | Entrance | None |  | Verified | blockade |  |  |
+| 5 | Phacia 1 |  |  |  |  | enemy | ✓ |  |
+| 6 | Phacia 2 |  |  |  |  | enemy | ✓ |  |
+| 7 | Phacia 3 |  |  |  |  | enemy | ✓ |  |
+| 8 | Phacia 4 |  |  |  |  | enemy | ✓ |  |
+| 9 | Pollenica 1 |  |  |  |  | enemy | ✓ |  |
+| 10 | Void Mass 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 <a name="room-grand-gate--shrine-guardian-seth"></a>
 
@@ -10620,6 +11684,7 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Boss: Shrine Guardian Seth |  | None |  | Verified | boss | ✓ |  |
+| 2 | Seth 1 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-grand-gate--nyleth-shrine"></a>
 
@@ -10682,6 +11747,8 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Boss: Nyleth |  | None |  | Verified | boss |  |  |
 | 2 | Pollen Heart |  | None |  | Verified | collectible |  |  |
+| 3 | Nyleth 1 |  |  |  |  | enemy |  |  |
+| 4 | NPC 1 |  |  |  |  | enemy |  |  |
 
 ## Sinner's Road
 
@@ -10758,6 +11825,12 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Boss: Disgraced Chef Lugoli | upper | none |  | Verified | boss | ✓ |  |
 | 2 | Sinner's Road Chef's Kitchen Door Switch | lower | hit switch up OR hit switch left |  | Verified | switch | ✓ |  |
+| 3 | Roachserver 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Roachserver 2 |  |  |  |  | enemy | ✓ |  |
+| 5 | Disgraced Chef Lugoli 1 |  |  |  |  | enemy | ✓ |  |
+| 6 | Roachserver 3 |  |  |  |  | enemy | ✓ |  |
+| 7 | Roachserver 4 |  |  |  |  | enemy | ✓ |  |
+| 8 | Roachserver 5 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-sinner-s-road--sinner-s-road-entrance"></a>
 
@@ -10789,6 +11862,15 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Frayed Rosary String: Sinner's Road |  | break wall left |  | Verified | collectible | ✓ |  |
+| 2 | Muckroach 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Muckroach 2 |  |  |  |  | enemy | ✓ |  |
+| 4 | Muckroach 3 |  |  |  |  | enemy | ✓ |  |
+| 5 | Roachfeeder 1 |  |  |  |  | enemy | ✓ |  |
+| 6 | Muckroach 4 |  |  |  |  | enemy | ✓ |  |
+| 7 | Muckroach 5 |  |  |  |  | enemy | ✓ |  |
+| 8 | Muckroach 6 |  |  |  |  | enemy | ✓ |  |
+| 9 | Muckroach 7 |  |  |  |  | enemy | ✓ |  |
+| 10 | Muckroach 8 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-sinner-s-road--sinner-s-road-flea-rescue"></a>
 
@@ -10819,6 +11901,7 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Flea: Sinner's Road |  | break wall left |  | Verified | collectible |  |  |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-sinner-s-road--sinner-s-road-hanging-cages"></a>
 
@@ -10887,6 +11970,16 @@ No subroom connections defined.
 | 2 | Shell Shard Cache: Sinner’s Road #4 | shard ledge | none |  | Verified | collectible |  |  |
 | 3 | Shell Shard Cache: Sinner’s Road #5 | shard ledge | none |  | Verified | collectible |  |  |
 | 4 | Upper Entry Switch | upper entry | hit switch left OR hit switch up |  | Verified | switch |  |  |
+| 5 | Roachfeeder 1 |  |  |  |  | enemy | ✓ |  |
+| 6 | Roachcatcher 1 |  |  |  |  | enemy | ✓ |  |
+| 7 | Roachcatcher 2 |  |  |  |  | enemy | ✓ |  |
+| 8 | Roachfeeder 2 |  |  |  |  | enemy | ✓ |  |
+| 9 | Roachcatcher 3 |  |  |  |  | enemy | ✓ |  |
+| 10 | Roachcatcher 4 |  |  |  |  | enemy | ✓ |  |
+| 11 | Roachcatcher 5 |  |  |  |  | enemy | ✓ |  |
+| 12 | Roachfeeder 3 |  |  |  |  | enemy | ✓ |  |
+| 13 | Mite 1 |  |  |  |  | enemy | ✓ |  |
+| 14 | Mite 2 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-sinner-s-road--sinner-s-road-mist-maze-completed"></a>
 
@@ -10957,6 +12050,29 @@ No check locations defined.
 | 2 | Shell Shard Cache: Sinner’s Road #2 | left half | Silk soar OR ledge grab OR cling grip OR faydown cloak |  | Verified | collectible |  |  |
 | 3 | Shell Shard Cache: Sinner’s Road #3 | left half | Silk soar OR ledge grab OR cling grip OR faydown cloak |  | Verified | collectible |  |  |
 | 4 | Rosary Cache: Sinner’s Road #4 | left half | Ledge grab OR silk soar OR faydown cloak OR scuttlebrace |  | Verified | collectible |  |  |
+| 5 | Roachcatcher 1 |  |  |  |  | enemy | ✓ |  |
+| 6 | Muckroach 1 |  |  |  |  | enemy | ✓ |  |
+| 7 | Roachcatcher 2 |  |  |  |  | enemy | ✓ |  |
+| 8 | Muckroach 2 |  |  |  |  | enemy | ✓ |  |
+| 9 | Roachcatcher 3 |  |  |  |  | enemy | ✓ |  |
+| 10 | Muckroach 3 |  |  |  |  | enemy | ✓ |  |
+| 11 | Muckroach 4 |  |  |  |  | enemy | ✓ |  |
+| 12 | Roachfeeder 1 |  |  |  |  | enemy | ✓ |  |
+| 13 | Roachfeeder 2 |  |  |  |  | enemy | ✓ |  |
+| 14 | Muckroach 5 |  |  |  |  | enemy | ✓ |  |
+| 15 | Muckroach 6 |  |  |  |  | enemy | ✓ |  |
+| 16 | Muckroach 7 |  |  |  |  | enemy | ✓ |  |
+| 17 | Muckroach 8 |  |  |  |  | enemy | ✓ |  |
+| 18 | Muckroach 9 |  |  |  |  | enemy | ✓ |  |
+| 19 | Muckroach 10 |  |  |  |  | enemy | ✓ |  |
+| 20 | Roachfeeder 3 |  |  |  |  | enemy | ✓ |  |
+| 21 | Roachfeeder 4 |  |  |  |  | enemy | ✓ |  |
+| 22 | Muckroach 11 |  |  |  |  | enemy | ✓ |  |
+| 23 | Muckroach 12 |  |  |  |  | enemy | ✓ |  |
+| 24 | Muckroach 13 |  |  |  |  | enemy | ✓ |  |
+| 25 | Mite 1 |  |  |  |  | enemy | ✓ |  |
+| 26 | Mite 2 |  |  |  |  | enemy | ✓ |  |
+| 27 | Void Mass 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 <a name="room-sinner-s-road--sinner-s-road-north-hall"></a>
 
@@ -11013,6 +12129,13 @@ No check locations defined.
 | 3 | Sinner's Road - Rosary Chest | chest plat | none |  | Verified | collectible | ✓ |  |
 | 4 | Garmond and Zaza Act 3 Meeting Sinner's Road | right door platform | Act 3 |  | Verified | event | ✓ |  |
 | 5 | North Hall Door Switch | right door platform | hit switch up OR hit switch right OR hit switch left |  | Verified | switch | ✓ |  |
+| 6 | Roachkeeper 1 |  |  |  |  | enemy | ✓ |  |
+| 7 | Roachkeeper 2 |  |  |  |  | enemy | ✓ |  |
+| 8 | Roachkeeper 3 |  |  |  |  | enemy | ✓ |  |
+| 9 | Muckroach 1 |  |  |  |  | enemy | ✓ |  |
+| 10 | Muckroach 2 |  |  |  |  | enemy | ✓ |  |
+| 11 | Muckroach 3 |  |  |  |  | enemy | ✓ |  |
+| 12 | Muckroach 4 |  | Normal World Spawn |  |  | enemy | ✓ |  |
 
 <a name="room-sinner-s-road--sinner-s-road-spike-basement"></a>
 
@@ -11092,6 +12215,14 @@ No check locations defined.
 | 2 | Styx Room Lower Breakable Wall | cage | break wall right |  | Verified | blockade |  |  |
 | 3 | Styx Grew First Grub | left | steel soul off |  | Verified | logic-point | ✓ |  |
 | 4 | Craw Summons | left | Craw Summons Ready |  | Verified | collectible |  |  |
+| 5 | Muckroach 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 6 | Muckroach 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 7 | Void Mass 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 8 | Void Mass 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 9 | Muckroach 3 |  |  |  |  | enemy | ✓ |  |
+| 10 | Roachfeeder 1 |  |  |  |  | enemy | ✓ |  |
+| 11 | Muckroach 4 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 12 | Muckroach 5 |  | Normal World Spawn |  |  | enemy | ✓ |  |
 
 <a name="room-sinner-s-road--sinner-s-road-vertical-hall-east"></a>
 
@@ -11152,6 +12283,12 @@ No check locations defined.
 | 3 | Rosary Cache: Sinner’s Road #7 | mid cage | none |  | Verified | collectible | ✓ |  |
 | 4 | Shard Bundle: Sinner’s Road | bilewater door | none |  | Verified | collectible | ✓ |  |
 | 5 | Simple Key: Roachkeeper | upper | Cling grip AND (dash OR drifter’s cloak OR clawline OR sharpdart) |  | Verified | collectible | ✓ |  |
+| 6 | Roachkeeper 1 |  |  |  |  | enemy | ✓ |  |
+| 7 | Roachfeeder 1 |  |  |  |  | enemy | ✓ |  |
+| 8 | Roachfeeder 2 |  |  |  |  | enemy | ✓ |  |
+| 9 | Mite 1 |  |  |  |  | enemy | ✓ |  |
+| 10 | Mite 2 |  |  |  |  | enemy | ✓ |  |
+| 11 | Mite 3 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-sinner-s-road--sinner-s-road-vertical-hall-west"></a>
 
@@ -11207,6 +12344,12 @@ No check locations defined.
 | 1 | Rosary Cache: Sinner’s Road #1 | lower | swim AND (Ledge grab OR cling grip OR faydown cloak) |  | Verified | collectible |  |  |
 | 2 | Rosary Cache: Sinner’s Road #2 | upper right | none |  | Verified | collectible |  |  |
 | 3 | Rosary Cache: Sinner’s Road #3 | upper right | none |  | Verified | collectible |  |  |
+| 4 | Roachcatcher 1 |  |  |  |  | enemy | ✓ |  |
+| 5 | Mite 1 |  |  |  |  | enemy | ✓ |  |
+| 6 | Roachfeeder 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 7 | Roachfeeder 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 8 | Roachfeeder 3 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 9 | Roachfeeder 4 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 <a name="room-sinner-s-road--sinner-s-road-shack"></a>
 
@@ -11286,6 +12429,7 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Underworks Elevator Door Switch | Elevator Shaft | Flip Switch Left |  | Verified | switch | ✓ |  |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 #### Notes
 
@@ -11321,6 +12465,7 @@ No subroom connections defined.
 | 2 | Underworks Chapel Silkeater Wall |  | Break Wall Up |  | Verified | blockade |  |  |
 | 3 | Underworks: Needolin Lore |  | Needolin. |  | Verified | lore |  |  |
 | 4 | Architect's Crest |  | Nothing. |  | Verified | collectible |  |  |
+| 5 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-underworks--underworks-below-vaultkeeper"></a>
 
@@ -11371,6 +12516,7 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Underworks: Needolin Lore #1 | Needolin Check | Needolin |  | Verified | lore | ✓ |  |
 | 2 | Underworks: Shell Shard Cache #1 | Shell Shard Check | Nothing. |  | Verified | collectible | ✓ |  |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-underworks--underworks-clawline-entrance"></a>
 
@@ -11409,7 +12555,9 @@ No subroom connections defined.
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-underworks--underworks-clawline-room"></a>
 
@@ -11464,6 +12612,7 @@ No check locations defined.
 | 2 | Underworks: Shard Bundle #2 | Shard Bundle Check | Nothing. |  | Verified | collectible | ✓ |  |
 | 3 | Clawline Ring | Arena | Clawline |  | Verified | switch | ✓ |  |
 | 4 | Underworks Clawline Gauntlet | Arena | Activate Clawline Ring |  | Verified | gauntlet | ✓ |  |
+| 5 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 #### Notes
 
@@ -11504,6 +12653,7 @@ Left and right sides of this room are not connected.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Underworks: Craftmetal #1 | Fuckass Jump Left | Nothing. |  | Verified | collectible | ✓ |  |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-underworks--underworks-east-shaft"></a>
 
@@ -11571,6 +12721,7 @@ Left and right sides of this room are not connected.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Underworks East Bridge Switch | Mid Right Entrance | Flip Switch Left |  | Verified | switch |  |  |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-underworks--underworks-eastern-gauntlet"></a>
 
@@ -11613,6 +12764,7 @@ Left and right sides of this room are not connected.
 | 1 | Gauntlet Exit Lever | Arena | Clear Underworks Corridor Gauntlet |  | Verified | switch | ✓ |  |
 | 2 | Underworks: Silk Spool #2 | Arena | Nothing. |  | Verified | collectible | ✓ |  |
 | 3 | Underworks Corridor Gauntlet | Arena | Nothing. |  | Verified | collectible | ✓ |  |
+| 4 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-underworks--underworks-exhaust-organ-transit"></a>
 
@@ -11679,6 +12831,7 @@ Left and right sides of this room are not connected.
 | 6 | Underworks: Shell Shard Rock #1 | Shell Shard Cache #1 | Nothing. |  | Verified | collectible | ✓ |  |
 | 7 | Underworks Spool Room Upper Floor | Center | Break Wall Up |  | Verified | blockade | ✓ |  |
 | 8 | Underworks Exhaust Organ Lever | Exhaust Organ Elevator | Flip Switch Left |  | Verified | switch | ✓ |  |
+| 9 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-underworks--underworks-flea-room"></a>
 
@@ -11715,6 +12868,7 @@ Left and right sides of this room are not connected.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Underworks: Flea #1 | Flea | Nothing. |  | Verified | collectible | ✓ |  |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-underworks--underworks-lava-flow-corridor"></a>
 
@@ -11749,7 +12903,9 @@ Left and right sides of this room are not connected.
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-underworks--underworks-lever-spike-corridor"></a>
 
@@ -11795,6 +12951,7 @@ No check locations defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Shaft Shortcut Lever | Lever Shaft | Nothing. |  | Verified | switch | ✓ |  |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-underworks--underworks-rosary-room"></a>
 
@@ -11831,6 +12988,7 @@ No check locations defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Underworks: Frayed Rosary Necklace #1 | Rosary Necklace | Nothing. |  | Verified | collectible | ✓ |  |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-underworks--underworks-silk-spool"></a>
 
@@ -11887,6 +13045,7 @@ No check locations defined.
 | 6 | Underworks: Shell Shard Cache #3 | Shell Shard Alcove #1 | Nothing. |  | Verified | collectible | ✓ |  |
 | 7 | Underworks: Silk Spool Fragment #1 | Silk Spool | Nothing. |  | Verified | collectible | ✓ |  |
 | 8 | Underworks Silk Spool Wall | Silk Spool | Break Wall Left |  | Verified | blockade | ✓ |  |
+| 9 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-underworks--underworks-twelfth-architect"></a>
 
@@ -11959,6 +13118,7 @@ No check locations defined.
 | 9 | Twelfth Architect: Crafting Kit | First Floor | Nothing. |  | Verified | collectible | ✓ |  |
 | 10 | Twelfth Architect: Architect's Key | First Floor | Get 25 Tools |  | Verified | collectible | ✓ |  |
 | 11 | Twelfth Architect Pristine Core | First Floor | Have Architect's Melody AND Unlock Twelfth Architect: Cogwork Wheel  AND Unlock Twelfth Architect: Sawtooth Circlet  AND Unlock Twelfth Architect: Scuttlebrace  AND Unlock Twelfth Architect: Crafting Kit  AND Unlock Twelfth Architect: Architect's Key |  | Verified | collectible | ✓ | is this really nothing? - hero, 9/25 uhhhhh, no. i am have stupid and wrote that on autopilot - rebel, 10/2 |
+| 12 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-underworks--underworks-ventrica"></a>
 
@@ -11991,6 +13151,7 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Underworks: Ventrica Rosary Lock |  | Spend 80 Rosaries |  | Verified | lock | ✓ |  |
 | 2 | Underworks: Ventrica |  | unlock Underworks: Ventrica Rosary Lock |  | Verified | travel | ✓ |  |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-underworks--broken-elevator"></a>
 
@@ -12022,6 +13183,7 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Elevator Bench Lever |  | Flip Switch Right |  | Verified | switch | ✓ |  |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-underworks--confession-toll"></a>
 
@@ -12075,6 +13237,7 @@ No subroom connections defined.
 | 3 | Relic: Psalm Cylinder (Underworks) | Psalm Cylinder | Nothing |  | Verified | collectible | ✓ |  |
 | 4 | Whiteward Side Breakable Wall | Whiteward Entrance | Break Wall Left |  | Verified | blockade | ✓ |  |
 | 5 | Whiteward Side Scaffold Wall | Whiteward Entrance | Break Wall Left |  | Verified | blockade | ✓ |  |
+| 6 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-underworks--underworks-below-confession"></a>
 
@@ -12113,7 +13276,9 @@ No subroom connections defined.
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-underworks--underworks-map-room"></a>
 
@@ -12152,6 +13317,7 @@ No check locations defined.
 | 1 | Map Pickup: Underworks | Map | none |  | Verified | collectible | ✓ |  |
 | 2 | Relic: Bone Scroll (Underworks) | Bone Scroll | none |  | Verified | collectible | ✓ |  |
 | 3 | Map Wall | Map | Break Wall Left |  | Verified | blockade | ✓ |  |
+| 4 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-underworks--underworks-outside-choral-chambers"></a>
 
@@ -12199,6 +13365,7 @@ No check locations defined.
 | 3 | Shell Shard Cache: Underworks #14 | Main | cling grip AND (dash OR clawline OR sharpdart) |  | Verified | collectible | ✓ |  |
 | 4 | Frayed Rosary String: Underworks #1 | Frayed String | cling grip |  | Verified | collectible | ✓ |  |
 | 5 | Fuckass Room Wall | Main | Break Wall Right |  | Verified | blockade | ✓ |  |
+| 6 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 #### Notes
 
@@ -12266,6 +13433,7 @@ floor connection that is seemingly not in game
 | 2 | Platform Fall Lever | Lever | Flip Switch Left |  | Verified | switch | ✓ |  |
 | 3 | Unneeded Lever | Bottom Lever | Flip Switch Left |  | Verified | switch | ✓ |  |
 | 4 | Underground Entrance Lever | Underground | Flip Switch Right |  | Verified | switch | ✓ |  |
+| 5 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-underworks--underworks-western-gauntlet"></a>
 
@@ -12310,6 +13478,7 @@ floor connection that is seemingly not in game
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Rosary Cache: Underworks #1 | Rosary | Nothing. |  | Verified | collectible | ✓ |  |
 | 2 | Steam Gauntlet | Arena | Nothing. |  | Verified | gauntlet | ✓ |  |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 #### Notes
 
@@ -12362,6 +13531,7 @@ potential ceiling entry apparently in the code? not implemented in the game thou
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Breakable Saw Floor | Wisp Thicket | Break Wall Left OR Break Wall Right |  | Verified | blockade | ✓ |  |
 | 2 | Wisp Thicket Connection Lever | Wisp Thicket | Flip Switch Left |  | Verified | switch | ✓ |  |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-underworks--underworks-crushing-path"></a>
 
@@ -12410,6 +13580,7 @@ potential ceiling entry apparently in the code? not implemented in the game thou
 | 2 | Snapping Floor | Top Left | Break Wall Down |  | Verified | blockade | ✓ |  |
 | 3 | Underworks: Shell Shard Cache #14 | Top Left | Ledge Grab OR Sprint OR Dash OR Faydown Cloak OR Drifter's Cloak OR Clawline OR Sharpdart OR Scuttlebrace |  | Verified | collectible | ✓ | is it 14? -platform falling makes it unobtainable itemless, this is fine since the only way to make the platform fall is to get to it. just marking for posterity |
 | 4 | Breakable Ceiling | Top Right | Break Wall Up |  | Verified | blockade | ✓ |  |
+| 5 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-underworks--underworks-delver-s-drill"></a>
 
@@ -12441,6 +13612,7 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Delver's Drill |  | none |  | Verified | collectible | ✓ |  |
 | 2 | Useless Breakable Wall |  | Break Wall Right |  | Verified | blockade | ✓ |  |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-underworks--underworks-gym"></a>
 
@@ -12474,7 +13646,9 @@ No subroom connections defined.
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-underworks--underworks-saw-intro"></a>
 
@@ -12515,6 +13689,7 @@ No check locations defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Shell Shard Cache: Underworks #12 | Bottom | none |  | Verified | collectible | ✓ |  |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-underworks--underworks-saw-shaft"></a>
 
@@ -12556,6 +13731,7 @@ No check locations defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Snapping Floor | Right Entry | Break Wall Down |  | Verified | blockade | ✓ |  |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-underworks--underworks-shard-room"></a>
 
@@ -12587,6 +13763,7 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Shard Bundle: Underworks #1 |  | Activate Shard Bundle Wall |  | Verified | collectible | ✓ |  |
 | 2 | Shard Bundle Wall |  | Break Wall Left OR Break Wall Up |  | Verified | blockade | ✓ |  |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-underworks--underworks-wisp-thicket-passage"></a>
 
@@ -12639,6 +13816,7 @@ No subroom connections defined.
 | 1 | Rosary Cache: Underworks #13 | Rosary String | Nothing |  | Verified | collectible | ✓ |  |
 | 2 | Flea: Underworks - Wisp Thicket Passage | Flea | nada |  | Verified | collectible | ✓ |  |
 | 3 | Hell Skip Lever | Underworks Entrance | Flip Switch Left OR Flip Switch Right |  | Verified | switch | ✓ |  |
+| 4 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Choral Chambers
 
@@ -12667,7 +13845,9 @@ No subroom connections defined.
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-choral-chambers--songclave-bellshrine"></a>
 
@@ -12697,6 +13877,7 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | bellshrine switch |  |  | TODO |  | switch | ✓ |  |
 | 2 | bench |  | activate bellshrine switch |  | Verified | bench |  |  |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-choral-chambers--songclave"></a>
 
@@ -12739,6 +13920,7 @@ No subroom connections defined.
 | 2 | Wish: Pain, Anguish and Misery | Base | Act 3 AND Defeat Trobbio IN Trobbio |  |  | event |  |  |
 | 3 | Meet the Caretaker | Base | activate bellshrine switch IN bellshrine-enclave |  | Verified | logic-point | ✓ |  |
 | 4 | Reach Songclave | Base | none |  | Verified | logic-point |  | Used for Savage Beastfly wish. |
+| 5 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-choral-chambers--choral-chambers-spa"></a>
 
@@ -12773,7 +13955,9 @@ No subroom connections defined.
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-choral-chambers--choral-chambers-outside-spa"></a>
 
@@ -12821,6 +14005,7 @@ No check locations defined.
 | 1 | Gauntlet Fight | Gauntlet | none |  |  | gauntlet |  |  |
 | 2 | Heavy Rosary Necklace: Choral Chambers | Base | cling grip OR silk soar |  |  | collectible |  | Secret hidden by breaking the ceiling |
 | 3 | Second Sentinel Encounter | Gauntlet | defeat Gauntlet Fight AND Act 2 AND complete THE Second Sentinel Activation |  |  | resource |  | only act 2 per the wiki |
+| 4 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-choral-chambers--choral-chambers-western-shaft"></a>
 
@@ -12874,7 +14059,9 @@ No check locations defined.
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-choral-chambers--choral-chambers-shop"></a>
 
@@ -12902,7 +14089,9 @@ No subroom connections defined.
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-choral-chambers--choral-chambers-cogheart-room"></a>
 
@@ -12933,6 +14122,7 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Choral Chambers Cogheart Piece |  | flip switch up OR flip switch down |  | Verified | collectible |  | memory puzzle |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-choral-chambers--choral-chambers-grindle"></a>
 
@@ -12960,7 +14150,9 @@ No subroom connections defined.
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-choral-chambers--choral-chambers-flea-room"></a>
 
@@ -12991,6 +14183,7 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Flea: Choral Chambers - Spa |  | none |  | Verified | collectible |  |  |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-choral-chambers--choral-chambers-above-spa"></a>
 
@@ -13019,7 +14212,9 @@ No subroom connections defined.
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-choral-chambers--choral-chambers-maintenance-tunnel"></a>
 
@@ -13059,6 +14254,7 @@ No check locations defined.
 | 1 | Rosary Cache: Choral Chambers #17 | Base | none |  |  | collectible |  |  |
 | 2 | Rosary Cache: Choral Chambers #18 | Base | none |  |  | collectible |  |  |
 | 3 | Rosary Cache: Choral Chambers #19 | Base | none |  |  | collectible |  |  |
+| 4 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-choral-chambers--choral-chambers-flea-shaft"></a>
 
@@ -13120,6 +14316,7 @@ No check locations defined.
 | 2 | Rosary Cache: Choral Chambers #14 | Base Upper | clawline OR faydown cloak OR (dash AND ledge grab) | TODO |  | collectible |  | check, probably better to split Base Upper into two zones since they can be gotten from BLT easier than from BLB |
 | 3 | Rosary Cache: Choral Chambers #15 | Base Upper | clawline OR faydown cloak OR (dash AND ledge grab) | TODO |  | collectible |  | check, probably better to split Base Upper into two zones since they can be gotten from BLT easier than from BLB |
 | 4 | Rosary Cache: Choral Chambers #16 | Base Upper | clawline OR faydown cloak OR (dash AND ledge grab) | TODO |  | collectible |  | check, probably better to split Base Upper into two zones since they can be gotten from BLT easier than from BLB |
+| 5 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-choral-chambers--high-halls-corridor"></a>
 
@@ -13150,7 +14347,9 @@ No subroom connections defined.
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-choral-chambers--corridor-to-high-halls"></a>
 
@@ -13179,7 +14378,9 @@ No subroom connections defined.
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-choral-chambers--choral-chambers-over-dininig"></a>
 
@@ -13223,6 +14424,7 @@ No check locations defined.
 | 2 | Rosary Cache: Choral Chambers #12 | Top | none |  |  | collectible |  | falling |
 | 3 | Rosary Cache: Choral Chambers #13 | Top | none |  |  | collectible |  | falling |
 | 4 | Mask Shard: Cogwork Core | Right Secret | none |  |  | collectible |  |  |
+| 5 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-choral-chambers--choral-chambers-dining-room"></a>
 
@@ -13260,6 +14462,7 @@ No check locations defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Silkeater: Choral Chambers East | Below Diner | ledge grab OR silk soar OR cling grip OR faydown cloak | TODO |  | collectible |  | Check |
 | 2 | Great Taste of Pharloom Wish Promised | Diner | Act 2 |  | Verified | event |  | wiki says "act 2" is the only prereq |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-choral-chambers--choral-chambers-eastern-shaft"></a>
 
@@ -13305,6 +14508,7 @@ No check locations defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Lace Second Encounter | Section 1 | none |  | Verified | event |  |  |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-choral-chambers--choral-chambers-merchant-room"></a>
 
@@ -13337,6 +14541,7 @@ No subroom connections defined.
 | 1 | Rosary Cache: Choral Chambers #10 |  | cling grip |  | Verified | collectible | ✓ |  |
 | 2 | The Wandering Merchant Wish Granted |  | complete THE The Wandering Merchant Wish Promised |  |  | event |  |  |
 | 3 | Second Sentinel Encounter |  | Act 3  AND complete THE Second Sentinel Activation AND complete The Wandering Merchant Wish Granted |  |  | event |  | per the wiki |
+| 4 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-choral-chambers--choral-chambers-below-dining"></a>
 
@@ -13371,7 +14576,9 @@ No subroom connections defined.
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-choral-chambers--choral-chambers-below-spa"></a>
 
@@ -13409,6 +14616,7 @@ No check locations defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Second Sentinel Encounter | Right | Act 3 AND  complete THE Second Sentinel Activation | TODO | Needs verification | event |  | Random. Need to verify it is on this side |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-choral-chambers--choral-chambers-above-ventrica"></a>
 
@@ -13443,7 +14651,9 @@ No check locations defined.
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-choral-chambers--choral-chambers-ventrica-room"></a>
 
@@ -13487,6 +14697,7 @@ No check locations defined.
 | 4 | Rosary Cache: Choral Chambers #7 | Ventrica | none |  |  | collectible |  |  |
 | 5 | Ventrica: Choral Chambers | Ventrica | Unlock Ventrica: Choral Chambers Rosary Lock |  |  | travel |  |  |
 | 6 | Ventrica: Choral Chambers Rosary Lock | Ventrica | spend 80 rosaries |  |  | lore |  |  |
+| 7 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-choral-chambers--choral-chambers-below-ventrica"></a>
 
@@ -13542,6 +14753,7 @@ No check locations defined.
 | 3 | Shell Shard Cache: Choral Chambers | Side Chamber | none |  |  | collectible |  |  |
 | 4 | Rosary Cache: Choral Chambers #1 | Window | none |  |  | collectible |  |  |
 | 5 | Rosary Cache: Choral Chambers #2 | Window | none |  |  | collectible |  |  |
+| 6 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-choral-chambers--choral-chambers-outisde-underworks"></a>
 
@@ -13570,7 +14782,9 @@ No subroom connections defined.
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-choral-chambers--songclave-tube"></a>
 
@@ -13603,6 +14817,7 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Ventrica: First Shrine Rosary Lock |  | Spend 80 rosaries |  | Verified | lock |  |  |
 | 2 | Ventrica: First Shrine |  | unlock Ventrica: First Shrine Rosary Lock |  | Verified | travel | ✓ |  |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-choral-chambers--memorium-entrance-tunnel"></a>
 
@@ -13644,6 +14859,7 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Memorium entrance vines | Base | (silk soar OR faydown cloak) AND break wall up |  | Verified | blockade |  | one way wall and also logic can be improved for more skips |
 | 2 | Second Sentinel Encounter | Base | complete THE Second Sentinel Activation |  | Verified | event |  |  |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-choral-chambers--rotating-tunnel"></a>
 
@@ -13685,7 +14901,9 @@ No subroom connections defined.
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-choral-chambers--songclave-silk-shop"></a>
 
@@ -13713,7 +14931,9 @@ No subroom connections defined.
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-choral-chambers--grand-bellway-shaft"></a>
 
@@ -13768,6 +14988,7 @@ No check locations defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Lace Second Encounter | Bottom Right | none |  | Verified | event |  |  |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-choral-chambers--grand-bellway-side-room"></a>
 
@@ -13799,6 +15020,7 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Silkeater: Choral Chambers West |  | spike pogo OR dash OR clawline OR faydown cloak OR sharpdart OR drifter's cloak OR cling grip |  | Verified | collectible |  |  |
 | 2 | Second Sentinel Encounter |  | Act 3  AND complete THE Second Sentinel Activation | TODO | Needs verification | event |  | need to verify this is the room the wiki is referring to |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-choral-chambers--grand-bellway"></a>
 
@@ -13881,6 +15103,7 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | door switch | Left Side | flip switch left |  | Verified | switch |  |  |
 | 2 | Second Sentinel Encounter | Right Side | complete THE Second Sentinel Activation | TODO | Needs verification | event |  | Random. Need to verify it is on this side |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 #### Notes
 
@@ -13976,6 +15199,7 @@ Boss needs only any crest to be beatable. The big line attack can be parried wit
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Cogwork Core: Architect's Melody | Melody Puzzle | Nothing (?) |  | Verified | event | ✓ | ??????????????????????? |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-cogwork-core--cogwork-core-architect-s-melody-act-3"></a>
 
@@ -14056,6 +15280,7 @@ No check locations defined.
 | 2 | Cogwork Core: Flip Switch #5 | Map | Nothing. |  | Verified | switch |  |  |
 | 3 | Cogwork Core: Map | Map | Activate Cogwork Core: Flip Switch #5 |  | Verified | collectible |  |  |
 | 4 | Cogwork Core: Bench | Bench | Activate Cogwork Core: Flip Switch #4 |  | Verified | bench |  |  |
+| 5 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-cogwork-core--cogwork-core-breakable-walls"></a>
 
@@ -14116,6 +15341,7 @@ No check locations defined.
 | 4 | Cogwork Core: Break Wall #6 | Breakable Wall Shaft | Break Wall Left OR Break Wall Right |  | Verified | blockade | ✓ |  |
 | 5 | Cogwork Core: Break Wall #7 | Breakable Wall Shaft | Break Wall Left OR Break Wall Right |  | Verified | blockade | ✓ |  |
 | 6 | Cogwork Core: Gauntlet #3 | Northern Gauntlet | Nothing |  | Verified | gauntlet |  |  |
+| 7 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-cogwork-core--cogwork-core-east-choral-entrance"></a>
 
@@ -14153,6 +15379,7 @@ No check locations defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Cogwork Core: Flip Switch #3 | Right Side | Flip Switch Up |  | Verified | switch | ✓ |  |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-cogwork-core--cogwork-core-east-silk-spool-gauntlet"></a>
 
@@ -14209,6 +15436,7 @@ No check locations defined.
 | 2 | Cogwork Core: Flip Switch #2 | Left Room | Nothing. |  | Verified | switch | ✓ | interacting with this switch causes a mini-boss type enemy to spawn |
 | 3 | Cogwork Core: Pristine Core | Arena | Complete Cogwork Core: Gauntlet #2 |  | Verified | collectible | ✓ |  |
 | 4 | Cogwork Core: Gauntlet #2 | Arena | Nothing. |  | Verified | gauntlet | ✓ |  |
+| 5 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-cogwork-core--cogwork-core-main-connection"></a>
 
@@ -14241,7 +15469,9 @@ No check locations defined.
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-cogwork-core--cogwork-core-north-main"></a>
 
@@ -14282,6 +15512,7 @@ No check locations defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Cogwork Core: Flip Switch #7 | Lever Door | Nothing. |  | Verified | switch | ✓ |  |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-cogwork-core--cogwork-core-second-sentinel"></a>
 
@@ -14324,6 +15555,7 @@ No check locations defined.
 | 2 | Cogwork Core: Break Wall #1 | Shard Bundle Check | Nothing. |  | Verified | blockade | ✓ |  |
 | 3 | Cogwork Core: Break Wall #2 | Shard Bundle Check | Nothing. |  | Verified | blockade | ✓ |  |
 | 4 | Second Sentinel Activation | Second Sentinel | (Break Wall Right AND Get 3 Cogheart Pieces) |  | Verified | event | ✓ |  |
+| 5 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-cogwork-core--cogwork-core-south-main"></a>
 
@@ -14390,6 +15622,16 @@ No check locations defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Cogwork Core: Flipped Switch #5 | Top Right Door | Nothing. |  | Verified | switch | ✓ |  |
 | 2 | Cogwork Core: Flipped Switch #4 | Shaft Shortcut | Flip Switch Left |  | Verified | switch | ✓ |  |
+| 3 | Cogwork Crawler 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Cogwork Crawler 2 |  |  |  |  | enemy | ✓ |  |
+| 5 | Cogwork Choirbug 1 |  |  |  |  | enemy | ✓ |  |
+| 6 | Cogwork Choirbug 2 |  |  |  |  | enemy | ✓ |  |
+| 7 | Cogwork Choirbug 3 |  |  |  |  | enemy | ✓ |  |
+| 8 | Cogwork Cleanser 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 9 | Cogwork Choirbug 4 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 10 | Cogwork Choirbug 5 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 11 | Cogwork Cleanser 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 12 | Void Mass 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 <a name="room-cogwork-core--cogwork-core-west-gauntlet"></a>
 
@@ -14432,6 +15674,7 @@ No check locations defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Cogwork Core: Gauntlet #1 | Arena | Nothing |  | Verified | gauntlet | ✓ |  |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Whispering Vaults
 
@@ -14477,6 +15720,7 @@ No check locations defined.
 | 2 | Sacred Cylinder | Left Side | Nothing. |  | Verified | collectible | ✓ |  |
 | 3 | Whispering Vaults: Flip Switch #1 | Right Side | Flip Switch Left |  | Verified | switch | ✓ |  |
 | 4 | Whispering Vaults: Needolin Lore #1 | Left Side | Needolin |  | Verified | event | ✓ |  |
+| 5 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-whispering-vaults--whispering-vaults-below-bench"></a>
 
@@ -14520,6 +15764,7 @@ No check locations defined.
 | 1 | AP Minor Cache - Whispering Vaults - Rosary Cache #4 | Rosary | Nothing. |  | Verified | resource | ✓ |  |
 | 2 | Whispering Vaults: Rosary Cache #3 | Rosary | Nothing. |  | Verified | resource | ✓ |  |
 | 3 | Whispering Vaults: Rosary Dish #2 | Rosary | Nothing. |  | Verified | resource | ✓ |  |
+| 4 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-whispering-vaults--whispering-vaults-bench"></a>
 
@@ -14568,6 +15813,7 @@ No check locations defined.
 | 3 | Whispering Vaults: Rosary Cache #2 | Loot | Nothing. |  | Verified | resource | ✓ |  |
 | 4 | Whispering Vaults: Psalm Cylinder #1 | Cylinder | Nothing. |  | Verified | collectible | ✓ |  |
 | 5 | Whispering Vaults: Breakable Floor | Bench | Break Wall Down |  | Verified | blockade |  | stand on it and it breaks |
+| 6 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-whispering-vaults--whispering-vaults-east-to-west"></a>
 
@@ -14614,6 +15860,7 @@ No check locations defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Whispering Vaults: Mask Shard #1 | Shard | Nothing. |  | Verified | collectible | ✓ |  |
 | 2 | Whispering Vaults: Flip Switch #3 | Bottom | Nothing. |  | Verified | switch | ✓ |  |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-whispering-vaults--whispering-vaults-flea-shaft"></a>
 
@@ -14664,6 +15911,7 @@ No check locations defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Whispering Vaults: Flea #1 | Flea Check | Silk Soar OR Scuttlebrace OR (Cling Grip AND (Clawline OR Sharpdart OR Drifter's Cloak OR Easy Beast Crest Pogo OR Easy Needle Strike Stall (Beast OR Architect) OR Cling Grip)) OR (Scuttlebrace AND (Faydown Cloak AND Swift Step 2)) |  | Verified | collectible | ✓ |  |
 | 2 | Whispering Vaults: Break Wall #4 | Bottom | Break Wall Left |  | Verified | blockade | ✓ |  |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-whispering-vaults--whispering-vaults-hell"></a>
 
@@ -14743,6 +15991,7 @@ No check locations defined.
 | 5 | Whispering Vaults: Break Wall #5 (Up) | Map Room | Nothing |  | Verified | blockade | ✓ |  |
 | 6 | Whispering Vaults: Rosary Dish #3 | Rosary Dish | Nothing |  | Verified | resource | ✓ |  |
 | 7 | Hell Room Box Shortcut thing. | Shortcut Box | Break Wall Right |  | Verified | logic-point | ✓ | not a proper check, for logic documentation only. |
+| 8 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-whispering-vaults--whispering-vaults-jumps"></a>
 
@@ -14803,6 +16052,7 @@ No check locations defined.
 | 1 | Whispering Vaults: Flip Switch #6 | Room With Stuff | Nothing. |  | Verified | switch | ✓ |  |
 | 2 | Whispering Vaults: Heavy Rosary Necklace #1 | Rosary Necklace | Nothing. |  | Verified | resource | ✓ |  |
 | 3 | Whispering Vaults: Psalm Cylinder #2 | Room With Stuff | Nothing. |  | Verified | collectible | ✓ |  |
+| 4 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-whispering-vaults--whispering-vaults-silkeater"></a>
 
@@ -14840,6 +16090,7 @@ No check locations defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Whispering Vaults: Break Wall #5 | The Room | Break Wall Right |  | Verified | blockade | ✓ |  |
 | 2 | Whispering Vaults: Silkeater #1 | Silkeater | Nothing. |  | Verified | collectible | ✓ |  |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 #### Notes
 
@@ -14900,6 +16151,7 @@ lol
 | 4 | Whispering Vaults: Break Wall #2 | Collectibles(TM) | Break Wall Right |  | Verified | blockade | ✓ |  |
 | 5 | Whispering Vaults: Break Wall #3 | Collectibles(TM) | Break Wall Right |  | Verified | blockade | ✓ |  |
 | 6 | Whispering Vaults: Flip Switch #2 | White Palace Lite | Flip Switch Left |  | Verified | switch | ✓ |  |
+| 7 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-whispering-vaults--whispering-vaults-vaultborn-lever"></a>
 
@@ -14930,6 +16182,7 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Whispering Vaults: Flip Switch #5 |  | Flip Switch Left |  | Verified | switch | ✓ |  |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-whispering-vaults--grand-bellway-library"></a>
 
@@ -14969,6 +16222,7 @@ No subroom connections defined.
 | 1 | Whispering Vaults: Pale Oil | Oil Room | Activate Whispering Vaults: Flip Switch #11 |  | Verified | collectible | ✓ |  |
 | 2 | Whispering Vaults: Flip Switch #11 | Oil Room | Nothing. |  | Verified | switch | ✓ |  |
 | 3 | Whispering Vaults: Flip Switch #10 | Oil Room | Activate Whispering Vaults: Flip Switch #11 |  | Verified | switch | ✓ |  |
+| 4 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-whispering-vaults--songclave-steam-tunnel"></a>
 
@@ -15021,6 +16275,7 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Whispering Vaults: Arena #1 | Arena | Nothing. |  | Verified | gauntlet | ✓ |  |
 | 2 | Logic Box | Bottom Right | Attack Right OR Attack Left |  | Verified | logic-point | ✓ | < add predicate |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 #### Notes
 
@@ -15082,6 +16337,7 @@ No connection from Top to the rest of the subrooms.
 | 7 | Tormented Trobbio | Fight | complete THE Pain, Anguish and Misery Wish Promised AND defeat Trobbio AND Act 3 |  | Verified | boss | ✓ |  |
 | 8 | Pain, Anguish and Misery Wish Granted | Fight | Defeat Tormented Trobbio |  | Verified | event | ✓ |  |
 | 9 | Progressive Claw Mirror 2 | Fight | Defeat Tormented Trobbio |  | Verified | collectible | ✓ |  |
+| 10 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-whispering-vaults--trobbio-entrance"></a>
 
@@ -15122,6 +16378,7 @@ No connection from Top to the rest of the subrooms.
 | 2 | Collectable Item Pickup - Quill Purple | Not The Jump. | Nothing. |  | Verified | collectible | ✓ | Missable (Exclusive with other Quills) |
 | 3 | Whispering Vaults: Lore #2 | Not The Jump. | Nothing. |  | Verified | lore | ✓ |  |
 | 4 | Whispering Vaults: Lore #3 | Not The Jump. | Nothing. |  | Verified | lore | ✓ |  |
+| 5 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-whispering-vaults--whispering-vaults-music-box"></a>
 
@@ -15152,6 +16409,7 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Whispering Vaults: Cogheart Piece |  | Flip Switch Down OR Flip Switch UP |  | Verified | collectible | ✓ | (Aka Nothing.) |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Whiteward
 
@@ -15249,6 +16507,14 @@ No subroom connections defined.
 | 1 | Balm for the Wounded Gauntlet |  | Nothing |  | Verified | gauntlet |  | Completion for the wish. |
 | 2 | Balm for the Wounded Wish Granted |  | Defeat Balm for the Wounded Gauntlet |  | Verified | event |  |  |
 | 3 | Balm for the Wounded - Spool Fragment |  | Complete Balm for the Wounded Wish Granted |  | Verified | collectible |  | Completion for the wish. |
+| 4 | Surgeon 1 |  |  |  |  | enemy |  |  |
+| 5 | Surgeon 2 |  |  |  |  | enemy |  |  |
+| 6 | Surgeon 3 |  |  |  |  | enemy |  |  |
+| 7 | Mortician 1 |  |  |  |  | enemy |  |  |
+| 8 | Mortician 2 |  |  |  |  | enemy |  |  |
+| 9 | Surgeon 4 |  |  |  |  | enemy |  |  |
+| 10 | Surgeon 5 |  |  |  |  | enemy |  |  |
+| 11 | Surgeon 6 |  |  |  |  | enemy |  |  |
 
 <a name="room-whiteward--whiteward-descent-connection"></a>
 
@@ -15309,6 +16575,10 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Injector Band | Middle (Left) | Nothing |  | Verified | collectible | ✓ |  |
+| 2 | Surgeon 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Mortician 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Mortician 2 |  |  |  |  | enemy | ✓ |  |
+| 5 | Mortician 3 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-whiteward--whiteward-descent"></a>
 
@@ -15350,6 +16620,7 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Whiteward - Rosary Cache #1 | Descent Rosary Side | Nothing |  | Verified | collectible | ✓ |  |
 | 2 | Whiteward - Rosary Cache #2 | Descent Rosary Side | Nothing |  | Verified | collectible | ✓ |  |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-whiteward--whiteward-junk-dump"></a>
 
@@ -15381,6 +16652,7 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Whiteward - Oath |  | Nothing |  | Verified | lore | ✓ |  |
 | 2 | Surgeon's Key |  | Clawline |  | Verified | collectible | ✓ |  |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-whiteward--whiteward-long-horizontal"></a>
 
@@ -15490,6 +16762,10 @@ No subroom connections defined.
 | 1 | The Unravelled - Silk Heart | Unravelled Arena | Defeat Boss: The Unravelled |  | Verified | collectible | ✓ |  |
 | 2 | The Unravelled Gauntlet | Unravelled Arena | Nothing |  | Verified | gauntlet | ✓ |  |
 | 3 | Boss: The Unravelled | Unravelled Arena | Defeat The Unravelled Gauntlet |  | Verified | boss | ✓ |  |
+| 4 | Dreg Husk 1 |  |  |  |  | enemy | ✓ |  |
+| 5 | Dregwheel 1 |  |  |  |  | enemy | ✓ |  |
+| 6 | Dreg Husk 2 |  |  |  |  | enemy | ✓ |  |
+| 7 | Dregwheel 2 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-whiteward--whiteward-tunnel-room"></a>
 
@@ -15535,6 +16811,9 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Relic: Choral Commandment (Western Whiteward) | Pickup Section | Nothing |  | Verified | collectible | ✓ |  |
+| 2 | Dreg Husk 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Dreg Husk 2 |  |  |  |  | enemy | ✓ |  |
+| 4 | Drapefly 1 |  |  |  |  | enemy | ✓ |  |
 
 ## High Halls
 
@@ -15585,6 +16864,7 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Second Sentinel Encounter | center platform | act 3 AND complete THE second sentinel activation | TODO | Needs verification | event |  | need to verify this is the correct platform |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-high-halls--high-halls-shaft-top"></a>
 
@@ -15615,6 +16895,7 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | High Halls - Spool Fragment |  | silk soar OR (clawline AND faydown cloak AND cling grip) |  | Verified | collectible | ✓ |  |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-high-halls--high-halls-shaft-bottom"></a>
 
@@ -15662,7 +16943,11 @@ No subroom connections defined.
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Minister 1 |  |  |  |  | enemy | ✓ |  |
+| 2 | Minister 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 3 | Void Mass 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 <a name="room-high-halls--high-halls-small-room"></a>
 
@@ -15693,6 +16978,7 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | High Halls - Shell Shard Cache #2 |  | none |  | Verified | collectible |  |  |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-high-halls--high-halls-big-slide"></a>
 
@@ -15721,7 +17007,9 @@ No subroom connections defined.
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-high-halls--high-halls-big-shaft"></a>
 
@@ -15778,6 +17066,7 @@ No check locations defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | High Halls - Rosary Cache | Penthouse | none |  | Verified | collectible | ✓ |  |
 | 2 | Resting Site: High Halls | Resting Site Ledge | complete THE A Vassal Lost Wish Promised |  | Verified | event | ✓ |  |
+| 3 | Minister 1 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-high-halls--high-halls-flooded-room"></a>
 
@@ -15819,6 +17108,9 @@ No check locations defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | relic psalm cylinder high halls | relic spot | none |  | Verified | collectible | ✓ |  |
 | 2 | left exit blockade | left exit area | break wall left |  | Verified | blockade |  |  |
+| 3 | Drapefly 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Drapefly 2 |  |  |  |  | enemy | ✓ |  |
+| 5 | Giant Drapemite 1 |  |  |  |  | enemy | ✓ |  |
 
 #### Notes
 
@@ -15860,6 +17152,7 @@ this room needs swimming requirements added to cross it - at least two subrooms
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Cogfly | main area | spend 1 craftmetals |  | Verified | collectible |  |  |
 | 2 | High Halls - Shell Shard Cache #1 | down the drain | none |  | Verified | collectible | ✓ |  |
+| 3 | Giant Drapemite 1 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-high-halls--high-halls-baby-room"></a>
 
@@ -15891,6 +17184,7 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Relic Psalm Cylinder (High Halls) |  | none |  | Verified | collectible | ✓ |  |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-high-halls--high-halls-vault"></a>
 
@@ -15922,7 +17216,9 @@ No subroom connections defined.
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-high-halls--high-halls-ventrica"></a>
 
@@ -15956,6 +17252,7 @@ No subroom connections defined.
 | 1 | High Halls - Map Purchase |  | spend 70 rosaries |  | Verified | collectible |  |  |
 | 2 | Ventrica High Halls Rosary Lock |  | spend 80 rosaries |  | Verified | lock |  |  |
 | 3 | Ventrica High Halls |  | unlock Ventrica High Halls Rosary Lock |  | Verified | travel |  |  |
+| 4 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-high-halls--high-halls-conductor"></a>
 
@@ -15986,6 +17283,7 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Conductors Melody |  | Act 2 |  | Verified | collectible |  |  |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-high-halls--high-halls-arena"></a>
 
@@ -16019,13 +17317,14 @@ No subroom connections defined.
 | RG | right gauntlet door | right of gauntlet | gauntlet arena | none (starts gauntlet) |  | Verified | ✓ |  |
 | RG | right gauntlet door | gauntlet arena | right of gauntlet | defeat gauntlet fight |  | Verified | ✓ |  |
 | LG | left gauntlet door | gauntlet arena | left of gauntlet | defeat gauntlet fight |  | Verified | ✓ |  |
-| LG | left gauntlet door | left of gauntlet | gauntlet arena | defeat gauntlet fight | TODO | Needs verification | ✓ | need to double check this for room rando |
+| LG | left gauntlet door | left of gauntlet | gauntlet arena | defeat gauntlet fight |  | Verified | ✓ |  |
 
 #### Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | gauntlet fight | gauntlet arena | none |  | Verified | gauntlet | ✓ |  |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-high-halls--high-halls-sentinel-graveyard"></a>
 
@@ -16056,6 +17355,7 @@ No subroom connections defined.
 | 1 | Second Sentinel Boss Fight |  | none | TODO | Verified | boss |  | normally would be `complete THE Final Audience Wish Promised` but team cherry did nothing to protect the boss fight from starting without the wish - not ideal for entrance rando, and might need to be patched |
 | 2 | Final Audience Wish Granted |  | complete THE Final Audience Wish Promised  AND defeat Second Sentinel Boss Fight |  | Verified | event |  | assuming this becomes impossible if the boss is defeated before the wish is accepted |
 | 3 | Reserve Bind |  | complete Final Audience Wish Granted |  | Verified | collectible | ✓ |  |
+| 4 | Song Knight 1 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-high-halls--high-halls-not-implemented-room"></a>
 
@@ -16083,7 +17383,9 @@ No subroom connections defined.
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 #### Notes
 
@@ -16188,6 +17490,9 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Bilewater Bullshit Bench Exit Wall | lower | break wall right |  | Verified | blockade | ✓ |  |
+| 2 | Mothleaf Lagnia 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Mothleaf Lagnia 2 |  |  |  |  | enemy | ✓ |  |
+| 4 | Mothleaf Lagnia 3 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-bilewater--bilewater-citadel-exit"></a>
 
@@ -16224,7 +17529,11 @@ No subroom connections defined.
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Mothleaf Lagnia 1 |  |  |  |  | enemy | ✓ |  |
+| 2 | Mothleaf Lagnia 2 |  |  |  |  | enemy | ✓ |  |
+| 3 | Mothleaf Lagnia 3 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-bilewater--bilewater-east-bench"></a>
 
@@ -16315,7 +17624,13 @@ No check locations defined.
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Swamp Squit 1 |  |  |  |  | enemy | ✓ |  |
+| 2 | Swamp Squit 2 |  |  |  |  | enemy | ✓ |  |
+| 3 | Swamp Squit 3 |  |  |  |  | enemy | ✓ |  |
+| 4 | Miremite 1 |  |  |  |  | enemy | ✓ |  |
+| 5 | Miremite 2 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-bilewater--bilewater-flea-rescue"></a>
 
@@ -16346,6 +17661,9 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Flea: Bilewater - Thieves |  | Scuttlebrace OR cling grip |  | Verified | collectible | ✓ |  |
+| 2 | Snitchfly 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Snitchfly 2 |  |  |  |  | enemy | ✓ |  |
+| 4 | Snitchfly 3 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-bilewater--bilewater-groal-arena"></a>
 
@@ -16388,6 +17706,23 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Boss: Groal the Great | arena | none |  | Verified | boss | ✓ | Technically none, lol. |
 | 2 | Bilewater - Bilehaven Plaque | right of arena | cling grip OR silk soar OR scuttlebrace |  | Verified | lore | ✓ |  |
+| 3 | Stilkin 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Stilkin 2 |  |  |  |  | enemy | ✓ |  |
+| 5 | Stilkin Trapper 1 |  |  |  |  | enemy | ✓ |  |
+| 6 | Stilkin Trapper 2 |  |  |  |  | enemy | ✓ |  |
+| 7 | Swamp Squit 1 |  |  |  |  | enemy | ✓ |  |
+| 8 | Swamp Squit 2 |  |  |  |  | enemy | ✓ |  |
+| 9 | Swamp Squit 3 |  |  |  |  | enemy | ✓ |  |
+| 10 | Stilkin Trapper 3 |  |  |  |  | enemy | ✓ |  |
+| 11 | Stilkin 3 |  |  |  |  | enemy | ✓ |  |
+| 12 | Groal the Great 1 |  |  |  |  | enemy | ✓ |  |
+| 13 | Stilkin Trapper 4 |  |  |  |  | enemy | ✓ |  |
+| 14 | Swamp Squit 4 |  |  |  |  | enemy | ✓ |  |
+| 15 | Swamp Squit 5 |  |  |  |  | enemy | ✓ |  |
+| 16 | Stilkin Trapper 5 |  |  |  |  | enemy | ✓ |  |
+| 17 | Stilkin Trapper 6 |  |  |  |  | enemy | ✓ |  |
+| 18 | Stilkin 4 |  |  |  |  | enemy | ✓ |  |
+| 19 | Stilkin 5 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-bilewater--bilewater-hanging-corpse-room"></a>
 
@@ -16422,7 +17757,11 @@ No subroom connections defined.
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Stilkin Trapper 1 |  |  |  |  | enemy | ✓ |  |
+| 2 | Miremite 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Miremite 2 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-bilewater--bilewater-lower-bloatroach-tower"></a>
 
@@ -16477,6 +17816,13 @@ No check locations defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Bilewater - Frayed Rosary String | rosary plat | none |  | Verified | collectible | ✓ |  |
+| 2 | Bloatroach 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Bloatroach 2 |  |  |  |  | enemy | ✓ |  |
+| 4 | Bloatroach 3 |  |  |  |  | enemy | ✓ |  |
+| 5 | Bloatroach 4 |  |  |  |  | enemy | ✓ |  |
+| 6 | Miremite 1 |  |  |  |  | enemy | ✓ |  |
+| 7 | Miremite 2 |  |  |  |  | enemy | ✓ |  |
+| 8 | Miremite 3 |  | Normal World Spawn |  |  | enemy | ✓ |  |
 
 <a name="room-bilewater--bilewater-lower-east-hall"></a>
 
@@ -16523,7 +17869,11 @@ No check locations defined.
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Stilkin 1 |  |  |  |  | enemy | ✓ |  |
+| 2 | Stilkin 2 |  |  |  |  | enemy | ✓ |  |
+| 3 | Stilkin 3 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-bilewater--bilewater-lower-east-hall-secret"></a>
 
@@ -16562,6 +17912,9 @@ No check locations defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Wardenfly | upper area | ( act 1 AND act 2 ) AND defeat THE Bell Beast Boss Fight AND (  after Lace Second Encounter IN Choral Chambers Eastern Shaft OR after Lace Second Encounter IN Grand Bellway Shaft ) |  | Verified | enemy | ✓ | per the wiki |
 | 2 | Get Kidnapped | upper area | after Wardenfly |  | Verified | logic-point | ✓ |  |
+| 3 | Wardenfly 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Stilkin 1 |  |  |  |  | enemy | ✓ |  |
+| 5 | Miremite 1 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-bilewater--bilewater-lower-trap-gauntlet-hall"></a>
 
@@ -16614,6 +17967,10 @@ No check locations defined.
 | 1 | Flea: Bilehaven | flea room | break vines left |  | Verified | collectible | ✓ |  |
 | 2 | Bilewater - Shell Shard Cache #1 | bottom | attack up AND swim |  | Verified | collectible | ✓ |  |
 | 3 | Bilewater - Shell Shard Cache #2 | bottom | attack up AND swim |  | Verified | collectible | ✓ |  |
+| 4 | Stilkin 1 |  |  |  |  | enemy | ✓ |  |
+| 5 | Stilkin 2 |  |  |  |  | enemy | ✓ |  |
+| 6 | Stilkin 3 |  |  |  |  | enemy | ✓ |  |
+| 7 | Stilkin 4 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-bilewater--bilewater-mothleaf-hall"></a>
 
@@ -16658,6 +18015,16 @@ No check locations defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Bilewater East - Memory Locket | right | none |  | Verified | collectible | ✓ |  |
 | 2 | Bilewater East - Breakable Wall | behind wall | prereq Bilewater East Bench Left Exit Wall IN Bilewater East Bench |  | Verified | blockade | ✓ |  |
+| 3 | Mothleaf Lagnia 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Mothleaf Lagnia 2 |  |  |  |  | enemy | ✓ |  |
+| 5 | Mothleaf Lagnia 3 |  |  |  |  | enemy | ✓ |  |
+| 6 | Mothleaf Lagnia 4 |  |  |  |  | enemy | ✓ |  |
+| 7 | Mothleaf Lagnia 5 |  |  |  |  | enemy | ✓ |  |
+| 8 | Mothleaf Lagnia 6 |  |  |  |  | enemy | ✓ |  |
+| 9 | Mothleaf Lagnia 7 |  |  |  |  | enemy | ✓ |  |
+| 10 | Mothleaf Lagnia 8 |  |  |  |  | enemy | ✓ |  |
+| 11 | Mothleaf Lagnia 9 |  |  |  |  | enemy | ✓ |  |
+| 12 | Mothleaf Lagnia 10 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-bilewater--bilewater-northeast-tiny-room"></a>
 
@@ -16690,6 +18057,9 @@ No subroom connections defined.
 | 1 | Bilewater - Shell Shard Cache #5 |  | silk soar OR faydown cloak OR (ledge grab AND (sharpdart OR clawline)) OR (cling grip AND easy beast pogo) |  | Verified | resource | ✓ |  |
 | 2 | Bilewater - Shell Shard Cache #6 |  | silk soar OR faydown cloak OR (ledge grab AND (sharpdart OR clawline)) OR (cling grip AND easy beast pogo) |  | Verified | resource | ✓ |  |
 | 3 | Bilewater - Shell Shard Cache #7 |  | silk soar OR faydown cloak OR (ledge grab AND (sharpdart OR clawline)) OR (cling grip AND easy beast pogo) |  | Verified | resource | ✓ |  |
+| 4 | Mothleaf Lagnia 1 |  |  |  |  | enemy | ✓ |  |
+| 5 | Mothleaf Lagnia 2 |  |  |  |  | enemy | ✓ |  |
+| 6 | Mothleaf Lagnia 3 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-bilewater--bilewater-organ-entrance"></a>
 
@@ -16732,7 +18102,12 @@ No subroom connections defined.
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Swamp Squit 1 |  |  |  |  | enemy | ✓ |  |
+| 2 | Swamp Squit 2 |  |  |  |  | enemy | ✓ |  |
+| 3 | Miremite 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Miremite 2 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-bilewater--bilewater-shakra-room"></a>
 
@@ -16763,6 +18138,7 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Bilewater - Map Purchase |  | none |  | Verified | collectible | ✓ |  |
+| 2 | Covetous Pilgrim 1 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-bilewater--bilewater-sinner-s-entrance"></a>
 
@@ -16809,6 +18185,12 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Bilewater - Rosary Cache #1 | left rosary platform | none |  | Verified | collectible | ✓ |  |
 | 2 | Bilewater - Rosary Cache #2 | middle quarter | (Faydown cloak AND (ledge grab OR scuttlebrace)) OR silk soar OR cling grip |  | Verified | collectible | ✓ |  |
+| 3 | Swamp Squit 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Swamp Squit 2 |  |  |  |  | enemy | ✓ |  |
+| 5 | Swamp Squit 3 |  |  |  |  | enemy | ✓ |  |
+| 6 | Miremite 1 |  |  |  |  | enemy | ✓ |  |
+| 7 | Miremite 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 8 | Void Mass 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 <a name="room-bilewater--bilewater-slubberlug-river"></a>
 
@@ -16839,6 +18221,19 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Bilewater - Mask Shard |  | cling grip AND (clawline OR (sharpdart AND (faydown cloaK OR enemy pogo)) OR (faydown cloak AND drifter's cloak)) |  | Verified | collectible | ✓ |  |
+| 2 | Slubberlug 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Slubberlug 2 |  |  |  |  | enemy | ✓ |  |
+| 4 | Slubberlug 3 |  |  |  |  | enemy | ✓ |  |
+| 5 | Slubberlug 4 |  |  |  |  | enemy | ✓ |  |
+| 6 | Slubberlug 5 |  |  |  |  | enemy | ✓ |  |
+| 7 | Slubberlug 6 |  |  |  |  | enemy | ✓ |  |
+| 8 | Slubberlug 7 |  |  |  |  | enemy | ✓ |  |
+| 9 | Slubberlug 8 |  |  |  |  | enemy | ✓ |  |
+| 10 | Slubberlug 9 |  |  |  |  | enemy | ✓ |  |
+| 11 | Slubberlug 10 |  |  |  |  | enemy | ✓ |  |
+| 12 | Swamp Squit 1 |  |  |  |  | enemy | ✓ |  |
+| 13 | Swamp Squit 2 |  |  |  |  | enemy | ✓ |  |
+| 14 | Swamp Squit 3 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-bilewater--bilewater-spike-ball-ceiling-trap-room"></a>
 
@@ -16878,6 +18273,11 @@ No subroom connections defined.
 | 1 | Bilewater - Shell Shard Cache #3 | lower | none |  | Verified | collectible | ✓ |  |
 | 2 | Bilewater - Shell Shard Cache #4 | lower | none |  | Verified | collectible | ✓ |  |
 | 3 | Quick Sling | upper | (cling grip OR silk soar) AND attack up |  | Verified | collectible | ✓ | up attack for breakable wall |
+| 4 | Mothleaf Lagnia 1 |  |  |  |  | enemy | ✓ |  |
+| 5 | Mothleaf Lagnia 2 |  |  |  |  | enemy | ✓ |  |
+| 6 | Swamp Squit 1 |  |  |  |  | enemy | ✓ |  |
+| 7 | Swamp Squit 2 |  |  |  |  | enemy | ✓ |  |
+| 8 | Miremite 1 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-bilewater--bilewater-upper-bloatroach-tower"></a>
 
@@ -16937,6 +18337,10 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | collapsible bridge | upper right | attack left |  | Verified | blockade | ✓ |  |
+| 2 | Bloatroach 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Bloatroach 2 |  |  |  |  | enemy | ✓ |  |
+| 4 | Bloatroach 3 |  |  |  |  | enemy | ✓ |  |
+| 5 | Bloatroach 4 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-bilewater--bilewater-upper-east-column"></a>
 
@@ -16979,7 +18383,14 @@ No subroom connections defined.
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Mothleaf Lagnia 1 |  |  |  |  | enemy | ✓ |  |
+| 2 | Mothleaf Lagnia 2 |  |  |  |  | enemy | ✓ |  |
+| 3 | Mothleaf Lagnia 3 |  |  |  |  | enemy | ✓ |  |
+| 4 | Mothleaf Lagnia 4 |  |  |  |  | enemy | ✓ |  |
+| 5 | Mothleaf Lagnia 5 |  |  |  |  | enemy | ✓ |  |
+| 6 | Miremite 1 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-bilewater--bilewater-upper-trap-gauntlet-hall"></a>
 
@@ -17008,7 +18419,15 @@ No subroom connections defined.
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Stilkin 1 |  |  |  |  | enemy | ✓ |  |
+| 2 | Stilkin 2 |  |  |  |  | enemy | ✓ |  |
+| 3 | Stilkin Trapper 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Stilkin Trapper 2 |  |  |  |  | enemy | ✓ |  |
+| 5 | Swamp Squit 1 |  |  |  |  | enemy | ✓ |  |
+| 6 | Swamp Squit 2 |  |  |  |  | enemy | ✓ |  |
+| 7 | Miremite 1 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-bilewater--bilewater-upper-west-column"></a>
 
@@ -17046,6 +18465,9 @@ No check locations defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Bilewater - Rosary Cache #3 | upper | Cling grip AND (faydown cloak OR enemy pogo) |  | Verified | resource | ✓ |  |
+| 2 | Mothleaf Lagnia 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Mothleaf Lagnia 2 |  |  |  |  | enemy | ✓ |  |
+| 4 | Mothleaf Lagnia 3 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-bilewater--bilewater-vertical-sac-pogo-room"></a>
 
@@ -17101,6 +18523,10 @@ No check locations defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Bilewater - Rosary Cache #4 | upper platform | none |  | Verified | resource | ✓ |  |
 | 2 | Bilewater - Rosary Cache #5 | upper platform | none |  | Verified | resource | ✓ |  |
+| 3 | Stilkin Trapper 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Swamp Squit 1 |  |  |  |  | enemy | ✓ |  |
+| 5 | Swamp Squit 2 |  |  |  |  | enemy | ✓ |  |
+| 6 | Swamp Squit 3 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-bilewater--bilewater-waterfall"></a>
 
@@ -17169,6 +18595,9 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Ruined Tool |  | (cling grip OR silk soar) AND (swim OR clawline OR drifter's cloak) |  | Verified | collectible | ✓ |  |
 | 2 | Bilewater - Weaver Workshop Scroll |  | (cling grip OR silk soar) AND (swim OR clawline OR drifter's cloak) AND attack right |  | Verified | lore | ✓ | breakable wall |
+| 3 | Servitor Ignim 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Weaver Servitor Broken 1 |  |  |  |  | enemy | ✓ |  |
+| 5 | Servitor Ignim 2 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-bilewater--bilewater-west-hall"></a>
 
@@ -17203,7 +18632,14 @@ No subroom connections defined.
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Swamp Squit 1 |  |  |  |  | enemy | ✓ |  |
+| 2 | Swamp Squit 2 |  |  |  |  | enemy | ✓ |  |
+| 3 | Stilkin 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Swamp Squit 3 |  |  |  |  | enemy | ✓ |  |
+| 5 | Swamp Squit 4 |  |  |  |  | enemy | ✓ |  |
+| 6 | Stilkin 2 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-bilewater--bilewater-west-secret-rooms"></a>
 
@@ -17247,6 +18683,13 @@ No check locations defined.
 | 2 | Bilewater - Rosary Cache #6 | lower area | none |  | Verified | collectible |  |  |
 | 3 | Bilewater - Rosary Cache #7 | lower area | none |  | Verified | collectible |  |  |
 | 4 | Twisted Bud | top area | break wall left AND break wall right AND (cling grip OR silk soar) AND (spike pogo OR enemy pogo OR clawline) AND (dash OR clawline OR sharpdart OR drifter's cloak OR spike pogo) |  | Verified | collectible | ✓ |  |
+| 5 | Swamp Squit 1 |  |  |  |  | enemy | ✓ |  |
+| 6 | Swamp Squit 2 |  |  |  |  | enemy | ✓ |  |
+| 7 | Swamp Squit 3 |  |  |  |  | enemy | ✓ |  |
+| 8 | Swamp Squit 4 |  |  |  |  | enemy | ✓ |  |
+| 9 | Miremite 1 |  |  |  |  | enemy | ✓ |  |
+| 10 | Miremite 2 |  |  |  |  | enemy | ✓ |  |
+| 11 | Miremite 3 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-bilewater--exhaust-organ-exterior"></a>
 
@@ -17352,6 +18795,7 @@ No check locations defined.
 | 2 | Boss: Phantom | top layer | dash OR run |  | Verified | boss | ✓ |  |
 | 3 | Organ Bench | bench room | cling grip |  | Verified | bench | ✓ |  |
 | 4 | broken elevator | maze | attack left |  | Verified | blockade | ✓ |  |
+| 5 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Memorium
 
@@ -17392,6 +18836,7 @@ No check locations defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Big flea wall | left | nada |  | Verified | blockade | ✓ | custom name |
 | 2 | Flea: Memorium - Huge Flea | left | cling grip OR (silk soar AND silkhearts x 1) OR (easy scuttlebrace AND clawline AND silkhearts x 1 AND (ledge grab OR faydown cloak OR medium shaman pogo)) |  | Verified | collectible |  | technically should be a subroom so silkhearts arent needed one way |
+| 3 | Huge Flea 1 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-memorium--memorium-karak"></a>
 
@@ -17437,6 +18882,11 @@ No check locations defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Memorium - Shell Shard Cache #2 | Middle | cling grip OR ledge grab OR faydown cloak OR silksoar OR easy shaman pogo |  | Verified | resource |  |  |
 | 2 | Memorium - Shell Shard Cache #1 | left and up | none |  | Verified | resource |  |  |
+| 3 | Crustcrag 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Driznarga 1 |  |  |  |  | enemy | ✓ |  |
+| 5 | Driznit 1 |  |  |  |  | enemy | ✓ |  |
+| 6 | Crustcrag 2 |  |  |  |  | enemy | ✓ |  |
+| 7 | Crustcrag 3 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-memorium--memorium-mossy"></a>
 
@@ -17477,6 +18927,11 @@ No check locations defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Memorium - Spool Fragment | Fragment | none |  | Verified | collectible | ✓ |  |
 | 2 | Memorium Mossy wall | Bottom | none |  | Verified | blockade |  | custom name |
+| 3 | Massive Mossgrub 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Mossgrub 1 |  |  |  |  | enemy | ✓ |  |
+| 5 | Massive Mossgrub 2 |  |  |  |  | enemy | ✓ |  |
+| 6 | Nuphar 1 |  |  |  |  | enemy | ✓ |  |
+| 7 | Nuphar 2 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-memorium--memorium-rhino-room"></a>
 
@@ -17508,6 +18963,17 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Memorium - Beast Shard |  | none |  | Verified | collectible |  |  |
+| 2 | Rhinogrund 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Kilik 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Beastfly 1 |  |  |  |  | enemy | ✓ |  |
+| 5 | Beastfly 2 |  |  |  |  | enemy | ✓ |  |
+| 6 | Skull Brute 1 |  |  |  |  | enemy | ✓ |  |
+| 7 | Vicious Caranid 1 |  |  |  |  | enemy | ✓ |  |
+| 8 | Vicious Caranid 2 |  |  |  |  | enemy | ✓ |  |
+| 9 | Vicious Caranid 3 |  |  |  |  | enemy | ✓ |  |
+| 10 | Caranid 1 |  |  |  |  | enemy | ✓ |  |
+| 11 | Caranid 2 |  |  |  |  | enemy | ✓ |  |
+| 12 | Skull Scuttler 1 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-memorium--memorium-start-shaft"></a>
 
@@ -17570,6 +19036,11 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Memorium - Lower Plaque | Lore Platform | nada |  | Verified | lore | ✓ |  |
+| 2 | Mossgrub 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Mossgrub 2 |  |  |  |  | enemy | ✓ |  |
+| 4 | Mossmir 1 |  |  |  |  | enemy | ✓ |  |
+| 5 | Mossmir 2 |  |  |  |  | enemy | ✓ |  |
+| 6 | Memoria 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 <a name="room-memorium--memorium-ventrica"></a>
 
@@ -17640,6 +19111,8 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Voltvessels | Memorium stuff | complete Memoria gauntlet |  | Verified | collectible | ✓ |  |
 | 2 | Memoria gauntlet | Memorium stuff | nada |  | Verified | gauntlet | ✓ | custom name |
+| 3 | Memoria 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Memoria 2 |  |  |  |  | enemy | ✓ |  |
 
 #### Notes
 
@@ -17682,6 +19155,26 @@ farsight isnt randoed yet but from "Memorium stuff" needs nada
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Memorium - Mossbery | Post Wall | none |  | Verified | collectible | ✓ |  |
+| 2 | Mossgrub 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | MossBone Cocoon (2) 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Mossgrub 2 |  |  |  |  | enemy | ✓ |  |
+| 5 | MossBone Cocoon (3) 1 |  |  |  |  | enemy | ✓ |  |
+| 6 | MossBone Cocoon (1) 1 |  |  |  |  | enemy | ✓ |  |
+| 7 | Marrowmaw 1 |  |  |  |  | enemy | ✓ |  |
+| 8 | MossBone Cocoon 1 |  |  |  |  | enemy | ✓ |  |
+| 9 | Mossmir 1 |  |  |  |  | enemy | ✓ |  |
+| 10 | Mossgrub 3 |  |  |  |  | enemy | ✓ |  |
+| 11 | Mossgrub 4 |  |  |  |  | enemy | ✓ |  |
+| 12 | Mossgrub 5 |  |  |  |  | enemy | ✓ |  |
+| 13 | MossBone Cocoon (2)(Clone) 1 |  |  |  |  | enemy | ✓ |  |
+| 14 | MossBone Cocoon (3)(Clone) 1 |  |  |  |  | enemy | ✓ |  |
+| 15 | MossBone Cocoon (1)(Clone) 1 |  |  |  |  | enemy | ✓ |  |
+| 16 | Marrowmaw 2 |  |  |  |  | enemy | ✓ |  |
+| 17 | MossBone Cocoon(Clone) 1 |  |  |  |  | enemy | ✓ |  |
+| 18 | Mossgrub 6 |  |  |  |  | enemy | ✓ |  |
+| 19 | Mossgrub 7 |  |  |  |  | enemy | ✓ |  |
+| 20 | Mossmir 2 |  |  |  |  | enemy | ✓ |  |
+| 21 | Mossmir 3 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-memorium--memorium-puzzle"></a>
 
@@ -17756,6 +19249,18 @@ cling grip OR faydown cloak OR (silk soar AND silkhearts 1)
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Memorium - Memory Locket | Center | (faydown cloak AND (clawline OR medium beast pogo OR (dash AND (swim OR easy enemy pogo)))) OR (faydown cloak AND (swim OR cling grip) AND((easy architect pogo OR  easy shaman pogo OR medium witch pogo OR easy beast pogo OR easy reaper pogo OR easy hunter pogo OR (easy needle strike stall (wanderers))))) |  | Verified | collectible | ✓ |  |
 | 2 | Water karak ceiling | Center | silksoar OR (faydown cloak AND break wall up) |  | Verified | blockade |  | one way thingy |
+| 3 | Shellwood Goomba Flyer 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Gahlia 1 |  |  |  |  | enemy | ✓ |  |
+| 5 | Gahlia 2 |  |  |  |  | enemy | ✓ |  |
+| 6 | Gahlia 3 |  |  |  |  | enemy | ✓ |  |
+| 7 | Pollenica 1 |  |  |  |  | enemy | ✓ |  |
+| 8 | Shellwood Goomba 1 |  |  |  |  | enemy | ✓ |  |
+| 9 | Pond Skipper 1 |  |  |  |  | enemy | ✓ |  |
+| 10 | Pond Skipper 2 |  |  |  |  | enemy | ✓ |  |
+| 11 | Shellwood Gnat 1 |  |  |  |  | enemy | ✓ |  |
+| 12 | Shellwood Gnat 2 |  |  |  |  | enemy | ✓ |  |
+| 13 | Shellwood Gnat 3 |  |  |  |  | enemy | ✓ |  |
+| 14 | Shellwood Gnat 4 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-memorium--seed-shooty-memorium"></a>
 
@@ -17793,7 +19298,7 @@ cling grip OR faydown cloak OR (silk soar AND silkhearts 1)
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | down | Top | Middle | nada |  | Verified |  |  |
 | 2 | down2 | Middle | Bottom | nada |  | Verified |  |  |
-| 3 | up1 | Middle | Top | (faydown cloak AND (cling grip OR (Easy scuttlebrace OR silk soar))) OR (cling grip AND (medium shaman pogo OR hard reaper pogo)) |  | Verified |  | OR (clawline AND hard wanderer pogo) feels a bit to hard to me idk |
+| 3 | up1 | Middle | Top | (faydown cloak AND (cling grip OR (Easy scuttlebrace))) OR (cling grip AND (medium shaman pogo OR hard reaper pogo)) OR silk soar |  | Verified |  | OR (clawline AND hard wanderer pogo) feels a bit to hard to me idk |
 | 4 | up2 | Bottom | Middle | (silk soar AND silkhearts x 1) OR (faydown cloak AND ledge grab) OR (medium Shaman pogo AND faydown cloak) OR Easy scuttlebrace OR (cling grip AND faydown cloak) |  | Verified |  |  |
 
 #### Check Locations
@@ -17801,6 +19306,15 @@ cling grip OR faydown cloak OR (silk soar AND silkhearts 1)
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Memorium - Orders | Not connected | nada |  | Verified | lore |  | just name required |
+| 2 | Phacia 1 |  |  | TODO |  | enemy | ✓ |  |
+| 3 | Phacia 2 |  |  | TODO |  | enemy | ✓ |  |
+| 4 | Memoria 1 |  |  | TODO |  | enemy | ✓ |  |
+| 5 | Pollenica 1 |  |  | TODO |  | enemy | ✓ |  |
+| 6 | Pollenica 2 |  |  | TODO |  | enemy | ✓ |  |
+| 7 | Pollenica 3 |  |  | TODO |  | enemy | ✓ |  |
+| 8 | Pollenica 4 |  |  | TODO |  | enemy | ✓ |  |
+| 9 | Mawling 1 |  |  | TODO |  | enemy | ✓ |  |
+| 10 | Mawling 2 |  |  | TODO |  | enemy | ✓ |  |
 
 <a name="room-memorium--shopkeeper-hides"></a>
 
@@ -17844,6 +19358,25 @@ cling grip OR faydown cloak OR (silk soar AND silkhearts 1)
 | 1 | Memorium - Shard Bundle | Main Area | spend 70 rosaries |  | Verified | collectible | ✓ | swapped the subroom - as it appeared to be incorrect - hero |
 | 2 | Memorium - Map Purchase | Entrance | none |  | Verified | collectible | ✓ | swapped the subroom - as it appeared to be incorrect - hero |
 | 3 | The Lost Merchant Wish Granted | Main Area | complete THE The Lost Merchant Wish Promised |  | Verified | event |  |  |
+| 4 | Drapelord 1 |  |  |  |  | enemy | ✓ |  |
+| 5 | Drapefly 1 |  |  |  |  | enemy | ✓ |  |
+| 6 | Drapefly 2 |  |  |  |  | enemy | ✓ |  |
+| 7 | Drapefly 3 |  |  |  |  | enemy | ✓ |  |
+| 8 | Drapefly 4 |  |  |  |  | enemy | ✓ |  |
+| 9 | Drapelord 2 |  |  |  |  | enemy | ✓ |  |
+| 10 | Drapelord 3 |  |  |  |  | enemy | ✓ |  |
+| 11 | Drapefly 5 |  |  |  |  | enemy | ✓ |  |
+| 12 | Drapefly 6 |  |  |  |  | enemy | ✓ |  |
+| 13 | Drapefly 7 |  |  |  |  | enemy | ✓ |  |
+| 14 | Drapefly 8 |  |  |  |  | enemy | ✓ |  |
+| 15 | Drapelord 4 |  |  |  |  | enemy | ✓ |  |
+| 16 | Drapelord 5 |  |  |  |  | enemy | ✓ |  |
+| 17 | Drapefly 9 |  |  |  |  | enemy | ✓ |  |
+| 18 | Drapefly 10 |  |  |  |  | enemy | ✓ |  |
+| 19 | Drapefly 11 |  |  |  |  | enemy | ✓ |  |
+| 20 | Drapefly 12 |  |  |  |  | enemy | ✓ |  |
+| 21 | Drapelord 6 |  |  |  |  | enemy | ✓ |  |
+| 22 | Drapelord 7 |  |  |  |  | enemy | ✓ |  |
 
 #### Notes
 
@@ -17891,6 +19424,7 @@ I HATE THIS ROOOOOM
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Conchcutter | Main | None |  | Verified | collectible |  |  |
 | 2 | Sands of Karak - Lower Coral Tablet | Entrance | None |  | Verified | lore |  |  |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-sands-of-karak--coral-tower-entrance"></a>
 
@@ -17931,6 +19465,7 @@ I HATE THIS ROOOOOM
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Resting Site: Sands of Karak | Resting Site Ledge | prereq THE A Vassal Lost Wish Promised |  | Verified | event | ✓ | Not Included for the better |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-sands-of-karak--crustnut"></a>
 
@@ -17971,6 +19506,7 @@ I HATE THIS ROOOOOM
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Crustnut | End | None |  | Verified | collectible | ✓ |  |
 | 2 | Shard Cache: Sands of Karak #11 | Shard Platform | None |  | Verified | resource | ✓ |  |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-sands-of-karak--sands-of-karak-bellshrine"></a>
 
@@ -18001,6 +19537,7 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Simple key: Sands of Karak east bench |  | None |  | Verified | collectible | ✓ |  |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-sands-of-karak--sands-of-karak-elevator-to-blasted-steps"></a>
 
@@ -18050,6 +19587,7 @@ No subroom connections defined.
 | 4 | Sands of Karak - Shellshard Cache #8 | Shardilard Ledge | None |  | Verified | resource | ✓ |  |
 | 5 | Shardilard | Shardilard Ledge | None |  | Verified | enemy | ✓ | Should these be included? |
 | 6 | Elevator Switch karak | Right | None |  | Verified | switch |  |  |
+| 7 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-sands-of-karak--sands-of-karak-entrance"></a>
 
@@ -18087,6 +19625,7 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Sands of Karak - Upper Coral Tablet | Top | Silk soar OR ( Cling grip AND ( Faydown Cloak OR Dash OR Drifters Cloak OR Clawline OR Sharpdart ) ) OR ( Scuttlebrace AND faydown Cloak ) |  | Verified | lore | ✓ |  |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-sands-of-karak--sands-of-karak-lower-left-long-room"></a>
 
@@ -18134,6 +19673,7 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Dands of Karak - Memory Locket | Upper Left Platform | None |  | Verified | collectible | ✓ |  |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-sands-of-karak--sands-of-karak-lower-right-long-room"></a>
 
@@ -18183,6 +19723,7 @@ No subroom connections defined.
 | 1 | Shell Shard Cache: Sands of Karak #1 | Lower Centre Platform | None |  | Verified | resource | ✓ |  |
 | 2 | Shell Shard Cache: Sands of Karak #2 | Lower Centre Platform | None |  | Verified | resource | ✓ |  |
 | 3 | Flea: Sands of Karak | Flea Ledge | None |  | Verified | collectible | ✓ |  |
+| 4 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-sands-of-karak--sands-of-karak-right-side-tall-room"></a>
 
@@ -18223,7 +19764,9 @@ No subroom connections defined.
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-sands-of-karak--sands-of-karak-tall-centre-room"></a>
 
@@ -18282,6 +19825,7 @@ No check locations defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Stalactite | Stalactite | None |  | Verified | blockade |  |  |
 | 2 | Stalactite 2 | Bridge Level | None |  | Verified | blockade |  |  |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-sands-of-karak--sands-of-karak-upper-left-long-room"></a>
 
@@ -18324,6 +19868,7 @@ No check locations defined.
 | 1 | Shell shard cache: Sands of Karak #3 | Shell Ledge | None |  | Verified | resource | ✓ |  |
 | 2 | Shell Shard cache: Sands of Karak #4 | Shell Ledge | None |  | Verified | resource | ✓ |  |
 | 3 | Boss: Raging Conchfly | Left Ledge | None |  | Verified | boss | ✓ |  |
+| 4 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-sands-of-karak--sands-of-karak-upper-right-long-room"></a>
 
@@ -18353,12 +19898,14 @@ No check locations defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| WR | Whole Room | Left Exit | Right Exit | Cling grip AND ( Clawline OR ( Faydown Cloak AND ( Dash OR Sharpdart OR Drifters Cloak ) ) ) |  | Verified | ✓ |  |
-| WR | Whole Room | Right Exit | Left Exit | Clawline AND ( Drifters Cloak OR easy Shaman Crest pogo ) AND ( Cling grip OR Silk Soar ) |  | Verified | ✓ |  |
+| WR | Whole Room | Left Exit | Right Exit | Clawline AND ( Drifters Cloak OR easy Shaman Crest pogo ) AND ( Cling grip OR Silk Soar ) |  | Verified | ✓ |  |
+| WR | Whole Room | Right Exit | Left Exit | Cling grip AND ( Clawline OR ( Faydown Cloak AND ( Dash OR Sharpdart OR Drifters Cloak ) ) ) |  | Verified | ✓ |  |
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-sands-of-karak--sands-of-shakra"></a>
 
@@ -18391,6 +19938,7 @@ No subroom connections defined.
 | 1 | Map: Sands of Karak |  | None |  | Verified | collectible | ✓ |  |
 | 2 | Shell Shard Cache: Sands of Karak #9 |  | Faydown Cloak OR Cling Grip OR Silk Soar OR have Silk Skill: Thread Storm OR have Silk Skill: Rune Rage OR ( easy Beast Crest pogo AND easy Needle Strike stall ) |  | Verified | resource | ✓ |  |
 | 3 | Shell Shard Cache: Sands of Karak #10 |  | Faydown Cloak OR Cling Grip OR Silk Soar OR have Silk Skill: Thread Storm OR have Silk Skill: Rune Rage OR ( easy Beast Crest pogo AND easy Needle Strike stall ) |  | Verified | resource | ✓ |  |
+| 4 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-sands-of-karak--watcher-at-the-edge"></a>
 
@@ -18422,6 +19970,7 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Watcher at the Edge |  | Needolin |  | Verified | boss | ✓ |  |
 | 2 | Grey Memento |  | Needolin |  | Verified | collectible | ✓ |  |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-sands-of-karak--voltnest"></a>
 
@@ -18462,6 +20011,7 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Volt Filament | Bottom | None |  | Verified | collectible |  |  |
 | 2 | Boss: Voltwyrm | Bottom | None |  | Verified | boss |  |  |
+| 3 | Voltvyrm 1 |  |  |  |  | enemy |  |  |
 
 ## The Slab
 
@@ -18498,7 +20048,9 @@ No subroom connections defined.
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-the-slab--slab-arena"></a>
 
@@ -18540,6 +20092,7 @@ No check locations defined.
 | 1 | Key of Heretic | Arena | defeat gauntlet fight |  |  | collectible |  |  |
 | 2 | Gauntlet Fight | Arena | none |  |  | gauntlet |  |  |
 | 3 | The Wailing Mother Wish Broodmother Alcove Trigger | Arena | none |  | Verified | logic-point |  |  |
+| 4 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-the-slab--slab-broodmother-alcove"></a>
 
@@ -18654,7 +20207,9 @@ No subroom connections defined.
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-the-slab--slab-chilly-prison"></a>
 
@@ -18692,7 +20247,9 @@ No check locations defined.
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-the-slab--slab-bellway"></a>
 
@@ -18726,6 +20283,7 @@ No subroom connections defined.
 | 1 | Flea: The Slab - Bellway |  | (cling grip AND faydown) OR silk soar |  |  | collectible |  |  |
 | 2 | Bellway The Slab |  | Unlock Bellway Rosary Lock |  |  | travel |  |  |
 | 3 | Bellway Rosary Lock |  | spend 40 rosaries |  |  | lock |  |  |
+| 4 | Drapefly 1 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-the-slab--slab-cave-entrance"></a>
 
@@ -18756,6 +20314,7 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | The Slab - Left Orders |  | none |  |  | lore |  |  |
 | 2 | The Slab - Right Orders |  | none |  |  | lore |  |  |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-the-slab--slab-cavern-exit"></a>
 
@@ -18792,7 +20351,9 @@ No subroom connections defined.
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-the-slab--slab-chilly-top"></a>
 
@@ -18822,6 +20383,7 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | The Slab - Frayed Rosary String #3 |  | cling grip AND dash |  |  | collectible | ✓ | Naked |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-the-slab--slab-entrance"></a>
 
@@ -18852,6 +20414,7 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | The Slab - Frayed Rosary String #1 |  | none |  |  | collectible | ✓ |  |
 | 2 | Slab Entrance Switch |  | flip switch down |  |  | switch | ✓ |  |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-the-slab--slab-first-sinner-antechamber"></a>
 
@@ -18886,6 +20449,7 @@ No subroom connections defined.
 | 2 | Rune Rage |  | defeat Boss: First Sinner |  |  | collectible |  |  |
 | 3 | Boss: First Sinner |  | faydown |  |  | boss |  |  |
 | 4 | Mister Mushroom Meeting The Slab |  | after THE Mister Mushroom Meeting Greymoor AND Needolin |  | Verified | event | ✓ |  |
+| 5 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-the-slab--slab-flea-cell"></a>
 
@@ -18914,6 +20478,7 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Flea: The Slab |  | none |  |  | collectible |  |  |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-the-slab--slab-flea-prison"></a>
 
@@ -18945,7 +20510,9 @@ No subroom connections defined.
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-the-slab--slab-grindle"></a>
 
@@ -18975,6 +20542,7 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | The Slab - Map Pickup |  | none |  |  | collectible | ✓ |  |
 | 2 | The Slab - East Bench |  | none |  |  | bench |  |  |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-the-slab--slab-indolent-room"></a>
 
@@ -19009,6 +20577,7 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Indolent Key | Left | none |  |  | collectible |  | Not randomized |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-the-slab--slab-infleatween-bottom"></a>
 
@@ -19050,6 +20619,7 @@ No subroom connections defined.
 | 1 | The Slab - Shell Shard Cache #1 | Top | none |  |  | collectible |  |  |
 | 2 | The Slab - Shell Shard Cache #2 | Top | none |  |  | collectible |  |  |
 | 3 | The Slab - Shell Shard Cache #3 | Top | none |  |  | collectible |  |  |
+| 4 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-the-slab--slab-infleatween-top"></a>
 
@@ -19080,6 +20650,7 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | The Slab - Shard Bundle |  | ledge grab OR cling grip OR clawline OR faydown |  |  | collectible | ✓ |  |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-the-slab--slab-penitent-cell"></a>
 
@@ -19105,7 +20676,9 @@ No subroom connections defined.
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-the-slab--slab-poodle"></a>
 
@@ -19135,6 +20708,7 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Exit Breakable Wall Blockade |  | break wall right |  |  | blockade |  |  |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-the-slab--slab-prelude"></a>
 
@@ -19168,6 +20742,7 @@ No subroom connections defined.
 | 3 | The Slab - Rosary Cache #3 |  | none |  |  | collectible |  |  |
 | 4 | The Slab - Rosary Cache #4 |  | none |  |  | collectible |  |  |
 | 5 | The Slab - Rosary Cache #5 |  | none |  |  | collectible |  |  |
+| 6 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-the-slab--slab-quiet-cell"></a>
 
@@ -19203,6 +20778,7 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | The Slab - Memory Locket | Top | none |  |  | collectible | ✓ |  |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-the-slab--slab-secret-side-room"></a>
 
@@ -19244,6 +20820,7 @@ No subroom connections defined.
 | 3 | The Slab - Frayed Rosary String #2 | Corpse | none |  |  | collectible |  |  |
 | 4 | The Slab - Rosary Cache #1 | Corpse | none |  |  | collectible |  |  |
 | 5 | Breakable Wall Blockade | Bottom | break wall left |  |  | blockade |  |  |
+| 6 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-the-slab--slab-shaft"></a>
 
@@ -19280,7 +20857,9 @@ No subroom connections defined.
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-the-slab--slab-why-room"></a>
 
@@ -19309,6 +20888,7 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | The Slab (Key of Apostate) - Mask Shard |  | cling grip AND dash AND faydown AND clawline AND spike pogo AND drifter's cloak | TODO |  | collectible |  | Not actually tested, placeholded everything |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-the-slab--slab-window"></a>
 
@@ -19339,6 +20919,7 @@ No subroom connections defined.
 | 1 | The Slab - Shell Shard Cache #4 |  | swim |  |  | collectible |  |  |
 | 2 | The Slab - Shell Shard Cache #5 |  | swim |  |  | collectible |  |  |
 | 3 | Relic: Weaver Effigy (Atla, The Slab) |  | cling grip AND (dash OR clawline OR faydown cloak) |  |  | collectible |  |  |
+| 4 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Mount Fay
 
@@ -19413,6 +20994,13 @@ No subroom connections defined.
 | 2 | Mount Fay - Shell shard cache #2 | Shell Shard Ledge | None |  | Verified | resource | ✓ |  |
 | 3 | The Slab - Spool Fragment | Slab Spool Room | cling grip OR Scuttlebrace OR Silk Soar |  | Verified | collectible | ✓ | Duplicate check name for spool fragment? |
 | 4 | Breakable Wall - Mount Fay Entrance | Upper Left Exit | None |  | Verified | blockade | ✓ |  |
+| 5 | Driftlin 1 |  |  |  |  | enemy | ✓ |  |
+| 6 | Driftlin 2 |  |  |  |  | enemy | ✓ |  |
+| 7 | Driftlin 3 |  |  |  |  | enemy | ✓ |  |
+| 8 | Driftlin 4 |  |  |  |  | enemy | ✓ |  |
+| 9 | Driftlin 5 |  |  |  |  | enemy | ✓ |  |
+| 10 | Driftlin 6 |  |  |  |  | enemy | ✓ |  |
+| 11 | Driftlin 7 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-mount-fay--brightvein"></a>
 
@@ -19445,6 +21033,19 @@ No subroom connections defined.
 | 1 | Mount Fay - Shell Shard Cache #3 |  | silk Soar OR ( clawline AND cling grip ) |  | Verified | resource | ✓ |  |
 | 2 | Mount Fay - Shell Shard Cache #4 |  | Silk Soar OR ( Clawline AND Cling Grip ) |  | Verified | resource | ✓ |  |
 | 3 | Brightvein - Maskshard |  | Silk Soar AND Clawline AND Cling Grip AND Faydown Cloak |  | Verified | collectible | ✓ |  |
+| 4 | Mnemonid 1 |  |  |  |  | enemy | ✓ |  |
+| 5 | Mnemonid 2 |  |  |  |  | enemy | ✓ |  |
+| 6 | Mnemonord 1 |  |  |  |  | enemy | ✓ |  |
+| 7 | Mnemonord 2 |  |  |  |  | enemy | ✓ |  |
+| 8 | Mnemonord 3 |  |  |  |  | enemy | ✓ |  |
+| 9 | Mnemonord 4 |  |  |  |  | enemy | ✓ |  |
+| 10 | Mnemonord 5 |  |  |  |  | enemy | ✓ |  |
+| 11 | Mnemonord 6 |  |  |  |  | enemy | ✓ |  |
+| 12 | Mnemonord 7 |  |  |  |  | enemy | ✓ |  |
+| 13 | Mnemonord 8 |  |  |  |  | enemy | ✓ |  |
+| 14 | Mnemonord 9 |  |  |  |  | enemy | ✓ |  |
+| 15 | Mnemonord 10 |  |  |  |  | enemy | ✓ |  |
+| 16 | Mnemonord 11 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-mount-fay--brightvein-entrance"></a>
 
@@ -19523,6 +21124,7 @@ No check locations defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Faydown Cloak | Fayforn | Needolin |  | Verified | collectible | ✓ |  |
 | 2 | Mister Mushroom Meeting Mount Fay | Fayforn | after THE Mister Mushroom Meeting The Slab |  | Verified | event | ✓ | needolin not required - he's talking to the fayforn |
+| 3 | Weaver Servitor Broken 1 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-mount-fay--mask-maker"></a>
 
@@ -19585,7 +21187,10 @@ No check locations defined.
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Driftlin 1 |  |  |  |  | enemy | ✓ |  |
+| 2 | Driftlin 2 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-mount-fay--memory-crystal"></a>
 
@@ -19706,6 +21311,11 @@ No check locations defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Flea: Mount Fay | Frozen Flea | None |  | Verified | collectible | ✓ |  |
+| 2 | Mnemonid 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Mnemonid 2 |  |  |  |  | enemy | ✓ |  |
+| 4 | Mnemonid 3 |  |  |  |  | enemy | ✓ |  |
+| 5 | Mnemonid 4 |  |  |  |  | enemy | ✓ |  |
+| 6 | Mnemonid 5 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-mount-fay--mount-fay-ice-lake-platforming-room"></a>
 
@@ -19740,7 +21350,15 @@ No check locations defined.
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Mnemonid 1 |  |  |  |  | enemy | ✓ |  |
+| 2 | Mnemonid 2 |  |  |  |  | enemy | ✓ |  |
+| 3 | Mnemonid 3 |  |  |  |  | enemy | ✓ |  |
+| 4 | Mnemonid 4 |  |  |  |  | enemy | ✓ |  |
+| 5 | Mnemonid 5 |  |  |  |  | enemy | ✓ |  |
+| 6 | Mnemonid 6 |  |  |  |  | enemy | ✓ |  |
+| 7 | Mnemonid 7 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-mount-fay--mount-fay-large-servitor-hallway"></a>
 
@@ -19769,7 +21387,9 @@ No subroom connections defined.
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Servitor Boran 1 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-mount-fay--mount-fay-lore-room"></a>
 
@@ -19800,6 +21420,7 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Mount Fay - Weaver Inscrytion |  | None |  | Verified | lore |  |  |
+| 2 | Weaver Servitor Broken 1 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-mount-fay--mount-fay-lower-slope"></a>
 
@@ -19841,6 +21462,15 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Mount Fay Slope Lever | Ceiling Area | None |  | Verified | switch | ✓ |  |
+| 2 | Driftlin 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Driftlin 2 |  |  |  |  | enemy | ✓ |  |
+| 4 | Driftlin 3 |  |  |  |  | enemy | ✓ |  |
+| 5 | Driftlin 4 |  |  |  |  | enemy | ✓ |  |
+| 6 | Driftlin 5 |  |  |  |  | enemy | ✓ |  |
+| 7 | Driftlin 6 |  |  |  |  | enemy | ✓ |  |
+| 8 | Driftlin 7 |  |  |  |  | enemy | ✓ |  |
+| 9 | Driftlin 8 |  |  |  |  | enemy | ✓ |  |
+| 10 | Driftlin 9 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-mount-fay--mount-fay-magnetite-outcropping"></a>
 
@@ -19884,6 +21514,8 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Magnetite Outcrop | Brightvein | None |  | Verified | lore | ✓ | Lore thingy not included rn |
+| 2 | Mnemonid 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Mnemonid 2 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-mount-fay--mount-fay-mask-shard"></a>
 
@@ -19915,6 +21547,7 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Mount Fay - Mask Shard |  | Silk Soar OR ( Faydown Cloak AND ( Cling Grip OR Scuttlebrace ) ) |  | Verified | collectible | ✓ |  |
+| 2 | Driftlin 1 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-mount-fay--mount-fay-peak-bench"></a>
 
@@ -20003,6 +21636,13 @@ No subroom connections defined.
 | 5 | Pinstress Boss Fight | Pinstress Arena | complete Fatal Resolve Wish Promised IN Windy Pinstress Room OR (  complete Fatal Resolve Wish Promised IN Bellhart Wish Wall AND complete Read Pinstress Note IN Windy Pinstress Room ) |  | Verified | boss | ✓ | confirmed that you need to read the note if you start from the wish wall |
 | 6 | Fatal Resolve Wish Granted | Pinstress Arena | defeat Pinstress Boss Fight |  | Verified | event | ✓ |  |
 | 7 | Pin Badge | Pinstress Arena | complete Pinstress Boss Fight |  | Verified | collectible | ✓ |  |
+| 8 | Pinstress Boss 1 |  |  |  |  | enemy | ✓ |  |
+| 9 | Driftlin 1 |  |  |  |  | enemy | ✓ |  |
+| 10 | Driftlin 2 |  |  |  |  | enemy | ✓ |  |
+| 11 | Driftlin 3 |  |  |  |  | enemy | ✓ |  |
+| 12 | Driftlin 4 |  |  |  |  | enemy | ✓ |  |
+| 13 | Driftlin 5 |  |  |  |  | enemy | ✓ |  |
+| 14 | Driftlin 6 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-mount-fay--mount-fay-shakra"></a>
 
@@ -20061,6 +21701,17 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Mount Fay - Map Purchase | Shakra | None |  | Verified | collectible | ✓ |  |
+| 2 | Mnemonid 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Mnemonid 2 |  |  |  |  | enemy | ✓ |  |
+| 4 | Mnemonid 3 |  |  |  |  | enemy | ✓ |  |
+| 5 | Mnemonid 4 |  |  |  |  | enemy | ✓ |  |
+| 6 | Mnemonid 5 |  |  |  |  | enemy | ✓ |  |
+| 7 | Mnemonid 6 |  |  |  |  | enemy | ✓ |  |
+| 8 | Mnemonid 7 |  |  |  |  | enemy | ✓ |  |
+| 9 | Weaver Servitor Broken 1 |  |  |  |  | enemy | ✓ |  |
+| 10 | Servitor Boran 1 |  |  |  |  | enemy | ✓ |  |
+| 11 | Mnemonid 8 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 12 | Mnemonid 9 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 <a name="room-mount-fay--mount-fay-upper-slope"></a>
 
@@ -20098,7 +21749,10 @@ No subroom connections defined.
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Driftlin 1 |  |  |  |  | enemy | ✓ |  |
+| 2 | Driftlin 2 |  |  |  |  | enemy | ✓ |  |
 
 ## Putrified Ducts
 
@@ -20311,6 +21965,10 @@ No subroom connections defined.
 | 7 | Putrified Ducts - Shell Shard Cache #6 | Shell Shard Platform | None |  | Verified | resource | ✓ |  |
 | 8 | Putrified Ducts - Shell Shard Cache #7 | Shell Shard Platform | None |  | Verified | resource | ✓ |  |
 | 9 | Key of Apostate | Apostate Key Area | None |  | Verified | collectible | ✓ |  |
+| 10 | Barnak 1 |  |  |  |  | enemy | ✓ |  |
+| 11 | Barnak 2 |  |  |  |  | enemy | ✓ |  |
+| 12 | Barnak 3 |  |  |  |  | enemy | ✓ |  |
+| 13 | Ductsucker 1 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-putrified-ducts--putrified-ducts-entrance"></a>
 
@@ -20362,6 +22020,18 @@ No subroom connections defined.
 | 1 | Putrified Ducts - Shell Shard Cache #1 | Shell Shards bridge | None |  | Verified | resource | ✓ | Merge Map icons on map |
 | 2 | Putrified Ducts - Shell Shard Cache #2 | Shell Shards bridge | None |  | Verified | resource | ✓ | Merge Map icons on map |
 | 3 | Putrified Ducts - Frayed Rosary String | Rosary String Ledge | None |  | Verified | collectible | ✓ |  |
+| 4 | Ductsucker 1 |  |  |  |  | enemy | ✓ |  |
+| 5 | Barnak 1 |  |  |  |  | enemy | ✓ |  |
+| 6 | Barnak 2 |  |  |  |  | enemy | ✓ |  |
+| 7 | Barnak 3 |  |  |  |  | enemy | ✓ |  |
+| 8 | Ductsucker 2 |  |  |  |  | enemy | ✓ |  |
+| 9 | Ductsucker 3 |  |  |  |  | enemy | ✓ |  |
+| 10 | Barnak 4 |  |  |  |  | enemy | ✓ |  |
+| 11 | Barnak 5 |  |  |  |  | enemy | ✓ |  |
+| 12 | Spit Squit 1 |  |  |  |  | enemy | ✓ |  |
+| 13 | Spit Squit 2 |  |  |  |  | enemy | ✓ |  |
+| 14 | Spit Squit 3 |  |  |  |  | enemy | ✓ |  |
+| 15 | Spit Squit 4 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-putrified-ducts--putrified-ducts-lower-bridge-room"></a>
 
@@ -20405,6 +22075,19 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Breakable Wall | Right Exit | Faydown Cloak OR ( Cling Grip AND Clawline ) OR ( Silk Soar AND ( Drifters Cloak OR Dash OR Cling Grip OR Clawline OR Sharpdart OR Sprint ) ) |  | Verified | blockade | ✓ |  |
+| 2 | Barnak 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Ductsucker 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Barnak 2 |  |  |  |  | enemy | ✓ |  |
+| 5 | Ductsucker 2 |  |  |  |  | enemy | ✓ |  |
+| 6 | Ductsucker 3 |  |  |  |  | enemy | ✓ |  |
+| 7 | Barnak 3 |  |  |  |  | enemy | ✓ |  |
+| 8 | Barnak 4 |  |  |  |  | enemy | ✓ |  |
+| 9 | Spit Squit 1 |  |  |  |  | enemy | ✓ |  |
+| 10 | Spit Squit 2 |  |  |  |  | enemy | ✓ |  |
+| 11 | Spit Squit 3 |  |  |  |  | enemy | ✓ |  |
+| 12 | Spit Squit 4 |  |  |  |  | enemy | ✓ |  |
+| 13 | Spit Squit 5 |  |  |  |  | enemy | ✓ |  |
+| 14 | Spit Squit 6 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-putrified-ducts--putrified-ducts-map-room"></a>
 
@@ -20436,6 +22119,8 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Putrified Ducts - thread memory Map Room |  | Needolin |  | Verified | lore | ✓ |  |
 | 2 | Putrified Ducts - Map Pickup |  | None |  | Verified | collectible | ✓ |  |
+| 3 | Barnak 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Barnak 2 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-putrified-ducts--putrified-ducts-path-to-vog"></a>
 
@@ -20478,6 +22163,11 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | thread_memory | Camp | Needolin |  | Verified | lore | ✓ | dont think we doing these |
 | 2 | Wreath OF Purity | Camp | None |  | Verified | collectible | ✓ |  |
+| 3 | Barnak 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Barnak 2 |  |  |  |  | enemy | ✓ |  |
+| 5 | Barnak 3 |  |  |  |  | enemy | ✓ |  |
+| 6 | Barnak 4 |  |  |  |  | enemy | ✓ |  |
+| 7 | Barnak 5 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-putrified-ducts--putrified-ducts-rosary-room"></a>
 
@@ -20518,6 +22208,7 @@ No subroom connections defined.
 | 2 | Putrified Ducts - Rosary Cache #2 | Right | None |  | Verified | resource | ✓ |  |
 | 3 | Putrified Ducts - Rosary Cache #3 | Right | None |  | Verified | resource | ✓ |  |
 | 4 | Breakable Sewer Grate 2 | Left | None |  | Verified | blockade | ✓ |  |
+| 5 | Barnak 1 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-putrified-ducts--putrified-ducts-tall-room"></a>
 
@@ -20567,6 +22258,10 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Breakable Sewer Grate | Lower Sewage Tunnel | None |  | Verified | blockade | ✓ |  |
+| 2 | Barnak 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Barnak 2 |  |  |  |  | enemy | ✓ |  |
+| 4 | Spit Squit 1 |  |  |  |  | enemy | ✓ |  |
+| 5 | Spit Squit 2 |  |  |  |  | enemy | ✓ |  |
 
 ## The Cradle
 
@@ -20827,6 +22522,7 @@ No check locations defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Boss: Lace 2 | Arena | None |  | Verified | boss | ✓ |  |
 | 2 | Silk Heart: Lace 2 | Arena | prereq Boss: Lace 2 |  | Verified | collectible | ✓ |  |
+| 3 | Lace 1 |  |  |  |  | enemy | ✓ |  |
 
 #### Notes
 
@@ -20970,7 +22666,14 @@ I entered this during act 3 and got the same scene dump, dont believe they count
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Pharlid Diver 1 |  |  |  |  | enemy |  |  |
+| 2 | Pharlid Diver 2 |  |  |  |  | enemy |  |  |
+| 3 | Pharlid 1 |  |  |  |  | enemy |  |  |
+| 4 | Pharlid 2 |  |  |  |  | enemy |  |  |
+| 5 | Pharlid 3 |  |  |  |  | enemy |  |  |
+| 6 | Pharlid 4 |  |  |  |  | enemy |  |  |
 
 #### Notes
 
@@ -21052,6 +22755,17 @@ Needs a map link
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Mister Mushroom Meeting The Cradle | Herald Platform | after THE Mister Mushroom Meeting Mount Fay AND Needolin |  | Verified | event |  |  |
 | 2 | Passing of the Age Wish Granted | Herald Platform | after Mister Mushroom Meeting The Cradle |  | Verified | event |  |  |
+| 3 | Imoba 1 |  |  |  |  | enemy |  |  |
+| 4 | Imoba 2 |  |  |  |  | enemy |  |  |
+| 5 | Imoba 3 |  |  |  |  | enemy |  |  |
+| 6 | Imoba 4 |  |  |  |  | enemy |  |  |
+| 7 | Imoba 5 |  |  |  |  | enemy |  |  |
+| 8 | Imoba 6 |  |  |  |  | enemy |  |  |
+| 9 | Imoba 7 |  |  |  |  | enemy |  |  |
+| 10 | Imoba 8 |  |  |  |  | enemy |  |  |
+| 11 | Imoba 9 |  |  |  |  | enemy |  |  |
+| 12 | Imoba 10 |  |  |  |  | enemy |  |  |
+| 13 | Imoba 11 |  |  |  |  | enemy |  |  |
 
 #### Notes
 
@@ -21099,6 +22813,16 @@ No map link for this
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Surface Memento | Nameless Town | None |  | Verified | collectible |  |  |
+| 2 | Skrill 1 |  |  |  |  | enemy |  |  |
+| 3 | Skrill 2 |  |  |  |  | enemy |  |  |
+| 4 | Skrill 3 |  |  |  |  | enemy |  |  |
+| 5 | Skrill 4 |  |  |  |  | enemy |  |  |
+| 6 | Skrill 5 |  |  |  |  | enemy |  |  |
+| 7 | Skrill 6 |  |  |  |  | enemy |  |  |
+| 8 | Skrill 7 |  |  |  |  | enemy |  |  |
+| 9 | Skrill 8 |  |  |  |  | enemy |  |  |
+| 10 | Skrill 9 |  |  |  |  | enemy |  |  |
+| 11 | Skrill 10 |  |  |  |  | enemy |  |  |
 
 #### Notes
 
@@ -21135,6 +22859,7 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Lore: Abyss #3 |  | ( Faydown Cloak AND ( easy Reaper Crest pogo OR Cling Grip ) ) OR ( Silk Soar AND ( ( ( Proficient Movement AND spike pogo ) AND Ledge grab ) OR Cling Grip OR Clawline OR Scuttlebrace )  ) |  | Verified | lore | ✓ |  |
+| 2 | Shadow Charger 1 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-the-abyss--abyss-collapsing-hallway"></a>
 
@@ -21296,7 +23021,21 @@ No check locations defined.
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Skullwing 1 |  |  |  |  | enemy | ✓ |  |
+| 2 | Skullwing 2 |  |  |  |  | enemy | ✓ |  |
+| 3 | Skull Scuttler 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Skullwing 3 |  |  |  |  | enemy | ✓ |  |
+| 5 | Skullwing 4 |  |  |  |  | enemy | ✓ |  |
+| 6 | Skullwing 5 |  |  |  |  | enemy | ✓ |  |
+| 7 | Skullwing 6 |  |  |  |  | enemy | ✓ |  |
+| 8 | Skullwing 7 |  |  |  |  | enemy | ✓ |  |
+| 9 | Skullwing 8 |  |  |  |  | enemy | ✓ |  |
+| 10 | Skullwing 9 |  |  |  |  | enemy | ✓ |  |
+| 11 | Skullwing 10 |  |  |  |  | enemy | ✓ |  |
+| 12 | Skullwing 11 |  |  |  |  | enemy | ✓ |  |
+| 13 | Skullwing 12 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-the-abyss--abyss-escape-hallway"></a>
 
@@ -21335,7 +23074,11 @@ No check locations defined.
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Shadow Creeper 1 |  |  |  |  | enemy | ✓ |  |
+| 2 | Gloomsac 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Gloomsac 2 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-the-abyss--abyss-final-bench"></a>
 
@@ -21402,7 +23145,13 @@ No subroom connections defined.
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Shadow Creeper 1 |  |  |  |  | enemy | ✓ |  |
+| 2 | Gloomsac 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Gloomsac 2 |  |  |  |  | enemy | ✓ |  |
+| 4 | Gloomsac 3 |  |  |  |  | enemy | ✓ |  |
+| 5 | Gloomsac 4 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-the-abyss--abyss-landing-zone"></a>
 
@@ -21451,6 +23200,7 @@ No check locations defined.
 | 2 | Shell Shard Cache: Abyss #2 | Shard room | None |  | Verified | collectible | ✓ |  |
 | 3 | Shell Shard Cache: Abyss #3 | Shard room | None |  | Verified | collectible | ✓ |  |
 | 4 | Shell Shard Cache: Abyss #4 | Shard room | None |  | Verified | collectible | ✓ |  |
+| 5 | Shadow Creeper 1 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-the-abyss--abyss-lower-big-room"></a>
 
@@ -21499,6 +23249,9 @@ No check locations defined.
 | 3 | Shell Shard Cache: Abyss_05 #3 | Centre Platform | None |  | Verified | collectible | ✓ |  |
 | 4 | Shell Shard Cache: Abyss_05 #4 | Hidden Shellshards | None |  | Verified | collectible | ✓ |  |
 | 5 | Shell Shard Cache: Abyss_05 #5 | Hidden Shellshards | None |  | Verified | collectible | ✓ |  |
+| 6 | Shadow Creeper 1 |  |  |  |  | enemy | ✓ |  |
+| 7 | Shadow Creeper 2 |  |  |  |  | enemy | ✓ |  |
+| 8 | Shadow Charger 1 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-the-abyss--abyss-tall-room"></a>
 
@@ -21540,7 +23293,9 @@ No check locations defined.
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Shadow Creeper 1 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-the-abyss--abyss-upper-big-room"></a>
 
@@ -21582,6 +23337,18 @@ No check locations defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Lore: Abyss #1 | Upper Zone | None |  | Verified | lore | ✓ |  |
+| 2 | Shadow Creeper 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Gargant Gloom 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Gargant Gloom 2 |  |  |  |  | enemy | ✓ |  |
+| 5 | Gloomsac 1 |  |  |  |  | enemy | ✓ |  |
+| 6 | Gloomsac 2 |  |  |  |  | enemy | ✓ |  |
+| 7 | Gloomsac 3 |  |  |  |  | enemy | ✓ |  |
+| 8 | Gloomsac 4 |  |  |  |  | enemy | ✓ |  |
+| 9 | Gloomsac 5 |  |  |  |  | enemy | ✓ |  |
+| 10 | Gloomsac 6 |  |  |  |  | enemy | ✓ |  |
+| 11 | Gloomsac 7 |  |  |  |  | enemy | ✓ |  |
+| 12 | Gloomsac 8 |  |  |  |  | enemy | ✓ |  |
+| 13 | Gloomsac 9 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-the-abyss--arcane-egg-room"></a>
 
@@ -21622,6 +23389,7 @@ No check locations defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Arcane Egg | End | None |  | Verified | collectible | ✓ |  |
+| 2 | Shadow Charger 1 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-the-abyss--weavenest-absolom"></a>
 
@@ -21663,6 +23431,7 @@ No check locations defined.
 | 1 | Farsight | Entrance Zone | Silk Soar OR Clawline OR ( Faydown Cloak AND ( Dash OR Drifters Cloak ) ) |  | Verified | collectible | ✓ |  |
 | 2 | Silk Soar | The Void | None |  | Verified | collectible | ✓ |  |
 | 3 | Journal Entry: Void Tentrils | Passageways | Silk Soar OR ( Faydown Cloak AND ( Cling grip OR Scuttlebrace ) ) |  | Verified | lore | ✓ |  |
+| 4 | Weaver Servitor Broken 1 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-the-abyss--abyss-cocoon"></a>
 
@@ -21693,6 +23462,7 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Boss: Lost Lace |  | Cling Grip OR Faydown Cloak OR Silk Soar |  | Verified | boss |  | Only include as a check for win cons like flea hunt |
+| 2 | Lost Lace Boss 1 |  |  |  |  | enemy |  |  |
 
 #### Notes
 

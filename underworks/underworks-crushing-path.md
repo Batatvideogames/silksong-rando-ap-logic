@@ -41,6 +41,7 @@
 | 2 | Snapping Floor | Top Left | Break Wall Down |  | Verified | blockade | ✓ |  |
 | 3 | Underworks: Shell Shard Cache #14 | Top Left | Ledge Grab OR Sprint OR Dash OR Faydown Cloak OR Drifter's Cloak OR Clawline OR Sharpdart OR Scuttlebrace |  | Verified | collectible | ✓ | is it 14? -platform falling makes it unobtainable itemless, this is fine since the only way to make the platform fall is to get to it. just marking for posterity |
 | 4 | Breakable Ceiling | Top Right | Break Wall Up |  | Verified | blockade | ✓ |  |
+| 5 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

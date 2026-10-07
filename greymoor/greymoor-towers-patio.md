@@ -53,6 +53,18 @@
 | 6 | Wardenfly | lower section | ( act 1 AND act 2 ) AND defeat THE bell beast boss fight |  | Verified | enemy | ✓ | per the wiki |
 | 7 | Get Kidnapped | lower section | after wardenfly |  | Verified | event | ✓ |  |
 | 8 | Garmond and Zaza Act 3 Meeting Greymoor | lower section | Act 3 |  | Verified | event | ✓ |  |
+| 9 | Thread Raker 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 10 | Thread Raker 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 11 | Dreg Catcher 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 12 | Dreg Catcher 2 |  |  |  |  | enemy | ✓ |  |
+| 13 | Wardenfly 1 |  |  |  |  | enemy | ✓ |  |
+| 14 | Silk Snipper 1 |  |  |  |  | enemy | ✓ |  |
+| 15 | Fluttermite 1 |  |  |  |  | enemy | ✓ |  |
+| 16 | Fluttermite 2 |  |  |  |  | enemy | ✓ |  |
+| 17 | Fluttermite 3 |  |  |  |  | enemy | ✓ |  |
+| 18 | Fluttermite 4 |  |  |  |  | enemy | ✓ |  |
+| 19 | Fluttermite 5 |  |  |  |  | enemy | ✓ |  |
+| 20 | Fluttermite 6 |  | Normal World Spawn |  |  | enemy | ✓ |  |
 
 ## Room Images
 

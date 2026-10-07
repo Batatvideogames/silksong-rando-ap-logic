@@ -38,6 +38,11 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Memorium - Shell Shard Cache #2 | Middle | cling grip OR ledge grab OR faydown cloak OR silksoar OR easy shaman pogo |  | Verified | resource |  |  |
 | 2 | Memorium - Shell Shard Cache #1 | left and up | none |  | Verified | resource |  |  |
+| 3 | Crustcrag 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Driznarga 1 |  |  |  |  | enemy | ✓ |  |
+| 5 | Driznit 1 |  |  |  |  | enemy | ✓ |  |
+| 6 | Crustcrag 2 |  |  |  |  | enemy | ✓ |  |
+| 7 | Crustcrag 3 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

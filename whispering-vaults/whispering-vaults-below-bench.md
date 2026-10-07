@@ -36,6 +36,7 @@
 | 1 | AP Minor Cache - Whispering Vaults - Rosary Cache #4 | Rosary | Nothing. |  | Verified | resource | ✓ |  |
 | 2 | Whispering Vaults: Rosary Cache #3 | Rosary | Nothing. |  | Verified | resource | ✓ |  |
 | 3 | Whispering Vaults: Rosary Dish #2 | Rosary | Nothing. |  | Verified | resource | ✓ |  |
+| 4 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

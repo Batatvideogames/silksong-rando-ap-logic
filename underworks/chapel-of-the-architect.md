@@ -24,6 +24,7 @@ No subroom connections defined.
 | 2 | Underworks Chapel Silkeater Wall |  | Break Wall Up |  | Verified | blockade |  |  |
 | 3 | Underworks: Needolin Lore |  | Needolin. |  | Verified | lore |  |  |
 | 4 | Architect's Crest |  | Nothing. |  | Verified | collectible |  |  |
+| 5 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

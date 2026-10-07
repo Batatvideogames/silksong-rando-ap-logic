@@ -24,6 +24,7 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | bench |  | none |  | Verified | bench |  |  |
 | 2 | act toggle |  | act 3 |  | Verified | bench |  | probably need to flag this as requiring act 3 |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

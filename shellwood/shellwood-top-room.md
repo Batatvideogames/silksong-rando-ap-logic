@@ -44,6 +44,7 @@
 | 2 | Rosary cache: Shellwood | Right Side | Cling Grip OR Silk Soar OR ( Scuttlebrace AND Dash ) |  | Verified | resource | ✓ |  |
 | 3 | Resting Site: Shellwood | Right Side | prereq THE A Vassal Lost Wish Promised |  | Verified | event | ✓ |  |
 | 4 | Shellwood 26 Wall | Upper Area | None |  | Verified | blockade |  |  |
+| 5 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

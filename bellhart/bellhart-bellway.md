@@ -26,6 +26,7 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | bellway rosary lock |  | none |  | Verified | lock |  |  |
 | 2 | Bellway: Bellhart |  | unlock bellway rosary lock |  | Verified | travel |  |  |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

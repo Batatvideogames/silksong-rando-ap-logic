@@ -34,6 +34,7 @@
 | 1 | Farsight | Entrance Zone | Silk Soar OR Clawline OR ( Faydown Cloak AND ( Dash OR Drifters Cloak ) ) |  | Verified | collectible | ✓ |  |
 | 2 | Silk Soar | The Void | None |  | Verified | collectible | ✓ |  |
 | 3 | Journal Entry: Void Tentrils | Passageways | Silk Soar OR ( Faydown Cloak AND ( Cling grip OR Scuttlebrace ) ) |  | Verified | lore | ✓ |  |
+| 4 | Weaver Servitor Broken 1 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

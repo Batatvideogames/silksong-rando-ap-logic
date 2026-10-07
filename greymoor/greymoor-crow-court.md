@@ -40,6 +40,7 @@
 | 5 | Greymoor - Rosary Cache #37 | left shaft | cling grip OR (easy scuttlebrace AND (ledge grab OR faydown cloak OR clawline OR easy beast pogo)) |  | Verified | resource |  |  |
 | 6 | Crow bell | left shaft | cling grip OR (easy scuttlebrace AND (ledge grab OR faydown cloak OR clawline OR easy beast pogo)) |  | Verified | collectible |  |  |
 | 7 | wood wall | left shaft | break wall right OR break wall up |  | Verified | blockade |  |  |
+| 8 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

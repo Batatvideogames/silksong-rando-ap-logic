@@ -77,6 +77,12 @@
 | 12 | skull tyrant bone bottom boss fight | ground level | complete THE the terrible tyrant wish granted AND ( visit blasted steps  OR visit the citadel  OR visit sinners road ) |  | Verified | boss |  | may be other hidden requirements. wiki says 30% chance of spawn after reaching key areas and using a bench in the zone. |
 | 13 | reach bone bottom | ground level | none |  | Verified | logic-point |  | addresses the loading zone blocker in moss grotto center ceiling that only goes away once you've been up here - remove this/requirement in moss grotto center if/when this is removed in the randomizer |
 | 14 | Mister Mushroom Meeting Bone Bottom | shakra platform | after THE Mister Mushroom Meeting Moss Grotto AND Needolin |  | Verified | event | ✓ |  |
+| 15 | Aknid 1 | upper right platforms | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 16 | Aknid 2 | upper right platforms | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 17 | Aknid 3 | upper right platforms | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 18 | Snitchfly 1 | ground level | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 19 | Snitchfly 2 | ground level | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 20 | Snitchfly 3 | ground level | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

@@ -23,6 +23,7 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | plasmified zango boss fight |  | act 3 |  | Verified | boss | ✓ | can extract 4 plasmified blood from this boss, but not listing it as a resource because it can be missed if you just kill the boss without extracting them |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

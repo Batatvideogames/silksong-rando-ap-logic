@@ -34,6 +34,33 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Garmond and Zaza Act 3 Meeting Far Fields West | main pathway | Act 3 |  | Verified | event |  |  |
+| 2 | Fertid 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 3 | Brushflit 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 4 | Brushflit 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 5 | Brushflit 3 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 6 | Brushflit 4 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 7 | Brushflit 5 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 8 | Brushflit 6 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 9 | Brushflit 7 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 10 | Brushflit 8 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 11 | Brushflit 9 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 12 | Brushflit 10 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 13 | Brushflit 11 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 14 | Brushflit 12 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 15 | Brushflit 13 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 16 | Brushflit 14 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 17 | Brushflit 15 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 18 | Brushflit 16 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 19 | Brushflit 17 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 20 | Brushflit 18 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 21 | Fertid 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 22 | Flapping Fertid 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 23 | Flapping Fertid 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 24 | Brushflit 19 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 25 | Brushflit 20 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 26 | Skarr Stalker 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 27 | Skarr Scout 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 28 | Skarr Scout 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 ## Room Images
 

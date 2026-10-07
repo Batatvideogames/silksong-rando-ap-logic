@@ -48,6 +48,7 @@
 | 3 | Shell Shard Cache: Choral Chambers | Side Chamber | none |  |  | collectible |  |  |
 | 4 | Rosary Cache: Choral Chambers #1 | Window | none |  |  | collectible |  |  |
 | 5 | Rosary Cache: Choral Chambers #2 | Window | none |  |  | collectible |  |  |
+| 6 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

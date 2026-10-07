@@ -32,6 +32,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | door switch | Left Side | flip switch left |  | Verified | switch |  |  |
 | 2 | Second Sentinel Encounter | Right Side | complete THE Second Sentinel Activation | TODO | Needs verification | event |  | Random. Need to verify it is on this side |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Notes
 

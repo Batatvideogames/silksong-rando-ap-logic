@@ -58,6 +58,18 @@
 | 4 | sherma door switch | passage right | flip switch up |  | Verified | switch |  |  |
 | 5 | the marrow rosary cache 1 | passage right | none |  | Verified | collectible |  |  |
 | 6 | the marrow rosary cache 2 | passage right | none |  | Verified | collectible |  |  |
+| 7 | Skull Scuttler 1 | above gauntlet | None |  | Verified | enemy | ✓ |  |
+| 8 | Skull Brute 1 | above gauntlet | None |  | Verified | enemy | ✓ |  |
+| 9 | Beastfly 1 | gauntlet arena | None |  | Verified | enemy | ✓ |  |
+| 10 | Beastfly 2 | gauntlet arena | None |  | Verified | enemy | ✓ |  |
+| 11 | Beastfly 3 | gauntlet arena | None |  | Verified | enemy | ✓ |  |
+| 12 | Skull Scuttler 2 | gauntlet arena | None |  | Verified | enemy | ✓ |  |
+| 13 | Skull Scuttler 3 | gauntlet arena | None |  | Verified | enemy | ✓ |  |
+| 14 | Skull Brute 2 | gauntlet arena | None |  | Verified | enemy | ✓ |  |
+| 15 | Beastfly 4 | gauntlet arena | None |  | Verified | enemy | ✓ |  |
+| 16 | Beastfly 5 | above gauntlet | None |  | Verified | enemy | ✓ |  |
+| 17 | Skull Scuttler 4 | middle left | None |  | Verified | enemy | ✓ |  |
+| 18 | Skull Scuttler 5 | middle left | None |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

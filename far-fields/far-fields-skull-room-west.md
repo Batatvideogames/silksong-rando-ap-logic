@@ -63,6 +63,29 @@
 | 18 | fertid 2 | upper left exit area | none |  | Verified | enemy | ✓ | shell shards |
 | 19 | hoker 3 | rosary alcove | none |  | Verified | enemy | ✓ | used to farm flexible spines |
 | 20 | pilgrim groveller 2 | rosary alcove | none |  | Verified | enemy | ✓ | rosaries, can be farmed for pilgrim shawls |
+| 21 | Brushflit 1 |  |  |  |  | enemy | ✓ |  |
+| 22 | Brushflit 2 |  |  |  |  | enemy | ✓ |  |
+| 23 | Brushflit 3 |  |  |  |  | enemy | ✓ |  |
+| 24 | Brushflit 4 |  |  |  |  | enemy | ✓ |  |
+| 25 | Fertid 1 |  |  |  |  | enemy | ✓ |  |
+| 26 | Hoker 1 |  |  |  |  | enemy | ✓ |  |
+| 27 | Hoker 4 |  |  |  |  | enemy | ✓ |  |
+| 28 | Hoker 5 |  |  |  |  | enemy | ✓ |  |
+| 29 | Hoker 6 |  |  |  |  | enemy | ✓ |  |
+| 30 | Brushflit 5 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 31 | Brushflit 6 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 32 | Brushflit 7 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 33 | Pilgrim Pouncer 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 34 | Pilgrim Groveller 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 35 | Pilgrim Groveller 3 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 36 | Brushflit 8 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 37 | Winged Pilgrim 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 38 | Hoker 7 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 39 | Pilgrim Pouncer 3 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 40 | Pilgrim Hulk 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 41 | Winged Pilgrim 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 42 | Shardillard 1 |  |  |  |  | enemy | ✓ |  |
+| 43 | Fertid 3 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

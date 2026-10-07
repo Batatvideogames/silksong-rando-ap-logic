@@ -33,7 +33,9 @@
 
 ## Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

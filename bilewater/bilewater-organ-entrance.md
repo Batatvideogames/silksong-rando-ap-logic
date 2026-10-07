@@ -35,7 +35,12 @@
 
 ## Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Swamp Squit 1 |  |  |  |  | enemy | ✓ |  |
+| 2 | Swamp Squit 2 |  |  |  |  | enemy | ✓ |  |
+| 3 | Miremite 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Miremite 2 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

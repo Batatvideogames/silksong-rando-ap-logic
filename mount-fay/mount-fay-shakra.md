@@ -51,6 +51,17 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Mount Fay - Map Purchase | Shakra | None |  | Verified | collectible | ✓ |  |
+| 2 | Mnemonid 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Mnemonid 2 |  |  |  |  | enemy | ✓ |  |
+| 4 | Mnemonid 3 |  |  |  |  | enemy | ✓ |  |
+| 5 | Mnemonid 4 |  |  |  |  | enemy | ✓ |  |
+| 6 | Mnemonid 5 |  |  |  |  | enemy | ✓ |  |
+| 7 | Mnemonid 6 |  |  |  |  | enemy | ✓ |  |
+| 8 | Mnemonid 7 |  |  |  |  | enemy | ✓ |  |
+| 9 | Weaver Servitor Broken 1 |  |  |  |  | enemy | ✓ |  |
+| 10 | Servitor Boran 1 |  |  |  |  | enemy | ✓ |  |
+| 11 | Mnemonid 8 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 12 | Mnemonid 9 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 ## Room Images
 

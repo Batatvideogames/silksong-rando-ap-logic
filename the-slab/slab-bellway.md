@@ -26,6 +26,7 @@ No subroom connections defined.
 | 1 | Flea: The Slab - Bellway |  | (cling grip AND faydown) OR silk soar |  |  | collectible |  |  |
 | 2 | Bellway The Slab |  | Unlock Bellway Rosary Lock |  |  | travel |  |  |
 | 3 | Bellway Rosary Lock |  | spend 40 rosaries |  |  | lock |  |  |
+| 4 | Drapefly 1 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

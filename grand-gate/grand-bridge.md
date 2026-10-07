@@ -25,6 +25,7 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Grand Bridge Plate |  | Nothing |  | Verified | switch | ✓ |  |
 | 2 | Seth Meeting Grand Gate |  | after THE Seth Meeting Shellwood |  | Verified | event | ✓ | skipped per the wiki if: - ecstasy of the end wish granted - have everbloom |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

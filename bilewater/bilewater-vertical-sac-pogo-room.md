@@ -48,6 +48,10 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Bilewater - Rosary Cache #4 | upper platform | none |  | Verified | resource | ✓ |  |
 | 2 | Bilewater - Rosary Cache #5 | upper platform | none |  | Verified | resource | ✓ |  |
+| 3 | Stilkin Trapper 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Swamp Squit 1 |  |  |  |  | enemy | ✓ |  |
+| 5 | Swamp Squit 2 |  |  |  |  | enemy | ✓ |  |
+| 6 | Swamp Squit 3 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

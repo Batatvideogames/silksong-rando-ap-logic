@@ -27,6 +27,10 @@ No subroom connections defined.
 | 3 | Lost Garmond Boss Fight |  | complete THE Hero's Call Wish Promised |  | Verified | boss |  |  |
 | 4 | Hero's Call Wish Granted |  | defeat Lost Garmond Boss Fight |  | Verified | event |  |  |
 | 5 | Hero's Memento |  | defeat Lost Garmond Boss Fight |  | Verified | collectible |  |  |
+| 6 | Lost Garmond 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 7 | Elder Pilgrim 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 8 | Winged Pilgrim 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 9 | Pilgrim Hiker 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 ## Room Images
 

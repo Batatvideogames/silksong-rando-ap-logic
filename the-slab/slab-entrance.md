@@ -23,6 +23,7 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | The Slab - Frayed Rosary String #1 |  | none |  |  | collectible | ✓ |  |
 | 2 | Slab Entrance Switch |  | flip switch down |  |  | switch | ✓ |  |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

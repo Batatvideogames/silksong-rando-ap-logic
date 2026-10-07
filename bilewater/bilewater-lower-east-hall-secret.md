@@ -31,6 +31,9 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Wardenfly | upper area | ( act 1 AND act 2 ) AND defeat THE Bell Beast Boss Fight AND (  after Lace Second Encounter IN Choral Chambers Eastern Shaft OR after Lace Second Encounter IN Grand Bellway Shaft ) |  | Verified | enemy | ✓ | per the wiki |
 | 2 | Get Kidnapped | upper area | after Wardenfly |  | Verified | logic-point | ✓ |  |
+| 3 | Wardenfly 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Stilkin 1 |  |  |  |  | enemy | ✓ |  |
+| 5 | Miremite 1 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

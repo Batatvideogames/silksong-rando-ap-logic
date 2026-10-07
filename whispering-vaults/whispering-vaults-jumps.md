@@ -53,6 +53,7 @@
 | 1 | Whispering Vaults: Flip Switch #6 | Room With Stuff | Nothing. |  | Verified | switch | ✓ |  |
 | 2 | Whispering Vaults: Heavy Rosary Necklace #1 | Rosary Necklace | Nothing. |  | Verified | resource | ✓ |  |
 | 3 | Whispering Vaults: Psalm Cylinder #2 | Room With Stuff | Nothing. |  | Verified | collectible | ✓ |  |
+| 4 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

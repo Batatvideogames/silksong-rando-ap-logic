@@ -41,6 +41,9 @@
 | 3 | Shell Shard Cache: Abyss_05 #3 | Centre Platform | None |  | Verified | collectible | ✓ |  |
 | 4 | Shell Shard Cache: Abyss_05 #4 | Hidden Shellshards | None |  | Verified | collectible | ✓ |  |
 | 5 | Shell Shard Cache: Abyss_05 #5 | Hidden Shellshards | None |  | Verified | collectible | ✓ |  |
+| 6 | Shadow Creeper 1 |  |  |  |  | enemy | ✓ |  |
+| 7 | Shadow Creeper 2 |  |  |  |  | enemy | ✓ |  |
+| 8 | Shadow Charger 1 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

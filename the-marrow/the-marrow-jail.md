@@ -44,6 +44,7 @@
 | 5 | progressive tool pouch | ground floor | complete pin minigame 1 OR Act 3 |  | Verified | collectible |  | tool pouch will be available for free in act 3 if not already collected |
 | 6 | heavy rosary necklace | ground floor | complete pin minigame 2 |  | Verified | collectible |  |  |
 | 7 | straight pin | above grindle cell | none |  | Verified | collectible | ✓ |  |
+| 8 | Pilgrim Guide 1 | other cell | Normal World Spawn |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

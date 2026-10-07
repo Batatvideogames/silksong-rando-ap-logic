@@ -34,6 +34,9 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | relic psalm cylinder high halls | relic spot | none |  | Verified | collectible | ✓ |  |
 | 2 | left exit blockade | left exit area | break wall left |  | Verified | blockade |  |  |
+| 3 | Drapefly 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Drapefly 2 |  |  |  |  | enemy | ✓ |  |
+| 5 | Giant Drapemite 1 |  |  |  |  | enemy | ✓ |  |
 
 ## Notes
 

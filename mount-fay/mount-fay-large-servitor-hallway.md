@@ -21,7 +21,9 @@ No subroom connections defined.
 
 ## Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Servitor Boran 1 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

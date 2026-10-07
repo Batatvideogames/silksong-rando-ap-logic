@@ -35,6 +35,7 @@
 | 1 | Gauntlet Exit Lever | Arena | Clear Underworks Corridor Gauntlet |  | Verified | switch | ✓ |  |
 | 2 | Underworks: Silk Spool #2 | Arena | Nothing. |  | Verified | collectible | ✓ |  |
 | 3 | Underworks Corridor Gauntlet | Arena | Nothing. |  | Verified | collectible | ✓ |  |
+| 4 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

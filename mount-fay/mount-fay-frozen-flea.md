@@ -32,6 +32,11 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Flea: Mount Fay | Frozen Flea | None |  | Verified | collectible | ✓ |  |
+| 2 | Mnemonid 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Mnemonid 2 |  |  |  |  | enemy | ✓ |  |
+| 4 | Mnemonid 3 |  |  |  |  | enemy | ✓ |  |
+| 5 | Mnemonid 4 |  |  |  |  | enemy | ✓ |  |
+| 6 | Mnemonid 5 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

@@ -64,6 +64,7 @@
 | 4 | shell shard cache deep docks 8 | middle side room | none |  | Verified | resource | ✓ |  |
 | 5 | shell shard cache deep docks 9 | middle side room | none |  | Verified | resource | ✓ |  |
 | 6 | ceiling switch | middle switch platform | none |  | Verified | switch | ✓ | lowers middle chain platforms |
+| 7 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Notes
 

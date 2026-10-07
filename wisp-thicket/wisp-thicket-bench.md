@@ -39,6 +39,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Bench | Bench | none |  | Verified | bench |  |  |
 | 2 | Craw Summons | Bench | Craw Summons Ready |  | Verified | collectible |  |  |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

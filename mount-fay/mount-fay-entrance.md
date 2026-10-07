@@ -65,6 +65,13 @@
 | 2 | Mount Fay - Shell shard cache #2 | Shell Shard Ledge | None |  | Verified | resource | ✓ |  |
 | 3 | The Slab - Spool Fragment | Slab Spool Room | cling grip OR Scuttlebrace OR Silk Soar |  | Verified | collectible | ✓ | Duplicate check name for spool fragment? |
 | 4 | Breakable Wall - Mount Fay Entrance | Upper Left Exit | None |  | Verified | blockade | ✓ |  |
+| 5 | Driftlin 1 |  |  |  |  | enemy | ✓ |  |
+| 6 | Driftlin 2 |  |  |  |  | enemy | ✓ |  |
+| 7 | Driftlin 3 |  |  |  |  | enemy | ✓ |  |
+| 8 | Driftlin 4 |  |  |  |  | enemy | ✓ |  |
+| 9 | Driftlin 5 |  |  |  |  | enemy | ✓ |  |
+| 10 | Driftlin 6 |  |  |  |  | enemy | ✓ |  |
+| 11 | Driftlin 7 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

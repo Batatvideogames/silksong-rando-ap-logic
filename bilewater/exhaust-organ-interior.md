@@ -48,6 +48,7 @@
 | 2 | Boss: Phantom | top layer | dash OR run |  | Verified | boss | ✓ |  |
 | 3 | Organ Bench | bench room | cling grip |  | Verified | bench | ✓ |  |
 | 4 | broken elevator | maze | attack left |  | Verified | blockade | ✓ |  |
+| 5 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

@@ -40,6 +40,16 @@
 | 1 | rosary cache the marrow 10 | ground floor | none |  | Verified | collectible | ✓ |  |
 | 2 | shell shard cache the marrow 5 | right upper area | none |  | Verified | collectible | ✓ |  |
 | 3 | shell shard cache the marrow 6 | right upper area | none |  | Verified | collectible | ✓ |  |
+| 4 | Shardillard 1 | right upper area | None |  | Verified | miniboss | ✓ |  |
+| 5 | Skull Brute 1 | ground floor | None |  | Verified | enemy | ✓ |  |
+| 6 | Caranid 1 | ground floor | None |  | Verified | enemy | ✓ |  |
+| 7 | Skull Scuttler 1 | ground floor | None |  | Verified | enemy | ✓ |  |
+| 8 | Skull Scuttler 2 | ground floor | None |  | Verified | enemy | ✓ |  |
+| 9 | Pilgrim Pouncer 1 | ground floor | None |  | Verified | enemy | ✓ |  |
+| 10 | Pilgrim Groveller 1 | mr burns house | None |  | Verified | enemy | ✓ |  |
+| 11 | Caranid 2 | right upper area | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 12 | Caranid 3 | right exit area | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 13 | Caranid 4 | right upper area | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

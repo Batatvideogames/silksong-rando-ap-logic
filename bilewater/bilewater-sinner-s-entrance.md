@@ -39,6 +39,12 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Bilewater - Rosary Cache #1 | left rosary platform | none |  | Verified | collectible | ✓ |  |
 | 2 | Bilewater - Rosary Cache #2 | middle quarter | (Faydown cloak AND (ledge grab OR scuttlebrace)) OR silk soar OR cling grip |  | Verified | collectible | ✓ |  |
+| 3 | Swamp Squit 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Swamp Squit 2 |  |  |  |  | enemy | ✓ |  |
+| 5 | Swamp Squit 3 |  |  |  |  | enemy | ✓ |  |
+| 6 | Miremite 1 |  |  |  |  | enemy | ✓ |  |
+| 7 | Miremite 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 8 | Void Mass 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 ## Room Images
 

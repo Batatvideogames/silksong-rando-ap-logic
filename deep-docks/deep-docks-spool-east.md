@@ -33,6 +33,7 @@
 | 3 | shell shard cache deep docks 2 | the floor is lava | Magma Bell |  | Verified | resource | ✓ |  |
 | 4 | shell shard cache deep docks 3 | the floor is lava | Magma Bell |  | Verified | resource | ✓ |  |
 | 5 | the lever that makes all of my hard work worthless | the floor is lava | none |  | Verified | switch | ✓ |  |
+| 6 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

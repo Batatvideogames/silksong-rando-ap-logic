@@ -26,6 +26,7 @@ No subroom connections defined.
 | 1 | bellshrine switch |  | none |  | Verified | switch |  |  |
 | 2 | bench |  | activate bellshrine switch |  | Verified | bench |  |  |
 | 3 | bell deep docks |  | activate bellshrine switch |  | Verified | collectible |  |  |
+| 4 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

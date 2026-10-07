@@ -35,6 +35,11 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | thread_memory | Camp | Needolin |  | Verified | lore | ✓ | dont think we doing these |
 | 2 | Wreath OF Purity | Camp | None |  | Verified | collectible | ✓ |  |
+| 3 | Barnak 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Barnak 2 |  |  |  |  | enemy | ✓ |  |
+| 5 | Barnak 3 |  |  |  |  | enemy | ✓ |  |
+| 6 | Barnak 4 |  |  |  |  | enemy | ✓ |  |
+| 7 | Barnak 5 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

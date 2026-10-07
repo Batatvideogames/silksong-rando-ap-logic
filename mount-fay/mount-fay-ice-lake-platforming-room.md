@@ -27,7 +27,15 @@
 
 ## Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Mnemonid 1 |  |  |  |  | enemy | ✓ |  |
+| 2 | Mnemonid 2 |  |  |  |  | enemy | ✓ |  |
+| 3 | Mnemonid 3 |  |  |  |  | enemy | ✓ |  |
+| 4 | Mnemonid 4 |  |  |  |  | enemy | ✓ |  |
+| 5 | Mnemonid 5 |  |  |  |  | enemy | ✓ |  |
+| 6 | Mnemonid 6 |  |  |  |  | enemy | ✓ |  |
+| 7 | Mnemonid 7 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

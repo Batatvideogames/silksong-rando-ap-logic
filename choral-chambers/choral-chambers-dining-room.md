@@ -30,6 +30,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Silkeater: Choral Chambers East | Below Diner | ledge grab OR silk soar OR cling grip OR faydown cloak | TODO |  | collectible |  | Check |
 | 2 | Great Taste of Pharloom Wish Promised | Diner | Act 2 |  | Verified | event |  | wiki says "act 2" is the only prereq |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

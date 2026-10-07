@@ -44,6 +44,7 @@
 | 1 | dead bugs purse | pilgrim grave | steel soul off |  | Verified | collectible | ✓ | STILL MARKED AS ??? ON TRACKER |
 | 2 | shell satchel | pilgrim grave | steel soul on |  | Verified | collectible | ✓ |  |
 | 3 | wormways map | shakra camp | spend 70 rosaries |  | Verified | collectible | ✓ | shakra shop |
+| 4 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Notes
 

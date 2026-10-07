@@ -21,7 +21,9 @@ No subroom connections defined.
 
 ## Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Servitor Ignim 1 |  | faydown cloak  OR silk soar OR reaper attack up OR beast attack up OR architect attack up OR witch attack up OR shaman attack up |  | Verified | enemy | ✓ | lil bugger is on the ceiling - need reach to get him  something like rune rage would probably reach, but not sure I want to add that |
 
 ## Room Images
 

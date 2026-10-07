@@ -76,6 +76,7 @@
 | 15 | Lower Passage 2 Breakable  Wall To Exit | Lower Passage 2 | None |  | Verified | blockade | ✓ |  |
 | 16 | Wish: Silver Bells Started | Top Exit | None |  | Verified | event |  |  |
 | 17 | Wish: Silk And Soul Started | Top Exit | None |  | Verified | event |  |  |
+| 18 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

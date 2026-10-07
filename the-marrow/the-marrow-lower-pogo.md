@@ -45,7 +45,16 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | the marrow craft metal | craftmetal alcove | attack right |  | Verified | collectible | ✓ |  |
 | 2 | the marrow 4 shell shard cache | cache alcove | none |  | Verified | collectible | ✓ |  |
-| 3 | volatile flintbeetle 3 | lower mid right area | complete THE volatile flintbeetles wish promised |  | Verified | miniboss | ✓ | this one has a stable position |
+| 3 | Volatile Flintbeetle 3 | lower mid right area | complete THE volatile flintbeetles wish promised |  | Verified | miniboss | ✓ | this one has a stable position |
+| 4 | Skull Scuttler 1 | lower mid right area | None |  | Verified | enemy | ✓ |  |
+| 5 | Winged Pilgrim 1 | lower right exit area | None |  | Verified | enemy | ✓ |  |
+| 6 | Kilik 1 | pogo supreme | None |  | Verified | enemy | ✓ |  |
+| 7 | Caranid 1 | pogo supreme | None |  | Verified | enemy | ✓ |  |
+| 8 | Caranid 2 | pogo supreme | None |  | Verified | enemy | ✓ |  |
+| 9 | Skull Scuttler 2 | lower right exit area | None |  | Verified | enemy | ✓ |  |
+| 10 | Pilgrim Pouncer 1 | pogo supreme | None |  | Verified | enemy | ✓ |  |
+| 11 | Caranid 3 | pogo supreme | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 12 | Void Mass 1 | pogo supreme | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

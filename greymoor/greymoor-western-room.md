@@ -50,6 +50,17 @@
 | 3 | Greymoor - Rosary Cache #13 | upper section | silk soar OR faydown cloak OR clawline OR progressive swift step 1 OR sharpdart OR ledge grab OR cling grip OR easy beast pogo OR medium shaman pogo |  | Verified | resource | ✓ |  |
 | 4 | Greymoor - Rosary Dish | rosaries room | nothing |  | Verified | resource | ✓ |  |
 | 5 | tower entrance door | tower entrance | break lever right OR break lever left OR break lever up |  | Verified | blockade | ✓ |  |
+| 6 | Silk Snipper 1 |  |  |  |  | enemy | ✓ |  |
+| 7 | Mite 1 |  |  |  |  | enemy | ✓ |  |
+| 8 | Mite 2 |  |  |  |  | enemy | ✓ |  |
+| 9 | Fluttermite 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 10 | Dreg Catcher 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 11 | Silk Snipper 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 12 | Silk Snipper 3 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 13 | Fluttermite 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 14 | Silk Snipper 4 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 15 | Void Mass 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 16 | Roachcatcher 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 ## Room Images
 

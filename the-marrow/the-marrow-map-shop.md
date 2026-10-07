@@ -56,9 +56,16 @@
 | 9 | map the marrow | shakra intro | spend 50 rosaries |  | Verified | collectible |  | shakra's shop |
 | 10 | map bench pins | shakra intro | spend 60 rosaries |  | Verified | collectible |  | shakra's shop |
 | 11 | map bellway pins | shakra intro | spend 60 rosaries |  | Verified | collectible |  | shakra's shop \| appears to be bugged in availability logic still. shows available but isn't |
-| 12 | volatile flintbeetle 2 | right upper path | complete THE volatile flintbeetles wish promised |  | Verified | miniboss | ✓ | this one swaps position based on when the marrow bellshrine is activated (per the wiki) - best to ensure both locations are accessible for the quest |
-| 13 | bench gate switch | bench spot | flip switch up |  | Verified | switch | ✓ |  |
-| 14 | bench | bench spot | none |  | Verified | bench | ✓ |  |
+| 12 | bench gate switch | bench spot | flip switch up |  | Verified | switch | ✓ |  |
+| 13 | bench | bench spot | none |  | Verified | bench | ✓ |  |
+| 14 | volatile flintbeetle 2 | right upper path | complete THE volatile flintbeetles wish promised |  | Verified | miniboss | ✓ | this one swaps position based on when the marrow bellshrine is activated (per the wiki) - best to ensure both locations are accessible for the quest |
+| 15 | Pilgrim Pouncer 1 | right upper path | None |  | Verified | enemy | ✓ | ded if shakra here |
+| 16 | Pilgrim Pouncer 2 | shakra intro | None |  | Verified | enemy | ✓ | ded if shakra here |
+| 17 | Pilgrim Groveller 1 | shakra intro | None |  | Verified | enemy | ✓ |  |
+| 18 | Pilgrim Groveller 2 | shakra intro | None |  | Verified | enemy | ✓ |  |
+| 19 | Winged Pilgrim 1 | right upper path | None |  | Verified | enemy | ✓ | ded if shakra here |
+| 20 | Skull Scuttler 1 | right lower path | None |  | Verified | enemy | ✓ |  |
+| 21 | Void Mass 1 | right lower path | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

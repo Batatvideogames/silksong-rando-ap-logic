@@ -49,6 +49,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | High Halls - Rosary Cache | Penthouse | none |  | Verified | collectible | ✓ |  |
 | 2 | Resting Site: High Halls | Resting Site Ledge | complete THE A Vassal Lost Wish Promised |  | Verified | event | ✓ |  |
+| 3 | Minister 1 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

@@ -24,6 +24,8 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Boss: Nyleth |  | None |  | Verified | boss |  |  |
 | 2 | Pollen Heart |  | None |  | Verified | collectible |  |  |
+| 3 | Nyleth 1 |  |  |  |  | enemy |  |  |
+| 4 | NPC 1 |  |  |  |  | enemy |  |  |
 
 ## Room Images
 

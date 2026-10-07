@@ -39,6 +39,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Whispering Vaults: Mask Shard #1 | Shard | Nothing. |  | Verified | collectible | ✓ |  |
 | 2 | Whispering Vaults: Flip Switch #3 | Bottom | Nothing. |  | Verified | switch | ✓ |  |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

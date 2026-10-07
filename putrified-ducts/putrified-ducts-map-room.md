@@ -24,6 +24,8 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Putrified Ducts - thread memory Map Room |  | Needolin |  | Verified | lore | ✓ |  |
 | 2 | Putrified Ducts - Map Pickup |  | None |  | Verified | collectible | ✓ |  |
+| 3 | Barnak 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Barnak 2 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

@@ -45,6 +45,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Whispering Vaults: Arena #1 | Arena | Nothing. |  | Verified | gauntlet | ✓ |  |
 | 2 | Logic Box | Bottom Right | Attack Right OR Attack Left |  | Verified | logic-point | ✓ | < add predicate |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Notes
 

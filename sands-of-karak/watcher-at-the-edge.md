@@ -24,6 +24,7 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Watcher at the Edge |  | Needolin |  | Verified | boss | ✓ |  |
 | 2 | Grey Memento |  | Needolin |  | Verified | collectible | ✓ |  |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

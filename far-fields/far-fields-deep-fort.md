@@ -31,6 +31,8 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | memory locket far fields | prison | none |  | Verified | collectible | ✓ | name says act 3 but is not actually gated by act 3 |
 | 2 | grunt | main area | none |  | Verified | miniboss |  | does not respawn |
+| 3 | Skarrgard 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Flapping Fertid 1 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

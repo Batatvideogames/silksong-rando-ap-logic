@@ -46,6 +46,7 @@
 | 3 | Relic: Psalm Cylinder (Underworks) | Psalm Cylinder | Nothing |  | Verified | collectible | ✓ |  |
 | 4 | Whiteward Side Breakable Wall | Whiteward Entrance | Break Wall Left |  | Verified | blockade | ✓ |  |
 | 5 | Whiteward Side Scaffold Wall | Whiteward Entrance | Break Wall Left |  | Verified | blockade | ✓ |  |
+| 6 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

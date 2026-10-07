@@ -49,8 +49,33 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | weavenest atla mossberry | mossberry platform | none |  | Verified | collectible | ✓ |  |
-| 2 | double moss mother boss fight | boss room | none |  | Verified | boss |  | BOSS IS NOT CURRENTLY TIED TO A CHECK - but does unlock weavelight check |
+| 2 | double moss mother boss fight | boss room | None |  | Verified | boss |  | BOSS IS NOT CURRENTLY TIED TO A CHECK - but does unlock weavelight check |
 | 3 | weavelight | boss room | complete double moss mother boss fight |  | Verified | collectible |  |  |
+| 4 | Moss Mother A | boss room | None |  | Verified | enemy | ✓ | individual moss mother |
+| 5 | Moss Mother B | boss room | None |  | Verified | enemy | ✓ | individual moss mother |
+| 6 | Mossgrub Summon 1 | boss room | Invalid |  | Verified | enemy | ✓ | boss summon - not a guaranteed spawn |
+| 7 | Mossgrub Summon 2 | boss room | Invalid |  | Verified | enemy | ✓ | boss summon - not a guaranteed spawn |
+| 8 | Mossgrub Summon 3 | boss room | Invalid |  | Verified | enemy | ✓ | boss summon - not a guaranteed spawn |
+| 9 | Mossgrub Summon 4 | boss room | Invalid |  | Verified | enemy | ✓ | boss summon - not a guaranteed spawn |
+| 10 | Mossgrub 5 | causeway | None |  | Verified | enemy | ✓ |  |
+| 11 | MossBone Cocoon (6) | upper west platforms | None |  | Verified | enemy | ✓ |  |
+| 12 | MossBone Cocoon (5) | upper west platforms | Swim |  | Verified | enemy | ✓ |  |
+| 13 | MossBone Cocoon (4) | lower west platforms | None |  | Verified | enemy | ✓ |  |
+| 14 | Mossgrub 6 | causeway | None |  | Verified | enemy | ✓ |  |
+| 15 | Servitor Ignim 1 | causeway | None |  | Verified | enemy | ✓ |  |
+| 16 | Servitor Ignim 2 | lower west platforms | None |  | Verified | enemy | ✓ |  |
+| 17 | Mossmir 1 | upper west platforms | None |  | Verified | enemy | ✓ |  |
+| 18 | Mossmir 2 | upper east platforms | None |  | Verified | enemy | ✓ |  |
+| 19 | Mossmir 3 | upper west platforms | None |  | Verified | enemy | ✓ |  |
+| 20 | Mawling 1 | causeway | None |  | Verified | enemy | ✓ |  |
+| 21 | Marrowmaw 1 | upper east platforms | None |  | Verified | enemy | ✓ |  |
+| 22 | Mawling 2 | causeway | None |  | Verified | enemy | ✓ |  |
+| 23 | Marrowmaw 2 | lower west platforms | None |  | Verified | enemy | ✓ |  |
+| 24 | Mawling 3 | upper east platforms | None |  | Verified | enemy | ✓ |  |
+| 25 | Mawling 4 | causeway | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 26 | Void Mass 1 | mossberry platform | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 27 | Mossmir 4 | causeway | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 28 | Mossmir 5 | causeway | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

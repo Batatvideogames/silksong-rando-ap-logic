@@ -41,6 +41,7 @@
 | 3 | Whispering Vaults: Rosary Cache #2 | Loot | Nothing. |  | Verified | resource | ✓ |  |
 | 4 | Whispering Vaults: Psalm Cylinder #1 | Cylinder | Nothing. |  | Verified | collectible | ✓ |  |
 | 5 | Whispering Vaults: Breakable Floor | Bench | Break Wall Down |  | Verified | blockade |  | stand on it and it breaks |
+| 6 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

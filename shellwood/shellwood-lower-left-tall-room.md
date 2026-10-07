@@ -34,6 +34,17 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Flea: Shellwood | Top | None |  | Verified | collectible |  |  |
+| 2 | Phacia 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Phacia 2 |  |  |  |  | enemy | ✓ |  |
+| 4 | Phacia 3 |  |  |  |  | enemy | ✓ |  |
+| 5 | Phacia 4 |  |  |  |  | enemy | ✓ |  |
+| 6 | Phacia 5 |  |  |  |  | enemy | ✓ |  |
+| 7 | Phacia 6 |  |  |  |  | enemy | ✓ |  |
+| 8 | Pollenica 1 |  |  |  |  | enemy | ✓ |  |
+| 9 | Pollenica 2 |  |  |  |  | enemy | ✓ |  |
+| 10 | Pollenica 3 |  |  |  |  | enemy | ✓ |  |
+| 11 | Pollenica 4 |  |  |  |  | enemy | ✓ |  |
+| 12 | Pollenica 5 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

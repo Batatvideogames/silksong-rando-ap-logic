@@ -49,6 +49,11 @@
 | 5 | the lost fleas wish promised | flea floor | none |  | Verified | event |  | wish can be started here or at the bone bottom wish wall |
 | 6 | the lost fleas wish granted | flea floor | ( act 1 OR act 2 )  AND complete the lost fleas wish promised AND get 5 fleas |  | Verified | event |  | grants caravan invite |
 | 7 | flea caravan move to greymoor | flea floor | complete the lost fleas wish granted |  | Verified | event |  |  |
+| 8 | Kilik 1 | behind breakable wall | None |  | Verified | enemy | ✓ |  |
+| 9 | Kilik 2 | behind breakable wall | None |  | Verified | enemy | ✓ |  |
+| 10 | Kilik 3 | top floor | None |  | Verified | enemy | ✓ |  |
+| 11 | Kilik 4 | top floor | None |  | Verified | enemy | ✓ |  |
+| 12 | Kilik 5 | ground floor | None |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

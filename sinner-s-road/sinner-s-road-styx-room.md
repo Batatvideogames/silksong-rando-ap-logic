@@ -36,6 +36,14 @@
 | 2 | Styx Room Lower Breakable Wall | cage | break wall right |  | Verified | blockade |  |  |
 | 3 | Styx Grew First Grub | left | steel soul off |  | Verified | logic-point | ✓ |  |
 | 4 | Craw Summons | left | Craw Summons Ready |  | Verified | collectible |  |  |
+| 5 | Muckroach 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 6 | Muckroach 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 7 | Void Mass 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 8 | Void Mass 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 9 | Muckroach 3 |  |  |  |  | enemy | ✓ |  |
+| 10 | Roachfeeder 1 |  |  |  |  | enemy | ✓ |  |
+| 11 | Muckroach 4 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 12 | Muckroach 5 |  | Normal World Spawn |  |  | enemy | ✓ |  |
 
 ## Room Images
 

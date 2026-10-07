@@ -25,6 +25,7 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | craggler mini boss fight |  | none |  | Verified | miniboss | ✓ |  |
 | 2 | craggler beast shard |  | defeat craggler mini boss fight |  | Verified | collectible | ✓ |  |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Notes
 

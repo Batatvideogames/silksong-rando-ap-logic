@@ -46,6 +46,14 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Map Purchase: Blasted Steps | Bottom Third (Right) | (Progressive Swift Step 1 OR Faydown OR Clawline OR Flea Brew OR Sharpdart OR Easy Beast Crest Pogo) AND Act 1 |  | Verified | collectible | ✓ | This can be purchased at Bellhart if Shakra has moved. |
+| 2 | Judge 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Driznit 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Driznit 2 |  |  |  |  | enemy | ✓ |  |
+| 5 | Pilgrim Hiker 1 |  |  |  |  | enemy | ✓ |  |
+| 6 | Pharlid 1 |  |  |  |  | enemy | ✓ |  |
+| 7 | Winged Pilgrim Bellbearer 1 |  |  |  |  | enemy | ✓ |  |
+| 8 | Judge 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 9 | Void Mass 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 ## Room Images
 

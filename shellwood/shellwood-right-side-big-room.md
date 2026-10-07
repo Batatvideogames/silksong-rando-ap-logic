@@ -45,6 +45,38 @@
 | 4 | Shell shard Cache: Shellwood #5 | Right Platforms | None |  | Verified | resource | ✓ |  |
 | 5 | Shell shard Cache: Shellwood #6 | Right Platforms | None |  | Verified | resource | ✓ |  |
 | 6 | Longpin Nest | Right Platforms | None |  | Verified | blockade |  |  |
+| 7 | Control 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 8 | Wood Wasp 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 9 | Wood Wasp 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 10 | Wood Wasp 3 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 11 | Shellwood Goomba Flyer (2) 1 |  |  |  |  | enemy | ✓ |  |
+| 12 | Shellwood Goomba Flyer (1) 1 |  |  |  |  | enemy | ✓ |  |
+| 13 | Shellwood Goomba 1 |  |  |  |  | enemy | ✓ |  |
+| 14 | Pond Skipper 1 |  |  |  |  | enemy | ✓ |  |
+| 15 | Pond Skipper 2 |  |  |  |  | enemy | ✓ |  |
+| 16 | Shellwood Goomba (2) 1 |  |  |  |  | enemy | ✓ |  |
+| 17 | Pond Skipper 3 |  |  |  |  | enemy | ✓ |  |
+| 18 | Wood Wasp 4 |  |  |  |  | enemy | ✓ |  |
+| 19 | Wood Wasp 5 |  |  |  |  | enemy | ✓ |  |
+| 20 | Shellwood Goomba Flyer 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 21 | Pondcatcher 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 22 | Shellwood Goomba (6) 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 23 | Pondcatcher 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 24 | Pilgrim Hornfly 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 25 | Elder Pilgrim 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 26 | Pondcatcher 3 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 27 | Shellwood Goomba Flyer (4) 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 28 | Shellwood Gnat 1 |  |  |  |  | enemy | ✓ |  |
+| 29 | Shellwood Gnat 2 |  |  |  |  | enemy | ✓ |  |
+| 30 | Shellwood Gnat 3 |  |  |  |  | enemy | ✓ |  |
+| 31 | Shellwood Gnat 4 |  |  |  |  | enemy | ✓ |  |
+| 32 | Shellwood Gnat 5 |  |  |  |  | enemy | ✓ |  |
+| 33 | Shellwood Gnat 6 |  |  |  |  | enemy | ✓ |  |
+| 34 | Shellwood Gnat 7 |  |  |  |  | enemy | ✓ |  |
+| 35 | Wood Wasp 6 |  |  |  |  | enemy | ✓ |  |
+| 36 | Wood Wasp 7 |  |  |  |  | enemy | ✓ |  |
+| 37 | Shellwood Gnat 8 |  |  |  |  | enemy | ✓ |  |
+| 38 | Shellwood Gnat 9 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

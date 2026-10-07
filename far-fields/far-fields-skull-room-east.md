@@ -61,6 +61,28 @@
 | 13 | fertid 3 | upper left exit area | none |  | Verified | enemy | ✓ | shell shards |
 | 14 | tarmite 1 | skull platform | none |  | Verified | enemy | ✓ | shell shards, spawns after skull arena gauntlet cleared and succesfully escaped lava ascent |
 | 15 | tarmite 2 | skull platform | none |  | Verified | enemy | ✓ | shells shard, spawns after skull arena guantlet cleared and succesfully escaped lava ascent |
+| 16 | Tarmite 3 |  |  |  |  | enemy | ✓ |  |
+| 17 | Tarmite 4 |  |  |  |  | enemy | ✓ |  |
+| 18 | Fertid 1 |  |  |  |  | enemy | ✓ |  |
+| 19 | Brushflit 1 |  |  |  |  | enemy | ✓ |  |
+| 20 | Fertid 4 |  |  |  |  | enemy | ✓ |  |
+| 21 | Fertid 5 |  |  |  |  | enemy | ✓ |  |
+| 22 | Fertid 6 |  |  |  |  | enemy | ✓ |  |
+| 23 | Hoker 1 |  |  |  |  | enemy | ✓ |  |
+| 24 | Hoker 5 |  |  |  |  | enemy | ✓ |  |
+| 25 | Hoker 6 |  |  |  |  | enemy | ✓ |  |
+| 26 | Hoker 7 |  |  |  |  | enemy | ✓ |  |
+| 27 | Pilgrim Hulk 1 |  |  |  |  | enemy | ✓ |  |
+| 28 | Pilgrim Hornfly 1 |  |  |  |  | enemy | ✓ |  |
+| 29 | Fertid 7 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 30 | Brushflit 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 31 | Brushflit 3 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 32 | Brushflit 4 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 33 | Brushflit 5 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 34 | Brushflit 6 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 35 | Pilgrim Hulk 3 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 36 | Brushflit 7 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 37 | Brushflit 8 |  | Normal World Spawn |  |  | enemy | ✓ |  |
 
 ## Room Images
 

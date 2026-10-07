@@ -37,6 +37,8 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | rune harp weavenest atla | upper platform | none |  | Verified | collectible | ✓ |  |
 | 2 | weavenest atla archive inscription | ground floor | none |  | Verified | lore | ✓ |  |
+| 3 | Servitor Ignim 1 | ground floor | none |  | Verified | enemy | ✓ |  |
+| 4 | Servitor Ignim 2 | upper platform | none |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

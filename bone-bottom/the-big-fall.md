@@ -20,6 +20,7 @@
 | S10 | lower silk soar only zone | ✓ |
 | S11 | bottom left area | ✓ |
 | S12 | resting site ledge | ✓ |
+| S13 | right aknids | ✓ |
 
 ## Room Transitions
 
@@ -70,6 +71,7 @@
 | LC | lower crossing | lower right area | lower left area | silk soar OR faydown OR medium scuttlebrace (due to risk of falling) OR easy enemy pogo OR run  OR dash  OR clawline  OR sharpdart x 1 OR drifters |  | Verified | ✓ |  |
 | BLL | bottom to lower left | bottom left area | lower left area | ledge grab OR cling grip OR faydown cloak OR silk soar |  | Verified | ✓ |  |
 | BLL | bottom to lower left | lower left area | bottom left area | none (falling) |  | Verified | ✓ |  |
+| RA | right aknid access | lower right area | right aknids | ledge grab OR cling grip OR silk soar |  | Verified | ✓ |  |
 
 ## Check Locations
 
@@ -79,6 +81,16 @@
 | 2 | relic choral commandment moss grotto | middle right ledge | none |  | Verified | collectible | ✓ |  |
 | 3 | my missing courier wish granted | wish ledge | complete my missing courier wish promised IN bellhart wish wall |  | Verified | event | ✓ |  |
 | 4 | resting site bone bottom | resting site ledge | complete THE a vassal lost wish promised |  | Verified | event | ✓ |  |
+| 5 | Caranid 1 | wish ledge | after THE My Missing Courier Wish Promised |  | Verified | enemy | ✓ | defeating these enemies is part of the wish |
+| 6 | Caranid 2 | wish ledge | after THE My Missing Courier Wish Promised |  | Verified | enemy | ✓ | defeating these enemies is part of the wish |
+| 7 | Caranid 3 | upper right ledge | None |  | Verified | enemy | ✓ |  |
+| 8 | Caranid 4 | upper right ledge | None |  | Verified | enemy | ✓ |  |
+| 9 | Caranid 5 | upper right ledge | None |  | Verified | enemy | ✓ |  |
+| 10 | Aknid 1 | right aknids | None |  | Verified | enemy | ✓ |  |
+| 11 | Aknid 2 | right aknids | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 12 | Aknid 3 | lower left area | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 13 | Aknid 4 | right aknids | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 14 | Aknid 5 | lower left area | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

@@ -39,6 +39,20 @@
 | 1 | Deep Docks Entrance Lever | gauntlet right | Flip Switch Right |  | Verified | switch | ✓ |  |
 | 2 | Deep Docks Entrance Battle | gauntlet | Nothing. |  | Verified | gauntlet | ✓ |  |
 | 3 | Deep Docks Entrance - Mask Shard | gauntlet right | Nothing. |  | Verified | collectible | ✓ |  |
+| 4 | Smelt Shoveller 1 |  |  |  |  | enemy | ✓ |  |
+| 5 | Beastfly 1 |  |  |  |  | enemy | ✓ |  |
+| 6 | Beastfly 2 |  |  |  |  | enemy | ✓ |  |
+| 7 | Flintstone Flyer 1 |  |  |  |  | enemy | ✓ |  |
+| 8 | Pilgrim Hulk 1 |  |  |  |  | enemy | ✓ |  |
+| 9 | Beastfly 3 |  |  |  |  | enemy | ✓ |  |
+| 10 | Beastfly 4 |  |  |  |  | enemy | ✓ |  |
+| 11 | Flintstone Flyer 2 |  |  |  |  | enemy | ✓ |  |
+| 12 | Smokerock Sifter 1 |  |  |  |  | enemy | ✓ |  |
+| 13 | Beastfly 5 |  |  |  |  | enemy | ✓ |  |
+| 14 | Beastfly 6 |  |  |  |  | enemy | ✓ |  |
+| 15 | Beastfly 7 |  |  |  |  | enemy | ✓ |  |
+| 16 | Beastfly 8 |  |  |  |  | enemy | ✓ |  |
+| 17 | Beastfly 9 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

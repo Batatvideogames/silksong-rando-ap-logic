@@ -42,6 +42,7 @@
 | 4 | Sands of Karak - Shellshard Cache #8 | Shardilard Ledge | None |  | Verified | resource | ✓ |  |
 | 5 | Shardilard | Shardilard Ledge | None |  | Verified | enemy | ✓ | Should these be included? |
 | 6 | Elevator Switch karak | Right | None |  | Verified | switch |  |  |
+| 7 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

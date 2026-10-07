@@ -30,6 +30,11 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | flea rescue | flea rescue area | break vines right |  | Verified | collectible |  |  |
+| 2 | Skarrwing 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Skarrlid 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Skarrlid 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 5 | Skarrwing 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 6 | Skarrwing 3 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 ## Room Images
 

@@ -30,7 +30,10 @@
 
 ## Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Driftlin 1 |  |  |  |  | enemy | ✓ |  |
+| 2 | Driftlin 2 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

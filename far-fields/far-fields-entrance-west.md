@@ -45,6 +45,23 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | shell shard cache far fields 1 | check alcove | none |  | Verified | collectible |  |  |
+| 2 | Skarr Scout 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 3 | Skarr Stalker 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 4 | Spear Skarr 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 5 | Rhinogrund 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 6 | Void Mass 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 7 | Skarr Stalker 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 8 | Skarr Scout 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 9 | Skarr Scout 3 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 10 | Fertid 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 11 | Fertid 2 |  |  |  |  | enemy | ✓ |  |
+| 12 | Flapping Fertid 1 |  |  |  |  | enemy | ✓ |  |
+| 13 | Brushflit 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 14 | Brushflit 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 15 | Brushflit 3 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 16 | Flapping Fertid 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 17 | Fertid 3 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 18 | Flapping Fertid 3 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 ## Room Images
 

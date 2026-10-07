@@ -27,7 +27,12 @@
 
 ## Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Skarr Stalker 1 |  |  |  |  | enemy | ✓ |  |
+| 2 | Fertid 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Spear Skarr 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Void Mass 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 ## Room Images
 

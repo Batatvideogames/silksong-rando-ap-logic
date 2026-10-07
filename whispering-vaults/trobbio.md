@@ -50,6 +50,7 @@
 | 7 | Tormented Trobbio | Fight | complete THE Pain, Anguish and Misery Wish Promised AND defeat Trobbio AND Act 3 |  | Verified | boss | ✓ |  |
 | 8 | Pain, Anguish and Misery Wish Granted | Fight | Defeat Tormented Trobbio |  | Verified | event | ✓ |  |
 | 9 | Progressive Claw Mirror 2 | Fight | Defeat Tormented Trobbio |  | Verified | collectible | ✓ |  |
+| 10 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

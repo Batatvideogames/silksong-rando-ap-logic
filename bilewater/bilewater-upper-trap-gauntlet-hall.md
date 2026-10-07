@@ -21,7 +21,15 @@ No subroom connections defined.
 
 ## Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Stilkin 1 |  |  |  |  | enemy | ✓ |  |
+| 2 | Stilkin 2 |  |  |  |  | enemy | ✓ |  |
+| 3 | Stilkin Trapper 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Stilkin Trapper 2 |  |  |  |  | enemy | ✓ |  |
+| 5 | Swamp Squit 1 |  |  |  |  | enemy | ✓ |  |
+| 6 | Swamp Squit 2 |  |  |  |  | enemy | ✓ |  |
+| 7 | Miremite 1 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

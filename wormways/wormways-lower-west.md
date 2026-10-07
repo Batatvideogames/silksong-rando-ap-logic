@@ -50,6 +50,7 @@
 | 7 | plasmified blood lower | lower tunnels | needle phial AND defeat plasmid lower |  | Verified | resource | ✓ |  |
 | 8 | plasmid east | right exit basement | act 3 |  | Verified | enemy | ✓ | location per the wiki |
 | 9 | plasmified blood east | right exit basement | needle phial AND defeat plasmid east |  | Verified | resource | ✓ |  |
+| 10 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Notes
 

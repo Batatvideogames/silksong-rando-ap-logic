@@ -36,6 +36,11 @@
 | 2 | Greymoor - Rosary Cache #16 | main section | none |  | Verified | resource | ✓ |  |
 | 3 | Greymoor - Rosary Cache #17 | main section | drifters cloak OR (silk soar AND (progressive swift step 2 OR sharpdart OR clawline OR faydown cloak OR hard enemy pogo)) |  | Verified | resource | ✓ |  |
 | 4 | airstream | airstream lever | hit lever right OR hit lever up |  | Verified | switch | ✓ |  |
+| 5 | Roachcatcher 1 |  |  |  |  | enemy | ✓ |  |
+| 6 | Fluttermite 1 |  |  |  |  | enemy | ✓ |  |
+| 7 | Fluttermite 2 |  |  |  |  | enemy | ✓ |  |
+| 8 | Mite 1 |  |  |  |  | enemy | ✓ |  |
+| 9 | Void Mass 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 ## Room Images
 

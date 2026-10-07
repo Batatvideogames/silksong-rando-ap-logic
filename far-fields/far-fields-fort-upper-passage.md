@@ -40,6 +40,26 @@
 | 2 | rosary cache far fields 15 | main area | none |  | Verified | collectible | ✓ |  |
 | 3 | lower platform switch | left exit area | flip switch up |  | Verified | switch | ✓ |  |
 | 4 | rosary chest | left exit area | none |  | Verified | collectible | ✓ | NOT YET RANDOMIZED |
+| 5 | Brushflit 1 |  |  |  |  | enemy | ✓ |  |
+| 6 | Brushflit 2 |  |  |  |  | enemy | ✓ |  |
+| 7 | Brushflit 3 |  |  |  |  | enemy | ✓ |  |
+| 8 | Fertid 1 |  |  |  |  | enemy | ✓ |  |
+| 9 | Flapping Fertid 1 |  |  |  |  | enemy | ✓ |  |
+| 10 | Flapping Fertid 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 11 | Brushflit 4 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 12 | Brushflit 5 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 13 | Brushflit 6 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 14 | Brushflit 7 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 15 | Skarr Stalker 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 16 | Skarr Scout 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 17 | Flapping Fertid 3 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 18 | Flapping Fertid 4 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 19 | Brushflit 8 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 20 | Void Mass 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 21 | Spear Skarr 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 22 | Skarr Stalker 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 23 | Skarr Scout 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 24 | Spear Skarr 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 ## Room Images
 

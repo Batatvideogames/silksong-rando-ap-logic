@@ -25,6 +25,7 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Pollip Heart #3 |  | None |  | Verified | collectible | ✓ |  |
 | 2 | Seth Meeting Shellwood |  | after THE Seth Meeting Greymoor |  | Verified | event | ✓ |  |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

@@ -37,6 +37,12 @@
 | 2 | Breakable Vines - Exit Hall | Exit | None |  | Verified | blockade | ✓ |  |
 | 3 | Breakable Chain - Entrance | Entrance | Silk Soar OR ( Faydown Cloak OR Cling Grip ) |  | Verified | blockade | ✓ |  |
 | 4 | Vined Up door | Entrance | None |  | Verified | blockade |  |  |
+| 5 | Phacia 1 |  |  |  |  | enemy | ✓ |  |
+| 6 | Phacia 2 |  |  |  |  | enemy | ✓ |  |
+| 7 | Phacia 3 |  |  |  |  | enemy | ✓ |  |
+| 8 | Phacia 4 |  |  |  |  | enemy | ✓ |  |
+| 9 | Pollenica 1 |  |  |  |  | enemy | ✓ |  |
+| 10 | Void Mass 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 ## Room Images
 

@@ -34,6 +34,7 @@
 | 4 | shell shard cache hunter's march 6 | storage room | none |  | Verified | collectible | ✓ |  |
 | 5 | shell shard cache hunter's march 7 | storage room | none |  | Verified | collectible | ✓ |  |
 | 6 | shell shard cache hunter's march 8 | storage room | none |  | Verified | collectible | ✓ |  |
+| 7 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

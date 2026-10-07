@@ -35,6 +35,23 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Boss: Groal the Great | arena | none |  | Verified | boss | ✓ | Technically none, lol. |
 | 2 | Bilewater - Bilehaven Plaque | right of arena | cling grip OR silk soar OR scuttlebrace |  | Verified | lore | ✓ |  |
+| 3 | Stilkin 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Stilkin 2 |  |  |  |  | enemy | ✓ |  |
+| 5 | Stilkin Trapper 1 |  |  |  |  | enemy | ✓ |  |
+| 6 | Stilkin Trapper 2 |  |  |  |  | enemy | ✓ |  |
+| 7 | Swamp Squit 1 |  |  |  |  | enemy | ✓ |  |
+| 8 | Swamp Squit 2 |  |  |  |  | enemy | ✓ |  |
+| 9 | Swamp Squit 3 |  |  |  |  | enemy | ✓ |  |
+| 10 | Stilkin Trapper 3 |  |  |  |  | enemy | ✓ |  |
+| 11 | Stilkin 3 |  |  |  |  | enemy | ✓ |  |
+| 12 | Groal the Great 1 |  |  |  |  | enemy | ✓ |  |
+| 13 | Stilkin Trapper 4 |  |  |  |  | enemy | ✓ |  |
+| 14 | Swamp Squit 4 |  |  |  |  | enemy | ✓ |  |
+| 15 | Swamp Squit 5 |  |  |  |  | enemy | ✓ |  |
+| 16 | Stilkin Trapper 5 |  |  |  |  | enemy | ✓ |  |
+| 17 | Stilkin Trapper 6 |  |  |  |  | enemy | ✓ |  |
+| 18 | Stilkin 4 |  |  |  |  | enemy | ✓ |  |
+| 19 | Stilkin 5 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

@@ -38,6 +38,12 @@
 | 4 | vicious caranid 1 | bottom left area | none |  | Verified | enemy | ✓ | shell shards |
 | 5 | caranid | bottom left area | none |  | Verified | enemy | ✓ | shell shards |
 | 6 | vicious caranid 2 | upper right area | none |  | Verified | enemy | ✓ | shell shards |
+| 7 | Skarr Scout 1 |  |  |  |  | enemy | ✓ |  |
+| 8 | Fertid 1 |  |  |  |  | enemy | ✓ |  |
+| 9 | Vicious Caranid 3 |  |  |  |  | enemy | ✓ |  |
+| 10 | Vicious Caranid 4 |  |  |  |  | enemy | ✓ |  |
+| 11 | Caranid 1 |  |  |  |  | enemy | ✓ |  |
+| 12 | Flapping Fertid 1 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

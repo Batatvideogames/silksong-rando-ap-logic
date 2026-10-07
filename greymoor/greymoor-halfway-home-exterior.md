@@ -69,6 +69,20 @@
 | 3 | Greymoor - Orders | upper center room | none |  | Verified | lore | ✓ |  |
 | 4 | tower elevator | tower platform | none (pressure switch) |  | Verified | switch | ✓ |  |
 | 5 | hidden right wall | upper right section | break wall right OR break wall up |  | Verified | blockade | ✓ |  |
+| 6 | Craw 1 |  |  |  |  | enemy | ✓ |  |
+| 7 | Craw 2 |  |  |  |  | enemy | ✓ |  |
+| 8 | Craw 3 |  |  |  |  | enemy | ✓ |  |
+| 9 | Craw 4 |  |  |  |  | enemy | ✓ |  |
+| 10 | Craw 5 |  |  |  |  | enemy | ✓ |  |
+| 11 | Dreg Catcher 1 |  |  |  |  | enemy | ✓ |  |
+| 12 | Fluttermite 1 |  |  |  |  | enemy | ✓ |  |
+| 13 | Fluttermite 2 |  |  |  |  | enemy | ✓ |  |
+| 14 | Fluttermite 3 |  |  |  |  | enemy | ✓ |  |
+| 15 | Fluttermite 4 |  |  |  |  | enemy | ✓ |  |
+| 16 | Mite 1 |  |  |  |  | enemy | ✓ |  |
+| 17 | Fluttermite 5 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 18 | Fluttermite 6 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 19 | Dreg Catcher 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
 
 ## Room Images
 

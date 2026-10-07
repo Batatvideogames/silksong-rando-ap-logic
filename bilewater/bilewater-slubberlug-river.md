@@ -23,6 +23,19 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Bilewater - Mask Shard |  | cling grip AND (clawline OR (sharpdart AND (faydown cloaK OR enemy pogo)) OR (faydown cloak AND drifter's cloak)) |  | Verified | collectible | ✓ |  |
+| 2 | Slubberlug 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Slubberlug 2 |  |  |  |  | enemy | ✓ |  |
+| 4 | Slubberlug 3 |  |  |  |  | enemy | ✓ |  |
+| 5 | Slubberlug 4 |  |  |  |  | enemy | ✓ |  |
+| 6 | Slubberlug 5 |  |  |  |  | enemy | ✓ |  |
+| 7 | Slubberlug 6 |  |  |  |  | enemy | ✓ |  |
+| 8 | Slubberlug 7 |  |  |  |  | enemy | ✓ |  |
+| 9 | Slubberlug 8 |  |  |  |  | enemy | ✓ |  |
+| 10 | Slubberlug 9 |  |  |  |  | enemy | ✓ |  |
+| 11 | Slubberlug 10 |  |  |  |  | enemy | ✓ |  |
+| 12 | Swamp Squit 1 |  |  |  |  | enemy | ✓ |  |
+| 13 | Swamp Squit 2 |  |  |  |  | enemy | ✓ |  |
+| 14 | Swamp Squit 3 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

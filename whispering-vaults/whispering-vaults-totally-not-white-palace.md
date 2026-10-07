@@ -49,6 +49,7 @@
 | 4 | Whispering Vaults: Break Wall #2 | Collectibles(TM) | Break Wall Right |  | Verified | blockade | ✓ |  |
 | 5 | Whispering Vaults: Break Wall #3 | Collectibles(TM) | Break Wall Right |  | Verified | blockade | ✓ |  |
 | 6 | Whispering Vaults: Flip Switch #2 | White Palace Lite | Flip Switch Left |  | Verified | switch | ✓ |  |
+| 7 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

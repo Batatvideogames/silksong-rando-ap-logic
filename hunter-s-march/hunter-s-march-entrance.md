@@ -35,6 +35,7 @@
 | 1 | shell shard cache hunter's march 1 | checks alcove | none |  | Verified | collectible |  | MARKED AS ??? ON TRACKER |
 | 2 | shell shard cache hunter's march 2 | checks alcove | none |  | Verified | collectible |  | MARKED AS ??? ON TRACKER |
 | 3 | grunt fight | before door | none |  | Verified | miniboss |  |  |
+| 4 | Skarrgard 1 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

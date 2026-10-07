@@ -36,6 +36,7 @@
 | 5 | rosary chest church | Top | Act 1 OR Act 2 |  | Verified | resource | ✓ |  |
 | 6 | church grate switch | Bottom | Flip Switch Up |  | Verified | switch | ✓ |  |
 | 7 | Church Bench | Bottom | none |  | Verified | bench | ✓ |  |
+| 8 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Notes
 

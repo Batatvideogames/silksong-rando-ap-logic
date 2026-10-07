@@ -23,6 +23,7 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Boss: Lost Lace |  | Cling Grip OR Faydown Cloak OR Silk Soar |  | Verified | boss |  | Only include as a check for win cons like flea hunt |
+| 2 | Lost Lace Boss 1 |  |  |  |  | enemy |  |  |
 
 ## Notes
 

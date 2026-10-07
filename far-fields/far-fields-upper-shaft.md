@@ -58,6 +58,16 @@
 | 9 | vicious caranid 2 | hunters march bridge | none |  | Verified | enemy | ✓ | shell shards |
 | 10 | vicious caranid 3 | top wind tunnel | none |  | Verified | enemy | ✓ | shell shards |
 | 11 | caranid 4 | top wind tunnel | none |  | Verified | enemy | ✓ | shell shards |
+| 12 | Vicious Caranid 4 |  |  |  |  | enemy | ✓ |  |
+| 13 | Caranid 5 |  |  |  |  | enemy | ✓ |  |
+| 14 | Caranid 6 |  |  |  |  | enemy | ✓ |  |
+| 15 | Vicious Caranid 5 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 16 | Caranid 7 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 17 | Vicious Caranid 6 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 18 | Caranid 8 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 19 | Vicious Caranid 7 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 20 | Vicious Caranid 8 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 21 | Caranid 9 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 ## Room Images
 

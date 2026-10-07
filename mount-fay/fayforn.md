@@ -42,6 +42,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Faydown Cloak | Fayforn | Needolin |  | Verified | collectible | ✓ |  |
 | 2 | Mister Mushroom Meeting Mount Fay | Fayforn | after THE Mister Mushroom Meeting The Slab |  | Verified | event | ✓ | needolin not required - he's talking to the fayforn |
+| 3 | Weaver Servitor Broken 1 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

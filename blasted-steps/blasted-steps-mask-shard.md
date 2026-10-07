@@ -23,6 +23,10 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Mask Shard: Blasted Steps |  | (Scuttlebrace AND Faydown) OR ( Proficient Movement AND Cling Grip AND Spike Pogo AND (Ledge Grab OR Easy Hazard Respawn)) |  | Verified | collectible | ✓ |  |
+| 2 | Pharlid 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Pharlid 2 |  |  |  |  | enemy | ✓ |  |
+| 4 | Pharlid 3 |  |  |  |  | enemy | ✓ |  |
+| 5 | Pharlid 4 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

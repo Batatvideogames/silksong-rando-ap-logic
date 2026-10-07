@@ -36,11 +36,11 @@
 | DS | door switch | the bridge | upper middle shaft | activate door switch |  | Verified | ✓ |  |
 | V1 | vertical 1 | bottom shaft | lower middle shaft | ledge grab OR easy enemy pogo OR cling grip OR faydown OR silk soar |  | Verified | ✓ |  |
 | V1 | vertical 1 | lower middle shaft | bottom shaft | none (falling) |  | Verified | ✓ |  |
-| V2 | vertical 2 | lower middle shaft | upper middle shaft | ledge grab OR easy enemy pogo OR run OR dash OR drifters OR faydown OR cling grip OR scuttlebrace OR clawline OR sharpdart OR silk soar OR easy shaman pogo OR easy hunter pogo OR easy architect pogo OR easy beast pogo OR easy wanderer charge OR easy reaper charge OR easy heal stall OR easy flea brew stall OR easy flintslate stall OR easy plasmium phial stall OR easy voltvessels stall |  | Verified | ✓ | a WIDE variety of stalls work here. karma for the bottom section all being one chunk |
+| V2 | vertical 2 | lower middle shaft | upper middle shaft | ledge grab OR easy pogo off caranid OR run OR dash OR drifters OR faydown OR cling grip OR scuttlebrace OR clawline OR sharpdart OR silk soar OR easy shaman pogo OR easy hunter pogo OR easy architect pogo OR easy beast pogo OR easy wanderer charge OR easy reaper charge OR easy heal stall OR easy flea brew stall OR easy flintslate stall OR easy plasmium phial stall OR easy voltvessels stall |  | Verified | ✓ | a WIDE variety of stalls work here. karma for the bottom section all being one chunk |
 | V2 | vertical 2 | upper middle shaft | lower middle shaft | none (falling) |  | Verified | ✓ |  |
 | V3 | vertical 3 | the bridge | collapsing upper crossing | ledge grab OR cling grip OR faydown OR silk soar |  | Verified | ✓ |  |
 | V3 | vertical 3 | collapsing upper crossing | the bridge | none (falling) |  | Verified | ✓ |  |
-| V4 | vertical 4 | collapsing upper crossing | big boy shelf | ledge grab OR cling grip OR faydown OR silk soar OR easy enemy pogo |  | Verified | ✓ |  |
+| V4 | vertical 4 | collapsing upper crossing | big boy shelf | ledge grab OR cling grip OR faydown OR silk soar OR medium pogo off caranid |  | Verified | ✓ |  |
 | V4 | vertical 4 | big boy shelf | collapsing upper crossing | none (falling) |  | Verified | ✓ |  |
 | V5 | vertical 5 | big boy shelf | ceiling exit area | ledge grab OR cling grip OR scuttlebrace OR faydown OR silk soar |  | Verified | ✓ |  |
 | V5 | vertical 5 | ceiling exit area | big boy shelf | none (falling) |  | Verified | ✓ |  |
@@ -50,6 +50,14 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | door switch | the bridge | flip switch down |  | Verified | switch | ✓ |  |
+| 2 | Skull Brute 1 | bottom shaft | None |  | Verified | enemy | ✓ |  |
+| 3 | Caranid 1 | bottom shaft | None |  | Verified | enemy | ✓ |  |
+| 4 | Caranid 2 | lower middle shaft | None |  | Verified | enemy | ✓ | can be lured to the lower section |
+| 5 | Caranid 3 | collapsing upper crossing | None |  | Verified | enemy | ✓ |  |
+| 6 | Caranid 4 | collapsing upper crossing | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 7 | Caranid 5 | lower middle shaft | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 8 | Skull Brute 2 | big boy shelf | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 9 | Skull Brute 3 | big boy shelf | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 
 ## Notes
 

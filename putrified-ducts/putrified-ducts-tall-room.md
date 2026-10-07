@@ -42,6 +42,10 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Breakable Sewer Grate | Lower Sewage Tunnel | None |  | Verified | blockade | ✓ |  |
+| 2 | Barnak 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Barnak 2 |  |  |  |  | enemy | ✓ |  |
+| 4 | Spit Squit 1 |  |  |  |  | enemy | ✓ |  |
+| 5 | Spit Squit 2 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

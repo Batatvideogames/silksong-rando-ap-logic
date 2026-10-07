@@ -46,6 +46,7 @@
 | 4 | Bellshrine Lever | Arena | Defeat Boss Widow |  | Verified | switch | ✓ |  |
 | 5 | Bench | Arena | Activate Bellshrine Lever |  | Verified | bench | ✓ |  |
 | 6 | Trapdoor Lever | Trapdoor Switch Ledge | Flip Switch Down |  | Verified | switch | ✓ |  |
+| 7 | Spinner Boss 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
 
 ## Room Images
 

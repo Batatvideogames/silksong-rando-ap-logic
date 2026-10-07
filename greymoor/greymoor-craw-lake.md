@@ -89,6 +89,30 @@
 | 7 | Threefold Pin | right top craw nest | nothing |  | Verified | collectible | ✓ |  |
 | 8 | flea airlock | flea room | open airlock left OR open airlock right OR open airlock up |  | Verified | switch | ✓ |  |
 | 9 | spike room lever | upper craw nest | flip lever up OR flip lever left OR flip lever right |  | Verified | switch | ✓ |  |
+| 10 | Craw Juror 1 |  |  |  |  | enemy | ✓ |  |
+| 11 | Craw Juror 2 |  |  |  |  | enemy | ✓ |  |
+| 12 | Craw Juror 3 |  |  |  |  | enemy | ✓ |  |
+| 13 | Craw Juror 4 |  |  |  |  | enemy | ✓ |  |
+| 14 | Craw Juror 5 |  |  |  |  | enemy | ✓ |  |
+| 15 | Craw Juror 6 |  |  |  |  | enemy | ✓ |  |
+| 16 | Craw Juror 7 |  |  |  |  | enemy | ✓ |  |
+| 17 | Craw Juror 8 |  |  |  |  | enemy | ✓ |  |
+| 18 | Craw Juror 9 |  |  |  |  | enemy | ✓ |  |
+| 19 | Craw 1 |  |  |  |  | enemy | ✓ |  |
+| 20 | Craw 2 |  |  |  |  | enemy | ✓ |  |
+| 21 | Craw 3 |  |  |  |  | enemy | ✓ |  |
+| 22 | Craw 4 |  |  |  |  | enemy | ✓ |  |
+| 23 | Craw 5 |  |  |  |  | enemy | ✓ |  |
+| 24 | Craw 6 |  |  |  |  | enemy | ✓ |  |
+| 25 | Craw 7 |  |  |  |  | enemy | ✓ |  |
+| 26 | Craw 8 |  |  |  |  | enemy | ✓ |  |
+| 27 | Craw 9 |  |  |  |  | enemy | ✓ |  |
+| 28 | Tallcraw 1 |  |  |  |  | enemy | ✓ |  |
+| 29 | Tallcraw 2 |  |  |  |  | enemy | ✓ |  |
+| 30 | Tallcraw 3 |  |  |  |  | enemy | ✓ |  |
+| 31 | Squatcraw 1 |  |  |  |  | enemy | ✓ |  |
+| 32 | Squatcraw 2 |  |  |  |  | enemy | ✓ |  |
+| 33 | Mite 1 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

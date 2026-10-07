@@ -34,6 +34,18 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Lore: Abyss #1 | Upper Zone | None |  | Verified | lore | ✓ |  |
+| 2 | Shadow Creeper 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Gargant Gloom 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Gargant Gloom 2 |  |  |  |  | enemy | ✓ |  |
+| 5 | Gloomsac 1 |  |  |  |  | enemy | ✓ |  |
+| 6 | Gloomsac 2 |  |  |  |  | enemy | ✓ |  |
+| 7 | Gloomsac 3 |  |  |  |  | enemy | ✓ |  |
+| 8 | Gloomsac 4 |  |  |  |  | enemy | ✓ |  |
+| 9 | Gloomsac 5 |  |  |  |  | enemy | ✓ |  |
+| 10 | Gloomsac 6 |  |  |  |  | enemy | ✓ |  |
+| 11 | Gloomsac 7 |  |  |  |  | enemy | ✓ |  |
+| 12 | Gloomsac 8 |  |  |  |  | enemy | ✓ |  |
+| 13 | Gloomsac 9 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

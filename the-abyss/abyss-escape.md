@@ -26,7 +26,21 @@
 
 ## Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Skullwing 1 |  |  |  |  | enemy | ✓ |  |
+| 2 | Skullwing 2 |  |  |  |  | enemy | ✓ |  |
+| 3 | Skull Scuttler 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Skullwing 3 |  |  |  |  | enemy | ✓ |  |
+| 5 | Skullwing 4 |  |  |  |  | enemy | ✓ |  |
+| 6 | Skullwing 5 |  |  |  |  | enemy | ✓ |  |
+| 7 | Skullwing 6 |  |  |  |  | enemy | ✓ |  |
+| 8 | Skullwing 7 |  |  |  |  | enemy | ✓ |  |
+| 9 | Skullwing 8 |  |  |  |  | enemy | ✓ |  |
+| 10 | Skullwing 9 |  |  |  |  | enemy | ✓ |  |
+| 11 | Skullwing 10 |  |  |  |  | enemy | ✓ |  |
+| 12 | Skullwing 11 |  |  |  |  | enemy | ✓ |  |
+| 13 | Skullwing 12 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

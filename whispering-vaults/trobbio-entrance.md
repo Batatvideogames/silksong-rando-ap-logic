@@ -33,6 +33,7 @@
 | 2 | Collectable Item Pickup - Quill Purple | Not The Jump. | Nothing. |  | Verified | collectible | ✓ | Missable (Exclusive with other Quills) |
 | 3 | Whispering Vaults: Lore #2 | Not The Jump. | Nothing. |  | Verified | lore | ✓ |  |
 | 4 | Whispering Vaults: Lore #3 | Not The Jump. | Nothing. |  | Verified | lore | ✓ |  |
+| 5 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

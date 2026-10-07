@@ -23,6 +23,9 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Flea: Bilewater - Thieves |  | Scuttlebrace OR cling grip |  | Verified | collectible | ✓ |  |
+| 2 | Snitchfly 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Snitchfly 2 |  |  |  |  | enemy | ✓ |  |
+| 4 | Snitchfly 3 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

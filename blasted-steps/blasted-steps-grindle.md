@@ -40,6 +40,7 @@
 | 10 | Mort (Pilgrim's Rest) / Grindle (Act 3) - Tool Pouch | Upper Half | Act 3 |  | Verified | collectible | ✓ | IF NOT Acquired from Mort |
 | 11 | Mort (Pilgrim's Rest) / Grindle (Act 3) - Memory Locket | Upper Half | Act 3 |  | Verified | collectible | ✓ | IF NOT Acquired from Mort |
 | 12 | Lumble (Blasted Steps) / Grindle (Act 3) - Magnetite Dice | Upper Half | Act 3 |  | Verified | collectible | ✓ | IF NOT Acquired from Lumble |
+| 13 | Snitchfly 1 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

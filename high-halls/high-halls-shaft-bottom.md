@@ -40,7 +40,11 @@
 
 ## Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Minister 1 |  |  |  |  | enemy | ✓ |  |
+| 2 | Minister 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 3 | Void Mass 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 ## Room Images
 

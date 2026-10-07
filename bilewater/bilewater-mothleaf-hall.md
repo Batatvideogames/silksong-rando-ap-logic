@@ -37,6 +37,16 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Bilewater East - Memory Locket | right | none |  | Verified | collectible | ✓ |  |
 | 2 | Bilewater East - Breakable Wall | behind wall | prereq Bilewater East Bench Left Exit Wall IN Bilewater East Bench |  | Verified | blockade | ✓ |  |
+| 3 | Mothleaf Lagnia 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Mothleaf Lagnia 2 |  |  |  |  | enemy | ✓ |  |
+| 5 | Mothleaf Lagnia 3 |  |  |  |  | enemy | ✓ |  |
+| 6 | Mothleaf Lagnia 4 |  |  |  |  | enemy | ✓ |  |
+| 7 | Mothleaf Lagnia 5 |  |  |  |  | enemy | ✓ |  |
+| 8 | Mothleaf Lagnia 6 |  |  |  |  | enemy | ✓ |  |
+| 9 | Mothleaf Lagnia 7 |  |  |  |  | enemy | ✓ |  |
+| 10 | Mothleaf Lagnia 8 |  |  |  |  | enemy | ✓ |  |
+| 11 | Mothleaf Lagnia 9 |  |  |  |  | enemy | ✓ |  |
+| 12 | Mothleaf Lagnia 10 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

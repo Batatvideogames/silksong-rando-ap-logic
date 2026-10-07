@@ -22,6 +22,7 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | The Slab - Map Pickup |  | none |  |  | collectible | ✓ |  |
 | 2 | The Slab - East Bench |  | none |  |  | bench |  |  |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

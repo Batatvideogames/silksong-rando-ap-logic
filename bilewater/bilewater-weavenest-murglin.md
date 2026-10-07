@@ -24,6 +24,9 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Ruined Tool |  | (cling grip OR silk soar) AND (swim OR clawline OR drifter's cloak) |  | Verified | collectible | ✓ |  |
 | 2 | Bilewater - Weaver Workshop Scroll |  | (cling grip OR silk soar) AND (swim OR clawline OR drifter's cloak) AND attack right |  | Verified | lore | ✓ | breakable wall |
+| 3 | Servitor Ignim 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Weaver Servitor Broken 1 |  |  |  |  | enemy | ✓ |  |
+| 5 | Servitor Ignim 2 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

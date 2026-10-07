@@ -33,6 +33,7 @@
 | 1 | Spool Fragment: Grand Gate | upper section | silk soar OR ((cling grip OR scuttlebrace) AND (faydown cloak OR ledge grab)) |  | Verified | collectible | ✓ |  |
 | 2 | Map Purchase: Grand Gate | lower section | None |  | Verified | collectible | ✓ |  |
 | 3 | metal bars | upper section | break wall right OR break wall up OR clear metal wall IN grand gate maintenance room |  | Verified | blockade | ✓ |  |
+| 4 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Notes
 

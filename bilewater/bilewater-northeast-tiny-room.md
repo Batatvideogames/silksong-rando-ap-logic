@@ -25,6 +25,9 @@ No subroom connections defined.
 | 1 | Bilewater - Shell Shard Cache #5 |  | silk soar OR faydown cloak OR (ledge grab AND (sharpdart OR clawline)) OR (cling grip AND easy beast pogo) |  | Verified | resource | ✓ |  |
 | 2 | Bilewater - Shell Shard Cache #6 |  | silk soar OR faydown cloak OR (ledge grab AND (sharpdart OR clawline)) OR (cling grip AND easy beast pogo) |  | Verified | resource | ✓ |  |
 | 3 | Bilewater - Shell Shard Cache #7 |  | silk soar OR faydown cloak OR (ledge grab AND (sharpdart OR clawline)) OR (cling grip AND easy beast pogo) |  | Verified | resource | ✓ |  |
+| 4 | Mothleaf Lagnia 1 |  |  |  |  | enemy | ✓ |  |
+| 5 | Mothleaf Lagnia 2 |  |  |  |  | enemy | ✓ |  |
+| 6 | Mothleaf Lagnia 3 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

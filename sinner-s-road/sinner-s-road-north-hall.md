@@ -49,6 +49,13 @@
 | 3 | Sinner's Road - Rosary Chest | chest plat | none |  | Verified | collectible | ✓ |  |
 | 4 | Garmond and Zaza Act 3 Meeting Sinner's Road | right door platform | Act 3 |  | Verified | event | ✓ |  |
 | 5 | North Hall Door Switch | right door platform | hit switch up OR hit switch right OR hit switch left |  | Verified | switch | ✓ |  |
+| 6 | Roachkeeper 1 |  |  |  |  | enemy | ✓ |  |
+| 7 | Roachkeeper 2 |  |  |  |  | enemy | ✓ |  |
+| 8 | Roachkeeper 3 |  |  |  |  | enemy | ✓ |  |
+| 9 | Muckroach 1 |  |  |  |  | enemy | ✓ |  |
+| 10 | Muckroach 2 |  |  |  |  | enemy | ✓ |  |
+| 11 | Muckroach 3 |  |  |  |  | enemy | ✓ |  |
+| 12 | Muckroach 4 |  | Normal World Spawn |  |  | enemy | ✓ |  |
 
 ## Room Images
 

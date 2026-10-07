@@ -35,6 +35,7 @@
 | 4 | Greymoor - Shell Shard Cache #6 | hidden area | prereq wooden wall |  | Verified | resource | ✓ |  |
 | 5 | Greymoor - Shell Shard Cache #7 | hidden area | prereq wooden wall |  | Verified | resource | ✓ |  |
 | 6 | wooden wall | hidden area | break wall: left |  | Verified | blockade | ✓ |  |
+| 7 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

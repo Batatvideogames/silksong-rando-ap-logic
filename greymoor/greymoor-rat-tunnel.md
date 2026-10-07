@@ -63,6 +63,16 @@
 | 7 | Greymoor - Rosary Cache #24 | Top Right Section (Bottom) | clear Breakable wooden Wall |  | Verified | resource | ✓ |  |
 | 8 | Greymoor - Rosary Cache #25 | Top Right Section (Bottom) | clear Breakable wooden Wall |  | Verified | resource | ✓ |  |
 | 9 | tied blockade | Top Left Shaft (Center) | break switch left OR break switch up OR break switch right |  | Verified | blockade | ✓ |  |
+| 10 | Mitemother 1 |  |  |  |  | enemy | ✓ |  |
+| 11 | Mitemother 2 |  |  |  |  | enemy | ✓ |  |
+| 12 | Mitemother 3 |  |  |  |  | enemy | ✓ |  |
+| 13 | Fluttermite 1 |  |  |  |  | enemy | ✓ |  |
+| 14 | Fluttermite 2 |  |  |  |  | enemy | ✓ |  |
+| 15 | Mite 1 |  |  |  |  | enemy | ✓ |  |
+| 16 | Mite 2 |  |  |  |  | enemy | ✓ |  |
+| 17 | Mite 3 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 18 | Fluttermite 3 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 19 | Void Mass 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 ## Room Images
 

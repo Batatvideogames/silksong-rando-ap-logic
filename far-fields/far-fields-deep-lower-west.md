@@ -41,6 +41,10 @@
 | 2 | AP Minor Cache - Shell Shard Cache: Far Fields #2 | upper right alcove | none |  | Verified | collectible | ✓ |  |
 | 3 | AP Minor Cache - Shell Shard Cache: Far Fields #3 | upper right alcove | none |  | Verified | collectible | ✓ |  |
 | 4 | AP Minor Cache - Rosary Cache: Far Fields #18 | upper right alcove | none |  | Verified | collectible | ✓ |  |
+| 5 | Hardbone Elder 1 |  |  |  |  | enemy | ✓ |  |
+| 6 | Hardbone Hopper 1 |  |  |  |  | enemy | ✓ |  |
+| 7 | Fertid 1 |  |  |  |  | enemy | ✓ |  |
+| 8 | Fertid 2 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

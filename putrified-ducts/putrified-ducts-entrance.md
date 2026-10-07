@@ -44,6 +44,18 @@
 | 1 | Putrified Ducts - Shell Shard Cache #1 | Shell Shards bridge | None |  | Verified | resource | ✓ | Merge Map icons on map |
 | 2 | Putrified Ducts - Shell Shard Cache #2 | Shell Shards bridge | None |  | Verified | resource | ✓ | Merge Map icons on map |
 | 3 | Putrified Ducts - Frayed Rosary String | Rosary String Ledge | None |  | Verified | collectible | ✓ |  |
+| 4 | Ductsucker 1 |  |  |  |  | enemy | ✓ |  |
+| 5 | Barnak 1 |  |  |  |  | enemy | ✓ |  |
+| 6 | Barnak 2 |  |  |  |  | enemy | ✓ |  |
+| 7 | Barnak 3 |  |  |  |  | enemy | ✓ |  |
+| 8 | Ductsucker 2 |  |  |  |  | enemy | ✓ |  |
+| 9 | Ductsucker 3 |  |  |  |  | enemy | ✓ |  |
+| 10 | Barnak 4 |  |  |  |  | enemy | ✓ |  |
+| 11 | Barnak 5 |  |  |  |  | enemy | ✓ |  |
+| 12 | Spit Squit 1 |  |  |  |  | enemy | ✓ |  |
+| 13 | Spit Squit 2 |  |  |  |  | enemy | ✓ |  |
+| 14 | Spit Squit 3 |  |  |  |  | enemy | ✓ |  |
+| 15 | Spit Squit 4 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

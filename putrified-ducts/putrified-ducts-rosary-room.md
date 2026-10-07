@@ -33,6 +33,7 @@
 | 2 | Putrified Ducts - Rosary Cache #2 | Right | None |  | Verified | resource | ✓ |  |
 | 3 | Putrified Ducts - Rosary Cache #3 | Right | None |  | Verified | resource | ✓ |  |
 | 4 | Breakable Sewer Grate 2 | Left | None |  | Verified | blockade | ✓ |  |
+| 5 | Barnak 1 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

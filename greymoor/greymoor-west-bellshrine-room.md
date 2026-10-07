@@ -48,6 +48,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Greymoor #1 - Rosary Cache | middle section left | none |  | Verified | resource | ✓ |  |
 | 2 | shrine entrance lever | middle section right | flip switch right OR flip switch up OR flip switch left |  | Verified | switch | ✓ |  |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

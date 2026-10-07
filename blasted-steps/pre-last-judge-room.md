@@ -53,6 +53,13 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Craftmetal: Blasted Steps | Descent | Faydown OR Clawline OR Drifter's Cloak OR Sharpdart OR Medium Shaman Pogo OR (Progressive Swift Step 1 AND Ledge Grab) |  | Verified | collectible | ✓ |  |
 | 2 | Spiky Blockade | Top (Entrance) | Break Wall Left |  | Verified | blockade | ✓ |  |
+| 3 | Judge 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Driznit 1 |  |  |  |  | enemy | ✓ |  |
+| 5 | Driznit 2 |  |  |  |  | enemy | ✓ |  |
+| 6 | Judge 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 7 | Void Mass 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 8 | Pilgrim Hiker 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 9 | Winged Pilgrim 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 ## Room Images
 

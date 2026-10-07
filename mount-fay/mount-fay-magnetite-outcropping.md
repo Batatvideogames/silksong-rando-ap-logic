@@ -36,6 +36,8 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Magnetite Outcrop | Brightvein | None |  | Verified | lore | ✓ | Lore thingy not included rn |
+| 2 | Mnemonid 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Mnemonid 2 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

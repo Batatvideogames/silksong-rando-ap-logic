@@ -34,6 +34,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Whiteward - Rosary Cache #1 | Descent Rosary Side | Nothing |  | Verified | collectible | ✓ |  |
 | 2 | Whiteward - Rosary Cache #2 | Descent Rosary Side | Nothing |  | Verified | collectible | ✓ |  |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

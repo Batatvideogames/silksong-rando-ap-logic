@@ -85,6 +85,22 @@
 | 17 | skarr stalker | upper right alcove | none |  | Verified | enemy | ✓ | shell shards |
 | 18 | skarr scout 2 | plains | none |  | Verified | enemy | ✓ | rosaries |
 | 19 | fertid 1 | lower right area | none |  | Verified | enemy | ✓ | shell shards |
+| 20 | Hardbone Elder 1 |  |  |  |  | enemy | ✓ |  |
+| 21 | Hardbone Hopper 1 |  |  |  |  | enemy | ✓ |  |
+| 22 | Hardbone Hopper 2 |  |  |  |  | enemy | ✓ |  |
+| 23 | Hardbone Elder 2 |  |  |  |  | enemy | ✓ |  |
+| 24 | Skarr Scout 3 |  |  |  |  | enemy | ✓ |  |
+| 25 | Skarr Scout 4 |  |  |  |  | enemy | ✓ |  |
+| 26 | Brushflit 1 |  |  |  |  | enemy | ✓ |  |
+| 27 | Brushflit 2 |  |  |  |  | enemy | ✓ |  |
+| 28 | Brushflit 3 |  |  |  |  | enemy | ✓ |  |
+| 29 | Brushflit 4 |  |  |  |  | enemy | ✓ |  |
+| 30 | Brushflit 5 |  |  |  |  | enemy | ✓ |  |
+| 31 | Brushflit 6 |  |  |  |  | enemy | ✓ |  |
+| 32 | Skarr Stalker 1 |  |  |  |  | enemy | ✓ |  |
+| 33 | Fertid 2 |  |  |  |  | enemy | ✓ |  |
+| 34 | Flapping Fertid 3 |  |  |  |  | enemy | ✓ |  |
+| 35 | Flapping Fertid 4 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

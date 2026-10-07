@@ -30,6 +30,9 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Bilewater Bullshit Bench Exit Wall | lower | break wall right |  | Verified | blockade | ✓ |  |
+| 2 | Mothleaf Lagnia 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Mothleaf Lagnia 2 |  |  |  |  | enemy | ✓ |  |
+| 4 | Mothleaf Lagnia 3 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

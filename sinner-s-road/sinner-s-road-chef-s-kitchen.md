@@ -34,6 +34,12 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Boss: Disgraced Chef Lugoli | upper | none |  | Verified | boss | ✓ |  |
 | 2 | Sinner's Road Chef's Kitchen Door Switch | lower | hit switch up OR hit switch left |  | Verified | switch | ✓ |  |
+| 3 | Roachserver 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Roachserver 2 |  |  |  |  | enemy | ✓ |  |
+| 5 | Disgraced Chef Lugoli 1 |  |  |  |  | enemy | ✓ |  |
+| 6 | Roachserver 3 |  |  |  |  | enemy | ✓ |  |
+| 7 | Roachserver 4 |  |  |  |  | enemy | ✓ |  |
+| 8 | Roachserver 5 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

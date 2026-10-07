@@ -65,6 +65,7 @@
 | 9 | Twelfth Architect: Crafting Kit | First Floor | Nothing. |  | Verified | collectible | ✓ |  |
 | 10 | Twelfth Architect: Architect's Key | First Floor | Get 25 Tools |  | Verified | collectible | ✓ |  |
 | 11 | Twelfth Architect Pristine Core | First Floor | Have Architect's Melody AND Unlock Twelfth Architect: Cogwork Wheel  AND Unlock Twelfth Architect: Sawtooth Circlet  AND Unlock Twelfth Architect: Scuttlebrace  AND Unlock Twelfth Architect: Crafting Kit  AND Unlock Twelfth Architect: Architect's Key |  | Verified | collectible | ✓ | is this really nothing? - hero, 9/25 uhhhhh, no. i am have stupid and wrote that on autopilot - rebel, 10/2 |
+| 12 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

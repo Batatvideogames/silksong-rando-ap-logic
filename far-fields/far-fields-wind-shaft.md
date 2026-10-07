@@ -74,6 +74,30 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | rosary cache far fields 1 | rosary cache spot | none |  | Verified | collectible | ✓ |  |
 | 2 | weighted belt | mort corpse platform | act 3 |  | Verified | collectible | ✓ | according to the wiki you can either buy it from pilgrim's rest in act 1/2 OR you can grab it from mort's corpse here in act 3 |
+| 3 | Brushflit 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Brushflit 2 |  |  |  |  | enemy | ✓ |  |
+| 5 | Brushflit 3 |  |  |  |  | enemy | ✓ |  |
+| 6 | Brushflit 4 |  |  |  |  | enemy | ✓ |  |
+| 7 | Brushflit 5 |  |  |  |  | enemy | ✓ |  |
+| 8 | Brushflit 6 |  |  |  |  | enemy | ✓ |  |
+| 9 | Brushflit 7 |  |  |  |  | enemy | ✓ |  |
+| 10 | Brushflit 8 |  |  |  |  | enemy | ✓ |  |
+| 11 | Brushflit 9 |  |  |  |  | enemy | ✓ |  |
+| 12 | Brushflit 10 |  |  |  |  | enemy | ✓ |  |
+| 13 | Fertid 1 |  |  |  |  | enemy | ✓ |  |
+| 14 | Vicious Caranid 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 15 | Brushflit 11 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 16 | Brushflit 12 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 17 | Brushflit 13 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 18 | Brushflit 14 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 19 | Vicious Caranid 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 20 | Vicious Caranid 3 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 21 | Brushflit 15 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 22 | Brushflit 16 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 23 | Brushflit 17 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 24 | Brushflit 18 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 25 | Vicious Caranid 4 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 26 | Vicious Caranid 5 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 ## Room Images
 

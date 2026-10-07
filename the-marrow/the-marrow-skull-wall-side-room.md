@@ -31,6 +31,16 @@
 | 1 | the marrow pilgrim diary | lower level | none |  | Verified | lore | ✓ |  |
 | 2 | gauntlet fight | upper level | have cling grip |  | Verified | gauntlet | ✓ |  |
 | 3 | the marrow memory locket | upper level | defeat gauntlet fight |  | Verified | collectible | ✓ |  |
+| 4 | Elder Pilgrim 1 | upper level | Normal World Spawn AND prereq gauntlet fight |  | Verified | enemy | ✓ |  |
+| 5 | Winged Pilgrim 1 | upper level | Normal World Spawn AND prereq gauntlet fight |  | Verified | enemy | ✓ |  |
+| 6 | Pilgrim Groveller 1 | upper level | Normal World Spawn AND prereq gauntlet fight |  | Verified | enemy | ✓ |  |
+| 7 | Pilgrim Pouncer 1 | upper level | Normal World Spawn AND prereq gauntlet fight |  | Verified | enemy | ✓ |  |
+| 8 | Pilgrim Groveller 2 | upper level | Normal World Spawn AND prereq gauntlet fight |  | Verified | enemy | ✓ |  |
+| 9 | Elder Pilgrim 2 | upper level | Black Thread World Spawn AND prereq gauntlet fight |  | Verified | enemy | ✓ | not sure if this is act 3 gauntlet |
+| 10 | Winged Pilgrim 2 | upper level | Black Thread World Spawn AND prereq gauntlet fight |  | Verified | enemy | ✓ |  |
+| 11 | Pilgrim Groveller 3 | upper level | Black Thread World Spawn AND prereq gauntlet fight |  | Verified | enemy | ✓ |  |
+| 12 | Pilgrim Pouncer 2 | upper level | Black Thread World Spawn AND prereq gauntlet fight |  | Verified | enemy | ✓ |  |
+| 13 | Pilgrim Groveller 4 | upper level | Black Thread World Spawn AND prereq gauntlet fight |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

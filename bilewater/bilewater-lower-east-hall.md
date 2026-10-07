@@ -39,7 +39,11 @@
 
 ## Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Stilkin 1 |  |  |  |  | enemy | ✓ |  |
+| 2 | Stilkin 2 |  |  |  |  | enemy | ✓ |  |
+| 3 | Stilkin 3 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

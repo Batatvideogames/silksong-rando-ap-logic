@@ -56,6 +56,13 @@
 | 8 | Silver Bell Spawn Location #5 | Upper Big room | None |  | Verified | collectible | ✓ |  |
 | 9 | Flea: Bellhart | Upper Big room | Silk Soar OR Cling Grip OR ( Dash AND Scuttlebrace ) OR ( Easy enemy pogo AND ( Faydown Cloak OR Drifters Cloak ) ) |  | Verified | collectible | ✓ |  |
 | 10 | Lower Left Bell Blockade | Lower Exits | Break Wall Left |  | Verified | blockade | ✓ | can also be broken from the right while falling into the void - hero, 9/30 |
+| 11 | Winged Furm 1 |  |  |  |  | enemy | ✓ |  |
+| 12 | Winged Furm 2 |  |  |  |  | enemy | ✓ |  |
+| 13 | Winged Furm 3 |  |  |  |  | enemy | ✓ |  |
+| 14 | Furm 1 |  |  |  |  | enemy | ✓ |  |
+| 15 | Furm 2 |  |  |  |  | enemy | ✓ |  |
+| 16 | Furm 3 |  |  |  |  | enemy | ✓ |  |
+| 17 | Furm 4 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

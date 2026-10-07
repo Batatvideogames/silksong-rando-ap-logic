@@ -33,6 +33,7 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Arcane Egg | End | None |  | Verified | collectible | ✓ |  |
+| 2 | Shadow Charger 1 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

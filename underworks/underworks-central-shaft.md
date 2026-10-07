@@ -41,6 +41,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Breakable Saw Floor | Wisp Thicket | Break Wall Left OR Break Wall Right |  | Verified | blockade | ✓ |  |
 | 2 | Wisp Thicket Connection Lever | Wisp Thicket | Flip Switch Left |  | Verified | switch | ✓ |  |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

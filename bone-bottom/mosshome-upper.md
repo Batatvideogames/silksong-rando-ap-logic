@@ -49,6 +49,18 @@
 | 5 | frayed rosary string bone bottom silkspear passage | silkspear passage | none |  | Verified | collectible |  |  |
 | 6 | rope platform blockade | silkspear passage | cut rope down OR cut rope left OR cut rope right OR cut rope up |  | Verified | blockade |  |  |
 | 7 | left exit breakable wall | ground left | break wall left |  | Verified | blockade | ✓ |  |
+| 8 | Aknid 1 | silkspear passage | None |  | Verified | enemy | ✓ |  |
+| 9 | Pilgrim Groveller 1 | center platforms | None |  | Verified | enemy | ✓ |  |
+| 10 | Pilgrim Pouncer 1 | spire platforms | None |  | Verified | enemy | ✓ |  |
+| 11 | Aknid 2 | center platforms | None |  | Verified | enemy | ✓ |  |
+| 12 | Pilgrim Pouncer 2 | center platforms | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 13 | Pilgrim Groveller 2 | center platforms | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 14 | Pilgrim Groveller 3 | spire platforms | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 15 | Pilgrim Pouncer 3 | center platforms | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 16 | Overgrown Pilgrim 1 | center platforms | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 17 | Overgrown Pilgrim 2 | spire platforms | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 18 | Void Mass 1 | spire platforms | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 19 | Overgrown Pilgrim 3 | center platforms | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 
 ## Notes
 

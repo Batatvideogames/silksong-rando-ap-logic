@@ -23,6 +23,7 @@ No subroom connections defined.
 | 1 | The Slab - Shell Shard Cache #4 |  | swim |  |  | collectible |  |  |
 | 2 | The Slab - Shell Shard Cache #5 |  | swim |  |  | collectible |  |  |
 | 3 | Relic: Weaver Effigy (Atla, The Slab) |  | cling grip AND (dash OR clawline OR faydown cloak) |  |  | collectible |  |  |
+| 4 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

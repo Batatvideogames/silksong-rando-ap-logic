@@ -34,6 +34,17 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Mister Mushroom Meeting The Cradle | Herald Platform | after THE Mister Mushroom Meeting Mount Fay AND Needolin |  | Verified | event |  |  |
 | 2 | Passing of the Age Wish Granted | Herald Platform | after Mister Mushroom Meeting The Cradle |  | Verified | event |  |  |
+| 3 | Imoba 1 |  |  |  |  | enemy |  |  |
+| 4 | Imoba 2 |  |  |  |  | enemy |  |  |
+| 5 | Imoba 3 |  |  |  |  | enemy |  |  |
+| 6 | Imoba 4 |  |  |  |  | enemy |  |  |
+| 7 | Imoba 5 |  |  |  |  | enemy |  |  |
+| 8 | Imoba 6 |  |  |  |  | enemy |  |  |
+| 9 | Imoba 7 |  |  |  |  | enemy |  |  |
+| 10 | Imoba 8 |  |  |  |  | enemy |  |  |
+| 11 | Imoba 9 |  |  |  |  | enemy |  |  |
+| 12 | Imoba 10 |  |  |  |  | enemy |  |  |
+| 13 | Imoba 11 |  |  |  |  | enemy |  |  |
 
 ## Notes
 

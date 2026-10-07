@@ -23,6 +23,9 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | progressive curveclaw 2 |  | act 3 AND curveclaw |  | Verified | collectible |  | NOT CURRENTLY ON TRACKER - MAY NOT BE RANDOMIZED |
+| 2 | Skarr Scout 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 3 | Skarr Scout 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 4 | Spear Skarr 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
 
 ## Notes
 

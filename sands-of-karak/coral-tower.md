@@ -34,6 +34,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Conchcutter | Main | None |  | Verified | collectible |  |  |
 | 2 | Sands of Karak - Lower Coral Tablet | Entrance | None |  | Verified | lore |  |  |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

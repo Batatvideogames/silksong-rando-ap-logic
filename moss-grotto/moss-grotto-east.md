@@ -40,6 +40,18 @@
 | 2 | shell shard cache moss grotto 3 | alcove check spot | none |  | Verified | collectible | ✓ |  |
 | 3 | shell shard cache moss grotto 4 | alcove check spot | none |  | Verified | collectible | ✓ |  |
 | 4 | moss grotto east mossberry | upper platforms | easy enemy pogo OR run OR dash OR drifter's cloak OR faydown cloak OR silk soar OR clawline OR sharpdart OR easy beast pogo OR ( have crest shaman AND ( attack up OR attack right ) ) |  | Verified | collectible | ✓ |  |
+| 5 | Mossgrub 1 | ground floor | None |  | Verified | enemy | ✓ |  |
+| 6 | Mossgrub 2 | upper platforms | None |  | Verified | enemy | ✓ |  |
+| 7 | Mossmir 1 | upper platforms | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 8 | Mossgrub 3 | ground floor | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 9 | Mawling 1 | ground floor | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 10 | Mawling 2 | upper platforms | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 11 | Mawling 3 | ground floor | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 12 | Mawling 4 | ground floor | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 13 | Mossmir 2 | ground floor | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 14 | Mawling 5 | ground floor | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 15 | Marrowmaw 1 | ground floor | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 16 | Mossmir 3 | upper platforms | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

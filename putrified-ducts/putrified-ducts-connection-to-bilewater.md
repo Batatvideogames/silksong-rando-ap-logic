@@ -60,6 +60,10 @@
 | 7 | Putrified Ducts - Shell Shard Cache #6 | Shell Shard Platform | None |  | Verified | resource | ✓ |  |
 | 8 | Putrified Ducts - Shell Shard Cache #7 | Shell Shard Platform | None |  | Verified | resource | ✓ |  |
 | 9 | Key of Apostate | Apostate Key Area | None |  | Verified | collectible | ✓ |  |
+| 10 | Barnak 1 |  |  |  |  | enemy | ✓ |  |
+| 11 | Barnak 2 |  |  |  |  | enemy | ✓ |  |
+| 12 | Barnak 3 |  |  |  |  | enemy | ✓ |  |
+| 13 | Ductsucker 1 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

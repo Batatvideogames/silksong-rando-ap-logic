@@ -32,6 +32,7 @@
 | 1 | Whispering Vaults: Pale Oil | Oil Room | Activate Whispering Vaults: Flip Switch #11 |  | Verified | collectible | ✓ |  |
 | 2 | Whispering Vaults: Flip Switch #11 | Oil Room | Nothing. |  | Verified | switch | ✓ |  |
 | 3 | Whispering Vaults: Flip Switch #10 | Oil Room | Activate Whispering Vaults: Flip Switch #11 |  | Verified | switch | ✓ |  |
+| 4 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

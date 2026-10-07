@@ -36,6 +36,19 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Breakable Wall | Right Exit | Faydown Cloak OR ( Cling Grip AND Clawline ) OR ( Silk Soar AND ( Drifters Cloak OR Dash OR Cling Grip OR Clawline OR Sharpdart OR Sprint ) ) |  | Verified | blockade | ✓ |  |
+| 2 | Barnak 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Ductsucker 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Barnak 2 |  |  |  |  | enemy | ✓ |  |
+| 5 | Ductsucker 2 |  |  |  |  | enemy | ✓ |  |
+| 6 | Ductsucker 3 |  |  |  |  | enemy | ✓ |  |
+| 7 | Barnak 3 |  |  |  |  | enemy | ✓ |  |
+| 8 | Barnak 4 |  |  |  |  | enemy | ✓ |  |
+| 9 | Spit Squit 1 |  |  |  |  | enemy | ✓ |  |
+| 10 | Spit Squit 2 |  |  |  |  | enemy | ✓ |  |
+| 11 | Spit Squit 3 |  |  |  |  | enemy | ✓ |  |
+| 12 | Spit Squit 4 |  |  |  |  | enemy | ✓ |  |
+| 13 | Spit Squit 5 |  |  |  |  | enemy | ✓ |  |
+| 14 | Spit Squit 6 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

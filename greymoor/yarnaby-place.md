@@ -32,6 +32,8 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Greymoor - Frayed Rosary String #3 | upper shaft | nothing |  | Verified | resource | ✓ |  |
 | 2 | vine wall | upper shaft | break wall: up |  | Verified | blockade | ✓ | if not broken the vine wall bounces you back |
+| 3 | Furm 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Dreg Catcher 1 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

@@ -36,6 +36,7 @@
 | 3 | fertid | left side | none |  | Verified | enemy | ✓ | shell shards |
 | 4 | vent boulder 1 | left side tunnel | none (attack) |  | Verified | blockade | ✓ | must be broken to return escape tunnel with drifter's cloak |
 | 5 | vent boulder 2 | left side tunnel | none (attack) |  | Verified | blockade | ✓ | must be broken to return to right side using drifter's cloak |
+| 6 | Fertid 1 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

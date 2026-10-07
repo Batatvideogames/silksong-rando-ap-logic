@@ -61,6 +61,16 @@
 | 2 | Shell Shard Cache: Sinner’s Road #4 | shard ledge | none |  | Verified | collectible |  |  |
 | 3 | Shell Shard Cache: Sinner’s Road #5 | shard ledge | none |  | Verified | collectible |  |  |
 | 4 | Upper Entry Switch | upper entry | hit switch left OR hit switch up |  | Verified | switch |  |  |
+| 5 | Roachfeeder 1 |  |  |  |  | enemy | ✓ |  |
+| 6 | Roachcatcher 1 |  |  |  |  | enemy | ✓ |  |
+| 7 | Roachcatcher 2 |  |  |  |  | enemy | ✓ |  |
+| 8 | Roachfeeder 2 |  |  |  |  | enemy | ✓ |  |
+| 9 | Roachcatcher 3 |  |  |  |  | enemy | ✓ |  |
+| 10 | Roachcatcher 4 |  |  |  |  | enemy | ✓ |  |
+| 11 | Roachcatcher 5 |  |  |  |  | enemy | ✓ |  |
+| 12 | Roachfeeder 3 |  |  |  |  | enemy | ✓ |  |
+| 13 | Mite 1 |  |  |  |  | enemy | ✓ |  |
+| 14 | Mite 2 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

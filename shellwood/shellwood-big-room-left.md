@@ -47,6 +47,26 @@
 | 1 | Pollip Heart #6 | Platforms | Ledge Grab OR Silk Soar OR Faydown Cloak |  | Verified | collectible | ✓ |  |
 | 2 | Elevator Button | Ceiling area | None |  | Verified | switch |  |  |
 | 3 | Big Door Button | Ground Right | None |  | Verified | switch |  |  |
+| 4 | Shellwood Goomba Flyer (3) 1 |  |  |  |  | enemy | ✓ |  |
+| 5 | Shellwood Goomba Flyer 1 |  |  |  |  | enemy | ✓ |  |
+| 6 | Control 1 |  |  |  |  | enemy | ✓ |  |
+| 7 | Wood Wasp 1 |  |  |  |  | enemy | ✓ |  |
+| 8 | Wood Wasp 2 |  |  |  |  | enemy | ✓ |  |
+| 9 | Wood Wasp 3 |  |  |  |  | enemy | ✓ |  |
+| 10 | Wood Wasp 4 |  |  |  |  | enemy | ✓ |  |
+| 11 | Wood Wasp 5 |  |  |  |  | enemy | ✓ |  |
+| 12 | Pond Skipper 1 |  |  |  |  | enemy | ✓ |  |
+| 13 | Pond Skipper 2 |  |  |  |  | enemy | ✓ |  |
+| 14 | Pondcatcher 1 |  |  |  |  | enemy | ✓ |  |
+| 15 | Splinter 1 |  |  |  |  | enemy | ✓ |  |
+| 16 | Splinterhorn 1 |  |  |  |  | enemy | ✓ |  |
+| 17 | Void Mass 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 18 | Shellwood Gnat 1 |  |  |  |  | enemy | ✓ |  |
+| 19 | Shellwood Gnat 2 |  |  |  |  | enemy | ✓ |  |
+| 20 | Shellwood Gnat 3 |  |  |  |  | enemy | ✓ |  |
+| 21 | Shellwood Gnat 4 |  |  |  |  | enemy | ✓ |  |
+| 22 | Wood Wasp 6 |  |  |  |  | enemy | ✓ |  |
+| 23 | Wood Wasp 7 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

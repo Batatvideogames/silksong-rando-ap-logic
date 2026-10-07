@@ -53,6 +53,7 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Blasted Steps - Shellwood Entrance Sign | Before Map Edge (Middle) | Nothing |  | Verified | lore | ✓ |  |
+| 2 | Pharlid 1 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

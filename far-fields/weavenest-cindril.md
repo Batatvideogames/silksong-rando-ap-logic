@@ -34,6 +34,12 @@
 | 4 | secret room lock | entrance | run AND silkspeed anklets AND flea brew speed |  | Verified | lock | ✓ |  |
 | 5 | wvnest cindil bench | entrance | none |  | Verified | bench | ✓ |  |
 | 6 | servitor ignim | entrance | needle [up] |  | Verified | enemy | ✓ |  |
+| 7 | Weaver Servitor Broken (1) 1 |  |  |  |  | enemy | ✓ |  |
+| 8 | Servitor Ignim 1 |  |  |  |  | enemy | ✓ |  |
+| 9 | Weaver Servitor Broken 1 |  |  |  |  | enemy | ✓ |  |
+| 10 | Weaver Servitor Broken (2) 1 |  |  |  |  | enemy | ✓ |  |
+| 11 | Servitor Ignim 2 |  |  |  |  | enemy | ✓ |  |
+| 12 | Weaver Servitor Broken (1) 2 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

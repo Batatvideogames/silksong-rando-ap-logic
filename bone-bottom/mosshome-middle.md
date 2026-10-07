@@ -42,6 +42,13 @@
 | 1 | floor exit switch | middle left area | flip switch down |  | Verified | blockade | ✓ |  |
 | 2 | rosary cache mosshome 1 | upper left area | none |  | Verified | collectible | ✓ |  |
 | 3 | rosary cache mosshome 2 | upper left area | none |  | Verified | collectible | ✓ |  |
+| 4 | Pilgrim Pouncer 1 | ground floor | None |  | Verified | enemy | ✓ |  |
+| 5 | Pilgrim Groveller 1 | ground floor | None |  | Verified | enemy | ✓ |  |
+| 6 | Overgrown Pilgrim 1 | ground floor | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 7 | Overgrown Pilgrim 2 | middle left area | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 8 | Aknid 1 | upper right area | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 9 | Overgrown Pilgrim 3 | middle left area | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 10 | Overgrown Pilgrim 4 | middle left area | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

@@ -45,6 +45,10 @@
 | 1 | Flea: Bilehaven | flea room | break vines left |  | Verified | collectible | ✓ |  |
 | 2 | Bilewater - Shell Shard Cache #1 | bottom | attack up AND swim |  | Verified | collectible | ✓ |  |
 | 3 | Bilewater - Shell Shard Cache #2 | bottom | attack up AND swim |  | Verified | collectible | ✓ |  |
+| 4 | Stilkin 1 |  |  |  |  | enemy | ✓ |  |
+| 5 | Stilkin 2 |  |  |  |  | enemy | ✓ |  |
+| 6 | Stilkin 3 |  |  |  |  | enemy | ✓ |  |
+| 7 | Stilkin 4 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

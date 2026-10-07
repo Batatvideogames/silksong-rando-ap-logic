@@ -42,6 +42,11 @@
 | 1 | flea rescue | flea rescue area | none |  | Verified | collectible |  | break cage |
 | 2 | rosary cache far fields 16 | camp | none |  | Verified | collectible |  |  |
 | 3 | rosary cache far fields 17 | camp | none |  | Verified | collectible |  |  |
+| 4 | Fertid 1 |  |  |  |  | enemy | ✓ |  |
+| 5 | Skarr Scout 1 |  |  |  |  | enemy | ✓ |  |
+| 6 | Skarr Scout 2 |  |  |  |  | enemy | ✓ |  |
+| 7 | Fertid 2 |  |  |  |  | enemy | ✓ |  |
+| 8 | Fertid 3 |  |  |  |  | enemy | ✓ |  |
 
 ## Notes
 

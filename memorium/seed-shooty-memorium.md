@@ -30,7 +30,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | down | Top | Middle | nada |  | Verified |  |  |
 | 2 | down2 | Middle | Bottom | nada |  | Verified |  |  |
-| 3 | up1 | Middle | Top | (faydown cloak AND (cling grip OR (Easy scuttlebrace OR silk soar))) OR (cling grip AND (medium shaman pogo OR hard reaper pogo)) |  | Verified |  | OR (clawline AND hard wanderer pogo) feels a bit to hard to me idk |
+| 3 | up1 | Middle | Top | (faydown cloak AND (cling grip OR (Easy scuttlebrace))) OR (cling grip AND (medium shaman pogo OR hard reaper pogo)) OR silk soar |  | Verified |  | OR (clawline AND hard wanderer pogo) feels a bit to hard to me idk |
 | 4 | up2 | Bottom | Middle | (silk soar AND silkhearts x 1) OR (faydown cloak AND ledge grab) OR (medium Shaman pogo AND faydown cloak) OR Easy scuttlebrace OR (cling grip AND faydown cloak) |  | Verified |  |  |
 
 ## Check Locations
@@ -38,6 +38,15 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Memorium - Orders | Not connected | nada |  | Verified | lore |  | just name required |
+| 2 | Phacia 1 |  |  | TODO |  | enemy | ✓ |  |
+| 3 | Phacia 2 |  |  | TODO |  | enemy | ✓ |  |
+| 4 | Memoria 1 |  |  | TODO |  | enemy | ✓ |  |
+| 5 | Pollenica 1 |  |  | TODO |  | enemy | ✓ |  |
+| 6 | Pollenica 2 |  |  | TODO |  | enemy | ✓ |  |
+| 7 | Pollenica 3 |  |  | TODO |  | enemy | ✓ |  |
+| 8 | Pollenica 4 |  |  | TODO |  | enemy | ✓ |  |
+| 9 | Mawling 1 |  |  | TODO |  | enemy | ✓ |  |
+| 10 | Mawling 2 |  |  | TODO |  | enemy | ✓ |  |
 
 ## Room Images
 

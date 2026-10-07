@@ -52,6 +52,10 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | collapsible bridge | upper right | attack left |  | Verified | blockade | ✓ |  |
+| 2 | Bloatroach 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Bloatroach 2 |  |  |  |  | enemy | ✓ |  |
+| 4 | Bloatroach 3 |  |  |  |  | enemy | ✓ |  |
+| 5 | Bloatroach 4 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

@@ -41,6 +41,7 @@
 | 2 | Shell Shard Cache: Abyss #2 | Shard room | None |  | Verified | collectible | ✓ |  |
 | 3 | Shell Shard Cache: Abyss #3 | Shard room | None |  | Verified | collectible | ✓ |  |
 | 4 | Shell Shard Cache: Abyss #4 | Shard room | None |  | Verified | collectible | ✓ |  |
+| 5 | Shadow Creeper 1 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

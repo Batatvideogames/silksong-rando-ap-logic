@@ -48,6 +48,12 @@
 | 1 | Rosary Cache: Sinner’s Road #1 | lower | swim AND (Ledge grab OR cling grip OR faydown cloak) |  | Verified | collectible |  |  |
 | 2 | Rosary Cache: Sinner’s Road #2 | upper right | none |  | Verified | collectible |  |  |
 | 3 | Rosary Cache: Sinner’s Road #3 | upper right | none |  | Verified | collectible |  |  |
+| 4 | Roachcatcher 1 |  |  |  |  | enemy | ✓ |  |
+| 5 | Mite 1 |  |  |  |  | enemy | ✓ |  |
+| 6 | Roachfeeder 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 7 | Roachfeeder 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 8 | Roachfeeder 3 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 9 | Roachfeeder 4 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 ## Room Images
 

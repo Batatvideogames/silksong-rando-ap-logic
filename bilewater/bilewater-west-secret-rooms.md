@@ -36,6 +36,13 @@
 | 2 | Bilewater - Rosary Cache #6 | lower area | none |  | Verified | collectible |  |  |
 | 3 | Bilewater - Rosary Cache #7 | lower area | none |  | Verified | collectible |  |  |
 | 4 | Twisted Bud | top area | break wall left AND break wall right AND (cling grip OR silk soar) AND (spike pogo OR enemy pogo OR clawline) AND (dash OR clawline OR sharpdart OR drifter's cloak OR spike pogo) |  | Verified | collectible | ✓ |  |
+| 5 | Swamp Squit 1 |  |  |  |  | enemy | ✓ |  |
+| 6 | Swamp Squit 2 |  |  |  |  | enemy | ✓ |  |
+| 7 | Swamp Squit 3 |  |  |  |  | enemy | ✓ |  |
+| 8 | Swamp Squit 4 |  |  |  |  | enemy | ✓ |  |
+| 9 | Miremite 1 |  |  |  |  | enemy | ✓ |  |
+| 10 | Miremite 2 |  |  |  |  | enemy | ✓ |  |
+| 11 | Miremite 3 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

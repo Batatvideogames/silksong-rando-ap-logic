@@ -53,6 +53,7 @@
 | 4 | Cogwork Core: Break Wall #6 | Breakable Wall Shaft | Break Wall Left OR Break Wall Right |  | Verified | blockade | ✓ |  |
 | 5 | Cogwork Core: Break Wall #7 | Breakable Wall Shaft | Break Wall Left OR Break Wall Right |  | Verified | blockade | ✓ |  |
 | 6 | Cogwork Core: Gauntlet #3 | Northern Gauntlet | Nothing |  | Verified | gauntlet |  |  |
+| 7 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

@@ -34,6 +34,7 @@
 | 3 | The Slab - Frayed Rosary String #2 | Corpse | none |  |  | collectible |  |  |
 | 4 | The Slab - Rosary Cache #1 | Corpse | none |  |  | collectible |  |  |
 | 5 | Breakable Wall Blockade | Bottom | break wall left |  |  | blockade |  |  |
+| 6 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

@@ -25,6 +25,7 @@ No subroom connections defined.
 | 1 | sharpdart |  | none |  | Verified | collectible | ✓ |  |
 | 2 | plasmid |  | act 3 |  | Verified | enemy | ✓ | location per the wiki; two spawn points in this room |
 | 3 | plasmified blood |  | needle phial AND defeat plasmid |  | Verified | resource |  |  |
+| 4 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Notes
 

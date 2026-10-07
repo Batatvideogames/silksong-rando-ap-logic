@@ -32,6 +32,17 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Garmond and Zaza Act 3 Meeting Shellwood | Left Lake | Act 3 |  | Verified | event | ✓ |  |
+| 2 | Pond Skipper 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Pond Skipper 2 |  |  |  |  | enemy | ✓ |  |
+| 4 | Pond Skipper 3 |  |  |  |  | enemy | ✓ |  |
+| 5 | Pondcatcher 1 |  |  |  |  | enemy | ✓ |  |
+| 6 | Pondcatcher 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 7 | Void Mass 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 8 | Pilgrim Hornfly 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 9 | Pondcatcher 3 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 10 | Shellwood Gnat 1 |  |  |  |  | enemy | ✓ |  |
+| 11 | Shellwood Gnat 2 |  |  |  |  | enemy | ✓ |  |
+| 12 | Shellwood Gnat 3 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

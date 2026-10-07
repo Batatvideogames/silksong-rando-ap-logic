@@ -42,6 +42,7 @@
 | 1 | Shell Shard Cache: Sands of Karak #1 | Lower Centre Platform | None |  | Verified | resource | ✓ |  |
 | 2 | Shell Shard Cache: Sands of Karak #2 | Lower Centre Platform | None |  | Verified | resource | ✓ |  |
 | 3 | Flea: Sands of Karak | Flea Ledge | None |  | Verified | collectible | ✓ |  |
+| 4 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

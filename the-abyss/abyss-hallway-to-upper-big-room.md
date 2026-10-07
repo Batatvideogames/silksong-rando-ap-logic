@@ -27,7 +27,13 @@
 
 ## Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Shadow Creeper 1 |  |  |  |  | enemy | ✓ |  |
+| 2 | Gloomsac 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Gloomsac 2 |  |  |  |  | enemy | ✓ |  |
+| 4 | Gloomsac 3 |  |  |  |  | enemy | ✓ |  |
+| 5 | Gloomsac 4 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

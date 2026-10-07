@@ -61,6 +61,16 @@
 | 5 | right tunnel blast rock blockade 2 | right tunnel 2 | break blast rock right |  | Verified | blockade | ✓ |  |
 | 6 | check alcove blast rock blockade | worst spot in the game | break blast rock right |  | Verified | blockade | ✓ |  |
 | 7 | beast shard deep docks | check alcove | none |  | Verified | collectible | ✓ |  |
+| 8 | Lavalarga 1 |  |  |  |  | enemy | ✓ |  |
+| 9 | Lavalarga 2 |  |  |  |  | enemy | ✓ |  |
+| 10 | Lavalarga 3 |  |  |  |  | enemy | ✓ |  |
+| 11 | Lavalarga 4 |  |  |  |  | enemy | ✓ |  |
+| 12 | Lavalug 1 |  |  |  |  | enemy | ✓ |  |
+| 13 | Lavalug 2 |  |  |  |  | enemy | ✓ |  |
+| 14 | Lavalarga 5 |  |  |  |  | enemy | ✓ |  |
+| 15 | Lavalarga 6 |  |  |  |  | enemy | ✓ |  |
+| 16 | Lavalarga 7 |  |  |  |  | enemy | ✓ |  |
+| 17 | Lavalarga 8 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

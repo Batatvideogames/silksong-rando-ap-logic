@@ -33,6 +33,11 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Memorium - Spool Fragment | Fragment | none |  | Verified | collectible | ✓ |  |
 | 2 | Memorium Mossy wall | Bottom | none |  | Verified | blockade |  | custom name |
+| 3 | Massive Mossgrub 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Mossgrub 1 |  |  |  |  | enemy | ✓ |  |
+| 5 | Massive Mossgrub 2 |  |  |  |  | enemy | ✓ |  |
+| 6 | Nuphar 1 |  |  |  |  | enemy | ✓ |  |
+| 7 | Nuphar 2 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

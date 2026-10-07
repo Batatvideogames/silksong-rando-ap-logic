@@ -29,6 +29,7 @@ No subroom connections defined.
 | 4 | rite of rebirth wish promised |  | complete rite of the pollip wish granted  AND have twisted bud |  | Verified | event |  |  |
 | 5 | rite of rebirth wish granted |  | complete rite of rebirth wish promised |  | Verified | event |  |  |
 | 6 | Crest Cursed |  | complete rite of rebirth wish granted |  | Verified | collectible |  |  |
+| 7 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

@@ -29,7 +29,11 @@
 
 ## Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Mothleaf Lagnia 1 |  |  |  |  | enemy | ✓ |  |
+| 2 | Mothleaf Lagnia 2 |  |  |  |  | enemy | ✓ |  |
+| 3 | Mothleaf Lagnia 3 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

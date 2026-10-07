@@ -50,6 +50,21 @@
 | 4 | rosary cache deep docks 1 | main area | none |  | Verified | resource | ✓ |  |
 | 5 | rosary cache deep docks 2 | main area | none |  | Verified | resource | ✓ |  |
 | 6 | spike hall breakable floor | middle crossing Left | Break Wall Up |  | Verified | blockade | ✓ |  |
+| 7 | Lavalug 1 |  |  |  |  | enemy | ✓ |  |
+| 8 | Lavalug 2 |  |  |  |  | enemy | ✓ |  |
+| 9 | Lavalug 3 |  |  |  |  | enemy | ✓ |  |
+| 10 | Flintstone Flyer 1 |  |  |  |  | enemy | ✓ |  |
+| 11 | Smokerock Sifter 1 |  |  |  |  | enemy | ✓ |  |
+| 12 | Flintflame Flyer 1 |  |  |  |  | enemy | ✓ |  |
+| 13 | Caranid 1 |  |  |  |  | enemy | ✓ |  |
+| 14 | Vicious Caranid 1 |  |  |  |  | enemy | ✓ |  |
+| 15 | Caranid 2 |  |  |  |  | enemy | ✓ |  |
+| 16 | Caranid 3 |  |  |  |  | enemy | ✓ |  |
+| 17 | Vicious Caranid 2 |  |  |  |  | enemy | ✓ |  |
+| 18 | Smokerock Sifter 2 |  |  |  |  | enemy | ✓ |  |
+| 19 | Smelt Shoveller 1 |  |  |  |  | enemy | ✓ |  |
+| 20 | Lavalug 4 |  |  |  |  | enemy | ✓ |  |
+| 21 | Lavalug 5 |  |  |  |  | enemy | ✓ |  |
 
 ## Notes
 

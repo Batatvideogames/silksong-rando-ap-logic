@@ -29,6 +29,26 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Memorium - Mossbery | Post Wall | none |  | Verified | collectible | ✓ |  |
+| 2 | Mossgrub 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | MossBone Cocoon (2) 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Mossgrub 2 |  |  |  |  | enemy | ✓ |  |
+| 5 | MossBone Cocoon (3) 1 |  |  |  |  | enemy | ✓ |  |
+| 6 | MossBone Cocoon (1) 1 |  |  |  |  | enemy | ✓ |  |
+| 7 | Marrowmaw 1 |  |  |  |  | enemy | ✓ |  |
+| 8 | MossBone Cocoon 1 |  |  |  |  | enemy | ✓ |  |
+| 9 | Mossmir 1 |  |  |  |  | enemy | ✓ |  |
+| 10 | Mossgrub 3 |  |  |  |  | enemy | ✓ |  |
+| 11 | Mossgrub 4 |  |  |  |  | enemy | ✓ |  |
+| 12 | Mossgrub 5 |  |  |  |  | enemy | ✓ |  |
+| 13 | MossBone Cocoon (2)(Clone) 1 |  |  |  |  | enemy | ✓ |  |
+| 14 | MossBone Cocoon (3)(Clone) 1 |  |  |  |  | enemy | ✓ |  |
+| 15 | MossBone Cocoon (1)(Clone) 1 |  |  |  |  | enemy | ✓ |  |
+| 16 | Marrowmaw 2 |  |  |  |  | enemy | ✓ |  |
+| 17 | MossBone Cocoon(Clone) 1 |  |  |  |  | enemy | ✓ |  |
+| 18 | Mossgrub 6 |  |  |  |  | enemy | ✓ |  |
+| 19 | Mossgrub 7 |  |  |  |  | enemy | ✓ |  |
+| 20 | Mossmir 2 |  |  |  |  | enemy | ✓ |  |
+| 21 | Mossmir 3 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

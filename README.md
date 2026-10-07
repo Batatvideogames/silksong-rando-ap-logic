@@ -10,7 +10,8 @@ Generated from the non-archived records in `input/silksong-rando-logic.db`.
 - [Moss Grotto West (Tut_02)](./moss-grotto/moss-grotto-west.md)
 - [Moss Grotto East (Tut_01b)](./moss-grotto/moss-grotto-east.md)
 - [Ruined Chapel (Tut_03)](./moss-grotto/ruined-chapel.md)
-- [Ruined Chapel Interior](./moss-grotto/ruined-chapel-interior.md)
+- [Ruined Chapel Interior (Tut_04)](./moss-grotto/ruined-chapel-interior.md)
+- [Ruined Chapel Crest Chamber (Tut_05)](./moss-grotto/ruined-chapel-crest-chamber.md)
 
 ## Bone Bottom
 

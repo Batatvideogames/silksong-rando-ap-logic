@@ -30,6 +30,7 @@ No subroom connections defined.
 | 6 | advanced alchemy wish promised |  | act 3  AND complete alchemist's assistant wish granted |  | Verified | event |  |  |
 | 7 | advanced alchemy wish granted |  | act 3  AND complete advanced alchemy wish promised AND get 10 plasmified blood |  | Verified | event |  |  |
 | 8 | laboratory bench |  | none |  | Verified | bench | ✓ |  |
+| 9 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Notes
 

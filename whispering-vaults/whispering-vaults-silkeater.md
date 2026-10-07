@@ -30,6 +30,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Whispering Vaults: Break Wall #5 | The Room | Break Wall Right |  | Verified | blockade | ✓ |  |
 | 2 | Whispering Vaults: Silkeater #1 | Silkeater | Nothing. |  | Verified | collectible | ✓ |  |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Notes
 

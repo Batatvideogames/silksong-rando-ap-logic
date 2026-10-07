@@ -54,6 +54,11 @@
 | 2 | Greymoor - Rosary Cache #10 | middle section | nothing |  | Verified | resource | ✓ |  |
 | 3 | top trapdoor | tower top section | break lever right OR break lever left OR break lever up |  | Verified | blockade | ✓ |  |
 | 4 | Mister Mushroom Meeting Greymoor | whisp thicket entrance | after THE Mister Mushroom Meeting Far Fields AND Needolin |  | Verified | event | ✓ |  |
+| 5 | Silk Snipper 1 |  |  |  |  | enemy | ✓ |  |
+| 6 | Silk Snipper 2 |  |  |  |  | enemy | ✓ |  |
+| 7 | Mite 1 |  |  |  |  | enemy | ✓ |  |
+| 8 | Mite 2 |  |  |  |  | enemy | ✓ |  |
+| 9 | Mite 3 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

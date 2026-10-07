@@ -23,6 +23,7 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Mount Fay - Weaver Inscrytion |  | None |  | Verified | lore |  |  |
+| 2 | Weaver Servitor Broken 1 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

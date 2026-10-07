@@ -56,6 +56,7 @@
 | 2 | Platform Fall Lever | Lever | Flip Switch Left |  | Verified | switch | ✓ |  |
 | 3 | Unneeded Lever | Bottom Lever | Flip Switch Left |  | Verified | switch | ✓ |  |
 | 4 | Underground Entrance Lever | Underground | Flip Switch Right |  | Verified | switch | ✓ |  |
+| 5 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

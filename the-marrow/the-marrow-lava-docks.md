@@ -43,6 +43,17 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | rosary spike | upper left platforms | none |  | Verified | collectible | ✓ |  |
 | 2 | Garmond and Zaza Act 3 Meeting The Marrow | ground floor | Act 3 |  | Verified | event | ✓ |  |
+| 3 | Flintstone Flyer 1 | ground floor | None |  | Verified | enemy | ✓ |  |
+| 4 | Skull Brute 1 | upper left platforms | None |  | Verified | enemy | ✓ |  |
+| 5 | Caranid 1 | ground floor | None |  | Verified | enemy | ✓ |  |
+| 6 | Skull Scuttler 1 | upper left platforms | None |  | Verified | enemy | ✓ |  |
+| 7 | Pilgrim Pouncer 1 | upper left platforms | None |  | Verified | enemy | ✓ |  |
+| 8 | Smelt Shoveller 1 | ground floor | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 9 | Smelt Shoveller 2 | ground floor | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 10 | Skull Scuttler 2 | upper left platforms | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 11 | Skull Scuttler 3 | ground floor | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 12 | Void Mass 1 | elevated platforms | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 13 | Smelt Shoveller 3 | ground floor | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

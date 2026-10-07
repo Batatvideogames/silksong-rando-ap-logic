@@ -40,6 +40,7 @@
 | 1 | Gauntlet Fight | Gauntlet | none |  |  | gauntlet |  |  |
 | 2 | Heavy Rosary Necklace: Choral Chambers | Base | cling grip OR silk soar |  |  | collectible |  | Secret hidden by breaking the ceiling |
 | 3 | Second Sentinel Encounter | Gauntlet | defeat Gauntlet Fight AND Act 2 AND complete THE Second Sentinel Activation |  |  | resource |  | only act 2 per the wiki |
+| 4 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

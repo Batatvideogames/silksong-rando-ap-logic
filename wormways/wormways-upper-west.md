@@ -48,6 +48,7 @@
 | 4 | plasmified blood lower | main tunnel lower | needle phial  AND defeat plasmid lower |  | Verified | resource | ✓ |  |
 | 5 | plasmid upper | main area upper | act 3 |  | Verified | enemy | ✓ |  |
 | 6 | plasmified blood upper | main area upper | needle phial  AND defeat plasmid upper |  | Verified | resource | ✓ |  |
+| 7 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Notes
 

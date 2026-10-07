@@ -24,6 +24,17 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Memorium - Beast Shard |  | none |  | Verified | collectible |  |  |
+| 2 | Rhinogrund 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Kilik 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Beastfly 1 |  |  |  |  | enemy | ✓ |  |
+| 5 | Beastfly 2 |  |  |  |  | enemy | ✓ |  |
+| 6 | Skull Brute 1 |  |  |  |  | enemy | ✓ |  |
+| 7 | Vicious Caranid 1 |  |  |  |  | enemy | ✓ |  |
+| 8 | Vicious Caranid 2 |  |  |  |  | enemy | ✓ |  |
+| 9 | Vicious Caranid 3 |  |  |  |  | enemy | ✓ |  |
+| 10 | Caranid 1 |  |  |  |  | enemy | ✓ |  |
+| 11 | Caranid 2 |  |  |  |  | enemy | ✓ |  |
+| 12 | Skull Scuttler 1 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

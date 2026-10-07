@@ -36,6 +36,16 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Surface Memento | Nameless Town | None |  | Verified | collectible |  |  |
+| 2 | Skrill 1 |  |  |  |  | enemy |  |  |
+| 3 | Skrill 2 |  |  |  |  | enemy |  |  |
+| 4 | Skrill 3 |  |  |  |  | enemy |  |  |
+| 5 | Skrill 4 |  |  |  |  | enemy |  |  |
+| 6 | Skrill 5 |  |  |  |  | enemy |  |  |
+| 7 | Skrill 6 |  |  |  |  | enemy |  |  |
+| 8 | Skrill 7 |  |  |  |  | enemy |  |  |
+| 9 | Skrill 8 |  |  |  |  | enemy |  |  |
+| 10 | Skrill 9 |  |  |  |  | enemy |  |  |
+| 11 | Skrill 10 |  |  |  |  | enemy |  |  |
 
 ## Notes
 

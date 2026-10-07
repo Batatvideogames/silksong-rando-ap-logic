@@ -43,6 +43,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Underworks: Needolin Lore #1 | Needolin Check | Needolin |  | Verified | lore | ✓ |  |
 | 2 | Underworks: Shell Shard Cache #1 | Shell Shard Check | Nothing. |  | Verified | collectible | ✓ |  |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

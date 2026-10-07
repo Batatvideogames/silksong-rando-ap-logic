@@ -34,6 +34,7 @@
 | 1 | Key of Heretic | Arena | defeat gauntlet fight |  |  | collectible |  |  |
 | 2 | Gauntlet Fight | Arena | none |  |  | gauntlet |  |  |
 | 3 | The Wailing Mother Wish Broodmother Alcove Trigger | Arena | none |  | Verified | logic-point |  |  |
+| 4 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

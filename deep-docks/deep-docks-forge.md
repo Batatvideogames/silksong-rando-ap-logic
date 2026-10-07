@@ -56,6 +56,15 @@
 | 10 | Forge Battle | gauntlet | Nothing. |  | Verified | gauntlet | ✓ |  |
 | 11 | Forge bench | forge daughter | Nothing. |  | Verified | bench | ✓ |  |
 | 12 | Ballow Move to Control Room | forge daughter | Act 3 |  | Verified | event | ✓ |  |
+| 13 | Smokerock Sifter 1 |  |  |  |  | enemy | ✓ |  |
+| 14 | Flintstone Flyer 1 |  |  |  |  | enemy | ✓ |  |
+| 15 | Flintstone Flyer 2 |  |  |  |  | enemy | ✓ |  |
+| 16 | Flintstone Flyer 3 |  |  |  |  | enemy | ✓ |  |
+| 17 | Smokerock Sifter 2 |  |  |  |  | enemy | ✓ |  |
+| 18 | Flintstone Flyer 4 |  |  |  |  | enemy | ✓ |  |
+| 19 | Smelt Shoveller 1 |  |  |  |  | enemy | ✓ |  |
+| 20 | Smokerock Sifter 3 |  |  |  |  | enemy | ✓ |  |
+| 21 | Smelt Shoveller 2 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

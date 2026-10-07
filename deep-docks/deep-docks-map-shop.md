@@ -53,6 +53,9 @@
 | 2 | pin purchase vendor pins | Floor | none |  | Verified | collectible | ✓ | shakra shop |
 | 3 | switch to upper lower platform | Upper Switch | Flip Switch Left |  | Verified | switch | ✓ | NOT CURRENTLY RANDOMIZED |
 | 4 | switch to lower lower platform | Lower Right Switch | Flip Switch Right |  | Verified | switch | ✓ | NOT CURRENTLY RANDOMIZED (doesn't currently really block anything since you can just jump above and fall down) |
+| 5 | Smelt Shoveller 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 6 | Flintstone Flyer 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 7 | Flintstone Flyer 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 ## Room Images
 

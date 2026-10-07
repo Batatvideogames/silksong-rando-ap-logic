@@ -34,6 +34,15 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Mount Fay Slope Lever | Ceiling Area | None |  | Verified | switch | ✓ |  |
+| 2 | Driftlin 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Driftlin 2 |  |  |  |  | enemy | ✓ |  |
+| 4 | Driftlin 3 |  |  |  |  | enemy | ✓ |  |
+| 5 | Driftlin 4 |  |  |  |  | enemy | ✓ |  |
+| 6 | Driftlin 5 |  |  |  |  | enemy | ✓ |  |
+| 7 | Driftlin 6 |  |  |  |  | enemy | ✓ |  |
+| 8 | Driftlin 7 |  |  |  |  | enemy | ✓ |  |
+| 9 | Driftlin 8 |  |  |  |  | enemy | ✓ |  |
+| 10 | Driftlin 9 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

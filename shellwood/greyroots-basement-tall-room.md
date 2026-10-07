@@ -37,6 +37,12 @@
 | 5 | Shell Shard Cache: Shellwood #3 | Top | None |  | Verified | resource | ✓ |  |
 | 6 | Breakable Roof Diddy Basement | Top | Cling Grip |  | Verified | blockade |  |  |
 | 7 | Blast Rock Exit Blockade | Bottom | break blast rock right |  | Verified | blockade | ✓ |  |
+| 8 | Shellwood Goomba Flyer (1) 1 |  |  |  |  | enemy | ✓ |  |
+| 9 | Shellwood Goomba Flyer 1 |  |  |  |  | enemy | ✓ |  |
+| 10 | Aknid 1 |  |  |  |  | enemy | ✓ |  |
+| 11 | Aknid 2 |  |  |  |  | enemy | ✓ |  |
+| 12 | Shellwood Gnat 1 |  |  |  |  | enemy | ✓ |  |
+| 13 | Shellwood Gnat 2 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

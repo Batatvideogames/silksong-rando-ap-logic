@@ -24,6 +24,15 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Frayed Rosary String: Sinner's Road |  | break wall left |  | Verified | collectible | ✓ |  |
+| 2 | Muckroach 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Muckroach 2 |  |  |  |  | enemy | ✓ |  |
+| 4 | Muckroach 3 |  |  |  |  | enemy | ✓ |  |
+| 5 | Roachfeeder 1 |  |  |  |  | enemy | ✓ |  |
+| 6 | Muckroach 4 |  |  |  |  | enemy | ✓ |  |
+| 7 | Muckroach 5 |  |  |  |  | enemy | ✓ |  |
+| 8 | Muckroach 6 |  |  |  |  | enemy | ✓ |  |
+| 9 | Muckroach 7 |  |  |  |  | enemy | ✓ |  |
+| 10 | Muckroach 8 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

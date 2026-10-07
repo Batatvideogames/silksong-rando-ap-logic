@@ -50,6 +50,13 @@
 | 5 | Pinstress Boss Fight | Pinstress Arena | complete Fatal Resolve Wish Promised IN Windy Pinstress Room OR (  complete Fatal Resolve Wish Promised IN Bellhart Wish Wall AND complete Read Pinstress Note IN Windy Pinstress Room ) |  | Verified | boss | ✓ | confirmed that you need to read the note if you start from the wish wall |
 | 6 | Fatal Resolve Wish Granted | Pinstress Arena | defeat Pinstress Boss Fight |  | Verified | event | ✓ |  |
 | 7 | Pin Badge | Pinstress Arena | complete Pinstress Boss Fight |  | Verified | collectible | ✓ |  |
+| 8 | Pinstress Boss 1 |  |  |  |  | enemy | ✓ |  |
+| 9 | Driftlin 1 |  |  |  |  | enemy | ✓ |  |
+| 10 | Driftlin 2 |  |  |  |  | enemy | ✓ |  |
+| 11 | Driftlin 3 |  |  |  |  | enemy | ✓ |  |
+| 12 | Driftlin 4 |  |  |  |  | enemy | ✓ |  |
+| 13 | Driftlin 5 |  |  |  |  | enemy | ✓ |  |
+| 14 | Driftlin 6 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

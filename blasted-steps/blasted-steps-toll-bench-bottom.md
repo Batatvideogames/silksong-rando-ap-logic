@@ -54,6 +54,17 @@
 | 4 | Shell Shard Cache: Blasted Steps #3 | Bottom Left | Nothing (Fall) |  | Verified | collectible | ✓ |  |
 | 5 | Top Right Pit Lever | Top Right Pit (Left) | Nothing |  | Verified | switch | ✓ |  |
 | 6 | Garmond and Zaza Act 3 Meeting Blasted Steps | Top Left | Act 3 |  |  | event | ✓ | Need to verify subroom |
+| 7 | Judge 1 |  |  |  |  | enemy | ✓ |  |
+| 8 | Judge 2 |  |  |  |  | enemy | ✓ |  |
+| 9 | Pilgrim Bellbearer 1 |  |  |  |  | enemy | ✓ |  |
+| 10 | Pharlid 1 |  |  |  |  | enemy | ✓ |  |
+| 11 | Pharlid 2 |  |  |  |  | enemy | ✓ |  |
+| 12 | Pilgrim Pouncer 1 |  |  |  |  | enemy | ✓ |  |
+| 13 | Pilgrim Groveller 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 14 | Pilgrim Pouncer 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 15 | Judge 3 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 16 | Pilgrim Hiker 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 17 | Pilgrim Hiker 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 ## Room Images
 

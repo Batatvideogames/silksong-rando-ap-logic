@@ -59,6 +59,16 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Cogwork Core: Flipped Switch #5 | Top Right Door | Nothing. |  | Verified | switch | ✓ |  |
 | 2 | Cogwork Core: Flipped Switch #4 | Shaft Shortcut | Flip Switch Left |  | Verified | switch | ✓ |  |
+| 3 | Cogwork Crawler 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Cogwork Crawler 2 |  |  |  |  | enemy | ✓ |  |
+| 5 | Cogwork Choirbug 1 |  |  |  |  | enemy | ✓ |  |
+| 6 | Cogwork Choirbug 2 |  |  |  |  | enemy | ✓ |  |
+| 7 | Cogwork Choirbug 3 |  |  |  |  | enemy | ✓ |  |
+| 8 | Cogwork Cleanser 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 9 | Cogwork Choirbug 4 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 10 | Cogwork Choirbug 5 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 11 | Cogwork Cleanser 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 12 | Void Mass 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 ## Room Images
 

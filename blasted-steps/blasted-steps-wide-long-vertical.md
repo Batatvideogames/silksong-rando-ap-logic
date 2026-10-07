@@ -64,6 +64,16 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Frayed Rosary String: Blasted Steps | Pit | Nothing (Falling) |  | Verified | collectible | ✓ |  |
 | 2 | Top Third Lever | Top Third | (Ledge Grab AND (Cling Grip OR Scuttlebrace)) OR Faydown OR Silk Soar |  | Verified | switch | ✓ |  |
+| 3 | Driznit 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Driznit 2 |  |  |  |  | enemy | ✓ |  |
+| 5 | Driznit 3 |  |  |  |  | enemy | ✓ |  |
+| 6 | Pilgrim Hiker 1 |  |  |  |  | enemy | ✓ |  |
+| 7 | Pharlid 1 |  |  |  |  | enemy | ✓ |  |
+| 8 | Pharlid 2 |  |  |  |  | enemy | ✓ |  |
+| 9 | Pharlid 3 |  |  |  |  | enemy | ✓ |  |
+| 10 | Pharlid 4 |  |  |  |  | enemy | ✓ |  |
+| 11 | Driznit 4 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 12 | Driznit 5 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 ## Room Images
 

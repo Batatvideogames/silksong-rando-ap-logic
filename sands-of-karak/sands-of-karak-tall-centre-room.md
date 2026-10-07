@@ -51,6 +51,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Stalactite | Stalactite | None |  | Verified | blockade |  |  |
 | 2 | Stalactite 2 | Bridge Level | None |  | Verified | blockade |  |  |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

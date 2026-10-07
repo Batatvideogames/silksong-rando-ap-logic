@@ -48,6 +48,23 @@
 | 3 | shell shard cache moss grotto 7 | the backroom cache | none |  | Verified | collectible | ✓ |  |
 | 4 | moss grotto west mossberry | mossberry platform | none |  | Verified | collectible | ✓ |  |
 | 5 | one-way breakable wall | the backroom cache | break wall right |  | Verified | blockade | ✓ |  |
+| 6 | Mossgrub 1 | the backroom floor | None |  | Verified | enemy | ✓ |  |
+| 7 | Mossgrub 2 | upper level | None |  | Verified | enemy | ✓ |  |
+| 8 | Mossgrub 3 | the pond | None |  | Verified | enemy | ✓ |  |
+| 9 | Mossgrub 4 | lower right exit area | None |  | Verified | enemy | ✓ |  |
+| 10 | Mossgrub 5 | the backroom cache | None |  | Verified | enemy | ✓ |  |
+| 11 | Mossgrub 6 | lower right exit area | None |  | Verified | enemy | ✓ |  |
+| 12 | Mossgrub 7 | upper level | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 13 | Mossgrub 8 | upper level | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 14 | MossBone Cocoon 1 | lower right exit area | None |  | Verified | enemy | ✓ |  |
+| 15 | MossBone Cocoon 2 | lower right exit area | None |  | Verified | enemy | ✓ |  |
+| 16 | MossBone Cocoon 3 | lower right exit area | None |  | Verified | enemy | ✓ |  |
+| 17 | Mossmir 1 | upper level | None |  | Verified | enemy | ✓ |  |
+| 18 | Mossmir 2 | mossberry platform | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 19 | Mossmir 3 | upper level | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 20 | MossBone Cocoon 4 | upper level | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 21 | Mossmir 4 | upper level | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 22 | Moss Mother 1 | upper level | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 
 ## Notes
 

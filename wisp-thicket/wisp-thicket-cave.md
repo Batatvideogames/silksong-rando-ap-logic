@@ -30,6 +30,7 @@ No subroom connections defined.
 | 5 | Shell Shard Cache: Wisp Thicket #3 |  | dash OR faydown cloak OR clawline OR spike pogo OR drifter's cloak |  |  | collectible |  |  |
 | 6 | Shell Shard Cache: Wisp Thicket #4 |  | dash OR faydown cloak OR clawline OR spike pogo OR drifter's cloak |  |  | collectible |  |  |
 | 7 | Shell Shard Cache: Wisp Thicket #5 |  | dash OR faydown cloak OR clawline OR spike pogo OR drifter's cloak |  |  | collectible |  |  |
+| 8 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

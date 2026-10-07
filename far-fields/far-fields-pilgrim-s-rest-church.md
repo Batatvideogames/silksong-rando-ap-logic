@@ -33,6 +33,7 @@
 | 2 | rhinogrund miniboss fight | main floor | none (fite me) |  | Verified | miniboss |  | can skip by leaving and coming back |
 | 3 | door switch | main floor | none |  | Verified | switch |  |  |
 | 4 | beast shard | main floor | defeat rhinogrund miniboss fight |  | Verified | collectible |  | this can be missed - if the switch is flipped and you leave the room (or die) without defeating the rhinogrund or collecting the beast shard, they become unavailable |
+| 5 | Rhinogrund 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
 
 ## Room Images
 

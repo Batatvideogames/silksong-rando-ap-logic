@@ -24,6 +24,7 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | blast rock exit block |  | break blast rock left |  | Verified | blockade |  |  |
+| 2 | Fertid 1 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

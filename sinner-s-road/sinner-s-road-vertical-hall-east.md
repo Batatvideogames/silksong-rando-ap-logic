@@ -53,6 +53,12 @@
 | 3 | Rosary Cache: Sinner’s Road #7 | mid cage | none |  | Verified | collectible | ✓ |  |
 | 4 | Shard Bundle: Sinner’s Road | bilewater door | none |  | Verified | collectible | ✓ |  |
 | 5 | Simple Key: Roachkeeper | upper | Cling grip AND (dash OR drifter’s cloak OR clawline OR sharpdart) |  | Verified | collectible | ✓ |  |
+| 6 | Roachkeeper 1 |  |  |  |  | enemy | ✓ |  |
+| 7 | Roachfeeder 1 |  |  |  |  | enemy | ✓ |  |
+| 8 | Roachfeeder 2 |  |  |  |  | enemy | ✓ |  |
+| 9 | Mite 1 |  |  |  |  | enemy | ✓ |  |
+| 10 | Mite 2 |  |  |  |  | enemy | ✓ |  |
+| 11 | Mite 3 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

@@ -38,6 +38,9 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Relic: Choral Commandment (Western Whiteward) | Pickup Section | Nothing |  | Verified | collectible | ✓ |  |
+| 2 | Dreg Husk 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Dreg Husk 2 |  |  |  |  | enemy | ✓ |  |
+| 4 | Drapefly 1 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

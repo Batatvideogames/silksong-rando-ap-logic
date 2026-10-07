@@ -59,6 +59,10 @@
 | 2 | caranid 2 | lava basin | none |  | Verified | enemy | ✓ | shell shards |
 | 3 | vicious caranid | lava basin | none |  | Verified | enemy | ✓ | shell shards |
 | 4 | fertid | lower left exit area | none |  | Verified | enemy | ✓ | shell shards |
+| 5 | Fertid 1 |  |  |  |  | enemy | ✓ |  |
+| 6 | Vicious Caranid 1 |  |  |  |  | enemy | ✓ |  |
+| 7 | Caranid 1 |  |  |  |  | enemy | ✓ |  |
+| 8 | Caranid 3 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

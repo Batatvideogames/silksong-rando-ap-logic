@@ -47,6 +47,7 @@
 | 3 | Left Side Door Switch | Door Switch | Flip Switch Right |  | Verified | switch | ✓ |  |
 | 4 | Platforms Clawline Ring | Lower Chain Platforms | Clawline |  | Verified | switch | ✓ |  |
 | 5 | Craftmetal Breakable Wall | Lower Chain Platforms | Break Wall Left |  | Verified | collectible | ✓ |  |
+| 6 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Notes
 

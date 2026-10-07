@@ -55,6 +55,11 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Memorium - Lower Plaque | Lore Platform | nada |  | Verified | lore | ✓ |  |
+| 2 | Mossgrub 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Mossgrub 2 |  |  |  |  | enemy | ✓ |  |
+| 4 | Mossmir 1 |  |  |  |  | enemy | ✓ |  |
+| 5 | Mossmir 2 |  |  |  |  | enemy | ✓ |  |
+| 6 | Memoria 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 ## Room Images
 

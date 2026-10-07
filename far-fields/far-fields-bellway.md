@@ -44,6 +44,9 @@
 | 6 | vicious caranid 1 | thorn path | none |  | Verified | enemy | ✓ | shell shards |
 | 7 | vicious caranid 2 | thorn path | none |  | Verified | enemy | ✓ | shell shards |
 | 8 | vicious caranid 3 | thorn path | none |  | Verified | enemy | ✓ | shell shards |
+| 9 | Vicious Caranid 4 |  |  |  |  | enemy | ✓ |  |
+| 10 | Vicious Caranid 5 |  |  |  |  | enemy | ✓ |  |
+| 11 | Vicious Caranid 6 |  | Normal World Spawn |  |  | enemy | ✓ |  |
 
 ## Room Images
 

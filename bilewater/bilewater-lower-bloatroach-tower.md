@@ -47,6 +47,13 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Bilewater - Frayed Rosary String | rosary plat | none |  | Verified | collectible | ✓ |  |
+| 2 | Bloatroach 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Bloatroach 2 |  |  |  |  | enemy | ✓ |  |
+| 4 | Bloatroach 3 |  |  |  |  | enemy | ✓ |  |
+| 5 | Bloatroach 4 |  |  |  |  | enemy | ✓ |  |
+| 6 | Miremite 1 |  |  |  |  | enemy | ✓ |  |
+| 7 | Miremite 2 |  |  |  |  | enemy | ✓ |  |
+| 8 | Miremite 3 |  | Normal World Spawn |  |  | enemy | ✓ |  |
 
 ## Room Images
 

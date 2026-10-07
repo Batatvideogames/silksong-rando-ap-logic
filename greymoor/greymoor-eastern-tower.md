@@ -51,6 +51,18 @@
 | 5 | middle airstream | middle section | ((drifters cloak AND activate lower airstream) OR ledge grab OR cling grip OR silk soar OR faydown cloak) AND (hit lever right OR hit lever up OR hit lever left) |  | Verified | switch | ✓ |  |
 | 6 | upper airstream | upper airstream section | hit lever right OR hit lever down |  | Verified | switch | ✓ |  |
 | 7 | top airstream | tower top | (hit lever right OR hit lever up OR hit lever left) AND ((activate upper airstream AND drifters cloak) OR (proficient movement AND spike pogo)) |  | Verified | switch | ✓ |  |
+| 8 | Silk Snipper 1 |  |  |  |  | enemy | ✓ |  |
+| 9 | Fluttermite 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 10 | Fluttermite 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 11 | Dreg Catcher 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 12 | Dreg Catcher 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 13 | Thread Raker 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 14 | Dreg Catcher 3 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 15 | Dreg Catcher 4 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 16 | Roachcatcher 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 17 | Dreg Catcher 5 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 18 | Thread Raker 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 19 | Thread Raker 3 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 ## Room Images
 

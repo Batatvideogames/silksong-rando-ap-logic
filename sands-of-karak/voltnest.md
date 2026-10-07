@@ -33,6 +33,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Volt Filament | Bottom | None |  | Verified | collectible |  |  |
 | 2 | Boss: Voltwyrm | Bottom | None |  | Verified | boss |  |  |
+| 3 | Voltvyrm 1 |  |  |  |  | enemy |  |  |
 
 ## Room Images
 

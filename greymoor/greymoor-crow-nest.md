@@ -44,6 +44,7 @@
 | 7 | Greymoor - Rosary Cache #31 | crow lower nest | (faydown cloak AND (progressive swift step 1 OR sharpdart OR clawline)) OR ((ledge grab OR cling grip OR easy enemy pogo) AND drifters cloak AND (progressive swift step 2 OR sharpdart OR clawline)) OR prereq balloon lever |  | Verified | resource |  |  |
 | 8 | Greymoor - Rosary Cache #34 | crow arena | none |  | Verified | resource |  |  |
 | 9 | Craw Lake Gauntlet | crow arena | nothing |  | Verified | gauntlet |  |  |
+| 10 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

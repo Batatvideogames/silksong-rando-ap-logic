@@ -26,13 +26,14 @@
 | RG | right gauntlet door | right of gauntlet | gauntlet arena | none (starts gauntlet) |  | Verified | ✓ |  |
 | RG | right gauntlet door | gauntlet arena | right of gauntlet | defeat gauntlet fight |  | Verified | ✓ |  |
 | LG | left gauntlet door | gauntlet arena | left of gauntlet | defeat gauntlet fight |  | Verified | ✓ |  |
-| LG | left gauntlet door | left of gauntlet | gauntlet arena | defeat gauntlet fight | TODO | Needs verification | ✓ | need to double check this for room rando |
+| LG | left gauntlet door | left of gauntlet | gauntlet arena | defeat gauntlet fight |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | gauntlet fight | gauntlet arena | none |  | Verified | gauntlet | ✓ |  |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

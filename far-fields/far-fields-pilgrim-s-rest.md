@@ -42,7 +42,11 @@
 
 ## Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Snitchfly 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 2 | Snitchfly 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 3 | Pilgrim Hulk 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
 
 ## Room Images
 

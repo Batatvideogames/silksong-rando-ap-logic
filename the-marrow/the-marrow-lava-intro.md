@@ -47,6 +47,13 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | chain drop platform | chain break spot | none (stand on it) |  | Verified | switch | ✓ |  |
+| 2 | Skull Brute 1 | left platforms | None |  | Verified | enemy | ✓ |  |
+| 3 | Caranid 1 | left platforms | None |  | Verified | enemy | ✓ | technically in upper left exit but can be activated from lower spot |
+| 4 | Caranid 2 | chain break spot | None |  | Verified | enemy | ✓ |  |
+| 5 | Caranid 3 | chain break spot | None |  | Verified | enemy | ✓ |  |
+| 6 | Skull Scuttler 1 | ground right | None |  | Verified | enemy | ✓ |  |
+| 7 | Skull Scuttler 2 | ground left | None |  | Verified | enemy | ✓ |  |
+| 8 | Void Mass 1 | left platforms | Black Thread World Spawn |  | Verified | enemy | ✓ | placement seems to allow it to be attacked from here without getting to the upper platforms |
 
 ## Notes
 

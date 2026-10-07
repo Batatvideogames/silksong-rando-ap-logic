@@ -44,6 +44,14 @@
 | 1 | rosary cache bone bottom 4 | rosary alcove | none |  | Verified | collectible |  |  |
 | 2 | rosary cache bone bottom 5 | rosary alcove | none |  | Verified | collectible |  |  |
 | 3 | Garmond and Zaza Act 3 Meeting Bone Bottom | upper right level | Act 3 |  | Verified | event | ✓ |  |
+| 4 | Pilgrim Groveller 1 | ground floor | None |  | Verified | enemy | ✓ |  |
+| 5 | Aknid 1 | ground floor | None |  | Verified | enemy | ✓ |  |
+| 6 | Pilgrim Pouncer 1 | upper right level | None |  | Verified | enemy | ✓ |  |
+| 7 | Pilgrim Groveller 2 | ground floor | None |  | Verified | enemy | ✓ |  |
+| 8 | Pilgrim Groveller 3 | upper right level | None |  | Verified | enemy | ✓ |  |
+| 9 | Pilgrim Groveller 4 | upper right level | None |  | Verified | enemy | ✓ |  |
+| 10 | Pilgrim Groveller 5 | ground floor | None |  | Verified | enemy | ✓ |  |
+| 11 | Pilgrim Pouncer 2 | ground floor | Normal World Spawn |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

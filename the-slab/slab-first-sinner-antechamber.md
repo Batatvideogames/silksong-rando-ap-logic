@@ -27,6 +27,7 @@ No subroom connections defined.
 | 2 | Rune Rage |  | defeat Boss: First Sinner |  |  | collectible |  |  |
 | 3 | Boss: First Sinner |  | faydown |  |  | boss |  |  |
 | 4 | Mister Mushroom Meeting The Slab |  | after THE Mister Mushroom Meeting Greymoor AND Needolin |  | Verified | event | ✓ |  |
+| 5 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

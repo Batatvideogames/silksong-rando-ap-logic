@@ -39,6 +39,7 @@
 | 1 | Cling Grip | Upper Level | None |  | Verified | collectible | ✓ |  |
 | 2 | Pollip Heart #5 | Central Level | None |  | Verified | collectible | ✓ |  |
 | 3 | Shellwood - Weaver Harp Inscryption | Ground Level | Needolin |  | Verified | lore | ✓ |  |
+| 4 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

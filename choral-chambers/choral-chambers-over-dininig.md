@@ -36,6 +36,7 @@
 | 2 | Rosary Cache: Choral Chambers #12 | Top | none |  |  | collectible |  | falling |
 | 3 | Rosary Cache: Choral Chambers #13 | Top | none |  |  | collectible |  | falling |
 | 4 | Mask Shard: Cogwork Core | Right Secret | none |  |  | collectible |  |  |
+| 5 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

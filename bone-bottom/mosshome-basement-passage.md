@@ -32,6 +32,9 @@
 | 1 | the marrow mosslands passage rosary cache 1 | upper level | none |  | Verified | collectible |  |  |
 | 2 | the marrow mosslands passage rosary cache 2 | upper level | none |  | Verified | collectible |  |  |
 | 3 | the marrow mosshome basement rosary dish | upper level | none |  | Verified | collectible |  |  |
+| 4 | Aknid 1 | lower level | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 5 | Aknid 2 | upper level | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 6 | Aknid 3 | upper level | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

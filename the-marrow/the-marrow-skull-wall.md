@@ -39,8 +39,19 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | flea the marrow | flea platform | break vines right |  | Verified | collectible | ✓ |  |
-| 2 | volatile flintbeetle 2 | upper echelon | complete THE volatile flintbeetles wish promised |  | Verified | miniboss | ✓ | this one swaps position based on when the marrow bellshrine is activated (per the wiki) - best to ensure both locations are accessible for the quest |
-| 3 | Shell Fossil Mimic | upper echelon | attack up |  | Verified | enemy | ✓ | scene dumper grabbed it, so why not? |
+| 2 | Volatile Flintbeetle 2 | upper echelon | complete THE volatile flintbeetles wish promised |  | Verified | miniboss | ✓ | this one swaps position based on when the marrow bellshrine is activated (per the wiki) - best to ensure both locations are accessible for the quest |
+| 3 | Shell Fossil Mimic | upper echelon | attack up |  | Verified | miniboss | ✓ |  |
+| 4 | Skull Brute 1 | upper echelon | none |  | Verified | enemy | ✓ |  |
+| 5 | Beastfly 1 | upper echelon | none |  | Verified | enemy | ✓ |  |
+| 6 | Beastfly 2 | upper echelon | none |  | Verified | enemy | ✓ |  |
+| 7 | Beastfly 3 | ground floor | none |  | Verified | enemy | ✓ |  |
+| 8 | Skull Brute 2 | ground floor | none |  | Verified | enemy | ✓ |  |
+| 9 | Caranid 1 | flea platform | none |  | Verified | enemy | ✓ |  |
+| 10 | Caranid 2 | ground floor | none |  | Verified | enemy | ✓ | can reach from the ground floor |
+| 11 | Skull Scuttler 1 | middle platform | none |  | Verified | enemy | ✓ |  |
+| 12 | Caranid 3 | ground floor | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 13 | Caranid 4 | ground floor | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 14 | Shardillard 1 | upper echelon | none |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

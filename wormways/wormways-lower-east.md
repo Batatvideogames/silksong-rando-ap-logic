@@ -50,6 +50,15 @@
 | 3 | plasmified blood west | left offshoot | needle phial AND defeat plasmid west |  | Verified | resource | ✓ |  |
 | 4 | plasmid east | bud alcove | act 3 |  | Verified | enemy | ✓ | location per the wiki |
 | 5 | plasmified blood east | bud alcove | needle phial AND defeat plasmid east |  | Verified | resource | ✓ |  |
+| 6 | Gromling 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 7 | Grom 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 8 | Grom 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 9 | Grom 3 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 10 | Grom 4 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 11 | Grom 5 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 12 | Grom 6 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 13 | Plasmid 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 14 | Plasmid 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 ## Notes
 

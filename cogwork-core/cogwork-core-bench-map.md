@@ -32,6 +32,7 @@
 | 2 | Cogwork Core: Flip Switch #5 | Map | Nothing. |  | Verified | switch |  |  |
 | 3 | Cogwork Core: Map | Map | Activate Cogwork Core: Flip Switch #5 |  | Verified | collectible |  |  |
 | 4 | Cogwork Core: Bench | Bench | Activate Cogwork Core: Flip Switch #4 |  | Verified | bench |  |  |
+| 5 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

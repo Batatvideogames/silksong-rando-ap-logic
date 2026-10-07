@@ -27,7 +27,11 @@
 
 ## Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Stilkin Trapper 1 |  |  |  |  | enemy | ✓ |  |
+| 2 | Miremite 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Miremite 2 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

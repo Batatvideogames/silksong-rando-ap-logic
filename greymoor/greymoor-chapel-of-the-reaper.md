@@ -37,6 +37,12 @@
 | 2 | Chapel of the Reaper Gauntlet | gauntlet room | nothing |  | Verified | gauntlet |  |  |
 | 3 | gauntlet airlock | entrance section | hit lever right OR hit lever left OR hit lever up |  | Verified | blockade |  |  |
 | 4 | tied platform | upper area | break vines left OR break vines up OR break vines right |  | Verified | blockade |  |  |
+| 5 | Silk Snipper 1 |  |  |  |  | enemy |  |  |
+| 6 | Dreg Catcher 1 |  |  |  |  | enemy |  |  |
+| 7 | Dreg Catcher 2 |  |  |  |  | enemy |  |  |
+| 8 | Thread Raker 1 |  |  |  |  | enemy |  |  |
+| 9 | Silk Snipper 2 |  |  |  |  | enemy |  |  |
+| 10 | Silk Snipper 3 |  |  |  |  | enemy |  |  |
 
 ## Room Images
 

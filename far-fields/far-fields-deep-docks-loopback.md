@@ -41,6 +41,7 @@
 | 3 | gate switch | before gate | flip switch up |  | Verified | switch |  |  |
 | 4 | bench rosary lock | bell bench | none |  | Verified | lock |  |  |
 | 5 | bench :) | bell bench | unlock bench rosary lock |  | Verified | bench |  |  |
+| 6 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

@@ -36,6 +36,25 @@
 | 1 | Memorium - Shard Bundle | Main Area | spend 70 rosaries |  | Verified | collectible | ✓ | swapped the subroom - as it appeared to be incorrect - hero |
 | 2 | Memorium - Map Purchase | Entrance | none |  | Verified | collectible | ✓ | swapped the subroom - as it appeared to be incorrect - hero |
 | 3 | The Lost Merchant Wish Granted | Main Area | complete THE The Lost Merchant Wish Promised |  | Verified | event |  |  |
+| 4 | Drapelord 1 |  |  |  |  | enemy | ✓ |  |
+| 5 | Drapefly 1 |  |  |  |  | enemy | ✓ |  |
+| 6 | Drapefly 2 |  |  |  |  | enemy | ✓ |  |
+| 7 | Drapefly 3 |  |  |  |  | enemy | ✓ |  |
+| 8 | Drapefly 4 |  |  |  |  | enemy | ✓ |  |
+| 9 | Drapelord 2 |  |  |  |  | enemy | ✓ |  |
+| 10 | Drapelord 3 |  |  |  |  | enemy | ✓ |  |
+| 11 | Drapefly 5 |  |  |  |  | enemy | ✓ |  |
+| 12 | Drapefly 6 |  |  |  |  | enemy | ✓ |  |
+| 13 | Drapefly 7 |  |  |  |  | enemy | ✓ |  |
+| 14 | Drapefly 8 |  |  |  |  | enemy | ✓ |  |
+| 15 | Drapelord 4 |  |  |  |  | enemy | ✓ |  |
+| 16 | Drapelord 5 |  |  |  |  | enemy | ✓ |  |
+| 17 | Drapefly 9 |  |  |  |  | enemy | ✓ |  |
+| 18 | Drapefly 10 |  |  |  |  | enemy | ✓ |  |
+| 19 | Drapefly 11 |  |  |  |  | enemy | ✓ |  |
+| 20 | Drapefly 12 |  |  |  |  | enemy | ✓ |  |
+| 21 | Drapelord 6 |  |  |  |  | enemy | ✓ |  |
+| 22 | Drapelord 7 |  |  |  |  | enemy | ✓ |  |
 
 ## Notes
 
