@@ -6,38 +6,41 @@
 
 ## Subrooms
 
-No subrooms defined.
+| No. | Subroom | Annotated |
+| --- | --- | --- |
+| S1 | low hall |  |
+| S2 | left hall |  |
+| S3 | tool room |  |
+| S4 | waterfall |  |
 
 ## Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left |  | [Bilewater East Column (Shadow_09)](bilewater-east-column.md) | R | needolin |  | Verified | ✓ |  |
+| L | left | left hall | [Bilewater East Column (Shadow_09)](bilewater-east-column.md) | R | needolin |  | Verified |  |  |
 
 ## Subroom Connections
 
-No subroom connections defined.
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| LL | left to low | left hall | low hall | swim OR clawline OR drifter's cloak |  | Verified |  |  |
+| LL | left to low | low hall | left hall | invalid |  | Verified |  |  |
+| LT | low to tool | low hall | tool room | cling grip OR silk soar |  | Verified |  |  |
+| LT | low to tool | tool room | low hall | none |  | Verified |  |  |
+| TW | tool to water | tool room | waterfall | complete silk room wall |  | Verified |  |  |
+| TW | tool to water | waterfall | tool room | (silk soar OR cling grip) AND (faydown cloak OR (proficient movement AND ledge grab)) |  | Verified |  |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Ruined Tool |  | (cling grip OR silk soar) AND (swim OR clawline OR drifter's cloak) |  | Verified | collectible | ✓ |  |
-| 2 | Bilewater - Weaver Workshop Scroll |  | (cling grip OR silk soar) AND (swim OR clawline OR drifter's cloak) AND attack right |  | Verified | lore | ✓ | breakable wall |
-| 3 | Servitor Ignim 1 |  |  |  |  | enemy | ✓ |  |
-| 4 | Weaver Servitor Broken 1 |  |  |  |  | enemy | ✓ |  |
-| 5 | Servitor Ignim 2 |  |  |  |  | enemy | ✓ |  |
+| 1 | Ruined Tool | tool room | (cling grip OR silk soar) AND (swim OR clawline OR drifter's cloak) |  | Verified | collectible |  |  |
+| 2 | Bilewater - Weaver Workshop Scroll | waterfall | (cling grip OR silk soar) AND (swim OR (clawline AND ledge grab) OR drifter's cloak) AND attack right |  | Verified | lore |  | breakable wall |
+| 3 | silk room wall | tool room | attack right |  | Verified | blockade |  |  |
+| 4 | Servitor Ignim 1 | left hall | none |  | Verified | enemy |  |  |
+| 5 | Weaver Servitor Broken 1 | low hall | none |  | Verified | enemy |  |  |
+| 6 | Servitor Ignim 2 | low hall | none |  | Verified | enemy |  |  |
 
 ## Room Images
 
-### Connections
-
-[![Connections for Bilewater Weavenest Murglin (Shadow_Weavehome)](../00-annotations/bilewater/bilewater-weavenest-murglin-connections.png)](../00-annotations/bilewater/bilewater-weavenest-murglin-connections.png)
-
-### Checks
-
-[![Checks for Bilewater Weavenest Murglin (Shadow_Weavehome)](../00-annotations/bilewater/bilewater-weavenest-murglin-checks.png)](../00-annotations/bilewater/bilewater-weavenest-murglin-checks.png)
-
-### Scene
-
-[![Scene for Bilewater Weavenest Murglin (Shadow_Weavehome)](../00-annotations/bilewater/bilewater-weavenest-murglin-scene.png)](../00-annotations/bilewater/bilewater-weavenest-murglin-scene.png)
+Scene image unavailable.

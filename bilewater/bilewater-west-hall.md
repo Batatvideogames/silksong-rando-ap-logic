@@ -10,6 +10,8 @@
 | --- | --- | --- |
 | S1 | left | ✓ |
 | S2 | right | ✓ |
+| S3 | mid left | ✓ |
+| S4 | mid right | ✓ |
 
 ## Room Transitions
 
@@ -22,19 +24,23 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| CR | cross the room | left | right | (enemy pogo AND (faydown cloak OR ((clawline OR sharpdart OR dash OR drifter’s cloak) AND cling grip))) OR (silk soar AND ((drifter’s cloak AND (cling grip OR clawline OR sharpdart)) OR (clawline AND sharpdart))) |  | Verified | ✓ |  |
-| CR | cross the room | right | left | Clawline OR sharpdart OR easy hunter pogo OR easy reaper pogo OR easy beast pogo OR easy shaman pogo OR (ledge grab AND (easy witch pogo OR easy architect pogo)) OR (swim AND faydown cloak) OR (silk soar AND drifter’s cloak) |  | Verified | ✓ |  |
+| RM | right to mid | mid right | right | faydown cloak OR enemy pogo OR clawline OR sharpdart OR (run AND proficient movement) OR dash |  | Verified | ✓ |  |
+| RM | right to mid | right | mid right | faydown cloak OR drifter's cloak OR run OR sharpdart OR clawline OR enemy pogo OR swim OR scuttlebrace OR easy beast pogo |  | Verified | ✓ |  |
+| MLR | mid left to mid right | mid left | mid right | scuttlebrace OR clawline OR sharpdart OR drifter's cloak OR faydown cloak OR dash OR swim |  | Verified | ✓ |  |
+| MLR | mid left to mid right | mid right | mid left | cling grip AND (clawline OR sharpdart OR (faydown cloak AND (scuttlebrace OR swim OR drifter's cloak OR enemy pogo))) |  | Verified | ✓ |  |
+| LML | left to mid left | left | mid left | clawline OR sharpdart OR dash OR drifter's cloak OR (faydown cloak AND (run OR enemy pogo)) OR swim |  | Verified | ✓ |  |
+| LML | left to mid left | mid left | left | clawline OR (sharpdart AND proficient movement) OR (dash AND proficient movement) OR (faydown cloak AND (enemy pogo OR drifter's cloak)) |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Swamp Squit 1 |  |  |  |  | enemy | ✓ |  |
-| 2 | Swamp Squit 2 |  |  |  |  | enemy | ✓ |  |
-| 3 | Stilkin 1 |  |  |  |  | enemy | ✓ |  |
-| 4 | Swamp Squit 3 |  |  |  |  | enemy | ✓ |  |
-| 5 | Swamp Squit 4 |  |  |  |  | enemy | ✓ |  |
-| 6 | Stilkin 2 |  |  |  |  | enemy | ✓ |  |
+| 1 | Swamp Squit 1 | mid right | none |  | Verified | enemy | ✓ |  |
+| 2 | Swamp Squit 2 | right | none |  | Verified | enemy | ✓ |  |
+| 3 | Stilkin 1 | mid right | none |  | Verified | enemy | ✓ |  |
+| 4 | Swamp Squit 3 | mid right | none |  | Verified | enemy | ✓ |  |
+| 5 | Swamp Squit 4 | right | none |  | Verified | enemy | ✓ |  |
+| 6 | Stilkin 2 | mid right | none |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

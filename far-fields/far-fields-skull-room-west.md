@@ -47,45 +47,25 @@
 | 2 | relic bone scroll far fields | relic alcove | none |  | Verified | collectible | ✓ |  |
 | 3 | rosary cache far fields 5 | rosary alcove | none |  | Verified | collectible | ✓ |  |
 | 4 | rosary cache far fields 6 | rosary alcove | none |  | Verified | collectible | ✓ |  |
-| 5 | hoker enemy | main floor | none |  | Verified | enemy | ✓ | used to farm flexible spines |
-| 6 | spine break blast rock | bone bridge | break blast rock up |  | Verified | blockade |  |  |
-| 7 | lower left blast rock blockade | lower left exit area | break blast rock right |  | Verified | blockade |  |  |
-| 8 | Resting Site Far Fields | bone bridge | complete THE a vassal lost wish promised |  | Verified | event | ✓ |  |
-| 9 | upper left blast rock blockade | upper left exit area | break blast rock left |  | Verified | blockade |  |  |
-| 10 | Garmond and Zaza Act 3 Meeting Far Fields East | main floor | Act 3 |  | Verified | event | ✓ |  |
-| 11 | shardillard | bone bridge | none |  | Verified | enemy |  | shell shards, hunter's journal |
-| 12 | fertid | bone bridge | none |  | Verified | enemy |  | shell shards |
-| 13 | winged pilgrim | main floor | none |  | Verified | enemy | ✓ | rosaries, can be farmed for pilgrim shawls |
-| 14 | pilgrim groveller | main floor | none |  | Verified | enemy | ✓ | rosaries, can be farmed for pilgrim shawls |
-| 15 | hoker 2 | main floor | none |  | Verified | enemy | ✓ | used to farm flexible spines |
-| 16 | pilgrim pouncer | main floor | none |  | Verified | enemy | ✓ | rosaries, can be farmed for pilgrim shawls |
-| 17 | pilgrim pouncer 2 | rosary alcove | none |  | Verified | enemy | ✓ | rosaries, can be farmed for pilgrim shawls |
-| 18 | fertid 2 | upper left exit area | none |  | Verified | enemy | ✓ | shell shards |
-| 19 | hoker 3 | rosary alcove | none |  | Verified | enemy | ✓ | used to farm flexible spines |
-| 20 | pilgrim groveller 2 | rosary alcove | none |  | Verified | enemy | ✓ | rosaries, can be farmed for pilgrim shawls |
-| 21 | Brushflit 1 |  |  |  |  | enemy | ✓ |  |
-| 22 | Brushflit 2 |  |  |  |  | enemy | ✓ |  |
-| 23 | Brushflit 3 |  |  |  |  | enemy | ✓ |  |
-| 24 | Brushflit 4 |  |  |  |  | enemy | ✓ |  |
-| 25 | Fertid 1 |  |  |  |  | enemy | ✓ |  |
-| 26 | Hoker 1 |  |  |  |  | enemy | ✓ |  |
-| 27 | Hoker 4 |  |  |  |  | enemy | ✓ |  |
-| 28 | Hoker 5 |  |  |  |  | enemy | ✓ |  |
-| 29 | Hoker 6 |  |  |  |  | enemy | ✓ |  |
-| 30 | Brushflit 5 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 31 | Brushflit 6 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 32 | Brushflit 7 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 33 | Pilgrim Pouncer 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 34 | Pilgrim Groveller 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 35 | Pilgrim Groveller 3 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 36 | Brushflit 8 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 37 | Winged Pilgrim 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 38 | Hoker 7 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 39 | Pilgrim Pouncer 3 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 40 | Pilgrim Hulk 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
-| 41 | Winged Pilgrim 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
-| 42 | Shardillard 1 |  |  |  |  | enemy | ✓ |  |
-| 43 | Fertid 3 |  |  |  |  | enemy | ✓ |  |
+| 5 | spine break blast rock | bone bridge | break blast rock up |  | Verified | blockade |  |  |
+| 6 | lower left blast rock blockade | lower left exit area | break blast rock right |  | Verified | blockade |  |  |
+| 7 | Resting Site Far Fields | bone bridge | complete THE a vassal lost wish promised |  | Verified | event | ✓ |  |
+| 8 | upper left blast rock blockade | upper left exit area | break blast rock left |  | Verified | blockade |  |  |
+| 9 | Garmond and Zaza Act 3 Meeting Far Fields East | main floor | Act 3 |  | Verified | event | ✓ |  |
+| 10 | Fertid 1 | upper left exit area | none |  | Verified | enemy | ✓ |  |
+| 11 | Hoker 1 | main floor | none |  | Verified | enemy | ✓ |  |
+| 12 | Hoker 2 | main floor | none |  | Verified | enemy | ✓ |  |
+| 13 | Hoker 3 | main floor | none |  | Verified | enemy | ✓ |  |
+| 14 | Pilgrim Pouncer 1 | rosary alcove | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 15 | Pilgrim Groveller 1 | main floor | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 16 | Pilgrim Groveller 3 | rosary alcove | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 17 | Winged Pilgrim 1 | main floor | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 18 | Hoker 4 | main floor | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 19 | Pilgrim Pouncer 3 | main floor | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 20 | Pilgrim Hulk 1 | main floor | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 21 | Winged Pilgrim 2 | main floor | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 22 | Shardillard 1 | bone bridge | none |  | Verified | enemy | ✓ |  |
+| 23 | Fertid 3 | bone bridge | none |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

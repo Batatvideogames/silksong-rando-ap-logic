@@ -22,7 +22,7 @@
 | LL | left2 | main floor | [Far Fields Wind Shaft (Bone_East_07)](far-fields-wind-shaft.md) | R1 | none |  | Verified | ✓ |  |
 | D | door1 | main floor | [Far Fields Pilgrim's Rest Shop (Bone_East_10_Room)](far-fields-pilgrim-s-rest-shop.md) | R | none (rosary gated) |  | Verified | ✓ |  |
 | UR | right1 | upper right exit | [Far Fields Pilgrim's Rest Deep Passage (Bone_East_18c)](far-fields-pilgrim-s-rest-deep-passage.md) | L | clear blast rock exit block IN hunters march pilgrims rest deep passage |  | Verified | ✓ |  |
-| LR | right2 | lower right exit | [Far Fields Pilgrim's Rest Church (Bone_East_10_Church)](far-fields-pilgrim-s-rest-church.md) | L | activate door switch IN far fields pilgrims rest church |  | Verified | ✓ |  |
+| LR | right2 | lower right exit | [Far Fields Pilgrim's Rest Church (Bone_East_10_Church)](far-fields-pilgrim-s-rest-church.md) | L | activate pilgrims rest church door switch IN far fields pilgrims rest church |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
@@ -30,12 +30,12 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | V1 | vertical 1 | main floor | upper left exit | silk soar OR faydown cloak |  | Verified | ✓ | platform can be dropped to make it only ledge grab after middle platform access is granted |
 | V1 | vertical 1 | upper left exit | main floor | none (falling) |  | Verified | ✓ |  |
-| G1 | gap 1 | middle upper platform | upper left exit | run OR ledge grab OR clawline OR faydown cloak OR drifter's cloak OR  clawline OR sharpdart OR easy hunter pogo OR easy beast pogo OR (architect slash left AND easy architect pogo) |  | Verified | ✓ | based on after platform falls |
+| G1 | gap 1 | middle upper platform | upper left exit | run left OR ledge grab OR clawline left OR faydown cloak OR drifter's cloak  OR sharpdart OR easy hunter pogo OR easy beast pogo OR (architect slash left AND easy architect pogo) |  | Verified | ✓ | based on after platform falls |
 | V2 | vertical 2 | main floor | lower right exit | ledge grab OR faydown cloak OR silk soar OR scuttlebrace OR easy shaman pogo OR easy beast needle strike OR cling grip |  | Verified | ✓ |  |
 | V2 | vertical 2 | lower right exit | main floor | none (falling) |  | Verified | ✓ |  |
 | V3 | vertical 3 | main floor | upper right exit | ledge grab OR faydown cloak OR silk soar OR scuttlebrace OR cling grip |  | Verified | ✓ |  |
 | V3 | vertical 3 | upper right exit | main floor | none (falling) |  | Verified | ✓ |  |
-| G2 | gap 2 | upper right exit | middle upper platform | run OR dash OR drifter's cloak OR faydown cloak OR silk soar OR clawline OR sharpdart OR scuttlebrace OR (proficient movement AND (architect slash left OR cling grip OR easy wanderer needle strike)) OR easy beast pogo OR easy architect needle strike OR easy beast needle strike |  | Verified | ✓ |  |
+| G2 | gap 2 | upper right exit | middle upper platform | run left OR dash left OR drifter's cloak OR faydown cloak OR silk soar OR clawline left OR sharpdart OR scuttlebrace OR (proficient movement AND (architect slash left OR cling grip OR easy wanderer needle strike)) OR easy beast pogo OR easy architect needle strike OR easy beast needle strike |  | Verified | ✓ |  |
 | G2 | gap 2 | middle upper platform | upper right exit | none (jump) |  | Verified | ✓ |  |
 | V4 | vertical 4 | main floor | middle upper platform | silk soar |  | Verified | ✓ |  |
 | V4 | vertical 4 | middle upper platform | main floor | none (falling) |  | Verified | ✓ |  |
@@ -44,9 +44,10 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Snitchfly 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
-| 2 | Snitchfly 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
-| 3 | Pilgrim Hulk 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 1 | pilgrim's rest board | main floor | none |  | Verified | lore | ✓ |  |
+| 2 | Snitchfly 1 | main floor | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 3 | Snitchfly 2 | main floor | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 4 | Pilgrim Hulk 1 | main floor | Normal World Spawn |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

@@ -8,42 +8,32 @@
 
 | No. | Subroom | Annotated |
 | --- | --- | --- |
-| S1 | lower | ✓ |
-| S2 | upper | ✓ |
+| S1 | lower |  |
+| S2 | upper |  |
 
 ## Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| UR | upper right | upper | [Bilewater Upper Bloatroach Tower (Shadow_01)](bilewater-upper-bloatroach-tower.md) | LL | none |  | Verified | ✓ |  |
-| LR | lower right | lower | [Bilewater Lower Bloatroach Tower (Shadow_02)](bilewater-lower-bloatroach-tower.md) | UL | none |  | Verified | ✓ |  |
+| UR | upper right | upper | [Bilewater Upper Bloatroach Tower (Shadow_01)](bilewater-upper-bloatroach-tower.md) | LL | none |  | Verified |  |  |
+| LR | lower right | lower | [Bilewater Lower Bloatroach Tower (Shadow_02)](bilewater-lower-bloatroach-tower.md) | UL | none |  | Verified |  |  |
 
 ## Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LM | low to up | lower | upper | cling grip AND (Faydown cloak OR enemy pogo) AND (clawline OR sharpdart) |  | Verified | ✓ | crest_pogo should be an easy or medium skip since it requires a one-hit death enemy that you need to let float up before pogoing |
-| LM | low to up | upper | lower | Cling grip AND (Drifter’s cloak OR faydown cloak OR clawline OR sharpdart OR dash) |  | Verified | ✓ | Clawline, sharpdart, dash are pretty annoying to hit without a cloak, so easy/medium skips |
+| LM | low to up | lower | upper | cling grip AND (Faydown cloak OR enemy pogo) AND (clawline OR sharpdart) |  | Verified |  | crest_pogo should be an easy or medium skip since it requires a one-hit death enemy that you need to let float up before pogoing |
+| LM | low to up | upper | lower | Cling grip AND (Drifter’s cloak OR faydown cloak OR clawline OR sharpdart OR dash) |  | Verified |  | Clawline, sharpdart, dash are pretty annoying to hit without a cloak, so easy/medium skips |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Bilewater - Rosary Cache #3 | upper | Cling grip AND (faydown cloak OR enemy pogo) |  | Verified | resource | ✓ |  |
-| 2 | Mothleaf Lagnia 1 |  |  |  |  | enemy | ✓ |  |
-| 3 | Mothleaf Lagnia 2 |  |  |  |  | enemy | ✓ |  |
-| 4 | Mothleaf Lagnia 3 |  |  |  |  | enemy | ✓ |  |
+| 1 | Bilewater - Rosary Cache #3 | upper | cling grip AND ((faydown cloak AND (drifter's cloak OR clawline OR sharpdart)) OR (easy pogo off Mothleaf Lagnia AND ((drifter's cloak AND dash) OR sharpdart x 2 OR clawline x 2)) OR clawline x 3) |  | Verified | resource |  |  |
+| 2 | Mothleaf Lagnia 1 | upper | none |  | Verified | enemy |  |  |
+| 3 | Mothleaf Lagnia 2 | upper | none |  | Verified | enemy |  |  |
+| 4 | Mothleaf Lagnia 3 | upper | none |  | Verified | enemy |  |  |
 
 ## Room Images
 
-### Connections
-
-[![Connections for Bilewater Upper West Column (Shadow_14)](../00-annotations/bilewater/bilewater-upper-west-column-connections.png)](../00-annotations/bilewater/bilewater-upper-west-column-connections.png)
-
-### Checks
-
-[![Checks for Bilewater Upper West Column (Shadow_14)](../00-annotations/bilewater/bilewater-upper-west-column-checks.png)](../00-annotations/bilewater/bilewater-upper-west-column-checks.png)
-
-### Scene
-
-[![Scene for Bilewater Upper West Column (Shadow_14)](../00-annotations/bilewater/bilewater-upper-west-column-scene.png)](../00-annotations/bilewater/bilewater-upper-west-column-scene.png)
+Scene image unavailable.

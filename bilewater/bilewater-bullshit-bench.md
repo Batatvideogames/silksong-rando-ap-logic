@@ -10,6 +10,7 @@
 | --- | --- | --- |
 | S1 | upper | ✓ |
 | S2 | lower | ✓ |
+| S3 | fall | ✓ |
 
 ## Room Transitions
 
@@ -22,17 +23,19 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| UL | upper to lower | upper | lower | swim |  | Verified | ✓ |  |
-| UL | upper to lower | lower | upper | invalid |  | Verified | ✓ | Going back up to upper is impossible. One way connection. |
+| fa | the fall | upper | fall | swim |  | Verified | ✓ |  |
+| fa | the fall | fall | upper | invalid |  | Verified | ✓ | Going back up to upper is impossible. One way connection. |
+| sw | swim out | fall | lower | swim |  | Verified | ✓ |  |
+| sw | swim out | lower | fall | swim |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Bilewater Bullshit Bench Exit Wall | lower | break wall right |  | Verified | blockade | ✓ |  |
-| 2 | Mothleaf Lagnia 1 |  |  |  |  | enemy | ✓ |  |
-| 3 | Mothleaf Lagnia 2 |  |  |  |  | enemy | ✓ |  |
-| 4 | Mothleaf Lagnia 3 |  |  |  |  | enemy | ✓ |  |
+| 2 | Mothleaf Lagnia 1 | fall | none |  | Verified | enemy | ✓ |  |
+| 3 | Mothleaf Lagnia 2 | fall | none |  | Verified | enemy | ✓ |  |
+| 4 | Mothleaf Lagnia 3 | fall | none |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

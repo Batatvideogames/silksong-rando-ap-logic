@@ -15,6 +15,7 @@
 | S5 | left march bridge room | ✓ |
 | S6 | right march bridge room | ✓ |
 | S7 | first shaft scaffold | ✓ |
+| S8 | wind shaft ascent | ✓ |
 
 ## Room Transitions
 
@@ -40,8 +41,10 @@
 | LB | left bridge crossing | hunters march bridge | left march bridge room | activate hunter's march bridge lever |  | Verified | ✓ |  |
 | RB | right bridge crossing | hunters march bridge | right march bridge room | activate hunter's march bridge lever |  | Verified | ✓ |  |
 | RB | right bridge crossing | right march bridge room | hunters march bridge | activate hunter's march bridge lever |  | Verified | ✓ |  |
-| V4 | vertical 4 | hunters march bridge | top wind tunnel | silk soar OR drifter's cloak |  | Verified | ✓ | the bridge blocks the wind stream - not sure exactly how this should be represented |
-| V4 | vertical 4 | top wind tunnel | hunters march bridge | none (falling) |  | Verified | ✓ |  |
+| V4 | vertical 4 | hunters march bridge | wind shaft ascent | silk soar OR drifter's cloak |  | Verified | ✓ | the bridge blocks the wind stream - not sure exactly how this should be represented - resolved by Morch's bandaid fix -- |
+| V4 | vertical 4 | wind shaft ascent | hunters march bridge | none (falling) |  | Verified | ✓ |  |
+| V5 | vertical 5 | wind shaft ascent | top wind tunnel | silk soar OR drifter's cloak |  | Verified | ✓ |  |
+| V5 | vertical 5 | top wind tunnel | wind shaft ascent | none (falling) |  | Verified | ✓ |  |
 
 ## Check Locations
 
@@ -51,23 +54,16 @@
 | 2 | middle gate lever | above middle gate | flip switch down |  | Verified | switch | ✓ |  |
 | 3 | hunter's march bridge lever | left march bridge room | flip switch down |  | Verified | switch | ✓ |  |
 | 4 | greymoor floor blockade | top wind tunnel | none (opens once traveled through) |  | Verified | blockade | ✓ |  |
-| 5 | caranid 1 | the bottom | none |  | Verified | enemy | ✓ | shell shards |
-| 6 | vicious caranid 1 | the bottom | none |  | Verified | enemy | ✓ | shell shards |
-| 7 | caranid 2 | first shaft scaffold | none |  | Verified | enemy | ✓ | shell shards |
-| 8 | caranid 3 | first shaft scaffold | none |  | Verified | enemy | ✓ | shell shards |
-| 9 | vicious caranid 2 | hunters march bridge | none |  | Verified | enemy | ✓ | shell shards |
-| 10 | vicious caranid 3 | top wind tunnel | none |  | Verified | enemy | ✓ | shell shards |
-| 11 | caranid 4 | top wind tunnel | none |  | Verified | enemy | ✓ | shell shards |
-| 12 | Vicious Caranid 4 |  |  |  |  | enemy | ✓ |  |
-| 13 | Caranid 5 |  |  |  |  | enemy | ✓ |  |
-| 14 | Caranid 6 |  |  |  |  | enemy | ✓ |  |
-| 15 | Vicious Caranid 5 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 16 | Caranid 7 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 17 | Vicious Caranid 6 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 18 | Caranid 8 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 19 | Vicious Caranid 7 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
-| 20 | Vicious Caranid 8 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
-| 21 | Caranid 9 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 5 | Vicious Caranid 1 | wind shaft ascent | none |  | Verified | enemy | ✓ | shell shards |
+| 6 | Caranid 1 | first shaft scaffold | none |  | Verified | enemy | ✓ | shell shards |
+| 7 | Caranid 2 | first shaft scaffold | none |  | Verified | enemy | ✓ | shell shards |
+| 8 | Vicious Caranid 2 | wind shaft ascent | Normal World Spawn |  | Verified | enemy | ✓ | shell shards |
+| 9 | Caranid 3 | wind shaft ascent | Normal World Spawn |  | Verified | enemy | ✓ | shell shards |
+| 10 | Vicious Caranid 3 | the bottom | Normal World Spawn |  | Verified | enemy | ✓ | shell shards |
+| 11 | Caranid 4 | the bottom | Normal World Spawn |  | Verified | enemy | ✓ | shell shards |
+| 12 | Vicious Caranid 4 | the bottom | Black Thread World Spawn |  | Verified | enemy | ✓ | shell shards |
+| 13 | Vicious Caranid 5 | above middle gate | Black Thread World Spawn |  | Verified | enemy | ✓ | shell shards |
+| 14 | Caranid 5 | wind shaft ascent | Black Thread World Spawn |  | Verified | enemy | ✓ | shell shards |
 
 ## Room Images
 

@@ -8,20 +8,20 @@
 
 | No. | Subroom | Annotated |
 | --- | --- | --- |
-| S1 | middle platform | ✓ |
-| S2 | left platform | ✓ |
-| S3 | right platform | ✓ |
-| S4 | upper door plat | ✓ |
-| S5 | flea hall plat | ✓ |
+| S1 | middle platform |  |
+| S2 | left platform |  |
+| S3 | right platform |  |
+| S4 | upper door plat |  |
+| S5 | flea hall plat |  |
 
 ## Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| UD | up door | upper door plat | [Exhaust Organ Interior (Organ_01)](exhaust-organ-interior.md) | ML | none |  | Verified | ✓ |  |
-| LD | low door | middle platform | [Exhaust Organ Interior (Organ_01)](exhaust-organ-interior.md) | LL | none |  | Verified | ✓ |  |
-| L | left | left platform | [Sinner's Road Mist Maze Completed (Dust_Maze_08_completed)](../sinner-s-road/sinner-s-road-mist-maze-completed.md) | UR | none |  | Verified | ✓ |  |
-| R | right | right platform | [Bilewater Organ Entrance (Shadow_04)](bilewater-organ-entrance.md) | L | none |  | Verified | ✓ |  |
+| UD | up door | upper door plat | [Exhaust Organ Interior (Organ_01)](exhaust-organ-interior.md) | ML | none |  | Verified |  |  |
+| LD | low door | middle platform | [Exhaust Organ Interior (Organ_01)](exhaust-organ-interior.md) | LL | none |  | Verified |  |  |
+| L | left | left platform | [Sinner's Road Mist Maze Completed (Dust_Maze_08_completed)](../sinner-s-road/sinner-s-road-mist-maze-completed.md) | UR | none |  | Verified |  |  |
+| R | right | right platform | [Bilewater Organ Entrance (Shadow_04)](bilewater-organ-entrance.md) | L | none |  | Verified |  |  |
 
 ## Subroom Connections
 
@@ -42,18 +42,8 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Flea Rescue | flea hall plat | (swim OR cling grip OR faydown cloak OR (silk soar AND (clawline OR ((drifter's cloak OR sharpdart) AND ledge grab)))) AND break vines left |  | Verified | collectible |  |  |
+| 1 | Flea Is Tired Of Organ Music | flea hall plat | (swim OR cling grip OR faydown cloak OR (silk soar AND (clawline OR ((drifter's cloak OR sharpdart) AND ledge grab)))) AND break vines left |  | Verified | collectible |  | Formerly: Flea Rescue |
 
 ## Room Images
 
-### Connections
-
-[![Connections for Exhaust Organ Exterior (Dust_09)](../00-annotations/bilewater/exhaust-organ-exterior-connections.png)](../00-annotations/bilewater/exhaust-organ-exterior-connections.png)
-
-### Checks
-
-[![Checks for Exhaust Organ Exterior (Dust_09)](../00-annotations/bilewater/exhaust-organ-exterior-checks.png)](../00-annotations/bilewater/exhaust-organ-exterior-checks.png)
-
-### Scene
-
-[![Scene for Exhaust Organ Exterior (Dust_09)](../00-annotations/bilewater/exhaust-organ-exterior-scene.png)](../00-annotations/bilewater/exhaust-organ-exterior-scene.png)
+Scene image unavailable.

@@ -10,6 +10,7 @@
 | --- | --- | --- |
 | S1 | left | ✓ |
 | S2 | right | ✓ |
+| S3 | top wall | ✓ |
 
 ## Room Transitions
 
@@ -22,16 +23,20 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| CR | cross the room | left | right | cling grip AND (clawline OR (faydown cloak AND (drifter's cloak OR (sharpdart AND dash)))) |  | Verified | ✓ |  |
-| CR | cross the room | right | left | drifter's cloak OR clawline OR (faydown AND (run OR sharpdart OR easy beast pogo)) OR (sharpdart AND (swim OR easy beast pogo)) |  | Verified | ✓ |  |
+| LT | left to top | left | top wall | cling grip AND (clawline x 2 OR faydown cloak) |  | Verified | ✓ |  |
+| LT | left to top | top wall | left | none |  | Verified | ✓ |  |
+| TR | top to right | top wall | right | faydown cloak AND (clawline OR (drifter's cloak AND (ledge grab OR sharpdart OR dash))) |  | Verified | ✓ |  |
+| TR | top to right | right | top wall | (faydown cloak AND (clawline OR (sharpdart AND proficient movement)))  OR  (drifter's cloak AND (dash OR clawline OR sharpdart))  OR  clawline x 2 |  | Verified | ✓ |  |
+| RL | right to left | right | left | drifter's cloak OR (clawline AND (proficient movement OR swim)) OR ((sharpdart OR faydown cloak) AND dash) |  | Verified | ✓ |  |
+| RL | right to left | left | right | invalid |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Stilkin Trapper 1 |  |  |  |  | enemy | ✓ |  |
-| 2 | Miremite 1 |  |  |  |  | enemy | ✓ |  |
-| 3 | Miremite 2 |  |  |  |  | enemy | ✓ |  |
+| 1 | Stilkin Trapper 1 | left | invalid |  | Verified | enemy | ✓ | swampMuckmanTallInvades == true |
+| 2 | Miremite 1 | top wall | none |  | Verified | enemy | ✓ |  |
+| 3 | Miremite 2 | left | none |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

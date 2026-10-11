@@ -16,7 +16,7 @@
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | F | bot1 | main floor | [Far Fields Pinstress Attic (Bone_East_09b)](far-fields-pinstress-attic.md) | C | none |  | Verified | ✓ |  |
-| L | left1 | main floor | [Far Fields Pilgrim's Rest (Bone_East_10)](far-fields-pilgrim-s-rest.md) | LR | activate door switch |  | Verified | ✓ |  |
+| L | left1 | main floor | [Far Fields Pilgrim's Rest (Bone_East_10)](far-fields-pilgrim-s-rest.md) | LR | activate pilgrims rest church door switch |  | Verified |  |  |
 
 ## Subroom Connections
 
@@ -30,10 +30,9 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | flea pilgrims rest | flea rescue area | none |  | Verified | collectible |  |  |
-| 2 | rhinogrund miniboss fight | main floor | none (fite me) |  | Verified | miniboss |  | can skip by leaving and coming back |
-| 3 | door switch | main floor | none |  | Verified | switch |  |  |
-| 4 | beast shard | main floor | defeat rhinogrund miniboss fight |  | Verified | collectible |  | this can be missed - if the switch is flipped and you leave the room (or die) without defeating the rhinogrund or collecting the beast shard, they become unavailable |
-| 5 | Rhinogrund 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 2 | pilgrims rest church door switch | main floor | none (attack) |  | Verified | switch | ✓ | formerly just door switch |
+| 3 | pilgrims rest rhinogrund beast shard | main floor | defeat Rhinogrund pilgrim's rest church |  | Verified | collectible |  | this can be missed - if the switch is flipped and you leave the room (or die) without defeating the rhinogrund or collecting the beast shard, they become unavailable |
+| 4 | Rhinogrund pilgrim's rest church | main floor | Normal World Spawn |  | Verified | miniboss | ✓ | formerly rhinogrund miniboss fight |
 
 ## Room Images
 

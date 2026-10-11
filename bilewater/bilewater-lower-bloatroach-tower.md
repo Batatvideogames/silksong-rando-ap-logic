@@ -47,13 +47,13 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Bilewater - Frayed Rosary String | rosary plat | none |  | Verified | collectible | ✓ |  |
-| 2 | Bloatroach 1 |  |  |  |  | enemy | ✓ |  |
-| 3 | Bloatroach 2 |  |  |  |  | enemy | ✓ |  |
-| 4 | Bloatroach 3 |  |  |  |  | enemy | ✓ |  |
-| 5 | Bloatroach 4 |  |  |  |  | enemy | ✓ |  |
-| 6 | Miremite 1 |  |  |  |  | enemy | ✓ |  |
-| 7 | Miremite 2 |  |  |  |  | enemy | ✓ |  |
-| 8 | Miremite 3 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 2 | Bloatroach 1 | rosary plat | none |  | Verified | enemy | ✓ |  |
+| 3 | Bloatroach 2 | up left | none |  | Verified | enemy | ✓ |  |
+| 4 | Bloatroach 3 | halfway up | none |  | Verified | enemy | ✓ |  |
+| 5 | Bloatroach 4 | halfway up | none |  | Verified | enemy | ✓ |  |
+| 6 | Miremite 1 | halfway up | none |  | Verified | enemy | ✓ |  |
+| 7 | Miremite 2 | mid right | none |  | Verified | enemy | ✓ |  |
+| 8 | Miremite 3 | low left | ((faydown cloak AND cling grip) OR silk soar) AND (clawline OR sharpdart OR drifter's cloak OR faydown cloak) |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

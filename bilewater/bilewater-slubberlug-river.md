@@ -12,7 +12,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left |  | [Bilewater Spike Ball Ceiling Trap Room (Shadow_11)](bilewater-spike-ball-ceiling-trap-room.md) | R | none |  | Verified | ✓ |  |
+| L | left |  | [Bilewater Spike Ball Ceiling Trap Room (Shadow_11)](bilewater-spike-ball-ceiling-trap-room.md) | R | none |  | Verified |  |  |
 
 ## Subroom Connections
 
@@ -22,31 +22,21 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Bilewater - Mask Shard |  | cling grip AND (clawline OR (sharpdart AND (faydown cloaK OR enemy pogo)) OR (faydown cloak AND drifter's cloak)) |  | Verified | collectible | ✓ |  |
-| 2 | Slubberlug 1 |  |  |  |  | enemy | ✓ |  |
-| 3 | Slubberlug 2 |  |  |  |  | enemy | ✓ |  |
-| 4 | Slubberlug 3 |  |  |  |  | enemy | ✓ |  |
-| 5 | Slubberlug 4 |  |  |  |  | enemy | ✓ |  |
-| 6 | Slubberlug 5 |  |  |  |  | enemy | ✓ |  |
-| 7 | Slubberlug 6 |  |  |  |  | enemy | ✓ |  |
-| 8 | Slubberlug 7 |  |  |  |  | enemy | ✓ |  |
-| 9 | Slubberlug 8 |  |  |  |  | enemy | ✓ |  |
-| 10 | Slubberlug 9 |  |  |  |  | enemy | ✓ |  |
-| 11 | Slubberlug 10 |  |  |  |  | enemy | ✓ |  |
-| 12 | Swamp Squit 1 |  | Invalid |  |  | enemy | ✓ | Disabled; no activation found. |
-| 13 | Swamp Squit 2 |  | Invalid |  |  | enemy | ✓ | Disabled; no activation found. |
-| 14 | Swamp Squit 3 |  | Invalid |  |  | enemy | ✓ | Disabled; no activation found. |
+| 1 | Bilewater - Mask Shard |  | cling grip AND (clawline OR (sharpdart AND (faydown cloaK OR enemy pogo)) OR (faydown cloak AND drifter's cloak)) |  | Verified | collectible |  |  |
+| 2 | Slubberlug 1 |  | none |  | Verified | enemy |  |  |
+| 3 | Slubberlug 2 |  | none |  | Verified | enemy |  |  |
+| 4 | Slubberlug 3 |  | none |  | Verified | enemy |  |  |
+| 5 | Slubberlug 4 |  | none |  | Verified | enemy |  |  |
+| 6 | Slubberlug 5 |  | none |  | Verified | enemy |  |  |
+| 7 | Slubberlug 6 |  | none |  | Verified | enemy |  |  |
+| 8 | Slubberlug 7 |  | none |  | Verified | enemy |  |  |
+| 9 | Slubberlug 8 |  | none |  | Verified | enemy |  |  |
+| 10 | Slubberlug 9 |  | none |  | Verified | enemy |  |  |
+| 11 | Slubberlug 10 |  | none |  | Verified | enemy |  |  |
+| 12 | Swamp Squit 1 |  |  | TODO | Needs verification | enemy |  |  |
+| 13 | Swamp Squit 2 |  |  | TODO | Needs verification | enemy |  |  |
+| 14 | Swamp Squit 3 |  |  | TODO | Needs verification | enemy |  |  |
 
 ## Room Images
 
-### Connections
-
-[![Connections for Bilewater Slubberlug River (Shadow_13)](../00-annotations/bilewater/bilewater-slubberlug-river-connections.png)](../00-annotations/bilewater/bilewater-slubberlug-river-connections.png)
-
-### Checks
-
-[![Checks for Bilewater Slubberlug River (Shadow_13)](../00-annotations/bilewater/bilewater-slubberlug-river-checks.png)](../00-annotations/bilewater/bilewater-slubberlug-river-checks.png)
-
-### Scene
-
-[![Scene for Bilewater Slubberlug River (Shadow_13)](../00-annotations/bilewater/bilewater-slubberlug-river-scene.png)](../00-annotations/bilewater/bilewater-slubberlug-river-scene.png)
+Scene image unavailable.
