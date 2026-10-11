@@ -158581,16 +158581,12 @@
           "source_node_id": "bilewater/bilewater-sinner-s-entrance#middle-quarter",
           "target_node_id": "bilewater/bilewater-sinner-s-entrance#top-mid-plat",
           "requirement": {
-            "raw": "(faydown cloak AND cling grip) OR (silk soar AND (proficient movement OR dash OR clawline OR sharpdart OR easy beast pogo OR faydown cloak OR drifter's cloak))",
+            "raw": "(faydown cloak AND cling grip) OR (silk soar AND (dash OR clawline OR sharpdart OR easy beast pogo OR faydown cloak OR drifter's cloak))",
             "mode": "expression",
             "dnf": [
               [
                 "capability:faydown-cloak",
                 "capability:cling-grip:none"
-              ],
-              [
-                "capability:silk-soar",
-                "capability:proficient-movement"
               ],
               [
                 "capability:silk-soar",
@@ -158619,7 +158615,7 @@
             ],
             "unresolved_reasons": []
           },
-          "notes": "Apparently if you hold right when silk soaring near the ledge you just.....ZWOOP off to the right a bit???",
+          "notes": "",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",

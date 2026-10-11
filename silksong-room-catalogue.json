@@ -189319,8 +189319,8 @@
           "friendlyName": "mid to top mid",
           "sourceSubroomReferenceText": "middle quarter",
           "destinationSubroomReferenceText": "top mid plat",
-          "requirements": "(faydown cloak AND cling grip) OR (silk soar AND (proficient movement OR dash OR clawline OR sharpdart OR easy beast pogo OR faydown cloak OR drifter\u0027s cloak))",
-          "notes": "Apparently if you hold right when silk soaring near the ledge you just.....ZWOOP off to the right a bit???",
+          "requirements": "(faydown cloak AND cling grip) OR (silk soar AND (dash OR clawline OR sharpdart OR easy beast pogo OR faydown cloak OR drifter\u0027s cloak))",
+          "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 111.96582794189453,
           "sceneUnitY": 30.582571029663086,
@@ -189330,7 +189330,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-11T03:58:48.6503046Z",
-          "updatedUtc": "2026-10-11T04:03:39.9305817Z"
+          "updatedUtc": "2026-10-11T07:05:42.1826198Z"
         },
         {
           "id": "b1f4dde9-f07c-462d-ad28-8d4e3f71372d",

@@ -38,7 +38,7 @@
 | RQD | right quarter to door | right door | right quarter | run OR clawline OR sharpdart OR drifter's cloak OR faydown cloak OR easy scuttlebrace OR (proficient movement AND enemy pogo) |  | Verified |  | You can slap the ceiling on the right to prematurely trigger the spike trap and pogo it. |
 | RTM | right to top mid | right quarter | top mid plat | cling grip OR run OR drifter's cloak OR faydown cloak OR clawline OR sharpdart OR scuttlebrace |  | Verified |  |  |
 | RTM | right to top mid | top mid plat | right quarter | faydown cloak OR (drifter's cloak AND proficient movement) OR (drifter's cloak AND ledge grab) OR run OR clawline OR sharpdart OR scuttlebrace |  | Verified |  |  |
-| MTM | mid to top mid | middle quarter | top mid plat | (faydown cloak AND cling grip) OR (silk soar AND (proficient movement OR dash OR clawline OR sharpdart OR easy beast pogo OR faydown cloak OR drifter's cloak)) |  | Verified |  | Apparently if you hold right when silk soaring near the ledge you just.....ZWOOP off to the right a bit??? |
+| MTM | mid to top mid | middle quarter | top mid plat | (faydown cloak AND cling grip) OR (silk soar AND (dash OR clawline OR sharpdart OR easy beast pogo OR faydown cloak OR drifter's cloak)) |  | Verified |  |  |
 | MTM | mid to top mid | top mid plat | middle quarter | none |  | Verified |  |  |
 
 ## Check Locations
