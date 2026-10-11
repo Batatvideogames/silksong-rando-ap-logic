@@ -19,7 +19,7 @@
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | L2 | left2 | Bench Entrance | [Mount Fay Peak Bench (Peak_12)](mount-fay-peak-bench.md) | R | None |  | Verified | ✓ |  |
-| F3 | bot6 | Drop | [Mount Fay Right Side Middle Room (Peak_07)](mount-fay-right-side-middle-room.md) | C3 | None |  | Verified | ✓ |  |
+| F3 | bot6 | Drop | [Mount Fay Right Side Middle Room (Peak_07)](mount-fay-right-side-middle-room.md) | C3 | Invalid |  | Verified | ✓ | Leads to C2 instead of C3 as intended |
 | L1 | left1 | Left Exit | [Mount Fay Upper Slope (Peak_08)](mount-fay-upper-slope.md) | R | Silk Soar OR Faydown Cloak |  | Verified | ✓ |  |
 | F1 | bot4 | Lower Entrance | [Mount Fay Right Side Middle Room (Peak_07)](mount-fay-right-side-middle-room.md) | C1 | None |  | Verified | ✓ |  |
 | F2 | bot5 | Drop | [Mount Fay Right Side Middle Room (Peak_07)](mount-fay-right-side-middle-room.md) | C2 | None |  | Verified | ✓ |  |

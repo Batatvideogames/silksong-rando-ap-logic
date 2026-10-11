@@ -33,7 +33,7 @@ No subroom connections defined.
 | 4 | the marrow rosary cache 4 | bell bench | none |  | Verified | collectible | ✓ |  |
 | 5 | bench rosary lock | bell bench | spend 30 rosaries |  | Verified | lock | ✓ |  |
 | 6 | bench | bell bench | unlock bench rosary lock |  | Verified | bench | ✓ |  |
-| 7 | lore plaque | bell bench | none |  | Verified | lore |  |  |
+| 7 | lore plaque | bell bench | none |  | Verified | lore | ✓ |  |
 
 ## Notes
 

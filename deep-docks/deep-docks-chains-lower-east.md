@@ -51,7 +51,7 @@
 | CG | Chain Gauntlet | gauntlet | middle chains | clear chains gauntlet |  | Verified | ✓ |  |
 | CG | Chain Gauntlet | middle chains | gauntlet | clear chains gauntlet |  | Verified | ✓ |  |
 | TF | To Flea | gauntlet | upper left of gauntlet | clear chains gauntlet AND (Silk Soar OR Cling Grip OR Faydown Cloak OR Scuttlebrace) |  | Verified | ✓ |  |
-| TF | To Flea | upper left of gauntlet | gauntlet | Nothing (Fall) |  | Verified | ✓ |  |
+| TF | To Flea | upper left of gauntlet | gauntlet | clear chains gauntlet |  | Verified | ✓ |  |
 | SSC | Start Spool Collection | lower chains | Spool Rock 1 | (((Clawline OR Progressive Swift Step 2 OR Sharpdart) AND (Drifter's Cloak OR Faydown Cloak)) OR (((Flea Brew AND Medium Flea Brew Stall) OR Medium Voltvessels Stall) AND Drifter's Cloak) OR (Drifter's Cloak AND Faydown Cloak)) AND Cling Grip |  | Verified | ✓ | functionally one way |
 | SSC | Start Spool Collection | Spool Rock 1 | lower chains | Invalid |  | Verified | ✓ |  |
 | CSC | Continue Spool Collection | Spool Rock 1 | Spool Rock 2 | Cling Grip AND (Spike Pogo OR Clawline OR Sharpdart OR (Faydown Cloak AND Drifter's Cloak)) |  | Verified | ✓ | functionally one way |

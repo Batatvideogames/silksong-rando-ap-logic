@@ -24,8 +24,8 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| V1 | vertical 1 | left exit area | blocked area 1 | (run AND dash) OR drifters OR faydown OR clawline OR sharpdart OR spike pogo |  | Verified |  |  |
-| V1 | vertical 1 | blocked area 1 | left exit area | silk soar AND ( run OR faydown OR clawline OR sharpdart OR ( ( ledge grab OR cling grip ) AND ( dash OR drifters ) ) ) |  | Verified |  |  |
+| V1 | vertical 1 | left exit area | blocked area 1 | (run AND dash) OR drifters OR faydown OR clawline OR sharpdart OR spike pogo |  | Verified | ✓ |  |
+| V1 | vertical 1 | blocked area 1 | left exit area | silk soar AND ( run OR faydown OR clawline OR sharpdart OR ( ( ledge grab OR cling grip ) AND ( dash OR drifters ) ) ) |  | Verified | ✓ |  |
 | V2 | vertical 2 | blocked area 1 | lore area | break wall left |  | Verified | ✓ |  |
 | V2 | vertical 2 | lore area | blocked area 1 | silk soar AND break wall right |  | Verified | ✓ |  |
 | BW1 | break wall 1 | lore area | blocked area 2 | break wall right |  | Verified | ✓ |  |

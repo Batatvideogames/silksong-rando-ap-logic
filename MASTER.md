@@ -351,8 +351,8 @@ Ascend rope AND the ceiling are valid exits - but I believe they take you to the
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| V1 | vertical 1 | left exit area | blocked area 1 | (run AND dash) OR drifters OR faydown OR clawline OR sharpdart OR spike pogo |  | Verified |  |  |
-| V1 | vertical 1 | blocked area 1 | left exit area | silk soar AND ( run OR faydown OR clawline OR sharpdart OR ( ( ledge grab OR cling grip ) AND ( dash OR drifters ) ) ) |  | Verified |  |  |
+| V1 | vertical 1 | left exit area | blocked area 1 | (run AND dash) OR drifters OR faydown OR clawline OR sharpdart OR spike pogo |  | Verified | ✓ |  |
+| V1 | vertical 1 | blocked area 1 | left exit area | silk soar AND ( run OR faydown OR clawline OR sharpdart OR ( ( ledge grab OR cling grip ) AND ( dash OR drifters ) ) ) |  | Verified | ✓ |  |
 | V2 | vertical 2 | blocked area 1 | lore area | break wall left |  | Verified | ✓ |  |
 | V2 | vertical 2 | lore area | blocked area 1 | silk soar AND break wall right |  | Verified | ✓ |  |
 | BW1 | break wall 1 | lore area | blocked area 2 | break wall right |  | Verified | ✓ |  |
@@ -651,7 +651,7 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | wanderer's crest | crest room | none |  | Verified | collectible |  |  |
+| 1 | wanderer's crest | crest room | none |  | Verified | collectible | ✓ |  |
 | 2 | One Way Wall | lower left shaft 1 | break wall up OR break wall right |  | Verified | blockade | ✓ |  |
 | 3 | bonegrave rosary cache 1 | upper left | none |  | Verified | collectible | ✓ |  |
 | 4 | bonegrave rosary cache 2 | upper left | none |  | Verified | collectible | ✓ |  |
@@ -1229,7 +1229,7 @@ No subroom connections defined.
 | 4 | the marrow rosary cache 4 | bell bench | none |  | Verified | collectible | ✓ |  |
 | 5 | bench rosary lock | bell bench | spend 30 rosaries |  | Verified | lock | ✓ |  |
 | 6 | bench | bell bench | unlock bench rosary lock |  | Verified | bench | ✓ |  |
-| 7 | lore plaque | bell bench | none |  | Verified | lore |  |  |
+| 7 | lore plaque | bell bench | none |  | Verified | lore | ✓ |  |
 
 #### Notes
 
@@ -1971,6 +1971,8 @@ No subroom connections defined.
 [View Room Page](./the-marrow/the-marrow-jail-pathway.md)
 
 **Game ID:** Bone_08
+
+**Contributors:** herounit
 
 #### Subrooms
 
@@ -4275,7 +4277,7 @@ the floor/lower half of this area is closed off initially
 | CG | Chain Gauntlet | gauntlet | middle chains | clear chains gauntlet |  | Verified | ✓ |  |
 | CG | Chain Gauntlet | middle chains | gauntlet | clear chains gauntlet |  | Verified | ✓ |  |
 | TF | To Flea | gauntlet | upper left of gauntlet | clear chains gauntlet AND (Silk Soar OR Cling Grip OR Faydown Cloak OR Scuttlebrace) |  | Verified | ✓ |  |
-| TF | To Flea | upper left of gauntlet | gauntlet | Nothing (Fall) |  | Verified | ✓ |  |
+| TF | To Flea | upper left of gauntlet | gauntlet | clear chains gauntlet |  | Verified | ✓ |  |
 | SSC | Start Spool Collection | lower chains | Spool Rock 1 | (((Clawline OR Progressive Swift Step 2 OR Sharpdart) AND (Drifter's Cloak OR Faydown Cloak)) OR (((Flea Brew AND Medium Flea Brew Stall) OR Medium Voltvessels Stall) AND Drifter's Cloak) OR (Drifter's Cloak AND Faydown Cloak)) AND Cling Grip |  | Verified | ✓ | functionally one way |
 | SSC | Start Spool Collection | Spool Rock 1 | lower chains | Invalid |  | Verified | ✓ |  |
 | CSC | Continue Spool Collection | Spool Rock 1 | Spool Rock 2 | Cling Grip AND (Spike Pogo OR Clawline OR Sharpdart OR (Faydown Cloak AND Drifter's Cloak)) |  | Verified | ✓ | functionally one way |
@@ -20952,9 +20954,9 @@ No subroom connections defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | LSR | right3 | Slab Spool Room | [Slab Flea Prison (Slab_13)](#room-the-slab--slab-flea-prison) | L | None |  | Verified | ✓ |  |
-| C4 | top4 | Upper Left Exit | [Mount Fay Right Side Middle Room (Peak_07)](#room-mount-fay--mount-fay-right-side-middle-room) | F4 | Silk Soar |  | Verified | ✓ |  |
+| C4 | top4 | Upper Left Exit | [Mount Fay Right Side Middle Room (Peak_07)](#room-mount-fay--mount-fay-right-side-middle-room) | F4 | Invalid |  | Verified | ✓ | Just leads to f3 instead of f4 like intended |
 | C2 | top2 | Upper Left Exit | [Mount Fay Right Side Middle Room (Peak_07)](#room-mount-fay--mount-fay-right-side-middle-room) | F2 | Silk Soar |  | Verified | ✓ |  |
-| C3 | top3 | Upper Left Exit | [Mount Fay Right Side Middle Room (Peak_07)](#room-mount-fay--mount-fay-right-side-middle-room) | F3 | Silk Soar |  | Verified | ✓ |  |
+| C3 | top3 | Shell Shard Ledge | [Mount Fay Right Side Middle Room (Peak_07)](#room-mount-fay--mount-fay-right-side-middle-room) | F3 | Silk Soar AND Proficient Movement |  | Verified | ✓ |  |
 | UL | left1 | Upper Left Exit | [Mount Fay Shakra (Peak_02)](#room-mount-fay--mount-fay-shakra) | UR | None |  | Verified | ✓ |  |
 | LL | left4 | Lower Left Exit | [Mount Fay Shakra (Peak_02)](#room-mount-fay--mount-fay-shakra) | LR | None |  | Verified | ✓ |  |
 | LML | left3 | Lower Middle Left Exit | [Mount Fay Shakra (Peak_02)](#room-mount-fay--mount-fay-shakra) | LMR | None |  | Verified | ✓ |  |
@@ -21101,7 +21103,7 @@ No check locations defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | L2 | left2 | Bench Entrance | [Mount Fay Peak Bench (Peak_12)](#room-mount-fay--mount-fay-peak-bench) | R | None |  | Verified | ✓ |  |
-| F3 | bot6 | Drop | [Mount Fay Right Side Middle Room (Peak_07)](#room-mount-fay--mount-fay-right-side-middle-room) | C3 | None |  | Verified | ✓ |  |
+| F3 | bot6 | Drop | [Mount Fay Right Side Middle Room (Peak_07)](#room-mount-fay--mount-fay-right-side-middle-room) | C3 | Invalid |  | Verified | ✓ | Leads to C2 instead of C3 as intended |
 | L1 | left1 | Left Exit | [Mount Fay Upper Slope (Peak_08)](#room-mount-fay--mount-fay-upper-slope) | R | Silk Soar OR Faydown Cloak |  | Verified | ✓ |  |
 | F1 | bot4 | Lower Entrance | [Mount Fay Right Side Middle Room (Peak_07)](#room-mount-fay--mount-fay-right-side-middle-room) | C1 | None |  | Verified | ✓ |  |
 | F2 | bot5 | Drop | [Mount Fay Right Side Middle Room (Peak_07)](#room-mount-fay--mount-fay-right-side-middle-room) | C2 | None |  | Verified | ✓ |  |

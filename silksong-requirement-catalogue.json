@@ -225,8 +225,8 @@
       "id": "cdcace80-fbee-5b7c-9e81-922da0874671",
       "name": "Cling Grip",
       "category": "Ability",
-      "inputSyntax": "{predicate}",
-      "outputSyntax": "capability:cling-grip",
+      "inputSyntax": "{predicate} {direction?}",
+      "outputSyntax": "capability:cling-grip:{direction}",
       "notes": "",
       "sortOrder": 22,
       "aliases": "cling grip"

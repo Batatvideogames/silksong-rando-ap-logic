@@ -48,7 +48,7 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | wanderer's crest | crest room | none |  | Verified | collectible |  |  |
+| 1 | wanderer's crest | crest room | none |  | Verified | collectible | ✓ |  |
 | 2 | One Way Wall | lower left shaft 1 | break wall up OR break wall right |  | Verified | blockade | ✓ |  |
 | 3 | bonegrave rosary cache 1 | upper left | none |  | Verified | collectible | ✓ |  |
 | 4 | bonegrave rosary cache 2 | upper left | none |  | Verified | collectible | ✓ |  |

@@ -23,9 +23,9 @@
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | LSR | right3 | Slab Spool Room | [Slab Flea Prison (Slab_13)](../the-slab/slab-flea-prison.md) | L | None |  | Verified | ✓ |  |
-| C4 | top4 | Upper Left Exit | [Mount Fay Right Side Middle Room (Peak_07)](mount-fay-right-side-middle-room.md) | F4 | Silk Soar |  | Verified | ✓ |  |
+| C4 | top4 | Upper Left Exit | [Mount Fay Right Side Middle Room (Peak_07)](mount-fay-right-side-middle-room.md) | F4 | Invalid |  | Verified | ✓ | Just leads to f3 instead of f4 like intended |
 | C2 | top2 | Upper Left Exit | [Mount Fay Right Side Middle Room (Peak_07)](mount-fay-right-side-middle-room.md) | F2 | Silk Soar |  | Verified | ✓ |  |
-| C3 | top3 | Upper Left Exit | [Mount Fay Right Side Middle Room (Peak_07)](mount-fay-right-side-middle-room.md) | F3 | Silk Soar |  | Verified | ✓ |  |
+| C3 | top3 | Shell Shard Ledge | [Mount Fay Right Side Middle Room (Peak_07)](mount-fay-right-side-middle-room.md) | F3 | Silk Soar AND Proficient Movement |  | Verified | ✓ |  |
 | UL | left1 | Upper Left Exit | [Mount Fay Shakra (Peak_02)](mount-fay-shakra.md) | UR | None |  | Verified | ✓ |  |
 | LL | left4 | Lower Left Exit | [Mount Fay Shakra (Peak_02)](mount-fay-shakra.md) | LR | None |  | Verified | ✓ |  |
 | LML | left3 | Lower Middle Left Exit | [Mount Fay Shakra (Peak_02)](mount-fay-shakra.md) | LMR | None |  | Verified | ✓ |  |
