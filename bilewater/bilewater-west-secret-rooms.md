@@ -37,6 +37,8 @@
 | BWT | bud wall to top | top floor | bud wall plat | none |  | Verified | ✓ | falling |
 | RM | right to mid | right room | middle floor | ((enemy pogo OR clawline x 5) AND (ledge grab OR cling grip)) OR (faydown cloak AND ((ledge grab OR cling grip) AND (silk soar OR enemy pogo))) |  | Verified | ✓ |  |
 | RM | right to mid | middle floor | right room | none |  | Verified | ✓ | falling |
+| BWA | bud wall access | bud wall plat | bud hall | complete breakable wall to bud |  | Verified | ✓ |  |
+| BWA | bud wall access | bud hall | bud wall plat | complete breakable wall to bud |  | Verified | ✓ |  |
 
 ## Check Locations
 

@@ -164542,17 +164542,16 @@
           "has_persisted_state": true,
           "node_id": "bilewater/bilewater-waterfall#trails-end",
           "requirement": {
-            "raw": "complete THE trails end wish promised\nAND needolin",
+            "raw": "complete THE trails end wish promised",
             "mode": "expression",
             "dnf": [
               [
-                "dependency:location:wish-menus/bellhart-wish-wall::event/trails-end-wish-promised",
-                "capability:needolin"
+                "dependency:location:wish-menus/bellhart-wish-wall::event/trails-end-wish-promised"
               ]
             ],
             "unresolved_reasons": []
           },
-          "notes": "",
+          "notes": "cutscene needolin, not real needolin per Moriko - hero, 10/11 ",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
@@ -165877,6 +165876,50 @@
             "unresolved_reasons": []
           },
           "notes": "falling",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "bilewater/bilewater-west-secret-rooms#bud-wall-plat>bud-hall@bwa",
+          "alias": "BWA",
+          "name": "bud wall access",
+          "source_node_id": "bilewater/bilewater-west-secret-rooms#bud-wall-plat",
+          "target_node_id": "bilewater/bilewater-west-secret-rooms#bud-hall",
+          "requirement": {
+            "raw": "complete breakable wall to bud",
+            "mode": "expression",
+            "dnf": [
+              [
+                "dependency:location:bilewater/bilewater-west-secret-rooms::blockade/breakable-wall-to-bud"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "bilewater/bilewater-west-secret-rooms#bud-hall>bud-wall-plat@bwa",
+          "alias": "BWA",
+          "name": "bud wall access",
+          "source_node_id": "bilewater/bilewater-west-secret-rooms#bud-hall",
+          "target_node_id": "bilewater/bilewater-west-secret-rooms#bud-wall-plat",
+          "requirement": {
+            "raw": "complete breakable wall to bud",
+            "mode": "expression",
+            "dnf": [
+              [
+                "dependency:location:bilewater/bilewater-west-secret-rooms::blockade/breakable-wall-to-bud"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",

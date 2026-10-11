@@ -86557,17 +86557,17 @@
       "sceneMinY": 0,
       "sceneMaxX": 70,
       "sceneMaxY": 95,
-      "sceneImagePixelsPerUnitX": 7.373694889183714,
-      "sceneImagePixelsPerUnitY": 7.021339538430625,
-      "sceneImagePixelOffsetX": 14062.530482246357,
-      "sceneImagePixelOffsetY": 9029.462432548258,
+      "sceneImagePixelsPerUnitX": 6.35,
+      "sceneImagePixelsPerUnitY": 6.35,
+      "sceneImagePixelOffsetX": 14095.88711184263,
+      "sceneImagePixelOffsetY": 9075.806663743446,
       "useSceneImage": true,
       "isSceneImageStale": false,
       "sortOrder": 3,
       "isArchived": false,
       "archivedUtc": null,
       "createdUtc": "2026-08-19T09:04:50.4961513Z",
-      "updatedUtc": "2026-09-24T02:29:21.948946Z",
+      "updatedUtc": "2026-10-11T18:51:34.9445252Z",
       "subrooms": [
         {
           "id": "b61d1332-2a9c-45c7-a7dc-63170d6284be",
@@ -86698,8 +86698,8 @@
           "localPositionX": 64,
           "localPositionY": -0.5,
           "localPositionZ": 0,
-          "annotationSceneUnitX": 60.793540954589844,
-          "annotationSceneUnitY": -3.4707729816436768,
+          "annotationSceneUnitX": 64,
+          "annotationSceneUnitY": -0.5,
           "enableAnnotation": true,
           "sourceSubroomReferenceText": "platform",
           "destinationRoomReferenceText": "Bilewater West Secret Rooms",
@@ -86712,7 +86712,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-19T09:04:50.4961513Z",
-          "updatedUtc": "2026-09-18T03:09:12.3876763Z",
+          "updatedUtc": "2026-10-11T18:51:07.4208719Z",
           "isUnsafeArrival": false
         }
       ],
@@ -219516,37 +219516,37 @@
       "inGameId": "Shadow_24",
       "contributors": "Herchey and the girl reading this",
       "comments": null,
-      "sceneMinX": 0,
+      "sceneMinX": 95,
       "sceneMinY": 0,
       "sceneMaxX": 296,
       "sceneMaxY": 34,
-      "sceneImagePixelsPerUnitX": 4.270458289768884,
-      "sceneImagePixelsPerUnitY": 6.091887904242469,
-      "sceneImagePixelOffsetX": 17664.81990862696,
-      "sceneImagePixelOffsetY": 10660.53962834432,
+      "sceneImagePixelsPerUnitX": 6.35,
+      "sceneImagePixelsPerUnitY": 6.35,
+      "sceneImagePixelOffsetX": 17108.72501440211,
+      "sceneImagePixelOffsetY": 10650.056715699147,
       "useSceneImage": true,
       "isSceneImageStale": false,
       "sortOrder": 25,
       "isArchived": false,
       "archivedUtc": null,
       "createdUtc": "2026-08-20T23:24:04.3887819Z",
-      "updatedUtc": "2026-10-11T01:33:11.0140262Z",
+      "updatedUtc": "2026-10-11T18:55:54.042611Z",
       "subrooms": [
         {
           "id": "047d1921-dbd8-4554-9ceb-1db5c83d2d93",
           "referenceId": "left exit",
           "friendlyName": "left exit",
           "notes": "",
-          "sceneUnitX": 14.490837097167969,
-          "sceneUnitY": 9.412967681884766,
-          "sceneUnitWidth": 34.54826354980469,
-          "sceneUnitHeight": 11.216968536376953,
+          "sceneUnitX": 95,
+          "sceneUnitY": 12.335454940795898,
+          "sceneUnitWidth": 37.81704330444336,
+          "sceneUnitHeight": 15.7905450592041,
           "enableAnnotation": true,
           "sortOrder": 0,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-25T04:20:36.8797761Z",
-          "updatedUtc": "2026-10-11T01:33:23.1484112Z"
+          "updatedUtc": "2026-10-11T18:55:57.1965244Z"
         },
         {
           "id": "81efa7c1-d1dc-4f26-92d8-31ae8a5bff9d",
@@ -219577,8 +219577,8 @@
           "localPositionX": 95.5,
           "localPositionY": 21,
           "localPositionZ": 0,
-          "annotationSceneUnitX": 12.115137100219727,
-          "annotationSceneUnitY": 18.0883731842041,
+          "annotationSceneUnitX": 95.5,
+          "annotationSceneUnitY": 21,
           "enableAnnotation": true,
           "sourceSubroomReferenceText": "left exit",
           "destinationRoomReferenceText": "Bilewater Vertical Sac Pogo Room",
@@ -219591,7 +219591,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-20T23:24:04.3887819Z",
-          "updatedUtc": "2026-10-11T01:33:20.1252057Z",
+          "updatedUtc": "2026-10-11T18:55:30.9690058Z",
           "isUnsafeArrival": false
         }
       ],
@@ -219605,15 +219605,15 @@
           "requirements": "faydown cloak \nAND swim \nAND cling grip \nAND ( ledge grab OR dash OR clawline OR sharpdart )",
           "notes": "",
           "enableAnnotation": true,
-          "sceneUnitX": 176.688,
-          "sceneUnitY": 12.525,
+          "sceneUnitX": 178.80194091796875,
+          "sceneUnitY": 17.902297973632812,
           "sortOrder": 0,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-25T04:21:04.9103556Z",
-          "updatedUtc": "2026-09-26T09:33:30.4267015Z"
+          "updatedUtc": "2026-10-11T18:56:03.8040323Z"
         },
         {
           "id": "2fbcf6bb-8fcf-4af4-9393-57f901936786",
@@ -219643,15 +219643,15 @@
           "requirements": "silk soar\nAND faydown cloak \nAND swim \nAND cling grip \nAND ( ledge grab OR dash OR clawline OR sharpdart )",
           "notes": "don\u0027t think you can get out without silk soar\u0027s height?",
           "enableAnnotation": true,
-          "sceneUnitX": 176.688,
-          "sceneUnitY": 12.525,
+          "sceneUnitX": 178.80194091796875,
+          "sceneUnitY": 17.902297973632812,
           "sortOrder": 1,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-25T04:21:37.9876498Z",
-          "updatedUtc": "2026-09-26T09:33:25.1207325Z"
+          "updatedUtc": "2026-10-11T18:56:03.8040323Z"
         }
       ],
       "checks": [
@@ -219668,8 +219668,8 @@
           "annotationSceneUnitX": 271.7486877441406,
           "annotationSceneUnitY": 4.400474548339844,
           "subroomReferenceText": "trails end",
-          "requirements": "complete THE trails end wish promised\nAND needolin",
-          "notes": "",
+          "requirements": "complete THE trails end wish promised",
+          "notes": "cutscene needolin, not real needolin per Moriko - hero, 10/11 ",
           "locationType": "event",
           "enableAnnotation": true,
           "sortOrder": 0,
@@ -219678,7 +219678,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-25T04:18:21.5744092Z",
-          "updatedUtc": "2026-09-26T09:30:53.3385558Z"
+          "updatedUtc": "2026-10-11T18:55:24.3224311Z"
         },
         {
           "id": "aa97dbd4-2f25-4e94-b8ef-47a236e4204e",
@@ -219703,7 +219703,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-21T22:47:54.8343398Z",
-          "updatedUtc": "2026-09-25T04:21:52.4218256Z"
+          "updatedUtc": "2026-10-11T18:56:58.4865028Z"
         }
       ]
     },
@@ -224915,15 +224915,15 @@
       "sceneMaxY": 65,
       "sceneImagePixelsPerUnitX": 6.404840694833547,
       "sceneImagePixelsPerUnitY": 7.143859871781125,
-      "sceneImagePixelOffsetX": 13323.24322109935,
-      "sceneImagePixelOffsetY": 8653.659595831474,
+      "sceneImagePixelOffsetX": 13327.305177791859,
+      "sceneImagePixelOffsetY": 8665.439086164222,
       "useSceneImage": true,
       "isSceneImageStale": false,
       "sortOrder": 28,
       "isArchived": false,
       "archivedUtc": null,
       "createdUtc": "2026-08-20T23:20:14.109514Z",
-      "updatedUtc": "2026-10-11T01:41:37.2509727Z",
+      "updatedUtc": "2026-10-11T18:53:33.5830733Z",
       "subrooms": [
         {
           "id": "647c59ff-fa55-4909-a399-dccad5881da3",
@@ -225066,8 +225066,8 @@
           "localPositionX": 126,
           "localPositionY": -0.5,
           "localPositionZ": 0,
-          "annotationSceneUnitX": 113.10669708251953,
-          "annotationSceneUnitY": 0.35135334730148315,
+          "annotationSceneUnitX": 126,
+          "annotationSceneUnitY": -0.5,
           "enableAnnotation": true,
           "sourceSubroomReferenceText": "bottom floor",
           "destinationRoomReferenceText": "Bilewater Organ Entrance",
@@ -225080,7 +225080,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-20T23:20:14.109514Z",
-          "updatedUtc": "2026-10-11T02:23:33.1760858Z",
+          "updatedUtc": "2026-10-11T18:52:41.8783196Z",
           "isUnsafeArrival": false
         },
         {
@@ -225340,6 +225340,44 @@
           "archivedUtc": null,
           "createdUtc": "2026-10-11T07:59:28.8859659Z",
           "updatedUtc": "2026-10-11T08:07:39.5022784Z"
+        },
+        {
+          "id": "aa8a4c76-5f4c-4c21-b211-948f00b24be1",
+          "alias": "BWA",
+          "friendlyName": "bud wall access",
+          "sourceSubroomReferenceText": "bud wall plat",
+          "destinationSubroomReferenceText": "bud hall",
+          "requirements": "complete breakable wall to bud",
+          "notes": "",
+          "enableAnnotation": true,
+          "sceneUnitX": 134.24761962890625,
+          "sceneUnitY": 31.170860290527344,
+          "sortOrder": 12,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-10-11T18:32:51.3020968Z",
+          "updatedUtc": "2026-10-11T18:33:38.6426026Z"
+        },
+        {
+          "id": "f2da666c-0137-4ac5-acd8-04e9b34e822b",
+          "alias": "BWA",
+          "friendlyName": "bud wall access",
+          "sourceSubroomReferenceText": "bud hall",
+          "destinationSubroomReferenceText": "bud wall plat",
+          "requirements": "complete breakable wall to bud",
+          "notes": "",
+          "enableAnnotation": true,
+          "sceneUnitX": 134.24761962890625,
+          "sceneUnitY": 31.170860290527344,
+          "sortOrder": 13,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-10-11T18:32:52.8962632Z",
+          "updatedUtc": "2026-10-11T18:33:38.6426026Z"
         }
       ],
       "checks": [
@@ -225503,8 +225541,8 @@
           "localPositionX": null,
           "localPositionY": null,
           "localPositionZ": null,
-          "annotationSceneUnitX": 132.91107177734375,
-          "annotationSceneUnitY": 33.46925735473633,
+          "annotationSceneUnitX": 130.33432006835938,
+          "annotationSceneUnitY": 39.13010025024414,
           "subroomReferenceText": "bud wall plat",
           "requirements": "attack left",
           "notes": "",
@@ -225516,7 +225554,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-11T01:54:18.4122329Z",
-          "updatedUtc": "2026-10-11T02:35:13.577996Z"
+          "updatedUtc": "2026-10-11T18:32:17.4849809Z"
         },
         {
           "id": "23f17faa-1141-4dae-a871-dfcb35f9cce9",

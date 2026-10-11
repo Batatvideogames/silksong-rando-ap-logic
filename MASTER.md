@@ -18704,7 +18704,7 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | trails end wish granted | trails end | complete THE trails end wish promised AND needolin |  | Verified | event | ✓ |  |
+| 1 | trails end wish granted | trails end | complete THE trails end wish promised |  | Verified | event | ✓ | cutscene needolin, not real needolin per Moriko - hero, 10/11 |
 | 2 | Throwing Ring | trails end | complete THE trails end wish promised |  | Verified | collectible | ✓ | Dash, clawline, and sharpdart are a bit precise and require you to get nearly the most possible height out of first and second jumps |
 
 <a name="room-bilewater--bilewater-weavenest-murglin"></a>
@@ -18845,6 +18845,8 @@ No subroom connections defined.
 | BWT | bud wall to top | top floor | bud wall plat | none |  | Verified | ✓ | falling |
 | RM | right to mid | right room | middle floor | ((enemy pogo OR clawline x 5) AND (ledge grab OR cling grip)) OR (faydown cloak AND ((ledge grab OR cling grip) AND (silk soar OR enemy pogo))) |  | Verified | ✓ |  |
 | RM | right to mid | middle floor | right room | none |  | Verified | ✓ | falling |
+| BWA | bud wall access | bud wall plat | bud hall | complete breakable wall to bud |  | Verified | ✓ |  |
+| BWA | bud wall access | bud hall | bud wall plat | complete breakable wall to bud |  | Verified | ✓ |  |
 
 #### Check Locations
 
