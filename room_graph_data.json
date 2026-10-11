@@ -2,7 +2,7 @@
   "schema_version": 3,
   "source": {
     "name": "silksong-logic-manager-export",
-    "room_count": 515
+    "room_count": 517
   },
   "areas": [
     "moss-grotto",
@@ -12575,7 +12575,7 @@
         {
           "id": "location:bone-bottom/the-big-fall::event/my-missing-courier-wish-granted",
           "name": "my missing courier wish granted",
-          "in_game_id": null,
+          "in_game_id": "Courier Short",
           "location_type": "event",
           "has_persisted_state": true,
           "node_id": "bone-bottom/the-big-fall#wish-ledge",
@@ -12598,7 +12598,7 @@
         {
           "id": "location:bone-bottom/the-big-fall::event/resting-site-bone-bottom",
           "name": "resting site bone bottom",
-          "in_game_id": null,
+          "in_game_id": "thread_memory vassal",
           "location_type": "event",
           "has_persisted_state": true,
           "node_id": "bone-bottom/the-big-fall#resting-site-ledge",
@@ -12621,7 +12621,7 @@
         {
           "id": "location:bone-bottom/the-big-fall::enemy/caranid-1",
           "name": "Caranid 1",
-          "in_game_id": "Bone Circler",
+          "in_game_id": "\"Courier Quest Scene\"[0]/\"Courier Scene\"[0]/\"Enemies\"[0]/\"Bone Circler\"[0]",
           "location_type": "enemy",
           "has_persisted_state": false,
           "node_id": "bone-bottom/the-big-fall#wish-ledge",
@@ -12644,7 +12644,7 @@
         {
           "id": "location:bone-bottom/the-big-fall::enemy/caranid-2",
           "name": "Caranid 2",
-          "in_game_id": "Bone Circler (1)",
+          "in_game_id": "\"Courier Quest Scene\"[0]/\"Courier Scene\"[0]/\"Enemies\"[0]/\"Bone Circler (1)\"[0]",
           "location_type": "enemy",
           "has_persisted_state": false,
           "node_id": "bone-bottom/the-big-fall#wish-ledge",
@@ -12667,7 +12667,7 @@
         {
           "id": "location:bone-bottom/the-big-fall::enemy/caranid-3",
           "name": "Caranid 3",
-          "in_game_id": "Bone Circler (7)",
+          "in_game_id": "\"Bone Circler (7)\"[0]",
           "location_type": "enemy",
           "has_persisted_state": false,
           "node_id": "bone-bottom/the-big-fall#upper-right-ledge",
@@ -12688,7 +12688,7 @@
         {
           "id": "location:bone-bottom/the-big-fall::enemy/caranid-4",
           "name": "Caranid 4",
-          "in_game_id": "Bone Circler (4)",
+          "in_game_id": "\"Bone Circler (4)\"[0]",
           "location_type": "enemy",
           "has_persisted_state": false,
           "node_id": "bone-bottom/the-big-fall#upper-right-ledge",
@@ -12709,7 +12709,7 @@
         {
           "id": "location:bone-bottom/the-big-fall::enemy/caranid-5",
           "name": "Caranid 5",
-          "in_game_id": "Bone Circler (5)",
+          "in_game_id": "\"Bone Circler (5)\"[0]",
           "location_type": "enemy",
           "has_persisted_state": false,
           "node_id": "bone-bottom/the-big-fall#upper-right-ledge",
@@ -12730,7 +12730,7 @@
         {
           "id": "location:bone-bottom/the-big-fall::enemy/aknid-1",
           "name": "Aknid 1",
-          "in_game_id": "Aspid Collector (1)",
+          "in_game_id": "\"Aspid Collector (1)\"[0]",
           "location_type": "enemy",
           "has_persisted_state": false,
           "node_id": "bone-bottom/the-big-fall#right-aknids",
@@ -12751,7 +12751,7 @@
         {
           "id": "location:bone-bottom/the-big-fall::enemy/aknid-2",
           "name": "Aknid 2",
-          "in_game_id": "Aspid Collector",
+          "in_game_id": "\"Black Thread States Thread Only Variant\"[0]/\"Normal World\"[0]/\"Aspid Collector\"[0]",
           "location_type": "enemy",
           "has_persisted_state": false,
           "node_id": "bone-bottom/the-big-fall#right-aknids",
@@ -12774,7 +12774,7 @@
         {
           "id": "location:bone-bottom/the-big-fall::enemy/aknid-3",
           "name": "Aknid 3",
-          "in_game_id": "Aspid Collector (2)",
+          "in_game_id": "\"Black Thread States Thread Only Variant\"[0]/\"Normal World\"[0]/\"Aspid Collector (2)\"[0]",
           "location_type": "enemy",
           "has_persisted_state": false,
           "node_id": "bone-bottom/the-big-fall#lower-left-area",
@@ -12797,7 +12797,7 @@
         {
           "id": "location:bone-bottom/the-big-fall::enemy/aknid-4",
           "name": "Aknid 4",
-          "in_game_id": "Aspid Collector (2)",
+          "in_game_id": "\"Black Thread States Thread Only Variant\"[0]/\"Black Thread World\"[0]/\"Aspid Collector (2)\"[0]",
           "location_type": "enemy",
           "has_persisted_state": false,
           "node_id": "bone-bottom/the-big-fall#right-aknids",
@@ -12820,7 +12820,7 @@
         {
           "id": "location:bone-bottom/the-big-fall::enemy/aknid-5",
           "name": "Aknid 5",
-          "in_game_id": "Aspid Collector (3)",
+          "in_game_id": "\"Black Thread States Thread Only Variant\"[0]/\"Black Thread World\"[0]/\"Aspid Collector (3)\"[0]",
           "location_type": "enemy",
           "has_persisted_state": false,
           "node_id": "bone-bottom/the-big-fall#lower-left-area",
@@ -20996,7 +20996,7 @@
         {
           "id": "location:the-marrow/the-marrow-map-shop::miniboss/volatile-flintbeetle-2",
           "name": "volatile flintbeetle 2",
-          "in_game_id": "Rock Roller",
+          "in_game_id": "\"Rock Roller Scene\"[0]/\"Rock Roller\"[0]",
           "location_type": "miniboss",
           "has_persisted_state": true,
           "node_id": "the-marrow/the-marrow-map-shop#right-upper-path",
@@ -21019,7 +21019,7 @@
         {
           "id": "location:the-marrow/the-marrow-map-shop::enemy/pilgrim-pouncer-1",
           "name": "Pilgrim Pouncer 1",
-          "in_game_id": "Pilgrim 01",
+          "in_game_id": "\"Pilgrims\"[0]/\"Pilgrim Folder\"[0]/\"Pilgrim 01\"[0]",
           "location_type": "enemy",
           "has_persisted_state": false,
           "node_id": "the-marrow/the-marrow-map-shop#right-upper-path",
@@ -21042,7 +21042,7 @@
         {
           "id": "location:the-marrow/the-marrow-map-shop::enemy/pilgrim-pouncer-2",
           "name": "Pilgrim Pouncer 2",
-          "in_game_id": "Pilgrim 01",
+          "in_game_id": "\"Pilgrims\"[0]/\"Pilgrim Folder\"[0]/\"Pilgrim 01\"[1]",
           "location_type": "enemy",
           "has_persisted_state": false,
           "node_id": "the-marrow/the-marrow-map-shop#shakra-intro",
@@ -21065,7 +21065,7 @@
         {
           "id": "location:the-marrow/the-marrow-map-shop::enemy/pilgrim-groveller-1",
           "name": "Pilgrim Groveller 1",
-          "in_game_id": "Pilgrim 03",
+          "in_game_id": "\"Pilgrims\"[0]/\"Pilgrim Folder\"[0]/\"Pilgrim 03\"[0]",
           "location_type": "enemy",
           "has_persisted_state": false,
           "node_id": "the-marrow/the-marrow-map-shop#shakra-intro",
@@ -21086,7 +21086,7 @@
         {
           "id": "location:the-marrow/the-marrow-map-shop::enemy/pilgrim-groveller-2",
           "name": "Pilgrim Groveller 2",
-          "in_game_id": "Pilgrim 03 (1)",
+          "in_game_id": "\"Pilgrims\"[0]/\"Pilgrim Folder\"[0]/\"Pilgrim 03 (1)\"[0]",
           "location_type": "enemy",
           "has_persisted_state": false,
           "node_id": "the-marrow/the-marrow-map-shop#shakra-intro",
@@ -21107,7 +21107,7 @@
         {
           "id": "location:the-marrow/the-marrow-map-shop::enemy/winged-pilgrim-1",
           "name": "Winged Pilgrim 1",
-          "in_game_id": "Pilgrim Fly",
+          "in_game_id": "\"Pilgrims\"[0]/\"Pilgrim Folder\"[0]/\"Pilgrim Fly\"[0]",
           "location_type": "enemy",
           "has_persisted_state": false,
           "node_id": "the-marrow/the-marrow-map-shop#right-upper-path",
@@ -21130,7 +21130,7 @@
         {
           "id": "location:the-marrow/the-marrow-map-shop::enemy/skull-scuttler-1",
           "name": "Skull Scuttler 1",
-          "in_game_id": "Bone Goomba",
+          "in_game_id": "\"Bone Goomba\"[0]",
           "location_type": "enemy",
           "has_persisted_state": false,
           "node_id": "the-marrow/the-marrow-map-shop#right-lower-path",
@@ -21151,7 +21151,7 @@
         {
           "id": "location:the-marrow/the-marrow-map-shop::enemy/void-mass-1",
           "name": "Void Mass 1",
-          "in_game_id": "Black_Thread_Core",
+          "in_game_id": "\"Black Thread States Thread Only Variant\"[0]/\"Black Thread World\"[0]/\"Black_Thread_Core\"[0]",
           "location_type": "enemy",
           "has_persisted_state": false,
           "node_id": "the-marrow/the-marrow-map-shop#right-lower-path",
@@ -84109,7 +84109,7 @@
       "transitions": [
         {
           "id": "greymoor/greymoor-crow-nest@b",
-          "alias": "b",
+          "alias": "B",
           "name": "bottom",
           "in_game_id": "bot1",
           "is_unsafe_arrival": false,
@@ -130927,20 +130927,20 @@
           "source_node_id": "choral-chambers/high-halls-corridor#room",
           "target": "high-halls/high-halls-vault@b",
           "requirement": {
-            "raw": "one way entrance, opens from the other side",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "unrecognized predicate: one way entrance, opens from the other side"
-            ]
+            "raw": "Activate Floor Lever IN High Halls Vault",
+            "mode": "expression",
+            "dnf": [
+              [
+                "dependency:location:high-halls/high-halls-vault::switch/floor-lever"
+              ]
+            ],
+            "unresolved_reasons": []
           },
           "notes": "one way entrance, opens from the other side",
           "is_todo": false,
           "is_verified": true,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "requirement is unresolved"
-          ]
+          "logic_status": "active",
+          "unresolved_reasons": []
         }
       ],
       "connections": [],
@@ -130977,7 +130977,7 @@
       "name": "Corridor to High Halls",
       "in_game_id": "Song_17",
       "contributors": "samupo",
-      "notes": "",
+      "notes": "needs to be imported from the Choral Chambers side?",
       "nodes": [
         {
           "id": "choral-chambers/corridor-to-high-halls#room",
@@ -148840,7 +148840,7 @@
       "area_id": "high-halls",
       "name": "High Halls Small Slide",
       "in_game_id": "Hang_02",
-      "contributors": "samupo",
+      "contributors": "samupo, rebel",
       "notes": "",
       "nodes": [
         {
@@ -148866,11 +148866,6 @@
         {
           "id": "high-halls/high-halls-small-slide#right-platform",
           "name": "right platform",
-          "notes": ""
-        },
-        {
-          "id": "high-halls/high-halls-small-slide#unassigned",
-          "name": "unassigned",
           "notes": ""
         }
       ],
@@ -148928,18 +148923,49 @@
           "source_node_id": "high-halls/high-halls-small-slide#left-exit",
           "target_node_id": "high-halls/high-halls-small-slide#left-platform",
           "requirement": {
-            "raw": "invalid",
+            "raw": "Swift Step 2 OR Clawline OR (Sharpdart AND Proficient Movement) OR (Faydown Cloak AND (Easy Scuttlebrace OR Drifter's Cloak OR Easy Voltvessels Stall OR Easy Plasmium Stall OR Medium Flintslate Stall OR Flea Brew))",
             "mode": "expression",
             "dnf": [
               [
-                "invalid"
+                "capability:dash:none"
+              ],
+              [
+                "capability:clawline:none"
+              ],
+              [
+                "capability:sharpdart",
+                "capability:proficient-movement"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:scuttlebrace:easy"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:drifters-cloak"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:voltvessels-stall:easy"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:plasmium-phial-stall:easy"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:flintslate-stall:medium"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:flea-brew-jump"
               ]
             ],
             "unresolved_reasons": []
           },
-          "notes": "placeholder until can map it - original logic is in OG connection",
-          "is_todo": true,
-          "is_verified": false,
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
           "logic_status": "active",
           "unresolved_reasons": []
         },
@@ -148950,18 +148976,65 @@
           "source_node_id": "high-halls/high-halls-small-slide#left-platform",
           "target_node_id": "high-halls/high-halls-small-slide#left-exit",
           "requirement": {
-            "raw": "invalid",
+            "raw": "Clawline OR Sharpdart OR Faydown Cloak OR Drifter's Cloak OR Easy Scuttlebrace OR Swift Step 2 OR (((Flea Brew AND Easy Flea Brew Stall) OR Medium Flintslate Stall OR Swim) AND (Ledge Grab OR Cling Grip)) OR Medium Plasmium Stall OR Medium Voltvessels Stall",
             "mode": "expression",
             "dnf": [
               [
-                "invalid"
+                "capability:clawline:none"
+              ],
+              [
+                "capability:sharpdart"
+              ],
+              [
+                "capability:faydown-cloak"
+              ],
+              [
+                "capability:drifters-cloak"
+              ],
+              [
+                "capability:scuttlebrace:easy"
+              ],
+              [
+                "capability:dash:none"
+              ],
+              [
+                "capability:flea-brew-jump",
+                "capability:flea-brew-stall:easy",
+                "capability:ledge-grab:none"
+              ],
+              [
+                "capability:flea-brew-jump",
+                "capability:flea-brew-stall:easy",
+                "capability:cling-grip:none"
+              ],
+              [
+                "capability:flintslate-stall:medium",
+                "capability:ledge-grab:none"
+              ],
+              [
+                "capability:flintslate-stall:medium",
+                "capability:cling-grip:none"
+              ],
+              [
+                "capability:swim",
+                "capability:ledge-grab:none"
+              ],
+              [
+                "capability:swim",
+                "capability:cling-grip:none"
+              ],
+              [
+                "capability:plasmium-phial-stall:medium"
+              ],
+              [
+                "capability:voltvessels-stall:medium"
               ]
             ],
             "unresolved_reasons": []
           },
-          "notes": "placeholder until can map it - original logic is in OG connection",
-          "is_todo": true,
-          "is_verified": false,
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
           "logic_status": "active",
           "unresolved_reasons": []
         },
@@ -148972,18 +149045,23 @@
           "source_node_id": "high-halls/high-halls-small-slide#left-platform",
           "target_node_id": "high-halls/high-halls-small-slide#center-platform",
           "requirement": {
-            "raw": "invalid",
+            "raw": "Clawline OR (Faydown Cloak AND Sprint AND Ledge Grab)",
             "mode": "expression",
             "dnf": [
               [
-                "invalid"
+                "capability:clawline:none"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:sprint:none",
+                "capability:ledge-grab:none"
               ]
             ],
             "unresolved_reasons": []
           },
-          "notes": "placeholder until can map it - original logic is in OG connection",
-          "is_todo": true,
-          "is_verified": false,
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
           "logic_status": "active",
           "unresolved_reasons": []
         },
@@ -148994,18 +149072,43 @@
           "source_node_id": "high-halls/high-halls-small-slide#center-platform",
           "target_node_id": "high-halls/high-halls-small-slide#left-platform",
           "requirement": {
-            "raw": "invalid",
+            "raw": "Faydown Cloak OR Swift Step 2 OR Clawline OR Sharpdart OR Easy Scuttlebrace OR Drifter's Cloak OR (Flea Brew AND Easy Flea Brew Stall) OR Medium Voltvessels Stall OR Medium Plasmium Stall",
             "mode": "expression",
             "dnf": [
               [
-                "invalid"
+                "capability:faydown-cloak"
+              ],
+              [
+                "capability:dash:none"
+              ],
+              [
+                "capability:clawline:none"
+              ],
+              [
+                "capability:sharpdart"
+              ],
+              [
+                "capability:scuttlebrace:easy"
+              ],
+              [
+                "capability:drifters-cloak"
+              ],
+              [
+                "capability:flea-brew-jump",
+                "capability:flea-brew-stall:easy"
+              ],
+              [
+                "capability:voltvessels-stall:medium"
+              ],
+              [
+                "capability:plasmium-phial-stall:medium"
               ]
             ],
             "unresolved_reasons": []
           },
-          "notes": "placeholder until can map it - original logic is in OG connection",
-          "is_todo": true,
-          "is_verified": false,
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
           "logic_status": "active",
           "unresolved_reasons": []
         },
@@ -149016,18 +149119,59 @@
           "source_node_id": "high-halls/high-halls-small-slide#center-platform",
           "target_node_id": "high-halls/high-halls-small-slide#right-platform",
           "requirement": {
-            "raw": "invalid",
+            "raw": "Clawline OR (Faydown Cloak AND (Sprint OR Dash OR Drifter's Cloak OR Sharpdart OR easy Beast Charge OR Easy Architect Charge OR Easy Voltvessels Stall OR Easy Plasmium Stall OR Flea Brew OR (Easy Flintslate Stall AND Ledge Grab)))",
             "mode": "expression",
             "dnf": [
               [
-                "invalid"
+                "capability:clawline:none"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:sprint:none"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:dash:none"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:drifters-cloak"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:sharpdart"
+              ],
+              [
+                "capability:faydown-cloak",
+                "technique:beast-crest-needle-strike:easy"
+              ],
+              [
+                "capability:faydown-cloak",
+                "technique:architect-crest-needle-strike:easy"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:voltvessels-stall:easy"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:plasmium-phial-stall:easy"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:flea-brew-jump"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:flintslate-stall:easy",
+                "capability:ledge-grab:none"
               ]
             ],
             "unresolved_reasons": []
           },
-          "notes": "placeholder until can map it - original logic is in OG connection",
-          "is_todo": true,
-          "is_verified": false,
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
           "logic_status": "active",
           "unresolved_reasons": []
         },
@@ -149038,18 +149182,48 @@
           "source_node_id": "high-halls/high-halls-small-slide#right-platform",
           "target_node_id": "high-halls/high-halls-small-slide#center-platform",
           "requirement": {
-            "raw": "invalid",
+            "raw": "Sprint OR Dash OR Drifter's Cloak OR Faydown Cloak OR Clawline OR Sharpdart OR Easy Scuttlebrace OR Easy Flintslate Stall OR Easy Voltvessels Stall OR Easy Plasmium Stall OR Flea Brew",
             "mode": "expression",
             "dnf": [
               [
-                "invalid"
+                "capability:sprint:none"
+              ],
+              [
+                "capability:dash:none"
+              ],
+              [
+                "capability:drifters-cloak"
+              ],
+              [
+                "capability:faydown-cloak"
+              ],
+              [
+                "capability:clawline:none"
+              ],
+              [
+                "capability:sharpdart"
+              ],
+              [
+                "capability:scuttlebrace:easy"
+              ],
+              [
+                "capability:flintslate-stall:easy"
+              ],
+              [
+                "capability:voltvessels-stall:easy"
+              ],
+              [
+                "capability:plasmium-phial-stall:easy"
+              ],
+              [
+                "capability:flea-brew-jump"
               ]
             ],
             "unresolved_reasons": []
           },
-          "notes": "placeholder until can map it - original logic is in OG connection",
-          "is_todo": true,
-          "is_verified": false,
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
           "logic_status": "active",
           "unresolved_reasons": []
         },
@@ -149060,18 +149234,82 @@
           "source_node_id": "high-halls/high-halls-small-slide#right-platform",
           "target_node_id": "high-halls/high-halls-small-slide#right-exit",
           "requirement": {
-            "raw": "invalid",
+            "raw": "Faydown Cloak OR ((Cling Grip OR Easy Scuttlebrace) AND (Sprint OR Dash OR Flea Brew OR Easy Architect Charge OR Easy Beast Charge OR Drifter's Cloak OR Easy Plasmium Stall)) OR ((Clawline OR Sharpdart) AND Ledge Grab) ",
             "mode": "expression",
             "dnf": [
               [
-                "invalid"
+                "capability:faydown-cloak"
+              ],
+              [
+                "capability:cling-grip:none",
+                "capability:sprint:none"
+              ],
+              [
+                "capability:cling-grip:none",
+                "capability:dash:none"
+              ],
+              [
+                "capability:cling-grip:none",
+                "capability:flea-brew-jump"
+              ],
+              [
+                "capability:cling-grip:none",
+                "technique:architect-crest-needle-strike:easy"
+              ],
+              [
+                "capability:cling-grip:none",
+                "technique:beast-crest-needle-strike:easy"
+              ],
+              [
+                "capability:cling-grip:none",
+                "capability:drifters-cloak"
+              ],
+              [
+                "capability:cling-grip:none",
+                "capability:plasmium-phial-stall:easy"
+              ],
+              [
+                "capability:scuttlebrace:easy",
+                "capability:sprint:none"
+              ],
+              [
+                "capability:scuttlebrace:easy",
+                "capability:dash:none"
+              ],
+              [
+                "capability:scuttlebrace:easy",
+                "capability:flea-brew-jump"
+              ],
+              [
+                "capability:scuttlebrace:easy",
+                "technique:architect-crest-needle-strike:easy"
+              ],
+              [
+                "capability:scuttlebrace:easy",
+                "technique:beast-crest-needle-strike:easy"
+              ],
+              [
+                "capability:scuttlebrace:easy",
+                "capability:drifters-cloak"
+              ],
+              [
+                "capability:scuttlebrace:easy",
+                "capability:plasmium-phial-stall:easy"
+              ],
+              [
+                "capability:clawline:none",
+                "capability:ledge-grab:none"
+              ],
+              [
+                "capability:sharpdart",
+                "capability:ledge-grab:none"
               ]
             ],
             "unresolved_reasons": []
           },
-          "notes": "placeholder until can map it - original logic is in OG connection",
-          "is_todo": true,
-          "is_verified": false,
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
           "logic_status": "active",
           "unresolved_reasons": []
         },
@@ -149082,78 +149320,46 @@
           "source_node_id": "high-halls/high-halls-small-slide#right-exit",
           "target_node_id": "high-halls/high-halls-small-slide#right-platform",
           "requirement": {
-            "raw": "invalid",
+            "raw": "Sprint OR Dash OR Drifter's Cloak OR Faydown Cloak OR Clawline OR Sharpdart OR Easy Scuttlebrace OR Easy Flintslate Stall OR Easy Voltvessels Stall OR Easy Plasmium Stall OR Flea Brew",
             "mode": "expression",
             "dnf": [
               [
-                "invalid"
-              ]
-            ],
-            "unresolved_reasons": []
-          },
-          "notes": "placeholder until can map it - original logic is in OG connection",
-          "is_todo": true,
-          "is_verified": false,
-          "logic_status": "active",
-          "unresolved_reasons": []
-        },
-        {
-          "id": "high-halls/high-halls-small-slide#left-exit>right-exit@og",
-          "alias": "OG",
-          "name": "original requirements",
-          "source_node_id": "high-halls/high-halls-small-slide#left-exit",
-          "target_node_id": "high-halls/high-halls-small-slide#right-exit",
-          "requirement": {
-            "raw": "clawline OR (faydown cloak AND dash AND ledge grab)",
-            "mode": "expression",
-            "dnf": [
+                "capability:sprint:none"
+              ],
+              [
+                "capability:dash:none"
+              ],
+              [
+                "capability:drifters-cloak"
+              ],
+              [
+                "capability:faydown-cloak"
+              ],
               [
                 "capability:clawline:none"
               ],
               [
-                "capability:faydown-cloak",
-                "capability:dash:none",
-                "capability:ledge-grab:none"
+                "capability:sharpdart"
+              ],
+              [
+                "capability:scuttlebrace:easy"
+              ],
+              [
+                "capability:flintslate-stall:easy"
+              ],
+              [
+                "capability:voltvessels-stall:easy"
+              ],
+              [
+                "capability:plasmium-phial-stall:easy"
+              ],
+              [
+                "capability:flea-brew-jump"
               ]
             ],
             "unresolved_reasons": []
           },
-          "notes": "delete after remapped",
-          "is_todo": false,
-          "is_verified": true,
-          "logic_status": "active",
-          "unresolved_reasons": []
-        },
-        {
-          "id": "high-halls/high-halls-small-slide#right-exit>left-exit@og",
-          "alias": "OG",
-          "name": "original requirements",
-          "source_node_id": "high-halls/high-halls-small-slide#right-exit",
-          "target_node_id": "high-halls/high-halls-small-slide#left-exit",
-          "requirement": {
-            "raw": "(ledge grab OR clawline OR cling grip OR faydown cloak) AND swim",
-            "mode": "expression",
-            "dnf": [
-              [
-                "capability:ledge-grab:none",
-                "capability:swim"
-              ],
-              [
-                "capability:clawline:none",
-                "capability:swim"
-              ],
-              [
-                "capability:cling-grip:none",
-                "capability:swim"
-              ],
-              [
-                "capability:faydown-cloak",
-                "capability:swim"
-              ]
-            ],
-            "unresolved_reasons": []
-          },
-          "notes": "delete after remapped",
+          "notes": "",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
@@ -149164,7 +149370,7 @@
         {
           "id": "location:high-halls/high-halls-small-slide::event/second-sentinel-encounter",
           "name": "Second Sentinel Encounter",
-          "in_game_id": null,
+          "in_game_id": "Song Knight Resting NPC",
           "location_type": "event",
           "has_persisted_state": true,
           "node_id": "high-halls/high-halls-small-slide#center-platform",
@@ -149179,35 +149385,32 @@
             ],
             "unresolved_reasons": []
           },
-          "notes": "need to verify this is the correct platform",
-          "is_todo": true,
-          "is_verified": false,
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
           "logic_status": "active",
           "unresolved_reasons": []
         },
         {
-          "id": "location:high-halls/high-halls-small-slide::unknown/import-enemies",
-          "name": "import enemies",
-          "in_game_id": null,
-          "location_type": "unknown",
-          "has_persisted_state": null,
-          "node_id": "high-halls/high-halls-small-slide#unassigned",
+          "id": "location:high-halls/high-halls-small-slide::enemy/maestro-1",
+          "name": "Maestro 1",
+          "in_game_id": "\"Song Knight Control\"[0]/\"Song Knight Absent\"[0]/\"Song Pilgrim Maestro\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "high-halls/high-halls-small-slide#center-platform",
           "requirement": {
-            "raw": "",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "requirement is blank"
-            ]
+            "raw": "nada",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
           },
           "notes": "",
-          "is_todo": true,
-          "is_verified": false,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "subroom reference is blank",
-            "requirement is unresolved"
-          ]
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
         }
       ]
     },
@@ -149217,12 +149420,27 @@
       "area_id": "high-halls",
       "name": "High Halls Shaft Top",
       "in_game_id": "Hang_03_top",
-      "contributors": "samupo",
+      "contributors": "samupo, rebel",
       "notes": "",
       "nodes": [
         {
-          "id": "high-halls/high-halls-shaft-top#room",
-          "name": "room",
+          "id": "high-halls/high-halls-shaft-top#floor",
+          "name": "Floor",
+          "notes": ""
+        },
+        {
+          "id": "high-halls/high-halls-shaft-top#enemy-1",
+          "name": "Enemy 1",
+          "notes": ""
+        },
+        {
+          "id": "high-halls/high-halls-shaft-top#enemy-2",
+          "name": "Enemy 2",
+          "notes": ""
+        },
+        {
+          "id": "high-halls/high-halls-shaft-top#spool",
+          "name": "Spool",
           "notes": ""
         }
       ],
@@ -149233,7 +149451,7 @@
           "name": "bot1",
           "in_game_id": "bot1",
           "is_unsafe_arrival": false,
-          "source_node_id": "high-halls/high-halls-shaft-top#room",
+          "source_node_id": "high-halls/high-halls-shaft-top#floor",
           "target": "high-halls/high-halls-shaft-bottom@t",
           "requirement": {
             "raw": "none",
@@ -149250,17 +149468,15 @@
           "unresolved_reasons": []
         }
       ],
-      "connections": [],
-      "locations": [
+      "connections": [
         {
-          "id": "location:high-halls/high-halls-shaft-top::collectible/high-halls-spool-fragment",
-          "name": "High Halls - Spool Fragment",
-          "in_game_id": "Silk Spool",
-          "location_type": "collectible",
-          "has_persisted_state": true,
-          "node_id": "high-halls/high-halls-shaft-top#room",
+          "id": "high-halls/high-halls-shaft-top#floor>enemy-1@u1",
+          "alias": "U1",
+          "name": "Up 1",
+          "source_node_id": "high-halls/high-halls-shaft-top#floor",
+          "target_node_id": "high-halls/high-halls-shaft-top#enemy-1",
           "requirement": {
-            "raw": "silk soar OR (clawline AND faydown cloak AND cling grip)",
+            "raw": "Silk Soar OR (Clawline AND Faydown Cloak AND Cling Grip)",
             "mode": "expression",
             "dnf": [
               [
@@ -149281,27 +149497,224 @@
           "unresolved_reasons": []
         },
         {
-          "id": "location:high-halls/high-halls-shaft-top::unknown/import-enemies",
-          "name": "import enemies",
-          "in_game_id": null,
-          "location_type": "unknown",
-          "has_persisted_state": null,
-          "node_id": "high-halls/high-halls-shaft-top#room",
+          "id": "high-halls/high-halls-shaft-top#enemy-1>floor@u1",
+          "alias": "U1",
+          "name": "Up 1",
+          "source_node_id": "high-halls/high-halls-shaft-top#enemy-1",
+          "target_node_id": "high-halls/high-halls-shaft-top#floor",
           "requirement": {
-            "raw": "",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "requirement is blank"
-            ]
+            "raw": "Nothing. (Fall)",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
           },
           "notes": "",
-          "is_todo": true,
-          "is_verified": false,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "requirement is unresolved"
-          ]
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "high-halls/high-halls-shaft-top#enemy-1>enemy-2@u2",
+          "alias": "U2",
+          "name": "Up 2",
+          "source_node_id": "high-halls/high-halls-shaft-top#enemy-1",
+          "target_node_id": "high-halls/high-halls-shaft-top#enemy-2",
+          "requirement": {
+            "raw": "Clawline AND Faydown Cloak",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:clawline:none",
+                "capability:faydown-cloak"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "high-halls/high-halls-shaft-top#enemy-2>enemy-1@u2",
+          "alias": "U2",
+          "name": "Up 2",
+          "source_node_id": "high-halls/high-halls-shaft-top#enemy-2",
+          "target_node_id": "high-halls/high-halls-shaft-top#enemy-1",
+          "requirement": {
+            "raw": "Clawline",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:clawline:none"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "high-halls/high-halls-shaft-top#enemy-2>spool@u3",
+          "alias": "U3",
+          "name": "Up 3",
+          "source_node_id": "high-halls/high-halls-shaft-top#enemy-2",
+          "target_node_id": "high-halls/high-halls-shaft-top#spool",
+          "requirement": {
+            "raw": "Faydown Cloak AND Cling Grip AND Clawline",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:faydown-cloak",
+                "capability:cling-grip:none",
+                "capability:clawline:none"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "high-halls/high-halls-shaft-top#spool>enemy-2@u3",
+          "alias": "U3",
+          "name": "Up 3",
+          "source_node_id": "high-halls/high-halls-shaft-top#spool",
+          "target_node_id": "high-halls/high-halls-shaft-top#enemy-2",
+          "requirement": {
+            "raw": "Clawline",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:clawline:none"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "high-halls/high-halls-shaft-top#floor>spool@s",
+          "alias": "S",
+          "name": "Skip Allat",
+          "source_node_id": "high-halls/high-halls-shaft-top#floor",
+          "target_node_id": "high-halls/high-halls-shaft-top#spool",
+          "requirement": {
+            "raw": "Silk Soar",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:silk-soar"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "high-halls/high-halls-shaft-top#spool>floor@s",
+          "alias": "S",
+          "name": "Skip Allat",
+          "source_node_id": "high-halls/high-halls-shaft-top#spool",
+          "target_node_id": "high-halls/high-halls-shaft-top#floor",
+          "requirement": {
+            "raw": "Nothing. (Fall)",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        }
+      ],
+      "locations": [
+        {
+          "id": "location:high-halls/high-halls-shaft-top::collectible/high-halls-spool-fragment",
+          "name": "High Halls - Spool Fragment",
+          "in_game_id": "Silk Spool",
+          "location_type": "collectible",
+          "has_persisted_state": true,
+          "node_id": "high-halls/high-halls-shaft-top#spool",
+          "requirement": {
+            "raw": "Attack Up",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:needle:up"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:high-halls/high-halls-shaft-top::enemy/minister-1",
+          "name": "Minister 1",
+          "in_game_id": "Song Administrator (2)",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "high-halls/high-halls-shaft-top#enemy-1",
+          "requirement": {
+            "raw": "zilch",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:high-halls/high-halls-shaft-top::enemy/minister-2",
+          "name": "Minister 2",
+          "in_game_id": "Song Administrator (3)",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "high-halls/high-halls-shaft-top#enemy-2",
+          "requirement": {
+            "raw": "free",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
         }
       ]
     },
@@ -149311,8 +149724,8 @@
       "area_id": "high-halls",
       "name": "High Halls Shaft Bottom",
       "in_game_id": "Hang_03",
-      "contributors": "samupo",
-      "notes": "",
+      "contributors": "samupo, rebel",
+      "notes": "can touch up this room later, it looks functional right now.",
       "nodes": [
         {
           "id": "high-halls/high-halls-shaft-bottom#top",
@@ -149337,11 +149750,6 @@
         {
           "id": "high-halls/high-halls-shaft-bottom#bottom-right",
           "name": "Bottom Right",
-          "notes": ""
-        },
-        {
-          "id": "high-halls/high-halls-shaft-bottom#unassigned",
-          "name": "unassigned",
           "notes": ""
         }
       ],
@@ -149699,23 +150107,20 @@
           "in_game_id": "Song Administrator (1)",
           "location_type": "enemy",
           "has_persisted_state": false,
-          "node_id": "high-halls/high-halls-shaft-bottom#unassigned",
+          "node_id": "high-halls/high-halls-shaft-bottom#bottom-right",
           "requirement": {
-            "raw": "",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "requirement is blank"
-            ]
+            "raw": "nada?",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
           },
           "notes": "",
           "is_todo": false,
-          "is_verified": null,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "subroom reference is blank",
-            "requirement is unresolved"
-          ]
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
         },
         {
           "id": "location:high-halls/high-halls-shaft-bottom::enemy/minister-2",
@@ -149723,7 +150128,7 @@
           "in_game_id": "Song Administrator",
           "location_type": "enemy",
           "has_persisted_state": false,
-          "node_id": "high-halls/high-halls-shaft-bottom#unassigned",
+          "node_id": "high-halls/high-halls-shaft-bottom#top-right",
           "requirement": {
             "raw": "Normal World Spawn",
             "mode": "expression",
@@ -149736,11 +150141,9 @@
           },
           "notes": "",
           "is_todo": false,
-          "is_verified": null,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "subroom reference is blank"
-          ]
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
         },
         {
           "id": "location:high-halls/high-halls-shaft-bottom::enemy/void-mass-1",
@@ -149748,7 +150151,7 @@
           "in_game_id": "Black_Thread_Core_Citadel",
           "location_type": "enemy",
           "has_persisted_state": false,
-          "node_id": "high-halls/high-halls-shaft-bottom#unassigned",
+          "node_id": "high-halls/high-halls-shaft-bottom#bottom-left",
           "requirement": {
             "raw": "Black Thread World Spawn",
             "mode": "expression",
@@ -149761,11 +150164,9 @@
           },
           "notes": "",
           "is_todo": false,
-          "is_verified": null,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "subroom reference is blank"
-          ]
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
         }
       ]
     },
@@ -149775,7 +150176,7 @@
       "area_id": "high-halls",
       "name": "High Halls Small Room",
       "in_game_id": "Hang_15",
-      "contributors": "samupo",
+      "contributors": "samupo, rebel",
       "notes": "",
       "nodes": [
         {
@@ -149832,27 +150233,25 @@
           "unresolved_reasons": []
         },
         {
-          "id": "location:high-halls/high-halls-small-room::unknown/import-enemies",
-          "name": "import enemies",
-          "in_game_id": null,
-          "location_type": "unknown",
-          "has_persisted_state": null,
+          "id": "location:high-halls/high-halls-small-room::enemy/drapefly-1",
+          "name": "Drapefly 1",
+          "in_game_id": "Citadel Bat",
+          "location_type": "enemy",
+          "has_persisted_state": false,
           "node_id": "high-halls/high-halls-small-room#room",
           "requirement": {
-            "raw": "",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "requirement is blank"
-            ]
+            "raw": "nada",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
           },
           "notes": "",
-          "is_todo": true,
-          "is_verified": false,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "requirement is unresolved"
-          ]
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
         }
       ]
     },
@@ -149862,12 +150261,27 @@
       "area_id": "high-halls",
       "name": "High Halls Big Slide",
       "in_game_id": "Hang_13",
-      "contributors": "samupo",
+      "contributors": "samupo, rebel",
       "notes": "",
       "nodes": [
         {
-          "id": "high-halls/high-halls-big-slide#room",
-          "name": "room",
+          "id": "high-halls/high-halls-big-slide#left-entrance",
+          "name": "Left Entrance",
+          "notes": ""
+        },
+        {
+          "id": "high-halls/high-halls-big-slide#center-platform",
+          "name": "Center Platform",
+          "notes": ""
+        },
+        {
+          "id": "high-halls/high-halls-big-slide#top-platform",
+          "name": "Top Platform",
+          "notes": ""
+        },
+        {
+          "id": "high-halls/high-halls-big-slide#right-exit",
+          "name": "Right Exit",
           "notes": ""
         }
       ],
@@ -149878,24 +150292,13 @@
           "name": "right1",
           "in_game_id": "right1",
           "is_unsafe_arrival": false,
-          "source_node_id": "high-halls/high-halls-big-slide#room",
+          "source_node_id": "high-halls/high-halls-big-slide#right-exit",
           "target": "high-halls/high-halls-big-shaft@tl",
           "requirement": {
-            "raw": "clawline AND (ledge grab OR faydown cloak OR dash)",
-            "mode": "expression",
+            "raw": "None",
+            "mode": "none",
             "dnf": [
-              [
-                "capability:clawline:none",
-                "capability:ledge-grab:none"
-              ],
-              [
-                "capability:clawline:none",
-                "capability:faydown-cloak"
-              ],
-              [
-                "capability:clawline:none",
-                "capability:dash:none"
-              ]
+              []
             ],
             "unresolved_reasons": []
           },
@@ -149911,22 +150314,309 @@
           "name": "left1",
           "in_game_id": "left1",
           "is_unsafe_arrival": false,
-          "source_node_id": "high-halls/high-halls-big-slide#room",
+          "source_node_id": "high-halls/high-halls-big-slide#left-entrance",
           "target": "high-halls/high-halls-shaft-bottom@tr",
           "requirement": {
-            "raw": "(swim AND ledge grab) OR (clawline AND dash) OR drifter's cloak",
+            "raw": "None",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        }
+      ],
+      "connections": [
+        {
+          "id": "high-halls/high-halls-big-slide#left-entrance>center-platform@lc",
+          "alias": "LC",
+          "name": "Left <> Center",
+          "source_node_id": "high-halls/high-halls-big-slide#left-entrance",
+          "target_node_id": "high-halls/high-halls-big-slide#center-platform",
+          "requirement": {
+            "raw": "Clawline OR (Swift Step 2 AND Faydown Cloak) OR (Easy Plasmium Stall AND Faydown Cloak AND Sprint AND (Ledge Grab OR Cling Grip)) ",
             "mode": "expression",
             "dnf": [
+              [
+                "capability:clawline:none"
+              ],
+              [
+                "capability:dash:none",
+                "capability:faydown-cloak"
+              ],
+              [
+                "capability:plasmium-phial-stall:easy",
+                "capability:faydown-cloak",
+                "capability:sprint:none",
+                "capability:ledge-grab:none"
+              ],
+              [
+                "capability:plasmium-phial-stall:easy",
+                "capability:faydown-cloak",
+                "capability:sprint:none",
+                "capability:cling-grip:none"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "high-halls/high-halls-big-slide#center-platform>left-entrance@lc",
+          "alias": "LC",
+          "name": "Left <> Center",
+          "source_node_id": "high-halls/high-halls-big-slide#center-platform",
+          "target_node_id": "high-halls/high-halls-big-slide#left-entrance",
+          "requirement": {
+            "raw": "Clawline OR (Sprint AND (Dash OR Faydown Cloak)) OR (Swim AND (Ledge Grab OR Cling Grip)) OR (Faydown Cloak AND (Medium Plasmium Stall OR Medium Voltvessels Stall OR Easy Beast Charge OR Easy Architect Charge))",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:clawline:none"
+              ],
+              [
+                "capability:sprint:none",
+                "capability:dash:none"
+              ],
+              [
+                "capability:sprint:none",
+                "capability:faydown-cloak"
+              ],
               [
                 "capability:swim",
                 "capability:ledge-grab:none"
               ],
               [
+                "capability:swim",
+                "capability:cling-grip:none"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:plasmium-phial-stall:medium"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:voltvessels-stall:medium"
+              ],
+              [
+                "capability:faydown-cloak",
+                "technique:beast-crest-needle-strike:easy"
+              ],
+              [
+                "capability:faydown-cloak",
+                "technique:architect-crest-needle-strike:easy"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "high-halls/high-halls-big-slide#center-platform>top-platform@ct",
+          "alias": "CT",
+          "name": "Center <> Top",
+          "source_node_id": "high-halls/high-halls-big-slide#center-platform",
+          "target_node_id": "high-halls/high-halls-big-slide#top-platform",
+          "requirement": {
+            "raw": "Clawline AND (Ledge Grab OR Faydown Cloak OR Cling Grip)",
+            "mode": "expression",
+            "dnf": [
+              [
                 "capability:clawline:none",
+                "capability:ledge-grab:none"
+              ],
+              [
+                "capability:clawline:none",
+                "capability:faydown-cloak"
+              ],
+              [
+                "capability:clawline:none",
+                "capability:cling-grip:none"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "high-halls/high-halls-big-slide#top-platform>center-platform@ct",
+          "alias": "CT",
+          "name": "Center <> Top",
+          "source_node_id": "high-halls/high-halls-big-slide#top-platform",
+          "target_node_id": "high-halls/high-halls-big-slide#center-platform",
+          "requirement": {
+            "raw": "Ledge Grab OR Swim OR Faydown Cloak OR Clawline OR Sharpdart OR (Cling Grip AND Proficient Movement) OR Sprint OR Dash OR Drifter's Cloak OR Easy Reaper Pogo OR Easy Hunter Pogo OR Easy Beast Pogo OR Easy Shaman Pogo OR Easy Architect Pogo OR Easy Hunter Charge OR Easy Wanderer Charge OR Easy Witch Charge OR Easy Beast Charge OR Easy Architect Charge OR Easy Shaman Charge OR Easy Flintslate Stall OR Easy Plasmium Stall OR Easy Voltvessels Stall OR Flea Brew",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:ledge-grab:none"
+              ],
+              [
+                "capability:swim"
+              ],
+              [
+                "capability:faydown-cloak"
+              ],
+              [
+                "capability:clawline:none"
+              ],
+              [
+                "capability:sharpdart"
+              ],
+              [
+                "capability:cling-grip:none",
+                "capability:proficient-movement"
+              ],
+              [
+                "capability:sprint:none"
+              ],
+              [
                 "capability:dash:none"
               ],
               [
                 "capability:drifters-cloak"
+              ],
+              [
+                "capability:reaper-crest-pogo:easy"
+              ],
+              [
+                "capability:hunter-crest-pogo:easy"
+              ],
+              [
+                "capability:beast-crest-pogo:easy"
+              ],
+              [
+                "capability:shaman-crest-pogo:easy"
+              ],
+              [
+                "capability:architect-crest-pogo:easy"
+              ],
+              [
+                "technique:hunter-crest-needle-strike:easy"
+              ],
+              [
+                "technique:wanderer-crest-needle-strike:easy"
+              ],
+              [
+                "technique:witch-crest-needle-strike:easy"
+              ],
+              [
+                "technique:beast-crest-needle-strike:easy"
+              ],
+              [
+                "technique:architect-crest-needle-strike:easy"
+              ],
+              [
+                "technique:shaman-crest-needle-strike:easy"
+              ],
+              [
+                "capability:flintslate-stall:easy"
+              ],
+              [
+                "capability:plasmium-phial-stall:easy"
+              ],
+              [
+                "capability:voltvessels-stall:easy"
+              ],
+              [
+                "capability:flea-brew-jump"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "honestly just like literally anything in the game?",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "high-halls/high-halls-big-slide#top-platform>right-exit@tr",
+          "alias": "TR",
+          "name": "Top <> Right",
+          "source_node_id": "high-halls/high-halls-big-slide#top-platform",
+          "target_node_id": "high-halls/high-halls-big-slide#right-exit",
+          "requirement": {
+            "raw": "Clawline OR (Faydown Cloak AND (Sprint OR Drifter's Cloak OR Sharpdart OR (Swim AND (Ledge Grab OR Cling Grip))))",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:clawline:none"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:sprint:none"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:drifters-cloak"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:sharpdart"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:swim",
+                "capability:ledge-grab:none"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:swim",
+                "capability:cling-grip:none"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "high-halls/high-halls-big-slide#right-exit>top-platform@tr",
+          "alias": "TR",
+          "name": "Top <> Right",
+          "source_node_id": "high-halls/high-halls-big-slide#right-exit",
+          "target_node_id": "high-halls/high-halls-big-slide#top-platform",
+          "requirement": {
+            "raw": "Clawline OR Sharpdart OR Swift Step 2 OR (Faydown Cloak AND (Dash OR Sprint))",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:clawline:none"
+              ],
+              [
+                "capability:sharpdart"
+              ],
+              [
+                "capability:dash:none"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:dash:none"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:sprint:none"
               ]
             ],
             "unresolved_reasons": []
@@ -149938,30 +150628,92 @@
           "unresolved_reasons": []
         }
       ],
-      "connections": [],
       "locations": [
         {
-          "id": "location:high-halls/high-halls-big-slide::unknown/import-enemies",
-          "name": "import enemies",
-          "in_game_id": null,
-          "location_type": "unknown",
-          "has_persisted_state": null,
-          "node_id": "high-halls/high-halls-big-slide#room",
+          "id": "location:high-halls/high-halls-big-slide::enemy/minister-1",
+          "name": "Minister 1",
+          "in_game_id": "Song Administrator (3)",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "high-halls/high-halls-big-slide#top-platform",
           "requirement": {
-            "raw": "",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "requirement is blank"
-            ]
+            "raw": "Nada",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
           },
           "notes": "",
-          "is_todo": true,
-          "is_verified": false,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "requirement is unresolved"
-          ]
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:high-halls/high-halls-big-slide::enemy/minister-2",
+          "name": "Minister 2",
+          "in_game_id": "Song Administrator (2)",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "high-halls/high-halls-big-slide#top-platform",
+          "requirement": {
+            "raw": "Nothing",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:high-halls/high-halls-big-slide::enemy/maestro-1",
+          "name": "Maestro 1",
+          "in_game_id": "Song Pilgrim Maestro",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "high-halls/high-halls-big-slide#center-platform",
+          "requirement": {
+            "raw": "Free",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:high-halls/high-halls-big-slide::enemy/void-mass-1",
+          "name": "Void Mass 1",
+          "in_game_id": "Black_Thread_Core",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "high-halls/high-halls-big-slide#top-platform",
+          "requirement": {
+            "raw": "Black Thread World Spawn",
+            "mode": "expression",
+            "dnf": [
+              [
+                "state:enemy-spawn-black-thread-world"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
         }
       ]
     },
@@ -149971,8 +150723,8 @@
       "area_id": "high-halls",
       "name": "High Halls Big Shaft",
       "in_game_id": "Hang_08",
-      "contributors": "samupo",
-      "notes": "",
+      "contributors": "samupo, rebel",
+      "notes": "the subroom connections in this room need a lot of work. it may be worthwhile to just start from scratch instead of frankensteining something usable out of them.",
       "nodes": [
         {
           "id": "high-halls/high-halls-big-shaft#top",
@@ -150010,8 +150762,13 @@
           "notes": ""
         },
         {
-          "id": "high-halls/high-halls-big-shaft#unassigned",
-          "name": "unassigned",
+          "id": "high-halls/high-halls-big-shaft#clawline-gate-2",
+          "name": "Clawline Gate 2",
+          "notes": ""
+        },
+        {
+          "id": "high-halls/high-halls-big-shaft#clawline-gate-3",
+          "name": "Clawline Gate 3",
           "notes": ""
         }
       ],
@@ -150115,10 +150872,13 @@
           "source_node_id": "high-halls/high-halls-big-shaft#behind-sentinel-gate",
           "target": "high-halls/high-halls-sentinel-graveyard@l",
           "requirement": {
-            "raw": "none",
-            "mode": "none",
+            "raw": "Activate Clawline Gate 3 AND complete THE Final Audience Wish Promised",
+            "mode": "expression",
             "dnf": [
-              []
+              [
+                "dependency:location:high-halls/high-halls-big-shaft::switch/clawline-gate-3",
+                "dependency:location:wish-menus/songclave-wish-wall::event/final-audience-wish-promised"
+              ]
             ],
             "unresolved_reasons": []
           },
@@ -150175,18 +150935,19 @@
       ],
       "connections": [
         {
-          "id": "high-halls/high-halls-big-shaft#top>middle@tf",
+          "id": "high-halls/high-halls-big-shaft#top>clawline-gate-2@tf",
           "alias": "TF",
           "name": "Falling from Top",
           "source_node_id": "high-halls/high-halls-big-shaft#top",
-          "target_node_id": "high-halls/high-halls-big-shaft#middle",
+          "target_node_id": "high-halls/high-halls-big-shaft#clawline-gate-2",
           "requirement": {
-            "raw": "clawline AND drifter's cloak",
+            "raw": "clawline AND drifter's cloak AND Activate Clawline Gate 1",
             "mode": "expression",
             "dnf": [
               [
                 "capability:clawline:none",
-                "capability:drifters-cloak"
+                "capability:drifters-cloak",
+                "dependency:location:high-halls/high-halls-big-shaft::switch/clawline-gate-1"
               ]
             ],
             "unresolved_reasons": []
@@ -150194,6 +150955,74 @@
           "notes": "",
           "is_todo": false,
           "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "high-halls/high-halls-big-shaft#clawline-gate-2>top@tf",
+          "alias": "TF",
+          "name": "Falling from Top",
+          "source_node_id": "high-halls/high-halls-big-shaft#clawline-gate-2",
+          "target_node_id": "high-halls/high-halls-big-shaft#top",
+          "requirement": {
+            "raw": "Invalid",
+            "mode": "expression",
+            "dnf": [
+              [
+                "invalid"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "Previously a one-way connection. probably intentional, need to check for possible routes.",
+          "is_todo": true,
+          "is_verified": false,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "high-halls/high-halls-big-shaft#clawline-gate-2>middle@c",
+          "alias": "C",
+          "name": "Clawline",
+          "source_node_id": "high-halls/high-halls-big-shaft#clawline-gate-2",
+          "target_node_id": "high-halls/high-halls-big-shaft#middle",
+          "requirement": {
+            "raw": "clawline AND drifter's cloak AND Activate Clawline Gate 2",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:clawline:none",
+                "capability:drifters-cloak",
+                "dependency:location:high-halls/high-halls-big-shaft::switch/clawline-gate-2"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "high-halls/high-halls-big-shaft#middle>clawline-gate-2@c",
+          "alias": "C",
+          "name": "Clawline",
+          "source_node_id": "high-halls/high-halls-big-shaft#middle",
+          "target_node_id": "high-halls/high-halls-big-shaft#clawline-gate-2",
+          "requirement": {
+            "raw": "Invalid",
+            "mode": "expression",
+            "dnf": [
+              [
+                "invalid"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "Previously a one-way connection. probably intentional, need to check for possible routes.",
+          "is_todo": true,
+          "is_verified": false,
           "logic_status": "active",
           "unresolved_reasons": []
         },
@@ -150227,11 +151056,33 @@
           "unresolved_reasons": []
         },
         {
-          "id": "high-halls/high-halls-big-shaft#left-spike-exit>bottom@sf",
+          "id": "high-halls/high-halls-big-shaft#left-spike-exit>middle@s",
+          "alias": "S",
+          "name": "Spiked Secret",
+          "source_node_id": "high-halls/high-halls-big-shaft#left-spike-exit",
+          "target_node_id": "high-halls/high-halls-big-shaft#middle",
+          "requirement": {
+            "raw": "Invalid",
+            "mode": "expression",
+            "dnf": [
+              [
+                "invalid"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "Previously a one-way connection. probably intentional, need to check for possible routes.",
+          "is_todo": true,
+          "is_verified": false,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "high-halls/high-halls-big-shaft#left-spike-exit>clawline-gate-3@sf",
           "alias": "SF",
           "name": "Falling from Secret",
           "source_node_id": "high-halls/high-halls-big-shaft#left-spike-exit",
-          "target_node_id": "high-halls/high-halls-big-shaft#bottom",
+          "target_node_id": "high-halls/high-halls-big-shaft#clawline-gate-3",
           "requirement": {
             "raw": "drifter's cloak AND clawline",
             "mode": "expression",
@@ -150250,11 +151101,33 @@
           "unresolved_reasons": []
         },
         {
-          "id": "high-halls/high-halls-big-shaft#middle>bottom@mf",
+          "id": "high-halls/high-halls-big-shaft#clawline-gate-3>left-spike-exit@sf",
+          "alias": "SF",
+          "name": "Falling from Secret",
+          "source_node_id": "high-halls/high-halls-big-shaft#clawline-gate-3",
+          "target_node_id": "high-halls/high-halls-big-shaft#left-spike-exit",
+          "requirement": {
+            "raw": "Invalid",
+            "mode": "expression",
+            "dnf": [
+              [
+                "invalid"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "Previously a one-way connection. probably intentional, need to check for possible routes.",
+          "is_todo": true,
+          "is_verified": false,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "high-halls/high-halls-big-shaft#middle>clawline-gate-3@mf",
           "alias": "MF",
           "name": "Falling from Middle",
           "source_node_id": "high-halls/high-halls-big-shaft#middle",
-          "target_node_id": "high-halls/high-halls-big-shaft#bottom",
+          "target_node_id": "high-halls/high-halls-big-shaft#clawline-gate-3",
           "requirement": {
             "raw": "drifter's cloak AND clawline",
             "mode": "expression",
@@ -150269,6 +151142,28 @@
           "notes": "",
           "is_todo": false,
           "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "high-halls/high-halls-big-shaft#clawline-gate-3>middle@mf",
+          "alias": "MF",
+          "name": "Falling from Middle",
+          "source_node_id": "high-halls/high-halls-big-shaft#clawline-gate-3",
+          "target_node_id": "high-halls/high-halls-big-shaft#middle",
+          "requirement": {
+            "raw": "Invalid",
+            "mode": "expression",
+            "dnf": [
+              [
+                "invalid"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "Previously a one-way connection. probably intentional, need to check for possible routes.",
+          "is_todo": true,
+          "is_verified": false,
           "logic_status": "active",
           "unresolved_reasons": []
         },
@@ -150402,6 +151297,50 @@
           "is_verified": true,
           "logic_status": "active",
           "unresolved_reasons": []
+        },
+        {
+          "id": "high-halls/high-halls-big-shaft#clawline-gate-3>bottom@fc3",
+          "alias": "FC3",
+          "name": "Floor <> Clawline 3",
+          "source_node_id": "high-halls/high-halls-big-shaft#clawline-gate-3",
+          "target_node_id": "high-halls/high-halls-big-shaft#bottom",
+          "requirement": {
+            "raw": "Activate Clawline Gate 3",
+            "mode": "expression",
+            "dnf": [
+              [
+                "dependency:location:high-halls/high-halls-big-shaft::switch/clawline-gate-3"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "high-halls/high-halls-big-shaft#bottom>clawline-gate-3@fc3",
+          "alias": "FC3",
+          "name": "Floor <> Clawline 3",
+          "source_node_id": "high-halls/high-halls-big-shaft#bottom",
+          "target_node_id": "high-halls/high-halls-big-shaft#clawline-gate-3",
+          "requirement": {
+            "raw": "Invalid",
+            "mode": "expression",
+            "dnf": [
+              [
+                "invalid"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": true,
+          "is_verified": false,
+          "logic_status": "active",
+          "unresolved_reasons": []
         }
       ],
       "locations": [
@@ -150450,28 +151389,94 @@
           "unresolved_reasons": []
         },
         {
+          "id": "location:high-halls/high-halls-big-shaft::switch/clawline-gate-1",
+          "name": "Clawline Gate 1",
+          "in_game_id": null,
+          "location_type": "switch",
+          "has_persisted_state": true,
+          "node_id": "high-halls/high-halls-big-shaft#top",
+          "requirement": {
+            "raw": "Clawline",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:clawline:none"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:high-halls/high-halls-big-shaft::switch/clawline-gate-2",
+          "name": "Clawline Gate 2",
+          "in_game_id": null,
+          "location_type": "switch",
+          "has_persisted_state": true,
+          "node_id": "high-halls/high-halls-big-shaft#clawline-gate-2",
+          "requirement": {
+            "raw": "Clawline",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:clawline:none"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:high-halls/high-halls-big-shaft::switch/clawline-gate-3",
+          "name": "Clawline Gate 3",
+          "in_game_id": null,
+          "location_type": "switch",
+          "has_persisted_state": true,
+          "node_id": "high-halls/high-halls-big-shaft#clawline-gate-3",
+          "requirement": {
+            "raw": "Clawline",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:clawline:none"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
           "id": "location:high-halls/high-halls-big-shaft::enemy/minister-1",
           "name": "Minister 1",
           "in_game_id": "Song Administrator (1)",
           "location_type": "enemy",
           "has_persisted_state": false,
-          "node_id": "high-halls/high-halls-big-shaft#unassigned",
+          "node_id": "high-halls/high-halls-big-shaft#middle",
           "requirement": {
-            "raw": "",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "requirement is blank"
-            ]
+            "raw": "free",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
           },
           "notes": "",
           "is_todo": false,
-          "is_verified": null,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "subroom reference is blank",
-            "requirement is unresolved"
-          ]
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
         }
       ]
     },
@@ -150481,7 +151486,7 @@
       "area_id": "high-halls",
       "name": "High Halls Flooded Room",
       "in_game_id": "Hang_10",
-      "contributors": "samupo, herounit",
+      "contributors": "samupo, herounit, rebel",
       "notes": "this room needs swimming requirements added to cross it - at least two subrooms",
       "nodes": [
         {
@@ -150497,11 +151502,6 @@
         {
           "id": "high-halls/high-halls-flooded-room#relic-spot",
           "name": "relic spot",
-          "notes": ""
-        },
-        {
-          "id": "high-halls/high-halls-flooded-room#unassigned",
-          "name": "unassigned",
           "notes": ""
         }
       ],
@@ -150707,23 +151707,20 @@
           "in_game_id": "Citadel Bat (1)",
           "location_type": "enemy",
           "has_persisted_state": false,
-          "node_id": "high-halls/high-halls-flooded-room#unassigned",
+          "node_id": "high-halls/high-halls-flooded-room#right-exit-area",
           "requirement": {
-            "raw": "",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "requirement is blank"
-            ]
+            "raw": "nada",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
           },
           "notes": "",
           "is_todo": false,
-          "is_verified": null,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "subroom reference is blank",
-            "requirement is unresolved"
-          ]
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
         },
         {
           "id": "location:high-halls/high-halls-flooded-room::enemy/drapefly-2",
@@ -150731,23 +151728,20 @@
           "in_game_id": "Citadel Bat",
           "location_type": "enemy",
           "has_persisted_state": false,
-          "node_id": "high-halls/high-halls-flooded-room#unassigned",
+          "node_id": "high-halls/high-halls-flooded-room#left-exit-area",
           "requirement": {
-            "raw": "",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "requirement is blank"
-            ]
+            "raw": "Free",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
           },
           "notes": "",
           "is_todo": false,
-          "is_verified": null,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "subroom reference is blank",
-            "requirement is unresolved"
-          ]
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
         },
         {
           "id": "location:high-halls/high-halls-flooded-room::enemy/giant-drapemite-1",
@@ -150755,23 +151749,20 @@
           "in_game_id": "Understore Mite Giant",
           "location_type": "enemy",
           "has_persisted_state": false,
-          "node_id": "high-halls/high-halls-flooded-room#unassigned",
+          "node_id": "high-halls/high-halls-flooded-room#relic-spot",
           "requirement": {
-            "raw": "",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "requirement is blank"
-            ]
+            "raw": "Zilch",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
           },
           "notes": "",
           "is_todo": false,
-          "is_verified": null,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "subroom reference is blank",
-            "requirement is unresolved"
-          ]
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
         }
       ]
     },
@@ -150781,7 +151772,7 @@
       "area_id": "high-halls",
       "name": "High Halls Cogfly Room",
       "in_game_id": "Hang_09",
-      "contributors": "samupo, herounit",
+      "contributors": "samupo, herounit, rebel",
       "notes": "",
       "nodes": [
         {
@@ -150792,11 +151783,6 @@
         {
           "id": "high-halls/high-halls-cogfly-room#down-the-drain",
           "name": "down the drain",
-          "notes": ""
-        },
-        {
-          "id": "high-halls/high-halls-cogfly-room#unassigned",
-          "name": "unassigned",
           "notes": ""
         }
       ],
@@ -150923,23 +151909,20 @@
           "in_game_id": "Understore Mite Giant",
           "location_type": "enemy",
           "has_persisted_state": false,
-          "node_id": "high-halls/high-halls-cogfly-room#unassigned",
+          "node_id": "high-halls/high-halls-cogfly-room#down-the-drain",
           "requirement": {
-            "raw": "",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "requirement is blank"
-            ]
+            "raw": "none",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
           },
           "notes": "",
           "is_todo": false,
-          "is_verified": null,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "subroom reference is blank",
-            "requirement is unresolved"
-          ]
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
         }
       ]
     },
@@ -150949,7 +151932,7 @@
       "area_id": "high-halls",
       "name": "High Halls Baby Room",
       "in_game_id": "Hang_16",
-      "contributors": "samupo",
+      "contributors": "samupo, rebel",
       "notes": "",
       "nodes": [
         {
@@ -150988,11 +151971,14 @@
           "in_game_id": "door1",
           "is_unsafe_arrival": false,
           "source_node_id": "high-halls/high-halls-baby-room#room",
-          "target": null,
+          "target": "high-halls/baby-room-interior-secret@l",
           "requirement": {
-            "raw": "faydown cloak AND cling grip",
+            "raw": "Silk Soar OR (faydown cloak AND cling grip)",
             "mode": "expression",
             "dnf": [
+              [
+                "capability:silk-soar"
+              ],
               [
                 "capability:faydown-cloak",
                 "capability:cling-grip:none"
@@ -151001,12 +151987,10 @@
             "unresolved_reasons": []
           },
           "notes": "Secret door to Hang_14 (not in the map, doesn't have any checks)",
-          "is_todo": true,
-          "is_verified": null,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "destination has not been mapped"
-          ]
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
         }
       ],
       "connections": [],
@@ -151031,29 +152015,6 @@
           "is_verified": true,
           "logic_status": "active",
           "unresolved_reasons": []
-        },
-        {
-          "id": "location:high-halls/high-halls-baby-room::unknown/import-enemies",
-          "name": "import enemies",
-          "in_game_id": null,
-          "location_type": "unknown",
-          "has_persisted_state": null,
-          "node_id": "high-halls/high-halls-baby-room#room",
-          "requirement": {
-            "raw": "",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "requirement is blank"
-            ]
-          },
-          "notes": "",
-          "is_todo": true,
-          "is_verified": false,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "requirement is unresolved"
-          ]
         }
       ]
     },
@@ -151063,12 +152024,22 @@
       "area_id": "high-halls",
       "name": "High Halls Vault",
       "in_game_id": "Hang_06",
-      "contributors": "samupo",
+      "contributors": "samupo, rebel",
       "notes": "",
       "nodes": [
         {
-          "id": "high-halls/high-halls-vault#room",
-          "name": "room",
+          "id": "high-halls/high-halls-vault#floor",
+          "name": "Floor",
+          "notes": ""
+        },
+        {
+          "id": "high-halls/high-halls-vault#bank",
+          "name": "Bank",
+          "notes": ""
+        },
+        {
+          "id": "high-halls/high-halls-vault#top-exit",
+          "name": "Top Exit",
           "notes": ""
         }
       ],
@@ -151079,34 +152050,23 @@
           "name": "door1",
           "in_game_id": "door1",
           "is_unsafe_arrival": false,
-          "source_node_id": "high-halls/high-halls-vault#room",
-          "target": null,
+          "source_node_id": "high-halls/high-halls-vault#bank",
+          "target": "high-halls/high-halls-rosary-bank@l",
           "requirement": {
-            "raw": "(ledge grab OR faydown cloak OR silk soar) AND have Simple Key Rosary Bank",
+            "raw": "Unlock Rosary Bank Door",
             "mode": "expression",
             "dnf": [
               [
-                "capability:ledge-grab:none",
-                "item:simple-key-rosary-bank"
-              ],
-              [
-                "capability:faydown-cloak",
-                "item:simple-key-rosary-bank"
-              ],
-              [
-                "capability:silk-soar",
-                "item:simple-key-rosary-bank"
+                "dependency:location:high-halls/high-halls-vault::lock/rosary-bank-door"
               ]
             ],
             "unresolved_reasons": []
           },
           "notes": "",
-          "is_todo": true,
-          "is_verified": null,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "destination has not been mapped"
-          ]
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
         },
         {
           "id": "high-halls/high-halls-vault@l",
@@ -151114,7 +152074,7 @@
           "name": "left1",
           "in_game_id": "left1",
           "is_unsafe_arrival": false,
-          "source_node_id": "high-halls/high-halls-vault#room",
+          "source_node_id": "high-halls/high-halls-vault#floor",
           "target": "high-halls/high-halls-arena@r",
           "requirement": {
             "raw": "none",
@@ -151136,13 +152096,15 @@
           "name": "bot1",
           "in_game_id": "bot1",
           "is_unsafe_arrival": false,
-          "source_node_id": "high-halls/high-halls-vault#room",
+          "source_node_id": "high-halls/high-halls-vault#floor",
           "target": "choral-chambers/high-halls-corridor@t",
           "requirement": {
-            "raw": "none",
-            "mode": "none",
+            "raw": "Activate Floor Lever",
+            "mode": "expression",
             "dnf": [
-              []
+              [
+                "dependency:location:high-halls/high-halls-vault::switch/floor-lever"
+              ]
             ],
             "unresolved_reasons": []
           },
@@ -151158,7 +152120,7 @@
           "name": "right1",
           "in_game_id": "right1",
           "is_unsafe_arrival": false,
-          "source_node_id": "high-halls/high-halls-vault#room",
+          "source_node_id": "high-halls/high-halls-vault#floor",
           "target": "high-halls/high-halls-ventrica@l",
           "requirement": {
             "raw": "none",
@@ -151180,7 +152142,7 @@
           "name": "top1",
           "in_game_id": "top1",
           "is_unsafe_arrival": false,
-          "source_node_id": "high-halls/high-halls-vault#room",
+          "source_node_id": "high-halls/high-halls-vault#top-exit",
           "target": "high-halls/high-halls-big-shaft@b",
           "requirement": {
             "raw": "cling grip OR (faydown cloak AND ledge grab) OR silk soar",
@@ -151206,30 +152168,157 @@
           "unresolved_reasons": []
         }
       ],
-      "connections": [],
-      "locations": [
+      "connections": [
         {
-          "id": "location:high-halls/high-halls-vault::unknown/import-enemies",
-          "name": "import enemies",
-          "in_game_id": null,
-          "location_type": "unknown",
-          "has_persisted_state": null,
-          "node_id": "high-halls/high-halls-vault#room",
+          "id": "high-halls/high-halls-vault#floor>bank@fb",
+          "alias": "FB",
+          "name": "Floor <> Bank",
+          "source_node_id": "high-halls/high-halls-vault#floor",
+          "target_node_id": "high-halls/high-halls-vault#bank",
           "requirement": {
-            "raw": "",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "requirement is blank"
-            ]
+            "raw": "Cling Grip OR ledge grab OR faydown cloak OR silk soar ",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:cling-grip:none"
+              ],
+              [
+                "capability:ledge-grab:none"
+              ],
+              [
+                "capability:faydown-cloak"
+              ],
+              [
+                "capability:silk-soar"
+              ]
+            ],
+            "unresolved_reasons": []
           },
           "notes": "",
-          "is_todo": true,
-          "is_verified": false,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "requirement is unresolved"
-          ]
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "high-halls/high-halls-vault#bank>floor@fb",
+          "alias": "FB",
+          "name": "Floor <> Bank",
+          "source_node_id": "high-halls/high-halls-vault#bank",
+          "target_node_id": "high-halls/high-halls-vault#floor",
+          "requirement": {
+            "raw": "Nothing. (Fall)",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "high-halls/high-halls-vault#floor>top-exit@ft",
+          "alias": "FT",
+          "name": "Floor <> Top",
+          "source_node_id": "high-halls/high-halls-vault#floor",
+          "target_node_id": "high-halls/high-halls-vault#top-exit",
+          "requirement": {
+            "raw": "cling grip OR (faydown cloak AND ledge grab) OR silk soar",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:cling-grip:none"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:ledge-grab:none"
+              ],
+              [
+                "capability:silk-soar"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "high-halls/high-halls-vault#top-exit>floor@ft",
+          "alias": "FT",
+          "name": "Floor <> Top",
+          "source_node_id": "high-halls/high-halls-vault#top-exit",
+          "target_node_id": "high-halls/high-halls-vault#floor",
+          "requirement": {
+            "raw": "Nothing. (Fall)",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        }
+      ],
+      "locations": [
+        {
+          "id": "location:high-halls/high-halls-vault::switch/floor-lever",
+          "name": "Floor Lever",
+          "in_game_id": null,
+          "location_type": "switch",
+          "has_persisted_state": true,
+          "node_id": "high-halls/high-halls-vault#floor",
+          "requirement": {
+            "raw": "Flip Lever Left OR Flip Lever Right",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:break-switch:left"
+              ],
+              [
+                "capability:break-switch:right"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:high-halls/high-halls-vault::lock/rosary-bank-door",
+          "name": "Rosary Bank Door",
+          "in_game_id": null,
+          "location_type": "lock",
+          "has_persisted_state": true,
+          "node_id": "high-halls/high-halls-vault#bank",
+          "requirement": {
+            "raw": "Own Simple Key Rosary Bank",
+            "mode": "expression",
+            "dnf": [
+              [
+                "item:simple-key-rosary-bank"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
         }
       ]
     },
@@ -151239,7 +152328,7 @@
       "area_id": "high-halls",
       "name": "High Halls Ventrica",
       "in_game_id": "Hang_06b",
-      "contributors": "samupo",
+      "contributors": "samupo, rebel",
       "notes": "",
       "nodes": [
         {
@@ -151366,29 +152455,6 @@
           "is_verified": true,
           "logic_status": "active",
           "unresolved_reasons": []
-        },
-        {
-          "id": "location:high-halls/high-halls-ventrica::unknown/import-enemies",
-          "name": "import enemies",
-          "in_game_id": null,
-          "location_type": "unknown",
-          "has_persisted_state": null,
-          "node_id": "high-halls/high-halls-ventrica#room",
-          "requirement": {
-            "raw": "",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "requirement is blank"
-            ]
-          },
-          "notes": "",
-          "is_todo": true,
-          "is_verified": false,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "requirement is unresolved"
-          ]
         }
       ]
     },
@@ -151398,7 +152464,7 @@
       "area_id": "high-halls",
       "name": "High Halls Conductor",
       "in_game_id": "Hang_12",
-      "contributors": "samupo",
+      "contributors": "samupo, rebel",
       "notes": "",
       "nodes": [
         {
@@ -151455,29 +152521,6 @@
           "is_verified": true,
           "logic_status": "active",
           "unresolved_reasons": []
-        },
-        {
-          "id": "location:high-halls/high-halls-conductor::unknown/import-enemies",
-          "name": "import enemies",
-          "in_game_id": null,
-          "location_type": "unknown",
-          "has_persisted_state": null,
-          "node_id": "high-halls/high-halls-conductor#room",
-          "requirement": {
-            "raw": "",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "requirement is blank"
-            ]
-          },
-          "notes": "",
-          "is_todo": true,
-          "is_verified": false,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "requirement is unresolved"
-          ]
         }
       ]
     },
@@ -151487,7 +152530,7 @@
       "area_id": "high-halls",
       "name": "High Halls Arena",
       "in_game_id": "Hang_04",
-      "contributors": "samupo",
+      "contributors": "samupo, rebel",
       "notes": "",
       "nodes": [
         {
@@ -151503,11 +152546,6 @@
         {
           "id": "high-halls/high-halls-arena#right-of-gauntlet",
           "name": "right of gauntlet",
-          "notes": ""
-        },
-        {
-          "id": "high-halls/high-halls-arena#unassigned",
-          "name": "unassigned",
           "notes": ""
         }
       ],
@@ -151668,28 +152706,1265 @@
           "unresolved_reasons": []
         },
         {
-          "id": "location:high-halls/high-halls-arena::unknown/import-enemies",
-          "name": "import enemies",
-          "in_game_id": null,
-          "location_type": "unknown",
-          "has_persisted_state": null,
-          "node_id": "high-halls/high-halls-arena#unassigned",
+          "id": "location:high-halls/high-halls-arena::enemy/choir-clapper-1",
+          "name": "Choir Clapper 1",
+          "in_game_id": "Song Heavy Sentry",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "high-halls/high-halls-arena#gauntlet-arena",
           "requirement": {
-            "raw": "",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "requirement is blank"
-            ]
+            "raw": "Black Thread World Spawn",
+            "mode": "expression",
+            "dnf": [
+              [
+                "state:enemy-spawn-black-thread-world"
+              ]
+            ],
+            "unresolved_reasons": []
           },
           "notes": "",
-          "is_todo": true,
-          "is_verified": false,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "subroom reference is blank",
-            "requirement is unresolved"
-          ]
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:high-halls/high-halls-arena::enemy/minister-1",
+          "name": "Minister 1",
+          "in_game_id": "Song Administrator",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "high-halls/high-halls-arena#gauntlet-arena",
+          "requirement": {
+            "raw": "Black Thread World Spawn",
+            "mode": "expression",
+            "dnf": [
+              [
+                "state:enemy-spawn-black-thread-world"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        }
+      ]
+    },
+    {
+      "id": "high-halls/high-halls-rosary-bank",
+      "source_record": "0e5037e5-56c7-4c94-8a15-60df8ab29bf9",
+      "area_id": "high-halls",
+      "name": "High Halls Rosary Bank",
+      "in_game_id": "Hang_06_bank",
+      "contributors": "rebel",
+      "notes": "",
+      "nodes": [
+        {
+          "id": "high-halls/high-halls-rosary-bank#main-room",
+          "name": "Main Room",
+          "notes": ""
+        },
+        {
+          "id": "high-halls/high-halls-rosary-bank#upper-vents",
+          "name": "Upper Vents",
+          "notes": ""
+        },
+        {
+          "id": "high-halls/high-halls-rosary-bank#side-vents",
+          "name": "Side Vents",
+          "notes": ""
+        },
+        {
+          "id": "high-halls/high-halls-rosary-bank#lower-vents",
+          "name": "Lower Vents",
+          "notes": ""
+        },
+        {
+          "id": "high-halls/high-halls-rosary-bank#vault",
+          "name": "Vault",
+          "notes": ""
+        },
+        {
+          "id": "high-halls/high-halls-rosary-bank#rosary-dropper",
+          "name": "Rosary Dropper",
+          "notes": ""
+        }
+      ],
+      "transitions": [
+        {
+          "id": "high-halls/high-halls-rosary-bank@l",
+          "alias": "L",
+          "name": "left1",
+          "in_game_id": "left1",
+          "is_unsafe_arrival": false,
+          "source_node_id": "high-halls/high-halls-rosary-bank#main-room",
+          "target": "high-halls/high-halls-vault@d",
+          "requirement": {
+            "raw": "Unlock Rosary Bank Door IN High Halls Vault",
+            "mode": "expression",
+            "dnf": [
+              [
+                "dependency:location:high-halls/high-halls-vault::lock/rosary-bank-door"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        }
+      ],
+      "connections": [
+        {
+          "id": "high-halls/high-halls-rosary-bank#main-room>upper-vents@mv1",
+          "alias": "MV1",
+          "name": "Main <> Vents",
+          "source_node_id": "high-halls/high-halls-rosary-bank#main-room",
+          "target_node_id": "high-halls/high-halls-rosary-bank#upper-vents",
+          "requirement": {
+            "raw": "(Activate Breakable Ceiling AND (Cling Grip OR Scuttlebrace OR Silk Soar))",
+            "mode": "expression",
+            "dnf": [
+              [
+                "dependency:location:high-halls/high-halls-rosary-bank::blockade/breakable-ceiling",
+                "capability:cling-grip:none"
+              ],
+              [
+                "dependency:location:high-halls/high-halls-rosary-bank::blockade/breakable-ceiling",
+                "capability:scuttlebrace:none"
+              ],
+              [
+                "dependency:location:high-halls/high-halls-rosary-bank::blockade/breakable-ceiling",
+                "capability:silk-soar"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "high-halls/high-halls-rosary-bank#upper-vents>main-room@mv1",
+          "alias": "MV1",
+          "name": "Main <> Vents",
+          "source_node_id": "high-halls/high-halls-rosary-bank#upper-vents",
+          "target_node_id": "high-halls/high-halls-rosary-bank#main-room",
+          "requirement": {
+            "raw": "Activate Breakable Ceiling",
+            "mode": "expression",
+            "dnf": [
+              [
+                "dependency:location:high-halls/high-halls-rosary-bank::blockade/breakable-ceiling"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "high-halls/high-halls-rosary-bank#upper-vents>side-vents@us",
+          "alias": "US",
+          "name": "Upper <> Side",
+          "source_node_id": "high-halls/high-halls-rosary-bank#upper-vents",
+          "target_node_id": "high-halls/high-halls-rosary-bank#side-vents",
+          "requirement": {
+            "raw": "Nothing (Fall)",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "high-halls/high-halls-rosary-bank#side-vents>upper-vents@us",
+          "alias": "US",
+          "name": "Upper <> Side",
+          "source_node_id": "high-halls/high-halls-rosary-bank#side-vents",
+          "target_node_id": "high-halls/high-halls-rosary-bank#upper-vents",
+          "requirement": {
+            "raw": "Cling Grip OR Silk Soar",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:cling-grip:none"
+              ],
+              [
+                "capability:silk-soar"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "high-halls/high-halls-rosary-bank#side-vents>lower-vents@sl",
+          "alias": "SL",
+          "name": "Side <> Lower",
+          "source_node_id": "high-halls/high-halls-rosary-bank#side-vents",
+          "target_node_id": "high-halls/high-halls-rosary-bank#lower-vents",
+          "requirement": {
+            "raw": "(Cling Grip AND Dash) OR Clawline OR Sharpdart",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:cling-grip:none",
+                "capability:dash:none"
+              ],
+              [
+                "capability:clawline:none"
+              ],
+              [
+                "capability:sharpdart"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "high-halls/high-halls-rosary-bank#lower-vents>side-vents@sl",
+          "alias": "SL",
+          "name": "Side <> Lower",
+          "source_node_id": "high-halls/high-halls-rosary-bank#lower-vents",
+          "target_node_id": "high-halls/high-halls-rosary-bank#side-vents",
+          "requirement": {
+            "raw": "Cling Grip AND Dash",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:cling-grip:none",
+                "capability:dash:none"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "high-halls/high-halls-rosary-bank#lower-vents>vault@lv",
+          "alias": "LV",
+          "name": "Lower <> Vault",
+          "source_node_id": "high-halls/high-halls-rosary-bank#lower-vents",
+          "target_node_id": "high-halls/high-halls-rosary-bank#vault",
+          "requirement": {
+            "raw": "((Dash OR Clawline OR Sharpdart) AND (Cling Grip OR Easy Scuttlebrace OR (Faydown Cloak AND Ledge Grab)))",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:dash:none",
+                "capability:cling-grip:none"
+              ],
+              [
+                "capability:dash:none",
+                "capability:scuttlebrace:easy"
+              ],
+              [
+                "capability:dash:none",
+                "capability:faydown-cloak",
+                "capability:ledge-grab:none"
+              ],
+              [
+                "capability:clawline:none",
+                "capability:cling-grip:none"
+              ],
+              [
+                "capability:clawline:none",
+                "capability:scuttlebrace:easy"
+              ],
+              [
+                "capability:clawline:none",
+                "capability:faydown-cloak",
+                "capability:ledge-grab:none"
+              ],
+              [
+                "capability:sharpdart",
+                "capability:cling-grip:none"
+              ],
+              [
+                "capability:sharpdart",
+                "capability:scuttlebrace:easy"
+              ],
+              [
+                "capability:sharpdart",
+                "capability:faydown-cloak",
+                "capability:ledge-grab:none"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "high-halls/high-halls-rosary-bank#vault>lower-vents@lv",
+          "alias": "LV",
+          "name": "Lower <> Vault",
+          "source_node_id": "high-halls/high-halls-rosary-bank#vault",
+          "target_node_id": "high-halls/high-halls-rosary-bank#lower-vents",
+          "requirement": {
+            "raw": "Nothing (Fall)",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "high-halls/high-halls-rosary-bank#lower-vents>rosary-dropper@lc",
+          "alias": "LC",
+          "name": "Lower <> Cannon",
+          "source_node_id": "high-halls/high-halls-rosary-bank#lower-vents",
+          "target_node_id": "high-halls/high-halls-rosary-bank#rosary-dropper",
+          "requirement": {
+            "raw": "(Activate Rosary Cannon Wall AND (Clawline OR Dash OR Faydown Cloak OR Cling Grip))",
+            "mode": "expression",
+            "dnf": [
+              [
+                "dependency:location:high-halls/high-halls-rosary-bank::blockade/rosary-cannon-wall",
+                "capability:clawline:none"
+              ],
+              [
+                "dependency:location:high-halls/high-halls-rosary-bank::blockade/rosary-cannon-wall",
+                "capability:dash:none"
+              ],
+              [
+                "dependency:location:high-halls/high-halls-rosary-bank::blockade/rosary-cannon-wall",
+                "capability:faydown-cloak"
+              ],
+              [
+                "dependency:location:high-halls/high-halls-rosary-bank::blockade/rosary-cannon-wall",
+                "capability:cling-grip:none"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "high-halls/high-halls-rosary-bank#rosary-dropper>lower-vents@lc",
+          "alias": "LC",
+          "name": "Lower <> Cannon",
+          "source_node_id": "high-halls/high-halls-rosary-bank#rosary-dropper",
+          "target_node_id": "high-halls/high-halls-rosary-bank#lower-vents",
+          "requirement": {
+            "raw": "(Activate Rosary Cannon Wall AND (Faydown Cloak OR Cling Grip))",
+            "mode": "expression",
+            "dnf": [
+              [
+                "dependency:location:high-halls/high-halls-rosary-bank::blockade/rosary-cannon-wall",
+                "capability:faydown-cloak"
+              ],
+              [
+                "dependency:location:high-halls/high-halls-rosary-bank::blockade/rosary-cannon-wall",
+                "capability:cling-grip:none"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "high-halls/high-halls-rosary-bank#main-room>vault@mv2",
+          "alias": "MV2",
+          "name": "Main <> Vault",
+          "source_node_id": "high-halls/high-halls-rosary-bank#main-room",
+          "target_node_id": "high-halls/high-halls-rosary-bank#vault",
+          "requirement": {
+            "raw": "Activate Vault Door Switch",
+            "mode": "expression",
+            "dnf": [
+              [
+                "dependency:location:high-halls/high-halls-rosary-bank::switch/vault-door-switch"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "high-halls/high-halls-rosary-bank#vault>main-room@mv2",
+          "alias": "MV2",
+          "name": "Main <> Vault",
+          "source_node_id": "high-halls/high-halls-rosary-bank#vault",
+          "target_node_id": "high-halls/high-halls-rosary-bank#main-room",
+          "requirement": {
+            "raw": "Activate Vault Door Switch",
+            "mode": "expression",
+            "dnf": [
+              [
+                "dependency:location:high-halls/high-halls-rosary-bank::switch/vault-door-switch"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        }
+      ],
+      "locations": [
+        {
+          "id": "location:high-halls/high-halls-rosary-bank::blockade/breakable-ceiling",
+          "name": "Breakable Ceiling",
+          "in_game_id": null,
+          "location_type": "blockade",
+          "has_persisted_state": true,
+          "node_id": "high-halls/high-halls-rosary-bank#main-room",
+          "requirement": {
+            "raw": "Break Wall up",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:break-wall:up"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:high-halls/high-halls-rosary-bank::blockade/rosary-cannon-wall",
+          "name": "Rosary Cannon Wall",
+          "in_game_id": null,
+          "location_type": "blockade",
+          "has_persisted_state": true,
+          "node_id": "high-halls/high-halls-rosary-bank#lower-vents",
+          "requirement": {
+            "raw": "Break Wall Left",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:break-wall:left"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:high-halls/high-halls-rosary-bank::switch/vault-door-switch",
+          "name": "Vault Door Switch",
+          "in_game_id": null,
+          "location_type": "switch",
+          "has_persisted_state": true,
+          "node_id": "high-halls/high-halls-rosary-bank#vault",
+          "requirement": {
+            "raw": "Flip Lever Left",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:break-switch:left"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:high-halls/high-halls-rosary-bank::collectible/rosary-cannon",
+          "name": "Rosary Cannon",
+          "in_game_id": null,
+          "location_type": "collectible",
+          "has_persisted_state": true,
+          "node_id": "high-halls/high-halls-rosary-bank#rosary-dropper",
+          "requirement": {
+            "raw": "Activate Rosary Cannon Wall",
+            "mode": "expression",
+            "dnf": [
+              [
+                "dependency:location:high-halls/high-halls-rosary-bank::blockade/rosary-cannon-wall"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:high-halls/high-halls-rosary-bank::resource/rosary-chest-1",
+          "name": "Rosary Chest 1",
+          "in_game_id": null,
+          "location_type": "resource",
+          "has_persisted_state": false,
+          "node_id": "high-halls/high-halls-rosary-bank#vault",
+          "requirement": {
+            "raw": "Free",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:high-halls/high-halls-rosary-bank::resource/rosary-chest-2",
+          "name": "Rosary Chest 2",
+          "in_game_id": null,
+          "location_type": "resource",
+          "has_persisted_state": false,
+          "node_id": "high-halls/high-halls-rosary-bank#vault",
+          "requirement": {
+            "raw": "Zilch",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:high-halls/high-halls-rosary-bank::resource/rosary-chest-3",
+          "name": "Rosary Chest 3",
+          "in_game_id": null,
+          "location_type": "resource",
+          "has_persisted_state": false,
+          "node_id": "high-halls/high-halls-rosary-bank#vault",
+          "requirement": {
+            "raw": "Nada",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:high-halls/high-halls-rosary-bank::resource/vault-string-1",
+          "name": "Vault String 1",
+          "in_game_id": null,
+          "location_type": "resource",
+          "has_persisted_state": false,
+          "node_id": "high-halls/high-halls-rosary-bank#vault",
+          "requirement": {
+            "raw": "Nothing",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:high-halls/high-halls-rosary-bank::resource/vault-string-2",
+          "name": "Vault String 2",
+          "in_game_id": null,
+          "location_type": "resource",
+          "has_persisted_state": false,
+          "node_id": "high-halls/high-halls-rosary-bank#vault",
+          "requirement": {
+            "raw": "Nothing",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:high-halls/high-halls-rosary-bank::resource/missable-string-1",
+          "name": "Missable String 1",
+          "in_game_id": null,
+          "location_type": "resource",
+          "has_persisted_state": false,
+          "node_id": "high-halls/high-halls-rosary-bank#vault",
+          "requirement": {
+            "raw": "Nada",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "only exists in act 2",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:high-halls/high-halls-rosary-bank::resource/missable-string-2",
+          "name": "Missable String 2",
+          "in_game_id": null,
+          "location_type": "resource",
+          "has_persisted_state": false,
+          "node_id": "high-halls/high-halls-rosary-bank#vault",
+          "requirement": {
+            "raw": "Free",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "only exists in act 2",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:high-halls/high-halls-rosary-bank::resource/missable-string-3",
+          "name": "Missable String 3",
+          "in_game_id": null,
+          "location_type": "resource",
+          "has_persisted_state": false,
+          "node_id": "high-halls/high-halls-rosary-bank#vault",
+          "requirement": {
+            "raw": "Nothing",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "only exists in act 2",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:high-halls/high-halls-rosary-bank::resource/missable-string-4",
+          "name": "Missable String 4",
+          "in_game_id": null,
+          "location_type": "resource",
+          "has_persisted_state": false,
+          "node_id": "high-halls/high-halls-rosary-bank#vault",
+          "requirement": {
+            "raw": "None",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "only exists in act 2",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:high-halls/high-halls-rosary-bank::enemy/snitchfly-1",
+          "name": "Snitchfly 1",
+          "in_game_id": "Rosary Thief",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "high-halls/high-halls-rosary-bank#vault",
+          "requirement": {
+            "raw": "Act 3",
+            "mode": "expression",
+            "dnf": [
+              [
+                "state:act-3"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:high-halls/high-halls-rosary-bank::enemy/drapefly-1",
+          "name": "Drapefly 1",
+          "in_game_id": "Citadel Bat (1)",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "high-halls/high-halls-rosary-bank#upper-vents",
+          "requirement": {
+            "raw": "nada",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:high-halls/high-halls-rosary-bank::enemy/giant-drapemite-1",
+          "name": "Giant Drapemite 1",
+          "in_game_id": "Understore Mite Giant",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "high-halls/high-halls-rosary-bank#side-vents",
+          "requirement": {
+            "raw": "zilch",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:high-halls/high-halls-rosary-bank::enemy/drapemite-1",
+          "name": "Drapemite 1",
+          "in_game_id": "Mite Heavy (1)",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "high-halls/high-halls-rosary-bank#upper-vents",
+          "requirement": {
+            "raw": "free",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        }
+      ]
+    },
+    {
+      "id": "high-halls/baby-room-interior-secret",
+      "source_record": "b129bc04-1a20-4dc0-994a-fcc65d2ab579",
+      "area_id": "high-halls",
+      "name": "Baby Room Interior Secret",
+      "in_game_id": "Hang_14",
+      "contributors": "rebel",
+      "notes": "",
+      "nodes": [
+        {
+          "id": "high-halls/baby-room-interior-secret#ground",
+          "name": "Ground",
+          "notes": ""
+        },
+        {
+          "id": "high-halls/baby-room-interior-secret#upper",
+          "name": "Upper",
+          "notes": ""
+        }
+      ],
+      "transitions": [
+        {
+          "id": "high-halls/baby-room-interior-secret@l",
+          "alias": "L",
+          "name": "left1",
+          "in_game_id": "left1",
+          "is_unsafe_arrival": false,
+          "source_node_id": "high-halls/baby-room-interior-secret#ground",
+          "target": "high-halls/high-halls-baby-room@s",
+          "requirement": {
+            "raw": "Nada",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        }
+      ],
+      "connections": [
+        {
+          "id": "high-halls/baby-room-interior-secret#ground>upper@uf",
+          "alias": "UF",
+          "name": "Up <> Floor",
+          "source_node_id": "high-halls/baby-room-interior-secret#ground",
+          "target_node_id": "high-halls/baby-room-interior-secret#upper",
+          "requirement": {
+            "raw": "(Activate Breakable Ceiling AND (Silk Soar OR (Faydown Cloak AND Cling Grip)))",
+            "mode": "expression",
+            "dnf": [
+              [
+                "dependency:location:high-halls/baby-room-interior-secret::switch/breakable-ceiling",
+                "capability:silk-soar"
+              ],
+              [
+                "dependency:location:high-halls/baby-room-interior-secret::switch/breakable-ceiling",
+                "capability:faydown-cloak",
+                "capability:cling-grip:none"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "no reason to go up, nothing there.",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "high-halls/baby-room-interior-secret#upper>ground@uf",
+          "alias": "UF",
+          "name": "Up <> Floor",
+          "source_node_id": "high-halls/baby-room-interior-secret#upper",
+          "target_node_id": "high-halls/baby-room-interior-secret#ground",
+          "requirement": {
+            "raw": "Activate Breakable Ceiling",
+            "mode": "expression",
+            "dnf": [
+              [
+                "dependency:location:high-halls/baby-room-interior-secret::switch/breakable-ceiling"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        }
+      ],
+      "locations": [
+        {
+          "id": "location:high-halls/baby-room-interior-secret::switch/breakable-ceiling",
+          "name": "Breakable Ceiling",
+          "in_game_id": null,
+          "location_type": "switch",
+          "has_persisted_state": true,
+          "node_id": "high-halls/baby-room-interior-secret#ground",
+          "requirement": {
+            "raw": "Break Wall Up",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:break-wall:up"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:high-halls/baby-room-interior-secret::logic-point/clawmaiden-silk",
+          "name": "Clawmaiden Silk",
+          "in_game_id": null,
+          "location_type": "logic-point",
+          "has_persisted_state": false,
+          "node_id": "high-halls/baby-room-interior-secret#upper",
+          "requirement": {
+            "raw": "(Attack Left AND Open Airlock Left AND (Faydown Cloak OR Clawline OR Sharpdart OR Sprint OR Dash))",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:needle:left",
+                "capability:break-airlock:left",
+                "capability:faydown-cloak"
+              ],
+              [
+                "capability:needle:left",
+                "capability:break-airlock:left",
+                "capability:clawline:none"
+              ],
+              [
+                "capability:needle:left",
+                "capability:break-airlock:left",
+                "capability:sharpdart"
+              ],
+              [
+                "capability:needle:left",
+                "capability:break-airlock:left",
+                "capability:sprint:none"
+              ],
+              [
+                "capability:needle:left",
+                "capability:break-airlock:left",
+                "capability:dash:none"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:high-halls/baby-room-interior-secret::enemy/clawmaiden-1",
+          "name": "Clawmaiden 1",
+          "in_game_id": "Song Handmaiden",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "high-halls/baby-room-interior-secret#ground",
+          "requirement": {
+            "raw": "Normal World Spawn",
+            "mode": "expression",
+            "dnf": [
+              [
+                "state:enemy-spawn-normal-world"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:high-halls/baby-room-interior-secret::enemy/clawmaiden-2",
+          "name": "Clawmaiden 2",
+          "in_game_id": "Song Handmaiden (1)",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "high-halls/baby-room-interior-secret#ground",
+          "requirement": {
+            "raw": "Normal World Spawn",
+            "mode": "expression",
+            "dnf": [
+              [
+                "state:enemy-spawn-normal-world"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "spawn at random?",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:high-halls/baby-room-interior-secret::enemy/clawmaiden-3",
+          "name": "Clawmaiden 3",
+          "in_game_id": "Song Handmaiden (2)",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "high-halls/baby-room-interior-secret#ground",
+          "requirement": {
+            "raw": "Normal World Spawn",
+            "mode": "expression",
+            "dnf": [
+              [
+                "state:enemy-spawn-normal-world"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:high-halls/baby-room-interior-secret::enemy/clawmaiden-4",
+          "name": "Clawmaiden 4",
+          "in_game_id": "Song Handmaiden (3)",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "high-halls/baby-room-interior-secret#ground",
+          "requirement": {
+            "raw": "Normal World Spawn",
+            "mode": "expression",
+            "dnf": [
+              [
+                "state:enemy-spawn-normal-world"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:high-halls/baby-room-interior-secret::enemy/clawmaiden-5",
+          "name": "Clawmaiden 5",
+          "in_game_id": "Song Handmaiden (4)",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "high-halls/baby-room-interior-secret#ground",
+          "requirement": {
+            "raw": "Normal World Spawn",
+            "mode": "expression",
+            "dnf": [
+              [
+                "state:enemy-spawn-normal-world"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:high-halls/baby-room-interior-secret::enemy/clawmaiden-6",
+          "name": "Clawmaiden 6",
+          "in_game_id": "Song Handmaiden (5)",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "high-halls/baby-room-interior-secret#ground",
+          "requirement": {
+            "raw": "Normal World Spawn",
+            "mode": "expression",
+            "dnf": [
+              [
+                "state:enemy-spawn-normal-world"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:high-halls/baby-room-interior-secret::enemy/clawmaiden-7",
+          "name": "Clawmaiden 7",
+          "in_game_id": "Song Handmaiden (6)",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "high-halls/baby-room-interior-secret#ground",
+          "requirement": {
+            "raw": "Normal World Spawn",
+            "mode": "expression",
+            "dnf": [
+              [
+                "state:enemy-spawn-normal-world"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:high-halls/baby-room-interior-secret::enemy/clawmaiden-8",
+          "name": "Clawmaiden 8",
+          "in_game_id": "Song Handmaiden (7)",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "high-halls/baby-room-interior-secret#ground",
+          "requirement": {
+            "raw": "Normal World Spawn",
+            "mode": "expression",
+            "dnf": [
+              [
+                "state:enemy-spawn-normal-world"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:high-halls/baby-room-interior-secret::enemy/clawmaiden-9",
+          "name": "Clawmaiden 9",
+          "in_game_id": "Song Handmaiden (8)",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "high-halls/baby-room-interior-secret#ground",
+          "requirement": {
+            "raw": "Normal World Spawn",
+            "mode": "expression",
+            "dnf": [
+              [
+                "state:enemy-spawn-normal-world"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:high-halls/baby-room-interior-secret::enemy/clawmaiden-10",
+          "name": "Clawmaiden 10",
+          "in_game_id": "Song Handmaiden (9)",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "high-halls/baby-room-interior-secret#ground",
+          "requirement": {
+            "raw": "Normal World Spawn",
+            "mode": "expression",
+            "dnf": [
+              [
+                "state:enemy-spawn-normal-world"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:high-halls/baby-room-interior-secret::enemy/clawmaiden-11",
+          "name": "Clawmaiden 11",
+          "in_game_id": "Song Handmaiden",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "high-halls/baby-room-interior-secret#ground",
+          "requirement": {
+            "raw": "Normal World Spawn",
+            "mode": "expression",
+            "dnf": [
+              [
+                "state:enemy-spawn-normal-world"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:high-halls/baby-room-interior-secret::enemy/clawmaiden-12",
+          "name": "Clawmaiden 12",
+          "in_game_id": "Song Handmaiden (1)",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "high-halls/baby-room-interior-secret#ground",
+          "requirement": {
+            "raw": "Normal World Spawn",
+            "mode": "expression",
+            "dnf": [
+              [
+                "state:enemy-spawn-normal-world"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
         }
       ]
     },
@@ -151699,7 +153974,7 @@
       "area_id": "high-halls",
       "name": "High Halls Sentinel Graveyard",
       "in_game_id": "Hang_17b",
-      "contributors": "",
+      "contributors": "herounit, rebel",
       "notes": "",
       "nodes": [
         {
@@ -151737,7 +154012,7 @@
         {
           "id": "location:high-halls/high-halls-sentinel-graveyard::boss/second-sentinel-boss-fight",
           "name": "Second Sentinel Boss Fight",
-          "in_game_id": null,
+          "in_game_id": "\"Boss Scene - To Additive Load\"[0]/\"Song Knight\"[0]",
           "location_type": "boss",
           "has_persisted_state": true,
           "node_id": "high-halls/high-halls-sentinel-graveyard#room",
@@ -151782,7 +154057,7 @@
         {
           "id": "location:high-halls/high-halls-sentinel-graveyard::collectible/reserve-bind",
           "name": "Reserve Bind",
-          "in_game_id": null,
+          "in_game_id": "Collectable Item Pickup",
           "location_type": "collectible",
           "has_persisted_state": true,
           "node_id": "high-halls/high-halls-sentinel-graveyard#room",
@@ -151801,29 +154076,6 @@
           "is_verified": true,
           "logic_status": "active",
           "unresolved_reasons": []
-        },
-        {
-          "id": "location:high-halls/high-halls-sentinel-graveyard::enemy/song-knight-1",
-          "name": "Song Knight 1",
-          "in_game_id": "Song Knight",
-          "location_type": "enemy",
-          "has_persisted_state": false,
-          "node_id": "high-halls/high-halls-sentinel-graveyard#room",
-          "requirement": {
-            "raw": "",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "requirement is blank"
-            ]
-          },
-          "notes": "",
-          "is_todo": false,
-          "is_verified": null,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "requirement is unresolved"
-          ]
         }
       ]
     },
@@ -163554,6 +165806,81 @@
           "is_verified": true,
           "logic_status": "active",
           "unresolved_reasons": []
+        },
+        {
+          "id": "bilewater/bilewater-west-secret-rooms#right-room>middle-floor@rm",
+          "alias": "RM",
+          "name": "right to mid",
+          "source_node_id": "bilewater/bilewater-west-secret-rooms#right-room",
+          "target_node_id": "bilewater/bilewater-west-secret-rooms#middle-floor",
+          "requirement": {
+            "raw": "((enemy pogo OR clawline x 5) AND (ledge grab OR cling grip)) OR (faydown cloak AND ((ledge grab OR cling grip) AND (silk soar OR enemy pogo)))",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:enemy-pogo:none",
+                "capability:ledge-grab:none"
+              ],
+              [
+                "capability:enemy-pogo:none",
+                "capability:cling-grip:none"
+              ],
+              [
+                "capability:clawline:5",
+                "capability:ledge-grab:none"
+              ],
+              [
+                "capability:clawline:5",
+                "capability:cling-grip:none"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:ledge-grab:none",
+                "capability:silk-soar"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:ledge-grab:none",
+                "capability:enemy-pogo:none"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:cling-grip:none",
+                "capability:silk-soar"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:cling-grip:none",
+                "capability:enemy-pogo:none"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "bilewater/bilewater-west-secret-rooms#middle-floor>right-room@rm",
+          "alias": "RM",
+          "name": "right to mid",
+          "source_node_id": "bilewater/bilewater-west-secret-rooms#middle-floor",
+          "target_node_id": "bilewater/bilewater-west-secret-rooms#right-room",
+          "requirement": {
+            "raw": "none",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "falling",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
         }
       ],
       "locations": [
@@ -163692,7 +166019,7 @@
           "has_persisted_state": true,
           "node_id": "bilewater/bilewater-west-secret-rooms#bud-hall",
           "requirement": {
-            "raw": "complete bud hall wall 3 (cling grip OR silk soar) AND (dash OR clawline OR sharpdart OR drifter's cloak OR spike pogo) ",
+            "raw": "complete bud hall wall 3 AND (dash OR clawline OR sharpdart OR drifter's cloak OR spike pogo) ",
             "mode": "expression",
             "dnf": [
               [

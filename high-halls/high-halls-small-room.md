@@ -2,7 +2,7 @@
 
 **Game ID:** Hang_15
 
-**Contributors:** samupo
+**Contributors:** samupo, rebel
 
 ## Subrooms
 
@@ -12,7 +12,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 |  | [High Halls Shaft Bottom (Hang_03)](high-halls-shaft-bottom.md) | BL | none |  | Verified |  |  |
+| R | right1 |  | [High Halls Shaft Bottom (Hang_03)](high-halls-shaft-bottom.md) | BL | none |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
@@ -22,9 +22,19 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | High Halls - Shell Shard Cache #2 |  | none |  | Verified | collectible |  |  |
-| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 1 | High Halls - Shell Shard Cache #2 |  | none |  | Verified | collectible | ✓ |  |
+| 2 | Drapefly 1 |  | nada |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 
-Scene image unavailable.
+### Connections
+
+[![Connections for High Halls Small Room (Hang_15)](../00-annotations/high-halls/high-halls-small-room-connections.png)](../00-annotations/high-halls/high-halls-small-room-connections.png)
+
+### Checks
+
+[![Checks for High Halls Small Room (Hang_15)](../00-annotations/high-halls/high-halls-small-room-checks.png)](../00-annotations/high-halls/high-halls-small-room-checks.png)
+
+### Scene
+
+[![Scene for High Halls Small Room (Hang_15)](../00-annotations/high-halls/high-halls-small-room-scene.png)](../00-annotations/high-halls/high-halls-small-room-scene.png)

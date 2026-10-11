@@ -18,8 +18,8 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| D | door1 | Door | [Path of Pain Bench (Cradle_Destroyed_Challenge_Bench)](path-of-pain-bench.md) | D | None |  | Verified |  |  |
-| F | bot1 | Hole | [Path Of Pain Silksong (Cradle_Destroyed_Challenge_01)](path-of-pain-silksong.md) | C | None |  | Verified |  |  |
+| D | door1 | Door | [Path of Pain Bench (Cradle_Destroyed_Challenge_Bench)](path-of-pain-bench.md) | D | None |  | Verified | ✓ |  |
+| F | bot1 | Hole | [Path Of Pain Silksong (Cradle_Destroyed_Challenge_01)](path-of-pain-silksong.md) | C | None |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
@@ -36,16 +36,16 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Surface Memento | Nameless Town | None |  | Verified | collectible |  |  |
-| 2 | Skrill 1 |  |  |  |  | enemy |  |  |
-| 3 | Skrill 2 |  |  |  |  | enemy |  |  |
-| 4 | Skrill 3 |  |  |  |  | enemy |  |  |
-| 5 | Skrill 4 |  |  |  |  | enemy |  |  |
-| 6 | Skrill 5 |  |  |  |  | enemy |  |  |
-| 7 | Skrill 6 |  |  |  |  | enemy |  |  |
-| 8 | Skrill 7 |  |  |  |  | enemy |  |  |
-| 9 | Skrill 8 |  |  |  |  | enemy |  |  |
-| 10 | Skrill 9 |  |  |  |  | enemy |  |  |
-| 11 | Skrill 10 |  |  |  |  | enemy |  |  |
+| 2 | Skrill 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Skrill 2 |  |  |  |  | enemy | ✓ |  |
+| 4 | Skrill 3 |  |  |  |  | enemy | ✓ |  |
+| 5 | Skrill 4 |  |  |  |  | enemy | ✓ |  |
+| 6 | Skrill 5 |  |  |  |  | enemy | ✓ |  |
+| 7 | Skrill 6 |  |  |  |  | enemy | ✓ |  |
+| 8 | Skrill 7 |  |  |  |  | enemy | ✓ |  |
+| 9 | Skrill 8 |  |  |  |  | enemy | ✓ |  |
+| 10 | Skrill 9 |  |  |  |  | enemy | ✓ |  |
+| 11 | Skrill 10 |  |  |  |  | enemy | ✓ |  |
 
 ## Notes
 
@@ -53,4 +53,14 @@ No map link for this
 
 ## Room Images
 
-Scene image unavailable.
+### Connections
+
+[![Connections for The Surface (Abandoned_town)](../00-annotations/the-cradle/the-surface-connections.png)](../00-annotations/the-cradle/the-surface-connections.png)
+
+### Checks
+
+[![Checks for The Surface (Abandoned_town)](../00-annotations/the-cradle/the-surface-checks.png)](../00-annotations/the-cradle/the-surface-checks.png)
+
+### Scene
+
+[![Scene for The Surface (Abandoned_town)](../00-annotations/the-cradle/the-surface-scene.png)](../00-annotations/the-cradle/the-surface-scene.png)

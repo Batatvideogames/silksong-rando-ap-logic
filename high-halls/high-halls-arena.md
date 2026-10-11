@@ -2,7 +2,7 @@
 
 **Game ID:** Hang_04
 
-**Contributors:** samupo
+**Contributors:** samupo, rebel
 
 ## Subrooms
 
@@ -33,7 +33,8 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | gauntlet fight | gauntlet arena | none |  | Verified | gauntlet | ✓ |  |
-| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 2 | Choir Clapper 1 | gauntlet arena | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 3 | Minister 1 | gauntlet arena | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

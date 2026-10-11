@@ -2,7 +2,7 @@
 
 **Game ID:** Hang_03
 
-**Contributors:** samupo
+**Contributors:** samupo, rebel
 
 ## Subrooms
 
@@ -42,9 +42,13 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Minister 1 |  |  |  |  | enemy | ✓ |  |
-| 2 | Minister 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 3 | Void Mass 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 1 | Minister 1 | Bottom Right | nada? |  | Verified | enemy | ✓ |  |
+| 2 | Minister 2 | Top Right | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 3 | Void Mass 1 | Bottom Left | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+
+## Notes
+
+can touch up this room later, it looks functional right now.
 
 ## Room Images
 

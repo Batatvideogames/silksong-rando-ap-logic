@@ -12,7 +12,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| D | door_entry |  | [Last Dive (Last_Dive)](last-dive.md) | D2 | None |  | Verified |  |  |
+| D | door_entry |  | [Last Dive (Last_Dive)](last-dive.md) | D2 | None |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
@@ -23,7 +23,7 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Boss: Lost Lace |  | Cling Grip OR Faydown Cloak OR Silk Soar |  | Verified | boss |  | Only include as a check for win cons like flea hunt |
-| 2 | Lost Lace Boss 1 |  |  |  |  | enemy |  |  |
+| 2 | Lost Lace Boss 1 |  |  |  |  | enemy | ✓ |  |
 
 ## Notes
 
@@ -31,4 +31,14 @@ Absolute Cinema ( Seriously yhough the room doesnt exist in the map links )
 
 ## Room Images
 
-Scene image unavailable.
+### Connections
+
+[![Connections for Abyss Cocoon (Abyss_Cocoon)](../00-annotations/the-abyss/abyss-cocoon-connections.png)](../00-annotations/the-abyss/abyss-cocoon-connections.png)
+
+### Checks
+
+[![Checks for Abyss Cocoon (Abyss_Cocoon)](../00-annotations/the-abyss/abyss-cocoon-checks.png)](../00-annotations/the-abyss/abyss-cocoon-checks.png)
+
+### Scene
+
+[![Scene for Abyss Cocoon (Abyss_Cocoon)](../00-annotations/the-abyss/abyss-cocoon-scene.png)](../00-annotations/the-abyss/abyss-cocoon-scene.png)

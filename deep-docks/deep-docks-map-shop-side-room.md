@@ -12,7 +12,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Deep Docks Map Shop (Bone_East_01)](deep-docks-map-shop.md) | MR | none |  | Verified |  |  |
+| L | left1 |  | [Deep Docks Map Shop (Bone_East_01)](deep-docks-map-shop.md) | MR | none |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
@@ -30,4 +30,14 @@ nothing to see here - just murder sleeping dudes
 
 ## Room Images
 
-Scene image unavailable.
+### Connections
+
+[![Connections for Deep Docks Map Shop Side Room (Dock_05)](../00-annotations/deep-docks/deep-docks-map-shop-side-room-connections.png)](../00-annotations/deep-docks/deep-docks-map-shop-side-room-connections.png)
+
+### Checks
+
+[![Checks for Deep Docks Map Shop Side Room (Dock_05)](../00-annotations/deep-docks/deep-docks-map-shop-side-room-checks.png)](../00-annotations/deep-docks/deep-docks-map-shop-side-room-checks.png)
+
+### Scene
+
+[![Scene for Deep Docks Map Shop Side Room (Dock_05)](../00-annotations/deep-docks/deep-docks-map-shop-side-room-scene.png)](../00-annotations/deep-docks/deep-docks-map-shop-side-room-scene.png)

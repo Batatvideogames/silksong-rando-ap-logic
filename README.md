@@ -433,6 +433,8 @@ Generated from the non-archived records in `input/silksong-rando-logic.db`.
 - [High Halls Ventrica (Hang_06b)](./high-halls/high-halls-ventrica.md)
 - [High Halls Conductor (Hang_12)](./high-halls/high-halls-conductor.md)
 - [High Halls Arena (Hang_04)](./high-halls/high-halls-arena.md)
+- [High Halls Rosary Bank (Hang_06_bank)](./high-halls/high-halls-rosary-bank.md)
+- [Baby Room Interior Secret (Hang_14)](./high-halls/baby-room-interior-secret.md)
 - [High Halls Sentinel Graveyard (Hang_17b)](./high-halls/high-halls-sentinel-graveyard.md)
 - [High Halls Not Implemented Room (Cog_11)](./high-halls/high-halls-not-implemented-room.md)
 

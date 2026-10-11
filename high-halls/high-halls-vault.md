@@ -2,31 +2,41 @@
 
 **Game ID:** Hang_06
 
-**Contributors:** samupo
+**Contributors:** samupo, rebel
 
 ## Subrooms
 
-No subrooms defined.
+| No. | Subroom | Annotated |
+| --- | --- | --- |
+| S1 | Floor | ✓ |
+| S2 | Bank | ✓ |
+| S3 | Top Exit | ✓ |
 
 ## Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| D | door1 |  | TODO |  | (ledge grab OR faydown cloak OR silk soar) AND have Simple Key Rosary Bank | TODO |  | ✓ |  |
-| L | left1 |  | [High Halls Arena (Hang_04)](high-halls-arena.md) | R | none |  | Verified | ✓ |  |
-| B | bot1 |  | [High Halls Corridor (Hang_07)](../choral-chambers/high-halls-corridor.md) | T | none |  | Verified | ✓ | One way lever (opens from this side) |
-| R | right1 |  | [High Halls Ventrica (Hang_06b)](high-halls-ventrica.md) | L | none |  | Verified | ✓ |  |
-| T | top1 |  | [High Halls Big Shaft (Hang_08)](high-halls-big-shaft.md) | B | cling grip OR (faydown cloak AND ledge grab) OR silk soar |  | Verified | ✓ |  |
+| D | door1 | Bank | [High Halls Rosary Bank (Hang_06_bank)](high-halls-rosary-bank.md) | L | Unlock Rosary Bank Door |  | Verified | ✓ |  |
+| L | left1 | Floor | [High Halls Arena (Hang_04)](high-halls-arena.md) | R | none |  | Verified | ✓ |  |
+| B | bot1 | Floor | [High Halls Corridor (Hang_07)](../choral-chambers/high-halls-corridor.md) | T | Activate Floor Lever |  | Verified | ✓ | One way lever (opens from this side) |
+| R | right1 | Floor | [High Halls Ventrica (Hang_06b)](high-halls-ventrica.md) | L | none |  | Verified | ✓ |  |
+| T | top1 | Top Exit | [High Halls Big Shaft (Hang_08)](high-halls-big-shaft.md) | B | cling grip OR (faydown cloak AND ledge grab) OR silk soar |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
-No subroom connections defined.
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| FB | Floor <> Bank | Floor | Bank | Cling Grip OR ledge grab OR faydown cloak OR silk soar |  | Verified | ✓ |  |
+| FB | Floor <> Bank | Bank | Floor | Nothing. (Fall) |  | Verified | ✓ |  |
+| FT | Floor <> Top | Floor | Top Exit | cling grip OR (faydown cloak AND ledge grab) OR silk soar |  | Verified | ✓ |  |
+| FT | Floor <> Top | Top Exit | Floor | Nothing. (Fall) |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 1 | Floor Lever | Floor | Flip Lever Left OR Flip Lever Right |  | Verified | switch | ✓ |  |
+| 2 | Rosary Bank Door | Bank | Own Simple Key Rosary Bank |  | Verified | lock | ✓ |  |
 
 ## Room Images
 

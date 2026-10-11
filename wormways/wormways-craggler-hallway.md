@@ -12,8 +12,8 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left |  | [Wormways Shaft (Crawl_02)](wormways-shaft.md) | LR | none |  | Verified |  |  |
-| R | right |  | [The Big Fall (Aspid_01)](../bone-bottom/the-big-fall.md) | LL | none |  | Verified |  |  |
+| L | left |  | [Wormways Shaft (Crawl_02)](wormways-shaft.md) | LR | none |  | Verified | ✓ |  |
+| R | right |  | [The Big Fall (Aspid_01)](../bone-bottom/the-big-fall.md) | LL | none |  | Verified | ✓ |  |
 
 ## Subroom Connections
 

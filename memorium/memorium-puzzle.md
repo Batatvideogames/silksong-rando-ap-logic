@@ -12,7 +12,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Seed Shooty Memorium (Arborium_03)](seed-shooty-memorium.md) | R | nada |  | Verified |  |  |
+| L | left1 |  | [Seed Shooty Memorium (Arborium_03)](seed-shooty-memorium.md) | R | nada |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
@@ -32,4 +32,14 @@ cling grip OR faydown cloak OR (silk soar AND silkhearts 1)
 
 ## Room Images
 
-Scene image unavailable.
+### Connections
+
+[![Connections for Memorium puzzle (Arborium_10)](../00-annotations/memorium/memorium-puzzle-connections.png)](../00-annotations/memorium/memorium-puzzle-connections.png)
+
+### Checks
+
+[![Checks for Memorium puzzle (Arborium_10)](../00-annotations/memorium/memorium-puzzle-checks.png)](../00-annotations/memorium/memorium-puzzle-checks.png)
+
+### Scene
+
+[![Scene for Memorium puzzle (Arborium_10)](../00-annotations/memorium/memorium-puzzle-scene.png)](../00-annotations/memorium/memorium-puzzle-scene.png)

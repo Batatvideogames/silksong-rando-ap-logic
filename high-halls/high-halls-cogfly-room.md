@@ -2,7 +2,7 @@
 
 **Game ID:** Hang_09
 
-**Contributors:** samupo, herounit
+**Contributors:** samupo, herounit, rebel
 
 ## Subrooms
 
@@ -30,7 +30,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Cogfly | main area | spend 1 craftmetals |  | Verified | collectible |  |  |
 | 2 | High Halls - Shell Shard Cache #1 | down the drain | none |  | Verified | collectible | ✓ |  |
-| 3 | Giant Drapemite 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Giant Drapemite 1 | down the drain | none |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

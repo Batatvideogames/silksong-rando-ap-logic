@@ -2,7 +2,7 @@
 
 **Game ID:** Hang_10
 
-**Contributors:** samupo, herounit
+**Contributors:** samupo, herounit, rebel
 
 ## Subrooms
 
@@ -33,10 +33,10 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | relic psalm cylinder high halls | relic spot | none |  | Verified | collectible | ✓ |  |
-| 2 | left exit blockade | left exit area | break wall left |  | Verified | blockade |  |  |
-| 3 | Drapefly 1 |  |  |  |  | enemy | ✓ |  |
-| 4 | Drapefly 2 |  |  |  |  | enemy | ✓ |  |
-| 5 | Giant Drapemite 1 |  |  |  |  | enemy | ✓ |  |
+| 2 | left exit blockade | left exit area | break wall left |  | Verified | blockade | ✓ |  |
+| 3 | Drapefly 1 | right exit area | nada |  | Verified | enemy | ✓ |  |
+| 4 | Drapefly 2 | left exit area | Free |  | Verified | enemy | ✓ |  |
+| 5 | Giant Drapemite 1 | relic spot | Zilch |  | Verified | enemy | ✓ |  |
 
 ## Notes
 

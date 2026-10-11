@@ -2,7 +2,7 @@
 
 **Game ID:** Hang_16
 
-**Contributors:** samupo
+**Contributors:** samupo, rebel
 
 ## Subrooms
 
@@ -13,7 +13,7 @@ No subrooms defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | R | right1 |  | [High Halls Big Shaft (Hang_08)](high-halls-big-shaft.md) | L | none |  | Verified | ✓ |  |
-| S | door1 |  | TODO |  | faydown cloak AND cling grip | TODO |  | ✓ | Secret door to Hang_14 (not in the map, doesn't have any checks) |
+| S | door1 |  | [Baby Room Interior Secret (Hang_14)](baby-room-interior-secret.md) | L | Silk Soar OR (faydown cloak AND cling grip) |  | Verified | ✓ | Secret door to Hang_14 (not in the map, doesn't have any checks) |
 
 ## Subroom Connections
 
@@ -24,7 +24,6 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Relic Psalm Cylinder (High Halls) |  | none |  | Verified | collectible | ✓ |  |
-| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

@@ -18,7 +18,7 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 | entrance | [Far Fields Skull Room East (Bone_East_14b)](far-fields-skull-room-east.md) | D | none |  | Verified |  |  |
+| L | left1 | entrance | [Far Fields Skull Room East (Bone_East_14b)](far-fields-skull-room-east.md) | D | none |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
@@ -38,19 +38,19 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | shell shard cache far fields 8 | check alcove | none |  | Verified | collectible |  | this becomes inaccessible after defeating the gauntlet - perhaps auto collect? |
 | 2 | mask shard far fields skull cave | mask alcove | none |  | Verified | collectible |  |  |
-| 3 | Beastfly 1 |  |  |  |  | enemy |  |  |
-| 4 | Beastfly 2 |  |  |  |  | enemy |  |  |
-| 5 | Tarmite 1 |  |  |  |  | enemy |  |  |
-| 6 | Vicious Caranid 1 |  |  |  |  | enemy |  |  |
-| 7 | Vicious Caranid 2 |  |  |  |  | enemy |  |  |
-| 8 | Tarmite 2 |  |  |  |  | enemy |  |  |
-| 9 | Tarmite 3 |  |  |  |  | enemy |  |  |
-| 10 | Tarmite 4 |  |  |  |  | enemy |  |  |
-| 11 | Tarmite 5 |  |  |  |  | enemy |  |  |
-| 12 | Tarmite 6 |  |  |  |  | enemy |  |  |
-| 13 | Tarmite 7 |  |  |  |  | enemy |  |  |
-| 14 | Tarmite 8 |  |  |  |  | enemy |  |  |
-| 15 | Tarmite 9 |  |  |  |  | enemy |  |  |
+| 3 | Beastfly 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Beastfly 2 |  |  |  |  | enemy | ✓ |  |
+| 5 | Tarmite 1 |  |  |  |  | enemy | ✓ |  |
+| 6 | Vicious Caranid 1 |  |  |  |  | enemy | ✓ |  |
+| 7 | Vicious Caranid 2 |  |  |  |  | enemy | ✓ |  |
+| 8 | Tarmite 2 |  |  |  |  | enemy | ✓ |  |
+| 9 | Tarmite 3 |  |  |  |  | enemy | ✓ |  |
+| 10 | Tarmite 4 |  |  |  |  | enemy | ✓ |  |
+| 11 | Tarmite 5 |  |  |  |  | enemy | ✓ |  |
+| 12 | Tarmite 6 |  |  |  |  | enemy | ✓ |  |
+| 13 | Tarmite 7 |  |  |  |  | enemy | ✓ |  |
+| 14 | Tarmite 8 |  |  |  |  | enemy | ✓ |  |
+| 15 | Tarmite 9 |  |  |  |  | enemy | ✓ |  |
 
 ## Notes
 
@@ -60,4 +60,14 @@ the arena to mask shard connections are one-way so the full requirement chain is
 
 ## Room Images
 
-Scene image unavailable.
+### Connections
+
+[![Connections for Far Fields Skull Arena (Bone_East_LavaChallenge)](../00-annotations/far-fields/far-fields-skull-arena-connections.png)](../00-annotations/far-fields/far-fields-skull-arena-connections.png)
+
+### Checks
+
+[![Checks for Far Fields Skull Arena (Bone_East_LavaChallenge)](../00-annotations/far-fields/far-fields-skull-arena-checks.png)](../00-annotations/far-fields/far-fields-skull-arena-checks.png)
+
+### Scene
+
+[![Scene for Far Fields Skull Arena (Bone_East_LavaChallenge)](../00-annotations/far-fields/far-fields-skull-arena-scene.png)](../00-annotations/far-fields/far-fields-skull-arena-scene.png)

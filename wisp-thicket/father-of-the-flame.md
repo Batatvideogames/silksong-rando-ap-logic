@@ -12,7 +12,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 |  | [Wisp Thicket Grounds (Wisp_02)](wisp-thicket-grounds.md) | L | none |  |  |  |  |
+| R | right1 |  | [Wisp Thicket Grounds (Wisp_02)](wisp-thicket-grounds.md) | L | none |  |  | ✓ |  |
 
 ## Subroom Connections
 
@@ -28,4 +28,14 @@ No subroom connections defined.
 
 ## Room Images
 
-Scene image unavailable.
+### Connections
+
+[![Connections for Father of the Flame (Belltown_08)](../00-annotations/wisp-thicket/father-of-the-flame-connections.png)](../00-annotations/wisp-thicket/father-of-the-flame-connections.png)
+
+### Checks
+
+[![Checks for Father of the Flame (Belltown_08)](../00-annotations/wisp-thicket/father-of-the-flame-checks.png)](../00-annotations/wisp-thicket/father-of-the-flame-checks.png)
+
+### Scene
+
+[![Scene for Father of the Flame (Belltown_08)](../00-annotations/wisp-thicket/father-of-the-flame-scene.png)](../00-annotations/wisp-thicket/father-of-the-flame-scene.png)

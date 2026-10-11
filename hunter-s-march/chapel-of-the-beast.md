@@ -17,7 +17,7 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 | chapel entrance | [Hunter's March Chapel Passage (Ant_20)](hunter-s-march-chapel-passage.md) | D | none |  | Verified |  |  |
+| L | left1 | chapel entrance | [Hunter's March Chapel Passage (Ant_20)](hunter-s-march-chapel-passage.md) | D | none |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
@@ -41,4 +41,14 @@
 
 ## Room Images
 
-Scene image unavailable.
+### Connections
+
+[![Connections for Chapel of the Beast (Ant_19)](../00-annotations/hunter-s-march/chapel-of-the-beast-connections.png)](../00-annotations/hunter-s-march/chapel-of-the-beast-connections.png)
+
+### Checks
+
+[![Checks for Chapel of the Beast (Ant_19)](../00-annotations/hunter-s-march/chapel-of-the-beast-checks.png)](../00-annotations/hunter-s-march/chapel-of-the-beast-checks.png)
+
+### Scene
+
+[![Scene for Chapel of the Beast (Ant_19)](../00-annotations/hunter-s-march/chapel-of-the-beast-scene.png)](../00-annotations/hunter-s-march/chapel-of-the-beast-scene.png)

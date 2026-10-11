@@ -25,6 +25,10 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
+## Notes
+
+needs to be imported from the Choral Chambers side?
+
 ## Room Images
 
 ### Connections

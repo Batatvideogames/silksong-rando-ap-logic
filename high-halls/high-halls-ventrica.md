@@ -2,7 +2,7 @@
 
 **Game ID:** Hang_06b
 
-**Contributors:** samupo
+**Contributors:** samupo, rebel
 
 ## Subrooms
 
@@ -26,7 +26,6 @@ No subroom connections defined.
 | 1 | High Halls - Map Purchase |  | spend 70 rosaries |  | Verified | collectible |  |  |
 | 2 | Ventrica High Halls Rosary Lock |  | spend 80 rosaries |  | Verified | lock |  |  |
 | 3 | Ventrica High Halls |  | unlock Ventrica High Halls Rosary Lock |  | Verified | travel |  |  |
-| 4 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

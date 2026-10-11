@@ -2,7 +2,7 @@
 
 **Game ID:** Hang_02
 
-**Contributors:** samupo
+**Contributors:** samupo, rebel
 
 ## Subrooms
 
@@ -25,23 +25,21 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| V1 | vertical 1 | left exit | left platform | invalid | TODO | Needs verification | ✓ | placeholder until can map it - original logic is in OG connection |
-| V1 | vertical 1 | left platform | left exit | invalid | TODO | Needs verification | ✓ | placeholder until can map it - original logic is in OG connection |
-| C1 | crossing 1 | left platform | center platform | invalid | TODO | Needs verification | ✓ | placeholder until can map it - original logic is in OG connection |
-| C1 | crossing 1 | center platform | left platform | invalid | TODO | Needs verification | ✓ | placeholder until can map it - original logic is in OG connection |
-| C2 | crossing 2 | center platform | right platform | invalid | TODO | Needs verification | ✓ | placeholder until can map it - original logic is in OG connection |
-| C2 | crossing 2 | right platform | center platform | invalid | TODO | Needs verification | ✓ | placeholder until can map it - original logic is in OG connection |
-| C3 | crossing 3 | right platform | right exit | invalid | TODO | Needs verification | ✓ | placeholder until can map it - original logic is in OG connection |
-| C3 | crossing 3 | right exit | right platform | invalid | TODO | Needs verification | ✓ | placeholder until can map it - original logic is in OG connection |
-| OG | original requirements | left exit | right exit | clawline OR (faydown cloak AND dash AND ledge grab) |  | Verified | ✓ | delete after remapped |
-| OG | original requirements | right exit | left exit | (ledge grab OR clawline OR cling grip OR faydown cloak) AND swim |  | Verified | ✓ | delete after remapped |
+| V1 | vertical 1 | left exit | left platform | Swift Step 2 OR Clawline OR (Sharpdart AND Proficient Movement) OR (Faydown Cloak AND (Easy Scuttlebrace OR Drifter's Cloak OR Easy Voltvessels Stall OR Easy Plasmium Stall OR Medium Flintslate Stall OR Flea Brew)) |  | Verified | ✓ |  |
+| V1 | vertical 1 | left platform | left exit | Clawline OR Sharpdart OR Faydown Cloak OR Drifter's Cloak OR Easy Scuttlebrace OR Swift Step 2 OR (((Flea Brew AND Easy Flea Brew Stall) OR Medium Flintslate Stall OR Swim) AND (Ledge Grab OR Cling Grip)) OR Medium Plasmium Stall OR Medium Voltvessels Stall |  | Verified | ✓ |  |
+| C1 | crossing 1 | left platform | center platform | Clawline OR (Faydown Cloak AND Sprint AND Ledge Grab) |  | Verified | ✓ |  |
+| C1 | crossing 1 | center platform | left platform | Faydown Cloak OR Swift Step 2 OR Clawline OR Sharpdart OR Easy Scuttlebrace OR Drifter's Cloak OR (Flea Brew AND Easy Flea Brew Stall) OR Medium Voltvessels Stall OR Medium Plasmium Stall |  | Verified | ✓ |  |
+| C2 | crossing 2 | center platform | right platform | Clawline OR (Faydown Cloak AND (Sprint OR Dash OR Drifter's Cloak OR Sharpdart OR easy Beast Charge OR Easy Architect Charge OR Easy Voltvessels Stall OR Easy Plasmium Stall OR Flea Brew OR (Easy Flintslate Stall AND Ledge Grab))) |  | Verified | ✓ |  |
+| C2 | crossing 2 | right platform | center platform | Sprint OR Dash OR Drifter's Cloak OR Faydown Cloak OR Clawline OR Sharpdart OR Easy Scuttlebrace OR Easy Flintslate Stall OR Easy Voltvessels Stall OR Easy Plasmium Stall OR Flea Brew |  | Verified | ✓ |  |
+| C3 | crossing 3 | right platform | right exit | Faydown Cloak OR ((Cling Grip OR Easy Scuttlebrace) AND (Sprint OR Dash OR Flea Brew OR Easy Architect Charge OR Easy Beast Charge OR Drifter's Cloak OR Easy Plasmium Stall)) OR ((Clawline OR Sharpdart) AND Ledge Grab) |  | Verified | ✓ |  |
+| C3 | crossing 3 | right exit | right platform | Sprint OR Dash OR Drifter's Cloak OR Faydown Cloak OR Clawline OR Sharpdart OR Easy Scuttlebrace OR Easy Flintslate Stall OR Easy Voltvessels Stall OR Easy Plasmium Stall OR Flea Brew |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Second Sentinel Encounter | center platform | act 3 AND complete THE second sentinel activation | TODO | Needs verification | event |  | need to verify this is the correct platform |
-| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 1 | Second Sentinel Encounter | center platform | act 3 AND complete THE second sentinel activation |  | Verified | event | ✓ |  |
+| 2 | Maestro 1 | center platform | nada |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 
