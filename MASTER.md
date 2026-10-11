@@ -18233,9 +18233,9 @@ No subroom connections defined.
 | 9 | Slubberlug 8 |  |  |  |  | enemy | ✓ |  |
 | 10 | Slubberlug 9 |  |  |  |  | enemy | ✓ |  |
 | 11 | Slubberlug 10 |  |  |  |  | enemy | ✓ |  |
-| 12 | Swamp Squit 1 |  |  |  |  | enemy | ✓ |  |
-| 13 | Swamp Squit 2 |  |  |  |  | enemy | ✓ |  |
-| 14 | Swamp Squit 3 |  |  |  |  | enemy | ✓ |  |
+| 12 | Swamp Squit 1 |  | Invalid |  |  | enemy | ✓ | Disabled; no activation found. |
+| 13 | Swamp Squit 2 |  | Invalid |  |  | enemy | ✓ | Disabled; no activation found. |
+| 14 | Swamp Squit 3 |  | Invalid |  |  | enemy | ✓ | Disabled; no activation found. |
 
 <a name="room-bilewater--bilewater-spike-ball-ceiling-trap-room"></a>
 

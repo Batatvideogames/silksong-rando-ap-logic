@@ -160436,7 +160436,7 @@
         {
           "id": "location:bilewater/bilewater-slubberlug-river::enemy/slubberlug-1",
           "name": "Slubberlug 1",
-          "in_game_id": "Dustroach Pollywog",
+          "in_game_id": "\"Dustroach Pollywog Control\"[0]/\"Dustroach Pollywog Pool\"[0]/\"Dustroach Pollywog\"[0]",
           "location_type": "enemy",
           "has_persisted_state": false,
           "node_id": "bilewater/bilewater-slubberlug-river#room",
@@ -160459,7 +160459,7 @@
         {
           "id": "location:bilewater/bilewater-slubberlug-river::enemy/slubberlug-2",
           "name": "Slubberlug 2",
-          "in_game_id": "Dustroach Pollywog (1)",
+          "in_game_id": "\"Dustroach Pollywog Control\"[0]/\"Dustroach Pollywog Pool\"[0]/\"Dustroach Pollywog (1)\"[0]",
           "location_type": "enemy",
           "has_persisted_state": false,
           "node_id": "bilewater/bilewater-slubberlug-river#room",
@@ -160482,7 +160482,7 @@
         {
           "id": "location:bilewater/bilewater-slubberlug-river::enemy/slubberlug-3",
           "name": "Slubberlug 3",
-          "in_game_id": "Dustroach Pollywog (2)",
+          "in_game_id": "\"Dustroach Pollywog Control\"[0]/\"Dustroach Pollywog Pool\"[0]/\"Dustroach Pollywog (2)\"[0]",
           "location_type": "enemy",
           "has_persisted_state": false,
           "node_id": "bilewater/bilewater-slubberlug-river#room",
@@ -160505,7 +160505,7 @@
         {
           "id": "location:bilewater/bilewater-slubberlug-river::enemy/slubberlug-4",
           "name": "Slubberlug 4",
-          "in_game_id": "Dustroach Pollywog (3)",
+          "in_game_id": "\"Dustroach Pollywog Control\"[0]/\"Dustroach Pollywog Pool\"[0]/\"Dustroach Pollywog (3)\"[0]",
           "location_type": "enemy",
           "has_persisted_state": false,
           "node_id": "bilewater/bilewater-slubberlug-river#room",
@@ -160528,7 +160528,7 @@
         {
           "id": "location:bilewater/bilewater-slubberlug-river::enemy/slubberlug-5",
           "name": "Slubberlug 5",
-          "in_game_id": "Dustroach Pollywog (4)",
+          "in_game_id": "\"Dustroach Pollywog Control\"[0]/\"Dustroach Pollywog Pool\"[0]/\"Dustroach Pollywog (4)\"[0]",
           "location_type": "enemy",
           "has_persisted_state": false,
           "node_id": "bilewater/bilewater-slubberlug-river#room",
@@ -160551,7 +160551,7 @@
         {
           "id": "location:bilewater/bilewater-slubberlug-river::enemy/slubberlug-6",
           "name": "Slubberlug 6",
-          "in_game_id": "Dustroach Pollywog (5)",
+          "in_game_id": "\"Dustroach Pollywog Control\"[0]/\"Dustroach Pollywog Pool\"[0]/\"Dustroach Pollywog (5)\"[0]",
           "location_type": "enemy",
           "has_persisted_state": false,
           "node_id": "bilewater/bilewater-slubberlug-river#room",
@@ -160574,7 +160574,7 @@
         {
           "id": "location:bilewater/bilewater-slubberlug-river::enemy/slubberlug-7",
           "name": "Slubberlug 7",
-          "in_game_id": "Dustroach Pollywog (6)",
+          "in_game_id": "\"Dustroach Pollywog Control\"[0]/\"Dustroach Pollywog Pool\"[0]/\"Dustroach Pollywog (6)\"[0]",
           "location_type": "enemy",
           "has_persisted_state": false,
           "node_id": "bilewater/bilewater-slubberlug-river#room",
@@ -160597,7 +160597,7 @@
         {
           "id": "location:bilewater/bilewater-slubberlug-river::enemy/slubberlug-8",
           "name": "Slubberlug 8",
-          "in_game_id": "Dustroach Pollywog (7)",
+          "in_game_id": "\"Dustroach Pollywog Control\"[0]/\"Dustroach Pollywog Pool\"[0]/\"Dustroach Pollywog (7)\"[0]",
           "location_type": "enemy",
           "has_persisted_state": false,
           "node_id": "bilewater/bilewater-slubberlug-river#room",
@@ -160620,7 +160620,7 @@
         {
           "id": "location:bilewater/bilewater-slubberlug-river::enemy/slubberlug-9",
           "name": "Slubberlug 9",
-          "in_game_id": "Dustroach Pollywog (8)",
+          "in_game_id": "\"Dustroach Pollywog Control\"[0]/\"Dustroach Pollywog Pool\"[0]/\"Dustroach Pollywog (8)\"[0]",
           "location_type": "enemy",
           "has_persisted_state": false,
           "node_id": "bilewater/bilewater-slubberlug-river#room",
@@ -160643,7 +160643,7 @@
         {
           "id": "location:bilewater/bilewater-slubberlug-river::enemy/slubberlug-10",
           "name": "Slubberlug 10",
-          "in_game_id": "Dustroach Pollywog (9)",
+          "in_game_id": "\"Dustroach Pollywog Control\"[0]/\"Dustroach Pollywog Pool\"[0]/\"Dustroach Pollywog (9)\"[0]",
           "location_type": "enemy",
           "has_persisted_state": false,
           "node_id": "bilewater/bilewater-slubberlug-river#room",
@@ -160666,71 +160666,71 @@
         {
           "id": "location:bilewater/bilewater-slubberlug-river::enemy/swamp-squit-1",
           "name": "Swamp Squit 1",
-          "in_game_id": "Swamp Mosquito (4)",
+          "in_game_id": "\"Swamp Mosquito (4)\"[0]",
           "location_type": "enemy",
           "has_persisted_state": false,
           "node_id": "bilewater/bilewater-slubberlug-river#room",
           "requirement": {
-            "raw": "",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "requirement is blank"
-            ]
+            "raw": "Invalid",
+            "mode": "expression",
+            "dnf": [
+              [
+                "invalid"
+              ]
+            ],
+            "unresolved_reasons": []
           },
-          "notes": "",
+          "notes": "Disabled; no activation found.",
           "is_todo": false,
           "is_verified": null,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "requirement is unresolved"
-          ]
+          "logic_status": "active",
+          "unresolved_reasons": []
         },
         {
           "id": "location:bilewater/bilewater-slubberlug-river::enemy/swamp-squit-2",
           "name": "Swamp Squit 2",
-          "in_game_id": "Swamp Mosquito (2)",
+          "in_game_id": "\"Swamp Mosquito (2)\"[0]",
           "location_type": "enemy",
           "has_persisted_state": false,
           "node_id": "bilewater/bilewater-slubberlug-river#room",
           "requirement": {
-            "raw": "",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "requirement is blank"
-            ]
+            "raw": "Invalid",
+            "mode": "expression",
+            "dnf": [
+              [
+                "invalid"
+              ]
+            ],
+            "unresolved_reasons": []
           },
-          "notes": "",
+          "notes": "Disabled; no activation found.",
           "is_todo": false,
           "is_verified": null,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "requirement is unresolved"
-          ]
+          "logic_status": "active",
+          "unresolved_reasons": []
         },
         {
           "id": "location:bilewater/bilewater-slubberlug-river::enemy/swamp-squit-3",
           "name": "Swamp Squit 3",
-          "in_game_id": "Swamp Mosquito (6)",
+          "in_game_id": "\"Swamp Mosquito (6)\"[0]",
           "location_type": "enemy",
           "has_persisted_state": false,
           "node_id": "bilewater/bilewater-slubberlug-river#room",
           "requirement": {
-            "raw": "",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "requirement is blank"
-            ]
+            "raw": "Invalid",
+            "mode": "expression",
+            "dnf": [
+              [
+                "invalid"
+              ]
+            ],
+            "unresolved_reasons": []
           },
-          "notes": "",
+          "notes": "Disabled; no activation found.",
           "is_todo": false,
           "is_verified": null,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "requirement is unresolved"
-          ]
+          "logic_status": "active",
+          "unresolved_reasons": []
         }
       ]
     },
