@@ -1,5 +1,5 @@
 {
-  "requirementCatalogueVersion": 2,
+  "requirementCatalogueVersion": 3,
   "predicates": [
     {
       "id": "e33d333d-9ecc-5425-a005-f59b5f0507a5",
@@ -63,13 +63,13 @@
     },
     {
       "id": "9e243d7a-b158-4e43-9ce5-5e1babcf6dca",
-      "name": "Needle",
+      "name": "Needle Attack",
       "category": "Ability",
-      "inputSyntax": "{predicate} {direction}",
-      "outputSyntax": "capability:needle:{direction}",
-      "notes": "",
+      "inputSyntax": "[{crest?}] {predicate} {direction}",
+      "outputSyntax": "capability:needle:{crest}:{direction}",
+      "notes": "Basic directional attacks with the needle. Can optionally specify crests.",
       "sortOrder": 6,
-      "aliases": "needle, hit, attack"
+      "aliases": "needle, hit, attack, slash"
     },
     {
       "id": "f3c9e318-22b9-4f92-b3dc-929c1abe3ef9",
@@ -85,7 +85,7 @@
       "id": "9ffbf5c7-4b2c-5bdc-b84f-b61f71e81835",
       "name": "Break Vines",
       "category": "Interaction",
-      "inputSyntax": "{predicate} {direction}",
+      "inputSyntax": "{predicate} [{direction}]",
       "outputSyntax": "capability:break-vines:{direction}",
       "notes": "Use when you need to break vines or cut rope. Needed for attack randomization.",
       "sortOrder": 8,
@@ -95,7 +95,7 @@
       "id": "962b2bd6-e65c-50d8-935c-17adab3f0622",
       "name": "Break Wall",
       "category": "Interaction",
-      "inputSyntax": "{predicate} {direction}",
+      "inputSyntax": "{predicate} [{direction}]",
       "outputSyntax": "capability:break-wall:{direction}",
       "notes": "Use when you need to break a wall. Needed for attack randomization.",
       "sortOrder": 9,
@@ -105,7 +105,7 @@
       "id": "405b8446-7137-42b9-8c30-a98c7bb911bf",
       "name": "Break Blast Rock",
       "category": "Interaction",
-      "inputSyntax": "{predicate} {direction}",
+      "inputSyntax": "{predicate} [{direction}]",
       "outputSyntax": "capability:break-blast-rock:{direction}",
       "notes": "Use when you need to trigger a blast rock. Needed for attack randomization.",
       "sortOrder": 10,
@@ -115,7 +115,7 @@
       "id": "18d3f65e-a38d-5b5c-9426-97f26759826f",
       "name": "Open Airlock",
       "category": "Interaction",
-      "inputSyntax": "{predicate} {direction}",
+      "inputSyntax": "{predicate} [{direction}]",
       "outputSyntax": "capability:break-airlock:{direction}",
       "notes": "Use when you need to flip an airlock switch. Needed for attack randomization. (Airlocks are the doors that open and close behind you in Deep Docks after you flip the lever.)",
       "sortOrder": 11,
@@ -125,7 +125,7 @@
       "id": "907e5883-b374-4b92-8b23-7caa88026392",
       "name": "Flip Switch",
       "category": "Interaction",
-      "inputSyntax": "{predicate} {direction}",
+      "inputSyntax": "{predicate} [{direction}]",
       "outputSyntax": "capability:break-switch:{direction}",
       "notes": "Use when you need to interact with a switch. Needed for attack randomization.",
       "sortOrder": 12,
@@ -135,7 +135,7 @@
       "id": "a9af15d0-b958-4b79-afb6-94b55e47ca05",
       "name": "Look",
       "category": "Ability",
-      "inputSyntax": "{predicate} {direction}",
+      "inputSyntax": "{predicate} [{direction}]",
       "outputSyntax": "capability:look:{direction}",
       "notes": "",
       "sortOrder": 13,
@@ -145,7 +145,7 @@
       "id": "5f855ac8-9bd6-4643-9ab3-21f61c84c427",
       "name": "Move",
       "category": "Ability",
-      "inputSyntax": "{predicate} {direction}",
+      "inputSyntax": "{predicate} [{direction}]",
       "outputSyntax": "capability:move:{direction}",
       "notes": "",
       "sortOrder": 14,
@@ -185,7 +185,7 @@
       "id": "b4246106-b154-500e-8a0d-8ff0cdbab1ab",
       "name": "Ledge Grab",
       "category": "Ability",
-      "inputSyntax": "{predicate} {direction?}",
+      "inputSyntax": "{predicate} [{direction?}]",
       "outputSyntax": "capability:ledge-grab:{direction}",
       "notes": "",
       "sortOrder": 18,
@@ -205,7 +205,7 @@
       "id": "8b59e2f5-83de-5a48-ab90-c6cc02605274",
       "name": "Progressive Swift Step 1",
       "category": "Ability",
-      "inputSyntax": "{predicate} {direction?}",
+      "inputSyntax": "{predicate} [{direction?}]",
       "outputSyntax": "capability:sprint:{direction}",
       "notes": "",
       "sortOrder": 20,
@@ -215,7 +215,7 @@
       "id": "44034142-4a67-5fd4-83f5-68c344ec9ba8",
       "name": "Progressive Swift Step 2",
       "category": "Ability",
-      "inputSyntax": "{predicate} {direction?}",
+      "inputSyntax": "{predicate} [{direction?}]",
       "outputSyntax": "capability:dash:{direction}",
       "notes": "",
       "sortOrder": 21,
@@ -225,7 +225,7 @@
       "id": "cdcace80-fbee-5b7c-9e81-922da0874671",
       "name": "Cling Grip",
       "category": "Ability",
-      "inputSyntax": "{predicate} {direction?}",
+      "inputSyntax": "{predicate} [{direction?}]",
       "outputSyntax": "capability:cling-grip:{direction}",
       "notes": "",
       "sortOrder": 22,
@@ -255,781 +255,11 @@
       "id": "97e688ac-7ade-5b4f-8e7a-d99c7c138ae6",
       "name": "Clawline",
       "category": "Ability",
-      "inputSyntax": "{predicate} {direction?}",
+      "inputSyntax": "{predicate} [{direction?}]",
       "outputSyntax": "capability:clawline:{direction}",
       "notes": "",
       "sortOrder": 25,
       "aliases": "clawline"
-    },
-    {
-      "id": "1394e75b-3782-41f2-bad0-22ff1fff9c7c",
-      "name": "Clawline (w/ Quantity)",
-      "category": "Ability",
-      "inputSyntax": "{predicate} {quantity}",
-      "outputSyntax": "capability:clawline:{quantity}",
-      "notes": "",
-      "sortOrder": 26,
-      "aliases": "clawline x"
-    },
-    {
-      "id": "78ff32b2-842a-5dde-9ebe-a582082d14c5",
-      "name": "Silk Soar",
-      "category": "Ability",
-      "inputSyntax": "{predicate}",
-      "outputSyntax": "capability:silk-soar",
-      "notes": "I will allow the typo \u0022silksoar\u0022 out of the generosity of my heart.",
-      "sortOrder": 27,
-      "aliases": "silk soar, silksoar"
-    },
-    {
-      "id": "6e19f6a1-e559-500f-868c-72b3fb83b818",
-      "name": "Needolin",
-      "category": "Ability",
-      "inputSyntax": "{predicate}",
-      "outputSyntax": "capability:needolin",
-      "notes": "Implies ownership of the needolin and the silk to use it.",
-      "sortOrder": 28,
-      "aliases": "needolin"
-    },
-    {
-      "id": "68a80b71-76db-4259-948d-5f2a6a390cd7",
-      "name": "Silkspear",
-      "category": "Ability",
-      "inputSyntax": "{predicate}",
-      "outputSyntax": "capability:silkspear",
-      "notes": "Implies the ability to equip it and the necessary silk to use it.",
-      "sortOrder": 29,
-      "aliases": "silkspear"
-    },
-    {
-      "id": "d91b95e7-6633-50c2-9bd5-cc3092048d81",
-      "name": "Sharpdart",
-      "category": "Ability",
-      "inputSyntax": "{predicate}",
-      "outputSyntax": "capability:sharpdart",
-      "notes": "Implies the ability to equip it and the necessary silk to use it. I will allow \u0022sharp dart\u0022 as an alias. Not without protest.",
-      "sortOrder": 30,
-      "aliases": "sharpdart, sharp dart"
-    },
-    {
-      "id": "eb7828d2-2c03-4846-b205-68abdd563801",
-      "name": "Sharpdart (w/ Quantity)",
-      "category": "Ability",
-      "inputSyntax": "{predicate} {quantity}",
-      "outputSyntax": "capability:sharpdart:{quantity}",
-      "notes": "This is more than having the spell sharpdart. This implies the ability to equip it and the necessary silk to use it the specified number of times.",
-      "sortOrder": 31,
-      "aliases": "sharpdart x"
-    },
-    {
-      "id": "f455176a-4f99-42f9-ab63-0b6a335d17e0",
-      "name": "Thread Storm",
-      "category": "Ability",
-      "inputSyntax": "{predicate}",
-      "outputSyntax": "capability:thread-storm",
-      "notes": "Implies the ability to equip it and the necessary silk to use it.",
-      "sortOrder": 32,
-      "aliases": "thread storm"
-    },
-    {
-      "id": "475fb8c7-3b58-4920-b8f2-ddbc667a20f5",
-      "name": "Rune Rage",
-      "category": "Ability",
-      "inputSyntax": "{predicate}",
-      "outputSyntax": "capability:rune-rage",
-      "notes": "Implies the ability to equip it and the necessary silk to use it.",
-      "sortOrder": 33,
-      "aliases": "rune rage"
-    },
-    {
-      "id": "287281a9-0360-59b8-a31e-953c4ad19717",
-      "name": "Scuttlebrace",
-      "category": "Ability",
-      "inputSyntax": "{difficulty?} {predicate}",
-      "outputSyntax": "capability:scuttlebrace:{difficulty}",
-      "notes": "The unholy abomination. This implies you have the tool, dash, and the tool slot to equip scuttlebrace.",
-      "sortOrder": 34,
-      "aliases": "scuttlebrace"
-    },
-    {
-      "id": "dac62eb7-1b6e-43a7-92d6-f678e5e66c30",
-      "name": "Flea Brew Jump",
-      "category": "Ability",
-      "inputSyntax": "{predicate}",
-      "outputSyntax": "capability:flea-brew-jump",
-      "notes": "This implies you have the tool, the tool slot to equip it, and the means of getting a refill. Part of the enhanced movement logic category that can be enabled or disabled.",
-      "sortOrder": 35,
-      "aliases": "flea brew, flea brew jump"
-    },
-    {
-      "id": "8f8be758-e4d6-48df-b8e0-cfa19e4058b0",
-      "name": "Silkspeed Anklets",
-      "category": "Ability",
-      "inputSyntax": "{predicate}",
-      "outputSyntax": "capability:silkspeed-anklets",
-      "notes": "This implies you have the tool and the tool slot to equip it.",
-      "sortOrder": 36,
-      "aliases": "silkspeed anklets, silkspeed, anklets"
-    },
-    {
-      "id": "e6eace42-1eea-45c4-8f5f-e48ceb19276c",
-      "name": "Curveclaw",
-      "category": "Ability",
-      "inputSyntax": "{predicate}",
-      "outputSyntax": "capability:curveclaw",
-      "notes": "This implies you have the tool and the tool slot to equip it.",
-      "sortOrder": 37,
-      "aliases": "curveclaw"
-    },
-    {
-      "id": "62240635-3465-4d6f-b7c2-6551237f7087",
-      "name": "Elegy of the Deep",
-      "category": "Ability",
-      "inputSyntax": "{predicate}",
-      "outputSyntax": "capability:elegy-of-the-deep",
-      "notes": "Implies having the melody and the needolin to play it.",
-      "sortOrder": 38,
-      "aliases": "elegy of the deep, elegy melody, play elegy"
-    },
-    {
-      "id": "b9ad57b4-812d-4135-994d-3a786b4d37e5",
-      "name": "Magma Bell",
-      "category": "Ability",
-      "inputSyntax": "{predicate}",
-      "outputSyntax": "capability:magma-bell",
-      "notes": "This implies you have the tool and the tool slot to equip it.",
-      "sortOrder": 39,
-      "aliases": "magma bell"
-    },
-    {
-      "id": "b9ad0c5e-952c-41a1-8eef-3624a747910c",
-      "name": "Needle Phial",
-      "category": "Ability",
-      "inputSyntax": "{predicate}",
-      "outputSyntax": "capability:needle-phial",
-      "notes": "This implies you have the tool and the tool slot to equip it. Used in alchemist wishes to harvest plasmium.",
-      "sortOrder": 40,
-      "aliases": "needle phial"
-    },
-    {
-      "id": "21a234cc-768b-4c6d-8c18-eb4d9693fe11",
-      "name": "Shredding Damage",
-      "category": "Ability",
-      "inputSyntax": "{predicate}",
-      "outputSyntax": "capability:damage-shredding",
-      "notes": "Implies having and the ability to equip Sawtooth Circlet, Cogwork Wheel, Delver\u0027s Drill, Conchcutter, Beast Crest, or Architect Crest.",
-      "sortOrder": 41,
-      "aliases": "shredding damage, shred"
-    },
-    {
-      "id": "0ed29967-8102-4316-8967-3f04bf14db48",
-      "name": "Skewering Damage",
-      "category": "Ability",
-      "inputSyntax": "{predicate}",
-      "outputSyntax": "capability:damage-skewering",
-      "notes": "Implies having and being able to equip Sting Shard or Longpin. \n*Needle Phial also causes skewering damage, but should not be factored into logic because it is lost when upgrading to Plasmium Phial.",
-      "sortOrder": 42,
-      "aliases": "skewering damage, skewer"
-    },
-    {
-      "id": "f9a7b3f6-a5f7-4135-a8b3-23974c370243",
-      "name": "Searing Damage",
-      "category": "Ability",
-      "inputSyntax": "{predicate}",
-      "outputSyntax": "capability:damage-searing",
-      "notes": "Implies having and being able to equip Flintslate, Pimpillo, Wispfire Lantern, or Voltvessels.",
-      "sortOrder": 43,
-      "aliases": "searing damage, sear"
-    },
-    {
-      "id": "46f3f155-b9dd-4df4-99ee-c124452abc02",
-      "name": "Silkhearts (w/ Quantity)",
-      "category": "Count",
-      "inputSyntax": "{predicate} {quantity}",
-      "outputSyntax": "count:silkhearts:{quantity}",
-      "notes": "",
-      "sortOrder": 44,
-      "aliases": "silkhearts x"
-    },
-    {
-      "id": "537d9c2f-e302-5b47-aeb5-d4bb7c42563f",
-      "name": "Hunter Crest Attack",
-      "category": "Technique",
-      "inputSyntax": "{predicate} {direction}",
-      "outputSyntax": "technique:hunter-crest-attack:{direction}",
-      "notes": "",
-      "sortOrder": 45,
-      "aliases": "hunter attack, hunter crest attack, hunter slash"
-    },
-    {
-      "id": "bfc75271-5434-54c6-aec1-273d21aa5e38",
-      "name": "Wanderer Crest Attack",
-      "category": "Technique",
-      "inputSyntax": "{predicate} {direction}",
-      "outputSyntax": "technique:wanderer-crest-attack:{direction}",
-      "notes": "",
-      "sortOrder": 46,
-      "aliases": "wanderer attack, wanderer crest attack, wanderer slash"
-    },
-    {
-      "id": "ff564106-edef-5fb4-94bc-afcda3266310",
-      "name": "Beast Crest Attack",
-      "category": "Technique",
-      "inputSyntax": "{predicate} {direction}",
-      "outputSyntax": "technique:beast-crest-attack:{direction}",
-      "notes": "",
-      "sortOrder": 47,
-      "aliases": "beast attack, beast crest attack, beast slash"
-    },
-    {
-      "id": "36359761-63ee-5809-a927-520de4b999db",
-      "name": "Reaper Crest Attack",
-      "category": "Technique",
-      "inputSyntax": "{predicate} {direction}",
-      "outputSyntax": "technique:reaper-crest-attack:{direction}",
-      "notes": "",
-      "sortOrder": 48,
-      "aliases": "reaper attack, reaper crest attack, reaper slash"
-    },
-    {
-      "id": "485faaca-97de-561c-bf2b-ac838c644541",
-      "name": "Witch Crest Attack",
-      "category": "Technique",
-      "inputSyntax": "{predicate} {direction}",
-      "outputSyntax": "technique:witch-crest-attack:{direction}",
-      "notes": "",
-      "sortOrder": 49,
-      "aliases": "witch attack, witch crest attack, witch slash"
-    },
-    {
-      "id": "c8c35379-7842-5d0b-b651-79057f5195da",
-      "name": "Architect Crest Attack",
-      "category": "Technique",
-      "inputSyntax": "{predicate} {direction}",
-      "outputSyntax": "technique:architect-crest-attack:{direction}",
-      "notes": "",
-      "sortOrder": 50,
-      "aliases": "architect attack, architect crest attack, architect slash"
-    },
-    {
-      "id": "616ca77e-8b7e-5b35-a5fb-8c870c75b430",
-      "name": "Shaman Crest Attack",
-      "category": "Technique",
-      "inputSyntax": "{predicate} {direction}",
-      "outputSyntax": "technique:shaman-crest-attack:{direction}",
-      "notes": "",
-      "sortOrder": 51,
-      "aliases": "shaman attack, shaman crest attack, shaman slash"
-    },
-    {
-      "id": "a0012032-80da-456b-b7ce-30bae9dc36f3",
-      "name": "Hunter Crest Pogo",
-      "category": "Ability",
-      "inputSyntax": "{difficulty} {predicate}",
-      "outputSyntax": "capability:hunter-crest-pogo:{difficulty}",
-      "notes": "",
-      "sortOrder": 52,
-      "aliases": "hunter pogo, hunter crest pogo"
-    },
-    {
-      "id": "df123bbd-6708-462b-85ee-d251f058a041",
-      "name": "Wanderer Crest Pogo",
-      "category": "Ability",
-      "inputSyntax": "{difficulty} {predicate}",
-      "outputSyntax": "capability:wanderer-crest-pogo:{difficulty}",
-      "notes": "",
-      "sortOrder": 53,
-      "aliases": "wanderer pogo, wanderer crest pogo"
-    },
-    {
-      "id": "00aa3b99-27fb-5a54-877d-fd7e52b8bde5",
-      "name": "Beast Crest Pogo",
-      "category": "Ability",
-      "inputSyntax": "{difficulty} {predicate}",
-      "outputSyntax": "capability:beast-crest-pogo:{difficulty}",
-      "notes": "",
-      "sortOrder": 54,
-      "aliases": "beast pogo, beast crest pogo"
-    },
-    {
-      "id": "fff4390c-c9cf-4f38-a115-9dd4f8671680",
-      "name": "Reaper Crest Pogo",
-      "category": "Ability",
-      "inputSyntax": "{difficulty} {predicate}",
-      "outputSyntax": "capability:reaper-crest-pogo:{difficulty}",
-      "notes": "",
-      "sortOrder": 55,
-      "aliases": "reaper pogo, reaper crest pogo"
-    },
-    {
-      "id": "4eb74d8f-d9be-45ec-baaf-8f0ff75512b9",
-      "name": "Witch Crest Pogo",
-      "category": "Ability",
-      "inputSyntax": "{difficulty} {predicate}",
-      "outputSyntax": "capability:witch-crest-pogo:{difficulty}",
-      "notes": "",
-      "sortOrder": 56,
-      "aliases": "witch pogo, witch crest pogo"
-    },
-    {
-      "id": "da57c71b-e53a-5dff-b707-dadb8fbd9ef7",
-      "name": "Architect Crest Pogo",
-      "category": "Ability",
-      "inputSyntax": "{difficulty} {predicate}",
-      "outputSyntax": "capability:architect-crest-pogo:{difficulty}",
-      "notes": "",
-      "sortOrder": 57,
-      "aliases": "architect pogo, architect crest pogo"
-    },
-    {
-      "id": "257a5a90-ef45-50ce-af79-521300706f7d",
-      "name": "Shaman Crest Pogo",
-      "category": "Ability",
-      "inputSyntax": "{difficulty} {predicate}",
-      "outputSyntax": "capability:shaman-crest-pogo:{difficulty}",
-      "notes": "",
-      "sortOrder": 58,
-      "aliases": "shaman pogo, shaman crest pogo"
-    },
-    {
-      "id": "5ac3154b-8478-4b77-b8ce-b80e0241c5f9",
-      "name": "Naked Pogo",
-      "category": "Ability",
-      "inputSyntax": "{difficulty} {predicate}",
-      "outputSyntax": "capability:naked-pogo:{difficulty}",
-      "notes": "",
-      "sortOrder": 59,
-      "aliases": "naked pogo, naked crest pogo, cloakless pogo"
-    },
-    {
-      "id": "53203476-0a4b-56a2-ad73-bed0316fd638",
-      "name": "Hunter Crest Needle Strike",
-      "category": "Technique",
-      "inputSyntax": "{difficulty} {predicate}",
-      "outputSyntax": "technique:hunter-crest-needle-strike:{difficulty}",
-      "notes": "",
-      "sortOrder": 60,
-      "aliases": "hunter needle strike, hunter crest needle strike, hunter charge"
-    },
-    {
-      "id": "892b726e-0a63-52e8-bde2-d801a4c05284",
-      "name": "Wanderer Crest Needle Strike",
-      "category": "Technique",
-      "inputSyntax": "{difficulty} {predicate}",
-      "outputSyntax": "technique:wanderer-crest-needle-strike:{difficulty}",
-      "notes": "",
-      "sortOrder": 61,
-      "aliases": "wanderer needle strike, wanderer crest needle strike, wanderer charge"
-    },
-    {
-      "id": "d8e174ba-7b43-51a5-ba6c-b1e668049367",
-      "name": "Beast Crest Needle Strike",
-      "category": "Technique",
-      "inputSyntax": "{difficulty} {predicate}",
-      "outputSyntax": "technique:beast-crest-needle-strike:{difficulty}",
-      "notes": "",
-      "sortOrder": 62,
-      "aliases": "beast needle strike, beast crest needle strike, beast charge"
-    },
-    {
-      "id": "cd5030ed-e674-5d49-a069-2b785405a2ab",
-      "name": "Reaper Crest Needle Strike",
-      "category": "Technique",
-      "inputSyntax": "{difficulty} {predicate}",
-      "outputSyntax": "technique:reaper-crest-needle-strike:{difficulty}",
-      "notes": "",
-      "sortOrder": 63,
-      "aliases": "reaper needle strike, reaper crest needle strike, reaper charge"
-    },
-    {
-      "id": "60643804-0f91-5117-bddb-6b92f9574736",
-      "name": "Witch Crest Needle Strike",
-      "category": "Technique",
-      "inputSyntax": "{difficulty} {predicate}",
-      "outputSyntax": "technique:witch-crest-needle-strike:{difficulty}",
-      "notes": "",
-      "sortOrder": 64,
-      "aliases": "witch needle strike, witch crest needle strike, witch charge"
-    },
-    {
-      "id": "8d86b902-e68c-5b9e-9f96-eb4414f7e7c9",
-      "name": "Architect Crest Needle Strike",
-      "category": "Technique",
-      "inputSyntax": "{difficulty} {predicate}",
-      "outputSyntax": "technique:architect-crest-needle-strike:{difficulty}",
-      "notes": "",
-      "sortOrder": 65,
-      "aliases": "architect needle strike, architect crest needle strike, architect charge"
-    },
-    {
-      "id": "ad9b0c8d-4860-520a-aaea-8d7ed75dea16",
-      "name": "Shaman Crest Needle Strike",
-      "category": "Technique",
-      "inputSyntax": "{difficulty} {predicate}",
-      "outputSyntax": "technique:shaman-crest-needle-strike:{difficulty}",
-      "notes": "",
-      "sortOrder": 66,
-      "aliases": "shaman needle strike, shaman crest needle strike, shaman charge"
-    },
-    {
-      "id": "6ccc5e48-bb32-5dba-8bf3-ec93411d2c36",
-      "name": "Enemy Pogo",
-      "category": "Technique",
-      "inputSyntax": "{difficulty?} {predicate}",
-      "outputSyntax": "capability:enemy-pogo:{difficulty}",
-      "notes": "",
-      "sortOrder": 67,
-      "aliases": "enemy pogo"
-    },
-    {
-      "id": "f0afc2bc-fb3f-4d2e-a9b3-060e2d440056",
-      "name": "Enemy Type Pogo",
-      "category": "Technique",
-      "inputSyntax": "{difficulty} {predicate} {enemy}",
-      "outputSyntax": "capability:enemy-type-pogo:{enemy}:{difficulty}",
-      "notes": "",
-      "sortOrder": 68,
-      "aliases": "pogo off, enemy pogo off"
-    },
-    {
-      "id": "32367338-0631-5453-a6a9-e8ce0e4f655b",
-      "name": "Spike Pogo",
-      "category": "Ability",
-      "inputSyntax": "{predicate}",
-      "outputSyntax": "capability:spike-pogo",
-      "notes": "Use when a traversal requires a pogo on spikes. Needed for cloakless run randomization. Use for spike pogos that are essentially free.",
-      "sortOrder": 69,
-      "aliases": "spike pogo"
-    },
-    {
-      "id": "888001b0-59b2-435d-8f2c-e85c0c5b6e64",
-      "name": "Wind Skip",
-      "category": "Technique",
-      "inputSyntax": "{difficulty} {predicate}",
-      "outputSyntax": "capability:wind-skip:{difficulty}",
-      "notes": "Used in windy areas in Blasted Steps. Implies owning drifter\u0027s cloak. ",
-      "sortOrder": 70,
-      "aliases": "wind skip"
-    },
-    {
-      "id": "20bf89ba-73c6-47da-9f14-c8e1c3814b61",
-      "name": "Cocoon Skip",
-      "category": "Technique",
-      "inputSyntax": "{difficulty} {predicate}",
-      "outputSyntax": "capability:cocoon-skip:{difficulty}",
-      "notes": "\u0022We are NOT doing cocoon skip.\u0022 - Moriko Kyoho, 2026",
-      "sortOrder": 71,
-      "aliases": "cocoon skip"
-    },
-    {
-      "id": "792edc30-8708-4b1e-8bb5-a4dba710bea2",
-      "name": "Needle Strike Stall",
-      "category": "Technique",
-      "inputSyntax": "{difficulty} {predicate}",
-      "outputSyntax": "capability:needle-strike-stall:{difficulty}",
-      "notes": "",
-      "sortOrder": 72,
-      "aliases": "needle strike stall, charge stall"
-    },
-    {
-      "id": "92111a7b-a251-5ba2-a4ed-ca3456139dc9",
-      "name": "Heal Stall",
-      "category": "Technique",
-      "inputSyntax": "{difficulty} {predicate}",
-      "outputSyntax": "capability:heal-stall:{difficulty}",
-      "notes": "Factors in whether the user only has shaman crest.",
-      "sortOrder": 73,
-      "aliases": "heal stall"
-    },
-    {
-      "id": "819dea3c-3205-415f-8607-6f19a96fd3f3",
-      "name": "Flintslate Stall",
-      "category": "Technique",
-      "inputSyntax": "{difficulty} {predicate}",
-      "outputSyntax": "capability:flintslate-stall:{difficulty}",
-      "notes": "Implies owning and being able to equip tool.",
-      "sortOrder": 74,
-      "aliases": "flintslate stall"
-    },
-    {
-      "id": "1e4bf14f-62a4-5c88-a443-41b103dd26ce",
-      "name": "Flea Brew Stall",
-      "category": "Technique",
-      "inputSyntax": "{difficulty} {predicate}",
-      "outputSyntax": "capability:flea-brew-stall:{difficulty}",
-      "notes": "Implies owning and being able to equip tool.",
-      "sortOrder": 75,
-      "aliases": "flea brew stall"
-    },
-    {
-      "id": "ea318428-99e5-4a48-9be9-d44ddf71eab2",
-      "name": "Plasmium Phial Stall",
-      "category": "Technique",
-      "inputSyntax": "{difficulty} {predicate}",
-      "outputSyntax": "capability:plasmium-phial-stall:{difficulty}",
-      "notes": "Implies owning and being able to equip tool.",
-      "sortOrder": 76,
-      "aliases": "plasmium phial stall, plasmium stall"
-    },
-    {
-      "id": "26e3a40d-3a01-4159-ab0f-7c03c48f80c4",
-      "name": "Voltvessels Stall",
-      "category": "Technique",
-      "inputSyntax": "{difficulty} {predicate}",
-      "outputSyntax": "capability:voltvessels-stall:{difficulty}",
-      "notes": "Implies owning and being able to equip tool.",
-      "sortOrder": 77,
-      "aliases": "voltvessels stall"
-    },
-    {
-      "id": "90412661-2e71-4a32-90ba-2b1c46c6d0ca",
-      "name": "Drill Crystal Pogo",
-      "category": "Technique",
-      "inputSyntax": "{difficulty} {predicate}",
-      "outputSyntax": "capability:drill-crystal-pogo:{difficulty}",
-      "notes": "Implies owning tools delver\u0027s drill and memory crystal and being able to equip them both at the same time. Involves taking damage to create the crystal and then using the drill to gain vertical height from it. ",
-      "sortOrder": 78,
-      "aliases": "drill crystal pogo"
-    },
-    {
-      "id": "908bdcfd-84d1-4b22-b975-1228bf1dd00d",
-      "name": "Hazard Respawn",
-      "category": "Technique",
-      "inputSyntax": "{difficulty} {predicate}",
-      "outputSyntax": "capability:hazard-respawn:{difficulty}",
-      "notes": "Indicates the user takes advantage of a hazard respawn to cross a gap. Must be careful not to confuse with damage boost, which does not respawn the player. Quantity indicates masks of damage taken.",
-      "sortOrder": 79,
-      "aliases": "hazard respawn"
-    },
-    {
-      "id": "e35edcc3-93b7-43c2-bd80-d30dd494d21e",
-      "name": "Damage Boost",
-      "category": "Technique",
-      "inputSyntax": "{difficulty} {predicate}",
-      "outputSyntax": "capability:damage-boost:{difficulty}",
-      "notes": "Indicates the user takes advantage of a taking damage to cross a gap. Must be careful not to confuse with hazard respawn, which respawns the player. Quantity indicates masks of damage taken.",
-      "sortOrder": 80,
-      "aliases": "damage boost"
-    },
-    {
-      "id": "8b0fd4ee-f774-4adf-9be1-3894413c3206",
-      "name": "Proficient Movement",
-      "category": "Technique",
-      "inputSyntax": "{predicate}",
-      "outputSyntax": "capability:proficient-movement",
-      "notes": "For situations that do not use a specific stall or skip technique, but the traversal requires a minimum skill level.",
-      "sortOrder": 81,
-      "aliases": "proficient movement"
-    },
-    {
-      "id": "1ca8c951-0375-4fe3-bb43-79c80177d9fb",
-      "name": "Flea Brew Speed",
-      "category": "Ability",
-      "inputSyntax": "{predicate}",
-      "outputSyntax": "capability:flea-brew-speed",
-      "notes": "Used for the one situation where you are actually required to use Flea Brew for its speed at the Weavenest in Far Fields to unlock the secret area. Implies having the tool, being able to equip it, and access to refills. This should not be controlled by enhanced movement settings, as this is a core part of game logic.",
-      "sortOrder": 82,
-      "aliases": "flea brew speed"
-    },
-    {
-      "id": "689ba9ed-8105-43a8-aeb1-f1cd5a828062",
-      "name": "Act I",
-      "category": "State",
-      "inputSyntax": "{predicate}",
-      "outputSyntax": "state:act-1",
-      "notes": "I don\u0027t think this will get used, but adding it for completeness. ",
-      "sortOrder": 83,
-      "aliases": "act i, act 1"
-    },
-    {
-      "id": "3be9aeb2-0992-407c-81bc-4c26dfd984e4",
-      "name": "Act II",
-      "category": "State",
-      "inputSyntax": "{predicate}",
-      "outputSyntax": "state:act-2",
-      "notes": "",
-      "sortOrder": 84,
-      "aliases": "act ii, act 2"
-    },
-    {
-      "id": "0b87a3cf-3234-433a-ba22-49229ad3f79b",
-      "name": "Act III",
-      "category": "State",
-      "inputSyntax": "{predicate}",
-      "outputSyntax": "state:act-3",
-      "notes": "",
-      "sortOrder": 85,
-      "aliases": "act iii, act 3"
-    },
-    {
-      "id": "35b7a3b8-90cf-458e-a7ef-102437a151ed",
-      "name": "Normal World Enemy Spawn",
-      "category": "State",
-      "inputSyntax": "{predicate}",
-      "outputSyntax": "state:enemy-spawn-normal-world",
-      "notes": "Acts 1 and 2. Used for enemy spawn requirements. Indicates the enemy only spawns in the normal world scene.",
-      "sortOrder": 86,
-      "aliases": "normal world spawn"
-    },
-    {
-      "id": "435876b6-bd52-4ae3-a5d0-61a28c14dc01",
-      "name": "Black Thread World Enemy Spawn",
-      "category": "State",
-      "inputSyntax": "{predicate}",
-      "outputSyntax": "state:enemy-spawn-black-thread-world",
-      "notes": "Act 3. Used for enemy spawn requirements. Indicates the enemy only spawns in the black thread world scene.",
-      "sortOrder": 87,
-      "aliases": "black thread world spawn"
-    },
-    {
-      "id": "293ea632-6df0-41bf-8991-b8b19114ac36",
-      "name": "Craw Summons Ready",
-      "category": "State",
-      "inputSyntax": "{predicate}",
-      "outputSyntax": "state:craw-summons-ready",
-      "notes": "Ready to receive Craw Summons at an eligible bench spot. Created a predicate because there is not a singular spot to define the logic. Implies proper story progression, but not eligible bench access. Bench access logic is applied by using this requirement on the check location.\n\n\u0022To receive the Craw Summons, Hornet must have reached Act 3, completed the SEEK: Awaiting the End objective, and hit the lever inside the Craw house on Craw Lake.\u0022 - per the wiki",
-      "sortOrder": 88,
-      "aliases": "craw summons ready"
-    },
-    {
-      "id": "5dc4021f-d904-41de-ba3f-9609b1daf28b",
-      "name": "Visit Shellwood",
-      "category": "State",
-      "inputSyntax": "{predicate}",
-      "outputSyntax": "state:visit-shellwood",
-      "notes": "Used for the wish Volatile Flintbeetles.",
-      "sortOrder": 89,
-      "aliases": "visit shellwood"
-    },
-    {
-      "id": "3391c7e6-9089-434f-963c-85f4f2f3548d",
-      "name": "Visit Greymoor",
-      "category": "State",
-      "inputSyntax": "{predicate}",
-      "outputSyntax": "state:visit-greymoor",
-      "notes": "Used for the wish Volatile Flintbeetles.",
-      "sortOrder": 90,
-      "aliases": "visit greymoor"
-    },
-    {
-      "id": "c948fe24-d266-4a0e-8f67-107b7e245e3e",
-      "name": "Visit Sinner\u0027s Road",
-      "category": "State",
-      "inputSyntax": "{predicate}",
-      "outputSyntax": "state:visit-sinners-road",
-      "notes": "",
-      "sortOrder": 91,
-      "aliases": "visit sinners road"
-    },
-    {
-      "id": "4e288301-b32c-4212-b19b-c41c7fc0fbf1",
-      "name": "Visit Blasted Steps",
-      "category": "State",
-      "inputSyntax": "{predicate}",
-      "outputSyntax": "state:visit-blasted-steps",
-      "notes": "",
-      "sortOrder": 92,
-      "aliases": "visit blasted steps"
-    },
-    {
-      "id": "25a3b64e-ee31-4f41-a1e8-12300f8800b5",
-      "name": "Visit The Citadel",
-      "category": "State",
-      "inputSyntax": "{predicate}",
-      "outputSyntax": "state:visit-the-citadel",
-      "notes": "Used for the wish An Icon of Hope. In-game flag is tied to citadelWoken. Good luck.",
-      "sortOrder": 93,
-      "aliases": "visit the citadel"
-    },
-    {
-      "id": "9dbc4d22-777b-4fa0-99be-27e9523771d8",
-      "name": "Visit Whiteward",
-      "category": "State",
-      "inputSyntax": "{predicate}",
-      "outputSyntax": "state:visit-whiteward",
-      "notes": "Used for the wish Balm for the Wounded.",
-      "sortOrder": 94,
-      "aliases": "visit whiteward"
-    },
-    {
-      "id": "1d8e373c-12c5-4eff-a68e-4255371018f2",
-      "name": "Steel Soul On",
-      "category": "Setting",
-      "inputSyntax": "{predicate}",
-      "outputSyntax": "setting:steel-soul-on",
-      "notes": "",
-      "sortOrder": 95,
-      "aliases": "steel soul on, steel soul, ooo look at me im so good at the game"
-    },
-    {
-      "id": "4a75b86c-f733-4e8c-b212-048d0ae8f769",
-      "name": "Steel Soul Off",
-      "category": "Setting",
-      "inputSyntax": "{predicate}",
-      "outputSyntax": "setting:steel-soul-off",
-      "notes": "",
-      "sortOrder": 96,
-      "aliases": "steel soul off"
-    },
-    {
-      "id": "8cf3b945-7a56-446d-ac22-66599865d8ab",
-      "name": "Bellshrinesanity On",
-      "category": "Setting",
-      "inputSyntax": "{predicate}",
-      "outputSyntax": "setting:bellshrinesanity-on",
-      "notes": "",
-      "sortOrder": 97,
-      "aliases": "bellshrinesanity on"
-    },
-    {
-      "id": "c673b113-942a-47b4-9145-2483e941e034",
-      "name": "Bellshrinesanity Off",
-      "category": "Setting",
-      "inputSyntax": "{predicate}",
-      "outputSyntax": "setting:bellshrinesanity-off",
-      "notes": "",
-      "sortOrder": 98,
-      "aliases": "bellshrinesanity off"
-    },
-    {
-      "id": "b1652616-3120-4640-8260-6c9aefdff1b5",
-      "name": "Bossanity On",
-      "category": "Setting",
-      "inputSyntax": "{predicate}",
-      "outputSyntax": "setting:bossanity-on",
-      "notes": "",
-      "sortOrder": 99,
-      "aliases": "bossanity on"
-    },
-    {
-      "id": "9ea9acbf-9d0d-4cdf-974e-7d7b740c2a09",
-      "name": "Bossanity Off",
-      "category": "Setting",
-      "inputSyntax": "{predicate}",
-      "outputSyntax": "setting:bossanity-off",
-      "notes": "",
-      "sortOrder": 100,
-      "aliases": "bossanity off"
-    },
-    {
-      "id": "27091030-d873-42ea-8e7d-2342e7667ac7",
-      "name": "Wishsanity On",
-      "category": "Setting",
-      "inputSyntax": "{predicate}",
-      "outputSyntax": "setting:wishsanity-on",
-      "notes": "",
-      "sortOrder": 101,
-      "aliases": "wishsanity on"
-    },
-    {
-      "id": "f37dcae3-0eaf-4a02-a5f6-4fc31d23e93d",
-      "name": "Wishsanity Off",
-      "category": "Setting",
-      "inputSyntax": "{predicate}",
-      "outputSyntax": "setting:wishsanity-off",
-      "notes": "",
-      "sortOrder": 102,
-      "aliases": "wishsanity off"
     },
     {
       "id": "ea83695c-5241-4d11-ac13-e1d349d7041c",
@@ -1038,7 +268,7 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "capability:clawline:left:{quantity}",
       "notes": "A bit of a hack to get direction \u002B quantity working for this.",
-      "sortOrder": 103,
+      "sortOrder": 26,
       "aliases": "clawline left x"
     },
     {
@@ -1048,8 +278,653 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "capability:clawline:right:{quantity}",
       "notes": "A bit of a hack to get direction \u002B quantity working for this.",
-      "sortOrder": 104,
+      "sortOrder": 27,
       "aliases": "clawline right x"
+    },
+    {
+      "id": "1394e75b-3782-41f2-bad0-22ff1fff9c7c",
+      "name": "Clawline (w/ Quantity)",
+      "category": "Ability",
+      "inputSyntax": "{predicate} {quantity}",
+      "outputSyntax": "capability:clawline:{quantity}",
+      "notes": "",
+      "sortOrder": 28,
+      "aliases": "clawline x"
+    },
+    {
+      "id": "78ff32b2-842a-5dde-9ebe-a582082d14c5",
+      "name": "Silk Soar",
+      "category": "Ability",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "capability:silk-soar",
+      "notes": "I will allow the typo \u0022silksoar\u0022 out of the generosity of my heart.",
+      "sortOrder": 29,
+      "aliases": "silk soar, silksoar"
+    },
+    {
+      "id": "6e19f6a1-e559-500f-868c-72b3fb83b818",
+      "name": "Needolin",
+      "category": "Ability",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "capability:needolin",
+      "notes": "Implies ownership of the needolin and the silk to use it.",
+      "sortOrder": 30,
+      "aliases": "needolin"
+    },
+    {
+      "id": "68a80b71-76db-4259-948d-5f2a6a390cd7",
+      "name": "Silkspear",
+      "category": "Ability",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "capability:silkspear",
+      "notes": "Implies the ability to equip it and the necessary silk to use it.",
+      "sortOrder": 31,
+      "aliases": "silkspear"
+    },
+    {
+      "id": "d91b95e7-6633-50c2-9bd5-cc3092048d81",
+      "name": "Sharpdart",
+      "category": "Ability",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "capability:sharpdart",
+      "notes": "Implies the ability to equip it and the necessary silk to use it. I will allow \u0022sharp dart\u0022 as an alias. Not without protest.",
+      "sortOrder": 32,
+      "aliases": "sharpdart, sharp dart"
+    },
+    {
+      "id": "eb7828d2-2c03-4846-b205-68abdd563801",
+      "name": "Sharpdart (w/ Quantity)",
+      "category": "Ability",
+      "inputSyntax": "{predicate} {quantity}",
+      "outputSyntax": "capability:sharpdart:{quantity}",
+      "notes": "This is more than having the spell sharpdart. This implies the ability to equip it and the necessary silk to use it the specified number of times.",
+      "sortOrder": 33,
+      "aliases": "sharpdart x"
+    },
+    {
+      "id": "f455176a-4f99-42f9-ab63-0b6a335d17e0",
+      "name": "Thread Storm",
+      "category": "Ability",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "capability:thread-storm",
+      "notes": "Implies the ability to equip it and the necessary silk to use it.",
+      "sortOrder": 34,
+      "aliases": "thread storm"
+    },
+    {
+      "id": "475fb8c7-3b58-4920-b8f2-ddbc667a20f5",
+      "name": "Rune Rage",
+      "category": "Ability",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "capability:rune-rage",
+      "notes": "Implies the ability to equip it and the necessary silk to use it.",
+      "sortOrder": 35,
+      "aliases": "rune rage"
+    },
+    {
+      "id": "287281a9-0360-59b8-a31e-953c4ad19717",
+      "name": "Scuttlebrace",
+      "category": "Ability",
+      "inputSyntax": "{difficulty?} {predicate}",
+      "outputSyntax": "capability:scuttlebrace:{difficulty}",
+      "notes": "The unholy abomination. This implies you have the tool, dash, and the tool slot to equip scuttlebrace.",
+      "sortOrder": 36,
+      "aliases": "scuttlebrace"
+    },
+    {
+      "id": "dac62eb7-1b6e-43a7-92d6-f678e5e66c30",
+      "name": "Flea Brew Jump",
+      "category": "Ability",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "capability:flea-brew-jump",
+      "notes": "This implies you have the tool, the tool slot to equip it, and the means of getting a refill. Part of the enhanced movement logic category that can be enabled or disabled.",
+      "sortOrder": 37,
+      "aliases": "flea brew, flea brew jump"
+    },
+    {
+      "id": "8f8be758-e4d6-48df-b8e0-cfa19e4058b0",
+      "name": "Silkspeed Anklets",
+      "category": "Ability",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "capability:silkspeed-anklets",
+      "notes": "This implies you have the tool and the tool slot to equip it.",
+      "sortOrder": 38,
+      "aliases": "silkspeed anklets, silkspeed, anklets"
+    },
+    {
+      "id": "e6eace42-1eea-45c4-8f5f-e48ceb19276c",
+      "name": "Curveclaw",
+      "category": "Ability",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "capability:curveclaw",
+      "notes": "This implies you have the tool and the tool slot to equip it.",
+      "sortOrder": 39,
+      "aliases": "curveclaw"
+    },
+    {
+      "id": "62240635-3465-4d6f-b7c2-6551237f7087",
+      "name": "Elegy of the Deep",
+      "category": "Ability",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "capability:elegy-of-the-deep",
+      "notes": "Implies having the melody and the needolin to play it.",
+      "sortOrder": 40,
+      "aliases": "elegy of the deep, elegy melody, play elegy"
+    },
+    {
+      "id": "b9ad57b4-812d-4135-994d-3a786b4d37e5",
+      "name": "Magma Bell",
+      "category": "Ability",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "capability:magma-bell",
+      "notes": "This implies you have the tool and the tool slot to equip it.",
+      "sortOrder": 41,
+      "aliases": "magma bell"
+    },
+    {
+      "id": "b9ad0c5e-952c-41a1-8eef-3624a747910c",
+      "name": "Needle Phial",
+      "category": "Ability",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "capability:needle-phial",
+      "notes": "This implies you have the tool and the tool slot to equip it. Used in alchemist wishes to harvest plasmium.",
+      "sortOrder": 42,
+      "aliases": "needle phial"
+    },
+    {
+      "id": "21a234cc-768b-4c6d-8c18-eb4d9693fe11",
+      "name": "Shredding Damage",
+      "category": "Ability",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "capability:damage-shredding",
+      "notes": "Implies having and the ability to equip Sawtooth Circlet, Cogwork Wheel, Delver\u0027s Drill, Conchcutter, Beast Crest, or Architect Crest.",
+      "sortOrder": 43,
+      "aliases": "shredding damage, shred"
+    },
+    {
+      "id": "0ed29967-8102-4316-8967-3f04bf14db48",
+      "name": "Skewering Damage",
+      "category": "Ability",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "capability:damage-skewering",
+      "notes": "Implies having and being able to equip Sting Shard or Longpin. \n*Needle Phial also causes skewering damage, but should not be factored into logic because it is lost when upgrading to Plasmium Phial.",
+      "sortOrder": 44,
+      "aliases": "skewering damage, skewer"
+    },
+    {
+      "id": "f9a7b3f6-a5f7-4135-a8b3-23974c370243",
+      "name": "Searing Damage",
+      "category": "Ability",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "capability:damage-searing",
+      "notes": "Implies having and being able to equip Flintslate, Pimpillo, Wispfire Lantern, or Voltvessels.",
+      "sortOrder": 45,
+      "aliases": "searing damage, sear"
+    },
+    {
+      "id": "46f3f155-b9dd-4df4-99ee-c124452abc02",
+      "name": "Silkhearts (w/ Quantity)",
+      "category": "Count",
+      "inputSyntax": "{predicate} {quantity}",
+      "outputSyntax": "count:silkhearts:{quantity}",
+      "notes": "",
+      "sortOrder": 46,
+      "aliases": "silkhearts x"
+    },
+    {
+      "id": "5ac3154b-8478-4b77-b8ce-b80e0241c5f9",
+      "name": "Naked Pogo",
+      "category": "Ability",
+      "inputSyntax": "{difficulty} {predicate}",
+      "outputSyntax": "capability:naked-pogo:{difficulty}",
+      "notes": "",
+      "sortOrder": 47,
+      "aliases": "naked pogo, naked crest pogo, cloakless pogo"
+    },
+    {
+      "id": "6ccc5e48-bb32-5dba-8bf3-ec93411d2c36",
+      "name": "Enemy Pogo",
+      "category": "Technique",
+      "inputSyntax": "{difficulty?} {predicate}",
+      "outputSyntax": "capability:enemy-pogo:{difficulty}",
+      "notes": "",
+      "sortOrder": 48,
+      "aliases": "enemy pogo"
+    },
+    {
+      "id": "f0afc2bc-fb3f-4d2e-a9b3-060e2d440056",
+      "name": "Enemy Type Pogo",
+      "category": "Technique",
+      "inputSyntax": "{difficulty} {predicate} [{enemy}]",
+      "outputSyntax": "capability:enemy-type-pogo:{enemy}:{difficulty}",
+      "notes": "",
+      "sortOrder": 49,
+      "aliases": "pogo off, enemy pogo off"
+    },
+    {
+      "id": "32367338-0631-5453-a6a9-e8ce0e4f655b",
+      "name": "Spike Pogo",
+      "category": "Ability",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "capability:spike-pogo",
+      "notes": "Use when a traversal requires a pogo on spikes. Needed for cloakless run randomization. Use for spike pogos that are essentially free.",
+      "sortOrder": 50,
+      "aliases": "spike pogo"
+    },
+    {
+      "id": "888001b0-59b2-435d-8f2c-e85c0c5b6e64",
+      "name": "Wind Skip",
+      "category": "Technique",
+      "inputSyntax": "{difficulty} {predicate}",
+      "outputSyntax": "capability:wind-skip:{difficulty}",
+      "notes": "Used in windy areas in Blasted Steps. Implies owning drifter\u0027s cloak. ",
+      "sortOrder": 51,
+      "aliases": "wind skip"
+    },
+    {
+      "id": "20bf89ba-73c6-47da-9f14-c8e1c3814b61",
+      "name": "Cocoon Skip",
+      "category": "Technique",
+      "inputSyntax": "{difficulty} {predicate}",
+      "outputSyntax": "capability:cocoon-skip:{difficulty}",
+      "notes": "\u0022We are NOT doing cocoon skip.\u0022 - Moriko Kyoho, 2026",
+      "sortOrder": 52,
+      "aliases": "cocoon skip"
+    },
+    {
+      "id": "792edc30-8708-4b1e-8bb5-a4dba710bea2",
+      "name": "Needle Strike Stall",
+      "category": "Technique",
+      "inputSyntax": "{difficulty} {predicate}",
+      "outputSyntax": "capability:needle-strike-stall:{difficulty}",
+      "notes": "",
+      "sortOrder": 53,
+      "aliases": "needle strike stall, charge stall"
+    },
+    {
+      "id": "92111a7b-a251-5ba2-a4ed-ca3456139dc9",
+      "name": "Heal Stall",
+      "category": "Technique",
+      "inputSyntax": "{difficulty} {predicate}",
+      "outputSyntax": "capability:heal-stall:{difficulty}",
+      "notes": "Factors in whether the user only has shaman crest.",
+      "sortOrder": 54,
+      "aliases": "heal stall"
+    },
+    {
+      "id": "819dea3c-3205-415f-8607-6f19a96fd3f3",
+      "name": "Flintslate Stall",
+      "category": "Technique",
+      "inputSyntax": "{difficulty} {predicate}",
+      "outputSyntax": "capability:flintslate-stall:{difficulty}",
+      "notes": "Implies owning and being able to equip tool.",
+      "sortOrder": 55,
+      "aliases": "flintslate stall"
+    },
+    {
+      "id": "1e4bf14f-62a4-5c88-a443-41b103dd26ce",
+      "name": "Flea Brew Stall",
+      "category": "Technique",
+      "inputSyntax": "{difficulty} {predicate}",
+      "outputSyntax": "capability:flea-brew-stall:{difficulty}",
+      "notes": "Implies owning and being able to equip tool.",
+      "sortOrder": 56,
+      "aliases": "flea brew stall"
+    },
+    {
+      "id": "ea318428-99e5-4a48-9be9-d44ddf71eab2",
+      "name": "Plasmium Phial Stall",
+      "category": "Technique",
+      "inputSyntax": "{difficulty} {predicate}",
+      "outputSyntax": "capability:plasmium-phial-stall:{difficulty}",
+      "notes": "Implies owning and being able to equip tool.",
+      "sortOrder": 57,
+      "aliases": "plasmium phial stall, plasmium stall"
+    },
+    {
+      "id": "26e3a40d-3a01-4159-ab0f-7c03c48f80c4",
+      "name": "Voltvessels Stall",
+      "category": "Technique",
+      "inputSyntax": "{difficulty} {predicate}",
+      "outputSyntax": "capability:voltvessels-stall:{difficulty}",
+      "notes": "Implies owning and being able to equip tool.",
+      "sortOrder": 58,
+      "aliases": "voltvessels stall"
+    },
+    {
+      "id": "90412661-2e71-4a32-90ba-2b1c46c6d0ca",
+      "name": "Drill Crystal Pogo",
+      "category": "Technique",
+      "inputSyntax": "{difficulty} {predicate}",
+      "outputSyntax": "capability:drill-crystal-pogo:{difficulty}",
+      "notes": "Implies owning tools delver\u0027s drill and memory crystal and being able to equip them both at the same time. Involves taking damage to create the crystal and then using the drill to gain vertical height from it. ",
+      "sortOrder": 59,
+      "aliases": "drill crystal pogo"
+    },
+    {
+      "id": "908bdcfd-84d1-4b22-b975-1228bf1dd00d",
+      "name": "Hazard Respawn",
+      "category": "Technique",
+      "inputSyntax": "{difficulty} {predicate}",
+      "outputSyntax": "capability:hazard-respawn:{difficulty}",
+      "notes": "Indicates the user takes advantage of a hazard respawn to cross a gap. Must be careful not to confuse with damage boost, which does not respawn the player. Quantity indicates masks of damage taken.",
+      "sortOrder": 60,
+      "aliases": "hazard respawn"
+    },
+    {
+      "id": "e35edcc3-93b7-43c2-bd80-d30dd494d21e",
+      "name": "Damage Boost",
+      "category": "Technique",
+      "inputSyntax": "{difficulty} {predicate}",
+      "outputSyntax": "capability:damage-boost:{difficulty}",
+      "notes": "Indicates the user takes advantage of a taking damage to cross a gap. Must be careful not to confuse with hazard respawn, which respawns the player. Quantity indicates masks of damage taken.",
+      "sortOrder": 61,
+      "aliases": "damage boost"
+    },
+    {
+      "id": "8b0fd4ee-f774-4adf-9be1-3894413c3206",
+      "name": "Proficient Movement",
+      "category": "Technique",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "capability:proficient-movement",
+      "notes": "For situations that do not use a specific stall or skip technique, but the traversal requires a minimum skill level.",
+      "sortOrder": 62,
+      "aliases": "proficient movement"
+    },
+    {
+      "id": "1ca8c951-0375-4fe3-bb43-79c80177d9fb",
+      "name": "Flea Brew Speed",
+      "category": "Ability",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "capability:flea-brew-speed",
+      "notes": "Used for the one situation where you are actually required to use Flea Brew for its speed at the Weavenest in Far Fields to unlock the secret area. Implies having the tool, being able to equip it, and access to refills. This should not be controlled by enhanced movement settings, as this is a core part of game logic.",
+      "sortOrder": 63,
+      "aliases": "flea brew speed"
+    },
+    {
+      "id": "689ba9ed-8105-43a8-aeb1-f1cd5a828062",
+      "name": "Act I",
+      "category": "State",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "state:act-1",
+      "notes": "I don\u0027t think this will get used, but adding it for completeness. ",
+      "sortOrder": 64,
+      "aliases": "act i, act 1"
+    },
+    {
+      "id": "3be9aeb2-0992-407c-81bc-4c26dfd984e4",
+      "name": "Act II",
+      "category": "State",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "state:act-2",
+      "notes": "",
+      "sortOrder": 65,
+      "aliases": "act ii, act 2"
+    },
+    {
+      "id": "0b87a3cf-3234-433a-ba22-49229ad3f79b",
+      "name": "Act III",
+      "category": "State",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "state:act-3",
+      "notes": "",
+      "sortOrder": 66,
+      "aliases": "act iii, act 3"
+    },
+    {
+      "id": "35b7a3b8-90cf-458e-a7ef-102437a151ed",
+      "name": "Normal World Enemy Spawn",
+      "category": "State",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "state:enemy-spawn-normal-world",
+      "notes": "Acts 1 and 2. Used for enemy spawn requirements. Indicates the enemy only spawns in the normal world scene.",
+      "sortOrder": 67,
+      "aliases": "normal world spawn"
+    },
+    {
+      "id": "435876b6-bd52-4ae3-a5d0-61a28c14dc01",
+      "name": "Black Thread World Enemy Spawn",
+      "category": "State",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "state:enemy-spawn-black-thread-world",
+      "notes": "Act 3. Used for enemy spawn requirements. Indicates the enemy only spawns in the black thread world scene.",
+      "sortOrder": 68,
+      "aliases": "black thread world spawn"
+    },
+    {
+      "id": "293ea632-6df0-41bf-8991-b8b19114ac36",
+      "name": "Craw Summons Ready",
+      "category": "State",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "state:craw-summons-ready",
+      "notes": "Ready to receive Craw Summons at an eligible bench spot. Created a predicate because there is not a singular spot to define the logic. Implies proper story progression, but not eligible bench access. Bench access logic is applied by using this requirement on the check location.\n\n\u0022To receive the Craw Summons, Hornet must have reached Act 3, completed the SEEK: Awaiting the End objective, and hit the lever inside the Craw house on Craw Lake.\u0022 - per the wiki",
+      "sortOrder": 69,
+      "aliases": "craw summons ready"
+    },
+    {
+      "id": "5dc4021f-d904-41de-ba3f-9609b1daf28b",
+      "name": "Visit Shellwood",
+      "category": "State",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "state:visit-shellwood",
+      "notes": "Used for the wish Volatile Flintbeetles.",
+      "sortOrder": 70,
+      "aliases": "visit shellwood"
+    },
+    {
+      "id": "3391c7e6-9089-434f-963c-85f4f2f3548d",
+      "name": "Visit Greymoor",
+      "category": "State",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "state:visit-greymoor",
+      "notes": "Used for the wish Volatile Flintbeetles.",
+      "sortOrder": 71,
+      "aliases": "visit greymoor"
+    },
+    {
+      "id": "c948fe24-d266-4a0e-8f67-107b7e245e3e",
+      "name": "Visit Sinner\u0027s Road",
+      "category": "State",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "state:visit-sinners-road",
+      "notes": "",
+      "sortOrder": 72,
+      "aliases": "visit sinners road"
+    },
+    {
+      "id": "4e288301-b32c-4212-b19b-c41c7fc0fbf1",
+      "name": "Visit Blasted Steps",
+      "category": "State",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "state:visit-blasted-steps",
+      "notes": "",
+      "sortOrder": 73,
+      "aliases": "visit blasted steps"
+    },
+    {
+      "id": "25a3b64e-ee31-4f41-a1e8-12300f8800b5",
+      "name": "Visit The Citadel",
+      "category": "State",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "state:visit-the-citadel",
+      "notes": "Used for the wish An Icon of Hope. In-game flag is tied to citadelWoken. Good luck.",
+      "sortOrder": 74,
+      "aliases": "visit the citadel"
+    },
+    {
+      "id": "9dbc4d22-777b-4fa0-99be-27e9523771d8",
+      "name": "Visit Whiteward",
+      "category": "State",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "state:visit-whiteward",
+      "notes": "Used for the wish Balm for the Wounded.",
+      "sortOrder": 75,
+      "aliases": "visit whiteward"
+    },
+    {
+      "id": "1d8e373c-12c5-4eff-a68e-4255371018f2",
+      "name": "Steel Soul On",
+      "category": "Setting",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "setting:steel-soul-on",
+      "notes": "",
+      "sortOrder": 76,
+      "aliases": "steel soul on, steel soul, ooo look at me im so good at the game"
+    },
+    {
+      "id": "4a75b86c-f733-4e8c-b212-048d0ae8f769",
+      "name": "Steel Soul Off",
+      "category": "Setting",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "setting:steel-soul-off",
+      "notes": "",
+      "sortOrder": 77,
+      "aliases": "steel soul off"
+    },
+    {
+      "id": "8cf3b945-7a56-446d-ac22-66599865d8ab",
+      "name": "Bellshrinesanity On",
+      "category": "Setting",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "setting:bellshrinesanity-on",
+      "notes": "",
+      "sortOrder": 78,
+      "aliases": "bellshrinesanity on"
+    },
+    {
+      "id": "c673b113-942a-47b4-9145-2483e941e034",
+      "name": "Bellshrinesanity Off",
+      "category": "Setting",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "setting:bellshrinesanity-off",
+      "notes": "",
+      "sortOrder": 79,
+      "aliases": "bellshrinesanity off"
+    },
+    {
+      "id": "b1652616-3120-4640-8260-6c9aefdff1b5",
+      "name": "Bossanity On",
+      "category": "Setting",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "setting:bossanity-on",
+      "notes": "",
+      "sortOrder": 80,
+      "aliases": "bossanity on"
+    },
+    {
+      "id": "9ea9acbf-9d0d-4cdf-974e-7d7b740c2a09",
+      "name": "Bossanity Off",
+      "category": "Setting",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "setting:bossanity-off",
+      "notes": "",
+      "sortOrder": 81,
+      "aliases": "bossanity off"
+    },
+    {
+      "id": "27091030-d873-42ea-8e7d-2342e7667ac7",
+      "name": "Wishsanity On",
+      "category": "Setting",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "setting:wishsanity-on",
+      "notes": "",
+      "sortOrder": 82,
+      "aliases": "wishsanity on"
+    },
+    {
+      "id": "f37dcae3-0eaf-4a02-a5f6-4fc31d23e93d",
+      "name": "Wishsanity Off",
+      "category": "Setting",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "setting:wishsanity-off",
+      "notes": "",
+      "sortOrder": 83,
+      "aliases": "wishsanity off"
+    },
+    {
+      "id": "dd99eca8-e56b-46ff-9c0a-a4bf979516bf",
+      "name": "Crest Pogo",
+      "category": "Ability",
+      "inputSyntax": "{difficulty} [{crest}] {predicate}",
+      "outputSyntax": "capability:crest-pogo:{crest}:{difficulty}",
+      "notes": "",
+      "sortOrder": 84,
+      "aliases": "pogo, crest pogo"
+    },
+    {
+      "id": "3e8d5101-9d9e-4e70-9c8c-61da534f8fae",
+      "name": "Crest Needle Strike",
+      "category": "Technique",
+      "inputSyntax": "{difficulty} [{crest?}] {predicate}",
+      "outputSyntax": "capability:needle-strike:{crest}:{difficulty}",
+      "notes": "",
+      "sortOrder": 85,
+      "aliases": "needle strike, charge"
+    }
+  ],
+  "crests": [
+    {
+      "id": "30f02872-42e9-4658-abf9-296614230af7",
+      "name": "Hunter Crest",
+      "category": "S-Tier",
+      "outputValue": "hunter",
+      "notes": "",
+      "sortOrder": 0,
+      "aliases": "hunter"
+    },
+    {
+      "id": "cc9bc9ef-20a1-4251-9aa0-cab4546e143f",
+      "name": "Wanderer Crest",
+      "category": "A-Tier",
+      "outputValue": "wanderer",
+      "notes": "",
+      "sortOrder": 1,
+      "aliases": "wanderer"
+    },
+    {
+      "id": "87f7794c-02d0-4f8c-8fce-fb1795fdeec0",
+      "name": "Beast Crest",
+      "category": "S-Tier",
+      "outputValue": "beast",
+      "notes": "",
+      "sortOrder": 2,
+      "aliases": "beast"
+    },
+    {
+      "id": "f671e4bf-bef9-4a26-b56c-fc8ec1648acc",
+      "name": "Reaper Crest",
+      "category": "D-Tier",
+      "outputValue": "reaper",
+      "notes": "",
+      "sortOrder": 3,
+      "aliases": "reaper"
+    },
+    {
+      "id": "7fc4ca30-c59e-4596-bc10-8541d82b5928",
+      "name": "Witch Crest",
+      "category": "C-Tier",
+      "outputValue": "witch",
+      "notes": "",
+      "sortOrder": 4,
+      "aliases": "witch"
+    },
+    {
+      "id": "bd7b7ce0-5b62-4b3c-9ba7-fb3eeb694e67",
+      "name": "Architect Crest ",
+      "category": "F-Tier",
+      "outputValue": "architect",
+      "notes": "",
+      "sortOrder": 5,
+      "aliases": "architect"
+    },
+    {
+      "id": "55048732-b00f-40d4-9a4e-9d1bb52a29bd",
+      "name": "Shaman Crest",
+      "category": "S-Tier",
+      "outputValue": "shaman",
+      "notes": "",
+      "sortOrder": 6,
+      "aliases": "shaman"
     }
   ],
   "items": [

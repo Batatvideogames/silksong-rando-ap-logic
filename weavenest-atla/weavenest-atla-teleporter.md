@@ -41,7 +41,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Servitor Ignim 1 | lower telepad | None |  | Verified | enemy | ✓ |  |
 | 2 | Servitor Ignim 2 | lower shaft | None |  | Verified | enemy | ✓ |  |
-| 3 | Servitor Ignim 3 | lower telepad | None |  | Verified | enemy | ✓ |  |
+| 3 | Servitor Ignim 3 | lower telepad | None |  | Verified | enemy | ✓ | Spawn conditions: wokeLiftWeaver=false |
 
 ## Room Images
 

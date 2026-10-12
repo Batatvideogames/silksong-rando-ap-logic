@@ -33,9 +33,9 @@ No subroom connections defined.
 | 9 | Slubberlug 8 |  | none |  | Verified | enemy | ✓ |  |
 | 10 | Slubberlug 9 |  | none |  | Verified | enemy | ✓ |  |
 | 11 | Slubberlug 10 |  | none |  | Verified | enemy | ✓ |  |
-| 12 | Swamp Squit 1 |  |  | TODO | Needs verification | enemy | ✓ |  |
-| 13 | Swamp Squit 2 |  |  | TODO | Needs verification | enemy | ✓ |  |
-| 14 | Swamp Squit 3 |  |  | TODO | Needs verification | enemy | ✓ |  |
+| 12 | Swamp Squit 1 |  | Invalid |  | Verified | enemy | ✓ | Disabled; no activation found. |
+| 13 | Swamp Squit 2 |  | Invalid |  | Verified | enemy | ✓ | Disabled; no activation found. |
+| 14 | Swamp Squit 3 |  | Invalid |  | Verified | enemy | ✓ | Disabled; no activation found. |
 
 ## Room Images
 

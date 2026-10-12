@@ -36,7 +36,7 @@
 | BW1 | breakable wall 1 | the pond | the backroom cache | clear one-way breakable wall |  | Verified | ✓ |  |
 | LG3 | ledge grab 3 | the pond | upper level | ledge grab OR run OR dash OR drifters OR faydown OR easy beast pogo OR cling grip OR silk soar OR clawline OR sharpdart OR scuttlebrace |  | Verified | ✓ |  |
 | LG3 | ledge grab 3 | upper level | the pond | none (falling) |  | Verified | ✓ |  |
-| LG4 | ledge grab 4 | upper level | mossberry platform | ledge grab OR faydown OR cling grip OR silk soar |  | Verified | ✓ |  |
+| LG4 | ledge grab 4 | upper level | mossberry platform | ledge grab OR faydown OR cling grip OR silk soar | TODO | Verified | ✓ | test enemy pogo options here |
 | LG4 | ledge grab 4 | mossberry platform | upper level | none (falling) |  | Verified | ✓ |  |
 
 ## Check Locations

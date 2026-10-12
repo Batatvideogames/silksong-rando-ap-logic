@@ -32,7 +32,7 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| S1 | shaft 1 | upper crossing | up and away | silk soar  OR scuttlebrace  OR ( cling grip AND ( easy shaman crest pogo OR easy heal stall OR faydown cloak OR run OR dash OR sharpdart OR clawline ) ) |  | Verified | ✓ | Easy skip is a heal boost or a reversed slash boost with Shaman's |
+| S1 | shaft 1 | upper crossing | up and away | silk soar  OR scuttlebrace  OR ( cling grip AND ( easy shaman pogo OR easy heal stall OR faydown cloak OR run OR dash OR sharpdart OR clawline ) ) |  | Verified | ✓ | Easy skip is a heal boost or a reversed slash boost with Shaman's |
 | S1 | shaft 1 | up and away | upper crossing | none (falling) |  | Verified | ✓ |  |
 | S2 | shaft 2 | center shaft | upper crossing | silk soar OR cling grip OR scuttlebrace |  | Verified | ✓ |  |
 | S2 | shaft 2 | upper crossing | center shaft | none (falling) |  | Verified | ✓ |  |
@@ -55,7 +55,7 @@
 | 2 | moss grotto shell shard cache 1 | rock bottom | none |  | Verified | collectible | ✓ |  |
 | 3 | moss grotto beast shard | beast alcove | none |  | Verified | collectible | ✓ |  |
 | 4 | moss grotto rosary chest | side room | none |  | Verified | collectible | ✓ |  |
-| 5 | Mossmir 1 | side room | None |  | Verified | enemy | ✓ | need to check if dead |
+| 5 | Mossmir 1 | side room | None |  | Verified | enemy | ✓ |  |
 | 6 | Mossmir 2 | side room | None |  | Verified | enemy | ✓ |  |
 | 7 | Marrowmaw 1 | beast alcove | Normal World Spawn |  | Verified | enemy | ✓ |  |
 

@@ -33,7 +33,7 @@
 | V2 | Top To Memory | Top | Memory | Nothing. (Fall) |  | Verified | ✓ | check cling grip as well when there's no ledge grab |
 | V2 | Top To Memory | Memory | Top | Cling Grip OR Scuttlebrace OR Silk Soar |  | Verified | ✓ |  |
 | S | Secret to Top | Whiteward Entrance | Top | Open Airlock Right AND Activate Whiteward Side Scaffold Wall |  | Verified | ✓ |  |
-| S | Secret to Top | Top | Whiteward Entrance | Open Airlock Left AND (Silk Soar OR Cling Grip OR Scuttlebrace) |  | Verified | ✓ |  |
+| S | Secret to Top | Top | Whiteward Entrance | Open Airlock Left AND Activate Whiteward Side Scaffold Wall AND (Silk Soar OR Cling Grip OR Scuttlebrace) |  | Verified | ✓ |  |
 | WC | Whiteward <> Cylinder | Whiteward Entrance | Psalm Cylinder | Activate Whiteward Side Breakable Wall |  | Verified | ✓ |  |
 | WC | Whiteward <> Cylinder | Psalm Cylinder | Whiteward Entrance | Activate Whiteward Side Breakable Wall |  | Verified | ✓ |  |
 

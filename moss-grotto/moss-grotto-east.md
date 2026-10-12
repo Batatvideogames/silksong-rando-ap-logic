@@ -39,7 +39,7 @@
 | 1 | shell shard cache moss grotto 2 | ground floor | none |  | Verified | collectible | ✓ |  |
 | 2 | shell shard cache moss grotto 3 | alcove check spot | none |  | Verified | collectible | ✓ |  |
 | 3 | shell shard cache moss grotto 4 | alcove check spot | none |  | Verified | collectible | ✓ |  |
-| 4 | moss grotto east mossberry | upper platforms | easy enemy pogo OR run OR dash OR drifter's cloak OR faydown cloak OR silk soar OR clawline OR sharpdart OR easy beast pogo OR ( have crest shaman AND ( attack up OR attack right ) ) |  | Verified | collectible | ✓ |  |
+| 4 | moss grotto east mossberry | upper platforms | easy enemy pogo  OR run OR dash  OR drifter's cloak  OR faydown cloak  OR silk soar  OR clawline  OR sharpdart  OR easy beast pogo  OR shaman attack up  OR shaman attack right |  | Verified | collectible | ✓ |  |
 | 5 | Mossgrub 1 | ground floor | None |  | Verified | enemy | ✓ |  |
 | 6 | Mossgrub 2 | upper platforms | None |  | Verified | enemy | ✓ |  |
 | 7 | Mossmir 1 | upper platforms | Normal World Spawn |  | Verified | enemy | ✓ |  |

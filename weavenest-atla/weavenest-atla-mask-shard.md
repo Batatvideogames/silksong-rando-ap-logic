@@ -27,7 +27,7 @@
 | G1 | gap 1 | starting line | left exit area | spike pogo OR run OR dash OR drifter's cloak OR faydown cloak OR cling grip OR clawline OR sharpdart |  | Verified | ✓ |  |
 | LC | lava challenge | starting line | mask shard spot | silk soar  OR medium scuttlebrace OR ( ( cling grip OR scuttlebrace ) AND ( dash OR drifter's cloak OR faydown cloak OR clawline OR sharpdart ) ) |  | Verified | ✓ | the scuttlebrace-only tech allows this to be done without anything else, but I would personally consider it medium because of the timing and control requirements w/ lava damage for mistakes |
 | LC | lava challenge | mask shard spot | starting line | none (falling) |  | Verified | ✓ |  |
-| SW | skullwing access | starting line | lower skullwing spot | ( faydown AND ledge grab )  OR ( ( cling grip OR scuttlebrace ) AND ( run OR dash OR clawline OR drifters OR faydown OR sharpdart ) ) |  | Verified | ✓ |  |
+| SW | skullwing access | starting line | lower skullwing spot | ( faydown AND ledge grab )  OR ( ( cling grip OR scuttlebrace ) AND ( run OR dash OR clawline OR drifters OR faydown OR sharpdart ) ) | TODO | Verified | ✓ | test flea brew as option for getting from pogo fruit to wall to cling grip |
 | F1 | fall 1 | mask shard spot | lower skullwing spot | none (falling) |  | Verified | ✓ | so silk soar is a viable option to get here too |
 
 ## Check Locations

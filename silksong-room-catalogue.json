@@ -23471,7 +23471,7 @@
           "friendlyName": "shaft 1",
           "sourceSubroomReferenceText": "upper crossing",
           "destinationSubroomReferenceText": "up and away",
-          "requirements": "silk soar \nOR scuttlebrace \nOR ( cling grip AND ( easy shaman crest pogo OR easy heal stall OR faydown cloak OR run OR dash OR sharpdart OR clawline ) )",
+          "requirements": "silk soar \nOR scuttlebrace \nOR ( cling grip AND ( easy shaman pogo OR easy heal stall OR faydown cloak OR run OR dash OR sharpdart OR clawline ) )",
           "notes": "Easy skip is a heal boost or a reversed slash boost with Shaman\u0027s",
           "enableAnnotation": true,
           "sceneUnitX": 50.90633773803711,
@@ -23482,7 +23482,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-03T23:29:13.0621251Z",
-          "updatedUtc": "2026-09-10T02:53:45.6935783Z"
+          "updatedUtc": "2026-10-12T04:27:59.0264776Z"
         },
         {
           "id": "13400b36-48d1-4cc0-a181-f674cb6e93bd",
@@ -23930,7 +23930,7 @@
         {
           "id": "85a2f575-16fb-461f-b95a-9fadfce016a4",
           "friendlyName": "Mossmir 1",
-          "inGameId": "MossBone Fly (1)",
+          "inGameId": "\u0022MossBone Fly (1)\u0022[0]",
           "inGamePositionX": 14.3664732,
           "inGamePositionY": 77.17558,
           "inGamePositionZ": 0,
@@ -23941,7 +23941,7 @@
           "annotationSceneUnitY": 77.17558,
           "subroomReferenceText": "side room",
           "requirements": "None",
-          "notes": "need to check if dead",
+          "notes": "",
           "locationType": "enemy",
           "enableAnnotation": true,
           "sortOrder": 4,
@@ -23950,12 +23950,12 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:53:15.3299252Z",
-          "updatedUtc": "2026-10-05T22:32:58.3004942Z"
+          "updatedUtc": "2026-10-12T04:18:54.0099908Z"
         },
         {
           "id": "4eb3b00f-8a70-4a1f-9dcb-b4a1b598b501",
           "friendlyName": "Mossmir 2",
-          "inGameId": "MossBone Fly (2)",
+          "inGameId": "\u0022MossBone Fly (2)\u0022[0]",
           "inGamePositionX": 6.846902,
           "inGamePositionY": 74.6891251,
           "inGamePositionZ": 0,
@@ -23975,7 +23975,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:53:15.3299252Z",
-          "updatedUtc": "2026-10-05T22:32:59.0710216Z"
+          "updatedUtc": "2026-10-12T04:18:54.0099908Z"
         },
         {
           "id": "d23984b7-7a3d-49ab-8d20-985d27a6c777",
@@ -24005,7 +24005,7 @@
         {
           "id": "8679045a-2464-4457-847b-bcb64ef64b0b",
           "friendlyName": "Marrowmaw 1",
-          "inGameId": "Bone Thumper",
+          "inGameId": "\u0022Black Thread States Thread Only Variant\u0022[0]/\u0022Normal World\u0022[0]/\u0022Bone Thumper\u0022[0]",
           "inGamePositionX": 101.12,
           "inGamePositionY": 17.4454288,
           "inGamePositionZ": 0.006,
@@ -24025,7 +24025,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:53:15.3299252Z",
-          "updatedUtc": "2026-10-05T22:28:26.9785077Z"
+          "updatedUtc": "2026-10-12T04:18:54.0099908Z"
         },
         {
           "id": "8c46e625-1795-4952-ba87-ddcdbf3b9d67",
@@ -62145,7 +62145,7 @@
         {
           "id": "d57d6cdd-092d-4085-aa56-f6926923497b",
           "friendlyName": "Servitor Ignim 1",
-          "inGameId": "Weaver Servitor (2)",
+          "inGameId": "\u0022Weaver Servitor (2)\u0022[0]",
           "inGamePositionX": 28.71,
           "inGamePositionY": 105.649933,
           "inGamePositionZ": 0.006,
@@ -62165,12 +62165,12 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:53:20.0229652Z",
-          "updatedUtc": "2026-10-05T22:55:32.7577448Z"
+          "updatedUtc": "2026-10-12T04:33:55.507717Z"
         },
         {
           "id": "5f05730b-ea93-4c05-8ae4-30fe62e9842a",
           "friendlyName": "Servitor Ignim 2",
-          "inGameId": "Weaver Servitor (1)",
+          "inGameId": "\u0022Weaver Servitor (1)\u0022[0]",
           "inGamePositionX": 10.44,
           "inGamePositionY": 126.726967,
           "inGamePositionZ": 0.006,
@@ -62190,12 +62190,12 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:53:20.0229652Z",
-          "updatedUtc": "2026-10-05T22:55:31.1145635Z"
+          "updatedUtc": "2026-10-12T04:33:55.507717Z"
         },
         {
           "id": "5f9169dc-4840-4068-b33e-bb4b0303d5e5",
           "friendlyName": "Servitor Ignim 3",
-          "inGameId": "Weaver Servitor",
+          "inGameId": "\u0022Weaver Servitor\u0022[0]",
           "inGamePositionX": 15.66,
           "inGamePositionY": 105.649933,
           "inGamePositionZ": 0.006,
@@ -62206,7 +62206,7 @@
           "annotationSceneUnitY": 105.649933,
           "subroomReferenceText": "lower telepad",
           "requirements": "None",
-          "notes": "",
+          "notes": "Spawn conditions: wokeLiftWeaver=false",
           "locationType": "enemy",
           "enableAnnotation": true,
           "sortOrder": 2,
@@ -62215,7 +62215,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:53:20.0229652Z",
-          "updatedUtc": "2026-10-05T22:55:31.8227539Z"
+          "updatedUtc": "2026-10-12T04:34:19.0227588Z"
         }
       ]
     },
@@ -69755,15 +69755,15 @@
           "requirements": "clear one-way breakable wall",
           "notes": "",
           "enableAnnotation": true,
-          "sceneUnitX": 20.19383430480957,
-          "sceneUnitY": 23.20756721496582,
+          "sceneUnitX": 20.635021209716797,
+          "sceneUnitY": 24.75584602355957,
           "sortOrder": 6,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-10T23:29:50.8400442Z",
-          "updatedUtc": "2026-09-22T17:36:49.45885Z"
+          "updatedUtc": "2026-10-11T22:59:49.0921358Z"
         },
         {
           "id": "59d2992e-bb6c-4daf-8b76-390733b7e3d9",
@@ -69774,15 +69774,15 @@
           "requirements": "clear one-way breakable wall",
           "notes": "",
           "enableAnnotation": true,
-          "sceneUnitX": 20.19383430480957,
-          "sceneUnitY": 23.20756721496582,
+          "sceneUnitX": 20.635021209716797,
+          "sceneUnitY": 24.75584602355957,
           "sortOrder": 7,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-10T23:30:23.8038869Z",
-          "updatedUtc": "2026-09-22T17:36:49.45885Z"
+          "updatedUtc": "2026-10-11T22:59:49.0921358Z"
         },
         {
           "id": "19f26e40-a89a-405f-b22d-99204a5daa4c",
@@ -69829,17 +69829,17 @@
           "sourceSubroomReferenceText": "upper level",
           "destinationSubroomReferenceText": "mossberry platform",
           "requirements": "ledge grab OR faydown OR cling grip OR silk soar",
-          "notes": "",
+          "notes": "test enemy pogo options here",
           "enableAnnotation": true,
-          "sceneUnitX": 132.5293731689453,
-          "sceneUnitY": 44.088462829589844,
+          "sceneUnitX": 104.82467651367188,
+          "sceneUnitY": 44.24800491333008,
           "sortOrder": 10,
-          "isTodo": false,
+          "isTodo": true,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-10T23:44:16.5034601Z",
-          "updatedUtc": "2026-09-10T23:50:40.2348951Z"
+          "updatedUtc": "2026-10-12T04:29:08.017555Z"
         },
         {
           "id": "8badd07d-be2e-420a-a88b-e37823ea0731",
@@ -69850,15 +69850,15 @@
           "requirements": "none (falling)",
           "notes": "",
           "enableAnnotation": true,
-          "sceneUnitX": 132.5293731689453,
-          "sceneUnitY": 44.088462829589844,
+          "sceneUnitX": 104.82467651367188,
+          "sceneUnitY": 44.24800491333008,
           "sortOrder": 11,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-10T23:45:55.5951177Z",
-          "updatedUtc": "2026-09-10T23:46:03.5239602Z"
+          "updatedUtc": "2026-10-12T03:20:45.6285502Z"
         }
       ],
       "checks": [
@@ -69965,15 +69965,15 @@
         {
           "id": "675ac334-1b3d-44f4-aefb-6c2fb6f84f8f",
           "friendlyName": "one-way breakable wall",
-          "inGameId": null,
-          "inGamePositionX": null,
-          "inGamePositionY": null,
-          "inGamePositionZ": null,
-          "localPositionX": null,
-          "localPositionY": null,
-          "localPositionZ": null,
-          "annotationSceneUnitX": 17.179861068725586,
-          "annotationSceneUnitY": 24.130210876464844,
+          "inGameId": "One Way VineWall",
+          "inGamePositionX": 16.1,
+          "inGamePositionY": 24.9,
+          "inGamePositionZ": -0.0285,
+          "localPositionX": 16.1,
+          "localPositionY": 24.9,
+          "localPositionZ": -0.0285,
+          "annotationSceneUnitX": 16.1,
+          "annotationSceneUnitY": 24.9,
           "subroomReferenceText": "the backroom cache",
           "requirements": "break wall right",
           "notes": "",
@@ -69985,7 +69985,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-10T23:26:13.1774653Z",
-          "updatedUtc": "2026-09-22T17:36:34.8360529Z"
+          "updatedUtc": "2026-10-11T22:59:36.7093001Z"
         },
         {
           "id": "79127f33-2f6c-4f6f-8870-c9025293fcb0",
@@ -70065,7 +70065,7 @@
         {
           "id": "00e85318-7b97-4b45-a5d2-fe72085023e4",
           "friendlyName": "Mossgrub 1",
-          "inGameId": "MossBone Crawler (5)",
+          "inGameId": "\u0022MossBone Crawler (5)\u0022[0]",
           "inGamePositionX": 8.19,
           "inGamePositionY": 17.29,
           "inGamePositionZ": 0,
@@ -70085,12 +70085,12 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:53:16.4027781Z",
-          "updatedUtc": "2026-10-05T22:38:00.546814Z"
+          "updatedUtc": "2026-10-11T22:59:25.8098263Z"
         },
         {
           "id": "f0d6c435-f369-4a72-aaa4-175ee20cb344",
           "friendlyName": "Mossgrub 2",
-          "inGameId": "MossBone Crawler (1)",
+          "inGameId": "\u0022MossBone Crawler (1)\u0022[0]",
           "inGamePositionX": 97.30005,
           "inGamePositionY": 29.7699242,
           "inGamePositionZ": 0,
@@ -70110,12 +70110,12 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:53:16.4027781Z",
-          "updatedUtc": "2026-10-05T22:38:01.3025616Z"
+          "updatedUtc": "2026-10-11T22:59:25.8098263Z"
         },
         {
           "id": "34ffca79-cf3d-46a1-82ab-bfb50c48b281",
           "friendlyName": "Mossgrub 3",
-          "inGameId": "MossBone Crawler (4)",
+          "inGameId": "\u0022MossBone Crawler (4)\u0022[0]",
           "inGamePositionX": 65.55005,
           "inGamePositionY": 11.769927,
           "inGamePositionZ": 0,
@@ -70135,12 +70135,12 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:53:16.4027781Z",
-          "updatedUtc": "2026-10-05T22:38:03.0979962Z"
+          "updatedUtc": "2026-10-11T22:59:25.8098263Z"
         },
         {
           "id": "5b96494a-e45e-44b2-93e1-45c736e3576b",
           "friendlyName": "Mossgrub 4",
-          "inGameId": "MossBone Crawler (3)",
+          "inGameId": "\u0022MossBone Crawler (3)\u0022[0]",
           "inGamePositionX": 86.37005,
           "inGamePositionY": 10.769927,
           "inGamePositionZ": 0,
@@ -70160,12 +70160,12 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:53:16.4027781Z",
-          "updatedUtc": "2026-10-05T22:38:03.8504596Z"
+          "updatedUtc": "2026-10-11T22:59:25.8098263Z"
         },
         {
           "id": "b99ef75b-46f8-444d-ba8b-6936b8fbbef2",
           "friendlyName": "Mossgrub 5",
-          "inGameId": "MossBone Crawler (6)",
+          "inGameId": "\u0022MossBone Crawler (6)\u0022[0]",
           "inGamePositionX": 4.76,
           "inGamePositionY": 33.22,
           "inGamePositionZ": 0,
@@ -70185,12 +70185,12 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:53:16.4027781Z",
-          "updatedUtc": "2026-10-05T22:38:04.6570625Z"
+          "updatedUtc": "2026-10-11T22:59:25.8098263Z"
         },
         {
           "id": "50a7d2b7-c7d0-4762-960f-d278b508c5d1",
           "friendlyName": "Mossgrub 6",
-          "inGameId": "MossBone Crawler",
+          "inGameId": "\u0022MossBone Crawler\u0022[0]",
           "inGamePositionX": 113.510048,
           "inGamePositionY": 5.769927,
           "inGamePositionZ": 0,
@@ -70210,12 +70210,12 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:53:16.4027781Z",
-          "updatedUtc": "2026-10-05T22:38:05.7626279Z"
+          "updatedUtc": "2026-10-11T22:59:25.8098263Z"
         },
         {
           "id": "2ca1fa50-2e42-47e8-9d0b-203e3cb41fe4",
           "friendlyName": "Mossgrub 7",
-          "inGameId": "MossBone Crawler (9)",
+          "inGameId": "\u0022Black Thread States Thread Only Variant\u0022[0]/\u0022Normal World\u0022[0]/\u0022MossBone Crawler (9)\u0022[0]",
           "inGamePositionX": 127.88,
           "inGamePositionY": 30.77,
           "inGamePositionZ": 0,
@@ -70235,12 +70235,12 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:53:16.4027781Z",
-          "updatedUtc": "2026-10-05T22:38:06.4616764Z"
+          "updatedUtc": "2026-10-11T22:59:25.8098263Z"
         },
         {
           "id": "c43c9ffd-7695-49a3-8d26-532c98d338e9",
           "friendlyName": "Mossgrub 8",
-          "inGameId": "MossBone Crawler (8)",
+          "inGameId": "\u0022Black Thread States Thread Only Variant\u0022[0]/\u0022Normal World\u0022[0]/\u0022MossBone Crawler (8)\u0022[0]",
           "inGamePositionX": 124.11,
           "inGamePositionY": 30.77,
           "inGamePositionZ": 0,
@@ -70260,12 +70260,12 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:53:16.4027781Z",
-          "updatedUtc": "2026-10-05T22:38:07.3185421Z"
+          "updatedUtc": "2026-10-11T22:59:25.8098263Z"
         },
         {
           "id": "c5318fb7-a05b-4b08-8856-2a40302d9b3f",
           "friendlyName": "MossBone Cocoon 1",
-          "inGameId": "MossBone Cocoon (3)",
+          "inGameId": "\u0022MossBone Cocoon (3)\u0022[0]",
           "inGamePositionX": 101.14,
           "inGamePositionY": 17.63,
           "inGamePositionZ": 0.009,
@@ -70285,12 +70285,12 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:53:16.4027781Z",
-          "updatedUtc": "2026-10-05T22:38:08.1374065Z"
+          "updatedUtc": "2026-10-11T22:59:25.8098263Z"
         },
         {
           "id": "a0063c1e-f56b-4d6c-8fdd-4cd1ed270099",
           "friendlyName": "MossBone Cocoon 2",
-          "inGameId": "MossBone Cocoon (4)",
+          "inGameId": "\u0022MossBone Cocoon (4)\u0022[0]",
           "inGamePositionX": 104.11,
           "inGamePositionY": 17.48,
           "inGamePositionZ": 0.007,
@@ -70310,12 +70310,12 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:53:16.4027781Z",
-          "updatedUtc": "2026-10-05T22:38:09.1475536Z"
+          "updatedUtc": "2026-10-11T22:59:25.8098263Z"
         },
         {
           "id": "f7743354-fe97-4bae-9a84-5ac1cfcda99c",
           "friendlyName": "MossBone Cocoon 3",
-          "inGameId": "MossBone Cocoon (6)",
+          "inGameId": "\u0022MossBone Cocoon (6)\u0022[0]",
           "inGamePositionX": 102.43,
           "inGamePositionY": 16.14,
           "inGamePositionZ": 0.006,
@@ -70335,12 +70335,12 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:53:16.4027781Z",
-          "updatedUtc": "2026-10-05T22:38:09.9218951Z"
+          "updatedUtc": "2026-10-11T22:59:25.8098263Z"
         },
         {
           "id": "e045dc65-7229-4d68-9285-dd8bbb75c414",
           "friendlyName": "Mossmir 1",
-          "inGameId": "MossBone Fly",
+          "inGameId": "\u0022MossBone Fly\u0022[0]",
           "inGamePositionX": 52.0068932,
           "inGamePositionY": 39.6973457,
           "inGamePositionZ": 0,
@@ -70360,12 +70360,12 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:53:16.4027781Z",
-          "updatedUtc": "2026-10-05T22:38:10.6824719Z"
+          "updatedUtc": "2026-10-11T22:59:25.8098263Z"
         },
         {
           "id": "82888830-8e77-45a3-bc3b-c66b65a79c60",
           "friendlyName": "Mossmir 2",
-          "inGameId": "MossBone Fly (2)",
+          "inGameId": "\u0022Black Thread States Thread Only Variant\u0022[0]/\u0022Normal World\u0022[0]/\u0022MossBone Fly (2)\u0022[0]",
           "inGamePositionX": 130.238312,
           "inGamePositionY": 52.71944,
           "inGamePositionZ": 0,
@@ -70385,12 +70385,12 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:53:16.4027781Z",
-          "updatedUtc": "2026-10-05T22:38:11.5372415Z"
+          "updatedUtc": "2026-10-11T22:59:25.8098263Z"
         },
         {
           "id": "9d649ecd-30e3-4f7c-8453-43238169d9d8",
           "friendlyName": "Mossmir 3",
-          "inGameId": "NW/MossBone Fly (1)",
+          "inGameId": "\u0022Black Thread States Thread Only Variant\u0022[0]/\u0022Normal World\u0022[0]/\u0022MossBone Fly (1)\u0022[0]",
           "inGamePositionX": 88.09035,
           "inGamePositionY": 35.23314,
           "inGamePositionZ": 0,
@@ -70410,12 +70410,12 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:53:16.4027781Z",
-          "updatedUtc": "2026-10-05T23:51:46.8811875Z"
+          "updatedUtc": "2026-10-11T22:59:25.8098263Z"
         },
         {
           "id": "cec97e83-f9a0-43e1-a892-0ef9064a8107",
           "friendlyName": "MossBone Cocoon 4",
-          "inGameId": "MossBone Cocoon (5)",
+          "inGameId": "\u0022Black Thread States Thread Only Variant\u0022[0]/\u0022Normal World\u0022[0]/\u0022Group\u0022[1]/\u0022MossBone Cocoon (5)\u0022[0]",
           "inGamePositionX": 47.6600037,
           "inGamePositionY": 26.73,
           "inGamePositionZ": 0,
@@ -70435,12 +70435,12 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:53:16.4027781Z",
-          "updatedUtc": "2026-10-05T22:38:14.4990106Z"
+          "updatedUtc": "2026-10-11T22:59:25.8098263Z"
         },
         {
           "id": "a0826bf1-fa0a-4a01-bc31-36ed4e987aff",
           "friendlyName": "Mossmir 4",
-          "inGameId": "MossBone Fly (1)",
+          "inGameId": "\u0022Black Thread States Thread Only Variant\u0022[0]/\u0022Black Thread World\u0022[0]/\u0022MossBone Fly (1)\u0022[0]",
           "inGamePositionX": 27.7299957,
           "inGamePositionY": 32.94,
           "inGamePositionZ": 0,
@@ -70460,12 +70460,12 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:53:16.4027781Z",
-          "updatedUtc": "2026-10-05T22:38:15.3693854Z"
+          "updatedUtc": "2026-10-11T22:59:25.8098263Z"
         },
         {
           "id": "d0136da6-9329-47d2-ab0c-090f6a54a653",
           "friendlyName": "Moss Mother 1",
-          "inGameId": "Mossbone Mother Ambient",
+          "inGameId": "\u0022Black Thread States Thread Only Variant\u0022[0]/\u0022Black Thread World\u0022[0]/\u0022Mossbone Mother Scene\u0022[0]/\u0022Mossbone Mother Ambient\u0022[0]",
           "inGamePositionX": 127.9507,
           "inGamePositionY": 37.7466469,
           "inGamePositionZ": 0.006,
@@ -70485,7 +70485,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:53:16.4027781Z",
-          "updatedUtc": "2026-10-05T22:38:17.1261302Z"
+          "updatedUtc": "2026-10-11T22:59:25.8098263Z"
         }
       ]
     },
@@ -83700,7 +83700,7 @@
           "annotationSceneUnitX": 86.67112,
           "annotationSceneUnitY": 93.71008,
           "subroomReferenceText": "upper platforms",
-          "requirements": "easy enemy pogo OR run OR dash OR drifter\u0027s cloak OR faydown cloak OR silk soar OR clawline OR sharpdart OR easy beast pogo OR ( have crest shaman AND ( attack up OR attack right ) )",
+          "requirements": "easy enemy pogo \nOR run OR dash \nOR drifter\u0027s cloak \nOR faydown cloak \nOR silk soar \nOR clawline \nOR sharpdart \nOR easy beast pogo \nOR shaman attack up \nOR shaman attack right",
           "notes": "",
           "locationType": "collectible",
           "enableAnnotation": true,
@@ -83710,7 +83710,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-02T20:49:50.4927449Z",
-          "updatedUtc": "2026-09-11T01:03:23.904728Z"
+          "updatedUtc": "2026-10-12T04:26:44.3746439Z"
         },
         {
           "id": "922d2fa8-4563-41c8-918f-e3d7f50bed6c",
@@ -105135,7 +105135,7 @@
           "friendlyName": "Secret to Top",
           "sourceSubroomReferenceText": "Top",
           "destinationSubroomReferenceText": "Whiteward Entrance",
-          "requirements": "Open Airlock Left AND (Silk Soar OR Cling Grip OR Scuttlebrace)",
+          "requirements": "Open Airlock Left AND Activate Whiteward Side Scaffold Wall AND (Silk Soar OR Cling Grip OR Scuttlebrace)",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 94.03121185302734,
@@ -105146,7 +105146,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-03T07:40:52.4866991Z",
-          "updatedUtc": "2026-10-03T07:43:38.7356779Z"
+          "updatedUtc": "2026-10-11T21:57:16.5936343Z"
         },
         {
           "id": "d0d905a6-9c81-4ad5-89a1-0d97d3c5ab9e",
@@ -133672,7 +133672,7 @@
           "friendlyName": "door switch",
           "sourceSubroomReferenceText": "upper middle shaft",
           "destinationSubroomReferenceText": "the bridge",
-          "requirements": "activate door switch\nAND (\nledge grab\nOR run\nOR dash\nOR easy beast pogo\nOR easy shaman pogo\nOR drifters\nOR faydown\nOR cling grip\nOR silk soar\nOR clawline\nOR sharpdart\n)",
+          "requirements": "activate door switch\nAND (\nledge grab\nOR run\nOR dash\nOR easy [beast, shaman] pogo\nOR drifters\nOR faydown\nOR cling grip\nOR silk soar\nOR clawline\nOR sharpdart\n)",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 33.583,
@@ -133683,7 +133683,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-02T20:49:50.4927449Z",
-          "updatedUtc": "2026-09-24T01:10:33.1581995Z"
+          "updatedUtc": "2026-10-12T04:30:08.9238624Z"
         },
         {
           "id": "e627f986-00a9-42a5-b4d2-3db45155a0df",
@@ -133748,7 +133748,7 @@
           "friendlyName": "vertical 2",
           "sourceSubroomReferenceText": "lower middle shaft",
           "destinationSubroomReferenceText": "upper middle shaft",
-          "requirements": "ledge grab\nOR easy pogo off caranid\nOR run\nOR dash\nOR drifters\nOR faydown\nOR cling grip\nOR scuttlebrace\nOR clawline\nOR sharpdart\nOR silk soar\nOR easy shaman pogo\nOR easy hunter pogo\nOR easy architect pogo\nOR easy beast pogo\nOR easy wanderer charge\nOR easy reaper charge\nOR easy heal stall\nOR easy flea brew stall\nOR easy flintslate stall\nOR easy plasmium phial stall\nOR easy voltvessels stall",
+          "requirements": "ledge grab\nOR easy pogo off caranid\nOR run\nOR dash\nOR drifters\nOR faydown\nOR cling grip\nOR scuttlebrace\nOR clawline\nOR sharpdart\nOR silk soar\nOR easy [shaman, hunter, architect, beast] pogo\nOR easy [wanderer, reaper] charge\nOR easy heal stall\nOR easy flea brew stall\nOR easy flintslate stall\nOR easy plasmium phial stall\nOR easy voltvessels stall",
           "notes": "a WIDE variety of stalls work here. karma for the bottom section all being one chunk",
           "enableAnnotation": true,
           "sceneUnitX": 28.163,
@@ -133759,7 +133759,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-24T00:55:02.7501003Z",
-          "updatedUtc": "2026-10-07T00:54:09.42192Z"
+          "updatedUtc": "2026-10-12T04:31:42.9837845Z"
         },
         {
           "id": "9ff5b7e5-329a-4ecc-9a1b-fc8ea80dc9b6",
@@ -136318,17 +136318,17 @@
       "sceneMinY": 0,
       "sceneMaxX": 152,
       "sceneMaxY": 30,
-      "sceneImagePixelsPerUnitX": 5.966572013341264,
-      "sceneImagePixelsPerUnitY": 4.540794545060564,
-      "sceneImagePixelOffsetX": 11206.52255829097,
-      "sceneImagePixelOffsetY": 5043.149113247821,
+      "sceneImagePixelsPerUnitX": 6.35,
+      "sceneImagePixelsPerUnitY": 6.35,
+      "sceneImagePixelOffsetX": 11196.023309347129,
+      "sceneImagePixelOffsetY": 5010.311593926579,
       "useSceneImage": true,
       "isSceneImageStale": false,
       "sortOrder": 7,
       "isArchived": false,
       "archivedUtc": null,
       "createdUtc": "2026-08-10T00:56:31.8411132Z",
-      "updatedUtc": "2026-08-18T23:59:34.6446676Z",
+      "updatedUtc": "2026-10-12T03:40:34.3595102Z",
       "subrooms": [
         {
           "id": "50ea1592-9155-48ef-9179-14fb6174dc16",
@@ -136403,15 +136403,15 @@
           "requirements": "run OR dash OR faydown cloak OR clawline OR sharpdart x 3",
           "notes": "too many jumps for sharpdart without upgrades or silk heart; could add progressive spool fragments as a requirement for multiple sharpdart jumps",
           "enableAnnotation": true,
-          "sceneUnitX": null,
-          "sceneUnitY": null,
+          "sceneUnitX": 76.31321716308594,
+          "sceneUnitY": 14.815845489501953,
           "sortOrder": 0,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-10T00:58:47.298415Z",
-          "updatedUtc": "2026-09-10T03:56:35.4045548Z"
+          "updatedUtc": "2026-10-12T03:40:47.9106372Z"
         },
         {
           "id": "a4bb7f3d-4e6e-4bf3-ba18-29984204da51",
@@ -136420,17 +136420,17 @@
           "sourceSubroomReferenceText": "skarr shop",
           "destinationSubroomReferenceText": "storage room",
           "requirements": "run OR dash OR faydown cloak OR clawline OR sharpdart x 3",
-          "notes": "",
+          "notes": "test both directions for flea brew",
           "enableAnnotation": true,
-          "sceneUnitX": null,
-          "sceneUnitY": null,
+          "sceneUnitX": 76.31321716308594,
+          "sceneUnitY": 14.815845489501953,
           "sortOrder": 1,
-          "isTodo": false,
-          "isVerified": true,
+          "isTodo": true,
+          "isVerified": false,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-10T00:58:55.2629086Z",
-          "updatedUtc": "2026-09-10T03:56:25.4964586Z"
+          "updatedUtc": "2026-10-12T03:41:05.1421404Z"
         }
       ],
       "checks": [
@@ -148424,17 +148424,17 @@
           "sourceSubroomReferenceText": "starting line",
           "destinationSubroomReferenceText": "lower skullwing spot",
           "requirements": "( faydown AND ledge grab ) \nOR ( ( cling grip OR scuttlebrace ) AND ( run OR dash OR clawline OR drifters OR faydown OR sharpdart ) )",
-          "notes": "",
+          "notes": "test flea brew as option for getting from pogo fruit to wall to cling grip",
           "enableAnnotation": true,
           "sceneUnitX": 178.65379333496094,
           "sceneUnitY": 2.462332248687744,
           "sortOrder": 4,
-          "isTodo": false,
+          "isTodo": true,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T23:38:55.0427665Z",
-          "updatedUtc": "2026-10-05T23:45:50.7128567Z"
+          "updatedUtc": "2026-10-12T04:29:15.7550878Z"
         },
         {
           "id": "7adb227e-86ff-4851-82c2-d40b954b9f95",
@@ -195032,13 +195032,13 @@
         {
           "id": "b6916ee1-be22-49e0-866b-3b43df8f0686",
           "friendlyName": "Bilewater - Mask Shard",
-          "inGameId": null,
-          "inGamePositionX": null,
-          "inGamePositionY": null,
-          "inGamePositionZ": null,
-          "localPositionX": null,
-          "localPositionY": null,
-          "localPositionZ": null,
+          "inGameId": "Heart Piece",
+          "inGamePositionX": 309.273376,
+          "inGamePositionY": 63.792305,
+          "inGamePositionZ": 0,
+          "localPositionX": 309.273376,
+          "localPositionY": 63.792305,
+          "localPositionZ": 0,
           "annotationSceneUnitX": 300.9517822265625,
           "annotationSceneUnitY": 62.23595428466797,
           "subroomReferenceText": "",
@@ -195052,7 +195052,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-21T22:37:06.3274128Z",
-          "updatedUtc": "2026-09-23T01:33:27.4467911Z"
+          "updatedUtc": "2026-10-11T23:45:07.5618216Z"
         },
         {
           "id": "08395686-da60-4126-a48d-56e1545a056e",
@@ -195082,7 +195082,7 @@
         {
           "id": "ac9e3b60-0a73-4786-acf5-b3ac039a735d",
           "friendlyName": "Slubberlug 1",
-          "inGameId": "Dustroach Pollywog",
+          "inGameId": "\u0022Dustroach Pollywog Control\u0022[0]/\u0022Dustroach Pollywog Pool\u0022[0]/\u0022Dustroach Pollywog\u0022[0]",
           "inGamePositionX": 0,
           "inGamePositionY": 0,
           "inGamePositionZ": 0,
@@ -195102,7 +195102,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:53:02.3486323Z",
-          "updatedUtc": "2026-10-10T23:28:33.8196624Z"
+          "updatedUtc": "2026-10-11T23:45:07.5618216Z"
         },
         {
           "id": "5c2568b0-8672-48c4-93d2-33d3bc882380",
@@ -195132,7 +195132,7 @@
         {
           "id": "742e1c4a-c8c6-4bdc-b48b-bdcda9954883",
           "friendlyName": "Slubberlug 2",
-          "inGameId": "Dustroach Pollywog (1)",
+          "inGameId": "\u0022Dustroach Pollywog Control\u0022[0]/\u0022Dustroach Pollywog Pool\u0022[0]/\u0022Dustroach Pollywog (1)\u0022[0]",
           "inGamePositionX": 0,
           "inGamePositionY": 0,
           "inGamePositionZ": 0,
@@ -195152,7 +195152,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:53:02.3486323Z",
-          "updatedUtc": "2026-10-10T23:28:34.4171778Z"
+          "updatedUtc": "2026-10-11T23:45:07.5618216Z"
         },
         {
           "id": "513865bd-f1f6-41a0-b916-35bc75518e88",
@@ -195182,7 +195182,7 @@
         {
           "id": "b6c90f98-9afe-4b51-9914-7baa9a9ab1d6",
           "friendlyName": "Slubberlug 3",
-          "inGameId": "Dustroach Pollywog (2)",
+          "inGameId": "\u0022Dustroach Pollywog Control\u0022[0]/\u0022Dustroach Pollywog Pool\u0022[0]/\u0022Dustroach Pollywog (2)\u0022[0]",
           "inGamePositionX": 0,
           "inGamePositionY": 0,
           "inGamePositionZ": 0,
@@ -195202,12 +195202,12 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:53:02.3486323Z",
-          "updatedUtc": "2026-10-10T23:28:34.9269476Z"
+          "updatedUtc": "2026-10-11T23:45:07.5618216Z"
         },
         {
           "id": "0d452022-4116-4a21-afe4-6bb7c0cdabd6",
           "friendlyName": "Slubberlug 4",
-          "inGameId": "Dustroach Pollywog (3)",
+          "inGameId": "\u0022Dustroach Pollywog Control\u0022[0]/\u0022Dustroach Pollywog Pool\u0022[0]/\u0022Dustroach Pollywog (3)\u0022[0]",
           "inGamePositionX": 0,
           "inGamePositionY": 0,
           "inGamePositionZ": 0,
@@ -195227,7 +195227,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:53:02.3486323Z",
-          "updatedUtc": "2026-10-10T23:28:35.4052376Z"
+          "updatedUtc": "2026-10-11T23:45:07.5618216Z"
         },
         {
           "id": "f9d5f5d5-a8fe-4865-b3a4-8c170db4641c",
@@ -195282,7 +195282,7 @@
         {
           "id": "3f9c9d24-76d5-4179-9ce4-2ddb1c293098",
           "friendlyName": "Slubberlug 5",
-          "inGameId": "Dustroach Pollywog (4)",
+          "inGameId": "\u0022Dustroach Pollywog Control\u0022[0]/\u0022Dustroach Pollywog Pool\u0022[0]/\u0022Dustroach Pollywog (4)\u0022[0]",
           "inGamePositionX": 0,
           "inGamePositionY": 0,
           "inGamePositionZ": 0,
@@ -195302,12 +195302,12 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:53:02.3486323Z",
-          "updatedUtc": "2026-10-10T23:28:35.9595443Z"
+          "updatedUtc": "2026-10-11T23:45:07.5618216Z"
         },
         {
           "id": "75d19e6f-8204-459f-a09b-72512c9a958b",
           "friendlyName": "Slubberlug 6",
-          "inGameId": "Dustroach Pollywog (5)",
+          "inGameId": "\u0022Dustroach Pollywog Control\u0022[0]/\u0022Dustroach Pollywog Pool\u0022[0]/\u0022Dustroach Pollywog (5)\u0022[0]",
           "inGamePositionX": 0,
           "inGamePositionY": 0,
           "inGamePositionZ": 0,
@@ -195327,7 +195327,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:53:02.3486323Z",
-          "updatedUtc": "2026-10-10T23:28:36.4214349Z"
+          "updatedUtc": "2026-10-11T23:45:07.5618216Z"
         },
         {
           "id": "bc2a2caf-c815-4d76-8487-cd67bc2b1d7e",
@@ -195382,7 +195382,7 @@
         {
           "id": "0851112e-4cc1-42d8-8fe4-48a1f2c8a6f0",
           "friendlyName": "Slubberlug 7",
-          "inGameId": "Dustroach Pollywog (6)",
+          "inGameId": "\u0022Dustroach Pollywog Control\u0022[0]/\u0022Dustroach Pollywog Pool\u0022[0]/\u0022Dustroach Pollywog (6)\u0022[0]",
           "inGamePositionX": 0,
           "inGamePositionY": 0,
           "inGamePositionZ": 0,
@@ -195402,12 +195402,12 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:53:02.3486323Z",
-          "updatedUtc": "2026-10-10T23:28:36.8950676Z"
+          "updatedUtc": "2026-10-11T23:45:07.5618216Z"
         },
         {
           "id": "12000ceb-12a4-45eb-b550-bfc757c4f416",
           "friendlyName": "Slubberlug 8",
-          "inGameId": "Dustroach Pollywog (7)",
+          "inGameId": "\u0022Dustroach Pollywog Control\u0022[0]/\u0022Dustroach Pollywog Pool\u0022[0]/\u0022Dustroach Pollywog (7)\u0022[0]",
           "inGamePositionX": 0,
           "inGamePositionY": 0,
           "inGamePositionZ": 0,
@@ -195427,7 +195427,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:53:02.3486323Z",
-          "updatedUtc": "2026-10-10T23:28:37.4048678Z"
+          "updatedUtc": "2026-10-11T23:45:07.5618216Z"
         },
         {
           "id": "9d08f8da-c3ce-488a-9265-b2344e949875",
@@ -195482,7 +195482,7 @@
         {
           "id": "9f43e3ec-04fd-4986-b8e9-03bde3e58ae0",
           "friendlyName": "Slubberlug 9",
-          "inGameId": "Dustroach Pollywog (8)",
+          "inGameId": "\u0022Dustroach Pollywog Control\u0022[0]/\u0022Dustroach Pollywog Pool\u0022[0]/\u0022Dustroach Pollywog (8)\u0022[0]",
           "inGamePositionX": 0,
           "inGamePositionY": 0,
           "inGamePositionZ": 0,
@@ -195502,7 +195502,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:53:02.3486323Z",
-          "updatedUtc": "2026-10-10T23:28:37.8732724Z"
+          "updatedUtc": "2026-10-11T23:45:07.5618216Z"
         },
         {
           "id": "1cb0e4e5-d877-4943-a05f-023b54e582b4",
@@ -195532,7 +195532,7 @@
         {
           "id": "c785ac7c-c142-491e-9ced-517734951ec9",
           "friendlyName": "Slubberlug 10",
-          "inGameId": "Dustroach Pollywog (9)",
+          "inGameId": "\u0022Dustroach Pollywog Control\u0022[0]/\u0022Dustroach Pollywog Pool\u0022[0]/\u0022Dustroach Pollywog (9)\u0022[0]",
           "inGamePositionX": 0,
           "inGamePositionY": 0,
           "inGamePositionZ": 0,
@@ -195552,7 +195552,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:53:02.3486323Z",
-          "updatedUtc": "2026-10-10T23:28:43.143634Z"
+          "updatedUtc": "2026-10-11T23:45:07.5618216Z"
         },
         {
           "id": "0abef52f-d924-4ed9-ba26-f76d36c020ee",
@@ -195582,7 +195582,7 @@
         {
           "id": "d9221e15-bbd4-4f05-a0f0-3bc50b9e3e14",
           "friendlyName": "Swamp Squit 1",
-          "inGameId": "Swamp Mosquito (4)",
+          "inGameId": "\u0022Swamp Mosquito (4)\u0022[0]",
           "inGamePositionX": -61.4,
           "inGamePositionY": 45.4,
           "inGamePositionZ": 0,
@@ -195592,17 +195592,17 @@
           "annotationSceneUnitX": -61.4,
           "annotationSceneUnitY": 45.4,
           "subroomReferenceText": null,
-          "requirements": "",
-          "notes": "",
+          "requirements": "Invalid",
+          "notes": "Disabled; no activation found.",
           "locationType": "enemy",
           "enableAnnotation": true,
           "sortOrder": 11,
-          "isTodo": true,
-          "isVerified": false,
+          "isTodo": false,
+          "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:53:02.3486323Z",
-          "updatedUtc": "2026-10-11T03:31:53.2115173Z"
+          "updatedUtc": "2026-10-11T23:47:58.6991279Z"
         },
         {
           "id": "17f6d1b5-219e-47d8-8c99-972ac97fa762",
@@ -195632,7 +195632,7 @@
         {
           "id": "79e39ea7-b580-4666-9f39-711588216811",
           "friendlyName": "Swamp Squit 2",
-          "inGameId": "Swamp Mosquito (2)",
+          "inGameId": "\u0022Swamp Mosquito (2)\u0022[0]",
           "inGamePositionX": -61.4,
           "inGamePositionY": 45.4,
           "inGamePositionZ": 0,
@@ -195642,22 +195642,22 @@
           "annotationSceneUnitX": -61.4,
           "annotationSceneUnitY": 45.4,
           "subroomReferenceText": null,
-          "requirements": "",
-          "notes": "",
+          "requirements": "Invalid",
+          "notes": "Disabled; no activation found.",
           "locationType": "enemy",
           "enableAnnotation": true,
           "sortOrder": 12,
-          "isTodo": true,
-          "isVerified": false,
+          "isTodo": false,
+          "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:53:02.3486323Z",
-          "updatedUtc": "2026-10-11T03:31:54.9620833Z"
+          "updatedUtc": "2026-10-11T23:48:00.5680521Z"
         },
         {
           "id": "55eca6c3-f9b9-4732-a1b9-94e599519cec",
           "friendlyName": "Swamp Squit 3",
-          "inGameId": "Swamp Mosquito (6)",
+          "inGameId": "\u0022Swamp Mosquito (6)\u0022[0]",
           "inGamePositionX": -61.4,
           "inGamePositionY": 45.4,
           "inGamePositionZ": 0,
@@ -195667,17 +195667,17 @@
           "annotationSceneUnitX": -61.4,
           "annotationSceneUnitY": 45.4,
           "subroomReferenceText": null,
-          "requirements": "",
-          "notes": "",
+          "requirements": "Invalid",
+          "notes": "Disabled; no activation found.",
           "locationType": "enemy",
           "enableAnnotation": true,
           "sortOrder": 13,
-          "isTodo": true,
-          "isVerified": false,
+          "isTodo": false,
+          "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:53:02.3486323Z",
-          "updatedUtc": "2026-10-11T03:31:56.318947Z"
+          "updatedUtc": "2026-10-11T23:48:02.5849752Z"
         },
         {
           "id": "a5927a62-57fb-47bb-9e29-0efdb959fff1",

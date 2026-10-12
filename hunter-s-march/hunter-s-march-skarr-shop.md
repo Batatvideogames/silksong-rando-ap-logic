@@ -21,8 +21,8 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| CG | cross gap | storage room | skarr shop | run OR dash OR faydown cloak OR clawline OR sharpdart x 3 |  | Verified |  | too many jumps for sharpdart without upgrades or silk heart; could add progressive spool fragments as a requirement for multiple sharpdart jumps |
-| CG | cross gap | skarr shop | storage room | run OR dash OR faydown cloak OR clawline OR sharpdart x 3 |  | Verified |  |  |
+| CG | cross gap | storage room | skarr shop | run OR dash OR faydown cloak OR clawline OR sharpdart x 3 |  | Verified | ✓ | too many jumps for sharpdart without upgrades or silk heart; could add progressive spool fragments as a requirement for multiple sharpdart jumps |
+| CG | cross gap | skarr shop | storage room | run OR dash OR faydown cloak OR clawline OR sharpdart x 3 | TODO | Needs verification | ✓ | test both directions for flea brew |
 
 ## Check Locations
 

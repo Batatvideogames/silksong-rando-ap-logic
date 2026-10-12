@@ -42,7 +42,7 @@ Generated from the database alongside the individual room pages.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| S1 | shaft 1 | upper crossing | up and away | silk soar  OR scuttlebrace  OR ( cling grip AND ( easy shaman crest pogo OR easy heal stall OR faydown cloak OR run OR dash OR sharpdart OR clawline ) ) |  | Verified | ✓ | Easy skip is a heal boost or a reversed slash boost with Shaman's |
+| S1 | shaft 1 | upper crossing | up and away | silk soar  OR scuttlebrace  OR ( cling grip AND ( easy shaman pogo OR easy heal stall OR faydown cloak OR run OR dash OR sharpdart OR clawline ) ) |  | Verified | ✓ | Easy skip is a heal boost or a reversed slash boost with Shaman's |
 | S1 | shaft 1 | up and away | upper crossing | none (falling) |  | Verified | ✓ |  |
 | S2 | shaft 2 | center shaft | upper crossing | silk soar OR cling grip OR scuttlebrace |  | Verified | ✓ |  |
 | S2 | shaft 2 | upper crossing | center shaft | none (falling) |  | Verified | ✓ |  |
@@ -65,7 +65,7 @@ Generated from the database alongside the individual room pages.
 | 2 | moss grotto shell shard cache 1 | rock bottom | none |  | Verified | collectible | ✓ |  |
 | 3 | moss grotto beast shard | beast alcove | none |  | Verified | collectible | ✓ |  |
 | 4 | moss grotto rosary chest | side room | none |  | Verified | collectible | ✓ |  |
-| 5 | Mossmir 1 | side room | None |  | Verified | enemy | ✓ | need to check if dead |
+| 5 | Mossmir 1 | side room | None |  | Verified | enemy | ✓ |  |
 | 6 | Mossmir 2 | side room | None |  | Verified | enemy | ✓ |  |
 | 7 | Marrowmaw 1 | beast alcove | Normal World Spawn |  | Verified | enemy | ✓ |  |
 
@@ -116,7 +116,7 @@ not having the west part as part of this area causes the graph to be more comple
 | BW1 | breakable wall 1 | the pond | the backroom cache | clear one-way breakable wall |  | Verified | ✓ |  |
 | LG3 | ledge grab 3 | the pond | upper level | ledge grab OR run OR dash OR drifters OR faydown OR easy beast pogo OR cling grip OR silk soar OR clawline OR sharpdart OR scuttlebrace |  | Verified | ✓ |  |
 | LG3 | ledge grab 3 | upper level | the pond | none (falling) |  | Verified | ✓ |  |
-| LG4 | ledge grab 4 | upper level | mossberry platform | ledge grab OR faydown OR cling grip OR silk soar |  | Verified | ✓ |  |
+| LG4 | ledge grab 4 | upper level | mossberry platform | ledge grab OR faydown OR cling grip OR silk soar | TODO | Verified | ✓ | test enemy pogo options here |
 | LG4 | ledge grab 4 | mossberry platform | upper level | none (falling) |  | Verified | ✓ |  |
 
 #### Check Locations
@@ -195,7 +195,7 @@ somehow missed this being its own room before
 | 1 | shell shard cache moss grotto 2 | ground floor | none |  | Verified | collectible | ✓ |  |
 | 2 | shell shard cache moss grotto 3 | alcove check spot | none |  | Verified | collectible | ✓ |  |
 | 3 | shell shard cache moss grotto 4 | alcove check spot | none |  | Verified | collectible | ✓ |  |
-| 4 | moss grotto east mossberry | upper platforms | easy enemy pogo OR run OR dash OR drifter's cloak OR faydown cloak OR silk soar OR clawline OR sharpdart OR easy beast pogo OR ( have crest shaman AND ( attack up OR attack right ) ) |  | Verified | collectible | ✓ |  |
+| 4 | moss grotto east mossberry | upper platforms | easy enemy pogo  OR run OR dash  OR drifter's cloak  OR faydown cloak  OR silk soar  OR clawline  OR sharpdart  OR easy beast pogo  OR shaman attack up  OR shaman attack right |  | Verified | collectible | ✓ |  |
 | 5 | Mossgrub 1 | ground floor | None |  | Verified | enemy | ✓ |  |
 | 6 | Mossgrub 2 | upper platforms | None |  | Verified | enemy | ✓ |  |
 | 7 | Mossmir 1 | upper platforms | Normal World Spawn |  | Verified | enemy | ✓ |  |
@@ -1485,11 +1485,11 @@ no checks
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| DS | door switch | upper middle shaft | the bridge | activate door switch AND ( ledge grab OR run OR dash OR easy beast pogo OR easy shaman pogo OR drifters OR faydown OR cling grip OR silk soar OR clawline OR sharpdart ) |  | Verified | ✓ |  |
+| DS | door switch | upper middle shaft | the bridge | activate door switch AND ( ledge grab OR run OR dash OR easy [beast, shaman] pogo OR drifters OR faydown OR cling grip OR silk soar OR clawline OR sharpdart ) |  | Verified | ✓ |  |
 | DS | door switch | the bridge | upper middle shaft | activate door switch |  | Verified | ✓ |  |
 | V1 | vertical 1 | bottom shaft | lower middle shaft | ledge grab OR easy enemy pogo OR cling grip OR faydown OR silk soar |  | Verified | ✓ |  |
 | V1 | vertical 1 | lower middle shaft | bottom shaft | none (falling) |  | Verified | ✓ |  |
-| V2 | vertical 2 | lower middle shaft | upper middle shaft | ledge grab OR easy pogo off caranid OR run OR dash OR drifters OR faydown OR cling grip OR scuttlebrace OR clawline OR sharpdart OR silk soar OR easy shaman pogo OR easy hunter pogo OR easy architect pogo OR easy beast pogo OR easy wanderer charge OR easy reaper charge OR easy heal stall OR easy flea brew stall OR easy flintslate stall OR easy plasmium phial stall OR easy voltvessels stall |  | Verified | ✓ | a WIDE variety of stalls work here. karma for the bottom section all being one chunk |
+| V2 | vertical 2 | lower middle shaft | upper middle shaft | ledge grab OR easy pogo off caranid OR run OR dash OR drifters OR faydown OR cling grip OR scuttlebrace OR clawline OR sharpdart OR silk soar OR easy [shaman, hunter, architect, beast] pogo OR easy [wanderer, reaper] charge OR easy heal stall OR easy flea brew stall OR easy flintslate stall OR easy plasmium phial stall OR easy voltvessels stall |  | Verified | ✓ | a WIDE variety of stalls work here. karma for the bottom section all being one chunk |
 | V2 | vertical 2 | upper middle shaft | lower middle shaft | none (falling) |  | Verified | ✓ |  |
 | V3 | vertical 3 | the bridge | collapsing upper crossing | ledge grab OR cling grip OR faydown OR silk soar |  | Verified | ✓ |  |
 | V3 | vertical 3 | collapsing upper crossing | the bridge | none (falling) |  | Verified | ✓ |  |
@@ -2247,7 +2247,7 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Servitor Ignim 1 | lower telepad | None |  | Verified | enemy | ✓ |  |
 | 2 | Servitor Ignim 2 | lower shaft | None |  | Verified | enemy | ✓ |  |
-| 3 | Servitor Ignim 3 | lower telepad | None |  | Verified | enemy | ✓ |  |
+| 3 | Servitor Ignim 3 | lower telepad | None |  | Verified | enemy | ✓ | Spawn conditions: wokeLiftWeaver=false |
 
 <a name="room-weavenest-atla--weavenest-atla-power-room"></a>
 
@@ -2550,7 +2550,7 @@ No subroom connections defined.
 | G1 | gap 1 | starting line | left exit area | spike pogo OR run OR dash OR drifter's cloak OR faydown cloak OR cling grip OR clawline OR sharpdart |  | Verified | ✓ |  |
 | LC | lava challenge | starting line | mask shard spot | silk soar  OR medium scuttlebrace OR ( ( cling grip OR scuttlebrace ) AND ( dash OR drifter's cloak OR faydown cloak OR clawline OR sharpdart ) ) |  | Verified | ✓ | the scuttlebrace-only tech allows this to be done without anything else, but I would personally consider it medium because of the timing and control requirements w/ lava damage for mistakes |
 | LC | lava challenge | mask shard spot | starting line | none (falling) |  | Verified | ✓ |  |
-| SW | skullwing access | starting line | lower skullwing spot | ( faydown AND ledge grab )  OR ( ( cling grip OR scuttlebrace ) AND ( run OR dash OR clawline OR drifters OR faydown OR sharpdart ) ) |  | Verified | ✓ |  |
+| SW | skullwing access | starting line | lower skullwing spot | ( faydown AND ledge grab )  OR ( ( cling grip OR scuttlebrace ) AND ( run OR dash OR clawline OR drifters OR faydown OR sharpdart ) ) | TODO | Verified | ✓ | test flea brew as option for getting from pogo fruit to wall to cling grip |
 | F1 | fall 1 | mask shard spot | lower skullwing spot | none (falling) |  | Verified | ✓ | so silk soar is a viable option to get here too |
 
 #### Check Locations
@@ -6865,8 +6865,8 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| CG | cross gap | storage room | skarr shop | run OR dash OR faydown cloak OR clawline OR sharpdart x 3 |  | Verified |  | too many jumps for sharpdart without upgrades or silk heart; could add progressive spool fragments as a requirement for multiple sharpdart jumps |
-| CG | cross gap | skarr shop | storage room | run OR dash OR faydown cloak OR clawline OR sharpdart x 3 |  | Verified |  |  |
+| CG | cross gap | storage room | skarr shop | run OR dash OR faydown cloak OR clawline OR sharpdart x 3 |  | Verified | ✓ | too many jumps for sharpdart without upgrades or silk heart; could add progressive spool fragments as a requirement for multiple sharpdart jumps |
+| CG | cross gap | skarr shop | storage room | run OR dash OR faydown cloak OR clawline OR sharpdart x 3 | TODO | Needs verification | ✓ | test both directions for flea brew |
 
 #### Check Locations
 
@@ -13144,7 +13144,7 @@ No subroom connections defined.
 | V2 | Top To Memory | Top | Memory | Nothing. (Fall) |  | Verified | ✓ | check cling grip as well when there's no ledge grab |
 | V2 | Top To Memory | Memory | Top | Cling Grip OR Scuttlebrace OR Silk Soar |  | Verified | ✓ |  |
 | S | Secret to Top | Whiteward Entrance | Top | Open Airlock Right AND Activate Whiteward Side Scaffold Wall |  | Verified | ✓ |  |
-| S | Secret to Top | Top | Whiteward Entrance | Open Airlock Left AND (Silk Soar OR Cling Grip OR Scuttlebrace) |  | Verified | ✓ |  |
+| S | Secret to Top | Top | Whiteward Entrance | Open Airlock Left AND Activate Whiteward Side Scaffold Wall AND (Silk Soar OR Cling Grip OR Scuttlebrace) |  | Verified | ✓ |  |
 | WC | Whiteward <> Cylinder | Whiteward Entrance | Psalm Cylinder | Activate Whiteward Side Breakable Wall |  | Verified | ✓ |  |
 | WC | Whiteward <> Cylinder | Psalm Cylinder | Whiteward Entrance | Activate Whiteward Side Breakable Wall |  | Verified | ✓ |  |
 
@@ -18358,9 +18358,9 @@ No subroom connections defined.
 | 9 | Slubberlug 8 |  | none |  | Verified | enemy | ✓ |  |
 | 10 | Slubberlug 9 |  | none |  | Verified | enemy | ✓ |  |
 | 11 | Slubberlug 10 |  | none |  | Verified | enemy | ✓ |  |
-| 12 | Swamp Squit 1 |  |  | TODO | Needs verification | enemy | ✓ |  |
-| 13 | Swamp Squit 2 |  |  | TODO | Needs verification | enemy | ✓ |  |
-| 14 | Swamp Squit 3 |  |  | TODO | Needs verification | enemy | ✓ |  |
+| 12 | Swamp Squit 1 |  | Invalid |  | Verified | enemy | ✓ | Disabled; no activation found. |
+| 13 | Swamp Squit 2 |  | Invalid |  | Verified | enemy | ✓ | Disabled; no activation found. |
+| 14 | Swamp Squit 3 |  | Invalid |  | Verified | enemy | ✓ | Disabled; no activation found. |
 
 <a name="room-bilewater--bilewater-spike-ball-ceiling-trap-room"></a>
 
