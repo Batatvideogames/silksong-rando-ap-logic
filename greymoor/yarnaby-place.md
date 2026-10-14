@@ -23,7 +23,7 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| S1 | shaft 1 | lower section | upper shaft | silk soar OR ((cling grip OR easy scuttlebrace) AND (faydown cloak OR progressive swift step 1 OR clawline OR sharpdart OR easy architect needle strike OR easy beast pogo OR ((flea brew OR drifters cloak) AND cling grip))) |  | Verified | ✓ |  |
+| S1 | shaft 1 | lower section | upper shaft | silk soar OR ((cling grip left OR easy scuttlebrace OR (faydown cloak AND (cling grip right OR easy shaman pogo))) AND (((ACT 1 OR ACT 2) AND ((faydown cloak OR progressive swift step 1 left OR clawline left x 2 OR sharpdart x 2 OR easy architect needle strike OR easy beast pogo OR flea brew OR drifters cloak))) OR ((ACT 3) AND ((progressive swift step 1 AND (faydown cloak OR ledge grab left) AND clawline left x 1) OR (faydown cloak AND (clawline left x 2 OR (sharpdart x 1 AND ledge grab left AND progressive swift step 2 right))))))) |  | Verified | ✓ |  |
 | S1 | shaft 1 | upper shaft | lower section | nothing (just fall) |  | Verified | ✓ |  |
 
 ## Check Locations
@@ -32,8 +32,8 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Greymoor - Frayed Rosary String #3 | upper shaft | nothing |  | Verified | resource | ✓ |  |
 | 2 | vine wall | upper shaft | break wall: up |  | Verified | blockade | ✓ | if not broken the vine wall bounces you back |
-| 3 | Furm 1 |  |  |  |  | enemy | ✓ |  |
-| 4 | Dreg Catcher 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Furm 1 | lower section | nothing |  | Verified | enemy | ✓ |  |
+| 4 | Dreg Catcher 1 | lower section | nothing |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

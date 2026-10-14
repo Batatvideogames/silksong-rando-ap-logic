@@ -2,7 +2,7 @@
 
 **Game ID:** Song_10
 
-**Contributors:** samupo
+**Contributors:** samupo, Gallos
 
 ## Subrooms
 
@@ -22,7 +22,7 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| H | Horizontal | Showers | Spa | cling grip | TODO |  |  |  |
+| H | Horizontal | Showers | Spa | cling grip OR (faydown AND silk soar) |  | Verified |  |  |
 | H | Horizontal | Spa | Showers | none |  | Verified |  | lever shortcut |
 
 ## Check Locations

@@ -2,6 +2,8 @@
 
 **Game ID:** Song_05
 
+**Contributors:** Gallos
+
 ## Subrooms
 
 | No. | Subroom | Annotated |
@@ -26,9 +28,9 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| V1 | Section 1 to Section 2 | Section 1 | Section 2 | (ledge grab AND pogo) OR silk soar OR (cling grip AND (dash OR clawline)) |  |  | ✓ |  |
-| V2 | Section 2 to Section 3 | Section 2 | Section 3 | silk soar OR (cling grip AND (ledge grab OR clawline)) OR faydown cloak |  |  | ✓ |  |
-| V3 | Section 3 to Section 4 | Section 3 | Section 4 | ((ledge grab OR clawline) AND pogo) OR silk soar |  |  | ✓ |  |
+| V1 | Section 1 to Section 2 | Section 1 | Section 2 | ledge grab OR silk soar OR (cling grip AND (dash OR clawline)) |  |  | ✓ |  |
+| V2 | Section 2 to Section 3 | Section 2 | Section 3 | silk soar OR (cling grip AND (ledge grab OR clawline)) OR faydown cloak OR (medium pogo off Reed AND medium Heal stall AND medium damage boost) OR (easy Shaman pogo AND easy pogo off Reed) |  |  | ✓ | Reed pogo |
+| V3 | Section 3 to Section 4 | Section 3 | Section 4 | ledge grab OR clawline OR silk soar OR easy pogo off [Reed, Choristor] |  |  | ✓ |  |
 | F4 | Falling from Section 4 | Section 4 | Section 3 | none |  |  |  | falling |
 | F3 | Falling from Section 3 | Section 3 | Section 2 | none |  |  |  | falling |
 | F2 | Falling from Section 2 | Section 2 | Section 1 | none |  |  |  | falling |
@@ -39,6 +41,22 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Lace Second Encounter | Section 1 | none |  | Verified | event |  |  |
 | 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 3 | Choristor 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Choir Pouncer 1 |  |  |  |  | enemy | ✓ |  |
+| 5 | Reed 1 |  |  |  |  | enemy | ✓ |  |
+| 6 | Choir Hornhead 1 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: song05MarchGroupReady=true |
+| 7 | Envoy 1 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: song05MarchGroupReady=true |
+| 8 | Choristor 2 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: song05MarchGroupReady=true |
+| 9 | Reed 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 10 | Choir Bellbearer 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 11 | Choir Pouncer 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 12 | Envoy 2 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: laceMeetCitadel=false |
+| 13 | Reed 3 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: laceMeetCitadel=false |
+| 14 | Reed 4 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 15 | Reed 5 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 16 | Void Mass 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 17 | Choir Bellbearer 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 18 | Choir Hornhead 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 ## Room Images
 

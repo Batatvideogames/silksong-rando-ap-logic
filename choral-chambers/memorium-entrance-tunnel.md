@@ -2,7 +2,7 @@
 
 **Game ID:** Song_25
 
-**Contributors:** samupo, heric
+**Contributors:** samupo, heric, Gallos
 
 ## Subrooms
 
@@ -17,7 +17,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | TL | top2 | Secret Platform | [Cogwork Core Breakable Walls (Cog_10_Destroyed)](../cogwork-core/cogwork-core-breakable-walls.md) | B | none | TODO |  | ✓ |  |
 | L | left1 | Base | [Cog Dancers (Cog_Dancers)](../cogwork-core/cog-dancers.md) | R | none |  | Verified | ✓ |  |
-| T | top1 | Base | [Memorium Start Shaft (Arborium_01)](../memorium/memorium-start-shaft.md) | B | (silk soar OR faydown cloak) |  | Verified | ✓ |  |
+| T | top1 | Base | [Memorium Start Shaft (Arborium_01)](../memorium/memorium-start-shaft.md) | B | silk soar OR faydown cloak OR (ledge grab AND easy pogo off Grand Reed) |  | Verified | ✓ |  |
 | R | right1 | Base | [Songclave (Song_Enclave)](songclave.md) | TL | none |  | Verified | ✓ |  |
 | B | bot1 | Base | [Rotating Tunnel (Song_20b)](rotating-tunnel.md) | T | none |  | Verified |  |  |
 
@@ -33,8 +33,14 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Memorium entrance vines | Base | (silk soar OR faydown cloak) AND break wall up |  | Verified | blockade |  | one way wall and also logic can be improved for more skips |
-| 2 | Second Sentinel Encounter | Base | complete THE Second Sentinel Activation |  | Verified | event |  |  |
-| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 2 | Second Sentinel Encounter | Base | complete THE Second Sentinel Activation |  | Verified | event | ✓ | Spawn conditions: songChevalierActiveInSong_25=true, songChevalierSeenInSong_25=false, songChevalierEncounterCooldown=false, songChevalierQuestReady=false FSM Boolean flags: encounteredSongChevalierBoss |
+| 3 | Grand Reed 1 |  |  |  |  | enemy | ✓ | Spawn conditions: songChevalierActiveInSong_25=true, songChevalierSeenInSong_25=false, songChevalierEncounterCooldown=false, songChevalierQuestReady=false |
+| 4 | Grand Reed 2 |  | Normal World Spawn |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned, marionettesMet |
+| 5 | Grand Reed 3 |  |  |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned, marionettesMet |
+| 6 | Grand Reed 4 |  | Normal World Spawn |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned, marionettesMet |
+| 7 | Clawmaiden 1 |  |  |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned |
+| 8 | Clawmaiden 2 |  |  |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned |
+| 9 | Clawmaiden 3 |  |  |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned |
 
 ## Room Images
 

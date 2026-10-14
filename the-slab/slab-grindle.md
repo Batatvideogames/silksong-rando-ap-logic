@@ -2,6 +2,8 @@
 
 **Game ID:** Slab_20
 
+**Contributors:** MayaXTG
+
 ## Subrooms
 
 No subrooms defined.
@@ -10,7 +12,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Slab Cell (Slab_03)](slab-cell.md) | L2R | none |  |  | ✓ |  |
+| L | left1 |  | [Slab Cell (Slab_03)](slab-cell.md) | GRN | none |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
@@ -20,9 +22,8 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | The Slab - Map Pickup |  | none |  |  | collectible | ✓ |  |
-| 2 | The Slab - East Bench |  | none |  |  | bench |  |  |
-| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 1 | The Slab - Map Pickup |  | none |  | Verified | collectible | ✓ |  |
+| 2 | The Slab - East Bench |  | none |  | Verified | bench | ✓ |  |
 
 ## Room Images
 

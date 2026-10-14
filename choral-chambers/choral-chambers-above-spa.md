@@ -24,6 +24,8 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 2 | Choristor 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Choristor 2 |  |  |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned, marionettesMet |
 
 ## Room Images
 

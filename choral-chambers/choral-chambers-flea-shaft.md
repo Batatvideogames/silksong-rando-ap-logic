@@ -2,7 +2,7 @@
 
 **Game ID:** Song_11
 
-**Contributors:** samupo
+**Contributors:** samupo, Gallos
 
 ## Subrooms
 
@@ -34,10 +34,10 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| VB | Vertical Base | Base Bottom | Base Upper | silk soar faydown cloak OR (cling grip AND ((dash AND ledge grab) OR (drifter's cloak AND ledge grab) OR clawline)) |  |  | ✓ |  |
+| VB | Vertical Base | Base Bottom | Base Upper | silk soar OR faydown cloak OR (cling grip AND ((dash AND ledge grab) OR (drifter's cloak AND ledge grab) OR clawline)) OR medium enemy pogo |  |  | ✓ | can hit Choir flyer exactly 4 times |
 | VB | Vertical Base | Base Upper | Base Bottom | none |  |  | ✓ | falling |
 | VL | Vertical Lever | Top Section 1 | Base Upper | none |  |  | ✓ | one way, falling |
-| V1 | Section 1 to Section 2 | Top Section 1 | Top Section 2 | silk soar OR cling grip OR (faydown cloak AND ledge grab) |  |  |  |  |
+| V1 | Section 1 to Section 2 | Top Section 1 | Top Section 2 | silk soar OR cling grip OR (faydown cloak AND ledge grab) OR (easy enemy pogo AND easy heal stall) |  |  |  | first elder then choir flyer |
 | V2L | Section 2 to Section 3 Left | Top Section 2 | Top Section 3 Left | silk soar AND (ledge grab OR clawline OR dash OR sharpdart OR faydown cloak) |  |  |  |  |
 | V3R | Section 2 to Section 3 Right | Top Section 2 | Top Section 3 Right | silk soar OR (cling grip AND (clawline OR dash)) |  |  |  |  |
 | F3L | Section 3 Right falling | Top Section 3 Right | Top Section 2 | none |  |  |  | falling |
@@ -50,11 +50,19 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Flea: Choral Chambers - Walled Room | Top Section 2 | (cling grip AND drifter's cloak) OR silk soar |  |  | collectible |  |  |
+| 1 | Flea: Choral Chambers - Walled Room | Top Section 2 | silk soar OR drifter's cloak OR (faydown cloak AND easy [Wanderer, Shaman] pogo) |  |  | collectible |  |  |
 | 2 | Rosary Cache: Choral Chambers #14 | Base Upper | clawline OR faydown cloak OR (dash AND ledge grab) | TODO |  | collectible |  | check, probably better to split Base Upper into two zones since they can be gotten from BLT easier than from BLB |
 | 3 | Rosary Cache: Choral Chambers #15 | Base Upper | clawline OR faydown cloak OR (dash AND ledge grab) | TODO |  | collectible |  | check, probably better to split Base Upper into two zones since they can be gotten from BLT easier than from BLB |
 | 4 | Rosary Cache: Choral Chambers #16 | Base Upper | clawline OR faydown cloak OR (dash AND ledge grab) | TODO |  | collectible |  | check, probably better to split Base Upper into two zones since they can be gotten from BLT easier than from BLB |
 | 5 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 6 | Choir Flyer 1 |  |  |  |  | enemy | ✓ |  |
+| 7 | Choir Flyer 2 |  |  |  |  | enemy | ✓ |  |
+| 8 | Choir Bellbearer 1 |  |  |  |  | enemy | ✓ |  |
+| 9 | Choir Flyer 3 |  |  |  |  | enemy | ✓ |  |
+| 10 | Choir Hornhead 1 |  |  |  |  | enemy | ✓ |  |
+| 11 | Choir Elder 1 |  |  |  |  | enemy | ✓ |  |
+| 12 | Choir Pouncer 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 13 | Choir Pouncer 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
 
 ## Room Images
 

@@ -37,6 +37,15 @@
 | 3 | Rosary Cache: Choral Chambers #13 | Top | none |  |  | collectible |  | falling |
 | 4 | Mask Shard: Cogwork Core | Right Secret | none |  |  | collectible |  |  |
 | 5 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 6 | Choir Pouncer 1 |  |  |  |  | enemy | ✓ |  |
+| 7 | Drapemite 1 |  |  |  |  | enemy | ✓ |  |
+| 8 | Drapemite 2 |  |  |  |  | enemy | ✓ |  |
+| 9 | Choir Hornhead 1 |  |  |  |  | enemy | ✓ |  |
+| 10 | Choir Flyer 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 11 | Drapefly 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 12 | Drapefly 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 13 | Choir Flyer 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 14 | Drapefly 3 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 ## Room Images
 

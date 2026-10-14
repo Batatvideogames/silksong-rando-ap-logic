@@ -24,8 +24,7 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | bellshrine switch |  | hit lever: right OR hit lever: left |  | Verified | switch | ✓ |  |
-| 2 | bell greymoor |  | activate bellshrine switch |  | Verified | collectible |  |  |
-| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 2 | bell greymoor |  | activate bellshrine switch |  | Verified | collectible | ✓ |  |
 
 ## Room Images
 

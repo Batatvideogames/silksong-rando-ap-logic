@@ -30,6 +30,9 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 2 | Drapemite 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Drapemite 2 |  |  |  |  | enemy | ✓ |  |
+| 4 | Drapemite 3 |  | Invalid |  |  | enemy | ✓ | Disabled; no activation found. |
 
 ## Room Images
 

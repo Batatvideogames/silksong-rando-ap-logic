@@ -25,16 +25,16 @@
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | PG1 | platform gap 1 | upper entrance | bellway zone | nothing |  | Verified | ✓ |  |
-| PG1 | platform gap 1 | bellway zone | upper entrance | ledge grab OR cling grip OR silk soar OR faydown cloak OR easy scuttlebrace |  | Verified | ✓ |  |
+| PG1 | platform gap 1 | bellway zone | upper entrance | ledge grab left OR cling grip right OR silk soar OR faydown cloak OR easy scuttlebrace |  | Verified | ✓ |  |
 | HP | hidden passage | bellway zone | lower passage | break wall left |  | Verified | ✓ |  |
-| HP | hidden passage | lower passage | bellway zone | break wall right AND (ledge grab OR faydown cloak OR easy scuttlebrace OR cling grip) |  | Verified | ✓ |  |
+| HP | hidden passage | lower passage | bellway zone | break wall right AND (ledge grab right OR faydown cloak OR easy scuttlebrace OR cling grip right) |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Bellway Greymoor | bellway zone | Unlock Bellway Rosary Lock |  | Verified | travel | ✓ |  |
-| 2 | Bellway Rosary Lock | bellway zone | Spend 60 Rosaries |  | Verified | lock |  |  |
+| 2 | Bellway Rosary Lock | bellway zone | Spend 60 Rosaries |  | Verified | lock | ✓ |  |
 
 ## Room Images
 

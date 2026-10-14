@@ -23,6 +23,7 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 2 | Reed 1 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: savedGrindleInCitadel=false |
 
 ## Room Images
 

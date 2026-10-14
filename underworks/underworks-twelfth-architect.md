@@ -33,7 +33,7 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| GTF | Ground to First | Ground Floor | First Floor | Clawline OR (Faydown Cloak AND (Sprint OR Dash OR Sharp Dart) AND (Cling Grip OR Ledge Grab OR Scuttlebrace)) |  | Verified | ✓ |  |
+| GTF | Ground to First | Ground Floor | First Floor | Clawline OR (Faydown Cloak AND (Cling Grip OR Ledge Grab OR Scuttlebrace)) |  | Verified | ✓ |  |
 | FTS | First to Second | First Floor | Second Floor | Silk Soar OR (Faydown Cloak AND (Ledge Grab OR Clawline)) OR Cling Grip OR Scuttlebrace |  | Verified | ✓ |  |
 | NC | Needolin Check | First Floor | Needolin Check Guy | Silk Soar OR (Faydown Cloak AND (Ledge Grab OR Clawline)) OR Cling Grip OR Scuttlebrace |  | Verified | ✓ | same requirements lmao |
 | NC | Needolin Check | Needolin Check Guy | First Floor | Nothing. (Fall) |  | Verified | ✓ |  |
@@ -58,7 +58,7 @@
 | 2 | Underworks: Needolin Lore #2 | One-way Entrance (Top) | Needolin |  | Verified | lore | ✓ | futureproofing in case |
 | 3 | Underworks: Needolin Lore #3 | Needolin Check Guy | Needolin |  | Verified | lore | ✓ | futureproofing in case |
 | 4 | Underworks Architect Forge Fan Lever | Left Exit (Top) | Flip Switch Left OR Flip Switch Right |  | Verified | switch | ✓ |  |
-| 5 | Twelfth Architect: Silkshot | First Floor | have Ruined Tool  AND Spend 1 Craftmetals |  | Verified | collectible |  |  |
+| 5 | Twelfth Architect: Silkshot | First Floor | have Ruined Tool  AND Spend 1 Craftmetals |  | Verified | collectible | ✓ |  |
 | 6 | Twelfth Architect: Cogwork Wheel | First Floor | Spend 1 Craftmetals |  | Verified | collectible | ✓ |  |
 | 7 | Twelfth Architect: Sawtooth Circlet | First Floor | Spend 1 Craftmetals |  | Verified | collectible | ✓ |  |
 | 8 | Twelfth Architect: Scuttlebrace | First Floor | Spend 1 Craftmetals |  | Verified | collectible | ✓ |  |

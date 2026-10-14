@@ -2,26 +2,35 @@
 
 **Game ID:** Slab_17
 
+**Contributors:** MayaXTG
+
 ## Subrooms
 
-No subrooms defined.
+| No. | Subroom | Annotated |
+| --- | --- | --- |
+| S1 | Left | ✓ |
+| S2 | Left Lower | ✓ |
+| S3 | Mask Shard | ✓ |
 
 ## Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Slab Cell (Slab_03)](slab-cell.md) | L0R | have Key of Apostate |  |  | ✓ |  |
+| L | left1 | Left | [Slab Cell (Slab_03)](slab-cell.md) | WHY | unlock apostate door mask shard IN slab cell |  | Verified | ✓ | apostate is required on other side, not here |
 
 ## Subroom Connections
 
-No subroom connections defined.
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| LL | Left Lower | Left Lower | Left | faydown cloak OR (cling grip left AND ledge grab) OR cling grip right OR scuttlebrace OR silk soar |  | Verified | ✓ |  |
+| LL | Left Lower | Left | Left Lower | none (falling) |  | Verified | ✓ |  |
+| M | Mask Shard | Left Lower | Mask Shard | cling grip AND spike pogo AND faydown cloak AND dash | TODO | Verified | ✓ | someone more skilled than me can figure this one out |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | The Slab (Key of Apostate) - Mask Shard |  | cling grip AND dash AND faydown AND clawline AND spike pogo AND drifter's cloak | TODO |  | collectible |  | Not actually tested, placeholded everything |
-| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 1 | The Slab (Key of Apostate) - Mask Shard | Mask Shard | none |  | Verified | collectible | ✓ |  |
 
 ## Room Images
 

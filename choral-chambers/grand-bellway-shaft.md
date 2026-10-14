@@ -2,7 +2,7 @@
 
 **Game ID:** Song_20
 
-**Contributors:** samupo
+**Contributors:** samupo,Gallos
 
 ## Subrooms
 
@@ -35,19 +35,32 @@
 | F3 | Upper Left to Right Stage | Upper Left | Right Stage | none |  | Verified |  | falling |
 | F4 | Right Stage to Bottom Left | Right Stage | Bottom Left | none |  | Verified |  | falling |
 | F5 | Bottom Left to Bottom Right | Bottom Left | Bottom Right | none |  | Verified |  | falling |
-| J5 | Bottom Right to Bottom Left | Bottom Right | Bottom Left | silk soar OR cling grip |  | Verified |  | Might be able to use enemy pogo and faydown cloak |
-| J4 | Bottom Left to Right Stage | Bottom Left | Right Stage | cling grip OR silk soar |  | Verified |  |  |
-| J3 | Right Stage to Upper Left | Right Stage | Upper Left | cling grip OR silk soar |  | Verified |  |  |
+| J5 | Bottom Right to Bottom Left | Bottom Right | Bottom Left | silk soar OR cling grip OR (ledge grab AND hard pogo off Choristor AND (easy Shaman pogo OR hard Reaper pogo OR (hard [Hunter, Beast, Witch, Wanderer] pogo AND hard damage boost) OR (hard Architect pogo AND clawline AND hard damage boost))) |  | Verified |  |  |
+| J4 | Bottom Left to Right Stage | Bottom Left | Right Stage | cling grip OR (ledge grab AND faydown cloak) OR silk soar OR easy pogo off Reed |  | Verified |  |  |
+| J3 | Right Stage to Upper Left | Right Stage | Upper Left | easy [Hunter, Reaper, Wanderer, Shaman] pogo OR ledge grab |  | Verified |  |  |
 | J3E | Bottom Right to Upper Left | Bottom Right | Upper Left | silk soar |  | Verified |  |  |
-| J2 | Upper Left to Upper Right | Upper Left | Upper Right | (cling grip AND (faydown cloak OR swift step OR clawline)) OR silk soar |  | Verified |  |  |
-| J1 | Upper Right to Top | Upper Right | Top | ledge grab OR silk soar OR clawline OR faydown cloak |  | Verified |  |  |
+| J2 | Upper Left to Upper Right | Upper Left | Upper Right | (cling grip AND (faydown cloak OR dash OR clawline)) OR silk soar OR easy pogo off [Choir Elder, Choir Flyer, Reed] |  | Verified |  | pogo first the elder then Choir flyer then Reed twice |
+| J1 | Upper Right to Top | Upper Right | Top | ledge grab OR silk soar OR clawline OR faydown cloak OR easy pogo off Reed |  | Verified |  |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Lace Second Encounter | Bottom Right | none |  | Verified | event |  |  |
-| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 2 | Choir Pouncer 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Choristor 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 4 | Reed 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 5 | Choir Elder 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 6 | Reed 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 7 | Reed 3 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 8 | Envoy 1 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: laceMeetCitadel=false |
+| 9 | Reed 4 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: laceMeetCitadel=false |
+| 10 | Envoy 2 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: bellShrineEnclave=true |
+| 11 | Choristor 2 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: bellShrineEnclave=true |
+| 12 | Choir Flyer 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 13 | Choir Bellbearer 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 14 | Choristor 3 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 15 | Reed 5 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 ## Room Images
 

@@ -2,36 +2,36 @@
 
 **Game ID:** Slab_21
 
+**Contributors:** MayaXTG
+
 ## Subrooms
 
 | No. | Subroom | Annotated |
 | --- | --- | --- |
-| S1 | Top |  |
-| S2 | Mid |  |
-| S3 | Bottom |  |
+| S1 | Top | ✓ |
+| S2 | Mid | ✓ |
+| S3 | Bottom | ✓ |
 
 ## Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| BL | left3 | Bottom | [Slab Cavern Exit (Slab_23)](slab-cavern-exit.md) | R | none |  |  | ✓ | Naked. Logic accounting for not being able to do more. |
-| T | top1 | Top | [Slab Chilly Top (Slab_22)](slab-chilly-top.md) | BR | cling grip OR silk soar |  |  | ✓ | Naked. Logic accounting for not being able to do more. |
-| UL | left1 | Mid | [Slab Secret Side Room (Slab_18)](slab-secret-side-room.md) | R | none |  |  | ✓ | Naked. Logic accounting for not being able to do more. |
+| T | Top | Top | [Slab Chilly Top (Slab_22)](slab-chilly-top.md) | BR | faydown cloak OR scuttlebrace OR cling grip OR silk soar |  | Verified | ✓ |  |
+| B | Bottom | Bottom | [Slab Cavern Exit (Slab_23)](slab-cavern-exit.md) | R | none |  | Verified | ✓ |  |
+| M | Mid | Mid | [Slab Secret Side Room (Slab_18)](slab-secret-side-room.md) | R | none |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| V1 | Vertical 1 | Bottom | Mid | cling grip AND dash |  |  |  | Naked |
-| V1 | Vertical 1 | Mid | Bottom | none |  |  |  | falling |
-| V2 | Vertical 2 | Mid | Top | cling grip |  |  |  | Naked |
-| V2 | Vertical 2 | Top | Mid | none |  |  |  | falling |
+| TM | Top Mid | Top | Mid | none (falling) |  | Verified | ✓ |  |
+| TM | Top Mid | Mid | Top | cling grip AND (spike pogo OR dash) |  | Verified | ✓ |  |
+| MB | Mid Bottom | Mid | Bottom | none (falling) |  | Verified | ✓ |  |
+| MB | Mid Bottom | Bottom | Mid | cling grip AND (spike pogo OR dash) |  | Verified | ✓ |  |
 
 ## Check Locations
 
-| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
+No check locations defined.
 
 ## Room Images
 

@@ -23,6 +23,7 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 2 | Cogworker 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
 
 ## Room Images
 

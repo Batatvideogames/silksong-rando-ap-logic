@@ -25,4 +25,14 @@ No subroom connections defined.
 
 ## Room Images
 
-Scene image unavailable.
+### Connections
+
+[![Connections for Slab Broodmother Alcove](../00-annotations/the-slab/slab-broodmother-alcove-connections.png)](../00-annotations/the-slab/slab-broodmother-alcove-connections.png)
+
+### Checks
+
+[![Checks for Slab Broodmother Alcove](../00-annotations/the-slab/slab-broodmother-alcove-checks.png)](../00-annotations/the-slab/slab-broodmother-alcove-checks.png)
+
+### Scene
+
+[![Scene for Slab Broodmother Alcove](../00-annotations/the-slab/slab-broodmother-alcove-scene.png)](../00-annotations/the-slab/slab-broodmother-alcove-scene.png)

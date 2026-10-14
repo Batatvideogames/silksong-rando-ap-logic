@@ -12,7 +12,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left |  | [Yarnaby Place (Wisp_03)](yarnaby-place.md) | YH | nothing |  | Verified |  |  |
+| L | left |  | [Yarnaby Place (Wisp_03)](yarnaby-place.md) | YH | nothing |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
@@ -28,4 +28,14 @@ No subroom connections defined.
 
 ## Room Images
 
-Scene image unavailable.
+### Connections
+
+[![Connections for Greymoor Yarnaby Room (Belltown_Room_doctor)](../00-annotations/greymoor/greymoor-yarnaby-room-connections.png)](../00-annotations/greymoor/greymoor-yarnaby-room-connections.png)
+
+### Checks
+
+[![Checks for Greymoor Yarnaby Room (Belltown_Room_doctor)](../00-annotations/greymoor/greymoor-yarnaby-room-checks.png)](../00-annotations/greymoor/greymoor-yarnaby-room-checks.png)
+
+### Scene
+
+[![Scene for Greymoor Yarnaby Room (Belltown_Room_doctor)](../00-annotations/greymoor/greymoor-yarnaby-room-scene.png)](../00-annotations/greymoor/greymoor-yarnaby-room-scene.png)

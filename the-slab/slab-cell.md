@@ -2,85 +2,101 @@
 
 **Game ID:** Slab_03
 
+**Contributors:** MayaXTG
+
 ## Subrooms
 
 | No. | Subroom | Annotated |
 | --- | --- | --- |
-| S1 | L0L | ✓ |
-| S2 | L0R | ✓ |
+| S1 | Arena | ✓ |
+| S2 | Why | ✓ |
 | S3 | L1 | ✓ |
-| S4 | L2L | ✓ |
-| S5 | L2R | ✓ |
-| S6 | L3L | ✓ |
-| S7 | L3R | ✓ |
-| S8 | Key of Heretic Bridge | ✓ |
+| S4 | Indolent | ✓ |
+| S5 | Grindle | ✓ |
+| S6 | Flea1 | ✓ |
+| S7 | Cavern | ✓ |
+| S8 | Heretic Bridge | ✓ |
 | S9 | L4 | ✓ |
-| S10 | L5L | ✓ |
-| S11 | L5R | ✓ |
-| S12 | L6 | ✓ |
-| S13 | L7 | ✓ |
-| S14 | L8 | ✓ |
+| S10 | Flea2 | ✓ |
+| S11 | Cave | ✓ |
+| S12 | Prelude | ✓ |
+| S13 | Poodle | ✓ |
+| S14 | Lowest | ✓ |
+
+- **L1:** entrances to secret side and chilly prison
+- **L4:** slab entrance and infleatween top
+- **Prelude:** to first sinner
 
 ## Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | CPT | door_slabCaged | L1 | [Slab Capture](../fast-travel/slab-capture.md) | CG | invalid |  |  | ✓ | no destination, logically equivalent to L1 since you need to go up to reach L0 |
-| L0L | left1 | L0L | [Slab Arena (Slab_16)](slab-arena.md) | R | none |  |  | ✓ |  |
-| L0R | right1 | L0R | [Slab Why Room (Slab_17)](slab-why-room.md) | L | have Key of Apostate |  |  | ✓ |  |
-| L1L | left2 | L1 | [Slab Chilly Prison (Slab_15)](slab-chilly-prison.md) | R | none |  |  | ✓ |  |
-| L1R | right2 | L1 | [Slab Secret Side Room (Slab_18)](slab-secret-side-room.md) | L | clear Breakable Wall Blockade IN slab secret side room |  |  | ✓ | One way (opens from the other side) |
-| L2L | left3 | L2L | [Slab Indolent Room (Slab_14)](slab-indolent-room.md) | R | none |  |  | ✓ |  |
-| L2R | right3 | L2R | [Slab Grindle (Slab_20)](slab-grindle.md) | L | none |  |  | ✓ |  |
-| L3L | left4 | L3L | [Slab Flea Prison (Slab_13)](slab-flea-prison.md) | R | none |  |  | ✓ |  |
-| L3R | right4 | L3R | [Slab Cavern Exit (Slab_23)](slab-cavern-exit.md) | L | none |  |  | ✓ |  |
-| L4L | left5 | L4 | [Slab Infleatween Top (Slab_04)](slab-infleatween-top.md) | R | none |  |  | ✓ |  |
-| L4R | right5 | L4 | [Slab Entrance (Slab_02)](slab-entrance.md) | L | activate slab entrance switch IN slab entrance |  |  | ✓ |  |
-| L5L | left6 | L5L | [Slab Infleatween Bottom (Slab_05)](slab-infleatween-bottom.md) | R | have Key of Apostate |  |  | ✓ |  |
-| L5R | right8 | L5R | [Slab Cave Entrance (Slab_08)](slab-cave-entrance.md) | L | none |  |  | ✓ |  |
-| L6R | right7 | L6 | [Slab Prelude (Slab_19b)](slab-prelude.md) | L | have Key of Heretic |  |  | ✓ |  |
-| L7L | left7 | L7 | [Slab Poodle (Slab_07)](slab-poodle.md) | R1 | clear Exit Breakable Wall Blockade IN slab poodle |  |  | ✓ |  |
-| L8L | left8 | L8 | [Slab Poodle (Slab_07)](slab-poodle.md) | R2 | none |  |  | ✓ |  |
-| L8R | right9 | L8 | [Slab Window (Slab_12)](slab-window.md) | L | break wall right |  |  | ✓ |  |
+| ARN | left1 | Arena | [Slab Arena (Slab_16)](slab-arena.md) | R | none |  |  | ✓ |  |
+| WHY | right1 | Why | [Slab Why Room (Slab_17)](slab-why-room.md) | L | unlock apostate door mask shard |  |  | ✓ |  |
+| CHL | left2 | L1 | [Slab Chilly Prison (Slab_15)](slab-chilly-prison.md) | R | none |  |  | ✓ |  |
+| SCR | right2 | L1 | [Slab Secret Side Room (Slab_18)](slab-secret-side-room.md) | L | clear Breakable Wall Blockade IN slab secret side room |  |  | ✓ | One way (opens from the other side) |
+| IND | left3 | Indolent | [Slab Indolent Room (Slab_14)](slab-indolent-room.md) | R | none |  |  | ✓ |  |
+| GRN | right3 | Grindle | [Slab Grindle (Slab_20)](slab-grindle.md) | L | none |  |  | ✓ |  |
+| FL1 | left4 | Flea1 | [Slab Flea Prison (Slab_13)](slab-flea-prison.md) | R | none |  |  | ✓ |  |
+| CVN | right4 | Cavern | [Slab Cavern Exit (Slab_23)](slab-cavern-exit.md) | L | none |  |  | ✓ |  |
+| F2T | left5 | L4 | [Slab Infleatween Top (Slab_04)](slab-infleatween-top.md) | R | none |  |  | ✓ |  |
+| ENT | right5 | L4 | [Slab Entrance (Slab_02)](slab-entrance.md) | L | activate slab entrance switch IN slab entrance |  |  | ✓ |  |
+| F2B | left6 | Flea2 | [Slab Infleatween Bottom (Slab_05)](slab-infleatween-bottom.md) | R | have Key of Apostate |  |  | ✓ |  |
+| CAV | right8 | Cave | [Slab Cave Entrance (Slab_08)](slab-cave-entrance.md) | L | none |  |  | ✓ |  |
+| PRL | right7 | Prelude | [Slab Prelude (Slab_19b)](slab-prelude.md) | L | unlock heretic door first sinner |  |  | ✓ |  |
+| PDT | left7 | Poodle | [Slab Poodle (Slab_07)](slab-poodle.md) | R1 | clear Exit Breakable Wall Blockade IN slab poodle |  |  | ✓ |  |
+| PDB | left8 | Lowest | [Slab Poodle (Slab_07)](slab-poodle.md) | R2 | none |  |  | ✓ |  |
+| WND | right9 | Lowest | [Slab Window (Slab_12)](slab-window.md) | L | break wall right |  |  | ✓ |  |
 
 ## Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L0 | L0 - L0 | L0L | L0R | ledge grab OR cling grip |  |  |  | Naked |
-| 0L1 | L0l - L1 | L0L | L1 | none |  |  |  | falling |
-| 0R1 | L0R - L1 | L0R | L1 | none |  |  |  | falling |
-| 0L1 | L0l - L1 | L1 | L0L | cling grip OR silk soar |  |  |  | Naked |
-| 0R1 | L0R - L1 | L1 | L0R | cling grip OR silk soar |  |  |  | Naked |
-| 2L1 | L2L - L1 | L2L | L1 | cling grip OR silk soar |  |  |  | Naked. One way only |
-| 2R1 | L2R - L1 | L2R | L1 | cling grip OR silk soar |  |  |  | Naked. One way only |
-| L2 | L2 - L2 | L2L | L2R | ledge grab OR silk soar |  |  |  | Naked |
-| L2 | L2 - L2 | L2R | L2L | ledge grab OR silk soar |  |  |  | Naked |
-| 2FL | L2L to L3L | L2L | L3L | none |  |  |  | falling |
-| 2FR | L2L to L3R | L2L | L3R | none |  |  |  | falling |
-| 2DL | L2R to L3L | L2R | L3L | none |  |  |  | falling |
-| 2DR | L2R to L3R | L2R | L3R | none |  |  |  | falling |
-| L3 | L3 - L3 | L3L | L3R | cling grip OR silk soar OR dash |  |  |  | Naked. When you are still naked the bridge should be closed enabling you to just walk over it but added prior transitions to still have a valid path. |
-| BR1 | Bridge1 | L3L | Key of Heretic Bridge | have Key of Heretic |  |  |  |  |
-| BR2 | Bridge2 | L3R | Key of Heretic Bridge | have Key of Heretic |  |  |  |  |
-| BL4 | Bridge to L4 | Key of Heretic Bridge | L4 | none |  |  |  | falling, one way lever |
-| 5R4 | L5R to L4 | L5R | L4 | cling grip |  |  |  | one way lever |
-| 5L4 | L5L to L4 | L5L | L4 | cling grip AND faydown |  |  |  | one way lever |
-| L5 | L5 | L5L | L5R | (dash AND ledge grab) OR faydown OR clawline OR cling grip |  |  |  |  |
-| L5 | L5 | L5R | L5L | ledge grab OR faydown OR clawline OR dash |  |  |  |  |
-| 5LF | L5L to L6 | L5L | L6 | none |  |  |  | falling |
-| 5LF | L5L to L6 | L6 | L5L | (cling grip OR silk soar) AND (ledge grab OR faydown OR clawline OR dash) |  |  |  |  |
-| 5RF | L5R to L6 | L5R | L6 | none |  |  |  | falling |
-| 5RF | L5R to L6 | L6 | L5R | cling grip OR silk soar |  |  |  |  |
-| L6F | L6 to L8 | L6 | L8 | swim |  |  |  | L7 is non existant until opened |
-| L7F | L7 to L8 | L7 | L8 | swim |  |  |  | falling |
-| L7U | L7 to L6 | L7 | L6 | cling grip |  |  |  |  |
+| L0 | L0 - L0 | Arena | Why | ledge grab OR cling grip |  |  |  | Naked |
+| 0L1 | L0l - L1 | Arena | L1 | none |  |  |  | falling |
+| 0R1 | L0R - L1 | Why | L1 | none |  |  |  | falling |
+| 0L1 | L0l - L1 | L1 | Arena | cling grip OR silk soar |  |  |  | Naked |
+| 0R1 | L0R - L1 | L1 | Why | cling grip OR silk soar |  |  |  | Naked |
+| 2L1 | L2L - L1 | Indolent | L1 | cling grip OR silk soar |  |  |  | Naked. One way only |
+| 2R1 | L2R - L1 | Grindle | L1 | cling grip OR silk soar |  |  |  | Naked. One way only |
+| L2 | L2 - L2 | Indolent | Grindle | ledge grab OR silk soar |  |  |  | Naked |
+| L2 | L2 - L2 | Grindle | Indolent | ledge grab OR silk soar |  |  |  | Naked |
+| 2FL | L2L to L3L | Indolent | Flea1 | none |  |  |  | falling |
+| 2FR | L2L to L3R | Indolent | Cavern | none |  |  |  | falling |
+| 2DL | L2R to L3L | Grindle | Flea1 | none |  |  |  | falling |
+| 2DR | L2R to L3R | Grindle | Cavern | none |  |  |  | falling |
+| L3 | L3 - L3 | Flea1 | Cavern | cling grip OR silk soar OR dash |  |  |  | Naked. When you are still naked the bridge should be closed enabling you to just walk over it but added prior transitions to still have a valid path. |
+| BR1 | Bridge1 | Flea1 | Heretic Bridge | have Key of Heretic |  |  |  |  |
+| BR2 | Bridge2 | Cavern | Heretic Bridge | have Key of Heretic |  |  |  |  |
+| BL4 | Bridge to L4 | Heretic Bridge | L4 | none |  |  |  | falling, one way lever |
+| 5R4 | L5R to L4 | Cave | L4 | cling grip |  |  |  | one way lever |
+| 5L4 | L5L to L4 | Flea2 | L4 | cling grip AND faydown |  |  |  | one way lever |
+| L5 | L5 | Flea2 | Cave | (dash AND ledge grab) OR faydown OR clawline OR cling grip |  |  |  |  |
+| L5 | L5 | Cave | Flea2 | ledge grab OR faydown OR clawline OR dash |  |  |  |  |
+| 5LF | L5L to L6 | Flea2 | Prelude | none |  |  |  | falling |
+| 5LF | L5L to L6 | Prelude | Flea2 | (cling grip OR silk soar) AND (ledge grab OR faydown OR clawline OR dash) |  |  |  |  |
+| 5RF | L5R to L6 | Cave | Prelude | none |  |  |  | falling |
+| 5RF | L5R to L6 | Prelude | Cave | cling grip OR silk soar |  |  |  |  |
+| L6F | L6 to L8 | Prelude | Lowest | swim |  |  |  | L7 is non existant until opened |
+| L7F | L7 to L8 | Poodle | Lowest | swim |  |  |  | falling |
+| L7U | L7 to L6 | Poodle | Prelude | cling grip |  |  |  |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 1 | poodle blockade |  |  |  |  | blockade | ✓ |  |
+| 2 | heretic lever upper |  |  |  |  | switch | ✓ |  |
+| 3 | heretic lever lower |  |  |  |  | switch | ✓ |  |
+| 4 | apostate door mask shard | Why | have key of apostate |  |  | lock |  |  |
+| 5 | heretic door first sinner | Prelude | have key of heretic |  |  | lock |  |  |
+| 6 | Guardfly 1 |  |  |  |  | enemy | ✓ |  |
+| 7 | Guardfly 2 |  |  |  |  | enemy | ✓ |  |
+
+## Notes
+
+I'll go over this when I'm more sane
 
 ## Room Images
 

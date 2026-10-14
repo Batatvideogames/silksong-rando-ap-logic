@@ -2,39 +2,43 @@
 
 **Game ID:** Slab_05
 
+**Contributors:** MayaXTG
+
 ## Subrooms
 
 | No. | Subroom | Annotated |
 | --- | --- | --- |
-| S1 | Top |  |
-| S2 | Bottom |  |
-| S3 | Mid |  |
+| S1 | Lower | ✓ |
+| S2 | Middle | ✓ |
+| S3 | Upper | ✓ |
 
 ## Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| B | bot1 | Bottom | [Slab Bellway (Slab_06)](slab-bellway.md) | T | none |  |  | ✓ |  |
-| T | top1 | Top | [Slab Infleatween Top (Slab_04)](slab-infleatween-top.md) | B | none |  |  | ✓ |  |
-| R | right1 | Mid | [Slab Cell (Slab_03)](slab-cell.md) | L5L | have Key of Apostate |  |  | ✓ |  |
+| R | Right | Middle | [Slab Cell (Slab_03)](slab-cell.md) | F2B | have key of apostate |  | Verified | ✓ |  |
+| U | Upper | Upper | [Slab Infleatween Top (Slab_04)](slab-infleatween-top.md) | B | none |  | Verified | ✓ |  |
+| B | Bottom | Lower | [Slab Bellway (Slab_06)](slab-bellway.md) | T | none |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| V | Vertical | Mid | Top | cling grip OR silk soar |  |  |  |  |
-| V | Vertical | Top | Mid | none |  |  |  | falling |
-| V2 | Vertical 2 | Mid | Bottom | none |  |  |  | falling |
-| V2 | Vertical 2 | Bottom | Mid | ledge grab OR faydown OR silk soar |  |  |  |  |
+| ML | Middle Lower | Middle | Lower | none (falling) |  | Verified | ✓ |  |
+| ML | Middle Lower | Lower | Middle | ledge grab (both) OR cling grip (both) OR faydown cloak OR easy shaman pogo OR silk soar |  | Verified | ✓ |  |
+| UM | Upper Middle | Upper | Middle | none (falling) |  | Verified | ✓ |  |
+| UM | Upper Middle | Middle | Upper | cling grip right OR (faydown cloak AND cling grip left) OR scuttlebrace OR silk soar |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | The Slab - Shell Shard Cache #1 | Top | none |  |  | collectible |  |  |
-| 2 | The Slab - Shell Shard Cache #2 | Top | none |  |  | collectible |  |  |
-| 3 | The Slab - Shell Shard Cache #3 | Top | none |  |  | collectible |  |  |
-| 4 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 1 | The Slab - Shell Shard Cache #1 | Upper | none |  | Verified | collectible | ✓ |  |
+| 2 | The Slab - Shell Shard Cache #2 | Upper | none |  | Verified | collectible | ✓ |  |
+| 3 | The Slab - Shell Shard Cache #3 | Upper | none |  | Verified | collectible | ✓ |  |
+| 4 | Penitent 1 | Middle | none |  | Verified | enemy | ✓ |  |
+| 5 | Scabfly 1 | Middle | none |  | Verified | enemy | ✓ |  |
+| 6 | Scabfly 2 | Middle | none |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

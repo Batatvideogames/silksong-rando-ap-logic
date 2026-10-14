@@ -2,7 +2,7 @@
 
 **Game ID:** Song_12
 
-**Contributors:** samupo
+**Contributors:** samupo, Gallos
 
 ## Subrooms
 
@@ -31,12 +31,12 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| V1 | Bottom to Section 1 | Bottom | Section 1 | silk soar OR (faydown cloak AND ledge grab) OR (cling grip AND (dash OR faydown cloak OR clawline OR sharpdart)) |  | Verified | ✓ |  |
-| V2 | Section 1 to Section 2 | Section 1 | Section 2 | ledge grab OR silk soar OR faydown cloak OR clawline |  | Verified | ✓ |  |
+| V1 | Bottom to Section 1 | Bottom | Section 1 | silk soar OR (faydown cloak AND (ledge grab OR easy Shaman pogo)) OR (cling grip AND (dash OR faydown cloak OR clawline OR sharpdart)) OR (ACT 3 AND easy pogo off Choir Elder) |  | Verified | ✓ |  |
+| V2 | Section 1 to Section 2 | Section 1 | Section 2 | ledge grab OR silk soar OR faydown cloak OR clawline OR (easy hazard respawn AND easy [Hunter, Reaper, Beast, Architect,Shaman] pogo) OR easy pogo off Choir pouncer |  | Verified | ✓ |  |
 | V3 | Section 2 to Section 3 | Section 2 | Section 3 | silk soar OR cling grip OR (faydown cloak AND ledge grab) |  | Verified | ✓ |  |
-| V4L | Section 3 to Section 4 Left | Section 3 | Section 4 Left | cling grip OR (faydown cloak AND ledge grab) |  | Verified | ✓ |  |
-| V4R | Section 3 to Section 4 Right | Section 3 | Section 4 Right | spike pogo OR silk soar OR (faydown cloak AND ledge grab) |  | Verified | ✓ |  |
-| S4 | Section 4 traversal | Section 4 Left | Section 4 Right | clawline OR drifter's cloak OR dash OR faydown cloak OR sharpdart |  | Verified | ✓ |  |
+| V4L | Section 3 to Section 4 Left | Section 3 | Section 4 Left | silk soar OR cling grip left OR (faydown cloak AND ledge grab) |  | Verified | ✓ |  |
+| V4R | Section 3 to Section 4 Right | Section 3 | Section 4 Right | silk soar OR spike pogo OR cling grip left OR (faydown cloak AND ledge grab) |  | Verified | ✓ |  |
+| S4 | Section 4 traversal | Section 4 Left | Section 4 Right | spike pogo OR clawline OR drifter's cloak OR dash OR faydown cloak OR sharpdart |  | Verified | ✓ |  |
 | S4 | Section 4 traversal | Section 4 Right | Section 4 Left | clawline OR drifter's cloak OR dash OR faydown cloak OR sharpdart |  | Verified | ✓ |  |
 | F4L | Section 4 Left falling | Section 4 Left | Section 3 | none |  | Verified |  | falling |
 | F4R | Section 4 Right falling | Section 4 Right | Section 3 | none |  | Verified |  | falling |
@@ -48,7 +48,13 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 1 | Drapefly 1 |  |  |  |  | enemy | ✓ |  |
+| 2 | Choir Flyer 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Choir Bellbearer 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Choir Elder 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 5 | Choir Pouncer 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 6 | Drapefly 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 7 | Choir Elder 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 ## Room Images
 

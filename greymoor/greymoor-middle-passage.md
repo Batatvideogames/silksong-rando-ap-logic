@@ -21,7 +21,7 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Thread Raker 1 |  |  |  |  | enemy | ✓ |  |
+| 1 | Thread Raker 1 |  | nothing |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

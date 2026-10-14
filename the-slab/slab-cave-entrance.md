@@ -2,6 +2,8 @@
 
 **Game ID:** Slab_08
 
+**Contributors:** MayaXTG
+
 ## Subrooms
 
 No subrooms defined.
@@ -10,8 +12,8 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| D | door1 |  | [Slab Quiet Cell (Slab_Cell_Quiet)](slab-quiet-cell.md) | B | (faydown AND cling grip) OR silk soar |  |  | ✓ |  |
-| L | left1 |  | [Slab Cell (Slab_03)](slab-cell.md) | L5R | have Key of Heretic |  |  | ✓ |  |
+| D | door1 |  | [Slab Quiet Cell (Slab_Cell_Quiet)](slab-quiet-cell.md) | B | silk soar OR (faydown cloak AND (cling grip (either) OR (scuttlebrace AND (hard heal stall OR medium shaman pogo)))) |  | Verified | ✓ |  |
+| L | left1 |  | [Slab Cell (Slab_03)](slab-cell.md) | CAV | none |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
@@ -21,9 +23,8 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | The Slab - Left Orders |  | none |  |  | lore |  |  |
-| 2 | The Slab - Right Orders |  | none |  |  | lore |  |  |
-| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 1 | The Slab - Left Orders |  | none |  | Verified | lore | ✓ |  |
+| 2 | The Slab - Right Orders |  | none |  | Verified | lore | ✓ |  |
 
 ## Room Images
 

@@ -2,7 +2,7 @@
 
 **Game ID:** Song_24
 
-**Contributors:** samupo
+**Contributors:** samupo,Gallos
 
 ## Subrooms
 
@@ -22,9 +22,12 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Silkeater: Choral Chambers West |  | spike pogo OR dash OR clawline OR faydown cloak OR sharpdart OR drifter's cloak OR cling grip |  | Verified | collectible |  |  |
+| 1 | Silkeater: Choral Chambers West |  | ((cling grip left OR faydown cloak) AND spike pogo) OR easy [Shaman, Reaper] pogo OR hard Architect pogo |  | Verified | collectible |  |  |
 | 2 | Second Sentinel Encounter |  | Act 3  AND complete THE Second Sentinel Activation | TODO | Needs verification | event |  | need to verify this is the room the wiki is referring to |
 | 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 4 | Choristor 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 5 | Snitchfly 1 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: defeatedCogworkDancers=true, hasHarpoonDash=true, bellShrineEnclave=true |
+| 6 | Snitchfly 2 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: defeatedCogworkDancers=true, hasHarpoonDash=true, bellShrineEnclave=true |
 
 ## Room Images
 

@@ -6,26 +6,35 @@
 
 ## Subrooms
 
-No subrooms defined.
+| No. | Subroom | Annotated |
+| --- | --- | --- |
+| S1 | Bottom | ✓ |
+| S2 | Top | ✓ |
 
 ## Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Choral Chambers Flea Shaft (Song_11)](choral-chambers-flea-shaft.md) | S3R | one way entrance, opens from the other side |  | Verified | ✓ | one way entrance, opens from the other side |
-| R | right1 |  | [Cog Dancers (Cog_Dancers)](../cogwork-core/cog-dancers.md) | L | none |  | Verified | ✓ |  |
-| B | bot1 |  | [Choral Chambers Over Dininig (Song_09)](choral-chambers-over-dininig.md) | T | none |  | Verified | ✓ |  |
-| T | top1 |  | [High Halls Vault (Hang_06)](../high-halls/high-halls-vault.md) | B | Activate Floor Lever IN High Halls Vault |  | Verified | ✓ | one way entrance, opens from the other side |
+| L | left1 | Bottom | [Choral Chambers Flea Shaft (Song_11)](choral-chambers-flea-shaft.md) | S3R | none |  | Verified | ✓ | one way entrance, opens from the other side |
+| R | right1 | Bottom | [Cog Dancers (Cog_Dancers)](../cogwork-core/cog-dancers.md) | L | none |  | Verified | ✓ |  |
+| B | bot1 | Bottom | [Choral Chambers Over Dininig (Song_09)](choral-chambers-over-dininig.md) | T | none |  | Verified | ✓ |  |
+| T | top1 | Top | [High Halls Vault (Hang_06)](../high-halls/high-halls-vault.md) | B | Activate Floor Lever IN High Halls Vault |  | Verified | ✓ | one way entrance, opens from the other side |
 
 ## Subroom Connections
 
-No subroom connections defined.
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| V | Vertical | Bottom | Top | silk soar OR (cling grip OR ledge grab) OR faydown cloak |  |  |  |  |
+| V | Vertical | Top | Bottom | none |  |  |  | falling |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 2 | Grand Reed 1 | Bottom |  |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned, marionettesMet |
+| 3 | Song Knight 1 | Bottom |  |  |  | enemy | ✓ | FSM Boolean flags: encounteredSongChevalierBoss |
+| 4 | Grand Reed 2 | Bottom | Normal World Spawn |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned, marionettesMet |
 
 ## Room Images
 

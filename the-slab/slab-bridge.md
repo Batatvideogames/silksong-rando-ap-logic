@@ -2,7 +2,7 @@
 
 **Game ID:** Slab_01
 
-**Contributors:** samupo
+**Contributors:** samupo, MayaXTG
 
 ## Subrooms
 
@@ -15,8 +15,8 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 | Left | [Slab Entrance (Slab_02)](slab-entrance.md) | R | none |  |  | ✓ |  |
-| R | right1 | Right | [Choral Chambers Outside Spa (Song_04)](../choral-chambers/choral-chambers-outside-spa.md) | L | none |  |  | ✓ |  |
+| L | left1 | Left | [Slab Entrance (Slab_02)](slab-entrance.md) | R | none |  | Verified | ✓ |  |
+| R | right1 | Right | [Choral Chambers Outside Spa (Song_04)](../choral-chambers/choral-chambers-outside-spa.md) | L | none |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
@@ -29,7 +29,8 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 1 | Choristor 1 | Left | none |  | Verified | enemy | ✓ |  |
+| 2 | Reed 1 | Left | none |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 
