@@ -26,20 +26,20 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| VL | Vertical Low | Bottom | Center | Activate Whispering Vaults: Flip Switch #3 AND (Silk Soar OR Cling Grip OR (Faydown Cloak AND Ledge Grab)) |  | Verified | ✓ |  |
+| VL | Vertical Low | Bottom | Center | Activate Whispering Vaults Shard Ladder AND (Silk Soar OR Cling Grip OR (Faydown Cloak AND Ledge Grab)) |  | Verified | ✓ |  |
 | VH | Vertical High | Center | Top | Cling Grip OR Silk Soar |  | Verified | ✓ |  |
-| MS | Mask Shard | Top | Shard | Silk Soar OR Proficient Movement (Easy Box Pogo) |  | Verified | ✓ |  |
+| MS | Mask Shard | Top | Shard | Silk Soar OR (Activate Whispering Vaults Shard Box AND (Proficient Movement (Easy Box Pogo) OR Cling Grip OR Easy Scuttlebrace)) |  | Verified | ✓ |  |
 | MS | Mask Shard | Shard | Top | Nothing. (Fall) |  | Verified | ✓ |  |
 | VH | Vertical High | Top | Center | Nothing. (Fall) |  | Verified | ✓ |  |
-| VL | Vertical Low | Center | Bottom | Activate Whispering Vaults: Flip Switch #3 |  | Verified | ✓ |  |
+| VL | Vertical Low | Center | Bottom | Activate Whispering Vaults Shard Ladder |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Whispering Vaults: Mask Shard #1 | Shard | Nothing. |  | Verified | collectible | ✓ |  |
-| 2 | Whispering Vaults: Flip Switch #3 | Bottom | Nothing. |  | Verified | switch | ✓ |  |
-| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 2 | Whispering Vaults Shard Ladder | Bottom | Nothing. |  | Verified | switch | ✓ |  |
+| 3 | Whispering Vaults Shard Box | Center | Activate Whispering Vaults Shard Ladder AND Attack Up |  | Verified | logic-point |  | default state is down, activated state is up. |
 
 ## Room Images
 

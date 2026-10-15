@@ -49,17 +49,18 @@
 | 3 | Shell Shard Cache: Choral Chambers | Side Chamber | none |  |  | collectible | ✓ |  |
 | 4 | Rosary Cache: Choral Chambers #1 | Window | none |  |  | collectible | ✓ |  |
 | 5 | Rosary Cache: Choral Chambers #2 | Window | none |  |  | collectible | ✓ |  |
-| 6 | Choir Flyer 1 | Bottom |  |  |  | enemy | ✓ |  |
-| 7 | Choir Hornhead 1 |  |  |  |  | enemy | ✓ |  |
-| 8 | Envoy 1 | Bottom |  |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned, marionettesMet |
-| 9 | Choir Pouncer 1 | Bottom |  |  |  | enemy | ✓ |  |
-| 10 | Choir Pouncer 2 | Bottom | Normal World Spawn |  |  | enemy | ✓ |  |
-| 11 | Choir Pouncer 3 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 12 | Choir Hornhead 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 13 | Envoy 2 |  | Normal World Spawn |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned, marionettesMet |
-| 14 | Choristor 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
-| 15 | Void Mass 1 | Window | Black Thread World Spawn |  |  | enemy | ✓ |  |
-| 16 | Reed 1 | Window | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 6 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 7 | Choir Flyer 1 | Bottom | ACT 2 |  |  | enemy | ✓ |  |
+| 8 | Choir Hornhead 1 |  | ACT 2 |  |  | enemy | ✓ |  |
+| 9 | Envoy 1 | Bottom | ACT 2 |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned, marionettesMet |
+| 10 | Choir Pouncer 1 | Bottom | ACT 2 |  |  | enemy | ✓ |  |
+| 11 | Choir Pouncer 2 | Bottom | Normal World Spawn AND ACT 2 |  |  | enemy | ✓ |  |
+| 12 | Choir Pouncer 3 |  | Normal World Spawn AND ACT 2 |  |  | enemy | ✓ |  |
+| 13 | Choir Hornhead 2 |  | Normal World Spawn AND ACT 2 |  |  | enemy | ✓ |  |
+| 14 | Envoy 2 |  | Normal World Spawn AND ACT 2 |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned, marionettesMet |
+| 15 | Choristor 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 16 | Void Mass 1 | Window | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 17 | Reed 1 | Window | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 ## Room Images
 

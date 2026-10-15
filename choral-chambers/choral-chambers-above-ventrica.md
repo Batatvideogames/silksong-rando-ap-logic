@@ -17,7 +17,7 @@
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | B | bot1 | Bottom Left | [Choral Chambers Ventrica Room (Song_01b)](choral-chambers-ventrica-room.md) | T | none |  |  | ✓ |  |
-| T | top1 | Top | [Choral Chambers Outside Spa (Song_04)](choral-chambers-outside-spa.md) | B | none |  |  | ✓ |  |
+| T | top1 | Top | [Choral Chambers Outside Spa (Song_04)](choral-chambers-outside-spa.md) | B | Activate Switch - Outside Spa IN Choral chambers outside spa |  |  | ✓ |  |
 
 ## Subroom Connections
 
@@ -32,10 +32,14 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Choir Pouncer 1 |  |  |  |  | enemy | ✓ |  |
-| 2 | Reed 1 |  |  |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned, marionettesMet |
-| 3 | Choristor 1 |  |  |  |  | enemy | ✓ |  |
-| 4 | Envoy 1 |  |  |  |  | enemy | ✓ |  |
+| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 2 | Rosary Chest - Choral Chambers #1 | Bottom Right | none |  |  | collectible | ✓ |  |
+| 3 | Rosary Cache - Choral Chambers #8 | Top | none |  |  | collectible | ✓ |  |
+| 4 | Rosary Cache - Choral Chambers #9 | Top | none |  |  | collectible | ✓ |  |
+| 5 | Choir Pouncer 1 |  |  |  |  | enemy | ✓ |  |
+| 6 | Reed 1 |  |  |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned, marionettesMet |
+| 7 | Choristor 1 |  |  |  |  | enemy | ✓ |  |
+| 8 | Envoy 1 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

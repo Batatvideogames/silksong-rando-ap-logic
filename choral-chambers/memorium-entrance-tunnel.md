@@ -33,14 +33,15 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Memorium entrance vines | Base | (silk soar OR faydown cloak) AND break wall up |  | Verified | blockade |  | one way wall and also logic can be improved for more skips |
-| 2 | Second Sentinel Encounter | Base | complete THE Second Sentinel Activation |  | Verified | event | ✓ | Spawn conditions: songChevalierActiveInSong_25=true, songChevalierSeenInSong_25=false, songChevalierEncounterCooldown=false, songChevalierQuestReady=false FSM Boolean flags: encounteredSongChevalierBoss |
-| 3 | Grand Reed 1 |  |  |  |  | enemy | ✓ | Spawn conditions: songChevalierActiveInSong_25=true, songChevalierSeenInSong_25=false, songChevalierEncounterCooldown=false, songChevalierQuestReady=false |
-| 4 | Grand Reed 2 |  | Normal World Spawn |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned, marionettesMet |
-| 5 | Grand Reed 3 |  |  |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned, marionettesMet |
-| 6 | Grand Reed 4 |  | Normal World Spawn |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned, marionettesMet |
-| 7 | Clawmaiden 1 |  |  |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned |
-| 8 | Clawmaiden 2 |  |  |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned |
-| 9 | Clawmaiden 3 |  |  |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 3 | Second Sentinel Encounter | Base | complete THE Second Sentinel Activation |  | Verified | event | ✓ | Spawn conditions: songChevalierActiveInSong_25=true, songChevalierSeenInSong_25=false, songChevalierEncounterCooldown=false, songChevalierQuestReady=false FSM Boolean flags: encounteredSongChevalierBoss |
+| 4 | Grand Reed 1 |  |  |  |  | enemy | ✓ | Spawn conditions: songChevalierActiveInSong_25=true, songChevalierSeenInSong_25=false, songChevalierEncounterCooldown=false, songChevalierQuestReady=false |
+| 5 | Grand Reed 2 |  | Normal World Spawn |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned, marionettesMet |
+| 6 | Grand Reed 3 |  |  |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned, marionettesMet |
+| 7 | Grand Reed 4 |  | Normal World Spawn |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned, marionettesMet |
+| 8 | Clawmaiden 1 |  |  |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned |
+| 9 | Clawmaiden 2 |  |  |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned |
+| 10 | Clawmaiden 3 |  |  |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned |
 
 ## Room Images
 

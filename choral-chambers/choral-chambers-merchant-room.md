@@ -23,9 +23,12 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Rosary Cache: Choral Chambers #10 |  | cling grip |  | Verified | collectible | ✓ |  |
-| 2 | The Wandering Merchant Wish Granted |  | complete THE The Wandering Merchant Wish Promised |  |  | event |  |  |
-| 3 | Second Sentinel Encounter |  | Act 3  AND complete THE Second Sentinel Activation AND complete The Wandering Merchant Wish Granted |  |  | event |  | per the wiki |
-| 4 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 2 | Rosary Necklace - Choral Chambers #1 |  | cling grip |  |  | collectible | ✓ |  |
+| 3 | The Wandering Merchant Wish Granted |  | complete THE The Wandering Merchant Wish Promised |  |  | event |  |  |
+| 4 | Second Sentinel Encounter |  | Act 3  AND complete THE Second Sentinel Activation AND complete The Wandering Merchant Wish Granted |  |  | event |  | per the wiki |
+| 5 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 6 | Choristor 1 |  |  |  |  | enemy | ✓ | Spawn conditions: Save City Merchant accepted=true, Save City Merchant completed=false |
+| 7 | Envoy 1 |  |  |  |  | enemy | ✓ | Spawn conditions: Save City Merchant accepted=true, Save City Merchant completed=false |
 
 ## Room Images
 

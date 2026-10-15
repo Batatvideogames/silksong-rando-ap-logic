@@ -47,20 +47,21 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Lace Second Encounter | Bottom Right | none |  | Verified | event |  |  |
-| 2 | Choir Pouncer 1 |  |  |  |  | enemy | ✓ |  |
-| 3 | Choristor 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 4 | Reed 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 5 | Choir Elder 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 6 | Reed 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 7 | Reed 3 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 8 | Envoy 1 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: laceMeetCitadel=false |
-| 9 | Reed 4 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: laceMeetCitadel=false |
-| 10 | Envoy 2 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: bellShrineEnclave=true |
-| 11 | Choristor 2 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: bellShrineEnclave=true |
-| 12 | Choir Flyer 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 13 | Choir Bellbearer 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 14 | Choristor 3 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
-| 15 | Reed 5 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 3 | Choir Pouncer 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Choristor 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 5 | Reed 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 6 | Choir Elder 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 7 | Reed 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 8 | Reed 3 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 9 | Envoy 1 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: laceMeetCitadel=false |
+| 10 | Reed 4 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: laceMeetCitadel=false |
+| 11 | Envoy 2 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: bellShrineEnclave=true |
+| 12 | Choristor 2 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: bellShrineEnclave=true |
+| 13 | Choir Flyer 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 14 | Choir Bellbearer 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 15 | Choristor 3 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 16 | Reed 5 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 ## Room Images
 

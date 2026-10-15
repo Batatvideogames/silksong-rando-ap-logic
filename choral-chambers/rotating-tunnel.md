@@ -38,8 +38,9 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | import enemies |  |  |  | Needs verification |  |  |  |
-| 2 | Reed | Central Area |  |  |  | enemy | ✓ |  |
-| 3 | Choir Bellbearer | Central Area |  |  |  | enemy | ✓ |  |
+| 2 | Lever |  |  |  |  | switch | ✓ |  |
+| 3 | Reed | Central Area |  |  |  | enemy | ✓ |  |
+| 4 | Choir Bellbearer | Central Area |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

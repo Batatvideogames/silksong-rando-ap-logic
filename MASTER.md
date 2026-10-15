@@ -8714,7 +8714,7 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | T | top | lil top | [Greymoor Weaver Shrine (Greymoor_22)](#room-greymoor--greymoor-weaver-shrine) | B | silk soar OR ledge grab OR faydown cloak OR cling grip |  | Verified | ✓ |  |
 | ML | middle left | middle craw nest left | [Greymoor Craw Lake Entrance (Greymoor_15)](#room-greymoor--greymoor-craw-lake-entrance) | UR | none |  | Verified | ✓ |  |
-| LR | lower right | craw building | [Verdania Placeholder](#room-verdania--verdania-placeholder) | P | ACT 3 AND (((cling grip OR silk soar) AND (clawline OR (progressive swift step 1 AND (drifters cloak OR (sharpdart AND faydown cloak))) OR (progressive swift step 2 AND faydown cloak))) OR (prereq balloon lever IN greymoor crow nest AND (clawline OR faydown cloak OR drifters cloak OR sharpdart OR progressive swift step 2 OR ledge grab OR easy hunter pogo OR easy architect pogo OR easy shaman pogo OR easy beast crest pogo))) |  | Verified | ✓ | verdania not yet mapped |
+| LR | lower right | craw building | [Dead Verdania Main (Clover_01)](#room-verdania--dead-verdania-main) | L | ACT 3 AND (((cling grip OR silk soar) AND (clawline OR (progressive swift step 1 AND (drifters cloak OR (sharpdart AND faydown cloak))) OR (progressive swift step 2 AND faydown cloak))) OR (prereq balloon lever IN greymoor crow nest AND (clawline OR faydown cloak OR drifters cloak OR sharpdart OR progressive swift step 2 OR ledge grab OR easy hunter pogo OR easy architect pogo OR easy shaman pogo OR easy beast crest pogo))) |  | Verified | ✓ | verdania not yet mapped |
 | CN | craw nest entrance | craw building | [Greymoor Crow Nest (Room_CrowCourt)](#room-greymoor--greymoor-crow-nest) | L | swim OR ledge grab OR cling grip OR hard enemy pogo |  | Verified | ✓ |  |
 | LL | lower left | lower left section | [Greymoor Craw Lake Entrance (Greymoor_15)](#room-greymoor--greymoor-craw-lake-entrance) | LR | none |  | Verified | ✓ |  |
 
@@ -10523,11 +10523,508 @@ No subroom connections defined.
 
 ## Verdania
 
-<a name="room-verdania--verdania-placeholder"></a>
+<a name="room-verdania--clover-dancers"></a>
 
-### Verdania Placeholder
+### Clover Dancers (Clover_10)
 
-[View Room Page](./verdania/verdania-placeholder.md)
+[View Room Page](./verdania/clover-dancers.md)
+
+**Game ID:** Clover_10
+
+**Contributors:** Pyxl
+
+#### Subrooms
+
+| No. | Subroom | Annotated |
+| --- | --- | --- |
+| S1 | Exit | ✓ |
+| S2 | Lore Room | ✓ |
+| S3 | Clover Dancers | ✓ |
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left1 | Exit | [Verdania Capital (Clover_04b)](#room-verdania--verdania-capital) | D | None |  | Verified | ✓ |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| LS | Lower Shaft | Exit | Lore Room | easy pogo off nuphar OR ( Drifters Cloak OR Swim OR Clawline Left OR Sharpdart OR ( Sprint Left AND Dash Left ) ) |  | Verified | ✓ |  |
+| LS | Lower Shaft | Lore Room | Exit | ( easy pogo off nuphar OR ( Drifters Cloak OR Swim OR Clawline Right OR Sharpdart OR ( Sprint Right AND Dash Right ) ) ) AND ( Silk Soar OR Cling Grip Right OR Cling Grip LEft OR Scuttlebrace ) |  | Verified | ✓ |  |
+| US | Upper Shaft | Exit | Clover Dancers | Silk Soar OR Cling Grip Left OR Cling Grip Right OR Scuttlebrace |  | Verified | ✓ |  |
+| US | Upper Shaft | Clover Dancers | Exit | None |  | Verified | ✓ |  |
+
+#### Check Locations
+
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Verdania Lore Tablet | Lore Room | Get 17 Verdania shards |  | Verified | lore | ✓ | Get ingame id |
+| 2 | Conjoined heart | Clover Dancers | prereq clover Dancers 1 |  | Verified | collectible | ✓ |  |
+| 3 | Nuphar 1 | Lore Room | None |  | Verified | enemy | ✓ |  |
+| 4 | Nuphar 2 | Lore Room | None |  | Verified | enemy | ✓ |  |
+| 5 | Clover Dancers 1 | Clover Dancers | None |  | Verified | boss | ✓ |  |
+| 6 | Clover Dancers 2 | Clover Dancers | Invalid |  | Verified | boss | ✓ | The unhittable phantom that pairs with green prince |
+
+<a name="room-verdania--dead-verdania-bench"></a>
+
+### Dead Verdania Bench (Clover_20)
+
+[View Room Page](./verdania/dead-verdania-bench.md)
+
+**Game ID:** Clover_20
+
+**Contributors:** Pyxl Mapping Machine
+
+#### Subrooms
+
+| No. | Subroom | Annotated |
+| --- | --- | --- |
+| S1 | Entrance | ✓ |
+| S2 | Bench | ✓ |
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left1 | Entrance | [Dead Verdania Main (Clover_01)](#room-verdania--dead-verdania-main) | R | None |  | Verified | ✓ |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| FS | Fookin Spiders | Entrance | Bench | ( ( ( Silk Soar AND ( Easy Beast Crest Pogo OR Dash OR Clawline OR Faydown Cloak OR Drifters Cloak ) ) OR ( Faydown Cloak AND ( Cling Grip OR Ledge Grab ) ) ) AND ( Clawline OR ( Dash AND ( Faydown Cloak OR Drifters Cloak ) ) OR Sharpdart ) ) |  | Verified | ✓ |  |
+| FS | Fookin Spiders | Bench | Entrance | ( ( ( Silk Soar AND ( Easy Beast Crest Pogo OR Dash OR Clawline OR Faydown Cloak OR Drifters Cloak ) ) OR ( Faydown Cloak AND ( Cling Grip OR Ledge Grab ) ) ) AND ( Clawline OR ( Dash AND ( Faydown Cloak OR Drifters Cloak ) ) OR Sharpdart ) ) |  | Verified | ✓ |  |
+
+#### Check Locations
+
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Dead Verdania Bench | Bench | None |  | Verified | bench | ✓ |  |
+| 2 | Map Verdania | Bench | None |  | Verified | collectible | ✓ |  |
+
+<a name="room-verdania--dead-verdania-main"></a>
+
+### Dead Verdania Main (Clover_01)
+
+[View Room Page](./verdania/dead-verdania-main.md)
+
+**Game ID:** Clover_01
+
+**Contributors:** Pyxl
+
+#### Subrooms
+
+| No. | Subroom | Annotated |
+| --- | --- | --- |
+| S1 | Left Transition | ✓ |
+| S2 | Green Prince | ✓ |
+| S3 | Right Transition | ✓ |
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left1 | Left Transition | [Greymoor Craw Lake (Greymoor_15b)](#room-greymoor--greymoor-craw-lake) | LR | None |  | Verified | ✓ | Unless wall on other side is broken you cant go further than 2 steps out the room |
+| R | right1 | Right Transition | [Dead Verdania Bench (Clover_20)](#room-verdania--dead-verdania-bench) | L | None |  | Verified | ✓ |  |
+| DR | door_wakeOnGround | Green Prince | [Verdania Entrance (Clover_01b)](#room-verdania--verdania-entrance) | L | Needolin AND Elegy of the deep |  | Verified | ✓ |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| SP | Spikes | Left Transition | Green Prince | spike pogo OR Clawline X 3 OR ( Faydown Cloak AND ( Drifters Cloak OR ( Sprint AND ( Ledge Grab OR Cling Grip OR Dash ) ) OR ( Dash AND Cling Grip ) OR Sharpdart ) ) OR ( Sprint AND ( ( Ledge Grab AND Medium Beast Needle Strike  ) OR Drifters Cloak ) ) OR ( Drifters Cloak AND ( Cling Grip OR Scuttlebrace ) ) OR  ( Sharpdart AND ( Drifters Cloak OR Sprint OR Dash OR Easy Beast Crest Pogo OR Easy Heal Stall OR Medium Flea Brew Stall OR Easy Flintslate Stall OR Easy Plasmium Phial Stall OR Medium Voltvessels Stall OR  Easy Shaman Crest Pogo ) ) |  | Verified | ✓ |  |
+| SP | Spikes | Green Prince | Left Transition | spike pogo OR Clawline X 3 OR ( Faydown Cloak AND ( Drifters Cloak OR ( Sprint AND ( Ledge Grab OR Cling Grip OR Dash ) ) OR ( Dash AND Cling Grip ) OR Sharpdart ) ) OR ( Sprint AND ( ( Ledge Grab AND Medium Beast Needle Strike  ) OR Drifters Cloak ) ) OR ( Drifters Cloak AND ( Cling Grip OR Scuttlebrace ) ) OR  ( Sharpdart AND ( Drifters Cloak OR Sprint OR Dash OR Easy Beast Crest Pogo OR Easy Heal Stall OR Medium Flea Brew Stall OR Easy Flintslate Stall OR Easy Plasmium Phial Stall OR Medium Voltvessels Stall OR  Easy Shaman Crest Pogo ) ) |  | Verified | ✓ |  |
+| BW | Breakable Wall | Green Prince | Right Transition | Prereq Dead Verdania Breakable Wall Left Side OR Prereq Dead Verdania Breakable Wall Right Side |  | Verified | ✓ |  |
+| BW | Breakable Wall | Right Transition | Green Prince | Prereq Dead Verdania Breakable Wall Left Side OR Prereq Dead Verdania Breakable Wall Right Side |  | Verified | ✓ |  |
+
+#### Check Locations
+
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Dead Verdania Breakable Wall Left Side | Green Prince | Needle Up OR Needle Right OR Needle Down |  | Verified | blockade | ✓ | Same Wall |
+| 2 | Dead Verdania Breakable Wall Right Side | Right Transition | Needle Up OR Needle Left OR Needle Down |  | Verified | blockade | ✓ | Same Wall |
+
+<a name="room-verdania--palestag"></a>
+
+### Palestag (Clover_19)
+
+[View Room Page](./verdania/palestag.md)
+
+**Game ID:** Clover_19
+
+**Contributors:** Pyxl
+
+#### Subrooms
+
+| No. | Subroom | Annotated |
+| --- | --- | --- |
+| S1 | Arena | ✓ |
+| S2 | Top Right | ✓ |
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| C | top1 | Top Right | [Verdania Top Room (Clover_06)](#room-verdania--verdania-top-room) | RF | Cling Grip left  OR Silk Soar OR ( Faydown cloak AND Cling Grip right ) OR Scuttlebrace |  | Verified | ✓ |  |
+| L | left1 | Arena | [Verdania Left Side Tall Room (Clover_05c)](#room-verdania--verdania-left-side-tall-room) | UR | None |  | Verified | ✓ |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| TW | THE WALL | Top Right | Arena | None |  | Verified | ✓ |  |
+| TW | THE WALL | Arena | Top Right | prereq palestag AND ( Faydown Cloak OR Cling Grip Right OR Ledge Grab Right ) |  | Verified | ✓ |  |
+
+#### Check Locations
+
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Verdania Essence 3 | Arena | prereq palestag |  | Verified | collectible | ✓ |  |
+| 2 | Verdania Essence 4 | Arena | prereq palestag |  | Verified | collectible | ✓ |  |
+| 3 | Verdania Essence 5 | Arena | prereq palestag |  | Verified | collectible | ✓ |  |
+| 4 | Verdania Essence 6 | Arena | prereq palestag |  | Verified | collectible | ✓ |  |
+| 5 | Verdania Essence 7 | Arena | prereq palestag |  | Verified | collectible | ✓ |  |
+| 6 | Palestag | Arena | None |  | Verified | boss | ✓ |  |
+| 7 | Nuphar 1 | Arena | Invalid |  | Verified | enemy | ✓ | never killable |
+| 8 | Nuphar 2 | Arena | invalid |  | Verified | enemy | ✓ | never killable |
+
+<a name="room-verdania--verdania-big-button-room"></a>
+
+### Verdania Big Button Room (Clover_18)
+
+[View Room Page](./verdania/verdania-big-button-room.md)
+
+**Game ID:** Clover_18
+
+**Contributors:** Pyxl
+
+#### Subrooms
+
+| No. | Subroom | Annotated |
+| --- | --- | --- |
+| S1 | Entrance | ✓ |
+| S2 | Shrine | ✓ |
+| S3 | Button LR | ✓ |
+| S4 | Button UR | ✓ |
+| S5 | Button L | ✓ |
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left1 | Entrance | [Verdania Right Side Tall Room (Clover_03)](#room-verdania--verdania-right-side-tall-room) | R | None |  | Verified | ✓ |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| LL | Left Lake | Entrance | Shrine | ( Clawline Right AND ( Faydown Cloak OR Silk Soar ) ) OR ( Swim AND SIlk Soar AND Drifters Cloak ) |  | Verified | ✓ |  |
+| LL | Left Lake | Shrine | Entrance | Silk Soar AND Clawline left |  | Verified | ✓ |  |
+| RL | Right Lake | Shrine | Button LR | Swim OR ( Clawline Right AND ( easy Shaman crest pogo OR Drifters Cloak OR EAsy enemy pogo OR Faydown Cloak ) ) |  | Verified | ✓ |  |
+| RL | Right Lake | Button LR | Shrine | Swim OR ( Clawline left AND ( Easy shaman Crest pogo OR Drifters Cloak OR Easy Enemy pogo OR Faydown Cloak ) ) OR ( Cling Grip Right AND Faydown Cloak AND Drifters Cloak ) |  | Verified | ✓ |  |
+| QP1 | Quick platforming 1 | Button LR | Button UR | ( Silk Soar OR Cling Grip Right ) AND ( Faydown Cloak AND Clawline Left AND ( Drifters Cloak OR Clawline Right ) ) |  | Verified | ✓ |  |
+| QP1 | Quick platforming 1 | Button UR | Button LR | None |  | Verified | ✓ |  |
+| QP2 | Quick Platforming 2 | Button LR | Button L | ( Silk Soar OR Cling Grip Right ) AND ( Faydown Cloak AND Clawline Left AND ( Drifters Cloak OR Clawline Right ) ) |  | Verified | ✓ |  |
+| QP2 | Quick Platforming 2 | Button L | Button LR | Drifters Cloak OR Clawline Right OR Easy Beast Crest Pogo OR Faydown Cloak OR Sharpdart |  | Verified | ✓ |  |
+
+#### Check Locations
+
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Button LR | Button LR | None |  | Verified | switch | ✓ |  |
+| 2 | Button UR | Button UR | None |  | Verified | switch | ✓ |  |
+| 3 | Button L | Button L | None |  | Verified | switch | ✓ |  |
+| 4 | Big Button | Shrine | prereq button lr AND Prereq button ur AND Prereq Button L |  | Verified | switch | ✓ | Tells you to use Needolin but you dont actually need to own it |
+| 5 | Verdania Essence 13 | Shrine | prereq big button |  | Verified | collectible | ✓ |  |
+| 6 | Verdania Essence 14 | Shrine | prereq big button |  | Verified | collectible | ✓ |  |
+| 7 | Verdania Essence 15 | Shrine | prereq big button |  | Verified | collectible | ✓ |  |
+| 8 | Verdania Essence 16 | Shrine | prereq big button |  | Verified | collectible | ✓ |  |
+| 9 | Verdania Essence 17 | Shrine | prereq big button |  | Verified | collectible | ✓ |  |
+| 10 | Pendra 1 | Entrance | Clawline RIght OR Swim |  | Verified | enemy | ✓ |  |
+| 11 | Pendragor 1 | Button L | None |  | Verified | enemy | ✓ |  |
+| 12 | Pendragor 2 | Button LR | None |  | Verified | enemy | ✓ |  |
+| 13 | Pendragor 3 | Shrine | None |  | Verified | enemy | ✓ |  |
+| 14 | Leaf Glider 1 | Entrance | None |  | Verified | enemy | ✓ |  |
+| 15 | Leaf Glider 2 | Button LR | None |  | Verified | enemy | ✓ |  |
+| 16 | Leaf Glider 3 | Button LR | None |  | Verified | enemy | ✓ |  |
+| 17 | Leaf Glider 4 | Button LR | None |  | Verified | enemy | ✓ |  |
+| 18 | Leaf Glider 5 | Entrance | None |  | Verified | enemy | ✓ |  |
+| 19 | Leaf Glider 6 | Button LR | None |  | Verified | enemy | ✓ |  |
+
+<a name="room-verdania--verdania-big-room"></a>
+
+### Verdania Big Room (Clover_02c)
+
+[View Room Page](./verdania/verdania-big-room.md)
+
+**Game ID:** Clover_02c
+
+**Contributors:** Pyxl
+
+#### Subrooms
+
+| No. | Subroom | Annotated |
+| --- | --- | --- |
+| S1 | Start | ✓ |
+| S2 | Main | ✓ |
+| S3 | Top Left | ✓ |
+| S4 | Verdanir Arena | ✓ |
+| S5 | Escalion Encounter | ✓ |
+| S6 | Top Right Exit | ✓ |
+| S7 | Nuphar Lake | ✓ |
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| R | right1 | Top Right Exit | [Verdania Right Side Tall Room (Clover_03)](#room-verdania--verdania-right-side-tall-room) | LL | None |  | Verified | ✓ |  |
+| UL | left2 | Top Left | [Verdania Left Side Tall Room (Clover_05c)](#room-verdania--verdania-left-side-tall-room) | LR | None |  | Verified | ✓ |  |
+| LL | left1 | Start | [Verdania Entrance (Clover_01b)](#room-verdania--verdania-entrance) | R | None |  | Verified | ✓ |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| SM | Start Main | Start | Main | Easy Beast Crest Pogo OR ( Silk Soar AND ( Ledge Grab Right OR Cling Grip Right OR Dash Right OR Faydown Cloak OR Drifters Cloak OR Sharpdart OR Clawline Right OR Easy Heal Stall OR   Easy Hunter Crest Pogo OR Easy Reaper Crest Pogo OR Medium Witch Crest Pogo OR Easy Architect Crest Pogo OR Hard Shaman Crest Pogo OR Easy Naked Crest Pogo ) ) OR Clawline Right OR Drifters Cloak OR Faydown Cloak OR ( Dash Right AND ( Ledge Grab Right OR Cling Grip RIght ) ) |  | Verified | ✓ | I |
+| SM | Start Main | Main | Start | None |  | Verified | ✓ | Hate |
+| STL | Start Top Left | Start | Top Left | prereq Verdania Big Room Shortcut AND ( Silk Soar OR  ( Cling Grip left AND ( Faydown Cloak OR Drifters Cloak OR Clawline Left OR Dash Left ) ) ) |  | Verified | ✓ | This |
+| STL | Start Top Left | Top Left | Start | prereq Verdania Big Room Shortcut |  | Verified | ✓ | Entire |
+| TLV | Top Left Verdanir Arena | Top Left | Verdanir Arena | Silk Soar OR Cling Grip Right OR Scuttlebrace OR ( Faydown Cloak AND Cling Grip Right ) |  | Verified | ✓ | Room |
+| TLV | Top Left Verdanir Arena | Verdanir Arena | Top Left | None |  | Verified | ✓ | And |
+| MVA | Main Verdanir Arena | Main | Verdanir Arena | Faydown Cloak |  | Verified | ✓ | All |
+| MVA | Main Verdanir Arena | Verdanir Arena | Main | None |  | Verified | ✓ | Its |
+| MEE | Naub Escalion Encounter | Main | Escalion Encounter | Faydown Cloak |  | Verified | ✓ | Enemys |
+| MEE | Naub Escalion Encounter | Escalion Encounter | Main | None |  | Verified | ✓ |  |
+| MNL | Escalion encounter Nuphar Lake | Escalion Encounter | Nuphar Lake | ( Faydown Cloak AND Proficient Movement ) OR Clawline Right OR Drifters Cloak OR Swim OR Sharpdart OR Dash RIght OR Sprint Right |  | Verified | ✓ |  |
+| MNL | Escalion encounter Nuphar Lake | Nuphar Lake | Escalion Encounter | ( Faydown Cloak AND Proficient Movement ) OR Clawline left OR Drifters Cloak OR Swim OR Sharpdart OR Dash left OR Sprint left |  | Verified | ✓ |  |
+| NLR | Nuphar Lake Right | Nuphar Lake | Top Right Exit | Clawline OR ( Ledge Grab Right AND ( Drifters Cloak OR ( Faydown Cloak AND Proficient movement ) OR ( Swim AND SIlk Soar AND SPrint Right AND Proficient Movement ) ) ) |  | Verified | ✓ |  |
+| NLR | Nuphar Lake Right | Top Right Exit | Nuphar Lake | None |  | Verified | ✓ |  |
+| VAE | Verdanir Arena Escalion | Verdanir Arena | Escalion Encounter | Clawline RIght OR Faydown Cloak OR Sprint Right OR Sharpdart OR Drifters Cloak  OR ( medium Beast Crest Pogo AND Ledge grab right ) |  | Verified | ✓ |  |
+| VAE | Verdanir Arena Escalion | Escalion Encounter | Verdanir Arena | Clawline left OR Faydown Cloak OR Sprint left OR Sharpdart OR Drifters Cloak  OR ( medium Beast Crest Pogo AND Ledge grab left ) |  | Verified | ✓ |  |
+
+#### Check Locations
+
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Verdania Essence 1 | Main | Faydown Cloak AND Ledge Grab Right |  | Verified | resource | ✓ |  |
+| 2 | Verdania Big Room Shortcut | Top Left | None |  | Verified | blockade | ✓ |  |
+| 3 | Leaf Glider 1 | Start | sharpdart OR Clawline Right |  | Verified | enemy | ✓ |  |
+| 4 | Leaf Glider 2 | Start | sharpdart OR Clawline Right |  | Verified | enemy | ✓ |  |
+| 5 | Leaf Glider 3 | Start | sharpdart OR Clawline Right |  | Verified | enemy | ✓ |  |
+| 6 | Leaf Roller 1 | Main | None |  | Verified | enemy | ✓ |  |
+| 7 | Leaf Glider 4 | Main | ( Swim OR Drifters Cloak OR Faydown Cloak OR Easy Beast Crest Pogo OR ( Sprint Right AND Dash Right ) ) AND ( Clawline Right OR Sharpdart ) |  | Verified | enemy | ✓ |  |
+| 8 | Leaf Roller 2 | Nuphar Lake | Clawline OR ( Ledge Grab Right AND ( Drifters Cloak OR ( Faydown Cloak AND Proficient movement ) OR ( Swim AND SIlk Soar AND SPrint Right AND Proficient Movement ) ) ) |  | Verified | enemy | ✓ |  |
+| 9 | Nuphar 1 | Nuphar Lake | None |  | Verified | enemy | ✓ |  |
+| 10 | Leaf Glider 5 | Nuphar Lake | sharpdart OR Clawline |  | Verified | enemy | ✓ |  |
+| 11 | Leaf Glider 6 | Nuphar Lake | sharpdart OR Clawline |  | Verified | enemy | ✓ |  |
+| 12 | Leaf Glider 7 | Nuphar Lake | sharpdart OR Clawline |  | Verified | enemy | ✓ |  |
+| 13 | Escalion 1 | Escalion Encounter | None |  | Verified | enemy | ✓ |  |
+| 14 | Leaf Roller 3 | Escalion Encounter | None |  | Verified | enemy | ✓ |  |
+| 15 | Verdanir 1 | Verdanir Arena | None |  | Verified | enemy | ✓ |  |
+| 16 | Verdanir 2 | Verdanir Arena | None |  | Verified | enemy | ✓ |  |
+
+<a name="room-verdania--verdania-capital"></a>
+
+### Verdania Capital (Clover_04b)
+
+[View Room Page](./verdania/verdania-capital.md)
+
+**Game ID:** Clover_04b
+
+**Contributors:** Pyxl
+
+#### Subrooms
+
+| No. | Subroom | Annotated |
+| --- | --- | --- |
+| S1 | Right Transition | ✓ |
+| S2 | Left Arena | ✓ |
+| S3 | The door | ✓ |
+| S4 | Lilypads | ✓ |
+| S5 | Ledge Transition | ✓ |
+| S6 | Centre Bulb | ✓ |
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| R | right1 | Right Transition | [Verdania Right Side Tall Room (Clover_03)](#room-verdania--verdania-right-side-tall-room) | UL | None |  | Verified | ✓ |  |
+| D | door1 | The door | [Clover Dancers (Clover_10)](#room-verdania--clover-dancers) | L | ( get 5 Verdania Shards AND Prereq Palestag IN Palestag ) OR ( Get 12 verdania shards ) |  | Verified | ✓ |  |
+| UL | left1 | Ledge Transition | [Verdania Kindanir egg Room (Clover_11)](#room-verdania--verdania-kindanir-egg-room) | R | None |  | Verified | ✓ |  |
+| LL | left2 | Left Arena | [Verdania Left Side Tall Room (Clover_05c)](#room-verdania--verdania-left-side-tall-room) | MR | None |  | Verified | ✓ |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| NP | Nuphar Gap | Right Transition | Lilypads | Swim OR ( easy pogo off nuphar AND ( Sprint left OR Clawline Left OR Sharpdart OR Faydown Cloak OR Drifters Cloak ) ) |  | Verified | ✓ |  |
+| NP | Nuphar Gap | Lilypads | Right Transition | Swim OR ( easy pogo off nuphar AND ( Sprint right OR Clawline right OR Sharpdart OR Faydown Cloak OR Drifters Cloak ) ) |  | Verified | ✓ |  |
+| RL | Right Lake | Lilypads | Centre Bulb | Swim OR clawline left OR Sharpdart OR Drifters Cloak OR ( ( Sprint Left OR Dash Left OR Faydown Cloak ) AND ( Sprint Left OR Dash Left OR Faydown Cloak ) ) |  | Verified | ✓ |  |
+| RL | Right Lake | Centre Bulb | Lilypads | Swim OR clawline Right OR Sharpdart OR Drifters Cloak OR ( ( Sprint Right OR Dash RIght OR Faydown Cloak ) AND ( Sprint RIght OR Dash Right OR Faydown Cloak ) ) |  | Verified | ✓ |  |
+| LL | Left Lake | Centre Bulb | Left Arena | Swim OR ( Easy pogo off Nuphar AND ( ( Easy Beast Crest Pogo AND Easy pogo off Nuphar AND Easy Pogo off Pendra ) OR Clawline Left OR ( Sharpdart AND ( Dash left OR Drifters Cloak OR Faydown Cloak OR Sprint left OR Easy Beast Crest Pogo OR Easy Reaper Pogo OR  Easy Shaman Pogo ) ) OR ( Sprint Left AND ( Faydown Cloak OR Drifters Cloak ) ) ) ) |  | Verified | ✓ |  |
+| LL | Left Lake | Left Arena | Centre Bulb | Swim OR ( Easy pogo off Nuphar AND ( ( Easy Beast Crest Pogo AND Easy pogo off Nuphar AND Easy Pogo off Pendra ) OR Clawline Right OR ( Sharpdart AND ( Dash Right OR Drifters Cloak OR Faydown Cloak OR Sprint Right OR Easy Beast Crest Pogo OR Easy Reaper Pogo OR  Easy Shaman Pogo ) ) OR ( Sprint Right AND ( Faydown Cloak OR Drifters Cloak ) ) ) ) |  | Verified | ✓ |  |
+| LB | Lower BUlbing | Centre Bulb | Ledge Transition | Easy Shaman Pogo OR Easy Reaper Pogo OR ( ( Ledge Grab Left OR Cling Grip Left ) AND ( Easy Witch Pogo OR Medium Beast Crest Pogo OR Easy Wanderer Pogo OR Easy Hunter Pogo OR Clawline Left ) ) OR Faydown Cloak OR Silk Soar |  | Verified | ✓ |  |
+| LB | Lower BUlbing | Ledge Transition | Centre Bulb | None |  | Verified | ✓ |  |
+| UB | Upper Bulbing | Centre Bulb | The door | Silk Soar OR ( Faydown Cloak AND Cling Grip ) |  | Verified | ✓ |  |
+| UB | Upper Bulbing | The door | Centre Bulb | None |  | Verified | ✓ |  |
+
+#### Check Locations
+
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Verdanir 1 | The door | ( get 5 Verdania Shards AND Prereq Palestag IN Palestag ) OR ( Get 12 verdania shards ) |  | Verified | enemy | ✓ |  |
+| 2 | Verdanir 2 | Left Arena | None |  | Verified | enemy | ✓ | Doesnt Respawn |
+| 3 | Verdanir 3 | Left Arena | None |  | Verified | enemy | ✓ | Doesnt Respawn |
+| 4 | Kindanir 1 | Left Arena | None |  | Verified | enemy | ✓ | Doesnt Respawn |
+| 5 | Kindanir 2 | Left Arena | None |  | Verified | enemy | ✓ | Doesnt Respawn |
+| 6 | Escalion 1 | Left Arena | None |  | Verified | enemy | ✓ | Doesnt Respawn |
+| 7 | Escalion 2 | Left Arena | None |  | Verified | enemy | ✓ | Doesnt Respawn |
+| 8 | Verdanir 4 | Left Arena | None |  | Verified | enemy | ✓ | Doesnt Respawn |
+| 9 | Verdanir 5 | Left Arena | None |  | Verified | enemy | ✓ | Doesnt Respawn |
+| 10 | Nuphar 1 | Lilypads | None |  | Verified | enemy | ✓ | Nuphar jank included |
+| 11 | Nuphar 2 | Lilypads | None |  | Verified | enemy | ✓ |  |
+| 12 | Nuphar 3 | Lilypads | None |  | Verified | enemy | ✓ |  |
+| 13 | Nuphar 4 | Centre Bulb | None |  | Verified | enemy | ✓ |  |
+| 14 | Nuphar 5 | Centre Bulb | None |  | Verified | enemy | ✓ |  |
+| 15 | Nuphar 6 | Left Arena | None |  | Verified | enemy | ✓ |  |
+| 16 | Pendra 1 | Left Arena | None |  | Verified | enemy | ✓ |  |
+| 17 | Pendra 2 | Centre Bulb | None |  | Verified | enemy | ✓ |  |
+| 18 | Escalion 3 | Lilypads | None |  | Verified | enemy | ✓ |  |
+| 19 | Verdanir Arena | Left Arena | None |  | Verified | gauntlet | ✓ |  |
+
+<a name="room-verdania--verdania-cloverstag-steps"></a>
+
+### Verdania Cloverstag Steps (Clover_16)
+
+[View Room Page](./verdania/verdania-cloverstag-steps.md)
+
+**Game ID:** Clover_16
+
+**Contributors:** Pyxl
+
+#### Subrooms
+
+| No. | Subroom | Annotated |
+| --- | --- | --- |
+| S1 | Ground Level Right | ✓ |
+| S2 | Ground Level Left | ✓ |
+| S3 | Essence Shrine | ✓ |
+| S4 | Leaf Roller Platform | ✓ |
+| S5 | Lower Pendra Plaforms | ✓ |
+| S6 | Upper Pendra Platform | ✓ |
+| S7 | Hidden Room | ✓ |
+| S8 | Upper Cloverstag Steps | ✓ |
+| S9 | Top Exit | ✓ |
+| S10 | Cloverstag Wall | ✓ |
+
+- **Cloverstag Wall:** Why on earth did i need to make this its own subroom team cherry
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| R | right1 | Ground Level Right | [Verdania Left Side Tall Room (Clover_05c)](#room-verdania--verdania-left-side-tall-room) | UL | None |  | Verified | ✓ |  |
+| C | top1 | Top Exit | [Verdania Top Room (Clover_06)](#room-verdania--verdania-top-room) | LF | None |  | Verified | ✓ |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| GL | Ground Level | Ground Level Right | Ground Level Left | Ledge Grab Left OR Cling Grip Left OR Dash Left OR Faydown Cloak OR Silk Soar OR Easy beast charge OR Easy Shaman Pogo OR ( medium heal stall AND Easy Beast pogo ) OR Easy pogo off cloverstag |  | Verified | ✓ |  |
+| GL | Ground Level | Ground Level Left | Ground Level Right | None |  | Verified | ✓ |  |
+| GLR | Ground Right To Roller | Ground Level Right | Leaf Roller Platform | Silk Soar OR ( ( Cling Grip Right OR Scuttlebrace ) AND ( Faydown Cloak OR Clawline Right OR Medium pogo off cloverstag ) ) |  | Verified | ✓ |  |
+| GLR | Ground Right To Roller | Leaf Roller Platform | Ground Level Right | None |  | Verified | ✓ |  |
+| GLL | Ground Left To Roller | Ground Level Left | Leaf Roller Platform | Faydown Cloak OR ( ( Dash Right OR Clawline Right OR Sharpdart OR Easy Beast Charge OR Drifters Cloak ) AND ( Ledge grab right OR Cling Grip Right ) ) |  | Verified | ✓ |  |
+| GLL | Ground Left To Roller | Leaf Roller Platform | Ground Level Left | None |  | Verified | ✓ |  |
+| GLS | Ground Left To Shrine | Ground Level Left | Essence Shrine | Easy Shaman Pogo OR ( ( Ledge Grab Left OR Cling Grip left ) AND ( Easy Reaper Pogo OR Easy Wanderer Pogo OR Clawline Left ) ) OR Faydown Cloak |  | Verified | ✓ |  |
+| GLS | Ground Left To Shrine | Essence Shrine | Ground Level Left | None |  | Verified | ✓ |  |
+| GLP | Ground Left To Lower Pendra | Ground Level Left | Lower Pendra Plaforms | Silk Soar OR ( Cling Grip Right AND ( Clawline Right OR Faydown Cloak ) ) OR ( medium pogo off pendra AND ( Faydown Cloak OR Clawline RIght OR Drifters Cloak ) ) |  | Verified | ✓ |  |
+| GLP | Ground Left To Lower Pendra | Lower Pendra Plaforms | Ground Level Left | None |  | Verified | ✓ |  |
+| PP | Pendra Platforms | Lower Pendra Plaforms | Upper Pendra Platform | easy pogo off pendra OR ( Faydown Cloak AND ( Ledge Grab Left OR Ledge Grab Right OR Cling Grip Right OR Cling Grip Left OR Easy Shaman pogo OR Easy heal stall OR Easy beast charge ) ) OR Silk Soar OR ( Cling Grip Right AND ( Dash OR Sprint OR Clawline OR Sharpdart OR Drifters Cloak OR Easy beast charge ) ) |  | Verified | ✓ |  |
+| PP | Pendra Platforms | Upper Pendra Platform | Lower Pendra Plaforms | None |  | Verified | ✓ |  |
+| HW | Hidden Wall | Upper Pendra Platform | Cloverstag Wall | Clawline right OR Dash Right OR Sprint Right OR Faydown Cloak OR Sharpdart OR Cling Grip Right OR Scuttlebrace OR Easy Beast pogo OR easy beast charge OR drifters cloak OR Easy heal stall OR Easy hunter pogo OR easy Reaper Pogo OR Easy wanderer charge OR Hard Witch pogo OR Easy Architect pogo OR Easy Shaman Pogo |  | Verified | ✓ |  |
+| HW | Hidden Wall | Cloverstag Wall | Upper Pendra Platform | Clawline right OR Dash Right OR Sprint Right OR Faydown Cloak OR Sharpdart OR Cling Grip Right OR Scuttlebrace OR Easy Beast pogo OR easy beast charge OR drifters cloak OR Easy heal stall OR Easy hunter pogo OR easy Reaper Pogo OR Easy wanderer charge OR Easy Architect pogo OR Easy Shaman Pogo |  | Verified | ✓ |  |
+| UPC | Upper Pendra To Steps | Upper Pendra Platform | Upper Cloverstag Steps | Clawline left OR sharpdart OR Drifters cloak OR ( faydown cloak AND Easy pogo off pendra ) |  | Verified | ✓ |  |
+| UPC | Upper Pendra To Steps | Upper Cloverstag Steps | Upper Pendra Platform | Clawline right OR sharpdart OR Drifters cloak OR ( faydown cloak AND Easy pogo off pendra ) |  | Verified | ✓ |  |
+| LPC | Lower Pendra To Steps | Lower Pendra Plaforms | Upper Cloverstag Steps | Silk Soar OR ( Faydown Cloak AND ( Cling Grip Left OR Scuttlebrace ) ) |  | Verified | ✓ |  |
+| LPC | Lower Pendra To Steps | Upper Cloverstag Steps | Lower Pendra Plaforms | None |  | Verified | ✓ |  |
+| STT | Steps To Top | Upper Cloverstag Steps | Top Exit | Silk Soar OR ( Faydown Cloak AND ( Cling Grip Right OR Scuttlebrace ) AND ( Clawline Left OR Sharpdart ) ) |  | Verified | ✓ |  |
+| STT | Steps To Top | Top Exit | Upper Cloverstag Steps | None |  | Verified | ✓ |  |
+| HSW | Hidden Stag Wall | Cloverstag Wall | Hidden Room | Prereq cloverstag wall |  | Verified | ✓ |  |
+| HSW | Hidden Stag Wall | Hidden Room | Cloverstag Wall | prereq cloverstag wall |  | Verified | ✓ |  |
+
+#### Check Locations
+
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Verdania Essence 9 | Essence Shrine | easy pogo off nuphar OR Faydown Cloak OR Swim OR Clawline Right |  | Verified | collectible | ✓ |  |
+| 2 | Verdania Essence 10 | Hidden Room | Swim AND ( Silk Soar OR Faydown Cloak ) |  | Verified | collectible | ✓ |  |
+| 3 | Cloverstag Wall | Cloverstag Wall | Needle down OR Needle up OR needle Right |  | Verified | blockade | ✓ |  |
+| 4 | Leaf Roller 1 | Upper Cloverstag Steps | None |  | Verified | enemy | ✓ |  |
+| 5 | Pendra 1 | Lower Pendra Plaforms | None |  | Verified | enemy | ✓ |  |
+| 6 | Pendra 2 | Lower Pendra Plaforms | None |  | Verified | enemy | ✓ |  |
+| 7 | Leaf Roller 2 | Leaf Roller Platform | None |  | Verified | enemy | ✓ |  |
+| 8 | Pendra 3 | Upper Pendra Platform | None |  | Verified | enemy | ✓ |  |
+| 9 | Cloverstag 1 | Ground Level Left | None |  | Verified | enemy | ✓ | Seems to kill itself often before player can |
+| 10 | Cloverstag 2 | Upper Cloverstag Steps | None |  | Verified | enemy | ✓ |  |
+| 11 | Cloverstag 3 | Leaf Roller Platform | Invalid |  | Verified | enemy | ✓ | Just doesnt exist even on several reloads to check rng |
+| 12 | Cloverstag 4 | Ground Level Right | None |  | Verified | enemy | ✓ |  |
+| 13 | Nuphar 1 | Ground Level Right | None |  | Verified | enemy | ✓ |  |
+| 14 | Nuphar 2 | Ground Level Left | None |  | Verified | enemy | ✓ |  |
+| 15 | Nuphar 3 | Ground Level Left | None |  | Verified | enemy | ✓ |  |
+| 16 | Nuphar 4 | Hidden Room | None |  | Verified | enemy | ✓ | think this one is scripted not to be hostile |
+| 17 | Leaf Glider 1 | Ground Level Right | None |  | Verified | enemy | ✓ |  |
+| 18 | Leaf Glider 2 | Ground Level Right | None |  | Verified | enemy | ✓ |  |
+
+<a name="room-verdania--verdania-entrance"></a>
+
+### Verdania Entrance (Clover_01b)
+
+[View Room Page](./verdania/verdania-entrance.md)
+
+**Game ID:** Clover_01b
+
+**Contributors:** Pyxl
+
+#### Subrooms
+
+| No. | Subroom | Annotated |
+| --- | --- | --- |
+| S1 | Entrance | ✓ |
+| S2 | Right Side | ✓ |
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| R | right1 | Right Side | [Verdania Big Room (Clover_02c)](#room-verdania--verdania-big-room) | LL | None |  | Verified | ✓ |  |
+| L | door_wakeInMemory | Entrance | [Dead Verdania Main (Clover_01)](#room-verdania--dead-verdania-main) | DR | None |  | Verified | ✓ |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| GP | Green Prince | Entrance | Right Side | ( Swim AND ( Ledge Grab Right OR Cling Grip Right OR ( Easy Heal Stall AND Easy Beast Crest Pogo ) OR Dash Right OR Scuttlebrace OR Faydown Cloak OR Easy Enemy Pogo OR Easy Shaman Pogo ) ) OR Clawline Right OR ( Faydown Cloak AND ( Drifters Cloak OR Easy Beast Crest Pogo OR Sharpdart OR ( Sprint Right AND Dash Right ) OR Easy Enemy Pogo ) ) OR ( Drifters Cloak AND ( Cling Grip Right OR Sprint Right OR ( Dash Right AND Proficient Movement ) OR Sharpdart ) ) OR ( Easy Beast Crest Pogo AND ( Sharpdart OR ( Sprint Right AND Dash RIght ) ) ) |  | Verified | ✓ |  |
+| GP | Green Prince | Right Side | Entrance | Swim OR ( Drifters Cloak AND ( Proficient Movement OR Dash Left OR Sprint Left OR Cling Grip Left OR Ledge Grab Left ) ) OR Clawline Left OR ( Easy Enemy pogo AND ( Easy Beast Crest Pogo ) ) OR ( Faydown Cloak AND ( Sharpdart OR Dash Left ) ) |  | Verified | ✓ |  |
+
+#### Check Locations
+
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Pendra 1 | Entrance | None |  | Verified | enemy | ✓ |  |
+| 2 | Pendra 2 | Right Side | None |  | Verified | enemy | ✓ |  |
+
+<a name="room-verdania--verdania-kindanir-egg-room"></a>
+
+### Verdania Kindanir egg Room (Clover_11)
+
+[View Room Page](./verdania/verdania-kindanir-egg-room.md)
+
+**Game ID:** Clover_11
+
+**Contributors:** Pyxl
 
 #### Subrooms
 
@@ -10537,7 +11034,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| P | placeholder |  | [Greymoor Craw Lake (Greymoor_15b)](#room-greymoor--greymoor-craw-lake) | LR | invalid |  | Needs verification |  |  |
+| R | right1 |  | [Verdania Capital (Clover_04b)](#room-verdania--verdania-capital) | UL | None |  | Verified | ✓ |  |
 
 #### Subroom Connections
 
@@ -10545,7 +11042,212 @@ No subroom connections defined.
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Verdania Essence 8 |  | ( Faydown Cloak OR ( ( Easy Beast Pogo OR Easy Reaper Pogo OR Easy Shaman Pogo ) AND Cling Grip Right ) ) AND ( Dash RIght OR Sprint Right OR Clawline Right OR Sharpdart OR SCuttlebrace ) |  | Verified | collectible | ✓ | Add background pogos hero |
+| 2 | Kindanir 1 |  | None |  | Verified | enemy | ✓ |  |
+| 3 | Kindanir 2 |  | None |  | Verified | enemy | ✓ |  |
+| 4 | Kindanir 3 |  | None |  | Verified | enemy | ✓ |  |
+
+<a name="room-verdania--verdania-left-side-essence-shrine"></a>
+
+### Verdania Left Side Essence Shrine (Clover_21)
+
+[View Room Page](./verdania/verdania-left-side-essence-shrine.md)
+
+**Game ID:** Clover_21
+
+**Contributors:** Pyxl
+
+#### Subrooms
+
+| No. | Subroom | Annotated |
+| --- | --- | --- |
+| S1 | Dry Ground | ✓ |
+| S2 | Shrine | ✓ |
+| S3 | Wet | ✓ |
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| R | right1 | Dry Ground | [Verdania Left Side Tall Room (Clover_05c)](#room-verdania--verdania-left-side-tall-room) | LL | None |  | Verified | ✓ |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| DW | Dry to Wet | Dry Ground | Wet | ( Dash left OR Dash Right OR ledge Grab Right OR Ledge Grab Left OR Faydown Cloak OR Cling Grip Right OR Cling Grip Left OR ( Silk Soar AND Proficient Movement ) ) AND ( Swim OR Sharpdart OR Clawline Left ) |  | Verified | ✓ |  |
+| DW | Dry to Wet | Wet | Dry Ground | Clawline Right OR Drifters Cloak OR Faydown CLoak OR ( easy pogo off nuphar AND ( dash right OR Sprint Right ) ) OR Swim |  | Verified | ✓ |  |
+| WS | Wet to Shrine | Wet | Shrine | Sprint left OR Dash Left OR Clawline Left OR Sharpdart OR Faydown Cloak OR Drifters cloak OR Easy Beast pogo |  | Verified | ✓ |  |
+| WS | Wet to Shrine | Shrine | Wet | Sprint Right OR Dash Right OR Clawline Right OR Sharpdart OR Faydown Cloak OR Drifters cloak OR Easy Beast pogo |  | Verified | ✓ |  |
+
+#### Check Locations
+
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Verdania essence 11 | Shrine | Clawline Right OR ( Swim AND ( Faydown Cloak OR Dash Right OR Drifters Cloak ) ) |  | Verified | collectible | ✓ |  |
+| 2 | Escalion 1 | Dry Ground | None |  | Verified | enemy | ✓ |  |
+| 3 | Verdanir 1 | Wet | None |  | Verified | enemy | ✓ |  |
+| 4 | Verdanir 2 | Dry Ground | None |  | Verified | enemy | ✓ |  |
+| 5 | Nuphar 1 | Dry Ground | None |  | Verified | enemy | ✓ | Dont think this one can be hostile |
+
+<a name="room-verdania--verdania-left-side-tall-room"></a>
+
+### Verdania Left Side Tall Room (Clover_05c)
+
+[View Room Page](./verdania/verdania-left-side-tall-room.md)
+
+**Game ID:** Clover_05c
+
+**Contributors:** Pyxl
+
+#### Subrooms
+
+| No. | Subroom | Annotated |
+| --- | --- | --- |
+| S1 | Ground Level | ✓ |
+| S2 | Lower Level | ✓ |
+| S3 | Switch Level | ✓ |
+| S4 | Central Level | ✓ |
+| S5 | Level which exists cause of a single leaf roller | ✓ |
+| S6 | Top Level | ✓ |
+
+- **Switch Level:** only accessible from verdania capital before switch is pressed
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| UR | right2 | Top Level | [Palestag (Clover_19)](#room-verdania--palestag) | L | None |  | Verified | ✓ |  |
+| LL | left2 | Lower Level | [Verdania Left Side Essence Shrine (Clover_21)](#room-verdania--verdania-left-side-essence-shrine) | R | None |  | Verified | ✓ |  |
+| UL | left1 | Central Level | [Verdania Cloverstag Steps (Clover_16)](#room-verdania--verdania-cloverstag-steps) | R | None |  | Verified | ✓ |  |
+| MR | right1 | Switch Level | [Verdania Capital (Clover_04b)](#room-verdania--verdania-capital) | LL | None |  | Verified | ✓ |  |
+| LR | right3 | Ground Level | [Verdania Big Room (Clover_02c)](#room-verdania--verdania-big-room) | UL | None |  | Verified | ✓ |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| GL | Ground To Lower | Ground Level | Lower Level | Silk Soar OR ( Faydown Cloak AND Cling Grip Left ) |  | Verified | ✓ |  |
+| GL | Ground To Lower | Lower Level | Ground Level | None |  | Verified | ✓ |  |
+| LC | Lower to Central | Lower Level | Central Level | Silk Soar OR ( Faydown Cloak AND Cling Grip AND ( Easy Pogo OFF Pendra OR Clawline Right ) ) |  | Verified | ✓ |  |
+| LC | Lower to Central | Central Level | Lower Level | None |  | Verified | ✓ |  |
+| CS | Central to Switch | Central Level | Switch Level | prereq verdania gate AND ( Ledge grab right OR Cling Grip left OR Cling Grip Right OR Dash RIght OR ( Easy beast pogo AND easy heal stall ) OR easy beast charge OR Faydown Cloak OR silk soar) |  | Verified | ✓ |  |
+| CS | Central to Switch | Switch Level | Central Level | prereq verdania gate |  | Verified | ✓ |  |
+| CL | Central To Roller | Central Level | Level which exists cause of a single leaf roller | ( Silk Soar AND Proficient movement ) OR Cling Grip Left OR Cling Grip Right |  | Verified | ✓ |  |
+| CL | Central To Roller | Level which exists cause of a single leaf roller | Central Level | None |  | Verified | ✓ |  |
+| SL | Switch To Roller | Switch Level | Level which exists cause of a single leaf roller | prereq verdania gate AND ( cling grip right OR Cling Grip Left OR ( Silk Soar AND Proficient movement ) ) |  | Verified | ✓ |  |
+| SL | Switch To Roller | Level which exists cause of a single leaf roller | Switch Level | prereq verdania gate |  | Verified | ✓ |  |
+| TL | Top To Roller | Top Level | Level which exists cause of a single leaf roller | None |  | Verified | ✓ | One Way |
+
+#### Check Locations
+
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Verdania Gate | Switch Level | None |  | Verified | switch | ✓ |  |
+| 2 | Pendra 1 | Lower Level | None |  | Verified | enemy | ✓ |  |
+| 3 | Leaf Roller 1 | Level which exists cause of a single leaf roller | None |  | Verified | enemy | ✓ |  |
+| 4 | Leaf Roller 2 | Ground Level | None |  | Verified | enemy | ✓ |  |
+
+<a name="room-verdania--verdania-right-side-tall-room"></a>
+
+### Verdania Right Side Tall Room (Clover_03)
+
+[View Room Page](./verdania/verdania-right-side-tall-room.md)
+
+**Game ID:** Clover_03
+
+**Contributors:** Pyxl
+
+#### Subrooms
+
+| No. | Subroom | Annotated |
+| --- | --- | --- |
+| S1 | Lower Enemy Pool | ✓ |
+| S2 | Lower Left Entrance | ✓ |
+| S3 | Lower Right Transition | ✓ |
+| S4 | Upper Left Transtions | ✓ |
+| S5 | Statue | ✓ |
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| UL | left1 | Upper Left Transtions | [Verdania Capital (Clover_04b)](#room-verdania--verdania-capital) | R | None |  | Verified | ✓ |  |
+| LL | left2 | Lower Left Entrance | [Verdania Big Room (Clover_02c)](#room-verdania--verdania-big-room) | R | None |  | Verified | ✓ |  |
+| R | right1 | Lower Right Transition | [Verdania Big Button Room (Clover_18)](#room-verdania--verdania-big-button-room) | L | None |  | Verified | ✓ |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| LL | Lower Ledge | Lower Left Entrance | Lower Right Transition | None |  | Verified | ✓ |  |
+| LL | Lower Ledge | Lower Right Transition | Lower Left Entrance | Ledge Grab Left OR Cling Grip Left OR Faydown Cloak OR Silk Soar |  | Verified | ✓ |  |
+| EP | Enemy Pool | Lower Right Transition | Lower Enemy Pool | None |  | Verified | ✓ |  |
+| EP | Enemy Pool | Lower Enemy Pool | Lower Right Transition | ( Swim AND Silk Soar ) OR Cling Grip left OR ( Faydown Cloak AND ( Easy Enemy pogo OR Ledge Grab Right OR Scuttlebrace ) ) |  | Verified | ✓ |  |
+| LC | Lower Climb | Lower Left Entrance | Upper Left Transtions | Silk Soar OR ( Cling Grip AND ( Faydown Cloak OR ( Hard Shaman Crest Pogo AND ( clawline OR Sharpdart ) ) ) ) |  | Verified | ✓ |  |
+| LC | Lower Climb | Upper Left Transtions | Lower Left Entrance | None |  | Verified | ✓ |  |
+| UC | Upper Climb | Upper Left Transtions | Statue | Faydown Cloak OR ( Cling Grip left AND ( Hard Shaman Pogo OR Dash right OR Clawline right OR Sharpdart ) ) |  | Verified | ✓ |  |
+| UC | Upper Climb | Statue | Upper Left Transtions | None |  | Verified | ✓ |  |
+
+#### Check Locations
+
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Verdania Essence 2 | Statue | None |  | Verified | collectible |  |  |
+| 2 | Leaf Roller 1 | Lower Right Transition | None |  | Verified | enemy | ✓ |  |
+| 3 | Pendra 1 | Lower Enemy Pool | None |  | Verified | enemy | ✓ |  |
+
+<a name="room-verdania--verdania-top-room"></a>
+
+### Verdania Top Room (Clover_06)
+
+[View Room Page](./verdania/verdania-top-room.md)
+
+**Game ID:** Clover_06
+
+**Contributors:** Pyxl
+
+#### Subrooms
+
+| No. | Subroom | Annotated |
+| --- | --- | --- |
+| S1 | Dry land | ✓ |
+| S2 | Lilypads rng | ✓ |
+| S3 | Right exit tunnel | ✓ |
+| S4 | Shrine | ✓ |
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| RF | bot2 | Right exit tunnel | [Palestag (Clover_19)](#room-verdania--palestag) | C | None |  | Verified | ✓ |  |
+| LF | bot1 | Dry land | [Verdania Cloverstag Steps (Clover_16)](#room-verdania--verdania-cloverstag-steps) | C | None |  | Verified | ✓ |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| VE | Shrine | Dry land | Shrine | Silk Soar OR Clawline Left OR Faydown Cloak OR Drifters Cloak OR Sprint left OR Dash Left OR Sharpdart OR Easy Beast pogo |  | Verified | ✓ |  |
+| VE | Shrine | Shrine | Dry land | None |  | Verified | ✓ |  |
+| WE | Wet | Dry land | Lilypads rng | easy pogo off nuphar OR Swim OR Clawline RIght OR ( Faydown cloak AND Drifters cloak AND ( Dash Right OR Sprint Right OR Easy beast pogo ) ) |  | Verified | ✓ | fuck lilypad rng, only reason this entire subroom exists |
+| WE | Wet | Lilypads rng | Dry land | easy pogo off nuphar OR Swim OR Clawline Left OR ( Faydown cloak AND Drifters cloak AND ( Dash Left OR Sprint Left OR Easy beast pogo ) ) |  | Verified | ✓ |  |
+| TU | Tunnel | Lilypads rng | Right exit tunnel | Faydown Cloak OR ( ( Cling Grip Right OR Scuttlebrace ) AND ( Dash Right OR Clawline Right OR Drifters Cloak OR Sharpdart OR Easy Beast Pogo ) ) |  | Verified | ✓ |  |
+| TU | Tunnel | Right exit tunnel | Lilypads rng | Faydown cloak AND ( Sprint Left OR ( clawline left AND Cling Grip Left ) ) |  | Verified | ✓ |  |
+
+#### Check Locations
+
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Verdania Essence 12 | Shrine | Cling Grip Left AND Faydown Cloak |  | Verified | collectible | ✓ |  |
+| 2 | Pendra 1 | Lilypads rng | None |  | Verified | enemy | ✓ |  |
+| 3 | Pendra 2 | Lilypads rng | None |  | Verified | enemy | ✓ |  |
+| 4 | Cloverstag 1 | Dry land | None |  | Verified | enemy | ✓ |  |
+| 5 | Leaf Glider 1 | Lilypads rng | None |  | Verified | enemy | ✓ |  |
+| 6 | Nuphar 1 | Lilypads rng | None |  | Verified | enemy | ✓ |  |
+| 7 | Nuphar 2 | Lilypads rng | None |  | Verified | enemy | ✓ |  |
+| 8 | Nuphar 3 | Lilypads rng | None |  | Verified | enemy | ✓ |  |
 
 ## Blasted Steps
 
@@ -13853,7 +14555,7 @@ No subroom connections defined.
 | TL | left1 | Top Platform | [Memorium Entrance Tunnel (Song_25)](#room-choral-chambers--memorium-entrance-tunnel) | R | none |  | Verified | ✓ |  |
 | B | bot1 | Base | [Whispering Vaults Hell (Library_04)](#room-whispering-vaults--whispering-vaults-hell) | T | none |  | Verified | ✓ |  |
 | T | top1 | Top Platform | [Songclave Tube (Song_Enclave_Tube)](#room-choral-chambers--songclave-tube) | B | none |  | Verified | ✓ |  |
-| D | door1 | Base | [Songclave Bellshrine (Bellshrine_Enclave)](#room-choral-chambers--songclave-bellshrine) | L | none | TODO | Verified | ✓ |  |
+| D | door1 | Base | [Songclave Bellshrine (Bellshrine_Enclave)](#room-choral-chambers--songclave-bellshrine) | L | none |  | Verified | ✓ |  |
 | WW | wish wall | Base | [Songclave Wish Wall](#room-wish-menus--songclave-wish-wall) | SC | complete Meet the Caretaker |  | Verified | ✓ |  |
 
 #### Subroom Connections
@@ -13953,26 +14655,28 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Gauntlet Fight | Gauntlet | none |  |  | gauntlet |  |  |
-| 2 | Heavy Rosary Necklace: Choral Chambers | Base | cling grip OR silk soar |  |  | collectible |  | Secret hidden by breaking the ceiling |
-| 3 | Second Sentinel Encounter | Gauntlet | defeat Gauntlet Fight AND Act 2 AND complete THE Second Sentinel Activation |  |  | resource |  | only act 2 per the wiki |
-| 4 | Drapemite 1 |  |  |  |  | enemy | ✓ |  |
-| 5 | Reed 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 6 | Choristor 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 7 | Choir Pouncer 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 8 | Choir Flyer 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 9 | Clawmaiden 1 |  | Normal World Spawn |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned |
-| 10 | Choristor 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 11 | Choir Bellbearer 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 12 | Reed 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 13 | Reed 3 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 14 | Clawmaiden 2 |  | Normal World Spawn |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned |
-| 15 | Song Knight 1 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: songChevalierActiveInSong_04=true, songChevalierSeenInSong_04=false, songChevalierEncounterCooldown=false, songChevalierQuestReady=false FSM Boolean flags: encounteredSongChevalierBoss |
-| 16 | Reed 4 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: songChevalierActiveInSong_04=true, songChevalierSeenInSong_04=false, songChevalierEncounterCooldown=false, songChevalierQuestReady=false |
-| 17 | Choristor 3 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: songChevalierActiveInSong_04=true, songChevalierSeenInSong_04=false, songChevalierEncounterCooldown=false, songChevalierQuestReady=false |
-| 18 | Void Mass 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
-| 19 | Choristor 4 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
-| 20 | Choir Bellbearer 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 1 | Heavy Rosary Necklace - Choral Chambers | Base | cling grip OR silk soar |  |  | collectible | ✓ | Secret hidden by breaking the ceiling |
+| 2 | Second Sentinel Encounter | Gauntlet | defeat Gauntlet Fight AND Act 2 AND complete THE Second Sentinel Activation |  |  | resource |  | only act 2 per the wiki |
+| 3 | Switch - Outside Spa | Left | none |  |  | switch | ✓ |  |
+| 4 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 5 | Gauntlet Fight | Gauntlet | none |  |  | gauntlet |  |  |
+| 6 | Drapemite 1 |  |  |  |  | enemy | ✓ |  |
+| 7 | Reed 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 8 | Choristor 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 9 | Choir Pouncer 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 10 | Choir Flyer 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 11 | Clawmaiden 1 |  | Normal World Spawn |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned |
+| 12 | Choristor 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 13 | Choir Bellbearer 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 14 | Reed 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 15 | Reed 3 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 16 | Clawmaiden 2 |  | Normal World Spawn |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned |
+| 17 | Song Knight 1 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: songChevalierActiveInSong_04=true, songChevalierSeenInSong_04=false, songChevalierEncounterCooldown=false, songChevalierQuestReady=false FSM Boolean flags: encounteredSongChevalierBoss |
+| 18 | Reed 4 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: songChevalierActiveInSong_04=true, songChevalierSeenInSong_04=false, songChevalierEncounterCooldown=false, songChevalierQuestReady=false |
+| 19 | Choristor 3 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: songChevalierActiveInSong_04=true, songChevalierSeenInSong_04=false, songChevalierEncounterCooldown=false, songChevalierQuestReady=false |
+| 20 | Void Mass 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 21 | Choristor 4 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 22 | Choir Bellbearer 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 <a name="room-choral-chambers--choral-chambers-western-shaft"></a>
 
@@ -14028,13 +14732,14 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Drapefly 1 |  |  |  |  | enemy | ✓ |  |
-| 2 | Choir Flyer 1 |  |  |  |  | enemy | ✓ |  |
-| 3 | Choir Bellbearer 1 |  |  |  |  | enemy | ✓ |  |
-| 4 | Choir Elder 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 5 | Choir Pouncer 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 6 | Drapefly 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
-| 7 | Choir Elder 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 2 | Drapefly 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Choir Flyer 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Choir Bellbearer 1 |  |  |  |  | enemy | ✓ |  |
+| 5 | Choir Elder 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 6 | Choir Pouncer 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 7 | Drapefly 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 8 | Choir Elder 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 <a name="room-choral-chambers--choral-chambers-shop"></a>
 
@@ -14094,7 +14799,7 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Choral Chambers Cogheart Piece |  | flip switch up OR flip switch down |  | Verified | collectible |  | memory puzzle |
+| 1 | Choral Chambers Cogheart Piece |  | flip switch up OR flip switch down |  | Verified | collectible | ✓ | memory puzzle |
 | 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-choral-chambers--choral-chambers-grindle"></a>
@@ -14295,19 +15000,20 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Flea: Choral Chambers - Walled Room | Top Section 2 | silk soar OR drifter's cloak OR (faydown cloak AND easy [Wanderer, Shaman] pogo) |  |  | collectible |  |  |
-| 2 | Rosary Cache: Choral Chambers #14 | Base Upper | clawline OR faydown cloak OR (dash AND ledge grab) | TODO |  | collectible |  | check, probably better to split Base Upper into two zones since they can be gotten from BLT easier than from BLB |
-| 3 | Rosary Cache: Choral Chambers #15 | Base Upper | clawline OR faydown cloak OR (dash AND ledge grab) | TODO |  | collectible |  | check, probably better to split Base Upper into two zones since they can be gotten from BLT easier than from BLB |
-| 4 | Rosary Cache: Choral Chambers #16 | Base Upper | clawline OR faydown cloak OR (dash AND ledge grab) | TODO |  | collectible |  | check, probably better to split Base Upper into two zones since they can be gotten from BLT easier than from BLB |
+| 1 | Flea: Choral Chambers - Walled Room | Top Section 2 | Break Wall right AND (silk soar OR drifter's cloak OR (faydown cloak AND easy [Wanderer, Shaman] pogo)) |  |  | collectible | ✓ | Secret hidden by breaking a wall |
+| 2 | Rosary Cache: Choral Chambers #14 | Base Upper | clawline OR faydown cloak OR (dash AND ledge grab) | TODO |  | collectible | ✓ | check, probably better to split Base Upper into two zones since they can be gotten from BLT easier than from BLB |
+| 3 | Rosary Cache: Choral Chambers #15 | Base Upper | clawline OR faydown cloak OR (dash AND ledge grab) | TODO |  | collectible | ✓ | check, probably better to split Base Upper into two zones since they can be gotten from BLT easier than from BLB |
+| 4 | Rosary Cache: Choral Chambers #16 | Base Upper | clawline OR faydown cloak OR (dash AND ledge grab) | TODO |  | collectible | ✓ | check, probably better to split Base Upper into two zones since they can be gotten from BLT easier than from BLB |
 | 5 | import enemies |  |  | TODO | Needs verification |  |  |  |
-| 6 | Choir Flyer 1 |  |  |  |  | enemy | ✓ |  |
-| 7 | Choir Flyer 2 |  |  |  |  | enemy | ✓ |  |
-| 8 | Choir Bellbearer 1 |  |  |  |  | enemy | ✓ |  |
-| 9 | Choir Flyer 3 |  |  |  |  | enemy | ✓ |  |
-| 10 | Choir Hornhead 1 |  |  |  |  | enemy | ✓ |  |
-| 11 | Choir Elder 1 |  |  |  |  | enemy | ✓ |  |
-| 12 | Choir Pouncer 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 13 | Choir Pouncer 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 6 | Lever Flea shaft | Top Section 1 | none |  |  | switch | ✓ |  |
+| 7 | Choir Flyer 1 |  |  |  |  | enemy | ✓ |  |
+| 8 | Choir Flyer 2 |  |  |  |  | enemy | ✓ |  |
+| 9 | Choir Bellbearer 1 |  |  |  |  | enemy | ✓ |  |
+| 10 | Choir Flyer 3 |  |  |  |  | enemy | ✓ |  |
+| 11 | Choir Hornhead 1 |  |  |  |  | enemy | ✓ |  |
+| 12 | Choir Elder 1 |  |  |  |  | enemy | ✓ |  |
+| 13 | Choir Pouncer 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 14 | Choir Pouncer 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
 
 <a name="room-choral-chambers--high-halls-corridor"></a>
 
@@ -14381,17 +15087,18 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
-| 2 | Envoy 1 |  |  |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned, marionettesMet, song_17_clearedOut |
-| 3 | Choristor 1 |  |  |  |  | enemy | ✓ | FSM Boolean flags: song_17_clearedOut |
-| 4 | Choir Pouncer 1 |  |  |  |  | enemy | ✓ | FSM Boolean flags: song_17_clearedOut |
-| 5 | Envoy 2 |  |  |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned, marionettesMet, song_17_clearedOut |
-| 6 | Choristor 2 |  |  |  |  | enemy | ✓ | FSM Boolean flags: song_17_clearedOut |
-| 7 | Choir Pouncer 2 |  |  |  |  | enemy | ✓ | FSM Boolean flags: song_17_clearedOut |
-| 8 | Clawmaiden 1 |  |  |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned, song_17_clearedOut |
-| 9 | Clawmaiden 2 |  |  |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned, song_17_clearedOut |
-| 10 | Reed 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 11 | Void Mass 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
-| 12 | Reed 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 2 | Rosary Chest - Choral Chambers #2 |  |  |  |  | collectible | ✓ |  |
+| 3 | Envoy 1 |  |  |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned, marionettesMet, song_17_clearedOut |
+| 4 | Choristor 1 |  |  |  |  | enemy | ✓ | FSM Boolean flags: song_17_clearedOut |
+| 5 | Choir Pouncer 1 |  |  |  |  | enemy | ✓ | FSM Boolean flags: song_17_clearedOut |
+| 6 | Envoy 2 |  |  |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned, marionettesMet, song_17_clearedOut |
+| 7 | Choristor 2 |  |  |  |  | enemy | ✓ | FSM Boolean flags: song_17_clearedOut |
+| 8 | Choir Pouncer 2 |  |  |  |  | enemy | ✓ | FSM Boolean flags: song_17_clearedOut |
+| 9 | Clawmaiden 1 |  |  |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned, song_17_clearedOut |
+| 10 | Clawmaiden 2 |  |  |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned, song_17_clearedOut |
+| 11 | Reed 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 12 | Void Mass 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 13 | Reed 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 #### Notes
 
@@ -14428,27 +15135,29 @@ needs to be imported from the Choral Chambers side?
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | V | Vertical | Top | Base | none |  |  | ✓ | falling |
-| V | Vertical | Base | Top | cling grip OR faydown cloak OR silk soar | TODO |  | ✓ | Needs checking |
-| S | Secret | Right Secret | Base | none |  |  | ✓ | one way door |
+| V | Vertical | Base | Top | cling grip OR faydown cloak OR silk soar OR (easy shaman pogo AND (easy pogo off Choir pouncer OR easy hazard respawn) AND easy pogo off Choir Flyer) OR (ledge grab AND easy pogo off Choir Flyer) |  |  | ✓ |  |
+| S | Secret | Right Secret | Base | activate switch over dining |  |  | ✓ | one way door |
 
 #### Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Rosary Cache: Choral Chambers #11 | Top | none |  |  | collectible | ✓ | falling |
-| 2 | Rosary Cache: Choral Chambers #12 | Top | none |  |  | collectible |  | falling |
-| 3 | Rosary Cache: Choral Chambers #13 | Top | none |  |  | collectible |  | falling |
-| 4 | Mask Shard: Cogwork Core | Right Secret | none |  |  | collectible |  |  |
-| 5 | import enemies |  |  | TODO | Needs verification |  |  |  |
-| 6 | Choir Pouncer 1 |  |  |  |  | enemy | ✓ |  |
-| 7 | Drapemite 1 |  |  |  |  | enemy | ✓ |  |
-| 8 | Drapemite 2 |  |  |  |  | enemy | ✓ |  |
-| 9 | Choir Hornhead 1 |  |  |  |  | enemy | ✓ |  |
-| 10 | Choir Flyer 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 11 | Drapefly 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 12 | Drapefly 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 13 | Choir Flyer 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
-| 14 | Drapefly 3 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 2 | Rosary Cache: Choral Chambers #12 | Top | none |  |  | collectible | ✓ | falling |
+| 3 | Rosary Cache: Choral Chambers #13 | Top | none |  |  | collectible | ✓ | falling |
+| 4 | Mask Shard: Cogwork Core | Right Secret | none |  |  | collectible | ✓ |  |
+| 5 | Rosary Necklace - Choral Chambers #2 | Base |  |  |  | collectible | ✓ | hidden behind a breakable wall |
+| 6 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 7 | Switch over dining | Right Secret | none |  |  | switch | ✓ |  |
+| 8 | Choir Pouncer 1 |  |  |  |  | enemy | ✓ |  |
+| 9 | Drapemite 1 |  |  |  |  | enemy | ✓ |  |
+| 10 | Drapemite 2 |  |  |  |  | enemy | ✓ |  |
+| 11 | Choir Hornhead 1 |  |  |  |  | enemy | ✓ |  |
+| 12 | Choir Flyer 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 13 | Drapefly 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 14 | Drapefly 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 15 | Choir Flyer 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 16 | Drapefly 3 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 <a name="room-choral-chambers--choral-chambers-dining-room"></a>
 
@@ -14478,16 +15187,19 @@ needs to be imported from the Choral Chambers side?
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| V | Vertical | Diner | Below Diner | none |  |  |  | one way levers |
+| V | Vertical | Diner | Below Diner | Activate Lever - Dining #1 OR Activate Lever - Dining #2 |  |  |  |  |
+| V | Vertical | Below Diner | Diner | (silk soar AND (Activate Lever - Dining #1 OR Activate Lever - Dining #2)) OR (cling grip left AND Activate Lever - Dining #1) OR (cling grip right AND Activate Lever - Dining #2) |  |  |  |  |
 
 #### Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Silkeater: Choral Chambers East | Below Diner | ledge grab OR silk soar OR cling grip OR faydown cloak | TODO |  | collectible |  | Check |
-| 2 | Great Taste of Pharloom Wish Promised | Diner | Act 2 |  | Verified | event |  | wiki says "act 2" is the only prereq |
-| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
-| 4 | Choir Pouncer 1 |  |  |  |  | enemy | ✓ |  |
+| 1 | Silkeater: Choral Chambers East | Below Diner | ledge grab OR easy hazard respawn |  |  | collectible | ✓ |  |
+| 2 | Great Taste of Pharloom Wish Promised | Diner | none |  | Verified | event | ✓ |  |
+| 3 | Lever - Dining #1 | Diner | none |  |  | switch | ✓ |  |
+| 4 | Lever - Dining #2 | Diner | none |  |  | switch | ✓ |  |
+| 5 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 6 | Choir Pouncer 1 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-choral-chambers--choral-chambers-eastern-shaft"></a>
 
@@ -14582,9 +15294,12 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Rosary Cache: Choral Chambers #10 |  | cling grip |  | Verified | collectible | ✓ |  |
-| 2 | The Wandering Merchant Wish Granted |  | complete THE The Wandering Merchant Wish Promised |  |  | event |  |  |
-| 3 | Second Sentinel Encounter |  | Act 3  AND complete THE Second Sentinel Activation AND complete The Wandering Merchant Wish Granted |  |  | event |  | per the wiki |
-| 4 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 2 | Rosary Necklace - Choral Chambers #1 |  | cling grip |  |  | collectible | ✓ |  |
+| 3 | The Wandering Merchant Wish Granted |  | complete THE The Wandering Merchant Wish Promised |  |  | event |  |  |
+| 4 | Second Sentinel Encounter |  | Act 3  AND complete THE Second Sentinel Activation AND complete The Wandering Merchant Wish Granted |  |  | event |  | per the wiki |
+| 5 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 6 | Choristor 1 |  |  |  |  | enemy | ✓ | Spawn conditions: Save City Merchant accepted=true, Save City Merchant completed=false |
+| 7 | Envoy 1 |  |  |  |  | enemy | ✓ | Spawn conditions: Save City Merchant accepted=true, Save City Merchant completed=false |
 
 <a name="room-choral-chambers--choral-chambers-below-dining"></a>
 
@@ -14662,20 +15377,20 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Second Sentinel Encounter | Left | Act 3 AND  complete THE Second Sentinel Activation |  | Verified | event | ✓ | Verified via enemy import.  Spawn conditions: songChevalierActiveInSong_02=true, songChevalierSeenInSong_02=false, songChevalierEncounterCooldown=false, songChevalierQuestReady=false FSM Boolean flags: encounteredSongChevalierBoss |
-| 2 | Drapemite 1 |  |  |  |  | enemy | ✓ |  |
+| 2 | Drapemite 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
 | 3 | Drapemite 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 4 | Choir Hornhead 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 5 | Choir Flyer 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 6 | Envoy 1 |  | Normal World Spawn |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned, marionettesMet |
-| 7 | Choir Pouncer 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 8 | Envoy 2 |  | Normal World Spawn |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned, marionettesMet |
-| 9 | Choir Bellbearer 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 4 | Choir Hornhead 1 |  | Normal World Spawn AND Act 2 |  |  | enemy | ✓ |  |
+| 5 | Choir Flyer 1 |  | Normal World Spawn AND Act 2 |  |  | enemy | ✓ |  |
+| 6 | Envoy 1 |  | Normal World Spawn AND Act 2 |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned, marionettesMet |
+| 7 | Choir Pouncer 1 |  | Normal World Spawn AND Act 2 |  |  | enemy | ✓ |  |
+| 8 | Envoy 2 |  | Normal World Spawn AND Act 2 |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned, marionettesMet |
+| 9 | Choir Bellbearer 1 |  | Normal World Spawn AND Act 2 |  |  | enemy | ✓ |  |
 | 10 | Choir Elder 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 | 11 | Envoy 3 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 | 12 | Choir Bellbearer 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 | 13 | Choir Pouncer 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 | 14 | Choir Hornhead 2 |  | Black Thread World Spawn AND Invalid |  |  | enemy | ✓ | Part of Second Sentinel Encounter and can be missed.  Spawn conditions: songChevalierActiveInSong_02=true, songChevalierSeenInSong_02=false, songChevalierEncounterCooldown=false, songChevalierQuestReady=false |
-| 15 | Choir Flyer 2 |  | Black Thread World Spawn AND Invalid |  |  | enemy | ✓ | Part of Second Sentinel Encounter and can be missed.  Spawn conditions: songChevalierActiveInSong_02=true, songChevalierSeenInSong_02=false, songChevalierEncounterCooldown=false, songChevalierQuestReady=false |
+| 15 | Choir Flyer 2 |  | Black Thread World Spawn |  |  | enemy | ✓ | Spawn conditions: songChevalierActiveInSong_02=true, songChevalierSeenInSong_02=false, songChevalierEncounterCooldown=false, songChevalierQuestReady=false |
 | 16 | Envoy 4 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 | 17 | Choir Hornhead 3 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 | 18 | Choir Flyer 3 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
@@ -14703,7 +15418,7 @@ No subroom connections defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | B | bot1 | Bottom Left | [Choral Chambers Ventrica Room (Song_01b)](#room-choral-chambers--choral-chambers-ventrica-room) | T | none |  |  | ✓ |  |
-| T | top1 | Top | [Choral Chambers Outside Spa (Song_04)](#room-choral-chambers--choral-chambers-outside-spa) | B | none |  |  | ✓ |  |
+| T | top1 | Top | [Choral Chambers Outside Spa (Song_04)](#room-choral-chambers--choral-chambers-outside-spa) | B | Activate Switch - Outside Spa IN Choral chambers outside spa |  |  | ✓ |  |
 
 #### Subroom Connections
 
@@ -14718,10 +15433,14 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Choir Pouncer 1 |  |  |  |  | enemy | ✓ |  |
-| 2 | Reed 1 |  |  |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned, marionettesMet |
-| 3 | Choristor 1 |  |  |  |  | enemy | ✓ |  |
-| 4 | Envoy 1 |  |  |  |  | enemy | ✓ |  |
+| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 2 | Rosary Chest - Choral Chambers #1 | Bottom Right | none |  |  | collectible | ✓ |  |
+| 3 | Rosary Cache - Choral Chambers #8 | Top | none |  |  | collectible | ✓ |  |
+| 4 | Rosary Cache - Choral Chambers #9 | Top | none |  |  | collectible | ✓ |  |
+| 5 | Choir Pouncer 1 |  |  |  |  | enemy | ✓ |  |
+| 6 | Reed 1 |  |  |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned, marionettesMet |
+| 7 | Choristor 1 |  |  |  |  | enemy | ✓ |  |
+| 8 | Envoy 1 |  |  |  |  | enemy | ✓ |  |
 
 <a name="room-choral-chambers--choral-chambers-ventrica-room"></a>
 
@@ -14753,19 +15472,20 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| H | Horizontal | Ventrica | Lateral | none |  |  | ✓ | one way door |
+| H | Horizontal | Ventrica | Lateral | hitting lever |  |  | ✓ | one way door |
 
 #### Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Map Purchase: Choral Chambers | Lateral | spend 70 rosaries |  |  | collectible |  | one of two possible locations - hero, 9/26 |
+| 1 | Map Purchase: Choral Chambers | Lateral | spend 70 rosaries |  |  | collectible | ✓ | one of two possible locations - hero, 9/26 |
 | 2 | Rosary Cache: Choral Chambers #5 | Ventrica | none |  |  | collectible | ✓ |  |
 | 3 | Rosary Cache: Choral Chambers #6 | Ventrica | none |  |  | collectible | ✓ |  |
 | 4 | Rosary Cache: Choral Chambers #7 | Ventrica | none |  |  | collectible | ✓ |  |
 | 5 | Ventrica: Choral Chambers | Ventrica | Unlock Ventrica: Choral Chambers Rosary Lock |  |  | travel |  |  |
 | 6 | Ventrica: Choral Chambers Rosary Lock | Ventrica | spend 80 rosaries |  |  | lore |  |  |
-| 7 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 7 | Lever Ventrica | Ventrica | none |  |  | switch | ✓ |  |
+| 8 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-choral-chambers--choral-chambers-below-ventrica"></a>
 
@@ -14822,17 +15542,18 @@ No subroom connections defined.
 | 3 | Shell Shard Cache: Choral Chambers | Side Chamber | none |  |  | collectible | ✓ |  |
 | 4 | Rosary Cache: Choral Chambers #1 | Window | none |  |  | collectible | ✓ |  |
 | 5 | Rosary Cache: Choral Chambers #2 | Window | none |  |  | collectible | ✓ |  |
-| 6 | Choir Flyer 1 | Bottom |  |  |  | enemy | ✓ |  |
-| 7 | Choir Hornhead 1 |  |  |  |  | enemy | ✓ |  |
-| 8 | Envoy 1 | Bottom |  |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned, marionettesMet |
-| 9 | Choir Pouncer 1 | Bottom |  |  |  | enemy | ✓ |  |
-| 10 | Choir Pouncer 2 | Bottom | Normal World Spawn |  |  | enemy | ✓ |  |
-| 11 | Choir Pouncer 3 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 12 | Choir Hornhead 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 13 | Envoy 2 |  | Normal World Spawn |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned, marionettesMet |
-| 14 | Choristor 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
-| 15 | Void Mass 1 | Window | Black Thread World Spawn |  |  | enemy | ✓ |  |
-| 16 | Reed 1 | Window | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 6 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 7 | Choir Flyer 1 | Bottom | ACT 2 |  |  | enemy | ✓ |  |
+| 8 | Choir Hornhead 1 |  | ACT 2 |  |  | enemy | ✓ |  |
+| 9 | Envoy 1 | Bottom | ACT 2 |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned, marionettesMet |
+| 10 | Choir Pouncer 1 | Bottom | ACT 2 |  |  | enemy | ✓ |  |
+| 11 | Choir Pouncer 2 | Bottom | Normal World Spawn AND ACT 2 |  |  | enemy | ✓ |  |
+| 12 | Choir Pouncer 3 |  | Normal World Spawn AND ACT 2 |  |  | enemy | ✓ |  |
+| 13 | Choir Hornhead 2 |  | Normal World Spawn AND ACT 2 |  |  | enemy | ✓ |  |
+| 14 | Envoy 2 |  | Normal World Spawn AND ACT 2 |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned, marionettesMet |
+| 15 | Choristor 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 16 | Void Mass 1 | Window | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 17 | Reed 1 | Window | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 <a name="room-choral-chambers--choral-chambers-outisde-underworks"></a>
 
@@ -14937,14 +15658,15 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Memorium entrance vines | Base | (silk soar OR faydown cloak) AND break wall up |  | Verified | blockade |  | one way wall and also logic can be improved for more skips |
-| 2 | Second Sentinel Encounter | Base | complete THE Second Sentinel Activation |  | Verified | event | ✓ | Spawn conditions: songChevalierActiveInSong_25=true, songChevalierSeenInSong_25=false, songChevalierEncounterCooldown=false, songChevalierQuestReady=false FSM Boolean flags: encounteredSongChevalierBoss |
-| 3 | Grand Reed 1 |  |  |  |  | enemy | ✓ | Spawn conditions: songChevalierActiveInSong_25=true, songChevalierSeenInSong_25=false, songChevalierEncounterCooldown=false, songChevalierQuestReady=false |
-| 4 | Grand Reed 2 |  | Normal World Spawn |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned, marionettesMet |
-| 5 | Grand Reed 3 |  |  |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned, marionettesMet |
-| 6 | Grand Reed 4 |  | Normal World Spawn |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned, marionettesMet |
-| 7 | Clawmaiden 1 |  |  |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned |
-| 8 | Clawmaiden 2 |  |  |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned |
-| 9 | Clawmaiden 3 |  |  |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 3 | Second Sentinel Encounter | Base | complete THE Second Sentinel Activation |  | Verified | event | ✓ | Spawn conditions: songChevalierActiveInSong_25=true, songChevalierSeenInSong_25=false, songChevalierEncounterCooldown=false, songChevalierQuestReady=false FSM Boolean flags: encounteredSongChevalierBoss |
+| 4 | Grand Reed 1 |  |  |  |  | enemy | ✓ | Spawn conditions: songChevalierActiveInSong_25=true, songChevalierSeenInSong_25=false, songChevalierEncounterCooldown=false, songChevalierQuestReady=false |
+| 5 | Grand Reed 2 |  | Normal World Spawn |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned, marionettesMet |
+| 6 | Grand Reed 3 |  |  |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned, marionettesMet |
+| 7 | Grand Reed 4 |  | Normal World Spawn |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned, marionettesMet |
+| 8 | Clawmaiden 1 |  |  |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned |
+| 9 | Clawmaiden 2 |  |  |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned |
+| 10 | Clawmaiden 3 |  |  |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned |
 
 <a name="room-choral-chambers--rotating-tunnel"></a>
 
@@ -14990,8 +15712,9 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | import enemies |  |  |  | Needs verification |  |  |  |
-| 2 | Reed | Central Area |  |  |  | enemy | ✓ |  |
-| 3 | Choir Bellbearer | Central Area |  |  |  | enemy | ✓ |  |
+| 2 | Lever |  |  |  |  | switch | ✓ |  |
+| 3 | Reed | Central Area |  |  |  | enemy | ✓ |  |
+| 4 | Choir Bellbearer | Central Area |  |  |  | enemy | ✓ |  |
 
 <a name="room-choral-chambers--songclave-silk-shop"></a>
 
@@ -15077,20 +15800,21 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Lace Second Encounter | Bottom Right | none |  | Verified | event |  |  |
-| 2 | Choir Pouncer 1 |  |  |  |  | enemy | ✓ |  |
-| 3 | Choristor 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 4 | Reed 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 5 | Choir Elder 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 6 | Reed 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 7 | Reed 3 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 8 | Envoy 1 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: laceMeetCitadel=false |
-| 9 | Reed 4 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: laceMeetCitadel=false |
-| 10 | Envoy 2 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: bellShrineEnclave=true |
-| 11 | Choristor 2 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: bellShrineEnclave=true |
-| 12 | Choir Flyer 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 13 | Choir Bellbearer 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 14 | Choristor 3 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
-| 15 | Reed 5 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 3 | Choir Pouncer 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Choristor 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 5 | Reed 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 6 | Choir Elder 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 7 | Reed 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 8 | Reed 3 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 9 | Envoy 1 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: laceMeetCitadel=false |
+| 10 | Reed 4 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: laceMeetCitadel=false |
+| 11 | Envoy 2 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: bellShrineEnclave=true |
+| 12 | Choristor 2 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: bellShrineEnclave=true |
+| 13 | Choir Flyer 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 14 | Choir Bellbearer 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 15 | Choristor 3 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 16 | Reed 5 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 <a name="room-choral-chambers--grand-bellway-side-room"></a>
 
@@ -15120,12 +15844,13 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Silkeater: Choral Chambers West |  | ((cling grip left OR faydown cloak) AND spike pogo) OR easy [Shaman, Reaper] pogo OR hard Architect pogo |  | Verified | collectible |  |  |
+| 1 | Silkeater: Choral Chambers West |  | ((cling grip left OR faydown cloak) AND spike pogo) OR easy [Shaman, Reaper] pogo OR hard Architect pogo |  | Verified | collectible | ✓ |  |
 | 2 | Second Sentinel Encounter |  | Act 3  AND complete THE Second Sentinel Activation | TODO | Needs verification | event |  | need to verify this is the room the wiki is referring to |
 | 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
-| 4 | Choristor 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 5 | Snitchfly 1 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: defeatedCogworkDancers=true, hasHarpoonDash=true, bellShrineEnclave=true |
-| 6 | Snitchfly 2 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: defeatedCogworkDancers=true, hasHarpoonDash=true, bellShrineEnclave=true |
+| 4 | Rosary Chest - Choral Chambers #3 |  | none |  |  | collectible | ✓ |  |
+| 5 | Choristor 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 6 | Snitchfly 1 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: defeatedCogworkDancers=true, hasHarpoonDash=true, bellShrineEnclave=true |
+| 7 | Snitchfly 2 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: defeatedCogworkDancers=true, hasHarpoonDash=true, bellShrineEnclave=true |
 
 <a name="room-choral-chambers--grand-bellway"></a>
 
@@ -15135,7 +15860,7 @@ No subroom connections defined.
 
 **Game ID:** Bellway_City
 
-**Contributors:** samupo
+**Contributors:** samupo, Gallos
 
 #### Subrooms
 
@@ -15164,11 +15889,12 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Memory Locket: Choral Chambers | Secret Tunnel | none |  | Verified | collectible | ✓ | breakable wall |
-| 2 | Map Purchase: Choral Chambers | Base | spend 70 rosaries |  | Verified | collectible |  | one of two possible locations - hero, 9/26 |
-| 3 | Ventrica: Grand Bellway Rosary Lock | Base | spend 80 rosaries |  | Verified | lock |  |  |
+| 2 | Map Purchase: Choral Chambers | Base | spend 70 rosaries |  | Verified | collectible | ✓ | one of two possible locations - hero, 9/26 |
+| 3 | Ventrica: Grand Bellway Rosary Lock | Base | spend 80 rosaries |  | Verified | lock | ✓ |  |
 | 4 | Ventrica: Grand Bellway | Base | Unlock Ventrica: Grand Bellway Rosary Lock |  | Verified | travel |  |  |
-| 5 | Bellway: Grand Bellway Rosary Lock | Base | spend 80 rosaries |  | Verified | lock |  |  |
+| 5 | Bellway: Grand Bellway Rosary Lock | Base | spend 80 rosaries |  | Verified | lock | ✓ |  |
 | 6 | Bellway: Grand Bellway | Base | Unlock Bellway Grand Bellway Rosary Lock |  | Verified | travel |  |  |
+| 7 | Beastling Call | Base | Act 3 |  | Verified | collectible | ✓ | Beat Bell Eater |
 
 <a name="room-choral-chambers--choral-chambers-east-to-west"></a>
 
@@ -15191,9 +15917,9 @@ No subroom connections defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| T | top1 | Left Side | [Choral Chambers Below Dining (Song_18)](#room-choral-chambers--choral-chambers-below-dining) | B | One way, can't be used at all from this side even if you entered from it! | TODO |  | ✓ | One way, can't be used at all from this side even if you entered from it! |
-| R | right1 | Right Side | [Grand Bellway Shaft (Song_20)](#room-choral-chambers--grand-bellway-shaft) | UL |  | TODO |  | ✓ |  |
-| L | left1 | Left Side | [Choral Chambers Eastern Shaft (Song_05)](#room-choral-chambers--choral-chambers-eastern-shaft) | R2 | activate door switch |  | Verified | ✓ |  |
+| T | top1 | Left Side | [Choral Chambers Below Dining (Song_18)](#room-choral-chambers--choral-chambers-below-dining) | B | invalid |  |  | ✓ | One way, can't be used at all from this side even if you entered from it! |
+| R | right1 | Right Side | [Grand Bellway Shaft (Song_20)](#room-choral-chambers--grand-bellway-shaft) | UL | none |  |  | ✓ |  |
+| L | left1 | Left Side | [Choral Chambers Eastern Shaft (Song_05)](#room-choral-chambers--choral-chambers-eastern-shaft) | R2 | activate Lever East to West |  | Verified | ✓ |  |
 
 #### Subroom Connections
 
@@ -15206,24 +15932,25 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | door switch | Left Side | flip switch left |  | Verified | switch |  |  |
+| 1 | Lever East to West | Left Side | flip switch left |  | Verified | switch | ✓ |  |
 | 2 | Second Sentinel Encounter | Right Side | complete THE Second Sentinel Activation |  | Verified | event | ✓ | Spawn conditions: songChevalierActiveInSong_27=true, songChevalierSeenInSong_27=false, songChevalierEncounterCooldown=false, songChevalierQuestReady=false FSM Boolean flags: encounteredSongChevalierBoss |
-| 3 | Choir Hornhead 1 | Right Side | Invalid |  |  | enemy | ✓ | Part of Second Sentinel Encounter.  Spawn conditions: songChevalierActiveInSong_27=true, songChevalierSeenInSong_27=false, songChevalierEncounterCooldown=false, songChevalierQuestReady=false |
-| 4 | Choir Flyer 1 | Right Side | Invalid |  |  | enemy | ✓ | Part of Second Sentinel Encounter.  Spawn conditions: songChevalierActiveInSong_27=true, songChevalierSeenInSong_27=false, songChevalierEncounterCooldown=false, songChevalierQuestReady=false |
-| 5 | Envoy 1 | Right Side | Invalid |  |  | enemy | ✓ | Part of Second Sentinel Encounter.  Spawn conditions: songChevalierActiveInSong_27=true, songChevalierSeenInSong_27=false, songChevalierEncounterCooldown=false, songChevalierQuestReady=false |
-| 6 | Choir Hornhead 2 |  |  |  |  | enemy | ✓ |  |
-| 7 | Choir Flyer 2 |  |  |  |  | enemy | ✓ |  |
-| 8 | Envoy 2 |  |  |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned, marionettesMet |
-| 9 | Choir Hornhead 3 |  |  |  |  | enemy | ✓ |  |
-| 10 | Choir Flyer 3 |  |  |  |  | enemy | ✓ |  |
-| 11 | Envoy 3 |  |  |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned, marionettesMet |
-| 12 | Cogworker 1 |  |  |  |  | enemy | ✓ |  |
-| 13 | Cogworker 2 |  |  |  |  | enemy | ✓ |  |
-| 14 | Cogworker 3 |  |  |  |  | enemy | ✓ |  |
-| 15 | Choir Pouncer 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 16 | Choir Flyer 4 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 17 | Void Mass 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
-| 18 | Reed 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 4 | Choir Hornhead 1 | Right Side | Invalid |  |  | enemy | ✓ | Part of Second Sentinel Encounter.  Spawn conditions: songChevalierActiveInSong_27=true, songChevalierSeenInSong_27=false, songChevalierEncounterCooldown=false, songChevalierQuestReady=false |
+| 5 | Choir Flyer 1 | Right Side | Invalid |  |  | enemy | ✓ | Part of Second Sentinel Encounter.  Spawn conditions: songChevalierActiveInSong_27=true, songChevalierSeenInSong_27=false, songChevalierEncounterCooldown=false, songChevalierQuestReady=false |
+| 6 | Envoy 1 | Right Side | Invalid |  |  | enemy | ✓ | Part of Second Sentinel Encounter.  Spawn conditions: songChevalierActiveInSong_27=true, songChevalierSeenInSong_27=false, songChevalierEncounterCooldown=false, songChevalierQuestReady=false |
+| 7 | Choir Hornhead 2 |  |  |  |  | enemy | ✓ |  |
+| 8 | Choir Flyer 2 |  |  |  |  | enemy | ✓ |  |
+| 9 | Envoy 2 |  |  |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned, marionettesMet |
+| 10 | Choir Hornhead 3 |  |  |  |  | enemy | ✓ |  |
+| 11 | Choir Flyer 3 |  |  |  |  | enemy | ✓ |  |
+| 12 | Envoy 3 |  |  |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned, marionettesMet |
+| 13 | Cogworker 1 |  |  |  |  | enemy | ✓ |  |
+| 14 | Cogworker 2 |  |  |  |  | enemy | ✓ |  |
+| 15 | Cogworker 3 |  |  |  |  | enemy | ✓ |  |
+| 16 | Choir Pouncer 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 17 | Choir Flyer 4 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 18 | Void Mass 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 19 | Reed 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 #### Notes
 
@@ -15967,20 +16694,20 @@ No check locations defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| VL | Vertical Low | Bottom | Center | Activate Whispering Vaults: Flip Switch #3 AND (Silk Soar OR Cling Grip OR (Faydown Cloak AND Ledge Grab)) |  | Verified | ✓ |  |
+| VL | Vertical Low | Bottom | Center | Activate Whispering Vaults Shard Ladder AND (Silk Soar OR Cling Grip OR (Faydown Cloak AND Ledge Grab)) |  | Verified | ✓ |  |
 | VH | Vertical High | Center | Top | Cling Grip OR Silk Soar |  | Verified | ✓ |  |
-| MS | Mask Shard | Top | Shard | Silk Soar OR Proficient Movement (Easy Box Pogo) |  | Verified | ✓ |  |
+| MS | Mask Shard | Top | Shard | Silk Soar OR (Activate Whispering Vaults Shard Box AND (Proficient Movement (Easy Box Pogo) OR Cling Grip OR Easy Scuttlebrace)) |  | Verified | ✓ |  |
 | MS | Mask Shard | Shard | Top | Nothing. (Fall) |  | Verified | ✓ |  |
 | VH | Vertical High | Top | Center | Nothing. (Fall) |  | Verified | ✓ |  |
-| VL | Vertical Low | Center | Bottom | Activate Whispering Vaults: Flip Switch #3 |  | Verified | ✓ |  |
+| VL | Vertical Low | Center | Bottom | Activate Whispering Vaults Shard Ladder |  | Verified | ✓ |  |
 
 #### Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Whispering Vaults: Mask Shard #1 | Shard | Nothing. |  | Verified | collectible | ✓ |  |
-| 2 | Whispering Vaults: Flip Switch #3 | Bottom | Nothing. |  | Verified | switch | ✓ |  |
-| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 2 | Whispering Vaults Shard Ladder | Bottom | Nothing. |  | Verified | switch | ✓ |  |
+| 3 | Whispering Vaults Shard Box | Center | Activate Whispering Vaults Shard Ladder AND Attack Up |  | Verified | logic-point |  | default state is down, activated state is up. |
 
 <a name="room-whispering-vaults--whispering-vaults-flea-shaft"></a>
 
@@ -20582,90 +21309,121 @@ No subroom connections defined.
 | No. | Subroom | Annotated |
 | --- | --- | --- |
 | S1 | Arena | ✓ |
-| S2 | Why | ✓ |
-| S3 | L1 | ✓ |
-| S4 | Indolent | ✓ |
-| S5 | Grindle | ✓ |
-| S6 | Flea1 | ✓ |
-| S7 | Cavern | ✓ |
-| S8 | Heretic Bridge | ✓ |
-| S9 | L4 | ✓ |
-| S10 | Flea2 | ✓ |
-| S11 | Cave | ✓ |
-| S12 | Prelude | ✓ |
-| S13 | Poodle | ✓ |
-| S14 | Lowest | ✓ |
+| S2 | Why1 | ✓ |
+| S3 | Why2 | ✓ |
+| S4 | Upper | ✓ |
+| S5 | Chilly | ✓ |
+| S6 | Secret | ✓ |
+| S7 | Mid | ✓ |
+| S8 | Indolent | ✓ |
+| S9 | Grindle | ✓ |
+| S10 | Before Indolent | ✓ |
+| S11 | Before Bridge | ✓ |
+| S12 | Bridge Upper | ✓ |
+| S13 | Bridge Upper Internal | ✓ |
+| S14 | Bridge Center | ✓ |
+| S15 | Bridge Center Top | ✓ |
+| S16 | Flea2 | ✓ |
+| S17 | Cavern | ✓ |
+| S18 | Fall1 | ✓ |
+| S19 | Prelude | ✓ |
+| S20 | Poodle Top | ✓ |
+| S21 | Poodle Bottom | ✓ |
+| S22 | Window | ✓ |
+| S23 | Bottom | ✓ |
 
-- **L1:** entrances to secret side and chilly prison
-- **L4:** slab entrance and infleatween top
-- **Prelude:** to first sinner
+- **Why2:** Entering via WHY will block you behind a door you can't open from that side
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| CPT | door_slabCaged | L1 | [Slab Capture](#room-fast-travel--slab-capture) | CG | invalid |  |  | ✓ | no destination, logically equivalent to L1 since you need to go up to reach L0 |
-| ARN | left1 | Arena | [Slab Arena (Slab_16)](#room-the-slab--slab-arena) | R | none |  |  | ✓ |  |
-| WHY | right1 | Why | [Slab Why Room (Slab_17)](#room-the-slab--slab-why-room) | L | unlock apostate door mask shard |  |  | ✓ |  |
-| CHL | left2 | L1 | [Slab Chilly Prison (Slab_15)](#room-the-slab--slab-chilly-prison) | R | none |  |  | ✓ |  |
-| SCR | right2 | L1 | [Slab Secret Side Room (Slab_18)](#room-the-slab--slab-secret-side-room) | L | clear Breakable Wall Blockade IN slab secret side room |  |  | ✓ | One way (opens from the other side) |
-| IND | left3 | Indolent | [Slab Indolent Room (Slab_14)](#room-the-slab--slab-indolent-room) | R | none |  |  | ✓ |  |
-| GRN | right3 | Grindle | [Slab Grindle (Slab_20)](#room-the-slab--slab-grindle) | L | none |  |  | ✓ |  |
-| FL1 | left4 | Flea1 | [Slab Flea Prison (Slab_13)](#room-the-slab--slab-flea-prison) | R | none |  |  | ✓ |  |
-| CVN | right4 | Cavern | [Slab Cavern Exit (Slab_23)](#room-the-slab--slab-cavern-exit) | L | none |  |  | ✓ |  |
-| F2T | left5 | L4 | [Slab Infleatween Top (Slab_04)](#room-the-slab--slab-infleatween-top) | R | none |  |  | ✓ |  |
-| ENT | right5 | L4 | [Slab Entrance (Slab_02)](#room-the-slab--slab-entrance) | L | activate slab entrance switch IN slab entrance |  |  | ✓ |  |
-| F2B | left6 | Flea2 | [Slab Infleatween Bottom (Slab_05)](#room-the-slab--slab-infleatween-bottom) | R | have Key of Apostate |  |  | ✓ |  |
-| CAV | right8 | Cave | [Slab Cave Entrance (Slab_08)](#room-the-slab--slab-cave-entrance) | L | none |  |  | ✓ |  |
-| PRL | right7 | Prelude | [Slab Prelude (Slab_19b)](#room-the-slab--slab-prelude) | L | unlock heretic door first sinner |  |  | ✓ |  |
-| PDT | left7 | Poodle | [Slab Poodle (Slab_07)](#room-the-slab--slab-poodle) | R1 | clear Exit Breakable Wall Blockade IN slab poodle |  |  | ✓ |  |
-| PDB | left8 | Lowest | [Slab Poodle (Slab_07)](#room-the-slab--slab-poodle) | R2 | none |  |  | ✓ |  |
-| WND | right9 | Lowest | [Slab Window (Slab_12)](#room-the-slab--slab-window) | L | break wall right |  |  | ✓ |  |
+| CPT | door_slabCaged | Upper | [Slab Capture](#room-fast-travel--slab-capture) | CG | invalid |  | Verified | ✓ | one way only |
+| ARN | left1 | Arena | [Slab Arena (Slab_16)](#room-the-slab--slab-arena) | R | none |  | Verified | ✓ |  |
+| WHY | right1 | Why1 | [Slab Why Room (Slab_17)](#room-the-slab--slab-why-room) | L | none |  | Verified | ✓ | the "lock" is defined in the subroom connection between Why1 and Why2 |
+| CHL | left2 | Chilly | [Slab Chilly Prison (Slab_15)](#room-the-slab--slab-chilly-prison) | R | none |  | Verified | ✓ |  |
+| SCR | right2 | Secret | [Slab Secret Side Room (Slab_18)](#room-the-slab--slab-secret-side-room) | L | clear Breakable Wall Blockade IN slab secret side room |  | Verified | ✓ | opens from other side mid blockade not necessary |
+| IND | left3 | Indolent | [Slab Indolent Room (Slab_14)](#room-the-slab--slab-indolent-room) | R | none |  | Verified | ✓ |  |
+| GRN | right3 | Grindle | [Slab Grindle (Slab_20)](#room-the-slab--slab-grindle) | L | none |  | Verified | ✓ |  |
+| FL1 | left4 | Bridge Upper | [Slab Flea Prison (Slab_13)](#room-the-slab--slab-flea-prison) | R | none |  | Verified | ✓ |  |
+| CVN | right4 | Bridge Upper | [Slab Cavern Exit (Slab_23)](#room-the-slab--slab-cavern-exit) | L | none |  | Verified | ✓ |  |
+| F2T | left5 | Bridge Center | [Slab Infleatween Top (Slab_04)](#room-the-slab--slab-infleatween-top) | R | none |  | Verified | ✓ |  |
+| ENT | right5 | Bridge Center | [Slab Entrance (Slab_02)](#room-the-slab--slab-entrance) | L | activate slab entrance switch IN slab entrance |  | Verified | ✓ |  |
+| F2B | left6 | Flea2 | [Slab Infleatween Bottom (Slab_05)](#room-the-slab--slab-infleatween-bottom) | R | have Key of Apostate |  | Verified | ✓ |  |
+| CAV | right8 | Cavern | [Slab Cave Entrance (Slab_08)](#room-the-slab--slab-cave-entrance) | L | none |  | Verified | ✓ |  |
+| PRL | right7 | Prelude | [Slab Prelude (Slab_19b)](#room-the-slab--slab-prelude) | L | unlock heretic door first sinner |  | Verified | ✓ |  |
+| PDT | left7 | Poodle Top | [Slab Poodle (Slab_07)](#room-the-slab--slab-poodle) | R1 | none |  | Verified | ✓ |  |
+| PDB | left8 | Poodle Bottom | [Slab Poodle (Slab_07)](#room-the-slab--slab-poodle) | R2 | none |  | Verified | ✓ |  |
+| WND | right9 | Window | [Slab Window (Slab_12)](#room-the-slab--slab-window) | L | break wall right |  | Verified | ✓ | will take damage upon entering |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L0 | L0 - L0 | Arena | Why | ledge grab OR cling grip |  |  |  | Naked |
-| 0L1 | L0l - L1 | Arena | L1 | none |  |  |  | falling |
-| 0R1 | L0R - L1 | Why | L1 | none |  |  |  | falling |
-| 0L1 | L0l - L1 | L1 | Arena | cling grip OR silk soar |  |  |  | Naked |
-| 0R1 | L0R - L1 | L1 | Why | cling grip OR silk soar |  |  |  | Naked |
-| 2L1 | L2L - L1 | Indolent | L1 | cling grip OR silk soar |  |  |  | Naked. One way only |
-| 2R1 | L2R - L1 | Grindle | L1 | cling grip OR silk soar |  |  |  | Naked. One way only |
-| L2 | L2 - L2 | Indolent | Grindle | ledge grab OR silk soar |  |  |  | Naked |
-| L2 | L2 - L2 | Grindle | Indolent | ledge grab OR silk soar |  |  |  | Naked |
-| 2FL | L2L to L3L | Indolent | Flea1 | none |  |  |  | falling |
-| 2FR | L2L to L3R | Indolent | Cavern | none |  |  |  | falling |
-| 2DL | L2R to L3L | Grindle | Flea1 | none |  |  |  | falling |
-| 2DR | L2R to L3R | Grindle | Cavern | none |  |  |  | falling |
-| L3 | L3 - L3 | Flea1 | Cavern | cling grip OR silk soar OR dash |  |  |  | Naked. When you are still naked the bridge should be closed enabling you to just walk over it but added prior transitions to still have a valid path. |
-| BR1 | Bridge1 | Flea1 | Heretic Bridge | have Key of Heretic |  |  |  |  |
-| BR2 | Bridge2 | Cavern | Heretic Bridge | have Key of Heretic |  |  |  |  |
-| BL4 | Bridge to L4 | Heretic Bridge | L4 | none |  |  |  | falling, one way lever |
-| 5R4 | L5R to L4 | Cave | L4 | cling grip |  |  |  | one way lever |
-| 5L4 | L5L to L4 | Flea2 | L4 | cling grip AND faydown |  |  |  | one way lever |
-| L5 | L5 | Flea2 | Cave | (dash AND ledge grab) OR faydown OR clawline OR cling grip |  |  |  |  |
-| L5 | L5 | Cave | Flea2 | ledge grab OR faydown OR clawline OR dash |  |  |  |  |
-| 5LF | L5L to L6 | Flea2 | Prelude | none |  |  |  | falling |
-| 5LF | L5L to L6 | Prelude | Flea2 | (cling grip OR silk soar) AND (ledge grab OR faydown OR clawline OR dash) |  |  |  |  |
-| 5RF | L5R to L6 | Cave | Prelude | none |  |  |  | falling |
-| 5RF | L5R to L6 | Prelude | Cave | cling grip OR silk soar |  |  |  |  |
-| L6F | L6 to L8 | Prelude | Lowest | swim |  |  |  | L7 is non existant until opened |
-| L7F | L7 to L8 | Poodle | Lowest | swim |  |  |  | falling |
-| L7U | L7 to L6 | Poodle | Prelude | cling grip |  |  |  |  |
+| A | ArenaUpper | Arena | Upper | none (falling) |  | Verified | ✓ |  |
+| A | ArenaUpper | Upper | Arena | ledge grab left OR cling grip left OR faydown cloak OR silk soar |  | Verified | ✓ |  |
+| B | WhyUpper | Why2 | Upper | none (falling) |  | Verified | ✓ |  |
+| B | WhyUpper | Upper | Why2 | ledge grab right OR cling grip right OR faydown cloak OR silk soar |  | Verified | ✓ |  |
+| WHY | WhyInternal | Why1 | Why2 | unlock apostate door mask shard |  | Verified |  | ping maya for info as to why i did this |
+| WHY | WhyInternal | Why2 | Why1 | unlock apostate door mask shard |  | Verified |  |  |
+| C | UpperChilly | Upper | Chilly | none (falling) |  | Verified | ✓ |  |
+| C | UpperChilly | Chilly | Upper | ledge grab right OR cling grip right OR scuttlebrace OR faydown cloak OR silk soar OR medium shaman pogo OR ((clear Breakable Wall Blockade IN slab secret side room OR clear upper blockade) AND (ledge grab left OR cling grip left)) |  | Verified | ✓ | right side is only available if you remove the blockade inside Mid |
+| D | UpperSecret | Upper | Secret | clear Breakable Wall Blockade IN slab secret side room AND clear upper blockade |  | Verified | ✓ |  |
+| D | UpperSecret | Secret | Upper | (clear Breakable Wall Blockade IN slab secret side room AND clear upper blockade) AND (ledge grab (either) OR cling grip (either) OR scuttlebrace OR faydown cloak OR silk soar OR medium shaman pogo) |  | Verified | ✓ |  |
+| E | ChillyMid | Chilly | Mid | clear Breakable Wall Blockade IN slab secret side room OR clear upper blockade |  | Verified | ✓ | falling |
+| E | ChillyMid | Mid | Chilly | (clear Breakable Wall Blockade IN slab secret side room OR clear upper blockade) AND (cling grip (either) OR faydown cloak OR scuttlebrace OR silk soar) |  | Verified | ✓ |  |
+| F | SecretMid | Secret | Mid | clear Breakable Wall Blockade IN slab secret side room AND clear upper blockade |  | Verified | ✓ | falling |
+| F | SecretMid | Mid | Secret | clear Breakable Wall Blockade IN slab secret side room AND clear upper blockade AND (cling grip (either) OR faydown cloak OR scuttlebrace OR silk soar) |  | Verified | ✓ |  |
+| G | MidIndolent | Mid | Indolent | none (falling) |  | Verified | ✓ |  |
+| G | MidIndolent | Indolent | Mid | cling grip left OR silk soar OR (faydown cloak AND cling grip right) OR scuttlebrace |  | Verified | ✓ |  |
+| H | MidGrindle | Mid | Grindle | none (falling) |  | Verified | ✓ |  |
+| H | MidGrindle | Grindle | Mid | cling grip right OR silk soar OR (faydown cloak AND cling grip left) OR scuttlebrace |  | Verified | ✓ |  |
+| I | IndolentBefore | Indolent | Before Indolent | none (falling) |  | Verified | ✓ |  |
+| I | IndolentBefore | Before Indolent | Indolent | cling grip left OR ledge grab left OR silk soar OR faydown cloak OR medium shaman pogo |  | Verified | ✓ |  |
+| J | GrindleBefore | Grindle | Before Indolent | none (falling) |  | Verified | ✓ |  |
+| J | GrindleBefore | Before Indolent | Grindle | cling grip right OR ledge grab right OR silk soar OR faydown cloak OR medium shaman pogo |  | Verified | ✓ |  |
+| K | IndoBridge | Before Indolent | Before Bridge | none (falling) |  | Verified | ✓ |  |
+| K | IndoBridge | Before Bridge | Before Indolent | cling grip (either) OR scuttlebrace OR faydown cloak OR silk soar |  | Verified | ✓ |  |
+| L | BeforeUpper | Before Bridge | Bridge Upper | none (falling) |  | Verified | ✓ |  |
+| L | BeforeUpper | Bridge Upper | Before Bridge | cling grip (either) OR ledge grab (either) OR faydown cloak OR scuttlebrace OR scuttlebrace |  | Verified | ✓ |  |
+| M | UpperInternal | Bridge Upper | Bridge Upper Internal | unlock upper bridge key |  | Verified | ✓ | falling |
+| M | UpperInternal | Bridge Upper Internal | Bridge Upper | unlock upper bridge key AND (cling grip (either) OR silk soar OR scuttlebrace) |  | Verified | ✓ |  |
+| N | InternalCenter | Bridge Upper Internal | Bridge Center | activate heretic lever upper |  | Verified | ✓ | falling |
+| N | InternalCenter | Bridge Center | Bridge Upper Internal | activate heretic lever upper AND (cling grip (either) OR (faydown cloak AND ledge grab left) OR scuttlebrace OR silk soar) |  | Verified | ✓ |  |
+| O | CenterTop | Bridge Center | Bridge Center Top | activate heretic lever lower |  | Verified | ✓ | falling |
+| O | CenterTop | Bridge Center Top | Bridge Center | activate heretic lever lower AND (cling grip (either) OR scuttlebrace) |  | Verified | ✓ |  |
+| P | Center Cavern | Bridge Center Top | Cavern | none (falling) |  | Verified | ✓ |  |
+| P | Center Cavern | Cavern | Bridge Center Top | cling grip right OR (faydown cloak AND scuttlebrace) |  | Verified | ✓ |  |
+| Q | Flea2 | Flea2 | Bridge Center Top | faydown cloak AND (scuttlebrace OR cling grip left) |  | Verified | ✓ |  |
+| Q | Flea2 | Bridge Center Top | Flea2 | faydown cloak OR dash left OR clawline left x 1 OR sharpdart x 1 OR drifters cloak OR medium beast needle strike OR medium beast pogo |  | Verified | ✓ | with no horizontal you miss the platform and land in Fall1 |
+| R | FleaFall | Flea2 | Fall1 | none (falling) |  | Verified | ✓ |  |
+| R | FleaFall | Fall1 | Flea2 | cling grip left OR ledge grab left OR medium shaman pogo OR scuttlebrace OR faydown cloak OR silk soar |  | Verified | ✓ |  |
+| S | CavernFall | Cavern | Fall1 | none (jump) |  | Verified | ✓ |  |
+| S | CavernFall | Fall1 | Cavern | faydown cloak OR cling grip right OR scuttlebrace OR (medium beast needle strike AND ledge grab right) |  | Verified | ✓ |  |
+| T | FallPrelude | Fall1 | Prelude | none (falling) |  | Verified | ✓ |  |
+| T | FallPrelude | Prelude | Fall1 | cling grip right OR scuttlebrace OR (faydown cloak AND cling grip left) OR silk soar |  | Verified | ✓ |  |
+| U | PreludePoodle | Prelude | Poodle Top | clear poodle blockade |  | Verified | ✓ |  |
+| U | PreludePoodle | Poodle Top | Prelude | clear poodle blockade AND (cling grip (either) OR scuttlebrace) |  | Verified | ✓ |  |
+| V | PreludeBottom | Prelude | Bottom | swim |  | Verified | ✓ |  |
+| W | PoodleBottom | Poodle Top | Bottom | swim |  | Verified | ✓ |  |
+| X | PoodleBB | Poodle Bottom | Bottom | swim |  | Verified | ✓ |  |
+| X | PoodleBB | Bottom | Poodle Bottom | swim |  | Verified | ✓ |  |
+| Y | BottomWindow | Window | Bottom | swim |  | Verified | ✓ |  |
+| Y | BottomWindow | Bottom | Window | swim |  | Verified | ✓ |  |
 
 #### Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | poodle blockade |  |  |  |  | blockade | ✓ |  |
-| 2 | heretic lever upper |  |  |  |  | switch | ✓ |  |
-| 3 | heretic lever lower |  |  |  |  | switch | ✓ |  |
-| 4 | apostate door mask shard | Why | have key of apostate |  |  | lock |  |  |
-| 5 | heretic door first sinner | Prelude | have key of heretic |  |  | lock |  |  |
-| 6 | Guardfly 1 |  |  |  |  | enemy | ✓ |  |
-| 7 | Guardfly 2 |  |  |  |  | enemy | ✓ |  |
+| 1 | poodle blockade | Poodle Top | none |  | Verified | blockade | ✓ |  |
+| 2 | heretic lever upper | Bridge Upper Internal | none |  | Verified | switch | ✓ |  |
+| 3 | heretic lever lower | Bridge Center Top | none |  | Verified | switch | ✓ |  |
+| 4 | apostate door mask shard | Why2 | have key of apostate |  | Verified | lock |  |  |
+| 5 | heretic door first sinner | Prelude | have key of heretic |  | Verified | lock |  |  |
+| 6 | upper blockade | Mid | none |  | Verified | blockade | ✓ |  |
+| 7 | upper bridge key | Bridge Upper | have key of heretic |  | Verified | lock | ✓ |  |
+| 8 | Guardfly 1 | Before Indolent | none |  | Verified | enemy | ✓ |  |
+| 9 | Guardfly 2 | Fall1 | none |  | Verified | enemy | ✓ |  |
 
 #### Notes
 

@@ -48,13 +48,14 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Drapefly 1 |  |  |  |  | enemy | ✓ |  |
-| 2 | Choir Flyer 1 |  |  |  |  | enemy | ✓ |  |
-| 3 | Choir Bellbearer 1 |  |  |  |  | enemy | ✓ |  |
-| 4 | Choir Elder 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 5 | Choir Pouncer 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 6 | Drapefly 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
-| 7 | Choir Elder 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 2 | Drapefly 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Choir Flyer 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Choir Bellbearer 1 |  |  |  |  | enemy | ✓ |  |
+| 5 | Choir Elder 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 6 | Choir Pouncer 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 7 | Drapefly 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 8 | Choir Elder 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 ## Room Images
 

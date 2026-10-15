@@ -253,7 +253,20 @@ Generated from the non-archived records in `input/silksong-rando-logic.db`.
 
 ## Verdania
 
-- [Verdania Placeholder](./verdania/verdania-placeholder.md)
+- [Clover Dancers (Clover_10)](./verdania/clover-dancers.md)
+- [Dead Verdania Bench (Clover_20)](./verdania/dead-verdania-bench.md)
+- [Dead Verdania Main (Clover_01)](./verdania/dead-verdania-main.md)
+- [Palestag (Clover_19)](./verdania/palestag.md)
+- [Verdania Big Button Room (Clover_18)](./verdania/verdania-big-button-room.md)
+- [Verdania Big Room (Clover_02c)](./verdania/verdania-big-room.md)
+- [Verdania Capital (Clover_04b)](./verdania/verdania-capital.md)
+- [Verdania Cloverstag Steps (Clover_16)](./verdania/verdania-cloverstag-steps.md)
+- [Verdania Entrance (Clover_01b)](./verdania/verdania-entrance.md)
+- [Verdania Kindanir egg Room (Clover_11)](./verdania/verdania-kindanir-egg-room.md)
+- [Verdania Left Side Essence Shrine (Clover_21)](./verdania/verdania-left-side-essence-shrine.md)
+- [Verdania Left Side Tall Room (Clover_05c)](./verdania/verdania-left-side-tall-room.md)
+- [Verdania Right Side Tall Room (Clover_03)](./verdania/verdania-right-side-tall-room.md)
+- [Verdania Top Room (Clover_06)](./verdania/verdania-top-room.md)
 
 ## Blasted Steps
 

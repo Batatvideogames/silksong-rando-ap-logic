@@ -24,19 +24,20 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| H | Horizontal | Ventrica | Lateral | none |  |  | ✓ | one way door |
+| H | Horizontal | Ventrica | Lateral | hitting lever |  |  | ✓ | one way door |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Map Purchase: Choral Chambers | Lateral | spend 70 rosaries |  |  | collectible |  | one of two possible locations - hero, 9/26 |
+| 1 | Map Purchase: Choral Chambers | Lateral | spend 70 rosaries |  |  | collectible | ✓ | one of two possible locations - hero, 9/26 |
 | 2 | Rosary Cache: Choral Chambers #5 | Ventrica | none |  |  | collectible | ✓ |  |
 | 3 | Rosary Cache: Choral Chambers #6 | Ventrica | none |  |  | collectible | ✓ |  |
 | 4 | Rosary Cache: Choral Chambers #7 | Ventrica | none |  |  | collectible | ✓ |  |
 | 5 | Ventrica: Choral Chambers | Ventrica | Unlock Ventrica: Choral Chambers Rosary Lock |  |  | travel |  |  |
 | 6 | Ventrica: Choral Chambers Rosary Lock | Ventrica | spend 80 rosaries |  |  | lore |  |  |
-| 7 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 7 | Lever Ventrica | Ventrica | none |  |  | switch | ✓ |  |
+| 8 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

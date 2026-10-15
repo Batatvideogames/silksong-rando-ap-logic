@@ -222,13 +222,53 @@
       "aliases": "dash, swift step 2, progressive swift step 2"
     },
     {
+      "id": "5ac3154b-8478-4b77-b8ce-b80e0241c5f9",
+      "name": "Naked Pogo",
+      "category": "Ability",
+      "inputSyntax": "{difficulty} {predicate}",
+      "outputSyntax": "capability:naked-pogo:{difficulty}",
+      "notes": "",
+      "sortOrder": 22,
+      "aliases": "naked pogo, naked crest pogo, cloakless pogo"
+    },
+    {
+      "id": "32367338-0631-5453-a6a9-e8ce0e4f655b",
+      "name": "Spike Pogo",
+      "category": "Ability",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "capability:spike-pogo",
+      "notes": "Use when a traversal requires a pogo on spikes. Needed for cloakless run randomization. Use for spike pogos that are essentially free.",
+      "sortOrder": 23,
+      "aliases": "spike pogo"
+    },
+    {
+      "id": "dd99eca8-e56b-46ff-9c0a-a4bf979516bf",
+      "name": "Crest Pogo",
+      "category": "Ability",
+      "inputSyntax": "{difficulty} [{crest}] {predicate}",
+      "outputSyntax": "capability:crest-pogo:{crest}:{difficulty}",
+      "notes": "",
+      "sortOrder": 24,
+      "aliases": "pogo, crest pogo"
+    },
+    {
+      "id": "3e8d5101-9d9e-4e70-9c8c-61da534f8fae",
+      "name": "Crest Needle Strike",
+      "category": "Ability",
+      "inputSyntax": "{difficulty} [{crest?}] {predicate}",
+      "outputSyntax": "capability:needle-strike:{crest}:{difficulty}",
+      "notes": "",
+      "sortOrder": 25,
+      "aliases": "needle strike, charge"
+    },
+    {
       "id": "cdcace80-fbee-5b7c-9e81-922da0874671",
       "name": "Cling Grip",
       "category": "Ability",
       "inputSyntax": "{predicate} [{direction?}]",
       "outputSyntax": "capability:cling-grip:{direction}",
       "notes": "",
-      "sortOrder": 22,
+      "sortOrder": 26,
       "aliases": "cling grip"
     },
     {
@@ -238,7 +278,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "capability:drifters-cloak",
       "notes": "",
-      "sortOrder": 23,
+      "sortOrder": 27,
       "aliases": "drifters cloak, drifters"
     },
     {
@@ -248,7 +288,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "capability:faydown-cloak",
       "notes": "",
-      "sortOrder": 24,
+      "sortOrder": 28,
       "aliases": "faydown cloak, faydown"
     },
     {
@@ -258,7 +298,7 @@
       "inputSyntax": "{predicate} [{direction?}]",
       "outputSyntax": "capability:clawline:{direction}",
       "notes": "",
-      "sortOrder": 25,
+      "sortOrder": 29,
       "aliases": "clawline"
     },
     {
@@ -268,7 +308,7 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "capability:clawline:left:{quantity}",
       "notes": "A bit of a hack to get direction \u002B quantity working for this.",
-      "sortOrder": 26,
+      "sortOrder": 30,
       "aliases": "clawline left x"
     },
     {
@@ -278,7 +318,7 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "capability:clawline:right:{quantity}",
       "notes": "A bit of a hack to get direction \u002B quantity working for this.",
-      "sortOrder": 27,
+      "sortOrder": 31,
       "aliases": "clawline right x"
     },
     {
@@ -288,7 +328,7 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "capability:clawline:{quantity}",
       "notes": "",
-      "sortOrder": 28,
+      "sortOrder": 32,
       "aliases": "clawline x"
     },
     {
@@ -298,7 +338,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "capability:silk-soar",
       "notes": "I will allow the typo \u0022silksoar\u0022 out of the generosity of my heart.",
-      "sortOrder": 29,
+      "sortOrder": 33,
       "aliases": "silk soar, silksoar"
     },
     {
@@ -308,7 +348,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "capability:needolin",
       "notes": "Implies ownership of the needolin and the silk to use it.",
-      "sortOrder": 30,
+      "sortOrder": 34,
       "aliases": "needolin"
     },
     {
@@ -318,7 +358,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "capability:silkspear",
       "notes": "Implies the ability to equip it and the necessary silk to use it.",
-      "sortOrder": 31,
+      "sortOrder": 35,
       "aliases": "silkspear"
     },
     {
@@ -328,7 +368,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "capability:sharpdart",
       "notes": "Implies the ability to equip it and the necessary silk to use it. I will allow \u0022sharp dart\u0022 as an alias. Not without protest.",
-      "sortOrder": 32,
+      "sortOrder": 36,
       "aliases": "sharpdart, sharp dart"
     },
     {
@@ -338,7 +378,7 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "capability:sharpdart:{quantity}",
       "notes": "This is more than having the spell sharpdart. This implies the ability to equip it and the necessary silk to use it the specified number of times.",
-      "sortOrder": 33,
+      "sortOrder": 37,
       "aliases": "sharpdart x"
     },
     {
@@ -348,7 +388,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "capability:thread-storm",
       "notes": "Implies the ability to equip it and the necessary silk to use it.",
-      "sortOrder": 34,
+      "sortOrder": 38,
       "aliases": "thread storm"
     },
     {
@@ -358,7 +398,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "capability:rune-rage",
       "notes": "Implies the ability to equip it and the necessary silk to use it.",
-      "sortOrder": 35,
+      "sortOrder": 39,
       "aliases": "rune rage"
     },
     {
@@ -368,7 +408,7 @@
       "inputSyntax": "{difficulty?} {predicate}",
       "outputSyntax": "capability:scuttlebrace:{difficulty}",
       "notes": "The unholy abomination. This implies you have the tool, dash, and the tool slot to equip scuttlebrace.",
-      "sortOrder": 36,
+      "sortOrder": 40,
       "aliases": "scuttlebrace"
     },
     {
@@ -378,7 +418,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "capability:flea-brew-jump",
       "notes": "This implies you have the tool, the tool slot to equip it, and the means of getting a refill. Part of the enhanced movement logic category that can be enabled or disabled.",
-      "sortOrder": 37,
+      "sortOrder": 41,
       "aliases": "flea brew, flea brew jump"
     },
     {
@@ -388,7 +428,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "capability:silkspeed-anklets",
       "notes": "This implies you have the tool and the tool slot to equip it.",
-      "sortOrder": 38,
+      "sortOrder": 42,
       "aliases": "silkspeed anklets, silkspeed, anklets"
     },
     {
@@ -398,7 +438,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "capability:curveclaw",
       "notes": "This implies you have the tool and the tool slot to equip it.",
-      "sortOrder": 39,
+      "sortOrder": 43,
       "aliases": "curveclaw"
     },
     {
@@ -408,7 +448,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "capability:elegy-of-the-deep",
       "notes": "Implies having the melody and the needolin to play it.",
-      "sortOrder": 40,
+      "sortOrder": 44,
       "aliases": "elegy of the deep, elegy melody, play elegy"
     },
     {
@@ -418,7 +458,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "capability:magma-bell",
       "notes": "This implies you have the tool and the tool slot to equip it.",
-      "sortOrder": 41,
+      "sortOrder": 45,
       "aliases": "magma bell"
     },
     {
@@ -428,7 +468,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "capability:needle-phial",
       "notes": "This implies you have the tool and the tool slot to equip it. Used in alchemist wishes to harvest plasmium.",
-      "sortOrder": 42,
+      "sortOrder": 46,
       "aliases": "needle phial"
     },
     {
@@ -438,7 +478,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "capability:damage-shredding",
       "notes": "Implies having and the ability to equip Sawtooth Circlet, Cogwork Wheel, Delver\u0027s Drill, Conchcutter, Beast Crest, or Architect Crest.",
-      "sortOrder": 43,
+      "sortOrder": 47,
       "aliases": "shredding damage, shred"
     },
     {
@@ -448,7 +488,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "capability:damage-skewering",
       "notes": "Implies having and being able to equip Sting Shard or Longpin. \n*Needle Phial also causes skewering damage, but should not be factored into logic because it is lost when upgrading to Plasmium Phial.",
-      "sortOrder": 44,
+      "sortOrder": 48,
       "aliases": "skewering damage, skewer"
     },
     {
@@ -458,7 +498,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "capability:damage-searing",
       "notes": "Implies having and being able to equip Flintslate, Pimpillo, Wispfire Lantern, or Voltvessels.",
-      "sortOrder": 45,
+      "sortOrder": 49,
       "aliases": "searing damage, sear"
     },
     {
@@ -468,18 +508,8 @@
       "inputSyntax": "{predicate} {quantity}",
       "outputSyntax": "count:silkhearts:{quantity}",
       "notes": "",
-      "sortOrder": 46,
+      "sortOrder": 50,
       "aliases": "silkhearts x"
-    },
-    {
-      "id": "5ac3154b-8478-4b77-b8ce-b80e0241c5f9",
-      "name": "Naked Pogo",
-      "category": "Ability",
-      "inputSyntax": "{difficulty} {predicate}",
-      "outputSyntax": "capability:naked-pogo:{difficulty}",
-      "notes": "",
-      "sortOrder": 47,
-      "aliases": "naked pogo, naked crest pogo, cloakless pogo"
     },
     {
       "id": "6ccc5e48-bb32-5dba-8bf3-ec93411d2c36",
@@ -488,7 +518,7 @@
       "inputSyntax": "{difficulty?} {predicate}",
       "outputSyntax": "capability:enemy-pogo:{difficulty}",
       "notes": "",
-      "sortOrder": 48,
+      "sortOrder": 51,
       "aliases": "enemy pogo"
     },
     {
@@ -498,18 +528,18 @@
       "inputSyntax": "{difficulty} {predicate} [{enemy}]",
       "outputSyntax": "capability:enemy-type-pogo:{enemy}:{difficulty}",
       "notes": "",
-      "sortOrder": 49,
+      "sortOrder": 52,
       "aliases": "pogo off, enemy pogo off"
     },
     {
-      "id": "32367338-0631-5453-a6a9-e8ce0e4f655b",
-      "name": "Spike Pogo",
-      "category": "Ability",
-      "inputSyntax": "{predicate}",
-      "outputSyntax": "capability:spike-pogo",
-      "notes": "Use when a traversal requires a pogo on spikes. Needed for cloakless run randomization. Use for spike pogos that are essentially free.",
-      "sortOrder": 50,
-      "aliases": "spike pogo"
+      "id": "fb44fc2e-9f92-4467-8528-e15844f59961",
+      "name": "Damage Boost Off Enemy",
+      "category": "Technique",
+      "inputSyntax": "{difficulty} {predicate} [{enemy}]",
+      "outputSyntax": "technique:damage-boost:{enemy}:{difficulty}",
+      "notes": "",
+      "sortOrder": 53,
+      "aliases": "damage boost off enemy, damage boost off"
     },
     {
       "id": "888001b0-59b2-435d-8f2c-e85c0c5b6e64",
@@ -518,7 +548,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:wind-skip:{difficulty}",
       "notes": "Used in windy areas in Blasted Steps. Implies owning drifter\u0027s cloak. ",
-      "sortOrder": 51,
+      "sortOrder": 54,
       "aliases": "wind skip"
     },
     {
@@ -528,7 +558,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:cocoon-skip:{difficulty}",
       "notes": "\u0022We are NOT doing cocoon skip.\u0022 - Moriko Kyoho, 2026",
-      "sortOrder": 52,
+      "sortOrder": 55,
       "aliases": "cocoon skip"
     },
     {
@@ -538,7 +568,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:needle-strike-stall:{difficulty}",
       "notes": "",
-      "sortOrder": 53,
+      "sortOrder": 56,
       "aliases": "needle strike stall, charge stall"
     },
     {
@@ -548,7 +578,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:heal-stall:{difficulty}",
       "notes": "Factors in whether the user only has shaman crest.",
-      "sortOrder": 54,
+      "sortOrder": 57,
       "aliases": "heal stall"
     },
     {
@@ -558,7 +588,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:flintslate-stall:{difficulty}",
       "notes": "Implies owning and being able to equip tool.",
-      "sortOrder": 55,
+      "sortOrder": 58,
       "aliases": "flintslate stall"
     },
     {
@@ -568,7 +598,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:flea-brew-stall:{difficulty}",
       "notes": "Implies owning and being able to equip tool.",
-      "sortOrder": 56,
+      "sortOrder": 59,
       "aliases": "flea brew stall"
     },
     {
@@ -578,7 +608,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:plasmium-phial-stall:{difficulty}",
       "notes": "Implies owning and being able to equip tool.",
-      "sortOrder": 57,
+      "sortOrder": 60,
       "aliases": "plasmium phial stall, plasmium stall"
     },
     {
@@ -588,7 +618,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:voltvessels-stall:{difficulty}",
       "notes": "Implies owning and being able to equip tool.",
-      "sortOrder": 58,
+      "sortOrder": 61,
       "aliases": "voltvessels stall"
     },
     {
@@ -598,7 +628,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:drill-crystal-pogo:{difficulty}",
       "notes": "Implies owning tools delver\u0027s drill and memory crystal and being able to equip them both at the same time. Involves taking damage to create the crystal and then using the drill to gain vertical height from it. ",
-      "sortOrder": 59,
+      "sortOrder": 62,
       "aliases": "drill crystal pogo"
     },
     {
@@ -608,7 +638,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:hazard-respawn:{difficulty}",
       "notes": "Indicates the user takes advantage of a hazard respawn to cross a gap. Must be careful not to confuse with damage boost, which does not respawn the player. Quantity indicates masks of damage taken.",
-      "sortOrder": 60,
+      "sortOrder": 63,
       "aliases": "hazard respawn"
     },
     {
@@ -618,7 +648,7 @@
       "inputSyntax": "{difficulty} {predicate}",
       "outputSyntax": "capability:damage-boost:{difficulty}",
       "notes": "Indicates the user takes advantage of a taking damage to cross a gap. Must be careful not to confuse with hazard respawn, which respawns the player. Quantity indicates masks of damage taken.",
-      "sortOrder": 61,
+      "sortOrder": 64,
       "aliases": "damage boost"
     },
     {
@@ -628,7 +658,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "capability:proficient-movement",
       "notes": "For situations that do not use a specific stall or skip technique, but the traversal requires a minimum skill level.",
-      "sortOrder": 62,
+      "sortOrder": 65,
       "aliases": "proficient movement"
     },
     {
@@ -638,7 +668,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "capability:flea-brew-speed",
       "notes": "Used for the one situation where you are actually required to use Flea Brew for its speed at the Weavenest in Far Fields to unlock the secret area. Implies having the tool, being able to equip it, and access to refills. This should not be controlled by enhanced movement settings, as this is a core part of game logic.",
-      "sortOrder": 63,
+      "sortOrder": 66,
       "aliases": "flea brew speed"
     },
     {
@@ -648,7 +678,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:act-1",
       "notes": "I don\u0027t think this will get used, but adding it for completeness. ",
-      "sortOrder": 64,
+      "sortOrder": 67,
       "aliases": "act i, act 1"
     },
     {
@@ -658,7 +688,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:act-2",
       "notes": "",
-      "sortOrder": 65,
+      "sortOrder": 68,
       "aliases": "act ii, act 2"
     },
     {
@@ -668,7 +698,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:act-3",
       "notes": "",
-      "sortOrder": 66,
+      "sortOrder": 69,
       "aliases": "act iii, act 3"
     },
     {
@@ -678,7 +708,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:enemy-spawn-normal-world",
       "notes": "Acts 1 and 2. Used for enemy spawn requirements. Indicates the enemy only spawns in the normal world scene.",
-      "sortOrder": 67,
+      "sortOrder": 70,
       "aliases": "normal world spawn"
     },
     {
@@ -688,7 +718,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:enemy-spawn-black-thread-world",
       "notes": "Act 3. Used for enemy spawn requirements. Indicates the enemy only spawns in the black thread world scene.",
-      "sortOrder": 68,
+      "sortOrder": 71,
       "aliases": "black thread world spawn"
     },
     {
@@ -698,7 +728,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:craw-summons-ready",
       "notes": "Ready to receive Craw Summons at an eligible bench spot. Created a predicate because there is not a singular spot to define the logic. Implies proper story progression, but not eligible bench access. Bench access logic is applied by using this requirement on the check location.\n\n\u0022To receive the Craw Summons, Hornet must have reached Act 3, completed the SEEK: Awaiting the End objective, and hit the lever inside the Craw house on Craw Lake.\u0022 - per the wiki",
-      "sortOrder": 69,
+      "sortOrder": 72,
       "aliases": "craw summons ready"
     },
     {
@@ -708,7 +738,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:visit-shellwood",
       "notes": "Used for the wish Volatile Flintbeetles.",
-      "sortOrder": 70,
+      "sortOrder": 73,
       "aliases": "visit shellwood"
     },
     {
@@ -718,7 +748,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:visit-greymoor",
       "notes": "Used for the wish Volatile Flintbeetles.",
-      "sortOrder": 71,
+      "sortOrder": 74,
       "aliases": "visit greymoor"
     },
     {
@@ -728,7 +758,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:visit-sinners-road",
       "notes": "",
-      "sortOrder": 72,
+      "sortOrder": 75,
       "aliases": "visit sinners road"
     },
     {
@@ -738,7 +768,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:visit-blasted-steps",
       "notes": "",
-      "sortOrder": 73,
+      "sortOrder": 76,
       "aliases": "visit blasted steps"
     },
     {
@@ -748,7 +778,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:visit-the-citadel",
       "notes": "Used for the wish An Icon of Hope. In-game flag is tied to citadelWoken. Good luck.",
-      "sortOrder": 74,
+      "sortOrder": 77,
       "aliases": "visit the citadel"
     },
     {
@@ -758,7 +788,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "state:visit-whiteward",
       "notes": "Used for the wish Balm for the Wounded.",
-      "sortOrder": 75,
+      "sortOrder": 78,
       "aliases": "visit whiteward"
     },
     {
@@ -768,7 +798,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "setting:steel-soul-on",
       "notes": "",
-      "sortOrder": 76,
+      "sortOrder": 79,
       "aliases": "steel soul on, steel soul, ooo look at me im so good at the game"
     },
     {
@@ -778,7 +808,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "setting:steel-soul-off",
       "notes": "",
-      "sortOrder": 77,
+      "sortOrder": 80,
       "aliases": "steel soul off"
     },
     {
@@ -788,7 +818,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "setting:bellshrinesanity-on",
       "notes": "",
-      "sortOrder": 78,
+      "sortOrder": 81,
       "aliases": "bellshrinesanity on"
     },
     {
@@ -798,7 +828,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "setting:bellshrinesanity-off",
       "notes": "",
-      "sortOrder": 79,
+      "sortOrder": 82,
       "aliases": "bellshrinesanity off"
     },
     {
@@ -808,7 +838,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "setting:bossanity-on",
       "notes": "",
-      "sortOrder": 80,
+      "sortOrder": 83,
       "aliases": "bossanity on"
     },
     {
@@ -818,7 +848,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "setting:bossanity-off",
       "notes": "",
-      "sortOrder": 81,
+      "sortOrder": 84,
       "aliases": "bossanity off"
     },
     {
@@ -828,7 +858,7 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "setting:wishsanity-on",
       "notes": "",
-      "sortOrder": 82,
+      "sortOrder": 85,
       "aliases": "wishsanity on"
     },
     {
@@ -838,28 +868,18 @@
       "inputSyntax": "{predicate}",
       "outputSyntax": "setting:wishsanity-off",
       "notes": "",
-      "sortOrder": 83,
+      "sortOrder": 86,
       "aliases": "wishsanity off"
     },
     {
-      "id": "dd99eca8-e56b-46ff-9c0a-a4bf979516bf",
-      "name": "Crest Pogo",
-      "category": "Ability",
-      "inputSyntax": "{difficulty} [{crest}] {predicate}",
-      "outputSyntax": "capability:crest-pogo:{crest}:{difficulty}",
-      "notes": "",
-      "sortOrder": 84,
-      "aliases": "pogo, crest pogo"
-    },
-    {
-      "id": "3e8d5101-9d9e-4e70-9c8c-61da534f8fae",
-      "name": "Crest Needle Strike",
-      "category": "Technique",
-      "inputSyntax": "{difficulty} [{crest?}] {predicate}",
-      "outputSyntax": "capability:needle-strike:{crest}:{difficulty}",
-      "notes": "",
-      "sortOrder": 85,
-      "aliases": "needle strike, charge"
+      "id": "c5a087fb-8fce-469d-86c7-2100f0a97e03",
+      "name": "Advanced Knowledge",
+      "category": "Setting",
+      "inputSyntax": "{predicate}",
+      "outputSyntax": "setting:elite-ball-knowledge-on",
+      "notes": "Setting for knowledge of extremely specific techniques and unintuitive game possibilities, such as thorn pogo spots or novel silk soar locations.",
+      "sortOrder": 87,
+      "aliases": "advanced knowledge, elite ball knowledge, ponder the orb"
     }
   ],
   "crests": [
@@ -4241,6 +4261,15 @@
       "notes": "Used for Nuu\u0027s wish or Hunter\u0027s Journal completion goals. Indicates the number of unique enemies you can encounter and journal.",
       "sortOrder": 39,
       "aliases": "hunters journal entries"
+    },
+    {
+      "id": "aea91988-e683-4e26-87b2-58fc8e3c9e6c",
+      "name": "Verdania Shards",
+      "category": "Collectible",
+      "outputValue": "verdania-shards",
+      "notes": "",
+      "sortOrder": 40,
+      "aliases": "verdania shards"
     }
   ],
   "enemyTypes": [

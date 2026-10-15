@@ -50,19 +50,20 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Flea: Choral Chambers - Walled Room | Top Section 2 | silk soar OR drifter's cloak OR (faydown cloak AND easy [Wanderer, Shaman] pogo) |  |  | collectible |  |  |
-| 2 | Rosary Cache: Choral Chambers #14 | Base Upper | clawline OR faydown cloak OR (dash AND ledge grab) | TODO |  | collectible |  | check, probably better to split Base Upper into two zones since they can be gotten from BLT easier than from BLB |
-| 3 | Rosary Cache: Choral Chambers #15 | Base Upper | clawline OR faydown cloak OR (dash AND ledge grab) | TODO |  | collectible |  | check, probably better to split Base Upper into two zones since they can be gotten from BLT easier than from BLB |
-| 4 | Rosary Cache: Choral Chambers #16 | Base Upper | clawline OR faydown cloak OR (dash AND ledge grab) | TODO |  | collectible |  | check, probably better to split Base Upper into two zones since they can be gotten from BLT easier than from BLB |
+| 1 | Flea: Choral Chambers - Walled Room | Top Section 2 | Break Wall right AND (silk soar OR drifter's cloak OR (faydown cloak AND easy [Wanderer, Shaman] pogo)) |  |  | collectible | ✓ | Secret hidden by breaking a wall |
+| 2 | Rosary Cache: Choral Chambers #14 | Base Upper | clawline OR faydown cloak OR (dash AND ledge grab) | TODO |  | collectible | ✓ | check, probably better to split Base Upper into two zones since they can be gotten from BLT easier than from BLB |
+| 3 | Rosary Cache: Choral Chambers #15 | Base Upper | clawline OR faydown cloak OR (dash AND ledge grab) | TODO |  | collectible | ✓ | check, probably better to split Base Upper into two zones since they can be gotten from BLT easier than from BLB |
+| 4 | Rosary Cache: Choral Chambers #16 | Base Upper | clawline OR faydown cloak OR (dash AND ledge grab) | TODO |  | collectible | ✓ | check, probably better to split Base Upper into two zones since they can be gotten from BLT easier than from BLB |
 | 5 | import enemies |  |  | TODO | Needs verification |  |  |  |
-| 6 | Choir Flyer 1 |  |  |  |  | enemy | ✓ |  |
-| 7 | Choir Flyer 2 |  |  |  |  | enemy | ✓ |  |
-| 8 | Choir Bellbearer 1 |  |  |  |  | enemy | ✓ |  |
-| 9 | Choir Flyer 3 |  |  |  |  | enemy | ✓ |  |
-| 10 | Choir Hornhead 1 |  |  |  |  | enemy | ✓ |  |
-| 11 | Choir Elder 1 |  |  |  |  | enemy | ✓ |  |
-| 12 | Choir Pouncer 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 13 | Choir Pouncer 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 6 | Lever Flea shaft | Top Section 1 | none |  |  | switch | ✓ |  |
+| 7 | Choir Flyer 1 |  |  |  |  | enemy | ✓ |  |
+| 8 | Choir Flyer 2 |  |  |  |  | enemy | ✓ |  |
+| 9 | Choir Bellbearer 1 |  |  |  |  | enemy | ✓ |  |
+| 10 | Choir Flyer 3 |  |  |  |  | enemy | ✓ |  |
+| 11 | Choir Hornhead 1 |  |  |  |  | enemy | ✓ |  |
+| 12 | Choir Elder 1 |  |  |  |  | enemy | ✓ |  |
+| 13 | Choir Pouncer 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 14 | Choir Pouncer 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
 
 ## Room Images
 

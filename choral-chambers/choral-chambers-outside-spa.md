@@ -37,26 +37,28 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Gauntlet Fight | Gauntlet | none |  |  | gauntlet |  |  |
-| 2 | Heavy Rosary Necklace: Choral Chambers | Base | cling grip OR silk soar |  |  | collectible |  | Secret hidden by breaking the ceiling |
-| 3 | Second Sentinel Encounter | Gauntlet | defeat Gauntlet Fight AND Act 2 AND complete THE Second Sentinel Activation |  |  | resource |  | only act 2 per the wiki |
-| 4 | Drapemite 1 |  |  |  |  | enemy | ✓ |  |
-| 5 | Reed 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 6 | Choristor 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 7 | Choir Pouncer 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 8 | Choir Flyer 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 9 | Clawmaiden 1 |  | Normal World Spawn |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned |
-| 10 | Choristor 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 11 | Choir Bellbearer 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 12 | Reed 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 13 | Reed 3 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 14 | Clawmaiden 2 |  | Normal World Spawn |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned |
-| 15 | Song Knight 1 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: songChevalierActiveInSong_04=true, songChevalierSeenInSong_04=false, songChevalierEncounterCooldown=false, songChevalierQuestReady=false FSM Boolean flags: encounteredSongChevalierBoss |
-| 16 | Reed 4 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: songChevalierActiveInSong_04=true, songChevalierSeenInSong_04=false, songChevalierEncounterCooldown=false, songChevalierQuestReady=false |
-| 17 | Choristor 3 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: songChevalierActiveInSong_04=true, songChevalierSeenInSong_04=false, songChevalierEncounterCooldown=false, songChevalierQuestReady=false |
-| 18 | Void Mass 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
-| 19 | Choristor 4 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
-| 20 | Choir Bellbearer 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 1 | Heavy Rosary Necklace - Choral Chambers | Base | cling grip OR silk soar |  |  | collectible | ✓ | Secret hidden by breaking the ceiling |
+| 2 | Second Sentinel Encounter | Gauntlet | defeat Gauntlet Fight AND Act 2 AND complete THE Second Sentinel Activation |  |  | resource |  | only act 2 per the wiki |
+| 3 | Switch - Outside Spa | Left | none |  |  | switch | ✓ |  |
+| 4 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 5 | Gauntlet Fight | Gauntlet | none |  |  | gauntlet |  |  |
+| 6 | Drapemite 1 |  |  |  |  | enemy | ✓ |  |
+| 7 | Reed 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 8 | Choristor 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 9 | Choir Pouncer 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 10 | Choir Flyer 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 11 | Clawmaiden 1 |  | Normal World Spawn |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned |
+| 12 | Choristor 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 13 | Choir Bellbearer 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 14 | Reed 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 15 | Reed 3 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 16 | Clawmaiden 2 |  | Normal World Spawn |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned |
+| 17 | Song Knight 1 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: songChevalierActiveInSong_04=true, songChevalierSeenInSong_04=false, songChevalierEncounterCooldown=false, songChevalierQuestReady=false FSM Boolean flags: encounteredSongChevalierBoss |
+| 18 | Reed 4 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: songChevalierActiveInSong_04=true, songChevalierSeenInSong_04=false, songChevalierEncounterCooldown=false, songChevalierQuestReady=false |
+| 19 | Choristor 3 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: songChevalierActiveInSong_04=true, songChevalierSeenInSong_04=false, songChevalierEncounterCooldown=false, songChevalierQuestReady=false |
+| 20 | Void Mass 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 21 | Choristor 4 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 22 | Choir Bellbearer 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 ## Room Images
 

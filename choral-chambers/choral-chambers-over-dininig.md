@@ -25,27 +25,29 @@
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | V | Vertical | Top | Base | none |  |  | ✓ | falling |
-| V | Vertical | Base | Top | cling grip OR faydown cloak OR silk soar | TODO |  | ✓ | Needs checking |
-| S | Secret | Right Secret | Base | none |  |  | ✓ | one way door |
+| V | Vertical | Base | Top | cling grip OR faydown cloak OR silk soar OR (easy shaman pogo AND (easy pogo off Choir pouncer OR easy hazard respawn) AND easy pogo off Choir Flyer) OR (ledge grab AND easy pogo off Choir Flyer) |  |  | ✓ |  |
+| S | Secret | Right Secret | Base | activate switch over dining |  |  | ✓ | one way door |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Rosary Cache: Choral Chambers #11 | Top | none |  |  | collectible | ✓ | falling |
-| 2 | Rosary Cache: Choral Chambers #12 | Top | none |  |  | collectible |  | falling |
-| 3 | Rosary Cache: Choral Chambers #13 | Top | none |  |  | collectible |  | falling |
-| 4 | Mask Shard: Cogwork Core | Right Secret | none |  |  | collectible |  |  |
-| 5 | import enemies |  |  | TODO | Needs verification |  |  |  |
-| 6 | Choir Pouncer 1 |  |  |  |  | enemy | ✓ |  |
-| 7 | Drapemite 1 |  |  |  |  | enemy | ✓ |  |
-| 8 | Drapemite 2 |  |  |  |  | enemy | ✓ |  |
-| 9 | Choir Hornhead 1 |  |  |  |  | enemy | ✓ |  |
-| 10 | Choir Flyer 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 11 | Drapefly 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 12 | Drapefly 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 13 | Choir Flyer 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
-| 14 | Drapefly 3 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 2 | Rosary Cache: Choral Chambers #12 | Top | none |  |  | collectible | ✓ | falling |
+| 3 | Rosary Cache: Choral Chambers #13 | Top | none |  |  | collectible | ✓ | falling |
+| 4 | Mask Shard: Cogwork Core | Right Secret | none |  |  | collectible | ✓ |  |
+| 5 | Rosary Necklace - Choral Chambers #2 | Base |  |  |  | collectible | ✓ | hidden behind a breakable wall |
+| 6 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 7 | Switch over dining | Right Secret | none |  |  | switch | ✓ |  |
+| 8 | Choir Pouncer 1 |  |  |  |  | enemy | ✓ |  |
+| 9 | Drapemite 1 |  |  |  |  | enemy | ✓ |  |
+| 10 | Drapemite 2 |  |  |  |  | enemy | ✓ |  |
+| 11 | Choir Hornhead 1 |  |  |  |  | enemy | ✓ |  |
+| 12 | Choir Flyer 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 13 | Drapefly 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 14 | Drapefly 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 15 | Choir Flyer 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 16 | Drapefly 3 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 ## Room Images
 
