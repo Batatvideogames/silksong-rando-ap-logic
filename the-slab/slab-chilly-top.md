@@ -26,32 +26,32 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | Right | Right | Bottom Right Entrance | ledge grab OR cling grip OR faydown cloak OR scuttlebrace OR easy shaman pogo |  | Verified | ✓ |  |
+| R | Right | Right | Bottom Right Entrance | ledge grab left OR cling grip any OR faydown cloak OR scuttlebrace OR easy shaman pogo |  | Verified | ✓ |  |
 | R | Right | Bottom Right Entrance | Right | none (falling) |  | Verified | ✓ |  |
 | MLR | Mid Lower Right | Right | Mid Lower 1 | none (falling) |  | Verified | ✓ |  |
-| MLR | Mid Lower Right | Mid Lower 1 | Right | ledge grab OR cling grip OR faydown cloak OR scuttlebrace OR silk soar |  | Verified | ✓ |  |
-| MX | Mid Crossover | Mid Lower 1 | Left Lower | faydown cloak OR dash OR clawline OR spike pogo OR sharpdart OR drifter's cloak |  | Verified | ✓ |  |
-| MX | Mid Crossover | Left Lower | Mid Lower 1 | faydown cloak OR dash OR clawline OR spike pogo OR sharpdart OR drifter's cloak |  | Verified | ✓ |  |
-| MXU | Mid High Crossover | Left Mid | Right | faydown cloak OR dash OR clawline OR easy beast pogo OR sharpdart OR drifter's cloak |  | Verified | ✓ | enemy pogo may be possible |
-| MXU | Mid High Crossover | Right | Left Mid | faydown cloak OR dash OR clawline OR easy beast pogo OR sharpdart OR drifter's cloak |  | Verified | ✓ |  |
-| L | Left | Left Lower | Left Mid | cling grip OR scuttlebrace OR (faydown cloak AND ledge grab) |  | Verified | ✓ |  |
+| MLR | Mid Lower Right | Mid Lower 1 | Right | ledge grab right OR cling grip any OR faydown cloak OR scuttlebrace OR silk soar |  | Verified | ✓ |  |
+| MX | Mid Crossover | Mid Lower 1 | Left Lower | faydown cloak OR dash left OR clawline left x 1 OR spike pogo OR sharpdart x 1 OR drifter's cloak |  | Verified | ✓ |  |
+| MX | Mid Crossover | Left Lower | Mid Lower 1 | faydown cloak OR dash right OR clawline right x 1 OR spike pogo OR sharpdart x 1 OR drifter's cloak |  | Verified | ✓ |  |
+| MXU | Mid High Crossover | Left Mid | Right | faydown cloak OR dash right OR clawline right x 1 OR easy beast pogo OR sharpdart OR drifter's cloak |  | Verified | ✓ | enemy pogo may be possible |
+| MXU | Mid High Crossover | Right | Left Mid | faydown cloak OR dash left OR clawline left x 1 OR easy beast pogo OR sharpdart OR drifter's cloak |  | Verified | ✓ |  |
+| L | Left | Left Lower | Left Mid | cling grip any OR scuttlebrace OR (faydown cloak AND ledge grab right) |  | Verified | ✓ |  |
 | L | Left | Left Mid | Left Lower | none (falling) |  | Verified | ✓ |  |
 | BL | Bottom Left | Left Mid | Bottom Left Entrance | none (falling) |  | Verified | ✓ |  |
-| BL | Bottom Left | Bottom Left Entrance | Left Mid | cling grip OR scuttlebrace OR (faydown cloak AND ledge grab) |  | Verified | ✓ |  |
+| BL | Bottom Left | Bottom Left Entrance | Left Mid | cling grip right OR scuttlebrace OR (faydown cloak AND ledge grab right) |  | Verified | ✓ |  |
 | S | Left Switch | Bottom Left Entrance | Left Lower | complete slab_jail_lever |  | Verified | ✓ | requires switch |
 | S | Left Switch | Left Lower | Bottom Left Entrance | complete slab_jail_lever |  | Verified | ✓ | requires switch |
-| MXD | Mid Upper Down | Right | Left Lower | none |  | Verified | ✓ |  |
+| MXD | Mid Upper Down | Right | Left Lower | none |  | Verified |  |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | The Slab - Frayed Rosary String #3 | Left Mid | faydown cloak OR ((cling grip OR scuttlebrace) AND (dash OR clawline OR easy beast pogo)) |  | Verified | collectible | ✓ | enemy pogo? |
+| 1 | The Slab - Frayed Rosary String #3 | Left Mid | faydown cloak OR ((cling grip left OR scuttlebrace) AND (dash left OR run OR clawline left x 1 OR easy beast pogo OR easy beast needle strike)) |  | Verified | collectible | ✓ | enemy pogo? |
 | 2 | slab_jail_lever | Bottom Left Entrance | flip switch down |  | Verified | switch | ✓ |  |
-| 3 | Wardenfly 1 | Left Mid | cling grip OR faydown cloak OR scuttlebrace |  | Verified | enemy | ✓ | enemy pogo or garama? |
+| 3 | Wardenfly 1 | Left Mid | cling grip any OR faydown cloak OR scuttlebrace |  | Verified | enemy | ✓ | enemy pogo or garama? |
 | 4 | Wardenfly 2 | Right | none |  | Verified | enemy | ✓ |  |
 | 5 | Wardenfly 3 | Right | none |  | Verified | enemy | ✓ |  |
-| 6 | Wardenfly 4 | Right | cling grip OR faydown cloak OR scuttlebrace |  | Verified | enemy | ✓ | enemy pogo or garama? |
+| 6 | Wardenfly 4 | Right | cling grip any OR faydown cloak OR scuttlebrace |  | Verified | enemy | ✓ | enemy pogo or garama? |
 | 7 | Wardenfly 5 | Left Mid | none |  | Verified | enemy | ✓ |  |
 
 ## Room Images

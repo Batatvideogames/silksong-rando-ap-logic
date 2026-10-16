@@ -24,17 +24,16 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| V | Vertical | Bottom | Top | silk soar OR (cling grip OR ledge grab) OR faydown cloak |  |  |  |  |
-| V | Vertical | Top | Bottom | none |  |  |  | falling |
+| V | Vertical | Bottom | Top | silk soar OR (cling grip OR ledge grab) OR faydown cloak |  | Verified | ✓ |  |
+| V | Vertical | Top | Bottom | none |  | Verified | ✓ | falling |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
-| 2 | Grand Reed 1 | Bottom |  |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned, marionettesMet |
-| 3 | Song Knight 1 | Bottom |  |  |  | enemy | ✓ | FSM Boolean flags: encounteredSongChevalierBoss |
-| 4 | Grand Reed 2 | Bottom | Normal World Spawn |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned, marionettesMet |
+| 1 | Grand Reed 1 | Bottom | Normal World Spawn |  | Verified | enemy | ✓ | FSM Boolean flags: marionettesBurned, marionettesMet |
+| 2 | Song Knight 1 | Bottom | Black Thread World Spawn AND  complete THE Second Sentinel Activation |  | Verified | enemy | ✓ | FSM Boolean flags: encounteredSongChevalierBoss |
+| 3 | Grand Reed 2 | Bottom | Normal World Spawn |  | Verified | enemy | ✓ | FSM Boolean flags: marionettesBurned, marionettesMet |
 
 ## Room Images
 

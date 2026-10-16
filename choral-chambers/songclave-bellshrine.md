@@ -20,9 +20,7 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | bellshrine switch |  |  | TODO |  | switch | ✓ |  |
-| 2 | bench |  | activate bellshrine switch |  | Verified | bench |  |  |
-| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 1 | Lever Bellshrine Enclave |  | none |  | Verified | switch | ✓ |  |
 
 ## Room Images
 

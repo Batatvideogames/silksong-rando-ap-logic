@@ -33,8 +33,7 @@
 | 2 | Great Taste of Pharloom Wish Promised | Diner | none |  | Verified | event | ✓ |  |
 | 3 | Lever - Dining #1 | Diner | none |  |  | switch | ✓ |  |
 | 4 | Lever - Dining #2 | Diner | none |  |  | switch | ✓ |  |
-| 5 | import enemies |  |  | TODO | Needs verification |  |  |  |
-| 6 | Choir Pouncer 1 |  |  |  |  | enemy | ✓ |  |
+| 5 | Choir Pouncer 1 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

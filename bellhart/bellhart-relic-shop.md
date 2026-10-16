@@ -12,7 +12,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Belltown (Belltown)](belltown.md) | RD | None |  | Verified |  |  |
+| L | left1 |  | [Belltown (Belltown)](belltown.md) | RD | None |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
@@ -45,4 +45,14 @@ Relic slots are numbered for convenience but not for required reasons.
 
 ## Room Images
 
-Scene image unavailable.
+### Connections
+
+[![Connections for Bellhart Relic Shop (Belltown_Room_Relic)](../00-annotations/bellhart/bellhart-relic-shop-connections.png)](../00-annotations/bellhart/bellhart-relic-shop-connections.png)
+
+### Checks
+
+[![Checks for Bellhart Relic Shop (Belltown_Room_Relic)](../00-annotations/bellhart/bellhart-relic-shop-checks.png)](../00-annotations/bellhart/bellhart-relic-shop-checks.png)
+
+### Scene
+
+[![Scene for Bellhart Relic Shop (Belltown_Room_Relic)](../00-annotations/bellhart/bellhart-relic-shop-scene.png)](../00-annotations/bellhart/bellhart-relic-shop-scene.png)

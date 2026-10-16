@@ -12,7 +12,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 |  | [Rotating Tunnel (Song_20b)](rotating-tunnel.md) | L1 | none |  |  | ✓ |  |
+| R | right1 |  | [Rotating Tunnel (Song_20b)](rotating-tunnel.md) | L1 | none |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
@@ -22,8 +22,7 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
-| 2 | Cogworker 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 1 | Cogworker 1 |  | Normal World Spawn |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

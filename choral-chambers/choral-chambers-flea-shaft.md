@@ -25,7 +25,7 @@
 | S3L | left1 | Top Section 3 Left | [Corridor to High Halls (Song_17)](corridor-to-high-halls.md) | R | none |  |  | ✓ |  |
 | S2L | left2 | Top Section 2 | [Choral Chambers Maintenance Tunnel (Song_15)](choral-chambers-maintenance-tunnel.md) | R | none |  |  | ✓ |  |
 | S3R | right2 | Top Section 3 Right | [High Halls Corridor (Hang_07)](high-halls-corridor.md) | L | ledge grab OR faydown cloak OR cling grip OR silk soar |  |  | ✓ |  |
-| BLB | left4 | Base Upper | [Choral Chambers Spa (Song_10)](choral-chambers-spa.md) | R | breakable wall -must be opened from the other side |  |  | ✓ |  |
+| BLB | left4 | Base Upper | [Choral Chambers Spa (Song_10)](choral-chambers-spa.md) | R | activate Lever Chambers Spa 2 IN choral chambers spa |  |  | ✓ |  |
 | BR | right3 | Base Bottom | [Choral Chambers Eastern Shaft (Song_05)](choral-chambers-eastern-shaft.md) | L3 | none |  |  | ✓ |  |
 | BLT | left3 | Base Upper | [Choral Chambers Above Spa (Song_13)](choral-chambers-above-spa.md) | R | none |  |  | ✓ |  |
 | S1R | right1 | Top Section 1 | [Choral Chambers Dining Room (Song_09b)](choral-chambers-dining-room.md) | L | none |  |  | ✓ |  |
@@ -43,7 +43,7 @@
 | F3L | Section 3 Right falling | Top Section 3 Right | Top Section 2 | none |  |  |  | falling |
 | F3R | Section 3 Left falling | Top Section 3 Left | Top Section 2 | none |  |  |  | falling |
 | F2 | Section 2 falling | Top Section 2 | Top Section 1 | none |  |  |  | falling |
-| H | Top Horizontal Traversal | Top Section 3 Right | Top Section 3 Left | ledge grab OR clawline OR drifter's cloak | TODO |  |  | check sharpdart |
+| H | Top Horizontal Traversal | Top Section 3 Right | Top Section 3 Left | ledge grab OR clawline both OR drifter's cloak | TODO |  |  | check sharpdart |
 | H | Top Horizontal Traversal | Top Section 3 Left | Top Section 3 Right | ledge grab OR clawline OR cling grip |  |  |  |  |
 
 ## Check Locations
@@ -54,16 +54,15 @@
 | 2 | Rosary Cache: Choral Chambers #14 | Base Upper | clawline OR faydown cloak OR (dash AND ledge grab) | TODO |  | collectible | ✓ | check, probably better to split Base Upper into two zones since they can be gotten from BLT easier than from BLB |
 | 3 | Rosary Cache: Choral Chambers #15 | Base Upper | clawline OR faydown cloak OR (dash AND ledge grab) | TODO |  | collectible | ✓ | check, probably better to split Base Upper into two zones since they can be gotten from BLT easier than from BLB |
 | 4 | Rosary Cache: Choral Chambers #16 | Base Upper | clawline OR faydown cloak OR (dash AND ledge grab) | TODO |  | collectible | ✓ | check, probably better to split Base Upper into two zones since they can be gotten from BLT easier than from BLB |
-| 5 | import enemies |  |  | TODO | Needs verification |  |  |  |
-| 6 | Lever Flea shaft | Top Section 1 | none |  |  | switch | ✓ |  |
-| 7 | Choir Flyer 1 |  |  |  |  | enemy | ✓ |  |
-| 8 | Choir Flyer 2 |  |  |  |  | enemy | ✓ |  |
-| 9 | Choir Bellbearer 1 |  |  |  |  | enemy | ✓ |  |
-| 10 | Choir Flyer 3 |  |  |  |  | enemy | ✓ |  |
-| 11 | Choir Hornhead 1 |  |  |  |  | enemy | ✓ |  |
-| 12 | Choir Elder 1 |  |  |  |  | enemy | ✓ |  |
-| 13 | Choir Pouncer 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 14 | Choir Pouncer 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 5 | Lever Flea shaft | Top Section 1 | none |  |  | switch | ✓ |  |
+| 6 | Choir Flyer 1 |  |  |  |  | enemy | ✓ |  |
+| 7 | Choir Flyer 2 |  |  |  |  | enemy | ✓ |  |
+| 8 | Choir Bellbearer 1 |  |  |  |  | enemy | ✓ |  |
+| 9 | Choir Flyer 3 |  |  |  |  | enemy | ✓ |  |
+| 10 | Choir Hornhead 1 |  |  |  |  | enemy | ✓ |  |
+| 11 | Choir Elder 1 |  |  |  |  | enemy | ✓ |  |
+| 12 | Choir Pouncer 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 13 | Choir Pouncer 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
 
 ## Room Images
 

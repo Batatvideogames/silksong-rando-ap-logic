@@ -15,8 +15,8 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 | Top | [Choral Chambers Eastern Shaft (Song_05)](choral-chambers-eastern-shaft.md) | R4 | none |  |  | ✓ |  |
-| B | bot1 | Bottom | [Choral Chambers East to West (Song_27)](choral-chambers-east-to-west.md) | T | none |  |  | ✓ | one way only, cannot be traversed from the other side |
+| L | left1 | Top | [Choral Chambers Eastern Shaft (Song_05)](choral-chambers-eastern-shaft.md) | R4 | none |  | Verified | ✓ |  |
+| B | bot1 | Bottom | [Choral Chambers East to West (Song_27)](choral-chambers-east-to-west.md) | T | hit switch either |  | Verified | ✓ | one way only, cannot be traversed from the other side |
 
 ## Subroom Connections
 
@@ -29,10 +29,9 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
-| 2 | Drapemite 1 |  |  |  |  | enemy | ✓ |  |
-| 3 | Drapemite 2 |  |  |  |  | enemy | ✓ |  |
-| 4 | Drapemite 3 |  | Invalid |  |  | enemy | ✓ | Disabled; no activation found. |
+| 1 | Drapemite 1 |  |  |  |  | enemy | ✓ |  |
+| 2 | Drapemite 2 |  |  |  |  | enemy | ✓ |  |
+| 3 | Drapemite 3 |  | Invalid |  |  | enemy | ✓ | Disabled; no activation found. |
 
 ## Room Images
 

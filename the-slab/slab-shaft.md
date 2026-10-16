@@ -16,7 +16,7 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| T | Top | Top | [Slab Chilly Top (Slab_22)](slab-chilly-top.md) | BR | faydown cloak OR scuttlebrace OR cling grip OR silk soar |  | Verified | ✓ |  |
+| T | Top | Top | [Slab Chilly Top (Slab_22)](slab-chilly-top.md) | BR | faydown cloak OR scuttlebrace OR cling grip any OR silk soar |  | Verified | ✓ |  |
 | B | Bottom | Bottom | [Slab Cavern Exit (Slab_23)](slab-cavern-exit.md) | R | none |  | Verified | ✓ |  |
 | M | Mid | Mid | [Slab Secret Side Room (Slab_18)](slab-secret-side-room.md) | R | none |  | Verified | ✓ |  |
 
@@ -24,10 +24,10 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| TM | Top Mid | Top | Mid | none (falling) |  | Verified | ✓ |  |
-| TM | Top Mid | Mid | Top | cling grip AND (spike pogo OR dash) |  | Verified | ✓ |  |
-| MB | Mid Bottom | Mid | Bottom | none (falling) |  | Verified | ✓ |  |
-| MB | Mid Bottom | Bottom | Mid | cling grip AND (spike pogo OR dash) |  | Verified | ✓ |  |
+| TM | Top Mid | Top | Mid | none (falling) |  | Verified |  |  |
+| TM | Top Mid | Mid | Top | (cling grip right AND spike pogo) OR cling grip both |  | Verified |  |  |
+| MB | Mid Bottom | Mid | Bottom | none (falling) |  | Verified |  |  |
+| MB | Mid Bottom | Bottom | Mid | (cling grip right AND spike pogo) OR cling grip both |  | Verified |  |  |
 
 ## Check Locations
 

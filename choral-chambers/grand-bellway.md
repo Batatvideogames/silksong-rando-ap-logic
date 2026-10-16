@@ -15,7 +15,7 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 | Secret Tunnel | [Vaults & Bellway Cauldron Entrance (Library_11)](../underworks/vaults-bellway-cauldron-entrance.md) | HL |  | TODO |  | ✓ |  |
+| R | right1 | Secret Tunnel | [Vaults & Bellway Cauldron Entrance (Library_11)](../underworks/vaults-bellway-cauldron-entrance.md) | HL | none |  | Verified | ✓ |  |
 | L | left1 | Base | [Grand Bellway Shaft (Song_20)](grand-bellway-shaft.md) | BR | none |  | Verified | ✓ |  |
 | BW | door_fastTravelExit | Base | [Bellway Menu](../fast-travel/bellway-menu.md) | GB | unlock Bellway: Grand Bellway |  | Verified | ✓ |  |
 | VT | door_tubeEnter | Base | [Ventrica Menu](../fast-travel/ventrica-menu.md) | GB | unlock Ventrica: Grand Bellway |  | Verified | ✓ |  |
@@ -24,7 +24,7 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| V | Vertical | Secret Tunnel | Base | none |  |  |  | falling, one sided door |
+| V | Vertical | Secret Tunnel | Base | none |  | Verified |  | falling, one sided door |
 
 ## Check Locations
 

@@ -522,7 +522,7 @@ Generated from the non-archived records in `input/silksong-rando-logic.db`.
 
 - [Slab Bridge (Slab_01)](./the-slab/slab-bridge.md)
 - [Slab Arena (Slab_16)](./the-slab/slab-arena.md)
-- [Slab Broodmother Alcove](./the-slab/slab-broodmother-alcove.md)
+- [Slab Broodmother Alcove (slab_16b)](./the-slab/slab-broodmother-alcove.md)
 - [Slab Cell (Slab_03)](./the-slab/slab-cell.md)
 - [Slab Chilly Prison (Slab_15)](./the-slab/slab-chilly-prison.md)
 - [Slab Bellway (Slab_06)](./the-slab/slab-bellway.md)
@@ -530,6 +530,7 @@ Generated from the non-archived records in `input/silksong-rando-logic.db`.
 - [Slab Cavern Exit (Slab_23)](./the-slab/slab-cavern-exit.md)
 - [Slab Chilly Top (Slab_22)](./the-slab/slab-chilly-top.md)
 - [Slab Entrance (Slab_02)](./the-slab/slab-entrance.md)
+- [Slab First Sinner (slab_10b)](./the-slab/slab-first-sinner.md)
 - [Slab First Sinner Antechamber (Slab_10c)](./the-slab/slab-first-sinner-antechamber.md)
 - [Slab Flea Cell (Slab_Cell)](./the-slab/slab-flea-cell.md)
 - [Slab Flea Prison (Slab_13)](./the-slab/slab-flea-prison.md)

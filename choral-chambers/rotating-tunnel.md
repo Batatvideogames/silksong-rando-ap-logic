@@ -29,7 +29,7 @@
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | V | Vertical | Top Platform | Central Area | none |  | Verified |  | falling, door on top platform's side |
-| V | Vertical | Central Area | Top Platform | easy [Beast, Shaman] pogo OR silk soar OR clawline OR easy [Hunter, Wanderer, Witch, Architect, Reaper] pogo |  |  |  | pogo on Reed |
+| V | Vertical | Central Area | Top Platform | easy [Beast, Shaman] pogo OR silk soar OR clawline OR (easy [Hunter, Wanderer, Witch, Architect, Reaper] pogo AND easy pogo off Reed) |  | Verified |  |  |
 | T | Tunnel | Central Area | Bottom Area | none |  | Verified |  | falling, both sides have levers making the tunnel vertical |
 | T | Tunnel | Bottom Area | Central Area | silk soar OR cling grip |  | Verified |  | both sides have levers making the tunnel vertical |
 
@@ -37,10 +37,9 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | import enemies |  |  |  | Needs verification |  |  |  |
-| 2 | Lever |  |  |  |  | switch | ✓ |  |
-| 3 | Reed | Central Area |  |  |  | enemy | ✓ |  |
-| 4 | Choir Bellbearer | Central Area |  |  |  | enemy | ✓ |  |
+| 1 | Lever | Top Platform | none |  | Verified | switch | ✓ |  |
+| 2 | Reed | Central Area | Normal world spawn |  | Verified | enemy | ✓ |  |
+| 3 | Choir Bellbearer | Central Area | Normal world spawn |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

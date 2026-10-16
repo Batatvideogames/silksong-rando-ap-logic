@@ -12,7 +12,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 |  | [Choral Chambers Western Shaft (Song_12)](choral-chambers-western-shaft.md) | S4L | none |  |  | ✓ |  |
+| R | right1 |  | [Choral Chambers Western Shaft (Song_12)](choral-chambers-western-shaft.md) | S4L | none |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
@@ -22,8 +22,7 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
-| 2 | Reed 1 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: savedGrindleInCitadel=false |
+| 1 | Reed 1 |  | Normal World Spawn |  | Verified | enemy | ✓ | Spawn conditions: savedGrindleInCitadel=false |
 
 ## Room Images
 

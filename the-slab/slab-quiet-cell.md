@@ -23,12 +23,12 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| TL | Top Locket | Top | Locket | break wall right |  | Verified | ✓ |  |
-| TL | Top Locket | Locket | Top | cling grip (either) OR scuttlebrace |  | Verified | ✓ |  |
-| TB | Top Bottom | Top | Bottom | none (falling) |  | Verified | ✓ |  |
-| TB | Top Bottom | Bottom | Top | silk soar OR scuttlebrace OR cling grip right OR (faydown cloak AND cling grip left) |  | Verified | ✓ |  |
-| BL | Bottom Locket | Bottom | Locket | (scuttlebrace OR silk soar OR cling grip right OR (faydown cloak AND cling grip left)) AND break wall right |  | Verified | ✓ |  |
-| BL | Bottom Locket | Locket | Bottom | none (falling) |  | Verified | ✓ |  |
+| TL | Top Locket | Top | Locket | break wall right |  | Verified |  |  |
+| TL | Top Locket | Locket | Top | cling grip any OR scuttlebrace |  | Verified |  |  |
+| TB | Top Bottom | Top | Bottom | none (falling) |  | Verified |  |  |
+| TB | Top Bottom | Bottom | Top | silk soar OR scuttlebrace OR cling grip right OR (faydown cloak AND cling grip left) |  | Verified |  |  |
+| BL | Bottom Locket | Bottom | Locket | (scuttlebrace OR silk soar OR cling grip right OR (faydown cloak AND cling grip left)) AND break wall right |  | Verified |  |  |
+| BL | Bottom Locket | Locket | Bottom | none (falling) |  | Verified |  |  |
 
 ## Check Locations
 

@@ -22,22 +22,21 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| V | Vertical | Base | Maintenance Tunnel | silk soar OR (faydown cloak AND cling grip AND easy pogo off Reed) |  |  | ✓ |  |
-| V | Vertical | Maintenance Tunnel | Base | silk soar OR cling grip |  |  | ✓ |  |
+| V | Vertical | Base | Maintenance Tunnel | silk soar OR (faydown cloak AND cling grip either AND easy pogo off Reed) |  | Verified | ✓ |  |
+| V | Vertical | Maintenance Tunnel | Base | silk soar OR cling grip either |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Rosary Cache: Choral Chambers #17 | Base | none |  |  | collectible | ✓ |  |
-| 2 | Rosary Cache: Choral Chambers #18 | Base | none |  |  | collectible | ✓ |  |
-| 3 | Rosary Cache: Choral Chambers #19 | Base | none |  |  | collectible | ✓ |  |
-| 4 | import enemies |  |  | TODO | Needs verification |  |  |  |
-| 5 | Choir Bellbearer 1 |  |  |  |  | enemy | ✓ |  |
-| 6 | Reed 1 |  |  |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned, marionettesMet |
-| 7 | Reed 2 |  |  |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned, marionettesMet |
-| 8 | Choir Bellbearer 2 |  |  |  |  | enemy | ✓ |  |
-| 9 | Void Mass 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 1 | Rosary Cache: Choral Chambers #17 | Base | none |  | Verified | collectible | ✓ |  |
+| 2 | Rosary Cache: Choral Chambers #18 | Base | none |  | Verified | collectible | ✓ |  |
+| 3 | Rosary Cache: Choral Chambers #19 | Base | none |  | Verified | collectible | ✓ |  |
+| 4 | Choir Bellbearer 1 | Base | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 5 | Reed 1 | Base | Normal World Spawn |  | Verified | enemy | ✓ | FSM Boolean flags: marionettesBurned, marionettesMet |
+| 6 | Reed 2 | Base | Black Thread World Spawn |  | Verified | enemy | ✓ | FSM Boolean flags: marionettesBurned, marionettesMet |
+| 7 | Choir Bellbearer 2 | Base | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 8 | Void Mass 1 | Base | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

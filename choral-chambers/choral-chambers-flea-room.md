@@ -23,9 +23,8 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Flea: Choral Chambers - Spa |  | none |  | Verified | collectible | ✓ |  |
-| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
-| 3 | Choir Bellbearer 1 |  |  |  |  | enemy | ✓ |  |
-| 4 | Choir Flyer 1 |  |  |  |  | enemy | ✓ |  |
+| 2 | Choir Bellbearer 1 |  | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 3 | Choir Flyer 1 |  | Normal World Spawn |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

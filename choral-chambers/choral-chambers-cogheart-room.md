@@ -12,7 +12,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 |  | [Choral Chambers Western Shaft (Song_12)](choral-chambers-western-shaft.md) | S3L | none |  |  | ✓ |  |
+| R | right1 |  | [Choral Chambers Western Shaft (Song_12)](choral-chambers-western-shaft.md) | S3L | none |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
@@ -22,8 +22,7 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Choral Chambers Cogheart Piece |  | flip switch up OR flip switch down |  | Verified | collectible | ✓ | memory puzzle |
-| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 1 | Choral Chambers Cogheart Piece |  | flip switch down |  | Verified | collectible | ✓ | memory puzzle |
 
 ## Room Images
 

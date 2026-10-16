@@ -12,7 +12,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 |  | [Choral Chambers Western Shaft (Song_12)](choral-chambers-western-shaft.md) | S1L | none |  |  | ✓ |  |
+| R | right1 |  | [Choral Chambers Western Shaft (Song_12)](choral-chambers-western-shaft.md) | S1L | none |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
@@ -20,9 +20,7 @@ No subroom connections defined.
 
 ## Check Locations
 
-| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
+No check locations defined.
 
 ## Room Images
 

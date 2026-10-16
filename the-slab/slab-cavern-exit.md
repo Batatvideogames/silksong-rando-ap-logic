@@ -26,7 +26,7 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| CL | Cavern Left | Cavern | Left | clear cavern blockade AND (silk soar OR faydown cloak OR ledge grab OR easy shaman pogo OR cling grip) | TODO |  | ✓ | Need to test cling grip without ledge grab |
+| CL | Cavern Left | Cavern | Left | clear cavern blockade AND (silk soar OR faydown cloak OR ledge grab any OR easy shaman pogo OR cling grip any) |  | Verified | ✓ |  |
 | CL | Cavern Left | Left | Cavern | clear cavern blockade |  | Verified | ✓ | falling |
 | LR | Left Arena | Left | Arena | unlock indolent door |  | Verified | ✓ |  |
 | LR | Left Arena | Arena | Left | unlock indolent door |  | Verified | ✓ |  |

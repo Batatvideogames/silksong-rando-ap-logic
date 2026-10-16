@@ -20,7 +20,7 @@
 | L1 | left5 | Section 1 | [Choral Chambers Below Spa (Song_02)](choral-chambers-below-spa.md) | R | none |  | Verified | ✓ |  |
 | R1 | right3 | Section 1 | [Whiteward Entrance (Ward_01)](../whiteward/whiteward-entrance.md) | TL | none |  | Verified | ✓ |  |
 | L2 | left4 | Section 3 | [Choral Chambers Merchant Room (Song_07)](choral-chambers-merchant-room.md) | R | none |  | Verified | ✓ |  |
-| R2 | right4 | Section 2 | [Choral Chambers East to West (Song_27)](choral-chambers-east-to-west.md) | L | activate door switch IN choral chambers east to west |  | Verified | ✓ |  |
+| R2 | right4 | Section 2 | [Choral Chambers East to West (Song_27)](choral-chambers-east-to-west.md) | L | activate Lever East to West IN choral chambers east to west |  | Verified | ✓ |  |
 | L3 | left3 | Section 3 | [Choral Chambers Flea Shaft (Song_11)](choral-chambers-flea-shaft.md) | BR | none |  | Verified | ✓ |  |
 | R4 | right2 | Section 4 | [Choral Chambers Below Dining (Song_18)](choral-chambers-below-dining.md) | L | none |  | Verified | ✓ |  |
 
@@ -40,23 +40,22 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Lace Second Encounter | Section 1 | none |  | Verified | event |  |  |
-| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
-| 3 | Choristor 1 |  |  |  |  | enemy | ✓ |  |
-| 4 | Choir Pouncer 1 |  |  |  |  | enemy | ✓ |  |
-| 5 | Reed 1 |  |  |  |  | enemy | ✓ |  |
-| 6 | Choir Hornhead 1 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: song05MarchGroupReady=true |
-| 7 | Envoy 1 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: song05MarchGroupReady=true |
-| 8 | Choristor 2 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: song05MarchGroupReady=true |
-| 9 | Reed 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 10 | Choir Bellbearer 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 11 | Choir Pouncer 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 12 | Envoy 2 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: laceMeetCitadel=false |
-| 13 | Reed 3 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: laceMeetCitadel=false |
-| 14 | Reed 4 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
-| 15 | Reed 5 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
-| 16 | Void Mass 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
-| 17 | Choir Bellbearer 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
-| 18 | Choir Hornhead 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 2 | Choristor 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | Choir Pouncer 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Reed 1 |  |  |  |  | enemy | ✓ |  |
+| 5 | Choir Hornhead 1 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: song05MarchGroupReady=true |
+| 6 | Envoy 1 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: song05MarchGroupReady=true |
+| 7 | Choristor 2 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: song05MarchGroupReady=true |
+| 8 | Reed 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 9 | Choir Bellbearer 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 10 | Choir Pouncer 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 11 | Envoy 2 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: laceMeetCitadel=false |
+| 12 | Reed 3 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: laceMeetCitadel=false |
+| 13 | Reed 4 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 14 | Reed 5 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 15 | Void Mass 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 16 | Choir Bellbearer 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 17 | Choir Hornhead 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 ## Room Images
 

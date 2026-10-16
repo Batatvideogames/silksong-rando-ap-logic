@@ -15,29 +15,29 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 | Lateral | [Choral Chambers Below Spa (Song_02)](choral-chambers-below-spa.md) | L | none |  |  | ✓ |  |
-| T | top1 | Ventrica | [Choral Chambers Above Ventrica (Song_03)](choral-chambers-above-ventrica.md) | B | cling grip OR silk soar OR faydown cloak |  |  | ✓ |  |
-| B | bot1 | Lateral | [Choral Chambers Below Ventrica (Song_01)](choral-chambers-below-ventrica.md) | T | none |  |  | ✓ |  |
-| V | door_tubeEnter | Ventrica | [Ventrica Menu](../fast-travel/ventrica-menu.md) | CC | unlock Ventrica: Choral Chambers |  |  | ✓ |  |
+| R | right1 | Lateral | [Choral Chambers Below Spa (Song_02)](choral-chambers-below-spa.md) | L | none |  | Verified | ✓ |  |
+| T | top1 | Ventrica | [Choral Chambers Above Ventrica (Song_03)](choral-chambers-above-ventrica.md) | B | cling grip OR silk soar OR faydown cloak |  | Verified | ✓ |  |
+| B | bot1 | Lateral | [Choral Chambers Below Ventrica (Song_01)](choral-chambers-below-ventrica.md) | T | none |  | Verified | ✓ |  |
+| V | door_tubeEnter | Ventrica | [Ventrica Menu](../fast-travel/ventrica-menu.md) | CC | unlock Ventrica: Choral Chambers |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| H | Horizontal | Ventrica | Lateral | hitting lever |  |  | ✓ | one way door |
+| H | Horizontal | Ventrica | Lateral | activate Lever Ventrica |  | Verified | ✓ |  |
+| H | Horizontal | Lateral | Ventrica | activate Lever Ventrica |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Map Purchase: Choral Chambers | Lateral | spend 70 rosaries |  |  | collectible | ✓ | one of two possible locations - hero, 9/26 |
-| 2 | Rosary Cache: Choral Chambers #5 | Ventrica | none |  |  | collectible | ✓ |  |
-| 3 | Rosary Cache: Choral Chambers #6 | Ventrica | none |  |  | collectible | ✓ |  |
-| 4 | Rosary Cache: Choral Chambers #7 | Ventrica | none |  |  | collectible | ✓ |  |
-| 5 | Ventrica: Choral Chambers | Ventrica | Unlock Ventrica: Choral Chambers Rosary Lock |  |  | travel |  |  |
-| 6 | Ventrica: Choral Chambers Rosary Lock | Ventrica | spend 80 rosaries |  |  | lore |  |  |
-| 7 | Lever Ventrica | Ventrica | none |  |  | switch | ✓ |  |
-| 8 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 1 | Map Purchase: Choral Chambers | Lateral | spend 70 rosaries |  | Verified | collectible | ✓ | one of two possible locations - hero, 9/26 |
+| 2 | Rosary Cache: Choral Chambers #5 | Ventrica | none |  | Verified | collectible | ✓ |  |
+| 3 | Rosary Cache: Choral Chambers #6 | Ventrica | none |  | Verified | collectible | ✓ |  |
+| 4 | Rosary Cache: Choral Chambers #7 | Ventrica | none |  | Verified | collectible | ✓ |  |
+| 5 | Ventrica: Choral Chambers | Ventrica | Unlock Ventrica: Choral Chambers Rosary Lock |  | Verified | travel |  |  |
+| 6 | Ventrica: Choral Chambers Rosary Lock | Ventrica | spend 80 rosaries |  | Verified | lore | ✓ |  |
+| 7 | Lever Ventrica | Ventrica | none |  | Verified | switch | ✓ |  |
 
 ## Room Images
 

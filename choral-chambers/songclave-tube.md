@@ -23,9 +23,8 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Ventrica: First Shrine Rosary Lock |  | Spend 80 rosaries |  | Verified | lock |  |  |
+| 1 | Ventrica: First Shrine Rosary Lock |  | Spend 80 rosaries |  | Verified | lock | ✓ |  |
 | 2 | Ventrica: First Shrine |  | unlock Ventrica: First Shrine Rosary Lock |  | Verified | travel | ✓ |  |
-| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

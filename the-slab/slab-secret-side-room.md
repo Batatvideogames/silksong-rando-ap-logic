@@ -26,12 +26,12 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| RU | Right Upper | Right | Upper | silk soar OR cling grip left OR (cling grip right AND faydown cloak) OR scuttlebrace |  | Verified | ✓ |  |
-| RU | Right Upper | Upper | Right | none (falling) |  | Verified | ✓ |  |
-| RM | Mid Right | Mid | Right | cling grip right OR (faydown cloak AND (scuttlebrace OR cling grip left)) |  | Verified | ✓ | scuttlebrace on the right does not go high enough |
-| RM | Mid Right | Right | Mid | none (falling) |  | Verified | ✓ |  |
-| BM | Mid Bottom | Mid | Bottom | none (falling) |  | Verified | ✓ |  |
-| BM | Mid Bottom | Bottom | Mid | silk soar OR scuttlebrace OR cling grip OR (faydown cloak AND ledge grab) |  | Verified | ✓ |  |
+| RU | Right Upper | Right | Upper | silk soar OR cling grip left OR (cling grip right AND faydown cloak) OR scuttlebrace |  | Verified |  |  |
+| RU | Right Upper | Upper | Right | none (falling) |  | Verified |  |  |
+| RM | Mid Right | Mid | Right | cling grip right OR (faydown cloak AND (scuttlebrace OR cling grip left)) |  | Verified |  | scuttlebrace on the right does not go high enough |
+| RM | Mid Right | Right | Mid | none (falling) |  | Verified |  |  |
+| BM | Mid Bottom | Mid | Bottom | none (falling) |  | Verified |  |  |
+| BM | Mid Bottom | Bottom | Mid | silk soar OR scuttlebrace OR cling grip any OR (faydown cloak AND ledge grab any) |  | Verified |  |  |
 
 ## Check Locations
 

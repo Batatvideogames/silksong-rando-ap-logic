@@ -25,7 +25,7 @@
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | ML | Middle Lower | Middle | Lower | none (falling) |  | Verified | ✓ |  |
-| ML | Middle Lower | Lower | Middle | ledge grab (both) OR cling grip (both) OR faydown cloak OR easy shaman pogo OR silk soar |  | Verified | ✓ |  |
+| ML | Middle Lower | Lower | Middle | ledge grab any OR cling grip any OR faydown cloak OR easy shaman pogo OR silk soar |  | Verified | ✓ |  |
 | UM | Upper Middle | Upper | Middle | none (falling) |  | Verified | ✓ |  |
 | UM | Upper Middle | Middle | Upper | cling grip right OR (faydown cloak AND cling grip left) OR scuttlebrace OR silk soar |  | Verified | ✓ |  |
 

@@ -12,7 +12,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| T | top1 |  | [Slab Infleatween Bottom (Slab_05)](slab-infleatween-bottom.md) | B | Cling Grip OR Silk Soar OR Scuttlebrace OR (Faydown AND ((Proficient Movement AND Ledge Grab) OR (Flea Brew) OR (Easy Heal Stall OR Easy Flea Brew Stall) OR (Easy Shaman Crest Pogo))) |  |  | ✓ | needs verification |
+| T | top1 |  | [Slab Infleatween Bottom (Slab_05)](slab-infleatween-bottom.md) | B | (silk soar AND (ledge grab left OR ledge grab right OR cling grip left OR cling grip right OR faydown cloak)) OR (ledge grab left AND ledge grab right AND cling grip left) |  | Verified | ✓ | needs refinement |
 | L | left1 |  | [Mount Fay Entrance (Peak_01)](../mount-fay/mount-fay-entrance.md) | LR | none |  | Verified | ✓ | To Peaks_01 |
 | BW | door_fastTravelExit |  | [Bellway Menu](../fast-travel/bellway-menu.md) | TS | Unlock Bellway The Slab |  | Verified |  |  |
 
@@ -24,7 +24,7 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Flea: The Slab - Bellway |  | (cling grip (either) AND faydown cloak) OR silk soar |  | Verified | collectible | ✓ |  |
+| 1 | Flea: The Slab - Bellway |  | (cling grip any AND faydown cloak) OR silk soar |  | Verified | collectible | ✓ |  |
 | 2 | Bellway The Slab |  | Unlock Bellway Rosary Lock |  | Verified | travel | ✓ |  |
 | 3 | Bellway Rosary Lock |  | spend 40 rosaries |  | Verified | lock |  |  |
 | 4 | Bench |  | none |  | Verified | bench | ✓ |  |

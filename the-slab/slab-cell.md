@@ -26,11 +26,12 @@
 | S16 | Flea2 | ✓ |
 | S17 | Cavern | ✓ |
 | S18 | Fall1 | ✓ |
-| S19 | Prelude | ✓ |
-| S20 | Poodle Top | ✓ |
-| S21 | Poodle Bottom | ✓ |
-| S22 | Window | ✓ |
-| S23 | Bottom | ✓ |
+| S19 | Prelude1 | ✓ |
+| S20 | Prelude2 | ✓ |
+| S21 | Poodle Top | ✓ |
+| S22 | Poodle Bottom | ✓ |
+| S23 | Window | ✓ |
+| S24 | Bottom | ✓ |
 
 - **Why2:** Entering via WHY will block you behind a door you can't open from that side
 
@@ -51,7 +52,7 @@
 | ENT | right5 | Bridge Center | [Slab Entrance (Slab_02)](slab-entrance.md) | L | activate slab entrance switch IN slab entrance |  | Verified | ✓ |  |
 | F2B | left6 | Flea2 | [Slab Infleatween Bottom (Slab_05)](slab-infleatween-bottom.md) | R | have Key of Apostate |  | Verified | ✓ |  |
 | CAV | right8 | Cavern | [Slab Cave Entrance (Slab_08)](slab-cave-entrance.md) | L | none |  | Verified | ✓ |  |
-| PRL | right7 | Prelude | [Slab Prelude (Slab_19b)](slab-prelude.md) | L | unlock heretic door first sinner |  | Verified | ✓ |  |
+| PRL | right7 | Prelude1 | [Slab Prelude (Slab_19b)](slab-prelude.md) | L | unlock heretic door first sinner |  | Verified | ✓ |  |
 | PDT | left7 | Poodle Top | [Slab Poodle (Slab_07)](slab-poodle.md) | R1 | none |  | Verified | ✓ |  |
 | PDB | left8 | Poodle Bottom | [Slab Poodle (Slab_07)](slab-poodle.md) | R2 | none |  | Verified | ✓ |  |
 | WND | right9 | Window | [Slab Window (Slab_12)](slab-window.md) | L | break wall right |  | Verified | ✓ | will take damage upon entering |
@@ -69,11 +70,11 @@
 | C | UpperChilly | Upper | Chilly | none (falling) |  | Verified | ✓ |  |
 | C | UpperChilly | Chilly | Upper | ledge grab right OR cling grip right OR scuttlebrace OR faydown cloak OR silk soar OR medium shaman pogo OR ((clear Breakable Wall Blockade IN slab secret side room OR clear upper blockade) AND (ledge grab left OR cling grip left)) |  | Verified | ✓ | right side is only available if you remove the blockade inside Mid |
 | D | UpperSecret | Upper | Secret | clear Breakable Wall Blockade IN slab secret side room AND clear upper blockade |  | Verified | ✓ |  |
-| D | UpperSecret | Secret | Upper | (clear Breakable Wall Blockade IN slab secret side room AND clear upper blockade) AND (ledge grab (either) OR cling grip (either) OR scuttlebrace OR faydown cloak OR silk soar OR medium shaman pogo) |  | Verified | ✓ |  |
+| D | UpperSecret | Secret | Upper | (clear Breakable Wall Blockade IN slab secret side room AND clear upper blockade) AND (ledge grab any OR cling grip any OR scuttlebrace OR faydown cloak OR silk soar OR medium shaman pogo) |  | Verified | ✓ |  |
 | E | ChillyMid | Chilly | Mid | clear Breakable Wall Blockade IN slab secret side room OR clear upper blockade |  | Verified | ✓ | falling |
-| E | ChillyMid | Mid | Chilly | (clear Breakable Wall Blockade IN slab secret side room OR clear upper blockade) AND (cling grip (either) OR faydown cloak OR scuttlebrace OR silk soar) |  | Verified | ✓ |  |
+| E | ChillyMid | Mid | Chilly | (clear Breakable Wall Blockade IN slab secret side room OR clear upper blockade) AND (cling grip any OR faydown cloak OR scuttlebrace OR silk soar) |  | Verified | ✓ |  |
 | F | SecretMid | Secret | Mid | clear Breakable Wall Blockade IN slab secret side room AND clear upper blockade |  | Verified | ✓ | falling |
-| F | SecretMid | Mid | Secret | clear Breakable Wall Blockade IN slab secret side room AND clear upper blockade AND (cling grip (either) OR faydown cloak OR scuttlebrace OR silk soar) |  | Verified | ✓ |  |
+| F | SecretMid | Mid | Secret | clear Breakable Wall Blockade IN slab secret side room AND clear upper blockade AND (cling grip any OR faydown cloak OR scuttlebrace OR silk soar) |  | Verified | ✓ |  |
 | G | MidIndolent | Mid | Indolent | none (falling) |  | Verified | ✓ |  |
 | G | MidIndolent | Indolent | Mid | cling grip left OR silk soar OR (faydown cloak AND cling grip right) OR scuttlebrace |  | Verified | ✓ |  |
 | H | MidGrindle | Mid | Grindle | none (falling) |  | Verified | ✓ |  |
@@ -83,15 +84,15 @@
 | J | GrindleBefore | Grindle | Before Indolent | none (falling) |  | Verified | ✓ |  |
 | J | GrindleBefore | Before Indolent | Grindle | cling grip right OR ledge grab right OR silk soar OR faydown cloak OR medium shaman pogo |  | Verified | ✓ |  |
 | K | IndoBridge | Before Indolent | Before Bridge | none (falling) |  | Verified | ✓ |  |
-| K | IndoBridge | Before Bridge | Before Indolent | cling grip (either) OR scuttlebrace OR faydown cloak OR silk soar |  | Verified | ✓ |  |
+| K | IndoBridge | Before Bridge | Before Indolent | cling grip any OR scuttlebrace OR faydown cloak OR silk soar |  | Verified | ✓ |  |
 | L | BeforeUpper | Before Bridge | Bridge Upper | none (falling) |  | Verified | ✓ |  |
-| L | BeforeUpper | Bridge Upper | Before Bridge | cling grip (either) OR ledge grab (either) OR faydown cloak OR scuttlebrace OR scuttlebrace |  | Verified | ✓ |  |
+| L | BeforeUpper | Bridge Upper | Before Bridge | cling grip any OR ledge grab any OR faydown cloak OR scuttlebrace |  | Verified | ✓ |  |
 | M | UpperInternal | Bridge Upper | Bridge Upper Internal | unlock upper bridge key |  | Verified | ✓ | falling |
-| M | UpperInternal | Bridge Upper Internal | Bridge Upper | unlock upper bridge key AND (cling grip (either) OR silk soar OR scuttlebrace) |  | Verified | ✓ |  |
+| M | UpperInternal | Bridge Upper Internal | Bridge Upper | unlock upper bridge key AND (cling grip any OR silk soar OR scuttlebrace) |  | Verified | ✓ |  |
 | N | InternalCenter | Bridge Upper Internal | Bridge Center | activate heretic lever upper |  | Verified | ✓ | falling |
-| N | InternalCenter | Bridge Center | Bridge Upper Internal | activate heretic lever upper AND (cling grip (either) OR (faydown cloak AND ledge grab left) OR scuttlebrace OR silk soar) |  | Verified | ✓ |  |
+| N | InternalCenter | Bridge Center | Bridge Upper Internal | activate heretic lever upper AND (cling grip any OR (faydown cloak AND ledge grab left) OR scuttlebrace OR silk soar) |  | Verified | ✓ |  |
 | O | CenterTop | Bridge Center | Bridge Center Top | activate heretic lever lower |  | Verified | ✓ | falling |
-| O | CenterTop | Bridge Center Top | Bridge Center | activate heretic lever lower AND (cling grip (either) OR scuttlebrace) |  | Verified | ✓ |  |
+| O | CenterTop | Bridge Center Top | Bridge Center | activate heretic lever lower AND (cling grip any OR scuttlebrace) |  | Verified | ✓ |  |
 | P | Center Cavern | Bridge Center Top | Cavern | none (falling) |  | Verified | ✓ |  |
 | P | Center Cavern | Cavern | Bridge Center Top | cling grip right OR (faydown cloak AND scuttlebrace) |  | Verified | ✓ |  |
 | Q | Flea2 | Flea2 | Bridge Center Top | faydown cloak AND (scuttlebrace OR cling grip left) |  | Verified | ✓ |  |
@@ -100,16 +101,18 @@
 | R | FleaFall | Fall1 | Flea2 | cling grip left OR ledge grab left OR medium shaman pogo OR scuttlebrace OR faydown cloak OR silk soar |  | Verified | ✓ |  |
 | S | CavernFall | Cavern | Fall1 | none (jump) |  | Verified | ✓ |  |
 | S | CavernFall | Fall1 | Cavern | faydown cloak OR cling grip right OR scuttlebrace OR (medium beast needle strike AND ledge grab right) |  | Verified | ✓ |  |
-| T | FallPrelude | Fall1 | Prelude | none (falling) |  | Verified | ✓ |  |
-| T | FallPrelude | Prelude | Fall1 | cling grip right OR scuttlebrace OR (faydown cloak AND cling grip left) OR silk soar |  | Verified | ✓ |  |
-| U | PreludePoodle | Prelude | Poodle Top | clear poodle blockade |  | Verified | ✓ |  |
-| U | PreludePoodle | Poodle Top | Prelude | clear poodle blockade AND (cling grip (either) OR scuttlebrace) |  | Verified | ✓ |  |
-| V | PreludeBottom | Prelude | Bottom | swim |  | Verified | ✓ |  |
+| T | FallPrelude | Fall1 | Prelude1 | none (falling) |  | Verified | ✓ |  |
+| T | FallPrelude | Prelude1 | Fall1 | cling grip right OR scuttlebrace OR (faydown cloak AND cling grip left) OR silk soar |  | Verified | ✓ |  |
+| U | PreludePoodle | Prelude1 | Poodle Top | clear poodle blockade |  | Verified | ✓ |  |
+| U | PreludePoodle | Poodle Top | Prelude1 | clear poodle blockade AND (cling grip any OR scuttlebrace) |  | Verified | ✓ |  |
+| V | PreludeBottom | Prelude1 | Bottom | swim |  | Verified | ✓ |  |
 | W | PoodleBottom | Poodle Top | Bottom | swim |  | Verified | ✓ |  |
 | X | PoodleBB | Poodle Bottom | Bottom | swim |  | Verified | ✓ |  |
 | X | PoodleBB | Bottom | Poodle Bottom | swim |  | Verified | ✓ |  |
 | Y | BottomWindow | Window | Bottom | swim |  | Verified | ✓ |  |
 | Y | BottomWindow | Bottom | Window | swim |  | Verified | ✓ |  |
+| PRE | PreludeInternal | Prelude1 | Prelude2 | unlock heretic door first sinner |  | Verified |  |  |
+| PRE | PreludeInternal | Prelude2 | Prelude1 | unlock heretic door first sinner |  | Verified |  |  |
 
 ## Check Locations
 
@@ -119,7 +122,7 @@
 | 2 | heretic lever upper | Bridge Upper Internal | none |  | Verified | switch | ✓ |  |
 | 3 | heretic lever lower | Bridge Center Top | none |  | Verified | switch | ✓ |  |
 | 4 | apostate door mask shard | Why2 | have key of apostate |  | Verified | lock |  |  |
-| 5 | heretic door first sinner | Prelude | have key of heretic |  | Verified | lock |  |  |
+| 5 | heretic door first sinner | Prelude1 | have key of heretic |  | Verified | lock |  |  |
 | 6 | upper blockade | Mid | none |  | Verified | blockade | ✓ |  |
 | 7 | upper bridge key | Bridge Upper | have key of heretic |  | Verified | lock | ✓ |  |
 | 8 | Guardfly 1 | Before Indolent | none |  | Verified | enemy | ✓ |  |

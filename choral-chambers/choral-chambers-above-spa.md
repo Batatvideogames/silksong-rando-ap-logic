@@ -23,9 +23,8 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
-| 2 | Choristor 1 |  |  |  |  | enemy | ✓ |  |
-| 3 | Choristor 2 |  |  |  |  | enemy | ✓ | FSM Boolean flags: marionettesBurned, marionettesMet |
+| 1 | Choristor 1 |  | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 2 | Choristor 2 |  | Normal World Spawn |  | Verified | enemy | ✓ | FSM Boolean flags: marionettesBurned, marionettesMet |
 
 ## Room Images
 

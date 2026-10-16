@@ -22,9 +22,9 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LL | Left Lower | Left Lower | Left | faydown cloak OR (cling grip left AND ledge grab) OR cling grip right OR scuttlebrace OR silk soar |  | Verified | ✓ |  |
-| LL | Left Lower | Left | Left Lower | none (falling) |  | Verified | ✓ |  |
-| M | Mask Shard | Left Lower | Mask Shard | cling grip AND spike pogo AND faydown cloak AND dash | TODO | Verified | ✓ | someone more skilled than me can figure this one out |
+| LL | Left Lower | Left Lower | Left | faydown cloak OR (cling grip left AND ledge grab left) OR cling grip right OR scuttlebrace OR silk soar |  | Verified |  |  |
+| LL | Left Lower | Left | Left Lower | none (falling) |  | Verified |  |  |
+| M | Mask Shard | Left Lower | Mask Shard | cling grip right AND spike pogo AND faydown cloak AND dash both |  | Verified |  | someone more skilled than me can figure this one out |
 
 ## Check Locations
 

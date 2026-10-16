@@ -22,10 +22,10 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LS | Shards | left | shards | swim |  | Verified | ✓ |  |
-| LS | Shards | shards | left | cling grip right OR scuttlebrace OR (faydown cloak AND cling grip left) |  | Verified | ✓ |  |
-| LE | Effigy | left | effigy | hit right AND cling grip right |  | Needs verification | ✓ | needs ironing |
-| LE | Effigy | effigy | left | clawline left x 1 OR sharpdart x 1 |  | Verified | ✓ |  |
+| LS | Shards | left | shards | swim |  | Verified |  |  |
+| LS | Shards | shards | left | cling grip right OR scuttlebrace OR (faydown cloak AND cling grip left) |  | Verified |  |  |
+| LE | Effigy | left | effigy | hit right AND cling grip right |  | Verified |  | needs ironing |
+| LE | Effigy | effigy | left | clawline left x 1 OR sharpdart x 1 |  | Verified |  |  |
 
 ## Check Locations
 

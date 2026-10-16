@@ -22,8 +22,8 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| H | Horizontal | Left | Right | cling grip OR ledge grab OR faydown cloak OR clawline |  | Verified | ✓ | You can jump off of the left obstacle and use clawline twice, this cannot be done from the other side |
-| H | Horizontal | Right | Left | cling grip OR ledge grab OR faydown cloak |  | Verified | ✓ |  |
+| H | Horizontal | Left | Right | ledge grab right OR cling grip right OR faydown cloak OR clawline right x 2 OR (dash right AND clawline right x 1) OR medium shaman pogo |  | Verified | ✓ |  |
+| H | Horizontal | Right | Left | cling grip left OR ledge grab left OR faydown cloak OR medium shaman pogo |  | Verified | ✓ |  |
 
 ## Check Locations
 

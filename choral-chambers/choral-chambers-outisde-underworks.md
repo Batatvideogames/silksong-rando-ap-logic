@@ -12,8 +12,8 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| B | bot1 |  | [Underworks Outside Choral Chambers (Under_07c)](../underworks/underworks-outside-choral-chambers.md) | T | Only opened from the other side |  |  | ✓ |  |
-| L | left1 |  | [Choral Chambers Below Ventrica (Song_01)](choral-chambers-below-ventrica.md) | R | none |  |  | ✓ |  |
+| B | bot1 |  | [Underworks Outside Choral Chambers (Under_07c)](../underworks/underworks-outside-choral-chambers.md) | T | activate Switch Outside choral chambers IN underworks outside choral chambers |  | Verified | ✓ |  |
+| L | left1 |  | [Choral Chambers Below Ventrica (Song_01)](choral-chambers-below-ventrica.md) | R | none |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
@@ -21,9 +21,7 @@ No subroom connections defined.
 
 ## Check Locations
 
-| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
+No check locations defined.
 
 ## Room Images
 

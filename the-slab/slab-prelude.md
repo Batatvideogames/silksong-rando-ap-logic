@@ -15,14 +15,14 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 | lower | [Slab Cell (Slab_03)](slab-cell.md) | PRL | unlock heretic door first sinner IN slab cell |  | Verified | ✓ | i set this right as my caffeine wore off so this might be wrong   confirmed against scripters war map - hero, 10/13 |
+| L | left1 | lower | [Slab Cell (Slab_03)](slab-cell.md) | PRL | none |  | Verified | ✓ | the door is not locked from this side |
 | R | right1 | upper | [Slab First Sinner Antechamber (Slab_10c)](slab-first-sinner-antechamber.md) | L | none |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LU | Lower Upper | lower | upper | (faydown AND (cling grip (either) OR scuttlebrace)) OR silk soar |  | Verified | ✓ |  |
+| LU | Lower Upper | lower | upper | (faydown AND (cling grip any OR scuttlebrace)) OR silk soar |  | Verified | ✓ |  |
 | LU | Lower Upper | upper | lower | none (falling) |  | Verified | ✓ |  |
 
 ## Check Locations
