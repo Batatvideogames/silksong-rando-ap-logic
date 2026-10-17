@@ -31,15 +31,15 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| V1 | Bottom to Section 1 | Bottom | Section 1 | silk soar OR (faydown cloak AND (ledge grab both OR easy Shaman pogo OR scuttlebrace OR cling grip left OR (easy Damage boost off Choir pouncer AND (easy heal stall OR easy voltvessels stall OR easy plasmium phial stall OR easy flintslate stall  )))) OR (cling grip both AND (dash right OR drifter's cloak OR scuttlebrace OR clawline right OR sharpdart OR (ledge grab right AND (easy heal stall OR easy voltvessels stall OR easy plasmium phial stall OR easy flintslate stall)))) OR (ACT 3 AND easy pogo off Choir Elder) |  | Verified | ✓ |  |
+| V1 | Bottom to Section 1 | Bottom | Section 1 | silk soar OR (faydown cloak AND (cling grip left OR easy Shaman pogo OR scuttlebrace OR (ledge grab right AND easy Damage boost off Choir pouncer AND (easy heal stall OR easy voltvessels stall OR easy plasmium phial stall OR easy flintslate stall  )) OR ledge grab left)) OR (cling grip both AND (dash right OR drifter's cloak OR scuttlebrace OR clawline right OR sharpdart OR (ledge grab right AND (easy heal stall OR easy voltvessels stall OR easy plasmium phial stall OR easy flintslate stall)))) OR (scuttlebrace AND (sharpdart OR clawline right)) OR (ACT 3 AND easy pogo off Choir Elder) |  | Verified | ✓ |  |
 | V1 | Bottom to Section 1 | Section 1 | Bottom | none |  | Verified | ✓ | falling |
-| V2 | Section 1 to Section 2 | Section 1 | Section 2 | ledge grab right OR silk soar OR faydown cloak OR (easy hazard respawn AND easy [Hunter, Reaper, Beast, Architect,Shaman] pogo) OR easy pogo off Choir pouncer |  | Verified | ✓ |  |
+| V2 | Section 1 to Section 2 | Section 1 | Section 2 | ledge grab right OR silk soar OR faydown cloak OR (easy hazard respawn AND easy [Hunter, Reaper, Beast, Architect,Shaman] pogo) OR easy pogo off Choir pouncer OR scuttlebrace |  | Verified | ✓ |  |
 | V2 | Section 1 to Section 2 | Section 2 | Section 1 | none |  | Verified | ✓ | falling |
-| V3 | Section 2 to Section 3 | Section 2 | Section 3 | silk soar OR cling grip left OR (faydown cloak AND (scuttlebrace OR ledge grab either OR easy pogo off Choir flyer)) |  | Verified | ✓ |  |
+| V3 | Section 2 to Section 3 | Section 2 | Section 3 | silk soar OR cling grip left OR scuttlebrace OR (faydown cloak AND (cling grip right OR ledge grab either OR easy pogo off Choir flyer OR easy damage boost off Choir Flyer)) |  | Verified | ✓ |  |
 | V3 | Section 2 to Section 3 | Section 3 | Section 2 | none |  | Verified | ✓ | falling |
 | V4L | Section 3 to Section 4 Left | Section 3 | Section 4 Left | silk soar OR cling grip left OR (faydown cloak AND ledge grab left) |  | Verified | ✓ |  |
 | V4L | Section 3 to Section 4 Left | Section 4 Left | Section 3 | none |  | Verified | ✓ | falling |
-| V4R | Section 3 to Section 4 Right | Section 3 | Section 4 Right | silk soar OR spike pogo OR cling grip left OR (faydown cloak AND ledge grab right) |  | Verified | ✓ |  |
+| V4R | Section 3 to Section 4 Right | Section 3 | Section 4 Right | silk soar OR spike pogo OR cling grip left OR (faydown cloak AND ledge grab right) OR scuttlebrace |  | Verified | ✓ |  |
 | V4R | Section 3 to Section 4 Right | Section 4 Right | Section 3 | none |  | Verified | ✓ | falling |
 | S4 | Section 4 traversal | Section 4 Left | Section 4 Right | spike pogo OR clawline right OR drifter's cloak OR dash right OR faydown cloak OR sharpdart OR scuttlebrace OR run |  | Verified | ✓ |  |
 | S4 | Section 4 traversal | Section 4 Right | Section 4 Left | clawline left OR run OR drifter's cloak OR dash left OR faydown cloak OR sharpdart OR scuttlebrace |  | Verified | ✓ |  |

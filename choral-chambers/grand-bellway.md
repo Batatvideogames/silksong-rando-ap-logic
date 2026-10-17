@@ -25,7 +25,7 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| V | Vertical | Secret Tunnel | Base | none |  | Verified | ✓ | falling, one sided door |
+| V | Vertical | Secret Tunnel | Base | none |  | Verified |  | falling, one sided door |
 
 ## Check Locations
 
@@ -38,6 +38,7 @@
 | 5 | Bellway: Grand Bellway Rosary Lock | Base | spend 80 rosaries |  | Verified | lock | ✓ |  |
 | 6 | Bellway: Grand Bellway | Base | Unlock Bellway Grand Bellway Rosary Lock |  | Verified | travel |  |  |
 | 7 | Beastling Call | Base | Act 3 AND defeat bell beast boss fight IN the marrow bellway |  | Verified | collectible | ✓ | Beat Bell Eater |
+| 8 | Bellway bench | Base | none |  | Verified | bench | ✓ |  |
 
 ## Room Images
 

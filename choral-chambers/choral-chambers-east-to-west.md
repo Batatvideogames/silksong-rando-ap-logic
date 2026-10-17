@@ -23,8 +23,8 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| H | Horizontal | Left Side | Right Side | easy pogo off cogworker OR clawline right OR ledge grab OR faydown cloak OR spike pogo |  | Verified | ✓ |  |
-| H | Horizontal | Right Side | Left Side | easy pogo off cogworker OR clawline left OR ledge grab OR faydown cloak OR spike pogo |  | Verified | ✓ |  |
+| H | Horizontal | Left Side | Right Side | easy pogo off cogworker OR clawline right OR ledge grab OR faydown cloak OR spike pogo OR scuttlebrace |  | Verified | ✓ |  |
+| H | Horizontal | Right Side | Left Side | easy pogo off cogworker OR clawline left OR ledge grab OR faydown cloak OR spike pogo OR scuttlebrace |  | Verified | ✓ |  |
 
 ## Check Locations
 

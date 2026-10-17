@@ -14619,7 +14619,9 @@ No subroom connections defined.
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | HH entrance Bench |  | none |  | Verified | bench | ✓ |  |
 
 <a name="room-choral-chambers--songclave-bellshrine"></a>
 
@@ -14650,6 +14652,7 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Lever Bellshrine Enclave |  | none |  | Verified | switch | ✓ |  |
+| 2 | Bellshrine bench |  | none |  | Verified | bench | ✓ |  |
 
 <a name="room-choral-chambers--songclave"></a>
 
@@ -14683,7 +14686,7 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| V | Vertical | Base | Top Platform | silk soar OR cling grip left OR (cling grip right AND faydown cloak) |  | Verified | ✓ |  |
+| V | Vertical | Base | Top Platform | silk soar OR cling grip left OR (cling grip right AND faydown cloak) OR scuttlebrace |  | Verified | ✓ |  |
 | V | Vertical | Top Platform | Base | none |  | Verified | ✓ | falling |
 
 #### Check Locations
@@ -14694,6 +14697,7 @@ No subroom connections defined.
 | 2 | Wish: Pain, Anguish and Misery | Base | Act 3 AND Defeat Trobbio IN Trobbio |  | Verified | event |  |  |
 | 3 | Meet the Caretaker | Base | activate Lever Bellshrine Enclave IN bellshrine-enclave |  | Verified | logic-point | ✓ |  |
 | 4 | Reach Songclave | Base | none |  | Verified | logic-point |  | Used for Savage Beastfly wish. |
+| 5 | Songclave bench | Base | none |  | Verified | bench | ✓ |  |
 
 <a name="room-choral-chambers--choral-chambers-spa"></a>
 
@@ -14723,7 +14727,7 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| H | Horizontal | Showers | Spa | (cling grip either OR silk soar OR (faydown cloak AND ledge grab) OR activate Lever Chambers Spa ) |  | Verified | ✓ |  |
+| H | Horizontal | Showers | Spa | cling grip either OR silk soar OR scuttlebrace OR (activate Lever Chambers Spa AND (ledge grab right OR easy shaman pogo OR faydown cloak)) |  | Verified | ✓ |  |
 | H | Horizontal | Spa | Showers | activate Lever Chambers Spa |  | Verified | ✓ | lever shortcut |
 
 #### Check Locations
@@ -14732,6 +14736,7 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Lever Chambers Spa | Spa | none |  | Verified | switch | ✓ |  |
 | 2 | Lever Chambers Spa 2 | Spa | none |  | Verified | switch | ✓ |  |
+| 3 | Spa bench | Showers | none |  | Verified | bench | ✓ |  |
 
 <a name="room-choral-chambers--choral-chambers-outside-spa"></a>
 
@@ -14766,7 +14771,7 @@ No subroom connections defined.
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | V | Vertical | Top | Base | none |  | Verified | ✓ | falling |
-| V | Vertical | Base | Top | cling grip OR silk soar |  | Verified | ✓ |  |
+| V | Vertical | Base | Top | cling grip either OR silk soar OR scuttlebrace |  | Verified | ✓ |  |
 | GL | Gauntlet Left | Left | Gauntlet | none |  | Verified | ✓ |  |
 | GL | Gauntlet Left | Gauntlet | Left | defeat Gauntlet Fight |  | Verified | ✓ |  |
 | GR | Gauntlet Right | Base | Gauntlet | none |  | Verified | ✓ |  |
@@ -14776,27 +14781,26 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Heavy Rosary Necklace - Choral Chambers | Base | cling grip OR silk soar |  | Verified | collectible | ✓ | Secret hidden by breaking the ceiling |
-| 2 | Second Sentinel Encounter | Gauntlet | defeat Gauntlet Fight AND Act 2 AND complete THE Second Sentinel Activation |  | Verified | resource |  | only act 2 per the wiki |
-| 3 | Switch - Outside Spa | Left | none |  | Verified | switch | ✓ |  |
-| 4 | Gauntlet Fight | Gauntlet | Normal World Spawn |  | Verified | event | ✓ |  |
-| 5 | Choir Bellbearer 1 | Gauntlet | Normal World Spawn |  | Verified | gauntlet | ✓ |  |
-| 6 | Choir Bellbearer 2 | Gauntlet | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
-| 7 | Choir Flyer 1 | Gauntlet | Normal World Spawn |  | Verified | gauntlet | ✓ |  |
-| 8 | Choir Pouncer 1 | Gauntlet | Normal World Spawn |  | Verified | gauntlet | ✓ |  |
-| 9 | Choristor 1 | Gauntlet | Normal World Spawn |  | Verified | gauntlet | ✓ |  |
-| 10 | Choristor 2 | Gauntlet | Normal World Spawn |  | Verified | gauntlet | ✓ |  |
-| 11 | Choristor 4 | Gauntlet | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
-| 12 | Clawmaiden 1 | Gauntlet | Normal World Spawn |  | Verified | gauntlet | ✓ | FSM Boolean flags: marionettesBurned |
-| 13 | Clawmaiden 2 | Gauntlet | Normal World Spawn |  | Verified | gauntlet | ✓ | FSM Boolean flags: marionettesBurned |
-| 14 | Drapemite 1 | Base | Normal World Spawn |  | Verified | enemy | ✓ |  |
-| 15 | Reed 1 | Gauntlet | Normal World Spawn |  | Verified | gauntlet | ✓ |  |
-| 16 | Reed 2 | Gauntlet | Normal World Spawn |  | Verified | gauntlet | ✓ |  |
-| 17 | Song Knight 1 | Gauntlet | Normal World Spawn AND defeat Gauntlet Fight |  | Verified | enemy | ✓ | Spawn conditions: songChevalierActiveInSong_04=true, songChevalierSeenInSong_04=false, songChevalierEncounterCooldown=false, songChevalierQuestReady=false FSM Boolean flags: encounteredSongChevalierBoss |
-| 18 | Reed 3 | Gauntlet | Normal World Spawn |  | Verified | gauntlet | ✓ |  |
-| 19 | Choristor 3 | Gauntlet | Normal World Spawn AND defeat Gauntlet Fight |  | Verified | enemy | ✓ | Spawn conditions: songChevalierActiveInSong_04=true, songChevalierSeenInSong_04=false, songChevalierEncounterCooldown=false, songChevalierQuestReady=false |
-| 20 | Reed 4 | Gauntlet | Normal World Spawn AND defeat Gauntlet Fight |  | Verified | enemy | ✓ | Spawn conditions: songChevalierActiveInSong_04=true, songChevalierSeenInSong_04=false, songChevalierEncounterCooldown=false, songChevalierQuestReady=false |
-| 21 | Void Mass 1 | Gauntlet | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 1 | Heavy Rosary Necklace - Choral Chambers | Base | cling grip either OR silk soar OR (easy shaman pogo AND scuttlebrace) |  | Verified | collectible | ✓ | Secret hidden by breaking the ceiling |
+| 2 | Switch - Outside Spa | Left | none |  | Verified | switch | ✓ |  |
+| 3 | Second Sentinel Encounter | Gauntlet | defeat Gauntlet Fight AND Act 2 AND complete THE Second Sentinel Activation |  | Verified | event | ✓ | Spawn conditions: songChevalierActiveInSong_04=true, songChevalierSeenInSong_04=false, songChevalierEncounterCooldown=false, songChevalierQuestReady=false FSM Boolean flags: encounteredSongChevalierBoss |
+| 4 | Choir Bellbearer 1 | Gauntlet | Normal World Spawn |  | Verified | gauntlet | ✓ |  |
+| 5 | Choir Bellbearer 2 | Gauntlet | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 6 | Choir Flyer 1 | Gauntlet | Normal World Spawn |  | Verified | gauntlet | ✓ |  |
+| 7 | Choir Pouncer 1 | Gauntlet | Normal World Spawn |  | Verified | gauntlet | ✓ |  |
+| 8 | Choristor 1 | Gauntlet | Normal World Spawn |  | Verified | gauntlet | ✓ |  |
+| 9 | Choristor 2 | Gauntlet | Normal World Spawn |  | Verified | gauntlet | ✓ |  |
+| 10 | Choristor 4 | Gauntlet | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 11 | Clawmaiden 1 | Gauntlet | Normal World Spawn |  | Verified | gauntlet | ✓ | FSM Boolean flags: marionettesBurned |
+| 12 | Clawmaiden 2 | Gauntlet | Normal World Spawn |  | Verified | gauntlet | ✓ | FSM Boolean flags: marionettesBurned |
+| 13 | Drapemite 1 | Base | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 14 | Reed 1 | Gauntlet | Normal World Spawn |  | Verified | gauntlet | ✓ |  |
+| 15 | Reed 2 | Gauntlet | Normal World Spawn |  | Verified | gauntlet | ✓ |  |
+| 16 | Reed 3 | Gauntlet | Normal World Spawn |  | Verified | gauntlet | ✓ |  |
+| 17 | Choristor 3 | Gauntlet | Normal World Spawn AND prereq Second Sentinel Encounter |  | Verified | enemy | ✓ | Spawn conditions: songChevalierActiveInSong_04=true, songChevalierSeenInSong_04=false, songChevalierEncounterCooldown=false, songChevalierQuestReady=false |
+| 18 | Reed 4 | Gauntlet | Normal World Spawn AND prereq Second Sentinel Encounter |  | Verified | enemy | ✓ | Spawn conditions: songChevalierActiveInSong_04=true, songChevalierSeenInSong_04=false, songChevalierEncounterCooldown=false, songChevalierQuestReady=false |
+| 19 | Void Mass 1 | Gauntlet | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 20 | Gauntlet Fight | Gauntlet | Normal World Spawn |  | Verified | gauntlet | ✓ |  |
 
 <a name="room-choral-chambers--choral-chambers-western-shaft"></a>
 
@@ -14835,15 +14839,15 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| V1 | Bottom to Section 1 | Bottom | Section 1 | silk soar OR (faydown cloak AND (ledge grab both OR easy Shaman pogo OR scuttlebrace OR cling grip left OR (easy Damage boost off Choir pouncer AND (easy heal stall OR easy voltvessels stall OR easy plasmium phial stall OR easy flintslate stall  )))) OR (cling grip both AND (dash right OR drifter's cloak OR scuttlebrace OR clawline right OR sharpdart OR (ledge grab right AND (easy heal stall OR easy voltvessels stall OR easy plasmium phial stall OR easy flintslate stall)))) OR (ACT 3 AND easy pogo off Choir Elder) |  | Verified | ✓ |  |
+| V1 | Bottom to Section 1 | Bottom | Section 1 | silk soar OR (faydown cloak AND (cling grip left OR easy Shaman pogo OR scuttlebrace OR (ledge grab right AND easy Damage boost off Choir pouncer AND (easy heal stall OR easy voltvessels stall OR easy plasmium phial stall OR easy flintslate stall  )) OR ledge grab left)) OR (cling grip both AND (dash right OR drifter's cloak OR scuttlebrace OR clawline right OR sharpdart OR (ledge grab right AND (easy heal stall OR easy voltvessels stall OR easy plasmium phial stall OR easy flintslate stall)))) OR (scuttlebrace AND (sharpdart OR clawline right)) OR (ACT 3 AND easy pogo off Choir Elder) |  | Verified | ✓ |  |
 | V1 | Bottom to Section 1 | Section 1 | Bottom | none |  | Verified | ✓ | falling |
-| V2 | Section 1 to Section 2 | Section 1 | Section 2 | ledge grab right OR silk soar OR faydown cloak OR (easy hazard respawn AND easy [Hunter, Reaper, Beast, Architect,Shaman] pogo) OR easy pogo off Choir pouncer |  | Verified | ✓ |  |
+| V2 | Section 1 to Section 2 | Section 1 | Section 2 | ledge grab right OR silk soar OR faydown cloak OR (easy hazard respawn AND easy [Hunter, Reaper, Beast, Architect,Shaman] pogo) OR easy pogo off Choir pouncer OR scuttlebrace |  | Verified | ✓ |  |
 | V2 | Section 1 to Section 2 | Section 2 | Section 1 | none |  | Verified | ✓ | falling |
-| V3 | Section 2 to Section 3 | Section 2 | Section 3 | silk soar OR cling grip left OR (faydown cloak AND (scuttlebrace OR ledge grab either OR easy pogo off Choir flyer)) |  | Verified | ✓ |  |
+| V3 | Section 2 to Section 3 | Section 2 | Section 3 | silk soar OR cling grip left OR scuttlebrace OR (faydown cloak AND (cling grip right OR ledge grab either OR easy pogo off Choir flyer OR easy damage boost off Choir Flyer)) |  | Verified | ✓ |  |
 | V3 | Section 2 to Section 3 | Section 3 | Section 2 | none |  | Verified | ✓ | falling |
 | V4L | Section 3 to Section 4 Left | Section 3 | Section 4 Left | silk soar OR cling grip left OR (faydown cloak AND ledge grab left) |  | Verified | ✓ |  |
 | V4L | Section 3 to Section 4 Left | Section 4 Left | Section 3 | none |  | Verified | ✓ | falling |
-| V4R | Section 3 to Section 4 Right | Section 3 | Section 4 Right | silk soar OR spike pogo OR cling grip left OR (faydown cloak AND ledge grab right) |  | Verified | ✓ |  |
+| V4R | Section 3 to Section 4 Right | Section 3 | Section 4 Right | silk soar OR spike pogo OR cling grip left OR (faydown cloak AND ledge grab right) OR scuttlebrace |  | Verified | ✓ |  |
 | V4R | Section 3 to Section 4 Right | Section 4 Right | Section 3 | none |  | Verified | ✓ | falling |
 | S4 | Section 4 traversal | Section 4 Left | Section 4 Right | spike pogo OR clawline right OR drifter's cloak OR dash right OR faydown cloak OR sharpdart OR scuttlebrace OR run |  | Verified | ✓ |  |
 | S4 | Section 4 traversal | Section 4 Right | Section 4 Left | clawline left OR run OR drifter's cloak OR dash left OR faydown cloak OR sharpdart OR scuttlebrace |  | Verified | ✓ |  |
@@ -15040,8 +15044,8 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| V | Vertical | Base | Maintenance Tunnel | silk soar OR (faydown cloak AND cling grip either AND easy pogo off Reed) |  | Verified | ✓ |  |
-| V | Vertical | Maintenance Tunnel | Base | silk soar OR cling grip either |  | Verified | ✓ |  |
+| V | Vertical | Base | Maintenance Tunnel | silk soar OR (faydown cloak AND easy pogo off Reed AND (cling grip either OR scuttlebrace)) |  | Verified | ✓ |  |
+| V | Vertical | Maintenance Tunnel | Base | silk soar OR cling grip either OR scuttlebrace |  | Verified | ✓ |  |
 
 #### Check Locations
 
@@ -15098,17 +15102,17 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| VS | Vertical Base | Base Bottom | Base Middle | (cling grip left AND (dash left OR clawline left OR sharpdart)) OR easy pogo off Choir flyer OR (faydown cloak AND (ledge grab either OR easy Shaman pogo OR (scuttlebrace AND cling grip right))) OR silk soar |  | Verified | ✓ |  |
+| VS | Vertical Base | Base Bottom | Base Middle | (cling grip left AND (dash left OR clawline left OR sharpdart)) OR easy pogo off Choir flyer OR (faydown cloak AND (ledge grab either OR easy Shaman pogo OR scuttlebrace OR cling grip right)) OR silk soar OR (scuttlebrace AND clawline both) |  | Verified | ✓ |  |
 | VS | Vertical Base | Base Middle | Base Bottom | none |  | Verified | ✓ | falling |
-| VR | Vertical Middle | Base Middle | Base Upper Right | faydown cloak OR easy enemy pogo off [Choir hornhead] OR (Dash right AND ledge grab right) OR (run AND (ledge grab right OR easy Damage boost off Choir hornhead OR (easy Damage boost off Choir pouncer AND (easy heal stall OR easy voltvessels stall OR easy plasmium phial stall OR easy flintslate stall)))) OR silk soar OR scuttlebrace |  | Verified | ✓ |  |
+| VR | Vertical Middle | Base Middle | Base Upper Right | faydown cloak OR hard pogo off [Choir hornhead, Choir Pouncer] OR ((Dash right OR sharpdart OR clawline right) AND ledge grab right) OR (run AND (ledge grab right OR easy Damage boost off Choir hornhead OR (easy Damage boost off Choir pouncer AND (easy heal stall OR easy voltvessels stall OR easy plasmium phial stall OR easy flintslate stall)))) OR silk soar OR scuttlebrace OR (clawline right AND easy damage boost off [Choir Hornhead,Choir pouncer]) |  | Verified | ✓ |  |
 | VR | Vertical Middle | Base Upper Right | Base Middle | none |  | Verified | ✓ | falling |
-| LR | Base Upper Traversal | Base Upper Right | Base Upper Left | faydown cloak OR silk soar OR ((run OR clawline left OR sharpdart) AND ledge grab left) OR scuttlebrace |  | Verified | ✓ |  |
+| LR | Base Upper Traversal | Base Upper Right | Base Upper Left | faydown cloak OR silk soar OR ((clawline left OR sharpdart) AND (easy shaman pogo OR ledge grab left)) OR (run AND ledge grab left) OR scuttlebrace |  | Verified | ✓ |  |
 | LR | Base Upper Traversal | Base Upper Left | Base Upper Right | none |  | Verified | ✓ | falling |
-| VL | Vertical Lever | Base Upper Left | Top Section 1 | activate Lever Flea shaft AND ((easy pogo off Choir Elder) OR faydown cloak OR silk soar OR cling grip right) |  | Verified | ✓ |  |
+| VL | Vertical Lever | Base Upper Left | Top Section 1 | activate Lever Flea shaft AND ((easy pogo off Choir Elder) OR faydown cloak OR silk soar OR cling grip right OR scuttlebrace) |  | Verified | ✓ |  |
 | VL | Vertical Lever | Top Section 1 | Base Upper Left | activate Lever Flea shaft |  | Verified | ✓ | falling |
-| V1 | Section 1 to Section 2 | Top Section 1 | Top Section 2 | silk soar OR (cling grip left AND (faydown cloak OR cling grip right OR (easy  pogo off Choir Flyer AND easy heal stall))) OR (faydown cloak AND ledge grab left AND easy pogo off Choir Elder AND spike pogo) OR (easy  pogo off [Choir Flyer, Choir Elder] AND easy heal stall AND spike pogo AND ledge grab either) |  | Verified | ✓ |  |
+| V1 | Section 1 to Section 2 | Top Section 1 | Top Section 2 | silk soar OR (cling grip left AND (faydown cloak OR cling grip right OR (easy  pogo off Choir Flyer AND easy heal stall))) OR (faydown cloak AND ledge grab left AND easy pogo off Choir Elder AND spike pogo) OR (easy  pogo off [Choir Flyer, Choir Elder] AND easy heal stall AND spike pogo AND ledge grab either) OR (scuttlebrace AND (drifter's cloak OR clawline left OR sharpdart OR easy pogo off [Choir Flyer, Choir Elder])) |  | Verified | ✓ |  |
 | V1 | Section 1 to Section 2 | Top Section 2 | Top Section 1 | none |  | Verified | ✓ | falling |
-| V2 | Section 2 to Section 3 Left | Top Section 2 | Top Section 3 Left | (silk soar AND (ledge grab left OR clawline left OR dash left OR sharpdart OR faydown cloak OR drifter's cloak OR scuttlebrace OR easy pogo off Choir Flyer)) OR (cling grip left AND spike pogo) OR (cling grip right AND (ledge grab left OR easy pogo off Choir Flyer OR scuttlebrace OR faydown cloak)) |  | Verified | ✓ |  |
+| V2 | Section 2 to Section 3 Left | Top Section 2 | Top Section 3 Left | (silk soar AND (ledge grab left OR clawline left OR dash left OR sharpdart OR faydown cloak OR drifter's cloak OR scuttlebrace OR easy pogo off Choir Flyer)) OR (cling grip left AND spike pogo) OR (cling grip right AND (ledge grab left OR easy pogo off Choir Flyer OR scuttlebrace OR faydown cloak)) OR (scuttlebrace AND ((drifter's cloak AND spike pogo) OR sharpdart x 2 OR (sharpdart AND clawline either) OR clawline both)) |  | Verified | ✓ |  |
 | V2 | Section 2 to Section 3 Left | Top Section 3 Left | Top Section 2 | none |  | Verified | ✓ | falling |
 | H | Top Horizontal Traversal | Top Section 3 Right | Top Section 3 Left | ledge grab left OR clawline left OR drifter's cloak OR sharpdart OR scuttlebrace OR easy pogo off Choir Flyer |  | Verified | ✓ |  |
 | H | Top Horizontal Traversal | Top Section 3 Left | Top Section 3 Right | (run AND (ledge grab right OR easy heal stall OR easy voltvessels stall OR easy plasmium phial stall OR easy flintslate stall)) OR (silk soar AND (ledge grab right OR clawline right OR dash right OR sharpdart OR faydown cloak OR drifter's cloak OR scuttlebrace OR easy pogo off Choir Flyer)) OR cling grip right OR scuttlebrace OR (easy pogo off Choir Flyer AND (dash right OR (easy heal stall OR easy voltvessels stall OR easy plasmium phial stall OR easy flintslate stall)) AND easy damage boost off Choir FLyer) OR clawline right OR sharpdart OR faydown cloak |  | Verified | ✓ |  |
@@ -15161,8 +15165,8 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| V | Vertical | Bottom | Top | silk soar OR (cling grip OR ledge grab) OR faydown cloak |  | Verified | ✓ |  |
-| V | Vertical | Top | Bottom | none |  | Verified | ✓ | falling |
+| V | Vertical | Bottom | Top | silk soar OR ledge grab right OR faydown cloak OR (easy pogo off Grand Reed AND (cling grip either OR easy shaman pogo OR scuttlebrace)) |  | Verified |  |  |
+| V | Vertical | Top | Bottom | none |  | Verified |  | falling |
 
 #### Check Locations
 
@@ -15201,7 +15205,7 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Reed's Personal Chest |  | easy enemy pogo off [Choristor, Choir Pouncer, Envoy]  OR ledge grab either  OR cling grip either  OR silk soar  OR faydown cloak |  | Verified | collectible | ✓ | rosary chest |
+| 1 | Reed's personal chest |  | easy enemy pogo off [Choristor, Choir pouncer, Envoy] OR ledge grab either OR cling grip either OR silk soar OR faydown cloak OR scuttlebrace |  | Verified | collectible | ✓ | rosary chest |
 | 2 | Envoy 1 |  | Normal World Spawn |  | Verified | enemy | ✓ | FSM Boolean flags: marionettesBurned, marionettesMet, song_17_clearedOut |
 | 3 | Choristor 1 |  | Normal World Spawn |  | Verified | enemy | ✓ | FSM Boolean flags: song_17_clearedOut |
 | 4 | Choir Pouncer 1 |  | Normal World Spawn |  | Verified | enemy | ✓ | FSM Boolean flags: song_17_clearedOut |
@@ -15249,7 +15253,7 @@ needs to be imported from the Choral Chambers side?
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | V | Vertical | Top | Base | none |  | Verified | ✓ | falling |
-| V | Vertical | Base | Top | cling grip OR faydown cloak OR silk soar OR (easy shaman pogo AND (easy pogo off Choir pouncer OR easy hazard respawn) AND easy pogo off Choir Flyer) OR (ledge grab AND easy pogo off Choir Flyer) |  | Verified | ✓ |  |
+| V | Vertical | Base | Top | cling grip either OR faydown cloak OR silk soar OR (easy shaman pogo AND (easy pogo off [Choir Hornhead, Choir pouncer] OR easy hazard respawn) AND easy pogo off Choir Flyer) OR (ledge grab either AND easy pogo off Choir Flyer) OR (scuttlebrace AND (easy pogo off [Choir Hornhead, Choir pouncer] OR easy hazard respawn)) |  | Verified | ✓ |  |
 | S | Secret | Right Secret | Base | activate switch over dining |  | Verified | ✓ |  |
 
 #### Check Locations
@@ -15258,7 +15262,7 @@ needs to be imported from the Choral Chambers side?
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Rosary Necklace - Choral Chambers #2 | Base | break wall right |  | Verified | collectible | ✓ | hidden behind a breakable wall |
 | 2 | Dining Hall's food budget | Top | none |  | Verified | collectible | ✓ | rosary cache |
-| 3 | Mergwin's hidden stach | Top | none |  | Verified | collectible | ✓ | rosary cache |
+| 3 | Mergwin's hidden stash | Top | none |  | Verified | collectible | ✓ | rosary cache |
 | 4 | Great Gourmand's treasury | Top | none |  | Verified | collectible | ✓ | rosary cache |
 | 5 | Mask Shard: Cogwork Core | Right Secret | none |  | Verified | collectible | ✓ |  |
 | 6 | Switch over dining | Right Secret | none |  | Verified | switch | ✓ |  |
@@ -15301,7 +15305,7 @@ needs to be imported from the Choral Chambers side?
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | V | Vertical | Diner | Below Diner | Activate Lever - Dining #1 OR Activate Lever - Dining #2 |  | Verified |  |  |
-| V | Vertical | Below Diner | Diner | ((cling grip left OR silk soar) AND Activate Lever - Dining #1) OR (cling grip right AND Activate Lever - Dining #2) |  | Verified |  |  |
+| V | Vertical | Below Diner | Diner | ((cling grip left OR silk soar) AND Activate Lever - Dining #1) OR ((scuttlebrace OR cling grip right) AND Activate Lever - Dining #2) |  | Verified |  |  |
 
 #### Check Locations
 
@@ -15349,9 +15353,9 @@ needs to be imported from the Choral Chambers side?
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | V1 | Section 1 to Section 2 | Section 1 | Section 2 | ledge grab either OR silk soar OR easy pogo off [Envoy, Choir Hornhead, Reed] OR scuttlebrace |  | Verified | ✓ |  |
 | V1 | Section 1 to Section 2 | Section 2 | Section 1 | none |  | Verified | ✓ | falling |
-| V2 | Section 2 to Section 3 | Section 2 | Section 3 | silk soar OR (cling grip  right AND (scuttlebrace OR ledge grab left OR (clawline right AND spike pogo))) OR (easy pogo off Choir pouncer AND ((easy pogo off Reed AND (easy heal stall OR easy voltvessels stall OR easy plasmium phial stall OR easy flintslate stall )AND easy damage boost) OR (easy Shaman pogo AND easy pogo off Reed))) OR (faydown cloak AND cling grip left) |  | Verified | ✓ |  |
+| V2 | Section 2 to Section 3 | Section 2 | Section 3 | silk soar OR (cling grip  right AND (ledge grab left OR (clawline right AND spike pogo))) OR (easy pogo off Choir pouncer AND ((easy pogo off Reed AND (easy heal stall OR easy voltvessels stall OR easy plasmium phial stall OR easy flintslate stall )AND easy damage boost) OR (easy Shaman pogo AND easy pogo off Reed))) OR (faydown cloak AND cling grip left) OR scuttlebrace |  | Verified | ✓ |  |
 | V2 | Section 2 to Section 3 | Section 3 | Section 2 | none |  | Verified | ✓ | falling |
-| V3 | Section 3 to Section 4 | Section 3 | Section 4 | (ledge grab right AND (spike pogo OR ledge grab left OR easy pogo off [Choir bellbearer, Reed, Choristor] )) OR (clawline right AND (spike pogo OR ledge grab left)) OR silk soar OR easy pogo off [Choir pouncer,Reed, Choristor] OR easy [Wanderer,Reaper,Beast,Witch,Architect, Shaman] pogo |  | Verified | ✓ |  |
+| V3 | Section 3 to Section 4 | Section 3 | Section 4 | (ledge grab right AND (spike pogo OR ledge grab left OR easy pogo off [Choir bellbearer, Reed, Choristor] )) OR (clawline right AND (spike pogo OR ledge grab left)) OR silk soar OR easy pogo off [Choir pouncer,Reed, Choristor] OR easy [Wanderer,Reaper,Beast,Witch,Architect, Shaman] pogo OR (scuttlebrace AND (easy damage boost off [Choir Bellbearer, Reed, Choristor] OR spike pogo)) |  | Verified | ✓ |  |
 | V3 | Section 3 to Section 4 | Section 4 | Section 3 | none |  | Verified | ✓ | falling |
 
 #### Check Locations
@@ -15384,7 +15388,7 @@ needs to be imported from the Choral Chambers side?
 
 **Game ID:** Song_07
 
-**Contributors:** samupo
+**Contributors:** samupo, Gallos
 
 #### Subrooms
 
@@ -15404,8 +15408,8 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Rosary Cache: Choral Chambers #10 |  | cling grip either |  | Verified | collectible | ✓ |  |
-| 2 | Rosary Necklace - Choral Chambers #1 |  | cling grip either |  | Verified | collectible | ✓ |  |
+| 1 | Rosary Necklace - Choral Chambers #1 |  | cling grip either |  | Verified | collectible | ✓ |  |
+| 2 | Merchant's funds |  | cling grip either |  | Verified | collectible | ✓ | rosary cache |
 | 3 | The Wandering Merchant Wish Granted |  | complete THE The Wandering Merchant Wish Promised |  | Verified | event |  |  |
 | 4 | Second Sentinel Encounter Merchant room |  | Act 3  AND complete THE Second Sentinel Activation AND complete The Wandering Merchant Wish Granted |  | Verified | event | ✓ | per the wiki |
 | 5 | Choristor 1 |  | prereq THE The Wandering Merchant Wish Promised |  | Verified | enemy | ✓ | Spawn conditions: Save City Merchant accepted=true, Save City Merchant completed=false |
@@ -15446,9 +15450,10 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Drapemite 1 | Bottom | Normal world spawn |  | Verified | enemy | ✓ |  |
-| 2 | Drapemite 2 | Bottom | Normal world spawn |  | Verified | enemy | ✓ |  |
-| 3 | Drapemite 3 | Bottom | Invalid |  | Verified | enemy | ✓ | Disabled; no activation found. |
+| 1 | Below dining bench | Top | none |  | Verified | bench | ✓ |  |
+| 2 | Drapemite 1 | Bottom | Normal world spawn |  | Verified | enemy | ✓ |  |
+| 3 | Drapemite 2 | Bottom | Normal world spawn |  | Verified | enemy | ✓ |  |
+| 4 | Drapemite 3 | Bottom | Invalid |  | Verified | enemy | ✓ | Disabled; no activation found. |
 
 <a name="room-choral-chambers--choral-chambers-below-spa"></a>
 
@@ -15478,8 +15483,8 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| H | Horizontal | Right | Left | cling grip either OR silk soar OR (easy shaman pogo AND easy pogo off [Envoy, Drapemite] AND faydown cloak) |  | Verified | ✓ |  |
-| H | Horizontal | Left | Right | ledge grab left OR faydown cloak OR silk soar OR easy shaman pogo OR (easy pogo off Drapemite AND medium damage boost off Choir Bellbearer) |  | Verified | ✓ |  |
+| H | Horizontal | Right | Left | cling grip either OR silk soar OR (easy shaman pogo AND easy pogo off [Envoy, Drapemite] AND faydown cloak) OR scuttlebrace |  | Verified | ✓ |  |
+| H | Horizontal | Left | Right | ledge grab left OR faydown cloak OR silk soar OR easy shaman pogo OR (easy pogo off Drapemite AND medium damage boost off Choir Bellbearer) OR scuttlebrace |  | Verified | ✓ |  |
 
 #### Check Locations
 
@@ -15533,10 +15538,10 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| V1 | Vertical | Bottom Left | Top | silk soar OR ((ledge grab OR cling grip) AND faydown cloak) OR ((Dash OR easy Shaman pogo) AND cling grip) OR (ledge grab AND easy pogo off Reed AND easy damage boost) |  | Verified | ✓ |  |
+| V1 | Vertical | Bottom Left | Top | silk soar OR (ledge grab both AND easy pogo off Reed AND easy damage boost off Reed) OR (ledge grab left AND scuttlebrace) OR (faydown cloak AND ((easy pogo off Reed AND easy damage boost off Reed) OR scuttlebrace OR ledge grab either)) OR (cling grip right AND (ledge grab left OR cling grip left)) OR (cling grip left AND ledge grab right) |  | Verified | ✓ |  |
 | V1 | Vertical | Top | Bottom Left | none |  | Verified | ✓ | falling |
-| V2 | Vertical2 | Bottom Left | Bottom Right | none |  | Verified | ✓ | falling |
-| V2 | Vertical2 | Bottom Right | Bottom Left | silk soar OR cling grip right OR (cling grip left AND easy pogo off [Reed, Choristor]) OR (ledge grab AND faydown cloak AND easy pogo off [Reed, Choristor]) |  | Verified | ✓ |  |
+| V2 | Vertical2 | Bottom Left | Bottom Right | (cling grip right AND (ledge grab left OR cling grip left)) OR (cling grip left AND ledge grab right) OR faydown cloak OR silk soar |  | Verified | ✓ |  |
+| V2 | Vertical2 | Bottom Right | Bottom Left | silk soar OR cling grip right OR (faydown cloak AND (easy pogo off Reed OR (ledge grab left AND easy pogo off Choristor))) OR ((scuttlebrace OR cling grip left) AND easy pogo off [Reed, Choristor]) |  | Verified | ✓ |  |
 
 #### Check Locations
 
@@ -15572,7 +15577,7 @@ No subroom connections defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | R | right1 | Lateral | [Choral Chambers Below Spa (Song_02)](#room-choral-chambers--choral-chambers-below-spa) | L | none |  | Verified | ✓ |  |
-| T | top1 | Ventrica | [Choral Chambers Above Ventrica (Song_03)](#room-choral-chambers--choral-chambers-above-ventrica) | B | cling grip OR silk soar OR faydown cloak |  | Verified | ✓ |  |
+| T | top1 | Ventrica | [Choral Chambers Above Ventrica (Song_03)](#room-choral-chambers--choral-chambers-above-ventrica) | B | cling grip either OR silk soar OR faydown cloak OR scuttlebrace |  | Verified | ✓ |  |
 | B | bot1 | Lateral | [Choral Chambers Below Ventrica (Song_01)](#room-choral-chambers--choral-chambers-below-ventrica) | T | none |  | Verified | ✓ |  |
 | V | door_tubeEnter | Ventrica | [Ventrica Menu](#room-fast-travel--ventrica-menu) | CC | unlock Ventrica: Choral Chambers |  | Verified | ✓ |  |
 
@@ -15628,14 +15633,14 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| V1 | Bottom to Right Exit | Bottom | Right Exit | ((Drifter's cloak OR Dash both OR Run either) AND ledge grab) OR ((Clawline OR sharpdart x 3 ) AND (easy pogo off [Choir Pouncer, Choir Hornhead, Envoy] OR ledge grab OR cling grip right OR cling grip left)) OR (dash right AND (ledge grab both OR cling grip right) AND (sharpdart OR clawline left)) OR (dash left AND (ledge grab AND cling grip left) AND (sharpdart OR clawline right)) OR (Sharpdart AND (ledge grab OR cling grip either) AND (dash right OR dash left OR clawline right OR clawline left)) OR (Scuttlebrace AND (ledge grab OR cling grip either OR (easy pogo off [Choir Pouncer, Choir Hornhead, Envoy] ))) OR faydown cloak OR silk soar OR (ledge grab AND Hard Shaman pogo) OR (Ledge Grab AND medium Beast pogo AND medium Heal stall) OR (ledge grab AND (Flea brew OR easy voltvessels stall OR easy plasmium phial stall)) |  | Verified | ✓ |  |
+| V1 | Bottom to Right Exit | Bottom | Right Exit | ((Drifter's cloak OR Dash both OR Run either) AND ledge grab) OR ((Clawline OR sharpdart x 3 ) AND (easy pogo off [Choir Pouncer, Choir Hornhead, Envoy] OR ledge grab OR cling grip right OR cling grip left)) OR (dash right AND (ledge grab both OR cling grip right) AND (sharpdart OR clawline left)) OR (dash left AND (ledge grab AND cling grip left) AND (sharpdart OR clawline right)) OR (Sharpdart AND (ledge grab OR cling grip either) AND (dash right OR dash left OR clawline right OR clawline left)) OR (Scuttlebrace AND (ledge grab OR cling grip either OR (easy pogo off [Choir Pouncer, Choir Hornhead, Envoy] ))) OR faydown cloak OR silk soar OR (ledge grab AND Hard Shaman pogo) OR (Ledge Grab AND medium Beast pogo AND medium Heal stall) OR (ledge grab AND (Flea brew OR easy voltvessels stall OR easy plasmium phial stall)) OR scuttlebrace |  | Verified | ✓ |  |
 | V1 | Bottom to Right Exit | Right Exit | Bottom | none |  | Verified | ✓ | falling |
-| LV | Lever | Right Exit | Middle | activate Lever Below Ventrica AND (silk soar OR faydown cloak OR ((Flea brew OR sharp dart OR Dash left OR Run either OR clawline left) AND (cling grip left OR (ledge grab AND easy pogo off Choir Pouncer)))) |  | Verified | ✓ |  |
-| V2 | Bottom to Middle | Bottom | Middle | cling grip both OR (cling grip right AND faydown cloak) OR silk soar OR ((ledge grab OR faydown cloak)  AND medium pogo off Choir Flyer AND medium Damage boost) |  | Verified | ✓ | can exactly hit the Choir flyer 4 times |
+| LV | Lever | Right Exit | Middle | activate Lever Below Ventrica AND (silk soar OR faydown cloak OR ((Flea brew OR sharp dart OR Dash left OR Run OR clawline left) AND (cling grip left OR (ledge grab left AND (scuttlebrace OR easy pogo off Choir Pouncer)))) OR (easy shaman pogo AND scuttlebrace)) |  | Verified | ✓ |  |
+| V2 | Bottom to Middle | Bottom | Middle | cling grip both OR (cling grip right AND faydown cloak) OR silk soar OR ((ledge grab both OR faydown cloak)  AND medium pogo off Choir Flyer AND medium Damage boost) OR scuttlebrace OR (ledge grab either AND faydown cloak AND easy pogo off Choir Flyer) |  | Verified | ✓ | can exactly hit the Choir flyer 4 times |
 | V2 | Bottom to Middle | Middle | Bottom | none |  | Verified | ✓ | falling |
-| V3 | Middle to Pre Top | Middle | Pre Top | silk soar OR ((easy pogo off [Choir Pouncer, Choir Hornhead, Envoy] OR faydown cloak) AND cling grip left) OR (cling grip right AND (faydown cloak OR drifter's cloak OR clawline left OR Dash left OR sharp dart)) OR (ledge grab AND easy Shaman pogo AND easy pogo off Choir Flyer AND faydown cloak) |  | Verified | ✓ | need to aggro Choir Flyer for Shaman skip |
+| V3 | Middle to Pre Top | Middle | Pre Top | silk soar OR ((easy pogo off [Choir Pouncer, Choir Hornhead, Envoy] OR faydown cloak) AND cling grip left) OR (cling grip right AND (faydown cloak OR drifter's cloak OR clawline left OR Dash left OR sharp dart)) OR (ledge grab either AND easy Shaman pogo AND easy pogo off Choir Flyer AND faydown cloak) OR (scuttlebrace AND ((easy pogo off [Choir Pouncer, Choir Hornhead, Envoy] AND (clawline right OR sharp dart OR cling grip left)) OR drifter's cloak OR faydown cloak OR (sharpdart OR clawline left OR cling grip right ))) |  | Verified | ✓ | need to aggro Choir Flyer for Shaman skip |
 | V3 | Middle to Pre Top | Pre Top | Middle | none |  | Verified | ✓ | falling |
-| V4 | Pre Top to Top | Pre Top | Top | cling grip either OR faydown cloak OR silk soar |  | Verified | ✓ |  |
+| V4 | Pre Top to Top | Pre Top | Top | cling grip either OR silk soar OR ((easy shaman pogo OR faydown cloak) AND scuttlebrace) |  | Verified | ✓ |  |
 | V4 | Pre Top to Top | Top | Pre Top | none |  | Verified | ✓ | falling |
 | LV | Lever | Middle | Right Exit | activate Lever Below Ventrica |  | Verified | ✓ | falling |
 
@@ -15679,7 +15684,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| B | bot1 |  | [Underworks Outside Choral Chambers (Under_07c)](#room-underworks--underworks-outside-choral-chambers) | T | activate Switch Outside Choral Chambers IN underworks outside choral chambers |  | Verified | ✓ |  |
+| B | bot1 |  | [Underworks Outside Choral Chambers (Under_07c)](#room-underworks--underworks-outside-choral-chambers) | T | activate Switch Outside choral chambers IN underworks outside choral chambers |  | Verified | ✓ |  |
 | L | left1 |  | [Choral Chambers Below Ventrica (Song_01)](#room-choral-chambers--choral-chambers-below-ventrica) | R | none |  | Verified | ✓ |  |
 
 #### Subroom Connections
@@ -15688,7 +15693,9 @@ No subroom connections defined.
 
 #### Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Outside of Underworks bench |  | none |  | Verified | bench | ✓ |  |
 
 <a name="room-choral-chambers--songclave-tube"></a>
 
@@ -15743,9 +15750,9 @@ No subroom connections defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| TL | top2 | Secret Platform | [Cogwork Core Breakable Walls (Cog_10_Destroyed)](#room-cogwork-core--cogwork-core-breakable-walls) | B | ACT 3 |  | Verified | ✓ |  |
+| TL | top2 | Secret Platform | [Cogwork Core Breakable Walls (Cog_10_Destroyed)](#room-cogwork-core--cogwork-core-breakable-walls) | B | ACT 3 AND silk soar |  | Verified | ✓ |  |
 | L | left1 | Base | [Cog Dancers (Cog_Dancers)](#room-cogwork-core--cog-dancers) | R | none |  | Verified | ✓ |  |
-| T | top1 | Base | [Memorium Start Shaft (Arborium_01)](#room-memorium--memorium-start-shaft) | B | silk soar OR faydown cloak OR (ledge grab AND easy pogo off Grand Reed) |  | Verified | ✓ |  |
+| T | top1 | Base | [Memorium Start Shaft (Arborium_01)](#room-memorium--memorium-start-shaft) | B | silk soar OR ((ledge grab both OR faydown cloak OR cling grip either OR scuttlebrace) AND easy pogo off Grand Reed) OR (faydown cloak AND (ledge grab either OR scuttlebrace OR cling grip either)) |  | Verified | ✓ |  |
 | R | right1 | Base | [Songclave (Song_Enclave)](#room-choral-chambers--songclave) | TL | none |  | Verified | ✓ |  |
 | B | bot1 | Base | [Rotating Tunnel (Song_20b)](#room-choral-chambers--rotating-tunnel) | T | none |  | Verified |  |  |
 
@@ -15785,17 +15792,18 @@ No subroom connections defined.
 | No. | Subroom | Annotated |
 | --- | --- | --- |
 | S1 | Top Platform | ✓ |
-| S2 | Central Area | ✓ |
+| S2 | CentralArea Left | ✓ |
 | S3 | Bottom Area | ✓ |
 | S4 | Horizontal Tunnel | ✓ |
+| S5 | CentralArea Right | ✓ |
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | T | top1 | Top Platform | [Memorium Entrance Tunnel (Song_25)](#room-choral-chambers--memorium-entrance-tunnel) | B | easy pogo off Reed OR cling grip OR silk soar |  | Verified | ✓ |  |
-| L1 | left2 | Central Area | [Songclave Silk Shop (Song_29)](#room-choral-chambers--songclave-silk-shop) | R | ledge grab OR dash OR faydown cloak OR clawline OR sharpdart OR drifter's cloak OR silk soar OR easy pogo off [Reed, Choir Bellbearer] |  | Verified | ✓ |  |
-| R1 | right2 | Central Area | [Songclave Steam Tunnel (Library_02)](#room-whispering-vaults--songclave-steam-tunnel) | TL | none |  | Verified | ✓ |  |
+| L1 | left2 | CentralArea Left | [Songclave Silk Shop (Song_29)](#room-choral-chambers--songclave-silk-shop) | R | none |  | Verified | ✓ |  |
+| R1 | right2 | CentralArea Right | [Songclave Steam Tunnel (Library_02)](#room-whispering-vaults--songclave-steam-tunnel) | TL | none |  | Verified | ✓ |  |
 | B | bot1 | Bottom Area | [Grand Bellway Shaft (Song_20)](#room-choral-chambers--grand-bellway-shaft) | T | none |  | Verified | ✓ |  |
 | RH | right3 | Horizontal Tunnel | [Songclave Steam Tunnel (Library_02)](#room-whispering-vaults--songclave-steam-tunnel) | BL | none |  | Verified | ✓ | both sides have levers making the tunnel horizontal |
 | LH | left4 | Horizontal Tunnel | [Cogwork Core East Choral Entrance (Cog_06)](#room-cogwork-core--cogwork-core-east-choral-entrance) | R | none |  | Verified | ✓ | both sides have levers making the tunnel horizontal |
@@ -15804,18 +15812,21 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| V | Vertical | Top Platform | Central Area | none |  | Verified |  | falling, door on top platform's side |
-| V | Vertical | Central Area | Top Platform | easy [Beast, Shaman] pogo OR silk soar OR clawline OR (easy [Hunter, Wanderer, Witch, Architect, Reaper] pogo AND easy pogo off Reed) |  | Verified |  |  |
-| T | Tunnel | Central Area | Bottom Area | none |  | Verified |  | falling, both sides have levers making the tunnel vertical |
-| T | Tunnel | Bottom Area | Central Area | silk soar OR cling grip |  | Verified |  | both sides have levers making the tunnel vertical |
+| T | Tunnel | Bottom Area | CentralArea Left | silk soar OR cling grip either OR scuttlebrace |  | Verified |  | both sides have levers making the tunnel vertical |
+| T | Tunnel | CentralArea Left | Bottom Area | none |  | Verified |  | falling, both sides have levers making the tunnel vertical |
+| RB | Right to bottom | CentralArea Right | Bottom Area | none |  | Verified |  | falling, both sides have levers making the tunnel vertical |
+| V1 | Left and Right | CentralArea Left | CentralArea Right | none |  | Verified |  |  |
+| V1 | Left and Right | CentralArea Right | CentralArea Left | drifter's cloak OR ledge grab left OR scuttlebrace OR dash left OR cling grip left OR clawline left OR sharpdart OR easy [hunter, beast,witch, shaman] pogo OR easy pogo off [Reed, Choir Bellbearer] OR faydown cloak |  | Verified |  |  |
+| V2 | Vertical | CentralArea Right | Top Platform | easy Shaman pogo OR silk soar OR (easy [Hunter, Wanderer, Witch, Architect, Reaper] pogo AND easy pogo off Reed) OR scuttlebrace |  | Verified |  |  |
+| V2 | Vertical | Top Platform | CentralArea Right | none |  | Verified |  | falling, door on top platform's side |
 
 #### Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Lever | Top Platform | none |  | Verified | switch | ✓ |  |
-| 2 | Reed | Central Area | Normal world spawn |  | Verified | enemy | ✓ |  |
-| 3 | Choir Bellbearer | Central Area | Normal world spawn |  | Verified | enemy | ✓ |  |
+| 2 | Reed | CentralArea Left | Normal world spawn |  | Verified | enemy | ✓ |  |
+| 3 | Choir Bellbearer | CentralArea Right | Normal world spawn |  | Verified | enemy | ✓ |  |
 
 <a name="room-choral-chambers--songclave-silk-shop"></a>
 
@@ -15883,13 +15894,13 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| RL | Bottom Right to Bottom Left | Bottom Right | Bottom Left | silk soar OR cling grip left OR (cling grip right AND (easy pogo off [Choristor, Envoy] OR faydown cloak)) OR (ledge grab either AND hard pogo off Choristor AND (easy Shaman pogo OR hard Reaper pogo OR (hard [Hunter, Beast, Witch, Wanderer] pogo AND hard damage boost) OR (hard Architect pogo AND clawline right AND hard damage boost))) |  | Verified | ✓ |  |
+| RL | Bottom Right to Bottom Left | Bottom Right | Bottom Left | silk soar OR cling grip left OR (cling grip right AND (easy pogo off [Choristor, Envoy] OR faydown cloak)) OR (ledge grab either AND hard pogo off Choristor AND (easy Shaman pogo OR hard Reaper pogo OR (hard [Hunter, Beast, Witch, Wanderer] pogo AND hard damage boost) OR (hard Architect pogo AND clawline right AND hard damage boost))) OR scuttlebrace |  | Verified | ✓ |  |
 | RL | Bottom Right to Bottom Left | Bottom Left | Bottom Right | none |  | Verified | ✓ | falling |
-| V1 | Bottom Left to Right Stage | Bottom Left | Right Stage | cling grip left OR ((ledge grab right OR cling grip right OR clawline right OR sharpdart OR scuttlebrace OR easy shaman pogo) AND faydown cloak) OR silk soar OR easy pogo off Reed |  | Verified | ✓ |  |
+| V1 | Bottom Left to Right Stage | Bottom Left | Right Stage | cling grip either OR ((ledge grab right OR clawline right OR sharpdart OR scuttlebrace OR easy shaman pogo) AND faydown cloak) OR silk soar OR easy pogo off Reed |  | Verified | ✓ |  |
 | V1 | Bottom Left to Right Stage | Right Stage | Bottom Left | none |  | Verified | ✓ | falling |
 | V2 | Right Stage to Upper Left | Right Stage | Middle | easy [Hunter, Reaper, Wanderer, Shaman] pogo OR (ledge grab left OR scuttlebrace OR dash left OR clawline left OR sharpdart OR easy heal stall OR easy voltvessels stall OR easy plasmium phial stall OR easy flintslate stall) |  | Verified | ✓ |  |
 | V2 | Right Stage to Upper Left | Middle | Right Stage | none |  | Verified | ✓ | falling |
-| V3 | Upper Left to Upper Right | Middle | Upper | (scuttlebrace AND hard shaman pogo) OR silk soar OR (ledge grab left AND easy pogo off [Choir pouncer,Choir Elder, Choir Flyer, Reed]) OR faydown cloak OR (cling grip both AND (scuttlebrace OR dash right OR clawline right OR sharpdart OR run)) |  | Verified | ✓ |  |
+| V3 | Upper Left to Upper Right | Middle | Upper | (scuttlebrace AND easy shaman pogo) OR silk soar OR ((ledge grab left OR scuttlebrace) AND easy pogo off [Choir pouncer,Choir Elder, Choir Flyer, Reed]) OR faydown cloak OR (cling grip both AND (scuttlebrace OR dash right OR clawline right OR sharpdart OR run)) |  | Verified | ✓ |  |
 | V3 | Upper Left to Upper Right | Upper | Middle | none |  | Verified | ✓ | falling |
 | V4 | Upper Right to Top | Upper | Top | ledge grab left OR silk soar OR clawline left OR faydown cloak OR easy pogo off Reed OR sharpdart OR scuttlebrace OR easy damage boost off Choir Bellbearer |  | Verified | ✓ |  |
 | V4 | Upper Right to Top | Top | Upper | none |  | Verified | ✓ | falling |
@@ -15980,7 +15991,7 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| V | Vertical | Secret Tunnel | Base | none |  | Verified | ✓ | falling, one sided door |
+| V | Vertical | Secret Tunnel | Base | none |  | Verified |  | falling, one sided door |
 
 #### Check Locations
 
@@ -15993,6 +16004,7 @@ No subroom connections defined.
 | 5 | Bellway: Grand Bellway Rosary Lock | Base | spend 80 rosaries |  | Verified | lock | ✓ |  |
 | 6 | Bellway: Grand Bellway | Base | Unlock Bellway Grand Bellway Rosary Lock |  | Verified | travel |  |  |
 | 7 | Beastling Call | Base | Act 3 AND defeat bell beast boss fight IN the marrow bellway |  | Verified | collectible | ✓ | Beat Bell Eater |
+| 8 | Bellway bench | Base | none |  | Verified | bench | ✓ |  |
 
 <a name="room-choral-chambers--choral-chambers-east-to-west"></a>
 
@@ -16023,8 +16035,8 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| H | Horizontal | Left Side | Right Side | easy pogo off cogworker OR clawline right OR ledge grab OR faydown cloak OR spike pogo |  | Verified | ✓ |  |
-| H | Horizontal | Right Side | Left Side | easy pogo off cogworker OR clawline left OR ledge grab OR faydown cloak OR spike pogo |  | Verified | ✓ |  |
+| H | Horizontal | Left Side | Right Side | easy pogo off cogworker OR clawline right OR ledge grab OR faydown cloak OR spike pogo OR scuttlebrace |  | Verified | ✓ |  |
+| H | Horizontal | Right Side | Left Side | easy pogo off cogworker OR clawline left OR ledge grab OR faydown cloak OR spike pogo OR scuttlebrace |  | Verified | ✓ |  |
 
 #### Check Locations
 

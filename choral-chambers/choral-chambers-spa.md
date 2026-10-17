@@ -22,7 +22,7 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| H | Horizontal | Showers | Spa | (cling grip either OR silk soar OR (faydown cloak AND ledge grab) OR activate Lever Chambers Spa ) |  | Verified | ✓ |  |
+| H | Horizontal | Showers | Spa | cling grip either OR silk soar OR scuttlebrace OR (activate Lever Chambers Spa AND (ledge grab right OR easy shaman pogo OR faydown cloak)) |  | Verified | ✓ |  |
 | H | Horizontal | Spa | Showers | activate Lever Chambers Spa |  | Verified | ✓ | lever shortcut |
 
 ## Check Locations
@@ -31,6 +31,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Lever Chambers Spa | Spa | none |  | Verified | switch | ✓ |  |
 | 2 | Lever Chambers Spa 2 | Spa | none |  | Verified | switch | ✓ |  |
+| 3 | Spa bench | Showers | none |  | Verified | bench | ✓ |  |
 
 ## Room Images
 

@@ -23,7 +23,7 @@
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | V | Vertical | Diner | Below Diner | Activate Lever - Dining #1 OR Activate Lever - Dining #2 |  | Verified |  |  |
-| V | Vertical | Below Diner | Diner | ((cling grip left OR silk soar) AND Activate Lever - Dining #1) OR (cling grip right AND Activate Lever - Dining #2) |  | Verified |  |  |
+| V | Vertical | Below Diner | Diner | ((cling grip left OR silk soar) AND Activate Lever - Dining #1) OR ((scuttlebrace OR cling grip right) AND Activate Lever - Dining #2) |  | Verified |  |  |
 
 ## Check Locations
 

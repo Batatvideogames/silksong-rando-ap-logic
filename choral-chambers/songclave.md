@@ -26,7 +26,7 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| V | Vertical | Base | Top Platform | silk soar OR cling grip left OR (cling grip right AND faydown cloak) |  | Verified | ✓ |  |
+| V | Vertical | Base | Top Platform | silk soar OR cling grip left OR (cling grip right AND faydown cloak) OR scuttlebrace |  | Verified | ✓ |  |
 | V | Vertical | Top Platform | Base | none |  | Verified | ✓ | falling |
 
 ## Check Locations
@@ -37,6 +37,7 @@
 | 2 | Wish: Pain, Anguish and Misery | Base | Act 3 AND Defeat Trobbio IN Trobbio |  | Verified | event |  |  |
 | 3 | Meet the Caretaker | Base | activate Lever Bellshrine Enclave IN bellshrine-enclave |  | Verified | logic-point | ✓ |  |
 | 4 | Reach Songclave | Base | none |  | Verified | logic-point |  | Used for Savage Beastfly wish. |
+| 5 | Songclave bench | Base | none |  | Verified | bench | ✓ |  |
 
 ## Room Images
 

@@ -23,10 +23,10 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| V1 | Vertical | Bottom Left | Top | silk soar OR ((ledge grab OR cling grip) AND faydown cloak) OR ((Dash OR easy Shaman pogo) AND cling grip) OR (ledge grab AND easy pogo off Reed AND easy damage boost) |  | Verified | ✓ |  |
+| V1 | Vertical | Bottom Left | Top | silk soar OR (ledge grab both AND easy pogo off Reed AND easy damage boost off Reed) OR (ledge grab left AND scuttlebrace) OR (faydown cloak AND ((easy pogo off Reed AND easy damage boost off Reed) OR scuttlebrace OR ledge grab either)) OR (cling grip right AND (ledge grab left OR cling grip left)) OR (cling grip left AND ledge grab right) |  | Verified | ✓ |  |
 | V1 | Vertical | Top | Bottom Left | none |  | Verified | ✓ | falling |
-| V2 | Vertical2 | Bottom Left | Bottom Right | none |  | Verified | ✓ | falling |
-| V2 | Vertical2 | Bottom Right | Bottom Left | silk soar OR cling grip right OR (cling grip left AND easy pogo off [Reed, Choristor]) OR (ledge grab AND faydown cloak AND easy pogo off [Reed, Choristor]) |  | Verified | ✓ |  |
+| V2 | Vertical2 | Bottom Left | Bottom Right | (cling grip right AND (ledge grab left OR cling grip left)) OR (cling grip left AND ledge grab right) OR faydown cloak OR silk soar |  | Verified | ✓ |  |
+| V2 | Vertical2 | Bottom Right | Bottom Left | silk soar OR cling grip right OR (faydown cloak AND (easy pogo off Reed OR (ledge grab left AND easy pogo off Choristor))) OR ((scuttlebrace OR cling grip left) AND easy pogo off [Reed, Choristor]) |  | Verified | ✓ |  |
 
 ## Check Locations
 

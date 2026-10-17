@@ -25,7 +25,7 @@
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | V | Vertical | Top | Base | none |  | Verified | ✓ | falling |
-| V | Vertical | Base | Top | cling grip OR faydown cloak OR silk soar OR (easy shaman pogo AND (easy pogo off Choir pouncer OR easy hazard respawn) AND easy pogo off Choir Flyer) OR (ledge grab AND easy pogo off Choir Flyer) |  | Verified | ✓ |  |
+| V | Vertical | Base | Top | cling grip either OR faydown cloak OR silk soar OR (easy shaman pogo AND (easy pogo off [Choir Hornhead, Choir pouncer] OR easy hazard respawn) AND easy pogo off Choir Flyer) OR (ledge grab either AND easy pogo off Choir Flyer) OR (scuttlebrace AND (easy pogo off [Choir Hornhead, Choir pouncer] OR easy hazard respawn)) |  | Verified | ✓ |  |
 | S | Secret | Right Secret | Base | activate switch over dining |  | Verified | ✓ |  |
 
 ## Check Locations
@@ -34,7 +34,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Rosary Necklace - Choral Chambers #2 | Base | break wall right |  | Verified | collectible | ✓ | hidden behind a breakable wall |
 | 2 | Dining Hall's food budget | Top | none |  | Verified | collectible | ✓ | rosary cache |
-| 3 | Mergwin's hidden stach | Top | none |  | Verified | collectible | ✓ | rosary cache |
+| 3 | Mergwin's hidden stash | Top | none |  | Verified | collectible | ✓ | rosary cache |
 | 4 | Great Gourmand's treasury | Top | none |  | Verified | collectible | ✓ | rosary cache |
 | 5 | Mask Shard: Cogwork Core | Right Secret | none |  | Verified | collectible | ✓ |  |
 | 6 | Switch over dining | Right Secret | none |  | Verified | switch | ✓ |  |

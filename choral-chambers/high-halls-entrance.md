@@ -21,7 +21,9 @@ No subroom connections defined.
 
 ## Check Locations
 
-No check locations defined.
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | HH entrance Bench |  | none |  | Verified | bench | ✓ |  |
 
 ## Room Images
 

@@ -53475,6 +53475,31 @@
           "archivedUtc": "2026-10-15T03:17:58.3827233Z",
           "createdUtc": "2026-10-05T00:54:37.7238861Z",
           "updatedUtc": "2026-10-15T03:17:58.3827233Z"
+        },
+        {
+          "id": "e92ebb31-ae55-4379-9df9-71a4750f2e03",
+          "friendlyName": "HH entrance Bench",
+          "inGameId": null,
+          "inGamePositionX": null,
+          "inGamePositionY": null,
+          "inGamePositionZ": null,
+          "localPositionX": null,
+          "localPositionY": null,
+          "localPositionZ": null,
+          "annotationSceneUnitX": 13.450118064880371,
+          "annotationSceneUnitY": 11.838046073913574,
+          "subroomReferenceText": "",
+          "requirements": "none",
+          "notes": "",
+          "locationType": "bench",
+          "enableAnnotation": true,
+          "sortOrder": 0,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-10-17T17:04:44.6307454Z",
+          "updatedUtc": "2026-10-17T17:05:00.8448536Z"
         }
       ]
     },
@@ -72377,8 +72402,8 @@
           "localPositionX": null,
           "localPositionY": null,
           "localPositionZ": null,
-          "annotationSceneUnitX": 28.32066535949707,
-          "annotationSceneUnitY": 6.875346660614014,
+          "annotationSceneUnitX": 29.90333366394043,
+          "annotationSceneUnitY": 6.496496677398682,
           "subroomReferenceText": "",
           "requirements": "none",
           "notes": "",
@@ -72390,7 +72415,32 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-23T02:09:26.1763167Z",
-          "updatedUtc": "2026-10-15T21:14:59.2341752Z"
+          "updatedUtc": "2026-10-17T17:08:39.2345266Z"
+        },
+        {
+          "id": "2f8cb1f7-c11b-4a37-8cab-f68d3ebbdbb1",
+          "friendlyName": "Bellshrine bench",
+          "inGameId": null,
+          "inGamePositionX": null,
+          "inGamePositionY": null,
+          "inGamePositionZ": null,
+          "localPositionX": null,
+          "localPositionY": null,
+          "localPositionZ": null,
+          "annotationSceneUnitX": 26.749128341674805,
+          "annotationSceneUnitY": 6.496496677398682,
+          "subroomReferenceText": "",
+          "requirements": "none",
+          "notes": "",
+          "locationType": "bench",
+          "enableAnnotation": true,
+          "sortOrder": 1,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-10-17T17:08:21.7367766Z",
+          "updatedUtc": "2026-10-17T17:08:42.0048889Z"
         },
         {
           "id": "b7e3016e-56c1-4f49-869a-83c908b46ac8",
@@ -89938,7 +89988,7 @@
           "friendlyName": "Vertical",
           "sourceSubroomReferenceText": "Base",
           "destinationSubroomReferenceText": "Top Platform",
-          "requirements": "silk soar OR cling grip left OR (cling grip right AND faydown cloak)",
+          "requirements": "silk soar OR cling grip left OR (cling grip right AND faydown cloak) OR scuttlebrace",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 21.791549682617188,
@@ -89949,7 +89999,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-11T13:25:05.924386Z",
-          "updatedUtc": "2026-10-15T21:46:33.9555407Z"
+          "updatedUtc": "2026-10-17T15:10:54.4244065Z"
         },
         {
           "id": "1d7ec08d-b2b2-4aab-a3ca-b3b474beac38",
@@ -90048,6 +90098,31 @@
           "updatedUtc": "2026-10-15T21:27:57.5369758Z"
         },
         {
+          "id": "6a7145ad-c2f5-478e-8904-1eae838e7c8a",
+          "friendlyName": "Meet the Caretaker",
+          "inGameId": null,
+          "inGamePositionX": null,
+          "inGamePositionY": null,
+          "inGamePositionZ": null,
+          "localPositionX": null,
+          "localPositionY": null,
+          "localPositionZ": null,
+          "annotationSceneUnitX": 52.99271774291992,
+          "annotationSceneUnitY": 6.276873588562012,
+          "subroomReferenceText": "Base",
+          "requirements": "activate Lever Bellshrine Enclave IN bellshrine-enclave",
+          "notes": "",
+          "locationType": "logic-point",
+          "enableAnnotation": true,
+          "sortOrder": 2,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-09-22T15:34:06.6047304Z",
+          "updatedUtc": "2026-10-17T17:07:55.8604219Z"
+        },
+        {
           "id": "6af6bd82-2c24-4786-949e-25baa323f37e",
           "friendlyName": "Balm for the Wounded Wish Start",
           "inGameId": null,
@@ -90073,31 +90148,6 @@
           "updatedUtc": "2026-09-25T02:32:31.0002402Z"
         },
         {
-          "id": "6a7145ad-c2f5-478e-8904-1eae838e7c8a",
-          "friendlyName": "Meet the Caretaker",
-          "inGameId": null,
-          "inGamePositionX": null,
-          "inGamePositionY": null,
-          "inGamePositionZ": null,
-          "localPositionX": null,
-          "localPositionY": null,
-          "localPositionZ": null,
-          "annotationSceneUnitX": 52.99271774291992,
-          "annotationSceneUnitY": 6.276873588562012,
-          "subroomReferenceText": "Base",
-          "requirements": "activate Lever Bellshrine Enclave IN bellshrine-enclave",
-          "notes": "",
-          "locationType": "logic-point",
-          "enableAnnotation": true,
-          "sortOrder": 3,
-          "isTodo": false,
-          "isVerified": true,
-          "isArchived": false,
-          "archivedUtc": null,
-          "createdUtc": "2026-09-22T15:34:06.6047304Z",
-          "updatedUtc": "2026-10-15T21:46:46.7101635Z"
-        },
-        {
           "id": "466fc8fd-1c44-4b38-aafb-bfe036c301a9",
           "friendlyName": "Reach Songclave",
           "inGameId": null,
@@ -90114,13 +90164,38 @@
           "notes": "Used for Savage Beastfly wish.",
           "locationType": "logic-point",
           "enableAnnotation": true,
-          "sortOrder": 4,
+          "sortOrder": 3,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-26T06:58:03.9394021Z",
-          "updatedUtc": "2026-09-26T06:58:45.8555395Z"
+          "updatedUtc": "2026-10-17T17:07:55.8604219Z"
+        },
+        {
+          "id": "60536bc7-b46e-4543-98e7-868a0f7009e4",
+          "friendlyName": "Songclave bench",
+          "inGameId": null,
+          "inGamePositionX": null,
+          "inGamePositionY": null,
+          "inGamePositionZ": null,
+          "localPositionX": null,
+          "localPositionY": null,
+          "localPositionZ": null,
+          "annotationSceneUnitX": 39.840171813964844,
+          "annotationSceneUnitY": 5.986288547515869,
+          "subroomReferenceText": "Base",
+          "requirements": "none",
+          "notes": "",
+          "locationType": "bench",
+          "enableAnnotation": true,
+          "sortOrder": 4,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-10-17T17:07:55.8604219Z",
+          "updatedUtc": "2026-10-17T17:08:11.0555964Z"
         },
         {
           "id": "8aa33cec-9c5f-408c-8229-e94c73ec7d9d",
@@ -108384,7 +108459,7 @@
           "friendlyName": "Horizontal",
           "sourceSubroomReferenceText": "Showers",
           "destinationSubroomReferenceText": "Spa",
-          "requirements": "(cling grip either OR silk soar OR (faydown cloak AND ledge grab) OR activate Lever Chambers Spa )",
+          "requirements": "cling grip either OR silk soar OR scuttlebrace OR (activate Lever Chambers Spa AND (ledge grab right OR easy shaman pogo OR faydown cloak))",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 58.594444274902344,
@@ -108395,7 +108470,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-12T20:31:17.9707795Z",
-          "updatedUtc": "2026-10-15T21:47:54.63454Z"
+          "updatedUtc": "2026-10-17T15:15:18.7303496Z"
         },
         {
           "id": "71ccee0a-3ef5-4491-9232-e9bd4e9f92be",
@@ -108492,6 +108567,31 @@
           "archivedUtc": null,
           "createdUtc": "2026-10-15T22:12:25.3392137Z",
           "updatedUtc": "2026-10-15T22:24:54.0357205Z"
+        },
+        {
+          "id": "7aad5de9-5572-4bf6-9eb9-b62b8176519a",
+          "friendlyName": "Spa bench",
+          "inGameId": null,
+          "inGamePositionX": null,
+          "inGamePositionY": null,
+          "inGamePositionZ": null,
+          "localPositionX": null,
+          "localPositionY": null,
+          "localPositionZ": null,
+          "annotationSceneUnitX": 30.215415954589844,
+          "annotationSceneUnitY": 44.59016036987305,
+          "subroomReferenceText": "Showers",
+          "requirements": "none",
+          "notes": "",
+          "locationType": "bench",
+          "enableAnnotation": true,
+          "sortOrder": 2,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-10-17T17:05:12.5303782Z",
+          "updatedUtc": "2026-10-17T17:05:29.9004842Z"
         }
       ]
     },
@@ -109366,17 +109466,17 @@
       "sceneMaxY": 68,
       "sceneImagePixelsPerUnitX": 6.35,
       "sceneImagePixelsPerUnitY": 6.35,
-      "sceneImagePixelOffsetX": 6990.880350967196,
-      "sceneImagePixelOffsetY": 10182.45951761449,
+      "sceneImagePixelOffsetX": 6985.352781387115,
+      "sceneImagePixelOffsetY": 10192.007279215699,
       "useSceneImage": true,
       "useUploadedSceneImage": false,
       "sceneImageOriginalHash": null,
-      "sceneImageCropHash": "910088896ddc4f109cb51e4723a5664781a320f0d199466d1775b2a7d6ba86a7",
+      "sceneImageCropHash": "0c92ff36bed8939a67a14797aac8a0a2eb44d1e12609a2c061721174763ceccd",
       "sortOrder": 4,
       "isArchived": false,
       "archivedUtc": null,
       "createdUtc": "2026-08-12T12:24:47.9579087Z",
-      "updatedUtc": "2026-10-17T01:46:09.781663Z",
+      "updatedUtc": "2026-10-16T18:46:21.4988649Z",
       "subrooms": [
         {
           "id": "0ffa303e-2e9a-4b96-9678-cd107e7a9651",
@@ -109583,7 +109683,7 @@
           "friendlyName": "Vertical",
           "sourceSubroomReferenceText": "Base",
           "destinationSubroomReferenceText": "Top",
-          "requirements": "cling grip OR silk soar",
+          "requirements": "cling grip either OR silk soar OR scuttlebrace",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 108.97508239746094,
@@ -109594,7 +109694,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-12T12:53:35.4752135Z",
-          "updatedUtc": "2026-09-25T03:37:19.9692676Z"
+          "updatedUtc": "2026-10-17T15:17:43.3376686Z"
         },
         {
           "id": "43b4d6e9-1ac7-48a4-856f-63f7a917127f",
@@ -109632,7 +109732,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-12T12:54:31.4892832Z",
-          "updatedUtc": "2026-10-17T01:46:22.0428761Z"
+          "updatedUtc": "2026-10-17T23:30:14.3202608Z"
         },
         {
           "id": "82f29b45-77f9-40c0-a788-5462abc53658",
@@ -109670,7 +109770,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-12T12:55:01.4009964Z",
-          "updatedUtc": "2026-10-17T01:46:22.7486982Z"
+          "updatedUtc": "2026-10-17T23:30:15.9964026Z"
         }
       ],
       "checks": [
@@ -109712,7 +109812,7 @@
           "annotationSceneUnitX": 125.81104278564453,
           "annotationSceneUnitY": 36.96244430541992,
           "subroomReferenceText": "Base",
-          "requirements": "cling grip OR silk soar",
+          "requirements": "cling grip either OR silk soar OR (easy shaman pogo AND scuttlebrace)",
           "notes": "Secret hidden by breaking the ceiling",
           "locationType": "collectible",
           "enableAnnotation": true,
@@ -109722,7 +109822,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-12T15:58:55.6191559Z",
-          "updatedUtc": "2026-10-15T00:27:07.2866122Z"
+          "updatedUtc": "2026-10-17T15:16:51.8688384Z"
         },
         {
           "id": "05091324-bccf-408c-893f-61b88fb50590",
@@ -109741,13 +109841,38 @@
           "notes": "",
           "locationType": "switch",
           "enableAnnotation": true,
-          "sortOrder": 2,
+          "sortOrder": 1,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-14T14:10:32.9933832Z",
-          "updatedUtc": "2026-10-15T00:27:22.0761027Z"
+          "updatedUtc": "2026-10-17T23:30:55.3149087Z"
+        },
+        {
+          "id": "5536617d-a390-461a-8f22-9dd629833250",
+          "friendlyName": "Second Sentinel Encounter",
+          "inGameId": "\u0022Black Thread States\u0022[0]/\u0022Normal World\u0022[0]/\u0022Scene States\u0022[0]/\u0022Battle Scene\u0022[0]/\u0022Song Knight Control\u0022[0]/\u0022Song Knight Present\u0022[0]/\u0022Song Knight BattleEncounter\u0022[0]",
+          "inGamePositionX": 57.96,
+          "inGamePositionY": 4.95,
+          "inGamePositionZ": 0.0059,
+          "localPositionX": 57.96,
+          "localPositionY": 4.95,
+          "localPositionZ": 0.0059,
+          "annotationSceneUnitX": 57.96,
+          "annotationSceneUnitY": 4.95,
+          "subroomReferenceText": "Gauntlet",
+          "requirements": "defeat Gauntlet Fight\nAND Act 2\nAND complete THE Second Sentinel Activation",
+          "notes": "Spawn conditions: songChevalierActiveInSong_04=true, songChevalierSeenInSong_04=false, songChevalierEncounterCooldown=false, songChevalierQuestReady=false\nFSM Boolean flags: encounteredSongChevalierBoss",
+          "locationType": "event",
+          "enableAnnotation": true,
+          "sortOrder": 2,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-10-13T18:02:18.5032089Z",
+          "updatedUtc": "2026-10-17T23:32:03.6564094Z"
         },
         {
           "id": "c2a9d8b0-280e-4cee-8aad-0ccf34e05fb2",
@@ -109769,35 +109894,10 @@
           "sortOrder": 2,
           "isTodo": false,
           "isVerified": true,
-          "isArchived": false,
-          "archivedUtc": null,
+          "isArchived": true,
+          "archivedUtc": "2026-10-17T23:31:25.7173687Z",
           "createdUtc": "2026-09-25T03:37:38.6888528Z",
-          "updatedUtc": "2026-10-16T01:39:43.8659987Z"
-        },
-        {
-          "id": "007f3c9a-50b0-4802-8f2b-4d87bffafe98",
-          "friendlyName": "Gauntlet Fight",
-          "inGameId": null,
-          "inGamePositionX": null,
-          "inGamePositionY": null,
-          "inGamePositionZ": null,
-          "localPositionX": null,
-          "localPositionY": null,
-          "localPositionZ": null,
-          "annotationSceneUnitX": 56.556541442871094,
-          "annotationSceneUnitY": 10.026233673095703,
-          "subroomReferenceText": "Gauntlet",
-          "requirements": "Normal World Spawn",
-          "notes": "",
-          "locationType": "event",
-          "enableAnnotation": true,
-          "sortOrder": 3,
-          "isTodo": false,
-          "isVerified": true,
-          "isArchived": false,
-          "archivedUtc": null,
-          "createdUtc": "2026-10-15T21:33:23.1499986Z",
-          "updatedUtc": "2026-10-15T21:34:35.8800211Z"
+          "updatedUtc": "2026-10-17T23:31:25.7173687Z"
         },
         {
           "id": "26fd46ba-58c7-4e14-bf52-ca2f3a87a371",
@@ -109834,12 +109934,37 @@
           "localPositionX": 47.17,
           "localPositionY": 3.25,
           "localPositionZ": -8,
-          "annotationSceneUnitX": 59.160736083984375,
-          "annotationSceneUnitY": 9.783939361572266,
+          "annotationSceneUnitX": 47.17,
+          "annotationSceneUnitY": 3.25,
           "subroomReferenceText": "Gauntlet",
           "requirements": "Normal World Spawn",
           "notes": "",
           "locationType": "gauntlet",
+          "enableAnnotation": true,
+          "sortOrder": 3,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-10-13T18:02:18.5032089Z",
+          "updatedUtc": "2026-10-17T23:32:17.4909172Z"
+        },
+        {
+          "id": "40823344-b91a-427e-acdd-e942f748ffb5",
+          "friendlyName": "Choir Bellbearer 2",
+          "inGameId": "\u0022Black Thread States\u0022[0]/\u0022Black Thread World\u0022[0]/\u0022Pilgrim 03 Song\u0022[0]",
+          "inGamePositionX": 65.71,
+          "inGamePositionY": 9.02,
+          "inGamePositionZ": 0,
+          "localPositionX": 32.52,
+          "localPositionY": -3.12,
+          "localPositionZ": 0,
+          "annotationSceneUnitX": 65.71,
+          "annotationSceneUnitY": 9.02,
+          "subroomReferenceText": "Gauntlet",
+          "requirements": "Black Thread World Spawn",
+          "notes": "",
+          "locationType": "enemy",
           "enableAnnotation": true,
           "sortOrder": 4,
           "isTodo": false,
@@ -109847,7 +109972,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-13T18:02:18.5032089Z",
-          "updatedUtc": "2026-10-15T21:34:02.7470858Z"
+          "updatedUtc": "2026-10-17T23:32:03.6564094Z"
         },
         {
           "id": "a4d09e81-8fd7-4c22-8c2c-d2a90c4c4e71",
@@ -109875,31 +110000,6 @@
           "updatedUtc": "2026-10-15T00:23:25.1543617Z"
         },
         {
-          "id": "40823344-b91a-427e-acdd-e942f748ffb5",
-          "friendlyName": "Choir Bellbearer 2",
-          "inGameId": "\u0022Black Thread States\u0022[0]/\u0022Black Thread World\u0022[0]/\u0022Pilgrim 03 Song\u0022[0]",
-          "inGamePositionX": 65.71,
-          "inGamePositionY": 9.02,
-          "inGamePositionZ": 0,
-          "localPositionX": 32.52,
-          "localPositionY": -3.12,
-          "localPositionZ": 0,
-          "annotationSceneUnitX": 65.71,
-          "annotationSceneUnitY": 9.02,
-          "subroomReferenceText": "Gauntlet",
-          "requirements": "Black Thread World Spawn",
-          "notes": "",
-          "locationType": "enemy",
-          "enableAnnotation": true,
-          "sortOrder": 5,
-          "isTodo": false,
-          "isVerified": true,
-          "isArchived": false,
-          "archivedUtc": null,
-          "createdUtc": "2026-10-13T18:02:18.5032089Z",
-          "updatedUtc": "2026-10-15T21:34:02.7470858Z"
-        },
-        {
           "id": "3cff5677-cabf-4e22-9742-ff1f0dfd859e",
           "friendlyName": "Choir Flyer 1",
           "inGameId": "\u0022Black Thread States\u0022[0]/\u0022Normal World\u0022[0]/\u0022Scene States\u0022[0]/\u0022Battle Scene\u0022[0]/\u0022Wave 2\u0022[0]/\u0022Pilgrim 04 Song\u0022[0]",
@@ -109909,20 +110009,20 @@
           "localPositionX": 65.46,
           "localPositionY": 3.25,
           "localPositionZ": -8,
-          "annotationSceneUnitX": 54.59737777709961,
-          "annotationSceneUnitY": 7.121982097625732,
+          "annotationSceneUnitX": 65.46,
+          "annotationSceneUnitY": 3.25,
           "subroomReferenceText": "Gauntlet",
           "requirements": "Normal World Spawn",
           "notes": "",
           "locationType": "gauntlet",
           "enableAnnotation": true,
-          "sortOrder": 6,
+          "sortOrder": 5,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-13T18:02:18.5032089Z",
-          "updatedUtc": "2026-10-15T21:34:02.7470858Z"
+          "updatedUtc": "2026-10-17T23:32:19.9166368Z"
         },
         {
           "id": "f5cb50ed-7b29-4945-914f-aa8fc88b133a",
@@ -109934,20 +110034,20 @@
           "localPositionX": 50.16,
           "localPositionY": 3.6,
           "localPositionZ": -8,
-          "annotationSceneUnitX": 44.83686828613281,
-          "annotationSceneUnitY": 2.558626174926758,
+          "annotationSceneUnitX": 50.16,
+          "annotationSceneUnitY": 3.59999943,
           "subroomReferenceText": "Gauntlet",
           "requirements": "Normal World Spawn",
           "notes": "",
           "locationType": "gauntlet",
           "enableAnnotation": true,
-          "sortOrder": 7,
+          "sortOrder": 6,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-13T18:02:18.5032089Z",
-          "updatedUtc": "2026-10-15T21:34:02.7470858Z"
+          "updatedUtc": "2026-10-17T23:32:22.2178407Z"
         },
         {
           "id": "8507d4ef-d7bd-4891-927a-5cc1dc9d6b96",
@@ -109959,20 +110059,20 @@
           "localPositionX": 48.16,
           "localPositionY": 3.72,
           "localPositionZ": -10,
-          "annotationSceneUnitX": 64.48464965820312,
-          "annotationSceneUnitY": 2.43186616897583,
+          "annotationSceneUnitX": 48.16,
+          "annotationSceneUnitY": 3.72000027,
           "subroomReferenceText": "Gauntlet",
           "requirements": "Normal World Spawn",
           "notes": "",
           "locationType": "gauntlet",
           "enableAnnotation": true,
-          "sortOrder": 8,
+          "sortOrder": 7,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-13T18:02:18.5032089Z",
-          "updatedUtc": "2026-10-15T21:34:02.7470858Z"
+          "updatedUtc": "2026-10-17T23:32:24.8633372Z"
         },
         {
           "id": "5e986553-1841-4a03-8660-84e5d9a43230",
@@ -109984,20 +110084,20 @@
           "localPositionX": 66.33,
           "localPositionY": 3.72,
           "localPositionZ": -10,
-          "annotationSceneUnitX": 67.27336883544922,
-          "annotationSceneUnitY": 2.6853859424591064,
+          "annotationSceneUnitX": 66.33,
+          "annotationSceneUnitY": 3.72000027,
           "subroomReferenceText": "Gauntlet",
           "requirements": "Normal World Spawn",
           "notes": "",
           "locationType": "gauntlet",
           "enableAnnotation": true,
-          "sortOrder": 9,
+          "sortOrder": 8,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-13T18:02:18.5032089Z",
-          "updatedUtc": "2026-10-15T21:34:02.7470858Z"
+          "updatedUtc": "2026-10-17T23:32:27.2651387Z"
         },
         {
           "id": "4a83c9a4-4e54-4c07-91d8-b9af4de50cc7",
@@ -110009,20 +110109,20 @@
           "localPositionX": 21.93,
           "localPositionY": -8.21,
           "localPositionZ": 0,
-          "annotationSceneUnitX": 53.20301818847656,
-          "annotationSceneUnitY": 2.43186616897583,
+          "annotationSceneUnitX": 55.12,
+          "annotationSceneUnitY": 3.93000031,
           "subroomReferenceText": "Gauntlet",
           "requirements": "Black Thread World Spawn",
           "notes": "",
           "locationType": "enemy",
           "enableAnnotation": true,
-          "sortOrder": 11,
+          "sortOrder": 9,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-13T18:02:18.5032089Z",
-          "updatedUtc": "2026-10-15T21:34:02.7470858Z"
+          "updatedUtc": "2026-10-17T23:32:29.5826243Z"
         },
         {
           "id": "a4acc5e1-5f3a-4a2a-b23d-2be828f7adac",
@@ -110034,20 +110134,20 @@
           "localPositionX": 121.4,
           "localPositionY": 90,
           "localPositionZ": 20,
-          "annotationSceneUnitX": 63.2170524597168,
-          "annotationSceneUnitY": 11.431818008422852,
+          "annotationSceneUnitX": 71.62234497070312,
+          "annotationSceneUnitY": 18.039012908935547,
           "subroomReferenceText": "Gauntlet",
           "requirements": "Normal World Spawn",
           "notes": "FSM Boolean flags: marionettesBurned",
           "locationType": "gauntlet",
           "enableAnnotation": true,
-          "sortOrder": 12,
+          "sortOrder": 10,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-13T18:02:18.5032089Z",
-          "updatedUtc": "2026-10-15T21:34:02.7470858Z"
+          "updatedUtc": "2026-10-17T23:32:38.3019124Z"
         },
         {
           "id": "9317483e-cd7b-4204-b59f-039b108a6e3e",
@@ -110059,20 +110159,20 @@
           "localPositionX": 121.399994,
           "localPositionY": 90,
           "localPositionZ": 20,
-          "annotationSceneUnitX": 53.20301818847656,
-          "annotationSceneUnitY": 12.952937126159668,
+          "annotationSceneUnitX": 72.6186752319336,
+          "annotationSceneUnitY": 15.249287605285645,
           "subroomReferenceText": "Gauntlet",
           "requirements": "Normal World Spawn",
           "notes": "FSM Boolean flags: marionettesBurned",
           "locationType": "gauntlet",
           "enableAnnotation": true,
-          "sortOrder": 13,
+          "sortOrder": 11,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-13T18:02:18.5032089Z",
-          "updatedUtc": "2026-10-15T21:34:02.7470858Z"
+          "updatedUtc": "2026-10-17T23:32:44.8013465Z"
         },
         {
           "id": "6b8d2d55-6dfa-4ae4-9130-fced08eb69f3",
@@ -110091,13 +110191,13 @@
           "notes": "",
           "locationType": "enemy",
           "enableAnnotation": true,
-          "sortOrder": 14,
+          "sortOrder": 12,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-13T18:02:18.5032089Z",
-          "updatedUtc": "2026-10-15T21:34:02.7470858Z"
+          "updatedUtc": "2026-10-17T23:32:03.6564094Z"
         },
         {
           "id": "543b0bd5-644b-4cdf-8e6d-674cf86914ab",
@@ -110116,38 +110216,13 @@
           "notes": "",
           "locationType": "gauntlet",
           "enableAnnotation": true,
-          "sortOrder": 15,
+          "sortOrder": 13,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-13T18:02:18.5032089Z",
-          "updatedUtc": "2026-10-15T21:34:02.7470858Z"
-        },
-        {
-          "id": "5536617d-a390-461a-8f22-9dd629833250",
-          "friendlyName": "Song Knight 1",
-          "inGameId": "\u0022Black Thread States\u0022[0]/\u0022Normal World\u0022[0]/\u0022Scene States\u0022[0]/\u0022Battle Scene\u0022[0]/\u0022Song Knight Control\u0022[0]/\u0022Song Knight Present\u0022[0]/\u0022Song Knight BattleEncounter\u0022[0]",
-          "inGamePositionX": 57.96,
-          "inGamePositionY": 4.95,
-          "inGamePositionZ": 0.0059,
-          "localPositionX": 57.96,
-          "localPositionY": 4.95,
-          "localPositionZ": 0.0059,
-          "annotationSceneUnitX": 57.96,
-          "annotationSceneUnitY": 4.95,
-          "subroomReferenceText": "Gauntlet",
-          "requirements": "Normal World Spawn\nAND defeat Gauntlet Fight",
-          "notes": "Spawn conditions: songChevalierActiveInSong_04=true, songChevalierSeenInSong_04=false, songChevalierEncounterCooldown=false, songChevalierQuestReady=false\nFSM Boolean flags: encounteredSongChevalierBoss",
-          "locationType": "enemy",
-          "enableAnnotation": true,
-          "sortOrder": 16,
-          "isTodo": false,
-          "isVerified": true,
-          "isArchived": false,
-          "archivedUtc": null,
-          "createdUtc": "2026-10-13T18:02:18.5032089Z",
-          "updatedUtc": "2026-10-16T00:39:54.079404Z"
+          "updatedUtc": "2026-10-17T23:32:03.6564094Z"
         },
         {
           "id": "864918ab-b58d-4f90-9710-d645a8d037d9",
@@ -110166,13 +110241,13 @@
           "notes": "",
           "locationType": "gauntlet",
           "enableAnnotation": true,
-          "sortOrder": 16,
+          "sortOrder": 14,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-13T18:02:18.5032089Z",
-          "updatedUtc": "2026-10-15T21:34:02.7470858Z"
+          "updatedUtc": "2026-10-17T23:32:03.6564094Z"
         },
         {
           "id": "f38bfe2d-7e42-4044-acee-ac826245954f",
@@ -110191,13 +110266,13 @@
           "notes": "",
           "locationType": "gauntlet",
           "enableAnnotation": true,
-          "sortOrder": 17,
+          "sortOrder": 15,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-13T18:02:18.5032089Z",
-          "updatedUtc": "2026-10-15T21:34:02.7470858Z"
+          "updatedUtc": "2026-10-17T23:32:03.6564094Z"
         },
         {
           "id": "77ee299e-82a9-453a-9476-5c0c12bf36e3",
@@ -110212,17 +110287,17 @@
           "annotationSceneUnitX": 65.91,
           "annotationSceneUnitY": 4.88,
           "subroomReferenceText": "Gauntlet",
-          "requirements": "Normal World Spawn\nAND defeat Gauntlet Fight",
+          "requirements": "Normal World Spawn\nAND prereq Second Sentinel Encounter",
           "notes": "Spawn conditions: songChevalierActiveInSong_04=true, songChevalierSeenInSong_04=false, songChevalierEncounterCooldown=false, songChevalierQuestReady=false",
           "locationType": "enemy",
           "enableAnnotation": true,
-          "sortOrder": 18,
+          "sortOrder": 16,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-13T18:02:18.5032089Z",
-          "updatedUtc": "2026-10-16T00:39:51.4297244Z"
+          "updatedUtc": "2026-10-17T23:32:03.6564094Z"
         },
         {
           "id": "dc62dbcb-7653-424c-a783-fc3cc089629e",
@@ -110237,17 +110312,17 @@
           "annotationSceneUnitX": 50.82,
           "annotationSceneUnitY": 9.85,
           "subroomReferenceText": "Gauntlet",
-          "requirements": "Normal World Spawn\nAND defeat Gauntlet Fight",
+          "requirements": "Normal World Spawn\nAND prereq Second Sentinel Encounter",
           "notes": "Spawn conditions: songChevalierActiveInSong_04=true, songChevalierSeenInSong_04=false, songChevalierEncounterCooldown=false, songChevalierQuestReady=false",
           "locationType": "enemy",
           "enableAnnotation": true,
-          "sortOrder": 18,
+          "sortOrder": 17,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-13T18:02:18.5032089Z",
-          "updatedUtc": "2026-10-16T00:39:48.0008783Z"
+          "updatedUtc": "2026-10-17T23:32:03.6564094Z"
         },
         {
           "id": "affe6b01-49f9-4469-b3bb-9d9622181fcf",
@@ -110266,13 +110341,38 @@
           "notes": "",
           "locationType": "enemy",
           "enableAnnotation": true,
-          "sortOrder": 20,
+          "sortOrder": 18,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-13T18:02:18.5032089Z",
-          "updatedUtc": "2026-10-15T21:40:20.3663011Z"
+          "updatedUtc": "2026-10-17T23:32:03.6564094Z"
+        },
+        {
+          "id": "007f3c9a-50b0-4802-8f2b-4d87bffafe98",
+          "friendlyName": "Gauntlet Fight",
+          "inGameId": null,
+          "inGamePositionX": null,
+          "inGamePositionY": null,
+          "inGamePositionZ": null,
+          "localPositionX": null,
+          "localPositionY": null,
+          "localPositionZ": null,
+          "annotationSceneUnitX": 56.556541442871094,
+          "annotationSceneUnitY": 10.026233673095703,
+          "subroomReferenceText": "Gauntlet",
+          "requirements": "Normal World Spawn",
+          "notes": "",
+          "locationType": "gauntlet",
+          "enableAnnotation": true,
+          "sortOrder": 19,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-10-15T21:33:23.1499986Z",
+          "updatedUtc": "2026-10-17T23:32:03.6564094Z"
         }
       ]
     },
@@ -135661,7 +135761,7 @@
           "friendlyName": "Bottom to Section 1",
           "sourceSubroomReferenceText": "Bottom",
           "destinationSubroomReferenceText": "Section 1",
-          "requirements": "silk soar OR (faydown cloak AND (ledge grab both OR easy Shaman pogo OR scuttlebrace OR cling grip left OR (easy Damage boost off Choir pouncer AND (easy heal stall OR easy voltvessels stall OR easy plasmium phial stall OR easy flintslate stall  )))) OR (cling grip both AND (dash right OR drifter\u0027s cloak OR scuttlebrace OR clawline right OR sharpdart OR (ledge grab right AND (easy heal stall OR easy voltvessels stall OR easy plasmium phial stall OR easy flintslate stall)))) OR (ACT 3 AND easy pogo off Choir Elder)",
+          "requirements": "silk soar OR (faydown cloak AND (cling grip left OR easy Shaman pogo OR scuttlebrace OR (ledge grab right AND easy Damage boost off Choir pouncer AND (easy heal stall OR easy voltvessels stall OR easy plasmium phial stall OR easy flintslate stall  )) OR ledge grab left)) OR (cling grip both AND (dash right OR drifter\u0027s cloak OR scuttlebrace OR clawline right OR sharpdart OR (ledge grab right AND (easy heal stall OR easy voltvessels stall OR easy plasmium phial stall OR easy flintslate stall)))) OR (scuttlebrace AND (sharpdart OR clawline right)) OR (ACT 3 AND easy pogo off Choir Elder)",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 17.763959884643555,
@@ -135672,7 +135772,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-12T14:00:08.0476198Z",
-          "updatedUtc": "2026-10-16T16:11:50.4119146Z"
+          "updatedUtc": "2026-10-17T15:31:18.0846038Z"
         },
         {
           "id": "182a2194-0f19-460f-af4b-97c7f2a39b09",
@@ -135699,7 +135799,7 @@
           "friendlyName": "Section 1 to Section 2",
           "sourceSubroomReferenceText": "Section 1",
           "destinationSubroomReferenceText": "Section 2",
-          "requirements": "ledge grab right OR silk soar OR faydown cloak OR (easy hazard respawn AND easy [Hunter, Reaper, Beast, Architect,Shaman] pogo) OR easy pogo off Choir pouncer",
+          "requirements": "ledge grab right OR silk soar OR faydown cloak OR (easy hazard respawn AND easy [Hunter, Reaper, Beast, Architect,Shaman] pogo) OR easy pogo off Choir pouncer OR scuttlebrace",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 18.58794593811035,
@@ -135710,7 +135810,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-12T14:01:51.5106869Z",
-          "updatedUtc": "2026-10-16T16:54:55.1221602Z"
+          "updatedUtc": "2026-10-17T15:33:26.0702317Z"
         },
         {
           "id": "c8eb66c6-6c68-4176-89c2-e922a4333044",
@@ -135737,7 +135837,7 @@
           "friendlyName": "Section 2 to Section 3",
           "sourceSubroomReferenceText": "Section 2",
           "destinationSubroomReferenceText": "Section 3",
-          "requirements": "silk soar OR cling grip left OR (faydown cloak AND (scuttlebrace OR ledge grab either OR easy pogo off Choir flyer))",
+          "requirements": "silk soar OR cling grip left OR scuttlebrace OR (faydown cloak AND (cling grip right OR ledge grab either OR easy pogo off Choir flyer OR easy damage boost off Choir Flyer))",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 18.27489471435547,
@@ -135748,7 +135848,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-12T14:07:36.0534882Z",
-          "updatedUtc": "2026-10-16T16:55:13.1865018Z"
+          "updatedUtc": "2026-10-17T15:38:03.8815562Z"
         },
         {
           "id": "66d0e91c-1623-4f6c-82ec-e4697c0af23d",
@@ -135832,7 +135932,7 @@
           "friendlyName": "Section 3 to Section 4 Right",
           "sourceSubroomReferenceText": "Section 3",
           "destinationSubroomReferenceText": "Section 4 Right",
-          "requirements": "silk soar OR spike pogo OR cling grip left OR (faydown cloak AND ledge grab right) ",
+          "requirements": "silk soar OR spike pogo OR cling grip left OR (faydown cloak AND ledge grab right) OR scuttlebrace",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 27.509885787963867,
@@ -135843,7 +135943,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-12T14:09:50.3019568Z",
-          "updatedUtc": "2026-10-16T16:56:08.8771132Z"
+          "updatedUtc": "2026-10-17T15:38:50.950121Z"
         },
         {
           "id": "341407de-1637-442e-ab8f-3c5303d0bb2a",
@@ -182961,7 +183061,7 @@
           "friendlyName": "Vertical",
           "sourceSubroomReferenceText": "Base",
           "destinationSubroomReferenceText": "Maintenance Tunnel",
-          "requirements": "silk soar OR (faydown cloak AND cling grip either AND easy pogo off Reed)",
+          "requirements": "silk soar OR (faydown cloak AND easy pogo off Reed AND (cling grip either OR scuttlebrace))",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 43.32834243774414,
@@ -182972,7 +183072,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-12T15:50:36.4171691Z",
-          "updatedUtc": "2026-10-15T22:02:39.9961604Z"
+          "updatedUtc": "2026-10-17T15:41:42.5449962Z"
         },
         {
           "id": "f82c73b7-0750-4a4b-8733-aff297e62ae5",
@@ -182980,7 +183080,7 @@
           "friendlyName": "Vertical",
           "sourceSubroomReferenceText": "Maintenance Tunnel",
           "destinationSubroomReferenceText": "Base",
-          "requirements": "silk soar OR cling grip either",
+          "requirements": "silk soar OR cling grip either OR scuttlebrace",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 43.32834243774414,
@@ -182991,7 +183091,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-12T15:50:48.3769278Z",
-          "updatedUtc": "2026-10-15T22:03:33.8528527Z"
+          "updatedUtc": "2026-10-17T15:42:09.6728587Z"
         }
       ],
       "checks": [
@@ -188566,7 +188666,7 @@
           "friendlyName": "Vertical Base",
           "sourceSubroomReferenceText": "Base Bottom",
           "destinationSubroomReferenceText": "Base Middle",
-          "requirements": "(cling grip left AND (dash left OR clawline left OR sharpdart)) OR easy pogo off Choir flyer OR (faydown cloak AND (ledge grab either OR easy Shaman pogo OR (scuttlebrace AND cling grip right))) OR silk soar ",
+          "requirements": "(cling grip left AND (dash left OR clawline left OR sharpdart)) OR easy pogo off Choir flyer OR (faydown cloak AND (ledge grab either OR easy Shaman pogo OR scuttlebrace OR cling grip right)) OR silk soar OR (scuttlebrace AND clawline both)",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 24.220272064208984,
@@ -188577,7 +188677,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-16T19:03:38.2934062Z",
-          "updatedUtc": "2026-10-16T19:27:48.8396497Z"
+          "updatedUtc": "2026-10-17T15:48:51.3991795Z"
         },
         {
           "id": "a7bac45d-14d3-4d38-babe-83645ec00084",
@@ -188604,7 +188704,7 @@
           "friendlyName": "Vertical Middle",
           "sourceSubroomReferenceText": "Base Middle",
           "destinationSubroomReferenceText": "Base Upper Right",
-          "requirements": "faydown cloak OR easy enemy pogo off [Choir hornhead] OR (Dash right AND ledge grab right) OR (run AND (ledge grab right OR easy Damage boost off Choir hornhead OR (easy Damage boost off Choir pouncer AND (easy heal stall OR easy voltvessels stall OR easy plasmium phial stall OR easy flintslate stall)))) OR silk soar OR scuttlebrace",
+          "requirements": "faydown cloak OR hard pogo off [Choir hornhead, Choir Pouncer] OR ((Dash right OR sharpdart OR clawline right) AND ledge grab right) OR (run AND (ledge grab right OR easy Damage boost off Choir hornhead OR (easy Damage boost off Choir pouncer AND (easy heal stall OR easy voltvessels stall OR easy plasmium phial stall OR easy flintslate stall)))) OR silk soar OR scuttlebrace OR (clawline right AND easy damage boost off [Choir Hornhead,Choir pouncer]) ",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 35.27619171142578,
@@ -188615,7 +188715,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-12T16:17:07.9158932Z",
-          "updatedUtc": "2026-10-16T20:17:29.5673506Z"
+          "updatedUtc": "2026-10-17T15:57:42.6236565Z"
         },
         {
           "id": "3ee60c97-4793-4f18-86b4-57f90f36d78a",
@@ -188642,7 +188742,7 @@
           "friendlyName": "Base Upper Traversal ",
           "sourceSubroomReferenceText": "Base Upper Right",
           "destinationSubroomReferenceText": "Base Upper Left",
-          "requirements": "faydown cloak OR silk soar OR ((run OR clawline left OR sharpdart) AND ledge grab left) OR scuttlebrace",
+          "requirements": "faydown cloak OR silk soar OR ((clawline left OR sharpdart) AND (easy shaman pogo OR ledge grab left)) OR (run AND ledge grab left) OR scuttlebrace ",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 23.24104118347168,
@@ -188653,7 +188753,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-16T19:43:10.9886415Z",
-          "updatedUtc": "2026-10-16T19:51:50.9678296Z"
+          "updatedUtc": "2026-10-17T16:18:30.1155362Z"
         },
         {
           "id": "6b7a978f-180f-4600-8470-0b0102965293",
@@ -188680,7 +188780,7 @@
           "friendlyName": "Vertical Lever",
           "sourceSubroomReferenceText": "Base Upper Left",
           "destinationSubroomReferenceText": "Top Section 1",
-          "requirements": "activate Lever Flea shaft AND ((easy pogo off Choir Elder) OR faydown cloak OR silk soar OR cling grip right)",
+          "requirements": "activate Lever Flea shaft AND ((easy pogo off Choir Elder) OR faydown cloak OR silk soar OR cling grip right OR scuttlebrace)",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 14.731831550598145,
@@ -188691,7 +188791,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-16T19:52:31.6316616Z",
-          "updatedUtc": "2026-10-16T20:00:28.6502359Z"
+          "updatedUtc": "2026-10-17T16:23:39.6713999Z"
         },
         {
           "id": "58f461e1-9a41-4e62-a4e4-cdd398c9f816",
@@ -188718,7 +188818,7 @@
           "friendlyName": "Section 1 to Section 2",
           "sourceSubroomReferenceText": "Top Section 1",
           "destinationSubroomReferenceText": "Top Section 2",
-          "requirements": "silk soar OR (cling grip left AND (faydown cloak OR cling grip right OR (easy  pogo off Choir Flyer AND easy heal stall))) OR (faydown cloak AND ledge grab left AND easy pogo off Choir Elder AND spike pogo) OR (easy  pogo off [Choir Flyer, Choir Elder] AND easy heal stall AND spike pogo AND ledge grab either)",
+          "requirements": "silk soar OR (cling grip left AND (faydown cloak OR cling grip right OR (easy  pogo off Choir Flyer AND easy heal stall))) OR (faydown cloak AND ledge grab left AND easy pogo off Choir Elder AND spike pogo) OR (easy  pogo off [Choir Flyer, Choir Elder] AND easy heal stall AND spike pogo AND ledge grab either) OR (scuttlebrace AND (drifter\u0027s cloak OR clawline left OR sharpdart OR easy pogo off [Choir Flyer, Choir Elder])) ",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 20.337173461914062,
@@ -188729,7 +188829,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-12T16:32:33.0840769Z",
-          "updatedUtc": "2026-10-16T20:17:05.94935Z"
+          "updatedUtc": "2026-10-17T16:30:56.0289441Z"
         },
         {
           "id": "83c5b0b4-bd4d-4a7a-940c-50aa299dbd2d",
@@ -188756,7 +188856,7 @@
           "friendlyName": "Section 2 to Section 3 Left",
           "sourceSubroomReferenceText": "Top Section 2",
           "destinationSubroomReferenceText": "Top Section 3 Left",
-          "requirements": "(silk soar AND (ledge grab left OR clawline left OR dash left OR sharpdart OR faydown cloak OR drifter\u0027s cloak OR scuttlebrace OR easy pogo off Choir Flyer)) OR (cling grip left AND spike pogo) OR (cling grip right AND (ledge grab left OR easy pogo off Choir Flyer OR scuttlebrace OR faydown cloak))",
+          "requirements": "(silk soar AND (ledge grab left OR clawline left OR dash left OR sharpdart OR faydown cloak OR drifter\u0027s cloak OR scuttlebrace OR easy pogo off Choir Flyer)) OR (cling grip left AND spike pogo) OR (cling grip right AND (ledge grab left OR easy pogo off Choir Flyer OR scuttlebrace OR faydown cloak)) OR (scuttlebrace AND ((drifter\u0027s cloak AND spike pogo) OR sharpdart x 2 OR (sharpdart AND clawline either) OR clawline both))",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 22.904809951782227,
@@ -188767,7 +188867,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-12T16:34:38.8594885Z",
-          "updatedUtc": "2026-10-16T20:43:53.4048554Z"
+          "updatedUtc": "2026-10-17T16:41:28.1310134Z"
         },
         {
           "id": "77bdf8b1-3421-4fe2-a29d-5b0204931c8c",
@@ -192523,8 +192623,8 @@
           "localPositionX": 0,
           "localPositionY": 10,
           "localPositionZ": 0,
-          "annotationSceneUnitX": 0,
-          "annotationSceneUnitY": 10,
+          "annotationSceneUnitX": -1.4027856588363647,
+          "annotationSceneUnitY": 7.133264064788818,
           "enableAnnotation": true,
           "sourceSubroomReferenceText": "Bottom",
           "destinationRoomReferenceText": "choral chambers flea shaft",
@@ -192537,7 +192637,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-12T21:45:15.1678918Z",
-          "updatedUtc": "2026-10-16T00:49:31.7987213Z",
+          "updatedUtc": "2026-10-15T22:55:10.7565294Z",
           "isUnsafeArrival": false
         },
         {
@@ -192632,18 +192732,18 @@
           "friendlyName": "Vertical",
           "sourceSubroomReferenceText": "Bottom",
           "destinationSubroomReferenceText": "Top",
-          "requirements": "silk soar OR (cling grip OR ledge grab) OR faydown cloak",
+          "requirements": "silk soar OR ledge grab right OR faydown cloak OR (easy pogo off Grand Reed AND (cling grip either OR easy shaman pogo OR scuttlebrace))",
           "notes": "",
           "enableAnnotation": true,
-          "sceneUnitX": 26.94320297241211,
-          "sceneUnitY": 17.485637664794922,
+          "sceneUnitX": null,
+          "sceneUnitY": null,
           "sortOrder": 0,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-13T21:46:20.8715122Z",
-          "updatedUtc": "2026-10-16T00:49:52.9032164Z"
+          "updatedUtc": "2026-10-17T16:51:18.0890948Z"
         },
         {
           "id": "835dd704-873d-4b64-8b9a-50bdcf75db09",
@@ -192654,15 +192754,15 @@
           "requirements": "none",
           "notes": "falling",
           "enableAnnotation": true,
-          "sceneUnitX": 26.94320297241211,
-          "sceneUnitY": 17.485637664794922,
+          "sceneUnitX": null,
+          "sceneUnitY": null,
           "sortOrder": 1,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-13T21:47:13.4283257Z",
-          "updatedUtc": "2026-10-16T00:49:52.9032164Z"
+          "updatedUtc": "2026-10-15T03:18:38.867945Z"
         }
       ],
       "checks": [
@@ -200480,7 +200580,7 @@
         },
         {
           "id": "e54aed5d-25ca-4209-b377-8c877e377a7f",
-          "friendlyName": "Reed\u0027s Personal Chest",
+          "friendlyName": "Reed\u0027s personal chest",
           "inGameId": null,
           "inGamePositionX": null,
           "inGamePositionY": null,
@@ -200491,7 +200591,7 @@
           "annotationSceneUnitX": 34.780879974365234,
           "annotationSceneUnitY": 101.11747741699219,
           "subroomReferenceText": "",
-          "requirements": "easy enemy pogo off [Choristor, Choir Pouncer, Envoy] \nOR ledge grab either \nOR cling grip either \nOR silk soar \nOR faydown cloak",
+          "requirements": "easy enemy pogo off [Choristor, Choir pouncer, Envoy] OR ledge grab either OR cling grip either OR silk soar OR faydown cloak OR scuttlebrace",
           "notes": "rosary chest",
           "locationType": "collectible",
           "enableAnnotation": true,
@@ -200501,7 +200601,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-14T12:57:09.4354397Z",
-          "updatedUtc": "2026-10-17T06:43:06.2726842Z"
+          "updatedUtc": "2026-10-17T16:52:47.0943931Z"
         },
         {
           "id": "a747d230-9689-436f-b305-c24a74dc5980",
@@ -203917,7 +204017,7 @@
           "friendlyName": "Vertical",
           "sourceSubroomReferenceText": "Base",
           "destinationSubroomReferenceText": "Top",
-          "requirements": "cling grip OR faydown cloak OR silk soar OR (easy shaman pogo AND (easy pogo off Choir pouncer OR easy hazard respawn) AND easy pogo off Choir Flyer) OR (ledge grab AND easy pogo off Choir Flyer)",
+          "requirements": "cling grip either OR faydown cloak OR silk soar OR (easy shaman pogo AND (easy pogo off [Choir Hornhead, Choir pouncer] OR easy hazard respawn) AND easy pogo off Choir Flyer) OR (ledge grab either AND easy pogo off Choir Flyer) OR (scuttlebrace AND (easy pogo off [Choir Hornhead, Choir pouncer] OR easy hazard respawn))",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 39.17218780517578,
@@ -203928,7 +204028,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-12T22:49:09.1972688Z",
-          "updatedUtc": "2026-10-15T03:20:59.7762414Z"
+          "updatedUtc": "2026-10-17T17:02:14.3797402Z"
         },
         {
           "id": "cf4ad6ac-dc1a-48b8-b83d-643f39f8d897",
@@ -204003,7 +204103,7 @@
         },
         {
           "id": "5b4f6765-0b84-448e-a9ce-dd0427fa0efc",
-          "friendlyName": "Mergwin\u0027s hidden stach",
+          "friendlyName": "Mergwin\u0027s hidden stash",
           "inGameId": null,
           "inGamePositionX": null,
           "inGamePositionY": null,
@@ -204024,7 +204124,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-12T22:45:02.3305544Z",
-          "updatedUtc": "2026-10-16T23:45:01.5607143Z"
+          "updatedUtc": "2026-10-17T15:00:51.6143863Z"
         },
         {
           "id": "e315bdcf-fff9-4c01-9ad8-6bf260926614",
@@ -208071,7 +208171,7 @@
           "friendlyName": "Vertical",
           "sourceSubroomReferenceText": "Below Diner",
           "destinationSubroomReferenceText": "Diner",
-          "requirements": "((cling grip left OR silk soar) AND Activate Lever - Dining #1) OR (cling grip right AND Activate Lever - Dining #2)",
+          "requirements": "((cling grip left OR silk soar) AND Activate Lever - Dining #1) OR ((scuttlebrace OR cling grip right) AND Activate Lever - Dining #2)",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": null,
@@ -208082,7 +208182,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-14T14:20:36.6377963Z",
-          "updatedUtc": "2026-10-16T18:12:45.5474822Z"
+          "updatedUtc": "2026-10-17T17:11:43.6580829Z"
         }
       ],
       "checks": [
@@ -215517,7 +215617,7 @@
           "friendlyName": "Section 2 to Section 3",
           "sourceSubroomReferenceText": "Section 2",
           "destinationSubroomReferenceText": "Section 3",
-          "requirements": "silk soar OR (cling grip  right AND (scuttlebrace OR ledge grab left OR (clawline right AND spike pogo))) OR (easy pogo off Choir pouncer AND ((easy pogo off Reed AND (easy heal stall OR easy voltvessels stall OR easy plasmium phial stall OR easy flintslate stall )AND easy damage boost) OR (easy Shaman pogo AND easy pogo off Reed))) OR (faydown cloak AND cling grip left)",
+          "requirements": "silk soar OR (cling grip  right AND (ledge grab left OR (clawline right AND spike pogo))) OR (easy pogo off Choir pouncer AND ((easy pogo off Reed AND (easy heal stall OR easy voltvessels stall OR easy plasmium phial stall OR easy flintslate stall )AND easy damage boost) OR (easy Shaman pogo AND easy pogo off Reed))) OR (faydown cloak AND cling grip left) OR scuttlebrace",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 33.08318328857422,
@@ -215528,7 +215628,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-13T23:32:41.1390039Z",
-          "updatedUtc": "2026-10-16T21:53:53.3458075Z"
+          "updatedUtc": "2026-10-17T17:22:00.4440904Z"
         },
         {
           "id": "89f1801b-443f-451f-ae35-fe0f6359ae81",
@@ -215593,7 +215693,7 @@
           "friendlyName": "Section 3 to Section 4",
           "sourceSubroomReferenceText": "Section 3",
           "destinationSubroomReferenceText": "Section 4",
-          "requirements": "(ledge grab right AND (spike pogo OR ledge grab left OR easy pogo off [Choir bellbearer, Reed, Choristor] )) OR (clawline right AND (spike pogo OR ledge grab left)) OR silk soar OR easy pogo off [Choir pouncer,Reed, Choristor] OR easy [Wanderer,Reaper,Beast,Witch,Architect, Shaman] pogo",
+          "requirements": "(ledge grab right AND (spike pogo OR ledge grab left OR easy pogo off [Choir bellbearer, Reed, Choristor] )) OR (clawline right AND (spike pogo OR ledge grab left)) OR silk soar OR easy pogo off [Choir pouncer,Reed, Choristor] OR easy [Wanderer,Reaper,Beast,Witch,Architect, Shaman] pogo OR (scuttlebrace AND (easy damage boost off [Choir Bellbearer, Reed, Choristor] OR spike pogo))",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 34.954891204833984,
@@ -215604,7 +215704,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-13T23:39:29.4185722Z",
-          "updatedUtc": "2026-10-16T21:54:09.1690462Z"
+          "updatedUtc": "2026-10-17T17:19:42.2668653Z"
         },
         {
           "id": "cc04f932-703d-461f-be47-1a2840826ef6",
@@ -217959,7 +218059,7 @@
       "referenceId": "choral chambers merchant room",
       "friendlyName": "Choral Chambers Merchant Room",
       "inGameId": "Song_07",
-      "contributors": "samupo",
+      "contributors": "samupo, Gallos",
       "comments": null,
       "sceneMinX": 1,
       "sceneMinY": 0,
@@ -217977,7 +218077,7 @@
       "isArchived": false,
       "archivedUtc": null,
       "createdUtc": "2026-08-13T23:49:25.797973Z",
-      "updatedUtc": "2026-10-14T13:42:45.3983276Z",
+      "updatedUtc": "2026-10-16T18:48:07.5646277Z",
       "subrooms": [],
       "transitions": [
         {
@@ -218012,31 +218112,6 @@
       "connections": [],
       "checks": [
         {
-          "id": "e3a7787f-155e-48aa-8398-8b86ba49b9ee",
-          "friendlyName": "Rosary Cache: Choral Chambers #10",
-          "inGameId": "Collectable Item Pickup",
-          "inGamePositionX": 3.83,
-          "inGamePositionY": 4.27749872,
-          "inGamePositionZ": 0,
-          "localPositionX": 3.83,
-          "localPositionY": 4.27749872,
-          "localPositionZ": 0,
-          "annotationSceneUnitX": 5.384228706359863,
-          "annotationSceneUnitY": 7.310854911804199,
-          "subroomReferenceText": null,
-          "requirements": "cling grip either",
-          "notes": "",
-          "locationType": "collectible",
-          "enableAnnotation": true,
-          "sortOrder": 0,
-          "isTodo": false,
-          "isVerified": true,
-          "isArchived": false,
-          "archivedUtc": null,
-          "createdUtc": "2026-08-13T23:49:25.797973Z",
-          "updatedUtc": "2026-10-15T22:59:52.6113906Z"
-        },
-        {
           "id": "e56c43f4-f833-4b65-bdf1-2f9383ea42a6",
           "friendlyName": "Rosary Necklace - Choral Chambers #1",
           "inGameId": null,
@@ -218053,13 +218128,38 @@
           "notes": "",
           "locationType": "collectible",
           "enableAnnotation": true,
-          "sortOrder": 1,
+          "sortOrder": 0,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-14T13:38:03.0826523Z",
-          "updatedUtc": "2026-10-15T22:59:57.6835215Z"
+          "updatedUtc": "2026-10-16T23:28:20.8937558Z"
+        },
+        {
+          "id": "e3a7787f-155e-48aa-8398-8b86ba49b9ee",
+          "friendlyName": "Merchant\u0027s funds",
+          "inGameId": "Collectable Item Pickup",
+          "inGamePositionX": 3.83,
+          "inGamePositionY": 4.27749872,
+          "inGamePositionZ": 0,
+          "localPositionX": 3.83,
+          "localPositionY": 4.27749872,
+          "localPositionZ": 0,
+          "annotationSceneUnitX": 3.83,
+          "annotationSceneUnitY": 4.27749872,
+          "subroomReferenceText": null,
+          "requirements": "cling grip either",
+          "notes": "rosary cache",
+          "locationType": "collectible",
+          "enableAnnotation": true,
+          "sortOrder": 1,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-08-13T23:49:25.797973Z",
+          "updatedUtc": "2026-10-16T23:45:43.3075885Z"
         },
         {
           "id": "2fa88520-47ed-431a-8352-2ea585cb0c29",
@@ -218112,6 +218212,31 @@
           "updatedUtc": "2026-10-17T06:38:37.3787985Z"
         },
         {
+          "id": "e6d7027e-111d-489d-87ad-600753025239",
+          "friendlyName": "Choristor 1",
+          "inGameId": "\u0022City Merchant Scene\u0022[0]/\u0022Scene\u0022[0]/\u0022Battle Scene\u0022[0]/\u0022Wave 1\u0022[0]/\u0022Song Pilgrim 03\u0022[0]",
+          "inGamePositionX": 40.585228,
+          "inGamePositionY": 4.8613987,
+          "inGamePositionZ": 0,
+          "localPositionX": -57.76,
+          "localPositionY": -25.72,
+          "localPositionZ": 0,
+          "annotationSceneUnitX": 40.585228,
+          "annotationSceneUnitY": 4.8613987,
+          "subroomReferenceText": null,
+          "requirements": "prereq THE The Wandering Merchant Wish Promised",
+          "notes": "Spawn conditions: Save City Merchant accepted=true, Save City Merchant completed=false",
+          "locationType": "enemy",
+          "enableAnnotation": true,
+          "sortOrder": 4,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-10-14T06:37:44.0567712Z",
+          "updatedUtc": "2026-10-16T23:28:20.8937558Z"
+        },
+        {
           "id": "e9742e90-8039-4b71-bae4-dfa981e1b9ad",
           "friendlyName": "import enemies",
           "inGameId": null,
@@ -218137,31 +218262,6 @@
           "updatedUtc": "2026-10-15T22:59:01.5195318Z"
         },
         {
-          "id": "e6d7027e-111d-489d-87ad-600753025239",
-          "friendlyName": "Choristor 1",
-          "inGameId": "\u0022City Merchant Scene\u0022[0]/\u0022Scene\u0022[0]/\u0022Battle Scene\u0022[0]/\u0022Wave 1\u0022[0]/\u0022Song Pilgrim 03\u0022[0]",
-          "inGamePositionX": 40.585228,
-          "inGamePositionY": 4.8613987,
-          "inGamePositionZ": 0,
-          "localPositionX": -57.76,
-          "localPositionY": -25.72,
-          "localPositionZ": 0,
-          "annotationSceneUnitX": 40.585228,
-          "annotationSceneUnitY": 4.8613987,
-          "subroomReferenceText": null,
-          "requirements": "prereq THE The Wandering Merchant Wish Promised",
-          "notes": "Spawn conditions: Save City Merchant accepted=true, Save City Merchant completed=false",
-          "locationType": "enemy",
-          "enableAnnotation": true,
-          "sortOrder": 5,
-          "isTodo": false,
-          "isVerified": true,
-          "isArchived": false,
-          "archivedUtc": null,
-          "createdUtc": "2026-10-14T06:37:44.0567712Z",
-          "updatedUtc": "2026-10-15T23:00:17.3251799Z"
-        },
-        {
           "id": "a32d4c2d-875b-4438-8006-3904680ad55d",
           "friendlyName": "Envoy 1",
           "inGameId": "\u0022City Merchant Scene\u0022[0]/\u0022Scene\u0022[0]/\u0022Battle Scene\u0022[0]/\u0022Wave 1\u0022[0]/\u0022Song Pilgrim 01\u0022[0]",
@@ -218178,13 +218278,13 @@
           "notes": "Spawn conditions: Save City Merchant accepted=true, Save City Merchant completed=false",
           "locationType": "enemy",
           "enableAnnotation": true,
-          "sortOrder": 6,
+          "sortOrder": 5,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-14T06:37:44.0567712Z",
-          "updatedUtc": "2026-10-15T23:00:20.0822326Z"
+          "updatedUtc": "2026-10-16T23:28:20.8937558Z"
         }
       ]
     },
@@ -223643,6 +223743,31 @@
       ],
       "checks": [
         {
+          "id": "7e6c8111-ec5c-4c07-88f2-95c412d21f1a",
+          "friendlyName": "Below dining bench",
+          "inGameId": null,
+          "inGamePositionX": null,
+          "inGamePositionY": null,
+          "inGamePositionZ": null,
+          "localPositionX": null,
+          "localPositionY": null,
+          "localPositionZ": null,
+          "annotationSceneUnitX": 16.566465377807617,
+          "annotationSceneUnitY": 53.466121673583984,
+          "subroomReferenceText": "Top",
+          "requirements": "none",
+          "notes": "",
+          "locationType": "bench",
+          "enableAnnotation": true,
+          "sortOrder": 0,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-10-17T17:05:38.641882Z",
+          "updatedUtc": "2026-10-17T17:05:56.8816334Z"
+        },
+        {
           "id": "a15ad120-b3e1-4eb3-9fc4-b3fc913125eb",
           "friendlyName": "import enemies",
           "inGameId": null,
@@ -225201,18 +225326,18 @@
           "friendlyName": "Horizontal",
           "sourceSubroomReferenceText": "Right",
           "destinationSubroomReferenceText": "Left",
-          "requirements": "cling grip either OR silk soar OR (easy shaman pogo AND easy pogo off [Envoy, Drapemite] AND faydown cloak)",
+          "requirements": "cling grip either OR silk soar OR (easy shaman pogo AND easy pogo off [Envoy, Drapemite] AND faydown cloak) OR scuttlebrace",
           "notes": "",
           "enableAnnotation": true,
-          "sceneUnitX": 89.67096710205078,
-          "sceneUnitY": 4.044561862945557,
+          "sceneUnitX": 89.72816467285156,
+          "sceneUnitY": 12.270602226257324,
           "sortOrder": 0,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-14T19:43:06.9446131Z",
-          "updatedUtc": "2026-10-17T06:18:28.334461Z"
+          "updatedUtc": "2026-10-17T17:30:08.991153Z"
         },
         {
           "id": "73bf0f24-c296-4cd5-8a34-2ec4e9a40b87",
@@ -225220,18 +225345,18 @@
           "friendlyName": "Horizontal",
           "sourceSubroomReferenceText": "Left",
           "destinationSubroomReferenceText": "Right",
-          "requirements": "ledge grab left OR faydown cloak OR silk soar OR easy shaman pogo OR (easy pogo off Drapemite AND medium damage boost off Choir Bellbearer)",
+          "requirements": "ledge grab left OR faydown cloak OR silk soar OR easy shaman pogo OR (easy pogo off Drapemite AND medium damage boost off Choir Bellbearer) OR scuttlebrace",
           "notes": "",
           "enableAnnotation": true,
-          "sceneUnitX": 89.67096710205078,
-          "sceneUnitY": 4.044561862945557,
+          "sceneUnitX": 89.72816467285156,
+          "sceneUnitY": 12.270602226257324,
           "sortOrder": 1,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-14T19:43:19.9962153Z",
-          "updatedUtc": "2026-10-17T06:18:28.334461Z"
+          "updatedUtc": "2026-10-17T17:30:08.991153Z"
         }
       ],
       "checks": [
@@ -232959,7 +233084,7 @@
           "friendlyName": "Vertical",
           "sourceSubroomReferenceText": "Bottom Left",
           "destinationSubroomReferenceText": "Top",
-          "requirements": "silk soar OR ((ledge grab OR cling grip) AND faydown cloak) OR ((Dash OR easy Shaman pogo) AND cling grip) OR (ledge grab AND easy pogo off Reed AND easy damage boost)",
+          "requirements": "silk soar OR (ledge grab both AND easy pogo off Reed AND easy damage boost off Reed) OR (ledge grab left AND scuttlebrace) OR (faydown cloak AND ((easy pogo off Reed AND easy damage boost off Reed) OR scuttlebrace OR ledge grab either)) OR (cling grip right AND (ledge grab left OR cling grip left)) OR (cling grip left AND ledge grab right)",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 20.071958541870117,
@@ -232970,7 +233095,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-14T20:27:26.909614Z",
-          "updatedUtc": "2026-10-15T00:18:31.6417717Z"
+          "updatedUtc": "2026-10-17T17:43:13.4262796Z"
         },
         {
           "id": "f154afb9-4657-46be-bfbc-b9698ee91fa4",
@@ -233016,8 +233141,8 @@
           "friendlyName": "Vertical2",
           "sourceSubroomReferenceText": "Bottom Left",
           "destinationSubroomReferenceText": "Bottom Right",
-          "requirements": "none",
-          "notes": "falling",
+          "requirements": "(cling grip right AND (ledge grab left OR cling grip left)) OR (cling grip left AND ledge grab right) OR faydown cloak OR silk soar",
+          "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 83.04882049560547,
           "sceneUnitY": 15.112359046936035,
@@ -233027,7 +233152,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-15T00:18:12.0176434Z",
-          "updatedUtc": "2026-10-15T00:18:41.1920175Z"
+          "updatedUtc": "2026-10-17T17:44:44.9465168Z"
         },
         {
           "id": "fac1d3a4-3000-4529-9220-a2211664ce4d",
@@ -233054,7 +233179,7 @@
           "friendlyName": "Vertical2",
           "sourceSubroomReferenceText": "Bottom Right",
           "destinationSubroomReferenceText": "Bottom Left",
-          "requirements": "silk soar OR cling grip right OR (cling grip left AND easy pogo off [Reed, Choristor]) OR (ledge grab AND faydown cloak AND easy pogo off [Reed, Choristor])",
+          "requirements": "silk soar OR cling grip right OR (faydown cloak AND (easy pogo off Reed OR (ledge grab left AND easy pogo off Choristor))) OR ((scuttlebrace OR cling grip left) AND easy pogo off [Reed, Choristor])",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 83.04882049560547,
@@ -233065,7 +233190,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-13T17:02:45.6554056Z",
-          "updatedUtc": "2026-10-15T00:18:41.1920175Z"
+          "updatedUtc": "2026-10-17T17:48:13.4302046Z"
         }
       ],
       "checks": [
@@ -234440,7 +234565,7 @@
           "sourceSubroomReferenceText": "Ventrica",
           "destinationRoomReferenceText": "choral chambers above ventrica",
           "destinationTransitionAliasText": "B",
-          "requirements": "cling grip OR silk soar OR faydown cloak",
+          "requirements": "cling grip either OR silk soar OR faydown cloak OR scuttlebrace",
           "notes": "",
           "sortOrder": 1,
           "isTodo": false,
@@ -234448,7 +234573,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-14T20:35:10.9103231Z",
-          "updatedUtc": "2026-10-15T00:09:25.0325862Z",
+          "updatedUtc": "2026-10-17T17:49:22.1121716Z",
           "isUnsafeArrival": false
         },
         {
@@ -237916,7 +238041,7 @@
           "friendlyName": "Bottom to Right Exit",
           "sourceSubroomReferenceText": "Bottom",
           "destinationSubroomReferenceText": "Right Exit",
-          "requirements": "((Drifter\u0027s cloak OR Dash both OR Run either) AND ledge grab) OR ((Clawline OR sharpdart x 3 ) AND (easy pogo off [Choir Pouncer, Choir Hornhead, Envoy] OR ledge grab OR cling grip right OR cling grip left)) OR (dash right AND (ledge grab both OR cling grip right) AND (sharpdart OR clawline left)) OR (dash left AND (ledge grab AND cling grip left) AND (sharpdart OR clawline right)) OR (Sharpdart AND (ledge grab OR cling grip either) AND (dash right OR dash left OR clawline right OR clawline left)) OR (Scuttlebrace AND (ledge grab OR cling grip either OR (easy pogo off [Choir Pouncer, Choir Hornhead, Envoy] ))) OR faydown cloak OR silk soar OR (ledge grab AND Hard Shaman pogo) OR (Ledge Grab AND medium Beast pogo AND medium Heal stall) OR (ledge grab AND (Flea brew OR easy voltvessels stall OR easy plasmium phial stall))",
+          "requirements": "((Drifter\u0027s cloak OR Dash both OR Run either) AND ledge grab) OR ((Clawline OR sharpdart x 3 ) AND (easy pogo off [Choir Pouncer, Choir Hornhead, Envoy] OR ledge grab OR cling grip right OR cling grip left)) OR (dash right AND (ledge grab both OR cling grip right) AND (sharpdart OR clawline left)) OR (dash left AND (ledge grab AND cling grip left) AND (sharpdart OR clawline right)) OR (Sharpdart AND (ledge grab OR cling grip either) AND (dash right OR dash left OR clawline right OR clawline left)) OR (Scuttlebrace AND (ledge grab OR cling grip either OR (easy pogo off [Choir Pouncer, Choir Hornhead, Envoy] ))) OR faydown cloak OR silk soar OR (ledge grab AND Hard Shaman pogo) OR (Ledge Grab AND medium Beast pogo AND medium Heal stall) OR (ledge grab AND (Flea brew OR easy voltvessels stall OR easy plasmium phial stall)) OR scuttlebrace",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 127.83084106445312,
@@ -237927,7 +238052,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-15T00:11:39.2191845Z",
-          "updatedUtc": "2026-10-16T15:32:32.308803Z"
+          "updatedUtc": "2026-10-17T15:06:46.2412698Z"
         },
         {
           "id": "5210ec34-0880-498b-ad2e-2566344732ac",
@@ -237992,7 +238117,7 @@
           "friendlyName": "Lever",
           "sourceSubroomReferenceText": "Right Exit",
           "destinationSubroomReferenceText": "Middle",
-          "requirements": "activate Lever Below Ventrica AND (silk soar OR faydown cloak OR ((Flea brew OR sharp dart OR Dash left OR Run either OR clawline left) AND (cling grip left OR (ledge grab AND easy pogo off Choir Pouncer))))",
+          "requirements": "activate Lever Below Ventrica AND (silk soar OR faydown cloak OR ((Flea brew OR sharp dart OR Dash left OR Run OR clawline left) AND (cling grip left OR (ledge grab left AND (scuttlebrace OR easy pogo off Choir Pouncer)))) OR (easy shaman pogo AND scuttlebrace))",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 105.75225830078125,
@@ -238003,7 +238128,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-12T19:47:15.9168267Z",
-          "updatedUtc": "2026-10-15T20:52:19.3411419Z"
+          "updatedUtc": "2026-10-17T18:12:50.413807Z"
         },
         {
           "id": "400c8e0c-7e52-45a2-8922-b25f6752ee08",
@@ -238011,7 +238136,7 @@
           "friendlyName": "Bottom to Middle",
           "sourceSubroomReferenceText": "Bottom",
           "destinationSubroomReferenceText": "Middle",
-          "requirements": "cling grip both OR (cling grip right AND faydown cloak) OR silk soar OR ((ledge grab OR faydown cloak)  AND medium pogo off Choir Flyer AND medium Damage boost)",
+          "requirements": "cling grip both OR (cling grip right AND faydown cloak) OR silk soar OR ((ledge grab both OR faydown cloak)  AND medium pogo off Choir Flyer AND medium Damage boost) OR scuttlebrace OR (ledge grab either AND faydown cloak AND easy pogo off Choir Flyer)",
           "notes": "can exactly hit the Choir flyer 4 times",
           "enableAnnotation": true,
           "sceneUnitX": 42.36068344116211,
@@ -238022,7 +238147,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-15T00:09:20.2773245Z",
-          "updatedUtc": "2026-10-15T03:43:36.4997063Z"
+          "updatedUtc": "2026-10-17T17:57:29.5111419Z"
         },
         {
           "id": "18194a29-bece-4a4d-b4d0-b02779599dec",
@@ -238049,7 +238174,7 @@
           "friendlyName": "Middle to Pre Top",
           "sourceSubroomReferenceText": "Middle",
           "destinationSubroomReferenceText": "Pre Top",
-          "requirements": "silk soar OR ((easy pogo off [Choir Pouncer, Choir Hornhead, Envoy] OR faydown cloak) AND cling grip left) OR (cling grip right AND (faydown cloak OR drifter\u0027s cloak OR clawline left OR Dash left OR sharp dart)) OR (ledge grab AND easy Shaman pogo AND easy pogo off Choir Flyer AND faydown cloak)",
+          "requirements": "silk soar OR ((easy pogo off [Choir Pouncer, Choir Hornhead, Envoy] OR faydown cloak) AND cling grip left) OR (cling grip right AND (faydown cloak OR drifter\u0027s cloak OR clawline left OR Dash left OR sharp dart)) OR (ledge grab either AND easy Shaman pogo AND easy pogo off Choir Flyer AND faydown cloak) OR (scuttlebrace AND ((easy pogo off [Choir Pouncer, Choir Hornhead, Envoy] AND (clawline right OR sharp dart OR cling grip left)) OR drifter\u0027s cloak OR faydown cloak OR (sharpdart OR clawline left OR cling grip right )))",
           "notes": "need to aggro Choir Flyer for Shaman skip",
           "enableAnnotation": true,
           "sceneUnitX": 112.31828308105469,
@@ -238060,7 +238185,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-15T00:15:16.1381775Z",
-          "updatedUtc": "2026-10-15T20:57:33.2592454Z"
+          "updatedUtc": "2026-10-17T18:08:16.4948001Z"
         },
         {
           "id": "e4cad695-7abc-4800-96a2-31aacbe95edf",
@@ -238125,7 +238250,7 @@
           "friendlyName": "Pre Top to Top",
           "sourceSubroomReferenceText": "Pre Top",
           "destinationSubroomReferenceText": "Top",
-          "requirements": "cling grip either OR faydown cloak OR silk soar",
+          "requirements": "cling grip either OR silk soar OR ((easy shaman pogo OR faydown cloak) AND scuttlebrace)",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 103.89698791503906,
@@ -238136,7 +238261,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-15T00:08:07.2171314Z",
-          "updatedUtc": "2026-10-15T03:44:10.8645138Z"
+          "updatedUtc": "2026-10-17T18:02:09.5822608Z"
         },
         {
           "id": "95dd176d-dc0f-458a-a38a-020ba90c4425",
@@ -240568,17 +240693,17 @@
       "sceneMaxY": 100,
       "sceneImagePixelsPerUnitX": 6.35,
       "sceneImagePixelsPerUnitY": 6.35,
-      "sceneImagePixelOffsetX": 7743.397410103194,
-      "sceneImagePixelOffsetY": 8770.268251715535,
+      "sceneImagePixelOffsetX": 7759.294359465941,
+      "sceneImagePixelOffsetY": 8772.082621346342,
       "useSceneImage": true,
       "useUploadedSceneImage": false,
       "sceneImageOriginalHash": null,
-      "sceneImageCropHash": "e0fed9f77eee2d4e0af3bad83291c9177020b5305c8b05bfc89302df61aba4ea",
+      "sceneImageCropHash": "2a5557108b63fbae332c16afc2f0f27098165e0e7fac301eae24f77c28222232",
       "sortOrder": 24,
       "isArchived": false,
       "archivedUtc": null,
       "createdUtc": "2026-08-15T00:27:29.6604777Z",
-      "updatedUtc": "2026-10-17T01:34:49.4219876Z",
+      "updatedUtc": "2026-10-17T17:06:57.3652644Z",
       "subrooms": [],
       "transitions": [
         {
@@ -240598,7 +240723,7 @@
           "sourceSubroomReferenceText": null,
           "destinationRoomReferenceText": "underworks outside choral chambers",
           "destinationTransitionAliasText": "T",
-          "requirements": "activate Switch Outside Choral Chambers IN underworks outside choral chambers",
+          "requirements": "activate Switch Outside choral chambers IN underworks outside choral chambers",
           "notes": "",
           "sortOrder": 0,
           "isTodo": false,
@@ -240606,7 +240731,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-15T00:27:29.6604777Z",
-          "updatedUtc": "2026-10-17T06:36:33.6187493Z",
+          "updatedUtc": "2026-10-15T03:45:52.1787932Z",
           "isUnsafeArrival": false
         },
         {
@@ -240640,6 +240765,31 @@
       ],
       "connections": [],
       "checks": [
+        {
+          "id": "054bb336-b3b2-4a67-91cc-d13f8340a96b",
+          "friendlyName": "Outside of Underworks bench",
+          "inGameId": null,
+          "inGamePositionX": null,
+          "inGamePositionY": null,
+          "inGamePositionZ": null,
+          "localPositionX": null,
+          "localPositionY": null,
+          "localPositionZ": null,
+          "annotationSceneUnitX": 41.02960968017578,
+          "annotationSceneUnitY": 78.48245239257812,
+          "subroomReferenceText": "",
+          "requirements": "none",
+          "notes": "",
+          "locationType": "bench",
+          "enableAnnotation": true,
+          "sortOrder": 0,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-10-17T17:07:09.3689736Z",
+          "updatedUtc": "2026-10-17T17:07:38.7351024Z"
+        },
         {
           "id": "6921c01a-9c6e-447b-ba83-ca8ad15542ec",
           "friendlyName": "import enemies",
@@ -246664,7 +246814,7 @@
           "sourceSubroomReferenceText": "Secret Platform",
           "destinationRoomReferenceText": "cogwork core breakable walls",
           "destinationTransitionAliasText": "B",
-          "requirements": "ACT 3",
+          "requirements": "ACT 3 AND silk soar",
           "notes": "",
           "sortOrder": 0,
           "isTodo": false,
@@ -246672,7 +246822,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-11T13:50:13.2090426Z",
-          "updatedUtc": "2026-10-16T17:46:56.1598393Z",
+          "updatedUtc": "2026-10-17T18:18:03.1147959Z",
           "isUnsafeArrival": false
         },
         {
@@ -246720,7 +246870,7 @@
           "sourceSubroomReferenceText": "Base",
           "destinationRoomReferenceText": "Memorium Start Shaft",
           "destinationTransitionAliasText": "B",
-          "requirements": "silk soar OR faydown cloak OR (ledge grab AND easy pogo off Grand Reed)",
+          "requirements": "silk soar OR ((ledge grab both OR faydown cloak OR cling grip either OR scuttlebrace) AND easy pogo off Grand Reed) OR (faydown cloak AND (ledge grab either OR scuttlebrace OR cling grip either))",
           "notes": "",
           "sortOrder": 2,
           "isTodo": false,
@@ -246728,7 +246878,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-11T13:50:13.2090426Z",
-          "updatedUtc": "2026-10-13T21:35:41.3100104Z",
+          "updatedUtc": "2026-10-17T18:17:05.6124074Z",
           "isUnsafeArrival": false
         },
         {
@@ -247067,8 +247217,8 @@
           "localPositionX": 0.0999984741,
           "localPositionY": -14.64,
           "localPositionZ": 0.006340701,
-          "annotationSceneUnitX": 32.1426887512207,
-          "annotationSceneUnitY": -5.22531795501709,
+          "annotationSceneUnitX": -100,
+          "annotationSceneUnitY": 0,
           "subroomReferenceText": "Base",
           "requirements": "Normal World Spawn",
           "notes": "FSM Boolean flags: marionettesBurned",
@@ -247080,7 +247230,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-13T21:40:50.0395754Z",
-          "updatedUtc": "2026-10-17T01:36:21.5666913Z"
+          "updatedUtc": "2026-10-16T17:38:11.9391777Z"
         },
         {
           "id": "02ba3d93-4bd3-4096-8fbf-ca909475dfd8",
@@ -247092,8 +247242,8 @@
           "localPositionX": 0.0999984741,
           "localPositionY": -14.64,
           "localPositionZ": 0.006576715,
-          "annotationSceneUnitX": 26.729190826416016,
-          "annotationSceneUnitY": -5.398246765136719,
+          "annotationSceneUnitX": -100,
+          "annotationSceneUnitY": 0,
           "subroomReferenceText": "Base",
           "requirements": "Normal World Spawn",
           "notes": "FSM Boolean flags: marionettesBurned",
@@ -247105,7 +247255,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-13T21:40:50.0395754Z",
-          "updatedUtc": "2026-10-17T01:36:15.7251315Z"
+          "updatedUtc": "2026-10-16T17:38:13.5202284Z"
         },
         {
           "id": "de94dfbf-1578-452f-a474-236a3f9eb428",
@@ -247117,8 +247267,8 @@
           "localPositionX": 0.0999984741,
           "localPositionY": -14.64,
           "localPositionZ": 0.00652992446,
-          "annotationSceneUnitX": 21.77077865600586,
-          "annotationSceneUnitY": -4.974576950073242,
+          "annotationSceneUnitX": -100,
+          "annotationSceneUnitY": 0,
           "subroomReferenceText": "Base",
           "requirements": "Normal World Spawn",
           "notes": "FSM Boolean flags: marionettesBurned",
@@ -247130,7 +247280,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-13T21:40:50.0395754Z",
-          "updatedUtc": "2026-10-17T01:36:09.3105419Z"
+          "updatedUtc": "2026-10-16T17:38:14.9518628Z"
         }
       ]
     },
@@ -248345,7 +248495,7 @@
       "friendlyName": "Rotating Tunnel",
       "inGameId": "Song_20b",
       "contributors": "samupo, Gallos",
-      "comments": null,
+      "comments": "",
       "sceneMinX": 0,
       "sceneMinY": 0,
       "sceneMaxX": 50,
@@ -248362,7 +248512,7 @@
       "isArchived": false,
       "archivedUtc": null,
       "createdUtc": "2026-08-11T21:40:11.8516062Z",
-      "updatedUtc": "2026-10-13T01:55:19.5171475Z",
+      "updatedUtc": "2026-10-17T18:31:35.9125684Z",
       "subrooms": [
         {
           "id": "bc307c19-dac6-426d-98a1-f24bdac5807f",
@@ -248382,19 +248532,19 @@
         },
         {
           "id": "08f898c0-8d07-4a19-9a93-2d7274402c19",
-          "referenceId": "CentralArea",
-          "friendlyName": "Central Area",
+          "referenceId": "CentralArea Left",
+          "friendlyName": "CentralArea Left",
           "notes": null,
           "sceneUnitX": 0.42170828580856323,
-          "sceneUnitY": 33.1544189453125,
-          "sceneUnitWidth": 49.326880276203156,
-          "sceneUnitHeight": 34.21617889404297,
+          "sceneUnitY": 32.45967483520508,
+          "sceneUnitWidth": 23.968693554401398,
+          "sceneUnitHeight": 35.43198013305664,
           "enableAnnotation": true,
           "sortOrder": 1,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-11T22:45:30.1374149Z",
-          "updatedUtc": "2026-10-12T17:24:30.7677297Z"
+          "updatedUtc": "2026-10-17T18:39:20.2452426Z"
         },
         {
           "id": "37eea28c-2f96-432d-bb24-6787808d311d",
@@ -248427,6 +248577,38 @@
           "archivedUtc": null,
           "createdUtc": "2026-08-11T22:46:00.2550073Z",
           "updatedUtc": "2026-08-11T22:49:33.3160318Z"
+        },
+        {
+          "id": "fa7b4ea9-9e93-48a1-8dac-4d44eec8fec2",
+          "referenceId": "CentralArea Right",
+          "friendlyName": "CentralArea Right",
+          "notes": "",
+          "sceneUnitX": 24.39040184020996,
+          "sceneUnitY": 50.29843521118164,
+          "sceneUnitWidth": 25.60959815979004,
+          "sceneUnitHeight": 28.882823944091797,
+          "enableAnnotation": true,
+          "sortOrder": 4,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-10-17T18:31:34.003625Z",
+          "updatedUtc": "2026-10-17T18:37:48.4716058Z"
+        },
+        {
+          "id": "0a7b0678-c87e-42bb-8f25-e07541138b6a",
+          "referenceId": "CentralArea Low",
+          "friendlyName": "CentralArea Low",
+          "notes": "",
+          "sceneUnitX": null,
+          "sceneUnitY": null,
+          "sceneUnitWidth": null,
+          "sceneUnitHeight": null,
+          "enableAnnotation": true,
+          "sortOrder": 5,
+          "isArchived": true,
+          "archivedUtc": "2026-10-17T18:39:16.19351Z",
+          "createdUtc": "2026-10-17T18:37:47.6228027Z",
+          "updatedUtc": "2026-10-17T18:39:16.19351Z"
         }
       ],
       "transitions": [
@@ -248472,10 +248654,10 @@
           "annotationSceneUnitX": -0.5,
           "annotationSceneUnitY": 58,
           "enableAnnotation": true,
-          "sourceSubroomReferenceText": "CentralArea",
+          "sourceSubroomReferenceText": "CentralArea Left",
           "destinationRoomReferenceText": "songclave silk shop",
           "destinationTransitionAliasText": "R",
-          "requirements": "ledge grab OR dash OR faydown cloak OR clawline OR sharpdart OR drifter\u0027s cloak OR silk soar OR easy pogo off [Reed, Choir Bellbearer]",
+          "requirements": "none",
           "notes": "",
           "sortOrder": 1,
           "isTodo": false,
@@ -248483,7 +248665,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-11T21:40:11.8516062Z",
-          "updatedUtc": "2026-10-13T21:38:12.2717014Z",
+          "updatedUtc": "2026-10-17T18:49:39.9276302Z",
           "isUnsafeArrival": false
         },
         {
@@ -248500,7 +248682,7 @@
           "annotationSceneUnitX": 50,
           "annotationSceneUnitY": 66,
           "enableAnnotation": true,
-          "sourceSubroomReferenceText": "CentralArea",
+          "sourceSubroomReferenceText": "CentralArea Right",
           "destinationRoomReferenceText": "songclave steam tunnel",
           "destinationTransitionAliasText": "TL",
           "requirements": "none",
@@ -248511,7 +248693,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-11T21:40:11.8516062Z",
-          "updatedUtc": "2026-10-12T17:24:30.7677297Z",
+          "updatedUtc": "2026-10-17T18:35:57.2489105Z",
           "isUnsafeArrival": false
         },
         {
@@ -248601,25 +248783,6 @@
       ],
       "connections": [
         {
-          "id": "be99b4f6-ff69-4e6c-8995-5e380b9a87a5",
-          "alias": "V",
-          "friendlyName": "Vertical",
-          "sourceSubroomReferenceText": "Top Platform",
-          "destinationSubroomReferenceText": "CentralArea",
-          "requirements": "none",
-          "notes": "falling, door on top platform\u0027s side ",
-          "enableAnnotation": true,
-          "sceneUnitX": null,
-          "sceneUnitY": null,
-          "sortOrder": 0,
-          "isTodo": false,
-          "isVerified": true,
-          "isArchived": false,
-          "archivedUtc": null,
-          "createdUtc": "2026-08-11T23:06:55.8235046Z",
-          "updatedUtc": "2026-10-12T17:24:30.7677297Z"
-        },
-        {
           "id": "dfe45bbb-50d3-4045-a77a-75a34392e1ab",
           "alias": "HT",
           "friendlyName": "Horizontal Tunnel",
@@ -248639,13 +248802,32 @@
           "updatedUtc": "2026-08-11T23:06:37.2415868Z"
         },
         {
-          "id": "0863cc72-4f64-4805-8b03-571de7263ca1",
-          "alias": "V",
-          "friendlyName": "Vertical",
-          "sourceSubroomReferenceText": "CentralArea",
-          "destinationSubroomReferenceText": "Top Platform",
-          "requirements": "easy [Beast, Shaman] pogo OR silk soar OR clawline OR (easy [Hunter, Wanderer, Witch, Architect, Reaper] pogo AND easy pogo off Reed)",
-          "notes": "",
+          "id": "f114482d-7d84-4d05-81d2-1eb31d183712",
+          "alias": "T",
+          "friendlyName": "Tunnel",
+          "sourceSubroomReferenceText": "Bottom Area",
+          "destinationSubroomReferenceText": "CentralArea Left",
+          "requirements": "silk soar OR cling grip either OR scuttlebrace",
+          "notes": "both sides have levers making the tunnel vertical",
+          "enableAnnotation": true,
+          "sceneUnitX": null,
+          "sceneUnitY": null,
+          "sortOrder": 0,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-08-11T23:08:09.4302247Z",
+          "updatedUtc": "2026-10-17T18:39:13.8366196Z"
+        },
+        {
+          "id": "9fa65088-2983-4a2c-9555-b354d0a06624",
+          "alias": "T",
+          "friendlyName": "Tunnel",
+          "sourceSubroomReferenceText": "CentralArea Left",
+          "destinationSubroomReferenceText": "Bottom Area",
+          "requirements": "none",
+          "notes": "falling, both sides have levers making the tunnel vertical",
           "enableAnnotation": true,
           "sceneUnitX": null,
           "sceneUnitY": null,
@@ -248654,14 +248836,14 @@
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
-          "createdUtc": "2026-10-12T17:10:37.6976511Z",
-          "updatedUtc": "2026-10-15T23:02:30.7791926Z"
+          "createdUtc": "2026-08-11T23:07:37.1589317Z",
+          "updatedUtc": "2026-10-17T18:39:12.3033873Z"
         },
         {
-          "id": "9fa65088-2983-4a2c-9555-b354d0a06624",
-          "alias": "T",
-          "friendlyName": "Tunnel",
-          "sourceSubroomReferenceText": "CentralArea",
+          "id": "4929235c-ac61-46eb-ac69-fa3f0889d747",
+          "alias": "RB",
+          "friendlyName": "Right to bottom",
+          "sourceSubroomReferenceText": "CentralArea Right",
           "destinationSubroomReferenceText": "Bottom Area",
           "requirements": "none",
           "notes": "falling, both sides have levers making the tunnel vertical",
@@ -248673,17 +248855,17 @@
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
-          "createdUtc": "2026-08-11T23:07:37.1589317Z",
-          "updatedUtc": "2026-10-12T17:24:30.7677297Z"
+          "createdUtc": "2026-10-17T18:39:40.7612484Z",
+          "updatedUtc": "2026-10-17T18:46:00.7258873Z"
         },
         {
-          "id": "f114482d-7d84-4d05-81d2-1eb31d183712",
-          "alias": "T",
-          "friendlyName": "Tunnel",
-          "sourceSubroomReferenceText": "Bottom Area",
-          "destinationSubroomReferenceText": "CentralArea",
-          "requirements": "silk soar OR cling grip",
-          "notes": "both sides have levers making the tunnel vertical",
+          "id": "b3b28a69-8ec1-4337-978c-d12c8e8e028a",
+          "alias": "V1",
+          "friendlyName": "Left and Right",
+          "sourceSubroomReferenceText": "CentralArea Left",
+          "destinationSubroomReferenceText": "CentralArea Right",
+          "requirements": "none",
+          "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": null,
           "sceneUnitY": null,
@@ -248692,8 +248874,65 @@
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
-          "createdUtc": "2026-08-11T23:08:09.4302247Z",
-          "updatedUtc": "2026-10-12T17:24:30.7677297Z"
+          "createdUtc": "2026-10-17T18:35:04.4766815Z",
+          "updatedUtc": "2026-10-17T18:47:15.8087449Z"
+        },
+        {
+          "id": "1c0efe8b-4eb2-4022-9687-3b3824fc9af0",
+          "alias": "V1",
+          "friendlyName": "Left and Right",
+          "sourceSubroomReferenceText": "CentralArea Right",
+          "destinationSubroomReferenceText": "CentralArea Left",
+          "requirements": "drifter\u0027s cloak OR ledge grab left OR scuttlebrace OR dash left OR cling grip left OR clawline left OR sharpdart OR easy [hunter, beast,witch, shaman] pogo OR easy pogo off [Reed, Choir Bellbearer] OR faydown cloak",
+          "notes": "",
+          "enableAnnotation": true,
+          "sceneUnitX": null,
+          "sceneUnitY": null,
+          "sortOrder": 4,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-10-17T18:45:37.1132304Z",
+          "updatedUtc": "2026-10-17T19:00:59.6675244Z"
+        },
+        {
+          "id": "0863cc72-4f64-4805-8b03-571de7263ca1",
+          "alias": "V2",
+          "friendlyName": "Vertical",
+          "sourceSubroomReferenceText": "CentralArea Right",
+          "destinationSubroomReferenceText": "Top Platform",
+          "requirements": "easy Shaman pogo OR silk soar OR (easy [Hunter, Wanderer, Witch, Architect, Reaper] pogo AND easy pogo off Reed) OR scuttlebrace",
+          "notes": "",
+          "enableAnnotation": false,
+          "sceneUnitX": null,
+          "sceneUnitY": null,
+          "sortOrder": 5,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-10-12T17:10:37.6976511Z",
+          "updatedUtc": "2026-10-17T18:46:14.3770032Z"
+        },
+        {
+          "id": "be99b4f6-ff69-4e6c-8995-5e380b9a87a5",
+          "alias": "V2",
+          "friendlyName": "Vertical",
+          "sourceSubroomReferenceText": "Top Platform",
+          "destinationSubroomReferenceText": "CentralArea Right",
+          "requirements": "none",
+          "notes": "falling, door on top platform\u0027s side ",
+          "enableAnnotation": false,
+          "sceneUnitX": null,
+          "sceneUnitY": null,
+          "sortOrder": 6,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-08-11T23:06:55.8235046Z",
+          "updatedUtc": "2026-10-17T18:46:14.3770032Z"
         }
       ],
       "checks": [
@@ -248759,7 +248998,7 @@
           "localPositionZ": null,
           "annotationSceneUnitX": 14.517024993896484,
           "annotationSceneUnitY": 57.580108642578125,
-          "subroomReferenceText": "CentralArea",
+          "subroomReferenceText": "CentralArea Left",
           "requirements": "Normal world spawn",
           "notes": "",
           "locationType": "enemy",
@@ -248770,7 +249009,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-12T17:19:16.2580207Z",
-          "updatedUtc": "2026-10-15T23:03:30.6957479Z"
+          "updatedUtc": "2026-10-17T18:31:21.5238609Z"
         },
         {
           "id": "9e9906b8-c5fc-4f3a-bb8b-daf852d917b0",
@@ -248784,7 +249023,7 @@
           "localPositionZ": null,
           "annotationSceneUnitX": 30.076377868652344,
           "annotationSceneUnitY": 69.88285064697266,
-          "subroomReferenceText": "CentralArea",
+          "subroomReferenceText": "CentralArea Right",
           "requirements": "Normal world spawn",
           "notes": "",
           "locationType": "enemy",
@@ -248795,7 +249034,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-12T17:21:06.9306439Z",
-          "updatedUtc": "2026-10-15T23:03:31.8308148Z"
+          "updatedUtc": "2026-10-17T18:35:57.2489105Z"
         }
       ]
     },
@@ -252267,7 +252506,7 @@
           "friendlyName": "Bottom Right to Bottom Left",
           "sourceSubroomReferenceText": "Bottom Right",
           "destinationSubroomReferenceText": "Bottom Left",
-          "requirements": "silk soar OR cling grip left OR (cling grip right AND (easy pogo off [Choristor, Envoy] OR faydown cloak)) OR (ledge grab either AND hard pogo off Choristor AND (easy Shaman pogo OR hard Reaper pogo OR (hard [Hunter, Beast, Witch, Wanderer] pogo AND hard damage boost) OR (hard Architect pogo AND clawline right AND hard damage boost)))",
+          "requirements": "silk soar OR cling grip left OR (cling grip right AND (easy pogo off [Choristor, Envoy] OR faydown cloak)) OR (ledge grab either AND hard pogo off Choristor AND (easy Shaman pogo OR hard Reaper pogo OR (hard [Hunter, Beast, Witch, Wanderer] pogo AND hard damage boost) OR (hard Architect pogo AND clawline right AND hard damage boost))) OR scuttlebrace",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 10.542285919189453,
@@ -252278,7 +252517,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-12T00:37:08.9803712Z",
-          "updatedUtc": "2026-10-16T22:07:41.5552325Z"
+          "updatedUtc": "2026-10-17T18:52:17.0895547Z"
         },
         {
           "id": "68a38003-5f7a-4359-89a4-dae693bd45b6",
@@ -252362,7 +252601,7 @@
           "friendlyName": "Bottom Left to Right Stage",
           "sourceSubroomReferenceText": "Bottom Left",
           "destinationSubroomReferenceText": "Right Stage",
-          "requirements": "cling grip left OR ((ledge grab right OR cling grip right OR clawline right OR sharpdart OR scuttlebrace OR easy shaman pogo) AND faydown cloak) OR silk soar OR easy pogo off Reed",
+          "requirements": "cling grip either OR ((ledge grab right OR clawline right OR sharpdart OR scuttlebrace OR easy shaman pogo) AND faydown cloak) OR silk soar OR easy pogo off Reed",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 30.39104461669922,
@@ -252373,7 +252612,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-12T00:40:13.3825771Z",
-          "updatedUtc": "2026-10-16T22:14:13.4975545Z"
+          "updatedUtc": "2026-10-17T18:54:14.5445595Z"
         },
         {
           "id": "10540d43-c2ea-4a45-81be-2dbc75adc2ee",
@@ -252495,7 +252734,7 @@
           "friendlyName": "Upper Left to Upper Right",
           "sourceSubroomReferenceText": "Middle",
           "destinationSubroomReferenceText": "Upper ",
-          "requirements": "(scuttlebrace AND hard shaman pogo) OR silk soar OR (ledge grab left AND easy pogo off [Choir pouncer,Choir Elder, Choir Flyer, Reed]) OR faydown cloak OR (cling grip both AND (scuttlebrace OR dash right OR clawline right OR sharpdart OR run))",
+          "requirements": "(scuttlebrace AND easy shaman pogo) OR silk soar OR ((ledge grab left OR scuttlebrace) AND easy pogo off [Choir pouncer,Choir Elder, Choir Flyer, Reed]) OR faydown cloak OR (cling grip both AND (scuttlebrace OR dash right OR clawline right OR sharpdart OR run))",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 21.481670379638672,
@@ -252506,7 +252745,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-12T00:57:20.3664926Z",
-          "updatedUtc": "2026-10-16T22:52:07.9402677Z"
+          "updatedUtc": "2026-10-17T19:01:56.1303095Z"
         },
         {
           "id": "cb48ea1a-e9ad-411d-b113-f26b2822d882",
@@ -256041,6 +256280,22 @@
       "updatedUtc": "2026-10-15T23:06:40.4948026Z",
       "subrooms": [
         {
+          "id": "e29a9921-3e9d-477d-9b0c-79454425b43d",
+          "referenceId": "Base",
+          "friendlyName": "Base",
+          "notes": null,
+          "sceneUnitX": null,
+          "sceneUnitY": null,
+          "sceneUnitWidth": null,
+          "sceneUnitHeight": null,
+          "enableAnnotation": true,
+          "sortOrder": 0,
+          "isArchived": true,
+          "archivedUtc": "2026-08-12T01:29:11.1726927Z",
+          "createdUtc": "2026-08-12T01:27:17.3207869Z",
+          "updatedUtc": "2026-08-12T01:29:11.1726927Z"
+        },
+        {
           "id": "bf15b5dd-fa3f-4d45-858f-b41a55358db9",
           "referenceId": "Base",
           "friendlyName": "Base",
@@ -256113,8 +256368,8 @@
           "localPositionX": 0.5,
           "localPositionY": 16,
           "localPositionZ": 0,
-          "annotationSceneUnitX": 0.5,
-          "annotationSceneUnitY": 16,
+          "annotationSceneUnitX": 2.825547218322754,
+          "annotationSceneUnitY": 12.157880783081055,
           "enableAnnotation": true,
           "sourceSubroomReferenceText": "Base",
           "destinationRoomReferenceText": "grand bellway shaft",
@@ -256127,7 +256382,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-12T01:24:01.6734936Z",
-          "updatedUtc": "2026-10-17T01:49:44.3705945Z",
+          "updatedUtc": "2026-10-15T23:06:50.7313069Z",
           "isUnsafeArrival": false
         },
         {
@@ -256141,8 +256396,8 @@
           "localPositionX": 41.29,
           "localPositionY": 10.64,
           "localPositionZ": 0.2,
-          "annotationSceneUnitX": 41.29,
-          "annotationSceneUnitY": 10.64,
+          "annotationSceneUnitX": 38.755455017089844,
+          "annotationSceneUnitY": 10.477079391479492,
           "enableAnnotation": true,
           "sourceSubroomReferenceText": "Base",
           "destinationRoomReferenceText": "bellway menu",
@@ -256155,7 +256410,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-12T01:24:01.6734936Z",
-          "updatedUtc": "2026-10-17T01:49:46.7409164Z",
+          "updatedUtc": "2026-10-14T13:13:00.3368477Z",
           "isUnsafeArrival": false
         },
         {
@@ -256169,8 +256424,8 @@
           "localPositionX": 0,
           "localPositionY": -2.34,
           "localPositionZ": 0,
-          "annotationSceneUnitX": 81.66,
-          "annotationSceneUnitY": 11.28,
+          "annotationSceneUnitX": 83.07440185546875,
+          "annotationSceneUnitY": 9.421869277954102,
           "enableAnnotation": true,
           "sourceSubroomReferenceText": "Base",
           "destinationRoomReferenceText": "ventrica menu",
@@ -256183,7 +256438,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-12T01:24:01.6734936Z",
-          "updatedUtc": "2026-10-17T01:49:48.9997878Z",
+          "updatedUtc": "2026-10-14T13:13:11.3251521Z",
           "isUnsafeArrival": false
         },
         {
@@ -256225,15 +256480,15 @@
           "requirements": "none",
           "notes": "falling, one sided door",
           "enableAnnotation": true,
-          "sceneUnitX": 98.21192169189453,
-          "sceneUnitY": 20.070215225219727,
+          "sceneUnitX": null,
+          "sceneUnitY": null,
           "sortOrder": 0,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-12T01:39:11.4997879Z",
-          "updatedUtc": "2026-10-17T01:50:03.2552069Z"
+          "updatedUtc": "2026-10-15T23:05:43.388567Z"
         }
       ],
       "checks": [
@@ -256436,6 +256691,31 @@
           "archivedUtc": null,
           "createdUtc": "2026-10-14T13:15:31.8567188Z",
           "updatedUtc": "2026-10-16T18:45:11.2149418Z"
+        },
+        {
+          "id": "61909a4e-1b8a-4731-8270-20a9d64bfbcf",
+          "friendlyName": "Bellway bench",
+          "inGameId": null,
+          "inGamePositionX": null,
+          "inGamePositionY": null,
+          "inGamePositionZ": null,
+          "localPositionX": null,
+          "localPositionY": null,
+          "localPositionZ": null,
+          "annotationSceneUnitX": 68.33853912353516,
+          "annotationSceneUnitY": 9.455205917358398,
+          "subroomReferenceText": "Base",
+          "requirements": "none",
+          "notes": "",
+          "locationType": "bench",
+          "enableAnnotation": true,
+          "sortOrder": 7,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-10-17T17:09:19.8830268Z",
+          "updatedUtc": "2026-10-17T17:09:34.1076371Z"
         }
       ]
     },
@@ -256998,7 +257278,7 @@
           "friendlyName": "Horizontal",
           "sourceSubroomReferenceText": "Left Side",
           "destinationSubroomReferenceText": "Right Side",
-          "requirements": "easy pogo off cogworker OR clawline right OR ledge grab OR faydown cloak OR spike pogo",
+          "requirements": "easy pogo off cogworker OR clawline right OR ledge grab OR faydown cloak OR spike pogo OR scuttlebrace",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 90.93344116210938,
@@ -257009,7 +257289,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-12T02:13:55.3173964Z",
-          "updatedUtc": "2026-10-15T22:23:40.4070025Z"
+          "updatedUtc": "2026-10-17T19:04:06.8357972Z"
         },
         {
           "id": "ce3a0e52-6b3a-4ad9-92f2-516d25e523b0",
@@ -257017,7 +257297,7 @@
           "friendlyName": "Horizontal",
           "sourceSubroomReferenceText": "Right Side",
           "destinationSubroomReferenceText": "Left Side",
-          "requirements": "easy pogo off cogworker OR clawline left OR ledge grab OR faydown cloak OR spike pogo",
+          "requirements": "easy pogo off cogworker OR clawline left OR ledge grab OR faydown cloak OR spike pogo OR scuttlebrace",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 90.93344116210938,
@@ -257028,7 +257308,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-12T02:14:13.6981361Z",
-          "updatedUtc": "2026-10-15T22:23:49.6473255Z"
+          "updatedUtc": "2026-10-17T19:04:36.7193889Z"
         }
       ],
       "checks": [
@@ -258081,6 +258361,62 @@
           "archivedUtc": null,
           "createdUtc": "2026-09-10T02:20:29.1431226Z",
           "updatedUtc": "2026-09-28T01:25:53.1276556Z"
+        }
+      ]
+    },
+    {
+      "id": "f1dc1301-a758-4171-b873-5481a5cb12f8",
+      "roomGroupId": "4b9cdbd3-b534-4349-a0b9-1142f206f702",
+      "referenceId": "new-room",
+      "friendlyName": "Bell Eater Arena",
+      "inGameId": null,
+      "contributors": null,
+      "comments": null,
+      "sceneMinX": 0,
+      "sceneMinY": 0,
+      "sceneMaxX": null,
+      "sceneMaxY": null,
+      "sceneImagePixelsPerUnitX": null,
+      "sceneImagePixelsPerUnitY": null,
+      "sceneImagePixelOffsetX": null,
+      "sceneImagePixelOffsetY": null,
+      "useSceneImage": true,
+      "useUploadedSceneImage": false,
+      "sceneImageOriginalHash": null,
+      "sceneImageCropHash": null,
+      "sortOrder": 34,
+      "isArchived": true,
+      "archivedUtc": "2026-10-16T18:31:29.808646Z",
+      "createdUtc": "2026-10-13T19:36:18.537635Z",
+      "updatedUtc": "2026-10-16T18:31:29.808646Z",
+      "subrooms": [],
+      "transitions": [],
+      "connections": [],
+      "checks": [
+        {
+          "id": "384c3441-3358-4285-ab7c-36cecf0fccad",
+          "friendlyName": "Bell Eater",
+          "inGameId": null,
+          "inGamePositionX": null,
+          "inGamePositionY": null,
+          "inGamePositionZ": null,
+          "localPositionX": null,
+          "localPositionY": null,
+          "localPositionZ": null,
+          "annotationSceneUnitX": null,
+          "annotationSceneUnitY": null,
+          "subroomReferenceText": "",
+          "requirements": "Act 3 AND defeat bell beast boss fight IN the marrow bellway ",
+          "notes": "AND (beastling call = false)  ",
+          "locationType": "boss",
+          "enableAnnotation": true,
+          "sortOrder": 0,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-10-16T07:36:12.4997127Z",
+          "updatedUtc": "2026-10-16T18:27:25.4764384Z"
         }
       ]
     }

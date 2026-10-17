@@ -140609,7 +140609,29 @@
         }
       ],
       "connections": [],
-      "locations": []
+      "locations": [
+        {
+          "id": "location:choral-chambers/high-halls-entrance::bench/hh-entrance-bench",
+          "name": "HH entrance Bench",
+          "in_game_id": null,
+          "location_type": "bench",
+          "has_persisted_state": true,
+          "node_id": "choral-chambers/high-halls-entrance#room",
+          "requirement": {
+            "raw": "none",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        }
+      ]
     },
     {
       "id": "choral-chambers/bellshrine-enclave",
@@ -140657,6 +140679,27 @@
           "name": "Lever Bellshrine Enclave",
           "in_game_id": null,
           "location_type": "switch",
+          "has_persisted_state": true,
+          "node_id": "choral-chambers/bellshrine-enclave#room",
+          "requirement": {
+            "raw": "none",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:choral-chambers/bellshrine-enclave::bench/bellshrine-bench",
+          "name": "Bellshrine bench",
+          "in_game_id": null,
+          "location_type": "bench",
           "has_persisted_state": true,
           "node_id": "choral-chambers/bellshrine-enclave#room",
           "requirement": {
@@ -140846,7 +140889,7 @@
           "source_node_id": "choral-chambers/songclave#base",
           "target_node_id": "choral-chambers/songclave#top-platform",
           "requirement": {
-            "raw": "silk soar OR cling grip left OR (cling grip right AND faydown cloak)",
+            "raw": "silk soar OR cling grip left OR (cling grip right AND faydown cloak) OR scuttlebrace",
             "mode": "expression",
             "dnf": [
               [
@@ -140858,6 +140901,9 @@
               [
                 "capability:cling-grip:right",
                 "capability:faydown-cloak"
+              ],
+              [
+                "capability:scuttlebrace:none"
               ]
             ],
             "unresolved_reasons": []
@@ -140978,6 +141024,27 @@
           "is_verified": true,
           "logic_status": "active",
           "unresolved_reasons": []
+        },
+        {
+          "id": "location:choral-chambers/songclave::bench/songclave-bench",
+          "name": "Songclave bench",
+          "in_game_id": null,
+          "location_type": "bench",
+          "has_persisted_state": true,
+          "node_id": "choral-chambers/songclave#base",
+          "requirement": {
+            "raw": "none",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
         }
       ]
     },
@@ -141057,7 +141124,7 @@
           "source_node_id": "choral-chambers/choral-chambers-spa#showers",
           "target_node_id": "choral-chambers/choral-chambers-spa#spa",
           "requirement": {
-            "raw": "(cling grip either OR silk soar OR (faydown cloak AND ledge grab) OR activate Lever Chambers Spa )",
+            "raw": "cling grip either OR silk soar OR scuttlebrace OR (activate Lever Chambers Spa AND (ledge grab right OR easy shaman pogo OR faydown cloak))",
             "mode": "expression",
             "dnf": [
               [
@@ -141067,11 +141134,19 @@
                 "capability:silk-soar"
               ],
               [
-                "capability:faydown-cloak",
-                "capability:ledge-grab:none"
+                "capability:scuttlebrace:none"
               ],
               [
-                "dependency:location:choral-chambers/choral-chambers-spa::switch/lever-chambers-spa"
+                "dependency:location:choral-chambers/choral-chambers-spa::switch/lever-chambers-spa",
+                "capability:ledge-grab:right"
+              ],
+              [
+                "dependency:location:choral-chambers/choral-chambers-spa::switch/lever-chambers-spa",
+                "capability:crest-pogo:shaman:easy"
+              ],
+              [
+                "dependency:location:choral-chambers/choral-chambers-spa::switch/lever-chambers-spa",
+                "capability:faydown-cloak"
               ]
             ],
             "unresolved_reasons": []
@@ -141134,6 +141209,27 @@
           "location_type": "switch",
           "has_persisted_state": true,
           "node_id": "choral-chambers/choral-chambers-spa#spa",
+          "requirement": {
+            "raw": "none",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:choral-chambers/choral-chambers-spa::bench/spa-bench",
+          "name": "Spa bench",
+          "in_game_id": null,
+          "location_type": "bench",
+          "has_persisted_state": true,
+          "node_id": "choral-chambers/choral-chambers-spa#showers",
           "requirement": {
             "raw": "none",
             "mode": "none",
@@ -141298,14 +141394,17 @@
           "source_node_id": "choral-chambers/choral-chambers-outside-spa#base",
           "target_node_id": "choral-chambers/choral-chambers-outside-spa#top",
           "requirement": {
-            "raw": "cling grip OR silk soar",
+            "raw": "cling grip either OR silk soar OR scuttlebrace",
             "mode": "expression",
             "dnf": [
               [
-                "capability:cling-grip:none"
+                "capability:cling-grip:either"
               ],
               [
                 "capability:silk-soar"
+              ],
+              [
+                "capability:scuttlebrace:none"
               ]
             ],
             "unresolved_reasons": []
@@ -141347,7 +141446,7 @@
             "mode": "expression",
             "dnf": [
               [
-                "dependency:location:choral-chambers/choral-chambers-outside-spa::event/gauntlet-fight"
+                "dependency:location:choral-chambers/choral-chambers-outside-spa::gauntlet/gauntlet-fight"
               ]
             ],
             "unresolved_reasons": []
@@ -141389,7 +141488,7 @@
             "mode": "expression",
             "dnf": [
               [
-                "dependency:location:choral-chambers/choral-chambers-outside-spa::event/gauntlet-fight"
+                "dependency:location:choral-chambers/choral-chambers-outside-spa::gauntlet/gauntlet-fight"
               ]
             ],
             "unresolved_reasons": []
@@ -141410,44 +141509,23 @@
           "has_persisted_state": true,
           "node_id": "choral-chambers/choral-chambers-outside-spa#base",
           "requirement": {
-            "raw": "cling grip OR silk soar",
+            "raw": "cling grip either OR silk soar OR (easy shaman pogo AND scuttlebrace)",
             "mode": "expression",
             "dnf": [
               [
-                "capability:cling-grip:none"
+                "capability:cling-grip:either"
               ],
               [
                 "capability:silk-soar"
+              ],
+              [
+                "capability:crest-pogo:shaman:easy",
+                "capability:scuttlebrace:none"
               ]
             ],
             "unresolved_reasons": []
           },
           "notes": "Secret hidden by breaking the ceiling",
-          "is_todo": false,
-          "is_verified": true,
-          "logic_status": "active",
-          "unresolved_reasons": []
-        },
-        {
-          "id": "location:choral-chambers/choral-chambers-outside-spa::resource/second-sentinel-encounter",
-          "name": "Second Sentinel Encounter",
-          "in_game_id": null,
-          "location_type": "resource",
-          "has_persisted_state": false,
-          "node_id": "choral-chambers/choral-chambers-outside-spa#gauntlet",
-          "requirement": {
-            "raw": "defeat Gauntlet Fight\nAND Act 2\nAND complete THE Second Sentinel Activation",
-            "mode": "expression",
-            "dnf": [
-              [
-                "dependency:location:choral-chambers/choral-chambers-outside-spa::event/gauntlet-fight",
-                "state:act-2",
-                "dependency:location:cogwork-core/cogwork-core-second-sentinel::event/second-sentinel-activation"
-              ]
-            ],
-            "unresolved_reasons": []
-          },
-          "notes": "only act 2 per the wiki",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
@@ -141475,23 +141553,25 @@
           "unresolved_reasons": []
         },
         {
-          "id": "location:choral-chambers/choral-chambers-outside-spa::event/gauntlet-fight",
-          "name": "Gauntlet Fight",
-          "in_game_id": null,
+          "id": "location:choral-chambers/choral-chambers-outside-spa::event/second-sentinel-encounter",
+          "name": "Second Sentinel Encounter",
+          "in_game_id": "\"Black Thread States\"[0]/\"Normal World\"[0]/\"Scene States\"[0]/\"Battle Scene\"[0]/\"Song Knight Control\"[0]/\"Song Knight Present\"[0]/\"Song Knight BattleEncounter\"[0]",
           "location_type": "event",
           "has_persisted_state": true,
           "node_id": "choral-chambers/choral-chambers-outside-spa#gauntlet",
           "requirement": {
-            "raw": "Normal World Spawn",
+            "raw": "defeat Gauntlet Fight\nAND Act 2\nAND complete THE Second Sentinel Activation",
             "mode": "expression",
             "dnf": [
               [
-                "state:enemy-spawn-normal-world"
+                "dependency:location:choral-chambers/choral-chambers-outside-spa::gauntlet/gauntlet-fight",
+                "state:act-2",
+                "dependency:location:cogwork-core/cogwork-core-second-sentinel::event/second-sentinel-activation"
               ]
             ],
             "unresolved_reasons": []
           },
-          "notes": "",
+          "notes": "Spawn conditions: songChevalierActiveInSong_04=true, songChevalierSeenInSong_04=false, songChevalierEncounterCooldown=false, songChevalierQuestReady=false\nFSM Boolean flags: encounteredSongChevalierBoss",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
@@ -141751,30 +141831,6 @@
           "unresolved_reasons": []
         },
         {
-          "id": "location:choral-chambers/choral-chambers-outside-spa::enemy/song-knight-1",
-          "name": "Song Knight 1",
-          "in_game_id": "\"Black Thread States\"[0]/\"Normal World\"[0]/\"Scene States\"[0]/\"Battle Scene\"[0]/\"Song Knight Control\"[0]/\"Song Knight Present\"[0]/\"Song Knight BattleEncounter\"[0]",
-          "location_type": "enemy",
-          "has_persisted_state": false,
-          "node_id": "choral-chambers/choral-chambers-outside-spa#gauntlet",
-          "requirement": {
-            "raw": "Normal World Spawn\nAND defeat Gauntlet Fight",
-            "mode": "expression",
-            "dnf": [
-              [
-                "state:enemy-spawn-normal-world",
-                "dependency:location:choral-chambers/choral-chambers-outside-spa::event/gauntlet-fight"
-              ]
-            ],
-            "unresolved_reasons": []
-          },
-          "notes": "Spawn conditions: songChevalierActiveInSong_04=true, songChevalierSeenInSong_04=false, songChevalierEncounterCooldown=false, songChevalierQuestReady=false\nFSM Boolean flags: encounteredSongChevalierBoss",
-          "is_todo": false,
-          "is_verified": true,
-          "logic_status": "active",
-          "unresolved_reasons": []
-        },
-        {
           "id": "location:choral-chambers/choral-chambers-outside-spa::gauntlet/reed-2",
           "name": "Reed 2",
           "in_game_id": "\"Black Thread States\"[0]/\"Normal World\"[0]/\"Scene States\"[0]/\"Battle Scene\"[0]/\"Wave 4\"[0]/\"Song Reed\"[0]",
@@ -141828,12 +141884,12 @@
           "has_persisted_state": false,
           "node_id": "choral-chambers/choral-chambers-outside-spa#gauntlet",
           "requirement": {
-            "raw": "Normal World Spawn\nAND defeat Gauntlet Fight",
+            "raw": "Normal World Spawn\nAND prereq Second Sentinel Encounter",
             "mode": "expression",
             "dnf": [
               [
                 "state:enemy-spawn-normal-world",
-                "dependency:location:choral-chambers/choral-chambers-outside-spa::event/gauntlet-fight"
+                "dependency:location:choral-chambers/choral-chambers-outside-spa::event/second-sentinel-encounter"
               ]
             ],
             "unresolved_reasons": []
@@ -141852,12 +141908,12 @@
           "has_persisted_state": false,
           "node_id": "choral-chambers/choral-chambers-outside-spa#gauntlet",
           "requirement": {
-            "raw": "Normal World Spawn\nAND defeat Gauntlet Fight",
+            "raw": "Normal World Spawn\nAND prereq Second Sentinel Encounter",
             "mode": "expression",
             "dnf": [
               [
                 "state:enemy-spawn-normal-world",
-                "dependency:location:choral-chambers/choral-chambers-outside-spa::event/gauntlet-fight"
+                "dependency:location:choral-chambers/choral-chambers-outside-spa::event/second-sentinel-encounter"
               ]
             ],
             "unresolved_reasons": []
@@ -141881,6 +141937,29 @@
             "dnf": [
               [
                 "state:enemy-spawn-black-thread-world"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:choral-chambers/choral-chambers-outside-spa::gauntlet/gauntlet-fight",
+          "name": "Gauntlet Fight",
+          "in_game_id": null,
+          "location_type": "gauntlet",
+          "has_persisted_state": true,
+          "node_id": "choral-chambers/choral-chambers-outside-spa#gauntlet",
+          "requirement": {
+            "raw": "Normal World Spawn",
+            "mode": "expression",
+            "dnf": [
+              [
+                "state:enemy-spawn-normal-world"
               ]
             ],
             "unresolved_reasons": []
@@ -142097,7 +142176,7 @@
           "source_node_id": "choral-chambers/choral-chambers-western-shaft#bottom",
           "target_node_id": "choral-chambers/choral-chambers-western-shaft#section-1",
           "requirement": {
-            "raw": "silk soar OR (faydown cloak AND (ledge grab both OR easy Shaman pogo OR scuttlebrace OR cling grip left OR (easy Damage boost off Choir pouncer AND (easy heal stall OR easy voltvessels stall OR easy plasmium phial stall OR easy flintslate stall  )))) OR (cling grip both AND (dash right OR drifter's cloak OR scuttlebrace OR clawline right OR sharpdart OR (ledge grab right AND (easy heal stall OR easy voltvessels stall OR easy plasmium phial stall OR easy flintslate stall)))) OR (ACT 3 AND easy pogo off Choir Elder)",
+            "raw": "silk soar OR (faydown cloak AND (cling grip left OR easy Shaman pogo OR scuttlebrace OR (ledge grab right AND easy Damage boost off Choir pouncer AND (easy heal stall OR easy voltvessels stall OR easy plasmium phial stall OR easy flintslate stall  )) OR ledge grab left)) OR (cling grip both AND (dash right OR drifter's cloak OR scuttlebrace OR clawline right OR sharpdart OR (ledge grab right AND (easy heal stall OR easy voltvessels stall OR easy plasmium phial stall OR easy flintslate stall)))) OR (scuttlebrace AND (sharpdart OR clawline right)) OR (ACT 3 AND easy pogo off Choir Elder)",
             "mode": "expression",
             "dnf": [
               [
@@ -142105,7 +142184,7 @@
               ],
               [
                 "capability:faydown-cloak",
-                "capability:ledge-grab:both"
+                "capability:cling-grip:left"
               ],
               [
                 "capability:faydown-cloak",
@@ -142117,27 +142196,31 @@
               ],
               [
                 "capability:faydown-cloak",
-                "capability:cling-grip:left"
-              ],
-              [
-                "capability:faydown-cloak",
+                "capability:ledge-grab:right",
                 "technique:damage-boost:Pilgrim 01 Song:easy",
                 "capability:heal-stall:easy"
               ],
               [
                 "capability:faydown-cloak",
+                "capability:ledge-grab:right",
                 "technique:damage-boost:Pilgrim 01 Song:easy",
                 "capability:voltvessels-stall:easy"
               ],
               [
                 "capability:faydown-cloak",
+                "capability:ledge-grab:right",
                 "technique:damage-boost:Pilgrim 01 Song:easy",
                 "capability:plasmium-phial-stall:easy"
               ],
               [
                 "capability:faydown-cloak",
+                "capability:ledge-grab:right",
                 "technique:damage-boost:Pilgrim 01 Song:easy",
                 "capability:flintslate-stall:easy"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:ledge-grab:left"
               ],
               [
                 "capability:cling-grip:both",
@@ -142180,6 +142263,14 @@
                 "capability:flintslate-stall:easy"
               ],
               [
+                "capability:scuttlebrace:none",
+                "capability:sharpdart"
+              ],
+              [
+                "capability:scuttlebrace:none",
+                "capability:clawline:right"
+              ],
+              [
                 "state:act-3",
                 "capability:enemy-type-pogo:Pilgrim Stomper Song:easy"
               ]
@@ -142219,7 +142310,7 @@
           "source_node_id": "choral-chambers/choral-chambers-western-shaft#section-1",
           "target_node_id": "choral-chambers/choral-chambers-western-shaft#section-2",
           "requirement": {
-            "raw": "ledge grab right OR silk soar OR faydown cloak OR (easy hazard respawn AND easy [Hunter, Reaper, Beast, Architect,Shaman] pogo) OR easy pogo off Choir pouncer",
+            "raw": "ledge grab right OR silk soar OR faydown cloak OR (easy hazard respawn AND easy [Hunter, Reaper, Beast, Architect,Shaman] pogo) OR easy pogo off Choir pouncer OR scuttlebrace",
             "mode": "expression",
             "dnf": [
               [
@@ -142253,6 +142344,9 @@
               ],
               [
                 "capability:enemy-type-pogo:Pilgrim 01 Song:easy"
+              ],
+              [
+                "capability:scuttlebrace:none"
               ]
             ],
             "unresolved_reasons": []
@@ -142290,7 +142384,7 @@
           "source_node_id": "choral-chambers/choral-chambers-western-shaft#section-2",
           "target_node_id": "choral-chambers/choral-chambers-western-shaft#section-3",
           "requirement": {
-            "raw": "silk soar OR cling grip left OR (faydown cloak AND (scuttlebrace OR ledge grab either OR easy pogo off Choir flyer))",
+            "raw": "silk soar OR cling grip left OR scuttlebrace OR (faydown cloak AND (cling grip right OR ledge grab either OR easy pogo off Choir flyer OR easy damage boost off Choir Flyer))",
             "mode": "expression",
             "dnf": [
               [
@@ -142300,8 +142394,11 @@
                 "capability:cling-grip:left"
               ],
               [
-                "capability:faydown-cloak",
                 "capability:scuttlebrace:none"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:cling-grip:right"
               ],
               [
                 "capability:faydown-cloak",
@@ -142310,6 +142407,10 @@
               [
                 "capability:faydown-cloak",
                 "capability:enemy-type-pogo:Pilgrim 04 Song:easy"
+              ],
+              [
+                "capability:faydown-cloak",
+                "technique:damage-boost:Pilgrim 04 Song:easy"
               ]
             ],
             "unresolved_reasons": []
@@ -142396,7 +142497,7 @@
           "source_node_id": "choral-chambers/choral-chambers-western-shaft#section-3",
           "target_node_id": "choral-chambers/choral-chambers-western-shaft#section-4-right",
           "requirement": {
-            "raw": "silk soar OR spike pogo OR cling grip left OR (faydown cloak AND ledge grab right) ",
+            "raw": "silk soar OR spike pogo OR cling grip left OR (faydown cloak AND ledge grab right) OR scuttlebrace",
             "mode": "expression",
             "dnf": [
               [
@@ -142411,6 +142512,9 @@
               [
                 "capability:faydown-cloak",
                 "capability:ledge-grab:right"
+              ],
+              [
+                "capability:scuttlebrace:none"
               ]
             ],
             "unresolved_reasons": []
@@ -143158,7 +143262,7 @@
           "source_node_id": "choral-chambers/choral-chambers-maintenance-tunnel#base",
           "target_node_id": "choral-chambers/choral-chambers-maintenance-tunnel#maintenance-tunnel",
           "requirement": {
-            "raw": "silk soar OR (faydown cloak AND cling grip either AND easy pogo off Reed)",
+            "raw": "silk soar OR (faydown cloak AND easy pogo off Reed AND (cling grip either OR scuttlebrace))",
             "mode": "expression",
             "dnf": [
               [
@@ -143166,8 +143270,13 @@
               ],
               [
                 "capability:faydown-cloak",
-                "capability:cling-grip:either",
-                "capability:enemy-type-pogo:Song Reed:easy"
+                "capability:enemy-type-pogo:Song Reed:easy",
+                "capability:cling-grip:either"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:enemy-type-pogo:Song Reed:easy",
+                "capability:scuttlebrace:none"
               ]
             ],
             "unresolved_reasons": []
@@ -143185,7 +143294,7 @@
           "source_node_id": "choral-chambers/choral-chambers-maintenance-tunnel#maintenance-tunnel",
           "target_node_id": "choral-chambers/choral-chambers-maintenance-tunnel#base",
           "requirement": {
-            "raw": "silk soar OR cling grip either",
+            "raw": "silk soar OR cling grip either OR scuttlebrace",
             "mode": "expression",
             "dnf": [
               [
@@ -143193,6 +143302,9 @@
               ],
               [
                 "capability:cling-grip:either"
+              ],
+              [
+                "capability:scuttlebrace:none"
               ]
             ],
             "unresolved_reasons": []
@@ -143601,7 +143713,7 @@
           "source_node_id": "choral-chambers/choral-chambers-flea-shaft#base-bottom",
           "target_node_id": "choral-chambers/choral-chambers-flea-shaft#base-middle",
           "requirement": {
-            "raw": "(cling grip left AND (dash left OR clawline left OR sharpdart)) OR easy pogo off Choir flyer OR (faydown cloak AND (ledge grab either OR easy Shaman pogo OR (scuttlebrace AND cling grip right))) OR silk soar ",
+            "raw": "(cling grip left AND (dash left OR clawline left OR sharpdart)) OR easy pogo off Choir flyer OR (faydown cloak AND (ledge grab either OR easy Shaman pogo OR scuttlebrace OR cling grip right)) OR silk soar OR (scuttlebrace AND clawline both)",
             "mode": "expression",
             "dnf": [
               [
@@ -143629,11 +143741,18 @@
               ],
               [
                 "capability:faydown-cloak",
-                "capability:scuttlebrace:none",
+                "capability:scuttlebrace:none"
+              ],
+              [
+                "capability:faydown-cloak",
                 "capability:cling-grip:right"
               ],
               [
                 "capability:silk-soar"
+              ],
+              [
+                "capability:scuttlebrace:none",
+                "capability:clawline:both"
               ]
             ],
             "unresolved_reasons": []
@@ -143671,17 +143790,28 @@
           "source_node_id": "choral-chambers/choral-chambers-flea-shaft#base-middle",
           "target_node_id": "choral-chambers/choral-chambers-flea-shaft#base-upper-right",
           "requirement": {
-            "raw": "faydown cloak OR easy enemy pogo off [Choir hornhead] OR (Dash right AND ledge grab right) OR (run AND (ledge grab right OR easy Damage boost off Choir hornhead OR (easy Damage boost off Choir pouncer AND (easy heal stall OR easy voltvessels stall OR easy plasmium phial stall OR easy flintslate stall)))) OR silk soar OR scuttlebrace",
+            "raw": "faydown cloak OR hard pogo off [Choir hornhead, Choir Pouncer] OR ((Dash right OR sharpdart OR clawline right) AND ledge grab right) OR (run AND (ledge grab right OR easy Damage boost off Choir hornhead OR (easy Damage boost off Choir pouncer AND (easy heal stall OR easy voltvessels stall OR easy plasmium phial stall OR easy flintslate stall)))) OR silk soar OR scuttlebrace OR (clawline right AND easy damage boost off [Choir Hornhead,Choir pouncer]) ",
             "mode": "expression",
             "dnf": [
               [
                 "capability:faydown-cloak"
               ],
               [
-                "capability:enemy-type-pogo:Pilgrim 02 Song:easy"
+                "capability:enemy-type-pogo:Pilgrim 02 Song:hard"
+              ],
+              [
+                "capability:enemy-type-pogo:Pilgrim 01 Song:hard"
               ],
               [
                 "capability:dash:right",
+                "capability:ledge-grab:right"
+              ],
+              [
+                "capability:sharpdart",
+                "capability:ledge-grab:right"
+              ],
+              [
+                "capability:clawline:right",
                 "capability:ledge-grab:right"
               ],
               [
@@ -143717,6 +143847,14 @@
               ],
               [
                 "capability:scuttlebrace:none"
+              ],
+              [
+                "capability:clawline:right",
+                "technique:damage-boost:Pilgrim 02 Song:easy"
+              ],
+              [
+                "capability:clawline:right",
+                "technique:damage-boost:Pilgrim 01 Song:easy"
               ]
             ],
             "unresolved_reasons": []
@@ -143754,7 +143892,7 @@
           "source_node_id": "choral-chambers/choral-chambers-flea-shaft#base-upper-right",
           "target_node_id": "choral-chambers/choral-chambers-flea-shaft#base-upper-left",
           "requirement": {
-            "raw": "faydown cloak OR silk soar OR ((run OR clawline left OR sharpdart) AND ledge grab left) OR scuttlebrace",
+            "raw": "faydown cloak OR silk soar OR ((clawline left OR sharpdart) AND (easy shaman pogo OR ledge grab left)) OR (run AND ledge grab left) OR scuttlebrace ",
             "mode": "expression",
             "dnf": [
               [
@@ -143764,8 +143902,8 @@
                 "capability:silk-soar"
               ],
               [
-                "capability:sprint:none",
-                "capability:ledge-grab:left"
+                "capability:clawline:left",
+                "capability:crest-pogo:shaman:easy"
               ],
               [
                 "capability:clawline:left",
@@ -143773,6 +143911,14 @@
               ],
               [
                 "capability:sharpdart",
+                "capability:crest-pogo:shaman:easy"
+              ],
+              [
+                "capability:sharpdart",
+                "capability:ledge-grab:left"
+              ],
+              [
+                "capability:sprint:none",
                 "capability:ledge-grab:left"
               ],
               [
@@ -143814,7 +143960,7 @@
           "source_node_id": "choral-chambers/choral-chambers-flea-shaft#base-upper-left",
           "target_node_id": "choral-chambers/choral-chambers-flea-shaft#top-section-1",
           "requirement": {
-            "raw": "activate Lever Flea shaft AND ((easy pogo off Choir Elder) OR faydown cloak OR silk soar OR cling grip right)",
+            "raw": "activate Lever Flea shaft AND ((easy pogo off Choir Elder) OR faydown cloak OR silk soar OR cling grip right OR scuttlebrace)",
             "mode": "expression",
             "dnf": [
               [
@@ -143832,6 +143978,10 @@
               [
                 "dependency:location:choral-chambers/choral-chambers-flea-shaft::switch/lever-flea-shaft",
                 "capability:cling-grip:right"
+              ],
+              [
+                "dependency:location:choral-chambers/choral-chambers-flea-shaft::switch/lever-flea-shaft",
+                "capability:scuttlebrace:none"
               ]
             ],
             "unresolved_reasons": []
@@ -143871,7 +144021,7 @@
           "source_node_id": "choral-chambers/choral-chambers-flea-shaft#top-section-1",
           "target_node_id": "choral-chambers/choral-chambers-flea-shaft#top-section-2",
           "requirement": {
-            "raw": "silk soar OR (cling grip left AND (faydown cloak OR cling grip right OR (easy  pogo off Choir Flyer AND easy heal stall))) OR (faydown cloak AND ledge grab left AND easy pogo off Choir Elder AND spike pogo) OR (easy  pogo off [Choir Flyer, Choir Elder] AND easy heal stall AND spike pogo AND ledge grab either)",
+            "raw": "silk soar OR (cling grip left AND (faydown cloak OR cling grip right OR (easy  pogo off Choir Flyer AND easy heal stall))) OR (faydown cloak AND ledge grab left AND easy pogo off Choir Elder AND spike pogo) OR (easy  pogo off [Choir Flyer, Choir Elder] AND easy heal stall AND spike pogo AND ledge grab either) OR (scuttlebrace AND (drifter's cloak OR clawline left OR sharpdart OR easy pogo off [Choir Flyer, Choir Elder])) ",
             "mode": "expression",
             "dnf": [
               [
@@ -143907,6 +144057,26 @@
                 "capability:heal-stall:easy",
                 "capability:spike-pogo",
                 "capability:ledge-grab:either"
+              ],
+              [
+                "capability:scuttlebrace:none",
+                "capability:drifters-cloak"
+              ],
+              [
+                "capability:scuttlebrace:none",
+                "capability:clawline:left"
+              ],
+              [
+                "capability:scuttlebrace:none",
+                "capability:sharpdart"
+              ],
+              [
+                "capability:scuttlebrace:none",
+                "capability:enemy-type-pogo:Pilgrim 04 Song:easy"
+              ],
+              [
+                "capability:scuttlebrace:none",
+                "capability:enemy-type-pogo:Pilgrim Stomper Song:easy"
               ]
             ],
             "unresolved_reasons": []
@@ -143944,7 +144114,7 @@
           "source_node_id": "choral-chambers/choral-chambers-flea-shaft#top-section-2",
           "target_node_id": "choral-chambers/choral-chambers-flea-shaft#top-section-3-left",
           "requirement": {
-            "raw": "(silk soar AND (ledge grab left OR clawline left OR dash left OR sharpdart OR faydown cloak OR drifter's cloak OR scuttlebrace OR easy pogo off Choir Flyer)) OR (cling grip left AND spike pogo) OR (cling grip right AND (ledge grab left OR easy pogo off Choir Flyer OR scuttlebrace OR faydown cloak))",
+            "raw": "(silk soar AND (ledge grab left OR clawline left OR dash left OR sharpdart OR faydown cloak OR drifter's cloak OR scuttlebrace OR easy pogo off Choir Flyer)) OR (cling grip left AND spike pogo) OR (cling grip right AND (ledge grab left OR easy pogo off Choir Flyer OR scuttlebrace OR faydown cloak)) OR (scuttlebrace AND ((drifter's cloak AND spike pogo) OR sharpdart x 2 OR (sharpdart AND clawline either) OR clawline both))",
             "mode": "expression",
             "dnf": [
               [
@@ -143998,6 +144168,24 @@
               [
                 "capability:cling-grip:right",
                 "capability:faydown-cloak"
+              ],
+              [
+                "capability:scuttlebrace:none",
+                "capability:drifters-cloak",
+                "capability:spike-pogo"
+              ],
+              [
+                "capability:scuttlebrace:none",
+                "capability:sharpdart:2"
+              ],
+              [
+                "capability:scuttlebrace:none",
+                "capability:sharpdart",
+                "capability:clawline:either"
+              ],
+              [
+                "capability:scuttlebrace:none",
+                "capability:clawline:both"
               ]
             ],
             "unresolved_reasons": []
@@ -144616,20 +144804,29 @@
           "source_node_id": "choral-chambers/high-halls-corridor#bottom",
           "target_node_id": "choral-chambers/high-halls-corridor#top",
           "requirement": {
-            "raw": "silk soar OR (cling grip OR ledge grab) OR faydown cloak",
+            "raw": "silk soar OR ledge grab right OR faydown cloak OR (easy pogo off Grand Reed AND (cling grip either OR easy shaman pogo OR scuttlebrace))",
             "mode": "expression",
             "dnf": [
               [
                 "capability:silk-soar"
               ],
               [
-                "capability:cling-grip:none"
-              ],
-              [
-                "capability:ledge-grab:none"
+                "capability:ledge-grab:right"
               ],
               [
                 "capability:faydown-cloak"
+              ],
+              [
+                "capability:enemy-type-pogo:Song Reed Grand:easy",
+                "capability:cling-grip:either"
+              ],
+              [
+                "capability:enemy-type-pogo:Song Reed Grand:easy",
+                "capability:crest-pogo:shaman:easy"
+              ],
+              [
+                "capability:enemy-type-pogo:Song Reed Grand:easy",
+                "capability:scuttlebrace:none"
               ]
             ],
             "unresolved_reasons": []
@@ -144799,13 +144996,13 @@
       "locations": [
         {
           "id": "location:choral-chambers/corridor-to-high-halls::collectible/reed-s-personal-chest",
-          "name": "Reed's Personal Chest",
+          "name": "Reed's personal chest",
           "in_game_id": null,
           "location_type": "collectible",
           "has_persisted_state": true,
           "node_id": "choral-chambers/corridor-to-high-halls#room",
           "requirement": {
-            "raw": "easy enemy pogo off [Choristor, Choir Pouncer, Envoy] \nOR ledge grab either \nOR cling grip either \nOR silk soar \nOR faydown cloak",
+            "raw": "easy enemy pogo off [Choristor, Choir pouncer, Envoy] OR ledge grab either OR cling grip either OR silk soar OR faydown cloak OR scuttlebrace",
             "mode": "expression",
             "dnf": [
               [
@@ -144828,6 +145025,9 @@
               ],
               [
                 "capability:faydown-cloak"
+              ],
+              [
+                "capability:scuttlebrace:none"
               ]
             ],
             "unresolved_reasons": []
@@ -145214,17 +145414,22 @@
           "source_node_id": "choral-chambers/choral-chambers-over-dining#base",
           "target_node_id": "choral-chambers/choral-chambers-over-dining#top",
           "requirement": {
-            "raw": "cling grip OR faydown cloak OR silk soar OR (easy shaman pogo AND (easy pogo off Choir pouncer OR easy hazard respawn) AND easy pogo off Choir Flyer) OR (ledge grab AND easy pogo off Choir Flyer)",
+            "raw": "cling grip either OR faydown cloak OR silk soar OR (easy shaman pogo AND (easy pogo off [Choir Hornhead, Choir pouncer] OR easy hazard respawn) AND easy pogo off Choir Flyer) OR (ledge grab either AND easy pogo off Choir Flyer) OR (scuttlebrace AND (easy pogo off [Choir Hornhead, Choir pouncer] OR easy hazard respawn))",
             "mode": "expression",
             "dnf": [
               [
-                "capability:cling-grip:none"
+                "capability:cling-grip:either"
               ],
               [
                 "capability:faydown-cloak"
               ],
               [
                 "capability:silk-soar"
+              ],
+              [
+                "capability:crest-pogo:shaman:easy",
+                "capability:enemy-type-pogo:Pilgrim 02 Song:easy",
+                "capability:enemy-type-pogo:Pilgrim 04 Song:easy"
               ],
               [
                 "capability:crest-pogo:shaman:easy",
@@ -145237,8 +145442,20 @@
                 "capability:enemy-type-pogo:Pilgrim 04 Song:easy"
               ],
               [
-                "capability:ledge-grab:none",
+                "capability:ledge-grab:either",
                 "capability:enemy-type-pogo:Pilgrim 04 Song:easy"
+              ],
+              [
+                "capability:scuttlebrace:none",
+                "capability:enemy-type-pogo:Pilgrim 02 Song:easy"
+              ],
+              [
+                "capability:scuttlebrace:none",
+                "capability:enemy-type-pogo:Pilgrim 01 Song:easy"
+              ],
+              [
+                "capability:scuttlebrace:none",
+                "capability:hazard-respawn:easy"
               ]
             ],
             "unresolved_reasons": []
@@ -145318,8 +145535,8 @@
           "unresolved_reasons": []
         },
         {
-          "id": "location:choral-chambers/choral-chambers-over-dining::collectible/mergwin-s-hidden-stach",
-          "name": "Mergwin's hidden stach",
+          "id": "location:choral-chambers/choral-chambers-over-dining::collectible/mergwin-s-hidden-stash",
+          "name": "Mergwin's hidden stash",
           "in_game_id": null,
           "location_type": "collectible",
           "has_persisted_state": true,
@@ -145720,7 +145937,7 @@
           "source_node_id": "choral-chambers/choral-chambers-dining-room#below-diner",
           "target_node_id": "choral-chambers/choral-chambers-dining-room#diner",
           "requirement": {
-            "raw": "((cling grip left OR silk soar) AND Activate Lever - Dining #1) OR (cling grip right AND Activate Lever - Dining #2)",
+            "raw": "((cling grip left OR silk soar) AND Activate Lever - Dining #1) OR ((scuttlebrace OR cling grip right) AND Activate Lever - Dining #2)",
             "mode": "expression",
             "dnf": [
               [
@@ -145730,6 +145947,10 @@
               [
                 "capability:silk-soar",
                 "dependency:location:choral-chambers/choral-chambers-dining-room::switch/lever-dining-1"
+              ],
+              [
+                "capability:scuttlebrace:none",
+                "dependency:location:choral-chambers/choral-chambers-dining-room::switch/lever-dining-2"
               ],
               [
                 "capability:cling-grip:right",
@@ -146091,15 +146312,11 @@
           "source_node_id": "choral-chambers/choral-chambers-eastern-shaft#section-2",
           "target_node_id": "choral-chambers/choral-chambers-eastern-shaft#section-3",
           "requirement": {
-            "raw": "silk soar OR (cling grip  right AND (scuttlebrace OR ledge grab left OR (clawline right AND spike pogo))) OR (easy pogo off Choir pouncer AND ((easy pogo off Reed AND (easy heal stall OR easy voltvessels stall OR easy plasmium phial stall OR easy flintslate stall )AND easy damage boost) OR (easy Shaman pogo AND easy pogo off Reed))) OR (faydown cloak AND cling grip left)",
+            "raw": "silk soar OR (cling grip  right AND (ledge grab left OR (clawline right AND spike pogo))) OR (easy pogo off Choir pouncer AND ((easy pogo off Reed AND (easy heal stall OR easy voltvessels stall OR easy plasmium phial stall OR easy flintslate stall )AND easy damage boost) OR (easy Shaman pogo AND easy pogo off Reed))) OR (faydown cloak AND cling grip left) OR scuttlebrace",
             "mode": "expression",
             "dnf": [
               [
                 "capability:silk-soar"
-              ],
-              [
-                "capability:cling-grip:right",
-                "capability:scuttlebrace:none"
               ],
               [
                 "capability:cling-grip:right",
@@ -146142,6 +146359,9 @@
               [
                 "capability:faydown-cloak",
                 "capability:cling-grip:left"
+              ],
+              [
+                "capability:scuttlebrace:none"
               ]
             ],
             "unresolved_reasons": []
@@ -146179,7 +146399,7 @@
           "source_node_id": "choral-chambers/choral-chambers-eastern-shaft#section-3",
           "target_node_id": "choral-chambers/choral-chambers-eastern-shaft#section-4",
           "requirement": {
-            "raw": "(ledge grab right AND (spike pogo OR ledge grab left OR easy pogo off [Choir bellbearer, Reed, Choristor] )) OR (clawline right AND (spike pogo OR ledge grab left)) OR silk soar OR easy pogo off [Choir pouncer,Reed, Choristor] OR easy [Wanderer,Reaper,Beast,Witch,Architect, Shaman] pogo",
+            "raw": "(ledge grab right AND (spike pogo OR ledge grab left OR easy pogo off [Choir bellbearer, Reed, Choristor] )) OR (clawline right AND (spike pogo OR ledge grab left)) OR silk soar OR easy pogo off [Choir pouncer,Reed, Choristor] OR easy [Wanderer,Reaper,Beast,Witch,Architect, Shaman] pogo OR (scuttlebrace AND (easy damage boost off [Choir Bellbearer, Reed, Choristor] OR spike pogo))",
             "mode": "expression",
             "dnf": [
               [
@@ -146239,6 +146459,22 @@
               ],
               [
                 "capability:crest-pogo:shaman:easy"
+              ],
+              [
+                "capability:scuttlebrace:none",
+                "technique:damage-boost:Pilgrim 03 Song:easy"
+              ],
+              [
+                "capability:scuttlebrace:none",
+                "technique:damage-boost:Song Reed:easy"
+              ],
+              [
+                "capability:scuttlebrace:none",
+                "technique:damage-boost:Song Pilgrim 03:easy"
+              ],
+              [
+                "capability:scuttlebrace:none",
+                "capability:spike-pogo"
               ]
             ],
             "unresolved_reasons": []
@@ -146670,7 +146906,7 @@
       "area_id": "choral-chambers",
       "name": "Choral Chambers Merchant Room",
       "in_game_id": "Song_07",
-      "contributors": "samupo",
+      "contributors": "samupo, Gallos",
       "notes": "",
       "nodes": [
         {
@@ -146706,9 +146942,9 @@
       "connections": [],
       "locations": [
         {
-          "id": "location:choral-chambers/choral-chambers-merchant-room::collectible/rosary-cache-choral-chambers-10",
-          "name": "Rosary Cache: Choral Chambers #10",
-          "in_game_id": "Collectable Item Pickup",
+          "id": "location:choral-chambers/choral-chambers-merchant-room::collectible/rosary-necklace-choral-chambers-1",
+          "name": "Rosary Necklace - Choral Chambers #1",
+          "in_game_id": null,
           "location_type": "collectible",
           "has_persisted_state": true,
           "node_id": "choral-chambers/choral-chambers-merchant-room#room",
@@ -146729,9 +146965,9 @@
           "unresolved_reasons": []
         },
         {
-          "id": "location:choral-chambers/choral-chambers-merchant-room::collectible/rosary-necklace-choral-chambers-1",
-          "name": "Rosary Necklace - Choral Chambers #1",
-          "in_game_id": null,
+          "id": "location:choral-chambers/choral-chambers-merchant-room::collectible/merchant-s-funds",
+          "name": "Merchant's funds",
+          "in_game_id": "Collectable Item Pickup",
           "location_type": "collectible",
           "has_persisted_state": true,
           "node_id": "choral-chambers/choral-chambers-merchant-room#room",
@@ -146745,7 +146981,7 @@
             ],
             "unresolved_reasons": []
           },
-          "notes": "",
+          "notes": "rosary cache",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
@@ -146964,6 +147200,27 @@
       ],
       "locations": [
         {
+          "id": "location:choral-chambers/choral-chambers-below-dining::bench/below-dining-bench",
+          "name": "Below dining bench",
+          "in_game_id": null,
+          "location_type": "bench",
+          "has_persisted_state": true,
+          "node_id": "choral-chambers/choral-chambers-below-dining#top",
+          "requirement": {
+            "raw": "none",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
           "id": "location:choral-chambers/choral-chambers-below-dining::enemy/drapemite-1",
           "name": "Drapemite 1",
           "in_game_id": "\"Mite Heavy (1)\"[0]",
@@ -147108,7 +147365,7 @@
           "source_node_id": "choral-chambers/choral-chambers-below-spa#right",
           "target_node_id": "choral-chambers/choral-chambers-below-spa#left",
           "requirement": {
-            "raw": "cling grip either OR silk soar OR (easy shaman pogo AND easy pogo off [Envoy, Drapemite] AND faydown cloak)",
+            "raw": "cling grip either OR silk soar OR (easy shaman pogo AND easy pogo off [Envoy, Drapemite] AND faydown cloak) OR scuttlebrace",
             "mode": "expression",
             "dnf": [
               [
@@ -147126,6 +147383,9 @@
                 "capability:crest-pogo:shaman:easy",
                 "capability:enemy-type-pogo:Mite Heavy:easy",
                 "capability:faydown-cloak"
+              ],
+              [
+                "capability:scuttlebrace:none"
               ]
             ],
             "unresolved_reasons": []
@@ -147143,7 +147403,7 @@
           "source_node_id": "choral-chambers/choral-chambers-below-spa#left",
           "target_node_id": "choral-chambers/choral-chambers-below-spa#right",
           "requirement": {
-            "raw": "ledge grab left OR faydown cloak OR silk soar OR easy shaman pogo OR (easy pogo off Drapemite AND medium damage boost off Choir Bellbearer)",
+            "raw": "ledge grab left OR faydown cloak OR silk soar OR easy shaman pogo OR (easy pogo off Drapemite AND medium damage boost off Choir Bellbearer) OR scuttlebrace",
             "mode": "expression",
             "dnf": [
               [
@@ -147161,6 +147421,9 @@
               [
                 "capability:enemy-type-pogo:Mite Heavy:easy",
                 "technique:damage-boost:Pilgrim 03 Song:medium"
+              ],
+              [
+                "capability:scuttlebrace:none"
               ]
             ],
             "unresolved_reasons": []
@@ -147702,32 +147965,45 @@
           "source_node_id": "choral-chambers/choral-chambers-above-ventrica#bottom-left",
           "target_node_id": "choral-chambers/choral-chambers-above-ventrica#top",
           "requirement": {
-            "raw": "silk soar OR ((ledge grab OR cling grip) AND faydown cloak) OR ((Dash OR easy Shaman pogo) AND cling grip) OR (ledge grab AND easy pogo off Reed AND easy damage boost)",
+            "raw": "silk soar OR (ledge grab both AND easy pogo off Reed AND easy damage boost off Reed) OR (ledge grab left AND scuttlebrace) OR (faydown cloak AND ((easy pogo off Reed AND easy damage boost off Reed) OR scuttlebrace OR ledge grab either)) OR (cling grip right AND (ledge grab left OR cling grip left)) OR (cling grip left AND ledge grab right)",
             "mode": "expression",
             "dnf": [
               [
                 "capability:silk-soar"
               ],
               [
-                "capability:ledge-grab:none",
-                "capability:faydown-cloak"
-              ],
-              [
-                "capability:cling-grip:none",
-                "capability:faydown-cloak"
-              ],
-              [
-                "capability:dash:none",
-                "capability:cling-grip:none"
-              ],
-              [
-                "capability:crest-pogo:shaman:easy",
-                "capability:cling-grip:none"
-              ],
-              [
-                "capability:ledge-grab:none",
+                "capability:ledge-grab:both",
                 "capability:enemy-type-pogo:Song Reed:easy",
-                "capability:damage-boost:easy"
+                "technique:damage-boost:Song Reed:easy"
+              ],
+              [
+                "capability:ledge-grab:left",
+                "capability:scuttlebrace:none"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:enemy-type-pogo:Song Reed:easy",
+                "technique:damage-boost:Song Reed:easy"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:scuttlebrace:none"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:ledge-grab:either"
+              ],
+              [
+                "capability:cling-grip:right",
+                "capability:ledge-grab:left"
+              ],
+              [
+                "capability:cling-grip:right",
+                "capability:cling-grip:left"
+              ],
+              [
+                "capability:cling-grip:left",
+                "capability:ledge-grab:right"
               ]
             ],
             "unresolved_reasons": []
@@ -147765,14 +148041,31 @@
           "source_node_id": "choral-chambers/choral-chambers-above-ventrica#bottom-left",
           "target_node_id": "choral-chambers/choral-chambers-above-ventrica#bottom-right",
           "requirement": {
-            "raw": "none",
-            "mode": "none",
+            "raw": "(cling grip right AND (ledge grab left OR cling grip left)) OR (cling grip left AND ledge grab right) OR faydown cloak OR silk soar",
+            "mode": "expression",
             "dnf": [
-              []
+              [
+                "capability:cling-grip:right",
+                "capability:ledge-grab:left"
+              ],
+              [
+                "capability:cling-grip:right",
+                "capability:cling-grip:left"
+              ],
+              [
+                "capability:cling-grip:left",
+                "capability:ledge-grab:right"
+              ],
+              [
+                "capability:faydown-cloak"
+              ],
+              [
+                "capability:silk-soar"
+              ]
             ],
             "unresolved_reasons": []
           },
-          "notes": "falling",
+          "notes": "",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
@@ -147785,7 +148078,7 @@
           "source_node_id": "choral-chambers/choral-chambers-above-ventrica#bottom-right",
           "target_node_id": "choral-chambers/choral-chambers-above-ventrica#bottom-left",
           "requirement": {
-            "raw": "silk soar OR cling grip right OR (cling grip left AND easy pogo off [Reed, Choristor]) OR (ledge grab AND faydown cloak AND easy pogo off [Reed, Choristor])",
+            "raw": "silk soar OR cling grip right OR (faydown cloak AND (easy pogo off Reed OR (ledge grab left AND easy pogo off Choristor))) OR ((scuttlebrace OR cling grip left) AND easy pogo off [Reed, Choristor])",
             "mode": "expression",
             "dnf": [
               [
@@ -147795,21 +148088,28 @@
                 "capability:cling-grip:right"
               ],
               [
-                "capability:cling-grip:left",
+                "capability:faydown-cloak",
                 "capability:enemy-type-pogo:Song Reed:easy"
               ],
               [
-                "capability:cling-grip:left",
+                "capability:faydown-cloak",
+                "capability:ledge-grab:left",
                 "capability:enemy-type-pogo:Song Pilgrim 03:easy"
               ],
               [
-                "capability:ledge-grab:none",
-                "capability:faydown-cloak",
+                "capability:scuttlebrace:none",
                 "capability:enemy-type-pogo:Song Reed:easy"
               ],
               [
-                "capability:ledge-grab:none",
-                "capability:faydown-cloak",
+                "capability:scuttlebrace:none",
+                "capability:enemy-type-pogo:Song Pilgrim 03:easy"
+              ],
+              [
+                "capability:cling-grip:left",
+                "capability:enemy-type-pogo:Song Reed:easy"
+              ],
+              [
+                "capability:cling-grip:left",
                 "capability:enemy-type-pogo:Song Pilgrim 03:easy"
               ]
             ],
@@ -148032,17 +148332,20 @@
           "source_node_id": "choral-chambers/choral-chambers-ventrica-room#ventrica",
           "target": "choral-chambers/choral-chambers-above-ventrica@b",
           "requirement": {
-            "raw": "cling grip OR silk soar OR faydown cloak",
+            "raw": "cling grip either OR silk soar OR faydown cloak OR scuttlebrace",
             "mode": "expression",
             "dnf": [
               [
-                "capability:cling-grip:none"
+                "capability:cling-grip:either"
               ],
               [
                 "capability:silk-soar"
               ],
               [
                 "capability:faydown-cloak"
+              ],
+              [
+                "capability:scuttlebrace:none"
               ]
             ],
             "unresolved_reasons": []
@@ -148428,7 +148731,7 @@
           "source_node_id": "choral-chambers/choral-chambers-below-ventrica#bottom",
           "target_node_id": "choral-chambers/choral-chambers-below-ventrica#right-exit",
           "requirement": {
-            "raw": "((Drifter's cloak OR Dash both OR Run either) AND ledge grab) OR ((Clawline OR sharpdart x 3 ) AND (easy pogo off [Choir Pouncer, Choir Hornhead, Envoy] OR ledge grab OR cling grip right OR cling grip left)) OR (dash right AND (ledge grab both OR cling grip right) AND (sharpdart OR clawline left)) OR (dash left AND (ledge grab AND cling grip left) AND (sharpdart OR clawline right)) OR (Sharpdart AND (ledge grab OR cling grip either) AND (dash right OR dash left OR clawline right OR clawline left)) OR (Scuttlebrace AND (ledge grab OR cling grip either OR (easy pogo off [Choir Pouncer, Choir Hornhead, Envoy] ))) OR faydown cloak OR silk soar OR (ledge grab AND Hard Shaman pogo) OR (Ledge Grab AND medium Beast pogo AND medium Heal stall) OR (ledge grab AND (Flea brew OR easy voltvessels stall OR easy plasmium phial stall))",
+            "raw": "((Drifter's cloak OR Dash both OR Run either) AND ledge grab) OR ((Clawline OR sharpdart x 3 ) AND (easy pogo off [Choir Pouncer, Choir Hornhead, Envoy] OR ledge grab OR cling grip right OR cling grip left)) OR (dash right AND (ledge grab both OR cling grip right) AND (sharpdart OR clawline left)) OR (dash left AND (ledge grab AND cling grip left) AND (sharpdart OR clawline right)) OR (Sharpdart AND (ledge grab OR cling grip either) AND (dash right OR dash left OR clawline right OR clawline left)) OR (Scuttlebrace AND (ledge grab OR cling grip either OR (easy pogo off [Choir Pouncer, Choir Hornhead, Envoy] ))) OR faydown cloak OR silk soar OR (ledge grab AND Hard Shaman pogo) OR (Ledge Grab AND medium Beast pogo AND medium Heal stall) OR (ledge grab AND (Flea brew OR easy voltvessels stall OR easy plasmium phial stall)) OR scuttlebrace",
             "mode": "expression",
             "dnf": [
               [
@@ -148609,6 +148912,9 @@
               [
                 "capability:ledge-grab:none",
                 "capability:plasmium-phial-stall:easy"
+              ],
+              [
+                "capability:scuttlebrace:none"
               ]
             ],
             "unresolved_reasons": []
@@ -148646,7 +148952,7 @@
           "source_node_id": "choral-chambers/choral-chambers-below-ventrica#right-exit",
           "target_node_id": "choral-chambers/choral-chambers-below-ventrica#middle",
           "requirement": {
-            "raw": "activate Lever Below Ventrica AND (silk soar OR faydown cloak OR ((Flea brew OR sharp dart OR Dash left OR Run either OR clawline left) AND (cling grip left OR (ledge grab AND easy pogo off Choir Pouncer))))",
+            "raw": "activate Lever Below Ventrica AND (silk soar OR faydown cloak OR ((Flea brew OR sharp dart OR Dash left OR Run OR clawline left) AND (cling grip left OR (ledge grab left AND (scuttlebrace OR easy pogo off Choir Pouncer)))) OR (easy shaman pogo AND scuttlebrace))",
             "mode": "expression",
             "dnf": [
               [
@@ -148665,7 +148971,13 @@
               [
                 "dependency:location:choral-chambers/choral-chambers-below-ventrica::switch/lever-below-ventrica",
                 "capability:flea-brew-jump",
-                "capability:ledge-grab:none",
+                "capability:ledge-grab:left",
+                "capability:scuttlebrace:none"
+              ],
+              [
+                "dependency:location:choral-chambers/choral-chambers-below-ventrica::switch/lever-below-ventrica",
+                "capability:flea-brew-jump",
+                "capability:ledge-grab:left",
                 "capability:enemy-type-pogo:Pilgrim 01 Song:easy"
               ],
               [
@@ -148676,7 +148988,13 @@
               [
                 "dependency:location:choral-chambers/choral-chambers-below-ventrica::switch/lever-below-ventrica",
                 "capability:sharpdart",
-                "capability:ledge-grab:none",
+                "capability:ledge-grab:left",
+                "capability:scuttlebrace:none"
+              ],
+              [
+                "dependency:location:choral-chambers/choral-chambers-below-ventrica::switch/lever-below-ventrica",
+                "capability:sharpdart",
+                "capability:ledge-grab:left",
                 "capability:enemy-type-pogo:Pilgrim 01 Song:easy"
               ],
               [
@@ -148687,18 +149005,30 @@
               [
                 "dependency:location:choral-chambers/choral-chambers-below-ventrica::switch/lever-below-ventrica",
                 "capability:dash:left",
-                "capability:ledge-grab:none",
+                "capability:ledge-grab:left",
+                "capability:scuttlebrace:none"
+              ],
+              [
+                "dependency:location:choral-chambers/choral-chambers-below-ventrica::switch/lever-below-ventrica",
+                "capability:dash:left",
+                "capability:ledge-grab:left",
                 "capability:enemy-type-pogo:Pilgrim 01 Song:easy"
               ],
               [
                 "dependency:location:choral-chambers/choral-chambers-below-ventrica::switch/lever-below-ventrica",
-                "capability:sprint:either",
+                "capability:sprint:none",
                 "capability:cling-grip:left"
               ],
               [
                 "dependency:location:choral-chambers/choral-chambers-below-ventrica::switch/lever-below-ventrica",
-                "capability:sprint:either",
-                "capability:ledge-grab:none",
+                "capability:sprint:none",
+                "capability:ledge-grab:left",
+                "capability:scuttlebrace:none"
+              ],
+              [
+                "dependency:location:choral-chambers/choral-chambers-below-ventrica::switch/lever-below-ventrica",
+                "capability:sprint:none",
+                "capability:ledge-grab:left",
                 "capability:enemy-type-pogo:Pilgrim 01 Song:easy"
               ],
               [
@@ -148709,8 +149039,19 @@
               [
                 "dependency:location:choral-chambers/choral-chambers-below-ventrica::switch/lever-below-ventrica",
                 "capability:clawline:left",
-                "capability:ledge-grab:none",
+                "capability:ledge-grab:left",
+                "capability:scuttlebrace:none"
+              ],
+              [
+                "dependency:location:choral-chambers/choral-chambers-below-ventrica::switch/lever-below-ventrica",
+                "capability:clawline:left",
+                "capability:ledge-grab:left",
                 "capability:enemy-type-pogo:Pilgrim 01 Song:easy"
+              ],
+              [
+                "dependency:location:choral-chambers/choral-chambers-below-ventrica::switch/lever-below-ventrica",
+                "capability:crest-pogo:shaman:easy",
+                "capability:scuttlebrace:none"
               ]
             ],
             "unresolved_reasons": []
@@ -148728,7 +149069,7 @@
           "source_node_id": "choral-chambers/choral-chambers-below-ventrica#bottom",
           "target_node_id": "choral-chambers/choral-chambers-below-ventrica#middle",
           "requirement": {
-            "raw": "cling grip both OR (cling grip right AND faydown cloak) OR silk soar OR ((ledge grab OR faydown cloak)  AND medium pogo off Choir Flyer AND medium Damage boost)",
+            "raw": "cling grip both OR (cling grip right AND faydown cloak) OR silk soar OR ((ledge grab both OR faydown cloak)  AND medium pogo off Choir Flyer AND medium Damage boost) OR scuttlebrace OR (ledge grab either AND faydown cloak AND easy pogo off Choir Flyer)",
             "mode": "expression",
             "dnf": [
               [
@@ -148742,7 +149083,7 @@
                 "capability:silk-soar"
               ],
               [
-                "capability:ledge-grab:none",
+                "capability:ledge-grab:both",
                 "capability:enemy-type-pogo:Pilgrim 04 Song:medium",
                 "capability:damage-boost:medium"
               ],
@@ -148750,6 +149091,14 @@
                 "capability:faydown-cloak",
                 "capability:enemy-type-pogo:Pilgrim 04 Song:medium",
                 "capability:damage-boost:medium"
+              ],
+              [
+                "capability:scuttlebrace:none"
+              ],
+              [
+                "capability:ledge-grab:either",
+                "capability:faydown-cloak",
+                "capability:enemy-type-pogo:Pilgrim 04 Song:easy"
               ]
             ],
             "unresolved_reasons": []
@@ -148787,7 +149136,7 @@
           "source_node_id": "choral-chambers/choral-chambers-below-ventrica#middle",
           "target_node_id": "choral-chambers/choral-chambers-below-ventrica#pre-top",
           "requirement": {
-            "raw": "silk soar OR ((easy pogo off [Choir Pouncer, Choir Hornhead, Envoy] OR faydown cloak) AND cling grip left) OR (cling grip right AND (faydown cloak OR drifter's cloak OR clawline left OR Dash left OR sharp dart)) OR (ledge grab AND easy Shaman pogo AND easy pogo off Choir Flyer AND faydown cloak)",
+            "raw": "silk soar OR ((easy pogo off [Choir Pouncer, Choir Hornhead, Envoy] OR faydown cloak) AND cling grip left) OR (cling grip right AND (faydown cloak OR drifter's cloak OR clawline left OR Dash left OR sharp dart)) OR (ledge grab either AND easy Shaman pogo AND easy pogo off Choir Flyer AND faydown cloak) OR (scuttlebrace AND ((easy pogo off [Choir Pouncer, Choir Hornhead, Envoy] AND (clawline right OR sharp dart OR cling grip left)) OR drifter's cloak OR faydown cloak OR (sharpdart OR clawline left OR cling grip right )))",
             "mode": "expression",
             "dnf": [
               [
@@ -148830,10 +149179,75 @@
                 "capability:sharpdart"
               ],
               [
-                "capability:ledge-grab:none",
+                "capability:ledge-grab:either",
                 "capability:crest-pogo:shaman:easy",
                 "capability:enemy-type-pogo:Pilgrim 04 Song:easy",
                 "capability:faydown-cloak"
+              ],
+              [
+                "capability:scuttlebrace:none",
+                "capability:enemy-type-pogo:Pilgrim 01 Song:easy",
+                "capability:clawline:right"
+              ],
+              [
+                "capability:scuttlebrace:none",
+                "capability:enemy-type-pogo:Pilgrim 01 Song:easy",
+                "capability:sharpdart"
+              ],
+              [
+                "capability:scuttlebrace:none",
+                "capability:enemy-type-pogo:Pilgrim 01 Song:easy",
+                "capability:cling-grip:left"
+              ],
+              [
+                "capability:scuttlebrace:none",
+                "capability:enemy-type-pogo:Pilgrim 02 Song:easy",
+                "capability:clawline:right"
+              ],
+              [
+                "capability:scuttlebrace:none",
+                "capability:enemy-type-pogo:Pilgrim 02 Song:easy",
+                "capability:sharpdart"
+              ],
+              [
+                "capability:scuttlebrace:none",
+                "capability:enemy-type-pogo:Pilgrim 02 Song:easy",
+                "capability:cling-grip:left"
+              ],
+              [
+                "capability:scuttlebrace:none",
+                "capability:enemy-type-pogo:Song Pilgrim 01:easy",
+                "capability:clawline:right"
+              ],
+              [
+                "capability:scuttlebrace:none",
+                "capability:enemy-type-pogo:Song Pilgrim 01:easy",
+                "capability:sharpdart"
+              ],
+              [
+                "capability:scuttlebrace:none",
+                "capability:enemy-type-pogo:Song Pilgrim 01:easy",
+                "capability:cling-grip:left"
+              ],
+              [
+                "capability:scuttlebrace:none",
+                "capability:drifters-cloak"
+              ],
+              [
+                "capability:scuttlebrace:none",
+                "capability:faydown-cloak"
+              ],
+              [
+                "capability:scuttlebrace:none",
+                "capability:sharpdart"
+              ],
+              [
+                "capability:scuttlebrace:none",
+                "capability:clawline:left"
+              ],
+              [
+                "capability:scuttlebrace:none",
+                "capability:cling-grip:right"
               ]
             ],
             "unresolved_reasons": []
@@ -148871,17 +149285,22 @@
           "source_node_id": "choral-chambers/choral-chambers-below-ventrica#pre-top",
           "target_node_id": "choral-chambers/choral-chambers-below-ventrica#top",
           "requirement": {
-            "raw": "cling grip either OR faydown cloak OR silk soar",
+            "raw": "cling grip either OR silk soar OR ((easy shaman pogo OR faydown cloak) AND scuttlebrace)",
             "mode": "expression",
             "dnf": [
               [
                 "capability:cling-grip:either"
               ],
               [
-                "capability:faydown-cloak"
+                "capability:silk-soar"
               ],
               [
-                "capability:silk-soar"
+                "capability:crest-pogo:shaman:easy",
+                "capability:scuttlebrace:none"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:scuttlebrace:none"
               ]
             ],
             "unresolved_reasons": []
@@ -149382,7 +149801,7 @@
           "source_node_id": "choral-chambers/choral-chambers-outside-underworks#room",
           "target": "underworks/underworks-outside-choral-chambers@t",
           "requirement": {
-            "raw": "activate Switch Outside Choral Chambers IN underworks outside choral chambers",
+            "raw": "activate Switch Outside choral chambers IN underworks outside choral chambers",
             "mode": "expression",
             "dnf": [
               [
@@ -149421,7 +149840,29 @@
         }
       ],
       "connections": [],
-      "locations": []
+      "locations": [
+        {
+          "id": "location:choral-chambers/choral-chambers-outside-underworks::bench/outside-of-underworks-bench",
+          "name": "Outside of Underworks bench",
+          "in_game_id": null,
+          "location_type": "bench",
+          "has_persisted_state": true,
+          "node_id": "choral-chambers/choral-chambers-outside-underworks#room",
+          "requirement": {
+            "raw": "none",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        }
+      ]
     },
     {
       "id": "choral-chambers/songclave-tube",
@@ -149566,11 +150007,12 @@
           "source_node_id": "choral-chambers/memorium-entrance-tunnel#secret-platform",
           "target": "cogwork-core/cogwork-core-breakable-walls@b",
           "requirement": {
-            "raw": "ACT 3",
+            "raw": "ACT 3 AND silk soar",
             "mode": "expression",
             "dnf": [
               [
-                "state:act-3"
+                "state:act-3",
+                "capability:silk-soar"
               ]
             ],
             "unresolved_reasons": []
@@ -149612,18 +150054,39 @@
           "source_node_id": "choral-chambers/memorium-entrance-tunnel#base",
           "target": "memorium/memorium-start-shaft@b",
           "requirement": {
-            "raw": "silk soar OR faydown cloak OR (ledge grab AND easy pogo off Grand Reed)",
+            "raw": "silk soar OR ((ledge grab both OR faydown cloak OR cling grip either OR scuttlebrace) AND easy pogo off Grand Reed) OR (faydown cloak AND (ledge grab either OR scuttlebrace OR cling grip either))",
             "mode": "expression",
             "dnf": [
               [
                 "capability:silk-soar"
               ],
               [
-                "capability:faydown-cloak"
+                "capability:ledge-grab:both",
+                "capability:enemy-type-pogo:Song Reed Grand:easy"
               ],
               [
-                "capability:ledge-grab:none",
+                "capability:faydown-cloak",
                 "capability:enemy-type-pogo:Song Reed Grand:easy"
+              ],
+              [
+                "capability:cling-grip:either",
+                "capability:enemy-type-pogo:Song Reed Grand:easy"
+              ],
+              [
+                "capability:scuttlebrace:none",
+                "capability:enemy-type-pogo:Song Reed Grand:easy"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:ledge-grab:either"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:scuttlebrace:none"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:cling-grip:either"
               ]
             ],
             "unresolved_reasons": []
@@ -149954,8 +150417,8 @@
           "notes": ""
         },
         {
-          "id": "choral-chambers/rotating-tunnel#centralarea",
-          "name": "Central Area",
+          "id": "choral-chambers/rotating-tunnel#centralarea-left",
+          "name": "CentralArea Left",
           "notes": ""
         },
         {
@@ -149966,6 +150429,11 @@
         {
           "id": "choral-chambers/rotating-tunnel#horizontal-tunnel",
           "name": "Horizontal Tunnel",
+          "notes": ""
+        },
+        {
+          "id": "choral-chambers/rotating-tunnel#centralarea-right",
+          "name": "CentralArea Right",
           "notes": ""
         }
       ],
@@ -150006,39 +150474,13 @@
           "name": "left2",
           "in_game_id": "left2",
           "is_unsafe_arrival": false,
-          "source_node_id": "choral-chambers/rotating-tunnel#centralarea",
+          "source_node_id": "choral-chambers/rotating-tunnel#centralarea-left",
           "target": "choral-chambers/songclave-silk-shop@r",
           "requirement": {
-            "raw": "ledge grab OR dash OR faydown cloak OR clawline OR sharpdart OR drifter's cloak OR silk soar OR easy pogo off [Reed, Choir Bellbearer]",
-            "mode": "expression",
+            "raw": "none",
+            "mode": "none",
             "dnf": [
-              [
-                "capability:ledge-grab:none"
-              ],
-              [
-                "capability:dash:none"
-              ],
-              [
-                "capability:faydown-cloak"
-              ],
-              [
-                "capability:clawline:none"
-              ],
-              [
-                "capability:sharpdart"
-              ],
-              [
-                "capability:drifters-cloak"
-              ],
-              [
-                "capability:silk-soar"
-              ],
-              [
-                "capability:enemy-type-pogo:Song Reed:easy"
-              ],
-              [
-                "capability:enemy-type-pogo:Pilgrim 03 Song:easy"
-              ]
+              []
             ],
             "unresolved_reasons": []
           },
@@ -150054,7 +150496,7 @@
           "name": "right2",
           "in_game_id": "right2",
           "is_unsafe_arrival": false,
-          "source_node_id": "choral-chambers/rotating-tunnel#centralarea",
+          "source_node_id": "choral-chambers/rotating-tunnel#centralarea-right",
           "target": "whispering-vaults/songclave-steam-tunnel@tl",
           "requirement": {
             "raw": "none",
@@ -150139,11 +150581,39 @@
       ],
       "connections": [
         {
-          "id": "choral-chambers/rotating-tunnel#top-platform>centralarea@v",
-          "alias": "V",
-          "name": "Vertical",
-          "source_node_id": "choral-chambers/rotating-tunnel#top-platform",
-          "target_node_id": "choral-chambers/rotating-tunnel#centralarea",
+          "id": "choral-chambers/rotating-tunnel#bottom-area>centralarea-left@t",
+          "alias": "T",
+          "name": "Tunnel",
+          "source_node_id": "choral-chambers/rotating-tunnel#bottom-area",
+          "target_node_id": "choral-chambers/rotating-tunnel#centralarea-left",
+          "requirement": {
+            "raw": "silk soar OR cling grip either OR scuttlebrace",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:silk-soar"
+              ],
+              [
+                "capability:cling-grip:either"
+              ],
+              [
+                "capability:scuttlebrace:none"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "both sides have levers making the tunnel vertical",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "choral-chambers/rotating-tunnel#centralarea-left>bottom-area@t",
+          "alias": "T",
+          "name": "Tunnel",
+          "source_node_id": "choral-chambers/rotating-tunnel#centralarea-left",
+          "target_node_id": "choral-chambers/rotating-tunnel#bottom-area",
           "requirement": {
             "raw": "none",
             "mode": "none",
@@ -150152,33 +150622,128 @@
             ],
             "unresolved_reasons": []
           },
-          "notes": "falling, door on top platform's side ",
+          "notes": "falling, both sides have levers making the tunnel vertical",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
           "unresolved_reasons": []
         },
         {
-          "id": "choral-chambers/rotating-tunnel#centralarea>top-platform@v",
-          "alias": "V",
-          "name": "Vertical",
-          "source_node_id": "choral-chambers/rotating-tunnel#centralarea",
-          "target_node_id": "choral-chambers/rotating-tunnel#top-platform",
+          "id": "choral-chambers/rotating-tunnel#centralarea-right>bottom-area@rb",
+          "alias": "RB",
+          "name": "Right to bottom",
+          "source_node_id": "choral-chambers/rotating-tunnel#centralarea-right",
+          "target_node_id": "choral-chambers/rotating-tunnel#bottom-area",
           "requirement": {
-            "raw": "easy [Beast, Shaman] pogo OR silk soar OR clawline OR (easy [Hunter, Wanderer, Witch, Architect, Reaper] pogo AND easy pogo off Reed)",
+            "raw": "none",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "falling, both sides have levers making the tunnel vertical",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "choral-chambers/rotating-tunnel#centralarea-left>centralarea-right@v1",
+          "alias": "V1",
+          "name": "Left and Right",
+          "source_node_id": "choral-chambers/rotating-tunnel#centralarea-left",
+          "target_node_id": "choral-chambers/rotating-tunnel#centralarea-right",
+          "requirement": {
+            "raw": "none",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "choral-chambers/rotating-tunnel#centralarea-right>centralarea-left@v1",
+          "alias": "V1",
+          "name": "Left and Right",
+          "source_node_id": "choral-chambers/rotating-tunnel#centralarea-right",
+          "target_node_id": "choral-chambers/rotating-tunnel#centralarea-left",
+          "requirement": {
+            "raw": "drifter's cloak OR ledge grab left OR scuttlebrace OR dash left OR cling grip left OR clawline left OR sharpdart OR easy [hunter, beast,witch, shaman] pogo OR easy pogo off [Reed, Choir Bellbearer] OR faydown cloak",
             "mode": "expression",
             "dnf": [
               [
+                "capability:drifters-cloak"
+              ],
+              [
+                "capability:ledge-grab:left"
+              ],
+              [
+                "capability:scuttlebrace:none"
+              ],
+              [
+                "capability:dash:left"
+              ],
+              [
+                "capability:cling-grip:left"
+              ],
+              [
+                "capability:clawline:left"
+              ],
+              [
+                "capability:sharpdart"
+              ],
+              [
+                "capability:crest-pogo:hunter:easy"
+              ],
+              [
                 "capability:crest-pogo:beast:easy"
+              ],
+              [
+                "capability:crest-pogo:witch:easy"
               ],
               [
                 "capability:crest-pogo:shaman:easy"
               ],
               [
-                "capability:silk-soar"
+                "capability:enemy-type-pogo:Song Reed:easy"
               ],
               [
-                "capability:clawline:none"
+                "capability:enemy-type-pogo:Pilgrim 03 Song:easy"
+              ],
+              [
+                "capability:faydown-cloak"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "choral-chambers/rotating-tunnel#centralarea-right>top-platform@v2",
+          "alias": "V2",
+          "name": "Vertical",
+          "source_node_id": "choral-chambers/rotating-tunnel#centralarea-right",
+          "target_node_id": "choral-chambers/rotating-tunnel#top-platform",
+          "requirement": {
+            "raw": "easy Shaman pogo OR silk soar OR (easy [Hunter, Wanderer, Witch, Architect, Reaper] pogo AND easy pogo off Reed) OR scuttlebrace",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:crest-pogo:shaman:easy"
+              ],
+              [
+                "capability:silk-soar"
               ],
               [
                 "capability:crest-pogo:hunter:easy",
@@ -150199,6 +150764,9 @@
               [
                 "capability:crest-pogo:reaper:easy",
                 "capability:enemy-type-pogo:Song Reed:easy"
+              ],
+              [
+                "capability:scuttlebrace:none"
               ]
             ],
             "unresolved_reasons": []
@@ -150210,11 +150778,11 @@
           "unresolved_reasons": []
         },
         {
-          "id": "choral-chambers/rotating-tunnel#centralarea>bottom-area@t",
-          "alias": "T",
-          "name": "Tunnel",
-          "source_node_id": "choral-chambers/rotating-tunnel#centralarea",
-          "target_node_id": "choral-chambers/rotating-tunnel#bottom-area",
+          "id": "choral-chambers/rotating-tunnel#top-platform>centralarea-right@v2",
+          "alias": "V2",
+          "name": "Vertical",
+          "source_node_id": "choral-chambers/rotating-tunnel#top-platform",
+          "target_node_id": "choral-chambers/rotating-tunnel#centralarea-right",
           "requirement": {
             "raw": "none",
             "mode": "none",
@@ -150223,32 +150791,7 @@
             ],
             "unresolved_reasons": []
           },
-          "notes": "falling, both sides have levers making the tunnel vertical",
-          "is_todo": false,
-          "is_verified": true,
-          "logic_status": "active",
-          "unresolved_reasons": []
-        },
-        {
-          "id": "choral-chambers/rotating-tunnel#bottom-area>centralarea@t",
-          "alias": "T",
-          "name": "Tunnel",
-          "source_node_id": "choral-chambers/rotating-tunnel#bottom-area",
-          "target_node_id": "choral-chambers/rotating-tunnel#centralarea",
-          "requirement": {
-            "raw": "silk soar OR cling grip",
-            "mode": "expression",
-            "dnf": [
-              [
-                "capability:silk-soar"
-              ],
-              [
-                "capability:cling-grip:none"
-              ]
-            ],
-            "unresolved_reasons": []
-          },
-          "notes": "both sides have levers making the tunnel vertical",
+          "notes": "falling, door on top platform's side ",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
@@ -150283,7 +150826,7 @@
           "in_game_id": null,
           "location_type": "enemy",
           "has_persisted_state": false,
-          "node_id": "choral-chambers/rotating-tunnel#centralarea",
+          "node_id": "choral-chambers/rotating-tunnel#centralarea-left",
           "requirement": {
             "raw": "Normal world spawn",
             "mode": "expression",
@@ -150306,7 +150849,7 @@
           "in_game_id": null,
           "location_type": "enemy",
           "has_persisted_state": false,
-          "node_id": "choral-chambers/rotating-tunnel#centralarea",
+          "node_id": "choral-chambers/rotating-tunnel#centralarea-right",
           "requirement": {
             "raw": "Normal world spawn",
             "mode": "expression",
@@ -150573,7 +151116,7 @@
           "source_node_id": "choral-chambers/grand-bellway-shaft#bottom-right",
           "target_node_id": "choral-chambers/grand-bellway-shaft#bottom-left",
           "requirement": {
-            "raw": "silk soar OR cling grip left OR (cling grip right AND (easy pogo off [Choristor, Envoy] OR faydown cloak)) OR (ledge grab either AND hard pogo off Choristor AND (easy Shaman pogo OR hard Reaper pogo OR (hard [Hunter, Beast, Witch, Wanderer] pogo AND hard damage boost) OR (hard Architect pogo AND clawline right AND hard damage boost)))",
+            "raw": "silk soar OR cling grip left OR (cling grip right AND (easy pogo off [Choristor, Envoy] OR faydown cloak)) OR (ledge grab either AND hard pogo off Choristor AND (easy Shaman pogo OR hard Reaper pogo OR (hard [Hunter, Beast, Witch, Wanderer] pogo AND hard damage boost) OR (hard Architect pogo AND clawline right AND hard damage boost))) OR scuttlebrace",
             "mode": "expression",
             "dnf": [
               [
@@ -150634,6 +151177,9 @@
                 "capability:crest-pogo:architect:hard",
                 "capability:clawline:right",
                 "capability:damage-boost:hard"
+              ],
+              [
+                "capability:scuttlebrace:none"
               ]
             ],
             "unresolved_reasons": []
@@ -150671,18 +151217,14 @@
           "source_node_id": "choral-chambers/grand-bellway-shaft#bottom-left",
           "target_node_id": "choral-chambers/grand-bellway-shaft#right-stage",
           "requirement": {
-            "raw": "cling grip left OR ((ledge grab right OR cling grip right OR clawline right OR sharpdart OR scuttlebrace OR easy shaman pogo) AND faydown cloak) OR silk soar OR easy pogo off Reed",
+            "raw": "cling grip either OR ((ledge grab right OR clawline right OR sharpdart OR scuttlebrace OR easy shaman pogo) AND faydown cloak) OR silk soar OR easy pogo off Reed",
             "mode": "expression",
             "dnf": [
               [
-                "capability:cling-grip:left"
+                "capability:cling-grip:either"
               ],
               [
                 "capability:ledge-grab:right",
-                "capability:faydown-cloak"
-              ],
-              [
-                "capability:cling-grip:right",
                 "capability:faydown-cloak"
               ],
               [
@@ -150821,12 +151363,12 @@
           "source_node_id": "choral-chambers/grand-bellway-shaft#middle",
           "target_node_id": "choral-chambers/grand-bellway-shaft#upper",
           "requirement": {
-            "raw": "(scuttlebrace AND hard shaman pogo) OR silk soar OR (ledge grab left AND easy pogo off [Choir pouncer,Choir Elder, Choir Flyer, Reed]) OR faydown cloak OR (cling grip both AND (scuttlebrace OR dash right OR clawline right OR sharpdart OR run))",
+            "raw": "(scuttlebrace AND easy shaman pogo) OR silk soar OR ((ledge grab left OR scuttlebrace) AND easy pogo off [Choir pouncer,Choir Elder, Choir Flyer, Reed]) OR faydown cloak OR (cling grip both AND (scuttlebrace OR dash right OR clawline right OR sharpdart OR run))",
             "mode": "expression",
             "dnf": [
               [
                 "capability:scuttlebrace:none",
-                "capability:crest-pogo:shaman:hard"
+                "capability:crest-pogo:shaman:easy"
               ],
               [
                 "capability:silk-soar"
@@ -150845,6 +151387,22 @@
               ],
               [
                 "capability:ledge-grab:left",
+                "capability:enemy-type-pogo:Song Reed:easy"
+              ],
+              [
+                "capability:scuttlebrace:none",
+                "capability:enemy-type-pogo:Pilgrim 01 Song:easy"
+              ],
+              [
+                "capability:scuttlebrace:none",
+                "capability:enemy-type-pogo:Pilgrim Stomper Song:easy"
+              ],
+              [
+                "capability:scuttlebrace:none",
+                "capability:enemy-type-pogo:Pilgrim 04 Song:easy"
+              ],
+              [
+                "capability:scuttlebrace:none",
                 "capability:enemy-type-pogo:Song Reed:easy"
               ],
               [
@@ -151824,6 +152382,27 @@
           "is_verified": true,
           "logic_status": "active",
           "unresolved_reasons": []
+        },
+        {
+          "id": "location:choral-chambers/grand-bellway::bench/bellway-bench",
+          "name": "Bellway bench",
+          "in_game_id": null,
+          "location_type": "bench",
+          "has_persisted_state": true,
+          "node_id": "choral-chambers/grand-bellway#base",
+          "requirement": {
+            "raw": "none",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
         }
       ]
     },
@@ -151927,7 +152506,7 @@
           "source_node_id": "choral-chambers/choral-chambers-east-to-west#left-side",
           "target_node_id": "choral-chambers/choral-chambers-east-to-west#right-side",
           "requirement": {
-            "raw": "easy pogo off cogworker OR clawline right OR ledge grab OR faydown cloak OR spike pogo",
+            "raw": "easy pogo off cogworker OR clawline right OR ledge grab OR faydown cloak OR spike pogo OR scuttlebrace",
             "mode": "expression",
             "dnf": [
               [
@@ -151944,6 +152523,9 @@
               ],
               [
                 "capability:spike-pogo"
+              ],
+              [
+                "capability:scuttlebrace:none"
               ]
             ],
             "unresolved_reasons": []
@@ -151961,7 +152543,7 @@
           "source_node_id": "choral-chambers/choral-chambers-east-to-west#right-side",
           "target_node_id": "choral-chambers/choral-chambers-east-to-west#left-side",
           "requirement": {
-            "raw": "easy pogo off cogworker OR clawline left OR ledge grab OR faydown cloak OR spike pogo",
+            "raw": "easy pogo off cogworker OR clawline left OR ledge grab OR faydown cloak OR spike pogo OR scuttlebrace",
             "mode": "expression",
             "dnf": [
               [
@@ -151978,6 +152560,9 @@
               ],
               [
                 "capability:spike-pogo"
+              ],
+              [
+                "capability:scuttlebrace:none"
               ]
             ],
             "unresolved_reasons": []

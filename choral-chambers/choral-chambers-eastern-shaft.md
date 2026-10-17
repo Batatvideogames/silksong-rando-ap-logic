@@ -30,9 +30,9 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | V1 | Section 1 to Section 2 | Section 1 | Section 2 | ledge grab either OR silk soar OR easy pogo off [Envoy, Choir Hornhead, Reed] OR scuttlebrace |  | Verified | ✓ |  |
 | V1 | Section 1 to Section 2 | Section 2 | Section 1 | none |  | Verified | ✓ | falling |
-| V2 | Section 2 to Section 3 | Section 2 | Section 3 | silk soar OR (cling grip  right AND (scuttlebrace OR ledge grab left OR (clawline right AND spike pogo))) OR (easy pogo off Choir pouncer AND ((easy pogo off Reed AND (easy heal stall OR easy voltvessels stall OR easy plasmium phial stall OR easy flintslate stall )AND easy damage boost) OR (easy Shaman pogo AND easy pogo off Reed))) OR (faydown cloak AND cling grip left) |  | Verified | ✓ |  |
+| V2 | Section 2 to Section 3 | Section 2 | Section 3 | silk soar OR (cling grip  right AND (ledge grab left OR (clawline right AND spike pogo))) OR (easy pogo off Choir pouncer AND ((easy pogo off Reed AND (easy heal stall OR easy voltvessels stall OR easy plasmium phial stall OR easy flintslate stall )AND easy damage boost) OR (easy Shaman pogo AND easy pogo off Reed))) OR (faydown cloak AND cling grip left) OR scuttlebrace |  | Verified | ✓ |  |
 | V2 | Section 2 to Section 3 | Section 3 | Section 2 | none |  | Verified | ✓ | falling |
-| V3 | Section 3 to Section 4 | Section 3 | Section 4 | (ledge grab right AND (spike pogo OR ledge grab left OR easy pogo off [Choir bellbearer, Reed, Choristor] )) OR (clawline right AND (spike pogo OR ledge grab left)) OR silk soar OR easy pogo off [Choir pouncer,Reed, Choristor] OR easy [Wanderer,Reaper,Beast,Witch,Architect, Shaman] pogo |  | Verified | ✓ |  |
+| V3 | Section 3 to Section 4 | Section 3 | Section 4 | (ledge grab right AND (spike pogo OR ledge grab left OR easy pogo off [Choir bellbearer, Reed, Choristor] )) OR (clawline right AND (spike pogo OR ledge grab left)) OR silk soar OR easy pogo off [Choir pouncer,Reed, Choristor] OR easy [Wanderer,Reaper,Beast,Witch,Architect, Shaman] pogo OR (scuttlebrace AND (easy damage boost off [Choir Bellbearer, Reed, Choristor] OR spike pogo)) |  | Verified | ✓ |  |
 | V3 | Section 3 to Section 4 | Section 4 | Section 3 | none |  | Verified | ✓ | falling |
 
 ## Check Locations

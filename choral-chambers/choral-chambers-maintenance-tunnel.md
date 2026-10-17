@@ -22,8 +22,8 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| V | Vertical | Base | Maintenance Tunnel | silk soar OR (faydown cloak AND cling grip either AND easy pogo off Reed) |  | Verified | ✓ |  |
-| V | Vertical | Maintenance Tunnel | Base | silk soar OR cling grip either |  | Verified | ✓ |  |
+| V | Vertical | Base | Maintenance Tunnel | silk soar OR (faydown cloak AND easy pogo off Reed AND (cling grip either OR scuttlebrace)) |  | Verified | ✓ |  |
+| V | Vertical | Maintenance Tunnel | Base | silk soar OR cling grip either OR scuttlebrace |  | Verified | ✓ |  |
 
 ## Check Locations
 

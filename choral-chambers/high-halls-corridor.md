@@ -24,8 +24,8 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| V | Vertical | Bottom | Top | silk soar OR (cling grip OR ledge grab) OR faydown cloak |  | Verified | ✓ |  |
-| V | Vertical | Top | Bottom | none |  | Verified | ✓ | falling |
+| V | Vertical | Bottom | Top | silk soar OR ledge grab right OR faydown cloak OR (easy pogo off Grand Reed AND (cling grip either OR easy shaman pogo OR scuttlebrace)) |  | Verified |  |  |
+| V | Vertical | Top | Bottom | none |  | Verified |  | falling |
 
 ## Check Locations
 
