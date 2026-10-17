@@ -18,7 +18,7 @@
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | R | right2 | Main | [Cogwork Core South Main (Cog_04)](cogwork-core-south-main.md) | ML | Nothing. |  | Verified | ✓ |  |
-| L | left1 | Left Entrance | [Choral Chambers Over Dininig (Song_09)](../choral-chambers/choral-chambers-over-dininig.md) | R | Nothing. |  | Verified | ✓ |  |
+| L | left1 | Left Entrance | [Choral Chambers Over Dining (Song_09)](../choral-chambers/choral-chambers-over-dining.md) | R | Nothing. |  | Verified | ✓ |  |
 | T | top1 | Top Entrance | [Cogwork Core Second Sentinel (Cog_10)](cogwork-core-second-sentinel.md) | B | Nothing. |  | Verified | ✓ |  |
 
 ## Subroom Connections

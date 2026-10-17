@@ -28,12 +28,12 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | silkspeed anklets | entrance | run  OR (  proficient movement AND ( architect slash [right] OR easy hunter pogo OR easy beast pogo )  ) |  | Verified | collectible | ✓ |  |
+| 1 | silkspeed anklets | entrance | run  OR (  proficient movement AND ( architect slash right OR easy hunter pogo OR easy beast pogo )  ) |  | Verified | collectible | ✓ |  |
 | 2 | relic rune harp weavenest cindril | secret room | none |  | Verified | collectible | ✓ |  |
 | 3 | map of paths away from pharloom | secret room | none |  | Verified | lore | ✓ |  |
 | 4 | secret room lock | entrance | run AND silkspeed anklets AND flea brew speed |  | Verified | lock | ✓ |  |
 | 5 | wvnest cindil bench | entrance | none |  | Verified | bench | ✓ |  |
-| 6 | servitor ignim | entrance | needle [up] |  | Verified | enemy | ✓ |  |
+| 6 | servitor ignim | entrance | needle up |  | Verified | enemy | ✓ |  |
 | 7 | Weaver Servitor Broken (1) 1 |  |  |  |  | enemy | ✓ |  |
 | 8 | Servitor Ignim 1 |  |  |  |  | enemy | ✓ |  |
 | 9 | Weaver Servitor Broken 1 |  |  |  |  | enemy | ✓ |  |

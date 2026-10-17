@@ -2,7 +2,7 @@
 
 **Game ID:** Hang_07
 
-**Contributors:** samupo
+**Contributors:** samupo, Gallos
 
 ## Subrooms
 
@@ -17,7 +17,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | L | left1 | Bottom | [Choral Chambers Flea Shaft (Song_11)](choral-chambers-flea-shaft.md) | S3R | none |  | Verified | ✓ | one way entrance, opens from the other side |
 | R | right1 | Bottom | [Cog Dancers (Cog_Dancers)](../cogwork-core/cog-dancers.md) | L | none |  | Verified | ✓ |  |
-| B | bot1 | Bottom | [Choral Chambers Over Dininig (Song_09)](choral-chambers-over-dininig.md) | T | none |  | Verified | ✓ |  |
+| B | bot1 | Bottom | [Choral Chambers Over Dining (Song_09)](choral-chambers-over-dining.md) | T | none |  | Verified | ✓ |  |
 | T | top1 | Top | [High Halls Vault (Hang_06)](../high-halls/high-halls-vault.md) | B | Activate Floor Lever IN High Halls Vault |  | Verified | ✓ | one way entrance, opens from the other side |
 
 ## Subroom Connections

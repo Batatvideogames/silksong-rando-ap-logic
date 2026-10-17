@@ -2,7 +2,7 @@
 
 **Game ID:** Song_08
 
-**Contributors:** samupo
+**Contributors:** samupo, Gallos
 
 ## Subrooms
 

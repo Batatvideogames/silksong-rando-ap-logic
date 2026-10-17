@@ -12,7 +12,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Putrified Ducts Connection To Bilewater (Aqueduct_04)](putrified-ducts-connection-to-bilewater.md) | D | None |  | Verified |  |  |
+| L | left1 |  | [Putrified Ducts Connection To Bilewater (Aqueduct_04)](putrified-ducts-connection-to-bilewater.md) | D | None |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
@@ -22,11 +22,21 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Putrified Ducts - Bench Huntress |  | None |  | Verified | bench |  |  |
-| 2 | Longclaw |  | complete Wish: Broodfeast OR complete Wish: Runtfeast |  | Verified | collectible |  |  |
-| 3 | Wish: Broodfeast |  | ACT 2  AND ( Get 15 Seared Organs AND Get 35 Shredded Organs AND Get 10 Skewered Organs )  AND ( Searing Damage AND Shredding Damage AND Skewering Damage ) |  | Verified | event |  | Searing Damage: Flintslate OR Pimpillo OR Wispfire Lantern OR Voltvessels  Shredding Damage: Sawtooth Circlet OR Cogwork Wheel OR Delver's Drill OR Conchcutter OR Beast Crest OR Architect Crest  Skewering Damage: Sting Shard OR Longpin OR Needle Phial*  *Needle Phial need not be included in logic due to losing it when upgrading to Plasmium Phial |
-| 4 | Wish: Runtfeast |  | ACT 3 AND ( Get 15 Seared Organs AND Get 35 Shredded Organs AND Get 10 Skewered Organs )  AND ( Searing Damage AND Shredding Damage AND Skewering Damage ) |  | Verified | event |  | Mutually exclusive with Broodfeast. Probably needs to be functionally treated as the same location or split into separate checks and made permanently available. |
+| 1 | Putrified Ducts - Bench Huntress |  | None |  | Verified | bench | ✓ |  |
+| 2 | Longclaw |  | complete Wish: Broodfeast OR complete Wish: Runtfeast |  | Verified | collectible | ✓ |  |
+| 3 | Wish: Broodfeast |  | ACT 2  AND ( Get 15 Seared Organs AND Get 35 Shredded Organs AND Get 10 Skewered Organs )  AND ( Searing Damage AND Shredding Damage AND Skewering Damage ) |  | Verified | event | ✓ | Searing Damage: Flintslate OR Pimpillo OR Wispfire Lantern OR Voltvessels  Shredding Damage: Sawtooth Circlet OR Cogwork Wheel OR Delver's Drill OR Conchcutter OR Beast Crest OR Architect Crest  Skewering Damage: Sting Shard OR Longpin OR Needle Phial*  *Needle Phial need not be included in logic due to losing it when upgrading to Plasmium Phial |
+| 4 | Wish: Runtfeast |  | ACT 3 AND ( Get 15 Seared Organs AND Get 35 Shredded Organs AND Get 10 Skewered Organs )  AND ( Searing Damage AND Shredding Damage AND Skewering Damage ) |  | Verified | event | ✓ | Mutually exclusive with Broodfeast. Probably needs to be functionally treated as the same location or split into separate checks and made permanently available. |
 
 ## Room Images
 
-Scene image unavailable.
+### Connections
+
+[![Connections for Huntress (Room_Huntress)](../00-annotations/putrified-ducts/huntress-connections.png)](../00-annotations/putrified-ducts/huntress-connections.png)
+
+### Checks
+
+[![Checks for Huntress (Room_Huntress)](../00-annotations/putrified-ducts/huntress-checks.png)](../00-annotations/putrified-ducts/huntress-checks.png)
+
+### Scene
+
+[![Scene for Huntress (Room_Huntress)](../00-annotations/putrified-ducts/huntress-scene.png)](../00-annotations/putrified-ducts/huntress-scene.png)

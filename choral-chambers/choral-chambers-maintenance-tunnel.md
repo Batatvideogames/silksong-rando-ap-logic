@@ -2,7 +2,7 @@
 
 **Game ID:** Song_15
 
-**Contributors:** samupo
+**Contributors:** samupo, Gallos
 
 ## Subrooms
 
@@ -29,9 +29,9 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Rosary Cache: Choral Chambers #17 | Base | none |  | Verified | collectible | ✓ |  |
-| 2 | Rosary Cache: Choral Chambers #18 | Base | none |  | Verified | collectible | ✓ |  |
-| 3 | Rosary Cache: Choral Chambers #19 | Base | none |  | Verified | collectible | ✓ |  |
+| 1 | Maintenance Worker's Wage Rosary cache | Base | none |  | Verified | collectible | ✓ | rosary cache |
+| 2 | Maintenance Tunnel's Rosary cache budget | Base | none |  | Verified | collectible | ✓ | rosary cache |
+| 3 | Maintenance Head chief's embezzled Rosary cache | Base | none |  | Verified | collectible | ✓ | rosary cache |
 | 4 | Choir Bellbearer 1 | Base | Normal World Spawn |  | Verified | enemy | ✓ |  |
 | 5 | Reed 1 | Base | Normal World Spawn |  | Verified | enemy | ✓ | FSM Boolean flags: marionettesBurned, marionettesMet |
 | 6 | Reed 2 | Base | Black Thread World Spawn |  | Verified | enemy | ✓ | FSM Boolean flags: marionettesBurned, marionettesMet |

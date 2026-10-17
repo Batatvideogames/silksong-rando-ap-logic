@@ -54,6 +54,8 @@
 | MRB | Mid Right <> Bridge | Mid Right Entrance | Bridge | (Activate Underworks East Bridge Switch AND (Cling Grip OR Faydown Cloak OR (Medium Scuttlebrace AND (Clawline OR Sharpdart x 2)))) |  | Verified | ✓ |  |
 | MRB | Mid Right <> Bridge | Bridge | Mid Right Entrance | Activate Underworks East Bridge Switch |  | Verified | ✓ |  |
 | MLB | Mid Left <> Bridge | Bridge | High Left Entrance | Activate Underworks East Bridge Switch |  | Verified | ✓ |  |
+| IB1 | Invalid Bridge 1 | Upper Central Shaft | Bridge | Invalid |  | Verified |  | redundant connection to emphasize for logic that this is not allowed. |
+| IB2 | Invalid Bridge 2 | Lower Central Shaft | Bridge | Invalid |  | Verified |  | redundant connection to emphasize for logic that this is not allowed. |
 
 ## Check Locations
 

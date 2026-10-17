@@ -6,15 +6,15 @@
 
 | No. | Subroom | Annotated |
 | --- | --- | --- |
-| S1 | Lower Entrance |  |
-| S2 | Upper Entrance |  |
+| S1 | Lower Entrance | ✓ |
+| S2 | Upper Entrance | ✓ |
 
 ## Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| BL | left2 | Lower Entrance | [Cogwork Core South Main (Cog_04)](cogwork-core-south-main.md) | DR | Nothing. |  | Verified |  |  |
-| TL | left1 | Upper Entrance | [Cog Dancers (Cog_Dancers)](cog-dancers.md) | D | Nothing. |  | Verified |  |  |
+| BL | left2 | Lower Entrance | [Cogwork Core South Main (Cog_04)](cogwork-core-south-main.md) | DR | Nothing. |  | Verified | ✓ |  |
+| TL | left1 | Upper Entrance | [Cog Dancers (Cog_Dancers)](cog-dancers.md) | D | Nothing. |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
@@ -31,4 +31,14 @@
 
 ## Room Images
 
-Scene image unavailable.
+### Connections
+
+[![Connections for Cogwork Core Main Connection (Cog_Pass)](../00-annotations/cogwork-core/cogwork-core-main-connection-connections.png)](../00-annotations/cogwork-core/cogwork-core-main-connection-connections.png)
+
+### Checks
+
+[![Checks for Cogwork Core Main Connection (Cog_Pass)](../00-annotations/cogwork-core/cogwork-core-main-connection-checks.png)](../00-annotations/cogwork-core/cogwork-core-main-connection-checks.png)
+
+### Scene
+
+[![Scene for Cogwork Core Main Connection (Cog_Pass)](../00-annotations/cogwork-core/cogwork-core-main-connection-scene.png)](../00-annotations/cogwork-core/cogwork-core-main-connection-scene.png)

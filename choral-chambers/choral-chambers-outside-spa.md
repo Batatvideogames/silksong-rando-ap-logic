@@ -43,14 +43,14 @@
 | 4 | Gauntlet Fight | Gauntlet | Normal World Spawn |  | Verified | event | ✓ |  |
 | 5 | Choir Bellbearer 1 | Gauntlet | Normal World Spawn |  | Verified | gauntlet | ✓ |  |
 | 6 | Choir Bellbearer 2 | Gauntlet | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
-| 7 | Drapemite 1 | Base | Normal World Spawn |  | Verified | enemy | ✓ |  |
-| 8 | Choir Flyer 1 | Gauntlet | Normal World Spawn |  | Verified | gauntlet | ✓ |  |
-| 9 | Choir Pouncer 1 | Gauntlet | Normal World Spawn |  | Verified | gauntlet | ✓ |  |
-| 10 | Choristor 1 | Gauntlet | Normal World Spawn |  | Verified | gauntlet | ✓ |  |
-| 11 | Choristor 2 | Gauntlet | Normal World Spawn |  | Verified | gauntlet | ✓ |  |
-| 12 | Choristor 4 | Gauntlet | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
-| 13 | Clawmaiden 1 | Gauntlet | Normal World Spawn |  | Verified | gauntlet | ✓ | FSM Boolean flags: marionettesBurned |
-| 14 | Clawmaiden 2 | Gauntlet | Normal World Spawn |  | Verified | gauntlet | ✓ | FSM Boolean flags: marionettesBurned |
+| 7 | Choir Flyer 1 | Gauntlet | Normal World Spawn |  | Verified | gauntlet | ✓ |  |
+| 8 | Choir Pouncer 1 | Gauntlet | Normal World Spawn |  | Verified | gauntlet | ✓ |  |
+| 9 | Choristor 1 | Gauntlet | Normal World Spawn |  | Verified | gauntlet | ✓ |  |
+| 10 | Choristor 2 | Gauntlet | Normal World Spawn |  | Verified | gauntlet | ✓ |  |
+| 11 | Choristor 4 | Gauntlet | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 12 | Clawmaiden 1 | Gauntlet | Normal World Spawn |  | Verified | gauntlet | ✓ | FSM Boolean flags: marionettesBurned |
+| 13 | Clawmaiden 2 | Gauntlet | Normal World Spawn |  | Verified | gauntlet | ✓ | FSM Boolean flags: marionettesBurned |
+| 14 | Drapemite 1 | Base | Normal World Spawn |  | Verified | enemy | ✓ |  |
 | 15 | Reed 1 | Gauntlet | Normal World Spawn |  | Verified | gauntlet | ✓ |  |
 | 16 | Reed 2 | Gauntlet | Normal World Spawn |  | Verified | gauntlet | ✓ |  |
 | 17 | Song Knight 1 | Gauntlet | Normal World Spawn AND defeat Gauntlet Fight |  | Verified | enemy | ✓ | Spawn conditions: songChevalierActiveInSong_04=true, songChevalierSeenInSong_04=false, songChevalierEncounterCooldown=false, songChevalierQuestReady=false FSM Boolean flags: encounteredSongChevalierBoss |

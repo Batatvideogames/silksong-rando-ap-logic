@@ -2,7 +2,7 @@
 
 **Game ID:** Song_03
 
-**Contributors:** samupo,Gallos
+**Contributors:** samupo, Gallos
 
 ## Subrooms
 
@@ -32,9 +32,9 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Rosary Chest - Choral Chambers #1 | Bottom Right | none |  | Verified | collectible | ✓ |  |
-| 2 | Rosary Cache - Choral Chambers #8 | Top | none |  | Verified | collectible | ✓ |  |
-| 3 | Rosary Cache - Choral Chambers #9 | Top | none |  | Verified | collectible | ✓ |  |
+| 1 | Choristor's precious belongings | Bottom Right | none |  | Verified | collectible | ✓ | rosary chest |
+| 2 | Old Ventrica gains | Top | none |  | Verified | collectible | ✓ | rosary cache |
+| 3 | Old Ventrica treasury | Top | none |  | Verified | collectible | ✓ | rosary cache |
 | 4 | Choir Pouncer 1 | Bottom Left | Normal World Spawn |  | Verified | enemy | ✓ |  |
 | 5 | Reed 1 | Bottom Left | Normal World Spawn |  | Verified | enemy | ✓ | FSM Boolean flags: marionettesBurned, marionettesMet |
 | 6 | Choristor 1 | Bottom Right | Normal World Spawn |  | Verified | enemy | ✓ |  |

@@ -2,6 +2,8 @@
 
 **Game ID:** Bellshrine_Enclave
 
+**Contributors:** Gallos
+
 ## Subrooms
 
 No subrooms defined.

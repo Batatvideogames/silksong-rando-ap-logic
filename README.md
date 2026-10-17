@@ -367,7 +367,7 @@ Generated from the non-archived records in `input/silksong-rando-logic.db`.
 - [Choral Chambers Flea Shaft (Song_11)](./choral-chambers/choral-chambers-flea-shaft.md)
 - [High Halls Corridor (Hang_07)](./choral-chambers/high-halls-corridor.md)
 - [Corridor to High Halls (Song_17)](./choral-chambers/corridor-to-high-halls.md)
-- [Choral Chambers Over Dininig (Song_09)](./choral-chambers/choral-chambers-over-dininig.md)
+- [Choral Chambers Over Dining (Song_09)](./choral-chambers/choral-chambers-over-dining.md)
 - [Choral Chambers Dining Room (Song_09b)](./choral-chambers/choral-chambers-dining-room.md)
 - [Choral Chambers Eastern Shaft (Song_05)](./choral-chambers/choral-chambers-eastern-shaft.md)
 - [Choral Chambers Merchant Room (Song_07)](./choral-chambers/choral-chambers-merchant-room.md)
@@ -385,6 +385,7 @@ Generated from the non-archived records in `input/silksong-rando-logic.db`.
 - [Grand Bellway Side Room (Song_24)](./choral-chambers/grand-bellway-side-room.md)
 - [Grand Bellway (Bellway_City)](./choral-chambers/grand-bellway.md)
 - [Choral Chambers East to West (Song_27)](./choral-chambers/choral-chambers-east-to-west.md)
+- [Bellway Centipede Arena (Bellway_Centipede_Arena)](./choral-chambers/bellway-centipede-arena.md)
 
 ## Cogwork Core
 

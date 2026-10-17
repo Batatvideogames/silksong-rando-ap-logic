@@ -2,7 +2,7 @@
 
 **Game ID:** Song_26
 
-**Contributors:** samupo
+**Contributors:** samupo, Gallos
 
 ## Subrooms
 
@@ -22,7 +22,7 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Choral Chambers Cogheart Piece |  | flip switch down |  | Verified | collectible | ✓ | memory puzzle |
+| 1 | Choral Chambers Cogheart Piece |  | flip switch either |  | Verified | collectible | ✓ | memory puzzle |
 
 ## Room Images
 

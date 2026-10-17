@@ -12,8 +12,8 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Abyss Landing Zone (Abyss_03)](abyss-landing-zone.md) | D1 | None |  | Verified |  |  |
-| D | door_wakeOnGround |  | [Abyss Diving Bell Broken (Room_Diving_Bell_Abyss)](abyss-diving-bell-broken.md) | D | None |  | Verified |  | One Way from deep docks |
+| L | left1 |  | [Abyss Landing Zone (Abyss_03)](abyss-landing-zone.md) | D1 | None |  | Verified | ✓ |  |
+| D | door_wakeOnGround |  | [Abyss Diving Bell Broken (Room_Diving_Bell_Abyss)](abyss-diving-bell-broken.md) | D | None |  | Verified | ✓ | One Way from deep docks |
 
 ## Subroom Connections
 
@@ -25,4 +25,14 @@ No check locations defined.
 
 ## Room Images
 
-Scene image unavailable.
+### Connections
+
+[![Connections for Abyss Diving Bell Broken (Room_Diving_Bell_Abyss)](../00-annotations/the-abyss/abyss-diving-bell-broken-connections.png)](../00-annotations/the-abyss/abyss-diving-bell-broken-connections.png)
+
+### Checks
+
+[![Checks for Abyss Diving Bell Broken (Room_Diving_Bell_Abyss)](../00-annotations/the-abyss/abyss-diving-bell-broken-checks.png)](../00-annotations/the-abyss/abyss-diving-bell-broken-checks.png)
+
+### Scene
+
+[![Scene for Abyss Diving Bell Broken (Room_Diving_Bell_Abyss)](../00-annotations/the-abyss/abyss-diving-bell-broken-scene.png)](../00-annotations/the-abyss/abyss-diving-bell-broken-scene.png)

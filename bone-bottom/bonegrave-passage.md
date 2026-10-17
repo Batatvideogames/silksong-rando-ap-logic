@@ -22,8 +22,19 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | summoned savior boss fight |  | complete THE a vassal lost wish promised AND at least 3 resting sites visited |  | Verified | boss |  |  |
+| 1 | need a scene dump for this room |  | invalid | TODO | Needs verification | logic-point |  |  |
+| 2 | summoned savior boss fight |  | complete THE a vassal lost wish promised AND at least 3 resting sites visited |  | Verified | boss |  |  |
 
 ## Room Images
 
-Scene image unavailable.
+### Connections
+
+[![Connections for Bonegrave Passage (Bone_Steel_Servant)](../00-annotations/bone-bottom/bonegrave-passage-connections.png)](../00-annotations/bone-bottom/bonegrave-passage-connections.png)
+
+### Checks
+
+[![Checks for Bonegrave Passage (Bone_Steel_Servant)](../00-annotations/bone-bottom/bonegrave-passage-checks.png)](../00-annotations/bone-bottom/bonegrave-passage-checks.png)
+
+### Scene
+
+[![Scene for Bonegrave Passage (Bone_Steel_Servant)](../00-annotations/bone-bottom/bonegrave-passage-scene.png)](../00-annotations/bone-bottom/bonegrave-passage-scene.png)

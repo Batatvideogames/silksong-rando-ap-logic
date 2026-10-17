@@ -36,7 +36,7 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Greymoor - Rosary Cache #14 | Top Right Section | nothing |  | Verified | resource | ✓ |  |
+| 1 | Greymoor - Secret dead bug rosaries near rat tunnel | Top Right Section | nothing |  | Verified | resource | ✓ |  |
 | 2 | Flea Brew | Bottom Left Section | complete THE The Lost Fleas Wish Granted |  | Verified | collectible | ✓ |  |
 | 3 | Flea Caravan - Spool fragment | Bottom Left Section | after flea caravan move to blasted steps |  | Verified | collectible | ✓ | reward for the move is the spool fragment |
 | 4 | Boss: Moorwing | Bottom Left Section | invalid |  | Verified | boss | ✓ | randomizer should always force moorwing at other spot for consitent logic - hero, 9/26 |

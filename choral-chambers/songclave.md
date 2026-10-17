@@ -2,6 +2,8 @@
 
 **Game ID:** Song_Enclave
 
+**Contributors:** Gallos
+
 ## Subrooms
 
 | No. | Subroom | Annotated |

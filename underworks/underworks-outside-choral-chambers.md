@@ -12,13 +12,14 @@
 | S2 | Main | ✓ |
 | S3 | Frayed String | ✓ |
 | S4 | Floor | ✓ |
+| S5 | Top Exit | ✓ |
 
 ## Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | L | left2 | Floor | [Underworks Shaft (Under_02)](underworks-shaft.md) | R4 | none |  | Verified | ✓ |  |
-| T | top1 | Main | [Choral Chambers Outisde Underworks (Under_07b)](../choral-chambers/choral-chambers-outisde-underworks.md) | B | Open Airlock Up AND (Silk Soar OR Faydown Cloak OR Cling Grip OR Easy Scuttlebrace) |  | Verified | ✓ |  |
+| T | top1 | Top Exit | [Choral Chambers Outisde Underworks (Under_07b)](../choral-chambers/choral-chambers-outisde-underworks.md) | B | activate Switch Outside Choral Chambers |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
@@ -30,6 +31,8 @@
 | MS | Main <> String | Frayed String | Main | Activate Fuckass Room Wall |  | Verified | ✓ |  |
 | MR | Main <> Rosary | Main | Rosary | Cling Grip OR Easy Scuttlebrace |  | Verified | ✓ |  |
 | MR | Main <> Rosary | Rosary | Main | Nothing. (Fall) |  | Verified | ✓ |  |
+| MT | Main <> Top | Main | Top Exit | Open Airlock Up AND (Silk Soar OR Faydown Cloak OR Cling Grip OR Easy Scuttlebrace) |  | Verified | ✓ |  |
+| MT | Main <> Top | Top Exit | Main | Nothing. (Fall) |  | Verified | ✓ |  |
 
 ## Check Locations
 
@@ -40,7 +43,8 @@
 | 3 | Shell Shard Cache: Underworks #14 | Main | cling grip AND (dash OR clawline OR sharpdart) |  | Verified | collectible | ✓ |  |
 | 4 | Frayed Rosary String: Underworks #1 | Frayed String | cling grip |  | Verified | collectible | ✓ |  |
 | 5 | Fuckass Room Wall | Main | Break Wall Right |  | Verified | blockade | ✓ |  |
-| 6 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 6 | Switch Outside Choral Chambers | Top Exit | flip switch up |  | Verified | switch |  |  |
+| 7 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Notes
 

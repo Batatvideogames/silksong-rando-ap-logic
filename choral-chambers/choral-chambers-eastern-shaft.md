@@ -19,7 +19,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | L1 | left5 | Section 1 | [Choral Chambers Below Spa (Song_02)](choral-chambers-below-spa.md) | R | none |  | Verified | ✓ |  |
 | R1 | right3 | Section 1 | [Whiteward Entrance (Ward_01)](../whiteward/whiteward-entrance.md) | TL | none |  | Verified | ✓ |  |
-| L2 | left4 | Section 3 | [Choral Chambers Merchant Room (Song_07)](choral-chambers-merchant-room.md) | R | none |  | Verified | ✓ |  |
+| L2 | left4 | Section 2 | [Choral Chambers Merchant Room (Song_07)](choral-chambers-merchant-room.md) | R | none |  | Verified | ✓ |  |
 | R2 | right4 | Section 2 | [Choral Chambers East to West (Song_27)](choral-chambers-east-to-west.md) | L | activate Lever East to West IN choral chambers east to west |  | Verified | ✓ |  |
 | L3 | left3 | Section 3 | [Choral Chambers Flea Shaft (Song_11)](choral-chambers-flea-shaft.md) | BR | none |  | Verified | ✓ |  |
 | R4 | right2 | Section 4 | [Choral Chambers Below Dining (Song_18)](choral-chambers-below-dining.md) | L | none |  | Verified | ✓ |  |
@@ -28,34 +28,34 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| V1 | Section 1 to Section 2 | Section 1 | Section 2 | ledge grab OR silk soar OR (cling grip AND (dash OR clawline)) |  |  | ✓ |  |
-| V2 | Section 2 to Section 3 | Section 2 | Section 3 | silk soar OR (cling grip AND (ledge grab OR clawline)) OR faydown cloak OR (medium pogo off Reed AND medium Heal stall AND medium damage boost) OR (easy Shaman pogo AND easy pogo off Reed) |  |  | ✓ | Reed pogo |
-| V3 | Section 3 to Section 4 | Section 3 | Section 4 | ledge grab OR clawline OR silk soar OR easy pogo off [Reed, Choristor] |  |  | ✓ |  |
-| F4 | Falling from Section 4 | Section 4 | Section 3 | none |  |  |  | falling |
-| F3 | Falling from Section 3 | Section 3 | Section 2 | none |  |  |  | falling |
-| F2 | Falling from Section 2 | Section 2 | Section 1 | none |  |  |  | falling |
+| V1 | Section 1 to Section 2 | Section 1 | Section 2 | ledge grab either OR silk soar OR easy pogo off [Envoy, Choir Hornhead, Reed] OR scuttlebrace |  | Verified | ✓ |  |
+| V1 | Section 1 to Section 2 | Section 2 | Section 1 | none |  | Verified | ✓ | falling |
+| V2 | Section 2 to Section 3 | Section 2 | Section 3 | silk soar OR (cling grip  right AND (scuttlebrace OR ledge grab left OR (clawline right AND spike pogo))) OR (easy pogo off Choir pouncer AND ((easy pogo off Reed AND (easy heal stall OR easy voltvessels stall OR easy plasmium phial stall OR easy flintslate stall )AND easy damage boost) OR (easy Shaman pogo AND easy pogo off Reed))) OR (faydown cloak AND cling grip left) |  | Verified | ✓ |  |
+| V2 | Section 2 to Section 3 | Section 3 | Section 2 | none |  | Verified | ✓ | falling |
+| V3 | Section 3 to Section 4 | Section 3 | Section 4 | (ledge grab right AND (spike pogo OR ledge grab left OR easy pogo off [Choir bellbearer, Reed, Choristor] )) OR (clawline right AND (spike pogo OR ledge grab left)) OR silk soar OR easy pogo off [Choir pouncer,Reed, Choristor] OR easy [Wanderer,Reaper,Beast,Witch,Architect, Shaman] pogo |  | Verified | ✓ |  |
+| V3 | Section 3 to Section 4 | Section 4 | Section 3 | none |  | Verified | ✓ | falling |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Lace Second Encounter | Section 1 | none |  | Verified | event |  |  |
-| 2 | Choristor 1 |  |  |  |  | enemy | ✓ |  |
-| 3 | Choir Pouncer 1 |  |  |  |  | enemy | ✓ |  |
-| 4 | Reed 1 |  |  |  |  | enemy | ✓ |  |
-| 5 | Choir Hornhead 1 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: song05MarchGroupReady=true |
-| 6 | Envoy 1 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: song05MarchGroupReady=true |
-| 7 | Choristor 2 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: song05MarchGroupReady=true |
-| 8 | Reed 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 9 | Choir Bellbearer 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 10 | Choir Pouncer 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 11 | Envoy 2 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: laceMeetCitadel=false |
-| 12 | Reed 3 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: laceMeetCitadel=false |
-| 13 | Reed 4 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
-| 14 | Reed 5 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
-| 15 | Void Mass 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
-| 16 | Choir Bellbearer 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
-| 17 | Choir Hornhead 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 1 | Lace Second Encounter | Section 1 | none |  | Verified | event | ✓ |  |
+| 2 | Choir Bellbearer 1 | Section 4 | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 3 | Choir Bellbearer 2 | Section 2 | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 4 | Choir Hornhead 1 | Section 1 | Normal World Spawn |  | Verified | enemy | ✓ | Spawn conditions: song05MarchGroupReady=true |
+| 5 | Choir Hornhead 2 | Section 1 | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 6 | Choir Pouncer 1 | Section 2 | Normal World Spawn AND Invalid |  | Verified | enemy | ✓ | activeSelf is set to false  seems to be a copy in the root by mistake |
+| 7 | Choir Pouncer 2 | Section 2 | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 8 | Choristor 1 | Section 3 | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 9 | Choristor 2 | Section 1 | Normal World Spawn AND Invalid |  | Verified | enemy | ✓ | Spawn conditions: song05MarchGroupReady=true  activeSelf is set to false, no FSM activation |
+| 10 | Envoy 1 | Section 1 | Normal World Spawn |  | Verified | enemy | ✓ | Spawn conditions: song05MarchGroupReady=true |
+| 11 | Envoy 2 | Section 1 | Normal World Spawn |  | Verified | enemy | ✓ | Spawn conditions: laceMeetCitadel=false |
+| 12 | Reed 1 | Section 4 | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 13 | Reed 2 | Section 2 | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 14 | Reed 3 | Section 1 | Normal World Spawn |  | Verified | enemy | ✓ | Spawn conditions: laceMeetCitadel=false |
+| 15 | Reed 4 | Section 2 | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 16 | Reed 5 | Section 2 | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 17 | Void Mass 1 | Section 2 | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

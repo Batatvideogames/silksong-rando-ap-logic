@@ -1,5 +1,5 @@
 {
-  "requirementCatalogueVersion": 3,
+  "requirementCatalogueVersion": 4,
   "predicates": [
     {
       "id": "e33d333d-9ecc-5425-a005-f59b5f0507a5",
@@ -409,7 +409,7 @@
       "outputSyntax": "capability:scuttlebrace:{difficulty}",
       "notes": "The unholy abomination. This implies you have the tool, dash, and the tool slot to equip scuttlebrace.",
       "sortOrder": 40,
-      "aliases": "scuttlebrace"
+      "aliases": "scuttlebrace, scuttlebug"
     },
     {
       "id": "dac62eb7-1b6e-43a7-92d6-f678e5e66c30",
@@ -525,8 +525,8 @@
       "id": "f0afc2bc-fb3f-4d2e-a9b3-060e2d440056",
       "name": "Enemy Type Pogo",
       "category": "Technique",
-      "inputSyntax": "{difficulty} {predicate} [{enemy}]",
-      "outputSyntax": "capability:enemy-type-pogo:{enemy}:{difficulty}",
+      "inputSyntax": "{difficulty} {predicate} [{soul}]",
+      "outputSyntax": "capability:enemy-type-pogo:{soul}:{difficulty}",
       "notes": "",
       "sortOrder": 52,
       "aliases": "pogo off, enemy pogo off"
@@ -535,8 +535,8 @@
       "id": "fb44fc2e-9f92-4467-8528-e15844f59961",
       "name": "Damage Boost Off Enemy",
       "category": "Technique",
-      "inputSyntax": "{difficulty} {predicate} [{enemy}]",
-      "outputSyntax": "technique:damage-boost:{enemy}:{difficulty}",
+      "inputSyntax": "{difficulty} {predicate} [{soul}]",
+      "outputSyntax": "technique:damage-boost:{soul}:{difficulty}",
       "notes": "",
       "sortOrder": 53,
       "aliases": "damage boost off enemy, damage boost off"
@@ -4272,7 +4272,7 @@
       "aliases": "verdania shards"
     }
   ],
-  "enemyTypes": [
+  "souls": [
     {
       "id": "62472664-7819-40eb-be5a-368bf16f5b20",
       "name": "Mossgrub",

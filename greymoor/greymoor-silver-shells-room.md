@@ -35,7 +35,11 @@
 | 4 | Greymoor - Shell Shard Cache #6 | hidden area | prereq wooden wall |  | Verified | resource | ✓ |  |
 | 5 | Greymoor - Shell Shard Cache #7 | hidden area | prereq wooden wall |  | Verified | resource | ✓ |  |
 | 6 | wooden wall | hidden area | break wall: left |  | Verified | blockade | ✓ |  |
-| 7 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 7 | Craw 1 |  |  |  |  | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false |
+| 8 | Shardillard 1 |  |  |  |  | enemy | ✓ |  |
+| 9 | Fluttermite 1 |  |  |  |  | enemy | ✓ |  |
+| 10 | Fluttermite 2 |  |  |  |  | enemy | ✓ |  |
+| 11 | Mite 1 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

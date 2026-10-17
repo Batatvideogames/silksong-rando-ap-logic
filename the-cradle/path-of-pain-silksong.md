@@ -8,43 +8,43 @@
 
 | No. | Subroom | Annotated |
 | --- | --- | --- |
-| S1 | Top |  |
-| S2 | Herald Platform |  |
-| S3 | Bottom |  |
+| S1 | Top | ✓ |
+| S2 | Herald Platform | ✓ |
+| S3 | Bottom | ✓ |
 
 ## Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| C | top1 | Top | [The Surface (Abandoned_town)](the-surface.md) | F | None |  | Verified |  |  |
-| L | left1 | Bottom | [Path of Pain Bench (Cradle_Destroyed_Challenge_Bench)](path-of-pain-bench.md) | R | None |  | Verified |  |  |
+| C | top1 | Top | [The Surface (Abandoned_town)](the-surface.md) | F | None |  | Verified | ✓ |  |
+| L | left1 | Bottom | [Path of Pain Bench (Cradle_Destroyed_Challenge_Bench)](path-of-pain-bench.md) | R | None |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| PP | path of pain mini | Bottom | Herald Platform | Cling Grip AND Clawline AND Faydown Cloak |  | Verified |  |  |
-| PP | path of pain mini | Herald Platform | Bottom | ( Cling Grip AND Clawline AND Faydown Cloak ) |  | Verified |  | I think this was the Pyxl said should be Nothing difficulty Medium |
-| SC | to the surface | Herald Platform | Top | ( Faydown Cloak AND Cling Grip ) |  | Verified |  | Silk Soar does not work here. Nice touch, Team Cherry. - hero |
-| SC | to the surface | Top | Herald Platform | None (falling) |  | Verified |  |  |
+| PP | path of pain mini | Bottom | Herald Platform | Cling Grip AND Clawline AND Faydown Cloak |  | Verified | ✓ |  |
+| PP | path of pain mini | Herald Platform | Bottom | ( Cling Grip AND Clawline AND Faydown Cloak ) |  | Verified | ✓ | I think this was the Pyxl said should be Nothing difficulty Medium |
+| SC | to the surface | Herald Platform | Top | ( Faydown Cloak AND Cling Grip ) |  | Verified | ✓ | Silk Soar does not work here. Nice touch, Team Cherry. - hero |
+| SC | to the surface | Top | Herald Platform | None (falling) |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Mister Mushroom Meeting The Cradle | Herald Platform | after THE Mister Mushroom Meeting Mount Fay AND Needolin |  | Verified | event |  |  |
+| 1 | Mister Mushroom Meeting The Cradle | Herald Platform | after THE Mister Mushroom Meeting Mount Fay AND Needolin |  | Verified | event | ✓ |  |
 | 2 | Passing of the Age Wish Granted | Herald Platform | after Mister Mushroom Meeting The Cradle |  | Verified | event |  |  |
-| 3 | Imoba 1 |  |  |  |  | enemy |  |  |
-| 4 | Imoba 2 |  |  |  |  | enemy |  |  |
-| 5 | Imoba 3 |  |  |  |  | enemy |  |  |
-| 6 | Imoba 4 |  |  |  |  | enemy |  |  |
-| 7 | Imoba 5 |  |  |  |  | enemy |  |  |
-| 8 | Imoba 6 |  |  |  |  | enemy |  |  |
-| 9 | Imoba 7 |  |  |  |  | enemy |  |  |
-| 10 | Imoba 8 |  |  |  |  | enemy |  |  |
-| 11 | Imoba 9 |  |  |  |  | enemy |  |  |
-| 12 | Imoba 10 |  |  |  |  | enemy |  |  |
-| 13 | Imoba 11 |  |  |  |  | enemy |  |  |
+| 3 | Imoba 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Imoba 2 |  |  |  |  | enemy | ✓ |  |
+| 5 | Imoba 3 |  |  |  |  | enemy | ✓ |  |
+| 6 | Imoba 4 |  |  |  |  | enemy | ✓ |  |
+| 7 | Imoba 5 |  |  |  |  | enemy | ✓ |  |
+| 8 | Imoba 6 |  |  |  |  | enemy | ✓ |  |
+| 9 | Imoba 7 |  |  |  |  | enemy | ✓ |  |
+| 10 | Imoba 8 |  |  |  |  | enemy | ✓ |  |
+| 11 | Imoba 9 |  |  |  |  | enemy | ✓ |  |
+| 12 | Imoba 10 |  |  |  |  | enemy | ✓ |  |
+| 13 | Imoba 11 |  |  |  |  | enemy | ✓ |  |
 
 ## Notes
 
@@ -52,4 +52,14 @@ No map link for this
 
 ## Room Images
 
-Scene image unavailable.
+### Connections
+
+[![Connections for Path Of Pain Silksong (Cradle_Destroyed_Challenge_01)](../00-annotations/the-cradle/path-of-pain-silksong-connections.png)](../00-annotations/the-cradle/path-of-pain-silksong-connections.png)
+
+### Checks
+
+[![Checks for Path Of Pain Silksong (Cradle_Destroyed_Challenge_01)](../00-annotations/the-cradle/path-of-pain-silksong-checks.png)](../00-annotations/the-cradle/path-of-pain-silksong-checks.png)
+
+### Scene
+
+[![Scene for Path Of Pain Silksong (Cradle_Destroyed_Challenge_01)](../00-annotations/the-cradle/path-of-pain-silksong-scene.png)](../00-annotations/the-cradle/path-of-pain-silksong-scene.png)

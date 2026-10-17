@@ -31,7 +31,7 @@
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | PG1 | platform gap 1 | upper section | middle section | nothing (just fall) |  | Verified | ✓ |  |
-| PG1 | platform gap 1 | middle section | upper section | ((act 1 OR act 2) AND (ledge grab left OR cling grip left OR silk soar OR easy scuttlebrace OR (progressive swift step 2 left AND proficient movement) OR faydown cloak)) OR (act 3 AND ((faydown cloak AND clawline right x 1) OR (((clawline right x 1 AND (ledge grab right OR flea brew)) OR (progressive swift step 1 right AND ((sharpdart x 1 AND drifters cloak) OR clawline right x 1)) OR (progressive swift step 2 right AND sharpdart) OR clawline right x 2) AND (ledge grab left OR cling grip OR silk soar OR easy scuttlebrace OR (progressive swift step 2 left AND proficient movement))))) |  | Verified | ✓ |  |
+| PG1 | platform gap 1 | middle section | upper section | ((act 1 OR act 2) AND (ledge grab left OR cling grip left OR silk soar OR easy scuttlebrace OR (progressive swift step 2 left AND proficient movement) OR faydown cloak)) OR (act 3 AND ((faydown cloak AND clawline right x 1) OR (((clawline right x 1 AND (ledge grab right OR flea brew)) OR (progressive swift step 1 right AND ((sharpdart x 1 AND drifters cloak) OR clawline right x 1)) OR (progressive swift step 2 right AND sharpdart) OR clawline right x 2) AND (ledge grab left OR cling grip left OR silk soar OR easy scuttlebrace OR (progressive swift step 2 left AND proficient movement))))) |  | Verified | ✓ |  |
 | F1 | fall 1 | middle section | tower entrance | nothing |  | Verified | ✓ |  |
 | F1 | fall 1 | tower entrance | middle section | silk soar OR (cling grip right AND (faydown cloak OR clawline left x 1 OR sharpdart x 1 OR (drifters cloak AND (ledge grab left OR progressive swift step 2 left OR easy beast pogo OR easy shaman pogo)) OR (easy architect needle strike AND progressive swift step 2 left))) |  | Verified | ✓ |  |
 | B1 | blockade 1 | tower entrance | door cage | unlock tower entrance door |  | Verified | ✓ |  |
@@ -53,11 +53,11 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Greymoor - Rosary Cache #11 | rosaries room | nothing |  | Verified | resource | ✓ |  |
-| 2 | Greymoor - Rosary Cache #12 | rosaries room | nothing |  | Verified | resource | ✓ |  |
-| 3 | Greymoor - Rosary Cache #13 | tiny platform | nothing |  | Verified | resource | ✓ |  |
-| 4 | Greymoor - Rosary Dish | rosaries room | nothing |  | Verified | resource | ✓ |  |
-| 5 | tower entrance door | tower entrance | break lever right OR break lever left OR break lever up |  | Verified | blockade | ✓ |  |
+| 1 | Greymoor - hanging rosaries below scissor fucker | rosaries room | nothing |  | Verified | resource | ✓ |  |
+| 2 | Greymoor - the other hanging rosaries below scissor fucker | rosaries room | nothing |  | Verified | resource | ✓ |  |
+| 3 | Greymoor - Rosary Dish (scissor fucker mortage) | rosaries room | nothing |  | Verified | resource | ✓ |  |
+| 4 | tower entrance door | tower entrance | break lever right OR break lever left OR break lever up |  | Verified | blockade | ✓ |  |
+| 5 | Greymoor - that one rosary i hate in tiny platform to the right | tiny platform | nothing |  | Verified | resource | ✓ |  |
 | 6 | Silk Snipper 1 | wood corridor | nothing |  | Verified | enemy | ✓ |  |
 | 7 | Mite 1 | tiny platform | nothing |  | Verified | enemy | ✓ |  |
 | 8 | Mite 2 | middle section | nothing |  | Verified | enemy | ✓ |  |

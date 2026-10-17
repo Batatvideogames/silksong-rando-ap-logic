@@ -12,8 +12,8 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 |  | [Shrine Guardian Seth (Shellwood_22)](shrine-guardian-seth.md) | D | None |  | Verified |  |  |
-| D | door_wakeOnGround |  | [Nyleth Fight (Shellwood_11b_Memory)](nyleth-fight.md) | D | Needolin AND Have Elegy of the deep |  | Verified |  |  |
+| R | right1 |  | [Shrine Guardian Seth (Shellwood_22)](shrine-guardian-seth.md) | D | None |  | Verified | ✓ |  |
+| D | door_wakeOnGround |  | [Nyleth Fight (Shellwood_11b_Memory)](nyleth-fight.md) | D | Needolin AND Have Elegy of the deep |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
@@ -27,4 +27,14 @@ No subroom connections defined.
 
 ## Room Images
 
-Scene image unavailable.
+### Connections
+
+[![Connections for Nyleth Shrine (Shellwood_11b)](../00-annotations/grand-gate/nyleth-shrine-connections.png)](../00-annotations/grand-gate/nyleth-shrine-connections.png)
+
+### Checks
+
+[![Checks for Nyleth Shrine (Shellwood_11b)](../00-annotations/grand-gate/nyleth-shrine-checks.png)](../00-annotations/grand-gate/nyleth-shrine-checks.png)
+
+### Scene
+
+[![Scene for Nyleth Shrine (Shellwood_11b)](../00-annotations/grand-gate/nyleth-shrine-scene.png)](../00-annotations/grand-gate/nyleth-shrine-scene.png)

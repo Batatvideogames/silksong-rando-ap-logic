@@ -22,7 +22,7 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Flea Greymoor - Kraft |  | silk soar OR cling grip OR easy scuttlebrace |  | Verified | collectible | ✓ |  |
+| 1 | Flea Greymoor - Kraft |  | silk soar OR cling grip left OR cling grip right OR easy scuttlebrace |  | Verified | collectible | ✓ |  |
 
 ## Room Images
 

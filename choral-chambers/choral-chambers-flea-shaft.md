@@ -9,60 +9,65 @@
 | No. | Subroom | Annotated |
 | --- | --- | --- |
 | S1 | Base Bottom | ✓ |
-| S2 | Base Upper | ✓ |
-| S3 | Top Section 1 | ✓ |
-| S4 | Top Section 2 | ✓ |
-| S5 | Top Section 3 Left | ✓ |
-| S6 | Top Section 3 Right | ✓ |
+| S2 | Base Middle | ✓ |
+| S3 | Base Upper Right | ✓ |
+| S4 | Base Upper Left | ✓ |
+| S5 | Top Section 1 | ✓ |
+| S6 | Top Section 2 | ✓ |
+| S7 | Top Section 3 Left | ✓ |
+| S8 | Top Section 3 Right | ✓ |
 
-- **Base Bottom:** Base Isolated from Top by one-way door available on Top
-- **Base Upper:** Base Isolated from Top by one-way door available on Top
+- **Base Upper Right:** 
+
 
 ## Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| S3L | left1 | Top Section 3 Left | [Corridor to High Halls (Song_17)](corridor-to-high-halls.md) | R | none |  |  | ✓ |  |
-| S2L | left2 | Top Section 2 | [Choral Chambers Maintenance Tunnel (Song_15)](choral-chambers-maintenance-tunnel.md) | R | none |  |  | ✓ |  |
-| S3R | right2 | Top Section 3 Right | [High Halls Corridor (Hang_07)](high-halls-corridor.md) | L | ledge grab OR faydown cloak OR cling grip OR silk soar |  |  | ✓ |  |
-| BLB | left4 | Base Upper | [Choral Chambers Spa (Song_10)](choral-chambers-spa.md) | R | activate Lever Chambers Spa 2 IN choral chambers spa |  |  | ✓ |  |
-| BR | right3 | Base Bottom | [Choral Chambers Eastern Shaft (Song_05)](choral-chambers-eastern-shaft.md) | L3 | none |  |  | ✓ |  |
-| BLT | left3 | Base Upper | [Choral Chambers Above Spa (Song_13)](choral-chambers-above-spa.md) | R | none |  |  | ✓ |  |
-| S1R | right1 | Top Section 1 | [Choral Chambers Dining Room (Song_09b)](choral-chambers-dining-room.md) | L | none |  |  | ✓ |  |
+| S3L | left1 | Top Section 3 Left | [Corridor to High Halls (Song_17)](corridor-to-high-halls.md) | R | none |  | Verified | ✓ |  |
+| S2L | left2 | Top Section 2 | [Choral Chambers Maintenance Tunnel (Song_15)](choral-chambers-maintenance-tunnel.md) | R | none |  | Verified | ✓ |  |
+| S3R | right2 | Top Section 3 Right | [High Halls Corridor (Hang_07)](high-halls-corridor.md) | L | none |  | Verified | ✓ |  |
+| BLB | left4 | Base Middle | [Choral Chambers Spa (Song_10)](choral-chambers-spa.md) | R | activate Lever Chambers Spa 2 IN choral chambers spa |  | Verified | ✓ |  |
+| BR | right3 | Base Bottom | [Choral Chambers Eastern Shaft (Song_05)](choral-chambers-eastern-shaft.md) | L3 | none |  | Verified | ✓ |  |
+| BLT | left3 | Base Upper Left | [Choral Chambers Above Spa (Song_13)](choral-chambers-above-spa.md) | R | none |  | Verified | ✓ |  |
+| S1R | right1 | Top Section 1 | [Choral Chambers Dining Room (Song_09b)](choral-chambers-dining-room.md) | L | none |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| VB | Vertical Base | Base Bottom | Base Upper | silk soar OR faydown cloak OR (cling grip AND ((dash AND ledge grab) OR (drifter's cloak AND ledge grab) OR clawline)) OR medium enemy pogo |  |  | ✓ | can hit Choir flyer exactly 4 times |
-| VB | Vertical Base | Base Upper | Base Bottom | none |  |  | ✓ | falling |
-| VL | Vertical Lever | Top Section 1 | Base Upper | none |  |  | ✓ | one way, falling |
-| V1 | Section 1 to Section 2 | Top Section 1 | Top Section 2 | silk soar OR cling grip OR (faydown cloak AND ledge grab) OR (easy enemy pogo AND easy heal stall) |  |  |  | first elder then choir flyer |
-| V2L | Section 2 to Section 3 Left | Top Section 2 | Top Section 3 Left | silk soar AND (ledge grab OR clawline OR dash OR sharpdart OR faydown cloak) |  |  |  |  |
-| V3R | Section 2 to Section 3 Right | Top Section 2 | Top Section 3 Right | silk soar OR (cling grip AND (clawline OR dash)) |  |  |  |  |
-| F3L | Section 3 Right falling | Top Section 3 Right | Top Section 2 | none |  |  |  | falling |
-| F3R | Section 3 Left falling | Top Section 3 Left | Top Section 2 | none |  |  |  | falling |
-| F2 | Section 2 falling | Top Section 2 | Top Section 1 | none |  |  |  | falling |
-| H | Top Horizontal Traversal | Top Section 3 Right | Top Section 3 Left | ledge grab OR clawline both OR drifter's cloak | TODO |  |  | check sharpdart |
-| H | Top Horizontal Traversal | Top Section 3 Left | Top Section 3 Right | ledge grab OR clawline OR cling grip |  |  |  |  |
+| VS | Vertical Base | Base Bottom | Base Middle | (cling grip left AND (dash left OR clawline left OR sharpdart)) OR easy pogo off Choir flyer OR (faydown cloak AND (ledge grab either OR easy Shaman pogo OR (scuttlebrace AND cling grip right))) OR silk soar |  | Verified | ✓ |  |
+| VS | Vertical Base | Base Middle | Base Bottom | none |  | Verified | ✓ | falling |
+| VR | Vertical Middle | Base Middle | Base Upper Right | faydown cloak OR easy enemy pogo off [Choir hornhead] OR (Dash right AND ledge grab right) OR (run AND (ledge grab right OR easy Damage boost off Choir hornhead OR (easy Damage boost off Choir pouncer AND (easy heal stall OR easy voltvessels stall OR easy plasmium phial stall OR easy flintslate stall)))) OR silk soar OR scuttlebrace |  | Verified | ✓ |  |
+| VR | Vertical Middle | Base Upper Right | Base Middle | none |  | Verified | ✓ | falling |
+| LR | Base Upper Traversal | Base Upper Right | Base Upper Left | faydown cloak OR silk soar OR ((run OR clawline left OR sharpdart) AND ledge grab left) OR scuttlebrace |  | Verified | ✓ |  |
+| LR | Base Upper Traversal | Base Upper Left | Base Upper Right | none |  | Verified | ✓ | falling |
+| VL | Vertical Lever | Base Upper Left | Top Section 1 | activate Lever Flea shaft AND ((easy pogo off Choir Elder) OR faydown cloak OR silk soar OR cling grip right) |  | Verified | ✓ |  |
+| VL | Vertical Lever | Top Section 1 | Base Upper Left | activate Lever Flea shaft |  | Verified | ✓ | falling |
+| V1 | Section 1 to Section 2 | Top Section 1 | Top Section 2 | silk soar OR (cling grip left AND (faydown cloak OR cling grip right OR (easy  pogo off Choir Flyer AND easy heal stall))) OR (faydown cloak AND ledge grab left AND easy pogo off Choir Elder AND spike pogo) OR (easy  pogo off [Choir Flyer, Choir Elder] AND easy heal stall AND spike pogo AND ledge grab either) |  | Verified | ✓ |  |
+| V1 | Section 1 to Section 2 | Top Section 2 | Top Section 1 | none |  | Verified | ✓ | falling |
+| V2 | Section 2 to Section 3 Left | Top Section 2 | Top Section 3 Left | (silk soar AND (ledge grab left OR clawline left OR dash left OR sharpdart OR faydown cloak OR drifter's cloak OR scuttlebrace OR easy pogo off Choir Flyer)) OR (cling grip left AND spike pogo) OR (cling grip right AND (ledge grab left OR easy pogo off Choir Flyer OR scuttlebrace OR faydown cloak)) |  | Verified | ✓ |  |
+| V2 | Section 2 to Section 3 Left | Top Section 3 Left | Top Section 2 | none |  | Verified | ✓ | falling |
+| H | Top Horizontal Traversal | Top Section 3 Right | Top Section 3 Left | ledge grab left OR clawline left OR drifter's cloak OR sharpdart OR scuttlebrace OR easy pogo off Choir Flyer |  | Verified | ✓ |  |
+| H | Top Horizontal Traversal | Top Section 3 Left | Top Section 3 Right | (run AND (ledge grab right OR easy heal stall OR easy voltvessels stall OR easy plasmium phial stall OR easy flintslate stall)) OR (silk soar AND (ledge grab right OR clawline right OR dash right OR sharpdart OR faydown cloak OR drifter's cloak OR scuttlebrace OR easy pogo off Choir Flyer)) OR cling grip right OR scuttlebrace OR (easy pogo off Choir Flyer AND (dash right OR (easy heal stall OR easy voltvessels stall OR easy plasmium phial stall OR easy flintslate stall)) AND easy damage boost off Choir FLyer) OR clawline right OR sharpdart OR faydown cloak |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Flea: Choral Chambers - Walled Room | Top Section 2 | Break Wall right AND (silk soar OR drifter's cloak OR (faydown cloak AND easy [Wanderer, Shaman] pogo)) |  |  | collectible | ✓ | Secret hidden by breaking a wall |
-| 2 | Rosary Cache: Choral Chambers #14 | Base Upper | clawline OR faydown cloak OR (dash AND ledge grab) | TODO |  | collectible | ✓ | check, probably better to split Base Upper into two zones since they can be gotten from BLT easier than from BLB |
-| 3 | Rosary Cache: Choral Chambers #15 | Base Upper | clawline OR faydown cloak OR (dash AND ledge grab) | TODO |  | collectible | ✓ | check, probably better to split Base Upper into two zones since they can be gotten from BLT easier than from BLB |
-| 4 | Rosary Cache: Choral Chambers #16 | Base Upper | clawline OR faydown cloak OR (dash AND ledge grab) | TODO |  | collectible | ✓ | check, probably better to split Base Upper into two zones since they can be gotten from BLT easier than from BLB |
-| 5 | Lever Flea shaft | Top Section 1 | none |  |  | switch | ✓ |  |
-| 6 | Choir Flyer 1 |  |  |  |  | enemy | ✓ |  |
-| 7 | Choir Flyer 2 |  |  |  |  | enemy | ✓ |  |
-| 8 | Choir Bellbearer 1 |  |  |  |  | enemy | ✓ |  |
-| 9 | Choir Flyer 3 |  |  |  |  | enemy | ✓ |  |
-| 10 | Choir Hornhead 1 |  |  |  |  | enemy | ✓ |  |
-| 11 | Choir Elder 1 |  |  |  |  | enemy | ✓ |  |
-| 12 | Choir Pouncer 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 13 | Choir Pouncer 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 1 | Flea: Choral Chambers - Walled Room | Top Section 2 | Break Wall right AND (silk soar OR drifter's cloak OR (faydown cloak AND easy [Wanderer, Reaper,Witch, Shaman] pogo)) |  | Verified | collectible | ✓ | Secret hidden by breaking a wall And possible while cursed |
+| 2 | Flea Shaft's stolen rosaries | Base Upper Right | none |  | Verified | collectible | ✓ | rosary cache |
+| 3 | Flea Shaft's bounty | Base Upper Right | none |  | Verified | collectible | ✓ | rosary cache |
+| 4 | Flea Shaft's kidnappers' bonus | Base Upper Right | none |  | Verified | collectible | ✓ | rosary cache |
+| 5 | Lever Flea shaft | Top Section 1 | none |  | Verified | switch | ✓ |  |
+| 6 | Choir Bellbearer 1 | Top Section 3 Left | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 7 | Choir Elder 1 | Top Section 1 | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 8 | Choir Flyer 1 | Base Bottom | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 9 | Choir Flyer 2 | Top Section 2 | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 10 | Choir Flyer 3 | Top Section 3 Left | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 11 | Choir Hornhead 1 | Base Upper Right | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 12 | Choir Pouncer 1 | Base Upper Right | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 13 | Choir Pouncer 2 | Top Section 2 | Normal World Spawn |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

@@ -16,8 +16,8 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left2 | Bottom | [Act2 Cradle Left Shaft (Cradle_02)](act2-cradle-left-shaft.md) | UR | None |  | Verified |  | None |
-| R | right2 | Bottom | [Terminus Ventrica (Tube_Hub)](terminus-ventrica.md) | UL | None |  | Verified |  | None |
+| L | left2 | Bottom | [Act2 Cradle Left Shaft (Cradle_02)](act2-cradle-left-shaft.md) | UR | None |  | Verified | ✓ | None |
+| R | right2 | Bottom | [Terminus Ventrica (Tube_Hub)](terminus-ventrica.md) | UL | None |  | Verified | ✓ | None |
 
 ## Subroom Connections
 
@@ -39,4 +39,14 @@
 
 ## Room Images
 
-Scene image unavailable.
+### Connections
+
+[![Connections for ACT2 GMS Arena (Cradle_03)](../00-annotations/the-cradle/act2-gms-arena-connections.png)](../00-annotations/the-cradle/act2-gms-arena-connections.png)
+
+### Checks
+
+[![Checks for ACT2 GMS Arena (Cradle_03)](../00-annotations/the-cradle/act2-gms-arena-checks.png)](../00-annotations/the-cradle/act2-gms-arena-checks.png)
+
+### Scene
+
+[![Scene for ACT2 GMS Arena (Cradle_03)](../00-annotations/the-cradle/act2-gms-arena-scene.png)](../00-annotations/the-cradle/act2-gms-arena-scene.png)

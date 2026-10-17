@@ -74,7 +74,14 @@
 | 5 | balloon switch | middle section right | flip lever up OR flip lever right OR flip lever left |  | Verified | switch | ✓ |  |
 | 6 | bridge lever | bridge right section | flip lever up OR flip lever right OR flip lever left |  | Verified | switch | ✓ |  |
 | 7 | Seth Meeting Greymoor | lower section right | defeat THE Boss: Shrine Guardian Seth AND (  have everbloom OR have encrusted heart OR have hunters heart OR have conjoined heart ) |  | Verified | event | ✓ | requirements per the wiki |
-| 8 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 8 | Craw 1 |  |  |  |  | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
+| 9 | Mite 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 10 | Tallcraw 1 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: CrowCourtInSession=false |
+| 11 | Squatcraw 1 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: CrowCourtInSession=false |
+| 12 | Craw 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 13 | Tallcraw 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 14 | Squatcraw 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 15 | Void Mass 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 ## Room Images
 

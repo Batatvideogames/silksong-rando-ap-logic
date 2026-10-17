@@ -73,8 +73,8 @@
 | 13 | Fluttermite 1 | Top Left Shaft (Center) | nothing |  | Verified | enemy | ✓ |  |
 | 14 | Fluttermite 2 | Top Left Shaft (Center) | nothing |  | Verified | enemy | ✓ |  |
 | 15 | Mite 1 | Top Right Section (Bottom) | nothing |  | Verified | enemy | ✓ |  |
-| 16 | Mite 2 | Top Right Section (Center) | nothing |  | Verified | enemy | ✓ |  |
-| 17 | Mite 3 | Top Left Shaft (bottom) | Normal World Spawn |  | Verified | enemy | ✓ | he is capable of killing himself |
+| 16 | Mite 2 | Top Left Shaft (bottom) | Normal World Spawn |  | Verified | enemy | ✓ | he is capable of killing himself |
+| 17 | Mite 3 | Top Right Section (Center) | nada |  | Verified | enemy | ✓ |  |
 | 18 | Fluttermite 3 | Top Right Section (Center) | Normal World Spawn |  | Verified | enemy | ✓ |  |
 | 19 | Void Mass 1 | Top Right Section (Center) | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 

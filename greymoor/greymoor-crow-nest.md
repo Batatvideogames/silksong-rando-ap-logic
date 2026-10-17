@@ -45,6 +45,23 @@
 | 8 | Greymoor - Rosary Cache #34 | crow arena | none |  | Verified | resource | ✓ |  |
 | 9 | Craw Lake Gauntlet | crow arena | nothing |  | Verified | gauntlet | ✓ |  |
 | 10 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 11 | Squatcraw 1 |  |  |  |  | enemy | ✓ | Spawn conditions: CrowCourtInSession=false |
+| 12 | Craw 1 |  |  |  |  | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false |
+| 13 | Craw 2 |  |  |  |  | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false |
+| 14 | Craw 3 |  |  |  |  | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false |
+| 15 | Tallcraw 1 |  |  |  |  | enemy | ✓ | Spawn conditions: CrowCourtInSession=false |
+| 16 | Craw 4 |  |  |  |  | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false |
+| 17 | Craw 5 |  |  |  |  | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false |
+| 18 | Craw 6 |  |  |  |  | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false |
+| 19 | Craw 7 |  |  |  |  | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false |
+| 20 | Craw 8 |  |  |  |  | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false |
+| 21 | Tallcraw 2 |  |  |  |  | enemy | ✓ | Spawn conditions: CrowCourtInSession=false |
+| 22 | Squatcraw 2 |  |  |  |  | enemy | ✓ | Spawn conditions: CrowCourtInSession=false |
+| 23 | Tallcraw 3 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: CrowCourtInSession=false |
+| 24 | Squatcraw 3 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: CrowCourtInSession=false |
+| 25 | Mite 1 |  |  |  |  | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
+| 26 | Mite 2 |  |  |  |  | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
+| 27 | Mite 3 |  |  |  |  | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
 
 ## Room Images
 

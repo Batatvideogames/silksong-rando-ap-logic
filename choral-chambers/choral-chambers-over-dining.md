@@ -1,8 +1,8 @@
-# Choral Chambers Over Dininig (Song_09)
+# Choral Chambers Over Dining (Song_09)
 
 **Game ID:** Song_09
 
-**Contributors:** samupo
+**Contributors:** samupo, Gallos
 
 ## Subrooms
 
@@ -32,11 +32,11 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Rosary Cache: Choral Chambers #11 | Top | none |  | Verified | collectible | ✓ | falling |
-| 2 | Rosary Cache: Choral Chambers #12 | Top | none |  | Verified | collectible | ✓ | falling |
-| 3 | Rosary Cache: Choral Chambers #13 | Top | none |  | Verified | collectible | ✓ | falling |
-| 4 | Mask Shard: Cogwork Core | Right Secret | none |  | Verified | collectible | ✓ |  |
-| 5 | Rosary Necklace - Choral Chambers #2 | Base | break wall right |  | Verified | collectible | ✓ | hidden behind a breakable wall |
+| 1 | Rosary Necklace - Choral Chambers #2 | Base | break wall right |  | Verified | collectible | ✓ | hidden behind a breakable wall |
+| 2 | Dining Hall's food budget | Top | none |  | Verified | collectible | ✓ | rosary cache |
+| 3 | Mergwin's hidden stach | Top | none |  | Verified | collectible | ✓ | rosary cache |
+| 4 | Great Gourmand's treasury | Top | none |  | Verified | collectible | ✓ | rosary cache |
+| 5 | Mask Shard: Cogwork Core | Right Secret | none |  | Verified | collectible | ✓ |  |
 | 6 | Switch over dining | Right Secret | none |  | Verified | switch | ✓ |  |
 | 7 | Choir Pouncer 1 | Base | Normal World Spawn |  | Verified | enemy | ✓ |  |
 | 8 | Drapemite 1 | Base | Normal World Spawn |  | Verified | enemy | ✓ |  |
@@ -52,12 +52,12 @@
 
 ### Connections
 
-[![Connections for Choral Chambers Over Dininig (Song_09)](../00-annotations/choral-chambers/choral-chambers-over-dininig-connections.png)](../00-annotations/choral-chambers/choral-chambers-over-dininig-connections.png)
+[![Connections for Choral Chambers Over Dining (Song_09)](../00-annotations/choral-chambers/choral-chambers-over-dining-connections.png)](../00-annotations/choral-chambers/choral-chambers-over-dining-connections.png)
 
 ### Checks
 
-[![Checks for Choral Chambers Over Dininig (Song_09)](../00-annotations/choral-chambers/choral-chambers-over-dininig-checks.png)](../00-annotations/choral-chambers/choral-chambers-over-dininig-checks.png)
+[![Checks for Choral Chambers Over Dining (Song_09)](../00-annotations/choral-chambers/choral-chambers-over-dining-checks.png)](../00-annotations/choral-chambers/choral-chambers-over-dining-checks.png)
 
 ### Scene
 
-[![Scene for Choral Chambers Over Dininig (Song_09)](../00-annotations/choral-chambers/choral-chambers-over-dininig-scene.png)](../00-annotations/choral-chambers/choral-chambers-over-dininig-scene.png)
+[![Scene for Choral Chambers Over Dining (Song_09)](../00-annotations/choral-chambers/choral-chambers-over-dining-scene.png)](../00-annotations/choral-chambers/choral-chambers-over-dining-scene.png)

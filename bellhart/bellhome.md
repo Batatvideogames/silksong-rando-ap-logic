@@ -12,7 +12,7 @@ No subrooms defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | Left1 |  | [Belltown (Belltown)](belltown.md) | HD | None |  | Verified |  |  |
+| L | Left1 |  | [Belltown (Belltown)](belltown.md) | HD | None |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
@@ -28,4 +28,14 @@ No subroom connections defined.
 
 ## Room Images
 
-Scene image unavailable.
+### Connections
+
+[![Connections for Bellhome (Belltown_room_spare)](../00-annotations/bellhart/bellhome-connections.png)](../00-annotations/bellhart/bellhome-connections.png)
+
+### Checks
+
+[![Checks for Bellhome (Belltown_room_spare)](../00-annotations/bellhart/bellhome-checks.png)](../00-annotations/bellhart/bellhome-checks.png)
+
+### Scene
+
+[![Scene for Bellhome (Belltown_room_spare)](../00-annotations/bellhart/bellhome-scene.png)](../00-annotations/bellhart/bellhome-scene.png)

@@ -25,20 +25,28 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| G1 | gap 1 | center section | down and under | swim OR (clawline AND (ledge grab OR faydown cloak OR cling grip)) |  | Verified | ✓ |  |
-| G1 | gap 1 | down and under | center section | swim OR (clawline AND faydown cloak AND cling grip) |  | Verified | ✓ |  |
-| WG1 | water gap 1 | center section | left section | clawline OR faydown cloak OR drifters cloak OR sharpdart OR progressive swift step 2 OR ((progressive swift step 1 OR flea brew) AND faydown cloak) OR swim |  | Verified | ✓ |  |
-| WG1 | water gap 1 | left section | center section | swim OR progressive swift step 2 OR clawline OR sharpdart OR (drifters cloak AND (ledge grab OR progressive swift step 1 OR faydown cloak)) OR ((faydown cloak OR (flea brew AND cling grip)) AND progressive swift step 1) |  | Verified | ✓ |  |
-| WG2 | water gap 2 | right section | center section | progressive swift step 1 OR clawline OR faydown cloak OR drifters cloak OR sharpdart OR easy beast pogo OR flea brew OR easy architect needle strike OR (cling grip AND (easy hunter pogo OR easy reaper pogo OR easy witch pogo OR easy architect pogo OR easy shaman pogo OR swim)) |  | Verified | ✓ |  |
-| WG2 | water gap 2 | center section | right section | swim OR ((easy hunter pogo OR cling grip) AND ledge grab) OR easy beast pogo  OR easy architect pogo OR clawline OR sharpdart OR drifters cloak OR progressive swift step 1 OR faydown cloak |  | Verified | ✓ |  |
-| G2 | gap 2 | down and under | right section | swim OR (clawline AND (ledge grab OR faydown cloak OR cling grip)) |  | Verified | ✓ |  |
-| G2 | gap 2 | right section | down and under | swim OR (clawline AND (faydown cloak AND progressive swift step 2 AND ledge grab)) |  | Verified | ✓ |  |
+| G1 | gap 1 | center section | down and under | swim OR (clawline left x 1 AND (ledge grab left OR faydown cloak OR cling grip left)) |  | Verified | ✓ |  |
+| G1 | gap 1 | down and under | center section | swim OR (clawline right x 1 AND faydown cloak AND cling grip left) |  | Verified | ✓ |  |
+| WG1 | water gap 1 | center section | left section | clawline left x 1 OR faydown cloak OR drifters cloak OR sharpdart x 1 OR progressive swift step 2 left OR ((progressive swift step 1 left OR flea brew) AND faydown cloak) OR swim |  | Verified | ✓ |  |
+| WG1 | water gap 1 | left section | center section | swim OR progressive swift step 2 right OR clawline right x 1 OR sharpdart x 1 OR (drifters cloak AND (ledge grab right OR progressive swift step 1 right OR faydown cloak)) OR ((faydown cloak OR (flea brew AND cling grip)) AND progressive swift step 1 right) |  | Verified | ✓ |  |
+| WG2 | water gap 2 | right section | center section | ((Act 1 OR Act 2) AND (progressive swift step 1 left OR clawline left x 1 OR faydown cloak OR drifters cloak OR sharpdart x 1 OR easy beast pogo OR flea brew OR easy architect needle strike OR (cling grip left AND (easy hunter pogo OR easy reaper pogo OR easy witch pogo OR easy architect pogo OR easy shaman pogo OR swim)))) OR (ACT 3 AND ((cling grip AND (clawline left x 1 OR sharpdart x 1 OR progressive swift step 2 left OR (drifters cloak AND (progressive swift step 1 left OR flea brew)))) OR (faydown cloak AND (clawline left x 1 OR sharpdart x 1 OR progressive swift step 1 left OR (ledge grab left AND drifters cloak))) OR (silk soar AND ((Clawline left x 2 AND ledge grab left)  OR (clawline left x 1 AND (progressive swift step 2 left OR drifters cloak)))))) |  | Verified | ✓ |  |
+| WG2 | water gap 2 | center section | right section | swim OR clawline right x 1 OR sharpdart x 1 OR drifters cloak OR faydown cloak OR ((ACT 1 OR ACT 2) AND (progressive swift step 1 right OR ((easy hunter pogo OR cling grip left) AND ledge grab right) OR easy beast pogo  OR easy architect pogo)) OR (ACT 3 AND (progressive swift step 2 right OR (progressive swift step 1 right AND (easy architect pogo OR easy beast pogo OR (easy hunter pogo AND ledge grab right))))) |  | Verified | ✓ |  |
+| G2 | gap 2 | down and under | right section | swim OR (clawline right x 1 AND (faydown cloak AND progressive swift step 2 right AND ledge grab right)) |  | Verified | ✓ | Revisit and add ACt 3 specific requirements |
+| G2 | gap 2 | right section | down and under | swim OR (clawline left x 1 AND (ledge grab left OR faydown cloak OR cling grip left)) |  | Verified | ✓ | Revisit and add ACt 3 specific requirements |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 1 | Pilgrim Groveller 1 | right section | nothing |  | Verified | enemy | ✓ |  |
+| 2 | Pilgrim Pouncer 1 | left section | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 3 | Pilgrim Bellbearer 1 | left section | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 4 | Pilgrim Bellbearer 2 | right section | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 5 | Pilgrim Guide 1 | left section | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 6 | Pilgrim Pouncer 2 | right section | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 7 | Pilgrim Guide 2 | left section | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 8 | Mite 1 | center section | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 9 | Winged Pilgrim Bellbearer 1 | left section | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

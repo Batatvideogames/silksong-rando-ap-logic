@@ -2,14 +2,14 @@
 
 **Game ID:** Song_18
 
-**Contributors:** samupo
+**Contributors:** samupo, Gallos
 
 ## Subrooms
 
 | No. | Subroom | Annotated |
 | --- | --- | --- |
-| S1 | Top |  |
-| S2 | Bottom |  |
+| S1 | Top | ✓ |
+| S2 | Bottom | ✓ |
 
 ## Room Transitions
 
@@ -22,16 +22,16 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| V | Vertical | Top | Bottom | none |  |  |  | falling |
-| V | Vertical | Bottom | Top | silk soar OR cling grip |  |  |  |  |
+| V | Vertical | Top | Bottom | none |  | Verified | ✓ | falling |
+| V | Vertical | Bottom | Top | silk soar OR cling grip either |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Drapemite 1 |  |  |  |  | enemy | ✓ |  |
-| 2 | Drapemite 2 |  |  |  |  | enemy | ✓ |  |
-| 3 | Drapemite 3 |  | Invalid |  |  | enemy | ✓ | Disabled; no activation found. |
+| 1 | Drapemite 1 | Bottom | Normal world spawn |  | Verified | enemy | ✓ |  |
+| 2 | Drapemite 2 | Bottom | Normal world spawn |  | Verified | enemy | ✓ |  |
+| 3 | Drapemite 3 | Bottom | Invalid |  | Verified | enemy | ✓ | Disabled; no activation found. |
 
 ## Room Images
 

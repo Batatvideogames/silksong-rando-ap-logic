@@ -34,7 +34,9 @@
 | 2 | Greymoor - Rosary Cache #26 | right section | none |  | Verified | resource | ✓ |  |
 | 3 | Greymoor - Rosary Cache #27 | right section | none |  | Verified | resource | ✓ |  |
 | 4 | wooden wall | right section | break wall left OR break wall up |  | Verified | blockade | ✓ |  |
-| 5 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 5 | Craw 1 |  |  |  |  | enemy | ✓ | Spawn conditions: CrowCourtInSession=false |
+| 6 | Craw 2 |  |  |  |  | enemy | ✓ | Spawn conditions: CrowCourtInSession=false |
+| 7 | Craw 3 |  |  |  |  | enemy | ✓ | Spawn conditions: CrowCourtInSession=false |
 
 ## Room Images
 

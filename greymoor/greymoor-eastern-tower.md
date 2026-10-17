@@ -14,6 +14,7 @@
 | S4 | upper section | ✓ |
 | S5 | tower top | ✓ |
 | S6 | upper airstream section | ✓ |
+| S7 | silly platform | ✓ |
 
 ## Room Transitions
 
@@ -31,38 +32,42 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | F1 | fall 1 | arena encounter | lower airstream section | silk soar |  | Verified | ✓ |  |
 | F1 | fall 1 | lower airstream section | arena encounter | nothing (just fall) |  | Verified | ✓ |  |
-| S1 | shaft 1 | lower airstream section | middle section | silk soar OR (activate lower airstream AND drifters cloak) |  | Verified | ✓ |  |
+| S1 | shaft 1 | lower airstream section | middle section | silk soar OR (activate lower airstream AND drifters cloak) OR (easy enemy pogo AND prereq fluttermite 1 AND (faydown cloak OR ledge grab left OR ledge grab right)) |  | Verified | ✓ |  |
 | S1 | shaft 1 | middle section | lower airstream section | nothing (just fall) |  | Verified | ✓ |  |
-| S2 | shaft 2 | middle section | upper section | silk soar OR (drifters cloak  AND (activate lower airstream OR (faydown cloak AND (ledge grab OR cling grip OR easy scuttlebrace))) AND activate middle airstream) |  | Verified | ✓ |  |
+| S2 | shaft 2 | middle section | upper section | silk soar OR (drifters cloak  AND (activate lower airstream OR (faydown cloak AND (ledge grab right OR cling grip right OR easy scuttlebrace))) AND activate middle airstream) |  | Verified | ✓ |  |
 | S2 | shaft 2 | upper section | middle section | nothing (just fall) |  | Verified | ✓ |  |
 | PG1 | platform gap 1 | upper section | upper airstream section | nothing (just fall) |  | Verified | ✓ |  |
-| PG1 | platform gap 1 | upper airstream section | upper section | ledge grab OR faydown cloak OR silk soar OR medium enemy pogo |  | Verified | ✓ |  |
-| S3 | shaft 3 | upper section | tower top | (proficient movement AND spike pogo) OR silk soar OR ((drifters cloak AND (spike pogo OR ledge grab OR progressive swift step 2 OR faydown cloak OR cling grip)) AND activate upper airstream) |  | Verified | ✓ |  |
+| PG1 | platform gap 1 | upper airstream section | upper section | ledge grab right OR cling grip right OR faydown cloak OR silk soar OR (medium enemy pogo AND prereq silk snipper 1) |  | Verified | ✓ |  |
+| S3 | shaft 3 | upper section | tower top | (proficient movement AND spike pogo) OR silk soar OR ((drifters cloak AND (spike pogo OR ledge grab left OR (proficient movement AND progressive swift step 2 left) OR faydown cloak OR cling grip left)) AND activate upper airstream) |  | Verified | ✓ |  |
 | S3 | shaft 3 | tower top | upper section | none (just fall) |  | Verified | ✓ |  |
+| F2 | fall 2 | arena encounter | silly platform | (easy shaman pogo AND ledge grab left) OR silk soar |  | Verified | ✓ |  |
+| F2 | fall 2 | silly platform | arena encounter | nothing |  | Verified | ✓ |  |
+| PG2 | platform gap 2 | silly platform | lower airstream section | (ledge grab right AND (faydown cloak OR cling grip right)) OR silk soar OR (faydown cloak AND ledge grab right) |  | Verified | ✓ |  |
+| PG2 | platform gap 2 | lower airstream section | silly platform | nothing |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Greymoor - Rosary Cache #6 | lower airstream section | nothing |  | Verified | resource | ✓ |  |
-| 2 | Greymoor - Silkeater | tower top | silk soar OR (proficient movement AND spike pogo) OR (drifters cloak AND (spike pogo OR faydown cloak OR (clawline AND cling grip)) AND activate top airstream) |  | Verified | collectible | ✓ |  |
+| 2 | Greymoor - Silkeater | tower top | silk soar OR (proficient movement AND spike pogo) OR (drifters cloak AND (spike pogo OR faydown cloak OR ((clawline left x 1 OR sharpdart x 1) AND ledge grab left)) AND activate top airstream) |  | Verified | collectible | ✓ |  |
 | 3 | Greymoor Tower Gaunlet | arena encounter | nothing |  | Verified | gauntlet | ✓ |  |
 | 4 | lower airstream | lower airstream section | hit lever right OR hit lever up OR hit lever down |  | Verified | switch | ✓ |  |
-| 5 | middle airstream | middle section | ((drifters cloak AND activate lower airstream) OR ledge grab OR cling grip OR silk soar OR faydown cloak) AND (hit lever right OR hit lever up OR hit lever left) |  | Verified | switch | ✓ |  |
+| 5 | middle airstream | middle section | ((drifters cloak AND activate lower airstream) OR ledge grab left OR ledge grab right OR cling grip left OR cling grip right OR silk soar OR faydown cloak) AND (hit lever right OR hit lever up OR hit lever left) |  | Verified | switch | ✓ |  |
 | 6 | upper airstream | upper airstream section | hit lever right OR hit lever down |  | Verified | switch | ✓ |  |
 | 7 | top airstream | tower top | (hit lever right OR hit lever up OR hit lever left) AND ((activate upper airstream AND drifters cloak) OR (proficient movement AND spike pogo)) |  | Verified | switch | ✓ |  |
-| 8 | Silk Snipper 1 |  |  |  |  | enemy | ✓ |  |
-| 9 | Fluttermite 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 10 | Fluttermite 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 11 | Dreg Catcher 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 12 | Dreg Catcher 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 13 | Thread Raker 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 14 | Dreg Catcher 3 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
-| 15 | Dreg Catcher 4 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
-| 16 | Roachcatcher 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
-| 17 | Dreg Catcher 5 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
-| 18 | Thread Raker 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
-| 19 | Thread Raker 3 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 8 | Silk Snipper 1 | upper section | nothing |  | Verified | enemy | ✓ | spawns in the subroom bellow but he instantly agros and goes inside upper section sub room |
+| 9 | Fluttermite 1 | lower airstream section | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 10 | Fluttermite 2 | lower airstream section | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 11 | Dreg Catcher 1 | arena encounter | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 12 | Dreg Catcher 2 | arena encounter | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 13 | Thread Raker 1 | arena encounter | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 14 | Dreg Catcher 3 | arena encounter | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 15 | Dreg Catcher 4 | arena encounter | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 16 | Roachcatcher 1 | arena encounter | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 17 | Dreg Catcher 5 | arena encounter | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 18 | Thread Raker 2 | arena encounter | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 19 | Thread Raker 3 | arena encounter | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

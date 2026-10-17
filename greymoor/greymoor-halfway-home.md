@@ -14,7 +14,7 @@ No subrooms defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | R | right |  | [Greymoor Halfway Home Exterior (Greymoor_03)](greymoor-halfway-home-exterior.md) | HHR | nothing |  | Verified | ✓ |  |
 | L | left |  | [Greymoor Halfway Home Exterior (Greymoor_03)](greymoor-halfway-home-exterior.md) | HHL | nothing |  | Verified | ✓ |  |
-| B | bottom |  | [Halfway Home Cellar (Ant_08)](halfway-home-cellar.md) | T | prereq  Great Taste of Pharloom Wish Promised IN choral chambers dining room |  | Verified | ✓ |  |
+| B | bottom |  | [Halfway Home Cellar (Ant_08)](halfway-home-cellar.md) | T | prereq  Great Taste of Pharloom Wish Promised IN choral chambers dining room AND spend 480 rosaries |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
@@ -24,10 +24,10 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Halfwat Home - Memory Locket |  | silk soar OR (faydown cloak AND (ledge grab OR cling grip)) |  | Verified | collectible | ✓ |  |
+| 1 | Halfwat Home - Memory Locket |  | silk soar OR (faydown cloak AND (ledge grab left OR cling grip left)) |  | Verified | collectible | ✓ |  |
 | 2 | Bugs of Pharloom - Tool Pouch |  | complete Wish: Bugs of Pharloom |  | Verified | event | ✓ |  |
-| 3 | Greymoor - Nuu's Scrolls |  | (silk soar OR faydown cloak OR ledge grab OR cling grip) |  | Verified | lore | ✓ | Nuu must not be present in halfway home, according to the wiki she has a 50% chance to not appear but its garanteed that she leaves after certain bosses are defeated: the Skull Tyrant in the Marrow, one of the Great Conchflies in Blasted Steps, Sister Splinter in Shellwood, and Voltvyrm in Voltnest |
-| 4 | Wish: Bugs of Pharloom |  | silk soar OR faydown cloak OR ledge grab OR cling grip |  | Verified | event | ✓ |  |
+| 3 | Greymoor - Nuu's Scrolls |  | silk soar OR faydown cloak OR ledge grab both OR cling grip both |  | Verified | lore | ✓ | Nuu must not be present in halfway home, according to the wiki she has a 50% chance to not appear but its garanteed that she leaves after certain bosses are defeated: the Skull Tyrant in the Marrow, one of the Great Conchflies in Blasted Steps, Sister Splinter in Shellwood, and Voltvyrm in Voltnest |
+| 4 | Wish: Bugs of Pharloom |  | silk soar OR faydown cloak OR ledge grab both OR cling grip both |  | Verified | event | ✓ |  |
 | 5 | pressure plate |  | none (pressure switch) |  | Verified | switch | ✓ |  |
 | 6 | Crawbug Clearing Wish Promised |  | defeat THE boss widow |  | Verified | event |  | can be accepted here or at the wish board |
 | 7 | Crawbug Clearing Wish Granted |  | complete Crawbug Clearing Wish Promised AND Get 25 Ragpelts |  | Verified | event |  |  |

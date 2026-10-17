@@ -2,6 +2,8 @@
 
 **Game ID:** Hang_01
 
+**Contributors:** Gallos
+
 ## Subrooms
 
 No subrooms defined.

@@ -8,59 +8,58 @@
 
 | No. | Subroom | Annotated |
 | --- | --- | --- |
-| S1 | Top |  |
-| S2 | Upper Right |  |
-| S3 | Upper Left |  |
-| S4 | Right Stage |  |
-| S5 | Bottom Left |  |
-| S6 | Bottom Right |  |
+| S1 | Top | ✓ |
+| S2 | Upper | ✓ |
+| S3 | Middle | ✓ |
+| S4 | Right Stage | ✓ |
+| S5 | Bottom Left | ✓ |
+| S6 | Bottom Right | ✓ |
 
 ## Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| UL | left1 | Upper Left | [Choral Chambers East to West (Song_27)](choral-chambers-east-to-west.md) | R | none |  |  | ✓ |  |
-| T | top1 | Top | [Rotating Tunnel (Song_20b)](rotating-tunnel.md) | B | none |  |  | ✓ |  |
-| UR | right4 | Upper Right | [Grand Bellway Library (Library_03)](../whispering-vaults/grand-bellway-library.md) | L | none |  |  | ✓ |  |
-| RS | right5 | Right Stage | [Trobbio (Library_13)](../whispering-vaults/trobbio.md) | L | none |  |  | ✓ |  |
-| BR | right6 | Bottom Right | [Grand Bellway (Bellway_City)](grand-bellway.md) | L | none |  |  | ✓ |  |
-| BL | left2 | Bottom Left | [Grand Bellway Side Room (Song_24)](grand-bellway-side-room.md) | R | none |  |  | ✓ |  |
+| UL | left1 | Middle | [Choral Chambers East to West (Song_27)](choral-chambers-east-to-west.md) | R | none |  | Verified | ✓ |  |
+| T | top1 | Top | [Rotating Tunnel (Song_20b)](rotating-tunnel.md) | B | none |  | Verified | ✓ |  |
+| UR | right4 | Upper | [Grand Bellway Library (Library_03)](../whispering-vaults/grand-bellway-library.md) | L | none |  | Verified | ✓ |  |
+| RS | right5 | Right Stage | [Trobbio (Library_13)](../whispering-vaults/trobbio.md) | L | none |  | Verified | ✓ |  |
+| BR | right6 | Bottom Right | [Grand Bellway (Bellway_City)](grand-bellway.md) | L | none |  | Verified | ✓ |  |
+| BL | left2 | Bottom Left | [Grand Bellway Side Room (Song_24)](grand-bellway-side-room.md) | R | none |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| F1 | Top to Upper Right | Top | Upper Right | none |  | Verified |  | falling |
-| F2 | Upper Right to Upper Left | Upper Right | Upper Left | none |  | Verified |  | falling |
-| F3 | Upper Left to Right Stage | Upper Left | Right Stage | none |  | Verified |  | falling |
-| F4 | Right Stage to Bottom Left | Right Stage | Bottom Left | none |  | Verified |  | falling |
-| F5 | Bottom Left to Bottom Right | Bottom Left | Bottom Right | none |  | Verified |  | falling |
-| J5 | Bottom Right to Bottom Left | Bottom Right | Bottom Left | silk soar OR cling grip OR (ledge grab AND hard pogo off Choristor AND (easy Shaman pogo OR hard Reaper pogo OR (hard [Hunter, Beast, Witch, Wanderer] pogo AND hard damage boost) OR (hard Architect pogo AND clawline AND hard damage boost))) |  | Verified |  |  |
-| J4 | Bottom Left to Right Stage | Bottom Left | Right Stage | cling grip OR (ledge grab AND faydown cloak) OR silk soar OR easy pogo off Reed |  | Verified |  |  |
-| J3 | Right Stage to Upper Left | Right Stage | Upper Left | easy [Hunter, Reaper, Wanderer, Shaman] pogo OR ledge grab |  | Verified |  |  |
-| J3E | Bottom Right to Upper Left | Bottom Right | Upper Left | silk soar |  | Verified |  |  |
-| J2 | Upper Left to Upper Right | Upper Left | Upper Right | (cling grip AND (faydown cloak OR dash OR clawline)) OR silk soar OR easy pogo off [Choir Elder, Choir Flyer, Reed] |  | Verified |  | pogo first the elder then Choir flyer then Reed twice |
-| J1 | Upper Right to Top | Upper Right | Top | ledge grab OR silk soar OR clawline OR faydown cloak OR easy pogo off Reed |  | Verified |  |  |
+| RL | Bottom Right to Bottom Left | Bottom Right | Bottom Left | silk soar OR cling grip left OR (cling grip right AND (easy pogo off [Choristor, Envoy] OR faydown cloak)) OR (ledge grab either AND hard pogo off Choristor AND (easy Shaman pogo OR hard Reaper pogo OR (hard [Hunter, Beast, Witch, Wanderer] pogo AND hard damage boost) OR (hard Architect pogo AND clawline right AND hard damage boost))) |  | Verified | ✓ |  |
+| RL | Bottom Right to Bottom Left | Bottom Left | Bottom Right | none |  | Verified | ✓ | falling |
+| V1 | Bottom Left to Right Stage | Bottom Left | Right Stage | cling grip left OR ((ledge grab right OR cling grip right OR clawline right OR sharpdart OR scuttlebrace OR easy shaman pogo) AND faydown cloak) OR silk soar OR easy pogo off Reed |  | Verified | ✓ |  |
+| V1 | Bottom Left to Right Stage | Right Stage | Bottom Left | none |  | Verified | ✓ | falling |
+| V2 | Right Stage to Upper Left | Right Stage | Middle | easy [Hunter, Reaper, Wanderer, Shaman] pogo OR (ledge grab left OR scuttlebrace OR dash left OR clawline left OR sharpdart OR easy heal stall OR easy voltvessels stall OR easy plasmium phial stall OR easy flintslate stall) |  | Verified | ✓ |  |
+| V2 | Right Stage to Upper Left | Middle | Right Stage | none |  | Verified | ✓ | falling |
+| V3 | Upper Left to Upper Right | Middle | Upper | (scuttlebrace AND hard shaman pogo) OR silk soar OR (ledge grab left AND easy pogo off [Choir pouncer,Choir Elder, Choir Flyer, Reed]) OR faydown cloak OR (cling grip both AND (scuttlebrace OR dash right OR clawline right OR sharpdart OR run)) |  | Verified | ✓ |  |
+| V3 | Upper Left to Upper Right | Upper | Middle | none |  | Verified | ✓ | falling |
+| V4 | Upper Right to Top | Upper | Top | ledge grab left OR silk soar OR clawline left OR faydown cloak OR easy pogo off Reed OR sharpdart OR scuttlebrace OR easy damage boost off Choir Bellbearer |  | Verified | ✓ |  |
+| V4 | Upper Right to Top | Top | Upper | none |  | Verified | ✓ | falling |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Lace Second Encounter | Bottom Right | none |  | Verified | event |  |  |
-| 2 | Choir Pouncer 1 |  |  |  |  | enemy | ✓ |  |
-| 3 | Choristor 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 4 | Reed 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 5 | Choir Elder 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 6 | Reed 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 7 | Reed 3 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 8 | Envoy 1 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: laceMeetCitadel=false |
-| 9 | Reed 4 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: laceMeetCitadel=false |
-| 10 | Envoy 2 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: bellShrineEnclave=true |
-| 11 | Choristor 2 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: bellShrineEnclave=true |
-| 12 | Choir Flyer 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 13 | Choir Bellbearer 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 14 | Choristor 3 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
-| 15 | Reed 5 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 2 | Choir Bellbearer 1 | Upper | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 3 | Choir Elder 1 | Upper | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 4 | Choir Flyer 1 | Upper | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 5 | Choir Pouncer 1 | Upper | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 6 | Choristor 1 | Upper | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 7 | Choristor 2 | Bottom Right | Normal World Spawn |  | Verified | enemy | ✓ | Spawn conditions: bellShrineEnclave=true |
+| 8 | Choristor 3 | Upper | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 9 | Envoy 1 | Bottom Right | Normal World Spawn |  | Verified | enemy | ✓ | Spawn conditions: laceMeetCitadel=false |
+| 10 | Envoy 2 | Bottom Right | Normal World Spawn |  | Verified | enemy | ✓ | Spawn conditions: bellShrineEnclave=true |
+| 11 | Reed 1 | Right Stage | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 12 | Reed 2 | Upper | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 13 | Reed 3 | Upper | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 14 | Reed 4 | Bottom Right | Normal World Spawn |  | Verified | enemy | ✓ | Spawn conditions: laceMeetCitadel=false |
+| 15 | Reed 5 | Right Stage | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

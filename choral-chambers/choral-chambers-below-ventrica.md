@@ -27,7 +27,7 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| V1 | Bottom to Right Exit | Bottom | Right Exit | ((Drifter's cloak OR Dash both OR Run either) AND ledge grab) OR ((Clawline OR sharpdart x 3 ) AND (easy pogo off [Choir Pouncer, Choir Hornhead, Envoy] OR ledge grab OR cling grip right OR cling grip left)) OR (dash right AND (ledge grab OR cling grip right) AND (sharpdart OR clawline left)) OR (dash left AND (ledge grab AND cling grip left) AND (sharpdart OR clawline right)) OR (Sharpdart AND (ledge grab OR cling grip either) AND (dash right OR dash left OR clawline right OR clawline left)) OR (Scuttlebrace AND (ledge grab OR cling grip either OR (easy pogo off [Choir Pouncer, Choir Hornhead, Envoy] ))) OR faydown cloak OR silk soar OR (ledge grab AND Hard Shaman pogo) OR (Ledge Grab AND medium Beast pogo AND medium Heal stall) OR (ledge grab AND (Flea brew OR easy voltvessels stall OR easy plasmium phial stall)) |  | Verified | ✓ |  |
+| V1 | Bottom to Right Exit | Bottom | Right Exit | ((Drifter's cloak OR Dash both OR Run either) AND ledge grab) OR ((Clawline OR sharpdart x 3 ) AND (easy pogo off [Choir Pouncer, Choir Hornhead, Envoy] OR ledge grab OR cling grip right OR cling grip left)) OR (dash right AND (ledge grab both OR cling grip right) AND (sharpdart OR clawline left)) OR (dash left AND (ledge grab AND cling grip left) AND (sharpdart OR clawline right)) OR (Sharpdart AND (ledge grab OR cling grip either) AND (dash right OR dash left OR clawline right OR clawline left)) OR (Scuttlebrace AND (ledge grab OR cling grip either OR (easy pogo off [Choir Pouncer, Choir Hornhead, Envoy] ))) OR faydown cloak OR silk soar OR (ledge grab AND Hard Shaman pogo) OR (Ledge Grab AND medium Beast pogo AND medium Heal stall) OR (ledge grab AND (Flea brew OR easy voltvessels stall OR easy plasmium phial stall)) |  | Verified | ✓ |  |
 | V1 | Bottom to Right Exit | Right Exit | Bottom | none |  | Verified | ✓ | falling |
 | LV | Lever | Right Exit | Middle | activate Lever Below Ventrica AND (silk soar OR faydown cloak OR ((Flea brew OR sharp dart OR Dash left OR Run either OR clawline left) AND (cling grip left OR (ledge grab AND easy pogo off Choir Pouncer)))) |  | Verified | ✓ |  |
 | V2 | Bottom to Middle | Bottom | Middle | cling grip both OR (cling grip right AND faydown cloak) OR silk soar OR ((ledge grab OR faydown cloak)  AND medium pogo off Choir Flyer AND medium Damage boost) |  | Verified | ✓ | can exactly hit the Choir flyer 4 times |
@@ -42,11 +42,11 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Rosary Cache: Choral Chambers #3 | Top | none |  | Verified | collectible | ✓ |  |
-| 2 | Rosary Cache: Choral Chambers #4 | Top | none |  | Verified | collectible | ✓ |  |
-| 3 | Shell Shard Cache: Choral Chambers | Side Chamber | none |  | Verified | collectible | ✓ |  |
-| 4 | Rosary Cache: Choral Chambers #1 | Middle | none |  | Verified | collectible | ✓ |  |
-| 5 | Rosary Cache: Choral Chambers #2 | Middle | none |  | Verified | collectible | ✓ |  |
+| 1 | Ventrica worker's wage | Top | none |  | Verified | collectible | ✓ | rosary cache |
+| 2 | Ventrica worker's stolen funds | Top | none |  | Verified | collectible | ✓ | rosary cache |
+| 3 | Ventrica worker's remains | Side Chamber | none |  | Verified | collectible | ✓ | shell cache |
+| 4 | Ventrica Window's repairing fees | Middle | none |  | Verified | collectible | ✓ | rosary cache |
+| 5 | Ventrica Window's cleaning fees | Middle | none |  | Verified | collectible | ✓ | rosary cache |
 | 6 | Lever Below Ventrica | Middle | none |  | Verified | switch | ✓ |  |
 | 7 | Choir Flyer 1 | Bottom | Normal World Spawn AND ((prereq Lace Second Encounter IN choral chambers eastern shaft) OR (prereq Lace Second Encounter IN grand bellway shaft)) |  | Verified | enemy | ✓ |  |
 | 8 | Choir Hornhead 1 | Middle | Normal World Spawn AND ((prereq Lace Second Encounter IN choral chambers eastern shaft) OR (prereq Lace Second Encounter IN grand bellway shaft)) |  | Verified | enemy | ✓ |  |
