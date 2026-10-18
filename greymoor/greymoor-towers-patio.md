@@ -58,10 +58,10 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Greymoor - Rosary Cache #7 | left middle section | nothing |  | Verified | resource | ✓ |  |
-| 2 | Greymoor - Rosary Cache #8 | left middle section | nothing |  | Verified | resource | ✓ |  |
-| 3 | Greymoor - Rosary Cache #9 | upper area | nothing |  | Verified | resource | ✓ |  |
-| 4 | Greymor - Shard Bundle #1 | upper area | faydown cloak OR progressive swift step 1 left OR (easy enemy pogo AND prereq fluttermite 1) OR silk soar OR sharpdart x 1 OR clawline left x 1 |  | Verified | resource | ✓ |  |
+| 1 | Greymoor - flying rat stolen rosaries above the west tower entrance | left middle section | nothing |  | Verified | resource | ✓ |  |
+| 2 | Greymoor - poor soul rosaries that were stolen by flying rats above the west tower entrance | left middle section | nothing |  | Verified | resource | ✓ |  |
+| 3 | Greymoor - someones mortage at the top of the room | upper area | nothing |  | Verified | resource | ✓ |  |
+| 4 | Greymor - totally free to take shell shard cache at the top | upper area | faydown cloak OR progressive swift step 1 left OR (easy enemy pogo AND prereq fluttermite 1) OR silk soar OR sharpdart x 1 OR clawline left x 1 |  | Verified | resource | ✓ |  |
 | 5 | Get Kidnapped | lower section | after Wardenfly 1 |  | Verified | event | ✓ |  |
 | 6 | Garmond and Zaza Act 3 Meeting Greymoor | lower section | Act 3 |  | Verified | event | ✓ |  |
 | 7 | Sleeping Garmond | garmond room | Act 2 |  | Verified | event | ✓ |  |

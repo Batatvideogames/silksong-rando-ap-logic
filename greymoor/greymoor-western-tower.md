@@ -60,7 +60,7 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Flea: Greymoor - Tower | tower top section | none |  | Verified | collectible | ✓ |  |
-| 2 | Greymoor - Rosary Cache #10 | middle section | nothing |  | Verified | resource | ✓ |  |
+| 2 | Greymoor - Rosary cache below a spike wheel | middle section | nothing |  | Verified | resource | ✓ |  |
 | 3 | top trapdoor | tower top section | break lever right OR break lever left OR break lever up |  | Verified | blockade | ✓ |  |
 | 4 | Mister Mushroom Meeting Greymoor | tower drop | after THE Mister Mushroom Meeting Far Fields AND Needolin |  | Verified | event | ✓ |  |
 | 5 | Silk Snipper 1 | first guarded platform | nothing |  | Verified | enemy | ✓ |  |

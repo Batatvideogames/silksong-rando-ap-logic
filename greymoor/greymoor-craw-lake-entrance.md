@@ -40,16 +40,16 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Greymoor - Frayed Rosary String #1 | middle section | nothing |  | Verified | resource | ✓ |  |
+| 1 | Greymoor - Frayed Rosary String from dead bug guarded by rat | middle section | nothing |  | Verified | resource | ✓ |  |
 | 2 | Greymoor - Rosary Cache #18 | upper section | silk soar OR faydown cloak OR hard enemy pogo OR ((medium enemy pogo OR ledge grab OR cling grip) AND (progressive swift step 1 OR sharpdart OR clawline OR drifters cloak)) |  | Verified | resource | ✓ |  |
 | 3 | crawlake door | craw lake middle entrance | flip lever up OR flip lever right OR flip lever left |  | Verified | switch | ✓ |  |
-| 4 | Craw Juror 1 |  |  |  |  | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false FSM Boolean flags: CrowCourtInSession |
-| 5 | Craw Juror 2 |  |  |  |  | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
-| 6 | Craw Juror 3 |  |  |  |  | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
-| 7 | Craw 1 |  |  |  |  | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false FSM Boolean flags: CrowCourtInSession |
-| 8 | Craw 2 |  |  |  |  | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
-| 9 | Craw 3 |  |  |  |  | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
-| 10 | Mite 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Craw Juror 1 | lower right section |  | TODO |  | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false FSM Boolean flags: CrowCourtInSession |
+| 5 | Craw Juror 2 | lower right section |  | TODO |  | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
+| 6 | Craw Juror 3 | upper section |  | TODO |  | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
+| 7 | Craw 1 | lower right section | nothing |  | Verified | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false FSM Boolean flags: CrowCourtInSession |
+| 8 | Craw 2 | lower right section | nothing |  | Verified | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
+| 9 | Craw 3 | upper section | nothing |  | Verified | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
+| 10 | Mite 1 | middle section | nothing |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

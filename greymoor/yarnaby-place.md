@@ -30,7 +30,7 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Greymoor - Frayed Rosary String #3 | upper shaft | nothing |  | Verified | resource | ✓ |  |
+| 1 | Greymoor - Yanarby stash with a Frayed Rosary | upper shaft | nothing |  | Verified | resource | ✓ |  |
 | 2 | vine wall | upper shaft | break wall: up |  | Verified | blockade | ✓ | if not broken the vine wall bounces you back |
 | 3 | Furm 1 | lower section | nothing |  | Verified | enemy | ✓ |  |
 | 4 | Dreg Catcher 1 | lower section | nothing |  | Verified | enemy | ✓ |  |

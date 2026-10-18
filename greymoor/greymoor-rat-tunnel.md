@@ -59,13 +59,13 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Breakable wooden Wall | Top Right Section (Bottom) | break wall right OR break wall up |  | Verified | blockade | ✓ |  |
-| 2 | Greymoor - Shell Shard Cache #1 | bottom section right | none |  | Verified | resource | ✓ |  |
-| 3 | Greymoor - Shell Shard Cache #2 | bottom section right | none |  | Verified | resource | ✓ |  |
+| 2 | Greymoor - Shell Shard Cache next to the pit with with fat fuck | bottom section right | none |  | Verified | resource | ✓ |  |
+| 3 | Greymoor - The other Shell Shard Cache in the pit with the fat fuck | bottom section right | none |  | Verified | resource | ✓ |  |
 | 4 | Greymoor - Memory Locket | Top Right Section (Upper) | none |  | Verified | collectible | ✓ |  |
 | 5 | Greymoor - Cage Record | Top Left Shaft (Upper) | nothing |  | Verified | lore | ✓ |  |
-| 6 | Greymoor - Rosary Cache #23 | Top Right Section (Bottom) | clear Breakable wooden Wall |  | Verified | resource | ✓ |  |
-| 7 | Greymoor - Rosary Cache #24 | Top Right Section (Bottom) | clear Breakable wooden Wall |  | Verified | resource | ✓ |  |
-| 8 | Greymoor - Rosary Cache #25 | Top Right Section (Bottom) | clear Breakable wooden Wall |  | Verified | resource | ✓ |  |
+| 6 | Greymoor - Rosary Cache behind the big rat above the pit | Top Right Section (Bottom) | clear Breakable wooden Wall |  | Verified | resource | ✓ |  |
+| 7 | Greymoor - the other Rosary Cache behind the big rat above the pit with the other big rat | Top Right Section (Bottom) | clear Breakable wooden Wall |  | Verified | resource | ✓ |  |
+| 8 | Greymoor - Another rosary cache behind the big rat above the pit | Top Right Section (Bottom) | clear Breakable wooden Wall |  | Verified | resource | ✓ |  |
 | 9 | tied blockade | Top Left Shaft (Center) | break switch left OR break switch up OR break switch right |  | Verified | blockade | ✓ |  |
 | 10 | Mitemother 1 | bottom section right | nothing |  | Verified | enemy | ✓ |  |
 | 11 | Mitemother 2 | Top Right Section (Bottom) | nothing |  | Verified | enemy | ✓ |  |

@@ -8686,6 +8686,68 @@ No subroom connections defined.
 | 1 | bellshrine switch |  | hit lever: right OR hit lever: left |  | Verified | switch | ✓ |  |
 | 2 | bell greymoor |  | activate bellshrine switch |  | Verified | collectible | ✓ |  |
 
+<a name="room-greymoor--greymoor-craw-court"></a>
+
+### Greymoor Craw Court (Room_CrowCourt_02)
+
+[View Room Page](./greymoor/greymoor-craw-court.md)
+
+**Game ID:** Room_CrowCourt_02
+
+**Contributors:** Isssma
+
+#### Subrooms
+
+| No. | Subroom | Annotated |
+| --- | --- | --- |
+| S1 | entrance | ✓ |
+| S2 | left shaft | ✓ |
+| S3 | the court | ✓ |
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| T | top1 | entrance | [Greymoor Craw Nest (Room_CrowCourt)](#room-greymoor--greymoor-craw-nest) | b | cling grip OR scuttlebrace |  | Verified | ✓ |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| D | drop | entrance | the court | none (just fall) |  | Verified | ✓ |  |
+| D | drop | the court | entrance | defeat Crow Father AND silk soar |  | Verified | ✓ |  |
+| MD | metal door | the court | left shaft | defeat Crow Father |  | Verified | ✓ |  |
+| MD | metal door | left shaft | the court | defeat Crow Father |  | Verified | ✓ |  |
+| W | wall | left shaft | entrance | clear wood wall AND (cling grip OR (easy scuttlebrace AND (ledge grab OR faydown cloak OR clawline))) |  | Verified | ✓ |  |
+| W | wall | entrance | left shaft | clear wood wall |  | Verified | ✓ |  |
+
+#### Check Locations
+
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Crow Father | the court | nothing |  | Verified | boss | ✓ |  |
+| 2 | craw memento | the court | defeat Crow Father |  | Verified | collectible | ✓ |  |
+| 3 | Greymoor - craw court rosary vault stash | left shaft | cling grip OR (easy scuttlebrace AND (ledge grab OR faydown cloak OR clawline OR easy beast pogo)) |  | Verified | resource | ✓ |  |
+| 4 | Greymoor - the other craw court rosary vault stash | left shaft | cling grip OR (easy scuttlebrace AND (ledge grab OR faydown cloak OR clawline OR easy beast pogo)) |  | Verified | resource | ✓ |  |
+| 5 | Greymoor - the final craw court rosary vault stash | left shaft | cling grip OR (easy scuttlebrace AND (ledge grab OR faydown cloak OR clawline OR easy beast pogo)) |  | Verified | resource | ✓ |  |
+| 6 | Crow bell | left shaft | cling grip OR (easy scuttlebrace AND (ledge grab OR faydown cloak OR clawline OR easy beast pogo)) |  | Verified | collectible | ✓ |  |
+| 7 | wood wall | left shaft | break wall right OR break wall up |  | Verified | blockade | ✓ |  |
+| 8 | Tallcraw Juror 1 |  |  |  |  | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
+| 9 | Squatcraw Juror 1 |  |  |  |  | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
+| 10 | Tallcraw Juror 2 |  |  |  |  | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
+| 11 | Tallcraw Juror 3 |  |  |  |  | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
+| 12 | Craw Juror 1 |  |  |  |  | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
+| 13 | Craw Juror 2 |  |  |  |  | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
+| 14 | Squatcraw Juror 2 |  |  |  |  | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
+| 15 | Squatcraw Juror 3 |  |  |  |  | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
+| 16 | Craw Juror 3 |  |  |  |  | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
+| 17 | Craw Juror 4 |  |  |  |  | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
+| 18 | Crawfather 1 |  |  |  |  | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
+| 19 | Tallcraw Juror 4 |  |  |  |  | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
+| 20 | Squatcraw Juror 4 |  |  |  |  | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
+| 21 | Craw Juror 5 |  |  |  |  | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
+| 22 | Craw Juror 6 |  |  |  |  | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
+
 <a name="room-greymoor--greymoor-craw-lake"></a>
 
 ### Greymoor Craw Lake (Greymoor_15b)
@@ -8719,160 +8781,99 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | T | top | lil top | [Greymoor Weaver Shrine (Greymoor_22)](#room-greymoor--greymoor-weaver-shrine) | B | silk soar OR ledge grab OR faydown cloak OR cling grip |  | Verified | ✓ |  |
 | ML | middle left | middle craw nest left | [Greymoor Craw Lake Entrance (Greymoor_15)](#room-greymoor--greymoor-craw-lake-entrance) | UR | none |  | Verified | ✓ |  |
-| LR | lower right | craw building | [Dead Verdania Main (Clover_01)](#room-verdania--dead-verdania-main) | L | ACT 3 AND (((cling grip OR silk soar) AND (clawline OR (progressive swift step 1 AND (drifters cloak OR (sharpdart AND faydown cloak))) OR (progressive swift step 2 AND faydown cloak))) OR (prereq balloon lever IN greymoor crow nest AND (clawline OR faydown cloak OR drifters cloak OR sharpdart OR progressive swift step 2 OR ledge grab OR easy hunter pogo OR easy architect pogo OR easy shaman pogo OR easy beast crest pogo))) |  | Verified | ✓ | verdania not yet mapped |
-| CN | craw nest entrance | craw building | [Greymoor Crow Nest (Room_CrowCourt)](#room-greymoor--greymoor-crow-nest) | L | swim OR ledge grab OR cling grip OR hard enemy pogo |  | Verified | ✓ |  |
+| LR | lower right | craw building | [Dead Verdania Main (Clover_01)](#room-verdania--dead-verdania-main) | L | ACT 3 AND (((cling grip OR silk soar) AND (clawline OR (progressive swift step 1 AND (drifters cloak OR (sharpdart AND faydown cloak))) OR (progressive swift step 2 AND faydown cloak))) OR (prereq balloon lever IN greymoor craw nest AND (clawline OR faydown cloak OR drifters cloak OR sharpdart OR progressive swift step 2 OR ledge grab OR easy hunter pogo OR easy architect pogo OR easy shaman pogo OR easy beast crest pogo))) |  | Verified | ✓ | verdania not yet mapped |
+| CN | craw nest entrance | craw building | [Greymoor Craw Nest (Room_CrowCourt)](#room-greymoor--greymoor-craw-nest) | L | swim OR ledge grab OR cling grip OR hard enemy pogo |  | Verified | ✓ |  |
 | LL | lower left | lower left section | [Greymoor Craw Lake Entrance (Greymoor_15)](#room-greymoor--greymoor-craw-lake-entrance) | LR | none |  | Verified | ✓ |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LG | lake gap | lower left section | craw building | swim OR clawline OR ((progressive swift step 2 OR sharpdart) AND faydown cloak AND drifters cloak) OR (progressive swift step 2 AND sharpdart AND faydown cloak) OR (progressive swift step 1 AND sharpdart AND drifters cloak) OR (silk soar AND drifters cloak AND (faydown cloak OR sharpdart OR progressive swift step 2)) OR prereq balloon lever IN greymoor crow nest |  | Verified | ✓ |  |
-| LG | lake gap | craw building | lower left section | swim OR clawline OR silk soar OR ((progressive swift step 2 OR sharpdart) AND faydown cloak AND drifters cloak) OR (progressive swift step 2 AND sharpdart AND faydown cloak) OR (progressive swift step 1 AND sharpdart AND (drifters cloak OR ((ledge grab OR cling grip) AND faydown cloak))) OR prereq balloon lever IN greymoor crow nest |  | Verified | ✓ |  |
+| LG | lake gap | lower left section | craw building | swim OR clawline OR ((progressive swift step 2 OR sharpdart) AND faydown cloak AND drifters cloak) OR (progressive swift step 2 AND sharpdart AND faydown cloak) OR (progressive swift step 1 AND sharpdart AND drifters cloak) OR (silk soar AND drifters cloak AND (faydown cloak OR sharpdart OR progressive swift step 2)) OR prereq balloon lever IN greymoor craw nest |  | Verified | ✓ |  |
+| LG | lake gap | craw building | lower left section | swim OR clawline OR silk soar OR ((progressive swift step 2 OR sharpdart) AND faydown cloak AND drifters cloak) OR (progressive swift step 2 AND sharpdart AND faydown cloak) OR (progressive swift step 1 AND sharpdart AND (drifters cloak OR ((ledge grab OR cling grip) AND faydown cloak))) OR prereq balloon lever IN greymoor craw nest |  | Verified | ✓ |  |
 | FR | fall right | right top craw nest | flea room | progressive swift step 2 OR clawline OR sharpdart OR drifters cloak OR faydown cloak |  | Verified | ✓ |  |
 | FL | fall left | upper craw nest | middle craw nest left | progressive swift step 2 OR clawline OR sharpdart OR drifters cloak OR (faydown cloak AND ledge grab) |  | Verified | ✓ |  |
 | FL | fall left | middle craw nest left | upper craw nest | silk soar |  | Verified | ✓ | must drop to middle craw nest |
-| G1 | gap 1 | craw building | small ass platform | (drifters cloak AND ((progressive swift step 1 AND clawline) OR (progressive swift step 2 AND sharpdart AND faydown cloak))) OR prereq balloon lever IN greymoor crow nest |  | Verified | ✓ |  |
-| G1 | gap 1 | small ass platform | craw building | (drifters cloak AND ((progressive swift step 1 AND clawline) OR (progressive swift step 2 AND sharpdart AND faydown cloak))) OR  prereq balloon lever IN greymoor crow nest |  | Verified | ✓ |  |
+| G1 | gap 1 | craw building | small ass platform | (drifters cloak AND ((progressive swift step 1 AND clawline) OR (progressive swift step 2 AND sharpdart AND faydown cloak))) OR prereq balloon lever IN greymoor craw nest |  | Verified | ✓ |  |
+| G1 | gap 1 | small ass platform | craw building | (drifters cloak AND ((progressive swift step 1 AND clawline) OR (progressive swift step 2 AND sharpdart AND faydown cloak))) OR  prereq balloon lever IN greymoor craw nest |  | Verified | ✓ |  |
 | G2 | gap 2 | middle craw nest left | middle craw nest | none (normal jump) |  | Verified | ✓ |  |
-| G2 | gap 2 | middle craw nest | middle craw nest left | (progressive swift step 1 AND faydown cloak AND ledge grab) OR  prereq balloon lever IN greymoor crow nest |  | Verified | ✓ |  |
-| G3 | gap 3 | middle craw nest | flea room | drifters cloak OR clawline OR (progressive swift step 2 AND (ledge grab OR cling grip OR sharpdart OR faydown cloak)) OR (progressive swift step 1 AND faydown cloak AND (ledge grab OR cling grip OR sharpdart)) OR prereq balloon lever IN greymoor crow nest |  | Verified | ✓ |  |
-| G3 | gap 3 | flea room | middle craw nest | drifters cloak OR clawline OR (progressive swift step 2 AND (sharpdart OR faydown cloak)) OR (progressive swift step 1 AND faydown cloak AND (ledge grab OR cling grip OR sharpdart)) OR prereq balloon lever IN greymoor crow nest |  | Verified | ✓ |  |
+| G2 | gap 2 | middle craw nest | middle craw nest left | (progressive swift step 1 AND faydown cloak AND ledge grab) OR  prereq balloon lever IN greymoor craw nest |  | Verified | ✓ |  |
+| G3 | gap 3 | middle craw nest | flea room | drifters cloak OR clawline OR (progressive swift step 2 AND (ledge grab OR cling grip OR sharpdart OR faydown cloak)) OR (progressive swift step 1 AND faydown cloak AND (ledge grab OR cling grip OR sharpdart)) OR prereq balloon lever IN greymoor craw nest |  | Verified | ✓ |  |
+| G3 | gap 3 | flea room | middle craw nest | drifters cloak OR clawline OR (progressive swift step 2 AND (sharpdart OR faydown cloak)) OR (progressive swift step 1 AND faydown cloak AND (ledge grab OR cling grip OR sharpdart)) OR prereq balloon lever IN greymoor craw nest |  | Verified | ✓ |  |
 | G4 | gap 4 | craw building | lower flea room | faydown cloak OR silk soar OR hard enemy pogo |  | Verified | ✓ |  |
 | G4 | gap 4 | lower flea room | craw building | none |  | Verified | ✓ |  |
-| G5 | gap 5 | left top craw nest | right top craw nest | clawline OR drifters cloak OR (progressive swift step 1 AND (sharpdart OR (faydown cloak AND flea brew))) OR (progressive swift step 2 AND faydown cloak) OR prereq balloon lever IN greymoor crow nest |  | Verified | ✓ |  |
-| G5 | gap 5 | right top craw nest | left top craw nest | (progressive swift step 1 AND faydown cloak AND (drifters cloak OR sharpdart)) OR (clawline AND (faydown cloak OR progressive swift step 2 OR drifters cloak OR sharpdart OR (progressive swift step 1 AND medium beast pogo))) OR (progressive swift step 2 AND faydown cloak AND flea brew) OR (sharpdart AND faydown cloak AND drifters cloak) OR (prereq balloon lever IN greymoor crow nest AND (clawline OR faydown cloak OR sharpdart OR (drifters cloak AND progressive swift step 1) OR progressive swift step 2)) |  | Verified | ✓ |  |
+| G5 | gap 5 | left top craw nest | right top craw nest | clawline OR drifters cloak OR (progressive swift step 1 AND (sharpdart OR (faydown cloak AND flea brew))) OR (progressive swift step 2 AND faydown cloak) OR prereq balloon lever IN greymoor craw nest |  | Verified | ✓ |  |
+| G5 | gap 5 | right top craw nest | left top craw nest | (progressive swift step 1 AND faydown cloak AND (drifters cloak OR sharpdart)) OR (clawline AND (faydown cloak OR progressive swift step 2 OR drifters cloak OR sharpdart OR (progressive swift step 1 AND medium beast pogo))) OR (progressive swift step 2 AND faydown cloak AND flea brew) OR (sharpdart AND faydown cloak AND drifters cloak) OR (prereq balloon lever IN greymoor craw nest AND (clawline OR faydown cloak OR sharpdart OR (drifters cloak AND progressive swift step 1) OR progressive swift step 2)) |  | Verified | ✓ |  |
 | D1 | drop 1 | craw building | flea room | silk soar |  | Verified | ✓ |  |
 | D1 | drop 1 | flea room | craw building | none (just fall) |  | Verified | ✓ |  |
 | D2 | drop 2 | upper craw nest | middle craw nest | none (just fall) |  | Verified | ✓ |  |
-| D2 | drop 2 | middle craw nest | upper craw nest | silk soar OR prereq balloon lever IN greymoor crow nest |  | Verified | ✓ |  |
+| D2 | drop 2 | middle craw nest | upper craw nest | silk soar OR prereq balloon lever IN greymoor craw nest |  | Verified | ✓ |  |
 | D3 | drop 3 | middle craw nest | craw building | none (just fall) |  | Verified | ✓ |  |
-| D3 | drop 3 | craw building | middle craw nest | silk soar OR prereq balloon lever IN greymoor crow nest |  | Verified | ✓ |  |
-| D4 | drop 4 | small ass platform | middle craw nest | prereq balloon lever IN greymoor crow nest |  | Verified | ✓ |  |
+| D3 | drop 3 | craw building | middle craw nest | silk soar OR prereq balloon lever IN greymoor craw nest |  | Verified | ✓ |  |
+| D4 | drop 4 | small ass platform | middle craw nest | prereq balloon lever IN greymoor craw nest |  | Verified | ✓ |  |
 | D4 | drop 4 | middle craw nest | small ass platform | clawline OR sharpdart OR progressive swift step 2 OR faydown cloak OR drifters cloak OR (progressive swift step 1 AND (ledge grab OR flea brew OR silkspeed anklets)) |  | Verified | ✓ |  |
 | H | hatch | lower flea room | flea room | prereq flea airlock |  | Verified | ✓ |  |
 | H | hatch | flea room | lower flea room | prereq flea airlock |  | Verified | ✓ |  |
 | SL | spike lower | spiked room | upper craw nest | prereq spike room lever AND (clawline AND faydown cloak AND (ledge grab OR progressive swift step 1)) |  | Verified | ✓ |  |
 | SL | spike lower | upper craw nest | spiked room | (clawline OR ((progressive swift step 2 OR sharpdart) AND (drifters cloak OR faydown cloak)) ) AND prereq spike room lever |  | Verified | ✓ |  |
-| SU | spike upper | spiked room | left top craw nest | (proficient movement AND spike pogo) OR prereq balloon lever IN greymoor crow nest |  | Verified | ✓ |  |
+| SU | spike upper | spiked room | left top craw nest | (proficient movement AND spike pogo) OR prereq balloon lever IN greymoor craw nest |  | Verified | ✓ |  |
 | SU | spike upper | left top craw nest | spiked room | none |  | Verified | ✓ |  |
 | F1 | fall 1 | left top craw nest | upper craw nest | none (just fall) |  | Verified | ✓ |  |
 | F1 | fall 1 | upper craw nest | left top craw nest | silk soar OR (cling grip AND (easy enemy pogo OR faydown cloak)) |  | Verified | ✓ |  |
 | F2 | fall 2 | right top craw nest | middle craw nest | nothing (just fall) |  | Verified | ✓ |  |
-| F2 | fall 2 | middle craw nest | right top craw nest | silk soar OR (prereq balloon lever IN greymoor crow nest AND faydown cloak AND (ledge grab OR cling grip)) |  | Verified | ✓ |  |
+| F2 | fall 2 | middle craw nest | right top craw nest | silk soar OR (prereq balloon lever IN greymoor craw nest AND faydown cloak AND (ledge grab OR cling grip)) |  | Verified | ✓ |  |
 | F3 | fall 3 | right top craw nest | upper craw nest | drifters cloak OR progressive swift step 1 OR clawline OR sharpdart OR faydown cloak OR (flea brew AND ledge grab) |  | Verified | ✓ |  |
 | F4 | fall 4 | spiked room | middle craw nest left | prereq spike room lever |  | Verified | ✓ |  |
-| F4 | fall 4 | middle craw nest left | spiked room | (prereq balloon lever IN greymoor crow nest OR silk soar) AND prereq spike room lever |  | Verified | ✓ |  |
+| F4 | fall 4 | middle craw nest left | spiked room | (prereq balloon lever IN greymoor craw nest OR silk soar) AND prereq spike room lever |  | Verified | ✓ |  |
 | FF | free fall | lil top | right top craw nest | nothing (just fall) |  | Verified | ✓ |  |
 | FF | free fall | right top craw nest | lil top | silk soar |  | Verified | ✓ |  |
-| BG | balloon gap | left top craw nest | lil top | prereq balloon lever IN greymoor crow nest |  | Verified | ✓ |  |
-| BG | balloon gap | lil top | left top craw nest | prereq balloon lever IN greymoor crow nest OR clawline OR sharpdart OR drifters cloak OR progressive swift step 2 OR (faydown cloak AND (ledge grab OR flea brew OR progressive swift step 1)) |  | Verified | ✓ |  |
+| BG | balloon gap | left top craw nest | lil top | prereq balloon lever IN greymoor craw nest |  | Verified | ✓ |  |
+| BG | balloon gap | lil top | left top craw nest | prereq balloon lever IN greymoor craw nest OR clawline OR sharpdart OR drifters cloak OR progressive swift step 2 OR (faydown cloak AND (ledge grab OR flea brew OR progressive swift step 1)) |  | Verified | ✓ |  |
 
 #### Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Greymoor - Frayed Rosary String #2 | small ass platform | none |  | Verified | resource | ✓ |  |
-| 2 | Greymoor - Rosary Cache #20 | lower flea room | none |  | Verified | resource | ✓ |  |
+| 1 | Greymoor - Frayed Rosary String in tiny ass hole above left lower entrance | small ass platform | none |  | Verified | resource | ✓ |  |
+| 2 | Greymoor - Rosary Cache under the flea below the hatch | lower flea room | none |  | Verified | resource | ✓ |  |
 | 3 | Flea Freymoor - Craw Lake | flea room | silk soar OR ledge grab OR faydown cloak OR cling grip OR medium enemy pogo |  | Verified | collectible | ✓ |  |
-| 4 | Greymoor - Rosary Cache #21 | flea room | none |  | Verified | resource | ✓ |  |
-| 5 | Greymoor - Rosary Cache #22 | flea room | none |  | Verified | resource | ✓ |  |
-| 6 | Greymoor - Rosary Cache #19 | right top craw nest | nothing |  | Verified | resource | ✓ |  |
+| 4 | Greymoor - the other flea segment rosaries | flea room | none |  | Verified | resource | ✓ |  |
+| 5 | Greymoor - flea segment rosaries | flea room | none |  | Verified | resource | ✓ |  |
+| 6 | Greymoor - mathematician nest rosaries if you know you know | right top craw nest | nothing |  | Verified | resource | ✓ |  |
 | 7 | Threefold Pin | right top craw nest | nothing |  | Verified | collectible | ✓ |  |
 | 8 | flea airlock | flea room | open airlock left OR open airlock right OR open airlock up |  | Verified | switch | ✓ |  |
 | 9 | spike room lever | upper craw nest | flip lever up OR flip lever left OR flip lever right |  | Verified | switch | ✓ |  |
-| 10 | Craw Juror 1 |  |  |  |  | enemy | ✓ |  |
-| 11 | Craw Juror 2 |  |  |  |  | enemy | ✓ |  |
-| 12 | Craw Juror 3 |  |  |  |  | enemy | ✓ |  |
-| 13 | Craw Juror 4 |  |  |  |  | enemy | ✓ |  |
-| 14 | Craw Juror 5 |  |  |  |  | enemy | ✓ |  |
-| 15 | Craw Juror 6 |  |  |  |  | enemy | ✓ |  |
-| 16 | Craw Juror 7 |  |  |  |  | enemy | ✓ |  |
-| 17 | Craw Juror 8 |  |  |  |  | enemy | ✓ |  |
-| 18 | Craw Juror 9 |  |  |  |  | enemy | ✓ |  |
-| 19 | Craw 1 |  |  |  |  | enemy | ✓ |  |
-| 20 | Craw 2 |  |  |  |  | enemy | ✓ |  |
-| 21 | Craw 3 |  |  |  |  | enemy | ✓ |  |
-| 22 | Craw 4 |  |  |  |  | enemy | ✓ |  |
-| 23 | Craw 5 |  |  |  |  | enemy | ✓ |  |
-| 24 | Craw 6 |  |  |  |  | enemy | ✓ |  |
-| 25 | Craw 7 |  |  |  |  | enemy | ✓ |  |
-| 26 | Craw 8 |  |  |  |  | enemy | ✓ |  |
-| 27 | Craw 9 |  |  |  |  | enemy | ✓ |  |
-| 28 | Tallcraw 1 |  |  |  |  | enemy | ✓ |  |
-| 29 | Tallcraw 2 |  |  |  |  | enemy | ✓ |  |
-| 30 | Tallcraw 3 |  |  |  |  | enemy | ✓ |  |
-| 31 | Squatcraw 1 |  |  |  |  | enemy | ✓ |  |
-| 32 | Squatcraw 2 |  |  |  |  | enemy | ✓ |  |
-| 33 | Mite 1 |  |  |  |  | enemy | ✓ |  |
+| 10 | Greymoor Stand Lever | craw building | nothing | TODO | Verified | switch | ✓ | this will be useful once i properlly do subrooms in the craw buildings |
+| 11 | Craw Juror 1 |  |  |  |  | enemy | ✓ |  |
+| 12 | Craw Juror 2 |  |  |  |  | enemy | ✓ |  |
+| 13 | Craw Juror 3 |  |  |  |  | enemy | ✓ |  |
+| 14 | Craw Juror 4 |  |  |  |  | enemy | ✓ |  |
+| 15 | Craw Juror 5 |  |  |  |  | enemy | ✓ |  |
+| 16 | Craw Juror 6 |  |  |  |  | enemy | ✓ |  |
+| 17 | Craw Juror 7 |  |  |  |  | enemy | ✓ |  |
+| 18 | Craw Juror 8 |  |  |  |  | enemy | ✓ |  |
+| 19 | Craw Juror 9 |  |  |  |  | enemy | ✓ |  |
+| 20 | Craw 1 |  |  |  |  | enemy | ✓ |  |
+| 21 | Craw 2 |  |  |  |  | enemy | ✓ |  |
+| 22 | Craw 3 |  |  |  |  | enemy | ✓ |  |
+| 23 | Craw 4 |  |  |  |  | enemy | ✓ |  |
+| 24 | Craw 5 |  |  |  |  | enemy | ✓ |  |
+| 25 | Craw 6 |  |  |  |  | enemy | ✓ |  |
+| 26 | Craw 7 |  |  |  |  | enemy | ✓ |  |
+| 27 | Craw 8 |  |  |  |  | enemy | ✓ |  |
+| 28 | Craw 9 |  |  |  |  | enemy | ✓ |  |
+| 29 | Tallcraw 1 |  |  |  |  | enemy | ✓ |  |
+| 30 | Tallcraw 2 |  |  |  |  | enemy | ✓ |  |
+| 31 | Tallcraw 3 |  |  |  |  | enemy | ✓ |  |
+| 32 | Squatcraw 1 |  |  |  |  | enemy | ✓ |  |
+| 33 | Squatcraw 2 |  |  |  |  | enemy | ✓ |  |
+| 34 | Mite 1 |  |  |  |  | enemy | ✓ |  |
 
-<a name="room-greymoor--greymoor-crow-court"></a>
+<a name="room-greymoor--greymoor-craw-nest"></a>
 
-### Greymoor Crow Court (Room_CrowCourt_02)
+### Greymoor Craw Nest (Room_CrowCourt)
 
-[View Room Page](./greymoor/greymoor-crow-court.md)
-
-**Game ID:** Room_CrowCourt_02
-
-**Contributors:** Isssma
-
-#### Subrooms
-
-| No. | Subroom | Annotated |
-| --- | --- | --- |
-| S1 | entrance | ✓ |
-| S2 | left shaft | ✓ |
-| S3 | the court | ✓ |
-
-#### Room Transitions
-
-| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| T | top1 | entrance | [Greymoor Crow Nest (Room_CrowCourt)](#room-greymoor--greymoor-crow-nest) | b | cling grip OR scuttlebrace |  | Verified | ✓ |  |
-
-#### Subroom Connections
-
-| Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| D | drop | entrance | the court | none (just fall) |  | Verified | ✓ |  |
-| D | drop | the court | entrance | defeat Crow Father AND silk soar |  | Verified | ✓ |  |
-| MD | metal door | the court | left shaft | defeat Crow Father |  | Verified | ✓ |  |
-| MD | metal door | left shaft | the court | defeat Crow Father |  | Verified | ✓ |  |
-| W | wall | left shaft | entrance | clear wood wall AND (cling grip OR (easy scuttlebrace AND (ledge grab OR faydown cloak OR clawline))) |  | Verified | ✓ |  |
-| W | wall | entrance | left shaft | clear wood wall |  | Verified | ✓ |  |
-
-#### Check Locations
-
-| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Crow Father | the court | nothing |  | Verified | boss | ✓ |  |
-| 2 | craw memento | the court | defeat Crow Father |  | Verified | collectible | ✓ |  |
-| 3 | Greymoor - Rosary Cache #35 | left shaft | cling grip OR (easy scuttlebrace AND (ledge grab OR faydown cloak OR clawline OR easy beast pogo)) |  | Verified | resource | ✓ |  |
-| 4 | Greymoor - Rosary Cache #36 | left shaft | cling grip OR (easy scuttlebrace AND (ledge grab OR faydown cloak OR clawline OR easy beast pogo)) |  | Verified | resource | ✓ |  |
-| 5 | Greymoor - Rosary Cache #37 | left shaft | cling grip OR (easy scuttlebrace AND (ledge grab OR faydown cloak OR clawline OR easy beast pogo)) |  | Verified | resource | ✓ |  |
-| 6 | Crow bell | left shaft | cling grip OR (easy scuttlebrace AND (ledge grab OR faydown cloak OR clawline OR easy beast pogo)) |  | Verified | collectible | ✓ |  |
-| 7 | wood wall | left shaft | break wall right OR break wall up |  | Verified | blockade | ✓ |  |
-| 8 | Tallcraw Juror 1 |  |  |  |  | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
-| 9 | Squatcraw Juror 1 |  |  |  |  | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
-| 10 | Tallcraw Juror 2 |  |  |  |  | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
-| 11 | Tallcraw Juror 3 |  |  |  |  | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
-| 12 | Craw Juror 1 |  |  |  |  | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
-| 13 | Craw Juror 2 |  |  |  |  | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
-| 14 | Squatcraw Juror 2 |  |  |  |  | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
-| 15 | Squatcraw Juror 3 |  |  |  |  | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
-| 16 | Craw Juror 3 |  |  |  |  | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
-| 17 | Craw Juror 4 |  |  |  |  | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
-| 18 | Crawfather 1 |  |  |  |  | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
-| 19 | Tallcraw Juror 4 |  |  |  |  | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
-| 20 | Squatcraw Juror 4 |  |  |  |  | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
-| 21 | Craw Juror 5 |  |  |  |  | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
-| 22 | Craw Juror 6 |  |  |  |  | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
-
-<a name="room-greymoor--greymoor-crow-nest"></a>
-
-### Greymoor Crow Nest (Room_CrowCourt)
-
-[View Room Page](./greymoor/greymoor-crow-nest.md)
+[View Room Page](./greymoor/greymoor-craw-nest.md)
 
 **Game ID:** Room_CrowCourt
 
@@ -8891,7 +8892,7 @@ No subroom connections defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| B | bottom | crow lower nest | [Greymoor Crow Court (Room_CrowCourt_02)](#room-greymoor--greymoor-crow-court) | T | craw summons ready |  | Verified | ✓ |  |
+| B | bottom | crow lower nest | [Greymoor Craw Court (Room_CrowCourt_02)](#room-greymoor--greymoor-craw-court) | T | craw summons ready |  | Verified | ✓ |  |
 | L | left | crow nest entrance | [Greymoor Craw Lake (Greymoor_15b)](#room-greymoor--greymoor-craw-lake) | CN | none |  | Verified | ✓ |  |
 
 #### Subroom Connections
@@ -8910,32 +8911,31 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | balloon lever | balloon control room | flip lever up OR flip lever left OR flip lever right |  | Verified | switch | ✓ |  |
-| 2 | Greymoor - Rosary Cache #30 | crow nest entrance | nothing |  | Verified | resource | ✓ |  |
-| 3 | Greymoor - Rosary Cache #29 | crow nest entrance | nothing |  | Verified | resource | ✓ |  |
-| 4 | Greymoor - Rosary Cache #28 | crow lower nest | (faydown cloak AND (progressive swift step 1 OR sharpdart OR clawline)) OR ((ledge grab OR cling grip OR easy enemy pogo) AND drifters cloak AND (progressive swift step 2 OR sharpdart OR clawline)) OR prereq balloon lever |  | Verified | resource | ✓ |  |
-| 5 | Greymoor - Rosary Cache #32 | crow lower nest | ((ledge grab OR cling grip OR easy enemy pogo) AND (progressive swift step 1 OR sharpdart OR clawline)) OR faydown cloak OR prereq balloon lever |  | Verified | resource | ✓ |  |
-| 6 | Greymoor - Rosary Cache #33 | crow lower nest | ((ledge grab OR cling grip OR easy enemy pogo) AND (progressive swift step 1 OR sharpdart OR clawline)) OR faydown cloak OR prereq balloon lever |  | Verified | resource | ✓ |  |
-| 7 | Greymoor - Rosary Cache #31 | crow lower nest | (faydown cloak AND (progressive swift step 1 OR sharpdart OR clawline)) OR ((ledge grab OR cling grip OR easy enemy pogo) AND drifters cloak AND (progressive swift step 2 OR sharpdart OR clawline)) OR prereq balloon lever |  | Verified | resource | ✓ |  |
-| 8 | Greymoor - Rosary Cache #34 | crow arena | none |  | Verified | resource | ✓ |  |
+| 2 | Greymoor - entrance rosary stash | crow nest entrance | nothing |  | Verified | resource | ✓ |  |
+| 3 | Greymoor - entrance food savings | crow nest entrance | nothing |  | Verified | resource | ✓ |  |
+| 4 | Greymoor - nest savings at the extreme left | crow lower nest | (faydown cloak AND (progressive swift step 1 OR sharpdart OR clawline)) OR ((ledge grab OR cling grip OR easy enemy pogo) AND drifters cloak AND (progressive swift step 2 OR sharpdart OR clawline)) OR prereq balloon lever |  | Verified | resource | ✓ |  |
+| 5 | Greymoor - nest savings at the extreme right | crow lower nest | ((ledge grab OR cling grip OR easy enemy pogo) AND (progressive swift step 1 OR sharpdart OR clawline)) OR faydown cloak OR prereq balloon lever |  | Verified | resource | ✓ |  |
+| 6 | Greymoor - nest mortage at the inner right | crow lower nest | ((ledge grab OR cling grip OR easy enemy pogo) AND (progressive swift step 1 OR sharpdart OR clawline)) OR faydown cloak OR prereq balloon lever |  | Verified | resource | ✓ |  |
+| 7 | Greymoor - nest mortage at the inner left | crow lower nest | (faydown cloak AND (progressive swift step 1 OR sharpdart OR clawline)) OR ((ledge grab OR cling grip OR easy enemy pogo) AND drifters cloak AND (progressive swift step 2 OR sharpdart OR clawline)) OR prereq balloon lever |  | Verified | resource | ✓ |  |
+| 8 | Greymoor - some dumb bird life savings left outside in the nest | crow arena | none |  | Verified | resource | ✓ |  |
 | 9 | Craw Lake Gauntlet | crow arena | nothing |  | Verified | gauntlet | ✓ |  |
-| 10 | import enemies |  |  | TODO | Needs verification |  |  |  |
-| 11 | Squatcraw 1 |  |  |  |  | enemy | ✓ | Spawn conditions: CrowCourtInSession=false |
-| 12 | Craw 1 |  |  |  |  | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false |
-| 13 | Craw 2 |  |  |  |  | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false |
-| 14 | Craw 3 |  |  |  |  | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false |
-| 15 | Tallcraw 1 |  |  |  |  | enemy | ✓ | Spawn conditions: CrowCourtInSession=false |
-| 16 | Craw 4 |  |  |  |  | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false |
-| 17 | Craw 5 |  |  |  |  | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false |
-| 18 | Craw 6 |  |  |  |  | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false |
-| 19 | Craw 7 |  |  |  |  | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false |
-| 20 | Craw 8 |  |  |  |  | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false |
-| 21 | Tallcraw 2 |  |  |  |  | enemy | ✓ | Spawn conditions: CrowCourtInSession=false |
-| 22 | Squatcraw 2 |  |  |  |  | enemy | ✓ | Spawn conditions: CrowCourtInSession=false |
-| 23 | Tallcraw 3 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: CrowCourtInSession=false |
-| 24 | Squatcraw 3 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: CrowCourtInSession=false |
-| 25 | Mite 1 |  |  |  |  | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
-| 26 | Mite 2 |  |  |  |  | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
-| 27 | Mite 3 |  |  |  |  | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
+| 10 | Squatcraw 1 |  |  |  |  | enemy | ✓ | Spawn conditions: CrowCourtInSession=false |
+| 11 | Craw 1 |  |  |  |  | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false |
+| 12 | Craw 2 |  |  |  |  | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false |
+| 13 | Craw 3 |  |  |  |  | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false |
+| 14 | Tallcraw 1 |  |  |  |  | enemy | ✓ | Spawn conditions: CrowCourtInSession=false |
+| 15 | Craw 4 |  |  |  |  | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false |
+| 16 | Craw 5 |  |  |  |  | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false |
+| 17 | Craw 6 |  |  |  |  | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false |
+| 18 | Craw 7 |  |  |  |  | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false |
+| 19 | Craw 8 |  |  |  |  | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false |
+| 20 | Tallcraw 2 |  |  |  |  | enemy | ✓ | Spawn conditions: CrowCourtInSession=false |
+| 21 | Squatcraw 2 |  |  |  |  | enemy | ✓ | Spawn conditions: CrowCourtInSession=false |
+| 22 | Tallcraw 3 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: CrowCourtInSession=false |
+| 23 | Squatcraw 3 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: CrowCourtInSession=false |
+| 24 | Mite 1 |  |  |  |  | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
+| 25 | Mite 2 |  |  |  |  | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
+| 26 | Mite 3 |  |  |  |  | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
 
 <a name="room-greymoor--greymoor-east-bellshrine-room"></a>
 
@@ -8955,13 +8955,16 @@ No subroom connections defined.
 | S2 | lower section right | ✓ |
 | S3 | middle section right | ✓ |
 | S4 | middle section left | ✓ |
-| S5 | bridge left section | ✓ |
-| S6 | bridge right section | ✓ |
-| S7 | upper crow nest | ✓ |
-| S8 | lone crow platform | ✓ |
-| S9 | top left | ✓ |
-| S10 | top right | ✓ |
-| S11 | hidden exit | ✓ |
+| S5 | bridge section | ✓ |
+| S6 | upper craw nest | ✓ |
+| S7 | lone crow platform | ✓ |
+| S8 | top left | ✓ |
+| S9 | top right | ✓ |
+| S10 | hidden exit | ✓ |
+| S11 | craw gang hangout place | ✓ |
+| S12 | stupid platform | ✓ |
+
+- **hidden exit:** it has the black screen thing when wall has not been broken
 
 #### Room Transitions
 
@@ -8971,60 +8974,67 @@ No subroom connections defined.
 | LR | lower right | lower section right | [Greymoor Craw Lake Entrance (Greymoor_15)](#room-greymoor--greymoor-craw-lake-entrance) | LL | none |  | Verified | ✓ |  |
 | ML | middle left | middle section left | [Greymoor Bellshrine (Bellshrine_02)](#room-greymoor--greymoor-bellshrine) | R | none |  | Verified | ✓ |  |
 | MR | middle right | middle section right | [Greymoor Craw Lake Entrance (Greymoor_15)](#room-greymoor--greymoor-craw-lake-entrance) | UL | none |  | Verified | ✓ |  |
-| BL | bridge left | bridge left section | [Greymoor West Bellshrine Room (Greymoor_01)](#room-greymoor--greymoor-west-bellshrine-room) | TR | none |  | Verified | ✓ |  |
+| BL | bridge left | bridge section | [Greymoor West Bellshrine Room (Greymoor_01)](#room-greymoor--greymoor-west-bellshrine-room) | TR | none |  | Verified | ✓ |  |
 | HR | hidden right | hidden exit | [Greymoor Silver Shells room (Greymoor_17)](#room-greymoor--greymoor-silver-shells-room) | L | none |  | Verified | ✓ |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| TP | tall platform | lower section right | lower section left | ledge grab OR faydown cloak OR silk soar OR cling grip |  | Verified | ✓ |  |
+| TP | tall platform | lower section right | lower section left | ledge grab left OR faydown cloak OR silk soar OR cling grip left |  | Verified | ✓ |  |
 | TP | tall platform | lower section left | lower section right | nothing (just fall) |  | Verified | ✓ |  |
 | F1 | fall 1 | middle section left | lower section left | nothing (just fall) |  | Verified | ✓ |  |
 | LS1 | lever switch 1 | lower section right | middle section right | silk soar OR prereq balloon switch |  | Verified | ✓ |  |
 | LS1 | lever switch 1 | middle section right | lower section right | none (just fall) |  | Verified | ✓ |  |
-| G1 | gap 1 | middle section right | middle section left | prereq balloon switch OR progressive swift step 1 OR clawline OR sharpdart OR drifters cloak OR faydown cloak OR silk soar |  | Verified | ✓ |  |
-| G1 | gap 1 | middle section left | middle section right | Progressive swift step 2 OR clawline OR sharpdart OR drifters cloak OR silksoar OR (progressive swift step 1 AND (faydown cloak OR ledge grab)) OR prereq balloon switch |  | Verified | ✓ |  |
-| BG | bridge gap | bridge left section | bridge right section | (prereq bridge lever AND (clawline OR ((progressive swift step 2 OR sharpdart OR (progressive swift step 1 AND (( flea brew AND ledge grab) OR (silkspeed anklets AND cling grip)))) AND (drifters cloak OR faydown cloak)))) OR nothing |  | Verified | ✓ |  |
-| BG | bridge gap | bridge right section | bridge left section | (prereq bridge lever AND (clawline OR ((progressive swift step 2 OR sharpdart OR (progressive swift step 1 AND ((flea brew AND ledge grab) OR (silkspeed anklets AND cling grip)))) AND (drifters cloak OR faydown cloak)))) OR nothing |  | Verified | ✓ |  |
-| CR | climb right | middle section right | bridge right section | prereq bridge lever AND (cling grip OR silk soar) |  | Verified | ✓ |  |
-| CR | climb right | bridge right section | middle section right | prereq bridge lever |  | Verified | ✓ |  |
-| CL | climb left | middle section left | bridge left section | prereq bridge lever AND (silk soar OR (cling grip AND faydown cloak)) |  | Verified | ✓ |  |
-| CL | climb left | bridge left section | middle section left | prereq bridge lever |  | Verified | ✓ |  |
-| UL | upper left | bridge left section | upper crow nest | silk soar |  | Verified | ✓ |  |
-| UL | upper left | upper crow nest | bridge left section | none (fall) |  | Verified | ✓ |  |
-| UR | upper right | bridge right section | lone crow platform | nothing |  | Verified | ✓ |  |
-| UR | upper right | lone crow platform | bridge right section | none (fall) |  | Verified | ✓ |  |
-| G2 | gap 2 | lone crow platform | upper crow nest | silk soar OR faydown cloak OR hard enemy pogo OR clawline OR sharpdart OR progressive swift step 2 OR drifters cloak |  | Verified | ✓ |  |
-| G2 | gap 2 | upper crow nest | lone crow platform | nothing |  | Verified | ✓ |  |
-| S1 | shaft 1 | upper crow nest | top right | silk soar OR (cling grip AND ((proficient movement AND spike pogo) OR progressive swift step 1 OR clawline OR sharpdart OR drifters cloak OR medium enemy pogo )) |  | Verified | ✓ |  |
-| S1 | shaft 1 | top right | upper crow nest | nada |  | Verified | ✓ |  |
-| PG1 | platform gap | upper crow nest | top left | silk soar OR faydown cloak OR hard enemy pogo |  | Verified | ✓ |  |
-| PG1 | platform gap | top left | upper crow nest | nothing |  | Verified | ✓ |  |
-| G3 | gap 3 | top left | top right | faydown cloak OR (ledge grab AND (clawline OR progressive swift step 1 OR sharpdart) ) |  | Verified | ✓ |  |
+| G1 | gap 1 | middle section right | middle section left | prereq balloon switch OR progressive swift step 1 left OR clawline left x 1 OR sharpdart x 1 OR drifters cloak OR faydown cloak OR silk soar |  | Verified | ✓ |  |
+| G1 | gap 1 | middle section left | middle section right | Progressive swift step 2 right OR clawline right x 1 OR sharpdart  x 1 OR drifters cloak OR silksoar OR (progressive swift step 1 right AND (faydown cloak OR ledge grab right)) OR prereq balloon switch |  | Verified | ✓ |  |
+| CR | climb right | middle section right | bridge section | (prereq bridge lever  OR prereq cooler bridge lever) AND (cling grip right OR silk soar) |  | Verified | ✓ |  |
+| CR | climb right | bridge section | middle section right | prereq bridge lever OR prereq cooler bridge lever |  | Verified | ✓ |  |
+| CL | climb left | middle section left | bridge section | (prereq bridge lever  OR prereq cooler bridge lever) AND (silk soar OR (cling grip left AND faydown cloak)) |  | Verified | ✓ |  |
+| CL | climb left | bridge section | middle section left | prereq bridge lever OR prereq cooler bridge lever |  | Verified | ✓ |  |
+| UU | up upper | bridge section | craw gang hangout place | silk soar |  | Verified | ✓ |  |
+| UU | up upper | craw gang hangout place | bridge section | none (fall) |  | Verified | ✓ |  |
+| BU | balloon up | bridge section | lone crow platform | nothing |  | Verified | ✓ |  |
+| BU | balloon up | lone crow platform | bridge section | none (fall) |  | Verified | ✓ |  |
+| G2 | gap 2 | lone crow platform | craw gang hangout place | silk soar OR faydown cloak OR (hard enemy pogo AND prereq Tallcraw 1) OR clawline right x 1 OR sharpdart x 1 OR progressive swift step 2 right OR drifters cloak |  | Verified | ✓ |  |
+| G2 | gap 2 | craw gang hangout place | lone crow platform | nothing |  | Verified | ✓ |  |
+| S1 | shaft 1 | craw gang hangout place | top right | silk soar OR (cling grip right AND proficient movement AND spike pogo) |  | Verified | ✓ |  |
+| S1 | shaft 1 | top right | craw gang hangout place | nada |  | Verified | ✓ |  |
+| PG1 | platform gap | upper craw nest | top left | silk soar OR faydown cloak OR (hard enemy pogo AND (prereq craw 1 OR prereq squatcraw 1)) |  | Verified | ✓ |  |
+| PG1 | platform gap | top left | upper craw nest | nothing |  | Verified | ✓ |  |
+| G3 | gap 3 | top left | top right | faydown cloak OR (ledge grab right AND (clawline right x 1 OR progressive swift step 1 right OR sharpdart x 1)) |  | Verified | ✓ |  |
 | G3 | gap 3 | top right | top left | nothing |  | Verified | ✓ |  |
 | B | blockade | top right | hidden exit | break wall right OR break wall up |  | Verified | ✓ |  |
 | B | blockade | hidden exit | top right | break wall left OR break wall up |  | Verified | ✓ |  |
+| S2 | shaft 2 | stupid platform | top right | silk soar OR (cling grip right AND (progressive swift step 1 right OR clawline right x 1 OR sharpdart x 1 OR drifters cloak OR (medium enemy pogo AND (prereq craw 1 OR prereq squatcraw 1)))) |  | Verified | ✓ |  |
+| S2 | shaft 2 | top right | stupid platform | nothing |  | Verified | ✓ |  |
+| PG2 | platform gap 2 | craw gang hangout place | upper craw nest | silk soar OR faydown cloak OR cling grip right OR (ledge grab left AND (cling grip left OR easy shaman pogo)) OR (medium enemy pogo AND (prereq craw 1 OR prereq squatcraw 1)) |  | Verified | ✓ |  |
+| PG2 | platform gap 2 | upper craw nest | craw gang hangout place | nothing |  | Verified | ✓ |  |
+| G4 | gap 4 | upper craw nest | stupid platform | nothing |  | Verified | ✓ |  |
+| G4 | gap 4 | stupid platform | upper craw nest | progressive swift step 1 left OR clawline left x 1 OR sharpdart x 1 OR faydown cloak OR easy beast pogo OR cling grip left OR easy architect pogo OR easy reaper pogo OR easy shaman pogo OR easy hunter pogo OR (medium enemy pogo AND prereq craw 1) OR flea brew OR drifters cloak OR silk soar |  | Verified | ✓ |  |
+| SF | stupid fall | craw gang hangout place | stupid platform | silk soar |  | Verified | ✓ | add a enemy pogo using cbt i guess |
+| SF | stupid fall | stupid platform | craw gang hangout place | nothing |  | Verified | ✓ |  |
 
 #### Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Greymoor - Spool Fragment | top left | nothing |  | Verified | collectible | ✓ |  |
-| 2 | Greymoor #2 - Rosary Cache | upper crow nest | nothing |  | Verified | resource | ✓ |  |
-| 3 | Greymoor #3 - Rosary Cache | upper crow nest | nothing |  | Verified | resource | ✓ |  |
+| 2 | Greymoor - Craw gang lunch money | craw gang hangout place | nothing |  | Verified | resource | ✓ |  |
+| 3 | Greymoor - Craw gang savings | craw gang hangout place | nothing |  | Verified | resource | ✓ |  |
 | 4 | Greeymoor - map purchase | lower section right | nothing |  | Verified | collectible | ✓ |  |
 | 5 | balloon switch | middle section right | flip lever up OR flip lever right OR flip lever left |  | Verified | switch | ✓ |  |
-| 6 | bridge lever | bridge right section | flip lever up OR flip lever right OR flip lever left |  | Verified | switch | ✓ |  |
-| 7 | Seth Meeting Greymoor | lower section right | defeat THE Boss: Shrine Guardian Seth AND (  have everbloom OR have encrusted heart OR have hunters heart OR have conjoined heart ) |  | Verified | event | ✓ | requirements per the wiki |
-| 8 | Craw 1 |  |  |  |  | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
-| 9 | Mite 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 10 | Tallcraw 1 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: CrowCourtInSession=false |
-| 11 | Squatcraw 1 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: CrowCourtInSession=false |
-| 12 | Craw 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 13 | Tallcraw 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
-| 14 | Squatcraw 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
-| 15 | Void Mass 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 6 | bridge lever | bridge section | flip lever up OR flip lever right OR flip lever left |  | Verified | switch | ✓ |  |
+| 7 | cooler bridge lever | bridge section | flip lever up OR flip lever right OR flip lever left |  | Verified | switch | ✓ |  |
+| 8 | Seth Meeting Greymoor | lower section right | defeat THE Boss: Shrine Guardian Seth AND (  have everbloom OR have encrusted heart OR have hunters heart OR have conjoined heart ) |  | Verified | event | ✓ | requirements per the wiki |
+| 9 | Craw 1 | craw gang hangout place | nothing |  | Verified | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
+| 10 | Mite 1 | upper craw nest | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 11 | Tallcraw 1 | lone crow platform | Normal World Spawn |  | Verified | enemy | ✓ | Spawn conditions: CrowCourtInSession=false |
+| 12 | Squatcraw 1 | craw gang hangout place | Normal World Spawn |  | Verified | enemy | ✓ | Spawn conditions: CrowCourtInSession=false |
+| 13 | Craw 2 | stupid platform | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 14 | Tallcraw 2 | stupid platform | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 15 | Squatcraw 2 | stupid platform | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 16 | Void Mass 1 | stupid platform | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 
 <a name="room-greymoor--greymoor-eastern-tower"></a>
 
@@ -9081,9 +9091,9 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Greymoor - Rosary Cache #6 | lower airstream section | nothing |  | Verified | resource | ✓ |  |
+| 1 | Greymoor - Rosary Cache next to the lowest airstream | lower airstream section | nothing |  | Verified | resource | ✓ |  |
 | 2 | Greymoor - Silkeater | tower top | silk soar OR (proficient movement AND spike pogo) OR (drifters cloak AND (spike pogo OR faydown cloak OR ((clawline left x 1 OR sharpdart x 1) AND ledge grab left)) AND activate top airstream) |  | Verified | collectible | ✓ |  |
-| 3 | Greymoor Tower Gaunlet | arena encounter | nothing |  | Verified | gauntlet | ✓ |  |
+| 3 | Greymoor Tower Gaunlet | arena encounter | nothing |  | Verified | gauntlet | ✓ | THe enemy souls required are: dregt catcher and thread raker plus a roachcatcher for the act 3 version |
 | 4 | lower airstream | lower airstream section | hit lever right OR hit lever up OR hit lever down |  | Verified | switch | ✓ |  |
 | 5 | middle airstream | middle section | ((drifters cloak AND activate lower airstream) OR ledge grab left OR ledge grab right OR cling grip left OR cling grip right OR silk soar OR faydown cloak) AND (hit lever right OR hit lever up OR hit lever left) |  | Verified | switch | ✓ |  |
 | 6 | upper airstream | upper airstream section | hit lever right OR hit lever down |  | Verified | switch | ✓ |  |
@@ -9182,22 +9192,22 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| UP | upper path | left section | right section | easy hunter pogo OR easy reaper pogo OR easy wanderer pogo OR easy beast pogo OR hard witch pogo OR medium architect pogo OR easy shaman pogo OR ledge grab OR cling grip OR faydown cloak |  | Verified | ✓ |  |
-| UP | upper path | right section | left section | ledge grab OR silk soar OR cling grip OR faydown cloak |  | Verified | ✓ |  |
-| W | wall exit | right section | left section | clear wooden wall |  | Verified | ✓ |  |
-| W | wall exit | left section | right section | clear wooden wall |  | Verified | ✓ |  |
+| UP | upper path | left section | right section | easy hunter pogo OR easy reaper pogo OR easy wanderer pogo OR easy beast pogo OR hard witch pogo OR medium architect pogo OR easy shaman pogo OR ledge grab right OR cling grip right OR faydown cloak |  | Verified | ✓ |  |
+| UP | upper path | right section | left section | ledge grab left OR silk soar OR cling grip left OR faydown cloak OR (prereq craw 1 AND medium enemy pogo) OR easy beast needle strike |  | Verified | ✓ |  |
+| W | wall exit | right section | left section | clear wood blockade |  | Verified | ✓ |  |
+| W | wall exit | left section | right section | clear wood blockade AND (cling grip right OR faydown cloak) |  | Verified | ✓ |  |
 
 #### Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Thread storm | left section | easy hunter pogo OR easy reaper pogo OR easy wanderer pogo OR easy beast pogo OR hard witch pogo OR medium architect pogo OR easy shaman pogo OR ledge grab OR cling grip OR faydown cloak |  | Verified | collectible | ✓ |  |
-| 2 | Greymoor - Rosary Cache #26 | right section | none |  | Verified | resource | ✓ |  |
-| 3 | Greymoor - Rosary Cache #27 | right section | none |  | Verified | resource | ✓ |  |
-| 4 | wooden wall | right section | break wall left OR break wall up |  | Verified | blockade | ✓ |  |
-| 5 | Craw 1 |  |  |  |  | enemy | ✓ | Spawn conditions: CrowCourtInSession=false |
-| 6 | Craw 2 |  |  |  |  | enemy | ✓ | Spawn conditions: CrowCourtInSession=false |
-| 7 | Craw 3 |  |  |  |  | enemy | ✓ | Spawn conditions: CrowCourtInSession=false |
+| 2 | Greymoor - rosaries hanging left of the weaver shrine | right section | none |  | Verified | resource | ✓ |  |
+| 3 | Greymoor - some craw rosaries i guess and he will hit you | right section | none |  | Verified | resource | ✓ |  |
+| 4 | wood blockade | right section | break wall left OR break wall up |  | Verified | blockade | ✓ |  |
+| 5 | Craw 1 | right section | prereq Thread storm |  | Verified | enemy | ✓ | Spawn conditions: CrowCourtInSession=false |
+| 6 | Craw 2 | left section | prereq Thread storm |  | Verified | enemy | ✓ | Spawn conditions: CrowCourtInSession=false |
+| 7 | Craw 3 | right section | prereq Thread storm |  | Verified | enemy | ✓ | Spawn conditions: CrowCourtInSession=false |
 
 <a name="room-greymoor--greymoor-western-tower"></a>
 
@@ -9265,7 +9275,7 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Flea: Greymoor - Tower | tower top section | none |  | Verified | collectible | ✓ |  |
-| 2 | Greymoor - Rosary Cache #10 | middle section | nothing |  | Verified | resource | ✓ |  |
+| 2 | Greymoor - Rosary cache below a spike wheel | middle section | nothing |  | Verified | resource | ✓ |  |
 | 3 | top trapdoor | tower top section | break lever right OR break lever left OR break lever up |  | Verified | blockade | ✓ |  |
 | 4 | Mister Mushroom Meeting Greymoor | tower drop | after THE Mister Mushroom Meeting Far Fields AND Needolin |  | Verified | event | ✓ |  |
 | 5 | Silk Snipper 1 | first guarded platform | nothing |  | Verified | enemy | ✓ |  |
@@ -9340,7 +9350,7 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Greymoor - Frayed Rosary String #3 | upper shaft | nothing |  | Verified | resource | ✓ |  |
+| 1 | Greymoor - Yanarby stash with a Frayed Rosary | upper shaft | nothing |  | Verified | resource | ✓ |  |
 | 2 | vine wall | upper shaft | break wall: up |  | Verified | blockade | ✓ | if not broken the vine wall bounces you back |
 | 3 | Furm 1 | lower section | nothing |  | Verified | enemy | ✓ |  |
 | 4 | Dreg Catcher 1 | lower section | nothing |  | Verified | enemy | ✓ |  |
@@ -9421,7 +9431,7 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Relic: Bone Scroll (Greymoor) | bug resting place | nothing |  | Verified | collectible | ✓ |  |
+| 1 | Relic: Bone Scroll (Greymoor) at bugs lonely resting place | bug resting place | nothing |  | Verified | collectible | ✓ |  |
 
 <a name="room-greymoor--greymoor-chapel-of-the-reaper"></a>
 
@@ -9548,16 +9558,16 @@ No check locations defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Greymoor - Frayed Rosary String #1 | middle section | nothing |  | Verified | resource | ✓ |  |
+| 1 | Greymoor - Frayed Rosary String from dead bug guarded by rat | middle section | nothing |  | Verified | resource | ✓ |  |
 | 2 | Greymoor - Rosary Cache #18 | upper section | silk soar OR faydown cloak OR hard enemy pogo OR ((medium enemy pogo OR ledge grab OR cling grip) AND (progressive swift step 1 OR sharpdart OR clawline OR drifters cloak)) |  | Verified | resource | ✓ |  |
 | 3 | crawlake door | craw lake middle entrance | flip lever up OR flip lever right OR flip lever left |  | Verified | switch | ✓ |  |
-| 4 | Craw Juror 1 |  |  |  |  | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false FSM Boolean flags: CrowCourtInSession |
-| 5 | Craw Juror 2 |  |  |  |  | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
-| 6 | Craw Juror 3 |  |  |  |  | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
-| 7 | Craw 1 |  |  |  |  | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false FSM Boolean flags: CrowCourtInSession |
-| 8 | Craw 2 |  |  |  |  | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
-| 9 | Craw 3 |  |  |  |  | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
-| 10 | Mite 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Craw Juror 1 | lower right section |  | TODO |  | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false FSM Boolean flags: CrowCourtInSession |
+| 5 | Craw Juror 2 | lower right section |  | TODO |  | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
+| 6 | Craw Juror 3 | upper section |  | TODO |  | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
+| 7 | Craw 1 | lower right section | nothing |  | Verified | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false FSM Boolean flags: CrowCourtInSession |
+| 8 | Craw 2 | lower right section | nothing |  | Verified | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
+| 9 | Craw 3 | upper section | nothing |  | Verified | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
+| 10 | Mite 1 | middle section | nothing |  | Verified | enemy | ✓ |  |
 
 <a name="room-greymoor--greymoor-entry-to-bellhart"></a>
 
@@ -9734,8 +9744,8 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Greymoor - Rosary Cache #4 | upper stash | none |  | Verified | resource | ✓ |  |
-| 2 | Greymoor - Rosary Cache #5 | upper stash | none |  | Verified | resource | ✓ |  |
+| 1 | Greymoor - Rosary Cache bellow sinners road entrance | upper stash | none |  | Verified | resource | ✓ |  |
+| 2 | Greymoor - sinner road entrance guards lunch money | upper stash | none |  | Verified | resource | ✓ |  |
 | 3 | tower elevator | tower platform | none (pressure switch) |  | Verified | switch | ✓ |  |
 | 4 | hidden right wall | upper right section | break wall right OR break wall up |  | Verified | blockade | ✓ |  |
 | 5 | Greymoor - Orders | upper center room | nothing |  | Verified | lore | ✓ |  |
@@ -9746,11 +9756,11 @@ No subroom connections defined.
 | 10 | Craw 5 | building roof |  | TODO | Verified | enemy | ✓ | when it comes to these craw the number you can fight is random and changes every time you load the save, additionally they despawn when completing the crawbug clearing wish |
 | 11 | Dreg Catcher 1 | lower guarded platform | nothing |  | Verified | enemy | ✓ |  |
 | 12 | Fluttermite 1 | tower platform | nothing |  | Verified | enemy | ✓ |  |
-| 13 | Fluttermite 2 | upper center room | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 13 | Fluttermite 2 | tower platform | Normal World Spawn |  | Verified | enemy | ✓ |  |
 | 14 | Fluttermite 3 | upper center room | silk soar OR easy enemy pogo |  | Verified | enemy | ✓ |  |
 | 15 | Fluttermite 4 | upper center room | Normal World Spawn AND (silk soar OR hard enemy pogo) |  | Verified | enemy | ✓ |  |
 | 16 | Mite 1 | tower platform | ledge grab left OR faydown cloak OR progressive swift step 2 left OR clawline left x 1 OR sharpdart x 1 OR silk soar |  | Verified | enemy | ✓ | technically can be lured without reaching the platform but its inconsistent |
-| 17 | Fluttermite 5 | tower platform | silk soar OR hard enemy pogo |  | Verified | enemy | ✓ |  |
+| 17 | Fluttermite 5 | upper center room | silk soar OR hard enemy pogo |  | Verified | enemy | ✓ |  |
 | 18 | Fluttermite 6 | upper center room | Normal World Spawn |  | Verified | enemy | ✓ |  |
 | 19 | Dreg Catcher 2 | upper guarded plaform | Normal World Spawn |  | Verified | enemy | ✓ |  |
 
@@ -9878,13 +9888,13 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Breakable wooden Wall | Top Right Section (Bottom) | break wall right OR break wall up |  | Verified | blockade | ✓ |  |
-| 2 | Greymoor - Shell Shard Cache #1 | bottom section right | none |  | Verified | resource | ✓ |  |
-| 3 | Greymoor - Shell Shard Cache #2 | bottom section right | none |  | Verified | resource | ✓ |  |
+| 2 | Greymoor - Shell Shard Cache next to the pit with with fat fuck | bottom section right | none |  | Verified | resource | ✓ |  |
+| 3 | Greymoor - The other Shell Shard Cache in the pit with the fat fuck | bottom section right | none |  | Verified | resource | ✓ |  |
 | 4 | Greymoor - Memory Locket | Top Right Section (Upper) | none |  | Verified | collectible | ✓ |  |
 | 5 | Greymoor - Cage Record | Top Left Shaft (Upper) | nothing |  | Verified | lore | ✓ |  |
-| 6 | Greymoor - Rosary Cache #23 | Top Right Section (Bottom) | clear Breakable wooden Wall |  | Verified | resource | ✓ |  |
-| 7 | Greymoor - Rosary Cache #24 | Top Right Section (Bottom) | clear Breakable wooden Wall |  | Verified | resource | ✓ |  |
-| 8 | Greymoor - Rosary Cache #25 | Top Right Section (Bottom) | clear Breakable wooden Wall |  | Verified | resource | ✓ |  |
+| 6 | Greymoor - Rosary Cache behind the big rat above the pit | Top Right Section (Bottom) | clear Breakable wooden Wall |  | Verified | resource | ✓ |  |
+| 7 | Greymoor - the other Rosary Cache behind the big rat above the pit with the other big rat | Top Right Section (Bottom) | clear Breakable wooden Wall |  | Verified | resource | ✓ |  |
+| 8 | Greymoor - Another rosary cache behind the big rat above the pit | Top Right Section (Bottom) | clear Breakable wooden Wall |  | Verified | resource | ✓ |  |
 | 9 | tied blockade | Top Left Shaft (Center) | break switch left OR break switch up OR break switch right |  | Verified | blockade | ✓ |  |
 | 10 | Mitemother 1 | bottom section right | nothing |  | Verified | enemy | ✓ |  |
 | 11 | Mitemother 2 | Top Right Section (Bottom) | nothing |  | Verified | enemy | ✓ |  |
@@ -9913,36 +9923,42 @@ No subroom connections defined.
 | --- | --- | --- |
 | S1 | main path | ✓ |
 | S2 | hidden area | ✓ |
+| S3 | hidden shaft upper | ✓ |
+| S4 | hidden shaft loower | ✓ |
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | L | left | main path | [Greymoor East Bellshrine Room (Greymoor_02)](#room-greymoor--greymoor-east-bellshrine-room) | HR | none |  | Verified | ✓ |  |
-| U | upper | main path | [Sinner's Road Styx Room (Dust_11)](#room-sinner-s-road--sinner-s-road-styx-room) | B | faydown cloak OR cling grip OR easy scuttlebrace OR silk soar |  | Verified | ✓ |  |
+| U | upper | main path | [Sinner's Road Styx Room (Dust_11)](#room-sinner-s-road--sinner-s-road-styx-room) | B | faydown cloak OR cling grip either OR easy scuttlebrace OR silk soar |  | Verified | ✓ |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| C | climb | main path | hidden area | none (just fall) |  | Verified | ✓ |  |
-| C | climb | hidden area | main path | ledge grab OR silk soar OR faydown cloak OR cling grip OR (easy scuttlebrace AND (easy enemy pogo OR progressive swift step 2 OR clawline OR sharpdart)) |  | Verified | ✓ |  |
+| C1 | climb 1 | main path | hidden area | none (just fall) |  | Verified | ✓ |  |
+| C1 | climb 1 | hidden area | main path | ledge grab right OR (easy enemy pogo AND prereq Fluttermite 1) OR silk soar OR faydown cloak OR cling grip either OR easy scuttlebrace |  | Verified | ✓ |  |
+| C2 | climb 2 | hidden shaft loower | hidden shaft upper | cling grip either OR ledge grab left OR silk soar OR faydown cloak OR easy scuttlebrace |  | Verified | ✓ |  |
+| C2 | climb 2 | hidden shaft upper | hidden shaft loower | nothing |  | Verified | ✓ |  |
+| B | blockade | hidden shaft loower | hidden area | prereq wooden wall |  | Verified | ✓ |  |
+| B | blockade | hidden area | hidden shaft loower | prereq wooden wall |  | Verified | ✓ |  |
 
 #### Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Greymoor - Shell Shard Cache #3 | hidden area | prereq wooden wall |  | Verified | resource | ✓ |  |
-| 2 | Greymoor - Shell Shard Cache #4 | hidden area | prereq wooden wall |  | Verified | resource | ✓ |  |
-| 3 | Greymoor - Shell Shard Cache #5 | hidden area | prereq wooden wall |  | Verified | resource | ✓ |  |
-| 4 | Greymoor - Shell Shard Cache #6 | hidden area | prereq wooden wall |  | Verified | resource | ✓ |  |
-| 5 | Greymoor - Shell Shard Cache #7 | hidden area | prereq wooden wall |  | Verified | resource | ✓ |  |
+| 1 | Greymoor - Shell Shard Cache of the silver room | hidden area | prereq wooden wall |  | Verified | resource | ✓ |  |
+| 2 | Greymoor - the other Shell Shard Cache of the silver room | hidden area | prereq wooden wall |  | Verified | resource | ✓ |  |
+| 3 | Greymoor - the other other Shell Shard Cache of the silver room | hidden area | prereq wooden wall |  | Verified | resource | ✓ |  |
+| 4 | Greymoor - the other other other Shell Shard Cache of the silver room | hidden area | prereq wooden wall |  | Verified | resource | ✓ |  |
+| 5 | Greymoor - the other other other other Shell Shard Cache of the silver room idk why so many | hidden area | prereq wooden wall |  | Verified | resource | ✓ |  |
 | 6 | wooden wall | hidden area | break wall: left |  | Verified | blockade | ✓ |  |
-| 7 | Craw 1 |  |  |  |  | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false |
-| 8 | Shardillard 1 |  |  |  |  | enemy | ✓ |  |
-| 9 | Fluttermite 1 |  |  |  |  | enemy | ✓ |  |
-| 10 | Fluttermite 2 |  |  |  |  | enemy | ✓ |  |
-| 11 | Mite 1 |  |  |  |  | enemy | ✓ |  |
+| 7 | Craw 1 | hidden area | nada |  | Verified | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false  this mf is a lie from the craw court, he is slacking not in his post (scrapped enemy probably) |
+| 8 | Shardillard 1 | hidden area | silk soar OR ledge grab either OR cling grip either OR faydown cloak |  | Verified | enemy | ✓ |  |
+| 9 | Fluttermite 1 | hidden shaft loower | nothing |  | Verified | enemy | ✓ |  |
+| 10 | Fluttermite 2 | hidden shaft upper | nothing |  | Verified | enemy | ✓ |  |
+| 11 | Mite 1 | main path | nothing |  | Verified | enemy | ✓ |  |
 
 <a name="room-greymoor--greymoor-towers-patio"></a>
 
@@ -10008,10 +10024,10 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Greymoor - Rosary Cache #7 | left middle section | nothing |  | Verified | resource | ✓ |  |
-| 2 | Greymoor - Rosary Cache #8 | left middle section | nothing |  | Verified | resource | ✓ |  |
-| 3 | Greymoor - Rosary Cache #9 | upper area | nothing |  | Verified | resource | ✓ |  |
-| 4 | Greymor - Shard Bundle #1 | upper area | faydown cloak OR progressive swift step 1 left OR (easy enemy pogo AND prereq fluttermite 1) OR silk soar OR sharpdart x 1 OR clawline left x 1 |  | Verified | resource | ✓ |  |
+| 1 | Greymoor - flying rat stolen rosaries above the west tower entrance | left middle section | nothing |  | Verified | resource | ✓ |  |
+| 2 | Greymoor - poor soul rosaries that were stolen by flying rats above the west tower entrance | left middle section | nothing |  | Verified | resource | ✓ |  |
+| 3 | Greymoor - someones mortage at the top of the room | upper area | nothing |  | Verified | resource | ✓ |  |
+| 4 | Greymor - totally free to take shell shard cache at the top | upper area | faydown cloak OR progressive swift step 1 left OR (easy enemy pogo AND prereq fluttermite 1) OR silk soar OR sharpdart x 1 OR clawline left x 1 |  | Verified | resource | ✓ |  |
 | 5 | Get Kidnapped | lower section | after Wardenfly 1 |  | Verified | event | ✓ |  |
 | 6 | Garmond and Zaza Act 3 Meeting Greymoor | lower section | Act 3 |  | Verified | event | ✓ |  |
 | 7 | Sleeping Garmond | garmond room | Act 2 |  | Verified | event | ✓ |  |
@@ -10080,7 +10096,7 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Greymoor #2 - Shard Bundle: | check platform | none |  | Verified | resource | ✓ |  |
+| 1 | Greymoor that shard bundle i hate at the left side of the room | check platform | none |  | Verified | resource | ✓ |  |
 | 2 | Pilgrim Guide 1 | long platform | none |  | Verified | enemy | ✓ |  |
 | 3 | Fluttermite 1 | short platform | nothing |  | Verified | enemy | ✓ |  |
 | 4 | Mite 1 | right section | nothing |  | Verified | enemy | ✓ |  |
@@ -10130,9 +10146,9 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Greymoor - Rosary Cache #15 | main section | none |  | Verified | collectible | ✓ |  |
-| 2 | Greymoor - Rosary Cache #16 | main section | none |  | Verified | collectible | ✓ |  |
-| 3 | Greymoor - Rosary Cache #17 | main section | drifters cloak OR (silk soar AND (progressive swift step 2 right OR sharpdart x 1 OR clawline right x {1} OR faydown cloak OR hard enemy pogo)) |  | Verified | collectible | ✓ |  |
+| 1 | Greymoor - another smaller hanging rosary string at the left side of the room | main section | none |  | Verified | collectible | ✓ |  |
+| 2 | Greymoor - Rosary Cache hanging at the left side of the room | main section | none |  | Verified | collectible | ✓ |  |
+| 3 | Greymoor - Someones rosary pocket change above the airstream | main section | drifters cloak OR (silk soar AND (progressive swift step 2 right OR sharpdart x 1 OR clawline right x {1} OR faydown cloak OR hard enemy pogo)) |  | Verified | collectible | ✓ |  |
 | 4 | Geo Small Persistent (1) | main section | drifters cloak OR (silk soar AND (progressive swift step 2 right OR sharpdart x 1 OR clawline right x {1} OR faydown cloak OR hard enemy pogo)) | TODO | Verified | collectible | ✓ | seems to be a second one near "Greymoor - Rosary Cache #17" in the scene dump. need to investigate in game. - hero, 10/13  not sure what the name refers to but looking in vanilla game thee scene starts with 2 rosary on the ground next to the cache, could it be those? Still need to check in an AP run butwhen i worked in this room i grabbed all the checks i saw in the map - isssma, 10/16 |
 | 5 | airstream | airstream lever | hit lever right OR hit lever up |  | Verified | switch | ✓ |  |
 | 6 | Roachcatcher 1 | main section | nothing |  | Verified | enemy | ✓ |  |

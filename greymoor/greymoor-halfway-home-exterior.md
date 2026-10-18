@@ -75,8 +75,8 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Greymoor - Rosary Cache #4 | upper stash | none |  | Verified | resource | ✓ |  |
-| 2 | Greymoor - Rosary Cache #5 | upper stash | none |  | Verified | resource | ✓ |  |
+| 1 | Greymoor - Rosary Cache bellow sinners road entrance | upper stash | none |  | Verified | resource | ✓ |  |
+| 2 | Greymoor - sinner road entrance guards lunch money | upper stash | none |  | Verified | resource | ✓ |  |
 | 3 | tower elevator | tower platform | none (pressure switch) |  | Verified | switch | ✓ |  |
 | 4 | hidden right wall | upper right section | break wall right OR break wall up |  | Verified | blockade | ✓ |  |
 | 5 | Greymoor - Orders | upper center room | nothing |  | Verified | lore | ✓ |  |
@@ -87,11 +87,11 @@
 | 10 | Craw 5 | building roof |  | TODO | Verified | enemy | ✓ | when it comes to these craw the number you can fight is random and changes every time you load the save, additionally they despawn when completing the crawbug clearing wish |
 | 11 | Dreg Catcher 1 | lower guarded platform | nothing |  | Verified | enemy | ✓ |  |
 | 12 | Fluttermite 1 | tower platform | nothing |  | Verified | enemy | ✓ |  |
-| 13 | Fluttermite 2 | upper center room | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 13 | Fluttermite 2 | tower platform | Normal World Spawn |  | Verified | enemy | ✓ |  |
 | 14 | Fluttermite 3 | upper center room | silk soar OR easy enemy pogo |  | Verified | enemy | ✓ |  |
 | 15 | Fluttermite 4 | upper center room | Normal World Spawn AND (silk soar OR hard enemy pogo) |  | Verified | enemy | ✓ |  |
 | 16 | Mite 1 | tower platform | ledge grab left OR faydown cloak OR progressive swift step 2 left OR clawline left x 1 OR sharpdart x 1 OR silk soar |  | Verified | enemy | ✓ | technically can be lured without reaching the platform but its inconsistent |
-| 17 | Fluttermite 5 | tower platform | silk soar OR hard enemy pogo |  | Verified | enemy | ✓ |  |
+| 17 | Fluttermite 5 | upper center room | silk soar OR hard enemy pogo |  | Verified | enemy | ✓ |  |
 | 18 | Fluttermite 6 | upper center room | Normal World Spawn |  | Verified | enemy | ✓ |  |
 | 19 | Dreg Catcher 2 | upper guarded plaform | Normal World Spawn |  | Verified | enemy | ✓ |  |
 

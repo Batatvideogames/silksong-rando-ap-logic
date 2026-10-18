@@ -28,7 +28,7 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Relic: Bone Scroll (Greymoor) | bug resting place | nothing |  | Verified | collectible | ✓ |  |
+| 1 | Relic: Bone Scroll (Greymoor) at bugs lonely resting place | bug resting place | nothing |  | Verified | collectible | ✓ |  |
 
 ## Room Images
 

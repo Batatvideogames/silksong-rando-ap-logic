@@ -211,9 +211,9 @@ Generated from the non-archived records in `input/silksong-rando-logic.db`.
 ## Greymoor
 
 - [Greymoor Bellshrine (Bellshrine_02)](./greymoor/greymoor-bellshrine.md)
+- [Greymoor Craw Court (Room_CrowCourt_02)](./greymoor/greymoor-craw-court.md)
 - [Greymoor Craw Lake (Greymoor_15b)](./greymoor/greymoor-craw-lake.md)
-- [Greymoor Crow Court (Room_CrowCourt_02)](./greymoor/greymoor-crow-court.md)
-- [Greymoor Crow Nest (Room_CrowCourt)](./greymoor/greymoor-crow-nest.md)
+- [Greymoor Craw Nest (Room_CrowCourt)](./greymoor/greymoor-craw-nest.md)
 - [Greymoor East Bellshrine Room (Greymoor_02)](./greymoor/greymoor-east-bellshrine-room.md)
 - [Greymoor Eastern Tower (Greymoor_04)](./greymoor/greymoor-eastern-tower.md)
 - [Greymoor Lower Halfway Home Path (Greymoor_13)](./greymoor/greymoor-lower-halfway-home-path.md)

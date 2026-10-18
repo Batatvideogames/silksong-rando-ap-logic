@@ -49,9 +49,9 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Greymoor - Rosary Cache #6 | lower airstream section | nothing |  | Verified | resource | ✓ |  |
+| 1 | Greymoor - Rosary Cache next to the lowest airstream | lower airstream section | nothing |  | Verified | resource | ✓ |  |
 | 2 | Greymoor - Silkeater | tower top | silk soar OR (proficient movement AND spike pogo) OR (drifters cloak AND (spike pogo OR faydown cloak OR ((clawline left x 1 OR sharpdart x 1) AND ledge grab left)) AND activate top airstream) |  | Verified | collectible | ✓ |  |
-| 3 | Greymoor Tower Gaunlet | arena encounter | nothing |  | Verified | gauntlet | ✓ |  |
+| 3 | Greymoor Tower Gaunlet | arena encounter | nothing |  | Verified | gauntlet | ✓ | THe enemy souls required are: dregt catcher and thread raker plus a roachcatcher for the act 3 version |
 | 4 | lower airstream | lower airstream section | hit lever right OR hit lever up OR hit lever down |  | Verified | switch | ✓ |  |
 | 5 | middle airstream | middle section | ((drifters cloak AND activate lower airstream) OR ledge grab left OR ledge grab right OR cling grip left OR cling grip right OR silk soar OR faydown cloak) AND (hit lever right OR hit lever up OR hit lever left) |  | Verified | switch | ✓ |  |
 | 6 | upper airstream | upper airstream section | hit lever right OR hit lever down |  | Verified | switch | ✓ |  |

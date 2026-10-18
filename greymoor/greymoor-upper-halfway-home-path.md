@@ -45,7 +45,7 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Greymoor #2 - Shard Bundle: | check platform | none |  | Verified | resource | ✓ |  |
+| 1 | Greymoor that shard bundle i hate at the left side of the room | check platform | none |  | Verified | resource | ✓ |  |
 | 2 | Pilgrim Guide 1 | long platform | none |  | Verified | enemy | ✓ |  |
 | 3 | Fluttermite 1 | short platform | nothing |  | Verified | enemy | ✓ |  |
 | 4 | Mite 1 | right section | nothing |  | Verified | enemy | ✓ |  |
