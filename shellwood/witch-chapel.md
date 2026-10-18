@@ -21,13 +21,7 @@ No subroom connections defined.
 
 ## Check Locations
 
-| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
-
-## Notes
-
-not sure the image is right based on the
+No check locations defined.
 
 ## Room Images
 

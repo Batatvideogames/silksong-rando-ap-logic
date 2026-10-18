@@ -29,15 +29,15 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| TS1 | Tall Shaft1 | Lower Exits | Lower Big Room | ( Ledge Grab OR Clawline OR Faydown Cloak OR ( Dash AND Scuttlebrace ) OR Cling Grip ) |  | Verified | ✓ |  |
-| TS1 | Tall Shaft1 | Lower Big Room | Lower Exits | ( Ledge Grab OR Clawline OR Faydown Cloak OR ( Dash AND Scuttlebrace ) OR Cling grip ) |  | Verified | ✓ |  |
-| TS2 | Tall Shaft2 | Lower Exits | Silver Bell Cubby | ( Cling Grip OR ( Dash AND Scuttlebrace ) ) |  | Verified | ✓ |  |
+| TS1 | Tall Shaft1 | Lower Exits | Lower Big Room | Ledge Grab Right OR Faydown Cloak OR Scuttlebrace OR Cling Grip Left OR Cling Grip Right OR Silk Soar |  | Verified | ✓ |  |
+| TS1 | Tall Shaft1 | Lower Big Room | Lower Exits | Ledge Grab Left OR Faydown Cloak OR Scuttlebrace OR Cling grip Left OR Cling Grip Right |  | Verified | ✓ |  |
+| TS2 | Tall Shaft2 | Lower Exits | Silver Bell Cubby | Cling Grip Left OR Cling Grip Right OR Scuttlebrace |  | Verified | ✓ |  |
 | TS2 | Tall Shaft2 | Silver Bell Cubby | Lower Exits | None |  | Verified | ✓ |  |
-| TS3 | Tall Shaft3 | Lower Big Room | Silver Bell Cubby | Cling Grip OR Scuttlebrace |  | Verified | ✓ |  |
+| TS3 | Tall Shaft3 | Lower Big Room | Silver Bell Cubby | Cling Grip left OR Cling Grip Right OR Scuttlebrace |  | Verified | ✓ |  |
 | TS3 | Tall Shaft3 | Silver Bell Cubby | Lower Big Room | None |  | Verified | ✓ |  |
-| TS4 | Tall Shaft4 | Silver Bell Cubby | Central Passage | Cling Grip OR ( Dash AND Scuttlebrace ) |  | Verified | ✓ |  |
+| TS4 | Tall Shaft4 | Silver Bell Cubby | Central Passage | Cling Grip Left OR Cling Grip Right OR Scuttlebrace |  | Verified | ✓ |  |
 | TS4 | Tall Shaft4 | Central Passage | Silver Bell Cubby | None |  | Verified | ✓ |  |
-| US | Upper Shafts | Central Passage | Upper Big room | ( Cling Grip OR ( Dash AND Scuttlebrace ) ) |  | Verified | ✓ |  |
+| US | Upper Shafts | Central Passage | Upper Big room | Cling Grip Right OR Cling Grip Left OR Scuttlebrace |  | Verified | ✓ |  |
 | US | Upper Shafts | Upper Big room | Central Passage | None |  | Verified | ✓ |  |
 | BLB | Break Lower Blockade | Lower Exits | Unsafe Lower Left Landing | clear Lower Left Bell Blockade |  | Verified | ✓ |  |
 | BLB | Break Lower Blockade | Unsafe Lower Left Landing | Lower Exits | clear Lower Left Bell Blockade |  | Verified | ✓ |  |
@@ -47,22 +47,22 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Silver Bell Spawn Location #1 | Lower Big Room | None |  | Verified | collectible | ✓ |  |
-| 2 | Silver Bell Spawn Location #2 | Lower Big Room | Cling Grip OR Silk Soar OR ( Dash AND Scuttlebrace ) |  | Verified | collectible | ✓ |  |
-| 3 | Rosary Cache: Bellhart #1 | Lower Big Room | Cling Grip OR Silk Soar OR ( Dash AND Scuttlebrace ) |  | Verified | collectible | ✓ |  |
-| 4 | Rosary Cache: Bellhart #2 | Lower Big Room | Cling Grip OR Silk Soar OR ( Dash AND Scuttlebrace ) |  | Verified | collectible | ✓ |  |
+| 2 | Silver Bell Spawn Location #2 | Lower Big Room | Cling Grip Right OR Cling Grip Left OR Scuttlebrace OR Silk Soar |  | Verified | collectible | ✓ |  |
+| 3 | Rosary Cache: Bellhart #1 | Lower Big Room | Cling Grip Right OR Cling Grip Left OR Scuttlebrace OR Silk Soar |  | Verified | collectible | ✓ |  |
+| 4 | Rosary Cache: Bellhart #2 | Lower Big Room | Cling Grip Right OR Cling Grip Left OR Scuttlebrace OR Silk Soar |  | Verified | collectible | ✓ |  |
 | 5 | Silver Bell Spawn Location #3 | Silver Bell Cubby | None |  | Verified | collectible | ✓ |  |
 | 6 | Silver Bell Spawn Location #4 | Central Passage | None |  | Verified | collectible | ✓ |  |
 | 7 | Rosary Cache: Bellhart #3 | Central Passage | None |  | Verified | collectible | ✓ |  |
 | 8 | Silver Bell Spawn Location #5 | Upper Big room | None |  | Verified | collectible | ✓ |  |
-| 9 | Flea: Bellhart | Upper Big room | Silk Soar OR Cling Grip OR ( Dash AND Scuttlebrace ) OR ( Easy enemy pogo AND ( Faydown Cloak OR Drifters Cloak ) ) |  | Verified | collectible | ✓ |  |
-| 10 | Lower Left Bell Blockade | Lower Exits | Break Wall Left |  | Verified | blockade | ✓ | can also be broken from the right while falling into the void - hero, 9/30 |
-| 11 | Winged Furm 1 |  |  |  |  | enemy | ✓ |  |
-| 12 | Winged Furm 2 |  |  |  |  | enemy | ✓ |  |
-| 13 | Winged Furm 3 |  |  |  |  | enemy | ✓ |  |
-| 14 | Furm 1 |  |  |  |  | enemy | ✓ |  |
-| 15 | Furm 2 |  |  |  |  | enemy | ✓ |  |
-| 16 | Furm 3 |  |  |  |  | enemy | ✓ |  |
-| 17 | Furm 4 |  |  |  |  | enemy | ✓ |  |
+| 9 | Flea: Bellhart | Upper Big room | Cling Grip Right OR Cling Grip Left OR Scuttlebrace OR Silk Soar OR ( Easy pogo off winged furm AND ( Faydown Cloak OR Drifters Cloak ) ) |  | Verified | collectible | ✓ |  |
+| 10 | Lower Left Bell Blockade | Lower Exits | Break Wall Left |  | Verified | blockade | ✓ | can also be broken from the right while falling into the void - hero, 9/30  What does falling into the void even imply - pyxl, 18/10 |
+| 11 | Winged Furm 1 | Silver Bell Cubby | None |  | Verified | enemy | ✓ |  |
+| 12 | Winged Furm 2 | Upper Big room | None |  | Verified | enemy | ✓ |  |
+| 13 | Winged Furm 3 | Lower Big Room | None |  | Verified | enemy | ✓ |  |
+| 14 | Furm 1 | Upper Big room | None |  | Verified | enemy | ✓ |  |
+| 15 | Furm 2 | Lower Big Room | None |  | Verified | enemy | ✓ |  |
+| 16 | Furm 3 | Lower Big Room | None |  | Verified | enemy | ✓ |  |
+| 17 | Furm 4 | Upper Big room | None |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

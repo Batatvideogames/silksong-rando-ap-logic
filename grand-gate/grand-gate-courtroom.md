@@ -2,7 +2,7 @@
 
 **Game ID:** Song_19_entrance
 
-**Contributors:** samupo
+**Contributors:** samupo, heric
 
 ## Subrooms
 
@@ -23,17 +23,17 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| BG | big gap | lower section | upper section | silk soar OR faydown cloak OR (ledge grab AND (progressive swift step 1 OR clawline OR sharpdart OR flea brew OR easy hunter pogo OR easy architect pogo OR drifters cloak)) |  | Verified | ✓ |  |
+| BG | big gap | lower section | upper section | silk soar OR faydown cloak OR ((ledge grab OR cling grip) AND (progressive swift step 1 OR clawline OR sharpdart OR flea brew OR easy hunter pogo OR easy architect pogo OR easy beast pogo OR easy architect needle strike OR easy witch needle strike OR drifters cloak)) OR (ledge grab AND medium Hunter pogo) |  | Verified | ✓ |  |
 | BG | big gap | upper section | lower section | nothing |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Spool Fragment: Grand Gate | upper section | silk soar OR ((cling grip OR scuttlebrace) AND (faydown cloak OR ledge grab)) |  | Verified | collectible | ✓ |  |
+| 1 | Spool Fragment: Grand Gate | upper section | silk soar OR ((cling grip OR scuttlebrace) AND (faydown cloak OR ledge grab)) OR (cling grip AND proficient movement) |  | Verified | collectible | ✓ |  |
 | 2 | Map Purchase: Grand Gate | lower section | None |  | Verified | collectible | ✓ |  |
 | 3 | metal bars | upper section | break wall right OR break wall up OR clear metal wall IN grand gate maintenance room |  | Verified | blockade | ✓ |  |
-| 4 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 4 | import enemies |  |  | TODO | Needs verification |  |  | i dont think there is any until act 3 |
 
 ## Notes
 

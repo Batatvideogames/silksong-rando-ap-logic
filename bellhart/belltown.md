@@ -15,13 +15,13 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| RD | door4 | Upper Area | [Bellhart Relic Shop (Belltown_Room_Relic)](bellhart-relic-shop.md) | L | defeat THE boss widow |  | Verified | ✓ |  |
+| RD | door4 | Upper Area | [Bellhart Relic Shop (Belltown_Room_Relic)](bellhart-relic-shop.md) | L | defeat THE Boss Widow |  | Verified | ✓ |  |
 | HD | door5 | Upper Area | [Bellhome (Belltown_room_spare)](bellhome.md) | L | none |  | Verified | ✓ | the randomizer makes this always accessible |
-| ND | door3 | Upper Area | [Bellhart Pinsmith (Belltown_Room_pinsmith)](bellhart-pinsmith.md) | L | defeat THE boss widow |  | Verified | ✓ |  |
+| ND | door3 | Upper Area | [Bellhart Pinsmith (Belltown_Room_pinsmith)](bellhart-pinsmith.md) | L | defeat THE Boss Widow |  | Verified | ✓ |  |
 | L | left3 | Lower Area | [Bellhart Hallway to Shellwood (Belltown_07)](bellhart-hallway-to-shellwood.md) | R | None |  | Verified | ✓ |  |
 | R | right2 | Lower Area | [Bellhart Right Entrance (Belltown_06)](bellhart-right-entrance.md) | LL | None |  | Verified | ✓ |  |
 | BD | door1 | Lower Area | [Bellhart Bellway (Belltown_basement)](bellhart-bellway.md) | L | None |  | Verified | ✓ |  |
-| WW | wish wall | Lower Area | [Bellhart Wish Wall](../wish-menus/bellhart-wish-wall.md) | BH | defeat THE boss widow |  | Verified | ✓ |  |
+| WW | wish wall | Lower Area | [Bellhart Wish Wall](../wish-menus/bellhart-wish-wall.md) | BH | defeat THE Boss Widow |  | Verified | ✓ |  |
 | DW | delivery wishes | Upper Area | [Bellhart Deliveries](../wish-menus/bellhart-deliveries.md) | BH | complete THE my missing brother wish granted |  | Verified | ✓ |  |
 
 ## Subroom Connections

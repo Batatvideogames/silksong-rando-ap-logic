@@ -19,13 +19,13 @@
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | R | right1 | Arena Right | [Bellhart Right Entrance (Belltown_06)](bellhart-right-entrance.md) | UL | None |  | Verified | ✓ |  |
-| C | top1 | Upper | [Upper Bellhart (Belltown_04)](upper-bellhart.md) | F | Silk Soar OR Cling Grip OR ( Dash AND Scuttlebrace ) OR ( Easy Heal Stall AND ( Faydown Cloak OR Drifters Cloak ) ) |  | Verified | ✓ |  |
+| C | top1 | Upper | [Upper Bellhart (Belltown_04)](upper-bellhart.md) | F | Silk Soar OR Cling Grip Right OR Cling Grip Left OR Scuttlebrace OR ( Easy Heal Stall AND ( Faydown Cloak OR Drifters Cloak ) ) |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| RH | Roof Hole | Arena | Upper | Silk Soar OR ( Cling Grip AND Faydown Cloak AND ( Clawline OR Sharpdart ) ) |  | Verified | ✓ |  |
+| RH | Roof Hole | Arena | Upper | Silk Soar OR ( Cling Grip Left AND Faydown Cloak AND ( Clawline Left  OR Sharpdart ) ) OR ( Cling Grip Right AND Faydown Cloak AND ( Clawline Right  OR Sharpdart ) ) |  | Verified | ✓ |  |
 | RH | Roof Hole | Upper | Arena | None |  | Verified | ✓ |  |
 | AR | Exit Arena Right | Arena | Arena Right | Activate Bellshrine Lever |  | Verified | ✓ |  |
 | AR | Exit Arena Right | Arena Right | Arena | Activate Bellshrine Lever |  | Verified | ✓ |  |
@@ -40,13 +40,12 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Boss: Widow | Arena | None |  | Verified | boss | ✓ |  |
-| 2 | Bell: Bellhart | Arena | Activate Bellshrine Lever |  | Verified | collectible | ✓ |  |
-| 3 | Needolin | Arena | Defeat Boss Widow |  | Verified | collectible | ✓ |  |
-| 4 | Bellshrine Lever | Arena | Defeat Boss Widow |  | Verified | switch | ✓ |  |
-| 5 | Bench | Arena | Activate Bellshrine Lever |  | Verified | bench | ✓ |  |
-| 6 | Trapdoor Lever | Trapdoor Switch Ledge | Flip Switch Down |  | Verified | switch | ✓ |  |
-| 7 | Spinner Boss 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 1 | Bell: Bellhart | Arena | Activate Bellshrine Lever |  | Verified | collectible | ✓ |  |
+| 2 | Needolin | Arena | Defeat Boss Widow |  | Verified | collectible | ✓ |  |
+| 3 | Bellshrine Lever | Arena | Defeat Boss Widow |  | Verified | switch | ✓ |  |
+| 4 | Bench | Arena | Activate Bellshrine Lever |  | Verified | bench | ✓ |  |
+| 5 | Trapdoor Lever | Trapdoor Switch Ledge | Flip Switch Down |  | Verified | switch | ✓ |  |
+| 6 | Boss Widow | Arena | Normal World Spawn |  | Verified | boss | ✓ |  |
 
 ## Room Images
 

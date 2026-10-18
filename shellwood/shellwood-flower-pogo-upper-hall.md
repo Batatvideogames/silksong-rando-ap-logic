@@ -23,9 +23,8 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Pollip Heart #3 |  | None |  | Verified | collectible | ✓ |  |
+| 1 | Pollip Heart Flower Room |  | None |  | Verified | collectible | ✓ |  |
 | 2 | Seth Meeting Shellwood |  | after THE Seth Meeting Greymoor |  | Verified | event | ✓ |  |
-| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

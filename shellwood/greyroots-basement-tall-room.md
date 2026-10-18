@@ -17,7 +17,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | UR | right2 | Top | [Shellwood Diddy Basement Main (Shellwood_25)](shellwood-diddy-basement-main.md) | L | None |  | Verified | ✓ |  |
 | LR | right1 | Bottom | [The Marrow Skull Wall (Bone_06)](../the-marrow/the-marrow-skull-wall.md) | L | clear blast rock exit blockade |  | Verified | ✓ |  |
-| C | top1 | Top | [Shellwood Lower Left Tall Room (Shellwood_03)](shellwood-lower-left-tall-room.md) | F | Cling Grip |  | Verified | ✓ |  |
+| C | top1 | Top | [Shellwood Lower Left Tall Room (Shellwood_03)](shellwood-lower-left-tall-room.md) | F | ( Cling Grip Left AND ( Clawline Right OR Ledge Grab Right OR Sharpdart OR Faydown Cloak ) AND ( Cling Grip Right OR Faydown Cloak OR Silk Soar ) ) AND Prereq breakable roof diddy basement |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
@@ -30,19 +30,19 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Shell Shard Cache: Shellwood #1 | Top | None |  | Verified | resource | ✓ |  |
-| 2 | Bench Diddy Basement | Bottom | Cling Grip OR ( Dash AND Scuttlebrace ) |  | Verified | bench | ✓ |  |
+| 1 | Shell Shard Cache: Greyroots Diddy Basement 1 | Top | None |  | Verified | resource | ✓ |  |
+| 2 | Bench Diddy Basement | Bottom | Cling Grip Left OR scuttlebrace |  | Verified | bench | ✓ |  |
 | 3 | Craw Summons | Bottom | Craw Summons Ready |  | Verified | collectible |  |  |
-| 4 | Shell Shard Cache: Shellwood #2 | Top | None |  | Verified | resource | ✓ |  |
-| 5 | Shell Shard Cache: Shellwood #3 | Top | None |  | Verified | resource | ✓ |  |
-| 6 | Breakable Roof Diddy Basement | Top | Cling Grip |  | Verified | blockade |  |  |
+| 4 | Shell Shard Cache: Greyroots Diddy Basement 2 | Top | None |  | Verified | resource | ✓ |  |
+| 5 | Shell Shard Cache: Greyroots Diddy Basement 3 | Top | None |  | Verified | resource | ✓ |  |
+| 6 | Breakable Roof Diddy Basement | Top | Cling Grip Left AND ( Clawline Right OR Ledge Grab Right OR Sharpdart OR Faydown Cloak ) AND ( Cling Grip Right OR Faydown Cloak OR Silk Soar ) |  | Verified | blockade |  |  |
 | 7 | Blast Rock Exit Blockade | Bottom | break blast rock right |  | Verified | blockade | ✓ |  |
-| 8 | Shellwood Goomba Flyer (1) 1 |  |  |  |  | enemy | ✓ |  |
-| 9 | Shellwood Goomba Flyer 1 |  |  |  |  | enemy | ✓ |  |
-| 10 | Aknid 1 |  |  |  |  | enemy | ✓ |  |
-| 11 | Aknid 2 |  |  |  |  | enemy | ✓ |  |
-| 12 | Shellwood Gnat 1 |  |  |  |  | enemy | ✓ |  |
-| 13 | Shellwood Gnat 2 |  |  |  |  | enemy | ✓ |  |
+| 8 | Shellwood Goomba Flyer (1) 1 | Top | None |  | Verified | enemy | ✓ |  |
+| 9 | Shellwood Goomba Flyer 1 | Top | None |  | Verified | enemy | ✓ |  |
+| 10 | Aknid 1 | Bottom | Cling Grip Left OR scuttlebrace |  | Verified | enemy | ✓ |  |
+| 11 | Aknid 2 | Bottom | Cling Grip Left OR scuttlebrace |  | Verified | enemy | ✓ |  |
+| 12 | Shellwood Gnat 1 | Top | prereq shellwood goomba flyer 1 |  | Verified | enemy | ✓ |  |
+| 13 | Shellwood Gnat 2 | Top | prereq shellwood goomba flyer 1 |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

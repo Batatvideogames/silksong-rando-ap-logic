@@ -24,9 +24,8 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Bell: Shellwood |  | activate bellshrine switch |  | Verified | collectible | ✓ |  |
-| 2 | bench |  | activate bellshrine switch |  | Verified | bench |  |  |
-| 3 | bellshrine switch |  | flip switch down |  | Verified | switch |  |  |
-| 4 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 2 | bench |  | activate bellshrine switch |  | Verified | bench | ✓ |  |
+| 3 | bellshrine switch |  | flip switch down |  | Verified | switch | ✓ |  |
 
 ## Room Images
 

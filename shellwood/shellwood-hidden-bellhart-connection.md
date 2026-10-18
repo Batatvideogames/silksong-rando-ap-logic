@@ -23,8 +23,8 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| RC | Room Crossing | Left Exit Area | Right Exit Area | Faydown Cloak OR Drifters Cloak OR Dash OR Clawline OR Sharpdart OR easy Beast Crest pogo |  | Verified | ✓ |  |
-| RC | Room Crossing | Right Exit Area | Left Exit Area | Faydown Cloak OR ( Drifters Cloak AND Ledge Grab ) OR ( Dash AND Ledge Grab )  OR Clawline OR Sharpdart OR easy Beast Crest pogo |  | Verified | ✓ |  |
+| RC | Room Crossing | Left Exit Area | Right Exit Area | Faydown Cloak OR Drifters Cloak OR Dash Right OR Clawline Right OR Sharpdart OR easy Beast Crest pogo |  | Verified | ✓ |  |
+| RC | Room Crossing | Right Exit Area | Left Exit Area | Faydown Cloak OR ( Drifters Cloak AND Ledge Grab Left ) OR ( Dash left AND Ledge Grab left )  OR Clawline left OR Sharpdart OR easy Beast Crest pogo |  | Verified | ✓ |  |
 | PA | Pollip Access | Left Exit Area | Pollip Spot | Break Wall Left |  | Verified | ✓ |  |
 | PA | Pollip Access | Pollip Spot | Left Exit Area | Break Wall Right |  | Verified | ✓ |  |
 
@@ -32,9 +32,13 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Pollip Heart #2 | Pollip Spot | Faydown Cloak OR Drifters Cloak OR Dash OR Clawline OR Sharpdart OR easy Beast Crest pogo |  | Verified | collectible | ✓ |  |
+| 1 | Pollip Heart Hidden Room | Pollip Spot | None |  | Verified | collectible | ✓ |  |
 | 2 | Shellwood 15 Wall | Left Exit Area | Break Wall Left |  | Verified | blockade | ✓ |  |
-| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 3 | Shellwood Goomba Flyer 1 | Pollip Spot | None |  | Verified | enemy | ✓ |  |
+| 4 | Splinter 1 | Right Exit Area | None |  | Verified | enemy | ✓ |  |
+| 5 | Splinter 2 | Left Exit Area | Faydown Cloak OR Drifters Cloak OR Dash left OR Clawline left OR Sharpdart OR easy Beast Crest pogo OR Dash Right OR Clawline Right |  | Verified | enemy | ✓ |  |
+| 6 | Void Mass 1 | Pollip Spot | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 7 | Shellwood Gnat 1 | Pollip Spot | None |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

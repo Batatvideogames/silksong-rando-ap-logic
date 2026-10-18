@@ -29,14 +29,14 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | EL | Elevator | Ground Centre | Ceiling area | Prereq Elevator Button |  | Verified | ✓ |  |
 | EL | Elevator | Ceiling area | Ground Centre | Prereq Elevator Button |  | Verified | ✓ |  |
-| RL | Right Lake | Ground Centre | Ground Right | ( Enemy Pogo AND Ledge Grab ) OR Dash OR Sprint OR clawline OR Easy Beast Crest Pogo OR Faydown Cloak OR Drifters Cloak OR ( Swim AND Ledge Grab ) |  | Verified | ✓ |  |
-| RL | Right Lake | Ground Right | Ground Centre | ( Enemy Pogo AND Ledge Grab ) OR Dash OR Sprint OR clawline OR Easy Beast Crest Pogo OR Faydown Cloak OR Drifters Cloak OR ( Swim AND Ledge Grab ) |  | Verified | ✓ |  |
-| LL | Left Lake | Ground Centre | Ground Left | ( Enemy Pogo AND Ledge Grab ) OR Dash OR Sprint OR clawline OR Easy Beast Crest Pogo OR Faydown Cloak OR Drifters Cloak |  | Verified | ✓ |  |
+| RL | Right Lake | Ground Centre | Ground Right | ( Easy Pogo Off pond skipper AND Ledge Grab Right) OR Dash right OR Sprint right OR clawline right OR Easy Beast Crest Pogo OR Faydown Cloak OR Drifters Cloak OR ( Swim AND Ledge Grab right ) |  | Verified | ✓ |  |
+| RL | Right Lake | Ground Right | Ground Centre | ( Easy Pogo Off pond skipper AND Ledge Grab left ) OR Dash left OR Sprint left OR clawline left OR Easy Beast Crest Pogo OR Faydown Cloak OR Drifters Cloak OR ( Swim AND Ledge Grab left ) |  | Verified | ✓ |  |
+| LL | Left Lake | Ground Centre | Ground Left | ( Easy Pogo Off pond skipper AND Ledge Grab left ) OR Dash left OR Sprint left OR clawline left OR Easy Beast Crest Pogo OR Faydown Cloak OR Drifters Cloak |  | Verified | ✓ |  |
 | LL | Left Lake | Ground Left | Ground Centre | None |  | Verified | ✓ |  |
 | LP | Left Platforms | Platforms | Ground Left | None |  | Verified | ✓ |  |
-| LP | Left Platforms | Ground Left | Platforms | ( Faydown Cloak AND ( Cling Grip OR ( ScuttleBrace AND Dash ) ) ) OR Silk Soar OR ( Hard Enemy Pogo ) |  | Verified | ✓ |  |
+| LP | Left Platforms | Ground Left | Platforms | ( Faydown Cloak AND ( Cling Grip left OR ScuttleBrace ) ) OR Silk Soar OR ( Hard pogo off pondcatcher) |  | Verified | ✓ |  |
 | CP | Central Platforms | Platforms | Ground Centre | None |  | Verified | ✓ |  |
-| CP | Central Platforms | Ground Centre | Platforms | ( Faydown Cloak AND Ledge Grab ) OR Silk Soar |  | Verified | ✓ |  |
+| CP | Central Platforms | Ground Centre | Platforms | ( ( Faydown Cloak AND ( Ledge Grab Right OR Ledge Grab Left OR Cling Grip Right OR Cling Grip Left ) ) OR Silk Soar ) OR ( Prereq elevator button AND ( (  Cling Grip Left OR Ledge Grab Left ) AND ( Dash Left OR Sprint Left OR Clawline Left OR Sharpdart OR Faydown Cloak OR Drifters Cloak ) ) ) |  | Verified | ✓ |  |
 | RP | Right Platforms | Platforms | Ground Right | None |  | Verified | ✓ |  |
 | RP | Right Platforms | Ground Right | Platforms | Silk Soar |  | Verified | ✓ |  |
 
@@ -44,29 +44,29 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Pollip Heart #6 | Platforms | Ledge Grab OR Silk Soar OR Faydown Cloak |  | Verified | collectible | ✓ |  |
+| 1 | Pollip Heart Left Big Room | Platforms | ( Ledge Grab Left AND Ledge Grab Right ) OR Silk Soar OR Faydown Cloak |  | Verified | collectible | ✓ |  |
 | 2 | Elevator Button | Ceiling area | None |  | Verified | switch |  |  |
 | 3 | Big Door Button | Ground Right | None |  | Verified | switch |  |  |
-| 4 | Shellwood Goomba Flyer (3) 1 |  |  |  |  | enemy | ✓ |  |
-| 5 | Shellwood Goomba Flyer 1 |  |  |  |  | enemy | ✓ |  |
-| 6 | Control 1 |  |  |  |  | enemy | ✓ |  |
-| 7 | Wood Wasp 1 |  |  |  |  | enemy | ✓ |  |
-| 8 | Wood Wasp 2 |  |  |  |  | enemy | ✓ |  |
-| 9 | Wood Wasp 3 |  |  |  |  | enemy | ✓ |  |
-| 10 | Wood Wasp 4 |  |  |  |  | enemy | ✓ |  |
-| 11 | Wood Wasp 5 |  |  |  |  | enemy | ✓ |  |
-| 12 | Pond Skipper 1 |  |  |  |  | enemy | ✓ |  |
-| 13 | Pond Skipper 2 |  |  |  |  | enemy | ✓ |  |
-| 14 | Pondcatcher 1 |  |  |  |  | enemy | ✓ |  |
-| 15 | Splinter 1 |  |  |  |  | enemy | ✓ |  |
-| 16 | Splinterhorn 1 |  |  |  |  | enemy | ✓ |  |
-| 17 | Void Mass 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
-| 18 | Shellwood Gnat 1 |  |  |  |  | enemy | ✓ |  |
-| 19 | Shellwood Gnat 2 |  |  |  |  | enemy | ✓ |  |
-| 20 | Shellwood Gnat 3 |  |  |  |  | enemy | ✓ |  |
-| 21 | Shellwood Gnat 4 |  |  |  |  | enemy | ✓ |  |
-| 22 | Wood Wasp 6 |  |  |  |  | enemy | ✓ |  |
-| 23 | Wood Wasp 7 |  |  |  |  | enemy | ✓ |  |
+| 4 | Shellwood Goomba Flyer (3) 1 | Platforms | None |  | Verified | enemy | ✓ |  |
+| 5 | Shellwood Goomba Flyer 1 | Platforms | None |  | Verified | enemy | ✓ |  |
+| 6 | Control 1 | Platforms | None |  | Verified | enemy | ✓ |  |
+| 7 | Wood Wasp 1 | Platforms | None |  | Verified | enemy | ✓ |  |
+| 8 | Wood Wasp 2 | Platforms | None |  | Verified | enemy | ✓ |  |
+| 9 | Wood Wasp 3 | Platforms | None |  | Verified | enemy | ✓ |  |
+| 10 | Wood Wasp 4 | Platforms | None |  | Verified | enemy | ✓ |  |
+| 11 | Wood Wasp 5 | Platforms | None |  | Verified | enemy | ✓ |  |
+| 12 | Pond Skipper 1 | Ground Centre | None |  | Verified | enemy | ✓ |  |
+| 13 | Pond Skipper 2 | Ground Centre | None |  | Verified | enemy | ✓ |  |
+| 14 | Pondcatcher 1 | Ground Centre | None |  | Verified | enemy | ✓ |  |
+| 15 | Splinter 1 | Platforms | None |  | Verified | enemy | ✓ |  |
+| 16 | Splinterhorn 1 | Platforms | None |  | Verified | enemy | ✓ |  |
+| 17 | Void Mass 1 | Platforms | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 18 | Shellwood Gnat 1 | Ground Centre | None |  | Verified | enemy | ✓ |  |
+| 19 | Shellwood Gnat 2 | Ground Centre | None |  | Verified | enemy | ✓ |  |
+| 20 | Shellwood Gnat 3 | Ground Centre | None |  | Verified | enemy | ✓ |  |
+| 21 | Shellwood Gnat 4 | Ground Centre | None |  | Verified | enemy | ✓ |  |
+| 22 | Wood Wasp 6 | Platforms | None |  | Verified | enemy | ✓ |  |
+| 23 | Wood Wasp 7 | Platforms | None |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

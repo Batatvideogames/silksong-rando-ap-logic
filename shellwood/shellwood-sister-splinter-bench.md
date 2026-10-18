@@ -31,19 +31,19 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | AD | Arena Drop | Above Arena | Arena | None |  | Verified | ✓ |  |
 | AD | Arena Drop | Arena | Above Arena | Silk Soar |  | Verified | ✓ |  |
-| AE | Arena Exit | Arena | Bench Toll | Ledge Grab OR ( Dash AND Scuttlebrace ) OR Clawline OR Cling Grip OR Faydown Cloak OR Silk Soar |  | Verified | ✓ |  |
+| AE | Arena Exit | Arena | Bench Toll | Ledge Grab Right OR Scuttlebrace OR Cling Grip Right OR Cling Grip Left OR Faydown Cloak OR Silk Soar |  | Verified | ✓ |  |
 | AE | Arena Exit | Bench Toll | Arena | None |  | Verified | ✓ |  |
-| CL1 | Climb 1 | Bench Toll | Upper Hidden | ( Cling Grip AND ( Clawline OR Dash OR Sharpdart OR Drifters Cloak OR Faydown Cloak OR easy Beast Crest pogo ) ) OR Silk Soar |  | Verified | ✓ |  |
+| CL1 | Climb 1 | Bench Toll | Upper Hidden | ( Cling Grip Right AND CLing Grip Left AND ( Clawline Left OR Dash Left OR Sharpdart OR Drifters Cloak OR Faydown Cloak OR easy Beast Crest pogo ) ) OR Silk Soar |  | Verified | ✓ |  |
 | CL1 | Climb 1 | Upper Hidden | Bench Toll | None |  | Verified | ✓ |  |
 | EL | Elevator | Bench Toll | Elevator Platform | Activate Shellwood Elevator Button 2 |  | Verified | ✓ |  |
 | EL | Elevator | Elevator Platform | Bench Toll | Activate Shellwood Elevator Button 2 |  | Verified | ✓ |  |
 | CL2 | Climb 2 | Upper Main | Bench Toll | None |  | Verified | ✓ |  |
-| CL2 | Climb 2 | Bench Toll | Upper Main | Cling Grip OR Silk Soar |  | Verified | ✓ |  |
+| CL2 | Climb 2 | Bench Toll | Upper Main | Cling Grip Left OR Silk Soar |  | Verified | ✓ |  |
 | HP | Hidden Path | Upper Main | Upper Hidden | None |  | Verified | ✓ |  |
 | HP | Hidden Path | Upper Hidden | Upper Main | None |  | Verified | ✓ |  |
 | EP | Elevator Platform | Upper Main | Elevator Platform | None |  | Verified | ✓ |  |
-| EP | Elevator Platform | Elevator Platform | Upper Main | Ledge Grab OR ( Dash AND Scuttlebrace ) OR Clawline OR Cling Grip OR Faydown Cloak OR Silk Soar |  | Verified | ✓ |  |
-| CL3 | Climb 3 | Above Arena | Bench Toll | Cling Grip OR Silk Soar OR ( Dash AND Scuttlebrace ) |  | Verified | ✓ |  |
+| EP | Elevator Platform | Elevator Platform | Upper Main | Ledge Grab Left OR Scuttlebrace OR Cling Grip Left OR Faydown Cloak OR Silk Soar |  | Verified | ✓ |  |
+| CL3 | Climb 3 | Above Arena | Bench Toll | Cling Grip Right OR Cling Grip Left OR Silk Soar OR Scuttlebrace |  | Verified | ✓ |  |
 | CL3 | Climb 3 | Bench Toll | Above Arena | None |  | Verified | ✓ |  |
 
 ## Check Locations
@@ -54,7 +54,21 @@
 | 2 | Sister Splinter Toll Bench | Bench Toll | None |  | Verified | bench | ✓ |  |
 | 3 | Craw Summons | Bench Toll | Craw Summons Ready |  | Verified | collectible |  |  |
 | 4 | Shellwood Elevator Button 2 | Elevator Platform | None |  | Verified | switch |  |  |
-| 5 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 5 | Phacia 1 | Arena | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 6 | Splinter 1 | Arena | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 7 | Splinterhorn 1 | Arena | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 8 | Splinter 2 | Arena | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 9 | Splinter 3 | Arena | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 10 | Splinterhorn 2 | Arena | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 11 | Phacia 2 | Arena | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 12 | Phacia 3 | Arena | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 13 | Phacia 4 | Upper Main | None |  | Verified | enemy | ✓ |  |
+| 14 | Gahlia 1 | Upper Main | none |  | Verified | enemy | ✓ |  |
+| 15 | Gahlia 2 | Upper Hidden | None |  | Verified | enemy | ✓ |  |
+| 16 | Gahlia 3 | Upper Hidden | None |  | Verified | enemy | ✓ |  |
+| 17 | Gahlia 4 | Upper Main | None |  | Verified | enemy | ✓ |  |
+| 18 | Void Mass 1 | Arena | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 19 | Shellwood Toll Bench Arena | Arena | None |  | Verified | gauntlet | ✓ |  |
 
 ## Room Images
 

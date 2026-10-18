@@ -5365,7 +5365,7 @@ No subroom connections defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| T | top1 | ceiling exit area | [Far Fields Pinstress Attic (Bone_East_09b)](#room-far-fields--far-fields-pinstress-attic) | F | clear blast rock exit block IN far fields pinstress attic |  | Verified | ✓ |  |
+| T | top1 | ceiling exit area | [Far Fields Pinstress Attic (Bone_East_09b)](#room-far-fields--far-fields-pinstress-attic) | F | clear blast rock pinstress attic IN far fields pinstress attic |  | Verified | ✓ |  |
 | UL | left3 | upper left exit area | [Far Fields Pinstress Mask Shard (Bone_East_20)](#room-far-fields--far-fields-pinstress-mask-shard) | R | none |  | Verified | ✓ |  |
 | LR | right2 | lower right exit area | [Far Fields Skull Room West (Bone_East_14)](#room-far-fields--far-fields-skull-room-west) | LL | none |  | Verified | ✓ |  |
 | LL | left2 | lower left exit area | [Far Fields Chorus (Bone_East_08)](#room-far-fields--far-fields-chorus) | R | none |  | Verified | ✓ |  |
@@ -6412,7 +6412,7 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| V1 | vertical 1 | the race | the exit | silk soar OR faydown |  | Verified | ✓ |  |
+| V1 | vertical 1 | the race | the exit | silk soar OR faydown OR (ledge grab left AND easy flea brew stall) |  | Verified | ✓ |  |
 | V1 | vertical 1 | the exit | the race | none (falling) |  | Verified | ✓ |  |
 
 #### Check Locations
@@ -6422,10 +6422,10 @@ No subroom connections defined.
 | 1 | RestBench | the race | none |  | Verified | bench | ✓ |  |
 | 2 | fastest in pharloom wish promised | the race | none |  | Verified | event |  | can also start at the bellhart wish wall |
 | 3 | fastest in pharloom wish granted | the race | complete fastest in pharloom wish promised AND complete race victory 3 |  | Verified | event |  |  |
-| 4 | race victory 1 | the race | complete fastest in pharloom wish promised AND run AND dash AND cling grip AND clawline AND faydown cloak | TODO |  | event |  | these need to be refined for each race |
-| 5 | race victory 2 | the race | complete race victory 1  AND run AND dash AND cling grip AND clawline AND faydown cloak | TODO |  | event |  | these need to be refined for each race |
-| 6 | race victory 3 | the race | complete race victory 2  AND run AND dash AND cling grip AND clawline AND faydown cloak | TODO |  | event |  | these need to be refined for each race |
-| 7 | race victory 4 | the race | complete race victory 3  AND run AND dash AND cling grip AND clawline AND faydown cloak | TODO |  | event |  | these need to be refined for each race |
+| 4 | race victory 1 | the race | complete fastest in pharloom wish promised AND ((run AND dash left AND cling grip right) OR (clawline AND run AND dash AND ledge grab left AND cling grip right AND silkhearts x 1) OR (run AND cling grip right AND faydown cloak)) |  | Verified | event |  | these need to be refined for each race |
+| 5 | race victory 2 | the race | complete race victory 1  AND ((run AND dash both AND cling grip both AND ledge grab left AND (easy [wanderer, reaper, shaman, beast] pogo OR medium [hunter, witch, architect] pogo)) OR (clawline AND run AND dash AND ledge grab left AND cling grip both AND silkhearts x 1) OR (run AND cling grip both AND faydown cloak)) |  | Verified | event |  | these need to be refined for each race |
+| 6 | race victory 3 | the race | complete race victory 2  AND ((run AND dash AND cling grip both AND ledge grab left AND (easy [wanderer, reaper, shaman, beast] pogo OR medium [hunter, witch, architect] pogo)) OR (clawline AND run AND dash AND ledge grab left AND cling grip both AND silkhearts x 1) OR (run AND cling grip both AND faydown cloak)) |  | Verified | event |  | these need to be refined for each race |
+| 7 | race victory 4 | the race | complete race victory 3  AND ((run AND dash both AND cling grip both AND ledge grab left AND (easy [wanderer, reaper, shaman, beast] pogo OR medium [hunter, witch, architect] pogo)) OR (clawline AND run AND dash AND ledge grab left AND cling grip both AND silkhearts x 1) OR (run AND dash both AND cling grip both AND faydown cloak)) |  | Verified | event |  | these need to be refined for each race |
 | 8 | rosary beads | the race | complete race victory 1 |  | Verified | collectible |  |  |
 | 9 | beast shard | the race | complete race victory 2 |  | Verified | collectible |  |  |
 | 10 | fastest in pharloom mask shard | the race | complete race victory 3 |  | Verified | collectible |  |  |
@@ -7076,30 +7076,36 @@ No subroom connections defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| UR | right1 | Upper Level | [Shellwood Top Room (Shellwood_26)](#room-shellwood--shellwood-top-room) | L | Cling Grip OR Silk Soar OR ( Dash AND Scuttlebrace ) |  | Verified | ✓ |  |
-| LR | right2 | Ground Level | [Shellwood Flower Pogo Upper Hall (Shellwood_20)](#room-shellwood--shellwood-flower-pogo-upper-hall) | L | ( Dash AND Scuttlebrace ) OR Cling Grip OR Clawline OR Faydown Cloak OR Ledge Grab |  | Verified | ✓ |  |
-| ML | left2 | Central Level | [Cling Grip Side Room (Shellwood_11)](#room-shellwood--cling-grip-side-room) | LR | Dash OR Sprint OR Clawline OR SharpDart OR easy Beast Crest pogo OR Faydown Cloak OR Drifters Cloak |  | Verified | ✓ |  |
+| UR | right1 | Upper Level | [Shellwood Top Room (Shellwood_26)](#room-shellwood--shellwood-top-room) | L | Cling Grip Right OR Silk Soar OR Scuttlebrace |  | Verified | ✓ |  |
+| LR | right2 | Ground Level | [Shellwood Flower Pogo Upper Hall (Shellwood_20)](#room-shellwood--shellwood-flower-pogo-upper-hall) | L | Scuttlebrace OR Cling Grip Right OR Faydown Cloak OR Ledge Grab Right |  | Verified | ✓ |  |
+| ML | left2 | Central Level | [Cling Grip Side Room (Shellwood_11)](#room-shellwood--cling-grip-side-room) | LR | Dash Left OR Sprint Left OR Clawline Left OR SharpDart OR easy Beast Crest pogo OR Faydown Cloak OR Drifters Cloak |  | Verified | ✓ |  |
 | UL | left1 | Upper Level | [Cling Grip Side Room (Shellwood_11)](#room-shellwood--cling-grip-side-room) | UR | None |  | Verified | ✓ |  |
-| MR | right3 | Central Level | [Sister Splinter (Shellwood_18)](#room-shellwood--sister-splinter) | L | ( Dash AND Scuttlebrace ) OR Cling Grip OR Clawline OR Faydown Cloak OR Ledge Grab |  | Verified | ✓ |  |
+| MR | right3 | Central Level | [Sister Splinter (Shellwood_18)](#room-shellwood--sister-splinter) | L | Dash RIght OR Cling Grip Right OR Faydown Cloak OR Ledge Grab Right |  | Verified | ✓ |  |
 | LL | left3 | Ground Level | [Shellwood Lower Left Tall Room (Shellwood_03)](#room-shellwood--shellwood-lower-left-tall-room) | UR | None |  | Verified | ✓ |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| EP | taunt pogo | Ground Level | Central Level | ( Dash AND Scuttlebrace ) OR Cling Grip OR (( Faydown Cloak OR Easy enemy pogo ) AND ( Clawline OR  Sharpdart OR  Faydown Cloak ) ) OR Silk Soar |  | Verified |  |  |
-| EP | taunt pogo | Central Level | Ground Level | None |  | Verified |  |  |
-| OA | Open Area | Central Level | Upper Level | Silk Soar OR ( Easy enemy pogo AND Cling Grip AND Faydown Cloak ) |  | Verified |  |  |
-| OA | Open Area | Upper Level | Central Level | None |  | Verified |  |  |
+| EP | taunt pogo | Ground Level | Central Level | Scuttlebrace OR Cling Grip Left OR ( ( Faydown Cloak OR ( Easy enemy pogo AND Advanced Knowledge AND taunt ))  AND ( Clawline OR  Sharpdart OR  Faydown Cloak ) ) OR Silk Soar |  | Verified | ✓ | dunno what the knowledge predicate will be please fix |
+| EP | taunt pogo | Central Level | Ground Level | None |  | Verified | ✓ |  |
+| OA | Open Area | Central Level | Upper Level | Silk Soar OR ( Easy enemy pogo AND ( Cling Grip Right OR Cling Grip LEft ) AND Faydown Cloak ) |  | Verified | ✓ |  |
+| OA | Open Area | Upper Level | Central Level | None |  | Verified | ✓ |  |
 
 #### Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Cling Grip | Upper Level | None |  | Verified | collectible | ✓ |  |
-| 2 | Pollip Heart #5 | Central Level | None |  | Verified | collectible | ✓ |  |
+| 2 | Pollip Heart Cling Grip Room | Central Level | None |  | Verified | collectible | ✓ |  |
 | 3 | Shellwood - Weaver Harp Inscryption | Ground Level | Needolin |  | Verified | lore | ✓ |  |
-| 4 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 4 | Phacia 1 | Central Level | None |  | Verified | enemy | ✓ |  |
+| 5 | Phacia 2 | Central Level | None |  | Verified | enemy | ✓ |  |
+| 6 | Phacia 3 | Central Level | None |  | Verified | enemy | ✓ |  |
+| 7 | Gahlia 1 | Central Level | None |  | Verified | enemy | ✓ |  |
+| 8 | Gahlia 2 | Central Level | None |  | Verified | enemy | ✓ |  |
+| 9 | Gahlia 3 | Central Level | None |  | Verified | enemy | ✓ |  |
+| 10 | Gahlia 4 | Central Level | None |  | Verified | enemy | ✓ |  |
 
 <a name="room-shellwood--cling-grip-side-room"></a>
 
@@ -7129,15 +7135,21 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| FP | Flower Pogos | Lower Level | Upper Level | ( Easy enemy pogo AND Swim ) OR Dash OR Sprint OR SharpDart OR easy Beast Crest pogo OR Faydown Cloak OR Drifters Cloak OR Clawline OR ( Dash AND Scuttlebrace ) OR Cling Grip OR Silk Soar |  | Verified |  |  |
-| FP | Flower Pogos | Upper Level | Lower Level | None |  | Verified |  |  |
+| FP | Flower Pogos | Lower Level | Upper Level | ( Easy enemy pogo AND Swim ) OR Dash left OR Sprint Left OR SharpDart OR easy Beast Crest pogo OR Faydown Cloak OR Drifters Cloak OR Clawline left OR Scuttlebrace OR Cling Grip Right OR Silk Soar |  | Verified | ✓ |  |
+| FP | Flower Pogos | Upper Level | Lower Level | None |  | Verified | ✓ |  |
 
 #### Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Rosary Grave Marker | Upper Level | None |  | Verified | resource | ✓ |  |
-| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 2 | Phacia 1 | Lower Level | None |  | Verified | enemy | ✓ |  |
+| 3 | Phacia 2 | Lower Level | None |  | Verified | enemy | ✓ |  |
+| 4 | Gahlia 1 | Lower Level | None |  | Verified | enemy | ✓ |  |
+| 5 | Gahlia 2 | Lower Level | None |  | Verified | enemy | ✓ |  |
+| 6 | Gahlia 3 | Lower Level | None |  | Verified | enemy | ✓ |  |
+| 7 | Gahlia 4 | Lower Level | None |  | Verified | enemy | ✓ |  |
+| 8 | Gahlia 5 | Lower Level | None |  | Verified | enemy | ✓ |  |
 
 <a name="room-shellwood--greyroot"></a>
 
@@ -7174,7 +7186,6 @@ No subroom connections defined.
 | 4 | rite of rebirth wish promised |  | complete rite of the pollip wish granted  AND have twisted bud |  | Verified | event |  |  |
 | 5 | rite of rebirth wish granted |  | complete rite of rebirth wish promised |  | Verified | event |  |  |
 | 6 | Crest Cursed |  | complete rite of rebirth wish granted |  | Verified | collectible |  |  |
-| 7 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-shellwood--greyroots-basement-tall-room"></a>
 
@@ -7199,7 +7210,7 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | UR | right2 | Top | [Shellwood Diddy Basement Main (Shellwood_25)](#room-shellwood--shellwood-diddy-basement-main) | L | None |  | Verified | ✓ |  |
 | LR | right1 | Bottom | [The Marrow Skull Wall (Bone_06)](#room-the-marrow--the-marrow-skull-wall) | L | clear blast rock exit blockade |  | Verified | ✓ |  |
-| C | top1 | Top | [Shellwood Lower Left Tall Room (Shellwood_03)](#room-shellwood--shellwood-lower-left-tall-room) | F | Cling Grip |  | Verified | ✓ |  |
+| C | top1 | Top | [Shellwood Lower Left Tall Room (Shellwood_03)](#room-shellwood--shellwood-lower-left-tall-room) | F | ( Cling Grip Left AND ( Clawline Right OR Ledge Grab Right OR Sharpdart OR Faydown Cloak ) AND ( Cling Grip Right OR Faydown Cloak OR Silk Soar ) ) AND Prereq breakable roof diddy basement |  | Verified | ✓ |  |
 
 #### Subroom Connections
 
@@ -7212,19 +7223,19 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Shell Shard Cache: Shellwood #1 | Top | None |  | Verified | resource | ✓ |  |
-| 2 | Bench Diddy Basement | Bottom | Cling Grip OR ( Dash AND Scuttlebrace ) |  | Verified | bench | ✓ |  |
+| 1 | Shell Shard Cache: Greyroots Diddy Basement 1 | Top | None |  | Verified | resource | ✓ |  |
+| 2 | Bench Diddy Basement | Bottom | Cling Grip Left OR scuttlebrace |  | Verified | bench | ✓ |  |
 | 3 | Craw Summons | Bottom | Craw Summons Ready |  | Verified | collectible |  |  |
-| 4 | Shell Shard Cache: Shellwood #2 | Top | None |  | Verified | resource | ✓ |  |
-| 5 | Shell Shard Cache: Shellwood #3 | Top | None |  | Verified | resource | ✓ |  |
-| 6 | Breakable Roof Diddy Basement | Top | Cling Grip |  | Verified | blockade |  |  |
+| 4 | Shell Shard Cache: Greyroots Diddy Basement 2 | Top | None |  | Verified | resource | ✓ |  |
+| 5 | Shell Shard Cache: Greyroots Diddy Basement 3 | Top | None |  | Verified | resource | ✓ |  |
+| 6 | Breakable Roof Diddy Basement | Top | Cling Grip Left AND ( Clawline Right OR Ledge Grab Right OR Sharpdart OR Faydown Cloak ) AND ( Cling Grip Right OR Faydown Cloak OR Silk Soar ) |  | Verified | blockade |  |  |
 | 7 | Blast Rock Exit Blockade | Bottom | break blast rock right |  | Verified | blockade | ✓ |  |
-| 8 | Shellwood Goomba Flyer (1) 1 |  |  |  |  | enemy | ✓ |  |
-| 9 | Shellwood Goomba Flyer 1 |  |  |  |  | enemy | ✓ |  |
-| 10 | Aknid 1 |  |  |  |  | enemy | ✓ |  |
-| 11 | Aknid 2 |  |  |  |  | enemy | ✓ |  |
-| 12 | Shellwood Gnat 1 |  |  |  |  | enemy | ✓ |  |
-| 13 | Shellwood Gnat 2 |  |  |  |  | enemy | ✓ |  |
+| 8 | Shellwood Goomba Flyer (1) 1 | Top | None |  | Verified | enemy | ✓ |  |
+| 9 | Shellwood Goomba Flyer 1 | Top | None |  | Verified | enemy | ✓ |  |
+| 10 | Aknid 1 | Bottom | Cling Grip Left OR scuttlebrace |  | Verified | enemy | ✓ |  |
+| 11 | Aknid 2 | Bottom | Cling Grip Left OR scuttlebrace |  | Verified | enemy | ✓ |  |
+| 12 | Shellwood Gnat 1 | Top | prereq shellwood goomba flyer 1 |  | Verified | enemy | ✓ |  |
+| 13 | Shellwood Gnat 2 | Top | prereq shellwood goomba flyer 1 |  | Verified | enemy | ✓ |  |
 
 <a name="room-shellwood--long-pin"></a>
 
@@ -7255,7 +7266,6 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Long pin |  | None |  | Verified | collectible | ✓ |  |
-| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-shellwood--shellgrave"></a>
 
@@ -7286,7 +7296,20 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Rosary Cache |  | None |  | Verified | resource | ✓ | Not included no id |
-| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 2 | Save Plinney |  | ACT 3 |  | Verified | event | ✓ | Plinney comes here upon starting act and starts an encounter |
+| 3 | Pilgrim Bellbearer 1 |  | Prereq save plinney |  | Verified | enemy | ✓ |  |
+| 4 | Pilgrim Guide 1 |  | Prereq save plinney |  | Verified | enemy | ✓ |  |
+| 5 | Covetous Pilgrim 1 |  | Prereq save plinney |  | Verified | enemy | ✓ |  |
+| 6 | Pilgrim Groveller 1 |  | Prereq save plinney |  | Verified | enemy | ✓ |  |
+| 7 | Pilgrim Pouncer 1 |  | Prereq save plinney |  | Verified | enemy | ✓ |  |
+| 8 | Pilgrim Pouncer 2 |  | Prereq save plinney |  | Verified | enemy | ✓ |  |
+| 9 | Pilgrim Bellbearer 2 |  | Prereq save plinney |  | Verified | enemy | ✓ |  |
+| 10 | Pilgrim Hulk 1 |  | Prereq save plinney |  | Verified | enemy | ✓ |  |
+| 11 | Pilgrim Groveller 2 |  | Prereq save plinney |  | Verified | enemy | ✓ |  |
+| 12 | Pilgrim Hulk 2 |  | Prereq save plinney |  | Verified | enemy | ✓ |  |
+| 13 | Pilgrim Guide 2 |  | Prereq save plinney |  | Verified | enemy | ✓ |  |
+| 14 | Pilgrim Hulk 3 |  | Prereq save plinney |  | Verified | enemy | ✓ |  |
+| 15 | Rosary Pilgrim 1 |  | None |  | Verified | enemy | ✓ |  |
 
 <a name="room-shellwood--shellwood-bellshrine"></a>
 
@@ -7318,9 +7341,8 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Bell: Shellwood |  | activate bellshrine switch |  | Verified | collectible | ✓ |  |
-| 2 | bench |  | activate bellshrine switch |  | Verified | bench |  |  |
-| 3 | bellshrine switch |  | flip switch down |  | Verified | switch |  |  |
-| 4 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 2 | bench |  | activate bellshrine switch |  | Verified | bench | ✓ |  |
+| 3 | bellshrine switch |  | flip switch down |  | Verified | switch | ✓ |  |
 
 <a name="room-shellwood--shellwood-bellway"></a>
 
@@ -7351,16 +7373,15 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| PU | Puddle | Left Puddle | Right Puddle | Swim OR Dash OR Sprint OR Clawline OR Sharpdart OR Easy Beast Crest pogo OR Drifters Cloak OR Faydown Cloak |  | Verified |  |  |
-| PU | Puddle | Right Puddle | Left Puddle | Swim OR Dash OR Sprint OR Clawline OR Sharpdart OR Easy Beast Crest pogo OR Drifters Cloak OR Faydown Cloak |  | Verified |  |  |
+| PU | Puddle | Left Puddle | Right Puddle | Swim OR Dash Right OR Sprint Right OR Clawline Right OR Sharpdart OR Easy Beast Crest pogo OR Drifters Cloak OR Faydown Cloak |  | Verified | ✓ |  |
+| PU | Puddle | Right Puddle | Left Puddle | Swim OR Dash Left OR Sprint Left OR Clawline Left OR Sharpdart OR Easy Beast Crest pogo OR Drifters Cloak OR Faydown Cloak |  | Verified | ✓ |  |
 
 #### Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Shellwood Bellway | Right Puddle | Unlock Bellway Rosary Lock |  | Verified | travel |  |  |
-| 2 | Bellway Rosary Lock | Right Puddle | Spend 40 Rosaries |  | Verified | lock |  |  |
-| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 1 | Shellwood Bellway | Right Puddle | Unlock Bellway Rosary Lock |  | Verified | travel | ✓ |  |
+| 2 | Bellway Rosary Lock | Right Puddle | Spend 40 Rosaries |  | Verified | lock | ✓ |  |
 
 <a name="room-shellwood--shellwood-big-room-left"></a>
 
@@ -7397,14 +7418,14 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | EL | Elevator | Ground Centre | Ceiling area | Prereq Elevator Button |  | Verified | ✓ |  |
 | EL | Elevator | Ceiling area | Ground Centre | Prereq Elevator Button |  | Verified | ✓ |  |
-| RL | Right Lake | Ground Centre | Ground Right | ( Enemy Pogo AND Ledge Grab ) OR Dash OR Sprint OR clawline OR Easy Beast Crest Pogo OR Faydown Cloak OR Drifters Cloak OR ( Swim AND Ledge Grab ) |  | Verified | ✓ |  |
-| RL | Right Lake | Ground Right | Ground Centre | ( Enemy Pogo AND Ledge Grab ) OR Dash OR Sprint OR clawline OR Easy Beast Crest Pogo OR Faydown Cloak OR Drifters Cloak OR ( Swim AND Ledge Grab ) |  | Verified | ✓ |  |
-| LL | Left Lake | Ground Centre | Ground Left | ( Enemy Pogo AND Ledge Grab ) OR Dash OR Sprint OR clawline OR Easy Beast Crest Pogo OR Faydown Cloak OR Drifters Cloak |  | Verified | ✓ |  |
+| RL | Right Lake | Ground Centre | Ground Right | ( Easy Pogo Off pond skipper AND Ledge Grab Right) OR Dash right OR Sprint right OR clawline right OR Easy Beast Crest Pogo OR Faydown Cloak OR Drifters Cloak OR ( Swim AND Ledge Grab right ) |  | Verified | ✓ |  |
+| RL | Right Lake | Ground Right | Ground Centre | ( Easy Pogo Off pond skipper AND Ledge Grab left ) OR Dash left OR Sprint left OR clawline left OR Easy Beast Crest Pogo OR Faydown Cloak OR Drifters Cloak OR ( Swim AND Ledge Grab left ) |  | Verified | ✓ |  |
+| LL | Left Lake | Ground Centre | Ground Left | ( Easy Pogo Off pond skipper AND Ledge Grab left ) OR Dash left OR Sprint left OR clawline left OR Easy Beast Crest Pogo OR Faydown Cloak OR Drifters Cloak |  | Verified | ✓ |  |
 | LL | Left Lake | Ground Left | Ground Centre | None |  | Verified | ✓ |  |
 | LP | Left Platforms | Platforms | Ground Left | None |  | Verified | ✓ |  |
-| LP | Left Platforms | Ground Left | Platforms | ( Faydown Cloak AND ( Cling Grip OR ( ScuttleBrace AND Dash ) ) ) OR Silk Soar OR ( Hard Enemy Pogo ) |  | Verified | ✓ |  |
+| LP | Left Platforms | Ground Left | Platforms | ( Faydown Cloak AND ( Cling Grip left OR ScuttleBrace ) ) OR Silk Soar OR ( Hard pogo off pondcatcher) |  | Verified | ✓ |  |
 | CP | Central Platforms | Platforms | Ground Centre | None |  | Verified | ✓ |  |
-| CP | Central Platforms | Ground Centre | Platforms | ( Faydown Cloak AND Ledge Grab ) OR Silk Soar |  | Verified | ✓ |  |
+| CP | Central Platforms | Ground Centre | Platforms | ( ( Faydown Cloak AND ( Ledge Grab Right OR Ledge Grab Left OR Cling Grip Right OR Cling Grip Left ) ) OR Silk Soar ) OR ( Prereq elevator button AND ( (  Cling Grip Left OR Ledge Grab Left ) AND ( Dash Left OR Sprint Left OR Clawline Left OR Sharpdart OR Faydown Cloak OR Drifters Cloak ) ) ) |  | Verified | ✓ |  |
 | RP | Right Platforms | Platforms | Ground Right | None |  | Verified | ✓ |  |
 | RP | Right Platforms | Ground Right | Platforms | Silk Soar |  | Verified | ✓ |  |
 
@@ -7412,29 +7433,29 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Pollip Heart #6 | Platforms | Ledge Grab OR Silk Soar OR Faydown Cloak |  | Verified | collectible | ✓ |  |
+| 1 | Pollip Heart Left Big Room | Platforms | ( Ledge Grab Left AND Ledge Grab Right ) OR Silk Soar OR Faydown Cloak |  | Verified | collectible | ✓ |  |
 | 2 | Elevator Button | Ceiling area | None |  | Verified | switch |  |  |
 | 3 | Big Door Button | Ground Right | None |  | Verified | switch |  |  |
-| 4 | Shellwood Goomba Flyer (3) 1 |  |  |  |  | enemy | ✓ |  |
-| 5 | Shellwood Goomba Flyer 1 |  |  |  |  | enemy | ✓ |  |
-| 6 | Control 1 |  |  |  |  | enemy | ✓ |  |
-| 7 | Wood Wasp 1 |  |  |  |  | enemy | ✓ |  |
-| 8 | Wood Wasp 2 |  |  |  |  | enemy | ✓ |  |
-| 9 | Wood Wasp 3 |  |  |  |  | enemy | ✓ |  |
-| 10 | Wood Wasp 4 |  |  |  |  | enemy | ✓ |  |
-| 11 | Wood Wasp 5 |  |  |  |  | enemy | ✓ |  |
-| 12 | Pond Skipper 1 |  |  |  |  | enemy | ✓ |  |
-| 13 | Pond Skipper 2 |  |  |  |  | enemy | ✓ |  |
-| 14 | Pondcatcher 1 |  |  |  |  | enemy | ✓ |  |
-| 15 | Splinter 1 |  |  |  |  | enemy | ✓ |  |
-| 16 | Splinterhorn 1 |  |  |  |  | enemy | ✓ |  |
-| 17 | Void Mass 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
-| 18 | Shellwood Gnat 1 |  |  |  |  | enemy | ✓ |  |
-| 19 | Shellwood Gnat 2 |  |  |  |  | enemy | ✓ |  |
-| 20 | Shellwood Gnat 3 |  |  |  |  | enemy | ✓ |  |
-| 21 | Shellwood Gnat 4 |  |  |  |  | enemy | ✓ |  |
-| 22 | Wood Wasp 6 |  |  |  |  | enemy | ✓ |  |
-| 23 | Wood Wasp 7 |  |  |  |  | enemy | ✓ |  |
+| 4 | Shellwood Goomba Flyer (3) 1 | Platforms | None |  | Verified | enemy | ✓ |  |
+| 5 | Shellwood Goomba Flyer 1 | Platforms | None |  | Verified | enemy | ✓ |  |
+| 6 | Control 1 | Platforms | None |  | Verified | enemy | ✓ |  |
+| 7 | Wood Wasp 1 | Platforms | None |  | Verified | enemy | ✓ |  |
+| 8 | Wood Wasp 2 | Platforms | None |  | Verified | enemy | ✓ |  |
+| 9 | Wood Wasp 3 | Platforms | None |  | Verified | enemy | ✓ |  |
+| 10 | Wood Wasp 4 | Platforms | None |  | Verified | enemy | ✓ |  |
+| 11 | Wood Wasp 5 | Platforms | None |  | Verified | enemy | ✓ |  |
+| 12 | Pond Skipper 1 | Ground Centre | None |  | Verified | enemy | ✓ |  |
+| 13 | Pond Skipper 2 | Ground Centre | None |  | Verified | enemy | ✓ |  |
+| 14 | Pondcatcher 1 | Ground Centre | None |  | Verified | enemy | ✓ |  |
+| 15 | Splinter 1 | Platforms | None |  | Verified | enemy | ✓ |  |
+| 16 | Splinterhorn 1 | Platforms | None |  | Verified | enemy | ✓ |  |
+| 17 | Void Mass 1 | Platforms | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 18 | Shellwood Gnat 1 | Ground Centre | None |  | Verified | enemy | ✓ |  |
+| 19 | Shellwood Gnat 2 | Ground Centre | None |  | Verified | enemy | ✓ |  |
+| 20 | Shellwood Gnat 3 | Ground Centre | None |  | Verified | enemy | ✓ |  |
+| 21 | Shellwood Gnat 4 | Ground Centre | None |  | Verified | enemy | ✓ |  |
+| 22 | Wood Wasp 6 | Platforms | None |  | Verified | enemy | ✓ |  |
+| 23 | Wood Wasp 7 | Platforms | None |  | Verified | enemy | ✓ |  |
 
 <a name="room-shellwood--shellwood-connection-to-blasted-steps"></a>
 
@@ -7464,9 +7485,7 @@ No subroom connections defined.
 
 #### Check Locations
 
-| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
+No check locations defined.
 
 <a name="room-shellwood--shellwood-diddy-basement-main"></a>
 
@@ -7492,26 +7511,35 @@ No subroom connections defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | L | left1 | Left Corridor | [Greyroots Basement Tall room (Mosstown_03)](#room-shellwood--greyroots-basement-tall-room) | UR | None |  | Verified | ✓ |  |
-| D | door1 | Right Corridor | [Witch Chapel (Shellwood_25b)](#room-shellwood--witch-chapel) | L | INVALID |  | Verified | ✓ |  |
+| D | door1 | Right Corridor | [Witch Chapel (Shellwood_25b)](#room-shellwood--witch-chapel) | L | INVALID |  | Verified | ✓ | Is a one way door from other side |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LW | Left Wall | Left Corridor | Left Puddles | Cling Grip OR Silk soar OR Faydown Cloak OR ( Dash AND Scuttlebrace ) |  | Verified | ✓ |  |
+| LW | Left Wall | Left Corridor | Left Puddles | Cling Grip left OR Cling Grip Right OR Silk soar OR Faydown Cloak OR Scuttlebrace |  | Verified | ✓ |  |
 | LW | Left Wall | Left Puddles | Left Corridor | None |  | Verified | ✓ |  |
-| PU | Puddles | Left Puddles | Right Puddles | Swim OR Clawline OR Sharpdart OR Drifters Cloak OR Easy Enemy Pogo |  | Verified | ✓ |  |
-| PU | Puddles | Right Puddles | Left Puddles | Swim OR Clawline OR Sharpdart OR Drifters Cloak OR Easy Enemy Pogo |  | Verified | ✓ |  |
-| RW | Right Wall | Right Puddles | Right Corridor | Cling Grip OR Silk soar OR Faydown Cloak OR ( Dash AND Scuttlebrace ) |  | Verified | ✓ |  |
+| PU | Puddles | Left Puddles | Right Puddles | Swim OR Clawline right OR Sharpdart OR Drifters Cloak OR Easy pogo off pond skipper |  | Verified | ✓ |  |
+| PU | Puddles | Right Puddles | Left Puddles | Swim OR Clawline left OR Sharpdart OR Drifters Cloak OR Easy pogo off pond skipper |  | Verified | ✓ |  |
+| RW | Right Wall | Right Puddles | Right Corridor | Cling Grip left OR Silk soar OR Faydown Cloak OR Scuttlebrace |  | Verified | ✓ |  |
 | RW | Right Wall | Right Corridor | Right Puddles | None |  | Verified | ✓ |  |
 
 #### Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Rosary String: Shellwood #2 | Left Puddles | Cling Grip OR Silk Soar OR ( Faydown Cloak AND Easy Shaman Crest pogo ) OR ( Dash AND Scuttlebrace ) |  | Verified | collectible | ✓ |  |
-| 2 | Relic: Weaver effigy (Keelal, Shellwood) | Right Corridor | Cling Grip AND Swim AND ( Clawline OR Faydown Cloak OR Drifters Cloak OR Sharpdart OR Easy Beast Crest pogo OR Sprint OR Dash ) |  | Verified | collectible | ✓ |  |
-| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 1 | Rosary String: Shellwood #2 | Left Puddles | Cling Grip left OR Cling Grip Right OR Silk Soar OR ( Faydown Cloak AND Easy Shaman Crest pogo ) OR ( Dash AND Scuttlebrace ) |  | Verified | collectible | ✓ |  |
+| 2 | Relic: Weaver effigy (Keelal, Shellwood) | Right Corridor | Cling Grip Right AND Swim AND ( Clawline Right OR Faydown Cloak OR Drifters Cloak OR Sharpdart OR Easy Beast Crest pogo OR Sprint Right OR Dash Right ) |  | Verified | collectible | ✓ |  |
+| 3 | Shellwood Goomba Flyer 1 | Left Puddles | None |  | Verified | enemy | ✓ |  |
+| 4 | Pond Skipper 1 | Left Puddles | None |  | Verified | enemy | ✓ |  |
+| 5 | Pond Skipper 2 | Right Puddles | None |  | Verified | enemy | ✓ |  |
+| 6 | Pond Skipper 3 | Right Corridor | None |  | Verified | enemy | ✓ |  |
+| 7 | Shellwood Goomba 1 | Right Corridor | None |  | Verified | enemy | ✓ |  |
+| 8 | Shellwood Gnat 1 | Right Corridor | prereq shellwood goomba flyer 1 |  | Verified | enemy | ✓ |  |
+| 9 | Shellwood Gnat 2 | Left Corridor | prereq shellwood goomba flyer 1 |  | Verified | enemy | ✓ |  |
+| 10 | Shellwood Gnat 3 | Left Corridor | prereq shellwood goomba flyer 1 |  | Verified | enemy | ✓ |  |
+| 11 | Shellwood Gnat 4 | Left Corridor | prereq shellwood goomba flyer 1 |  | Verified | enemy | ✓ |  |
+| 12 | Shellwood Gnat 5 | Left Corridor | prereq shellwood goomba flyer 1 |  | Verified | enemy | ✓ |  |
 
 <a name="room-shellwood--shellwood-flower-pogo-upper-hall"></a>
 
@@ -7542,9 +7570,8 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Pollip Heart #3 |  | None |  | Verified | collectible | ✓ |  |
+| 1 | Pollip Heart Flower Room |  | None |  | Verified | collectible | ✓ |  |
 | 2 | Seth Meeting Shellwood |  | after THE Seth Meeting Greymoor |  | Verified | event | ✓ |  |
-| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-shellwood--shellwood-greyroot-entrance"></a>
 
@@ -7573,9 +7600,7 @@ No subroom connections defined.
 
 #### Check Locations
 
-| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
+No check locations defined.
 
 <a name="room-shellwood--shellwood-hidden-bellhart-connection"></a>
 
@@ -7606,8 +7631,8 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| RC | Room Crossing | Left Exit Area | Right Exit Area | Faydown Cloak OR Drifters Cloak OR Dash OR Clawline OR Sharpdart OR easy Beast Crest pogo |  | Verified | ✓ |  |
-| RC | Room Crossing | Right Exit Area | Left Exit Area | Faydown Cloak OR ( Drifters Cloak AND Ledge Grab ) OR ( Dash AND Ledge Grab )  OR Clawline OR Sharpdart OR easy Beast Crest pogo |  | Verified | ✓ |  |
+| RC | Room Crossing | Left Exit Area | Right Exit Area | Faydown Cloak OR Drifters Cloak OR Dash Right OR Clawline Right OR Sharpdart OR easy Beast Crest pogo |  | Verified | ✓ |  |
+| RC | Room Crossing | Right Exit Area | Left Exit Area | Faydown Cloak OR ( Drifters Cloak AND Ledge Grab Left ) OR ( Dash left AND Ledge Grab left )  OR Clawline left OR Sharpdart OR easy Beast Crest pogo |  | Verified | ✓ |  |
 | PA | Pollip Access | Left Exit Area | Pollip Spot | Break Wall Left |  | Verified | ✓ |  |
 | PA | Pollip Access | Pollip Spot | Left Exit Area | Break Wall Right |  | Verified | ✓ |  |
 
@@ -7615,9 +7640,13 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Pollip Heart #2 | Pollip Spot | Faydown Cloak OR Drifters Cloak OR Dash OR Clawline OR Sharpdart OR easy Beast Crest pogo |  | Verified | collectible | ✓ |  |
+| 1 | Pollip Heart Hidden Room | Pollip Spot | None |  | Verified | collectible | ✓ |  |
 | 2 | Shellwood 15 Wall | Left Exit Area | Break Wall Left |  | Verified | blockade | ✓ |  |
-| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 3 | Shellwood Goomba Flyer 1 | Pollip Spot | None |  | Verified | enemy | ✓ |  |
+| 4 | Splinter 1 | Right Exit Area | None |  | Verified | enemy | ✓ |  |
+| 5 | Splinter 2 | Left Exit Area | Faydown Cloak OR Drifters Cloak OR Dash left OR Clawline left OR Sharpdart OR easy Beast Crest pogo OR Dash Right OR Clawline Right |  | Verified | enemy | ✓ |  |
+| 6 | Void Mass 1 | Pollip Spot | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 7 | Shellwood Gnat 1 | Pollip Spot | None |  | Verified | enemy | ✓ |  |
 
 <a name="room-shellwood--shellwood-left-side-long-pond-room"></a>
 
@@ -7641,33 +7670,33 @@ No subroom connections defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | R | right1 | Right Lake | [Shellwood Lower Left Tall Room (Shellwood_03)](#room-shellwood--shellwood-lower-left-tall-room) | LL | None |  | Verified | ✓ |  |
-| RC | top2 | Right Lake | [Shellgrave (Shellgrave)](#room-shellwood--shellgrave) | F | Ledge grab OR Faydown Cloak OR Silk Soar OR Enemy Pogo |  | Verified | ✓ |  |
+| RC | top2 | Right Lake | [Shellgrave (Shellgrave)](#room-shellwood--shellgrave) | F | Ledge grab Left OR Ledge Grab Right OR Faydown Cloak OR Silk Soar OR Easy pogo off pondcatcher OR Cling Grip Right OR Cling Grip Left |  | Verified | ✓ |  |
 | L | left1 | Left Lake | [Shellwood Lower Toll bench (Shellwood_08c)](#room-shellwood--shellwood-lower-toll-bench) | R | Break Vines Left |  | Verified | ✓ |  |
-| LC | top1 | Left Lake | [shellwood Far Left Tall Room (Shellwood_04c)](#room-shellwood--shellwood-far-left-tall-room) | F | Enemy Pogo OR Cling grip OR Silk soar OR Faydown Cloak OR ( Dash AND Scuttlebrace ) |  | Verified | ✓ |  |
+| LC | top1 | Left Lake | [shellwood Far Left Tall Room (Shellwood_04c)](#room-shellwood--shellwood-far-left-tall-room) | F | medium pogo off pondcatcher OR Cling grip Right OR Cling Grip Left OR Silk soar OR Faydown Cloak OR Easy Scuttlebrace |  | Verified | ✓ |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| PC | Pond Crossing | Left Lake | Right Lake | Swim OR Clawline OR ( Sprint AND Drifters Cloak ) OR ( Faydown Cloak AND Enemy Pogo ) OR ( Drifters Cloak AND Enemy Pogo ) |  | Verified | ✓ |  |
-| PC | Pond Crossing | Right Lake | Left Lake | Swim OR Clawline OR ( Sprint AND Drifters Cloak ) OR ( Faydown Cloak AND Enemy Pogo ) OR ( Drifters Cloak AND Enemy Pogo ) |  | Verified | ✓ |  |
+| PC | Pond Crossing | Left Lake | Right Lake | Swim OR Clawline Right OR ( Sprint Right AND Drifters Cloak ) OR ( Faydown Cloak AND easy pogo off pond skipper) OR ( Drifters Cloak AND easy Pogo off pond skipper ) |  | Verified | ✓ |  |
+| PC | Pond Crossing | Right Lake | Left Lake | Swim OR Clawline left OR ( Sprint left AND Drifters Cloak ) OR ( Faydown Cloak AND easy Pogo off pond skipper ) OR ( Drifters Cloak AND easy Pogo off pond skipper ) |  | Verified | ✓ |  |
 
 #### Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Garmond and Zaza Act 3 Meeting Shellwood | Left Lake | Act 3 |  | Verified | event | ✓ |  |
-| 2 | Pond Skipper 1 |  |  |  |  | enemy | ✓ |  |
-| 3 | Pond Skipper 2 |  |  |  |  | enemy | ✓ |  |
-| 4 | Pond Skipper 3 |  |  |  |  | enemy | ✓ |  |
-| 5 | Pondcatcher 1 |  |  |  |  | enemy | ✓ |  |
-| 6 | Pondcatcher 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 7 | Void Mass 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
-| 8 | Pilgrim Hornfly 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
-| 9 | Pondcatcher 3 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
-| 10 | Shellwood Gnat 1 |  |  |  |  | enemy | ✓ |  |
-| 11 | Shellwood Gnat 2 |  |  |  |  | enemy | ✓ |  |
-| 12 | Shellwood Gnat 3 |  |  |  |  | enemy | ✓ |  |
+| 2 | Pond Skipper 1 | Right Lake | None |  | Verified | enemy | ✓ |  |
+| 3 | Pond Skipper 2 | Left Lake | None |  | Verified | enemy | ✓ |  |
+| 4 | Pond Skipper 3 | Right Lake | None |  | Verified | enemy | ✓ |  |
+| 5 | Pondcatcher 1 | Right Lake | None |  | Verified | enemy | ✓ |  |
+| 6 | Pondcatcher 2 | Left Lake | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 7 | Void Mass 1 | Left Lake | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 8 | Pilgrim Hornfly 1 | Left Lake | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 9 | Pondcatcher 3 | Left Lake | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 10 | Shellwood Gnat 1 | Left Lake | None |  | Verified | enemy | ✓ |  |
+| 11 | Shellwood Gnat 2 | Left Lake | None |  | Verified | enemy | ✓ |  |
+| 12 | Shellwood Gnat 3 | Left Lake | None |  | Verified | enemy | ✓ |  |
 
 <a name="room-shellwood--shellwood-lower-left-tall-room"></a>
 
@@ -7690,36 +7719,36 @@ No subroom connections defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| UL | left1 | Top | [Shellwood Bellway (Shellwood_19)](#room-shellwood--shellwood-bellway) | R | Sprint OR Dash OR clawline OR silksoar OR Sharpdart OR Drifters Cloak OR Faydown Cloak OR Easy Beast Crest Pogo |  | Verified | ✓ |  |
+| UL | left1 | Top | [Shellwood Bellway (Shellwood_19)](#room-shellwood--shellwood-bellway) | R | ( ( Sprint left OR Dash left OR clawline left OR silksoar OR Sharpdart OR Drifters Cloak OR Faydown Cloak OR Easy Beast Crest Pogo ) AND ( Ledge Grab Right OR Cling Grip Right OR Faydown Cloak OR Silk Soar OR Easy Shaman Pogo ) ) OR ( ledge grab left AND Easy flea brew stall ) |  | Verified | ✓ |  |
 | F | bot1 | Bottom | [Greyroots Basement Tall room (Mosstown_03)](#room-shellwood--greyroots-basement-tall-room) | C | Clear Breakable Roof Diddy Basement IN Shellwood Diddy Basement Tall room |  | Verified | ✓ | Help |
 | MR | right2 | Top | [Shellwood Mask Shard Room (Shellwood_14)](#room-shellwood--shellwood-mask-shard-room) | L | None |  | Verified | ✓ |  |
 | LL | left3 | Bottom | [Shellwood Left Side Long Pond Room (Shellwood_04b)](#room-shellwood--shellwood-left-side-long-pond-room) | R | None |  | Verified | ✓ |  |
-| UR | right1 | Top | [Cling Grip Room (Shellwood_10)](#room-shellwood--cling-grip-room) | LL | Ledge Grab OR Faydown Cloak OR Silk Soar OR Cling Grip |  | Verified | ✓ |  |
+| UR | right1 | Top | [Cling Grip Room (Shellwood_10)](#room-shellwood--cling-grip-room) | LL | Ledge Grab Right OR Faydown Cloak OR Silk Soar OR Cling Grip Right |  | Verified | ✓ |  |
 | LR | right3 | Bottom | [shellwood Shakra (Shellwood_16)](#room-shellwood--shellwood-shakra) | L | None |  | Verified | ✓ |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| FP | Flower Pogo | Bottom | Top | Ledge Grab OR Cling Grip OR Silk Soar |  | Verified |  |  |
-| FP | Flower Pogo | Top | Bottom | None |  | Verified |  |  |
+| FP | Flower Pogo | Bottom | Top | Easy Shaman Pogo OR ( Ledge Grab Right AND ( Ledge Grab Left OR Cling Grip Right OR Easy Beast Pogo OR Dash Left ) ) OR Faydown Cloak OR Silk Soar |  | Verified | ✓ |  |
+| FP | Flower Pogo | Top | Bottom | None |  | Verified | ✓ |  |
 
 #### Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Flea: Shellwood | Top | None |  | Verified | collectible |  |  |
-| 2 | Phacia 1 |  |  |  |  | enemy | ✓ |  |
-| 3 | Phacia 2 |  |  |  |  | enemy | ✓ |  |
-| 4 | Phacia 3 |  |  |  |  | enemy | ✓ |  |
-| 5 | Phacia 4 |  |  |  |  | enemy | ✓ |  |
-| 6 | Phacia 5 |  |  |  |  | enemy | ✓ |  |
-| 7 | Phacia 6 |  |  |  |  | enemy | ✓ |  |
-| 8 | Pollenica 1 |  |  |  |  | enemy | ✓ |  |
-| 9 | Pollenica 2 |  |  |  |  | enemy | ✓ |  |
-| 10 | Pollenica 3 |  |  |  |  | enemy | ✓ |  |
-| 11 | Pollenica 4 |  |  |  |  | enemy | ✓ |  |
-| 12 | Pollenica 5 |  |  |  |  | enemy | ✓ |  |
+| 1 | Flea: Shellwood | Top | None |  | Verified | collectible | ✓ |  |
+| 2 | Phacia 1 | Top | None |  | Verified | enemy | ✓ |  |
+| 3 | Phacia 2 | Top | None |  | Verified | enemy | ✓ |  |
+| 4 | Phacia 3 | Top | None |  | Verified | enemy | ✓ |  |
+| 5 | Phacia 4 | Top | None |  | Verified | enemy | ✓ |  |
+| 6 | Phacia 5 | Top | None |  | Verified | enemy | ✓ |  |
+| 7 | Phacia 6 | Top | None |  | Verified | enemy | ✓ |  |
+| 8 | Pollenica 1 | Top | None |  | Verified | enemy | ✓ |  |
+| 9 | Pollenica 2 | Top | None |  | Verified | enemy | ✓ |  |
+| 10 | Pollenica 3 | Top | None |  | Verified | enemy | ✓ |  |
+| 11 | Pollenica 4 | Top | None |  | Verified | enemy | ✓ |  |
+| 12 | Pollenica 5 | Top | None |  | Verified | enemy | ✓ |  |
 
 <a name="room-shellwood--shellwood-lower-toll-bench"></a>
 
@@ -7781,8 +7810,12 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Mask Shard: Shellwood #12 |  | Ledge Grab OR Dash OR Clawline OR Faydown Cloak OR Drifters Cloak OR Easy Beast Crest pogo |  | Verified | collectible | ✓ |  |
-| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 1 | Mask Shard: Shellwood |  | Ledge Grab Right OR Dash Right OR Clawline Right OR Faydown Cloak OR Drifters Cloak OR Easy Beast Crest pogo |  | Verified | collectible | ✓ |  |
+| 2 | Phacia 1 |  | None |  | Verified | enemy | ✓ |  |
+| 3 | Phacia 2 |  | None |  | Verified | enemy | ✓ |  |
+| 4 | Phacia 3 |  | None |  | Verified | enemy | ✓ |  |
+| 5 | Phacia 4 |  | None |  | Verified | enemy | ✓ |  |
+| 6 | Phacia 5 |  | None |  | Verified | enemy | ✓ |  |
 
 <a name="room-shellwood--shellwood-right-side-big-room"></a>
 
@@ -7816,57 +7849,57 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LA | Lake | Ground Level Left | Ground Level Right | ( Dash AND ( Sprint OR Drifters Cloak ) ) OR Clawline OR Sharpdart OR Swim OR ( Faydown Cloak AND Drifters Cloak ) |  | Verified |  |  |
-| LA | Lake | Ground Level Right | Ground Level Left | ( Dash AND ( Sprint OR Drifters Cloak ) ) OR Clawline OR Sharpdart OR Swim OR ( Faydown Cloak AND Drifters Cloak ) |  | Verified |  |  |
-| C1 | Chasm 1 | Ground Level Left | Central Platforms | ( Ledge Grab AND ( Dash OR Drifters Cloak OR Easy Beast Crest pogo ) ) OR Clawline OR Cling Grip OR Silk Soar OR Sharpdart OR Faydown Cloak |  | Verified |  |  |
-| C1 | Chasm 1 | Central Platforms | Ground Level Left | None |  | Verified |  |  |
-| C2 | Chasm 2 | Central Platforms | Right Platforms | Ledge Grab OR Faydown Cloak OR Silk Soar OR Cling grip OR Dash OR Scuttlebrace OR Clawline  OR Sprint |  | Verified |  |  |
-| C2 | Chasm 2 | Right Platforms | Central Platforms | None |  | Verified |  |  |
-| C3 | Chasm 3 | Right Platforms | Ground Level Right | None |  | Verified |  |  |
-| C3 | Chasm 3 | Ground Level Right | Right Platforms | Silk Soar OR ( Cling Grip AND Faydown Cloak  AND ( Swim OR ( Easy Enemy Pogo AND ( Sprint OR Dash ) ) OR Drifters Cloak OR Clawline OR Sharpdart ) ) |  | Verified |  |  |
+| LA | Lake | Ground Level Left | Ground Level Right | ( Dash Right AND ( Sprint Right OR Drifters Cloak ) ) OR Clawline Right OR Sharpdart OR Swim OR ( Faydown Cloak AND Drifters Cloak ) |  | Verified | ✓ |  |
+| LA | Lake | Ground Level Right | Ground Level Left | ( Dash Left AND ( Sprint Left OR Drifters Cloak ) ) OR Clawline Left OR Sharpdart OR Swim OR ( Faydown Cloak AND Drifters Cloak ) |  | Verified | ✓ |  |
+| C1 | Chasm 1 | Ground Level Left | Central Platforms | ( Ledge Grab Right AND Ledge Grab left AND ( Dash Right OR Drifters Cloak OR Easy Beast Crest pogo ) ) OR Clawline Right OR ( Cling Grip Right AND Cling Grip Left ) OR Silk Soar OR Sharpdart OR Faydown Cloak |  | Verified | ✓ |  |
+| C1 | Chasm 1 | Central Platforms | Ground Level Left | None |  | Verified | ✓ |  |
+| C2 | Chasm 2 | Central Platforms | Right Platforms | Ledge Grab OR Faydown Cloak OR Silk Soar OR Cling grip OR Dash OR Scuttlebrace OR Clawline  OR Sprint |  | Verified | ✓ |  |
+| C2 | Chasm 2 | Right Platforms | Central Platforms | None |  | Verified | ✓ |  |
+| C3 | Chasm 3 | Right Platforms | Ground Level Right | None |  | Verified | ✓ |  |
+| C3 | Chasm 3 | Ground Level Right | Right Platforms | Silk Soar OR ( Cling Grip Right AND Faydown Cloak  AND ( Swim OR ( Easy Enemy Pogo AND ( Sprint Left OR Dash Left ) ) OR Drifters Cloak OR Clawline Left OR Sharpdart ) ) |  | Verified | ✓ |  |
 
 #### Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Shellwood - Frayed Rosary String | Central Platforms | None |  | Verified | collectible | ✓ |  |
-| 2 | Pollip Heart #1 | Right Platforms | Cling Grip OR Silk Soar OR Scuttlebrace |  | Verified | collectible | ✓ |  |
-| 3 | Shell shard Cache: Shellwood #4 | Right Platforms | None |  | Verified | resource | ✓ |  |
-| 4 | Shell shard Cache: Shellwood #5 | Right Platforms | None |  | Verified | resource | ✓ |  |
-| 5 | Shell shard Cache: Shellwood #6 | Right Platforms | None |  | Verified | resource | ✓ |  |
+| 2 | Pollip Heart Right Side Big Room | Right Platforms | Cling Grip Right OR Silk Soar OR Scuttlebrace OR ( Medium enemy pogo AND medium pogo off shellwood gnat ) |  | Verified | collectible | ✓ |  |
+| 3 | Shell shard Cache: Outside Longpin 1 | Right Platforms | None |  | Verified | resource | ✓ |  |
+| 4 | Shell shard Cache: Outside Longpin 2 | Right Platforms | None |  | Verified | resource | ✓ |  |
+| 5 | Shell shard Cache: Outside Longpin 3 | Right Platforms | None |  | Verified | resource | ✓ |  |
 | 6 | Longpin Nest | Right Platforms | None |  | Verified | blockade |  |  |
-| 7 | Control 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 8 | Wood Wasp 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 9 | Wood Wasp 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 10 | Wood Wasp 3 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 11 | Shellwood Goomba Flyer (2) 1 |  |  |  |  | enemy | ✓ |  |
-| 12 | Shellwood Goomba Flyer (1) 1 |  |  |  |  | enemy | ✓ |  |
-| 13 | Shellwood Goomba 1 |  |  |  |  | enemy | ✓ |  |
-| 14 | Pond Skipper 1 |  |  |  |  | enemy | ✓ |  |
-| 15 | Pond Skipper 2 |  |  |  |  | enemy | ✓ |  |
-| 16 | Shellwood Goomba (2) 1 |  |  |  |  | enemy | ✓ |  |
-| 17 | Pond Skipper 3 |  |  |  |  | enemy | ✓ |  |
-| 18 | Wood Wasp 4 |  |  |  |  | enemy | ✓ |  |
-| 19 | Wood Wasp 5 |  |  |  |  | enemy | ✓ |  |
-| 20 | Shellwood Goomba Flyer 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 21 | Pondcatcher 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 22 | Shellwood Goomba (6) 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 23 | Pondcatcher 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
-| 24 | Pilgrim Hornfly 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
-| 25 | Elder Pilgrim 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
-| 26 | Pondcatcher 3 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
-| 27 | Shellwood Goomba Flyer (4) 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
-| 28 | Shellwood Gnat 1 |  |  |  |  | enemy | ✓ |  |
-| 29 | Shellwood Gnat 2 |  |  |  |  | enemy | ✓ |  |
-| 30 | Shellwood Gnat 3 |  |  |  |  | enemy | ✓ |  |
-| 31 | Shellwood Gnat 4 |  |  |  |  | enemy | ✓ |  |
-| 32 | Shellwood Gnat 5 |  |  |  |  | enemy | ✓ |  |
-| 33 | Shellwood Gnat 6 |  |  |  |  | enemy | ✓ |  |
-| 34 | Shellwood Gnat 7 |  |  |  |  | enemy | ✓ |  |
-| 35 | Wood Wasp 6 |  |  |  |  | enemy | ✓ |  |
-| 36 | Wood Wasp 7 |  |  |  |  | enemy | ✓ |  |
-| 37 | Shellwood Gnat 8 |  |  |  |  | enemy | ✓ |  |
-| 38 | Shellwood Gnat 9 |  |  |  |  | enemy | ✓ |  |
+| 7 | Control 1 | Right Platforms | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 8 | Wood Wasp 1 | Right Platforms | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 9 | Wood Wasp 2 | Right Platforms | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 10 | Wood Wasp 3 | Right Platforms | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 11 | Shellwood Goomba Flyer (2) 1 | Central Platforms | None |  | Verified | enemy | ✓ |  |
+| 12 | Shellwood Goomba Flyer (1) 1 | Central Platforms | None |  | Verified | enemy | ✓ |  |
+| 13 | Shellwood Goomba 1 | Ground Level Left | None |  | Verified | enemy | ✓ |  |
+| 14 | Pond Skipper 1 | Ground Level Left | None |  | Verified | enemy | ✓ |  |
+| 15 | Pond Skipper 2 | Ground Level Left | None |  | Verified | enemy | ✓ |  |
+| 16 | Shellwood Goomba (2) 1 | Ground Level Left | None |  | Verified | enemy | ✓ |  |
+| 17 | Pond Skipper 3 | Ground Level Left | None |  | Verified | enemy | ✓ |  |
+| 18 | Wood Wasp 4 | Right Platforms | None |  | Verified | enemy | ✓ |  |
+| 19 | Wood Wasp 5 | Right Platforms | None |  | Verified | enemy | ✓ |  |
+| 20 | Shellwood Goomba Flyer 1 | Right Platforms | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 21 | Pondcatcher 1 | Ground Level Left | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 22 | Shellwood Goomba (6) 1 | Right Platforms | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 23 | Pondcatcher 2 | Ground Level Right | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 24 | Pilgrim Hornfly 1 | Ground Level Right | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 25 | Elder Pilgrim 1 | Ground Level Right | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 26 | Pondcatcher 3 | Ground Level Right | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 27 | Shellwood Goomba Flyer (4) 1 | Right Platforms | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 28 | Shellwood Gnat 1 | Ground Level Left | Prereq shellwood goomba flyer 1 |  | Verified | enemy | ✓ |  |
+| 29 | Shellwood Gnat 2 | Ground Level Left | Prereq shellwood goomba flyer 1 |  | Verified | enemy | ✓ |  |
+| 30 | Shellwood Gnat 3 | Ground Level Left | Prereq shellwood goomba flyer 1 |  | Verified | enemy | ✓ |  |
+| 31 | Shellwood Gnat 4 | Ground Level Left | Prereq shellwood goomba flyer 1 |  | Verified | enemy | ✓ |  |
+| 32 | Shellwood Gnat 5 | Ground Level Left | Prereq shellwood goomba flyer 1 |  | Verified | enemy | ✓ |  |
+| 33 | Shellwood Gnat 6 | Ground Level Left | Prereq shellwood goomba flyer 1 |  | Verified | enemy | ✓ |  |
+| 34 | Shellwood Gnat 7 | Ground Level Left | Prereq shellwood goomba flyer 1 |  | Verified | enemy | ✓ |  |
+| 35 | Wood Wasp 6 | Right Platforms | None |  | Verified | enemy | ✓ |  |
+| 36 | Wood Wasp 7 | Right Platforms | None |  | Verified | enemy | ✓ |  |
+| 37 | Shellwood Gnat 8 | Ground Level Left | Prereq shellwood goomba flyer 1 |  | Verified | enemy | ✓ |  |
+| 38 | Shellwood Gnat 9 | Ground Level Left | Prereq shellwood goomba flyer 1 |  | Verified | enemy | ✓ |  |
 
 <a name="room-shellwood--shellwood-sister-splinter-bench"></a>
 
@@ -7905,19 +7938,19 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | AD | Arena Drop | Above Arena | Arena | None |  | Verified | ✓ |  |
 | AD | Arena Drop | Arena | Above Arena | Silk Soar |  | Verified | ✓ |  |
-| AE | Arena Exit | Arena | Bench Toll | Ledge Grab OR ( Dash AND Scuttlebrace ) OR Clawline OR Cling Grip OR Faydown Cloak OR Silk Soar |  | Verified | ✓ |  |
+| AE | Arena Exit | Arena | Bench Toll | Ledge Grab Right OR Scuttlebrace OR Cling Grip Right OR Cling Grip Left OR Faydown Cloak OR Silk Soar |  | Verified | ✓ |  |
 | AE | Arena Exit | Bench Toll | Arena | None |  | Verified | ✓ |  |
-| CL1 | Climb 1 | Bench Toll | Upper Hidden | ( Cling Grip AND ( Clawline OR Dash OR Sharpdart OR Drifters Cloak OR Faydown Cloak OR easy Beast Crest pogo ) ) OR Silk Soar |  | Verified | ✓ |  |
+| CL1 | Climb 1 | Bench Toll | Upper Hidden | ( Cling Grip Right AND CLing Grip Left AND ( Clawline Left OR Dash Left OR Sharpdart OR Drifters Cloak OR Faydown Cloak OR easy Beast Crest pogo ) ) OR Silk Soar |  | Verified | ✓ |  |
 | CL1 | Climb 1 | Upper Hidden | Bench Toll | None |  | Verified | ✓ |  |
 | EL | Elevator | Bench Toll | Elevator Platform | Activate Shellwood Elevator Button 2 |  | Verified | ✓ |  |
 | EL | Elevator | Elevator Platform | Bench Toll | Activate Shellwood Elevator Button 2 |  | Verified | ✓ |  |
 | CL2 | Climb 2 | Upper Main | Bench Toll | None |  | Verified | ✓ |  |
-| CL2 | Climb 2 | Bench Toll | Upper Main | Cling Grip OR Silk Soar |  | Verified | ✓ |  |
+| CL2 | Climb 2 | Bench Toll | Upper Main | Cling Grip Left OR Silk Soar |  | Verified | ✓ |  |
 | HP | Hidden Path | Upper Main | Upper Hidden | None |  | Verified | ✓ |  |
 | HP | Hidden Path | Upper Hidden | Upper Main | None |  | Verified | ✓ |  |
 | EP | Elevator Platform | Upper Main | Elevator Platform | None |  | Verified | ✓ |  |
-| EP | Elevator Platform | Elevator Platform | Upper Main | Ledge Grab OR ( Dash AND Scuttlebrace ) OR Clawline OR Cling Grip OR Faydown Cloak OR Silk Soar |  | Verified | ✓ |  |
-| CL3 | Climb 3 | Above Arena | Bench Toll | Cling Grip OR Silk Soar OR ( Dash AND Scuttlebrace ) |  | Verified | ✓ |  |
+| EP | Elevator Platform | Elevator Platform | Upper Main | Ledge Grab Left OR Scuttlebrace OR Cling Grip Left OR Faydown Cloak OR Silk Soar |  | Verified | ✓ |  |
+| CL3 | Climb 3 | Above Arena | Bench Toll | Cling Grip Right OR Cling Grip Left OR Silk Soar OR Scuttlebrace |  | Verified | ✓ |  |
 | CL3 | Climb 3 | Bench Toll | Above Arena | None |  | Verified | ✓ |  |
 
 #### Check Locations
@@ -7928,7 +7961,21 @@ No subroom connections defined.
 | 2 | Sister Splinter Toll Bench | Bench Toll | None |  | Verified | bench | ✓ |  |
 | 3 | Craw Summons | Bench Toll | Craw Summons Ready |  | Verified | collectible |  |  |
 | 4 | Shellwood Elevator Button 2 | Elevator Platform | None |  | Verified | switch |  |  |
-| 5 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 5 | Phacia 1 | Arena | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 6 | Splinter 1 | Arena | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 7 | Splinterhorn 1 | Arena | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 8 | Splinter 2 | Arena | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 9 | Splinter 3 | Arena | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 10 | Splinterhorn 2 | Arena | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 11 | Phacia 2 | Arena | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 12 | Phacia 3 | Arena | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 13 | Phacia 4 | Upper Main | None |  | Verified | enemy | ✓ |  |
+| 14 | Gahlia 1 | Upper Main | none |  | Verified | enemy | ✓ |  |
+| 15 | Gahlia 2 | Upper Hidden | None |  | Verified | enemy | ✓ |  |
+| 16 | Gahlia 3 | Upper Hidden | None |  | Verified | enemy | ✓ |  |
+| 17 | Gahlia 4 | Upper Main | None |  | Verified | enemy | ✓ |  |
+| 18 | Void Mass 1 | Arena | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 19 | Shellwood Toll Bench Arena | Arena | None |  | Verified | gauntlet | ✓ |  |
 
 <a name="room-shellwood--shellwood-top-room"></a>
 
@@ -7945,10 +7992,11 @@ No subroom connections defined.
 | No. | Subroom | Annotated |
 | --- | --- | --- |
 | S1 | Left Side | ✓ |
-| S2 | Central | ✓ |
+| S2 | Central Left | ✓ |
 | S3 | Right Side | ✓ |
 | S4 | Upper Area | ✓ |
 | S5 | Pollip Room | ✓ |
+| S6 | Central Upper | ✓ |
 
 #### Room Transitions
 
@@ -7961,26 +8009,42 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LW | Left Wall | Left Side | Central | Cling Grip OR Faydown Cloak OR Silk Soar OR ( Dash AND Scuttlebrace ) |  | Verified |  |  |
-| LW | Left Wall | Central | Left Side | Cling Grip OR Faydown Cloak OR Silk Soar OR ( Dash AND Scuttlebrace ) |  | Verified |  |  |
-| RW | Right Wall | Central | Right Side | ( Swim OR ( Drifters Cloak  AND Easy enemy pogo ) ) AND ( Cling Grip OR Scuttlebrace ) |  | Verified |  |  |
-| RW | Right Wall | Right Side | Central | Cling Grip OR Faydown Cloak OR Silk Soar OR ( Dash AND Scuttlebrace ) |  | Verified |  |  |
-| HS | Hidden Shaft | Pollip Room | Upper Area | prereq Shellwood 26 Wall AND Silk Soar |  | Verified |  |  |
-| HS | Hidden Shaft | Upper Area | Pollip Room | prereq Shellwood 26 Wall |  | Verified |  |  |
-| CC | Central Shaft | Central | Upper Area | Cling Grip AND ( ( Swim OR Clawline OR Drifters Cloak OR Sharpdart OR ( easy Beast Crest pogo AND Dash ) OR ( Sprint AND Dash ) ) OR ( Dash AND Scuttlebrace AND ( Swim OR Clawline OR Easy enemy pogo OR Faydown Cloak ) ) ) |  | Verified |  |  |
-| CC | Central Shaft | Upper Area | Central | None |  | Verified |  |  |
-| PH | Pollip Hole | Central | Pollip Room | Silk Soar OR ( Faydown Cloak AND ( Ledge Grab OR Cling Grip ) ) |  | Verified |  |  |
-| PH | Pollip Hole | Pollip Room | Central | None |  | Verified |  |  |
+| LW | Left Wall | Left Side | Central Left | Cling Grip Left OR Cling Grip Right OR Easy Scuttlebrace OR Faydown Cloak OR Silk Soar |  | Verified | ✓ |  |
+| LW | Left Wall | Central Left | Left Side | Cling Grip Left OR Easy Scuttlebrace OR Faydown Cloak OR Silk Soar |  | Verified | ✓ |  |
+| RW | Right Wall | Central Upper | Right Side | ( Swim AND ( CLing Grip Right OR Easy Scuttlebrace ) ) OR ( ( Clawline RIghT AND ( Cling Grip Right OR Medium Scuttlebrace ) AND ( Medium Pogo off Pond Skipper OR Easy damage boost OR Drifters Cloak OR Faydown Cloak OR Dash Right  ) ) ) OR ( Hard Shaman Pogo AND Hard Scuttlebrace ) |  | Verified | ✓ |  |
+| RW | Right Wall | Right Side | Central Upper | ( Cling Grip Left OR Easy Scuttlebrace ) AND ( Swim OR ( Clawline Left AND ( Faydown Cloak OR Drifters Cloak OR Hard Shaman Pogo ) ) ) |  | Verified | ✓ |  |
+| HS | Hidden Shaft | Pollip Room | Upper Area | prereq Shellwood 26 Wall AND Silk Soar AND ( Swim AND ( Cling Grip Right OR ( Easy Scuttlebrace AND ( Hard Shaman Pogo OR Faydown Cloak ) ) ) ) |  | Verified | ✓ |  |
+| HS | Hidden Shaft | Upper Area | Pollip Room | prereq Shellwood 26 Wall AND ( Swim OR ( Clawline Left OR ( Easy Shaman Pogo AND Hard Scuttlebrace ) ) ) |  | Verified | ✓ |  |
+| CC | Central Shaft | Central Upper | Upper Area | Silk Soar OR Cling Grip Right OR Easy Scuttlebrace |  | Verified | ✓ |  |
+| CC | Central Shaft | Upper Area | Central Upper | None |  | Verified | ✓ |  |
+| PH | Pollip Hole | Central Left | Pollip Room | Silk Soar OR ( Faydown Cloak AND ( Ledge Grab OR Cling Grip OR ( Easy Heal stall AND Easy Beast Pogo ) ) ) |  | Verified | ✓ |  |
+| PH | Pollip Hole | Pollip Room | Central Left | None |  | Verified | ✓ |  |
+| CL | Central Lake | Central Left | Central Upper | ( Swim AND ( Cling Grip Right OR Cling Grip Left OR Easy Scuttlebrace ) ) OR ( Clawline Right AND ( Faydown Cloak OR Cling Grip Right OR Easy Scuttlebrace ) ) OR ( Sprint Right AND Cling Grip Right AND ( Dash Right OR Faydown Cloak OR Drifters Cloak OR Easy Beast Pogo ) ) |  | Verified | ✓ |  |
+| CL | Central Lake | Central Upper | Central Left | Clawline Left OR Drifters Cloak OR Swim OR ( Sprint Left AND ( Easy Hunter pogo OR Easy Beast Pogo OR Dash Left OR Faydown Cloak OR Easy Scuttlebrace ) ) |  | Verified | ✓ |  |
 
 #### Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Pollip Heart #4 | Pollip Room | Cling Grip OR Silk Soar OR Clawline OR ( Faydown Cloak AND ( Ledge Grab OR Clawline ) ) |  | Verified | collectible | ✓ |  |
-| 2 | Rosary cache: Shellwood | Right Side | Cling Grip OR Silk Soar OR ( Scuttlebrace AND Dash ) |  | Verified | resource | ✓ |  |
+| 1 | Pollip Heart #4 | Pollip Room | None |  | Verified | collectible | ✓ |  |
+| 2 | Rosary cache: Shellwood Top Room | Right Side | Faydown Cloak OR Silk Soar OR Easy Scuttlebrace OR ( Cling Grip Left AND CLing Grip RIght ) |  | Verified | resource | ✓ |  |
 | 3 | Resting Site: Shellwood | Right Side | prereq THE A Vassal Lost Wish Promised |  | Verified | event | ✓ |  |
-| 4 | Shellwood 26 Wall | Upper Area | None |  | Verified | blockade |  |  |
-| 5 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 4 | Shellwood 26 Wall | Upper Area | ( Swim OR ( Clawline Left OR ( Easy Shaman Pogo AND Hard Scuttlebrace ) ) ) |  | Verified | blockade | ✓ |  |
+| 5 | Control 1 | Upper Area | ( Swim OR ( Clawline Left OR ( Easy Shaman Pogo AND Hard Scuttlebrace ) ) ) |  | Verified | enemy | ✓ |  |
+| 6 | Wood Wasp 1 | Upper Area | None |  | Verified | enemy | ✓ |  |
+| 7 | Wood Wasp 2 | Upper Area | None |  | Verified | enemy | ✓ |  |
+| 8 | Wood Wasp 3 | Upper Area | None |  | Verified | enemy | ✓ |  |
+| 9 | Pond Skipper 1 | Central Left | None |  | Verified | enemy | ✓ |  |
+| 10 | Pond Skipper 2 | Central Left | None |  | Verified | enemy | ✓ |  |
+| 11 | Splinterbark 1 | Upper Area | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 12 | Splinterbark 2 | Upper Area | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 13 | Void Mass 1 | Upper Area | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 14 | Splinterbark 3 | Upper Area | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 15 | Splinterbark 4 | Upper Area | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 16 | Shellwood Gnat 1 | Upper Area | None |  | Verified | enemy | ✓ |  |
+| 17 | Shellwood Gnat 2 | Upper Area | None |  | Verified | enemy | ✓ |  |
+| 18 | Wood Wasp 4 | Upper Area | None |  | Verified | enemy | ✓ |  |
+| 19 | Wood Wasp 5 | Upper Area | None |  | Verified | enemy | ✓ |  |
 
 <a name="room-shellwood--shellwood-upper-bellhart-entrance"></a>
 
@@ -8006,7 +8070,7 @@ No subroom connections defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| UL | left1 | Upper Area | [Sister Splinter (Shellwood_18)](#room-shellwood--sister-splinter) | R | ((( Easy Hunter Crest pogo OR Easy Beast Crest pogo OR medium Architect Crest pogo ) AND Ledge Grab) OR ( Medium Heal Stall AND ( medium Reaper Crest pogo OR Hard Shaman Crest pogo OR easy Wanderer Crest pogo OR hard Witch Crest pogo ) ) ) OR Clawline OR Dash OR Drifter's Cloak OR Faydown Cloak OR Sharpdart |  | Verified | ✓ |  |
+| UL | left1 | Upper Area | [Sister Splinter (Shellwood_18)](#room-shellwood--sister-splinter) | R | ((( Easy Hunter Crest pogo OR Easy Beast Crest pogo OR medium Architect Crest pogo ) AND Ledge Grab left ) OR ( Medium Heal Stall AND ( medium Reaper Crest pogo OR Hard Shaman Crest pogo OR easy Wanderer Crest pogo OR hard Witch Crest pogo ) ) ) OR Clawline left OR Dash left  OR Drifter's Cloak OR Faydown Cloak OR Sharpdart |  | Verified | ✓ |  |
 | R | right1 | Right Exit Area | [Upper Bellhart (Belltown_04)](#room-bellhart--upper-bellhart) | UL | None |  | Verified | ✓ |  |
 | LL | left2 | Left Pond | [Shellwood Sister Splinter Bench (Shellwood_01b)](#room-shellwood--shellwood-sister-splinter-bench) | UR | None |  | Verified | ✓ |  |
 
@@ -8015,11 +8079,11 @@ No subroom connections defined.
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | BL | Bell Ledge | Bell Ledge | Upper Area | None |  | Verified | ✓ |  |
-| BL | Bell Ledge | Upper Area | Bell Ledge | Cling Grip OR Faydown Cloak OR Silk soar OR ( Dash AND Scuttlebrace ) |  | Verified | ✓ |  |
-| PO | Pond | Left Pond | Right Pond | Swim OR Clawline OR (Drifter's Cloak AND (Faydown Cloak OR (Sprint AND Dash) OR (Sharpdart AND Ledge Grab))) OR (Faydown Cloak AND Sharpdart AND (Dash OR easy Beast Crest pogo )) |  | Verified | ✓ |  |
-| PO | Pond | Right Pond | Left Pond | Swim OR ( Clawline AND ( Ledge Grab OR Dash OR Sharpdart OR easy beast Crest pogo OR Faydown Cloak ) ) OR ( Sprint AND ( ( Sharpdart AND Dash ) OR ( Sharpdart AND easy Beast Crest pogo ) OR ( Faydown Cloak AND Drifters Cloak ) OR ( Sharpdart AND Drifters Cloak) OR ( Faydown Cloak AND Sharpdart ) ) ) |  | Verified | ✓ |  |
+| BL | Bell Ledge | Upper Area | Bell Ledge | Cling Grip Right OR Faydown Cloak OR Silk soar OR Scuttlebrace |  | Verified | ✓ |  |
+| PO | Pond | Left Pond | Right Pond | Swim OR Clawline right OR (Drifter's Cloak AND (Faydown Cloak OR (Sprint right AND Dash right ) OR (Sharpdart AND Ledge Grab right ))) OR (Faydown Cloak AND Sharpdart AND (Dash right OR easy Beast Crest pogo )) |  | Verified | ✓ |  |
+| PO | Pond | Right Pond | Left Pond | Swim OR ( Clawline right AND ( Ledge Grab right OR Dash right OR Sharpdart OR easy beast Crest pogo OR Faydown Cloak ) ) OR ( Sprint right AND ( ( Sharpdart AND Dash right ) OR ( Sharpdart AND easy Beast Crest pogo ) OR ( Faydown Cloak AND Drifters Cloak ) OR ( Sharpdart AND Drifters Cloak) OR ( Faydown Cloak AND Sharpdart ) ) ) |  | Verified | ✓ |  |
 | PL | Platforms | Upper Area | Right Pond | None |  | Verified | ✓ |  |
-| PL | Platforms | Right Pond | Upper Area | Ledge Grab OR Dash OR Clawline OR Faydown Cloak OR Cling Grip OR Silk soar |  | Verified | ✓ |  |
+| PL | Platforms | Right Pond | Upper Area | Ledge Grab Left OR Ledge Grab Right OR Dash Right OR Dash Left OR Faydown Cloak OR Cling Grip Right OR Cling Grip Left OR Silk soar OR Easy Shaman Pogo |  | Verified | ✓ |  |
 | BB | Break Bell Walls | Bell Ledge | Right Exit Area | Break Wall Right |  | Verified | ✓ |  |
 | BB | Break Bell Walls | Right Exit Area | Bell Ledge | Break Wall Left |  | Verified | ✓ |  |
 
@@ -8027,8 +8091,7 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Shard Bundle: Shellwood | Upper Area | (Cling Grip AND Faydown Cloak ) OR Silk Soar OR ( Faydown Cloak AND Dash AND Scuttlebrace ) |  | Verified | collectible | ✓ |  |
-| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 1 | Shard Bundle: Shellwood | Upper Area | Silk Soar OR ( ( Cling Grip Left OR Scuttlebrace ) AND ( Faydown Cloak OR ( ( Cling Grip Right OR Faydown Cloak OR Silk soar OR Scuttlebrace ) AND ( Drifters Cloak OR Clawline Left OR ( Dash Left AND Sprint Left ) OR Sharpdart OR (Sprint left AND Easy Beast pogo AND ( medium heal stall OR medium flea brew stall OR medium plasmium phial stall OR Medium flintslate stall) ) ) )  ) ) |  | Verified | collectible | ✓ |  |
 
 <a name="room-shellwood--sister-splinter"></a>
 
@@ -8046,6 +8109,7 @@ No subroom connections defined.
 | --- | --- | --- |
 | S1 | Arena Side | ✓ |
 | S2 | Right Side | ✓ |
+| S3 | Top SIde | ✓ |
 
 #### Room Transitions
 
@@ -8053,21 +8117,32 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | L | left1 | Arena Side | [Cling Grip Room (Shellwood_10)](#room-shellwood--cling-grip-room) | MR | None |  | Verified | ✓ |  |
 | R | right1 | Right Side | [Shellwood Upper Bellhart Entrance (Shellwood_13)](#room-shellwood--shellwood-upper-bellhart-entrance) | UL | None |  | Verified | ✓ |  |
-| C | top1 | Right Side | [Shellwood Top Room (Shellwood_26)](#room-shellwood--shellwood-top-room) | F | Cling Grip OR ( Dash AND Scuttlebrace ) |  | Verified | ✓ |  |
+| C | top1 | Top SIde | [Shellwood Top Room (Shellwood_26)](#room-shellwood--shellwood-top-room) | F | Cling Grip Left OR Scuttlebrace OR Cling Grip Right OR Silk Soar OR Faydown Cloak |  | Verified | ✓ |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| PU | Puddle | Arena Side | Right Side | Swim OR ( Cling Grip AND Ledge grab ) OR Dash OR Clawline OR SharpDart OR Drifters Cloak OR Faydown Cloak OR easy Beast Crest pogo |  | Verified | ✓ |  |
-| PU | Puddle | Right Side | Arena Side | Swim OR Dash OR Clawline OR SharpDart OR Drifters Cloak OR Faydown Cloak OR easy Beast Crest pogo |  | Verified | ✓ |  |
+| PU | Puddle | Arena Side | Right Side | Swim OR ( Cling Grip left AND Ledge grab Right ) OR Dash Right OR Clawline Right OR SharpDart OR Drifters Cloak OR Faydown Cloak OR easy Beast Crest pogo OR Easy Scuttlebrace |  | Verified | ✓ |  |
+| PU | Puddle | Right Side | Arena Side | Swim OR Dash Left OR Clawline Left OR SharpDart OR Drifters Cloak OR Faydown Cloak OR easy Beast Crest pogo |  | Verified | ✓ |  |
+| LW | Left Wall | Arena Side | Top SIde | Cling Grip Left OR Medium Scuttlebrace |  | Verified | ✓ |  |
+| LW | Left Wall | Top SIde | Arena Side | Easy Hunter Pogo OR Easy Beast Pogo OR Easy Architect Pogo OR ( Ledge Grab Left AND ( Medium Reaper Pogo OR Medium Shaman Pogo ) ) OR Dash Left OR Drifters Cloak OR Faydown Cloak OR Clawline Left OR Scuttlebrace OR Swim OR Sharpdart |  | Verified | ✓ |  |
+| RW | Rightwall but acutally still left | Right Side | Top SIde | ( ( Cling Grip Left OR Medium Scuttlebrace ) AND (  Sprint left OR Faydown Cloak OR Drifters Cloak OR Clawline Left ) ) OR ( Cling Grip Left AND Dash Left ) OR ( Medium Scuttlebrace AND Medium Scuttlebrace AND Medium Shaman Pogo ) |  | Verified | ✓ |  |
+| RW | Rightwall but acutally still left | Top SIde | Right Side | Easy Hunter Pogo OR Easy Beast Pogo OR Easy Architect Pogo OR ( Ledge Grab Right AND ( Medium Reaper Pogo OR Medium Shaman Pogo ) ) OR Dash Right OR Drifters Cloak OR Faydown Cloak OR Clawline Right OR Scuttlebrace OR Swim OR Sharpdart |  | Verified | ✓ |  |
 
 #### Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Boss: Sister Splinter | Arena Side | None |  | Verified | boss | ✓ |  |
-| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 2 | Splinterbark 1 | Arena Side | None |  | Verified | enemy | ✓ | Sistersplinter summon |
+| 3 | Splinterbark 2 | Arena Side | None |  | Verified | enemy | ✓ | Sistersplinter summon |
+| 4 | Splinter Queen Spike 1 | Arena Side | None |  | Verified | enemy | ✓ | Sistersplinter summon |
+| 5 | Splinter Queen Spike (1) 1 | Arena Side | None |  | Verified | enemy | ✓ | Sistersplinter summon |
+| 6 | Splinter Queen Spike (2) 1 | Arena Side | None |  | Verified | enemy | ✓ | Sistersplinter summon |
+| 7 | Splinter Queen Spike (3) 1 | Arena Side | None |  | Verified | enemy | ✓ | Sistersplinter summon |
+| 8 | Splinter Queen Spike (4) 1 | Arena Side | None |  | Verified | enemy | ✓ | Sistersplinter summon |
+| 9 | Splinter Queen Spike (5) 1 | Arena Side | None |  | Verified | enemy | ✓ | Sistersplinter summon |
 
 <a name="room-shellwood--witch-chapel"></a>
 
@@ -8096,13 +8171,7 @@ No subroom connections defined.
 
 #### Check Locations
 
-| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
-
-#### Notes
-
-not sure the image is right based on the
+No check locations defined.
 
 <a name="room-shellwood--shellwood-far-left-tall-room"></a>
 
@@ -8116,24 +8185,34 @@ not sure the image is right based on the
 
 #### Subrooms
 
-No subrooms defined.
+| No. | Subroom | Annotated |
+| --- | --- | --- |
+| S1 | Top | ✓ |
+| S2 | Bottom | ✓ |
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| C | top1 |  | [Shellwood Connection To Blasted steps (Shellwood_08)](#room-shellwood--shellwood-connection-to-blasted-steps) | F | ( Faydown Cloak AND Hard enemy pogo ) OR cling grip OR silk soar OR ( Dash AND Medium Scuttlebrace AND Faydown Cloak ) |  | Verified | ✓ |  |
-| F | bot1 |  | [Shellwood Left Side Long Pond Room (Shellwood_04b)](#room-shellwood--shellwood-left-side-long-pond-room) | LC | None |  | Verified | ✓ |  |
+| C | top1 | Top | [Shellwood Connection To Blasted steps (Shellwood_08)](#room-shellwood--shellwood-connection-to-blasted-steps) | F | None |  | Verified | ✓ |  |
+| F | bot1 | Bottom | [Shellwood Left Side Long Pond Room (Shellwood_04b)](#room-shellwood--shellwood-left-side-long-pond-room) | LC | None |  | Verified | ✓ |  |
 
 #### Subroom Connections
 
-No subroom connections defined.
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| A | 04c | Bottom | Top | ( Faydown Cloak AND Hard enemy pogo ) OR cling grip OR silk soar OR ( Dash AND Medium Scuttlebrace AND Faydown Cloak ) |  | Verified | ✓ |  |
+| A | 04c | Top | Bottom | None |  | Verified | ✓ |  |
 
 #### Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 1 | Winged Pilgrim Bellbearer 1 | Top | None |  | Verified | enemy | ✓ |  |
+| 2 | Winged Pilgrim Bellbearer 2 | Top | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 3 | Winged Pilgrim 1 | Top | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 4 | Winged Pilgrim Bellbearer 3 | Top | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 5 | Winged Pilgrim 2 | Top | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 
 <a name="room-shellwood--shellwood-shakra"></a>
 
@@ -8200,7 +8279,6 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | bellway rosary lock |  | none |  | Verified | lock |  |  |
 | 2 | Bellway: Bellhart |  | unlock bellway rosary lock |  | Verified | travel | ✓ |  |
-| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-bellhart--bellhart-hallway-to-shellwood"></a>
 
@@ -8231,7 +8309,7 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Rosary Cache: Bellhart #4 |  | Cling Grip OR Silk soar OR ( Dash AND Scuttlebrace AND Faydown Cloak ) |  | Verified | collectible | ✓ |  |
+| 1 | Rosary Cache: Bellhart #4 |  | Cling Grip Left OR Cling Grip Right OR Silk soar OR ( Scuttlebrace AND Faydown Cloak ) |  | Verified | collectible | ✓ |  |
 | 2 | Bellhart- Outer Sign |  | None |  | Verified | lore | ✓ |  |
 
 <a name="room-bellhart--bellhart-lower"></a>
@@ -8271,29 +8349,29 @@ No subroom connections defined.
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | PL | Platforms Upper | Top Exit | Hermit | None |  | Verified | ✓ |  |
-| PL | Platforms Upper | Hermit | Top Exit | Clawline OR Ledge Grab OR easy Shaman Crest pogo OR ( Dash AND Scuttlebrace ) OR Faydown Cloak OR Silk Soar OR  Cling Grip |  | Verified | ✓ |  |
-| UP | Upper Hall | Hermit | Upper Hall | Cling Grip OR Silk Soar OR ( Scuttlebrace AND Dash ) |  | Verified | ✓ |  |
+| PL | Platforms Upper | Hermit | Top Exit | Cling Grip Right OR ( Ledge Grab Right AND Ledge Grab Left ) OR Faydown Cloak OR Silk Soar |  | Verified | ✓ |  |
+| UP | Upper Hall | Hermit | Upper Hall | Cling Grip Right OR Cling Grip Left OR Scuttlebrace OR Silk Soar |  | Verified | ✓ |  |
 | UP | Upper Hall | Upper Hall | Hermit | None |  | Verified | ✓ |  |
 | TL | Tall Passage Left | Upper Hall | Under Hermit Hall | None |  | Verified | ✓ |  |
-| TL | Tall Passage Left | Under Hermit Hall | Upper Hall | Cling Grip OR ( Scuttlebrace AND Dash ) |  | Verified | ✓ |  |
+| TL | Tall Passage Left | Under Hermit Hall | Upper Hall | Cling Grip Left OR Scuttlebrace OR ( Cling Grip Right AND Faydown Cloak ) |  | Verified | ✓ |  |
 | HH | Hermit Hole | Hermit | Under Hermit Hall | prereq Hermit hole breakable wall |  | Verified | ✓ |  |
-| HH | Hermit Hole | Under Hermit Hall | Hermit | prereq Hermit hole breakable wall  AND ( Cling Grip OR Silk Soar OR Scuttlebrace ) |  | Verified | ✓ |  |
+| HH | Hermit Hole | Under Hermit Hall | Hermit | prereq Hermit hole breakable wall  AND ( Cling Grip Right OR Silk Soar OR Scuttlebrace OR ( Cling Grip Left AND Faydown Cloak ) ) |  | Verified | ✓ |  |
 | TR | Tall Passage Right | Under Hermit Hall | Rosary Room | None |  | Verified | ✓ |  |
-| TR | Tall Passage Right | Rosary Room | Under Hermit Hall | Cling Grip OR ( Scuttlebrace AND Dash ) |  | Verified | ✓ |  |
+| TR | Tall Passage Right | Rosary Room | Under Hermit Hall | Cling Grip Right OR Cling Grip Left OR Scuttlebrace |  | Verified | ✓ |  |
 | WS | Wide Shaft | Rosary Room | Passage below rosary | None |  | Verified | ✓ |  |
-| WS | Wide Shaft | Passage below rosary | Rosary Room | Cling Grip OR Silk Soar OR ( Scuttlebrace AND Dash ) |  | Verified | ✓ |  |
-| RS | Shaft near Rosary Cache | Passage below rosary | Breakable Wall Passage | Cling Grip OR Silk Soar OR ( Scuttlebrace AND Dash ) |  | Verified | ✓ |  |
+| WS | Wide Shaft | Passage below rosary | Rosary Room | Cling Grip Right OR Cling Grip Left OR Scuttlebrace OR Silk Soar |  | Verified | ✓ |  |
+| RS | Shaft near Rosary Cache | Passage below rosary | Breakable Wall Passage | Cling Grip Right OR Cling Grip Left OR Scuttlebrace OR Silk Soar |  | Verified | ✓ |  |
 | RS | Shaft near Rosary Cache | Breakable Wall Passage | Passage below rosary | None |  | Verified | ✓ |  |
-| BW | Broken Floor Shaft | Breakable Wall Passage | Under Hermit Hall | prereq Breakable Wall Passage Breakable Wall AND ( Cling Grip OR Scuttlebrace ) |  | Verified | ✓ |  |
+| BW | Broken Floor Shaft | Breakable Wall Passage | Under Hermit Hall | prereq Breakable Wall Passage Breakable Wall AND ( Cling Grip left OR Cling Grip Right OR Scuttlebrace ) |  | Verified | ✓ |  |
 | BW | Broken Floor Shaft | Under Hermit Hall | Breakable Wall Passage | prereq Breakable Wall Passage Breakable Wall |  | Verified | ✓ |  |
 | BL | Tall Passage Bottom Left | Breakable Wall Passage | Lower Passage 1 | None |  | Verified | ✓ |  |
-| BL | Tall Passage Bottom Left | Lower Passage 1 | Breakable Wall Passage | Cling Grip OR ( Scuttlebrace AND Dash ) |  | Verified | ✓ |  |
+| BL | Tall Passage Bottom Left | Lower Passage 1 | Breakable Wall Passage | Cling Grip Left OR Scuttlebrace OR ( Faydown Cloak AND Cling Grip Right ) |  | Verified | ✓ |  |
 | LV | Lower Passages Shaft | Lower Passage 1 | Lower Passage 2 | None |  | Verified | ✓ |  |
-| LV | Lower Passages Shaft | Lower Passage 2 | Lower Passage 1 | Cling Grip OR ( Scuttlebrace AND Dash ) |  | Verified | ✓ |  |
-| WP | Wide Platform Shaft | Lower Passage 2 | Passage below rosary | prereq Lower Passage 2 Breakable Wall AND ( Cling Grip OR Silk Soar OR ( Dash AND Scuttlebrace AND ( Ledge Grab OR Clawline OR Faydown Cloak OR Sharpdart OR easy Beast Crest pogo ) ) ) |  | Verified | ✓ |  |
-| WP | Wide Platform Shaft | Passage below rosary | Lower Passage 2 | prereq Lower Passage 2 Breakable Wall AND ( Dash OR Sprint OR Ledge grab OR Clawline OR Drifters Cloak OR Faydown Cloak OR Cling grip OR easy Shaman Crest pogo OR easy Architect Crest pogo OR easy Beast Crest pogo ) |  | Verified | ✓ |  |
+| LV | Lower Passages Shaft | Lower Passage 2 | Lower Passage 1 | Cling Grip Right OR Cling Grip Left OR Scuttlebrace |  | Verified | ✓ |  |
+| WP | Wide Platform Shaft | Lower Passage 2 | Passage below rosary | prereq Lower Passage 2 Breakable Wall AND ( Cling Grip Right OR Silk Soar OR Scuttlebrace OR ( Cling Grip Left AND Faydown Cloak ) ) |  | Verified | ✓ |  |
+| WP | Wide Platform Shaft | Passage below rosary | Lower Passage 2 | prereq Lower Passage 2 Breakable Wall AND ( Dash Left OR Sprint Left OR Ledge grab Left OR Clawline Left OR Drifters Cloak OR Faydown Cloak OR Cling grip Left OR easy Shaman Crest pogo OR easy Architect Crest pogo OR easy Beast Crest pogo ) |  | Verified | ✓ |  |
 | ES | Exit Shaft | Lower Passage 2 | Bottom Exit | prereq Lower Passage 2 Breakable  Wall To Exit |  | Verified | ✓ |  |
-| ES | Exit Shaft | Bottom Exit | Lower Passage 2 | prereq Lower Passage 2 Breakable  Wall To Exit AND ( Cling Grip OR Silk Soar ( Dash AND Scuttlebrace AND Faydown Cloak ) ) |  | Verified | ✓ |  |
+| ES | Exit Shaft | Bottom Exit | Lower Passage 2 | prereq Lower Passage 2 Breakable  Wall To Exit AND ( Cling Grip Right OR Cling Grip Left OR ( Scuttlebrace AND ( Medium Shaman Pogo OR Faydown Cloak ) ) OR Silk Soar ) |  | Verified | ✓ |  |
 
 #### Check Locations
 
@@ -8316,7 +8394,12 @@ No subroom connections defined.
 | 15 | Lower Passage 2 Breakable  Wall To Exit | Lower Passage 2 | None |  | Verified | blockade | ✓ |  |
 | 16 | Wish: Silver Bells Started | Top Exit | None |  | Verified | event |  |  |
 | 17 | Wish: Silk And Soul Started | Top Exit | None |  | Verified | event |  |  |
-| 18 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 18 | Winged Furm 1 | Rosary Room | None |  | Verified | enemy | ✓ |  |
+| 19 | Winged Furm 2 | Under Hermit Hall | None |  | Verified | enemy | ✓ |  |
+| 20 | Furm 1 | Lower Passage 1 | None |  | Verified | enemy | ✓ | Can randomly spawn near player in most sub rooms including the 4 mentioned here |
+| 21 | Furm 2 | Lower Passage 2 | None |  | Verified | enemy | ✓ | Can randomly spawn near player in most sub rooms including the 4 mentioned here |
+| 22 | Furm 3 | Passage below rosary | None |  | Verified | enemy | ✓ | Can randomly spawn near player in most sub rooms including the 4 mentioned here |
+| 23 | Furm 4 | Upper Hall | None |  | Verified | enemy | ✓ | Can randomly spawn near player in most sub rooms including the 4 mentioned here |
 
 <a name="room-bellhart--bellhart-pinsmith"></a>
 
@@ -8351,7 +8434,6 @@ No subroom connections defined.
 | 3 | Progressive Needle Upgrade 3 |  | get 2 pale oils |  | Verified | collectible |  | cumulative requirement |
 | 4 | Progressive Needle Upgrade 4 |  | get 3 pale oils |  | Verified | collectible |  | cumulative requirement |
 | 5 | Pinmaster's Oil Wish Granted |  | complete THE Pinmaster's Oil Wish Promised AND get 1 pale oils |  | Verified | event |  | can be missed, but counts towards silk and soul regardless of completion after second needle upgrade |
-| 6 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-bellhart--bellhart-relic-shop"></a>
 
@@ -8396,7 +8478,6 @@ No subroom connections defined.
 | 13 | Hand in Rune Harp Weavenest Cindril |  | have Relic Rune Harp Weavenest Cindril |  | Verified | event |  |  |
 | 14 | Hand in Rune Harp High Halls |  | have Relic Rune Harp High Halls |  | Verified | event |  |  |
 | 15 | Hand in Arcane Egg |  | have Relic Arcane Egg |  | Verified | event |  |  |
-| 16 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 #### Notes
 
@@ -8425,7 +8506,7 @@ Relic slots are numbered for convenience but not for required reasons.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | UL | left3 | Upper Level | [Widow Boss Fight (Belltown_Shrine)](#room-bellhart--widow-boss-fight) | R | None |  | Verified | ✓ |  |
 | LL | left1 | Lower Level | [Belltown (Belltown)](#room-bellhart--belltown) | R | None |  | Verified | ✓ |  |
-| R | right1 | Lower Level | [Greymoor Entry to Bellhart (Greymoor_08)](#room-greymoor--greymoor-entry-to-bellhart) | L | None |  | Verified | ✓ | Update once skai sends in the left greymoor export only here so moriko doesnt crucify me |
+| R | right1 | Lower Level | [Greymoor Entry to Bellhart (Greymoor_08)](#room-greymoor--greymoor-entry-to-bellhart) | L | None |  | Verified | ✓ |  |
 
 #### Subroom Connections
 
@@ -8438,8 +8519,7 @@ Relic slots are numbered for convenience but not for required reasons.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Lore: Bellhart #1 | Lower Level | none |  | Verified | lore |  |  |
-| 2 | Bellhart Elevator | Upper Level | None |  | Verified | switch |  |  |
+| 1 | Bellhart Elevator | Upper Level | None |  | Verified | switch | ✓ |  |
 
 <a name="room-bellhart--belltown"></a>
 
@@ -8462,13 +8542,13 @@ Relic slots are numbered for convenience but not for required reasons.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| RD | door4 | Upper Area | [Bellhart Relic Shop (Belltown_Room_Relic)](#room-bellhart--bellhart-relic-shop) | L | defeat THE boss widow |  | Verified | ✓ |  |
+| RD | door4 | Upper Area | [Bellhart Relic Shop (Belltown_Room_Relic)](#room-bellhart--bellhart-relic-shop) | L | defeat THE Boss Widow |  | Verified | ✓ |  |
 | HD | door5 | Upper Area | [Bellhome (Belltown_room_spare)](#room-bellhart--bellhome) | L | none |  | Verified | ✓ | the randomizer makes this always accessible |
-| ND | door3 | Upper Area | [Bellhart Pinsmith (Belltown_Room_pinsmith)](#room-bellhart--bellhart-pinsmith) | L | defeat THE boss widow |  | Verified | ✓ |  |
+| ND | door3 | Upper Area | [Bellhart Pinsmith (Belltown_Room_pinsmith)](#room-bellhart--bellhart-pinsmith) | L | defeat THE Boss Widow |  | Verified | ✓ |  |
 | L | left3 | Lower Area | [Bellhart Hallway to Shellwood (Belltown_07)](#room-bellhart--bellhart-hallway-to-shellwood) | R | None |  | Verified | ✓ |  |
 | R | right2 | Lower Area | [Bellhart Right Entrance (Belltown_06)](#room-bellhart--bellhart-right-entrance) | LL | None |  | Verified | ✓ |  |
 | BD | door1 | Lower Area | [Bellhart Bellway (Belltown_basement)](#room-bellhart--bellhart-bellway) | L | None |  | Verified | ✓ |  |
-| WW | wish wall | Lower Area | [Bellhart Wish Wall](#room-wish-menus--bellhart-wish-wall) | BH | defeat THE boss widow |  | Verified | ✓ |  |
+| WW | wish wall | Lower Area | [Bellhart Wish Wall](#room-wish-menus--bellhart-wish-wall) | BH | defeat THE Boss Widow |  | Verified | ✓ |  |
 | DW | delivery wishes | Upper Area | [Bellhart Deliveries](#room-wish-menus--bellhart-deliveries) | BH | complete THE my missing brother wish granted |  | Verified | ✓ |  |
 
 #### Subroom Connections
@@ -8531,15 +8611,15 @@ Relic slots are numbered for convenience but not for required reasons.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| TS1 | Tall Shaft1 | Lower Exits | Lower Big Room | ( Ledge Grab OR Clawline OR Faydown Cloak OR ( Dash AND Scuttlebrace ) OR Cling Grip ) |  | Verified | ✓ |  |
-| TS1 | Tall Shaft1 | Lower Big Room | Lower Exits | ( Ledge Grab OR Clawline OR Faydown Cloak OR ( Dash AND Scuttlebrace ) OR Cling grip ) |  | Verified | ✓ |  |
-| TS2 | Tall Shaft2 | Lower Exits | Silver Bell Cubby | ( Cling Grip OR ( Dash AND Scuttlebrace ) ) |  | Verified | ✓ |  |
+| TS1 | Tall Shaft1 | Lower Exits | Lower Big Room | Ledge Grab Right OR Faydown Cloak OR Scuttlebrace OR Cling Grip Left OR Cling Grip Right OR Silk Soar |  | Verified | ✓ |  |
+| TS1 | Tall Shaft1 | Lower Big Room | Lower Exits | Ledge Grab Left OR Faydown Cloak OR Scuttlebrace OR Cling grip Left OR Cling Grip Right |  | Verified | ✓ |  |
+| TS2 | Tall Shaft2 | Lower Exits | Silver Bell Cubby | Cling Grip Left OR Cling Grip Right OR Scuttlebrace |  | Verified | ✓ |  |
 | TS2 | Tall Shaft2 | Silver Bell Cubby | Lower Exits | None |  | Verified | ✓ |  |
-| TS3 | Tall Shaft3 | Lower Big Room | Silver Bell Cubby | Cling Grip OR Scuttlebrace |  | Verified | ✓ |  |
+| TS3 | Tall Shaft3 | Lower Big Room | Silver Bell Cubby | Cling Grip left OR Cling Grip Right OR Scuttlebrace |  | Verified | ✓ |  |
 | TS3 | Tall Shaft3 | Silver Bell Cubby | Lower Big Room | None |  | Verified | ✓ |  |
-| TS4 | Tall Shaft4 | Silver Bell Cubby | Central Passage | Cling Grip OR ( Dash AND Scuttlebrace ) |  | Verified | ✓ |  |
+| TS4 | Tall Shaft4 | Silver Bell Cubby | Central Passage | Cling Grip Left OR Cling Grip Right OR Scuttlebrace |  | Verified | ✓ |  |
 | TS4 | Tall Shaft4 | Central Passage | Silver Bell Cubby | None |  | Verified | ✓ |  |
-| US | Upper Shafts | Central Passage | Upper Big room | ( Cling Grip OR ( Dash AND Scuttlebrace ) ) |  | Verified | ✓ |  |
+| US | Upper Shafts | Central Passage | Upper Big room | Cling Grip Right OR Cling Grip Left OR Scuttlebrace |  | Verified | ✓ |  |
 | US | Upper Shafts | Upper Big room | Central Passage | None |  | Verified | ✓ |  |
 | BLB | Break Lower Blockade | Lower Exits | Unsafe Lower Left Landing | clear Lower Left Bell Blockade |  | Verified | ✓ |  |
 | BLB | Break Lower Blockade | Unsafe Lower Left Landing | Lower Exits | clear Lower Left Bell Blockade |  | Verified | ✓ |  |
@@ -8549,22 +8629,22 @@ Relic slots are numbered for convenience but not for required reasons.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Silver Bell Spawn Location #1 | Lower Big Room | None |  | Verified | collectible | ✓ |  |
-| 2 | Silver Bell Spawn Location #2 | Lower Big Room | Cling Grip OR Silk Soar OR ( Dash AND Scuttlebrace ) |  | Verified | collectible | ✓ |  |
-| 3 | Rosary Cache: Bellhart #1 | Lower Big Room | Cling Grip OR Silk Soar OR ( Dash AND Scuttlebrace ) |  | Verified | collectible | ✓ |  |
-| 4 | Rosary Cache: Bellhart #2 | Lower Big Room | Cling Grip OR Silk Soar OR ( Dash AND Scuttlebrace ) |  | Verified | collectible | ✓ |  |
+| 2 | Silver Bell Spawn Location #2 | Lower Big Room | Cling Grip Right OR Cling Grip Left OR Scuttlebrace OR Silk Soar |  | Verified | collectible | ✓ |  |
+| 3 | Rosary Cache: Bellhart #1 | Lower Big Room | Cling Grip Right OR Cling Grip Left OR Scuttlebrace OR Silk Soar |  | Verified | collectible | ✓ |  |
+| 4 | Rosary Cache: Bellhart #2 | Lower Big Room | Cling Grip Right OR Cling Grip Left OR Scuttlebrace OR Silk Soar |  | Verified | collectible | ✓ |  |
 | 5 | Silver Bell Spawn Location #3 | Silver Bell Cubby | None |  | Verified | collectible | ✓ |  |
 | 6 | Silver Bell Spawn Location #4 | Central Passage | None |  | Verified | collectible | ✓ |  |
 | 7 | Rosary Cache: Bellhart #3 | Central Passage | None |  | Verified | collectible | ✓ |  |
 | 8 | Silver Bell Spawn Location #5 | Upper Big room | None |  | Verified | collectible | ✓ |  |
-| 9 | Flea: Bellhart | Upper Big room | Silk Soar OR Cling Grip OR ( Dash AND Scuttlebrace ) OR ( Easy enemy pogo AND ( Faydown Cloak OR Drifters Cloak ) ) |  | Verified | collectible | ✓ |  |
-| 10 | Lower Left Bell Blockade | Lower Exits | Break Wall Left |  | Verified | blockade | ✓ | can also be broken from the right while falling into the void - hero, 9/30 |
-| 11 | Winged Furm 1 |  |  |  |  | enemy | ✓ |  |
-| 12 | Winged Furm 2 |  |  |  |  | enemy | ✓ |  |
-| 13 | Winged Furm 3 |  |  |  |  | enemy | ✓ |  |
-| 14 | Furm 1 |  |  |  |  | enemy | ✓ |  |
-| 15 | Furm 2 |  |  |  |  | enemy | ✓ |  |
-| 16 | Furm 3 |  |  |  |  | enemy | ✓ |  |
-| 17 | Furm 4 |  |  |  |  | enemy | ✓ |  |
+| 9 | Flea: Bellhart | Upper Big room | Cling Grip Right OR Cling Grip Left OR Scuttlebrace OR Silk Soar OR ( Easy pogo off winged furm AND ( Faydown Cloak OR Drifters Cloak ) ) |  | Verified | collectible | ✓ |  |
+| 10 | Lower Left Bell Blockade | Lower Exits | Break Wall Left |  | Verified | blockade | ✓ | can also be broken from the right while falling into the void - hero, 9/30  What does falling into the void even imply - pyxl, 18/10 |
+| 11 | Winged Furm 1 | Silver Bell Cubby | None |  | Verified | enemy | ✓ |  |
+| 12 | Winged Furm 2 | Upper Big room | None |  | Verified | enemy | ✓ |  |
+| 13 | Winged Furm 3 | Lower Big Room | None |  | Verified | enemy | ✓ |  |
+| 14 | Furm 1 | Upper Big room | None |  | Verified | enemy | ✓ |  |
+| 15 | Furm 2 | Lower Big Room | None |  | Verified | enemy | ✓ |  |
+| 16 | Furm 3 | Lower Big Room | None |  | Verified | enemy | ✓ |  |
+| 17 | Furm 4 | Upper Big room | None |  | Verified | enemy | ✓ |  |
 
 <a name="room-bellhart--widow-boss-fight"></a>
 
@@ -8591,13 +8671,13 @@ Relic slots are numbered for convenience but not for required reasons.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | R | right1 | Arena Right | [Bellhart Right Entrance (Belltown_06)](#room-bellhart--bellhart-right-entrance) | UL | None |  | Verified | ✓ |  |
-| C | top1 | Upper | [Upper Bellhart (Belltown_04)](#room-bellhart--upper-bellhart) | F | Silk Soar OR Cling Grip OR ( Dash AND Scuttlebrace ) OR ( Easy Heal Stall AND ( Faydown Cloak OR Drifters Cloak ) ) |  | Verified | ✓ |  |
+| C | top1 | Upper | [Upper Bellhart (Belltown_04)](#room-bellhart--upper-bellhart) | F | Silk Soar OR Cling Grip Right OR Cling Grip Left OR Scuttlebrace OR ( Easy Heal Stall AND ( Faydown Cloak OR Drifters Cloak ) ) |  | Verified | ✓ |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| RH | Roof Hole | Arena | Upper | Silk Soar OR ( Cling Grip AND Faydown Cloak AND ( Clawline OR Sharpdart ) ) |  | Verified | ✓ |  |
+| RH | Roof Hole | Arena | Upper | Silk Soar OR ( Cling Grip Left AND Faydown Cloak AND ( Clawline Left  OR Sharpdart ) ) OR ( Cling Grip Right AND Faydown Cloak AND ( Clawline Right  OR Sharpdart ) ) |  | Verified | ✓ |  |
 | RH | Roof Hole | Upper | Arena | None |  | Verified | ✓ |  |
 | AR | Exit Arena Right | Arena | Arena Right | Activate Bellshrine Lever |  | Verified | ✓ |  |
 | AR | Exit Arena Right | Arena Right | Arena | Activate Bellshrine Lever |  | Verified | ✓ |  |
@@ -8612,13 +8692,12 @@ Relic slots are numbered for convenience but not for required reasons.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Boss: Widow | Arena | None |  | Verified | boss | ✓ |  |
-| 2 | Bell: Bellhart | Arena | Activate Bellshrine Lever |  | Verified | collectible | ✓ |  |
-| 3 | Needolin | Arena | Defeat Boss Widow |  | Verified | collectible | ✓ |  |
-| 4 | Bellshrine Lever | Arena | Defeat Boss Widow |  | Verified | switch | ✓ |  |
-| 5 | Bench | Arena | Activate Bellshrine Lever |  | Verified | bench | ✓ |  |
-| 6 | Trapdoor Lever | Trapdoor Switch Ledge | Flip Switch Down |  | Verified | switch | ✓ |  |
-| 7 | Spinner Boss 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 1 | Bell: Bellhart | Arena | Activate Bellshrine Lever |  | Verified | collectible | ✓ |  |
+| 2 | Needolin | Arena | Defeat Boss Widow |  | Verified | collectible | ✓ |  |
+| 3 | Bellshrine Lever | Arena | Defeat Boss Widow |  | Verified | switch | ✓ |  |
+| 4 | Bench | Arena | Activate Bellshrine Lever |  | Verified | bench | ✓ |  |
+| 5 | Trapdoor Lever | Trapdoor Switch Ledge | Flip Switch Down |  | Verified | switch | ✓ |  |
+| 6 | Boss Widow | Arena | Normal World Spawn |  | Verified | boss | ✓ |  |
 
 <a name="room-bellhart--bellhome"></a>
 
@@ -8650,7 +8729,6 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | bench |  | none |  | Verified | bench |  |  |
 | 2 | act toggle |  | act 3 |  | Verified | bench |  | probably need to flag this as requiring act 3 |
-| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Greymoor
 
@@ -12311,7 +12389,7 @@ No subroom connections defined.
 
 **Game ID:** Song_19_entrance
 
-**Contributors:** samupo
+**Contributors:** samupo, heric
 
 #### Subrooms
 
@@ -12332,17 +12410,17 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| BG | big gap | lower section | upper section | silk soar OR faydown cloak OR (ledge grab AND (progressive swift step 1 OR clawline OR sharpdart OR flea brew OR easy hunter pogo OR easy architect pogo OR drifters cloak)) |  | Verified | ✓ |  |
+| BG | big gap | lower section | upper section | silk soar OR faydown cloak OR ((ledge grab OR cling grip) AND (progressive swift step 1 OR clawline OR sharpdart OR flea brew OR easy hunter pogo OR easy architect pogo OR easy beast pogo OR easy architect needle strike OR easy witch needle strike OR drifters cloak)) OR (ledge grab AND medium Hunter pogo) |  | Verified | ✓ |  |
 | BG | big gap | upper section | lower section | nothing |  | Verified | ✓ |  |
 
 #### Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Spool Fragment: Grand Gate | upper section | silk soar OR ((cling grip OR scuttlebrace) AND (faydown cloak OR ledge grab)) |  | Verified | collectible | ✓ |  |
+| 1 | Spool Fragment: Grand Gate | upper section | silk soar OR ((cling grip OR scuttlebrace) AND (faydown cloak OR ledge grab)) OR (cling grip AND proficient movement) |  | Verified | collectible | ✓ |  |
 | 2 | Map Purchase: Grand Gate | lower section | None |  | Verified | collectible | ✓ |  |
 | 3 | metal bars | upper section | break wall right OR break wall up OR clear metal wall IN grand gate maintenance room |  | Verified | blockade | ✓ |  |
-| 4 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 4 | import enemies |  |  | TODO | Needs verification |  |  | i dont think there is any until act 3 |
 
 #### Notes
 

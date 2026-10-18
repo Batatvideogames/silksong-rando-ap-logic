@@ -26,57 +26,57 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LA | Lake | Ground Level Left | Ground Level Right | ( Dash AND ( Sprint OR Drifters Cloak ) ) OR Clawline OR Sharpdart OR Swim OR ( Faydown Cloak AND Drifters Cloak ) |  | Verified |  |  |
-| LA | Lake | Ground Level Right | Ground Level Left | ( Dash AND ( Sprint OR Drifters Cloak ) ) OR Clawline OR Sharpdart OR Swim OR ( Faydown Cloak AND Drifters Cloak ) |  | Verified |  |  |
-| C1 | Chasm 1 | Ground Level Left | Central Platforms | ( Ledge Grab AND ( Dash OR Drifters Cloak OR Easy Beast Crest pogo ) ) OR Clawline OR Cling Grip OR Silk Soar OR Sharpdart OR Faydown Cloak |  | Verified |  |  |
-| C1 | Chasm 1 | Central Platforms | Ground Level Left | None |  | Verified |  |  |
-| C2 | Chasm 2 | Central Platforms | Right Platforms | Ledge Grab OR Faydown Cloak OR Silk Soar OR Cling grip OR Dash OR Scuttlebrace OR Clawline  OR Sprint |  | Verified |  |  |
-| C2 | Chasm 2 | Right Platforms | Central Platforms | None |  | Verified |  |  |
-| C3 | Chasm 3 | Right Platforms | Ground Level Right | None |  | Verified |  |  |
-| C3 | Chasm 3 | Ground Level Right | Right Platforms | Silk Soar OR ( Cling Grip AND Faydown Cloak  AND ( Swim OR ( Easy Enemy Pogo AND ( Sprint OR Dash ) ) OR Drifters Cloak OR Clawline OR Sharpdart ) ) |  | Verified |  |  |
+| LA | Lake | Ground Level Left | Ground Level Right | ( Dash Right AND ( Sprint Right OR Drifters Cloak ) ) OR Clawline Right OR Sharpdart OR Swim OR ( Faydown Cloak AND Drifters Cloak ) |  | Verified | ✓ |  |
+| LA | Lake | Ground Level Right | Ground Level Left | ( Dash Left AND ( Sprint Left OR Drifters Cloak ) ) OR Clawline Left OR Sharpdart OR Swim OR ( Faydown Cloak AND Drifters Cloak ) |  | Verified | ✓ |  |
+| C1 | Chasm 1 | Ground Level Left | Central Platforms | ( Ledge Grab Right AND Ledge Grab left AND ( Dash Right OR Drifters Cloak OR Easy Beast Crest pogo ) ) OR Clawline Right OR ( Cling Grip Right AND Cling Grip Left ) OR Silk Soar OR Sharpdart OR Faydown Cloak |  | Verified | ✓ |  |
+| C1 | Chasm 1 | Central Platforms | Ground Level Left | None |  | Verified | ✓ |  |
+| C2 | Chasm 2 | Central Platforms | Right Platforms | Ledge Grab OR Faydown Cloak OR Silk Soar OR Cling grip OR Dash OR Scuttlebrace OR Clawline  OR Sprint |  | Verified | ✓ |  |
+| C2 | Chasm 2 | Right Platforms | Central Platforms | None |  | Verified | ✓ |  |
+| C3 | Chasm 3 | Right Platforms | Ground Level Right | None |  | Verified | ✓ |  |
+| C3 | Chasm 3 | Ground Level Right | Right Platforms | Silk Soar OR ( Cling Grip Right AND Faydown Cloak  AND ( Swim OR ( Easy Enemy Pogo AND ( Sprint Left OR Dash Left ) ) OR Drifters Cloak OR Clawline Left OR Sharpdart ) ) |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Shellwood - Frayed Rosary String | Central Platforms | None |  | Verified | collectible | ✓ |  |
-| 2 | Pollip Heart #1 | Right Platforms | Cling Grip OR Silk Soar OR Scuttlebrace |  | Verified | collectible | ✓ |  |
-| 3 | Shell shard Cache: Shellwood #4 | Right Platforms | None |  | Verified | resource | ✓ |  |
-| 4 | Shell shard Cache: Shellwood #5 | Right Platforms | None |  | Verified | resource | ✓ |  |
-| 5 | Shell shard Cache: Shellwood #6 | Right Platforms | None |  | Verified | resource | ✓ |  |
+| 2 | Pollip Heart Right Side Big Room | Right Platforms | Cling Grip Right OR Silk Soar OR Scuttlebrace OR ( Medium enemy pogo AND medium pogo off shellwood gnat ) |  | Verified | collectible | ✓ |  |
+| 3 | Shell shard Cache: Outside Longpin 1 | Right Platforms | None |  | Verified | resource | ✓ |  |
+| 4 | Shell shard Cache: Outside Longpin 2 | Right Platforms | None |  | Verified | resource | ✓ |  |
+| 5 | Shell shard Cache: Outside Longpin 3 | Right Platforms | None |  | Verified | resource | ✓ |  |
 | 6 | Longpin Nest | Right Platforms | None |  | Verified | blockade |  |  |
-| 7 | Control 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 8 | Wood Wasp 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 9 | Wood Wasp 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 10 | Wood Wasp 3 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 11 | Shellwood Goomba Flyer (2) 1 |  |  |  |  | enemy | ✓ |  |
-| 12 | Shellwood Goomba Flyer (1) 1 |  |  |  |  | enemy | ✓ |  |
-| 13 | Shellwood Goomba 1 |  |  |  |  | enemy | ✓ |  |
-| 14 | Pond Skipper 1 |  |  |  |  | enemy | ✓ |  |
-| 15 | Pond Skipper 2 |  |  |  |  | enemy | ✓ |  |
-| 16 | Shellwood Goomba (2) 1 |  |  |  |  | enemy | ✓ |  |
-| 17 | Pond Skipper 3 |  |  |  |  | enemy | ✓ |  |
-| 18 | Wood Wasp 4 |  |  |  |  | enemy | ✓ |  |
-| 19 | Wood Wasp 5 |  |  |  |  | enemy | ✓ |  |
-| 20 | Shellwood Goomba Flyer 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 21 | Pondcatcher 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 22 | Shellwood Goomba (6) 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 23 | Pondcatcher 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
-| 24 | Pilgrim Hornfly 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
-| 25 | Elder Pilgrim 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
-| 26 | Pondcatcher 3 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
-| 27 | Shellwood Goomba Flyer (4) 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
-| 28 | Shellwood Gnat 1 |  |  |  |  | enemy | ✓ |  |
-| 29 | Shellwood Gnat 2 |  |  |  |  | enemy | ✓ |  |
-| 30 | Shellwood Gnat 3 |  |  |  |  | enemy | ✓ |  |
-| 31 | Shellwood Gnat 4 |  |  |  |  | enemy | ✓ |  |
-| 32 | Shellwood Gnat 5 |  |  |  |  | enemy | ✓ |  |
-| 33 | Shellwood Gnat 6 |  |  |  |  | enemy | ✓ |  |
-| 34 | Shellwood Gnat 7 |  |  |  |  | enemy | ✓ |  |
-| 35 | Wood Wasp 6 |  |  |  |  | enemy | ✓ |  |
-| 36 | Wood Wasp 7 |  |  |  |  | enemy | ✓ |  |
-| 37 | Shellwood Gnat 8 |  |  |  |  | enemy | ✓ |  |
-| 38 | Shellwood Gnat 9 |  |  |  |  | enemy | ✓ |  |
+| 7 | Control 1 | Right Platforms | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 8 | Wood Wasp 1 | Right Platforms | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 9 | Wood Wasp 2 | Right Platforms | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 10 | Wood Wasp 3 | Right Platforms | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 11 | Shellwood Goomba Flyer (2) 1 | Central Platforms | None |  | Verified | enemy | ✓ |  |
+| 12 | Shellwood Goomba Flyer (1) 1 | Central Platforms | None |  | Verified | enemy | ✓ |  |
+| 13 | Shellwood Goomba 1 | Ground Level Left | None |  | Verified | enemy | ✓ |  |
+| 14 | Pond Skipper 1 | Ground Level Left | None |  | Verified | enemy | ✓ |  |
+| 15 | Pond Skipper 2 | Ground Level Left | None |  | Verified | enemy | ✓ |  |
+| 16 | Shellwood Goomba (2) 1 | Ground Level Left | None |  | Verified | enemy | ✓ |  |
+| 17 | Pond Skipper 3 | Ground Level Left | None |  | Verified | enemy | ✓ |  |
+| 18 | Wood Wasp 4 | Right Platforms | None |  | Verified | enemy | ✓ |  |
+| 19 | Wood Wasp 5 | Right Platforms | None |  | Verified | enemy | ✓ |  |
+| 20 | Shellwood Goomba Flyer 1 | Right Platforms | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 21 | Pondcatcher 1 | Ground Level Left | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 22 | Shellwood Goomba (6) 1 | Right Platforms | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 23 | Pondcatcher 2 | Ground Level Right | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 24 | Pilgrim Hornfly 1 | Ground Level Right | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 25 | Elder Pilgrim 1 | Ground Level Right | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 26 | Pondcatcher 3 | Ground Level Right | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 27 | Shellwood Goomba Flyer (4) 1 | Right Platforms | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 28 | Shellwood Gnat 1 | Ground Level Left | Prereq shellwood goomba flyer 1 |  | Verified | enemy | ✓ |  |
+| 29 | Shellwood Gnat 2 | Ground Level Left | Prereq shellwood goomba flyer 1 |  | Verified | enemy | ✓ |  |
+| 30 | Shellwood Gnat 3 | Ground Level Left | Prereq shellwood goomba flyer 1 |  | Verified | enemy | ✓ |  |
+| 31 | Shellwood Gnat 4 | Ground Level Left | Prereq shellwood goomba flyer 1 |  | Verified | enemy | ✓ |  |
+| 32 | Shellwood Gnat 5 | Ground Level Left | Prereq shellwood goomba flyer 1 |  | Verified | enemy | ✓ |  |
+| 33 | Shellwood Gnat 6 | Ground Level Left | Prereq shellwood goomba flyer 1 |  | Verified | enemy | ✓ |  |
+| 34 | Shellwood Gnat 7 | Ground Level Left | Prereq shellwood goomba flyer 1 |  | Verified | enemy | ✓ |  |
+| 35 | Wood Wasp 6 | Right Platforms | None |  | Verified | enemy | ✓ |  |
+| 36 | Wood Wasp 7 | Right Platforms | None |  | Verified | enemy | ✓ |  |
+| 37 | Shellwood Gnat 8 | Ground Level Left | Prereq shellwood goomba flyer 1 |  | Verified | enemy | ✓ |  |
+| 38 | Shellwood Gnat 9 | Ground Level Left | Prereq shellwood goomba flyer 1 |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

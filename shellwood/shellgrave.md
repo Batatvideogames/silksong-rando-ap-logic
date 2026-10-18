@@ -23,7 +23,20 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Rosary Cache |  | None |  | Verified | resource | ✓ | Not included no id |
-| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 2 | Save Plinney |  | ACT 3 |  | Verified | event | ✓ | Plinney comes here upon starting act and starts an encounter |
+| 3 | Pilgrim Bellbearer 1 |  | Prereq save plinney |  | Verified | enemy | ✓ |  |
+| 4 | Pilgrim Guide 1 |  | Prereq save plinney |  | Verified | enemy | ✓ |  |
+| 5 | Covetous Pilgrim 1 |  | Prereq save plinney |  | Verified | enemy | ✓ |  |
+| 6 | Pilgrim Groveller 1 |  | Prereq save plinney |  | Verified | enemy | ✓ |  |
+| 7 | Pilgrim Pouncer 1 |  | Prereq save plinney |  | Verified | enemy | ✓ |  |
+| 8 | Pilgrim Pouncer 2 |  | Prereq save plinney |  | Verified | enemy | ✓ |  |
+| 9 | Pilgrim Bellbearer 2 |  | Prereq save plinney |  | Verified | enemy | ✓ |  |
+| 10 | Pilgrim Hulk 1 |  | Prereq save plinney |  | Verified | enemy | ✓ |  |
+| 11 | Pilgrim Groveller 2 |  | Prereq save plinney |  | Verified | enemy | ✓ |  |
+| 12 | Pilgrim Hulk 2 |  | Prereq save plinney |  | Verified | enemy | ✓ |  |
+| 13 | Pilgrim Guide 2 |  | Prereq save plinney |  | Verified | enemy | ✓ |  |
+| 14 | Pilgrim Hulk 3 |  | Prereq save plinney |  | Verified | enemy | ✓ |  |
+| 15 | Rosary Pilgrim 1 |  | None |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

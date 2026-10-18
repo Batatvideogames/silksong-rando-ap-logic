@@ -23,16 +23,15 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| PU | Puddle | Left Puddle | Right Puddle | Swim OR Dash OR Sprint OR Clawline OR Sharpdart OR Easy Beast Crest pogo OR Drifters Cloak OR Faydown Cloak |  | Verified |  |  |
-| PU | Puddle | Right Puddle | Left Puddle | Swim OR Dash OR Sprint OR Clawline OR Sharpdart OR Easy Beast Crest pogo OR Drifters Cloak OR Faydown Cloak |  | Verified |  |  |
+| PU | Puddle | Left Puddle | Right Puddle | Swim OR Dash Right OR Sprint Right OR Clawline Right OR Sharpdart OR Easy Beast Crest pogo OR Drifters Cloak OR Faydown Cloak |  | Verified | ✓ |  |
+| PU | Puddle | Right Puddle | Left Puddle | Swim OR Dash Left OR Sprint Left OR Clawline Left OR Sharpdart OR Easy Beast Crest pogo OR Drifters Cloak OR Faydown Cloak |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Shellwood Bellway | Right Puddle | Unlock Bellway Rosary Lock |  | Verified | travel |  |  |
-| 2 | Bellway Rosary Lock | Right Puddle | Spend 40 Rosaries |  | Verified | lock |  |  |
-| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 1 | Shellwood Bellway | Right Puddle | Unlock Bellway Rosary Lock |  | Verified | travel | ✓ |  |
+| 2 | Bellway Rosary Lock | Right Puddle | Spend 40 Rosaries |  | Verified | lock | ✓ |  |
 
 ## Room Images
 

@@ -17,7 +17,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | UL | left3 | Upper Level | [Widow Boss Fight (Belltown_Shrine)](widow-boss-fight.md) | R | None |  | Verified | ✓ |  |
 | LL | left1 | Lower Level | [Belltown (Belltown)](belltown.md) | R | None |  | Verified | ✓ |  |
-| R | right1 | Lower Level | [Greymoor Entry to Bellhart (Greymoor_08)](../greymoor/greymoor-entry-to-bellhart.md) | L | None |  | Verified | ✓ | Update once skai sends in the left greymoor export only here so moriko doesnt crucify me |
+| R | right1 | Lower Level | [Greymoor Entry to Bellhart (Greymoor_08)](../greymoor/greymoor-entry-to-bellhart.md) | L | None |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
@@ -30,8 +30,7 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Lore: Bellhart #1 | Lower Level | none |  | Verified | lore |  |  |
-| 2 | Bellhart Elevator | Upper Level | None |  | Verified | switch |  |  |
+| 1 | Bellhart Elevator | Upper Level | None |  | Verified | switch | ✓ |  |
 
 ## Room Images
 
