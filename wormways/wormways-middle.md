@@ -23,7 +23,7 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| RJ | running jump | main tunnel | wormways west scaffold | (ledge grab AND (run OR dash OR faydown cloak OR drifter's cloak OR clawline OR silk soar OR sharpdart OR flea brew)) OR (run OR dash OR faydown cloak OR drifter's cloak OR clawline OR silk soar OR sharpdart OR  (cling grip AND flea brew)) OR (cling grip AND proficient movement AND (architect slash [right] OR easy shaman pogo OR flea brew)) OR easy beast pogo |  | Verified | ✓ |  |
+| RJ | running jump | main tunnel | wormways west scaffold | (ledge grab AND (run OR dash OR faydown cloak OR drifter's cloak OR clawline OR silk soar OR sharpdart OR flea brew)) OR (run OR dash OR faydown cloak OR drifter's cloak OR clawline OR silk soar OR sharpdart OR  (cling grip AND flea brew)) OR (cling grip AND proficient movement AND (architect slash right OR easy shaman pogo OR flea brew)) OR easy beast pogo |  | Verified | ✓ |  |
 | RJ | running jump | wormways west scaffold | main tunnel | none (falling) |  | Verified | ✓ |  |
 
 ## Check Locations

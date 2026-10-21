@@ -30,13 +30,13 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| WA | Wall | Bottom | Pinstress Arena | Silk Soar OR ( Cling Grip AND ( ( Faydown Cloak AND Enemy Pogo AND Spike Pogo ) OR ( Clawline AND Enemy Pogo ) OR ( Hard Reaper crest Pogo AND Dash AND Sprint AND Drifters Cloak AND Hard Flea Brew Stall AND Hard Heal Stall ) ) ) |  | Verified | ✓ |  |
+| WA | Wall | Bottom | Pinstress Arena | Silk Soar OR ( ( Cling Grip Both OR ( Cling Grip Left AND Spike Pogo ) ) AND ( ( Faydown Cloak AND easy pogo off driftlin AND Spike Pogo ) OR ( Clawline Both AND Easy pogo off driftlin ) OR ( Hard Reaper crest Pogo AND Dash Both AND Sprint Both AND Drifters Cloak AND Hard Flea Brew Stall AND Hard Heal Stall ) ) ) |  | Verified | ✓ |  |
 | WA | Wall | Pinstress Arena | Bottom | None |  | Verified | ✓ |  |
-| LS | Lower Slope | Bottom | Shell Shard Slope | Silk SOar OR ( cling Grip AND ( Faydown Cloak OR Clawline OR ( Dash AND Drifters Cloak AND Easy Reaper Crest Pogo ) ) ) |  | Verified | ✓ |  |
+| LS | Lower Slope | Bottom | Shell Shard Slope | Silk SOar OR ( cling Grip Left AND ( Faydown Cloak OR Clawline Left OR ( Dash Both AND Drifters Cloak AND Easy Reaper Crest Pogo ) ) ) |  | Verified | ✓ |  |
 | LS | Lower Slope | Shell Shard Slope | Bottom | None |  | Verified | ✓ |  |
 | US | Upper Slope | Pinstress Arena | Shell Shard Slope | None |  | Verified | ✓ |  |
-| US | Upper Slope | Shell Shard Slope | Pinstress Arena | Faydown Cloak AND Cling Grip AND  Proficient Movement  AND Spike Pogo |  | Verified | ✓ |  |
-| UW | Upper Wall | Pinstress Arena | Top | Silk Soar OR ( Cling Grip AND ( ( Clawline OR Faydown Cloak ) OR ( Dash AND Drifters Cloak AND Sharpdart ) ) ) |  | Verified | ✓ |  |
+| US | Upper Slope | Shell Shard Slope | Pinstress Arena | Faydown Cloak AND Cling Grip Left AND  Proficient Movement  AND Spike Pogo |  | Verified | ✓ |  |
+| UW | Upper Wall | Pinstress Arena | Top | Silk Soar OR ( Cling Grip Both AND ( ( Clawline Both OR Faydown Cloak ) OR ( Dash Both AND Drifters Cloak AND Sharpdart AND Proficient movement ) ) ) |  | Verified | ✓ |  |
 | UW | Upper Wall | Top | Pinstress Arena | None |  | Verified | ✓ |  |
 
 ## Check Locations
@@ -50,13 +50,12 @@
 | 5 | Pinstress Boss Fight | Pinstress Arena | complete Fatal Resolve Wish Promised IN Windy Pinstress Room OR (  complete Fatal Resolve Wish Promised IN Bellhart Wish Wall AND complete Read Pinstress Note IN Windy Pinstress Room ) |  | Verified | boss | ✓ | confirmed that you need to read the note if you start from the wish wall |
 | 6 | Fatal Resolve Wish Granted | Pinstress Arena | defeat Pinstress Boss Fight |  | Verified | event | ✓ |  |
 | 7 | Pin Badge | Pinstress Arena | complete Pinstress Boss Fight |  | Verified | collectible | ✓ |  |
-| 8 | Pinstress Boss 1 |  |  |  |  | enemy | ✓ |  |
-| 9 | Driftlin 1 |  |  |  |  | enemy | ✓ |  |
-| 10 | Driftlin 2 |  |  |  |  | enemy | ✓ |  |
-| 11 | Driftlin 3 |  |  |  |  | enemy | ✓ |  |
-| 12 | Driftlin 4 |  |  |  |  | enemy | ✓ |  |
-| 13 | Driftlin 5 |  |  |  |  | enemy | ✓ |  |
-| 14 | Driftlin 6 |  |  |  |  | enemy | ✓ |  |
+| 8 | Driftlin 1 | Pinstress Arena | None |  | Verified | enemy | ✓ |  |
+| 9 | Driftlin 2 | Pinstress Arena | None |  | Verified | enemy | ✓ |  |
+| 10 | Driftlin 3 | Top | None |  | Verified | enemy | ✓ |  |
+| 11 | Driftlin 4 | Top | None |  | Verified | enemy | ✓ |  |
+| 12 | Driftlin 5 | Pinstress Arena | None |  | Verified | enemy | ✓ |  |
+| 13 | Driftlin 6 | Bottom | None |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

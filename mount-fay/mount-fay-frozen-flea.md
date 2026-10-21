@@ -23,20 +23,20 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| SD | Spike Drop | Upper Left | Right Exit | Clawline AND ( Cling Grip OR ( Faydown Cloak AND Ledge Grab ) ) |  | Verified | ✓ | One Way |
-| FF | Frozen Flea | Right Exit | Frozen Flea | Cling Grip OR Scuttlebrace |  | Verified | ✓ |  |
-| FF | Frozen Flea | Frozen Flea | Right Exit | Cling Grip OR Dash OR Drifters Cloak OR Faydown Cloak OR Clawline OR Sharpdart |  | Verified | ✓ |  |
+| SD | Spike Drop | Upper Left | Right Exit | Clawline Both AND ( Cling Grip Both OR ( Faydown Cloak AND Ledge Grab Right ) ) AND Easy Pogo Off Mnemonid |  | Verified | ✓ | One Way |
+| FF | Frozen Flea | Right Exit | Frozen Flea | Cling Grip Left OR Scuttlebrace |  | Verified | ✓ |  |
+| FF | Frozen Flea | Frozen Flea | Right Exit | Cling Grip Left OR Dash Right OR Drifters Cloak OR Faydown Cloak OR Clawline Right OR Sharpdart |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Flea: Mount Fay | Frozen Flea | None |  | Verified | collectible | ✓ |  |
-| 2 | Mnemonid 1 |  |  |  |  | enemy | ✓ |  |
-| 3 | Mnemonid 2 |  |  |  |  | enemy | ✓ |  |
-| 4 | Mnemonid 3 |  |  |  |  | enemy | ✓ |  |
-| 5 | Mnemonid 4 |  |  |  |  | enemy | ✓ |  |
-| 6 | Mnemonid 5 |  |  |  |  | enemy | ✓ |  |
+| 2 | Mnemonid 1 | Right Exit | None |  | Verified | enemy | ✓ |  |
+| 3 | Mnemonid 2 | Right Exit | None |  | Verified | enemy | ✓ |  |
+| 4 | Mnemonid 3 | Right Exit | None |  | Verified | enemy | ✓ |  |
+| 5 | Mnemonid 4 | Right Exit | None |  | Verified | enemy | ✓ |  |
+| 6 | Mnemonid 5 | Right Exit | None |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

@@ -11,9 +11,10 @@
 | S1 | lower right exit area | ✓ |
 | S2 | the pond | ✓ |
 | S3 | the backroom floor | ✓ |
-| S4 | the backroom cache | ✓ |
-| S5 | upper level | ✓ |
-| S6 | mossberry platform | ✓ |
+| S4 | the backroom exit | ✓ |
+| S5 | the backroom cache | ✓ |
+| S6 | upper level | ✓ |
+| S7 | mossberry platform | ✓ |
 
 ## Room Transitions
 
@@ -26,17 +27,19 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LG1 | first ledge grab | lower right exit area | the pond | ledge grab OR cling grip OR scuttlebrace OR faydown cloak OR silk soar |  | Verified | ✓ |  |
+| LG1 | first ledge grab | lower right exit area | the pond | ledge grab left OR cling grip left OR easy scuttlebrace  OR faydown cloak  OR silk soar OR ( easy shaman pogo AND easy enemy pogo off mossgrub ) |  | Verified | ✓ |  |
 | LG1 | first ledge grab | the pond | lower right exit area | none (falling) |  | Verified | ✓ |  |
 | SW1 | first swim | the pond | the backroom floor | swim |  | Verified | ✓ |  |
 | SW1 | first swim | the backroom floor | the pond | swim |  | Verified | ✓ |  |
-| LG2 | ledge grab 2 | the backroom floor | the backroom cache | ledge grab OR cling grip OR faydown cloak OR silk soar |  | Verified | ✓ |  |
-| LG2 | ledge grab 2 | the backroom cache | the backroom floor | none (falling) |  | Verified | ✓ |  |
+| BG1 | back grab 1 | the backroom floor | the backroom exit | ledge grab left OR cling grip either OR faydown cloak  OR silk soar |  | Verified | ✓ |  |
+| BG1 | back grab 1 | the backroom exit | the backroom floor | none (falling) |  | Verified | ✓ |  |
+| BG2 | back grab 2 | the backroom exit | the backroom cache | ledge grab right OR cling grip either OR faydown cloak OR silk soar OR easy shaman pogo OR easy scuttlebrace |  | Verified | ✓ |  |
+| BG2 | back grab 2 | the backroom cache | the backroom exit | none (falling) |  | Verified | ✓ |  |
 | BW1 | breakable wall 1 | the backroom cache | the pond | clear one-way breakable wall |  | Verified | ✓ |  |
 | BW1 | breakable wall 1 | the pond | the backroom cache | clear one-way breakable wall |  | Verified | ✓ |  |
-| LG3 | ledge grab 3 | the pond | upper level | ledge grab OR run OR dash OR drifters OR faydown OR easy beast pogo OR cling grip OR silk soar OR clawline OR sharpdart OR scuttlebrace |  | Verified | ✓ |  |
+| LG3 | ledge grab 3 | the pond | upper level | ledge grab right  OR run  OR dash right OR drifters  OR faydown  OR easy beast pogo  OR cling grip right OR silk soar  OR clawline right OR sharpdart |  | Verified | ✓ |  |
 | LG3 | ledge grab 3 | upper level | the pond | none (falling) |  | Verified | ✓ |  |
-| LG4 | ledge grab 4 | upper level | mossberry platform | ledge grab OR faydown OR cling grip OR silk soar | TODO | Verified | ✓ | test enemy pogo options here |
+| LG4 | ledge grab 4 | upper level | mossberry platform | ledge grab right OR faydown  OR cling grip right  OR silk soar  OR easy enemy pogo off mossmir  OR ( easy shaman pogo AND easy enemy pogo off mossgrub ) |  | Verified | ✓ |  |
 | LG4 | ledge grab 4 | mossberry platform | upper level | none (falling) |  | Verified | ✓ |  |
 
 ## Check Locations
@@ -47,7 +50,7 @@
 | 2 | shell shard cache moss grotto 6 | the backroom cache | none |  | Verified | collectible | ✓ |  |
 | 3 | shell shard cache moss grotto 7 | the backroom cache | none |  | Verified | collectible | ✓ |  |
 | 4 | moss grotto west mossberry | mossberry platform | none |  | Verified | collectible | ✓ |  |
-| 5 | one-way breakable wall | the backroom cache | break wall right |  | Verified | blockade | ✓ |  |
+| 5 | one-way breakable wall | the backroom exit | break wall right |  | Verified | blockade | ✓ |  |
 | 6 | Mossgrub 1 | the backroom floor | None |  | Verified | enemy | ✓ |  |
 | 7 | Mossgrub 2 | upper level | None |  | Verified | enemy | ✓ |  |
 | 8 | Mossgrub 3 | the pond | None |  | Verified | enemy | ✓ |  |

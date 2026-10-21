@@ -22,22 +22,22 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Mount Fay - Shell Shard Cache #3 |  | silk Soar OR ( clawline AND cling grip ) |  | Verified | resource | ✓ |  |
-| 2 | Mount Fay - Shell Shard Cache #4 |  | Silk Soar OR ( Clawline AND Cling Grip ) |  | Verified | resource | ✓ |  |
-| 3 | Brightvein - Maskshard |  | Silk Soar AND Clawline AND Cling Grip AND Faydown Cloak |  | Verified | collectible | ✓ |  |
-| 4 | Mnemonid 1 |  |  |  |  | enemy | ✓ |  |
-| 5 | Mnemonid 2 |  |  |  |  | enemy | ✓ |  |
-| 6 | Mnemonord 1 |  |  |  |  | enemy | ✓ |  |
-| 7 | Mnemonord 2 |  |  |  |  | enemy | ✓ |  |
-| 8 | Mnemonord 3 |  |  |  |  | enemy | ✓ |  |
-| 9 | Mnemonord 4 |  |  |  |  | enemy | ✓ |  |
-| 10 | Mnemonord 5 |  |  |  |  | enemy | ✓ |  |
-| 11 | Mnemonord 6 |  |  |  |  | enemy | ✓ |  |
-| 12 | Mnemonord 7 |  |  |  |  | enemy | ✓ |  |
-| 13 | Mnemonord 8 |  |  |  |  | enemy | ✓ |  |
-| 14 | Mnemonord 9 |  |  |  |  | enemy | ✓ |  |
-| 15 | Mnemonord 10 |  |  |  |  | enemy | ✓ |  |
-| 16 | Mnemonord 11 |  |  |  |  | enemy | ✓ |  |
+| 1 | Mount Fay - Shell Shard Cache #3 |  | silk Soar OR ( clawline Both AND cling grip Either ) |  | Verified | resource | ✓ |  |
+| 2 | Mount Fay - Shell Shard Cache #4 |  | silk Soar OR ( clawline Both AND cling grip Either ) |  | Verified | resource | ✓ |  |
+| 3 | Brightvein - Maskshard |  | Silk Soar AND Clawline Both AND Cling Grip Both AND Faydown Cloak AND Easy pogo off Mnemonord |  | Verified | collectible | ✓ |  |
+| 4 | Mnemonid 1 |  | None |  | Verified | enemy | ✓ |  |
+| 5 | Mnemonid 2 |  | None |  | Verified | enemy | ✓ |  |
+| 6 | Mnemonord 1 |  | Clawline Both AND Cling Grip Both AND Faydown Cloak AND Easy pogo off Mnemonord |  | Verified | enemy | ✓ |  |
+| 7 | Mnemonord 2 |  | Clawline Both AND Cling Grip Both AND Faydown Cloak AND Easy pogo off Mnemonord |  | Verified | enemy | ✓ |  |
+| 8 | Mnemonord 3 |  | Clawline Both AND Cling Grip Both AND Faydown Cloak AND Easy pogo off Mnemonord |  | Verified | enemy | ✓ |  |
+| 9 | Mnemonord 4 |  | Clawline Both AND Cling Grip Both AND Faydown Cloak AND Easy pogo off Mnemonord |  | Verified | enemy | ✓ |  |
+| 10 | Mnemonord 5 |  | Clawline Both AND Cling Grip Both AND Faydown Cloak AND Easy pogo off Mnemonord |  | Verified | enemy | ✓ |  |
+| 11 | Mnemonord 6 |  | Clawline Both AND Cling Grip Both AND Faydown Cloak AND Easy pogo off Mnemonord |  | Verified | enemy | ✓ |  |
+| 12 | Mnemonord 7 |  | Clawline Both AND Cling Grip Both AND Faydown Cloak AND Easy pogo off Mnemonord |  | Verified | enemy | ✓ |  |
+| 13 | Mnemonord 8 |  | Clawline Both AND Cling Grip Both AND Faydown Cloak AND Easy pogo off Mnemonord |  | Verified | enemy | ✓ |  |
+| 14 | Mnemonord 9 |  | Clawline Both AND Cling Grip Both AND Faydown Cloak AND Easy pogo off Mnemonord |  | Verified | enemy | ✓ |  |
+| 15 | Mnemonord 10 |  | Clawline Both AND Cling Grip Both AND Faydown Cloak AND Easy pogo off Mnemonord |  | Verified | enemy | ✓ |  |
+| 16 | Mnemonord 11 |  | Clawline Both AND Cling Grip Both AND Faydown Cloak AND Easy pogo off Mnemonord |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

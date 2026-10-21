@@ -47,7 +47,7 @@
 | 4 | Whispering Vaults: Flip Switch #4 | Bottom Center | Nothing. |  | Verified | switch | ✓ |  |
 | 5 | Whispering Vaults: Flip Switch #12 | Bottom Right | Nothing. |  | Verified | switch | ✓ |  |
 | 6 | AP Minor Cache - Whispering Vaults - Shell Shard Cache #2 | Top | Nothing. |  | Verified | resource | ✓ |  |
-| 7 | Tormented Trobbio | Fight | complete THE Pain, Anguish and Misery Wish Promised AND defeat Trobbio AND Act 3 |  | Verified | boss | ✓ |  |
+| 7 | Tormented Trobbio | Fight | complete THE Pain Anguish and Misery Wish Promised AND defeat Trobbio AND Act 3 |  | Verified | boss | ✓ |  |
 | 8 | Pain, Anguish and Misery Wish Granted | Fight | Defeat Tormented Trobbio |  | Verified | event | ✓ |  |
 | 9 | Progressive Claw Mirror 2 | Fight | Defeat Tormented Trobbio |  | Verified | collectible | ✓ |  |
 | 10 | import enemies |  |  | TODO | Needs verification |  |  |  |

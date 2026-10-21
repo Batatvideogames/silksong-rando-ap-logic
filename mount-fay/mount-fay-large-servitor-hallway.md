@@ -23,7 +23,7 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Servitor Boran 1 |  |  |  |  | enemy | ✓ |  |
+| 1 | Servitor Boran 1 |  | None |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

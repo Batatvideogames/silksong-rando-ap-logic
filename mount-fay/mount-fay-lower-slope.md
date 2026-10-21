@@ -25,24 +25,24 @@
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | SH | Shaft | Ceiling Area | Right Exit | Complete Mount Fay Slope Lever |  | Verified | ✓ |  |
-| SH | Shaft | Right Exit | Ceiling Area | Complete Mount Fay Slope Lever AND ( ( Faydown Cloak AND Drifters Cloak AND Cling Grip AND Sharpdart ) OR Silk Soar OR ( Clawline AND Faydown Cloak AND Cling Grip ) ) |  | Verified | ✓ |  |
+| SH | Shaft | Right Exit | Ceiling Area | Complete Mount Fay Slope Lever AND ( ( Faydown Cloak AND Drifters Cloak AND Cling Grip Either AND Sharpdart ) OR Silk Soar OR ( Clawline Both AND Faydown Cloak AND Cling Grip Either ) ) |  | Verified | ✓ |  |
 | BS | Big Slope | Right Exit | Bottom | None |  | Verified | ✓ |  |
-| BS | Big Slope | Bottom | Right Exit | Faydown Cloak OR ( Cling Grip AND Clawline ) |  | Verified | ✓ |  |
+| BS | Big Slope | Bottom | Right Exit | Faydown Cloak OR ( Cling Grip Both AND Clawline Right ) |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Mount Fay Slope Lever | Ceiling Area | None |  | Verified | switch | ✓ |  |
-| 2 | Driftlin 1 |  |  |  |  | enemy | ✓ |  |
-| 3 | Driftlin 2 |  |  |  |  | enemy | ✓ |  |
-| 4 | Driftlin 3 |  |  |  |  | enemy | ✓ |  |
-| 5 | Driftlin 4 |  |  |  |  | enemy | ✓ |  |
-| 6 | Driftlin 5 |  |  |  |  | enemy | ✓ |  |
-| 7 | Driftlin 6 |  |  |  |  | enemy | ✓ |  |
-| 8 | Driftlin 7 |  |  |  |  | enemy | ✓ |  |
-| 9 | Driftlin 8 |  |  |  |  | enemy | ✓ |  |
-| 10 | Driftlin 9 |  |  |  |  | enemy | ✓ |  |
+| 2 | Driftlin 1 | Right Exit | None |  | Verified | enemy | ✓ |  |
+| 3 | Driftlin 2 | Right Exit | Faydown Cloak |  | Verified | enemy | ✓ |  |
+| 4 | Driftlin 3 | Right Exit | None |  | Verified | enemy | ✓ |  |
+| 5 | Driftlin 4 | Right Exit | Faydown Cloak |  | Verified | enemy | ✓ |  |
+| 6 | Driftlin 5 | Right Exit | None |  | Verified | enemy | ✓ |  |
+| 7 | Driftlin 6 | Right Exit | None |  | Verified | enemy | ✓ |  |
+| 8 | Driftlin 7 | Right Exit | None |  | Verified | enemy | ✓ |  |
+| 9 | Driftlin 8 | Right Exit | None |  | Verified | enemy | ✓ |  |
+| 10 | Driftlin 9 | Bottom | Faydown Cloak OR ( Cling Grip Both AND Clawline Right ) |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

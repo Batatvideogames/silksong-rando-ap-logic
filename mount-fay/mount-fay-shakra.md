@@ -32,9 +32,9 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| IL | Ice Lake | Shakra | Lower Left Ledge | Faydown Cloak OR Clawline OR Sharpdart OR ( Easy Heal Stall AND Cling Grip AND Swim ) OR ( Dash AND Drifters Cloak ) |  | Verified | ✓ |  |
-| IL | Ice Lake | Lower Left Ledge | Shakra | Dash OR Sprint OR Swim OR Drifters Cloak OR Faydown Cloak OR Clawline OR Sharpdart |  | Verified | ✓ |  |
-| PL | Platforms | Shakra | Lower Middle Hallway | Faydown Cloak OR ( Clawline AND ( Dash OR Ledge Grab OR Drifters Cloak ) ) OR Silk Soar |  | Verified | ✓ |  |
+| IL | Ice Lake | Shakra | Lower Left Ledge | Faydown Cloak OR Clawline Left OR ( Sharpdart AND Proficient Movement ) OR ( Easy Heal Stall AND Cling Grip Left AND Swim ) OR ( Dash left AND Drifters Cloak ) |  | Verified | ✓ |  |
+| IL | Ice Lake | Lower Left Ledge | Shakra | Dash Right OR Sprint Right OR Swim OR Drifters Cloak OR Faydown Cloak OR Clawline Right OR Sharpdart |  | Verified | ✓ |  |
+| PL | Platforms | Shakra | Lower Middle Hallway | Faydown Cloak OR ( Clawline Both AND ( Dash Left OR Ledge Grab Left OR Drifters Cloak ) ) OR Silk Soar |  | Verified | ✓ |  |
 | PL | Platforms | Lower Middle Hallway | Shakra | None |  | Verified | ✓ |  |
 | TS1 | Tall Shaft 1 | Middle Left Ledge | Lower Left Ledge | None |  | Verified | ✓ |  |
 | TS2 | Tall Shaft 2 | Middle Left Ledge | Shakra | None |  | Verified | ✓ |  |
@@ -42,26 +42,26 @@
 | JD1 | Jump Down 1 | Upper Hallway | Upper Middle Hallway | None |  | Verified | ✓ |  |
 | JD1 | Jump Down 1 | Upper Middle Hallway | Upper Hallway | Faydown Cloak |  | Verified | ✓ |  |
 | JD2 | Jump Down 2 | Upper Left Ledge | Upper Middle Hallway | None |  | Verified | ✓ |  |
-| JD2 | Jump Down 2 | Upper Middle Hallway | Upper Left Ledge | Faydown Cloak AND ( Sprint OR Dash OR Drifters Cloak OR Cling Grip OR Ledge Grab OR Sharpdart OR Clawline ) |  | Verified | ✓ |  |
-| GP | Gap | Upper Left Ledge | Upper Hallway | Sprint OR Dash OR Drifters Cloak OR Faydown Cloak OR Clawline OR Sharpdart OR Easy Hunter Crest Pogo OR Easy Beast Crest pogo OR Easy Architect Crest pogo OR ( Ledge Grab AND ( Easy Reaper Crest Pogo OR ( Easy Wanderer Crest Pogo AND Easy needle strike stall ) OR Easy Witch Crest Pogo OR Easy Shaman Crest Pogo ) ) |  | Verified | ✓ |  |
-| GP | Gap | Upper Hallway | Upper Left Ledge | Sprint OR Dash OR Drifters Cloak OR Faydown Cloak OR Clawline OR Sharpdart OR Easy Hunter Crest Pogo OR Easy Beast Crest pogo OR Easy Architect Crest pogo OR ( Ledge Grab AND ( Easy Reaper Crest Pogo OR ( Easy Wanderer Crest Pogo AND Easy needle strike stall ) OR Easy Witch Crest Pogo OR Easy Shaman Crest Pogo ) ) |  | Verified | ✓ |  |
+| JD2 | Jump Down 2 | Upper Middle Hallway | Upper Left Ledge | Faydown Cloak |  | Verified | ✓ |  |
+| GP | Gap | Upper Left Ledge | Upper Hallway | Sprint Right OR Dash Right OR Drifters Cloak OR Faydown Cloak OR Clawline Right OR Sharpdart OR Easy Hunter Crest Pogo OR Easy Beast Crest pogo OR Easy Architect Crest pogo OR ( Ledge Grab Right AND ( Easy Reaper Crest Pogo OR ( Easy Wanderer Crest Pogo AND Easy needle strike ) OR Easy Witch Crest Pogo OR Easy Shaman Crest Pogo ) ) OR Easy Scuttlebrace |  | Verified | ✓ |  |
+| GP | Gap | Upper Hallway | Upper Left Ledge | Sprint Left OR Dash Left OR Drifters Cloak OR Faydown Cloak OR Clawline Left OR Sharpdart OR Easy Hunter Crest Pogo OR Easy Beast Crest pogo OR Easy Architect Crest pogo OR ( Ledge Grab Left AND ( Easy Reaper Crest Pogo OR ( Easy Wanderer Crest Pogo AND Easy needle strike ) OR Easy Witch Crest Pogo OR Easy Shaman Crest Pogo ) ) OR Easy Scuttlebrace |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Mount Fay - Map Purchase | Shakra | None |  | Verified | collectible | ✓ |  |
-| 2 | Mnemonid 1 |  |  |  |  | enemy | ✓ |  |
-| 3 | Mnemonid 2 |  |  |  |  | enemy | ✓ |  |
-| 4 | Mnemonid 3 |  |  |  |  | enemy | ✓ |  |
-| 5 | Mnemonid 4 |  |  |  |  | enemy | ✓ |  |
-| 6 | Mnemonid 5 |  |  |  |  | enemy | ✓ |  |
-| 7 | Mnemonid 6 |  |  |  |  | enemy | ✓ |  |
-| 8 | Mnemonid 7 |  |  |  |  | enemy | ✓ |  |
-| 9 | Weaver Servitor Broken 1 |  |  |  |  | enemy | ✓ |  |
-| 10 | Servitor Boran 1 |  |  |  |  | enemy | ✓ |  |
-| 11 | Mnemonid 8 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 12 | Mnemonid 9 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 2 | Mnemonid 1 | Upper Middle Hallway | None |  | Verified | enemy | ✓ |  |
+| 3 | Mnemonid 2 | Middle Left Ledge | None |  | Verified | enemy | ✓ |  |
+| 4 | Mnemonid 3 | Upper Middle Hallway | None |  | Verified | enemy | ✓ |  |
+| 5 | Mnemonid 4 | Upper Middle Hallway | None |  | Verified | enemy | ✓ |  |
+| 6 | Mnemonid 5 | Upper Middle Hallway | None |  | Verified | enemy | ✓ |  |
+| 7 | Mnemonid 6 | Upper Middle Hallway | None |  | Verified | enemy | ✓ |  |
+| 8 | Mnemonid 7 | Middle Left Ledge | None |  | Verified | enemy | ✓ |  |
+| 9 | Weaver Servitor Broken 1 | Upper Hallway | None |  | Verified | enemy | ✓ |  |
+| 10 | Servitor Boran 1 | Upper Hallway | None |  | Verified | enemy | ✓ |  |
+| 11 | Mnemonid 8 | Middle Left Ledge | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 12 | Mnemonid 9 | Middle Left Ledge | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

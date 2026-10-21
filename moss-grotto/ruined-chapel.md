@@ -29,7 +29,7 @@
 | RB | right boss entrance | boss arena | bench passage | complete moss mother boss fight |  | Verified | ✓ |  |
 | LB | left boss entrance | chapel | boss arena | none (starts fight) |  | Verified | ✓ |  |
 | LB | left boss entrance | boss arena | chapel | complete moss mother boss fight |  | Verified | ✓ |  |
-| V1 | ledge grab | bench spot | bench passage | ledge grab OR faydown OR silk soar OR cling grip |  | Verified | ✓ |  |
+| V1 | ledge grab | bench spot | bench passage | ledge grab right  OR cling grip right OR faydown  OR silk soar |  | Verified | ✓ |  |
 | V1 | ledge grab | bench passage | bench spot | none (falling) |  | Verified | ✓ |  |
 
 ## Check Locations

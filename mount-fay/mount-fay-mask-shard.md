@@ -23,8 +23,8 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Mount Fay - Mask Shard |  | Silk Soar OR ( Faydown Cloak AND ( Cling Grip OR Scuttlebrace ) ) |  | Verified | collectible | ✓ |  |
-| 2 | Driftlin 1 |  |  |  |  | enemy | ✓ |  |
+| 1 | Mount Fay - Mask Shard |  | Silk Soar OR ( Faydown Cloak AND ( Cling Grip Either OR Scuttlebrace ) ) |  | Verified | collectible | ✓ |  |
+| 2 | Driftlin 1 |  | None |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

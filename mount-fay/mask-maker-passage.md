@@ -22,15 +22,15 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| PL | Platforming | Exit | Mask Maker Hut | Cling Grip AND Faydown Cloak |  | Verified | ✓ |  |
+| PL | Platforming | Exit | Mask Maker Hut | Cling Grip Right AND Faydown Cloak AND ( Easy pogo off driftlin OR Proficient movement ) |  | Verified | ✓ |  |
 | PL | Platforming | Mask Maker Hut | Exit | None |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Driftlin 1 |  |  |  |  | enemy | ✓ |  |
-| 2 | Driftlin 2 |  |  |  |  | enemy | ✓ |  |
+| 1 | Driftlin 1 | Mask Maker Hut | None |  | Verified | enemy | ✓ |  |
+| 2 | Driftlin 2 | Mask Maker Hut | None |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

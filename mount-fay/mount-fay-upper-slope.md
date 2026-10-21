@@ -17,7 +17,7 @@
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | F | bot1 | Lower Exit | [Mount Fay Lower Slope (Peak_05)](mount-fay-lower-slope.md) | C | None |  | Verified | ✓ |  |
-| C | top1 | Mask Maker Path | [Mask Maker Passage (Peak_05d)](mask-maker-passage.md) | F | Cling Grip OR Scuttlebrace OR Faydown Cloak OR Silk Soar |  | Verified | ✓ |  |
+| C | top1 | Mask Maker Path | [Mask Maker Passage (Peak_05d)](mask-maker-passage.md) | F | ( Cling Grip Left OR Scuttlebrace OR Faydown Cloak OR Silk Soar ) AND Easy pogo off driftlin |  | Verified | ✓ |  |
 | R | right1 | Upper Entrance | [FayForn (Peak_08b)](fayforn.md) | L1 | None |  | Verified | ✓ |  |
 
 ## Subroom Connections
@@ -25,15 +25,15 @@
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | BS | Big Slide | Upper Entrance | Lower Exit | None |  | Verified | ✓ | One Way Slide |
-| MM | Mask Maker Path | Lower Exit | Mask Maker Path | Enemy Pogo AND Cling Grip AND Faydown Cloak |  | Verified | ✓ |  |
+| MM | Mask Maker Path | Lower Exit | Mask Maker Path | None |  | Verified | ✓ |  |
 | MM | Mask Maker Path | Mask Maker Path | Lower Exit | None |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Driftlin 1 |  |  |  |  | enemy | ✓ |  |
-| 2 | Driftlin 2 |  |  |  |  | enemy | ✓ |  |
+| 1 | Driftlin 1 | Mask Maker Path | None |  | Verified | enemy | ✓ |  |
+| 2 | Driftlin 2 | Mask Maker Path | None |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

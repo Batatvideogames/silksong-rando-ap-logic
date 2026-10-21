@@ -32,19 +32,19 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| S1 | shaft 1 | upper crossing | up and away | silk soar  OR scuttlebrace  OR ( cling grip AND ( easy shaman pogo OR easy heal stall OR faydown cloak OR run OR dash OR sharpdart OR clawline ) ) |  | Verified | ✓ | Easy skip is a heal boost or a reversed slash boost with Shaman's |
+| S1 | shaft 1 | upper crossing | up and away | silk soar  OR easy scuttlebrace OR ( cling grip either AND faydown cloak ) OR ( cling grip right AND ( easy shaman pogo OR easy heal stall OR run OR dash right OR sharpdart OR clawline right ) ) |  | Verified | ✓ | Easy skip is a heal boost or a reversed slash boost with Shaman's |
 | S1 | shaft 1 | up and away | upper crossing | none (falling) |  | Verified | ✓ |  |
-| S2 | shaft 2 | center shaft | upper crossing | silk soar OR cling grip OR scuttlebrace |  | Verified | ✓ |  |
+| S2 | shaft 2 | center shaft | upper crossing | silk soar  OR cling grip either OR ( easy scuttlebrace AND faydown ) |  | Verified | ✓ |  |
 | S2 | shaft 2 | upper crossing | center shaft | none (falling) |  | Verified | ✓ |  |
 | SV | side room vines | center shaft | side room | break vines left |  | Verified | ✓ |  |
 | SV | side room vines | side room | center shaft | break vines right |  | Verified | ✓ |  |
-| S3 | shaft 3 | lower crossing | center shaft | silk soar OR cling grip OR ( easy scuttlebrace AND dash AND ( sharpdart OR clawline OR faydown cloak ) ) |  | Verified | ✓ |  |
+| S3 | shaft 3 | lower crossing | center shaft | silk soar  OR cling grip right OR ( cling grip left AND ( clawline left OR faydown ) ) OR ( medium scuttlebrace (chains multiple) AND ( clawline left OR faydown cloak ) ) |  | Verified | ✓ |  |
 | S3 | shaft 3 | center shaft | lower crossing | none (falling) |  | Verified | ✓ |  |
-| S4 | shaft 4 | dead ledge | lower crossing | ledge grab  OR faydown cloak  OR silk soar  OR scuttlebrace  OR ( cling grip AND ( dash OR clawline ) ) |  | Verified | ✓ |  |
+| S4 | shaft 4 | dead ledge | lower crossing | ( ( ledge grab right OR cling grip right OR dash right OR clawline right ) OR ( ledge grab left OR cling grip left ) ) OR faydown cloak  OR silk soar  OR medium scuttlebrace (fall is punishing) |  | Verified | ✓ |  |
 | S4 | shaft 4 | lower crossing | dead ledge | none (falling) |  | Verified | ✓ |  |
-| S5 | shaft 5 | rock bottom | dead ledge | silk soar OR ( cling grip AND faydown cloak )  OR ( easy scuttlebrace AND dash AND faydown cloak AND ( ( drifters cloak AND ledge grab ) OR clawline OR sharpdart ) ) |  | Verified | ✓ |  |
+| S5 | shaft 5 | rock bottom | dead ledge | silk soar OR ( cling grip left AND faydown )  OR ( hard scuttlebrace AND faydown AND ( ( drifters cloak AND ledge grab left ) OR clawline left` OR sharpdart ) ) |  | Verified | ✓ | hard scuttlebrace logic needs a review. seg shared a video at one point, but this was labelled easy and def shouldn't be - hero, 10/20 |
 | S5 | shaft 5 | dead ledge | rock bottom | none (falling) |  | Verified | ✓ |  |
-| LG | ledge grab 1 | rock bottom | beast alcove | ledge grab OR faydown cloak OR silk soar OR cling grip OR scuttlebrace |  | Verified | ✓ |  |
+| LG | ledge grab 1 | rock bottom | beast alcove | ledge grab right OR faydown cloak OR silk soar OR cling grip right OR easy scuttlebrace |  | Verified | ✓ | left cling grip does not work due to blue hitbox on left wall |
 | LG | ledge grab 1 | beast alcove | rock bottom | none (falling) |  | Verified | ✓ |  |
 
 ## Check Locations

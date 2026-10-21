@@ -22,15 +22,15 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LL | Left Lower | Left Lower | Left | faydown cloak OR (cling grip left AND ledge grab left) OR cling grip right OR scuttlebrace OR silk soar |  | Verified |  |  |
-| LL | Left Lower | Left | Left Lower | none (falling) |  | Verified |  |  |
-| M | Mask Shard | Left Lower | Mask Shard | cling grip right AND spike pogo AND faydown cloak AND dash both |  | Verified |  | someone more skilled than me can figure this one out |
+| LL | Left Lower | Left Lower | Left | faydown cloak OR (cling grip left AND ledge grab left) OR cling grip right OR scuttlebrace OR silk soar |  | Verified | ✓ |  |
+| LL | Left Lower | Left | Left Lower | none (falling) |  | Verified | ✓ |  |
+| M | Mask Shard | Left Lower | Mask Shard | (easy reaper pogo OR easy beast pogo OR easy shaman pogo OR easy witch pogo OR easy architect pogo OR medium hunter pogo OR medium wanderer pogo) AND faydown cloak AND ((cling grip right AND dash both) OR (ledge grab left AND silk soar)) |  | Verified | ✓ | https://discord.com/channels/731205301247803413/1546349251099893861/1561905793916215448 |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | The Slab (Key of Apostate) - Mask Shard | Mask Shard | none |  | Verified | collectible | ✓ |  |
+| 1 | The Slab: Mask Shard | Mask Shard | none |  | Verified | collectible | ✓ |  |
 
 ## Room Images
 

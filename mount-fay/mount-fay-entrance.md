@@ -31,7 +31,7 @@
 | LML | left3 | Lower Middle Left Exit | [Mount Fay Shakra (Peak_02)](mount-fay-shakra.md) | LMR | None |  | Verified | ✓ |  |
 | UML | left2 | Upper Middle Left Exit | [Mount Fay Shakra (Peak_02)](mount-fay-shakra.md) | UMR | None |  | Verified | ✓ |  |
 | USR | right1 | Slab Side Room Upper | [Slab Arena (Slab_16)](../the-slab/slab-arena.md) | L | None |  | Verified | ✓ |  |
-| C1 | top1 | Upper Left Exit | [Mount Fay Right Side Middle Room (Peak_07)](mount-fay-right-side-middle-room.md) | F1 | Cling Grip AND ( Clawline OR ( Faydown Cloak AND DRifters Cloak AND Dash ) OR ( Drifters Cloak AND Sharpdart AND ( Proficient Movement AND Spike Pogo ) AND Hard Heal Stall AND Hard Cocoon Skip ) ) |  | Verified | ✓ |  |
+| C1 | top1 | Upper Left Exit | [Mount Fay Right Side Middle Room (Peak_07)](mount-fay-right-side-middle-room.md) | F1 | ( Cling Grip Left AND ( ( Clawline Right AND Clawline Left ) OR ( Faydown Cloak AND DRifters Cloak AND Dash Right ) OR ( Drifters Cloak AND Sharpdart AND ( Proficient Movement AND Spike Pogo ) AND Hard Heal Stall AND Hard Cocoon Skip ) ) AND Easy Pogo off driftlin ) OR Silk Soar |  | Verified | ✓ |  |
 | MSR | right2 | Slab Side Room Lower | [Slab Chilly Prison (Slab_15)](../the-slab/slab-chilly-prison.md) | L | None |  | Verified | ✓ |  |
 | LR | right4 | lower Entrance | [Slab Bellway (Slab_06)](../the-slab/slab-bellway.md) | L | None |  | Verified | ✓ |  |
 | DU | Dummy | Upper Left Exit | [Mount Fay Right Side Middle Room (Peak_07)](mount-fay-right-side-middle-room.md) | F5 | Invalid |  | Verified |  |  |
@@ -41,18 +41,18 @@
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | SL | Slab Connection | Slab Side Room Upper | Slab Side Room Lower | None |  | Verified | ✓ |  |
-| SL | Slab Connection | Slab Side Room Lower | Slab Side Room Upper | Cling Grip OR Scuttlebrace OR Silk Soar |  | Verified | ✓ |  |
-| LC | Lower Crossing | lower Entrance | Lower Left Exit | Silk Soar OR Clawline OR ( Faydown Cloak AND ( Proficient Movement AND Spike Pogo ) AND Hard Heal Stall AND Hard Cocoon Skip AND Ledge Grab ) OR ( Sharpdart AND Drifters Cloak ) |  | Verified | ✓ |  |
-| LC | Lower Crossing | Lower Left Exit | lower Entrance | Cling Grip OR Silk Soar OR Clawline OR Faydown Cloak OR ( Dash AND ( Sprint OR Drifters Cloak OR Sharpdart OR easy Beast Crest pogo OR Medium Heal Stall ) ) |  | Verified | ✓ |  |
-| LL | Lower Ledge | Lower Left Exit | Lower Middle Left Exit | Silk Soar OR ( Faydown Cloak AND ( Cling Grip OR ( Hard Heal Stall AND Scuttlebrace ) ) ) |  | Verified | ✓ |  |
+| SL | Slab Connection | Slab Side Room Lower | Slab Side Room Upper | Cling Grip left OR Scuttlebrace OR Silk Soar OR ( Cling Grip Right AND Faydown Cloak ) |  | Verified | ✓ |  |
+| LC | Lower Crossing | lower Entrance | Lower Left Exit | Silk Soar OR Clawline Left OR ( Faydown Cloak AND ( Proficient Movement AND Spike Pogo ) AND Hard Heal Stall AND Hard Cocoon Skip AND Ledge Grab left ) OR ( Sharpdart AND Drifters Cloak AND Proficient movement ) |  | Verified | ✓ |  |
+| LC | Lower Crossing | Lower Left Exit | lower Entrance | Cling Grip right OR Silk Soar OR Clawline right OR Faydown Cloak OR ( Dash right AND ( Sprint Right OR Drifters Cloak OR Sharpdart OR easy Beast Crest pogo OR Medium Heal Stall ) ) |  | Verified | ✓ |  |
+| LL | Lower Ledge | Lower Left Exit | Lower Middle Left Exit | Silk Soar OR ( Faydown Cloak AND ( Cling Grip left OR ( Hard Heal Stall AND Scuttlebrace ) ) ) |  | Verified | ✓ |  |
 | LL | Lower Ledge | Lower Middle Left Exit | Lower Left Exit | None |  | Verified | ✓ |  |
-| MC | Middle Crossing | Lower Middle Left Exit | Shell Shard Ledge | ( Cling Grip AND ( ( Clawline OR Drifters Cloak OR ( Faydown Cloak AND ( Dash OR Sharpdart ) ) ) OR ( Medium Reaper Crest pogo AND Faydown Cloak AND Clawline AND ( Proficient Movement AND Spike Pogo ) ) ) ) |  | Verified | ✓ |  |
-| MC | Middle Crossing | Shell Shard Ledge | Lower Middle Left Exit | Clawline OR Silk Soar OR Drifters Cloak OR ( Dash AND Faydown Cloak ) |  | Verified | ✓ |  |
+| MC | Middle Crossing | Lower Middle Left Exit | Shell Shard Ledge | ( Cling Grip Right AND ( ( Clawline Right OR Drifters Cloak OR ( Faydown Cloak AND ( Dash Right OR Sharpdart ) ) ) OR ( Medium Reaper Crest pogo AND Faydown Cloak AND Clawline Right AND ( Proficient Movement AND Spike Pogo ) ) ) ) |  | Verified | ✓ |  |
+| MC | Middle Crossing | Shell Shard Ledge | Lower Middle Left Exit | Clawline Left OR Silk Soar OR Drifters Cloak OR ( Dash Left AND Faydown Cloak ) |  | Verified | ✓ |  |
 | SS | Silk Soar Shards | lower Entrance | Shell Shard Ledge | Silk Soar |  | Verified | ✓ |  |
 | SS | Silk Soar Shards | Shell Shard Ledge | lower Entrance | None |  | Verified | ✓ |  |
-| TA | The Ascent | Lower Middle Left Exit | Upper Middle Left Exit | Silk Soar OR ( Cling Grip AND ( Clawline OR ( Faydown Cloak AND Drifters Cloak ) OR ( Sharpdart AND Drifters Cloak AND Hard Cocoon Skip AND ( Sprint OR Have Tool Flintslate ) ) ) ) |  | Verified | ✓ |  |
+| TA | The Ascent | Lower Middle Left Exit | Upper Middle Left Exit | Silk Soar OR ( ( Cling Grip Both AND ( Clawline Both OR ( Faydown Cloak AND Drifters Cloak ) OR ( Sharpdart AND Drifters Cloak AND Hard Cocoon Skip AND ( Sprint Both OR Have Tool Flintslate ) ) ) ) AND easy pogo off driftlin ) |  | Verified | ✓ |  |
 | TA | The Ascent | Upper Middle Left Exit | Lower Middle Left Exit | None |  | Verified | ✓ |  |
-| SH | Shortcut | Upper Middle Left Exit | Upper Left Exit | Faydown Cloak OR Silk Soar OR ( complete Breakable Wall - Mount Fay Entrance AND ( Cling Grip OR Scuttlebrace OR ( Easy Beast Crest pogo AND Medium Heal Stall AND Ledge Grab ) ) ) |  | Verified | ✓ |  |
+| SH | Shortcut | Upper Middle Left Exit | Upper Left Exit | Faydown Cloak OR Silk Soar OR ( complete Breakable Wall - Mount Fay Entrance AND ( Cling Grip Either OR Scuttlebrace OR ( Easy Beast Crest pogo AND Medium Heal Stall AND Ledge Grab Either ) ) ) |  | Verified | ✓ |  |
 | SH | Shortcut | Upper Left Exit | Upper Middle Left Exit | None |  | Verified | ✓ |  |
 | DR | Drop | Upper Left Exit | Shell Shard Ledge | None |  | Verified | ✓ |  |
 | DR | Drop | Shell Shard Ledge | Upper Left Exit | Silk Soar |  | Verified | ✓ |  |
@@ -63,15 +63,15 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Mount Fay - Shell shard cache #1 | Shell Shard Ledge | None |  | Verified | resource | ✓ |  |
 | 2 | Mount Fay - Shell shard cache #2 | Shell Shard Ledge | None |  | Verified | resource | ✓ |  |
-| 3 | The Slab - Spool Fragment | Slab Spool Room | cling grip OR Scuttlebrace OR Silk Soar |  | Verified | collectible | ✓ | Duplicate check name for spool fragment? |
+| 3 | The Slab - Spool Fragment | Slab Spool Room | cling grip Either OR Scuttlebrace OR Silk Soar |  | Verified | collectible | ✓ | Duplicate check name for spool fragment?   the one shown in "Slab flea prison" was a placeholder till i did this room, remove other one if still present - Pyxl |
 | 4 | Breakable Wall - Mount Fay Entrance | Upper Left Exit | None |  | Verified | blockade | ✓ |  |
-| 5 | Driftlin 1 |  |  |  |  | enemy | ✓ |  |
-| 6 | Driftlin 2 |  |  |  |  | enemy | ✓ |  |
-| 7 | Driftlin 3 |  |  |  |  | enemy | ✓ |  |
-| 8 | Driftlin 4 |  |  |  |  | enemy | ✓ |  |
-| 9 | Driftlin 5 |  |  |  |  | enemy | ✓ |  |
-| 10 | Driftlin 6 |  |  |  |  | enemy | ✓ |  |
-| 11 | Driftlin 7 |  |  |  |  | enemy | ✓ |  |
+| 5 | Driftlin 1 | Upper Left Exit | ( Cling Grip Left AND ( ( Clawline Right AND Clawline Left ) OR ( Faydown Cloak AND DRifters Cloak AND Dash Right ) OR ( Drifters Cloak AND Sharpdart AND ( Proficient Movement AND Spike Pogo ) AND Hard Heal Stall AND Hard Cocoon Skip ) ) AND Easy Pogo off driftlin ) OR Silk Soar |  | Verified | enemy | ✓ |  |
+| 6 | Driftlin 2 | Upper Left Exit | ( Cling Grip Left AND ( ( Clawline Right AND Clawline Left ) OR ( Faydown Cloak AND DRifters Cloak AND Dash Right ) OR ( Drifters Cloak AND Sharpdart AND ( Proficient Movement AND Spike Pogo ) AND Hard Heal Stall AND Hard Cocoon Skip ) ) AND Easy Pogo off driftlin ) OR Silk Soar |  | Verified | enemy | ✓ |  |
+| 7 | Driftlin 3 | Upper Left Exit | ( Cling Grip Left AND ( ( Clawline Right AND Clawline Left ) OR ( Faydown Cloak AND DRifters Cloak AND Dash Right ) OR ( Drifters Cloak AND Sharpdart AND ( Proficient Movement AND Spike Pogo ) AND Hard Heal Stall AND Hard Cocoon Skip ) ) AND Easy Pogo off driftlin ) OR Silk Soar |  | Verified | enemy | ✓ |  |
+| 8 | Driftlin 4 | Lower Middle Left Exit | Silk Soar OR ( ( Cling Grip Both AND ( Clawline Both OR ( Faydown Cloak AND Drifters Cloak ) OR ( Sharpdart AND Drifters Cloak AND Hard Cocoon Skip AND ( Sprint Both OR Have Tool Flintslate ) ) ) ) AND easy pogo off driftlin ) |  | Verified | enemy | ✓ |  |
+| 9 | Driftlin 5 | Lower Middle Left Exit | Silk Soar OR ( ( Cling Grip Both AND ( Clawline Both OR ( Faydown Cloak AND Drifters Cloak ) OR ( Sharpdart AND Drifters Cloak AND Hard Cocoon Skip AND ( Sprint Both OR Have Tool Flintslate ) ) ) ) AND easy pogo off driftlin ) |  | Verified | enemy | ✓ |  |
+| 10 | Driftlin 6 | Lower Middle Left Exit | Silk Soar OR ( ( Cling Grip Both AND ( Clawline Both OR ( Faydown Cloak AND Drifters Cloak ) OR ( Sharpdart AND Drifters Cloak AND Hard Cocoon Skip AND ( Sprint Both OR Have Tool Flintslate ) ) ) ) AND easy pogo off driftlin ) |  | Verified | enemy | ✓ |  |
+| 11 | Driftlin 7 | Lower Middle Left Exit | Silk Soar OR ( ( Cling Grip Both AND ( Clawline Both OR ( Faydown Cloak AND Drifters Cloak ) OR ( Sharpdart AND Drifters Cloak AND Hard Cocoon Skip AND ( Sprint Both OR Have Tool Flintslate ) ) ) ) AND easy pogo off driftlin ) |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

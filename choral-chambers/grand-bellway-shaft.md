@@ -34,7 +34,7 @@
 | RL | Bottom Right to Bottom Left | Bottom Left | Bottom Right | none |  | Verified | ✓ | falling |
 | V1 | Bottom Left to Right Stage | Bottom Left | Right Stage | cling grip either OR ((ledge grab right OR clawline right OR sharpdart OR scuttlebrace OR easy shaman pogo) AND faydown cloak) OR silk soar OR easy pogo off Reed |  | Verified | ✓ |  |
 | V1 | Bottom Left to Right Stage | Right Stage | Bottom Left | none |  | Verified | ✓ | falling |
-| V2 | Right Stage to Upper Left | Right Stage | Middle | easy [Hunter, Reaper, Wanderer, Shaman] pogo OR (ledge grab left OR scuttlebrace OR dash left OR clawline left OR sharpdart OR easy heal stall OR easy voltvessels stall OR easy plasmium phial stall OR easy flintslate stall) |  | Verified | ✓ |  |
+| V2 | Right Stage to Upper Left | Right Stage | Middle | easy [Hunter, Reaper, Wanderer, Shaman] pogo OR (ledge grab left OR scuttlebrace OR dash left OR clawline left OR sharpdart OR easy heal stall OR easy voltvessels stall OR easy plasmium phial stall OR easy flintslate stall) OR silk soar |  | Verified | ✓ |  |
 | V2 | Right Stage to Upper Left | Middle | Right Stage | none |  | Verified | ✓ | falling |
 | V3 | Upper Left to Upper Right | Middle | Upper | (scuttlebrace AND easy shaman pogo) OR silk soar OR ((ledge grab left OR scuttlebrace) AND easy pogo off [Choir pouncer,Choir Elder, Choir Flyer, Reed]) OR faydown cloak OR (cling grip both AND (scuttlebrace OR dash right OR clawline right OR sharpdart OR run)) |  | Verified | ✓ |  |
 | V3 | Upper Left to Upper Right | Upper | Middle | none |  | Verified | ✓ | falling |

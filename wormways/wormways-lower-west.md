@@ -20,7 +20,7 @@
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | R | right | right exit tunnel | [Wormways Lower East (Crawl_07)](wormways-lower-east.md) | L | none |  | Verified | ✓ |  |
-| L | left | left exit shaft | [Wormways Zango Arena (Crawl_10)](wormways-zango-arena.md) | R | break wall {left] OR break wall {right |  | Verified | ✓ |  |
+| L | left | left exit shaft | [Wormways Zango Arena (Crawl_10)](wormways-zango-arena.md) | R | break wall [left, right] |  | Verified | ✓ |  |
 
 ## Subroom Connections
 

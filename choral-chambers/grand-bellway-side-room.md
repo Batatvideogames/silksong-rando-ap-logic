@@ -22,12 +22,11 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Silkeater: Choral Chambers West |  | ((cling grip left OR faydown cloak) AND spike pogo) OR easy [Shaman, Reaper] pogo OR hard Architect pogo |  | Verified | collectible | ✓ |  |
+| 1 | Silkeater: Choral Chambers West |  | none |  | Verified | collectible | ✓ |  |
 | 2 | Second Sentinel Encounter Side room |  | Act 3  AND complete THE Second Sentinel Activation |  | Verified | event |  |  |
-| 3 | Grand bellway hidden chest |  | none |  | Verified | collectible | ✓ | rosary chest |
-| 4 | Choristor 1 |  | Normal World Spawn |  | Verified | enemy | ✓ |  |
-| 5 | Snitchfly 1 |  | Normal World Spawn |  | Verified | enemy | ✓ | Spawn conditions: defeatedCogworkDancers=true, hasHarpoonDash=true, bellShrineEnclave=true |
-| 6 | Snitchfly 2 |  | Normal World Spawn |  | Verified | enemy | ✓ | Spawn conditions: defeatedCogworkDancers=true, hasHarpoonDash=true, bellShrineEnclave=true |
+| 3 | Choristor 1 |  | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 4 | Snitchfly 1 |  | Normal World Spawn |  | Verified | enemy | ✓ | Spawn conditions: defeatedCogworkDancers=true, hasHarpoonDash=true, bellShrineEnclave=true |
+| 5 | Snitchfly 2 |  | Normal World Spawn |  | Verified | enemy | ✓ | Spawn conditions: defeatedCogworkDancers=true, hasHarpoonDash=true, bellShrineEnclave=true |
 
 ## Room Images
 

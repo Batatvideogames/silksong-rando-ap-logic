@@ -26,8 +26,8 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LA | Lake | Ground Level Left | Ground Level Right | ( Dash Right AND ( Sprint Right OR Drifters Cloak ) ) OR Clawline Right OR Sharpdart OR Swim OR ( Faydown Cloak AND Drifters Cloak ) |  | Verified | ✓ |  |
-| LA | Lake | Ground Level Right | Ground Level Left | ( Dash Left AND ( Sprint Left OR Drifters Cloak ) ) OR Clawline Left OR Sharpdart OR Swim OR ( Faydown Cloak AND Drifters Cloak ) |  | Verified | ✓ |  |
+| LA | Lake | Ground Level Left | Ground Level Right | ( Dash Right AND ( Sprint Right AND ( Drifters Cloak OR Easy pogo off pond skipper OR Easy Beast Pogo OR Hard Reaper Pogo OR ( medium hunter pogo AND Cling Grip Right  ) )  ) ) OR Clawline Right OR Sharpdart OR Swim OR ( Faydown Cloak AND Drifters Cloak ) OR ( Medium Shaman Pogo AND Medium Scuttlebrace ) |  | Verified | ✓ |  |
+| LA | Lake | Ground Level Right | Ground Level Left | ( Dash Left AND ( Sprint Left AND ( Drifters Cloak OR Easy pogo off pond skipper OR Easy Beast Pogo OR Hard Reaper Pogo )  ) ) OR Clawline Left OR Sharpdart OR Swim OR ( Faydown Cloak AND Drifters Cloak ) OR ( Medium Shaman Pogo AND Medium Scuttlebrace ) |  | Verified | ✓ |  |
 | C1 | Chasm 1 | Ground Level Left | Central Platforms | ( Ledge Grab Right AND Ledge Grab left AND ( Dash Right OR Drifters Cloak OR Easy Beast Crest pogo ) ) OR Clawline Right OR ( Cling Grip Right AND Cling Grip Left ) OR Silk Soar OR Sharpdart OR Faydown Cloak |  | Verified | ✓ |  |
 | C1 | Chasm 1 | Central Platforms | Ground Level Left | None |  | Verified | ✓ |  |
 | C2 | Chasm 2 | Central Platforms | Right Platforms | Ledge Grab OR Faydown Cloak OR Silk Soar OR Cling grip OR Dash OR Scuttlebrace OR Clawline  OR Sprint |  | Verified | ✓ |  |

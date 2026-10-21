@@ -32,7 +32,7 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Rosary Necklace - Choral Chambers #2 | Base | break wall right |  | Verified | collectible | ✓ | hidden behind a breakable wall |
+| 1 | Rosary Necklace - Choral Chambers #2 | Base | break wall right AND (cling grip either OR ledge grab either OR easy shaman pogo OR silk soar OR scuttlebrace OR easy beast needle strike OR faydown OR easy damage boost off Drapefly) |  | Verified | collectible | ✓ | hidden behind a breakable wall |
 | 2 | Dining Hall's food budget | Top | none |  | Verified | collectible | ✓ | rosary cache |
 | 3 | Mergwin's hidden stash | Top | none |  | Verified | collectible | ✓ | rosary cache |
 | 4 | Great Gourmand's treasury | Top | none |  | Verified | collectible | ✓ | rosary cache |
