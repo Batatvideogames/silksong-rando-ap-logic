@@ -2,7 +2,7 @@
 
 **Game ID:** Tut_01
 
-**Contributors:** herounit, super epicguy
+**Contributors:** herounit, super epicguy, gallos
 
 ## Subrooms
 
@@ -38,11 +38,11 @@
 | S2 | shaft 2 | upper crossing | center shaft | none (falling) |  | Verified | ✓ |  |
 | SV | side room vines | center shaft | side room | break vines left |  | Verified | ✓ |  |
 | SV | side room vines | side room | center shaft | break vines right |  | Verified | ✓ |  |
-| S3 | shaft 3 | lower crossing | center shaft | silk soar  OR cling grip right OR ( cling grip left AND ( clawline left OR faydown ) ) OR ( medium scuttlebrace (chains multiple) AND ( clawline left OR faydown cloak ) ) |  | Verified | ✓ |  |
+| S3 | shaft 3 | lower crossing | center shaft | silk soar  OR cling grip right OR ( cling grip left AND ( clawline left OR faydown OR sharpdart ) ) OR ( medium scuttlebrace (chains multiple) AND ( clawline left OR faydown cloak ) ) |  | Verified | ✓ |  |
 | S3 | shaft 3 | center shaft | lower crossing | none (falling) |  | Verified | ✓ |  |
-| S4 | shaft 4 | dead ledge | lower crossing | ( ( ledge grab right OR cling grip right OR dash right OR clawline right ) OR ( ledge grab left OR cling grip left ) ) OR faydown cloak  OR silk soar  OR medium scuttlebrace (fall is punishing) |  | Verified | ✓ |  |
+| S4 | shaft 4 | dead ledge | lower crossing | ( ( ledge grab right OR cling grip right OR dash right OR clawline right ) AND ( ledge grab left OR cling grip left ) ) OR faydown cloak  OR silk soar  OR medium scuttlebrace (fall is punishing) |  | Verified | ✓ |  |
 | S4 | shaft 4 | lower crossing | dead ledge | none (falling) |  | Verified | ✓ |  |
-| S5 | shaft 5 | rock bottom | dead ledge | silk soar OR ( cling grip left AND faydown )  OR ( hard scuttlebrace AND faydown AND ( ( drifters cloak AND ledge grab left ) OR clawline left` OR sharpdart ) ) |  | Verified | ✓ | hard scuttlebrace logic needs a review. seg shared a video at one point, but this was labelled easy and def shouldn't be - hero, 10/20 |
+| S5 | shaft 5 | rock bottom | dead ledge | silk soar OR ( cling grip left AND faydown )  OR ( easy scuttlebrace AND run AND faydown AND ( ( drifters cloak AND ledge grab left ) OR clawline left OR sharpdart ) ) |  | Verified | ✓ | hard scuttlebrace logic needs a review. seg shared a video at one point, but this was labelled easy and def shouldn't be - hero, 10/20 |
 | S5 | shaft 5 | dead ledge | rock bottom | none (falling) |  | Verified | ✓ |  |
 | LG | ledge grab 1 | rock bottom | beast alcove | ledge grab right OR faydown cloak OR silk soar OR cling grip right OR easy scuttlebrace |  | Verified | ✓ | left cling grip does not work due to blue hitbox on left wall |
 | LG | ledge grab 1 | beast alcove | rock bottom | none (falling) |  | Verified | ✓ |  |
@@ -53,7 +53,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | moss grotto frayed rosary string | dead ledge | none |  | Verified | collectible | ✓ |  |
 | 2 | moss grotto shell shard cache 1 | rock bottom | none |  | Verified | collectible | ✓ |  |
-| 3 | moss grotto beast shard | beast alcove | none |  | Verified | collectible | ✓ |  |
+| 3 | moss grotto beast shard | beast alcove | defeat Marrowmaw 1 |  | Verified | collectible | ✓ |  |
 | 4 | moss grotto rosary chest | side room | none |  | Verified | collectible | ✓ |  |
 | 5 | Mossmir 1 | side room | None |  | Verified | enemy | ✓ |  |
 | 6 | Mossmir 2 | side room | None |  | Verified | enemy | ✓ |  |

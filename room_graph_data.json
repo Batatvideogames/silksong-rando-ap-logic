@@ -696,57 +696,6 @@
       "notes": "\"We are NOT doing cocoon skip.\" - Moriko Kyoho, 2026"
     },
     {
-      "name": "Heal Stall",
-      "category": "Technique",
-      "input_syntax": "{difficulty} {predicate}",
-      "output_syntax": "capability:heal-stall:{difficulty}",
-      "aliases": [
-        "heal stall"
-      ],
-      "notes": "Factors in whether the user only has shaman crest."
-    },
-    {
-      "name": "Flintslate Stall",
-      "category": "Technique",
-      "input_syntax": "{difficulty} {predicate}",
-      "output_syntax": "capability:flintslate-stall:{difficulty}",
-      "aliases": [
-        "flintslate stall"
-      ],
-      "notes": "Implies owning and being able to equip tool."
-    },
-    {
-      "name": "Flea Brew Stall",
-      "category": "Technique",
-      "input_syntax": "{difficulty} {predicate}",
-      "output_syntax": "capability:flea-brew-stall:{difficulty}",
-      "aliases": [
-        "flea brew stall"
-      ],
-      "notes": "Implies owning and being able to equip tool."
-    },
-    {
-      "name": "Plasmium Phial Stall",
-      "category": "Technique",
-      "input_syntax": "{difficulty} {predicate}",
-      "output_syntax": "capability:plasmium-phial-stall:{difficulty}",
-      "aliases": [
-        "plasmium phial stall",
-        "plasmium stall"
-      ],
-      "notes": "Implies owning and being able to equip tool."
-    },
-    {
-      "name": "Voltvessels Stall",
-      "category": "Technique",
-      "input_syntax": "{difficulty} {predicate}",
-      "output_syntax": "capability:voltvessels-stall:{difficulty}",
-      "aliases": [
-        "voltvessels stall"
-      ],
-      "notes": "Implies owning and being able to equip tool."
-    },
-    {
       "name": "Drill Crystal Pogo",
       "category": "Technique",
       "input_syntax": "{difficulty} {predicate}",
@@ -1012,6 +961,16 @@
         "ponder the orb"
       ],
       "notes": "Setting for knowledge of extremely specific techniques and unintuitive game possibilities, such as thorn pogo spots or novel silk soar locations."
+    },
+    {
+      "name": "Stall",
+      "category": "Technique",
+      "input_syntax": "{difficulty} [{method}] {predicate}",
+      "output_syntax": "capability:stall:{method}:{difficulty}",
+      "aliases": [
+        "stall"
+      ],
+      "notes": "Implies owning and being able to execute the stall method."
     }
   ],
   "translation_items": [
@@ -4053,7 +4012,7 @@
       "area_id": "moss-grotto",
       "name": "Moss Grotto Center",
       "in_game_id": "Tut_01",
-      "contributors": "herounit, super epicguy",
+      "contributors": "herounit, super epicguy, gallos",
       "notes": "renamed from \"moss grotto west\" - was mistakenly marked as same room as west room\nnot having the west part as part of this area causes the graph to be more complex",
       "nodes": [
         {
@@ -4264,7 +4223,7 @@
               ],
               [
                 "capability:cling-grip:right",
-                "capability:heal-stall:easy"
+                "capability:stall:heal:easy"
               ],
               [
                 "capability:cling-grip:right",
@@ -4411,7 +4370,7 @@
           "source_node_id": "moss-grotto/moss-grotto-center#lower-crossing",
           "target_node_id": "moss-grotto/moss-grotto-center#center-shaft",
           "requirement": {
-            "raw": "silk soar \nOR cling grip right\nOR ( cling grip left AND ( clawline left OR faydown ) )\nOR ( medium scuttlebrace (chains multiple) AND ( clawline left OR faydown cloak ) ) ",
+            "raw": "silk soar \nOR cling grip right\nOR ( cling grip left AND ( clawline left OR faydown OR sharpdart ) )\nOR ( medium scuttlebrace (chains multiple) AND ( clawline left OR faydown cloak ) ) ",
             "mode": "expression",
             "dnf": [
               [
@@ -4427,6 +4386,10 @@
               [
                 "capability:cling-grip:left",
                 "capability:faydown-cloak"
+              ],
+              [
+                "capability:cling-grip:left",
+                "capability:sharpdart"
               ],
               [
                 "capability:scuttlebrace:medium",
@@ -4472,25 +4435,39 @@
           "source_node_id": "moss-grotto/moss-grotto-center#dead-ledge",
           "target_node_id": "moss-grotto/moss-grotto-center#lower-crossing",
           "requirement": {
-            "raw": "( ( ledge grab right OR cling grip right OR dash right OR clawline right ) OR ( ledge grab left OR cling grip left ) )\nOR faydown cloak \nOR silk soar \nOR medium scuttlebrace (fall is punishing)",
+            "raw": "( ( ledge grab right OR cling grip right OR dash right OR clawline right ) AND ( ledge grab left OR cling grip left ) )\nOR faydown cloak \nOR silk soar \nOR medium scuttlebrace (fall is punishing)",
             "mode": "expression",
             "dnf": [
               [
-                "capability:ledge-grab:right"
-              ],
-              [
-                "capability:cling-grip:right"
-              ],
-              [
-                "capability:dash:right"
-              ],
-              [
-                "capability:clawline:right"
-              ],
-              [
+                "capability:ledge-grab:right",
                 "capability:ledge-grab:left"
               ],
               [
+                "capability:ledge-grab:right",
+                "capability:cling-grip:left"
+              ],
+              [
+                "capability:cling-grip:right",
+                "capability:ledge-grab:left"
+              ],
+              [
+                "capability:cling-grip:right",
+                "capability:cling-grip:left"
+              ],
+              [
+                "capability:dash:right",
+                "capability:ledge-grab:left"
+              ],
+              [
+                "capability:dash:right",
+                "capability:cling-grip:left"
+              ],
+              [
+                "capability:clawline:right",
+                "capability:ledge-grab:left"
+              ],
+              [
+                "capability:clawline:right",
                 "capability:cling-grip:left"
               ],
               [
@@ -4538,7 +4515,7 @@
           "source_node_id": "moss-grotto/moss-grotto-center#rock-bottom",
           "target_node_id": "moss-grotto/moss-grotto-center#dead-ledge",
           "requirement": {
-            "raw": "silk soar\nOR ( cling grip left AND faydown ) \nOR ( hard scuttlebrace AND faydown AND ( ( drifters cloak AND ledge grab left ) OR clawline left` OR sharpdart ) )",
+            "raw": "silk soar\nOR ( cling grip left AND faydown ) \nOR ( easy scuttlebrace AND run AND faydown AND ( ( drifters cloak AND ledge grab left ) OR clawline left OR sharpdart ) )",
             "mode": "expression",
             "dnf": [
               [
@@ -4549,18 +4526,21 @@
                 "capability:faydown-cloak"
               ],
               [
-                "capability:scuttlebrace:hard",
+                "capability:scuttlebrace:easy",
+                "capability:sprint:none",
                 "capability:faydown-cloak",
                 "capability:drifters-cloak",
                 "capability:ledge-grab:left"
               ],
               [
-                "capability:scuttlebrace:hard",
+                "capability:scuttlebrace:easy",
+                "capability:sprint:none",
                 "capability:faydown-cloak",
                 "capability:clawline:left"
               ],
               [
-                "capability:scuttlebrace:hard",
+                "capability:scuttlebrace:easy",
+                "capability:sprint:none",
                 "capability:faydown-cloak",
                 "capability:sharpdart"
               ]
@@ -4699,10 +4679,12 @@
           "has_persisted_state": true,
           "node_id": "moss-grotto/moss-grotto-center#beast-alcove",
           "requirement": {
-            "raw": "none",
-            "mode": "none",
+            "raw": "defeat Marrowmaw 1",
+            "mode": "expression",
             "dnf": [
-              []
+              [
+                "dependency:location:moss-grotto/moss-grotto-center::enemy/marrowmaw-1"
+              ]
             ],
             "unresolved_reasons": []
           },
@@ -4806,7 +4788,7 @@
       "area_id": "moss-grotto",
       "name": "Moss Grotto West",
       "in_game_id": "Tut_02",
-      "contributors": "herounit",
+      "contributors": "herounit, gallos",
       "notes": "somehow missed this being its own room before",
       "nodes": [
         {
@@ -5003,7 +4985,7 @@
           "source_node_id": "moss-grotto/moss-grotto-west#the-backroom-floor",
           "target_node_id": "moss-grotto/moss-grotto-west#the-backroom-exit",
           "requirement": {
-            "raw": "ledge grab left\nOR cling grip either\nOR faydown cloak \nOR silk soar",
+            "raw": "ledge grab left\nOR cling grip either\nOR faydown cloak \nOR silk soar\nOR easy damage boost off mossgrub\nOR easy enemy pogo off mossgrub",
             "mode": "expression",
             "dnf": [
               [
@@ -5017,6 +4999,12 @@
               ],
               [
                 "capability:silk-soar"
+              ],
+              [
+                "technique:damage-boost:MossBone Crawler:easy"
+              ],
+              [
+                "capability:enemy-type-pogo:MossBone Crawler:easy"
               ]
             ],
             "unresolved_reasons": []
@@ -5054,7 +5042,7 @@
           "source_node_id": "moss-grotto/moss-grotto-west#the-backroom-exit",
           "target_node_id": "moss-grotto/moss-grotto-west#the-backroom-cache",
           "requirement": {
-            "raw": "ledge grab right\nOR cling grip either\nOR faydown cloak\nOR silk soar\nOR easy shaman pogo\nOR easy scuttlebrace",
+            "raw": "ledge grab right\nOR cling grip either\nOR faydown cloak\nOR silk soar\nOR easy shaman pogo\nOR easy scuttlebrace\nOR easy damage boost off mossgrub\nOR easy enemy pogo off mossgrub",
             "mode": "expression",
             "dnf": [
               [
@@ -5074,6 +5062,12 @@
               ],
               [
                 "capability:scuttlebrace:easy"
+              ],
+              [
+                "technique:damage-boost:MossBone Crawler:easy"
+              ],
+              [
+                "capability:enemy-type-pogo:MossBone Crawler:easy"
               ]
             ],
             "unresolved_reasons": []
@@ -5155,7 +5149,7 @@
           "source_node_id": "moss-grotto/moss-grotto-west#the-pond",
           "target_node_id": "moss-grotto/moss-grotto-west#upper-level",
           "requirement": {
-            "raw": "ledge grab right \nOR run \nOR dash right\nOR drifters \nOR faydown \nOR easy beast pogo \nOR cling grip right\nOR silk soar \nOR clawline right\nOR sharpdart ",
+            "raw": "ledge grab right \nOR run \nOR dash right\nOR drifters \nOR faydown \nOR easy beast pogo \nOR cling grip right\nOR silk soar \nOR clawline right\nOR sharpdart \nOR easy [architect, wanderer] charge\nOR easy voltvessels stall\nOR flea brew",
             "mode": "expression",
             "dnf": [
               [
@@ -5187,6 +5181,18 @@
               ],
               [
                 "capability:sharpdart"
+              ],
+              [
+                "capability:needle-strike:architect:easy"
+              ],
+              [
+                "capability:needle-strike:wanderer:easy"
+              ],
+              [
+                "capability:stall:voltvessels:easy"
+              ],
+              [
+                "capability:flea-brew-jump"
               ]
             ],
             "unresolved_reasons": []
@@ -5224,7 +5230,7 @@
           "source_node_id": "moss-grotto/moss-grotto-west#upper-level",
           "target_node_id": "moss-grotto/moss-grotto-west#mossberry-platform",
           "requirement": {
-            "raw": "ledge grab right\nOR faydown \nOR cling grip right \nOR silk soar \nOR easy enemy pogo off mossmir \nOR ( easy shaman pogo AND easy enemy pogo off mossgrub )",
+            "raw": "ledge grab right\nOR faydown \nOR cling grip right \nOR silk soar \nOR easy enemy pogo off mossmir \nOR easy damage boost off mossmir\nOR ( easy shaman pogo AND ( easy enemy pogo off mossgrub OR scuttlebrace ) )",
             "mode": "expression",
             "dnf": [
               [
@@ -5243,8 +5249,15 @@
                 "capability:enemy-type-pogo:MossBone Fly:easy"
               ],
               [
+                "technique:damage-boost:MossBone Fly:easy"
+              ],
+              [
                 "capability:crest-pogo:shaman:easy",
                 "capability:enemy-type-pogo:MossBone Crawler:easy"
+              ],
+              [
+                "capability:crest-pogo:shaman:easy",
+                "capability:scuttlebrace:none"
               ]
             ],
             "unresolved_reasons": []
@@ -5763,7 +5776,7 @@
       "area_id": "moss-grotto",
       "name": "Moss Grotto East",
       "in_game_id": "Tut_01b",
-      "contributors": "herounit",
+      "contributors": "herounit, gallos",
       "notes": "",
       "nodes": [
         {
@@ -5865,7 +5878,7 @@
           "source_node_id": "moss-grotto/moss-grotto-east#ground-floor",
           "target_node_id": "moss-grotto/moss-grotto-east#alcove-check-spot",
           "requirement": {
-            "raw": "ledge grab right \nOR cling grip right \nOR easy scuttlebrace \nOR faydown",
+            "raw": "ledge grab right \nOR cling grip right \nOR easy scuttlebrace \nOR faydown\nOR easy pogo off [mawling, mossmir]",
             "mode": "expression",
             "dnf": [
               [
@@ -5879,11 +5892,17 @@
               ],
               [
                 "capability:faydown-cloak"
+              ],
+              [
+                "capability:enemy-type-pogo:Bone Roller:easy"
+              ],
+              [
+                "capability:enemy-type-pogo:MossBone Fly:easy"
               ]
             ],
             "unresolved_reasons": []
           },
-          "notes": "",
+          "notes": "can lure mossmir over per AP feedback - hero, 10/21",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
@@ -5916,7 +5935,7 @@
           "source_node_id": "moss-grotto/moss-grotto-east#ground-floor",
           "target_node_id": "moss-grotto/moss-grotto-east#weavenest-door-platform",
           "requirement": {
-            "raw": "ledge grab right\nOR run \nOR dash right \nOR clawline right \nOR drifters \nOR faydown \nOR cling grip right \nOR ( spike pogo AND proficient movement ) \nOR easy shaman pogo \nOR easy beast pogo \nOR silk soar",
+            "raw": "ledge grab right\nOR run \nOR dash right \nOR clawline right \nOR drifters \nOR faydown \nOR cling grip right \nOR ( spike pogo AND proficient movement ) \nOR easy shaman pogo \nOR easy beast pogo \nOR silk soar\nOR medium voltvessels stall\nOR easy pogo off mossmir",
             "mode": "expression",
             "dnf": [
               [
@@ -5952,6 +5971,12 @@
               ],
               [
                 "capability:silk-soar"
+              ],
+              [
+                "capability:stall:voltvessels:medium"
+              ],
+              [
+                "capability:enemy-type-pogo:MossBone Fly:easy"
               ]
             ],
             "unresolved_reasons": []
@@ -5989,7 +6014,7 @@
           "source_node_id": "moss-grotto/moss-grotto-east#ground-floor",
           "target_node_id": "moss-grotto/moss-grotto-east#upper-platforms",
           "requirement": {
-            "raw": "ledge grab right\nOR cling grip right\nOR faydown \nOR silk soar \nOR easy shaman pogo\nOR easy scuttlebrace\nOR ( easy enemy pogo off mawling )",
+            "raw": "ledge grab right\nOR cling grip right\nOR faydown \nOR silk soar \nOR easy shaman pogo\nOR easy scuttlebrace\nOR easy enemy pogo off [ mawling, mossmir ]\nOR easy damage boost off [ mossmir ]\nOR easy beast charge\nOR ( easy pogo off mossgrub AND clawline left AND (sharpdart OR clawline right) )",
             "mode": "expression",
             "dnf": [
               [
@@ -6012,6 +6037,25 @@
               ],
               [
                 "capability:enemy-type-pogo:Bone Roller:easy"
+              ],
+              [
+                "capability:enemy-type-pogo:MossBone Fly:easy"
+              ],
+              [
+                "technique:damage-boost:MossBone Fly:easy"
+              ],
+              [
+                "capability:needle-strike:beast:easy"
+              ],
+              [
+                "capability:enemy-type-pogo:MossBone Crawler:easy",
+                "capability:clawline:left",
+                "capability:sharpdart"
+              ],
+              [
+                "capability:enemy-type-pogo:MossBone Crawler:easy",
+                "capability:clawline:left",
+                "capability:clawline:right"
               ]
             ],
             "unresolved_reasons": []
@@ -6115,11 +6159,11 @@
           "has_persisted_state": true,
           "node_id": "moss-grotto/moss-grotto-east#upper-platforms",
           "requirement": {
-            "raw": "easy enemy pogo \nOR run \nOR dash right\nOR drifter's cloak \nOR faydown cloak \nOR silk soar \nOR clawline right\nOR sharpdart \nOR easy beast pogo \nOR shaman attack up \nOR shaman attack right",
+            "raw": "easy enemy pogo off mossmir\nOR run \nOR dash right\nOR drifter's cloak \nOR faydown cloak \nOR silk soar \nOR clawline right\nOR sharpdart \nOR easy beast pogo \nOR shaman attack up \nOR shaman attack right\nOR easy [wanderer, architect, witch] needle strike",
             "mode": "expression",
             "dnf": [
               [
-                "capability:enemy-pogo:easy"
+                "capability:enemy-type-pogo:MossBone Fly:easy"
               ],
               [
                 "capability:sprint:none"
@@ -6150,6 +6194,15 @@
               ],
               [
                 "capability:needle:shaman:right"
+              ],
+              [
+                "capability:needle-strike:wanderer:easy"
+              ],
+              [
+                "capability:needle-strike:architect:easy"
+              ],
+              [
+                "capability:needle-strike:witch:easy"
               ]
             ],
             "unresolved_reasons": []
@@ -6440,7 +6493,7 @@
       "area_id": "moss-grotto",
       "name": "Ruined Chapel",
       "in_game_id": "Tut_03",
-      "contributors": "herounit",
+      "contributors": "herounit, gallos",
       "notes": "ROOM BUG: fighting moss mother without breaking the vines on the right side of the arena (by approaching from the left), you get locked into the arena with darkness still covering the area.\n\nAscend rope AND the ceiling are valid exits - but I believe they take you to the same bot1 exit on the other side.",
       "nodes": [
         {
@@ -7166,7 +7219,7 @@
       "area_id": "moss-grotto",
       "name": "Ruined Chapel Interior",
       "in_game_id": "Tut_04",
-      "contributors": "herounit",
+      "contributors": "herounit, gallos",
       "notes": "**UNABLE TO ACCESS IN LOGIC AUDIT MODE**",
       "nodes": [
         {
@@ -7323,7 +7376,7 @@
       "area_id": "moss-grotto",
       "name": "Ruined Chapel Crest Chamber",
       "in_game_id": "Tut_05",
-      "contributors": "herounit",
+      "contributors": "herounit, gallos",
       "notes": "",
       "nodes": [
         {
@@ -8186,27 +8239,27 @@
               ],
               [
                 "capability:scuttlebrace:hard",
-                "capability:heal-stall:hard",
+                "capability:stall:heal:hard",
                 "item:crest-hunter"
               ],
               [
                 "capability:scuttlebrace:hard",
-                "capability:heal-stall:hard",
+                "capability:stall:heal:hard",
                 "item:crest-reaper"
               ],
               [
                 "capability:scuttlebrace:hard",
-                "capability:heal-stall:hard",
+                "capability:stall:heal:hard",
                 "item:crest-wanderer"
               ],
               [
                 "capability:scuttlebrace:hard",
-                "capability:heal-stall:hard",
+                "capability:stall:heal:hard",
                 "item:crest-beast"
               ],
               [
                 "capability:scuttlebrace:hard",
-                "capability:heal-stall:hard",
+                "capability:stall:heal:hard",
                 "item:crest-architect"
               ],
               [
@@ -12173,7 +12226,7 @@
                 "capability:proficient-movement",
                 "capability:enemy-pogo:hard",
                 "capability:spike-pogo",
-                "capability:flintslate-stall:hard",
+                "capability:stall:flintslate:hard",
                 "capability:cling-grip:none",
                 "capability:drifters-cloak"
               ],
@@ -12181,7 +12234,7 @@
                 "capability:proficient-movement",
                 "capability:enemy-pogo:hard",
                 "capability:spike-pogo",
-                "capability:flea-brew-stall:hard",
+                "capability:stall:flea-brew:hard",
                 "capability:cling-grip:none",
                 "capability:drifters-cloak"
               ],
@@ -12189,7 +12242,7 @@
                 "capability:proficient-movement",
                 "capability:enemy-pogo:hard",
                 "capability:spike-pogo",
-                "capability:plasmium-phial-stall:hard",
+                "capability:stall:plasmium-phial:hard",
                 "capability:cling-grip:none",
                 "capability:drifters-cloak"
               ],
@@ -19575,7 +19628,7 @@
           "source_node_id": "the-marrow/the-marrow-shaft#lower-middle-shaft",
           "target_node_id": "the-marrow/the-marrow-shaft#upper-middle-shaft",
           "requirement": {
-            "raw": "ledge grab\nOR easy pogo off caranid\nOR run\nOR dash\nOR drifters\nOR faydown\nOR cling grip\nOR scuttlebrace\nOR clawline\nOR sharpdart\nOR silk soar\nOR easy [shaman, hunter, architect, beast] pogo\nOR easy [wanderer, reaper] charge\nOR easy heal stall\nOR easy flea brew stall\nOR easy flintslate stall\nOR easy plasmium phial stall\nOR easy voltvessels stall",
+            "raw": "ledge grab\nOR easy pogo off caranid\nOR run\nOR dash\nOR drifters\nOR faydown\nOR cling grip\nOR scuttlebrace\nOR clawline\nOR sharpdart\nOR silk soar\nOR easy [shaman, hunter, architect, beast] pogo\nOR easy [wanderer, reaper] charge\nOR easy [heal, flea brew, flintslate, plasmium, voltvessels] stall",
             "mode": "expression",
             "dnf": [
               [
@@ -19630,24 +19683,24 @@
                 "capability:needle-strike:reaper:easy"
               ],
               [
-                "capability:heal-stall:easy"
+                "capability:stall:heal:easy"
               ],
               [
-                "capability:flea-brew-stall:easy"
+                "capability:stall:flea-brew:easy"
               ],
               [
-                "capability:flintslate-stall:easy"
+                "capability:stall:flintslate:easy"
               ],
               [
-                "capability:plasmium-phial-stall:easy"
+                "capability:stall:plasmium-phial:easy"
               ],
               [
-                "capability:voltvessels-stall:easy"
+                "capability:stall:voltvessels:easy"
               ]
             ],
             "unresolved_reasons": []
           },
-          "notes": "a WIDE variety of stalls work here. karma for the bottom section all being one chunk",
+          "notes": "a WIDE variety of stalls work here. karma for the bottom section all being one chunk\n\nprobably need to test spell stalls - hero, 10/21",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
@@ -34553,11 +34606,11 @@
                 "capability:silk-soar"
               ],
               [
-                "capability:voltvessels-stall:medium",
+                "capability:stall:voltvessels:medium",
                 "capability:ledge-grab:none"
               ],
               [
-                "capability:voltvessels-stall:medium",
+                "capability:stall:voltvessels:medium",
                 "capability:cling-grip:none"
               ],
               [
@@ -34570,12 +34623,12 @@
               ],
               [
                 "capability:flea-brew-jump",
-                "capability:flea-brew-stall:easy",
+                "capability:stall:flea-brew:easy",
                 "capability:ledge-grab:none"
               ],
               [
                 "capability:flea-brew-jump",
-                "capability:flea-brew-stall:easy",
+                "capability:stall:flea-brew:easy",
                 "capability:cling-grip:none"
               ],
               [
@@ -34631,18 +34684,18 @@
                 "capability:silk-soar"
               ],
               [
-                "capability:voltvessels-stall:easy"
+                "capability:stall:voltvessels:easy"
               ],
               [
-                "capability:flea-brew-stall:easy",
+                "capability:stall:flea-brew:easy",
                 "capability:flea-brew-jump"
               ],
               [
-                "capability:flintslate-stall:hard",
+                "capability:stall:flintslate:hard",
                 "capability:ledge-grab:none"
               ],
               [
-                "capability:flintslate-stall:hard",
+                "capability:stall:flintslate:hard",
                 "capability:cling-grip:none"
               ],
               [
@@ -34802,11 +34855,11 @@
                 "capability:cling-grip:none"
               ],
               [
-                "capability:voltvessels-stall:easy",
+                "capability:stall:voltvessels:easy",
                 "capability:ledge-grab:none"
               ],
               [
-                "capability:voltvessels-stall:easy",
+                "capability:stall:voltvessels:easy",
                 "capability:cling-grip:none"
               ]
             ],
@@ -35874,7 +35927,7 @@
               ],
               [
                 "capability:ledge-grab:none",
-                "capability:voltvessels-stall:medium"
+                "capability:stall:voltvessels:medium"
               ],
               [
                 "capability:ledge-grab:none",
@@ -35898,7 +35951,7 @@
               ],
               [
                 "capability:cling-grip:none",
-                "capability:voltvessels-stall:medium"
+                "capability:stall:voltvessels:medium"
               ],
               [
                 "capability:cling-grip:none",
@@ -35906,7 +35959,7 @@
               ],
               [
                 "capability:flea-brew-jump",
-                "capability:flea-brew-stall:easy"
+                "capability:stall:flea-brew:easy"
               ]
             ],
             "unresolved_reasons": []
@@ -36534,11 +36587,11 @@
                 "capability:cling-grip:none"
               ],
               [
-                "capability:flea-brew-stall:easy",
+                "capability:stall:flea-brew:easy",
                 "capability:ledge-grab:none"
               ],
               [
-                "capability:flea-brew-stall:easy",
+                "capability:stall:flea-brew:easy",
                 "capability:cling-grip:none"
               ],
               [
@@ -36547,8 +36600,8 @@
                 "capability:cling-grip:none"
               ],
               [
-                "capability:heal-stall:easy",
-                "capability:voltvessels-stall:easy",
+                "capability:stall:heal:easy",
+                "capability:stall:voltvessels:easy",
                 "capability:cling-grip:none"
               ],
               [
@@ -37591,7 +37644,7 @@
               ],
               [
                 "capability:flea-brew-jump",
-                "capability:flea-brew-stall:easy"
+                "capability:stall:flea-brew:easy"
               ],
               [
                 "capability:sharpdart"
@@ -37601,15 +37654,15 @@
                 "capability:ledge-grab:none"
               ],
               [
-                "capability:voltvessels-stall:easy",
+                "capability:stall:voltvessels:easy",
                 "capability:ledge-grab:none"
               ],
               [
-                "capability:flintslate-stall:easy",
+                "capability:stall:flintslate:easy",
                 "capability:ledge-grab:none"
               ],
               [
-                "capability:plasmium-phial-stall:easy",
+                "capability:stall:plasmium-phial:easy",
                 "capability:ledge-grab:none"
               ],
               [
@@ -37622,29 +37675,29 @@
               [
                 "capability:proficient-movement",
                 "capability:needle:architect:right",
-                "capability:heal-stall:easy",
+                "capability:stall:heal:easy",
                 "capability:ledge-grab:none"
               ],
               [
                 "capability:proficient-movement",
                 "capability:needle:architect:right",
-                "capability:flea-brew-stall:easy",
+                "capability:stall:flea-brew:easy",
                 "capability:ledge-grab:none"
               ],
               [
                 "capability:proficient-movement",
                 "capability:needle:architect:right",
-                "capability:flintslate-stall:easy",
+                "capability:stall:flintslate:easy",
                 "capability:ledge-grab:none"
               ],
               [
                 "capability:proficient-movement",
                 "capability:needle:architect:right",
-                "capability:voltvessels-stall:easy",
+                "capability:stall:voltvessels:easy",
                 "capability:ledge-grab:none"
               ],
               [
-                "capability:plasmium-phial-stall:hard"
+                "capability:stall:plasmium-phial:hard"
               ]
             ],
             "unresolved_reasons": []
@@ -37719,7 +37772,7 @@
                 "capability:flea-brew-jump"
               ],
               [
-                "capability:voltvessels-stall:medium"
+                "capability:stall:voltvessels:medium"
               ],
               [
                 "capability:sharpdart:4"
@@ -38325,11 +38378,11 @@
                 "capability:cling-grip:none"
               ],
               [
-                "capability:voltvessels-stall:medium",
+                "capability:stall:voltvessels:medium",
                 "capability:ledge-grab:none"
               ],
               [
-                "capability:voltvessels-stall:medium",
+                "capability:stall:voltvessels:medium",
                 "capability:cling-grip:none"
               ],
               [
@@ -38342,18 +38395,18 @@
               ],
               [
                 "capability:flea-brew-jump",
-                "capability:flea-brew-stall:easy",
+                "capability:stall:flea-brew:easy",
                 "capability:ledge-grab:none"
               ],
               [
                 "capability:flea-brew-jump",
-                "capability:flea-brew-stall:easy",
+                "capability:stall:flea-brew:easy",
                 "capability:cling-grip:none"
               ],
               [
                 "capability:flea-brew-jump",
-                "capability:flea-brew-stall:medium",
-                "capability:heal-stall:medium"
+                "capability:stall:flea-brew:medium",
+                "capability:stall:heal:medium"
               ],
               [
                 "capability:crest-pogo:architect:easy",
@@ -38416,19 +38469,19 @@
                 "capability:needle-strike:architect:easy"
               ],
               [
-                "capability:voltvessels-stall:easy"
+                "capability:stall:voltvessels:easy"
               ],
               [
-                "capability:flintslate-stall:easy"
+                "capability:stall:flintslate:easy"
               ],
               [
-                "capability:flea-brew-stall:easy"
+                "capability:stall:flea-brew:easy"
               ],
               [
                 "capability:flea-brew-jump"
               ],
               [
-                "capability:heal-stall:medium"
+                "capability:stall:heal:medium"
               ]
             ],
             "unresolved_reasons": []
@@ -39642,11 +39695,11 @@
               ],
               [
                 "capability:clawline:2",
-                "capability:flea-brew-stall:easy"
+                "capability:stall:flea-brew:easy"
               ],
               [
                 "capability:clawline:2",
-                "capability:voltvessels-stall:easy"
+                "capability:stall:voltvessels:easy"
               ],
               [
                 "capability:clawline:2",
@@ -39658,7 +39711,7 @@
               ],
               [
                 "capability:clawline:3",
-                "capability:flintslate-stall:medium"
+                "capability:stall:flintslate:medium"
               ],
               [
                 "capability:sharpdart:2",
@@ -39667,7 +39720,7 @@
               [
                 "capability:sharpdart:2",
                 "capability:flea-brew-jump",
-                "capability:flea-brew-stall:medium"
+                "capability:stall:flea-brew:medium"
               ],
               [
                 "dependency:location:deep-docks/deep-docks-spool-east::switch/the-lever-that-makes-all-of-my-hard-work-worthless"
@@ -40593,15 +40646,15 @@
                 "capability:cling-grip:none"
               ],
               [
-                "capability:voltvessels-stall:easy",
+                "capability:stall:voltvessels:easy",
                 "capability:cling-grip:none"
               ],
               [
-                "capability:flintslate-stall:easy",
+                "capability:stall:flintslate:easy",
                 "capability:cling-grip:none"
               ],
               [
-                "capability:flea-brew-stall:easy",
+                "capability:stall:flea-brew:easy",
                 "capability:cling-grip:none"
               ],
               [
@@ -43040,11 +43093,11 @@
                 "capability:drifters-cloak"
               ],
               [
-                "capability:flintslate-stall:medium",
+                "capability:stall:flintslate:medium",
                 "capability:crest-pogo:hunter:medium"
               ],
               [
-                "capability:voltvessels-stall:medium"
+                "capability:stall:voltvessels:medium"
               ],
               [
                 "capability:crest-pogo:beast:medium"
@@ -43065,7 +43118,7 @@
                 "capability:crest-pogo:hunter:easy"
               ],
               [
-                "capability:flea-brew-stall:medium",
+                "capability:stall:flea-brew:medium",
                 "capability:flea-brew-jump"
               ]
             ],
@@ -43113,15 +43166,15 @@
               ],
               [
                 "capability:sharpdart:2",
-                "capability:flea-brew-stall:easy"
+                "capability:stall:flea-brew:easy"
               ],
               [
                 "capability:sharpdart:2",
-                "capability:voltvessels-stall:easy"
+                "capability:stall:voltvessels:easy"
               ],
               [
                 "capability:sharpdart:3",
-                "capability:flintslate-stall:medium"
+                "capability:stall:flintslate:medium"
               ]
             ],
             "unresolved_reasons": []
@@ -43278,13 +43331,13 @@
               [
                 "capability:sharpdart:2",
                 "capability:cling-grip:none",
-                "capability:flea-brew-stall:medium",
+                "capability:stall:flea-brew:medium",
                 "capability:spike-pogo"
               ],
               [
                 "capability:sharpdart:2",
                 "capability:cling-grip:none",
-                "capability:flea-brew-stall:medium",
+                "capability:stall:flea-brew:medium",
                 "capability:ledge-grab:none"
               ]
             ],
@@ -43461,12 +43514,12 @@
               ],
               [
                 "capability:flea-brew-jump",
-                "capability:flea-brew-stall:medium",
+                "capability:stall:flea-brew:medium",
                 "capability:drifters-cloak",
                 "capability:cling-grip:none"
               ],
               [
-                "capability:voltvessels-stall:medium",
+                "capability:stall:voltvessels:medium",
                 "capability:drifters-cloak",
                 "capability:cling-grip:none"
               ],
@@ -43608,13 +43661,13 @@
                 "capability:cling-grip:none",
                 "capability:faydown-cloak",
                 "capability:drifters-cloak",
-                "capability:flea-brew-stall:easy"
+                "capability:stall:flea-brew:easy"
               ],
               [
                 "capability:cling-grip:none",
                 "capability:faydown-cloak",
                 "capability:drifters-cloak",
-                "capability:voltvessels-stall:medium"
+                "capability:stall:voltvessels:medium"
               ]
             ],
             "unresolved_reasons": []
@@ -50167,7 +50220,7 @@
                 "capability:ledge-grab:none",
                 "capability:faydown-cloak",
                 "capability:proficient-movement",
-                "capability:flea-brew-stall:easy",
+                "capability:stall:flea-brew:easy",
                 "capability:crest-pogo:reaper:easy"
               ],
               [
@@ -50175,7 +50228,7 @@
                 "capability:ledge-grab:none",
                 "capability:faydown-cloak",
                 "capability:proficient-movement",
-                "capability:flea-brew-stall:easy",
+                "capability:stall:flea-brew:easy",
                 "capability:crest-pogo:hunter:easy"
               ]
             ],
@@ -50243,21 +50296,21 @@
                 "capability:cling-grip:none",
                 "capability:faydown-cloak",
                 "capability:proficient-movement",
-                "capability:flea-brew-stall:easy",
+                "capability:stall:flea-brew:easy",
                 "capability:crest-pogo:reaper:easy"
               ],
               [
                 "capability:cling-grip:none",
                 "capability:faydown-cloak",
                 "capability:proficient-movement",
-                "capability:flea-brew-stall:easy",
+                "capability:stall:flea-brew:easy",
                 "capability:crest-pogo:hunter:easy"
               ],
               [
                 "capability:cling-grip:none",
                 "capability:faydown-cloak",
                 "capability:crest-pogo:reaper:easy",
-                "capability:heal-stall:easy"
+                "capability:stall:heal:easy"
               ],
               [
                 "capability:scuttlebrace:none",
@@ -50278,21 +50331,21 @@
                 "capability:scuttlebrace:none",
                 "capability:faydown-cloak",
                 "capability:proficient-movement",
-                "capability:flea-brew-stall:easy",
+                "capability:stall:flea-brew:easy",
                 "capability:crest-pogo:reaper:easy"
               ],
               [
                 "capability:scuttlebrace:none",
                 "capability:faydown-cloak",
                 "capability:proficient-movement",
-                "capability:flea-brew-stall:easy",
+                "capability:stall:flea-brew:easy",
                 "capability:crest-pogo:hunter:easy"
               ],
               [
                 "capability:scuttlebrace:none",
                 "capability:faydown-cloak",
                 "capability:crest-pogo:reaper:easy",
-                "capability:heal-stall:easy"
+                "capability:stall:heal:easy"
               ]
             ],
             "unresolved_reasons": []
@@ -50391,7 +50444,7 @@
               ],
               [
                 "capability:cling-grip:none",
-                "capability:heal-stall:medium"
+                "capability:stall:heal:medium"
               ]
             ],
             "unresolved_reasons": []
@@ -51400,7 +51453,7 @@
                 "capability:faydown-cloak",
                 "capability:proficient-movement",
                 "capability:scuttlebrace:none",
-                "capability:flea-brew-stall:easy"
+                "capability:stall:flea-brew:easy"
               ]
             ],
             "unresolved_reasons": []
@@ -53002,12 +53055,12 @@
               ],
               [
                 "capability:faydown-cloak",
-                "capability:flea-brew-stall:easy",
+                "capability:stall:flea-brew:easy",
                 "capability:scuttlebrace:none"
               ],
               [
                 "capability:faydown-cloak",
-                "capability:flea-brew-stall:easy",
+                "capability:stall:flea-brew:easy",
                 "capability:ledge-grab:none"
               ]
             ],
@@ -54000,7 +54053,7 @@
               ],
               [
                 "capability:crest-pogo:beast:easy",
-                "capability:flea-brew-stall:easy"
+                "capability:stall:flea-brew:easy"
               ],
               [
                 "capability:needle-strike:beast:easy"
@@ -54223,7 +54276,7 @@
               [
                 "capability:cling-grip:none",
                 "capability:clawline:none",
-                "capability:flea-brew-stall:easy"
+                "capability:stall:flea-brew:easy"
               ]
             ],
             "unresolved_reasons": []
@@ -54741,12 +54794,12 @@
               [
                 "capability:faydown-cloak",
                 "capability:dash:none",
-                "capability:flea-brew-stall:easy"
+                "capability:stall:flea-brew:easy"
               ],
               [
                 "capability:faydown-cloak",
                 "capability:dash:none",
-                "capability:voltvessels-stall:easy"
+                "capability:stall:voltvessels:easy"
               ]
             ],
             "unresolved_reasons": []
@@ -54790,12 +54843,12 @@
               [
                 "capability:faydown-cloak",
                 "capability:dash:none",
-                "capability:flea-brew-stall:easy"
+                "capability:stall:flea-brew:easy"
               ],
               [
                 "capability:faydown-cloak",
                 "capability:dash:none",
-                "capability:voltvessels-stall:easy"
+                "capability:stall:voltvessels:easy"
               ]
             ],
             "unresolved_reasons": []
@@ -57585,7 +57638,7 @@
               ],
               [
                 "capability:faydown-cloak",
-                "capability:flea-brew-stall:easy",
+                "capability:stall:flea-brew:easy",
                 "capability:scuttlebrace:none"
               ],
               [
@@ -59552,7 +59605,7 @@
               [
                 "capability:ledge-grab:none",
                 "capability:proficient-movement",
-                "capability:flea-brew-stall:easy",
+                "capability:stall:flea-brew:easy",
                 "capability:clawline:none"
               ]
             ],
@@ -59627,7 +59680,7 @@
               ],
               [
                 "capability:faydown-cloak",
-                "capability:voltvessels-stall:easy"
+                "capability:stall:voltvessels:easy"
               ],
               [
                 "capability:faydown-cloak",
@@ -63343,7 +63396,7 @@
               ],
               [
                 "capability:ledge-grab:left",
-                "capability:flea-brew-stall:easy"
+                "capability:stall:flea-brew:easy"
               ]
             ],
             "unresolved_reasons": []
@@ -73797,7 +73850,7 @@
               ],
               [
                 "capability:ledge-grab:left",
-                "capability:flea-brew-stall:easy"
+                "capability:stall:flea-brew:easy"
               ]
             ],
             "unresolved_reasons": []
@@ -77357,7 +77410,7 @@
               ],
               [
                 "capability:faydown-cloak",
-                "capability:heal-stall:easy",
+                "capability:stall:heal:easy",
                 "capability:crest-pogo:beast:easy"
               ]
             ],
@@ -78006,19 +78059,19 @@
                 "capability:ledge-grab:left"
               ],
               [
-                "capability:heal-stall:medium",
+                "capability:stall:heal:medium",
                 "capability:crest-pogo:reaper:medium"
               ],
               [
-                "capability:heal-stall:medium",
+                "capability:stall:heal:medium",
                 "capability:crest-pogo:shaman:hard"
               ],
               [
-                "capability:heal-stall:medium",
+                "capability:stall:heal:medium",
                 "capability:crest-pogo:wanderer:easy"
               ],
               [
-                "capability:heal-stall:medium",
+                "capability:stall:heal:medium",
                 "capability:crest-pogo:witch:hard"
               ],
               [
@@ -78414,28 +78467,28 @@
                 "capability:cling-grip:right",
                 "capability:sprint:left",
                 "capability:crest-pogo:beast:easy",
-                "capability:heal-stall:medium"
+                "capability:stall:heal:medium"
               ],
               [
                 "capability:cling-grip:left",
                 "capability:cling-grip:right",
                 "capability:sprint:left",
                 "capability:crest-pogo:beast:easy",
-                "capability:flea-brew-stall:medium"
+                "capability:stall:flea-brew:medium"
               ],
               [
                 "capability:cling-grip:left",
                 "capability:cling-grip:right",
                 "capability:sprint:left",
                 "capability:crest-pogo:beast:easy",
-                "capability:plasmium-phial-stall:medium"
+                "capability:stall:plasmium-phial:medium"
               ],
               [
                 "capability:cling-grip:left",
                 "capability:cling-grip:right",
                 "capability:sprint:left",
                 "capability:crest-pogo:beast:easy",
-                "capability:flintslate-stall:medium"
+                "capability:stall:flintslate:medium"
               ],
               [
                 "capability:cling-grip:left",
@@ -78463,28 +78516,28 @@
                 "capability:faydown-cloak",
                 "capability:sprint:left",
                 "capability:crest-pogo:beast:easy",
-                "capability:heal-stall:medium"
+                "capability:stall:heal:medium"
               ],
               [
                 "capability:cling-grip:left",
                 "capability:faydown-cloak",
                 "capability:sprint:left",
                 "capability:crest-pogo:beast:easy",
-                "capability:flea-brew-stall:medium"
+                "capability:stall:flea-brew:medium"
               ],
               [
                 "capability:cling-grip:left",
                 "capability:faydown-cloak",
                 "capability:sprint:left",
                 "capability:crest-pogo:beast:easy",
-                "capability:plasmium-phial-stall:medium"
+                "capability:stall:plasmium-phial:medium"
               ],
               [
                 "capability:cling-grip:left",
                 "capability:faydown-cloak",
                 "capability:sprint:left",
                 "capability:crest-pogo:beast:easy",
-                "capability:flintslate-stall:medium"
+                "capability:stall:flintslate:medium"
               ],
               [
                 "capability:cling-grip:left",
@@ -78512,28 +78565,28 @@
                 "capability:silk-soar",
                 "capability:sprint:left",
                 "capability:crest-pogo:beast:easy",
-                "capability:heal-stall:medium"
+                "capability:stall:heal:medium"
               ],
               [
                 "capability:cling-grip:left",
                 "capability:silk-soar",
                 "capability:sprint:left",
                 "capability:crest-pogo:beast:easy",
-                "capability:flea-brew-stall:medium"
+                "capability:stall:flea-brew:medium"
               ],
               [
                 "capability:cling-grip:left",
                 "capability:silk-soar",
                 "capability:sprint:left",
                 "capability:crest-pogo:beast:easy",
-                "capability:plasmium-phial-stall:medium"
+                "capability:stall:plasmium-phial:medium"
               ],
               [
                 "capability:cling-grip:left",
                 "capability:silk-soar",
                 "capability:sprint:left",
                 "capability:crest-pogo:beast:easy",
-                "capability:flintslate-stall:medium"
+                "capability:stall:flintslate:medium"
               ],
               [
                 "capability:cling-grip:left",
@@ -78561,28 +78614,28 @@
                 "capability:scuttlebrace:none",
                 "capability:sprint:left",
                 "capability:crest-pogo:beast:easy",
-                "capability:heal-stall:medium"
+                "capability:stall:heal:medium"
               ],
               [
                 "capability:cling-grip:left",
                 "capability:scuttlebrace:none",
                 "capability:sprint:left",
                 "capability:crest-pogo:beast:easy",
-                "capability:flea-brew-stall:medium"
+                "capability:stall:flea-brew:medium"
               ],
               [
                 "capability:cling-grip:left",
                 "capability:scuttlebrace:none",
                 "capability:sprint:left",
                 "capability:crest-pogo:beast:easy",
-                "capability:plasmium-phial-stall:medium"
+                "capability:stall:plasmium-phial:medium"
               ],
               [
                 "capability:cling-grip:left",
                 "capability:scuttlebrace:none",
                 "capability:sprint:left",
                 "capability:crest-pogo:beast:easy",
-                "capability:flintslate-stall:medium"
+                "capability:stall:flintslate:medium"
               ],
               [
                 "capability:scuttlebrace:none",
@@ -78614,28 +78667,28 @@
                 "capability:cling-grip:right",
                 "capability:sprint:left",
                 "capability:crest-pogo:beast:easy",
-                "capability:heal-stall:medium"
+                "capability:stall:heal:medium"
               ],
               [
                 "capability:scuttlebrace:none",
                 "capability:cling-grip:right",
                 "capability:sprint:left",
                 "capability:crest-pogo:beast:easy",
-                "capability:flea-brew-stall:medium"
+                "capability:stall:flea-brew:medium"
               ],
               [
                 "capability:scuttlebrace:none",
                 "capability:cling-grip:right",
                 "capability:sprint:left",
                 "capability:crest-pogo:beast:easy",
-                "capability:plasmium-phial-stall:medium"
+                "capability:stall:plasmium-phial:medium"
               ],
               [
                 "capability:scuttlebrace:none",
                 "capability:cling-grip:right",
                 "capability:sprint:left",
                 "capability:crest-pogo:beast:easy",
-                "capability:flintslate-stall:medium"
+                "capability:stall:flintslate:medium"
               ],
               [
                 "capability:scuttlebrace:none",
@@ -78663,28 +78716,28 @@
                 "capability:faydown-cloak",
                 "capability:sprint:left",
                 "capability:crest-pogo:beast:easy",
-                "capability:heal-stall:medium"
+                "capability:stall:heal:medium"
               ],
               [
                 "capability:scuttlebrace:none",
                 "capability:faydown-cloak",
                 "capability:sprint:left",
                 "capability:crest-pogo:beast:easy",
-                "capability:flea-brew-stall:medium"
+                "capability:stall:flea-brew:medium"
               ],
               [
                 "capability:scuttlebrace:none",
                 "capability:faydown-cloak",
                 "capability:sprint:left",
                 "capability:crest-pogo:beast:easy",
-                "capability:plasmium-phial-stall:medium"
+                "capability:stall:plasmium-phial:medium"
               ],
               [
                 "capability:scuttlebrace:none",
                 "capability:faydown-cloak",
                 "capability:sprint:left",
                 "capability:crest-pogo:beast:easy",
-                "capability:flintslate-stall:medium"
+                "capability:stall:flintslate:medium"
               ],
               [
                 "capability:scuttlebrace:none",
@@ -78712,28 +78765,28 @@
                 "capability:silk-soar",
                 "capability:sprint:left",
                 "capability:crest-pogo:beast:easy",
-                "capability:heal-stall:medium"
+                "capability:stall:heal:medium"
               ],
               [
                 "capability:scuttlebrace:none",
                 "capability:silk-soar",
                 "capability:sprint:left",
                 "capability:crest-pogo:beast:easy",
-                "capability:flea-brew-stall:medium"
+                "capability:stall:flea-brew:medium"
               ],
               [
                 "capability:scuttlebrace:none",
                 "capability:silk-soar",
                 "capability:sprint:left",
                 "capability:crest-pogo:beast:easy",
-                "capability:plasmium-phial-stall:medium"
+                "capability:stall:plasmium-phial:medium"
               ],
               [
                 "capability:scuttlebrace:none",
                 "capability:silk-soar",
                 "capability:sprint:left",
                 "capability:crest-pogo:beast:easy",
-                "capability:flintslate-stall:medium"
+                "capability:stall:flintslate:medium"
               ],
               [
                 "capability:scuttlebrace:none",
@@ -78761,28 +78814,28 @@
                 "capability:scuttlebrace:none",
                 "capability:sprint:left",
                 "capability:crest-pogo:beast:easy",
-                "capability:heal-stall:medium"
+                "capability:stall:heal:medium"
               ],
               [
                 "capability:scuttlebrace:none",
                 "capability:scuttlebrace:none",
                 "capability:sprint:left",
                 "capability:crest-pogo:beast:easy",
-                "capability:flea-brew-stall:medium"
+                "capability:stall:flea-brew:medium"
               ],
               [
                 "capability:scuttlebrace:none",
                 "capability:scuttlebrace:none",
                 "capability:sprint:left",
                 "capability:crest-pogo:beast:easy",
-                "capability:plasmium-phial-stall:medium"
+                "capability:stall:plasmium-phial:medium"
               ],
               [
                 "capability:scuttlebrace:none",
                 "capability:scuttlebrace:none",
                 "capability:sprint:left",
                 "capability:crest-pogo:beast:easy",
-                "capability:flintslate-stall:medium"
+                "capability:stall:flintslate:medium"
               ]
             ],
             "unresolved_reasons": []
@@ -83184,11 +83237,11 @@
                 "capability:scuttlebrace:none"
               ],
               [
-                "capability:heal-stall:easy",
+                "capability:stall:heal:easy",
                 "capability:faydown-cloak"
               ],
               [
-                "capability:heal-stall:easy",
+                "capability:stall:heal:easy",
                 "capability:drifters-cloak"
               ]
             ],
@@ -95638,7 +95691,7 @@
                 "capability:crest-pogo:shaman:easy"
               ],
               [
-                "capability:flea-brew-stall:easy"
+                "capability:stall:flea-brew:easy"
               ],
               [
                 "capability:cling-grip:right",
@@ -95709,7 +95762,7 @@
                 "capability:cling-grip:right"
               ],
               [
-                "capability:flea-brew-stall:easy"
+                "capability:stall:flea-brew:easy"
               ],
               [
                 "capability:sharpdart:1"
@@ -108680,23 +108733,23 @@
               ],
               [
                 "capability:sharpdart",
-                "capability:heal-stall:easy"
+                "capability:stall:heal:easy"
               ],
               [
                 "capability:sharpdart",
-                "capability:flea-brew-stall:medium"
+                "capability:stall:flea-brew:medium"
               ],
               [
                 "capability:sharpdart",
-                "capability:flintslate-stall:easy"
+                "capability:stall:flintslate:easy"
               ],
               [
                 "capability:sharpdart",
-                "capability:plasmium-phial-stall:easy"
+                "capability:stall:plasmium-phial:easy"
               ],
               [
                 "capability:sharpdart",
-                "capability:voltvessels-stall:medium"
+                "capability:stall:voltvessels:medium"
               ],
               [
                 "capability:sharpdart",
@@ -108790,23 +108843,23 @@
               ],
               [
                 "capability:sharpdart",
-                "capability:heal-stall:easy"
+                "capability:stall:heal:easy"
               ],
               [
                 "capability:sharpdart",
-                "capability:flea-brew-stall:medium"
+                "capability:stall:flea-brew:medium"
               ],
               [
                 "capability:sharpdart",
-                "capability:flintslate-stall:easy"
+                "capability:stall:flintslate:easy"
               ],
               [
                 "capability:sharpdart",
-                "capability:plasmium-phial-stall:easy"
+                "capability:stall:plasmium-phial:easy"
               ],
               [
                 "capability:sharpdart",
-                "capability:voltvessels-stall:medium"
+                "capability:stall:voltvessels:medium"
               ],
               [
                 "capability:sharpdart",
@@ -110164,7 +110217,7 @@
               ],
               [
                 "capability:silk-soar",
-                "capability:heal-stall:easy"
+                "capability:stall:heal:easy"
               ],
               [
                 "capability:silk-soar",
@@ -112279,7 +112332,7 @@
                 "capability:crest-pogo:shaman:easy"
               ],
               [
-                "capability:heal-stall:medium",
+                "capability:stall:heal:medium",
                 "capability:crest-pogo:beast:easy"
               ],
               [
@@ -112628,7 +112681,7 @@
               ],
               [
                 "capability:faydown-cloak",
-                "capability:heal-stall:easy"
+                "capability:stall:heal:easy"
               ],
               [
                 "capability:faydown-cloak",
@@ -112731,7 +112784,7 @@
                 "capability:drifters-cloak"
               ],
               [
-                "capability:heal-stall:easy"
+                "capability:stall:heal:easy"
               ],
               [
                 "capability:crest-pogo:hunter:easy"
@@ -112801,7 +112854,7 @@
                 "capability:drifters-cloak"
               ],
               [
-                "capability:heal-stall:easy"
+                "capability:stall:heal:easy"
               ],
               [
                 "capability:crest-pogo:hunter:easy"
@@ -113544,7 +113597,7 @@
               ],
               [
                 "capability:swim",
-                "capability:heal-stall:easy",
+                "capability:stall:heal:easy",
                 "capability:crest-pogo:beast:easy"
               ],
               [
@@ -114640,7 +114693,7 @@
               [
                 "dependency:location:verdania/verdania-left-side-tall-room::switch/verdania-gate",
                 "capability:crest-pogo:beast:easy",
-                "capability:heal-stall:easy"
+                "capability:stall:heal:easy"
               ],
               [
                 "dependency:location:verdania/verdania-left-side-tall-room::switch/verdania-gate",
@@ -116457,7 +116510,7 @@
               ],
               [
                 "capability:flea-brew-jump",
-                "capability:flea-brew-stall:easy"
+                "capability:stall:flea-brew:easy"
               ],
               [
                 "capability:flea-brew-jump",
@@ -116515,7 +116568,7 @@
               ],
               [
                 "capability:flea-brew-jump",
-                "capability:flea-brew-stall:easy"
+                "capability:stall:flea-brew:easy"
               ],
               [
                 "capability:flea-brew-jump",
@@ -117188,7 +117241,7 @@
               ],
               [
                 "capability:cling-grip:none",
-                "capability:heal-stall:easy"
+                "capability:stall:heal:easy"
               ],
               [
                 "capability:scuttlebrace:none"
@@ -117802,7 +117855,7 @@
               ],
               [
                 "capability:flea-brew-jump",
-                "capability:flea-brew-stall:medium",
+                "capability:stall:flea-brew:medium",
                 "capability:ledge-grab:none"
               ]
             ],
@@ -117838,7 +117891,7 @@
               ],
               [
                 "capability:flea-brew-jump",
-                "capability:flea-brew-stall:easy"
+                "capability:stall:flea-brew:easy"
               ]
             ],
             "unresolved_reasons": []
@@ -119003,7 +119056,7 @@
               ],
               [
                 "capability:scuttlebrace:none",
-                "capability:flea-brew-stall:easy"
+                "capability:stall:flea-brew:easy"
               ],
               [
                 "capability:scuttlebrace:none",
@@ -119081,11 +119134,11 @@
               ],
               [
                 "capability:scuttlebrace:easy",
-                "capability:flea-brew-stall:easy"
+                "capability:stall:flea-brew:easy"
               ],
               [
                 "capability:scuttlebrace:easy",
-                "capability:heal-stall:medium"
+                "capability:stall:heal:medium"
               ],
               [
                 "capability:silk-soar"
@@ -119545,12 +119598,12 @@
               [
                 "capability:cling-grip:none",
                 "capability:flea-brew-jump",
-                "capability:flea-brew-stall:easy"
+                "capability:stall:flea-brew:easy"
               ],
               [
                 "capability:cling-grip:none",
                 "capability:flea-brew-jump",
-                "capability:heal-stall:easy"
+                "capability:stall:heal:easy"
               ],
               [
                 "capability:cling-grip:none",
@@ -119600,11 +119653,11 @@
               ],
               [
                 "capability:flea-brew-jump",
-                "capability:flea-brew-stall:easy"
+                "capability:stall:flea-brew:easy"
               ],
               [
                 "capability:flea-brew-jump",
-                "capability:heal-stall:easy"
+                "capability:stall:heal:easy"
               ],
               [
                 "capability:flea-brew-jump",
@@ -119641,12 +119694,12 @@
               [
                 "capability:faydown-cloak",
                 "capability:ledge-grab:none",
-                "capability:heal-stall:easy"
+                "capability:stall:heal:easy"
               ],
               [
                 "capability:faydown-cloak",
                 "capability:ledge-grab:none",
-                "capability:flea-brew-stall:easy"
+                "capability:stall:flea-brew:easy"
               ]
             ],
             "unresolved_reasons": []
@@ -120624,7 +120677,7 @@
               ],
               [
                 "capability:flea-brew-jump",
-                "capability:flea-brew-stall:easy"
+                "capability:stall:flea-brew:easy"
               ],
               [
                 "capability:flea-brew-jump",
@@ -120682,7 +120735,7 @@
               ],
               [
                 "capability:flea-brew-jump",
-                "capability:flea-brew-stall:easy"
+                "capability:stall:flea-brew:easy"
               ],
               [
                 "capability:flea-brew-jump",
@@ -120754,7 +120807,7 @@
               ],
               [
                 "capability:flea-brew-jump",
-                "capability:flea-brew-stall:easy",
+                "capability:stall:flea-brew:easy",
                 "capability:cling-grip:none"
               ],
               [
@@ -120851,7 +120904,7 @@
               ],
               [
                 "capability:flea-brew-jump",
-                "capability:flea-brew-stall:easy",
+                "capability:stall:flea-brew:easy",
                 "capability:cling-grip:none"
               ],
               [
@@ -120966,11 +121019,11 @@
               ],
               [
                 "capability:flea-brew-jump",
-                "capability:flea-brew-stall:easy"
+                "capability:stall:flea-brew:easy"
               ],
               [
                 "capability:flea-brew-jump",
-                "capability:heal-stall:easy"
+                "capability:stall:heal:easy"
               ]
             ],
             "unresolved_reasons": []
@@ -121704,7 +121757,7 @@
               ],
               [
                 "capability:flea-brew-jump",
-                "capability:flea-brew-stall:easy",
+                "capability:stall:flea-brew:easy",
                 "capability:ledge-grab:none"
               ]
             ],
@@ -121748,7 +121801,7 @@
               ],
               [
                 "capability:flea-brew-jump",
-                "capability:flea-brew-stall:easy",
+                "capability:stall:flea-brew:easy",
                 "capability:ledge-grab:none"
               ]
             ],
@@ -121792,7 +121845,7 @@
               ],
               [
                 "capability:flea-brew-jump",
-                "capability:flea-brew-stall:easy",
+                "capability:stall:flea-brew:easy",
                 "capability:ledge-grab:none"
               ]
             ],
@@ -121836,7 +121889,7 @@
               ],
               [
                 "capability:flea-brew-jump",
-                "capability:flea-brew-stall:easy",
+                "capability:stall:flea-brew:easy",
                 "capability:ledge-grab:none"
               ]
             ],
@@ -122144,11 +122197,11 @@
               ],
               [
                 "capability:flea-brew-jump",
-                "capability:flea-brew-stall:easy"
+                "capability:stall:flea-brew:easy"
               ],
               [
                 "capability:flea-brew-jump",
-                "capability:heal-stall:easy"
+                "capability:stall:heal:easy"
               ],
               [
                 "capability:flea-brew-jump",
@@ -122193,11 +122246,11 @@
               ],
               [
                 "capability:flea-brew-jump",
-                "capability:flea-brew-stall:easy"
+                "capability:stall:flea-brew:easy"
               ],
               [
                 "capability:flea-brew-jump",
-                "capability:heal-stall:easy"
+                "capability:stall:heal:easy"
               ],
               [
                 "capability:flea-brew-jump",
@@ -137089,16 +137142,16 @@
                 "capability:flea-brew-jump"
               ],
               [
-                "capability:flea-brew-stall:easy"
+                "capability:stall:flea-brew:easy"
               ],
               [
-                "capability:voltvessels-stall:easy"
+                "capability:stall:voltvessels:easy"
               ],
               [
-                "capability:plasmium-phial-stall:easy"
+                "capability:stall:plasmium-phial:easy"
               ],
               [
-                "capability:flintslate-stall:easy"
+                "capability:stall:flintslate:easy"
               ]
             ],
             "unresolved_reasons": []
@@ -138636,19 +138689,19 @@
               ],
               [
                 "capability:cling-grip:none",
-                "capability:flintslate-stall:easy"
+                "capability:stall:flintslate:easy"
               ],
               [
                 "capability:cling-grip:none",
-                "capability:plasmium-phial-stall:easy"
+                "capability:stall:plasmium-phial:easy"
               ],
               [
                 "capability:cling-grip:none",
-                "capability:voltvessels-stall:easy"
+                "capability:stall:voltvessels:easy"
               ],
               [
                 "capability:cling-grip:none",
-                "capability:flea-brew-stall:easy"
+                "capability:stall:flea-brew:easy"
               ],
               [
                 "capability:cling-grip:none",
@@ -139231,10 +139284,10 @@
                 "capability:needle-strike:architect:easy"
               ],
               [
-                "capability:voltvessels-stall:easy"
+                "capability:stall:voltvessels:easy"
               ],
               [
-                "capability:plasmium-phial-stall:easy"
+                "capability:stall:plasmium-phial:easy"
               ],
               [
                 "capability:flea-brew-jump"
@@ -139283,10 +139336,10 @@
                 "capability:needle-strike:architect:easy"
               ],
               [
-                "capability:voltvessels-stall:easy"
+                "capability:stall:voltvessels:easy"
               ],
               [
-                "capability:plasmium-phial-stall:easy"
+                "capability:stall:plasmium-phial:easy"
               ],
               [
                 "capability:flea-brew-jump"
@@ -140666,25 +140719,25 @@
               [
                 "dependency:location:underworks/underworks-shaft::switch/platform-fall-lever",
                 "capability:silk-soar",
-                "capability:flintslate-stall:easy",
+                "capability:stall:flintslate:easy",
                 "capability:ledge-grab:none"
               ],
               [
                 "dependency:location:underworks/underworks-shaft::switch/platform-fall-lever",
                 "capability:silk-soar",
-                "capability:plasmium-phial-stall:easy",
+                "capability:stall:plasmium-phial:easy",
                 "capability:ledge-grab:none"
               ],
               [
                 "dependency:location:underworks/underworks-shaft::switch/platform-fall-lever",
                 "capability:silk-soar",
-                "capability:voltvessels-stall:easy",
+                "capability:stall:voltvessels:easy",
                 "capability:ledge-grab:none"
               ],
               [
                 "dependency:location:underworks/underworks-shaft::switch/platform-fall-lever",
                 "capability:silk-soar",
-                "capability:flea-brew-stall:easy",
+                "capability:stall:flea-brew:easy",
                 "capability:ledge-grab:none"
               ]
             ],
@@ -141805,17 +141858,17 @@
               [
                 "dependency:location:underworks/underworks-crushing-path::blockade/breakable-ceiling",
                 "capability:cling-grip:none",
-                "capability:flea-brew-stall:easy"
+                "capability:stall:flea-brew:easy"
               ],
               [
                 "dependency:location:underworks/underworks-crushing-path::blockade/breakable-ceiling",
                 "capability:cling-grip:none",
-                "capability:voltvessels-stall:medium"
+                "capability:stall:voltvessels:medium"
               ],
               [
                 "dependency:location:underworks/underworks-crushing-path::blockade/breakable-ceiling",
                 "capability:cling-grip:none",
-                "capability:plasmium-phial-stall:medium"
+                "capability:stall:plasmium-phial:medium"
               ],
               [
                 "dependency:location:underworks/underworks-crushing-path::blockade/breakable-ceiling",
@@ -142706,15 +142759,15 @@
                 "capability:ledge-grab:none"
               ],
               [
-                "capability:flintslate-stall:medium",
+                "capability:stall:flintslate:medium",
                 "capability:ledge-grab:none"
               ],
               [
-                "capability:voltvessels-stall:easy",
+                "capability:stall:voltvessels:easy",
                 "capability:ledge-grab:none"
               ],
               [
-                "capability:plasmium-phial-stall:easy",
+                "capability:stall:plasmium-phial:easy",
                 "capability:ledge-grab:none"
               ],
               [
@@ -142776,13 +142829,13 @@
                 "capability:crest-pogo:beast:easy"
               ],
               [
-                "capability:voltvessels-stall:easy"
+                "capability:stall:voltvessels:easy"
               ],
               [
-                "capability:plasmium-phial-stall:easy"
+                "capability:stall:plasmium-phial:easy"
               ],
               [
-                "capability:flea-brew-stall:easy"
+                "capability:stall:flea-brew:easy"
               ],
               [
                 "capability:flea-brew-jump"
@@ -142792,7 +142845,7 @@
                 "capability:ledge-grab:none"
               ],
               [
-                "capability:flintslate-stall:medium",
+                "capability:stall:flintslate:medium",
                 "capability:ledge-grab:none"
               ]
             ],
@@ -143419,12 +143472,12 @@
               [
                 "dependency:location:underworks/underworks-wisp-thicket-passage::switch/hell-skip-lever",
                 "capability:cling-grip:none",
-                "capability:voltvessels-stall:easy"
+                "capability:stall:voltvessels:easy"
               ],
               [
                 "dependency:location:underworks/underworks-wisp-thicket-passage::switch/hell-skip-lever",
                 "capability:cling-grip:none",
-                "capability:flintslate-stall:medium"
+                "capability:stall:flintslate:medium"
               ],
               [
                 "dependency:location:underworks/underworks-wisp-thicket-passage::switch/hell-skip-lever",
@@ -143434,12 +143487,12 @@
               [
                 "dependency:location:underworks/underworks-wisp-thicket-passage::switch/hell-skip-lever",
                 "capability:cling-grip:none",
-                "capability:flea-brew-stall:easy"
+                "capability:stall:flea-brew:easy"
               ],
               [
                 "dependency:location:underworks/underworks-wisp-thicket-passage::switch/hell-skip-lever",
                 "capability:cling-grip:none",
-                "capability:plasmium-phial-stall:easy"
+                "capability:stall:plasmium-phial:easy"
               ],
               [
                 "dependency:location:underworks/underworks-wisp-thicket-passage::switch/hell-skip-lever",
@@ -145309,25 +145362,25 @@
                 "capability:faydown-cloak",
                 "capability:ledge-grab:right",
                 "technique:damage-boost:Pilgrim 01 Song:easy",
-                "capability:heal-stall:easy"
+                "capability:stall:heal:easy"
               ],
               [
                 "capability:faydown-cloak",
                 "capability:ledge-grab:right",
                 "technique:damage-boost:Pilgrim 01 Song:easy",
-                "capability:voltvessels-stall:easy"
+                "capability:stall:voltvessels:easy"
               ],
               [
                 "capability:faydown-cloak",
                 "capability:ledge-grab:right",
                 "technique:damage-boost:Pilgrim 01 Song:easy",
-                "capability:plasmium-phial-stall:easy"
+                "capability:stall:plasmium-phial:easy"
               ],
               [
                 "capability:faydown-cloak",
                 "capability:ledge-grab:right",
                 "technique:damage-boost:Pilgrim 01 Song:easy",
-                "capability:flintslate-stall:easy"
+                "capability:stall:flintslate:easy"
               ],
               [
                 "capability:faydown-cloak",
@@ -145356,22 +145409,22 @@
               [
                 "capability:cling-grip:both",
                 "capability:ledge-grab:right",
-                "capability:heal-stall:easy"
+                "capability:stall:heal:easy"
               ],
               [
                 "capability:cling-grip:both",
                 "capability:ledge-grab:right",
-                "capability:voltvessels-stall:easy"
+                "capability:stall:voltvessels:easy"
               ],
               [
                 "capability:cling-grip:both",
                 "capability:ledge-grab:right",
-                "capability:plasmium-phial-stall:easy"
+                "capability:stall:plasmium-phial:easy"
               ],
               [
                 "capability:cling-grip:both",
                 "capability:ledge-grab:right",
-                "capability:flintslate-stall:easy"
+                "capability:stall:flintslate:easy"
               ],
               [
                 "capability:scuttlebrace:none",
@@ -146938,22 +146991,22 @@
               [
                 "capability:sprint:none",
                 "technique:damage-boost:Pilgrim 01 Song:easy",
-                "capability:heal-stall:easy"
+                "capability:stall:heal:easy"
               ],
               [
                 "capability:sprint:none",
                 "technique:damage-boost:Pilgrim 01 Song:easy",
-                "capability:voltvessels-stall:easy"
+                "capability:stall:voltvessels:easy"
               ],
               [
                 "capability:sprint:none",
                 "technique:damage-boost:Pilgrim 01 Song:easy",
-                "capability:plasmium-phial-stall:easy"
+                "capability:stall:plasmium-phial:easy"
               ],
               [
                 "capability:sprint:none",
                 "technique:damage-boost:Pilgrim 01 Song:easy",
-                "capability:flintslate-stall:easy"
+                "capability:stall:flintslate:easy"
               ],
               [
                 "capability:silk-soar"
@@ -147151,7 +147204,7 @@
               [
                 "capability:cling-grip:left",
                 "capability:enemy-type-pogo:Pilgrim 04 Song:easy",
-                "capability:heal-stall:easy"
+                "capability:stall:heal:easy"
               ],
               [
                 "capability:faydown-cloak",
@@ -147161,13 +147214,13 @@
               ],
               [
                 "capability:enemy-type-pogo:Pilgrim 04 Song:easy",
-                "capability:heal-stall:easy",
+                "capability:stall:heal:easy",
                 "capability:spike-pogo",
                 "capability:ledge-grab:either"
               ],
               [
                 "capability:enemy-type-pogo:Pilgrim Stomper Song:easy",
-                "capability:heal-stall:easy",
+                "capability:stall:heal:easy",
                 "capability:spike-pogo",
                 "capability:ledge-grab:either"
               ],
@@ -147382,19 +147435,19 @@
               ],
               [
                 "capability:sprint:none",
-                "capability:heal-stall:easy"
+                "capability:stall:heal:easy"
               ],
               [
                 "capability:sprint:none",
-                "capability:voltvessels-stall:easy"
+                "capability:stall:voltvessels:easy"
               ],
               [
                 "capability:sprint:none",
-                "capability:plasmium-phial-stall:easy"
+                "capability:stall:plasmium-phial:easy"
               ],
               [
                 "capability:sprint:none",
-                "capability:flintslate-stall:easy"
+                "capability:stall:flintslate:easy"
               ],
               [
                 "capability:silk-soar",
@@ -147441,22 +147494,22 @@
               ],
               [
                 "capability:enemy-type-pogo:Pilgrim 04 Song:easy",
-                "capability:heal-stall:easy",
+                "capability:stall:heal:easy",
                 "technique:damage-boost:Pilgrim 04 Song:easy"
               ],
               [
                 "capability:enemy-type-pogo:Pilgrim 04 Song:easy",
-                "capability:voltvessels-stall:easy",
+                "capability:stall:voltvessels:easy",
                 "technique:damage-boost:Pilgrim 04 Song:easy"
               ],
               [
                 "capability:enemy-type-pogo:Pilgrim 04 Song:easy",
-                "capability:plasmium-phial-stall:easy",
+                "capability:stall:plasmium-phial:easy",
                 "technique:damage-boost:Pilgrim 04 Song:easy"
               ],
               [
                 "capability:enemy-type-pogo:Pilgrim 04 Song:easy",
-                "capability:flintslate-stall:easy",
+                "capability:stall:flintslate:easy",
                 "technique:damage-boost:Pilgrim 04 Song:easy"
               ],
               [
@@ -149495,25 +149548,25 @@
               [
                 "capability:enemy-type-pogo:Pilgrim 01 Song:easy",
                 "capability:enemy-type-pogo:Song Reed:easy",
-                "capability:heal-stall:easy",
+                "capability:stall:heal:easy",
                 "capability:damage-boost:easy"
               ],
               [
                 "capability:enemy-type-pogo:Pilgrim 01 Song:easy",
                 "capability:enemy-type-pogo:Song Reed:easy",
-                "capability:voltvessels-stall:easy",
+                "capability:stall:voltvessels:easy",
                 "capability:damage-boost:easy"
               ],
               [
                 "capability:enemy-type-pogo:Pilgrim 01 Song:easy",
                 "capability:enemy-type-pogo:Song Reed:easy",
-                "capability:plasmium-phial-stall:easy",
+                "capability:stall:plasmium-phial:easy",
                 "capability:damage-boost:easy"
               ],
               [
                 "capability:enemy-type-pogo:Pilgrim 01 Song:easy",
                 "capability:enemy-type-pogo:Song Reed:easy",
-                "capability:flintslate-stall:easy",
+                "capability:stall:flintslate:easy",
                 "capability:damage-boost:easy"
               ],
               [
@@ -152080,7 +152133,7 @@
               [
                 "capability:ledge-grab:none",
                 "capability:crest-pogo:beast:medium",
-                "capability:heal-stall:medium"
+                "capability:stall:heal:medium"
               ],
               [
                 "capability:ledge-grab:none",
@@ -152088,11 +152141,11 @@
               ],
               [
                 "capability:ledge-grab:none",
-                "capability:voltvessels-stall:easy"
+                "capability:stall:voltvessels:easy"
               ],
               [
                 "capability:ledge-grab:none",
-                "capability:plasmium-phial-stall:easy"
+                "capability:stall:plasmium-phial:easy"
               ],
               [
                 "capability:scuttlebrace:none"
@@ -154492,16 +154545,16 @@
                 "capability:sharpdart"
               ],
               [
-                "capability:heal-stall:easy"
+                "capability:stall:heal:easy"
               ],
               [
-                "capability:voltvessels-stall:easy"
+                "capability:stall:voltvessels:easy"
               ],
               [
-                "capability:plasmium-phial-stall:easy"
+                "capability:stall:plasmium-phial:easy"
               ],
               [
-                "capability:flintslate-stall:easy"
+                "capability:stall:flintslate:easy"
               ],
               [
                 "capability:silk-soar"
@@ -158709,36 +158762,34 @@
           "source_node_id": "cogwork-core/cogwork-core-north-main#lower-entrance",
           "target_node_id": "cogwork-core/cogwork-core-north-main#lever-door",
           "requirement": {
-            "raw": "((Proficient Movement AND Spike Pogo) \nAND Medium Hunter Pogo\nAND Medium Reaper Pogo\nAND Medium Architect Pogo\nAND Medium Shaman Pogo\nAND (Cling Grip OR Faydown Cloak OR Ledge Grab) AND Easy Enemy Pogo (Easy Skip))",
+            "raw": "((Proficient Movement AND Spike Pogo) \nOR Medium Hunter Pogo\nOR Medium Reaper Pogo\nOR Medium Architect Pogo\nOR Medium Shaman Pogo\nOR ((Cling Grip OR Faydown Cloak OR Ledge Grab) AND (Easy Enemy Pogo)))",
             "mode": "expression",
             "dnf": [
               [
                 "capability:proficient-movement",
-                "capability:spike-pogo",
-                "capability:crest-pogo:hunter:medium",
-                "capability:crest-pogo:reaper:medium",
-                "capability:crest-pogo:architect:medium",
-                "capability:crest-pogo:shaman:medium",
+                "capability:spike-pogo"
+              ],
+              [
+                "capability:crest-pogo:hunter:medium"
+              ],
+              [
+                "capability:crest-pogo:reaper:medium"
+              ],
+              [
+                "capability:crest-pogo:architect:medium"
+              ],
+              [
+                "capability:crest-pogo:shaman:medium"
+              ],
+              [
                 "capability:cling-grip:none",
                 "capability:enemy-pogo:easy"
               ],
               [
-                "capability:proficient-movement",
-                "capability:spike-pogo",
-                "capability:crest-pogo:hunter:medium",
-                "capability:crest-pogo:reaper:medium",
-                "capability:crest-pogo:architect:medium",
-                "capability:crest-pogo:shaman:medium",
                 "capability:faydown-cloak",
                 "capability:enemy-pogo:easy"
               ],
               [
-                "capability:proficient-movement",
-                "capability:spike-pogo",
-                "capability:crest-pogo:hunter:medium",
-                "capability:crest-pogo:reaper:medium",
-                "capability:crest-pogo:architect:medium",
-                "capability:crest-pogo:shaman:medium",
                 "capability:ledge-grab:none",
                 "capability:enemy-pogo:easy"
               ]
@@ -166999,11 +167050,11 @@
               ],
               [
                 "capability:scuttlebrace:none",
-                "capability:flea-brew-stall:medium"
+                "capability:stall:flea-brew:medium"
               ],
               [
                 "capability:scuttlebrace:none",
-                "capability:heal-stall:medium"
+                "capability:stall:heal:medium"
               ],
               [
                 "capability:scuttlebrace:none",
@@ -167737,10 +167788,10 @@
                 "item:tool-flea-brew"
               ],
               [
-                "capability:plasmium-phial-stall:easy"
+                "capability:stall:plasmium-phial:easy"
               ],
               [
-                "capability:voltvessels-stall:easy"
+                "capability:stall:voltvessels:easy"
               ]
             ],
             "unresolved_reasons": []
@@ -167786,10 +167837,10 @@
                 "item:tool-flea-brew"
               ],
               [
-                "capability:plasmium-phial-stall:easy"
+                "capability:stall:plasmium-phial:easy"
               ],
               [
-                "capability:voltvessels-stall:easy"
+                "capability:stall:voltvessels:easy"
               ]
             ],
             "unresolved_reasons": []
@@ -167835,10 +167886,10 @@
                 "capability:flea-brew-jump"
               ],
               [
-                "capability:plasmium-phial-stall:easy"
+                "capability:stall:plasmium-phial:easy"
               ],
               [
-                "capability:voltvessels-stall:easy"
+                "capability:stall:voltvessels:easy"
               ]
             ],
             "unresolved_reasons": []
@@ -167884,10 +167935,10 @@
                 "capability:flea-brew-jump"
               ],
               [
-                "capability:plasmium-phial-stall:easy"
+                "capability:stall:plasmium-phial:easy"
               ],
               [
-                "capability:voltvessels-stall:easy"
+                "capability:stall:voltvessels:easy"
               ]
             ],
             "unresolved_reasons": []
@@ -169763,15 +169814,15 @@
               ],
               [
                 "capability:faydown-cloak",
-                "capability:voltvessels-stall:easy"
+                "capability:stall:voltvessels:easy"
               ],
               [
                 "capability:faydown-cloak",
-                "capability:plasmium-phial-stall:easy"
+                "capability:stall:plasmium-phial:easy"
               ],
               [
                 "capability:faydown-cloak",
-                "capability:flintslate-stall:medium"
+                "capability:stall:flintslate:medium"
               ],
               [
                 "capability:faydown-cloak",
@@ -169816,20 +169867,20 @@
               ],
               [
                 "capability:flea-brew-jump",
-                "capability:flea-brew-stall:easy",
+                "capability:stall:flea-brew:easy",
                 "capability:ledge-grab:none"
               ],
               [
                 "capability:flea-brew-jump",
-                "capability:flea-brew-stall:easy",
+                "capability:stall:flea-brew:easy",
                 "capability:cling-grip:none"
               ],
               [
-                "capability:flintslate-stall:medium",
+                "capability:stall:flintslate:medium",
                 "capability:ledge-grab:none"
               ],
               [
-                "capability:flintslate-stall:medium",
+                "capability:stall:flintslate:medium",
                 "capability:cling-grip:none"
               ],
               [
@@ -169841,10 +169892,10 @@
                 "capability:cling-grip:none"
               ],
               [
-                "capability:plasmium-phial-stall:medium"
+                "capability:stall:plasmium-phial:medium"
               ],
               [
-                "capability:voltvessels-stall:medium"
+                "capability:stall:voltvessels:medium"
               ]
             ],
             "unresolved_reasons": []
@@ -169912,13 +169963,13 @@
               ],
               [
                 "capability:flea-brew-jump",
-                "capability:flea-brew-stall:easy"
+                "capability:stall:flea-brew:easy"
               ],
               [
-                "capability:voltvessels-stall:medium"
+                "capability:stall:voltvessels:medium"
               ],
               [
-                "capability:plasmium-phial-stall:medium"
+                "capability:stall:plasmium-phial:medium"
               ]
             ],
             "unresolved_reasons": []
@@ -169968,11 +170019,11 @@
               ],
               [
                 "capability:faydown-cloak",
-                "capability:voltvessels-stall:easy"
+                "capability:stall:voltvessels:easy"
               ],
               [
                 "capability:faydown-cloak",
-                "capability:plasmium-phial-stall:easy"
+                "capability:stall:plasmium-phial:easy"
               ],
               [
                 "capability:faydown-cloak",
@@ -169980,7 +170031,7 @@
               ],
               [
                 "capability:faydown-cloak",
-                "capability:flintslate-stall:easy",
+                "capability:stall:flintslate:easy",
                 "capability:ledge-grab:none"
               ]
             ],
@@ -170024,13 +170075,13 @@
                 "capability:scuttlebrace:easy"
               ],
               [
-                "capability:flintslate-stall:easy"
+                "capability:stall:flintslate:easy"
               ],
               [
-                "capability:voltvessels-stall:easy"
+                "capability:stall:voltvessels:easy"
               ],
               [
-                "capability:plasmium-phial-stall:easy"
+                "capability:stall:plasmium-phial:easy"
               ],
               [
                 "capability:flea-brew-jump"
@@ -170083,7 +170134,7 @@
               ],
               [
                 "capability:cling-grip:none",
-                "capability:plasmium-phial-stall:easy"
+                "capability:stall:plasmium-phial:easy"
               ],
               [
                 "capability:scuttlebrace:easy",
@@ -170111,7 +170162,7 @@
               ],
               [
                 "capability:scuttlebrace:easy",
-                "capability:plasmium-phial-stall:easy"
+                "capability:stall:plasmium-phial:easy"
               ],
               [
                 "capability:clawline:none",
@@ -170162,13 +170213,13 @@
                 "capability:scuttlebrace:easy"
               ],
               [
-                "capability:flintslate-stall:easy"
+                "capability:stall:flintslate:easy"
               ],
               [
-                "capability:voltvessels-stall:easy"
+                "capability:stall:voltvessels:easy"
               ],
               [
-                "capability:plasmium-phial-stall:easy"
+                "capability:stall:plasmium-phial:easy"
               ],
               [
                 "capability:flea-brew-jump"
@@ -171167,13 +171218,13 @@
                 "capability:faydown-cloak"
               ],
               [
-                "capability:plasmium-phial-stall:easy",
+                "capability:stall:plasmium-phial:easy",
                 "capability:faydown-cloak",
                 "capability:sprint:none",
                 "capability:ledge-grab:none"
               ],
               [
-                "capability:plasmium-phial-stall:easy",
+                "capability:stall:plasmium-phial:easy",
                 "capability:faydown-cloak",
                 "capability:sprint:none",
                 "capability:cling-grip:none"
@@ -171218,11 +171269,11 @@
               ],
               [
                 "capability:faydown-cloak",
-                "capability:plasmium-phial-stall:medium"
+                "capability:stall:plasmium-phial:medium"
               ],
               [
                 "capability:faydown-cloak",
-                "capability:voltvessels-stall:medium"
+                "capability:stall:voltvessels:medium"
               ],
               [
                 "capability:faydown-cloak",
@@ -171344,13 +171395,13 @@
                 "capability:needle-strike:shaman:easy"
               ],
               [
-                "capability:flintslate-stall:easy"
+                "capability:stall:flintslate:easy"
               ],
               [
-                "capability:plasmium-phial-stall:easy"
+                "capability:stall:plasmium-phial:easy"
               ],
               [
-                "capability:voltvessels-stall:easy"
+                "capability:stall:voltvessels:easy"
               ],
               [
                 "capability:flea-brew-jump"
@@ -193972,7 +194023,7 @@
               ],
               [
                 "capability:sprint:none",
-                "capability:heal-stall:medium"
+                "capability:stall:heal:medium"
               ],
               [
                 "capability:sprint:none",
@@ -194054,7 +194105,7 @@
               ],
               [
                 "capability:drifters-cloak",
-                "capability:heal-stall:medium"
+                "capability:stall:heal:medium"
               ],
               [
                 "capability:drifters-cloak",
@@ -203113,7 +203164,7 @@
               [
                 "capability:faydown-cloak",
                 "capability:scuttlebrace:none",
-                "capability:heal-stall:hard"
+                "capability:stall:heal:hard"
               ],
               [
                 "capability:faydown-cloak",
@@ -204990,11 +205041,11 @@
                 "capability:dash:left"
               ],
               [
-                "capability:heal-stall:medium",
+                "capability:stall:heal:medium",
                 "capability:ledge-grab:left"
               ],
               [
-                "capability:plasmium-phial-stall:medium",
+                "capability:stall:plasmium-phial:medium",
                 "capability:ledge-grab:left"
               ],
               [
@@ -208333,7 +208384,7 @@
                 "capability:sharpdart",
                 "capability:proficient-movement",
                 "capability:spike-pogo",
-                "capability:heal-stall:hard",
+                "capability:stall:heal:hard",
                 "capability:cocoon-skip:hard",
                 "capability:enemy-type-pogo:Peaks Drifter:easy"
               ],
@@ -208491,7 +208542,7 @@
                 "capability:faydown-cloak",
                 "capability:proficient-movement",
                 "capability:spike-pogo",
-                "capability:heal-stall:hard",
+                "capability:stall:heal:hard",
                 "capability:cocoon-skip:hard",
                 "capability:ledge-grab:left"
               ],
@@ -208549,7 +208600,7 @@
               ],
               [
                 "capability:dash:right",
-                "capability:heal-stall:medium"
+                "capability:stall:heal:medium"
               ]
             ],
             "unresolved_reasons": []
@@ -208579,7 +208630,7 @@
               ],
               [
                 "capability:faydown-cloak",
-                "capability:heal-stall:hard",
+                "capability:stall:heal:hard",
                 "capability:scuttlebrace:none"
               ]
             ],
@@ -208826,7 +208877,7 @@
               [
                 "dependency:location:mount-fay/mount-fay-entrance::blockade/breakable-wall-mount-fay-entrance",
                 "capability:crest-pogo:beast:easy",
-                "capability:heal-stall:medium",
+                "capability:stall:heal:medium",
                 "capability:ledge-grab:either"
               ]
             ],
@@ -209024,7 +209075,7 @@
                 "capability:sharpdart",
                 "capability:proficient-movement",
                 "capability:spike-pogo",
-                "capability:heal-stall:hard",
+                "capability:stall:heal:hard",
                 "capability:cocoon-skip:hard",
                 "capability:enemy-type-pogo:Peaks Drifter:easy"
               ],
@@ -209070,7 +209121,7 @@
                 "capability:sharpdart",
                 "capability:proficient-movement",
                 "capability:spike-pogo",
-                "capability:heal-stall:hard",
+                "capability:stall:heal:hard",
                 "capability:cocoon-skip:hard",
                 "capability:enemy-type-pogo:Peaks Drifter:easy"
               ],
@@ -209116,7 +209167,7 @@
                 "capability:sharpdart",
                 "capability:proficient-movement",
                 "capability:spike-pogo",
-                "capability:heal-stall:hard",
+                "capability:stall:heal:hard",
                 "capability:cocoon-skip:hard",
                 "capability:enemy-type-pogo:Peaks Drifter:easy"
               ],
@@ -213225,8 +213276,8 @@
                 "capability:dash:both",
                 "capability:sprint:both",
                 "capability:drifters-cloak",
-                "capability:flea-brew-stall:hard",
-                "capability:heal-stall:hard"
+                "capability:stall:flea-brew:hard",
+                "capability:stall:heal:hard"
               ],
               [
                 "capability:cling-grip:left",
@@ -213248,8 +213299,8 @@
                 "capability:dash:both",
                 "capability:sprint:both",
                 "capability:drifters-cloak",
-                "capability:flea-brew-stall:hard",
-                "capability:heal-stall:hard"
+                "capability:stall:flea-brew:hard",
+                "capability:stall:heal:hard"
               ]
             ],
             "unresolved_reasons": []
@@ -213948,7 +213999,7 @@
                 "capability:proficient-movement"
               ],
               [
-                "capability:heal-stall:easy",
+                "capability:stall:heal:easy",
                 "capability:cling-grip:left",
                 "capability:swim"
               ],
@@ -215930,7 +215981,7 @@
               ],
               [
                 "capability:crest-pogo:beast:easy",
-                "capability:heal-stall:hard"
+                "capability:stall:heal:hard"
               ],
               [
                 "capability:crest-pogo:beast:easy",
@@ -216356,7 +216407,7 @@
               ],
               [
                 "capability:ledge-grab:none",
-                "capability:heal-stall:hard"
+                "capability:stall:heal:hard"
               ]
             ],
             "unresolved_reasons": []
@@ -216471,7 +216522,7 @@
               ],
               [
                 "capability:ledge-grab:none",
-                "capability:heal-stall:hard"
+                "capability:stall:heal:hard"
               ]
             ],
             "unresolved_reasons": []
@@ -216526,7 +216577,7 @@
               ],
               [
                 "capability:ledge-grab:none",
-                "capability:heal-stall:hard"
+                "capability:stall:heal:hard"
               ]
             ],
             "unresolved_reasons": []
@@ -216593,7 +216644,7 @@
               [
                 "capability:swim",
                 "capability:crest-pogo:beast:hard",
-                "capability:heal-stall:hard"
+                "capability:stall:heal:hard"
               ],
               [
                 "capability:sprint:none",
@@ -216742,7 +216793,7 @@
               [
                 "capability:swim",
                 "capability:crest-pogo:beast:easy",
-                "capability:heal-stall:hard"
+                "capability:stall:heal:hard"
               ],
               [
                 "capability:faydown-cloak",
@@ -219111,7 +219162,7 @@
               [
                 "capability:faydown-cloak",
                 "capability:ledge-grab:none",
-                "capability:heal-stall:hard"
+                "capability:stall:heal:hard"
               ],
               [
                 "capability:sharpdart"
@@ -219176,7 +219227,7 @@
               [
                 "capability:faydown-cloak",
                 "capability:ledge-grab:none",
-                "capability:heal-stall:hard"
+                "capability:stall:heal:hard"
               ],
               [
                 "capability:sharpdart"

@@ -2,7 +2,7 @@
 
 **Game ID:** Tut_03
 
-**Contributors:** herounit
+**Contributors:** herounit, gallos
 
 ## Subrooms
 

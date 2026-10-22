@@ -27666,7 +27666,7 @@
       "referenceId": "moss grotto center",
       "friendlyName": "Moss Grotto Center",
       "inGameId": "Tut_01",
-      "contributors": "herounit, super epicguy",
+      "contributors": "herounit, super epicguy, gallos",
       "comments": "renamed from \u0022moss grotto west\u0022 - was mistakenly marked as same room as west room\nnot having the west part as part of this area causes the graph to be more complex",
       "sceneMinX": 0,
       "sceneMinY": 0,
@@ -27684,7 +27684,7 @@
       "isArchived": false,
       "archivedUtc": null,
       "createdUtc": "2026-08-02T20:49:50.4927449Z",
-      "updatedUtc": "2026-10-10T16:53:29.4663042Z",
+      "updatedUtc": "2026-10-22T00:28:50.8024417Z",
       "subrooms": [
         {
           "id": "2f095584-daa1-4f2b-9dad-378b47350407",
@@ -28222,7 +28222,7 @@
           "friendlyName": "shaft 3",
           "sourceSubroomReferenceText": "lower crossing",
           "destinationSubroomReferenceText": "center shaft",
-          "requirements": "silk soar \nOR cling grip right\nOR ( cling grip left AND ( clawline left OR faydown ) )\nOR ( medium scuttlebrace (chains multiple) AND ( clawline left OR faydown cloak ) ) ",
+          "requirements": "silk soar \nOR cling grip right\nOR ( cling grip left AND ( clawline left OR faydown OR sharpdart ) )\nOR ( medium scuttlebrace (chains multiple) AND ( clawline left OR faydown cloak ) ) ",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 52.018310546875,
@@ -28233,7 +28233,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-03T23:42:16.8111803Z",
-          "updatedUtc": "2026-10-21T01:20:11.9917068Z"
+          "updatedUtc": "2026-10-22T00:34:56.3004734Z"
         },
         {
           "id": "f5ffc958-3fd0-45f5-bf1c-11a8efc9bfd3",
@@ -28260,7 +28260,7 @@
           "friendlyName": "shaft 4",
           "sourceSubroomReferenceText": "dead ledge",
           "destinationSubroomReferenceText": "lower crossing",
-          "requirements": "( ( ledge grab right OR cling grip right OR dash right OR clawline right ) OR ( ledge grab left OR cling grip left ) )\nOR faydown cloak \nOR silk soar \nOR medium scuttlebrace (fall is punishing)",
+          "requirements": "( ( ledge grab right OR cling grip right OR dash right OR clawline right ) AND ( ledge grab left OR cling grip left ) )\nOR faydown cloak \nOR silk soar \nOR medium scuttlebrace (fall is punishing)",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 51.908748626708984,
@@ -28271,7 +28271,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-01T21:56:50.5947929Z",
-          "updatedUtc": "2026-10-21T01:21:54.4131699Z"
+          "updatedUtc": "2026-10-22T00:40:45.6217768Z"
         },
         {
           "id": "64b713c5-66d4-489b-98e2-e2e14c909b12",
@@ -28298,7 +28298,7 @@
           "friendlyName": "shaft 5",
           "sourceSubroomReferenceText": "rock bottom",
           "destinationSubroomReferenceText": "dead ledge",
-          "requirements": "silk soar\nOR ( cling grip left AND faydown ) \nOR ( hard scuttlebrace AND faydown AND ( ( drifters cloak AND ledge grab left ) OR clawline left\u0060 OR sharpdart ) )",
+          "requirements": "silk soar\nOR ( cling grip left AND faydown ) \nOR ( easy scuttlebrace AND run AND faydown AND ( ( drifters cloak AND ledge grab left ) OR clawline left OR sharpdart ) )",
           "notes": "hard scuttlebrace logic needs a review. seg shared a video at one point, but this was labelled easy and def shouldn\u0027t be - hero, 10/20",
           "enableAnnotation": true,
           "sceneUnitX": 51.3123664855957,
@@ -28309,7 +28309,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-03T23:43:49.8909807Z",
-          "updatedUtc": "2026-10-21T01:29:21.1564654Z"
+          "updatedUtc": "2026-10-22T00:55:21.4441022Z"
         },
         {
           "id": "a21ea849-0a62-43d2-b3cb-c4676b396a9d",
@@ -28477,7 +28477,7 @@
           "annotationSceneUnitX": 106.15904998779297,
           "annotationSceneUnitY": 18.851346969604492,
           "subroomReferenceText": "beast alcove",
-          "requirements": "none",
+          "requirements": "defeat Marrowmaw 1",
           "notes": "",
           "locationType": "collectible",
           "enableAnnotation": true,
@@ -28487,7 +28487,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-02T20:49:50.4927449Z",
-          "updatedUtc": "2026-10-04T05:40:04.3914038Z"
+          "updatedUtc": "2026-10-22T01:42:20.4106448Z"
         },
         {
           "id": "4a2c4a83-0969-4c63-a889-c2722db5882e",
@@ -62024,7 +62024,7 @@
           "friendlyName": "Bottom Entrance-Lever",
           "sourceSubroomReferenceText": "Lower Entrance",
           "destinationSubroomReferenceText": "Lever Door",
-          "requirements": "((Proficient Movement AND Spike Pogo) \nAND Medium Hunter Pogo\nAND Medium Reaper Pogo\nAND Medium Architect Pogo\nAND Medium Shaman Pogo\nAND (Cling Grip OR Faydown Cloak OR Ledge Grab) AND Easy Enemy Pogo (Easy Skip))",
+          "requirements": "((Proficient Movement AND Spike Pogo) \nOR Medium Hunter Pogo\nOR Medium Reaper Pogo\nOR Medium Architect Pogo\nOR Medium Shaman Pogo\nOR ((Cling Grip OR Faydown Cloak OR Ledge Grab) AND (Easy Enemy Pogo)))",
           "notes": "Can be clawline only\u0027d but since theres no specific skip tag for that i am omitting it.",
           "enableAnnotation": true,
           "sceneUnitX": 29.587501525878906,
@@ -62035,7 +62035,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-25T03:38:36.2038865Z",
-          "updatedUtc": "2026-09-26T09:49:36.6950066Z"
+          "updatedUtc": "2026-10-21T08:03:02.3301748Z"
         },
         {
           "id": "f62f8e16-d5aa-4c36-be0f-134d1c9e6fc3",
@@ -85171,7 +85171,7 @@
       "referenceId": "moss grotto west",
       "friendlyName": "Moss Grotto West",
       "inGameId": "Tut_02",
-      "contributors": "herounit",
+      "contributors": "herounit, gallos",
       "comments": "somehow missed this being its own room before",
       "sceneMinX": 0,
       "sceneMinY": 0,
@@ -85189,7 +85189,7 @@
       "isArchived": false,
       "archivedUtc": null,
       "createdUtc": "2026-08-03T23:15:29.0398461Z",
-      "updatedUtc": "2026-10-10T16:53:58.2347456Z",
+      "updatedUtc": "2026-10-22T00:56:03.2255494Z",
       "subrooms": [
         {
           "id": "9205bb6c-fede-4f46-9559-7f4b37e735ff",
@@ -85501,7 +85501,7 @@
           "friendlyName": "back grab 1",
           "sourceSubroomReferenceText": "the backroom floor",
           "destinationSubroomReferenceText": "the backroom exit",
-          "requirements": "ledge grab left\nOR cling grip either\nOR faydown cloak \nOR silk soar",
+          "requirements": "ledge grab left\nOR cling grip either\nOR faydown cloak \nOR silk soar\nOR easy damage boost off mossgrub\nOR easy enemy pogo off mossgrub",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 5.533483982086182,
@@ -85512,7 +85512,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-10T23:27:43.0763041Z",
-          "updatedUtc": "2026-10-21T00:43:22.6695938Z"
+          "updatedUtc": "2026-10-22T01:15:08.3946783Z"
         },
         {
           "id": "8c19fbdd-5ab1-4145-9638-5a5bf2cd43a8",
@@ -85539,7 +85539,7 @@
           "friendlyName": "back grab 2",
           "sourceSubroomReferenceText": "the backroom exit",
           "destinationSubroomReferenceText": "the backroom cache",
-          "requirements": "ledge grab right\nOR cling grip either\nOR faydown cloak\nOR silk soar\nOR easy shaman pogo\nOR easy scuttlebrace",
+          "requirements": "ledge grab right\nOR cling grip either\nOR faydown cloak\nOR silk soar\nOR easy shaman pogo\nOR easy scuttlebrace\nOR easy damage boost off mossgrub\nOR easy enemy pogo off mossgrub",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 5.158882141113281,
@@ -85550,7 +85550,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-21T00:40:21.6390053Z",
-          "updatedUtc": "2026-10-21T00:46:19.7636827Z"
+          "updatedUtc": "2026-10-22T01:15:54.4528648Z"
         },
         {
           "id": "f173a3ce-c108-4532-9bc7-989866e4ddd9",
@@ -85615,7 +85615,7 @@
           "friendlyName": "ledge grab 3",
           "sourceSubroomReferenceText": "the pond",
           "destinationSubroomReferenceText": "upper level",
-          "requirements": "ledge grab right \nOR run \nOR dash right\nOR drifters \nOR faydown \nOR easy beast pogo \nOR cling grip right\nOR silk soar \nOR clawline right\nOR sharpdart ",
+          "requirements": "ledge grab right \nOR run \nOR dash right\nOR drifters \nOR faydown \nOR easy beast pogo \nOR cling grip right\nOR silk soar \nOR clawline right\nOR sharpdart \nOR easy [architect, wanderer] charge\nOR easy voltvessels stall\nOR flea brew",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 37.5767936706543,
@@ -85626,7 +85626,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-10T23:35:07.2528176Z",
-          "updatedUtc": "2026-10-21T00:53:29.9292751Z"
+          "updatedUtc": "2026-10-22T00:59:09.8420122Z"
         },
         {
           "id": "fa8397b8-20cb-4c05-80e5-e43169001795",
@@ -85653,7 +85653,7 @@
           "friendlyName": "ledge grab 4",
           "sourceSubroomReferenceText": "upper level",
           "destinationSubroomReferenceText": "mossberry platform",
-          "requirements": "ledge grab right\nOR faydown \nOR cling grip right \nOR silk soar \nOR easy enemy pogo off mossmir \nOR ( easy shaman pogo AND easy enemy pogo off mossgrub )",
+          "requirements": "ledge grab right\nOR faydown \nOR cling grip right \nOR silk soar \nOR easy enemy pogo off mossmir \nOR easy damage boost off mossmir\nOR ( easy shaman pogo AND ( easy enemy pogo off mossgrub OR scuttlebrace ) )",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 104.82467651367188,
@@ -85664,7 +85664,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-10T23:44:16.5034601Z",
-          "updatedUtc": "2026-10-21T00:53:58.0244133Z"
+          "updatedUtc": "2026-10-22T01:11:58.8820856Z"
         },
         {
           "id": "8badd07d-be2e-420a-a88b-e37823ea0731",
@@ -99289,7 +99289,7 @@
       "referenceId": "moss grotto east",
       "friendlyName": "Moss Grotto East",
       "inGameId": "Tut_01b",
-      "contributors": "herounit",
+      "contributors": "herounit, gallos",
       "comments": null,
       "sceneMinX": 58,
       "sceneMinY": 31,
@@ -99307,7 +99307,7 @@
       "isArchived": false,
       "archivedUtc": null,
       "createdUtc": "2026-08-02T20:49:50.4927449Z",
-      "updatedUtc": "2026-10-10T16:53:08.4513623Z",
+      "updatedUtc": "2026-10-22T01:12:44.4818778Z",
       "subrooms": [
         {
           "id": "9a8dcc24-55e7-4360-8013-c374c0643ed8",
@@ -99483,8 +99483,8 @@
           "friendlyName": "right ledge grab",
           "sourceSubroomReferenceText": "ground floor",
           "destinationSubroomReferenceText": "alcove check spot",
-          "requirements": "ledge grab right \nOR cling grip right \nOR easy scuttlebrace \nOR faydown",
-          "notes": "",
+          "requirements": "ledge grab right \nOR cling grip right \nOR easy scuttlebrace \nOR faydown\nOR easy pogo off [mawling, mossmir]",
+          "notes": "can lure mossmir over per AP feedback - hero, 10/21",
           "enableAnnotation": true,
           "sceneUnitX": 153.99546813964844,
           "sceneUnitY": 35.712860107421875,
@@ -99494,7 +99494,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-11T00:11:57.1830043Z",
-          "updatedUtc": "2026-10-21T01:34:16.3286962Z"
+          "updatedUtc": "2026-10-22T00:18:47.9733069Z"
         },
         {
           "id": "999064b5-aa72-46d1-ad69-598b736d3bbe",
@@ -99521,7 +99521,7 @@
           "friendlyName": "weavenest door gap",
           "sourceSubroomReferenceText": "ground floor",
           "destinationSubroomReferenceText": "weavenest door platform",
-          "requirements": "ledge grab right\nOR run \nOR dash right \nOR clawline right \nOR drifters \nOR faydown \nOR cling grip right \nOR ( spike pogo AND proficient movement ) \nOR easy shaman pogo \nOR easy beast pogo \nOR silk soar",
+          "requirements": "ledge grab right\nOR run \nOR dash right \nOR clawline right \nOR drifters \nOR faydown \nOR cling grip right \nOR ( spike pogo AND proficient movement ) \nOR easy shaman pogo \nOR easy beast pogo \nOR silk soar\nOR medium voltvessels stall\nOR easy pogo off mossmir",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 127.3414535522461,
@@ -99532,7 +99532,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-11T00:22:20.5403938Z",
-          "updatedUtc": "2026-10-21T01:37:42.5734118Z"
+          "updatedUtc": "2026-10-22T01:17:41.1432315Z"
         },
         {
           "id": "dd20ff7d-b157-4f9f-ba40-522d97d2ed49",
@@ -99559,7 +99559,7 @@
           "friendlyName": "upper ledge grab",
           "sourceSubroomReferenceText": "ground floor",
           "destinationSubroomReferenceText": "upper platforms",
-          "requirements": "ledge grab right\nOR cling grip right\nOR faydown \nOR silk soar \nOR easy shaman pogo\nOR easy scuttlebrace\nOR ( easy enemy pogo off mawling )",
+          "requirements": "ledge grab right\nOR cling grip right\nOR faydown \nOR silk soar \nOR easy shaman pogo\nOR easy scuttlebrace\nOR easy enemy pogo off [ mawling, mossmir ]\nOR easy damage boost off [ mossmir ]\nOR easy beast charge\nOR ( easy pogo off mossgrub AND clawline left AND (sharpdart OR clawline right) )",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 96.61559295654297,
@@ -99570,7 +99570,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-11T00:38:11.2945169Z",
-          "updatedUtc": "2026-10-21T01:54:05.4523665Z"
+          "updatedUtc": "2026-10-22T01:28:26.0713631Z"
         },
         {
           "id": "d00be157-f9de-480d-a91a-5618aaa3db59",
@@ -99706,7 +99706,7 @@
           "annotationSceneUnitX": 86.67112,
           "annotationSceneUnitY": 93.71008,
           "subroomReferenceText": "upper platforms",
-          "requirements": "easy enemy pogo \nOR run \nOR dash right\nOR drifter\u0027s cloak \nOR faydown cloak \nOR silk soar \nOR clawline right\nOR sharpdart \nOR easy beast pogo \nOR shaman attack up \nOR shaman attack right",
+          "requirements": "easy enemy pogo off mossmir\nOR run \nOR dash right\nOR drifter\u0027s cloak \nOR faydown cloak \nOR silk soar \nOR clawline right\nOR sharpdart \nOR easy beast pogo \nOR shaman attack up \nOR shaman attack right\nOR easy [wanderer, architect, witch] needle strike",
           "notes": "",
           "locationType": "collectible",
           "enableAnnotation": true,
@@ -99716,7 +99716,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-02T20:49:50.4927449Z",
-          "updatedUtc": "2026-10-21T01:53:20.5238334Z"
+          "updatedUtc": "2026-10-22T01:25:41.5513043Z"
         },
         {
           "id": "922d2fa8-4563-41c8-918f-e3d7f50bed6c",
@@ -109745,7 +109745,7 @@
       "referenceId": "ruined chapel",
       "friendlyName": "Ruined Chapel",
       "inGameId": "Tut_03",
-      "contributors": "herounit",
+      "contributors": "herounit, gallos",
       "comments": "ROOM BUG: fighting moss mother without breaking the vines on the right side of the arena (by approaching from the left), you get locked into the arena with darkness still covering the area.\n\nAscend rope AND the ceiling are valid exits - but I believe they take you to the same bot1 exit on the other side.",
       "sceneMinX": 0,
       "sceneMinY": 0,
@@ -109763,7 +109763,7 @@
       "isArchived": false,
       "archivedUtc": null,
       "createdUtc": "2026-08-02T20:49:50.4927449Z",
-      "updatedUtc": "2026-10-10T16:17:12.1009112Z",
+      "updatedUtc": "2026-10-22T01:12:50.0312338Z",
       "subrooms": [
         {
           "id": "547da987-ce57-4e0c-8f02-e57724192375",
@@ -125933,7 +125933,7 @@
       "referenceId": "ruined chapel interior",
       "friendlyName": "Ruined Chapel Interior",
       "inGameId": "Tut_04",
-      "contributors": "herounit",
+      "contributors": "herounit, gallos",
       "comments": "**UNABLE TO ACCESS IN LOGIC AUDIT MODE**",
       "sceneMinX": 0,
       "sceneMinY": 0,
@@ -125951,7 +125951,7 @@
       "isArchived": false,
       "archivedUtc": null,
       "createdUtc": "2026-08-02T20:49:50.4927449Z",
-      "updatedUtc": "2026-10-10T16:56:47.7918462Z",
+      "updatedUtc": "2026-10-22T01:12:52.1351228Z",
       "subrooms": [
         {
           "id": "82855fd2-36d5-424f-a378-cf434914b205",
@@ -134762,7 +134762,7 @@
       "referenceId": "ruined chapel crest chamber",
       "friendlyName": "Ruined Chapel Crest Chamber",
       "inGameId": "Tut_05",
-      "contributors": "herounit",
+      "contributors": "herounit, gallos",
       "comments": null,
       "sceneMinX": 220,
       "sceneMinY": 51,
@@ -134780,7 +134780,7 @@
       "isArchived": false,
       "archivedUtc": null,
       "createdUtc": "2026-10-06T00:09:33.4519144Z",
-      "updatedUtc": "2026-10-10T16:59:59.6439068Z",
+      "updatedUtc": "2026-10-22T01:12:53.7343804Z",
       "subrooms": [
         {
           "id": "2ecf113e-a4fe-49cd-8145-efe6bbf3d478",
@@ -153354,8 +153354,8 @@
           "friendlyName": "vertical 2",
           "sourceSubroomReferenceText": "lower middle shaft",
           "destinationSubroomReferenceText": "upper middle shaft",
-          "requirements": "ledge grab\nOR easy pogo off caranid\nOR run\nOR dash\nOR drifters\nOR faydown\nOR cling grip\nOR scuttlebrace\nOR clawline\nOR sharpdart\nOR silk soar\nOR easy [shaman, hunter, architect, beast] pogo\nOR easy [wanderer, reaper] charge\nOR easy heal stall\nOR easy flea brew stall\nOR easy flintslate stall\nOR easy plasmium phial stall\nOR easy voltvessels stall",
-          "notes": "a WIDE variety of stalls work here. karma for the bottom section all being one chunk",
+          "requirements": "ledge grab\nOR easy pogo off caranid\nOR run\nOR dash\nOR drifters\nOR faydown\nOR cling grip\nOR scuttlebrace\nOR clawline\nOR sharpdart\nOR silk soar\nOR easy [shaman, hunter, architect, beast] pogo\nOR easy [wanderer, reaper] charge\nOR easy [heal, flea brew, flintslate, plasmium, voltvessels] stall",
+          "notes": "a WIDE variety of stalls work here. karma for the bottom section all being one chunk\n\nprobably need to test spell stalls - hero, 10/21",
           "enableAnnotation": true,
           "sceneUnitX": 28.163,
           "sceneUnitY": 63.73,
@@ -153365,7 +153365,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-24T00:55:02.7501003Z",
-          "updatedUtc": "2026-10-12T04:31:42.9837845Z"
+          "updatedUtc": "2026-10-22T01:38:42.2479386Z"
         },
         {
           "id": "9ff5b7e5-329a-4ecc-9a1b-fc8ea80dc9b6",

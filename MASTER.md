@@ -12,7 +12,7 @@ Generated from the database alongside the individual room pages.
 
 **Game ID:** Tut_01
 
-**Contributors:** herounit, super epicguy
+**Contributors:** herounit, super epicguy, gallos
 
 #### Subrooms
 
@@ -48,11 +48,11 @@ Generated from the database alongside the individual room pages.
 | S2 | shaft 2 | upper crossing | center shaft | none (falling) |  | Verified | ✓ |  |
 | SV | side room vines | center shaft | side room | break vines left |  | Verified | ✓ |  |
 | SV | side room vines | side room | center shaft | break vines right |  | Verified | ✓ |  |
-| S3 | shaft 3 | lower crossing | center shaft | silk soar  OR cling grip right OR ( cling grip left AND ( clawline left OR faydown ) ) OR ( medium scuttlebrace (chains multiple) AND ( clawline left OR faydown cloak ) ) |  | Verified | ✓ |  |
+| S3 | shaft 3 | lower crossing | center shaft | silk soar  OR cling grip right OR ( cling grip left AND ( clawline left OR faydown OR sharpdart ) ) OR ( medium scuttlebrace (chains multiple) AND ( clawline left OR faydown cloak ) ) |  | Verified | ✓ |  |
 | S3 | shaft 3 | center shaft | lower crossing | none (falling) |  | Verified | ✓ |  |
-| S4 | shaft 4 | dead ledge | lower crossing | ( ( ledge grab right OR cling grip right OR dash right OR clawline right ) OR ( ledge grab left OR cling grip left ) ) OR faydown cloak  OR silk soar  OR medium scuttlebrace (fall is punishing) |  | Verified | ✓ |  |
+| S4 | shaft 4 | dead ledge | lower crossing | ( ( ledge grab right OR cling grip right OR dash right OR clawline right ) AND ( ledge grab left OR cling grip left ) ) OR faydown cloak  OR silk soar  OR medium scuttlebrace (fall is punishing) |  | Verified | ✓ |  |
 | S4 | shaft 4 | lower crossing | dead ledge | none (falling) |  | Verified | ✓ |  |
-| S5 | shaft 5 | rock bottom | dead ledge | silk soar OR ( cling grip left AND faydown )  OR ( hard scuttlebrace AND faydown AND ( ( drifters cloak AND ledge grab left ) OR clawline left` OR sharpdart ) ) |  | Verified | ✓ | hard scuttlebrace logic needs a review. seg shared a video at one point, but this was labelled easy and def shouldn't be - hero, 10/20 |
+| S5 | shaft 5 | rock bottom | dead ledge | silk soar OR ( cling grip left AND faydown )  OR ( easy scuttlebrace AND run AND faydown AND ( ( drifters cloak AND ledge grab left ) OR clawline left OR sharpdart ) ) |  | Verified | ✓ | hard scuttlebrace logic needs a review. seg shared a video at one point, but this was labelled easy and def shouldn't be - hero, 10/20 |
 | S5 | shaft 5 | dead ledge | rock bottom | none (falling) |  | Verified | ✓ |  |
 | LG | ledge grab 1 | rock bottom | beast alcove | ledge grab right OR faydown cloak OR silk soar OR cling grip right OR easy scuttlebrace |  | Verified | ✓ | left cling grip does not work due to blue hitbox on left wall |
 | LG | ledge grab 1 | beast alcove | rock bottom | none (falling) |  | Verified | ✓ |  |
@@ -63,7 +63,7 @@ Generated from the database alongside the individual room pages.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | moss grotto frayed rosary string | dead ledge | none |  | Verified | collectible | ✓ |  |
 | 2 | moss grotto shell shard cache 1 | rock bottom | none |  | Verified | collectible | ✓ |  |
-| 3 | moss grotto beast shard | beast alcove | none |  | Verified | collectible | ✓ |  |
+| 3 | moss grotto beast shard | beast alcove | defeat Marrowmaw 1 |  | Verified | collectible | ✓ |  |
 | 4 | moss grotto rosary chest | side room | none |  | Verified | collectible | ✓ |  |
 | 5 | Mossmir 1 | side room | None |  | Verified | enemy | ✓ |  |
 | 6 | Mossmir 2 | side room | None |  | Verified | enemy | ✓ |  |
@@ -82,7 +82,7 @@ not having the west part as part of this area causes the graph to be more comple
 
 **Game ID:** Tut_02
 
-**Contributors:** herounit
+**Contributors:** herounit, gallos
 
 #### Subrooms
 
@@ -111,15 +111,15 @@ not having the west part as part of this area causes the graph to be more comple
 | LG1 | first ledge grab | the pond | lower right exit area | none (falling) |  | Verified | ✓ |  |
 | SW1 | first swim | the pond | the backroom floor | swim |  | Verified | ✓ |  |
 | SW1 | first swim | the backroom floor | the pond | swim |  | Verified | ✓ |  |
-| BG1 | back grab 1 | the backroom floor | the backroom exit | ledge grab left OR cling grip either OR faydown cloak  OR silk soar |  | Verified | ✓ |  |
+| BG1 | back grab 1 | the backroom floor | the backroom exit | ledge grab left OR cling grip either OR faydown cloak  OR silk soar OR easy damage boost off mossgrub OR easy enemy pogo off mossgrub |  | Verified | ✓ |  |
 | BG1 | back grab 1 | the backroom exit | the backroom floor | none (falling) |  | Verified | ✓ |  |
-| BG2 | back grab 2 | the backroom exit | the backroom cache | ledge grab right OR cling grip either OR faydown cloak OR silk soar OR easy shaman pogo OR easy scuttlebrace |  | Verified | ✓ |  |
+| BG2 | back grab 2 | the backroom exit | the backroom cache | ledge grab right OR cling grip either OR faydown cloak OR silk soar OR easy shaman pogo OR easy scuttlebrace OR easy damage boost off mossgrub OR easy enemy pogo off mossgrub |  | Verified | ✓ |  |
 | BG2 | back grab 2 | the backroom cache | the backroom exit | none (falling) |  | Verified | ✓ |  |
 | BW1 | breakable wall 1 | the backroom cache | the pond | clear one-way breakable wall |  | Verified | ✓ |  |
 | BW1 | breakable wall 1 | the pond | the backroom cache | clear one-way breakable wall |  | Verified | ✓ |  |
-| LG3 | ledge grab 3 | the pond | upper level | ledge grab right  OR run  OR dash right OR drifters  OR faydown  OR easy beast pogo  OR cling grip right OR silk soar  OR clawline right OR sharpdart |  | Verified | ✓ |  |
+| LG3 | ledge grab 3 | the pond | upper level | ledge grab right  OR run  OR dash right OR drifters  OR faydown  OR easy beast pogo  OR cling grip right OR silk soar  OR clawline right OR sharpdart  OR easy [architect, wanderer] charge OR easy voltvessels stall OR flea brew |  | Verified | ✓ |  |
 | LG3 | ledge grab 3 | upper level | the pond | none (falling) |  | Verified | ✓ |  |
-| LG4 | ledge grab 4 | upper level | mossberry platform | ledge grab right OR faydown  OR cling grip right  OR silk soar  OR easy enemy pogo off mossmir  OR ( easy shaman pogo AND easy enemy pogo off mossgrub ) |  | Verified | ✓ |  |
+| LG4 | ledge grab 4 | upper level | mossberry platform | ledge grab right OR faydown  OR cling grip right  OR silk soar  OR easy enemy pogo off mossmir  OR easy damage boost off mossmir OR ( easy shaman pogo AND ( easy enemy pogo off mossgrub OR scuttlebrace ) ) |  | Verified | ✓ |  |
 | LG4 | ledge grab 4 | mossberry platform | upper level | none (falling) |  | Verified | ✓ |  |
 
 #### Check Locations
@@ -161,7 +161,7 @@ somehow missed this being its own room before
 
 **Game ID:** Tut_01b
 
-**Contributors:** herounit
+**Contributors:** herounit, gallos
 
 #### Subrooms
 
@@ -184,11 +184,11 @@ somehow missed this being its own room before
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| RG | right ledge grab | ground floor | alcove check spot | ledge grab right  OR cling grip right  OR easy scuttlebrace  OR faydown |  | Verified | ✓ |  |
+| RG | right ledge grab | ground floor | alcove check spot | ledge grab right  OR cling grip right  OR easy scuttlebrace  OR faydown OR easy pogo off [mawling, mossmir] |  | Verified | ✓ | can lure mossmir over per AP feedback - hero, 10/21 |
 | RG | right ledge grab | alcove check spot | ground floor | none (falling) |  | Verified | ✓ |  |
-| WD | weavenest door gap | ground floor | weavenest door platform | ledge grab right OR run  OR dash right  OR clawline right  OR drifters  OR faydown  OR cling grip right  OR ( spike pogo AND proficient movement )  OR easy shaman pogo  OR easy beast pogo  OR silk soar |  | Verified | ✓ |  |
+| WD | weavenest door gap | ground floor | weavenest door platform | ledge grab right OR run  OR dash right  OR clawline right  OR drifters  OR faydown  OR cling grip right  OR ( spike pogo AND proficient movement )  OR easy shaman pogo  OR easy beast pogo  OR silk soar OR medium voltvessels stall OR easy pogo off mossmir |  | Verified | ✓ |  |
 | WD | weavenest door gap | weavenest door platform | ground floor | none (falling) |  | Verified | ✓ |  |
-| UG | upper ledge grab | ground floor | upper platforms | ledge grab right OR cling grip right OR faydown  OR silk soar  OR easy shaman pogo OR easy scuttlebrace OR ( easy enemy pogo off mawling ) |  | Verified | ✓ |  |
+| UG | upper ledge grab | ground floor | upper platforms | ledge grab right OR cling grip right OR faydown  OR silk soar  OR easy shaman pogo OR easy scuttlebrace OR easy enemy pogo off [ mawling, mossmir ] OR easy damage boost off [ mossmir ] OR easy beast charge OR ( easy pogo off mossgrub AND clawline left AND (sharpdart OR clawline right) ) |  | Verified | ✓ |  |
 | UG | upper ledge grab | upper platforms | ground floor | none (falling) |  | Verified | ✓ |  |
 
 #### Check Locations
@@ -198,7 +198,7 @@ somehow missed this being its own room before
 | 1 | shell shard cache moss grotto 2 | ground floor | none |  | Verified | collectible | ✓ |  |
 | 2 | shell shard cache moss grotto 3 | alcove check spot | none |  | Verified | collectible | ✓ |  |
 | 3 | shell shard cache moss grotto 4 | alcove check spot | none |  | Verified | collectible | ✓ |  |
-| 4 | moss grotto east mossberry | upper platforms | easy enemy pogo  OR run  OR dash right OR drifter's cloak  OR faydown cloak  OR silk soar  OR clawline right OR sharpdart  OR easy beast pogo  OR shaman attack up  OR shaman attack right |  | Verified | collectible | ✓ |  |
+| 4 | moss grotto east mossberry | upper platforms | easy enemy pogo off mossmir OR run  OR dash right OR drifter's cloak  OR faydown cloak  OR silk soar  OR clawline right OR sharpdart  OR easy beast pogo  OR shaman attack up  OR shaman attack right OR easy [wanderer, architect, witch] needle strike |  | Verified | collectible | ✓ |  |
 | 5 | Mossgrub 1 | ground floor | None |  | Verified | enemy | ✓ |  |
 | 6 | Mossgrub 2 | upper platforms | None |  | Verified | enemy | ✓ |  |
 | 7 | Mossmir 1 | upper platforms | Normal World Spawn |  | Verified | enemy | ✓ |  |
@@ -220,7 +220,7 @@ somehow missed this being its own room before
 
 **Game ID:** Tut_03
 
-**Contributors:** herounit
+**Contributors:** herounit, gallos
 
 #### Subrooms
 
@@ -290,7 +290,7 @@ Ascend rope AND the ceiling are valid exits - but I believe they take you to the
 
 **Game ID:** Tut_04
 
-**Contributors:** herounit
+**Contributors:** herounit, gallos
 
 #### Subrooms
 
@@ -332,7 +332,7 @@ Ascend rope AND the ceiling are valid exits - but I believe they take you to the
 
 **Game ID:** Tut_05
 
-**Contributors:** herounit
+**Contributors:** herounit, gallos
 
 #### Subrooms
 
@@ -1493,7 +1493,7 @@ no checks
 | DS | door switch | the bridge | upper middle shaft | activate door switch |  | Verified | ✓ |  |
 | V1 | vertical 1 | bottom shaft | lower middle shaft | ledge grab OR easy enemy pogo OR cling grip OR faydown OR silk soar |  | Verified | ✓ |  |
 | V1 | vertical 1 | lower middle shaft | bottom shaft | none (falling) |  | Verified | ✓ |  |
-| V2 | vertical 2 | lower middle shaft | upper middle shaft | ledge grab OR easy pogo off caranid OR run OR dash OR drifters OR faydown OR cling grip OR scuttlebrace OR clawline OR sharpdart OR silk soar OR easy [shaman, hunter, architect, beast] pogo OR easy [wanderer, reaper] charge OR easy heal stall OR easy flea brew stall OR easy flintslate stall OR easy plasmium phial stall OR easy voltvessels stall |  | Verified | ✓ | a WIDE variety of stalls work here. karma for the bottom section all being one chunk |
+| V2 | vertical 2 | lower middle shaft | upper middle shaft | ledge grab OR easy pogo off caranid OR run OR dash OR drifters OR faydown OR cling grip OR scuttlebrace OR clawline OR sharpdart OR silk soar OR easy [shaman, hunter, architect, beast] pogo OR easy [wanderer, reaper] charge OR easy [heal, flea brew, flintslate, plasmium, voltvessels] stall |  | Verified | ✓ | a WIDE variety of stalls work here. karma for the bottom section all being one chunk  probably need to test spell stalls - hero, 10/21 |
 | V2 | vertical 2 | upper middle shaft | lower middle shaft | none (falling) |  | Verified | ✓ |  |
 | V3 | vertical 3 | the bridge | collapsing upper crossing | ledge grab OR cling grip OR faydown OR silk soar |  | Verified | ✓ |  |
 | V3 | vertical 3 | collapsing upper crossing | the bridge | none (falling) |  | Verified | ✓ |  |
@@ -16584,7 +16584,7 @@ No check locations defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| BEL | Bottom Entrance-Lever | Lower Entrance | Lever Door | ((Proficient Movement AND Spike Pogo)  AND Medium Hunter Pogo AND Medium Reaper Pogo AND Medium Architect Pogo AND Medium Shaman Pogo AND (Cling Grip OR Faydown Cloak OR Ledge Grab) AND Easy Enemy Pogo (Easy Skip)) |  | Verified | ✓ | Can be clawline only'd but since theres no specific skip tag for that i am omitting it. |
+| BEL | Bottom Entrance-Lever | Lower Entrance | Lever Door | ((Proficient Movement AND Spike Pogo)  OR Medium Hunter Pogo OR Medium Reaper Pogo OR Medium Architect Pogo OR Medium Shaman Pogo OR ((Cling Grip OR Faydown Cloak OR Ledge Grab) AND (Easy Enemy Pogo))) |  | Verified | ✓ | Can be clawline only'd but since theres no specific skip tag for that i am omitting it. |
 | BEL | Bottom Entrance-Lever | Lever Door | Lower Entrance | Drifter's Cloak |  | Verified | ✓ | let me add a Nothing as a medium skip pls it'll be funny |
 | LTE | Lever-Top Entrance | Lever Door | Upper Entrance | Clawline AND Faydown Cloak AND Cling Grip |  | Verified | ✓ |  |
 | LTE | Lever-Top Entrance | Upper Entrance | Lever Door | Clawline OR Sharpdart OR Dash OR Faydown Cloak OR Drifter's Cloak |  | Verified | ✓ |  |

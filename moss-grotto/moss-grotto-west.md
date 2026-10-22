@@ -2,7 +2,7 @@
 
 **Game ID:** Tut_02
 
-**Contributors:** herounit
+**Contributors:** herounit, gallos
 
 ## Subrooms
 
@@ -31,15 +31,15 @@
 | LG1 | first ledge grab | the pond | lower right exit area | none (falling) |  | Verified | ✓ |  |
 | SW1 | first swim | the pond | the backroom floor | swim |  | Verified | ✓ |  |
 | SW1 | first swim | the backroom floor | the pond | swim |  | Verified | ✓ |  |
-| BG1 | back grab 1 | the backroom floor | the backroom exit | ledge grab left OR cling grip either OR faydown cloak  OR silk soar |  | Verified | ✓ |  |
+| BG1 | back grab 1 | the backroom floor | the backroom exit | ledge grab left OR cling grip either OR faydown cloak  OR silk soar OR easy damage boost off mossgrub OR easy enemy pogo off mossgrub |  | Verified | ✓ |  |
 | BG1 | back grab 1 | the backroom exit | the backroom floor | none (falling) |  | Verified | ✓ |  |
-| BG2 | back grab 2 | the backroom exit | the backroom cache | ledge grab right OR cling grip either OR faydown cloak OR silk soar OR easy shaman pogo OR easy scuttlebrace |  | Verified | ✓ |  |
+| BG2 | back grab 2 | the backroom exit | the backroom cache | ledge grab right OR cling grip either OR faydown cloak OR silk soar OR easy shaman pogo OR easy scuttlebrace OR easy damage boost off mossgrub OR easy enemy pogo off mossgrub |  | Verified | ✓ |  |
 | BG2 | back grab 2 | the backroom cache | the backroom exit | none (falling) |  | Verified | ✓ |  |
 | BW1 | breakable wall 1 | the backroom cache | the pond | clear one-way breakable wall |  | Verified | ✓ |  |
 | BW1 | breakable wall 1 | the pond | the backroom cache | clear one-way breakable wall |  | Verified | ✓ |  |
-| LG3 | ledge grab 3 | the pond | upper level | ledge grab right  OR run  OR dash right OR drifters  OR faydown  OR easy beast pogo  OR cling grip right OR silk soar  OR clawline right OR sharpdart |  | Verified | ✓ |  |
+| LG3 | ledge grab 3 | the pond | upper level | ledge grab right  OR run  OR dash right OR drifters  OR faydown  OR easy beast pogo  OR cling grip right OR silk soar  OR clawline right OR sharpdart  OR easy [architect, wanderer] charge OR easy voltvessels stall OR flea brew |  | Verified | ✓ |  |
 | LG3 | ledge grab 3 | upper level | the pond | none (falling) |  | Verified | ✓ |  |
-| LG4 | ledge grab 4 | upper level | mossberry platform | ledge grab right OR faydown  OR cling grip right  OR silk soar  OR easy enemy pogo off mossmir  OR ( easy shaman pogo AND easy enemy pogo off mossgrub ) |  | Verified | ✓ |  |
+| LG4 | ledge grab 4 | upper level | mossberry platform | ledge grab right OR faydown  OR cling grip right  OR silk soar  OR easy enemy pogo off mossmir  OR easy damage boost off mossmir OR ( easy shaman pogo AND ( easy enemy pogo off mossgrub OR scuttlebrace ) ) |  | Verified | ✓ |  |
 | LG4 | ledge grab 4 | mossberry platform | upper level | none (falling) |  | Verified | ✓ |  |
 
 ## Check Locations

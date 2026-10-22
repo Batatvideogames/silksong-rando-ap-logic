@@ -2,7 +2,7 @@
 
 **Game ID:** Tut_01b
 
-**Contributors:** herounit
+**Contributors:** herounit, gallos
 
 ## Subrooms
 
@@ -25,11 +25,11 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| RG | right ledge grab | ground floor | alcove check spot | ledge grab right  OR cling grip right  OR easy scuttlebrace  OR faydown |  | Verified | ✓ |  |
+| RG | right ledge grab | ground floor | alcove check spot | ledge grab right  OR cling grip right  OR easy scuttlebrace  OR faydown OR easy pogo off [mawling, mossmir] |  | Verified | ✓ | can lure mossmir over per AP feedback - hero, 10/21 |
 | RG | right ledge grab | alcove check spot | ground floor | none (falling) |  | Verified | ✓ |  |
-| WD | weavenest door gap | ground floor | weavenest door platform | ledge grab right OR run  OR dash right  OR clawline right  OR drifters  OR faydown  OR cling grip right  OR ( spike pogo AND proficient movement )  OR easy shaman pogo  OR easy beast pogo  OR silk soar |  | Verified | ✓ |  |
+| WD | weavenest door gap | ground floor | weavenest door platform | ledge grab right OR run  OR dash right  OR clawline right  OR drifters  OR faydown  OR cling grip right  OR ( spike pogo AND proficient movement )  OR easy shaman pogo  OR easy beast pogo  OR silk soar OR medium voltvessels stall OR easy pogo off mossmir |  | Verified | ✓ |  |
 | WD | weavenest door gap | weavenest door platform | ground floor | none (falling) |  | Verified | ✓ |  |
-| UG | upper ledge grab | ground floor | upper platforms | ledge grab right OR cling grip right OR faydown  OR silk soar  OR easy shaman pogo OR easy scuttlebrace OR ( easy enemy pogo off mawling ) |  | Verified | ✓ |  |
+| UG | upper ledge grab | ground floor | upper platforms | ledge grab right OR cling grip right OR faydown  OR silk soar  OR easy shaman pogo OR easy scuttlebrace OR easy enemy pogo off [ mawling, mossmir ] OR easy damage boost off [ mossmir ] OR easy beast charge OR ( easy pogo off mossgrub AND clawline left AND (sharpdart OR clawline right) ) |  | Verified | ✓ |  |
 | UG | upper ledge grab | upper platforms | ground floor | none (falling) |  | Verified | ✓ |  |
 
 ## Check Locations
@@ -39,7 +39,7 @@
 | 1 | shell shard cache moss grotto 2 | ground floor | none |  | Verified | collectible | ✓ |  |
 | 2 | shell shard cache moss grotto 3 | alcove check spot | none |  | Verified | collectible | ✓ |  |
 | 3 | shell shard cache moss grotto 4 | alcove check spot | none |  | Verified | collectible | ✓ |  |
-| 4 | moss grotto east mossberry | upper platforms | easy enemy pogo  OR run  OR dash right OR drifter's cloak  OR faydown cloak  OR silk soar  OR clawline right OR sharpdart  OR easy beast pogo  OR shaman attack up  OR shaman attack right |  | Verified | collectible | ✓ |  |
+| 4 | moss grotto east mossberry | upper platforms | easy enemy pogo off mossmir OR run  OR dash right OR drifter's cloak  OR faydown cloak  OR silk soar  OR clawline right OR sharpdart  OR easy beast pogo  OR shaman attack up  OR shaman attack right OR easy [wanderer, architect, witch] needle strike |  | Verified | collectible | ✓ |  |
 | 5 | Mossgrub 1 | ground floor | None |  | Verified | enemy | ✓ |  |
 | 6 | Mossgrub 2 | upper platforms | None |  | Verified | enemy | ✓ |  |
 | 7 | Mossmir 1 | upper platforms | Normal World Spawn |  | Verified | enemy | ✓ |  |
