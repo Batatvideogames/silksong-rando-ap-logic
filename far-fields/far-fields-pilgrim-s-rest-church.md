@@ -29,7 +29,7 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | flea pilgrims rest | flea rescue area | none |  | Verified | collectible |  |  |
+| 1 | flea pilgrims rest | flea rescue area | none |  | Verified | collectible | ✓ |  |
 | 2 | pilgrims rest church door switch | main floor | none (attack) |  | Verified | switch | ✓ | formerly just door switch |
 | 3 | pilgrims rest rhinogrund beast shard | main floor | defeat Rhinogrund pilgrim's rest church |  | Verified | collectible |  | this can be missed - if the switch is flipped and you leave the room (or die) without defeating the rhinogrund or collecting the beast shard, they become unavailable |
 | 4 | Rhinogrund pilgrim's rest church | main floor | Normal World Spawn |  | Verified | miniboss | ✓ | formerly rhinogrund miniboss fight |

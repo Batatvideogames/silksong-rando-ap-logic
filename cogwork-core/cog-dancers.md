@@ -40,7 +40,7 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Cogwork Dancers Boss Fight | BossArena | Nothing | TODO | Verified | boss |  |  |
+| 1 | Cogwork Dancers Boss Fight | BossArena | Combat Requirements | TODO | Verified | boss |  |  |
 | 2 | Play Threefold Melody | BossArena | defeat Cogwork Dancers Boss Fight AND get 3 threefold melody parts |  | Verified | logic-point |  | Used in Liquid Lacquer wish requirements per the wiki. |
 
 ## Notes

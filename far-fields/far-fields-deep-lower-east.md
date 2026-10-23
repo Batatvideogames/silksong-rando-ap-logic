@@ -45,7 +45,7 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | gurr the outcast boss fight | trapper's arena | none |  | Verified | boss | ✓ |  |
+| 1 | gurr the outcast boss fight | trapper's arena | Combat Requirements |  | Verified | boss | ✓ |  |
 | 2 | AP Minor Cache - Rosary Cache: Far Fields #19 | trapper's ledge | none |  | Verified | collectible | ✓ |  |
 | 3 | Grass Doll | trapper's ledge | none |  | Verified | collectible | ✓ |  |
 | 4 | Fertid 1 |  |  |  |  | enemy | ✓ |  |

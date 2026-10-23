@@ -49,7 +49,7 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | weavenest atla mossberry | mossberry platform | none |  | Verified | collectible | ✓ |  |
-| 2 | double moss mother boss fight | boss room | None |  | Verified | boss |  | BOSS IS NOT CURRENTLY TIED TO A CHECK - but does unlock weavelight check |
+| 2 | double moss mother boss fight | boss room | Combat Requirements |  | Verified | boss |  | BOSS IS NOT CURRENTLY TIED TO A CHECK - but does unlock weavelight check |
 | 3 | weavelight | boss room | complete double moss mother boss fight |  | Verified | collectible |  |  |
 | 4 | Moss Mother A | boss room | None |  | Verified | enemy | ✓ | individual moss mother |
 | 5 | Moss Mother B | boss room | None |  | Verified | enemy | ✓ | individual moss mother |

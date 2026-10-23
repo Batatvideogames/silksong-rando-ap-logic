@@ -35,7 +35,7 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Boss: Sister Splinter | Arena Side | None |  | Verified | boss | ✓ |  |
+| 1 | Boss: Sister Splinter | Arena Side | Combat Requirements |  | Verified | boss | ✓ |  |
 | 2 | Splinterbark 1 | Arena Side | None |  | Verified | enemy | ✓ | Sistersplinter summon |
 | 3 | Splinterbark 2 | Arena Side | None |  | Verified | enemy | ✓ | Sistersplinter summon |
 | 4 | Splinter Queen Spike 1 | Arena Side | None |  | Verified | enemy | ✓ | Sistersplinter summon |

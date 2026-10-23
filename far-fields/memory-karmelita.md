@@ -28,17 +28,16 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | skarrsinger karmelita boss fight | arena | none |  | Verified | boss |  |  |
-| 2 | hunter's heart | arena | defeat skarrsinger karmelita boss fight |  | Verified | collectible |  |  |
-| 3 | Hunter Queen 1 |  |  |  |  | enemy | ✓ |  |
-| 4 | NPC 1 |  |  |  |  | enemy | ✓ |  |
-| 5 | Skarr Stalker 1 |  |  |  |  | enemy | ✓ |  |
-| 6 | Skarr Scout 1 |  |  |  |  | enemy | ✓ |  |
-| 7 | Skarr Scout 2 |  |  |  |  | enemy | ✓ |  |
-| 8 | Spear Skarr 1 |  |  |  |  | enemy | ✓ |  |
-| 9 | Skarr Stalker 2 |  |  |  |  | enemy | ✓ |  |
-| 10 | Last Claw 1 |  |  |  |  | enemy | ✓ |  |
-| 11 | Last Claw 2 |  |  |  |  | enemy | ✓ |  |
+| 1 | hunter's heart | arena | defeat skarrsinger karmelita boss fight |  | Verified | collectible |  |  |
+| 2 | skarrsinger karmelita boss fight | arena | Combat Requirements |  | Verified | boss | ✓ |  |
+| 3 | NPC 1 | arena | none |  | Verified | enemy | ✓ |  |
+| 4 | Skarr Stalker 1 | arena | none |  | Verified | enemy | ✓ |  |
+| 5 | Skarr Scout 1 | arena | none |  | Verified | enemy | ✓ |  |
+| 6 | Skarr Scout 2 | arena | none |  | Verified | enemy | ✓ |  |
+| 7 | Spear Skarr 1 | arena | none |  | Verified | enemy | ✓ |  |
+| 8 | Skarr Stalker 2 | arena | none |  | Verified | enemy | ✓ |  |
+| 9 | Last Claw 1 | arena | none |  | Verified | enemy | ✓ |  |
+| 10 | Last Claw 2 | arena | none |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

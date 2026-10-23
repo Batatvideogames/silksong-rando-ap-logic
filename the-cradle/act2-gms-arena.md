@@ -35,7 +35,7 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Shell Shard Cache: Cradle #1 | Shell Shard Ledge | None |  | Verified | resource |  |  |
-| 2 | Boss: Grand Mother Silk | Arena | None |  | Verified | boss |  |  |
+| 2 | Boss: Grand Mother Silk | Arena | Combat Requirements |  | Verified | boss |  |  |
 
 ## Room Images
 

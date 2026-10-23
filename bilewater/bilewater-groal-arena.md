@@ -33,7 +33,7 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Boss: Groal the Great | arena | none |  | Verified | boss | ✓ | Technically none, lol. |
+| 1 | Boss: Groal the Great | arena | Combat Requirements |  | Verified | boss | ✓ | Technically none, lol. |
 | 2 | Bilewater - Bilehaven Plaque | right of arena | cling grip OR silk soar OR scuttlebrace |  | Verified | lore | ✓ |  |
 | 3 | Stilkin 1 | arena | none |  | Verified | enemy | ✓ |  |
 | 4 | Stilkin 2 | arena | none |  | Verified | enemy | ✓ |  |

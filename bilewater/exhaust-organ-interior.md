@@ -50,11 +50,10 @@
 | 1 | Silk Grub Large Cocoon | maze | none |  | Verified | collectible | ✓ |  |
 | 2 | Organ Bench | bench room | silk soar OR cling grip |  | Verified | bench | ✓ |  |
 | 3 | fix broken elevator | broken elevator | attack left OR attack up |  | Verified | blockade | ✓ |  |
-| 4 | Boss: Phantom | top layer | dash OR run |  | Verified | boss | ✓ |  |
-| 5 | Phantom 1 | top layer | dash OR run |  | Verified | enemy | ✓ |  |
-| 6 | Drapefly 1 | ground floor | none |  | Verified | enemy | ✓ |  |
-| 7 | Drapefly 2 | right column | none |  | Verified | enemy | ✓ |  |
-| 8 | Drapefly 3 | maze | none |  | Verified | enemy | ✓ |  |
+| 4 | Boss: Phantom | top layer | ( dash OR run ) AND Combat Requirements |  | Verified | enemy | ✓ |  |
+| 5 | Drapefly 1 | ground floor | none |  | Verified | enemy | ✓ |  |
+| 6 | Drapefly 2 | right column | none |  | Verified | enemy | ✓ |  |
+| 7 | Drapefly 3 | maze | none |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

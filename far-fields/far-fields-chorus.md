@@ -45,8 +45,8 @@
 | 1 | rosary cache far fields 2 | upper left alcove | none |  | Verified | collectible | ✓ |  |
 | 2 | silk | upper right alcove | none |  | Verified | resource | ✓ | silk webs |
 | 3 | Horn Fragment | boss arena | defeat savage beastfly 2 boss fight |  | Verified | collectible |  |  |
-| 4 | fourth chorus boss fight | boss arena | complete THE flexible spines wish granted |  | Verified | boss |  |  |
-| 5 | savage beastfly 2 boss fight | boss arena | complete THE savage beastfly wish promised |  | Verified | boss |  |  |
+| 4 | fourth chorus boss fight | boss arena | complete THE flexible spines wish granted AND Combat Requirements |  | Verified | boss |  |  |
+| 5 | savage beastfly 2 boss fight | boss arena | complete THE savage beastfly wish promised AND Combat Requirements |  | Verified | boss |  |  |
 
 ## Room Images
 

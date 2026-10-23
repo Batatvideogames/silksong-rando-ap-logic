@@ -2,7 +2,7 @@
 
 **Game ID:** Ward_06
 
-**Contributors:** skai
+**Contributors:** skai, Gallos
 
 ## Subrooms
 
@@ -25,7 +25,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | LTR | Descent Lower to Rosaries | Descent Lower | Descent Rosary Side | Break Wall Left OR Break Wall Right |  | Verified | ✓ |  |
 | LTR | Descent Lower to Rosaries | Descent Rosary Side | Descent Lower | Break Wall Left OR Break Wall Right |  | Verified | ✓ |  |
-| LTU | Descent Lower to Upper | Descent Lower | Descent Upper | Cling Grip OR Scuttlebrace OR Silk Soar OR Faydown |  | Verified | ✓ |  |
+| LTU | Descent Lower to Upper | Descent Lower | Descent Upper | Silk Soar |  | Verified | ✓ |  |
 | LTU | Descent Lower to Upper | Descent Upper | Descent Lower | Nothing (Fall) |  | Verified | ✓ |  |
 
 ## Check Locations
@@ -34,7 +34,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Whiteward - Rosary Cache #1 | Descent Rosary Side | Nothing |  | Verified | collectible | ✓ |  |
 | 2 | Whiteward - Rosary Cache #2 | Descent Rosary Side | Nothing |  | Verified | collectible | ✓ |  |
-| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 3 | Giant Drapemite 1 | Descent Rosary Side | none |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

@@ -31,7 +31,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | free silk spinner | ground floor | attack down |  | Verified | collectible | ✓ |  |
 | 2 | crown fragment | tyrants throne | complete THE the terrible tyrant wish promised |  | Verified | collectible | ✓ |  |
-| 3 | skull tyrant boss fight | tyrants throne | none |  | Verified | boss | ✓ |  |
+| 3 | skull tyrant boss fight | tyrants throne | Combat Requirements |  | Verified | boss | ✓ |  |
 | 4 | Skull Scuttler 1 | ground floor | none |  | Verified | enemy | ✓ |  |
 
 ## Room Images

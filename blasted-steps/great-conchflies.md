@@ -32,7 +32,7 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Boss: Great Conchflies | Great Conchflies | Nothing |  | Verified | boss | ✓ |  |
+| 1 | Boss: Great Conchflies | Great Conchflies | Combat Requirements |  | Verified | boss | ✓ |  |
 | 2 | Driznit 1 |  |  |  |  | enemy | ✓ |  |
 | 3 | Coral Conch Driller Giant 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
 | 4 | Coral Conch Driller Giant 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |

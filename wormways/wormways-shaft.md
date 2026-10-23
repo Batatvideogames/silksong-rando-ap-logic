@@ -23,22 +23,22 @@
 | LL | lower left | behind door | [Wormways Middle (Crawl_03b)](wormways-middle.md) | R | none |  | Verified | ✓ | there's a pocket of air behind the door and it is not enforced on the other side |
 | UL | upper left | upper platform area | [Wormways Upper West (Crawl_03)](wormways-upper-west.md) | R | clear shaft wall blockade IN Wormways Upper West |  | Verified | ✓ |  |
 | UR | upper right | middle platform area | [Wormways Upper East (Crawl_01)](wormways-upper-east.md) | L | none |  | Verified | ✓ |  |
-| MR | middle right | middle platform area | [Wormways Flea Rescue (Crawl_06)](wormways-flea-rescue.md) | L | break wall {right} |  | Verified | ✓ |  |
+| MR | middle right | middle platform area | [Wormways Flea Rescue (Crawl_06)](wormways-flea-rescue.md) | L | break wall {right} |  | Verified | ✓ | unsafe arrival without wall broken |
 
 ## Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| DS | door switch | middle platform area | entrance tunnel | none (door switch is on this side) |  | Verified | ✓ |  |
-| DS | door switch | entrance tunnel | middle platform area | prereq flip door switch AND (cling grip OR (ledge grab AND faydown cloak) OR scuttlebrace OR silk soar) |  | Verified | ✓ |  |
+| DS | door switch | middle platform area | entrance tunnel | none (door switch is on this side) |  | Verified |  |  |
+| DS | door switch | entrance tunnel | middle platform area | prereq flip door switch AND (cling grip OR (ledge grab AND faydown cloak) OR scuttlebrace OR silk soar) |  | Verified |  |  |
 | CG | platform gaps | middle platform area | upper platform area | (ledge grab AND (silk soar OR cling grip OR scuttlebrace OR faydown cloak)) OR (silk soar OR cling grip OR scuttlebrace) OR (faydown cloak AND (easy shaman pogo OR easy beast pogo OR easy reaper pogo OR easy architect pogo)) |  | Verified | ✓ |  |
 | CG | platform gaps | upper platform area | middle platform area | none (falling) |  | Verified | ✓ |  |
-| GT | grotto tunnel | entrance tunnel | mask grotto | none (falling) |  | Verified | ✓ |  |
-| GT | grotto tunnel | mask grotto | entrance tunnel | ledge grab OR (cling grip OR faydown cloak OR scuttlebrace OR silk soar) |  | Verified | ✓ |  |
-| DL | duct ledge | upper platform area | rosary duct | cling grip OR scuttlebrace |  | Verified | ✓ |  |
+| GT | grotto tunnel | entrance tunnel | mask grotto | none (falling) |  | Verified |  |  |
+| GT | grotto tunnel | mask grotto | entrance tunnel | ledge grab OR (cling grip OR faydown cloak OR scuttlebrace OR silk soar) |  | Verified |  |  |
+| DL | duct ledge | upper platform area | rosary duct | cling grip OR scuttlebrace OR ((faydown cloak AND (easy pogo off Winged Pilgrim OR medium pogo off Winged Pilgrim Bellbearer ) AND spike pogo)) |  | Verified | ✓ |  |
 | DL | duct ledge | rosary duct | upper platform area | none (falling) |  | Verified | ✓ |  |
-| SK | simple key lock | entrance tunnel | behind door | unlock Wormways Simple Lock |  | Verified | ✓ |  |
-| SK | simple key lock | behind door | entrance tunnel | unlock Wormways Simple Lock |  | Verified | ✓ |  |
+| SK | simple key lock | entrance tunnel | behind door | unlock Wormways Simple Lock |  | Verified |  |  |
+| SK | simple key lock | behind door | entrance tunnel | unlock Wormways Simple Lock |  | Verified |  |  |
 | SU | silk up | middle platform area | rosary duct | silk soar |  | Verified | ✓ | inverse connection would just go through other subrooms, redundant |
 
 ## Check Locations

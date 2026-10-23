@@ -20,9 +20,9 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | UL | left1 | upper left exit | [Far Fields Upper Shaft (Bone_East_11)](far-fields-upper-shaft.md) | LR | none |  | Verified | ✓ |  |
 | LL | left2 | main floor | [Far Fields Wind Shaft (Bone_East_07)](far-fields-wind-shaft.md) | R1 | none |  | Verified | ✓ |  |
-| D | door1 | main floor | [Far Fields Pilgrim's Rest Shop (Bone_East_10_Room)](far-fields-pilgrim-s-rest-shop.md) | R | none (rosary gated) |  | Verified | ✓ |  |
+| D | door1 | main floor | [Far Fields Pilgrim's Rest Shop (Bone_East_10_Room)](far-fields-pilgrim-s-rest-shop.md) | R | none (rosary gated) |  | Verified | ✓ | 10 rosaries (vanilla price) toll, repeated everytime unless inner door broken |
 | UR | right1 | upper right exit | [Far Fields Pilgrim's Rest Deep Passage (Bone_East_18c)](far-fields-pilgrim-s-rest-deep-passage.md) | L | clear blast rock exit block IN hunters march pilgrims rest deep passage |  | Verified | ✓ |  |
-| LR | right2 | lower right exit | [Far Fields Pilgrim's Rest Church (Bone_East_10_Church)](far-fields-pilgrim-s-rest-church.md) | L | activate pilgrims rest church door switch IN far fields pilgrims rest church |  | Verified | ✓ |  |
+| LR | right2 | lower right exit | [Far Fields Pilgrim's Rest Church (Bone_East_10_Church)](far-fields-pilgrim-s-rest-church.md) | L | activate pilgrims rest church door switch IN far fields pilgrims rest church |  | Verified | ✓ | safe inbound without gate opened, you are spawned in front of the gate when entering |
 
 ## Subroom Connections
 
@@ -31,7 +31,7 @@
 | V1 | vertical 1 | main floor | upper left exit | silk soar OR faydown cloak |  | Verified | ✓ | platform can be dropped to make it only ledge grab after middle platform access is granted |
 | V1 | vertical 1 | upper left exit | main floor | none (falling) |  | Verified | ✓ |  |
 | G1 | gap 1 | middle upper platform | upper left exit | run left OR ledge grab OR clawline left OR faydown cloak OR drifter's cloak  OR sharpdart OR easy hunter pogo OR easy beast pogo OR (architect slash left AND easy architect pogo) |  | Verified | ✓ | based on after platform falls |
-| V2 | vertical 2 | main floor | lower right exit | ledge grab OR faydown cloak OR silk soar OR scuttlebrace OR easy shaman pogo OR easy beast needle strike OR cling grip |  | Verified | ✓ |  |
+| V2 | vertical 2 | main floor | lower right exit | ledge grab OR faydown cloak OR silk soar OR scuttlebrace OR easy shaman pogo OR easy beast needle strike OR cling grip OR (easy flea brew stall AND easy beast pogo) |  | Verified | ✓ |  |
 | V2 | vertical 2 | lower right exit | main floor | none (falling) |  | Verified | ✓ |  |
 | V3 | vertical 3 | main floor | upper right exit | ledge grab OR faydown cloak OR silk soar OR scuttlebrace OR cling grip |  | Verified | ✓ |  |
 | V3 | vertical 3 | upper right exit | main floor | none (falling) |  | Verified | ✓ |  |
@@ -44,7 +44,7 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | pilgrim's rest board | main floor | none |  | Verified | lore | ✓ |  |
+| 1 | pilgrim's rest board | main floor | none (interact) |  | Verified | lore | ✓ |  |
 | 2 | Snitchfly 1 | main floor | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 | 3 | Snitchfly 2 | main floor | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 | 4 | Pilgrim Hulk 1 | main floor | Normal World Spawn |  | Verified | enemy | ✓ |  |

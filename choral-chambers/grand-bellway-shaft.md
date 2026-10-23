@@ -51,10 +51,10 @@
 | 4 | Choir Flyer 1 | Upper | Normal World Spawn |  | Verified | enemy | ✓ |  |
 | 5 | Choir Pouncer 1 | Upper | Normal World Spawn |  | Verified | enemy | ✓ |  |
 | 6 | Choristor 1 | Upper | Normal World Spawn |  | Verified | enemy | ✓ |  |
-| 7 | Choristor 2 | Bottom Right | Normal World Spawn |  | Verified | enemy | ✓ | Spawn conditions: bellShrineEnclave=true |
+| 7 | Choristor 2 | Bottom Right | complete Meet the Caretaker IN Songclave |  | Verified | enemy | ✓ | Spawn conditions: bellShrineEnclave=true |
 | 8 | Choristor 3 | Upper | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 | 9 | Envoy 1 | Bottom Right | Normal World Spawn |  | Verified | enemy | ✓ | Spawn conditions: laceMeetCitadel=false |
-| 10 | Envoy 2 | Bottom Right | Normal World Spawn |  | Verified | enemy | ✓ | Spawn conditions: bellShrineEnclave=true |
+| 10 | Envoy 2 | Bottom Right | complete Meet the Caretaker IN Songclave |  | Verified | enemy | ✓ | Spawn conditions: bellShrineEnclave=true |
 | 11 | Reed 1 | Right Stage | Normal World Spawn |  | Verified | enemy | ✓ |  |
 | 12 | Reed 2 | Upper | Normal World Spawn |  | Verified | enemy | ✓ |  |
 | 13 | Reed 3 | Upper | Normal World Spawn |  | Verified | enemy | ✓ |  |

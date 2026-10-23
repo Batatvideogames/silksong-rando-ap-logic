@@ -37,8 +37,7 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | gate switch lace | switch platform | none |  | Verified | switch | ✓ |  |
-| 2 | lace 1 boss fight | boss arena | none |  | Verified | boss | ✓ |  |
-| 3 | Lace 1 |  |  |  |  | enemy | ✓ |  |
+| 2 | lace 1 boss fight | boss arena | Combat Requirements |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

@@ -34,7 +34,7 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | bell beast boss fight | boss room | silkspear |  | Verified | boss | ✓ | only silkspear works here |
+| 1 | bell beast boss fight | boss room | silkspear AND Combat Requirements |  | Verified | boss | ✓ | only silkspear works here |
 | 2 | bell beast silk heart | boss room | defeat bell beast boss fight |  | Verified | collectible |  |  |
 | 3 | bellway the marrow | right area | defeat bell beast boss fight |  | Verified | travel |  |  |
 

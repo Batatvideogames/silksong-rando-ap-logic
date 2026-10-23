@@ -32,7 +32,7 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | forebrothers boss fight | boss area | none |  | Verified | boss | ✓ |  |
+| 1 | forebrothers boss fight | boss area | Combat Requirements |  | Verified | boss | ✓ |  |
 | 2 | Dock Guard Thrower 1 |  |  |  |  | enemy | ✓ |  |
 | 3 | Flintstone Flyer 1 |  |  |  |  | enemy | ✓ |  |
 | 4 | Smokerock Sifter 1 |  |  |  |  | enemy | ✓ |  |

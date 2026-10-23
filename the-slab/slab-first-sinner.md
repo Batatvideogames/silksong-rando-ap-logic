@@ -23,7 +23,7 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Rune Rage |  | defeat Boss: First Sinner |  | Verified | collectible | ✓ |  |
-| 2 | Boss: First Sinner |  | none |  | Verified | enemy | ✓ | Spawn conditions: hasSilkBomb=false FSM Boolean flags: encounteredFirstWeaver |
+| 2 | Boss: First Sinner |  | Combat Requirements |  | Verified | enemy | ✓ | Spawn conditions: hasSilkBomb=false FSM Boolean flags: encounteredFirstWeaver |
 
 ## Room Images
 

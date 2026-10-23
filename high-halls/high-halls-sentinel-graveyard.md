@@ -22,7 +22,7 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Second Sentinel Boss Fight |  | none | TODO | Verified | boss | ✓ | normally would be `complete THE Final Audience Wish Promised` but team cherry did nothing to protect the boss fight from starting without the wish - not ideal for entrance rando, and might need to be patched |
+| 1 | Second Sentinel Boss Fight |  | Combat Requirements |  | Verified | boss | ✓ |  |
 | 2 | Final Audience Wish Granted |  | complete THE Final Audience Wish Promised  AND defeat Second Sentinel Boss Fight |  | Verified | event | ✓ | assuming this becomes impossible if the boss is defeated before the wish is accepted |
 | 3 | Reserve Bind |  | complete Final Audience Wish Granted |  | Verified | collectible | ✓ |  |
 

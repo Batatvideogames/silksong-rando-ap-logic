@@ -32,7 +32,7 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Boss: Disgraced Chef Lugoli | upper | none |  | Verified | boss | ✓ |  |
+| 1 | Boss: Disgraced Chef Lugoli | upper | Combat Requirements |  | Verified | boss | ✓ |  |
 | 2 | Sinner's Road Chef's Kitchen Door Switch | lower | hit switch up OR hit switch left |  | Verified | switch | ✓ |  |
 | 3 | Roachserver 1 |  |  |  |  | enemy | ✓ |  |
 | 4 | Roachserver 2 |  |  |  |  | enemy | ✓ |  |

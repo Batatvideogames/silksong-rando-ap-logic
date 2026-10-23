@@ -56,8 +56,10 @@
 | F6 | upper silk soar zone fall | upper silk soar only zone | middle right ledge | none (falling) |  | Verified | ✓ |  |
 | F7 | middle right ledge fall | middle right ledge | lower silk soar only zone | none (falling) |  | Verified | ✓ |  |
 | F8 | lower silk soar zone fall | lower silk soar only zone | bottom gap area | none (falling) |  | Verified | ✓ |  |
-| F9 | lower left area fall | bottom left area | bottom gap area | none (falling) |  | Verified | ✓ |  |
+| F9 | bottom left area fall | bottom left area | bottom gap area | none (falling) |  | Verified | ✓ |  |
 | F10 | lower right area fall | lower right area | bottom gap area | none (falling) |  | Verified | ✓ |  |
+| F11 | fall into lower left area | lower silk soar only zone | lower left area | none (falling) |  | Verified | ✓ | forgetting these will shame generations of my family. good thing i'm not having kids. - hero, 10/22 |
+| F12 | fall into lower right area | lower silk soar only zone | lower right area | none (falling) |  | Verified | ✓ | forgetting these will shame generations of my family. good thing i'm not having kids. - hero, 10/22 |
 | S1 | bottom silk soar | bottom gap area | lower silk soar only zone | silk soar |  | Verified | ✓ |  |
 | S2 | lower zone silk soar | lower silk soar only zone | upper silk soar only zone | silk soar |  | Verified | ✓ |  |
 | S3 | upper zone silk soar | upper silk soar only zone | top area | silk soar |  | Verified | ✓ |  |

@@ -2,7 +2,7 @@
 
 **Game ID:** Hang_03
 
-**Contributors:** samupo, rebel
+**Contributors:** samupo, rebel, Gallos
 
 ## Subrooms
 
@@ -28,15 +28,16 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| B | Bottom Traversal | Bottom Left | Bottom Right | swim OR clawline OR (faydown cloak AND dash) |  | Verified | ✓ |  |
-| B | Bottom Traversal | Bottom Right | Bottom Left | swim OR clawline OR (faydown cloak AND dash) |  | Verified | ✓ |  |
-| B2 | Bottom Right to Mid Left | Bottom Right | Middle Left | ( cling grip AND faydown cloak ) OR clawline |  | Verified | ✓ |  |
-| M | Middle Left to Top Right | Middle Left | Top Right | clawline AND cling grip |  | Verified | ✓ |  |
-| T | Top Right to Top | Top Right | Top | faydown cloak AND (clawline OR (cling grip AND dash)) |  | Verified | ✓ |  |
-| FT | Falling from Top | Top | Middle Left | none |  | Verified | ✓ | falilng |
-| FT2 | Falling from Top 2 | Top | Top Right | clawline OR dash OR faydown cloak |  | Verified | ✓ |  |
-| FM | Falling from Mid | Middle Left | Bottom Left | none |  | Verified | ✓ | falling |
-| FM2 | Falling from Mid 2 | Middle Left | Bottom Right | clawline OR dash OR faydown cloak |  | Verified | ✓ |  |
+| B | Bottom Traversal | Bottom Left | Bottom Right | swim OR clawline right OR (faydown cloak AND dash right) OR (easy pogo off Minister AND (drifter's cloak OR dash right OR scuttlebrace OR easy [shaman, beast] pogo)) OR (easy shaman pogo AND scuttlebrace AND silk soar) |  | Verified | ✓ |  |
+| B | Bottom Traversal | Bottom Right | Bottom Left | swim OR clawline left OR (faydown cloak AND dash left) OR (easy pogo off Minister AND (drifter's cloak OR dash left OR scuttlebrace OR easy [shaman, beast] pogo)) OR (easy shaman pogo AND scuttlebrace AND silk soar) |  | Verified | ✓ |  |
+| RM | Bottom Right to Mid Left | Middle Left | Bottom Right | none |  | Verified | ✓ | falling |
+| RM | Bottom Right to Mid Left | Bottom Right | Middle Left | ( cling grip right AND faydown cloak AND spike pogo ) OR clawline either OR hard pogo off Minister OR ((cling grip right OR scuttlebrace) AND medium pogo off Minister AND spike pogo) |  | Verified | ✓ |  |
+| LM | Falling from Mid | Middle Left | Bottom Left | none |  | Verified | ✓ | falling |
+| LM | Falling from Mid | Bottom Left | Middle Left | ( cling grip left AND faydown cloak) OR clawline either OR hard pogo off Minister OR ((cling grip left OR scuttlebrace) AND medium pogo off Minister) |  | Verified | ✓ |  |
+| M | Middle Left to Top Right | Middle Left | Top Right | (cling grip either AND (faydown cloak AND spike pogo)) OR (cling grip left AND clawline left AND ((dash right AND (cling grip right OR ledge grab right)) OR clawline right OR sharpdart OR scuttlebrace OR easy pogo off Minister OR drifter's cloak)) OR (cling grip right AND clawline right AND (cling grip left OR clawline left OR scuttlebrace OR easy pogo off Minister)) |  | Verified | ✓ |  |
+| M | Middle Left to Top Right | Top Right | Middle Left | none |  | Verified | ✓ | falling |
+| T | Top Right to Top | Top Right | Top | (faydown cloak AND (((run OR clawline left) AND ledge grab left) OR cling grip left)) OR silk soar OR (cling grip left AND easy pogo off Minister) |  | Verified | ✓ |  |
+| FT2 | Falling from Top 2 | Top | Top Right | clawline right OR dash right OR faydown cloak OR scuttlebrace OR easy beast pogo OR easy architect needle strike OR ((easy [heal, rune rage] stall OR easy wanderer needle strike) AND (ledge grab right OR cling grip right)) OR sharpdart OR easy [voltvessels, plasmium, flintslate,flea brew] stall |  | Verified | ✓ |  |
 
 ## Check Locations
 

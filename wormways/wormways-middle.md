@@ -23,14 +23,22 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| RJ | running jump | main tunnel | wormways west scaffold | (ledge grab AND (run OR dash OR faydown cloak OR drifter's cloak OR clawline OR silk soar OR sharpdart OR flea brew)) OR (run OR dash OR faydown cloak OR drifter's cloak OR clawline OR silk soar OR sharpdart OR  (cling grip AND flea brew)) OR (cling grip AND proficient movement AND (architect slash right OR easy shaman pogo OR flea brew)) OR easy beast pogo |  | Verified | ✓ |  |
+| RJ | running jump | main tunnel | wormways west scaffold | (ledge grab AND (run OR dash right OR faydown cloak OR drifter's cloak OR clawline right OR silk soar OR sharpdart OR flea brew)) OR (run OR dash both OR faydown cloak OR drifter's cloak OR clawline OR silk soar OR sharpdart) OR (cling grip both AND proficient movement AND (architect slash right OR easy shaman pogo OR flea brew OR easy naked pogo OR easy [voltvessels, flintslate, rune rage] stall)) OR easy beast pogo OR easy [beast, architect] needle strike |  | Verified | ✓ |  |
 | RJ | running jump | wormways west scaffold | main tunnel | none (falling) |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 1 | Grom 1 | main tunnel | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 2 | Grom 2 | main tunnel | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 3 | Grom 3 | main tunnel | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 4 | Grom 4 | main tunnel | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 5 | Grom 5 | main tunnel | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 6 | Grom 6 | main tunnel | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 7 | Grom 7 | main tunnel | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 8 | Plasmidas 1 | main tunnel | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 9 | Plasmidas 2 | main tunnel | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

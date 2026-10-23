@@ -23,8 +23,7 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Boss: Shrine Guardian Seth |  | None |  | Verified | boss | ✓ |  |
-| 2 | Seth 1 |  |  |  |  | enemy | ✓ |  |
+| 1 | Boss: Shrine Guardian Seth |  | Combat Requirements |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

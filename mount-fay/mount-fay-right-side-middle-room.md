@@ -47,7 +47,7 @@
 | 2 | Mount Fay - Shell Shard Cache #5 | Shell Shard Slope | None |  | Verified | resource | ✓ |  |
 | 3 | Mount Fay - Shell Shard Cache #6 | Shell Shard Slope | None |  | Verified | resource | ✓ |  |
 | 4 | Mount Fay - Shell Shard Cache #7 | Shell Shard Slope | None |  | Verified | resource | ✓ |  |
-| 5 | Pinstress Boss Fight | Pinstress Arena | complete Fatal Resolve Wish Promised IN Windy Pinstress Room OR (  complete Fatal Resolve Wish Promised IN Bellhart Wish Wall AND complete Read Pinstress Note IN Windy Pinstress Room ) |  | Verified | boss | ✓ | confirmed that you need to read the note if you start from the wish wall |
+| 5 | Pinstress Boss Fight | Pinstress Arena | ( complete Fatal Resolve Wish Promised IN Windy Pinstress Room OR (  complete Fatal Resolve Wish Promised IN Bellhart Wish Wall AND complete Read Pinstress Note IN Windy Pinstress Room ) ) AND Combat Requirements |  | Verified | boss | ✓ | confirmed that you need to read the note if you start from the wish wall |
 | 6 | Fatal Resolve Wish Granted | Pinstress Arena | defeat Pinstress Boss Fight |  | Verified | event | ✓ |  |
 | 7 | Pin Badge | Pinstress Arena | complete Pinstress Boss Fight |  | Verified | collectible | ✓ |  |
 | 8 | Driftlin 1 | Pinstress Arena | None |  | Verified | enemy | ✓ |  |

@@ -2,7 +2,7 @@
 
 **Game ID:** Hang_13
 
-**Contributors:** samupo, rebel
+**Contributors:** samupo, rebel, Gallos
 
 ## Subrooms
 
@@ -24,12 +24,12 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LC | Left <> Center | Left Entrance | Center Platform | Clawline OR (Swift Step 2 AND Faydown Cloak) OR (Easy Plasmium Stall AND Faydown Cloak AND Sprint AND (Ledge Grab OR Cling Grip)) |  | Verified | ✓ |  |
-| LC | Left <> Center | Center Platform | Left Entrance | Clawline OR (Sprint AND (Dash OR Faydown Cloak)) OR (Swim AND (Ledge Grab OR Cling Grip)) OR (Faydown Cloak AND (Medium Plasmium Stall OR Medium Voltvessels Stall OR Easy Beast Charge OR Easy Architect Charge)) |  | Verified | ✓ |  |
-| CT | Center <> Top | Center Platform | Top Platform | Clawline AND (Ledge Grab OR Faydown Cloak OR Cling Grip) |  | Verified | ✓ |  |
-| CT | Center <> Top | Top Platform | Center Platform | Ledge Grab OR Swim OR Faydown Cloak OR Clawline OR Sharpdart OR (Cling Grip AND Proficient Movement) OR Sprint OR Dash OR Drifter's Cloak OR Easy Reaper Pogo OR Easy Hunter Pogo OR Easy Beast Pogo OR Easy Shaman Pogo OR Easy Architect Pogo OR Easy Hunter Charge OR Easy Wanderer Charge OR Easy Witch Charge OR Easy Beast Charge OR Easy Architect Charge OR Easy Shaman Charge OR Easy Flintslate Stall OR Easy Plasmium Stall OR Easy Voltvessels Stall OR Flea Brew |  | Verified | ✓ | honestly just like literally anything in the game? |
-| TR | Top <> Right | Top Platform | Right Exit | Clawline OR (Faydown Cloak AND (Sprint OR Drifter's Cloak OR Sharpdart OR (Swim AND (Ledge Grab OR Cling Grip)))) |  | Verified | ✓ |  |
-| TR | Top <> Right | Right Exit | Top Platform | Clawline OR Sharpdart OR Swift Step 2 OR (Faydown Cloak AND (Dash OR Sprint)) |  | Verified | ✓ |  |
+| LC | Left <> Center | Left Entrance | Center Platform | Clawline right OR (run AND dash right AND (Faydown Cloak OR ledge grab right OR cling grip right)) OR ((sharpdart OR Easy Plasmium Stall) AND Faydown Cloak AND run) |  | Verified | ✓ |  |
+| LC | Left <> Center | Center Platform | Left Entrance | Drifter's cloak OR Clawline left OR (run AND (Dash left OR Faydown Cloak OR scuttlebrace)) OR (Swim AND (Ledge Grab left OR Cling Grip left)) OR (Faydown Cloak AND (Medium Plasmium Stall OR Medium Voltvessels Stall OR Easy Architect needle strike OR scuttlebrace)) OR (easy beast pogo AND easy beast needle strike) OR (easy architect needle strike AND dash left) OR (easy shaman pogo AND scuttlebrace) |  | Verified | ✓ |  |
+| CT | Center <> Top | Center Platform | Top Platform | (Clawline right AND (Faydown Cloak OR ((Ledge Grab right OR Cling Grip right) AND spike pogo))) OR ((silk soar OR easy pogo off Maestro) AND spike pogo AND faydown cloak AND drifter's cloak AND (ledge grab right OR cling grip right)) |  | Verified | ✓ |  |
+| CT | Center <> Top | Top Platform | Center Platform | Ledge Grab left OR Swim OR Faydown Cloak OR Clawline left OR Sharpdart OR (Cling Grip left AND Proficient Movement) OR run OR Dash left OR Drifter's Cloak OR Easy [Reaper, Hunter, Beast, Shaman, Architect] Pogo OR easy [Hunter, Wanderer, Witch, Beast, Architect,Shaman] needle strike OR Easy Flintslate Stall OR Easy Plasmium Stall OR Easy Voltvessels Stall OR Flea Brew |  | Verified | ✓ | honestly just like literally anything in the game? |
+| TR | Top <> Right | Top Platform | Right Exit | Clawline right OR (Faydown Cloak AND (run OR Drifter's Cloak OR Sharpdart OR (Swim AND (Ledge Grab right OR Cling Grip right)))) OR (easy shaman pogo AND scuttlebrace AND (silk soar OR easy enemy pogo off Minister OR faydown cloak)) |  | Verified | ✓ |  |
+| TR | Top <> Right | Right Exit | Top Platform | Clawline left OR Sharpdart OR run OR (Faydown Cloak AND Dash right) OR swim OR easy scuttlebrace OR (easy beast needle strike AND easy beast pogo) OR (Easy Flintslate Stall OR Easy Plasmium Stall OR Easy Voltvessels Stall OR easy flea brew stall) |  | Verified | ✓ |  |
 
 ## Check Locations
 

@@ -25,7 +25,7 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Broodmother Boss Fight | arena | none | TODO | Verified | boss | ✓ | unknown if gated by quest or just room access |
+| 1 | Broodmother Boss Fight | arena | Combat Requirements | TODO | Verified | boss | ✓ | unknown if gated by quest or just room access |
 | 2 | Broodmother's Eye | arena | defeat Broodmother Boss Fight |  | Verified | collectible |  |  |
 | 3 | Freshfly 1 | arena | none |  | Verified | enemy | ✓ | wave 1 |
 | 4 | Freshfly 2 | arena | none |  | Verified | enemy | ✓ | wave 1 |

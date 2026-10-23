@@ -2,7 +2,7 @@
 
 **Game ID:** Ward_02b
 
-**Contributors:** skai
+**Contributors:** skai, Gallos
 
 ## Subrooms
 
@@ -25,9 +25,9 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LUT | Lower to Upper Tunnels | Lower Tunnels | Upper Tunnels | Cling Grip OR Scuttlebrace OR Silk Soar |  | Verified | ✓ |  |
+| LUT | Lower to Upper Tunnels | Lower Tunnels | Upper Tunnels | Cling Grip either OR Scuttlebrace OR Silk Soar |  | Verified | ✓ |  |
 | LUT | Lower to Upper Tunnels | Upper Tunnels | Lower Tunnels | Nothing (Falling) |  | Verified | ✓ |  |
-| UCT | Upper to Center Tunnels | Center Tunnels | Upper Tunnels | Cling Grip OR Scuttlebrace OR Silk Soar |  | Verified | ✓ |  |
+| UCT | Upper to Center Tunnels | Center Tunnels | Upper Tunnels | Cling Grip either OR Scuttlebrace OR Silk Soar |  | Verified | ✓ |  |
 | UCT | Upper to Center Tunnels | Upper Tunnels | Center Tunnels | Nothing (Falling) |  | Verified | ✓ |  |
 | CTH | Center to Top Horizontal | Center Tunnels | Top Horizontal | Cling Grip OR Scuttlebrace OR Silk Soar |  | Verified | ✓ |  |
 | CTH | Center to Top Horizontal | Top Horizontal | Center Tunnels | Nothing (Falling) |  | Verified | ✓ |  |
@@ -38,9 +38,9 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Relic: Choral Commandment (Western Whiteward) | Pickup Section | Nothing |  | Verified | collectible | ✓ |  |
-| 2 | Dreg Husk 1 |  |  |  |  | enemy | ✓ |  |
-| 3 | Dreg Husk 2 |  |  |  |  | enemy | ✓ |  |
-| 4 | Drapefly 1 |  |  |  |  | enemy | ✓ |  |
+| 2 | Dreg Husk 1 | Pickup Section | invalid |  | Verified | enemy | ✓ | unused enemy |
+| 3 | Dreg Husk 2 | Pickup Section | none |  | Verified | enemy | ✓ |  |
+| 4 | Drapefly 1 | Top Horizontal | none |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

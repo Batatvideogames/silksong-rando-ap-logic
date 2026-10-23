@@ -2,7 +2,7 @@
 
 **Game ID:** Ward_02
 
-**Contributors:** skai
+**Contributors:** skai, Gallos
 
 ## Subrooms
 
@@ -26,14 +26,14 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| SLV | Surgery Left to Vertical | Surgery Tables (Left) | Vertical Left | Ledge Grab OR Faydown OR Clawline OR Silk Soar OR (Proficient Movement AND Scuttlebrace) |  | Verified | ✓ |  |
+| SLV | Surgery Left to Vertical | Surgery Tables (Left) | Vertical Left | faydown cloak OR cling grip right OR silk soar OR  (Proficient Movement AND Scuttlebrace) OR (cling grip left AND easy shaman pogo) |  | Verified | ✓ |  |
 | SLV | Surgery Left to Vertical | Vertical Left | Surgery Tables (Left) | Nothing (Falling) |  | Verified | ✓ |  |
 | SRL | Surgery Right to Left | Surgery Tables (Right) | Surgery Tables (Left) | Nothing |  | Verified | ✓ |  |
 | SRL | Surgery Right to Left | Surgery Tables (Left) | Surgery Tables (Right) | Nothing |  | Verified | ✓ |  |
 | SKS | Surgery to Key Shaft | Surgery Tables (Left) | Key Shaft | Have Surgeon's Key |  | Verified | ✓ |  |
-| SKS | Surgery to Key Shaft | Key Shaft | Surgery Tables (Left) | Have Surgeon's Key AND Silk Soar |  | Verified | ✓ |  |
+| SKS | Surgery to Key Shaft | Key Shaft | Surgery Tables (Left) | Have Surgeon's Key AND Silk Soar |  | Verified | ✓ | If boss soul missing |
 | KSA | Key Shaft to Arena | Key Shaft | Unravelled Arena | Nothing (Falling) |  | Verified | ✓ |  |
-| KSA | Key Shaft to Arena | Unravelled Arena | Key Shaft | Have Surgeon's Key AND Silk Soar |  | Verified | ✓ |  |
+| KSA | Key Shaft to Arena | Unravelled Arena | Key Shaft | Have Surgeon's Key AND Silk Soar |  | Verified | ✓ | If boss soul missing |
 
 ## Check Locations
 
@@ -41,11 +41,11 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | The Unravelled - Silk Heart | Unravelled Arena | Defeat Boss: The Unravelled |  | Verified | collectible | ✓ |  |
 | 2 | The Unravelled Gauntlet | Unravelled Arena | Nothing |  | Verified | gauntlet | ✓ |  |
-| 3 | Boss: The Unravelled | Unravelled Arena | Defeat The Unravelled Gauntlet |  | Verified | boss | ✓ |  |
-| 4 | Dreg Husk 1 |  |  |  |  | enemy | ✓ |  |
-| 5 | Dregwheel 1 |  |  |  |  | enemy | ✓ |  |
-| 6 | Dreg Husk 2 |  |  |  |  | enemy | ✓ |  |
-| 7 | Dregwheel 2 |  |  |  |  | enemy | ✓ |  |
+| 3 | Boss: The Unravelled | Unravelled Arena | Defeat The Unravelled Gauntlet AND Combat Requirements |  | Verified | boss | ✓ |  |
+| 4 | Dreg Husk 1 | Unravelled Arena | none |  | Verified | enemy | ✓ | Defeat Unravelled Gauntlet = false |
+| 5 | Dregwheel 1 | Unravelled Arena | none |  | Verified | enemy | ✓ | Defeat Unravelled Gauntlet = false |
+| 6 | Dreg Husk 2 | Unravelled Arena | none |  | Verified | enemy | ✓ | Defeat Unravelled Gauntlet = false |
+| 7 | Dregwheel 2 | Unravelled Arena | none |  | Verified | enemy | ✓ | Defeat Unravelled Gauntlet = false |
 
 ## Room Images
 

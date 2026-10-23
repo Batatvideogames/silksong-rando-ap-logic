@@ -2,7 +2,7 @@
 
 **Game ID:** Hang_09
 
-**Contributors:** samupo, herounit, rebel
+**Contributors:** samupo, herounit, rebel, Gallos
 
 ## Subrooms
 
@@ -21,8 +21,8 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| V1 | vertical 1 | main area | down the drain | none (falling) |  | Verified | ✓ | a tiny bit tight but no requirements to get down here |
-| V1 | vertical 1 | down the drain | main area | cling grip OR ( scuttlebrace AND ledge grab ) |  | Verified | ✓ |  |
+| V1 | vertical 1 | main area | down the drain | none |  | Verified | ✓ | falling |
+| V1 | vertical 1 | down the drain | main area | none |  | Verified | ✓ | F4 |
 
 ## Check Locations
 

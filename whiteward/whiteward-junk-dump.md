@@ -2,7 +2,7 @@
 
 **Game ID:** Ward_07
 
-**Contributors:** skai
+**Contributors:** skai, Gallos
 
 ## Subrooms
 
@@ -23,8 +23,7 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Whiteward - Oath |  | Nothing |  | Verified | lore | ✓ |  |
-| 2 | Surgeon's Key |  | Clawline |  | Verified | collectible | ✓ |  |
-| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 2 | Surgeon's Key |  | Clawline either |  | Verified | collectible | ✓ |  |
 
 ## Room Images
 

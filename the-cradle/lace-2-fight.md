@@ -29,9 +29,8 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Boss: Lace 2 | Arena | None |  | Verified | boss | ✓ |  |
-| 2 | Silk Heart: Lace 2 | Arena | prereq Boss: Lace 2 |  | Verified | collectible | ✓ |  |
-| 3 | Lace 1 |  |  |  |  | enemy | ✓ |  |
+| 1 | Silk Heart: Lace 2 | Arena | prereq Boss: Lace 2 |  | Verified | collectible | ✓ |  |
+| 2 | Boss: Lace 2 | Arena | Combat Requirements |  | Verified | enemy | ✓ |  |
 
 ## Notes
 

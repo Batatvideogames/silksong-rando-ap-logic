@@ -29,7 +29,7 @@
 | RB | right boss entrance | boss arena | bench passage | complete moss mother boss fight |  | Verified | ✓ |  |
 | LB | left boss entrance | chapel | boss arena | none (starts fight) |  | Verified | ✓ |  |
 | LB | left boss entrance | boss arena | chapel | complete moss mother boss fight |  | Verified | ✓ |  |
-| V1 | ledge grab | bench spot | bench passage | ledge grab right  OR cling grip right OR faydown  OR silk soar |  | Verified | ✓ |  |
+| V1 | ledge grab | bench spot | bench passage | ledge grab right  OR cling grip right OR faydown  OR silk soar OR (easy flea brew stall AND easy beast pogo AND(run OR flea brew OR clawline right OR sharpdart)) OR easy beast needle strike OR (easy shaman pogo AND (clawline right OR run OR sharpdart)) OR (scuttlebrace AND (easy flea brew stall OR needle left)) |  | Verified | ✓ |  |
 | V1 | ledge grab | bench passage | bench spot | none (falling) |  | Verified | ✓ |  |
 
 ## Check Locations
@@ -38,7 +38,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | bench | bench spot | none |  | Verified | bench | ✓ |  |
 | 2 | Mister Mushroom Meeting Moss Grotto | boss arena | complete THE Passing of the Age Wish Promised AND Needolin |  | Verified | event |  |  |
-| 3 | moss mother boss fight | boss arena | Normal World Spawn |  | Verified | boss | ✓ |  |
+| 3 | moss mother boss fight | boss arena | Normal World Spawn AND Combat Requirements |  | Verified | boss | ✓ |  |
 | 4 | Mossgrub Summon 0 | boss arena | Normal World Spawn AND Invalid |  | Verified | enemy | ✓ | boss summon - could be missed |
 | 5 | Mossgrub Summon 1 | boss arena | Normal World Spawn AND Invalid |  | Verified | enemy | ✓ | boss summon - could be missed |
 | 6 | MossBone Cocoon 0 | boss arena | Normal World Spawn |  | Verified | enemy | ✓ |  |

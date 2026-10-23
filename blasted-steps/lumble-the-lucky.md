@@ -24,13 +24,12 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Magnetite Dice |  | ( Complete Bankrupt Lumble OR Prereq Clawline Pickup IN Underworks Clawline Room OR Prereq THE cogwork dancers boss fight ) AND ( Act 1 OR Act 2 ) |  | Verified | collectible | ✓ |  |
 | 2 | Bankrupt Lumble |  | None |  | Verified | event | ✓ |  |
-| 3 | Lost Garmond Boss Fight |  | complete THE Hero's Call Wish Promised |  | Verified | boss |  |  |
-| 4 | Hero's Call Wish Granted |  | defeat Lost Garmond Boss Fight |  | Verified | event |  |  |
-| 5 | Hero's Memento |  | defeat Lost Garmond Boss Fight |  | Verified | collectible |  |  |
-| 6 | Lost Garmond 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
-| 7 | Elder Pilgrim 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
-| 8 | Winged Pilgrim 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
-| 9 | Pilgrim Hiker 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 3 | Hero's Call Wish Granted |  | defeat Lost Garmond Boss Fight |  | Verified | event |  |  |
+| 4 | Hero's Memento |  | defeat Lost Garmond Boss Fight |  | Verified | collectible |  |  |
+| 5 | Lost Garmond Boss Fight |  | Black Thread World Spawn AND complete THE Hero's Call Wish Promised AND Combat Requirements |  | Verified | enemy | ✓ |  |
+| 6 | Elder Pilgrim 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 7 | Winged Pilgrim 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 8 | Pilgrim Hiker 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 ## Room Images
 

@@ -35,7 +35,7 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | door switch | right of boss fight | flip switch down |  | Verified | switch |  |  |
-| 2 | savage beastfly boss fight | boss arena | none |  | Verified | boss |  |  |
+| 2 | savage beastfly boss fight | boss arena | Combat Requirements |  | Verified | boss |  |  |
 | 3 | crest beast | crest area | none |  | Verified | collectible |  |  |
 | 4 | import enemies |  |  | TODO | Needs verification |  |  |  |
 

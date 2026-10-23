@@ -2,7 +2,7 @@
 
 **Game ID:** Hang_02
 
-**Contributors:** samupo, rebel
+**Contributors:** samupo, rebel, Gallos
 
 ## Subrooms
 
@@ -25,21 +25,21 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| V1 | vertical 1 | left exit | left platform | Swift Step 2 OR Clawline OR (Sharpdart AND Proficient Movement) OR (Faydown Cloak AND (Easy Scuttlebrace OR Drifter's Cloak OR Easy Voltvessels Stall OR Easy Plasmium Stall OR Medium Flintslate Stall OR Flea Brew)) |  | Verified | ✓ |  |
-| V1 | vertical 1 | left platform | left exit | Clawline OR Sharpdart OR Faydown Cloak OR Drifter's Cloak OR Easy Scuttlebrace OR Swift Step 2 OR (((Flea Brew AND Easy Flea Brew Stall) OR Medium Flintslate Stall OR Swim) AND (Ledge Grab OR Cling Grip)) OR Medium Plasmium Stall OR Medium Voltvessels Stall |  | Verified | ✓ |  |
-| C1 | crossing 1 | left platform | center platform | Clawline OR (Faydown Cloak AND Sprint AND Ledge Grab) |  | Verified | ✓ |  |
-| C1 | crossing 1 | center platform | left platform | Faydown Cloak OR Swift Step 2 OR Clawline OR Sharpdart OR Easy Scuttlebrace OR Drifter's Cloak OR (Flea Brew AND Easy Flea Brew Stall) OR Medium Voltvessels Stall OR Medium Plasmium Stall |  | Verified | ✓ |  |
-| C2 | crossing 2 | center platform | right platform | Clawline OR (Faydown Cloak AND (Sprint OR Dash OR Drifter's Cloak OR Sharpdart OR easy Beast Charge OR Easy Architect Charge OR Easy Voltvessels Stall OR Easy Plasmium Stall OR Flea Brew OR (Easy Flintslate Stall AND Ledge Grab))) |  | Verified | ✓ |  |
-| C2 | crossing 2 | right platform | center platform | Sprint OR Dash OR Drifter's Cloak OR Faydown Cloak OR Clawline OR Sharpdart OR Easy Scuttlebrace OR Easy Flintslate Stall OR Easy Voltvessels Stall OR Easy Plasmium Stall OR Flea Brew |  | Verified | ✓ |  |
-| C3 | crossing 3 | right platform | right exit | Faydown Cloak OR ((Cling Grip OR Easy Scuttlebrace) AND (Sprint OR Dash OR Flea Brew OR Easy Architect Charge OR Easy Beast Charge OR Drifter's Cloak OR Easy Plasmium Stall)) OR ((Clawline OR Sharpdart) AND Ledge Grab) |  | Verified | ✓ |  |
-| C3 | crossing 3 | right exit | right platform | Sprint OR Dash OR Drifter's Cloak OR Faydown Cloak OR Clawline OR Sharpdart OR Easy Scuttlebrace OR Easy Flintslate Stall OR Easy Voltvessels Stall OR Easy Plasmium Stall OR Flea Brew |  | Verified | ✓ |  |
+| V1 | vertical 1 | left exit | left platform | (run AND dash right AND (cling grip right OR ledge grab right)) OR Clawline right OR (Sharpdart AND Proficient Movement) OR (Faydown Cloak AND (easy beast pogo OR Easy Scuttlebrace OR Drifter's Cloak OR Easy Voltvessels Stall OR Easy Plasmium Stall OR Medium Flintslate Stall OR Flea Brew OR easy architect needle strike OR dash right OR (easy hunter pogo AND ledge grab right) OR (swim AND (ledge grab right OR cling grip right)))) |  | Verified | ✓ |  |
+| V1 | vertical 1 | left platform | left exit | (swim AND (easy shaman pogo OR ledge grab left OR cling grip left)) OR Clawline left OR Sharpdart OR Faydown Cloak OR Drifter's Cloak OR Easy Scuttlebrace OR dash right OR (Flea Brew AND (Easy Flea Brew Stall OR Medium Flintslate Stall OR Medium Plasmium Stall OR Medium Voltvessels Stall)) OR easy beast pogo OR (easy architect pogo AND easy architect needle strike) |  | Verified | ✓ |  |
+| C1 | crossing 1 | left platform | center platform | Clawline right OR (Faydown Cloak AND (drifter's cloak OR run)  AND (cling grip right OR Ledge Grab right)) OR (Elite ball knowledge AND silk soar AND hard shaman pogo AND hard scuttlebrace) |  | Verified | ✓ |  |
+| C1 | crossing 1 | center platform | left platform | Faydown Cloak OR Swift Step 2 OR Clawline left OR Sharpdart OR Easy Scuttlebrace OR Drifter's Cloak OR (Flea Brew AND Easy Flea Brew Stall) OR Medium Voltvessels Stall OR Medium Plasmium Stall |  | Verified | ✓ |  |
+| C2 | crossing 2 | center platform | right platform | (easy pogo off maestro AND (dash right OR faydown cloak)) OR Clawline right OR (Faydown Cloak AND (run OR Dash right OR Drifter's Cloak OR Sharpdart OR easy Beast needle strike OR Easy Architect needle strike OR Easy Voltvessels Stall OR Easy Plasmium Stall OR Flea Brew OR (Easy Flintslate Stall AND (cling grip right OR Ledge Grab right)))) OR (Elite ball knowledge AND silk soar AND hard shaman pogo AND hard scuttlebrace) |  | Verified | ✓ |  |
+| C2 | crossing 2 | right platform | center platform | Sprint OR Dash left OR Drifter's Cloak OR Faydown Cloak OR Clawline left OR Sharpdart OR Easy Scuttlebrace OR Easy Flintslate Stall OR Easy Voltvessels Stall OR Easy Plasmium Stall OR Flea Brew |  | Verified | ✓ |  |
+| C3 | crossing 3 | right platform | right exit | Faydown Cloak OR ((Cling Grip right OR Easy Scuttlebrace) AND (run OR Dash right OR Flea Brew OR Easy Architect Charge OR Easy Beast Charge OR Drifter's Cloak OR Easy Plasmium Stall)) OR ((Clawline right OR Sharpdart) AND (cling grip right OR Ledge Grab right)) OR (Elite ball knowledge AND silk soar AND hard shaman pogo AND hard scuttlebrace) |  | Verified | ✓ |  |
+| C3 | crossing 3 | right exit | right platform | run OR Dash left OR Drifter's Cloak OR Faydown Cloak OR Clawline left OR Sharpdart OR Easy Scuttlebrace OR Easy Flintslate Stall OR Easy Voltvessels Stall OR Easy Plasmium Stall OR Flea Brew OR easy [hunter, beast] pogo OR easy [wanderer,architect] needle strike |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Second Sentinel Encounter | center platform | act 3 AND complete THE second sentinel activation |  | Verified | event | ✓ |  |
-| 2 | Maestro 1 | center platform | nada |  | Verified | enemy | ✓ |  |
+| 2 | Maestro 1 | center platform | normal world spawn |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 
