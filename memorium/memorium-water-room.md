@@ -1,4 +1,4 @@
-# Memorium water room (Arborium_05)
+# Memorium Water Room (Arborium_05)
 
 **Game ID:** Arborium_05
 
@@ -48,12 +48,12 @@
 
 ### Connections
 
-[![Connections for Memorium water room (Arborium_05)](../00-annotations/memorium/memorium-water-room-connections.png)](../00-annotations/memorium/memorium-water-room-connections.png)
+[![Connections for Memorium Water Room (Arborium_05)](../00-annotations/memorium/memorium-water-room-connections.png)](../00-annotations/memorium/memorium-water-room-connections.png)
 
 ### Checks
 
-[![Checks for Memorium water room (Arborium_05)](../00-annotations/memorium/memorium-water-room-checks.png)](../00-annotations/memorium/memorium-water-room-checks.png)
+[![Checks for Memorium Water Room (Arborium_05)](../00-annotations/memorium/memorium-water-room-checks.png)](../00-annotations/memorium/memorium-water-room-checks.png)
 
 ### Scene
 
-[![Scene for Memorium water room (Arborium_05)](../00-annotations/memorium/memorium-water-room-scene.png)](../00-annotations/memorium/memorium-water-room-scene.png)
+[![Scene for Memorium Water Room (Arborium_05)](../00-annotations/memorium/memorium-water-room-scene.png)](../00-annotations/memorium/memorium-water-room-scene.png)

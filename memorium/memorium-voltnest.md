@@ -22,15 +22,15 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LM | memorium volt back and forth | left | Memorium stuff | (clawline AND silkhearts x 1 AND (spike pogo OR dash OR silkhearts x 2 OR drifter's cloak OR faydown cloak)) OR (cling grip AND run) OR (drifters AND (spike pogo OR faydown cloak)) OR (faydown cloak AND (run OR spike pogo)) OR (run AND spike pogo) OR easy beast pogo |  | Verified |  | OR (easy damage boost AND clawline AND silkhearts x 1) can be added once damage boosts are added |
-| LM | memorium volt back and forth | Memorium stuff | left | cling grip OR (clawline AND silkhearts x 1) OR medium hunter pogo OR medium reaper pogo OR (faydown cloak AND spike pogo) OR easy beast pogo OR medium architect pogo OR (spike pogo AND faydown cloak) OR run OR drifters |  | Verified |  |  |
+| LM | memorium volt back and forth | left | Memorium stuff | (clawline AND silkhearts x 1 AND (spike pogo OR dash OR silkhearts x 2 OR drifter's cloak OR faydown cloak)) OR (cling grip AND run) OR (drifters AND (spike pogo OR faydown cloak)) OR (faydown cloak AND (run OR spike pogo)) OR (run AND spike pogo) OR easy beast pogo |  | Verified |  | OR (easy damage boost AND clawline AND silkhearts 1) can be added once damage boosts are added |
+| LM | memorium volt back and forth | Memorium stuff | left | cling grip  OR (clawline AND silkhearts x 1)  OR (faydown cloak AND spike pogo)  OR drifters  OR easy beast pogo  OR medium [hunter, reaper, architect] pogo OR (elite ball knowledge AND (easy [shaman, wanderer] pogo OR hard witch pogo)) |  | Verified |  |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Voltvessels | Memorium stuff | complete Memoria gauntlet |  | Verified | collectible | ✓ |  |
-| 2 | Memoria gauntlet | Memorium stuff | nada |  | Verified | gauntlet | ✓ | custom name |
+| 2 | Memoria gauntlet | Memorium stuff | Combat Requirements |  | Verified | gauntlet | ✓ | custom name |
 | 3 | Memoria 1 |  |  |  |  | enemy | ✓ |  |
 | 4 | Memoria 2 |  |  |  |  | enemy | ✓ |  |
 

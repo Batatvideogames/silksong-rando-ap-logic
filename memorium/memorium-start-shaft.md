@@ -27,7 +27,7 @@
 | T | right1 | Tippidy top | [BEEG flea (Arborium_08)](beeg-flea.md) | l | complete Big flea wall IN BEEG flea |  | Verified | ✓ | shortcut |
 | B | bot1 | base | [Memorium Entrance Tunnel (Song_25)](../choral-chambers/memorium-entrance-tunnel.md) | T | Complete Memorium entrance vines IN memorium entrance tunnel |  | Verified | ✓ | one way wall |
 | ML | left1 | above evil wall | [Memorium Mossy (Arborium_09)](memorium-mossy.md) | R | nada |  | Verified | ✓ |  |
-| LLR | right5 | Almost bottom | [Memorium bench (Arborium_04)](memorium-bench.md) | L | nada |  | Verified | ✓ |  |
+| LLR | right5 | Almost bottom | [Memorium Bench (Arborium_04)](memorium-bench.md) | L | nada |  | Verified | ✓ |  |
 | VN | right2 | Volt Ledge | [Memorium Voltnest (Arborium_07)](memorium-voltnest.md) | L | nada |  | Verified | ✓ |  |
 | LR | right4 | Almost middle | [Memorium Rhino Room (Arborium_02)](memorium-rhino-room.md) | L | nada |  | Verified | ✓ |  |
 

@@ -55,7 +55,7 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Flea: Choral Chambers - Walled Room | Top Section 2 | Break Wall right AND (silk soar OR drifter's cloak OR (faydown cloak AND easy [Hunter, Wanderer, Reaper,Architect,Witch, Shaman] pogo) OR hard Beast pogo) |  | Verified | collectible | ✓ | Secret hidden by breaking a wall And possible while cursed |
+| 1 | Flea: Choral Chambers - Walled Room | Top Section 2 | Break Wall right AND (silk soar OR drifter's cloak OR (faydown cloak AND (easy [Hunter, Wanderer, Reaper,Architect,Witch, Shaman] pogo OR hard Beast pogo))) |  | Verified | collectible | ✓ | Secret hidden by breaking a wall And possible while cursed |
 | 2 | Flea Shaft's stolen rosaries | Base Upper Right | none |  | Verified | collectible | ✓ | rosary cache |
 | 3 | Flea Shaft's bounty | Base Upper Right | none |  | Verified | collectible | ✓ | rosary cache |
 | 4 | Flea Shaft's kidnappers' bonus | Base Upper Right | none |  | Verified | collectible | ✓ | rosary cache |

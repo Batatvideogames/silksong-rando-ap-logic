@@ -42,12 +42,12 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Whispering Vaults: Lore #4 | Bottom Left Entrance | Nothing. |  | Verified | lore | ✓ |  |
-| 2 | Trobbio | Fight | Nothing. |  | Verified | boss | ✓ |  |
+| 2 | Trobbio | Fight | Combat Requirements |  | Verified | boss | ✓ |  |
 | 3 | Progressive Claw Mirror 1 | Fight | Defeat Trobbio |  | Verified | collectible | ✓ |  |
 | 4 | Whispering Vaults: Flip Switch #4 | Bottom Center | Nothing. |  | Verified | switch | ✓ |  |
 | 5 | Whispering Vaults: Flip Switch #12 | Bottom Right | Nothing. |  | Verified | switch | ✓ |  |
 | 6 | AP Minor Cache - Whispering Vaults - Shell Shard Cache #2 | Top | Nothing. |  | Verified | resource | ✓ |  |
-| 7 | Tormented Trobbio | Fight | complete THE Pain Anguish and Misery Wish Promised AND defeat Trobbio AND Act 3 |  | Verified | boss | ✓ |  |
+| 7 | Tormented Trobbio | Fight | complete THE Pain Anguish and Misery Wish Promised AND defeat Trobbio AND Act 3 AND Combat Requirements |  | Verified | boss | ✓ |  |
 | 8 | Pain, Anguish and Misery Wish Granted | Fight | Defeat Tormented Trobbio |  | Verified | event | ✓ |  |
 | 9 | Progressive Claw Mirror 2 | Fight | Defeat Tormented Trobbio |  | Verified | collectible | ✓ |  |
 | 10 | import enemies |  |  | TODO | Needs verification |  |  |  |

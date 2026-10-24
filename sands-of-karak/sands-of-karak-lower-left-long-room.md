@@ -26,21 +26,24 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LN | Lower Nut Platforming | Lower Entrance | Centre Platform | Dash OR Clawline OR Drifters Cloak OR Faydown Cloak OR easy Beast Crest pogo OR Sharpdart OR ( easy Reaper Crest pogo AND Ledge Grab ) |  | Verified | ✓ |  |
-| LN | Lower Nut Platforming | Centre Platform | Lower Entrance | Clawline OR ( Dash AND Sprint AND Faydown Cloak AND Drifters Cloak ) |  | Verified | ✓ |  |
-| UP | Upper Left Nut Platforming | Centre Platform | Upper Left Platform | ( ( Cling grip OR Silk Soar ) AND ( Dash OR Clawline OR Sharpdart OR Faydown Cloak OR Drifters Cloak ) ) OR ( Silk Soar AND easy Beast Crest pogo ) |  | Verified | ✓ |  |
-| UP | Upper Left Nut Platforming | Upper Left Platform | Centre Platform | Dash OR Clawline OR easy Beast Crest pogo OR Drifters Cloak OR Faydown Cloak OR Sharpdart |  | Verified | ✓ |  |
+| LN | Lower Nut Platforming | Lower Entrance | Centre Platform | Dash Right OR Clawline Right OR Drifters Cloak OR Faydown Cloak OR easy Beast Crest pogo OR Sharpdart OR ( easy Reaper Crest pogo AND Ledge Grab Right ) |  | Verified | ✓ |  |
+| LN | Lower Nut Platforming | Centre Platform | Lower Entrance | Clawline Left OR ( Dash Left AND Sprint Left AND Faydown Cloak AND Drifters Cloak ) |  | Verified | ✓ |  |
+| UP | Upper Left Nut Platforming | Centre Platform | Upper Left Platform | ( ( Cling grip Both OR Silk Soar ) AND ( Dash Left OR Clawline Left OR Sharpdart OR Faydown Cloak OR Drifters Cloak ) ) OR ( Silk Soar AND easy Beast Crest pogo ) |  | Verified | ✓ |  |
+| UP | Upper Left Nut Platforming | Upper Left Platform | Centre Platform | Dash Right OR Clawline Right OR easy Beast Crest pogo OR Drifters Cloak OR Faydown Cloak OR Sharpdart |  | Verified | ✓ |  |
 | HD | Hidden Shaft | Upper Left Platform | Hidden Exit | Silk Soar |  | Verified | ✓ |  |
 | HD | Hidden Shaft | Hidden Exit | Upper Left Platform | None |  | Verified | ✓ |  |
-| RN | Right Nut Platforming | Centre Platform | Right Exit | Cling Grip AND ( Dash OR Drifters Cloak OR Clawline OR Sharpdart OR ( Faydown Cloak AND easy Beast Crest pogo ) ) |  | Verified | ✓ |  |
-| RN | Right Nut Platforming | Right Exit | Centre Platform | ( Clawline AND ( Dash OR Drifters Cloak OR Faydown Cloak OR Sharpdart ) ) OR ( Drifters Cloak AND Sharpdart x 4 ) |  | Verified | ✓ |  |
+| RN | Right Nut Platforming | Centre Platform | Right Exit | ( Cling Grip Both OR ( Cling grip Right AND Faydown Cloak ) )AND ( Dash Right OR Drifters Cloak OR Clawline Right OR Sharpdart OR ( Faydown Cloak AND easy Beast Crest pogo ) ) |  | Verified | ✓ |  |
+| RN | Right Nut Platforming | Right Exit | Centre Platform | ( Clawline Left AND ( Dash Left OR Drifters Cloak OR Faydown Cloak OR Sharpdart ) ) OR ( Drifters Cloak AND Sharpdart x 4 ) |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Dands of Karak - Memory Locket | Upper Left Platform | None |  | Verified | collectible | ✓ |  |
-| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 2 | Coral Furm 1 | Centre Platform | None |  | Verified | enemy | ✓ |  |
+| 3 | Coral Furm 2 | Right Exit | None |  | Verified | enemy | ✓ |  |
+| 4 | Driznarga 1 | Right Exit | None |  | Verified | enemy | ✓ |  |
+| 5 | Driznarga 2 | Upper Left Platform | None |  | Verified | enemy | ✓ | Burn in hell i hate this guy so damn much |
 
 ## Room Images
 

@@ -22,14 +22,15 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| WR | Whole Room | Left Exit | Right Exit | Clawline AND ( Drifters Cloak OR easy Shaman Crest pogo ) AND ( Cling grip OR Silk Soar ) |  | Verified | ✓ |  |
-| WR | Whole Room | Right Exit | Left Exit | Cling grip AND ( Clawline OR ( Faydown Cloak AND ( Dash OR Sharpdart OR Drifters Cloak ) ) ) |  | Verified | ✓ |  |
+| WR | Whole Room | Left Exit | Right Exit | Clawline Right AND ( Drifters Cloak OR easy Shaman Crest pogo ) AND ( Cling grip either OR Silk Soar ) |  | Verified | ✓ |  |
+| WR | Whole Room | Right Exit | Left Exit | Cling grip both AND ( Clawline left OR ( Faydown Cloak AND ( Dash left OR Sharpdart OR Drifters Cloak ) ) ) |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 1 | Pokenabbin 1 | Left Exit | Cling grip both AND ( Clawline left OR ( Faydown Cloak AND ( Dash left OR Sharpdart OR Drifters Cloak ) ) ) |  | Verified | enemy | ✓ |  |
+| 2 | Pokenabbin 2 | Right Exit | Clawline Right AND ( Drifters Cloak OR easy Shaman Crest pogo ) AND ( Cling grip either OR Silk Soar ) |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

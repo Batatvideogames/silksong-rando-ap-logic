@@ -48,7 +48,7 @@
 | 1 | Cogwork Core: Silk Spool #1 | Silk Spool Jump Left | Nothing. |  | Verified | collectible | ✓ |  |
 | 2 | Cogwork Core: Flip Switch #2 | Left Room | Nothing. |  | Verified | switch | ✓ | interacting with this switch causes a mini-boss type enemy to spawn |
 | 3 | Cogwork Core: Pristine Core | Arena | Complete Cogwork Core: Gauntlet #2 |  | Verified | collectible | ✓ |  |
-| 4 | Cogwork Core: Gauntlet #2 | Arena | Nothing. |  | Verified | gauntlet | ✓ |  |
+| 4 | Cogwork Core: Gauntlet #2 | Arena | Combat Requirements |  | Verified | gauntlet | ✓ |  |
 | 5 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images

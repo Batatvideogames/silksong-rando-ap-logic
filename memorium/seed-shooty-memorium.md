@@ -19,9 +19,9 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | UT | left1 | Not connected | [Memorium Karak (Arborium_06)](memorium-karak.md) | R | nada |  | Verified | ✓ |  |
 | LL | left3 | Middle | [Memorium Rhino Room (Arborium_02)](memorium-rhino-room.md) | R | nada |  | Verified | ✓ |  |
-| BL | left4 | Bottom | [Memorium bench (Arborium_04)](memorium-bench.md) | R | nada |  | Verified | ✓ |  |
-| T | left2 | Top | [Memorium water room (Arborium_05)](memorium-water-room.md) | R | nada |  | Verified | ✓ |  |
-| R | right1 | Middle | [Memorium puzzle (Arborium_10)](memorium-puzzle.md) | L | nada |  | Verified | ✓ |  |
+| BL | left4 | Bottom | [Memorium Bench (Arborium_04)](memorium-bench.md) | R | nada |  | Verified | ✓ |  |
+| T | left2 | Top | [Memorium Water Room (Arborium_05)](memorium-water-room.md) | R | nada |  | Verified | ✓ |  |
+| R | right1 | Middle | [Memorium Puzzle (Arborium_10)](memorium-puzzle.md) | L | nada |  | Verified | ✓ |  |
 | LR | right2 | Bottom | [Shopkeeper Hides (Arborium_11)](shopkeeper-hides.md) | L | nada |  | Verified | ✓ |  |
 
 ## Subroom Connections

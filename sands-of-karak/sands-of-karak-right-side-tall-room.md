@@ -25,17 +25,18 @@
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | TS1 | Tall Shaft1 | Centre | Bottom | None |  | Verified | ✓ |  |
-| TS1 | Tall Shaft1 | Bottom | Centre | Cling Grip |  | Verified | ✓ |  |
+| TS1 | Tall Shaft1 | Bottom | Centre | Cling Grip both |  | Verified | ✓ |  |
 | TS2 | Tall Shaft2 | Top | Bottom | None |  | Verified | ✓ |  |
-| TS2 | Tall Shaft2 | Bottom | Top | Cling Grip AND ( Clawline OR Faydown Cloak OR ( Ledge Grab AND ( ( Drifters Cloak OR Dash ) OR ( easy Beast Crest pogo AND easy Needle Strike stall ) ) ) ) |  | Verified | ✓ |  |
+| TS2 | Tall Shaft2 | Bottom | Top | Cling Grip both AND ( Clawline Right OR Faydown Cloak OR ( Ledge Grab Either AND ( ( Drifters Cloak OR Dash Right ) OR ( easy Beast Crest pogo AND easy Needle Strike stall ) ) ) ) |  | Verified | ✓ |  |
 | TS3 | Tall Shaft3 | Top | Centre | None |  | Verified | ✓ |  |
-| TS3 | Tall Shaft3 | Centre | Top | Silk Soar AND Cling grip AND ( ( Dash OR Clawline OR Sharpdart OR Faydown Cloak OR Drifters Cloak ) OR ( easy Beast Crest pogo AND easy Needle Strike stall) ) |  | Verified | ✓ |  |
+| TS3 | Tall Shaft3 | Centre | Top | Silk Soar AND Cling grip Right AND ( ( Dash Right OR Clawline Right OR Sharpdart OR Faydown Cloak OR Drifters Cloak ) OR ( easy Beast Crest pogo AND easy Needle Strike stall) ) |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 1 | Pokenabbin 1 | Bottom | None |  | Verified | enemy | ✓ |  |
+| 2 | Pokenabbin 2 | Bottom | None |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

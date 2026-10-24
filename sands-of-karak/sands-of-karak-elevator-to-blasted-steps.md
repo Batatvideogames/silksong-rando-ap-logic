@@ -25,11 +25,11 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| OE | Over Elevator | Left | Right | easy Shaman Crest pogo OR Ledge Grab OR Cling Grip OR Sprint OR ( Dash AND Scuttlebrace ) OR Silk Soar OR easy Beast Crest pogo OR Clawline OR Activate Elevator switch Karak OR ( ( easy Reaper Crest pogo OR easy Hunter Crest pogo) AND easy Needle Strike stall ) |  | Verified | ✓ |  |
+| OE | Over Elevator | Left | Right | easy Shaman Crest pogo OR Ledge Grab Right OR Cling Grip Right OR Sprint Right OR Scuttlebrace OR Silk Soar OR easy Beast Crest pogo OR Clawline Right OR Activate Elevator switch Karak OR ( ( easy Reaper Crest pogo OR easy Hunter Crest pogo) AND easy Needle Strike stall ) |  | Verified | ✓ |  |
 | OE | Over Elevator | Right | Left | None |  | Verified | ✓ |  |
 | EL | Elevator | Right | Bottom | Activate Elevator switch Karak |  | Verified | ✓ |  |
 | EL | Elevator | Bottom | Right | Activate Elevator switch Karak |  | Verified | ✓ |  |
-| SH | Shaft | Bottom | Shardilard Ledge | Silk Soar OR ( Cling grip AND ( Faydown Cloak OR Drifters Cloak OR Clawline OR Sharpdart OR ( Dash AND ( ( easy Beast Crest pogo OR easy Shaman Crest pogo ) OR ( easy Architect crest pogo AND easy Needle Strike stall ) ) ) OR ( Dash AND Scuttlebrace AND Clawline AND ( Faydown Cloak OR Drifters Cloak ) ) ) ) |  | Verified | ✓ |  |
+| SH | Shaft | Bottom | Shardilard Ledge | Silk Soar OR ( Cling grip Both AND ( Faydown Cloak OR Drifters Cloak OR Clawline Right OR Sharpdart OR ( Dash RIght AND ( ( easy Beast Crest pogo OR easy Shaman Crest pogo ) OR ( easy Architect crest pogo AND easy Needle Strike stall ) ) ) OR ( Scuttlebrace AND Clawline Right AND ( Faydown Cloak OR Drifters Cloak ) ) ) ) |  | Verified | ✓ |  |
 | SH | Shaft | Shardilard Ledge | Bottom | None |  | Verified | ✓ |  |
 
 ## Check Locations
@@ -40,9 +40,13 @@
 | 2 | Sands of Karak - Shellshard Cache #6 | Shardilard Ledge | None |  | Verified | resource | ✓ |  |
 | 3 | Sands of Karak - Shellshard Cache #7 | Shardilard Ledge | None |  | Verified | resource | ✓ |  |
 | 4 | Sands of Karak - Shellshard Cache #8 | Shardilard Ledge | None |  | Verified | resource | ✓ |  |
-| 5 | Shardilard | Shardilard Ledge | None |  | Verified | enemy | ✓ | Should these be included? |
+| 5 | Shardilard | Shardilard Ledge | None |  | Verified | enemy | ✓ | Should these be included? Well enemy rando asnwwered that question. |
 | 6 | Elevator Switch karak | Right | None |  | Verified | switch |  |  |
-| 7 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 7 | Conchfly 1 | Right | None |  | Verified | enemy | ✓ |  |
+| 8 | Conchfly 2 | Right | None |  | Verified | enemy | ✓ |  |
+| 9 | Conchfly 3 | Right | None |  | Verified | enemy | ✓ |  |
+| 10 | Conchfly 4 | Right | None |  | Verified | enemy | ✓ |  |
+| 11 | Coral Furm 1 | Bottom | None |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

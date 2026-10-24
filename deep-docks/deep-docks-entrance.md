@@ -37,7 +37,7 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Deep Docks Entrance Lever | gauntlet right | Flip Switch Right |  | Verified | switch | ✓ |  |
-| 2 | Deep Docks Entrance Battle | gauntlet | Nothing. |  | Verified | gauntlet | ✓ |  |
+| 2 | Deep Docks Entrance Battle | gauntlet | Combat Requirements |  | Verified | gauntlet | ✓ |  |
 | 3 | Deep Docks Entrance - Mask Shard | gauntlet right | Nothing. |  | Verified | collectible | ✓ |  |
 | 4 | Smelt Shoveller 1 |  |  |  |  | enemy | ✓ |  |
 | 5 | Beastfly 1 |  |  |  |  | enemy | ✓ |  |

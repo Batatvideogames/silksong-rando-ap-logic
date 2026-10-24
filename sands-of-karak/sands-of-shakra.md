@@ -23,9 +23,8 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Map: Sands of Karak |  | None |  | Verified | collectible | ✓ |  |
-| 2 | Shell Shard Cache: Sands of Karak #9 |  | Faydown Cloak OR Cling Grip OR Silk Soar OR have Silk Skill: Thread Storm OR have Silk Skill: Rune Rage OR ( easy Beast Crest pogo AND easy Needle Strike stall ) |  | Verified | resource | ✓ |  |
-| 3 | Shell Shard Cache: Sands of Karak #10 |  | Faydown Cloak OR Cling Grip OR Silk Soar OR have Silk Skill: Thread Storm OR have Silk Skill: Rune Rage OR ( easy Beast Crest pogo AND easy Needle Strike stall ) |  | Verified | resource | ✓ |  |
-| 4 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 2 | Shell Shard Cache: Sands of Karak #9 |  | None |  | Verified | resource | ✓ | Archi drops them checks down so they are obrainable no matter what |
+| 3 | Shell Shard Cache: Sands of Karak #10 |  | None |  | Verified | resource | ✓ |  |
 
 ## Room Images
 

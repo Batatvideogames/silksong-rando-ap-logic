@@ -68,7 +68,7 @@
 | 16 | Gahlia 3 | Upper Hidden | None |  | Verified | enemy | ✓ |  |
 | 17 | Gahlia 4 | Upper Main | None |  | Verified | enemy | ✓ |  |
 | 18 | Void Mass 1 | Arena | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
-| 19 | Shellwood Toll Bench Arena | Arena | None |  | Verified | gauntlet | ✓ |  |
+| 19 | Shellwood Toll Bench Arena | Arena | Combat Requirements |  | Verified | gauntlet | ✓ |  |
 
 ## Room Images
 

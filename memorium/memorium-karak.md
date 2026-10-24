@@ -18,7 +18,7 @@
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | R | right1 | Right side | [Seed Shooty Memorium (Arborium_03)](seed-shooty-memorium.md) | UT | none |  | Verified | ✓ |  |
-| B | bot1 | Middle | [Memorium water room (Arborium_05)](memorium-water-room.md) | T | complete Water karak ceiling IN Memorium water room |  | Verified | ✓ | one way wall |
+| B | bot1 | Middle | [Memorium Water Room (Arborium_05)](memorium-water-room.md) | T | complete Water karak ceiling IN Memorium water room |  | Verified | ✓ | one way wall |
 | L | left1 | Left side | [Memorium Start Shaft (Arborium_01)](memorium-start-shaft.md) | R | none |  | Verified | ✓ |  |
 
 ## Subroom Connections

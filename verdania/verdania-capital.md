@@ -61,7 +61,7 @@
 | 16 | Pendra 1 | Left Arena | None |  | Verified | enemy | ✓ |  |
 | 17 | Pendra 2 | Centre Bulb | None |  | Verified | enemy | ✓ |  |
 | 18 | Escalion 3 | Lilypads | None |  | Verified | enemy | ✓ |  |
-| 19 | Verdanir Arena | Left Arena | None |  | Verified | gauntlet | ✓ |  |
+| 19 | Verdanir Arena | Left Arena | Combat Requirements |  | Verified | gauntlet | ✓ |  |
 
 ## Room Images
 

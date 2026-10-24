@@ -32,7 +32,7 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | gauntlet fight | gauntlet arena | none |  | Verified | gauntlet | ✓ |  |
+| 1 | gauntlet fight | gauntlet arena | Combat Requirements |  | Verified | gauntlet | ✓ |  |
 | 2 | Reed 1 | gauntlet arena | none |  | Verified | enemy | ✓ | gauntlet beaten = false |
 | 3 | Reed 2 | gauntlet arena | none |  | Verified | enemy | ✓ | gauntlet beaten = false |
 | 4 | Reed 3 | gauntlet arena | none |  | Verified | enemy | ✓ | gauntlet beaten = false |

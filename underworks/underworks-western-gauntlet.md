@@ -36,7 +36,7 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Rosary Cache: Underworks #1 | Rosary | Nothing. |  | Verified | collectible | ✓ |  |
-| 2 | Steam Gauntlet | Arena | Nothing. |  | Verified | gauntlet | ✓ |  |
+| 2 | Steam Gauntlet | Arena | Combat Requirements |  | Verified | gauntlet | ✓ |  |
 | 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Notes

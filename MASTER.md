@@ -661,7 +661,7 @@ No subroom connections defined.
 | 4 | bonegrave rosary cache 2 | upper left | none |  | Verified | collectible | ✓ |  |
 | 5 | bonegrave rosary cache 3 | upper right | none |  | Verified | collectible | ✓ |  |
 | 6 | bonegrave rosary cache 4 | upper right | none |  | Verified | collectible | ✓ |  |
-| 7 | gauntlet fight | gauntlet arena | none |  | Verified | gauntlet | ✓ |  |
+| 7 | gauntlet fight | gauntlet arena | Combat Requirements |  | Verified | gauntlet | ✓ |  |
 | 8 | Winged Pilgrim 1 | gauntlet arena | none |  | Verified | enemy | ✓ |  |
 | 9 | Pilgrim Pouncer 1 | gauntlet arena | none |  | Verified | enemy | ✓ |  |
 | 10 | Pilgrim Groveller 1 | gauntlet arena | none |  | Verified | enemy | ✓ |  |
@@ -1179,7 +1179,7 @@ known silk blockade breakers = silk spear, sharpdart, rune rage, weaver silkshot
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | the marrow shell shard cache 1 | above gauntlet | none |  | Verified | collectible |  |  |
 | 2 | volatile flintbeetle 1 | above gauntlet | complete THE volatile flintbeetles wish promised |  | Verified | miniboss | ✓ | stable position |
-| 3 | gauntlet fight | gauntlet arena | none |  | Verified | gauntlet | ✓ |  |
+| 3 | gauntlet fight | gauntlet arena | Combat Requirements |  | Verified | gauntlet | ✓ |  |
 | 4 | sherma door switch | passage right | flip switch up |  | Verified | switch |  |  |
 | 5 | the marrow rosary cache 1 | passage right | none |  | Verified | collectible |  |  |
 | 6 | the marrow rosary cache 2 | passage right | none |  | Verified | collectible |  |  |
@@ -1796,7 +1796,7 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | the marrow pilgrim diary | lower level | none |  | Verified | lore | ✓ |  |
-| 2 | gauntlet fight | upper level | have cling grip |  | Verified | gauntlet | ✓ |  |
+| 2 | gauntlet fight | upper level | have cling grip AND Combat Requirements |  | Verified | gauntlet | ✓ |  |
 | 3 | the marrow memory locket | upper level | defeat gauntlet fight |  | Verified | collectible | ✓ |  |
 | 4 | Elder Pilgrim 1 | upper level | Normal World Spawn AND prereq gauntlet fight |  | Verified | enemy | ✓ |  |
 | 5 | Winged Pilgrim 1 | upper level | Normal World Spawn AND prereq gauntlet fight |  | Verified | enemy | ✓ |  |
@@ -3250,7 +3250,7 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Deep Docks Entrance Lever | gauntlet right | Flip Switch Right |  | Verified | switch | ✓ |  |
-| 2 | Deep Docks Entrance Battle | gauntlet | Nothing. |  | Verified | gauntlet | ✓ |  |
+| 2 | Deep Docks Entrance Battle | gauntlet | Combat Requirements |  | Verified | gauntlet | ✓ |  |
 | 3 | Deep Docks Entrance - Mask Shard | gauntlet right | Nothing. |  | Verified | collectible | ✓ |  |
 | 4 | Smelt Shoveller 1 |  |  |  |  | enemy | ✓ |  |
 | 5 | Beastfly 1 |  |  |  |  | enemy | ✓ |  |
@@ -3844,7 +3844,7 @@ and a wardenfly!
 | 7 | readable lore tablet forge | left entrance | open airlock left |  | Verified | lore | ✓ |  |
 | 8 | gate switch forge | forge daughter | none |  | Verified | switch | ✓ |  |
 | 9 | Shard Bundle Wall | left entrance | Break Wall Left |  | Verified | blockade | ✓ |  |
-| 10 | Forge Battle | gauntlet | Nothing. |  | Verified | gauntlet | ✓ |  |
+| 10 | Forge Battle | gauntlet | Combat Requirements |  | Verified | gauntlet | ✓ |  |
 | 11 | Forge bench | forge daughter | Nothing. |  | Verified | bench | ✓ |  |
 | 12 | Ballow Move to Control Room | forge daughter | Act 3 |  | Verified | event | ✓ |  |
 | 13 | Smokerock Sifter 1 |  |  |  |  | enemy | ✓ |  |
@@ -4316,7 +4316,7 @@ the floor/lower half of this area is closed off initially
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | silk spool deep docks 1 | spool fragment | Activate First Spool Blast Rock AND Activate Second Spool Blast Rock AND Activate Third Spool Blast Rock |  | Verified | collectible | ✓ |  |
 | 2 | Shortcut Blast Rock | lower lava platform | nada |  | Verified | blockade | ✓ |  |
-| 3 | Chains Gauntlet | gauntlet | nothing. |  | Verified | gauntlet | ✓ |  |
+| 3 | Chains Gauntlet | gauntlet | Combat Requirements |  | Verified | gauntlet | ✓ |  |
 | 4 | First Spool Blast Rock | Spool Rock 1 | Break Blast Rock Up |  | Verified | blockade | ✓ |  |
 | 5 | Second Spool Blast Rock | Spool Rock 2 | Break Blast Rock Down AND Activate First Spool Blast Rock |  | Verified | blockade | ✓ |  |
 | 6 | Third Spool Blast Rock | Spool Rock 3 | Break Blast Rock Up AND Activate First Spool Blast Rock AND Activate Second Spool Blast Rock |  | Verified | blockade | ✓ |  |
@@ -6725,7 +6725,7 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | gauntlet fight | gauntlet | none |  | Verified | gauntlet | ✓ |  |
+| 1 | gauntlet fight | gauntlet | Combat Requirements |  | Verified | gauntlet | ✓ |  |
 | 2 | map purchase hunter's march | gauntlet | defeat gauntlet fight |  | Verified | collectible | ✓ |  |
 | 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
@@ -7022,7 +7022,7 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | bone switch | before gate | none |  | Verified | switch |  |  |
-| 2 | gauntlet fight | gauntlet | none |  | Verified | gauntlet |  |  |
+| 2 | gauntlet fight | gauntlet | Combat Requirements |  | Verified | gauntlet |  |  |
 | 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-hunter-s-march--hunter-s-march-deep-entrance"></a>
@@ -7992,7 +7992,7 @@ No subroom connections defined.
 | 16 | Gahlia 3 | Upper Hidden | None |  | Verified | enemy | ✓ |  |
 | 17 | Gahlia 4 | Upper Main | None |  | Verified | enemy | ✓ |  |
 | 18 | Void Mass 1 | Arena | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
-| 19 | Shellwood Toll Bench Arena | Arena | None |  | Verified | gauntlet | ✓ |  |
+| 19 | Shellwood Toll Bench Arena | Arena | Combat Requirements |  | Verified | gauntlet | ✓ |  |
 
 <a name="room-shellwood--shellwood-top-room"></a>
 
@@ -8820,7 +8820,7 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Crow Father | the court | nothing |  | Verified | boss | ✓ |  |
+| 1 | Crow Father | the court | Combat Requirements |  | Verified | boss | ✓ |  |
 | 2 | craw memento | the court | defeat Crow Father |  | Verified | collectible | ✓ |  |
 | 3 | Greymoor - craw court rosary vault stash | left shaft | cling grip OR (easy scuttlebrace AND (ledge grab OR faydown cloak OR clawline OR easy beast pogo)) |  | Verified | resource | ✓ |  |
 | 4 | Greymoor - the other craw court rosary vault stash | left shaft | cling grip OR (easy scuttlebrace AND (ledge grab OR faydown cloak OR clawline OR easy beast pogo)) |  | Verified | resource | ✓ |  |
@@ -9013,7 +9013,7 @@ No subroom connections defined.
 | 6 | Greymoor - nest mortage at the inner right | crow lower nest | ((ledge grab OR cling grip OR easy enemy pogo) AND (progressive swift step 1 OR sharpdart OR clawline)) OR faydown cloak OR prereq balloon lever |  | Verified | resource | ✓ |  |
 | 7 | Greymoor - nest mortage at the inner left | crow lower nest | (faydown cloak AND (progressive swift step 1 OR sharpdart OR clawline)) OR ((ledge grab OR cling grip OR easy enemy pogo) AND drifters cloak AND (progressive swift step 2 OR sharpdart OR clawline)) OR prereq balloon lever |  | Verified | resource | ✓ |  |
 | 8 | Greymoor - some dumb bird life savings left outside in the nest | crow arena | none |  | Verified | resource | ✓ |  |
-| 9 | Craw Lake Gauntlet | crow arena | nothing |  | Verified | gauntlet | ✓ |  |
+| 9 | Craw Lake Gauntlet | crow arena | Combat Requirements |  | Verified | gauntlet | ✓ |  |
 | 10 | Squatcraw 1 |  |  |  |  | enemy | ✓ | Spawn conditions: CrowCourtInSession=false |
 | 11 | Craw 1 |  |  |  |  | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false |
 | 12 | Craw 2 |  |  |  |  | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false |
@@ -9188,7 +9188,7 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Greymoor - Rosary Cache next to the lowest airstream | lower airstream section | nothing |  | Verified | resource | ✓ |  |
 | 2 | Greymoor - Silkeater | tower top | silk soar OR (proficient movement AND spike pogo) OR (drifters cloak AND (spike pogo OR faydown cloak OR ((clawline left x 1 OR sharpdart x 1) AND ledge grab left)) AND activate top airstream) |  | Verified | collectible | ✓ |  |
-| 3 | Greymoor Tower Gaunlet | arena encounter | nothing |  | Verified | gauntlet | ✓ | THe enemy souls required are: dregt catcher and thread raker plus a roachcatcher for the act 3 version |
+| 3 | Greymoor Tower Gaunlet | arena encounter | Combat Requirements |  | Verified | gauntlet | ✓ | THe enemy souls required are: dregt catcher and thread raker plus a roachcatcher for the act 3 version |
 | 4 | lower airstream | lower airstream section | hit lever right OR hit lever up OR hit lever down |  | Verified | switch | ✓ |  |
 | 5 | middle airstream | middle section | ((drifters cloak AND activate lower airstream) OR ledge grab left OR ledge grab right OR cling grip left OR cling grip right OR silk soar OR faydown cloak) AND (hit lever right OR hit lever up OR hit lever left) |  | Verified | switch | ✓ |  |
 | 6 | upper airstream | upper airstream section | hit lever right OR hit lever down |  | Verified | switch | ✓ |  |
@@ -9568,7 +9568,7 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Crest: Reaper | upper area | ledge grab OR cling grip OR faydown cloak OR silk soar |  | Verified | collectible | ✓ |  |
-| 2 | Chapel of the Reaper Gauntlet | gauntlet room | nothing |  | Verified | gauntlet | ✓ |  |
+| 2 | Chapel of the Reaper Gauntlet | gauntlet room | Combat Requirements |  | Verified | gauntlet | ✓ |  |
 | 3 | gauntlet airlock | entrance section | hit lever right OR hit lever left OR hit lever up |  | Verified | blockade | ✓ |  |
 | 4 | tied platform | upper area | break vines left OR break vines up OR break vines right |  | Verified | blockade | ✓ |  |
 | 5 | Silk Snipper 1 |  |  |  |  | enemy | ✓ |  |
@@ -10126,7 +10126,7 @@ No subroom connections defined.
 | 5 | Get Kidnapped | lower section | after Wardenfly 1 |  | Verified | event | ✓ |  |
 | 6 | Garmond and Zaza Act 3 Meeting Greymoor | lower section | Act 3 |  | Verified | event | ✓ |  |
 | 7 | Sleeping Garmond | garmond room | Act 2 |  | Verified | event | ✓ |  |
-| 8 | Boos: MoorWing | lower section | nothing |  | Verified | boss | ✓ | moorwing is now forced to spawn here |
+| 8 | Boos: MoorWing | lower section | Combat Requirements |  | Verified | boss | ✓ | moorwing is now forced to spawn here |
 | 9 | Thread Raker 1 | lower section | Normal World Spawn |  | Verified | enemy | ✓ | Spawn conditions: greymoor_05_centipedeArrives=true FSM Boolean flags: greymoor05_clearedOut, defeatedVampireGnatBoss, VampireGnatBossInAltLoc, encounteredVampireGnat_05, hasWalljump, citadelWoken, greymoor05_killedJailer, visitedUpperSlab, slab_cloak_battle_completed, previouslyVisitedGreymoor_05, encounteredVampireGnatBoss |
 | 10 | Thread Raker 2 | lower section | Black Thread World Spawn |  | Verified | enemy | ✓ | FSM Boolean flags: greymoor05_clearedOut, defeatedVampireGnatBoss, VampireGnatBossInAltLoc, encounteredVampireGnat_05, hasWalljump, citadelWoken, greymoor05_killedJailer, visitedUpperSlab, slab_cloak_battle_completed, previouslyVisitedGreymoor_05, encounteredVampireGnatBoss |
 | 11 | Dreg Catcher 1 | left middle section | Normal World Spawn |  | Verified | enemy | ✓ | Spawn conditions: greymoor05_farmerPlatBroken=false FSM Boolean flags: greymoor05_clearedOut, defeatedVampireGnatBoss, VampireGnatBossInAltLoc, encounteredVampireGnat_05, hasWalljump, citadelWoken, greymoor05_killedJailer, visitedUpperSlab, slab_cloak_battle_completed, previouslyVisitedGreymoor_05, encounteredVampireGnatBoss |
@@ -10456,7 +10456,7 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Halfway Home Gauntlet |  | silk soar OR cling grip OR (faydown cloak AND ledge grab) |  | Verified | gauntlet | ✓ | completing the gauntlet requires defeating all enemies stationed across the room |
+| 1 | Halfway Home Gauntlet |  | ( silk soar OR cling grip OR (faydown cloak AND ledge grab) ) AND Combat Requirements |  | Verified | gauntlet | ✓ | completing the gauntlet requires defeating all enemies stationed across the room |
 | 2 | vintage nectar |  | complete Halfway Home Gauntlet |  | Verified | event | ✓ |  |
 | 3 | Skarr Stalker 1 |  |  |  |  | enemy | ✓ |  |
 | 4 | Skarrlid 1 |  |  |  |  | enemy | ✓ |  |
@@ -10788,7 +10788,7 @@ No subroom connections defined.
 | 2 | Conjoined heart | Clover Dancers | prereq clover Dancers 1 |  | Verified | collectible | ✓ |  |
 | 3 | Nuphar 1 | Lore Room | None |  | Verified | enemy | ✓ |  |
 | 4 | Nuphar 2 | Lore Room | None |  | Verified | enemy | ✓ |  |
-| 5 | Clover Dancers 1 | Clover Dancers | None |  | Verified | boss | ✓ |  |
+| 5 | Clover Dancers 1 | Clover Dancers | Combat Requirements |  | Verified | boss | ✓ |  |
 | 6 | Clover Dancers 2 | Clover Dancers | Invalid |  | Verified | boss | ✓ | The unhittable phantom that pairs with green prince |
 
 <a name="room-verdania--dead-verdania-bench"></a>
@@ -10910,7 +10910,7 @@ No subroom connections defined.
 | 3 | Verdania Essence 5 | Arena | prereq palestag |  | Verified | collectible | ✓ |  |
 | 4 | Verdania Essence 6 | Arena | prereq palestag |  | Verified | collectible | ✓ |  |
 | 5 | Verdania Essence 7 | Arena | prereq palestag |  | Verified | collectible | ✓ |  |
-| 6 | Palestag | Arena | None |  | Verified | boss | ✓ |  |
+| 6 | Palestag | Arena | Combat Requirements |  | Verified | boss | ✓ |  |
 | 7 | Nuphar 1 | Arena | Invalid |  | Verified | enemy | ✓ | never killable |
 | 8 | Nuphar 2 | Arena | invalid |  | Verified | enemy | ✓ | never killable |
 
@@ -11116,7 +11116,7 @@ No subroom connections defined.
 | 16 | Pendra 1 | Left Arena | None |  | Verified | enemy | ✓ |  |
 | 17 | Pendra 2 | Centre Bulb | None |  | Verified | enemy | ✓ |  |
 | 18 | Escalion 3 | Lilypads | None |  | Verified | enemy | ✓ |  |
-| 19 | Verdanir Arena | Left Arena | None |  | Verified | gauntlet | ✓ |  |
+| 19 | Verdanir Arena | Left Arena | Combat Requirements |  | Verified | gauntlet | ✓ |  |
 
 <a name="room-verdania--verdania-cloverstag-steps"></a>
 
@@ -13484,7 +13484,7 @@ No subroom connections defined.
 | 1 | Clawline Pickup | Clawline Statue | Nothing. |  | Verified | collectible | ✓ |  |
 | 2 | Underworks: Shard Bundle #2 | Shard Bundle Check | Nothing. |  | Verified | collectible | ✓ |  |
 | 3 | Clawline Ring | Arena | Clawline |  | Verified | switch | ✓ |  |
-| 4 | Underworks Clawline Gauntlet | Arena | Activate Clawline Ring |  | Verified | gauntlet | ✓ |  |
+| 4 | Underworks Clawline Gauntlet | Arena | Activate Clawline Ring AND Combat Requirements |  | Verified | gauntlet | ✓ |  |
 | 5 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 #### Notes
@@ -14356,7 +14356,7 @@ floor connection that is seemingly not in game
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Rosary Cache: Underworks #1 | Rosary | Nothing. |  | Verified | collectible | ✓ |  |
-| 2 | Steam Gauntlet | Arena | Nothing. |  | Verified | gauntlet | ✓ |  |
+| 2 | Steam Gauntlet | Arena | Combat Requirements |  | Verified | gauntlet | ✓ |  |
 | 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 #### Notes
@@ -14891,23 +14891,23 @@ No subroom connections defined.
 | 1 | Heavy Rosary Necklace - Choral Chambers | Base | cling grip either OR silk soar OR (easy shaman pogo AND scuttlebrace) |  | Verified | collectible | ✓ | Secret hidden by breaking the ceiling |
 | 2 | Switch - Outside Spa | Left | none |  | Verified | switch | ✓ |  |
 | 3 | Second Sentinel Encounter | Gauntlet | defeat Gauntlet Fight AND Act 2 AND complete THE Second Sentinel Activation |  | Verified | event | ✓ | Spawn conditions: songChevalierActiveInSong_04=true, songChevalierSeenInSong_04=false, songChevalierEncounterCooldown=false, songChevalierQuestReady=false FSM Boolean flags: encounteredSongChevalierBoss |
-| 4 | Choir Bellbearer 1 | Gauntlet | Normal World Spawn |  | Verified | gauntlet | ✓ |  |
+| 4 | Choir Bellbearer 1 | Gauntlet | Normal World Spawn AND Combat Requirements |  | Verified | gauntlet | ✓ |  |
 | 5 | Choir Bellbearer 2 | Gauntlet | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
-| 6 | Choir Flyer 1 | Gauntlet | Normal World Spawn |  | Verified | gauntlet | ✓ |  |
-| 7 | Choir Pouncer 1 | Gauntlet | Normal World Spawn |  | Verified | gauntlet | ✓ |  |
-| 8 | Choristor 1 | Gauntlet | Normal World Spawn |  | Verified | gauntlet | ✓ |  |
-| 9 | Choristor 2 | Gauntlet | Normal World Spawn |  | Verified | gauntlet | ✓ |  |
+| 6 | Choir Flyer 1 | Gauntlet | Normal World Spawn AND Combat Requirements |  | Verified | gauntlet | ✓ |  |
+| 7 | Choir Pouncer 1 | Gauntlet | Normal World Spawn AND Combat Requirements |  | Verified | gauntlet | ✓ |  |
+| 8 | Choristor 1 | Gauntlet | Normal World Spawn AND Combat Requirements |  | Verified | gauntlet | ✓ |  |
+| 9 | Choristor 2 | Gauntlet | Normal World Spawn AND Combat Requirements |  | Verified | gauntlet | ✓ |  |
 | 10 | Choristor 4 | Gauntlet | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
-| 11 | Clawmaiden 1 | Gauntlet | Normal World Spawn |  | Verified | gauntlet | ✓ | FSM Boolean flags: marionettesBurned |
-| 12 | Clawmaiden 2 | Gauntlet | Normal World Spawn |  | Verified | gauntlet | ✓ | FSM Boolean flags: marionettesBurned |
+| 11 | Clawmaiden 1 | Gauntlet | Normal World Spawn AND Combat Requirements |  | Verified | gauntlet | ✓ | FSM Boolean flags: marionettesBurned |
+| 12 | Clawmaiden 2 | Gauntlet | Normal World Spawn AND Combat Requirements |  | Verified | gauntlet | ✓ | FSM Boolean flags: marionettesBurned |
 | 13 | Drapemite 1 | Base | Normal World Spawn |  | Verified | enemy | ✓ |  |
-| 14 | Reed 1 | Gauntlet | Normal World Spawn |  | Verified | gauntlet | ✓ |  |
-| 15 | Reed 2 | Gauntlet | Normal World Spawn |  | Verified | gauntlet | ✓ |  |
-| 16 | Reed 3 | Gauntlet | Normal World Spawn |  | Verified | gauntlet | ✓ |  |
+| 14 | Reed 1 | Gauntlet | Normal World Spawn AND Combat Requirements |  | Verified | gauntlet | ✓ |  |
+| 15 | Reed 2 | Gauntlet | Normal World Spawn AND Combat Requirements |  | Verified | gauntlet | ✓ |  |
+| 16 | Reed 3 | Gauntlet | Normal World Spawn AND Combat Requirements |  | Verified | gauntlet | ✓ |  |
 | 17 | Choristor 3 | Gauntlet | Normal World Spawn AND prereq Second Sentinel Encounter |  | Verified | enemy | ✓ | Spawn conditions: songChevalierActiveInSong_04=true, songChevalierSeenInSong_04=false, songChevalierEncounterCooldown=false, songChevalierQuestReady=false |
 | 18 | Reed 4 | Gauntlet | Normal World Spawn AND prereq Second Sentinel Encounter |  | Verified | enemy | ✓ | Spawn conditions: songChevalierActiveInSong_04=true, songChevalierSeenInSong_04=false, songChevalierEncounterCooldown=false, songChevalierQuestReady=false |
 | 19 | Void Mass 1 | Gauntlet | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
-| 20 | Gauntlet Fight | Gauntlet | Normal World Spawn |  | Verified | gauntlet | ✓ |  |
+| 20 | Gauntlet Fight | Gauntlet | Normal World Spawn AND Combat Requirements |  | Verified | gauntlet | ✓ |  |
 
 <a name="room-choral-chambers--choral-chambers-western-shaft"></a>
 
@@ -15228,7 +15228,7 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Flea: Choral Chambers - Walled Room | Top Section 2 | Break Wall right AND (silk soar OR drifter's cloak OR (faydown cloak AND easy [Hunter, Wanderer, Reaper,Architect,Witch, Shaman] pogo) OR hard Beast pogo) |  | Verified | collectible | ✓ | Secret hidden by breaking a wall And possible while cursed |
+| 1 | Flea: Choral Chambers - Walled Room | Top Section 2 | Break Wall right AND (silk soar OR drifter's cloak OR (faydown cloak AND (easy [Hunter, Wanderer, Reaper,Architect,Witch, Shaman] pogo OR hard Beast pogo))) |  | Verified | collectible | ✓ | Secret hidden by breaking a wall And possible while cursed |
 | 2 | Flea Shaft's stolen rosaries | Base Upper Right | none |  | Verified | collectible | ✓ | rosary cache |
 | 3 | Flea Shaft's bounty | Base Upper Right | none |  | Verified | collectible | ✓ | rosary cache |
 | 4 | Flea Shaft's kidnappers' bonus | Base Upper Right | none |  | Verified | collectible | ✓ | rosary cache |
@@ -16203,7 +16203,7 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Bell Eater | Arena | defeat bell beast boss fight IN the marrow bellway AND ACT 3 |  | Verified | boss | ✓ | Bell Eater soul |
+| 1 | Bell Eater | Arena | defeat bell beast boss fight IN the marrow bellway  AND ACT 3 AND Combat Requirements |  | Verified | boss | ✓ | Bell Eater soul |
 
 ## Cogwork Core
 
@@ -16432,7 +16432,7 @@ No check locations defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Cogwork Core: Break Wall #5 | Center Shaft | Break Wall Down |  | Verified | blockade | ✓ | Can't be broken from the bottom. |
-| 2 | Cogwork Core: Gauntlet #3 | Northern Gauntlet | Nothing |  | Verified | gauntlet |  |  |
+| 2 | Cogwork Core: Gauntlet #3 | Northern Gauntlet | Combat Requirements |  | Verified | gauntlet |  |  |
 | 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-cogwork-core--cogwork-core-east-choral-entrance"></a>
@@ -16527,7 +16527,7 @@ No check locations defined.
 | 1 | Cogwork Core: Silk Spool #1 | Silk Spool Jump Left | Nothing. |  | Verified | collectible | ✓ |  |
 | 2 | Cogwork Core: Flip Switch #2 | Left Room | Nothing. |  | Verified | switch | ✓ | interacting with this switch causes a mini-boss type enemy to spawn |
 | 3 | Cogwork Core: Pristine Core | Arena | Complete Cogwork Core: Gauntlet #2 |  | Verified | collectible | ✓ |  |
-| 4 | Cogwork Core: Gauntlet #2 | Arena | Nothing. |  | Verified | gauntlet | ✓ |  |
+| 4 | Cogwork Core: Gauntlet #2 | Arena | Combat Requirements |  | Verified | gauntlet | ✓ |  |
 | 5 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-cogwork-core--cogwork-core-main-connection"></a>
@@ -16765,7 +16765,7 @@ No check locations defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Cogwork Core: Gauntlet #1 | Arena | Nothing |  | Verified | gauntlet | ✓ |  |
+| 1 | Cogwork Core: Gauntlet #1 | Arena | Combat Requirements |  | Verified | gauntlet | ✓ |  |
 | 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Whispering Vaults
@@ -17365,7 +17365,7 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Whispering Vaults: Arena #1 | Arena | Nothing. |  | Verified | gauntlet | ✓ |  |
+| 1 | Whispering Vaults: Arena #1 | Arena | Combat Requirements |  | Verified | gauntlet | ✓ |  |
 | 2 | Logic Box | Bottom Right | Attack Right OR Attack Left |  | Verified | logic-point | ✓ | < add predicate |
 | 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
@@ -17421,12 +17421,12 @@ No connection from Top to the rest of the subrooms.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Whispering Vaults: Lore #4 | Bottom Left Entrance | Nothing. |  | Verified | lore | ✓ |  |
-| 2 | Trobbio | Fight | Nothing. |  | Verified | boss | ✓ |  |
+| 2 | Trobbio | Fight | Combat Requirements |  | Verified | boss | ✓ |  |
 | 3 | Progressive Claw Mirror 1 | Fight | Defeat Trobbio |  | Verified | collectible | ✓ |  |
 | 4 | Whispering Vaults: Flip Switch #4 | Bottom Center | Nothing. |  | Verified | switch | ✓ |  |
 | 5 | Whispering Vaults: Flip Switch #12 | Bottom Right | Nothing. |  | Verified | switch | ✓ |  |
 | 6 | AP Minor Cache - Whispering Vaults - Shell Shard Cache #2 | Top | Nothing. |  | Verified | resource | ✓ |  |
-| 7 | Tormented Trobbio | Fight | complete THE Pain Anguish and Misery Wish Promised AND defeat Trobbio AND Act 3 |  | Verified | boss | ✓ |  |
+| 7 | Tormented Trobbio | Fight | complete THE Pain Anguish and Misery Wish Promised AND defeat Trobbio AND Act 3 AND Combat Requirements |  | Verified | boss | ✓ |  |
 | 8 | Pain, Anguish and Misery Wish Granted | Fight | Defeat Tormented Trobbio |  | Verified | event | ✓ |  |
 | 9 | Progressive Claw Mirror 2 | Fight | Defeat Tormented Trobbio |  | Verified | collectible | ✓ |  |
 | 10 | import enemies |  |  | TODO | Needs verification |  |  |  |
@@ -17597,7 +17597,7 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Balm for the Wounded Gauntlet |  | Nothing |  | Verified | gauntlet | ✓ | Completion for the wish. |
+| 1 | Balm for the Wounded Gauntlet |  | Combat Requirements |  | Verified | gauntlet | ✓ | Completion for the wish. |
 | 2 | Balm for the Wounded Wish Granted |  | Defeat Balm for the Wounded Gauntlet |  | Verified | event | ✓ |  |
 | 3 | Balm for the Wounded - Spool Fragment |  | Complete Balm for the Wounded Wish Granted |  | Verified | collectible | ✓ | Completion for the wish. |
 | 4 | Surgeon 1 |  |  |  |  | enemy | ✓ |  |
@@ -17849,7 +17849,7 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | The Unravelled - Silk Heart | Unravelled Arena | Defeat Boss: The Unravelled |  | Verified | collectible | ✓ |  |
-| 2 | The Unravelled Gauntlet | Unravelled Arena | Nothing |  | Verified | gauntlet | ✓ |  |
+| 2 | The Unravelled Gauntlet | Unravelled Arena | Combat Requirements |  | Verified | gauntlet | ✓ |  |
 | 3 | Boss: The Unravelled | Unravelled Arena | Defeat The Unravelled Gauntlet AND Combat Requirements |  | Verified | boss | ✓ |  |
 | 4 | Dreg Husk 1 | Unravelled Arena | none |  | Verified | enemy | ✓ | Defeat Unravelled Gauntlet = false |
 | 5 | Dregwheel 1 | Unravelled Arena | none |  | Verified | enemy | ✓ | Defeat Unravelled Gauntlet = false |
@@ -18478,7 +18478,7 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | gauntlet fight | gauntlet arena | none |  | Verified | gauntlet | ✓ |  |
+| 1 | gauntlet fight | gauntlet arena | Combat Requirements |  | Verified | gauntlet | ✓ |  |
 | 2 | Reed 1 | gauntlet arena | none |  | Verified | enemy | ✓ | gauntlet beaten = false |
 | 3 | Reed 2 | gauntlet arena | none |  | Verified | enemy | ✓ | gauntlet beaten = false |
 | 4 | Reed 3 | gauntlet arena | none |  | Verified | enemy | ✓ | gauntlet beaten = false |
@@ -20219,6 +20219,62 @@ No subroom connections defined.
 | 2 | Flea: Memorium - Huge Flea | left | cling grip OR (silk soar AND silkhearts x 1) OR (easy scuttlebrace AND clawline AND silkhearts x 1 AND (ledge grab OR faydown cloak OR medium shaman pogo)) |  | Verified | collectible |  | technically should be a subroom so silkhearts arent needed one way |
 | 3 | Huge Flea 1 |  |  |  |  | enemy | ✓ |  |
 
+<a name="room-memorium--memorium-bench"></a>
+
+### Memorium Bench (Arborium_04)
+
+[View Room Page](./memorium/memorium-bench.md)
+
+**Game ID:** Arborium_04
+
+**Contributors:** heric
+
+#### Subrooms
+
+| No. | Subroom | Annotated |
+| --- | --- | --- |
+| S1 | Post Wall |  |
+| S2 | Pre Wall |  |
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left1 | Pre Wall | [Memorium Start Shaft (Arborium_01)](#room-memorium--memorium-start-shaft) | LLR | nada |  | Verified | ✓ |  |
+| R | right1 | Post Wall | [Seed Shooty Memorium (Arborium_03)](#room-memorium--seed-shooty-memorium) | BL | nada |  | Verified | ✓ |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | wall | Post Wall | Pre Wall | nada |  | Verified |  |  |
+
+#### Check Locations
+
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Memorium - Mossbery | Post Wall | none |  | Verified | collectible | ✓ |  |
+| 2 | Mossgrub 1 |  |  |  |  | enemy | ✓ |  |
+| 3 | MossBone Cocoon (2) 1 |  |  |  |  | enemy | ✓ |  |
+| 4 | Mossgrub 2 |  |  |  |  | enemy | ✓ |  |
+| 5 | MossBone Cocoon (3) 1 |  |  |  |  | enemy | ✓ |  |
+| 6 | MossBone Cocoon (1) 1 |  |  |  |  | enemy | ✓ |  |
+| 7 | Marrowmaw 1 |  |  |  |  | enemy | ✓ |  |
+| 8 | MossBone Cocoon 1 |  |  |  |  | enemy | ✓ |  |
+| 9 | Mossmir 1 |  |  |  |  | enemy | ✓ |  |
+| 10 | Mossgrub 3 |  |  |  |  | enemy | ✓ |  |
+| 11 | Mossgrub 4 |  |  |  |  | enemy | ✓ |  |
+| 12 | Mossgrub 5 |  |  |  |  | enemy | ✓ |  |
+| 13 | MossBone Cocoon (2)(Clone) 1 |  |  |  |  | enemy | ✓ |  |
+| 14 | MossBone Cocoon (3)(Clone) 1 |  |  |  |  | enemy | ✓ |  |
+| 15 | MossBone Cocoon (1)(Clone) 1 |  |  |  |  | enemy | ✓ |  |
+| 16 | Marrowmaw 2 |  |  |  |  | enemy | ✓ |  |
+| 17 | MossBone Cocoon(Clone) 1 |  |  |  |  | enemy | ✓ |  |
+| 18 | Mossgrub 6 |  |  |  |  | enemy | ✓ |  |
+| 19 | Mossgrub 7 |  |  |  |  | enemy | ✓ |  |
+| 20 | Mossmir 2 |  |  |  |  | enemy | ✓ |  |
+| 21 | Mossmir 3 |  |  |  |  | enemy | ✓ |  |
+
 <a name="room-memorium--memorium-karak"></a>
 
 ### Memorium Karak (Arborium_06)
@@ -20243,7 +20299,7 @@ No subroom connections defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | R | right1 | Right side | [Seed Shooty Memorium (Arborium_03)](#room-memorium--seed-shooty-memorium) | UT | none |  | Verified | ✓ |  |
-| B | bot1 | Middle | [Memorium water room (Arborium_05)](#room-memorium--memorium-water-room) | T | complete Water karak ceiling IN Memorium water room |  | Verified | ✓ | one way wall |
+| B | bot1 | Middle | [Memorium Water Room (Arborium_05)](#room-memorium--memorium-water-room) | T | complete Water karak ceiling IN Memorium water room |  | Verified | ✓ | one way wall |
 | L | left1 | Left side | [Memorium Start Shaft (Arborium_01)](#room-memorium--memorium-start-shaft) | R | none |  | Verified | ✓ |  |
 
 #### Subroom Connections
@@ -20313,6 +20369,42 @@ No subroom connections defined.
 | 5 | Massive Mossgrub 2 |  |  |  |  | enemy | ✓ |  |
 | 6 | Nuphar 1 |  |  |  |  | enemy | ✓ |  |
 | 7 | Nuphar 2 |  |  |  |  | enemy | ✓ |  |
+
+<a name="room-memorium--memorium-puzzle"></a>
+
+### Memorium Puzzle (Arborium_10)
+
+[View Room Page](./memorium/memorium-puzzle.md)
+
+**Game ID:** Arborium_10
+
+**Contributors:** heric
+
+#### Subrooms
+
+No subrooms defined.
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| L | left1 |  | [Seed Shooty Memorium (Arborium_03)](#room-memorium--seed-shooty-memorium) | R | nada |  | Verified | ✓ |  |
+
+#### Subroom Connections
+
+No subroom connections defined.
+
+#### Check Locations
+
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Memorimum Cogheart Piece |  | flip switch up OR flip switch down |  | Verified | collectible |  | memory puzzle |
+
+#### Notes
+
+the logic for the puzzle thing, can be implemented once its randoed
+
+cling grip OR faydown cloak OR (silk soar AND silkhearts 1)
 
 <a name="room-memorium--memorium-rhino-room"></a>
 
@@ -20389,7 +20481,7 @@ No subroom connections defined.
 | T | right1 | Tippidy top | [BEEG flea (Arborium_08)](#room-memorium--beeg-flea) | l | complete Big flea wall IN BEEG flea |  | Verified | ✓ | shortcut |
 | B | bot1 | base | [Memorium Entrance Tunnel (Song_25)](#room-choral-chambers--memorium-entrance-tunnel) | T | Complete Memorium entrance vines IN memorium entrance tunnel |  | Verified | ✓ | one way wall |
 | ML | left1 | above evil wall | [Memorium Mossy (Arborium_09)](#room-memorium--memorium-mossy) | R | nada |  | Verified | ✓ |  |
-| LLR | right5 | Almost bottom | [Memorium bench (Arborium_04)](#room-memorium--memorium-bench) | L | nada |  | Verified | ✓ |  |
+| LLR | right5 | Almost bottom | [Memorium Bench (Arborium_04)](#room-memorium--memorium-bench) | L | nada |  | Verified | ✓ |  |
 | VN | right2 | Volt Ledge | [Memorium Voltnest (Arborium_07)](#room-memorium--memorium-voltnest) | L | nada |  | Verified | ✓ |  |
 | LR | right4 | Almost middle | [Memorium Rhino Room (Arborium_02)](#room-memorium--memorium-rhino-room) | L | nada |  | Verified | ✓ |  |
 
@@ -20483,15 +20575,15 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LM | memorium volt back and forth | left | Memorium stuff | (clawline AND silkhearts x 1 AND (spike pogo OR dash OR silkhearts x 2 OR drifter's cloak OR faydown cloak)) OR (cling grip AND run) OR (drifters AND (spike pogo OR faydown cloak)) OR (faydown cloak AND (run OR spike pogo)) OR (run AND spike pogo) OR easy beast pogo |  | Verified |  | OR (easy damage boost AND clawline AND silkhearts x 1) can be added once damage boosts are added |
-| LM | memorium volt back and forth | Memorium stuff | left | cling grip OR (clawline AND silkhearts x 1) OR medium hunter pogo OR medium reaper pogo OR (faydown cloak AND spike pogo) OR easy beast pogo OR medium architect pogo OR (spike pogo AND faydown cloak) OR run OR drifters |  | Verified |  |  |
+| LM | memorium volt back and forth | left | Memorium stuff | (clawline AND silkhearts x 1 AND (spike pogo OR dash OR silkhearts x 2 OR drifter's cloak OR faydown cloak)) OR (cling grip AND run) OR (drifters AND (spike pogo OR faydown cloak)) OR (faydown cloak AND (run OR spike pogo)) OR (run AND spike pogo) OR easy beast pogo |  | Verified |  | OR (easy damage boost AND clawline AND silkhearts 1) can be added once damage boosts are added |
+| LM | memorium volt back and forth | Memorium stuff | left | cling grip  OR (clawline AND silkhearts x 1)  OR (faydown cloak AND spike pogo)  OR drifters  OR easy beast pogo  OR medium [hunter, reaper, architect] pogo OR (elite ball knowledge AND (easy [shaman, wanderer] pogo OR hard witch pogo)) |  | Verified |  |  |
 
 #### Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Voltvessels | Memorium stuff | complete Memoria gauntlet |  | Verified | collectible | ✓ |  |
-| 2 | Memoria gauntlet | Memorium stuff | nada |  | Verified | gauntlet | ✓ | custom name |
+| 2 | Memoria gauntlet | Memorium stuff | Combat Requirements |  | Verified | gauntlet | ✓ | custom name |
 | 3 | Memoria 1 |  |  |  |  | enemy | ✓ |  |
 | 4 | Memoria 2 |  |  |  |  | enemy | ✓ |  |
 
@@ -20501,101 +20593,9 @@ you can do some scuttlebrace things but its rng nonsense thats not reasonable fo
 
 farsight isnt randoed yet but from "Memorium stuff" needs nada
 
-<a name="room-memorium--memorium-bench"></a>
-
-### Memorium bench (Arborium_04)
-
-[View Room Page](./memorium/memorium-bench.md)
-
-**Game ID:** Arborium_04
-
-**Contributors:** heric
-
-#### Subrooms
-
-| No. | Subroom | Annotated |
-| --- | --- | --- |
-| S1 | Post Wall |  |
-| S2 | Pre Wall |  |
-
-#### Room Transitions
-
-| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 | Pre Wall | [Memorium Start Shaft (Arborium_01)](#room-memorium--memorium-start-shaft) | LLR | nada |  | Verified | ✓ |  |
-| R | right1 | Post Wall | [Seed Shooty Memorium (Arborium_03)](#room-memorium--seed-shooty-memorium) | BL | nada |  | Verified | ✓ |  |
-
-#### Subroom Connections
-
-| Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | wall | Post Wall | Pre Wall | nada |  | Verified |  |  |
-
-#### Check Locations
-
-| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Memorium - Mossbery | Post Wall | none |  | Verified | collectible | ✓ |  |
-| 2 | Mossgrub 1 |  |  |  |  | enemy | ✓ |  |
-| 3 | MossBone Cocoon (2) 1 |  |  |  |  | enemy | ✓ |  |
-| 4 | Mossgrub 2 |  |  |  |  | enemy | ✓ |  |
-| 5 | MossBone Cocoon (3) 1 |  |  |  |  | enemy | ✓ |  |
-| 6 | MossBone Cocoon (1) 1 |  |  |  |  | enemy | ✓ |  |
-| 7 | Marrowmaw 1 |  |  |  |  | enemy | ✓ |  |
-| 8 | MossBone Cocoon 1 |  |  |  |  | enemy | ✓ |  |
-| 9 | Mossmir 1 |  |  |  |  | enemy | ✓ |  |
-| 10 | Mossgrub 3 |  |  |  |  | enemy | ✓ |  |
-| 11 | Mossgrub 4 |  |  |  |  | enemy | ✓ |  |
-| 12 | Mossgrub 5 |  |  |  |  | enemy | ✓ |  |
-| 13 | MossBone Cocoon (2)(Clone) 1 |  |  |  |  | enemy | ✓ |  |
-| 14 | MossBone Cocoon (3)(Clone) 1 |  |  |  |  | enemy | ✓ |  |
-| 15 | MossBone Cocoon (1)(Clone) 1 |  |  |  |  | enemy | ✓ |  |
-| 16 | Marrowmaw 2 |  |  |  |  | enemy | ✓ |  |
-| 17 | MossBone Cocoon(Clone) 1 |  |  |  |  | enemy | ✓ |  |
-| 18 | Mossgrub 6 |  |  |  |  | enemy | ✓ |  |
-| 19 | Mossgrub 7 |  |  |  |  | enemy | ✓ |  |
-| 20 | Mossmir 2 |  |  |  |  | enemy | ✓ |  |
-| 21 | Mossmir 3 |  |  |  |  | enemy | ✓ |  |
-
-<a name="room-memorium--memorium-puzzle"></a>
-
-### Memorium puzzle (Arborium_10)
-
-[View Room Page](./memorium/memorium-puzzle.md)
-
-**Game ID:** Arborium_10
-
-**Contributors:** heric
-
-#### Subrooms
-
-No subrooms defined.
-
-#### Room Transitions
-
-| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Seed Shooty Memorium (Arborium_03)](#room-memorium--seed-shooty-memorium) | R | nada |  | Verified | ✓ |  |
-
-#### Subroom Connections
-
-No subroom connections defined.
-
-#### Check Locations
-
-| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Memorimum Cogheart Piece |  | flip switch up OR flip switch down |  | Verified | collectible |  | memory puzzle |
-
-#### Notes
-
-the logic for the puzzle thing, can be implemented once its randoed
-
-cling grip OR faydown cloak OR (silk soar AND silkhearts 1)
-
 <a name="room-memorium--memorium-water-room"></a>
 
-### Memorium water room (Arborium_05)
+### Memorium Water Room (Arborium_05)
 
 [View Room Page](./memorium/memorium-water-room.md)
 
@@ -20668,9 +20668,9 @@ cling grip OR faydown cloak OR (silk soar AND silkhearts 1)
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | UT | left1 | Not connected | [Memorium Karak (Arborium_06)](#room-memorium--memorium-karak) | R | nada |  | Verified | ✓ |  |
 | LL | left3 | Middle | [Memorium Rhino Room (Arborium_02)](#room-memorium--memorium-rhino-room) | R | nada |  | Verified | ✓ |  |
-| BL | left4 | Bottom | [Memorium bench (Arborium_04)](#room-memorium--memorium-bench) | R | nada |  | Verified | ✓ |  |
-| T | left2 | Top | [Memorium water room (Arborium_05)](#room-memorium--memorium-water-room) | R | nada |  | Verified | ✓ |  |
-| R | right1 | Middle | [Memorium puzzle (Arborium_10)](#room-memorium--memorium-puzzle) | L | nada |  | Verified | ✓ |  |
+| BL | left4 | Bottom | [Memorium Bench (Arborium_04)](#room-memorium--memorium-bench) | R | nada |  | Verified | ✓ |  |
+| T | left2 | Top | [Memorium Water Room (Arborium_05)](#room-memorium--memorium-water-room) | R | nada |  | Verified | ✓ |  |
+| R | right1 | Middle | [Memorium Puzzle (Arborium_10)](#room-memorium--memorium-puzzle) | L | nada |  | Verified | ✓ |  |
 | LR | right2 | Bottom | [Shopkeeper Hides (Arborium_11)](#room-memorium--shopkeeper-hides) | L | nada |  | Verified | ✓ |  |
 
 #### Subroom Connections
@@ -20788,15 +20788,15 @@ I HATE THIS ROOOOOM
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | L | left1 | Entrance | [Coral Tower Entrance (Coral_28)](#room-sands-of-karak--coral-tower-entrance) | D | None |  | Verified | ✓ |  |
-| DR | door_wakeOnGround | Main | TODO |  | Needolin AND Elegy of the Deep |  | Verified | ✓ | Leads to the Memory Coral Tower, That room only needs silk soar and (Proficient Combat or needle upgrades to beat khan) |
+| DR | door_wakeOnGround | Main | [Coral Tower Memory (Memory_Coral_Tower)](#room-sands-of-karak--coral-tower-memory) | D | Needolin AND Elegy of the Deep |  | Verified | ✓ | Leads to the Memory Coral Tower, That room only needs silk soar and (Proficient Combat or needle upgrades to beat khan) |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| SC | Sandcarver Pit | Entrance | Main | Dash OR Sprint OR Drifters cloak OR Faydown Cloak OR Clawline OR easy Beast Crest pogo OR Sharpdart OR easy Architect Crest pogo |  | Verified |  |  |
-| SC | Sandcarver PIt | Main | Entrance | Dash OR Sprint OR Drifters cloak OR Faydown Cloak OR Clawline OR easy Beast Crest pogo OR Sharpdart OR easy Architect Crest pogo |  | Verified |  |  |
-| S2 | Sandcarver Pit 2 | Main | Bench | Dash OR Sprint OR Drifters cloak OR Faydown Cloak OR Clawline OR easy Beast Crest pogo OR Sharpdart OR ( easy Architect Crest pogo AND Ledge Grab AND easy Needle Strike stall ) |  | Verified |  |  |
+| SC | Sandcarver Pit | Entrance | Main | Dash Right OR Sprint Right OR Drifters cloak OR Faydown Cloak OR Clawline Right OR easy Beast Crest pogo OR Sharpdart OR easy Architect Crest pogo |  | Verified |  |  |
+| SC | Sandcarver PIt | Main | Entrance | Dash Right OR Sprint Right OR Drifters cloak OR Faydown Cloak OR Clawline Right OR easy Beast Crest pogo OR Sharpdart OR easy Architect Crest pogo |  | Verified |  |  |
+| S2 | Sandcarver Pit 2 | Main | Bench | Dash Right OR Sprint Right OR Drifters cloak OR Faydown Cloak OR Clawline OR easy Beast Crest pogo OR Sharpdart OR ( easy Architect Crest pogo AND Ledge Grab AND easy Needle Strike stall ) |  | Verified |  |  |
 | S2 | Sandcarver Pit 2 | Bench | Main | Dash OR Sprint OR Drifters cloak OR Faydown Cloak OR Clawline OR easy Beast Crest pogo OR Sharpdart OR easy Architect Crest pogo |  | Verified |  |  |
 
 #### Check Locations
@@ -20805,7 +20805,6 @@ I HATE THIS ROOOOOM
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Conchcutter | Main | None |  | Verified | collectible |  |  |
 | 2 | Sands of Karak - Lower Coral Tablet | Entrance | None |  | Verified | lore |  |  |
-| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-sands-of-karak--coral-tower-entrance"></a>
 
@@ -20836,17 +20835,16 @@ I HATE THIS ROOOOOM
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| SC | Sandcarver Pit | Door | Exit | Clawline OR Sharpdart OR Drifters Cloak OR ( Sprint AND ( Dash OR Faydown Cloak OR easy Beast Crest pogo ) ) OR  ( Faydown Cloak AND ( easy Beast Crest pogo OR easy Hunter Crest pogo OR easy Architect Crest pogo OR easy Shaman Crest pogo ( Wanderer Crest AND Needle strike ) ) ) |  | Verified | ✓ |  |
-| SC | Sandcarver Pit | Exit | Door | Clawline OR Sharpdart OR ( Sprint AND ( Dash OR Faydown Cloak OR Drifters Cloak OR easy Beast Crest pogo OR easy Architect Crest pogo ) )  OR ( Sprint AND ( easy Shaman Crest pogo OR easy Hunter crest pogo OR medium Heal stall OR ( easy Wanderer Crest pogo AND easy Needle Strike stall AND Ledge Grab ) ) ) OR ( Dash AND ( easy Reaper Crest pogo OR easy Beast Crest pogo OR Faydown Cloak OR Drifters Cloak OR ( easy Architect Crest pogo AND ( Ledge Grab OR easy Needle Strike stall ) ) ) ) OR ( Faydown Cloak AND ( easy Beast Crest pogo OR easy Architect Crest pogo OR medium Shaman Crest pogo OR easy Hunter Crest pogo OR Drifters Cloak OR ( easy Reaper Crest pogo AND Ledge Grab ) OR ( easy Wanderer Crest pogo AND easy Needle strike stall ) ) ) OR ( Drifters Cloak AND ( easy Beast Crest pogo OR easy Architect Crest pogo OR easy Shaman Crest pogo OR easy Wanderer Crest pogo OR medium Heal Stall OR Ledge Grab OR Silk Soar OR ( easy Reaper Crest pogo AND easy Needle Strike stall ) ) ) OR ( Silk Soar AND ( easy Beast Crest pogo OR easy Architect Crest pogo ) ) |  | Verified | ✓ |  |
-| RC | Resting Site Crossing | Door | Resting Site Ledge | Sprint AND ( ( Dash OR Drifters Cloak OR Faydown Cloak OR easy Beast Crest pogo ) OR Clawline OR ( Silk soar AND Ledge Grab ) ) |  | Verified | ✓ |  |
-| RC | Resting Site Crossing | Resting Site Ledge | Door | Sprint AND ( ( Dash OR Drifters Cloak OR Faydown Cloak OR easy Beast Crest pogo ) OR Clawline OR ( Silk soar AND Ledge Grab ) ) |  | Verified | ✓ |  |
+| SC | Sandcarver Pit | Door | Exit | Clawline Right OR Sharpdart OR Drifters Cloak OR ( Sprint Right AND ( Dash Right OR Faydown Cloak OR easy Beast Crest pogo OR Easy Flea brew stall OR Easy Plasmium stall OR Medium cross stitch stall ) ) OR  ( Faydown Cloak AND ( easy Beast Crest pogo OR easy Hunter Crest pogo OR easy Architect Crest pogo OR easy Shaman Crest pogo ( Wanderer Crest AND Needle strike ) ) ) |  | Verified | ✓ |  |
+| SC | Sandcarver Pit | Exit | Door | Clawline left OR Sharpdart OR ( Sprint left AND ( Medium flea brew stall OR Easy Plasmium Stall OR medium Cross stitch stall OR Medium flintslate stall OR Dash left OR Faydown Cloak OR Drifters Cloak OR easy Beast Crest pogo OR easy Architect Crest pogo ) )  OR ( Sprint left AND ( easy Shaman Crest pogo OR easy Hunter crest pogo OR medium Heal stall OR (Ledge grab left AND ( easy Cross stitch stall OR Medium Rune rage stall OR Medium thread storm stall OR Medium Pale nails stall OR Easy Voltvessels stall ) ) OR ( easy Wanderer Crest pogo AND easy Needle Strike stall AND Ledge Grab left ) ) ) OR ( Dash left AND ( easy Reaper Crest pogo OR easy Beast Crest pogo OR Faydown Cloak OR Drifters Cloak OR ( easy Architect Crest pogo AND ( Ledge Grab left OR easy Needle Strike stall ) ) ) ) OR ( Faydown Cloak AND ( easy Beast Crest pogo OR easy Architect Crest pogo OR medium Shaman Crest pogo OR easy Hunter Crest pogo OR Drifters Cloak OR ( easy Reaper Crest pogo AND Ledge Grab left ) OR ( easy Wanderer Crest pogo AND easy Needle strike stall ) ) ) OR ( Drifters Cloak AND ( easy Beast Crest pogo OR easy Architect Crest pogo OR easy Shaman Crest pogo OR easy Wanderer Crest pogo OR medium Heal Stall OR Ledge Grab left OR Silk Soar OR Easy voltvessels stall OR easy flintslate stall OR Easy flea brew stall OR Easy Plasmium stall OR Easy rune rage stall OR easy Thread storm Stall OR Easy Cross stitch stall OR Easy pale nails stall OR ( easy Reaper Crest pogo AND easy Needle Strike stall ) ) ) OR ( Silk Soar AND ( easy Beast Crest pogo OR easy Architect Crest pogo ) ) OR ( medium Shaman pogo AND Medium Scuttlebrace ) |  | Verified | ✓ |  |
+| RC | Resting Site Crossing | Door | Resting Site Ledge | Sprint Left AND ( ( Dash left OR Drifters Cloak OR Faydown Cloak OR easy Beast Crest pogo ) OR Clawline left OR ( Silk soar AND Ledge Grab left ) ) |  | Verified | ✓ |  |
+| RC | Resting Site Crossing | Resting Site Ledge | Door | Sprint right AND ( ( Dash right OR Drifters Cloak OR Faydown Cloak OR easy Beast Crest pogo ) OR Clawline right OR ( Silk soar AND Ledge Grab right ) ) |  | Verified | ✓ |  |
 
 #### Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Resting Site: Sands of Karak | Resting Site Ledge | prereq THE A Vassal Lost Wish Promised |  | Verified | event | ✓ | Not Included for the better |
-| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-sands-of-karak--crustnut"></a>
 
@@ -20876,9 +20874,9 @@ I HATE THIS ROOOOOM
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| WR | Whole Room | Start | End | Cling grip AND ( ( Clawline OR Sharpdart OR ( Dash AND ( Drifters Cloak OR easy Beast Crest pogo ) ) ) OR ( easy Beast crest pogo AND Faydown Cloak AND easy Needle Strike stall ) ) |  | Verified | ✓ |  |
-| WR | Whole Room | End | Start | Cling grip AND ( ( Clawline OR Sharpdart OR ( Dash AND ( Drifters Cloak OR easy Beast Crest pogo ) ) ) OR ( easy Beast crest pogo AND Faydown Cloak AND easy Needle Strike stall) ) |  | Verified | ✓ |  |
-| SD | Shard Detour | Start | Shard Platform | Silk Soar OR ( ( Dash AND Scuttlebrace ) AND ( Clawline OR Sharpdart ) ) OR ( Cling grip AND ( Dash OR Clawline OR Sharpdart OR easy Beast Crest pogo OR Faydown Cloak OR Drifters Cloak ) ) |  | Verified | ✓ |  |
+| WR | Whole Room | Start | End | Cling grip Left AND ( ( Clawline Left OR Sharpdart OR ( Dash Left AND ( Drifters Cloak OR easy Beast Crest pogo ) ) ) OR ( easy Beast crest pogo AND Faydown Cloak AND easy Needle Strike stall ) ) |  | Verified | ✓ |  |
+| WR | Whole Room | End | Start | Cling grip Either AND ( ( Clawline Right OR Sharpdart OR ( Dash Right AND ( Drifters Cloak OR easy Beast Crest pogo ) ) ) OR ( easy Beast crest pogo AND Faydown Cloak AND easy Needle Strike stall) ) |  | Verified | ✓ |  |
+| SD | Shard Detour | Start | Shard Platform | Silk Soar OR ( Scuttlebrace AND ( Clawline Left OR Sharpdart ) ) OR ( Cling grip Right AND ( Dash Right OR Clawline Right OR Sharpdart OR easy Beast Crest pogo OR Faydown Cloak OR Drifters Cloak ) ) |  | Verified | ✓ |  |
 | SD | Shard Detour | Shard Platform | Start | None |  | Verified | ✓ |  |
 
 #### Check Locations
@@ -20887,7 +20885,12 @@ I HATE THIS ROOOOOM
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Crustnut | End | None |  | Verified | collectible | ✓ |  |
 | 2 | Shard Cache: Sands of Karak #11 | Shard Platform | None |  | Verified | resource | ✓ |  |
-| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 3 | Driznarga 1 | End | None |  | Verified | enemy | ✓ |  |
+| 4 | Coral Furm 1 | Start | None |  | Verified | enemy | ✓ |  |
+| 5 | Coral Furm 2 | Start | None |  | Verified | enemy | ✓ |  |
+| 6 | Coral Furm 3 | End | None |  | Verified | enemy | ✓ |  |
+| 7 | Coral Furm 4 | End | None |  | Verified | enemy | ✓ |  |
+| 8 | Driznit 1 | Shard Platform | None |  | Verified | enemy | ✓ |  |
 
 <a name="room-sands-of-karak--sands-of-karak-bellshrine"></a>
 
@@ -20918,7 +20921,6 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Simple key: Sands of Karak east bench |  | None |  | Verified | collectible | ✓ |  |
-| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-sands-of-karak--sands-of-karak-elevator-to-blasted-steps"></a>
 
@@ -20951,11 +20953,11 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| OE | Over Elevator | Left | Right | easy Shaman Crest pogo OR Ledge Grab OR Cling Grip OR Sprint OR ( Dash AND Scuttlebrace ) OR Silk Soar OR easy Beast Crest pogo OR Clawline OR Activate Elevator switch Karak OR ( ( easy Reaper Crest pogo OR easy Hunter Crest pogo) AND easy Needle Strike stall ) |  | Verified | ✓ |  |
+| OE | Over Elevator | Left | Right | easy Shaman Crest pogo OR Ledge Grab Right OR Cling Grip Right OR Sprint Right OR Scuttlebrace OR Silk Soar OR easy Beast Crest pogo OR Clawline Right OR Activate Elevator switch Karak OR ( ( easy Reaper Crest pogo OR easy Hunter Crest pogo) AND easy Needle Strike stall ) |  | Verified | ✓ |  |
 | OE | Over Elevator | Right | Left | None |  | Verified | ✓ |  |
 | EL | Elevator | Right | Bottom | Activate Elevator switch Karak |  | Verified | ✓ |  |
 | EL | Elevator | Bottom | Right | Activate Elevator switch Karak |  | Verified | ✓ |  |
-| SH | Shaft | Bottom | Shardilard Ledge | Silk Soar OR ( Cling grip AND ( Faydown Cloak OR Drifters Cloak OR Clawline OR Sharpdart OR ( Dash AND ( ( easy Beast Crest pogo OR easy Shaman Crest pogo ) OR ( easy Architect crest pogo AND easy Needle Strike stall ) ) ) OR ( Dash AND Scuttlebrace AND Clawline AND ( Faydown Cloak OR Drifters Cloak ) ) ) ) |  | Verified | ✓ |  |
+| SH | Shaft | Bottom | Shardilard Ledge | Silk Soar OR ( Cling grip Both AND ( Faydown Cloak OR Drifters Cloak OR Clawline Right OR Sharpdart OR ( Dash RIght AND ( ( easy Beast Crest pogo OR easy Shaman Crest pogo ) OR ( easy Architect crest pogo AND easy Needle Strike stall ) ) ) OR ( Scuttlebrace AND Clawline Right AND ( Faydown Cloak OR Drifters Cloak ) ) ) ) |  | Verified | ✓ |  |
 | SH | Shaft | Shardilard Ledge | Bottom | None |  | Verified | ✓ |  |
 
 #### Check Locations
@@ -20966,9 +20968,13 @@ No subroom connections defined.
 | 2 | Sands of Karak - Shellshard Cache #6 | Shardilard Ledge | None |  | Verified | resource | ✓ |  |
 | 3 | Sands of Karak - Shellshard Cache #7 | Shardilard Ledge | None |  | Verified | resource | ✓ |  |
 | 4 | Sands of Karak - Shellshard Cache #8 | Shardilard Ledge | None |  | Verified | resource | ✓ |  |
-| 5 | Shardilard | Shardilard Ledge | None |  | Verified | enemy | ✓ | Should these be included? |
+| 5 | Shardilard | Shardilard Ledge | None |  | Verified | enemy | ✓ | Should these be included? Well enemy rando asnwwered that question. |
 | 6 | Elevator Switch karak | Right | None |  | Verified | switch |  |  |
-| 7 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 7 | Conchfly 1 | Right | None |  | Verified | enemy | ✓ |  |
+| 8 | Conchfly 2 | Right | None |  | Verified | enemy | ✓ |  |
+| 9 | Conchfly 3 | Right | None |  | Verified | enemy | ✓ |  |
+| 10 | Conchfly 4 | Right | None |  | Verified | enemy | ✓ |  |
+| 11 | Coral Furm 1 | Bottom | None |  | Verified | enemy | ✓ |  |
 
 <a name="room-sands-of-karak--sands-of-karak-entrance"></a>
 
@@ -20998,15 +21004,16 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| BS | Big Shaft | Bottom | Top | Silk soar OR ( Cling Grip AND ( ( Proficient Movement AND Spike Pogo ) OR Clawline ) ) |  | Verified | ✓ |  |
+| BS | Big Shaft | Bottom | Top | Silk soar OR ( Cling Grip left AND ( ( Proficient Movement AND Spike Pogo ) OR Clawline Right ) ) |  | Verified | ✓ |  |
 | BS | Big Shaft | Top | Bottom | None |  | Verified | ✓ |  |
 
 #### Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Sands of Karak - Upper Coral Tablet | Top | Silk soar OR ( Cling grip AND ( Faydown Cloak OR Dash OR Drifters Cloak OR Clawline OR Sharpdart ) ) OR ( Scuttlebrace AND faydown Cloak ) |  | Verified | lore | ✓ |  |
-| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 1 | Sands of Karak - Upper Coral Tablet | Top | Silk soar OR ( Cling grip both AND ( Dash right OR Drifters Cloak OR Clawline right OR Sharpdart ) ) OR ( Scuttlebrace AND faydown Cloak ) OR ( cling grip right AND Faydown cloak ) |  | Verified | lore | ✓ |  |
+| 2 | Pharlid 1 | Top | None |  | Verified | enemy | ✓ |  |
+| 3 | Pharlid 2 | Top | None |  | Verified | enemy | ✓ | Kills it self second player gets near |
 
 <a name="room-sands-of-karak--sands-of-karak-lower-left-long-room"></a>
 
@@ -21040,21 +21047,24 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LN | Lower Nut Platforming | Lower Entrance | Centre Platform | Dash OR Clawline OR Drifters Cloak OR Faydown Cloak OR easy Beast Crest pogo OR Sharpdart OR ( easy Reaper Crest pogo AND Ledge Grab ) |  | Verified | ✓ |  |
-| LN | Lower Nut Platforming | Centre Platform | Lower Entrance | Clawline OR ( Dash AND Sprint AND Faydown Cloak AND Drifters Cloak ) |  | Verified | ✓ |  |
-| UP | Upper Left Nut Platforming | Centre Platform | Upper Left Platform | ( ( Cling grip OR Silk Soar ) AND ( Dash OR Clawline OR Sharpdart OR Faydown Cloak OR Drifters Cloak ) ) OR ( Silk Soar AND easy Beast Crest pogo ) |  | Verified | ✓ |  |
-| UP | Upper Left Nut Platforming | Upper Left Platform | Centre Platform | Dash OR Clawline OR easy Beast Crest pogo OR Drifters Cloak OR Faydown Cloak OR Sharpdart |  | Verified | ✓ |  |
+| LN | Lower Nut Platforming | Lower Entrance | Centre Platform | Dash Right OR Clawline Right OR Drifters Cloak OR Faydown Cloak OR easy Beast Crest pogo OR Sharpdart OR ( easy Reaper Crest pogo AND Ledge Grab Right ) |  | Verified | ✓ |  |
+| LN | Lower Nut Platforming | Centre Platform | Lower Entrance | Clawline Left OR ( Dash Left AND Sprint Left AND Faydown Cloak AND Drifters Cloak ) |  | Verified | ✓ |  |
+| UP | Upper Left Nut Platforming | Centre Platform | Upper Left Platform | ( ( Cling grip Both OR Silk Soar ) AND ( Dash Left OR Clawline Left OR Sharpdart OR Faydown Cloak OR Drifters Cloak ) ) OR ( Silk Soar AND easy Beast Crest pogo ) |  | Verified | ✓ |  |
+| UP | Upper Left Nut Platforming | Upper Left Platform | Centre Platform | Dash Right OR Clawline Right OR easy Beast Crest pogo OR Drifters Cloak OR Faydown Cloak OR Sharpdart |  | Verified | ✓ |  |
 | HD | Hidden Shaft | Upper Left Platform | Hidden Exit | Silk Soar |  | Verified | ✓ |  |
 | HD | Hidden Shaft | Hidden Exit | Upper Left Platform | None |  | Verified | ✓ |  |
-| RN | Right Nut Platforming | Centre Platform | Right Exit | Cling Grip AND ( Dash OR Drifters Cloak OR Clawline OR Sharpdart OR ( Faydown Cloak AND easy Beast Crest pogo ) ) |  | Verified | ✓ |  |
-| RN | Right Nut Platforming | Right Exit | Centre Platform | ( Clawline AND ( Dash OR Drifters Cloak OR Faydown Cloak OR Sharpdart ) ) OR ( Drifters Cloak AND Sharpdart x 4 ) |  | Verified | ✓ |  |
+| RN | Right Nut Platforming | Centre Platform | Right Exit | ( Cling Grip Both OR ( Cling grip Right AND Faydown Cloak ) )AND ( Dash Right OR Drifters Cloak OR Clawline Right OR Sharpdart OR ( Faydown Cloak AND easy Beast Crest pogo ) ) |  | Verified | ✓ |  |
+| RN | Right Nut Platforming | Right Exit | Centre Platform | ( Clawline Left AND ( Dash Left OR Drifters Cloak OR Faydown Cloak OR Sharpdart ) ) OR ( Drifters Cloak AND Sharpdart x 4 ) |  | Verified | ✓ |  |
 
 #### Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Dands of Karak - Memory Locket | Upper Left Platform | None |  | Verified | collectible | ✓ |  |
-| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 2 | Coral Furm 1 | Centre Platform | None |  | Verified | enemy | ✓ |  |
+| 3 | Coral Furm 2 | Right Exit | None |  | Verified | enemy | ✓ |  |
+| 4 | Driznarga 1 | Right Exit | None |  | Verified | enemy | ✓ |  |
+| 5 | Driznarga 2 | Upper Left Platform | None |  | Verified | enemy | ✓ | Burn in hell i hate this guy so damn much |
 
 <a name="room-sands-of-karak--sands-of-karak-lower-right-long-room"></a>
 
@@ -21089,12 +21099,12 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | LW | Left Wall | Left Exit | Flea Ledge | Silk Soar |  | Verified | ✓ |  |
 | LW | Left Wall | Flea Ledge | Left Exit | None |  | Verified | ✓ |  |
-| LN | Lower Left Nut Platforms | Left Exit | Lower Centre Platform | easy Beast Crest pogo OR Dash OR Clawline OR Faydown Cloak OR Drifters Cloak OR Sharpdart OR ( Ledge grab AND ( easy Reaper crest pogo OR easy Shaman Crest pogo OR easy Hunter Crest pogo OR easy Wanderer Crest pogo ) ) |  | Verified | ✓ |  |
-| LN | Lower Left Nut Platforms | Lower Centre Platform | Left Exit | ( Drifters Cloak AND ( Clawline OR easy Beast crest pogo OR Dash OR Faydown Cloak ) ) OR ( Clawline AND ( easy Shaman crest pogo OR Faydown Cloak OR Silk Soar OR easy Beast Crest pogo ) ) OR ( Faydown Cloak AND ( easy Beast Crest pogo OR Sharpdart ) ) |  | Verified | ✓ |  |
-| UN | Upper Left Nut Platforms | Upper Centre Platform | Flea Ledge | ( Cling grip AND Clawline ) OR ( Clawline AND ( ( Drifters Cloak AND ( hard hunter Crest pogo OR hard Reaper Crest pogo OR hard Wanderer Crest pogo OR hard Shaman Crest pogo ) ) OR Faydown Cloak ) ) |  | Verified | ✓ | While technically not one way its just cancer to get back and had 0 practical use to dropping down and redoing the lower route |
-| RN | Right Nut Platforms | Upper Centre Platform | Right Exit | ( Cling grip AND  ( ( Clawline OR Drifters Cloak ) OR easy Beast Crest pogo ) ) |  | Verified | ✓ |  |
+| LN | Lower Left Nut Platforms | Left Exit | Lower Centre Platform | easy Beast Crest pogo OR Dash Right OR Clawline Right OR Faydown Cloak OR Drifters Cloak OR Sharpdart OR ( Ledge grab Right AND ( easy Reaper crest pogo OR easy Shaman Crest pogo OR easy Hunter Crest pogo OR easy Wanderer Crest pogo ) ) |  | Verified | ✓ |  |
+| LN | Lower Left Nut Platforms | Lower Centre Platform | Left Exit | ( Drifters Cloak AND ( Clawline Left OR easy Beast crest pogo OR Dash Left OR Faydown Cloak ) ) OR ( Clawline Left AND ( easy Shaman crest pogo OR Faydown Cloak OR Silk Soar OR easy Beast Crest pogo ) ) OR ( Faydown Cloak AND ( easy Beast Crest pogo OR Sharpdart ) ) |  | Verified | ✓ |  |
+| UN | Upper Left Nut Platforms | Upper Centre Platform | Flea Ledge | ( Cling grip Both AND Clawline Left ) OR ( Clawline Left AND ( ( Drifters Cloak AND ( hard hunter Crest pogo OR hard Reaper Crest pogo OR hard Wanderer Crest pogo OR hard Shaman Crest pogo ) ) OR Faydown Cloak ) ) |  | Verified | ✓ | While technically not one way its just cancer to get back and had 0 practical use to dropping down and redoing the lower route |
+| RN | Right Nut Platforms | Upper Centre Platform | Right Exit | ( Cling grip Right AND  ( ( Clawline Right OR Drifters Cloak ) OR easy Beast Crest pogo ) ) |  | Verified | ✓ |  |
 | RN | Right Nut Platforms | Right Exit | Upper Centre Platform | None |  | Verified | ✓ |  |
-| CN | Centre Platforms | Lower Centre Platform | Upper Centre Platform | Faydown Cloak OR Sprint OR ( Dash AND ( Ledge grab OR Cling grip ) ) OR Drifters Cloak OR Clawline OR Sharpdart OR Silksoar OR easy Beast Crest pogo OR ( easy Architect Crest pogo AND easy Needle Strike stall ) |  | Verified | ✓ |  |
+| CN | Centre Platforms | Lower Centre Platform | Upper Centre Platform | Faydown Cloak OR Sprint Right OR ( Dash Right AND ( Ledge grab Right OR Cling grip Right ) ) OR Drifters Cloak OR Sharpdart OR Silk soar OR easy Beast Crest pogo OR ( easy Architect Crest pogo AND easy Needle Strike stall ) |  | Verified | ✓ |  |
 | CN | Centre Platforms | Upper Centre Platform | Lower Centre Platform | None |  | Verified | ✓ |  |
 
 #### Check Locations
@@ -21104,7 +21114,11 @@ No subroom connections defined.
 | 1 | Shell Shard Cache: Sands of Karak #1 | Lower Centre Platform | None |  | Verified | resource | ✓ |  |
 | 2 | Shell Shard Cache: Sands of Karak #2 | Lower Centre Platform | None |  | Verified | resource | ✓ |  |
 | 3 | Flea: Sands of Karak | Flea Ledge | None |  | Verified | collectible | ✓ |  |
-| 4 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 4 | Coral Furm 1 | Lower Centre Platform | None |  | Verified | enemy | ✓ |  |
+| 5 | Coral Furm 2 | Upper Centre Platform | None |  | Verified | enemy | ✓ |  |
+| 6 | Pokenabbin 1 | Right Exit | None |  | Verified | enemy | ✓ |  |
+| 7 | Pokenabbin 2 | Right Exit | None |  | Verified | enemy | ✓ |  |
+| 8 | Driznarga 1 | Lower Centre Platform | none |  | Verified | enemy | ✓ |  |
 
 <a name="room-sands-of-karak--sands-of-karak-right-side-tall-room"></a>
 
@@ -21137,17 +21151,18 @@ No subroom connections defined.
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | TS1 | Tall Shaft1 | Centre | Bottom | None |  | Verified | ✓ |  |
-| TS1 | Tall Shaft1 | Bottom | Centre | Cling Grip |  | Verified | ✓ |  |
+| TS1 | Tall Shaft1 | Bottom | Centre | Cling Grip both |  | Verified | ✓ |  |
 | TS2 | Tall Shaft2 | Top | Bottom | None |  | Verified | ✓ |  |
-| TS2 | Tall Shaft2 | Bottom | Top | Cling Grip AND ( Clawline OR Faydown Cloak OR ( Ledge Grab AND ( ( Drifters Cloak OR Dash ) OR ( easy Beast Crest pogo AND easy Needle Strike stall ) ) ) ) |  | Verified | ✓ |  |
+| TS2 | Tall Shaft2 | Bottom | Top | Cling Grip both AND ( Clawline Right OR Faydown Cloak OR ( Ledge Grab Either AND ( ( Drifters Cloak OR Dash Right ) OR ( easy Beast Crest pogo AND easy Needle Strike stall ) ) ) ) |  | Verified | ✓ |  |
 | TS3 | Tall Shaft3 | Top | Centre | None |  | Verified | ✓ |  |
-| TS3 | Tall Shaft3 | Centre | Top | Silk Soar AND Cling grip AND ( ( Dash OR Clawline OR Sharpdart OR Faydown Cloak OR Drifters Cloak ) OR ( easy Beast Crest pogo AND easy Needle Strike stall) ) |  | Verified | ✓ |  |
+| TS3 | Tall Shaft3 | Centre | Top | Silk Soar AND Cling grip Right AND ( ( Dash Right OR Clawline Right OR Sharpdart OR Faydown Cloak OR Drifters Cloak ) OR ( easy Beast Crest pogo AND easy Needle Strike stall) ) |  | Verified | ✓ |  |
 
 #### Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 1 | Pokenabbin 1 | Bottom | None |  | Verified | enemy | ✓ |  |
+| 2 | Pokenabbin 2 | Bottom | None |  | Verified | enemy | ✓ |  |
 
 <a name="room-sands-of-karak--sands-of-karak-tall-centre-room"></a>
 
@@ -21187,17 +21202,17 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LS | Lower Shaft | Ground Level | Shakra Ledge | Silk Soar OR ( Faydown Cloak AND ( Cling grip OR ( Dash AND Scuttlebrace ) ) ) OR ( Cling grip AND ( ( Dash OR Sprint OR Drifters Cloak OR Clawline OR Sharpdart ) OR ( ( easy Beast Crest pogo OR easy Architect Crest pogo ) AND easy Needle Strike stall ) ) ) |  | Verified | ✓ |  |
+| LS | Lower Shaft | Ground Level | Shakra Ledge | Silk Soar OR ( Faydown Cloak AND ( Cling grip left OR Scuttlebrace ) ) OR ( Cling grip left AND ( ( Dash left OR Sprint left OR Drifters Cloak OR Clawline left OR Sharpdart ) OR ( ( easy Beast Crest pogo OR easy Architect Crest pogo ) AND easy Needle Strike stall ) ) ) |  | Verified | ✓ |  |
 | LS | Lower Shaft | Shakra Ledge | Ground Level | None |  | Verified | ✓ |  |
 | ST1 | Stalactite | Ground Level | Stalactite | Silk Soar |  | Verified | ✓ |  |
 | ST1 | Stalactite | Stalactite | Ground Level | None |  | Verified | ✓ |  |
-| ST2 | Stalactite2 | Shakra Ledge | Stalactite | ( ( Scuttlebrace OR Cling grip ) AND ( Dash OR Sprint OR Drifters Cloak OR Faydown Cloak OR SharpDart OR Clawline ) ) OR ( Cling Grip AND ( easy Beast Crest pogo OR easy Hunter Crest pogo OR easy Shaman Crest pogo OR ( ( easy Reaper Crest pogo OR easy Architect Crest pogo ) AND easy Needle Strike stall ) ) ) |  | Verified | ✓ |  |
+| ST2 | Stalactite2 | Shakra Ledge | Stalactite | ( ( Scuttlebrace OR Cling grip right ) AND ( Dash right OR Sprint right OR Drifters Cloak OR Faydown Cloak OR SharpDart OR Clawline right ) ) OR ( Cling Grip right AND ( easy Beast Crest pogo OR easy Hunter Crest pogo OR easy Shaman Crest pogo OR ( ( easy Reaper Crest pogo OR easy Architect Crest pogo ) AND easy Needle Strike stall ) ) ) |  | Verified | ✓ |  |
 | St2 | Stalactite2 | Stalactite | Shakra Ledge | None |  | Verified | ✓ |  |
-| US1 | Upper Shaft1 | Shakra Ledge | Crust Nut Ledge | ( ( Scuttlebrace  OR  Cling grip )  AND  ( ( Dash AND ( Ledge Grab OR easy Shaman Crest pogo ) )   OR Clawline OR Faydown Cloak OR Sharpdart ) ) OR ( Cling Grip AND ( easy Beast Crest pogo OR easy Hunter Crest pogo OR ( easy Reaper Crest pogo AND easy Needle Strike stall ) ) ) |  | Verified | ✓ |  |
+| US1 | Upper Shaft1 | Shakra Ledge | Crust Nut Ledge | ( ( Scuttlebrace  OR  Cling grip both )  AND  ( ( Dash both AND ( Ledge Grab either OR easy Shaman Crest pogo ) ) OR Faydown Cloak OR Sharpdart ) ) OR ( Cling Grip both AND ( easy Beast Crest pogo OR easy Hunter Crest pogo OR ( easy Reaper Crest pogo AND easy Needle Strike stall ) ) ) |  | Verified | ✓ |  |
 | US1 | Upper Shaft1 | Crust Nut Ledge | Shakra Ledge | None |  | Verified | ✓ |  |
-| US2 | Upper Shaft2 | Crust Nut Ledge | Bridge Level | Prereq Stalactite 2 AND ( (  Scuttlebrace OR Cling grip OR  Faydown Cloak  OR (  Silk Soar AND ( easy Architect Crest pogo OR easy Witch Crest pogo OR easy Reaper Crest pogo OR easy Shaman Crest pogo OR ( easy Wanderer Crest pogo AND ( ledge grab OR Dash OR Sharpdart OR Clawline OR Drifters Cloak ) ) ) ) ) ) |  | Verified | ✓ |  |
+| US2 | Upper Shaft2 | Crust Nut Ledge | Bridge Level | Prereq Stalactite 2 AND ( (  Scuttlebrace OR ( Cling grip Right AND ( Cling grip left OR ledge grab left ) )OR  Faydown Cloak  OR (  Silk Soar AND ( easy Architect Crest pogo OR easy Witch Crest pogo OR easy Reaper Crest pogo OR easy Shaman Crest pogo OR ( easy Wanderer Crest pogo AND ( ledge grab left OR Sharpdart OR Drifters Cloak ) ) ) ) ) ) |  | Verified | ✓ |  |
 | US2 | Upper Shaft2 | Bridge Level | Crust Nut Ledge | Prereq Stalactite 2 |  | Verified | ✓ |  |
-| VS | Voltwyrm Shaft | Bridge Level | Voltnest Level | ( Cling Grip AND Faydown Cloak AND ( Clawline OR Dash OR Sharpdart OR ( ( Medium Beast Crest pogo AND medium Needle Strike stall AND Cling Grip  )  OR ( ( ( medium Architect Crest pogo OR medium Reaper Crest pogo )  AND medium Needle Strike stall ) OR medium Shaman Crest pogo )  )  )  ) OR (  Silk soar AND ( Cling Grip OR Faydown Cloak OR Scuttlebrace ) ) |  | Verified | ✓ |  |
+| VS | Voltwyrm Shaft | Bridge Level | Voltnest Level | ( Cling Grip both AND Faydown Cloak AND ( Clawline right OR Dash right OR Sharpdart OR ( ( Medium Beast Crest pogo AND medium Needle Strike stall AND Cling Grip both )  OR ( ( ( medium Architect Crest pogo OR medium Reaper Crest pogo )  AND medium Needle Strike stall ) OR medium Shaman Crest pogo )  )  )  ) OR (  Silk soar AND ( Cling Grip left OR Faydown Cloak OR Scuttlebrace ) ) |  | Verified | ✓ |  |
 | VS | VoltWyrm Shaft | Voltnest Level | Bridge Level | None |  | Verified | ✓ |  |
 
 #### Check Locations
@@ -21206,7 +21221,9 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Stalactite | Stalactite | None |  | Verified | blockade |  |  |
 | 2 | Stalactite 2 | Bridge Level | None |  | Verified | blockade |  |  |
-| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 3 | Pokenabbin 1 | Crust Nut Ledge | None |  | Verified | enemy | ✓ |  |
+| 4 | Pokenabbin 2 | Stalactite | None |  | Verified | enemy | ✓ |  |
+| 5 | Pokenabbin 3 | Ground Level | None |  | Verified | enemy | ✓ |  |
 
 <a name="room-sands-of-karak--sands-of-karak-upper-left-long-room"></a>
 
@@ -21237,10 +21254,10 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| WR | Whole Room | Left Ledge | Right Ledge | easy Beast Crest pogo OR Clawline OR Faydown Cloak OR Drifters Cloak OR Sharpdart OR Dash |  | Verified | ✓ |  |
-| WR | Whole Room | Right Ledge | Left Ledge | ( Cling Grip AND ( ( ( Dash OR Drifters Cloak OR Faydown Cloak ) AND Sprint ) OR Clawline OR Sharpdart ) ) OR ( Faydown Cloak AND Clawline AND ( Proficient Movement AND Spike Pogo ) ) |  | Verified | ✓ |  |
-| DR | Drop | Left Ledge | Shell Ledge | easy Hunter Crest pogo OR easy Beast Crest pogo OR easy Architect Crest pogo OR easy Shaman Crest pogo OR ( Ledge grab AND ( easy Reaper crest pogo OR easy Witch Crest pogo ) ) OR Dash OR Clawline OR Sharpdart OR Drifters Cloak OR Faydown Cloak OR ( easy Wanderer crest pogo AND easy Needle Strike stall ) |  | Verified | ✓ |  |
-| DR | Drop | Shell Ledge | Left Ledge | Ledge Grab OR Clawline OR Faydown Cloak OR medium Beast Crest pogo |  | Verified | ✓ |  |
+| WR | Whole Room | Left Ledge | Right Ledge | easy Beast Crest pogo OR Clawline right OR Faydown Cloak OR Drifters Cloak OR Sharpdart OR Dash right |  | Verified | ✓ |  |
+| WR | Whole Room | Right Ledge | Left Ledge | ( Cling Grip left AND ( ( ( Dash left OR Drifters Cloak OR Faydown Cloak ) AND Sprint left ) OR Clawline left OR Sharpdart ) ) OR ( Faydown Cloak AND Clawline left AND ( Proficient Movement AND Spike Pogo ) ) |  | Verified | ✓ |  |
+| DR | Drop | Left Ledge | Shell Ledge | easy Hunter Crest pogo OR easy Beast Crest pogo OR easy Architect Crest pogo OR easy Shaman Crest pogo OR ( Ledge grab left AND ( easy Reaper crest pogo OR easy Witch Crest pogo ) ) OR Dash left OR Clawline left OR Sharpdart OR Drifters Cloak OR Faydown Cloak OR ( easy Wanderer crest pogo AND easy Needle Strike stall ) |  | Verified | ✓ |  |
+| DR | Drop | Shell Ledge | Left Ledge | Ledge Grab left OR Clawline both OR Faydown Cloak OR ( medium Beast Crest pogo AND Spike pogo ) |  | Verified | ✓ |  |
 
 #### Check Locations
 
@@ -21249,7 +21266,15 @@ No subroom connections defined.
 | 1 | Shell shard cache: Sands of Karak #3 | Shell Ledge | None |  | Verified | resource | ✓ |  |
 | 2 | Shell Shard cache: Sands of Karak #4 | Shell Ledge | None |  | Verified | resource | ✓ |  |
 | 3 | Boss: Raging Conchfly | Left Ledge | Combat Requirements |  | Verified | boss | ✓ |  |
-| 4 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 4 | Conchfly 1 | Left Ledge | None |  | Verified | enemy | ✓ | Boss summon |
+| 5 | Conchfly 2 | Left Ledge | None |  | Verified | enemy | ✓ | Boss summon |
+| 6 | Conchfly 3 | Left Ledge | None |  | Verified | enemy | ✓ | Boss summon |
+| 7 | Conchfly 4 | Left Ledge | None |  | Verified | enemy | ✓ | Boss summon |
+| 8 | Conchfly 5 | Left Ledge | None |  | Verified | enemy | ✓ | Boss summon |
+| 9 | Conchfly 6 | Left Ledge | None |  | Verified | enemy | ✓ | Boss summon |
+| 10 | Conchfly 7 | Left Ledge | None |  | Verified | enemy | ✓ | Boss summon |
+| 11 | Conchfly 8 | Left Ledge | None |  | Verified | enemy | ✓ | Boss summon |
+| 12 | Driznarga 1 | Left Ledge | None |  | Verified | enemy | ✓ |  |
 
 <a name="room-sands-of-karak--sands-of-karak-upper-right-long-room"></a>
 
@@ -21279,14 +21304,15 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| WR | Whole Room | Left Exit | Right Exit | Clawline AND ( Drifters Cloak OR easy Shaman Crest pogo ) AND ( Cling grip OR Silk Soar ) |  | Verified | ✓ |  |
-| WR | Whole Room | Right Exit | Left Exit | Cling grip AND ( Clawline OR ( Faydown Cloak AND ( Dash OR Sharpdart OR Drifters Cloak ) ) ) |  | Verified | ✓ |  |
+| WR | Whole Room | Left Exit | Right Exit | Clawline Right AND ( Drifters Cloak OR easy Shaman Crest pogo ) AND ( Cling grip either OR Silk Soar ) |  | Verified | ✓ |  |
+| WR | Whole Room | Right Exit | Left Exit | Cling grip both AND ( Clawline left OR ( Faydown Cloak AND ( Dash left OR Sharpdart OR Drifters Cloak ) ) ) |  | Verified | ✓ |  |
 
 #### Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 1 | Pokenabbin 1 | Left Exit | Cling grip both AND ( Clawline left OR ( Faydown Cloak AND ( Dash left OR Sharpdart OR Drifters Cloak ) ) ) |  | Verified | enemy | ✓ |  |
+| 2 | Pokenabbin 2 | Right Exit | Clawline Right AND ( Drifters Cloak OR easy Shaman Crest pogo ) AND ( Cling grip either OR Silk Soar ) |  | Verified | enemy | ✓ |  |
 
 <a name="room-sands-of-karak--sands-of-shakra"></a>
 
@@ -21317,9 +21343,8 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Map: Sands of Karak |  | None |  | Verified | collectible | ✓ |  |
-| 2 | Shell Shard Cache: Sands of Karak #9 |  | Faydown Cloak OR Cling Grip OR Silk Soar OR have Silk Skill: Thread Storm OR have Silk Skill: Rune Rage OR ( easy Beast Crest pogo AND easy Needle Strike stall ) |  | Verified | resource | ✓ |  |
-| 3 | Shell Shard Cache: Sands of Karak #10 |  | Faydown Cloak OR Cling Grip OR Silk Soar OR have Silk Skill: Thread Storm OR have Silk Skill: Rune Rage OR ( easy Beast Crest pogo AND easy Needle Strike stall ) |  | Verified | resource | ✓ |  |
-| 4 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 2 | Shell Shard Cache: Sands of Karak #9 |  | None |  | Verified | resource | ✓ | Archi drops them checks down so they are obrainable no matter what |
+| 3 | Shell Shard Cache: Sands of Karak #10 |  | None |  | Verified | resource | ✓ |  |
 
 <a name="room-sands-of-karak--watcher-at-the-edge"></a>
 
@@ -21349,9 +21374,8 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Watcher at the Edge |  | Needolin |  | Verified | boss | ✓ |  |
+| 1 | Watcher at the Edge |  | Needolin AND Combat requirements |  | Verified | boss | ✓ |  |
 | 2 | Grey Memento |  | Needolin |  | Verified | collectible | ✓ |  |
-| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 <a name="room-sands-of-karak--voltnest"></a>
 
@@ -21381,10 +21405,10 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| EJ | Electric Jumps | Start | Centre | ( Cling grip OR ( ( Dash AND Scuttlebrace ) AND ( Dash OR Clawline OR Drifters Cloak OR Faydown Cloak OR Sharpdart ) ) ) |  | Verified | ✓ |  |
-| EJ | Electric Jumps | Centre | Start | ( Cling grip OR ( ( Dash AND Scuttlebrace ) AND ( Dash OR Clawline OR Drifters Cloak OR Faydown Cloak OR Sharpdart ) ) ) |  | Verified | ✓ |  |
+| EJ | Electric Jumps | Start | Centre | ( Cling grip Right OR ( Scuttlebrace AND ( Dash right OR Clawline right OR Drifters Cloak OR Faydown Cloak OR Sharpdart ) ) ) |  | Verified | ✓ |  |
+| EJ | Electric Jumps | Centre | Start | ( Cling grip either OR ( Scuttlebrace AND ( Dash left OR Clawline left OR Drifters Cloak OR Faydown Cloak OR Sharpdart ) ) ) |  | Verified | ✓ |  |
 | BD | Big Drop | Centre | Bottom | None |  | Verified | ✓ |  |
-| CB | Climb back | Bottom | Centre | Cling Grip AND ( Faydown Cloak OR ( Silk Soar AND ( ( Dash AND Ledge grab ) OR Clawline OR easy Beast Crest pogo OR Sharpdart OR Drifters Cloak ) ) ) |  | Verified | ✓ |  |
+| CB | Climb back | Bottom | Centre | Cling Grip both AND ( Faydown Cloak OR ( Silk Soar AND ( ( Dash both AND Ledge grab left ) OR easy Beast Crest pogo OR Sharpdart OR Drifters Cloak ) ) ) |  | Verified | ✓ |  |
 
 #### Check Locations
 
@@ -21392,6 +21416,186 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Volt Filament | Bottom | None |  | Verified | collectible | ✓ |  |
 | 2 | Boss: Voltwyrm | Bottom | Combat Requirements |  | Verified | enemy | ✓ |  |
+
+<a name="room-sands-of-karak--coral-tower-memory"></a>
+
+### Coral Tower Memory (Memory_Coral_Tower)
+
+[View Room Page](./sands-of-karak/coral-tower-memory.md)
+
+**Game ID:** Memory_Coral_Tower
+
+**Contributors:** Pyxl
+
+#### Subrooms
+
+| No. | Subroom | Annotated |
+| --- | --- | --- |
+| S1 | Khan |  |
+| S2 | Bottom |  |
+| S3 | Gauntlets |  |
+
+#### Room Transitions
+
+| Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| D | door_wakeInMemory | Bottom | [Coral Tower (Coral_Tower_01)](#room-sands-of-karak--coral-tower) | DR | None |  | Verified |  |  |
+
+#### Subroom Connections
+
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| BG | Epic Transition | Bottom | Gauntlets | Silk Soar |  | Verified |  |  |
+| BG | Epic Transition | Gauntlets | Bottom | None |  | Verified |  |  |
+| KH | Khan | Gauntlets | Khan | Silk Soar |  | Verified |  | One way |
+
+#### Check Locations
+
+| No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Encrusted Heart | Khan | Prereq crust king khann boss fight |  | Verified | collectible |  |  |
+| 2 | Crust King Khann Boss Fight | Khan | combat requirements |  | Verified | boss |  | FSM Boolean flags: encounteredCoralKing |
+| 3 | Karaka 1 | Gauntlets | Silk Soar |  | Verified | enemy |  |  |
+| 4 | Karaka 2 | Gauntlets | Silk Soar |  | Verified | enemy |  |  |
+| 5 | Yago 1 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled; no activation found. |
+| 6 | Corrcrust Karaka 1 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled; no activation found. |
+| 7 | Driznarga 1 | Gauntlets | Silk Soar |  | Verified | enemy |  |  |
+| 8 | Driznarga 2 | Gauntlets | Silk Soar |  | Verified | enemy |  |  |
+| 9 | Karaka 3 | Gauntlets | Silk Soar |  | Verified | enemy |  |  |
+| 10 | Alita 1 | Gauntlets | Silk Soar |  | Verified | enemy |  |  |
+| 11 | Yumama 1 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled; no activation found. |
+| 12 | Yuma 1 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled ancestor; no activation found. |
+| 13 | Yuma 2 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled ancestor; no activation found. |
+| 14 | Yuma 3 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled ancestor; no activation found. |
+| 15 | Yuma 4 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled ancestor; no activation found. |
+| 16 | Yuma 5 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled ancestor; no activation found. |
+| 17 | Kakri 1 | Gauntlets | Silk Soar |  | Verified | enemy |  |  |
+| 18 | Yago 2 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled; no activation found. |
+| 19 | Karaka 4 | Gauntlets | Silk Soar |  | Verified | enemy |  |  |
+| 20 | Alita 2 | Gauntlets | Silk Soar |  | Verified | enemy |  |  |
+| 21 | Spinebeak Kai 1 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled; no activation found. |
+| 22 | Spinebeak Kai 2 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled; no activation found. |
+| 23 | Steelspine Kai 1 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled; no activation found. |
+| 24 | Kai 1 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled; no activation found. |
+| 25 | Kai 2 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled; no activation found. |
+| 26 | Driznarga 3 | Gauntlets | Silk Soar |  | Verified | enemy |  |  |
+| 27 | Driznarga 4 | Gauntlets | Silk Soar |  | Verified | enemy |  |  |
+| 28 | Karaka 5 | Gauntlets | Silk Soar |  | Verified | enemy |  |  |
+| 29 | Karaka 6 | Gauntlets | Silk Soar |  | Verified | enemy |  |  |
+| 30 | Conchfly 1 | Gauntlets | Silk Soar |  | Verified | enemy |  |  |
+| 31 | Conchfly 2 | Gauntlets | Silk Soar |  | Verified | enemy |  |  |
+| 32 | Conchfly 3 | Gauntlets | Silk Soar |  | Verified | enemy |  |  |
+| 33 | Yago 3 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled; no activation found. |
+| 34 | Karaka 7 | Gauntlets | Silk Soar |  | Verified | enemy |  |  |
+| 35 | Karaka 8 | Gauntlets | Silk Soar |  | Verified | enemy |  |  |
+| 36 | Yago 4 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled; no activation found. |
+| 37 | Kai 3 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled; no activation found. |
+| 38 | Kai 4 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled; no activation found. |
+| 39 | Kai 5 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled; no activation found. |
+| 40 | Kai 6 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled; no activation found. |
+| 41 | Kai 7 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled; no activation found. |
+| 42 | Kakri 2 | Gauntlets | Silk Soar |  | Verified | enemy |  |  |
+| 43 | Karaka 9 | Gauntlets | Silk Soar |  | Verified | enemy |  |  |
+| 44 | Kakri 3 | Gauntlets | Silk Soar |  | Verified | enemy |  |  |
+| 45 | Alita 3 | Gauntlets | Silk Soar |  | Verified | enemy |  |  |
+| 46 | Alita 4 | Gauntlets | Silk Soar |  | Verified | enemy |  |  |
+| 47 | Karaka 10 | Gauntlets | Silk Soar |  | Verified | enemy |  |  |
+| 48 | Karaka 11 | Gauntlets | Silk Soar |  | Verified | enemy |  |  |
+| 49 | Karaka 12 | Gauntlets | Silk Soar |  | Verified | enemy |  |  |
+| 50 | Kakri 4 | Gauntlets | Silk Soar |  | Verified | enemy |  |  |
+| 51 | Yumama 2 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled; no activation found. |
+| 52 | Yuma 6 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled ancestor; no activation found. |
+| 53 | Yuma 7 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled ancestor; no activation found. |
+| 54 | Yuma 8 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled ancestor; no activation found. |
+| 55 | Yuma 9 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled ancestor; no activation found. |
+| 56 | Yuma 10 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled ancestor; no activation found. |
+| 57 | Driznarga 5 | Gauntlets | Silk Soar |  | Verified | enemy |  |  |
+| 58 | Driznarga 6 | Gauntlets | Silk Soar |  | Verified | enemy |  |  |
+| 59 | Yago 5 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled; no activation found. |
+| 60 | Kakri 5 | Gauntlets | Silk Soar |  | Verified | enemy |  |  |
+| 61 | Karak Gor 1 | Gauntlets | Silk Soar |  | Verified | enemy |  |  |
+| 62 | Karak Gor 2 | Gauntlets | Silk Soar |  | Verified | enemy |  |  |
+| 63 | Karak Gor 3 | Gauntlets | Silk Soar |  | Verified | enemy |  |  |
+| 64 | Yago 6 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled; no activation found. |
+| 65 | Conchfly 4 | Gauntlets | Silk Soar |  | Verified | enemy |  |  |
+| 66 | Conchfly 5 | Gauntlets | Silk Soar |  | Verified | enemy |  |  |
+| 67 | Kai 8 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled; no activation found. |
+| 68 | Kai 9 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled; no activation found. |
+| 69 | Kai 10 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled; no activation found. |
+| 70 | Steelspine Kai 2 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled; no activation found. |
+| 71 | Steelspine Kai 3 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled; no activation found. |
+| 72 | Alita 5 | Gauntlets | Silk Soar |  | Verified | enemy |  |  |
+| 73 | Karaka 13 | Gauntlets | Silk Soar |  | Verified | enemy |  |  |
+| 74 | Karaka 14 | Gauntlets | Silk Soar |  | Verified | enemy |  |  |
+| 75 | Alita 6 | Gauntlets | Silk Soar |  | Verified | enemy |  |  |
+| 76 | Alita 7 | Gauntlets | Silk Soar |  | Verified | enemy |  |  |
+| 77 | Karaka 15 | Gauntlets | Silk Soar |  | Verified | enemy |  |  |
+| 78 | Yumama 3 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled; no activation found. |
+| 79 | Yuma 11 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled ancestor; no activation found. |
+| 80 | Yuma 12 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled ancestor; no activation found. |
+| 81 | Yuma 13 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled ancestor; no activation found. |
+| 82 | Yuma 14 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled ancestor; no activation found. |
+| 83 | Yuma 15 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled ancestor; no activation found. |
+| 84 | Yumama 4 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled; no activation found. |
+| 85 | Yuma 16 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled ancestor; no activation found. |
+| 86 | Yuma 17 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled ancestor; no activation found. |
+| 87 | Yuma 18 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled ancestor; no activation found. |
+| 88 | Yuma 19 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled ancestor; no activation found. |
+| 89 | Yuma 20 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled ancestor; no activation found. |
+| 90 | Yago 7 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled; no activation found. |
+| 91 | Kakri 6 | Gauntlets | Silk Soar |  | Verified | enemy |  |  |
+| 92 | Conchfly 6 | Gauntlets | Silk Soar |  | Verified | enemy |  |  |
+| 93 | Conchfly 7 | Gauntlets | Silk Soar |  | Verified | enemy |  |  |
+| 94 | Corrcrust Karaka 2 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled; no activation found. |
+| 95 | Yago 8 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled; no activation found. |
+| 96 | Kai 11 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled; no activation found. |
+| 97 | Kai 12 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled; no activation found. |
+| 98 | Kai 13 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled; no activation found. |
+| 99 | Spinebeak Kai 3 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled; no activation found. |
+| 100 | Spinebeak Kai 4 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled; no activation found. |
+| 101 | Kai 14 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled; no activation found. |
+| 102 | Kai 15 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled; no activation found. |
+| 103 | Kai 16 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled; no activation found. |
+| 104 | Kai 17 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled; no activation found. |
+| 105 | Steelspine Kai 4 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled; no activation found. |
+| 106 | Karaka 16 | Gauntlets | Silk Soar |  | Verified | enemy |  |  |
+| 107 | Karaka 17 | Gauntlets | Silk Soar |  | Verified | enemy |  |  |
+| 108 | Yumama 5 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled; no activation found. |
+| 109 | Yuma 21 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled ancestor; no activation found. |
+| 110 | Yuma 22 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled ancestor; no activation found. |
+| 111 | Yuma 23 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled ancestor; no activation found. |
+| 112 | Yuma 24 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled ancestor; no activation found. |
+| 113 | Yuma 25 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled ancestor; no activation found. |
+| 114 | Alita 8 | Gauntlets | Silk Soar |  | Verified | enemy |  |  |
+| 115 | Karak Gor 4 | Gauntlets | Silk Soar |  | Verified | enemy |  |  |
+| 116 | Karak Gor 5 | Gauntlets | Silk Soar |  | Verified | enemy |  |  |
+| 117 | Corrcrust Karaka 3 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled; no activation found. |
+| 118 | Karaka 18 | Gauntlets | Silk Soar |  | Verified | enemy |  |  |
+| 119 | Kakri 7 | Gauntlets | Silk Soar |  | Verified | enemy |  |  |
+| 120 | Yuma 26 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled ancestor; no activation found. |
+| 121 | Yuma 27 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled ancestor; no activation found. |
+| 122 | Yuma 28 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled ancestor; no activation found. |
+| 123 | Yuma 29 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled ancestor; no activation found. |
+| 124 | Yuma 30 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled ancestor; no activation found. |
+| 125 | Yuma 31 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled ancestor; no activation found. |
+| 126 | Yuma 32 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled ancestor; no activation found. |
+| 127 | Yuma 33 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled ancestor; no activation found. |
+| 128 | Yuma 34 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled ancestor; no activation found. |
+| 129 | Coral Goombas 1 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled ancestor; no activation found. |
+| 130 | Coral Goombas 2 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled ancestor; no activation found. |
+| 131 | Yuma 35 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled ancestor; no activation found. |
+| 132 | Yuma 36 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled ancestor; no activation found. |
+| 133 | Yuma 37 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled ancestor; no activation found. |
+| 134 | Yuma 38 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled ancestor; no activation found. |
+| 135 | Yuma 39 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled ancestor; no activation found. |
+| 136 | Yuma 40 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled ancestor; no activation found. |
+| 137 | Coral Goombas 3 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled ancestor; no activation found. |
+| 138 | Coral Goombas 4 | Gauntlets | Invalid |  | Verified | enemy |  | Disabled ancestor; no activation found. |
+
+#### Notes
+
+Group in with sands of karak
+dont even ask me about the enemys i just uploaded the scene dump and got given the entiriety of china to verify
 
 ## The Slab
 
@@ -21492,7 +21696,7 @@ No subroom connections defined.
 | 1 | Key of Heretic | Arena | defeat gauntlet fight |  | Verified | collectible | ✓ |  |
 | 2 | Bench Upper | Bench | none |  | Verified | bench | ✓ |  |
 | 3 | Bench Lower | Mid | none |  | Verified | bench | ✓ |  |
-| 4 | Gauntlet Fight | Arena | none |  | Verified | gauntlet |  |  |
+| 4 | Gauntlet Fight | Arena | Combat Requirements |  | Verified | gauntlet |  |  |
 | 5 | Wardenfly 1 | Arena | none |  | Verified | enemy | ✓ | FSM Boolean flags: defeatedBroodMother, slab_cloak_battle_completed |
 | 6 | Wardenfly 2 | Arena | none |  | Verified | enemy | ✓ | FSM Boolean flags: defeatedBroodMother, slab_cloak_battle_completed |
 | 7 | Guardfly 1 | Arena | none |  | Verified | enemy | ✓ | FSM Boolean flags: defeatedBroodMother, slab_cloak_battle_completed |
@@ -21878,7 +22082,7 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | cavern blockade | Cavern | none |  | Verified | blockade | ✓ |  |
 | 2 | indolent door | Left | have key of indolent |  | Verified | lock |  |  |
-| 3 | enemy gauntlet | Arena | none |  | Verified | gauntlet |  |  |
+| 3 | enemy gauntlet | Arena | Combat Requirements |  | Verified | gauntlet |  |  |
 | 4 | Guardfly 1 | Arena | none |  | Verified | enemy | ✓ |  |
 | 5 | Scabfly 1 | Arena | none |  | Verified | enemy | ✓ |  |
 | 6 | Scabfly 2 | Arena | none |  | Verified | enemy | ✓ |  |
@@ -23967,18 +24171,24 @@ No subroom connections defined.
 
 #### Subrooms
 
-No subrooms defined.
+| No. | Subroom | Annotated |
+| --- | --- | --- |
+| S1 | Top | ✓ |
+| S2 | Bottom | ✓ |
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| F | bot1 |  | [ACT3 Lace2 Arena (Song_Tower_Destroyed)](#room-the-cradle--act3-lace2-arena) | C | ~None |  | Verified | ✓ |  |
-| C | top1 |  | [ACT3 GMS Arena (Cradle_03_Destroyed)](#room-the-cradle--act3-gms-arena) | F | ( Cling Grip OR Scuttlebrace ) AND ( Silk Soar OR Faydown Cloak ) |  | Verified | ✓ |  |
+| F | bot1 | Bottom | [ACT3 Lace2 Arena (Song_Tower_Destroyed)](#room-the-cradle--act3-lace2-arena) | C | None |  | Verified | ✓ |  |
+| C | top1 | Top | [ACT3 GMS Arena (Cradle_03_Destroyed)](#room-the-cradle--act3-gms-arena) | F | Cling grip Either OR Faydown Cloak OR Silk Soar OR Scuttlebrace OR easy Shaman Pogo OR Easy Beast Charge OR Easy Architect pogo |  | Verified | ✓ |  |
 
 #### Subroom Connections
 
-No subroom connections defined.
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| TR | The room | Bottom | Top | ( Cling Grip left OR Scuttlebrace ) AND ( Silk Soar OR Faydown Cloak ) AND ( Spike pogo OR Clawline Left ) |  | Verified | ✓ |  |
+| TR | The room | Top | Bottom | Spike pogo OR Clawline Right |  | Verified | ✓ |  |
 
 #### Check Locations
 
@@ -24013,7 +24223,7 @@ No check locations defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| CB | Climb Bridge | Bottom | Bridge | Silk Soar OR ( Cling Grip AND Faydown Cloak AND ( Clawline OR Dash OR Drifters Cloak ) ) |  | Verified | ✓ |  |
+| CB | Climb Bridge | Bottom | Bridge | Silk Soar OR ( Cling Grip both AND Faydown Cloak AND ( Clawline left OR Dash left OR Drifters Cloak ) ) |  | Verified | ✓ |  |
 | CB | Climb Bridge | Bridge | Bottom | None |  | Verified | ✓ |  |
 | SS | Surface Shaft | Bridge | Door To Surface | Silk Soar |  | Verified | ✓ |  |
 | SS | Surface Shaft | Door To Surface | Bridge | None |  | Verified | ✓ |  |
@@ -24038,8 +24248,8 @@ No check locations defined.
 
 | No. | Subroom | Annotated |
 | --- | --- | --- |
-| S1 | Surface Path |  |
-| S2 | Flower Bed |  |
+| S1 | Surface Path | ✓ |
+| S2 | Flower Bed | ✓ |
 
 #### Room Transitions
 
@@ -24088,11 +24298,11 @@ No check locations defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| P1 | Platforms 1 | Bottom | Shell Shard Ledge | Silk Soar OR ( Cling Grip AND ( Dash OR Clawline OR Faydown Cloak OR Sharpdart ) ) |  | Verified |  |  |
+| P1 | Platforms 1 | Bottom | Shell Shard Ledge | Silk Soar OR ( Cling Grip both AND ( Dash left OR Clawline left OR Faydown Cloak OR Sharpdart ) ) |  | Verified |  |  |
 | P1 | Platforms 1 | Shell Shard Ledge | Bottom | None |  | Verified |  |  |
-| P2 | Platforms 2 | Shell Shard Ledge | Arena | Silk Soar OR ( Cling Grip AND ( Dash OR Clawline OR Sharpdart ) ) OR Faydown Cloak |  | Verified |  |  |
+| P2 | Platforms 2 | Shell Shard Ledge | Arena | Silk Soar OR ( Cling Grip both AND ( Dash left OR Clawline left OR Sharpdart ) ) OR Faydown Cloak |  | Verified |  |  |
 | P2 | Platforms 2 | Arena | Shell Shard Ledge | None |  | Verified |  |  |
-| P3 | Platforms 3 | Bottom | Arena | Silk Soar OR ( Cling Grip AND ( Dash OR Clawline OR Faydown Cloak OR Sharpdart ) ) |  | Verified |  |  |
+| P3 | Platforms 3 | Bottom | Arena | Silk Soar OR ( Cling Grip both  AND ( Dash left OR Clawline left OR Faydown Cloak OR Sharpdart ) ) |  | Verified |  |  |
 | P3 | Platforms 3 | Arena | Bottom | None |  | Verified |  |  |
 
 #### Check Locations
@@ -24162,18 +24372,18 @@ No check locations defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| S1 | Lower Shaft | Weaver Lore Ledge | Lower Right Ledge | Faydown Cloak OR Cling Grip OR Scuttlebrace |  | Verified | ✓ |  |
-| S1 | Lower Shaft | Lower Right Ledge | Weaver Lore Ledge | None |  | Verified | ✓ |  |
-| S2 | Central Shaft | Lower Right Ledge | Map Ledge | Cling Grip OR Scuttlebrace |  | Verified | ✓ |  |
-| S2 | Central Shaft | Map Ledge | Lower Right Ledge | None |  | Verified | ✓ |  |
-| S3 | Upper Shaft | Map Ledge | Upper Right Ledge | Cling Grip OR Scuttlebrace |  | Verified | ✓ |  |
-| S3 | Upper Shaft | Upper Right Ledge | Map Ledge | None |  | Verified | ✓ |  |
+| S1 | Lower Shaft | Weaver Lore Ledge | Lower Right Ledge | Faydown Cloak OR Cling Grip  either OR Scuttlebrace OR ( Silk Soar AND proficient movement (Uses that quick map to not fall off edge ) ) |  | Verified |  |  |
+| S1 | Lower Shaft | Lower Right Ledge | Weaver Lore Ledge | None |  | Verified |  |  |
+| S2 | Central Shaft | Lower Right Ledge | Map Ledge | Cling Grip either OR Scuttlebrace OR ( Silk Soar AND proficient movement (Uses that quick map to not fall off edge ) ) |  | Verified |  |  |
+| S2 | Central Shaft | Map Ledge | Lower Right Ledge | None |  | Verified |  |  |
+| S3 | Upper Shaft | Map Ledge | Upper Right Ledge | Cling Grip either OR Scuttlebrace OR ( Silk Soar AND proficient movement (Uses that quick map to not fall off edge ) ) |  | Verified |  |  |
+| S3 | Upper Shaft | Upper Right Ledge | Map Ledge | None |  | Verified |  |  |
 
 #### Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Map: Cradle | Map Ledge | None |  | Verified | collectible |  |  |
+| 1 | Map: Cradle | Map Ledge | None |  | Verified | collectible | ✓ |  |
 
 <a name="room-the-cradle--lace-2-fight"></a>
 
@@ -24250,13 +24460,13 @@ No map image for this
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| SES | Silk Eater Shaft | Silkeater Room | Ventricas | prereq Breakable floor terminus AND ( Cling Grip OR Scuttlebrace ) |  | Verified | ✓ | Potentially possible with silk soar if you come during act 3 |
+| SES | Silk Eater Shaft | Silkeater Room | Ventricas | prereq Breakable floor terminus AND ( Cling Grip either OR Scuttlebrace ) |  | Verified | ✓ | Potentially possible with silk soar if you come during act 3 |
 | SES | Silk Eater Shaft | Ventricas | Silkeater Room | prereq Breakable floor terminus |  | Verified | ✓ |  |
 | TS1 | Tall Shaft1 | Ventricas | Lower Shaft | prereq Terminus OWW |  | Verified | ✓ |  |
 | TS1 | Tall Shaft1 | Lower Shaft | Ventricas | prereq Terminus OWW AND ( Scuttlebrace OR Cling Grip OR Silk Soar ) |  | Verified | ✓ |  |
-| TS2 | Tall Shaft2 | Lower Shaft | Central Shaft | Scuttlebrace OR Cling Grip OR Silk Soar |  | Verified | ✓ |  |
+| TS2 | Tall Shaft2 | Lower Shaft | Central Shaft | Scuttlebrace OR Cling Grip either OR Silk Soar |  | Verified | ✓ |  |
 | TS2 | Tall Shaft2 | Central Shaft | Lower Shaft | None |  | Verified | ✓ |  |
-| TS3 | Tall Shaft3 | Central Shaft | Upper Shaft | prereq Terminus Upper Shaft AND ( Scuttlebrace OR Cling Grip OR Silk Soar ) |  | Verified | ✓ |  |
+| TS3 | Tall Shaft3 | Central Shaft | Upper Shaft | prereq Terminus Upper Shaft AND ( Scuttlebrace OR Cling Grip either OR Silk Soar ) |  | Verified | ✓ |  |
 | TS3 | Tall Shaft3 | Upper Shaft | Central Shaft | prereq Terminus Upper Shaft |  | Verified | ✓ |  |
 
 #### Check Locations
@@ -24303,16 +24513,16 @@ I entered this during act 3 and got the same scene dump, dont believe they count
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| B1 | Bottom To Platform 1 | Bottom | Loreplatform1 | Silk Soar OR Faydown Cloak OR ( Cling Grip AND Clawline ) |  | Verified | ✓ |  |
-| B1 | Bottom To Platform 1 | Loreplatform1 | Bottom | None |  | Verified | ✓ |  |
-| P12 | Platform 1 To Platform 2 | Loreplatform1 | Loreplatform2 | Silk Soar OR Faydown Cloak OR ( Cling Grip AND Clawline ) |  | Verified | ✓ |  |
-| P12 | Platform 1 To Platform 2 | Loreplatform2 | Loreplatform1 | None |  | Verified | ✓ |  |
-| P23 | Platform 2 To Platform 3 | Loreplatform2 | Loreplatform3 | Silk Soar OR Faydown Cloak OR ( Cling Grip AND Clawline ) |  | Verified | ✓ |  |
-| P23 | Platform 2 To Platform 3 | Loreplatform3 | Loreplatform2 | None |  | Verified | ✓ |  |
-| P3L | Platform 3 To Exit | Loreplatform3 | Exit | Clawline OR ( Faydown Cloak AND Drifters Cloak ) |  | Verified | ✓ |  |
-| P3L | Platform 3 To Exit | Exit | Loreplatform3 | Faydown Cloak OR Drifters Cloak OR Clawline OR Sprint OR Dash |  | Verified | ✓ |  |
+| B1 | Bottom To Platform 1 | Bottom | Loreplatform1 | Silk Soar OR Faydown Cloak OR ( Cling Grip right AND Clawline left ) |  | Verified |  |  |
+| B1 | Bottom To Platform 1 | Loreplatform1 | Bottom | None |  | Verified |  |  |
+| P12 | Platform 1 To Platform 2 | Loreplatform1 | Loreplatform2 | Silk Soar OR Faydown Cloak OR ( Cling Grip left AND Clawline right ) |  | Verified |  |  |
+| P12 | Platform 1 To Platform 2 | Loreplatform2 | Loreplatform1 | None |  | Verified |  |  |
+| P23 | Platform 2 To Platform 3 | Loreplatform2 | Loreplatform3 | Silk Soar OR Faydown Cloak OR ( Cling Grip Right AND Clawline Left ) |  | Verified |  |  |
+| P23 | Platform 2 To Platform 3 | Loreplatform3 | Loreplatform2 | None |  | Verified |  |  |
+| P3L | Platform 3 To Exit | Loreplatform3 | Exit | Clawline right OR ( Faydown Cloak AND Drifters Cloak ) |  | Verified |  |  |
+| P3L | Platform 3 To Exit | Exit | Loreplatform3 | Faydown Cloak OR Drifters Cloak OR Clawline left OR Sprint left OR Dash left |  | Verified |  |  |
 | LP2 | Exit To Platform 2 | Exit | Loreplatform2 | None |  | Verified |  |  |
-| LP2 | Exit To Platform 2 | Loreplatform2 | Exit | Cling Grip OR Silk Soar OR Scuttlebrace OR ( Faydown Cloak AND ( Ledge grab OR easy Shaman Crest pogo OR Clawline ) ) |  | Verified |  |  |
+| LP2 | Exit To Platform 2 | Loreplatform2 | Exit | Cling Grip right OR Silk Soar OR Scuttlebrace OR ( Faydown Cloak AND ( Ledge grab right OR easy Shaman Crest pogo OR Clawline both ) ) |  | Verified |  |  |
 
 #### Check Locations
 
@@ -24343,26 +24553,26 @@ I entered this during act 3 and got the same scene dump, dont believe they count
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| C | top1 | End | [Path of Pain Bench (Cradle_Destroyed_Challenge_Bench)](#room-the-cradle--path-of-pain-bench) | F | Cling Grip OR Silk Soar OR Scuttlebrace |  | Verified | ✓ |  |
+| C | top1 | End | [Path of Pain Bench (Cradle_Destroyed_Challenge_Bench)](#room-the-cradle--path-of-pain-bench) | F | Cling Grip either OR Silk Soar OR Scuttlebrace |  | Verified | ✓ |  |
 | L | left1 | Start | [ACT3 GMS Arena (Cradle_03_Destroyed)](#room-the-cradle--act3-gms-arena) | D | None |  | Verified | ✓ |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| WR | Whole Room | Start | End | Faydown Cloak AND Cling Grip AND ( Clawline OR Dash ) |  | Verified | ✓ |  |
-| WR | Whole Room | End | Start | Faydown Cloak OR Drifters Cloak OR Clawline OR Dash |  | Verified | ✓ |  |
+| WR | Whole Room | Start | End | Faydown Cloak AND ( ( Silk Soar AND Cling Grip Right AND Proficient movement ) OR ( Cling grip both AND ( Drifters cloak OR ( ( Sprint left OR Clawline Left OR Sharpdart ) AND ( Dash Right OR Clawline Right OR sharpdart  ) ) ) ) ) |  | Verified | ✓ | Not doable with just scuttlebrace until proven wrong, I really tried to make it work - pyxl 23/10 |
+| WR | Whole Room | End | Start | Faydown Cloak OR Drifters Cloak OR Clawline both OR Dash Both |  | Verified | ✓ |  |
 
 #### Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Pharlid Diver 1 |  |  |  |  | enemy | ✓ |  |
-| 2 | Pharlid Diver 2 |  |  |  |  | enemy | ✓ |  |
-| 3 | Pharlid 1 |  |  |  |  | enemy | ✓ |  |
-| 4 | Pharlid 2 |  |  |  |  | enemy | ✓ |  |
-| 5 | Pharlid 3 |  |  |  |  | enemy | ✓ |  |
-| 6 | Pharlid 4 |  |  |  |  | enemy | ✓ |  |
+| 1 | Pharlid Diver 1 | End | Faydown Cloak OR Drifters Cloak OR Clawline both OR Dash Both |  | Verified | enemy | ✓ |  |
+| 2 | Pharlid Diver 2 | End | Faydown Cloak OR Drifters Cloak OR Clawline both OR Dash Both |  | Verified | enemy | ✓ |  |
+| 3 | Pharlid 1 | End | Faydown Cloak OR Drifters Cloak OR Clawline both OR Dash Both |  | Verified | enemy | ✓ |  |
+| 4 | Pharlid 2 | End | Faydown Cloak OR Drifters Cloak OR Clawline both OR Dash Both |  | Verified | enemy | ✓ |  |
+| 5 | Pharlid 3 | End | Faydown Cloak OR Drifters Cloak OR Clawline both OR Dash Both |  | Verified | enemy | ✓ |  |
+| 6 | Pharlid 4 | Start | Faydown Cloak OR Scuttlebrace OR ( Cling grip right AND ( Dash Right OR Clawline RIght OR Sharpdart OR Drifters Cloak OR SPrint Right ) ) |  | Verified | enemy | ✓ |  |
 
 #### Notes
 
@@ -24380,25 +24590,32 @@ Needs a map link
 
 #### Subrooms
 
-No subrooms defined.
+| No. | Subroom | Annotated |
+| --- | --- | --- |
+| S1 | Cave | ✓ |
+| S2 | Bench | ✓ |
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 |  | [Path Of Pain Silksong (Cradle_Destroyed_Challenge_01)](#room-the-cradle--path-of-pain-silksong) | L | None |  | Verified | ✓ |  |
-| F | bot1 |  | [Cradle Path Of Pain First Room (Cradle_Destroyed_Challenge_02)](#room-the-cradle--cradle-path-of-pain-first-room) | C | none |  | Verified | ✓ |  |
-| D | door1 |  | [The Surface (Abandoned_town)](#room-the-cradle--the-surface) | D | Silk Soar OR ( Faydown Cloak AND Cling grip ) |  | Verified | ✓ |  |
+| R | right1 | Bench | [Path Of Pain Silksong (Cradle_Destroyed_Challenge_01)](#room-the-cradle--path-of-pain-silksong) | L | None |  | Verified | ✓ |  |
+| F | bot1 | Bench | [Cradle Path Of Pain First Room (Cradle_Destroyed_Challenge_02)](#room-the-cradle--cradle-path-of-pain-first-room) | C | none |  | Verified | ✓ |  |
+| D | door1 | Cave | [The Surface (Abandoned_town)](#room-the-cradle--the-surface) | D | None |  | Verified | ✓ |  |
 
 #### Subroom Connections
 
-No subroom connections defined.
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| T | Thorns | Bench | Cave | ( Silk Soar OR ( Faydown Cloak AND Cling grip either ) ) AND Prereq path of pain wall |  | Verified | ✓ |  |
+| T | Thorns | Cave | Bench | Prereq path of pain wall |  | Verified | ✓ |  |
 
 #### Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Path of Pain Bench |  | None |  | Verified | bench |  |  |
+| 1 | Path of Pain Bench | Bench | None |  | Verified | bench |  |  |
+| 2 | path of pain wall | Cave | none |  | Verified | blockade |  |  |
 
 #### Notes
 
@@ -24433,9 +24650,9 @@ Needs a map link
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| PP | path of pain mini | Bottom | Herald Platform | Cling Grip AND Clawline AND Faydown Cloak |  | Verified | ✓ |  |
-| PP | path of pain mini | Herald Platform | Bottom | ( Cling Grip AND Clawline AND Faydown Cloak ) |  | Verified | ✓ | I think this was the Pyxl said should be Nothing difficulty Medium |
-| SC | to the surface | Herald Platform | Top | ( Faydown Cloak AND Cling Grip ) |  | Verified | ✓ | Silk Soar does not work here. Nice touch, Team Cherry. - hero |
+| PP | path of pain mini | Bottom | Herald Platform | Cling Grip both AND Clawline both AND Faydown Cloak |  | Verified | ✓ |  |
+| PP | path of pain mini | Herald Platform | Bottom | None (#good luck) OR Drifters Cloak |  | Verified | ✓ | I think this was the Pyxl said should be Nothing difficulty Medium  yeah, if possible add medium for this fall cause i only could do it on half game speed, but it 100% is possible if you know exactly where to fall |
+| SC | to the surface | Herald Platform | Top | ( Faydown Cloak AND Cling Grip left ) OR Silk Soar |  | Verified | ✓ | Silk Soar does not work here. Nice touch, Team Cherry. - hero  Silk soar does work here no clue what your on about - Pyxl |
 | SC | to the surface | Top | Herald Platform | None (falling) |  | Verified | ✓ |  |
 
 #### Check Locations
@@ -24444,17 +24661,18 @@ Needs a map link
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Mister Mushroom Meeting The Cradle | Herald Platform | after THE Mister Mushroom Meeting Mount Fay AND Needolin |  | Verified | event | ✓ |  |
 | 2 | Passing of the Age Wish Granted | Herald Platform | after Mister Mushroom Meeting The Cradle |  | Verified | event |  |  |
-| 3 | Imoba 1 |  |  |  |  | enemy | ✓ |  |
-| 4 | Imoba 2 |  |  |  |  | enemy | ✓ |  |
-| 5 | Imoba 3 |  |  |  |  | enemy | ✓ |  |
-| 6 | Imoba 4 |  |  |  |  | enemy | ✓ |  |
-| 7 | Imoba 5 |  |  |  |  | enemy | ✓ |  |
-| 8 | Imoba 6 |  |  |  |  | enemy | ✓ |  |
-| 9 | Imoba 7 |  |  |  |  | enemy | ✓ |  |
-| 10 | Imoba 8 |  |  |  |  | enemy | ✓ |  |
-| 11 | Imoba 9 |  |  |  |  | enemy | ✓ |  |
-| 12 | Imoba 10 |  |  |  |  | enemy | ✓ |  |
-| 13 | Imoba 11 |  |  |  |  | enemy | ✓ |  |
+| 3 | Imoba 1 | Herald Platform | None |  | Verified | enemy | ✓ |  |
+| 4 | Imoba 2 | Herald Platform | None |  | Verified | enemy | ✓ |  |
+| 5 | Imoba 3 | Herald Platform | None |  | Verified | enemy | ✓ |  |
+| 6 | Imoba 4 | Herald Platform | None |  | Verified | enemy | ✓ |  |
+| 7 | Imoba 5 | Herald Platform | None |  | Verified | enemy | ✓ |  |
+| 8 | Imoba 6 | Herald Platform | None |  | Verified | enemy | ✓ |  |
+| 9 | Imoba 7 | Herald Platform | None |  | Verified | enemy | ✓ |  |
+| 10 | Imoba 8 | Herald Platform | None |  | Verified | enemy | ✓ |  |
+| 11 | Imoba 9 | Herald Platform | None |  | Verified | enemy | ✓ |  |
+| 12 | Imoba 10 | Herald Platform | None |  | Verified | enemy | ✓ |  |
+| 13 | Imoba 11 | Herald Platform | None |  | Verified | enemy | ✓ |  |
+| 14 | Garpid | Herald Platform | Break Silk Blockade (#other than bell beast kill ) |  | Verified | enemy | ✓ | same kill req as a silk blockade |
 
 #### Notes
 
@@ -24474,9 +24692,9 @@ No map link for this
 
 | No. | Subroom | Annotated |
 | --- | --- | --- |
-| S1 | Hole |  |
-| S2 | Door |  |
-| S3 | Nameless Town |  |
+| S1 | Hole | ✓ |
+| S2 | Door | ✓ |
+| S3 | Nameless Town | ✓ |
 
 - **Nameless Town:**  Right Side of room cant place box
 
@@ -24491,27 +24709,27 @@ No map link for this
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| SL | Surface Left | Hole | Door | None |  | Verified |  |  |
-| SL | Surface Left | Door | Hole | Faydown Cloak OR Cling Grip OR Ledge Grab OR Scuttlebrace |  | Verified |  |  |
-| SR | Surface Right | Door | Nameless Town | None |  | Verified |  |  |
-| SR | Surface Right | Nameless Town | Door | None |  | Verified |  |  |
-| HN | Hole to Nameless Town | Hole | Nameless Town | None |  | Verified |  |  |
+| SL | Surface Left | Hole | Door | None |  | Verified | ✓ |  |
+| SL | Surface Left | Door | Hole | Faydown Cloak OR ( Spike Pogo AND ( Ledge grab Left OR Cling Grip Left OR medium Scuttlebrace ) ) |  | Verified | ✓ |  |
+| SR | Surface Right | Door | Nameless Town | None |  | Verified | ✓ |  |
+| SR | Surface Right | Nameless Town | Door | None |  | Verified | ✓ |  |
+| HN | Hole to Nameless Town | Hole | Nameless Town | None |  | Verified | ✓ |  |
 
 #### Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Surface Memento | Nameless Town | None |  | Verified | collectible |  |  |
-| 2 | Skrill 1 |  |  |  |  | enemy | ✓ |  |
-| 3 | Skrill 2 |  |  |  |  | enemy | ✓ |  |
-| 4 | Skrill 3 |  |  |  |  | enemy | ✓ |  |
-| 5 | Skrill 4 |  |  |  |  | enemy | ✓ |  |
-| 6 | Skrill 5 |  |  |  |  | enemy | ✓ |  |
-| 7 | Skrill 6 |  |  |  |  | enemy | ✓ |  |
-| 8 | Skrill 7 |  |  |  |  | enemy | ✓ |  |
-| 9 | Skrill 8 |  |  |  |  | enemy | ✓ |  |
-| 10 | Skrill 9 |  |  |  |  | enemy | ✓ |  |
-| 11 | Skrill 10 |  |  |  |  | enemy | ✓ |  |
+| 1 | Surface Memento | Nameless Town | None |  | Verified | collectible | ✓ |  |
+| 2 | Skrill 1 | Hole | None |  | Verified | enemy | ✓ |  |
+| 3 | Skrill 2 | Nameless Town | None |  | Verified | enemy | ✓ |  |
+| 4 | Skrill 3 | Nameless Town | None |  | Verified | enemy | ✓ |  |
+| 5 | Skrill 4 | Nameless Town | None |  | Verified | enemy | ✓ |  |
+| 6 | Skrill 5 | Nameless Town | None |  | Verified | enemy | ✓ |  |
+| 7 | Skrill 6 | Hole | None |  | Verified | enemy | ✓ |  |
+| 8 | Skrill 7 | Hole | None |  | Verified | enemy | ✓ |  |
+| 9 | Skrill 8 | Hole | None |  | Verified | enemy | ✓ |  |
+| 10 | Skrill 9 | Hole | None |  | Verified | enemy | ✓ |  |
+| 11 | Skrill 10 | Hole | None |  | Verified | enemy | ✓ |  |
 
 #### Notes
 

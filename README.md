@@ -489,15 +489,15 @@ Generated from the non-archived records in `input/silksong-rando-logic.db`.
 ## Memorium
 
 - [BEEG flea (Arborium_08)](./memorium/beeg-flea.md)
+- [Memorium Bench (Arborium_04)](./memorium/memorium-bench.md)
 - [Memorium Karak (Arborium_06)](./memorium/memorium-karak.md)
 - [Memorium Mossy (Arborium_09)](./memorium/memorium-mossy.md)
+- [Memorium Puzzle (Arborium_10)](./memorium/memorium-puzzle.md)
 - [Memorium Rhino Room (Arborium_02)](./memorium/memorium-rhino-room.md)
 - [Memorium Start Shaft (Arborium_01)](./memorium/memorium-start-shaft.md)
 - [Memorium Ventrica (Arborium_Tube)](./memorium/memorium-ventrica.md)
 - [Memorium Voltnest (Arborium_07)](./memorium/memorium-voltnest.md)
-- [Memorium bench (Arborium_04)](./memorium/memorium-bench.md)
-- [Memorium puzzle (Arborium_10)](./memorium/memorium-puzzle.md)
-- [Memorium water room (Arborium_05)](./memorium/memorium-water-room.md)
+- [Memorium Water Room (Arborium_05)](./memorium/memorium-water-room.md)
 - [Seed Shooty Memorium (Arborium_03)](./memorium/seed-shooty-memorium.md)
 - [Shopkeeper Hides (Arborium_11)](./memorium/shopkeeper-hides.md)
 
@@ -518,6 +518,7 @@ Generated from the non-archived records in `input/silksong-rando-logic.db`.
 - [Sands of Shakra (Coral_40)](./sands-of-karak/sands-of-shakra.md)
 - [Watcher at the Edge (Coral_39)](./sands-of-karak/watcher-at-the-edge.md)
 - [Voltnest (Coral_29)](./sands-of-karak/voltnest.md)
+- [Coral Tower Memory (Memory_Coral_Tower)](./sands-of-karak/coral-tower-memory.md)
 
 ## The Slab
 

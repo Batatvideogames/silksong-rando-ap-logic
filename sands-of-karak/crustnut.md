@@ -22,9 +22,9 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| WR | Whole Room | Start | End | Cling grip AND ( ( Clawline OR Sharpdart OR ( Dash AND ( Drifters Cloak OR easy Beast Crest pogo ) ) ) OR ( easy Beast crest pogo AND Faydown Cloak AND easy Needle Strike stall ) ) |  | Verified | ✓ |  |
-| WR | Whole Room | End | Start | Cling grip AND ( ( Clawline OR Sharpdart OR ( Dash AND ( Drifters Cloak OR easy Beast Crest pogo ) ) ) OR ( easy Beast crest pogo AND Faydown Cloak AND easy Needle Strike stall) ) |  | Verified | ✓ |  |
-| SD | Shard Detour | Start | Shard Platform | Silk Soar OR ( ( Dash AND Scuttlebrace ) AND ( Clawline OR Sharpdart ) ) OR ( Cling grip AND ( Dash OR Clawline OR Sharpdart OR easy Beast Crest pogo OR Faydown Cloak OR Drifters Cloak ) ) |  | Verified | ✓ |  |
+| WR | Whole Room | Start | End | Cling grip Left AND ( ( Clawline Left OR Sharpdart OR ( Dash Left AND ( Drifters Cloak OR easy Beast Crest pogo ) ) ) OR ( easy Beast crest pogo AND Faydown Cloak AND easy Needle Strike stall ) ) |  | Verified | ✓ |  |
+| WR | Whole Room | End | Start | Cling grip Either AND ( ( Clawline Right OR Sharpdart OR ( Dash Right AND ( Drifters Cloak OR easy Beast Crest pogo ) ) ) OR ( easy Beast crest pogo AND Faydown Cloak AND easy Needle Strike stall) ) |  | Verified | ✓ |  |
+| SD | Shard Detour | Start | Shard Platform | Silk Soar OR ( Scuttlebrace AND ( Clawline Left OR Sharpdart ) ) OR ( Cling grip Right AND ( Dash Right OR Clawline Right OR Sharpdart OR easy Beast Crest pogo OR Faydown Cloak OR Drifters Cloak ) ) |  | Verified | ✓ |  |
 | SD | Shard Detour | Shard Platform | Start | None |  | Verified | ✓ |  |
 
 ## Check Locations
@@ -33,7 +33,12 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Crustnut | End | None |  | Verified | collectible | ✓ |  |
 | 2 | Shard Cache: Sands of Karak #11 | Shard Platform | None |  | Verified | resource | ✓ |  |
-| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 3 | Driznarga 1 | End | None |  | Verified | enemy | ✓ |  |
+| 4 | Coral Furm 1 | Start | None |  | Verified | enemy | ✓ |  |
+| 5 | Coral Furm 2 | Start | None |  | Verified | enemy | ✓ |  |
+| 6 | Coral Furm 3 | End | None |  | Verified | enemy | ✓ |  |
+| 7 | Coral Furm 4 | End | None |  | Verified | enemy | ✓ |  |
+| 8 | Driznit 1 | Shard Platform | None |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

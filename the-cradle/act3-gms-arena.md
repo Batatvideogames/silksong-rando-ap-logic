@@ -23,7 +23,7 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| CB | Climb Bridge | Bottom | Bridge | Silk Soar OR ( Cling Grip AND Faydown Cloak AND ( Clawline OR Dash OR Drifters Cloak ) ) |  | Verified | ✓ |  |
+| CB | Climb Bridge | Bottom | Bridge | Silk Soar OR ( Cling Grip both AND Faydown Cloak AND ( Clawline left OR Dash left OR Drifters Cloak ) ) |  | Verified | ✓ |  |
 | CB | Climb Bridge | Bridge | Bottom | None |  | Verified | ✓ |  |
 | SS | Surface Shaft | Bridge | Door To Surface | Silk Soar |  | Verified | ✓ |  |
 | SS | Surface Shaft | Door To Surface | Bridge | None |  | Verified | ✓ |  |

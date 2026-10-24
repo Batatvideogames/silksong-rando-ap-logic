@@ -33,7 +33,7 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Crow Father | the court | nothing |  | Verified | boss | ✓ |  |
+| 1 | Crow Father | the court | Combat Requirements |  | Verified | boss | ✓ |  |
 | 2 | craw memento | the court | defeat Crow Father |  | Verified | collectible | ✓ |  |
 | 3 | Greymoor - craw court rosary vault stash | left shaft | cling grip OR (easy scuttlebrace AND (ledge grab OR faydown cloak OR clawline OR easy beast pogo)) |  | Verified | resource | ✓ |  |
 | 4 | Greymoor - the other craw court rosary vault stash | left shaft | cling grip OR (easy scuttlebrace AND (ledge grab OR faydown cloak OR clawline OR easy beast pogo)) |  | Verified | resource | ✓ |  |

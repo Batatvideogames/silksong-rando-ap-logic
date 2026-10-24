@@ -22,15 +22,16 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| BS | Big Shaft | Bottom | Top | Silk soar OR ( Cling Grip AND ( ( Proficient Movement AND Spike Pogo ) OR Clawline ) ) |  | Verified | ✓ |  |
+| BS | Big Shaft | Bottom | Top | Silk soar OR ( Cling Grip left AND ( ( Proficient Movement AND Spike Pogo ) OR Clawline Right ) ) |  | Verified | ✓ |  |
 | BS | Big Shaft | Top | Bottom | None |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Sands of Karak - Upper Coral Tablet | Top | Silk soar OR ( Cling grip AND ( Faydown Cloak OR Dash OR Drifters Cloak OR Clawline OR Sharpdart ) ) OR ( Scuttlebrace AND faydown Cloak ) |  | Verified | lore | ✓ |  |
-| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 1 | Sands of Karak - Upper Coral Tablet | Top | Silk soar OR ( Cling grip both AND ( Dash right OR Drifters Cloak OR Clawline right OR Sharpdart ) ) OR ( Scuttlebrace AND faydown Cloak ) OR ( cling grip right AND Faydown cloak ) |  | Verified | lore | ✓ |  |
+| 2 | Pharlid 1 | Top | None |  | Verified | enemy | ✓ |  |
+| 3 | Pharlid 2 | Top | None |  | Verified | enemy | ✓ | Kills it self second player gets near |
 
 ## Room Images
 

@@ -39,7 +39,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | cavern blockade | Cavern | none |  | Verified | blockade | ✓ |  |
 | 2 | indolent door | Left | have key of indolent |  | Verified | lock |  |  |
-| 3 | enemy gauntlet | Arena | none |  | Verified | gauntlet |  |  |
+| 3 | enemy gauntlet | Arena | Combat Requirements |  | Verified | gauntlet |  |  |
 | 4 | Guardfly 1 | Arena | none |  | Verified | enemy | ✓ |  |
 | 5 | Scabfly 1 | Arena | none |  | Verified | enemy | ✓ |  |
 | 6 | Scabfly 2 | Arena | none |  | Verified | enemy | ✓ |  |

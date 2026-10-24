@@ -35,7 +35,7 @@
 | 2 | Conjoined heart | Clover Dancers | prereq clover Dancers 1 |  | Verified | collectible | ✓ |  |
 | 3 | Nuphar 1 | Lore Room | None |  | Verified | enemy | ✓ |  |
 | 4 | Nuphar 2 | Lore Room | None |  | Verified | enemy | ✓ |  |
-| 5 | Clover Dancers 1 | Clover Dancers | None |  | Verified | boss | ✓ |  |
+| 5 | Clover Dancers 1 | Clover Dancers | Combat Requirements |  | Verified | boss | ✓ |  |
 | 6 | Clover Dancers 2 | Clover Dancers | Invalid |  | Verified | boss | ✓ | The unhittable phantom that pairs with green prince |
 
 ## Room Images

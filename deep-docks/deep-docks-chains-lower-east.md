@@ -67,7 +67,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | silk spool deep docks 1 | spool fragment | Activate First Spool Blast Rock AND Activate Second Spool Blast Rock AND Activate Third Spool Blast Rock |  | Verified | collectible | ✓ |  |
 | 2 | Shortcut Blast Rock | lower lava platform | nada |  | Verified | blockade | ✓ |  |
-| 3 | Chains Gauntlet | gauntlet | nothing. |  | Verified | gauntlet | ✓ |  |
+| 3 | Chains Gauntlet | gauntlet | Combat Requirements |  | Verified | gauntlet | ✓ |  |
 | 4 | First Spool Blast Rock | Spool Rock 1 | Break Blast Rock Up |  | Verified | blockade | ✓ |  |
 | 5 | Second Spool Blast Rock | Spool Rock 2 | Break Blast Rock Down AND Activate First Spool Blast Rock |  | Verified | blockade | ✓ |  |
 | 6 | Third Spool Blast Rock | Spool Rock 3 | Break Blast Rock Up AND Activate First Spool Blast Rock AND Activate Second Spool Blast Rock |  | Verified | blockade | ✓ |  |

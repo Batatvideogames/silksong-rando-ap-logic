@@ -32,7 +32,7 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | gauntlet fight | gauntlet | none |  | Verified | gauntlet | ✓ |  |
+| 1 | gauntlet fight | gauntlet | Combat Requirements |  | Verified | gauntlet | ✓ |  |
 | 2 | map purchase hunter's march | gauntlet | defeat gauntlet fight |  | Verified | collectible | ✓ |  |
 | 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 

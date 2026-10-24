@@ -1,4 +1,4 @@
-# Memorium bench (Arborium_04)
+# Memorium Bench (Arborium_04)
 
 **Game ID:** Arborium_04
 
@@ -54,12 +54,12 @@
 
 ### Connections
 
-[![Connections for Memorium bench (Arborium_04)](../00-annotations/memorium/memorium-bench-connections.png)](../00-annotations/memorium/memorium-bench-connections.png)
+[![Connections for Memorium Bench (Arborium_04)](../00-annotations/memorium/memorium-bench-connections.png)](../00-annotations/memorium/memorium-bench-connections.png)
 
 ### Checks
 
-[![Checks for Memorium bench (Arborium_04)](../00-annotations/memorium/memorium-bench-checks.png)](../00-annotations/memorium/memorium-bench-checks.png)
+[![Checks for Memorium Bench (Arborium_04)](../00-annotations/memorium/memorium-bench-checks.png)](../00-annotations/memorium/memorium-bench-checks.png)
 
 ### Scene
 
-[![Scene for Memorium bench (Arborium_04)](../00-annotations/memorium/memorium-bench-scene.png)](../00-annotations/memorium/memorium-bench-scene.png)
+[![Scene for Memorium Bench (Arborium_04)](../00-annotations/memorium/memorium-bench-scene.png)](../00-annotations/memorium/memorium-bench-scene.png)

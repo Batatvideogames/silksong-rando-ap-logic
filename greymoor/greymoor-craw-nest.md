@@ -43,7 +43,7 @@
 | 6 | Greymoor - nest mortage at the inner right | crow lower nest | ((ledge grab OR cling grip OR easy enemy pogo) AND (progressive swift step 1 OR sharpdart OR clawline)) OR faydown cloak OR prereq balloon lever |  | Verified | resource | ✓ |  |
 | 7 | Greymoor - nest mortage at the inner left | crow lower nest | (faydown cloak AND (progressive swift step 1 OR sharpdart OR clawline)) OR ((ledge grab OR cling grip OR easy enemy pogo) AND drifters cloak AND (progressive swift step 2 OR sharpdart OR clawline)) OR prereq balloon lever |  | Verified | resource | ✓ |  |
 | 8 | Greymoor - some dumb bird life savings left outside in the nest | crow arena | none |  | Verified | resource | ✓ |  |
-| 9 | Craw Lake Gauntlet | crow arena | nothing |  | Verified | gauntlet | ✓ |  |
+| 9 | Craw Lake Gauntlet | crow arena | Combat Requirements |  | Verified | gauntlet | ✓ |  |
 | 10 | Squatcraw 1 |  |  |  |  | enemy | ✓ | Spawn conditions: CrowCourtInSession=false |
 | 11 | Craw 1 |  |  |  |  | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false |
 | 12 | Craw 2 |  |  |  |  | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false |

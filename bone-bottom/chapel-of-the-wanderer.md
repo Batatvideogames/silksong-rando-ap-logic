@@ -54,7 +54,7 @@
 | 4 | bonegrave rosary cache 2 | upper left | none |  | Verified | collectible | ✓ |  |
 | 5 | bonegrave rosary cache 3 | upper right | none |  | Verified | collectible | ✓ |  |
 | 6 | bonegrave rosary cache 4 | upper right | none |  | Verified | collectible | ✓ |  |
-| 7 | gauntlet fight | gauntlet arena | none |  | Verified | gauntlet | ✓ |  |
+| 7 | gauntlet fight | gauntlet arena | Combat Requirements |  | Verified | gauntlet | ✓ |  |
 | 8 | Winged Pilgrim 1 | gauntlet arena | none |  | Verified | enemy | ✓ |  |
 | 9 | Pilgrim Pouncer 1 | gauntlet arena | none |  | Verified | enemy | ✓ |  |
 | 10 | Pilgrim Groveller 1 | gauntlet arena | none |  | Verified | enemy | ✓ |  |

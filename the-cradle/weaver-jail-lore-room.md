@@ -24,16 +24,16 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| B1 | Bottom To Platform 1 | Bottom | Loreplatform1 | Silk Soar OR Faydown Cloak OR ( Cling Grip AND Clawline ) |  | Verified | ✓ |  |
-| B1 | Bottom To Platform 1 | Loreplatform1 | Bottom | None |  | Verified | ✓ |  |
-| P12 | Platform 1 To Platform 2 | Loreplatform1 | Loreplatform2 | Silk Soar OR Faydown Cloak OR ( Cling Grip AND Clawline ) |  | Verified | ✓ |  |
-| P12 | Platform 1 To Platform 2 | Loreplatform2 | Loreplatform1 | None |  | Verified | ✓ |  |
-| P23 | Platform 2 To Platform 3 | Loreplatform2 | Loreplatform3 | Silk Soar OR Faydown Cloak OR ( Cling Grip AND Clawline ) |  | Verified | ✓ |  |
-| P23 | Platform 2 To Platform 3 | Loreplatform3 | Loreplatform2 | None |  | Verified | ✓ |  |
-| P3L | Platform 3 To Exit | Loreplatform3 | Exit | Clawline OR ( Faydown Cloak AND Drifters Cloak ) |  | Verified | ✓ |  |
-| P3L | Platform 3 To Exit | Exit | Loreplatform3 | Faydown Cloak OR Drifters Cloak OR Clawline OR Sprint OR Dash |  | Verified | ✓ |  |
+| B1 | Bottom To Platform 1 | Bottom | Loreplatform1 | Silk Soar OR Faydown Cloak OR ( Cling Grip right AND Clawline left ) |  | Verified |  |  |
+| B1 | Bottom To Platform 1 | Loreplatform1 | Bottom | None |  | Verified |  |  |
+| P12 | Platform 1 To Platform 2 | Loreplatform1 | Loreplatform2 | Silk Soar OR Faydown Cloak OR ( Cling Grip left AND Clawline right ) |  | Verified |  |  |
+| P12 | Platform 1 To Platform 2 | Loreplatform2 | Loreplatform1 | None |  | Verified |  |  |
+| P23 | Platform 2 To Platform 3 | Loreplatform2 | Loreplatform3 | Silk Soar OR Faydown Cloak OR ( Cling Grip Right AND Clawline Left ) |  | Verified |  |  |
+| P23 | Platform 2 To Platform 3 | Loreplatform3 | Loreplatform2 | None |  | Verified |  |  |
+| P3L | Platform 3 To Exit | Loreplatform3 | Exit | Clawline right OR ( Faydown Cloak AND Drifters Cloak ) |  | Verified |  |  |
+| P3L | Platform 3 To Exit | Exit | Loreplatform3 | Faydown Cloak OR Drifters Cloak OR Clawline left OR Sprint left OR Dash left |  | Verified |  |  |
 | LP2 | Exit To Platform 2 | Exit | Loreplatform2 | None |  | Verified |  |  |
-| LP2 | Exit To Platform 2 | Loreplatform2 | Exit | Cling Grip OR Silk Soar OR Scuttlebrace OR ( Faydown Cloak AND ( Ledge grab OR easy Shaman Crest pogo OR Clawline ) ) |  | Verified |  |  |
+| LP2 | Exit To Platform 2 | Loreplatform2 | Exit | Cling Grip right OR Silk Soar OR Scuttlebrace OR ( Faydown Cloak AND ( Ledge grab right OR easy Shaman Crest pogo OR Clawline both ) ) |  | Verified |  |  |
 
 ## Check Locations
 

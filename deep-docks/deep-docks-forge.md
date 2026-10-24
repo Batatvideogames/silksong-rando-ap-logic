@@ -53,7 +53,7 @@
 | 7 | readable lore tablet forge | left entrance | open airlock left |  | Verified | lore | ✓ |  |
 | 8 | gate switch forge | forge daughter | none |  | Verified | switch | ✓ |  |
 | 9 | Shard Bundle Wall | left entrance | Break Wall Left |  | Verified | blockade | ✓ |  |
-| 10 | Forge Battle | gauntlet | Nothing. |  | Verified | gauntlet | ✓ |  |
+| 10 | Forge Battle | gauntlet | Combat Requirements |  | Verified | gauntlet | ✓ |  |
 | 11 | Forge bench | forge daughter | Nothing. |  | Verified | bench | ✓ |  |
 | 12 | Ballow Move to Control Room | forge daughter | Act 3 |  | Verified | event | ✓ |  |
 | 13 | Smokerock Sifter 1 |  |  |  |  | enemy | ✓ |  |

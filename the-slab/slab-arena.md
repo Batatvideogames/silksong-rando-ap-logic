@@ -53,7 +53,7 @@
 | 1 | Key of Heretic | Arena | defeat gauntlet fight |  | Verified | collectible | ✓ |  |
 | 2 | Bench Upper | Bench | none |  | Verified | bench | ✓ |  |
 | 3 | Bench Lower | Mid | none |  | Verified | bench | ✓ |  |
-| 4 | Gauntlet Fight | Arena | none |  | Verified | gauntlet |  |  |
+| 4 | Gauntlet Fight | Arena | Combat Requirements |  | Verified | gauntlet |  |  |
 | 5 | Wardenfly 1 | Arena | none |  | Verified | enemy | ✓ | FSM Boolean flags: defeatedBroodMother, slab_cloak_battle_completed |
 | 6 | Wardenfly 2 | Arena | none |  | Verified | enemy | ✓ | FSM Boolean flags: defeatedBroodMother, slab_cloak_battle_completed |
 | 7 | Guardfly 1 | Arena | none |  | Verified | enemy | ✓ | FSM Boolean flags: defeatedBroodMother, slab_cloak_battle_completed |

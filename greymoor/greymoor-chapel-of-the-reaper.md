@@ -34,7 +34,7 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Crest: Reaper | upper area | ledge grab OR cling grip OR faydown cloak OR silk soar |  | Verified | collectible | ✓ |  |
-| 2 | Chapel of the Reaper Gauntlet | gauntlet room | nothing |  | Verified | gauntlet | ✓ |  |
+| 2 | Chapel of the Reaper Gauntlet | gauntlet room | Combat Requirements |  | Verified | gauntlet | ✓ |  |
 | 3 | gauntlet airlock | entrance section | hit lever right OR hit lever left OR hit lever up |  | Verified | blockade | ✓ |  |
 | 4 | tied platform | upper area | break vines left OR break vines up OR break vines right |  | Verified | blockade | ✓ |  |
 | 5 | Silk Snipper 1 |  |  |  |  | enemy | ✓ |  |

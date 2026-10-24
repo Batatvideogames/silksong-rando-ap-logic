@@ -25,18 +25,18 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| S1 | Lower Shaft | Weaver Lore Ledge | Lower Right Ledge | Faydown Cloak OR Cling Grip OR Scuttlebrace |  | Verified | ✓ |  |
-| S1 | Lower Shaft | Lower Right Ledge | Weaver Lore Ledge | None |  | Verified | ✓ |  |
-| S2 | Central Shaft | Lower Right Ledge | Map Ledge | Cling Grip OR Scuttlebrace |  | Verified | ✓ |  |
-| S2 | Central Shaft | Map Ledge | Lower Right Ledge | None |  | Verified | ✓ |  |
-| S3 | Upper Shaft | Map Ledge | Upper Right Ledge | Cling Grip OR Scuttlebrace |  | Verified | ✓ |  |
-| S3 | Upper Shaft | Upper Right Ledge | Map Ledge | None |  | Verified | ✓ |  |
+| S1 | Lower Shaft | Weaver Lore Ledge | Lower Right Ledge | Faydown Cloak OR Cling Grip  either OR Scuttlebrace OR ( Silk Soar AND proficient movement (Uses that quick map to not fall off edge ) ) |  | Verified |  |  |
+| S1 | Lower Shaft | Lower Right Ledge | Weaver Lore Ledge | None |  | Verified |  |  |
+| S2 | Central Shaft | Lower Right Ledge | Map Ledge | Cling Grip either OR Scuttlebrace OR ( Silk Soar AND proficient movement (Uses that quick map to not fall off edge ) ) |  | Verified |  |  |
+| S2 | Central Shaft | Map Ledge | Lower Right Ledge | None |  | Verified |  |  |
+| S3 | Upper Shaft | Map Ledge | Upper Right Ledge | Cling Grip either OR Scuttlebrace OR ( Silk Soar AND proficient movement (Uses that quick map to not fall off edge ) ) |  | Verified |  |  |
+| S3 | Upper Shaft | Upper Right Ledge | Map Ledge | None |  | Verified |  |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Map: Cradle | Map Ledge | None |  | Verified | collectible |  |  |
+| 1 | Map: Cradle | Map Ledge | None |  | Verified | collectible | ✓ |  |
 
 ## Room Images
 

@@ -46,7 +46,7 @@
 | 1 | Clawline Pickup | Clawline Statue | Nothing. |  | Verified | collectible | ✓ |  |
 | 2 | Underworks: Shard Bundle #2 | Shard Bundle Check | Nothing. |  | Verified | collectible | ✓ |  |
 | 3 | Clawline Ring | Arena | Clawline |  | Verified | switch | ✓ |  |
-| 4 | Underworks Clawline Gauntlet | Arena | Activate Clawline Ring |  | Verified | gauntlet | ✓ |  |
+| 4 | Underworks Clawline Gauntlet | Arena | Activate Clawline Ring AND Combat Requirements |  | Verified | gauntlet | ✓ |  |
 | 5 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Notes

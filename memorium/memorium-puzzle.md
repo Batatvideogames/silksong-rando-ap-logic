@@ -1,4 +1,4 @@
-# Memorium puzzle (Arborium_10)
+# Memorium Puzzle (Arborium_10)
 
 **Game ID:** Arborium_10
 
@@ -34,12 +34,12 @@ cling grip OR faydown cloak OR (silk soar AND silkhearts 1)
 
 ### Connections
 
-[![Connections for Memorium puzzle (Arborium_10)](../00-annotations/memorium/memorium-puzzle-connections.png)](../00-annotations/memorium/memorium-puzzle-connections.png)
+[![Connections for Memorium Puzzle (Arborium_10)](../00-annotations/memorium/memorium-puzzle-connections.png)](../00-annotations/memorium/memorium-puzzle-connections.png)
 
 ### Checks
 
-[![Checks for Memorium puzzle (Arborium_10)](../00-annotations/memorium/memorium-puzzle-checks.png)](../00-annotations/memorium/memorium-puzzle-checks.png)
+[![Checks for Memorium Puzzle (Arborium_10)](../00-annotations/memorium/memorium-puzzle-checks.png)](../00-annotations/memorium/memorium-puzzle-checks.png)
 
 ### Scene
 
-[![Scene for Memorium puzzle (Arborium_10)](../00-annotations/memorium/memorium-puzzle-scene.png)](../00-annotations/memorium/memorium-puzzle-scene.png)
+[![Scene for Memorium Puzzle (Arborium_10)](../00-annotations/memorium/memorium-puzzle-scene.png)](../00-annotations/memorium/memorium-puzzle-scene.png)

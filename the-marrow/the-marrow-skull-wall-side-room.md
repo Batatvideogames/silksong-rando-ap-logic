@@ -29,7 +29,7 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | the marrow pilgrim diary | lower level | none |  | Verified | lore | ✓ |  |
-| 2 | gauntlet fight | upper level | have cling grip |  | Verified | gauntlet | ✓ |  |
+| 2 | gauntlet fight | upper level | have cling grip AND Combat Requirements |  | Verified | gauntlet | ✓ |  |
 | 3 | the marrow memory locket | upper level | defeat gauntlet fight |  | Verified | collectible | ✓ |  |
 | 4 | Elder Pilgrim 1 | upper level | Normal World Spawn AND prereq gauntlet fight |  | Verified | enemy | ✓ |  |
 | 5 | Winged Pilgrim 1 | upper level | Normal World Spawn AND prereq gauntlet fight |  | Verified | enemy | ✓ |  |

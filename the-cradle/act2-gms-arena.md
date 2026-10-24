@@ -23,11 +23,11 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| P1 | Platforms 1 | Bottom | Shell Shard Ledge | Silk Soar OR ( Cling Grip AND ( Dash OR Clawline OR Faydown Cloak OR Sharpdart ) ) |  | Verified |  |  |
+| P1 | Platforms 1 | Bottom | Shell Shard Ledge | Silk Soar OR ( Cling Grip both AND ( Dash left OR Clawline left OR Faydown Cloak OR Sharpdart ) ) |  | Verified |  |  |
 | P1 | Platforms 1 | Shell Shard Ledge | Bottom | None |  | Verified |  |  |
-| P2 | Platforms 2 | Shell Shard Ledge | Arena | Silk Soar OR ( Cling Grip AND ( Dash OR Clawline OR Sharpdart ) ) OR Faydown Cloak |  | Verified |  |  |
+| P2 | Platforms 2 | Shell Shard Ledge | Arena | Silk Soar OR ( Cling Grip both AND ( Dash left OR Clawline left OR Sharpdart ) ) OR Faydown Cloak |  | Verified |  |  |
 | P2 | Platforms 2 | Arena | Shell Shard Ledge | None |  | Verified |  |  |
-| P3 | Platforms 3 | Bottom | Arena | Silk Soar OR ( Cling Grip AND ( Dash OR Clawline OR Faydown Cloak OR Sharpdart ) ) |  | Verified |  |  |
+| P3 | Platforms 3 | Bottom | Arena | Silk Soar OR ( Cling Grip both  AND ( Dash left OR Clawline left OR Faydown Cloak OR Sharpdart ) ) |  | Verified |  |  |
 | P3 | Platforms 3 | Arena | Bottom | None |  | Verified |  |  |
 
 ## Check Locations

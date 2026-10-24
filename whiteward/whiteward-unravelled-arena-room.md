@@ -40,7 +40,7 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | The Unravelled - Silk Heart | Unravelled Arena | Defeat Boss: The Unravelled |  | Verified | collectible | ✓ |  |
-| 2 | The Unravelled Gauntlet | Unravelled Arena | Nothing |  | Verified | gauntlet | ✓ |  |
+| 2 | The Unravelled Gauntlet | Unravelled Arena | Combat Requirements |  | Verified | gauntlet | ✓ |  |
 | 3 | Boss: The Unravelled | Unravelled Arena | Defeat The Unravelled Gauntlet AND Combat Requirements |  | Verified | boss | ✓ |  |
 | 4 | Dreg Husk 1 | Unravelled Arena | none |  | Verified | enemy | ✓ | Defeat Unravelled Gauntlet = false |
 | 5 | Dregwheel 1 | Unravelled Arena | none |  | Verified | enemy | ✓ | Defeat Unravelled Gauntlet = false |

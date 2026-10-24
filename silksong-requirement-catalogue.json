@@ -523,13 +523,13 @@
     },
     {
       "id": "46f3f155-b9dd-4df4-99ee-c124452abc02",
-      "name": "Silkhearts (w/ Quantity)",
+      "name": "Silk Hearts (w/ Quantity)",
       "category": "Count",
       "inputSyntax": "{predicate} {quantity}",
-      "outputSyntax": "count:silkhearts:{quantity}",
+      "outputSyntax": "count:silk-hearts:{quantity}",
       "notes": "",
       "sortOrder": 52,
-      "aliases": "silkhearts x"
+      "aliases": "silkhearts x, silk hearts x"
     },
     {
       "id": "6ccc5e48-bb32-5dba-8bf3-ec93411d2c36",
@@ -866,7 +866,7 @@
       "name": "Entrance Randomizer Off",
       "category": "Setting",
       "inputSyntax": "{predicate}",
-      "outputSyntax": "entrance randomizer off",
+      "outputSyntax": "setting:entrance-randomizer-off",
       "notes": "",
       "sortOrder": 86,
       "aliases": "entrance randomizer off"

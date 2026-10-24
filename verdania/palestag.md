@@ -34,7 +34,7 @@
 | 3 | Verdania Essence 5 | Arena | prereq palestag |  | Verified | collectible | ✓ |  |
 | 4 | Verdania Essence 6 | Arena | prereq palestag |  | Verified | collectible | ✓ |  |
 | 5 | Verdania Essence 7 | Arena | prereq palestag |  | Verified | collectible | ✓ |  |
-| 6 | Palestag | Arena | None |  | Verified | boss | ✓ |  |
+| 6 | Palestag | Arena | Combat Requirements |  | Verified | boss | ✓ |  |
 | 7 | Nuphar 1 | Arena | Invalid |  | Verified | enemy | ✓ | never killable |
 | 8 | Nuphar 2 | Arena | invalid |  | Verified | enemy | ✓ | never killable |
 

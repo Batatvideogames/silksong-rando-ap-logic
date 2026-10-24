@@ -22,10 +22,10 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| EJ | Electric Jumps | Start | Centre | ( Cling grip OR ( ( Dash AND Scuttlebrace ) AND ( Dash OR Clawline OR Drifters Cloak OR Faydown Cloak OR Sharpdart ) ) ) |  | Verified | ✓ |  |
-| EJ | Electric Jumps | Centre | Start | ( Cling grip OR ( ( Dash AND Scuttlebrace ) AND ( Dash OR Clawline OR Drifters Cloak OR Faydown Cloak OR Sharpdart ) ) ) |  | Verified | ✓ |  |
+| EJ | Electric Jumps | Start | Centre | ( Cling grip Right OR ( Scuttlebrace AND ( Dash right OR Clawline right OR Drifters Cloak OR Faydown Cloak OR Sharpdart ) ) ) |  | Verified | ✓ |  |
+| EJ | Electric Jumps | Centre | Start | ( Cling grip either OR ( Scuttlebrace AND ( Dash left OR Clawline left OR Drifters Cloak OR Faydown Cloak OR Sharpdart ) ) ) |  | Verified | ✓ |  |
 | BD | Big Drop | Centre | Bottom | None |  | Verified | ✓ |  |
-| CB | Climb back | Bottom | Centre | Cling Grip AND ( Faydown Cloak OR ( Silk Soar AND ( ( Dash AND Ledge grab ) OR Clawline OR easy Beast Crest pogo OR Sharpdart OR Drifters Cloak ) ) ) |  | Verified | ✓ |  |
+| CB | Climb back | Bottom | Centre | Cling Grip both AND ( Faydown Cloak OR ( Silk Soar AND ( ( Dash both AND Ledge grab left ) OR easy Beast Crest pogo OR Sharpdart OR Drifters Cloak ) ) ) |  | Verified | ✓ |  |
 
 ## Check Locations
 

@@ -8,8 +8,8 @@
 
 | No. | Subroom | Annotated |
 | --- | --- | --- |
-| S1 | Surface Path |  |
-| S2 | Flower Bed |  |
+| S1 | Surface Path | ✓ |
+| S2 | Flower Bed | ✓ |
 
 ## Room Transitions
 
