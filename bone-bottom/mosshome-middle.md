@@ -26,8 +26,8 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| RJ | running jump | middle left area | upper right area | faydown cloak  OR ( ( ledge grab OR cling grip ) AND ( run OR sharpdart OR clawline ) ) |  | Verified | ✓ |  |
-| RJ | running jump | upper right area | middle left area | run  OR dash OR clawline OR faydown OR drifters OR sharpdart OR easy beast pogo OR scuttlebrace |  | Verified | ✓ |  |
+| RJ | running jump | middle left area | upper right area | faydown cloak  OR ( ( ledge grab OR cling grip ) AND ( run OR sharpdart OR clawline right ) ) |  | Verified | ✓ |  |
+| RJ | running jump | upper right area | middle left area | run  OR dash OR clawline left OR faydown OR drifters OR sharpdart OR easy beast pogo OR scuttlebrace |  | Verified | ✓ |  |
 | V1 | vertical 1 | ground floor | upper right area | silk soar |  | Verified | ✓ |  |
 | V1 | vertical 1 | upper right area | ground floor | none (falling) |  | Verified | ✓ |  |
 | LG1 | ledge grab 1 | ground floor | middle left area | ledge grab  OR cling grip  OR faydown OR silk soar OR easy shaman pogo |  | Verified | ✓ |  |

@@ -40,13 +40,13 @@
 | F1 | Fall 1 | upper path right | middle section right | none (just fall) |  | Verified | ✓ |  |
 | BG | Big Gap | middle section right | middle section left | progressive swift step 1 left AND clawline left x 5 AND drifters cloak AND faydown cloak |  | Verified | ✓ |  |
 | BG | Big Gap | middle section left | middle section right | progressive swift step 1 right AND clawline right x 5 AND drifters cloak AND faydown cloak |  | Verified | ✓ |  |
-| G1 | Gap 1 | upper path right | upper path middle | faydown cloak OR drifters cloak OR flea brew OR progressive swift step 1 left OR clawline left x 1 OR sharpdart x 1 OR medium scuttlebrace OR silk soar OR easy beast pogo OR easy architect needle strike OR easy wanderer needle strike |  | Verified | ✓ |  |
+| G1 | Gap 1 | upper path right | upper path middle | faydown cloak OR drifters cloak OR flea brew OR progressive swift step 1 left OR clawline left x 1 OR sharpdart x 1 OR medium scuttlebrace OR silk soar OR easy beast pogo OR easy [architect, wanderer] needle strike |  | Verified | ✓ |  |
 | G1 | Gap 1 | upper path middle | upper path right | nothing |  | Verified | ✓ |  |
 | F2 | Fall 2 | middle section left | main path | none (just fall) |  | Verified | ✓ |  |
 | F2 | Fall 2 | main path | middle section left | silk soar |  | Verified | ✓ |  |
-| G2 | gap 2 | upper path left | upper path middle | silk soar OR progressive swift step 1 right OR sharpdart x 2 OR clawline right x 2 OR faydown cloak OR ledge grab right OR easy beast pogo OR easy architect needle strike OR (hard enemy pogo AND prereq craw 1) |  | Verified | ✓ |  |
+| G2 | gap 2 | upper path left | upper path middle | silk soar OR progressive swift step 1 right OR sharpdart x 2 OR clawline right x 2 OR faydown cloak OR ledge grab right OR easy beast pogo OR easy architect needle strike OR hard pogo off craw |  | Verified | ✓ |  |
 | G2 | gap 2 | upper path middle | upper path left | nothing |  | Verified | ✓ |  |
-| G3 | gap 3 | upper path left | left exit platform | Ledge grab left OR cling grip left OR (medium enemy pogo AND prereq craw 1) OR faydown cloak OR medium scuttlebrace OR (progressive swift step 1 left AND (clawline left x 1 OR sharpdart x 1)) OR silk soar |  | Verified | ✓ |  |
+| G3 | gap 3 | upper path left | left exit platform | Ledge grab left OR cling grip left OR medium pogo off craw OR faydown cloak OR medium scuttlebrace OR (progressive swift step 1 left AND (clawline left x 1 OR sharpdart x 1)) OR silk soar |  | Verified | ✓ |  |
 | G3 | gap 3 | left exit platform | upper path left | nothing |  | Verified | ✓ |  |
 | G4 | gap 4 | right exit platform | upper path right | progressive swift step 1 OR flea brew OR ledge grab left OR clawline left x 1 OR sharpdart x 1 OR drifters cloak OR faydown cloak OR silk soar OR easy [hunter, reaper, beast, architect, witch, shaman] crest pogo OR easy wanderer needle strike |  | Verified | ✓ |  |
 | G4 | gap 4 | upper path right | right exit platform | cling grip right OR progressive swift step 1 right OR faydown cloak OR silk soar OR clawline right x 3 OR sharpdart x 3 OR ((drifters cloak OR clawline right x 1 OR sharpdart x 1) AND ledge grab right) |  | Verified | ✓ |  |

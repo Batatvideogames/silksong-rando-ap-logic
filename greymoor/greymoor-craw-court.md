@@ -16,7 +16,7 @@
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| T | top1 | entrance | [Greymoor Craw Nest (Room_CrowCourt)](greymoor-craw-nest.md) | b | cling grip OR scuttlebrace |  | Verified | ✓ |  |
+| T | top1 | entrance | [Greymoor Craw Nest (Room_CrowCourt)](greymoor-craw-nest.md) | b | cling grip either OR easy scuttlebrace |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
@@ -26,7 +26,7 @@
 | D | drop | the court | entrance | defeat Crow Father AND silk soar |  | Verified | ✓ |  |
 | MD | metal door | the court | left shaft | defeat Crow Father |  | Verified | ✓ |  |
 | MD | metal door | left shaft | the court | defeat Crow Father |  | Verified | ✓ |  |
-| W | wall | left shaft | entrance | clear wood wall AND (cling grip OR (easy scuttlebrace AND (ledge grab OR faydown cloak OR clawline))) |  | Verified | ✓ |  |
+| W | wall | left shaft | entrance | clear wood wall |  | Verified | ✓ |  |
 | W | wall | entrance | left shaft | clear wood wall |  | Verified | ✓ |  |
 
 ## Check Locations
@@ -35,26 +35,25 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Crow Father | the court | Combat Requirements |  | Verified | boss | ✓ |  |
 | 2 | craw memento | the court | defeat Crow Father |  | Verified | collectible | ✓ |  |
-| 3 | Greymoor - craw court rosary vault stash | left shaft | cling grip OR (easy scuttlebrace AND (ledge grab OR faydown cloak OR clawline OR easy beast pogo)) |  | Verified | resource | ✓ |  |
-| 4 | Greymoor - the other craw court rosary vault stash | left shaft | cling grip OR (easy scuttlebrace AND (ledge grab OR faydown cloak OR clawline OR easy beast pogo)) |  | Verified | resource | ✓ |  |
-| 5 | Greymoor - the final craw court rosary vault stash | left shaft | cling grip OR (easy scuttlebrace AND (ledge grab OR faydown cloak OR clawline OR easy beast pogo)) |  | Verified | resource | ✓ |  |
-| 6 | Crow bell | left shaft | cling grip OR (easy scuttlebrace AND (ledge grab OR faydown cloak OR clawline OR easy beast pogo)) |  | Verified | collectible | ✓ |  |
-| 7 | wood wall | left shaft | break wall right OR break wall up |  | Verified | blockade | ✓ |  |
-| 8 | Tallcraw Juror 1 |  |  |  |  | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
-| 9 | Squatcraw Juror 1 |  |  |  |  | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
-| 10 | Tallcraw Juror 2 |  |  |  |  | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
-| 11 | Tallcraw Juror 3 |  |  |  |  | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
-| 12 | Craw Juror 1 |  |  |  |  | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
-| 13 | Craw Juror 2 |  |  |  |  | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
-| 14 | Squatcraw Juror 2 |  |  |  |  | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
-| 15 | Squatcraw Juror 3 |  |  |  |  | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
-| 16 | Craw Juror 3 |  |  |  |  | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
-| 17 | Craw Juror 4 |  |  |  |  | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
-| 18 | Crawfather 1 |  |  |  |  | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
-| 19 | Tallcraw Juror 4 |  |  |  |  | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
-| 20 | Squatcraw Juror 4 |  |  |  |  | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
-| 21 | Craw Juror 5 |  |  |  |  | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
-| 22 | Craw Juror 6 |  |  |  |  | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
+| 3 | Greymoor - craw court rosary vault stash | left shaft | cling grip either OR (easy scuttlebrace AND (ledge grab right OR faydown cloak OR clawline right x 1 OR easy beast pogo)) |  | Verified | resource | ✓ |  |
+| 4 | Greymoor - the other craw court rosary vault stash | left shaft | cling grip either OR (easy scuttlebrace AND (ledge grab right OR faydown cloak OR clawline right x 1 OR easy beast pogo)) |  | Verified | resource | ✓ |  |
+| 5 | Greymoor - the final craw court rosary vault stash | left shaft | cling grip either OR (easy scuttlebrace AND (ledge grab right OR faydown cloak OR clawline right x 1 OR easy beast pogo)) |  | Verified | resource | ✓ |  |
+| 6 | Crow bell | left shaft | cling grip either OR (easy scuttlebrace AND (ledge grab right OR faydown cloak OR clawline right x 1 OR easy beast pogo)) |  | Verified | collectible | ✓ |  |
+| 7 | wood wall | left shaft | (break wall right OR break wall up) AND (cling grip either OR (easy scuttlebrace AND (ledge grab right OR faydown cloak OR clawline right x 1 OR easy beast pogo))) |  | Verified | blockade | ✓ |  |
+| 8 | Tallcraw Juror 1 | the court | nothing |  | Verified | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
+| 9 | Squatcraw Juror 1 | the court | nothing |  | Verified | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
+| 10 | Tallcraw Juror 2 | the court | nothing |  | Verified | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
+| 11 | Tallcraw Juror 3 | the court | nothing |  | Verified | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
+| 12 | Craw Juror 1 | the court | nothing |  | Verified | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
+| 13 | Craw Juror 2 | the court | nothing |  | Verified | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
+| 14 | Squatcraw Juror 2 | the court | nothing |  | Verified | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
+| 15 | Squatcraw Juror 3 | the court | nothing |  | Verified | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
+| 16 | Craw Juror 3 | the court | nothing |  | Verified | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
+| 17 | Craw Juror 4 | the court | nothing |  | Verified | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
+| 18 | Tallcraw Juror 4 | the court | nothing |  | Verified | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
+| 19 | Squatcraw Juror 4 | the court | nothing |  | Verified | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
+| 20 | Craw Juror 5 | the court | nothing |  | Verified | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
+| 21 | Craw Juror 6 | the court | nothing |  | Verified | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
 
 ## Room Images
 

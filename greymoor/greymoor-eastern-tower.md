@@ -32,13 +32,13 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | F1 | fall 1 | arena encounter | lower airstream section | silk soar |  | Verified | ✓ |  |
 | F1 | fall 1 | lower airstream section | arena encounter | nothing (just fall) |  | Verified | ✓ |  |
-| S1 | shaft 1 | lower airstream section | middle section | silk soar OR (activate lower airstream AND drifters cloak) OR (easy enemy pogo AND prereq fluttermite 1 AND (faydown cloak OR ledge grab left OR ledge grab right)) |  | Verified | ✓ |  |
+| S1 | shaft 1 | lower airstream section | middle section | silk soar OR (activate lower airstream AND drifters cloak) OR (easy pogo off fluttermite AND (faydown cloak OR ledge grab left OR ledge grab right)) |  | Verified | ✓ |  |
 | S1 | shaft 1 | middle section | lower airstream section | nothing (just fall) |  | Verified | ✓ |  |
 | S2 | shaft 2 | middle section | upper section | silk soar OR (drifters cloak  AND (activate lower airstream OR (faydown cloak AND (ledge grab right OR cling grip right OR easy scuttlebrace))) AND activate middle airstream) |  | Verified | ✓ |  |
 | S2 | shaft 2 | upper section | middle section | nothing (just fall) |  | Verified | ✓ |  |
 | PG1 | platform gap 1 | upper section | upper airstream section | nothing (just fall) |  | Verified | ✓ |  |
-| PG1 | platform gap 1 | upper airstream section | upper section | ledge grab right OR cling grip right OR faydown cloak OR silk soar OR (medium enemy pogo AND prereq silk snipper 1) |  | Verified | ✓ |  |
-| S3 | shaft 3 | upper section | tower top | (proficient movement AND spike pogo) OR silk soar OR ((drifters cloak AND (spike pogo OR ledge grab left OR (proficient movement AND progressive swift step 2 left) OR faydown cloak OR cling grip left)) AND activate upper airstream) |  | Verified | ✓ |  |
+| PG1 | platform gap 1 | upper airstream section | upper section | ledge grab right OR cling grip right OR faydown cloak OR silk soar OR (medium pogo off silk snipper) |  | Verified | ✓ |  |
+| S3 | shaft 3 | upper section | tower top | (proficient movement AND spike pogo) OR silk soar OR ((drifters cloak AND (spike pogo OR ledge grab left OR faydown cloak OR cling grip left)) AND activate upper airstream) |  | Verified | ✓ |  |
 | S3 | shaft 3 | tower top | upper section | none (just fall) |  | Verified | ✓ |  |
 | F2 | fall 2 | arena encounter | silly platform | (easy shaman pogo AND ledge grab left) OR silk soar |  | Verified | ✓ |  |
 | F2 | fall 2 | silly platform | arena encounter | nothing |  | Verified | ✓ |  |

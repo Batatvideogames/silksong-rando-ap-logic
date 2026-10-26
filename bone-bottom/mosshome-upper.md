@@ -29,8 +29,8 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | RS | right silk blockade | center platforms | ground right | break silk blockade |  | Verified | ✓ |  |
 | RS | right silk blockade | ground right | center platforms | break silk blockade |  | Verified | ✓ |  |
-| GL | left ground crossing | ground left | center platforms | ledge grab OR spike pogo OR run OR dash OR faydown OR drifters OR clawline OR sharpdart OR easy beast pogo OR easy architect charge |  | Verified | ✓ | platform above spikes make this way more complicated than it should |
-| GL | left ground crossing | center platforms | ground left | ledge grab OR spike pogo OR run OR dash OR faydown OR drifters OR clawline OR sharpdart OR easy beast pogo OR easy architect charge |  | Verified | ✓ |  |
+| GL | left ground crossing | ground left | center platforms | ledge grab OR spike pogo OR run OR dash OR faydown OR drifters OR clawline right OR sharpdart OR easy beast pogo OR easy architect charge |  | Verified | ✓ | platform above spikes make this way more complicated than it should |
+| GL | left ground crossing | center platforms | ground left | ledge grab OR spike pogo OR run OR dash OR faydown OR drifters OR clawline left OR sharpdart OR easy beast pogo OR easy architect charge |  | Verified | ✓ |  |
 | LS | left silk blockade | spire platforms | silkspear passage | break silk blockade |  | Verified | ✓ |  |
 | LS | left silk blockade | silkspear passage | spire platforms | break silk blockade |  | Verified | ✓ |  |
 | RB | rope barrier | silkspear passage | ground left | clear rope platform blockade |  | Verified | ✓ |  |

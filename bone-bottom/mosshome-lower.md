@@ -28,7 +28,7 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| RJ | running jump | upper right level | upper left exit | run  OR ( dash AND ( ledge grab OR cling grip ) ) OR faydown  OR silk soar  OR clawline  OR sharpdart  OR easy beast pogo  OR easy enemy pogo |  | Verified | ✓ |  |
+| RJ | running jump | upper right level | upper left exit | run  OR ( dash AND ( ledge grab OR cling grip ) ) OR faydown  OR silk soar  OR clawline left OR sharpdart  OR easy beast pogo  OR easy enemy pogo |  | Verified | ✓ |  |
 | RJ | running jump | upper left exit | upper right level | none (falling) |  | Verified | ✓ |  |
 | LG1 | ledge grab 1 | ground floor | rosary alcove | ledge grab  OR faydown cloak OR silk soar OR cling grip OR scuttlebrace OR easy shaman pogo |  | Verified | ✓ |  |
 | LG1 | ledge grab 1 | rosary alcove | ground floor | none (falling) |  | Verified | ✓ |  |

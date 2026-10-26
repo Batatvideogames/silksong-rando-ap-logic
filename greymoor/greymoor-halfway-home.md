@@ -24,7 +24,7 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Halfwat Home - Memory Locket |  | silk soar OR (faydown cloak AND (ledge grab left OR cling grip left)) |  | Verified | collectible | ✓ |  |
+| 1 | Halfwat Home - Memory Locket |  | silk soar OR (faydown cloak AND (ledge grab left OR cling grip left OR easy beast needle strike OR proficient movement)) |  | Verified | collectible | ✓ |  |
 | 2 | Bugs of Pharloom - Tool Pouch |  | complete Wish: Bugs of Pharloom |  | Verified | event | ✓ |  |
 | 3 | Greymoor - Nuu's Scrolls |  | silk soar OR faydown cloak OR ledge grab both OR cling grip both |  | Verified | lore | ✓ | Nuu must not be present in halfway home, according to the wiki she has a 50% chance to not appear but its garanteed that she leaves after certain bosses are defeated: the Skull Tyrant in the Marrow, one of the Great Conchflies in Blasted Steps, Sister Splinter in Shellwood, and Voltvyrm in Voltnest |
 | 4 | Wish: Bugs of Pharloom |  | silk soar OR faydown cloak OR ledge grab both OR cling grip both |  | Verified | event | ✓ |  |

@@ -53,23 +53,23 @@
 | UU | up upper | craw gang hangout place | bridge section | none (fall) |  | Verified | ✓ |  |
 | BU | balloon up | bridge section | lone crow platform | nothing |  | Verified | ✓ |  |
 | BU | balloon up | lone crow platform | bridge section | none (fall) |  | Verified | ✓ |  |
-| G2 | gap 2 | lone crow platform | craw gang hangout place | silk soar OR faydown cloak OR (hard enemy pogo AND prereq Tallcraw 1) OR clawline right x 1 OR sharpdart x 1 OR progressive swift step 2 right OR drifters cloak |  | Verified | ✓ |  |
+| G2 | gap 2 | lone crow platform | craw gang hangout place | silk soar OR faydown cloak OR hard pogo off tallcraw OR clawline right x 1 OR sharpdart x 1 OR progressive swift step 2 right OR drifters cloak |  | Verified | ✓ |  |
 | G2 | gap 2 | craw gang hangout place | lone crow platform | nothing |  | Verified | ✓ |  |
 | S1 | shaft 1 | craw gang hangout place | top right | silk soar OR (cling grip right AND proficient movement AND spike pogo) |  | Verified | ✓ |  |
 | S1 | shaft 1 | top right | craw gang hangout place | nada |  | Verified | ✓ |  |
-| PG1 | platform gap | upper craw nest | top left | silk soar OR faydown cloak OR (hard enemy pogo AND (prereq craw 1 OR prereq squatcraw 1)) |  | Verified | ✓ |  |
+| PG1 | platform gap | upper craw nest | top left | silk soar OR faydown cloak OR (hard pogo off craw OR hard pogo off squatcraw) |  | Verified | ✓ |  |
 | PG1 | platform gap | top left | upper craw nest | nothing |  | Verified | ✓ |  |
 | G3 | gap 3 | top left | top right | faydown cloak OR (ledge grab right AND (clawline right x 1 OR progressive swift step 1 right OR sharpdart x 1)) |  | Verified | ✓ |  |
 | G3 | gap 3 | top right | top left | nothing |  | Verified | ✓ |  |
 | B | blockade | top right | hidden exit | break wall right OR break wall up |  | Verified | ✓ |  |
 | B | blockade | hidden exit | top right | break wall left OR break wall up |  | Verified | ✓ |  |
-| S2 | shaft 2 | stupid platform | top right | silk soar OR (cling grip right AND (progressive swift step 1 right OR clawline right x 1 OR sharpdart x 1 OR drifters cloak OR (medium enemy pogo AND (prereq craw 1 OR prereq squatcraw 1)))) |  | Verified | ✓ |  |
+| S2 | shaft 2 | stupid platform | top right | silk soar OR (cling grip right AND (progressive swift step 1 right OR clawline right x 1 OR sharpdart x 1 OR drifters cloak OR (medium pogo off craw OR medium pogo off squatcraw))) |  | Verified | ✓ |  |
 | S2 | shaft 2 | top right | stupid platform | nothing |  | Verified | ✓ |  |
-| PG2 | platform gap 2 | craw gang hangout place | upper craw nest | silk soar OR faydown cloak OR cling grip right OR (ledge grab left AND (cling grip left OR easy shaman pogo)) OR (medium enemy pogo AND (prereq craw 1 OR prereq squatcraw 1)) |  | Verified | ✓ |  |
+| PG2 | platform gap 2 | craw gang hangout place | upper craw nest | silk soar OR faydown cloak OR cling grip right OR (ledge grab left AND (cling grip left OR easy shaman pogo)) OR (medium pogo off craw OR medium pogo off squatcraw) |  | Verified | ✓ |  |
 | PG2 | platform gap 2 | upper craw nest | craw gang hangout place | nothing |  | Verified | ✓ |  |
 | G4 | gap 4 | upper craw nest | stupid platform | nothing |  | Verified | ✓ |  |
-| G4 | gap 4 | stupid platform | upper craw nest | progressive swift step 1 left OR clawline left x 1 OR sharpdart x 1 OR faydown cloak OR easy beast pogo OR cling grip left OR easy architect pogo OR easy reaper pogo OR easy shaman pogo OR easy hunter pogo OR (medium enemy pogo AND prereq craw 1) OR flea brew OR drifters cloak OR silk soar |  | Verified | ✓ |  |
-| SF | stupid fall | craw gang hangout place | stupid platform | silk soar |  | Verified | ✓ | add a enemy pogo using cbt i guess |
+| G4 | gap 4 | stupid platform | upper craw nest | progressive swift step 1 left OR clawline left x 1 OR sharpdart x 1 OR faydown cloak OR easy [beast, architect, reaper, shaman, hunter] pogo OR cling grip left OR (medium pogo off craw) OR flea brew OR drifters cloak OR silk soar |  | Verified | ✓ |  |
+| SF | stupid fall | craw gang hangout place | stupid platform | silk soar OR cbt pogo off squatcraw |  | Verified | ✓ |  |
 | SF | stupid fall | stupid platform | craw gang hangout place | nothing |  | Verified | ✓ |  |
 
 ## Check Locations

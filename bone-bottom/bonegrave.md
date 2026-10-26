@@ -35,15 +35,15 @@
 | RV2 | right vertical 2 | middle right platform | door platform | none (falling) |  | Verified | ✓ |  |
 | BW | breakable wall | upper left exit | upper right exit | clear wormways access breakable wall |  | Verified | ✓ |  |
 | BW | breakable wall | upper right exit | upper left exit | clear wormways access breakable wall |  | Verified | ✓ |  |
-| PG | pond gap | door platform | graveyard | swim OR run OR clawline OR drifters OR silk soar OR sharpdart OR ( faydown AND ( ledge grab OR easy beast pogo OR easy hunter pogo OR easy reaper pogo OR easy architect pogo OR easy shaman pogo ) ) |  | Verified | ✓ | A wide variety of stalls are likely to work with faydown here |
-| PG | pond gap | graveyard | door platform | silk soar  OR clawline  OR sharpdart OR ( ( ledge grab OR cling grip ) AND run AND dash ) OR ( faydown cloak AND ( run OR dash ) ) OR ( swim AND ( ledge grab OR cling grip OR faydown cloak ) ) |  | Verified | ✓ | A wide variety of stalls are likely to work here as well with ledge grab or faydown |
+| PG | pond gap | door platform | graveyard | swim OR run OR clawline left OR drifters OR silk soar OR sharpdart OR ( faydown AND ( ledge grab OR easy beast pogo OR easy hunter pogo OR easy reaper pogo OR easy architect pogo OR easy shaman pogo ) ) |  | Verified | ✓ | A wide variety of stalls are likely to work with faydown here |
+| PG | pond gap | graveyard | door platform | silk soar  OR clawline right  OR sharpdart OR ( ( ledge grab OR cling grip ) AND run AND dash ) OR ( faydown cloak AND ( run OR dash ) ) OR ( swim AND ( ledge grab OR cling grip OR faydown cloak ) ) |  | Verified | ✓ | A wide variety of stalls are likely to work here as well with ledge grab or faydown |
 | MF | middle vertical 1 | door platform | mossberry platform | silk soar |  | Verified | ✓ |  |
 | MF | middle vertical 1 | mossberry platform | door platform | none (falling) |  | Verified | ✓ |  |
 | G2M | graveyard to mossberry | graveyard | mossberry platform | silk soar OR ledge grab OR cling grip OR faydown cloak |  | Verified | ✓ |  |
 | G2M | graveyard to mossberry | mossberry platform | graveyard | none (falling) |  | Verified | ✓ |  |
-| M2M | mossberry to middle | mossberry platform | middle right platform | faydown  OR clawline OR ( ( ledge grab OR cling grip ) AND ( dash OR easy scuttlebrace OR easy beast pogo OR easy architect pogo OR easy hunter pogo OR sharpdart OR drifters ) ) |  | Verified | ✓ |  |
-| M2M | mossberry to middle | middle right platform | mossberry platform | clawline OR ( run AND dash AND ( sharpdart OR ( ledge grab AND faydown ) ) ) |  | Verified | ✓ |  |
-| USF | upper stall fall | upper right exit | mossberry platform | sharpdart  OR clawline  OR drifters  OR ( run AND dash ) OR ( faydown AND ( run OR dash ) ) |  | Verified | ✓ |  |
+| M2M | mossberry to middle | mossberry platform | middle right platform | faydown  OR clawline right OR ( ( ledge grab OR cling grip ) AND ( dash OR easy scuttlebrace OR easy beast pogo OR easy architect pogo OR easy hunter pogo OR sharpdart OR drifters ) ) |  | Verified | ✓ |  |
+| M2M | mossberry to middle | middle right platform | mossberry platform | clawline left OR ( run AND dash AND ( sharpdart OR ( ledge grab AND faydown ) ) ) |  | Verified | ✓ |  |
+| USF | upper stall fall | upper right exit | mossberry platform | sharpdart  OR clawline left OR drifters  OR ( run AND dash ) OR ( faydown AND ( run OR dash ) ) |  | Verified | ✓ |  |
 
 ## Check Locations
 

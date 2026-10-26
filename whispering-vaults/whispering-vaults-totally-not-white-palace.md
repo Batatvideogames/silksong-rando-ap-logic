@@ -30,14 +30,18 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| CS | Collect Shit | Up And Away | Collectibles(TM) | Silk Soar OR Cling Grip OR (Scuttlebrace AND Faydown Cloak) |  | Verified | ✓ |  |
+| CS | Collect Shit | Up And Away | Collectibles(TM) | Silk Soar OR Cling Grip Both OR (Faydown Cloak AND (Scuttlebrace OR Cling Grip Either)) |  | Verified | ✓ |  |
+| CS | Collect Shit | Collectibles(TM) | Up And Away | Nothing (Fall) |  | Verified | ✓ |  |
+| MC | More Collecting | Collectibles(TM) | Down We Go | Silk Soar OR Scuttlebrace OR Cling Grip |  | Verified | ✓ |  |
 | MC | More Collecting | Down We Go | Collectibles(TM) | Nothing (Fall) |  | Verified | ✓ |  |
 | NHA | NOT HIM AGAIN! | Collectibles(TM) | White Palace Lite | Activate Whispering Vaults: Clawline Ring AND (Clawline OR Faydown Cloak OR (Cling Grip AND Spike Pogo) OR (Cling Grip AND (Dash OR Drifter's Cloak))) |  | Verified | ✓ |  |
-| OH | GET ME OUTTA HERE!! | White Palace Lite | Sky High | (Activate Whispering Vaults: Flip Switch #2 AND Drifter's Cloak) OR Silk Soar OR Cling Grip OR (Scuttlebrace AND Faydown Cloak) |  | Verified | ✓ |  |
-| CS | Collect Shit | Collectibles(TM) | Up And Away | Silk Soar OR Scuttlebrace OR Cling Grip |  | Verified | ✓ |  |
-| MC | More Collecting | Collectibles(TM) | Down We Go | Nothing (Fall) |  | Verified | ✓ |  |
 | NHA | NOT HIM AGAIN! | White Palace Lite | Collectibles(TM) | Invalid |  | Verified | ✓ |  |
+| OH | GET ME OUTTA HERE!! | White Palace Lite | Sky High | (Activate Whispering Vaults: Flip Switch #2 AND Drifter's Cloak) OR Silk Soar OR Cling Grip OR (Scuttlebrace AND Faydown Cloak) |  | Verified | ✓ |  |
 | OH | GET ME OUTTA HERE!! | Sky High | White Palace Lite | Nothing (BIG fall.) |  | Verified | ✓ |  |
+| ET | Entrance Travel | Up And Away | Down We Go | Silk Soar OR Cling Grip Both OR (Faydown Cloak AND (Scuttlebrace OR Cling Grip Either)) |  | Verified | ✓ |  |
+| ET | Entrance Travel | Down We Go | Up And Away | Nothing (Fall) |  | Verified | ✓ |  |
+| CM | Collect More | Sky High | Collectibles 2(TM) | (Activate Whispering Vaults: Flip Switch #2 AND Drifter's Cloak) OR Silk Soar OR Cling Grip OR (Scuttlebrace AND Faydown Cloak) |  | Verified | ✓ |  |
+| CM | Collect More | Collectibles 2(TM) | Sky High | Nothing (Fall) |  | Verified | ✓ |  |
 
 ## Check Locations
 

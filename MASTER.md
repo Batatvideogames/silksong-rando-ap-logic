@@ -425,13 +425,13 @@ Ascend rope AND the ceiling are valid exits - but I believe they take you to the
 | CC | climb chapel | chapel roof | ground level | none (falling) |  | Verified | ✓ |  |
 | CR | climb roof | chapel roof | upper left platforms | silk soar  OR cling grip  OR ( easy scuttlebrace AND faydown cloak ) OR ( hard scuttlebrace AND ( hard heal stall AND ( have crest hunter OR have crest reaper OR have crest wanderer OR have crest beast OR have crest architect ) ) ) OR ( hard scuttlebrace AND ( thread storm OR rune rage ) ) |  | Verified | ✓ | You need a very precise heal or spell boost to scuttlebrace the wall without wings, which can be done by anything but witch crest |
 | CR | climb roof | upper left platforms | chapel roof | none (falling) |  | Verified | ✓ |  |
-| MD | middle platform drift | upper middle platforms | chapel roof | drifters  OR clawline  OR sharpdart  OR easy beast pogo OR easy architect pogo OR ( hard shaman pogo )  OR ( ledge grab AND easy shaman pogo ) OR ( dash AND ( easy hunter pogo OR easy naked pogo ) )  OR ( dash AND ( scuttlebrace OR flea brew OR silkspeed anklets OR faydown cloak ) )  OR ( run AND flea brew ) |  | Verified | ✓ | Beast and architect can just spam pogo |
+| MD | middle platform drift | upper middle platforms | chapel roof | drifters  OR clawline left OR sharpdart  OR easy beast pogo OR easy architect pogo OR ( hard shaman pogo )  OR ( ledge grab AND easy shaman pogo ) OR ( dash AND ( easy hunter pogo OR easy naked pogo ) )  OR ( dash AND ( scuttlebrace OR flea brew OR silkspeed anklets OR faydown cloak ) )  OR ( run AND flea brew ) |  | Verified | ✓ | Beast and architect can just spam pogo |
 | SM | soar to middle platforms | upper middle platforms | ground level | none (falling) |  | Verified | ✓ |  |
-| CL | clawline across the sky | upper middle platforms | upper right platforms | clawline  OR ( dash AND ( sharpdart OR drifters ) )  OR ( run AND sharpdart )  OR ( drifters AND ( faydown cloak OR proficient movement ) ) |  | Verified | ✓ | This is how it is currently implemented in the apworld; need to verify with SEG as it was malformed prior to correction. - hero |
-| CL | clawline across the sky | upper right platforms | upper middle platforms | clawline  OR ( dash AND ( sharpdart OR drifters ) )  OR ( run AND sharpdart )  OR ( drifters AND ( faydown cloak OR proficient movement ) ) |  | Verified | ✓ | This is how it is currently implemented in the apworld; need to verify with SEG as it was malformed prior to correction. - hero |
+| CL | clawline across the sky | upper middle platforms | upper right platforms | clawline right OR ( dash AND ( sharpdart OR drifters ) )  OR ( run AND sharpdart )  OR ( drifters AND ( faydown cloak OR proficient movement ) ) |  | Verified | ✓ | This is how it is currently implemented in the apworld; need to verify with SEG as it was malformed prior to correction. - hero |
+| CL | clawline across the sky | upper right platforms | upper middle platforms | clawline left OR ( dash AND ( sharpdart OR drifters ) )  OR ( run AND sharpdart )  OR ( drifters AND ( faydown cloak OR proficient movement ) ) |  | Verified | ✓ | This is how it is currently implemented in the apworld; need to verify with SEG as it was malformed prior to correction. - hero |
 | SR | soar to right platforms | upper right platforms | ground level | none (falling) |  | Verified | ✓ |  |
-| DL | sky drift to right platforms | sky | upper middle platforms | drifters  OR clawline OR faydown OR sharpdart OR dash OR easy beast pogo OR easy hunter pogo OR easy architect pogo |  | Verified | ✓ |  |
-| DR | sky drift to middle platforms | sky | upper right platforms | drifters  OR clawline OR faydown OR sharpdart OR dash OR easy beast pogo OR easy hunter pogo OR easy architect pogo |  | Verified | ✓ |  |
+| DL | sky drift to right platforms | sky | upper middle platforms | drifters  OR clawline left OR faydown OR sharpdart OR dash OR easy beast pogo OR easy hunter pogo OR easy architect pogo |  | Verified | ✓ |  |
+| DR | sky drift to middle platforms | sky | upper right platforms | drifters  OR clawline right OR faydown OR sharpdart OR dash OR easy beast pogo OR easy hunter pogo OR easy architect pogo |  | Verified | ✓ |  |
 | SS | soar to sky exit | sky | ground level | none (falling) |  | Verified | ✓ |  |
 | RC | right platform climb | ground level | shakra platform | ledge grab OR cling grip OR silk soar OR faydown |  | Verified | ✓ |  |
 | RC | right platform climb | shakra platform | ground level | none (falling) |  | Verified | ✓ |  |
@@ -534,15 +534,15 @@ No subroom connections defined.
 | RV2 | right vertical 2 | middle right platform | door platform | none (falling) |  | Verified | ✓ |  |
 | BW | breakable wall | upper left exit | upper right exit | clear wormways access breakable wall |  | Verified | ✓ |  |
 | BW | breakable wall | upper right exit | upper left exit | clear wormways access breakable wall |  | Verified | ✓ |  |
-| PG | pond gap | door platform | graveyard | swim OR run OR clawline OR drifters OR silk soar OR sharpdart OR ( faydown AND ( ledge grab OR easy beast pogo OR easy hunter pogo OR easy reaper pogo OR easy architect pogo OR easy shaman pogo ) ) |  | Verified | ✓ | A wide variety of stalls are likely to work with faydown here |
-| PG | pond gap | graveyard | door platform | silk soar  OR clawline  OR sharpdart OR ( ( ledge grab OR cling grip ) AND run AND dash ) OR ( faydown cloak AND ( run OR dash ) ) OR ( swim AND ( ledge grab OR cling grip OR faydown cloak ) ) |  | Verified | ✓ | A wide variety of stalls are likely to work here as well with ledge grab or faydown |
+| PG | pond gap | door platform | graveyard | swim OR run OR clawline left OR drifters OR silk soar OR sharpdart OR ( faydown AND ( ledge grab OR easy beast pogo OR easy hunter pogo OR easy reaper pogo OR easy architect pogo OR easy shaman pogo ) ) |  | Verified | ✓ | A wide variety of stalls are likely to work with faydown here |
+| PG | pond gap | graveyard | door platform | silk soar  OR clawline right  OR sharpdart OR ( ( ledge grab OR cling grip ) AND run AND dash ) OR ( faydown cloak AND ( run OR dash ) ) OR ( swim AND ( ledge grab OR cling grip OR faydown cloak ) ) |  | Verified | ✓ | A wide variety of stalls are likely to work here as well with ledge grab or faydown |
 | MF | middle vertical 1 | door platform | mossberry platform | silk soar |  | Verified | ✓ |  |
 | MF | middle vertical 1 | mossberry platform | door platform | none (falling) |  | Verified | ✓ |  |
 | G2M | graveyard to mossberry | graveyard | mossberry platform | silk soar OR ledge grab OR cling grip OR faydown cloak |  | Verified | ✓ |  |
 | G2M | graveyard to mossberry | mossberry platform | graveyard | none (falling) |  | Verified | ✓ |  |
-| M2M | mossberry to middle | mossberry platform | middle right platform | faydown  OR clawline OR ( ( ledge grab OR cling grip ) AND ( dash OR easy scuttlebrace OR easy beast pogo OR easy architect pogo OR easy hunter pogo OR sharpdart OR drifters ) ) |  | Verified | ✓ |  |
-| M2M | mossberry to middle | middle right platform | mossberry platform | clawline OR ( run AND dash AND ( sharpdart OR ( ledge grab AND faydown ) ) ) |  | Verified | ✓ |  |
-| USF | upper stall fall | upper right exit | mossberry platform | sharpdart  OR clawline  OR drifters  OR ( run AND dash ) OR ( faydown AND ( run OR dash ) ) |  | Verified | ✓ |  |
+| M2M | mossberry to middle | mossberry platform | middle right platform | faydown  OR clawline right OR ( ( ledge grab OR cling grip ) AND ( dash OR easy scuttlebrace OR easy beast pogo OR easy architect pogo OR easy hunter pogo OR sharpdart OR drifters ) ) |  | Verified | ✓ |  |
+| M2M | mossberry to middle | middle right platform | mossberry platform | clawline left OR ( run AND dash AND ( sharpdart OR ( ledge grab AND faydown ) ) ) |  | Verified | ✓ |  |
+| USF | upper stall fall | upper right exit | mossberry platform | sharpdart  OR clawline left OR drifters  OR ( run AND dash ) OR ( faydown AND ( run OR dash ) ) |  | Verified | ✓ |  |
 
 #### Check Locations
 
@@ -747,13 +747,13 @@ need see if there are other checks in here
 | S2 | lower zone silk soar | lower silk soar only zone | upper silk soar only zone | silk soar |  | Verified | ✓ |  |
 | S3 | upper zone silk soar | upper silk soar only zone | top area | silk soar |  | Verified | ✓ |  |
 | RC | resting site climb | upper right ledge | resting site ledge | silk soar OR ( cling grip AND faydown cloak ) |  | Verified | ✓ |  |
-| UC | upper crossing | upper left ledge | upper right ledge | silk soar  OR cling grip  OR faydown cloak  OR ( ledge grab AND ( dash OR clawline OR medium scuttlebrace ) ) OR ( ( medium enemy pogo OR ledge grab ) AND ( run OR sharpdart OR easy beast pogo ) )  OR ( easy enemy pogo AND ( clawline OR dash OR medium shaman pogo ) ) |  | Verified | ✓ |  |
+| UC | upper crossing | upper left ledge | upper right ledge | silk soar  OR cling grip  OR faydown cloak  OR ( ledge grab AND ( dash OR clawline right OR medium scuttlebrace ) ) OR ( ( medium enemy pogo OR ledge grab ) AND ( run OR sharpdart OR easy beast pogo ) )  OR ( easy enemy pogo AND ( clawline right OR dash OR medium shaman pogo ) ) |  | Verified | ✓ |  |
 | UC | upper crossing | upper right ledge | upper left ledge | none (parkour) |  | Verified | ✓ |  |
 | WC | wish climb | wish ledge | upper left ledge | silk soar  OR cling grip OR ( ledge grab AND scuttlebrace ) |  | Verified | ✓ |  |
-| LW | lower to wish climb | lower right area | wish ledge | silk soar  OR ( hard enemy pogo AND ( spike pogo AND proficient movement ) AND ( ( run AND ledge grab ) OR dash ) AND cling grip AND faydown cloak AND drifters cloak AND clawline ) |  | Verified | ✓ | Super EpicGuy has a clip of doing this skip from the lower right exit to the wish ledge. Insane. |
+| LW | lower to wish climb | lower right area | wish ledge | silk soar  OR ( hard enemy pogo AND ( spike pogo AND proficient movement ) AND ( ( run AND ledge grab ) OR dash ) AND cling grip AND faydown cloak AND drifters cloak AND clawline left ) |  | Verified | ✓ | Super EpicGuy has a clip of doing this skip from the lower right exit to the wish ledge. Insane. |
 | LM | lower to middle climb | lower right area | middle right ledge | silk soar  OR ( proficient movement AND hard enemy pogo AND spike pogo AND ( hard cocoon skip OR hard flintslate  stall OR hard flea brew stall OR hard plasmium stall ) AND cling grip AND drifters )  OR ( proficient movement AND medium enemy pogo AND spike pogo AND cling grip AND faydown cloak ) |  | Verified | ✓ |  |
-| LC | lower crossing | lower left area | lower right area | silk soar OR faydown OR medium scuttlebrace (due to risk of falling) OR ( ( ledge grab OR cling grip ) AND ( easy enemy pogo OR run OR dash OR clawline OR sharpdart x 2 OR drifters ) ) |  | Verified | ✓ |  |
-| LC | lower crossing | lower right area | lower left area | silk soar OR faydown OR medium scuttlebrace (due to risk of falling) OR easy enemy pogo OR run  OR dash  OR clawline  OR sharpdart x 1 OR drifters |  | Verified | ✓ |  |
+| LC | lower crossing | lower left area | lower right area | silk soar OR faydown OR medium scuttlebrace (due to risk of falling) OR ( ( ledge grab OR cling grip ) AND ( easy enemy pogo OR run OR dash OR clawline right OR sharpdart x 2 OR drifters ) ) |  | Verified | ✓ |  |
+| LC | lower crossing | lower right area | lower left area | silk soar OR faydown OR medium scuttlebrace (due to risk of falling) OR easy enemy pogo OR run  OR dash  OR clawline left  OR sharpdart x 1 OR drifters |  | Verified | ✓ |  |
 | BLL | bottom to lower left | bottom left area | lower left area | ledge grab OR cling grip OR faydown cloak OR silk soar |  | Verified | ✓ |  |
 | BLL | bottom to lower left | lower left area | bottom left area | none (falling) |  | Verified | ✓ |  |
 | RA | right aknid access | lower right area | right aknids | ledge grab OR cling grip OR silk soar |  | Verified | ✓ |  |
@@ -885,8 +885,8 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | RS | right silk blockade | center platforms | ground right | break silk blockade |  | Verified | ✓ |  |
 | RS | right silk blockade | ground right | center platforms | break silk blockade |  | Verified | ✓ |  |
-| GL | left ground crossing | ground left | center platforms | ledge grab OR spike pogo OR run OR dash OR faydown OR drifters OR clawline OR sharpdart OR easy beast pogo OR easy architect charge |  | Verified | ✓ | platform above spikes make this way more complicated than it should |
-| GL | left ground crossing | center platforms | ground left | ledge grab OR spike pogo OR run OR dash OR faydown OR drifters OR clawline OR sharpdart OR easy beast pogo OR easy architect charge |  | Verified | ✓ |  |
+| GL | left ground crossing | ground left | center platforms | ledge grab OR spike pogo OR run OR dash OR faydown OR drifters OR clawline right OR sharpdart OR easy beast pogo OR easy architect charge |  | Verified | ✓ | platform above spikes make this way more complicated than it should |
+| GL | left ground crossing | center platforms | ground left | ledge grab OR spike pogo OR run OR dash OR faydown OR drifters OR clawline left OR sharpdart OR easy beast pogo OR easy architect charge |  | Verified | ✓ |  |
 | LS | left silk blockade | spire platforms | silkspear passage | break silk blockade |  | Verified | ✓ |  |
 | LS | left silk blockade | silkspear passage | spire platforms | break silk blockade |  | Verified | ✓ |  |
 | RB | rope barrier | silkspear passage | ground left | clear rope platform blockade |  | Verified | ✓ |  |
@@ -954,8 +954,8 @@ known silk blockade breakers = silk spear, sharpdart, rune rage, weaver silkshot
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| RJ | running jump | middle left area | upper right area | faydown cloak  OR ( ( ledge grab OR cling grip ) AND ( run OR sharpdart OR clawline ) ) |  | Verified | ✓ |  |
-| RJ | running jump | upper right area | middle left area | run  OR dash OR clawline OR faydown OR drifters OR sharpdart OR easy beast pogo OR scuttlebrace |  | Verified | ✓ |  |
+| RJ | running jump | middle left area | upper right area | faydown cloak  OR ( ( ledge grab OR cling grip ) AND ( run OR sharpdart OR clawline right ) ) |  | Verified | ✓ |  |
+| RJ | running jump | upper right area | middle left area | run  OR dash OR clawline left OR faydown OR drifters OR sharpdart OR easy beast pogo OR scuttlebrace |  | Verified | ✓ |  |
 | V1 | vertical 1 | ground floor | upper right area | silk soar |  | Verified | ✓ |  |
 | V1 | vertical 1 | upper right area | ground floor | none (falling) |  | Verified | ✓ |  |
 | LG1 | ledge grab 1 | ground floor | middle left area | ledge grab  OR cling grip  OR faydown OR silk soar OR easy shaman pogo |  | Verified | ✓ |  |
@@ -1012,7 +1012,7 @@ known silk blockade breakers = silk spear, sharpdart, rune rage, weaver silkshot
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| RJ | running jump | upper right level | upper left exit | run  OR ( dash AND ( ledge grab OR cling grip ) ) OR faydown  OR silk soar  OR clawline  OR sharpdart  OR easy beast pogo  OR easy enemy pogo |  | Verified | ✓ |  |
+| RJ | running jump | upper right level | upper left exit | run  OR ( dash AND ( ledge grab OR cling grip ) ) OR faydown  OR silk soar  OR clawline left OR sharpdart  OR easy beast pogo  OR easy enemy pogo |  | Verified | ✓ |  |
 | RJ | running jump | upper left exit | upper right level | none (falling) |  | Verified | ✓ |  |
 | LG1 | ledge grab 1 | ground floor | rosary alcove | ledge grab  OR faydown cloak OR silk soar OR cling grip OR scuttlebrace OR easy shaman pogo |  | Verified | ✓ |  |
 | LG1 | ledge grab 1 | rosary alcove | ground floor | none (falling) |  | Verified | ✓ |  |
@@ -5395,23 +5395,23 @@ No subroom connections defined.
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | LBA | left basin access | lower left exit area | lava basin | none (falling) |  | Verified | ✓ |  |
-| LBA | left basin access | lava basin | lower left exit area | ledge grab OR drifter's cloak OR faydown cloak OR silk soar OR scuttlebrace OR (easy shaman pogo AND (flea brew OR run OR clawline)) OR (easy beast pogo AND easy flea brew stall) OR easy beast needle strike |  | Verified | ✓ |  |
+| LBA | left basin access | lava basin | lower left exit area | ledge grab both OR drifter's cloak OR faydown cloak OR silk soar OR scuttlebrace OR (easy shaman pogo AND (flea brew OR run OR clawline left)) OR (easy beast pogo AND easy flea brew stall) OR easy beast needle strike OR cling grip left OR easy pogo off [Caranid, Vicious Caranid] |  | Verified | ✓ |  |
 | RBA | right basin access | upper right exit area | lava basin | none |  | Verified | ✓ | actually none both ways - not even ledge grab |
 | RBA | right basin access | lava basin | upper right exit area | none |  | Verified | ✓ | actually none both ways - not even ledge grab |
 | LRA | lower right access | upper right exit area | lower right exit area | none (falling) |  | Verified | ✓ |  |
 | LRA | lower right access | lower right exit area | upper right exit area | cling grip OR drifter's cloak |  | Verified | ✓ |  |
-| RHA | right hut access | upper right exit area | pinstress hut platform | ledge grab OR drifter's cloak OR faydown cloak OR cling grip OR scuttlebrace OR clawline OR easy beast pogo OR flea brew |  | Verified | ✓ |  |
+| RHA | right hut access | upper right exit area | pinstress hut platform | ledge grab right OR drifter's cloak OR faydown cloak OR cling grip right OR scuttlebrace OR clawline OR easy beast pogo OR flea brew OR easy shaman pogo |  | Verified | ✓ |  |
 | RHA | right hut access | pinstress hut platform | upper right exit area | none (falling) |  | Verified | ✓ |  |
 | HA | hut ascend | lava basin | pinstress hut platform | drifter's cloak OR silk soar |  | Verified | ✓ |  |
 | HA | hut ascend | pinstress hut platform | lava basin | none (falling) |  | Verified | ✓ |  |
-| ULA | upper left ascend | lower left exit area | upper left exit area | silk soar OR (cling grip AND clawline AND easy flea brew stall) |  | Verified | ✓ |  |
+| ULA | upper left ascend | lower left exit area | upper left exit area | silk soar OR (cling grip right AND clawline AND easy flea brew stall) |  | Verified | ✓ |  |
 | ULA | upper left ascend | upper left exit area | lower left exit area | none (falling) |  | Verified | ✓ |  |
-| URC | upper right crossing | upper right exit area | ceiling wind tunnel | ( drifter's cloak AND break blast rock down ) OR ( cling grip AND faydown cloak AND clawline ) OR (silk soar AND (scuttlebrace OR faydown cloak)) |  | Verified | ✓ | maybe someone else try to find other options? |
+| URC | upper right crossing | upper right exit area | ceiling wind tunnel | ( drifter's cloak AND break blast rock down ) OR ( cling grip both AND faydown cloak AND clawline left ) OR (silk soar AND (scuttlebrace OR faydown cloak)) |  | Verified | ✓ | maybe someone else try to find other options? |
 | CWA | ceiling wind ascend | ceiling wind tunnel | ceiling exit area | silk soar OR ( break blast rock down AND drifter's cloak ) |  | Verified | ✓ |  |
 | CWA | ceiling wind ascend | ceiling exit area | ceiling wind tunnel | none (falling) |  | Verified | ✓ |  |
 | F1 | fall 1 | ceiling wind tunnel | pinstress hut platform | none (falling) |  | Verified | ✓ |  |
-| ULC | upper left crossing | upper left exit area | ceiling wind tunnel | run right OR dash right OR easy beast pogo OR drifter's cloak OR faydown cloak OR silk soar OR sharpdart OR scuttlebrace |  | Verified | ✓ |  |
-| ULC | upper left crossing | ceiling wind tunnel | upper left exit area | run OR ( easy beast pogo AND ledge grab ) OR drifter's cloak OR faydown cloak OR silk soar OR sharpdart |  | Verified | ✓ | left ledge is slightly higher, so fewer options this way |
+| ULC | upper left crossing | upper left exit area | ceiling wind tunnel | run right OR dash right OR easy beast pogo OR drifter's cloak OR faydown cloak OR silk soar OR sharpdart OR scuttlebrace OR clawline left |  | Verified | ✓ |  |
+| ULC | upper left crossing | ceiling wind tunnel | upper left exit area | run OR ( easy beast pogo AND ledge grab right) OR drifter's cloak OR faydown cloak OR silk soar OR sharpdart |  | Verified | ✓ | left ledge is slightly higher, so fewer options this way |
 
 #### Check Locations
 
@@ -6170,6 +6170,7 @@ No subroom connections defined.
 | S3 | upper right alcove | ✓ |
 | S4 | left of alcove gate | ✓ |
 | S5 | center scaffolds | ✓ |
+| S6 | right hangoff ledge | ✓ |
 
 #### Room Transitions
 
@@ -6183,16 +6184,18 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| V1 | vertical 1 | ground level | center scaffolds | silk soar OR scuttlebrace OR ( cling grip AND ( run OR dash OR drifter's cloak OR faydown cloak OR clawline OR sharpdart OR easy beast pogo OR proficient movement) ) OR faydown cloak |  | Verified | ✓ |  |
-| V1 | vertical 1 | center scaffolds | ground level | none (falling) |  | Verified | ✓ |  |
+| V1 | vertical 1 | ground level | right hangoff ledge | silk soar OR scuttlebrace OR ( cling grip either AND ( run OR dash OR drifter's cloak OR faydown cloak OR clawline left OR sharpdart OR easy beast pogo OR proficient movement) ) OR faydown cloak |  | Verified | ✓ |  |
+| V1 | vertical 1 | right hangoff ledge | ground level | none (falling) |  | Verified | ✓ |  |
 | DS | door switch | upper right alcove | left of alcove gate | activate door switch far fields deep lower west |  | Verified | ✓ |  |
 | DS | door switch | left of alcove gate | upper right alcove | activate door switch far fields deep lower west |  | Verified | ✓ |  |
-| V2 | vertical 2 | center scaffolds | upper right alcove | silk soar OR faydown cloak OR ( ledge grab AND ( run OR clawline OR ( drifter's cloak AND ( dash OR sharpdart ) ) ) ) |  | Verified | ✓ |  |
-| V2 | vertical 2 | upper right alcove | center scaffolds | none (falling) |  | Verified | ✓ |  |
-| V3 | vertical 3 | left of alcove gate | ceiling exit area | silk soar OR clawline OR faydown cloak OR scuttlebrace OR (ledge grab AND (run left OR (drifter's cloak AND (easy beast needle strike OR easy architect needle strike OR architect slash left)))) OR ( cling grip AND (run left OR dash left OR sharpdart OR drifter's cloak ) ) |  | Verified | ✓ | no inverse because there isn't much point |
+| V2 | vertical 2 | right hangoff ledge | upper right alcove | silk soar OR cling grip either OR scuttlebrace |  | Verified | ✓ |  |
+| V2 | vertical 2 | upper right alcove | right hangoff ledge | none (falling) |  | Verified | ✓ |  |
+| V3 | vertical 3 | left of alcove gate | ceiling exit area | silk soar OR clawline OR faydown cloak OR scuttlebrace OR (ledge grab AND (run left OR (drifter's cloak AND (easy beast needle strike OR easy architect needle strike OR architect slash left)))) OR ( cling grip both AND (run left OR dash left OR sharpdart OR drifter's cloak ) ) |  | Verified | ✓ | no inverse because there isn't much point |
 | V4 | vertical 4 | center scaffolds | ceiling exit area | faydown cloak OR cling grip OR scuttlebrace OR silk soar |  | Verified | ✓ |  |
 | V4 | vertical 4 | ceiling exit area | center scaffolds | none (falling) |  | Verified | ✓ |  |
-| V5 | vertical 5 | center scaffolds | left of alcove gate | faydown cloak OR cling grip OR scuttlebrace OR silk soar OR (ledge grab AND ((run AND drifter's cloak) OR dash OR easy beast pogo OR easy architect needle strike)) |  | Verified | ✓ | inverse is redundant |
+| V5 | vertical 5 | center scaffolds | left of alcove gate | faydown cloak OR cling grip both OR scuttlebrace OR silk soar OR (ledge grab right AND ((run AND drifter's cloak) OR dash right OR easy beast pogo OR easy architect needle strike)) |  | Verified | ✓ | inverse is redundant |
+| CW | central walkway | right hangoff ledge | center scaffolds | none |  | Verified | ✓ |  |
+| CW | central walkway | center scaffolds | right hangoff ledge | none |  | Verified | ✓ |  |
 
 #### Check Locations
 
@@ -8803,7 +8806,7 @@ No subroom connections defined.
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| T | top1 | entrance | [Greymoor Craw Nest (Room_CrowCourt)](#room-greymoor--greymoor-craw-nest) | b | cling grip OR scuttlebrace |  | Verified | ✓ |  |
+| T | top1 | entrance | [Greymoor Craw Nest (Room_CrowCourt)](#room-greymoor--greymoor-craw-nest) | b | cling grip either OR easy scuttlebrace |  | Verified | ✓ |  |
 
 #### Subroom Connections
 
@@ -8813,7 +8816,7 @@ No subroom connections defined.
 | D | drop | the court | entrance | defeat Crow Father AND silk soar |  | Verified | ✓ |  |
 | MD | metal door | the court | left shaft | defeat Crow Father |  | Verified | ✓ |  |
 | MD | metal door | left shaft | the court | defeat Crow Father |  | Verified | ✓ |  |
-| W | wall | left shaft | entrance | clear wood wall AND (cling grip OR (easy scuttlebrace AND (ledge grab OR faydown cloak OR clawline))) |  | Verified | ✓ |  |
+| W | wall | left shaft | entrance | clear wood wall |  | Verified | ✓ |  |
 | W | wall | entrance | left shaft | clear wood wall |  | Verified | ✓ |  |
 
 #### Check Locations
@@ -8822,26 +8825,25 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Crow Father | the court | Combat Requirements |  | Verified | boss | ✓ |  |
 | 2 | craw memento | the court | defeat Crow Father |  | Verified | collectible | ✓ |  |
-| 3 | Greymoor - craw court rosary vault stash | left shaft | cling grip OR (easy scuttlebrace AND (ledge grab OR faydown cloak OR clawline OR easy beast pogo)) |  | Verified | resource | ✓ |  |
-| 4 | Greymoor - the other craw court rosary vault stash | left shaft | cling grip OR (easy scuttlebrace AND (ledge grab OR faydown cloak OR clawline OR easy beast pogo)) |  | Verified | resource | ✓ |  |
-| 5 | Greymoor - the final craw court rosary vault stash | left shaft | cling grip OR (easy scuttlebrace AND (ledge grab OR faydown cloak OR clawline OR easy beast pogo)) |  | Verified | resource | ✓ |  |
-| 6 | Crow bell | left shaft | cling grip OR (easy scuttlebrace AND (ledge grab OR faydown cloak OR clawline OR easy beast pogo)) |  | Verified | collectible | ✓ |  |
-| 7 | wood wall | left shaft | break wall right OR break wall up |  | Verified | blockade | ✓ |  |
-| 8 | Tallcraw Juror 1 |  |  |  |  | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
-| 9 | Squatcraw Juror 1 |  |  |  |  | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
-| 10 | Tallcraw Juror 2 |  |  |  |  | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
-| 11 | Tallcraw Juror 3 |  |  |  |  | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
-| 12 | Craw Juror 1 |  |  |  |  | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
-| 13 | Craw Juror 2 |  |  |  |  | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
-| 14 | Squatcraw Juror 2 |  |  |  |  | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
-| 15 | Squatcraw Juror 3 |  |  |  |  | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
-| 16 | Craw Juror 3 |  |  |  |  | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
-| 17 | Craw Juror 4 |  |  |  |  | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
-| 18 | Crawfather 1 |  |  |  |  | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
-| 19 | Tallcraw Juror 4 |  |  |  |  | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
-| 20 | Squatcraw Juror 4 |  |  |  |  | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
-| 21 | Craw Juror 5 |  |  |  |  | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
-| 22 | Craw Juror 6 |  |  |  |  | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
+| 3 | Greymoor - craw court rosary vault stash | left shaft | cling grip either OR (easy scuttlebrace AND (ledge grab right OR faydown cloak OR clawline right x 1 OR easy beast pogo)) |  | Verified | resource | ✓ |  |
+| 4 | Greymoor - the other craw court rosary vault stash | left shaft | cling grip either OR (easy scuttlebrace AND (ledge grab right OR faydown cloak OR clawline right x 1 OR easy beast pogo)) |  | Verified | resource | ✓ |  |
+| 5 | Greymoor - the final craw court rosary vault stash | left shaft | cling grip either OR (easy scuttlebrace AND (ledge grab right OR faydown cloak OR clawline right x 1 OR easy beast pogo)) |  | Verified | resource | ✓ |  |
+| 6 | Crow bell | left shaft | cling grip either OR (easy scuttlebrace AND (ledge grab right OR faydown cloak OR clawline right x 1 OR easy beast pogo)) |  | Verified | collectible | ✓ |  |
+| 7 | wood wall | left shaft | (break wall right OR break wall up) AND (cling grip either OR (easy scuttlebrace AND (ledge grab right OR faydown cloak OR clawline right x 1 OR easy beast pogo))) |  | Verified | blockade | ✓ |  |
+| 8 | Tallcraw Juror 1 | the court | nothing |  | Verified | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
+| 9 | Squatcraw Juror 1 | the court | nothing |  | Verified | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
+| 10 | Tallcraw Juror 2 | the court | nothing |  | Verified | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
+| 11 | Tallcraw Juror 3 | the court | nothing |  | Verified | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
+| 12 | Craw Juror 1 | the court | nothing |  | Verified | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
+| 13 | Craw Juror 2 | the court | nothing |  | Verified | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
+| 14 | Squatcraw Juror 2 | the court | nothing |  | Verified | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
+| 15 | Squatcraw Juror 3 | the court | nothing |  | Verified | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
+| 16 | Craw Juror 3 | the court | nothing |  | Verified | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
+| 17 | Craw Juror 4 | the court | nothing |  | Verified | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
+| 18 | Tallcraw Juror 4 | the court | nothing |  | Verified | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
+| 19 | Squatcraw Juror 4 | the court | nothing |  | Verified | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
+| 20 | Craw Juror 5 | the court | nothing |  | Verified | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
+| 21 | Craw Juror 6 | the court | nothing |  | Verified | enemy | ✓ | FSM Boolean flags: defeatedCrowCourt |
 
 <a name="room-greymoor--greymoor-craw-lake"></a>
 
@@ -8857,7 +8859,7 @@ No subroom connections defined.
 
 | No. | Subroom | Annotated |
 | --- | --- | --- |
-| S1 | craw building | ✓ |
+| S1 | craw building roof | ✓ |
 | S2 | lower left section | ✓ |
 | S3 | middle craw nest | ✓ |
 | S4 | left top craw nest | ✓ |
@@ -8869,61 +8871,93 @@ No subroom connections defined.
 | S10 | lower flea room | ✓ |
 | S11 | right top craw nest | ✓ |
 | S12 | lil top | ✓ |
+| S13 | stupid platform i hate | ✓ |
+| S14 | craw building lower left | ✓ |
+| S15 | craw building lower right | ✓ |
+| S16 | craw building middle | ✓ |
+| S17 | verdania ledge | ✓ |
+| S18 | stupid space behind stupid wall | ✓ |
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| T | top | lil top | [Greymoor Weaver Shrine (Greymoor_22)](#room-greymoor--greymoor-weaver-shrine) | B | silk soar OR ledge grab OR faydown cloak OR cling grip |  | Verified | ✓ |  |
+| T | top | lil top | [Greymoor Weaver Shrine (Greymoor_22)](#room-greymoor--greymoor-weaver-shrine) | B | silk soar OR ledge grab OR faydown cloak OR cling grip right OR (ledge grab right AND (cling grip left OR ledge grab left OR easy [beast, shaman] pogo)) |  | Verified | ✓ |  |
 | ML | middle left | middle craw nest left | [Greymoor Craw Lake Entrance (Greymoor_15)](#room-greymoor--greymoor-craw-lake-entrance) | UR | none |  | Verified | ✓ |  |
-| LR | lower right | craw building | [Dead Verdania Main (Clover_01)](#room-verdania--dead-verdania-main) | L | ACT 3 AND (((cling grip OR silk soar) AND (clawline OR (progressive swift step 1 AND (drifters cloak OR (sharpdart AND faydown cloak))) OR (progressive swift step 2 AND faydown cloak))) OR (prereq balloon lever IN greymoor craw nest AND (clawline OR faydown cloak OR drifters cloak OR sharpdart OR progressive swift step 2 OR ledge grab OR easy hunter pogo OR easy architect pogo OR easy shaman pogo OR easy beast crest pogo))) |  | Verified | ✓ | verdania not yet mapped |
-| CN | craw nest entrance | craw building | [Greymoor Craw Nest (Room_CrowCourt)](#room-greymoor--greymoor-craw-nest) | L | swim OR ledge grab OR cling grip OR hard enemy pogo |  | Verified | ✓ |  |
+| LR | lower right | verdania ledge | [Dead Verdania Main (Clover_01)](#room-verdania--dead-verdania-main) | L | nothing |  | Verified | ✓ |  |
+| CN | craw nest entrance | craw building lower right | [Greymoor Craw Nest (Room_CrowCourt)](#room-greymoor--greymoor-craw-nest) | L | nothing |  | Verified | ✓ |  |
 | LL | lower left | lower left section | [Greymoor Craw Lake Entrance (Greymoor_15)](#room-greymoor--greymoor-craw-lake-entrance) | LR | none |  | Verified | ✓ |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LG | lake gap | lower left section | craw building | swim OR clawline OR ((progressive swift step 2 OR sharpdart) AND faydown cloak AND drifters cloak) OR (progressive swift step 2 AND sharpdart AND faydown cloak) OR (progressive swift step 1 AND sharpdart AND drifters cloak) OR (silk soar AND drifters cloak AND (faydown cloak OR sharpdart OR progressive swift step 2)) OR prereq balloon lever IN greymoor craw nest |  | Verified | ✓ |  |
-| LG | lake gap | craw building | lower left section | swim OR clawline OR silk soar OR ((progressive swift step 2 OR sharpdart) AND faydown cloak AND drifters cloak) OR (progressive swift step 2 AND sharpdart AND faydown cloak) OR (progressive swift step 1 AND sharpdart AND (drifters cloak OR ((ledge grab OR cling grip) AND faydown cloak))) OR prereq balloon lever IN greymoor craw nest |  | Verified | ✓ |  |
-| FR | fall right | right top craw nest | flea room | progressive swift step 2 OR clawline OR sharpdart OR drifters cloak OR faydown cloak |  | Verified | ✓ |  |
-| FL | fall left | upper craw nest | middle craw nest left | progressive swift step 2 OR clawline OR sharpdart OR drifters cloak OR (faydown cloak AND ledge grab) |  | Verified | ✓ |  |
+| LG | lake gap | lower left section | craw building lower left | swim OR clawline x 3 OR ((progressive swift step 2 right OR sharpdart x 1 OR clawline right x 1) AND faydown cloak AND drifters cloak) OR (progressive swift step 2 right AND (sharpdart x 1 OR clawline right x 2) AND faydown cloak) OR (progressive swift step 1 AND (clawline right x 1 OR sharpdart x 1) AND (drifters cloak)) OR cbt pogo off craw OR (hard pogo off craw AND faydown cloak) OR (silk soar AND drifters cloak AND (faydown cloak OR sharpdart x 1 OR clawline right x 1 OR progressive swift step 2 right)) OR prereq balloon lever IN greymoor craw nest |  | Verified | ✓ |  |
+| LG | lake gap | craw building lower left | lower left section | swim OR clawline x 3 OR ((progressive swift step 2 left OR sharpdart x 1 OR clawline left x 1) AND faydown cloak AND drifters cloak) OR (progressive swift step 2 left AND (sharpdart x 1 OR clawline left x 1)  AND faydown cloak) OR (progressive swift step 1 AND (sharpdart x 1 OR clawline left x 1) AND (drifters cloak OR faydown cloak)) OR prereq balloon lever IN greymoor craw nest |  | Verified | ✓ |  |
+| FR | fall right | right top craw nest | flea room | progressive swift step 2 right OR clawline right x 1 OR sharpdart x 1 OR drifters cloak OR faydown cloak OR prereq balloon lever IN greymoor craw nest |  | Verified | ✓ |  |
+| FL | fall left | upper craw nest | middle craw nest left | progressive swift step 2 left OR clawline left x 1 OR sharpdart x 1 OR drifters cloak OR (faydown cloak AND ledge grab left) |  | Verified | ✓ |  |
 | FL | fall left | middle craw nest left | upper craw nest | silk soar |  | Verified | ✓ | must drop to middle craw nest |
-| G1 | gap 1 | craw building | small ass platform | (drifters cloak AND ((progressive swift step 1 AND clawline) OR (progressive swift step 2 AND sharpdart AND faydown cloak))) OR prereq balloon lever IN greymoor craw nest |  | Verified | ✓ |  |
-| G1 | gap 1 | small ass platform | craw building | (drifters cloak AND ((progressive swift step 1 AND clawline) OR (progressive swift step 2 AND sharpdart AND faydown cloak))) OR  prereq balloon lever IN greymoor craw nest |  | Verified | ✓ |  |
+| G1 | gap 1 | craw building roof | small ass platform | (drifters cloak AND ((progressive swift step 1 AND (((clawline left x 2 OR sharpdart x 2)) OR (faydown cloak AND (sharpdart x 1 OR clawline left x 1)))))) OR (progressive swift step 2 left AND (sharpdart x 2 OR clawline left x 2) AND faydown cloak) OR prereq balloon lever IN greymoor craw nest |  | Verified | ✓ |  |
+| G1 | gap 1 | small ass platform | craw building roof | (drifters cloak AND ((progressive swift step 1 AND (((clawline left x 2 OR sharpdart x 2)) OR (faydown cloak AND (sharpdart x 1 OR clawline left x 1)))))) OR (progressive swift step 2 left AND (sharpdart x 2 OR clawline left x 2) AND faydown cloak) OR prereq balloon lever IN greymoor craw nest |  | Verified | ✓ |  |
 | G2 | gap 2 | middle craw nest left | middle craw nest | none (normal jump) |  | Verified | ✓ |  |
-| G2 | gap 2 | middle craw nest | middle craw nest left | (progressive swift step 1 AND faydown cloak AND ledge grab) OR  prereq balloon lever IN greymoor craw nest |  | Verified | ✓ |  |
-| G3 | gap 3 | middle craw nest | flea room | drifters cloak OR clawline OR (progressive swift step 2 AND (ledge grab OR cling grip OR sharpdart OR faydown cloak)) OR (progressive swift step 1 AND faydown cloak AND (ledge grab OR cling grip OR sharpdart)) OR prereq balloon lever IN greymoor craw nest |  | Verified | ✓ |  |
-| G3 | gap 3 | flea room | middle craw nest | drifters cloak OR clawline OR (progressive swift step 2 AND (sharpdart OR faydown cloak)) OR (progressive swift step 1 AND faydown cloak AND (ledge grab OR cling grip OR sharpdart)) OR prereq balloon lever IN greymoor craw nest |  | Verified | ✓ |  |
-| G4 | gap 4 | craw building | lower flea room | faydown cloak OR silk soar OR hard enemy pogo |  | Verified | ✓ |  |
-| G4 | gap 4 | lower flea room | craw building | none |  | Verified | ✓ |  |
-| G5 | gap 5 | left top craw nest | right top craw nest | clawline OR drifters cloak OR (progressive swift step 1 AND (sharpdart OR (faydown cloak AND flea brew))) OR (progressive swift step 2 AND faydown cloak) OR prereq balloon lever IN greymoor craw nest |  | Verified | ✓ |  |
-| G5 | gap 5 | right top craw nest | left top craw nest | (progressive swift step 1 AND faydown cloak AND (drifters cloak OR sharpdart)) OR (clawline AND (faydown cloak OR progressive swift step 2 OR drifters cloak OR sharpdart OR (progressive swift step 1 AND medium beast pogo))) OR (progressive swift step 2 AND faydown cloak AND flea brew) OR (sharpdart AND faydown cloak AND drifters cloak) OR (prereq balloon lever IN greymoor craw nest AND (clawline OR faydown cloak OR sharpdart OR (drifters cloak AND progressive swift step 1) OR progressive swift step 2)) |  | Verified | ✓ |  |
-| D1 | drop 1 | craw building | flea room | silk soar |  | Verified | ✓ |  |
-| D1 | drop 1 | flea room | craw building | none (just fall) |  | Verified | ✓ |  |
+| G2 | gap 2 | middle craw nest | middle craw nest left | (progressive swift step 1 AND faydown cloak AND ledge grab left) OR  prereq balloon lever IN greymoor craw nest OR (silk soar AND (clawline left x 1 OR sharpdart x 1 OR progressive swift step 2 left)) |  | Verified | ✓ |  |
+| G3 | gap 3 | stupid platform i hate | flea room | drifters cloak OR clawline x 2 OR progressive swift step 2 right OR (clawline right x 1 AND (cling grip right OR faydown cloak)) OR (progressive swift step 1 AND faydown cloak AND (ledge grab right OR cling grip right OR sharpdart x 1)) OR medium scuttlebrace OR prereq balloon lever IN greymoor craw nest |  | Verified | ✓ |  |
+| G3 | gap 3 | flea room | stupid platform i hate | ((progressive swift step 1 OR drifters cloak) AND faydown cloak AND (clawline left x 1 OR sharpdart x 1) AND (ledge grab left OR cling grip left)) OR prereq balloon lever IN greymoor craw nest |  | Verified | ✓ |  |
+| G4 | gap 4 | craw building roof | lower flea room | faydown cloak OR silk soar OR (hard pogo off squatcraw AND prereq balloon lever IN greymoor craw nest) |  | Verified | ✓ |  |
+| G4 | gap 4 | lower flea room | craw building roof | none |  | Verified | ✓ |  |
+| G5 | gap 5 | left top craw nest | right top craw nest | clawline right x 2 OR drifters cloak OR (progressive swift step 1 right AND (sharpdart x 1 OR (faydown cloak AND flea brew) OR clawline right x 1)) OR (progressive swift step 2 right AND faydown cloak) OR prereq balloon lever IN greymoor craw nest |  | Verified | ✓ |  |
+| G5 | gap 5 | right top craw nest | left top craw nest | (progressive swift step 1 left AND faydown cloak AND (drifters cloak OR sharpdart x 1)) OR (clawline x 1 AND ((progressive swift step 2 left AND ledge grab left) OR (progressive swift step 1 left AND (medium beast pogo OR faydown cloak)) OR (faydown cloak AND (drifters cloak OR easy beast pogo)))) OR (progressive swift step 2 left AND faydown cloak AND flea brew) OR (sharpdart x 1 AND faydown cloak AND drifters cloak) OR (prereq balloon lever IN greymoor craw nest AND (clawline x 1 OR faydown cloak OR sharpdart x 1 OR (drifters cloak AND progressive swift step 1 left) OR progressive swift step 2 left)) |  | Verified | ✓ |  |
+| D1 | drop 1 | craw building roof | flea room | silk soar |  | Verified | ✓ |  |
+| D1 | drop 1 | flea room | craw building roof | none (just fall) |  | Verified | ✓ |  |
 | D2 | drop 2 | upper craw nest | middle craw nest | none (just fall) |  | Verified | ✓ |  |
 | D2 | drop 2 | middle craw nest | upper craw nest | silk soar OR prereq balloon lever IN greymoor craw nest |  | Verified | ✓ |  |
-| D3 | drop 3 | middle craw nest | craw building | none (just fall) |  | Verified | ✓ |  |
-| D3 | drop 3 | craw building | middle craw nest | silk soar OR prereq balloon lever IN greymoor craw nest |  | Verified | ✓ |  |
+| D3 | drop 3 | middle craw nest | craw building roof | none (just fall) |  | Verified | ✓ |  |
+| D3 | drop 3 | craw building roof | middle craw nest | silk soar OR prereq balloon lever IN greymoor craw nest |  | Verified | ✓ |  |
 | D4 | drop 4 | small ass platform | middle craw nest | prereq balloon lever IN greymoor craw nest |  | Verified | ✓ |  |
-| D4 | drop 4 | middle craw nest | small ass platform | clawline OR sharpdart OR progressive swift step 2 OR faydown cloak OR drifters cloak OR (progressive swift step 1 AND (ledge grab OR flea brew OR silkspeed anklets)) |  | Verified | ✓ |  |
-| H | hatch | lower flea room | flea room | prereq flea airlock |  | Verified | ✓ |  |
+| D4 | drop 4 | middle craw nest | small ass platform | clawline left x 1 OR sharpdart x 1 OR progressive swift step 2 left OR faydown cloak OR drifters cloak OR (progressive swift step 1 left AND (ledge grab left OR flea brew OR silkspeed anklets)) |  | Verified | ✓ |  |
+| H | hatch | lower flea room | flea room | prereq flea airlock OR (faydown cloak AND ledge grab right AND proficient movement) |  | Verified | ✓ |  |
 | H | hatch | flea room | lower flea room | prereq flea airlock |  | Verified | ✓ |  |
-| SL | spike lower | spiked room | upper craw nest | prereq spike room lever AND (clawline AND faydown cloak AND (ledge grab OR progressive swift step 1)) |  | Verified | ✓ |  |
-| SL | spike lower | upper craw nest | spiked room | (clawline OR ((progressive swift step 2 OR sharpdart) AND (drifters cloak OR faydown cloak)) ) AND prereq spike room lever |  | Verified | ✓ |  |
+| SL | spike lower | spiked room | upper craw nest | prereq spike room lever AND (clawline right x 1 AND faydown cloak AND (ledge grab left OR progressive swift step 1)) |  | Verified | ✓ |  |
+| SL | spike lower | upper craw nest | spiked room | ((easy beast pogo AND (sharpdart x 1 OR clawline left x 1 OR (faydown cloak AND ledge grab))) OR (clawline left x 1 AND (progressive swift step 2 left OR faydown cloak OR drifters cloak OR sharpdart x 1)) OR (sharpdart x 1 AND (faydown cloak OR drifters cloak OR progressive swift step 2 left)) OR (progressive swift step 2 left AND drifters cloak)) AND prereq spike room lever |  | Verified | ✓ |  |
 | SU | spike upper | spiked room | left top craw nest | (proficient movement AND spike pogo) OR prereq balloon lever IN greymoor craw nest |  | Verified | ✓ |  |
 | SU | spike upper | left top craw nest | spiked room | none |  | Verified | ✓ |  |
 | F1 | fall 1 | left top craw nest | upper craw nest | none (just fall) |  | Verified | ✓ |  |
-| F1 | fall 1 | upper craw nest | left top craw nest | silk soar OR (cling grip AND (easy enemy pogo OR faydown cloak)) |  | Verified | ✓ |  |
-| F2 | fall 2 | right top craw nest | middle craw nest | nothing (just fall) |  | Verified | ✓ |  |
-| F2 | fall 2 | middle craw nest | right top craw nest | silk soar OR (prereq balloon lever IN greymoor craw nest AND faydown cloak AND (ledge grab OR cling grip)) |  | Verified | ✓ |  |
-| F3 | fall 3 | right top craw nest | upper craw nest | drifters cloak OR progressive swift step 1 OR clawline OR sharpdart OR faydown cloak OR (flea brew AND ledge grab) |  | Verified | ✓ |  |
+| F1 | fall 1 | upper craw nest | left top craw nest | silk soar OR (cling grip left AND ((easy pogo off craw AND prereq balloon lever IN greymoor craw nest) OR faydown cloak)) |  | Verified | ✓ |  |
+| F2 | fall 2 | right top craw nest | stupid platform i hate | nothing (just fall) |  | Verified | ✓ |  |
+| F2 | fall 2 | stupid platform i hate | right top craw nest | silk soar OR (prereq balloon lever IN greymoor craw nest AND faydown cloak AND (ledge grab right OR cling grip right)) |  | Verified | ✓ |  |
+| F3 | fall 3 | right top craw nest | upper craw nest | drifters cloak OR progressive swift step 1 left OR clawline left x 1 OR sharpdart x 1 OR faydown cloak OR (flea brew AND ledge grab left) |  | Verified | ✓ |  |
 | F4 | fall 4 | spiked room | middle craw nest left | prereq spike room lever |  | Verified | ✓ |  |
 | F4 | fall 4 | middle craw nest left | spiked room | (prereq balloon lever IN greymoor craw nest OR silk soar) AND prereq spike room lever |  | Verified | ✓ |  |
 | FF | free fall | lil top | right top craw nest | nothing (just fall) |  | Verified | ✓ |  |
 | FF | free fall | right top craw nest | lil top | silk soar |  | Verified | ✓ |  |
 | BG | balloon gap | left top craw nest | lil top | prereq balloon lever IN greymoor craw nest |  | Verified | ✓ |  |
-| BG | balloon gap | lil top | left top craw nest | prereq balloon lever IN greymoor craw nest OR clawline OR sharpdart OR drifters cloak OR progressive swift step 2 OR (faydown cloak AND (ledge grab OR flea brew OR progressive swift step 1)) |  | Verified | ✓ |  |
+| BG | balloon gap | lil top | left top craw nest | prereq balloon lever IN greymoor craw nest OR clawline left x 1 OR sharpdart x 1 OR drifters cloak OR progressive swift step 2 left OR (faydown cloak AND (ledge grab left OR flea brew OR progressive swift step 1 left)) |  | Verified | ✓ |  |
+| G6 | gap 6 | middle craw nest left | stupid platform i hate | (faydown cloak AND (clawline x 2 OR sharpdart x 2 OR (clawline x 1 AND (sharpdart x 1 OR (drifters cloak AND ((progressive swift step 1 AND ledge grab right) OR flea brew)))) OR (sharpdart x 1 AND drifters cloak AND ledge grab right AND (progressive swift step 1 OR flea brew)))) OR prereq balloon lever IN greymoor craw nest |  | Verified | ✓ |  |
+| G6 | gap 6 | stupid platform i hate | middle craw nest left | clawline x 2 OR sharpdart x 2 OR drifters cloak OR (faydown cloak AND (progressive swift step 2 left OR clawline left x 1 OR sharpdart x 1 OR (progressive swift step 1 AND (flea brew OR easy [hunter, beast, architect] pogo)))) OR ((clawline left x 1 OR sharpdart x 1) AND (easy beast pogo OR progressive swift step 1)) OR (easy beast pogo AND progressive swift step 2 left) OR prereq balloon lever IN greymoor craw nest |  | Verified | ✓ |  |
+| F5 | fall 5 | upper craw nest | stupid platform i hate | progressive swift step 1 right OR sharpdart x 1 OR drifters cloak OR faydown cloak OR flea brew OR clawline right x 1 OR easy [hunter, reaper, beast, architect, witch] pogo OR easy wanderer needle strike OR prereq balloon lever IN greymoor craw nest |  | Verified | ✓ |  |
+| F5 | fall 5 | stupid platform i hate | upper craw nest | silk soar OR prereq balloon lever IN greymoor craw nest |  | Verified | ✓ |  |
+| F6 | fall 6 | stupid platform i hate | middle craw nest | nothing |  | Verified | ✓ |  |
+| F6 | fall 6 | middle craw nest | stupid platform i hate | silk soar OR prereq balloon lever IN greymoor craw nest |  | Verified | ✓ |  |
+| G7 | gap 7 | middle craw nest | flea room | prereq balloon lever IN greymoor craw nest OR ((cling grip right OR medium scuttlebrace) AND (clawline x 2 OR (faydown cloak AND (sharpdart x 2  OR (drifters cloak AND (flea brew OR progressive swift step 1 right OR sharpdart x 1 OR clawline x 1)))) OR ((clawline x 1 OR sharpdart x 1) AND progressive swift step 2 right))) |  | Verified | ✓ | im tired boss, placed scuttlebrace medium cuz i know some of this are between easy or very tight in timing but got no energy atm to test that |
+| G7 | gap 7 | flea room | middle craw nest | drifters cloak OR clawline x 2 OR sharpdart x 2 OR (progressive swift step 2 left AND faydown cloak) OR (progressive swift step 1 AND (clawline left x 1 OR sharpdart x 1 OR (faydown cloak AND flea brew))) OR prereq balloon lever IN greymoor craw nest |  | Verified | ✓ |  |
+| G8 | gap 8 | middle craw nest | lower flea room | (drifters cloak AND (clawline right x 1 OR sharpdart x 1 OR progressive swift step 1 OR faydown cloak OR (easy beast pogo AND flea brew))) OR (progressive swift step 2 AND (clawline right x 1 OR sharpdart x 1)) OR (faydown cloak AND (clawline right x 2 OR sharpdart)) OR (prereq balloon lever IN greymoor craw nest AND (clawline right x 1 OR sharpdart x 1 OR progressive swift step 2 right OR (faydown cloak AND (ledge grab right OR flea brew)))) |  | Verified | ✓ | missing balloon reqs |
+| G8 | gap 8 | lower flea room | middle craw nest | faydown cloak AND ((clawline left x 2 AND (sharpdart x 1 OR (drifters cloak AND ledge grab left))) OR (sharpdart x 2 AND progressive swift step 2 left AND ledge grab)) |  | Verified | ✓ |  |
+| BL | building left | craw building lower left | craw building middle | ledge grab left OR cling grip left OR faydown cloak OR silk soar OR medium pogo off craw OR prereq balloon lever IN greymoor craw nest |  | Verified | ✓ |  |
+| BL | building left | craw building middle | craw building lower left | nothing |  | Verified | ✓ |  |
+| BR | building right | craw building lower right | craw building middle | (ledge grab left AND faydown cloak) OR cling grip left OR silk soar OR prereq balloon lever IN greymoor craw nest |  | Verified | ✓ |  |
+| BR | building right | craw building middle | craw building lower right | nothing |  | Verified | ✓ |  |
+| RA | roof access | craw building middle | craw building roof | prereq balloon lever IN greymoor craw nest OR silk soar OR cling grip either |  | Verified | ✓ |  |
+| RA | roof access | craw building roof | craw building middle | nothing |  | Verified | ✓ |  |
+| MD | metal door | craw building lower left | craw building lower right | prereq metal door OR swim |  | Verified | ✓ |  |
+| MD | metal door | craw building lower right | craw building lower left | prereq metal door OR swim |  | Verified | ✓ |  |
+| LG2 | lake gap 2 | craw building middle | verdania ledge | clawline right x 2 OR (easy beast pogo OR (clawline right x 1 OR sharpdart x 1)) OR ((clawline right x 1 OR sharpdart x 1 OR progressive swift step 2 right) AND faydown cloak) OR (progressive swift step 1 AND (clawline right x 1 OR sharpdart x 1 OR (drifters cloak AND (faydown cloak OR (proficient movement AND ledge grab right))) OR (faydown cloak AND (drifters cloak OR flea brew)))) OR (drifters cloak AND (clawline right x 1 OR sharpdart x 1)) OR  (prereq balloon lever IN greymoor craw nest AND (clawline right x 1 OR faydown cloak OR drifters cloak OR sharpdart x 1 OR progressive swift step 2 right OR ledge grab right OR easy [hunter, beast, architect, shaman] pogo)) |  | Verified | ✓ |  |
+| LG2 | lake gap 2 | verdania ledge | craw building middle | clawline left x 2 OR sharpdart x 2 OR ((progressive swift step 1 OR faydown cloak) AND (clawline left x 1 OR sharpdart x 1 OR faydown cloak OR drifters cloak OR easy beast pogo)) OR (faydown cloak AND progressive swift step 1) OR (drifters cloak AND (clawline left x 1 OR sharpdart x 1 OR easy [hunter, wanderer, beast, reaper, witch, architect, shaman] pogo OR flea brew)) OR (clawline left x 1 AND (easy [beast, architect] pogo OR (easy hunter pogo AND ledge grab left))) |  | Verified | ✓ |  |
+| LG3 | lage gap 3 | verdania ledge | craw building lower right | faydown cloak OR drifters cloak OR clawline x 1 OR progressive swift step 1 OR sharpdart x 1 OR easy [hunter, beast, architect] pogo OR (easy reaper pogo AND ledge grab left) OR swim OR prereq balloon lever IN greymoor craw nest |  | Verified | ✓ |  |
+| LG4 | lage gap 4 | craw building roof | verdania ledge | drifters cloak OR clawline right x 2 OR sharpdart x 2 OR (faydown cloak AND (clawline right x 1 OR sharpdart x 1 OR progressive swift step 2 OR (progressive swift step 1 AND (easy [beast, architect] pogo OR (easy reaper pogo AND ledge grab))))) OR (clawline right x 1 AND (progressive swift step 1 OR easy [hunter, beast, architect] pogo)) OR (sharpdart x 1 AND (easy [beast, hunter] pogo OR progressive swift step 1)) |  | Verified | ✓ |  |
+| LG4 | lage gap 4 | verdania ledge | craw building roof | faydown cloak AND (clawline left x 2 OR sharpdart x 2 OR ((clawline left x 1 OR sharpdart x 1) AND (progressive swift step 1 OR (drifters cloak AND ledge grab left)))) |  | Verified | ✓ |  |
+| F7 | fall 7 | small ass platform | lower left section | nothing |  | Verified | ✓ |  |
+| SR | stupid room | verdania ledge | stupid space behind stupid wall | ACT 3 AND have Simple Key Green Prince AND activate Lever Bellshrine Enclave IN bellshrine-enclave AND defeat Cogwork Dancers Boss Fight IN cog dancers |  | Verified | ✓ | Missing: green prince talk in cog dancers room |
+| SR | stupid room | stupid space behind stupid wall | verdania ledge | ACT 3 AND have Simple Key Green Prince AND activate Lever Bellshrine Enclave IN bellshrine-enclave AND defeat Cogwork Dancers Boss Fight IN cog dancers |  | Verified | ✓ | Missing: green prince talk in cog dancers room |
 
 #### Check Locations
 
@@ -8931,38 +8965,42 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Greymoor - Frayed Rosary String in tiny ass hole above left lower entrance | small ass platform | none |  | Verified | resource | ✓ |  |
 | 2 | Greymoor - Rosary Cache under the flea below the hatch | lower flea room | none |  | Verified | resource | ✓ |  |
-| 3 | Flea Freymoor - Craw Lake | flea room | silk soar OR ledge grab OR faydown cloak OR cling grip OR medium enemy pogo |  | Verified | collectible | ✓ |  |
+| 3 | Flea Freymoor - Craw Lake | flea room | silk soar OR ledge grab left OR faydown cloak OR cling grip either OR easy pogo off mite |  | Verified | collectible | ✓ |  |
 | 4 | Greymoor - the other flea segment rosaries | flea room | none |  | Verified | resource | ✓ |  |
 | 5 | Greymoor - flea segment rosaries | flea room | none |  | Verified | resource | ✓ |  |
 | 6 | Greymoor - mathematician nest rosaries if you know you know | right top craw nest | nothing |  | Verified | resource | ✓ |  |
 | 7 | Threefold Pin | right top craw nest | nothing |  | Verified | collectible | ✓ |  |
 | 8 | flea airlock | flea room | open airlock left OR open airlock right OR open airlock up |  | Verified | switch | ✓ |  |
 | 9 | spike room lever | upper craw nest | flip lever up OR flip lever left OR flip lever right |  | Verified | switch | ✓ |  |
-| 10 | Greymoor Stand Lever | craw building | nothing | TODO | Verified | switch | ✓ | this will be useful once i properlly do subrooms in the craw buildings |
-| 11 | Craw Juror 1 |  |  |  |  | enemy | ✓ |  |
-| 12 | Craw Juror 2 |  |  |  |  | enemy | ✓ |  |
-| 13 | Craw Juror 3 |  |  |  |  | enemy | ✓ |  |
-| 14 | Craw Juror 4 |  |  |  |  | enemy | ✓ |  |
-| 15 | Craw Juror 5 |  |  |  |  | enemy | ✓ |  |
-| 16 | Craw Juror 6 |  |  |  |  | enemy | ✓ |  |
-| 17 | Craw Juror 7 |  |  |  |  | enemy | ✓ |  |
-| 18 | Craw Juror 8 |  |  |  |  | enemy | ✓ |  |
-| 19 | Craw Juror 9 |  |  |  |  | enemy | ✓ |  |
-| 20 | Craw 1 |  |  |  |  | enemy | ✓ |  |
-| 21 | Craw 2 |  |  |  |  | enemy | ✓ |  |
-| 22 | Craw 3 |  |  |  |  | enemy | ✓ |  |
-| 23 | Craw 4 |  |  |  |  | enemy | ✓ |  |
-| 24 | Craw 5 |  |  |  |  | enemy | ✓ |  |
-| 25 | Craw 6 |  |  |  |  | enemy | ✓ |  |
-| 26 | Craw 7 |  |  |  |  | enemy | ✓ |  |
-| 27 | Craw 8 |  |  |  |  | enemy | ✓ |  |
-| 28 | Craw 9 |  |  |  |  | enemy | ✓ |  |
-| 29 | Tallcraw 1 |  |  |  |  | enemy | ✓ |  |
-| 30 | Tallcraw 2 |  |  |  |  | enemy | ✓ |  |
-| 31 | Tallcraw 3 |  |  |  |  | enemy | ✓ |  |
-| 32 | Squatcraw 1 |  |  |  |  | enemy | ✓ |  |
-| 33 | Squatcraw 2 |  |  |  |  | enemy | ✓ |  |
-| 34 | Mite 1 |  |  |  |  | enemy | ✓ |  |
+| 10 | metal door | craw building lower right | flip lever up OR flip lever left OR flip lever right OR flip lever up |  | Verified | switch | ✓ |  |
+| 11 | Craw Juror 1 |  |  |  |  | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
+| 12 | Craw Juror 2 |  |  |  |  | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false FSM Boolean flags: CrowCourtInSession |
+| 13 | Craw Juror 3 |  |  |  |  | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
+| 14 | Craw Juror 4 |  |  |  |  | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
+| 15 | Craw Juror 5 |  |  |  |  | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
+| 16 | Craw Juror 6 |  |  |  |  | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
+| 17 | Craw Juror 7 |  |  |  |  | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
+| 18 | Craw Juror 8 |  |  |  |  | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
+| 19 | Craw Juror 9 |  |  |  |  | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
+| 20 | Craw 1 | lower left section | nothing |  |  | enemy | ✓ | FSM Boolean flags: CrowCourtInSession  spawns before baloon lever is hit |
+| 21 | Craw 2 |  |  |  |  | enemy | ✓ | FSM Boolean flags: CrowCourtInSession  doesnt spawn after hitting baloon lever or before it so will need to test with craw court |
+| 22 | Craw 3 | small ass platform | nothing |  | Verified | enemy | ✓ | FSM Boolean flags: CrowCourtInSession  spawns before baloon lever is hit |
+| 23 | Craw 4 | middle craw nest | prereq balloon lever IN greymoor craw nest |  | Verified | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=true FSM Boolean flags: CrowCourtInSession |
+| 24 | Craw 5 | middle craw nest | prereq balloon lever IN greymoor craw nest |  | Verified | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=true FSM Boolean flags: CrowCourtInSession |
+| 25 | Craw 6 | upper craw nest | prereq balloon lever IN greymoor craw nest |  | Verified | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=true FSM Boolean flags: CrowCourtInSession |
+| 26 | Craw 7 | lower left section | nothing |  | Verified | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false FSM Boolean flags: CrowCourtInSession  spawns before baloon lever is hit  despawns after baloon lever is hit |
+| 27 | Craw 8 | craw building lower right | swim OR clawline right x 1 OR sharpdart x 1 OR progressive swift step 1 OR drifters cloak OR easy wanderer needle strike OR easy [hunter, reaper, beast, shaman, witch] pogo |  | Verified | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false FSM Boolean flags: CrowCourtInSession  spawns before baloon lever is hit  despawns after hitting baloon lever  this abuses the fact of the hazard respawn that happens for not having swim, we take agro and they follow you |
+| 28 | Craw 9 | craw building lower right | swim OR clawline right x 1 OR sharpdart x 1 OR progressive swift step 1 OR drifters cloak OR easy wanderer needle strike OR easy [hunter, reaper, beast, shaman, witch] pogo |  | Verified | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false FSM Boolean flags: CrowCourtInSession  spawns before baloon lever is hit  despawns after hitting baloon lever  this abuses the fact of the hazard respawn that happens for not having swim, we take agro and they follow you |
+| 29 | Tallcraw 1 | flea room | nothing |  | Verified | enemy | ✓ | Spawn conditions: CrowCourtInSession=false  spawns before baloon lever is hit |
+| 30 | Tallcraw 2 | craw building middle | nothing |  | Verified | enemy | ✓ | Spawn conditions: CrowCourtInSession=false, hitCrowCourtSwitch=false  spawns before baloon lever is hit  dissapears after clearing balloon lever in craw nest |
+| 31 | Tallcraw 3 | right top craw nest | nothing |  | Verified | enemy | ✓ | Spawn conditions: CrowCourtInSession=false  spawns before baloon lever is hit |
+| 32 | Squatcraw 1 | craw building roof | prereq balloon lever IN greymoor craw nest |  | Verified | enemy | ✓ | Spawn conditions: CrowCourtInSession=false, hitCrowCourtSwitch=true |
+| 33 | Squatcraw 2 | left top craw nest | prereq balloon lever IN greymoor craw nest |  | Verified | enemy | ✓ | Spawn conditions: CrowCourtInSession=false, hitCrowCourtSwitch=true |
+| 34 | Mite 1 | flea room | nothing |  | Verified | enemy | ✓ |  |
+
+#### Notes
+
+lord give me mercy to do a pass in this whole room
 
 <a name="room-greymoor--greymoor-craw-nest"></a>
 
@@ -8978,59 +9016,63 @@ No subroom connections defined.
 
 | No. | Subroom | Annotated |
 | --- | --- | --- |
-| S1 | crow lower nest | ✓ |
-| S2 | crow arena | ✓ |
-| S3 | crow nest entrance | ✓ |
+| S1 | craw lower nest | ✓ |
+| S2 | craw arena | ✓ |
+| S3 | craw nest entrance | ✓ |
 | S4 | balloon control room | ✓ |
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| B | bottom | crow lower nest | [Greymoor Craw Court (Room_CrowCourt_02)](#room-greymoor--greymoor-craw-court) | T | craw summons ready |  | Verified | ✓ |  |
-| L | left | crow nest entrance | [Greymoor Craw Lake (Greymoor_15b)](#room-greymoor--greymoor-craw-lake) | CN | none |  | Verified | ✓ |  |
+| B | bottom | craw lower nest | [Greymoor Craw Court (Room_CrowCourt_02)](#room-greymoor--greymoor-craw-court) | T | craw summons ready |  | Verified | ✓ | i can confirm the door stays open even after craw father is defeated |
+| L | left | craw nest entrance | [Greymoor Craw Lake (Greymoor_15b)](#room-greymoor--greymoor-craw-lake) | CN | none |  | Verified | ✓ |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| f1 | fall 1 | crow nest entrance | crow lower nest | none (just fall) |  | Verified | ✓ |  |
-| f1 | fall 1 | crow lower nest | crow nest entrance | silk soar OR prereq balloon lever |  | Verified | ✓ |  |
-| f2 | fall 2 | crow arena | crow lower nest | none (just fall) |  | Verified | ✓ |  |
-| f2 | fall 2 | crow lower nest | crow arena | ledge grab OR silk soar OR faydown cloak OR easy enemy pogo |  | Verified | ✓ |  |
-| PG1 | platform gap 1 | crow arena | balloon control room | clear Craw Lake Gauntlet AND (easy shaman pogo OR easy reaper pogo OR easy wanderer pogo OR easy hunter pogo OR faydown cloak OR ledge grab OR silk soar OR ledge grab) |  | Verified | ✓ |  |
-| PG1 | platform gap 1 | balloon control room | crow arena | clear Craw Lake Gauntlet |  | Verified | ✓ |  |
+| f1 | fall 1 | craw nest entrance | craw lower nest | none (just fall) |  | Verified | ✓ |  |
+| f1 | fall 1 | craw lower nest | craw nest entrance | silk soar OR prereq balloon lever |  | Verified | ✓ |  |
+| f2 | fall 2 | craw arena | craw lower nest | none (just fall) |  | Verified | ✓ |  |
+| f2 | fall 2 | craw lower nest | craw arena | ledge grab either OR silk soar OR faydown cloak OR easy pogo off mite OR cling grip either |  | Verified | ✓ |  |
+| PG1 | platform gap 1 | craw arena | balloon control room | clear Craw Lake Gauntlet AND (easy shaman pogo OR easy reaper pogo OR easy wanderer pogo OR easy hunter pogo OR faydown cloak OR ledge grab either OR silk soar) |  | Verified | ✓ |  |
+| PG1 | platform gap 1 | balloon control room | craw arena | clear Craw Lake Gauntlet |  | Verified | ✓ |  |
 
 #### Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | balloon lever | balloon control room | flip lever up OR flip lever left OR flip lever right |  | Verified | switch | ✓ |  |
-| 2 | Greymoor - entrance rosary stash | crow nest entrance | nothing |  | Verified | resource | ✓ |  |
-| 3 | Greymoor - entrance food savings | crow nest entrance | nothing |  | Verified | resource | ✓ |  |
-| 4 | Greymoor - nest savings at the extreme left | crow lower nest | (faydown cloak AND (progressive swift step 1 OR sharpdart OR clawline)) OR ((ledge grab OR cling grip OR easy enemy pogo) AND drifters cloak AND (progressive swift step 2 OR sharpdart OR clawline)) OR prereq balloon lever |  | Verified | resource | ✓ |  |
-| 5 | Greymoor - nest savings at the extreme right | crow lower nest | ((ledge grab OR cling grip OR easy enemy pogo) AND (progressive swift step 1 OR sharpdart OR clawline)) OR faydown cloak OR prereq balloon lever |  | Verified | resource | ✓ |  |
-| 6 | Greymoor - nest mortage at the inner right | crow lower nest | ((ledge grab OR cling grip OR easy enemy pogo) AND (progressive swift step 1 OR sharpdart OR clawline)) OR faydown cloak OR prereq balloon lever |  | Verified | resource | ✓ |  |
-| 7 | Greymoor - nest mortage at the inner left | crow lower nest | (faydown cloak AND (progressive swift step 1 OR sharpdart OR clawline)) OR ((ledge grab OR cling grip OR easy enemy pogo) AND drifters cloak AND (progressive swift step 2 OR sharpdart OR clawline)) OR prereq balloon lever |  | Verified | resource | ✓ |  |
-| 8 | Greymoor - some dumb bird life savings left outside in the nest | crow arena | none |  | Verified | resource | ✓ |  |
-| 9 | Craw Lake Gauntlet | crow arena | Combat Requirements |  | Verified | gauntlet | ✓ |  |
-| 10 | Squatcraw 1 |  |  |  |  | enemy | ✓ | Spawn conditions: CrowCourtInSession=false |
-| 11 | Craw 1 |  |  |  |  | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false |
-| 12 | Craw 2 |  |  |  |  | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false |
-| 13 | Craw 3 |  |  |  |  | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false |
-| 14 | Tallcraw 1 |  |  |  |  | enemy | ✓ | Spawn conditions: CrowCourtInSession=false |
-| 15 | Craw 4 |  |  |  |  | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false |
-| 16 | Craw 5 |  |  |  |  | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false |
-| 17 | Craw 6 |  |  |  |  | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false |
-| 18 | Craw 7 |  |  |  |  | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false |
-| 19 | Craw 8 |  |  |  |  | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false |
-| 20 | Tallcraw 2 |  |  |  |  | enemy | ✓ | Spawn conditions: CrowCourtInSession=false |
-| 21 | Squatcraw 2 |  |  |  |  | enemy | ✓ | Spawn conditions: CrowCourtInSession=false |
-| 22 | Tallcraw 3 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: CrowCourtInSession=false |
-| 23 | Squatcraw 3 |  | Normal World Spawn |  |  | enemy | ✓ | Spawn conditions: CrowCourtInSession=false |
-| 24 | Mite 1 |  |  |  |  | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
-| 25 | Mite 2 |  |  |  |  | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
-| 26 | Mite 3 |  |  |  |  | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
+| 2 | Greymoor - entrance rosary stash | craw nest entrance | nothing |  | Verified | resource | ✓ |  |
+| 3 | Greymoor - entrance food savings | craw nest entrance | nothing |  | Verified | resource | ✓ |  |
+| 4 | Greymoor - nest savings at the extreme left | craw lower nest | (faydown cloak AND (progressive swift step 1 left OR sharpdart x 1 OR clawline left x 1)) OR ((ledge grab either OR cling grip either OR easy pogo off mite) AND drifters cloak AND (progressive swift step 2 left OR sharpdart x 1 OR clawline left x 1)) OR prereq balloon lever |  | Verified | resource | ✓ |  |
+| 5 | Greymoor - nest savings at the extreme right | craw lower nest | ((ledge grab either OR cling grip either OR easy pogo off mite) AND (progressive swift step 1 left OR sharpdart x 1 OR clawline x 1)) OR faydown cloak OR prereq balloon lever |  | Verified | resource | ✓ |  |
+| 6 | Greymoor - nest mortage at the inner right | craw lower nest | ((ledge grab either OR cling grip either OR easy pogo off mite) AND (progressive swift step 1 left OR sharpdart x 1 OR clawline x 1)) OR faydown cloak OR prereq balloon lever |  | Verified | resource | ✓ |  |
+| 7 | Greymoor - nest mortage at the inner left | craw lower nest | (faydown cloak AND (progressive swift step 1 left OR sharpdart x 1 OR clawline left x 1)) OR ((ledge grab either OR cling grip either OR easy pogo off mite) AND drifters cloak AND (progressive swift step 2 left OR sharpdart x 1 OR clawline left x 1)) OR prereq balloon lever |  | Verified | resource | ✓ |  |
+| 8 | Greymoor - some dumb bird life savings left outside in the nest | craw arena | none |  | Verified | resource | ✓ |  |
+| 9 | Craw Lake Gauntlet | craw arena | Combat Requirements |  | Verified | gauntlet | ✓ |  |
+| 10 | Squatcraw 1 | craw arena | nothing |  | Verified | enemy | ✓ | Spawn conditions: CrowCourtInSession=false |
+| 11 | Craw 1 | craw arena | nothing |  | Verified | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false |
+| 12 | Craw 2 | craw arena | nothing |  | Verified | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false |
+| 13 | Craw 3 | craw arena | nothing |  | Verified | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false |
+| 14 | Tallcraw 1 | craw arena | nothing |  | Verified | enemy | ✓ | Spawn conditions: CrowCourtInSession=false |
+| 15 | Craw 4 | craw arena | nothing |  | Verified | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false |
+| 16 | Craw 5 | craw arena | nothing |  | Verified | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false |
+| 17 | Craw 6 | craw arena | nothing |  | Verified | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false |
+| 18 | Craw 7 | craw arena | nothing |  | Verified | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false |
+| 19 | Craw 8 | craw arena | nothing |  | Verified | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false |
+| 20 | Tallcraw 2 | craw arena | nothing |  | Verified | enemy | ✓ | Spawn conditions: CrowCourtInSession=false |
+| 21 | Squatcraw 2 | craw arena | nothing |  | Verified | enemy | ✓ | Spawn conditions: CrowCourtInSession=false |
+| 22 | Tallcraw 3 | craw arena | Normal World Spawn |  | Verified | enemy | ✓ | Spawn conditions: CrowCourtInSession=false |
+| 23 | Squatcraw 3 | craw arena | Normal World Spawn |  | Verified | enemy | ✓ | Spawn conditions: CrowCourtInSession=false |
+| 24 | Mite 1 | craw lower nest | nothing |  | Verified | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
+| 25 | Mite 2 | craw lower nest | nothing |  | Verified | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
+| 26 | Mite 3 | craw lower nest | nothing |  | Verified | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
+
+#### Notes
+
+One of the small craw here is an impostor
 
 <a name="room-greymoor--greymoor-east-bellshrine-room"></a>
 
@@ -9091,23 +9133,23 @@ No subroom connections defined.
 | UU | up upper | craw gang hangout place | bridge section | none (fall) |  | Verified | ✓ |  |
 | BU | balloon up | bridge section | lone crow platform | nothing |  | Verified | ✓ |  |
 | BU | balloon up | lone crow platform | bridge section | none (fall) |  | Verified | ✓ |  |
-| G2 | gap 2 | lone crow platform | craw gang hangout place | silk soar OR faydown cloak OR (hard enemy pogo AND prereq Tallcraw 1) OR clawline right x 1 OR sharpdart x 1 OR progressive swift step 2 right OR drifters cloak |  | Verified | ✓ |  |
+| G2 | gap 2 | lone crow platform | craw gang hangout place | silk soar OR faydown cloak OR hard pogo off tallcraw OR clawline right x 1 OR sharpdart x 1 OR progressive swift step 2 right OR drifters cloak |  | Verified | ✓ |  |
 | G2 | gap 2 | craw gang hangout place | lone crow platform | nothing |  | Verified | ✓ |  |
 | S1 | shaft 1 | craw gang hangout place | top right | silk soar OR (cling grip right AND proficient movement AND spike pogo) |  | Verified | ✓ |  |
 | S1 | shaft 1 | top right | craw gang hangout place | nada |  | Verified | ✓ |  |
-| PG1 | platform gap | upper craw nest | top left | silk soar OR faydown cloak OR (hard enemy pogo AND (prereq craw 1 OR prereq squatcraw 1)) |  | Verified | ✓ |  |
+| PG1 | platform gap | upper craw nest | top left | silk soar OR faydown cloak OR (hard pogo off craw OR hard pogo off squatcraw) |  | Verified | ✓ |  |
 | PG1 | platform gap | top left | upper craw nest | nothing |  | Verified | ✓ |  |
 | G3 | gap 3 | top left | top right | faydown cloak OR (ledge grab right AND (clawline right x 1 OR progressive swift step 1 right OR sharpdart x 1)) |  | Verified | ✓ |  |
 | G3 | gap 3 | top right | top left | nothing |  | Verified | ✓ |  |
 | B | blockade | top right | hidden exit | break wall right OR break wall up |  | Verified | ✓ |  |
 | B | blockade | hidden exit | top right | break wall left OR break wall up |  | Verified | ✓ |  |
-| S2 | shaft 2 | stupid platform | top right | silk soar OR (cling grip right AND (progressive swift step 1 right OR clawline right x 1 OR sharpdart x 1 OR drifters cloak OR (medium enemy pogo AND (prereq craw 1 OR prereq squatcraw 1)))) |  | Verified | ✓ |  |
+| S2 | shaft 2 | stupid platform | top right | silk soar OR (cling grip right AND (progressive swift step 1 right OR clawline right x 1 OR sharpdart x 1 OR drifters cloak OR (medium pogo off craw OR medium pogo off squatcraw))) |  | Verified | ✓ |  |
 | S2 | shaft 2 | top right | stupid platform | nothing |  | Verified | ✓ |  |
-| PG2 | platform gap 2 | craw gang hangout place | upper craw nest | silk soar OR faydown cloak OR cling grip right OR (ledge grab left AND (cling grip left OR easy shaman pogo)) OR (medium enemy pogo AND (prereq craw 1 OR prereq squatcraw 1)) |  | Verified | ✓ |  |
+| PG2 | platform gap 2 | craw gang hangout place | upper craw nest | silk soar OR faydown cloak OR cling grip right OR (ledge grab left AND (cling grip left OR easy shaman pogo)) OR (medium pogo off craw OR medium pogo off squatcraw) |  | Verified | ✓ |  |
 | PG2 | platform gap 2 | upper craw nest | craw gang hangout place | nothing |  | Verified | ✓ |  |
 | G4 | gap 4 | upper craw nest | stupid platform | nothing |  | Verified | ✓ |  |
-| G4 | gap 4 | stupid platform | upper craw nest | progressive swift step 1 left OR clawline left x 1 OR sharpdart x 1 OR faydown cloak OR easy beast pogo OR cling grip left OR easy architect pogo OR easy reaper pogo OR easy shaman pogo OR easy hunter pogo OR (medium enemy pogo AND prereq craw 1) OR flea brew OR drifters cloak OR silk soar |  | Verified | ✓ |  |
-| SF | stupid fall | craw gang hangout place | stupid platform | silk soar |  | Verified | ✓ | add a enemy pogo using cbt i guess |
+| G4 | gap 4 | stupid platform | upper craw nest | progressive swift step 1 left OR clawline left x 1 OR sharpdart x 1 OR faydown cloak OR easy [beast, architect, reaper, shaman, hunter] pogo OR cling grip left OR (medium pogo off craw) OR flea brew OR drifters cloak OR silk soar |  | Verified | ✓ |  |
+| SF | stupid fall | craw gang hangout place | stupid platform | silk soar OR cbt pogo off squatcraw |  | Verified | ✓ |  |
 | SF | stupid fall | stupid platform | craw gang hangout place | nothing |  | Verified | ✓ |  |
 
 #### Check Locations
@@ -9169,13 +9211,13 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | F1 | fall 1 | arena encounter | lower airstream section | silk soar |  | Verified | ✓ |  |
 | F1 | fall 1 | lower airstream section | arena encounter | nothing (just fall) |  | Verified | ✓ |  |
-| S1 | shaft 1 | lower airstream section | middle section | silk soar OR (activate lower airstream AND drifters cloak) OR (easy enemy pogo AND prereq fluttermite 1 AND (faydown cloak OR ledge grab left OR ledge grab right)) |  | Verified | ✓ |  |
+| S1 | shaft 1 | lower airstream section | middle section | silk soar OR (activate lower airstream AND drifters cloak) OR (easy pogo off fluttermite AND (faydown cloak OR ledge grab left OR ledge grab right)) |  | Verified | ✓ |  |
 | S1 | shaft 1 | middle section | lower airstream section | nothing (just fall) |  | Verified | ✓ |  |
 | S2 | shaft 2 | middle section | upper section | silk soar OR (drifters cloak  AND (activate lower airstream OR (faydown cloak AND (ledge grab right OR cling grip right OR easy scuttlebrace))) AND activate middle airstream) |  | Verified | ✓ |  |
 | S2 | shaft 2 | upper section | middle section | nothing (just fall) |  | Verified | ✓ |  |
 | PG1 | platform gap 1 | upper section | upper airstream section | nothing (just fall) |  | Verified | ✓ |  |
-| PG1 | platform gap 1 | upper airstream section | upper section | ledge grab right OR cling grip right OR faydown cloak OR silk soar OR (medium enemy pogo AND prereq silk snipper 1) |  | Verified | ✓ |  |
-| S3 | shaft 3 | upper section | tower top | (proficient movement AND spike pogo) OR silk soar OR ((drifters cloak AND (spike pogo OR ledge grab left OR (proficient movement AND progressive swift step 2 left) OR faydown cloak OR cling grip left)) AND activate upper airstream) |  | Verified | ✓ |  |
+| PG1 | platform gap 1 | upper airstream section | upper section | ledge grab right OR cling grip right OR faydown cloak OR silk soar OR (medium pogo off silk snipper) |  | Verified | ✓ |  |
+| S3 | shaft 3 | upper section | tower top | (proficient movement AND spike pogo) OR silk soar OR ((drifters cloak AND (spike pogo OR ledge grab left OR faydown cloak OR cling grip left)) AND activate upper airstream) |  | Verified | ✓ |  |
 | S3 | shaft 3 | tower top | upper section | none (just fall) |  | Verified | ✓ |  |
 | F2 | fall 2 | arena encounter | silly platform | (easy shaman pogo AND ledge grab left) OR silk soar |  | Verified | ✓ |  |
 | F2 | fall 2 | silly platform | arena encounter | nothing |  | Verified | ✓ |  |
@@ -9241,8 +9283,8 @@ No subroom connections defined.
 | G1 | gap 1 | down and under | center section | swim OR (clawline right x 1 AND faydown cloak AND cling grip left) |  | Verified | ✓ |  |
 | WG1 | water gap 1 | center section | left section | clawline left x 1 OR faydown cloak OR drifters cloak OR sharpdart x 1 OR progressive swift step 2 left OR ((progressive swift step 1 left OR flea brew) AND faydown cloak) OR swim |  | Verified | ✓ |  |
 | WG1 | water gap 1 | left section | center section | swim OR progressive swift step 2 right OR clawline right x 1 OR sharpdart x 1 OR (drifters cloak AND (ledge grab right OR progressive swift step 1 right OR faydown cloak)) OR ((faydown cloak OR (flea brew AND cling grip)) AND progressive swift step 1 right) |  | Verified | ✓ |  |
-| WG2 | water gap 2 | right section | center section | ((Act 1 OR Act 2) AND (progressive swift step 1 left OR clawline left x 1 OR faydown cloak OR drifters cloak OR sharpdart x 1 OR easy beast pogo OR flea brew OR easy architect needle strike OR (cling grip left AND (easy hunter pogo OR easy reaper pogo OR easy witch pogo OR easy architect pogo OR easy shaman pogo OR swim)))) OR (ACT 3 AND ((cling grip AND (clawline left x 1 OR sharpdart x 1 OR progressive swift step 2 left OR (drifters cloak AND (progressive swift step 1 left OR flea brew)))) OR (faydown cloak AND (clawline left x 1 OR sharpdart x 1 OR progressive swift step 1 left OR (ledge grab left AND drifters cloak))) OR (silk soar AND ((Clawline left x 2 AND ledge grab left)  OR (clawline left x 1 AND (progressive swift step 2 left OR drifters cloak)))))) |  | Verified | ✓ |  |
-| WG2 | water gap 2 | center section | right section | swim OR clawline right x 1 OR sharpdart x 1 OR drifters cloak OR faydown cloak OR ((ACT 1 OR ACT 2) AND (progressive swift step 1 right OR ((easy hunter pogo OR cling grip left) AND ledge grab right) OR easy beast pogo  OR easy architect pogo)) OR (ACT 3 AND (progressive swift step 2 right OR (progressive swift step 1 right AND (easy architect pogo OR easy beast pogo OR (easy hunter pogo AND ledge grab right))))) |  | Verified | ✓ |  |
+| WG2 | water gap 2 | right section | center section | ((Act 1 OR Act 2) AND (progressive swift step 1 left OR clawline left x 1 OR faydown cloak OR drifters cloak OR sharpdart x 1 OR easy beast pogo OR flea brew OR easy architect needle strike OR (cling grip left AND (easy [hunter, reaper, witch, architect, shaman] pogo OR swim)))) OR (ACT 3 AND ((cling grip AND (clawline left x 1 OR sharpdart x 1 OR progressive swift step 2 left OR (drifters cloak AND (progressive swift step 1 left OR flea brew)))) OR (faydown cloak AND (clawline left x 1 OR sharpdart x 1 OR progressive swift step 1 left OR (ledge grab left AND drifters cloak))) OR (silk soar AND ((Clawline left x 2 AND ledge grab left)  OR (clawline left x 1 AND (progressive swift step 2 left OR drifters cloak)))))) |  | Verified | ✓ |  |
+| WG2 | water gap 2 | center section | right section | swim OR clawline right x 1 OR sharpdart x 1 OR drifters cloak OR faydown cloak OR ((ACT 1 OR ACT 2) AND (progressive swift step 1 right OR ((easy hunter pogo OR cling grip left) AND ledge grab right) OR easy [beast, architect] pogo)) OR (ACT 3 AND (progressive swift step 2 right OR (progressive swift step 1 right AND (easy [beast, architect] pogo OR (easy hunter pogo AND ledge grab right))))) |  | Verified | ✓ |  |
 | G2 | gap 2 | down and under | right section | swim OR (clawline right x 1 AND (faydown cloak AND progressive swift step 2 right AND ledge grab right)) |  | Verified | ✓ | Revisit and add ACt 3 specific requirements |
 | G2 | gap 2 | right section | down and under | swim OR (clawline left x 1 AND (ledge grab left OR faydown cloak OR cling grip left)) |  | Verified | ✓ | Revisit and add ACt 3 specific requirements |
 
@@ -9287,7 +9329,7 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| UP | upper path | left section | right section | easy hunter pogo OR easy reaper pogo OR easy wanderer pogo OR easy beast pogo OR hard witch pogo OR medium architect pogo OR easy shaman pogo OR ledge grab right OR cling grip right OR faydown cloak |  | Verified | ✓ |  |
+| UP | upper path | left section | right section | intended [beast, wanderer,reaper, shaman] pogo OR easy hunter pogo OR hard witch pogo OR medium architect pogo OR ledge grab right OR cling grip right OR faydown cloak |  | Verified | ✓ |  |
 | UP | upper path | right section | left section | ledge grab left OR silk soar OR cling grip left OR faydown cloak OR (prereq craw 1 AND medium enemy pogo) OR easy beast needle strike |  | Verified | ✓ |  |
 | W | wall exit | right section | left section | clear wood blockade |  | Verified | ✓ |  |
 | W | wall exit | left section | right section | clear wood blockade AND (cling grip right OR faydown cloak) |  | Verified | ✓ |  |
@@ -9296,13 +9338,13 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Thread storm | left section | easy hunter pogo OR easy reaper pogo OR easy wanderer pogo OR easy beast pogo OR hard witch pogo OR medium architect pogo OR easy shaman pogo OR ledge grab OR cling grip OR faydown cloak |  | Verified | collectible | ✓ |  |
+| 1 | Thread storm | left section | intended [beast, wanderer,reaper, shaman] pogo OR easy hunter pogo OR hard witch pogo OR medium architect pogo OR ledge grab right OR cling grip right OR faydown cloak |  | Verified | collectible | ✓ |  |
 | 2 | Greymoor - rosaries hanging left of the weaver shrine | right section | none |  | Verified | resource | ✓ |  |
 | 3 | Greymoor - some craw rosaries i guess and he will hit you | right section | none |  | Verified | resource | ✓ |  |
 | 4 | wood blockade | right section | break wall left OR break wall up |  | Verified | blockade | ✓ |  |
-| 5 | Craw 1 | right section | prereq Thread storm |  | Verified | enemy | ✓ | Spawn conditions: CrowCourtInSession=false |
-| 6 | Craw 2 | left section | prereq Thread storm |  | Verified | enemy | ✓ | Spawn conditions: CrowCourtInSession=false |
-| 7 | Craw 3 | right section | prereq Thread storm |  | Verified | enemy | ✓ | Spawn conditions: CrowCourtInSession=false |
+| 5 | Craw 1 | right section | prereq Thread storm | TODO | Verified | enemy | ✓ | Spawn conditions: CrowCourtInSession=false it appears they are a 1 time spawn after claiming the thread storm check |
+| 6 | Craw 2 | left section | prereq Thread storm | TODO | Verified | enemy | ✓ | Spawn conditions: CrowCourtInSession=false it appears they are a 1 time spawn after claiming the thread storm check |
+| 7 | Craw 3 | right section | prereq Thread storm | TODO | Verified | enemy | ✓ | Spawn conditions: CrowCourtInSession=false it appears they are a 1 time spawn after claiming the thread storm check |
 
 <a name="room-greymoor--greymoor-western-tower"></a>
 
@@ -9348,21 +9390,21 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | PG1 | plartform gap 1 | lower section | first guarded platform | ledge grab right OR ledge grab left OR silk soar OR cling grip right OR cling grip left OR (proficient movement AND (progressive swift step 2 right OR (progressive swift step 2 left))) OR medium shaman pogo  OR easy beast needle strike OR faydown cloak |  | Verified | ✓ |  |
 | PG1 | plartform gap 1 | first guarded platform | lower section | none (just fall) |  | Verified | ✓ |  |
-| PG2 | platform gap 2 | middle section | lower spike wheel | ledge grab right OR silk soar OR cling grip right OR progressive swift step 1 right OR easy beast needle strike OR faydown cloak OR spike pogo OR clawline right x {1} |  | Verified | ✓ |  |
+| PG2 | platform gap 2 | middle section | lower spike wheel | ledge grab right OR silk soar OR cling grip right OR progressive swift step 1 right OR easy beast needle strike OR faydown cloak OR spike pogo OR clawline right x 1 |  | Verified | ✓ |  |
 | PG2 | platform gap 2 | lower spike wheel | middle section | none (just fall) |  | Verified | ✓ |  |
-| PG3 | platform gap 3 | lower spike wheel | upper spike wheel | cling grip right OR silk soar OR faydown cloak |  | Verified | ✓ |  |
+| PG3 | platform gap 3 | lower spike wheel | upper spike wheel | cling grip right OR silk soar OR faydown cloak OR easy scuttlebrace |  | Verified | ✓ |  |
 | PG3 | platform gap 3 | upper spike wheel | lower spike wheel | none (just fall) |  | Verified | ✓ |  |
 | F1 | fall 1 | upper spike wheel | tower top section | unlock top trapdoor AND ((ledge grab left OR ledge grab right) AND (faydown cloak OR spike pogo)) |  | Verified | ✓ |  |
 | F1 | fall 1 | tower top section | upper spike wheel | unlock top trapdoor |  | Verified | ✓ |  |
-| S1 | shaft 1 | tower top section | tower drop | silk soar OR (cling grip left AND (ledge grab right OR cling grip left OR (proficient movement AND progressive swift step 2 right))) OR (cling grip right AND (cling grip left OR ledge grab left OR easy beast needle strike OR (proficient movement AND progressive swift step 2 left))) OR (easy scuttlebrace AND (faydown cloak OR ledge grab right OR (ledge grab left AND (easy beast needle strike OR (proficient movement AND progressive swift step 2 right))))) |  | Verified | ✓ |  |
+| S1 | shaft 1 | tower top section | tower drop | silk soar OR (cling grip left AND (ledge grab right OR cling grip left)) OR (cling grip right AND (cling grip left OR ledge grab left OR easy beast needle strike)) OR (easy scuttlebrace AND (faydown cloak OR ledge grab right OR (ledge grab left AND (easy beast needle strike )))) |  | Verified | ✓ |  |
 | S1 | shaft 1 | tower drop | tower top section | none (just fall) |  | Verified | ✓ |  |
 | PG4 | platform gap 4 | middle section | second guarded platform | nothing |  | Verified | ✓ |  |
-| PG4 | platform gap 4 | second guarded platform | middle section | ((ledge grab right OR (proficient movement AND progressive swift step 2 right) OR (medium enemy pogo AND prereq Silk Snipper 1)) AND (ledge grab left OR progressive swift step 1 left OR sharpdart x 1 OR clawline left x {1} OR flea brew)) OR silk soar OR cling grip right  OR easy shaman pogo  OR easy beast needle strike OR faydown cloak |  | Verified | ✓ | medium enemy pogo in this case since enemy must be alive and lured to its original spawn to use as another enemy pogo, although the enemy here has some health and some moves allow a pogo with no damage dealt to the enemy  also for the life of me i could not get a left cling grip |
+| PG4 | platform gap 4 | second guarded platform | middle section | ((ledge grab right OR medium pogo off silk snipper) AND (ledge grab left OR progressive swift step 1 left OR sharpdart x 1 OR clawline left x 1 OR flea brew)) OR silk soar OR cling grip right  OR easy shaman pogo  OR easy beast needle strike OR faydown cloak |  | Verified | ✓ | medium enemy pogo in this case since enemy must be alive and lured to its original spawn to use as another enemy pogo, although the enemy here has some health and some moves allow a pogo with no damage dealt to the enemy  also for the life of me i could not get a left cling grip |
 | PG5 | platform gap 5 | lower section | small drop | nothing |  | Verified | ✓ |  |
-| PG5 | platform gap 5 | small drop | lower section | silk soar OR ledge grab left OR faydown cloak OR cling grip left OR (proficient movement AND progressive swift step 2 left) OR (medium enemy pogo AND prereq mite 1) |  | Verified | ✓ |  |
+| PG5 | platform gap 5 | small drop | lower section | silk soar OR ledge grab left OR faydown cloak OR cling grip left OR medium pogo off mite |  | Verified | ✓ |  |
 | D | drop | whisp thicket entrance | tower drop | none |  | Verified | ✓ |  |
 | D | drop | tower drop | whisp thicket entrance | cling grip left OR faydown cloak OR silk soar OR easy scuttlebrace |  | Verified | ✓ |  |
-| PG6 | platform gap 6 | first guarded platform | second guarded platform | faydown cloak OR easy scuttlebrace OR silk soar OR ((ledge grab right OR (easy enemy pogo AND prereq Silk Snipper 1) OR (proficient movement AND progressive swift step 2 right) OR cling grip right) AND (ledge grab left OR (proficient movement AND progressive swift step 2 left) OR cling grip left)) |  | Verified | ✓ |  |
+| PG6 | platform gap 6 | first guarded platform | second guarded platform | faydown cloak OR easy scuttlebrace OR silk soar OR ((ledge grab right OR easy pogo off Silk Snipper OR cling grip right) AND (ledge grab left OR cling grip left)) |  | Verified | ✓ |  |
 | PG6 | platform gap 6 | second guarded platform | first guarded platform | nothing |  | Verified | ✓ |  |
 
 #### Check Locations
@@ -9519,7 +9561,7 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| ST | swim transition | entrance section | bug resting place | swim |  | Verified | ✓ |  |
+| ST | swim transition | entrance section | bug resting place | swim OR (clawline right x 2 AND hard [flintslate] stall) |  | Verified | ✓ | i do not habe the skill to test more stalls in here |
 | ST | swim transition | bug resting place | entrance section | swim AND (ledge grab left OR cling grip left OR faydown cloak) |  | Verified | ✓ |  |
 
 #### Check Locations
@@ -9556,27 +9598,27 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| SW | spike wheel | entrance section | gauntlet room | unlock gauntlet airlock AND ( spike pogo OR ledge grab OR faydown cloak OR cling grip OR (silk soar AND (clawline OR sharpdart OR drifters cloak OR progressive swift step 2))) |  | Verified | ✓ |  |
+| SW | spike wheel | entrance section | gauntlet room | unlock gauntlet airlock AND ( spike pogo OR faydown cloak OR easy beast needle strike OR (ledge grab right AND (ledge grab left OR cling grip left OR clawline left x 1)) OR (cling grip right AND (ledge grab left OR clawline left x 1 OR sharpdart x 1 OR progressive swift step 2 left)) OR (silk soar AND (clawline right x 1 OR sharpdart x 1 OR drifters cloak OR progressive swift step 2 right))) |  | Verified | ✓ |  |
 | SW | spike wheel | gauntlet room | entrance section | unlock gauntlet airlock |  | Verified | ✓ |  |
-| PG1 | platform gap | gauntlet room | upper area | complete Chapel of the Reaper Gauntlet AND (ledge grab OR cling grip OR faydown cloak OR silk soar) |  | Verified | ✓ |  |
+| PG1 | platform gap | gauntlet room | upper area | complete Chapel of the Reaper Gauntlet AND (ledge grab either OR cling grip either OR faydown cloak OR silk soar) |  | Verified | ✓ |  |
 | PG1 | platform gap | upper area | gauntlet room | complete Chapel of the Reaper Gauntlet |  | Verified | ✓ |  |
-| F1 | fall 1 | upper area | entrance section | clear tied platform AND (ledge grab OR cling grip OR faydown cloak OR silk soar) |  | Verified | ✓ |  |
-| F1 | fall 1 | entrance section | upper area | clear tied platform AND ( cling grip OR silk soar OR (faydown cloak AND easy scuttlebrace)) |  | Verified | ✓ |  |
+| F1 | fall 1 | upper area | entrance section | clear tied platform |  | Verified | ✓ |  |
+| F1 | fall 1 | entrance section | upper area | clear tied platform AND ( cling grip either OR silk soar OR easy scuttlebrace) |  | Verified | ✓ |  |
 
 #### Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Crest: Reaper | upper area | ledge grab OR cling grip OR faydown cloak OR silk soar |  | Verified | collectible | ✓ |  |
+| 1 | Crest: Reaper | upper area | nothing |  | Verified | collectible | ✓ |  |
 | 2 | Chapel of the Reaper Gauntlet | gauntlet room | Combat Requirements |  | Verified | gauntlet | ✓ |  |
 | 3 | gauntlet airlock | entrance section | hit lever right OR hit lever left OR hit lever up |  | Verified | blockade | ✓ |  |
 | 4 | tied platform | upper area | break vines left OR break vines up OR break vines right |  | Verified | blockade | ✓ |  |
-| 5 | Silk Snipper 1 |  |  |  |  | enemy | ✓ |  |
-| 6 | Dreg Catcher 1 |  |  |  |  | enemy | ✓ |  |
-| 7 | Dreg Catcher 2 |  |  |  |  | enemy | ✓ |  |
-| 8 | Thread Raker 1 |  |  |  |  | enemy | ✓ |  |
-| 9 | Silk Snipper 2 |  |  |  |  | enemy | ✓ |  |
-| 10 | Silk Snipper 3 |  |  |  |  | enemy | ✓ |  |
+| 5 | Silk Snipper 1 | gauntlet room | nothing |  | Verified | enemy | ✓ |  |
+| 6 | Dreg Catcher 1 | gauntlet room | nothing |  | Verified | enemy | ✓ |  |
+| 7 | Dreg Catcher 2 | gauntlet room | nothing |  | Verified | enemy | ✓ |  |
+| 8 | Thread Raker 1 | gauntlet room | nothing |  | Verified | enemy | ✓ |  |
+| 9 | Silk Snipper 2 | gauntlet room | nothing |  | Verified | enemy | ✓ |  |
+| 10 | Silk Snipper 3 | gauntlet room | nothing |  | Verified | enemy | ✓ |  |
 
 <a name="room-greymoor--greymoor-chapel-of-the-reaper-entrance"></a>
 
@@ -9626,13 +9668,14 @@ No check locations defined.
 | S3 | lower right section | ✓ |
 | S4 | middle section | ✓ |
 | S5 | craw lake middle entrance | ✓ |
+| S6 | the very top | ✓ |
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | LL | lower left | lower left section | [Greymoor East Bellshrine Room (Greymoor_02)](#room-greymoor--greymoor-east-bellshrine-room) | LR | none |  | Verified | ✓ |  |
-| LR | lower right | lower right section | [Greymoor Craw Lake (Greymoor_15b)](#room-greymoor--greymoor-craw-lake) | LL | swim OR medium enemy pogo OR flea brew OR progressive swift step 1 OR clawline OR sharpdart OR drifters cloak OR faydown cloak |  | Verified | ✓ |  |
+| LR | lower right | lower right section | [Greymoor Craw Lake (Greymoor_15b)](#room-greymoor--greymoor-craw-lake) | LL | swim OR easy pogo off craw OR flea brew OR progressive swift step 1 right OR clawline right x 1 OR sharpdart x 1 OR drifters cloak OR faydown cloak |  | Verified | ✓ |  |
 | UR | upper right | craw lake middle entrance | [Greymoor Craw Lake (Greymoor_15b)](#room-greymoor--greymoor-craw-lake) | ML | none |  | Verified | ✓ |  |
 | UL | upper left | upper section | [Greymoor East Bellshrine Room (Greymoor_02)](#room-greymoor--greymoor-east-bellshrine-room) | MR | none |  | Verified | ✓ |  |
 
@@ -9640,26 +9683,28 @@ No check locations defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| ASP | air shaft platform | lower left section | lower right section | drifters cloak OR silk soar OR (faydown cloak AND (cling grip OR ledge grab)) |  | Verified | ✓ |  |
-| ASP | air shaft platform | lower right section | lower left section | silk soar OR cling grip OR easy enemy pogo OR (faydown cloak AND ledge grab) |  | Verified | ✓ |  |
-| F | fall | lower right section | middle section | silk soar OR hard enemy pogo |  | Verified | ✓ |  |
+| ASP | air shaft platform | lower left section | lower right section | drifters cloak OR silk soar OR (faydown cloak AND (cling grip right OR ledge grab right)) |  | Verified | ✓ |  |
+| ASP | air shaft platform | lower right section | lower left section | silk soar OR cling grip left OR easy pogo off craw OR (faydown cloak AND ledge grab left) |  | Verified | ✓ |  |
+| F | fall | lower right section | middle section | silk soar OR hard pogo off craw |  | Verified | ✓ |  |
 | F | fall | middle section | lower right section | nothing (just fall) |  | Verified | ✓ |  |
-| C | climb | middle section | upper section | ledge grab OR faydown cloak OR silk soar OR cling grip OR scuttlebrace |  | Verified | ✓ |  |
+| C | climb | middle section | upper section | ((ledge grab left OR cling grip left OR hard pogo off mite) AND (ledge grab right OR cling grip right)) OR faydown cloak OR silk soar OR cling grip OR medium scuttlebrace |  | Verified | ✓ |  |
 | C | climb | upper section | middle section | nothing (just fall) |  | Verified | ✓ |  |
-| CD | closed door | upper section | craw lake middle entrance | prereq crawlake door AND (silk soar OR ledge grab OR faydown cloaK OR medium enemy pogo OR cling grip) |  | Verified | ✓ |  |
-| CD | closed door | craw lake middle entrance | upper section | prereq crawlake door |  | Verified | ✓ |  |
+| CD | closed door | the very top | craw lake middle entrance | prereq crawlake door |  | Verified | ✓ |  |
+| CD | closed door | craw lake middle entrance | the very top | prereq crawlake door |  | Verified | ✓ |  |
+| PG | platform gap | upper section | the very top | silk soar OR faydown cloak OR hard pogo off craw OR easy  beast needle strike OR ((ledge grab left OR cling grip left OR medium pogo off craw) AND (ledge grab right OR cling grip right OR medium pogo off craw)) |  |  | ✓ |  |
+| PG | platform gap | the very top | upper section | nothing |  |  | ✓ |  |
 
 #### Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Greymoor - Frayed Rosary String from dead bug guarded by rat | middle section | nothing |  | Verified | resource | ✓ |  |
-| 2 | Greymoor - Rosary Cache #18 | upper section | silk soar OR faydown cloak OR hard enemy pogo OR ((medium enemy pogo OR ledge grab OR cling grip) AND (progressive swift step 1 OR sharpdart OR clawline OR drifters cloak)) |  | Verified | resource | ✓ |  |
+| 2 | Greymoor - Rosary Cache at the very top | the very top | silk soar OR faydown cloak OR hard pogo off craw OR ((ledge grab left OR cling grip left OR medium pogo off craw) AND (progressive swift step 1 left OR sharpdart x 1 OR clawline left x 1 OR drifters cloak OR flea brew)) |  | Verified | resource | ✓ |  |
 | 3 | crawlake door | craw lake middle entrance | flip lever up OR flip lever right OR flip lever left |  | Verified | switch | ✓ |  |
 | 4 | Craw Juror 1 | lower right section |  | TODO |  | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false FSM Boolean flags: CrowCourtInSession |
 | 5 | Craw Juror 2 | lower right section |  | TODO |  | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
 | 6 | Craw Juror 3 | upper section |  | TODO |  | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
-| 7 | Craw 1 | lower right section | nothing |  | Verified | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false FSM Boolean flags: CrowCourtInSession |
+| 7 | Craw 1 | lower right section | nothing |  | Verified | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false  despawns after clearing balloon lever in craw nest  FSM Boolean flags: CrowCourtInSession |
 | 8 | Craw 2 | lower right section | nothing |  | Verified | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
 | 9 | Craw 3 | upper section | nothing |  | Verified | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
 | 10 | Mite 1 | middle section | nothing |  | Verified | enemy | ✓ |  |
@@ -9697,9 +9742,9 @@ No check locations defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | TBM | Top to Bottom Middle | Top Section | Bottom Right Section | prereq tied airstream |  | Verified | ✓ |  |
 | TBM | Top to Bottom Middle | Bottom Right Section | Top Section | (Drifters Cloak OR Silk Soar OR (Faydown AND Cling Grip right)) AND prereq tied airstream |  | Verified | ✓ |  |
-| TRB | Top Right to Bottom Right | Bottom Right Section | Top Right Section | Ledge Grab left OR Faydown OR cling grip left OR easy shaman pogo OR easy flea brew stall OR (cling grip right AND (clawline left x 1 OR sharpdart x 1)) |  | Verified | ✓ |  |
+| TRB | Top Right to Bottom Right | Bottom Right Section | Top Right Section | Ledge Grab left OR Faydown OR cling grip left OR easy shaman pogo OR (cling grip right AND (clawline left x 1 OR sharpdart x 1)) OR medium [heal, voltvessels] stall |  | Verified | ✓ |  |
 | TRB | Top Right to Bottom Right | Top Right Section | Bottom Right Section | nothing (Fall) |  | Verified | ✓ |  |
-| BC | Bottom Crossing | Bottom Left Section | Bottom Right Section | Dash right OR Sprint right OR Ledge Grab right OR Silk Soar OR Faydown OR Clawline right x 1 OR Cling Grip right OR easy flea brew stall OR sharpdart x 1 OR drifters cloak OR easy beast needle strike OR easy beast pogo OR easy architect needle strike |  | Verified | ✓ | swim is possible but like other greymoor spots, cleating tied airstream removes the swim option |
+| BC | Bottom Crossing | Bottom Left Section | Bottom Right Section | Dash right OR Sprint right OR Ledge Grab right OR Silk Soar OR Faydown OR Clawline right x 1 OR Cling Grip right OR sharpdart x 1 OR drifters cloak OR easy beast pogo OR easy [beast, architect] needle strike |  | Verified | ✓ | swim is possible but like other greymoor spots, cleating tied airstream removes the swim option |
 | BC | Bottom Crossing | Bottom Right Section | Bottom Left Section | progressive swift step 1 left OR clawline left x 1 OR sharpdart x 1 OR silk soar OR swim OR faydown cloak OR (flea brew AND (ledge grab left OR cling grip left OR prereq tied airstream)) OR easy beast needle strike OR drifters cloak OR easy beast pogo OR easy architect needle strike |  | Verified | ✓ |  |
 
 #### Check Locations
@@ -9749,7 +9794,7 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Halfwat Home - Memory Locket |  | silk soar OR (faydown cloak AND (ledge grab left OR cling grip left)) |  | Verified | collectible | ✓ |  |
+| 1 | Halfwat Home - Memory Locket |  | silk soar OR (faydown cloak AND (ledge grab left OR cling grip left OR easy beast needle strike OR proficient movement)) |  | Verified | collectible | ✓ |  |
 | 2 | Bugs of Pharloom - Tool Pouch |  | complete Wish: Bugs of Pharloom |  | Verified | event | ✓ |  |
 | 3 | Greymoor - Nuu's Scrolls |  | silk soar OR faydown cloak OR ledge grab both OR cling grip both |  | Verified | lore | ✓ | Nuu must not be present in halfway home, according to the wiki she has a 50% chance to not appear but its garanteed that she leaves after certain bosses are defeated: the Skull Tyrant in the Marrow, one of the Great Conchflies in Blasted Steps, Sister Splinter in Shellwood, and Voltvyrm in Voltnest |
 | 4 | Wish: Bugs of Pharloom |  | silk soar OR faydown cloak OR ledge grab both OR cling grip both |  | Verified | event | ✓ |  |
@@ -9804,35 +9849,35 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | S1 | shaft 1 | lower right section | middle right section | silk soar OR ((ACT 1 OR ACT 2) AND ( cling grip right OR (faydown cloak AND easy scuttlebrace))) |  | Verified | ✓ |  |
 | S1 | shaft 1 | middle right section | lower right section | none (just fall) |  | Verified | ✓ |  |
-| PG1 | platform gap 1 | lower right section | building roof | silk soar OR ((ACT 1 OR ACT 2) AND (flea brew OR drifters cloak OR faydown cloak OR progressive swift step 1 left OR clawline left x 1 OR sharpdart x 1 OR easy beast pogo  OR easy architect needle strike OR easy wanderer needle strike OR ((easy reaper needle strike OR medium shaman pogo) AND ledge grab left))) |  | Verified | ✓ |  |
+| PG1 | platform gap 1 | lower right section | building roof | silk soar OR ((ACT 1 OR ACT 2) AND (flea brew OR drifters cloak OR faydown cloak OR progressive swift step 1 left OR clawline left x 1 OR sharpdart x 1 OR easy beast pogo  OR easy [architect, wanderer] needle strike OR ((easy reaper needle strike OR medium shaman pogo) AND ledge grab left))) |  | Verified | ✓ |  |
 | PG1 | platform gap 1 | building roof | lower right section | none (just fall) |  | Verified | ✓ |  |
-| PG2 | platform gap 2 | building roof | middle right section | silk soar OR (faydown cloak AND (progressive swift step 2 OR sharpdart OR (ledge grab right AND (progressive swift step 1 right OR clawline right x 1 OR drifters cloak OR medium shaman pogo OR easy beast pogo)))) OR (cling grip right AND (clawline right x 1 OR sharpdart x 1 OR progressive swift step 2 right OR faydown cloak OR drifters cloak OR (progressive swift step 1 right AND flea brew))) |  | Verified | ✓ | removed the craw enemy pogo since they dissapear when the crawbug clearing wish is completed |
+| PG2 | platform gap 2 | building roof | middle right section | silk soar OR (faydown cloak AND (progressive swift step 2 OR sharpdart OR (ledge grab right AND (progressive swift step 1 right OR clawline right x 1 OR drifters cloak OR medium [shaman, beast] pogo)))) OR (cling grip right AND (clawline right x 1 OR sharpdart x 1 OR progressive swift step 2 right OR faydown cloak OR drifters cloak OR (progressive swift step 1 right AND flea brew))) |  | Verified | ✓ | removed the craw enemy pogo since they dissapear when the crawbug clearing wish is completed |
 | PG2 | platform gap 2 | middle right section | building roof | none (just fall) |  | Verified | ✓ |  |
 | F1 | fall 1 | middle right section | tower platform | silk soar |  | Verified | ✓ |  |
 | F1 | fall 1 | tower platform | middle right section | none (just fall) |  | Verified | ✓ |  |
 | F2 | fall 2 | tower platform | building roof | none |  | Verified | ✓ |  |
 | F2 | fall 2 | building roof | tower platform | silk soar OR activate tower elevator |  | Verified | ✓ |  |
-| LG | lake gap | building left | lower left section | progressive swift step 1 left OR clawline left x 1 OR sharpdart x 1 OR faydown cloak OR silk soar OR drifters cloak OR activate tower elevator OR swim OR easy hunter pogo OR easy reaper pogo OR easy beast pogo OR easy witch pogo OR easy architect pogo OR easy shaman pogo |  | Verified | ✓ |  |
+| LG | lake gap | building left | lower left section | progressive swift step 1 left OR clawline left x 1 OR sharpdart x 1 OR faydown cloak OR silk soar OR drifters cloak OR activate tower elevator OR swim OR easy [hunter, reaper, beast, witch, architect, shaman] pogo |  | Verified | ✓ |  |
 | LG | lake gap | lower left section | building left | silk soar OR faydown cloak  OR drifters cloak  OR progressive swift step 1 right  OR sharpdart x 1 OR clawline right x 1  OR easy beast pogo  OR easy architect needle strike  OR (swim AND (ledge grab right OR cling grip right)) |  | Verified | ✓ |  |
 | PG3 | platform gap 3 | building roof | building left | none (just fall) |  | Verified | ✓ |  |
 | PG3 | platform gap 3 | building left | building roof | silk soar OR (activate tower elevator AND faydown cloak) |  | Verified | ✓ |  |
-| G1 | gap 1 | tower platform | upper right section | silksoar OR ((ACT 1 OR ACT 2) AND (ledge grab right OR easy hunter pogo OR easy reaper pogo OR easy beast pogo OR easy shaman pogo OR flea brew OR progressive swift step 1 right OR clawline right x 1 OR sharpdart x 1 OR faydown cloak OR drifters cloak  OR architect needle right)) OR (ACT 3 AND (clawline right x 2 OR (clawline right x 1 AND (faydown cloak OR progressive swift step 2 right OR easy beast pogo OR easy architect pogo OR drifters cloak)) OR (faydown cloak AND (sharpdart x 1 OR drifters cloak OR (progressive swift step 2 right AND (easy architect pogo OR easy beast pogo)))) OR (sharpdart x 1 AND (progressive swift step 2 right OR drifters cloak)))) |  | Verified | ✓ |  |
+| G1 | gap 1 | tower platform | upper right section | silksoar OR ((ACT 1 OR ACT 2) AND (ledge grab right OR easy [hunter, reaper, beast, shaman] pogo OR flea brew OR progressive swift step 1 right OR clawline right x 1 OR sharpdart x 1 OR faydown cloak OR drifters cloak  OR architect needle right)) OR (ACT 3 AND (clawline right x 2 OR (clawline right x 1 AND (faydown cloak OR progressive swift step 2 right OR easy [beast, architect] pogo OR drifters cloak)) OR (faydown cloak AND (sharpdart x 1 OR drifters cloak OR (progressive swift step 2 right AND easy [beast, architect] pogo))) OR (sharpdart x 1 AND (progressive swift step 2 right OR drifters cloak)))) |  | Verified | ✓ |  |
 | G1 | gap 1 | upper right section | tower platform | none (just fall) |  | Verified | ✓ |  |
 | S2 | shaft 2 | upper right section | lower guarded platform | silk soar OR cling grip left OR cling grip right OR easy scuttlebrace OR ledge grab left OR ledge grab right OR easy shaman pogo |  | Verified | ✓ |  |
 | S2 | shaft 2 | lower guarded platform | upper right section | none (just fall) |  | Verified | ✓ |  |
-| BG | baloon gap | lower guarded platform | upper center room | (hard enemy pogo AND prereq fluttermite 1) OR (medium enemy pogo AND prereq fluttermite 1 AND clawline left x 3 AND faydown cloak) |  | Verified | ✓ |  |
+| BG | baloon gap | lower guarded platform | upper center room | (hard pogo off fluttermite) OR (medium pogo off fluttermite AND (clawline left x 3 OR (drifters cloak))) OR (easy pogo off fluttermite AND (drifters cloak AND faydown cloak)) |  | Verified | ✓ |  |
 | BG | baloon gap | upper center room | lower guarded platform | none (just fall) |  | Verified | ✓ |  |
-| G2 | gap 2 | upper center room | upper guarded plaform | easy enemy pogo OR clawline right x 1 OR progressive swift step 1 right OR faydown cloak OR drifters cloak OR sharpdart x 1 OR easy hunter pogo OR easy reaper pogo OR easy beast pogo OR easy witch pogo OR easy architect pogo |  | Verified | ✓ |  |
+| G2 | gap 2 | upper center room | upper guarded plaform | easy pogo off fluttermite OR clawline right x 1 OR progressive swift step 1 right OR faydown cloak OR drifters cloak OR sharpdart x 1 OR easy [hunter, reaper, beast, witch, architect] pogo |  | Verified | ✓ |  |
 | G2 | gap 2 | upper guarded plaform | upper center room | silk soar OR (progressive swift step 1 left AND faydown cloak AND (clawline left x 1 OR sharpdart x 1)) |  | Verified | ✓ |  |
 | F3 | fall 3 | tower platform | upper center room | silk soar |  | Verified | ✓ |  |
 | F3 | fall 3 | upper center room | tower platform | none (just fall) |  | Verified | ✓ |  |
 | S3 | shaft 3 | lower guarded platform | upper stash | cling grip left OR cling grip right OR silk soar OR easy scuttlebrace |  | Verified | ✓ |  |
 | S3 | shaft 3 | upper stash | lower guarded platform | none |  | Verified | ✓ |  |
-| S4 | shaft 4 | lower guarded platform | upper guarded plaform | cling grip left OR cling grip right OR silk soar OR (easy enemy pogo AND prereq fluttermite 1 AND faydown cloak) |  | Verified | ✓ |  |
+| S4 | shaft 4 | lower guarded platform | upper guarded plaform | cling grip left OR cling grip right OR silk soar OR (easy pogo off fluttermite AND faydown cloak) |  | Verified | ✓ |  |
 | S4 | shaft 4 | upper guarded plaform | lower guarded platform | none |  | Verified | ✓ |  |
 | S5 | shaft 5 | upper stash | upper guarded plaform | cling grip left OR cling grip right OR silk soar OR easy scuttlebrace OR (faydown cloak AND ( ledge grab left OR easy shaman pogo)) |  | Verified | ✓ |  |
 | S5 | shaft 5 | upper guarded plaform | upper stash | none |  | Verified | ✓ |  |
-| PG4 | platform gap 4 | upper guarded plaform | sinner road entrance | ledge grab right OR progressive swift step 1 right OR clawline right x 1 OR sharpdart x 1 OR cling grip right OR silk soar OR faydown cloak OR medium shaman pogo  OR drifters cloak OR easy beast pogo |  | Verified | ✓ |  |
+| PG4 | platform gap 4 | upper guarded plaform | sinner road entrance | ledge grab right OR progressive swift step 1 right OR clawline right x 1 OR sharpdart x 1 OR cling grip right OR silk soar OR faydown cloak OR medium shaman pogo OR drifters cloak OR easy beast pogo |  | Verified | ✓ |  |
 | PG4 | platform gap 4 | sinner road entrance | upper guarded plaform | nothing |  | Verified | ✓ |  |
 
 #### Check Locations
@@ -9852,10 +9897,10 @@ No subroom connections defined.
 | 11 | Dreg Catcher 1 | lower guarded platform | nothing |  | Verified | enemy | ✓ |  |
 | 12 | Fluttermite 1 | tower platform | nothing |  | Verified | enemy | ✓ |  |
 | 13 | Fluttermite 2 | tower platform | Normal World Spawn |  | Verified | enemy | ✓ |  |
-| 14 | Fluttermite 3 | upper center room | silk soar OR easy enemy pogo |  | Verified | enemy | ✓ |  |
-| 15 | Fluttermite 4 | upper center room | Normal World Spawn AND (silk soar OR hard enemy pogo) |  | Verified | enemy | ✓ |  |
+| 14 | Fluttermite 3 | upper center room | silk soar OR easy pogo off fluttermite |  | Verified | enemy | ✓ |  |
+| 15 | Fluttermite 4 | upper center room | Normal World Spawn AND (silk soar OR hard pogo off fluttermite) |  | Verified | enemy | ✓ |  |
 | 16 | Mite 1 | tower platform | ledge grab left OR faydown cloak OR progressive swift step 2 left OR clawline left x 1 OR sharpdart x 1 OR silk soar |  | Verified | enemy | ✓ | technically can be lured without reaching the platform but its inconsistent |
-| 17 | Fluttermite 5 | upper center room | silk soar OR hard enemy pogo |  | Verified | enemy | ✓ |  |
+| 17 | Fluttermite 5 | upper center room | silk soar OR hard pogo off fluttermite |  | Verified | enemy | ✓ |  |
 | 18 | Fluttermite 6 | upper center room | Normal World Spawn |  | Verified | enemy | ✓ |  |
 | 19 | Dreg Catcher 2 | upper guarded plaform | Normal World Spawn |  | Verified | enemy | ✓ |  |
 
@@ -9957,18 +10002,18 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| PG1 | platform gap 1 | Top Left Shaft (Center) | Top Left Shaft (Upper) | ledge grab left OR ledge grab right OR silk soar OR faydown cloak OR cling grip left OR cling grip right OR easy scuttlebrace OR (easy enemy pogo AND (clawline left x 1 OR progressive swift step 1 left OR sharpdart x 1 OR drifters cloak OR easy beast pogo OR easy shaman pogo OR easy hunter pogo OR easy architect pogo OR easy reaper pogo) AND prereq fluttermite 1) |  | Verified | ✓ |  |
+| PG1 | platform gap 1 | Top Left Shaft (Center) | Top Left Shaft (Upper) | ledge grab either OR silk soar OR faydown cloak OR cling grip either OR easy scuttlebrace OR (easy pogo off fluttermite AND (clawline left x 1 OR progressive swift step 1 left OR sharpdart x 1 OR drifters cloak OR easy [beast, shaman, hunter, architect, reaper] pogo OR proficient movement)) OR (ponder the orb AND hard [shaman, reaper, beast] pogo) OR easy damage boost off fluttermite OR medium [voltvessels, flea brew] stall OR hard heal stall |  | Verified | ✓ |  |
 | PG1 | platform gap 1 | Top Left Shaft (Upper) | Top Left Shaft (Center) | nothing (just fall) |  | Verified | ✓ |  |
 | PG2 | platform gap 2 | Top Left Shaft (Center) | Top Left Shaft (bottom) | nothing (just fall) |  | Verified | ✓ |  |
-| PG2 | platform gap 2 | Top Left Shaft (bottom) | Top Left Shaft (Center) | ledge grab left OR ledge grab right OR silk soar OR faydown cloak OR cling grip left OR cling grip right OR easy scuttlebrace OR (medium enemy pogo AND prereq fluttermite 1 AND (ACT 1 OR ACT 2)) OR easy  shaman pogo OR medium beast pogo OR medium reaper pogo |  | Verified | ✓ |  |
+| PG2 | platform gap 2 | Top Left Shaft (bottom) | Top Left Shaft (Center) | ledge grab left OR ledge grab right OR silk soar OR faydown cloak OR cling grip left OR cling grip right OR easy scuttlebrace OR (medium pogo off fluttermite  AND normal world spawn) OR (ponder the orb AND (easy shaman pogo OR medium [reaper, beast] pogo)) |  | Verified | ✓ |  |
 | S1 | shaft 1 | Top Left Shaft (Center) | Top Right Section (Center) | clear tied blockade |  | Verified | ✓ |  |
 | S1 | shaft 1 | Top Right Section (Center) | Top Left Shaft (Center) | clear tied blockade AND (cling grip left OR easy scuttlebrace OR silksoar OR (faydown cloak AND (ledge grab right OR ledge grab left OR medium shaman pogo OR cling grip right))) |  | Verified | ✓ |  |
 | PG3 | platform gap 3 | Top Right Section (Center) | Top Right Section (Bottom) | nothing (just fall) |  | Verified | ✓ |  |
-| PG3 | platform gap 3 | Top Right Section (Bottom) | Top Right Section (Center) | faydown cloak OR silk soar OR cling grip right OR cling grip left OR ledge grab left OR ledge grab right OR (easy scuttlebrace AND drifters cloak) OR (medium enemy pogo AND prereq mitemother 1) |  | Verified | ✓ |  |
-| PG4 | platform gap 4 | Top Right Section (Center) | Top Right Section (Upper) | cling grip left OR faydown cloak OR silk soar OR ledge grab right OR (cling grip right AND (progressive swift step 2 right OR sharpdart x 1 OR clawline right x 1 OR drifters cloak)) |  | Verified | ✓ |  |
+| PG3 | platform gap 3 | Top Right Section (Bottom) | Top Right Section (Center) | faydown cloak OR silk soar OR cling grip right OR cling grip left OR ledge grab left OR ledge grab right OR (easy scuttlebrace AND drifters cloak) OR (medium pogo off mitemother) |  | Verified | ✓ |  |
+| PG4 | platform gap 4 | Top Right Section (Center) | Top Right Section (Upper) | medium pogo off mitemother OR cling grip left OR faydown cloak OR silk soar OR ledge grab right OR (cling grip right AND (progressive swift step 2 right OR sharpdart x 1 OR clawline right x 1 OR drifters cloak)) |  | Verified | ✓ |  |
 | PG4 | platform gap 4 | Top Right Section (Upper) | Top Right Section (Center) | nothing (jsut fall) |  | Verified | ✓ |  |
 | F1 | fall 1 | Top Right Section (Bottom) | bottom section right | nothing (just fall) |  | Verified | ✓ |  |
-| F1 | fall 1 | bottom section right | Top Right Section (Bottom) | silk soar OR (hard enemy pogo AND faydown cloak AND (cling grip left OR cling grip right OR ledge grab left OR ledge grab right)) |  | Verified | ✓ |  |
+| F1 | fall 1 | bottom section right | Top Right Section (Bottom) | silk soar OR (hard pogo off mitemother AND faydown cloak AND (cling grip left OR cling grip right OR ledge grab left OR ledge grab right)) |  | Verified | ✓ |  |
 | SG | swimming gap | bottom section right | bottom section left | (swim AND (ledge grab left OR faydown cloak OR cling grip left)) OR (clawline left x 2 AND faydown cloak AND (ledge grab left OR cling grip left)) |  | Verified | ✓ |  |
 | SG | swimming gap | bottom section left | bottom section right | swim OR ((clawline right x 1 OR sharpdart x 1) AND (faydown cloak OR drifters cloak)) OR (faydown cloak AND progressive swift step 2 right AND drifters cloak) OR (clawline right x 1 AND hard beast pogo) |  | Verified | ✓ |  |
 | F2 | fall 2 | Top Left Shaft (bottom) | bottom section left | open airlock left OR open airlock right OR open airlock up |  | Verified | ✓ |  |
@@ -10049,7 +10094,7 @@ No subroom connections defined.
 | 4 | Greymoor - the other other other Shell Shard Cache of the silver room | hidden area | prereq wooden wall |  | Verified | resource | ✓ |  |
 | 5 | Greymoor - the other other other other Shell Shard Cache of the silver room idk why so many | hidden area | prereq wooden wall |  | Verified | resource | ✓ |  |
 | 6 | wooden wall | hidden area | break wall: left |  | Verified | blockade | ✓ |  |
-| 7 | Craw 1 | hidden area | nada |  | Verified | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false  this mf is a lie from the craw court, he is slacking not in his post (scrapped enemy probably) |
+| 7 | Craw 1 | hidden area | nada AND invalid |  | Verified | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false  this mf is a lie from the craw court, he is slacking not in his post (scrapped enemy probably) |
 | 8 | Shardillard 1 | hidden area | silk soar OR ledge grab either OR cling grip either OR faydown cloak |  | Verified | enemy | ✓ |  |
 | 9 | Fluttermite 1 | hidden shaft loower | nothing |  | Verified | enemy | ✓ |  |
 | 10 | Fluttermite 2 | hidden shaft upper | nothing |  | Verified | enemy | ✓ |  |
@@ -10094,45 +10139,45 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| F1 | fall 1 | east tower entrance | lower hanging platforms | silk soar OR (ledge grab left AND (clawline left x {1} OR faydown cloak OR sharpdart x 1 OR progressive swift step 2 left OR (progressive swift step 1 left AND flea brew) OR (medium enemy pogo AND prereq fluttermite 1))) OR (faydown cloak AND (clawline left x {1} OR progressive swift step 1 left OR sharpdart x 1 OR drifters cloak OR (medium enemy pogo AND prereq fluttermite 1))) OR (easy scuttlebrace AND (clawline left x {2} OR (clawline left x {1} AND (sharpdart x 1 OR drifters cloak OR progressive swift step 2 left OR medium beast pogo)) OR (drifters cloak AND flea brew))) OR ((medium enemy pogo AND prereq fluttermite 1) AND (progressive swift step 2 left OR drifters cloak OR sharpdart x 1 OR clawline left x {1} OR easy beast pogo)) |  | Verified | ✓ |  |
+| F1 | fall 1 | east tower entrance | lower hanging platforms | silk soar OR (ledge grab left AND (clawline left x 1 OR faydown cloak OR sharpdart x 1 OR progressive swift step 2 left OR (progressive swift step 1 left AND flea brew) OR medium pogo off fluttermite)) OR (faydown cloak AND (clawline left x 1 OR progressive swift step 1 left OR sharpdart x 1 OR drifters cloak OR (medium pogo off fluttermite))) OR (easy scuttlebrace AND (clawline left x 2 OR (clawline left x 1 AND (sharpdart x 1 OR drifters cloak OR progressive swift step 2 left OR medium beast pogo)) OR (drifters cloak AND flea brew))) OR ((medium pogo off fluttermite) AND (progressive swift step 2 left OR drifters cloak OR sharpdart x 1 OR clawline left x 1 OR easy beast pogo)) |  | Verified | ✓ |  |
 | F1 | fall 1 | lower hanging platforms | east tower entrance | nothing (just fall) |  | Verified | ✓ |  |
-| C1 | climb 1 | steep climb | east tower entrance | silk soar OR faydown cloak OR ledge grab right OR cling grip right OR (easy enemy pogo AND prereq fluttermite 1) OR easy scuttlebrace |  | Verified | ✓ |  |
+| C1 | climb 1 | steep climb | east tower entrance | silk soar OR faydown cloak OR ledge grab right OR cling grip right OR (easy pogo off fluttermite) OR easy scuttlebrace |  | Verified | ✓ |  |
 | C1 | climb 1 | east tower entrance | steep climb | nothing (just fall) |  | Verified | ✓ |  |
-| PG1 | platform gap 1 | lower hanging platforms | upper area | faydown cloak OR ((medium enemy pogo AND prereq fluttermite 1 AND (ACT 1 OR ACT 2))) OR silk soar OR ((easy enemy pogo AND prereq fluttermite 1) AND (ledge grab right OR progressive swift step 2 right OR clawline right x 1 OR sharpdart x 1 OR drifters cloak)) |  | Verified | ✓ |  |
+| PG1 | platform gap 1 | lower hanging platforms | upper area | faydown cloak OR ((medium pogo off fluttermite AND (ACT 1 OR ACT 2))) OR silk soar OR ((easy pogo off fluttermite) AND (ledge grab right OR progressive swift step 2 right OR clawline right x 1 OR sharpdart x 1 OR drifters cloak)) |  | Verified | ✓ |  |
 | PG1 | platform gap 1 | upper area | lower hanging platforms | nothing (just fall) |  | Verified | ✓ |  |
 | F2 | fall 2 | upper area | east tower entrance | nothing (just fall) |  | Verified | ✓ |  |
 | F2 | fall 2 | east tower entrance | upper area | cling grip right OR silk soar OR (easy scuttlebrace AND (clawline left x 2 OR (clawline left x 1 AND (sharpdart x 1 OR drifters cloak OR easy beast pogo OR (ledge grab left AND progressive swift step 2 left))))) |  | Verified | ✓ |  |
 | BG1 | big gap 1 | lower hanging platforms | left middle section | drifters cloak OR (sharpdart x 3 AND progressive swift step 2) OR sharpdart x 4 OR clawline left x 4 OR (clawline left x 3 AND progressive swift step 2 left) |  | Verified | ✓ |  |
-| PG2 | platform gap 2 | lower section | left middle section | ledge grab left OR   silk soar OR faydown cloak OR cling grip left OR (easy scuttlebrace AND (medium enemy pogo AND (prereq Thread Raker 1 OR prereq Dreg catcher 1))) |  | Verified | ✓ |  |
+| PG2 | platform gap 2 | lower section | left middle section | ledge grab left OR   silk soar OR faydown cloak OR cling grip left OR easy scuttlebrace |  | Verified | ✓ |  |
 | PG2 | platform gap 2 | left middle section | lower section | nothing (just fall) |  | Verified | ✓ |  |
 | PG3 | platform gap 3 | left middle section | fluttermite place | ledge grab left OR cling grip left OR progressive swift step 1 left OR clawline left x 1 OR sharpdart x 3 OR drifters cloak OR silk soar OR faydown cloak OR easy beast pogo OR easy architect needle strike |  | Verified | ✓ |  |
 | PG3 | platform gap 3 | fluttermite place | left middle section | nothing |  | Verified | ✓ |  |
-| BG2 | big gap 2 | upper area | fluttermite place | clawline left x 5 OR (drifters cloak AND (clawline left x 2 OR (clawline left x 1 AND ((progressive swift step 2 left AND (ledge grab left OR easy beast pogo OR easy architect pogo)) OR (flea brew AND ledge grab left))) OR (sharpdart x 1 AND progressive swift step 2 left))) OR (clawline left x 4 AND progressive swift step 2 left) |  | Verified | ✓ |  |
-| C2 | climb 2 | lower section | above bellway | silk soar OR ledge grab right OR faydown cloak OR cling grip right OR (easy scuttlebrace AND (medium enemy pogo AND (prereq Thread Raker 1 OR prereq Dreg catcher 1))) |  | Verified | ✓ |  |
+| BG2 | big gap 2 | upper area | fluttermite place | clawline left x 5 OR (drifters cloak AND (clawline left x 2 OR (clawline left x 1 AND ((progressive swift step 2 left AND (ledge grab left OR easy [beast, architect] pogo)) OR (flea brew AND ledge grab left))) OR (sharpdart x 1 AND progressive swift step 2 left))) OR (clawline left x 4 AND progressive swift step 2 left) |  | Verified | ✓ |  |
+| C2 | climb 2 | lower section | above bellway | silk soar OR ledge grab right OR faydown cloak OR cling grip right OR (easy scuttlebrace AND (medium pogo off Thread Raker OR medium pogo off Dreg catcher)) |  | Verified | ✓ |  |
 | C2 | climb 2 | above bellway | lower section | nothing |  | Verified | ✓ |  |
-| C3 | climb 3 | above bellway | hanging platform | easy beast needle strike OR silk soar OR ledge grab right OR cling grip right OR faydown cloak OR (proficient movement AND progressive swift step 2 left) OR (cling grip right AND (progressive swift step 2 left OR clawline left x 1 OR sharpdart x 1 OR architect needle left OR easy beast pogo OR drifters cloak)) |  | Verified | ✓ |  |
+| C3 | climb 3 | above bellway | hanging platform | easy beast needle strike OR silk soar OR ledge grab right OR cling grip right OR faydown cloak OR (cling grip right AND (progressive swift step 2 left OR clawline left x 1 OR sharpdart x 1 OR architect needle left OR easy beast pogo OR drifters cloak)) |  | Verified | ✓ |  |
 | C3 | climb 3 | hanging platform | above bellway | nothing |  | Verified | ✓ |  |
-| C4 | climb 4 | hanging platform | steep climb | silk soar OR faydown cloak OR ledge grab right OR cling grip right OR (easy enemy pogo AND prereq fluttermite 1) OR easy scuttlebrace |  | Verified | ✓ |  |
+| C4 | climb 4 | hanging platform | steep climb | silk soar OR faydown cloak OR ledge grab right OR cling grip right OR (easy pogo off fluttermite) OR easy scuttlebrace |  | Verified | ✓ |  |
 | C4 | climb 4 | steep climb | hanging platform | nothing |  | Verified | ✓ |  |
 
 #### Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Greymoor - flying rat stolen rosaries above the west tower entrance | left middle section | nothing |  | Verified | resource | ✓ |  |
-| 2 | Greymoor - poor soul rosaries that were stolen by flying rats above the west tower entrance | left middle section | nothing |  | Verified | resource | ✓ |  |
+| 1 | Greymoor - rosaries above west tower door | left middle section | nothing |  | Verified | resource | ✓ |  |
+| 2 | Greymoor - stolen rosaries above west tower door | left middle section | nothing |  | Verified | resource | ✓ |  |
 | 3 | Greymoor - someones mortage at the top of the room | upper area | nothing |  | Verified | resource | ✓ |  |
-| 4 | Greymor - totally free to take shell shard cache at the top | upper area | faydown cloak OR progressive swift step 1 left OR (easy enemy pogo AND prereq fluttermite 1) OR silk soar OR sharpdart x 1 OR clawline left x 1 |  | Verified | resource | ✓ |  |
+| 4 | Greymor - totally free to take shell shard cache at the top | upper area | faydown cloak OR progressive swift step 1 left OR (easy pogo off fluttermite) OR silk soar OR sharpdart x 1 OR clawline left x 1 |  | Verified | resource | ✓ |  |
 | 5 | Get Kidnapped | lower section | after Wardenfly 1 |  | Verified | event | ✓ |  |
 | 6 | Garmond and Zaza Act 3 Meeting Greymoor | lower section | Act 3 |  | Verified | event | ✓ |  |
 | 7 | Sleeping Garmond | garmond room | Act 2 |  | Verified | event | ✓ |  |
-| 8 | Boos: MoorWing | lower section | Combat Requirements |  | Verified | boss | ✓ | moorwing is now forced to spawn here |
-| 9 | Thread Raker 1 | lower section | Normal World Spawn |  | Verified | enemy | ✓ | Spawn conditions: greymoor_05_centipedeArrives=true FSM Boolean flags: greymoor05_clearedOut, defeatedVampireGnatBoss, VampireGnatBossInAltLoc, encounteredVampireGnat_05, hasWalljump, citadelWoken, greymoor05_killedJailer, visitedUpperSlab, slab_cloak_battle_completed, previouslyVisitedGreymoor_05, encounteredVampireGnatBoss |
-| 10 | Thread Raker 2 | lower section | Black Thread World Spawn |  | Verified | enemy | ✓ | FSM Boolean flags: greymoor05_clearedOut, defeatedVampireGnatBoss, VampireGnatBossInAltLoc, encounteredVampireGnat_05, hasWalljump, citadelWoken, greymoor05_killedJailer, visitedUpperSlab, slab_cloak_battle_completed, previouslyVisitedGreymoor_05, encounteredVampireGnatBoss |
+| 8 | Boss: MoorWing | lower section | Combat Requirements |  | Verified | boss | ✓ | moorwing is now forced to spawn here |
+| 9 | Thread Raker 1 | lower section | Normal World Spawn AND clear Boss: MoorWing |  | Verified | enemy | ✓ | Spawn conditions: greymoor_05_centipedeArrives=true FSM Boolean flags: greymoor05_clearedOut, defeatedVampireGnatBoss, VampireGnatBossInAltLoc, encounteredVampireGnat_05, hasWalljump, citadelWoken, greymoor05_killedJailer, visitedUpperSlab, slab_cloak_battle_completed, previouslyVisitedGreymoor_05, encounteredVampireGnatBoss |
+| 10 | Thread Raker 2 | lower section | Black Thread World Spawn AND clear Boss: MoorWing |  | Verified | enemy | ✓ | FSM Boolean flags: greymoor05_clearedOut, defeatedVampireGnatBoss, VampireGnatBossInAltLoc, encounteredVampireGnat_05, hasWalljump, citadelWoken, greymoor05_killedJailer, visitedUpperSlab, slab_cloak_battle_completed, previouslyVisitedGreymoor_05, encounteredVampireGnatBoss |
 | 11 | Dreg Catcher 1 | left middle section | Normal World Spawn |  | Verified | enemy | ✓ | Spawn conditions: greymoor05_farmerPlatBroken=false FSM Boolean flags: greymoor05_clearedOut, defeatedVampireGnatBoss, VampireGnatBossInAltLoc, encounteredVampireGnat_05, hasWalljump, citadelWoken, greymoor05_killedJailer, visitedUpperSlab, slab_cloak_battle_completed, previouslyVisitedGreymoor_05, encounteredVampireGnatBoss |
-| 12 | Dreg Catcher 2 | lower section | nothing |  | Verified | enemy | ✓ | Spawn conditions: CurseKilledFlyGreymoor=false FSM Boolean flags: greymoor05_clearedOut, defeatedVampireGnatBoss, VampireGnatBossInAltLoc, encounteredVampireGnat_05, hasWalljump, citadelWoken, greymoor05_killedJailer, visitedUpperSlab, slab_cloak_battle_completed, previouslyVisitedGreymoor_05, encounteredVampireGnatBoss |
+| 12 | Dreg Catcher 2 | lower section | defeat Boss: MoorWing |  | Verified | enemy | ✓ | Spawn conditions: CurseKilledFlyGreymoor=false FSM Boolean flags: greymoor05_clearedOut, defeatedVampireGnatBoss, VampireGnatBossInAltLoc, encounteredVampireGnat_05, hasWalljump, citadelWoken, greymoor05_killedJailer, visitedUpperSlab, slab_cloak_battle_completed, previouslyVisitedGreymoor_05, encounteredVampireGnatBoss |
 | 13 | Wardenfly 1 | lower section | ( act 1 AND act 2 ) AND defeat THE bell beast boss fight |  | Verified | enemy | ✓ | per the wiki  Spawn conditions: visitedUpperSlab=false, UnlockedFastTravel=true FSM Boolean flags: hasWalljump, greymoor05_clearedOut, defeatedVampireGnatBoss, VampireGnatBossInAltLoc, encounteredVampireGnat_05, citadelWoken, greymoor05_killedJailer, visitedUpperSlab, slab_cloak_battle_completed, previouslyVisitedGreymoor_05, encounteredVampireGnatBoss |
-| 14 | Silk Snipper 1 | upper area | faydown cloak OR progressive swift step 1 left OR (easy enemy pogo AND prereq fluttermite 1) OR silk soar OR sharpdart x 1 OR clawline left x 1 |  | Verified | enemy | ✓ |  |
+| 14 | Silk Snipper 1 | upper area | faydown cloak OR progressive swift step 1 left OR (easy pogo off fluttermite) OR silk soar OR sharpdart x 1 OR clawline left x 1 |  | Verified | enemy | ✓ |  |
 | 15 | Fluttermite 1 | fluttermite place | nothing |  | Verified | enemy | ✓ |  |
 | 16 | Fluttermite 2 | east tower entrance | nothing |  | Verified | enemy | ✓ |  |
 | 17 | Fluttermite 3 | hanging platform | nothing |  | Verified | enemy | ✓ |  |
@@ -10172,20 +10217,20 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| TPL | tall platform left | long platform | short platform | faydown cloak OR medium scuttlebrace OR (medium enemy pogo AND prereq fluttermite 1) OR (((easy enemy pogo AND prereq fluttermite 1) OR flea brew) AND (ledge grab right OR cling grip right OR clawline right x 1 OR progressive swift step 1 right OR sharpdart x 1 OR easy hunter pogo OR easy reaper pogo OR easy beast pogo OR easy witch pogo OR easy architect pogo OR easy shaman pogo)) |  | Verified | ✓ | the place changes in act 3, must note requirements somewhere |
-| TPL | tall platform left | short platform | long platform | ledge grab left OR progressive swift step 1 left OR clawline left x 1 OR sharpdart x 1 OR faydown cloak OR drifters cloak OR easy hunter pogo OR easy reaper pogo OR easy beast pogo OR easy witch pogo OR easy architect pogo |  | Verified | ✓ |  |
-| TPR | tall platform right | right section | short platform | faydown cloak OR medium scuttlebrace OR (medium enemy pogo  AND prereq fluttermite 1)OR (easy enemy pogo AND prereq fluttermite 1 AND (cling grip left OR ledge grab left)) OR (cling grip right AND (progressive swift step 1 left OR clawline left x 1 OR sharpdart x 1)) OR (silk soar AND (clawline left x 1 OR progressive swift step 2 left OR sharpdart x 1)) |  | Verified | ✓ |  |
+| TPL | tall platform left | long platform | short platform | faydown cloak OR medium scuttlebrace OR medium pogo off fluttermite OR ((easy pogo off fluttermite OR flea brew) AND (ledge grab right OR cling grip right OR clawline right x 1 OR progressive swift step 1 right OR sharpdart x 1 OR easy [hunter, reaper, beast, witch, architect, shaman] pogo)) |  | Verified | ✓ | the place changes in act 3, must note requirements somewhere |
+| TPL | tall platform left | short platform | long platform | ledge grab left OR progressive swift step 1 left OR clawline left x 1 OR sharpdart x 1 OR faydown cloak OR drifters cloak OR easy [hunter, reaper, beast, witch, architect] pogo |  | Verified | ✓ |  |
+| TPR | tall platform right | right section | short platform | faydown cloak OR medium scuttlebrace OR medium pogo off fluttermite OR (easy pogo off fluttermite AND (cling grip left OR ledge grab left)) OR (cling grip right AND (progressive swift step 1 left OR clawline left x 1 OR sharpdart x 1)) OR (silk soar AND (clawline left x 1 OR progressive swift step 2 left OR sharpdart x 1)) |  | Verified | ✓ |  |
 | TPR | tall platform right | short platform | right section | nothing |  | Verified | ✓ |  |
-| UP | upper platform | short platform | upper platform section | silk soar OR (easy enemy pogo AND prereq fluttermite 1) OR progressive swift step 1 left OR faydown cloak OR sharpdart x 1 OR clawline left x 1 OR flea brew OR (drifters cloak AND (cling grip left OR ledge grab left)) |  | Verified | ✓ | the place changes in act 3, must note requirements somewhere |
+| UP | upper platform | short platform | upper platform section | silk soar OR easy pogo off fluttermite OR progressive swift step 1 left OR faydown cloak OR sharpdart x 1 OR clawline left x 1 OR flea brew OR (drifters cloak AND (cling grip left OR ledge grab left)) |  | Verified | ✓ | the place changes in act 3, must note requirements somewhere |
 | UP | upper platform | upper platform section | short platform | none (just fall) |  | Verified | ✓ |  |
 | G | gap | check platform | upper platform section | faydown cloak OR silk soar OR ((cling grip right OR ledge grab right) AND (clawline right x 1  OR progressive swift step 1 right OR sharpdart x 1)) |  | Verified | ✓ |  |
-| G | gap | upper platform section | check platform | faydown cloak OR drifters cloak OR progressive swift step 1 left OR sharpdart x 1 OR clawline left x 1 OR easy hunter pogo OR easy reaper pogo OR easy beast pogo OR easy witch pogo OR easy architect pogo OR easy shaman pogo |  | Verified | ✓ |  |
-| PG | pogo skip | left section | check platform | faydown cloak OR silk soar OR (hard enemy pogo AND ledge grab left AND prereq roachcatcher 1) |  | Verified | ✓ |  |
+| G | gap | upper platform section | check platform | faydown cloak OR drifters cloak OR progressive swift step 1 left OR sharpdart x 1 OR clawline left x 1 OR easy [hunter, reaper, beast, witch, architect, shaman] pogo |  | Verified | ✓ |  |
+| PG | pogo skip | left section | check platform | faydown cloak OR silk soar OR (hard pogo off roachcatcher AND ledge grab left) |  | Verified | ✓ |  |
 | PG | pogo skip | check platform | left section | none (fall) |  | Verified | ✓ |  |
 | LP | lower pasage | right section | left section | swim |  | Verified | ✓ |  |
 | LP | lower pasage | left section | right section | swim |  | Verified | ✓ |  |
-| BG | big gap | left section | long platform | progressive swift step 1 right OR clawline right x 1 OR sharpdart x 1 OR faydown cloak OR drifters cloak OR easy beast pogo OR ((flea brew OR swim OR easy architect needle strike) AND ledge grab right) OR (medium enemy pogo AND prereq roachcatcher 1) |  | Verified | ✓ |  |
-| BG | big gap | long platform | left section | progressive swift step 1 left OR clawline left x 1 OR sharpdart x 1 OR faydown cloak OR drifters cloak OR easy beast pogo OR easy hunter pogo OR easy architect pogo OR easy witch pogo OR easy reaper pogo OR easy shaman pogo OR flea brew OR swim OR (medium enemy pogo AND prereq roachcatcher 1) |  | Verified | ✓ |  |
+| BG | big gap | left section | long platform | progressive swift step 1 right OR clawline right x 1 OR sharpdart x 1 OR faydown cloak OR drifters cloak OR easy beast pogo OR ((flea brew OR swim OR easy architect needle strike) AND ledge grab right) OR medium pogo off roachcatcher |  | Verified | ✓ |  |
+| BG | big gap | long platform | left section | progressive swift step 1 left OR clawline left x 1 OR sharpdart x 1 OR faydown cloak OR drifters cloak OR easy [beast, hunter, architect, witch, reaper, shaman] pogo OR flea brew OR swim OR (medium pogo off roachcatcher) |  | Verified | ✓ |  |
 
 #### Check Locations
 
@@ -10232,10 +10277,10 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| S1 | shaft 1 | main section | upper corridor | silk soar OR cling grip left OR medium scuttlebrace OR (faydown cloak AND hard enemy pogo AND prereq Roachcatcher 1) |  | Verified | ✓ |  |
+| S1 | shaft 1 | main section | upper corridor | silk soar OR cling grip left OR medium scuttlebrace OR (faydown cloak AND hard pogo off Roachcatcher) |  | Verified | ✓ |  |
 | S1 | shaft 1 | upper corridor | main section | none (just fall) |  | Verified | ✓ |  |
 | D1 | drop 1 | main section | airstream lever | none (just fall) |  | Verified | ✓ |  |
-| D1 | drop 1 | airstream lever | main section | spike pogo OR silk soar OR ledge grab right OR (easy enemy pogo AND prereq mite 1) OR cling grip right OR faydown cloak OR (proficient movement AND progressive swift step 2 right) |  | Verified | ✓ |  |
+| D1 | drop 1 | airstream lever | main section | spike pogo OR silk soar OR ledge grab right OR (easy pogo off mite) OR cling grip right OR faydown cloak |  | Verified | ✓ |  |
 
 #### Check Locations
 
@@ -10243,14 +10288,17 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Greymoor - another smaller hanging rosary string at the left side of the room | main section | none |  | Verified | collectible | ✓ |  |
 | 2 | Greymoor - Rosary Cache hanging at the left side of the room | main section | none |  | Verified | collectible | ✓ |  |
-| 3 | Greymoor - Someones rosary pocket change above the airstream | main section | drifters cloak OR (silk soar AND (progressive swift step 2 right OR sharpdart x 1 OR clawline right x {1} OR faydown cloak OR hard enemy pogo)) |  | Verified | collectible | ✓ |  |
-| 4 | Geo Small Persistent (1) | main section | drifters cloak OR (silk soar AND (progressive swift step 2 right OR sharpdart x 1 OR clawline right x {1} OR faydown cloak OR hard enemy pogo)) | TODO | Verified | collectible | ✓ | seems to be a second one near "Greymoor - Rosary Cache #17" in the scene dump. need to investigate in game. - hero, 10/13  not sure what the name refers to but looking in vanilla game thee scene starts with 2 rosary on the ground next to the cache, could it be those? Still need to check in an AP run butwhen i worked in this room i grabbed all the checks i saw in the map - isssma, 10/16 |
-| 5 | airstream | airstream lever | hit lever right OR hit lever up |  | Verified | switch | ✓ |  |
-| 6 | Roachcatcher 1 | main section | nothing |  | Verified | enemy | ✓ |  |
-| 7 | Fluttermite 1 | main section | nothing |  | Verified | enemy | ✓ |  |
-| 8 | Fluttermite 2 | main section | nothing |  | Verified | enemy | ✓ |  |
-| 9 | Mite 1 | airstream lever | nothing |  | Verified | enemy | ✓ |  |
-| 10 | Void Mass 1 | main section | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 3 | Greymoor - Someones rosary pocket change above the airstream | main section | drifters cloak OR (silk soar AND (progressive swift step 2 right OR sharpdart x 1 OR clawline right x 1 OR faydown cloak OR hard pogo off roachcatcher)) |  | Verified | collectible | ✓ |  |
+| 4 | airstream | airstream lever | hit lever right OR hit lever up |  | Verified | switch | ✓ |  |
+| 5 | Roachcatcher 1 | main section | nothing |  | Verified | enemy | ✓ |  |
+| 6 | Fluttermite 1 | main section | nothing |  | Verified | enemy | ✓ |  |
+| 7 | Fluttermite 2 | main section | nothing |  | Verified | enemy | ✓ |  |
+| 8 | Mite 1 | airstream lever | nothing |  | Verified | enemy | ✓ |  |
+| 9 | Void Mass 1 | main section | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+
+#### Notes
+
+if you see Geo Small Persistent (1), ignore it, it doesnt exist, its a lie, kill it on sight even
 
 <a name="room-greymoor--greymoor-west-bellshrine-room"></a>
 
@@ -10298,13 +10346,13 @@ No subroom connections defined.
 | F1 | Fall 1 | upper path right | middle section right | none (just fall) |  | Verified | ✓ |  |
 | BG | Big Gap | middle section right | middle section left | progressive swift step 1 left AND clawline left x 5 AND drifters cloak AND faydown cloak |  | Verified | ✓ |  |
 | BG | Big Gap | middle section left | middle section right | progressive swift step 1 right AND clawline right x 5 AND drifters cloak AND faydown cloak |  | Verified | ✓ |  |
-| G1 | Gap 1 | upper path right | upper path middle | faydown cloak OR drifters cloak OR flea brew OR progressive swift step 1 left OR clawline left x 1 OR sharpdart x 1 OR medium scuttlebrace OR silk soar OR easy beast pogo OR easy architect needle strike OR easy wanderer needle strike |  | Verified | ✓ |  |
+| G1 | Gap 1 | upper path right | upper path middle | faydown cloak OR drifters cloak OR flea brew OR progressive swift step 1 left OR clawline left x 1 OR sharpdart x 1 OR medium scuttlebrace OR silk soar OR easy beast pogo OR easy [architect, wanderer] needle strike |  | Verified | ✓ |  |
 | G1 | Gap 1 | upper path middle | upper path right | nothing |  | Verified | ✓ |  |
 | F2 | Fall 2 | middle section left | main path | none (just fall) |  | Verified | ✓ |  |
 | F2 | Fall 2 | main path | middle section left | silk soar |  | Verified | ✓ |  |
-| G2 | gap 2 | upper path left | upper path middle | silk soar OR progressive swift step 1 right OR sharpdart x 2 OR clawline right x 2 OR faydown cloak OR ledge grab right OR easy beast pogo OR easy architect needle strike OR (hard enemy pogo AND prereq craw 1) |  | Verified | ✓ |  |
+| G2 | gap 2 | upper path left | upper path middle | silk soar OR progressive swift step 1 right OR sharpdart x 2 OR clawline right x 2 OR faydown cloak OR ledge grab right OR easy beast pogo OR easy architect needle strike OR hard pogo off craw |  | Verified | ✓ |  |
 | G2 | gap 2 | upper path middle | upper path left | nothing |  | Verified | ✓ |  |
-| G3 | gap 3 | upper path left | left exit platform | Ledge grab left OR cling grip left OR (medium enemy pogo AND prereq craw 1) OR faydown cloak OR medium scuttlebrace OR (progressive swift step 1 left AND (clawline left x 1 OR sharpdart x 1)) OR silk soar |  | Verified | ✓ |  |
+| G3 | gap 3 | upper path left | left exit platform | Ledge grab left OR cling grip left OR medium pogo off craw OR faydown cloak OR medium scuttlebrace OR (progressive swift step 1 left AND (clawline left x 1 OR sharpdart x 1)) OR silk soar |  | Verified | ✓ |  |
 | G3 | gap 3 | left exit platform | upper path left | nothing |  | Verified | ✓ |  |
 | G4 | gap 4 | right exit platform | upper path right | progressive swift step 1 OR flea brew OR ledge grab left OR clawline left x 1 OR sharpdart x 1 OR drifters cloak OR faydown cloak OR silk soar OR easy [hunter, reaper, beast, architect, witch, shaman] crest pogo OR easy wanderer needle strike |  | Verified | ✓ |  |
 | G4 | gap 4 | upper path right | right exit platform | cling grip right OR progressive swift step 1 right OR faydown cloak OR silk soar OR clawline right x 3 OR sharpdart x 3 OR ((drifters cloak OR clawline right x 1 OR sharpdart x 1) AND ledge grab right) |  | Verified | ✓ |  |
@@ -10359,19 +10407,19 @@ No subroom connections defined.
 | PG1 | platform gap 1 | upper section | middle section | nothing (just fall) |  | Verified | ✓ |  |
 | PG1 | platform gap 1 | middle section | upper section | ((act 1 OR act 2) AND (ledge grab left OR cling grip left OR silk soar OR easy scuttlebrace OR (progressive swift step 2 left AND proficient movement) OR faydown cloak)) OR (act 3 AND ((faydown cloak AND clawline right x 1) OR (((clawline right x 1 AND (ledge grab right OR flea brew)) OR (progressive swift step 1 right AND ((sharpdart x 1 AND drifters cloak) OR clawline right x 1)) OR (progressive swift step 2 right AND sharpdart) OR clawline right x 2) AND (ledge grab left OR cling grip left OR silk soar OR easy scuttlebrace OR (progressive swift step 2 left AND proficient movement))))) |  | Verified | ✓ |  |
 | F1 | fall 1 | middle section | tower entrance | nothing |  | Verified | ✓ |  |
-| F1 | fall 1 | tower entrance | middle section | silk soar OR (cling grip right AND (faydown cloak OR clawline left x 1 OR sharpdart x 1 OR (drifters cloak AND (ledge grab left OR progressive swift step 2 left OR easy beast pogo OR easy shaman pogo)) OR (easy architect needle strike AND progressive swift step 2 left))) |  | Verified | ✓ |  |
+| F1 | fall 1 | tower entrance | middle section | silk soar OR (cling grip right AND (faydown cloak OR clawline left x 1 OR sharpdart x 1 OR (drifters cloak AND (ledge grab left OR progressive swift step 2 left OR easy [beast, shaman] pogo)) OR (easy architect needle strike AND progressive swift step 2 left))) |  | Verified | ✓ |  |
 | B1 | blockade 1 | tower entrance | door cage | unlock tower entrance door |  | Verified | ✓ |  |
 | B1 | blockade 1 | door cage | tower entrance | unlock tower entrance door |  | Verified | ✓ |  |
 | PG2 | platform gap 2 | tower entrance | rosaries room | nothing |  | Verified | ✓ |  |
 | PG2 | platform gap 2 | rosaries room | tower entrance | progressive swift step 1 right OR clawline right x 1 OR sharpdart x 1 OR faydown cloak OR silk soar OR ledge grab right OR easy architect needle strike OR easy beast pogo  OR drifters cloak OR (proficient movement AND cling grip right) |  | Verified | ✓ |  |
 | PG3 | platform gap 3 | rosaries room | lower section | nothing |  | Verified | ✓ |  |
-| PG3 | platform gap 3 | lower section | rosaries room | ((ACT 1 OR ACT 2) AND (ledge grab left OR ledge grab right OR faydown cloak OR cling grip left OR cling grip right OR ((progressive swift step 2 right OR progressive swift step 2 left) AND proficient movement) OR silk soar OR (medium shaman pogo AND medium scuttlebrace))) OR (ACT 3 AND (silk soar OR cling grip left OR (hard enemy pogo AND (prereq Silk Snipper 1 OR prereq Roachcatcher 1) AND easy scuttlebrace))) |  | Verified | ✓ |  |
-| C1 | climb 1 | rosaries room | middle section | faydown cloak OR silk soar OR easy scuttlebrace OR ((progressive swift step 2 right AND progressive swift step 2 left) AND proficient movement) OR (ledge grab right AND ledge grab left) OR ((ledge grab left OR cling grip left OR (proficient movement AND progressive swift step 2 left)) AND (ledge grab right OR cling grip right OR (proficient movement AND progressive swift step 2 right))) |  | Verified | ✓ |  |
+| PG3 | platform gap 3 | lower section | rosaries room | ((ACT 1 OR ACT 2) AND (ledge grab left OR ledge grab right OR faydown cloak OR cling grip left OR cling grip right OR ((progressive swift step 2 right OR progressive swift step 2 left) AND proficient movement) OR silk soar OR (medium shaman pogo AND medium scuttlebrace))) OR (ACT 3 AND (silk soar OR cling grip left OR ((hard pogo off Silk Snipper OR hard pogo off Roachcatcher) AND easy scuttlebrace))) |  | Verified | ✓ |  |
+| C1 | climb 1 | rosaries room | middle section | faydown cloak OR silk soar OR easy scuttlebrace OR ((progressive swift step 2 right AND progressive swift step 2 left) AND proficient movement) OR (ledge grab right AND ledge grab left) OR ((ledge grab left OR cling grip left) AND (ledge grab right OR cling grip right)) |  | Verified | ✓ |  |
 | C1 | climb 1 | middle section | rosaries room | nothing |  | Verified | ✓ |  |
 | PG4 | platform gap 4 | wood corridor | upper section | nothing |  | Verified | ✓ |  |
 | PG4 | platform gap 4 | upper section | wood corridor | ledge grab left OR ledge grab right OR faydown cloak OR silk soar OR (medium enemy pogo AND prereq Silk Snipper 1) OR cling grip right OR cling grip left |  | Verified | ✓ |  |
-| PG5 | platform gap 5 | tiny platform | upper section | faydown cloak OR clawline left x 1 OR progressive swift step 1 left OR sharpdart x 1 OR ledge grab left OR easy beast pogo OR medium shaman pogo OR easy hunter pogo OR easy architect pogo OR easy reaper pogo |  | Verified | ✓ |  |
-| PG5 | platform gap 5 | upper section | tiny platform | faydown cloak OR clawline right x 2 OR sharpdart x 2 OR ((easy enemy pogo AND prereq fluttermite 1 AND (ACT 1 OR ACT 2)) AND (sharpdart x 1 OR clawline x 1)) OR progressive swift step 1 right  OR ledge grab right OR cling grip right OR easy beast pogo OR medium shaman pogo |  | Verified | ✓ |  |
+| PG5 | platform gap 5 | tiny platform | upper section | faydown cloak OR clawline left x 1 OR progressive swift step 1 left OR sharpdart x 1 OR ledge grab left OR easy [beast, hunter, architect, reaper] pogo OR medium shaman pogo |  | Verified | ✓ |  |
+| PG5 | platform gap 5 | upper section | tiny platform | faydown cloak OR clawline right x 2 OR sharpdart x 2 OR ((easy pogo off fluttermite AND (ACT 1 OR ACT 2)) AND (sharpdart x 1 OR clawline x 1)) OR progressive swift step 1 right  OR ledge grab right OR cling grip right OR easy beast pogo OR medium shaman pogo |  | Verified | ✓ |  |
 | F2 | fall 2 | tiny platform | middle section | nothing |  | Verified | ✓ |  |
 | F2 | fall 2 | middle section | tiny platform | silk soar |  | Verified | ✓ |  |
 
@@ -10456,7 +10504,7 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Halfway Home Gauntlet |  | ( silk soar OR cling grip OR (faydown cloak AND ledge grab) ) AND Combat Requirements |  | Verified | gauntlet | ✓ | completing the gauntlet requires defeating all enemies stationed across the room |
+| 1 | Halfway Home Gauntlet |  | silk soar OR cling grip OR (faydown cloak AND ledge grab) |  | Verified | gauntlet | ✓ | completing the gauntlet requires defeating all enemies stationed across the room |
 | 2 | vintage nectar |  | complete Halfway Home Gauntlet |  | Verified | event | ✓ |  |
 | 3 | Skarr Stalker 1 |  |  |  |  | enemy | ✓ |  |
 | 4 | Skarrlid 1 |  |  |  |  | enemy | ✓ |  |
@@ -10484,6 +10532,10 @@ No subroom connections defined.
 | 26 | Skarrlid 5 |  |  |  |  | enemy | ✓ |  |
 | 27 | Skarrlid 6 |  |  |  |  | enemy | ✓ |  |
 | 28 | Skarr Stalker 4 |  |  |  |  | enemy | ✓ |  |
+
+#### Notes
+
+dios me guarde de este mal
 
 ## Wisp Thicket
 
@@ -17053,22 +17105,25 @@ No check locations defined.
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | A1 | Ascent 1 | Ground | Lowest Hallway | Silk Soar OR Ledge Grab OR Clawline OR Faydown Cloak OR Cling Grip |  | Verified | ✓ |  |
+| A1 | Ascent 1 | Lowest Hallway | Ground | Nothing (Fall) |  | Verified | ✓ |  |
 | BR | BL to LR | Lowest Hallway | Upper Low Hallway | Silk Soar OR Easy Enemy Pogo OR Clawline OR Ledge Grab OR Faydown Cloak OR Sprint OR Cling Grip OR Scuttlebrace |  | Verified | ✓ |  |
-| CR | Collect Rosaries | Lever | Rosary Dish | Sprint OR Dash OR Clawline OR Drifter's Cloak OR Faydown Cloak OR Cling Grip OR Scuttlebrace OR Sharpdart OR Easy Beast Crest Pogo OR Easy Architect Crest Pogo OR Easy Needle Strike Stall (Beast OR Architect) |  | Verified | ✓ |  |
+| BR | BL to LR | Upper Low Hallway | Lowest Hallway | Nothing (Fall) |  | Verified | ✓ |  |
+| CL | Climbing | Upper Low Hallway | Left Side Shaft | Silk Soar OR Cling Grip Both OR (Faydown Cloak AND (Cling Grip Either OR Scuttlebrace OR Ledge Grab Both)) |  | Verified | ✓ |  |
+| CL | Climbing | Left Side Shaft | Upper Low Hallway | Nothing (Fall) |  | Verified | ✓ |  |
 | PR | Progresion! | Left Side Shaft | Lever | Silk Soar OR Cling Grip OR Scuttlebrace |  | Verified | ✓ |  |
+| PR | Progresion! | Lever | Left Side Shaft | Nothing (Fall) |  | Verified | ✓ |  |
+| CR | Collect Rosaries | Lever | Rosary Dish | Sprint OR Dash OR Clawline OR Drifter's Cloak OR Faydown Cloak OR Cling Grip OR Scuttlebrace OR Sharpdart OR Easy Beast Crest Pogo OR Easy Architect Crest Pogo OR Easy Needle Strike Stall (Beast OR Architect) |  | Verified | ✓ |  |
+| CR | Collect Rosaries | Rosary Dish | Lever | Sprint OR Dash OR Clawline OR Drifter's Cloak OR Faydown Cloak OR Cling Grip OR Scuttlebrace OR Sharpdart OR Easy Beast Crest Pogo OR Easy Architect Crest Pogo OR Easy Needle Strike Stall (Beast OR Architect) |  | Verified | ✓ |  |
 | LMH | Lever <> Middle Hallway | Lever | Middle Hallway | ledge Grab OR Cling Grip OR Faydown Cloak OR Silk Soar OR Scuttlebrace |  | Verified | ✓ |  |
 | LMH | Lever <> Middle Hallway | Middle Hallway | Lever | Nothing (Fall) |  | Verified | ✓ |  |
 | MP | More Progression! | Middle Hallway | Upper Platform | (Silk Soar OR Cling Grip OR Scuttlebrace OR (Activate Whispering Vaults: Flip Switch #8 AND Faydown Cloak AND (Ledge Grab OR Easy Shaman Crest Pogo))) |  | Verified | ✓ |  |
 | MP | More Progression! | Upper Platform | Middle Hallway | Silk Soar OR Cling Grip OR Scuttlebrace |  | Verified | ✓ | accounting for the fact the player may not have activated the shortcut |
 | EMP | Even More Progression! | Upper Platform | Distant Platform | Silk Soar OR ((Cling Grip OR Scuttlebrace) AND (Faydown Cloak OR (Clawline AND (Sprint OR Dash OR Drifter's Cloak) AND Ledge Grab))) |  | Verified | ✓ |  |
+| EMP | Even More Progression! | Distant Platform | Upper Platform | Activate Whispering Vaults: Flip Switch #7 |  | Verified | ✓ |  |
 | LP | Last Push! | Distant Platform | Top Hallway | Silk Soar OR Cling Grip OR Scuttlebrace |  | Verified | ✓ |  |
+| LP | Last Push! | Top Hallway | Distant Platform | Nothing (Fall) |  | Verified | ✓ |  |
 | MT | Map Time! | Top Hallway | Map Room | Activate Whispering Vaults: Flip Switch #9 AND (Silk Soar OR Cling Grip OR (Scuttlebrace AND (Easy Enemy Pogo/ OR Faydown Cloak))) |  | Verified | ✓ |  |
 | MT | Map Time! | Map Room | Top Hallway | Nothing (fall) |  | Verified | ✓ |  |
-| LP | Last Push! | Top Hallway | Distant Platform | Nothing (Fall) |  | Verified | ✓ |  |
-| EMP | Even More Progression! | Distant Platform | Upper Platform | Activate Whispering Vaults: Flip Switch #7 |  | Verified | ✓ |  |
-| PR | Progresion! | Lever | Left Side Shaft | Nothing (Fall) |  | Verified | ✓ |  |
-| BR | BL to LR | Upper Low Hallway | Lowest Hallway | Nothing (Fall) |  | Verified | ✓ |  |
-| A1 | Ascent 1 | Lowest Hallway | Ground | Nothing (Fall) |  | Verified | ✓ |  |
 | SC | Shortcut | Middle Hallway | Shortcut Box | Activate Hell Room Box Shortcut Thing AND (Ledge Grab OR Cling Grip OR Scuttlebrace OR Faydown Cloak OR Clawline) |  | Verified | ✓ | Opens Shortcut |
 | SC | Shortcut | Shortcut Box | Middle Hallway | Activate Hell Room Box Shortcut Thing |  | Verified | ✓ |  |
 
@@ -17084,6 +17139,10 @@ No check locations defined.
 | 6 | Whispering Vaults: Rosary Dish #3 | Rosary Dish | Nothing |  | Verified | resource | ✓ |  |
 | 7 | Hell Room Box Shortcut thing. | Shortcut Box | Break Wall Right |  | Verified | logic-point | ✓ | not a proper check, for logic documentation only. |
 | 8 | import enemies |  |  | TODO | Needs verification |  |  |  |
+
+#### Notes
+
+this room needs revisions, connections are not final.
 
 <a name="room-whispering-vaults--whispering-vaults-jumps"></a>
 
@@ -17224,14 +17283,18 @@ lol
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| CS | Collect Shit | Up And Away | Collectibles(TM) | Silk Soar OR Cling Grip OR (Scuttlebrace AND Faydown Cloak) |  | Verified | ✓ |  |
+| CS | Collect Shit | Up And Away | Collectibles(TM) | Silk Soar OR Cling Grip Both OR (Faydown Cloak AND (Scuttlebrace OR Cling Grip Either)) |  | Verified | ✓ |  |
+| CS | Collect Shit | Collectibles(TM) | Up And Away | Nothing (Fall) |  | Verified | ✓ |  |
+| MC | More Collecting | Collectibles(TM) | Down We Go | Silk Soar OR Scuttlebrace OR Cling Grip |  | Verified | ✓ |  |
 | MC | More Collecting | Down We Go | Collectibles(TM) | Nothing (Fall) |  | Verified | ✓ |  |
 | NHA | NOT HIM AGAIN! | Collectibles(TM) | White Palace Lite | Activate Whispering Vaults: Clawline Ring AND (Clawline OR Faydown Cloak OR (Cling Grip AND Spike Pogo) OR (Cling Grip AND (Dash OR Drifter's Cloak))) |  | Verified | ✓ |  |
-| OH | GET ME OUTTA HERE!! | White Palace Lite | Sky High | (Activate Whispering Vaults: Flip Switch #2 AND Drifter's Cloak) OR Silk Soar OR Cling Grip OR (Scuttlebrace AND Faydown Cloak) |  | Verified | ✓ |  |
-| CS | Collect Shit | Collectibles(TM) | Up And Away | Silk Soar OR Scuttlebrace OR Cling Grip |  | Verified | ✓ |  |
-| MC | More Collecting | Collectibles(TM) | Down We Go | Nothing (Fall) |  | Verified | ✓ |  |
 | NHA | NOT HIM AGAIN! | White Palace Lite | Collectibles(TM) | Invalid |  | Verified | ✓ |  |
+| OH | GET ME OUTTA HERE!! | White Palace Lite | Sky High | (Activate Whispering Vaults: Flip Switch #2 AND Drifter's Cloak) OR Silk Soar OR Cling Grip OR (Scuttlebrace AND Faydown Cloak) |  | Verified | ✓ |  |
 | OH | GET ME OUTTA HERE!! | Sky High | White Palace Lite | Nothing (BIG fall.) |  | Verified | ✓ |  |
+| ET | Entrance Travel | Up And Away | Down We Go | Silk Soar OR Cling Grip Both OR (Faydown Cloak AND (Scuttlebrace OR Cling Grip Either)) |  | Verified | ✓ |  |
+| ET | Entrance Travel | Down We Go | Up And Away | Nothing (Fall) |  | Verified | ✓ |  |
+| CM | Collect More | Sky High | Collectibles 2(TM) | (Activate Whispering Vaults: Flip Switch #2 AND Drifter's Cloak) OR Silk Soar OR Cling Grip OR (Scuttlebrace AND Faydown Cloak) |  | Verified | ✓ |  |
+| CM | Collect More | Collectibles 2(TM) | Sky High | Nothing (Fall) |  | Verified | ✓ |  |
 
 #### Check Locations
 
@@ -21762,13 +21825,16 @@ dont even ask me about the enemys i just uploaded the scene dump and got given t
 
 #### Subroom Connections
 
-No subroom connections defined.
+| Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| U | UpperArena | upper | arena | None (Fall) |  | Verified | ✓ |  |
+| U | UpperArena | arena | upper | easy scuttlebrace OR silk soar OR cling grip either |  | Verified | ✓ |  |
 
 #### Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Broodmother Boss Fight | arena | Combat Requirements | TODO | Verified | boss | ✓ | unknown if gated by quest or just room access |
+| 1 | Broodmother Boss Fight | arena | none |  | Verified | boss | ✓ | unknown if gated by quest or just room access |
 | 2 | Broodmother's Eye | arena | defeat Broodmother Boss Fight |  | Verified | collectible |  |  |
 | 3 | Freshfly 1 | arena | none |  | Verified | enemy | ✓ | wave 1 |
 | 4 | Freshfly 2 | arena | none |  | Verified | enemy | ✓ | wave 1 |
@@ -22840,24 +22906,25 @@ No check locations defined.
 | S7 | Upper Middle Left Exit | ✓ |
 | S8 | Upper Left Exit | ✓ |
 | S9 | Shell Shard Ledge | ✓ |
+| S10 | Ceiling Exits | ✓ |
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | LSR | right3 | Slab Spool Room | [Slab Flea Prison (Slab_13)](#room-the-slab--slab-flea-prison) | L | None |  | Verified | ✓ |  |
-| C4 | top4 | Upper Left Exit | [Mount Fay Right Side Middle Room (Peak_07)](#room-mount-fay--mount-fay-right-side-middle-room) | F4 | Invalid |  | Verified | ✓ | Just leads to f3 instead of f4 like intended |
-| C2 | top2 | Upper Left Exit | [Mount Fay Right Side Middle Room (Peak_07)](#room-mount-fay--mount-fay-right-side-middle-room) | F2 | Silk Soar |  | Verified | ✓ |  |
-| C3 | top3 | Shell Shard Ledge | [Mount Fay Right Side Middle Room (Peak_07)](#room-mount-fay--mount-fay-right-side-middle-room) | F3 | Silk Soar AND Proficient Movement |  | Verified | ✓ |  |
+| C4 | top4 | Ceiling Exits | [Mount Fay Right Side Middle Room (Peak_07)](#room-mount-fay--mount-fay-right-side-middle-room) | F4 | Invalid |  | Verified | ✓ | Just leads to f3 instead of f4 like intended |
+| C2 | top2 | Ceiling Exits | [Mount Fay Right Side Middle Room (Peak_07)](#room-mount-fay--mount-fay-right-side-middle-room) | F2 | Silk Soar |  | Verified | ✓ |  |
+| C3 | top3 | Ceiling Exits | [Mount Fay Right Side Middle Room (Peak_07)](#room-mount-fay--mount-fay-right-side-middle-room) | F3 | Silk Soar AND Proficient Movement |  | Verified | ✓ |  |
 | UL | left1 | Upper Left Exit | [Mount Fay Shakra (Peak_02)](#room-mount-fay--mount-fay-shakra) | UR | None |  | Verified | ✓ |  |
 | LL | left4 | Lower Left Exit | [Mount Fay Shakra (Peak_02)](#room-mount-fay--mount-fay-shakra) | LR | None |  | Verified | ✓ |  |
 | LML | left3 | Lower Middle Left Exit | [Mount Fay Shakra (Peak_02)](#room-mount-fay--mount-fay-shakra) | LMR | None |  | Verified | ✓ |  |
 | UML | left2 | Upper Middle Left Exit | [Mount Fay Shakra (Peak_02)](#room-mount-fay--mount-fay-shakra) | UMR | None |  | Verified | ✓ |  |
 | USR | right1 | Slab Side Room Upper | [Slab Arena (Slab_16)](#room-the-slab--slab-arena) | L | None |  | Verified | ✓ |  |
-| C1 | top1 | Upper Left Exit | [Mount Fay Right Side Middle Room (Peak_07)](#room-mount-fay--mount-fay-right-side-middle-room) | F1 | ( Cling Grip Left AND ( ( Clawline Right AND Clawline Left ) OR ( Faydown Cloak AND DRifters Cloak AND Dash Right ) OR ( Drifters Cloak AND Sharpdart AND ( Proficient Movement AND Spike Pogo ) AND Hard Heal Stall AND Hard Cocoon Skip ) ) AND Easy Pogo off driftlin ) OR Silk Soar |  | Verified | ✓ |  |
+| C1 | top1 | Ceiling Exits | [Mount Fay Right Side Middle Room (Peak_07)](#room-mount-fay--mount-fay-right-side-middle-room) | F1 | ( Cling Grip Left AND ( ( Clawline Right AND Clawline Left ) OR ( Faydown Cloak AND DRifters Cloak AND Dash Right ) OR ( Drifters Cloak AND Sharpdart AND ( Proficient Movement AND Spike Pogo ) AND Hard Heal Stall AND Hard Cocoon Skip ) ) AND Easy Pogo off driftlin ) OR Silk Soar |  | Verified | ✓ |  |
 | MSR | right2 | Slab Side Room Lower | [Slab Chilly Prison (Slab_15)](#room-the-slab--slab-chilly-prison) | L | None |  | Verified | ✓ |  |
 | LR | right4 | lower Entrance | [Slab Bellway (Slab_06)](#room-the-slab--slab-bellway) | L | None |  | Verified | ✓ |  |
-| DU | Dummy | Upper Left Exit | [Mount Fay Right Side Middle Room (Peak_07)](#room-mount-fay--mount-fay-right-side-middle-room) | F5 | Invalid |  | Verified |  |  |
+| DU | Dummy | Ceiling Exits | [Mount Fay Right Side Middle Room (Peak_07)](#room-mount-fay--mount-fay-right-side-middle-room) | F5 | Invalid |  | Verified |  |  |
 
 #### Subroom Connections
 
@@ -22879,6 +22946,9 @@ No check locations defined.
 | SH | Shortcut | Upper Left Exit | Upper Middle Left Exit | None |  | Verified | ✓ |  |
 | DR | Drop | Upper Left Exit | Shell Shard Ledge | None |  | Verified | ✓ |  |
 | DR | Drop | Shell Shard Ledge | Upper Left Exit | Silk Soar |  | Verified | ✓ |  |
+| CE | Celing Exits | Upper Left Exit | Ceiling Exits | ( Cling Grip Left AND ( ( Clawline Right AND Clawline Left ) OR ( Faydown Cloak AND DRifters Cloak AND Dash Right ) OR ( Drifters Cloak AND Sharpdart AND ( Proficient Movement AND Spike Pogo ) AND Hard Heal Stall AND Hard Cocoon Skip ) ) AND Easy Pogo off driftlin ) OR Silk Soar |  | Verified | ✓ |  |
+| CE | Celing Exits | Ceiling Exits | Upper Left Exit | dash left OR Faydown Cloak OR Easy Hunter pogo OR ( ( ( ( Hard plasmium stall OR Hard Cross Stitch stall x 5 OR Hard Pale Nails Stall x 5) AND Ledge grab Left ) OR Easy Flea Brew Stall OR Easy VoltVessels Stall ) AND Easy pogo off driftlin ) OR Clawline left OR Drifters Cloak OR Easy Beast pogo OR Medium Architect pogo |  | Verified | ✓ |  |
+| FA | Fallin | Ceiling Exits | Upper Middle Left Exit | None |  | Verified | ✓ |  |
 
 #### Check Locations
 
