@@ -9155,7 +9155,7 @@ One of the small craw here is an impostor
 | ML | middle left | middle section left | [Greymoor Bellshrine (Bellshrine_02)](#room-greymoor--greymoor-bellshrine) | R | none |  | Verified | ✓ |  |
 | MR | middle right | middle section right | [Greymoor Craw Lake Entrance (Greymoor_15)](#room-greymoor--greymoor-craw-lake-entrance) | UL | none |  | Verified | ✓ |  |
 | BL | bridge left | bridge section | [Greymoor West Bellshrine Room (Greymoor_01)](#room-greymoor--greymoor-west-bellshrine-room) | TR | none |  | Verified | ✓ |  |
-| HR | hidden right | hidden exit | [Greymoor Silver Shells room (Greymoor_17)](#room-greymoor--greymoor-silver-shells-room) | L | none |  | Verified | ✓ |  |
+| HR | hidden right | hidden exit | [Greymoor Silver Shells Room (Greymoor_17)](#room-greymoor--greymoor-silver-shells-room) | L | none |  | Verified | ✓ |  |
 
 #### Subroom Connections
 
@@ -10096,7 +10096,7 @@ No subroom connections defined.
 
 <a name="room-greymoor--greymoor-silver-shells-room"></a>
 
-### Greymoor Silver Shells room (Greymoor_17)
+### Greymoor Silver Shells Room (Greymoor_17)
 
 [View Room Page](./greymoor/greymoor-silver-shells-room.md)
 
@@ -10124,8 +10124,8 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| C1 | climb 1 | main path | hidden area | none (just fall) |  | Verified | ✓ |  |
-| C1 | climb 1 | hidden area | main path | ledge grab right OR (easy enemy pogo AND prereq Fluttermite 1) OR silk soar OR faydown cloak OR cling grip either OR easy scuttlebrace |  | Verified | ✓ |  |
+| C1 | climb 1 | main path | hidden shaft upper | none (just fall) |  | Verified | ✓ |  |
+| C1 | climb 1 | hidden shaft upper | main path | ledge grab right OR (easy enemy pogo AND prereq Fluttermite 1) OR silk soar OR faydown cloak OR cling grip either OR easy scuttlebrace |  | Verified | ✓ |  |
 | C2 | climb 2 | hidden shaft loower | hidden shaft upper | cling grip either OR ledge grab left OR silk soar OR faydown cloak OR easy scuttlebrace |  | Verified | ✓ |  |
 | C2 | climb 2 | hidden shaft upper | hidden shaft loower | nothing |  | Verified | ✓ |  |
 | B | blockade | hidden shaft loower | hidden area | prereq wooden wall |  | Verified | ✓ |  |
@@ -13372,7 +13372,7 @@ No check locations defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | L | left | left | [Sinner's Road Vertical Hall East (Dust_06)](#room-sinner-s-road--sinner-s-road-vertical-hall-east) | LR | none |  | Verified | ✓ |  |
-| B | basement | cage | [Greymoor Silver Shells room (Greymoor_17)](#room-greymoor--greymoor-silver-shells-room) | U | none |  | Verified | ✓ |  |
+| B | basement | cage | [Greymoor Silver Shells Room (Greymoor_17)](#room-greymoor--greymoor-silver-shells-room) | U | none |  | Verified | ✓ |  |
 
 #### Subroom Connections
 

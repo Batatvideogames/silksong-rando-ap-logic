@@ -17,7 +17,7 @@
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | L | left | left | [Sinner's Road Vertical Hall East (Dust_06)](sinner-s-road-vertical-hall-east.md) | LR | none |  | Verified | ✓ |  |
-| B | basement | cage | [Greymoor Silver Shells room (Greymoor_17)](../greymoor/greymoor-silver-shells-room.md) | U | none |  | Verified | ✓ |  |
+| B | basement | cage | [Greymoor Silver Shells Room (Greymoor_17)](../greymoor/greymoor-silver-shells-room.md) | U | none |  | Verified | ✓ |  |
 
 ## Subroom Connections
 

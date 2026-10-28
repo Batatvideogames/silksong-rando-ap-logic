@@ -32,7 +32,7 @@
 | ML | middle left | middle section left | [Greymoor Bellshrine (Bellshrine_02)](greymoor-bellshrine.md) | R | none |  | Verified | ✓ |  |
 | MR | middle right | middle section right | [Greymoor Craw Lake Entrance (Greymoor_15)](greymoor-craw-lake-entrance.md) | UL | none |  | Verified | ✓ |  |
 | BL | bridge left | bridge section | [Greymoor West Bellshrine Room (Greymoor_01)](greymoor-west-bellshrine-room.md) | TR | none |  | Verified | ✓ |  |
-| HR | hidden right | hidden exit | [Greymoor Silver Shells room (Greymoor_17)](greymoor-silver-shells-room.md) | L | none |  | Verified | ✓ |  |
+| HR | hidden right | hidden exit | [Greymoor Silver Shells Room (Greymoor_17)](greymoor-silver-shells-room.md) | L | none |  | Verified | ✓ |  |
 
 ## Subroom Connections
 

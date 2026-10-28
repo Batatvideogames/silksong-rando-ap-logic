@@ -102860,7 +102860,7 @@
       "id": "greymoor/greymoor-silver-shells-room",
       "source_record": "c355d518-9dc5-4ad4-a755-94eb3a080efe",
       "area_id": "greymoor",
-      "name": "Greymoor Silver Shells room",
+      "name": "Greymoor Silver Shells Room",
       "in_game_id": "Greymoor_17",
       "contributors": "Isssma",
       "notes": "",
@@ -102945,11 +102945,11 @@
       ],
       "connections": [
         {
-          "id": "greymoor/greymoor-silver-shells-room#main-path>hidden-area@c1",
+          "id": "greymoor/greymoor-silver-shells-room#main-path>hidden-shaft-upper@c1",
           "alias": "C1",
           "name": "climb 1",
           "source_node_id": "greymoor/greymoor-silver-shells-room#main-path",
-          "target_node_id": "greymoor/greymoor-silver-shells-room#hidden-area",
+          "target_node_id": "greymoor/greymoor-silver-shells-room#hidden-shaft-upper",
           "requirement": {
             "raw": "none (just fall)",
             "mode": "none",
@@ -102965,10 +102965,10 @@
           "unresolved_reasons": []
         },
         {
-          "id": "greymoor/greymoor-silver-shells-room#hidden-area>main-path@c1",
+          "id": "greymoor/greymoor-silver-shells-room#hidden-shaft-upper>main-path@c1",
           "alias": "C1",
           "name": "climb 1",
-          "source_node_id": "greymoor/greymoor-silver-shells-room#hidden-area",
+          "source_node_id": "greymoor/greymoor-silver-shells-room#hidden-shaft-upper",
           "target_node_id": "greymoor/greymoor-silver-shells-room#main-path",
           "requirement": {
             "raw": "ledge grab right OR (easy enemy pogo AND prereq Fluttermite 1) OR silk soar OR faydown cloak OR cling grip either OR easy scuttlebrace",

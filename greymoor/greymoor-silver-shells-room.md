@@ -1,4 +1,4 @@
-# Greymoor Silver Shells room (Greymoor_17)
+# Greymoor Silver Shells Room (Greymoor_17)
 
 **Game ID:** Greymoor_17
 
@@ -24,8 +24,8 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| C1 | climb 1 | main path | hidden area | none (just fall) |  | Verified | ✓ |  |
-| C1 | climb 1 | hidden area | main path | ledge grab right OR (easy enemy pogo AND prereq Fluttermite 1) OR silk soar OR faydown cloak OR cling grip either OR easy scuttlebrace |  | Verified | ✓ |  |
+| C1 | climb 1 | main path | hidden shaft upper | none (just fall) |  | Verified | ✓ |  |
+| C1 | climb 1 | hidden shaft upper | main path | ledge grab right OR (easy enemy pogo AND prereq Fluttermite 1) OR silk soar OR faydown cloak OR cling grip either OR easy scuttlebrace |  | Verified | ✓ |  |
 | C2 | climb 2 | hidden shaft loower | hidden shaft upper | cling grip either OR ledge grab left OR silk soar OR faydown cloak OR easy scuttlebrace |  | Verified | ✓ |  |
 | C2 | climb 2 | hidden shaft upper | hidden shaft loower | nothing |  | Verified | ✓ |  |
 | B | blockade | hidden shaft loower | hidden area | prereq wooden wall |  | Verified | ✓ |  |
@@ -51,12 +51,12 @@
 
 ### Connections
 
-[![Connections for Greymoor Silver Shells room (Greymoor_17)](../00-annotations/greymoor/greymoor-silver-shells-room-connections.png)](../00-annotations/greymoor/greymoor-silver-shells-room-connections.png)
+[![Connections for Greymoor Silver Shells Room (Greymoor_17)](../00-annotations/greymoor/greymoor-silver-shells-room-connections.png)](../00-annotations/greymoor/greymoor-silver-shells-room-connections.png)
 
 ### Checks
 
-[![Checks for Greymoor Silver Shells room (Greymoor_17)](../00-annotations/greymoor/greymoor-silver-shells-room-checks.png)](../00-annotations/greymoor/greymoor-silver-shells-room-checks.png)
+[![Checks for Greymoor Silver Shells Room (Greymoor_17)](../00-annotations/greymoor/greymoor-silver-shells-room-checks.png)](../00-annotations/greymoor/greymoor-silver-shells-room-checks.png)
 
 ### Scene
 
-[![Scene for Greymoor Silver Shells room (Greymoor_17)](../00-annotations/greymoor/greymoor-silver-shells-room-scene.png)](../00-annotations/greymoor/greymoor-silver-shells-room-scene.png)
+[![Scene for Greymoor Silver Shells Room (Greymoor_17)](../00-annotations/greymoor/greymoor-silver-shells-room-scene.png)](../00-annotations/greymoor/greymoor-silver-shells-room-scene.png)

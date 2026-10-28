@@ -232,7 +232,7 @@ Generated from the non-archived records in `input/silksong-rando-logic.db`.
 - [Greymoor Kratt Room (Greymoor_24)](./greymoor/greymoor-kratt-room.md)
 - [Greymoor Middle Passage (Greymoor_10)](./greymoor/greymoor-middle-passage.md)
 - [Greymoor Rat Tunnel (Greymoor_16)](./greymoor/greymoor-rat-tunnel.md)
-- [Greymoor Silver Shells room (Greymoor_17)](./greymoor/greymoor-silver-shells-room.md)
+- [Greymoor Silver Shells Room (Greymoor_17)](./greymoor/greymoor-silver-shells-room.md)
 - [Greymoor Towers Patio (Greymoor_05)](./greymoor/greymoor-towers-patio.md)
 - [Greymoor Upper Halfway Home Path (Greymoor_12)](./greymoor/greymoor-upper-halfway-home-path.md)
 - [Greymoor Upper Towers Path (Greymoor_11)](./greymoor/greymoor-upper-towers-path.md)
