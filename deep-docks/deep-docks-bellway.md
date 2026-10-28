@@ -24,7 +24,7 @@
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | E | Entrance | Entry | Bell Beast | Nothing. (Fall) |  | Verified | ✓ |  |
-| E | Entrance | Bell Beast | Entry | Ledge Grab OR Cling Grip OR Scuttlebrace OR Faydown Cloak OR Silk Soar |  | Verified | ✓ |  |
+| E | Entrance | Bell Beast | Entry | Ledge Grab OR Cling Grip OR Faydown Cloak OR Silk Soar |  | Verified | ✓ |  |
 
 ## Check Locations
 

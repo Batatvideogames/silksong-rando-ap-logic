@@ -3240,34 +3240,35 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| DS | door switch | main pathway | gauntlet right | Activate Deep Docks Entrance Lever AND (Ledge Grab OR Faydown Cloak OR Easy Scuttlebrace OR Easy Shaman Crest Pogo OR Easy Needle Strike Stall (Beast)) |  | Verified | ✓ |  |
-| DS | door switch | gauntlet right | main pathway | Activate Deep Docks Entrance Lever |  | Verified | ✓ |  |
+| DS | door switch | main pathway | gauntlet right | Activate Deep Docks Entrance Gate AND   (Silk Soar OR Ledge Grab Left OR Cling Grip Either OR Faydown Cloak OR Easy Scuttlebrace OR Easy [Shaman] Pogo OR Easy [beast] Charge OR Hard [Plasmium] Stall OR   (Ledge Grab Right AND  (Sprint Left OR Dash Left OR Clawline Left OR Easy [Hunter, Reaper, Beast, Architect] Pogo OR Easy [Reaper, Wanderer, Beast, Architect] Charge OR (Proficient Movement AND [Architect] Attack Left) OR Easy [Flintslate, Flea Brew, Plasmium, Voltvessels] Stall OR Flea Brew))) |  | Verified | ✓ | looooooooong requirement |
+| DS | door switch | gauntlet right | main pathway | Activate Deep Docks Entrance Gate |  | Verified | ✓ |  |
 | GL | gauntlet fight left | gauntlet left | gauntlet | Nothing. |  | Verified | ✓ |  |
-| GL | gauntlet fight left | gauntlet | gauntlet left | Defeat Deep Docks Entrance Battle |  | Verified | ✓ |  |
-| GR | gauntlet fight right | gauntlet | gauntlet right | Defeat Deep Docks Entrance Battle |  | Verified | ✓ |  |
-| GR | gauntlet fight right | gauntlet right | gauntlet | Activate Deep Docks Entrance Lever |  | Verified | ✓ |  |
+| GL | gauntlet fight left | gauntlet | gauntlet left | Defeat Deep Docks Entrance Gauntlet |  | Verified | ✓ |  |
+| GR | gauntlet fight right | gauntlet | gauntlet right | Defeat Deep Docks Entrance Gauntlet |  | Verified | ✓ |  |
+| GR | gauntlet fight right | gauntlet right | gauntlet | Defeat Deep Docks Entrance Gauntlet |  | Verified | ✓ |  |
 
 #### Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Deep Docks Entrance Lever | gauntlet right | Flip Switch Right |  | Verified | switch | ✓ |  |
-| 2 | Deep Docks Entrance Battle | gauntlet | Combat Requirements |  | Verified | gauntlet | ✓ |  |
-| 3 | Deep Docks Entrance - Mask Shard | gauntlet right | Nothing. |  | Verified | collectible | ✓ |  |
-| 4 | Smelt Shoveller 1 |  |  |  |  | enemy | ✓ |  |
-| 5 | Beastfly 1 |  |  |  |  | enemy | ✓ |  |
-| 6 | Beastfly 2 |  |  |  |  | enemy | ✓ |  |
-| 7 | Flintstone Flyer 1 |  |  |  |  | enemy | ✓ |  |
-| 8 | Pilgrim Hulk 1 |  |  |  |  | enemy | ✓ |  |
-| 9 | Beastfly 3 |  |  |  |  | enemy | ✓ |  |
-| 10 | Beastfly 4 |  |  |  |  | enemy | ✓ |  |
-| 11 | Flintstone Flyer 2 |  |  |  |  | enemy | ✓ |  |
-| 12 | Smokerock Sifter 1 |  |  |  |  | enemy | ✓ |  |
-| 13 | Beastfly 5 |  |  |  |  | enemy | ✓ |  |
-| 14 | Beastfly 6 |  |  |  |  | enemy | ✓ |  |
-| 15 | Beastfly 7 |  |  |  |  | enemy | ✓ |  |
-| 16 | Beastfly 8 |  |  |  |  | enemy | ✓ |  |
-| 17 | Beastfly 9 |  |  |  |  | enemy | ✓ |  |
+| 1 | Deep Docks Entrance Lever | gauntlet right | Flip Switch Right |  | Verified | switch | ✓ | WHY ARE THESE BLUE THEY'RE IN THE RIGHT SPOT nvm i figured it out. |
+| 2 | Deep Docks Entrance - Mask Shard | gauntlet right | Nothing. |  | Verified | collectible | ✓ |  |
+| 3 | Deep Docks Entrance Gate | gauntlet right | Activate Deep Docks Entrance Lever |  | Verified | logic-point | ✓ | no idea if this is needed. |
+| 4 | Deep Docks Entrance Gauntlet | gauntlet | Combat Requirements |  | Verified | gauntlet | ✓ |  |
+| 5 | Smelt Shoveller 1 | gauntlet | nada |  | Verified | enemy | ✓ | WHY ARE YOU BLUEEEEEEEEE |
+| 6 | Beastfly 1 | gauntlet | free |  | Verified | enemy | ✓ |  |
+| 7 | Beastfly 2 | gauntlet | none |  | Verified | enemy | ✓ |  |
+| 8 | Flintstone Flyer 1 | gauntlet | nada |  | Verified | enemy | ✓ |  |
+| 9 | Pilgrim Hulk 1 | gauntlet | nothing |  | Verified | enemy | ✓ |  |
+| 10 | Beastfly 3 | gauntlet | zilch |  | Verified | enemy | ✓ |  |
+| 11 | Beastfly 4 | gauntlet | nothing |  | Verified | enemy | ✓ |  |
+| 12 | Flintstone Flyer 2 | gauntlet | nada |  | Verified | enemy | ✓ |  |
+| 13 | Smokerock Sifter 1 | gauntlet | none |  | Verified | enemy | ✓ |  |
+| 14 | Beastfly 5 | gauntlet | free |  | Verified | enemy | ✓ |  |
+| 15 | Beastfly 6 | gauntlet | nothing |  | Verified | enemy | ✓ |  |
+| 16 | Beastfly 7 | gauntlet | nada |  | Verified | enemy | ✓ |  |
+| 17 | Beastfly 8 | gauntlet | zilch |  | Verified | enemy | ✓ |  |
+| 18 | Beastfly 9 | gauntlet | nothing |  | Verified | enemy | ✓ |  |
 
 <a name="room-deep-docks--deep-docks-bench-shaft"></a>
 
@@ -3300,10 +3301,11 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | bench rosary lock |  | Spend 30 Rosaries |  | Verified | lock | ✓ |  |
-| 2 | Deep Docks Shaft Bench |  | Unlock bench rosary lock |  | Verified | bench | ✓ |  |
+| 2 | Deep Docks Shaft Bench |  | Unlock bench rosary lock |  | Verified | bench | ✓ | is this how you're supposed to resolve these? no idea. |
 | 3 | Deep Docks - Rosary Cache #7 |  | Nothing. |  | Verified | resource | ✓ |  |
 | 4 | Deep Docks - Rosary Cache #8 |  | Nothing. |  | Verified | resource | ✓ |  |
 | 5 | Deep Docks - Shell Shard Cache #4 |  | Nothing. |  | Verified | resource | ✓ |  |
+| 6 | Song_Gate_small |  | Activate Deep Docks Upper Spire Gate Lever IN Deep Docks Upper Spire |  | Verified | logic-point | ✓ | again, iunno if this is needed. |
 
 <a name="room-deep-docks--deep-docks-map-shop"></a>
 
@@ -3432,7 +3434,7 @@ nothing to see here - just murder sleeping dudes
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | E | Entrance | Entry | Bell Beast | Nothing. (Fall) |  | Verified | ✓ |  |
-| E | Entrance | Bell Beast | Entry | Ledge Grab OR Cling Grip OR Scuttlebrace OR Faydown Cloak OR Silk Soar |  | Verified | ✓ |  |
+| E | Entrance | Bell Beast | Entry | Ledge Grab OR Cling Grip OR Faydown Cloak OR Silk Soar |  | Verified | ✓ |  |
 
 #### Check Locations
 
@@ -3610,7 +3612,24 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Deep Docks Lower Spire Rosary Cache | Rosary | Nothing. |  | Verified | resource | ✓ |  |
 | 2 | Deep Docks Lower Spire Blast Rock | Top Right Entrance Path | Break Blast Rock Up |  | Verified | blockade | ✓ |  |
-| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 3 | Shardillard 1 | Floor | Attack Up |  | Verified | enemy | ✓ | Spawn conditions: visitedCoral=true |
+| 4 | Hardbone Hopper 1 | Floor | nada |  | Verified | enemy | ✓ |  |
+| 5 | Hardbone Hopper 2 | Floor | zilch |  | Verified | enemy | ✓ |  |
+| 6 | Smelt Shoveller 1 | Top Left Entrance Path | free |  | Verified | enemy | ✓ |  |
+| 7 | Skull Scuttler 1 | Top Left Entrance Path | nothing |  | Verified | enemy | ✓ |  |
+| 8 | Smelt Shoveller 2 | Floor | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 9 | Skull Brute 1 | Floor | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 10 | Hardbone Hopper 3 | Floor | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 11 | Caranid 1 | Floor | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 12 | Skull Scuttler 2 | Floor | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 13 | Skarr Scout 1 | Rosary | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 14 | Hardbone Hopper 4 | Floor | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 15 | Caranid 2 | Top Right Entrance Path | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 16 | Skarr Scout 2 | Top Right Entrance Path | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 17 | Caranid 3 | Top Right Entrance Path | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 18 | Vicious Caranid 1 | Floor | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 19 | Beastfly 1 | Top Right Entrance Path | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 20 | Void Mass 1 | Top Right Entrance Path | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 
 <a name="room-deep-docks--is-this-still-deep-docks-east"></a>
 
@@ -3627,7 +3646,7 @@ No subroom connections defined.
 | No. | Subroom | Annotated |
 | --- | --- | --- |
 | S1 | Ground | ✓ |
-| S2 | Upper Right Door | ✓ |
+| S2 | Upper | ✓ |
 | S3 | Upper Left | ✓ |
 
 #### Room Transitions
@@ -3635,25 +3654,30 @@ No subroom connections defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | C | top2 | Upper Left | [Hunter's March Deep Docks Passage (Ant_05b)](#room-hunter-s-march--hunter-s-march-deep-docks-passage) | RF | none |  | Verified | ✓ |  |
-| UR | right2 | Upper Right Door | ["Deep Docks" March Side Room (Bone_East_04c)](#room-deep-docks--deep-docks-march-side-room) | L | Nothing. |  | Verified | ✓ |  |
+| UR | right2 | Upper | ["Deep Docks" March Side Room (Bone_East_04c)](#room-deep-docks--deep-docks-march-side-room) | L | Nothing. |  | Verified | ✓ |  |
 | LR | right1 | Ground | [Far Fields Deep Docks Loopback (Bone_East_15)](#room-far-fields--far-fields-deep-docks-loopback) | L | none |  | Verified | ✓ |  |
-| L | left1 | Ground | [Is this still Deep Docks West (Bone_East_04b)](#room-deep-docks--is-this-still-deep-docks-west) | R | Activate Deep Docks Is This Still Deep Docks West Blast Rock IN Is This Still Deep Docks West |  | Verified | ✓ |  |
+| L | left1 | Ground | [Is this still Deep Docks West (Bone_East_04b)](#room-deep-docks--is-this-still-deep-docks-west) | R | Activate Deep Docks Is This Still Deep Docks West Blast Rock IN Is This Still Deep Docks West OR Activate Is this still Deep Docks East Blast Rock |  | Verified | ✓ | both blast rocks are connected and trigger the same shortcut. |
 | F | bot1 | Ground | [Deep Docks Spire Lower (Bone_East_03)](#room-deep-docks--deep-docks-spire-lower) | C | Activate Deep Docks Lower Spire Blast Rock IN deep docks spire lower |  | Verified | ✓ |  |
 
 #### Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| GtA | Ground to Right | Ground | Upper Right Door | ((Easy Enemy Pogo OR Faydown Cloak) AND Ledge Grab) OR Cling Grip OR Silk Soar |  | Verified | ✓ |  |
-| GtA | Ground to Right | Upper Right Door | Ground | Nothing. (Fall) |  | Verified | ✓ |  |
-| GtL | Ground to Left | Ground | Upper Left | Easy Enemy Pogo OR Faydown Cloak OR Cling Grip OR Ledge Grab OR (Scuttlebrace AND Dash) |  | Verified | ✓ | dash is included in the scuttlebrace use requirement so i dont think its necessary but i will anyway, |
-| GtL | Ground to Left | Upper Left | Ground | Nothing. (Fall) |  | Verified | ✓ |  |
+| GtA | Ground to Right | Ground | Upper | (Faydown Cloak AND Ledge Grab) OR Medium Pogo OFF {Skarrwing} OR Cling Grip Either OR Silk Soar |  | Verified | ✓ |  |
+| GtA | Ground to Right | Upper | Ground | Nothing. (Fall) |  | Verified | ✓ |  |
+| AtT | Ground to Left | Upper | Upper Left | Faydown Cloak OR Silk Soar OR  ((Cling Grip Left OR Ledge Grab Left) AND  (Easy Pogo OFF [skarrwing] OR Cling Grip Right OR Ledge Grab Right)) |  | Verified | ✓ | dash is included in the scuttlebrace use requirement so i dont think its necessary but i will anyway, |
+| AtT | Ground to Left | Upper Left | Upper | Nothing. (Fall) |  | Verified | ✓ |  |
 
 #### Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 1 | Is this still Deep Docks East Blast Rock | Ground | Break Blast Rock Left |  | Verified | blockade | ✓ |  |
+| 2 | Skarrlid 1 | Upper Left | nada |  | Verified | enemy | ✓ |  |
+| 3 | Skarrlid 2 | Upper | free |  | Verified | enemy | ✓ |  |
+| 4 | Skarrwing 1 | Upper Left | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 5 | Skarrwing 2 | Ground | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 6 | Skarrwing 3 | Upper | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 
 <a name="room-deep-docks--is-this-still-deep-docks-west"></a>
 
@@ -3673,12 +3697,13 @@ No subroom connections defined.
 | S2 | ground | ✓ |
 | S3 | upper level | ✓ |
 | S4 | Rosary String | ✓ |
+| S5 | Main Area | ✓ |
 
 #### Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | right1 | ground | [Is this still Deep Docks? East (Bone_East_04)](#room-deep-docks--is-this-still-deep-docks-east) | L | Activate Deep Docks Is This Still Deep Docks West Blast Rock |  | Verified | ✓ |  |
+| R | right1 | ground | [Is this still Deep Docks? East (Bone_East_04)](#room-deep-docks--is-this-still-deep-docks-east) | L | Activate Deep Docks Is This Still Deep Docks West Blast Rock OR Activate Is this still Deep Docks East Blast Rock IN Is this still Deep Docks East |  | Verified | ✓ | both blast rocks are connected and trigger the same shortcut. |
 | C | top1 | upper level | [Hunter's March Deep Docks Passage (Ant_05b)](#room-hunter-s-march--hunter-s-march-deep-docks-passage) | LF | Nothing. |  | Verified | ✓ |  |
 | L | left1 | ground | [Deep Docks Upper Spire (Bone_East_05)](#room-deep-docks--deep-docks-upper-spire) | R | Nothing. |  | Verified | ✓ |  |
 
@@ -3686,12 +3711,14 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| BW | break wall | side room | ground | break wall left |  | Verified | ✓ |  |
-| BW | break wall | ground | side room | Ledge Grab OR Cling Grip OR Faydown Cloak OR Silk Soar OR Easy Enemy Pogo |  | Verified | ✓ |  |
-| BJ | big jump | ground | upper level | Cling Grip OR (Faydown Cloak AND Ledge Grab) OR Silk Soar |  | Verified | ✓ |  |
-| BJ | big jump | upper level | ground | none (falling) |  | Verified | ✓ |  |
-| CR | Collect Rosary | side room | Rosary String | Ledge Grab OR Faydown Cloak OR Cling Grip OR Silk Soar |  | Verified | ✓ |  |
+| T | Traversal | ground | Main Area | Ledge Grab Left OR Cling Grip Left OR Faydown Cloak OR Silk Soar OR Easy Pogo OFF [Skarrwing] |  | Verified | ✓ |  |
+| T | Traversal | Main Area | ground | Nothing (fall) |  | Verified | ✓ |  |
+| BW | Break Wall | Main Area | side room | Activate Rosary Wall |  | Verified | ✓ |  |
+| BW | Break Wall | side room | Main Area | Activate Rosary Wall |  | Verified | ✓ |  |
+| CR | Collect Rosary | side room | Rosary String | Ledge Grab Both OR Faydown Cloak OR Cling Grip Either OR Silk Soar |  | Verified | ✓ |  |
 | CR | Collect Rosary | Rosary String | side room | Nothing. (Fall) |  | Verified | ✓ |  |
+| U | Upper | Main Area | upper level | Silk Soar OR Cling Grip Left OR (Faydown Cloak AND (Ledge Grab Right OR Cling Grip Right)) |  | Verified | ✓ |  |
+| U | Upper | upper level | Main Area | Nothing (Fall) |  | Verified | ✓ |  |
 
 #### Check Locations
 
@@ -3699,7 +3726,11 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Deep Docks Is This Still Deep Docks West Blast Rock | ground | Break Blast Rock Right |  | Verified | blockade | ✓ |  |
 | 2 | Deep Docks Is This Still Deep Docks West - Frayed Rosary String | Rosary String | Nothing. |  | Verified | collectible | ✓ |  |
-| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 3 | Rosary Wall | Main Area | Break Wall Left |  | Verified | blockade | ✓ |  |
+| 4 | Skarrwing 1 | side room | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 5 | Skarrwing 2 | Main Area | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 6 | Skarrwing 3 | ground | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 7 | Skarrwing 4 | ground | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 
 <a name="room-deep-docks--deep-docks-march-side-room"></a>
 
@@ -3732,7 +3763,8 @@ No subroom connections defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | wardenfly |  | ( act 1 OR act 2 ) AND defeat THE bell beast boss fight |  | Verified | enemy | ✓ | per the wiki |
 | 2 | get kidnapped |  | after wardenfly |  | Verified | logic-point | ✓ |  |
-| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 3 | Skarr Scout 1 |  | nada |  | Verified | enemy | ✓ |  |
+| 4 | Spear Skarr 1 |  | free |  | Verified | enemy | ✓ |  |
 
 #### Notes
 
@@ -3769,11 +3801,11 @@ and a wardenfly!
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| SR | spire right | spire | right exit platform | Cling Grip  OR Sprint  OR Faydown Cloak  OR Clawline  OR Easy Scuttlebrace OR (Silk Soar AND (Magma Bell OR Proficient Movement)) OR ((Dash OR Drifter's Cloak OR Flea Brew) AND Ledge Grab)  OR Easy Beast Charge OR Easy Beast Pogo  OR (Flea Brew AND Easy Flea Brew Stall)  OR Sharpdart  OR (Medium Shaman Crest Pogo AND Ledge Grab)  OR ((Easy Voltvessels Stall OR Easy Flintslate Stall  OR Easy Plasmium Stall) AND Ledge Grab)  OR (Easy Drill Crystal Pogo AND Ledge Grab)  OR Easy Architect Charge  OR (Proficient Movement AND Architect Attack Right AND ( Easy Heal Stall OR Easy Flea Brew Stall OR Easy Flintslate Stall OR Easy Voltvessels Stall ) AND Ledge Grab) OR Hard Plasmium Stall |  | Verified | ✓ |  |
+| SR | spire right | spire | right exit platform | Cling Grip Both OR (Proficient Movement AND Cling Grip Right) OR Sprint Right OR Faydown Cloak OR Clawline Right OR Easy Scuttlebrace OR  (Silk Soar AND (Magma Bell OR Proficient Movement)) OR  ((Dash Right OR Drifter's Cloak OR Flea Brew) AND Ledge Grab Right)  OR Easy [Beast, Architect] Charge OR Easy [Beast] Pogo OR (Flea Brew AND Easy Flea Brew Stall) OR Sharpdart OR (Medium [Shaman] Crest Pogo AND Ledge Grab) OR  ((Easy [Voltvessels, Flintslate, Plasmium] Stall) AND Ledge Grab) OR (Easy Drill Crystal Pogo AND Ledge Grab) OR (Proficient Movement AND [Architect] Attack Right AND ( Easy Heal Stall OR Easy [Voltvessels, Flea Brew, Flintslate] Stall) AND Ledge Grab) OR Hard [Plasmium] Stall |  | Verified | ✓ |  |
 | SR | spire right | right exit platform | spire | Nothing. |  | Verified | ✓ |  |
-| PG | platform gaps | spire | Flea Access Lever | Sprint OR Dash OR Drifter's Cloak OR Faydown Cloak OR Clawline OR Silk Soar OR Scuttlebrace OR Easy Beast Charge OR Easy Beast Pogo OR Easy Architect Charge OR Flea Brew OR Medium Voltvessels Stall OR Sharpdart x 4 |  | Verified | ✓ |  |
+| PG | platform gaps | spire | Flea Access Lever | Sprint Left OR Dash Left OR Drifter's Cloak OR Faydown Cloak OR Clawline Left x 4 OR Silk Soar OR Scuttlebrace OR Easy [Beast, architect] Charge OR Easy Beast Pogo OR Flea Brew OR Medium Voltvessels Stall OR Sharpdart x 4 |  | Verified | ✓ |  |
 | PG | platform gaps | Flea Access Lever | spire | Nothing. (fall) |  | Verified | ✓ |  |
-| FG | Flea Get | Flea Access Lever | left flea platform | Silk Soar  OR (Faydown Cloak AND Ledge Grab)  OR Cling Grip  OR (Activate Deep Docks Upper Spire Flea Lever AND (Easy Scuttlebrace OR Sprint OR Dash)) OR (Drifter's Cloak AND (Ledge Grab OR (Proficient Movement AND Architect Attack Left) )) OR ((Easy Architect Charge OR Easy Beast Charge) AND Ledge Grab) |  | Verified | ✓ |  |
+| FG | Flea Get | Flea Access Lever | left flea platform | Silk Soar  OR (Faydown Cloak AND (Ledge Grab Left OR Cling Grip Either)) OR (Activate Deep Docks Upper Spire Flea Lever AND (Easy Scuttlebrace OR ((Sprint Left OR Dash Left) AND Ledge Grab Left))) OR (Drifter's Cloak AND (Ledge Grab Left OR (Proficient Movement AND Architect Attack Left) )) OR ((Easy Architect Charge OR Easy Beast Charge) AND Ledge Grab Left) |  | Verified | ✓ |  |
 | FG | Flea Get | left flea platform | Flea Access Lever | Nothing. (Fall) |  | Verified | ✓ |  |
 
 #### Check Locations
@@ -3785,7 +3817,15 @@ and a wardenfly!
 | 3 | Deep Docks Upper Spire Gate Lever | spire | Flip Switch Left |  | Verified | switch | ✓ |  |
 | 4 | Deep Docks Upper Spire Flea Lever | Flea Access Lever | Flip Switch Left |  | Verified | switch | ✓ |  |
 | 5 | Garmond and Zaza Act 3 Meeting Deep Docks | spire | Act 3 |  | Verified | event | ✓ |  |
-| 6 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 6 | Smelt Shoveller 1 | spire | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 7 | Skarr Stalker 1 | spire | Normal World Spawn |  | Verified | enemy | ✓ | Spawn conditions: hasBrolly=true |
+| 8 | Skarr Scout 1 | spire | Normal World Spawn |  | Verified | enemy | ✓ | Spawn conditions: hasBrolly=true |
+| 9 | Caranid 1 | right exit platform | Normal World Spawn |  | Verified | enemy | ✓ | Spawn conditions: hasBrolly=true |
+| 10 | Caranid 2 | right exit platform | Normal World Spawn |  | Verified | enemy | ✓ | Spawn conditions: hasBrolly=true |
+| 11 | Skarr Scout 2 | right exit platform | Normal World Spawn |  | Verified | enemy | ✓ | Spawn conditions: hasBrolly=true |
+| 12 | Void Mass 1 | spire | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 13 | Spear Skarr 1 | spire | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 14 | Skarr Stalker 2 | spire | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 
 <a name="room-deep-docks--deep-docks-forge"></a>
 
@@ -14250,7 +14290,7 @@ Left and right sides of this room are not connected.
 | 1 | Underworks: Shell Shard Cache #4 | Shell Shard Cache | Nothing. |  | Verified | collectible | ✓ |  |
 | 2 | Underworks: Needolin Lore #2 | One-way Entrance (Top) | Needolin |  | Verified | lore | ✓ | futureproofing in case |
 | 3 | Underworks: Needolin Lore #3 | Needolin Check Guy | Needolin |  | Verified | lore | ✓ | futureproofing in case |
-| 4 | Underworks Architect Forge Fan Lever | Left Exit (Top) | Flip Switch Left OR Flip Switch Right |  | Verified | switch | ✓ |  |
+| 4 | Underworks Architect Forge Fan Lever | Left Exit Bottom) | Flip Switch Left OR Flip Switch Right |  | Verified | switch | ✓ |  |
 | 5 | Twelfth Architect: Silkshot | First Floor | have Ruined Tool  AND Spend 1 Craftmetals |  | Verified | collectible | ✓ |  |
 | 6 | Twelfth Architect: Cogwork Wheel | First Floor | Spend 1 Craftmetals |  | Verified | collectible | ✓ |  |
 | 7 | Twelfth Architect: Sawtooth Circlet | First Floor | Spend 1 Craftmetals |  | Verified | collectible | ✓ |  |

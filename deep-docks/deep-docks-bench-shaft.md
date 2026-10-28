@@ -25,10 +25,11 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | bench rosary lock |  | Spend 30 Rosaries |  | Verified | lock | ✓ |  |
-| 2 | Deep Docks Shaft Bench |  | Unlock bench rosary lock |  | Verified | bench | ✓ |  |
+| 2 | Deep Docks Shaft Bench |  | Unlock bench rosary lock |  | Verified | bench | ✓ | is this how you're supposed to resolve these? no idea. |
 | 3 | Deep Docks - Rosary Cache #7 |  | Nothing. |  | Verified | resource | ✓ |  |
 | 4 | Deep Docks - Rosary Cache #8 |  | Nothing. |  | Verified | resource | ✓ |  |
 | 5 | Deep Docks - Shell Shard Cache #4 |  | Nothing. |  | Verified | resource | ✓ |  |
+| 6 | Song_Gate_small |  | Activate Deep Docks Upper Spire Gate Lever IN Deep Docks Upper Spire |  | Verified | logic-point | ✓ | again, iunno if this is needed. |
 
 ## Room Images
 

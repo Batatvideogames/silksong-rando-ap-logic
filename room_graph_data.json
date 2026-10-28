@@ -33991,11 +33991,6 @@
           "id": "deep-docks/deep-docks-entrance#gauntlet-right",
           "name": "gauntlet right",
           "notes": ""
-        },
-        {
-          "id": "deep-docks/deep-docks-entrance#unassigned",
-          "name": "unassigned",
-          "notes": ""
         }
       ],
       "transitions": [
@@ -34074,33 +34069,131 @@
           "source_node_id": "deep-docks/deep-docks-entrance#main-pathway",
           "target_node_id": "deep-docks/deep-docks-entrance#gauntlet-right",
           "requirement": {
-            "raw": "Activate Deep Docks Entrance Lever AND (Ledge Grab OR Faydown Cloak OR Easy Scuttlebrace OR Easy Shaman Crest Pogo OR Easy Needle Strike Stall (Beast))",
+            "raw": "Activate Deep Docks Entrance Gate AND \n\n(Silk Soar OR Ledge Grab Left OR Cling Grip Either OR Faydown Cloak OR Easy Scuttlebrace OR Easy [Shaman] Pogo OR Easy [beast] Charge OR Hard [Plasmium] Stall OR \n\n(Ledge Grab Right AND \n(Sprint Left OR Dash Left OR Clawline Left OR Easy [Hunter, Reaper, Beast, Architect] Pogo OR Easy [Reaper, Wanderer, Beast, Architect] Charge OR (Proficient Movement AND [Architect] Attack Left) OR Easy [Flintslate, Flea Brew, Plasmium, Voltvessels] Stall OR Flea Brew)))",
             "mode": "expression",
             "dnf": [
               [
-                "dependency:location:deep-docks/deep-docks-entrance::switch/deep-docks-entrance-lever",
-                "capability:ledge-grab:none"
+                "dependency:location:deep-docks/deep-docks-entrance::logic-point/deep-docks-entrance-gate",
+                "capability:silk-soar"
               ],
               [
-                "dependency:location:deep-docks/deep-docks-entrance::switch/deep-docks-entrance-lever",
+                "dependency:location:deep-docks/deep-docks-entrance::logic-point/deep-docks-entrance-gate",
+                "capability:ledge-grab:left"
+              ],
+              [
+                "dependency:location:deep-docks/deep-docks-entrance::logic-point/deep-docks-entrance-gate",
+                "capability:cling-grip:either"
+              ],
+              [
+                "dependency:location:deep-docks/deep-docks-entrance::logic-point/deep-docks-entrance-gate",
                 "capability:faydown-cloak"
               ],
               [
-                "dependency:location:deep-docks/deep-docks-entrance::switch/deep-docks-entrance-lever",
+                "dependency:location:deep-docks/deep-docks-entrance::logic-point/deep-docks-entrance-gate",
                 "capability:scuttlebrace:easy"
               ],
               [
-                "dependency:location:deep-docks/deep-docks-entrance::switch/deep-docks-entrance-lever",
+                "dependency:location:deep-docks/deep-docks-entrance::logic-point/deep-docks-entrance-gate",
                 "capability:crest-pogo:shaman:easy"
               ],
               [
-                "dependency:location:deep-docks/deep-docks-entrance::switch/deep-docks-entrance-lever",
-                "capability:needle-strike:none:easy"
+                "dependency:location:deep-docks/deep-docks-entrance::logic-point/deep-docks-entrance-gate",
+                "capability:needle-strike:beast:easy"
+              ],
+              [
+                "dependency:location:deep-docks/deep-docks-entrance::logic-point/deep-docks-entrance-gate",
+                "capability:stall:plasmium-phial:hard:1"
+              ],
+              [
+                "dependency:location:deep-docks/deep-docks-entrance::logic-point/deep-docks-entrance-gate",
+                "capability:ledge-grab:right",
+                "capability:sprint:left"
+              ],
+              [
+                "dependency:location:deep-docks/deep-docks-entrance::logic-point/deep-docks-entrance-gate",
+                "capability:ledge-grab:right",
+                "capability:dash:left"
+              ],
+              [
+                "dependency:location:deep-docks/deep-docks-entrance::logic-point/deep-docks-entrance-gate",
+                "capability:ledge-grab:right",
+                "capability:clawline:left:1"
+              ],
+              [
+                "dependency:location:deep-docks/deep-docks-entrance::logic-point/deep-docks-entrance-gate",
+                "capability:ledge-grab:right",
+                "capability:crest-pogo:hunter:easy"
+              ],
+              [
+                "dependency:location:deep-docks/deep-docks-entrance::logic-point/deep-docks-entrance-gate",
+                "capability:ledge-grab:right",
+                "capability:crest-pogo:reaper:easy"
+              ],
+              [
+                "dependency:location:deep-docks/deep-docks-entrance::logic-point/deep-docks-entrance-gate",
+                "capability:ledge-grab:right",
+                "capability:crest-pogo:beast:easy"
+              ],
+              [
+                "dependency:location:deep-docks/deep-docks-entrance::logic-point/deep-docks-entrance-gate",
+                "capability:ledge-grab:right",
+                "capability:crest-pogo:architect:easy"
+              ],
+              [
+                "dependency:location:deep-docks/deep-docks-entrance::logic-point/deep-docks-entrance-gate",
+                "capability:ledge-grab:right",
+                "capability:needle-strike:reaper:easy"
+              ],
+              [
+                "dependency:location:deep-docks/deep-docks-entrance::logic-point/deep-docks-entrance-gate",
+                "capability:ledge-grab:right",
+                "capability:needle-strike:wanderer:easy"
+              ],
+              [
+                "dependency:location:deep-docks/deep-docks-entrance::logic-point/deep-docks-entrance-gate",
+                "capability:ledge-grab:right",
+                "capability:needle-strike:beast:easy"
+              ],
+              [
+                "dependency:location:deep-docks/deep-docks-entrance::logic-point/deep-docks-entrance-gate",
+                "capability:ledge-grab:right",
+                "capability:needle-strike:architect:easy"
+              ],
+              [
+                "dependency:location:deep-docks/deep-docks-entrance::logic-point/deep-docks-entrance-gate",
+                "capability:ledge-grab:right",
+                "capability:proficient-movement",
+                "capability:needle:architect:left"
+              ],
+              [
+                "dependency:location:deep-docks/deep-docks-entrance::logic-point/deep-docks-entrance-gate",
+                "capability:ledge-grab:right",
+                "capability:stall:flintslate:easy:1"
+              ],
+              [
+                "dependency:location:deep-docks/deep-docks-entrance::logic-point/deep-docks-entrance-gate",
+                "capability:ledge-grab:right",
+                "capability:stall:flea-brew:easy:1"
+              ],
+              [
+                "dependency:location:deep-docks/deep-docks-entrance::logic-point/deep-docks-entrance-gate",
+                "capability:ledge-grab:right",
+                "capability:stall:plasmium-phial:easy:1"
+              ],
+              [
+                "dependency:location:deep-docks/deep-docks-entrance::logic-point/deep-docks-entrance-gate",
+                "capability:ledge-grab:right",
+                "capability:stall:voltvessels:easy:1"
+              ],
+              [
+                "dependency:location:deep-docks/deep-docks-entrance::logic-point/deep-docks-entrance-gate",
+                "capability:ledge-grab:right",
+                "capability:flea-brew-jump"
               ]
             ],
             "unresolved_reasons": []
           },
-          "notes": "",
+          "notes": "looooooooong requirement",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
@@ -34113,11 +34206,11 @@
           "source_node_id": "deep-docks/deep-docks-entrance#gauntlet-right",
           "target_node_id": "deep-docks/deep-docks-entrance#main-pathway",
           "requirement": {
-            "raw": "Activate Deep Docks Entrance Lever ",
+            "raw": "Activate Deep Docks Entrance Gate",
             "mode": "expression",
             "dnf": [
               [
-                "dependency:location:deep-docks/deep-docks-entrance::switch/deep-docks-entrance-lever"
+                "dependency:location:deep-docks/deep-docks-entrance::logic-point/deep-docks-entrance-gate"
               ]
             ],
             "unresolved_reasons": []
@@ -34155,11 +34248,11 @@
           "source_node_id": "deep-docks/deep-docks-entrance#gauntlet",
           "target_node_id": "deep-docks/deep-docks-entrance#gauntlet-left",
           "requirement": {
-            "raw": "Defeat Deep Docks Entrance Battle",
+            "raw": "Defeat Deep Docks Entrance Gauntlet",
             "mode": "expression",
             "dnf": [
               [
-                "dependency:location:deep-docks/deep-docks-entrance::gauntlet/deep-docks-entrance-battle"
+                "dependency:location:deep-docks/deep-docks-entrance::gauntlet/deep-docks-entrance-gauntlet"
               ]
             ],
             "unresolved_reasons": []
@@ -34177,11 +34270,11 @@
           "source_node_id": "deep-docks/deep-docks-entrance#gauntlet",
           "target_node_id": "deep-docks/deep-docks-entrance#gauntlet-right",
           "requirement": {
-            "raw": "Defeat Deep Docks Entrance Battle",
+            "raw": "Defeat Deep Docks Entrance Gauntlet",
             "mode": "expression",
             "dnf": [
               [
-                "dependency:location:deep-docks/deep-docks-entrance::gauntlet/deep-docks-entrance-battle"
+                "dependency:location:deep-docks/deep-docks-entrance::gauntlet/deep-docks-entrance-gauntlet"
               ]
             ],
             "unresolved_reasons": []
@@ -34199,11 +34292,11 @@
           "source_node_id": "deep-docks/deep-docks-entrance#gauntlet-right",
           "target_node_id": "deep-docks/deep-docks-entrance#gauntlet",
           "requirement": {
-            "raw": "Activate Deep Docks Entrance Lever ",
+            "raw": "Defeat Deep Docks Entrance Gauntlet",
             "mode": "expression",
             "dnf": [
               [
-                "dependency:location:deep-docks/deep-docks-entrance::switch/deep-docks-entrance-lever"
+                "dependency:location:deep-docks/deep-docks-entrance::gauntlet/deep-docks-entrance-gauntlet"
               ]
             ],
             "unresolved_reasons": []
@@ -34219,7 +34312,7 @@
         {
           "id": "location:deep-docks/deep-docks-entrance::switch/deep-docks-entrance-lever",
           "name": "Deep Docks Entrance Lever",
-          "in_game_id": null,
+          "in_game_id": "Song_lever_side",
           "location_type": "switch",
           "has_persisted_state": true,
           "node_id": "deep-docks/deep-docks-entrance#gauntlet-right",
@@ -34233,6 +34326,27 @@
             ],
             "unresolved_reasons": []
           },
+          "notes": "WHY ARE THESE BLUE THEY'RE IN THE RIGHT SPOT\nnvm i figured it out.",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:deep-docks/deep-docks-entrance::collectible/deep-docks-entrance-mask-shard",
+          "name": "Deep Docks Entrance - Mask Shard",
+          "in_game_id": "Heart Piece",
+          "location_type": "collectible",
+          "has_persisted_state": true,
+          "node_id": "deep-docks/deep-docks-entrance#gauntlet-right",
+          "requirement": {
+            "raw": "Nothing.",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
           "notes": "",
           "is_todo": false,
           "is_verified": true,
@@ -34240,8 +34354,31 @@
           "unresolved_reasons": []
         },
         {
-          "id": "location:deep-docks/deep-docks-entrance::gauntlet/deep-docks-entrance-battle",
-          "name": "Deep Docks Entrance Battle",
+          "id": "location:deep-docks/deep-docks-entrance::logic-point/deep-docks-entrance-gate",
+          "name": "Deep Docks Entrance Gate",
+          "in_game_id": "Song_Gate_small",
+          "location_type": "logic-point",
+          "has_persisted_state": false,
+          "node_id": "deep-docks/deep-docks-entrance#gauntlet-right",
+          "requirement": {
+            "raw": "Activate Deep Docks Entrance Lever",
+            "mode": "expression",
+            "dnf": [
+              [
+                "dependency:location:deep-docks/deep-docks-entrance::switch/deep-docks-entrance-lever"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "no idea if this is needed.",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:deep-docks/deep-docks-entrance::gauntlet/deep-docks-entrance-gauntlet",
+          "name": "Deep Docks Entrance Gauntlet",
           "in_game_id": null,
           "location_type": "gauntlet",
           "has_persisted_state": true,
@@ -34263,14 +34400,35 @@
           "unresolved_reasons": []
         },
         {
-          "id": "location:deep-docks/deep-docks-entrance::collectible/deep-docks-entrance-mask-shard",
-          "name": "Deep Docks Entrance - Mask Shard",
-          "in_game_id": null,
-          "location_type": "collectible",
-          "has_persisted_state": true,
-          "node_id": "deep-docks/deep-docks-entrance#gauntlet-right",
+          "id": "location:deep-docks/deep-docks-entrance::enemy/smelt-shoveller-1",
+          "name": "Smelt Shoveller 1",
+          "in_game_id": "\"Battle Scene\"[0]/\"Wave 1\"[0]/\"Dock Worker\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "deep-docks/deep-docks-entrance#gauntlet",
           "requirement": {
-            "raw": "Nothing.",
+            "raw": "nada",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "WHY ARE YOU BLUEEEEEEEEE",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:deep-docks/deep-docks-entrance::enemy/beastfly-1",
+          "name": "Beastfly 1",
+          "in_game_id": "\"Battle Scene\"[0]/\"Wave 2\"[0]/\"Bone Flyer\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "deep-docks/deep-docks-entrance#gauntlet",
+          "requirement": {
+            "raw": "free",
             "mode": "none",
             "dnf": [
               []
@@ -34284,340 +34442,256 @@
           "unresolved_reasons": []
         },
         {
-          "id": "location:deep-docks/deep-docks-entrance::enemy/smelt-shoveller-1",
-          "name": "Smelt Shoveller 1",
-          "in_game_id": "Dock Worker",
-          "location_type": "enemy",
-          "has_persisted_state": false,
-          "node_id": "deep-docks/deep-docks-entrance#unassigned",
-          "requirement": {
-            "raw": "",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "requirement is blank"
-            ]
-          },
-          "notes": "",
-          "is_todo": false,
-          "is_verified": null,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "subroom reference is blank",
-            "requirement is unresolved"
-          ]
-        },
-        {
-          "id": "location:deep-docks/deep-docks-entrance::enemy/beastfly-1",
-          "name": "Beastfly 1",
-          "in_game_id": "Bone Flyer",
-          "location_type": "enemy",
-          "has_persisted_state": false,
-          "node_id": "deep-docks/deep-docks-entrance#unassigned",
-          "requirement": {
-            "raw": "",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "requirement is blank"
-            ]
-          },
-          "notes": "",
-          "is_todo": false,
-          "is_verified": null,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "subroom reference is blank",
-            "requirement is unresolved"
-          ]
-        },
-        {
           "id": "location:deep-docks/deep-docks-entrance::enemy/beastfly-2",
           "name": "Beastfly 2",
-          "in_game_id": "Bone Flyer (1)",
+          "in_game_id": "\"Battle Scene\"[0]/\"Wave 2\"[0]/\"Bone Flyer (1)\"[0]",
           "location_type": "enemy",
           "has_persisted_state": false,
-          "node_id": "deep-docks/deep-docks-entrance#unassigned",
+          "node_id": "deep-docks/deep-docks-entrance#gauntlet",
           "requirement": {
-            "raw": "",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "requirement is blank"
-            ]
+            "raw": "none",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
           },
           "notes": "",
           "is_todo": false,
-          "is_verified": null,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "subroom reference is blank",
-            "requirement is unresolved"
-          ]
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
         },
         {
           "id": "location:deep-docks/deep-docks-entrance::enemy/flintstone-flyer-1",
           "name": "Flintstone Flyer 1",
-          "in_game_id": "Dock Flyer",
+          "in_game_id": "\"Battle Scene\"[0]/\"Wave 3\"[0]/\"Dock Flyer\"[0]",
           "location_type": "enemy",
           "has_persisted_state": false,
-          "node_id": "deep-docks/deep-docks-entrance#unassigned",
+          "node_id": "deep-docks/deep-docks-entrance#gauntlet",
           "requirement": {
-            "raw": "",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "requirement is blank"
-            ]
+            "raw": "nada",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
           },
           "notes": "",
           "is_todo": false,
-          "is_verified": null,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "subroom reference is blank",
-            "requirement is unresolved"
-          ]
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
         },
         {
           "id": "location:deep-docks/deep-docks-entrance::enemy/pilgrim-hulk-1",
           "name": "Pilgrim Hulk 1",
-          "in_game_id": "Pilgrim 02",
+          "in_game_id": "\"Battle Scene\"[0]/\"Wave 3\"[0]/\"Pilgrim 02\"[0]",
           "location_type": "enemy",
           "has_persisted_state": false,
-          "node_id": "deep-docks/deep-docks-entrance#unassigned",
+          "node_id": "deep-docks/deep-docks-entrance#gauntlet",
           "requirement": {
-            "raw": "",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "requirement is blank"
-            ]
+            "raw": "nothing",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
           },
           "notes": "",
           "is_todo": false,
-          "is_verified": null,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "subroom reference is blank",
-            "requirement is unresolved"
-          ]
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
         },
         {
           "id": "location:deep-docks/deep-docks-entrance::enemy/beastfly-3",
           "name": "Beastfly 3",
-          "in_game_id": "Bone Flyer",
+          "in_game_id": "\"Battle Scene\"[0]/\"Wave 4\"[0]/\"Bone Flyer\"[0]",
           "location_type": "enemy",
           "has_persisted_state": false,
-          "node_id": "deep-docks/deep-docks-entrance#unassigned",
+          "node_id": "deep-docks/deep-docks-entrance#gauntlet",
           "requirement": {
-            "raw": "",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "requirement is blank"
-            ]
+            "raw": "zilch",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
           },
           "notes": "",
           "is_todo": false,
-          "is_verified": null,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "subroom reference is blank",
-            "requirement is unresolved"
-          ]
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
         },
         {
           "id": "location:deep-docks/deep-docks-entrance::enemy/beastfly-4",
           "name": "Beastfly 4",
-          "in_game_id": "Bone Flyer (1)",
+          "in_game_id": "\"Battle Scene\"[0]/\"Wave 4\"[0]/\"Bone Flyer (1)\"[0]",
           "location_type": "enemy",
           "has_persisted_state": false,
-          "node_id": "deep-docks/deep-docks-entrance#unassigned",
+          "node_id": "deep-docks/deep-docks-entrance#gauntlet",
           "requirement": {
-            "raw": "",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "requirement is blank"
-            ]
+            "raw": "nothing",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
           },
           "notes": "",
           "is_todo": false,
-          "is_verified": null,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "subroom reference is blank",
-            "requirement is unresolved"
-          ]
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
         },
         {
           "id": "location:deep-docks/deep-docks-entrance::enemy/flintstone-flyer-2",
           "name": "Flintstone Flyer 2",
-          "in_game_id": "Dock Flyer (1)",
+          "in_game_id": "\"Battle Scene\"[0]/\"Wave 5\"[0]/\"Dock Flyer (1)\"[0]",
           "location_type": "enemy",
           "has_persisted_state": false,
-          "node_id": "deep-docks/deep-docks-entrance#unassigned",
+          "node_id": "deep-docks/deep-docks-entrance#gauntlet",
           "requirement": {
-            "raw": "",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "requirement is blank"
-            ]
+            "raw": "nada",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
           },
           "notes": "",
           "is_todo": false,
-          "is_verified": null,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "subroom reference is blank",
-            "requirement is unresolved"
-          ]
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
         },
         {
           "id": "location:deep-docks/deep-docks-entrance::enemy/smokerock-sifter-1",
           "name": "Smokerock Sifter 1",
-          "in_game_id": "Shield Dockworker",
+          "in_game_id": "\"Battle Scene\"[0]/\"Wave 5\"[0]/\"Shield Dockworker\"[0]",
           "location_type": "enemy",
           "has_persisted_state": false,
-          "node_id": "deep-docks/deep-docks-entrance#unassigned",
+          "node_id": "deep-docks/deep-docks-entrance#gauntlet",
           "requirement": {
-            "raw": "",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "requirement is blank"
-            ]
+            "raw": "none",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
           },
           "notes": "",
           "is_todo": false,
-          "is_verified": null,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "subroom reference is blank",
-            "requirement is unresolved"
-          ]
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
         },
         {
           "id": "location:deep-docks/deep-docks-entrance::enemy/beastfly-5",
           "name": "Beastfly 5",
-          "in_game_id": "Bone Flyer",
+          "in_game_id": "\"Battle Scene\"[0]/\"Wave 5\"[0]/\"Bone Flyer\"[0]",
           "location_type": "enemy",
           "has_persisted_state": false,
-          "node_id": "deep-docks/deep-docks-entrance#unassigned",
+          "node_id": "deep-docks/deep-docks-entrance#gauntlet",
           "requirement": {
-            "raw": "",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "requirement is blank"
-            ]
+            "raw": "free",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
           },
           "notes": "",
           "is_todo": false,
-          "is_verified": null,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "subroom reference is blank",
-            "requirement is unresolved"
-          ]
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
         },
         {
           "id": "location:deep-docks/deep-docks-entrance::enemy/beastfly-6",
           "name": "Beastfly 6",
-          "in_game_id": "Bone Flyer",
+          "in_game_id": "\"Battle Scene\"[0]/\"Wave 6\"[0]/\"Bone Flyer\"[0]",
           "location_type": "enemy",
           "has_persisted_state": false,
-          "node_id": "deep-docks/deep-docks-entrance#unassigned",
+          "node_id": "deep-docks/deep-docks-entrance#gauntlet",
           "requirement": {
-            "raw": "",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "requirement is blank"
-            ]
+            "raw": "nothing",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
           },
           "notes": "",
           "is_todo": false,
-          "is_verified": null,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "subroom reference is blank",
-            "requirement is unresolved"
-          ]
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
         },
         {
           "id": "location:deep-docks/deep-docks-entrance::enemy/beastfly-7",
           "name": "Beastfly 7",
-          "in_game_id": "Bone Flyer (1)",
+          "in_game_id": "\"Battle Scene\"[0]/\"Wave 6\"[0]/\"Bone Flyer (1)\"[0]",
           "location_type": "enemy",
           "has_persisted_state": false,
-          "node_id": "deep-docks/deep-docks-entrance#unassigned",
+          "node_id": "deep-docks/deep-docks-entrance#gauntlet",
           "requirement": {
-            "raw": "",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "requirement is blank"
-            ]
+            "raw": "nada",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
           },
           "notes": "",
           "is_todo": false,
-          "is_verified": null,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "subroom reference is blank",
-            "requirement is unresolved"
-          ]
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
         },
         {
           "id": "location:deep-docks/deep-docks-entrance::enemy/beastfly-8",
           "name": "Beastfly 8",
-          "in_game_id": "Bone Flyer",
+          "in_game_id": "\"Battle Scene\"[0]/\"Wave 7\"[0]/\"Bone Flyer\"[0]",
           "location_type": "enemy",
           "has_persisted_state": false,
-          "node_id": "deep-docks/deep-docks-entrance#unassigned",
+          "node_id": "deep-docks/deep-docks-entrance#gauntlet",
           "requirement": {
-            "raw": "",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "requirement is blank"
-            ]
+            "raw": "zilch",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
           },
           "notes": "",
           "is_todo": false,
-          "is_verified": null,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "subroom reference is blank",
-            "requirement is unresolved"
-          ]
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
         },
         {
           "id": "location:deep-docks/deep-docks-entrance::enemy/beastfly-9",
           "name": "Beastfly 9",
-          "in_game_id": "Bone Flyer (1)",
+          "in_game_id": "\"Battle Scene\"[0]/\"Wave 7\"[0]/\"Bone Flyer (1)\"[0]",
           "location_type": "enemy",
           "has_persisted_state": false,
-          "node_id": "deep-docks/deep-docks-entrance#unassigned",
+          "node_id": "deep-docks/deep-docks-entrance#gauntlet",
           "requirement": {
-            "raw": "",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "requirement is blank"
-            ]
+            "raw": "nothing",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
           },
           "notes": "",
           "is_todo": false,
-          "is_verified": null,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "subroom reference is blank",
-            "requirement is unresolved"
-          ]
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
         }
       ]
     },
@@ -34711,7 +34785,7 @@
         {
           "id": "location:deep-docks/deep-docks-bench-shaft::lock/bench-rosary-lock",
           "name": "bench rosary lock",
-          "in_game_id": null,
+          "in_game_id": "bell_toll_machine",
           "location_type": "lock",
           "has_persisted_state": true,
           "node_id": "deep-docks/deep-docks-bench-shaft#room",
@@ -34734,7 +34808,7 @@
         {
           "id": "location:deep-docks/deep-docks-bench-shaft::bench/deep-docks-shaft-bench",
           "name": "Deep Docks Shaft Bench",
-          "in_game_id": null,
+          "in_game_id": "bell_bench (1)",
           "location_type": "bench",
           "has_persisted_state": true,
           "node_id": "deep-docks/deep-docks-bench-shaft#room",
@@ -34748,7 +34822,7 @@
             ],
             "unresolved_reasons": []
           },
-          "notes": "",
+          "notes": "is this how you're supposed to resolve these? no idea.",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
@@ -34757,7 +34831,7 @@
         {
           "id": "location:deep-docks/deep-docks-bench-shaft::resource/deep-docks-rosary-cache-7",
           "name": "Deep Docks - Rosary Cache #7",
-          "in_game_id": null,
+          "in_game_id": "rosary_string_medium",
           "location_type": "resource",
           "has_persisted_state": false,
           "node_id": "deep-docks/deep-docks-bench-shaft#room",
@@ -34778,7 +34852,7 @@
         {
           "id": "location:deep-docks/deep-docks-bench-shaft::resource/deep-docks-rosary-cache-8",
           "name": "Deep Docks - Rosary Cache #8",
-          "in_game_id": null,
+          "in_game_id": "rosary_string_small_half",
           "location_type": "resource",
           "has_persisted_state": false,
           "node_id": "deep-docks/deep-docks-bench-shaft#room",
@@ -34799,7 +34873,7 @@
         {
           "id": "location:deep-docks/deep-docks-bench-shaft::resource/deep-docks-shell-shard-cache-4",
           "name": "Deep Docks - Shell Shard Cache #4",
-          "in_game_id": null,
+          "in_game_id": "Song Shard Barrel",
           "location_type": "resource",
           "has_persisted_state": false,
           "node_id": "deep-docks/deep-docks-bench-shaft#room",
@@ -34812,6 +34886,29 @@
             "unresolved_reasons": []
           },
           "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:deep-docks/deep-docks-bench-shaft::logic-point/song-gate-small",
+          "name": "Song_Gate_small",
+          "in_game_id": "Song_lever_side",
+          "location_type": "logic-point",
+          "has_persisted_state": false,
+          "node_id": "deep-docks/deep-docks-bench-shaft#room",
+          "requirement": {
+            "raw": "Activate Deep Docks Upper Spire Gate Lever IN Deep Docks Upper Spire",
+            "mode": "expression",
+            "dnf": [
+              [
+                "dependency:location:deep-docks/deep-docks-upper-spire::switch/deep-docks-upper-spire-gate-lever"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "again, iunno if this is needed.",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
@@ -35892,7 +35989,7 @@
           "source_node_id": "deep-docks/deep-docks-bellway#bell-beast",
           "target_node_id": "deep-docks/deep-docks-bellway#entry",
           "requirement": {
-            "raw": "Ledge Grab OR Cling Grip OR Scuttlebrace OR Faydown Cloak OR Silk Soar",
+            "raw": "Ledge Grab OR Cling Grip OR Faydown Cloak OR Silk Soar",
             "mode": "expression",
             "dnf": [
               [
@@ -35900,9 +35997,6 @@
               ],
               [
                 "capability:cling-grip:none"
-              ],
-              [
-                "capability:scuttlebrace:none"
               ],
               [
                 "capability:faydown-cloak"
@@ -36828,11 +36922,6 @@
           "id": "deep-docks/deep-docks-spire-lower#floor",
           "name": "Floor",
           "notes": ""
-        },
-        {
-          "id": "deep-docks/deep-docks-spire-lower#unassigned",
-          "name": "unassigned",
-          "notes": ""
         }
       ],
       "transitions": [
@@ -37171,7 +37260,7 @@
         {
           "id": "location:deep-docks/deep-docks-spire-lower::resource/deep-docks-lower-spire-rosary-cache",
           "name": "Deep Docks Lower Spire Rosary Cache",
-          "in_game_id": null,
+          "in_game_id": "grave_marker_break_grey",
           "location_type": "resource",
           "has_persisted_state": false,
           "node_id": "deep-docks/deep-docks-spire-lower#rosary",
@@ -37192,7 +37281,7 @@
         {
           "id": "location:deep-docks/deep-docks-spire-lower::blockade/deep-docks-lower-spire-blast-rock",
           "name": "Deep Docks Lower Spire Blast Rock",
-          "in_game_id": null,
+          "in_game_id": "DockDashExplodeRock",
           "location_type": "blockade",
           "has_persisted_state": true,
           "node_id": "deep-docks/deep-docks-spire-lower#top-right-entrance-path",
@@ -37213,28 +37302,410 @@
           "unresolved_reasons": []
         },
         {
-          "id": "location:deep-docks/deep-docks-spire-lower::unknown/import-enemies",
-          "name": "import enemies",
-          "in_game_id": null,
-          "location_type": "unknown",
-          "has_persisted_state": null,
-          "node_id": "deep-docks/deep-docks-spire-lower#unassigned",
+          "id": "location:deep-docks/deep-docks-spire-lower::enemy/shardillard-1",
+          "name": "Shardillard 1",
+          "in_game_id": "\"Shell Fossil Mimic\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "deep-docks/deep-docks-spire-lower#floor",
           "requirement": {
-            "raw": "",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "requirement is blank"
-            ]
+            "raw": "Attack Up",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:needle:none:up"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "Spawn conditions: visitedCoral=true",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:deep-docks/deep-docks-spire-lower::enemy/hardbone-hopper-1",
+          "name": "Hardbone Hopper 1",
+          "in_game_id": "\"Bone Hopper Simple (2)\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "deep-docks/deep-docks-spire-lower#floor",
+          "requirement": {
+            "raw": "nada",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
           },
           "notes": "",
-          "is_todo": true,
-          "is_verified": false,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "subroom reference is blank",
-            "requirement is unresolved"
-          ]
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:deep-docks/deep-docks-spire-lower::enemy/hardbone-hopper-2",
+          "name": "Hardbone Hopper 2",
+          "in_game_id": "\"Bone Hopper Simple (1)\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "deep-docks/deep-docks-spire-lower#floor",
+          "requirement": {
+            "raw": "zilch",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:deep-docks/deep-docks-spire-lower::enemy/smelt-shoveller-1",
+          "name": "Smelt Shoveller 1",
+          "in_game_id": "\"Dock Worker\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "deep-docks/deep-docks-spire-lower#top-left-entrance-path",
+          "requirement": {
+            "raw": "free",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:deep-docks/deep-docks-spire-lower::enemy/skull-scuttler-1",
+          "name": "Skull Scuttler 1",
+          "in_game_id": "\"Bone Goomba (2)\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "deep-docks/deep-docks-spire-lower#top-left-entrance-path",
+          "requirement": {
+            "raw": "nothing",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:deep-docks/deep-docks-spire-lower::enemy/smelt-shoveller-2",
+          "name": "Smelt Shoveller 2",
+          "in_game_id": "\"Black Thread States Thread Only Variant\"[0]/\"Normal World\"[0]/\"Dock Worker (1)\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "deep-docks/deep-docks-spire-lower#floor",
+          "requirement": {
+            "raw": "Normal World Spawn",
+            "mode": "expression",
+            "dnf": [
+              [
+                "state:enemy-spawn-normal-world"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:deep-docks/deep-docks-spire-lower::enemy/skull-brute-1",
+          "name": "Skull Brute 1",
+          "in_game_id": "\"Black Thread States Thread Only Variant\"[0]/\"Normal World\"[0]/\"Bone Goomba Large\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "deep-docks/deep-docks-spire-lower#floor",
+          "requirement": {
+            "raw": "Normal World Spawn",
+            "mode": "expression",
+            "dnf": [
+              [
+                "state:enemy-spawn-normal-world"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:deep-docks/deep-docks-spire-lower::enemy/hardbone-hopper-3",
+          "name": "Hardbone Hopper 3",
+          "in_game_id": "\"Black Thread States Thread Only Variant\"[0]/\"Normal World\"[0]/\"Bone Hopper Simple\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "deep-docks/deep-docks-spire-lower#floor",
+          "requirement": {
+            "raw": "Normal World Spawn",
+            "mode": "expression",
+            "dnf": [
+              [
+                "state:enemy-spawn-normal-world"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:deep-docks/deep-docks-spire-lower::enemy/caranid-1",
+          "name": "Caranid 1",
+          "in_game_id": "\"Black Thread States Thread Only Variant\"[0]/\"Normal World\"[0]/\"Bone Circler (1)\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "deep-docks/deep-docks-spire-lower#floor",
+          "requirement": {
+            "raw": "Normal World Spawn",
+            "mode": "expression",
+            "dnf": [
+              [
+                "state:enemy-spawn-normal-world"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:deep-docks/deep-docks-spire-lower::enemy/skull-scuttler-2",
+          "name": "Skull Scuttler 2",
+          "in_game_id": "\"Black Thread States Thread Only Variant\"[0]/\"Normal World\"[0]/\"Bone Goomba\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "deep-docks/deep-docks-spire-lower#floor",
+          "requirement": {
+            "raw": "Normal World Spawn",
+            "mode": "expression",
+            "dnf": [
+              [
+                "state:enemy-spawn-normal-world"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:deep-docks/deep-docks-spire-lower::enemy/skarr-scout-1",
+          "name": "Skarr Scout 1",
+          "in_game_id": "\"Black Thread States Thread Only Variant\"[0]/\"Normal World\"[0]/\"Hunting PreScene\"[0]/\"Bone Hunter Child Alerter\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "deep-docks/deep-docks-spire-lower#rosary",
+          "requirement": {
+            "raw": "Normal World Spawn",
+            "mode": "expression",
+            "dnf": [
+              [
+                "state:enemy-spawn-normal-world"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:deep-docks/deep-docks-spire-lower::enemy/hardbone-hopper-4",
+          "name": "Hardbone Hopper 4",
+          "in_game_id": "\"Black Thread States Thread Only Variant\"[0]/\"Normal World\"[0]/\"Hunting PreScene\"[0]/\"Bone Hopper Simple\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "deep-docks/deep-docks-spire-lower#floor",
+          "requirement": {
+            "raw": "Normal World Spawn",
+            "mode": "expression",
+            "dnf": [
+              [
+                "state:enemy-spawn-normal-world"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:deep-docks/deep-docks-spire-lower::enemy/caranid-2",
+          "name": "Caranid 2",
+          "in_game_id": "\"Black Thread States Thread Only Variant\"[0]/\"Normal World\"[0]/\"Hunting PreScene\"[0]/\"Bone Circler\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "deep-docks/deep-docks-spire-lower#top-right-entrance-path",
+          "requirement": {
+            "raw": "Normal World Spawn",
+            "mode": "expression",
+            "dnf": [
+              [
+                "state:enemy-spawn-normal-world"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:deep-docks/deep-docks-spire-lower::enemy/skarr-scout-2",
+          "name": "Skarr Scout 2",
+          "in_game_id": "\"Black Thread States Thread Only Variant\"[0]/\"Normal World\"[0]/\"Hunting Scene\"[0]/\"Bone Hunter Child\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "deep-docks/deep-docks-spire-lower#top-right-entrance-path",
+          "requirement": {
+            "raw": "Normal World Spawn",
+            "mode": "expression",
+            "dnf": [
+              [
+                "state:enemy-spawn-normal-world"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:deep-docks/deep-docks-spire-lower::enemy/caranid-3",
+          "name": "Caranid 3",
+          "in_game_id": "\"Black Thread States Thread Only Variant\"[0]/\"Normal World\"[0]/\"Hunting Scene\"[0]/\"Bone Circler (2)\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "deep-docks/deep-docks-spire-lower#top-right-entrance-path",
+          "requirement": {
+            "raw": "Normal World Spawn",
+            "mode": "expression",
+            "dnf": [
+              [
+                "state:enemy-spawn-normal-world"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:deep-docks/deep-docks-spire-lower::enemy/vicious-caranid-1",
+          "name": "Vicious Caranid 1",
+          "in_game_id": "\"Black Thread States Thread Only Variant\"[0]/\"Black Thread World\"[0]/\"Bone Circler Vicious (1)\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "deep-docks/deep-docks-spire-lower#floor",
+          "requirement": {
+            "raw": "Black Thread World Spawn",
+            "mode": "expression",
+            "dnf": [
+              [
+                "state:enemy-spawn-black-thread-world"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:deep-docks/deep-docks-spire-lower::enemy/beastfly-1",
+          "name": "Beastfly 1",
+          "in_game_id": "\"Black Thread States Thread Only Variant\"[0]/\"Black Thread World\"[0]/\"Bone Flyer (1)\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "deep-docks/deep-docks-spire-lower#top-right-entrance-path",
+          "requirement": {
+            "raw": "Black Thread World Spawn",
+            "mode": "expression",
+            "dnf": [
+              [
+                "state:enemy-spawn-black-thread-world"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:deep-docks/deep-docks-spire-lower::enemy/void-mass-1",
+          "name": "Void Mass 1",
+          "in_game_id": "\"Black Thread States Thread Only Variant\"[0]/\"Black Thread World\"[0]/\"Unspinner\"[0]/\"Black_Thread_Core\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "deep-docks/deep-docks-spire-lower#top-right-entrance-path",
+          "requirement": {
+            "raw": "Black Thread World Spawn",
+            "mode": "expression",
+            "dnf": [
+              [
+                "state:enemy-spawn-black-thread-world"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
         }
       ]
     },
@@ -37253,18 +37724,13 @@
           "notes": ""
         },
         {
-          "id": "deep-docks/is-this-still-deep-docks-east#upper-right-door",
-          "name": "Upper Right Door",
+          "id": "deep-docks/is-this-still-deep-docks-east#upper",
+          "name": "Upper",
           "notes": ""
         },
         {
-          "id": "deep-docks/is-this-still-deep-docks-east#upper-left",
+          "id": "deep-docks/is-this-still-deep-docks-east#top",
           "name": "Upper Left",
-          "notes": ""
-        },
-        {
-          "id": "deep-docks/is-this-still-deep-docks-east#unassigned",
-          "name": "unassigned",
           "notes": ""
         }
       ],
@@ -37275,7 +37741,7 @@
           "name": "top2",
           "in_game_id": "top2",
           "is_unsafe_arrival": false,
-          "source_node_id": "deep-docks/is-this-still-deep-docks-east#upper-left",
+          "source_node_id": "deep-docks/is-this-still-deep-docks-east#top",
           "target": "hunter-s-march/hunters-march-deep-docks-passage@rf",
           "requirement": {
             "raw": "none",
@@ -37297,7 +37763,7 @@
           "name": "right2",
           "in_game_id": "right2",
           "is_unsafe_arrival": false,
-          "source_node_id": "deep-docks/is-this-still-deep-docks-east#upper-right-door",
+          "source_node_id": "deep-docks/is-this-still-deep-docks-east#upper",
           "target": "deep-docks/deep-docks-march-side-room@l",
           "requirement": {
             "raw": "Nothing.",
@@ -37344,16 +37810,19 @@
           "source_node_id": "deep-docks/is-this-still-deep-docks-east#ground",
           "target": "deep-docks/is-this-still-deep-docks-west@r",
           "requirement": {
-            "raw": "Activate Deep Docks Is This Still Deep Docks West Blast Rock IN Is This Still Deep Docks West",
+            "raw": "Activate Deep Docks Is This Still Deep Docks West Blast Rock IN Is This Still Deep Docks West OR Activate Is this still Deep Docks East Blast Rock",
             "mode": "expression",
             "dnf": [
               [
                 "dependency:location:deep-docks/is-this-still-deep-docks-west::blockade/deep-docks-is-this-still-deep-docks-west-blast-rock"
+              ],
+              [
+                "dependency:location:deep-docks/is-this-still-deep-docks-east::blockade/is-this-still-deep-docks-east-blast-rock"
               ]
             ],
             "unresolved_reasons": []
           },
-          "notes": "",
+          "notes": "both blast rocks are connected and trigger the same shortcut.",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
@@ -37386,25 +37855,24 @@
       ],
       "connections": [
         {
-          "id": "deep-docks/is-this-still-deep-docks-east#ground>upper-right-door@gta",
+          "id": "deep-docks/is-this-still-deep-docks-east#ground>upper@gta",
           "alias": "GtA",
           "name": "Ground to Right",
           "source_node_id": "deep-docks/is-this-still-deep-docks-east#ground",
-          "target_node_id": "deep-docks/is-this-still-deep-docks-east#upper-right-door",
+          "target_node_id": "deep-docks/is-this-still-deep-docks-east#upper",
           "requirement": {
-            "raw": "((Easy Enemy Pogo OR Faydown Cloak) AND Ledge Grab) OR Cling Grip OR Silk Soar ",
+            "raw": "(Faydown Cloak AND Ledge Grab) OR Medium Pogo OFF {Skarrwing} OR Cling Grip Either OR Silk Soar ",
             "mode": "expression",
             "dnf": [
-              [
-                "capability:enemy-pogo:easy",
-                "capability:ledge-grab:none"
-              ],
               [
                 "capability:faydown-cloak",
                 "capability:ledge-grab:none"
               ],
               [
-                "capability:cling-grip:none"
+                "capability:enemy-type-pogo:Bone Hunter Buzzer:medium"
+              ],
+              [
+                "capability:cling-grip:either"
               ],
               [
                 "capability:silk-soar"
@@ -37419,10 +37887,10 @@
           "unresolved_reasons": []
         },
         {
-          "id": "deep-docks/is-this-still-deep-docks-east#upper-right-door>ground@gta",
+          "id": "deep-docks/is-this-still-deep-docks-east#upper>ground@gta",
           "alias": "GtA",
           "name": "Ground to Right",
-          "source_node_id": "deep-docks/is-this-still-deep-docks-east#upper-right-door",
+          "source_node_id": "deep-docks/is-this-still-deep-docks-east#upper",
           "target_node_id": "deep-docks/is-this-still-deep-docks-east#ground",
           "requirement": {
             "raw": "Nothing. (Fall)",
@@ -37439,30 +37907,44 @@
           "unresolved_reasons": []
         },
         {
-          "id": "deep-docks/is-this-still-deep-docks-east#ground>upper-left@gtl",
-          "alias": "GtL",
+          "id": "deep-docks/is-this-still-deep-docks-east#upper>top@att",
+          "alias": "AtT",
           "name": "Ground to Left",
-          "source_node_id": "deep-docks/is-this-still-deep-docks-east#ground",
-          "target_node_id": "deep-docks/is-this-still-deep-docks-east#upper-left",
+          "source_node_id": "deep-docks/is-this-still-deep-docks-east#upper",
+          "target_node_id": "deep-docks/is-this-still-deep-docks-east#top",
           "requirement": {
-            "raw": "Easy Enemy Pogo OR Faydown Cloak OR Cling Grip OR Ledge Grab OR (Scuttlebrace AND Dash)  ",
+            "raw": "Faydown Cloak OR Silk Soar OR \n((Cling Grip Left OR Ledge Grab Left) AND \n(Easy Pogo OFF [skarrwing] OR Cling Grip Right OR Ledge Grab Right)) ",
             "mode": "expression",
             "dnf": [
-              [
-                "capability:enemy-pogo:easy"
-              ],
               [
                 "capability:faydown-cloak"
               ],
               [
-                "capability:cling-grip:none"
+                "capability:silk-soar"
               ],
               [
-                "capability:ledge-grab:none"
+                "capability:cling-grip:left",
+                "capability:enemy-type-pogo:Bone Hunter Buzzer:easy"
               ],
               [
-                "capability:scuttlebrace:none",
-                "capability:dash:none"
+                "capability:cling-grip:left",
+                "capability:cling-grip:right"
+              ],
+              [
+                "capability:cling-grip:left",
+                "capability:ledge-grab:right"
+              ],
+              [
+                "capability:ledge-grab:left",
+                "capability:enemy-type-pogo:Bone Hunter Buzzer:easy"
+              ],
+              [
+                "capability:ledge-grab:left",
+                "capability:cling-grip:right"
+              ],
+              [
+                "capability:ledge-grab:left",
+                "capability:ledge-grab:right"
               ]
             ],
             "unresolved_reasons": []
@@ -37474,11 +37956,11 @@
           "unresolved_reasons": []
         },
         {
-          "id": "deep-docks/is-this-still-deep-docks-east#upper-left>ground@gtl",
-          "alias": "GtL",
+          "id": "deep-docks/is-this-still-deep-docks-east#top>upper@att",
+          "alias": "AtT",
           "name": "Ground to Left",
-          "source_node_id": "deep-docks/is-this-still-deep-docks-east#upper-left",
-          "target_node_id": "deep-docks/is-this-still-deep-docks-east#ground",
+          "source_node_id": "deep-docks/is-this-still-deep-docks-east#top",
+          "target_node_id": "deep-docks/is-this-still-deep-docks-east#upper",
           "requirement": {
             "raw": "Nothing. (Fall)",
             "mode": "none",
@@ -37496,28 +37978,138 @@
       ],
       "locations": [
         {
-          "id": "location:deep-docks/is-this-still-deep-docks-east::unknown/import-enemies",
-          "name": "import enemies",
-          "in_game_id": null,
-          "location_type": "unknown",
-          "has_persisted_state": null,
-          "node_id": "deep-docks/is-this-still-deep-docks-east#unassigned",
+          "id": "location:deep-docks/is-this-still-deep-docks-east::blockade/is-this-still-deep-docks-east-blast-rock",
+          "name": "Is this still Deep Docks East Blast Rock",
+          "in_game_id": "explode_wall",
+          "location_type": "blockade",
+          "has_persisted_state": true,
+          "node_id": "deep-docks/is-this-still-deep-docks-east#ground",
           "requirement": {
-            "raw": "",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "requirement is blank"
-            ]
+            "raw": "Break Blast Rock Left",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:break-blast-rock:left"
+              ]
+            ],
+            "unresolved_reasons": []
           },
           "notes": "",
-          "is_todo": true,
-          "is_verified": false,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "subroom reference is blank",
-            "requirement is unresolved"
-          ]
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:deep-docks/is-this-still-deep-docks-east::enemy/skarrlid-1",
+          "name": "Skarrlid 1",
+          "in_game_id": "\"Bone Hunter Tiny\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "deep-docks/is-this-still-deep-docks-east#top",
+          "requirement": {
+            "raw": "nada",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:deep-docks/is-this-still-deep-docks-east::enemy/skarrlid-2",
+          "name": "Skarrlid 2",
+          "in_game_id": "\"Bone Hunter Tiny (2)\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "deep-docks/is-this-still-deep-docks-east#upper",
+          "requirement": {
+            "raw": "free",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:deep-docks/is-this-still-deep-docks-east::enemy/skarrwing-1",
+          "name": "Skarrwing 1",
+          "in_game_id": "\"Black Thread States Thread Only Variant\"[0]/\"Normal World\"[0]/\"Bone Hunter Buzzer (3)\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "deep-docks/is-this-still-deep-docks-east#top",
+          "requirement": {
+            "raw": "Normal World Spawn",
+            "mode": "expression",
+            "dnf": [
+              [
+                "state:enemy-spawn-normal-world"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:deep-docks/is-this-still-deep-docks-east::enemy/skarrwing-2",
+          "name": "Skarrwing 2",
+          "in_game_id": "\"Black Thread States Thread Only Variant\"[0]/\"Normal World\"[0]/\"Bone Hunter Buzzer (1)\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "deep-docks/is-this-still-deep-docks-east#ground",
+          "requirement": {
+            "raw": "Normal World Spawn",
+            "mode": "expression",
+            "dnf": [
+              [
+                "state:enemy-spawn-normal-world"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:deep-docks/is-this-still-deep-docks-east::enemy/skarrwing-3",
+          "name": "Skarrwing 3",
+          "in_game_id": "\"Black Thread States Thread Only Variant\"[0]/\"Black Thread World\"[0]/\"Bone Hunter Buzzer (2)\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "deep-docks/is-this-still-deep-docks-east#upper",
+          "requirement": {
+            "raw": "Black Thread World Spawn",
+            "mode": "expression",
+            "dnf": [
+              [
+                "state:enemy-spawn-black-thread-world"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
         }
       ]
     },
@@ -37551,8 +38143,8 @@
           "notes": ""
         },
         {
-          "id": "deep-docks/is-this-still-deep-docks-west#unassigned",
-          "name": "unassigned",
+          "id": "deep-docks/is-this-still-deep-docks-west#main-area",
+          "name": "Main Area",
           "notes": ""
         }
       ],
@@ -37566,16 +38158,19 @@
           "source_node_id": "deep-docks/is-this-still-deep-docks-west#ground",
           "target": "deep-docks/is-this-still-deep-docks-east@l",
           "requirement": {
-            "raw": "Activate Deep Docks Is This Still Deep Docks West Blast Rock",
+            "raw": "Activate Deep Docks Is This Still Deep Docks West Blast Rock OR Activate Is this still Deep Docks East Blast Rock IN Is this still Deep Docks East",
             "mode": "expression",
             "dnf": [
               [
                 "dependency:location:deep-docks/is-this-still-deep-docks-west::blockade/deep-docks-is-this-still-deep-docks-west-blast-rock"
+              ],
+              [
+                "dependency:location:deep-docks/is-this-still-deep-docks-east::blockade/is-this-still-deep-docks-east-blast-rock"
               ]
             ],
             "unresolved_reasons": []
           },
-          "notes": "",
+          "notes": "both blast rocks are connected and trigger the same shortcut.",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
@@ -37628,42 +38223,20 @@
       ],
       "connections": [
         {
-          "id": "deep-docks/is-this-still-deep-docks-west#side-room>ground@bw",
-          "alias": "BW",
-          "name": "break wall",
-          "source_node_id": "deep-docks/is-this-still-deep-docks-west#side-room",
-          "target_node_id": "deep-docks/is-this-still-deep-docks-west#ground",
-          "requirement": {
-            "raw": "break wall left",
-            "mode": "expression",
-            "dnf": [
-              [
-                "capability:break-wall:left"
-              ]
-            ],
-            "unresolved_reasons": []
-          },
-          "notes": "",
-          "is_todo": false,
-          "is_verified": true,
-          "logic_status": "active",
-          "unresolved_reasons": []
-        },
-        {
-          "id": "deep-docks/is-this-still-deep-docks-west#ground>side-room@bw",
-          "alias": "BW",
-          "name": "break wall",
+          "id": "deep-docks/is-this-still-deep-docks-west#ground>main-area@t",
+          "alias": "T",
+          "name": "Traversal",
           "source_node_id": "deep-docks/is-this-still-deep-docks-west#ground",
-          "target_node_id": "deep-docks/is-this-still-deep-docks-west#side-room",
+          "target_node_id": "deep-docks/is-this-still-deep-docks-west#main-area",
           "requirement": {
-            "raw": "Ledge Grab OR Cling Grip OR Faydown Cloak OR Silk Soar OR Easy Enemy Pogo",
+            "raw": "Ledge Grab Left OR Cling Grip Left OR Faydown Cloak OR Silk Soar OR Easy Pogo OFF [Skarrwing] ",
             "mode": "expression",
             "dnf": [
               [
-                "capability:ledge-grab:none"
+                "capability:ledge-grab:left"
               ],
               [
-                "capability:cling-grip:none"
+                "capability:cling-grip:left"
               ],
               [
                 "capability:faydown-cloak"
@@ -37672,7 +38245,7 @@
                 "capability:silk-soar"
               ],
               [
-                "capability:enemy-pogo:easy"
+                "capability:enemy-type-pogo:Bone Hunter Buzzer:easy"
               ]
             ],
             "unresolved_reasons": []
@@ -37684,45 +38257,60 @@
           "unresolved_reasons": []
         },
         {
-          "id": "deep-docks/is-this-still-deep-docks-west#ground>upper-level@bj",
-          "alias": "BJ",
-          "name": "big jump",
-          "source_node_id": "deep-docks/is-this-still-deep-docks-west#ground",
-          "target_node_id": "deep-docks/is-this-still-deep-docks-west#upper-level",
-          "requirement": {
-            "raw": "Cling Grip OR (Faydown Cloak AND Ledge Grab) OR Silk Soar",
-            "mode": "expression",
-            "dnf": [
-              [
-                "capability:cling-grip:none"
-              ],
-              [
-                "capability:faydown-cloak",
-                "capability:ledge-grab:none"
-              ],
-              [
-                "capability:silk-soar"
-              ]
-            ],
-            "unresolved_reasons": []
-          },
-          "notes": "",
-          "is_todo": false,
-          "is_verified": true,
-          "logic_status": "active",
-          "unresolved_reasons": []
-        },
-        {
-          "id": "deep-docks/is-this-still-deep-docks-west#upper-level>ground@bj",
-          "alias": "BJ",
-          "name": "big jump",
-          "source_node_id": "deep-docks/is-this-still-deep-docks-west#upper-level",
+          "id": "deep-docks/is-this-still-deep-docks-west#main-area>ground@t",
+          "alias": "T",
+          "name": "Traversal",
+          "source_node_id": "deep-docks/is-this-still-deep-docks-west#main-area",
           "target_node_id": "deep-docks/is-this-still-deep-docks-west#ground",
           "requirement": {
-            "raw": "none (falling)",
+            "raw": "Nothing (fall)",
             "mode": "none",
             "dnf": [
               []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "deep-docks/is-this-still-deep-docks-west#main-area>side-room@bw",
+          "alias": "BW",
+          "name": "Break Wall",
+          "source_node_id": "deep-docks/is-this-still-deep-docks-west#main-area",
+          "target_node_id": "deep-docks/is-this-still-deep-docks-west#side-room",
+          "requirement": {
+            "raw": "Activate Rosary Wall",
+            "mode": "expression",
+            "dnf": [
+              [
+                "dependency:location:deep-docks/is-this-still-deep-docks-west::blockade/rosary-wall"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "deep-docks/is-this-still-deep-docks-west#side-room>main-area@bw",
+          "alias": "BW",
+          "name": "Break Wall",
+          "source_node_id": "deep-docks/is-this-still-deep-docks-west#side-room",
+          "target_node_id": "deep-docks/is-this-still-deep-docks-west#main-area",
+          "requirement": {
+            "raw": "Activate Rosary Wall",
+            "mode": "expression",
+            "dnf": [
+              [
+                "dependency:location:deep-docks/is-this-still-deep-docks-west::blockade/rosary-wall"
+              ]
             ],
             "unresolved_reasons": []
           },
@@ -37739,17 +38327,17 @@
           "source_node_id": "deep-docks/is-this-still-deep-docks-west#side-room",
           "target_node_id": "deep-docks/is-this-still-deep-docks-west#rosary-string",
           "requirement": {
-            "raw": "Ledge Grab OR Faydown Cloak OR Cling Grip OR Silk Soar",
+            "raw": "Ledge Grab Both OR Faydown Cloak OR Cling Grip Either OR Silk Soar",
             "mode": "expression",
             "dnf": [
               [
-                "capability:ledge-grab:none"
+                "capability:ledge-grab:both"
               ],
               [
                 "capability:faydown-cloak"
               ],
               [
-                "capability:cling-grip:none"
+                "capability:cling-grip:either"
               ],
               [
                 "capability:silk-soar"
@@ -37771,6 +38359,59 @@
           "target_node_id": "deep-docks/is-this-still-deep-docks-west#side-room",
           "requirement": {
             "raw": "Nothing. (Fall)",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "deep-docks/is-this-still-deep-docks-west#main-area>upper-level@u",
+          "alias": "U",
+          "name": "Upper",
+          "source_node_id": "deep-docks/is-this-still-deep-docks-west#main-area",
+          "target_node_id": "deep-docks/is-this-still-deep-docks-west#upper-level",
+          "requirement": {
+            "raw": "Silk Soar OR Cling Grip Left OR (Faydown Cloak AND (Ledge Grab Right OR Cling Grip Right))",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:silk-soar"
+              ],
+              [
+                "capability:cling-grip:left"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:ledge-grab:right"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:cling-grip:right"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "deep-docks/is-this-still-deep-docks-west#upper-level>main-area@u",
+          "alias": "U",
+          "name": "Upper",
+          "source_node_id": "deep-docks/is-this-still-deep-docks-west#upper-level",
+          "target_node_id": "deep-docks/is-this-still-deep-docks-west#main-area",
+          "requirement": {
+            "raw": "Nothing (Fall)",
             "mode": "none",
             "dnf": [
               []
@@ -37811,7 +38452,7 @@
         {
           "id": "location:deep-docks/is-this-still-deep-docks-west::collectible/deep-docks-is-this-still-deep-docks-west-frayed-rosary-string",
           "name": "Deep Docks Is This Still Deep Docks West - Frayed Rosary String",
-          "in_game_id": null,
+          "in_game_id": "Collectable Item Pickup",
           "location_type": "collectible",
           "has_persisted_state": true,
           "node_id": "deep-docks/is-this-still-deep-docks-west#rosary-string",
@@ -37830,28 +38471,119 @@
           "unresolved_reasons": []
         },
         {
-          "id": "location:deep-docks/is-this-still-deep-docks-west::unknown/import-enemies",
-          "name": "import enemies",
-          "in_game_id": null,
-          "location_type": "unknown",
-          "has_persisted_state": null,
-          "node_id": "deep-docks/is-this-still-deep-docks-west#unassigned",
+          "id": "location:deep-docks/is-this-still-deep-docks-west::blockade/rosary-wall",
+          "name": "Rosary Wall",
+          "in_game_id": "Breakable Wall (1)",
+          "location_type": "blockade",
+          "has_persisted_state": true,
+          "node_id": "deep-docks/is-this-still-deep-docks-west#main-area",
           "requirement": {
-            "raw": "",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "requirement is blank"
-            ]
+            "raw": "Break Wall Left",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:break-wall:left"
+              ]
+            ],
+            "unresolved_reasons": []
           },
           "notes": "",
-          "is_todo": true,
-          "is_verified": false,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "subroom reference is blank",
-            "requirement is unresolved"
-          ]
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:deep-docks/is-this-still-deep-docks-west::enemy/skarrwing-1",
+          "name": "Skarrwing 1",
+          "in_game_id": "\"Black Thread States Thread Only Variant\"[0]/\"Normal World\"[0]/\"Bone Hunter Buzzer (6)\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "deep-docks/is-this-still-deep-docks-west#side-room",
+          "requirement": {
+            "raw": "Normal World Spawn",
+            "mode": "expression",
+            "dnf": [
+              [
+                "state:enemy-spawn-normal-world"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:deep-docks/is-this-still-deep-docks-west::enemy/skarrwing-2",
+          "name": "Skarrwing 2",
+          "in_game_id": "\"Black Thread States Thread Only Variant\"[0]/\"Normal World\"[0]/\"Bone Hunter Buzzer (5)\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "deep-docks/is-this-still-deep-docks-west#main-area",
+          "requirement": {
+            "raw": "Normal World Spawn",
+            "mode": "expression",
+            "dnf": [
+              [
+                "state:enemy-spawn-normal-world"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:deep-docks/is-this-still-deep-docks-west::enemy/skarrwing-3",
+          "name": "Skarrwing 3",
+          "in_game_id": "\"Black Thread States Thread Only Variant\"[0]/\"Normal World\"[0]/\"Bone Hunter Buzzer (4)\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "deep-docks/is-this-still-deep-docks-west#ground",
+          "requirement": {
+            "raw": "Normal World Spawn",
+            "mode": "expression",
+            "dnf": [
+              [
+                "state:enemy-spawn-normal-world"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:deep-docks/is-this-still-deep-docks-west::enemy/skarrwing-4",
+          "name": "Skarrwing 4",
+          "in_game_id": "\"Black Thread States Thread Only Variant\"[0]/\"Black Thread World\"[0]/\"Bone Hunter Buzzer (7)\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "deep-docks/is-this-still-deep-docks-west#ground",
+          "requirement": {
+            "raw": "Black Thread World Spawn",
+            "mode": "expression",
+            "dnf": [
+              [
+                "state:enemy-spawn-black-thread-world"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
         }
       ]
     },
@@ -37972,27 +38704,46 @@
           "unresolved_reasons": []
         },
         {
-          "id": "location:deep-docks/deep-docks-march-side-room::unknown/import-enemies",
-          "name": "import enemies",
-          "in_game_id": null,
-          "location_type": "unknown",
-          "has_persisted_state": null,
+          "id": "location:deep-docks/deep-docks-march-side-room::enemy/skarr-scout-1",
+          "name": "Skarr Scout 1",
+          "in_game_id": "\"Scene Control\"[0]/\"Bone Hunters Scene\"[0]/\"Bone Hunter Child\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
           "node_id": "deep-docks/deep-docks-march-side-room#room",
           "requirement": {
-            "raw": "",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "requirement is blank"
-            ]
+            "raw": "nada",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
           },
           "notes": "",
-          "is_todo": true,
-          "is_verified": false,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "requirement is unresolved"
-          ]
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:deep-docks/deep-docks-march-side-room::enemy/spear-skarr-1",
+          "name": "Spear Skarr 1",
+          "in_game_id": "\"Scene Control\"[0]/\"Bone Hunters Scene\"[0]/\"Bone Hunter Fly\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "deep-docks/deep-docks-march-side-room#room",
+          "requirement": {
+            "raw": "free",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
         }
       ]
     },
@@ -38023,11 +38774,6 @@
         {
           "id": "deep-docks/deep-docks-upper-spire#flea-access-lever",
           "name": "Flea Access Lever",
-          "notes": ""
-        },
-        {
-          "id": "deep-docks/deep-docks-upper-spire#unassigned",
-          "name": "unassigned",
           "notes": ""
         }
       ],
@@ -38087,20 +38833,24 @@
           "source_node_id": "deep-docks/deep-docks-upper-spire#spire",
           "target_node_id": "deep-docks/deep-docks-upper-spire#right-exit-platform",
           "requirement": {
-            "raw": "Cling Grip \nOR Sprint \nOR Faydown Cloak \nOR Clawline \nOR Easy Scuttlebrace\nOR (Silk Soar AND (Magma Bell OR Proficient Movement))\nOR ((Dash OR Drifter's Cloak OR Flea Brew) AND Ledge Grab) \nOR Easy Beast Charge OR Easy Beast Pogo \nOR (Flea Brew AND Easy Flea Brew Stall) \nOR Sharpdart \nOR (Medium Shaman Crest Pogo AND Ledge Grab) \nOR ((Easy Voltvessels Stall OR Easy Flintslate Stall \nOR Easy Plasmium Stall) AND Ledge Grab) \nOR (Easy Drill Crystal Pogo AND Ledge Grab) \nOR Easy Architect Charge \nOR (Proficient Movement AND Architect Attack Right AND ( Easy Heal Stall OR Easy Flea Brew Stall OR Easy Flintslate Stall OR Easy Voltvessels Stall ) AND Ledge Grab)\nOR Hard Plasmium Stall",
+            "raw": "Cling Grip Both OR (Proficient Movement AND Cling Grip Right) OR Sprint Right OR Faydown Cloak OR Clawline Right OR Easy Scuttlebrace OR \n(Silk Soar AND (Magma Bell OR Proficient Movement)) OR \n((Dash Right OR Drifter's Cloak OR Flea Brew) AND Ledge Grab Right) \nOR Easy [Beast, Architect] Charge OR Easy [Beast] Pogo OR (Flea Brew AND Easy Flea Brew Stall) OR Sharpdart OR (Medium [Shaman] Crest Pogo AND Ledge Grab) OR \n((Easy [Voltvessels, Flintslate, Plasmium] Stall) AND Ledge Grab) OR (Easy Drill Crystal Pogo AND Ledge Grab) OR\n(Proficient Movement AND [Architect] Attack Right AND ( Easy Heal Stall OR Easy [Voltvessels, Flea Brew, Flintslate] Stall) AND Ledge Grab)\nOR Hard [Plasmium] Stall",
             "mode": "expression",
             "dnf": [
               [
-                "capability:cling-grip:none"
+                "capability:cling-grip:both"
               ],
               [
-                "capability:sprint:none"
+                "capability:proficient-movement",
+                "capability:cling-grip:right"
+              ],
+              [
+                "capability:sprint:right"
               ],
               [
                 "capability:faydown-cloak"
               ],
               [
-                "capability:clawline:none:1"
+                "capability:clawline:right:1"
               ],
               [
                 "capability:scuttlebrace:easy"
@@ -38114,19 +38864,22 @@
                 "capability:proficient-movement"
               ],
               [
-                "capability:dash:none",
-                "capability:ledge-grab:none"
+                "capability:dash:right",
+                "capability:ledge-grab:right"
               ],
               [
                 "capability:drifters-cloak",
-                "capability:ledge-grab:none"
+                "capability:ledge-grab:right"
               ],
               [
                 "capability:flea-brew-jump",
-                "capability:ledge-grab:none"
+                "capability:ledge-grab:right"
               ],
               [
                 "capability:needle-strike:beast:easy"
+              ],
+              [
+                "capability:needle-strike:architect:easy"
               ],
               [
                 "capability:crest-pogo:beast:easy"
@@ -38159,12 +38912,15 @@
                 "capability:ledge-grab:none"
               ],
               [
-                "capability:needle-strike:architect:easy"
+                "capability:proficient-movement",
+                "capability:needle:architect:right",
+                "capability:stall:heal:easy:1",
+                "capability:ledge-grab:none"
               ],
               [
                 "capability:proficient-movement",
                 "capability:needle:architect:right",
-                "capability:stall:heal:easy:1",
+                "capability:stall:voltvessels:easy:1",
                 "capability:ledge-grab:none"
               ],
               [
@@ -38177,12 +38933,6 @@
                 "capability:proficient-movement",
                 "capability:needle:architect:right",
                 "capability:stall:flintslate:easy:1",
-                "capability:ledge-grab:none"
-              ],
-              [
-                "capability:proficient-movement",
-                "capability:needle:architect:right",
-                "capability:stall:voltvessels:easy:1",
                 "capability:ledge-grab:none"
               ],
               [
@@ -38224,14 +38974,14 @@
           "source_node_id": "deep-docks/deep-docks-upper-spire#spire",
           "target_node_id": "deep-docks/deep-docks-upper-spire#flea-access-lever",
           "requirement": {
-            "raw": "Sprint OR Dash OR Drifter's Cloak OR Faydown Cloak OR Clawline OR Silk Soar OR Scuttlebrace OR Easy Beast Charge OR Easy Beast Pogo OR Easy Architect Charge OR Flea Brew OR Medium Voltvessels Stall OR Sharpdart x 4",
+            "raw": "Sprint Left OR Dash Left OR Drifter's Cloak OR Faydown Cloak OR Clawline Left x 4 OR Silk Soar OR Scuttlebrace OR Easy [Beast, architect] Charge OR Easy Beast Pogo OR Flea Brew OR Medium Voltvessels Stall OR Sharpdart x 4",
             "mode": "expression",
             "dnf": [
               [
-                "capability:sprint:none"
+                "capability:sprint:left"
               ],
               [
-                "capability:dash:none"
+                "capability:dash:left"
               ],
               [
                 "capability:drifters-cloak"
@@ -38240,7 +38990,7 @@
                 "capability:faydown-cloak"
               ],
               [
-                "capability:clawline:none:1"
+                "capability:clawline:left:4"
               ],
               [
                 "capability:silk-soar"
@@ -38252,10 +39002,10 @@
                 "capability:needle-strike:beast:easy"
               ],
               [
-                "capability:crest-pogo:beast:easy"
+                "capability:needle-strike:architect:easy"
               ],
               [
-                "capability:needle-strike:architect:easy"
+                "capability:crest-pogo:beast:easy"
               ],
               [
                 "capability:flea-brew-jump"
@@ -38302,7 +39052,7 @@
           "source_node_id": "deep-docks/deep-docks-upper-spire#flea-access-lever",
           "target_node_id": "deep-docks/deep-docks-upper-spire#left-flea-platform",
           "requirement": {
-            "raw": "Silk Soar \nOR (Faydown Cloak AND Ledge Grab) \nOR Cling Grip \nOR (Activate Deep Docks Upper Spire Flea Lever AND (Easy Scuttlebrace OR Sprint OR Dash))\nOR (Drifter's Cloak AND (Ledge Grab OR (Proficient Movement AND Architect Attack Left) ))\nOR ((Easy Architect Charge OR Easy Beast Charge) AND Ledge Grab)",
+            "raw": "Silk Soar \nOR (Faydown Cloak AND (Ledge Grab Left OR Cling Grip Either))\nOR (Activate Deep Docks Upper Spire Flea Lever AND (Easy Scuttlebrace OR ((Sprint Left OR Dash Left) AND Ledge Grab Left)))\nOR (Drifter's Cloak AND (Ledge Grab Left OR (Proficient Movement AND Architect Attack Left) ))\nOR ((Easy Architect Charge OR Easy Beast Charge) AND Ledge Grab Left)",
             "mode": "expression",
             "dnf": [
               [
@@ -38310,10 +39060,11 @@
               ],
               [
                 "capability:faydown-cloak",
-                "capability:ledge-grab:none"
+                "capability:ledge-grab:left"
               ],
               [
-                "capability:cling-grip:none"
+                "capability:faydown-cloak",
+                "capability:cling-grip:either"
               ],
               [
                 "dependency:location:deep-docks/deep-docks-upper-spire::switch/deep-docks-upper-spire-flea-lever",
@@ -38321,15 +39072,17 @@
               ],
               [
                 "dependency:location:deep-docks/deep-docks-upper-spire::switch/deep-docks-upper-spire-flea-lever",
-                "capability:sprint:none"
+                "capability:sprint:left",
+                "capability:ledge-grab:left"
               ],
               [
                 "dependency:location:deep-docks/deep-docks-upper-spire::switch/deep-docks-upper-spire-flea-lever",
-                "capability:dash:none"
+                "capability:dash:left",
+                "capability:ledge-grab:left"
               ],
               [
                 "capability:drifters-cloak",
-                "capability:ledge-grab:none"
+                "capability:ledge-grab:left"
               ],
               [
                 "capability:drifters-cloak",
@@ -38338,11 +39091,11 @@
               ],
               [
                 "capability:needle-strike:architect:easy",
-                "capability:ledge-grab:none"
+                "capability:ledge-grab:left"
               ],
               [
                 "capability:needle-strike:beast:easy",
-                "capability:ledge-grab:none"
+                "capability:ledge-grab:left"
               ]
             ],
             "unresolved_reasons": []
@@ -38420,7 +39173,7 @@
         {
           "id": "location:deep-docks/deep-docks-upper-spire::switch/deep-docks-upper-spire-gate-lever",
           "name": "Deep Docks Upper Spire Gate Lever",
-          "in_game_id": null,
+          "in_game_id": "Song_lever_side",
           "location_type": "switch",
           "has_persisted_state": true,
           "node_id": "deep-docks/deep-docks-upper-spire#spire",
@@ -38443,7 +39196,7 @@
         {
           "id": "location:deep-docks/deep-docks-upper-spire::switch/deep-docks-upper-spire-flea-lever",
           "name": "Deep Docks Upper Spire Flea Lever",
-          "in_game_id": null,
+          "in_game_id": "Song_lever_side (1)",
           "location_type": "switch",
           "has_persisted_state": true,
           "node_id": "deep-docks/deep-docks-upper-spire#flea-access-lever",
@@ -38487,28 +39240,211 @@
           "unresolved_reasons": []
         },
         {
-          "id": "location:deep-docks/deep-docks-upper-spire::unknown/import-enemies",
-          "name": "import enemies",
-          "in_game_id": null,
-          "location_type": "unknown",
-          "has_persisted_state": null,
-          "node_id": "deep-docks/deep-docks-upper-spire#unassigned",
+          "id": "location:deep-docks/deep-docks-upper-spire::enemy/smelt-shoveller-1",
+          "name": "Smelt Shoveller 1",
+          "in_game_id": "\"Black Thread States Thread Only Variant\"[0]/\"Normal World\"[0]/\"Dock Worker\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "deep-docks/deep-docks-upper-spire#spire",
           "requirement": {
-            "raw": "",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "requirement is blank"
-            ]
+            "raw": "Normal World Spawn",
+            "mode": "expression",
+            "dnf": [
+              [
+                "state:enemy-spawn-normal-world"
+              ]
+            ],
+            "unresolved_reasons": []
           },
           "notes": "",
-          "is_todo": true,
-          "is_verified": false,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "subroom reference is blank",
-            "requirement is unresolved"
-          ]
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:deep-docks/deep-docks-upper-spire::enemy/skarr-stalker-1",
+          "name": "Skarr Stalker 1",
+          "in_game_id": "\"Black Thread States Thread Only Variant\"[0]/\"Normal World\"[0]/\"Hunter Scene\"[0]/\"Bone Hunter\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "deep-docks/deep-docks-upper-spire#spire",
+          "requirement": {
+            "raw": "Normal World Spawn",
+            "mode": "expression",
+            "dnf": [
+              [
+                "state:enemy-spawn-normal-world"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "Spawn conditions: hasBrolly=true",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:deep-docks/deep-docks-upper-spire::enemy/skarr-scout-1",
+          "name": "Skarr Scout 1",
+          "in_game_id": "\"Black Thread States Thread Only Variant\"[0]/\"Normal World\"[0]/\"Hunter Scene\"[0]/\"Bone Hunter Child\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "deep-docks/deep-docks-upper-spire#spire",
+          "requirement": {
+            "raw": "Normal World Spawn",
+            "mode": "expression",
+            "dnf": [
+              [
+                "state:enemy-spawn-normal-world"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "Spawn conditions: hasBrolly=true",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:deep-docks/deep-docks-upper-spire::enemy/caranid-1",
+          "name": "Caranid 1",
+          "in_game_id": "\"Black Thread States Thread Only Variant\"[0]/\"Normal World\"[0]/\"Hunter Scene\"[0]/\"Bone Circler (1)\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "deep-docks/deep-docks-upper-spire#right-exit-platform",
+          "requirement": {
+            "raw": "Normal World Spawn",
+            "mode": "expression",
+            "dnf": [
+              [
+                "state:enemy-spawn-normal-world"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "Spawn conditions: hasBrolly=true",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:deep-docks/deep-docks-upper-spire::enemy/caranid-2",
+          "name": "Caranid 2",
+          "in_game_id": "\"Black Thread States Thread Only Variant\"[0]/\"Normal World\"[0]/\"Hunter Scene\"[0]/\"Bone Circler (2)\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "deep-docks/deep-docks-upper-spire#right-exit-platform",
+          "requirement": {
+            "raw": "Normal World Spawn",
+            "mode": "expression",
+            "dnf": [
+              [
+                "state:enemy-spawn-normal-world"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "Spawn conditions: hasBrolly=true",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:deep-docks/deep-docks-upper-spire::enemy/skarr-scout-2",
+          "name": "Skarr Scout 2",
+          "in_game_id": "\"Black Thread States Thread Only Variant\"[0]/\"Normal World\"[0]/\"Hunter Scene\"[0]/\"Bone Hunter Child (1)\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "deep-docks/deep-docks-upper-spire#right-exit-platform",
+          "requirement": {
+            "raw": "Normal World Spawn",
+            "mode": "expression",
+            "dnf": [
+              [
+                "state:enemy-spawn-normal-world"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "Spawn conditions: hasBrolly=true",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:deep-docks/deep-docks-upper-spire::enemy/void-mass-1",
+          "name": "Void Mass 1",
+          "in_game_id": "\"Black Thread States Thread Only Variant\"[0]/\"Black Thread World\"[0]/\"Black_Thread_Core\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "deep-docks/deep-docks-upper-spire#spire",
+          "requirement": {
+            "raw": "Black Thread World Spawn",
+            "mode": "expression",
+            "dnf": [
+              [
+                "state:enemy-spawn-black-thread-world"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:deep-docks/deep-docks-upper-spire::enemy/spear-skarr-1",
+          "name": "Spear Skarr 1",
+          "in_game_id": "\"Black Thread States Thread Only Variant\"[0]/\"Black Thread World\"[0]/\"Bone Hunter Fly\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "deep-docks/deep-docks-upper-spire#spire",
+          "requirement": {
+            "raw": "Black Thread World Spawn",
+            "mode": "expression",
+            "dnf": [
+              [
+                "state:enemy-spawn-black-thread-world"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "location:deep-docks/deep-docks-upper-spire::enemy/skarr-stalker-2",
+          "name": "Skarr Stalker 2",
+          "in_game_id": "\"Black Thread States Thread Only Variant\"[0]/\"Black Thread World\"[0]/\"Bone Hunter (1)\"[0]",
+          "location_type": "enemy",
+          "has_persisted_state": false,
+          "node_id": "deep-docks/deep-docks-upper-spire#spire",
+          "requirement": {
+            "raw": "Black Thread World Spawn",
+            "mode": "expression",
+            "dnf": [
+              [
+                "state:enemy-spawn-black-thread-world"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
         }
       ]
     },
@@ -40107,7 +41043,7 @@
           "source_node_id": "deep-docks/deep-docks-spool-east#the-floor-is-lava",
           "target_node_id": "deep-docks/deep-docks-spool-east#spool-fragment-area",
           "requirement": {
-            "raw": "(Silk Soar AND (Proficient Movement OR Magma Bell)) OR (Faydown Cloak AND (Ledge Grab OR Cling Grip OR Scuttlebrace OR Clawline OR Sharpdart OR Dash)) OR (Sprint AND Cling Grip) OR ((Clawline OR Sharpdart) AND (Cling Grip OR Ledge Grab OR (Scuttlebrace AND Proficient Movement))) OR ((Clawline x 2 AND (Dash OR Drifter's Cloak OR Flea Brew OR Easy Flea Brew Stall OR Easy Voltvessels Stall OR Easy Architect Charge OR Easy Beast Charge))) OR (Clawline x 3 AND Medium Flintslate Stall) OR (Sharpdart x 2 AND (Drifter's Cloak OR (Flea Brew AND Medium Flea Brew Stall))) OR Activate The Lever That Makes All Of My Hard Work Worthless",
+            "raw": "(Silk Soar AND (Proficient Movement OR Magma Bell)) OR (Faydown Cloak AND (Ledge Grab OR Cling Grip OR Scuttlebrace OR Clawline OR Sharpdart OR Dash)) OR (Sprint AND Cling Grip) OR ((Clawline OR Sharpdart) AND (Cling Grip OR Ledge Grab OR (Scuttlebrace AND Proficient Movement))) OR ((Clawline x 2 AND (Dash OR Drifter's Cloak OR Flea Brew OR Easy Flea Brew Stall OR Easy Voltvessels Stall OR Easy Architect Charge OR Easy Beast Charge))) OR (Clawline x 3 AND Medium Flintslate Stall) OR (Sharpdart x 2 AND (Drifter's Cloak OR (Flea Brew AND Medium Flea Brew Stall)))\nOR Activate The Lever That Makes All Of My Hard Work Worthless",
             "mode": "expression",
             "dnf": [
               [
@@ -146087,7 +147023,7 @@
           "in_game_id": null,
           "location_type": "switch",
           "has_persisted_state": true,
-          "node_id": "underworks/underworks-twelfth-architect#left-exit-top",
+          "node_id": "underworks/underworks-twelfth-architect#left-exit-bottom",
           "requirement": {
             "raw": "Flip Switch Left OR Flip Switch Right",
             "mode": "expression",

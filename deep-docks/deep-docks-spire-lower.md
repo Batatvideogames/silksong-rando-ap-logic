@@ -39,7 +39,24 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Deep Docks Lower Spire Rosary Cache | Rosary | Nothing. |  | Verified | resource | ✓ |  |
 | 2 | Deep Docks Lower Spire Blast Rock | Top Right Entrance Path | Break Blast Rock Up |  | Verified | blockade | ✓ |  |
-| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 3 | Shardillard 1 | Floor | Attack Up |  | Verified | enemy | ✓ | Spawn conditions: visitedCoral=true |
+| 4 | Hardbone Hopper 1 | Floor | nada |  | Verified | enemy | ✓ |  |
+| 5 | Hardbone Hopper 2 | Floor | zilch |  | Verified | enemy | ✓ |  |
+| 6 | Smelt Shoveller 1 | Top Left Entrance Path | free |  | Verified | enemy | ✓ |  |
+| 7 | Skull Scuttler 1 | Top Left Entrance Path | nothing |  | Verified | enemy | ✓ |  |
+| 8 | Smelt Shoveller 2 | Floor | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 9 | Skull Brute 1 | Floor | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 10 | Hardbone Hopper 3 | Floor | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 11 | Caranid 1 | Floor | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 12 | Skull Scuttler 2 | Floor | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 13 | Skarr Scout 1 | Rosary | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 14 | Hardbone Hopper 4 | Floor | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 15 | Caranid 2 | Top Right Entrance Path | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 16 | Skarr Scout 2 | Top Right Entrance Path | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 17 | Caranid 3 | Top Right Entrance Path | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 18 | Vicious Caranid 1 | Floor | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 19 | Beastfly 1 | Top Right Entrance Path | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 20 | Void Mass 1 | Top Right Entrance Path | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

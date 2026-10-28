@@ -25,34 +25,35 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| DS | door switch | main pathway | gauntlet right | Activate Deep Docks Entrance Lever AND (Ledge Grab OR Faydown Cloak OR Easy Scuttlebrace OR Easy Shaman Crest Pogo OR Easy Needle Strike Stall (Beast)) |  | Verified | ✓ |  |
-| DS | door switch | gauntlet right | main pathway | Activate Deep Docks Entrance Lever |  | Verified | ✓ |  |
+| DS | door switch | main pathway | gauntlet right | Activate Deep Docks Entrance Gate AND   (Silk Soar OR Ledge Grab Left OR Cling Grip Either OR Faydown Cloak OR Easy Scuttlebrace OR Easy [Shaman] Pogo OR Easy [beast] Charge OR Hard [Plasmium] Stall OR   (Ledge Grab Right AND  (Sprint Left OR Dash Left OR Clawline Left OR Easy [Hunter, Reaper, Beast, Architect] Pogo OR Easy [Reaper, Wanderer, Beast, Architect] Charge OR (Proficient Movement AND [Architect] Attack Left) OR Easy [Flintslate, Flea Brew, Plasmium, Voltvessels] Stall OR Flea Brew))) |  | Verified | ✓ | looooooooong requirement |
+| DS | door switch | gauntlet right | main pathway | Activate Deep Docks Entrance Gate |  | Verified | ✓ |  |
 | GL | gauntlet fight left | gauntlet left | gauntlet | Nothing. |  | Verified | ✓ |  |
-| GL | gauntlet fight left | gauntlet | gauntlet left | Defeat Deep Docks Entrance Battle |  | Verified | ✓ |  |
-| GR | gauntlet fight right | gauntlet | gauntlet right | Defeat Deep Docks Entrance Battle |  | Verified | ✓ |  |
-| GR | gauntlet fight right | gauntlet right | gauntlet | Activate Deep Docks Entrance Lever |  | Verified | ✓ |  |
+| GL | gauntlet fight left | gauntlet | gauntlet left | Defeat Deep Docks Entrance Gauntlet |  | Verified | ✓ |  |
+| GR | gauntlet fight right | gauntlet | gauntlet right | Defeat Deep Docks Entrance Gauntlet |  | Verified | ✓ |  |
+| GR | gauntlet fight right | gauntlet right | gauntlet | Defeat Deep Docks Entrance Gauntlet |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Deep Docks Entrance Lever | gauntlet right | Flip Switch Right |  | Verified | switch | ✓ |  |
-| 2 | Deep Docks Entrance Battle | gauntlet | Combat Requirements |  | Verified | gauntlet | ✓ |  |
-| 3 | Deep Docks Entrance - Mask Shard | gauntlet right | Nothing. |  | Verified | collectible | ✓ |  |
-| 4 | Smelt Shoveller 1 |  |  |  |  | enemy | ✓ |  |
-| 5 | Beastfly 1 |  |  |  |  | enemy | ✓ |  |
-| 6 | Beastfly 2 |  |  |  |  | enemy | ✓ |  |
-| 7 | Flintstone Flyer 1 |  |  |  |  | enemy | ✓ |  |
-| 8 | Pilgrim Hulk 1 |  |  |  |  | enemy | ✓ |  |
-| 9 | Beastfly 3 |  |  |  |  | enemy | ✓ |  |
-| 10 | Beastfly 4 |  |  |  |  | enemy | ✓ |  |
-| 11 | Flintstone Flyer 2 |  |  |  |  | enemy | ✓ |  |
-| 12 | Smokerock Sifter 1 |  |  |  |  | enemy | ✓ |  |
-| 13 | Beastfly 5 |  |  |  |  | enemy | ✓ |  |
-| 14 | Beastfly 6 |  |  |  |  | enemy | ✓ |  |
-| 15 | Beastfly 7 |  |  |  |  | enemy | ✓ |  |
-| 16 | Beastfly 8 |  |  |  |  | enemy | ✓ |  |
-| 17 | Beastfly 9 |  |  |  |  | enemy | ✓ |  |
+| 1 | Deep Docks Entrance Lever | gauntlet right | Flip Switch Right |  | Verified | switch | ✓ | WHY ARE THESE BLUE THEY'RE IN THE RIGHT SPOT nvm i figured it out. |
+| 2 | Deep Docks Entrance - Mask Shard | gauntlet right | Nothing. |  | Verified | collectible | ✓ |  |
+| 3 | Deep Docks Entrance Gate | gauntlet right | Activate Deep Docks Entrance Lever |  | Verified | logic-point | ✓ | no idea if this is needed. |
+| 4 | Deep Docks Entrance Gauntlet | gauntlet | Combat Requirements |  | Verified | gauntlet | ✓ |  |
+| 5 | Smelt Shoveller 1 | gauntlet | nada |  | Verified | enemy | ✓ | WHY ARE YOU BLUEEEEEEEEE |
+| 6 | Beastfly 1 | gauntlet | free |  | Verified | enemy | ✓ |  |
+| 7 | Beastfly 2 | gauntlet | none |  | Verified | enemy | ✓ |  |
+| 8 | Flintstone Flyer 1 | gauntlet | nada |  | Verified | enemy | ✓ |  |
+| 9 | Pilgrim Hulk 1 | gauntlet | nothing |  | Verified | enemy | ✓ |  |
+| 10 | Beastfly 3 | gauntlet | zilch |  | Verified | enemy | ✓ |  |
+| 11 | Beastfly 4 | gauntlet | nothing |  | Verified | enemy | ✓ |  |
+| 12 | Flintstone Flyer 2 | gauntlet | nada |  | Verified | enemy | ✓ |  |
+| 13 | Smokerock Sifter 1 | gauntlet | none |  | Verified | enemy | ✓ |  |
+| 14 | Beastfly 5 | gauntlet | free |  | Verified | enemy | ✓ |  |
+| 15 | Beastfly 6 | gauntlet | nothing |  | Verified | enemy | ✓ |  |
+| 16 | Beastfly 7 | gauntlet | nada |  | Verified | enemy | ✓ |  |
+| 17 | Beastfly 8 | gauntlet | zilch |  | Verified | enemy | ✓ |  |
+| 18 | Beastfly 9 | gauntlet | nothing |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

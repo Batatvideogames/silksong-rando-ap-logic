@@ -57,7 +57,7 @@
 | 1 | Underworks: Shell Shard Cache #4 | Shell Shard Cache | Nothing. |  | Verified | collectible | ✓ |  |
 | 2 | Underworks: Needolin Lore #2 | One-way Entrance (Top) | Needolin |  | Verified | lore | ✓ | futureproofing in case |
 | 3 | Underworks: Needolin Lore #3 | Needolin Check Guy | Needolin |  | Verified | lore | ✓ | futureproofing in case |
-| 4 | Underworks Architect Forge Fan Lever | Left Exit (Top) | Flip Switch Left OR Flip Switch Right |  | Verified | switch | ✓ |  |
+| 4 | Underworks Architect Forge Fan Lever | Left Exit Bottom) | Flip Switch Left OR Flip Switch Right |  | Verified | switch | ✓ |  |
 | 5 | Twelfth Architect: Silkshot | First Floor | have Ruined Tool  AND Spend 1 Craftmetals |  | Verified | collectible | ✓ |  |
 | 6 | Twelfth Architect: Cogwork Wheel | First Floor | Spend 1 Craftmetals |  | Verified | collectible | ✓ |  |
 | 7 | Twelfth Architect: Sawtooth Circlet | First Floor | Spend 1 Craftmetals |  | Verified | collectible | ✓ |  |
