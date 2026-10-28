@@ -2,7 +2,7 @@
 
 **Game ID:** Bellway_08
 
-**Contributors:** skai
+**Contributors:** skai, MayaXTG
 
 ## Subrooms
 
@@ -13,7 +13,7 @@ No subrooms defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | R | Right |  | [Blasted Steps Wide Long Vertical (Coral_03)](blasted-steps-wide-long-vertical.md) | TL | Nothing |  | Verified | ✓ |  |
-| BB | Bell Beast |  | [Bellway Menu](../fast-travel/bellway-menu.md) | BS | Unlock Blasted Steps Bellway |  | Verified | ✓ |  |
+| BB | Bell Beast |  | [Bellway Menu](../fast-travel/bellway-menu.md) | BS | unlock Blasted Steps: Bellway |  | Verified | ✓ |  |
 | L | Left |  | [Blasted Steps Thin Long Vertical (Coral_35)](blasted-steps-thin-long-vertical.md) | R | Nothing |  | Verified | ✓ |  |
 
 ## Subroom Connections
@@ -24,10 +24,10 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Blasted Steps Bellway |  | Unlock Bellway Rosary Lock |  | Verified | travel | ✓ |  |
-| 2 | Bellway Rosary Lock |  | Spend 60 Rosaries |  | Verified | lock |  |  |
-| 3 | Bench |  | Unlock Bench Rosary Lock |  | Verified | bench |  |  |
-| 4 | Bench Rosary Lock |  | Spend 40 Rosaries |  | Verified | lock |  |  |
+| 1 | Blasted Steps: Bellway |  | Unlock Bellway Rosary Lock |  | Verified | travel | ✓ |  |
+| 2 | Bellway Rosary Lock |  | Spend 60 Rosaries |  | Verified | lock | ✓ |  |
+| 3 | Blasted Steps: Bellway Bench |  | Unlock Bench Rosary Lock |  | Verified | bench | ✓ |  |
+| 4 | Bench Rosary Lock |  | Spend 40 Rosaries |  | Verified | lock | ✓ |  |
 
 ## Room Images
 

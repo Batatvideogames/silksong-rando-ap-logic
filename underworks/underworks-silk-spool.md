@@ -36,6 +36,8 @@
 | CSS | Collect Silk Spool | Silk Spool | Bottom | Nothing. |  | Verified | ✓ |  |
 | CS1 | Collect Shards #1 | Shell Shard Alcove #1 | Upper Right | Spike Pogo OR Dash OR Clawline OR Sharp Dart OR Drifter's cloak OR Faydown Cloak OR Scuttlebrace |  | Verified | ✓ |  |
 | RL | Right-Left | Upper Right | Upper Left | Sprint OR Dash OR Faydown Cloak OR Drifter's Cloak OR Silk Soar OR Clawline OR Sharpdart OR Scuttlebrace OR Easy Hunter Pogo OR ((Easy Reaper Pogo OR Easy Witch Pogo) AND (Ledge Grab OR Cling Grip)) OR Easy Beast Pogo OR Easy Architect Pogo OR Easy Shaman Pogo OR Easy Reaper Charge OR Easy Beast Charge OR Easy Wanderer Charge OR Easy Witch Charge OR Easy Architect Charge OR Flea Brew OR Easy Flea Brew Stall OR Easy Voltvessels Stall OR Easy Plasmium Stall OR Easy Flintslate Stall |  | Verified | ✓ |  |
+| BR | Bottom-Right | Upper Right | Bottom | Nothing (Fall) |  | Verified | ✓ |  |
+| BR | Bottom-Right | Bottom | Upper Right | ( ( ( ( (Faydown Cloak AND Ledge Grab Left) OR Magma Bell) AND (Silk Soar AND Proficient Movement) ) OR (Cling Grip Right AND Faydown Cloak) OR Cling Grip Left OR ( (Scuttlebrace AND ( Faydown Cloak OR ( Easy [Shaman] Pogo AND Ponder the Orb AND Sprint) ) ) ) ) AND ( ( Sharpdart x 2 AND Faydown Cloak AND Cling Grip Right ) OR ( Clawline Right AND ( Faydown Cloak OR Medium Pogo OFF [Underloft] OR Cling Grip Right) ) OR ( Spike Pogo AND (Medium Pogo OFF [Underloft] OR Faydown Cloak OR Cling Grip Right OR Ledge Grab Right ) ) ) ) |  | Verified | ✓ | wack. |
 
 ## Check Locations
 
@@ -49,7 +51,10 @@
 | 6 | Underworks: Shell Shard Cache #3 | Shell Shard Alcove #1 | Nothing. |  | Verified | collectible | ✓ |  |
 | 7 | Underworks: Silk Spool Fragment #1 | Silk Spool | Nothing. |  | Verified | collectible | ✓ |  |
 | 8 | Underworks Silk Spool Wall | Silk Spool | Break Wall Left |  | Verified | blockade | ✓ |  |
-| 9 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 9 | Memory Orb Challenge (1) |  |  | TODO |  |  | ✓ | what the hell is this? |
+| 10 | Underloft 1 | Bottom | nada |  | Verified | enemy | ✓ |  |
+| 11 | Underloft 2 | Upper Right | free |  | Verified | enemy | ✓ |  |
+| 12 | Underpoke 1 | Upper Left | nothing |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

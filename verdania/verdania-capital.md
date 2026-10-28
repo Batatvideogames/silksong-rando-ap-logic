@@ -21,7 +21,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | R | right1 | Right Transition | [Verdania Right Side Tall Room (Clover_03)](verdania-right-side-tall-room.md) | UL | None |  | Verified | ✓ |  |
 | D | door1 | The door | [Clover Dancers (Clover_10)](clover-dancers.md) | L | ( get 5 Verdania Shards AND Prereq Palestag IN Palestag ) OR ( Get 12 verdania shards ) |  | Verified | ✓ |  |
-| UL | left1 | Ledge Transition | [Verdania Kindanir egg Room (Clover_11)](verdania-kindanir-egg-room.md) | R | None |  | Verified | ✓ |  |
+| UL | left1 | Ledge Transition | [Verdania Kindanir Egg Room (Clover_11)](verdania-kindanir-egg-room.md) | R | None |  | Verified | ✓ |  |
 | LL | left2 | Left Arena | [Verdania Left Side Tall Room (Clover_05c)](verdania-left-side-tall-room.md) | MR | None |  | Verified | ✓ |  |
 
 ## Subroom Connections

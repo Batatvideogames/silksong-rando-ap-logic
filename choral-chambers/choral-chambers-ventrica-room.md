@@ -16,7 +16,7 @@
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | R | right1 | Lateral | [Choral Chambers Below Spa (Song_02)](choral-chambers-below-spa.md) | L | none |  | Verified | ✓ |  |
-| T | top1 | Ventrica | [Choral Chambers Above Ventrica (Song_03)](choral-chambers-above-ventrica.md) | B | cling grip either OR silk soar OR faydown cloak OR scuttlebrace |  | Verified | ✓ |  |
+| T | top1 | Ventrica | [Choral Chambers Above Ventrica (Song_03)](choral-chambers-above-ventrica.md) | B | cling grip either OR silk soar OR faydown cloak OR easy scuttlebrace |  | Verified | ✓ |  |
 | B | bot1 | Lateral | [Choral Chambers Below Ventrica (Song_01)](choral-chambers-below-ventrica.md) | T | none |  | Verified | ✓ |  |
 | V | door_tubeEnter | Ventrica | [Ventrica Menu](../fast-travel/ventrica-menu.md) | CC | unlock Ventrica: Choral Chambers |  | Verified | ✓ |  |
 

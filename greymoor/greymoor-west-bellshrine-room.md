@@ -16,6 +16,7 @@
 | S6 | upper path middle | ✓ |
 | S7 | right exit platform | ✓ |
 | S8 | left exit platform | ✓ |
+| S9 | concussion momento | ✓ |
 
 ## Room Transitions
 
@@ -26,7 +27,7 @@
 | LR | lower right | main path | [Greymoor East Bellshrine Room (Greymoor_02)](greymoor-east-bellshrine-room.md) | LSL | nothing |  | Verified | ✓ |  |
 | LL | lower left | main path | [Greymoor Lower Halfway Home Path (Greymoor_13)](greymoor-lower-halfway-home-path.md) | R | none |  | Verified | ✓ |  |
 | MR | middle right | middle section right | [Greymoor Bellshrine (Bellshrine_02)](greymoor-bellshrine.md) | L | ( bellshrinesanity off AND activate bellshrine switch IN greymoor bellshrine )  OR ( bellshrinesanity on AND have bell greymoor ) |  | Verified | ✓ | need to make sure this stays in sync with the connection on the other side |
-| D | down | main path | [Far Fields Upper Shaft (Bone_East_11)](../far-fields/far-fields-upper-shaft.md) | C | clear greymoor floor blockade IN far fields upper shaft |  | Verified | ✓ | MUST enter from far fields to activate this connection |
+| D | down | concussion momento | [Far Fields Upper Shaft (Bone_East_11)](../far-fields/far-fields-upper-shaft.md) | C | nothing |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
@@ -50,6 +51,8 @@
 | G3 | gap 3 | left exit platform | upper path left | nothing |  | Verified | ✓ |  |
 | G4 | gap 4 | right exit platform | upper path right | progressive swift step 1 OR flea brew OR ledge grab left OR clawline left x 1 OR sharpdart x 1 OR drifters cloak OR faydown cloak OR silk soar OR easy [hunter, reaper, beast, architect, witch, shaman] crest pogo OR easy wanderer needle strike |  | Verified | ✓ |  |
 | G4 | gap 4 | upper path right | right exit platform | cling grip right OR progressive swift step 1 right OR faydown cloak OR silk soar OR clawline right x 3 OR sharpdart x 3 OR ((drifters cloak OR clawline right x 1 OR sharpdart x 1) AND ledge grab right) |  | Verified | ✓ |  |
+| F | floor | concussion momento | main path | clear floor blockade |  | Verified | ✓ |  |
+| F | floor | main path | concussion momento | clear floor blockade |  | Verified | ✓ |  |
 
 ## Check Locations
 
@@ -57,10 +60,11 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Greymoor - Rosary Cache above rosary machine | middle section left | none |  | Verified | resource | ✓ |  |
 | 2 | shrine entrance lever | middle section right | flip switch right OR flip switch up OR flip switch left |  | Verified | switch | ✓ |  |
-| 3 | Craw 1 | upper path left | nothing |  | Verified | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
-| 4 | Craw 2 | upper path middle | nothing |  | Verified | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
-| 5 | Craw 3 | upper path middle | nothing |  | Verified | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
-| 6 | Mite 1 | upper path right | nothing |  | Verified | enemy | ✓ | good luck, he jumps down to the bottom if not killed |
+| 3 | floor blockade | concussion momento | none (opens once traveled through) |  | Verified | blockade | ✓ |  |
+| 4 | Craw 1 | upper path left | nothing |  | Verified | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
+| 5 | Craw 2 | upper path middle | nothing |  | Verified | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
+| 6 | Craw 3 | upper path middle | nothing |  | Verified | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
+| 7 | Mite 1 | upper path right | nothing |  | Verified | enemy | ✓ | good luck, he jumps down to the bottom if not killed |
 
 ## Room Images
 

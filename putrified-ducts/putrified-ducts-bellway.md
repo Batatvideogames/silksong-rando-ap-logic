@@ -10,6 +10,7 @@
 | --- | --- | --- |
 | S1 | Bellway | ✓ |
 | S2 | Vog Camp | ✓ |
+| S3 | Right Exit Ledge | ✓ |
 
 ## Room Transitions
 
@@ -17,7 +18,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | BB | door_fastTravelExit | Bellway | [Bellway Menu](../fast-travel/bellway-menu.md) | PD | Unlock Bellway Putrified Ducts |  | Verified | ✓ |  |
 | L | left1 | Bellway | [Putrified Ducts Tall Room (Aqueduct_02)](putrified-ducts-tall-room.md) | UR | None |  | Verified | ✓ |  |
-| R | right1 | Vog Camp | [Putrified Ducts Path To Vog (Aqueduct_06)](putrified-ducts-path-to-vog.md) | UL | Dash OR Ledge Grab OR Silk Soar OR Faydown Cloak OR Cling Grip OR easy Shaman Crest pogo OR ( easy Beast Crest pogo AND ( Hard Heal Stall OR easy Needle Strike stall ) ) |  | Verified | ✓ |  |
+| R | right1 | Right Exit Ledge | [Putrified Ducts Path To Vog (Aqueduct_06)](putrified-ducts-path-to-vog.md) | UL | None |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
@@ -25,6 +26,8 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | SH | Shaft | Vog Camp | Bellway | Prereq vog floor |  | Verified | ✓ |  |
 | SH | Shaft | Bellway | Vog Camp | Prereq vog floor AND Silk Soar |  | Verified | ✓ |  |
+| LE | Ledge | Vog Camp | Right Exit Ledge | Ledge grab Right OR Cling Grip Right OR Faydown CLoak OR Silk Soar OR Easy Shaman pogo OR Medium Delvers Drill Stall OR Easy VoltVessels Stall OR Easy Plasmium Stall OR Easy Beast Charge OR ( Easy Heal Stall AND Easy Beast Pogo ) |  | Verified | ✓ |  |
+| LE | Ledge | Right Exit Ledge | Vog Camp | None |  | Verified | ✓ |  |
 
 ## Check Locations
 

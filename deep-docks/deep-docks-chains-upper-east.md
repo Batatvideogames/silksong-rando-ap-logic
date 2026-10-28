@@ -21,7 +21,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | L | left1 | upper left hallway | [Deep Docks Chains Center (Dock_02b)](deep-docks-chains-center.md) | UR | Ledge Grab OR Cling Grip OR Silk Soar OR Faydown Cloak OR Proficient Movement |  | Verified | ✓ |  |
 | F | bot1 | behind ring gate | [Deep Docks Chains Lower East (Dock_03c)](deep-docks-chains-lower-east.md) | RC | Open Airlock Down |  | Verified | ✓ |  |
-| R | right1 | chain platforms | [Far Fields Deep Docks Backdoor (Dock_03b)](../far-fields/far-fields-deep-docks-backdoor.md) | L | Activate Deep Docks Side Chain Room Door OR Activate Far Fields Side Chain Room Door IN Far Fields Deep Docks Backdoor |  | Verified | ✓ |  |
+| R | right1 | chain platforms | [Far Fields Deep Docks Backdoor (Dock_03b)](../far-fields/far-fields-deep-docks-backdoor.md) | L | Activate Deep Docks Backdoor |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
@@ -48,6 +48,7 @@
 | 4 | Platforms Clawline Ring | Lower Chain Platforms | Clawline |  | Verified | switch | ✓ |  |
 | 5 | Craftmetal Breakable Wall | Lower Chain Platforms | Break Wall Left |  | Verified | collectible | ✓ |  |
 | 6 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 7 | Deep Docks Backdoor | chain platforms | Activate Deep Docks Side Chain Room Door OR Activate Far Fields Side Chain Room Door IN Far Fields Deep Docks Backdoor |  | Verified | logic-point |  | Same check. |
 
 ## Notes
 

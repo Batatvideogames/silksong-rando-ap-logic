@@ -2,7 +2,7 @@
 
 **Game ID:** Coral_43
 
-**Contributors:** skai
+**Contributors:** skai, MayaXTG
 
 ## Subrooms
 
@@ -23,8 +23,8 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| SPR | Sand Pit to Right | Sand Pits | Right of Sand Pits | Progressive Swift Step 1 OR Faydown OR Clawline OR Drifter's Cloak OR Sharpdart OR (Flea Brew AND (Easy Flea Brew Stall OR (Easy Hunter Crest Pogo OR Easy Reaper Crest Pogo OR Easy Beast Crest Pogo OR Easy Architect Crest Pogo OR Easy Shaman Crest Pogo))) |  | Verified | ✓ |  |
-| SPR | Sand Pit to Right | Right of Sand Pits | Sand Pits | Progressive Swift Step 1 OR Faydown OR Clawline OR Drifter's Cloak OR Sharpdart OR (Flea Brew AND (Easy Flea Brew Stall OR (Easy Hunter Crest Pogo OR Easy Reaper Crest Pogo OR Easy Beast Crest Pogo OR Easy Architect Crest Pogo OR Easy Shaman Crest Pogo))) |  | Verified | ✓ |  |
+| SPR | Sand Pit to Right | Sand Pits | Right of Sand Pits | Progressive Swift Step 1 right OR Faydown OR Clawline right x 1 OR Drifter's Cloak OR Sharpdart OR (Flea Brew AND (Easy Flea Brew Stall OR Easy [Hunter, Reaper, Beast, Architect, Shaman] Crest Pogo)) |  | Verified | ✓ |  |
+| SPR | Sand Pit to Right | Right of Sand Pits | Sand Pits | Progressive Swift Step 1 left OR Faydown OR Clawline left x 1 OR Drifter's Cloak OR Sharpdart OR (Flea Brew AND (Easy Flea Brew Stall OR Easy [Hunter, Reaper, Beast, Architect, Shaman] Crest Pogo)) |  | Verified | ✓ |  |
 | SPL | Sand Pit to Left | Left of Sand Pits | Sand Pits | Nothing |  | Verified | ✓ |  |
 | SPL | Sand Pit to Left | Sand Pits | Left of Sand Pits | Nothing |  | Verified | ✓ |  |
 

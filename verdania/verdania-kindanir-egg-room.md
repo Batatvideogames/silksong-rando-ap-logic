@@ -1,4 +1,4 @@
-# Verdania Kindanir egg Room (Clover_11)
+# Verdania Kindanir Egg Room (Clover_11)
 
 **Game ID:** Clover_11
 
@@ -31,12 +31,12 @@ No subroom connections defined.
 
 ### Connections
 
-[![Connections for Verdania Kindanir egg Room (Clover_11)](../00-annotations/verdania/verdania-kindanir-egg-room-connections.png)](../00-annotations/verdania/verdania-kindanir-egg-room-connections.png)
+[![Connections for Verdania Kindanir Egg Room (Clover_11)](../00-annotations/verdania/verdania-kindanir-egg-room-connections.png)](../00-annotations/verdania/verdania-kindanir-egg-room-connections.png)
 
 ### Checks
 
-[![Checks for Verdania Kindanir egg Room (Clover_11)](../00-annotations/verdania/verdania-kindanir-egg-room-checks.png)](../00-annotations/verdania/verdania-kindanir-egg-room-checks.png)
+[![Checks for Verdania Kindanir Egg Room (Clover_11)](../00-annotations/verdania/verdania-kindanir-egg-room-checks.png)](../00-annotations/verdania/verdania-kindanir-egg-room-checks.png)
 
 ### Scene
 
-[![Scene for Verdania Kindanir egg Room (Clover_11)](../00-annotations/verdania/verdania-kindanir-egg-room-scene.png)](../00-annotations/verdania/verdania-kindanir-egg-room-scene.png)
+[![Scene for Verdania Kindanir Egg Room (Clover_11)](../00-annotations/verdania/verdania-kindanir-egg-room-scene.png)](../00-annotations/verdania/verdania-kindanir-egg-room-scene.png)

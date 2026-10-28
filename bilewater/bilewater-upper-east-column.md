@@ -42,7 +42,7 @@
 | 3 | Mothleaf Lagnia 3 | up left door | none |  | Verified | enemy | ✓ |  |
 | 4 | Mothleaf Lagnia 4 | low left door | none |  | Verified | enemy | ✓ |  |
 | 5 | Mothleaf Lagnia 5 | up left door | none |  | Verified | enemy | ✓ |  |
-| 6 | Miremite 1 |  |  | TODO | Needs verification | enemy | ✓ |  |
+| 6 | Miremite 1 | up left door | invalid |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

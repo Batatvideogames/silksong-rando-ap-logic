@@ -22,6 +22,7 @@
 | L | left | top floor | [The Marrow Shaft (Bone_03)](the-marrow-shaft.md) | LR | none |  | Verified | ✓ |  |
 | R | right | behind metal gate | [The Marrow Skull Tyrant Arena (Bone_15)](the-marrow-skull-tyrant-arena.md) | L | none |  | Verified | ✓ |  |
 | F | floor | ground floor | [The Marrow Lava Intro (Bone_02)](the-marrow-lava-intro.md) | RC | none |  | Verified | ✓ |  |
+| FC | flea caravan | flea floor | [Flea Caravan](../fast-travel/flea-caravan.md) | TM | none |  | Verified | ✓ |  |
 
 ## Subroom Connections
 

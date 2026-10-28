@@ -2,7 +2,7 @@
 
 **Game ID:** Coral_12
 
-**Contributors:** skai
+**Contributors:** skai, MayaXTG
 
 ## Subrooms
 
@@ -28,32 +28,33 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| BLR | Bottom Third Left to Right | Bottom Third (Left) | Bottom Third (Right) | Progressive Swift Step 1 OR Faydown OR Clawline OR Flea Brew OR Sharpdart OR Easy Beast Crest Pogo |  | Verified | ✓ |  |
-| BLR | Bottom Third Left to Right | Bottom Third (Right) | Bottom Third (Left) | Progressive Swift Step 1 OR Faydown OR Clawline OR Flea Brew OR Sharpdart OR Easy Beast Crest Pogo |  | Verified | ✓ |  |
-| BMB | Bottom to Middle Bottom | Bottom Third (Right) | Middle Third (Bottom) | Cling Grip OR Scuttlebrace OR Silk Soar |  | Verified | ✓ |  |
+| BLR | Bottom Third Left to Right | Bottom Third (Left) | Bottom Third (Right) | run OR Faydown OR Clawline right x 1 OR Flea Brew OR Sharpdart x 1 OR Easy Beast Crest Pogo OR easy beast needle strike OR drifter's cloak |  | Verified | ✓ | You can glide across with the wind |
+| BLR | Bottom Third Left to Right | Bottom Third (Right) | Bottom Third (Left) | run OR Faydown OR Clawline left x 1 OR Flea Brew OR Sharpdart x 1 OR Easy Beast Crest Pogo OR easy beast needle strike |  | Verified | ✓ |  |
+| BMB | Bottom to Middle Bottom | Bottom Third (Right) | Middle Third (Bottom) | Cling Grip right OR Scuttlebrace OR Silk Soar |  | Verified | ✓ |  |
 | BMB | Bottom to Middle Bottom | Middle Third (Bottom) | Bottom Third (Right) | Nothing (Falling) |  | Verified | ✓ |  |
-| MBT | Middle Bottom to Middle Top | Middle Third (Bottom) | Middle Third (Top) | ((Progressive Swift Step 2 OR Faydown OR Clawline  OR Sharpdart) AND Cling Grip) OR ((Hard Scuttlebrace AND Ledge Grab) OR (Medium Scuttlebrace AND (Flea Brew OR Faydown OR Clawline) AND Ledge Grab)) OR Silk Soar |  | Verified | ✓ |  |
+| MBT | Middle Bottom to Middle Top | Middle Third (Bottom) | Middle Third (Top) | ((dash left OR Faydown OR Clawline left x 1 OR Sharpdart OR ledge grab left) AND Cling Grip left) OR ((Hard Scuttlebrace AND Ledge Grab left) OR (Medium Scuttlebrace AND (Flea Brew OR Faydown OR Clawline left x 1) AND Ledge Grab left)) OR Silk Soar |  | Verified | ✓ | I feel like I'm deciphering runes - Maya |
 | MBT | Middle Bottom to Middle Top | Middle Third (Top) | Middle Third (Bottom) | Nothing (Falling) |  | Verified | ✓ |  |
-| MTE | Middle Top to Middle Entrance | Middle Third (Top) | Middle Third (Entrance) | Clawline OR Faydown OR Scuttlebrace OR Cling Grip OR Silk Soar OR Sharpdart OR ((Drifter's OR (Progressive Swift Step 2 AND Flea Brew) OR (Flea Brew AND Medium Flea Brew Stall)) AND Ledge Grab) |  | Verified | ✓ |  |
-| MTE | Middle Top to Middle Entrance | Middle Third (Entrance) | Middle Third (Top) | Progressive Swift Step 2 OR Faydown OR Clawline OR  Sharpdart OR (Flea Brew AND Easy Flea Brew Stall) |  | Verified | ✓ |  |
-| MET | Middle Entrance to Top | Middle Third (Entrance) | Top Third | Cling Grip OR Silk Soar OR (Scuttlebrace AND Spike Pogo) OR (Faydown AND Easy Enemy Pogo) |  | Verified | ✓ |  |
+| MTE | Middle Top to Middle Entrance | Middle Third (Top) | Middle Third (Entrance) | Clawline right x 1 OR Faydown OR Scuttlebrace OR Cling Grip right OR Silk Soar OR Sharpdart OR ((Drifter's OR (dash right AND Flea Brew) OR (Flea Brew AND Medium Flea Brew Stall)) AND Ledge Grab right) |  | Verified | ✓ |  |
+| MTE | Middle Top to Middle Entrance | Middle Third (Entrance) | Middle Third (Top) | dash left OR Faydown OR Clawline left x 1 OR  Sharpdart OR (Flea Brew AND Easy Flea Brew Stall) |  | Verified | ✓ |  |
+| MET | Middle Entrance to Top | Middle Third (Entrance) | Top Third | Cling Grip right OR Silk Soar OR (Scuttlebrace AND Spike Pogo) OR (Faydown AND Easy Enemy Pogo) |  | Verified | ✓ |  |
 | MET | Middle Entrance to Top | Top Third | Middle Third (Entrance) | Nothing (Falling) |  | Verified | ✓ |  |
 | TTE | Top to Top Entrance | Top Third | Top Third (Entrance) | Nothing |  | Verified | ✓ |  |
-| TTE | Top to Top Entrance | Top Third (Entrance) | Top Third | Progressive Swift Step 2 OR Faydown OR Clawline OR Sharpdart OR Flea Brew |  | Verified | ✓ |  |
+| TTE | Top to Top Entrance | Top Third (Entrance) | Top Third | dash left OR Faydown OR Clawline left x 1 OR Sharpdart OR Flea Brew |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Map Purchase: Blasted Steps | Bottom Third (Right) | (Progressive Swift Step 1 OR Faydown OR Clawline OR Flea Brew OR Sharpdart OR Easy Beast Crest Pogo) AND Act 1 |  | Verified | collectible | ✓ | This can be purchased at Bellhart if Shakra has moved. |
-| 2 | Judge 1 |  |  |  |  | enemy | ✓ |  |
-| 3 | Driznit 1 |  |  |  |  | enemy | ✓ |  |
-| 4 | Driznit 2 |  |  |  |  | enemy | ✓ |  |
-| 5 | Pilgrim Hiker 1 |  |  |  |  | enemy | ✓ |  |
-| 6 | Pharlid 1 |  |  |  |  | enemy | ✓ |  |
-| 7 | Winged Pilgrim Bellbearer 1 |  |  |  |  | enemy | ✓ |  |
-| 8 | Judge 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 9 | Void Mass 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
+| 1 | Map Purchase: Blasted Steps | Bottom Third (Right) | none |  | Verified | collectible | ✓ | This can be purchased at Bellhart if Shakra has moved. |
+| 2 | Blasted Steps: Rosary Cache Above Shakra | Middle Third (Entrance) | none |  | Verified | collectible | ✓ | This may need moving |
+| 3 | Judge 1 | Middle Third (Top) | none |  | Verified | enemy | ✓ |  |
+| 4 | Driznit 1 | Middle Third (Bottom) | none |  | Verified | enemy | ✓ | Technically inside Entrance but can be reached in Bottom |
+| 5 | Driznit 2 | Middle Third (Top) | none |  | Verified | enemy | ✓ |  |
+| 6 | Pilgrim Hiker 1 | Middle Third (Entrance) | none |  | Verified | enemy | ✓ |  |
+| 7 | Pharlid 1 | Top Third | none |  | Verified | enemy | ✓ |  |
+| 8 | Winged Pilgrim Bellbearer 1 | Middle Third (Entrance) | none |  | Verified | enemy | ✓ |  |
+| 9 | Judge 2 | Top Third | none |  | Verified | enemy | ✓ | Gets replaced with a void variant in act 3 |
+| 10 | Void Mass 1 | Middle Third (Top) | Act 3 |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

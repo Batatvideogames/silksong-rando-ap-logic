@@ -2,7 +2,7 @@
 
 **Game ID:** Coral_35
 
-**Contributors:** skai
+**Contributors:** skai, MayaXTG
 
 ## Subrooms
 
@@ -29,13 +29,13 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| BLU | Bottom Lower to Upper | Bottom Third (Lower Half) | Bottom Third (Upper Half) | Cling Grip OR Medium Scuttlebrace OR Faydown OR (Silk Soar AND Ledge Grab) |  | Verified | ✓ |  |
+| BLU | Bottom Lower to Upper | Bottom Third (Lower Half) | Bottom Third (Upper Half) | cling grip right OR Faydown OR silk soar |  | Verified | ✓ | I couldn't get scuttlebrace working here - Maya |
 | BLU | Bottom Lower to Upper | Bottom Third (Upper Half) | Bottom Third (Lower Half) | Nothing (Falling) |  | Verified | ✓ |  |
-| BML | Bottom to Middle Lower | Bottom Third (Upper Half) | Middle Third (Lower Half) | Cling Grip OR (Scuttlebrace AND (Clawline OR Faydown OR Easy Flea Brew Stall OR Sharpdart)) OR (Silk Soar AND (Ledge Grab OR Progressive Swift Step 2 OR Faydown OR Clawline OR Flea Brew OR Sharpdart)) |  | Verified | ✓ |  |
+| BML | Bottom to Middle Lower | Bottom Third (Upper Half) | Middle Third (Lower Half) | Cling Grip both OR (Scuttlebrace AND ((clawline right x 1 AND clawline left x 1) OR (Faydown AND ledge grab left) OR Sharpdart x 2)) OR silk soar |  | Verified | ✓ | Couldn't figure out how Flea Brew stall worked here - Maya |
 | BML | Bottom to Middle Lower | Middle Third (Lower Half) | Bottom Third (Upper Half) | Nothing (Falling) |  | Verified | ✓ |  |
-| MLU | Middle Lower to Upper | Middle Third (Lower Half) | Middle Third (Upper Half) | Cling Grip OR (Easy Scuttlebrace AND (Faydown OR Easy Flea Brew Stall OR Medium Heal Stall)) OR Silk Soar |  | Verified | ✓ |  |
+| MLU | Middle Lower to Upper | Middle Third (Lower Half) | Middle Third (Upper Half) | Cling Grip left OR (Easy Scuttlebrace AND (easy shaman pogo OR hard heal stall OR hard flea brew stall)) OR Silk Soar |  | Verified | ✓ | Swapped heal and flea brew to hard because it's quite tight - Maya |
 | MLU | Middle Lower to Upper | Middle Third (Upper Half) | Middle Third (Lower Half) | Nothing (Falling) |  | Verified | ✓ |  |
-| MTL | Middle to Top Lower | Middle Third (Upper Half) | Top Third (Lower Half) | Spike Pogo AND (Cling Grip OR Easy Scuttlebrace) |  | Verified | ✓ |  |
+| MTL | Middle to Top Lower | Middle Third (Upper Half) | Top Third (Lower Half) | spike pogo AND cling grip both |  | Verified | ✓ | You cannot jump out of scuttlebrace without Cling Grip - Maya |
 | MTL | Middle to Top Lower | Top Third (Lower Half) | Middle Third (Upper Half) | Nothing (Falling) |  | Verified | ✓ |  |
 | TLU | Top Lower to Upper | Top Third (Lower Half) | Top Third (Upper Half) | Nothing (Jump) |  | Verified | ✓ |  |
 | TLU | Top Lower to Upper | Top Third (Upper Half) | Top Third (Lower Half) | Nothing (Fall) |  | Verified | ✓ |  |

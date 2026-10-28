@@ -14,6 +14,7 @@ No subrooms defined.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | L | Left |  | [Pre Last Judge Room (Coral_32)](pre-last-judge-room.md) | R | Nothing |  | Verified | ✓ |  |
 | R | Right |  | [Grand Bridge (Coral_10)](../grand-gate/grand-bridge.md) | L | defeat Boss: Last Judge |  | Verified | ✓ |  |
+| FC | flea caravan |  | [Flea Caravan](../fast-travel/flea-caravan.md) | BS | after THE flea caravan move to blasted steps |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
@@ -23,10 +24,9 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Boss: Last Judge |  | prereq Five Bellshrines Rung AND (Progressive Swift Step 2 OR Faydown) AND Combat Requirements |  | Verified | boss | ✓ | Combat Requirements |
+| 1 | Boss: Last Judge |  | prereq Five Bellshrines Rung AND (dash both OR Faydown) AND Combat Requirements |  | Verified | boss | ✓ |  |
 | 2 | Five Bellshrines Rung |  | get 5 bellshrines activated |  | Verified | event | ✓ |  |
 | 3 | flea caravan move to fleatopia |  | after THE flea caravan move to blasted steps AND get 22 fleas AND after THE reached pale lake |  | Verified | event |  |  |
-| 4 | Last Judge 1 |  |  |  |  | enemy | ✓ |  |
 
 ## Room Images
 

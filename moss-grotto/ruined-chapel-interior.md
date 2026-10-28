@@ -31,6 +31,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | RestBench | ritual chamber | none |  | Verified | bench | ✓ |  |
 | 2 | churchkeeper_rosary | ritual chamber | none |  | Verified | collectible | ✓ | discarded robes from ruined chapel caretaker |
+| 3 | awaiting the end complete | ritual chamber | none |  | Verified | event |  |  |
 
 ## Notes
 

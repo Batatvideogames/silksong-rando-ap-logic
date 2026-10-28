@@ -34,7 +34,7 @@
 | UP | upper platform | upper platform section | short platform | none (just fall) |  | Verified | ✓ |  |
 | G | gap | check platform | upper platform section | faydown cloak OR silk soar OR ((cling grip right OR ledge grab right) AND (clawline right x 1  OR progressive swift step 1 right OR sharpdart x 1)) |  | Verified | ✓ |  |
 | G | gap | upper platform section | check platform | faydown cloak OR drifters cloak OR progressive swift step 1 left OR sharpdart x 1 OR clawline left x 1 OR easy [hunter, reaper, beast, witch, architect, shaman] pogo |  | Verified | ✓ |  |
-| PG | pogo skip | left section | check platform | faydown cloak OR silk soar OR (hard pogo off roachcatcher AND ledge grab left) |  | Verified | ✓ |  |
+| PG | pogo skip | left section | check platform | faydown cloak OR silk soar OR hard pogo off roachcatcher OR (easy pogo off roachcatcher AND (((progressive swift step 1 OR clawline left x 1) AND ledge grab left) OR progressive swift step 2 left)) |  | Verified | ✓ |  |
 | PG | pogo skip | check platform | left section | none (fall) |  | Verified | ✓ |  |
 | LP | lower pasage | right section | left section | swim |  | Verified | ✓ |  |
 | LP | lower pasage | left section | right section | swim |  | Verified | ✓ |  |

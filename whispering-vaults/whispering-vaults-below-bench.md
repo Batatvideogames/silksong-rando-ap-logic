@@ -18,7 +18,7 @@
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | BL | left2 | Bottom | [Whispering Vaults East To West (Library_05)](whispering-vaults-east-to-west.md) | BR | Nothing. |  | Verified | ✓ |  |
-| R | right1 | Top | [Whispering Vaults Totally Not White Palace (Library_07)](whispering-vaults-totally-not-white-palace.md) | BL | Nothing. |  | Verified | ✓ |  |
+| R | right1 | Right Exit | [Whispering Vaults Totally Not White Palace (Library_07)](whispering-vaults-totally-not-white-palace.md) | BL | Nothing. |  | Verified | ✓ |  |
 | TL | left1 | Top | [Whispering Vaults East To West (Library_05)](whispering-vaults-east-to-west.md) | TR | Nothing. |  | Verified | ✓ |  |
 
 ## Subroom Connections
@@ -26,8 +26,11 @@
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | LA | Lower Ascent | Bottom | Top | (Silk Soar OR Cling Grip OR Scuttlebrace) AND (Dash OR Clawline OR Sharpdart OR Faydown Cloak) |  | Verified | ✓ |  |
+| LA | Lower Ascent | Top | Bottom | Free (Fall) |  | Verified | ✓ |  |
 | HA | Higher Ascent | Top | Rosary | Silk Soar OR Proficient Movement (easy box pogo) OR (Cling Grip AND (Faydown Cloak OR Clawline OR Sharpdart OR easy Needle Strike Stall (Architect) OR (Cling Grip AND Easy Enemy Pogo))) |  | Verified | ✓ |  |
+| HA | Higher Ascent | Rosary | Top | Nothing (Fall) |  | Verified | ✓ |  |
 | E | Exit | Top | Right Exit | Silk Soar OR Cling Grip OR Scuttlebrace OR (Faydown Cloak AND Ledge Grab) |  | Verified | ✓ |  |
+| E | Exit | Right Exit | Top | None (Fall) |  |  | ✓ |  |
 
 ## Check Locations
 

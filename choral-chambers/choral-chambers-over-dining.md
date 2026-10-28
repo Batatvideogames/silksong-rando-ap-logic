@@ -25,28 +25,30 @@
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | V | Vertical | Top | Base | none |  | Verified | ✓ | falling |
-| V | Vertical | Base | Top | cling grip either OR faydown cloak OR silk soar OR (easy shaman pogo AND (easy pogo off [Choir Hornhead, Choir pouncer] OR easy hazard respawn) AND easy pogo off Choir Flyer) OR (ledge grab either AND easy pogo off Choir Flyer) OR (scuttlebrace AND (easy pogo off [Choir Hornhead, Choir pouncer] OR easy hazard respawn)) |  | Verified | ✓ |  |
+| V | Vertical | Base | Top | cling grip either OR faydown cloak OR silk soar OR ((hard plasmium stall OR medium flea brew stall OR easy shaman pogo OR ledge grab either OR easy scuttlebrace) AND (easy [hunter, wanderer, reaper,beast,architect, Shaman] pogo OR easy pogo off [Choir Hornhead, Choir pouncer, Choir Flyer]) AND easy pogo off Choir Flyer) |  | Verified | ✓ |  |
 | S | Secret | Right Secret | Base | activate switch over dining |  | Verified | ✓ |  |
+| S | Secret | Base | Right Secret | activate switch over dining AND ((cling grip either OR faydown cloak OR silk soar OR ((hard plasmium stall OR medium flea brew stall OR easy shaman pogo OR ledge grab either OR easy scuttlebrace) AND (easy [hunter, wanderer, reaper,beast,architect, Shaman] pogo OR easy pogo off [Choir Hornhead, Choir pouncer, Choir Flyer])))) |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Rosary Necklace - Choral Chambers #2 | Base | break wall right AND (cling grip either OR ledge grab either OR easy shaman pogo OR silk soar OR scuttlebrace OR easy beast needle strike OR faydown OR easy damage boost off Drapefly) |  | Verified | collectible | ✓ | hidden behind a breakable wall |
+| 1 | Rosary Necklace - Choral Chambers #2 | Base | activate Wall over dining AND (cling grip either OR ledge grab either OR easy shaman pogo OR silk soar OR easy scuttlebrace OR easy beast needle strike OR faydown OR easy damage boost off Drapefly OR easy [plasmium, flea brew, voltvessels] stall) |  | Verified | collectible | ✓ | hidden behind a breakable wall |
 | 2 | Dining Hall's food budget | Top | none |  | Verified | collectible | ✓ | rosary cache |
 | 3 | Mergwin's hidden stash | Top | none |  | Verified | collectible | ✓ | rosary cache |
 | 4 | Great Gourmand's treasury | Top | none |  | Verified | collectible | ✓ | rosary cache |
 | 5 | Mask Shard: Cogwork Core | Right Secret | none |  | Verified | collectible | ✓ |  |
 | 6 | Switch over dining | Right Secret | none |  | Verified | switch | ✓ |  |
-| 7 | Choir Pouncer 1 | Base | Normal World Spawn |  | Verified | enemy | ✓ |  |
-| 8 | Drapemite 1 | Base | Normal World Spawn |  | Verified | enemy | ✓ |  |
-| 9 | Drapemite 2 | Base | Normal World Spawn |  | Verified | enemy | ✓ |  |
-| 10 | Choir Hornhead 1 | Base | Normal World Spawn |  | Verified | enemy | ✓ |  |
-| 11 | Choir Flyer 1 | Base | Normal World Spawn |  | Verified | enemy | ✓ |  |
-| 12 | Drapefly 1 | Base | Normal World Spawn |  | Verified | enemy | ✓ |  |
-| 13 | Drapefly 2 | Top | Normal World Spawn |  | Verified | enemy | ✓ |  |
-| 14 | Choir Flyer 2 | Base | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
-| 15 | Drapefly 3 | Base | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 7 | Wall over dining | Base | break wall left |  | Verified | blockade | ✓ |  |
+| 8 | Choir Pouncer 1 | Base | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 9 | Drapemite 1 | Base | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 10 | Drapemite 2 | Base | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 11 | Choir Hornhead 1 | Base | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 12 | Choir Flyer 1 | Base | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 13 | Drapefly 1 | Base | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 14 | Drapefly 2 | Top | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 15 | Choir Flyer 2 | Base | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 16 | Drapefly 3 | Base | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

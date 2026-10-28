@@ -24,7 +24,8 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | metal wall |  | break wall left OR break wall up OR clear metal bars IN grand gate courtroom |  | Verified | blockade | ✓ |  |
-| 2 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 2 | Breakable Ceiling Gate Maintenance |  | attack either |  | Verified | logic-point |  |  |
+| 3 | import enemies |  |  | TODO | Needs verification |  |  |  |
 
 ## Room Images
 

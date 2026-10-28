@@ -19,7 +19,7 @@
       "outputSyntax": "invalid",
       "notes": "For situations where a traversal can never happen.",
       "sortOrder": 1,
-      "aliases": "invalid, impassable, you have literally no reason to ever do this"
+      "aliases": "invalid, impassable, can miss, you have literally no reason to ever do this"
     },
     {
       "id": "7b77acec-2ee9-5052-a24a-c38ffdbd83de",
@@ -956,12 +956,21 @@
       "aliases": "flea brew"
     },
     {
+      "id": "22cdf1ec-a93c-4a17-8bcf-b77b24fac45f",
+      "name": "Delver\u0027s Drill",
+      "category": "Stall",
+      "outputValue": "delvers-drill",
+      "notes": "Implies owning and being able to equip tool.",
+      "sortOrder": 3,
+      "aliases": "delvers drill"
+    },
+    {
       "id": "82261342-499a-48d2-9b13-cff86beba6d9",
       "name": "Plasmium Phial",
       "category": "Stall",
       "outputValue": "plasmium-phial",
       "notes": "Implies owning and being able to equip tool.",
-      "sortOrder": 3,
+      "sortOrder": 4,
       "aliases": "plasmium phial, plasmium"
     },
     {
@@ -970,8 +979,17 @@
       "category": "Stall",
       "outputValue": "voltvessels",
       "notes": "Implies owning and being able to equip tool.",
-      "sortOrder": 4,
+      "sortOrder": 5,
       "aliases": "voltvessels"
+    },
+    {
+      "id": "1d1362cb-2e29-43b1-8dde-731e17f8cac7",
+      "name": "Silkspear",
+      "category": "Stall",
+      "outputValue": "silkspear",
+      "notes": "Implies owning and being able to equip spell.",
+      "sortOrder": 6,
+      "aliases": "silkspear"
     },
     {
       "id": "37719fc4-2d04-49bf-9eeb-10cfe98b5b87",
@@ -979,7 +997,7 @@
       "category": "Stall",
       "outputValue": "thread-storm",
       "notes": "Implies owning and being able to equip spell.",
-      "sortOrder": 5,
+      "sortOrder": 7,
       "aliases": "thread storm"
     },
     {
@@ -988,7 +1006,7 @@
       "category": "Stall",
       "outputValue": "rune-rage",
       "notes": "Implies owning and being able to equip spell.",
-      "sortOrder": 6,
+      "sortOrder": 8,
       "aliases": "rune rage"
     },
     {
@@ -997,8 +1015,8 @@
       "category": "Stall",
       "outputValue": "cross-stitch",
       "notes": "Implies owning and being able to equip spell.",
-      "sortOrder": 7,
-      "aliases": "cross stitch"
+      "sortOrder": 9,
+      "aliases": "cross stitch, parry"
     },
     {
       "id": "6484058b-208b-4552-ab21-5764e88cae5e",
@@ -1006,7 +1024,7 @@
       "category": "Stall",
       "outputValue": "pale-nails",
       "notes": "Implies owning and being able to equip spell.",
-      "sortOrder": 8,
+      "sortOrder": 10,
       "aliases": "pale nails"
     }
   ],

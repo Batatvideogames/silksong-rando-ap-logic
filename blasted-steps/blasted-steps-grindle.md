@@ -2,7 +2,7 @@
 
 **Game ID:** Coral_42
 
-**Contributors:** skai
+**Contributors:** skai, MayaXTG
 
 ## Subrooms
 
@@ -21,7 +21,7 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| MO | Middle Opening | Lower Half | Upper Half | Silk Soar OR (Faydown AND (Cling Grip OR  Scuttlebrace)) |  | Verified | ✓ |  |
+| MO | Middle Opening | Lower Half | Upper Half | Silk Soar OR (Faydown AND (Cling Grip any OR  Scuttlebrace)) |  | Verified | ✓ |  |
 | MO | Middle Opening | Upper Half | Lower Half | Nothing (Falling) |  | Verified | ✓ |  |
 
 ## Check Locations
@@ -29,7 +29,7 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Thief's Mark | Upper Half | Nothing |  | Verified | collectible | ✓ |  |
-| 2 | Snitch Pick | Upper Half | Clawline |  | Verified | collectible | ✓ |  |
+| 2 | Snitch Pick | Upper Half | Clawline any |  | Verified | collectible | ✓ |  |
 | 3 | Relic: Psalm Cylinder (Grindle) | Upper Half | Nothing |  | Verified | collectible | ✓ |  |
 | 4 | Crafting Kit: Grindle | Upper Half | Nothing |  | Verified | collectible | ✓ |  |
 | 5 | Spool Fragment: Grindle (Blasted Steps) | Upper Half | Nothing |  | Verified | collectible | ✓ |  |
@@ -40,7 +40,7 @@
 | 10 | Mort (Pilgrim's Rest) / Grindle (Act 3) - Tool Pouch | Upper Half | Act 3 |  | Verified | collectible | ✓ | IF NOT Acquired from Mort |
 | 11 | Mort (Pilgrim's Rest) / Grindle (Act 3) - Memory Locket | Upper Half | Act 3 |  | Verified | collectible | ✓ | IF NOT Acquired from Mort |
 | 12 | Lumble (Blasted Steps) / Grindle (Act 3) - Magnetite Dice | Upper Half | Act 3 |  | Verified | collectible | ✓ | IF NOT Acquired from Lumble |
-| 13 | Snitchfly 1 |  |  |  |  | enemy | ✓ |  |
+| 13 | Snitchfly 1 | Lower Half | invalid |  | Verified | enemy | ✓ | Spawn conditions: hasDoubleJump=false, grindleShopEnemyIntro=false |
 
 ## Room Images
 

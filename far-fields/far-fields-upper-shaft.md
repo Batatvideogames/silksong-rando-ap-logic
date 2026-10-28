@@ -53,17 +53,16 @@
 | 1 | lower gate lever | the bottom | flip switch down |  | Verified | switch | ✓ |  |
 | 2 | middle gate lever | above middle gate | flip switch down |  | Verified | switch | ✓ |  |
 | 3 | hunter's march bridge lever | left march bridge room | flip switch down |  | Verified | switch | ✓ |  |
-| 4 | greymoor floor blockade | top wind tunnel | none (opens once traveled through) |  | Verified | blockade | ✓ |  |
-| 5 | Vicious Caranid 1 | wind shaft ascent | none |  | Verified | enemy | ✓ | shell shards |
-| 6 | Caranid 1 | first shaft scaffold | none |  | Verified | enemy | ✓ | shell shards |
-| 7 | Caranid 2 | first shaft scaffold | none |  | Verified | enemy | ✓ | shell shards |
-| 8 | Vicious Caranid 2 | wind shaft ascent | Normal World Spawn |  | Verified | enemy | ✓ | shell shards |
-| 9 | Caranid 3 | wind shaft ascent | Normal World Spawn |  | Verified | enemy | ✓ | shell shards |
-| 10 | Vicious Caranid 3 | the bottom | Normal World Spawn |  | Verified | enemy | ✓ | shell shards |
-| 11 | Caranid 4 | the bottom | Normal World Spawn |  | Verified | enemy | ✓ | shell shards |
-| 12 | Vicious Caranid 4 | the bottom | Black Thread World Spawn |  | Verified | enemy | ✓ | shell shards |
-| 13 | Vicious Caranid 5 | above middle gate | Black Thread World Spawn |  | Verified | enemy | ✓ | shell shards |
-| 14 | Caranid 5 | wind shaft ascent | Black Thread World Spawn |  | Verified | enemy | ✓ | shell shards |
+| 4 | Vicious Caranid 1 | wind shaft ascent | none |  | Verified | enemy | ✓ | shell shards |
+| 5 | Caranid 1 | first shaft scaffold | none |  | Verified | enemy | ✓ | shell shards |
+| 6 | Caranid 2 | first shaft scaffold | none |  | Verified | enemy | ✓ | shell shards |
+| 7 | Vicious Caranid 2 | wind shaft ascent | Normal World Spawn |  | Verified | enemy | ✓ | shell shards |
+| 8 | Caranid 3 | wind shaft ascent | Normal World Spawn |  | Verified | enemy | ✓ | shell shards |
+| 9 | Vicious Caranid 3 | the bottom | Normal World Spawn |  | Verified | enemy | ✓ | shell shards |
+| 10 | Caranid 4 | the bottom | Normal World Spawn |  | Verified | enemy | ✓ | shell shards |
+| 11 | Vicious Caranid 4 | the bottom | Black Thread World Spawn |  | Verified | enemy | ✓ | shell shards |
+| 12 | Vicious Caranid 5 | above middle gate | Black Thread World Spawn |  | Verified | enemy | ✓ | shell shards |
+| 13 | Caranid 5 | wind shaft ascent | Black Thread World Spawn |  | Verified | enemy | ✓ | shell shards |
 
 ## Room Images
 

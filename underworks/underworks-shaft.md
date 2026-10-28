@@ -37,11 +37,11 @@
 | FT | Falling from Top | Mid | Top | Activate Platform Fall Lever AND (Silk Soar OR Cling Grip OR (Medium Scuttlebrace AND (Faydown Cloak OR Dash OR Clawline OR Sharpdart))) |  | Verified | ✓ |  |
 | FT2 | Falling from Top 2 | Top | Lever | none (Fall) |  | Verified | ✓ |  |
 | FT2 | Falling from Top 2 | Lever | Top | Silk Soar OR Cling Grip OR (Medium Scuttlebrace AND (Faydown Cloak OR Dash OR Clawline OR Sharpdart)) |  | Verified | ✓ |  |
-| LM | Lever to Mid | Mid | Lever | Activate Platform Fall Lever |  | Verified | ✓ |  |
-| LM | Lever to Mid | Lever | Mid | Activate Platform Fall Lever AND (Cling Grip OR Ledge Grab OR Faydown Cloak OR Silk Soar) |  | Verified | ✓ |  |
-| MB | Mid <> Bottom | Mid | Bottom | Activate Platform Fall Lever |  | Verified | ✓ |  |
-| MB | Mid <> Bottom | Bottom | Mid | Activate Platform Fall Lever AND (Cling Grip OR Ledge Grab OR Faydown Cloak OR Silk Soar) |  | Verified | ✓ |  |
-| BL | Reaching Bottom Lever | Mid | Bottom Lever | Activate Platform Fall Lever |  | Verified | ✓ |  |
+| LM | Lever to Mid | Mid | Lever | Activate Platform Fall Lever OR Activate Not-So-Unneeded Lever |  | Verified | ✓ |  |
+| LM | Lever to Mid | Lever | Mid | (Activate Platform Fall Lever OR Activate Not-So-Unneeded Lever) AND (Cling Grip OR Ledge Grab OR Faydown Cloak OR Silk Soar) |  | Verified | ✓ |  |
+| MB | Mid <> Bottom | Mid | Bottom | Activate Platform Fall Lever OR Activate Not-So-Unneeded Lever |  | Verified | ✓ |  |
+| MB | Mid <> Bottom | Bottom | Mid | Activate Not-So-Unneeded Lever AND (Cling Grip OR (Faydown Cloak AND Ledge Grab) OR Silk Soar) |  | Verified | ✓ |  |
+| BL | Reaching Bottom Lever | Mid | Bottom Lever | Nothing. (Fall) |  | Verified | ✓ |  |
 | BL | Reaching Bottom Lever | Bottom Lever | Mid | Activate Platform Fall Lever AND (silk soar OR Cling Grip OR Medium Scuttlebrace) |  | Verified | ✓ |  |
 | RB | Reaching Bottom | Bottom Lever | Bottom | Nothing. (Fall) |  | Verified | ✓ |  |
 | RB | Reaching Bottom | Bottom | Bottom Lever | Silk Soar OR Cling Grip OR (Medium Scuttlebrace AND (Ledge Grab OR Faydown Cloak)) |  | Verified | ✓ |  |
@@ -54,9 +54,16 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Snapping Floor | Overtop | Break Wall Down |  | Verified | blockade | ✓ |  |
 | 2 | Platform Fall Lever | Lever | Flip Switch Left |  | Verified | switch | ✓ |  |
-| 3 | Unneeded Lever | Bottom Lever | Flip Switch Left |  | Verified | switch | ✓ |  |
+| 3 | Not-So-Unneeded Lever | Bottom Lever | Flip Switch Left |  | Verified | switch | ✓ |  |
 | 4 | Underground Entrance Lever | Underground | Flip Switch Right |  | Verified | switch | ✓ |  |
-| 5 | import enemies |  |  | TODO | Needs verification |  |  |  |
+| 5 | Underloft 1 |  |  |  |  | enemy | ✓ |  |
+| 6 | Underpoke 1 |  |  |  |  | enemy | ✓ |  |
+| 7 | Underloft 2 |  |  |  |  | enemy | ✓ |  |
+| 8 | Underpoke 2 |  |  |  |  | enemy | ✓ |  |
+| 9 | Underpoke 3 |  |  |  |  | enemy | ✓ |  |
+| 10 | Underworker 1 |  |  |  |  | enemy | ✓ |  |
+| 11 | Underworker 2 |  |  |  |  | enemy | ✓ |  |
+| 12 | Void Mass 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
 
 ## Room Images
 

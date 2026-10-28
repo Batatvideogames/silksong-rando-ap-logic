@@ -22,7 +22,7 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Halfway Home Gauntlet |  | silk soar OR cling grip OR (faydown cloak AND ledge grab) |  | Verified | gauntlet | ✓ | completing the gauntlet requires defeating all enemies stationed across the room |
+| 1 | Halfway Home Gauntlet |  | (silk soar OR cling grip OR (faydown cloak AND ledge grab)) AND Combat Requirements |  | Verified | gauntlet | ✓ | completing the gauntlet requires defeating all enemies stationed across the room |
 | 2 | vintage nectar |  | complete Halfway Home Gauntlet |  | Verified | event | ✓ |  |
 | 3 | Skarr Stalker 1 |  |  |  |  | enemy | ✓ |  |
 | 4 | Skarrlid 1 |  |  |  |  | enemy | ✓ |  |

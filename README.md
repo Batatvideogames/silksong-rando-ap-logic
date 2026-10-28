@@ -229,7 +229,7 @@ Generated from the non-archived records in `input/silksong-rando-logic.db`.
 - [Greymoor Entry to Bellhart (Greymoor_08)](./greymoor/greymoor-entry-to-bellhart.md)
 - [Greymoor Halfway Home (Halfway_01)](./greymoor/greymoor-halfway-home.md)
 - [Greymoor Halfway Home Exterior (Greymoor_03)](./greymoor/greymoor-halfway-home-exterior.md)
-- [Greymoor Kraft Room (Greymoor_24)](./greymoor/greymoor-kraft-room.md)
+- [Greymoor Kratt Room (Greymoor_24)](./greymoor/greymoor-kratt-room.md)
 - [Greymoor Middle Passage (Greymoor_10)](./greymoor/greymoor-middle-passage.md)
 - [Greymoor Rat Tunnel (Greymoor_16)](./greymoor/greymoor-rat-tunnel.md)
 - [Greymoor Silver Shells room (Greymoor_17)](./greymoor/greymoor-silver-shells-room.md)
@@ -247,7 +247,7 @@ Generated from the non-archived records in `input/silksong-rando-logic.db`.
 - [Wisp Thicket Shaft (Wisp_08)](./wisp-thicket/wisp-thicket-shaft.md)
 - [Wisp Thicket Bench (Wisp_04)](./wisp-thicket/wisp-thicket-bench.md)
 - [Wisp Thicket Grounds (Wisp_02)](./wisp-thicket/wisp-thicket-grounds.md)
-- [Father of the Flame (Belltown_08)](./wisp-thicket/father-of-the-flame.md)
+- [Father of the Flame Gamer Cave (Belltown_08)](./wisp-thicket/father-of-the-flame-gamer-cave.md)
 - [Wisp Thicket Secret Path (Wisp_05)](./wisp-thicket/wisp-thicket-secret-path.md)
 - [Wisp Thicket Cave (Wisp_09)](./wisp-thicket/wisp-thicket-cave.md)
 
@@ -262,7 +262,7 @@ Generated from the non-archived records in `input/silksong-rando-logic.db`.
 - [Verdania Capital (Clover_04b)](./verdania/verdania-capital.md)
 - [Verdania Cloverstag Steps (Clover_16)](./verdania/verdania-cloverstag-steps.md)
 - [Verdania Entrance (Clover_01b)](./verdania/verdania-entrance.md)
-- [Verdania Kindanir egg Room (Clover_11)](./verdania/verdania-kindanir-egg-room.md)
+- [Verdania Kindanir Egg Room (Clover_11)](./verdania/verdania-kindanir-egg-room.md)
 - [Verdania Left Side Essence Shrine (Clover_21)](./verdania/verdania-left-side-essence-shrine.md)
 - [Verdania Left Side Tall Room (Clover_05c)](./verdania/verdania-left-side-tall-room.md)
 - [Verdania Right Side Tall Room (Clover_03)](./verdania/verdania-right-side-tall-room.md)
@@ -620,11 +620,17 @@ Generated from the non-archived records in `input/silksong-rando-logic.db`.
 - [Abyss Cocoon (Abyss_Cocoon)](./the-abyss/abyss-cocoon.md)
 - [Last Dive (Last_Dive)](./the-abyss/last-dive.md)
 
+## Flea Caravan
+
+- [Varga Caravan Room (Room_Caravan_Interior)](./flea-caravan/varga-caravan-room.md)
+- [Kratt Spa (Room_Caravan_Spa)](./flea-caravan/kratt-spa.md)
+
 ## Fast Travel
 
 - [Bellway Menu](./fast-travel/bellway-menu.md)
 - [Ventrica Menu](./fast-travel/ventrica-menu.md)
 - [Slab Capture](./fast-travel/slab-capture.md)
+- [Flea Caravan](./fast-travel/flea-caravan.md)
 
 ## Wish Menus
 

@@ -33,7 +33,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | T | top | lil top | [Greymoor Weaver Shrine (Greymoor_22)](greymoor-weaver-shrine.md) | B | silk soar OR ledge grab OR faydown cloak OR cling grip right OR (ledge grab right AND (cling grip left OR ledge grab left OR easy [beast, shaman] pogo)) |  | Verified | ✓ |  |
 | ML | middle left | middle craw nest left | [Greymoor Craw Lake Entrance (Greymoor_15)](greymoor-craw-lake-entrance.md) | UR | none |  | Verified | ✓ |  |
-| LR | lower right | verdania ledge | [Dead Verdania Main (Clover_01)](../verdania/dead-verdania-main.md) | L | nothing |  | Verified | ✓ |  |
+| LR | lower right | stupid space behind stupid wall | [Dead Verdania Main (Clover_01)](../verdania/dead-verdania-main.md) | L | nothing |  | Verified | ✓ |  |
 | CN | craw nest entrance | craw building lower right | [Greymoor Craw Nest (Room_CrowCourt)](greymoor-craw-nest.md) | L | nothing |  | Verified | ✓ |  |
 | LL | lower left | lower left section | [Greymoor Craw Lake Entrance (Greymoor_15)](greymoor-craw-lake-entrance.md) | LR | none |  | Verified | ✓ |  |
 
@@ -122,17 +122,17 @@
 | 8 | flea airlock | flea room | open airlock left OR open airlock right OR open airlock up |  | Verified | switch | ✓ |  |
 | 9 | spike room lever | upper craw nest | flip lever up OR flip lever left OR flip lever right |  | Verified | switch | ✓ |  |
 | 10 | metal door | craw building lower right | flip lever up OR flip lever left OR flip lever right OR flip lever up |  | Verified | switch | ✓ |  |
-| 11 | Craw Juror 1 |  |  |  |  | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
-| 12 | Craw Juror 2 |  |  |  |  | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false FSM Boolean flags: CrowCourtInSession |
-| 13 | Craw Juror 3 |  |  |  |  | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
-| 14 | Craw Juror 4 |  |  |  |  | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
-| 15 | Craw Juror 5 |  |  |  |  | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
-| 16 | Craw Juror 6 |  |  |  |  | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
-| 17 | Craw Juror 7 |  |  |  |  | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
-| 18 | Craw Juror 8 |  |  |  |  | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
-| 19 | Craw Juror 9 |  |  |  |  | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
-| 20 | Craw 1 | lower left section | nothing |  |  | enemy | ✓ | FSM Boolean flags: CrowCourtInSession  spawns before baloon lever is hit |
-| 21 | Craw 2 |  |  |  |  | enemy | ✓ | FSM Boolean flags: CrowCourtInSession  doesnt spawn after hitting baloon lever or before it so will need to test with craw court |
+| 11 | Craw Juror 1 | middle craw nest | craw summons ready |  | Verified | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
+| 12 | Craw Juror 2 | lower left section | craw summons ready |  | Verified | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false FSM Boolean flags: CrowCourtInSession |
+| 13 | Craw Juror 3 | craw building lower right | (swim OR clawline right x 1 OR sharpdart x 1 OR progressive swift step 1 OR drifters cloak OR easy wanderer needle strike OR easy [hunter, reaper, beast, shaman, witch] pogo) AND craw summons ready |  | Verified | enemy | ✓ | FSM Boolean flags: CrowCourtInSession  Unique case of not caring about the state of ballon switch unlike the craw 1 in craw lake entrance |
+| 14 | Craw Juror 4 | craw building lower right | (swim OR clawline right x 1 OR sharpdart x 1 OR progressive swift step 1 OR drifters cloak OR easy wanderer needle strike OR easy [hunter, reaper, beast, shaman, witch] pogo) AND craw summons ready |  | Verified | enemy | ✓ | FSM Boolean flags: CrowCourtInSession  Unique case of not caring about the state of ballon switch unlike the craw 1 in craw lake entrance |
+| 15 | Craw Juror 5 | lower left section | craw summons ready |  | Verified | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
+| 16 | Craw Juror 6 | middle craw nest | craw summons ready |  | Verified | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
+| 17 | Craw Juror 7 | right top craw nest | craw summons ready |  | Verified | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
+| 18 | Craw Juror 8 | upper craw nest | craw summons ready |  | Verified | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
+| 19 | Craw Juror 9 | small ass platform | craw summons ready |  | Verified | enemy | ✓ | FSM Boolean flags: CrowCourtInSession |
+| 20 | Craw 1 | lower left section | nothing |  | Verified | enemy | ✓ | FSM Boolean flags: CrowCourtInSession  spawns before baloon lever is hit |
+| 21 | Craw 2 | right top craw nest | nothing |  | Verified | enemy | ✓ | FSM Boolean flags: CrowCourtInSession  appears while the craw court is in session |
 | 22 | Craw 3 | small ass platform | nothing |  | Verified | enemy | ✓ | FSM Boolean flags: CrowCourtInSession  spawns before baloon lever is hit |
 | 23 | Craw 4 | middle craw nest | prereq balloon lever IN greymoor craw nest |  | Verified | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=true FSM Boolean flags: CrowCourtInSession |
 | 24 | Craw 5 | middle craw nest | prereq balloon lever IN greymoor craw nest |  | Verified | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=true FSM Boolean flags: CrowCourtInSession |

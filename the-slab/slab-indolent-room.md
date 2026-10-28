@@ -30,8 +30,8 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Indolent Key | Left | none |  | Verified | collectible | ✓ |  |
-| 2 | Penitent 1 | Left | invalid | TODO |  | enemy | ✓ | These two enemies are missable, despawning after leaving the room without killing |
-| 3 | Puny Penitent 2 | Left | invalid | TODO |  | enemy | ✓ |  |
+| 2 | Penitent 1 | Left | can miss |  | Verified | enemy | ✓ | These two enemies are missable, despawning after leaving the room without killing |
+| 3 | Puny Penitent 2 | Left | can miss |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

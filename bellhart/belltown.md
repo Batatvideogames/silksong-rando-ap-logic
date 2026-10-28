@@ -41,11 +41,11 @@
 | 4 | Memory Locket (Frey) | Lower Area | Spend 330 Rosaries |  | Verified | event | ✓ |  |
 | 5 | Spool Fragment (Frey) | Lower Area | prereq THE My Missing Courier Wish Granted AND Spend 270 Rosaries |  | Verified | event | ✓ |  |
 | 6 | Multibinder | Lower Area | prereq THE My Missing Courier Wish Granted AND Spend 800 Rosaries |  | Verified | collectible | ✓ |  |
-| 7 | Desk | Lower Area | Spend 380 Rosaries |  | Verified | collectible | ✓ |  |
-| 8 | Gleamlights | Lower Area | Spend 320 Rosaries |  | Verified | collectible | ✓ |  |
-| 9 | Bell Lacquer | Lower Area | Spend 520 Rosaries |  | Verified | collectible | ✓ |  |
-| 10 | Personal Spa | Lower Area | Get 2 Bellhome Items AND Spend 11000 Rosaries |  | Verified | collectible | ✓ |  |
-| 11 | Gramophone | Lower Area | Get 6 Psalm Cylinders Turned In AND Spend 490 Rosaries |  | Verified | collectible | ✓ |  |
+| 7 | Desk | Lower Area | Spend 380 Rosaries AND prereq Visit Bellhome IN Bellhome AND ( Prereq Hand In Bone Scroll Relic Bone Scroll Far Fields IN Bellhart Relic shop  OR Prereq Hand In Bone Scroll Greymoor IN Bellhart Relic Shop  OR prereq Hand In Bone Scroll Underworks IN Bellhart Relic Shop  OR Prereq Hand In Bone Scroll Wisp Thicket IN Bellhart Relic Shop  OR Prereq Hand In Weaver Effigy Moss Grotto IN Bellhart Relic shop  OR Prereq Hand In Weaver Effigy Shellwood IN Bellhart Relic Shop OR Prereq Hand In Weaver Effigy  The Slab IN Bellhart Relic shop OR Prereq Hand in Choral Commandment Jubilana IN Bellhart Relic Shop OR Prereq Hand in Choral Commandment Western Whiteward IN Bellhart Relic SHop OR Prereq Hand in Choral Commandment Moss Grotto IN Bellhart Relic shop  OR Prereq Hand in Choral Commandment Eastern Whiteward IN Bellhart Relic Shop OR Prereq Hand in Rune Harp Weavenest Atla IN Bellhart Relic Shop  OR Prereq Hand in Rune Harp Weavenest Cindril IN Bellhart Relic Shop OR Prereq Hand in Rune Harp High Halls IN Bellhart relic Shop OR Prereq Hand in Arcane Egg IN Bellhart Relic SHop ) |  | Verified | collectible | ✓ |  |
+| 8 | Gleamlights | Lower Area | Spend 320 Rosaries AND Prereq Visit Bellhome IN Bellhome |  | Verified | collectible | ✓ |  |
+| 9 | Bell Lacquer | Lower Area | Spend 520 Rosaries AND Prereq Visit Bellhome IN Bellhome |  | Verified | collectible | ✓ |  |
+| 10 | Personal Spa | Lower Area | Get 2 Bellhome Items AND Spend 1100 Rosaries AND Prereq Visit Bellhome IN Bellhome |  | Verified | collectible | ✓ |  |
+| 11 | Gramophone | Lower Area | Get 6 Psalm Cylinders Turned In AND Spend 490 Rosaries AND Prereq Visit Bellhome IN Bellhome AND Prereq Desk |  | Verified | collectible | ✓ |  |
 | 12 | Bench | Lower Area | none |  | Verified | bench | ✓ |  |
 | 13 | Craw Summons | Lower Area | Craw Summons Ready |  | Verified | collectible | ✓ |  |
 

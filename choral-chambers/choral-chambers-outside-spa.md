@@ -27,7 +27,7 @@
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | V | Vertical | Top | Base | none |  | Verified | ✓ | falling |
-| V | Vertical | Base | Top | cling grip either OR silk soar OR scuttlebrace |  | Verified | ✓ |  |
+| V | Vertical | Base | Top | cling grip either OR silk soar OR easy scuttlebrace |  | Verified | ✓ |  |
 | GL | Gauntlet Left | Left | Gauntlet | none |  | Verified | ✓ |  |
 | GL | Gauntlet Left | Gauntlet | Left | defeat Gauntlet Fight |  | Verified | ✓ |  |
 | GR | Gauntlet Right | Base | Gauntlet | none |  | Verified | ✓ |  |
@@ -37,26 +37,27 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Heavy Rosary Necklace - Choral Chambers | Base | cling grip either OR silk soar OR (easy shaman pogo AND scuttlebrace) |  | Verified | collectible | ✓ | Secret hidden by breaking the ceiling |
+| 1 | Heavy Rosary Necklace - Choral Chambers | Base | activate Breakable Ceiling Outside Spa  AND (cling grip either OR silk soar OR ((easy shaman pogo OR faydown cloak OR easy flea brew stall OR (have crest beast AND easy heal stall AND easy [flintslate, Cross Stitch] stall)) AND easy scuttlebrace)) |  | Verified | collectible | ✓ | Secret hidden by breaking the ceiling |
 | 2 | Switch - Outside Spa | Left | none |  | Verified | switch | ✓ |  |
 | 3 | Second Sentinel Encounter | Gauntlet | defeat Gauntlet Fight AND Act 2 AND complete THE Second Sentinel Activation |  | Verified | event | ✓ | Spawn conditions: songChevalierActiveInSong_04=true, songChevalierSeenInSong_04=false, songChevalierEncounterCooldown=false, songChevalierQuestReady=false FSM Boolean flags: encounteredSongChevalierBoss |
-| 4 | Choir Bellbearer 1 | Gauntlet | Normal World Spawn AND Combat Requirements |  | Verified | gauntlet | ✓ |  |
-| 5 | Choir Bellbearer 2 | Gauntlet | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
-| 6 | Choir Flyer 1 | Gauntlet | Normal World Spawn AND Combat Requirements |  | Verified | gauntlet | ✓ |  |
-| 7 | Choir Pouncer 1 | Gauntlet | Normal World Spawn AND Combat Requirements |  | Verified | gauntlet | ✓ |  |
-| 8 | Choristor 1 | Gauntlet | Normal World Spawn AND Combat Requirements |  | Verified | gauntlet | ✓ |  |
-| 9 | Choristor 2 | Gauntlet | Normal World Spawn AND Combat Requirements |  | Verified | gauntlet | ✓ |  |
-| 10 | Choristor 4 | Gauntlet | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
-| 11 | Clawmaiden 1 | Gauntlet | Normal World Spawn AND Combat Requirements |  | Verified | gauntlet | ✓ | FSM Boolean flags: marionettesBurned |
-| 12 | Clawmaiden 2 | Gauntlet | Normal World Spawn AND Combat Requirements |  | Verified | gauntlet | ✓ | FSM Boolean flags: marionettesBurned |
-| 13 | Drapemite 1 | Base | Normal World Spawn |  | Verified | enemy | ✓ |  |
-| 14 | Reed 1 | Gauntlet | Normal World Spawn AND Combat Requirements |  | Verified | gauntlet | ✓ |  |
-| 15 | Reed 2 | Gauntlet | Normal World Spawn AND Combat Requirements |  | Verified | gauntlet | ✓ |  |
-| 16 | Reed 3 | Gauntlet | Normal World Spawn AND Combat Requirements |  | Verified | gauntlet | ✓ |  |
-| 17 | Choristor 3 | Gauntlet | Normal World Spawn AND prereq Second Sentinel Encounter |  | Verified | enemy | ✓ | Spawn conditions: songChevalierActiveInSong_04=true, songChevalierSeenInSong_04=false, songChevalierEncounterCooldown=false, songChevalierQuestReady=false |
-| 18 | Reed 4 | Gauntlet | Normal World Spawn AND prereq Second Sentinel Encounter |  | Verified | enemy | ✓ | Spawn conditions: songChevalierActiveInSong_04=true, songChevalierSeenInSong_04=false, songChevalierEncounterCooldown=false, songChevalierQuestReady=false |
-| 19 | Void Mass 1 | Gauntlet | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
-| 20 | Gauntlet Fight | Gauntlet | Normal World Spawn AND Combat Requirements |  | Verified | gauntlet | ✓ |  |
+| 4 | Breakable ceiling Outside Spa | Base | attack up |  | Verified | blockade | ✓ |  |
+| 5 | Gauntlet Fight | Gauntlet | Normal World Spawn  AND Combat Requirements |  | Verified | gauntlet | ✓ |  |
+| 6 | Choir Bellbearer 1 | Gauntlet | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 7 | Choir Bellbearer 2 | Gauntlet | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 8 | Choir Flyer 1 | Gauntlet | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 9 | Choir Pouncer 1 | Gauntlet | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 10 | Choristor 1 | Gauntlet | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 11 | Choristor 2 | Gauntlet | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 12 | Choristor 4 | Gauntlet | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
+| 13 | Clawmaiden 1 | Gauntlet | Normal World Spawn |  | Verified | enemy | ✓ | FSM Boolean flags: marionettesBurned |
+| 14 | Clawmaiden 2 | Gauntlet | Normal World Spawn |  | Verified | enemy | ✓ | FSM Boolean flags: marionettesBurned |
+| 15 | Drapemite 1 | Base | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 16 | Reed 1 | Gauntlet | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 17 | Reed 2 | Gauntlet | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 18 | Reed 3 | Gauntlet | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 19 | Choristor 3 | Gauntlet | Normal World Spawn AND prereq Second Sentinel Encounter |  | Verified | enemy | ✓ | Spawn conditions: songChevalierActiveInSong_04=true, songChevalierSeenInSong_04=false, songChevalierEncounterCooldown=false, songChevalierQuestReady=false |
+| 20 | Reed 4 | Gauntlet | Normal World Spawn AND prereq Second Sentinel Encounter |  | Verified | enemy | ✓ | Spawn conditions: songChevalierActiveInSong_04=true, songChevalierSeenInSong_04=false, songChevalierEncounterCooldown=false, songChevalierQuestReady=false |
+| 21 | Void Mass 1 | Gauntlet | Black Thread World Spawn |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

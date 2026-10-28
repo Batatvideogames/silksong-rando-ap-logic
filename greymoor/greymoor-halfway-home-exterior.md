@@ -27,7 +27,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | LL | lower left | lower left section | [Greymoor Eastern Tower (Greymoor_04)](greymoor-eastern-tower.md) | LR | nothing |  | Verified | ✓ |  |
 | LR | lower right | lower right section | [Greymoor Lower Halfway Home Path (Greymoor_13)](greymoor-lower-halfway-home-path.md) | L | nothing |  | Verified | ✓ |  |
-| HR | hidden right | upper right section | [Greymoor Kraft Room (Greymoor_24)](greymoor-kraft-room.md) | L | prereq hidden right wall |  | Verified | ✓ |  |
+| HR | hidden right | upper right section | [Greymoor Kratt Room (Greymoor_24)](greymoor-kratt-room.md) | L | prereq hidden right wall |  | Verified | ✓ |  |
 | MR | middle right | middle right section | [Greymoor Upper Halfway Home Path (Greymoor_12)](greymoor-upper-halfway-home-path.md) | L | nothing |  | Verified | ✓ |  |
 | HHR | halfway home right | lower right section | [Greymoor Halfway Home (Halfway_01)](greymoor-halfway-home.md) | R | activate pressure plate IN greymoor halfway home |  | Verified | ✓ |  |
 | UR | upper right | sinner road entrance | [Sinner's Road Entrance (Dust_01)](../sinner-s-road/sinner-s-road-entrance.md) | L | nothing |  | Verified | ✓ |  |
@@ -80,11 +80,11 @@
 | 3 | tower elevator | tower platform | none (pressure switch) |  | Verified | switch | ✓ |  |
 | 4 | hidden right wall | upper right section | break wall right OR break wall up |  | Verified | blockade | ✓ |  |
 | 5 | Greymoor - Orders | upper center room | nothing |  | Verified | lore | ✓ |  |
-| 6 | Craw 1 | building roof |  | TODO | Verified | enemy | ✓ | when it comes to these craw the number you can fight is random and changes every time you load the save, additionally they despawn when completing the crawbug clearing wish |
-| 7 | Craw 2 | building roof |  | TODO | Verified | enemy | ✓ | when it comes to these craw the number you can fight is random and changes every time you load the save, additionally they despawn when completing the crawbug clearing wish |
-| 8 | Craw 3 | building roof |  | TODO | Verified | enemy | ✓ | when it comes to these craw the number you can fight is random and changes every time you load the save, additionally they despawn when completing the crawbug clearing wish |
-| 9 | Craw 4 | building roof |  | TODO | Verified | enemy | ✓ | when it comes to these craw the number you can fight is random and changes every time you load the save, additionally they despawn when completing the crawbug clearing wish |
-| 10 | Craw 5 | building roof |  | TODO | Verified | enemy | ✓ | when it comes to these craw the number you can fight is random and changes every time you load the save, additionally they despawn when completing the crawbug clearing wish |
+| 6 | Craw 1 | building roof | can miss |  | Verified | enemy | ✓ | when it comes to these craw the number you can fight is random and changes every time you load the save, additionally they despawn when completing the crawbug clearing wish |
+| 7 | Craw 2 | building roof | can miss |  | Verified | enemy | ✓ | when it comes to these craw the number you can fight is random and changes every time you load the save, additionally they despawn when completing the crawbug clearing wish |
+| 8 | Craw 3 | building roof | can miss |  | Verified | enemy | ✓ | when it comes to these craw the number you can fight is random and changes every time you load the save, additionally they despawn when completing the crawbug clearing wish |
+| 9 | Craw 4 | building roof | can miss |  | Verified | enemy | ✓ | when it comes to these craw the number you can fight is random and changes every time you load the save, additionally they despawn when completing the crawbug clearing wish |
+| 10 | Craw 5 | building roof | can miss |  | Verified | enemy | ✓ | when it comes to these craw the number you can fight is random and changes every time you load the save, additionally they despawn when completing the crawbug clearing wish |
 | 11 | Dreg Catcher 1 | lower guarded platform | nothing |  | Verified | enemy | ✓ |  |
 | 12 | Fluttermite 1 | tower platform | nothing |  | Verified | enemy | ✓ |  |
 | 13 | Fluttermite 2 | tower platform | Normal World Spawn |  | Verified | enemy | ✓ |  |

@@ -2,36 +2,40 @@
 
 **Game ID:** Coral_34
 
-**Contributors:** skai
+**Contributors:** skai, MayaXTG
 
 ## Subrooms
 
 | No. | Subroom | Annotated |
 | --- | --- | --- |
-| S1 | Lower Third | ✓ |
-| S2 | Middle Third | ✓ |
-| S3 | Upper Third | ✓ |
+| S1 | Right Entrance | ✓ |
+| S2 | Pinstress | ✓ |
+| S3 | Top Entrance | ✓ |
 
 ## Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| R | Right | Lower Third | [Horizontal Room with Sand Pit (Coral_11b)](horizontal-room-with-sand-pit.md) | L | Nothing |  | Verified | ✓ |  |
-| C | Center | Middle Third | [Windy Pinstress Room (Room_Pinstress)](windy-pinstress-room.md) | L | Nothing (Falling) |  | Verified | ✓ |  |
-| T | Top | Upper Third | [Sands of Karak Entrance (Coral_25)](../sands-of-karak/sands-of-karak-entrance.md) | F | Cling Grip OR (Scuttlebrace AND Faydown) OR Silk Soar |  | Verified | ✓ |  |
+| C | door1 | Pinstress | [Windy Pinstress Room (Room_Pinstress)](windy-pinstress-room.md) | L | None |  | Verified | ✓ |  |
+| R | right1 | Right Entrance | [Horizontal Room with Sand Pit (Coral_11b)](horizontal-room-with-sand-pit.md) | L | None |  | Verified | ✓ |  |
+| T | top1 | Top Entrance | [Sands of Karak Entrance (Coral_25)](../sands-of-karak/sands-of-karak-entrance.md) | F | (clawline right AND (clawline left OR faydown cloak)) OR silk soar OR (faydown cloak AND easy scuttlebrace) |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LTC | Lower to Center | Lower Third | Middle Third | Clawline OR (Silk Soar AND Progressive Swift Step 2) OR (Flea Brew AND (Faydown OR (Progressive Swift Step 2 AND Ledge Grab) OR (Easy Beast Crest Pogo AND Ledge Grab))) |  | Verified | ✓ |  |
-| LTC | Lower to Center | Middle Third | Lower Third | Nothing (Falling) |  | Verified | ✓ |  |
-| CTT | Center to Top | Middle Third | Upper Third | (Clawline AND (Cling Grip OR Scuttlebrace)) OR (Clawline AND Cling Grip AND (Faydown OR (Easy Beast Crest Pogo AND Ledge Grab))) |  | Verified | ✓ |  |
-| CTT | Center to Top | Upper Third | Middle Third | Nothing (Falling) |  | Verified | ✓ |  |
+| RP | RightPinstress | Right Entrance | Pinstress | Clawline both OR (Silk Soar AND Progressive Swift Step 2 both) OR (Flea Brew AND (Faydown OR (Progressive Swift Step 2 both AND Ledge Grab both) OR (Easy Beast Crest Pogo AND Ledge Grab both))) |  | Verified | ✓ | This is Skai's logic, not Maya's. don't blame me |
+| PT | PinstressTop | Pinstress | Top Entrance | (Clawline AND (Cling Grip both OR medium Scuttlebrace)) OR (Clawline AND Cling Grip both AND (Faydown OR (Easy Beast Crest Pogo AND Ledge Grab both))) |  | Verified | ✓ |  |
+| RP | RightPinstress | Pinstress | Right Entrance | None |  | Verified | ✓ |  |
+| PT | PinstressTop | Top Entrance | Pinstress | None |  | Verified | ✓ |  |
 
 ## Check Locations
 
 No check locations defined.
+
+## Notes
+
+todo: rewrite this room
 
 ## Room Images
 
