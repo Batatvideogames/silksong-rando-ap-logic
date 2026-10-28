@@ -70097,7 +70097,7 @@
           "sourceSubroomReferenceText": "Ceiling Exits",
           "destinationRoomReferenceText": "Mount Fay Right Side Middle Room",
           "destinationTransitionAliasText": "F1",
-          "requirements": "( Cling Grip Left AND ( ( Clawline Right AND Clawline Left ) OR ( Faydown Cloak AND DRifters Cloak AND Dash Right ) OR ( Drifters Cloak AND Sharpdart AND ( Proficient Movement AND Spike Pogo ) AND Hard Heal Stall AND Hard Cocoon Skip ) ) AND Easy Pogo off driftlin ) OR Silk Soar",
+          "requirements": "( Cling Grip Left AND ( ( Clawline Right AND Clawline Left ) OR ( Faydown Cloak AND Drifters Cloak AND Dash Right ) OR ( Drifters Cloak AND Sharpdart AND ( Proficient Movement AND Spike Pogo ) AND Hard Heal Stall AND Hard Cocoon Skip ) ) AND Intended Pogo off driftlin ) OR Silk Soar",
           "notes": "",
           "sortOrder": 9,
           "isTodo": false,
@@ -70105,7 +70105,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-01T22:05:58.548245Z",
-          "updatedUtc": "2026-10-23T15:57:37.5875588Z",
+          "updatedUtc": "2026-10-28T04:30:02.0350131Z",
           "isUnsafeArrival": false
         },
         {
@@ -70390,7 +70390,7 @@
           "friendlyName": "The Ascent",
           "sourceSubroomReferenceText": "Lower Middle Left Exit",
           "destinationSubroomReferenceText": "Upper Middle Left Exit",
-          "requirements": "Silk Soar OR ( ( Cling Grip Both AND ( Clawline Both OR ( Faydown Cloak AND Drifters Cloak ) OR ( Sharpdart AND Drifters Cloak AND Hard Cocoon Skip AND ( Sprint Both OR Have Tool Flintslate ) ) ) ) AND easy pogo off driftlin )",
+          "requirements": "Silk Soar OR ( ( Cling Grip Both AND ( Clawline Both OR ( Faydown Cloak AND Drifters Cloak ) OR ( Sharpdart AND Drifters Cloak AND Hard Cocoon Skip AND ( Sprint Both OR Have Tool Flintslate ) ) ) ) AND Intended pogo off driftlin )",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 17.895387649536133,
@@ -70401,7 +70401,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-02T06:13:32.7104403Z",
-          "updatedUtc": "2026-10-20T07:33:01.1655719Z"
+          "updatedUtc": "2026-10-28T04:30:06.4489479Z"
         },
         {
           "id": "6c693a9d-d01b-4a48-8d8c-51768fd749f3",
@@ -70523,7 +70523,7 @@
           "friendlyName": "Celing Exits",
           "sourceSubroomReferenceText": "Upper Left Exit",
           "destinationSubroomReferenceText": "Ceiling Exits",
-          "requirements": "( Cling Grip Left AND ( ( Clawline Right AND Clawline Left ) OR ( Faydown Cloak AND DRifters Cloak AND Dash Right ) OR ( Drifters Cloak AND Sharpdart AND ( Proficient Movement AND Spike Pogo ) AND Hard Heal Stall AND Hard Cocoon Skip ) ) AND Easy Pogo off driftlin ) OR Silk Soar",
+          "requirements": "( Cling Grip Left AND ( ( Clawline Right AND Clawline Left ) OR ( Faydown Cloak AND DRifters Cloak AND Dash Right ) OR ( Drifters Cloak AND Sharpdart AND ( Proficient Movement AND Spike Pogo ) AND Hard Heal Stall AND Hard Cocoon Skip ) ) AND Intended Pogo off driftlin ) OR Silk Soar",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 37.15593338012695,
@@ -70534,7 +70534,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-23T15:58:09.3609423Z",
-          "updatedUtc": "2026-10-23T15:58:41.7237039Z"
+          "updatedUtc": "2026-10-28T04:30:13.9812645Z"
         },
         {
           "id": "470830f2-510d-457a-b3f0-345a978f90b9",
@@ -70542,7 +70542,7 @@
           "friendlyName": "Celing Exits",
           "sourceSubroomReferenceText": "Ceiling Exits",
           "destinationSubroomReferenceText": "Upper Left Exit",
-          "requirements": "dash left OR Faydown Cloak OR Easy Hunter pogo OR ( ( ( ( Hard plasmium stall OR Hard Cross Stitch stall x 5 OR Hard Pale Nails Stall x 5) AND Ledge grab Left ) OR Easy Flea Brew Stall OR Easy VoltVessels Stall ) AND Easy pogo off driftlin ) OR Clawline left OR Drifters Cloak OR Easy Beast pogo OR Medium Architect pogo",
+          "requirements": "dash left OR Faydown Cloak OR Easy Hunter pogo OR ( ( ( ( Hard plasmium stall OR Hard Cross Stitch stall x 5 OR Hard Pale Nails Stall x 5) AND Ledge grab Left ) OR Easy Flea Brew Stall OR Easy VoltVessels Stall ) AND Intended pogo off driftlin ) OR Clawline left OR Drifters Cloak OR Easy Beast pogo OR Medium Architect pogo",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 37.15593338012695,
@@ -70553,7 +70553,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-23T15:58:21.6254461Z",
-          "updatedUtc": "2026-10-25T23:18:35.2354331Z"
+          "updatedUtc": "2026-10-28T04:30:17.9554471Z"
         },
         {
           "id": "4cd6bf17-7682-4995-9eea-97e2323307c3",
@@ -70739,7 +70739,7 @@
           "annotationSceneUnitX": 36.162426,
           "annotationSceneUnitY": 265.411438,
           "subroomReferenceText": "Upper Left Exit",
-          "requirements": "( Cling Grip Left AND ( ( Clawline Right AND Clawline Left ) OR ( Faydown Cloak AND DRifters Cloak AND Dash Right ) OR ( Drifters Cloak AND Sharpdart AND ( Proficient Movement AND Spike Pogo ) AND Hard Heal Stall AND Hard Cocoon Skip ) ) AND Easy Pogo off driftlin ) OR Silk Soar",
+          "requirements": "( Cling Grip Left AND ( ( Clawline Right AND Clawline Left ) OR ( Faydown Cloak AND DRifters Cloak AND Dash Right ) OR ( Drifters Cloak AND Sharpdart AND ( Proficient Movement AND Spike Pogo ) AND Hard Heal Stall AND Hard Cocoon Skip ) ) AND Intended Pogo off driftlin ) OR Silk Soar",
           "notes": "",
           "locationType": "enemy",
           "enableAnnotation": true,
@@ -70749,7 +70749,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:52:48.8066854Z",
-          "updatedUtc": "2026-10-20T07:35:51.5991009Z"
+          "updatedUtc": "2026-10-28T04:30:20.2497183Z"
         },
         {
           "id": "eca83341-b0f8-4b2d-bbb4-0213ae7414e8",
@@ -70764,7 +70764,7 @@
           "annotationSceneUnitX": 70.2643,
           "annotationSceneUnitY": 282.765045,
           "subroomReferenceText": "Upper Left Exit",
-          "requirements": "( Cling Grip Left AND ( ( Clawline Right AND Clawline Left ) OR ( Faydown Cloak AND DRifters Cloak AND Dash Right ) OR ( Drifters Cloak AND Sharpdart AND ( Proficient Movement AND Spike Pogo ) AND Hard Heal Stall AND Hard Cocoon Skip ) ) AND Easy Pogo off driftlin ) OR Silk Soar",
+          "requirements": "( Cling Grip Left AND ( ( Clawline Right AND Clawline Left ) OR ( Faydown Cloak AND DRifters Cloak AND Dash Right ) OR ( Drifters Cloak AND Sharpdart AND ( Proficient Movement AND Spike Pogo ) AND Hard Heal Stall AND Hard Cocoon Skip ) ) AND Intended Pogo off driftlin ) OR Silk Soar",
           "notes": "",
           "locationType": "enemy",
           "enableAnnotation": true,
@@ -70774,7 +70774,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:52:48.8066854Z",
-          "updatedUtc": "2026-10-20T07:35:52.7452667Z"
+          "updatedUtc": "2026-10-28T04:30:22.5825791Z"
         },
         {
           "id": "bc36bf02-8b12-4e90-8724-d29e5cfa87c1",
@@ -70789,7 +70789,7 @@
           "annotationSceneUnitX": 59.25392,
           "annotationSceneUnitY": 277.317719,
           "subroomReferenceText": "Upper Left Exit",
-          "requirements": "( Cling Grip Left AND ( ( Clawline Right AND Clawline Left ) OR ( Faydown Cloak AND DRifters Cloak AND Dash Right ) OR ( Drifters Cloak AND Sharpdart AND ( Proficient Movement AND Spike Pogo ) AND Hard Heal Stall AND Hard Cocoon Skip ) ) AND Easy Pogo off driftlin ) OR Silk Soar",
+          "requirements": "( Cling Grip Left AND ( ( Clawline Right AND Clawline Left ) OR ( Faydown Cloak AND DRifters Cloak AND Dash Right ) OR ( Drifters Cloak AND Sharpdart AND ( Proficient Movement AND Spike Pogo ) AND Hard Heal Stall AND Hard Cocoon Skip ) ) AND Intended Pogo off driftlin ) OR Silk Soar",
           "notes": "",
           "locationType": "enemy",
           "enableAnnotation": true,
@@ -70799,7 +70799,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:52:48.8066854Z",
-          "updatedUtc": "2026-10-20T07:35:53.408779Z"
+          "updatedUtc": "2026-10-28T04:30:25.3194031Z"
         },
         {
           "id": "37e0923a-2072-438d-a860-e60303d5c4ff",
@@ -70814,7 +70814,7 @@
           "annotationSceneUnitX": 34.0107155,
           "annotationSceneUnitY": 122.877365,
           "subroomReferenceText": "Lower Middle Left Exit",
-          "requirements": "Silk Soar OR ( ( Cling Grip Both AND ( Clawline Both OR ( Faydown Cloak AND Drifters Cloak ) OR ( Sharpdart AND Drifters Cloak AND Hard Cocoon Skip AND ( Sprint Both OR Have Tool Flintslate ) ) ) ) AND easy pogo off driftlin )",
+          "requirements": "Silk Soar OR ( ( Cling Grip Both AND ( Clawline Both OR ( Faydown Cloak AND Drifters Cloak ) OR ( Sharpdart AND Drifters Cloak AND Hard Cocoon Skip AND ( Sprint Both OR Have Tool Flintslate ) ) ) ) AND Intended pogo off driftlin )",
           "notes": "",
           "locationType": "enemy",
           "enableAnnotation": true,
@@ -70824,7 +70824,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:52:48.8066854Z",
-          "updatedUtc": "2026-10-20T07:35:25.6888841Z"
+          "updatedUtc": "2026-10-28T04:30:27.3249795Z"
         },
         {
           "id": "f4f15bd2-8f24-4419-b43e-0ae10680c9a0",
@@ -70839,7 +70839,7 @@
           "annotationSceneUnitX": 60.50083,
           "annotationSceneUnitY": 214.507889,
           "subroomReferenceText": "Lower Middle Left Exit",
-          "requirements": "Silk Soar OR ( ( Cling Grip Both AND ( Clawline Both OR ( Faydown Cloak AND Drifters Cloak ) OR ( Sharpdart AND Drifters Cloak AND Hard Cocoon Skip AND ( Sprint Both OR Have Tool Flintslate ) ) ) ) AND easy pogo off driftlin )",
+          "requirements": "Silk Soar OR ( ( Cling Grip Both AND ( Clawline Both OR ( Faydown Cloak AND Drifters Cloak ) OR ( Sharpdart AND Drifters Cloak AND Hard Cocoon Skip AND ( Sprint Both OR Have Tool Flintslate ) ) ) ) AND Intended pogo off driftlin )",
           "notes": "",
           "locationType": "enemy",
           "enableAnnotation": true,
@@ -70849,7 +70849,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:52:48.8066854Z",
-          "updatedUtc": "2026-10-20T07:35:26.906664Z"
+          "updatedUtc": "2026-10-28T04:30:29.9728228Z"
         },
         {
           "id": "b1d30dd1-3760-4f94-8720-b862cdc8f3e8",
@@ -70864,7 +70864,7 @@
           "annotationSceneUnitX": 73.5797,
           "annotationSceneUnitY": 217.48555,
           "subroomReferenceText": "Lower Middle Left Exit",
-          "requirements": "Silk Soar OR ( ( Cling Grip Both AND ( Clawline Both OR ( Faydown Cloak AND Drifters Cloak ) OR ( Sharpdart AND Drifters Cloak AND Hard Cocoon Skip AND ( Sprint Both OR Have Tool Flintslate ) ) ) ) AND easy pogo off driftlin )",
+          "requirements": "Silk Soar OR ( ( Cling Grip Both AND ( Clawline Both OR ( Faydown Cloak AND Drifters Cloak ) OR ( Sharpdart AND Drifters Cloak AND Hard Cocoon Skip AND ( Sprint Both OR Have Tool Flintslate ) ) ) ) AND Intended pogo off driftlin )",
           "notes": "",
           "locationType": "enemy",
           "enableAnnotation": true,
@@ -70874,7 +70874,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:52:48.8066854Z",
-          "updatedUtc": "2026-10-20T07:35:28.1110105Z"
+          "updatedUtc": "2026-10-28T04:30:31.9993443Z"
         },
         {
           "id": "391c3d29-6463-46cb-92eb-d5de18269de3",
@@ -70889,7 +70889,7 @@
           "annotationSceneUnitX": 65.59222,
           "annotationSceneUnitY": 227.046417,
           "subroomReferenceText": "Lower Middle Left Exit",
-          "requirements": "Silk Soar OR ( ( Cling Grip Both AND ( Clawline Both OR ( Faydown Cloak AND Drifters Cloak ) OR ( Sharpdart AND Drifters Cloak AND Hard Cocoon Skip AND ( Sprint Both OR Have Tool Flintslate ) ) ) ) AND easy pogo off driftlin )",
+          "requirements": "Silk Soar OR ( ( Cling Grip Both AND ( Clawline Both OR ( Faydown Cloak AND Drifters Cloak ) OR ( Sharpdart AND Drifters Cloak AND Hard Cocoon Skip AND ( Sprint Both OR Have Tool Flintslate ) ) ) ) AND Intended pogo off driftlin )",
           "notes": "",
           "locationType": "enemy",
           "enableAnnotation": true,
@@ -70899,7 +70899,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:52:48.8066854Z",
-          "updatedUtc": "2026-10-20T07:35:28.7546907Z"
+          "updatedUtc": "2026-10-28T04:30:36.7169418Z"
         }
       ]
     },
@@ -134824,7 +134824,7 @@
           "friendlyName": "Platforming",
           "sourceSubroomReferenceText": "Exit",
           "destinationSubroomReferenceText": "Mask Maker Hut",
-          "requirements": "Cling Grip Right AND Faydown Cloak AND ( Easy pogo off driftlin OR Proficient movement )",
+          "requirements": "Cling Grip Right AND Faydown Cloak AND ( Intended pogo off driftlin OR Proficient movement )",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 218.3970489501953,
@@ -134835,7 +134835,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-09T10:30:41.1304012Z",
-          "updatedUtc": "2026-10-20T08:26:14.7771572Z"
+          "updatedUtc": "2026-10-28T04:30:49.247929Z"
         },
         {
           "id": "25b4c611-b14f-4bc3-9d92-fc0fce2b1dcf",
@@ -146323,7 +146323,7 @@
           "friendlyName": "Under The Bridge",
           "sourceSubroomReferenceText": "Centre Platform",
           "destinationSubroomReferenceText": "Shell Shards bridge",
-          "requirements": "Faydown Cloak OR ( ( Swim OR Easy Voltvessels stall OR Medium Flea Brew Stall OR ( Ledge Grab Right AND ( easy Flintslate Stall OR Medium Cross stitch stall OR Hard Pale Nails Stall ) ) OR Easy Plasmium Stall OR Easy beast pogo OR ( Easy Reaper pogo AND Easy Flintslate stall ) OR ( Easy Architect pogo AND Architect attack Right ) OR Dash Right OR Drifters cloak OR Clawline Right OR Sharpdart ) AND ( cling grip right OR Medium Scuttlebrace OR ( easy pogo off barnak AND ( Ledge grab left OR Dash Left OR Clawline Left OR Drifters Cloak OR Sharpdart OR Hard hunter pogo OR Medium Flintslate stall OR Easy voltvessels stall OR Easy Beast Pogo OR Easy Plasmium stall OR Easy flea brew stall OR architect attack left OR Easy Architect pogo OR Easy shaman pogo ) ) ) )",
+          "requirements": "Faydown Cloak OR ( ( Swim OR Easy Voltvessels stall OR Medium Flea Brew Stall OR ( Ledge Grab Right AND ( easy Flintslate Stall OR Medium Cross stitch stall OR Hard Pale Nails Stall ) ) OR Easy Plasmium Stall OR Easy beast pogo OR ( Easy Reaper pogo AND Easy Flintslate stall ) OR ( Easy Architect pogo AND Architect attack Right ) OR Dash Right OR Drifters cloak OR Clawline Right OR Sharpdart ) AND ( cling grip right OR Medium Scuttlebrace OR ( Intended pogo off barnak AND ( Ledge grab left OR Dash Left OR Clawline Left OR Drifters Cloak OR Sharpdart OR Hard hunter pogo OR Medium Flintslate stall OR Easy voltvessels stall OR Easy Beast Pogo OR Easy Plasmium stall OR Easy flea brew stall OR architect attack left OR Easy Architect pogo OR Easy shaman pogo ) ) ) )",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 217.3212127685547,
@@ -146334,7 +146334,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-27T19:15:11.8454689Z",
-          "updatedUtc": "2026-10-25T08:46:01.4543686Z"
+          "updatedUtc": "2026-10-28T04:45:55.5666026Z"
         },
         {
           "id": "1a7ff7a0-2e58-41e9-b892-a0ee52ba1fdd",
@@ -156959,16 +156959,16 @@
           "referenceId": "lower platform",
           "friendlyName": "lower platform",
           "notes": "",
-          "sceneUnitX": 65.86308288574219,
+          "sceneUnitX": 68.04878997802734,
           "sceneUnitY": 3.7200515270233154,
-          "sceneUnitWidth": 10.666664123535156,
+          "sceneUnitWidth": 8.48095703125,
           "sceneUnitHeight": 5.765766382217407,
           "enableAnnotation": true,
           "sortOrder": 3,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-27T00:35:32.0055437Z",
-          "updatedUtc": "2026-10-27T00:36:03.6664049Z"
+          "updatedUtc": "2026-10-28T04:43:44.0981265Z"
         },
         {
           "id": "c4034587-0025-4722-a2aa-20417f5b825a",
@@ -156985,6 +156985,22 @@
           "archivedUtc": null,
           "createdUtc": "2026-10-27T00:35:38.2925353Z",
           "updatedUtc": "2026-10-27T00:36:06.8445446Z"
+        },
+        {
+          "id": "a2936a42-79c1-4e57-94c1-4ce747f8fdc0",
+          "referenceId": "why 2 rooms can reach this",
+          "friendlyName": "why 2 rooms can reach this",
+          "notes": "",
+          "sceneUnitX": 63.938133239746094,
+          "sceneUnitY": 3.7200515270233154,
+          "sceneUnitWidth": 4.11065673828125,
+          "sceneUnitHeight": 4.775635004043579,
+          "enableAnnotation": true,
+          "sortOrder": 5,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-10-28T04:43:53.8246013Z",
+          "updatedUtc": "2026-10-28T04:43:56.725105Z"
         }
       ],
       "transitions": [
@@ -157184,8 +157200,8 @@
           "alias": "VC1",
           "friendlyName": "vertical climb 1",
           "sourceSubroomReferenceText": "middle platform",
-          "destinationSubroomReferenceText": "lower platform",
-          "requirements": "clear stone wall low",
+          "destinationSubroomReferenceText": "why 2 rooms can reach this",
+          "requirements": "nothing",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 53.16924285888672,
@@ -157196,13 +157212,13 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-27T19:14:03.7997908Z",
-          "updatedUtc": "2026-10-27T19:17:31.7314134Z"
+          "updatedUtc": "2026-10-28T04:45:02.437147Z"
         },
         {
           "id": "45263565-7c0c-4edb-8246-ce3dc902df1b",
           "alias": "VC1",
           "friendlyName": "vertical climb 1",
-          "sourceSubroomReferenceText": "lower platform",
+          "sourceSubroomReferenceText": "why 2 rooms can reach this",
           "destinationSubroomReferenceText": "middle platform",
           "requirements": "cling grip left",
           "notes": "",
@@ -157215,26 +157231,45 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-27T19:14:05.2814978Z",
-          "updatedUtc": "2026-10-27T19:17:29.0854806Z"
+          "updatedUtc": "2026-10-28T04:45:03.6546513Z"
         },
         {
           "id": "70af7832-b37d-4f78-ba56-84d3252e0df9",
           "alias": "VC2",
           "friendlyName": "vertical climb 2",
           "sourceSubroomReferenceText": "right section",
-          "destinationSubroomReferenceText": "lower platform",
+          "destinationSubroomReferenceText": "why 2 rooms can reach this",
           "requirements": "progressive swift step 1 left OR clawline left x 1 OR sharpdart x 1 OR drifters cloak OR spike pogo OR faydown cloak OR easy [hunter, beast, architect] pogo (if they are in a weird no spike run or something)",
           "notes": "\u00221 way\u0022 since you need cling grip to get out you end up in middle platform subroom so i wanto to avoid some redundancy since all it changes is the removval of progressive swift step 1 options",
           "enableAnnotation": true,
-          "sceneUnitX": 86.91317749023438,
-          "sceneUnitY": 13.79516315460205,
+          "sceneUnitX": 66.68451690673828,
+          "sceneUnitY": 20.1201229095459,
           "sortOrder": 8,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-27T19:17:39.2350971Z",
-          "updatedUtc": "2026-10-28T02:11:24.4056878Z"
+          "updatedUtc": "2026-10-28T04:45:10.4491368Z"
+        },
+        {
+          "id": "aaf875a7-562f-471d-9672-5df4a20236e6",
+          "alias": "W",
+          "friendlyName": "wall",
+          "sourceSubroomReferenceText": "why 2 rooms can reach this",
+          "destinationSubroomReferenceText": "lower platform",
+          "requirements": "clear stone wall low",
+          "notes": "",
+          "enableAnnotation": true,
+          "sceneUnitX": 72.78199768066406,
+          "sceneUnitY": 1.6881847381591797,
+          "sortOrder": 9,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-10-28T04:44:05.8848122Z",
+          "updatedUtc": "2026-10-28T04:48:17.2503533Z"
         },
         {
           "id": "d0f04bcf-8c92-4288-8dc2-fb511200f64b",
@@ -157254,6 +157289,25 @@
           "archivedUtc": "2026-10-27T20:04:59.9512756Z",
           "createdUtc": "2026-10-27T19:17:40.2238467Z",
           "updatedUtc": "2026-10-27T20:04:59.9512756Z"
+        },
+        {
+          "id": "f0ab5b63-a616-490b-a52d-f386226cd3cd",
+          "alias": "W",
+          "friendlyName": "wall",
+          "sourceSubroomReferenceText": "lower platform",
+          "destinationSubroomReferenceText": "why 2 rooms can reach this",
+          "requirements": "clear stone wall low",
+          "notes": "",
+          "enableAnnotation": true,
+          "sceneUnitX": 72.78199768066406,
+          "sceneUnitY": 1.6881847381591797,
+          "sortOrder": 10,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-10-28T04:44:07.4643931Z",
+          "updatedUtc": "2026-10-28T04:48:17.2503533Z"
         }
       ],
       "checks": [
@@ -157444,7 +157498,7 @@
           "localPositionZ": -0.02,
           "annotationSceneUnitX": 20.12,
           "annotationSceneUnitY": 19.72,
-          "subroomReferenceText": "silver room",
+          "subroomReferenceText": "middle platform",
           "requirements": "break wall up OR break wall left",
           "notes": "",
           "locationType": "blockade",
@@ -157455,7 +157509,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-26T05:51:26.5117119Z",
-          "updatedUtc": "2026-10-27T18:34:06.5771532Z"
+          "updatedUtc": "2026-10-28T04:43:38.1631094Z"
         },
         {
           "id": "8f87982a-13d0-4aee-9bbc-4fc298f4a296",
@@ -157494,7 +157548,7 @@
           "localPositionZ": -0.02,
           "annotationSceneUnitX": 69.17,
           "annotationSceneUnitY": 6.99,
-          "subroomReferenceText": "lower platform",
+          "subroomReferenceText": "why 2 rooms can reach this",
           "requirements": "break wall up OR break wall right",
           "notes": "",
           "locationType": "blockade",
@@ -157505,7 +157559,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-26T05:51:26.5117119Z",
-          "updatedUtc": "2026-10-27T18:45:13.8737625Z"
+          "updatedUtc": "2026-10-28T04:47:56.6809391Z"
         },
         {
           "id": "ae286632-9172-4f7c-9cb3-9417ee155f73",
@@ -157569,7 +157623,7 @@
           "localPositionZ": 0.006,
           "annotationSceneUnitX": 60.68844,
           "annotationSceneUnitY": 13.2979965,
-          "subroomReferenceText": "lower platform",
+          "subroomReferenceText": "why 2 rooms can reach this",
           "requirements": "nada",
           "notes": "",
           "locationType": "enemy",
@@ -157580,7 +157634,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-26T05:51:26.5117119Z",
-          "updatedUtc": "2026-10-27T00:38:57.8081785Z"
+          "updatedUtc": "2026-10-28T04:45:20.3632081Z"
         }
       ]
     },
@@ -160465,7 +160519,7 @@
       "isArchived": false,
       "archivedUtc": null,
       "createdUtc": "2026-08-24T17:54:07.1131296Z",
-      "updatedUtc": "2026-08-27T02:22:25.9869473Z",
+      "updatedUtc": "2026-10-26T08:40:55.2752221Z",
       "subrooms": [
         {
           "id": "a7ec17b0-b4a1-4d08-ba18-bccbeb46abe4",
@@ -160566,15 +160620,15 @@
           "sourceSubroomReferenceText": "Lower Shaft",
           "destinationRoomReferenceText": "Lace 2 Fight",
           "destinationTransitionAliasText": "R",
-          "requirements": "ACT 2",
-          "notes": "",
+          "requirements": "None",
+          "notes": "Black screen when act 3, being investigated",
           "sortOrder": 0,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-24T17:54:07.1131296Z",
-          "updatedUtc": "2026-08-25T23:19:24.4598198Z",
+          "updatedUtc": "2026-10-26T08:42:15.9395449Z",
           "isUnsafeArrival": false
         },
         {
@@ -160594,15 +160648,15 @@
           "sourceSubroomReferenceText": "Central Shaft",
           "destinationRoomReferenceText": "Act2 Cradle Connector Hallway",
           "destinationTransitionAliasText": "R",
-          "requirements": "ACT 2",
-          "notes": "",
+          "requirements": "None",
+          "notes": "Black screen when act 3, being investigated",
           "sortOrder": 1,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-24T17:54:07.1131296Z",
-          "updatedUtc": "2026-08-25T23:19:25.6401269Z",
+          "updatedUtc": "2026-10-26T08:42:16.7271331Z",
           "isUnsafeArrival": false
         },
         {
@@ -160745,18 +160799,18 @@
           "friendlyName": "Tall Shaft2",
           "sourceSubroomReferenceText": "Lower Shaft",
           "destinationSubroomReferenceText": "Central Shaft",
-          "requirements": "Scuttlebrace OR Cling Grip either OR Silk Soar",
+          "requirements": "ACT 2 AND ( Scuttlebrace OR Cling Grip either OR Silk Soar )",
           "notes": "",
           "enableAnnotation": true,
-          "sceneUnitX": 17.800233840942383,
-          "sceneUnitY": 70.93989562988281,
+          "sceneUnitX": 15.993732452392578,
+          "sceneUnitY": 48.97687530517578,
           "sortOrder": 4,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-24T23:03:36.6766594Z",
-          "updatedUtc": "2026-10-23T10:02:20.2354179Z"
+          "updatedUtc": "2026-10-26T08:41:35.1651834Z"
         },
         {
           "id": "d60eb003-7b5c-4f0a-bc9c-949abef5e87e",
@@ -160764,18 +160818,18 @@
           "friendlyName": "Tall Shaft2",
           "sourceSubroomReferenceText": "Central Shaft",
           "destinationSubroomReferenceText": "Lower Shaft",
-          "requirements": "None",
+          "requirements": "ACT 2",
           "notes": "",
           "enableAnnotation": true,
-          "sceneUnitX": 17.800233840942383,
-          "sceneUnitY": 70.93989562988281,
+          "sceneUnitX": 15.993732452392578,
+          "sceneUnitY": 48.97687530517578,
           "sortOrder": 5,
           "isTodo": false,
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-24T23:04:12.5980181Z",
-          "updatedUtc": "2026-08-25T23:19:36.3064031Z"
+          "updatedUtc": "2026-10-26T08:41:31.7957149Z"
         },
         {
           "id": "cb4b6a37-9644-4956-8713-103d258ec403",
@@ -177771,7 +177825,7 @@
           "friendlyName": "Spike Drop",
           "sourceSubroomReferenceText": "Upper Left",
           "destinationSubroomReferenceText": "Right Exit",
-          "requirements": "Clawline Both AND ( Cling Grip Both OR ( Faydown Cloak AND Ledge Grab Right ) ) AND Easy Pogo Off Mnemonid",
+          "requirements": "Clawline Both AND ( Cling Grip Both OR ( Faydown Cloak AND Ledge Grab Right ) ) AND Intended Pogo Off Mnemonid",
           "notes": "One Way",
           "enableAnnotation": true,
           "sceneUnitX": 141.02520751953125,
@@ -177782,7 +177836,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-05T01:30:22.6358412Z",
-          "updatedUtc": "2026-10-20T08:02:23.9777003Z"
+          "updatedUtc": "2026-10-28T04:31:43.5766246Z"
         },
         {
           "id": "67b8ce8f-1737-485c-bc7b-208469563157",
@@ -179706,7 +179760,7 @@
           "friendlyName": "Whole Room",
           "sourceSubroomReferenceText": "Start",
           "destinationSubroomReferenceText": "End",
-          "requirements": "Faydown Cloak AND ( ( Silk Soar AND Cling Grip Right AND Proficient movement ) OR ( Cling grip both AND ( Drifters cloak OR ( ( Sprint left OR Clawline Left OR Sharpdart ) AND ( Dash Right OR Clawline Right OR sharpdart  ) ) ) ) )",
+          "requirements": "Faydown Cloak AND ( ( Silk Soar AND Cling Grip Right AND Proficient movement ) OR ( Cling grip both AND ( ( flea brew jump AND easy flea brew stall ) OR ( Drifters cloak OR ( ( Sprint left OR Clawline Left OR Sharpdart ) AND ( Dash Right OR Clawline Right OR sharpdart  ) ) ) ) ) ) ",
           "notes": "Not doable with just scuttlebrace until proven wrong, I really tried to make it work - pyxl 23/10",
           "enableAnnotation": true,
           "sceneUnitX": 37.34787368774414,
@@ -179717,7 +179771,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-21T21:11:37.5927231Z",
-          "updatedUtc": "2026-10-23T09:26:25.367399Z"
+          "updatedUtc": "2026-10-26T08:56:01.2033476Z"
         },
         {
           "id": "b485c0fa-e053-41b2-89be-c561e0d665b4",
@@ -185259,7 +185313,7 @@
           "friendlyName": "Ice Lake",
           "sourceSubroomReferenceText": "Left Ledge",
           "destinationSubroomReferenceText": "Right Ledge",
-          "requirements": "( Clawline Left AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Left ) ) AND easy Pogo off mnemonid",
+          "requirements": "( Clawline Left AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Left ) ) AND Intended Pogo off mnemonid",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 162.5453643798828,
@@ -185270,7 +185324,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-04T05:55:27.5923709Z",
-          "updatedUtc": "2026-10-20T07:47:12.1584644Z"
+          "updatedUtc": "2026-10-28T04:31:58.988949Z"
         },
         {
           "id": "2448dac7-0268-402e-83d6-0fb30e838125",
@@ -185278,8 +185332,8 @@
           "friendlyName": "Ice Lake",
           "sourceSubroomReferenceText": "Right Ledge",
           "destinationSubroomReferenceText": "Left Ledge",
-          "requirements": "( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND easy Pogo OFF Mnemonid",
-          "notes": "( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND easy Pogo off mnemonid",
+          "requirements": "( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND Intended Pogo OFF Mnemonid",
+          "notes": "( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND Intended Pogo off mnemonid",
           "enableAnnotation": true,
           "sceneUnitX": 162.5453643798828,
           "sceneUnitY": 22.787622451782227,
@@ -185289,7 +185343,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-04T05:55:36.8356366Z",
-          "updatedUtc": "2026-10-20T07:47:40.590484Z"
+          "updatedUtc": "2026-10-28T04:43:26.8197856Z"
         }
       ],
       "checks": [
@@ -185306,7 +185360,7 @@
           "annotationSceneUnitX": 181.56929,
           "annotationSceneUnitY": 19.7909069,
           "subroomReferenceText": "Right Ledge",
-          "requirements": "( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND easy Pogo OFF Mnemonid",
+          "requirements": "( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND Intended Pogo OFF Mnemonid",
           "notes": "",
           "locationType": "enemy",
           "enableAnnotation": true,
@@ -185316,7 +185370,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:52:49.9401441Z",
-          "updatedUtc": "2026-10-20T07:48:28.4193006Z"
+          "updatedUtc": "2026-10-28T04:32:03.5478886Z"
         },
         {
           "id": "18d0b6a0-1a1b-402d-b21c-7cee0144c6b8",
@@ -185331,7 +185385,7 @@
           "annotationSceneUnitX": 260.608276,
           "annotationSceneUnitY": 26.90926,
           "subroomReferenceText": "Right Ledge",
-          "requirements": "( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND easy Pogo OFF Mnemonid",
+          "requirements": "( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND Intended Pogo OFF Mnemonid",
           "notes": "",
           "locationType": "enemy",
           "enableAnnotation": true,
@@ -185341,7 +185395,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:52:49.9401441Z",
-          "updatedUtc": "2026-10-20T07:48:27.4673749Z"
+          "updatedUtc": "2026-10-28T04:32:07.8556655Z"
         },
         {
           "id": "f94b8009-c16b-4c1a-a48a-fd211ca90f7f",
@@ -185356,7 +185410,7 @@
           "annotationSceneUnitX": 215.202454,
           "annotationSceneUnitY": 22.54727,
           "subroomReferenceText": "Right Ledge",
-          "requirements": "( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND easy Pogo OFF Mnemonid",
+          "requirements": "( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND Intended Pogo OFF Mnemonid",
           "notes": "",
           "locationType": "enemy",
           "enableAnnotation": true,
@@ -185366,7 +185420,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:52:49.9401441Z",
-          "updatedUtc": "2026-10-20T07:48:26.4114373Z"
+          "updatedUtc": "2026-10-28T04:32:09.5855542Z"
         },
         {
           "id": "72673697-7027-4056-983a-b04516f9cc0b",
@@ -185381,7 +185435,7 @@
           "annotationSceneUnitX": 329.208,
           "annotationSceneUnitY": 18.9415436,
           "subroomReferenceText": "Right Ledge",
-          "requirements": "( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND easy Pogo OFF Mnemonid",
+          "requirements": "( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND Intended Pogo OFF Mnemonid",
           "notes": "",
           "locationType": "enemy",
           "enableAnnotation": true,
@@ -185391,7 +185445,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:52:49.9401441Z",
-          "updatedUtc": "2026-10-20T07:48:24.897318Z"
+          "updatedUtc": "2026-10-28T04:32:11.3830166Z"
         },
         {
           "id": "f44ed6b6-9f93-43e7-a981-85ffd073167d",
@@ -185406,7 +185460,7 @@
           "annotationSceneUnitX": 281.276123,
           "annotationSceneUnitY": 16.3003063,
           "subroomReferenceText": "Right Ledge",
-          "requirements": "( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND easy Pogo OFF Mnemonid",
+          "requirements": "( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND Intended Pogo OFF Mnemonid",
           "notes": "",
           "locationType": "enemy",
           "enableAnnotation": true,
@@ -185416,7 +185470,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:52:49.9401441Z",
-          "updatedUtc": "2026-10-20T07:48:18.7432547Z"
+          "updatedUtc": "2026-10-28T04:32:14.412878Z"
         },
         {
           "id": "7bfec702-03e0-44f0-9b40-877f9e1e54fa",
@@ -185431,7 +185485,7 @@
           "annotationSceneUnitX": 303.922363,
           "annotationSceneUnitY": 14.5876751,
           "subroomReferenceText": "Right Ledge",
-          "requirements": "( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND easy Pogo OFF Mnemonid",
+          "requirements": "( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND Intended Pogo OFF Mnemonid",
           "notes": "",
           "locationType": "enemy",
           "enableAnnotation": true,
@@ -185441,7 +185495,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:52:49.9401441Z",
-          "updatedUtc": "2026-10-20T07:48:17.2738819Z"
+          "updatedUtc": "2026-10-28T04:32:17.1760832Z"
         },
         {
           "id": "d3952c27-1f4c-4b3e-acc2-e63b9dc433a1",
@@ -185456,7 +185510,7 @@
           "annotationSceneUnitX": 146.682373,
           "annotationSceneUnitY": 19.7546482,
           "subroomReferenceText": "Left Ledge",
-          "requirements": "( Clawline Left AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Left ) ) AND easy Pogo off mnemonid",
+          "requirements": "( Clawline Left AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Left ) ) AND Intended Pogo off mnemonid",
           "notes": "",
           "locationType": "enemy",
           "enableAnnotation": true,
@@ -185466,7 +185520,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:52:49.9401441Z",
-          "updatedUtc": "2026-10-20T07:48:15.8916804Z"
+          "updatedUtc": "2026-10-28T04:43:46.2040011Z"
         }
       ]
     },
@@ -203802,6 +203856,44 @@
           "archivedUtc": "2026-10-16T20:38:56.5756836Z",
           "createdUtc": "2026-08-12T17:42:21.0959566Z",
           "updatedUtc": "2026-10-16T20:38:56.5756836Z"
+        },
+        {
+          "id": "89b2fd1c-81e0-449c-b43a-6b1f0802d4a5",
+          "alias": "BU",
+          "friendlyName": "Bottom to upper left",
+          "sourceSubroomReferenceText": "Base Bottom",
+          "destinationSubroomReferenceText": "Base Upper Left",
+          "requirements": "silk soar OR  (hard pogo off Choir Flyer AND (ledge grab both OR easy scuttlebrace) AND hard damage boost off Choir Flyer)",
+          "notes": "",
+          "enableAnnotation": true,
+          "sceneUnitX": 4.267384052276611,
+          "sceneUnitY": 45.80962371826172,
+          "sortOrder": 17,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-10-28T03:35:56.7189492Z",
+          "updatedUtc": "2026-10-28T03:47:55.8803342Z"
+        },
+        {
+          "id": "16d2d99d-371f-4e5a-bd32-d28fefc07a3b",
+          "alias": "BU",
+          "friendlyName": "Bottom to upper left",
+          "sourceSubroomReferenceText": "Base Upper Left",
+          "destinationSubroomReferenceText": "Base Bottom",
+          "requirements": "none ",
+          "notes": "falling",
+          "enableAnnotation": true,
+          "sceneUnitX": 4.267384052276611,
+          "sceneUnitY": 45.80962371826172,
+          "sortOrder": 18,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-10-28T03:37:08.4739455Z",
+          "updatedUtc": "2026-10-28T03:38:46.955165Z"
         }
       ],
       "checks": [
@@ -212020,7 +212112,7 @@
           "friendlyName": "gap 2",
           "sourceSubroomReferenceText": "upper guarded plaform",
           "destinationSubroomReferenceText": "upper center room",
-          "requirements": "silk soar OR (progressive swift step 1 left AND faydown cloak AND (clawline left x 1 OR sharpdart x 1))",
+          "requirements": "(silk soar OR (progressive swift step 1 left AND faydown cloak AND (clawline left x 1 OR sharpdart x 1))) OR (faydown cloak AND drifters cloak)",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 59.203758239746094,
@@ -212031,7 +212123,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-05T00:49:17.0042173Z",
-          "updatedUtc": "2026-10-17T04:27:24.7331085Z"
+          "updatedUtc": "2026-10-28T04:46:58.1558786Z"
         },
         {
           "id": "91f54e20-a4c3-43cc-8d5f-4b78932c6b0e",
@@ -212489,8 +212581,8 @@
           "annotationSceneUnitX": 59.986,
           "annotationSceneUnitY": 38.659,
           "subroomReferenceText": "building roof",
-          "requirements": "can miss",
-          "notes": "when it comes to these craw the number you can fight is random and changes every time you load the save, additionally they despawn when completing the crawbug clearing wish",
+          "requirements": "nothing",
+          "notes": "Random chance of appearing, 2 minimun\n\nThey will despawn once Crawbug clearing wish has been Granted ",
           "locationType": "enemy",
           "enableAnnotation": true,
           "sortOrder": 5,
@@ -212499,7 +212591,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:52:37.6966432Z",
-          "updatedUtc": "2026-10-28T02:05:55.0877862Z"
+          "updatedUtc": "2026-10-28T02:35:23.0130049Z"
         },
         {
           "id": "6cb3cec9-b4cd-457f-82ab-4802a36abed2",
@@ -212514,8 +212606,8 @@
           "annotationSceneUnitX": 45.88,
           "annotationSceneUnitY": 34.57,
           "subroomReferenceText": "building roof",
-          "requirements": "can miss",
-          "notes": "when it comes to these craw the number you can fight is random and changes every time you load the save, additionally they despawn when completing the crawbug clearing wish",
+          "requirements": "nothing",
+          "notes": "Random chance of appearing, 2 minimun\n\nThey will despawn once Crawbug clearing wish has been Granted ",
           "locationType": "enemy",
           "enableAnnotation": true,
           "sortOrder": 6,
@@ -212524,7 +212616,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:52:37.6966432Z",
-          "updatedUtc": "2026-10-28T02:05:56.3770424Z"
+          "updatedUtc": "2026-10-28T02:35:22.3299354Z"
         },
         {
           "id": "91adc110-ea6f-4d06-9703-2b34f35b51bc",
@@ -212564,8 +212656,8 @@
           "annotationSceneUnitX": 60.0049973,
           "annotationSceneUnitY": 38.682,
           "subroomReferenceText": "building roof",
-          "requirements": "can miss",
-          "notes": "when it comes to these craw the number you can fight is random and changes every time you load the save, additionally they despawn when completing the crawbug clearing wish",
+          "requirements": "nothing",
+          "notes": "Random chance of appearing, 2 minimun\n\nThey will despawn once Crawbug clearing wish has been Granted ",
           "locationType": "enemy",
           "enableAnnotation": true,
           "sortOrder": 7,
@@ -212574,7 +212666,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:52:37.6966432Z",
-          "updatedUtc": "2026-10-28T02:05:57.4410836Z"
+          "updatedUtc": "2026-10-28T02:35:25.4088396Z"
         },
         {
           "id": "25bcdd82-1ebe-4c63-b1ac-1ef7bde7b4c5",
@@ -212589,8 +212681,8 @@
           "annotationSceneUnitX": 45.88,
           "annotationSceneUnitY": 34.57,
           "subroomReferenceText": "building roof",
-          "requirements": "can miss",
-          "notes": "when it comes to these craw the number you can fight is random and changes every time you load the save, additionally they despawn when completing the crawbug clearing wish",
+          "requirements": "nothing",
+          "notes": "Random chance of appearing, 2 minimun\n\nThey will despawn once Crawbug clearing wish has been Granted ",
           "locationType": "enemy",
           "enableAnnotation": true,
           "sortOrder": 8,
@@ -212599,7 +212691,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:52:37.6966432Z",
-          "updatedUtc": "2026-10-28T02:05:58.5414621Z"
+          "updatedUtc": "2026-10-28T02:35:24.680097Z"
         },
         {
           "id": "f3d5438d-e7bf-4d57-b3af-2d5a356f605c",
@@ -212614,8 +212706,8 @@
           "annotationSceneUnitX": 68.9,
           "annotationSceneUnitY": 31.24,
           "subroomReferenceText": "building roof",
-          "requirements": "can miss",
-          "notes": "when it comes to these craw the number you can fight is random and changes every time you load the save, additionally they despawn when completing the crawbug clearing wish",
+          "requirements": "nothing",
+          "notes": "Random chance of appearing, 2 minimun\n\nThey will despawn once Crawbug clearing wish has been Granted ",
           "locationType": "enemy",
           "enableAnnotation": true,
           "sortOrder": 9,
@@ -212624,7 +212716,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-05T00:52:37.6966432Z",
-          "updatedUtc": "2026-10-28T02:05:59.7437028Z"
+          "updatedUtc": "2026-10-28T02:35:20.869555Z"
         },
         {
           "id": "41a8db94-0fcd-469c-90fe-18fd41faed77",
@@ -213348,7 +213440,7 @@
           "friendlyName": "Ice Lake",
           "sourceSubroomReferenceText": "Right Exit",
           "destinationSubroomReferenceText": "Left Exit",
-          "requirements": "Swim OR ( ( Sprint Left OR Clawline Left OR Faydown Cloak OR ( Drifters Cloak AND Dash Left ) OR Sharpdart ) AND Easy Pogo off mnemonid )",
+          "requirements": "Swim OR ( ( Sprint Left OR Clawline Left OR Faydown Cloak OR ( Drifters Cloak AND Dash Left ) OR Sharpdart ) AND Intended Pogo off mnemonid )",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 58.16452407836914,
@@ -213359,7 +213451,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-05T01:46:17.9393408Z",
-          "updatedUtc": "2026-10-20T08:04:39.5181685Z"
+          "updatedUtc": "2026-10-28T04:32:23.3287148Z"
         },
         {
           "id": "2e0bd346-aa4b-4fc9-a455-f156a400880b",
@@ -213367,7 +213459,7 @@
           "friendlyName": "Ice Lake",
           "sourceSubroomReferenceText": "Left Exit",
           "destinationSubroomReferenceText": "Right Exit",
-          "requirements": "Swim OR ( ( Sprint Right OR Clawline Right OR Faydown Cloak OR ( Drifters Cloak AND Dash Right ) OR Sharpdart )  AND Easy Pogo off mnemonid )",
+          "requirements": "Swim OR ( ( Sprint Right OR Clawline Right OR Faydown Cloak OR ( Drifters Cloak AND Dash Right ) OR Sharpdart )  AND Intended Pogo off mnemonid )",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 58.16452407836914,
@@ -213378,7 +213470,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-05T01:45:35.2086584Z",
-          "updatedUtc": "2026-10-20T08:04:57.111783Z"
+          "updatedUtc": "2026-10-28T04:32:26.8062759Z"
         },
         {
           "id": "e4e2d2bc-7008-43ef-aeae-6841c1ac4857",
@@ -213386,7 +213478,7 @@
           "friendlyName": "Brightvein Left",
           "sourceSubroomReferenceText": "Brightvein",
           "destinationSubroomReferenceText": "Left Exit",
-          "requirements": "( ( Drifters Cloak OR Dash Left OR Clawline Left OR Faydown Cloak OR Sharpdart ) AND Easy Pogo off mnemonid ) OR Swim",
+          "requirements": "( ( Drifters Cloak OR Dash Left OR Clawline Left OR Faydown Cloak OR Sharpdart ) AND Intended Pogo off mnemonid ) OR Swim",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 30.834367752075195,
@@ -213397,7 +213489,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-05T01:46:18.4173121Z",
-          "updatedUtc": "2026-10-20T08:05:47.3078636Z"
+          "updatedUtc": "2026-10-28T04:32:33.6310715Z"
         },
         {
           "id": "ecb4ac43-3662-4a76-b1ab-ca5e7d7f65dc",
@@ -213405,7 +213497,7 @@
           "friendlyName": "Brightvein Left",
           "sourceSubroomReferenceText": "Left Exit",
           "destinationSubroomReferenceText": "Brightvein",
-          "requirements": "Silk Soar AND ( Swim OR ( ( Clawline Right OR Faydown Cloak OR ( Dash Right AND Drifters Cloak ) ) AND Easy Pogo off mnemonid ) )",
+          "requirements": "Silk Soar AND ( Swim OR ( ( Clawline Right OR Faydown Cloak OR ( Dash Right AND Drifters Cloak ) ) AND Intended Pogo off mnemonid ) )",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 30.834367752075195,
@@ -213416,7 +213508,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-05T01:45:43.9369602Z",
-          "updatedUtc": "2026-10-20T08:07:00.0459901Z"
+          "updatedUtc": "2026-10-28T04:32:40.1576576Z"
         },
         {
           "id": "d757b190-f826-4cd8-ad41-b7dd764c3b1f",
@@ -213424,7 +213516,7 @@
           "friendlyName": "Brightvein Right",
           "sourceSubroomReferenceText": "Right Exit",
           "destinationSubroomReferenceText": "Brightvein",
-          "requirements": "Silk Soar AND ( Swim OR ( ( Clawline Left OR Faydown Cloak OR ( Dash Left AND Drifters Cloak ) ) AND Easy Pogo off mnemonid ) )",
+          "requirements": "Silk Soar AND ( Swim OR ( ( Clawline Left OR Faydown Cloak OR ( Dash Left AND Drifters Cloak ) ) AND Intended Pogo off mnemonid ) )",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 84.93693542480469,
@@ -213435,7 +213527,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-05T01:45:47.5091159Z",
-          "updatedUtc": "2026-10-20T08:08:03.6418892Z"
+          "updatedUtc": "2026-10-28T04:32:41.5505299Z"
         },
         {
           "id": "68ea9878-3858-4293-acfc-ad9c234e0bf1",
@@ -213443,7 +213535,7 @@
           "friendlyName": "Brightvein Right",
           "sourceSubroomReferenceText": "Brightvein",
           "destinationSubroomReferenceText": "Right Exit",
-          "requirements": "( (Drifters Cloak OR Dash Right OR Clawline Right OR Faydown Cloak OR Sharpdart)  AND Easy Pogo off mnemonid ) OR Swim ",
+          "requirements": "( (Drifters Cloak OR Dash Right OR Clawline Right OR Faydown Cloak OR Sharpdart)  AND Intended Pogo off mnemonid ) OR Swim ",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 84.93693542480469,
@@ -213454,7 +213546,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-05T01:46:18.7733493Z",
-          "updatedUtc": "2026-10-20T08:09:03.5839317Z"
+          "updatedUtc": "2026-10-28T04:32:44.4058916Z"
         }
       ],
       "checks": [
@@ -214683,6 +214775,31 @@
           "archivedUtc": null,
           "createdUtc": "2026-08-22T13:04:29.7166745Z",
           "updatedUtc": "2026-10-23T01:04:45.6283737Z"
+        },
+        {
+          "id": "c0e90540-7748-4f87-b426-ea05c0c6d9cf",
+          "friendlyName": "Voltstone",
+          "inGameId": null,
+          "inGamePositionX": null,
+          "inGamePositionY": null,
+          "inGamePositionZ": null,
+          "localPositionX": null,
+          "localPositionY": null,
+          "localPositionZ": null,
+          "annotationSceneUnitX": 296.7438049316406,
+          "annotationSceneUnitY": 18.272968292236328,
+          "subroomReferenceText": "Bottom",
+          "requirements": "None",
+          "notes": "",
+          "locationType": "lore",
+          "enableAnnotation": true,
+          "sortOrder": 1,
+          "isTodo": false,
+          "isVerified": true,
+          "isArchived": false,
+          "archivedUtc": null,
+          "createdUtc": "2026-10-26T10:34:18.8586704Z",
+          "updatedUtc": "2026-10-26T10:35:13.8296482Z"
         },
         {
           "id": "c245a3a8-e4da-44e6-96bf-329e94ea8298",
@@ -223318,17 +223435,17 @@
       ],
       "checks": [
         {
-          "id": "896f5186-1d21-4908-9361-b9b3b8e1b46e",
+          "id": "fce7967e-04f6-4927-8567-330fa7d056fd",
           "friendlyName": "Rosary Necklace - Choral Chambers #2",
-          "inGameId": null,
-          "inGamePositionX": null,
-          "inGamePositionY": null,
-          "inGamePositionZ": null,
-          "localPositionX": null,
-          "localPositionY": null,
-          "localPositionZ": null,
-          "annotationSceneUnitX": 40.14699935913086,
-          "annotationSceneUnitY": 7.682058811187744,
+          "inGameId": "Collectable Item Pickup",
+          "inGamePositionX": 39.38,
+          "inGamePositionY": 8.277498,
+          "inGamePositionZ": 0,
+          "localPositionX": 39.38,
+          "localPositionY": 8.277498,
+          "localPositionZ": 0,
+          "annotationSceneUnitX": 39.38,
+          "annotationSceneUnitY": 8.277498,
           "subroomReferenceText": "Base",
           "requirements": "activate Wall over dining AND (cling grip either OR ledge grab either OR easy shaman pogo OR silk soar OR easy scuttlebrace OR easy beast needle strike OR faydown OR easy damage boost off Drapefly OR easy [plasmium, flea brew, voltvessels] stall)\n",
           "notes": "hidden behind a breakable wall",
@@ -223339,21 +223456,21 @@
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
-          "createdUtc": "2026-10-14T13:03:10.9734898Z",
-          "updatedUtc": "2026-10-27T17:23:49.6066463Z"
+          "createdUtc": "2026-08-12T22:34:37.749387Z",
+          "updatedUtc": "2026-10-28T04:15:33.3994633Z"
         },
         {
-          "id": "fce7967e-04f6-4927-8567-330fa7d056fd",
+          "id": "896f5186-1d21-4908-9361-b9b3b8e1b46e",
           "friendlyName": "Dining Hall\u0027s food budget",
-          "inGameId": "Collectable Item Pickup",
-          "inGamePositionX": 39.38,
-          "inGamePositionY": 8.277498,
-          "inGamePositionZ": 0,
-          "localPositionX": 39.38,
-          "localPositionY": 8.277498,
-          "localPositionZ": 0,
-          "annotationSceneUnitX": 5.787208557128906,
-          "annotationSceneUnitY": 60.42738342285156,
+          "inGameId": null,
+          "inGamePositionX": null,
+          "inGamePositionY": null,
+          "inGamePositionZ": null,
+          "localPositionX": null,
+          "localPositionY": null,
+          "localPositionZ": null,
+          "annotationSceneUnitX": 6.936875343322754,
+          "annotationSceneUnitY": 58.73531723022461,
           "subroomReferenceText": "Top",
           "requirements": "none",
           "notes": "rosary cache",
@@ -223364,8 +223481,8 @@
           "isVerified": true,
           "isArchived": false,
           "archivedUtc": null,
-          "createdUtc": "2026-08-12T22:34:37.749387Z",
-          "updatedUtc": "2026-10-16T23:45:00.86112Z"
+          "createdUtc": "2026-10-14T13:03:10.9734898Z",
+          "updatedUtc": "2026-10-28T04:15:33.3994633Z"
         },
         {
           "id": "5b4f6765-0b84-448e-a9ce-dd0427fa0efc",
@@ -229822,7 +229939,7 @@
           "friendlyName": "Wall",
           "sourceSubroomReferenceText": "Bottom",
           "destinationSubroomReferenceText": "Pinstress Arena",
-          "requirements": "Silk Soar OR ( ( Cling Grip Both OR ( Cling Grip Left AND Spike Pogo ) ) AND ( ( Faydown Cloak AND easy pogo off driftlin AND Spike Pogo ) OR ( Clawline Both AND Easy pogo off driftlin ) OR ( Hard Reaper crest Pogo AND Dash Both AND Sprint Both AND Drifters Cloak AND Hard Flea Brew Stall AND Hard Heal Stall ) ) ) ",
+          "requirements": "Silk Soar OR ( ( Cling Grip Both OR ( Cling Grip Left AND Spike Pogo ) ) AND ( ( Faydown Cloak AND Intended pogo off driftlin AND Spike Pogo ) OR ( Clawline Both AND Intended pogo off driftlin ) OR ( Hard Reaper crest Pogo AND Dash Both AND Sprint Both AND Drifters Cloak AND Hard Flea Brew Stall AND Hard Heal Stall ) ) ) ",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 71.62803649902344,
@@ -229833,7 +229950,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-09T09:30:11.8142716Z",
-          "updatedUtc": "2026-10-20T08:15:02.2346139Z"
+          "updatedUtc": "2026-10-28T04:31:08.7675056Z"
         },
         {
           "id": "8b1f0871-962b-44ae-ae7b-5f0edf9b4e4b",
@@ -238878,7 +238995,7 @@
           "annotationSceneUnitX": 23.2200012,
           "annotationSceneUnitY": 30.6099987,
           "subroomReferenceText": "hidden area",
-          "requirements": "prereq wooden wall",
+          "requirements": "nothing",
           "notes": "",
           "locationType": "resource",
           "enableAnnotation": true,
@@ -238888,7 +239005,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-21T23:53:13.6897946Z",
-          "updatedUtc": "2026-10-18T04:04:24.2446441Z"
+          "updatedUtc": "2026-10-28T04:52:37.0658818Z"
         },
         {
           "id": "6c189cc5-2186-4538-99d0-3a6c96bf64a3",
@@ -238903,7 +239020,7 @@
           "annotationSceneUnitX": 19.5600014,
           "annotationSceneUnitY": 24.63,
           "subroomReferenceText": "hidden area",
-          "requirements": "prereq wooden wall",
+          "requirements": "nothing",
           "notes": "",
           "locationType": "resource",
           "enableAnnotation": true,
@@ -238913,7 +239030,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-21T23:53:16.3554311Z",
-          "updatedUtc": "2026-10-18T04:04:29.9409519Z"
+          "updatedUtc": "2026-10-28T04:52:38.4170353Z"
         },
         {
           "id": "bd0501be-30ee-4dd8-a972-34ce039f74fe",
@@ -238928,7 +239045,7 @@
           "annotationSceneUnitX": 21.1998882,
           "annotationSceneUnitY": 24.289999,
           "subroomReferenceText": "hidden area",
-          "requirements": "prereq wooden wall",
+          "requirements": "nothing",
           "notes": "",
           "locationType": "resource",
           "enableAnnotation": true,
@@ -238938,7 +239055,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-21T23:53:18.1467898Z",
-          "updatedUtc": "2026-10-18T04:04:35.1725028Z"
+          "updatedUtc": "2026-10-28T04:52:39.6524072Z"
         },
         {
           "id": "9b5f7f3c-5f27-4374-a777-760fda97c8d1",
@@ -238953,7 +239070,7 @@
           "annotationSceneUnitX": 11.3780241,
           "annotationSceneUnitY": 29.1011219,
           "subroomReferenceText": "hidden area",
-          "requirements": "prereq wooden wall",
+          "requirements": "nothing",
           "notes": "",
           "locationType": "resource",
           "enableAnnotation": true,
@@ -238963,7 +239080,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-21T23:53:20.0292544Z",
-          "updatedUtc": "2026-10-18T04:05:08.9287801Z"
+          "updatedUtc": "2026-10-28T04:52:40.7132462Z"
         },
         {
           "id": "20fcebc3-c5d6-4bc6-8407-ad2c226d70d3",
@@ -238978,7 +239095,7 @@
           "annotationSceneUnitX": 21.6300011,
           "annotationSceneUnitY": 35.32,
           "subroomReferenceText": "hidden area",
-          "requirements": "prereq wooden wall",
+          "requirements": "nothing",
           "notes": "",
           "locationType": "resource",
           "enableAnnotation": true,
@@ -238988,7 +239105,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-21T23:53:52.1411924Z",
-          "updatedUtc": "2026-10-18T04:05:55.6539731Z"
+          "updatedUtc": "2026-10-28T04:52:42.2971528Z"
         },
         {
           "id": "cfac297b-d029-49c8-91b8-bd0c45a6c109",
@@ -239002,8 +239119,8 @@
           "localPositionZ": -0.01,
           "annotationSceneUnitX": 40.79,
           "annotationSceneUnitY": 25.9667778,
-          "subroomReferenceText": "hidden area",
-          "requirements": "break wall: left",
+          "subroomReferenceText": "hidden shaft loower",
+          "requirements": "break wall: left OR break wall up",
           "notes": "",
           "locationType": "blockade",
           "enableAnnotation": true,
@@ -239013,7 +239130,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-08T04:39:24.2803273Z",
-          "updatedUtc": "2026-10-17T05:44:23.3977249Z"
+          "updatedUtc": "2026-10-28T04:51:38.0958932Z"
         },
         {
           "id": "0d2a0446-0f77-4e1a-bd36-83958b529886",
@@ -242026,7 +242143,7 @@
           "sourceSubroomReferenceText": "Mask Maker Path",
           "destinationRoomReferenceText": "Mask Maker Passage",
           "destinationTransitionAliasText": "F",
-          "requirements": "( Cling Grip Left OR Scuttlebrace OR Faydown Cloak OR Silk Soar ) AND Easy pogo off driftlin",
+          "requirements": "( Cling Grip Left OR Scuttlebrace OR Faydown Cloak OR Silk Soar ) AND Intended pogo off driftlin",
           "notes": "",
           "sortOrder": 1,
           "isTodo": false,
@@ -242034,7 +242151,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-09-01T22:18:37.290054Z",
-          "updatedUtc": "2026-10-20T08:23:12.5294747Z",
+          "updatedUtc": "2026-10-28T04:31:22.7295662Z",
           "isUnsafeArrival": false
         },
         {

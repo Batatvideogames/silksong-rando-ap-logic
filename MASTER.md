@@ -9915,7 +9915,7 @@ No subroom connections defined.
 | BG | baloon gap | lower guarded platform | upper center room | (hard pogo off fluttermite) OR (medium pogo off fluttermite AND (clawline left x 3 OR (drifters cloak))) OR (easy pogo off fluttermite AND (drifters cloak AND faydown cloak)) |  | Verified | ✓ |  |
 | BG | baloon gap | upper center room | lower guarded platform | none (just fall) |  | Verified | ✓ |  |
 | G2 | gap 2 | upper center room | upper guarded plaform | easy pogo off fluttermite OR clawline right x 1 OR progressive swift step 1 right OR faydown cloak OR drifters cloak OR sharpdart x 1 OR easy [hunter, reaper, beast, witch, architect] pogo |  | Verified | ✓ |  |
-| G2 | gap 2 | upper guarded plaform | upper center room | silk soar OR (progressive swift step 1 left AND faydown cloak AND (clawline left x 1 OR sharpdart x 1)) |  | Verified | ✓ |  |
+| G2 | gap 2 | upper guarded plaform | upper center room | (silk soar OR (progressive swift step 1 left AND faydown cloak AND (clawline left x 1 OR sharpdart x 1))) OR (faydown cloak AND drifters cloak) |  | Verified | ✓ |  |
 | F3 | fall 3 | tower platform | upper center room | silk soar |  | Verified | ✓ |  |
 | F3 | fall 3 | upper center room | tower platform | none (just fall) |  | Verified | ✓ |  |
 | S3 | shaft 3 | lower guarded platform | upper stash | cling grip left OR cling grip right OR silk soar OR easy scuttlebrace |  | Verified | ✓ |  |
@@ -9936,11 +9936,11 @@ No subroom connections defined.
 | 3 | tower elevator | tower platform | none (pressure switch) |  | Verified | switch | ✓ |  |
 | 4 | hidden right wall | upper right section | break wall right OR break wall up |  | Verified | blockade | ✓ |  |
 | 5 | Greymoor - Orders | upper center room | nothing |  | Verified | lore | ✓ |  |
-| 6 | Craw 1 | building roof | can miss |  | Verified | enemy | ✓ | when it comes to these craw the number you can fight is random and changes every time you load the save, additionally they despawn when completing the crawbug clearing wish |
-| 7 | Craw 2 | building roof | can miss |  | Verified | enemy | ✓ | when it comes to these craw the number you can fight is random and changes every time you load the save, additionally they despawn when completing the crawbug clearing wish |
-| 8 | Craw 3 | building roof | can miss |  | Verified | enemy | ✓ | when it comes to these craw the number you can fight is random and changes every time you load the save, additionally they despawn when completing the crawbug clearing wish |
-| 9 | Craw 4 | building roof | can miss |  | Verified | enemy | ✓ | when it comes to these craw the number you can fight is random and changes every time you load the save, additionally they despawn when completing the crawbug clearing wish |
-| 10 | Craw 5 | building roof | can miss |  | Verified | enemy | ✓ | when it comes to these craw the number you can fight is random and changes every time you load the save, additionally they despawn when completing the crawbug clearing wish |
+| 6 | Craw 1 | building roof | nothing |  | Verified | enemy | ✓ | Random chance of appearing, 2 minimun  They will despawn once Crawbug clearing wish has been Granted |
+| 7 | Craw 2 | building roof | nothing |  | Verified | enemy | ✓ | Random chance of appearing, 2 minimun  They will despawn once Crawbug clearing wish has been Granted |
+| 8 | Craw 3 | building roof | nothing |  | Verified | enemy | ✓ | Random chance of appearing, 2 minimun  They will despawn once Crawbug clearing wish has been Granted |
+| 9 | Craw 4 | building roof | nothing |  | Verified | enemy | ✓ | Random chance of appearing, 2 minimun  They will despawn once Crawbug clearing wish has been Granted |
+| 10 | Craw 5 | building roof | nothing |  | Verified | enemy | ✓ | Random chance of appearing, 2 minimun  They will despawn once Crawbug clearing wish has been Granted |
 | 11 | Dreg Catcher 1 | lower guarded platform | nothing |  | Verified | enemy | ✓ |  |
 | 12 | Fluttermite 1 | tower platform | nothing |  | Verified | enemy | ✓ |  |
 | 13 | Fluttermite 2 | tower platform | Normal World Spawn |  | Verified | enemy | ✓ |  |
@@ -10135,12 +10135,12 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Greymoor - Shell Shard Cache of the silver room | hidden area | prereq wooden wall |  | Verified | resource | ✓ |  |
-| 2 | Greymoor - the other Shell Shard Cache of the silver room | hidden area | prereq wooden wall |  | Verified | resource | ✓ |  |
-| 3 | Greymoor - the other other Shell Shard Cache of the silver room | hidden area | prereq wooden wall |  | Verified | resource | ✓ |  |
-| 4 | Greymoor - the other other other Shell Shard Cache of the silver room | hidden area | prereq wooden wall |  | Verified | resource | ✓ |  |
-| 5 | Greymoor - the other other other other Shell Shard Cache of the silver room idk why so many | hidden area | prereq wooden wall |  | Verified | resource | ✓ |  |
-| 6 | wooden wall | hidden area | break wall: left |  | Verified | blockade | ✓ |  |
+| 1 | Greymoor - Shell Shard Cache of the silver room | hidden area | nothing |  | Verified | resource | ✓ |  |
+| 2 | Greymoor - the other Shell Shard Cache of the silver room | hidden area | nothing |  | Verified | resource | ✓ |  |
+| 3 | Greymoor - the other other Shell Shard Cache of the silver room | hidden area | nothing |  | Verified | resource | ✓ |  |
+| 4 | Greymoor - the other other other Shell Shard Cache of the silver room | hidden area | nothing |  | Verified | resource | ✓ |  |
+| 5 | Greymoor - the other other other other Shell Shard Cache of the silver room idk why so many | hidden area | nothing |  | Verified | resource | ✓ |  |
+| 6 | wooden wall | hidden shaft loower | break wall: left OR break wall up |  | Verified | blockade | ✓ |  |
 | 7 | Craw 1 | hidden area | nada AND invalid |  | Verified | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false  this mf is a lie from the craw court, he is slacking not in his post (scrapped enemy probably) |
 | 8 | Shardillard 1 | hidden area | silk soar OR ledge grab either OR cling grip either OR faydown cloak |  | Verified | enemy | ✓ |  |
 | 9 | Fluttermite 1 | hidden shaft loower | nothing |  | Verified | enemy | ✓ |  |
@@ -10879,6 +10879,7 @@ No subroom connections defined.
 | S3 | middle platform | ✓ |
 | S4 | lower platform | ✓ |
 | S5 | silver room | ✓ |
+| S6 | why 2 rooms can reach this | ✓ |
 
 #### Room Transitions
 
@@ -10897,9 +10898,11 @@ No subroom connections defined.
 | F1 | fall 1 | middle platform | top platform | faydown cloak |  | Verified | ✓ |  |
 | S2 | spike 2 | middle platform | silver room | clear silver room wall AND (progressive swift step 2 left OR drifters cloak OR spike pogo OR clawline left x 1 OR sharpdart x 1 OR faydown cloak OR (progressive swift step 1 AND easy naked pogo) OR easy [hunter, beast, architect] pogo OR easy wanderer needle strike (if they are in a weird no spike run or something)) |  | Verified | ✓ |  |
 | S2 | spike 2 | silver room | middle platform | spike pogo OR clawline right x 1  OR sharpdart x 1 OR faydown cloak OR progressive swift step 2 OR (progressive swift step 1 AND ledge grab right) OR (drifters cloak AND cling grip right AND proficient movement) |  | Verified | ✓ |  |
-| VC1 | vertical climb 1 | middle platform | lower platform | clear stone wall low |  | Verified | ✓ |  |
-| VC1 | vertical climb 1 | lower platform | middle platform | cling grip left |  | Verified | ✓ |  |
-| VC2 | vertical climb 2 | right section | lower platform | progressive swift step 1 left OR clawline left x 1 OR sharpdart x 1 OR drifters cloak OR spike pogo OR faydown cloak OR easy [hunter, beast, architect] pogo (if they are in a weird no spike run or something) |  | Verified | ✓ | "1 way" since you need cling grip to get out you end up in middle platform subroom so i wanto to avoid some redundancy since all it changes is the removval of progressive swift step 1 options |
+| VC1 | vertical climb 1 | middle platform | why 2 rooms can reach this | nothing |  | Verified | ✓ |  |
+| VC1 | vertical climb 1 | why 2 rooms can reach this | middle platform | cling grip left |  | Verified | ✓ |  |
+| VC2 | vertical climb 2 | right section | why 2 rooms can reach this | progressive swift step 1 left OR clawline left x 1 OR sharpdart x 1 OR drifters cloak OR spike pogo OR faydown cloak OR easy [hunter, beast, architect] pogo (if they are in a weird no spike run or something) |  | Verified | ✓ | "1 way" since you need cling grip to get out you end up in middle platform subroom so i wanto to avoid some redundancy since all it changes is the removval of progressive swift step 1 options |
+| W | wall | why 2 rooms can reach this | lower platform | clear stone wall low |  | Verified | ✓ |  |
+| W | wall | lower platform | why 2 rooms can reach this | clear stone wall low |  | Verified | ✓ |  |
 
 #### Check Locations
 
@@ -10912,11 +10915,11 @@ No subroom connections defined.
 | 5 | wisp Thicket - The other other shellshard cache | silver room | nothing |  | Verified | collectible | ✓ |  |
 | 6 | wisp Thicket - The other other other shellshard cache | silver room | nothing |  | Verified | collectible | ✓ |  |
 | 7 | wisp Thicket - The other other other other shellshard cache | silver room | nothing |  | Verified | collectible | ✓ |  |
-| 8 | silver room wall | silver room | break wall up OR break wall left |  | Verified | blockade | ✓ |  |
-| 9 | stone wall low | lower platform | break wall up OR break wall right |  | Verified | blockade | ✓ |  |
+| 8 | silver room wall | middle platform | break wall up OR break wall left |  | Verified | blockade | ✓ |  |
+| 9 | stone wall low | why 2 rooms can reach this | break wall up OR break wall right |  | Verified | blockade | ✓ |  |
 | 10 | Pharlid Diver 1 | middle platform | nothing |  | Verified | enemy | ✓ |  |
 | 11 | Pharlid Diver 2 | right section | nothing |  | Verified | enemy | ✓ |  |
-| 12 | Pharlid 1 | lower platform | nada |  | Verified | enemy | ✓ |  |
+| 12 | Pharlid 1 | why 2 rooms can reach this | nada |  | Verified | enemy | ✓ |  |
 
 ## Verdania
 
@@ -15545,6 +15548,8 @@ No subroom connections defined.
 | V2 | Section 2 to Section 3 Left | Top Section 3 Left | Top Section 2 | none |  | Verified | ✓ | falling |
 | H | Top Horizontal Traversal | Top Section 3 Right | Top Section 3 Left | ledge grab left OR flea brew OR clawline left OR dash left OR drifter's cloak OR sharpdart OR easy scuttlebrace OR easy pogo off Choir Flyer |  | Verified | ✓ |  |
 | H | Top Horizontal Traversal | Top Section 3 Left | Top Section 3 Right | Clawline right OR sharpdart OR faydown cloak OR (run AND (easy beast pogo OR architect attack right OR easy wanderer needle strike OR dash right OR ledge grab right OR easy [heal, voltvessels, plasmium, flintslate, rune rage, pale nails, cross stitch, thread storm, flea brew] stall)) OR (silk soar AND (ledge grab right OR dash right OR drifter's cloak  OR easy pogo off Choir Flyer)) OR cling grip right OR easy scuttlebrace OR (easy pogo off Choir Flyer AND (spike pogo OR easy [heal, voltvessels, plasmium, flintslate, rune rage, pale nails, cross stitch, thread storm, flea brew] stall)) |  | Verified | ✓ |  |
+| BU | Bottom to upper left | Base Bottom | Base Upper Left | silk soar OR  (hard pogo off Choir Flyer AND (ledge grab both OR easy scuttlebrace) AND hard damage boost off Choir Flyer) |  | Verified | ✓ |  |
+| BU | Bottom to upper left | Base Upper Left | Base Bottom | none |  | Verified | ✓ | falling |
 
 #### Check Locations
 
@@ -21799,7 +21804,8 @@ No subroom connections defined.
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Volt Filament | Bottom | None |  | Verified | collectible | ✓ |  |
-| 2 | Boss: Voltwyrm | Bottom | Combat Requirements |  | Verified | enemy | ✓ |  |
+| 2 | Voltstone | Bottom | None |  | Verified | lore | ✓ |  |
+| 3 | Boss: Voltwyrm | Bottom | Combat Requirements |  | Verified | enemy | ✓ |  |
 
 <a name="room-sands-of-karak--coral-tower-memory"></a>
 
@@ -23242,7 +23248,7 @@ No check locations defined.
 | LML | left3 | Lower Middle Left Exit | [Mount Fay Shakra (Peak_02)](#room-mount-fay--mount-fay-shakra) | LMR | None |  | Verified | ✓ |  |
 | UML | left2 | Upper Middle Left Exit | [Mount Fay Shakra (Peak_02)](#room-mount-fay--mount-fay-shakra) | UMR | None |  | Verified | ✓ |  |
 | USR | right1 | Slab Side Room Upper | [Slab Arena (Slab_16)](#room-the-slab--slab-arena) | L | None |  | Verified | ✓ |  |
-| C1 | top1 | Ceiling Exits | [Mount Fay Right Side Middle Room (Peak_07)](#room-mount-fay--mount-fay-right-side-middle-room) | F1 | ( Cling Grip Left AND ( ( Clawline Right AND Clawline Left ) OR ( Faydown Cloak AND DRifters Cloak AND Dash Right ) OR ( Drifters Cloak AND Sharpdart AND ( Proficient Movement AND Spike Pogo ) AND Hard Heal Stall AND Hard Cocoon Skip ) ) AND Easy Pogo off driftlin ) OR Silk Soar |  | Verified | ✓ |  |
+| C1 | top1 | Ceiling Exits | [Mount Fay Right Side Middle Room (Peak_07)](#room-mount-fay--mount-fay-right-side-middle-room) | F1 | ( Cling Grip Left AND ( ( Clawline Right AND Clawline Left ) OR ( Faydown Cloak AND Drifters Cloak AND Dash Right ) OR ( Drifters Cloak AND Sharpdart AND ( Proficient Movement AND Spike Pogo ) AND Hard Heal Stall AND Hard Cocoon Skip ) ) AND Intended Pogo off driftlin ) OR Silk Soar |  | Verified | ✓ |  |
 | MSR | right2 | Slab Side Room Lower | [Slab Chilly Prison (Slab_15)](#room-the-slab--slab-chilly-prison) | L | None |  | Verified | ✓ |  |
 | LR | right4 | lower Entrance | [Slab Bellway (Slab_06)](#room-the-slab--slab-bellway) | L | None |  | Verified | ✓ |  |
 | DU | Dummy | Ceiling Exits | [Mount Fay Right Side Middle Room (Peak_07)](#room-mount-fay--mount-fay-right-side-middle-room) | F5 | Invalid |  | Verified |  |  |
@@ -23261,14 +23267,14 @@ No check locations defined.
 | MC | Middle Crossing | Shell Shard Ledge | Lower Middle Left Exit | Clawline Left OR Silk Soar OR Drifters Cloak OR ( Dash Left AND Faydown Cloak ) |  | Verified | ✓ |  |
 | SS | Silk Soar Shards | lower Entrance | Shell Shard Ledge | Silk Soar |  | Verified | ✓ |  |
 | SS | Silk Soar Shards | Shell Shard Ledge | lower Entrance | None |  | Verified | ✓ |  |
-| TA | The Ascent | Lower Middle Left Exit | Upper Middle Left Exit | Silk Soar OR ( ( Cling Grip Both AND ( Clawline Both OR ( Faydown Cloak AND Drifters Cloak ) OR ( Sharpdart AND Drifters Cloak AND Hard Cocoon Skip AND ( Sprint Both OR Have Tool Flintslate ) ) ) ) AND easy pogo off driftlin ) |  | Verified | ✓ |  |
+| TA | The Ascent | Lower Middle Left Exit | Upper Middle Left Exit | Silk Soar OR ( ( Cling Grip Both AND ( Clawline Both OR ( Faydown Cloak AND Drifters Cloak ) OR ( Sharpdart AND Drifters Cloak AND Hard Cocoon Skip AND ( Sprint Both OR Have Tool Flintslate ) ) ) ) AND Intended pogo off driftlin ) |  | Verified | ✓ |  |
 | TA | The Ascent | Upper Middle Left Exit | Lower Middle Left Exit | None |  | Verified | ✓ |  |
 | SH | Shortcut | Upper Middle Left Exit | Upper Left Exit | Faydown Cloak OR Silk Soar OR ( complete Breakable Wall - Mount Fay Entrance AND ( Cling Grip Either OR Scuttlebrace OR ( Easy Beast Crest pogo AND Medium Heal Stall AND Ledge Grab Either ) ) ) |  | Verified | ✓ |  |
 | SH | Shortcut | Upper Left Exit | Upper Middle Left Exit | None |  | Verified | ✓ |  |
 | DR | Drop | Upper Left Exit | Shell Shard Ledge | None |  | Verified | ✓ |  |
 | DR | Drop | Shell Shard Ledge | Upper Left Exit | Silk Soar |  | Verified | ✓ |  |
-| CE | Celing Exits | Upper Left Exit | Ceiling Exits | ( Cling Grip Left AND ( ( Clawline Right AND Clawline Left ) OR ( Faydown Cloak AND DRifters Cloak AND Dash Right ) OR ( Drifters Cloak AND Sharpdart AND ( Proficient Movement AND Spike Pogo ) AND Hard Heal Stall AND Hard Cocoon Skip ) ) AND Easy Pogo off driftlin ) OR Silk Soar |  | Verified | ✓ |  |
-| CE | Celing Exits | Ceiling Exits | Upper Left Exit | dash left OR Faydown Cloak OR Easy Hunter pogo OR ( ( ( ( Hard plasmium stall OR Hard Cross Stitch stall x 5 OR Hard Pale Nails Stall x 5) AND Ledge grab Left ) OR Easy Flea Brew Stall OR Easy VoltVessels Stall ) AND Easy pogo off driftlin ) OR Clawline left OR Drifters Cloak OR Easy Beast pogo OR Medium Architect pogo |  | Verified | ✓ |  |
+| CE | Celing Exits | Upper Left Exit | Ceiling Exits | ( Cling Grip Left AND ( ( Clawline Right AND Clawline Left ) OR ( Faydown Cloak AND DRifters Cloak AND Dash Right ) OR ( Drifters Cloak AND Sharpdart AND ( Proficient Movement AND Spike Pogo ) AND Hard Heal Stall AND Hard Cocoon Skip ) ) AND Intended Pogo off driftlin ) OR Silk Soar |  | Verified | ✓ |  |
+| CE | Celing Exits | Ceiling Exits | Upper Left Exit | dash left OR Faydown Cloak OR Easy Hunter pogo OR ( ( ( ( Hard plasmium stall OR Hard Cross Stitch stall x 5 OR Hard Pale Nails Stall x 5) AND Ledge grab Left ) OR Easy Flea Brew Stall OR Easy VoltVessels Stall ) AND Intended pogo off driftlin ) OR Clawline left OR Drifters Cloak OR Easy Beast pogo OR Medium Architect pogo |  | Verified | ✓ |  |
 | FA | Fallin | Ceiling Exits | Upper Middle Left Exit | None |  | Verified | ✓ |  |
 
 #### Check Locations
@@ -23279,13 +23285,13 @@ No check locations defined.
 | 2 | Mount Fay - Shell shard cache #2 | Shell Shard Ledge | None |  | Verified | resource | ✓ |  |
 | 3 | The Slab - Spool Fragment | Slab Spool Room | cling grip Either OR Scuttlebrace OR Silk Soar |  | Verified | collectible | ✓ | Duplicate check name for spool fragment?   the one shown in "Slab flea prison" was a placeholder till i did this room, remove other one if still present - Pyxl |
 | 4 | Breakable Wall - Mount Fay Entrance | Upper Left Exit | None |  | Verified | blockade | ✓ |  |
-| 5 | Driftlin 1 | Upper Left Exit | ( Cling Grip Left AND ( ( Clawline Right AND Clawline Left ) OR ( Faydown Cloak AND DRifters Cloak AND Dash Right ) OR ( Drifters Cloak AND Sharpdart AND ( Proficient Movement AND Spike Pogo ) AND Hard Heal Stall AND Hard Cocoon Skip ) ) AND Easy Pogo off driftlin ) OR Silk Soar |  | Verified | enemy | ✓ |  |
-| 6 | Driftlin 2 | Upper Left Exit | ( Cling Grip Left AND ( ( Clawline Right AND Clawline Left ) OR ( Faydown Cloak AND DRifters Cloak AND Dash Right ) OR ( Drifters Cloak AND Sharpdart AND ( Proficient Movement AND Spike Pogo ) AND Hard Heal Stall AND Hard Cocoon Skip ) ) AND Easy Pogo off driftlin ) OR Silk Soar |  | Verified | enemy | ✓ |  |
-| 7 | Driftlin 3 | Upper Left Exit | ( Cling Grip Left AND ( ( Clawline Right AND Clawline Left ) OR ( Faydown Cloak AND DRifters Cloak AND Dash Right ) OR ( Drifters Cloak AND Sharpdart AND ( Proficient Movement AND Spike Pogo ) AND Hard Heal Stall AND Hard Cocoon Skip ) ) AND Easy Pogo off driftlin ) OR Silk Soar |  | Verified | enemy | ✓ |  |
-| 8 | Driftlin 4 | Lower Middle Left Exit | Silk Soar OR ( ( Cling Grip Both AND ( Clawline Both OR ( Faydown Cloak AND Drifters Cloak ) OR ( Sharpdart AND Drifters Cloak AND Hard Cocoon Skip AND ( Sprint Both OR Have Tool Flintslate ) ) ) ) AND easy pogo off driftlin ) |  | Verified | enemy | ✓ |  |
-| 9 | Driftlin 5 | Lower Middle Left Exit | Silk Soar OR ( ( Cling Grip Both AND ( Clawline Both OR ( Faydown Cloak AND Drifters Cloak ) OR ( Sharpdart AND Drifters Cloak AND Hard Cocoon Skip AND ( Sprint Both OR Have Tool Flintslate ) ) ) ) AND easy pogo off driftlin ) |  | Verified | enemy | ✓ |  |
-| 10 | Driftlin 6 | Lower Middle Left Exit | Silk Soar OR ( ( Cling Grip Both AND ( Clawline Both OR ( Faydown Cloak AND Drifters Cloak ) OR ( Sharpdart AND Drifters Cloak AND Hard Cocoon Skip AND ( Sprint Both OR Have Tool Flintslate ) ) ) ) AND easy pogo off driftlin ) |  | Verified | enemy | ✓ |  |
-| 11 | Driftlin 7 | Lower Middle Left Exit | Silk Soar OR ( ( Cling Grip Both AND ( Clawline Both OR ( Faydown Cloak AND Drifters Cloak ) OR ( Sharpdart AND Drifters Cloak AND Hard Cocoon Skip AND ( Sprint Both OR Have Tool Flintslate ) ) ) ) AND easy pogo off driftlin ) |  | Verified | enemy | ✓ |  |
+| 5 | Driftlin 1 | Upper Left Exit | ( Cling Grip Left AND ( ( Clawline Right AND Clawline Left ) OR ( Faydown Cloak AND DRifters Cloak AND Dash Right ) OR ( Drifters Cloak AND Sharpdart AND ( Proficient Movement AND Spike Pogo ) AND Hard Heal Stall AND Hard Cocoon Skip ) ) AND Intended Pogo off driftlin ) OR Silk Soar |  | Verified | enemy | ✓ |  |
+| 6 | Driftlin 2 | Upper Left Exit | ( Cling Grip Left AND ( ( Clawline Right AND Clawline Left ) OR ( Faydown Cloak AND DRifters Cloak AND Dash Right ) OR ( Drifters Cloak AND Sharpdart AND ( Proficient Movement AND Spike Pogo ) AND Hard Heal Stall AND Hard Cocoon Skip ) ) AND Intended Pogo off driftlin ) OR Silk Soar |  | Verified | enemy | ✓ |  |
+| 7 | Driftlin 3 | Upper Left Exit | ( Cling Grip Left AND ( ( Clawline Right AND Clawline Left ) OR ( Faydown Cloak AND DRifters Cloak AND Dash Right ) OR ( Drifters Cloak AND Sharpdart AND ( Proficient Movement AND Spike Pogo ) AND Hard Heal Stall AND Hard Cocoon Skip ) ) AND Intended Pogo off driftlin ) OR Silk Soar |  | Verified | enemy | ✓ |  |
+| 8 | Driftlin 4 | Lower Middle Left Exit | Silk Soar OR ( ( Cling Grip Both AND ( Clawline Both OR ( Faydown Cloak AND Drifters Cloak ) OR ( Sharpdart AND Drifters Cloak AND Hard Cocoon Skip AND ( Sprint Both OR Have Tool Flintslate ) ) ) ) AND Intended pogo off driftlin ) |  | Verified | enemy | ✓ |  |
+| 9 | Driftlin 5 | Lower Middle Left Exit | Silk Soar OR ( ( Cling Grip Both AND ( Clawline Both OR ( Faydown Cloak AND Drifters Cloak ) OR ( Sharpdart AND Drifters Cloak AND Hard Cocoon Skip AND ( Sprint Both OR Have Tool Flintslate ) ) ) ) AND Intended pogo off driftlin ) |  | Verified | enemy | ✓ |  |
+| 10 | Driftlin 6 | Lower Middle Left Exit | Silk Soar OR ( ( Cling Grip Both AND ( Clawline Both OR ( Faydown Cloak AND Drifters Cloak ) OR ( Sharpdart AND Drifters Cloak AND Hard Cocoon Skip AND ( Sprint Both OR Have Tool Flintslate ) ) ) ) AND Intended pogo off driftlin ) |  | Verified | enemy | ✓ |  |
+| 11 | Driftlin 7 | Lower Middle Left Exit | Silk Soar OR ( ( Cling Grip Both AND ( Clawline Both OR ( Faydown Cloak AND Drifters Cloak ) OR ( Sharpdart AND Drifters Cloak AND Hard Cocoon Skip AND ( Sprint Both OR Have Tool Flintslate ) ) ) ) AND Intended pogo off driftlin ) |  | Verified | enemy | ✓ |  |
 
 <a name="room-mount-fay--brightvein"></a>
 
@@ -23467,7 +23473,7 @@ No check locations defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| PL | Platforming | Exit | Mask Maker Hut | Cling Grip Right AND Faydown Cloak AND ( Easy pogo off driftlin OR Proficient movement ) |  | Verified | ✓ |  |
+| PL | Platforming | Exit | Mask Maker Hut | Cling Grip Right AND Faydown Cloak AND ( Intended pogo off driftlin OR Proficient movement ) |  | Verified | ✓ |  |
 | PL | Platforming | Mask Maker Hut | Exit | None |  | Verified | ✓ |  |
 
 #### Check Locations
@@ -23588,7 +23594,7 @@ No check locations defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| SD | Spike Drop | Upper Left | Right Exit | Clawline Both AND ( Cling Grip Both OR ( Faydown Cloak AND Ledge Grab Right ) ) AND Easy Pogo Off Mnemonid |  | Verified | ✓ | One Way |
+| SD | Spike Drop | Upper Left | Right Exit | Clawline Both AND ( Cling Grip Both OR ( Faydown Cloak AND Ledge Grab Right ) ) AND Intended Pogo Off Mnemonid |  | Verified | ✓ | One Way |
 | FF | Frozen Flea | Right Exit | Frozen Flea | Cling Grip Left OR Scuttlebrace |  | Verified | ✓ |  |
 | FF | Frozen Flea | Frozen Flea | Right Exit | Cling Grip Left OR Dash Right OR Drifters Cloak OR Faydown Cloak OR Clawline Right OR Sharpdart |  | Verified | ✓ |  |
 
@@ -23631,20 +23637,20 @@ No check locations defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| IL | Ice Lake | Left Ledge | Right Ledge | ( Clawline Left AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Left ) ) AND easy Pogo off mnemonid |  | Verified | ✓ |  |
-| IL | Ice Lake | Right Ledge | Left Ledge | ( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND easy Pogo OFF Mnemonid |  | Verified | ✓ | ( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND easy Pogo off mnemonid |
+| IL | Ice Lake | Left Ledge | Right Ledge | ( Clawline Left AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Left ) ) AND Intended Pogo off mnemonid |  | Verified | ✓ |  |
+| IL | Ice Lake | Right Ledge | Left Ledge | ( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND Intended Pogo OFF Mnemonid |  | Verified | ✓ | ( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND Intended Pogo off mnemonid |
 
 #### Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Mnemonid 1 | Right Ledge | ( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND easy Pogo OFF Mnemonid |  | Verified | enemy | ✓ |  |
-| 2 | Mnemonid 2 | Right Ledge | ( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND easy Pogo OFF Mnemonid |  | Verified | enemy | ✓ |  |
-| 3 | Mnemonid 3 | Right Ledge | ( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND easy Pogo OFF Mnemonid |  | Verified | enemy | ✓ |  |
-| 4 | Mnemonid 4 | Right Ledge | ( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND easy Pogo OFF Mnemonid |  | Verified | enemy | ✓ |  |
-| 5 | Mnemonid 5 | Right Ledge | ( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND easy Pogo OFF Mnemonid |  | Verified | enemy | ✓ |  |
-| 6 | Mnemonid 6 | Right Ledge | ( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND easy Pogo OFF Mnemonid |  | Verified | enemy | ✓ |  |
-| 7 | Mnemonid 7 | Left Ledge | ( Clawline Left AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Left ) ) AND easy Pogo off mnemonid |  | Verified | enemy | ✓ |  |
+| 1 | Mnemonid 1 | Right Ledge | ( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND Intended Pogo OFF Mnemonid |  | Verified | enemy | ✓ |  |
+| 2 | Mnemonid 2 | Right Ledge | ( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND Intended Pogo OFF Mnemonid |  | Verified | enemy | ✓ |  |
+| 3 | Mnemonid 3 | Right Ledge | ( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND Intended Pogo OFF Mnemonid |  | Verified | enemy | ✓ |  |
+| 4 | Mnemonid 4 | Right Ledge | ( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND Intended Pogo OFF Mnemonid |  | Verified | enemy | ✓ |  |
+| 5 | Mnemonid 5 | Right Ledge | ( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND Intended Pogo OFF Mnemonid |  | Verified | enemy | ✓ |  |
+| 6 | Mnemonid 6 | Right Ledge | ( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND Intended Pogo OFF Mnemonid |  | Verified | enemy | ✓ |  |
+| 7 | Mnemonid 7 | Left Ledge | ( Clawline Left AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Left ) ) AND Intended Pogo off mnemonid |  | Verified | enemy | ✓ |  |
 
 <a name="room-mount-fay--mount-fay-large-servitor-hallway"></a>
 
@@ -23788,12 +23794,12 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| IL | Ice Lake | Right Exit | Left Exit | Swim OR ( ( Sprint Left OR Clawline Left OR Faydown Cloak OR ( Drifters Cloak AND Dash Left ) OR Sharpdart ) AND Easy Pogo off mnemonid ) |  | Verified | ✓ |  |
-| IL | Ice Lake | Left Exit | Right Exit | Swim OR ( ( Sprint Right OR Clawline Right OR Faydown Cloak OR ( Drifters Cloak AND Dash Right ) OR Sharpdart )  AND Easy Pogo off mnemonid ) |  | Verified | ✓ |  |
-| BRL | Brightvein Left | Brightvein | Left Exit | ( ( Drifters Cloak OR Dash Left OR Clawline Left OR Faydown Cloak OR Sharpdart ) AND Easy Pogo off mnemonid ) OR Swim |  | Verified | ✓ |  |
-| BRL | Brightvein Left | Left Exit | Brightvein | Silk Soar AND ( Swim OR ( ( Clawline Right OR Faydown Cloak OR ( Dash Right AND Drifters Cloak ) ) AND Easy Pogo off mnemonid ) ) |  | Verified | ✓ |  |
-| BRR | Brightvein Right | Right Exit | Brightvein | Silk Soar AND ( Swim OR ( ( Clawline Left OR Faydown Cloak OR ( Dash Left AND Drifters Cloak ) ) AND Easy Pogo off mnemonid ) ) |  | Verified | ✓ |  |
-| BRR | Brightvein Right | Brightvein | Right Exit | ( (Drifters Cloak OR Dash Right OR Clawline Right OR Faydown Cloak OR Sharpdart)  AND Easy Pogo off mnemonid ) OR Swim |  | Verified | ✓ |  |
+| IL | Ice Lake | Right Exit | Left Exit | Swim OR ( ( Sprint Left OR Clawline Left OR Faydown Cloak OR ( Drifters Cloak AND Dash Left ) OR Sharpdart ) AND Intended Pogo off mnemonid ) |  | Verified | ✓ |  |
+| IL | Ice Lake | Left Exit | Right Exit | Swim OR ( ( Sprint Right OR Clawline Right OR Faydown Cloak OR ( Drifters Cloak AND Dash Right ) OR Sharpdart )  AND Intended Pogo off mnemonid ) |  | Verified | ✓ |  |
+| BRL | Brightvein Left | Brightvein | Left Exit | ( ( Drifters Cloak OR Dash Left OR Clawline Left OR Faydown Cloak OR Sharpdart ) AND Intended Pogo off mnemonid ) OR Swim |  | Verified | ✓ |  |
+| BRL | Brightvein Left | Left Exit | Brightvein | Silk Soar AND ( Swim OR ( ( Clawline Right OR Faydown Cloak OR ( Dash Right AND Drifters Cloak ) ) AND Intended Pogo off mnemonid ) ) |  | Verified | ✓ |  |
+| BRR | Brightvein Right | Right Exit | Brightvein | Silk Soar AND ( Swim OR ( ( Clawline Left OR Faydown Cloak OR ( Dash Left AND Drifters Cloak ) ) AND Intended Pogo off mnemonid ) ) |  | Verified | ✓ |  |
+| BRR | Brightvein Right | Brightvein | Right Exit | ( (Drifters Cloak OR Dash Right OR Clawline Right OR Faydown Cloak OR Sharpdart)  AND Intended Pogo off mnemonid ) OR Swim |  | Verified | ✓ |  |
 
 #### Check Locations
 
@@ -23902,7 +23908,7 @@ No subroom connections defined.
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| WA | Wall | Bottom | Pinstress Arena | Silk Soar OR ( ( Cling Grip Both OR ( Cling Grip Left AND Spike Pogo ) ) AND ( ( Faydown Cloak AND easy pogo off driftlin AND Spike Pogo ) OR ( Clawline Both AND Easy pogo off driftlin ) OR ( Hard Reaper crest Pogo AND Dash Both AND Sprint Both AND Drifters Cloak AND Hard Flea Brew Stall AND Hard Heal Stall ) ) ) |  | Verified | ✓ |  |
+| WA | Wall | Bottom | Pinstress Arena | Silk Soar OR ( ( Cling Grip Both OR ( Cling Grip Left AND Spike Pogo ) ) AND ( ( Faydown Cloak AND Intended pogo off driftlin AND Spike Pogo ) OR ( Clawline Both AND Intended pogo off driftlin ) OR ( Hard Reaper crest Pogo AND Dash Both AND Sprint Both AND Drifters Cloak AND Hard Flea Brew Stall AND Hard Heal Stall ) ) ) |  | Verified | ✓ |  |
 | WA | Wall | Pinstress Arena | Bottom | None |  | Verified | ✓ |  |
 | LS | Lower Slope | Bottom | Shell Shard Slope | Silk SOar OR ( cling Grip Left AND ( Faydown Cloak OR Clawline Left OR ( Dash Both AND Drifters Cloak AND Easy Reaper Crest Pogo ) ) ) |  | Verified | ✓ |  |
 | LS | Lower Slope | Shell Shard Slope | Bottom | None |  | Verified | ✓ |  |
@@ -24021,7 +24027,7 @@ No subroom connections defined.
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | F | bot1 | Lower Exit | [Mount Fay Lower Slope (Peak_05)](#room-mount-fay--mount-fay-lower-slope) | C | None |  | Verified | ✓ |  |
-| C | top1 | Mask Maker Path | [Mask Maker Passage (Peak_05d)](#room-mount-fay--mask-maker-passage) | F | ( Cling Grip Left OR Scuttlebrace OR Faydown Cloak OR Silk Soar ) AND Easy pogo off driftlin |  | Verified | ✓ |  |
+| C | top1 | Mask Maker Path | [Mask Maker Passage (Peak_05d)](#room-mount-fay--mask-maker-passage) | F | ( Cling Grip Left OR Scuttlebrace OR Faydown Cloak OR Silk Soar ) AND Intended pogo off driftlin |  | Verified | ✓ |  |
 | R | right1 | Upper Entrance | [FayForn (Peak_08b)](#room-mount-fay--fayforn) | L1 | None |  | Verified | ✓ |  |
 
 #### Subroom Connections
@@ -24301,7 +24307,7 @@ No subroom connections defined.
 | EC | Entrance Cave | Left Platform | Entrance | ( ( Faydown Cloak OR easy Heal Stall OR Easy Shaman Pogo OR Easy Rune rage stall OR Silk Soar ) AND ( Cling Grip Left OR Cling Grip Right ) AND ( Sharpdart OR Faydown Cloak OR Drifters Cloak OR Dash Left OR Clawline Left OR Easy Plasmium Stall OR Easy Voltvessels stall OR Easy Flintslate stall OR Medium Flea Brew Stall OR Easy Beast pogo OR Easy Architect pogo OR ( Dash right AND Scuttlebrace ) OR ( Ledge Grab Left AND ( easy Hunter Pogo OR easy Cross stitch Stall ) ) ) ) |  | Verified | ✓ |  |
 | LBB | Left Broken Bridge | Left Platform | Centre Platform | Faydown Cloak OR ( ( Ledge Grab Right OR Cling grip Right OR Easy Beast Charge ) AND ( Easy Flea Brew Stall OR Easy Voltvessels stall OR Sprint Right OR Dash Right OR Easy Beast pogo OR Swim OR Sharpdart OR Clawline Right ) ) OR ( Easy Flea brew stall AND ( Easy Plasmium Stall OR Easy Voltvessels Stall ) ) OR ( Silk Soar AND ( Easy Flea Brew Stall OR Easy Plasmium Stall OR Medium Voltvessels stall OR Easy Flintslate stall OR Easy thread storm stall OR Easy Cross stitch stall OR Easy Rune Rage Stall OR Easy Pale Nails Stall OR Medium Heal Stall OR Sharpdart OR Dash Right OR Drifters Cloak OR Clawline Right OR Sprint Right OR Easy Hunter Pogo OR ( Ledge Grab Right AND Easy Reaper Pogo ) OR Hard Reaper Pogo OR Easy Beast Pogo OR Easy Architect Pogo OR ( Easy shaman pogo AND easy Scuttlebrace ) ) ) OR ( Hard Shaman pogo AND Medium Scuttlebrace ) |  | Verified | ✓ |  |
 | LBB | Left Broken Bridge | Centre Platform | Left Platform | Faydown Cloak OR Clawline left OR Sprint Left OR ( Intended pogo off barnak AND Drifters Cloak ) OR Silk Soar OR ( Cling Grip Right AND ( Dash Left OR Drifters Cloak OR Easy Plasmium Stall OR Easy Voltvessels Stall OR Easy Flea Brew Stall ) ) |  | Verified | ✓ |  |
-| UB | Under The Bridge | Centre Platform | Shell Shards bridge | Faydown Cloak OR ( ( Swim OR Easy Voltvessels stall OR Medium Flea Brew Stall OR ( Ledge Grab Right AND ( easy Flintslate Stall OR Medium Cross stitch stall OR Hard Pale Nails Stall ) ) OR Easy Plasmium Stall OR Easy beast pogo OR ( Easy Reaper pogo AND Easy Flintslate stall ) OR ( Easy Architect pogo AND Architect attack Right ) OR Dash Right OR Drifters cloak OR Clawline Right OR Sharpdart ) AND ( cling grip right OR Medium Scuttlebrace OR ( easy pogo off barnak AND ( Ledge grab left OR Dash Left OR Clawline Left OR Drifters Cloak OR Sharpdart OR Hard hunter pogo OR Medium Flintslate stall OR Easy voltvessels stall OR Easy Beast Pogo OR Easy Plasmium stall OR Easy flea brew stall OR architect attack left OR Easy Architect pogo OR Easy shaman pogo ) ) ) ) |  | Verified | ✓ |  |
+| UB | Under The Bridge | Centre Platform | Shell Shards bridge | Faydown Cloak OR ( ( Swim OR Easy Voltvessels stall OR Medium Flea Brew Stall OR ( Ledge Grab Right AND ( easy Flintslate Stall OR Medium Cross stitch stall OR Hard Pale Nails Stall ) ) OR Easy Plasmium Stall OR Easy beast pogo OR ( Easy Reaper pogo AND Easy Flintslate stall ) OR ( Easy Architect pogo AND Architect attack Right ) OR Dash Right OR Drifters cloak OR Clawline Right OR Sharpdart ) AND ( cling grip right OR Medium Scuttlebrace OR ( Intended pogo off barnak AND ( Ledge grab left OR Dash Left OR Clawline Left OR Drifters Cloak OR Sharpdart OR Hard hunter pogo OR Medium Flintslate stall OR Easy voltvessels stall OR Easy Beast Pogo OR Easy Plasmium stall OR Easy flea brew stall OR architect attack left OR Easy Architect pogo OR Easy shaman pogo ) ) ) ) |  | Verified | ✓ |  |
 | UB | Under The Bridge | Shell Shards bridge | Centre Platform | ( Faydown Cloak AND ( Cling grip right OR Clawline Left OR Sharpdart OR Drifters Cloak OR Medium Beast pogo OR Easy Flea Brew stall OR ( ( Ledge grab left OR Cling grip left ) AND Easy Plasmium Stall ) OR ( Cling grip Left AND ( Dash left OR Swim OR Hard flintslate stall OR Hard Cross stitch stall OR Easy Voltvessels stall ) ) ) ) OR ( Swim AND Cling Grip right AND ( Ledge grab Left OR Cling Grip left ) ) |  | Verified | ✓ |  |
 | OB | Over The Bridge | Centre Platform | Exit | Silk Soar OR ( intended pogo off barnak AND ( Clawline Right OR Sharpdart OR Drifters Cloak ) ) OR ( Faydown Cloak AND ( Cling grip right OR Ledge Grab Right ) ) |  | Verified | ✓ |  |
 | OB | Over The Bridge | Exit | Centre Platform | Dash Left OR Faydown Cloak OR Sprint Left OR Drifters Cloak OR Cling Grip left OR Silk Soar OR Clawline Left OR Sharpdart OR Ledge grab Left OR Easy Flea brew stall OR Easy Voltvessels stall OR Hard thread storm stall OR hard Cross stitch stall OR Medium Flintslate stall OR Easy Rune Rage stall OR Easy plasmium stall OR hard Pale nails stall OR Easy Beast Pogo OR Easy Shaman Pogo OR Easy architect pogo |  | Verified | ✓ |  |
@@ -24865,8 +24871,8 @@ No map image for this
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LL | left1 | Lower Shaft | [Lace 2 Fight (Song_Tower_01)](#room-the-cradle--lace-2-fight) | R | ACT 2 |  | Verified | ✓ |  |
-| ML | left4 | Central Shaft | [Act2 Cradle Connector Hallway (Cradle_01)](#room-the-cradle--act2-cradle-connector-hallway) | R | ACT 2 |  | Verified | ✓ |  |
+| LL | left1 | Lower Shaft | [Lace 2 Fight (Song_Tower_01)](#room-the-cradle--lace-2-fight) | R | None |  | Verified | ✓ | Black screen when act 3, being investigated |
+| ML | left4 | Central Shaft | [Act2 Cradle Connector Hallway (Cradle_01)](#room-the-cradle--act2-cradle-connector-hallway) | R | None |  | Verified | ✓ | Black screen when act 3, being investigated |
 | UL | left3 | Upper Shaft | [ACT2 GMS Arena (Cradle_03)](#room-the-cradle--act2-gms-arena) | R | ACT 2 |  | Verified | ✓ |  |
 | V | door_tubeEnter | Ventricas | [Ventrica Menu](#room-fast-travel--ventrica-menu) | T | unlock ventrica terminus |  | Verified | ✓ |  |
 
@@ -24878,8 +24884,8 @@ No map image for this
 | SES | Silk Eater Shaft | Ventricas | Silkeater Room | prereq Breakable floor terminus |  | Verified | ✓ |  |
 | TS1 | Tall Shaft1 | Ventricas | Lower Shaft | prereq Terminus OWW |  | Verified | ✓ |  |
 | TS1 | Tall Shaft1 | Lower Shaft | Ventricas | prereq Terminus OWW AND ( Scuttlebrace OR Cling Grip OR Silk Soar ) |  | Verified | ✓ |  |
-| TS2 | Tall Shaft2 | Lower Shaft | Central Shaft | Scuttlebrace OR Cling Grip either OR Silk Soar |  | Verified | ✓ |  |
-| TS2 | Tall Shaft2 | Central Shaft | Lower Shaft | None |  | Verified | ✓ |  |
+| TS2 | Tall Shaft2 | Lower Shaft | Central Shaft | ACT 2 AND ( Scuttlebrace OR Cling Grip either OR Silk Soar ) |  | Verified | ✓ |  |
+| TS2 | Tall Shaft2 | Central Shaft | Lower Shaft | ACT 2 |  | Verified | ✓ |  |
 | TS3 | Tall Shaft3 | Central Shaft | Upper Shaft | prereq Terminus Upper Shaft AND ( Scuttlebrace OR Cling Grip either OR Silk Soar ) |  | Verified | ✓ |  |
 | TS3 | Tall Shaft3 | Upper Shaft | Central Shaft | prereq Terminus Upper Shaft |  | Verified | ✓ |  |
 
@@ -24974,7 +24980,7 @@ I entered this during act 3 and got the same scene dump, dont believe they count
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| WR | Whole Room | Start | End | Faydown Cloak AND ( ( Silk Soar AND Cling Grip Right AND Proficient movement ) OR ( Cling grip both AND ( Drifters cloak OR ( ( Sprint left OR Clawline Left OR Sharpdart ) AND ( Dash Right OR Clawline Right OR sharpdart  ) ) ) ) ) |  | Verified | ✓ | Not doable with just scuttlebrace until proven wrong, I really tried to make it work - pyxl 23/10 |
+| WR | Whole Room | Start | End | Faydown Cloak AND ( ( Silk Soar AND Cling Grip Right AND Proficient movement ) OR ( Cling grip both AND ( ( flea brew jump AND easy flea brew stall ) OR ( Drifters cloak OR ( ( Sprint left OR Clawline Left OR Sharpdart ) AND ( Dash Right OR Clawline Right OR sharpdart  ) ) ) ) ) ) |  | Verified | ✓ | Not doable with just scuttlebrace until proven wrong, I really tried to make it work - pyxl 23/10 |
 | WR | Whole Room | End | Start | Faydown Cloak OR Drifters Cloak OR Clawline both OR Dash Both |  | Verified | ✓ |  |
 
 #### Check Locations

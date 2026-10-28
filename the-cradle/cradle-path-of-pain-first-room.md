@@ -22,7 +22,7 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| WR | Whole Room | Start | End | Faydown Cloak AND ( ( Silk Soar AND Cling Grip Right AND Proficient movement ) OR ( Cling grip both AND ( Drifters cloak OR ( ( Sprint left OR Clawline Left OR Sharpdart ) AND ( Dash Right OR Clawline Right OR sharpdart  ) ) ) ) ) |  | Verified | ✓ | Not doable with just scuttlebrace until proven wrong, I really tried to make it work - pyxl 23/10 |
+| WR | Whole Room | Start | End | Faydown Cloak AND ( ( Silk Soar AND Cling Grip Right AND Proficient movement ) OR ( Cling grip both AND ( ( flea brew jump AND easy flea brew stall ) OR ( Drifters cloak OR ( ( Sprint left OR Clawline Left OR Sharpdart ) AND ( Dash Right OR Clawline Right OR sharpdart  ) ) ) ) ) ) |  | Verified | ✓ | Not doable with just scuttlebrace until proven wrong, I really tried to make it work - pyxl 23/10 |
 | WR | Whole Room | End | Start | Faydown Cloak OR Drifters Cloak OR Clawline both OR Dash Both |  | Verified | ✓ |  |
 
 ## Check Locations

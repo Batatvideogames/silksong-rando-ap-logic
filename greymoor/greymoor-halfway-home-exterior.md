@@ -59,7 +59,7 @@
 | BG | baloon gap | lower guarded platform | upper center room | (hard pogo off fluttermite) OR (medium pogo off fluttermite AND (clawline left x 3 OR (drifters cloak))) OR (easy pogo off fluttermite AND (drifters cloak AND faydown cloak)) |  | Verified | ✓ |  |
 | BG | baloon gap | upper center room | lower guarded platform | none (just fall) |  | Verified | ✓ |  |
 | G2 | gap 2 | upper center room | upper guarded plaform | easy pogo off fluttermite OR clawline right x 1 OR progressive swift step 1 right OR faydown cloak OR drifters cloak OR sharpdart x 1 OR easy [hunter, reaper, beast, witch, architect] pogo |  | Verified | ✓ |  |
-| G2 | gap 2 | upper guarded plaform | upper center room | silk soar OR (progressive swift step 1 left AND faydown cloak AND (clawline left x 1 OR sharpdart x 1)) |  | Verified | ✓ |  |
+| G2 | gap 2 | upper guarded plaform | upper center room | (silk soar OR (progressive swift step 1 left AND faydown cloak AND (clawline left x 1 OR sharpdart x 1))) OR (faydown cloak AND drifters cloak) |  | Verified | ✓ |  |
 | F3 | fall 3 | tower platform | upper center room | silk soar |  | Verified | ✓ |  |
 | F3 | fall 3 | upper center room | tower platform | none (just fall) |  | Verified | ✓ |  |
 | S3 | shaft 3 | lower guarded platform | upper stash | cling grip left OR cling grip right OR silk soar OR easy scuttlebrace |  | Verified | ✓ |  |
@@ -80,11 +80,11 @@
 | 3 | tower elevator | tower platform | none (pressure switch) |  | Verified | switch | ✓ |  |
 | 4 | hidden right wall | upper right section | break wall right OR break wall up |  | Verified | blockade | ✓ |  |
 | 5 | Greymoor - Orders | upper center room | nothing |  | Verified | lore | ✓ |  |
-| 6 | Craw 1 | building roof | can miss |  | Verified | enemy | ✓ | when it comes to these craw the number you can fight is random and changes every time you load the save, additionally they despawn when completing the crawbug clearing wish |
-| 7 | Craw 2 | building roof | can miss |  | Verified | enemy | ✓ | when it comes to these craw the number you can fight is random and changes every time you load the save, additionally they despawn when completing the crawbug clearing wish |
-| 8 | Craw 3 | building roof | can miss |  | Verified | enemy | ✓ | when it comes to these craw the number you can fight is random and changes every time you load the save, additionally they despawn when completing the crawbug clearing wish |
-| 9 | Craw 4 | building roof | can miss |  | Verified | enemy | ✓ | when it comes to these craw the number you can fight is random and changes every time you load the save, additionally they despawn when completing the crawbug clearing wish |
-| 10 | Craw 5 | building roof | can miss |  | Verified | enemy | ✓ | when it comes to these craw the number you can fight is random and changes every time you load the save, additionally they despawn when completing the crawbug clearing wish |
+| 6 | Craw 1 | building roof | nothing |  | Verified | enemy | ✓ | Random chance of appearing, 2 minimun  They will despawn once Crawbug clearing wish has been Granted |
+| 7 | Craw 2 | building roof | nothing |  | Verified | enemy | ✓ | Random chance of appearing, 2 minimun  They will despawn once Crawbug clearing wish has been Granted |
+| 8 | Craw 3 | building roof | nothing |  | Verified | enemy | ✓ | Random chance of appearing, 2 minimun  They will despawn once Crawbug clearing wish has been Granted |
+| 9 | Craw 4 | building roof | nothing |  | Verified | enemy | ✓ | Random chance of appearing, 2 minimun  They will despawn once Crawbug clearing wish has been Granted |
+| 10 | Craw 5 | building roof | nothing |  | Verified | enemy | ✓ | Random chance of appearing, 2 minimun  They will despawn once Crawbug clearing wish has been Granted |
 | 11 | Dreg Catcher 1 | lower guarded platform | nothing |  | Verified | enemy | ✓ |  |
 | 12 | Fluttermite 1 | tower platform | nothing |  | Verified | enemy | ✓ |  |
 | 13 | Fluttermite 2 | tower platform | Normal World Spawn |  | Verified | enemy | ✓ |  |

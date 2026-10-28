@@ -100621,7 +100621,7 @@
           "source_node_id": "greymoor/greymoor-halfway-home-exterior#upper-guarded-plaform",
           "target_node_id": "greymoor/greymoor-halfway-home-exterior#upper-center-room",
           "requirement": {
-            "raw": "silk soar OR (progressive swift step 1 left AND faydown cloak AND (clawline left x 1 OR sharpdart x 1))",
+            "raw": "(silk soar OR (progressive swift step 1 left AND faydown cloak AND (clawline left x 1 OR sharpdart x 1))) OR (faydown cloak AND drifters cloak)",
             "mode": "expression",
             "dnf": [
               [
@@ -100636,6 +100636,10 @@
                 "capability:sprint:left",
                 "capability:faydown-cloak",
                 "capability:sharpdart:1"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:drifters-cloak"
               ]
             ],
             "unresolved_reasons": []
@@ -101039,16 +101043,14 @@
           "has_persisted_state": false,
           "node_id": "greymoor/greymoor-halfway-home-exterior#building-roof",
           "requirement": {
-            "raw": "can miss",
-            "mode": "expression",
+            "raw": "nothing",
+            "mode": "none",
             "dnf": [
-              [
-                "invalid"
-              ]
+              []
             ],
             "unresolved_reasons": []
           },
-          "notes": "when it comes to these craw the number you can fight is random and changes every time you load the save, additionally they despawn when completing the crawbug clearing wish",
+          "notes": "Random chance of appearing, 2 minimun\n\nThey will despawn once Crawbug clearing wish has been Granted ",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
@@ -101062,16 +101064,14 @@
           "has_persisted_state": false,
           "node_id": "greymoor/greymoor-halfway-home-exterior#building-roof",
           "requirement": {
-            "raw": "can miss",
-            "mode": "expression",
+            "raw": "nothing",
+            "mode": "none",
             "dnf": [
-              [
-                "invalid"
-              ]
+              []
             ],
             "unresolved_reasons": []
           },
-          "notes": "when it comes to these craw the number you can fight is random and changes every time you load the save, additionally they despawn when completing the crawbug clearing wish",
+          "notes": "Random chance of appearing, 2 minimun\n\nThey will despawn once Crawbug clearing wish has been Granted ",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
@@ -101085,16 +101085,14 @@
           "has_persisted_state": false,
           "node_id": "greymoor/greymoor-halfway-home-exterior#building-roof",
           "requirement": {
-            "raw": "can miss",
-            "mode": "expression",
+            "raw": "nothing",
+            "mode": "none",
             "dnf": [
-              [
-                "invalid"
-              ]
+              []
             ],
             "unresolved_reasons": []
           },
-          "notes": "when it comes to these craw the number you can fight is random and changes every time you load the save, additionally they despawn when completing the crawbug clearing wish",
+          "notes": "Random chance of appearing, 2 minimun\n\nThey will despawn once Crawbug clearing wish has been Granted ",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
@@ -101108,16 +101106,14 @@
           "has_persisted_state": false,
           "node_id": "greymoor/greymoor-halfway-home-exterior#building-roof",
           "requirement": {
-            "raw": "can miss",
-            "mode": "expression",
+            "raw": "nothing",
+            "mode": "none",
             "dnf": [
-              [
-                "invalid"
-              ]
+              []
             ],
             "unresolved_reasons": []
           },
-          "notes": "when it comes to these craw the number you can fight is random and changes every time you load the save, additionally they despawn when completing the crawbug clearing wish",
+          "notes": "Random chance of appearing, 2 minimun\n\nThey will despawn once Crawbug clearing wish has been Granted ",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
@@ -101131,16 +101127,14 @@
           "has_persisted_state": false,
           "node_id": "greymoor/greymoor-halfway-home-exterior#building-roof",
           "requirement": {
-            "raw": "can miss",
-            "mode": "expression",
+            "raw": "nothing",
+            "mode": "none",
             "dnf": [
-              [
-                "invalid"
-              ]
+              []
             ],
             "unresolved_reasons": []
           },
-          "notes": "when it comes to these craw the number you can fight is random and changes every time you load the save, additionally they despawn when completing the crawbug clearing wish",
+          "notes": "Random chance of appearing, 2 minimun\n\nThey will despawn once Crawbug clearing wish has been Granted ",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
@@ -103116,12 +103110,10 @@
           "has_persisted_state": false,
           "node_id": "greymoor/greymoor-silver-shells-room#hidden-area",
           "requirement": {
-            "raw": "prereq wooden wall",
-            "mode": "expression",
+            "raw": "nothing",
+            "mode": "none",
             "dnf": [
-              [
-                "dependency:location:greymoor/greymoor-silver-shells-room::blockade/wooden-wall"
-              ]
+              []
             ],
             "unresolved_reasons": []
           },
@@ -103139,12 +103131,10 @@
           "has_persisted_state": false,
           "node_id": "greymoor/greymoor-silver-shells-room#hidden-area",
           "requirement": {
-            "raw": "prereq wooden wall",
-            "mode": "expression",
+            "raw": "nothing",
+            "mode": "none",
             "dnf": [
-              [
-                "dependency:location:greymoor/greymoor-silver-shells-room::blockade/wooden-wall"
-              ]
+              []
             ],
             "unresolved_reasons": []
           },
@@ -103162,12 +103152,10 @@
           "has_persisted_state": false,
           "node_id": "greymoor/greymoor-silver-shells-room#hidden-area",
           "requirement": {
-            "raw": "prereq wooden wall",
-            "mode": "expression",
+            "raw": "nothing",
+            "mode": "none",
             "dnf": [
-              [
-                "dependency:location:greymoor/greymoor-silver-shells-room::blockade/wooden-wall"
-              ]
+              []
             ],
             "unresolved_reasons": []
           },
@@ -103185,12 +103173,10 @@
           "has_persisted_state": false,
           "node_id": "greymoor/greymoor-silver-shells-room#hidden-area",
           "requirement": {
-            "raw": "prereq wooden wall",
-            "mode": "expression",
+            "raw": "nothing",
+            "mode": "none",
             "dnf": [
-              [
-                "dependency:location:greymoor/greymoor-silver-shells-room::blockade/wooden-wall"
-              ]
+              []
             ],
             "unresolved_reasons": []
           },
@@ -103208,12 +103194,10 @@
           "has_persisted_state": false,
           "node_id": "greymoor/greymoor-silver-shells-room#hidden-area",
           "requirement": {
-            "raw": "prereq wooden wall",
-            "mode": "expression",
+            "raw": "nothing",
+            "mode": "none",
             "dnf": [
-              [
-                "dependency:location:greymoor/greymoor-silver-shells-room::blockade/wooden-wall"
-              ]
+              []
             ],
             "unresolved_reasons": []
           },
@@ -103229,13 +103213,16 @@
           "in_game_id": "plank_wall_cluster",
           "location_type": "blockade",
           "has_persisted_state": true,
-          "node_id": "greymoor/greymoor-silver-shells-room#hidden-area",
+          "node_id": "greymoor/greymoor-silver-shells-room#hidden-shaft-loower",
           "requirement": {
-            "raw": "break wall: left",
+            "raw": "break wall: left OR break wall up",
             "mode": "expression",
             "dnf": [
               [
                 "capability:break-wall:left"
+              ],
+              [
+                "capability:break-wall:up"
               ]
             ],
             "unresolved_reasons": []
@@ -112367,6 +112354,11 @@
           "id": "wisp-thicket/wisp-thicket-cave#silver-room",
           "name": "silver room",
           "notes": ""
+        },
+        {
+          "id": "wisp-thicket/wisp-thicket-cave#why-2-rooms-can-reach-this",
+          "name": "why 2 rooms can reach this",
+          "notes": ""
         }
       ],
       "transitions": [
@@ -112656,18 +112648,16 @@
           "unresolved_reasons": []
         },
         {
-          "id": "wisp-thicket/wisp-thicket-cave#middle-platform>lower-platform@vc1",
+          "id": "wisp-thicket/wisp-thicket-cave#middle-platform>why-2-rooms-can-reach-this@vc1",
           "alias": "VC1",
           "name": "vertical climb 1",
           "source_node_id": "wisp-thicket/wisp-thicket-cave#middle-platform",
-          "target_node_id": "wisp-thicket/wisp-thicket-cave#lower-platform",
+          "target_node_id": "wisp-thicket/wisp-thicket-cave#why-2-rooms-can-reach-this",
           "requirement": {
-            "raw": "clear stone wall low",
-            "mode": "expression",
+            "raw": "nothing",
+            "mode": "none",
             "dnf": [
-              [
-                "dependency:location:wisp-thicket/wisp-thicket-cave::blockade/stone-wall-low"
-              ]
+              []
             ],
             "unresolved_reasons": []
           },
@@ -112678,10 +112668,10 @@
           "unresolved_reasons": []
         },
         {
-          "id": "wisp-thicket/wisp-thicket-cave#lower-platform>middle-platform@vc1",
+          "id": "wisp-thicket/wisp-thicket-cave#why-2-rooms-can-reach-this>middle-platform@vc1",
           "alias": "VC1",
           "name": "vertical climb 1",
-          "source_node_id": "wisp-thicket/wisp-thicket-cave#lower-platform",
+          "source_node_id": "wisp-thicket/wisp-thicket-cave#why-2-rooms-can-reach-this",
           "target_node_id": "wisp-thicket/wisp-thicket-cave#middle-platform",
           "requirement": {
             "raw": "cling grip left",
@@ -112700,11 +112690,11 @@
           "unresolved_reasons": []
         },
         {
-          "id": "wisp-thicket/wisp-thicket-cave#right-section>lower-platform@vc2",
+          "id": "wisp-thicket/wisp-thicket-cave#right-section>why-2-rooms-can-reach-this@vc2",
           "alias": "VC2",
           "name": "vertical climb 2",
           "source_node_id": "wisp-thicket/wisp-thicket-cave#right-section",
-          "target_node_id": "wisp-thicket/wisp-thicket-cave#lower-platform",
+          "target_node_id": "wisp-thicket/wisp-thicket-cave#why-2-rooms-can-reach-this",
           "requirement": {
             "raw": "progressive swift step 1 left OR clawline left x 1 OR sharpdart x 1 OR drifters cloak OR spike pogo OR faydown cloak OR easy [hunter, beast, architect] pogo (if they are in a weird no spike run or something)",
             "mode": "expression",
@@ -112740,6 +112730,50 @@
             "unresolved_reasons": []
           },
           "notes": "\"1 way\" since you need cling grip to get out you end up in middle platform subroom so i wanto to avoid some redundancy since all it changes is the removval of progressive swift step 1 options",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "wisp-thicket/wisp-thicket-cave#why-2-rooms-can-reach-this>lower-platform@w",
+          "alias": "W",
+          "name": "wall",
+          "source_node_id": "wisp-thicket/wisp-thicket-cave#why-2-rooms-can-reach-this",
+          "target_node_id": "wisp-thicket/wisp-thicket-cave#lower-platform",
+          "requirement": {
+            "raw": "clear stone wall low",
+            "mode": "expression",
+            "dnf": [
+              [
+                "dependency:location:wisp-thicket/wisp-thicket-cave::blockade/stone-wall-low"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "wisp-thicket/wisp-thicket-cave#lower-platform>why-2-rooms-can-reach-this@w",
+          "alias": "W",
+          "name": "wall",
+          "source_node_id": "wisp-thicket/wisp-thicket-cave#lower-platform",
+          "target_node_id": "wisp-thicket/wisp-thicket-cave#why-2-rooms-can-reach-this",
+          "requirement": {
+            "raw": "clear stone wall low",
+            "mode": "expression",
+            "dnf": [
+              [
+                "dependency:location:wisp-thicket/wisp-thicket-cave::blockade/stone-wall-low"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
@@ -112900,7 +112934,7 @@
           "in_game_id": "Breakable Wall (1)",
           "location_type": "blockade",
           "has_persisted_state": true,
-          "node_id": "wisp-thicket/wisp-thicket-cave#silver-room",
+          "node_id": "wisp-thicket/wisp-thicket-cave#middle-platform",
           "requirement": {
             "raw": "break wall up OR break wall left",
             "mode": "expression",
@@ -112926,7 +112960,7 @@
           "in_game_id": "Breakable Wall",
           "location_type": "blockade",
           "has_persisted_state": true,
-          "node_id": "wisp-thicket/wisp-thicket-cave#lower-platform",
+          "node_id": "wisp-thicket/wisp-thicket-cave#why-2-rooms-can-reach-this",
           "requirement": {
             "raw": "break wall up OR break wall right",
             "mode": "expression",
@@ -112994,7 +113028,7 @@
           "in_game_id": "\"Blade Spider (1)\"[0]",
           "location_type": "enemy",
           "has_persisted_state": false,
-          "node_id": "wisp-thicket/wisp-thicket-cave#lower-platform",
+          "node_id": "wisp-thicket/wisp-thicket-cave#why-2-rooms-can-reach-this",
           "requirement": {
             "raw": "nada",
             "mode": "none",
@@ -157239,6 +157273,58 @@
           "is_verified": true,
           "logic_status": "active",
           "unresolved_reasons": []
+        },
+        {
+          "id": "choral-chambers/choral-chambers-flea-shaft#base-bottom>base-upper-left@bu",
+          "alias": "BU",
+          "name": "Bottom to upper left",
+          "source_node_id": "choral-chambers/choral-chambers-flea-shaft#base-bottom",
+          "target_node_id": "choral-chambers/choral-chambers-flea-shaft#base-upper-left",
+          "requirement": {
+            "raw": "silk soar OR  (hard pogo off Choir Flyer AND (ledge grab both OR easy scuttlebrace) AND hard damage boost off Choir Flyer)",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:silk-soar"
+              ],
+              [
+                "capability:enemy-type-pogo:Pilgrim 04 Song:hard",
+                "capability:ledge-grab:both",
+                "technique:damage-boost:Pilgrim 04 Song:hard"
+              ],
+              [
+                "capability:enemy-type-pogo:Pilgrim 04 Song:hard",
+                "capability:scuttlebrace:easy",
+                "technique:damage-boost:Pilgrim 04 Song:hard"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "choral-chambers/choral-chambers-flea-shaft#base-upper-left>base-bottom@bu",
+          "alias": "BU",
+          "name": "Bottom to upper left",
+          "source_node_id": "choral-chambers/choral-chambers-flea-shaft#base-upper-left",
+          "target_node_id": "choral-chambers/choral-chambers-flea-shaft#base-bottom",
+          "requirement": {
+            "raw": "none ",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "falling",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
         }
       ],
       "locations": [
@@ -158939,7 +159025,7 @@
         {
           "id": "location:choral-chambers/choral-chambers-over-dining::collectible/rosary-necklace-choral-chambers-2",
           "name": "Rosary Necklace - Choral Chambers #2",
-          "in_game_id": null,
+          "in_game_id": "Collectable Item Pickup",
           "location_type": "collectible",
           "has_persisted_state": true,
           "node_id": "choral-chambers/choral-chambers-over-dining#base",
@@ -159003,7 +159089,7 @@
         {
           "id": "location:choral-chambers/choral-chambers-over-dining::collectible/dining-hall-s-food-budget",
           "name": "Dining Hall's food budget",
-          "in_game_id": "Collectable Item Pickup",
+          "in_game_id": null,
           "location_type": "collectible",
           "has_persisted_state": true,
           "node_id": "choral-chambers/choral-chambers-over-dining#top",
@@ -212303,6 +212389,27 @@
           "unresolved_reasons": []
         },
         {
+          "id": "location:sands-of-karak/voltnest::lore/voltstone",
+          "name": "Voltstone",
+          "in_game_id": null,
+          "location_type": "lore",
+          "has_persisted_state": false,
+          "node_id": "sands-of-karak/voltnest#bottom",
+          "requirement": {
+            "raw": "None",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
           "id": "location:sands-of-karak/voltnest::enemy/boss-voltwyrm",
           "name": "Boss: Voltwyrm",
           "in_game_id": "Zap Core Enemy",
@@ -225577,21 +225684,21 @@
           "source_node_id": "mount-fay/mount-fay-entrance#ceiling-exits",
           "target": "mount-fay/mount-fay-right-side-middle-room@f1",
           "requirement": {
-            "raw": "( Cling Grip Left AND ( ( Clawline Right AND Clawline Left ) OR ( Faydown Cloak AND DRifters Cloak AND Dash Right ) OR ( Drifters Cloak AND Sharpdart AND ( Proficient Movement AND Spike Pogo ) AND Hard Heal Stall AND Hard Cocoon Skip ) ) AND Easy Pogo off driftlin ) OR Silk Soar",
+            "raw": "( Cling Grip Left AND ( ( Clawline Right AND Clawline Left ) OR ( Faydown Cloak AND Drifters Cloak AND Dash Right ) OR ( Drifters Cloak AND Sharpdart AND ( Proficient Movement AND Spike Pogo ) AND Hard Heal Stall AND Hard Cocoon Skip ) ) AND Intended Pogo off driftlin ) OR Silk Soar",
             "mode": "expression",
             "dnf": [
               [
                 "capability:cling-grip:left",
                 "capability:clawline:right:1",
                 "capability:clawline:left:1",
-                "capability:enemy-type-pogo:Peaks Drifter:easy"
+                "capability:enemy-type-pogo:Peaks Drifter:intended"
               ],
               [
                 "capability:cling-grip:left",
                 "capability:faydown-cloak",
                 "capability:drifters-cloak",
                 "capability:dash:right",
-                "capability:enemy-type-pogo:Peaks Drifter:easy"
+                "capability:enemy-type-pogo:Peaks Drifter:intended"
               ],
               [
                 "capability:cling-grip:left",
@@ -225601,7 +225708,7 @@
                 "capability:spike-pogo",
                 "capability:stall:heal:hard:1",
                 "capability:cocoon-skip:hard",
-                "capability:enemy-type-pogo:Peaks Drifter:easy"
+                "capability:enemy-type-pogo:Peaks Drifter:intended"
               ],
               [
                 "capability:silk-soar"
@@ -226003,7 +226110,7 @@
           "source_node_id": "mount-fay/mount-fay-entrance#lower-middle-left-exit",
           "target_node_id": "mount-fay/mount-fay-entrance#upper-middle-left-exit",
           "requirement": {
-            "raw": "Silk Soar OR ( ( Cling Grip Both AND ( Clawline Both OR ( Faydown Cloak AND Drifters Cloak ) OR ( Sharpdart AND Drifters Cloak AND Hard Cocoon Skip AND ( Sprint Both OR Have Tool Flintslate ) ) ) ) AND easy pogo off driftlin )",
+            "raw": "Silk Soar OR ( ( Cling Grip Both AND ( Clawline Both OR ( Faydown Cloak AND Drifters Cloak ) OR ( Sharpdart AND Drifters Cloak AND Hard Cocoon Skip AND ( Sprint Both OR Have Tool Flintslate ) ) ) ) AND Intended pogo off driftlin )",
             "mode": "expression",
             "dnf": [
               [
@@ -226012,13 +226119,13 @@
               [
                 "capability:cling-grip:both",
                 "capability:clawline:both:1",
-                "capability:enemy-type-pogo:Peaks Drifter:easy"
+                "capability:enemy-type-pogo:Peaks Drifter:intended"
               ],
               [
                 "capability:cling-grip:both",
                 "capability:faydown-cloak",
                 "capability:drifters-cloak",
-                "capability:enemy-type-pogo:Peaks Drifter:easy"
+                "capability:enemy-type-pogo:Peaks Drifter:intended"
               ],
               [
                 "capability:cling-grip:both",
@@ -226026,7 +226133,7 @@
                 "capability:drifters-cloak",
                 "capability:cocoon-skip:hard",
                 "capability:sprint:both",
-                "capability:enemy-type-pogo:Peaks Drifter:easy"
+                "capability:enemy-type-pogo:Peaks Drifter:intended"
               ],
               [
                 "capability:cling-grip:both",
@@ -226034,7 +226141,7 @@
                 "capability:drifters-cloak",
                 "capability:cocoon-skip:hard",
                 "item:tool-flintslate",
-                "capability:enemy-type-pogo:Peaks Drifter:easy"
+                "capability:enemy-type-pogo:Peaks Drifter:intended"
               ]
             ],
             "unresolved_reasons": []
@@ -226173,21 +226280,21 @@
           "source_node_id": "mount-fay/mount-fay-entrance#upper-left-exit",
           "target_node_id": "mount-fay/mount-fay-entrance#ceiling-exits",
           "requirement": {
-            "raw": "( Cling Grip Left AND ( ( Clawline Right AND Clawline Left ) OR ( Faydown Cloak AND DRifters Cloak AND Dash Right ) OR ( Drifters Cloak AND Sharpdart AND ( Proficient Movement AND Spike Pogo ) AND Hard Heal Stall AND Hard Cocoon Skip ) ) AND Easy Pogo off driftlin ) OR Silk Soar",
+            "raw": "( Cling Grip Left AND ( ( Clawline Right AND Clawline Left ) OR ( Faydown Cloak AND DRifters Cloak AND Dash Right ) OR ( Drifters Cloak AND Sharpdart AND ( Proficient Movement AND Spike Pogo ) AND Hard Heal Stall AND Hard Cocoon Skip ) ) AND Intended Pogo off driftlin ) OR Silk Soar",
             "mode": "expression",
             "dnf": [
               [
                 "capability:cling-grip:left",
                 "capability:clawline:right:1",
                 "capability:clawline:left:1",
-                "capability:enemy-type-pogo:Peaks Drifter:easy"
+                "capability:enemy-type-pogo:Peaks Drifter:intended"
               ],
               [
                 "capability:cling-grip:left",
                 "capability:faydown-cloak",
                 "capability:drifters-cloak",
                 "capability:dash:right",
-                "capability:enemy-type-pogo:Peaks Drifter:easy"
+                "capability:enemy-type-pogo:Peaks Drifter:intended"
               ],
               [
                 "capability:cling-grip:left",
@@ -226197,7 +226304,7 @@
                 "capability:spike-pogo",
                 "capability:stall:heal:hard:1",
                 "capability:cocoon-skip:hard",
-                "capability:enemy-type-pogo:Peaks Drifter:easy"
+                "capability:enemy-type-pogo:Peaks Drifter:intended"
               ],
               [
                 "capability:silk-soar"
@@ -226218,7 +226325,7 @@
           "source_node_id": "mount-fay/mount-fay-entrance#ceiling-exits",
           "target_node_id": "mount-fay/mount-fay-entrance#upper-left-exit",
           "requirement": {
-            "raw": "dash left OR Faydown Cloak OR Easy Hunter pogo OR ( ( ( ( Hard plasmium stall OR Hard Cross Stitch stall x 5 OR Hard Pale Nails Stall x 5) AND Ledge grab Left ) OR Easy Flea Brew Stall OR Easy VoltVessels Stall ) AND Easy pogo off driftlin ) OR Clawline left OR Drifters Cloak OR Easy Beast pogo OR Medium Architect pogo",
+            "raw": "dash left OR Faydown Cloak OR Easy Hunter pogo OR ( ( ( ( Hard plasmium stall OR Hard Cross Stitch stall x 5 OR Hard Pale Nails Stall x 5) AND Ledge grab Left ) OR Easy Flea Brew Stall OR Easy VoltVessels Stall ) AND Intended pogo off driftlin ) OR Clawline left OR Drifters Cloak OR Easy Beast pogo OR Medium Architect pogo",
             "mode": "expression",
             "dnf": [
               [
@@ -226233,25 +226340,25 @@
               [
                 "capability:stall:plasmium-phial:hard:1",
                 "capability:ledge-grab:left",
-                "capability:enemy-type-pogo:Peaks Drifter:easy"
+                "capability:enemy-type-pogo:Peaks Drifter:intended"
               ],
               [
                 "capability:stall:cross-stitch:hard:5",
                 "capability:ledge-grab:left",
-                "capability:enemy-type-pogo:Peaks Drifter:easy"
+                "capability:enemy-type-pogo:Peaks Drifter:intended"
               ],
               [
                 "capability:stall:pale-nails:hard:5",
                 "capability:ledge-grab:left",
-                "capability:enemy-type-pogo:Peaks Drifter:easy"
+                "capability:enemy-type-pogo:Peaks Drifter:intended"
               ],
               [
                 "capability:stall:flea-brew:easy:1",
-                "capability:enemy-type-pogo:Peaks Drifter:easy"
+                "capability:enemy-type-pogo:Peaks Drifter:intended"
               ],
               [
                 "capability:stall:voltvessels:easy:1",
-                "capability:enemy-type-pogo:Peaks Drifter:easy"
+                "capability:enemy-type-pogo:Peaks Drifter:intended"
               ],
               [
                 "capability:clawline:left:1"
@@ -226396,21 +226503,21 @@
           "has_persisted_state": false,
           "node_id": "mount-fay/mount-fay-entrance#upper-left-exit",
           "requirement": {
-            "raw": "( Cling Grip Left AND ( ( Clawline Right AND Clawline Left ) OR ( Faydown Cloak AND DRifters Cloak AND Dash Right ) OR ( Drifters Cloak AND Sharpdart AND ( Proficient Movement AND Spike Pogo ) AND Hard Heal Stall AND Hard Cocoon Skip ) ) AND Easy Pogo off driftlin ) OR Silk Soar",
+            "raw": "( Cling Grip Left AND ( ( Clawline Right AND Clawline Left ) OR ( Faydown Cloak AND DRifters Cloak AND Dash Right ) OR ( Drifters Cloak AND Sharpdart AND ( Proficient Movement AND Spike Pogo ) AND Hard Heal Stall AND Hard Cocoon Skip ) ) AND Intended Pogo off driftlin ) OR Silk Soar",
             "mode": "expression",
             "dnf": [
               [
                 "capability:cling-grip:left",
                 "capability:clawline:right:1",
                 "capability:clawline:left:1",
-                "capability:enemy-type-pogo:Peaks Drifter:easy"
+                "capability:enemy-type-pogo:Peaks Drifter:intended"
               ],
               [
                 "capability:cling-grip:left",
                 "capability:faydown-cloak",
                 "capability:drifters-cloak",
                 "capability:dash:right",
-                "capability:enemy-type-pogo:Peaks Drifter:easy"
+                "capability:enemy-type-pogo:Peaks Drifter:intended"
               ],
               [
                 "capability:cling-grip:left",
@@ -226420,7 +226527,7 @@
                 "capability:spike-pogo",
                 "capability:stall:heal:hard:1",
                 "capability:cocoon-skip:hard",
-                "capability:enemy-type-pogo:Peaks Drifter:easy"
+                "capability:enemy-type-pogo:Peaks Drifter:intended"
               ],
               [
                 "capability:silk-soar"
@@ -226442,21 +226549,21 @@
           "has_persisted_state": false,
           "node_id": "mount-fay/mount-fay-entrance#upper-left-exit",
           "requirement": {
-            "raw": "( Cling Grip Left AND ( ( Clawline Right AND Clawline Left ) OR ( Faydown Cloak AND DRifters Cloak AND Dash Right ) OR ( Drifters Cloak AND Sharpdart AND ( Proficient Movement AND Spike Pogo ) AND Hard Heal Stall AND Hard Cocoon Skip ) ) AND Easy Pogo off driftlin ) OR Silk Soar",
+            "raw": "( Cling Grip Left AND ( ( Clawline Right AND Clawline Left ) OR ( Faydown Cloak AND DRifters Cloak AND Dash Right ) OR ( Drifters Cloak AND Sharpdart AND ( Proficient Movement AND Spike Pogo ) AND Hard Heal Stall AND Hard Cocoon Skip ) ) AND Intended Pogo off driftlin ) OR Silk Soar",
             "mode": "expression",
             "dnf": [
               [
                 "capability:cling-grip:left",
                 "capability:clawline:right:1",
                 "capability:clawline:left:1",
-                "capability:enemy-type-pogo:Peaks Drifter:easy"
+                "capability:enemy-type-pogo:Peaks Drifter:intended"
               ],
               [
                 "capability:cling-grip:left",
                 "capability:faydown-cloak",
                 "capability:drifters-cloak",
                 "capability:dash:right",
-                "capability:enemy-type-pogo:Peaks Drifter:easy"
+                "capability:enemy-type-pogo:Peaks Drifter:intended"
               ],
               [
                 "capability:cling-grip:left",
@@ -226466,7 +226573,7 @@
                 "capability:spike-pogo",
                 "capability:stall:heal:hard:1",
                 "capability:cocoon-skip:hard",
-                "capability:enemy-type-pogo:Peaks Drifter:easy"
+                "capability:enemy-type-pogo:Peaks Drifter:intended"
               ],
               [
                 "capability:silk-soar"
@@ -226488,21 +226595,21 @@
           "has_persisted_state": false,
           "node_id": "mount-fay/mount-fay-entrance#upper-left-exit",
           "requirement": {
-            "raw": "( Cling Grip Left AND ( ( Clawline Right AND Clawline Left ) OR ( Faydown Cloak AND DRifters Cloak AND Dash Right ) OR ( Drifters Cloak AND Sharpdart AND ( Proficient Movement AND Spike Pogo ) AND Hard Heal Stall AND Hard Cocoon Skip ) ) AND Easy Pogo off driftlin ) OR Silk Soar",
+            "raw": "( Cling Grip Left AND ( ( Clawline Right AND Clawline Left ) OR ( Faydown Cloak AND DRifters Cloak AND Dash Right ) OR ( Drifters Cloak AND Sharpdart AND ( Proficient Movement AND Spike Pogo ) AND Hard Heal Stall AND Hard Cocoon Skip ) ) AND Intended Pogo off driftlin ) OR Silk Soar",
             "mode": "expression",
             "dnf": [
               [
                 "capability:cling-grip:left",
                 "capability:clawline:right:1",
                 "capability:clawline:left:1",
-                "capability:enemy-type-pogo:Peaks Drifter:easy"
+                "capability:enemy-type-pogo:Peaks Drifter:intended"
               ],
               [
                 "capability:cling-grip:left",
                 "capability:faydown-cloak",
                 "capability:drifters-cloak",
                 "capability:dash:right",
-                "capability:enemy-type-pogo:Peaks Drifter:easy"
+                "capability:enemy-type-pogo:Peaks Drifter:intended"
               ],
               [
                 "capability:cling-grip:left",
@@ -226512,7 +226619,7 @@
                 "capability:spike-pogo",
                 "capability:stall:heal:hard:1",
                 "capability:cocoon-skip:hard",
-                "capability:enemy-type-pogo:Peaks Drifter:easy"
+                "capability:enemy-type-pogo:Peaks Drifter:intended"
               ],
               [
                 "capability:silk-soar"
@@ -226534,7 +226641,7 @@
           "has_persisted_state": false,
           "node_id": "mount-fay/mount-fay-entrance#lower-middle-left-exit",
           "requirement": {
-            "raw": "Silk Soar OR ( ( Cling Grip Both AND ( Clawline Both OR ( Faydown Cloak AND Drifters Cloak ) OR ( Sharpdart AND Drifters Cloak AND Hard Cocoon Skip AND ( Sprint Both OR Have Tool Flintslate ) ) ) ) AND easy pogo off driftlin )",
+            "raw": "Silk Soar OR ( ( Cling Grip Both AND ( Clawline Both OR ( Faydown Cloak AND Drifters Cloak ) OR ( Sharpdart AND Drifters Cloak AND Hard Cocoon Skip AND ( Sprint Both OR Have Tool Flintslate ) ) ) ) AND Intended pogo off driftlin )",
             "mode": "expression",
             "dnf": [
               [
@@ -226543,13 +226650,13 @@
               [
                 "capability:cling-grip:both",
                 "capability:clawline:both:1",
-                "capability:enemy-type-pogo:Peaks Drifter:easy"
+                "capability:enemy-type-pogo:Peaks Drifter:intended"
               ],
               [
                 "capability:cling-grip:both",
                 "capability:faydown-cloak",
                 "capability:drifters-cloak",
-                "capability:enemy-type-pogo:Peaks Drifter:easy"
+                "capability:enemy-type-pogo:Peaks Drifter:intended"
               ],
               [
                 "capability:cling-grip:both",
@@ -226557,7 +226664,7 @@
                 "capability:drifters-cloak",
                 "capability:cocoon-skip:hard",
                 "capability:sprint:both",
-                "capability:enemy-type-pogo:Peaks Drifter:easy"
+                "capability:enemy-type-pogo:Peaks Drifter:intended"
               ],
               [
                 "capability:cling-grip:both",
@@ -226565,7 +226672,7 @@
                 "capability:drifters-cloak",
                 "capability:cocoon-skip:hard",
                 "item:tool-flintslate",
-                "capability:enemy-type-pogo:Peaks Drifter:easy"
+                "capability:enemy-type-pogo:Peaks Drifter:intended"
               ]
             ],
             "unresolved_reasons": []
@@ -226584,7 +226691,7 @@
           "has_persisted_state": false,
           "node_id": "mount-fay/mount-fay-entrance#lower-middle-left-exit",
           "requirement": {
-            "raw": "Silk Soar OR ( ( Cling Grip Both AND ( Clawline Both OR ( Faydown Cloak AND Drifters Cloak ) OR ( Sharpdart AND Drifters Cloak AND Hard Cocoon Skip AND ( Sprint Both OR Have Tool Flintslate ) ) ) ) AND easy pogo off driftlin )",
+            "raw": "Silk Soar OR ( ( Cling Grip Both AND ( Clawline Both OR ( Faydown Cloak AND Drifters Cloak ) OR ( Sharpdart AND Drifters Cloak AND Hard Cocoon Skip AND ( Sprint Both OR Have Tool Flintslate ) ) ) ) AND Intended pogo off driftlin )",
             "mode": "expression",
             "dnf": [
               [
@@ -226593,13 +226700,13 @@
               [
                 "capability:cling-grip:both",
                 "capability:clawline:both:1",
-                "capability:enemy-type-pogo:Peaks Drifter:easy"
+                "capability:enemy-type-pogo:Peaks Drifter:intended"
               ],
               [
                 "capability:cling-grip:both",
                 "capability:faydown-cloak",
                 "capability:drifters-cloak",
-                "capability:enemy-type-pogo:Peaks Drifter:easy"
+                "capability:enemy-type-pogo:Peaks Drifter:intended"
               ],
               [
                 "capability:cling-grip:both",
@@ -226607,7 +226714,7 @@
                 "capability:drifters-cloak",
                 "capability:cocoon-skip:hard",
                 "capability:sprint:both",
-                "capability:enemy-type-pogo:Peaks Drifter:easy"
+                "capability:enemy-type-pogo:Peaks Drifter:intended"
               ],
               [
                 "capability:cling-grip:both",
@@ -226615,7 +226722,7 @@
                 "capability:drifters-cloak",
                 "capability:cocoon-skip:hard",
                 "item:tool-flintslate",
-                "capability:enemy-type-pogo:Peaks Drifter:easy"
+                "capability:enemy-type-pogo:Peaks Drifter:intended"
               ]
             ],
             "unresolved_reasons": []
@@ -226634,7 +226741,7 @@
           "has_persisted_state": false,
           "node_id": "mount-fay/mount-fay-entrance#lower-middle-left-exit",
           "requirement": {
-            "raw": "Silk Soar OR ( ( Cling Grip Both AND ( Clawline Both OR ( Faydown Cloak AND Drifters Cloak ) OR ( Sharpdart AND Drifters Cloak AND Hard Cocoon Skip AND ( Sprint Both OR Have Tool Flintslate ) ) ) ) AND easy pogo off driftlin )",
+            "raw": "Silk Soar OR ( ( Cling Grip Both AND ( Clawline Both OR ( Faydown Cloak AND Drifters Cloak ) OR ( Sharpdart AND Drifters Cloak AND Hard Cocoon Skip AND ( Sprint Both OR Have Tool Flintslate ) ) ) ) AND Intended pogo off driftlin )",
             "mode": "expression",
             "dnf": [
               [
@@ -226643,13 +226750,13 @@
               [
                 "capability:cling-grip:both",
                 "capability:clawline:both:1",
-                "capability:enemy-type-pogo:Peaks Drifter:easy"
+                "capability:enemy-type-pogo:Peaks Drifter:intended"
               ],
               [
                 "capability:cling-grip:both",
                 "capability:faydown-cloak",
                 "capability:drifters-cloak",
-                "capability:enemy-type-pogo:Peaks Drifter:easy"
+                "capability:enemy-type-pogo:Peaks Drifter:intended"
               ],
               [
                 "capability:cling-grip:both",
@@ -226657,7 +226764,7 @@
                 "capability:drifters-cloak",
                 "capability:cocoon-skip:hard",
                 "capability:sprint:both",
-                "capability:enemy-type-pogo:Peaks Drifter:easy"
+                "capability:enemy-type-pogo:Peaks Drifter:intended"
               ],
               [
                 "capability:cling-grip:both",
@@ -226665,7 +226772,7 @@
                 "capability:drifters-cloak",
                 "capability:cocoon-skip:hard",
                 "item:tool-flintslate",
-                "capability:enemy-type-pogo:Peaks Drifter:easy"
+                "capability:enemy-type-pogo:Peaks Drifter:intended"
               ]
             ],
             "unresolved_reasons": []
@@ -226684,7 +226791,7 @@
           "has_persisted_state": false,
           "node_id": "mount-fay/mount-fay-entrance#lower-middle-left-exit",
           "requirement": {
-            "raw": "Silk Soar OR ( ( Cling Grip Both AND ( Clawline Both OR ( Faydown Cloak AND Drifters Cloak ) OR ( Sharpdart AND Drifters Cloak AND Hard Cocoon Skip AND ( Sprint Both OR Have Tool Flintslate ) ) ) ) AND easy pogo off driftlin )",
+            "raw": "Silk Soar OR ( ( Cling Grip Both AND ( Clawline Both OR ( Faydown Cloak AND Drifters Cloak ) OR ( Sharpdart AND Drifters Cloak AND Hard Cocoon Skip AND ( Sprint Both OR Have Tool Flintslate ) ) ) ) AND Intended pogo off driftlin )",
             "mode": "expression",
             "dnf": [
               [
@@ -226693,13 +226800,13 @@
               [
                 "capability:cling-grip:both",
                 "capability:clawline:both:1",
-                "capability:enemy-type-pogo:Peaks Drifter:easy"
+                "capability:enemy-type-pogo:Peaks Drifter:intended"
               ],
               [
                 "capability:cling-grip:both",
                 "capability:faydown-cloak",
                 "capability:drifters-cloak",
-                "capability:enemy-type-pogo:Peaks Drifter:easy"
+                "capability:enemy-type-pogo:Peaks Drifter:intended"
               ],
               [
                 "capability:cling-grip:both",
@@ -226707,7 +226814,7 @@
                 "capability:drifters-cloak",
                 "capability:cocoon-skip:hard",
                 "capability:sprint:both",
-                "capability:enemy-type-pogo:Peaks Drifter:easy"
+                "capability:enemy-type-pogo:Peaks Drifter:intended"
               ],
               [
                 "capability:cling-grip:both",
@@ -226715,7 +226822,7 @@
                 "capability:drifters-cloak",
                 "capability:cocoon-skip:hard",
                 "item:tool-flintslate",
-                "capability:enemy-type-pogo:Peaks Drifter:easy"
+                "capability:enemy-type-pogo:Peaks Drifter:intended"
               ]
             ],
             "unresolved_reasons": []
@@ -227776,13 +227883,13 @@
           "source_node_id": "mount-fay/mask-maker-passage#exit",
           "target_node_id": "mount-fay/mask-maker-passage#mask-maker-hut",
           "requirement": {
-            "raw": "Cling Grip Right AND Faydown Cloak AND ( Easy pogo off driftlin OR Proficient movement )",
+            "raw": "Cling Grip Right AND Faydown Cloak AND ( Intended pogo off driftlin OR Proficient movement )",
             "mode": "expression",
             "dnf": [
               [
                 "capability:cling-grip:right",
                 "capability:faydown-cloak",
-                "capability:enemy-type-pogo:Peaks Drifter:easy"
+                "capability:enemy-type-pogo:Peaks Drifter:intended"
               ],
               [
                 "capability:cling-grip:right",
@@ -228515,19 +228622,19 @@
           "source_node_id": "mount-fay/mount-fay-frozen-flea#upper-left",
           "target_node_id": "mount-fay/mount-fay-frozen-flea#right-exit",
           "requirement": {
-            "raw": "Clawline Both AND ( Cling Grip Both OR ( Faydown Cloak AND Ledge Grab Right ) ) AND Easy Pogo Off Mnemonid",
+            "raw": "Clawline Both AND ( Cling Grip Both OR ( Faydown Cloak AND Ledge Grab Right ) ) AND Intended Pogo Off Mnemonid",
             "mode": "expression",
             "dnf": [
               [
                 "capability:clawline:both:1",
                 "capability:cling-grip:both",
-                "capability:enemy-type-pogo:Crystal Drifter:easy"
+                "capability:enemy-type-pogo:Crystal Drifter:intended"
               ],
               [
                 "capability:clawline:both:1",
                 "capability:faydown-cloak",
                 "capability:ledge-grab:right",
-                "capability:enemy-type-pogo:Crystal Drifter:easy"
+                "capability:enemy-type-pogo:Crystal Drifter:intended"
               ]
             ],
             "unresolved_reasons": []
@@ -228804,28 +228911,28 @@
           "source_node_id": "mount-fay/mount-fay-ice-lake-platforming-room#left-ledge",
           "target_node_id": "mount-fay/mount-fay-ice-lake-platforming-room#right-ledge",
           "requirement": {
-            "raw": "( Clawline Left AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Left ) ) AND easy Pogo off mnemonid",
+            "raw": "( Clawline Left AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Left ) ) AND Intended Pogo off mnemonid",
             "mode": "expression",
             "dnf": [
               [
                 "capability:clawline:left:1",
                 "capability:swim",
-                "capability:enemy-type-pogo:Crystal Drifter:easy"
+                "capability:enemy-type-pogo:Crystal Drifter:intended"
               ],
               [
                 "capability:clawline:left:1",
                 "capability:faydown-cloak",
-                "capability:enemy-type-pogo:Crystal Drifter:easy"
+                "capability:enemy-type-pogo:Crystal Drifter:intended"
               ],
               [
                 "capability:clawline:left:1",
                 "capability:drifters-cloak",
-                "capability:enemy-type-pogo:Crystal Drifter:easy"
+                "capability:enemy-type-pogo:Crystal Drifter:intended"
               ],
               [
                 "capability:clawline:left:1",
                 "capability:cling-grip:left",
-                "capability:enemy-type-pogo:Crystal Drifter:easy"
+                "capability:enemy-type-pogo:Crystal Drifter:intended"
               ]
             ],
             "unresolved_reasons": []
@@ -228843,33 +228950,33 @@
           "source_node_id": "mount-fay/mount-fay-ice-lake-platforming-room#right-ledge",
           "target_node_id": "mount-fay/mount-fay-ice-lake-platforming-room#left-ledge",
           "requirement": {
-            "raw": "( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND easy Pogo OFF Mnemonid",
+            "raw": "( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND Intended Pogo OFF Mnemonid",
             "mode": "expression",
             "dnf": [
               [
                 "capability:clawline:right:1",
                 "capability:swim",
-                "capability:enemy-type-pogo:Crystal Drifter:easy"
+                "capability:enemy-type-pogo:Crystal Drifter:intended"
               ],
               [
                 "capability:clawline:right:1",
                 "capability:faydown-cloak",
-                "capability:enemy-type-pogo:Crystal Drifter:easy"
+                "capability:enemy-type-pogo:Crystal Drifter:intended"
               ],
               [
                 "capability:clawline:right:1",
                 "capability:drifters-cloak",
-                "capability:enemy-type-pogo:Crystal Drifter:easy"
+                "capability:enemy-type-pogo:Crystal Drifter:intended"
               ],
               [
                 "capability:clawline:right:1",
                 "capability:cling-grip:right",
-                "capability:enemy-type-pogo:Crystal Drifter:easy"
+                "capability:enemy-type-pogo:Crystal Drifter:intended"
               ]
             ],
             "unresolved_reasons": []
           },
-          "notes": "( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND easy Pogo off mnemonid",
+          "notes": "( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND Intended Pogo off mnemonid",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
@@ -228885,28 +228992,28 @@
           "has_persisted_state": false,
           "node_id": "mount-fay/mount-fay-ice-lake-platforming-room#right-ledge",
           "requirement": {
-            "raw": "( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND easy Pogo OFF Mnemonid",
+            "raw": "( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND Intended Pogo OFF Mnemonid",
             "mode": "expression",
             "dnf": [
               [
                 "capability:clawline:right:1",
                 "capability:swim",
-                "capability:enemy-type-pogo:Crystal Drifter:easy"
+                "capability:enemy-type-pogo:Crystal Drifter:intended"
               ],
               [
                 "capability:clawline:right:1",
                 "capability:faydown-cloak",
-                "capability:enemy-type-pogo:Crystal Drifter:easy"
+                "capability:enemy-type-pogo:Crystal Drifter:intended"
               ],
               [
                 "capability:clawline:right:1",
                 "capability:drifters-cloak",
-                "capability:enemy-type-pogo:Crystal Drifter:easy"
+                "capability:enemy-type-pogo:Crystal Drifter:intended"
               ],
               [
                 "capability:clawline:right:1",
                 "capability:cling-grip:right",
-                "capability:enemy-type-pogo:Crystal Drifter:easy"
+                "capability:enemy-type-pogo:Crystal Drifter:intended"
               ]
             ],
             "unresolved_reasons": []
@@ -228925,28 +229032,28 @@
           "has_persisted_state": false,
           "node_id": "mount-fay/mount-fay-ice-lake-platforming-room#right-ledge",
           "requirement": {
-            "raw": "( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND easy Pogo OFF Mnemonid",
+            "raw": "( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND Intended Pogo OFF Mnemonid",
             "mode": "expression",
             "dnf": [
               [
                 "capability:clawline:right:1",
                 "capability:swim",
-                "capability:enemy-type-pogo:Crystal Drifter:easy"
+                "capability:enemy-type-pogo:Crystal Drifter:intended"
               ],
               [
                 "capability:clawline:right:1",
                 "capability:faydown-cloak",
-                "capability:enemy-type-pogo:Crystal Drifter:easy"
+                "capability:enemy-type-pogo:Crystal Drifter:intended"
               ],
               [
                 "capability:clawline:right:1",
                 "capability:drifters-cloak",
-                "capability:enemy-type-pogo:Crystal Drifter:easy"
+                "capability:enemy-type-pogo:Crystal Drifter:intended"
               ],
               [
                 "capability:clawline:right:1",
                 "capability:cling-grip:right",
-                "capability:enemy-type-pogo:Crystal Drifter:easy"
+                "capability:enemy-type-pogo:Crystal Drifter:intended"
               ]
             ],
             "unresolved_reasons": []
@@ -228965,28 +229072,28 @@
           "has_persisted_state": false,
           "node_id": "mount-fay/mount-fay-ice-lake-platforming-room#right-ledge",
           "requirement": {
-            "raw": "( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND easy Pogo OFF Mnemonid",
+            "raw": "( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND Intended Pogo OFF Mnemonid",
             "mode": "expression",
             "dnf": [
               [
                 "capability:clawline:right:1",
                 "capability:swim",
-                "capability:enemy-type-pogo:Crystal Drifter:easy"
+                "capability:enemy-type-pogo:Crystal Drifter:intended"
               ],
               [
                 "capability:clawline:right:1",
                 "capability:faydown-cloak",
-                "capability:enemy-type-pogo:Crystal Drifter:easy"
+                "capability:enemy-type-pogo:Crystal Drifter:intended"
               ],
               [
                 "capability:clawline:right:1",
                 "capability:drifters-cloak",
-                "capability:enemy-type-pogo:Crystal Drifter:easy"
+                "capability:enemy-type-pogo:Crystal Drifter:intended"
               ],
               [
                 "capability:clawline:right:1",
                 "capability:cling-grip:right",
-                "capability:enemy-type-pogo:Crystal Drifter:easy"
+                "capability:enemy-type-pogo:Crystal Drifter:intended"
               ]
             ],
             "unresolved_reasons": []
@@ -229005,28 +229112,28 @@
           "has_persisted_state": false,
           "node_id": "mount-fay/mount-fay-ice-lake-platforming-room#right-ledge",
           "requirement": {
-            "raw": "( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND easy Pogo OFF Mnemonid",
+            "raw": "( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND Intended Pogo OFF Mnemonid",
             "mode": "expression",
             "dnf": [
               [
                 "capability:clawline:right:1",
                 "capability:swim",
-                "capability:enemy-type-pogo:Crystal Drifter:easy"
+                "capability:enemy-type-pogo:Crystal Drifter:intended"
               ],
               [
                 "capability:clawline:right:1",
                 "capability:faydown-cloak",
-                "capability:enemy-type-pogo:Crystal Drifter:easy"
+                "capability:enemy-type-pogo:Crystal Drifter:intended"
               ],
               [
                 "capability:clawline:right:1",
                 "capability:drifters-cloak",
-                "capability:enemy-type-pogo:Crystal Drifter:easy"
+                "capability:enemy-type-pogo:Crystal Drifter:intended"
               ],
               [
                 "capability:clawline:right:1",
                 "capability:cling-grip:right",
-                "capability:enemy-type-pogo:Crystal Drifter:easy"
+                "capability:enemy-type-pogo:Crystal Drifter:intended"
               ]
             ],
             "unresolved_reasons": []
@@ -229045,28 +229152,28 @@
           "has_persisted_state": false,
           "node_id": "mount-fay/mount-fay-ice-lake-platforming-room#right-ledge",
           "requirement": {
-            "raw": "( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND easy Pogo OFF Mnemonid",
+            "raw": "( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND Intended Pogo OFF Mnemonid",
             "mode": "expression",
             "dnf": [
               [
                 "capability:clawline:right:1",
                 "capability:swim",
-                "capability:enemy-type-pogo:Crystal Drifter:easy"
+                "capability:enemy-type-pogo:Crystal Drifter:intended"
               ],
               [
                 "capability:clawline:right:1",
                 "capability:faydown-cloak",
-                "capability:enemy-type-pogo:Crystal Drifter:easy"
+                "capability:enemy-type-pogo:Crystal Drifter:intended"
               ],
               [
                 "capability:clawline:right:1",
                 "capability:drifters-cloak",
-                "capability:enemy-type-pogo:Crystal Drifter:easy"
+                "capability:enemy-type-pogo:Crystal Drifter:intended"
               ],
               [
                 "capability:clawline:right:1",
                 "capability:cling-grip:right",
-                "capability:enemy-type-pogo:Crystal Drifter:easy"
+                "capability:enemy-type-pogo:Crystal Drifter:intended"
               ]
             ],
             "unresolved_reasons": []
@@ -229085,28 +229192,28 @@
           "has_persisted_state": false,
           "node_id": "mount-fay/mount-fay-ice-lake-platforming-room#right-ledge",
           "requirement": {
-            "raw": "( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND easy Pogo OFF Mnemonid",
+            "raw": "( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND Intended Pogo OFF Mnemonid",
             "mode": "expression",
             "dnf": [
               [
                 "capability:clawline:right:1",
                 "capability:swim",
-                "capability:enemy-type-pogo:Crystal Drifter:easy"
+                "capability:enemy-type-pogo:Crystal Drifter:intended"
               ],
               [
                 "capability:clawline:right:1",
                 "capability:faydown-cloak",
-                "capability:enemy-type-pogo:Crystal Drifter:easy"
+                "capability:enemy-type-pogo:Crystal Drifter:intended"
               ],
               [
                 "capability:clawline:right:1",
                 "capability:drifters-cloak",
-                "capability:enemy-type-pogo:Crystal Drifter:easy"
+                "capability:enemy-type-pogo:Crystal Drifter:intended"
               ],
               [
                 "capability:clawline:right:1",
                 "capability:cling-grip:right",
-                "capability:enemy-type-pogo:Crystal Drifter:easy"
+                "capability:enemy-type-pogo:Crystal Drifter:intended"
               ]
             ],
             "unresolved_reasons": []
@@ -229125,28 +229232,28 @@
           "has_persisted_state": false,
           "node_id": "mount-fay/mount-fay-ice-lake-platforming-room#left-ledge",
           "requirement": {
-            "raw": "( Clawline Left AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Left ) ) AND easy Pogo off mnemonid",
+            "raw": "( Clawline Left AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Left ) ) AND Intended Pogo off mnemonid",
             "mode": "expression",
             "dnf": [
               [
                 "capability:clawline:left:1",
                 "capability:swim",
-                "capability:enemy-type-pogo:Crystal Drifter:easy"
+                "capability:enemy-type-pogo:Crystal Drifter:intended"
               ],
               [
                 "capability:clawline:left:1",
                 "capability:faydown-cloak",
-                "capability:enemy-type-pogo:Crystal Drifter:easy"
+                "capability:enemy-type-pogo:Crystal Drifter:intended"
               ],
               [
                 "capability:clawline:left:1",
                 "capability:drifters-cloak",
-                "capability:enemy-type-pogo:Crystal Drifter:easy"
+                "capability:enemy-type-pogo:Crystal Drifter:intended"
               ],
               [
                 "capability:clawline:left:1",
                 "capability:cling-grip:left",
-                "capability:enemy-type-pogo:Crystal Drifter:easy"
+                "capability:enemy-type-pogo:Crystal Drifter:intended"
               ]
             ],
             "unresolved_reasons": []
@@ -229861,7 +229968,7 @@
           "source_node_id": "mount-fay/mount-fay-magnetite-outcropping#right-exit",
           "target_node_id": "mount-fay/mount-fay-magnetite-outcropping#left-exit",
           "requirement": {
-            "raw": "Swim OR ( ( Sprint Left OR Clawline Left OR Faydown Cloak OR ( Drifters Cloak AND Dash Left ) OR Sharpdart ) AND Easy Pogo off mnemonid )",
+            "raw": "Swim OR ( ( Sprint Left OR Clawline Left OR Faydown Cloak OR ( Drifters Cloak AND Dash Left ) OR Sharpdart ) AND Intended Pogo off mnemonid )",
             "mode": "expression",
             "dnf": [
               [
@@ -229869,24 +229976,24 @@
               ],
               [
                 "capability:sprint:left",
-                "capability:enemy-type-pogo:Crystal Drifter:easy"
+                "capability:enemy-type-pogo:Crystal Drifter:intended"
               ],
               [
                 "capability:clawline:left:1",
-                "capability:enemy-type-pogo:Crystal Drifter:easy"
+                "capability:enemy-type-pogo:Crystal Drifter:intended"
               ],
               [
                 "capability:faydown-cloak",
-                "capability:enemy-type-pogo:Crystal Drifter:easy"
+                "capability:enemy-type-pogo:Crystal Drifter:intended"
               ],
               [
                 "capability:drifters-cloak",
                 "capability:dash:left",
-                "capability:enemy-type-pogo:Crystal Drifter:easy"
+                "capability:enemy-type-pogo:Crystal Drifter:intended"
               ],
               [
                 "capability:sharpdart:1",
-                "capability:enemy-type-pogo:Crystal Drifter:easy"
+                "capability:enemy-type-pogo:Crystal Drifter:intended"
               ]
             ],
             "unresolved_reasons": []
@@ -229904,7 +230011,7 @@
           "source_node_id": "mount-fay/mount-fay-magnetite-outcropping#left-exit",
           "target_node_id": "mount-fay/mount-fay-magnetite-outcropping#right-exit",
           "requirement": {
-            "raw": "Swim OR ( ( Sprint Right OR Clawline Right OR Faydown Cloak OR ( Drifters Cloak AND Dash Right ) OR Sharpdart )  AND Easy Pogo off mnemonid )",
+            "raw": "Swim OR ( ( Sprint Right OR Clawline Right OR Faydown Cloak OR ( Drifters Cloak AND Dash Right ) OR Sharpdart )  AND Intended Pogo off mnemonid )",
             "mode": "expression",
             "dnf": [
               [
@@ -229912,24 +230019,24 @@
               ],
               [
                 "capability:sprint:right",
-                "capability:enemy-type-pogo:Crystal Drifter:easy"
+                "capability:enemy-type-pogo:Crystal Drifter:intended"
               ],
               [
                 "capability:clawline:right:1",
-                "capability:enemy-type-pogo:Crystal Drifter:easy"
+                "capability:enemy-type-pogo:Crystal Drifter:intended"
               ],
               [
                 "capability:faydown-cloak",
-                "capability:enemy-type-pogo:Crystal Drifter:easy"
+                "capability:enemy-type-pogo:Crystal Drifter:intended"
               ],
               [
                 "capability:drifters-cloak",
                 "capability:dash:right",
-                "capability:enemy-type-pogo:Crystal Drifter:easy"
+                "capability:enemy-type-pogo:Crystal Drifter:intended"
               ],
               [
                 "capability:sharpdart:1",
-                "capability:enemy-type-pogo:Crystal Drifter:easy"
+                "capability:enemy-type-pogo:Crystal Drifter:intended"
               ]
             ],
             "unresolved_reasons": []
@@ -229947,28 +230054,28 @@
           "source_node_id": "mount-fay/mount-fay-magnetite-outcropping#brightvein",
           "target_node_id": "mount-fay/mount-fay-magnetite-outcropping#left-exit",
           "requirement": {
-            "raw": "( ( Drifters Cloak OR Dash Left OR Clawline Left OR Faydown Cloak OR Sharpdart ) AND Easy Pogo off mnemonid ) OR Swim",
+            "raw": "( ( Drifters Cloak OR Dash Left OR Clawline Left OR Faydown Cloak OR Sharpdart ) AND Intended Pogo off mnemonid ) OR Swim",
             "mode": "expression",
             "dnf": [
               [
                 "capability:drifters-cloak",
-                "capability:enemy-type-pogo:Crystal Drifter:easy"
+                "capability:enemy-type-pogo:Crystal Drifter:intended"
               ],
               [
                 "capability:dash:left",
-                "capability:enemy-type-pogo:Crystal Drifter:easy"
+                "capability:enemy-type-pogo:Crystal Drifter:intended"
               ],
               [
                 "capability:clawline:left:1",
-                "capability:enemy-type-pogo:Crystal Drifter:easy"
+                "capability:enemy-type-pogo:Crystal Drifter:intended"
               ],
               [
                 "capability:faydown-cloak",
-                "capability:enemy-type-pogo:Crystal Drifter:easy"
+                "capability:enemy-type-pogo:Crystal Drifter:intended"
               ],
               [
                 "capability:sharpdart:1",
-                "capability:enemy-type-pogo:Crystal Drifter:easy"
+                "capability:enemy-type-pogo:Crystal Drifter:intended"
               ],
               [
                 "capability:swim"
@@ -229989,7 +230096,7 @@
           "source_node_id": "mount-fay/mount-fay-magnetite-outcropping#left-exit",
           "target_node_id": "mount-fay/mount-fay-magnetite-outcropping#brightvein",
           "requirement": {
-            "raw": "Silk Soar AND ( Swim OR ( ( Clawline Right OR Faydown Cloak OR ( Dash Right AND Drifters Cloak ) ) AND Easy Pogo off mnemonid ) )",
+            "raw": "Silk Soar AND ( Swim OR ( ( Clawline Right OR Faydown Cloak OR ( Dash Right AND Drifters Cloak ) ) AND Intended Pogo off mnemonid ) )",
             "mode": "expression",
             "dnf": [
               [
@@ -229999,18 +230106,18 @@
               [
                 "capability:silk-soar",
                 "capability:clawline:right:1",
-                "capability:enemy-type-pogo:Crystal Drifter:easy"
+                "capability:enemy-type-pogo:Crystal Drifter:intended"
               ],
               [
                 "capability:silk-soar",
                 "capability:faydown-cloak",
-                "capability:enemy-type-pogo:Crystal Drifter:easy"
+                "capability:enemy-type-pogo:Crystal Drifter:intended"
               ],
               [
                 "capability:silk-soar",
                 "capability:dash:right",
                 "capability:drifters-cloak",
-                "capability:enemy-type-pogo:Crystal Drifter:easy"
+                "capability:enemy-type-pogo:Crystal Drifter:intended"
               ]
             ],
             "unresolved_reasons": []
@@ -230028,7 +230135,7 @@
           "source_node_id": "mount-fay/mount-fay-magnetite-outcropping#right-exit",
           "target_node_id": "mount-fay/mount-fay-magnetite-outcropping#brightvein",
           "requirement": {
-            "raw": "Silk Soar AND ( Swim OR ( ( Clawline Left OR Faydown Cloak OR ( Dash Left AND Drifters Cloak ) ) AND Easy Pogo off mnemonid ) )",
+            "raw": "Silk Soar AND ( Swim OR ( ( Clawline Left OR Faydown Cloak OR ( Dash Left AND Drifters Cloak ) ) AND Intended Pogo off mnemonid ) )",
             "mode": "expression",
             "dnf": [
               [
@@ -230038,18 +230145,18 @@
               [
                 "capability:silk-soar",
                 "capability:clawline:left:1",
-                "capability:enemy-type-pogo:Crystal Drifter:easy"
+                "capability:enemy-type-pogo:Crystal Drifter:intended"
               ],
               [
                 "capability:silk-soar",
                 "capability:faydown-cloak",
-                "capability:enemy-type-pogo:Crystal Drifter:easy"
+                "capability:enemy-type-pogo:Crystal Drifter:intended"
               ],
               [
                 "capability:silk-soar",
                 "capability:dash:left",
                 "capability:drifters-cloak",
-                "capability:enemy-type-pogo:Crystal Drifter:easy"
+                "capability:enemy-type-pogo:Crystal Drifter:intended"
               ]
             ],
             "unresolved_reasons": []
@@ -230067,28 +230174,28 @@
           "source_node_id": "mount-fay/mount-fay-magnetite-outcropping#brightvein",
           "target_node_id": "mount-fay/mount-fay-magnetite-outcropping#right-exit",
           "requirement": {
-            "raw": "( (Drifters Cloak OR Dash Right OR Clawline Right OR Faydown Cloak OR Sharpdart)  AND Easy Pogo off mnemonid ) OR Swim ",
+            "raw": "( (Drifters Cloak OR Dash Right OR Clawline Right OR Faydown Cloak OR Sharpdart)  AND Intended Pogo off mnemonid ) OR Swim ",
             "mode": "expression",
             "dnf": [
               [
                 "capability:drifters-cloak",
-                "capability:enemy-type-pogo:Crystal Drifter:easy"
+                "capability:enemy-type-pogo:Crystal Drifter:intended"
               ],
               [
                 "capability:dash:right",
-                "capability:enemy-type-pogo:Crystal Drifter:easy"
+                "capability:enemy-type-pogo:Crystal Drifter:intended"
               ],
               [
                 "capability:clawline:right:1",
-                "capability:enemy-type-pogo:Crystal Drifter:easy"
+                "capability:enemy-type-pogo:Crystal Drifter:intended"
               ],
               [
                 "capability:faydown-cloak",
-                "capability:enemy-type-pogo:Crystal Drifter:easy"
+                "capability:enemy-type-pogo:Crystal Drifter:intended"
               ],
               [
                 "capability:sharpdart:1",
-                "capability:enemy-type-pogo:Crystal Drifter:easy"
+                "capability:enemy-type-pogo:Crystal Drifter:intended"
               ],
               [
                 "capability:swim"
@@ -230596,7 +230703,7 @@
           "source_node_id": "mount-fay/mount-fay-right-side-middle-room#bottom",
           "target_node_id": "mount-fay/mount-fay-right-side-middle-room#pinstress-arena",
           "requirement": {
-            "raw": "Silk Soar OR ( ( Cling Grip Both OR ( Cling Grip Left AND Spike Pogo ) ) AND ( ( Faydown Cloak AND easy pogo off driftlin AND Spike Pogo ) OR ( Clawline Both AND Easy pogo off driftlin ) OR ( Hard Reaper crest Pogo AND Dash Both AND Sprint Both AND Drifters Cloak AND Hard Flea Brew Stall AND Hard Heal Stall ) ) ) ",
+            "raw": "Silk Soar OR ( ( Cling Grip Both OR ( Cling Grip Left AND Spike Pogo ) ) AND ( ( Faydown Cloak AND Intended pogo off driftlin AND Spike Pogo ) OR ( Clawline Both AND Intended pogo off driftlin ) OR ( Hard Reaper crest Pogo AND Dash Both AND Sprint Both AND Drifters Cloak AND Hard Flea Brew Stall AND Hard Heal Stall ) ) ) ",
             "mode": "expression",
             "dnf": [
               [
@@ -230605,13 +230712,13 @@
               [
                 "capability:cling-grip:both",
                 "capability:faydown-cloak",
-                "capability:enemy-type-pogo:Peaks Drifter:easy",
+                "capability:enemy-type-pogo:Peaks Drifter:intended",
                 "capability:spike-pogo"
               ],
               [
                 "capability:cling-grip:both",
                 "capability:clawline:both:1",
-                "capability:enemy-type-pogo:Peaks Drifter:easy"
+                "capability:enemy-type-pogo:Peaks Drifter:intended"
               ],
               [
                 "capability:cling-grip:both",
@@ -230626,14 +230733,14 @@
                 "capability:cling-grip:left",
                 "capability:spike-pogo",
                 "capability:faydown-cloak",
-                "capability:enemy-type-pogo:Peaks Drifter:easy",
+                "capability:enemy-type-pogo:Peaks Drifter:intended",
                 "capability:spike-pogo"
               ],
               [
                 "capability:cling-grip:left",
                 "capability:spike-pogo",
                 "capability:clawline:both:1",
-                "capability:enemy-type-pogo:Peaks Drifter:easy"
+                "capability:enemy-type-pogo:Peaks Drifter:intended"
               ],
               [
                 "capability:cling-grip:left",
@@ -232051,24 +232158,24 @@
           "source_node_id": "mount-fay/mount-fay-upper-slope#mask-maker-path",
           "target": "mount-fay/mask-maker-passage@f",
           "requirement": {
-            "raw": "( Cling Grip Left OR Scuttlebrace OR Faydown Cloak OR Silk Soar ) AND Easy pogo off driftlin",
+            "raw": "( Cling Grip Left OR Scuttlebrace OR Faydown Cloak OR Silk Soar ) AND Intended pogo off driftlin",
             "mode": "expression",
             "dnf": [
               [
                 "capability:cling-grip:left",
-                "capability:enemy-type-pogo:Peaks Drifter:easy"
+                "capability:enemy-type-pogo:Peaks Drifter:intended"
               ],
               [
                 "capability:scuttlebrace:none",
-                "capability:enemy-type-pogo:Peaks Drifter:easy"
+                "capability:enemy-type-pogo:Peaks Drifter:intended"
               ],
               [
                 "capability:faydown-cloak",
-                "capability:enemy-type-pogo:Peaks Drifter:easy"
+                "capability:enemy-type-pogo:Peaks Drifter:intended"
               ],
               [
                 "capability:silk-soar",
-                "capability:enemy-type-pogo:Peaks Drifter:easy"
+                "capability:enemy-type-pogo:Peaks Drifter:intended"
               ]
             ],
             "unresolved_reasons": []
@@ -236139,7 +236246,7 @@
           "source_node_id": "putrified-ducts/putrified-ducts-entrance#centre-platform",
           "target_node_id": "putrified-ducts/putrified-ducts-entrance#shell-shards-bridge",
           "requirement": {
-            "raw": "Faydown Cloak OR ( ( Swim OR Easy Voltvessels stall OR Medium Flea Brew Stall OR ( Ledge Grab Right AND ( easy Flintslate Stall OR Medium Cross stitch stall OR Hard Pale Nails Stall ) ) OR Easy Plasmium Stall OR Easy beast pogo OR ( Easy Reaper pogo AND Easy Flintslate stall ) OR ( Easy Architect pogo AND Architect attack Right ) OR Dash Right OR Drifters cloak OR Clawline Right OR Sharpdart ) AND ( cling grip right OR Medium Scuttlebrace OR ( easy pogo off barnak AND ( Ledge grab left OR Dash Left OR Clawline Left OR Drifters Cloak OR Sharpdart OR Hard hunter pogo OR Medium Flintslate stall OR Easy voltvessels stall OR Easy Beast Pogo OR Easy Plasmium stall OR Easy flea brew stall OR architect attack left OR Easy Architect pogo OR Easy shaman pogo ) ) ) )",
+            "raw": "Faydown Cloak OR ( ( Swim OR Easy Voltvessels stall OR Medium Flea Brew Stall OR ( Ledge Grab Right AND ( easy Flintslate Stall OR Medium Cross stitch stall OR Hard Pale Nails Stall ) ) OR Easy Plasmium Stall OR Easy beast pogo OR ( Easy Reaper pogo AND Easy Flintslate stall ) OR ( Easy Architect pogo AND Architect attack Right ) OR Dash Right OR Drifters cloak OR Clawline Right OR Sharpdart ) AND ( cling grip right OR Medium Scuttlebrace OR ( Intended pogo off barnak AND ( Ledge grab left OR Dash Left OR Clawline Left OR Drifters Cloak OR Sharpdart OR Hard hunter pogo OR Medium Flintslate stall OR Easy voltvessels stall OR Easy Beast Pogo OR Easy Plasmium stall OR Easy flea brew stall OR architect attack left OR Easy Architect pogo OR Easy shaman pogo ) ) ) )",
             "mode": "expression",
             "dnf": [
               [
@@ -236155,72 +236262,72 @@
               ],
               [
                 "capability:swim",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:ledge-grab:left"
               ],
               [
                 "capability:swim",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:dash:left"
               ],
               [
                 "capability:swim",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:clawline:left:1"
               ],
               [
                 "capability:swim",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:drifters-cloak"
               ],
               [
                 "capability:swim",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:sharpdart:1"
               ],
               [
                 "capability:swim",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:crest-pogo:hunter:hard"
               ],
               [
                 "capability:swim",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:stall:flintslate:medium:1"
               ],
               [
                 "capability:swim",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:stall:voltvessels:easy:1"
               ],
               [
                 "capability:swim",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:crest-pogo:beast:easy"
               ],
               [
                 "capability:swim",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:stall:plasmium-phial:easy:1"
               ],
               [
                 "capability:swim",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:stall:flea-brew:easy:1"
               ],
               [
                 "capability:swim",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:needle:architect:left"
               ],
               [
                 "capability:swim",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:crest-pogo:architect:easy"
               ],
               [
                 "capability:swim",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:crest-pogo:shaman:easy"
               ],
               [
@@ -236233,72 +236340,72 @@
               ],
               [
                 "capability:stall:voltvessels:easy:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:ledge-grab:left"
               ],
               [
                 "capability:stall:voltvessels:easy:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:dash:left"
               ],
               [
                 "capability:stall:voltvessels:easy:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:clawline:left:1"
               ],
               [
                 "capability:stall:voltvessels:easy:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:drifters-cloak"
               ],
               [
                 "capability:stall:voltvessels:easy:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:sharpdart:1"
               ],
               [
                 "capability:stall:voltvessels:easy:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:crest-pogo:hunter:hard"
               ],
               [
                 "capability:stall:voltvessels:easy:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:stall:flintslate:medium:1"
               ],
               [
                 "capability:stall:voltvessels:easy:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:stall:voltvessels:easy:1"
               ],
               [
                 "capability:stall:voltvessels:easy:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:crest-pogo:beast:easy"
               ],
               [
                 "capability:stall:voltvessels:easy:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:stall:plasmium-phial:easy:1"
               ],
               [
                 "capability:stall:voltvessels:easy:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:stall:flea-brew:easy:1"
               ],
               [
                 "capability:stall:voltvessels:easy:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:needle:architect:left"
               ],
               [
                 "capability:stall:voltvessels:easy:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:crest-pogo:architect:easy"
               ],
               [
                 "capability:stall:voltvessels:easy:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:crest-pogo:shaman:easy"
               ],
               [
@@ -236311,72 +236418,72 @@
               ],
               [
                 "capability:stall:flea-brew:medium:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:ledge-grab:left"
               ],
               [
                 "capability:stall:flea-brew:medium:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:dash:left"
               ],
               [
                 "capability:stall:flea-brew:medium:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:clawline:left:1"
               ],
               [
                 "capability:stall:flea-brew:medium:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:drifters-cloak"
               ],
               [
                 "capability:stall:flea-brew:medium:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:sharpdart:1"
               ],
               [
                 "capability:stall:flea-brew:medium:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:crest-pogo:hunter:hard"
               ],
               [
                 "capability:stall:flea-brew:medium:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:stall:flintslate:medium:1"
               ],
               [
                 "capability:stall:flea-brew:medium:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:stall:voltvessels:easy:1"
               ],
               [
                 "capability:stall:flea-brew:medium:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:crest-pogo:beast:easy"
               ],
               [
                 "capability:stall:flea-brew:medium:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:stall:plasmium-phial:easy:1"
               ],
               [
                 "capability:stall:flea-brew:medium:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:stall:flea-brew:easy:1"
               ],
               [
                 "capability:stall:flea-brew:medium:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:needle:architect:left"
               ],
               [
                 "capability:stall:flea-brew:medium:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:crest-pogo:architect:easy"
               ],
               [
                 "capability:stall:flea-brew:medium:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:crest-pogo:shaman:easy"
               ],
               [
@@ -236392,85 +236499,85 @@
               [
                 "capability:ledge-grab:right",
                 "capability:stall:flintslate:easy:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:ledge-grab:left"
               ],
               [
                 "capability:ledge-grab:right",
                 "capability:stall:flintslate:easy:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:dash:left"
               ],
               [
                 "capability:ledge-grab:right",
                 "capability:stall:flintslate:easy:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:clawline:left:1"
               ],
               [
                 "capability:ledge-grab:right",
                 "capability:stall:flintslate:easy:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:drifters-cloak"
               ],
               [
                 "capability:ledge-grab:right",
                 "capability:stall:flintslate:easy:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:sharpdart:1"
               ],
               [
                 "capability:ledge-grab:right",
                 "capability:stall:flintslate:easy:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:crest-pogo:hunter:hard"
               ],
               [
                 "capability:ledge-grab:right",
                 "capability:stall:flintslate:easy:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:stall:flintslate:medium:1"
               ],
               [
                 "capability:ledge-grab:right",
                 "capability:stall:flintslate:easy:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:stall:voltvessels:easy:1"
               ],
               [
                 "capability:ledge-grab:right",
                 "capability:stall:flintslate:easy:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:crest-pogo:beast:easy"
               ],
               [
                 "capability:ledge-grab:right",
                 "capability:stall:flintslate:easy:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:stall:plasmium-phial:easy:1"
               ],
               [
                 "capability:ledge-grab:right",
                 "capability:stall:flintslate:easy:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:stall:flea-brew:easy:1"
               ],
               [
                 "capability:ledge-grab:right",
                 "capability:stall:flintslate:easy:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:needle:architect:left"
               ],
               [
                 "capability:ledge-grab:right",
                 "capability:stall:flintslate:easy:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:crest-pogo:architect:easy"
               ],
               [
                 "capability:ledge-grab:right",
                 "capability:stall:flintslate:easy:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:crest-pogo:shaman:easy"
               ],
               [
@@ -236486,85 +236593,85 @@
               [
                 "capability:ledge-grab:right",
                 "capability:stall:cross-stitch:medium:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:ledge-grab:left"
               ],
               [
                 "capability:ledge-grab:right",
                 "capability:stall:cross-stitch:medium:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:dash:left"
               ],
               [
                 "capability:ledge-grab:right",
                 "capability:stall:cross-stitch:medium:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:clawline:left:1"
               ],
               [
                 "capability:ledge-grab:right",
                 "capability:stall:cross-stitch:medium:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:drifters-cloak"
               ],
               [
                 "capability:ledge-grab:right",
                 "capability:stall:cross-stitch:medium:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:sharpdart:1"
               ],
               [
                 "capability:ledge-grab:right",
                 "capability:stall:cross-stitch:medium:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:crest-pogo:hunter:hard"
               ],
               [
                 "capability:ledge-grab:right",
                 "capability:stall:cross-stitch:medium:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:stall:flintslate:medium:1"
               ],
               [
                 "capability:ledge-grab:right",
                 "capability:stall:cross-stitch:medium:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:stall:voltvessels:easy:1"
               ],
               [
                 "capability:ledge-grab:right",
                 "capability:stall:cross-stitch:medium:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:crest-pogo:beast:easy"
               ],
               [
                 "capability:ledge-grab:right",
                 "capability:stall:cross-stitch:medium:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:stall:plasmium-phial:easy:1"
               ],
               [
                 "capability:ledge-grab:right",
                 "capability:stall:cross-stitch:medium:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:stall:flea-brew:easy:1"
               ],
               [
                 "capability:ledge-grab:right",
                 "capability:stall:cross-stitch:medium:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:needle:architect:left"
               ],
               [
                 "capability:ledge-grab:right",
                 "capability:stall:cross-stitch:medium:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:crest-pogo:architect:easy"
               ],
               [
                 "capability:ledge-grab:right",
                 "capability:stall:cross-stitch:medium:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:crest-pogo:shaman:easy"
               ],
               [
@@ -236580,85 +236687,85 @@
               [
                 "capability:ledge-grab:right",
                 "capability:stall:pale-nails:hard:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:ledge-grab:left"
               ],
               [
                 "capability:ledge-grab:right",
                 "capability:stall:pale-nails:hard:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:dash:left"
               ],
               [
                 "capability:ledge-grab:right",
                 "capability:stall:pale-nails:hard:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:clawline:left:1"
               ],
               [
                 "capability:ledge-grab:right",
                 "capability:stall:pale-nails:hard:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:drifters-cloak"
               ],
               [
                 "capability:ledge-grab:right",
                 "capability:stall:pale-nails:hard:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:sharpdart:1"
               ],
               [
                 "capability:ledge-grab:right",
                 "capability:stall:pale-nails:hard:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:crest-pogo:hunter:hard"
               ],
               [
                 "capability:ledge-grab:right",
                 "capability:stall:pale-nails:hard:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:stall:flintslate:medium:1"
               ],
               [
                 "capability:ledge-grab:right",
                 "capability:stall:pale-nails:hard:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:stall:voltvessels:easy:1"
               ],
               [
                 "capability:ledge-grab:right",
                 "capability:stall:pale-nails:hard:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:crest-pogo:beast:easy"
               ],
               [
                 "capability:ledge-grab:right",
                 "capability:stall:pale-nails:hard:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:stall:plasmium-phial:easy:1"
               ],
               [
                 "capability:ledge-grab:right",
                 "capability:stall:pale-nails:hard:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:stall:flea-brew:easy:1"
               ],
               [
                 "capability:ledge-grab:right",
                 "capability:stall:pale-nails:hard:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:needle:architect:left"
               ],
               [
                 "capability:ledge-grab:right",
                 "capability:stall:pale-nails:hard:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:crest-pogo:architect:easy"
               ],
               [
                 "capability:ledge-grab:right",
                 "capability:stall:pale-nails:hard:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:crest-pogo:shaman:easy"
               ],
               [
@@ -236671,72 +236778,72 @@
               ],
               [
                 "capability:stall:plasmium-phial:easy:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:ledge-grab:left"
               ],
               [
                 "capability:stall:plasmium-phial:easy:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:dash:left"
               ],
               [
                 "capability:stall:plasmium-phial:easy:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:clawline:left:1"
               ],
               [
                 "capability:stall:plasmium-phial:easy:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:drifters-cloak"
               ],
               [
                 "capability:stall:plasmium-phial:easy:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:sharpdart:1"
               ],
               [
                 "capability:stall:plasmium-phial:easy:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:crest-pogo:hunter:hard"
               ],
               [
                 "capability:stall:plasmium-phial:easy:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:stall:flintslate:medium:1"
               ],
               [
                 "capability:stall:plasmium-phial:easy:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:stall:voltvessels:easy:1"
               ],
               [
                 "capability:stall:plasmium-phial:easy:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:crest-pogo:beast:easy"
               ],
               [
                 "capability:stall:plasmium-phial:easy:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:stall:plasmium-phial:easy:1"
               ],
               [
                 "capability:stall:plasmium-phial:easy:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:stall:flea-brew:easy:1"
               ],
               [
                 "capability:stall:plasmium-phial:easy:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:needle:architect:left"
               ],
               [
                 "capability:stall:plasmium-phial:easy:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:crest-pogo:architect:easy"
               ],
               [
                 "capability:stall:plasmium-phial:easy:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:crest-pogo:shaman:easy"
               ],
               [
@@ -236749,72 +236856,72 @@
               ],
               [
                 "capability:crest-pogo:beast:easy",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:ledge-grab:left"
               ],
               [
                 "capability:crest-pogo:beast:easy",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:dash:left"
               ],
               [
                 "capability:crest-pogo:beast:easy",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:clawline:left:1"
               ],
               [
                 "capability:crest-pogo:beast:easy",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:drifters-cloak"
               ],
               [
                 "capability:crest-pogo:beast:easy",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:sharpdart:1"
               ],
               [
                 "capability:crest-pogo:beast:easy",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:crest-pogo:hunter:hard"
               ],
               [
                 "capability:crest-pogo:beast:easy",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:stall:flintslate:medium:1"
               ],
               [
                 "capability:crest-pogo:beast:easy",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:stall:voltvessels:easy:1"
               ],
               [
                 "capability:crest-pogo:beast:easy",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:crest-pogo:beast:easy"
               ],
               [
                 "capability:crest-pogo:beast:easy",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:stall:plasmium-phial:easy:1"
               ],
               [
                 "capability:crest-pogo:beast:easy",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:stall:flea-brew:easy:1"
               ],
               [
                 "capability:crest-pogo:beast:easy",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:needle:architect:left"
               ],
               [
                 "capability:crest-pogo:beast:easy",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:crest-pogo:architect:easy"
               ],
               [
                 "capability:crest-pogo:beast:easy",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:crest-pogo:shaman:easy"
               ],
               [
@@ -236830,85 +236937,85 @@
               [
                 "capability:crest-pogo:reaper:easy",
                 "capability:stall:flintslate:easy:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:ledge-grab:left"
               ],
               [
                 "capability:crest-pogo:reaper:easy",
                 "capability:stall:flintslate:easy:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:dash:left"
               ],
               [
                 "capability:crest-pogo:reaper:easy",
                 "capability:stall:flintslate:easy:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:clawline:left:1"
               ],
               [
                 "capability:crest-pogo:reaper:easy",
                 "capability:stall:flintslate:easy:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:drifters-cloak"
               ],
               [
                 "capability:crest-pogo:reaper:easy",
                 "capability:stall:flintslate:easy:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:sharpdart:1"
               ],
               [
                 "capability:crest-pogo:reaper:easy",
                 "capability:stall:flintslate:easy:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:crest-pogo:hunter:hard"
               ],
               [
                 "capability:crest-pogo:reaper:easy",
                 "capability:stall:flintslate:easy:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:stall:flintslate:medium:1"
               ],
               [
                 "capability:crest-pogo:reaper:easy",
                 "capability:stall:flintslate:easy:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:stall:voltvessels:easy:1"
               ],
               [
                 "capability:crest-pogo:reaper:easy",
                 "capability:stall:flintslate:easy:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:crest-pogo:beast:easy"
               ],
               [
                 "capability:crest-pogo:reaper:easy",
                 "capability:stall:flintslate:easy:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:stall:plasmium-phial:easy:1"
               ],
               [
                 "capability:crest-pogo:reaper:easy",
                 "capability:stall:flintslate:easy:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:stall:flea-brew:easy:1"
               ],
               [
                 "capability:crest-pogo:reaper:easy",
                 "capability:stall:flintslate:easy:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:needle:architect:left"
               ],
               [
                 "capability:crest-pogo:reaper:easy",
                 "capability:stall:flintslate:easy:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:crest-pogo:architect:easy"
               ],
               [
                 "capability:crest-pogo:reaper:easy",
                 "capability:stall:flintslate:easy:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:crest-pogo:shaman:easy"
               ],
               [
@@ -236924,85 +237031,85 @@
               [
                 "capability:crest-pogo:architect:easy",
                 "capability:needle:architect:right",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:ledge-grab:left"
               ],
               [
                 "capability:crest-pogo:architect:easy",
                 "capability:needle:architect:right",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:dash:left"
               ],
               [
                 "capability:crest-pogo:architect:easy",
                 "capability:needle:architect:right",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:clawline:left:1"
               ],
               [
                 "capability:crest-pogo:architect:easy",
                 "capability:needle:architect:right",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:drifters-cloak"
               ],
               [
                 "capability:crest-pogo:architect:easy",
                 "capability:needle:architect:right",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:sharpdart:1"
               ],
               [
                 "capability:crest-pogo:architect:easy",
                 "capability:needle:architect:right",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:crest-pogo:hunter:hard"
               ],
               [
                 "capability:crest-pogo:architect:easy",
                 "capability:needle:architect:right",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:stall:flintslate:medium:1"
               ],
               [
                 "capability:crest-pogo:architect:easy",
                 "capability:needle:architect:right",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:stall:voltvessels:easy:1"
               ],
               [
                 "capability:crest-pogo:architect:easy",
                 "capability:needle:architect:right",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:crest-pogo:beast:easy"
               ],
               [
                 "capability:crest-pogo:architect:easy",
                 "capability:needle:architect:right",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:stall:plasmium-phial:easy:1"
               ],
               [
                 "capability:crest-pogo:architect:easy",
                 "capability:needle:architect:right",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:stall:flea-brew:easy:1"
               ],
               [
                 "capability:crest-pogo:architect:easy",
                 "capability:needle:architect:right",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:needle:architect:left"
               ],
               [
                 "capability:crest-pogo:architect:easy",
                 "capability:needle:architect:right",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:crest-pogo:architect:easy"
               ],
               [
                 "capability:crest-pogo:architect:easy",
                 "capability:needle:architect:right",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:crest-pogo:shaman:easy"
               ],
               [
@@ -237015,72 +237122,72 @@
               ],
               [
                 "capability:dash:right",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:ledge-grab:left"
               ],
               [
                 "capability:dash:right",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:dash:left"
               ],
               [
                 "capability:dash:right",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:clawline:left:1"
               ],
               [
                 "capability:dash:right",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:drifters-cloak"
               ],
               [
                 "capability:dash:right",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:sharpdart:1"
               ],
               [
                 "capability:dash:right",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:crest-pogo:hunter:hard"
               ],
               [
                 "capability:dash:right",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:stall:flintslate:medium:1"
               ],
               [
                 "capability:dash:right",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:stall:voltvessels:easy:1"
               ],
               [
                 "capability:dash:right",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:crest-pogo:beast:easy"
               ],
               [
                 "capability:dash:right",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:stall:plasmium-phial:easy:1"
               ],
               [
                 "capability:dash:right",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:stall:flea-brew:easy:1"
               ],
               [
                 "capability:dash:right",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:needle:architect:left"
               ],
               [
                 "capability:dash:right",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:crest-pogo:architect:easy"
               ],
               [
                 "capability:dash:right",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:crest-pogo:shaman:easy"
               ],
               [
@@ -237093,72 +237200,72 @@
               ],
               [
                 "capability:drifters-cloak",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:ledge-grab:left"
               ],
               [
                 "capability:drifters-cloak",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:dash:left"
               ],
               [
                 "capability:drifters-cloak",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:clawline:left:1"
               ],
               [
                 "capability:drifters-cloak",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:drifters-cloak"
               ],
               [
                 "capability:drifters-cloak",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:sharpdart:1"
               ],
               [
                 "capability:drifters-cloak",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:crest-pogo:hunter:hard"
               ],
               [
                 "capability:drifters-cloak",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:stall:flintslate:medium:1"
               ],
               [
                 "capability:drifters-cloak",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:stall:voltvessels:easy:1"
               ],
               [
                 "capability:drifters-cloak",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:crest-pogo:beast:easy"
               ],
               [
                 "capability:drifters-cloak",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:stall:plasmium-phial:easy:1"
               ],
               [
                 "capability:drifters-cloak",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:stall:flea-brew:easy:1"
               ],
               [
                 "capability:drifters-cloak",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:needle:architect:left"
               ],
               [
                 "capability:drifters-cloak",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:crest-pogo:architect:easy"
               ],
               [
                 "capability:drifters-cloak",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:crest-pogo:shaman:easy"
               ],
               [
@@ -237171,72 +237278,72 @@
               ],
               [
                 "capability:clawline:right:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:ledge-grab:left"
               ],
               [
                 "capability:clawline:right:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:dash:left"
               ],
               [
                 "capability:clawline:right:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:clawline:left:1"
               ],
               [
                 "capability:clawline:right:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:drifters-cloak"
               ],
               [
                 "capability:clawline:right:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:sharpdart:1"
               ],
               [
                 "capability:clawline:right:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:crest-pogo:hunter:hard"
               ],
               [
                 "capability:clawline:right:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:stall:flintslate:medium:1"
               ],
               [
                 "capability:clawline:right:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:stall:voltvessels:easy:1"
               ],
               [
                 "capability:clawline:right:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:crest-pogo:beast:easy"
               ],
               [
                 "capability:clawline:right:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:stall:plasmium-phial:easy:1"
               ],
               [
                 "capability:clawline:right:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:stall:flea-brew:easy:1"
               ],
               [
                 "capability:clawline:right:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:needle:architect:left"
               ],
               [
                 "capability:clawline:right:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:crest-pogo:architect:easy"
               ],
               [
                 "capability:clawline:right:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:crest-pogo:shaman:easy"
               ],
               [
@@ -237249,72 +237356,72 @@
               ],
               [
                 "capability:sharpdart:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:ledge-grab:left"
               ],
               [
                 "capability:sharpdart:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:dash:left"
               ],
               [
                 "capability:sharpdart:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:clawline:left:1"
               ],
               [
                 "capability:sharpdart:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:drifters-cloak"
               ],
               [
                 "capability:sharpdart:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:sharpdart:1"
               ],
               [
                 "capability:sharpdart:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:crest-pogo:hunter:hard"
               ],
               [
                 "capability:sharpdart:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:stall:flintslate:medium:1"
               ],
               [
                 "capability:sharpdart:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:stall:voltvessels:easy:1"
               ],
               [
                 "capability:sharpdart:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:crest-pogo:beast:easy"
               ],
               [
                 "capability:sharpdart:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:stall:plasmium-phial:easy:1"
               ],
               [
                 "capability:sharpdart:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:stall:flea-brew:easy:1"
               ],
               [
                 "capability:sharpdart:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:needle:architect:left"
               ],
               [
                 "capability:sharpdart:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:crest-pogo:architect:easy"
               ],
               [
                 "capability:sharpdart:1",
-                "capability:enemy-type-pogo:Swamp Barnacle:easy",
+                "capability:enemy-type-pogo:Swamp Barnacle:intended",
                 "capability:crest-pogo:shaman:easy"
               ]
             ],
@@ -253743,16 +253850,14 @@
           "source_node_id": "the-cradle/terminus-ventrica#lower-shaft",
           "target": "the-cradle/lace-2-fight@r",
           "requirement": {
-            "raw": "ACT 2",
-            "mode": "expression",
+            "raw": "None",
+            "mode": "none",
             "dnf": [
-              [
-                "state:act-2"
-              ]
+              []
             ],
             "unresolved_reasons": []
           },
-          "notes": "",
+          "notes": "Black screen when act 3, being investigated",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
@@ -253767,16 +253872,14 @@
           "source_node_id": "the-cradle/terminus-ventrica#central-shaft",
           "target": "the-cradle/act2-cradle-connector-hallway@r",
           "requirement": {
-            "raw": "ACT 2",
-            "mode": "expression",
+            "raw": "None",
+            "mode": "none",
             "dnf": [
-              [
-                "state:act-2"
-              ]
+              []
             ],
             "unresolved_reasons": []
           },
-          "notes": "",
+          "notes": "Black screen when act 3, being investigated",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
@@ -253941,16 +254044,19 @@
           "source_node_id": "the-cradle/terminus-ventrica#lower-shaft",
           "target_node_id": "the-cradle/terminus-ventrica#central-shaft",
           "requirement": {
-            "raw": "Scuttlebrace OR Cling Grip either OR Silk Soar",
+            "raw": "ACT 2 AND ( Scuttlebrace OR Cling Grip either OR Silk Soar )",
             "mode": "expression",
             "dnf": [
               [
+                "state:act-2",
                 "capability:scuttlebrace:none"
               ],
               [
+                "state:act-2",
                 "capability:cling-grip:either"
               ],
               [
+                "state:act-2",
                 "capability:silk-soar"
               ]
             ],
@@ -253969,10 +254075,12 @@
           "source_node_id": "the-cradle/terminus-ventrica#central-shaft",
           "target_node_id": "the-cradle/terminus-ventrica#lower-shaft",
           "requirement": {
-            "raw": "None",
-            "mode": "none",
+            "raw": "ACT 2",
+            "mode": "expression",
             "dnf": [
-              []
+              [
+                "state:act-2"
+              ]
             ],
             "unresolved_reasons": []
           },
@@ -254620,7 +254728,7 @@
           "source_node_id": "the-cradle/cradle-path-of-pain-first-room#start",
           "target_node_id": "the-cradle/cradle-path-of-pain-first-room#end",
           "requirement": {
-            "raw": "Faydown Cloak AND ( ( Silk Soar AND Cling Grip Right AND Proficient movement ) OR ( Cling grip both AND ( Drifters cloak OR ( ( Sprint left OR Clawline Left OR Sharpdart ) AND ( Dash Right OR Clawline Right OR sharpdart  ) ) ) ) )",
+            "raw": "Faydown Cloak AND ( ( Silk Soar AND Cling Grip Right AND Proficient movement ) OR ( Cling grip both AND ( ( flea brew jump AND easy flea brew stall ) OR ( Drifters cloak OR ( ( Sprint left OR Clawline Left OR Sharpdart ) AND ( Dash Right OR Clawline Right OR sharpdart  ) ) ) ) ) ) ",
             "mode": "expression",
             "dnf": [
               [
@@ -254628,6 +254736,12 @@
                 "capability:silk-soar",
                 "capability:cling-grip:right",
                 "capability:proficient-movement"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:cling-grip:both",
+                "capability:flea-brew-jump",
+                "capability:stall:flea-brew:easy:1"
               ],
               [
                 "capability:faydown-cloak",

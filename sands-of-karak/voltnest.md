@@ -32,7 +32,8 @@
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Volt Filament | Bottom | None |  | Verified | collectible | ✓ |  |
-| 2 | Boss: Voltwyrm | Bottom | Combat Requirements |  | Verified | enemy | ✓ |  |
+| 2 | Voltstone | Bottom | None |  | Verified | lore | ✓ |  |
+| 3 | Boss: Voltwyrm | Bottom | Combat Requirements |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

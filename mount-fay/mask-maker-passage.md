@@ -22,7 +22,7 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| PL | Platforming | Exit | Mask Maker Hut | Cling Grip Right AND Faydown Cloak AND ( Easy pogo off driftlin OR Proficient movement ) |  | Verified | ✓ |  |
+| PL | Platforming | Exit | Mask Maker Hut | Cling Grip Right AND Faydown Cloak AND ( Intended pogo off driftlin OR Proficient movement ) |  | Verified | ✓ |  |
 | PL | Platforming | Mask Maker Hut | Exit | None |  | Verified | ✓ |  |
 
 ## Check Locations

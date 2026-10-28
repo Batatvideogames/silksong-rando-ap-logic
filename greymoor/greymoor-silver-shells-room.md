@@ -35,12 +35,12 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Greymoor - Shell Shard Cache of the silver room | hidden area | prereq wooden wall |  | Verified | resource | ✓ |  |
-| 2 | Greymoor - the other Shell Shard Cache of the silver room | hidden area | prereq wooden wall |  | Verified | resource | ✓ |  |
-| 3 | Greymoor - the other other Shell Shard Cache of the silver room | hidden area | prereq wooden wall |  | Verified | resource | ✓ |  |
-| 4 | Greymoor - the other other other Shell Shard Cache of the silver room | hidden area | prereq wooden wall |  | Verified | resource | ✓ |  |
-| 5 | Greymoor - the other other other other Shell Shard Cache of the silver room idk why so many | hidden area | prereq wooden wall |  | Verified | resource | ✓ |  |
-| 6 | wooden wall | hidden area | break wall: left |  | Verified | blockade | ✓ |  |
+| 1 | Greymoor - Shell Shard Cache of the silver room | hidden area | nothing |  | Verified | resource | ✓ |  |
+| 2 | Greymoor - the other Shell Shard Cache of the silver room | hidden area | nothing |  | Verified | resource | ✓ |  |
+| 3 | Greymoor - the other other Shell Shard Cache of the silver room | hidden area | nothing |  | Verified | resource | ✓ |  |
+| 4 | Greymoor - the other other other Shell Shard Cache of the silver room | hidden area | nothing |  | Verified | resource | ✓ |  |
+| 5 | Greymoor - the other other other other Shell Shard Cache of the silver room idk why so many | hidden area | nothing |  | Verified | resource | ✓ |  |
+| 6 | wooden wall | hidden shaft loower | break wall: left OR break wall up |  | Verified | blockade | ✓ |  |
 | 7 | Craw 1 | hidden area | nada AND invalid |  | Verified | enemy | ✓ | Spawn conditions: hitCrowCourtSwitch=false  this mf is a lie from the craw court, he is slacking not in his post (scrapped enemy probably) |
 | 8 | Shardillard 1 | hidden area | silk soar OR ledge grab either OR cling grip either OR faydown cloak |  | Verified | enemy | ✓ |  |
 | 9 | Fluttermite 1 | hidden shaft loower | nothing |  | Verified | enemy | ✓ |  |
