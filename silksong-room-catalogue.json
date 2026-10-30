@@ -136264,7 +136264,7 @@
           "friendlyName": "almost bottom ascent",
           "sourceSubroomReferenceText": "the bottom",
           "destinationSubroomReferenceText": "left almost bottom",
-          "requirements": "ledge grab OR faydown cloak OR scuttlebrace OR silk soar OR drifter\u0027s cloak OR easy shaman pogo",
+          "requirements": "ledge grab both OR faydown cloak OR scuttlebrace OR silk soar OR drifter\u0027s cloak OR easy shaman pogo",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 13.943227767944336,
@@ -136275,7 +136275,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-22T00:14:24.480536Z",
-          "updatedUtc": "2026-09-06T04:45:30.9656552Z"
+          "updatedUtc": "2026-10-30T04:12:48.8436257Z"
         },
         {
           "id": "c666a4d1-98d8-4702-9ec1-4a3cbc8bb5fb",
@@ -136302,7 +136302,7 @@
           "friendlyName": "gap 1",
           "sourceSubroomReferenceText": "left almost bottom",
           "destinationSubroomReferenceText": "R3 area",
-          "requirements": "run \nOR dash \nOR easy [beast, hunter, architect] pogo\nOR easy naked pogo\nOR drifter\u0027s cloak \nOR faydown cloak \nOR cling grip \nOR silk soar \nOR clawline right \nOR sharpdart \nOR scuttlebrace \nOR flea brew\nOR (ledge grab AND easy reaper pogo) ",
+          "requirements": "run \nOR dash \nOR easy [beast, hunter, architect] pogo\nOR easy naked pogo\nOR drifter\u0027s cloak \nOR faydown cloak \nOR cling grip either\nOR silk soar \nOR clawline right \nOR sharpdart \nOR scuttlebrace \nOR flea brew\nOR (ledge grab AND easy reaper pogo) \nOR easy [heal, cross stitch, thread storm, rune rage] stall",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 25.937358856201172,
@@ -136313,7 +136313,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-22T00:37:19.9374274Z",
-          "updatedUtc": "2026-10-29T13:06:02.0688147Z"
+          "updatedUtc": "2026-10-30T04:12:27.2268287Z"
         },
         {
           "id": "4d888a9e-48d5-42cb-a50e-3a72ecdb72c7",
@@ -136321,7 +136321,7 @@
           "friendlyName": "gap 1",
           "sourceSubroomReferenceText": "R3 area",
           "destinationSubroomReferenceText": "left almost bottom",
-          "requirements": "ledge grab OR run OR dash OR easy beast pogo OR drifter\u0027s cloak OR faydown cloak OR cling grip OR silk soar OR clawline left OR sharpdart OR scuttlebrace",
+          "requirements": "ledge grab left \nOR run \nOR dash left \nOR easy [beast, hunter, architect] pogo\nOR easy naked pogo\nOR drifter\u0027s cloak \nOR faydown cloak \nOR cling grip either\nOR silk soar \nOR clawline left \nOR sharpdart \nOR scuttlebrace",
           "notes": "slightly lower, so ledge grab works here",
           "enableAnnotation": true,
           "sceneUnitX": 25.937358856201172,
@@ -136332,7 +136332,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-22T00:37:33.3643392Z",
-          "updatedUtc": "2026-10-29T11:17:47.038879Z"
+          "updatedUtc": "2026-10-30T04:24:12.3989371Z"
         },
         {
           "id": "56d2dcf7-e804-4cce-918c-b54814890efc",
@@ -136359,7 +136359,7 @@
           "friendlyName": "R5 ascent",
           "sourceSubroomReferenceText": "left almost bottom",
           "destinationSubroomReferenceText": "R5 area",
-          "requirements": "ledge grab OR easy shaman pogo OR drifter\u0027s cloak OR faydown cloak OR clawline OR silk soar",
+          "requirements": "ledge grab left \nOR easy [shaman, beast, hunter, witch, wanderer, reaper, architect] pogo \nOR easy naked pogo\nOR drifter\u0027s cloak \nOR faydown cloak \nOR clawline right\nOR silk soar \nOR cling grip both",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 23.776931762695312,
@@ -136370,7 +136370,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-22T00:25:50.6231298Z",
-          "updatedUtc": "2026-09-16T05:01:27.0130386Z"
+          "updatedUtc": "2026-10-30T04:21:59.9670794Z"
         },
         {
           "id": "d6af0098-c060-4385-af2f-aa6212cc4b22",
@@ -136397,7 +136397,7 @@
           "friendlyName": "L2 crossing",
           "sourceSubroomReferenceText": "R5 area",
           "destinationSubroomReferenceText": "L2 area",
-          "requirements": "run OR dash OR easy beast pogo OR drifter\u0027s cloak OR faydown cloak OR silk soar OR clawline OR sharpdart OR scuttlebrace OR (flea brew AND (cling grip OR architect slash left)) OR easy beast needle strike OR easy architect needle strike",
+          "requirements": "run \nOR dash right\nOR easy beast pogo \nOR drifter\u0027s cloak \nOR faydown cloak \nOR silk soar \nOR clawline right\nOR sharpdart \nOR scuttlebrace \nOR (flea brew AND (cling grip right OR architect slash left)) \nOR easy [beast, architect] needle strike\nOR (ledge grab right AND (flea brew OR easy shaman pogo))",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 20.235231399536133,
@@ -136408,7 +136408,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-22T00:53:05.3850595Z",
-          "updatedUtc": "2026-10-11T04:47:53.6262495Z"
+          "updatedUtc": "2026-10-30T04:18:18.0112072Z"
         },
         {
           "id": "4a7e7617-cc69-4d3e-9b2c-064edd3ac60d",
@@ -136416,7 +136416,7 @@
           "friendlyName": "L2 crossing",
           "sourceSubroomReferenceText": "L2 area",
           "destinationSubroomReferenceText": "R5 area",
-          "requirements": "ledge grab OR run OR dash OR easy beast pogo OR drifter\u0027s cloak OR faydown cloak OR silk soar OR clawline OR sharpdart OR scuttlebrace",
+          "requirements": "ledge grab right OR run OR dash right OR easy beast pogo OR drifter\u0027s cloak OR faydown cloak OR silk soar OR clawline right OR sharpdart OR scuttlebrace",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 20.235231399536133,
@@ -136427,7 +136427,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-22T00:54:23.439601Z",
-          "updatedUtc": "2026-10-11T04:47:45.4280654Z"
+          "updatedUtc": "2026-10-30T04:10:08.1922965Z"
         },
         {
           "id": "a2f98b0f-0708-4a28-ae82-6036361a8f5d",
@@ -136530,7 +136530,7 @@
           "friendlyName": "below R4 ascent",
           "sourceSubroomReferenceText": "middle crossing",
           "destinationSubroomReferenceText": "below R4",
-          "requirements": "silk soar OR (break blast rock down AND (drifter\u0027s cloak OR (cling grip both AND (faydown cloak \nOR clawline left \nOR dash left \nOR easy [beast, hunter, architect] pogo \nOR easy [beast, architect] needle strike OR medium shaman pogo \nOR easy naked pogo \nOR sharpdart \nOR medium [heal, rune rage, cross stitch] stall OR flea brew))))",
+          "requirements": "silk soar \nOR (break blast rock down AND ( drifter\u0027s cloak OR (faydown cloak AND scuttlebrace))) \nOR (cling grip both AND ( faydown cloak OR clawline left OR dash left\nOR easy [beast, hunter, architect] pogo OR easy [beast, architect] needle strike OR medium shaman pogo \nOR easy naked pogo \nOR sharpdart \nOR medium [heal, rune rage, cross stitch, thread storm] stall \nOR flea brew) )",
           "notes": "rune rage stall \u002B cling grip works",
           "enableAnnotation": true,
           "sceneUnitX": 28.82125473022461,
@@ -136541,7 +136541,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-22T01:07:09.0293647Z",
-          "updatedUtc": "2026-10-30T03:55:01.8918479Z"
+          "updatedUtc": "2026-10-30T04:09:42.2835019Z"
         },
         {
           "id": "275e306f-5563-4dcb-99ae-c5faae6e6bf2",
@@ -136606,7 +136606,7 @@
           "friendlyName": "R4C crossing",
           "sourceSubroomReferenceText": "R4 left",
           "destinationSubroomReferenceText": "R4 area",
-          "requirements": "none OR (clear r4 blast rock AND (run OR dash right OR easy beast pogo OR drifter\u0027s cloak OR faydown cloak OR silk soar OR clawline right OR sharpdart OR scuttlebrace))",
+          "requirements": "run \nOR dash \nOR easy beast pogo \nOR drifter\u0027s cloak \nOR faydown cloak \nOR silk soar \nOR clawline right\nOR sharpdart \nOR easy scuttlebrace",
           "notes": "this only applies if you break the right blast rock, but going with most restrictive solution",
           "enableAnnotation": false,
           "sceneUnitX": 26.855003356933594,
@@ -136617,7 +136617,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-22T01:16:36.5334822Z",
-          "updatedUtc": "2026-10-29T13:24:19.6657464Z"
+          "updatedUtc": "2026-10-30T04:06:18.498979Z"
         },
         {
           "id": "5449ee0f-3b5e-44c0-92d3-703d4a5d5145",
@@ -136625,7 +136625,7 @@
           "friendlyName": "R4C crossing",
           "sourceSubroomReferenceText": "R4 area",
           "destinationSubroomReferenceText": "R4 left",
-          "requirements": "none OR (clear r4 blast rock AND (run OR dash left OR easy beast pogo OR drifter\u0027s cloak OR faydown cloak OR silk soar OR clawline right OR sharpdart OR scuttlebrace))",
+          "requirements": "none OR (clear r4 blast rock AND (run OR dash left OR easy beast pogo OR drifter\u0027s cloak OR faydown cloak OR silk soar OR clawline right OR sharpdart OR scuttlebrace))\n",
           "notes": "this only applies if you break the right blast rock, but going with most restrictive solution",
           "enableAnnotation": false,
           "sceneUnitX": 26.855003356933594,
@@ -136636,7 +136636,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-08-22T01:18:33.1651725Z",
-          "updatedUtc": "2026-10-29T13:31:35.9227292Z"
+          "updatedUtc": "2026-10-30T04:06:20.2674171Z"
         },
         {
           "id": "4559fa04-635b-4f4a-97a7-7f12c294b353",
@@ -136891,7 +136891,7 @@
           "friendlyName": "right up steps",
           "sourceSubroomReferenceText": "R4 area",
           "destinationSubroomReferenceText": "wind shaft rock steps",
-          "requirements": "cling grip OR (faydown cloak AND scuttlebrace AND proficient movement AND (easy pogo off Vicious Caranid OR ledge grab)) OR silk soar",
+          "requirements": "cling grip \nOR (faydown cloak AND scuttlebrace AND proficient movement AND (easy pogo off Vicious Caranid OR ledge grab)) OR silk soar",
           "notes": "enemy pogo uses Vicious Caranid",
           "enableAnnotation": true,
           "sceneUnitX": 28.629167556762695,
@@ -136902,7 +136902,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-10T19:44:33.8277078Z",
-          "updatedUtc": "2026-10-29T11:15:37.6506835Z"
+          "updatedUtc": "2026-10-30T04:06:43.9675638Z"
         },
         {
           "id": "04f3998f-bac6-4c79-b923-f6568d0528b9",
@@ -136948,7 +136948,7 @@
           "friendlyName": "r4 drop to below",
           "sourceSubroomReferenceText": "below R4",
           "destinationSubroomReferenceText": "R4 area",
-          "requirements": "faydown cloak OR silk soar",
+          "requirements": "faydown cloak \nOR silk soar",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": null,
@@ -136959,7 +136959,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-29T13:26:46.6142059Z",
-          "updatedUtc": "2026-10-29T13:28:22.0026631Z"
+          "updatedUtc": "2026-10-30T04:06:54.7337922Z"
         },
         {
           "id": "7cb7cb5e-8ecd-40ec-afc2-88756600ae32",
@@ -136967,7 +136967,7 @@
           "friendlyName": "pilgrims rest to bellway",
           "sourceSubroomReferenceText": "upper crossing",
           "destinationSubroomReferenceText": "middle crossing",
-          "requirements": "clear r4 blast rock AND none (falling)",
+          "requirements": "clear r4 blast rock",
           "notes": "",
           "enableAnnotation": true,
           "sceneUnitX": 28.958677291870117,
@@ -136978,7 +136978,7 @@
           "isArchived": false,
           "archivedUtc": null,
           "createdUtc": "2026-10-29T13:30:10.2221976Z",
-          "updatedUtc": "2026-10-29T13:33:11.190923Z"
+          "updatedUtc": "2026-10-30T04:06:50.6218904Z"
         }
       ],
       "checks": [

@@ -52067,11 +52067,11 @@
           "source_node_id": "far-fields/far-fields-wind-shaft#the-bottom",
           "target_node_id": "far-fields/far-fields-wind-shaft#left-almost-bottom",
           "requirement": {
-            "raw": "ledge grab OR faydown cloak OR scuttlebrace OR silk soar OR drifter's cloak OR easy shaman pogo",
+            "raw": "ledge grab both OR faydown cloak OR scuttlebrace OR silk soar OR drifter's cloak OR easy shaman pogo",
             "mode": "expression",
             "dnf": [
               [
-                "capability:ledge-grab:none"
+                "capability:ledge-grab:both"
               ],
               [
                 "capability:faydown-cloak"
@@ -52124,7 +52124,7 @@
           "source_node_id": "far-fields/far-fields-wind-shaft#left-almost-bottom",
           "target_node_id": "far-fields/far-fields-wind-shaft#r3-area",
           "requirement": {
-            "raw": "run \nOR dash \nOR easy [beast, hunter, architect] pogo\nOR easy naked pogo\nOR drifter's cloak \nOR faydown cloak \nOR cling grip \nOR silk soar \nOR clawline right \nOR sharpdart \nOR scuttlebrace \nOR flea brew\nOR (ledge grab AND easy reaper pogo) ",
+            "raw": "run \nOR dash \nOR easy [beast, hunter, architect] pogo\nOR easy naked pogo\nOR drifter's cloak \nOR faydown cloak \nOR cling grip either\nOR silk soar \nOR clawline right \nOR sharpdart \nOR scuttlebrace \nOR flea brew\nOR (ledge grab AND easy reaper pogo) \nOR easy [heal, cross stitch, thread storm, rune rage] stall",
             "mode": "expression",
             "dnf": [
               [
@@ -52152,7 +52152,7 @@
                 "capability:faydown-cloak"
               ],
               [
-                "capability:cling-grip:none"
+                "capability:cling-grip:either"
               ],
               [
                 "capability:silk-soar"
@@ -52172,6 +52172,18 @@
               [
                 "capability:ledge-grab:none",
                 "capability:crest-pogo:reaper:easy"
+              ],
+              [
+                "capability:stall:heal:easy:1"
+              ],
+              [
+                "capability:stall:cross-stitch:easy:1"
+              ],
+              [
+                "capability:stall:thread-storm:easy:1"
+              ],
+              [
+                "capability:stall:rune-rage:easy:1"
               ]
             ],
             "unresolved_reasons": []
@@ -52189,20 +52201,29 @@
           "source_node_id": "far-fields/far-fields-wind-shaft#r3-area",
           "target_node_id": "far-fields/far-fields-wind-shaft#left-almost-bottom",
           "requirement": {
-            "raw": "ledge grab OR run OR dash OR easy beast pogo OR drifter's cloak OR faydown cloak OR cling grip OR silk soar OR clawline left OR sharpdart OR scuttlebrace",
+            "raw": "ledge grab left \nOR run \nOR dash left \nOR easy [beast, hunter, architect] pogo\nOR easy naked pogo\nOR drifter's cloak \nOR faydown cloak \nOR cling grip either\nOR silk soar \nOR clawline left \nOR sharpdart \nOR scuttlebrace",
             "mode": "expression",
             "dnf": [
               [
-                "capability:ledge-grab:none"
+                "capability:ledge-grab:left"
               ],
               [
                 "capability:sprint:none"
               ],
               [
-                "capability:dash:none"
+                "capability:dash:left"
               ],
               [
                 "capability:crest-pogo:beast:easy"
+              ],
+              [
+                "capability:crest-pogo:hunter:easy"
+              ],
+              [
+                "capability:crest-pogo:architect:easy"
+              ],
+              [
+                "capability:naked-pogo:easy"
               ],
               [
                 "capability:drifters-cloak"
@@ -52211,7 +52232,7 @@
                 "capability:faydown-cloak"
               ],
               [
-                "capability:cling-grip:none"
+                "capability:cling-grip:either"
               ],
               [
                 "capability:silk-soar"
@@ -52261,14 +52282,35 @@
           "source_node_id": "far-fields/far-fields-wind-shaft#left-almost-bottom",
           "target_node_id": "far-fields/far-fields-wind-shaft#r5-area",
           "requirement": {
-            "raw": "ledge grab OR easy shaman pogo OR drifter's cloak OR faydown cloak OR clawline OR silk soar",
+            "raw": "ledge grab left \nOR easy [shaman, beast, hunter, witch, wanderer, reaper, architect] pogo \nOR easy naked pogo\nOR drifter's cloak \nOR faydown cloak \nOR clawline right\nOR silk soar \nOR cling grip both",
             "mode": "expression",
             "dnf": [
               [
-                "capability:ledge-grab:none"
+                "capability:ledge-grab:left"
               ],
               [
                 "capability:crest-pogo:shaman:easy"
+              ],
+              [
+                "capability:crest-pogo:beast:easy"
+              ],
+              [
+                "capability:crest-pogo:hunter:easy"
+              ],
+              [
+                "capability:crest-pogo:witch:easy"
+              ],
+              [
+                "capability:crest-pogo:wanderer:easy"
+              ],
+              [
+                "capability:crest-pogo:reaper:easy"
+              ],
+              [
+                "capability:crest-pogo:architect:easy"
+              ],
+              [
+                "capability:naked-pogo:easy"
               ],
               [
                 "capability:drifters-cloak"
@@ -52277,10 +52319,13 @@
                 "capability:faydown-cloak"
               ],
               [
-                "capability:clawline:none:1"
+                "capability:clawline:right:1"
               ],
               [
                 "capability:silk-soar"
+              ],
+              [
+                "capability:cling-grip:both"
               ]
             ],
             "unresolved_reasons": []
@@ -52318,14 +52363,14 @@
           "source_node_id": "far-fields/far-fields-wind-shaft#r5-area",
           "target_node_id": "far-fields/far-fields-wind-shaft#l2-area",
           "requirement": {
-            "raw": "run OR dash OR easy beast pogo OR drifter's cloak OR faydown cloak OR silk soar OR clawline OR sharpdart OR scuttlebrace OR (flea brew AND (cling grip OR architect slash left)) OR easy beast needle strike OR easy architect needle strike",
+            "raw": "run \nOR dash right\nOR easy beast pogo \nOR drifter's cloak \nOR faydown cloak \nOR silk soar \nOR clawline right\nOR sharpdart \nOR scuttlebrace \nOR (flea brew AND (cling grip right OR architect slash left)) \nOR easy [beast, architect] needle strike\nOR (ledge grab right AND (flea brew OR easy shaman pogo))",
             "mode": "expression",
             "dnf": [
               [
                 "capability:sprint:none"
               ],
               [
-                "capability:dash:none"
+                "capability:dash:right"
               ],
               [
                 "capability:crest-pogo:beast:easy"
@@ -52340,7 +52385,7 @@
                 "capability:silk-soar"
               ],
               [
-                "capability:clawline:none:1"
+                "capability:clawline:right:1"
               ],
               [
                 "capability:sharpdart:1"
@@ -52350,7 +52395,7 @@
               ],
               [
                 "capability:flea-brew-jump",
-                "capability:cling-grip:none"
+                "capability:cling-grip:right"
               ],
               [
                 "capability:flea-brew-jump",
@@ -52361,6 +52406,14 @@
               ],
               [
                 "capability:needle-strike:architect:easy"
+              ],
+              [
+                "capability:ledge-grab:right",
+                "capability:flea-brew-jump"
+              ],
+              [
+                "capability:ledge-grab:right",
+                "capability:crest-pogo:shaman:easy"
               ]
             ],
             "unresolved_reasons": []
@@ -52378,17 +52431,17 @@
           "source_node_id": "far-fields/far-fields-wind-shaft#l2-area",
           "target_node_id": "far-fields/far-fields-wind-shaft#r5-area",
           "requirement": {
-            "raw": "ledge grab OR run OR dash OR easy beast pogo OR drifter's cloak OR faydown cloak OR silk soar OR clawline OR sharpdart OR scuttlebrace",
+            "raw": "ledge grab right OR run OR dash right OR easy beast pogo OR drifter's cloak OR faydown cloak OR silk soar OR clawline right OR sharpdart OR scuttlebrace",
             "mode": "expression",
             "dnf": [
               [
-                "capability:ledge-grab:none"
+                "capability:ledge-grab:right"
               ],
               [
                 "capability:sprint:none"
               ],
               [
-                "capability:dash:none"
+                "capability:dash:right"
               ],
               [
                 "capability:crest-pogo:beast:easy"
@@ -52403,7 +52456,7 @@
                 "capability:silk-soar"
               ],
               [
-                "capability:clawline:none:1"
+                "capability:clawline:right:1"
               ],
               [
                 "capability:sharpdart:1"
@@ -52642,7 +52695,7 @@
           "source_node_id": "far-fields/far-fields-wind-shaft#middle-crossing",
           "target_node_id": "far-fields/far-fields-wind-shaft#below-r4",
           "requirement": {
-            "raw": "silk soar OR (break blast rock down AND (drifter's cloak OR (cling grip both AND (faydown cloak \nOR clawline left \nOR dash left \nOR easy [beast, hunter, architect] pogo \nOR easy [beast, architect] needle strike OR medium shaman pogo \nOR easy naked pogo \nOR sharpdart \nOR medium [heal, rune rage, cross stitch] stall OR flea brew))))",
+            "raw": "silk soar \nOR (break blast rock down AND ( drifter's cloak OR (faydown cloak AND scuttlebrace))) \nOR (cling grip both AND ( faydown cloak OR clawline left OR dash left\nOR easy [beast, hunter, architect] pogo OR easy [beast, architect] needle strike OR medium shaman pogo \nOR easy naked pogo \nOR sharpdart \nOR medium [heal, rune rage, cross stitch, thread storm] stall \nOR flea brew) )",
             "mode": "expression",
             "dnf": [
               [
@@ -52654,76 +52707,70 @@
               ],
               [
                 "capability:break-blast-rock:down",
+                "capability:faydown-cloak",
+                "capability:scuttlebrace:none"
+              ],
+              [
                 "capability:cling-grip:both",
                 "capability:faydown-cloak"
               ],
               [
-                "capability:break-blast-rock:down",
                 "capability:cling-grip:both",
                 "capability:clawline:left:1"
               ],
               [
-                "capability:break-blast-rock:down",
                 "capability:cling-grip:both",
                 "capability:dash:left"
               ],
               [
-                "capability:break-blast-rock:down",
                 "capability:cling-grip:both",
                 "capability:crest-pogo:beast:easy"
               ],
               [
-                "capability:break-blast-rock:down",
                 "capability:cling-grip:both",
                 "capability:crest-pogo:hunter:easy"
               ],
               [
-                "capability:break-blast-rock:down",
                 "capability:cling-grip:both",
                 "capability:crest-pogo:architect:easy"
               ],
               [
-                "capability:break-blast-rock:down",
                 "capability:cling-grip:both",
                 "capability:needle-strike:beast:easy"
               ],
               [
-                "capability:break-blast-rock:down",
                 "capability:cling-grip:both",
                 "capability:needle-strike:architect:easy"
               ],
               [
-                "capability:break-blast-rock:down",
                 "capability:cling-grip:both",
                 "capability:crest-pogo:shaman:medium"
               ],
               [
-                "capability:break-blast-rock:down",
                 "capability:cling-grip:both",
                 "capability:naked-pogo:easy"
               ],
               [
-                "capability:break-blast-rock:down",
                 "capability:cling-grip:both",
                 "capability:sharpdart:1"
               ],
               [
-                "capability:break-blast-rock:down",
                 "capability:cling-grip:both",
                 "capability:stall:heal:medium:1"
               ],
               [
-                "capability:break-blast-rock:down",
                 "capability:cling-grip:both",
                 "capability:stall:rune-rage:medium:1"
               ],
               [
-                "capability:break-blast-rock:down",
                 "capability:cling-grip:both",
                 "capability:stall:cross-stitch:medium:1"
               ],
               [
-                "capability:break-blast-rock:down",
+                "capability:cling-grip:both",
+                "capability:stall:thread-storm:medium:1"
+              ],
+              [
                 "capability:cling-grip:both",
                 "capability:flea-brew-jump"
               ]
@@ -52816,47 +52863,35 @@
           "source_node_id": "far-fields/far-fields-wind-shaft#r4-left",
           "target_node_id": "far-fields/far-fields-wind-shaft#r4-area",
           "requirement": {
-            "raw": "none OR (clear r4 blast rock AND (run OR dash right OR easy beast pogo OR drifter's cloak OR faydown cloak OR silk soar OR clawline right OR sharpdart OR scuttlebrace))",
+            "raw": "run \nOR dash \nOR easy beast pogo \nOR drifter's cloak \nOR faydown cloak \nOR silk soar \nOR clawline right\nOR sharpdart \nOR easy scuttlebrace",
             "mode": "expression",
             "dnf": [
               [
-                "none"
-              ],
-              [
-                "dependency:location:far-fields/far-fields-wind-shaft::blockade/r4-blast-rock",
                 "capability:sprint:none"
               ],
               [
-                "dependency:location:far-fields/far-fields-wind-shaft::blockade/r4-blast-rock",
-                "capability:dash:right"
+                "capability:dash:none"
               ],
               [
-                "dependency:location:far-fields/far-fields-wind-shaft::blockade/r4-blast-rock",
                 "capability:crest-pogo:beast:easy"
               ],
               [
-                "dependency:location:far-fields/far-fields-wind-shaft::blockade/r4-blast-rock",
                 "capability:drifters-cloak"
               ],
               [
-                "dependency:location:far-fields/far-fields-wind-shaft::blockade/r4-blast-rock",
                 "capability:faydown-cloak"
               ],
               [
-                "dependency:location:far-fields/far-fields-wind-shaft::blockade/r4-blast-rock",
                 "capability:silk-soar"
               ],
               [
-                "dependency:location:far-fields/far-fields-wind-shaft::blockade/r4-blast-rock",
                 "capability:clawline:right:1"
               ],
               [
-                "dependency:location:far-fields/far-fields-wind-shaft::blockade/r4-blast-rock",
                 "capability:sharpdart:1"
               ],
               [
-                "dependency:location:far-fields/far-fields-wind-shaft::blockade/r4-blast-rock",
-                "capability:scuttlebrace:none"
+                "capability:scuttlebrace:easy"
               ]
             ],
             "unresolved_reasons": []
@@ -52874,7 +52909,7 @@
           "source_node_id": "far-fields/far-fields-wind-shaft#r4-area",
           "target_node_id": "far-fields/far-fields-wind-shaft#r4-left",
           "requirement": {
-            "raw": "none OR (clear r4 blast rock AND (run OR dash left OR easy beast pogo OR drifter's cloak OR faydown cloak OR silk soar OR clawline right OR sharpdart OR scuttlebrace))",
+            "raw": "none OR (clear r4 blast rock AND (run OR dash left OR easy beast pogo OR drifter's cloak OR faydown cloak OR silk soar OR clawline right OR sharpdart OR scuttlebrace))\n",
             "mode": "expression",
             "dnf": [
               [
@@ -53215,7 +53250,7 @@
           "source_node_id": "far-fields/far-fields-wind-shaft#r4-area",
           "target_node_id": "far-fields/far-fields-wind-shaft#wind-shaft-rock-steps",
           "requirement": {
-            "raw": "cling grip OR (faydown cloak AND scuttlebrace AND proficient movement AND (easy pogo off Vicious Caranid OR ledge grab)) OR silk soar",
+            "raw": "cling grip \nOR (faydown cloak AND scuttlebrace AND proficient movement AND (easy pogo off Vicious Caranid OR ledge grab)) OR silk soar",
             "mode": "expression",
             "dnf": [
               [
@@ -53292,7 +53327,7 @@
           "source_node_id": "far-fields/far-fields-wind-shaft#below-r4",
           "target_node_id": "far-fields/far-fields-wind-shaft#r4-area",
           "requirement": {
-            "raw": "faydown cloak OR silk soar",
+            "raw": "faydown cloak \nOR silk soar",
             "mode": "expression",
             "dnf": [
               [
@@ -53317,12 +53352,11 @@
           "source_node_id": "far-fields/far-fields-wind-shaft#upper-crossing",
           "target_node_id": "far-fields/far-fields-wind-shaft#middle-crossing",
           "requirement": {
-            "raw": "clear r4 blast rock AND none (falling)",
+            "raw": "clear r4 blast rock",
             "mode": "expression",
             "dnf": [
               [
-                "dependency:location:far-fields/far-fields-wind-shaft::blockade/r4-blast-rock",
-                "none"
+                "dependency:location:far-fields/far-fields-wind-shaft::blockade/r4-blast-rock"
               ]
             ],
             "unresolved_reasons": []
