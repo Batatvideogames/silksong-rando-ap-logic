@@ -32,18 +32,18 @@
 | DS | door switch | passage left | passage right | activate sherma door switch |  | Verified | ✓ |  |
 | DS | door switch | passage right | passage left | activate sherma door switch |  | Verified | ✓ |  |
 | UG | upper gauntlet entrance | above gauntlet | gauntlet arena | none (starts gauntlet) |  | Verified | ✓ |  |
-| UG | upper gauntlet entrance | gauntlet arena | above gauntlet | defeat gauntlet fight AND ( silk soar  OR cling grip OR scuttlebrace ) |  | Verified | ✓ |  |
+| UG | upper gauntlet entrance | gauntlet arena | above gauntlet | defeat gauntlet fight AND ( silk soar  OR cling grip left OR easy scuttlebrace ) |  | Verified | ✓ |  |
 | SG | side gauntlet entrance | left of gauntlet | gauntlet arena | defeat gauntlet fight |  | Verified | ✓ |  |
 | SG | side gauntlet entrance | gauntlet arena | left of gauntlet | defeat gauntlet fight |  | Verified | ✓ |  |
 | LG | lower gauntlet entrance | gauntlet arena | passage right | defeat gauntlet fight |  | Verified | ✓ |  |
-| LG | lower gauntlet entrance | passage right | gauntlet arena | defeat gauntlet fight AND ( ledge grab OR faydown OR cling grip OR silk soar ) |  | Verified | ✓ |  |
-| LP | lowered platform | above gauntlet | ceiling exit | silk soar  OR ( faydown cloak AND ( run OR ledge grab OR cling grip ) ) OR ( run AND ( clawline OR sharpdart ) AND ( ledge grab OR cling grip ) ) OR ( activate lower platform switch other room IN the marrow map shop AND ( ledge grab OR cling grip OR faydown ) ) |  | Verified | ✓ | The platform lowering switch has the possibility of making this non-monotonic because it *seems* to require ledge grab to hop over the lowered platform. Probably not really an issue. |
+| LG | lower gauntlet entrance | passage right | gauntlet arena | defeat gauntlet fight AND ( ledge grab both OR cling grip left OR ( ledge grab left AND ( cling grip right OR easy shaman pogo ) ) OR faydown OR silk soar ) |  | Verified | ✓ |  |
+| LP | lowered platform | above gauntlet | ceiling exit | silk soar  OR ( faydown AND ledge grab right ) OR ( faydown AND easy pogo off skull scuttler AND easy shaman pogo ) OR ( faydown AND run AND ( cling grip right OR dash right OR flea brew ) ) OR ( run AND ( clawline right OR sharpdart ) AND ( ledge grab right OR cling grip right ) ) OR ( medium pogo off beastfly AND ( ledge grab right OR cling grip right ) ) OR hard pogo off beastfly OR ( activate lower platform switch other room IN the marrow map shop AND ( ledge grab either OR cling grip either OR faydown OR easy shaman pogo ) ) |  | Verified | ✓ | The platform lowering switch has the possibility of making this non-monotonic because it *seems* to require ledge grab to hop over the lowered platform.   Can we remove the bottom chunk of the block so you can still walk under it? |
 | LP | lowered platform | ceiling exit | above gauntlet | none (falling) |  | Verified | ✓ |  |
-| LG1 | ledge grab 1 | passage left | middle left | ledge grab OR cling grip OR faydown cloak OR silk soar |  | Verified | ✓ |  |
+| LG1 | ledge grab 1 | passage left | middle left | ledge grab right OR cling grip right OR faydown cloak OR silk soar |  | Verified | ✓ |  |
 | LG1 | ledge grab 1 | middle left | passage left | none (falling) |  | Verified | ✓ |  |
-| LG2 | ledge grab 2 | left of gauntlet | middle left | ledge grab OR cling grip OR faydown cloak OR silk soar OR scuttlebrace |  | Verified | ✓ |  |
+| LG2 | ledge grab 2 | left of gauntlet | middle left | ledge grab left OR cling grip either OR faydown cloak OR silk soar OR easy scuttlebrace |  | Verified | ✓ |  |
 | LG2 | ledge grab 2 | middle left | left of gauntlet | none (falling) |  | Verified | ✓ |  |
-| LG3 | ledge grab 3 | middle left | above gauntlet | ledge grab OR cling grip OR faydown cloak OR silk soar OR scuttlebrace |  | Verified | ✓ |  |
+| LG3 | ledge grab 3 | middle left | above gauntlet | ledge grab left OR cling grip left OR ( ( cling grip right OR easy shaman pogo ) OR easy scuttlebrace ) OR faydown OR silk soar |  | Verified | ✓ |  |
 | LG3 | ledge grab 3 | above gauntlet | middle left | none (falling) |  | Verified | ✓ |  |
 | V1 | vertical 1 | passage left | left of gauntlet | silk soar |  | Verified | ✓ |  |
 | V1 | vertical 1 | left of gauntlet | passage left | none (falling) |  | Verified | ✓ |  |

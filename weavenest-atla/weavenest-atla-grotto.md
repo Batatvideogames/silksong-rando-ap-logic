@@ -9,13 +9,12 @@
 | No. | Subroom | Annotated |
 | --- | --- | --- |
 | S1 | right exit area | ✓ |
-| S2 | far east platforms | ✓ |
-| S3 | upper east platforms | ✓ |
-| S4 | mossberry platform | ✓ |
-| S5 | causeway | ✓ |
-| S6 | upper west platforms | ✓ |
-| S7 | lower west platforms | ✓ |
-| S8 | boss room | ✓ |
+| S2 | upper east platforms | ✓ |
+| S3 | mossberry platform | ✓ |
+| S4 | causeway | ✓ |
+| S5 | upper west platforms | ✓ |
+| S6 | lower west platforms | ✓ |
+| S7 | boss room | ✓ |
 
 ## Room Transitions
 
@@ -27,21 +26,19 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| BV1 | break vines 1 | right exit area | far east platforms | break vines left |  | Verified | ✓ |  |
-| BV1 | break vines 1 | far east platforms | right exit area | break vines right |  | Verified | ✓ |  |
-| P1 | platforming 1 | far east platforms | upper east platforms | none (falling) |  | Verified | ✓ |  |
-| P1 | platforming 1 | upper east platforms | far east platforms | ledge grab OR run OR dash OR drifter's cloak OR faydown cloak OR clawline OR scuttlebrace OR sharpdart OR easy shaman pogo |  | Verified | ✓ |  |
-| MU | mossberry upper | upper east platforms | mossberry platform | run OR dash OR drifter's cloak OR faydown cloak OR sharpdart OR clawline OR easy beast pogo OR ( ledge grab AND ( easy shaman pogo OR easy architect pogo ) ) |  | Verified | ✓ | other stall techniques may also make it - untested; was unable to replicate previous reaper pogo |
-| ML | mossberry lower | causeway | mossberry platform | silk soar |  | Verified | ✓ |  |
+| BV1 | break vines 1 | right exit area | upper east platforms | break vines left |  | Verified | ✓ |  |
+| BV1 | break vines 1 | upper east platforms | right exit area | break vines right |  | Verified | ✓ | removed the subroom between these two areas - a specific jump can be made without any extra kit, it just might take a couple of tries |
+| MU | mossberry upper | upper east platforms | mossberry platform | run  OR dash left  OR drifters OR faydown  OR sharpdart  OR clawline left  OR easy beast pogo  OR ( ledge grab left AND ( easy [ shaman, architect ] pogo OR flea brew ) ) |  | Verified | ✓ | other stall techniques may also make it - untested; was unable to replicate previous reaper pogo  cling grip is a bit fussy after the pogos so excluding for now - hero 10/28 |
+| ML | mossberry lower | causeway | mossberry platform | silk soar OR clawline right OR ( sharpdart AND ( dash right OR ledge grab right OR drifters ) ) |  | Verified | ✓ |  |
 | ML | mossberry lower | mossberry platform | causeway | none (falling) |  | Verified | ✓ |  |
-| EV1 | east vertical 1 | causeway | upper east platforms | ledge grab OR faydown cloak OR   silk soar |  | Verified | ✓ |  |
+| EV1 | east vertical 1 | causeway | upper east platforms | ledge grab both OR cling grip both OR faydown cloak  OR silk soar OR easy shaman pogo OR ( ( ledge grab left OR cling grip left ) AND ( run OR dash right OR clawline right OR sharpdart x 2 OR ( swim AND spike pogo ) OR flea brew ) ) |  | Verified | ✓ | ignoring mossmir pogo potential because it likes to kill itself in the water |
 | EV1 | east vertical 1 | upper east platforms | causeway | none (falling) |  | Verified | ✓ |  |
 | WG1 | west gap 1 | causeway | upper west platforms | none (falling) |  | Verified | ✓ |  |
-| WG1 | west gap 1 | upper west platforms | causeway | ledge grab OR run OR dash OR drifter's cloak OR faydown cloak OR silk soar OR clawline OR sharpdart OR scuttlebrace |  | Verified | ✓ |  |
-| WG2 | west gap 2 | lower west platforms | causeway | ledge grab OR faydown cloak OR spike pogo OR silk soar |  | Verified | ✓ |  |
+| WG1 | west gap 1 | upper west platforms | causeway | ledge grab right  OR cling grip right OR run  OR dash right OR drifters OR faydown  OR silk soar  OR clawline right OR sharpdart OR easy pogo off mossmir |  | Verified | ✓ |  |
+| WG2 | west gap 2 | lower west platforms | causeway | ledge grab right OR cling grip right OR faydown OR spike pogo  OR silk soar OR sharpdart OR clawline right |  | Verified | ✓ |  |
 | WG2 | west gap 2 | causeway | lower west platforms | none (falling) |  | Verified | ✓ |  |
-| BR | boss room jump | upper west platforms | boss room | break vines left AND ( run OR dash OR drifter's cloak OR faydown cloak OR sharpdart OR clawline OR easy beast pogo ) |  | Verified | ✓ | beast pogo clears this easily |
-| BR | boss room jump | boss room | upper west platforms | break vines right AND ( run OR dash OR drifter's cloak OR faydown cloak OR sharpdart OR clawline OR scuttlebrace OR easy beast pogo ) |  | Verified | ✓ |  |
+| BR | boss room jump | upper west platforms | boss room | break vines left  AND (  run  OR dash left  OR drifters  OR faydown  OR sharpdart  OR clawline left  OR easy beast pogo  OR ( hard pogo off mossmir AND hard hunter pogo (and moss cocoon pogo) ) ) |  | Verified | ✓ | beast pogo clears this easily  hunter pogo then cocoon pogo courtesy of the archipelago chat |
+| BR | boss room jump | boss room | upper west platforms | break vines right  AND (  run  OR dash right  OR drifters OR faydown  OR sharpdart  OR clawline right  OR easy scuttlebrace  OR easy beast pogo  ) |  | Verified | ✓ |  |
 | F1 | fall 1 | boss room | lower west platforms | none (falling) |  | Verified | ✓ |  |
 
 ## Check Locations

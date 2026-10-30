@@ -30,9 +30,9 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | TP | teleporter | upper telepad | lower telepad | complete THE weavenest atla power activation |  | Verified | ✓ |  |
 | TP | teleporter | lower telepad | upper telepad | complete THE weavenest atla power activation |  | Verified | ✓ |  |
-| SM | shaft middle | lower telepad | upper shaft | cling grip OR silk soar OR ( faydown cloak AND scuttlebrace ) |  | Verified | ✓ |  |
+| SM | shaft middle | lower telepad | upper shaft | cling grip right OR silk soar OR ( faydown cloak AND easy scuttlebrace ) |  | Verified | ✓ |  |
 | SM | shaft middle | upper shaft | lower telepad | none (falling) |  | Verified | ✓ |  |
-| SB | shaft base | lower telepad | lower shaft | cling grip OR silk soar OR ( faydown cloak AND scuttlebrace ) |  | Verified | ✓ |  |
+| SB | shaft base | lower telepad | lower shaft | cling grip right OR silk soar OR ( faydown cloak AND easy scuttlebrace ) |  | Verified | ✓ |  |
 | SB | shaft base | lower shaft | lower telepad | none (falling) |  | Verified | ✓ |  |
 
 ## Check Locations

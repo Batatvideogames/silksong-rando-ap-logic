@@ -24,13 +24,13 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| V1 | vertical 1 | ground floor | upper platforms | ledge grab OR cling grip OR scuttlebrace OR faydown OR silk soar |  | Verified | ✓ |  |
+| V1 | vertical 1 | ground floor | upper platforms | ledge grab left OR cling grip left OR easy scuttlebrace OR faydown OR silk soar |  | Verified | ✓ |  |
 | V1 | vertical 1 | upper platforms | ground floor | none (falling) |  | Verified | ✓ |  |
 | C1 | open cell 1 | upper platforms | grindle cell | break wall right |  | Verified | ✓ |  |
 | C1 | open cell 1 | grindle cell | upper platforms | break wall left |  | Verified | ✓ |  |
 | C2 | open cell 2 | upper platforms | other cell | break wall left |  | Verified | ✓ |  |
 | C2 | open cell 2 | other cell | upper platforms | break wall right |  | Verified | ✓ |  |
-| V2 | vertical 2 | grindle cell | above grindle cell | ledge grab OR cling grip OR faydown OR silk soar |  | Verified | ✓ |  |
+| V2 | vertical 2 | grindle cell | above grindle cell | ledge grab either OR cling grip either OR faydown OR silk soar |  | Verified | ✓ |  |
 | V2 | vertical 2 | above grindle cell | grindle cell | none (falling) |  | Verified | ✓ |  |
 
 ## Check Locations

@@ -26,27 +26,28 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| V1 | vertical 1 | lower left side | left exit area | silk soar OR drifter's cloak OR (faydown cloak AND (cling grip OR (easy flea brew stall AND ((scuttlebrace OR ledge grab))))) |  | Verified | ✓ |  |
+| V1 | vertical 1 | lower left side | left exit area | silk soar OR drifter's cloak |  | Verified | ✓ |  |
 | V1 | vertical 1 | left exit area | lower left side | none (falling) |  | Verified | ✓ |  |
-| G1 | gap 1 | left exit area | upper left alcove | drifter's cloak OR clawline |  | Verified | ✓ | one way only |
-| V2 | vertical 2 | lower left side | upper left alcove | silk soar OR drifter's cloak |  | Verified | ✓ |  |
+| G1 | gap 1 | left exit area | upper left alcove | drifter's cloak OR clawline right |  | Verified | ✓ | one way only - or was it |
+| G1 | gap 1 | upper left alcove | left exit area | proficient movement  AND faydown cloak  AND cling grip  AND ((sharp dart AND (dash left OR flea brew)) OR clawline left) |  | Verified | ✓ | behold, two-way (this sucked) |
+| V2 | vertical 2 | lower left side | upper left alcove | silk soar OR drifter's cloak OR (faydown cloak AND easy [rune rage, cross stitch, heal, thread storm, flea brew] stall AND (cling grip right OR ledge grab left)) |  | Verified | ✓ |  |
 | V2 | vertical 2 | upper left alcove | lower left side | none (falling) |  | Verified | ✓ |  |
 | BL | boss left entrance | lower left side | boss arena | none |  | Verified | ✓ | no boss defeat passthrough requirement |
 | BL | boss left entrance | boss arena | lower left side | none |  | Verified | ✓ |  |
 | BR | boss right entrance | lower right side | boss arena | none |  | Verified | ✓ | no boss defeat passthrough requirement |
 | BR | boss right entrance | boss arena | lower right side | none |  | Verified | ✓ |  |
-| V3 | vertical 3 | lower right side | upper right alcove | drifter's cloak OR ( (silk soar OR faydown cloak OR (proficient movement AND dash left) ) AND (scuttlebrace OR cling grip)) |  | Verified | ✓ |  |
+| V3 | vertical 3 | lower right side | upper right alcove | drifter's cloak OR ( (silk soar OR faydown cloak OR (proficient movement AND run AND dash left) ) AND (easy scuttlebrace OR cling grip left)) |  | Verified | ✓ |  |
 | V3 | vertical 3 | upper right alcove | lower right side | none (falling) |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | rosary cache far fields 2 | upper left alcove | none |  | Verified | collectible | ✓ |  |
+| 1 | Choir's Final Rites Beads | upper left alcove | none |  | Verified | collectible | ✓ | formerly rosary cache far fields 2 |
 | 2 | silk | upper right alcove | none |  | Verified | resource | ✓ | silk webs |
 | 3 | Horn Fragment | boss arena | defeat savage beastfly 2 boss fight |  | Verified | collectible |  |  |
-| 4 | fourth chorus boss fight | boss arena | complete THE flexible spines wish granted AND Combat Requirements |  | Verified | boss |  |  |
-| 5 | savage beastfly 2 boss fight | boss arena | complete THE savage beastfly wish promised AND Combat Requirements |  | Verified | boss |  |  |
+| 4 | fourth chorus boss fight | boss arena | Combat Requirements AND complete THE flexible spines wish granted |  | Verified | boss |  |  |
+| 5 | savage beastfly 2 boss fight | boss arena | Combat Requirements AND complete THE savage beastfly wish promised |  | Verified | boss |  |  |
 
 ## Room Images
 

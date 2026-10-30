@@ -8,9 +8,9 @@
 
 | No. | Subroom | Annotated |
 | --- | --- | --- |
-| S1 | left |  |
-| S2 | right |  |
-| S3 | cage |  |
+| S1 | left | ✓ |
+| S2 | right | ✓ |
+| S3 | cage | ✓ |
 
 ## Room Transitions
 
@@ -23,27 +23,27 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LR | left to right | left | right | (Swim OR drifter's cloak OR faydown cloak OR clawline OR sharpdart OR dash) AND complete Styx Room Upper Breakable Wall |  | Verified |  |  |
-| LR | left to right | right | left | (Spike pogo OR Faydown cloak OR (silk soar AND drifter’s cloak) OR (cling grip AND (sharpdart OR clawline OR dash))) AND complete Styx Room Upper Breakable Wall |  | Verified |  |  |
-| CR | cage to right | cage | right | complete Styx Room Lower Breakable Wall |  | Verified |  |  |
-| CR | cage to right | right | cage | complete Styx Room Lower Breakable Wall |  | Verified |  |  |
+| LR | left to right | left | right | (Swim OR drifter's cloak OR faydown cloak OR clawline right OR sharpdart OR dash right) AND complete Styx Room Upper Breakable Wall |  | Verified | ✓ |  |
+| LR | left to right | right | left | (Spike pogo OR Faydown cloak OR (silk soar AND drifter’s cloak) OR (cling grip right AND (sharpdart OR clawline left OR dash left))) AND complete Styx Room Upper Breakable Wall |  | Verified | ✓ |  |
+| CR | cage to right | cage | right | complete Styx Room Lower Breakable Wall |  | Verified | ✓ |  |
+| CR | cage to right | right | cage | complete Styx Room Lower Breakable Wall |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Styx Room Upper Breakable Wall | left | break wall right |  | Verified | blockade |  |  |
-| 2 | Styx Room Lower Breakable Wall | cage | break wall right |  | Verified | blockade |  |  |
-| 3 | Styx Grew First Grub | left | steel soul off |  | Verified | logic-point | ✓ |  |
+| 1 | Styx Room Upper Breakable Wall | left | break wall right |  | Verified | blockade | ✓ |  |
+| 2 | Styx Room Lower Breakable Wall | cage | break wall right |  | Verified | blockade | ✓ |  |
+| 3 | Styx Grew First Grub | right | steel soul off |  | Verified | logic-point | ✓ |  |
 | 4 | Craw Summons | left | Craw Summons Ready |  | Verified | collectible |  |  |
-| 5 | Muckroach 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 6 | Muckroach 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 7 | Void Mass 1 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
-| 8 | Void Mass 2 |  | Black Thread World Spawn |  |  | enemy | ✓ |  |
-| 9 | Muckroach 3 |  |  |  |  | enemy | ✓ |  |
-| 10 | Roachfeeder 1 |  |  |  |  | enemy | ✓ |  |
-| 11 | Muckroach 4 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 12 | Muckroach 5 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 5 | Tuna Lord, the Muckroach | right | Normal World Spawn |  | Verified | enemy | ✓ | Formerly: Muckroach 1  Spawn conditions: silkFarmBattle1_complete=false |
+| 6 | Millipeter, the Muckroach | right | Normal World Spawn |  | Verified | enemy | ✓ | Formerly: Muckroach 2  Spawn conditions: silkFarmBattle1_complete=false |
+| 7 | Void Mass 1 | right | Black Thread World Spawn AND Steel Soul Off |  | Verified | enemy | ✓ | these are dead in steel soul mode - hero, 10/29 |
+| 8 | Void Mass 2 | right | Black Thread World Spawn AND Steel Soul Off |  | Verified | enemy | ✓ | these are dead in steel soul mode - hero, 10/29 |
+| 9 | Muckroach 3 | right | invalid |  | Verified | enemy | ✓ | I think this just spawns dead?  part of the "WAVE UNUSED" scene hierarchy LOL - hero, 10/29 |
+| 10 | Roachfeeder 1 | right | invalid |  | Verified | enemy | ✓ | WHO IS THIS LOST CHILD?  part of the "WAVE UNUSED" scene hierarchy LOL - hero, 10/29 |
+| 11 | Muckroach 4 | right | invalid |  | Verified | enemy | ✓ | Caged and invincible. |
+| 12 | Muckroach 5 | right | invalid |  | Verified | enemy | ✓ | Caged and invincible. |
 
 ## Room Images
 

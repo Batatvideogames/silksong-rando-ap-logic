@@ -22,7 +22,7 @@
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | V1 | vertical 1 | left exit area | eva pod | break wall right AND break wall down |  | Verified | ✓ |  |
-| V1 | vertical 1 | eva pod | left exit area | break wall left AND break wall up AND ( cling grip OR silk soar OR scuttlebrace ) |  | Verified | ✓ |  |
+| V1 | vertical 1 | eva pod | left exit area | break wall left AND break wall up AND ( cling grip either OR silk soar OR easy scuttlebrace ) |  | Verified | ✓ |  |
 
 ## Check Locations
 

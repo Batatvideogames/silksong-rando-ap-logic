@@ -11,7 +11,12 @@
 | S1 | left exit area | ✓ |
 | S2 | starting line | ✓ |
 | S3 | mask shard spot | ✓ |
-| S4 | lower skullwing spot | ✓ |
+| S4 | first checkpoint | ✓ |
+| S5 | second checkpoint | ✓ |
+| S6 | lone pogo fruit | ✓ |
+| S7 | cling wall | ✓ |
+| S8 | upper skullwings | ✓ |
+| S9 | lower skullwings | ✓ |
 
 ## Room Transitions
 
@@ -23,12 +28,22 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| G1 | gap 1 | left exit area | starting line | spike pogo OR run OR dash OR drifter's cloak OR faydown cloak OR cling grip OR clawline OR sharpdart |  | Verified | ✓ |  |
-| G1 | gap 1 | starting line | left exit area | spike pogo OR run OR dash OR drifter's cloak OR faydown cloak OR cling grip OR clawline OR sharpdart |  | Verified | ✓ |  |
-| LC | lava challenge | starting line | mask shard spot | silk soar  OR medium scuttlebrace OR ( ( cling grip OR scuttlebrace ) AND ( dash OR drifter's cloak OR faydown cloak OR clawline OR sharpdart ) ) |  | Verified | ✓ | the scuttlebrace-only tech allows this to be done without anything else, but I would personally consider it medium because of the timing and control requirements w/ lava damage for mistakes |
-| LC | lava challenge | mask shard spot | starting line | none (falling) |  | Verified | ✓ |  |
-| SW | skullwing access | starting line | lower skullwing spot | ( faydown AND ledge grab )  OR ( ( cling grip OR scuttlebrace ) AND ( run OR dash OR clawline OR drifters OR faydown OR sharpdart ) ) | TODO | Verified | ✓ | test flea brew as option for getting from pogo fruit to wall to cling grip |
-| F1 | fall 1 | mask shard spot | lower skullwing spot | none (falling) |  | Verified | ✓ | so silk soar is a viable option to get here too |
+| SG | spike gap | left exit area | starting line | spike pogo  OR run  OR dash right OR drifters  OR faydown  OR cling grip right OR clawline right OR sharpdart OR flea brew |  | Verified | ✓ |  |
+| SG | spike gap | starting line | left exit area | spike pogo  OR run  OR dash left  OR drifters  OR faydown  OR cling grip left  OR clawline left  OR sharpdart OR flea brew |  | Verified | ✓ |  |
+| CC | cheese cheater | starting line | mask shard spot | silk soar |  | Verified | ✓ |  |
+| CC | cheese cheater | mask shard spot | starting line | none (falling) |  | Verified | ✓ |  |
+| LP | lava platforms | starting line | first checkpoint | ( run OR dash right OR drifters OR faydown OR sharpdart  OR clawline right OR flea brew OR easy [beast, hunter, architect] pogo OR easy [architect] charge OR medium [wanderer] charge (high fall penalty) ) AND ( ( cling grip right ) OR ( faydown AND cling grip left ) ) |  | Verified | ✓ |  |
+| LG | lower gap | first checkpoint | second checkpoint | intended pogo off skullwing OR clawline left OR ( sharpdart AND dash left )  OR ( faydown AND ( dash left OR sharpdart OR drifters ) ) OR ( dash left AND drifters AND ( ledge grab left OR cling grip left ) ) |  | Verified | ✓ | to test: - stalls - needle strikes |
+| FD1 | faydown is overpowered 1 | first checkpoint | lone pogo fruit | faydown |  | Verified | ✓ |  |
+| MGL | middle gap left | second checkpoint | lone pogo fruit | intended pogo off skullwing OR faydown OR clawline right OR easy beast pogo |  | Verified | ✓ | just getting from the small platform to the pogo fruit with or without souls |
+| FD2 | faydown is overpowered 2 | mask shard spot | second checkpoint | none (falling) |  | Verified | ✓ |  |
+| FD2 | faydown is overpowered 2 | second checkpoint | mask shard spot | silk soar OR ( faydown AND cling grip left ) |  | Verified | ✓ |  |
+| MGR | middle gap right | lone pogo fruit | cling wall | ( easy shaman pogo (off fruit) AND intended pogo off skullwing (upper level ones) ) OR ( cling grip right AND (  faydown  OR drifters  OR dash right  OR clawline right  OR sharpdart  OR easy [ flea brew ] stall  OR medium [ reaper ] pogo  OR ( flea brew AND medium [ wanderer, witch ] pogo )  ) ) |  | Verified | ✓ | shaman allows you to bypass the need for cling grip by pogoing from the fruit to the upper level skullwings  ironically beast pogo doesn't work here with cling grip |
+| UG | upper gap | cling wall | mask shard spot | clawline left x 2 OR ( faydown AND ( drifters OR sharpdart OR clawline left OR ( dash left AND medium [ architect, hunter ] pogo ) ) ) OR ( intended pogo off skullwing AND ( dash left OR sharpdart OR clawline left OR faydown OR drifters OR ( flea brew AND ( ledge grab left OR cling grip left ) ) ) ) |  | Verified | ✓ | need to test a wide variety of stalls here |
+| LSR | lower skullwing access right | first checkpoint | lower skullwings | none |  | Verified | ✓ | just for skullwing enemy journal access |
+| LSL | lower skullwing access left | second checkpoint | lower skullwings | none |  | Verified | ✓ | just for skullwing enemy journal access |
+| USR | upper skullwing access right | cling wall | upper skullwings | none |  | Verified | ✓ | just for skullwing enemy journal access |
+| USL | upper skullwing access left | mask shard spot | upper skullwings | dash right OR clawline right OR sharpdart |  | Verified | ✓ | just for skullwing enemy journal access |
 
 ## Check Locations
 
@@ -37,10 +52,10 @@
 | 1 | weavenest alta mask shard | mask shard spot | none |  | Verified | collectible | ✓ |  |
 | 2 | Pharlid Diver 1 | left exit area | None |  | Verified | enemy | ✓ |  |
 | 3 | Pharlid Diver 2 | starting line | None |  | Verified | enemy | ✓ |  |
-| 4 | Skullwing 1 | lower skullwing spot | None |  | Verified | enemy | ✓ |  |
-| 5 | Skullwing 2 | mask shard spot | None |  | Verified | enemy | ✓ |  |
-| 6 | Skullwing 3 | mask shard spot | None |  | Verified | enemy | ✓ |  |
-| 7 | Skullwing 4 | lower skullwing spot | None |  | Verified | enemy | ✓ | can be accessed if you can reach the mask shard spot for the most part |
+| 4 | Skullwing 1 | lower skullwings | None |  | Verified | enemy | ✓ |  |
+| 5 | Skullwing 2 | upper skullwings | None |  | Verified | enemy | ✓ |  |
+| 6 | Skullwing 3 | upper skullwings | None |  | Verified | enemy | ✓ |  |
+| 7 | Skullwing 4 | lower skullwings | None |  | Verified | enemy | ✓ | can be accessed if you can reach the mask shard spot for the most part |
 
 ## Room Images
 

@@ -30,16 +30,16 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | DS | door switch | shakra intro | bench spot | activate bench gate switch |  | Verified | ✓ |  |
 | DS | door switch | bench spot | shakra intro | activate bench gate switch |  | Verified | ✓ |  |
-| V1 | vertical 1 | right lower path | right upper path | ledge grab  OR cling grip OR silk soar OR faydown |  | Verified | ✓ |  |
+| V1 | vertical 1 | right lower path | right upper path | ledge grab left OR cling grip left OR silk soar OR faydown |  | Verified | ✓ |  |
 | V1 | vertical 1 | right upper path | right lower path | none (falling) |  | Verified | ✓ |  |
-| G1 | gap 1 | right upper path | middle upper platform | activate lower platform switch same room OR clawline OR sharpdart OR faydown OR ( run AND ( ledge grab OR dash OR easy beast pogo OR easy shaman pogo OR drifters ) ) |  | Verified | ✓ |  |
+| G1 | gap 1 | right upper path | middle upper platform | activate lower platform switch same room OR clawline left OR sharpdart OR faydown OR ( run AND ( ledge grab left OR dash left OR easy beast pogo OR easy shaman pogo OR drifters ) ) |  | Verified | ✓ |  |
 | G1 | gap 1 | middle upper platform | right upper path | activate lower platform switch same room |  | Verified | ✓ |  |
 | V2 | vertical 2 | right lower path | middle upper platform | silk soar |  | Verified | ✓ |  |
 | V2 | vertical 2 | middle upper platform | right lower path | none (falling) |  | Verified | ✓ |  |
-| V3 | vertical 3 | right lower path | shakra intro | ledge grab  OR cling grip OR silk soar OR faydown OR scuttlebrace OR easy shaman pogo |  | Verified | ✓ |  |
+| V3 | vertical 3 | right lower path | shakra intro | ledge grab either OR cling grip either OR silk soar OR faydown OR easy scuttlebrace OR easy shaman pogo |  | Verified | ✓ |  |
 | V3 | vertical 3 | shakra intro | right lower path | none (falling) |  | Verified | ✓ |  |
-| G2 | gap 2 | middle upper platform | shakra intro | run  OR dash OR easy beast pogo OR easy architect pogo OR drifters OR faydown OR clawline OR sharpdart |  | Verified | ✓ |  |
-| G2 | gap 2 | shakra intro | middle upper platform | clawline OR sharpdart |  | Verified | ✓ | anything that would get you from lower to upper is excluded for simplicity (ledge grab) |
+| G2 | gap 2 | middle upper platform | shakra intro | run  OR dash left OR easy beast pogo OR easy architect pogo OR drifters OR faydown OR clawline left OR sharpdart |  | Verified | ✓ |  |
+| G2 | gap 2 | shakra intro | middle upper platform | clawline right OR sharpdart |  | Verified | ✓ | anything that would get you from lower to upper is excluded for simplicity (ledge grab) |
 
 ## Check Locations
 

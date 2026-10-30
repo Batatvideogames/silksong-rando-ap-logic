@@ -22,7 +22,7 @@
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | LL | lower left | lower entry | [Sinner's Road Vertical Hall West (Dust_02)](sinner-s-road-vertical-hall-west.md) | MR | none |  | Verified | ✓ |  |
-| R | right | right ledge | [Sinner's Road Chef's Kitchen (Dust_Chef)](sinner-s-road-chef-s-kitchen.md) | L | none |  | Verified | ✓ |  |
+| R | right | right ledge | [Sinner's Road Chef's Kitchen (Dust_Chef)](sinner-s-road-chef-s-kitchen.md) | L | complete Unlock the Kitchen Deadbolt IN Sinner's Road Chef's Kitchen |  | Verified | ✓ |  |
 | UL | upper left | upper entry | [Sinner's Road Vertical Hall West (Dust_02)](sinner-s-road-vertical-hall-west.md) | UR | none |  | Verified | ✓ |  |
 | S | shack | shack | [Sinner's Road Shack (dust_shack)](sinner-s-road-shack.md) | L | none |  | Verified | ✓ |  |
 
@@ -30,47 +30,47 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| RSL | right ledge to shard ledge | right ledge | shard ledge | Faydown cloak OR silk soar OR (cling grip AND enemy pogo AND (clawline OR sharpdart)) |  | Verified | ✓ |  |
+| RSL | right ledge to shard ledge | right ledge | shard ledge | Faydown cloak OR silk soar OR (cling grip right AND enemy pogo AND (clawline right OR sharpdart)) |  | Verified | ✓ |  |
 | RSL | right ledge to shard ledge | shard ledge | right ledge | none |  | Verified | ✓ |  |
-| UES | upper entry to shack | plat above upper door | shack | Clawline OR ((Cling grip OR silk soar) AND enemy pogo AND (drifter’s cloak OR sharpdart)) |  | Verified | ✓ |  |
-| UES | upper entry to shack | shack | plat above upper door | Run AND (faydown cloak OR clawline OR sharpdart) |  | Verified | ✓ |  |
+| UES | upper entry to shack | plat above upper door | shack | Clawline right x 5 OR ((Cling grip left OR silk soar) AND enemy pogo AND (drifter’s cloak OR sharpdart)) |  | Verified | ✓ |  |
+| UES | upper entry to shack | shack | plat above upper door | Run left AND (faydown cloak OR clawline x 5 OR sharpdart) |  | Verified | ✓ |  |
 | RLS | right ledge to shack | right ledge | shack | silk soar |  | Verified | ✓ |  |
 | RLS | right ledge to shack | shack | right ledge | none |  | Verified | ✓ |  |
-| LP | lower entry to lower platform | lower entry | lower platform | ledge grab OR cling grip OR clawline OR sharpdart OR run OR dash OR drifter's cloak OR faydown cloak OR easy beast pogo OR easy wanderer needle strike OR easy architect needle strike |  | Verified | ✓ |  |
+| LP | lower entry to lower platform | lower entry | lower platform | ledge grab right OR cling grip right OR clawline right OR sharpdart OR run right OR dash right OR drifter's cloak OR faydown cloak OR easy beast pogo OR easy wanderer needle strike OR easy architect needle strike |  | Verified | ✓ |  |
 | LP | lower entry to lower platform | lower platform | lower entry | none |  | Verified | ✓ |  |
-| PR | lower platform to right ledge | lower platform | right ledge | clawline OR enemy pogo OR (faydown cloak AND drifter's cloak AND ledge grab AND (sharpdart OR dash OR run)) |  | Verified | ✓ |  |
-| PR | lower platform to right ledge | right ledge | lower platform | clawline OR sharpdart OR swim OR enemy pogo OR drifter's cloak OR dash |  | Verified | ✓ |  |
-| UP | upper entry to upper plat | upper entry | plat above upper door | ledge grab OR cling grip OR silk soar OR faydown cloak |  | Verified | ✓ |  |
+| PR | lower platform to right ledge | lower platform | right ledge | clawline right OR enemy pogo OR (faydown cloak AND drifter's cloak AND ledge grab AND (sharpdart OR dash right OR run right)) |  | Verified | ✓ |  |
+| PR | lower platform to right ledge | right ledge | lower platform | clawline left OR sharpdart OR swim OR enemy pogo OR drifter's cloak OR dash left |  | Verified | ✓ |  |
+| UP | upper entry to upper plat | upper entry | plat above upper door | ledge grab right OR cling grip right OR silk soar OR faydown cloak |  | Verified | ✓ |  |
 | UP | upper entry to upper plat | plat above upper door | upper entry | none |  | Verified | ✓ |  |
 | LPM | lower plat to mid left plat | lower platform | middle left plat | silk soar |  | Verified | ✓ |  |
 | LPM | lower plat to mid left plat | middle left plat | lower platform | none |  | Verified | ✓ |  |
-| LEM | lower entry to mid left plat | lower entry | middle left plat | cling grip AND faydown cloak |  | Verified | ✓ |  |
+| LEM | lower entry to mid left plat | lower entry | middle left plat | cling grip left AND faydown cloak |  | Verified | ✓ |  |
 | LEM | lower entry to mid left plat | middle left plat | lower entry | none |  | Verified | ✓ |  |
-| LMU | middle left plat to upper | middle left plat | plat above upper door | silk soar OR (cling grip AND (clawline OR enemy pogo)) OR (faydown cloak AND (enemy pogo OR (clawline AND (ledge grab OR cling grip)))) |  | Verified | ✓ |  |
+| LMU | middle left plat to upper | middle left plat | plat above upper door | silk soar OR cling grip left OR faydown cloak |  | Verified | ✓ |  |
 | LMU | middle left plat to upper | plat above upper door | middle left plat | none |  | Verified | ✓ |  |
-| MLS | middle left to shard | middle left plat | shard ledge | faydown cloak OR (run AND (ledge grab OR cling grip)) OR (clawline AND (ledge grab OR cling grip)) |  | Verified | ✓ |  |
-| MLS | middle left to shard | shard ledge | middle left plat | ((ledge grab OR cling grip) AND (dash OR clawline x 2 OR sharpdart x 2)) |  | Verified | ✓ |  |
-| RML | right ledge to middle left | right ledge | middle left plat | ((cling grip OR silk soar OR (faydown cloak AND ledge grab)) AND (((enemy pogo OR clawline OR (dash AND drifter's cloak) OR sharpdart x 2) AND (ledge grab OR cling grip)) OR (faydown cloak AND dash))) |  | Verified | ✓ |  |
-| RML | right ledge to middle left | middle left plat | right ledge | run OR dash OR clawline OR sharpdart OR drifter's cloak OR faydown cloak |  | Verified | ✓ |  |
+| MLS | middle left to shard | middle left plat | shard ledge | faydown cloak OR (run AND (ledge grab right OR cling grip right)) OR (clawline right AND (ledge grab right OR cling grip right)) |  | Verified | ✓ |  |
+| MLS | middle left to shard | shard ledge | middle left plat | ((ledge grab left OR cling grip left) AND (dash left OR clawline left x 2 OR sharpdart x 2)) |  | Verified | ✓ |  |
+| RML | right ledge to middle left | right ledge | middle left plat | ((cling grip left OR silk soar OR (faydown cloak AND ledge grab left)) AND (((enemy pogo OR clawline left OR (dash left AND drifter's cloak) OR sharpdart x 2) AND (ledge  grab left OR cling grip left)) OR (faydown cloak AND dash left))) |  | Verified | ✓ |  |
+| RML | right ledge to middle left | middle left plat | right ledge | run right OR clawline right OR sharpdart OR drifter's cloak OR faydown cloak |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | My Missing Brother Wish Granted | upper entry | complete THE My Missing Brother Wish Promised |  | Verified | event |  |  |
-| 2 | Shell Shard Cache: Sinner’s Road #4 | shard ledge | none |  | Verified | collectible |  |  |
-| 3 | Shell Shard Cache: Sinner’s Road #5 | shard ledge | none |  | Verified | collectible |  |  |
+| 2 | Shell Shards Lugoli Probably Threw Out: The First | shard ledge | none |  | Verified | collectible |  | Formerly: Shell Shard Cache: Sinner’s Road #4 |
+| 3 | Shell Shards Lugoli Probably Threw Out: The Second | shard ledge | none |  | Verified | collectible |  | Formerly: Shell Shard Cache: Sinner’s Road #5 |
 | 4 | Upper Entry Switch | upper entry | hit switch left OR hit switch up |  | Verified | switch |  |  |
-| 5 | Roachfeeder 1 |  |  |  |  | enemy | ✓ |  |
-| 6 | Roachcatcher 1 |  |  |  |  | enemy | ✓ |  |
-| 7 | Roachcatcher 2 |  |  |  |  | enemy | ✓ |  |
-| 8 | Roachfeeder 2 |  |  |  |  | enemy | ✓ |  |
-| 9 | Roachcatcher 3 |  |  |  |  | enemy | ✓ |  |
-| 10 | Roachcatcher 4 |  |  |  |  | enemy | ✓ |  |
-| 11 | Roachcatcher 5 |  |  |  |  | enemy | ✓ |  |
-| 12 | Roachfeeder 3 |  |  |  |  | enemy | ✓ |  |
-| 13 | Mite 1 |  |  |  |  | enemy | ✓ |  |
-| 14 | Mite 2 |  |  |  |  | enemy | ✓ |  |
+| 5 | Roachfeeder 1 | plat above upper door | prereq THE my missing brother wish promised |  | Verified | enemy | ✓ | Spawn conditions: Save Courier Tall accepted=true, Save Courier Tall completed=false |
+| 6 | Roachcatcher 1 | plat above upper door | prereq THE my missing brother wish promised |  | Verified | enemy | ✓ | Spawn conditions: Save Courier Tall accepted=true, Save Courier Tall completed=false |
+| 7 | Picnic Partner, the Roachcatcher | plat above upper door | none |  | Verified | enemy | ✓ | Formerly: Roachcatcher 2 |
+| 8 | Maximillian, the Roachfeeder | middle left plat | none |  | Verified | enemy | ✓ | Formerly: Roachfeeder 2 |
+| 9 | Roachcatcher 3 | lower platform | none |  | Verified | enemy | ✓ | Formerly: Roachcatcher 3 |
+| 10 | Roachcatcher 4 | lower platform | invalid |  | Verified | enemy | ✓ | set to ambush hornet in fsm. unused or untriggered perhaps? - hero, 10/29 |
+| 11 | Roachcatcher 5 | lower platform | invalid |  | Verified | enemy | ✓ | set to ambush hornet in fsm. unused or untriggered perhaps? - hero, 10/29 |
+| 12 | Roachfeeder 3 | lower platform | none |  | Verified | enemy | ✓ | Formerly: Roachfeeder 3 |
+| 13 | Dog, the Mite | right ledge | none |  | Verified | enemy | ✓ | Formerly: Mite 1 |
+| 14 | Tiny Man, the Mite | middle left plat | none |  | Verified | enemy | ✓ | Formerly: Mite 2 |
 
 ## Room Images
 

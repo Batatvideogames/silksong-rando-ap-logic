@@ -41,9 +41,9 @@
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Stilkin 1 |  |  |  |  | enemy | ✓ |  |
-| 2 | Stilkin 2 |  |  |  |  | enemy | ✓ |  |
-| 3 | Stilkin 3 |  |  |  |  | enemy | ✓ |  |
+| 1 | Greg, the Stilkin | left lower | none |  | Verified | enemy | ✓ | Formerly: Stilkin 1 |
+| 2 | Abraham, the Stilkin | upper | none |  | Verified | enemy | ✓ | Formerly: Stilkin 2 |
+| 3 | Charlotte, the Stilkin | under upper | none |  | Verified | enemy | ✓ | Formerly: Stilkin 3 |
 
 ## Room Images
 

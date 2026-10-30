@@ -22,7 +22,7 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| KK | kneel before the king | ground floor | tyrants throne | ledge grab OR silk soar OR cling grip OR faydown |  | Verified | ✓ |  |
+| KK | kneel before the king | ground floor | tyrants throne | ledge grab right OR silk soar OR cling grip right OR faydown OR easy shaman pogo OR ( easy pogo off skull scuttler AND easy reaper pogo ) |  | Verified | ✓ |  |
 | KK | kneel before the king | tyrants throne | ground floor | none (falling) |  | Verified | ✓ |  |
 
 ## Check Locations

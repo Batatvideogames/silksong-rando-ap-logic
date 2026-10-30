@@ -20,7 +20,7 @@
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | LR | lower right | low right | [Bilewater Lower East Hall (Shadow_03)](bilewater-lower-east-hall.md) | L | none |  | Verified | ✓ |  |
-| UR | upper right | halfway up | [Bilewater Upper East Column (Shadow_26)](bilewater-upper-east-column.md) | LL | (clawline OR enemy pogo) AND (faydown cloak OR drifter's cloak) |  | Verified | ✓ |  |
+| UR | upper right | halfway up | [Bilewater Upper East Column (Shadow_26)](bilewater-upper-east-column.md) | LL | faydown cloak OR drifter's cloak |  | Verified | ✓ |  |
 | LL | lower left | low left | [Bilewater West Hall (Shadow_04b)](bilewater-west-hall.md) | R | none |  | Verified | ✓ |  |
 | MR | middle right | mid right | [Bilewater Shakra Room (Shadow_23)](bilewater-shakra-room.md) | L | none |  | Verified | ✓ |  |
 | UL | upper left | up left | [Bilewater Upper West Column (Shadow_14)](bilewater-upper-west-column.md) | LR | none |  | Verified | ✓ |  |

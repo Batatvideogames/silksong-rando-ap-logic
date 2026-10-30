@@ -29,18 +29,18 @@
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | LG | lava gap | ground left | ground right | none (jump) |  | Verified | ✓ |  |
-| LG | lava gap | ground right | ground left | ledge grab OR run OR dash OR drifters OR faydown OR cling grip OR scuttlebrace OR silk soar OR clawline OR sharpdart OR easy shaman pogo OR easy beast pogo |  | Verified | ✓ |  |
-| V1 | vertical 1 | ground right | flea sign platform | ledge grab OR faydown OR silk soar OR cling grip OR easy shaman pogo |  | Verified | ✓ |  |
+| LG | lava gap | ground right | ground left | ledge grab left OR cling grip left OR run OR dash left OR drifters OR faydown OR easy scuttlebrace OR silk soar OR clawline left OR sharpdart OR easy shaman pogo OR easy beast pogo |  | Verified | ✓ |  |
+| V1 | vertical 1 | ground right | flea sign platform | ledge grab left OR cling grip left OR faydown OR silk soar OR easy shaman pogo |  | Verified | ✓ |  |
 | V1 | vertical 1 | flea sign platform | ground right | none (falling) |  | Verified | ✓ |  |
-| V2 | vertical 2 | ground right | chain break spot | ledge grab OR faydown OR silk soar OR cling grip OR easy shaman pogo |  | Verified | ✓ |  |
+| V2 | vertical 2 | ground right | chain break spot | ledge grab left OR cling grip left OR faydown OR silk soar OR easy shaman pogo |  | Verified | ✓ | can't find a way to make an enemy pogo matter here - hero, 10/29 |
 | V2 | vertical 2 | chain break spot | ground right | none (falling) |  | Verified | ✓ |  |
-| V3 | vertical 3 | ground left | left platforms | silk soar OR faydown OR ( after chain drop platform AND ( ledge grab OR cling grip ) ) |  | Verified | ✓ |  |
+| V3 | vertical 3 | ground left | left platforms | silk soar OR faydown OR ( after chain drop platform AND ( ledge grab left OR cling grip left ) ) |  | Verified | ✓ |  |
 | V3 | vertical 3 | left platforms | ground left | none (falling) |  | Verified | ✓ |  |
-| V4 | vertical 4 | left platforms | upper left exit | silk soar OR ledge grab OR cling grip OR faydown OR easy shaman pogo |  | Verified | ✓ |  |
+| V4 | vertical 4 | left platforms | upper left exit | silk soar OR ledge grab right OR cling grip either OR easy enemy pogo off caranid OR faydown OR easy shaman pogo |  | Verified | ✓ |  |
 | V4 | vertical 4 | upper left exit | left platforms | none (falling) |  | Verified | ✓ |  |
-| G1 | gap 1 | left platforms | chain break spot | clawline OR sharpdart OR faydown OR ( run AND ( dash OR easy beast pogo ) ) |  | Verified | ✓ |  |
+| G1 | gap 1 | left platforms | chain break spot | clawline right OR sharpdart OR faydown OR ( run AND ( dash right OR easy beast pogo ) ) |  | Verified | ✓ |  |
 | G1 | gap 1 | chain break spot | left platforms | none (falling) |  | Verified | ✓ |  |
-| G2 | gap 2 | chain break spot | flea sign platform | clawline |  | Verified | ✓ | only needs to cover horizontal movement that V2 doesn't. no inverse. |
+| G2 | gap 2 | chain break spot | flea sign platform | easy pogo off caranid OR easy damage boost off caranid |  | Verified | ✓ |  |
 
 ## Check Locations
 

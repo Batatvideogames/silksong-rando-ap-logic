@@ -8,8 +8,8 @@
 
 | No. | Subroom | Annotated |
 | --- | --- | --- |
-| S1 | the pit of despair |  |
-| S2 | the highest highs |  |
+| S1 | the pit of despair | ✓ |
+| S2 | the highest highs | ✓ |
 
 ## Room Transitions
 
@@ -22,18 +22,18 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| MJ | massive jump | the pit of despair | the highest highs | ledge grab OR clawline OR faydown cloak OR silk soar OR scuttlebrace OR cling grip OR easy shaman pogo |  | Verified |  |  |
-| MJ | massive jump | the highest highs | the pit of despair | none (falling) |  | Verified |  |  |
+| MJ | massive jump | the highest highs | the pit of despair | none (falling) |  | Verified | ✓ |  |
+| MJ | massive jump | the pit of despair | the highest highs | ledge grab OR cling grip OR easy scuttlebrace OR easy shaman pogo OR (easy pogo off Fertid AND easy reaper pogo) OR silk soar OR faydown cloak |  | Verified | ✓ |  |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | rosary cache far fields 11 | the highest highs | none |  | Verified | collectible |  |  |
-| 2 | rosary cache far fields 12 | the highest highs | none |  | Verified | collectible |  |  |
-| 3 | rosary cache far fields 13 | the highest highs | none |  | Verified | collectible |  |  |
-| 4 | Fertid 1 |  |  |  |  | enemy | ✓ |  |
-| 5 | Skarr Stalker 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 1 | Lower Fort Sentry's Ration Bonds | the highest highs | none |  | Verified | collectible | ✓ | formerly rosary cache far fields 11 |
+| 2 | Lower Fort Sentry's Personal Rosaries | the highest highs | none |  | Verified | collectible | ✓ | formerly rosary cache far fields 12 |
+| 3 | Last Rosary Stipend - Queen's Final Orders "Live and Hunt for yourself" | the highest highs | none |  | Verified | collectible | ✓ | formerly rosary cache far fields 13 |
+| 4 | Fertid 1 | the pit of despair | none |  | Verified | enemy | ✓ |  |
+| 5 | Skarr Stalker 1 | the highest highs | Normal World Spawn |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

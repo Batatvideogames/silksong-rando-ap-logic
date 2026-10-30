@@ -24,12 +24,12 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| CL | climb pit | ground floor | right exit area | break wall right AND ( spike pogo OR dash OR drifter's cloak OR faydown cloak OR cling grip OR clawline OR sharpdart OR scuttlebrace ) |  | Verified | ✓ |  |
-| CL | climb pit | right exit area | ground floor | break wall left AND ( scuttlebrace OR ( cling grip AND ( spike pogo OR run OR dash OR drifter's cloak OR faydown cloak OR clawline OR sharpdart ) ) ) |  | Verified | ✓ |  |
-| V1 | vertical 1 | ground floor | left exit area | ledge grab OR faydown cloak OR cling grip OR scuttlebrace |  | Verified | ✓ |  |
+| CL | climb pit | ground floor | right exit area | break wall right  AND (  spike pogo  OR dash right OR drifters  OR faydown OR cling grip right OR clawline right OR sharpdart  OR easy scuttlebrace ) |  | Verified | ✓ |  |
+| CL | climb pit | right exit area | ground floor | break wall left  AND ( easy scuttlebrace OR ( cling grip left AND ( spike pogo OR run OR dash left OR drifter's cloak OR faydown cloak OR clawline left OR sharpdart OR flea brew ) ) ) |  | Verified | ✓ |  |
+| V1 | vertical 1 | ground floor | left exit area | ledge grab either OR cling grip either OR faydown cloak OR silk soar |  | Verified | ✓ |  |
 | V1 | vertical 1 | left exit area | ground floor | none (falling) |  | Verified | ✓ |  |
-| V2 | vertical 2 | ground floor | upper platform | ledge grab OR faydown cloak OR cling grip OR scuttlebrace |  | Verified | ✓ |  |
-| V2 | vertical 2 | upper platform | ground floor | none (falling) |  | Verified | ✓ |  |
+| V2 | vertical 2 | left exit area | upper platform | ledge grab both OR cling grip right OR ( ledge grab right AND easy pogo off servitor ignim AND ( medium [shaman, wanderer, reaper, architect] pogo (single chance, bench respawn) ) ) OR ( proficient movement AND ledge grab right AND cling grip left (frame perfect?) ) OR faydown cloak  OR silk soar |  | Verified | ✓ |  |
+| V2 | vertical 2 | upper platform | left exit area | none (falling) |  | Verified | ✓ |  |
 
 ## Check Locations
 

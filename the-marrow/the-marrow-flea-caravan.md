@@ -30,13 +30,13 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | DS | door switch | flea floor | behind metal gate | activate door switch |  | Verified | ✓ |  |
 | DS | door switch | behind metal gate | flea floor | activate door switch |  | Verified | ✓ |  |
-| V1 | vertical 1 | ground floor | flea floor | ledge grab OR easy shaman pogo OR faydown OR cling grip OR scuttlebrace OR silk soar |  | Verified | ✓ |  |
+| V1 | vertical 1 | ground floor | flea floor | ledge grab left OR easy shaman pogo OR faydown OR cling grip left OR easy scuttlebrace OR silk soar |  | Verified | ✓ |  |
 | V1 | vertical 1 | flea floor | ground floor | none (falling) |  | Verified | ✓ |  |
 | BW | break wall | before breakable wall | behind breakable wall | break wall left |  | Verified | ✓ |  |
 | BW | break wall | behind breakable wall | before breakable wall | break wall right |  | Verified | ✓ |  |
-| V2 | vertical 2 | flea floor | before breakable wall | ledge grab OR faydown OR cling grip OR silk soar |  | Verified | ✓ |  |
+| V2 | vertical 2 | flea floor | before breakable wall | ledge grab left OR faydown OR cling grip left OR silk soar |  | Verified | ✓ |  |
 | V2 | vertical 2 | before breakable wall | flea floor | none (falling) |  | Verified | ✓ |  |
-| V3 | vertical 3 | before breakable wall | top floor | ledge grab OR easy shaman pogo OR faydown OR cling grip OR scuttlebrace OR silk soar |  | Verified | ✓ |  |
+| V3 | vertical 3 | before breakable wall | top floor | ledge grab left OR easy shaman pogo OR faydown OR cling grip either OR easy scuttlebrace OR silk soar |  | Verified | ✓ |  |
 | V3 | vertical 3 | top floor | before breakable wall | none (falling) |  | Verified | ✓ |  |
 
 ## Check Locations

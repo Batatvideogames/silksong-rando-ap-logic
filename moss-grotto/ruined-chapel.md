@@ -2,7 +2,7 @@
 
 **Game ID:** Tut_03
 
-**Contributors:** herounit, gallos
+**Contributors:** herounit, gallos, cry
 
 ## Subrooms
 
@@ -29,7 +29,7 @@
 | RB | right boss entrance | boss arena | bench passage | complete moss mother boss fight |  | Verified | ✓ |  |
 | LB | left boss entrance | chapel | boss arena | none (starts fight) |  | Verified | ✓ |  |
 | LB | left boss entrance | boss arena | chapel | complete moss mother boss fight |  | Verified | ✓ |  |
-| V1 | ledge grab | bench spot | bench passage | ledge grab right  OR cling grip right OR faydown  OR silk soar OR (easy flea brew stall AND easy beast pogo AND(run OR flea brew OR clawline right OR sharpdart)) OR easy beast needle strike OR (easy shaman pogo AND (clawline right OR run OR sharpdart)) OR (scuttlebrace AND (easy flea brew stall OR needle left)) |  | Verified | ✓ |  |
+| V1 | ledge grab | bench spot | bench passage | ledge grab right  OR cling grip right OR faydown  OR silk soar OR (easy beast pogo AND ((easy flea brew stall AND (run OR flea brew)) OR clawline right OR sharpdart)) OR easy beast needle strike OR (easy shaman pogo AND (clawline right OR run OR sharpdart)) OR (medium scuttlebrace AND (easy flea brew stall OR easy flintslate stall OR needle left)) |  | Verified | ✓ |  |
 | V1 | ledge grab | bench passage | bench spot | none (falling) |  | Verified | ✓ |  |
 
 ## Check Locations

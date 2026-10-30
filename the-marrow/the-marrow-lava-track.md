@@ -36,30 +36,30 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| LT | lava track | right lava track | left lava track | activate track pressure plate  OR ( clawline x 8 AND easy shaman pogo ) |  | Verified | ✓ | other stalls would work but would be harder |
-| LT | lava track | left lava track | right lava track | activate track pressure plate  OR ( clawline x 8 AND easy shaman pogo ) |  | Verified | ✓ | other stalls would work but would be harder |
-| LC | left caranid access | left lava track | caranids over lava | activate track pressure plate OR ( clawline x 4 AND easy shaman pogo ) |  | Verified | ✓ | other stalls would work but would be harder |
-| RC | right caranid access | right lava track | caranids over lava | activate track pressure plate OR ( clawline x 4 AND easy shaman pogo ) |  | Verified | ✓ | other stalls would work but would be harder |
-| AM | ascend to maze | right lava track | lower maze 2 | cling grip  OR silk soar  OR ( scuttlebrace AND ( ledge grab OR faydown cloak OR clawline  ) ) |  | Verified | ✓ |  |
+| LT | lava track | left lava track | right lava track | activate track pressure plate  OR ( clawline right x 8 AND easy shaman pogo ) |  | Verified | ✓ | other stalls would work but would be harder |
+| LT | lava track | right lava track | left lava track | activate track pressure plate  OR ( clawline left x 8 AND easy shaman pogo ) |  | Verified | ✓ | other stalls would work but would be harder |
+| LC | left caranid access | left lava track | caranids over lava | activate track pressure plate OR ( clawline right x 4 AND easy shaman pogo ) |  | Verified | ✓ | other stalls would work but would be harder |
+| RC | right caranid access | right lava track | caranids over lava | activate track pressure plate OR ( clawline left x 4 AND easy shaman pogo ) |  | Verified | ✓ | other stalls would work but would be harder |
+| AM | ascend to maze | right lava track | lower maze 2 | cling grip left OR silk soar  OR ( easy scuttlebrace AND ( ledge grab either OR faydown cloak ) ) |  | Verified | ✓ |  |
 | AM | ascend to maze | lower maze 2 | right lava track | none (falling) |  | Verified | ✓ |  |
 | RBW | right break wall | lower maze 2 | lower maze 3 | break wall right |  | Verified | ✓ |  |
 | RBW | right break wall | lower maze 3 | lower maze 2 | break wall left |  | Verified | ✓ |  |
-| AR | ascend right | lower maze 3 | right alcove | cling grip  OR scuttlebrace  OR ( faydown AND ledge grab ) |  | Verified | ✓ |  |
-| AR | ascend right | right alcove | lower maze 3 | spike pogo  OR cling grip  OR faydown  OR dash  OR drifters  OR clawline  OR sharpdart  OR scuttlebrace |  | Verified | ✓ |  |
-| MMA | middle maze ascend | lower maze 1 | middle maze | cling grip  OR scuttlebrace  OR ( faydown cloak AND ( ledge grab OR clawline OR easy shaman pogo ) ) |  | Verified | ✓ |  |
+| AR | ascend right | lower maze 3 | right alcove | cling grip either OR easy scuttlebrace  OR ( faydown AND ledge grab left ) |  | Verified | ✓ |  |
+| AR | ascend right | right alcove | lower maze 3 | spike pogo  OR cling grip either  OR faydown  OR dash left OR drifters  OR clawline left OR sharpdart  OR easy scuttlebrace |  | Verified | ✓ | harder to drop down than to go up LOL |
+| MMA | middle maze ascend | lower maze 1 | middle maze | cling grip either OR easy scuttlebrace  OR ( faydown cloak AND ( ledge grab left OR easy shaman pogo ) ) |  | Verified | ✓ |  |
 | MMA | middle maze ascend | middle maze | lower maze 1 | none (falling) |  | Verified | ✓ |  |
 | LA | left alcove access | middle maze | left alcove | break wall left |  | Verified | ✓ |  |
-| LA | left alcove access | left alcove | middle maze | break wall right  AND ( cling grip OR scuttlebrace OR ( ledge grab AND faydown cloak ) ) |  | Verified | ✓ |  |
-| SPL | spike pogo left | lower maze 1 | kilik island | ledge grab OR spike pogo  OR run  OR dash  OR drifter's cloak  OR faydown cloak  OR clawline  OR scuttlebrace  OR sharpdart |  | Verified | ✓ | roof makes it so ledge grab works from left to right  but not the other way |
+| LA | left alcove access | left alcove | middle maze | break wall right  AND ( cling grip either OR easy scuttlebrace OR ( ledge grab right AND faydown ) ) |  | Verified | ✓ |  |
+| SPL | spike pogo left | lower maze 1 | kilik island | ledge grab right OR spike pogo  OR run  OR dash right OR drifters  OR faydown OR clawline  right OR easy scuttlebrace OR sharpdart OR flea brew |  | Verified | ✓ | roof makes it so ledge grab works from left to right  but not the other way |
 | SPL | spike pogo left | kilik island | lower maze 1 | none (jump) |  | Verified | ✓ | no roof obstruction |
-| SPR | spike pogo right | lower maze 2 | kilik island | spike pogo  OR run  OR dash  OR drifters  OR faydown  OR clawline  OR scuttlebrace  OR sharpdart |  | Verified | ✓ | possible other stalls might work - lip on ceiling seems to make it impassable with walking jump? |
+| SPR | spike pogo right | lower maze 2 | kilik island | spike pogo  OR run  OR dash left OR drifters  OR faydown  OR clawline left OR easy scuttlebrace  OR sharpdart OR flea brew |  | Verified | ✓ | possible other stalls might work - lip on ceiling seems to make it impassable with walking jump? |
 | SPR | spike pogo right | kilik island | lower maze 2 | none (jump) |  | Verified | ✓ | no roof obstruction |
 | UBW | upper break wall | upper maze left | ceiling exit area | break wall right |  | Verified | ✓ |  |
 | UBW | upper break wall | ceiling exit area | upper maze left | break wall left |  | Verified | ✓ |  |
-| UA | upper ascend | middle maze | upper maze left | silk soar  OR cling grip  OR scuttlebrace  OR ( faydown cloak AND ledge grab ) |  | Verified | ✓ |  |
+| UA | upper ascend | middle maze | upper maze left | silk soar  OR cling grip either OR easy scuttlebrace  OR ( faydown cloak AND ledge grab either ) |  | Verified | ✓ |  |
 | UA | upper ascend | upper maze left | middle maze | none (falling) |  | Verified | ✓ |  |
 | BH | brute hole access | lower maze 1 | brute hole | none (falling) |  | Verified | ✓ |  |
-| BH | brute hole access | brute hole | lower maze 1 | silk soar OR cling grip OR easy scuttlebrace |  | Verified | ✓ |  |
+| BH | brute hole access | brute hole | lower maze 1 | silk soar OR cling grip either OR easy scuttlebrace |  | Verified | ✓ |  |
 
 ## Check Locations
 

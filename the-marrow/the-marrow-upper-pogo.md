@@ -24,7 +24,7 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | BW | break wall | entrance | pogo land | break wall left |  | Verified | ✓ |  |
 | BW | break wall | pogo land | entrance | break wall right |  | Verified | ✓ |  |
-| V1 | vertical 1 | chest area | pogo land | ledge grab OR silk soar OR cling grip OR faydown |  | Verified | ✓ |  |
+| V1 | vertical 1 | chest area | pogo land | ledge grab either OR cling grip either OR silk soar OR faydown |  | Verified | ✓ |  |
 | V1 | vertical 1 | pogo land | chest area | none (falling) |  | Verified | ✓ |  |
 
 ## Check Locations

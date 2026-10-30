@@ -32,7 +32,7 @@
 | MU | middle to upper | middle | upper | Silk soar OR ((cling grip OR scuttlebrace) AND (clawline OR sharpdart OR faydown cloak)) OR (cling grip AND drifter’s cloak) |  | Verified | ✓ |  |
 | MU | middle to upper | upper | middle | none |  | Verified | ✓ |  |
 | FN | floor to nest | floor | nest | swim |  | Verified | ✓ |  |
-| FN | floor to nest | nest | floor | swim |  | Verified | ✓ |  |
+| FN | floor to nest | nest | floor | swim OR (proficient movement AND medium flintslate stall AND clawline right AND faydown cloak AND drifter's cloak AND ledge grab right) |  | Verified | ✓ |  |
 | MBW | middle to behind wall | middle | behind wall | break wall left |  | Verified | ✓ |  |
 | MBW | middle to behind wall | behind wall | middle | break wall right |  | Verified | ✓ |  |
 

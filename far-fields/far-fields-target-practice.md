@@ -6,13 +6,15 @@
 
 ## Subrooms
 
-No subrooms defined.
+| No. | Subroom | Annotated |
+| --- | --- | --- |
+| S1 | skarr target range | ✓ |
 
 ## Room Transitions
 
 | Alias | Name | From subroom | Destination | Destination alias | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| L | left1 |  | [Far Fields Wind Shaft (Bone_East_07)](far-fields-wind-shaft.md) | R4 | none |  | Verified | ✓ |  |
+| L | left1 | skarr target range | [Far Fields Wind Shaft (Bone_East_07)](far-fields-wind-shaft.md) | R4 | none |  | Verified | ✓ |  |
 
 ## Subroom Connections
 
@@ -22,10 +24,10 @@ No subroom connections defined.
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | progressive curveclaw 2 |  | act 3 AND curveclaw |  | Verified | collectible |  | NOT CURRENTLY ON TRACKER - MAY NOT BE RANDOMIZED |
-| 2 | Skarr Scout 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 3 | Skarr Scout 2 |  | Normal World Spawn |  |  | enemy | ✓ |  |
-| 4 | Spear Skarr 1 |  | Normal World Spawn |  |  | enemy | ✓ |  |
+| 1 | progressive curveclaw 2 | skarr target range | act 3 AND curveclaw |  | Verified | collectible |  | NOT CURRENTLY ON TRACKER - MAY NOT BE RANDOMIZED |
+| 2 | Skarr Scout 1 | skarr target range | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 3 | Skarr Scout 2 | skarr target range | Normal World Spawn |  | Verified | enemy | ✓ |  |
+| 4 | Spear Skarr 1 | skarr target range | Normal World Spawn |  | Verified | enemy | ✓ |  |
 
 ## Notes
 

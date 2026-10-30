@@ -21,7 +21,7 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| CG | climb | lower level | upper level | cling grip  OR silk soar OR scuttlebrace |  | Verified | ✓ |  |
+| CG | climb | lower level | upper level | cling grip right OR ( faydown AND cling grip left ) OR silk soar OR easy scuttlebrace |  | Verified | ✓ |  |
 | CG | climb | upper level | lower level | none (falling) |  | Verified | ✓ |  |
 
 ## Check Locations

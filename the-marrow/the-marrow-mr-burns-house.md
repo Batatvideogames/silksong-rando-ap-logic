@@ -24,12 +24,12 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| V1 | vertical 1 | ground floor | right upper area | silk soar OR ledge grab OR cling grip OR faydown |  | Verified | ✓ | silk soar works here because the jump to the platform below the right exit (and above the big goomba) is tight but can be done without ledge grab, so there is no ceiling interference |
+| V1 | vertical 1 | ground floor | right upper area | silk soar OR ledge grab left OR cling grip left OR faydown |  | Verified | ✓ | silk soar works here because the jump to the platform below the right exit (and above the big goomba) is tight but can be done without ledge grab, so there is no ceiling interference |
 | V1 | vertical 1 | right upper area | ground floor | none (falling) |  | Verified | ✓ |  |
-| V2 | vertical 2 | ground floor | right exit area | silk soar OR ledge grab OR cling grip OR faydown |  | Verified | ✓ | silk soar works here because the jump to the platform below the right exit (and above the big goomba) is tight but can be done without ledge grab, so there is no ceiling interference |
+| V2 | vertical 2 | ground floor | right exit area | silk soar OR ledge grab right OR cling grip right OR faydown |  | Verified | ✓ | silk soar works here because the jump to the platform below the right exit (and above the big goomba) is tight but can be done without ledge grab, so there is no ceiling interference |
 | V2 | vertical 2 | right exit area | ground floor | none (falling) |  | Verified | ✓ |  |
-| G1 | gap 1 | right exit area | right upper area | run OR dash OR drifters OR faydown OR clawline OR sharpdart OR easy beast pogo |  | Verified | ✓ |  |
-| G1 | gap 1 | right upper area | right exit area | run OR dash OR drifters OR faydown OR clawline OR sharpdart OR easy beast pogo |  | Verified | ✓ |  |
+| G1 | gap 1 | right exit area | right upper area | run OR dash left OR drifters OR faydown OR clawline left OR sharpdart OR easy beast pogo |  | Verified | ✓ |  |
+| G1 | gap 1 | right upper area | right exit area | run OR dash right OR drifters OR faydown OR clawline right OR sharpdart OR easy beast pogo |  | Verified | ✓ |  |
 | MB | mr burns entry | ground floor | mr burns house | none (tight jump) |  | Verified | ✓ | jump is a tad tight but can be done |
 | MB | mr burns entry | mr burns house | ground floor | none (falling) |  | Verified | ✓ |  |
 

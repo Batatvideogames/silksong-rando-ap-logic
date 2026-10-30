@@ -28,15 +28,15 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| V1 | vertical 1 | upper mid right area | pogo supreme | ledge grab OR easy shaman pogo OR cling grip OR scuttlebrace OR faydown OR silk soar |  | Verified | ✓ |  |
+| V1 | vertical 1 | upper mid right area | pogo supreme | ledge grab left OR easy [ shaman, reaper ] pogo OR cling grip left OR easy scuttlebrace OR faydown OR silk soar |  | Verified | ✓ | reaper pogo can just hit the fruit from a jump lol |
 | V1 | vertical 1 | pogo supreme | upper mid right area | none (falling) |  | Verified | ✓ |  |
-| L1 | loop part 1 | lower mid right area | upper mid right area | ledge grab OR easy shaman pogo OR cling grip OR scuttlebrace OR faydown OR silk soar |  | Verified | ✓ |  |
+| L1 | loop part 1 | lower mid right area | upper mid right area | ledge grab left OR easy shaman pogo OR cling grip left OR easy scuttlebrace OR faydown OR silk soar |  | Verified | ✓ |  |
 | L1 | loop part 1 | upper mid right area | lower mid right area | none (falling) |  | Verified | ✓ |  |
 | L2 | loop part 2 | upper mid right area | cache alcove | break blast rock left |  | Verified | ✓ |  |
 | L3 | loop part 3 | cache alcove | lower mid right area | none (falling) |  | Verified | ✓ |  |
 | BT | blast tunnel | pogo supreme | craftmetal alcove | break blast rock left AND break blast rock right |  | Verified | ✓ |  |
-| BT | blast tunnel | craftmetal alcove | pogo supreme | ledge grab OR cling grip OR scuttlebrace OR faydown |  | Verified | ✓ |  |
-| V2 | vertical 2 | lower right exit area | pogo supreme | ledge grab OR cling grip OR scuttlebrace OR faydown OR silk soar |  | Verified | ✓ |  |
+| BT | blast tunnel | craftmetal alcove | pogo supreme | ledge grab left OR cling grip left OR faydown OR easy scuttlebrace OR easy shaman pogo |  | Verified | ✓ |  |
+| V2 | vertical 2 | lower right exit area | pogo supreme | ledge grab left OR cling grip either OR easy scuttlebrace OR faydown OR silk soar OR easy pogo off [ winged pilgrim ] OR medium pogo off [ pilgrim pouncer ] |  | Verified | ✓ | the pilgrim pouncer eventually wanders towards the ledge but its a bit of a wait |
 | V2 | vertical 2 | pogo supreme | lower right exit area | none (falling) |  | Verified | ✓ |  |
 
 ## Check Locations

@@ -36,7 +36,7 @@
 | 5 | Mothleaf Lagnia 2 | upper | none |  | Verified | enemy | ✓ |  |
 | 6 | Swamp Squit 1 | lower | none |  | Verified | enemy | ✓ |  |
 | 7 | Swamp Squit 2 | lower | none |  | Verified | enemy | ✓ |  |
-| 8 | Miremite 1 | lower | invalid |  | Verified | enemy | ✓ |  |
+| 8 | Miremite 1 | upper | invalid |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

@@ -25,13 +25,13 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| V1 | vertical 1 | ground floor | middle platform | ledge grab OR easy enemy pogo OR easy shaman pogo OR faydown OR cling grip OR silk soar |  | Verified | ✓ |  |
+| V1 | vertical 1 | ground floor | middle platform | ledge grab either OR cling grip either OR easy enemy pogo off [beastfly, caranid] OR easy shaman pogo OR faydown OR silk soar |  | Verified | ✓ |  |
 | V1 | vertical 1 | middle platform | ground floor | none (falling) |  | Verified | ✓ |  |
-| V2 | vertical 2 | middle platform | upper echelon | ledge grab OR easy enemy pogo OR easy shaman pogo OR faydown OR cling grip OR silk soar |  | Verified | ✓ |  |
+| V2 | vertical 2 | middle platform | upper echelon | ledge grab either OR cling grip either OR faydown OR silk soar OR easy enemy pogo off [ caranid ] OR easy shaman pogo OR ( easy enemy pogo off skull scuttler AND easy [ reaper, architect ] pogo ) |  | Verified | ✓ |  |
 | V2 | vertical 2 | upper echelon | middle platform | none (falling) |  | Verified | ✓ |  |
-| FD | flea drop | flea platform | upper echelon | silk soar OR ( ledge grab AND faydown ) |  | Verified | ✓ |  |
+| FD | flea drop | flea platform | upper echelon | silk soar OR ( faydown AND ( ledge grab left OR cling grip either ) ) |  | Verified | ✓ |  |
 | FD | flea drop | upper echelon | flea platform | none (falling) |  | Verified | ✓ |  |
-| FC | flea crossing | ground floor | flea platform | silk soar OR ( clawline AND easy enemy pogo ) |  | Verified | ✓ | can clawline across this gap with the help of a very cooperative enemy |
+| FC | flea crossing | ground floor | flea platform | silk soar OR ( clawline right AND easy enemy pogo off caranid ) |  | Verified | ✓ | can clawline across this gap with the help of a very cooperative enemy |
 | FC | flea crossing | flea platform | ground floor | none (falling) |  | Verified | ✓ |  |
 
 ## Check Locations
