@@ -189828,6 +189828,21 @@
           "image_pixel_x": 499.38201676553757,
           "image_pixel_y": 256.3020228881836,
           "is_out_of_bounds": false
+        },
+        {
+          "id": "mount-fay/mount-fay-frozen-flea#right-exit>upper-left@sd",
+          "alias": "SD",
+          "name": "Spike Drop",
+          "source_node_id": "mount-fay/mount-fay-frozen-flea#right-exit",
+          "target_node_id": "mount-fay/mount-fay-frozen-flea#upper-left",
+          "annotation_x": 141.02520751953125,
+          "annotation_y": 15.768082618713379,
+          "annotation_enabled": true,
+          "image_normalized_x": 0.5262134608937733,
+          "image_normalized_y": 0.873855339050293,
+          "image_pixel_x": 287.838763108894,
+          "image_pixel_y": 595.0954858932496,
+          "is_out_of_bounds": false
         }
       ],
       "locations": [

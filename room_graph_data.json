@@ -227756,7 +227756,7 @@
           "source_node_id": "mount-fay/mount-fay-entrance#ceiling-exits",
           "target": "mount-fay/mount-fay-right-side-middle-room@f1",
           "requirement": {
-            "raw": "( Cling Grip Left AND ( ( Clawline Right AND Clawline Left ) OR ( Faydown Cloak AND Drifters Cloak AND Dash Right ) OR ( Drifters Cloak AND Sharpdart AND ( Proficient Movement AND Spike Pogo ) AND Hard Heal Stall AND Hard Cocoon Skip ) ) AND Intended Pogo off driftlin ) OR Silk Soar",
+            "raw": "( Cling Grip Left AND ( ( Clawline Right AND Clawline Left ) OR ( Faydown Cloak AND DRifters Cloak AND Dash Right ) OR ( Drifters Cloak AND Sharpdart AND ( Proficient Movement AND Spike Pogo ) AND Hard Heal Stall AND Hard Cocoon Skip ) ) AND intended Pogo off driftlin ) OR Silk Soar",
             "mode": "expression",
             "dnf": [
               [
@@ -227923,7 +227923,7 @@
           "source_node_id": "mount-fay/mount-fay-entrance#lower-entrance",
           "target_node_id": "mount-fay/mount-fay-entrance#lower-left-exit",
           "requirement": {
-            "raw": "Silk Soar OR Clawline Left OR ( Faydown Cloak AND ( Proficient Movement AND Spike Pogo ) AND Hard Heal Stall AND Hard Cocoon Skip AND Ledge Grab left ) OR ( Sharpdart AND Drifters Cloak AND Proficient movement )",
+            "raw": "Silk Soar OR Clawline Left OR ( Faydown Cloak AND ( Proficient Movement AND Spike Pogo ) AND Hard Heal Stall AND Ledge Grab left ) OR ( Sharpdart AND Drifters Cloak AND Proficient movement )",
             "mode": "expression",
             "dnf": [
               [
@@ -227937,7 +227937,6 @@
                 "capability:proficient-movement",
                 "capability:spike-pogo",
                 "capability:stall:heal:hard:1",
-                "capability:cocoon-skip:hard",
                 "capability:ledge-grab:left"
               ],
               [
@@ -228182,7 +228181,7 @@
           "source_node_id": "mount-fay/mount-fay-entrance#lower-middle-left-exit",
           "target_node_id": "mount-fay/mount-fay-entrance#upper-middle-left-exit",
           "requirement": {
-            "raw": "Silk Soar OR ( ( Cling Grip Both AND ( Clawline Both OR ( Faydown Cloak AND Drifters Cloak ) OR ( Sharpdart AND Drifters Cloak AND Hard Cocoon Skip AND ( Sprint Both OR Have Tool Flintslate ) ) ) ) AND Intended pogo off driftlin )",
+            "raw": "Silk Soar OR ( ( Cling Grip Both AND ( Clawline Both OR ( Faydown Cloak AND Drifters Cloak ) OR ( Sharpdart AND Drifters Cloak AND Hard Cocoon Skip AND ( Sprint Both OR Have Tool Flintslate ) ) ) ) AND intended pogo off driftlin )",
             "mode": "expression",
             "dnf": [
               [
@@ -228352,7 +228351,7 @@
           "source_node_id": "mount-fay/mount-fay-entrance#upper-left-exit",
           "target_node_id": "mount-fay/mount-fay-entrance#ceiling-exits",
           "requirement": {
-            "raw": "( Cling Grip Left AND ( ( Clawline Right AND Clawline Left ) OR ( Faydown Cloak AND DRifters Cloak AND Dash Right ) OR ( Drifters Cloak AND Sharpdart AND ( Proficient Movement AND Spike Pogo ) AND Hard Heal Stall AND Hard Cocoon Skip ) ) AND Intended Pogo off driftlin ) OR Silk Soar",
+            "raw": "( Cling Grip Left AND ( ( Clawline Right AND Clawline Left ) OR ( Faydown Cloak AND DRifters Cloak AND Dash Right ) OR ( Drifters Cloak AND Sharpdart AND ( Proficient Movement AND Spike Pogo ) AND Hard Heal Stall AND Hard Cocoon Skip ) ) AND intended Pogo off driftlin ) OR Silk Soar",
             "mode": "expression",
             "dnf": [
               [
@@ -228397,7 +228396,7 @@
           "source_node_id": "mount-fay/mount-fay-entrance#ceiling-exits",
           "target_node_id": "mount-fay/mount-fay-entrance#upper-left-exit",
           "requirement": {
-            "raw": "dash left OR Faydown Cloak OR Easy Hunter pogo OR ( ( ( ( Hard plasmium stall OR Hard Cross Stitch stall x 5 OR Hard Pale Nails Stall x 5) AND Ledge grab Left ) OR Easy Flea Brew Stall OR Easy VoltVessels Stall ) AND Intended pogo off driftlin ) OR Clawline left OR Drifters Cloak OR Easy Beast pogo OR Medium Architect pogo",
+            "raw": "dash left OR Faydown Cloak OR Easy Hunter pogo OR ( ( ( ( Hard plasmium stall OR Hard Cross stitch stall x 5 OR Hard Pale Nails stall x 5) AND Ledge grab Left ) OR Easy Flea Brew Stall OR Easy VoltVessels Stall ) AND intended pogo off driftlin ) OR Clawline left OR Drifters Cloak OR Easy Beast pogo OR Medium Architect pogo",
             "mode": "expression",
             "dnf": [
               [
@@ -228575,7 +228574,7 @@
           "has_persisted_state": false,
           "node_id": "mount-fay/mount-fay-entrance#upper-left-exit",
           "requirement": {
-            "raw": "( Cling Grip Left AND ( ( Clawline Right AND Clawline Left ) OR ( Faydown Cloak AND DRifters Cloak AND Dash Right ) OR ( Drifters Cloak AND Sharpdart AND ( Proficient Movement AND Spike Pogo ) AND Hard Heal Stall AND Hard Cocoon Skip ) ) AND Intended Pogo off driftlin ) OR Silk Soar",
+            "raw": "( Cling Grip Left AND ( ( Clawline Right AND Clawline Left ) OR ( Faydown Cloak AND DRifters Cloak AND Dash Right ) OR ( Drifters Cloak AND Sharpdart AND ( Proficient Movement AND Spike Pogo ) AND Hard Heal Stall AND Hard Cocoon Skip ) ) AND intended Pogo off driftlin ) OR Silk Soar",
             "mode": "expression",
             "dnf": [
               [
@@ -228621,7 +228620,7 @@
           "has_persisted_state": false,
           "node_id": "mount-fay/mount-fay-entrance#upper-left-exit",
           "requirement": {
-            "raw": "( Cling Grip Left AND ( ( Clawline Right AND Clawline Left ) OR ( Faydown Cloak AND DRifters Cloak AND Dash Right ) OR ( Drifters Cloak AND Sharpdart AND ( Proficient Movement AND Spike Pogo ) AND Hard Heal Stall AND Hard Cocoon Skip ) ) AND Intended Pogo off driftlin ) OR Silk Soar",
+            "raw": "( Cling Grip Left AND ( ( Clawline Right AND Clawline Left ) OR ( Faydown Cloak AND DRifters Cloak AND Dash Right ) OR ( Drifters Cloak AND Sharpdart AND ( Proficient Movement AND Spike Pogo ) AND Hard Heal Stall AND Hard Cocoon Skip ) ) AND intended Pogo off driftlin ) OR Silk Soar",
             "mode": "expression",
             "dnf": [
               [
@@ -228667,7 +228666,7 @@
           "has_persisted_state": false,
           "node_id": "mount-fay/mount-fay-entrance#upper-left-exit",
           "requirement": {
-            "raw": "( Cling Grip Left AND ( ( Clawline Right AND Clawline Left ) OR ( Faydown Cloak AND DRifters Cloak AND Dash Right ) OR ( Drifters Cloak AND Sharpdart AND ( Proficient Movement AND Spike Pogo ) AND Hard Heal Stall AND Hard Cocoon Skip ) ) AND Intended Pogo off driftlin ) OR Silk Soar",
+            "raw": "( Cling Grip Left AND ( ( Clawline Right AND Clawline Left ) OR ( Faydown Cloak AND DRifters Cloak AND Dash Right ) OR ( Drifters Cloak AND Sharpdart AND ( Proficient Movement AND Spike Pogo ) AND Hard Heal Stall AND Hard Cocoon Skip ) ) AND intended Pogo off driftlin ) OR Silk Soar",
             "mode": "expression",
             "dnf": [
               [
@@ -228713,7 +228712,7 @@
           "has_persisted_state": false,
           "node_id": "mount-fay/mount-fay-entrance#lower-middle-left-exit",
           "requirement": {
-            "raw": "Silk Soar OR ( ( Cling Grip Both AND ( Clawline Both OR ( Faydown Cloak AND Drifters Cloak ) OR ( Sharpdart AND Drifters Cloak AND Hard Cocoon Skip AND ( Sprint Both OR Have Tool Flintslate ) ) ) ) AND Intended pogo off driftlin )",
+            "raw": "Silk Soar OR ( ( Cling Grip Both AND ( Clawline Both OR ( Faydown Cloak AND Drifters Cloak ) OR ( Sharpdart AND Drifters Cloak AND Hard Cocoon Skip AND ( Sprint Both OR Have Tool Flintslate ) ) ) ) AND intended pogo off driftlin )",
             "mode": "expression",
             "dnf": [
               [
@@ -228763,7 +228762,7 @@
           "has_persisted_state": false,
           "node_id": "mount-fay/mount-fay-entrance#lower-middle-left-exit",
           "requirement": {
-            "raw": "Silk Soar OR ( ( Cling Grip Both AND ( Clawline Both OR ( Faydown Cloak AND Drifters Cloak ) OR ( Sharpdart AND Drifters Cloak AND Hard Cocoon Skip AND ( Sprint Both OR Have Tool Flintslate ) ) ) ) AND Intended pogo off driftlin )",
+            "raw": "Silk Soar OR ( ( Cling Grip Both AND ( Clawline Both OR ( Faydown Cloak AND Drifters Cloak ) OR ( Sharpdart AND Drifters Cloak AND Hard Cocoon Skip AND ( Sprint Both OR Have Tool Flintslate ) ) ) ) AND intended pogo off driftlin )",
             "mode": "expression",
             "dnf": [
               [
@@ -228813,7 +228812,7 @@
           "has_persisted_state": false,
           "node_id": "mount-fay/mount-fay-entrance#lower-middle-left-exit",
           "requirement": {
-            "raw": "Silk Soar OR ( ( Cling Grip Both AND ( Clawline Both OR ( Faydown Cloak AND Drifters Cloak ) OR ( Sharpdart AND Drifters Cloak AND Hard Cocoon Skip AND ( Sprint Both OR Have Tool Flintslate ) ) ) ) AND Intended pogo off driftlin )",
+            "raw": "Silk Soar OR ( ( Cling Grip Both AND ( Clawline Both OR ( Faydown Cloak AND Drifters Cloak ) OR ( Sharpdart AND Drifters Cloak AND Hard Cocoon Skip AND ( Sprint Both OR Have Tool Flintslate ) ) ) ) AND intended pogo off driftlin )",
             "mode": "expression",
             "dnf": [
               [
@@ -228863,7 +228862,7 @@
           "has_persisted_state": false,
           "node_id": "mount-fay/mount-fay-entrance#lower-middle-left-exit",
           "requirement": {
-            "raw": "Silk Soar OR ( ( Cling Grip Both AND ( Clawline Both OR ( Faydown Cloak AND Drifters Cloak ) OR ( Sharpdart AND Drifters Cloak AND Hard Cocoon Skip AND ( Sprint Both OR Have Tool Flintslate ) ) ) ) AND Intended pogo off driftlin )",
+            "raw": "Silk Soar OR ( ( Cling Grip Both AND ( Clawline Both OR ( Faydown Cloak AND Drifters Cloak ) OR ( Sharpdart AND Drifters Cloak AND Hard Cocoon Skip AND ( Sprint Both OR Have Tool Flintslate ) ) ) ) AND intended pogo off driftlin )",
             "mode": "expression",
             "dnf": [
               [
@@ -229010,7 +229009,7 @@
           "has_persisted_state": true,
           "node_id": "mount-fay/brightvein#room",
           "requirement": {
-            "raw": "Silk Soar AND Clawline Both AND Cling Grip Both AND Faydown Cloak AND Easy pogo off Mnemonord",
+            "raw": "Silk Soar AND Clawline Both AND Cling Grip Both AND Faydown Cloak AND intended pogo off Mnemonord",
             "mode": "expression",
             "dnf": [
               [
@@ -229018,7 +229017,7 @@
                 "capability:clawline:both:1",
                 "capability:cling-grip:both",
                 "capability:faydown-cloak",
-                "capability:enemy-type-pogo:Crystal Drifter Giant:easy"
+                "capability:enemy-type-pogo:Crystal Drifter Giant:intended"
               ]
             ],
             "unresolved_reasons": []
@@ -229079,14 +229078,14 @@
           "has_persisted_state": false,
           "node_id": "mount-fay/brightvein#room",
           "requirement": {
-            "raw": "Clawline Both AND Cling Grip Both AND Faydown Cloak AND Easy pogo off Mnemonord",
+            "raw": "Clawline Both AND Cling Grip Both AND Faydown Cloak AND intended pogo off Mnemonord",
             "mode": "expression",
             "dnf": [
               [
                 "capability:clawline:both:1",
                 "capability:cling-grip:both",
                 "capability:faydown-cloak",
-                "capability:enemy-type-pogo:Crystal Drifter Giant:easy"
+                "capability:enemy-type-pogo:Crystal Drifter Giant:intended"
               ]
             ],
             "unresolved_reasons": []
@@ -229105,14 +229104,14 @@
           "has_persisted_state": false,
           "node_id": "mount-fay/brightvein#room",
           "requirement": {
-            "raw": "Clawline Both AND Cling Grip Both AND Faydown Cloak AND Easy pogo off Mnemonord",
+            "raw": "Clawline Both AND Cling Grip Both AND Faydown Cloak AND intended pogo off Mnemonord",
             "mode": "expression",
             "dnf": [
               [
                 "capability:clawline:both:1",
                 "capability:cling-grip:both",
                 "capability:faydown-cloak",
-                "capability:enemy-type-pogo:Crystal Drifter Giant:easy"
+                "capability:enemy-type-pogo:Crystal Drifter Giant:intended"
               ]
             ],
             "unresolved_reasons": []
@@ -229131,14 +229130,14 @@
           "has_persisted_state": false,
           "node_id": "mount-fay/brightvein#room",
           "requirement": {
-            "raw": "Clawline Both AND Cling Grip Both AND Faydown Cloak AND Easy pogo off Mnemonord",
+            "raw": "Clawline Both AND Cling Grip Both AND Faydown Cloak AND intended pogo off Mnemonord",
             "mode": "expression",
             "dnf": [
               [
                 "capability:clawline:both:1",
                 "capability:cling-grip:both",
                 "capability:faydown-cloak",
-                "capability:enemy-type-pogo:Crystal Drifter Giant:easy"
+                "capability:enemy-type-pogo:Crystal Drifter Giant:intended"
               ]
             ],
             "unresolved_reasons": []
@@ -229157,14 +229156,14 @@
           "has_persisted_state": false,
           "node_id": "mount-fay/brightvein#room",
           "requirement": {
-            "raw": "Clawline Both AND Cling Grip Both AND Faydown Cloak AND Easy pogo off Mnemonord",
+            "raw": "Clawline Both AND Cling Grip Both AND Faydown Cloak AND intended pogo off Mnemonord",
             "mode": "expression",
             "dnf": [
               [
                 "capability:clawline:both:1",
                 "capability:cling-grip:both",
                 "capability:faydown-cloak",
-                "capability:enemy-type-pogo:Crystal Drifter Giant:easy"
+                "capability:enemy-type-pogo:Crystal Drifter Giant:intended"
               ]
             ],
             "unresolved_reasons": []
@@ -229183,14 +229182,14 @@
           "has_persisted_state": false,
           "node_id": "mount-fay/brightvein#room",
           "requirement": {
-            "raw": "Clawline Both AND Cling Grip Both AND Faydown Cloak AND Easy pogo off Mnemonord",
+            "raw": "Clawline Both AND Cling Grip Both AND Faydown Cloak AND intended pogo off Mnemonord",
             "mode": "expression",
             "dnf": [
               [
                 "capability:clawline:both:1",
                 "capability:cling-grip:both",
                 "capability:faydown-cloak",
-                "capability:enemy-type-pogo:Crystal Drifter Giant:easy"
+                "capability:enemy-type-pogo:Crystal Drifter Giant:intended"
               ]
             ],
             "unresolved_reasons": []
@@ -229209,14 +229208,14 @@
           "has_persisted_state": false,
           "node_id": "mount-fay/brightvein#room",
           "requirement": {
-            "raw": "Clawline Both AND Cling Grip Both AND Faydown Cloak AND Easy pogo off Mnemonord",
+            "raw": "Clawline Both AND Cling Grip Both AND Faydown Cloak AND intended pogo off Mnemonord",
             "mode": "expression",
             "dnf": [
               [
                 "capability:clawline:both:1",
                 "capability:cling-grip:both",
                 "capability:faydown-cloak",
-                "capability:enemy-type-pogo:Crystal Drifter Giant:easy"
+                "capability:enemy-type-pogo:Crystal Drifter Giant:intended"
               ]
             ],
             "unresolved_reasons": []
@@ -229235,14 +229234,14 @@
           "has_persisted_state": false,
           "node_id": "mount-fay/brightvein#room",
           "requirement": {
-            "raw": "Clawline Both AND Cling Grip Both AND Faydown Cloak AND Easy pogo off Mnemonord",
+            "raw": "Clawline Both AND Cling Grip Both AND Faydown Cloak AND intended pogo off Mnemonord",
             "mode": "expression",
             "dnf": [
               [
                 "capability:clawline:both:1",
                 "capability:cling-grip:both",
                 "capability:faydown-cloak",
-                "capability:enemy-type-pogo:Crystal Drifter Giant:easy"
+                "capability:enemy-type-pogo:Crystal Drifter Giant:intended"
               ]
             ],
             "unresolved_reasons": []
@@ -229261,14 +229260,14 @@
           "has_persisted_state": false,
           "node_id": "mount-fay/brightvein#room",
           "requirement": {
-            "raw": "Clawline Both AND Cling Grip Both AND Faydown Cloak AND Easy pogo off Mnemonord",
+            "raw": "Clawline Both AND Cling Grip Both AND Faydown Cloak AND intended pogo off Mnemonord",
             "mode": "expression",
             "dnf": [
               [
                 "capability:clawline:both:1",
                 "capability:cling-grip:both",
                 "capability:faydown-cloak",
-                "capability:enemy-type-pogo:Crystal Drifter Giant:easy"
+                "capability:enemy-type-pogo:Crystal Drifter Giant:intended"
               ]
             ],
             "unresolved_reasons": []
@@ -229287,14 +229286,14 @@
           "has_persisted_state": false,
           "node_id": "mount-fay/brightvein#room",
           "requirement": {
-            "raw": "Clawline Both AND Cling Grip Both AND Faydown Cloak AND Easy pogo off Mnemonord",
+            "raw": "Clawline Both AND Cling Grip Both AND Faydown Cloak AND intended pogo off Mnemonord",
             "mode": "expression",
             "dnf": [
               [
                 "capability:clawline:both:1",
                 "capability:cling-grip:both",
                 "capability:faydown-cloak",
-                "capability:enemy-type-pogo:Crystal Drifter Giant:easy"
+                "capability:enemy-type-pogo:Crystal Drifter Giant:intended"
               ]
             ],
             "unresolved_reasons": []
@@ -229313,14 +229312,14 @@
           "has_persisted_state": false,
           "node_id": "mount-fay/brightvein#room",
           "requirement": {
-            "raw": "Clawline Both AND Cling Grip Both AND Faydown Cloak AND Easy pogo off Mnemonord",
+            "raw": "Clawline Both AND Cling Grip Both AND Faydown Cloak AND intended pogo off Mnemonord",
             "mode": "expression",
             "dnf": [
               [
                 "capability:clawline:both:1",
                 "capability:cling-grip:both",
                 "capability:faydown-cloak",
-                "capability:enemy-type-pogo:Crystal Drifter Giant:easy"
+                "capability:enemy-type-pogo:Crystal Drifter Giant:intended"
               ]
             ],
             "unresolved_reasons": []
@@ -229339,14 +229338,14 @@
           "has_persisted_state": false,
           "node_id": "mount-fay/brightvein#room",
           "requirement": {
-            "raw": "Clawline Both AND Cling Grip Both AND Faydown Cloak AND Easy pogo off Mnemonord",
+            "raw": "Clawline Both AND Cling Grip Both AND Faydown Cloak AND intended pogo off Mnemonord",
             "mode": "expression",
             "dnf": [
               [
                 "capability:clawline:both:1",
                 "capability:cling-grip:both",
                 "capability:faydown-cloak",
-                "capability:enemy-type-pogo:Crystal Drifter Giant:easy"
+                "capability:enemy-type-pogo:Crystal Drifter Giant:intended"
               ]
             ],
             "unresolved_reasons": []
@@ -229955,7 +229954,7 @@
           "source_node_id": "mount-fay/mask-maker-passage#exit",
           "target_node_id": "mount-fay/mask-maker-passage#mask-maker-hut",
           "requirement": {
-            "raw": "Cling Grip Right AND Faydown Cloak AND ( Intended pogo off driftlin OR Proficient movement )",
+            "raw": "Cling Grip Right AND Faydown Cloak AND ( intended pogo off driftlin OR Proficient movement )",
             "mode": "expression",
             "dnf": [
               [
@@ -230694,7 +230693,7 @@
           "source_node_id": "mount-fay/mount-fay-frozen-flea#upper-left",
           "target_node_id": "mount-fay/mount-fay-frozen-flea#right-exit",
           "requirement": {
-            "raw": "Clawline Both AND ( Cling Grip Both OR ( Faydown Cloak AND Ledge Grab Right ) ) AND Intended Pogo Off Mnemonid",
+            "raw": "Clawline Both AND ( Cling Grip Both OR ( Faydown Cloak AND Ledge Grab Right ) ) AND intended Pogo Off Mnemonid",
             "mode": "expression",
             "dnf": [
               [
@@ -230769,6 +230768,31 @@
               ],
               [
                 "capability:sharpdart:1"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "mount-fay/mount-fay-frozen-flea#right-exit>upper-left@sd",
+          "alias": "SD",
+          "name": "Spike Drop",
+          "source_node_id": "mount-fay/mount-fay-frozen-flea#right-exit",
+          "target_node_id": "mount-fay/mount-fay-frozen-flea#upper-left",
+          "requirement": {
+            "raw": "Cling grip left AND drifters Cloak AND spike pogo AND intended pogo off mnemonid",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:cling-grip:left",
+                "capability:drifters-cloak",
+                "capability:spike-pogo",
+                "capability:enemy-type-pogo:Crystal Drifter:intended"
               ]
             ],
             "unresolved_reasons": []
@@ -230983,7 +231007,7 @@
           "source_node_id": "mount-fay/mount-fay-ice-lake-platforming-room#left-ledge",
           "target_node_id": "mount-fay/mount-fay-ice-lake-platforming-room#right-ledge",
           "requirement": {
-            "raw": "( Clawline Left AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Left ) ) AND Intended Pogo off mnemonid",
+            "raw": "( Clawline Left AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Left ) ) AND intended Pogo off mnemonid",
             "mode": "expression",
             "dnf": [
               [
@@ -231022,7 +231046,7 @@
           "source_node_id": "mount-fay/mount-fay-ice-lake-platforming-room#right-ledge",
           "target_node_id": "mount-fay/mount-fay-ice-lake-platforming-room#left-ledge",
           "requirement": {
-            "raw": "( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND Intended Pogo OFF Mnemonid",
+            "raw": "( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND intended Pogo OFF Mnemonid",
             "mode": "expression",
             "dnf": [
               [
@@ -231048,7 +231072,7 @@
             ],
             "unresolved_reasons": []
           },
-          "notes": "( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND Intended Pogo off mnemonid",
+          "notes": "( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND easy Pogo off mnemonid",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
@@ -231064,7 +231088,7 @@
           "has_persisted_state": false,
           "node_id": "mount-fay/mount-fay-ice-lake-platforming-room#right-ledge",
           "requirement": {
-            "raw": "( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND Intended Pogo OFF Mnemonid",
+            "raw": "( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND intended Pogo OFF Mnemonid",
             "mode": "expression",
             "dnf": [
               [
@@ -231104,7 +231128,7 @@
           "has_persisted_state": false,
           "node_id": "mount-fay/mount-fay-ice-lake-platforming-room#right-ledge",
           "requirement": {
-            "raw": "( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND Intended Pogo OFF Mnemonid",
+            "raw": "( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND intended Pogo OFF Mnemonid",
             "mode": "expression",
             "dnf": [
               [
@@ -231144,7 +231168,7 @@
           "has_persisted_state": false,
           "node_id": "mount-fay/mount-fay-ice-lake-platforming-room#right-ledge",
           "requirement": {
-            "raw": "( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND Intended Pogo OFF Mnemonid",
+            "raw": "( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND intended Pogo OFF Mnemonid",
             "mode": "expression",
             "dnf": [
               [
@@ -231184,7 +231208,7 @@
           "has_persisted_state": false,
           "node_id": "mount-fay/mount-fay-ice-lake-platforming-room#right-ledge",
           "requirement": {
-            "raw": "( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND Intended Pogo OFF Mnemonid",
+            "raw": "( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND intended Pogo OFF Mnemonid",
             "mode": "expression",
             "dnf": [
               [
@@ -231224,7 +231248,7 @@
           "has_persisted_state": false,
           "node_id": "mount-fay/mount-fay-ice-lake-platforming-room#right-ledge",
           "requirement": {
-            "raw": "( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND Intended Pogo OFF Mnemonid",
+            "raw": "( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND intended Pogo OFF Mnemonid",
             "mode": "expression",
             "dnf": [
               [
@@ -231264,7 +231288,7 @@
           "has_persisted_state": false,
           "node_id": "mount-fay/mount-fay-ice-lake-platforming-room#right-ledge",
           "requirement": {
-            "raw": "( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND Intended Pogo OFF Mnemonid",
+            "raw": "( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND intended Pogo OFF Mnemonid",
             "mode": "expression",
             "dnf": [
               [
@@ -231304,7 +231328,7 @@
           "has_persisted_state": false,
           "node_id": "mount-fay/mount-fay-ice-lake-platforming-room#left-ledge",
           "requirement": {
-            "raw": "( Clawline Left AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Left ) ) AND Intended Pogo off mnemonid",
+            "raw": "( Clawline Left AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Left ) ) AND intended Pogo off mnemonid",
             "mode": "expression",
             "dnf": [
               [
@@ -232040,7 +232064,7 @@
           "source_node_id": "mount-fay/mount-fay-magnetite-outcropping#right-exit",
           "target_node_id": "mount-fay/mount-fay-magnetite-outcropping#left-exit",
           "requirement": {
-            "raw": "Swim OR ( ( Sprint Left OR Clawline Left OR Faydown Cloak OR ( Drifters Cloak AND Dash Left ) OR Sharpdart ) AND Intended Pogo off mnemonid )",
+            "raw": "Swim OR ( ( Sprint Left OR Clawline Left OR Faydown Cloak OR ( Drifters Cloak AND Dash Left ) OR Sharpdart ) AND intended Pogo off mnemonid )",
             "mode": "expression",
             "dnf": [
               [
@@ -232083,7 +232107,7 @@
           "source_node_id": "mount-fay/mount-fay-magnetite-outcropping#left-exit",
           "target_node_id": "mount-fay/mount-fay-magnetite-outcropping#right-exit",
           "requirement": {
-            "raw": "Swim OR ( ( Sprint Right OR Clawline Right OR Faydown Cloak OR ( Drifters Cloak AND Dash Right ) OR Sharpdart )  AND Intended Pogo off mnemonid )",
+            "raw": "Swim OR ( ( Sprint Right OR Clawline Right OR Faydown Cloak OR ( Drifters Cloak AND Dash Right ) OR Sharpdart )  AND intended Pogo off mnemonid )",
             "mode": "expression",
             "dnf": [
               [
@@ -232126,7 +232150,7 @@
           "source_node_id": "mount-fay/mount-fay-magnetite-outcropping#brightvein",
           "target_node_id": "mount-fay/mount-fay-magnetite-outcropping#left-exit",
           "requirement": {
-            "raw": "( ( Drifters Cloak OR Dash Left OR Clawline Left OR Faydown Cloak OR Sharpdart ) AND Intended Pogo off mnemonid ) OR Swim",
+            "raw": "( ( Drifters Cloak OR Dash Left OR Clawline Left OR Faydown Cloak OR Sharpdart ) AND intended Pogo off mnemonid ) OR Swim",
             "mode": "expression",
             "dnf": [
               [
@@ -232168,7 +232192,7 @@
           "source_node_id": "mount-fay/mount-fay-magnetite-outcropping#left-exit",
           "target_node_id": "mount-fay/mount-fay-magnetite-outcropping#brightvein",
           "requirement": {
-            "raw": "Silk Soar AND ( Swim OR ( ( Clawline Right OR Faydown Cloak OR ( Dash Right AND Drifters Cloak ) ) AND Intended Pogo off mnemonid ) )",
+            "raw": "Silk Soar AND ( Swim OR ( ( Clawline Right OR Faydown Cloak OR ( Dash Right AND Drifters Cloak ) ) AND intended Pogo off mnemonid ) )",
             "mode": "expression",
             "dnf": [
               [
@@ -232207,7 +232231,7 @@
           "source_node_id": "mount-fay/mount-fay-magnetite-outcropping#right-exit",
           "target_node_id": "mount-fay/mount-fay-magnetite-outcropping#brightvein",
           "requirement": {
-            "raw": "Silk Soar AND ( Swim OR ( ( Clawline Left OR Faydown Cloak OR ( Dash Left AND Drifters Cloak ) ) AND Intended Pogo off mnemonid ) )",
+            "raw": "Silk Soar AND ( Swim OR ( ( Clawline Left OR Faydown Cloak OR ( Dash Left AND Drifters Cloak ) ) AND intended Pogo off mnemonid ) )",
             "mode": "expression",
             "dnf": [
               [
@@ -232246,7 +232270,7 @@
           "source_node_id": "mount-fay/mount-fay-magnetite-outcropping#brightvein",
           "target_node_id": "mount-fay/mount-fay-magnetite-outcropping#right-exit",
           "requirement": {
-            "raw": "( (Drifters Cloak OR Dash Right OR Clawline Right OR Faydown Cloak OR Sharpdart)  AND Intended Pogo off mnemonid ) OR Swim ",
+            "raw": "( (Drifters Cloak OR Dash Right OR Clawline Right OR Faydown Cloak OR Sharpdart)  AND intended Pogo off mnemonid ) OR Swim ",
             "mode": "expression",
             "dnf": [
               [
@@ -232775,7 +232799,7 @@
           "source_node_id": "mount-fay/mount-fay-right-side-middle-room#bottom",
           "target_node_id": "mount-fay/mount-fay-right-side-middle-room#pinstress-arena",
           "requirement": {
-            "raw": "Silk Soar OR ( ( Cling Grip Both OR ( Cling Grip Left AND Spike Pogo ) ) AND ( ( Faydown Cloak AND Intended pogo off driftlin AND Spike Pogo ) OR ( Clawline Both AND Intended pogo off driftlin ) OR ( Hard Reaper crest Pogo AND Dash Both AND Sprint Both AND Drifters Cloak AND Hard Flea Brew Stall AND Hard Heal Stall ) ) ) ",
+            "raw": "Silk Soar OR ( ( Cling Grip Both OR ( Cling Grip Left AND Spike Pogo ) ) AND ( ( Faydown Cloak AND intended pogo off driftlin AND Spike Pogo ) OR ( Clawline Both AND intended pogo off driftlin ) OR ( Hard Reaper crest Pogo AND Dash Both AND Sprint Both AND Drifters Cloak AND Hard Flea Brew Stall AND Hard Heal Stall ) ) ) ",
             "mode": "expression",
             "dnf": [
               [
@@ -234230,7 +234254,7 @@
           "source_node_id": "mount-fay/mount-fay-upper-slope#mask-maker-path",
           "target": "mount-fay/mask-maker-passage@f",
           "requirement": {
-            "raw": "( Cling Grip Left OR Scuttlebrace OR Faydown Cloak OR Silk Soar ) AND Intended pogo off driftlin",
+            "raw": "( Cling Grip Left OR Scuttlebrace OR Faydown Cloak OR Silk Soar ) AND intended pogo off driftlin",
             "mode": "expression",
             "dnf": [
               [

@@ -22,20 +22,20 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| IL | Ice Lake | Left Ledge | Right Ledge | ( Clawline Left AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Left ) ) AND Intended Pogo off mnemonid |  | Verified | ✓ |  |
-| IL | Ice Lake | Right Ledge | Left Ledge | ( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND Intended Pogo OFF Mnemonid |  | Verified | ✓ | ( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND Intended Pogo off mnemonid |
+| IL | Ice Lake | Left Ledge | Right Ledge | ( Clawline Left AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Left ) ) AND intended Pogo off mnemonid |  | Verified | ✓ |  |
+| IL | Ice Lake | Right Ledge | Left Ledge | ( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND intended Pogo OFF Mnemonid |  | Verified | ✓ | ( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND easy Pogo off mnemonid |
 
 ## Check Locations
 
 | No. | Check | Subroom | Requirements | TODO | Verification | Location Type | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Mnemonid 1 | Right Ledge | ( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND Intended Pogo OFF Mnemonid |  | Verified | enemy | ✓ |  |
-| 2 | Mnemonid 2 | Right Ledge | ( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND Intended Pogo OFF Mnemonid |  | Verified | enemy | ✓ |  |
-| 3 | Mnemonid 3 | Right Ledge | ( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND Intended Pogo OFF Mnemonid |  | Verified | enemy | ✓ |  |
-| 4 | Mnemonid 4 | Right Ledge | ( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND Intended Pogo OFF Mnemonid |  | Verified | enemy | ✓ |  |
-| 5 | Mnemonid 5 | Right Ledge | ( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND Intended Pogo OFF Mnemonid |  | Verified | enemy | ✓ |  |
-| 6 | Mnemonid 6 | Right Ledge | ( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND Intended Pogo OFF Mnemonid |  | Verified | enemy | ✓ |  |
-| 7 | Mnemonid 7 | Left Ledge | ( Clawline Left AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Left ) ) AND Intended Pogo off mnemonid |  | Verified | enemy | ✓ |  |
+| 1 | Mnemonid 1 | Right Ledge | ( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND intended Pogo OFF Mnemonid |  | Verified | enemy | ✓ |  |
+| 2 | Mnemonid 2 | Right Ledge | ( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND intended Pogo OFF Mnemonid |  | Verified | enemy | ✓ |  |
+| 3 | Mnemonid 3 | Right Ledge | ( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND intended Pogo OFF Mnemonid |  | Verified | enemy | ✓ |  |
+| 4 | Mnemonid 4 | Right Ledge | ( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND intended Pogo OFF Mnemonid |  | Verified | enemy | ✓ |  |
+| 5 | Mnemonid 5 | Right Ledge | ( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND intended Pogo OFF Mnemonid |  | Verified | enemy | ✓ |  |
+| 6 | Mnemonid 6 | Right Ledge | ( Clawline Right AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Right ) ) AND intended Pogo OFF Mnemonid |  | Verified | enemy | ✓ |  |
+| 7 | Mnemonid 7 | Left Ledge | ( Clawline Left AND ( Swim OR Faydown Cloak OR Drifters Cloak OR Cling Grip Left ) ) AND intended Pogo off mnemonid |  | Verified | enemy | ✓ |  |
 
 ## Room Images
 

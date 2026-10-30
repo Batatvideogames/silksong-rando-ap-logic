@@ -24,12 +24,12 @@
 
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| IL | Ice Lake | Right Exit | Left Exit | Swim OR ( ( Sprint Left OR Clawline Left OR Faydown Cloak OR ( Drifters Cloak AND Dash Left ) OR Sharpdart ) AND Intended Pogo off mnemonid ) |  | Verified | ✓ |  |
-| IL | Ice Lake | Left Exit | Right Exit | Swim OR ( ( Sprint Right OR Clawline Right OR Faydown Cloak OR ( Drifters Cloak AND Dash Right ) OR Sharpdart )  AND Intended Pogo off mnemonid ) |  | Verified | ✓ |  |
-| BRL | Brightvein Left | Brightvein | Left Exit | ( ( Drifters Cloak OR Dash Left OR Clawline Left OR Faydown Cloak OR Sharpdart ) AND Intended Pogo off mnemonid ) OR Swim |  | Verified | ✓ |  |
-| BRL | Brightvein Left | Left Exit | Brightvein | Silk Soar AND ( Swim OR ( ( Clawline Right OR Faydown Cloak OR ( Dash Right AND Drifters Cloak ) ) AND Intended Pogo off mnemonid ) ) |  | Verified | ✓ |  |
-| BRR | Brightvein Right | Right Exit | Brightvein | Silk Soar AND ( Swim OR ( ( Clawline Left OR Faydown Cloak OR ( Dash Left AND Drifters Cloak ) ) AND Intended Pogo off mnemonid ) ) |  | Verified | ✓ |  |
-| BRR | Brightvein Right | Brightvein | Right Exit | ( (Drifters Cloak OR Dash Right OR Clawline Right OR Faydown Cloak OR Sharpdart)  AND Intended Pogo off mnemonid ) OR Swim |  | Verified | ✓ |  |
+| IL | Ice Lake | Right Exit | Left Exit | Swim OR ( ( Sprint Left OR Clawline Left OR Faydown Cloak OR ( Drifters Cloak AND Dash Left ) OR Sharpdart ) AND intended Pogo off mnemonid ) |  | Verified | ✓ |  |
+| IL | Ice Lake | Left Exit | Right Exit | Swim OR ( ( Sprint Right OR Clawline Right OR Faydown Cloak OR ( Drifters Cloak AND Dash Right ) OR Sharpdart )  AND intended Pogo off mnemonid ) |  | Verified | ✓ |  |
+| BRL | Brightvein Left | Brightvein | Left Exit | ( ( Drifters Cloak OR Dash Left OR Clawline Left OR Faydown Cloak OR Sharpdart ) AND intended Pogo off mnemonid ) OR Swim |  | Verified | ✓ |  |
+| BRL | Brightvein Left | Left Exit | Brightvein | Silk Soar AND ( Swim OR ( ( Clawline Right OR Faydown Cloak OR ( Dash Right AND Drifters Cloak ) ) AND intended Pogo off mnemonid ) ) |  | Verified | ✓ |  |
+| BRR | Brightvein Right | Right Exit | Brightvein | Silk Soar AND ( Swim OR ( ( Clawline Left OR Faydown Cloak OR ( Dash Left AND Drifters Cloak ) ) AND intended Pogo off mnemonid ) ) |  | Verified | ✓ |  |
+| BRR | Brightvein Right | Brightvein | Right Exit | ( (Drifters Cloak OR Dash Right OR Clawline Right OR Faydown Cloak OR Sharpdart)  AND intended Pogo off mnemonid ) OR Swim |  | Verified | ✓ |  |
 
 ## Check Locations
 
