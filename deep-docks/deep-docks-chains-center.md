@@ -53,6 +53,8 @@
 | CUE | Upper Chain <> Right Exit | upper right exit | upper chain platforms | nada (Fall) |  | Verified | ✓ |  |
 | FG | Flintslate Get | upper chain platforms | Flintslate | Silk Soar OR Ledge Grab OR Cling Grip OR Scuttlebrace OR Faydown Cloak OR Clawline OR Sharpdart OR Dash |  | Verified | ✓ |  |
 | FG | Flintslate Get | Flintslate | upper chain platforms | Nada |  | Verified | ✓ |  |
+| FP | Facepalm | upper left hallway | upper chain platforms | free (tentative) |  | Needs verification | ✓ | this needs some kind of logic ASAP |
+| FP | Facepalm | upper chain platforms | upper left hallway | free (tentative) |  | Needs verification | ✓ | this needs some kind of logic ASAP |
 
 ## Check Locations
 

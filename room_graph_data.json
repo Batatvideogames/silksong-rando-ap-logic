@@ -653,8 +653,8 @@
       "input_syntax": "{predicate} {quantity}",
       "output_syntax": "count:silk-hearts:{quantity}",
       "aliases": [
-        "silkhearts x",
-        "silk hearts x"
+        "silk hearts x",
+        "silkhearts x"
       ],
       "notes": "Shorthand for have {quantity} silk hearts."
     },
@@ -36861,7 +36861,7 @@
       "area_id": "deep-docks",
       "name": "Deep Docks Bellway Flea Rescue",
       "in_game_id": "Dock_16",
-      "contributors": "herounit and Rebel",
+      "contributors": "herounit,Rebel, Gallos",
       "notes": "",
       "nodes": [
         {
@@ -36880,8 +36880,8 @@
           "notes": ""
         },
         {
-          "id": "deep-docks/deep-docks-bellway-flea-rescue#unassigned",
-          "name": "unassigned",
+          "id": "deep-docks/deep-docks-bellway-flea-rescue#middle",
+          "name": "Middle",
           "notes": ""
         }
       ],
@@ -36911,26 +36911,51 @@
       ],
       "connections": [
         {
-          "id": "deep-docks/deep-docks-bellway-flea-rescue#floor>upper@ftu",
-          "alias": "FTU",
-          "name": "Floor <> Upper",
+          "id": "deep-docks/deep-docks-bellway-flea-rescue#floor>middle@ftm",
+          "alias": "FTM",
+          "name": "Floor <> Middle",
           "source_node_id": "deep-docks/deep-docks-bellway-flea-rescue#floor",
-          "target_node_id": "deep-docks/deep-docks-bellway-flea-rescue#upper",
+          "target_node_id": "deep-docks/deep-docks-bellway-flea-rescue#middle",
           "requirement": {
-            "raw": "Ledge Grab OR Cling Grip OR Faydown Cloak OR Silk Soar",
+            "raw": "Ledge Grab right OR Cling Grip right OR Faydown Cloak OR Silk Soar OR easy shaman pogo OR easy pogo off Skull brute OR easy [voltvessels,plasmium, flea brew] stall OR easy beast needle strike OR (have crest beast AND easy heal stall) OR easy scuttlebrace",
             "mode": "expression",
             "dnf": [
               [
-                "capability:ledge-grab:none"
+                "capability:ledge-grab:right"
               ],
               [
-                "capability:cling-grip:none"
+                "capability:cling-grip:right"
               ],
               [
                 "capability:faydown-cloak"
               ],
               [
                 "capability:silk-soar"
+              ],
+              [
+                "capability:crest-pogo:shaman:easy"
+              ],
+              [
+                "capability:enemy-type-pogo:Bone Goomba Large:easy"
+              ],
+              [
+                "capability:stall:voltvessels:easy:1"
+              ],
+              [
+                "capability:stall:plasmium-phial:easy:1"
+              ],
+              [
+                "capability:stall:flea-brew:easy:1"
+              ],
+              [
+                "capability:needle-strike:beast:easy"
+              ],
+              [
+                "item:crest-beast",
+                "capability:stall:heal:easy:1"
+              ],
+              [
+                "capability:scuttlebrace:easy"
               ]
             ],
             "unresolved_reasons": []
@@ -36942,10 +36967,10 @@
           "unresolved_reasons": []
         },
         {
-          "id": "deep-docks/deep-docks-bellway-flea-rescue#upper>floor@ftu",
-          "alias": "FTU",
-          "name": "Floor <> Upper",
-          "source_node_id": "deep-docks/deep-docks-bellway-flea-rescue#upper",
+          "id": "deep-docks/deep-docks-bellway-flea-rescue#middle>floor@ftm",
+          "alias": "FTM",
+          "name": "Floor <> Middle",
+          "source_node_id": "deep-docks/deep-docks-bellway-flea-rescue#middle",
           "target_node_id": "deep-docks/deep-docks-bellway-flea-rescue#floor",
           "requirement": {
             "raw": "Nothing. (Fall)",
@@ -36962,16 +36987,77 @@
           "unresolved_reasons": []
         },
         {
-          "id": "deep-docks/deep-docks-bellway-flea-rescue#upper>flea@utf",
-          "alias": "UTF",
-          "name": "Upper <> Flea",
-          "source_node_id": "deep-docks/deep-docks-bellway-flea-rescue#upper",
+          "id": "deep-docks/deep-docks-bellway-flea-rescue#middle>flea@mtf",
+          "alias": "MTF",
+          "name": "Middle <> Flea",
+          "source_node_id": "deep-docks/deep-docks-bellway-flea-rescue#middle",
           "target_node_id": "deep-docks/deep-docks-bellway-flea-rescue#flea",
           "requirement": {
-            "raw": "Nothing.",
-            "mode": "none",
+            "raw": "run OR clawline right OR sharpdart OR (drifter's AND (ledge grab right OR cling grip right OR dash right OR easy beast pogo)) OR (easy shaman pogo AND easy scuttlebrace) OR (easy plasmium stall AND (ledge grab right OR cling grip right OR easy hazard respawn OR easy beast pogo)) OR ((easy [voltvessels, flea brew] stall OR easy beast needle strike OR (have crest beast AND easy heal stall)) AND easy hazard respawn)",
+            "mode": "expression",
             "dnf": [
-              []
+              [
+                "capability:sprint:none"
+              ],
+              [
+                "capability:clawline:right:1"
+              ],
+              [
+                "capability:sharpdart:1"
+              ],
+              [
+                "capability:drifters-cloak",
+                "capability:ledge-grab:right"
+              ],
+              [
+                "capability:drifters-cloak",
+                "capability:cling-grip:right"
+              ],
+              [
+                "capability:drifters-cloak",
+                "capability:dash:right"
+              ],
+              [
+                "capability:drifters-cloak",
+                "capability:crest-pogo:beast:easy"
+              ],
+              [
+                "capability:crest-pogo:shaman:easy",
+                "capability:scuttlebrace:easy"
+              ],
+              [
+                "capability:stall:plasmium-phial:easy:1",
+                "capability:ledge-grab:right"
+              ],
+              [
+                "capability:stall:plasmium-phial:easy:1",
+                "capability:cling-grip:right"
+              ],
+              [
+                "capability:stall:plasmium-phial:easy:1",
+                "capability:hazard-respawn:easy"
+              ],
+              [
+                "capability:stall:plasmium-phial:easy:1",
+                "capability:crest-pogo:beast:easy"
+              ],
+              [
+                "capability:stall:voltvessels:easy:1",
+                "capability:hazard-respawn:easy"
+              ],
+              [
+                "capability:stall:flea-brew:easy:1",
+                "capability:hazard-respawn:easy"
+              ],
+              [
+                "capability:needle-strike:beast:easy",
+                "capability:hazard-respawn:easy"
+              ],
+              [
+                "item:crest-beast",
+                "capability:stall:heal:easy:1",
+                "capability:hazard-respawn:easy"
+              ]
             ],
             "unresolved_reasons": []
           },
@@ -36982,11 +37068,68 @@
           "unresolved_reasons": []
         },
         {
-          "id": "deep-docks/deep-docks-bellway-flea-rescue#flea>upper@utf",
+          "id": "deep-docks/deep-docks-bellway-flea-rescue#middle>upper@mtu",
+          "alias": "MTU",
+          "name": "Middle <> Upper",
+          "source_node_id": "deep-docks/deep-docks-bellway-flea-rescue#middle",
+          "target_node_id": "deep-docks/deep-docks-bellway-flea-rescue#upper",
+          "requirement": {
+            "raw": "silk soar OR faydown OR medium shaman pogo OR ledge grab left OR cling grip left OR easy plasmium stall",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:silk-soar"
+              ],
+              [
+                "capability:faydown-cloak"
+              ],
+              [
+                "capability:crest-pogo:shaman:medium"
+              ],
+              [
+                "capability:ledge-grab:left"
+              ],
+              [
+                "capability:cling-grip:left"
+              ],
+              [
+                "capability:stall:plasmium-phial:easy:1"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "deep-docks/deep-docks-bellway-flea-rescue#upper>middle@mtu",
+          "alias": "MTU",
+          "name": "Middle <> Upper",
+          "source_node_id": "deep-docks/deep-docks-bellway-flea-rescue#upper",
+          "target_node_id": "deep-docks/deep-docks-bellway-flea-rescue#middle",
+          "requirement": {
+            "raw": "none",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "falling",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "deep-docks/deep-docks-bellway-flea-rescue#upper>flea@utf",
           "alias": "UTF",
           "name": "Upper <> Flea",
-          "source_node_id": "deep-docks/deep-docks-bellway-flea-rescue#flea",
-          "target_node_id": "deep-docks/deep-docks-bellway-flea-rescue#upper",
+          "source_node_id": "deep-docks/deep-docks-bellway-flea-rescue#upper",
+          "target_node_id": "deep-docks/deep-docks-bellway-flea-rescue#flea",
           "requirement": {
             "raw": "Nothing.",
             "mode": "none",
@@ -37046,11 +37189,32 @@
           "source_node_id": "deep-docks/deep-docks-bellway-flea-rescue#flea",
           "target_node_id": "deep-docks/deep-docks-bellway-flea-rescue#floor",
           "requirement": {
-            "raw": "Activate Flea Breakable Floor",
+            "raw": "Activate Flea Breakable Floor AND (silk soar OR (faydown AND (cling grip either OR ledge grab right OR easy scuttlebrace OR easy shaman pogo)))",
             "mode": "expression",
             "dnf": [
               [
-                "dependency:location:deep-docks/deep-docks-bellway-flea-rescue::blockade/flea-breakable-floor"
+                "dependency:location:deep-docks/deep-docks-bellway-flea-rescue::blockade/flea-breakable-floor",
+                "capability:silk-soar"
+              ],
+              [
+                "dependency:location:deep-docks/deep-docks-bellway-flea-rescue::blockade/flea-breakable-floor",
+                "capability:faydown-cloak",
+                "capability:cling-grip:either"
+              ],
+              [
+                "dependency:location:deep-docks/deep-docks-bellway-flea-rescue::blockade/flea-breakable-floor",
+                "capability:faydown-cloak",
+                "capability:ledge-grab:right"
+              ],
+              [
+                "dependency:location:deep-docks/deep-docks-bellway-flea-rescue::blockade/flea-breakable-floor",
+                "capability:faydown-cloak",
+                "capability:scuttlebrace:easy"
+              ],
+              [
+                "dependency:location:deep-docks/deep-docks-bellway-flea-rescue::blockade/flea-breakable-floor",
+                "capability:faydown-cloak",
+                "capability:crest-pogo:shaman:easy"
               ]
             ],
             "unresolved_reasons": []
@@ -37113,23 +37277,20 @@
           "in_game_id": "Bone Goomba Large",
           "location_type": "enemy",
           "has_persisted_state": false,
-          "node_id": "deep-docks/deep-docks-bellway-flea-rescue#unassigned",
+          "node_id": "deep-docks/deep-docks-bellway-flea-rescue#floor",
           "requirement": {
-            "raw": "",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "requirement is blank"
-            ]
+            "raw": "none",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
           },
           "notes": "",
           "is_todo": false,
-          "is_verified": null,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "subroom reference is blank",
-            "requirement is unresolved"
-          ]
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
         },
         {
           "id": "location:deep-docks/deep-docks-bellway-flea-rescue::enemy/caranid-1",
@@ -37137,23 +37298,20 @@
           "in_game_id": "Bone Circler",
           "location_type": "enemy",
           "has_persisted_state": false,
-          "node_id": "deep-docks/deep-docks-bellway-flea-rescue#unassigned",
+          "node_id": "deep-docks/deep-docks-bellway-flea-rescue#upper",
           "requirement": {
-            "raw": "",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "requirement is blank"
-            ]
+            "raw": "none",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
           },
           "notes": "",
           "is_todo": false,
-          "is_verified": null,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "subroom reference is blank",
-            "requirement is unresolved"
-          ]
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
         }
       ]
     },
@@ -44258,6 +44416,46 @@
           "is_verified": true,
           "logic_status": "active",
           "unresolved_reasons": []
+        },
+        {
+          "id": "deep-docks/deep-docks-chains-center#upper-left-hallway>upper-chain-platforms@fp",
+          "alias": "FP",
+          "name": "Facepalm",
+          "source_node_id": "deep-docks/deep-docks-chains-center#upper-left-hallway",
+          "target_node_id": "deep-docks/deep-docks-chains-center#upper-chain-platforms",
+          "requirement": {
+            "raw": "free (tentative)",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "this needs some kind of logic ASAP",
+          "is_todo": false,
+          "is_verified": false,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "deep-docks/deep-docks-chains-center#upper-chain-platforms>upper-left-hallway@fp",
+          "alias": "FP",
+          "name": "Facepalm",
+          "source_node_id": "deep-docks/deep-docks-chains-center#upper-chain-platforms",
+          "target_node_id": "deep-docks/deep-docks-chains-center#upper-left-hallway",
+          "requirement": {
+            "raw": "free (tentative)",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "this needs some kind of logic ASAP",
+          "is_todo": false,
+          "is_verified": false,
+          "logic_status": "active",
+          "unresolved_reasons": []
         }
       ],
       "locations": [
@@ -48514,7 +48712,7 @@
           "notes": ""
         },
         {
-          "id": "far-fields/far-fields-entrance#ceiling-exit-area",
+          "id": "far-fields/far-fields-entrance#ceiling-exit-platform",
           "name": "ceiling exit platform",
           "notes": ""
         },
@@ -48531,10 +48729,10 @@
           "name": "top1",
           "in_game_id": "top1",
           "is_unsafe_arrival": false,
-          "source_node_id": "far-fields/far-fields-entrance#ceiling-exit-area",
+          "source_node_id": "far-fields/far-fields-entrance#ceiling-exit-platform",
           "target": "far-fields/far-fields-dock-loopback@f",
           "requirement": {
-            "raw": "silk soar OR faydown cloak OR cling grip OR scuttlebrace",
+            "raw": "silk soar OR faydown cloak OR cling grip left OR (cling grip right AND ledge grab left) OR easy scuttlebrace",
             "mode": "expression",
             "dnf": [
               [
@@ -48544,10 +48742,14 @@
                 "capability:faydown-cloak"
               ],
               [
-                "capability:cling-grip:none"
+                "capability:cling-grip:left"
               ],
               [
-                "capability:scuttlebrace:none"
+                "capability:cling-grip:right",
+                "capability:ledge-grab:left"
+              ],
+              [
+                "capability:scuttlebrace:easy"
               ]
             ],
             "unresolved_reasons": []
@@ -48618,7 +48820,7 @@
           "source_node_id": "far-fields/far-fields-entrance#deep-docks-platform",
           "target_node_id": "far-fields/far-fields-entrance#main-pathway",
           "requirement": {
-            "raw": "run OR faydown cloak OR sharpdart OR clawline OR ( ledge grab AND ( dash OR drifter's cloak ) ) OR (proficient movement AND cling grip AND (easy beast pogo OR easy shaman pogo OR easy architect needle strike OR easy beast needle strike OR flea brew OR architect slash left))",
+            "raw": "run \nOR faydown cloak \nOR sharpdart \nOR clawline right\nOR ( ledge grab right AND ( dash right OR drifter's cloak ) ) \nOR (proficient movement AND cling grip AND (easy beast pogo OR easy shaman pogo OR easy architect needle strike OR easy beast needle strike OR flea brew OR architect slash left))",
             "mode": "expression",
             "dnf": [
               [
@@ -48631,14 +48833,14 @@
                 "capability:sharpdart:1"
               ],
               [
-                "capability:clawline:none:1"
+                "capability:clawline:right:1"
               ],
               [
-                "capability:ledge-grab:none",
-                "capability:dash:none"
+                "capability:ledge-grab:right",
+                "capability:dash:right"
               ],
               [
-                "capability:ledge-grab:none",
+                "capability:ledge-grab:right",
                 "capability:drifters-cloak"
               ],
               [
@@ -48687,23 +48889,20 @@
           "source_node_id": "far-fields/far-fields-entrance#main-pathway",
           "target_node_id": "far-fields/far-fields-entrance#deep-docks-platform",
           "requirement": {
-            "raw": "ledge grab OR run OR dash OR easy beast pogo OR easy architect pogo OR easy hunter pogo OR easy reaper pogo OR easy naked pogo OR easy architect needle strike OR architect slash left OR easy beast needle strike OR flea brew",
+            "raw": "ledge grab left \nOR run \nOR dash left \nOR easy [beast, hunter, reaper, architect] pogo\nOR easy naked pogo \nOR easy [beast, architect] needle strike \nOR architect slash left OR flea brew",
             "mode": "expression",
             "dnf": [
               [
-                "capability:ledge-grab:none"
+                "capability:ledge-grab:left"
               ],
               [
                 "capability:sprint:none"
               ],
               [
-                "capability:dash:none"
+                "capability:dash:left"
               ],
               [
                 "capability:crest-pogo:beast:easy"
-              ],
-              [
-                "capability:crest-pogo:architect:easy"
               ],
               [
                 "capability:crest-pogo:hunter:easy"
@@ -48712,16 +48911,19 @@
                 "capability:crest-pogo:reaper:easy"
               ],
               [
+                "capability:crest-pogo:architect:easy"
+              ],
+              [
                 "capability:naked-pogo:easy"
+              ],
+              [
+                "capability:needle-strike:beast:easy"
               ],
               [
                 "capability:needle-strike:architect:easy"
               ],
               [
                 "capability:needle:architect:left"
-              ],
-              [
-                "capability:needle-strike:beast:easy"
               ],
               [
                 "capability:flea-brew-jump"
@@ -48736,13 +48938,13 @@
           "unresolved_reasons": []
         },
         {
-          "id": "far-fields/far-fields-entrance#main-pathway>ceiling-exit-area@v1",
+          "id": "far-fields/far-fields-entrance#main-pathway>ceiling-exit-platform@v1",
           "alias": "V1",
           "name": "vertical 1",
           "source_node_id": "far-fields/far-fields-entrance#main-pathway",
-          "target_node_id": "far-fields/far-fields-entrance#ceiling-exit-area",
+          "target_node_id": "far-fields/far-fields-entrance#ceiling-exit-platform",
           "requirement": {
-            "raw": "silk soar OR (faydown cloak AND (cling grip OR (ledge grab AND dash AND (clawline right OR easy architect needle strike OR easy beast needle strike)) OR clawline right  x 2 ))",
+            "raw": "silk soar \nOR (faydown cloak AND (cling grip OR (ledge grab AND dash AND (clawline right OR easy architect needle strike OR easy beast needle strike)) OR clawline right x 2 ))",
             "mode": "expression",
             "dnf": [
               [
@@ -48784,10 +48986,10 @@
           "unresolved_reasons": []
         },
         {
-          "id": "far-fields/far-fields-entrance#ceiling-exit-area>main-pathway@v1",
+          "id": "far-fields/far-fields-entrance#ceiling-exit-platform>main-pathway@v1",
           "alias": "V1",
           "name": "vertical 1",
-          "source_node_id": "far-fields/far-fields-entrance#ceiling-exit-area",
+          "source_node_id": "far-fields/far-fields-entrance#ceiling-exit-platform",
           "target_node_id": "far-fields/far-fields-entrance#main-pathway",
           "requirement": {
             "raw": "none (falling)",
@@ -48810,7 +49012,7 @@
           "source_node_id": "far-fields/far-fields-entrance#main-pathway",
           "target_node_id": "far-fields/far-fields-entrance#main-platforms",
           "requirement": {
-            "raw": "faydown cloak OR (proficient movement AND scuttlebrace) OR cling grip OR easy beast needle strike OR (ledge grab AND (run OR dash ))",
+            "raw": "faydown cloak \nOR (proficient movement AND scuttlebrace) \nOR cling grip either\nOR easy beast needle strike \nOR (easy shaman pogo AND easy pogo off Flapping Fertid)\nOR (ledge grab either AND (run OR dash right))",
             "mode": "expression",
             "dnf": [
               [
@@ -48821,18 +49023,22 @@
                 "capability:scuttlebrace:none"
               ],
               [
-                "capability:cling-grip:none"
+                "capability:cling-grip:either"
               ],
               [
                 "capability:needle-strike:beast:easy"
               ],
               [
-                "capability:ledge-grab:none",
+                "capability:crest-pogo:shaman:easy",
+                "capability:enemy-type-pogo:Fields Flyer:easy"
+              ],
+              [
+                "capability:ledge-grab:either",
                 "capability:sprint:none"
               ],
               [
-                "capability:ledge-grab:none",
-                "capability:dash:none"
+                "capability:ledge-grab:either",
+                "capability:dash:right"
               ]
             ],
             "unresolved_reasons": []
@@ -48864,13 +49070,13 @@
           "unresolved_reasons": []
         },
         {
-          "id": "far-fields/far-fields-entrance#main-platforms>ceiling-exit-area@go",
+          "id": "far-fields/far-fields-entrance#main-platforms>ceiling-exit-platform@go",
           "alias": "GO",
           "name": "gap out",
           "source_node_id": "far-fields/far-fields-entrance#main-platforms",
-          "target_node_id": "far-fields/far-fields-entrance#ceiling-exit-area",
+          "target_node_id": "far-fields/far-fields-entrance#ceiling-exit-platform",
           "requirement": {
-            "raw": "faydown cloak OR clawline right OR (ledge grab AND ( run OR dash OR drifter's cloak OR sharpdart OR architect slash right OR easy beast pogo ) ) OR cling grip OR (proficient movement AND scuttlebrace) OR (easy beast pogo AND easy pogo off Flapping Fertid)",
+            "raw": "faydown cloak \nOR clawline right \nOR (ledge grab right AND (run OR dash right OR drifter's cloak OR sharpdart OR architect slash right OR easy beast pogo ) ) \nOR (proficient movement AND (cling grip both OR easy scuttlebrace))\nOR (easy beast pogo AND easy pogo off Flapping Fertid)",
             "mode": "expression",
             "dnf": [
               [
@@ -48880,35 +49086,36 @@
                 "capability:clawline:right:1"
               ],
               [
-                "capability:ledge-grab:none",
+                "capability:ledge-grab:right",
                 "capability:sprint:none"
               ],
               [
-                "capability:ledge-grab:none",
-                "capability:dash:none"
+                "capability:ledge-grab:right",
+                "capability:dash:right"
               ],
               [
-                "capability:ledge-grab:none",
+                "capability:ledge-grab:right",
                 "capability:drifters-cloak"
               ],
               [
-                "capability:ledge-grab:none",
+                "capability:ledge-grab:right",
                 "capability:sharpdart:1"
               ],
               [
-                "capability:ledge-grab:none",
+                "capability:ledge-grab:right",
                 "capability:needle:architect:right"
               ],
               [
-                "capability:ledge-grab:none",
+                "capability:ledge-grab:right",
                 "capability:crest-pogo:beast:easy"
               ],
               [
-                "capability:cling-grip:none"
+                "capability:proficient-movement",
+                "capability:cling-grip:both"
               ],
               [
                 "capability:proficient-movement",
-                "capability:scuttlebrace:none"
+                "capability:scuttlebrace:easy"
               ],
               [
                 "capability:crest-pogo:beast:easy",
@@ -49376,7 +49583,7 @@
           "source_node_id": "far-fields/far-fields-entrance-west#lower-right-exit-platform",
           "target_node_id": "far-fields/far-fields-entrance-west#lower-walkway",
           "requirement": {
-            "raw": "run \nOR dash left \nOR clawline left \nOR sharpdart \nOR cling grip both \nOR silk soar \nOR drifter's cloak \nOR faydown cloak \nOR easy [beast, architect] needle strike\nOR (ledge grab AND (easy naked pogo OR easy [hunter, architect, shaman] pogo))\nOR (architect slash left AND easy architect pogo)",
+            "raw": "run \nOR dash left \nOR clawline left \nOR sharpdart \nOR cling grip both \nOR silk soar \nOR drifter's cloak \nOR faydown cloak \nOR easy [beast, architect] needle strike\nOR (ledge grab left AND (easy naked pogo OR easy [hunter, architect, shaman] pogo))\nOR (architect slash left AND easy architect pogo)",
             "mode": "expression",
             "dnf": [
               [
@@ -49410,19 +49617,19 @@
                 "capability:needle-strike:architect:easy"
               ],
               [
-                "capability:ledge-grab:none",
+                "capability:ledge-grab:left",
                 "capability:naked-pogo:easy"
               ],
               [
-                "capability:ledge-grab:none",
+                "capability:ledge-grab:left",
                 "capability:crest-pogo:hunter:easy"
               ],
               [
-                "capability:ledge-grab:none",
+                "capability:ledge-grab:left",
                 "capability:crest-pogo:architect:easy"
               ],
               [
-                "capability:ledge-grab:none",
+                "capability:ledge-grab:left",
                 "capability:crest-pogo:shaman:easy"
               ],
               [
@@ -49487,14 +49694,14 @@
           "source_node_id": "far-fields/far-fields-entrance-west#upper-right-platforms",
           "target_node_id": "far-fields/far-fields-entrance-west#upper-left-platforms",
           "requirement": {
-            "raw": "run OR dash OR clawline left OR sharpdart OR silk soar OR drifter's cloak OR faydown cloak OR (proficient movement AND cling grip)",
+            "raw": "run OR dash left OR clawline left OR sharpdart OR silk soar OR drifter's cloak OR faydown cloak OR (proficient movement AND cling grip right)",
             "mode": "expression",
             "dnf": [
               [
                 "capability:sprint:none"
               ],
               [
-                "capability:dash:none"
+                "capability:dash:left"
               ],
               [
                 "capability:clawline:left:1"
@@ -49513,7 +49720,7 @@
               ],
               [
                 "capability:proficient-movement",
-                "capability:cling-grip:none"
+                "capability:cling-grip:right"
               ]
             ],
             "unresolved_reasons": []
@@ -49531,14 +49738,14 @@
           "source_node_id": "far-fields/far-fields-entrance-west#upper-left-platforms",
           "target_node_id": "far-fields/far-fields-entrance-west#upper-right-platforms",
           "requirement": {
-            "raw": "run OR dash OR clawline right OR sharpdart OR silk soar OR drifter's cloak OR faydown cloak",
+            "raw": "run \nOR dash right \nOR clawline right \nOR sharpdart \nOR silk soar \nOR drifter's cloak \nOR faydown cloak \nOR cling grip both",
             "mode": "expression",
             "dnf": [
               [
                 "capability:sprint:none"
               ],
               [
-                "capability:dash:none"
+                "capability:dash:right"
               ],
               [
                 "capability:clawline:right:1"
@@ -49554,6 +49761,9 @@
               ],
               [
                 "capability:faydown-cloak"
+              ],
+              [
+                "capability:cling-grip:both"
               ]
             ],
             "unresolved_reasons": []
@@ -50118,14 +50328,14 @@
           "source_node_id": "far-fields/far-fields-fort-lower-passage#the-pit-of-despair",
           "target_node_id": "far-fields/far-fields-fort-lower-passage#the-highest-highs",
           "requirement": {
-            "raw": "ledge grab\nOR cling grip\nOR easy scuttlebrace\nOR easy shaman pogo\nOR (easy pogo off Fertid AND easy reaper pogo)\nOR silk soar\nOR faydown cloak",
+            "raw": "ledge grab right\nOR cling grip right\nOR easy scuttlebrace\nOR easy shaman pogo\nOR (easy pogo off Fertid AND easy reaper pogo)\nOR silk soar\nOR faydown cloak",
             "mode": "expression",
             "dnf": [
               [
-                "capability:ledge-grab:none"
+                "capability:ledge-grab:right"
               ],
               [
-                "capability:cling-grip:none"
+                "capability:cling-grip:right"
               ],
               [
                 "capability:scuttlebrace:easy"
@@ -50347,7 +50557,7 @@
           "source_node_id": "far-fields/far-fields-fort-flea-rescue#left-exit-area",
           "target_node_id": "far-fields/far-fields-fort-flea-rescue#flea-rescue-area",
           "requirement": {
-            "raw": "ledge grab both OR faydown cloak OR silk soar OR clawline right",
+            "raw": "ledge grab both OR faydown cloak OR silk soar OR clawline right OR cling grip both",
             "mode": "expression",
             "dnf": [
               [
@@ -50361,6 +50571,9 @@
               ],
               [
                 "capability:clawline:right:1"
+              ],
+              [
+                "capability:cling-grip:both"
               ]
             ],
             "unresolved_reasons": []
@@ -50398,12 +50611,9 @@
           "source_node_id": "far-fields/far-fields-fort-flea-rescue#left-exit-area",
           "target_node_id": "far-fields/far-fields-fort-flea-rescue#camp",
           "requirement": {
-            "raw": "ledge grab OR faydown cloak OR silk soar\nOR (easy shaman pogo AND (easy pogo off Fertid OR run OR clawline right OR sharpdart))\nOR (easy scuttlebrace AND easy [flea brew, cross stitch, rune rage, thread storm] stall)\nOR cling grip both \nOR (cling grip left AND (run OR easy beast pogo \nOR sharpdart \nOR clawline right \nOR easy [beast, architect] needle strike))\nOR (cling grip right AND (dash left OR easy beast pogo \nOR sharpdart \nOR clawline left\nOR easy [beast, architect] needle strike\nOR drifter's cloak))",
+            "raw": "faydown cloak \nOR silk soar\nOR (easy shaman pogo AND (easy pogo off Fertid OR run OR clawline right OR sharpdart))\nOR (easy scuttlebrace AND easy [flea brew, cross stitch, rune rage, thread storm] stall)\nOR cling grip both \nOR (cling grip left AND (run OR easy beast pogo \nOR sharpdart \nOR clawline right \nOR easy [beast, architect] needle strike))\nOR (cling grip right AND (dash left OR easy beast pogo \nOR sharpdart \nOR clawline left\nOR easy [beast, architect] needle strike\nOR drifter's cloak\nOR ledge grab left))",
             "mode": "expression",
             "dnf": [
-              [
-                "capability:ledge-grab:none"
-              ],
               [
                 "capability:faydown-cloak"
               ],
@@ -50496,6 +50706,10 @@
               [
                 "capability:cling-grip:right",
                 "capability:drifters-cloak"
+              ],
+              [
+                "capability:cling-grip:right",
+                "capability:ledge-grab:left"
               ]
             ],
             "unresolved_reasons": []
@@ -50533,11 +50747,11 @@
           "source_node_id": "far-fields/far-fields-fort-flea-rescue#flea-rescue-area",
           "target_node_id": "far-fields/far-fields-fort-flea-rescue#ceiling-exit-area",
           "requirement": {
-            "raw": "ledge grab OR faydown cloak OR silk soar OR clawline left OR cling grip either ",
+            "raw": "ledge grab both OR faydown cloak OR silk soar OR clawline left OR cling grip either ",
             "mode": "expression",
             "dnf": [
               [
-                "capability:ledge-grab:none"
+                "capability:ledge-grab:both"
               ],
               [
                 "capability:faydown-cloak"
@@ -50587,11 +50801,16 @@
           "source_node_id": "far-fields/far-fields-fort-flea-rescue#camp",
           "target_node_id": "far-fields/far-fields-fort-flea-rescue#ceiling-exit-area",
           "requirement": {
-            "raw": "ledge grab OR faydown cloak OR silk soar OR clawline right OR cling grip either OR run ",
+            "raw": "(easy pogo off Skarr Scout AND (ledge grab right OR easy scuttlebrace)) \nOR faydown cloak \nOR silk soar \nOR clawline right \nOR cling grip either \nOR run ",
             "mode": "expression",
             "dnf": [
               [
-                "capability:ledge-grab:none"
+                "capability:enemy-type-pogo:Bone Hunter Child:easy",
+                "capability:ledge-grab:right"
+              ],
+              [
+                "capability:enemy-type-pogo:Bone Hunter Child:easy",
+                "capability:scuttlebrace:easy"
               ],
               [
                 "capability:faydown-cloak"
@@ -52067,7 +52286,7 @@
           "source_node_id": "far-fields/far-fields-wind-shaft#the-bottom",
           "target_node_id": "far-fields/far-fields-wind-shaft#left-almost-bottom",
           "requirement": {
-            "raw": "ledge grab both OR faydown cloak OR scuttlebrace OR silk soar OR drifter's cloak OR easy shaman pogo",
+            "raw": "ledge grab both \nOR faydown cloak \nOR scuttlebrace \nOR silk soar OR drifter's cloak \nOR easy shaman pogo\nOR cling grip left\nOR easy pogo off Vicious Caranid \nOR easy beast needle strike",
             "mode": "expression",
             "dnf": [
               [
@@ -52087,6 +52306,15 @@
               ],
               [
                 "capability:crest-pogo:shaman:easy"
+              ],
+              [
+                "capability:cling-grip:left"
+              ],
+              [
+                "capability:enemy-type-pogo:Bone Circler Vicious:easy"
+              ],
+              [
+                "capability:needle-strike:beast:easy"
               ]
             ],
             "unresolved_reasons": []
@@ -52282,11 +52510,11 @@
           "source_node_id": "far-fields/far-fields-wind-shaft#left-almost-bottom",
           "target_node_id": "far-fields/far-fields-wind-shaft#r5-area",
           "requirement": {
-            "raw": "ledge grab left \nOR easy [shaman, beast, hunter, witch, wanderer, reaper, architect] pogo \nOR easy naked pogo\nOR drifter's cloak \nOR faydown cloak \nOR clawline right\nOR silk soar \nOR cling grip both",
+            "raw": "ledge grab right\nOR easy [shaman, beast, hunter, witch, wanderer, reaper, architect] pogo \nOR easy naked pogo\nOR drifter's cloak \nOR faydown cloak \nOR clawline right\nOR silk soar \nOR cling grip both",
             "mode": "expression",
             "dnf": [
               [
-                "capability:ledge-grab:left"
+                "capability:ledge-grab:right"
               ],
               [
                 "capability:crest-pogo:shaman:easy"
@@ -52579,7 +52807,7 @@
           "source_node_id": "far-fields/far-fields-wind-shaft#r5-area",
           "target_node_id": "far-fields/far-fields-wind-shaft#middle-crossing",
           "requirement": {
-            "raw": "silk soar OR ( break blast rock down AND drifter's cloak ) OR ((cling grip OR scuttlebrace) AND faydown cloak AND (easy beast pogo OR easy shaman pogo OR medium architect pogo OR (proficient movement AND (easy flea brew stall AND (easy reaper pogo OR easy hunter pogo))) OR (easy reaper pogo AND(easy heal stall))))",
+            "raw": "silk soar \nOR ( break blast rock down AND drifter's cloak ) \nOR ((cling grip right OR easy scuttlebrace) AND faydown cloak AND (easy [shaman, beast, reaper, architect] pogo OR (proficient movement AND (easy flea brew stall AND medium [hunter, wanderer] pogo))))",
             "mode": "expression",
             "dnf": [
               [
@@ -52590,74 +52818,72 @@
                 "capability:drifters-cloak"
               ],
               [
-                "capability:cling-grip:none",
-                "capability:faydown-cloak",
-                "capability:crest-pogo:beast:easy"
-              ],
-              [
-                "capability:cling-grip:none",
+                "capability:cling-grip:right",
                 "capability:faydown-cloak",
                 "capability:crest-pogo:shaman:easy"
               ],
               [
-                "capability:cling-grip:none",
-                "capability:faydown-cloak",
-                "capability:crest-pogo:architect:medium"
-              ],
-              [
-                "capability:cling-grip:none",
-                "capability:faydown-cloak",
-                "capability:proficient-movement",
-                "capability:stall:flea-brew:easy:1",
-                "capability:crest-pogo:reaper:easy"
-              ],
-              [
-                "capability:cling-grip:none",
-                "capability:faydown-cloak",
-                "capability:proficient-movement",
-                "capability:stall:flea-brew:easy:1",
-                "capability:crest-pogo:hunter:easy"
-              ],
-              [
-                "capability:cling-grip:none",
-                "capability:faydown-cloak",
-                "capability:crest-pogo:reaper:easy",
-                "capability:stall:heal:easy:1"
-              ],
-              [
-                "capability:scuttlebrace:none",
+                "capability:cling-grip:right",
                 "capability:faydown-cloak",
                 "capability:crest-pogo:beast:easy"
               ],
               [
-                "capability:scuttlebrace:none",
+                "capability:cling-grip:right",
+                "capability:faydown-cloak",
+                "capability:crest-pogo:reaper:easy"
+              ],
+              [
+                "capability:cling-grip:right",
+                "capability:faydown-cloak",
+                "capability:crest-pogo:architect:easy"
+              ],
+              [
+                "capability:cling-grip:right",
+                "capability:faydown-cloak",
+                "capability:proficient-movement",
+                "capability:stall:flea-brew:easy:1",
+                "capability:crest-pogo:hunter:medium"
+              ],
+              [
+                "capability:cling-grip:right",
+                "capability:faydown-cloak",
+                "capability:proficient-movement",
+                "capability:stall:flea-brew:easy:1",
+                "capability:crest-pogo:wanderer:medium"
+              ],
+              [
+                "capability:scuttlebrace:easy",
                 "capability:faydown-cloak",
                 "capability:crest-pogo:shaman:easy"
               ],
               [
-                "capability:scuttlebrace:none",
+                "capability:scuttlebrace:easy",
                 "capability:faydown-cloak",
-                "capability:crest-pogo:architect:medium"
+                "capability:crest-pogo:beast:easy"
               ],
               [
-                "capability:scuttlebrace:none",
+                "capability:scuttlebrace:easy",
                 "capability:faydown-cloak",
-                "capability:proficient-movement",
-                "capability:stall:flea-brew:easy:1",
                 "capability:crest-pogo:reaper:easy"
               ],
               [
-                "capability:scuttlebrace:none",
+                "capability:scuttlebrace:easy",
+                "capability:faydown-cloak",
+                "capability:crest-pogo:architect:easy"
+              ],
+              [
+                "capability:scuttlebrace:easy",
                 "capability:faydown-cloak",
                 "capability:proficient-movement",
                 "capability:stall:flea-brew:easy:1",
-                "capability:crest-pogo:hunter:easy"
+                "capability:crest-pogo:hunter:medium"
               ],
               [
-                "capability:scuttlebrace:none",
+                "capability:scuttlebrace:easy",
                 "capability:faydown-cloak",
-                "capability:crest-pogo:reaper:easy",
-                "capability:stall:heal:easy:1"
+                "capability:proficient-movement",
+                "capability:stall:flea-brew:easy:1",
+                "capability:crest-pogo:wanderer:medium"
               ]
             ],
             "unresolved_reasons": []
@@ -52863,40 +53089,52 @@
           "source_node_id": "far-fields/far-fields-wind-shaft#r4-left",
           "target_node_id": "far-fields/far-fields-wind-shaft#r4-area",
           "requirement": {
-            "raw": "run \nOR dash \nOR easy beast pogo \nOR drifter's cloak \nOR faydown cloak \nOR silk soar \nOR clawline right\nOR sharpdart \nOR easy scuttlebrace",
+            "raw": "none \nOR (clear r4 blast rock AND (run \nOR dash right\nOR easy beast pogo \nOR drifter's cloak \nOR faydown cloak \nOR silk soar \nOR clawline right\nOR sharpdart \nOR easy scuttlebrace))",
             "mode": "expression",
             "dnf": [
               [
+                "none"
+              ],
+              [
+                "dependency:location:far-fields/far-fields-wind-shaft::blockade/r4-blast-rock",
                 "capability:sprint:none"
               ],
               [
-                "capability:dash:none"
+                "dependency:location:far-fields/far-fields-wind-shaft::blockade/r4-blast-rock",
+                "capability:dash:right"
               ],
               [
+                "dependency:location:far-fields/far-fields-wind-shaft::blockade/r4-blast-rock",
                 "capability:crest-pogo:beast:easy"
               ],
               [
+                "dependency:location:far-fields/far-fields-wind-shaft::blockade/r4-blast-rock",
                 "capability:drifters-cloak"
               ],
               [
+                "dependency:location:far-fields/far-fields-wind-shaft::blockade/r4-blast-rock",
                 "capability:faydown-cloak"
               ],
               [
+                "dependency:location:far-fields/far-fields-wind-shaft::blockade/r4-blast-rock",
                 "capability:silk-soar"
               ],
               [
+                "dependency:location:far-fields/far-fields-wind-shaft::blockade/r4-blast-rock",
                 "capability:clawline:right:1"
               ],
               [
+                "dependency:location:far-fields/far-fields-wind-shaft::blockade/r4-blast-rock",
                 "capability:sharpdart:1"
               ],
               [
+                "dependency:location:far-fields/far-fields-wind-shaft::blockade/r4-blast-rock",
                 "capability:scuttlebrace:easy"
               ]
             ],
             "unresolved_reasons": []
           },
-          "notes": "this only applies if you break the right blast rock, but going with most restrictive solution",
+          "notes": "",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
@@ -52909,7 +53147,7 @@
           "source_node_id": "far-fields/far-fields-wind-shaft#r4-area",
           "target_node_id": "far-fields/far-fields-wind-shaft#r4-left",
           "requirement": {
-            "raw": "none OR (clear r4 blast rock AND (run OR dash left OR easy beast pogo OR drifter's cloak OR faydown cloak OR silk soar OR clawline right OR sharpdart OR scuttlebrace))\n",
+            "raw": "none \nOR (clear r4 blast rock AND (run \nOR dash left \nOR easy beast pogo \nOR drifter's cloak \nOR faydown cloak \nOR silk soar \nOR clawline left \nOR sharpdart \nOR easy scuttlebrace))\n",
             "mode": "expression",
             "dnf": [
               [
@@ -52941,7 +53179,7 @@
               ],
               [
                 "dependency:location:far-fields/far-fields-wind-shaft::blockade/r4-blast-rock",
-                "capability:clawline:right:1"
+                "capability:clawline:left:1"
               ],
               [
                 "dependency:location:far-fields/far-fields-wind-shaft::blockade/r4-blast-rock",
@@ -52949,12 +53187,12 @@
               ],
               [
                 "dependency:location:far-fields/far-fields-wind-shaft::blockade/r4-blast-rock",
-                "capability:scuttlebrace:none"
+                "capability:scuttlebrace:easy"
               ]
             ],
             "unresolved_reasons": []
           },
-          "notes": "this only applies if you break the right blast rock, but going with most restrictive solution",
+          "notes": "",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
@@ -53160,11 +53398,11 @@
           "source_node_id": "far-fields/far-fields-wind-shaft#r4-area",
           "target_node_id": "far-fields/far-fields-wind-shaft#upper-crossing",
           "requirement": {
-            "raw": "cling grip OR (faydown cloak AND scuttlebrace AND ledge grab AND proficient movement AND (easy pogo off Vicious Caranid OR ledge grab)) OR silk soar",
+            "raw": "cling grip right OR (faydown cloak AND scuttlebrace AND ledge grab AND proficient movement AND (easy pogo off Vicious Caranid OR ledge grab)) OR silk soar",
             "mode": "expression",
             "dnf": [
               [
-                "capability:cling-grip:none"
+                "capability:cling-grip:right"
               ],
               [
                 "capability:faydown-cloak",
@@ -53219,17 +53457,17 @@
           "source_node_id": "far-fields/far-fields-wind-shaft#r4-left",
           "target_node_id": "far-fields/far-fields-wind-shaft#wind-shaft-rock-steps",
           "requirement": {
-            "raw": "ledge grab OR faydown OR cling grip OR silk soar",
+            "raw": "ledge grab both OR faydown OR cling grip left OR silk soar",
             "mode": "expression",
             "dnf": [
               [
-                "capability:ledge-grab:none"
+                "capability:ledge-grab:both"
               ],
               [
                 "capability:faydown-cloak"
               ],
               [
-                "capability:cling-grip:none"
+                "capability:cling-grip:left"
               ],
               [
                 "capability:silk-soar"
@@ -53250,11 +53488,11 @@
           "source_node_id": "far-fields/far-fields-wind-shaft#r4-area",
           "target_node_id": "far-fields/far-fields-wind-shaft#wind-shaft-rock-steps",
           "requirement": {
-            "raw": "cling grip \nOR (faydown cloak AND scuttlebrace AND proficient movement AND (easy pogo off Vicious Caranid OR ledge grab)) OR silk soar",
+            "raw": "cling grip right\nOR (faydown cloak AND scuttlebrace AND proficient movement AND (easy pogo off Vicious Caranid OR ledge grab left)) OR silk soar",
             "mode": "expression",
             "dnf": [
               [
-                "capability:cling-grip:none"
+                "capability:cling-grip:right"
               ],
               [
                 "capability:faydown-cloak",
@@ -53266,7 +53504,7 @@
                 "capability:faydown-cloak",
                 "capability:scuttlebrace:none",
                 "capability:proficient-movement",
-                "capability:ledge-grab:none"
+                "capability:ledge-grab:left"
               ],
               [
                 "capability:silk-soar"
@@ -54595,14 +54833,14 @@
           "source_node_id": "far-fields/far-fields-pilgrims-rest#middle-upper-platform",
           "target_node_id": "far-fields/far-fields-pilgrims-rest#upper-left-exit",
           "requirement": {
-            "raw": "run left OR ledge grab OR clawline left OR faydown cloak OR drifter's cloak  OR sharpdart OR easy hunter pogo OR easy beast pogo OR (architect slash left AND easy architect pogo)",
+            "raw": "run left OR ledge grab left OR clawline left OR faydown cloak OR drifter's cloak  OR sharpdart OR easy hunter pogo OR easy beast pogo OR (architect slash left AND easy architect pogo)",
             "mode": "expression",
             "dnf": [
               [
                 "capability:sprint:left"
               ],
               [
-                "capability:ledge-grab:none"
+                "capability:ledge-grab:left"
               ],
               [
                 "capability:clawline:left:1"
@@ -54642,11 +54880,11 @@
           "source_node_id": "far-fields/far-fields-pilgrims-rest#main-floor",
           "target_node_id": "far-fields/far-fields-pilgrims-rest#lower-right-exit",
           "requirement": {
-            "raw": "ledge grab OR faydown cloak OR silk soar OR scuttlebrace OR easy shaman pogo OR easy beast needle strike OR cling grip OR (easy flea brew stall AND easy beast pogo)",
+            "raw": "ledge grab right OR faydown cloak OR silk soar OR scuttlebrace OR easy shaman pogo OR easy beast needle strike OR cling grip right OR (easy flea brew stall AND easy beast pogo)",
             "mode": "expression",
             "dnf": [
               [
-                "capability:ledge-grab:none"
+                "capability:ledge-grab:right"
               ],
               [
                 "capability:faydown-cloak"
@@ -54664,7 +54902,7 @@
                 "capability:needle-strike:beast:easy"
               ],
               [
-                "capability:cling-grip:none"
+                "capability:cling-grip:right"
               ],
               [
                 "capability:stall:flea-brew:easy:1",
@@ -54706,11 +54944,11 @@
           "source_node_id": "far-fields/far-fields-pilgrims-rest#main-floor",
           "target_node_id": "far-fields/far-fields-pilgrims-rest#upper-right-exit",
           "requirement": {
-            "raw": "ledge grab OR faydown cloak OR silk soar OR scuttlebrace OR cling grip",
+            "raw": "ledge grab right OR faydown cloak OR silk soar OR scuttlebrace OR cling grip right",
             "mode": "expression",
             "dnf": [
               [
-                "capability:ledge-grab:none"
+                "capability:ledge-grab:right"
               ],
               [
                 "capability:faydown-cloak"
@@ -54722,7 +54960,7 @@
                 "capability:scuttlebrace:none"
               ],
               [
-                "capability:cling-grip:none"
+                "capability:cling-grip:right"
               ]
             ],
             "unresolved_reasons": []
@@ -59104,37 +59342,61 @@
           "source_node_id": "far-fields/far-fields-skull-room-west#main-floor",
           "target_node_id": "far-fields/far-fields-skull-room-west#upper-left-exit-area",
           "requirement": {
-            "raw": "ledge grab OR silk soar OR (easy enemy pogo AND (easy beast pogo OR easy shaman pogo OR architect slash left OR easy architect needle strike OR easy wanderer needle strike OR easy beast needle strike)) OR drifter's cloak OR faydown cloak OR cling grip OR clawline OR scuttlebrace OR run OR dash",
+            "raw": "ledge grab left\nOR silk soar \nOR (easy enemy pogo off [ Pilgrim Pouncer, Winged Pilgrim] AND (easy beast pogo OR easy shaman pogo OR architect slash left OR easy architect needle strike OR easy wanderer needle strike OR easy beast needle strike)) OR drifter's cloak OR faydown cloak \nOR cling grip left \nOR clawline left \nOR easy scuttlebrace \nOR run \nOR dash left",
             "mode": "expression",
             "dnf": [
               [
-                "capability:ledge-grab:none"
+                "capability:ledge-grab:left"
               ],
               [
                 "capability:silk-soar"
               ],
               [
-                "capability:enemy-pogo:easy",
+                "capability:enemy-type-pogo:Pilgrim 01:easy",
                 "capability:crest-pogo:beast:easy"
               ],
               [
-                "capability:enemy-pogo:easy",
+                "capability:enemy-type-pogo:Pilgrim 01:easy",
                 "capability:crest-pogo:shaman:easy"
               ],
               [
-                "capability:enemy-pogo:easy",
+                "capability:enemy-type-pogo:Pilgrim 01:easy",
                 "capability:needle:architect:left"
               ],
               [
-                "capability:enemy-pogo:easy",
+                "capability:enemy-type-pogo:Pilgrim 01:easy",
                 "capability:needle-strike:architect:easy"
               ],
               [
-                "capability:enemy-pogo:easy",
+                "capability:enemy-type-pogo:Pilgrim 01:easy",
                 "capability:needle-strike:wanderer:easy"
               ],
               [
-                "capability:enemy-pogo:easy",
+                "capability:enemy-type-pogo:Pilgrim 01:easy",
+                "capability:needle-strike:beast:easy"
+              ],
+              [
+                "capability:enemy-type-pogo:Pilgrim Fly:easy",
+                "capability:crest-pogo:beast:easy"
+              ],
+              [
+                "capability:enemy-type-pogo:Pilgrim Fly:easy",
+                "capability:crest-pogo:shaman:easy"
+              ],
+              [
+                "capability:enemy-type-pogo:Pilgrim Fly:easy",
+                "capability:needle:architect:left"
+              ],
+              [
+                "capability:enemy-type-pogo:Pilgrim Fly:easy",
+                "capability:needle-strike:architect:easy"
+              ],
+              [
+                "capability:enemy-type-pogo:Pilgrim Fly:easy",
+                "capability:needle-strike:wanderer:easy"
+              ],
+              [
+                "capability:enemy-type-pogo:Pilgrim Fly:easy",
                 "capability:needle-strike:beast:easy"
               ],
               [
@@ -59144,19 +59406,19 @@
                 "capability:faydown-cloak"
               ],
               [
-                "capability:cling-grip:none"
+                "capability:cling-grip:left"
               ],
               [
-                "capability:clawline:none:1"
+                "capability:clawline:left:1"
               ],
               [
-                "capability:scuttlebrace:none"
+                "capability:scuttlebrace:easy"
               ],
               [
                 "capability:sprint:none"
               ],
               [
-                "capability:dash:none"
+                "capability:dash:left"
               ]
             ],
             "unresolved_reasons": []
@@ -59243,7 +59505,7 @@
           "source_node_id": "far-fields/far-fields-skull-room-west#main-floor",
           "target_node_id": "far-fields/far-fields-skull-room-west#rosary-alcove",
           "requirement": {
-            "raw": "drifter's cloak OR faydown cloak OR silk soar OR ( ledge grab AND ( run OR dash OR easy beast pogo OR cling grip OR clawline OR sharpdart OR scuttlebrace ) )",
+            "raw": "drifter's cloak \nOR faydown cloak \nOR silk soar \nOR ( ledge grab both AND ( run OR dash left OR easy beast pogo OR cling grip left OR clawline left OR sharpdart OR easy scuttlebrace ) )",
             "mode": "expression",
             "dnf": [
               [
@@ -59256,32 +59518,32 @@
                 "capability:silk-soar"
               ],
               [
-                "capability:ledge-grab:none",
+                "capability:ledge-grab:both",
                 "capability:sprint:none"
               ],
               [
-                "capability:ledge-grab:none",
-                "capability:dash:none"
+                "capability:ledge-grab:both",
+                "capability:dash:left"
               ],
               [
-                "capability:ledge-grab:none",
+                "capability:ledge-grab:both",
                 "capability:crest-pogo:beast:easy"
               ],
               [
-                "capability:ledge-grab:none",
-                "capability:cling-grip:none"
+                "capability:ledge-grab:both",
+                "capability:cling-grip:left"
               ],
               [
-                "capability:ledge-grab:none",
-                "capability:clawline:none:1"
+                "capability:ledge-grab:both",
+                "capability:clawline:left:1"
               ],
               [
-                "capability:ledge-grab:none",
+                "capability:ledge-grab:both",
                 "capability:sharpdart:1"
               ],
               [
-                "capability:ledge-grab:none",
-                "capability:scuttlebrace:none"
+                "capability:ledge-grab:both",
+                "capability:scuttlebrace:easy"
               ]
             ],
             "unresolved_reasons": []
@@ -62176,7 +62438,7 @@
           "source_node_id": "far-fields/far-fields-deep-entrance#lower-left-alcove",
           "target_node_id": "far-fields/far-fields-deep-entrance#middle-left-platform",
           "requirement": {
-            "raw": "(faydown cloak AND (flea brew OR ledge grab OR easy voltvessels stall OR easy architect needle strike OR easy beast pogo OR easy beast needle strike OR architect slash right)) OR ( cling grip AND ( run right OR dash right OR drifter's cloak OR faydown cloak OR clawline right OR sharpdart OR flea brew OR easy beast needle strike OR easy architect needle strike OR architect slash right))",
+            "raw": "(faydown cloak AND (flea brew OR ledge grab right OR easy voltvessels stall OR easy architect needle strike OR easy beast pogo OR easy beast needle strike OR architect slash right)) \nOR ( cling grip right AND ( run right OR dash right OR drifter's cloak OR faydown cloak OR clawline right OR sharpdart OR flea brew OR easy beast needle strike OR easy architect needle strike OR architect slash right))\n",
             "mode": "expression",
             "dnf": [
               [
@@ -62185,7 +62447,7 @@
               ],
               [
                 "capability:faydown-cloak",
-                "capability:ledge-grab:none"
+                "capability:ledge-grab:right"
               ],
               [
                 "capability:faydown-cloak",
@@ -62208,43 +62470,43 @@
                 "capability:needle:architect:right"
               ],
               [
-                "capability:cling-grip:none",
+                "capability:cling-grip:right",
                 "capability:sprint:right"
               ],
               [
-                "capability:cling-grip:none",
+                "capability:cling-grip:right",
                 "capability:dash:right"
               ],
               [
-                "capability:cling-grip:none",
+                "capability:cling-grip:right",
                 "capability:drifters-cloak"
               ],
               [
-                "capability:cling-grip:none",
+                "capability:cling-grip:right",
                 "capability:faydown-cloak"
               ],
               [
-                "capability:cling-grip:none",
+                "capability:cling-grip:right",
                 "capability:clawline:right:1"
               ],
               [
-                "capability:cling-grip:none",
+                "capability:cling-grip:right",
                 "capability:sharpdart:1"
               ],
               [
-                "capability:cling-grip:none",
+                "capability:cling-grip:right",
                 "capability:flea-brew-jump"
               ],
               [
-                "capability:cling-grip:none",
+                "capability:cling-grip:right",
                 "capability:needle-strike:beast:easy"
               ],
               [
-                "capability:cling-grip:none",
+                "capability:cling-grip:right",
                 "capability:needle-strike:architect:easy"
               ],
               [
-                "capability:cling-grip:none",
+                "capability:cling-grip:right",
                 "capability:needle:architect:right"
               ]
             ],
@@ -62263,11 +62525,11 @@
           "source_node_id": "far-fields/far-fields-deep-entrance#middle-left-platform",
           "target_node_id": "far-fields/far-fields-deep-entrance#plains",
           "requirement": {
-            "raw": "run right OR dash right OR drifter's cloak OR faydown cloak OR clawline right OR sharpdart OR scuttlebrace OR easy hunter pogo OR easy architect needle strike OR easy beast pogo OR easy beast needle strike OR flea brew OR (proficient movement AND cling grip)",
+            "raw": "run\nOR dash right \nOR drifter's cloak \nOR faydown cloak \nOR clawline right \nOR sharpdart \nOR easy scuttlebrace \nOR easy [beast, architect, hunter] pogo\nOR easy naked pogo\nOR easy [beast, architect, witch] needle strike\nOR flea brew \nOR (proficient movement AND (cling grip both OR (cling grip left AND (easy shaman pogo OR easy wanderer needle strike))))",
             "mode": "expression",
             "dnf": [
               [
-                "capability:sprint:right"
+                "capability:sprint:none"
               ],
               [
                 "capability:dash:right"
@@ -62285,26 +62547,45 @@
                 "capability:sharpdart:1"
               ],
               [
-                "capability:scuttlebrace:none"
-              ],
-              [
-                "capability:crest-pogo:hunter:easy"
-              ],
-              [
-                "capability:needle-strike:architect:easy"
+                "capability:scuttlebrace:easy"
               ],
               [
                 "capability:crest-pogo:beast:easy"
               ],
               [
+                "capability:crest-pogo:architect:easy"
+              ],
+              [
+                "capability:crest-pogo:hunter:easy"
+              ],
+              [
+                "capability:naked-pogo:easy"
+              ],
+              [
                 "capability:needle-strike:beast:easy"
+              ],
+              [
+                "capability:needle-strike:architect:easy"
+              ],
+              [
+                "capability:needle-strike:witch:easy"
               ],
               [
                 "capability:flea-brew-jump"
               ],
               [
                 "capability:proficient-movement",
-                "capability:cling-grip:none"
+                "capability:cling-grip:both"
+              ],
+              [
+                "capability:proficient-movement",
+                "capability:cling-grip:left",
+                "capability:crest-pogo:shaman:easy"
+              ],
+              [
+                "capability:proficient-movement",
+                "capability:cling-grip:left",
+                "capability:needle-strike:wanderer:easy"
               ]
             ],
             "unresolved_reasons": []
@@ -62322,7 +62603,7 @@
           "source_node_id": "far-fields/far-fields-deep-entrance#plains",
           "target_node_id": "far-fields/far-fields-deep-entrance#middle-left-platform",
           "requirement": {
-            "raw": "run left OR dash left OR drifter's cloak OR faydown cloak OR clawline left OR sharpdart OR (ledge grab AND (dash left OR easy architect needle strike)) OR (proficient movement AND cling grip AND (easy architect needle strike OR (flea brew AND easy wanderer needle strike))) OR (proficient movement AND flea brew AND (easy architect needle strike OR architect slash left))",
+            "raw": "run left \nOR dash left \nOR drifter's cloak \nOR faydown cloak \nOR clawline left \nOR sharpdart \nOR (ledge grab left AND (dash left OR easy architect needle strike)) \nOR (proficient movement AND cling grip both AND (easy architect needle strike OR (flea brew AND easy wanderer needle strike))) OR (proficient movement AND flea brew AND (easy architect needle strike OR architect slash left))",
             "mode": "expression",
             "dnf": [
               [
@@ -62344,21 +62625,21 @@
                 "capability:sharpdart:1"
               ],
               [
-                "capability:ledge-grab:none",
+                "capability:ledge-grab:left",
                 "capability:dash:left"
               ],
               [
-                "capability:ledge-grab:none",
+                "capability:ledge-grab:left",
                 "capability:needle-strike:architect:easy"
               ],
               [
                 "capability:proficient-movement",
-                "capability:cling-grip:none",
+                "capability:cling-grip:both",
                 "capability:needle-strike:architect:easy"
               ],
               [
                 "capability:proficient-movement",
-                "capability:cling-grip:none",
+                "capability:cling-grip:both",
                 "capability:flea-brew-jump",
                 "capability:needle-strike:wanderer:easy"
               ],
@@ -62408,7 +62689,7 @@
           "source_node_id": "far-fields/far-fields-deep-entrance#lower-right-area",
           "target_node_id": "far-fields/far-fields-deep-entrance#plains",
           "requirement": {
-            "raw": "silk soar \nOR faydown OR ( ledge grab AND ( run left OR clawline left ) )",
+            "raw": "silk soar \nOR faydown OR ( ledge grab left AND ( run left OR clawline left ) )",
             "mode": "expression",
             "dnf": [
               [
@@ -62418,11 +62699,11 @@
                 "capability:faydown-cloak"
               ],
               [
-                "capability:ledge-grab:none",
+                "capability:ledge-grab:left",
                 "capability:sprint:left"
               ],
               [
-                "capability:ledge-grab:none",
+                "capability:ledge-grab:left",
                 "capability:clawline:left:1"
               ]
             ],
@@ -62441,7 +62722,7 @@
           "source_node_id": "far-fields/far-fields-deep-entrance#lower-right-area",
           "target_node_id": "far-fields/far-fields-deep-entrance#lower-right-alcove",
           "requirement": {
-            "raw": "break blast rock left AND ( spike pogo OR cling grip OR faydown cloak OR scuttlebrace OR easy hazard respawn )",
+            "raw": "break blast rock left AND ( spike pogo OR cling grip either OR faydown cloak OR scuttlebrace OR easy hazard respawn )",
             "mode": "expression",
             "dnf": [
               [
@@ -62450,7 +62731,7 @@
               ],
               [
                 "capability:break-blast-rock:left",
-                "capability:cling-grip:none"
+                "capability:cling-grip:either"
               ],
               [
                 "capability:break-blast-rock:left",
@@ -62480,11 +62761,11 @@
           "source_node_id": "far-fields/far-fields-deep-entrance#lower-right-alcove",
           "target_node_id": "far-fields/far-fields-deep-entrance#lower-right-area",
           "requirement": {
-            "raw": "cling grip OR faydown cloak OR scuttlebrace",
+            "raw": "cling grip either OR faydown cloak OR scuttlebrace",
             "mode": "expression",
             "dnf": [
               [
-                "capability:cling-grip:none"
+                "capability:cling-grip:either"
               ],
               [
                 "capability:faydown-cloak"
@@ -62787,7 +63068,7 @@
           "source_node_id": "far-fields/far-fields-deep-entrance#left-of-right-exit-gate",
           "target_node_id": "far-fields/far-fields-deep-entrance#plains-upper-right-platform",
           "requirement": {
-            "raw": "faydown cloak AND ( run left OR dash left OR drifter's cloak OR clawline left OR sharpdart OR scuttlebrace )",
+            "raw": "faydown cloak AND ( run left OR dash left OR drifter's cloak OR clawline left OR sharpdart OR easy scuttlebrace )",
             "mode": "expression",
             "dnf": [
               [
@@ -62812,7 +63093,7 @@
               ],
               [
                 "capability:faydown-cloak",
-                "capability:scuttlebrace:none"
+                "capability:scuttlebrace:easy"
               ]
             ],
             "unresolved_reasons": []
@@ -62870,60 +63151,61 @@
           "source_node_id": "far-fields/far-fields-deep-entrance#plains-upper-right-platform",
           "target_node_id": "far-fields/far-fields-deep-entrance#upper-right-alcove",
           "requirement": {
-            "raw": "(cling grip AND faydown cloak AND ( ledge grab OR run OR dash OR drifter's cloak OR sharpdart OR scuttlebrace )) OR (proficient movement AND cling grip AND ((clawline x 3) OR faydown cloak OR (clawline AND easy beast pogo) OR (run AND dash) ))",
+            "raw": "(cling grip right AND faydown cloak AND (ledge grab right OR run OR dash right OR drifter's cloak OR sharpdart OR easy scuttlebrace )) \nOR (proficient movement AND cling grip both AND ((clawline both AND clawline x 3) OR faydown cloak OR (clawline AND easy beast pogo) OR (run AND dash right) ))",
             "mode": "expression",
             "dnf": [
               [
-                "capability:cling-grip:none",
+                "capability:cling-grip:right",
                 "capability:faydown-cloak",
-                "capability:ledge-grab:none"
+                "capability:ledge-grab:right"
               ],
               [
-                "capability:cling-grip:none",
+                "capability:cling-grip:right",
                 "capability:faydown-cloak",
                 "capability:sprint:none"
               ],
               [
-                "capability:cling-grip:none",
+                "capability:cling-grip:right",
                 "capability:faydown-cloak",
-                "capability:dash:none"
+                "capability:dash:right"
               ],
               [
-                "capability:cling-grip:none",
+                "capability:cling-grip:right",
                 "capability:faydown-cloak",
                 "capability:drifters-cloak"
               ],
               [
-                "capability:cling-grip:none",
+                "capability:cling-grip:right",
                 "capability:faydown-cloak",
                 "capability:sharpdart:1"
               ],
               [
-                "capability:cling-grip:none",
+                "capability:cling-grip:right",
                 "capability:faydown-cloak",
-                "capability:scuttlebrace:none"
+                "capability:scuttlebrace:easy"
               ],
               [
                 "capability:proficient-movement",
-                "capability:cling-grip:none",
+                "capability:cling-grip:both",
+                "capability:clawline:both:1",
                 "capability:clawline:none:3"
               ],
               [
                 "capability:proficient-movement",
-                "capability:cling-grip:none",
+                "capability:cling-grip:both",
                 "capability:faydown-cloak"
               ],
               [
                 "capability:proficient-movement",
-                "capability:cling-grip:none",
+                "capability:cling-grip:both",
                 "capability:clawline:none:1",
                 "capability:crest-pogo:beast:easy"
               ],
               [
                 "capability:proficient-movement",
-                "capability:cling-grip:none",
+                "capability:cling-grip:both",
                 "capability:sprint:none",
-                "capability:dash:none"
+                "capability:dash:right"
               ]
             ],
             "unresolved_reasons": []
@@ -63026,8 +63308,8 @@
           "unresolved_reasons": []
         },
         {
-          "id": "location:far-fields/far-fields-deep-entrance::collectible/ap-minor-cache-shell-shard-cache-far-fields-4",
-          "name": "AP Minor Cache - Shell Shard Cache: Far Fields #4",
+          "id": "location:far-fields/far-fields-deep-entrance::collectible/skarr-gate-watch-spears",
+          "name": "Skarr Gate Watch Spears",
           "in_game_id": null,
           "location_type": "collectible",
           "has_persisted_state": true,
@@ -63040,15 +63322,15 @@
             ],
             "unresolved_reasons": []
           },
-          "notes": "",
+          "notes": "formely AP Minor Cache - Shell Shard Cache: Far Fields #4",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
           "unresolved_reasons": []
         },
         {
-          "id": "location:far-fields/far-fields-deep-entrance::collectible/ap-minor-cache-shell-shard-cache-far-fields-5",
-          "name": "AP Minor Cache - Shell Shard Cache: Far Fields #5",
+          "id": "location:far-fields/far-fields-deep-entrance::collectible/skarr-sentinel-s-trap-shards",
+          "name": "Skarr Sentinel's Trap Shards",
           "in_game_id": null,
           "location_type": "collectible",
           "has_persisted_state": true,
@@ -63061,15 +63343,15 @@
             ],
             "unresolved_reasons": []
           },
-          "notes": "",
+          "notes": "formerly AP Minor Cache - Shell Shard Cache: Far Fields #5",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
           "unresolved_reasons": []
         },
         {
-          "id": "location:far-fields/far-fields-deep-entrance::collectible/ap-minor-cache-shell-shard-cache-far-fields-6",
-          "name": "AP Minor Cache - Shell Shard Cache: Far Fields #6",
+          "id": "location:far-fields/far-fields-deep-entrance::collectible/cage-materials",
+          "name": "Cage Materials",
           "in_game_id": null,
           "location_type": "collectible",
           "has_persisted_state": true,
@@ -63082,15 +63364,15 @@
             ],
             "unresolved_reasons": []
           },
-          "notes": "",
+          "notes": "formerly AP Minor Cache - Shell Shard Cache: Far Fields #6",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
           "unresolved_reasons": []
         },
         {
-          "id": "location:far-fields/far-fields-deep-entrance::collectible/ap-minor-cache-shell-shard-cache-far-fields-7",
-          "name": "AP Minor Cache - Shell Shard Cache: Far Fields #7",
+          "id": "location:far-fields/far-fields-deep-entrance::collectible/curveclaw-reserve",
+          "name": "Curveclaw Reserve",
           "in_game_id": null,
           "location_type": "collectible",
           "has_persisted_state": true,
@@ -63103,15 +63385,15 @@
             ],
             "unresolved_reasons": []
           },
-          "notes": "",
+          "notes": "formerly AP Minor Cache - Shell Shard Cache: Far Fields #7",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
           "unresolved_reasons": []
         },
         {
-          "id": "location:far-fields/far-fields-deep-entrance::collectible/ap-minor-cache-rosary-cache-far-fields-20",
-          "name": "AP Minor Cache - Rosary Cache: Far Fields #20",
+          "id": "location:far-fields/far-fields-deep-entrance::collectible/queen-s-gate-sentry-funds",
+          "name": "Queen's Gate Sentry Funds",
           "in_game_id": null,
           "location_type": "collectible",
           "has_persisted_state": true,
@@ -63124,15 +63406,15 @@
             ],
             "unresolved_reasons": []
           },
-          "notes": "",
+          "notes": "formerly AP Minor Cache - Rosary Cache: Far Fields #20",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
           "unresolved_reasons": []
         },
         {
-          "id": "location:far-fields/far-fields-deep-entrance::collectible/ap-minor-cache-rosary-cache-far-fields-21",
-          "name": "AP Minor Cache - Rosary Cache: Far Fields #21",
+          "id": "location:far-fields/far-fields-deep-entrance::collectible/bounty-rosary-stash-to-be-paid-in-full-to-the-hunter-who-fells-gurr",
+          "name": "Bounty Rosary Stash - \"To be paid in full to the Hunter who fells Gurr\"",
           "in_game_id": null,
           "location_type": "collectible",
           "has_persisted_state": true,
@@ -63145,15 +63427,15 @@
             ],
             "unresolved_reasons": []
           },
-          "notes": "",
+          "notes": "formerly AP Minor Cache - Rosary Cache: Far Fields #21",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
           "unresolved_reasons": []
         },
         {
-          "id": "location:far-fields/far-fields-deep-entrance::collectible/ap-minor-cache-rosary-cache-far-fields-22",
-          "name": "AP Minor Cache - Rosary Cache: Far Fields #22",
+          "id": "location:far-fields/far-fields-deep-entrance::collectible/last-beads-stand-strong-my-child-forgive-the-burden-i-leave-on-you",
+          "name": "Last Beads - \"Stand strong my child, forgive the burden I leave on you\"",
           "in_game_id": null,
           "location_type": "collectible",
           "has_persisted_state": true,
@@ -63166,30 +63448,28 @@
             ],
             "unresolved_reasons": []
           },
-          "notes": "",
+          "notes": "formerly AP Minor Cache - Rosary Cache: Far Fields #22",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
           "unresolved_reasons": []
         },
         {
-          "id": "location:far-fields/far-fields-deep-entrance::collectible/far-fields-pale-rosary-necklace",
-          "name": "far fields pale rosary necklace",
+          "id": "location:far-fields/far-fields-deep-entrance::collectible/queen-s-proof-of-hero",
+          "name": "Queen's Proof of Hero",
           "in_game_id": null,
           "location_type": "collectible",
           "has_persisted_state": true,
           "node_id": "far-fields/far-fields-deep-entrance#upper-right-alcove",
           "requirement": {
-            "raw": "act 3",
-            "mode": "expression",
+            "raw": "none",
+            "mode": "none",
             "dnf": [
-              [
-                "state:act-3"
-              ]
+              []
             ],
             "unresolved_reasons": []
           },
-          "notes": "",
+          "notes": "formerly far fields pale rosary necklace",
           "is_todo": false,
           "is_verified": true,
           "logic_status": "active",
@@ -64025,8 +64305,8 @@
       "notes": "",
       "nodes": [
         {
-          "id": "far-fields/hunters-march-pilgrims-rest-deep-passage#room",
-          "name": "room",
+          "id": "far-fields/hunters-march-pilgrims-rest-deep-passage#deep-rest-passage",
+          "name": "deep rest passage",
           "notes": ""
         }
       ],
@@ -64037,7 +64317,7 @@
           "name": "right1",
           "in_game_id": "right1",
           "is_unsafe_arrival": false,
-          "source_node_id": "far-fields/hunters-march-pilgrims-rest-deep-passage#room",
+          "source_node_id": "far-fields/hunters-march-pilgrims-rest-deep-passage#deep-rest-passage",
           "target": "far-fields/far-fields-deep-lower-west@l",
           "requirement": {
             "raw": "none",
@@ -64059,7 +64339,7 @@
           "name": "left1",
           "in_game_id": "left1",
           "is_unsafe_arrival": false,
-          "source_node_id": "far-fields/hunters-march-pilgrims-rest-deep-passage#room",
+          "source_node_id": "far-fields/hunters-march-pilgrims-rest-deep-passage#deep-rest-passage",
           "target": "far-fields/far-fields-pilgrims-rest@ur",
           "requirement": {
             "raw": "clear blast rock exit block",
@@ -64086,7 +64366,7 @@
           "in_game_id": null,
           "location_type": "blockade",
           "has_persisted_state": true,
-          "node_id": "far-fields/hunters-march-pilgrims-rest-deep-passage#room",
+          "node_id": "far-fields/hunters-march-pilgrims-rest-deep-passage#deep-rest-passage",
           "requirement": {
             "raw": "break blast rock left",
             "mode": "expression",
@@ -64109,22 +64389,20 @@
           "in_game_id": "Fields Goomba",
           "location_type": "enemy",
           "has_persisted_state": false,
-          "node_id": "far-fields/hunters-march-pilgrims-rest-deep-passage#room",
+          "node_id": "far-fields/hunters-march-pilgrims-rest-deep-passage#deep-rest-passage",
           "requirement": {
-            "raw": "",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "requirement is blank"
-            ]
+            "raw": "none",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
           },
           "notes": "",
           "is_todo": false,
-          "is_verified": null,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "requirement is unresolved"
-          ]
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
         }
       ]
     },
@@ -64244,14 +64522,14 @@
           "source_node_id": "far-fields/far-fields-deep-lower-west#ground-level",
           "target_node_id": "far-fields/far-fields-deep-lower-west#right-hangoff-ledge",
           "requirement": {
-            "raw": "silk soar OR scuttlebrace OR ( cling grip either AND ( run OR dash OR drifter's cloak OR faydown cloak OR clawline left OR sharpdart OR easy beast pogo OR proficient movement) ) OR faydown cloak",
+            "raw": "silk soar \nOR easy scuttlebrace \nOR ( cling grip either AND ( run OR dash OR drifter's cloak OR faydown cloak OR clawline left OR sharpdart OR easy beast pogo OR proficient movement) ) \nOR faydown cloak",
             "mode": "expression",
             "dnf": [
               [
                 "capability:silk-soar"
               ],
               [
-                "capability:scuttlebrace:none"
+                "capability:scuttlebrace:easy"
               ],
               [
                 "capability:cling-grip:either",
@@ -64368,17 +64646,21 @@
           "source_node_id": "far-fields/far-fields-deep-lower-west#right-hangoff-ledge",
           "target_node_id": "far-fields/far-fields-deep-lower-west#upper-right-alcove",
           "requirement": {
-            "raw": "silk soar OR cling grip either OR scuttlebrace",
+            "raw": "silk soar OR cling grip left OR (cling grip right AND faydown cloak) OR easy scuttlebrace",
             "mode": "expression",
             "dnf": [
               [
                 "capability:silk-soar"
               ],
               [
-                "capability:cling-grip:either"
+                "capability:cling-grip:left"
               ],
               [
-                "capability:scuttlebrace:none"
+                "capability:cling-grip:right",
+                "capability:faydown-cloak"
+              ],
+              [
+                "capability:scuttlebrace:easy"
               ]
             ],
             "unresolved_reasons": []
@@ -64416,43 +64698,43 @@
           "source_node_id": "far-fields/far-fields-deep-lower-west#left-of-alcove-gate",
           "target_node_id": "far-fields/far-fields-deep-lower-west#ceiling-exit-area",
           "requirement": {
-            "raw": "silk soar OR clawline OR faydown cloak OR scuttlebrace OR (ledge grab AND (run left OR (drifter's cloak AND (easy beast needle strike OR easy architect needle strike OR architect slash left)))) OR ( cling grip both AND (run left OR dash left OR sharpdart OR drifter's cloak ) )",
+            "raw": "silk soar \nOR clawline left \nOR faydown cloak \nOR easy scuttlebrace \nOR (ledge grab left AND (run OR (drifter's cloak AND (easy beast needle strike OR easy architect needle strike OR architect slash left)))) \nOR (cling grip both AND (run OR dash left OR sharpdart OR drifter's cloak ) )",
             "mode": "expression",
             "dnf": [
               [
                 "capability:silk-soar"
               ],
               [
-                "capability:clawline:none:1"
+                "capability:clawline:left:1"
               ],
               [
                 "capability:faydown-cloak"
               ],
               [
-                "capability:scuttlebrace:none"
+                "capability:scuttlebrace:easy"
               ],
               [
-                "capability:ledge-grab:none",
-                "capability:sprint:left"
+                "capability:ledge-grab:left",
+                "capability:sprint:none"
               ],
               [
-                "capability:ledge-grab:none",
+                "capability:ledge-grab:left",
                 "capability:drifters-cloak",
                 "capability:needle-strike:beast:easy"
               ],
               [
-                "capability:ledge-grab:none",
+                "capability:ledge-grab:left",
                 "capability:drifters-cloak",
                 "capability:needle-strike:architect:easy"
               ],
               [
-                "capability:ledge-grab:none",
+                "capability:ledge-grab:left",
                 "capability:drifters-cloak",
                 "capability:needle:architect:left"
               ],
               [
                 "capability:cling-grip:both",
-                "capability:sprint:left"
+                "capability:sprint:none"
               ],
               [
                 "capability:cling-grip:both",
@@ -64533,7 +64815,7 @@
           "source_node_id": "far-fields/far-fields-deep-lower-west#center-scaffolds",
           "target_node_id": "far-fields/far-fields-deep-lower-west#left-of-alcove-gate",
           "requirement": {
-            "raw": "faydown cloak OR\ncling grip both OR scuttlebrace OR silk soar OR (ledge grab right AND ((run AND drifter's cloak) OR dash right OR easy beast pogo OR easy architect needle strike))",
+            "raw": "faydown cloak \nOR cling grip both \nOR scuttlebrace \nOR silk soar \nOR (ledge grab right AND ((run AND drifter's cloak) OR dash right OR easy beast pogo OR easy architect needle strike))",
             "mode": "expression",
             "dnf": [
               [
@@ -65377,11 +65659,6 @@
           "id": "far-fields/far-fields-deep-fort#prison",
           "name": "prison",
           "notes": ""
-        },
-        {
-          "id": "far-fields/far-fields-deep-fort#unassigned",
-          "name": "unassigned",
-          "notes": ""
         }
       ],
       "transitions": [
@@ -65525,23 +65802,20 @@
           "in_game_id": "Bone Hunter Throw",
           "location_type": "enemy",
           "has_persisted_state": false,
-          "node_id": "far-fields/far-fields-deep-fort#unassigned",
+          "node_id": "far-fields/far-fields-deep-fort#main-area",
           "requirement": {
-            "raw": "",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "requirement is blank"
-            ]
+            "raw": "none",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
           },
           "notes": "",
           "is_todo": false,
-          "is_verified": null,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "subroom reference is blank",
-            "requirement is unresolved"
-          ]
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
         },
         {
           "id": "location:far-fields/far-fields-deep-fort::enemy/flapping-fertid-1",
@@ -65549,23 +65823,20 @@
           "in_game_id": "Fields Flyer",
           "location_type": "enemy",
           "has_persisted_state": false,
-          "node_id": "far-fields/far-fields-deep-fort#unassigned",
+          "node_id": "far-fields/far-fields-deep-fort#main-area",
           "requirement": {
-            "raw": "",
-            "mode": "unresolved",
-            "dnf": [],
-            "unresolved_reasons": [
-              "requirement is blank"
-            ]
+            "raw": "none",
+            "mode": "none",
+            "dnf": [
+              []
+            ],
+            "unresolved_reasons": []
           },
           "notes": "",
           "is_todo": false,
-          "is_verified": null,
-          "logic_status": "unresolved",
-          "unresolved_reasons": [
-            "subroom reference is blank",
-            "requirement is unresolved"
-          ]
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
         }
       ]
     },
@@ -156872,58 +157143,14 @@
           "source_node_id": "choral-chambers/choral-chambers-western-shaft#bottom",
           "target_node_id": "choral-chambers/choral-chambers-western-shaft#section-1",
           "requirement": {
-            "raw": "silk soar OR (faydown cloak AND (cling grip either OR easy Shaman pogo OR easy scuttlebrace OR (ledge grab right AND ((easy Damage boost off Choir pouncer AND easy [heal, voltvessels, plasmium, flea brew, flintslate] stall) OR ledge grab left)))) OR (cling grip both AND (dash right OR easy [hunter,beast] pogo OR easy architect needle strike OR medium wanderer needle strike OR drifter's cloak OR easy scuttlebrace OR Flea brew OR clawline right OR sharpdart OR easy [voltvessels, plasmium, thread storm, cross stitch, pale nails] stall x 2 OR (easy heal stall AND easy rune rage stall) OR (ledge grab right AND easy [heal, flintslate, Rune rage] stall))) OR (easy scuttlebrace AND (sharpdart OR clawline right)) OR (ACT 3 AND easy pogo off Choir Elder)",
+            "raw": "silk soar OR faydown OR (cling grip both AND (dash right OR easy [hunter,beast] pogo OR easy architect needle strike OR medium wanderer needle strike OR drifter's cloak OR easy scuttlebrace OR Flea brew OR clawline right OR sharpdart OR easy [voltvessels, plasmium, thread storm, cross stitch, pale nails] stall x 2 OR (easy heal stall AND easy rune rage stall) OR (ledge grab right AND easy [heal, flintslate, Rune rage] stall))) OR (easy scuttlebrace AND (sharpdart OR clawline right)) OR (ACT 3 AND easy pogo off Choir Elder)",
             "mode": "expression",
             "dnf": [
               [
                 "capability:silk-soar"
               ],
               [
-                "capability:faydown-cloak",
-                "capability:cling-grip:either"
-              ],
-              [
-                "capability:faydown-cloak",
-                "capability:crest-pogo:shaman:easy"
-              ],
-              [
-                "capability:faydown-cloak",
-                "capability:scuttlebrace:easy"
-              ],
-              [
-                "capability:faydown-cloak",
-                "capability:ledge-grab:right",
-                "technique:damage-boost:Pilgrim 01 Song:easy",
-                "capability:stall:heal:easy:1"
-              ],
-              [
-                "capability:faydown-cloak",
-                "capability:ledge-grab:right",
-                "technique:damage-boost:Pilgrim 01 Song:easy",
-                "capability:stall:voltvessels:easy:1"
-              ],
-              [
-                "capability:faydown-cloak",
-                "capability:ledge-grab:right",
-                "technique:damage-boost:Pilgrim 01 Song:easy",
-                "capability:stall:plasmium-phial:easy:1"
-              ],
-              [
-                "capability:faydown-cloak",
-                "capability:ledge-grab:right",
-                "technique:damage-boost:Pilgrim 01 Song:easy",
-                "capability:stall:flea-brew:easy:1"
-              ],
-              [
-                "capability:faydown-cloak",
-                "capability:ledge-grab:right",
-                "technique:damage-boost:Pilgrim 01 Song:easy",
-                "capability:stall:flintslate:easy:1"
-              ],
-              [
-                "capability:faydown-cloak",
-                "capability:ledge-grab:right",
-                "capability:ledge-grab:left"
+                "capability:faydown-cloak"
               ],
               [
                 "capability:cling-grip:both",
@@ -158933,7 +159160,7 @@
           "source_node_id": "choral-chambers/choral-chambers-flea-shaft#top-section-1",
           "target_node_id": "choral-chambers/choral-chambers-flea-shaft#top-section-2",
           "requirement": {
-            "raw": "silk soar OR (cling grip left AND (faydown cloak OR cling grip right OR (easy  pogo off Choir Flyer AND easy heal stall))) OR (faydown cloak AND ledge grab left AND (easy pogo off Choir Elder OR easy [Hunter,Wanderer,Reaper,Beast, Shaman, Architect] pogo) AND spike pogo) OR (easy pogo off [Choir Flyer, Choir Elder] AND easy heal stall AND spike pogo AND ledge grab either) OR (easy scuttlebrace AND dash right) ",
+            "raw": "silk soar OR (cling grip left AND (faydown cloak OR cling grip right OR (easy  pogo off Choir Flyer AND easy heal stall))) OR (faydown cloak AND (easy pogo off Choir Flyer OR ledge grab left) AND (easy pogo off Choir Elder OR easy [Hunter,Wanderer,Reaper,Beast, Shaman, Architect] pogo) AND spike pogo) OR (easy pogo off [Choir Flyer, Choir Elder] AND easy heal stall AND spike pogo AND ledge grab either) OR (easy scuttlebrace AND dash right) ",
             "mode": "expression",
             "dnf": [
               [
@@ -158951,6 +159178,48 @@
                 "capability:cling-grip:left",
                 "capability:enemy-type-pogo:Pilgrim 04 Song:easy",
                 "capability:stall:heal:easy:1"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:enemy-type-pogo:Pilgrim 04 Song:easy",
+                "capability:enemy-type-pogo:Pilgrim Stomper Song:easy",
+                "capability:spike-pogo"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:enemy-type-pogo:Pilgrim 04 Song:easy",
+                "capability:crest-pogo:hunter:easy",
+                "capability:spike-pogo"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:enemy-type-pogo:Pilgrim 04 Song:easy",
+                "capability:crest-pogo:wanderer:easy",
+                "capability:spike-pogo"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:enemy-type-pogo:Pilgrim 04 Song:easy",
+                "capability:crest-pogo:reaper:easy",
+                "capability:spike-pogo"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:enemy-type-pogo:Pilgrim 04 Song:easy",
+                "capability:crest-pogo:beast:easy",
+                "capability:spike-pogo"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:enemy-type-pogo:Pilgrim 04 Song:easy",
+                "capability:crest-pogo:shaman:easy",
+                "capability:spike-pogo"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:enemy-type-pogo:Pilgrim 04 Song:easy",
+                "capability:crest-pogo:architect:easy",
+                "capability:spike-pogo"
               ],
               [
                 "capability:faydown-cloak",
@@ -166103,7 +166372,7 @@
           "source_node_id": "choral-chambers/memorium-entrance-tunnel#base",
           "target": "memorium/memorium-start-shaft@b",
           "requirement": {
-            "raw": "silk soar OR ((ledge grab both OR faydown cloak OR cling grip either OR scuttlebrace) AND easy pogo off Grand Reed) OR (faydown cloak AND (ledge grab either OR easy scuttlebrace OR cling grip either OR easy plasmium stall))",
+            "raw": "silk soar OR ((ledge grab both OR faydown cloak OR cling grip either OR scuttlebrace) AND easy pogo off Grand Reed) OR (faydown cloak AND (ledge grab either OR easy scuttlebrace OR cling grip either OR easy [heal, flea brew,plasmium] stall))",
             "mode": "expression",
             "dnf": [
               [
@@ -166136,6 +166405,14 @@
               [
                 "capability:faydown-cloak",
                 "capability:cling-grip:either"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:stall:heal:easy:1"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:stall:flea-brew:easy:1"
               ],
               [
                 "capability:faydown-cloak",
@@ -185446,7 +185723,7 @@
           "source_node_id": "high-halls/high-halls-shaft-bottom#middle-left",
           "target_node_id": "high-halls/high-halls-shaft-bottom#top-right",
           "requirement": {
-            "raw": "(cling grip either AND (faydown cloak AND spike pogo)) OR (cling grip left AND clawline left AND ((dash right AND (cling grip right OR ledge grab right)) OR clawline right OR sharpdart OR scuttlebrace OR easy pogo off Minister OR drifter's cloak)) OR (cling grip right AND clawline right AND (cling grip left OR clawline left OR scuttlebrace OR easy pogo off Minister)) ",
+            "raw": "(cling grip either AND (faydown cloak AND spike pogo)) OR (cling grip left AND clawline left AND ((dash right AND (cling grip right OR ledge grab right)) OR clawline right OR sharpdart OR scuttlebrace OR easy pogo off Minister OR drifter's cloak)) OR (cling grip right AND clawline right AND (cling grip left OR clawline left OR scuttlebrace OR easy pogo off Minister))  ",
             "mode": "expression",
             "dnf": [
               [
@@ -185581,9 +185858,9 @@
           "unresolved_reasons": []
         },
         {
-          "id": "high-halls/high-halls-shaft-bottom#top>top-right@ft2",
-          "alias": "FT2",
-          "name": "Falling from Top 2",
+          "id": "high-halls/high-halls-shaft-bottom#top>top-right@t",
+          "alias": "T",
+          "name": "Top Right to Top",
           "source_node_id": "high-halls/high-halls-shaft-bottom#top",
           "target_node_id": "high-halls/high-halls-shaft-bottom#top-right",
           "requirement": {
@@ -185646,6 +185923,54 @@
               ],
               [
                 "capability:stall:flea-brew:easy:1"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "high-halls/high-halls-shaft-bottom#bottom-right>top-right@bt",
+          "alias": "BT",
+          "name": "Bottom right to Top right",
+          "source_node_id": "high-halls/high-halls-shaft-bottom#bottom-right",
+          "target_node_id": "high-halls/high-halls-shaft-bottom#top-right",
+          "requirement": {
+            "raw": "Proficient movement AND easy pogo off minister AND faydown cloak AND clawline either AND spike pogo",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:proficient-movement",
+                "capability:enemy-type-pogo:Song Administrator:easy",
+                "capability:faydown-cloak",
+                "capability:clawline:either:1",
+                "capability:spike-pogo"
+              ]
+            ],
+            "unresolved_reasons": []
+          },
+          "notes": "",
+          "is_todo": false,
+          "is_verified": true,
+          "logic_status": "active",
+          "unresolved_reasons": []
+        },
+        {
+          "id": "high-halls/high-halls-shaft-bottom#top-right>bottom-right@bt",
+          "alias": "BT",
+          "name": "Bottom right to Top right",
+          "source_node_id": "high-halls/high-halls-shaft-bottom#top-right",
+          "target_node_id": "high-halls/high-halls-shaft-bottom#bottom-right",
+          "requirement": {
+            "raw": "spike pogo",
+            "mode": "expression",
+            "dnf": [
+              [
+                "capability:spike-pogo"
               ]
             ],
             "unresolved_reasons": []
@@ -186619,11 +186944,30 @@
           "source_node_id": "high-halls/high-halls-big-shaft#clawline-gate-1",
           "target_node_id": "high-halls/high-halls-big-shaft#top",
           "requirement": {
-            "raw": "silk soar",
+            "raw": "silk soar OR (faydown AND ((Have crest beast AND medium heal stall) OR medium flea brew stall OR proficient movement) AND cling grip right AND spike pogo)",
             "mode": "expression",
             "dnf": [
               [
                 "capability:silk-soar"
+              ],
+              [
+                "capability:faydown-cloak",
+                "item:crest-beast",
+                "capability:stall:heal:medium:1",
+                "capability:cling-grip:right",
+                "capability:spike-pogo"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:stall:flea-brew:medium:1",
+                "capability:cling-grip:right",
+                "capability:spike-pogo"
+              ],
+              [
+                "capability:faydown-cloak",
+                "capability:proficient-movement",
+                "capability:cling-grip:right",
+                "capability:spike-pogo"
               ]
             ],
             "unresolved_reasons": []
@@ -186678,14 +187022,58 @@
           "source_node_id": "high-halls/high-halls-big-shaft#clawline-gate-2",
           "target_node_id": "high-halls/high-halls-big-shaft#clawline-gate-1",
           "requirement": {
-            "raw": "activate CLawline gate 1 AND (proficient movement AND spike pogo AND faydown cloak)",
+            "raw": "activate CLawline gate 1 AND (proficient movement AND spike pogo AND (medium [beast,reaper,shaman, architect, witch] pogo OR faydown cloak OR (medium [wanderer, hunter] pogo AND cling grip left)))",
             "mode": "expression",
             "dnf": [
               [
                 "dependency:location:high-halls/high-halls-big-shaft::switch/clawline-gate-1",
                 "capability:proficient-movement",
                 "capability:spike-pogo",
+                "capability:crest-pogo:beast:medium"
+              ],
+              [
+                "dependency:location:high-halls/high-halls-big-shaft::switch/clawline-gate-1",
+                "capability:proficient-movement",
+                "capability:spike-pogo",
+                "capability:crest-pogo:reaper:medium"
+              ],
+              [
+                "dependency:location:high-halls/high-halls-big-shaft::switch/clawline-gate-1",
+                "capability:proficient-movement",
+                "capability:spike-pogo",
+                "capability:crest-pogo:shaman:medium"
+              ],
+              [
+                "dependency:location:high-halls/high-halls-big-shaft::switch/clawline-gate-1",
+                "capability:proficient-movement",
+                "capability:spike-pogo",
+                "capability:crest-pogo:architect:medium"
+              ],
+              [
+                "dependency:location:high-halls/high-halls-big-shaft::switch/clawline-gate-1",
+                "capability:proficient-movement",
+                "capability:spike-pogo",
+                "capability:crest-pogo:witch:medium"
+              ],
+              [
+                "dependency:location:high-halls/high-halls-big-shaft::switch/clawline-gate-1",
+                "capability:proficient-movement",
+                "capability:spike-pogo",
                 "capability:faydown-cloak"
+              ],
+              [
+                "dependency:location:high-halls/high-halls-big-shaft::switch/clawline-gate-1",
+                "capability:proficient-movement",
+                "capability:spike-pogo",
+                "capability:crest-pogo:wanderer:medium",
+                "capability:cling-grip:left"
+              ],
+              [
+                "dependency:location:high-halls/high-halls-big-shaft::switch/clawline-gate-1",
+                "capability:proficient-movement",
+                "capability:spike-pogo",
+                "capability:crest-pogo:hunter:medium",
+                "capability:cling-grip:left"
               ]
             ],
             "unresolved_reasons": []
@@ -186779,7 +187167,7 @@
           "source_node_id": "high-halls/high-halls-big-shaft#spike-hell",
           "target_node_id": "high-halls/high-halls-big-shaft#middle",
           "requirement": {
-            "raw": "cling grip either OR faydown cloak OR (easy pogo off Minister AND (easy shaman pogo OR easy plasmium stall)) OR (easy shaman pogo AND scuttlebrace)\n",
+            "raw": "cling grip either OR faydown cloak OR (easy pogo off Minister AND (easy shaman pogo OR easy plasmium stall)) OR ((easy shaman pogo OR easy [heal,flea brew, rune rage, thread storm] stall) AND easy scuttlebrace) OR silk soar\n",
             "mode": "expression",
             "dnf": [
               [
@@ -186798,7 +187186,26 @@
               ],
               [
                 "capability:crest-pogo:shaman:easy",
-                "capability:scuttlebrace:none"
+                "capability:scuttlebrace:easy"
+              ],
+              [
+                "capability:stall:heal:easy:1",
+                "capability:scuttlebrace:easy"
+              ],
+              [
+                "capability:stall:flea-brew:easy:1",
+                "capability:scuttlebrace:easy"
+              ],
+              [
+                "capability:stall:rune-rage:easy:1",
+                "capability:scuttlebrace:easy"
+              ],
+              [
+                "capability:stall:thread-storm:easy:1",
+                "capability:scuttlebrace:easy"
+              ],
+              [
+                "capability:silk-soar"
               ]
             ],
             "unresolved_reasons": []
@@ -186853,31 +187260,46 @@
           "source_node_id": "high-halls/high-halls-big-shaft#left-spike-exit",
           "target_node_id": "high-halls/high-halls-big-shaft#spike-hell",
           "requirement": {
-            "raw": "break wall right AND ((proficient movement AND spike pogo AND faydown cloak) OR (cling grip both AND faydown cloak AND spike pogo) OR (proficient movement AND spike pogo AND cling grip right) OR (proficient movement AND hard shaman pogo))",
+            "raw": "break wall either AND ((proficient movement AND spike pogo AND faydown cloak) OR (cling grip both AND faydown cloak AND spike pogo) OR (proficient movement AND spike pogo AND cling grip right) OR (proficient movement AND hard [reaper,beast,shaman, architect] pogo))",
             "mode": "expression",
             "dnf": [
               [
-                "capability:break-wall:right",
+                "capability:break-wall:either",
                 "capability:proficient-movement",
                 "capability:spike-pogo",
                 "capability:faydown-cloak"
               ],
               [
-                "capability:break-wall:right",
+                "capability:break-wall:either",
                 "capability:cling-grip:both",
                 "capability:faydown-cloak",
                 "capability:spike-pogo"
               ],
               [
-                "capability:break-wall:right",
+                "capability:break-wall:either",
                 "capability:proficient-movement",
                 "capability:spike-pogo",
                 "capability:cling-grip:right"
               ],
               [
-                "capability:break-wall:right",
+                "capability:break-wall:either",
+                "capability:proficient-movement",
+                "capability:crest-pogo:reaper:hard"
+              ],
+              [
+                "capability:break-wall:either",
+                "capability:proficient-movement",
+                "capability:crest-pogo:beast:hard"
+              ],
+              [
+                "capability:break-wall:either",
                 "capability:proficient-movement",
                 "capability:crest-pogo:shaman:hard"
+              ],
+              [
+                "capability:break-wall:either",
+                "capability:proficient-movement",
+                "capability:crest-pogo:architect:hard"
               ]
             ],
             "unresolved_reasons": []
@@ -186895,16 +187317,16 @@
           "source_node_id": "high-halls/high-halls-big-shaft#left-spike-exit",
           "target_node_id": "high-halls/high-halls-big-shaft#clawline-gate-3",
           "requirement": {
-            "raw": "break wall left AND (drifter's cloak OR spike pogo) AND clawline either",
+            "raw": "break wall either AND (drifter's cloak OR spike pogo) AND clawline either",
             "mode": "expression",
             "dnf": [
               [
-                "capability:break-wall:left",
+                "capability:break-wall:either",
                 "capability:drifters-cloak",
                 "capability:clawline:either:1"
               ],
               [
-                "capability:break-wall:left",
+                "capability:break-wall:either",
                 "capability:spike-pogo",
                 "capability:clawline:either:1"
               ]
@@ -186924,7 +187346,7 @@
           "source_node_id": "high-halls/high-halls-big-shaft#clawline-gate-3",
           "target_node_id": "high-halls/high-halls-big-shaft#left-spike-exit",
           "requirement": {
-            "raw": "spike pogo AND (faydown cloak OR cling grip left OR (cling grip right AND easy shaman pogo))",
+            "raw": "spike pogo AND (faydown cloak OR cling grip either)",
             "mode": "expression",
             "dnf": [
               [
@@ -186933,12 +187355,7 @@
               ],
               [
                 "capability:spike-pogo",
-                "capability:cling-grip:left"
-              ],
-              [
-                "capability:spike-pogo",
-                "capability:cling-grip:right",
-                "capability:crest-pogo:shaman:easy"
+                "capability:cling-grip:either"
               ]
             ],
             "unresolved_reasons": []
@@ -187195,11 +187612,11 @@
           "has_persisted_state": true,
           "node_id": "high-halls/high-halls-big-shaft#clawline-gate-1",
           "requirement": {
-            "raw": "Clawline",
+            "raw": "Clawline either",
             "mode": "expression",
             "dnf": [
               [
-                "capability:clawline:none:1"
+                "capability:clawline:either:1"
               ]
             ],
             "unresolved_reasons": []
@@ -187218,11 +187635,11 @@
           "has_persisted_state": true,
           "node_id": "high-halls/high-halls-big-shaft#clawline-gate-2",
           "requirement": {
-            "raw": "Clawline",
+            "raw": "Clawline either",
             "mode": "expression",
             "dnf": [
               [
-                "capability:clawline:none:1"
+                "capability:clawline:either:1"
               ]
             ],
             "unresolved_reasons": []
@@ -187241,11 +187658,11 @@
           "has_persisted_state": true,
           "node_id": "high-halls/high-halls-big-shaft#clawline-gate-3",
           "requirement": {
-            "raw": "Clawline",
+            "raw": "Clawline either",
             "mode": "expression",
             "dnf": [
               [
-                "capability:clawline:none:1"
+                "capability:clawline:either:1"
               ]
             ],
             "unresolved_reasons": []

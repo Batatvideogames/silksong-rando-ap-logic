@@ -519,7 +519,7 @@
       "outputSyntax": "count:silk-hearts:{quantity}",
       "notes": "Shorthand for have {quantity} silk hearts.",
       "sortOrder": 51,
-      "aliases": "silkhearts x, silk hearts x"
+      "aliases": "silk hearts x, silkhearts x"
     },
     {
       "id": "6ccc5e48-bb32-5dba-8bf3-ec93411d2c36",

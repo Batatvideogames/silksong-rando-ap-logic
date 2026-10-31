@@ -37,7 +37,9 @@
 | M | Middle Left to Top Right | Middle Left | Top Right | (cling grip either AND (faydown cloak AND spike pogo)) OR (cling grip left AND clawline left AND ((dash right AND (cling grip right OR ledge grab right)) OR clawline right OR sharpdart OR scuttlebrace OR easy pogo off Minister OR drifter's cloak)) OR (cling grip right AND clawline right AND (cling grip left OR clawline left OR scuttlebrace OR easy pogo off Minister)) |  | Verified | ✓ |  |
 | M | Middle Left to Top Right | Top Right | Middle Left | none |  | Verified | ✓ | falling |
 | T | Top Right to Top | Top Right | Top | (faydown cloak AND (((run OR clawline left) AND ledge grab left) OR cling grip left)) OR silk soar OR (cling grip left AND easy pogo off Minister) |  | Verified | ✓ |  |
-| FT2 | Falling from Top 2 | Top | Top Right | clawline right OR dash right OR faydown cloak OR scuttlebrace OR easy beast pogo OR easy architect needle strike OR ((easy [heal, rune rage] stall OR easy wanderer needle strike) AND (ledge grab right OR cling grip right)) OR sharpdart OR easy [voltvessels, plasmium, flintslate,flea brew] stall |  | Verified | ✓ |  |
+| T | Top Right to Top | Top | Top Right | clawline right OR dash right OR faydown cloak OR scuttlebrace OR easy beast pogo OR easy architect needle strike OR ((easy [heal, rune rage] stall OR easy wanderer needle strike) AND (ledge grab right OR cling grip right)) OR sharpdart OR easy [voltvessels, plasmium, flintslate,flea brew] stall |  | Verified | ✓ |  |
+| BT | Bottom right to Top right | Bottom Right | Top Right | Proficient movement AND easy pogo off minister AND faydown cloak AND clawline either AND spike pogo |  | Verified | ✓ |  |
+| BT | Bottom right to Top right | Top Right | Bottom Right | spike pogo |  | Verified | ✓ |  |
 
 ## Check Locations
 

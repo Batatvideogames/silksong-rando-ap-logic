@@ -37,17 +37,17 @@
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | TF | Falling from Top | Top | Clawline Gate 1 | none |  | Verified | ✓ |  |
-| TF | Falling from Top | Clawline Gate 1 | Top | silk soar |  | Verified | ✓ |  |
+| TF | Falling from Top | Clawline Gate 1 | Top | silk soar OR (faydown AND ((Have crest beast AND medium heal stall) OR medium flea brew stall OR proficient movement) AND cling grip right AND spike pogo) |  | Verified | ✓ |  |
 | C1 | ClawGate 1 to 2 | Clawline Gate 1 | Clawline Gate 2 | (Activate Clawline Gate 1 AND ((proficient movement AND spike pogo AND clawline left) OR ((faydown cloak OR drifter's) AND spike pogo AND clawline either))) |  | Verified | ✓ |  |
-| C1 | ClawGate 1 to 2 | Clawline Gate 2 | Clawline Gate 1 | activate CLawline gate 1 AND (proficient movement AND spike pogo AND faydown cloak) |  | Verified | ✓ |  |
+| C1 | ClawGate 1 to 2 | Clawline Gate 2 | Clawline Gate 1 | activate CLawline gate 1 AND (proficient movement AND spike pogo AND (medium [beast,reaper,shaman, architect, witch] pogo OR faydown cloak OR (medium [wanderer, hunter] pogo AND cling grip left))) |  | Verified | ✓ |  |
 | C2 | Clawline | Clawline Gate 2 | Middle | clawline either AND Activate Clawline Gate 2 |  | Verified | ✓ |  |
 | C2 | Clawline | Middle | Clawline Gate 2 | Activate Clawline Gate 2 AND ((faydown cloak AND easy pogo off Minister) OR silk soar OR (medium pogo off Minister AND cling grip either)) |  | Verified | ✓ |  |
 | MS | middle to spike hell | Middle | Spike Hell | none |  | Verified | ✓ | falling |
-| MS | middle to spike hell | Spike Hell | Middle | cling grip either OR faydown cloak OR (easy pogo off Minister AND (easy shaman pogo OR easy plasmium stall)) OR (easy shaman pogo AND scuttlebrace) |  | Verified | ✓ |  |
+| MS | middle to spike hell | Spike Hell | Middle | cling grip either OR faydown cloak OR (easy pogo off Minister AND (easy shaman pogo OR easy plasmium stall)) OR ((easy shaman pogo OR easy [heal,flea brew, rune rage, thread storm] stall) AND easy scuttlebrace) OR silk soar |  | Verified | ✓ |  |
 | S | Spiked Secret | Spike Hell | Left Spike Exit | ((proficient movement AND spike pogo) OR Drifter's cloak) AND (break wall left OR break wall right) |  | Verified | ✓ |  |
-| S | Spiked Secret | Left Spike Exit | Spike Hell | break wall right AND ((proficient movement AND spike pogo AND faydown cloak) OR (cling grip both AND faydown cloak AND spike pogo) OR (proficient movement AND spike pogo AND cling grip right) OR (proficient movement AND hard shaman pogo)) |  | Verified | ✓ |  |
-| SF | Falling from Secret | Left Spike Exit | Clawline Gate 3 | break wall left AND (drifter's cloak OR spike pogo) AND clawline either |  | Verified | ✓ |  |
-| SF | Falling from Secret | Clawline Gate 3 | Left Spike Exit | spike pogo AND (faydown cloak OR cling grip left OR (cling grip right AND easy shaman pogo)) |  | Verified | ✓ |  |
+| S | Spiked Secret | Left Spike Exit | Spike Hell | break wall either AND ((proficient movement AND spike pogo AND faydown cloak) OR (cling grip both AND faydown cloak AND spike pogo) OR (proficient movement AND spike pogo AND cling grip right) OR (proficient movement AND hard [reaper,beast,shaman, architect] pogo)) |  | Verified | ✓ |  |
+| SF | Falling from Secret | Left Spike Exit | Clawline Gate 3 | break wall either AND (drifter's cloak OR spike pogo) AND clawline either |  | Verified | ✓ |  |
+| SF | Falling from Secret | Clawline Gate 3 | Left Spike Exit | spike pogo AND (faydown cloak OR cling grip either) |  | Verified | ✓ |  |
 | FC3 | Floor <> Clawline 3 | Bottom | Clawline Gate 3 | activate Clawline Gate 3 AND (spike pogo AND (faydown cloak OR cling grip right OR (cling grip left AND easy shaman pogo))) |  | Verified | ✓ |  |
 | FC3 | Floor <> Clawline 3 | Clawline Gate 3 | Bottom | Activate Clawline Gate 3 |  | Verified | ✓ |  |
 | WG | wish gate | Bottom | Behind Sentinel Gate | complete THE final audience wish promised |  | Verified | ✓ |  |
@@ -63,9 +63,9 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | High Halls - Rosary Chest | Penthouse | none |  | Verified | collectible | ✓ |  |
 | 2 | Resting Site: High Halls | Resting Site Ledge | complete THE A Vassal Lost Wish Promised |  | Verified | event | ✓ |  |
-| 3 | Clawline Gate 1 | Clawline Gate 1 | Clawline |  | Verified | switch | ✓ |  |
-| 4 | Clawline Gate 2 | Clawline Gate 2 | Clawline |  | Verified | switch | ✓ |  |
-| 5 | Clawline Gate 3 | Clawline Gate 3 | Clawline |  | Verified | switch | ✓ |  |
+| 3 | Clawline Gate 1 | Clawline Gate 1 | Clawline either |  | Verified | switch | ✓ |  |
+| 4 | Clawline Gate 2 | Clawline Gate 2 | Clawline either |  | Verified | switch | ✓ |  |
+| 5 | Clawline Gate 3 | Clawline Gate 3 | Clawline either |  | Verified | switch | ✓ |  |
 | 6 | Minister 1 | Middle | free |  | Verified | enemy | ✓ |  |
 
 ## Notes

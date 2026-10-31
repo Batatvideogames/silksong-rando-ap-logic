@@ -23,7 +23,7 @@
 | Alias | Name | Source | Destination | Requirements | TODO | Verification | Annotated | Notes |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | MJ | massive jump | the highest highs | the pit of despair | none (falling) |  | Verified | ✓ |  |
-| MJ | massive jump | the pit of despair | the highest highs | ledge grab OR cling grip OR easy scuttlebrace OR easy shaman pogo OR (easy pogo off Fertid AND easy reaper pogo) OR silk soar OR faydown cloak |  | Verified | ✓ |  |
+| MJ | massive jump | the pit of despair | the highest highs | ledge grab right OR cling grip right OR easy scuttlebrace OR easy shaman pogo OR (easy pogo off Fertid AND easy reaper pogo) OR silk soar OR faydown cloak |  | Verified | ✓ |  |
 
 ## Check Locations
 

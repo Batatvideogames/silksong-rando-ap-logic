@@ -30,11 +30,11 @@
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | LBR | left blast rock | lower left exit area | main floor | clear lower left blast rock blockade |  | Verified | ✓ |  |
 | LBR | left blast rock | main floor | lower left exit area | clear lower left blast rock blockade |  | Verified | ✓ |  |
-| V1 | vertical 1 | main floor | upper left exit area | ledge grab OR silk soar OR (easy enemy pogo AND (easy beast pogo OR easy shaman pogo OR architect slash left OR easy architect needle strike OR easy wanderer needle strike OR easy beast needle strike)) OR drifter's cloak OR faydown cloak OR cling grip OR clawline OR scuttlebrace OR run OR dash |  | Verified | ✓ |  |
+| V1 | vertical 1 | main floor | upper left exit area | ledge grab left OR silk soar  OR (easy enemy pogo off [ Pilgrim Pouncer, Winged Pilgrim] AND (easy beast pogo OR easy shaman pogo OR architect slash left OR easy architect needle strike OR easy wanderer needle strike OR easy beast needle strike)) OR drifter's cloak OR faydown cloak  OR cling grip left  OR clawline left  OR easy scuttlebrace  OR run  OR dash left |  | Verified | ✓ |  |
 | V1 | vertical 1 | upper left exit area | main floor | clear upper left blast rock blockade |  | Verified | ✓ |  |
 | V2 | vertical 2 | main floor | relic alcove | clear upper left blast rock blockade AND ( drifter's cloak OR silk soar ) |  | Verified | ✓ |  |
 | V2 | vertical 2 | relic alcove | main floor | none (falling) |  | Verified | ✓ |  |
-| V3 | vertical 3 | main floor | rosary alcove | drifter's cloak OR faydown cloak OR silk soar OR ( ledge grab AND ( run OR dash OR easy beast pogo OR cling grip OR clawline OR sharpdart OR scuttlebrace ) ) |  | Verified | ✓ |  |
+| V3 | vertical 3 | main floor | rosary alcove | drifter's cloak  OR faydown cloak  OR silk soar  OR ( ledge grab both AND ( run OR dash left OR easy beast pogo OR cling grip left OR clawline left OR sharpdart OR easy scuttlebrace ) ) |  | Verified | ✓ |  |
 | V3 | vertical 3 | rosary alcove | main floor | none (falling) |  | Verified | ✓ |  |
 | V4 | vertical 4 | main floor | bone bridge | clear spine break blast rock AND ( faydown cloak OR silk soar OR ledge grab OR cling grip ) |  | Verified | ✓ |  |
 | V4 | vertical 4 | bone bridge | main floor | clear spine break blast rock |  | Verified | ✓ |  |
